@@ -40,14 +40,17 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
   font-size:var(--nyx-compat-size-16p5px);
   color:var(--tx);
   -webkit-font-smoothing:antialiased;
-  user-select:none;
+  /* Text is selectable/copyable site-wide (user decision 2026-07-15); only
+     drag/pan surfaces and buttons opt out below. */
 }
+.gp :is(button,[role="button"],.gp-fn-row,.gp-hex){ user-select:none; }
 .gp *{ box-sizing:border-box; margin:0; padding:0; }
 
 /* Shared contracts stay dormant until their feature-by-feature migrations. */
 .nyx-btn{
   appearance:none; display:inline-flex; align-items:center; justify-content:center; gap:var(--nyx-space-8);
-  min-height:38px; box-sizing:border-box; border:0; border-radius:var(--nyx-radius-control);
+  clip-path:var(--nyx-clip-control); text-transform:uppercase; letter-spacing:var(--nyx-tracking-control);
+  min-height:38px; box-sizing:border-box; border:0; border-radius:0;
   padding:var(--nyx-space-8) var(--nyx-space-14); color:var(--nyx-color-control-text);
   background:var(--nyx-color-control-surface); box-shadow:var(--nyx-shadow-control);
   font:var(--nyx-compat-font-872b97fb43e6); letter-spacing:var(--nyx-compat-tracking-p04em);
@@ -58,8 +61,8 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
 .nyx-btn:focus-visible{ outline:var(--nyx-focus-ring); outline-offset:var(--nyx-focus-offset); }
 .nyx-btn:active{ transform:translateY(1px); }
 .nyx-btn:disabled,.nyx-btn[aria-disabled="true"]{ cursor:not-allowed; opacity:.48; }
-.nyx-btn--primary{ color:var(--nyx-color-text-max); background:var(--nyx-gradient-control-primary); box-shadow:var(--nyx-shadow-accent); }
-.nyx-btn--primary:hover{ background:var(--nyx-gradient-control-primary); filter:brightness(1.07); }
+.nyx-btn--primary{ color:var(--nyx-color-text-max); background:var(--nyx-color-control-active); }
+.nyx-btn--primary:hover{ background:var(--nyx-color-control-active); filter:brightness(1.07); }
 .nyx-btn--icon{ width:34px; min-width:34px; height:34px; min-height:34px; padding:0; }
 
 .nyx-input{
@@ -5967,7 +5970,9 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 
 .cm-controls{ position:relative; display:flex; flex-direction:row; align-items:center; flex-wrap:wrap; gap:var(--nyx-space-14); flex:none; margin-top:var(--nyx-space-14); }
 .cm-controls .cm-tabs{ margin-top:0; }
-.cm-tabs{ flex:1 1 520px; max-width:994px; display:grid; grid-template-columns:repeat(3,minmax(0,326px)); gap:var(--nyx-space-8); }
+/* Columns size to the widest label (e.g. "Weekly Challenge") instead of fixed
+   326px tracks — user decision 2026-07-15 (#7). */
+.cm-tabs{ flex:0 1 auto; display:inline-grid; grid-auto-flow:column; grid-auto-columns:1fr; gap:var(--nyx-space-8); }
 .cm-tabs .gp-section-nav-button{ width:100%; min-height:45px; padding:var(--nyx-space-10) var(--nyx-compat-spacing-11px); border-radius:0; overflow:visible;
   flex-direction:row; align-items:center; justify-content:flex-start; gap:var(--nyx-space-10); color:var(--nyx-compat-color-hex-d9d1fb);
   background:transparent; box-shadow:none; font-family:var(--nyx-compat-family-bbbd64e38bdd); font-size:var(--nyx-type-small); line-height:1.2; }
@@ -7339,11 +7344,12 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
   .achievement-danger-confirm button,.achievement-backup-actions > :is(button,.achievement-file-button)
 ){
   appearance:none; display:inline-flex; align-items:center; justify-content:center; gap:var(--nyx-space-8);
-  min-height:var(--nyx-size-control); box-sizing:border-box; border:0; border-radius:var(--nyx-radius-control);
-  padding:var(--nyx-space-8) var(--nyx-space-14); color:var(--nyx-color-control-text);
-  background:var(--nyx-color-control-surface); box-shadow:var(--nyx-shadow-control);
-  font:var(--nyx-compat-font-872b97fb43e6); letter-spacing:var(--nyx-compat-tracking-p04em);
-  text-decoration:none; cursor:pointer;
+  min-height:var(--nyx-size-control); box-sizing:border-box; border:0; border-radius:0;
+  clip-path:var(--nyx-clip-control);
+  padding:var(--nyx-space-8) var(--nyx-space-18); color:var(--nyx-color-control-text);
+  background:var(--nyx-color-control-surface);
+  font:var(--nyx-compat-font-872b97fb43e6); letter-spacing:var(--nyx-tracking-control);
+  text-transform:uppercase; text-decoration:none; cursor:pointer;
   transition:border-color .16s ease,background-color .16s ease,color .16s ease,filter .16s ease,transform .16s ease;
 }
 :is(
@@ -7401,12 +7407,12 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
   .beta-diff-actions button.primary,.nyx-img-actions button.primary,.nyx-img-pickpreview-actions button.apply,
   .bcal-dialog-actions button.primary,.achievement-import-actions button.primary,
   .achievement-create-profile button,.achievement-profile-form button[type="submit"]){
-  color:var(--nyx-color-text-max); background:var(--nyx-gradient-control-primary); box-shadow:var(--nyx-shadow-accent);
+  color:var(--nyx-color-text-max); background:var(--nyx-color-control-active);
 }
 :is(.gt-mode-tabs button.on,.gt-filter-pills button.on,.gt-pity-filters button.on,
   .cm-days button.on,.cm-presets button.on,.cm-character-tabs button.on,.db-tabs button.on,
   .wonder-tabs button.on,.tcg-tabs button.on,.pot-tabs button.on,.achievement-manage > nav button.on){
-  color:var(--nyx-color-text-max); background:var(--nyx-gradient-control-primary); box-shadow:var(--nyx-shadow-accent);
+  color:var(--nyx-color-text-max); background:var(--nyx-color-control-active);
 }
 :is(.gt-sync-delete,.achievement-danger-zone > button,.achievement-danger-confirm button:first-of-type){
   color:var(--nyx-color-chip-danger); background:var(--nyx-color-chip-danger-surface);

@@ -216,3 +216,12 @@ Because the branch is deliberately pinned to the live commit while local source 
 8. Update `nyx-0079` to `done` and write the durable user handoff with commits, actual command results, evidence paths, risks, adoption, and discard instructions.
 
 No production deploy, PR, merge, push, dependency addition, UMD script, data/worker/scraper change, or frozen legacy change is authorized.
+
+## Standing UI rules — user decisions 2026-07-15
+
+These override earlier sections where they differ. Future changes must uphold them:
+
+1. **Canonical button** is the section-selector row: angled `--nyx-clip-control` silhouette, uppercase bold small type, `--nyx-tracking-control`, violet wash states (`--nyx-color-control-surface` / `-hover` / `-active`). All ordinary text buttons take it via the shared contract in `game-page-shared.css`; icon-only buttons stay square but share the same colors. No per-feature button recipes.
+2. **No gold/amber in UI chrome.** Forecast/expected styling, tags, rails, and markers use the purple family. Amber may appear only as a semantic warning color, never decoration. (Timeline forecast = dimmed purple + small EXPECTED label, no dashed boxes.)
+3. **Text is selectable and copyable site-wide.** `user-select:none` is allowed only on buttons and drag/pan surfaces (e.g. `.ntl-canvas`).
+4. **Beta/Upcoming tags are purple**, layered above artwork, always readable.

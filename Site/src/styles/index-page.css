@@ -17,7 +17,6 @@
     color:var(--tx);
     overflow:hidden;
     -webkit-font-smoothing:antialiased;
-    user-select:none;
   }
   /* ===== full-viewport background stack ===== */
   .page-bg{

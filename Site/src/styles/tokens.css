@@ -42,10 +42,15 @@
   --nyx-color-border-active:rgba(183,170,255,.35);
 
   /* Existing shared component recipes */
-  --nyx-color-control-text:#eee9ff;
-  --nyx-color-control-surface:rgba(107,84,196,.28);
-  --nyx-color-control-surface-hover:rgba(124,96,220,.36);
+  --nyx-color-control-text:#d9d1fb;
+  --nyx-color-control-surface:rgba(139,123,255,.12);
+  --nyx-color-control-surface-hover:rgba(139,123,255,.2);
+  --nyx-color-control-active:rgba(139,123,255,.32);
   --nyx-color-control-edge:rgba(204,187,255,.24);
+  /* Canonical control silhouette: the section-selector angled row (user decision 2026-07-15).
+     Ordinary text buttons take this clip; icon buttons stay square. */
+  --nyx-clip-control:polygon(0% 50%, 12px 0%, calc(100% - 12px) 0%, 100% 50%, calc(100% - 12px) 100%, 12px 100%);
+  --nyx-tracking-control:.05em;
   --nyx-color-input-surface:rgba(13,10,30,.85);
   --nyx-color-chip-text:#c9c0e8;
   --nyx-color-chip-surface:rgba(183,170,255,.07);

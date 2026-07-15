@@ -7100,6 +7100,7 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
   .gp-topbar .tb-center::-webkit-scrollbar{display:none}
   .gp-game-rail,.gp-game-rail-icons{flex-direction:column;align-items:center}
   .gp-game-rail{width:100%;gap:12px}
+  .gp-topbar.is-game-overview .gp-game-rail{width:64px;justify-self:start}
   .gp-game-rail-icons{gap:10px}
   .gp-topbar .gp-med{width:64px;height:64px}
   .gp-topbar .gp-med img{width:52px;height:52px}

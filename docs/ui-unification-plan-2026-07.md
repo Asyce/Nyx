@@ -104,6 +104,8 @@ Existing `.gp`, gacha, timeline, material, database, library, calendar, and achi
 
 Some exact live values are intentionally special: rarity frames, game/content status colors, the achievement paper ledger, the timeline's schedule bands, artwork masks, and decorative gradients. They receive clearly scoped compatibility tokens in `tokens.css` instead of leaving raw color/type/spacing/radius/shadow values scattered through feature CSS.
 
+Compatibility expressions that depend on feature-local variables are declared at their exact consumer selectors in `tokens.css`; putting them on `:root` would compute them before the feature value exists. Stable accent aliases also exist at `:root` so React portals mounted beside, rather than inside, `.gp` retain the same glow and focus language. Shorthand font tokens use a valid Nyx UI family fallback when an optional library font is absent.
+
 The final static coverage rule is:
 
 - raw chrome colors, font sizes, spacing values, radii, and shadows belong in `tokens.css` only;

@@ -25,6 +25,12 @@
   --nyx-color-character-hover:#c18cff;
   --nyx-color-character-hover-glow:rgba(193,140,255,.86);
   --nyx-color-sim-element:#9a72e8;
+  /* Stable aliases also reach React portals mounted outside the game shell. */
+  --accent:var(--nyx-color-accent);
+  --accent-bright:var(--nyx-color-accent-bright);
+  --accent-glow:var(--nyx-color-accent-glow);
+  --character-hover:var(--nyx-color-character-hover);
+  --character-hover-glow:var(--nyx-color-character-hover-glow);
   --nyx-color-success:#79d8b8;
   --nyx-color-danger:#de7892;
   --nyx-color-warning:#e6b450;
@@ -163,13 +169,10 @@
   --nyx-compat-color-11565380f030:rgba(6,5,17,.42);
   --nyx-compat-color-11f436d53ef3:rgba(122,99,200,.45);
   --nyx-compat-color-122394c7e7fb:rgba(15,36,48,.95);
-  --nyx-compat-color-12376054c278:rgba(var(--ach-accent-rgb),.26);
   --nyx-compat-color-125fcf1b17b4:rgba(211,76,163,.32);
   --nyx-compat-color-12727bdce092:rgba(8,6,18,0);
   --nyx-compat-color-127b1fcd69b1:rgba(205,191,255,.55);
-  --nyx-compat-color-129eb6a17ebd:rgba(var(--ach-accent-rgb),.42);
   --nyx-compat-color-12ace2d99e61:rgba(15,11,31,.84);
-  --nyx-compat-color-13c4fd519b98:rgba(var(--ach-accent-rgb),.33);
   --nyx-compat-color-14250fec9625:rgba(232,178,95,.55);
   --nyx-compat-color-142dcb757611:rgba(12,9,28,.55);
   --nyx-compat-color-143120cacd00:rgba(20,15,42,.72);
@@ -190,7 +193,6 @@
   --nyx-compat-color-19d57efffeb5:rgba(104,82,184,.56);
   --nyx-compat-color-1b52e406d359:rgba(20,14,44,.98);
   --nyx-compat-color-1bc55d885213:rgba(62,45,116,.26);
-  --nyx-compat-color-1d0e03510af4:rgba(var(--ach-accent-rgb),.3);
   --nyx-compat-color-1d3f3c150396:rgba(183,170,255,.095);
   --nyx-compat-color-1d79ac92198d:rgba(8,6,22,.32);
   --nyx-compat-color-1e33b2b23972:rgba(14,10,32,.6);
@@ -210,7 +212,6 @@
   --nyx-compat-color-21fc42ba413a:rgba(28,22,58,.72);
   --nyx-compat-color-222487e5c631:rgba(12,8,28,.26);
   --nyx-compat-color-222ef397f65a:rgba(16,12,34,.4);
-  --nyx-compat-color-226f46ff22b2:rgba(var(--ach-accent-rgb),.09);
   --nyx-compat-color-2279a26ac072:rgba(202,191,255,.65);
   --nyx-compat-color-22a90b4eee25:rgba(13,10,30,.56);
   --nyx-compat-color-22b60a790294:rgba(16,12,34,.38);
@@ -232,7 +233,6 @@
   --nyx-compat-color-2a7caa893352:rgba(76,12,34,.7);
   --nyx-compat-color-2b17a7190343:rgba(4,3,12,.72);
   --nyx-compat-color-2beb831d1506:rgba(7,5,18,.64);
-  --nyx-compat-color-2c2e69e12484:rgba(var(--ach-accent-rgb),.28);
   --nyx-compat-color-2c42c6df8167:rgba(124,53,255,.18);
   --nyx-compat-color-2dd3aa7181cd:rgba(255,255,255,.016);
   --nyx-compat-color-2e79aeedb047:rgba(143,95,226,.2);
@@ -241,10 +241,8 @@
   --nyx-compat-color-2f93647338e5:rgba(22,17,46,.45);
   --nyx-compat-color-3003633209a5:rgba(47,31,92,.5);
   --nyx-compat-color-306c851d2f0b:rgba(10,7,24,.85);
-  --nyx-compat-color-3071ba9a7dff:rgba(var(--ach-accent-rgb),.04);
   --nyx-compat-color-30ba7b027630:rgba(9,7,22,.76);
   --nyx-compat-color-30debeaf45fe:rgba(90,25,48,.24);
-  --nyx-compat-color-3123953fe303:rgba(var(--ach-accent-rgb),.075);
   --nyx-compat-color-32522062e201:rgba(154,137,234,.34);
   --nyx-compat-color-32ad2e23a2c4:rgba(5,4,11,.6);
   --nyx-compat-color-32f6eddfdcf1:rgba(12,9,28,.5);
@@ -259,14 +257,12 @@
   --nyx-compat-color-3882983fe67b:rgba(18,13,40,.6);
   --nyx-compat-color-38ae883e9772:rgba(211,76,163,.3);
   --nyx-compat-color-38cf0e2dcf47:rgba(8,7,19,.95);
-  --nyx-compat-color-3972e28257b7:rgba(var(--ach-accent-rgb),.13);
   --nyx-compat-color-39bc89db1178:rgba(5,4,10,.88);
   --nyx-compat-color-3a167cc3e1b9:rgba(35,26,58,.98);
   --nyx-compat-color-3a4e78455075:rgba(11,8,26,.58);
   --nyx-compat-color-3abf49ec81cd:rgba(255,255,255,.7);
   --nyx-compat-color-3bcecfb6d780:rgba(9,7,17,.96);
   --nyx-compat-color-3c27117dbecf:rgba(5,4,11,.72);
-  --nyx-compat-color-3c4839cf1be7:rgba(var(--ach-accent-rgb),.025);
   --nyx-compat-color-3cd97d953469:rgba(190,158,255,.9);
   --nyx-compat-color-3cfd69311e95:rgba(255,255,255,.4);
   --nyx-compat-color-3db4de94bbbc:rgba(40,31,80,.7);
@@ -275,7 +271,6 @@
   --nyx-compat-color-3f4dde54241d:rgba(183,170,255,.11);
   --nyx-compat-color-3fa345d26be8:rgba(10,7,23,.68);
   --nyx-compat-color-3ffffae4cab0:rgba(184,143,255,.2);
-  --nyx-compat-color-4068a7e421a9:rgba(var(--ach-accent-rgb),.65);
   --nyx-compat-color-41b68c99533c:rgba(8,6,22,.84);
   --nyx-compat-color-41b9ea4edbce:rgba(30,23,62,.6);
   --nyx-compat-color-42196b6f81e6:rgba(28,20,60,.7);
@@ -293,9 +288,7 @@
   --nyx-compat-color-4892ff5203a7:rgba(13,10,30,.42);
   --nyx-compat-color-48aa2d1f5113:rgba(70,58,144,.65);
   --nyx-compat-color-499fc5f83eb2:rgba(38,29,70,.94);
-  --nyx-compat-color-4aaaecca2665:rgba(var(--ach-accent-rgb),.08);
   --nyx-compat-color-4c583a824e26:rgba(28,20,65,.76);
-  --nyx-compat-color-4c7d99947564:rgba(var(--ach-accent-rgb),.012);
   --nyx-compat-color-4cfe955755e4:rgba(11,9,24,.96);
   --nyx-compat-color-4da99af578c2:rgba(183,170,255,.13);
   --nyx-compat-color-4df431eb8208:rgba(192,174,255,.28);
@@ -303,7 +296,6 @@
   --nyx-compat-color-4fbd53d1db3d:rgba(255,116,143,.13);
   --nyx-compat-color-5025bdfd2ff0:rgba(183,170,255,.75);
   --nyx-compat-color-50339e09f044:rgba(198,180,255,.16);
-  --nyx-compat-color-50d15e5722b0:rgba(var(--ach-accent-rgb),.62);
   --nyx-compat-color-50f0883c5061:rgba(17,13,31,.98);
   --nyx-compat-color-51af19e1cccc:rgba(183,170,255,0);
   --nyx-compat-color-521654c19107:rgba(17,12,38,.54);
@@ -325,7 +317,6 @@
   --nyx-compat-color-57eb330020ee:rgba(42,31,82,.72);
   --nyx-compat-color-581fc1abcf73:rgba(200,188,255,.48);
   --nyx-compat-color-5848cd0ae21a:rgba(9,7,20,.35);
-  --nyx-compat-color-584febac5703:rgba(var(--ach-accent-rgb),.2);
   --nyx-compat-color-586d698fad46:rgba(15,11,33,.98);
   --nyx-compat-color-590747eb9453:rgba(32,23,70,.42);
   --nyx-compat-color-59123281010c:rgba(16,12,38,.35);
@@ -336,11 +327,8 @@
   --nyx-compat-color-5b5c86eb5ca4:rgba(46,118,90,.3);
   --nyx-compat-color-5bdc6317ac80:rgba(225,93,129,.3);
   --nyx-compat-color-5bf68f80e695:rgba(11,8,26,.6);
-  --nyx-compat-color-5bf6d390d8f0:rgba(var(--ach-accent-rgb),.24);
   --nyx-compat-color-5c014dd27e45:rgba(21,16,45,.7);
-  --nyx-compat-color-5c973303966c:rgba(var(--ach-accent-rgb),.34);
   --nyx-compat-color-5d1d4da6410d:rgba(243,240,255,.75);
-  --nyx-compat-color-5d7282444a10:rgba(var(--ach-accent-rgb),.014);
   --nyx-compat-color-5dbfa2009287:rgba(234,120,148,.13);
   --nyx-compat-color-5e50529bbb61:rgba(139,123,255,.07);
   --nyx-compat-color-5e6512b0e156:rgba(200,188,255,.6);
@@ -367,7 +355,6 @@
   --nyx-compat-color-63e1b8d699e7:rgba(15,10,34,.94);
   --nyx-compat-color-641ecf58493e:rgba(145,42,72,.1);
   --nyx-compat-color-64243cd99cb1:rgba(183,170,255,.8);
-  --nyx-compat-color-64e1eb7086e1:rgba(var(--ach-accent-rgb),.018);
   --nyx-compat-color-64f20fe5d318:rgba(94,73,172,.28);
   --nyx-compat-color-650149f965d3:rgba(217,85,119,.10);
   --nyx-compat-color-671868faa870:rgba(47,120,90,.2);
@@ -384,12 +371,10 @@
   --nyx-compat-color-6c08e8dfbf2e:rgba(12,8,28,.36);
   --nyx-compat-color-6c1178c55369:rgba(231,199,120,.055);
   --nyx-compat-color-6ca795c229c9:rgba(18,13,42,.84);
-  --nyx-compat-color-6d2c3e54b1b0:rgba(var(--ach-accent-rgb),.15);
   --nyx-compat-color-6d4fa07a28aa:rgba(70,48,140,.30);
   --nyx-compat-color-6e16d678a469:rgba(232,178,95,.5);
   --nyx-compat-color-6e49886b3c7d:rgba(12,3,26,.66);
   --nyx-compat-color-6eda07d8a498:rgba(139,123,255,.08);
-  --nyx-compat-color-6f03de6908eb:rgba(var(--ach-accent-rgb),.4);
   --nyx-compat-color-6f069793b713:rgba(82,67,160,.28);
   --nyx-compat-color-6f8e9fae80f9:rgba(8,7,20,.98);
   --nyx-compat-color-6ffca9ffce5d:rgba(124,53,255,.13);
@@ -435,7 +420,6 @@
   --nyx-compat-color-7f1103bc05d5:rgba(6,5,15,.82);
   --nyx-compat-color-807c6e0d950e:rgba(80,55,143,.78);
   --nyx-compat-color-80c9236ce4c7:rgba(231,199,120,.2);
-  --nyx-compat-color-815c37e5f24b:rgba(var(--ach-accent-rgb),.68);
   --nyx-compat-color-8163da2e19f6:rgba(12,9,30,.98);
   --nyx-compat-color-8191746d3407:rgba(5,4,11,.55);
   --nyx-compat-color-81c3a44c5e25:rgba(11,8,27,.32);
@@ -454,20 +438,17 @@
   --nyx-compat-color-86342bb4ce49:169,149,255;
   --nyx-compat-color-86adf8edfa1d:rgba(190,158,255,.34);
   --nyx-compat-color-86af42f3a4fb:rgba(22,16,46,.55);
-  --nyx-compat-color-871947ad3714:rgba(var(--ach-accent-rgb),.22);
   --nyx-compat-color-872a4f0999e6:rgba(13,9,31,.58);
   --nyx-compat-color-876dbdbfb251:rgba(120,96,200,.16);
   --nyx-compat-color-87a250ed2006:rgba(10,6,22,.16);
   --nyx-compat-color-87c0bf79f667:rgba(141,120,255,.08);
   --nyx-compat-color-882b20822869:rgba(183,170,255,.42);
-  --nyx-compat-color-885f85cc3a5a:rgba(var(--ach-accent-rgb),.035);
   --nyx-compat-color-886430af7679:rgba(3,2,10,.76);
   --nyx-compat-color-889449892a40:173,150,255;
   --nyx-compat-color-89496511e901:rgba(198,180,255,.22);
   --nyx-compat-color-89ad15089a98:rgba(5,4,11,.46);
   --nyx-compat-color-8a3a0f144fc6:rgba(20,15,42,.76);
   --nyx-compat-color-8a40380d7d8a:rgba(76,62,124,.22);
-  --nyx-compat-color-8ad29a1cb9b0:rgba(var(--ach-accent-rgb),.23);
   --nyx-compat-color-8b69c0e0e954:rgba(16,12,36,.78);
   --nyx-compat-color-8b6efd581b3d:rgba(12,8,28,.94);
   --nyx-compat-color-8b73536cdf5d:rgba(16,12,34,.28);
@@ -486,7 +467,6 @@
   --nyx-compat-color-8ed9308625df:rgba(205,191,255,.25);
   --nyx-compat-color-8eeedf8fd4a5:rgba(64,203,141,.14);
   --nyx-compat-color-8fc68438ccc2:rgba(0,0,0,.38);
-  --nyx-compat-color-901e59bbe7fa:rgba(var(--ach-accent-rgb),.055);
   --nyx-compat-color-908aed0e43a2:rgba(21,15,45,.62);
   --nyx-compat-color-90f287d17c5c:rgba(5,4,11,.5);
   --nyx-compat-color-9160d202a7ca:rgba(183,170,255,.7);
@@ -496,7 +476,6 @@
   --nyx-compat-color-922faba64705:rgba(196,161,255,.3);
   --nyx-compat-color-924ebfe2cb11:rgba(40,30,82,.6);
   --nyx-compat-color-933f25d488b1:rgba(13,10,30,.55);
-  --nyx-compat-color-957ff2afb298:rgba(var(--ach-accent-rgb),.11);
   --nyx-compat-color-95f2d8b14956:rgba(9,6,22,.82);
   --nyx-compat-color-9614c9320601:rgba(5,4,11,.8);
   --nyx-compat-color-96ac767b5492:rgba(31,23,64,.98);
@@ -520,11 +499,9 @@
   --nyx-compat-color-9f2840cc4fb3:rgba(22,17,46,.54);
   --nyx-compat-color-9fa4120a9f58:rgba(8,6,18,.92);
   --nyx-compat-color-a05847670a7f:rgba(120,42,66,.25);
-  --nyx-compat-color-a0d022bb7dfc:rgba(var(--ach-accent-rgb),.25);
   --nyx-compat-color-a1e7db0468c7:rgba(5,4,10,.14);
   --nyx-compat-color-a321f195d7ac:rgba(8,7,19,.8);
   --nyx-compat-color-a39b8af67668:rgba(141,120,255,.025);
-  --nyx-compat-color-a42fead3b275:rgba(var(--ach-accent-rgb),.16);
   --nyx-compat-color-a44a21db690b:rgba(255,255,255,.68);
   --nyx-compat-color-a46a69bdb4e4:rgba(6,5,17,.78);
   --nyx-compat-color-a4a198c1d075:rgba(130,48,72,.28);
@@ -592,13 +569,11 @@
   --nyx-compat-color-bbf2d212d3e2:rgba(40,31,80,.6);
   --nyx-compat-color-bc18cad93d2b:rgba(16,12,35,.72);
   --nyx-compat-color-bc387791db6c:rgba(20,14,46,.78);
-  --nyx-compat-color-bcd550fac433:rgba(var(--ach-accent-rgb),.065);
   --nyx-compat-color-bcf0f27d136d:rgba(183,170,255,.72);
   --nyx-compat-color-bd3d7de09f49:rgba(120,100,220,.5);
   --nyx-compat-color-bfab755fe223:rgba(120,30,55,.28);
   --nyx-compat-color-bfcafe02ee03:rgba(255,255,255,.065);
   --nyx-compat-color-bfd4f2cf402d:rgba(89,118,255,.14);
-  --nyx-compat-color-c00f3dba3ae7:rgba(var(--ach-accent-rgb),.1);
   --nyx-compat-color-c028c9f67154:rgba(20,15,44,.58);
   --nyx-compat-color-c0d90b6215c1:rgba(8,7,19,.96);
   --nyx-compat-color-c10fda8e8e55:rgba(8,6,18,.15);
@@ -623,7 +598,6 @@
   --nyx-compat-color-c51625e0f194:rgba(5,4,12,.7);
   --nyx-compat-color-c59f81d96fd1:rgba(222,120,146,.11);
   --nyx-compat-color-c5df19023e9f:rgba(7,5,16,.96);
-  --nyx-compat-color-c6211d55d129:rgba(var(--ach-accent-rgb),.07);
   --nyx-compat-color-c6257dbd8c9a:rgba(176,150,255,.14);
   --nyx-compat-color-c6fc7fc06a6c:rgba(47,35,88,.92);
   --nyx-compat-color-c7033bd71091:rgba(143,95,226,.22);
@@ -677,7 +651,6 @@
   --nyx-compat-color-d8223287e67d:rgba(43,34,92,.8);
   --nyx-compat-color-d8479496ea77:rgba(5,4,11,.62);
   --nyx-compat-color-d864cfab9534:rgba(16,10,34,.3);
-  --nyx-compat-color-d8934e8d79b2:rgba(var(--ach-accent-rgb),.17);
   --nyx-compat-color-d8a01d2328f4:rgba(255,255,255,.075);
   --nyx-compat-color-d8dc8da25f8f:rgba(187,164,255,.7);
   --nyx-compat-color-d91eb10eb4db:rgba(10,7,27,.76);
@@ -737,7 +710,6 @@
   --nyx-compat-color-eb34b6454d87:rgba(58,42,91,.28);
   --nyx-compat-color-eb6074f8f786:rgba(11,8,26,.64);
   --nyx-compat-color-eb7a11d783ec:rgba(139,123,255,.04);
-  --nyx-compat-color-eb8a84a2f940:rgba(var(--ach-accent-rgb),.14);
   --nyx-compat-color-eb97676cadd8:rgba(139,123,255,.035);
   --nyx-compat-color-ebb7bceedd06:rgba(207,184,255,.7);
   --nyx-compat-color-ec8c0fbcf038:rgba(8,6,20,.58);
@@ -749,14 +721,12 @@
   --nyx-compat-color-ef51e2874371:rgba(27,20,57,.82);
   --nyx-compat-color-ef623ed4d696:183,167,255;
   --nyx-compat-color-effe0b93d0ef:rgba(7,5,18,.52);
-  --nyx-compat-color-f029f58ccc9b:rgba(var(--ach-accent-rgb),.18);
   --nyx-compat-color-f29e98ca6e5e:rgba(10,7,24,.72);
   --nyx-compat-color-f36eaba8453b:rgba(19,15,39,.96);
   --nyx-compat-color-f3e338033de7:rgba(255,116,143,.25);
   --nyx-compat-color-f40757156af9:rgba(11,8,28,.36);
   --nyx-compat-color-f421c74256d0:rgba(231,174,67,.3);
   --nyx-compat-color-f42ce387a3b1:rgba(8,6,18,.1);
-  --nyx-compat-color-f42edb24539a:rgba(var(--ach-accent-rgb),.35);
   --nyx-compat-color-f4669037b239:rgba(200,188,255,.07);
   --nyx-compat-color-f5379b34371a:rgba(36,27,78,.7);
   --nyx-compat-color-f567cbf06b39:rgba(198,181,255,.24);
@@ -1305,22 +1275,17 @@
   --nyx-compat-font-073cfa42d81d:600 9px/1 system-ui;
   --nyx-compat-font-1bfdde483f0f:700 9.5px system-ui;
   --nyx-compat-font-1cfdd39e4542:11px 'HSR',system-ui,sans-serif;
-  --nyx-compat-font-1d7152a27f50:500 clamp(22px,2.2vw,31px)/1 var(--ach-display);
   --nyx-compat-font-1e3bdbb7a74d:400 23px 'GI',serif;
   --nyx-compat-font-27a1b4f955e5:400 clamp(20px,2vw,29px)/1.1 'GI',Georgia,serif;
   --nyx-compat-font-293f13d5dbf4:var(--nyx-weight-regular) var(--nyx-type-section)/1 var(--nyx-font-display);
   --nyx-compat-font-2a6c6516c849:400 24px/1.1 'GI',Georgia,serif;
   --nyx-compat-font-2dff53a2982e:400 19px 'GI',serif;
-  --nyx-compat-font-2eaea2d675f9:500 15px/1 var(--ach-display);
-  --nyx-compat-font-31d44c2e446d:500 14px/1.15 var(--ach-display);
   --nyx-compat-font-31de89a4ba73:400 clamp(25px,2.3vw,38px)/1 'GI',Georgia,serif;
   --nyx-compat-font-32a861e27db6:900 9px 'HSR','Segoe UI',sans-serif;
   --nyx-compat-font-3cad443cae61:700 9px system-ui;
   --nyx-compat-font-3d7a495e54b8:var(--nyx-type-lead)/1.2 var(--nyx-font-ui);
   --nyx-compat-font-464edc0b43e2:400 15px 'GI',Georgia,serif;
-  --nyx-compat-font-492b395898e4:750 1rem/1.2 var(--font-display,inherit);
   --nyx-compat-font-4dfe69a0fd95:8px/1 monospace;
-  --nyx-compat-font-507380805813:700 .68em/1 var(--font-display,inherit);
   --nyx-compat-font-5981e2444f4b:800 10px 'HSR','Segoe UI',sans-serif;
   --nyx-compat-font-5ab26e0d336f:400 15.5px 'GI',serif;
   --nyx-compat-font-5ab99a010eb0:var(--nyx-weight-extrabold) var(--nyx-type-caption)/1 var(--nyx-font-ui);
@@ -1328,23 +1293,18 @@
   --nyx-compat-font-5fe1d8ac54f3:400 14px/1.3 'GI',Georgia,serif;
   --nyx-compat-font-67347b93c7eb:400 14px 'GI',serif;
   --nyx-compat-font-6b66b36cb706:400 15px/1.25 'GI',Georgia,serif;
-  --nyx-compat-font-6f6db41e21f7:500 11px/1.25 var(--ach-display);
   --nyx-compat-font-70d8b173be8b:var(--nyx-type-title)/1 var(--nyx-font-ui);
   --nyx-compat-font-78f72bcbf559:300 22px/1 Arial,sans-serif;
   --nyx-compat-font-79f1ade9752b:400 16px 'GI',Georgia,serif;
-  --nyx-compat-font-7d47598aa130:500 18px/1 var(--ach-display);
   --nyx-compat-font-8182614572fa:var(--nyx-weight-regular) var(--nyx-type-small)/1.35 var(--nyx-font-ui);
   --nyx-compat-font-845a28db2e1f:600 10px system-ui;
   --nyx-compat-font-84ea098081a7:600 9px system-ui;
   --nyx-compat-font-872b97fb43e6:var(--nyx-weight-bold) var(--nyx-type-small)/1 var(--nyx-font-ui);
   --nyx-compat-font-8f9db28e304f:normal var(--nyx-type-body)/1 var(--nyx-font-ui);
   --nyx-compat-font-945fb8934a90:400 14px 'GI',Georgia,serif;
-  --nyx-compat-font-95e3d34efed8:500 clamp(19px,1.7vw,26px)/1.08 var(--ach-display);
   --nyx-compat-font-985e2e8b9ea7:var(--nyx-type-body)/1.4 var(--nyx-font-ui);
-  --nyx-compat-font-a4cf3849562e:700 8px/1 var(--font-body,inherit);
   --nyx-compat-font-acd193eb0c56:var(--nyx-type-small)/1.5 var(--nyx-font-ui);
   --nyx-compat-font-b4f882fc8e44:400 15px 'GI',serif;
-  --nyx-compat-font-b517fc117361:500 14px/1.25 var(--ach-display);
   --nyx-compat-font-b95bcc3dd809:400 clamp(29px,2.5vw,43px)/1 'GI',Georgia,serif;
   --nyx-compat-font-c1a65059b37d:11px/1.45 'Segoe UI',sans-serif;
   --nyx-compat-font-c37de2870283:400 25px/1.1 'GI',Georgia,serif;
@@ -1355,11 +1315,8 @@
   --nyx-compat-font-ddec57a109fa:400 22px/1 'GI',Georgia,serif;
   --nyx-compat-font-e37578d7a6e4:700 10px/1 inherit;
   --nyx-compat-font-e57c3adc85a4:var(--nyx-type-small)/1.3 var(--nyx-font-ui);
-  --nyx-compat-font-e8fb34ea921a:700 clamp(26px,4vw,40px)/1.08 var(--font-display,inherit);
   --nyx-compat-font-f0aee882ac3f:400 1.03rem/1.78 Georgia,'Times New Roman',serif;
   --nyx-compat-font-f57bca9c3191:400 29px 'GI',serif;
-  --nyx-compat-font-fb119f834e05:700 .73rem/1 var(--font-body,inherit);
-  --nyx-compat-font-fbd9cee6b9ef:750 .72rem/1 var(--font-body,inherit);
   --nyx-compat-radius-11px:11px;
   --nyx-compat-radius-12px:12px;
   --nyx-compat-radius-13px:13px;
@@ -1378,7 +1335,6 @@
   --nyx-compat-shadow-box-00ac7a7de8d6:inset 0 0 0 1px rgba(183,170,255,.42), 0 0 18px rgba(139,123,255,.18);
   --nyx-compat-shadow-box-013bbdd1a33e:inset 0 0 0 1px rgba(216,200,255,.26);
   --nyx-compat-shadow-box-013bc8d4cbf5:0 12px 28px #07030fcc;
-  --nyx-compat-shadow-box-031aa373ff21:inset 0 0 0 2.5px var(--character-hover),0 0 18px var(--character-hover-glow),0 5px 12px rgba(0,0,0,.55);
   --nyx-compat-shadow-box-05ed5520619e:inset 0 0 0 1px rgba(213,202,255,.28), 0 0 12px rgba(139,123,255,.14);
   --nyx-compat-shadow-box-061fa7f3b607:inset 0 0 0 1px rgba(121,216,184,.2);
   --nyx-compat-shadow-box-0717c1de53c3:inset 0 0 0 1px rgba(255,255,255,.06);
@@ -1386,14 +1342,11 @@
   --nyx-compat-shadow-box-08036fc64111:0 0 0 1px rgba(200,188,255,.35),0 0 24px rgba(168,123,255,.5),inset 0 0 0 1px rgba(255,255,255,.1);
   --nyx-compat-shadow-box-0be1832e69ee:inset 0 0 0 1px rgba(204,187,255,.22), inset 0 -2px 0 rgba(204,187,255,.16);
   --nyx-compat-shadow-box-0c3a672f1acb:inset 0 0 0 1px rgba(255,255,255,.12);
-  --nyx-compat-shadow-box-0cb1bb18754a:inset 0 0 0 1px rgba(var(--ach-accent-rgb),.26);
   --nyx-compat-shadow-box-0cbfbee624cb:inset 0 0 0 1.5px rgba(183,170,255,.4);
   --nyx-compat-shadow-box-0cca645cafa1:inset 0 0 0 1.5px rgba(183,170,255,.44), 0 0 16px rgba(139,123,255,.1);
-  --nyx-compat-shadow-box-0e370ee0fee5:inset 0 0 0 2.5px var(--ring), 0 0 12px var(--glow), 0 4px 10px rgba(0,0,0,.5);
   --nyx-compat-shadow-box-0e48798bb91e:0 14px 36px rgba(0,0,0,.46);
   --nyx-compat-shadow-box-0f58acbf9953:inset 0 0 0 1px rgba(230,180,80,.28);
   --nyx-compat-shadow-box-0f7fb784fc21:inset 0 0 0 1px rgba(183,170,255,.3), 0 12px 30px rgba(0,0,0,.6);
-  --nyx-compat-shadow-box-1006c3ab596f:inset 0 0 0 1px rgba(205,191,255,.6), 0 10px 22px rgba(0,0,0,.28), 0 0 18px var(--accent-glow);
   --nyx-compat-shadow-box-10a83928663e:inset 0 0 0 1px rgba(183,170,255,.4), 0 2px 10px rgba(0,0,0,.5);
   --nyx-compat-shadow-box-1149fe06a162:0 12px 26px rgba(4,2,10,.6),inset 0 0 0 1px rgba(255,255,255,.14);
   --nyx-compat-shadow-box-11c181ca8b74:inset 0 0 0 1px rgba(176,150,255,.3), 0 34px 92px rgba(0,0,0,.78);
@@ -1402,7 +1355,6 @@
   --nyx-compat-shadow-box-12c4ed4540b1:inset 0 0 0 1px rgba(188,171,255,.22);
   --nyx-compat-shadow-box-133bb241bd27:inset 0 0 0 1px rgba(183,170,255,.26);
   --nyx-compat-shadow-box-1340826dbcf3:0 18px 45px rgba(0,0,0,.45);
-  --nyx-compat-shadow-box-13b1acaa2730:0 0 14px rgba(var(--ach-accent-rgb),.72);
   --nyx-compat-shadow-box-142b6e01e0cc:0 0 0 1px rgba(255,236,148,.5),0 0 10px rgba(255,211,82,.34);
   --nyx-compat-shadow-box-14d843da8dd7:0 0 12px rgba(139,123,255,.22);
   --nyx-compat-shadow-box-158c1c10878c:inset 0 0 0 1px rgba(183,170,255,.18), 0 12px 26px rgba(0,0,0,.24);
@@ -1413,7 +1365,6 @@
   --nyx-compat-shadow-box-1766dc5e697a:inset 0 0 0 1px rgba(183,170,255,.14);
   --nyx-compat-shadow-box-196b253a0cad:inset 0 0 0 1px rgba(183,170,255,.4);
   --nyx-compat-shadow-box-1a5cbb61015a:inset 0 0 0 1px rgba(183,170,255,.22);
-  --nyx-compat-shadow-box-1a751288d68d:inset 0 0 0 2.5px var(--ring), 0 0 12px var(--glow), 0 4px 10px rgba(0,0,0,.5), 0 0 0 3px rgba(221,0,68,.28);
   --nyx-compat-shadow-box-1a7e1ad020a5:0 6px 14px rgba(4,2,10,.32);
   --nyx-compat-shadow-box-1b30341cf5c3:0 0 8px rgba(139,123,255,.7);
   --nyx-compat-shadow-box-1b9a80b71de2:inset 0 0 0 1px rgba(183,170,255,.2), 0 0 14px rgba(139,123,255,.18);
@@ -1433,9 +1384,6 @@
   --nyx-compat-shadow-box-26687ad86523:0 0 10px rgba(172,112,255,.5);
   --nyx-compat-shadow-box-27f3211cf0af:0 22px 55px rgba(0,0,0,.28);
   --nyx-compat-shadow-box-2827c21485f3:0 0 0 1.5px rgba(183,170,255,.55), 0 0 12px rgba(139,123,255,.35), 0 4px 10px rgba(0,0,0,.55);
-  --nyx-compat-shadow-box-292504bbca69:0 0 10px var(--ach-gold);
-  --nyx-compat-shadow-box-2b4afc98e07b:0 0 0 2px #fff, 0 0 22px var(--accent-glow), 0 5px 12px rgba(0,0,0,.55);
-  --nyx-compat-shadow-box-2c6fa8497efb:0 0 16px var(--accent-glow);
   --nyx-compat-shadow-box-2dcbfeb84f84:inset 0 0 0 1px rgba(222,120,146,.18);
   --nyx-compat-shadow-box-2ebf2f54de3b:inset 0 0 0 1px rgba(168,153,255,.78);
   --nyx-compat-shadow-box-2ef7922cff0d:0 10px 24px rgba(0,0,0,.22);
@@ -1468,27 +1416,19 @@
   --nyx-compat-shadow-box-46d5d5a24037:inset 0 0 0 1px rgba(196,183,255,.18);
   --nyx-compat-shadow-box-475115687cd8:0 0 0 200vw rgba(4,2,10,.35);
   --nyx-compat-shadow-box-4763f1f6f4dc:inset 0 0 0 1px rgba(221,0,68,.55), 0 0 16px rgba(221,0,68,.18);
-  --nyx-compat-shadow-box-47709c09df0e:0 0 9px var(--accent-glow);
   --nyx-compat-shadow-box-47735992c849:inset 0 0 0 1px rgba(85,190,130,.5);
   --nyx-compat-shadow-box-4928ac5770ed:0 4px 14px rgba(0,0,0,.2);
   --nyx-compat-shadow-box-4a1dd3fe610e:inset 0 0 0 1px rgba(234,120,148,.28);
-  --nyx-compat-shadow-box-4a4f2ae9b6c9:0 0 34px rgba(var(--ach-accent-rgb),.18);
-  --nyx-compat-shadow-box-4e18e70e69d1:inset 3px 0 0 var(--ach-game-accent),0 6px 18px rgba(0,0,0,.22);
   --nyx-compat-shadow-box-4e39b37f7f02:0 0 0 2px rgba(7,5,18,.86), 0 0 11px rgba(139,123,255,.42);
   --nyx-compat-shadow-box-4e90b9bccece:0 4px 12px #05030c55;
   --nyx-compat-shadow-box-4f7cd9937d9b:0 18px 45px rgba(2,1,8,.72);
-  --nyx-compat-shadow-box-4ff6bf766515:0 0 10px var(--accent-glow);
-  --nyx-compat-shadow-box-50379f5f18a4:inset 0 0 0 1.5px var(--accent-bright);
   --nyx-compat-shadow-box-520228d325c2:0 18px 50px rgba(2,1,8,.28);
   --nyx-compat-shadow-box-54e7bc604c52:0 16px 38px rgba(0,0,0,.2);
   --nyx-compat-shadow-box-551fec5782cf:inset 0 0 0 1px rgba(205,191,255,.25), 0 28px 80px rgba(0,0,0,.64);
   --nyx-compat-shadow-box-55a85fde1022:inset 0 0 0 1px rgba(205,191,255,.52);
-  --nyx-compat-shadow-box-565dfa931161:0 0 14px rgba(var(--ach-accent-rgb),.24);
   --nyx-compat-shadow-box-566d2ebc31c8:inset 0 0 0 1px rgba(183,170,255,.16);
-  --nyx-compat-shadow-box-589dd9e61c87:inset 0 0 0 1.5px var(--accent-bright), 0 0 14px var(--accent-glow);
   --nyx-compat-shadow-box-590d965d7d24:inset 0 0 0 1.5px rgba(183,170,255,.2), inset 0 0 24px rgba(0,0,0,.55);
   --nyx-compat-shadow-box-5b2288cdc123:inset 0 0 0 1px rgba(var(--nyx-rgb-success),.18);
-  --nyx-compat-shadow-box-5dd74fa73177:inset 3px 0 0 var(--accent), inset 0 0 0 1px rgba(183,170,255,.13);
   --nyx-compat-shadow-box-5f2c2fe67622:inset 0 0 0 1px rgba(183,170,255,.18), 0 8px 18px rgba(0,0,0,.3);
   --nyx-compat-shadow-box-5f8afdc5538f:0 2px 6px rgba(0,0,0,.45);
   --nyx-compat-shadow-box-5fdfceb40a68:0 28px 70px rgba(0,0,0,.58),inset 0 0 0 1px rgba(255,255,255,.035);
@@ -1501,9 +1441,7 @@
   --nyx-compat-shadow-box-66d8ae424a12:0 1px 4px rgba(0,0,0,.45);
   --nyx-compat-shadow-box-66ff41ffda8e:0 0 0 1px rgba(255,255,255,.18), 0 0 9px rgba(139,123,255,.34);
   --nyx-compat-shadow-box-688e117441b3:0 0 0 1px rgba(183,170,255,.35),0 0 22px rgba(139,123,255,.4),inset 0 0 0 1px rgba(255,255,255,.08);
-  --nyx-compat-shadow-box-68f3f3ce7dee:0 0 0 2px #fff, 0 0 22px var(--accent-glow), 0 4px 10px rgba(0,0,0,.6);
   --nyx-compat-shadow-box-695f61c95907:inset 0 0 0 1.5px rgba(183,170,255,.5), 0 0 18px rgba(139,123,255,.12);
-  --nyx-compat-shadow-box-6a8b279372b9:0 0 0 1.5px var(--rar,#c49bff);
   --nyx-compat-shadow-box-704d2f11207f:inset 0 0 0 1px rgba(220,198,255,.18), 0 14px 34px rgba(0,0,0,.24);
   --nyx-compat-shadow-box-70fe6241edd7:inset 0 0 0 1.5px rgba(205,179,255,.62), 0 0 12px rgba(139,123,255,.28);
   --nyx-compat-shadow-box-714b050e24e2:inset 0 0 0 1px rgba(194,58,120,.8),0 0 15px rgba(194,58,120,.2);
@@ -1519,18 +1457,14 @@
   --nyx-compat-shadow-box-79769cf7d96d:0 0 0 2px #0a0820, 0 2px 6px rgba(0,0,0,.5);
   --nyx-compat-shadow-box-797c1d1480ff:inset 0 0 0 1px rgba(205,191,255,.55),0 8px 22px rgba(3,1,12,.42);
   --nyx-compat-shadow-box-79a11a751b3c:inset 0 0 0 1px rgba(196,183,255,.18), 0 18px 40px rgba(0,0,0,.2);
-  --nyx-compat-shadow-box-7b552336bbe3:0 0 16px rgba(var(--ach-accent-rgb),.23);
   --nyx-compat-shadow-box-7cecb1093390:0 0 12px rgba(200,188,255,.45);
   --nyx-compat-shadow-box-7f57c6ec85cc:0 12px 28px rgba(0,0,0,.2);
   --nyx-compat-shadow-box-803784edbd1b:0 6px 18px rgba(4,2,10,.45),inset 0 0 0 1px rgba(255,255,255,.06);
-  --nyx-compat-shadow-box-807d5c88b94a:0 0 14px var(--accent-glow);
   --nyx-compat-shadow-box-8136b345f554:inset 0 0 0 1px rgba(183,170,255,.22), 0 6px 14px rgba(0,0,0,.34);
-  --nyx-compat-shadow-box-81e4af61bbfb:inset 0 0 0 1px rgba(var(--ach-accent-rgb),.25);
   --nyx-compat-shadow-box-82c7801b3ea5:inset 0 0 0 1px rgba(213,202,255,.42), 0 0 12px rgba(139,123,255,.2);
   --nyx-compat-shadow-box-83538fb7d965:0 0 8px rgba(230,180,80,.7);
   --nyx-compat-shadow-box-83bedff8399e:inset 0 0 0 1px rgba(183,170,255,.34);
   --nyx-compat-shadow-box-8463e82ed343:inset 0 0 0 1px rgba(183,170,255,.26), 0 16px 34px rgba(0,0,0,.6);
-  --nyx-compat-shadow-box-84b7e73777fe:inset 0 0 0 1px rgba(205,191,255,.5), 0 0 13px var(--accent-glow);
   --nyx-compat-shadow-box-86296a9233ee:inset 0 0 0 1px rgba(64,203,141,.35);
   --nyx-compat-shadow-box-866ffc86ca2d:0 28px 90px rgba(2,1,8,.72),inset 0 1px 0 rgba(255,255,255,.04);
   --nyx-compat-shadow-box-867868b3062e:inset 0 0 0 1px rgba(183,170,255,.28), 0 12px 30px rgba(0,0,0,.58);
@@ -1545,7 +1479,6 @@
   --nyx-compat-shadow-box-8b626a9e5fb7:0 0 0 1px rgba(183,170,255,.42),0 3px 8px rgba(0,0,0,.5);
   --nyx-compat-shadow-box-8c5e91e7f26f:0 0 0 1px rgba(183,170,255,.6),0 3px 10px rgba(0,0,0,.5);
   --nyx-compat-shadow-box-8ee9c57379f9:var(--nyx-shadow-edge-strong),var(--nyx-shadow-interactive);
-  --nyx-compat-shadow-box-8f773f638f85:0 0 12px var(--accent-glow);
   --nyx-compat-shadow-box-8fe6d8f12733:inset 0 0 0 1px rgba(197,178,255,.2), 0 24px 52px rgba(0,0,0,.58);
   --nyx-compat-shadow-box-90043a94a99c:0 0 0 2px rgba(7,5,18,.8), 0 0 10px rgba(139,123,255,.36);
   --nyx-compat-shadow-box-911398df8177:0 0 16px rgba(139,123,255,.32), inset 0 0 0 1px rgba(255,255,255,.36);
@@ -1566,14 +1499,11 @@
   --nyx-compat-shadow-box-a0a55e0c71b2:inset 0 0 0 1px rgba(214,197,255,.56),0 0 14px rgba(124,53,255,.2);
   --nyx-compat-shadow-box-a2587dfef298:inset 0 0 0 1px rgba(240,164,74,.5);
   --nyx-compat-shadow-box-a34f637e60b8:0 0 0 1px rgba(183,170,255,.7),0 2px 6px rgba(0,0,0,.6);
-  --nyx-compat-shadow-box-a37bd88382c4:inset 0 0 0 1px color-mix(in oklab, var(--meta) 52%, transparent), 0 0 14px color-mix(in oklab, var(--meta) 18%, transparent);
-  --nyx-compat-shadow-box-a423a1bb4151:0 0 45px rgba(var(--ach-accent-rgb),.18);
   --nyx-compat-shadow-box-a5ecdbef0df7:inset 0 0 0 1px rgba(183,170,255,.2), 0 0 16px rgba(124,53,255,.1);
   --nyx-compat-shadow-box-a602492e59fd:0 0 12px rgba(141,120,255,.8);
   --nyx-compat-shadow-box-a640ce94afb2:inset 0 0 0 1px rgba(183,170,255,.22), 0 12px 24px rgba(0,0,0,.42);
   --nyx-compat-shadow-box-a65614cb2162:inset 0 0 0 1px rgba(183,170,255,.18), 0 0 14px rgba(139,123,255,.08);
   --nyx-compat-shadow-box-a7852ca42e33:inset 0 0 0 1px rgba(255,255,255,.14);
-  --nyx-compat-shadow-box-a7c7e91a459a:0 0 0 2px var(--accent-bright), 0 0 18px var(--accent-glow), 0 5px 12px rgba(0,0,0,.55);
   --nyx-compat-shadow-box-aa114b50a54c:0 0 0 1px rgba(0,0,0,.35), 0 0 6px rgba(0,0,0,.3);
   --nyx-compat-shadow-box-aa9418fbba18:inset 0 0 0 1px rgba(188,171,255,.18), 0 22px 58px rgba(0,0,0,.48);
   --nyx-compat-shadow-box-aacd329f9043:inset 0 0 0 1px rgba(255,255,255,.08);
@@ -1597,15 +1527,12 @@
   --nyx-compat-shadow-box-bb27b6810935:inset 0 0 0 1px rgba(124,53,255,.78), inset 0 0 0 3px rgba(124,53,255,.16), 0 0 14px rgba(124,53,255,.28);
   --nyx-compat-shadow-box-bb3796dd11e9:inset 0 0 0 1px rgba(183,170,255,.09);
   --nyx-compat-shadow-box-bb493cee3054:0 1px 3px rgba(0,0,0,.5);
-  --nyx-compat-shadow-box-bc1df0be00e1:inset 0 0 0 1px rgba(205,191,255,.55), 0 0 14px var(--accent-glow);
   --nyx-compat-shadow-box-bc9399c773c2:0 24px 75px rgba(0,0,0,.6);
   --nyx-compat-shadow-box-bc989147e1bb:0 0 8px rgba(217,85,119,.7);
   --nyx-compat-shadow-box-bcb67f4d5cf4:inset 0 0 0 1px rgba(183,170,255,.6), inset 0 0 14px rgba(139,123,255,.12);
-  --nyx-compat-shadow-box-bcd83c7eb19a:inset 0 0 0 1px var(--gt-panel-line);
   --nyx-compat-shadow-box-bd05acfa4892:inset 0 0 0 1px rgba(168,153,255,.7);
   --nyx-compat-shadow-box-bda8a65aeb6c:inset 1px 0 0 rgba(183,170,255,.14), inset -1px 0 0 rgba(183,170,255,.14);
   --nyx-compat-shadow-box-bebe471761a0:0 0 12px rgba(221,0,68,.34);
-  --nyx-compat-shadow-box-c12fa247c17d:inset 0 0 0 1.5px var(--accent-bright), 0 0 0 2px rgba(139,123,255,.4);
   --nyx-compat-shadow-box-c34bfeb9e65e:0 0 0 1px #c8bcff,0 10px 24px rgba(4,2,10,.52);
   --nyx-compat-shadow-box-c38d4e189ebb:0 0 10px rgba(139,123,255,.42);
   --nyx-compat-shadow-box-c3feb3b14613:0 0 8px rgba(183,170,255,.9);
@@ -1615,15 +1542,12 @@
   --nyx-compat-shadow-box-c667fa5f882a:0 14px 36px rgba(2,1,8,.35);
   --nyx-compat-shadow-box-c6ebf9dad851:inset 0 0 0 1px rgba(183,170,255,.55);
   --nyx-compat-shadow-box-c8033a33b12b:inset 0 0 0 1px rgba(183,170,255,.42);
-  --nyx-compat-shadow-box-c978411d6e5f:inset 3px 0 0 var(--ach-accent);
   --nyx-compat-shadow-box-c9ec152e9430:inset 0 0 0 1px rgba(234,120,148,.34);
   --nyx-compat-shadow-box-d0ffda305757:inset 0 0 0 1px rgba(var(--nyx-rgb-danger),.18);
   --nyx-compat-shadow-box-d16886f386a8:inset 0 0 0 1px rgba(176,150,255,.2);
   --nyx-compat-shadow-box-d17945aef2c7:0 0 0 1.5px rgba(183,170,255,.4), 0 2px 6px rgba(0,0,0,.5);
   --nyx-compat-shadow-box-d2b6d86389fa:0 0 0 2px rgba(10,6,26,.96), 0 0 15px rgba(124,53,255,.52), inset 0 0 0 1px rgba(255,255,255,.14);
-  --nyx-compat-shadow-box-d343118307f4:inset 0 0 0 1px color-mix(in oklab, var(--el) 58%, transparent), 0 0 14px color-mix(in oklab, var(--el) 18%, transparent);
   --nyx-compat-shadow-box-d50b1bedbcd1:3px -6px 0 -2px #c9c0e2,9px -6px 0 -2px #c9c0e2;
-  --nyx-compat-shadow-box-d54c51cc2c49:0 0 0 2px var(--accent-bright), 0 0 18px var(--accent-glow), 0 4px 10px rgba(0,0,0,.55);
   --nyx-compat-shadow-box-d61c1b58a40d:inset 0 0 0 1px rgba(183,170,255,.28), 0 0 0 1px rgba(0,0,0,.5), 0 30px 80px rgba(0,0,0,.6);
   --nyx-compat-shadow-box-d98e77153a15:inset 0 0 0 1px rgba(214,197,255,.32), 0 0 14px rgba(139,123,255,.18);
   --nyx-compat-shadow-box-d9cbcc71930c:0 0 8px rgba(139,123,255,.4);
@@ -1631,12 +1555,10 @@
   --nyx-compat-shadow-box-dcfcc9cf5bbb:inset 0 0 0 1px rgba(225,211,255,.12);
   --nyx-compat-shadow-box-dd95ee8feb65:inset 0 0 0 1px rgba(204,187,255,.18);
   --nyx-compat-shadow-box-de5029fac96d:0 0 9px rgba(200,188,255,.3);
-  --nyx-compat-shadow-box-df40460eb9c6:0 0 5px var(--accent-glow);
   --nyx-compat-shadow-box-e066385c6b63:inset 0 0 0 1.5px rgba(183,170,255,.48);
   --nyx-compat-shadow-box-e2bc2eef7c09:inset 0 0 0 1px rgba(183,170,255,.28), 0 26px 60px rgba(0,0,0,.62);
   --nyx-compat-shadow-box-e2f7040f1121:inset 0 0 0 1px rgba(214,197,255,.56),0 10px 22px rgba(0,0,0,.3),0 0 18px rgba(139,123,255,.16);
   --nyx-compat-shadow-box-e3a455deabdc:0 0 14px rgba(202,161,85,.42), inset 0 0 0 1px rgba(255,238,198,.55);
-  --nyx-compat-shadow-box-e40242f9c372:0 0 12px rgba(var(--ach-accent-rgb),.55);
   --nyx-compat-shadow-box-e4235ce3f870:inset 0 0 0 1px rgba(139,123,255,.55);
   --nyx-compat-shadow-box-e4faa1d3ca76:inset 0 0 0 1px rgba(255,120,150,.35);
   --nyx-compat-shadow-box-e7abf18c6c98:0 0 0 1px rgba(120,220,255,.3),0 0 22px rgba(87,203,255,.45),inset 0 0 0 1px rgba(255,255,255,.08);
@@ -1648,7 +1570,6 @@
   --nyx-compat-shadow-box-ed8239814032:0 0 12px rgba(124,53,255,.14);
   --nyx-compat-shadow-box-ed85e993ea2f:0 3px 10px rgba(80,50,160,.5);
   --nyx-compat-shadow-box-ed9087641d8b:inset 0 0 0 1px rgba(232,178,95,.4),0 6px 18px rgba(4,2,10,.4);
-  --nyx-compat-shadow-box-efc2612bcb20:inset 0 0 0 1.5px rgba(207,196,255,.85), 0 0 14px var(--accent-glow);
   --nyx-compat-shadow-box-efccefd8bcaa:inset 0 0 0 1.5px rgba(174,160,255,.95), 0 0 12px rgba(139,123,255,.35);
   --nyx-compat-shadow-box-f026d9f10b1c:inset 0 0 0 1px rgba(183,170,255,.85);
   --nyx-compat-shadow-box-f170ab8396b6:inset 0 0 0 1px rgba(183,170,255,.34), 0 8px 16px rgba(0,0,0,.42);
@@ -1667,20 +1588,15 @@
   --nyx-compat-shadow-box-fa2dd89eea6b:inset 0 0 0 1px rgba(183,170,255,.3), inset 0 0 0 7px rgba(8,6,18,.38);
   --nyx-compat-shadow-box-fb3f7a153faa:0 0 8px rgba(139,123,255,.6);
   --nyx-compat-shadow-box-fc1223acb7c7:inset 0 0 0 1px rgba(205,191,255,.22);
-  --nyx-compat-shadow-box-fd448c6463cd:0 0 46px color-mix(in oklab, var(--el) 22%, transparent);
   --nyx-compat-shadow-box-fd7b4fcb4d77:inset 0 0 0 1px rgba(222,120,146,.2);
-  --nyx-compat-shadow-box-fef7ce60e2eb:inset 0 0 0 2.5px var(--character-hover),0 0 20px var(--character-hover-glow),0 5px 12px rgba(0,0,0,.55);
   --nyx-compat-shadow-box-ff8259f56eb8:inset 0 0 0 1px rgba(157,181,255,.22);
   --nyx-compat-shadow-drop-028d46200439:drop-shadow(0 5px 10px rgba(0,0,0,.5));
   --nyx-compat-shadow-drop-082647f709d4:drop-shadow(0 0 calc(8px*var(--glow)) var(--accent-bright));
-  --nyx-compat-shadow-drop-0edc81790589:drop-shadow(0 0 18px var(--accent-glow));
-  --nyx-compat-shadow-drop-0f3eb5507fc4:drop-shadow(0 0 9px var(--accent-glow));
   --nyx-compat-shadow-drop-0f563608be2b:drop-shadow(0 2px 4px rgba(0,0,0,.48));
   --nyx-compat-shadow-drop-129530ec7a6b:drop-shadow(0 2px 4px rgba(0,0,0,.55));
   --nyx-compat-shadow-drop-186de4cf1353:drop-shadow(0 10px 20px rgba(0,0,0,.6));
   --nyx-compat-shadow-drop-1f52bcb134cf:drop-shadow(0 4px 5px rgba(0,0,0,.5));
   --nyx-compat-shadow-drop-25936f7ac68b:drop-shadow(0 4px 7px rgba(0,0,0,.55));
-  --nyx-compat-shadow-drop-268e9d608980:drop-shadow(0 0 7px var(--accent-bright));
   --nyx-compat-shadow-drop-2767dd931543:drop-shadow(0 0 4px rgba(139,123,255,.2));
   --nyx-compat-shadow-drop-2b7be80e6740:drop-shadow(0 9px 18px rgba(0,0,0,.55));
   --nyx-compat-shadow-drop-3155b631564e:drop-shadow(0 2px 10px rgba(8,5,26,.7));
@@ -1689,7 +1605,6 @@
   --nyx-compat-shadow-drop-3570bd40209b:drop-shadow(0 9px 20px rgba(0,0,0,.42));
   --nyx-compat-shadow-drop-3af2c652efff:drop-shadow(0 12px 24px rgba(0,0,0,.55));
   --nyx-compat-shadow-drop-3e8f24b3de61:drop-shadow(0 2px 6px rgba(0,0,0,.5));
-  --nyx-compat-shadow-drop-45e5a31895ae:drop-shadow(0 0 9px var(--character-hover-glow));
   --nyx-compat-shadow-drop-4c727e4bb27d:drop-shadow(0 5px 8px rgba(0,0,0,.36));
   --nyx-compat-shadow-drop-55c326b20aa6:drop-shadow(0 0 4px rgba(183,170,255,.2));
   --nyx-compat-shadow-drop-58e74b593978:drop-shadow(0 4px 12px rgba(0,0,0,.6));
@@ -1697,10 +1612,8 @@
   --nyx-compat-shadow-drop-5c330573301e:drop-shadow(0 0 8px rgba(139,123,255,.55));
   --nyx-compat-shadow-drop-5df3db96847d:drop-shadow(0 8px 16px rgba(0,0,0,.55));
   --nyx-compat-shadow-drop-5ea69fa038c7:drop-shadow(0 2px 8px rgba(0,0,0,.6));
-  --nyx-compat-shadow-drop-64d9b02d780a:drop-shadow(0 0 12px var(--accent-bright));
   --nyx-compat-shadow-drop-66a657c8872d:drop-shadow(0 0 4px rgba(183,170,255,.8));
   --nyx-compat-shadow-drop-6bca0d8d77a2:drop-shadow(0 3px 12px rgba(0,0,0,.6));
-  --nyx-compat-shadow-drop-6f22cfc0a8d6:drop-shadow(0 0 10px var(--accent-bright));
   --nyx-compat-shadow-drop-705141bdc9cb:drop-shadow(0 0 12px rgba(183,170,255,.95));
   --nyx-compat-shadow-drop-74e2c5901b17:drop-shadow(0 0 8px rgba(158,116,255,.18));
   --nyx-compat-shadow-drop-752e86ae0f08:drop-shadow(0 2px 5px rgba(0,0,0,.35));
@@ -1709,11 +1622,9 @@
   --nyx-compat-shadow-drop-832bbff1deda:drop-shadow(0 0 5px rgba(183,170,255,.8));
   --nyx-compat-shadow-drop-83ef4fb15a2c:drop-shadow(0 3px 10px rgba(0,0,0,.6));
   --nyx-compat-shadow-drop-88b914fa564f:drop-shadow(0 12px 26px rgba(0,0,0,.6));
-  --nyx-compat-shadow-drop-898aef604509:drop-shadow(0 0 26px var(--accent-glow));
   --nyx-compat-shadow-drop-8a769110fcd3:drop-shadow(0 1px 5px rgba(0,0,0,.55));
   --nyx-compat-shadow-drop-8a91c483cc7b:drop-shadow(0 18px 25px rgba(3,1,12,.55));
   --nyx-compat-shadow-drop-8e1253d241ff:drop-shadow(0 3px 5px rgba(0,0,0,.42));
-  --nyx-compat-shadow-drop-8f46e6767a0d:drop-shadow(0 0 7px var(--accent-glow));
   --nyx-compat-shadow-drop-8f69dd7d7701:drop-shadow(0 5px 9px rgba(0,0,0,.55));
   --nyx-compat-shadow-drop-90fd8f78e743:drop-shadow(0 1px 4px rgba(0,0,0,.5));
   --nyx-compat-shadow-drop-9418e716f96b:drop-shadow(0 10px 22px rgba(0,0,0,.6));
@@ -1726,48 +1637,31 @@
   --nyx-compat-shadow-drop-c6e344756ffa:drop-shadow(0 0 4px rgba(139,123,255,.35));
   --nyx-compat-shadow-drop-cb8d1980ed55:drop-shadow(0 5px 12px rgba(0,0,0,.5));
   --nyx-compat-shadow-drop-d56318fc11a7:drop-shadow(0 7px 16px rgba(0,0,0,.5));
-  --nyx-compat-shadow-drop-d5bc05e3566e:drop-shadow(0 0 4px var(--accent-glow));
   --nyx-compat-shadow-drop-ee53a56a3776:drop-shadow(0 0 7px rgba(183,170,255,.36));
   --nyx-compat-shadow-drop-f047c0c13d06:drop-shadow(0 0 18px rgba(183,170,255,.28));
-  --nyx-compat-shadow-drop-f72ecd84a7c1:drop-shadow(0 0 8px var(--accent-glow));
   --nyx-compat-shadow-drop-f791b14a8c27:drop-shadow(0 9px 24px rgba(0,0,0,.5));
   --nyx-compat-shadow-drop-f83b4095f4e9:drop-shadow(0 2px 8px rgba(0,0,0,.55));
   --nyx-compat-shadow-drop-fac6b4c87f7c:drop-shadow(0 0 14px var(--accent-glow));
   --nyx-compat-shadow-drop-fe559570d0d4:drop-shadow(0 0 calc(6px*var(--glow)) var(--accent-glow));
-  --nyx-compat-shadow-drop-ff547c12a983:drop-shadow(0 0 11px var(--accent-bright));
   --nyx-compat-shadow-text-14cfcdd68732:0 0 14px rgba(139,123,255,.34);
   --nyx-compat-shadow-text-1c2bbc21e691:0 1px 2px rgba(0,0,0,.55);
   --nyx-compat-shadow-text-284eb2383ba8:0 2px 8px rgba(0,0,0,.42);
   --nyx-compat-shadow-text-2ac64d9b7929:0 0 10px rgba(217,85,119,.6);
-  --nyx-compat-shadow-text-2c6fa8497efb:0 0 16px var(--accent-glow);
   --nyx-compat-shadow-text-2dcb8d5b1bda:0 1px 6px rgba(8,5,26,.9);
   --nyx-compat-shadow-text-3c50f32aba5f:0 0 14px rgba(139,123,255,.4);
-  --nyx-compat-shadow-text-4eb7f4cb371f:0 0 18px var(--cmf-glow);
-  --nyx-compat-shadow-text-4ff6bf766515:0 0 10px var(--accent-glow);
-  --nyx-compat-shadow-text-51cdec3fc915:0 0 22px var(--accent-glow), 0 2px 14px rgba(0,0,0,.6);
-  --nyx-compat-shadow-text-52f94cc077a8:0 0 18px color-mix(in oklab, var(--el) 45%, transparent), 0 3px 18px rgba(0,0,0,.75);
   --nyx-compat-shadow-text-5b7dad0d44bf:0 0 12px rgba(183,170,255,.28);
   --nyx-compat-shadow-text-601849d2764d:0 0 14px rgba(139,123,255,.35);
-  --nyx-compat-shadow-text-62143edadd1a:0 0 14px var(--accent-glow), 0 2px 8px rgba(0,0,0,.7);
-  --nyx-compat-shadow-text-692422ff99e2:0 1px 8px rgba(0,0,0,.8), 0 0 14px var(--accent-glow);
   --nyx-compat-shadow-text-6cb71ba0cf75:0 2px 10px rgba(0,0,0,.42);
   --nyx-compat-shadow-text-75b4bd7a2c83:0 2px 8px rgba(0,0,0,.6);
-  --nyx-compat-shadow-text-7d6ceea671c0:0 0 18px var(--accent-glow);
-  --nyx-compat-shadow-text-807d5c88b94a:0 0 14px var(--accent-glow);
-  --nyx-compat-shadow-text-836698dbc802:0 0 16px color-mix(in oklab, var(--el) 34%, transparent), 0 3px 14px rgba(0,0,0,.8);
   --nyx-compat-shadow-text-84629f94326a:0 0 18px rgba(139,123,255,.25);
   --nyx-compat-shadow-text-871c43a7345c:0 0 26px var(--accent-glow), 0 2px 18px rgba(0,0,0,.6);
-  --nyx-compat-shadow-text-8d10f63f20a0:0 0 12px var(--glow);
-  --nyx-compat-shadow-text-8f773f638f85:0 0 12px var(--accent-glow);
   --nyx-compat-shadow-text-922f6aa714d1:0 0 10px rgba(139,123,255,.4);
-  --nyx-compat-shadow-text-af39948cc325:0 0 22px var(--accent-glow), 0 2px 16px rgba(0,0,0,.78);
   --nyx-compat-shadow-text-b0e15cea0bf0:0 0 12px rgba(139,123,255,.3);
   --nyx-compat-shadow-text-b5a51d9d5a6f:0 0 16px rgba(151,124,255,.24);
   --nyx-compat-shadow-text-bb493cee3054:0 1px 3px rgba(0,0,0,.5);
   --nyx-compat-shadow-text-d5d76ebaaa7b:0 0 14px rgba(139,123,255,.28);
   --nyx-compat-shadow-text-d64b9a7534db:0 0 18px rgba(183,170,255,.5);
   --nyx-compat-shadow-text-e830c49fd204:0 0 22px rgba(139,123,255,.38);
-  --nyx-compat-shadow-text-ece6b39df816:0 0 28px var(--accent-bright), 0 2px 16px rgba(0,0,0,.78);
   --nyx-compat-shadow-text-ee965714c912:0 0 7px rgba(124,53,255,.56), 0 0 13px rgba(124,53,255,.24);
   --nyx-compat-shadow-text-f5672c841b37:0 0 12px rgba(139,123,255,.42), 0 0 28px rgba(139,123,255,.18);
   --nyx-compat-shadow-text-f6af13416a58:0 0 12px rgba(139,123,255,.45), 0 2px 8px rgba(0,0,0,.72);
@@ -1916,3 +1810,525 @@
   --nyx-compat-weight-850:850;
   /* END GENERATED NYX COMPAT TOKENS */
 }
+
+/* BEGIN GENERATED NYX SCOPED COMPAT TOKENS */
+/* Expressions below must compute beside their feature-local variables. */
+.achievement-manage > nav button.on {
+  --nyx-compat-color-12376054c278: rgba(var(--ach-accent-rgb),.26);
+}
+
+.achievement-category-gallery {
+  --nyx-compat-color-129eb6a17ebd: rgba(var(--ach-accent-rgb),.42);
+}
+
+.achievement-atlas nav > button.on,
+.achievement-check {
+  --nyx-compat-color-13c4fd519b98: rgba(var(--ach-accent-rgb),.33);
+}
+
+.achievement-category-card {
+  --nyx-compat-color-1d0e03510af4: rgba(var(--ach-accent-rgb),.3);
+}
+
+.achievement-atlas nav > button:hover,
+.achievement-loading span {
+  --nyx-compat-color-226f46ff22b2: rgba(var(--ach-accent-rgb),.09);
+}
+
+.achievement-atlas,
+.achievement-categories,
+.achievement-ledger,
+.achievement-new-profile,
+.achievement-status-filter button.on {
+  --nyx-compat-color-2c2e69e12484: rgba(var(--ach-accent-rgb),.28);
+}
+
+.achievement-row:hover {
+  --nyx-compat-color-3071ba9a7dff: rgba(var(--ach-accent-rgb),.04);
+}
+
+.achievement-row.done {
+  --nyx-compat-color-3123953fe303: rgba(var(--ach-accent-rgb),.075);
+}
+
+.achievement-categories button:hover, .achievement-categories button.on,
+.achievement-ledger-heading,
+.achievement-page button, .achievement-file-button {
+  --nyx-compat-color-3972e28257b7: rgba(var(--ach-accent-rgb),.13);
+}
+
+.achievement-atlas nav > button.on,
+.achievement-row.done {
+  --nyx-compat-color-3c4839cf1be7: rgba(var(--ach-accent-rgb),.025);
+}
+
+.achievement-row .achievement-check {
+  --nyx-compat-color-4068a7e421a9: rgba(var(--ach-accent-rgb),.65);
+}
+
+.achievement-ledger-icon {
+  --nyx-compat-color-4aaaecca2665: rgba(var(--ach-accent-rgb),.08);
+}
+
+.achievement-row.done {
+  --nyx-compat-color-4c7d99947564: rgba(var(--ach-accent-rgb),.012);
+}
+
+.achievement-page button:hover, .achievement-file-button:hover {
+  --nyx-compat-color-50d15e5722b0: rgba(var(--ach-accent-rgb),.62);
+}
+
+.achievement-category-art,
+.achievement-ledger-icon,
+.achievement-page button:hover, .achievement-file-button:hover {
+  --nyx-compat-color-584febac5703: rgba(var(--ach-accent-rgb),.2);
+}
+
+.achievement-atlas nav,
+.achievement-observatory,
+.achievement-page-head {
+  --nyx-compat-color-5bf6d390d8f0: rgba(var(--ach-accent-rgb),.24);
+}
+
+.achievement-page button, .achievement-file-button {
+  --nyx-compat-color-5c973303966c: rgba(var(--ach-accent-rgb),.34);
+}
+
+.achievement-row {
+  --nyx-compat-color-5d7282444a10: rgba(var(--ach-accent-rgb),.014);
+}
+
+.achievement-row,
+.achievement-row.done {
+  --nyx-compat-color-64e1eb7086e1: rgba(var(--ach-accent-rgb),.018);
+}
+
+.achievement-manage .achievement-import-preview,
+.achievement-orbit::before,
+.achievement-status-filter button.on {
+  --nyx-compat-color-6d2c3e54b1b0: rgba(var(--ach-accent-rgb),.15);
+}
+
+.achievement-title-icon {
+  --nyx-compat-color-6f03de6908eb: rgba(var(--ach-accent-rgb),.4);
+}
+
+.achievement-category-card:hover {
+  --nyx-compat-color-815c37e5f24b: rgba(var(--ach-accent-rgb),.68);
+}
+
+.achievement-notice,
+.achievement-orbit::after,
+.achievement-page :is(select, input[type="search"], input[type="text"]),
+.achievement-toolbar {
+  --nyx-compat-color-871947ad3714: rgba(var(--ach-accent-rgb),.22);
+}
+
+.achievement-load-more,
+.achievement-manage .achievement-import-preview {
+  --nyx-compat-color-885f85cc3a5a: rgba(var(--ach-accent-rgb),.035);
+}
+
+.achievement-hero {
+  --nyx-compat-color-8ad29a1cb9b0: rgba(var(--ach-accent-rgb),.23);
+}
+
+.achievement-row:hover {
+  --nyx-compat-color-901e59bbe7fa: rgba(var(--ach-accent-rgb),.055);
+}
+
+.achievement-row.done {
+  --nyx-compat-color-957ff2afb298: rgba(var(--ach-accent-rgb),.11);
+}
+
+.achievement-astral-ring,
+.achievement-backup-note,
+.achievement-ledger-icon,
+.achievement-manage {
+  --nyx-compat-color-a0d022bb7dfc: rgba(var(--ach-accent-rgb),.25);
+}
+
+.achievement-category-card,
+.achievement-page-head,
+.achievement-row-meta em {
+  --nyx-compat-color-a42fead3b275: rgba(var(--ach-accent-rgb),.16);
+}
+
+.achievement-command,
+.achievement-row:hover,
+.achievement-row.expanded {
+  --nyx-compat-color-bcd550fac433: rgba(var(--ach-accent-rgb),.065);
+}
+
+.achievement-ledger-heading,
+.achievement-manage,
+.achievement-manage > nav button.on {
+  --nyx-compat-color-c00f3dba3ae7: rgba(var(--ach-accent-rgb),.1);
+}
+
+.achievement-atlas nav > button:hover,
+.achievement-notice,
+.achievement-row.done {
+  --nyx-compat-color-c6211d55d129: rgba(var(--ach-accent-rgb),.07);
+}
+
+.achievement-row-meta em {
+  --nyx-compat-color-d8934e8d79b2: rgba(var(--ach-accent-rgb),.17);
+}
+
+.achievement-astral-seal::before,
+.achievement-atlas nav > button.on,
+.achievement-hero,
+.achievement-ledger-heading,
+.achievement-observatory,
+.achievement-row-detail {
+  --nyx-compat-color-eb8a84a2f940: rgba(var(--ach-accent-rgb),.14);
+}
+
+.achievement-row-detail {
+  --nyx-compat-color-f029f58ccc9b: rgba(var(--ach-accent-rgb),.18);
+}
+
+.achievement-categories button:hover, .achievement-categories button.on,
+.achievement-ledger-icon,
+.achievement-list,
+.achievement-row .achievement-check {
+  --nyx-compat-color-f42edb24539a: rgba(var(--ach-accent-rgb),.35);
+}
+
+.library-note-popover-head strong {
+  --nyx-compat-font-0dc2a5053aa2: 750 1rem/1.2 var(--font-display,var(--nyx-font-ui));
+}
+
+.achievement-page-title h1 {
+  --nyx-compat-font-1d7152a27f50: 500 clamp(22px,2.2vw,31px)/1 var(--ach-display);
+}
+
+.achievement-atlas > header span {
+  --nyx-compat-font-2eaea2d675f9: 500 15px/1 var(--ach-display);
+}
+
+.achievement-category-card > strong {
+  --nyx-compat-font-31d44c2e446d: 500 14px/1.15 var(--ach-display);
+}
+
+.library-note-pin::before {
+  --nyx-compat-font-324f1756f0bc: 700 .68em/1 var(--font-display,var(--nyx-font-ui));
+}
+
+.library-annotation-toolbar button {
+  --nyx-compat-font-5dbe8487eb68: 700 .73rem/1 var(--font-body,var(--nyx-font-ui));
+}
+
+.achievement-atlas nav strong {
+  --nyx-compat-font-6f6db41e21f7: 500 11px/1.25 var(--ach-display);
+}
+
+.achievement-overall > strong {
+  --nyx-compat-font-7d47598aa130: 500 18px/1 var(--ach-display);
+}
+
+.achievement-atlas > header b {
+  --nyx-compat-font-9079aa01e1b1: 700 8px/1 var(--font-body,var(--nyx-font-ui));
+}
+
+.achievement-ledger-heading h2 {
+  --nyx-compat-font-95e3d34efed8: 500 clamp(19px,1.7vw,26px)/1.08 var(--ach-display);
+}
+
+.achievement-row-main > strong {
+  --nyx-compat-font-b517fc117361: 500 14px/1.25 var(--ach-display);
+}
+
+.library-hero h1, .library-reader-head h1 {
+  --nyx-compat-font-c3a494da8bba: 700 clamp(26px,4vw,40px)/1.08 var(--font-display,var(--nyx-font-ui));
+}
+
+.library-annotation-message button {
+  --nyx-compat-font-ebd4d194132a: 750 .72rem/1 var(--font-body,var(--nyx-font-ui));
+}
+
+.gp-fav-icon:hover .gp-fav-icon-open > span, .gp-fav-icon:focus-within .gp-fav-icon-open > span {
+  --nyx-compat-shadow-box-031aa373ff21: inset 0 0 0 2.5px var(--character-hover),0 0 18px var(--character-hover-glow),0 5px 12px rgba(0,0,0,.55);
+}
+
+.achievement-orbit::before {
+  --nyx-compat-shadow-box-0cb1bb18754a: inset 0 0 0 1px rgba(var(--ach-accent-rgb),.26);
+}
+
+.cm-av .disc {
+  --nyx-compat-shadow-box-0e370ee0fee5: inset 0 0 0 2.5px var(--ring), 0 0 12px var(--glow), 0 4px 10px rgba(0,0,0,.5);
+}
+
+.db-card:hover .db-art, .db-card:focus-visible .db-art {
+  --nyx-compat-shadow-box-1006c3ab596f: inset 0 0 0 1px rgba(205,191,255,.6), 0 10px 22px rgba(0,0,0,.28), 0 0 18px var(--accent-glow);
+}
+
+.cm-pop-chip.icon-only {
+  --nyx-compat-shadow-box-127af3a3b9c7: inset 0 0 0 1px color-mix(in oklab, var(--meta,var(--nyx-color-accent-bright)) 52%, transparent), 0 0 14px color-mix(in oklab, var(--meta,var(--nyx-color-accent-bright)) 18%, transparent);
+}
+
+.achievement-overall > i b {
+  --nyx-compat-shadow-box-13b1acaa2730: 0 0 14px rgba(var(--ach-accent-rgb),.72);
+}
+
+.cm-cell.hide-mode .disc {
+  --nyx-compat-shadow-box-1a751288d68d: inset 0 0 0 2.5px var(--ring), 0 0 12px var(--glow), 0 4px 10px rgba(0,0,0,.5), 0 0 0 3px rgba(221,0,68,.28);
+}
+
+.achievement-astral-ring::before, .achievement-astral-ring::after {
+  --nyx-compat-shadow-box-292504bbca69: 0 0 10px var(--ach-gold);
+}
+
+.gp-bench-ic.dt {
+  --nyx-compat-shadow-box-2b4afc98e07b: 0 0 0 2px #fff, 0 0 22px var(--accent-glow), 0 5px 12px rgba(0,0,0,.55);
+}
+
+.cm-days button.on,
+.db-tabs button.on,
+.gp-fav-more:hover, .gp-fav-more:focus-visible,
+.gt-go,
+.sim-regions button.on,
+.wonder-tabs button.on {
+  --nyx-compat-shadow-box-2c6fa8497efb: 0 0 16px var(--accent-glow);
+}
+
+.gp-code .premium-dot {
+  --nyx-compat-shadow-box-47709c09df0e: 0 0 9px var(--accent-glow);
+}
+
+.achievement-orbit {
+  --nyx-compat-shadow-box-4a4f2ae9b6c9: 0 0 34px rgba(var(--ach-accent-rgb),.18);
+}
+
+.achievement-atlas nav > button.on {
+  --nyx-compat-shadow-box-4e18e70e69d1: inset 3px 0 0 var(--ach-game-accent),0 6px 18px rgba(0,0,0,.22);
+}
+
+.gp-code .newtag,
+.gp-fav .pin,
+.gt-hero-pity-fill,
+.gt-pity .bar i {
+  --nyx-compat-shadow-box-4ff6bf766515: 0 0 10px var(--accent-glow);
+}
+
+.cm-fopt.on,
+.cm-hide-menu button.on,
+.cm-tool.on,
+.sim-code .copy:hover {
+  --nyx-compat-shadow-box-50379f5f18a4: inset 0 0 0 1.5px var(--accent-bright);
+}
+
+.achievement-row.done .achievement-check {
+  --nyx-compat-shadow-box-565dfa931161: 0 0 14px rgba(var(--ach-accent-rgb),.24);
+}
+
+.cm-gi.on {
+  --nyx-compat-shadow-box-589dd9e61c87: inset 0 0 0 1.5px var(--accent-bright), 0 0 14px var(--accent-glow);
+}
+
+.gp-code {
+  --nyx-compat-shadow-box-5dd74fa73177: inset 3px 0 0 var(--accent), inset 0 0 0 1px rgba(183,170,255,.13);
+}
+
+.gp-med.on {
+  --nyx-compat-shadow-box-68f3f3ce7dee: 0 0 0 2px #fff, 0 0 22px var(--accent-glow), 0 4px 10px rgba(0,0,0,.6);
+}
+
+.ntl-block strong img.ntl-block-portrait {
+  --nyx-compat-shadow-box-6a8b279372b9: 0 0 0 1.5px var(--rar,#c49bff);
+}
+
+.achievement-row .achievement-check[aria-pressed="true"] {
+  --nyx-compat-shadow-box-7b552336bbe3: 0 0 16px rgba(var(--ach-accent-rgb),.23);
+}
+
+.bcal-toggle.on,
+.cm-form-row button.on,
+.cm-presets button.on,
+.gt-mode-tabs button.on {
+  --nyx-compat-shadow-box-807d5c88b94a: 0 0 14px var(--accent-glow);
+}
+
+.achievement-astral-seal::before {
+  --nyx-compat-shadow-box-81e4af61bbfb: inset 0 0 0 1px rgba(var(--ach-accent-rgb),.25);
+}
+
+.beta-diff-actions button:hover, .beta-diff-actions button:focus-visible {
+  --nyx-compat-shadow-box-84b7e73777fe: inset 0 0 0 1px rgba(205,191,255,.5), 0 0 13px var(--accent-glow);
+}
+
+.cm-trace-max.on,
+.db-filter-group button.on,
+.db-filter-row button.on,
+.gt-steps .n,
+.nyx-img-pickpreview-actions button.apply,
+.wonder-filter-row button.on {
+  --nyx-compat-shadow-box-8f773f638f85: 0 0 12px var(--accent-glow);
+}
+
+.achievement-astral-seal {
+  --nyx-compat-shadow-box-a423a1bb4151: 0 0 45px rgba(var(--ach-accent-rgb),.18);
+}
+
+.gp-bench-ic:hover {
+  --nyx-compat-shadow-box-a7c7e91a459a: 0 0 0 2px var(--accent-bright), 0 0 18px var(--accent-glow), 0 5px 12px rgba(0,0,0,.55);
+}
+
+.db-modal-close:hover, .db-modal-close:focus-visible {
+  --nyx-compat-shadow-box-bc1df0be00e1: inset 0 0 0 1px rgba(205,191,255,.55), 0 0 14px var(--accent-glow);
+}
+
+.gt-panel-box {
+  --nyx-compat-shadow-box-bcd83c7eb19a: inset 0 0 0 1px var(--gt-panel-line);
+}
+
+.cc-check input:focus-visible + .box {
+  --nyx-compat-shadow-box-c12fa247c17d: inset 0 0 0 1.5px var(--accent-bright), 0 0 0 2px rgba(139,123,255,.4);
+}
+
+.achievement-atlas nav > button.on,
+.achievement-categories button.on {
+  --nyx-compat-shadow-box-c978411d6e5f: inset 3px 0 0 var(--ach-accent);
+}
+
+.cm-pop-tags .el {
+  --nyx-compat-shadow-box-d343118307f4: inset 0 0 0 1px color-mix(in oklab, var(--el) 58%, transparent), 0 0 14px color-mix(in oklab, var(--el) 18%, transparent);
+}
+
+.gp-med:hover {
+  --nyx-compat-shadow-box-d54c51cc2c49: 0 0 0 2px var(--accent-bright), 0 0 18px var(--accent-glow), 0 4px 10px rgba(0,0,0,.55);
+}
+
+.gp-fav .topline {
+  --nyx-compat-shadow-box-df40460eb9c6: 0 0 5px var(--accent-glow);
+}
+
+.achievement-overall > i b {
+  --nyx-compat-shadow-box-e40242f9c372: 0 0 12px rgba(var(--ach-accent-rgb),.55);
+}
+
+.bcal-cell.today {
+  --nyx-compat-shadow-box-efc2612bcb20: inset 0 0 0 1.5px rgba(207,196,255,.85), 0 0 14px var(--accent-glow);
+}
+
+.cm-pop-orbit {
+  --nyx-compat-shadow-box-fd448c6463cd: 0 0 46px color-mix(in oklab, var(--el) 22%, transparent);
+}
+
+.cm-load-eye {
+  --nyx-compat-shadow-drop-0edc81790589: drop-shadow(0 0 18px var(--accent-glow));
+}
+
+.gp-add:hover {
+  --nyx-compat-shadow-drop-0f3eb5507fc4: drop-shadow(0 0 9px var(--accent-glow));
+}
+
+.gp-fn-row.on .dia {
+  --nyx-compat-shadow-drop-268e9d608980: drop-shadow(0 0 7px var(--accent-bright));
+}
+
+.gp-fav:hover {
+  --nyx-compat-shadow-drop-45e5a31895ae: drop-shadow(0 0 9px var(--character-hover-glow));
+}
+
+.gp-fav.dt,
+.gp-topbar .tb-pengo:hover {
+  --nyx-compat-shadow-drop-64d9b02d780a: drop-shadow(0 0 12px var(--accent-bright));
+}
+
+.gp-bench-dia.dt {
+  --nyx-compat-shadow-drop-6f22cfc0a8d6: drop-shadow(0 0 10px var(--accent-bright));
+}
+
+.gp-fav.dt {
+  --nyx-compat-shadow-drop-898aef604509: drop-shadow(0 0 26px var(--accent-glow));
+}
+
+.gp-topbar .tb-brand .tb-eye {
+  --nyx-compat-shadow-drop-8f46e6767a0d: drop-shadow(0 0 7px var(--accent-glow));
+}
+
+.gp-fav,
+.gp-hex,
+.gp-topbar .banner {
+  --nyx-compat-shadow-drop-d5bc05e3566e: drop-shadow(0 0 4px var(--accent-glow));
+}
+
+.gp-hex:hover,
+.gp-hex.on,
+.gp-topbar .banner:hover,
+.gp-topbar .tb-pengo {
+  --nyx-compat-shadow-drop-f72ecd84a7c1: drop-shadow(0 0 8px var(--accent-glow));
+}
+
+.gp-add.dt,
+.gp-topbar .tb-brand:hover .tb-eye {
+  --nyx-compat-shadow-drop-ff547c12a983: drop-shadow(0 0 11px var(--accent-bright));
+}
+
+.cm-bosshd .t,
+.cm-pop-topline .title,
+.cm-ttl .t,
+.gt-ttl .t {
+  --nyx-compat-shadow-text-2c6fa8497efb: 0 0 16px var(--accent-glow);
+}
+
+.db-item-frame-portrait-media > span {
+  --nyx-compat-shadow-text-4eb7f4cb371f: 0 0 18px var(--cmf-glow);
+}
+
+.gp-code a.cc:hover,
+.gp-fav .ctl .th:hover {
+  --nyx-compat-shadow-text-4ff6bf766515: 0 0 10px var(--accent-glow);
+}
+
+.gp-display {
+  --nyx-compat-shadow-text-51cdec3fc915: 0 0 22px var(--accent-glow), 0 2px 14px rgba(0,0,0,.6);
+}
+
+.cm-pop-name {
+  --nyx-compat-shadow-text-52f94cc077a8: 0 0 18px color-mix(in oklab, var(--el) 45%, transparent), 0 3px 18px rgba(0,0,0,.75);
+}
+
+.sim-ban .bt {
+  --nyx-compat-shadow-text-62143edadd1a: 0 0 14px var(--accent-glow), 0 2px 8px rgba(0,0,0,.7);
+}
+
+.gp-fav .nm {
+  --nyx-compat-shadow-text-692422ff99e2: 0 1px 8px rgba(0,0,0,.8), 0 0 14px var(--accent-glow);
+}
+
+.db-modal-media span,
+.gp-sec .t,
+.wonder-detail-fallback {
+  --nyx-compat-shadow-text-7d6ceea671c0: 0 0 18px var(--accent-glow);
+}
+
+.cm-sechd b,
+.sim-grouphd .gn {
+  --nyx-compat-shadow-text-807d5c88b94a: 0 0 14px var(--accent-glow);
+}
+
+.cm-ledger-label b {
+  --nyx-compat-shadow-text-836698dbc802: 0 0 16px color-mix(in oklab, var(--el) 34%, transparent), 0 3px 14px rgba(0,0,0,.8);
+}
+
+.cm-av .mono {
+  --nyx-compat-shadow-text-8d10f63f20a0: 0 0 12px var(--glow);
+}
+
+.cm-chan-text .cm-chan-word.on,
+.db-art span {
+  --nyx-compat-shadow-text-8f773f638f85: 0 0 12px var(--accent-glow);
+}
+
+.gp-topbar .tb-brand .wm {
+  --nyx-compat-shadow-text-af39948cc325: 0 0 22px var(--accent-glow), 0 2px 16px rgba(0,0,0,.78);
+}
+
+.gp-topbar .tb-brand:hover .wm {
+  --nyx-compat-shadow-text-ece6b39df816: 0 0 28px var(--accent-bright), 0 2px 16px rgba(0,0,0,.78);
+}
+
+/* END GENERATED NYX SCOPED COMPAT TOKENS */

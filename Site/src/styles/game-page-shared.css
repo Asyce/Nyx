@@ -7517,3 +7517,37 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
   width:100%; max-width:none; height:100%; max-height:100%; padding:0; border-radius:0;
   background:none; box-shadow:none; animation:none;
 }
+
+/* Static React layout helpers. Runtime geometry and art remain inline. */
+.nyx-screen{ position:absolute; inset:0; display:flex; flex-direction:column; }
+.gp-more-favs{ display:flex; align-items:center; justify-content:center; gap:var(--nyx-space-12); }
+.gp-switcher-strip{ display:flex; align-items:center; gap:var(--gp-switcher-gap,var(--nyx-space-14)); }
+.gp-row-stack{ display:flex; flex-direction:column; gap:var(--nyx-space-4); }
+.gp-fn-tabs{ display:flex; align-items:center; gap:var(--nyx-space-16); }
+.gp-codes-stack{ display:flex; flex-direction:column; gap:var(--gp-codes-gap,var(--nyx-space-10)); }
+.gp-fav-icon--sim{ --el:var(--nyx-color-sim-element); }
+.all-codes-view{ min-width:0; min-height:0; display:flex; flex-direction:column; }
+.all-codes-head{ display:flex; align-items:center; gap:var(--nyx-space-14); }
+.gp-codes-scroll.all-codes-list{ flex:1; min-height:0; margin-top:var(--nyx-space-16); gap:var(--nyx-space-24); }
+
+/* Cross-game pull overview now uses the same title, card, chip, and spacing language. */
+.pulls-overview{ padding:var(--nyx-space-8) var(--nyx-space-4) var(--nyx-space-24); }
+.pulls-overview-title{ margin-bottom:var(--nyx-space-4); }
+.pulls-overview-subtitle{ margin-bottom:var(--nyx-space-18); color:var(--nyx-color-text-muted); font:var(--nyx-type-body)/1.4 var(--nyx-font-ui); }
+.pulls-overview-loading{ color:var(--nyx-color-text-muted); font-family:var(--nyx-font-ui); }
+.pulls-overview-grid{ display:grid; grid-template-columns:repeat(auto-fill,minmax(248px,1fr)); gap:var(--nyx-space-14); }
+.pulls-overview-card{ display:flex; flex-direction:column; gap:var(--nyx-space-10); padding:var(--nyx-space-16); }
+.pulls-overview-card.is-empty{ opacity:.72; }
+.pulls-overview-game{ border-left:3px solid var(--pull-accent); padding-left:var(--nyx-space-10); color:var(--nyx-color-heading); font:var(--nyx-type-lead)/1.2 var(--nyx-font-ui); letter-spacing:.03em; }
+.pulls-overview-pity{ display:flex; align-items:baseline; gap:var(--nyx-space-8); }
+.pulls-overview-pity b{ color:var(--nyx-color-text-max); font:var(--nyx-type-title)/1 var(--nyx-font-ui); }
+.pulls-overview-pity > i{ color:var(--nyx-color-text-faint); font:normal var(--nyx-type-body)/1 var(--nyx-font-ui); }
+.pulls-overview-guaranteed{ margin-left:auto; }
+.pulls-overview-progress{ height:7px; overflow:hidden; border-radius:var(--nyx-radius-small); background:var(--nyx-color-border-subtle); }
+.pulls-overview-progress i{ display:block; width:var(--pull-progress); height:100%; background:linear-gradient(90deg,var(--nyx-color-accent-bright),var(--pull-accent)); }
+.pulls-overview-stats{ display:flex; justify-content:space-between; color:var(--nyx-color-text-muted); font:var(--nyx-type-small)/1.3 var(--nyx-font-ui); }
+.pulls-overview-last{ display:flex; align-items:center; gap:var(--nyx-space-10); margin-top:var(--nyx-space-2); color:var(--nyx-color-text-soft); font:var(--nyx-type-small)/1.3 var(--nyx-font-ui); }
+.pulls-overview-last img,.pulls-overview-avatar-fallback{ width:30px; height:30px; flex:0 0 auto; border-radius:var(--nyx-radius-circle); background:var(--nyx-color-chip-surface); object-fit:cover; }
+.pulls-overview-avatar-fallback{ background:linear-gradient(135deg,var(--nyx-color-warning),var(--nyx-color-surface-raised)); }
+.pulls-overview-last i{ color:var(--nyx-color-text-faint); font-style:normal; }
+.pulls-overview-empty{ color:var(--nyx-color-text-faint); font:var(--nyx-type-small)/1.5 var(--nyx-font-ui); }

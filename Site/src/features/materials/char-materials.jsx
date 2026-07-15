@@ -2092,7 +2092,7 @@ function CMUnfavouriteConfirm({ character, onCancel, onConfirm }){
 function CMCell({ ch, onClick, hideMode, hidden, onToggleHidden, pinned, onTogglePinned }){
   return (
     <div className={'cm-cell' + (hideMode ? ' hide-mode' : '') + (hidden ? ' hidden' : '')}
-         style={{ '--el':CM_ELEM[ch.el] || '#b7aaff' }}>
+         style={{ '--el':CM_ELEM[ch.el] || 'var(--nyx-color-accent-bright)' }}>
       <button type="button" className="cm-cell-open"
         title={hideMode ? (hidden ? 'Unhide ' : 'Hide ') + ch.n : ch.n}
         aria-pressed={hideMode ? !!hidden : undefined}
@@ -2924,7 +2924,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
           <div className="cm-head">
             <span className="cm-dia"></span>
             <div className="cm-ttl"><div className="t">Characters</div></div>
-            <button type="button" className="cm-x" title="Close" onClick={onClose} style={{ display:inline ? 'none' : undefined }}>{'✕'}</button>
+            <button type="button" className={'cm-x' + (inline ? ' nyx-u-hidden' : '')} title="Close" onClick={onClose}>{'✕'}</button>
           </div>
         )}
 
@@ -3158,7 +3158,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
         <div className={'cm-pop-wrap' + (inline ? ' float page' : '')} onMouseDown={inline ? undefined : (e) => { if (e.target === e.currentTarget) closePop(); }}>
           <div className="cm-pop ledger" data-screen-label={inline ? 'Material detail page' : 'Material popup'} ref={cmPopRef}
                role={inline ? undefined : 'dialog'} aria-modal={inline ? undefined : 'true'} aria-label={(sel.n || 'Character') + ' materials'}
-               style={{ '--el':CM_ELEM[view.el] || '#b7aaff' }}>
+               style={{ '--el':CM_ELEM[view.el] || 'var(--nyx-color-accent-bright)' }}>
             <div className="cm-pop-ambient"></div>
             <div className="cm-pop-scrim"></div>
             {!inline && (

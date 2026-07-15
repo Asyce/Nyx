@@ -790,7 +790,7 @@ function CurrentBannerStrip({ cfg }){
   return (
     <section className="gp-current-banners" aria-label="Current banners">
       <div className="gp-current-banners-head">
-        <GPSec title="Current Banners" icon="../assets/decor/orbit_burst.png" style={{ flex:1, minWidth:0 }} />
+        <GPSec title="Current Banners" icon="../assets/decor/orbit_burst.png" className="nyx-u-fill" />
         {updated && <span>Updated {formatUpdated(updated)}</span>}
       </div>
       <BannerFreshnessNote fresh={fresh} />
@@ -1265,7 +1265,7 @@ const buildTrack = (cfg) => Object.assign({ pull:'Wish', pulls:'Wishes', currenc
 
 function FavIconPinned({ ch, cfg, onOpen }){
   return (
-    <div className="gp-fav-icon" style={{ '--el':'#9a72e8' }}>
+    <div className="gp-fav-icon gp-fav-icon--sim">
       <button type="button" className="gp-fav-icon-open" onClick={() => onOpen(ch)} aria-label={ch.name}>
         <span>
           <img src={ch.icon || cfg.benchIcon} alt="" draggable="false" />
@@ -1562,9 +1562,9 @@ function AllCodesView(){
   const filterActive = premiumOnly && hasPremiumRows;
   const visibleCount = allCodes.filter((c) => !filterActive || c.premium).length;
   return (
-    <div style={{ minWidth:0, minHeight:0, display:'flex', flexDirection:'column' }}>
-      <div style={{ display:'flex', alignItems:'center', gap:'14px' }}>
-        <GPSec title="All Redemption Codes" style={{ flex:1, minWidth:0 }} />
+    <div className="all-codes-view">
+      <div className="all-codes-head">
+        <GPSec title="All Redemption Codes" className="nyx-u-fill" />
         <label className={'code-filter wide' + (filterActive ? ' on' : '') + (!hasPremiumRows ? ' disabled' : '')}>
           <input type="checkbox" checked={filterActive} disabled={!hasPremiumRows} onChange={(e) => setPremiumOnly(e.target.checked)} />
           <span className="cur-glyph"></span>
@@ -1572,7 +1572,7 @@ function AllCodesView(){
         </label>
         <span className="sim-updated">Updated {CODES_UPDATED}</span>
       </div>
-      <div className="gp-codes-scroll" style={{ flex:1, minHeight:0, marginTop:'16px', gap:'26px' }}>
+      <div className="gp-codes-scroll all-codes-list">
         {SIM_GAMES.map(g => (
           <div key={g.key} className="sim-codegroup">
             <div className="sim-grouphd">
@@ -1802,7 +1802,7 @@ function CollectionLibrary({ game, view, onViewChange }){
   return (
     <div className="db-lib">
       <div className="db-lib-head">
-        <GPSec title="Database" style={{ flex:1, minWidth:0 }} />
+        <GPSec title="Database" className="nyx-u-fill" />
         {!specialActive && (
           <div className="db-search-tools">
             <div className="gp-search">
@@ -2122,7 +2122,7 @@ function GenshinWonderlandView(){
   return (
     <div className="wonder-view">
       <div className="wonder-head">
-        <GPSec title="Miliastra Wonderland" style={{ flex:1, minWidth:0 }} />
+        <GPSec title="Miliastra Wonderland" className="nyx-u-fill" />
         <div className="db-search-tools">
           <div className="gp-search">
             <span className="ic"></span>
@@ -2441,7 +2441,7 @@ function GenshinTcgView(){
   return (
     <div className="tcg-view">
       <div className="tcg-head">
-        <GPSec title="Genius Invokation TCG" style={{ flex:1, minWidth:0 }} />
+        <GPSec title="Genius Invokation TCG" className="nyx-u-fill" />
         <div className="tcg-search-tools">
           <div className="gp-search">
             <span className="ic"></span>
@@ -2563,7 +2563,7 @@ function GenshinPotView(){
     return (
       <div className="pot-view">
         <div className="pot-head">
-          <GPSec title="Serenitea Pot" style={{ flex:1, minWidth:0 }} />
+          <GPSec title="Serenitea Pot" className="nyx-u-fill" />
         </div>
         <div className="db-empty">Furnishing data has not been generated yet.</div>
       </div>
@@ -2635,7 +2635,7 @@ function GenshinPotView(){
   return (
     <div className="pot-view">
       <div className="pot-head">
-        <GPSec title="Serenitea Pot" style={{ flex:1, minWidth:0 }} />
+        <GPSec title="Serenitea Pot" className="nyx-u-fill" />
         <div className="db-search-tools">
           <div className="gp-search">
             <span className="ic"></span>
@@ -3394,7 +3394,7 @@ function BirthdayCalendar({ onOpenMaterial }){
     <section className="bcal" aria-label="Character birthday calendar" ref={calendarRef}>
       {editing !== undefined && <BirthdayDialog entry={editing || null} onClose={() => closeEditor(!!editing)} onSaved={saveCustom} onDeleted={deleteCustom} />}
       <div className="bcal-head">
-        <GPSec title="Birthday Calendar" icon="../assets/decor/orbit_burst.png" style={{ flex:1, minWidth:0 }} />
+        <GPSec title="Birthday Calendar" icon="../assets/decor/orbit_burst.png" className="nyx-u-fill" />
         <button type="button" className="bcal-add" ref={addButtonRef} onClick={(event) => openEditor(null, event.currentTarget)}>Add date</button>
         <div className="bcal-toggles" role="group" aria-label="Games shown on the calendar">
           {BDAY_GAMES.map((g) => (
@@ -4515,7 +4515,7 @@ function NyxApp(){
   };
 
   return (
-    <div style={{ position:'absolute', inset:0, display:'flex', flexDirection:'column' }} data-screen-label={cfg.name + ' page'}>
+    <div className="nyx-screen" data-screen-label={cfg.name + ' page'}>
       <header className={'gp-topbar' + (showTimePreference ? ' has-time-preference' : '') + (isGameOverview ? ' is-game-overview' : '')} data-screen-label="Top bar">
         <a className="tb-brand" href="/" title="Back to Worlds" aria-label="Back to the worlds index">
           <span className="plate" aria-hidden="true"></span>

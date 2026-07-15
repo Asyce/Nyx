@@ -1062,7 +1062,14 @@ function TimePreferenceControl({ gameKey }){
       document.removeEventListener('keydown', onKeyDown);
     };
   }, [open]);
-  const apply = (patch) => setPreference(nyxPatchTimePreference(gameKey, patch));
+  // The server-time choice is global: one pick drives every game's timers and
+  // timelines (user decision 2026-07-15, #2).
+  const apply = (patch) => {
+    Object.keys(GAME_REGISTRY).concat('nyx').forEach((key) => {
+      if (key !== gameKey) nyxPatchTimePreference(key, patch);
+    });
+    setPreference(nyxPatchTimePreference(gameKey, patch));
+  };
   const pickRegion = (region) => {
     apply({ serverRegion:region, displayMode:'server' });
     setOpen(false);

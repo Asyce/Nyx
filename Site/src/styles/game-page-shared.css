@@ -4037,8 +4037,8 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .ntl-bottom-ruler span{ position:absolute; top:0; bottom:0; padding:var(--nyx-compat-spacing-9px) 0 0 var(--nyx-space-8); border-left:1px solid var(--nyx-compat-color-916a41171be5); white-space:nowrap; }.ntl-bottom-ruler b{ color:var(--nyx-compat-color-hex-d8d0ef); font:var(--nyx-compat-font-ceca3129233a); }.ntl-bottom-ruler i{ margin-left:var(--nyx-compat-spacing-5px); color:var(--nyx-compat-color-hex-746c8d); font-size:var(--nyx-compat-size-8px); font-style:normal; }
 .ntl-block-body{ min-height:64px; padding:var(--nyx-space-6) var(--nyx-space-8); }.ntl-block{ min-height:64px; }.ntl-block .ntl-block-title{ line-height:1.05; white-space:normal; }
 .ntl-activity{ display:flex; align-items:center; justify-content:center; text-align:center; }
-.ntl-genshin .ntl-gi-today{ clip-path:none; border:1px solid var(--nyx-compat-color-92028f0fbac1); border-radius:var(--nyx-compat-radius-4px); padding-inline:var(--nyx-space-12); }
-.ntl-genshin .ntl-gi-layer-buttons button{ min-width:32px; clip-path:none; border:1px solid var(--nyx-compat-color-916a41171be5); border-radius:var(--nyx-compat-radius-3px); padding:0 var(--nyx-compat-spacing-9px); }
+.ntl-genshin .ntl-gi-today{ padding-inline:var(--nyx-space-18); }
+.ntl-genshin .ntl-gi-layer-buttons button{ min-width:32px; padding:0 var(--nyx-space-14); }
 .ntl-gi-rail-head{ height:84px; box-sizing:border-box; }.ntl-gi-rail-foot{ height:38px; box-sizing:border-box; padding:var(--nyx-compat-spacing-11px) var(--nyx-space-12); border-top:1px solid var(--nyx-compat-color-e3785321a1c3); color:var(--nyx-compat-color-hex-746b90); font-size:var(--nyx-compat-size-8px); font-weight:var(--nyx-weight-bold); letter-spacing:var(--nyx-compat-tracking-p12em); text-transform:uppercase; }
 .ntl-gi-forecast,.ntl-gi-now-band{ top:84px; }.ntl-genshin .ntl-now{ top:84px; }
 .ntl-gi-banner-name b{ line-height:1.05; white-space:normal; }
@@ -5752,15 +5752,13 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
   background:linear-gradient(160deg,#8b7bff,#6f4ec3);
   box-shadow:var(--nyx-compat-shadow-box-303beb0d5804);
 }
+/* Bare row — the buttons carry the canonical silhouette themselves; no
+   container-in-container pill (user 2026-07-15 #11). */
 .cm-character-tabs{
   display:inline-flex;
   align-items:center;
   gap:var(--nyx-space-6);
   margin-left:var(--nyx-space-8);
-  padding:var(--nyx-compat-spacing-3px);
-  border-radius:var(--nyx-radius-control);
-  background:var(--nyx-compat-color-872a4f0999e6);
-  box-shadow:var(--nyx-compat-shadow-box-c52604492861);
 }
 .cm-character-tabs button{
   min-height:27px;
@@ -7229,7 +7227,8 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
     border:0;
     background:transparent;
   }
-  .gp-corner-actions{justify-content:flex-start}
+  /* Ko-fi centers over the channel medallion (user 2026-07-15 #5). */
+  .gp-corner-actions{justify-content:center}
   .cm-chan-switch{width:168px}
   .gp-topbar .tb-brand:focus-visible{outline:2px solid var(--nyx-color-text-max);outline-offset:-4px}
 }
@@ -7520,9 +7519,12 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 :is(.gt-recent-five-row em.fifty-loss,.gt-banner-history-detail em.fifty-loss){
   color:var(--nyx-color-chip-danger); background:var(--nyx-color-chip-danger-surface);
 }
-:is(.gt-recent-five-row em.guaranteed,.gt-banner-history-detail em.guaranteed,.cm-beta-tag){
+:is(.gt-recent-five-row em.guaranteed,.gt-banner-history-detail em.guaranteed){
   color:var(--nyx-color-chip-warning); background:var(--nyx-compat-color-a9b260a4109a);
 }
+/* Beta/Upcoming are purple, not warning-gold (user 2026-07-15 #14). */
+.cm-beta-tag.cm-beta-tag{ color:var(--nyx-color-text-max); background:var(--nyx-color-control-active); }
+.cm-beta-tag.cm-beta-tag.upcoming{ color:var(--nyx-color-text-max); background:linear-gradient(160deg,#8b7bff,#6f4ec3); }
 .library-text-match{ color:var(--nyx-color-chip-info); background:var(--nyx-color-chip-info-surface); }
 
 :is(.ntl-block,.ntl-marker > button,.ntl-gi-mini,.db-card,.wonder-card,.tcg-card,.pot-card,

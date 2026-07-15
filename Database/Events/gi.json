@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
   "game": "gi",
-  "generatedAt": "2026-07-15T08:35:28.078Z",
+  "generatedAt": "2026-07-15T14:08:02.160Z",
   "source": {
     "name": "Genshin Impact Official",
     "endpoint": "sg-hk4e-api.hoyoverse.com getAnnList+getAnnContent"
   },
   "counts": {
-    "total": 16,
-    "needs_review": 7,
+    "total": 17,
+    "needs_review": 8,
     "banner": 4,
     "byType": {
       "event": 7,
@@ -16,7 +16,8 @@
       "shop": 1,
       "banner": 4,
       "permanent": 1,
-      "login": 1
+      "login": 1,
+      "web_event": 1
     }
   },
   "events": [
@@ -34,7 +35,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21756",
         "kind": "official-announcement-api",
         "recordId": "21756",
-        "fetchedAt": "2026-07-15T08:35:28.081Z",
+        "fetchedAt": "2026-07-15T14:08:02.162Z",
         "priority": 1
       },
       "confidence": "high",
@@ -78,7 +79,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21168",
         "kind": "official-announcement-api",
         "recordId": "21168",
-        "fetchedAt": "2026-07-15T08:35:28.081Z",
+        "fetchedAt": "2026-07-15T14:08:02.162Z",
         "priority": 1
       },
       "confidence": "high",
@@ -122,7 +123,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21749",
         "kind": "official-announcement-api",
         "recordId": "21749",
-        "fetchedAt": "2026-07-15T08:35:28.081Z",
+        "fetchedAt": "2026-07-15T14:08:02.162Z",
         "priority": 1
       },
       "confidence": "high",
@@ -222,7 +223,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21646",
         "kind": "official-announcement-api",
         "recordId": "21646",
-        "fetchedAt": "2026-07-15T08:35:28.081Z",
+        "fetchedAt": "2026-07-15T14:08:02.162Z",
         "priority": 1
       },
       "confidence": "high",
@@ -266,7 +267,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=1249",
         "kind": "official-announcement-api",
         "recordId": "1249",
-        "fetchedAt": "2026-07-15T08:35:28.081Z",
+        "fetchedAt": "2026-07-15T14:08:02.162Z",
         "priority": 1
       },
       "confidence": "low",
@@ -291,7 +292,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21744",
         "kind": "official-announcement-api",
         "recordId": "21744",
-        "fetchedAt": "2026-07-15T08:35:28.081Z",
+        "fetchedAt": "2026-07-15T14:08:02.162Z",
         "priority": 1
       },
       "confidence": "low",
@@ -316,7 +317,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21743",
         "kind": "official-announcement-api",
         "recordId": "21743",
-        "fetchedAt": "2026-07-15T08:35:28.081Z",
+        "fetchedAt": "2026-07-15T14:08:02.162Z",
         "priority": 1
       },
       "confidence": "low",
@@ -341,7 +342,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21282",
         "kind": "official-announcement-api",
         "recordId": "21282",
-        "fetchedAt": "2026-07-15T08:35:28.081Z",
+        "fetchedAt": "2026-07-15T14:08:02.162Z",
         "priority": 1
       },
       "confidence": "high",
@@ -366,7 +367,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21784",
         "kind": "official-announcement-api",
         "recordId": "21784",
-        "fetchedAt": "2026-07-15T08:35:28.081Z",
+        "fetchedAt": "2026-07-15T14:08:02.162Z",
         "priority": 1
       },
       "confidence": "high",
@@ -391,7 +392,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21748",
         "kind": "official-announcement-api",
         "recordId": "21748",
-        "fetchedAt": "2026-07-15T08:35:28.081Z",
+        "fetchedAt": "2026-07-15T14:08:02.162Z",
         "priority": 1
       },
       "confidence": "low",
@@ -416,7 +417,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21755",
         "kind": "official-announcement-api",
         "recordId": "21755",
-        "fetchedAt": "2026-07-15T08:35:28.081Z",
+        "fetchedAt": "2026-07-15T14:08:02.162Z",
         "priority": 1
       },
       "confidence": "low",
@@ -425,6 +426,31 @@
       "needs_review": true,
       "image": null,
       "description": "Travelers can earn rich rewards in \"Sunny Summer\" during the event duration. Unlock Gnostic Hymn or Gnostic Chorus to further earn Intertwined Fate and a designated 4-star weapon! Purchase Gnostic Chorus directly to get the exclusive BP…",
+      "windowsByRegion": {}
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-cd26546a88c7",
+      "title": "\"Have a Smashing Summer With Miliastra Wonderland!\" Join the Miliastra Wonderland Summer Web Event on July 15 to Earn Rewards!",
+      "type": "web_event",
+      "start": null,
+      "end": null,
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21774",
+        "kind": "official-announcement-api",
+        "recordId": "21774",
+        "fetchedAt": "2026-07-15T14:08:02.162Z",
+        "priority": 1
+      },
+      "confidence": "low",
+      "scheduleStatus": "expected",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": null,
+      "description": "\"Have a Smashing Summer With Miliastra Wonderland!\" New Limited-Time Web Event Now Available! Click to take part in the event 〓Event Duration〓 2026/07/15 – 2026/07/28 03:59 *Rewards cannot be claimed after the event ends. Please claim…",
       "windowsByRegion": {}
     },
     {
@@ -441,7 +467,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21707",
         "kind": "official-announcement-api",
         "recordId": "21707",
-        "fetchedAt": "2026-07-15T08:35:28.081Z",
+        "fetchedAt": "2026-07-15T14:08:02.162Z",
         "priority": 1
       },
       "confidence": "low",
@@ -466,7 +492,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21745",
         "kind": "official-announcement-api",
         "recordId": "21745",
-        "fetchedAt": "2026-07-15T08:35:28.081Z",
+        "fetchedAt": "2026-07-15T14:08:02.162Z",
         "priority": 1
       },
       "confidence": "low",

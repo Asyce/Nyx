@@ -7303,3 +7303,217 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
   @keyframes nyxBootRot{ to{ transform:rotate(360deg); } }
   @keyframes nyxBootFailsafe{ to{ opacity:0; visibility:hidden; } }
   @media (prefers-reduced-motion: reduce){ .nyx-boot-eye, .nyx-boot-spin{ animation:none; } .nyx-boot{ transition:none; } }
+
+/* ===== shared ordinary chrome =====
+   Feature-specific geometry and artwork stay local. These final groups make
+   ordinary controls and surfaces consume one behavior and token contract. */
+.gp :is(button,a,[role="button"],input,select,textarea):focus-visible{
+  outline:var(--nyx-focus-ring); outline-offset:var(--nyx-focus-offset);
+}
+.gp :is(button,input,select,textarea):disabled,
+.gp [aria-disabled="true"]{ cursor:not-allowed; opacity:.48; }
+
+:is(
+  .gp-code .cp,.gp-code .mark,.gp-reset-form button,.gp-fav-modes button,.gp-fav-visibility,
+  .nyx-time-pref-buttons button,.pm-action,.pm-reset,.pm-icon-search button,.pm-select-trigger,
+  .pm-select-menu button,.pm-reset-confirm button,.nyx-beta-card button,.beta-diff-actions button,
+  .gt-import-tab,.gt-go,.gt-method-action,.gt-cmd button,.gt-sync-row button,.gt-sync-delete,
+  .gt-title-import,.gt-mode-tabs button,.gt-filter-pills button,.gt-pity-filters button,
+  .cm-fopt,.cm-hide-menu button,.cm-days button,.cm-presets button,.cm-form-row button,
+  .cm-character-tabs button,.cm-trace-max,.cm-custom-back,.cm-detail-back,.cm-detail-custom,
+  .cm-unfav-actions button,.nyx-img-choice-head button,.nyx-img-flips button,.nyx-img-actions button,
+  .nyx-img-pickpreview-actions button,.nyx-img-library-head button,
+  .ntl-tools > button,.ntl-marker-form > button,.ntl-results > button,.ntl-gi-search-runs button,
+  .ntl-gi-layer-buttons button,.db-filter-button,.db-filter-pop-head button,.db-filter-group button,
+  .db-tabs button,.db-filter-row button,.db-load-state button,.db-load-more,.wonder-tabs button,
+  .wonder-filter-row button,.wonder-back,.tcg-filter-button,.tcg-filter-pop-head button,
+  .tcg-active-filters button,.tcg-tabs button,.tcg-back,.pot-tabs button,.pot-back,
+  .library-status button,.library-back,.library-volumes button,.library-count-row button,
+  .library-annotation-toolbar button,.library-annotation-overflow button,
+  .library-annotation-message button,.library-stale-marks button,.library-note-actions button,
+  .bcal-add,.bcal-toggle,.bcal-nav,.bcal-today-btn,.bcal-icon-field > button,
+  .bcal-dialog-actions button,.bcal-file,.achievement-manage-button,.achievement-notice button,
+  .achievement-gallery-toggle,.achievement-inline-confirm button,.achievement-manage > nav button,
+  .achievement-file-button,.achievement-import-actions button,.achievement-profile-form button,
+  .achievement-create-profile button,.achievement-danger-zone > button,
+  .achievement-danger-confirm button,.achievement-backup-actions > :is(button,.achievement-file-button)
+){
+  appearance:none; display:inline-flex; align-items:center; justify-content:center; gap:var(--nyx-space-8);
+  min-height:var(--nyx-size-control); box-sizing:border-box; border:0; border-radius:var(--nyx-radius-control);
+  padding:var(--nyx-space-8) var(--nyx-space-14); color:var(--nyx-color-control-text);
+  background:var(--nyx-color-control-surface); box-shadow:var(--nyx-shadow-control);
+  font:var(--nyx-weight-bold) var(--nyx-type-small)/1 var(--nyx-font-ui); letter-spacing:.04em;
+  text-decoration:none; cursor:pointer;
+  transition:border-color .16s ease,background-color .16s ease,color .16s ease,filter .16s ease,transform .16s ease;
+}
+:is(
+  .gp-code .cp,.gp-code .mark,.gp-reset-form button,.gp-fav-modes button,.gp-fav-visibility,
+  .nyx-time-pref-buttons button,.pm-action,.pm-reset,.pm-icon-search button,.pm-select-trigger,
+  .pm-select-menu button,.pm-reset-confirm button,.nyx-beta-card button,.beta-diff-actions button,
+  .gt-import-tab,.gt-go,.gt-method-action,.gt-cmd button,.gt-sync-row button,.gt-sync-delete,
+  .gt-title-import,.gt-mode-tabs button,.gt-filter-pills button,.gt-pity-filters button,
+  .cm-fopt,.cm-hide-menu button,.cm-days button,.cm-presets button,.cm-form-row button,
+  .cm-character-tabs button,.cm-trace-max,.cm-custom-back,.cm-detail-back,.cm-detail-custom,
+  .cm-unfav-actions button,.nyx-img-choice-head button,.nyx-img-flips button,.nyx-img-actions button,
+  .nyx-img-pickpreview-actions button,.nyx-img-library-head button,
+  .ntl-tools > button,.ntl-marker-form > button,.ntl-results > button,.ntl-gi-search-runs button,
+  .ntl-gi-layer-buttons button,.db-filter-button,.db-filter-pop-head button,.db-filter-group button,
+  .db-tabs button,.db-filter-row button,.db-load-state button,.db-load-more,.wonder-tabs button,
+  .wonder-filter-row button,.wonder-back,.tcg-filter-button,.tcg-filter-pop-head button,
+  .tcg-active-filters button,.tcg-tabs button,.tcg-back,.pot-tabs button,.pot-back,
+  .library-status button,.library-back,.library-volumes button,.library-count-row button,
+  .library-annotation-toolbar button,.library-annotation-overflow button,
+  .library-annotation-message button,.library-stale-marks button,.library-note-actions button,
+  .bcal-add,.bcal-toggle,.bcal-nav,.bcal-today-btn,.bcal-icon-field > button,
+  .bcal-dialog-actions button,.bcal-file,.achievement-manage-button,.achievement-notice button,
+  .achievement-gallery-toggle,.achievement-inline-confirm button,.achievement-manage > nav button,
+  .achievement-file-button,.achievement-import-actions button,.achievement-profile-form button,
+  .achievement-create-profile button,.achievement-danger-zone > button,
+  .achievement-danger-confirm button,.achievement-backup-actions > :is(button,.achievement-file-button)
+):hover{ color:var(--nyx-color-text-max); background:var(--nyx-color-control-surface-hover); }
+:is(
+  .gp-code .cp,.gp-code .mark,.gp-reset-form button,.gp-fav-modes button,.gp-fav-visibility,
+  .nyx-time-pref-buttons button,.pm-action,.pm-reset,.pm-icon-search button,.pm-select-trigger,
+  .pm-select-menu button,.pm-reset-confirm button,.nyx-beta-card button,.beta-diff-actions button,
+  .gt-import-tab,.gt-go,.gt-method-action,.gt-cmd button,.gt-sync-row button,.gt-sync-delete,
+  .gt-title-import,.gt-mode-tabs button,.gt-filter-pills button,.gt-pity-filters button,
+  .cm-fopt,.cm-hide-menu button,.cm-days button,.cm-presets button,.cm-form-row button,
+  .cm-character-tabs button,.cm-trace-max,.cm-custom-back,.cm-detail-back,.cm-detail-custom,
+  .cm-unfav-actions button,.nyx-img-choice-head button,.nyx-img-flips button,.nyx-img-actions button,
+  .nyx-img-pickpreview-actions button,.nyx-img-library-head button,
+  .ntl-tools > button,.ntl-marker-form > button,.ntl-results > button,.ntl-gi-search-runs button,
+  .ntl-gi-layer-buttons button,.db-filter-button,.db-filter-pop-head button,.db-filter-group button,
+  .db-tabs button,.db-filter-row button,.db-load-state button,.db-load-more,.wonder-tabs button,
+  .wonder-filter-row button,.wonder-back,.tcg-filter-button,.tcg-filter-pop-head button,
+  .tcg-active-filters button,.tcg-tabs button,.tcg-back,.pot-tabs button,.pot-back,
+  .library-status button,.library-back,.library-volumes button,.library-count-row button,
+  .library-annotation-toolbar button,.library-annotation-overflow button,
+  .library-annotation-message button,.library-stale-marks button,.library-note-actions button,
+  .bcal-add,.bcal-toggle,.bcal-nav,.bcal-today-btn,.bcal-icon-field > button,
+  .bcal-dialog-actions button,.bcal-file,.achievement-manage-button,.achievement-notice button,
+  .achievement-gallery-toggle,.achievement-inline-confirm button,.achievement-manage > nav button,
+  .achievement-file-button,.achievement-import-actions button,.achievement-profile-form button,
+  .achievement-create-profile button,.achievement-danger-zone > button,
+  .achievement-danger-confirm button,.achievement-backup-actions > :is(button,.achievement-file-button)
+):active{ transform:translateY(1px); }
+
+:is(.gt-go,.pm-action.primary,.pm-reset-confirm button.primary,.nyx-beta-card button.primary,
+  .beta-diff-actions button.primary,.nyx-img-actions button.primary,.nyx-img-pickpreview-actions button.apply,
+  .bcal-dialog-actions button.primary,.achievement-import-actions button.primary,
+  .achievement-create-profile button,.achievement-profile-form button[type="submit"]){
+  color:var(--nyx-color-text-max); background:var(--nyx-gradient-control-primary); box-shadow:var(--nyx-shadow-accent);
+}
+:is(.gt-mode-tabs button.on,.gt-filter-pills button.on,.gt-pity-filters button.on,
+  .cm-days button.on,.cm-presets button.on,.cm-character-tabs button.on,.db-tabs button.on,
+  .wonder-tabs button.on,.tcg-tabs button.on,.pot-tabs button.on,.achievement-manage > nav button.on){
+  color:var(--nyx-color-text-max); background:var(--nyx-gradient-control-primary); box-shadow:var(--nyx-shadow-accent);
+}
+:is(.gt-sync-delete,.achievement-danger-zone > button,.achievement-danger-confirm button:first-of-type){
+  color:var(--nyx-color-chip-danger); background:var(--nyx-color-chip-danger-surface);
+  box-shadow:inset 0 0 0 1px rgba(var(--nyx-rgb-danger),.18);
+}
+
+:is(.gt-x,.cm-x,.cm-pop-close,.cm-tool,.ntl-gi-modal-close,.db-modal-close,
+  .library-note-close,.library-annotation-close,.bcal-dialog-close,.achievement-manage-close,
+  .gp-search .x,.cc-copy){
+  appearance:none; display:inline-grid; place-items:center; width:var(--nyx-size-icon); min-width:var(--nyx-size-icon);
+  height:var(--nyx-size-icon); min-height:var(--nyx-size-icon); box-sizing:border-box; border:0;
+  border-radius:var(--nyx-radius-control); padding:0; color:var(--nyx-color-control-text);
+  background:var(--nyx-color-control-surface); box-shadow:var(--nyx-shadow-control); cursor:pointer;
+  transition:background-color .16s ease,color .16s ease,transform .16s ease;
+}
+:is(.gt-x,.cm-x,.cm-pop-close,.cm-tool,.ntl-gi-modal-close,.db-modal-close,
+  .library-note-close,.library-annotation-close,.bcal-dialog-close,.achievement-manage-close,
+  .gp-search .x,.cc-copy):hover{ color:var(--nyx-color-text-max); background:var(--nyx-color-control-surface-hover); }
+
+:is(
+  .gp-reset-form input,.gp-reset-form select,.nyx-time-pref-popover select,.pm-icon-search input,
+  .pm-slider input[type="number"],.pm-language-row select,.gt-urlrow input,
+  .gt-sync-row input,.gt-archive-tools select,.cm-weapon-menu input,.nyx-img-fields input[type="number"],
+  .ntl-search input,.ntl-jump input,.ntl-marker-form input:not([type="color"]):not([type="checkbox"]),
+  .ntl-marker-form select,.library-search input,.library-note-popover textarea,
+  .bcal-dialog input:not([type="file"]):not([type="color"]):not([type="checkbox"]):not([type="radio"]),
+  .bcal-dialog select,.bcal-dialog textarea,.achievement-profile-tools select,
+  .achievement-toolbar input,.achievement-toolbar select,.achievement-manage input,.achievement-manage select
+){
+  min-height:var(--nyx-size-control); box-sizing:border-box; border:1px solid var(--nyx-color-border-strong);
+  border-radius:var(--nyx-radius-control); outline:0; padding:var(--nyx-space-8) var(--nyx-space-12);
+  color:var(--nyx-color-heading); background:var(--nyx-color-input-surface);
+  font:var(--nyx-weight-regular) var(--nyx-type-small)/1.35 var(--nyx-font-ui);
+}
+:is(
+  .gp-reset-form input,.gp-reset-form select,.nyx-time-pref-popover select,.pm-icon-search input,
+  .pm-slider input[type="number"],.pm-language-row select,.gt-urlrow input,.gt-sync-row input,
+  .gt-archive-tools select,.cm-weapon-menu input,.nyx-img-fields input[type="number"],
+  .ntl-search input,.ntl-jump input,.ntl-marker-form input:not([type="color"]):not([type="checkbox"]),
+  .ntl-marker-form select,.library-search input,
+  .bcal-dialog input:not([type="file"]):not([type="color"]):not([type="checkbox"]):not([type="radio"]),
+  .bcal-dialog select,.achievement-profile-tools select,.achievement-toolbar input,
+  .achievement-toolbar select,.achievement-manage input,.achievement-manage select
+){ height:var(--nyx-size-control); }
+:is(.library-note-popover textarea,.bcal-dialog textarea){ height:auto; }
+:is(.gp-search,.cm-search,.library-search){
+  min-height:var(--nyx-size-control); border:1px solid var(--nyx-color-border-strong);
+  border-radius:var(--nyx-radius-control); background:var(--nyx-color-input-surface);
+  box-shadow:none;
+}
+:is(.gp-search,.cm-search,.library-search):focus-within{
+  border-color:var(--nyx-color-accent-bright); outline:var(--nyx-focus-ring); outline-offset:var(--nyx-focus-offset);
+}
+:is(.gp-search,.cm-search,.library-search) input{ border:0; outline:0; background:transparent; box-shadow:none; }
+
+:is(.gt-panel,.cm-panel,.db-modal-card,.bcal-dialog,.achievement-manage,.library-reader,.ntl-gi-detail){
+  border-radius:var(--nyx-radius-panel); background:var(--nyx-gradient-panel); box-shadow:var(--nyx-shadow-panel);
+}
+:is(.gt-panel-box,.gt-method,.gt-sync,.gt-archive-card,.gt-total-unit,.gt-recent-five-row,
+  .gt-banner-history-row,.gp-reset-panel,.gp-reset-tile,.nyx-time-pref-popover,
+  .nyx-pengo-menu.as-tab .pm-section,.cm-filter,.cm-hide-menu,.cm-weapon-menu,.cm-custom-art-panel,
+  .nyx-img-editor,.cm-kit-entry,.ntl-detail,.ntl-popover,.db-load-state,.db-modal-fields div,
+  .db-modal-skills > article,.library-status,.library-annotation-toolbar,.library-note-popover,
+  .library-stale-marks,.bcal-next,.bcal-cell,.achievement-toolbar,.achievement-import-preview,
+  .achievement-notice){
+  border-radius:var(--nyx-radius-card); background:var(--nyx-color-surface-nested);
+  box-shadow:var(--nyx-shadow-edge-subtle);
+}
+:is(.db-load-state,.bcal-cell,.gt-archive-card):hover{
+  box-shadow:var(--nyx-shadow-edge-strong),var(--nyx-shadow-interactive);
+}
+
+:is(.gp-code .newtag,.gp-reset-recur,.cm-beta-tag,.gt-recent-five-row em,
+  .gt-banner-history-detail em,.gt-banner-history-meta span,.gt-paired-weapon span,.library-text-match){
+  display:inline-flex; align-items:center; gap:var(--nyx-space-4); padding:var(--nyx-space-4) var(--nyx-space-8);
+  border-radius:var(--nyx-radius-small); color:var(--nyx-color-chip-text); background:var(--nyx-color-chip-surface);
+  box-shadow:inset 0 0 0 1px var(--nyx-color-border-subtle);
+  font:var(--nyx-weight-extrabold) var(--nyx-type-caption)/1 var(--nyx-font-ui);
+  letter-spacing:.08em; text-transform:uppercase; white-space:nowrap;
+}
+:is(.gt-recent-five-row em.fifty-win,.gt-banner-history-detail em.fifty-win){
+  color:var(--nyx-color-chip-success); background:var(--nyx-color-chip-success-surface);
+}
+:is(.gt-recent-five-row em.fifty-loss,.gt-banner-history-detail em.fifty-loss){
+  color:var(--nyx-color-chip-danger); background:var(--nyx-color-chip-danger-surface);
+}
+:is(.gt-recent-five-row em.guaranteed,.gt-banner-history-detail em.guaranteed,.cm-beta-tag){
+  color:var(--nyx-color-chip-warning); background:rgba(var(--nyx-rgb-warning),.1);
+}
+.library-text-match{ color:var(--nyx-color-chip-info); background:var(--nyx-color-chip-info-surface); }
+
+:is(.ntl-block,.ntl-marker > button,.ntl-gi-mini,.db-card,.wonder-card,.tcg-card,.pot-card,
+  .library-tile,.library-cover,.bcal-chip,.cm-cell-open,.cm-favourite-star):focus-visible{
+  outline:var(--nyx-focus-ring); outline-offset:var(--nyx-focus-offset);
+}
+
+.gt-results-top,.achievement-manage > header,.beta-diff-card > header{ z-index:var(--nyx-layer-sticky); }
+:is(.nyx-pengo-menu,.nyx-time-pref-popover,.pm-icon-pop,.pm-select-menu,.cm-filter,.cm-hide-menu,
+  .cm-weapon-menu,.ntl-popover,.db-filter-popout,.library-annotation-toolbar,
+  .library-annotation-overflow,.library-note-popover){ z-index:var(--nyx-layer-popover); }
+:is(.gt-overlay,.cm-overlay,.cm-unfav-overlay,.cm-pop-wrap:not(.float),.ntl-gi-modal-backdrop,
+  .db-modal,.bcal-dialog-backdrop,.achievement-manage-layer,.pm-reset-confirm,
+  .nyx-beta-confirm,.beta-diff-modal){ z-index:var(--nyx-layer-modal); }
+:is(.cc-reward-pop,.cm-mat .src-tip,.cm-sig-tip,.nyx-pengo-menu [data-tip]::after){ z-index:var(--nyx-layer-tooltip); }
+
+/* Inline tabs intentionally remove modal chrome after the shared surface rule. */
+.cm-inline .cm-panel,.gt-inline .gt-panel{
+  width:100%; max-width:none; height:100%; max-height:100%; padding:0; border-radius:0;
+  background:none; box-shadow:none; animation:none;
+}

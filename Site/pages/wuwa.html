@@ -7,52 +7,7 @@
 <link rel="icon" type="image/png" href="../assets/icon/nyx_logo.png"/>
 <title>Nyx â€” Wuthering Waves</title>
 <link rel="stylesheet" href="../src/styles/tokens.css?v=20260715-ui-foundation01"/>
-<link rel="stylesheet" href="../src/styles/game-page-shared.css?v=20260704-gcg-full01"/>
-<style>
-  html, body{ margin:0; height:100%; background:#05040b; overflow:hidden; }
-  .gp-vsep{ width:1px; height:34px; background:linear-gradient(180deg, rgba(183,170,255,0), rgba(183,170,255,.45), rgba(183,170,255,0)); }
-  .stage-wrap{ position:fixed; inset:0; display:flex; justify-content:center; align-items:flex-start; overflow:hidden; }
-  .stage{ position:relative; flex:none; width:1600px; height:900px; transform-origin:top center; }
-  /* page-level background lives at viewport scale so letterboxing stays dark */
-  .page-bg{ position:fixed; inset:-6vmax; background:#05040b url('../assets/bg/backgroundnyx.png') 50% 50%/118% auto no-repeat; transform:scale(1.025); filter:brightness(1.4) saturate(1.12) contrast(1.05); transform-origin:center center; }
-  .page-pattern{ position:fixed; top:50%; left:50%; width:150vmax; height:150vmax;
-    transform:translate(-50%,-50%) rotate(0deg); transform-origin:center center;
-    background:url('../assets/decor/pattern.png') center/cover no-repeat;
-    mix-blend-mode:screen; opacity:.2; pointer-events:none;
-    animation:spinPattern 480s linear infinite; }
-  @keyframes spinPattern{ from{ transform:translate(-50%,-50%) rotate(0deg); } to{ transform:translate(-50%,-50%) rotate(360deg); } }
-  @media (prefers-reduced-motion: reduce){ .page-pattern{ animation:none; } }
-  .page-vignette{ position:fixed; inset:0; pointer-events:none;
-    background:
-      radial-gradient(120% 90% at 50% 8%, rgba(120,96,200,.16), transparent 46%),
-      radial-gradient(140% 120% at 50% 120%, rgba(70,48,140,.28), transparent 55%),
-      linear-gradient(180deg, rgba(5,4,11,.6) 0%, rgba(5,4,11,.06) 24%, rgba(5,4,11,.06) 60%, rgba(5,4,11,.8) 100%); }
-  /* the .gp root inside the stage is transparent; backdrop is page-level */
-  .gp.bare .gp-bg, .gp.bare .gp-pattern, .gp.bare .gp-vignette{ display:none; }
-  /* boot splash â€” covers the bare background until the app mounts, then fades out
-     (reuses the existing html.nyx-app-ready flip; 8s failsafe if the bundle never mounts) */
-  .nyx-boot{ position:fixed; inset:0; z-index:50; display:grid; place-items:center;
-    background:radial-gradient(120% 95% at 50% 30%, #0b0820 0%, #05040b 70%);
-    opacity:1; transition:opacity .5s ease; }
-  html.nyx-app-ready .nyx-boot{ opacity:0; visibility:hidden; pointer-events:none; transition:opacity .5s ease, visibility 0s linear .5s; }
-  /* failsafe: only while NOT ready, so it never overrides the ready fade-out */
-  html:not(.nyx-app-ready) .nyx-boot{ animation:nyxBootFailsafe .6s ease 8s forwards; }
-  .nyx-boot-eye{ position:relative; width:128px; height:128px; animation:nyxBootPulse 1.7s ease-in-out infinite;
-    filter:drop-shadow(0 0 12px rgba(139,123,255,.55)); }
-  .nyx-boot-eye .elayer{ position:absolute; inset:0; background:#cdc2ff;
-    -webkit-mask-repeat:no-repeat; mask-repeat:no-repeat; -webkit-mask-position:center; mask-position:center;
-    -webkit-mask-size:100% 100%; mask-size:100% 100%; }
-  .nyx-boot-eye .elayer.ball{ -webkit-mask-image:url('../assets/icon/eye_ball.png'); mask-image:url('../assets/icon/eye_ball.png'); }
-  .nyx-boot-eye .elayer.lid{ -webkit-mask-image:url('../assets/icon/eye_lid.png'); mask-image:url('../assets/icon/eye_lid.png'); }
-  .nyx-boot-eye .elayer.drips{ -webkit-mask-image:url('../assets/icon/eye_drips.png'); mask-image:url('../assets/icon/eye_drips.png'); }
-  .nyx-boot-spin{ position:absolute; width:200px; height:200px; border-radius:50%;
-    border:2px solid transparent; border-top-color:rgba(183,170,255,.7); border-right-color:rgba(139,123,255,.35);
-    animation:nyxBootRot .9s linear infinite; }
-  @keyframes nyxBootPulse{ 0%,100%{ transform:scale(.94); opacity:.82; } 50%{ transform:scale(1.04); opacity:1; } }
-  @keyframes nyxBootRot{ to{ transform:rotate(360deg); } }
-  @keyframes nyxBootFailsafe{ to{ opacity:0; visibility:hidden; } }
-  @media (prefers-reduced-motion: reduce){ .nyx-boot-eye, .nyx-boot-spin{ animation:none; } .nyx-boot{ transition:none; } }
-</style>
+<link rel="stylesheet" href="../src/styles/game-page-shared.css?v=20260715-ui-shell01"/>
 </head>
 <body>
 <div class="nyx-boot" id="nyxBoot" aria-hidden="true">

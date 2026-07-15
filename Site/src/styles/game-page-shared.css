@@ -5103,7 +5103,7 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
   background:var(--nyx-compat-color-2a7caa893352); box-shadow:var(--nyx-compat-shadow-box-c43e29902ba9); }
 .cm-cell.hidden .hm{ color:var(--nyx-compat-color-hex-0b0716); background:linear-gradient(160deg,var(--nyx-compat-color-hex-ff9db4),var(--nyx-compat-color-hex-dd5f86)); }
 .cm-cell .cn{ font-size:var(--nyx-compat-size-12p5px); color:var(--nyx-color-text-soft); max-width:96px; text-align:center; line-height:1.2;
-  white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  white-space:normal; overflow:hidden; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow-wrap:anywhere; text-overflow:ellipsis; }
 .cm-cell:hover .cn{ color:var(--nyx-color-text-max); }
 .cm-favourite-star{ position:absolute; z-index:3; top:-5px; right:3px; width:25px; height:25px; display:grid; place-items:center;
   border:0; border-radius:50%; cursor:pointer; color:var(--nyx-compat-color-hex-d7cff8); background:var(--nyx-compat-color-91b89a48f5ff);
@@ -5748,8 +5748,8 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 
 /* ===== Character Materials — controls row (tabs + search + tools) ===== */
 .cm-beta-tag.upcoming{
-  color:var(--nyx-compat-color-hex-0d0b18);
-  background:linear-gradient(160deg,var(--nyx-compat-color-hex-ded7ff),var(--nyx-compat-color-hex-a99cff));
+  color:var(--nyx-color-text-max);
+  background:linear-gradient(160deg,#8b7bff,#6f4ec3);
   box-shadow:var(--nyx-compat-shadow-box-303beb0d5804);
 }
 .cm-character-tabs{
@@ -6044,12 +6044,12 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .cm-beta-tag{ font-size:var(--nyx-type-caption); font-weight:var(--nyx-weight-extrabold); letter-spacing:var(--nyx-compat-tracking-p08em); text-transform:uppercase; line-height:1;
   color:var(--nyx-color-text-max); background:var(--nyx-compat-color-hex-6f4ec3); padding:var(--nyx-space-2) var(--nyx-space-6); border-radius:var(--nyx-radius-pill);
   box-shadow:var(--nyx-compat-shadow-box-66d8ae424a12); }
-.cm-cell .cm-beta-tag{ position:absolute; top:-3px; right:2px; pointer-events:none; }
+.cm-cell .cm-beta-tag{ position:absolute; z-index:5; top:-3px; right:2px; pointer-events:none; }
 /* beta character whose artwork hasn't shipped yet */
 .cm-av.art-pending .disc{ box-shadow:var(--nyx-compat-shadow-box-a2587dfef298); }
 .cm-av-pending{ position:absolute; left:50%; bottom:-2px; transform:translateX(-50%);
   font-size:var(--nyx-compat-size-7p5px); font-weight:var(--nyx-weight-bold); letter-spacing:var(--nyx-compat-tracking-p04em); text-transform:uppercase; white-space:nowrap;
-  color:var(--nyx-compat-color-hex-1c0d05); background:linear-gradient(160deg,var(--nyx-compat-color-hex-ffcf8a),var(--nyx-compat-color-hex-f0a44a)); padding:var(--nyx-compat-spacing-1px) var(--nyx-compat-spacing-5px); border-radius:var(--nyx-radius-pill);
+  color:var(--nyx-compat-color-hex-0d0b18); background:linear-gradient(160deg,#ded7ff,#a99cff); padding:var(--nyx-compat-spacing-1px) var(--nyx-compat-spacing-5px); border-radius:var(--nyx-radius-pill);
   box-shadow:var(--nyx-compat-shadow-box-bb493cee3054); pointer-events:none; }
 .cm-beta-tag.pop{ align-self:center; margin-left:var(--nyx-space-8); font-size:var(--nyx-type-label); padding:var(--nyx-compat-spacing-3px) var(--nyx-space-8); }
 .cm-tools{ margin-left:0; display:flex; align-items:center; gap:var(--nyx-space-10); position:relative; }
@@ -6175,6 +6175,8 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .cm-bosshd .ct{ margin-left:auto; font-family:var(--nyx-font-display); font-size:var(--nyx-compat-size-20px); color:var(--nyx-color-text-faint); }
 .cm-bgroup{ display:flex; flex-direction:column; gap:var(--nyx-compat-spacing-15px); padding:var(--nyx-space-16) var(--nyx-space-18); border-radius:var(--nyx-compat-radius-16px);
   background:var(--nyx-compat-color-222ef397f65a); box-shadow:var(--nyx-compat-shadow-box-1766dc5e697a); }
+/* Plain progression sections sit directly on the page like Growth (#10). */
+.cm-bgroup:not(.cm-weekly):not(.has-bg){ padding:0; border-radius:0; background:transparent; box-shadow:none; }
 .cm-bgroup-hd{ font-family:var(--nyx-font-display); font-size:var(--nyx-compat-size-19px); color:var(--nyx-compat-color-hex-f3efff); }
 .cm-brow{ display:grid; grid-template-columns:124px 1fr; gap:var(--nyx-compat-spacing-22px); align-items:start; }
 .cm-bmats{ display:flex; flex-direction:column; gap:var(--nyx-space-16); }

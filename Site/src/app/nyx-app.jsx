@@ -4478,6 +4478,7 @@ function NyxApp(){
   const isNyx = activeKey === 'nyx';
   const cfg = isNyx ? NYX_META : GAME_REGISTRY[activeKey];
   const showTimePreference = tab === 'overview' || (isNyx && (tab === 'banners' || tab === 'events'));
+  const isGameOverview = !isNyx && tab === 'overview';
   const openMaterialPage = (game, name, options) => {
     const targetGame = (game && game !== 'nyx') ? game : activeKey;
     if (!targetGame || targetGame === 'nyx' || !name) return;
@@ -4515,7 +4516,7 @@ function NyxApp(){
 
   return (
     <div style={{ position:'absolute', inset:0, display:'flex', flexDirection:'column' }} data-screen-label={cfg.name + ' page'}>
-      <header className={'gp-topbar' + (showTimePreference ? ' has-time-preference' : '')} data-screen-label="Top bar">
+      <header className={'gp-topbar' + (showTimePreference ? ' has-time-preference' : '') + (isGameOverview ? ' is-game-overview' : '')} data-screen-label="Top bar">
         <a className="tb-brand" href="/" title="Back to Worlds" aria-label="Back to the worlds index">
           <span className="plate" aria-hidden="true"></span>
           <span className="brand-mark">

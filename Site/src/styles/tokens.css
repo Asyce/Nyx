@@ -1,0 +1,116 @@
+/* Nyx shared design tokens. Values are taken from the current live UI. */
+:root{
+  /* Palette */
+  --nyx-rgb-accent:139,123,255;
+  --nyx-rgb-accent-bright:183,170,255;
+  --nyx-rgb-success:121,216,184;
+  --nyx-rgb-danger:222,120,146;
+  --nyx-rgb-warning:230,180,80;
+  --nyx-rgb-info:87,203,255;
+  --nyx-color-canvas:#05040b;
+  --nyx-color-surface:#0c0922;
+  --nyx-color-surface-raised:#191333;
+  --nyx-color-surface-nested:rgba(10,7,23,.68);
+  --nyx-color-text:#f3f0ff;
+  --nyx-color-text-max:#fff;
+  --nyx-color-heading:#efeaff;
+  --nyx-color-text-muted:#a99fd6;
+  --nyx-color-text-dim:#9c93c4;
+  --nyx-color-text-soft:#cfc6f5;
+  --nyx-color-text-faint:#8d82bd;
+  --nyx-color-placeholder:#6f649c;
+  --nyx-color-accent:#8b7bff;
+  --nyx-color-accent-bright:#b7aaff;
+  --nyx-color-accent-glow:rgba(139,123,255,.6);
+  --nyx-color-character-hover:#c18cff;
+  --nyx-color-character-hover-glow:rgba(193,140,255,.86);
+  --nyx-color-success:#79d8b8;
+  --nyx-color-danger:#de7892;
+  --nyx-color-warning:#e6b450;
+  --nyx-color-info:#57cbff;
+  --nyx-color-border-subtle:rgba(183,170,255,.1);
+  --nyx-color-border:rgba(183,170,255,.14);
+  --nyx-color-border-emphasis:rgba(183,170,255,.18);
+  --nyx-color-border-strong:rgba(183,170,255,.22);
+  --nyx-color-border-active:rgba(183,170,255,.35);
+
+  /* Existing shared component recipes */
+  --nyx-color-control-text:#eee9ff;
+  --nyx-color-control-surface:rgba(107,84,196,.28);
+  --nyx-color-control-surface-hover:rgba(124,96,220,.36);
+  --nyx-color-control-edge:rgba(204,187,255,.24);
+  --nyx-color-input-surface:rgba(13,10,30,.85);
+  --nyx-color-chip-text:#c9c0e8;
+  --nyx-color-chip-surface:rgba(183,170,255,.07);
+  --nyx-color-chip-success:#9ee9cb;
+  --nyx-color-chip-success-surface:rgba(47,120,90,.2);
+  --nyx-color-chip-danger:#f3a7b8;
+  --nyx-color-chip-danger-surface:rgba(132,52,74,.22);
+  --nyx-color-chip-warning:#e8cf9a;
+  --nyx-color-chip-info:#7fdcff;
+  --nyx-color-chip-info-surface:rgba(32,90,106,.2);
+  --nyx-gradient-control-primary:linear-gradient(160deg,#7a63c8,#5a47a8);
+  --nyx-gradient-panel:linear-gradient(180deg,rgba(15,10,34,.94),rgba(8,6,20,.96));
+  --nyx-gradient-section-rule:linear-gradient(90deg,rgba(183,170,255,.45),rgba(183,170,255,0));
+
+  /* Type */
+  --nyx-font-display:'GI',serif;
+  --nyx-font-ui:'HSR','Segoe UI',system-ui,sans-serif;
+  --nyx-font-mono:ui-monospace,'Cascadia Mono',monospace;
+  --nyx-weight-regular:400;
+  --nyx-weight-semibold:600;
+  --nyx-weight-bold:700;
+  --nyx-weight-extrabold:800;
+  --nyx-weight-black:900;
+  --nyx-type-caption:9px;
+  --nyx-type-label:10px;
+  --nyx-type-small:12px;
+  --nyx-type-body:14px;
+  --nyx-type-lead:16px;
+  --nyx-type-section:22px;
+  --nyx-type-title:30px;
+  --nyx-type-display-small:40px;
+  --nyx-type-display-large:50px;
+
+  /* Spacing */
+  --nyx-space-2:2px;
+  --nyx-space-4:4px;
+  --nyx-space-6:6px;
+  --nyx-space-8:8px;
+  --nyx-space-10:10px;
+  --nyx-space-12:12px;
+  --nyx-space-14:14px;
+  --nyx-space-16:16px;
+  --nyx-space-18:18px;
+  --nyx-space-20:20px;
+  --nyx-space-24:24px;
+  --nyx-space-28:28px;
+  --nyx-space-32:32px;
+
+  /* Shape, elevation, and focus */
+  --nyx-radius-small:5px;
+  --nyx-radius-control:8px;
+  --nyx-radius-card:10px;
+  --nyx-radius-panel:14px;
+  --nyx-radius-pill:999px;
+  --nyx-radius-circle:50%;
+  --nyx-shadow-edge-subtle:inset 0 0 0 1px var(--nyx-color-border);
+  --nyx-shadow-edge-strong:inset 0 0 0 1px var(--nyx-color-border-strong);
+  --nyx-shadow-edge-active:inset 0 0 0 1px var(--nyx-color-border-active);
+  --nyx-shadow-control:inset 0 0 0 1px var(--nyx-color-control-edge);
+  --nyx-shadow-interactive:0 10px 26px rgba(0,0,0,.24);
+  --nyx-shadow-panel:inset 0 0 0 1px rgba(188,171,255,.18),0 22px 58px rgba(0,0,0,.48);
+  --nyx-shadow-modal:0 18px 45px rgba(0,0,0,.45);
+  --nyx-shadow-accent:0 0 14px var(--nyx-color-accent-glow);
+  --nyx-shadow-title:0 0 18px var(--nyx-color-accent-glow);
+  --nyx-focus-ring:2px solid var(--nyx-color-accent-bright);
+  --nyx-focus-offset:2px;
+
+  /* Layers */
+  --nyx-layer-base:0;
+  --nyx-layer-content:1;
+  --nyx-layer-sticky:20;
+  --nyx-layer-popover:230;
+  --nyx-layer-modal:1200;
+  --nyx-layer-tooltip:1250;
+}

@@ -187,7 +187,8 @@ test('the shared module is bundled before consumers and duplicate selectors are 
   const appAt = buildSource.indexOf("'app/nyx-app.jsx'");
   assert.ok(preferenceAt >= 0 && preferenceAt < timelineAt && preferenceAt < appAt);
   assert.match(appSource, /function TimePreferenceControl\(\{ gameKey \}\)/);
-  assert.match(appSource, /tab === 'overview' \|\| \(isNyx && \(tab === 'banners' \|\| tab === 'events'\)\)/);
+  assert.match(appSource, /isNyx && \(tab === 'banners' \|\| tab === 'events'\)/, 'topbar copy only for hub tabs without an aside');
+  assert.match(appSource, /className="gp-aside-time"[\s\S]*<TimePreferenceControl gameKey=\{cfg\.key\} \/>/, 'overview renders the control in its right rail (2026-07-15 #2)');
   assert.doesNotMatch(appSource, /className="gp-reset-regions"/);
   assert.doesNotMatch(timelineSource, /className="ntl-regions"/);
 });

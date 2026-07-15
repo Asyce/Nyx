@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "game": "gi",
-  "generatedAt": "2026-07-14T19:42:19.967Z",
+  "generatedAt": "2026-07-15T03:31:28.159Z",
   "source": {
     "name": "Genshin Impact Official",
     "endpoint": "sg-hk4e-api.hoyoverse.com getAnnList+getAnnContent"
@@ -34,7 +34,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21168",
         "kind": "official-announcement-api",
         "recordId": "21168",
-        "fetchedAt": "2026-07-14T19:42:19.969Z",
+        "fetchedAt": "2026-07-15T03:31:28.162Z",
         "priority": 1
       },
       "confidence": "high",
@@ -78,7 +78,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21749",
         "kind": "official-announcement-api",
         "recordId": "21749",
-        "fetchedAt": "2026-07-14T19:42:19.969Z",
+        "fetchedAt": "2026-07-15T03:31:28.162Z",
         "priority": 1
       },
       "confidence": "high",
@@ -178,7 +178,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21646",
         "kind": "official-announcement-api",
         "recordId": "21646",
-        "fetchedAt": "2026-07-14T19:42:19.969Z",
+        "fetchedAt": "2026-07-15T03:31:28.162Z",
         "priority": 1
       },
       "confidence": "high",
@@ -222,7 +222,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=1249",
         "kind": "official-announcement-api",
         "recordId": "1249",
-        "fetchedAt": "2026-07-14T19:42:19.969Z",
+        "fetchedAt": "2026-07-15T03:31:28.162Z",
         "priority": 1
       },
       "confidence": "low",
@@ -247,7 +247,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21744",
         "kind": "official-announcement-api",
         "recordId": "21744",
-        "fetchedAt": "2026-07-14T19:42:19.969Z",
+        "fetchedAt": "2026-07-15T03:31:28.162Z",
         "priority": 1
       },
       "confidence": "low",
@@ -272,7 +272,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21743",
         "kind": "official-announcement-api",
         "recordId": "21743",
-        "fetchedAt": "2026-07-14T19:42:19.969Z",
+        "fetchedAt": "2026-07-15T03:31:28.162Z",
         "priority": 1
       },
       "confidence": "low",
@@ -297,7 +297,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21282",
         "kind": "official-announcement-api",
         "recordId": "21282",
-        "fetchedAt": "2026-07-14T19:42:19.969Z",
+        "fetchedAt": "2026-07-15T03:31:28.162Z",
         "priority": 1
       },
       "confidence": "high",
@@ -322,7 +322,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21784",
         "kind": "official-announcement-api",
         "recordId": "21784",
-        "fetchedAt": "2026-07-14T19:42:19.969Z",
+        "fetchedAt": "2026-07-15T03:31:28.162Z",
         "priority": 1
       },
       "confidence": "high",
@@ -347,7 +347,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21748",
         "kind": "official-announcement-api",
         "recordId": "21748",
-        "fetchedAt": "2026-07-14T19:42:19.969Z",
+        "fetchedAt": "2026-07-15T03:31:28.162Z",
         "priority": 1
       },
       "confidence": "low",
@@ -372,7 +372,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21755",
         "kind": "official-announcement-api",
         "recordId": "21755",
-        "fetchedAt": "2026-07-14T19:42:19.969Z",
+        "fetchedAt": "2026-07-15T03:31:28.162Z",
         "priority": 1
       },
       "confidence": "low",
@@ -397,7 +397,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21707",
         "kind": "official-announcement-api",
         "recordId": "21707",
-        "fetchedAt": "2026-07-14T19:42:19.969Z",
+        "fetchedAt": "2026-07-15T03:31:28.162Z",
         "priority": 1
       },
       "confidence": "low",
@@ -422,7 +422,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21745",
         "kind": "official-announcement-api",
         "recordId": "21745",
-        "fetchedAt": "2026-07-14T19:42:19.969Z",
+        "fetchedAt": "2026-07-15T03:31:28.162Z",
         "priority": 1
       },
       "confidence": "low",

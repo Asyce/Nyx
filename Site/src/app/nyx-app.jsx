@@ -3009,6 +3009,7 @@ function BetaDataPanel({ gameKey, onOpenCharacter }){
 function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, characterCustomize, setCharacterCustomize, materialSelection, setMaterialSelection, onSelectMaterialCharacter, onCloseMaterialCharacter }){
   const fns = cfg.fns || ['Characters','Database','Wish Tracker'];
   const visibleFns = fns; // J: Database is always visible (gating + settings toggle removed)
+  const sideNavRef = React.useRef(null);
   const [cmChannel, setCmChannel] = React.useState(() => (typeof cmLoadChannel === 'function' ? cmLoadChannel(cfg.key) : 'live'));
   React.useEffect(() => {
     setCmChannel(typeof cmLoadChannel === 'function' ? cmLoadChannel(cfg.key) : 'live');
@@ -3033,6 +3034,10 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
   React.useEffect(() => {
     if (tab === 'beta' && !betaActive) setTab('mats');
   }, [tab, betaActive, setTab]);
+  React.useEffect(() => {
+    const nav = sideNavRef.current;
+    if (nav && window.matchMedia('(max-width:760px)').matches) nav.scrollLeft = 0;
+  }, [tab, cfg.key]);
   const openCharacterCustomize = (payload) => {
     setCharacterCustomize(Object.assign({ game:cfg.key, restoreScroll:0 }, payload || {}));
     setTab('char-customize');
@@ -3059,7 +3064,7 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
   const sections = [{ key:'overview', label:'Overview' }, ...visibleFns.map((f) => ({ key:sectionKey(f), label:f })), ...(hasAchievements ? [{ key:'achievements', label:'Achievements' }] : []), ...(hasLibrary ? [{ key:'books', label:'The Library' }] : []), ...(betaActive ? [{ key:'beta', label:'Beta' }] : []), { key:'settings', label:'Settings' }];
   return (
     <div className={'gp-layout' + (tab === 'overview' ? ' has-aside' : '')}>
-      <nav className="gp-side-nav" aria-label="Tools">
+      <nav ref={sideNavRef} className="gp-side-nav" aria-label="Tools">
         <GPSectionNavButton active={tab === 'overview'} label="Overview" arrow={false} onActivate={() => setTab('overview')} />
         {visibleFns.map(f => {
           const isTracker = /tracker$/i.test(f);
@@ -3451,6 +3456,11 @@ function BirthdayCalendar({ onOpenMaterial }){
 }
 
 function SimContent({ tab, setTab, onOpenMaterial, settings, setSettings }){
+  const sideNavRef = React.useRef(null);
+  React.useEffect(() => {
+    const nav = sideNavRef.current;
+    if (nav && window.matchMedia('(max-width:760px)').matches) nav.scrollLeft = 0;
+  }, [tab]);
   const NAV = [
     { key:'overview', label:'Overview' },
     { key:'characters', label:'Characters' },
@@ -3463,7 +3473,7 @@ function SimContent({ tab, setTab, onOpenMaterial, settings, setSettings }){
   ];
   return (
     <div className={'gp-layout' + (tab === 'overview' ? ' has-aside' : '')}>
-      <nav className="gp-side-nav" aria-label="Sections">
+      <nav ref={sideNavRef} className="gp-side-nav" aria-label="Sections">
         {NAV.map(n => (
           <GPSectionNavButton key={n.key} active={tab === n.key} label={n.label} diamond={false} onActivate={() => setTab(n.key)} />
         ))}

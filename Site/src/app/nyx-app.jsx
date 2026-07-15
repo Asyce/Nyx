@@ -1416,6 +1416,7 @@ function CodeCardRow({ row, currency, onCopy, onToggleRedeemed }){
               title="Copy" aria-label={'Copy ' + r.code} onClick={() => onCopy(r.code)}>
         <span className="i-copy"></span>
       </button>
+      {r.st === 'copied' && <span className="cc-copied-pop" role="status">Copied</span>}
     </div>
   );
 }
@@ -1438,6 +1439,11 @@ function CodesPanel({ codes, gameKey = 'nyx' }){
     saveRedeemed(next);
   };
   const onCopy = (code) => { copyText(code); setCopiedCode(code); };
+  React.useEffect(() => {
+    if (!copiedCode) return undefined;
+    const t = setTimeout(() => setCopiedCode(null), 1400);
+    return () => clearTimeout(t);
+  }, [copiedCode]);
 
   const rows = sourceCodes.map((c, i) => ({
     ...c,
@@ -1483,10 +1489,14 @@ function CodesPanel({ codes, gameKey = 'nyx' }){
   );
 }
 
-/* shared overview right rail */
+/* shared overview right rail — server-time selection sits above the timers it
+   drives (user decision 2026-07-15, #2). */
 function OverviewAside({ cfg }){
   return (
     <aside className="gp-overview-aside">
+      <div className="gp-aside-time">
+        <TimePreferenceControl gameKey={cfg.key} />
+      </div>
       <ResetTimersPanel gameKey={cfg.key} />
       <GPSec title="Redemption Codes" />
       <CodesPanel codes={cfg.codes} gameKey={cfg.key} />
@@ -4477,7 +4487,9 @@ function NyxApp(){
 
   const isNyx = activeKey === 'nyx';
   const cfg = isNyx ? NYX_META : GAME_REGISTRY[activeKey];
-  const showTimePreference = tab === 'overview' || (isNyx && (tab === 'banners' || tab === 'events'));
+  // Overview renders the time control inside its right rail; the topbar copy
+  // only remains for hub tabs that have no aside.
+  const showTimePreference = isNyx && (tab === 'banners' || tab === 'events');
   const isGameOverview = !isNyx && tab === 'overview';
   const openMaterialPage = (game, name, options) => {
     const targetGame = (game && game !== 'nyx') ? game : activeKey;

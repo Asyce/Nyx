@@ -1,35 +1,17 @@
 {
-  "checkedAt": "2026-07-15T03:31:14.676Z",
-  "updated": "2026-07-14T19:42:04.405Z",
+  "checkedAt": "2026-07-15T08:35:12.948Z",
+  "updated": "2026-07-15T08:35:12.948Z",
   "games": [
     {
       "id": "hsr",
       "name": "Honkai: Star Rail",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-07-15T03:31:14.676Z",
-        "lastSuccessfulFetch": "2026-07-14T19:42:04.405Z",
-        "source": "game8",
-        "message": "This game failed to scrape during the latest banner check; preserved previous data."
-      },
-      "current": {
-        "phase": "4.3",
-        "characters": [
-          {
-            "name": "Cyrene",
-            "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1415.webp",
-            "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1415.webp"
-          },
-          {
-            "name": "Phainon",
-            "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1408.webp",
-            "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1408.webp"
-          }
-        ],
-        "end": "2026-07-14T16:00:00.000Z",
+        "checkedAt": "2026-07-15T08:35:12.948Z",
+        "lastSuccessfulFetch": "2026-07-15T08:35:12.948Z",
         "source": "game8"
       },
-      "next": {
+      "current": {
         "phase": "4.4",
         "characters": [
           {
@@ -43,21 +25,54 @@
             "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1413.webp"
           }
         ],
-        "start": "2026-07-14T16:00:00.000Z",
         "end": "2026-08-25T16:00:00.000Z",
         "source": "game8"
       },
-      "upcoming": []
+      "next": {
+        "phase": "4.4",
+        "characters": [
+          {
+            "name": "Rin Tohsaka",
+            "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1508.webp",
+            "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1508.webp"
+          },
+          {
+            "name": "Gilgamesh",
+            "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1509.webp",
+            "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1509.webp"
+          }
+        ],
+        "start": "2026-07-14T16:00:00.000Z",
+        "end": "2026-07-24T16:00:00.000Z",
+        "source": "game8"
+      },
+      "upcoming": [
+        {
+          "characters": [
+            {
+              "name": "Rin Tohsaka",
+              "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1508.webp",
+              "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1508.webp"
+            },
+            {
+              "name": "Gilgamesh",
+              "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1509.webp",
+              "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1509.webp"
+            }
+          ],
+          "start": null,
+          "end": "2026-07-24T16:00:00.000Z"
+        }
+      ]
     },
     {
       "id": "genshin",
       "name": "Genshin Impact",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-07-15T03:31:14.676Z",
-        "lastSuccessfulFetch": "2026-07-14T19:42:04.405Z",
-        "source": "game8",
-        "message": "This game failed to scrape during the latest banner check; preserved previous data."
+        "checkedAt": "2026-07-15T08:35:12.948Z",
+        "lastSuccessfulFetch": "2026-07-15T08:35:12.948Z",
+        "source": "game8"
       },
       "current": {
         "phase": "6.7 Phase 1",
@@ -99,10 +114,9 @@
       "name": "Wuthering Waves",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-07-15T03:31:14.676Z",
-        "lastSuccessfulFetch": "2026-07-14T19:42:04.405Z",
-        "source": "game8",
-        "message": "This game failed to scrape during the latest banner check; preserved previous data."
+        "checkedAt": "2026-07-15T08:35:12.948Z",
+        "lastSuccessfulFetch": "2026-07-15T08:35:12.948Z",
+        "source": "game8"
       },
       "current": {
         "phase": null,
@@ -156,10 +170,9 @@
       "name": "Zenless Zone Zero",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-07-15T03:31:14.676Z",
-        "lastSuccessfulFetch": "2026-07-14T19:42:04.405Z",
-        "source": "game8",
-        "message": "This game failed to scrape during the latest banner check; preserved previous data."
+        "checkedAt": "2026-07-15T08:35:12.948Z",
+        "lastSuccessfulFetch": "2026-07-15T08:35:12.948Z",
+        "source": "game8"
       },
       "current": {
         "phase": null,
@@ -204,10 +217,9 @@
       "name": "Arknights: Endfield",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-07-15T03:31:14.676Z",
-        "lastSuccessfulFetch": "2026-07-14T19:42:04.405Z",
-        "source": "game8",
-        "message": "This game failed to scrape during the latest banner check; preserved previous data."
+        "checkedAt": "2026-07-15T08:35:12.948Z",
+        "lastSuccessfulFetch": "2026-07-15T08:35:12.948Z",
+        "source": "game8"
       },
       "current": {
         "phase": "1.3 Phase 2",

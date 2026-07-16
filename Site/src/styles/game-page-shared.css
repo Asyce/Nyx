@@ -4710,8 +4710,9 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .db-filter-group button:hover,.db-filter-group button:focus-visible{ color:var(--nyx-color-text-max); outline:1px solid var(--nyx-compat-color-hex-cdbfff); }
 .db-filter-group button.on{ color:var(--nyx-color-text-max); background:var(--nyx-compat-color-hex-6652b3); box-shadow:var(--nyx-compat-shadow-box-8f773f638f85); }
 .db-filter-group button.on em{ color:var(--nyx-compat-color-hex-eeeaff); }
-.db-tabs{ display:flex; align-items:center; gap:var(--nyx-space-6); flex:none; margin-top:var(--nyx-space-14); padding:var(--nyx-space-4); overflow-x:auto;
-  border-radius:var(--nyx-compat-radius-13px); background:var(--nyx-compat-color-aead58cc9609); box-shadow:var(--nyx-compat-shadow-box-1766dc5e697a); }
+/* Bare tab bar; the collection search docks after the last tab (user 2026-07-16). */
+.db-tabs{ display:flex; align-items:center; flex-wrap:wrap; gap:var(--nyx-space-6); flex:none; margin-top:var(--nyx-space-8); padding:0; overflow:visible; }
+.db-tabs .db-search-tools{ margin-left:auto; min-width:min(360px,100%); }
 .db-tabs button{ border:none; cursor:pointer; min-width:98px; height:34px; border-radius:var(--nyx-radius-control); padding:0 var(--nyx-compat-spacing-9px);
   display:flex; align-items:center; justify-content:center; gap:var(--nyx-compat-spacing-9px); background:none; color:var(--nyx-color-text-muted);
   font-family:var(--nyx-compat-family-ffc6cbbeca26); font-size:var(--nyx-type-small); letter-spacing:var(--nyx-compat-tracking-p12em); text-transform:uppercase;
@@ -7628,3 +7629,7 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .cm-tabs, .cm-character-tabs, .db-tabs, .wonder-tabs, .tcg-tabs, .pot-tabs, .gp-fav-modes{ overflow:visible; padding-bottom:var(--nyx-space-10); }
 /* Back / Customize sit in the same bar as quiet siblings */
 :is(.cm-character-tabs .cm-detail-back):nth-child(n){ color:var(--nyx-color-text-soft); }
+
+/* Special database views (TCG / Pot / Wonderland) have no page title; their
+   search rows right-align to mirror the collection search position. */
+.tcg-head,.pot-head,.wonder-head{ justify-content:flex-end; }

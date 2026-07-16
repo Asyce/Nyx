@@ -1810,7 +1810,6 @@ function CollectionLibrary({ game, view, onViewChange }){
   if (!cur && !specialViews.length) {
     return (
       <div className="db-lib">
-        <GPSec title="Database" />
         <div className="db-empty">No database collections found.</div>
       </div>
     );
@@ -1818,21 +1817,7 @@ function CollectionLibrary({ game, view, onViewChange }){
 
   return (
     <div className="db-lib">
-      <div className="db-lib-head">
-        <GPSec title="Database" className="nyx-u-fill" />
-        {!specialActive && (
-          <div className="db-search-tools">
-            <div className="gp-search">
-              <span className="ic"></span>
-              <input value={q} placeholder="Search Database" spellCheck="false" onChange={(e) => setQ(e.target.value)} />
-              {q !== '' && <button type="button" className="x" title="Clear" onClick={() => setQ('')}>{'\u2715'}</button>}
-            </div>
-            {nyxDatabaseHasFacets(facets) && <DatabaseFilterPopover id="database-collection-filter-popout" label="Database" open={filterOpen} setOpen={setFilterOpen}
-              filters={filters} onClear={() => setFilters({})} onToggle={toggleFilter}
-              facets={facets.map((facet) => ({ key:facet.key, label:nyxDatabaseFacetLabel(facet.key), values:facet.values }))} />}
-          </div>
-        )}
-      </div>
+      {/* No page title; the search docks after the last tab (user 2026-07-16). */}
       <div className="db-tabs">
         {collections.map(c => (
           <button type="button" key={c.key} className={!specialActive && cur && c.key === cur.key ? 'on' : ''} onClick={() => pickCollection(c.key)}>
@@ -1844,6 +1829,18 @@ function CollectionLibrary({ game, view, onViewChange }){
             <span>{s.title}</span>
           </button>
         ))}
+        {!specialActive && (
+        <div className="db-search-tools">
+          <div className="gp-search">
+            <span className="ic"></span>
+            <input value={q} placeholder="Search Database" spellCheck="false" onChange={(e) => setQ(e.target.value)} />
+            {q !== '' && <button type="button" className="x" title="Clear" onClick={() => setQ('')}>{'\u2715'}</button>}
+          </div>
+          {nyxDatabaseHasFacets(facets) && <DatabaseFilterPopover id="database-collection-filter-popout" label="Database" open={filterOpen} setOpen={setFilterOpen}
+            filters={filters} onClear={() => setFilters({})} onToggle={toggleFilter}
+            facets={facets.map((facet) => ({ key:facet.key, label:nyxDatabaseFacetLabel(facet.key), values:facet.values }))} />}
+        </div>
+        )}
       </div>
       {!specialActive && extraState === 'loading' && (
         <div className="db-load-state" role="status" aria-live="polite">
@@ -2139,7 +2136,6 @@ function GenshinWonderlandView(){
   return (
     <div className="wonder-view">
       <div className="wonder-head">
-        <GPSec title="Miliastra Wonderland" className="nyx-u-fill" />
         <div className="db-search-tools">
           <div className="gp-search">
             <span className="ic"></span>
@@ -2458,7 +2454,6 @@ function GenshinTcgView(){
   return (
     <div className="tcg-view">
       <div className="tcg-head">
-        <GPSec title="Genius Invokation TCG" className="nyx-u-fill" />
         <div className="tcg-search-tools">
           <div className="gp-search">
             <span className="ic"></span>
@@ -2579,9 +2574,6 @@ function GenshinPotView(){
   if (!items.length) {
     return (
       <div className="pot-view">
-        <div className="pot-head">
-          <GPSec title="Serenitea Pot" className="nyx-u-fill" />
-        </div>
         <div className="db-empty">Furnishing data has not been generated yet.</div>
       </div>
     );
@@ -2652,7 +2644,6 @@ function GenshinPotView(){
   return (
     <div className="pot-view">
       <div className="pot-head">
-        <GPSec title="Serenitea Pot" className="nyx-u-fill" />
         <div className="db-search-tools">
           <div className="gp-search">
             <span className="ic"></span>

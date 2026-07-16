@@ -60,11 +60,12 @@ jobs:
         working-directory: Scraper
         run: npm test
 
+      # Nanoka GameData has its own 15-minute manifest watcher, which owns both
+      # its JSON and assets. This daily job keeps the slower secondary sources.
       # Each scraper preserves prior data on a failed fetch; warn but don't fail.
       - name: Sync rosters / materials (data only, no assets)
         working-directory: Scraper
         run: |
-          node ./gamedata/scrape.mjs --game all --skip-assets || echo "::warning::gamedata sync had errors; carry-forward applied"
           node ./prydwen/scrape.mjs                          || echo "::warning::prydwen sync had errors; carry-forward applied"
           node ./gachabase-beta/scrape.mjs                   || echo "::warning::gachabase beta sync had errors; carry-forward applied"
           node ./endfield-wiki/scrape.mjs                    || echo "::warning::endfield-wiki sync had errors; carry-forward applied"

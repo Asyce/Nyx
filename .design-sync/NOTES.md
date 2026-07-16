@@ -2,12 +2,31 @@
 
 Synced to claude.ai/design project **"Nyx Design System"** (`ad9ae6a5-c60b-46e6-98af-dee5d68e5371`).
 
+## Scope decision (2026-07-16, user-directed)
+
+- Only components the LIVE pengo.gg pages actually render are synced: **GPRoot, GPSec,
+  GPSectionNavButton, GPMedallion, GPMedSim, GPGameRail** (6). The other 9-10 exports in
+  game-page-components.jsx (GPHex, GPBack, GPLogoBack, GPSwitcher, GPWorldRows, GPFnRows,
+  GPFnTabs, GPFav, GPMoreFavs, GPCodes) are the old "Genshin placeholder" set — verified
+  absent from every live page (class census via browser). User chose to REMOVE them from
+  the design project. Their authored previews stay in `.design-sync/previews/` for easy
+  re-add.
+- `GPSectionNavButton` (the real sidebar nav) was added to the source file's
+  `Object.assign(window, …)` list — a deliberate one-line source change, user-approved.
+- The real page skeleton (gp-topbar/gp-layout/gp-side-nav/gp-main-pane/gp-overview-*/
+  gp-reset-*/gp-codes-table) is inline JSX in `nyx-app.jsx`, not components — taught as
+  class vocabulary in conventions.md instead. If those ever get extracted into real
+  components, sync them and slim the conventions skeleton section.
+- Live codes UI is `gp-codes-table`/`gp-code-row` (nyx-app.jsx), NOT the placeholder
+  GPCodes (`gp-codes-stack`). Live GPRoot pages render their background via `nyx-bgwrap`
+  (app shell), not GPRoot's own `.gp-bg` — GPRoot still ships as the frame component.
+
 ## Repo shape gotchas
 
 - This is an app repo, not a component library. The shared components live in
   `Site/src/components/game-page-components.jsx` and publish themselves onto `window`
   (no ES exports). `Site/ds-entry.jsx` is the design-sync shim entry that imports that
-  file and re-exports the 15 GP* components — pass it as `--entry Site/ds-entry.jsx`.
+  file and re-exports the live GP* components — pass it as `--entry Site/ds-entry.jsx`.
 - The entry must live inside `Site/` (next to a `package.json`) — the `.d.ts` extractor
   walks up from the entry to find the package.
 - All props contracts are hand-written in `cfg.dtsPropsFor` (no TypeScript in the repo).
@@ -52,7 +71,7 @@ Synced to claude.ai/design project **"Nyx Design System"** (`ad9ae6a5-c60b-46e6-
   (already icon-patched by the shim).
 - GPFav preview imports `SKIRK_ART` from `../ds-assets.mjs` — always pass `art`.
 - Hover/mouse-follow states (GPMedSim gaze, hex hover glow) can't render statically — skipped.
-- cardMode column overrides: GPRoot, GPFav, GPFnTabs, GPMoreFavs, GPSec, GPSwitcher
+- cardMode column overrides: GPRoot, GPSec, GPSectionNavButton
   (wide stories crop in the grid otherwise).
 
 ## Re-sync risks
@@ -67,7 +86,9 @@ Synced to claude.ai/design project **"Nyx Design System"** (`ad9ae6a5-c60b-46e6-
   refreshes them, but between syncs the design project shows the codes from the last sync.
 - Build assumed node 20.18, playwright@1.56.0 (matches cached chromium-1194 in
   %LOCALAPPDATA%\ms-playwright).
-- Verified on 2026-07-16; render check was full (15/15), all 34 cells graded good.
+- Verified on 2026-07-16; render check was full (6/6), all cells graded good.
+- If new components get added to the live pages, add them to the source file's
+  Object.assign + the shim exports + componentSrcMap + dtsPropsFor, then re-sync.
 
 ## Re-sync command
 

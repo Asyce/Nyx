@@ -340,5 +340,5 @@ function GPCodes({ gap }){
 Object.assign(window, {
   GPRoot, GPSec, GPHex, GPBack, GPMedallion, GPSwitcher, GPWorldRows,
   GPFnRows, GPFnTabs, GPFav, GPCodes, GP_GAMES, GP_FNS, GP_CODES,
-  GPLogoBack, GPGameRail, GPMoreFavs, GPMedSim,
+  GPLogoBack, GPGameRail, GPMoreFavs, GPMedSim, GPSectionNavButton,
 });

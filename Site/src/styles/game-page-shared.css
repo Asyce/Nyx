@@ -7578,3 +7578,53 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .pulls-overview-avatar-fallback{ background:linear-gradient(135deg,var(--nyx-color-warning),var(--nyx-color-surface-raised)); }
 .pulls-overview-last i{ color:var(--nyx-color-text-faint); font-style:normal; }
 .pulls-overview-empty{ color:var(--nyx-color-text-faint); font:var(--nyx-compat-font-acd193eb0c56); }
+
+/* ============================================================
+   Canonical TAB style (user 2026-07-16): quiet spaced caps; the
+   active tab turns white above an underline rail with the Nyx
+   logo straddling it, integrated like the item-frame emblem.
+   :nth-child(n) lifts specificity above the shared contracts.
+   ============================================================ */
+:is(.cm-tabs .gp-section-nav-button, .cm-character-tabs button, .db-tabs button,
+  .wonder-tabs button, .tcg-tabs button, .pot-tabs button, .gp-fav-modes button):nth-child(n){
+  position:relative; appearance:none; display:inline-flex; align-items:center; justify-content:center;
+  min-height:44px; width:auto; border:0; border-radius:0; clip-path:none; overflow:visible;
+  padding:var(--nyx-space-8) var(--nyx-space-18) var(--nyx-space-12); margin:0;
+  background:transparent; box-shadow:none; cursor:pointer;
+  color:var(--nyx-color-text-faint); font-family:var(--nyx-font-display);
+  font-size:var(--nyx-type-small); font-weight:var(--nyx-weight-regular);
+  letter-spacing:.18em; text-transform:uppercase; line-height:1.2; text-align:center;
+  transition:color .18s ease, text-shadow .18s ease;
+}
+:is(.cm-tabs .gp-section-nav-button, .cm-character-tabs button, .db-tabs button,
+  .wonder-tabs button, .tcg-tabs button, .pot-tabs button, .gp-fav-modes button):nth-child(n):hover,
+:is(.cm-tabs .gp-section-nav-button, .cm-character-tabs button, .db-tabs button,
+  .wonder-tabs button, .tcg-tabs button, .pot-tabs button, .gp-fav-modes button):nth-child(n):focus-visible{
+  color:var(--nyx-color-text-soft); background:transparent; box-shadow:none; transform:none; outline:none;
+}
+:is(.cm-tabs .gp-section-nav-button.on, .cm-character-tabs button.on, .db-tabs button.on,
+  .wonder-tabs button.on, .tcg-tabs button.on, .pot-tabs button.on, .gp-fav-modes button.on):nth-child(n){
+  z-index:2; color:var(--nyx-color-text-max); background:linear-gradient(180deg, rgba(139,123,255,.12), rgba(139,123,255,0) 78%);
+  text-shadow:0 0 10px rgba(183,170,255,.55); box-shadow:none;
+}
+/* underline rail */
+:is(.cm-tabs .gp-section-nav-button.on, .cm-character-tabs button.on, .db-tabs button.on,
+  .wonder-tabs button.on, .tcg-tabs button.on, .pot-tabs button.on, .gp-fav-modes button.on):nth-child(n)::after{
+  content:""; position:absolute; left:0; right:0; bottom:0; height:2px;
+  background:linear-gradient(90deg, transparent, var(--nyx-color-accent-bright) 22%, var(--nyx-color-accent-bright) 78%, transparent);
+  box-shadow:0 0 9px rgba(139,123,255,.8);
+}
+/* the Nyx logo straddles the rail like the item-frame emblem seam */
+:is(.cm-tabs .gp-section-nav-button.on, .cm-character-tabs button.on, .db-tabs button.on,
+  .wonder-tabs button.on, .tcg-tabs button.on, .pot-tabs button.on, .gp-fav-modes button.on):nth-child(n)::before{
+  content:""; position:absolute; left:50%; bottom:-11px; width:22px; height:22px; transform:translateX(-50%);
+  background:linear-gradient(165deg, #efeaff, var(--nyx-color-accent-bright) 55%, var(--nyx-color-accent));
+  -webkit-mask:url('../../assets/icon/nyx_logo.png') center/contain no-repeat;
+  mask:url('../../assets/icon/nyx_logo.png') center/contain no-repeat;
+  filter:drop-shadow(0 0 6px rgba(139,123,255,.9));
+}
+/* tab-group housekeeping: no leftover markers, bars must not clip the emblem */
+.cm-tabs .gp-section-nav-button .dia, .cm-tabs .gp-section-nav-button .go{ display:none; }
+.cm-tabs, .cm-character-tabs, .db-tabs, .wonder-tabs, .tcg-tabs, .pot-tabs, .gp-fav-modes{ overflow:visible; padding-bottom:var(--nyx-space-10); }
+/* Back / Customize sit in the same bar as quiet siblings */
+:is(.cm-character-tabs .cm-detail-back):nth-child(n){ color:var(--nyx-color-text-soft); }

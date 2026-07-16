@@ -221,7 +221,8 @@ No production deploy, PR, merge, push, dependency addition, UMD script, data/wor
 
 These override earlier sections where they differ. Future changes must uphold them:
 
-1. **Canonical button** is the section-selector row: angled `--nyx-clip-control` silhouette, uppercase bold small type, `--nyx-tracking-control`, violet wash states (`--nyx-color-control-surface` / `-hover` / `-active`). All ordinary text buttons take it via the shared contract in `game-page-shared.css`; icon-only buttons stay square but share the same colors. No per-feature button recipes.
+1. **Canonical button** is the section-selector row: angled `--nyx-clip-control` silhouette, uppercase bold small type, `--nyx-tracking-control`, violet wash states (`--nyx-color-control-surface` / `-hover` / `-active`). All ordinary ACTION buttons take it via the shared contract in `game-page-shared.css`; icon-only buttons stay square but share the same colors. No per-feature button recipes.
+1b. **Canonical TAB** (user 2026-07-16): tab groups (roster/materials/database/popup views, mode toggles) use the quiet spaced-caps bar — display face, `.18em` tracking, `--nyx-color-text-faint` at rest, white active with a `--nyx-color-accent-bright` underline rail and the Nyx logo emblem straddling it (item-frame seam pattern). One shared block at the end of `game-page-shared.css`; add new tab groups to its selector list.
 2. **No gold/amber in UI chrome.** Forecast/expected styling, tags, rails, and markers use the purple family. Amber may appear only as a semantic warning color, never decoration. (Timeline forecast = dimmed purple + small EXPECTED label, no dashed boxes.)
 3. **Text is selectable and copyable site-wide.** `user-select:none` is allowed only on buttons and drag/pan surfaces (e.g. `.ntl-canvas`).
 4. **Beta/Upcoming tags are purple**, layered above artwork, always readable.

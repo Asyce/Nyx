@@ -10,6 +10,7 @@ import {
   databaseZzzDriveDiscTwoPieceStat,
 } from './lib/database-data-helpers.mjs';
 import { parseCatalogFieldLine } from '../../Scraper/prydwen/catalog-fields.mjs';
+import { chooseCharacterOverlay } from './lib/character-source-helpers.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, '..', '..');
@@ -1791,6 +1792,7 @@ function localAvatarOverlay(game, channel = nch()) {
       const displayName = cleanText(resolvedCharacterName(ch), 120);
       const meta = fandom.get(normKey(displayName)) || fandom.get(normKey(ch.name));
       const payload = {
+        contentStatus: ch.contentStatus,
         icon: dbAsset(ch.assets?.roundIcon || ch.assets?.avatar),
         splash: dbAsset(ch.assets?.drawCard), // D1: HSR splash art = draw-card
         fallbackArt: dbAsset(ch.assets?.drawCard || ch.assets?.avatar),
@@ -3194,13 +3196,17 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
   }) : rawChars).map((ch) => {
     const mapped = mapFacts(ch.facts || {});
     const primaryLocal = overlay.get(normKey(ch.name));
-    const betaLocal = ch.contentStatus && ch.contentStatus !== 'live'
-      ? betaOverlay?.get(normKey(ch.name))
-      : null;
-    // Beta-status agents: the live-channel GameData row can be a placeholder stub
-    // (default element/spec, no icons) while the beta channel has the real kit —
-    // prefer the beta overlay when it exists (betaLocal is only set for non-live chars).
-    const local = betaLocal || primaryLocal;
+    const betaLocal = betaOverlay?.get(normKey(ch.name)) || null;
+    // ZZZ beta-status agents can have a live placeholder stub while beta has the
+    // real kit. Other games let Nanoka's live row win as soon as it appears.
+    const selectedOverlay = chooseCharacterOverlay({
+      game,
+      primary: primaryLocal,
+      beta: betaLocal,
+      sourceStatus: ch.contentStatus,
+    });
+    const local = selectedOverlay.local;
+    const effectiveStatus = selectedOverlay.status;
     // Unreleased ZZZ agents: Prydwen stubs facts as "Unknown" — backfill from GameData
     if (game === 'zzz' && local) {
       if (local.el && (!mapped.el || mapped.el === 'Unknown')) mapped.el = local.el;
@@ -3209,7 +3215,7 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
     }
     const meta = fandom.get(normKey(ch.name));
     const officialPortrait = game === 'zzz' ? ZZZ_OFFICIAL_CHARACTER_PORTRAITS.get(normKey(ch.name)) : null;
-    const isBetaChar = Boolean(ch.contentStatus && ch.contentStatus !== 'live' && officialPortrait?.status !== 'released');
+    const isBetaChar = Boolean(effectiveStatus && effectiveStatus !== 'live' && officialPortrait?.status !== 'released');
     const lookupByName = (map) => map?.get(String(ch.name || '').toLowerCase()) || map?.get(normKey(ch.name)) || null;
     const req = (isBetaChar && lookupByName(betaReqByName)) || lookupByName(reqByName);
     const skillIcons = lookupByName(skillIconsByName) || (game === 'zzz' ? ZZZ_SKILL_ICONS : null);
@@ -3226,7 +3232,7 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
     const art = local?.splash || dbAsset(ch.art?.full || ch.art?.card || (!local?.fallbackArt ? ch.art?.icon : null)) || local?.fallbackArt;
     const card = dbAsset(ch.art?.card || ch.art?.full || (!local?.fallbackArt ? ch.art?.icon : null)) || local?.fallbackArt;
     const hasReliableData = !!(primaryLocal || req || kit);
-    const upcomingOnly = ch.contentStatus && ch.contentStatus !== 'live' && !hasReliableData;
+    const upcomingOnly = effectiveStatus && effectiveStatus !== 'live' && !hasReliableData;
     const title = local?.title || displayTitle(overlayGame, ch, ch.facts || {});
     const mergedReq = req || signatureReq
       ? {
@@ -3281,7 +3287,7 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
           overviewArtPool: [signatureDisplay.art],
         } : {}),
       } : {}),
-      status: ch.contentStatus,
+      status: effectiveStatus,
       labels: ch.statusLabels || [],
       ...mapped,
       baseStats: local?.baseStats || {},
@@ -3296,6 +3302,91 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
       ...(mergedReq ? { req: mergedReq } : {}),
     };
   });
+  // Do not make a fresh Nanoka HSR character wait for Prydwen's roster. GameData
+  // already carries the identity, kit, materials, stats, and local portraits we
+  // need for a useful character card. Prydwen remains the richer primary row
+  // whenever it has the character; this only fills names that are absent there.
+  if (game === 'hsr' && exists(`GameData/hsr/${nch()}/characters.json`)) {
+    const have = new Set(chars.map((character) => normKey(character.n)));
+    const lookupByName = (map, name) => map?.get(String(name || '').toLowerCase()) || map?.get(normKey(name)) || null;
+    for (const character of readJson(`GameData/hsr/${nch()}/characters.json`)) {
+      const display = cleanText(resolvedCharacterName(character), 120);
+      if (!display || /\{NICKNAME\}/i.test(display) || have.has(normKey(display))) continue;
+      have.add(normKey(display));
+
+      const local = overlay.get(normKey(display)) || {};
+      const req = lookupByName(reqByName, display) || lookupByName(reqByName, character.name);
+      const skillIcons = lookupByName(skillIconsByName, display) || lookupByName(skillIconsByName, character.name);
+      const kit = lookupByName(kitByName, display) || lookupByName(kitByName, character.name);
+      const characterPath = profileText(profileFirst(character.path));
+      const gamedataSignature = lookupByName(signatureByName, display) || lookupByName(signatureByName, character.name);
+      const signatureLightCone = hsrSignatureForCharacter(display, characterPath) || gamedataSignature;
+      const signatureReq = signatureLightCone
+        ? (signatureLightCone.items ? signatureLightCone : hsrLightConeReqMap?.get(normKey(signatureLightCone.name)))
+        : null;
+      const mergedReq = req || signatureReq
+        ? {
+            ...(req || {}),
+            ...(signatureReq ? { weapon: {
+              name: signatureReq.name,
+              icon: signatureReq.icon,
+              art: signatureReq.art,
+              path: signatureReq.path,
+              items: signatureReq.items || [],
+              cost: Number(signatureReq.cost || 0),
+            } } : {}),
+            currency: Number(req?.currency || 0) + Number(signatureReq?.cost || 0),
+          }
+        : null;
+      const icon = local.icon || dbAsset(character.assets?.roundIcon || character.assets?.avatar);
+      const art = local.splash || dbAsset(character.assets?.drawCard || character.assets?.avatar) || icon;
+      const profile = hsrProfileData(character);
+      chars.push({
+        id: `hsr-${character.id}`,
+        n: display,
+        localizedNames: local.localizedNames,
+        title: local.title,
+        release: local.release || parseRelease(character.release),
+        releasePatch: local.releasePatch,
+        updated: Number(character.release || 0) * 1000,
+        sourceOrder: Number(character.id) || 0,
+        voiceActors: local.voiceActors,
+        icon,
+        art,
+        card: icon || art,
+        status: character.contentStatus || (GAMEDATA_CHANNEL === 'beta' ? 'beta' : 'live'),
+        labels: [],
+        r: Number(character.rarity) || character.rarity,
+        el: profileText(profileFirst(character.element)),
+        path: characterPath,
+        baseStats: local.baseStats || profile.baseStats || {},
+        facts: local.facts || profile.facts || {},
+        ...(signatureLightCone ? {
+          signatureLightCone: {
+            id: signatureLightCone.id,
+            name: signatureLightCone.name,
+            icon: signatureLightCone.icon,
+            art: signatureLightCone.art,
+            path: signatureLightCone.path,
+          },
+          signatureWeapon: {
+            id: signatureLightCone.id,
+            name: signatureLightCone.name,
+            path: signatureLightCone.path,
+            type: signatureLightCone.weaponType || signatureLightCone.type,
+            educated: false,
+          },
+          signatureWeaponId: signatureLightCone.id,
+          signatureWeaponName: signatureLightCone.name,
+          overviewArt: signatureLightCone.art,
+          overviewArtPool: [signatureLightCone.art],
+        } : {}),
+        ...(skillIcons ? { skillIcons } : {}),
+        ...(kit ? { kit } : {}),
+        ...(mergedReq ? { req: mergedReq } : {}),
+      });
+    }
+  }
   // G38: in the BETA channel, surface GameData beta-only ZZZ agents (e.g. Sigrid) that
   // Prydwen doesn't carry yet, so a zzz beta delta is produced and the Live/Beta toggle
   // appears. Live channel stays filtered to Prydwen∩GameData (no unreleased placeholders).

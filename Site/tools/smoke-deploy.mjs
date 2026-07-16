@@ -318,7 +318,7 @@ async function main() {
   if (!bundle.includes('db-load-more')) throw new Error('bundle missing progressive Database result reveal');
   if (bundle.includes('Showing 400 of')) throw new Error('bundle still contains the old 400-result dead end');
   if (!bundle.includes('Search Miliastra Wonderland')) throw new Error('bundle missing accessible Wonderland search');
-  if (!bundle.includes('Search The Library')) throw new Error('bundle missing The Library search');
+  if (!bundle.includes('Search Library')) throw new Error('bundle missing Library search');
   if (!bundle.includes('Opening book')) throw new Error('bundle missing The Library lazy-reader state');
   if (!bundle.includes('Book volumes')) throw new Error('bundle missing accessible Library volume controls');
   if (bundle.includes('asyce.com/asivepulled')) throw new Error('bundle contains old helper URL');

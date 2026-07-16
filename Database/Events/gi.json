@@ -1,26 +1,70 @@
 {
   "schemaVersion": 1,
   "game": "gi",
-  "generatedAt": "2026-07-16T03:35:03.711Z",
+  "generatedAt": "2026-07-16T08:33:29.925Z",
   "source": {
     "name": "Genshin Impact Official",
     "endpoint": "sg-hk4e-api.hoyoverse.com getAnnList+getAnnContent"
   },
   "counts": {
-    "total": 17,
-    "needs_review": 8,
-    "banner": 4,
+    "total": 21,
+    "needs_review": 11,
+    "banner": 7,
     "byType": {
-      "event": 7,
+      "event": 8,
       "challenge": 2,
       "shop": 1,
-      "banner": 4,
+      "banner": 7,
       "permanent": 1,
       "login": 1,
       "web_event": 1
     }
   },
   "events": [
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-d0488121c15e",
+      "title": "\"Genius Invokation TCG\" Heated Battle Mode: Automatic Artistry",
+      "type": "event",
+      "start": "2026-07-18T09:00:00.000Z",
+      "end": "2026-08-03T02:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21368",
+        "kind": "official-announcement-api",
+        "recordId": "21368",
+        "fetchedAt": "2026-07-16T08:33:29.927Z",
+        "priority": 1
+      },
+      "confidence": "high",
+      "scheduleStatus": "exact",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": null,
+      "description": "〓Event Rewards〓 〓Special Rules〓 ● In Heated Battle Mode: Automatic Artistry, Travelers must randomly draw characters and powerful supporting forces to form lineups and do consecutive battles. ● In Automatic Artistry, Character Cards have…",
+      "windowsByRegion": {
+        "europe": {
+          "start": "2026-07-18T09:00:00.000Z",
+          "end": "2026-08-03T02:59:00.000Z",
+          "timezone": "UTC+01:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21368"
+        },
+        "asia": {
+          "start": "2026-07-18T02:00:00.000Z",
+          "end": "2026-08-02T19:59:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21368"
+        },
+        "america": {
+          "start": "2026-07-18T15:00:00.000Z",
+          "end": "2026-08-03T08:59:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21368"
+        }
+      }
+    },
     {
       "game": "gi",
       "id": "gi-hoyo-ann-d2a6bcc311cd",
@@ -35,7 +79,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21756",
         "kind": "official-announcement-api",
         "recordId": "21756",
-        "fetchedAt": "2026-07-16T03:35:03.713Z",
+        "fetchedAt": "2026-07-16T08:33:29.927Z",
         "priority": 1
       },
       "confidence": "high",
@@ -79,7 +123,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21168",
         "kind": "official-announcement-api",
         "recordId": "21168",
-        "fetchedAt": "2026-07-16T03:35:03.713Z",
+        "fetchedAt": "2026-07-16T08:33:29.927Z",
         "priority": 1
       },
       "confidence": "high",
@@ -123,7 +167,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21749",
         "kind": "official-announcement-api",
         "recordId": "21749",
-        "fetchedAt": "2026-07-16T03:35:03.713Z",
+        "fetchedAt": "2026-07-16T08:33:29.927Z",
         "priority": 1
       },
       "confidence": "high",
@@ -223,7 +267,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21646",
         "kind": "official-announcement-api",
         "recordId": "21646",
-        "fetchedAt": "2026-07-16T03:35:03.713Z",
+        "fetchedAt": "2026-07-16T08:33:29.927Z",
         "priority": 1
       },
       "confidence": "high",
@@ -267,7 +311,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=1249",
         "kind": "official-announcement-api",
         "recordId": "1249",
-        "fetchedAt": "2026-07-16T03:35:03.713Z",
+        "fetchedAt": "2026-07-16T08:33:29.927Z",
         "priority": 1
       },
       "confidence": "low",
@@ -292,7 +336,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21744",
         "kind": "official-announcement-api",
         "recordId": "21744",
-        "fetchedAt": "2026-07-16T03:35:03.713Z",
+        "fetchedAt": "2026-07-16T08:33:29.927Z",
         "priority": 1
       },
       "confidence": "low",
@@ -317,7 +361,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21743",
         "kind": "official-announcement-api",
         "recordId": "21743",
-        "fetchedAt": "2026-07-16T03:35:03.713Z",
+        "fetchedAt": "2026-07-16T08:33:29.927Z",
         "priority": 1
       },
       "confidence": "low",
@@ -342,7 +386,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21282",
         "kind": "official-announcement-api",
         "recordId": "21282",
-        "fetchedAt": "2026-07-16T03:35:03.713Z",
+        "fetchedAt": "2026-07-16T08:33:29.927Z",
         "priority": 1
       },
       "confidence": "high",
@@ -351,6 +395,31 @@
       "needs_review": false,
       "image": null,
       "description": "〓Event Duration〓 Permanently available after the Version \"Luna I\" update 〓Event Rewards〓 〓Eligibility〓 Complete the Archon Quest \"The Journey Home\" ※ After completing the Archon Quest \"A New Star Approaches,\" you can use the \"Quick Start\"…",
+      "windowsByRegion": {}
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-a6b42213c1aa",
+      "title": "Event Wish \"Somnias a Luna\" - Boosted drop rate for \"Welkin Moon's Homecoming\" Columbina (Hydro)!",
+      "type": "banner",
+      "start": null,
+      "end": null,
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21757",
+        "kind": "official-announcement-api",
+        "recordId": "21757",
+        "fetchedAt": "2026-07-16T08:33:29.927Z",
+        "priority": 1
+      },
+      "confidence": "low",
+      "scheduleStatus": "expected",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": null,
+      "description": "Travelers, stock up on weapons and characters in the event wish to make your party stronger in combat! 〓Event Wish Details〓 Event Wish Duration Promotional Character (5-Star) Featured Characters (4-Star) 2026/07/21 18:00 – 2026/08/11…",
       "windowsByRegion": {}
     },
     {
@@ -367,7 +436,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21784",
         "kind": "official-announcement-api",
         "recordId": "21784",
-        "fetchedAt": "2026-07-16T03:35:03.713Z",
+        "fetchedAt": "2026-07-16T08:33:29.927Z",
         "priority": 1
       },
       "confidence": "high",
@@ -392,7 +461,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21748",
         "kind": "official-announcement-api",
         "recordId": "21748",
-        "fetchedAt": "2026-07-16T03:35:03.713Z",
+        "fetchedAt": "2026-07-16T08:33:29.927Z",
         "priority": 1
       },
       "confidence": "low",
@@ -417,7 +486,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21755",
         "kind": "official-announcement-api",
         "recordId": "21755",
-        "fetchedAt": "2026-07-16T03:35:03.713Z",
+        "fetchedAt": "2026-07-16T08:33:29.927Z",
         "priority": 1
       },
       "confidence": "low",
@@ -426,6 +495,31 @@
       "needs_review": true,
       "image": null,
       "description": "Travelers can earn rich rewards in \"Sunny Summer\" during the event duration. Unlock Gnostic Hymn or Gnostic Chorus to further earn Intertwined Fate and a designated 4-star weapon! Purchase Gnostic Chorus directly to get the exclusive BP…",
+      "windowsByRegion": {}
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-c9c136091c50",
+      "title": "Event Wish \"Epitome Invocation\" - Boosted Drop Rate for Nocturne's Curtain Call (Catalyst) and Engulfing Lightning (Polearm)!",
+      "type": "banner",
+      "start": null,
+      "end": null,
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21759",
+        "kind": "official-announcement-api",
+        "recordId": "21759",
+        "fetchedAt": "2026-07-16T08:33:29.927Z",
+        "priority": 1
+      },
+      "confidence": "low",
+      "scheduleStatus": "expected",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": null,
+      "description": "Travelers, stock up on weapons and characters in \"Epitome Invocation\" to make your party stronger in combat! 〓Event Wish Details〓 Event Wish Duration Promotional Weapons (5-Star) Featured Weapons (4-Star) 2026/07/21 18:00 – 2026/08/11…",
       "windowsByRegion": {}
     },
     {
@@ -442,7 +536,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21774",
         "kind": "official-announcement-api",
         "recordId": "21774",
-        "fetchedAt": "2026-07-16T03:35:03.713Z",
+        "fetchedAt": "2026-07-16T08:33:29.927Z",
         "priority": 1
       },
       "confidence": "low",
@@ -467,7 +561,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21707",
         "kind": "official-announcement-api",
         "recordId": "21707",
-        "fetchedAt": "2026-07-16T03:35:03.713Z",
+        "fetchedAt": "2026-07-16T08:33:29.927Z",
         "priority": 1
       },
       "confidence": "low",
@@ -492,7 +586,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21745",
         "kind": "official-announcement-api",
         "recordId": "21745",
-        "fetchedAt": "2026-07-16T03:35:03.713Z",
+        "fetchedAt": "2026-07-16T08:33:29.927Z",
         "priority": 1
       },
       "confidence": "low",
@@ -501,6 +595,31 @@
       "needs_review": true,
       "image": null,
       "description": "Travelers, stock up on weapons and characters in \"Epitome Invocation\" to make your party stronger in combat! 〓Event Wish Details〓 Event Wish Duration Promotional Weapons (5-Star) Featured Weapons (4-Star) After the Version \"Luna VIII\"…",
+      "windowsByRegion": {}
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-f6a29cf12034",
+      "title": "Event Wish \"Reign of Serenity\" - Boosted Drop Rate for \"Plane of Euthymia\" Raiden Shogun (Electro)!",
+      "type": "banner",
+      "start": null,
+      "end": null,
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21758",
+        "kind": "official-announcement-api",
+        "recordId": "21758",
+        "fetchedAt": "2026-07-16T08:33:29.927Z",
+        "priority": 1
+      },
+      "confidence": "low",
+      "scheduleStatus": "expected",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": null,
+      "description": "Travelers, stock up on weapons and characters in the event wish to make your party stronger in combat! 〓Event Wish Details〓 Event Wish Duration Promotional Character (5-Star) Featured Characters (4-Star) 2026/07/21 18:00 – 2026/08/11…",
       "windowsByRegion": {}
     }
   ]

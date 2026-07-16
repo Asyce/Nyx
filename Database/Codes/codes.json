@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T03:35:03.634Z",
+  "generatedAt": "2026-07-16T08:33:29.851Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -24,9 +24,14 @@
         },
         {
           "code": "EZSB8889C2BZ",
-          "rewards": "10k Mora, Ten Adventurer S Experience, Five Fine Enhancement Ore, Five Jueyun Chili Chicken, and Five Stir Fried Fish Noodles",
-          "added": "2026-07-03",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=EZSB8889C2BZ",
+          "rewards": "10000 Mora, 10 Adventurer's Experience, 5 Fine Enhancement Ore, 5 Jueyun Chili Chicken, 5 Stir-Fried Fish Noodles",
+          "added": "2026-07-01",
+          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
+          "regionLocked": null,
+          "expires": null,
+          "variants": [
+            "EZSBBV66OK5V"
+          ],
           "premium": false,
           "premium100": false,
           "cwSeen": true,
@@ -34,9 +39,14 @@
         },
         {
           "code": "LEGEDILJKSGM",
-          "rewards": "60 Primogems and Five Adventurer S Experience",
-          "added": "2026-06-25",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM",
+          "rewards": "60 Primogem, 5 Adventurer's Experience",
+          "added": "2026-06-21",
+          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
+          "regionLocked": null,
+          "expires": null,
+          "variants": [
+            "P7G0XA30H0Q3"
+          ],
           "premium": true,
           "premium100": false,
           "cwSeen": true,
@@ -253,68 +263,7 @@
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
       "lastSuccessfulFetch": "2026-07-16T03:34:59.347Z",
-      "codes": [
-        {
-          "code": "ENDFIELDRENEW",
-          "rewards": "One Safety Helmet Sticker and 71,600 T Creds",
-          "added": "2026-07-14",
-          "sourceUrl": "https://nexus-codes.app/copy/?code=ENDFIELDRENEW",
-          "premium": false,
-          "premium100": false,
-          "cwSeen": false,
-          "firstSeen": "2026-07-14T15:28:37.206Z"
-        },
-        {
-          "code": "ALLFIELD",
-          "rewards": "",
-          "added": "2026-06-28",
-          "sourceUrl": "https://nexus-codes.app/copy/?code=ALLFIELD",
-          "premium": false,
-          "premium100": false,
-          "cwSeen": false,
-          "firstSeen": "2026-07-15T09:16:06.691Z"
-        },
-        {
-          "code": "RETURNOFALL",
-          "rewards": "",
-          "added": "2026-06-28",
-          "sourceUrl": "https://nexus-codes.app/copy/?code=RETURNOFALL",
-          "premium": false,
-          "premium100": false,
-          "cwSeen": false,
-          "firstSeen": "2026-07-15T09:16:06.691Z"
-        },
-        {
-          "code": "ZAU2SYXHWX5L4ZH",
-          "rewards": "5k T Creds and Ten Arms Insp Kits",
-          "added": "2026-05-05",
-          "sourceUrl": "https://nexus-codes.app/copy/?code=ZAU2SYXHWX5L4ZH",
-          "premium": false,
-          "premium100": false,
-          "cwSeen": false,
-          "firstSeen": "2026-07-09T21:36:12.789Z"
-        },
-        {
-          "code": "ENDFIELD4PC",
-          "rewards": "Two Advanced Combat Records, Two Arms Insp Kits, and 13k T Creds Pc Only",
-          "added": "2026-05-03",
-          "sourceUrl": "https://nexus-codes.app/copy/?code=ENDFIELD4PC",
-          "premium": false,
-          "premium100": false,
-          "cwSeen": false,
-          "firstSeen": "2026-07-09T21:36:12.789Z"
-        },
-        {
-          "code": "ENDFIELDGIFT",
-          "rewards": "150 Oroberyl, 20 Intermediate Combat Records, 20 Arms Insp Kits, and 10k T Creds",
-          "added": "2026-05-03",
-          "sourceUrl": "https://nexus-codes.app/copy/?code=ENDFIELDGIFT",
-          "premium": true,
-          "premium100": false,
-          "cwSeen": false,
-          "firstSeen": "2026-07-09T21:36:12.789Z"
-        }
-      ]
+      "codes": []
     }
   ]
 }

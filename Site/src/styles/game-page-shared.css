@@ -6147,13 +6147,11 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
    still wrap at the old 176px ceiling via the max-width below. */
 .cm-mrow{ display:grid; grid-template-columns:auto 1fr; gap:var(--nyx-space-12); align-items:start; }
 .cm-mrow > .cm-mtokens{ max-width:176px; }
-.cm-mrow.has-bg{ position:relative; isolation:isolate; overflow:hidden; border-radius:var(--nyx-compat-radius-13px); padding:var(--nyx-space-10) var(--nyx-space-10) var(--nyx-space-10) 0; }
+.cm-mrow.has-bg{ position:relative; }
 .cm-domain.has-bg, .cm-bgroup.has-bg{ position:relative; isolation:isolate; overflow:hidden; }
 .cm-mrow.has-bg::before,
 .cm-domain.has-bg::before,
-.cm-bgroup.has-bg::before{ content:""; position:absolute; z-index:0; inset:0 0 0 auto; width:46%;
-  background:var(--cm-block-art) right center/contain no-repeat; opacity:.07; pointer-events:none;
-  filter:saturate(1.08) contrast(1.05); mix-blend-mode:screen; }
+.cm-bgroup.has-bg::before{ content:none; }
 .cm-mrow.has-bg > *,
 .cm-domain.has-bg > *,
 .cm-bgroup.has-bg > *{ position:relative; z-index:1; }
@@ -6161,8 +6159,7 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .cm-mtoken{ --cm-frame-scale:.3462; display:flex; flex-direction:column; align-items:center; gap:var(--nyx-space-8); width:112px; text-align:center; padding-top:var(--nyx-space-2); }
 .cm-mtoken .lbl{ font-size:var(--nyx-compat-size-11px); letter-spacing:var(--nyx-compat-tracking-p09em); text-transform:uppercase; color:var(--nyx-compat-color-hex-b3a9e0); line-height:1.35; max-width:112px; }
 .cm-mtoken .mt{ margin-top:var(--nyx-compat-spacing-neg-4px); font-size:var(--nyx-type-label); letter-spacing:var(--nyx-compat-tracking-p08em); text-transform:uppercase; color:var(--nyx-compat-color-hex-7f74aa); line-height:1.25; }
-.cm-domain{ padding:var(--nyx-compat-spacing-15px) var(--nyx-space-16) var(--nyx-space-18); border-radius:var(--nyx-compat-radius-15px); background:var(--nyx-compat-color-8b73536cdf5d);
-  box-shadow:var(--nyx-compat-shadow-box-afdee69de954); }
+.cm-domain{ padding:0; border-radius:0; background:transparent; box-shadow:none; }
 .cm-domain-row + .cm-domain-row{ padding-top:var(--nyx-space-16); border-top:1px solid var(--nyx-compat-color-e3785321a1c3); }
 .cm-weekly-row + .cm-weekly-row{ padding-top:var(--nyx-compat-spacing-15px); border-top:1px solid var(--nyx-compat-color-e3785321a1c3); }
 
@@ -6173,8 +6170,8 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .cm-bosshd .ct{ margin-left:auto; font-family:var(--nyx-font-display); font-size:var(--nyx-compat-size-20px); color:var(--nyx-color-text-faint); }
 .cm-bgroup{ display:flex; flex-direction:column; gap:var(--nyx-compat-spacing-15px); padding:var(--nyx-space-16) var(--nyx-space-18); border-radius:var(--nyx-compat-radius-16px);
   background:var(--nyx-compat-color-222ef397f65a); box-shadow:var(--nyx-compat-shadow-box-1766dc5e697a); }
-/* Plain progression sections sit directly on the page like Growth (#10). */
-.cm-bgroup:not(.cm-weekly):not(.has-bg){ padding:0; border-radius:0; background:transparent; box-shadow:none; }
+/* All material sections sit directly on the page like Endfield Growth (user 2026-07-16). */
+.cm-bgroup{ padding:0; border-radius:0; background:transparent; box-shadow:none; }
 .cm-bgroup-hd{ font-family:var(--nyx-font-display); font-size:var(--nyx-compat-size-19px); color:var(--nyx-compat-color-hex-f3efff); }
 .cm-brow{ display:grid; grid-template-columns:124px 1fr; gap:var(--nyx-compat-spacing-22px); align-items:start; }
 .cm-bmats{ display:flex; flex-direction:column; gap:var(--nyx-space-16); }
@@ -6190,7 +6187,7 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .cm-trounce-grid .cm-bmats{ flex-direction:column; gap:var(--nyx-space-10); }
 .cm-trounce-grid .cm-bmats .cm-mtoken{ width:104px; }
 .cm-trounce-grid .cm-bmats .cm-mtoken .lbl{ max-width:104px; }
-.cm-trounce-grid .cm-bgroup.cm-weekly.has-bg::before{ width:58%; opacity:.24; background-position:right center; }
+
 
 .cm-presets{ display:flex; flex-wrap:wrap; gap:var(--nyx-compat-spacing-7px); padding:var(--nyx-compat-spacing-5px); border-radius:var(--nyx-compat-radius-13px);
   background:var(--nyx-compat-color-aead58cc9609); box-shadow:var(--nyx-compat-shadow-box-1766dc5e697a); }

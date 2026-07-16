@@ -7,11 +7,8 @@
   "cssEntry": "src/styles/game-page-shared.css",
   "overrides": {
     "GPRoot": { "cardMode": "column" },
-    "GPFav": { "cardMode": "column" },
-    "GPFnTabs": { "cardMode": "column" },
-    "GPMoreFavs": { "cardMode": "column" },
     "GPSec": { "cardMode": "column" },
-    "GPSwitcher": { "cardMode": "column" }
+    "GPSectionNavButton": { "cardMode": "column" }
   },
   "libOverrides": {
     "css.mjs": "inline site-served CSS image assets (bg/masks/frames) as data URIs; compressed stand-ins in .design-sync/assets/"
@@ -21,35 +18,17 @@
   "componentSrcMap": {
     "GPRoot": "src/components/game-page-components.jsx",
     "GPSec": "src/components/game-page-components.jsx",
-    "GPHex": "src/components/game-page-components.jsx",
-    "GPBack": "src/components/game-page-components.jsx",
-    "GPLogoBack": "src/components/game-page-components.jsx",
+    "GPSectionNavButton": "src/components/game-page-components.jsx",
     "GPMedallion": "src/components/game-page-components.jsx",
     "GPMedSim": "src/components/game-page-components.jsx",
-    "GPSwitcher": "src/components/game-page-components.jsx",
-    "GPGameRail": "src/components/game-page-components.jsx",
-    "GPWorldRows": "src/components/game-page-components.jsx",
-    "GPFnRows": "src/components/game-page-components.jsx",
-    "GPFnTabs": "src/components/game-page-components.jsx",
-    "GPFav": "src/components/game-page-components.jsx",
-    "GPMoreFavs": "src/components/game-page-components.jsx",
-    "GPCodes": "src/components/game-page-components.jsx"
+    "GPGameRail": "src/components/game-page-components.jsx"
   },
   "dtsPropsFor": {
     "GPRoot": "children?: React.ReactNode;",
     "GPSec": "title: string; icon?: string; perch?: string; className?: string; style?: React.CSSProperties;",
-    "GPHex": "children?: React.ReactNode; small?: boolean; on?: boolean; disabled?: boolean; fixw?: boolean; style?: React.CSSProperties; onClick?: () => void;",
-    "GPBack": "small?: boolean; style?: React.CSSProperties;",
-    "GPLogoBack": "size?: number;",
+    "GPSectionNavButton": "label: string; active?: boolean; onActivate?: () => void; diamond?: boolean; arrow?: boolean; className?: string;",
     "GPMedallion": "game: { key: string; name: string; icon: string; glyph?: boolean }; size?: 'sm'; on?: boolean; dim?: boolean; title?: string; href?: string; onSwitch?: (key: string) => void; railRival?: boolean;",
     "GPMedSim": "on?: boolean; href?: string; onSwitch?: (key: string) => void;",
-    "GPSwitcher": "active?: string; size?: 'sm'; gap?: number;",
-    "GPGameRail": "active: string; onSwitch?: (key: string) => void; displayGames?: Record<string, boolean>; gameIcons?: Record<string, string>;",
-    "GPWorldRows": "active?: string;",
-    "GPFnRows": "",
-    "GPFnTabs": "small?: boolean;",
-    "GPFav": "w: number; h: number; land?: boolean; name?: string; art?: string; pos?: string;",
-    "GPMoreFavs": "count?: number; icon?: string;",
-    "GPCodes": "gap?: number;"
+    "GPGameRail": "active: string; onSwitch?: (key: string) => void; displayGames?: Record<string, boolean>; gameIcons?: Record<string, string>;"
   }
 }

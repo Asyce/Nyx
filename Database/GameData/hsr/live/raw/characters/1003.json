@@ -84,12 +84,6 @@
         "is_battle_voice": false
       },
       {
-        "voice_id": 32,
-        "voice_title": "About March 7th 2",
-        "voice_m": "March has a sort of miraculous power. Wherever she goes, all things dark and gloomy will be covered by her bright, lively, and unique color. I believe that her \"past\" will also eventually become a part of her, walking with her towards her future.",
-        "is_battle_voice": false
-      },
-      {
         "voice_id": 12,
         "voice_title": "About Dan Heng",
         "voice_m": "Dan Heng is the cautious type — I think he's gotten used to doing things by himself. He doesn't like to bother or inconvenience others. That's why I asked him to be the train's guard and maintain the data bank. I don't think he'd have joined us if there wasn't anything for him to do.",
@@ -111,30 +105,6 @@
         "voice_id": 15,
         "voice_title": "About Dan Heng 2",
         "voice_m": "He's not so uptight nowadays. I think {NICKNAME} and March helped him understand that relying on others sometimes really isn't a big deal.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 25,
-        "voice_title": "About Sunday",
-        "voice_m": "The Express has welcomed countless passengers with different personalities. They all have their own destinations and purposes, but this doesn't stop them from sharing a wonderful journey with the Express. I hope he can also reach his desired destination.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 27,
-        "voice_title": "About The Herta",
-        "voice_m": "I wander among the stars, and she swims in the sea of knowledge. Our journeys do not intersect much, but we are both trailblazing the boundaries of the unknown.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 29,
-        "voice_title": "About Dan Heng 3",
-        "voice_m": "I believe that he will eventually overcome the obstacle named \"the past.\" The stars are infinite, and countless possibilities await him in the future.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 34,
-        "voice_title": "About Yao Guang",
-        "voice_m": "This general... she has quite a style. She's almost more like someone hailing from an Elation-blessed world than I am. I know she has her own plans, but since the Xianzhou is our ally now, feel free to let me know of any concerns you may have.",
         "is_battle_voice": false
       },
       {
@@ -189,36 +159,6 @@
         "voice_id": 24,
         "voice_title": "Added to Team With Welt",
         "voice_m": "See, Welt, I told you we'd have lots of chances to shine.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 26,
-        "voice_title": "Added to Team With Sunday",
-        "voice_m": "Take your time. There's a long road ahead of us.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 28,
-        "voice_title": "Added to Team With The Herta",
-        "voice_m": "I've bought some interesting collections with me... We can chat more about them later.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 30,
-        "voice_title": "Added to Team With Evernight",
-        "voice_m": "We're all by your side, so go ahead and fight however you want.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 31,
-        "voice_title": "Added to Team With Dan Heng • Permansor Terrae",
-        "voice_m": "The Express will always have your back, Dan Heng.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 33,
-        "voice_title": "Added to Team With Yao Guang",
-        "voice_m": "Having the General alongside us to face the enemy is a huge relief.",
         "is_battle_voice": false
       },
       {

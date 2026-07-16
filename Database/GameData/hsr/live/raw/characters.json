@@ -143,7 +143,7 @@
     "damageType": "Quantum",
     "en": "Archer",
     "enhance": [],
-    "desc": "Despair plays in cycles between the past and future. Countless ideals were incinerated before that red garment. Yet, do not let this smear of ashes fool you —\\nShould someone create a phantasmal sweet dream under the guise of false ideals, then he will burn again, facing down the hypocrites of the world till the very end.\\nNo matter where he is, he always remains the steadfast hero of justice.",
+    "desc": "Despair plays in cycles between the past and future. Countless ideals were incinerated before that red garment. Yet, do not let this smear of ashes fool you —\\nShould someone create a phantasmal sweet dream under the guise of false ideals, then he will burn again, facing down the hypocrites of the world till the very end.\\nNo matter where he is, he always remains the steadfast champion of justice.",
     "ko": "아처",
     "zh": "Archer",
     "ja": "アーチャー"
@@ -956,7 +956,7 @@
     "ja": "セイレンス"
   },
   "1412": {
-    "release": 1760518800,
+    "release": 1756803600,
     "icon": "cerydra",
     "rank": "CombatPowerAvatarRarityType5",
     "baseType": "Shaman",
@@ -982,7 +982,7 @@
     "ja": "{RUBY_B#ながよづき}長夜月{RUBY_E#}"
   },
   "1414": {
-    "release": 1682460000,
+    "release": 1760173200,
     "icon": "danhengpt",
     "rank": "CombatPowerAvatarRarityType5",
     "baseType": "Knight",
@@ -1073,16 +1073,53 @@
     "ja": "{RUBY_B#ぎんろう}銀狼{RUBY_E#}LV.<unbreak>999</unbreak>"
   },
   "1507": {
+    "release": 1780304400,
     "icon": "mortenaxblade",
     "rank": "CombatPowerAvatarRarityType5",
     "baseType": "Warlock",
     "damageType": "Fire",
     "en": "Mortenax Blade",
     "enhance": [],
-    "desc": "His body is like springwood. His heart is like dead ash. Yet still, a craftsman's spark cling to his fingertips.\\nAncient grudges flare anew. He vows to send both himself and that God over to the other shore.\\nThis body torn asunder, yet holding fast through a thousand temperings into a blade... What answer will it forge?\\n",
+    "desc": "Body like spring wood, heart like dead ash. Yet embers of a craftsman's spark still linger at his fingertips.\\nAs ancient grudges are ignited once more, he promises to send both himself and the gods to the other side...\\nTorn flesh, tempered a thousand times into a blade... What answer will it create?",
     "ko": "천야•블레이드",
     "zh": "千冶•刃",
     "ja": "{RUBY_B#センヤ}千冶{RUBY_E#}・{RUBY_B#ジン}刃{RUBY_E#}"
+  },
+  "1508": {
+    "icon": "tohsakarin",
+    "rank": "CombatPowerAvatarRarityType5",
+    "baseType": "Mage",
+    "damageType": "Quantum",
+    "en": "Rin Tohsaka",
+    "enhance": [],
+    "desc": "Hailing from a world beyond our universe where magic and magecraft coexist, this young mage tirelessly hones her skills. She is the Sixth Head of the Tohsaka family, a prestigious lineage of Fuyuki City mages.",
+    "ko": "토오사카 린",
+    "zh": "远坂凛",
+    "ja": "{RUBY_B#とおさかりん}遠坂凛{RUBY_E#}"
+  },
+  "1509": {
+    "icon": "gilgamesh",
+    "rank": "CombatPowerAvatarRarityType5",
+    "baseType": "Warrior",
+    "damageType": "Thunder",
+    "en": "Gilgamesh",
+    "enhance": [],
+    "desc": "The King of Heroes from the dawn of human history, hailing from a world beyond the stars.\\nPossessing a nature two-thirds divine and one-third mortal, he claims a natural-born prerogative to rule over all of creation.",
+    "ko": "길가메시",
+    "zh": "吉尔伽美什",
+    "ja": "ギルガメッシュ"
+  },
+  "1510": {
+    "icon": "himekonova",
+    "rank": "CombatPowerAvatarRarityType5",
+    "baseType": "Mage",
+    "damageType": "Fire",
+    "en": "Himeko • Nova",
+    "enhance": [],
+    "desc": "Some fight side by side, some keep watch. The Trailblaze is never a lonely voyage.\\nShe paints a trailblazing miracle. The silver rail stretches on, and the Nameless set sail once more, illuminating the galaxy's eternal night.\\nAt the end of the line, she looks back once again. The dream of setting forth has never run aground.",
+    "ko": "히메코•노바",
+    "zh": "姬子•启行",
+    "ja": "{RUBY_B#ひめこ}姫子{RUBY_E#}・{RUBY_B#たびだ}旅立{RUBY_E#}ち"
   },
   "8001": {
     "release": 1682460000,

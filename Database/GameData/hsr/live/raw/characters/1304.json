@@ -120,18 +120,6 @@
         "is_battle_voice": false
       },
       {
-        "voice_id": 29,
-        "voice_title": "About Jade",
-        "voice_m": "Be careful, our lady's kindness always comes with a price. I've received it many times, so I'm already used to it.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 31,
-        "voice_title": "About Pearl",
-        "voice_m": "She's great at painting a scene, but doesn't like to make promises of future grandeur. Our ROI's sure to double a few times over if there are more colleagues like her in the IPC.",
-        "is_battle_voice": false
-      },
-      {
         "voice_id": 18,
         "voice_title": "Eidolon Activation",
         "voice_m": "Give me a single die, and watch me turn the tables.",
@@ -189,18 +177,6 @@
         "voice_id": 27,
         "voice_title": "Added to Team With Acheron",
         "voice_m": "Any justification here for you to unsheathe your blade... Emanator?",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 28,
-        "voice_title": "Added to Team With Jade",
-        "voice_m": "Lady Jade herself has come? What's wrong? You don't trust me?",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 30,
-        "voice_title": "Added to Team With Sunday",
-        "voice_m": "Looks like you have a new plan. I'll wait to see what happens.",
         "is_battle_voice": false
       },
       {

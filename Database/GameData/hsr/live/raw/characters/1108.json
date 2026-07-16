@@ -126,12 +126,6 @@
         "is_battle_voice": false
       },
       {
-        "voice_id": 28,
-        "voice_title": "About Sparxie",
-        "voice_m": "Some people are so ruthless, they even fool themselves. And if there's anyone gullible enough to think she's done... well, be sure to let old Sampo know. I'd like to have a little \"chat\" with them.",
-        "is_battle_voice": false
-      },
-      {
         "voice_id": 18,
         "voice_title": "Eidolon Activation",
         "voice_m": "Everyone has a colorful past, wouldn't you say...?",
@@ -183,12 +177,6 @@
         "voice_id": 26,
         "voice_title": "Added to Team With Sparkle",
         "voice_m": "Same rule as always — no backstabbing, okay?",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 29,
-        "voice_title": "Added to Team With Sparxie",
-        "voice_m": "I give up... you really do prefer to scare yourself, huh?",
         "is_battle_voice": false
       },
       {

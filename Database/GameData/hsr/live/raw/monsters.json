@@ -243,7 +243,8 @@
       100203022,
       100203023,
       100203024,
-      100203025
+      100203025,
+      100203026
     ],
     "weak": [
       "Physical",
@@ -349,7 +350,8 @@
       100205023,
       100205024,
       100205027,
-      100205028
+      100205028,
+      100205029
     ],
     "weak": [
       "Physical",
@@ -567,6 +569,24 @@
     "zh": "银鬃尉官（完整）",
     "ja": "シルバーメイン・尉官（スペック）"
   },
+  "1003014": {
+    "rank": "Elite",
+    "camp": 1,
+    "icon": "SpriteOutput/MonsterFigure/Monster_1003010.png",
+    "child": [
+      1003014
+    ],
+    "weak": [
+      "Physical",
+      "Ice",
+      "Quantum"
+    ],
+    "en": "Dunn",
+    "desc": "Leader of a squad of Belobog's Silvermane Guards.",
+    "ko": "던",
+    "zh": "邓恩",
+    "ja": "ダン"
+  },
   "1004010": {
     "rank": "LittleBoss",
     "camp": 1,
@@ -745,7 +765,8 @@
       100402013,
       100402014,
       100402015,
-      100402016
+      100402016,
+      100402017
     ],
     "weak": [
       "Physical",
@@ -1092,7 +1113,8 @@
       101201020,
       101201021,
       101201022,
-      101201023
+      101201023,
+      101201024
     ],
     "weak": [
       "Physical",
@@ -1194,7 +1216,8 @@
       101203016,
       101203017,
       101203018,
-      101203019
+      101203019,
+      101203020
     ],
     "weak": [
       "Thunder",
@@ -1534,7 +1557,8 @@
       101401014,
       101401015,
       101401016,
-      101401017
+      101401017,
+      101401018
     ],
     "weak": [
       "Fire",
@@ -2424,6 +2448,24 @@
     "zh": "金人司阍",
     "ja": "金人・門番"
   },
+  "2013013": {
+    "rank": "Elite",
+    "camp": 2,
+    "icon": "SpriteOutput/MonsterFigure/Monster_2013010.png",
+    "child": [
+      2013013
+    ],
+    "weak": [
+      "Thunder",
+      "Wind",
+      "Quantum"
+    ],
+    "en": "Aurumaton Gatekeeper",
+    "desc": "Garrison aurumaton created with ancient ingenium technology.\\nCountless years ago, the aurumatons set sail with the Xianzhou to seek divine recipes of immortality, and were tasked with overseeing humanity and aiding humankind during warfare. However, after countless rebellions, they were finally overpowered by the Xianzhou natives.\\nNow, all aurumatons are strictly controlled with talismans and are employed to guard important places.",
+    "ko": "문지기 금 조각상",
+    "zh": "金人司阍",
+    "ja": "金人・門番"
+  },
   "2013020": {
     "rank": "Elite",
     "camp": 2,
@@ -2473,6 +2515,24 @@
     "ko": "금 조각상•저승사자(오류)",
     "zh": "金人勾魂使（错误）",
     "ja": "金人・勾魂（バグ）"
+  },
+  "2013022": {
+    "rank": "Elite",
+    "camp": 2,
+    "icon": "SpriteOutput/MonsterFigure/Monster_2013020.png",
+    "child": [
+      2013022
+    ],
+    "weak": [
+      "Physical",
+      "Thunder",
+      "Imaginary"
+    ],
+    "en": "Champion of Justice (Mechanical)",
+    "desc": "A law-enforcing aurumaton engraved with the <i>Ten-Lords Martial Scriptures</i> and taking orders from the Ten-Lords Commission.\\nLiving beings are susceptible to the suffering of the Five Skandhas, but gold and metal will never be swayed and will unwaveringly follow the Ten Lords' Edicts.\\nThese aurumaton law enforcers use their strength to subdue evils that have strayed from the natural order of life, and bring them to the Netherworld to meet their sentence. Their authority is sometimes even greater than that of a judge.",
+    "ko": "정의의 사자(기계)",
+    "zh": "正义的伙伴（机械）",
+    "ja": "正義の味方（機械型）"
   },
   "2022010": {
     "rank": "MinionLv2",
@@ -3988,7 +4048,8 @@
       300203013,
       300203014,
       300203015,
-      300203016
+      300203016,
+      300203017
     ],
     "weak": [
       "Physical",
@@ -4515,6 +4576,25 @@
     "zh": "「身陷樊笼的往昔」（完整）",
     "ja": "「囚われの身の過去」（スペック）"
   },
+  "3003034": {
+    "rank": "Elite",
+    "camp": 10,
+    "icon": "SpriteOutput/MonsterFigure/Monster_3003030.png",
+    "child": [
+      3003034,
+      300303401
+    ],
+    "weak": [
+      "Fire",
+      "Thunder",
+      "Imaginary"
+    ],
+    "en": "Knockoff King of Heroes",
+    "desc": "An artist playing the role of the prisoner in the Sweet Dreams Troupe. It should be performing in the Charmony Festival, but it is now bound by Order and keeps performing scenes of the \"Past.\" The past is an immortal chain, its tranquil flame igniting within a cage, beckoning the jailer's authority with mere candlelight.",
+    "ko": "벌크 영웅왕",
+    "zh": "散装英雄王",
+    "ja": "偽物の英雄王"
+  },
   "3003040": {
     "rank": "Elite",
     "camp": 10,
@@ -4591,6 +4671,25 @@
     "ko": "「같은 음률의 미래」(완벽)",
     "zh": "「同音共律的来日」（完整）",
     "ja": "「調律された未来」（スペック）"
+  },
+  "3003044": {
+    "rank": "Elite",
+    "camp": 10,
+    "icon": "SpriteOutput/MonsterFigure/Monster_3003040.png",
+    "child": [
+      3003044,
+      300304401
+    ],
+    "weak": [
+      "Physical",
+      "Fire",
+      "Thunder"
+    ],
+    "en": "Knockoff King of Heroes",
+    "desc": "A musician responsible for playing the harmonious tune in the Sweet Dreams Troupe. It should be playing in the Charmony Festival, but it is now bound by Order and keeps performing scenes of the \"Future.\" The future is an eternal ballad, a vision of happiness strung together, calling to the composing sovereign with the melody of a harp.",
+    "ko": "벌크 영웅왕",
+    "zh": "散装英雄王",
+    "ja": "偽物の英雄王"
   },
   "3003050": {
     "rank": "Elite",
@@ -4676,6 +4775,25 @@
     "ko": "「축제에 취한 현재」(완벽)",
     "zh": "「醉于盛会的此刻」（完整）",
     "ja": "「宴に酔いしれる現在」（スペック）"
+  },
+  "3003054": {
+    "rank": "Elite",
+    "camp": 10,
+    "icon": "SpriteOutput/MonsterFigure/Monster_3003050.png",
+    "child": [
+      3003054,
+      300305401
+    ],
+    "weak": [
+      "Physical",
+      "Fire",
+      "Imaginary"
+    ],
+    "en": "Knockoff King of Heroes",
+    "desc": "A waiter responsible for entertaining the guests in the Sweet Dreams Troupe. It should be serving in the Charmony Festival, but it is now bound by Order and keeps performing scenes of the \"Present.\" The present is a feast lasting through the night, desire for joy rippling in each cup, offering fine brews to the host who sets the banquet.",
+    "ko": "벌크 영웅왕",
+    "zh": "散装英雄王",
+    "ja": "偽物の英雄王"
   },
   "3004010": {
     "rank": "LittleBoss",
@@ -5220,6 +5338,23 @@
     "zh": "「授勋」",
     "ja": "「叙勲」"
   },
+  "3021023": {
+    "rank": "Minion",
+    "icon": "SpriteOutput/MonsterFigure/Monster_3021020.png",
+    "child": [
+      3021023,
+      302102301
+    ],
+    "weak": [
+      "Physical",
+      "Ice"
+    ],
+    "en": "\"The Honored\"",
+    "desc": "A statue of \"The Honored.\" Legend has it that there was once a rose kissed by the Beauty, imbuing it with everlasting appeal.",
+    "ko": "「수훈」",
+    "zh": "「授勋」",
+    "ja": "「叙勲」"
+  },
   "3021030": {
     "rank": "Minion",
     "icon": "SpriteOutput/MonsterFigure/Monster_3021030.png",
@@ -5228,7 +5363,9 @@
       302103001,
       302103002,
       302103003,
-      302103004
+      302103004,
+      302103005,
+      302103006
     ],
     "weak": [
       "Physical",
@@ -5328,6 +5465,23 @@
     "zh": "「盾」",
     "ja": "「盾」"
   },
+  "3021043": {
+    "rank": "Minion",
+    "icon": "SpriteOutput/MonsterFigure/Monster_3021040.png",
+    "child": [
+      3021043,
+      302104301
+    ],
+    "weak": [
+      "Physical",
+      "Thunder"
+    ],
+    "en": "\"The Shield\"",
+    "desc": "A statue of \"The Shield.\" Encircling the Soul of the Beauty, the Spear and Shield are interdependent, and the Shield stands for the determination to defend the living.",
+    "ko": "「방패」",
+    "zh": "「盾」",
+    "ja": "「盾」"
+  },
   "3022010": {
     "rank": "MinionLv2",
     "icon": "SpriteOutput/MonsterFigure/Monster_3022010.png",
@@ -5380,7 +5534,9 @@
       302401009,
       302401010,
       302401011,
-      302401012
+      302401012,
+      302401013,
+      302401014
     ],
     "weak": [
       "Physical",
@@ -5887,6 +6043,24 @@
     "zh": "天谴哲人",
     "ja": "天罰の哲人"
   },
+  "4012024": {
+    "rank": "MinionLv2",
+    "camp": 12,
+    "icon": "SpriteOutput/MonsterFigure/Monster_4012020.png",
+    "child": [
+      4012024
+    ],
+    "weak": [
+      "Fire",
+      "Ice",
+      "Imaginary"
+    ],
+    "en": "Hero's Follower",
+    "desc": "A Titankin sculpted by \"Strife.\" They are infused with Nikador's golden ichor. They contain plundered \"rationality\" within their vessels. The reason behind their creation is not truly toward the study of universal knowledge, but to delve deep into brutal martial tactics and the merciless laws of survival, further spreading madness masquerading as philosophy.",
+    "ko": "영웅의 추종자",
+    "zh": "英雄的追随者",
+    "ja": "英雄の追従者"
+  },
   "4012030": {
     "rank": "MinionLv2",
     "camp": 12,
@@ -6214,6 +6388,42 @@
     "zh": "哀悯长臂",
     "ja": "憐憫の腕"
   },
+  "4012074": {
+    "rank": "MinionLv2",
+    "icon": "SpriteOutput/MonsterFigure/Monster_4012070.png",
+    "child": [
+      4012074,
+      401207401
+    ],
+    "weak": [
+      "Thunder",
+      "Quantum",
+      "Imaginary"
+    ],
+    "en": "The Long Arms of Sorrow",
+    "desc": "All who wish to futilely escape the Finale must face the underworld's pursuit.",
+    "ko": "연민의 긴 팔",
+    "zh": "哀悯长臂",
+    "ja": "憐憫の腕"
+  },
+  "4012075": {
+    "rank": "MinionLv2",
+    "icon": "SpriteOutput/MonsterFigure/Monster_4012070.png",
+    "child": [
+      4012075,
+      401207501
+    ],
+    "weak": [
+      "Thunder",
+      "Wind",
+      "Quantum"
+    ],
+    "en": "The Long Arms of Sorrow",
+    "desc": "All who wish to futilely escape the Finale must face the underworld's pursuit.",
+    "ko": "연민의 긴 팔",
+    "zh": "哀悯长臂",
+    "ja": "憐憫の腕"
+  },
   "4012076": {
     "rank": "MinionLv2",
     "icon": "SpriteOutput/MonsterFigure/Monster_4012070.png",
@@ -6271,11 +6481,29 @@
     "zh": "阳雷之鸦",
     "ja": "陽雷の鴉"
   },
+  "4012081": {
+    "rank": "MinionLv2",
+    "icon": "SpriteOutput/MonsterFigure/Monster_4012080.png",
+    "child": [
+      4012081
+    ],
+    "weak": [
+      "Physical",
+      "Wind",
+      "Quantum"
+    ],
+    "en": "Daythunder Raven",
+    "desc": "A crow from the flock surrounding Theos Synthetos. Possesses the ability to polarize the weather. Leaving them unchecked could be dangerous.",
+    "ko": "태양과 번개의 까마귀",
+    "zh": "阳雷之鸦",
+    "ja": "陽雷の鴉"
+  },
   "4012090": {
     "rank": "MinionLv2",
     "icon": "SpriteOutput/MonsterFigure/Monster_4012090.png",
     "child": [
-      4012090
+      4012090,
+      401209001
     ],
     "weak": [
       "Physical",
@@ -6292,7 +6520,8 @@
     "rank": "MinionLv2",
     "icon": "SpriteOutput/MonsterFigure/Monster_4012091.png",
     "child": [
-      4012091
+      4012091,
+      401209101
     ],
     "weak": [
       "Physical",
@@ -6488,6 +6717,24 @@
     "ko": "결속의 두 영웅•병기를 막는 백기사",
     "zh": "戮力双雄•铸铠御戈的白卫士",
     "ja": "同心の双雄・堅鎧鉄壁のホワイトガーディアン"
+  },
+  "4013018": {
+    "rank": "Elite",
+    "camp": 12,
+    "icon": "SpriteOutput/MonsterFigure/Monster_4013010.png",
+    "child": [
+      4013018
+    ],
+    "weak": [
+      "Ice",
+      "Thunder",
+      "Quantum"
+    ],
+    "en": "Furiae Praetor",
+    "desc": "A Titankin sculpted by \"Strife.\" They are infused with Nikador's golden ichor. They are mighty constructs capable of housing a Titan's soul. With their greatswords, they stand ready to repel the rush of the black tide or turn their blade in a countering onslaught in times of war.\\nFuriae Praetor will sacrifice their weaker kin, exchanging atrocity for divine punishments from the Titan.",
+    "ko": "천벌의 집정관",
+    "zh": "天谴先锋",
+    "ja": "天罰の先兵"
   },
   "4014010": {
     "rank": "LittleBoss",
@@ -6776,6 +7023,25 @@
     "zh": "灰黯之手，遐蝶",
     "ja": "暗澹たる手、キャストリス"
   },
+  "4014034": {
+    "rank": "LittleBoss",
+    "camp": 12,
+    "icon": "SpriteOutput/MonsterFigure/Monster_4014030.png",
+    "child": [
+      4014034,
+      401403401
+    ],
+    "weak": [
+      "Wind",
+      "Quantum",
+      "Imaginary"
+    ],
+    "en": "Underleveled Castorice",
+    "desc": "Netherwing, slumbering dormant in the River of Souls, has been reawakened by an alchemical summoning and morphed into a thing of rot and decay.\\nIt once was the Death Titan, swimming upstream in the River of Souls' currents, leaving the realm of non-existence and stranded in the mortal world. Once, they followed the tides of the River of Souls to drown the living lands, branding all things in Amphoreus with a fated end. All the existences that will die or have died will feel a shudder in the depths of their souls with the dragon's return.",
+    "ko": "육성이 부족한 카스토리스",
+    "zh": "练度不够的遐蝶",
+    "ja": "育成不足のキャストリス"
+  },
   "4014035": {
     "rank": "LittleBoss",
     "icon": "SpriteOutput/MonsterFigure/Monster_4014030.png",
@@ -6851,6 +7117,23 @@
     "ko": "지고, 태양, 천공의 화신",
     "zh": "至高，至阳，天空的化身",
     "ja": "{RUBY_B#しこう}至高{RUBY_E#}、{RUBY_B#きょくよう}極陽{RUBY_E#}、{RUBY_B#てんくう}天空{RUBY_E#}の{RUBY_B#けしん}化身{RUBY_E#}"
+  },
+  "4015012": {
+    "rank": "BigBoss",
+    "icon": "SpriteOutput/MonsterFigure/Monster_4015010.png",
+    "child": [
+      4015012
+    ],
+    "weak": [
+      "Physical",
+      "Ice",
+      "Quantum"
+    ],
+    "en": "",
+    "desc": "The Sky Titan. Theos Synthetos. Conquered by and fused with humanity, they no longer govern Amphoreus' cycle of day and night, yet their haughtiness remains unchanged.\\nIn their mind, the shattered world's mundane mortals are unsightly. Compared to a world safeguarded by light, the mindless human masses seem more befitting of the black tide.",
+    "ko": "",
+    "zh": "",
+    "ja": ""
   },
   "4015020": {
     "rank": "BigBoss",
@@ -7856,9 +8139,7 @@
   "4034020": {
     "rank": "LittleBoss",
     "icon": "SpriteOutput/MonsterFigure/Monster_4034020.png",
-    "child": [
-      4034020
-    ],
+    "child": [],
     "weak": [],
     "en": "Vessel of the Destruction, Khaslana",
     "desc": "Phainon, NeiKos<unbreak>496</unbreak>, Deliverer, Khaslana, The Nameless Hero. Through times longer than chronicles could tell, he fought against the hatred and rage in his heart, until his body withered away. All to await this destined moment, when another Deliverer would extinguish the night's fire and bring forth a new dawn.",
@@ -8190,14 +8471,15 @@
       406201007,
       406201008,
       406201009,
-      406201010
+      406201010,
+      406201011
     ],
     "weak": [
       "Physical",
       "Fire"
     ],
     "en": "Ichor Memosprite: Pheasant",
-    "desc": "A distorted monster formed from the Garden of Recollection's memetic lifeform by the Destruction using golden ichor. It has begun to take the shape of a bird.\\nIt is both raucous and always moves in cohesive groups, showing that even with humanity evaporated, its instinct of following the Destruction manifests in this manner.",
+    "desc": "A distorted monster born from the fusing of a memetic lifeform from the Garden of Recollection and the golden ichor of \"Destruction.\" It has begun to take the shape of a bird.\\nIt is both raucous and always moves in cohesive groups, showing that even with humanity evaporated, its instinct of following the Destruction manifests in this manner.",
     "ko": "황금 피 기억 정령•꿩 형태",
     "zh": "金血忆灵•雉形",
     "ja": "{RUBY_B#おうごん}黄金{RUBY_E#}の{RUBY_B#ち}血{RUBY_E#}の{RUBY_B#きおく}記憶{RUBY_E#}の{RUBY_B#せいれい}精霊{RUBY_E#}・パーシアーノス"
@@ -8219,10 +8501,27 @@
       "Imaginary"
     ],
     "en": "Ichor Memosprite: Canine",
-    "desc": "A distorted monster formed from the Garden of Recollection's memetic lifeform by the Destruction using golden ichor. It has begun to take the shape of a dog.\\nIt is aggressive, showing that even with humanity evaporated, its instinct of following the Destruction manifests in this manner.",
+    "desc": "A distorted monster born from the fusing of a memetic lifeform from the Garden of Recollection and the golden ichor of \"Destruction.\" It has begun to take the shape of a dog.\\nIt is aggressive, showing that even with humanity evaporated, its instinct of following the Destruction manifests in this manner.",
     "ko": "황금 피 기억 정령•개 형태",
     "zh": "金血忆灵•犬形",
     "ja": "{RUBY_B#おうごん}黄金{RUBY_E#}の{RUBY_B#ち}血{RUBY_E#}の{RUBY_B#きおく}記憶{RUBY_E#}の{RUBY_B#せいれい}精霊{RUBY_E#}・キュオーン"
+  },
+  "4062021": {
+    "rank": "MinionLv2",
+    "camp": 18,
+    "icon": "SpriteOutput/MonsterFigure/Monster_4062020.png",
+    "child": [
+      4062021
+    ],
+    "weak": [
+      "Ice",
+      "Imaginary"
+    ],
+    "en": "Avenger Squad: Canine",
+    "desc": "A distorted monster born from the fusing of a memetic lifeform from the Garden of Recollection and the golden ichor of \"Destruction.\" It has begun to take the shape of a dog.\\nIt is aggressive, showing that even with humanity evaporated, its instinct of following the Destruction manifests in this manner.",
+    "ko": "리벤저 전대•개 형태",
+    "zh": "复仇者战队•犬形",
+    "ja": "リベンジャーズ・キュオーン"
   },
   "4063010": {
     "rank": "Elite",
@@ -8243,7 +8542,7 @@
       "Ice"
     ],
     "en": "Ichor Memosprite: Winged Serpent",
-    "desc": "A distorted monster formed from the Garden of Recollection's memetic lifeform by the Destruction using golden ichor. It is in the rudimentary form of a flying snake, enough to intimidate its assailants.\\nIts twisted rationality went completely mad in the black tide, and its intense self-protecting impulse imperceptibly took on a fantastical flavor.",
+    "desc": "A distorted monster born from the fusing of a memetic lifeform from the Garden of Recollection and the golden ichor of \"Destruction.\" It is in the rudimentary form of a flying snake, enough to intimidate its assailants.\\nIts twisted rationality went completely mad in the black tide, and its intense self-protecting impulse imperceptibly took on a fantastical flavor.",
     "ko": "황금 피 기억 정령•날개 뱀 형태",
     "zh": "金血忆灵•翼蛇形",
     "ja": "{RUBY_B#おうごん}黄金{RUBY_E#}の{RUBY_B#ち}血{RUBY_E#}の{RUBY_B#きおく}記憶{RUBY_E#}の{RUBY_B#せいれい}精霊{RUBY_E#}・オフィス"
@@ -8261,10 +8560,28 @@
       "Ice"
     ],
     "en": "Ichor Memosprite: Winged Serpent (Bug)",
-    "desc": "A false projection produced by compromised codes. The referenced entity is Ichor Memosprite: Winged Serpent, a distorted monster formed from the Garden of Recollection's memetic lifeform by the Destruction using golden ichor. It is in the rudimentary form of a flying snake, enough to intimidate its assailants.\\nIts twisted rationality went completely mad in the black tide, and that intense self-defense impulse imperceptibly took on a fantastical hue.",
+    "desc": "A false projection produced by compromised codes. The referenced entity is Ichor Memosprite: Winged Serpent, a distorted monster born from the fusing of a memetic lifeform from the Garden of Recollection and the golden ichor of \"Destruction.\" It is in the rudimentary form of a flying snake, enough to intimidate its assailants.\\nIts twisted rationality went completely mad in the black tide, and that intense self-defense impulse imperceptibly took on a fantastical hue.",
     "ko": "황금 피 기억 정령•날개 뱀 형태(오류)",
     "zh": "金血忆灵•翼蛇形（错误）",
     "ja": "黄金の血の記憶の精霊・オフィス（バグ）"
+  },
+  "4063012": {
+    "rank": "Elite",
+    "camp": 18,
+    "icon": "SpriteOutput/MonsterFigure/Monster_4063010.png",
+    "child": [
+      4063012
+    ],
+    "weak": [
+      "Physical",
+      "Fire",
+      "Ice"
+    ],
+    "en": "Avenger Squad: Winged Serpent",
+    "desc": "A distorted monster born from the fusing of a memetic lifeform from the Garden of Recollection and the golden ichor of \"Destruction.\" It is in the rudimentary form of a flying snake, enough to intimidate its assailants.\\nIts twisted rationality went completely mad in the black tide, and that intense self-defense impulse imperceptibly took on a fantastical hue.",
+    "ko": "리벤저 전대•날개 뱀 형태",
+    "zh": "复仇者战队•翼蛇形",
+    "ja": "リベンジャーズ・オフィス"
   },
   "4064010": {
     "rank": "LittleBoss",
@@ -8383,12 +8700,32 @@
     "zh": "全自动魔仙棒",
     "ja": "オートマジカルステッキ"
   },
+  "5012011": {
+    "rank": "MinionLv2",
+    "camp": 17,
+    "icon": "SpriteOutput/MonsterFigure/Monster_5012010.png",
+    "child": [
+      5012011
+    ],
+    "weak": [
+      "Physical",
+      "Imaginary"
+    ],
+    "en": "Autonomous Wand",
+    "desc": "An Imagenesis Armament belonging to the Magical Girl Troupe. It gained mobility by carrying the beautiful wishes of young girls.\\nIt runs on the power of song and broadcasts various transformation spells.",
+    "ko": "전자동 마법봉",
+    "zh": "全自动魔仙棒",
+    "ja": "オートマジカルステッキ"
+  },
   "5012020": {
     "rank": "MinionLv2",
     "camp": 17,
     "icon": "SpriteOutput/MonsterFigure/Monster_5012020.png",
     "child": [
-      5012020
+      5012020,
+      501202001,
+      501202002,
+      501202003
     ],
     "weak": [
       "Ice",
@@ -8455,6 +8792,24 @@
     "zh": "攻击性阅读物",
     "ja": "攻撃的な書物"
   },
+  "5012032": {
+    "rank": "MinionLv2",
+    "camp": 17,
+    "icon": "SpriteOutput/MonsterFigure/Monster_5012030.png",
+    "child": [
+      5012032
+    ],
+    "weak": [
+      "Physical",
+      "Fire",
+      "Thunder"
+    ],
+    "en": "Aggressive Reading Material",
+    "desc": "As the saying goes, \"Buying books is like a landslide. Reading them is like spinning silk.\" Bibliophiles are always buying new volumes yet rarely crack them open.\\nThe guilt of having \"so much unread\" and the self-deception that \"I'll get to it someday\" have woven together to create a vicious imagenae known as \"Aggressive Reading Material.\"",
+    "ko": "공격적인 서적",
+    "zh": "攻击性阅读物",
+    "ja": "攻撃的な書物"
+  },
   "5012040": {
     "rank": "MinionLv2",
     "camp": 17,
@@ -8480,6 +8835,23 @@
     "child": [
       5012041,
       501204101
+    ],
+    "weak": [
+      "Thunder",
+      "Wind"
+    ],
+    "en": "Assistant Graffiti: Slacker",
+    "desc": "Without external pressure, many talented creators would go their whole lives without churning out a single word. The Assistant Graffiti is an imagenae born to solve this social issue.\\nHowever, they sometimes resort to overly drastic measures, forcing creators to fight back, which has spiraled into a brand-new social issue entirely.\\nThis particular Assistant Graffiti specializes in dealing with missed deadlines. Oh, you're a last-minute writer, huh? Well, now you don't have to write anything at all!",
+    "ko": "조수 낙서•마감 미루기",
+    "zh": "助手涂鸦•拖稿",
+    "ja": "ラクガキアシスタント・原稿遅延"
+  },
+  "5012042": {
+    "rank": "MinionLv2",
+    "camp": 17,
+    "icon": "SpriteOutput/MonsterFigure/Monster_5012040.png",
+    "child": [
+      5012042
     ],
     "weak": [
       "Thunder",
@@ -8527,6 +8899,23 @@
     "zh": "助手涂鸦•赶稿",
     "ja": "ラクガキアシスタント・執筆中"
   },
+  "5012052": {
+    "rank": "MinionLv2",
+    "camp": 17,
+    "icon": "SpriteOutput/MonsterFigure/Monster_5012050.png",
+    "child": [
+      5012052
+    ],
+    "weak": [
+      "Ice",
+      "Thunder"
+    ],
+    "en": "Assistant Graffiti: Rusher",
+    "desc": "Without external pressure, many talented creators would go their whole lives without churning out a single word. The Assistant Graffiti is an imagenae born to solve this social issue.\\nHowever, they sometimes resort to overly drastic measures, forcing creators to fight back, which has spiraled into a brand-new social issue entirely.\\nThis Assistant Graffiti specializes in motivating creators who are crunching to meet a deadline. Hurry! Get that pen moving! Don't let the storm catch you!",
+    "ko": "조수 낙서•마감 서두르기",
+    "zh": "助手涂鸦•赶稿",
+    "ja": "ラクガキアシスタント・執筆中"
+  },
   "5012060": {
     "rank": "MinionLv2",
     "camp": 17,
@@ -8551,6 +8940,23 @@
     "icon": "SpriteOutput/MonsterFigure/Monster_5012060.png",
     "child": [
       5012061
+    ],
+    "weak": [
+      "Ice",
+      "Wind"
+    ],
+    "en": "Assistant Graffiti: Demander",
+    "desc": "Without external pressure, many talented creators would go their whole lives without churning out a single word. The Assistant Graffiti is an imagenae born to solve this social issue.\\nHowever, they sometimes resort to overly drastic measures, forcing creators to fight back, which has spiraled into a brand-new social issue entirely.\\nThis Assistant Graffiti specializes in chasing down manuscripts: Alright, stop hiding. Pulling a disappearing act won't save you. I'm counting to three...",
+    "ko": "조수 낙서•마감 재촉하기",
+    "zh": "助手涂鸦•催稿",
+    "ja": "ラクガキアシスタント・原稿催促"
+  },
+  "5012062": {
+    "rank": "MinionLv2",
+    "camp": 17,
+    "icon": "SpriteOutput/MonsterFigure/Monster_5012060.png",
+    "child": [
+      5012062
     ],
     "weak": [
       "Ice",
@@ -8661,6 +9067,25 @@
     "zh": "SD民用机铠",
     "ja": "SD{RUBY_B#みんかん}民間{RUBY_E#}メカヨロイ"
   },
+  "5012092": {
+    "rank": "MinionLv2",
+    "camp": 17,
+    "icon": "SpriteOutput/MonsterFigure/Monster_5012090.png",
+    "child": [
+      5012092,
+      501209201
+    ],
+    "weak": [
+      "Physical",
+      "Fire",
+      "Thunder"
+    ],
+    "en": "Circe's Mechatron",
+    "desc": "A general-purpose mechatron from Planarcadia. The letters \"SD\" are from the initials of \"Sorry, Dunno.\"",
+    "ko": "키르케의 메카아머",
+    "zh": "喀尔刻的机铠",
+    "ja": "キルケーのメカヨロイ"
+  },
   "5012100": {
     "rank": "MinionLv2",
     "camp": 17,
@@ -8680,6 +9105,24 @@
     "zh": "魔法少女急袭剧团",
     "ja": "{RUBY_B#まほうしょうじょきゅうしゅうげきだん}魔法少女急襲劇団{RUBY_E#}"
   },
+  "5012101": {
+    "rank": "MinionLv2",
+    "camp": 17,
+    "icon": "SpriteOutput/MonsterFigure/Monster_5012100.png",
+    "child": [
+      5012101
+    ],
+    "weak": [
+      "Physical",
+      "Fire",
+      "Ice"
+    ],
+    "en": "Magical Girl Troupe",
+    "desc": "Planarcadia's security force and idol group, the Magical Girl Troupe.\\nIn the ancient Benzaitengoku era, witches used exorcism dances and songs to vanquish the darkness lurking in the world.\\nTimes have changed, and these witches have evolved into a profession in modern-day Planarcadia that combines spirit exorcism, riot control, counter-terrorism, and entertainment: the \"magical girls.\"\\nContrary to their cute appearance, magical girls frequently face the most sinister threats in Planarcadia, which is why most of them have... less-than-pleasant personalities in private.",
+    "ko": "마법 소녀 기습 극단",
+    "zh": "魔法少女急袭剧团",
+    "ja": "魔法少女急襲劇団"
+  },
   "5012110": {
     "rank": "MinionLv2",
     "camp": 17,
@@ -8687,7 +9130,8 @@
     "child": [
       5012110,
       501211001,
-      501211002
+      501211002,
+      501211003
     ],
     "weak": [
       "Thunder",
@@ -8700,12 +9144,32 @@
     "zh": "狸猫记者",
     "ja": "たぬき{RUBY_B#きしゃ}記者{RUBY_E#}"
   },
+  "5012111": {
+    "rank": "MinionLv2",
+    "camp": 17,
+    "icon": "SpriteOutput/MonsterFigure/Monster_5012110.png",
+    "child": [
+      5012111
+    ],
+    "weak": [
+      "Thunder",
+      "Quantum",
+      "Imaginary"
+    ],
+    "en": "Master Thief Furbo",
+    "desc": "A furbo journalist for <i>Furbobo Weekly</i>. The primary fabricator of gossip news, a rotten egg who loves to transform, and an occasional slacker who skips work, usually in corners where (it thinks) you can't see it.",
+    "ko": "대도 너구리",
+    "zh": "大盗狸",
+    "ja": "タヌン三世"
+  },
   "5012120": {
     "rank": "MinionLv2",
     "icon": "SpriteOutput/MonsterFigure/Monster_5012120.png",
     "child": [
       5012120,
-      501212001
+      501212001,
+      501212002,
+      501212003
     ],
     "weak": [
       "Fire",
@@ -8726,7 +9190,8 @@
       5013010,
       501301001,
       501301002,
-      501301003
+      501301003,
+      501301004
     ],
     "weak": [
       "Physical",
@@ -8775,6 +9240,24 @@
     "zh": "摇滚狂徒（错误）",
     "ja": "ロックの狂人（バグ）"
   },
+  "5013013": {
+    "rank": "Elite",
+    "camp": 17,
+    "icon": "SpriteOutput/MonsterFigure/Monster_5013010.png",
+    "child": [
+      5013013
+    ],
+    "weak": [
+      "Physical",
+      "Fire",
+      "Wind"
+    ],
+    "en": "Melee Familiar",
+    "desc": "A die-hard rock music fan. In pursuit of his musical dreams, he ventured down a dark path. But at the end of the day, he's still just a fan.\\nHates \"bassist jokes\" with a passion.\\nSome third-rate media outlets speculated that \"the bass is his true form\" based on his design, but that's pure rumor... the bass is actually being coerced.",
+    "ko": "근접 사역마",
+    "zh": "近战使魔",
+    "ja": "近接戦の使い魔"
+  },
   "5013030": {
     "rank": "Elite",
     "camp": 17,
@@ -8804,6 +9287,20 @@
     "ko": "화판 공작새(오류)",
     "zh": "画板孔雀（错误）",
     "ja": "パレットクジャク（バグ）"
+  },
+  "5013032": {
+    "rank": "Elite",
+    "camp": 17,
+    "icon": "SpriteOutput/MonsterFigure/Monster_5013030.png",
+    "child": [
+      5013032
+    ],
+    "weak": [],
+    "en": "Magic Familiar",
+    "desc": "An aberration born in an art school, originating from the rumor of \"brushes that move and paint on their own.\"\\nIt drew together the self-pity of talentless artists, their fear of attending school, and humanity's inherent laziness... ultimately becoming what it is today.",
+    "ko": "마법 사역마",
+    "zh": "魔法使魔",
+    "ja": "魔法使いの使い魔"
   },
   "5013040": {
     "rank": "Elite",
@@ -9108,12 +9605,52 @@
     "zh": "合金机铠•帕姆王",
     "ja": "合金メカヨロイ・パムキング"
   },
+  "5014022": {
+    "rank": "LittleBoss",
+    "camp": 17,
+    "icon": "SpriteOutput/MonsterFigure/Monster_5014020.png",
+    "child": [
+      5014022,
+      501402201
+    ],
+    "weak": [
+      "Fire",
+      "Thunder",
+      "Imaginary"
+    ],
+    "en": "Imagenae Apex Depredator",
+    "desc": "Who can handle the wild, untamed power of the Astral Express!? Pom-Pom, now beyond control, has transformed into Alloy Mechatron: King Pom-Pom.\\nKing Pom-Pom is a powerful mechatron obsessed with cleanliness and order. By its standards, this place is a mess and needs a thorough! Deep! Clean!",
+    "ko": "환조 최상위 포식자",
+    "zh": "幻造顶级掠食者",
+    "ja": "幻造頂点捕食者"
+  },
+  "5014023": {
+    "rank": "LittleBoss",
+    "camp": 17,
+    "icon": "SpriteOutput/MonsterFigure/Monster_5014020.png",
+    "child": [
+      5014023
+    ],
+    "weak": [
+      "Fire",
+      "Thunder",
+      "Imaginary"
+    ],
+    "en": "Alloy Mechatron: King Pom-Pom",
+    "desc": "Who can handle the wild, untamed power of the Astral Express!? Pom-Pom, now beyond control, has transformed into Alloy Mechatron: King Pom-Pom.\\nKing Pom-Pom is a powerful mechatron obsessed with cleanliness and order. By its standards, this place is a mess and needs a thorough! Deep! Clean!",
+    "ko": "합금 메카아머•폼폼킹",
+    "zh": "合金机铠•帕姆王",
+    "ja": "合金メカヨロイ・パムキング"
+  },
   "5014030": {
     "rank": "LittleBoss",
     "camp": 17,
     "icon": "SpriteOutput/MonsterFigure/Monster_5014030.png",
     "child": [
-      5014030
+      5014030,
+      501403001,
+      501403002,
+      501403003
     ],
     "weak": [
       "Fire",
@@ -9132,6 +9669,24 @@
     "icon": "SpriteOutput/MonsterFigure/Monster_5014030.png",
     "child": [
       5014031
+    ],
+    "weak": [
+      "Fire",
+      "Thunder",
+      "Quantum"
+    ],
+    "en": "Murata Graphia, Founding Artist",
+    "desc": "The ancestral progenitor of the painters of Benzaitengoku, and a remnant of Murata Graphia.\\nShe once utilized the power of \"Voracity\" to imagenate phantasmal monstrosities for the Antimatter Legion. After witnessing the crash of the Astral Express, a vision of ascending to the heavens took root within her, leading her to turn against her own creator alongside the Nameless.\\nUltimately, to protect this realm, she sought to encanvas all of existence. Within her lonely sorrow, she depicted the vengeful spirits fallen at the hands of Asat Pramad over and over again, until that very resentment finally drove her to madness.",
+    "ko": "창시의 화가, 무라타 그래피아",
+    "zh": "始作画者，无量塔绘世",
+    "ja": "創始の絵師、無量塔グラフィエ"
+  },
+  "5014032": {
+    "rank": "LittleBoss",
+    "camp": 17,
+    "icon": "SpriteOutput/MonsterFigure/Monster_5014030.png",
+    "child": [
+      5014032
     ],
     "weak": [
       "Fire",
@@ -9239,7 +9794,11 @@
     "icon": "SpriteOutput/MonsterFigure/Monster_5023020.png",
     "child": [
       5023020,
-      502302001
+      502302001,
+      502302002,
+      502302003,
+      502302004,
+      502302005
     ],
     "weak": [
       "Fire",
@@ -9251,6 +9810,24 @@
     "ko": "포식의 신의 후예",
     "zh": "吞神子嗣",
     "ja": "{RUBY_B#どんしん}呑神{RUBY_E#}の{RUBY_B#こ}子{RUBY_E#}"
+  },
+  "5023021": {
+    "rank": "Elite",
+    "camp": 17,
+    "icon": "SpriteOutput/MonsterFigure/Monster_5023020.png",
+    "child": [
+      5023021
+    ],
+    "weak": [
+      "Fire",
+      "Thunder",
+      "Imaginary"
+    ],
+    "en": "God-Devourer Offspring",
+    "desc": "A monstrous legion born from Asat Pramad's splitting of the power of the Voracity — the prototype of what would become the imagenae. From Ahatopia's slumbering core, he sensed the Voracity's relentless, insatiable hunger, its power pulsing in perfect harmony with the Path of Destruction. Intrigued by this restless force, he began his own dark creation — erasing human heads, leaving only grinning, devouring maws that roar, demand, and consume endlessly, never satisfied.",
+    "ko": "포식의 신의 후예",
+    "zh": "吞神子嗣",
+    "ja": "呑神の子"
   },
   "5024010": {
     "rank": "LittleBoss",
@@ -9946,6 +10523,23 @@
     "zh": "存护扑满",
     "ja": "存護プーマン"
   },
+  "8002083": {
+    "rank": "MinionLv2",
+    "icon": "SpriteOutput/MonsterFigure/Monster_8002050.png",
+    "child": [
+      8002083
+    ],
+    "weak": [
+      "Fire",
+      "Ice",
+      "Imaginary"
+    ],
+    "en": "Demon Boar",
+    "desc": "An interdimensional creature lost in the stars. Docile in nature. Sweet in taste. Inedible. Spends most of its life feeding and fleeing. Travelers who encounter these creatures see them as good omens.",
+    "ko": "마의 멧돼지",
+    "zh": "魔猪",
+    "ja": "魔猪"
+  },
   "8002089": {
     "rank": "MinionLv2",
     "icon": "SpriteOutput/MonsterFigure/Monster_8002050.png",
@@ -10293,6 +10887,7 @@
       800304005,
       800304006,
       800304007,
+      800304008,
       800304009,
       800304010,
       800304011,
@@ -10622,6 +11217,25 @@
     "ko": "허졸•말살자",
     "zh": "虚卒•抹消者",
     "ja": "ヴォイドレンジャー・{RUBY_B#まっしょう}抹消{RUBY_E#}"
+  },
+  "8012040": {
+    "rank": "MinionLv2",
+    "camp": 6,
+    "icon": "SpriteOutput/MonsterFigure/Monster_8012040.png",
+    "child": [
+      8012040,
+      801204001
+    ],
+    "weak": [
+      "Physical",
+      "Fire",
+      "Imaginary"
+    ],
+    "en": "Comediologist",
+    "desc": "Born from a fragmented part of the Pseudo-Awakened One \"Asat Pramad,\" it seeks to completely deconstruct the Elation by analyzing comedy.\\nIts very existence exists for the sake of Destruction, taking tragedy as the core of comedy and \"Destruction\" as the ultimate truth of \"Elation\".",
+    "ko": "희극학자",
+    "zh": "喜剧学家",
+    "ja": "{RUBY_B#きげきがくしゃ}喜劇学者{RUBY_E#}"
   },
   "8012140": {
     "rank": "MinionLv2",
@@ -11199,6 +11813,65 @@
     "zh": "乘间抵隙的煽动者",
     "ja": "隙を突く扇動者"
   },
+  "8015030": {
+    "rank": "BigBoss",
+    "camp": 6,
+    "icon": "SpriteOutput/MonsterFigure/Monster_8015030.png",
+    "child": [
+      8015030,
+      801503001,
+      801503002,
+      801503003,
+      801503004,
+      801503005
+    ],
+    "weak": [
+      "Fire",
+      "Wind",
+      "Imaginary"
+    ],
+    "en": "Lord of Saṃvartasthāyi, Asat Pramad",
+    "desc": "The three faces of Paranirmitavaśavartin, and the true appearance of the Lord Ravager that wields authority over all possibilities.\\nAll things in myriad forms pass through \"Formation,\" \"Existence,\" and \"Decay,\" until they turn to \"Annihilation.\" Elation and time are mortal enemies. Beneath the endless erosion of the ages, all things shall fade into silence.\\nTo execute the Sky's decree of the Destruction, fulfilling the ambition of extinguishing all minds who bear emotions in the world.",
+    "ko": "만색회공의 주인, 아삿 프라마드",
+    "zh": "万色返空主，归寂",
+    "ja": "{RUBY_B#ばんしょくきくうしゅ}万色帰空主{RUBY_E#}、{RUBY_B#きじゃく}帰寂{RUBY_E#}"
+  },
+  "8015040": {
+    "rank": "BigBoss",
+    "camp": 6,
+    "icon": "SpriteOutput/MonsterFigure/Monster_8015040.png",
+    "child": [
+      8015040
+    ],
+    "weak": [
+      "Fire",
+      "Wind",
+      "Imaginary"
+    ],
+    "en": "Lord of Saṃvartasthāyi, Asat Pramad: \"Existence\"",
+    "desc": "A Navigator named \"Isee\" embarked on a trailblazing expedition to save the Elation.\\nHe helped planets overcome crises, resolving troubles across the cosmos, all to find a cure for the Elation.\\nYet, the longer his journey went on, the more familiar worlds he witnessed descending into corruption and ruin. One world even attempted to repay the Express Crew's rescue with mutual destruction.\\nUltimately, after the fall of the God of Trailblaze and having witnessed the end of Adlivun with his own eyes, he finally realized that the only cure for the Elation was... the Destruction.",
+    "ko": "만색회공의 주인, 아삿 프라마드•<unbreak>「주」</unbreak>",
+    "zh": "万色返空主，归寂•「住」",
+    "ja": "万色帰空主、帰寂・「住」"
+  },
+  "8015050": {
+    "rank": "BigBoss",
+    "camp": 6,
+    "icon": "SpriteOutput/MonsterFigure/Monster_8015050.png",
+    "child": [
+      8015050
+    ],
+    "weak": [
+      "Fire",
+      "Wind",
+      "Imaginary"
+    ],
+    "en": "Lord of Saṃvartasthāyi, Asat Pramad: \"Decay\"",
+    "desc": "The Lord Ravager known as Asat Pramad is devising a game to destroy the Elation.\\nHe invades defenseless planets, forges from golden blood a lineage born only to destroy, all to mock life itself, and with it, mock the Elation.\\nYet, this is far from enough to satisfy him. To realize his grand ambition of eliminating the Elation, he resolves to awaken the Aeon to carry out the most thorough destruction, even if the cost might be himself.\\nUltimately, as the Express arrives once more, the time is ripe. He enters the game under a stolen identity, striving to craft the most magnificent and absolute finale to this game.",
+    "ko": "만색회공의 주인, 아삿 프라마드•<unbreak>「괴」</unbreak>",
+    "zh": "万色返空主，归寂•「坏」",
+    "ja": "万色帰空主、帰寂・「壊」"
+  },
   "8022010": {
     "rank": "MinionLv2",
     "camp": 8,
@@ -11207,6 +11880,7 @@
       8022010,
       802201001,
       802201002,
+      802201003,
       802201005
     ],
     "weak": [

@@ -144,12 +144,6 @@
         "is_battle_voice": false
       },
       {
-        "voice_id": 31,
-        "voice_title": "About Yao Guang",
-        "voice_m": "I recall my days as a student... I argued with my senior soror on every matter. She would always concede, and I mistook it for proof that my studies surpassed hers. Looking back now, I see how childish I was. Hmph. When it comes to the pursuit of knowledge, what place is there for concession?",
-        "is_battle_voice": false
-      },
-      {
         "voice_id": 22,
         "voice_title": "Eidolon Activation",
         "voice_m": "Isn't every morsel, every drop predestined?",
@@ -201,12 +195,6 @@
         "voice_id": 30,
         "voice_title": "Added to Team With Bailu",
         "voice_m": "With the Dragon Lady here, I have nothing to worry about.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 32,
-        "voice_title": "Added to Team With Yao Guang",
-        "voice_m": "Divining the battlefield with my senior soror transports me to erstwhile times of academic pursuit.",
         "is_battle_voice": false
       },
       {

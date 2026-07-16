@@ -120,12 +120,6 @@
         "is_battle_voice": false
       },
       {
-        "voice_id": 27,
-        "voice_title": "...",
-        "voice_m": "...",
-        "is_battle_voice": false
-      },
-      {
         "voice_id": 18,
         "voice_title": "...",
         "voice_m": "...",
@@ -175,6 +169,12 @@
       },
       {
         "voice_id": 26,
+        "voice_title": "...",
+        "voice_m": "...",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 27,
         "voice_title": "...",
         "voice_m": "...",
         "is_battle_voice": false
@@ -276,25 +276,7 @@
         "is_battle_voice": true
       },
       {
-        "voice_id": 70,
-        "voice_title": "...",
-        "voice_m": "...",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 71,
-        "voice_title": "...",
-        "voice_m": "...",
-        "is_battle_voice": true
-      },
-      {
         "voice_id": 67,
-        "voice_title": "...",
-        "voice_m": "...",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 72,
         "voice_title": "...",
         "voice_m": "...",
         "is_battle_voice": true
@@ -307,6 +289,24 @@
       },
       {
         "voice_id": 69,
+        "voice_title": "...",
+        "voice_m": "...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 70,
+        "voice_title": "...",
+        "voice_m": "...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 71,
+        "voice_title": "...",
+        "voice_m": "...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 72,
         "voice_title": "...",
         "voice_m": "...",
         "is_battle_voice": true
@@ -946,7 +946,7 @@
       ],
       "extra": {
         "10000002": {
-          "name": "Action Delayed",
+          "name": "Delay Action",
           "desc": "Increases the target's waiting interval before the next action.",
           "param": []
         },

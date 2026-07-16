@@ -150,18 +150,6 @@
         "is_battle_voice": false
       },
       {
-        "voice_id": 33,
-        "voice_title": "About Jiaoqiu",
-        "voice_m": "Uncle J... Oh, it's like this — I didn't like sword fighting class when I was a kid, so I would sneak away and visit him. He taught me how to read and how to write his name, but his name was too hard for me, so he just let me call him Uncle J... Eventually he stopped teaching me how to write and just made me all kinds of delicious food, until my mother dragged me by the ear back to sword lessons.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 35,
-        "voice_title": "About Moze",
-        "voice_m": "That name sounds familiar... Oh! One time when I went to Uncle J's house, I saw someone hiding on the roof... Maybe it was him!",
-        "is_battle_voice": false
-      },
-      {
         "voice_id": 23,
         "voice_title": "Eidolon Activation",
         "voice_m": "Sooner or later, I'll make my mark in history!",
@@ -219,12 +207,6 @@
         "voice_id": 32,
         "voice_title": "Added to Team With Xueyi",
         "voice_m": "Xueyi, your skills are amazing, but remember to take it easy on yourself...",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 34,
-        "voice_title": "Added to Team With Jiaoqiu",
-        "voice_m": "Uncle J! My mom sends her regards!",
         "is_battle_voice": false
       },
       {

@@ -138,18 +138,6 @@
         "is_battle_voice": false
       },
       {
-        "voice_id": 30,
-        "voice_title": "About Lingsha",
-        "voice_m": "The Cauldron Master is the worst! A few times when we were chatting, she suddenly said, \"The master diviner is coming.\" I ran behind her to hide, only to find out that no one was actually coming! She's always teasing me like that, so infuriating...",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 32,
-        "voice_title": "About Yao Guang",
-        "voice_m": "Playing against superiors is the worst! Winning feels bad, losing feels even worse, the whole thing's torture. But with Madam Yao laying down that kind of pressure... I've got no choice but to go all out.",
-        "is_battle_voice": false
-      },
-      {
         "voice_id": 21,
         "voice_title": "Eidolon Activation",
         "voice_m": "Life's just like a game of tiles, you never know what's gonna come up next~",
@@ -201,18 +189,6 @@
         "voice_id": 29,
         "voice_title": "Added to Team With Huohuo",
         "voice_m": "No need to worry, Huohuo, the workday zips by when you're having fun~",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 31,
-        "voice_title": "Added to Team With Lingsha",
-        "voice_m": "Alright, no more teasing, okay?",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 33,
-        "voice_title": "Added to Team With Yao Guang",
-        "voice_m": "Madam Yao! Bring me good fortune⁓",
         "is_battle_voice": false
       },
       {

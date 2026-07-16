@@ -347,7 +347,7 @@
       "extra": {
         "10013071": {
           "name": "Arcana",
-          "desc": "Arcana is a debuff that deals DMG over time. This debuff cannot be dispelled.\\nWhile in the Arcana state, the unit is also considered to be in the Wind Shear state and takes Wind DoT at the start of each turn.\\nThe infliction of Arcana ignores the target's Wind Shear RES, Bleed RES, Burn RES, and Shock RES.",
+          "desc": "\"Arcana\" is a debuff that deals DMG over time. This debuff cannot be dispelled.\\nWhile in the \"Arcana\" state, the unit is also considered to be in the Wind Shear state and takes Wind DoT at the start of each turn.\\nThe infliction of \"Arcana\" ignores the target's Wind Shear RES, Bleed RES, Burn RES, and Shock RES.",
           "param": []
         },
         "30000001": {
@@ -397,7 +397,7 @@
       "extra": {
         "10013071": {
           "name": "Arcana",
-          "desc": "Arcana is a debuff that deals DMG over time. This debuff cannot be dispelled.\\nWhile in the Arcana state, the unit is also considered to be in the Wind Shear state and takes Wind DoT at the start of each turn.\\nThe infliction of Arcana ignores the target's Wind Shear RES, Bleed RES, Burn RES, and Shock RES.",
+          "desc": "\"Arcana\" is a debuff that deals DMG over time. This debuff cannot be dispelled.\\nWhile in the \"Arcana\" state, the unit is also considered to be in the Wind Shear state and takes Wind DoT at the start of each turn.\\nThe infliction of \"Arcana\" ignores the target's Wind Shear RES, Bleed RES, Burn RES, and Shock RES.",
           "param": []
         },
         "30000001": {
@@ -433,7 +433,7 @@
       "extra": {
         "10013071": {
           "name": "Arcana",
-          "desc": "Arcana is a debuff that deals DMG over time. This debuff cannot be dispelled.\\nWhile in the Arcana state, the unit is also considered to be in the Wind Shear state and takes Wind DoT at the start of each turn.\\nThe infliction of Arcana ignores the target's Wind Shear RES, Bleed RES, Burn RES, and Shock RES.",
+          "desc": "\"Arcana\" is a debuff that deals DMG over time. This debuff cannot be dispelled.\\nWhile in the \"Arcana\" state, the unit is also considered to be in the Wind Shear state and takes Wind DoT at the start of each turn.\\nThe infliction of \"Arcana\" ignores the target's Wind Shear RES, Bleed RES, Burn RES, and Shock RES.",
           "param": []
         },
         "30000001": {
@@ -543,7 +543,7 @@
       "extra": {
         "10013071": {
           "name": "Arcana",
-          "desc": "Arcana is a debuff that deals DMG over time. This debuff cannot be dispelled.\\nWhile in the Arcana state, the unit is also considered to be in the Wind Shear state and takes Wind DoT at the start of each turn.\\nThe infliction of Arcana ignores the target's Wind Shear RES, Bleed RES, Burn RES, and Shock RES.",
+          "desc": "\"Arcana\" is a debuff that deals DMG over time. This debuff cannot be dispelled.\\nWhile in the \"Arcana\" state, the unit is also considered to be in the Wind Shear state and takes Wind DoT at the start of each turn.\\nThe infliction of \"Arcana\" ignores the target's Wind Shear RES, Bleed RES, Burn RES, and Shock RES.",
           "param": []
         },
         "30000001": {
@@ -723,7 +723,7 @@
       "extra": {
         "10013071": {
           "name": "Arcana",
-          "desc": "Arcana is a debuff that deals DMG over time. This debuff cannot be dispelled.\\nWhile in the Arcana state, the unit is also considered to be in the Wind Shear state and takes Wind DoT at the start of each turn.\\nThe infliction of Arcana ignores the target's Wind Shear RES, Bleed RES, Burn RES, and Shock RES.",
+          "desc": "\"Arcana\" is a debuff that deals DMG over time. This debuff cannot be dispelled.\\nWhile in the \"Arcana\" state, the unit is also considered to be in the Wind Shear state and takes Wind DoT at the start of each turn.\\nThe infliction of \"Arcana\" ignores the target's Wind Shear RES, Bleed RES, Burn RES, and Shock RES.",
           "param": []
         }
       },
@@ -881,7 +881,7 @@
       "extra": {
         "10013071": {
           "name": "Arcana",
-          "desc": "Arcana is a debuff that deals DMG over time. This debuff cannot be dispelled.\\nWhile in the Arcana state, the unit is also considered to be in the Wind Shear state and takes Wind DoT at the start of each turn.\\nThe infliction of Arcana ignores the target's Wind Shear RES, Bleed RES, Burn RES, and Shock RES.",
+          "desc": "\"Arcana\" is a debuff that deals DMG over time. This debuff cannot be dispelled.\\nWhile in the \"Arcana\" state, the unit is also considered to be in the Wind Shear state and takes Wind DoT at the start of each turn.\\nThe infliction of \"Arcana\" ignores the target's Wind Shear RES, Bleed RES, Burn RES, and Shock RES.",
           "param": []
         },
         "30000001": {
@@ -1125,7 +1125,7 @@
       "extra": {
         "10013071": {
           "name": "Arcana",
-          "desc": "Arcana is a debuff that deals DMG over time. This debuff cannot be dispelled.\\nWhile in the Arcana state, the unit is also considered to be in the Wind Shear state and takes Wind DoT at the start of each turn.\\nThe infliction of Arcana ignores the target's Wind Shear RES, Bleed RES, Burn RES, and Shock RES.",
+          "desc": "\"Arcana\" is a debuff that deals DMG over time. This debuff cannot be dispelled.\\nWhile in the \"Arcana\" state, the unit is also considered to be in the Wind Shear state and takes Wind DoT at the start of each turn.\\nThe infliction of \"Arcana\" ignores the target's Wind Shear RES, Bleed RES, Burn RES, and Shock RES.",
           "param": []
         },
         "30000001": {
@@ -2397,7 +2397,7 @@
         "extra": {
           "10013071": {
             "name": "Arcana",
-            "desc": "Arcana is a debuff that deals DMG over time. This debuff cannot be dispelled.\\nWhile in the Arcana state, the unit is also considered to be in the Wind Shear state and takes Wind DoT at the start of each turn.\\nThe infliction of Arcana ignores the target's Wind Shear RES, Bleed RES, Burn RES, and Shock RES.",
+            "desc": "\"Arcana\" is a debuff that deals DMG over time. This debuff cannot be dispelled.\\nWhile in the \"Arcana\" state, the unit is also considered to be in the Wind Shear state and takes Wind DoT at the start of each turn.\\nThe infliction of \"Arcana\" ignores the target's Wind Shear RES, Bleed RES, Burn RES, and Shock RES.",
             "param": []
           },
           "30000001": {
@@ -2452,7 +2452,7 @@
         "extra": {
           "10013071": {
             "name": "Arcana",
-            "desc": "Arcana is a debuff that deals DMG over time. This debuff cannot be dispelled.\\nWhile in the Arcana state, the unit is also considered to be in the Wind Shear state and takes Wind DoT at the start of each turn.\\nThe infliction of Arcana ignores the target's Wind Shear RES, Bleed RES, Burn RES, and Shock RES.",
+            "desc": "\"Arcana\" is a debuff that deals DMG over time. This debuff cannot be dispelled.\\nWhile in the \"Arcana\" state, the unit is also considered to be in the Wind Shear state and takes Wind DoT at the start of each turn.\\nThe infliction of \"Arcana\" ignores the target's Wind Shear RES, Bleed RES, Burn RES, and Shock RES.",
             "param": []
           },
           "30000001": {
@@ -2963,7 +2963,7 @@
           "extra": {
             "10013071": {
               "name": "Arcana",
-              "desc": "Arcana is a debuff that deals DMG over time. This debuff cannot be dispelled.\\nWhile in the Arcana state, the unit is also considered to be in the Wind Shear state and takes Wind DoT at the start of each turn.\\nThe infliction of Arcana ignores the target's Wind Shear RES, Bleed RES, Burn RES, and Shock RES.",
+              "desc": "\"Arcana\" is a debuff that deals DMG over time. This debuff cannot be dispelled.\\nWhile in the \"Arcana\" state, the unit is also considered to be in the Wind Shear state and takes Wind DoT at the start of each turn.\\nThe infliction of \"Arcana\" ignores the target's Wind Shear RES, Bleed RES, Burn RES, and Shock RES.",
               "param": []
             },
             "30000001": {
@@ -3014,7 +3014,7 @@
           "extra": {
             "10013071": {
               "name": "Arcana",
-              "desc": "Arcana is a debuff that deals DMG over time. This debuff cannot be dispelled.\\nWhile in the Arcana state, the unit is also considered to be in the Wind Shear state and takes Wind DoT at the start of each turn.\\nThe infliction of Arcana ignores the target's Wind Shear RES, Bleed RES, Burn RES, and Shock RES.",
+              "desc": "\"Arcana\" is a debuff that deals DMG over time. This debuff cannot be dispelled.\\nWhile in the \"Arcana\" state, the unit is also considered to be in the Wind Shear state and takes Wind DoT at the start of each turn.\\nThe infliction of \"Arcana\" ignores the target's Wind Shear RES, Bleed RES, Burn RES, and Shock RES.",
               "param": []
             },
             "30000001": {
@@ -3289,7 +3289,7 @@
           "extra": {
             "10013071": {
               "name": "Arcana",
-              "desc": "Arcana is a debuff that deals DMG over time. This debuff cannot be dispelled.\\nWhile in the Arcana state, the unit is also considered to be in the Wind Shear state and takes Wind DoT at the start of each turn.\\nThe infliction of Arcana ignores the target's Wind Shear RES, Bleed RES, Burn RES, and Shock RES.",
+              "desc": "\"Arcana\" is a debuff that deals DMG over time. This debuff cannot be dispelled.\\nWhile in the \"Arcana\" state, the unit is also considered to be in the Wind Shear state and takes Wind DoT at the start of each turn.\\nThe infliction of \"Arcana\" ignores the target's Wind Shear RES, Bleed RES, Burn RES, and Shock RES.",
               "param": []
             },
             "30000002": {
@@ -3452,7 +3452,7 @@
           "extra": {
             "10013071": {
               "name": "Arcana",
-              "desc": "Arcana is a debuff that deals DMG over time. This debuff cannot be dispelled.\\nWhile in the Arcana state, the unit is also considered to be in the Wind Shear state and takes Wind DoT at the start of each turn.\\nThe infliction of Arcana ignores the target's Wind Shear RES, Bleed RES, Burn RES, and Shock RES.",
+              "desc": "\"Arcana\" is a debuff that deals DMG over time. This debuff cannot be dispelled.\\nWhile in the \"Arcana\" state, the unit is also considered to be in the Wind Shear state and takes Wind DoT at the start of each turn.\\nThe infliction of \"Arcana\" ignores the target's Wind Shear RES, Bleed RES, Burn RES, and Shock RES.",
               "param": []
             },
             "30000001": {
@@ -3696,7 +3696,7 @@
           "extra": {
             "10013071": {
               "name": "Arcana",
-              "desc": "Arcana is a debuff that deals DMG over time. This debuff cannot be dispelled.\\nWhile in the Arcana state, the unit is also considered to be in the Wind Shear state and takes Wind DoT at the start of each turn.\\nThe infliction of Arcana ignores the target's Wind Shear RES, Bleed RES, Burn RES, and Shock RES.",
+              "desc": "\"Arcana\" is a debuff that deals DMG over time. This debuff cannot be dispelled.\\nWhile in the \"Arcana\" state, the unit is also considered to be in the Wind Shear state and takes Wind DoT at the start of each turn.\\nThe infliction of \"Arcana\" ignores the target's Wind Shear RES, Bleed RES, Burn RES, and Shock RES.",
               "param": []
             },
             "30000001": {
@@ -4969,7 +4969,7 @@
             "extra": {
               "10013071": {
                 "name": "Arcana",
-                "desc": "Arcana is a debuff that deals DMG over time. This debuff cannot be dispelled.\\nWhile in the Arcana state, the unit is also considered to be in the Wind Shear state and takes Wind DoT at the start of each turn.\\nThe infliction of Arcana ignores the target's Wind Shear RES, Bleed RES, Burn RES, and Shock RES.",
+                "desc": "\"Arcana\" is a debuff that deals DMG over time. This debuff cannot be dispelled.\\nWhile in the \"Arcana\" state, the unit is also considered to be in the Wind Shear state and takes Wind DoT at the start of each turn.\\nThe infliction of \"Arcana\" ignores the target's Wind Shear RES, Bleed RES, Burn RES, and Shock RES.",
                 "param": []
               },
               "30000001": {
@@ -5025,7 +5025,7 @@
             "extra": {
               "10013071": {
                 "name": "Arcana",
-                "desc": "Arcana is a debuff that deals DMG over time. This debuff cannot be dispelled.\\nWhile in the Arcana state, the unit is also considered to be in the Wind Shear state and takes Wind DoT at the start of each turn.\\nThe infliction of Arcana ignores the target's Wind Shear RES, Bleed RES, Burn RES, and Shock RES.",
+                "desc": "\"Arcana\" is a debuff that deals DMG over time. This debuff cannot be dispelled.\\nWhile in the \"Arcana\" state, the unit is also considered to be in the Wind Shear state and takes Wind DoT at the start of each turn.\\nThe infliction of \"Arcana\" ignores the target's Wind Shear RES, Bleed RES, Burn RES, and Shock RES.",
                 "param": []
               },
               "30000001": {

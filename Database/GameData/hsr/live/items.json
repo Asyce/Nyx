@@ -1797,6 +1797,20 @@
     }
   },
   {
+    "id": "110509",
+    "contentStatus": "live",
+    "name": "High Hopes of the Falsely Enlightened",
+    "rarity": "VeryRare",
+    "type": "Material",
+    "subType": "WeeklyMonsterDrop",
+    "description": "Advanced level-up material for Traces.",
+    "backgroundDescription": "The fools who lost their smile tirelessly play games with civilization, for without challengers there is no elation, not for others, and certainly not for themselves.\\nYesterday withered, heroes died, and the evil villain traversed the stars, unleashing malice upon all. Yet there is still a yearning for someone to defeat the great villain and take the rewards prepared since the very beginning.\\n\\n<i>\"Successors of Akivili, splendidly done.\"</i>",
+    "purposeType": 4,
+    "assets": {
+      "icon": "GameData/hsr/assets/items/110509.webp"
+    }
+  },
+  {
     "id": "110610",
     "contentStatus": "live",
     "name": "Tears of Rail",
@@ -1807,7 +1821,7 @@
     "backgroundDescription": "Frozen tundras, restless harbors, radiant metropolises, and forgotten sanctuaries... These distant corners once visited now shimmer before the eyes like a mirage, only to be sealed away within a teardrop of interwoven paths.\\n\\n<i>\"The ends of the path vanish into the endless starry sky, one side tethered to the past, the other leading toward the future.\"</i>",
     "purposeType": 4,
     "assets": {
-      "icon": "GameData/hsr/assets/items/110610.webp"
+      "icon": "GameData/hsr/assets/items/Figure_Testmaterial01.webp"
     }
   },
   {
@@ -2437,6 +2451,20 @@
     "purposeType": 14,
     "assets": {
       "icon": "GameData/hsr/assets/items/295534.webp"
+    }
+  },
+  {
+    "id": "122004",
+    "contentStatus": "live",
+    "name": "Anomaly Arbitration Limited-Time Clearance Medal",
+    "rarity": "SuperRare",
+    "type": "Material",
+    "subType": "Material",
+    "description": "Obtain this medal after achieving 3 stars in the King Stage of Anomaly Arbitration of this period.",
+    "backgroundDescription": "Guided by the starlight, you reached the end of a path few have ever traveled.",
+    "purposeType": 14,
+    "assets": {
+      "icon": "GameData/hsr/assets/items/295535.webp"
     }
   },
   {
@@ -8274,7 +8302,7 @@
     "backgroundDescription": "Strange aquatic flowers, their sheen dazzling and warm.\\nIt is said that they are tokens of the eternal vows between two revered deities.",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/140532.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -8287,7 +8315,7 @@
     "backgroundDescription": "Strange aquatic flowers, their amber-colored soft flames sway imperceptibly.\\nIt is said that they are tokens of the eternal vows between two revered deities, and now it holds the soul of one of them.",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/140533.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -8599,7 +8627,7 @@
     "backgroundDescription": "A photo slate Apophis took of you after winning the Seal Slammers championship. The contestants were specially invited to appear in the photo, and the champion takes center stage.\\n\\n<i>\"Dan Heng, let me wear the seal sunglasses for a while~\"</i>\\n<i>\"...You already have a trophy.\"</i>",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/140557.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -8613,7 +8641,7 @@
     "backgroundDescription": "A photo slate Apophis took of you after winning the Seal Slammers championship. The contestants were specially invited to appear in the photo, and the champion takes center stage.\\n\\n<i>\"Dan Heng, let me wear the seal sunglasses for a while~\"</i>\\n<i>\"...You already have a trophy.\"</i>",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/140558.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -8626,7 +8654,7 @@
     "backgroundDescription": "A bloodied Grove of Epiphany work permit with the name \"Nicomachus.\"",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/190020.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -8639,7 +8667,7 @@
     "backgroundDescription": "A damaged Grove of Epiphany work permit with the name \"Andreas.\"",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/190020.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -8652,7 +8680,7 @@
     "backgroundDescription": "A Grove of Epiphany work permit wrinkled with sweat with the name \"Clio.\"",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/190020.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -8665,7 +8693,7 @@
     "backgroundDescription": "A grain that is quite ordinary in realms beyond the sky but uncommon in Amphoreus.\\nThe label on the specimen indicates it is the <unbreak>330</unbreak>th generation of an experiment — perhaps the experiment has been ongoing for centuries.\\n\\n<i>\"During the breeding process, the crop's resistance to the black tide has significantly improved. The next step will attempt to enable the crops to absorb energy from the black tide and survive in lightless environments, challenging the conventional belief that no life can endure within the black tide.\"</i>",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/180009.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -8678,7 +8706,7 @@
     "backgroundDescription": "A seemingly unremarkable scroll filled with various equations and symbols, so complex that even the Synesthesia Beacon struggles to provide a reliable translation.\\n\\n<i>\"Self-reference is the most challenging problem — it not only strips mathematics of its completeness but also renders our souls enigmatic within the logical system.\"</i>\\n<i>\"This equation should hold true. I have an excellent proof... but alas, the space here is too tiny for it.\"</i>",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/190017.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -8691,7 +8719,7 @@
     "backgroundDescription": "It is said that this somewhat hazardous-looking powder helps participants in Titan-worship ceremonies attune their consciousness to the thoughts of the Titans.\\n\\n<i>\"So, what exactly is it made of?\"</i>\\n<i>\"An unrefined plant-based sugar.\"</i>\\n<i>\"Huh? So eating it just means eating sugar?\"</i>\\n<i>\"Yes. The ceremonies are quite lengthy, and fasting participants often struggle to endure due to low blood sugar.\"</i>\\n<i>\"...\"</i>",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/402008.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -8704,7 +8732,7 @@
     "backgroundDescription": "The sword once wielded by Artakama, a Chrysos Heir scholar of the Grove. In the dire battle against the black tide, this sword stood steadfast by its master until her final breath. Following Artakama's demise, her younger sister, Cynane, picked up the sword and continued the fight until the ceaseless swarms of monsters devoured everything living.",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/140534.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -8717,7 +8745,7 @@
     "backgroundDescription": "A rare Amphorean fine wine. It is said to be brewed from crops nourished by the divine blood of each Titan.\\nThis particular bottle originates from the Chrysalis of Gold, Mnestia of Romance.",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/140567.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -8730,7 +8758,7 @@
     "backgroundDescription": "A golden spindle that belongs to \"Goldweaver\" Aglaea. A legendary treasure.\\n\\n<i>\"Follow the golden thread, the love that contains all like the gods.\"</i>",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/140566.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -8743,7 +8771,7 @@
     "backgroundDescription": "A memorial medal issued by the Garden of Life to reward the sweat and tears shed by Chimera Squad that took the crown.\\n\\n<i>\"To the most diligent chimera. We hope to see growth and improvement in your future work!\"</i>",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/140568.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -8756,7 +8784,7 @@
     "backgroundDescription": "The fallen soul of Oronyx the Time Titan. The Coreflame urgently awaits to return to its place, and its demigod will assume the authority of the vacant station after completing the trial.",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/140569.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -8769,7 +8797,7 @@
     "backgroundDescription": "A handcrafted silver ring — if you hold it to your ear, you can hear the sound of melting snow.\\nIn Aidonia, the departed seal ice and snow into a ring before their final journey, offering it to the living as a token to walk the rest of the path in their stead.\\n\\n<i>\"When the ice melts and the snow fades, the flowers will bloom, and you will find me.\"</i>",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/140570.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -8782,7 +8810,7 @@
     "backgroundDescription": "A phantom thief's letter left behind by Kitty Phantom Thief, Cipher, out of \"courtesy\" and \"honor.\"\\n\\n<i>\"I fear it would attract tasteless little thieves, so I shall safeguard it for now.\"</i>",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/140571.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -8795,7 +8823,7 @@
     "backgroundDescription": "A coin left behind by Kitty Phantom Thief, Cipher, out of \"courtesy\" and \"honor.\"\\n\\n<i>\"Naturally, I've left appropriate payment — a single coin.\"</i>",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/140572.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -8808,7 +8836,7 @@
     "backgroundDescription": "Trianne secretly prepared a small gift for Castorice — a childlike drawing of the companions on their Flame-Chase Journey.\\nCastorice perceptively noticed that it, and the memory it represents, would be the key to saving {NICKNAME} from the nether realm.\\n\\n<i>\"But Little Cas no longer has anything to fear now, because everyone is here with you in this Flame-Chase Journey!\"</i>",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/140573.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -8821,7 +8849,7 @@
     "backgroundDescription": "The fallen soul of Thanatos the Death Titan. The Coreflame urgently awaits to return to its place. The demigod of Death has already overcome the trial and assumed the authority of the Titan.",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/140574.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -8834,7 +8862,7 @@
     "backgroundDescription": "The memory entity you carried away from a dream, in some foreign land, an artisan who admired the King and carved a puppet with heartfelt reverence. Though it seems far removed from the real King, and the craftsmanship leaves much to be desired, what heroes pass down to later generations is often just like this — crude, yet enough to soothe the soul.\\n\\n<i>\"Besides, don't you think that, after staring at it for a while, it actually kind of feels full of soul?\"</i>\\n<i>\"I think it's trying to suck my soul in!\"</i>",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/1040536.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -8847,7 +8875,7 @@
     "backgroundDescription": "An old, tattered photograph captures the past of Miss Note — the cries of injustice behind bars, the jubilant song upon breaking free, the thunderous applause beneath the stage, the scorn born of disgrace. All those voices have faded into history, leaving only a yellowed memory behind.\\n\\n<i>\"And even so, I still choose to sing.\"</i>",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/1040538.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -8860,7 +8888,7 @@
     "backgroundDescription": "A Curio and Space Anchor from the world of Erudition that protects your individual data structure from the influences of digital tsunamis.\\nWhen necessary, it can also serve as a bridge for communications between the internal and external world.",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/140577.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -9016,7 +9044,7 @@
     "backgroundDescription": "An identification badge of the Flame-Chase Army, bearing the Imperator's highest command. The wearer has unrestricted access throughout the city.",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/140589.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -9029,7 +9057,7 @@
     "backgroundDescription": "An unassuming ceramic cup, plain in craftsmanship. At that wanton feast, its cold rim passed her honey brew to your lips, branding you with the sin of exile, yet bestowing a dream of clarity in return.\\n\\n<i>\"The worth of a vessel lies in what it once held, and who once held it, just as blades earn legend by battle, and heroes are remembered through sacrifice.\"</i>",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/140590.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -9042,7 +9070,7 @@
     "backgroundDescription": "Phagousa was said to have buried twelve bottles of fine vintage beneath the seabed, hoping to savor them a thousand years later. But even as the black tide silenced the song of Chalice of Plenty, not a single drop had been uncorked.\\n\\nThis bottle, sweetest of the twelve vintages, was brought ashore by the last surviving sea siren. The divine power it holds can pierce through any fog.",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/140591.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -9055,7 +9083,7 @@
     "backgroundDescription": "The Worldbearing Titan, Kephale's fallen soul. Yet seemingly some foreign force has tampered with them, making their divinity different from the one in the past Cycle. The Coreflame awaits its rightful return, through which the final Deliverer shall forge a new Era Nova.",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/140592.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -9068,7 +9096,7 @@
     "backgroundDescription": "An identification badge of the Flame-Chase Army, bearing the Imperator's highest command. The wearer has unrestricted access throughout the city.",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/140589.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -9081,7 +9109,7 @@
     "backgroundDescription": "An unassuming ceramic cup, plain in craftsmanship. At that wanton feast, its cold rim passed her honey brew to your lips, branding you with the sin of exile, yet bestowing a dream of clarity in return.\\n\\n<i>\"The worth of a vessel lies in what it once held, and who once held it, just as blades earn legend by battle, and heroes are remembered through sacrifice.\"</i>",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/140590.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -9094,7 +9122,7 @@
     "backgroundDescription": "Phagousa was said to have buried twelve bottles of fine vintage beneath the seabed, hoping to savor them a thousand years later. But even as the black tide silenced the song of Chalice of Plenty, not a single drop had been uncorked.\\n\\nThis bottle, sweetest of the twelve vintages, was brought ashore by the last surviving sea siren. The divine power it holds can pierce through any fog.",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/140591.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -9107,7 +9135,7 @@
     "backgroundDescription": "A Curio. A Space Anchor in a world of Erudition. It can protect individual data structures from the influences of digital tsunamis.\\nWhen necessary, it can also serve as a bridge for communications between the internal and external world.",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/140577.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -9120,7 +9148,7 @@
     "backgroundDescription": "<i>A photo taken at an unknown time, but the reality of its touch is undeniable. In the past, this scene truly came to pass, leaving behind a proof of its transpiration. Though few are aware, a young girl will smile when she recalls a beautiful dream she once had.</i>\\n\\nThe dreamer is also the dream-maker. The dream-maker is also the dreamer.\\nOnly by offering up one's past can the most beautiful dreams be woven.\\nPeople will not lose themselves within them, unwilling to awaken. In their beautiful dreams, they will regain the courage to face the future.\\nAnd then, walk toward tomorrow.",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/140597.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -9133,7 +9161,7 @@
     "backgroundDescription": "<i>You decide how memories are ultimately presented. When that beautiful dream ended, you immortalized Firefly in the way she longed for.</i>\\n\\nThe dreamer is also the dream-maker. The dream-maker is also the dreamer.\\nOnly by offering up one's past can the most beautiful dreams be woven.\\nPeople will not lose themselves within them, unwilling to awaken. In their beautiful dreams, they will regain the courage to face the future.\\nAnd then, walk toward tomorrow.",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/140598.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -9146,7 +9174,7 @@
     "backgroundDescription": "From the \"Champion of Strife\": Mydei's bestowal, symbolizing both his glory and restraint as a ruler and protector.",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/140599.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -9159,7 +9187,7 @@
     "backgroundDescription": "From the \"Trickery's Traveler\": Cipher's bestowal, symbolizing her playful yet sincere blessings and desires.",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/140600.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -9172,7 +9200,7 @@
     "backgroundDescription": "From the \"Servant of the Afterlife\": Castorice's bestowal, symbolizing the tenacity and peace she watches over on the other side.",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/140601.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -9185,7 +9213,7 @@
     "backgroundDescription": "From the \"Holy Child of Passage\": Tribios's bestowal, symbolizing her unwavering faith and empathy throughout her journey in a thousand bodies.",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/140602.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -9198,7 +9226,7 @@
     "backgroundDescription": "From the \"Weaver of Romance\": Aglaea's bestowal, symbolizing her unchanging selflessness and temperance beneath her aloof perfection.",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/140603.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -9211,7 +9239,7 @@
     "backgroundDescription": "From the \"Healer of the Sky\": Hyacine's bestowal, symbolizing her gentle devotion and indiscriminate love for all of humanity.",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/140604.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -9224,7 +9252,7 @@
     "backgroundDescription": "From the \"Scholar of Reason\": Anaxa's bestowal, symbolizing the enlightenment and critique he calmly left for future generations.",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/140605.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -9237,7 +9265,7 @@
     "backgroundDescription": "To save the world, one must shoulder the burden of heavy wishes. Only by leaving it behind, can you absolve the obsession.",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/140606.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -9250,7 +9278,7 @@
     "backgroundDescription": "To save the world, one must be accompanied by searing despair. Only by shattering it, can you absolve the obsession.",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/140607.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -9263,7 +9291,7 @@
     "backgroundDescription": "It was the New Year of the old calendar. That year, times were tough. The foxes couldn't afford to throw their feasts, the frogs didn't dare to sing, the monkeys stopped discussing flight, and the white rabbits hadn't passed through in ages.\\n\\nBut then it arrived.\\n\\nA black rabbit.\\n\\nUnlike those rabbits who couldn't care less about the moon, this one led its companions and gave the little animals here a hand.\\n\\n...Ah, I should say, gave them a paw.",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/140608.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -9276,7 +9304,7 @@
     "backgroundDescription": "The black rabbit brought along many friends: some look human, while others look quite strange.\\n\\nThey aren't quite as level-headed as the black rabbit. Heated arguments are just part of their daily routine.\\n\\nBut when a foe appears, they immediately cast aside their differences and fight with total trust, following even the most questionable orders.\\n\\nAs they say, good people must stick together. Friends won't always see eye to eye, but they'll always help each other live a better life.",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/140609.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -9289,7 +9317,7 @@
     "backgroundDescription": "The foxes' prophecy came to pass. The flames of destruction ignited in the borderlands, sweeping all the way to the center of the world.\\n\\nMany of the black rabbit's friends were sacrificed on the battlefield.\\n\\nThe frogs and monkeys were overcome with guilt, and no one was willing to sing at night anymore.\\n\\n...But the black rabbit reached out its hand once again.\\n\\nIt said: \"Stand up. You are worthy of singing your hearts out.\"",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/140610.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -9302,7 +9330,7 @@
     "backgroundDescription": "The <i>Phantasmoon New Game</i> trophy will be awarded to every hero who offered their Wishpower to protect the Blue Planet!\\n\\n<i>\"A joyful ending like this is exactly what readers who celebrate life deserve!\"</i>",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/140611.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -9315,7 +9343,227 @@
     "backgroundDescription": "Ashveil's Detective Notes",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/190016.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
+    }
+  },
+  {
+    "id": "140613",
+    "contentStatus": "live",
+    "name": "<i>Setting Sail Among the Stars</i> Picture Book",
+    "rarity": "VeryRare",
+    "type": "Mission",
+    "subType": "Mission",
+    "backgroundDescription": "When we were kids, we all had countless \"dreams.\"\\n\\nThey didn't need to promise a hefty paycheck, nor were they bound by the cramped realities of life. They could be completely unreasonable, or entirely nonsensical... They were bold and fiery. They were the future we dared to proclaim to the world, hands planted firmly on our hips.\\n\\nAs time passed, we all more or less parted ways with those first \"dreams.\" We realized we lacked the talent, discovered that the reality of those dreams wasn't all that great, or learned that the weight of everyday life keeps us from reaching the stars.\\n\\nWe might complain, we might harbor regrets, and we might grieve. But no one ever regrets having had a \"dream\" during those tender, beautiful days of childhood — a dream that forever encouraged them to set sail.\\n\\nThis is the true meaning of a dream. And this is exactly why we must always safeguard a child's right to dream.\\n\\n<i>\"Open this picture book. Take a look at the future these children are so eager to leap into. May you find your younger self within these pages.\"</i>",
+    "purposeType": 16,
+    "assets": {
+      "icon": "GameData/hsr/assets/items/140028.webp"
+    }
+  },
+  {
+    "id": "140614",
+    "contentStatus": "live",
+    "name": "<i>Setting Sail Among the Stars</i> Picture Book",
+    "rarity": "VeryRare",
+    "type": "Mission",
+    "subType": "Mission",
+    "backgroundDescription": "When we were kids, we all had countless \"dreams.\"\\n\\nThey didn't need to promise a hefty paycheck, nor were they bound by the cramped realities of life. They could be completely unreasonable, or entirely nonsensical... They were bold and fiery. They were the future we dared to proclaim to the world, hands planted firmly on our hips.\\n\\nAs time passed, we all more or less parted ways with those first \"dreams.\" We realized we lacked the talent, discovered that the reality of those dreams wasn't all that great, or learned that the weight of everyday life keeps us from reaching the stars.\\n\\nWe might complain, we might harbor regrets, and we might grieve. But no one ever regrets having had a \"dream\" during those tender, beautiful days of childhood — a dream that forever encouraged them to set sail.\\n\\nThis is the true meaning of a dream. And this is exactly why we must always safeguard a child's right to dream.\\n\\n<i>\"Open this picture book. Take a look at the future these children are so eager to leap into. May you find your younger self within these pages.\"</i>",
+    "purposeType": 16,
+    "assets": {
+      "icon": "GameData/hsr/assets/items/140028.webp"
+    }
+  },
+  {
+    "id": "140615",
+    "contentStatus": "live",
+    "name": "140615",
+    "rarity": "Rare",
+    "type": "Mission",
+    "subType": "Mission",
+    "purposeType": 16,
+    "assets": {
+      "icon": "GameData/hsr/assets/items/140028.webp"
+    }
+  },
+  {
+    "id": "140616",
+    "contentStatus": "live",
+    "name": "<i>Setting Sail Among the Stars</i> Picture Book",
+    "rarity": "VeryRare",
+    "type": "Mission",
+    "subType": "Mission",
+    "backgroundDescription": "When we were kids, we all had countless \"dreams.\"\\n\\nThey didn't need to promise a hefty paycheck, nor were they bound by the cramped realities of life. They could be completely unreasonable, or entirely nonsensical... They were bold and fiery. They were the future we dared to proclaim to the world, hands planted firmly on our hips.\\n\\nAs time passed, we all more or less parted ways with those first \"dreams.\" We realized we lacked the talent, discovered that the reality of those dreams wasn't all that great, or learned that the weight of everyday life keeps us from reaching the stars.\\n\\nWe might complain, we might harbor regrets, and we might grieve. But no one ever regrets having had a \"dream\" during those tender, beautiful days of childhood — a dream that forever encouraged them to set sail.\\n\\nThis is the true meaning of a dream. And this is exactly why we must always safeguard a child's right to dream.\\n\\n<i>\"Open this picture book. Take a look at the future these children are so eager to leap into. May you find your younger self within these pages.\"</i>",
+    "purposeType": 16,
+    "assets": {
+      "icon": "GameData/hsr/assets/items/140028.webp"
+    }
+  },
+  {
+    "id": "140617",
+    "contentStatus": "live",
+    "name": "<i>Setting Sail Among the Stars</i> Picture Book",
+    "rarity": "VeryRare",
+    "type": "Mission",
+    "subType": "Mission",
+    "backgroundDescription": "When we were kids, we all had countless \"dreams.\"\\n\\nThey didn't need to promise a hefty paycheck, nor were they bound by the cramped realities of life. They could be completely unreasonable, or entirely nonsensical... They were bold and fiery. They were the future we dared to proclaim to the world, hands planted firmly on our hips.\\n\\nAs time passed, we all more or less parted ways with those first \"dreams.\" We realized we lacked the talent, discovered that the reality of those dreams wasn't all that great, or learned that the weight of everyday life keeps us from reaching the stars.\\n\\nWe might complain, we might harbor regrets, and we might grieve. But no one ever regrets having had a \"dream\" during those tender, beautiful days of childhood — a dream that forever encouraged them to set sail.\\n\\nThis is the true meaning of a dream. And this is exactly why we must always safeguard a child's right to dream.\\n\\n<i>\"Open this picture book. Take a look at the future these children are so eager to leap into. May you find your younger self within these pages.\"</i>",
+    "purposeType": 16,
+    "assets": {
+      "icon": "GameData/hsr/assets/items/140028.webp"
+    }
+  },
+  {
+    "id": "140618",
+    "contentStatus": "live",
+    "name": "<i>Setting Sail Among the Stars</i> Picture Book",
+    "rarity": "VeryRare",
+    "type": "Mission",
+    "subType": "Mission",
+    "backgroundDescription": "When we were kids, we all had countless \"dreams.\"\\n\\nThey didn't need to promise a hefty paycheck, nor were they bound by the cramped realities of life. They could be completely unreasonable, or entirely nonsensical... They were bold and fiery. They were the future we dared to proclaim to the world, hands planted firmly on our hips.\\n\\nAs time passed, we all more or less parted ways with those first \"dreams.\" We realized we lacked the talent, discovered that the reality of those dreams wasn't all that great, or learned that the weight of everyday life keeps us from reaching the stars.\\n\\nWe might complain, we might harbor regrets, and we might grieve. But no one ever regrets having had a \"dream\" during those tender, beautiful days of childhood — a dream that forever encouraged them to set sail.\\n\\nThis is the true meaning of a dream. And this is exactly why we must always safeguard a child's right to dream.\\n\\n<i>\"Open this picture book. Take a look at the future these children are so eager to leap into. May you find your younger self within these pages.\"</i>",
+    "purposeType": 16,
+    "assets": {
+      "icon": "GameData/hsr/assets/items/140028.webp"
+    }
+  },
+  {
+    "id": "140619",
+    "contentStatus": "live",
+    "name": "<i>Setting Sail Among the Stars</i> Picture Book",
+    "rarity": "VeryRare",
+    "type": "Mission",
+    "subType": "Mission",
+    "backgroundDescription": "When we were kids, we all had countless \"dreams.\"\\n\\nThey didn't need to promise a hefty paycheck, nor were they bound by the cramped realities of life. They could be completely unreasonable, or entirely nonsensical... They were bold and fiery. They were the future we dared to proclaim to the world, hands planted firmly on our hips.\\n\\nAs time passed, we all more or less parted ways with those first \"dreams.\" We realized we lacked the talent, discovered that the reality of those dreams wasn't all that great, or learned that the weight of everyday life keeps us from reaching the stars.\\n\\nWe might complain, we might harbor regrets, and we might grieve. But no one ever regrets having had a \"dream\" during those tender, beautiful days of childhood — a dream that forever encouraged them to set sail.\\n\\nThis is the true meaning of a dream. And this is exactly why we must always safeguard a child's right to dream.\\n\\n<i>\"Open this picture book. Take a look at the future these children are so eager to leap into. May you find your younger self within these pages.\"</i>",
+    "purposeType": 16,
+    "assets": {
+      "icon": "GameData/hsr/assets/items/140028.webp"
+    }
+  },
+  {
+    "id": "140620",
+    "contentStatus": "live",
+    "name": "<i>Setting Sail Among the Stars</i> Picture Book",
+    "rarity": "VeryRare",
+    "type": "Mission",
+    "subType": "Mission",
+    "backgroundDescription": "When we were kids, we all had countless \"dreams.\"\\n\\nThey didn't need to promise a hefty paycheck, nor were they bound by the cramped realities of life. They could be completely unreasonable, or entirely nonsensical... They were bold and fiery. They were the future we dared to proclaim to the world, hands planted firmly on our hips.\\n\\nAs time passed, we all more or less parted ways with those first \"dreams.\" We realized we lacked the talent, discovered that the reality of those dreams wasn't all that great, or learned that the weight of everyday life keeps us from reaching the stars.\\n\\nWe might complain, we might harbor regrets, and we might grieve. But no one ever regrets having had a \"dream\" during those tender, beautiful days of childhood — a dream that forever encouraged them to set sail.\\n\\nThis is the true meaning of a dream. And this is exactly why we must always safeguard a child's right to dream.\\n\\n<i>\"Open this picture book. Take a look at the future these children are so eager to leap into. May you find your younger self within these pages.\"</i>",
+    "purposeType": 16,
+    "assets": {
+      "icon": "GameData/hsr/assets/items/140028.webp"
+    }
+  },
+  {
+    "id": "140621",
+    "contentStatus": "live",
+    "name": "<i>Setting Sail Among the Stars</i> Picture Book",
+    "rarity": "VeryRare",
+    "type": "Mission",
+    "subType": "Mission",
+    "backgroundDescription": "When we were kids, we all had countless \"dreams.\"\\n\\nThey didn't need to promise a hefty paycheck, nor were they bound by the cramped realities of life. They could be completely unreasonable, or entirely nonsensical... They were bold and fiery. They were the future we dared to proclaim to the world, hands planted firmly on our hips.\\n\\nAs time passed, we all more or less parted ways with those first \"dreams.\" We realized we lacked the talent, discovered that the reality of those dreams wasn't all that great, or learned that the weight of everyday life keeps us from reaching the stars.\\n\\nWe might complain, we might harbor regrets, and we might grieve. But no one ever regrets having had a \"dream\" during those tender, beautiful days of childhood — a dream that forever encouraged them to set sail.\\n\\nThis is the true meaning of a dream. And this is exactly why we must always safeguard a child's right to dream.\\n\\n<i>\"Open this picture book. Take a look at the future these children are so eager to leap into. May you find your younger self within these pages.\"</i>",
+    "purposeType": 16,
+    "assets": {
+      "icon": "GameData/hsr/assets/items/140028.webp"
+    }
+  },
+  {
+    "id": "140622",
+    "contentStatus": "live",
+    "name": "<i>Setting Sail Among the Stars</i> Picture Book",
+    "rarity": "VeryRare",
+    "type": "Mission",
+    "subType": "Mission",
+    "backgroundDescription": "When we were kids, we all had countless \"dreams.\"\\n\\nThey didn't need to promise a hefty paycheck, nor were they bound by the cramped realities of life. They could be completely unreasonable, or entirely nonsensical... They were bold and fiery. They were the future we dared to proclaim to the world, hands planted firmly on our hips.\\n\\nAs time passed, we all more or less parted ways with those first \"dreams.\" We realized we lacked the talent, discovered that the reality of those dreams wasn't all that great, or learned that the weight of everyday life keeps us from reaching the stars.\\n\\nWe might complain, we might harbor regrets, and we might grieve. But no one ever regrets having had a \"dream\" during those tender, beautiful days of childhood — a dream that forever encouraged them to set sail.\\n\\nThis is the true meaning of a dream. And this is exactly why we must always safeguard a child's right to dream.\\n\\n<i>\"Open this picture book. Take a look at the future these children are so eager to leap into. May you find your younger self within these pages.\"</i>",
+    "purposeType": 16,
+    "assets": {
+      "icon": "GameData/hsr/assets/items/140028.webp"
+    }
+  },
+  {
+    "id": "140623",
+    "contentStatus": "live",
+    "name": "<i>Setting Sail Among the Stars</i> Picture Book",
+    "rarity": "VeryRare",
+    "type": "Mission",
+    "subType": "Mission",
+    "backgroundDescription": "When we were kids, we all had countless \"dreams.\"\\n\\nThey didn't need to promise a hefty paycheck, nor were they bound by the cramped realities of life. They could be completely unreasonable, or entirely nonsensical... They were bold and fiery. They were the future we dared to proclaim to the world, hands planted firmly on our hips.\\n\\nAs time passed, we all more or less parted ways with those first \"dreams.\" We realized we lacked the talent, discovered that the reality of those dreams wasn't all that great, or learned that the weight of everyday life keeps us from reaching the stars.\\n\\nWe might complain, we might harbor regrets, and we might grieve. But no one ever regrets having had a \"dream\" during those tender, beautiful days of childhood — a dream that forever encouraged them to set sail.\\n\\nThis is the true meaning of a dream. And this is exactly why we must always safeguard a child's right to dream.\\n\\n<i>\"Open this picture book. Take a look at the future these children are so eager to leap into. May you find your younger self within these pages.\"</i>",
+    "purposeType": 16,
+    "assets": {
+      "icon": "GameData/hsr/assets/items/140028.webp"
+    }
+  },
+  {
+    "id": "140624",
+    "contentStatus": "live",
+    "name": "<i>Setting Sail Among the Stars</i> Picture Book",
+    "rarity": "VeryRare",
+    "type": "Mission",
+    "subType": "Mission",
+    "backgroundDescription": "When we were kids, we all had countless \"dreams.\"\\n\\nThey didn't need to promise a hefty paycheck, nor were they bound by the cramped realities of life. They could be completely unreasonable, or entirely nonsensical... They were bold and fiery. They were the future we dared to proclaim to the world, hands planted firmly on our hips.\\n\\nAs time passed, we all more or less parted ways with those first \"dreams.\" We realized we lacked the talent, discovered that the reality of those dreams wasn't all that great, or learned that the weight of everyday life keeps us from reaching the stars.\\n\\nWe might complain, we might harbor regrets, and we might grieve. But no one ever regrets having had a \"dream\" during those tender, beautiful days of childhood — a dream that forever encouraged them to set sail.\\n\\nThis is the true meaning of a dream. And this is exactly why we must always safeguard a child's right to dream.\\n\\n<i>\"Open this picture book. Take a look at the future these children are so eager to leap into. May you find your younger self within these pages.\"</i>",
+    "purposeType": 16,
+    "assets": {
+      "icon": "GameData/hsr/assets/items/140028.webp"
+    }
+  },
+  {
+    "id": "140625",
+    "contentStatus": "live",
+    "name": "<i>Setting Sail Among the Stars</i> Picture Book",
+    "rarity": "VeryRare",
+    "type": "Mission",
+    "subType": "Mission",
+    "backgroundDescription": "When we were kids, we all had countless \"dreams.\"\\n\\nThey didn't need to promise a hefty paycheck, nor were they bound by the cramped realities of life. They could be completely unreasonable, or entirely nonsensical... They were bold and fiery. They were the future we dared to proclaim to the world, hands planted firmly on our hips.\\n\\nAs time passed, we all more or less parted ways with those first \"dreams.\" We realized we lacked the talent, discovered that the reality of those dreams wasn't all that great, or learned that the weight of everyday life keeps us from reaching the stars.\\n\\nWe might complain, we might harbor regrets, and we might grieve. But no one ever regrets having had a \"dream\" during those tender, beautiful days of childhood — a dream that forever encouraged them to set sail.\\n\\nThis is the true meaning of a dream. And this is exactly why we must always safeguard a child's right to dream.\\n\\n<i>\"Open this picture book. Take a look at the future these children are so eager to leap into. May you find your younger self within these pages.\"</i>",
+    "purposeType": 16,
+    "assets": {
+      "icon": "GameData/hsr/assets/items/140028.webp"
+    }
+  },
+  {
+    "id": "140626",
+    "contentStatus": "live",
+    "name": "<i>Setting Sail Among the Stars</i> Picture Book",
+    "rarity": "VeryRare",
+    "type": "Mission",
+    "subType": "Mission",
+    "backgroundDescription": "When we were kids, we all had countless \"dreams.\"\\n\\nThey didn't need to promise a hefty paycheck, nor were they bound by the cramped realities of life. They could be completely unreasonable, or entirely nonsensical... They were bold and fiery. They were the future we dared to proclaim to the world, hands planted firmly on our hips.\\n\\nAs time passed, we all more or less parted ways with those first \"dreams.\" We realized we lacked the talent, discovered that the reality of those dreams wasn't all that great, or learned that the weight of everyday life keeps us from reaching the stars.\\n\\nWe might complain, we might harbor regrets, and we might grieve. But no one ever regrets having had a \"dream\" during those tender, beautiful days of childhood — a dream that forever encouraged them to set sail.\\n\\nThis is the true meaning of a dream. And this is exactly why we must always safeguard a child's right to dream.\\n\\n<i>\"Open this picture book. Take a look at the future these children are so eager to leap into. May you find your younger self within these pages.\"</i>",
+    "purposeType": 16,
+    "assets": {
+      "icon": "GameData/hsr/assets/items/140028.webp"
+    }
+  },
+  {
+    "id": "140627",
+    "contentStatus": "live",
+    "name": "<i>Setting Sail Among the Stars</i> Picture Book",
+    "rarity": "VeryRare",
+    "type": "Mission",
+    "subType": "Mission",
+    "backgroundDescription": "When we were kids, we all had countless \"dreams.\"\\n\\nThey didn't need to promise a hefty paycheck, nor were they bound by the cramped realities of life. They could be completely unreasonable, or entirely nonsensical... They were bold and fiery. They were the future we dared to proclaim to the world, hands planted firmly on our hips.\\n\\nAs time passed, we all more or less parted ways with those first \"dreams.\" We realized we lacked the talent, discovered that the reality of those dreams wasn't all that great, or learned that the weight of everyday life keeps us from reaching the stars.\\n\\nWe might complain, we might harbor regrets, and we might grieve. But no one ever regrets having had a \"dream\" during those tender, beautiful days of childhood — a dream that forever encouraged them to set sail.\\n\\nThis is the true meaning of a dream. And this is exactly why we must always safeguard a child's right to dream.\\n\\n<i>\"Open this picture book. Take a look at the future these children are so eager to leap into. May you find your younger self within these pages.\"</i>",
+    "purposeType": 16,
+    "assets": {
+      "icon": "GameData/hsr/assets/items/140028.webp"
+    }
+  },
+  {
+    "id": "140628",
+    "contentStatus": "live",
+    "name": "<i>Setting Sail Among the Stars</i> Picture Book",
+    "rarity": "VeryRare",
+    "type": "Mission",
+    "subType": "Mission",
+    "backgroundDescription": "When we were kids, we all had countless \"dreams.\"\\n\\nThey didn't need to promise a hefty paycheck, nor were they bound by the cramped realities of life. They could be completely unreasonable, or entirely nonsensical... They were bold and fiery. They were the future we dared to proclaim to the world, hands planted firmly on our hips.\\n\\nAs time passed, we all more or less parted ways with those first \"dreams.\" We realized we lacked the talent, discovered that the reality of those dreams wasn't all that great, or learned that the weight of everyday life keeps us from reaching the stars.\\n\\nWe might complain, we might harbor regrets, and we might grieve. But no one ever regrets having had a \"dream\" during those tender, beautiful days of childhood — a dream that forever encouraged them to set sail.\\n\\nThis is the true meaning of a dream. And this is exactly why we must always safeguard a child's right to dream.\\n\\n<i>\"Open this picture book. Take a look at the future these children are so eager to leap into. May you find your younger self within these pages.\"</i>",
+    "purposeType": 16,
+    "assets": {
+      "icon": "GameData/hsr/assets/items/140028.webp"
+    }
+  },
+  {
+    "id": "140629",
+    "contentStatus": "live",
+    "name": "<i>Setting Sail Among the Stars</i> Picture Book",
+    "rarity": "VeryRare",
+    "type": "Mission",
+    "subType": "Mission",
+    "backgroundDescription": "When we were kids, we all had countless \"dreams.\"\\n\\nThey didn't need to promise a hefty paycheck, nor were they bound by the cramped realities of life. They could be completely unreasonable, or entirely nonsensical... They were bold and fiery. They were the future we dared to proclaim to the world, hands planted firmly on our hips.\\n\\nAs time passed, we all more or less parted ways with those first \"dreams.\" We realized we lacked the talent, discovered that the reality of those dreams wasn't all that great, or learned that the weight of everyday life keeps us from reaching the stars.\\n\\nWe might complain, we might harbor regrets, and we might grieve. But no one ever regrets having had a \"dream\" during those tender, beautiful days of childhood — a dream that forever encouraged them to set sail.\\n\\nThis is the true meaning of a dream. And this is exactly why we must always safeguard a child's right to dream.\\n\\n<i>\"Open this picture book. Take a look at the future these children are so eager to leap into. May you find your younger self within these pages.\"</i>",
+    "purposeType": 16,
+    "assets": {
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -10543,7 +10791,7 @@
     "backgroundDescription": "A tablet inscribed with hymns and other writings, prophesying towards the end. It is said that within these fragments lies a secret so profound that it longs to be uncovered.\\n\\n<i>\"Prophecies never carry their message in plain words.\" — Anonymous Priest</i>",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/150069.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -10556,7 +10804,7 @@
     "backgroundDescription": "A tablet inscribed with hymns and other writings, prophesying towards the end. It is said that within these fragments lies a secret so profound that it longs to be uncovered.\\n\\n<i>\"Prophecies never carry their message in plain words.\" — Anonymous Priest</i>",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/150070.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -10569,7 +10817,7 @@
     "backgroundDescription": "A tablet inscribed with hymns and other writings, prophesying towards the end. It is said that within these fragments lies a secret so profound that it longs to be uncovered.\\n\\n<i>\"Prophecies never carry their message in plain words.\" — Anonymous Priest</i>",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/150071.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -10582,7 +10830,7 @@
     "backgroundDescription": "A tablet inscribed with hymns and other writings, prophesying towards the end. It is said that within these fragments lies a secret so profound that it longs to be uncovered.\\n\\n<i>\"Prophecies never carry their message in plain words.\" — Anonymous Priest</i>",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/150072.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -10595,7 +10843,7 @@
     "backgroundDescription": "A tome containing prophecies. Upon closer inspection, one will discover that the scroll is woven from golden threads.\\n<i>\"There is a prophecy within that will only be revealed to the one who opens the scroll.\"</i>",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/190017.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -10608,7 +10856,7 @@
     "backgroundDescription": "A tablet inscribed with hymns and other writings, prophesying towards the end. It is said that within these fragments lies a secret so profound that it longs to be uncovered.\\n\\n<i>\"Prophecies never carry their message in plain words.\" — Anonymous Priest</i>",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/150074.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -10621,7 +10869,7 @@
     "backgroundDescription": "A tablet inscribed with hymns and other writings, prophesying towards the end. It is said that within these fragments lies a secret so profound that it longs to be uncovered.\\n\\n<i>\"Prophecies never carry their message in plain words.\" — Anonymous Priest</i>",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/150075.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -10634,7 +10882,7 @@
     "backgroundDescription": "A tablet inscribed with hymns and other writings, prophesying towards the end. It is said that within these fragments lies a secret so profound that it longs to be uncovered.\\n\\n<i>\"Prophecies never carry their message in plain words.\" — Anonymous Priest</i>",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/150076.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -10647,7 +10895,7 @@
     "backgroundDescription": "A tablet inscribed with hymns and other writings, prophesying towards the end. It is said that within these fragments lies a secret so profound that it longs to be uncovered.\\n\\n<i>\"Prophecies never carry their message in plain words.\" — Anonymous Priest</i>",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/150077.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -10660,7 +10908,7 @@
     "backgroundDescription": "A tome containing prophecies. Upon closer inspection, one will discover that the scroll is woven from golden threads.\\n<i>\"There is a prophecy within that will only be revealed to the one who opens the scroll.\"</i>",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/190017.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -10673,7 +10921,7 @@
     "backgroundDescription": "A tome containing prophecies. Upon closer inspection, one will discover that the scroll is woven from golden threads.\\n<i>\"There is a prophecy within that will only be revealed to the one who opens the scroll.\"</i>",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/190017.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -10686,7 +10934,7 @@
     "backgroundDescription": "Feed this memory into the Recording Conch and listen closely — the voice may speak of nature's secrets or confide hidden thoughts.\\nThis is a memory about the \"Hearth.\"\\n<i>\"Steaming tea, knitted scarves, and a tale without end.\"</i>",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/150080.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -10699,7 +10947,7 @@
     "backgroundDescription": "Feed this memory into the Recording Conch and listen closely — the voice may speak of nature's secrets or confide hidden thoughts.\\nThis is a memory of \"Snow.\"\\n<i>\"You used up all the paint? What did you draw?\"\\n\"I think... just pure white.\"</i>",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/150080.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -10712,7 +10960,7 @@
     "backgroundDescription": "Feed this memory into the Recording Conch and listen closely — the voice may speak of nature's secrets or confide hidden thoughts.\\nThis is a memory of \"A Rainy Night.\"\\n<i>\"I stretched out my palm and pressed it against the glass.\"\\n\"It brought a coolness to my skin... and something that kept stirring inside me.\"</i>",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/150080.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -10725,7 +10973,7 @@
     "backgroundDescription": "Feed this memory into the Recording Conch and listen closely — the voice may speak of nature's secrets or confide hidden thoughts.\\nThis is a memory of \"Thunder.\"\\n<i>\"I like thunderstorms.\"\\n\"Huh? Weren't you scared of thunder? You always came running to my place...\"\\n\"Yeah. That's why I like them.\"</i>",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/150080.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -10738,7 +10986,7 @@
     "backgroundDescription": "A tome containing prophecies. Upon closer inspection, one will discover that the scroll is woven from golden threads.\\n<i>\"There is a prophecy within that will only be revealed to the one who opens the scroll.\"</i>",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/190017.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -10751,7 +10999,7 @@
     "backgroundDescription": "A tome containing prophecies. Upon closer inspection, one will discover that the scroll is woven from golden threads.\\n<i>\"There is a prophecy within that will only be revealed to the one who opens the scroll.\"</i>",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/190017.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -10764,7 +11012,7 @@
     "backgroundDescription": "<b>Obtained by solving the nymph prophecy puzzle for each Garmentmaker. Redeemable at An Eternal Page for unique keepsakes.</b>\\nIt is the treasure at the end of the adventure, and the benchmark of a legend's prologue, born from the brand-new structure born after the Era Nova.\\nInfluenced by Amphorean sagas of heroes, it presents itself in the current space-time as a golden apple.\\n\\n<i>\"To give civilizations to time, to give years their life.\"</i>",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/150088.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -10777,7 +11025,7 @@
     "backgroundDescription": "A scroll with prophecies inscribed. Upon closer inspection, one will discover that the scroll is woven from golden threads.\\n<i>\"There is a prophecy within that will only be revealed to the one who opens the scroll.\"</i>",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/190017.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -10829,7 +11077,7 @@
     "backgroundDescription": "A scroll with prophecies inscribed. Upon closer inspection, one will discover that the scroll is woven from golden threads.\\n<i>\"There is a prophecy within that will only be revealed to the one who opens the scroll.\"</i>",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/190017.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -10842,7 +11090,7 @@
     "backgroundDescription": "A scroll with prophecies inscribed. Upon closer inspection, one will discover that the scroll is woven from golden threads.\\n<i>\"There is a prophecy within that will only be revealed to the one who opens the scroll.\"</i>",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/190017.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -10909,7 +11157,7 @@
     "backgroundDescription": "Page after page of dense legalese that'll put anyone to sleep just looking at it. Whatever, the money's already in hand, so nothing too crazy should pop up down the line... right? ...Right?",
     "purposeType": 16,
     "assets": {
-      "icon": "GameData/hsr/assets/items/190002.webp"
+      "icon": "GameData/hsr/assets/items/140028.webp"
     }
   },
   {
@@ -16795,6 +17043,20 @@
     }
   },
   {
+    "id": "300058",
+    "contentStatus": "live",
+    "name": "Letter Sent Across the Stars",
+    "rarity": "VeryRare",
+    "type": "Usable",
+    "subType": "Gift",
+    "description": "A letter dispatched from a distant place, carrying within it a thin, warmly printed picture book of dreams.\\n\\nThe road was long and winding, yet someone carefully preserved the crayon drawings, tying up the strings and smoothing the creased corners... until they finally reach your hands, where the dreams sealed within the letter remain as fresh as ever.",
+    "backgroundDescription": "<i>\"Only the hopes and aspirations of children must never be failed.\"\\n\\n\"Now, it falls to you to guard their dreams. The Interstellar, set sail!\"</i>",
+    "purposeType": 14,
+    "assets": {
+      "icon": "GameData/hsr/assets/items/300058.webp"
+    }
+  },
+  {
     "id": "300101",
     "contentStatus": "live",
     "name": "Express Supply Pass",
@@ -17908,20 +18170,6 @@
     "purposeType": 10,
     "assets": {
       "icon": "GameData/hsr/assets/items/402036.webp"
-    }
-  },
-  {
-    "id": "402037",
-    "contentStatus": "live",
-    "name": "Vibrant Zest-Core",
-    "rarity": "Rare",
-    "type": "Usable",
-    "subType": "Food",
-    "description": "Upon use, increases all allies' Elation by <unbreak>24%</unbreak> for the next battle.",
-    "backgroundDescription": "At first, no one paid any attention to this orange can... until it started jumping, singing, and showering all of Planarcadia with joyful dopamine. Watch out! If it catches you frowning, it'll send little orange fairies bursting into your mouth to do a cheerful tap dance on the tip of your tongue.\\n\\n<i>\"Note: No imagenae were harmed during this delivery event.\"</i>",
-    "purposeType": 10,
-    "assets": {
-      "icon": "GameData/hsr/assets/items/402037.webp"
     }
   },
   {
@@ -19139,20 +19387,6 @@
     "purposeType": 19,
     "assets": {
       "icon": "GameData/hsr/assets/items/404001.webp"
-    }
-  },
-  {
-    "id": "406037",
-    "contentStatus": "live",
-    "name": "Recipe: Vibrant Zest-Core",
-    "rarity": "Rare",
-    "type": "Usable",
-    "subType": "Formula",
-    "description": "A simple equation. When entered into the Synthesizer, it will unlock a new recipe.",
-    "backgroundDescription": "Sometimes, happiness is hard to find, so hard that even a fortune can't buy it.\\nBut sometimes, happiness is easy. All you need is a Happiness Coupon that represents vitality and dopamine.\\n\\n<i>\"You want it? You got it! Redeem it anytime! We'll always foot the bill for your happiness!\"</i>",
-    "purposeType": 19,
-    "assets": {
-      "icon": "GameData/hsr/assets/items/406037.webp"
     }
   },
   {
@@ -20840,7 +21074,7 @@
     "rarity": "Rare",
     "type": "Usable",
     "subType": "Food",
-    "description": "Upon use, immediately causes all allies to lose HP equal to 5% of their Max HP, and increases their DEF by <unbreak>40%</unbreak> for the next battle.",
+    "description": "Upon use, immediately causes all allies to lose HP equal to 5% of their Max HP, and increases their ATK by <unbreak>40%</unbreak> for the next battle.",
     "backgroundDescription": "A best-selling snack brand from Planarcadia. Every bite contains a memory of an \"ocean adventure.\"\\n\\n<i>\"This product is not a substitute for medical treatment, real life experiences, or swimming lessons.\"</i>",
     "purposeType": 10,
     "assets": {

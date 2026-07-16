@@ -102,18 +102,6 @@
         "is_battle_voice": false
       },
       {
-        "voice_id": 24,
-        "voice_title": "About Sunday",
-        "voice_m": "Whether he can achieve his dream or not, being able to let go of everything and start again is already admirable enough.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 27,
-        "voice_title": "About Mortenax Blade",
-        "voice_m": "\"Cloud-Piercer\" once shattered, yet it grew sharper after being reforged. A blade reflects the hand that forged it... that much is true.",
-        "is_battle_voice": false
-      },
-      {
         "voice_id": 15,
         "voice_title": "Eidolon Activation",
         "voice_m": "We mustn't cling to the past.",
@@ -165,24 +153,6 @@
         "voice_id": 23,
         "voice_title": "Added to Team With Blade",
         "voice_m": "You... Keep your distance.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 25,
-        "voice_title": "Added to Team With Sunday",
-        "voice_m": "I look forward to cooperating during our travels together.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 26,
-        "voice_title": "Added to Team With Evernight",
-        "voice_m": "I'll say this upfront: Please do NOT go against March's wishes.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 28,
-        "voice_title": "Added to Team With Mortenax Blade",
-        "voice_m": "Here we stand, each of us guarding something we believe in.",
         "is_battle_voice": false
       },
       {

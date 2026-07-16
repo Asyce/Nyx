@@ -138,30 +138,6 @@
         "is_battle_voice": false
       },
       {
-        "voice_id": 31,
-        "voice_title": "About Yunli",
-        "voice_m": "I heard that Miss Yunli was a great swordmaster, so I thought she'd be a good sparring partner, but... she's always eyeing my sword, so I better be careful.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 32,
-        "voice_title": "About Jiaoqiu",
-        "voice_m": "I always take Doctor Jiaoqiu's sensational stories with a grain of salt... Some people like to call him a weirdo, but the truth is he's experienced a lot of things that I couldn't even imagine...",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 35,
-        "voice_title": "About Lingsha",
-        "voice_m": "Even though I don't understand politics, I know that Cauldron Master Lingsha's job is quite difficult. The general also told me to do my best to assist her in re-organizing the Alchemy Commission.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 36,
-        "voice_title": "About Feixiao",
-        "voice_m": "I learned a very important lesson from General Feixiao: Before taking action, be like a rock and wait for the enemy to move first. While taking action, be like lightning and move faster than anyone else. After taking action, be like a fire and leave no hidden dangers untouched.",
-        "is_battle_voice": false
-      },
-      {
         "voice_id": 21,
         "voice_title": "Eidolon Activation",
         "voice_m": "It feels like the stars just got brighter...",
@@ -219,24 +195,6 @@
         "voice_id": 30,
         "voice_title": "Added to Team With Blade",
         "voice_m": "The general let you off the hook. Consider yourself lucky.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 33,
-        "voice_title": "Added to Team With Yunli",
-        "voice_m": "Yunli, if you ever wanna spar, I'm always ready.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 34,
-        "voice_title": "Added to Team With Jiaoqiu",
-        "voice_m": "Doctor Jiaoqiu, please be careful. If anything happens to you, I'll never be able to face General Feixiao.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 37,
-        "voice_title": "Added to Team With Feixiao",
-        "voice_m": "I am honored to fight alongside you, Merlin's Claw.",
         "is_battle_voice": false
       },
       {

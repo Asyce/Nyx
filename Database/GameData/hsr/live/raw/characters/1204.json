@@ -150,42 +150,6 @@
         "is_battle_voice": false
       },
       {
-        "voice_id": 32,
-        "voice_title": "About Yunli",
-        "voice_m": "I recall that she is the adopted granddaughter of General Huaiyan. She has excellent swordsmanship and is about the same age as Yanqing — it would be ideal if the two could get along well and learn from each other.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 33,
-        "voice_title": "About Jiaoqiu",
-        "voice_m": "The way I see it, he was always a healer. It's just that ordinary healers focus on one patient at a time, while he wanted to cure the ailments of all the people on the Xianzhou.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 35,
-        "voice_title": "About Lingsha",
-        "voice_m": "I do shoulder much of the blame for the current state of the Alchemy Commission. I am deeply grateful that she is willing to let go of past grudges and come back to the Luofu to save the Commission from collapse.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 36,
-        "voice_title": "About Feixiao",
-        "voice_m": "The Merlin's Claw and I couldn't be more different in terms of temperament and how we handle things, but our perspectives on many issues are quite similar... It's interesting if you think about it.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 39,
-        "voice_title": "About Yao Guang",
-        "voice_m": "Madam Yao appears to bear a youthful mind, yet in truth she is keenly perceptive. Her words of contest with me are proof enough that, she acknowledges my ability. And her frequent mention of past affairs serves only to show that, since then, no further conflict has arisen.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 41,
-        "voice_title": "About Mortenax Blade",
-        "voice_m": "He was once a master swordsmith, and by circumstance became deathless... only he could forge his own flesh into a blade... It could only be him.",
-        "is_battle_voice": false
-      },
-      {
         "voice_id": 23,
         "voice_title": "Eidolon Activation",
         "voice_m": "Those days were left behind with the passage of time.",
@@ -237,36 +201,6 @@
         "voice_id": 31,
         "voice_title": "Added to Team With Blade",
         "voice_m": "It isn't wise to put down the hammer and take up the sword.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 34,
-        "voice_title": "Added to Team With Jiaoqiu",
-        "voice_m": "I've heard of Mr. Jiaoqiu's exceptional skill in beguiling the eyes. And today I'm most fortunate to witness it in person.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 37,
-        "voice_title": "Added to Team With Lingsha",
-        "voice_m": "Cauldron Master, I entrust my life to you now.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 38,
-        "voice_title": "Added to Team With Feixiao",
-        "voice_m": "Planning before acting doesn't quite fit your personality, does it?",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 40,
-        "voice_title": "Added to Team With Yao Guang",
-        "voice_m": "With Madam Yao keeping watch, this general can doze to his heart's content.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 42,
-        "voice_title": "Added to Team With Mortenax Blade",
-        "voice_m": "At last, the weapon in your heart has taken form.",
         "is_battle_voice": false
       },
       {

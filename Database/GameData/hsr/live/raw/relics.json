@@ -1439,5 +1439,44 @@
     "ko": "천 개의 별이 모인 도시",
     "zh": "千星荟萃之城",
     "ja": "千の星が集う街"
+  },
+  "327": {
+    "icon": "SpriteOutput/ItemIcon/71058.png",
+    "en": "Fallen Star Anchorage",
+    "set": {
+      "2": {
+        "en": "Increases the wearer's CRIT Rate by <unbreak>#1[i]%</unbreak>. When entering combat, if the wearer and another teammate are both Trailblaze Companions characters, increases the wearer's CRIT DMG by <unbreak>#2[i]%</unbreak>.",
+        "ParamList": [
+          0.08,
+          0.32
+        ],
+        "ko": "장착한 캐릭터의 치명타 확률이 <unbreak>#1[i]%</unbreak> 증가한다. 전투 진입 시, 장착한 캐릭터와 다른 동료 1명이 모두 개척 동행 캐릭터일 경우, 장착한 캐릭터의 치명타 피해가 <unbreak>#2[i]%</unbreak> 증가한다",
+        "zh": "使装备者的暴击率提高<unbreak>#1[i]%</unbreak>。进入战斗时，若装备者与另一名队友均为开拓同行角色，使装备者的暴击伤害提高<unbreak>#2[i]%</unbreak>。",
+        "ja": "装備キャラの会心率+<unbreak>#1[i]%</unbreak>。戦闘に入る時、装備キャラおよび自身以外にもう1名の味方キャラが「開拓仲間」である場合、装備キャラの会心ダメージ+<unbreak>#2[i]%</unbreak>。"
+      }
+    },
+    "ko": "추락한 별의 출항지",
+    "zh": "坠星启航地",
+    "ja": "墜星の出航地"
+  },
+  "328": {
+    "icon": "SpriteOutput/ItemIcon/71059.png",
+    "en": "Cosmic Life Sciences Institute",
+    "set": {
+      "2": {
+        "en": "When entering combat, if the wearer's Max Energy is greater than or equal to <unbreak>#1[i]</unbreak>, for every 1 excess point, increases the wearer's DMG dealt by <unbreak>#2[f1]%</unbreak>, up to a max increase of <unbreak>#3[i]%</unbreak>.",
+        "ParamList": [
+          200,
+          0.002,
+          0.32
+        ],
+        "ko": "전투 진입 시 장착한 캐릭터의 에너지 최대치가 <unbreak>#1[i]</unbreak>pt 이상일 경우, 초과한 에너지 최대치 1pt당 장착한 캐릭터가 가하는 피해가 <unbreak>#2[f1]%</unbreak> 증가하며, 최대 <unbreak>#3[i]%</unbreak> 증가한다",
+        "zh": "进入战斗时，若装备者能量上限大于等于<unbreak>#1[i]</unbreak>点，每超过1点使装备者造成的伤害提高<unbreak>#2[f1]%</unbreak>，最多提高<unbreak>#3[i]%</unbreak>。",
+        "ja": "戦闘に入る時、装備キャラの最大EPが<unbreak>#1[i]</unbreak>以上の場合、超過分1につき、装備キャラの与ダメージ+<unbreak>#2[f1]%</unbreak>、最大で+<unbreak>#3[i]%</unbreak>。"
+      }
+    },
+    "ko": "우주 생명과학연구원",
+    "zh": "寰宇生研院",
+    "ja": "宇宙生命科学研究院"
   }
 }

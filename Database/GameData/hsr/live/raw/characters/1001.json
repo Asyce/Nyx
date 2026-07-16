@@ -78,12 +78,6 @@
         "is_battle_voice": false
       },
       {
-        "voice_id": 26,
-        "voice_title": "Sharing: Sword Training",
-        "voice_m": "I'm a huge fan of the Xianzhou's immersia — I've always felt like a hero at heart. When I really started learning the art of the sword, I realized that the heroes in the immersia are nothing compared to my two little masters who taught me every sword technique I know!",
-        "is_battle_voice": false
-      },
-      {
         "voice_id": 11,
         "voice_title": "Knowledge",
         "voice_m": "No matter how disgusting the dish, you gotta summon your trailblazing spirit and face it! Not gonna lie though, jellied eels and Himeko's coffee are pretty tough to stomach...",
@@ -120,111 +114,9 @@
         "is_battle_voice": false
       },
       {
-        "voice_id": 27,
-        "voice_title": "About Yanqing",
-        "voice_m": "Master Yanqing has very rigorous teaching style. He's always saying \"that's what the general taught me back in the day,\" ...Looks like everything General Jing Yuan taught him he knows by heart.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 28,
-        "voice_title": "About Yunli",
-        "voice_m": "Master Yunli has a very freestyle approach to teaching. The thing she always says to me is: \"You just feel it!\" Maybe that's what they call experiential guidance?",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 33,
-        "voice_title": "About Sunday",
-        "voice_m": "I wonder how the conductor would react if they heard about his \"seven rest days\" proposal.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 35,
-        "voice_title": "About Evernight",
-        "voice_m": "Sometimes I imagine myself being all cool, mysterious, elegant, and powerful, making enemies go flying with just a flick of the wrist... But I never thought that'd come true! Next time, I'm gonna use my own power to protect everyone!",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 36,
-        "voice_title": "About Dan Heng 3",
-        "voice_m": "We both made huge progress on this Amphoreus adventure, I'd say it's a draw! Hmm... wait. He made that progress way before I did, so... Okay okay, he wins... but just by a hair!",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 38,
-        "voice_title": "About Aglaea",
-        "voice_m": "My daily style improved so much after Lady Aglaea gave me some pointers. As expected from everyone's guide and mentor!",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 39,
-        "voice_title": "About Tribbie, Trianne, and Trinnon",
-        "voice_m": "Tribbie may be small, but they have lots of energy! I didn't want to disappoint them, so I practiced for a super long time and finally memorized Oronyx's prayer! You don't believe me? Hmph. I'll recite it for you then...",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 40,
-        "voice_title": "About Mydei",
-        "voice_m": "Mydeimos seems so... cool and aloof, but he's actually really friendly... How does that work? I don't really get it... Guess I just understand girls more than I understand guys, huh.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 41,
-        "voice_title": "About Castorice",
-        "voice_m": "Miss Castorice makes soft and fragrant plushies, writes exhilarating stories, and even smells super nice every time she walks by... I learn so much every time I hang out with her.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 42,
-        "voice_title": "About Anaxa",
-        "voice_m": "I was, um, actually born with a fear of teachers... but he's the exception! Whenever I don't get a concept, he uses dromases as an analogy, and then I instantly get it!",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 43,
-        "voice_title": "About Hyacine",
-        "voice_m": "I don't know how, but we became super good friends even though we haven't known each other for a long time. The last time I went to her courtyard, we talked about everything from Taikiyan to Amphoreus, and drank pots and pots of floral tea, and ate one honeycake after another. Little Ica even fell asleep... but we still didn't feel like that chat was long enough!",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 44,
-        "voice_title": "About Cipher",
-        "voice_m": "It's super fun to listen to Miss Cipher! She's told me at least eighty versions of the story of the Meow-Meow faith and the Woof-Woof faith. That's almost more than the number of backstories I've made up for myself!",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 45,
-        "voice_title": "About Hysilens",
-        "voice_m": "The sound of Lady Hysilens's violin is more intoxicating than honey brews... Could it be that the trick to becoming elegant and beautiful is to learn a musical instrument? Hmm. It's time for me to learn something as well and improve myself!",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 46,
-        "voice_title": "About Cerydra",
-        "voice_m": "My heart was in my throat when I played Aero-Chess with the Imperator! But not only did she allow me to take back my moves, she even seriously considered my suggestions... Hehe, I even managed to snag a win at the end!",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 47,
-        "voice_title": "About Phainon",
-        "voice_m": "He suffered through so much agony but still managed to stay true to his wish... I need to be able to do that, too!",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 48,
-        "voice_title": "About Cyrene",
-        "voice_m": "I won't forget how Cyrene protected all the memories and kept watch over the future... because that's how we make all the sacrifices worthwhile!",
-        "is_battle_voice": false
-      },
-      {
         "voice_id": 17,
         "voice_title": "Preservation Eidolon Activation",
         "voice_m": "Hee-hee, my past is gradually coming to light.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 29,
-        "voice_title": "\"The Hunt\" Eidolon Activation",
-        "voice_m": "Finally! Some recognition for training my butt off!",
         "is_battle_voice": false
       },
       {
@@ -243,12 +135,6 @@
         "voice_id": 20,
         "voice_title": "Preservation Trace Activation",
         "voice_m": "That's right! I still have a few tricks up my sleeve~",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 30,
-        "voice_title": "\"The Hunt\" Trace Activation",
-        "voice_m": "You can never have enough skills! Let's train some more⁓",
         "is_battle_voice": false
       },
       {
@@ -279,96 +165,6 @@
         "voice_id": 25,
         "voice_title": "Added to Team With Welt",
         "voice_m": "Mr Yang's here! Yeah! Did I just say that out loud?",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 31,
-        "voice_title": "Added to Team With Yunli",
-        "voice_m": "Master Yunli, look at how hard I've been training!",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 32,
-        "voice_title": "Added to Team With Yanqing",
-        "voice_m": "Don't worry, Master Yanqing. I won't let you down!",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 34,
-        "voice_title": "Added to Team With Sunday",
-        "voice_m": "Yeah! This looks way cooler than when you were using a baton!",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 37,
-        "voice_title": "Added to Team With Dan Heng • Permansor Terrae",
-        "voice_m": "Seriously, Dan Heng? You kept your head down, worked hard, and then blew everyone away! I'm gonna do that too!",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 49,
-        "voice_title": "Added to Team With Aglaea",
-        "voice_m": "What do you think of this outfit, Lady Aglaea?",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 50,
-        "voice_title": "Added to Team With Tribbie",
-        "voice_m": "Lady Tribbie! I still remember all the prayers to Time!",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 501,
-        "voice_title": "Added to Team With Mydei",
-        "voice_m": "Mm! I'm here to help, too!",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 502,
-        "voice_title": "Added to Team With Castorice",
-        "voice_m": "When's the next installment? I'm totally hooked on your writings~",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 503,
-        "voice_title": "Added to Team With Anaxa",
-        "voice_m": "If I have questions later, could you please answer them?",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 504,
-        "voice_title": "Added to Team With Hyacine",
-        "voice_m": "Don't worry! I'll look after myself!",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 505,
-        "voice_title": "Added to Team With Cipher",
-        "voice_m": "I wanna feel what it's like to fly, too!",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 506,
-        "voice_title": "Added to Team With Phainon",
-        "voice_m": "Don't worry. The Nameless will forever stand with Amphoreus!",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 507,
-        "voice_title": "Added to Team With Hysilens",
-        "voice_m": "Hehe, I get to hear good music again!",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 508,
-        "voice_title": "Added to Team With Cerydra",
-        "voice_m": "I am ready, Imperator!",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 509,
-        "voice_title": "Added to Team With Cyrene",
-        "voice_m": "Cyrene! It's so hard to catch you~ Let's snap a group photo before anything else!",
         "is_battle_voice": false
       },
       {
@@ -525,174 +321,6 @@
         "voice_id": 73,
         "voice_title": "Returning to Town",
         "voice_m": "Wanna go take some pictures?",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 77,
-        "voice_title": "\"The Hunt\" Battle Begins: Weakness Break",
-        "voice_m": "You'll make for good practice!",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 78,
-        "voice_title": "\"The Hunt\" Battle Begins: Danger Alert",
-        "voice_m": "Uh, can someone else take this one?",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 79,
-        "voice_title": "\"The Hunt\" Turn Begins 1",
-        "voice_m": "Skills polished, ready to shine!",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 80,
-        "voice_title": "\"The Hunt\" Turn Begins 2",
-        "voice_m": "I could take ten of you!",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 81,
-        "voice_title": "\"The Hunt\" Turn Idling",
-        "voice_m": "Come on, let me fight.",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 82,
-        "voice_title": "\"The Hunt\" Basic ATK",
-        "voice_m": "Better not underestimate me!",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 83,
-        "voice_title": "\"The Hunt\" Enhanced Basic ATK 1",
-        "voice_m": "Hey, watch this!",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 84,
-        "voice_title": "\"The Hunt\" Enhanced Basic ATK 2",
-        "voice_m": "Now watch this!",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 85,
-        "voice_title": "\"The Hunt\" Skill 1",
-        "voice_m": "Master, have some tea!",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 86,
-        "voice_title": "\"The Hunt\" Skill 2",
-        "voice_m": "Pardon my manners!",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 87,
-        "voice_title": "\"The Hunt\" Hit by Light Attack",
-        "voice_m": "That was sneaky!",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 88,
-        "voice_title": "\"The Hunt\" Hit by Heavy Attack",
-        "voice_m": "Not very sportsman like...",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 89,
-        "voice_title": "\"The Hunt\" Ultimate: Activate",
-        "voice_m": "Time to show you what I can really do!",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 90,
-        "voice_title": "\"The Hunt\" Ultimate: Unleash",
-        "voice_m": "Azure Dragon, White Tiger, eating less carbs — watch this!",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 91,
-        "voice_title": "\"The Hunt\" Talent 1",
-        "voice_m": "Ahh, I get it now!",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 92,
-        "voice_title": "\"The Hunt\" Talent 2",
-        "voice_m": "That's how a true master does it!",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 93,
-        "voice_title": "\"The Hunt\" Downed",
-        "voice_m": "A hero's life... is hard...",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 94,
-        "voice_title": "\"The Hunt\" Return to Battle",
-        "voice_m": "That was just a small setback, nothing more!",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 95,
-        "voice_title": "\"The Hunt\" Health Recovery",
-        "voice_m": "You're the best!",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 96,
-        "voice_title": "\"The Hunt\" Technique",
-        "voice_m": "Peach blossoms and divine sword descend~",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 97,
-        "voice_title": "\"The Hunt\" Battle Won",
-        "voice_m": "You couldn't have done it without me!",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 98,
-        "voice_title": "\"The Hunt\" Treasure Opening 1",
-        "voice_m": "Shiny! Ooh, Sparkly!",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 99,
-        "voice_title": "\"The Hunt\" Treasure Opening 2",
-        "voice_m": "Wonder how much Mung Bean Soda can we buy with this...",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 100,
-        "voice_title": "\"The Hunt\" Precious Treasure Opening",
-        "voice_m": "Any martial arts secrets?",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 101,
-        "voice_title": "\"The Hunt\" Successful Puzzle-Solving 1",
-        "voice_m": "I deserve a nice pat on the back for that one!",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 102,
-        "voice_title": "\"The Hunt\" Successful Puzzle-Solving 2",
-        "voice_m": "Fighting skills and stratagem — you can't have one without the other!",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 103,
-        "voice_title": "\"The Hunt\" Enemy Target Found",
-        "voice_m": "Let's try sparring with this guy!",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 104,
-        "voice_title": "\"The Hunt\" Returning to Town",
-        "voice_m": "Wanna go take some pictures? Or maybe we can go drink some Immortal's Delight?",
         "is_battle_voice": true
       }
     ]
@@ -3401,6 +3029,50 @@
       ],
       "backup_group_list3": [
         101
+      ]
+    },
+    {
+      "avatar_id": 1001,
+      "team_id": 2,
+      "position": 1,
+      "member_list": [
+        1510,
+        1507,
+        1403
+      ],
+      "backup_list1": [],
+      "backup_list2": [
+        1403,
+        1415,
+        1306,
+        1313,
+        1309,
+        8007,
+        1406,
+        1218,
+        1202,
+        1106
+      ],
+      "backup_list3": [
+        1415,
+        1306,
+        1313,
+        1309,
+        8007,
+        1406,
+        1218,
+        1202,
+        1106
+      ],
+      "backup_group_list1": [
+        103,
+        102
+      ],
+      "backup_group_list2": [
+        104
+      ],
+      "backup_group_list3": [
+        104
       ]
     }
   ],

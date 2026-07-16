@@ -108,12 +108,6 @@
         "is_battle_voice": false
       },
       {
-        "voice_id": 23,
-        "voice_title": "About Sunday",
-        "voice_m": "Fools think themselves wise, but the wise know their own ignorance — now, he has become the latter.",
-        "is_battle_voice": false
-      },
-      {
         "voice_id": 15,
         "voice_title": "Eidolon Activation",
         "voice_m": "Thought is the only means available through which to know ourselves.",
@@ -153,12 +147,6 @@
         "voice_id": 21,
         "voice_title": "Added to Team With Aventurine",
         "voice_m": "Keep to yourself, gambler, and spare me the false display of concern.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 24,
-        "voice_title": "Added to Team With Sunday",
-        "voice_m": "It's rare to run into someone with brains.",
         "is_battle_voice": false
       },
       {

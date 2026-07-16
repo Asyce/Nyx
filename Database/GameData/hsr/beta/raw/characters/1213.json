@@ -276,25 +276,7 @@
         "is_battle_voice": true
       },
       {
-        "voice_id": 73,
-        "voice_title": "...",
-        "voice_m": "...",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 74,
-        "voice_title": "...",
-        "voice_m": "...",
-        "is_battle_voice": true
-      },
-      {
         "voice_id": 70,
-        "voice_title": "...",
-        "voice_m": "...",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 75,
         "voice_title": "...",
         "voice_m": "...",
         "is_battle_voice": true
@@ -307,6 +289,24 @@
       },
       {
         "voice_id": 72,
+        "voice_title": "...",
+        "voice_m": "...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 73,
+        "voice_title": "...",
+        "voice_m": "...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 74,
+        "voice_title": "...",
+        "voice_m": "...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 75,
         "voice_title": "...",
         "voice_m": "...",
         "is_battle_voice": true
@@ -360,7 +360,7 @@
       "extra": {
         "10000009": {
           "name": "Buff",
-          "desc": "Can buff combat ability for a period of time, which can be dispelled unless otherwise specified.",
+          "desc": "All status effects that provide beneficial combat buffs, can be dispelled unless stated otherwise.",
           "param": []
         }
       }

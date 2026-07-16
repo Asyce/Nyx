@@ -126,12 +126,6 @@
         "is_battle_voice": false
       },
       {
-        "voice_id": 30,
-        "voice_title": "...",
-        "voice_m": "...",
-        "is_battle_voice": false
-      },
-      {
         "voice_id": 20,
         "voice_title": "...",
         "voice_m": "...",
@@ -187,6 +181,12 @@
       },
       {
         "voice_id": 29,
+        "voice_title": "...",
+        "voice_m": "...",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 30,
         "voice_title": "...",
         "voice_m": "...",
         "is_battle_voice": false
@@ -300,25 +300,7 @@
         "is_battle_voice": true
       },
       {
-        "voice_id": 72,
-        "voice_title": "...",
-        "voice_m": "...",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 73,
-        "voice_title": "...",
-        "voice_m": "...",
-        "is_battle_voice": true
-      },
-      {
         "voice_id": 69,
-        "voice_title": "...",
-        "voice_m": "...",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 74,
         "voice_title": "...",
         "voice_m": "...",
         "is_battle_voice": true
@@ -331,6 +313,24 @@
       },
       {
         "voice_id": 71,
+        "voice_title": "...",
+        "voice_m": "...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 72,
+        "voice_title": "...",
+        "voice_m": "...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 73,
+        "voice_title": "...",
+        "voice_m": "...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 74,
         "voice_title": "...",
         "voice_m": "...",
         "is_battle_voice": true

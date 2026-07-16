@@ -96,12 +96,6 @@
         "is_battle_voice": false
       },
       {
-        "voice_id": 20,
-        "voice_title": "...",
-        "voice_m": "...",
-        "is_battle_voice": false
-      },
-      {
         "voice_id": 14,
         "voice_title": "...",
         "voice_m": "...",
@@ -133,6 +127,12 @@
       },
       {
         "voice_id": 19,
+        "voice_title": "...",
+        "voice_m": "...",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 20,
         "voice_title": "...",
         "voice_m": "...",
         "is_battle_voice": false
@@ -234,25 +234,7 @@
         "is_battle_voice": true
       },
       {
-        "voice_id": 70,
-        "voice_title": "...",
-        "voice_m": "...",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 71,
-        "voice_title": "...",
-        "voice_m": "...",
-        "is_battle_voice": true
-      },
-      {
         "voice_id": 67,
-        "voice_title": "...",
-        "voice_m": "...",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 72,
         "voice_title": "...",
         "voice_m": "...",
         "is_battle_voice": true
@@ -265,6 +247,24 @@
       },
       {
         "voice_id": 69,
+        "voice_title": "...",
+        "voice_m": "...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 70,
+        "voice_title": "...",
+        "voice_m": "...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 71,
+        "voice_title": "...",
+        "voice_m": "...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 72,
         "voice_title": "...",
         "voice_m": "...",
         "is_battle_voice": true
@@ -289,7 +289,7 @@
       "extra": {
         "10000010": {
           "name": "Debuff",
-          "desc": "Debuffs are negative status effects that render units weaker. Unless otherwise specified, debuffs can be dispelled.",
+          "desc": "All status effects that provide negative combat debuffs, can be dispelled unless stated otherwise.",
           "param": []
         }
       }
@@ -329,7 +329,7 @@
         },
         "10000010": {
           "name": "Debuff",
-          "desc": "Debuffs are negative status effects that render units weaker. Unless otherwise specified, debuffs can be dispelled.",
+          "desc": "All status effects that provide negative combat debuffs, can be dispelled unless stated otherwise.",
           "param": []
         }
       }
@@ -354,7 +354,7 @@
       "extra": {
         "10000010": {
           "name": "Debuff",
-          "desc": "Debuffs are negative status effects that render units weaker. Unless otherwise specified, debuffs can be dispelled.",
+          "desc": "All status effects that provide negative combat debuffs, can be dispelled unless stated otherwise.",
           "param": []
         }
       }
@@ -2373,7 +2373,7 @@
         "extra": {
           "10000010": {
             "name": "Debuff",
-            "desc": "Debuffs are negative status effects that render units weaker. Unless otherwise specified, debuffs can be dispelled.",
+            "desc": "All status effects that provide negative combat debuffs, can be dispelled unless stated otherwise.",
             "param": []
           }
         }
@@ -2825,7 +2825,7 @@
           "extra": {
             "10000010": {
               "name": "Debuff",
-              "desc": "Debuffs are negative status effects that render units weaker. Unless otherwise specified, debuffs can be dispelled.",
+              "desc": "All status effects that provide negative combat debuffs, can be dispelled unless stated otherwise.",
               "param": []
             }
           }
@@ -2872,7 +2872,7 @@
             },
             "10000010": {
               "name": "Debuff",
-              "desc": "Debuffs are negative status effects that render units weaker. Unless otherwise specified, debuffs can be dispelled.",
+              "desc": "All status effects that provide negative combat debuffs, can be dispelled unless stated otherwise.",
               "param": []
             }
           }
@@ -2897,7 +2897,7 @@
           "extra": {
             "10000010": {
               "name": "Debuff",
-              "desc": "Debuffs are negative status effects that render units weaker. Unless otherwise specified, debuffs can be dispelled.",
+              "desc": "All status effects that provide negative combat debuffs, can be dispelled unless stated otherwise.",
               "param": []
             }
           }

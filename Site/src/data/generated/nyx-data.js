@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-07-14T14:36:38.589Z",
+  "generatedAt": "2026-07-16T16:08:08.672Z",
   "codes": {
-    "updated": "2026-07-14T14:11:40.948Z",
+    "updated": "2026-07-16T14:20:24.977Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -19,7 +19,7 @@ var NYX_DB = {
             "needle": "primogem",
             "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
           },
-          "added": "2026-07-14",
+          "added": "2026-07-16",
           "firstSeen": "2026-07-05T17:19:20.440Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=PFY1S40I88T9",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=PFY1S40I88T9"
@@ -63,7 +63,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-14",
+          "added": "2026-07-16",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK"
@@ -77,8 +77,8 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-14",
-          "firstSeen": "2026-07-14T06:19:26.408Z",
+          "added": "2026-07-16",
+          "firstSeen": "2026-07-15T09:16:06.610Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB"
         },
@@ -91,7 +91,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-14",
+          "added": "2026-07-16",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH"
@@ -105,7 +105,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-14",
+          "added": "2026-07-16",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL"
@@ -119,7 +119,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-14",
+          "added": "2026-07-16",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS"
@@ -133,7 +133,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-14",
+          "added": "2026-07-16",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA"
@@ -147,10 +147,38 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-14",
+          "added": "2026-07-16",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT"
+        },
+        {
+          "code": "BESTCOFFEEEVER",
+          "reward": "3 Traveler's Guide, 2 Express Special Blend: Rustic Infusion",
+          "premium": false,
+          "premiumCurrency": {
+            "name": "Stellar Jade",
+            "needle": "stellar jade",
+            "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
+          },
+          "added": "2026-07-15",
+          "firstSeen": "2026-07-15T06:22:38.686Z",
+          "sourceUrl": "https://www.crimsonwitch.com/codes/Honkai_Star_Rail",
+          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=BESTCOFFEEEVER"
+        },
+        {
+          "code": "PSJQKBQPYGMT",
+          "reward": "50 Stellar Jade, 10000 Credit",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Stellar Jade",
+            "needle": "stellar jade",
+            "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
+          },
+          "added": "2026-07-15",
+          "firstSeen": "2026-07-15T06:22:38.686Z",
+          "sourceUrl": "https://www.crimsonwitch.com/codes/Honkai_Star_Rail",
+          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=PSJQKBQPYGMT"
         }
       ],
       "zzz": [
@@ -163,7 +191,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-14",
+          "added": "2026-07-16",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ROSCAELIFER0617",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ROSCAELIFER0617"
@@ -177,7 +205,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-14",
+          "added": "2026-07-16",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT"
@@ -191,7 +219,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-14",
+          "added": "2026-07-16",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO"
@@ -205,7 +233,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-14",
+          "added": "2026-07-16",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSEASON3",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSEASON3"
@@ -219,110 +247,33 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-14",
+          "added": "2026-07-16",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM"
         }
       ],
       "wuwa": [],
-      "ae": [
-        {
-          "code": "ZAU2SYXHWX5L4ZH",
-          "reward": "5k T Creds and Ten Arms Insp Kits",
-          "premium": false,
-          "premiumCurrency": {
-            "name": "Oroberyl",
-            "needle": "oroberyl",
-            "aliases": [
-              "originium"
-            ],
-            "icon": null
-          },
-          "added": "2026-05-05",
-          "firstSeen": "2026-07-09T21:36:12.789Z",
-          "sourceUrl": "https://nexus-codes.app/copy/?code=ZAU2SYXHWX5L4ZH",
-          "redeemUrl": null
-        },
-        {
-          "code": "ENDFIELD4PC",
-          "reward": "Two Advanced Combat Records, Two Arms Insp Kits, and 13k T Creds Pc Only",
-          "premium": false,
-          "premiumCurrency": {
-            "name": "Oroberyl",
-            "needle": "oroberyl",
-            "aliases": [
-              "originium"
-            ],
-            "icon": null
-          },
-          "added": "2026-05-03",
-          "firstSeen": "2026-07-09T21:36:12.789Z",
-          "sourceUrl": "https://nexus-codes.app/copy/?code=ENDFIELD4PC",
-          "redeemUrl": null
-        },
-        {
-          "code": "ENDFIELDGIFT",
-          "reward": "150 Oroberyl, 20 Intermediate Combat Records, 20 Arms Insp Kits, and 10k T Creds",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Oroberyl",
-            "needle": "oroberyl",
-            "aliases": [
-              "originium"
-            ],
-            "icon": null
-          },
-          "added": "2026-05-03",
-          "firstSeen": "2026-07-09T21:36:12.789Z",
-          "sourceUrl": "https://nexus-codes.app/copy/?code=ENDFIELDGIFT",
-          "redeemUrl": null
-        }
-      ]
+      "ae": []
     }
   },
   "banners": {
-    "updated": "2026-07-14T14:34:54.602Z",
-    "checkedAt": "2026-07-14T14:34:54.602Z",
+    "updated": "2026-07-15T08:35:12.948Z",
+    "checkedAt": "2026-07-16T14:20:11.785Z",
     "games": {
       "hsr": {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-14T14:34:54.602Z",
-          "lastSuccessfulFetch": "2026-07-14T14:34:54.602Z",
-          "lastValidUpdate": "2026-07-14T14:34:54.602Z",
-          "source": "game8"
+          "checkedAt": "2026-07-16T14:20:11.785Z",
+          "lastSuccessfulFetch": "2026-07-15T08:35:12.948Z",
+          "lastValidUpdate": "2026-07-15T08:35:12.948Z",
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
-          "phase": "4.3",
-          "start": null,
-          "end": "2026-07-14T16:00:00.000Z",
-          "characters": [
-            {
-              "name": "Cyrene",
-              "icon": "../../Database/GameData/hsr/assets/characters/round/1415.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1415.webp",
-              "iconZoom": false,
-              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1415.webp",
-              "namecard": null,
-              "rarity": 5
-            },
-            {
-              "name": "Phainon",
-              "icon": "../../Database/GameData/hsr/assets/characters/round/1408.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1408.webp",
-              "iconZoom": false,
-              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1408.webp",
-              "namecard": null,
-              "rarity": 5
-            }
-          ],
-          "subBanners": []
-        },
-        "next": {
           "phase": "4.4",
-          "start": "2026-07-14T16:00:00.000Z",
+          "start": null,
           "end": "2026-08-25T16:00:00.000Z",
           "characters": [
             {
@@ -336,26 +287,28 @@ var NYX_DB = {
             },
             {
               "name": "Evernight",
-              "icon": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1413.webp",
+              "icon": "../../Database/GameData/hsr/assets/characters/round/1413.webp",
               "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1413.webp",
               "iconZoom": false,
-              "art": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1413.webp",
+              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1413.webp",
               "namecard": null,
-              "rarity": null
+              "rarity": 5
             }
           ],
           "subBanners": []
         },
+        "next": null,
         "upcoming": []
       },
       "gi": {
         "name": "Genshin Impact",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-14T14:34:54.602Z",
-          "lastSuccessfulFetch": "2026-07-14T14:34:54.602Z",
-          "lastValidUpdate": "2026-07-14T14:34:54.602Z",
-          "source": "game8"
+          "checkedAt": "2026-07-16T14:20:11.785Z",
+          "lastSuccessfulFetch": "2026-07-15T08:35:12.948Z",
+          "lastValidUpdate": "2026-07-15T08:35:12.948Z",
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": "6.7 Phase 1",
@@ -406,10 +359,11 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-14T14:34:54.602Z",
-          "lastSuccessfulFetch": "2026-07-14T14:34:54.602Z",
-          "lastValidUpdate": "2026-07-14T14:34:54.602Z",
-          "source": "game8"
+          "checkedAt": "2026-07-16T14:20:11.785Z",
+          "lastSuccessfulFetch": "2026-07-15T08:35:12.948Z",
+          "lastValidUpdate": "2026-07-15T08:35:12.948Z",
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": null,
@@ -487,10 +441,11 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-14T14:34:54.602Z",
-          "lastSuccessfulFetch": "2026-07-14T14:34:54.602Z",
-          "lastValidUpdate": "2026-07-14T14:34:54.602Z",
-          "source": "game8"
+          "checkedAt": "2026-07-16T14:20:11.785Z",
+          "lastSuccessfulFetch": "2026-07-15T08:35:12.948Z",
+          "lastValidUpdate": "2026-07-15T08:35:12.948Z",
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": null,
@@ -525,29 +480,13 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-14T14:34:54.602Z",
-          "lastSuccessfulFetch": "2026-07-14T14:34:54.602Z",
-          "lastValidUpdate": "2026-07-14T14:34:54.602Z",
-          "source": "game8"
+          "checkedAt": "2026-07-16T14:20:11.785Z",
+          "lastSuccessfulFetch": "2026-07-15T08:35:12.948Z",
+          "lastValidUpdate": "2026-07-15T08:35:12.948Z",
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
-          "phase": "1.3 Phase 2",
-          "start": null,
-          "end": "2026-07-16T02:00:00.000Z",
-          "characters": [
-            {
-              "name": "Camille",
-              "icon": "../../Database/EndfieldWiki/endfield/assets/operators/camille/icon.png",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/EndfieldWiki/endfield/assets/operators/camille/splash.png",
-              "namecard": null,
-              "rarity": 6
-            }
-          ],
-          "subBanners": []
-        },
-        "next": {
           "phase": null,
           "start": "2026-07-16T02:00:00.000Z",
           "end": "2026-08-09T02:00:00.000Z",
@@ -564,6 +503,7 @@ var NYX_DB = {
           ],
           "subBanners": []
         },
+        "next": null,
         "upcoming": []
       }
     }
@@ -4245,7 +4185,7 @@ var NYX_DB = {
             "needle": "primogem",
             "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
           },
-          "added": "2026-07-14",
+          "added": "2026-07-16",
           "firstSeen": "2026-07-05T17:19:20.440Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=PFY1S40I88T9",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=PFY1S40I88T9"
@@ -4283,10 +4223,11 @@ var NYX_DB = {
         "name": "Genshin Impact",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-14T14:34:54.602Z",
-          "lastSuccessfulFetch": "2026-07-14T14:34:54.602Z",
-          "lastValidUpdate": "2026-07-14T14:34:54.602Z",
-          "source": "game8"
+          "checkedAt": "2026-07-16T14:20:11.785Z",
+          "lastSuccessfulFetch": "2026-07-15T08:35:12.948Z",
+          "lastValidUpdate": "2026-07-15T08:35:12.948Z",
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": "6.7 Phase 1",
@@ -4334,7 +4275,7 @@ var NYX_DB = {
         "upcoming": []
       },
       "tcg": {
-        "updated": "2026-07-14T09:01:12.190Z",
+        "updated": "2026-07-16T09:08:10.119Z",
         "counts": {
           "characterCards": 106,
           "otherCards": 513
@@ -110803,7 +110744,7 @@ var NYX_DB = {
         ]
       },
       "wonderland": {
-        "updated": "2026-07-14T09:01:15.547Z",
+        "updated": "2026-07-16T09:08:14.172Z",
         "version": "6.7.52",
         "langMap": {
           "slot": {
@@ -146366,6 +146307,185 @@ var NYX_DB = {
           "forms": []
         },
         {
+          "id": "gi-traveler",
+          "name": "Traveler",
+          "aliases": [
+            "Aether",
+            "Lumine"
+          ],
+          "title": "Descender",
+          "rarity": 5,
+          "element": "Anemo",
+          "role": "Sword",
+          "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+          "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+          "facts": {
+            "constellation": "Viator"
+          },
+          "overviewArt": "../../Database/GameData/gi/gcg/other cards/assets/332001-The Bestest Travel Companion!.webp",
+          "overviewArtPool": [
+            "../../Database/GameData/gi/gcg/other cards/assets/332001-The Bestest Travel Companion!.webp"
+          ],
+          "forms": [
+            {
+              "name": "Traveler",
+              "label": "Anemo",
+              "variant": "Anemo",
+              "gender": "male",
+              "element": "Anemo",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Anemo",
+              "variant": "Anemo",
+              "gender": "female",
+              "element": "Anemo",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Geo",
+              "variant": "Geo",
+              "gender": "male",
+              "element": "Geo",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Geo",
+              "variant": "Geo",
+              "gender": "female",
+              "element": "Geo",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Electro",
+              "variant": "Electro",
+              "gender": "male",
+              "element": "Electro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Electro",
+              "variant": "Electro",
+              "gender": "female",
+              "element": "Electro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Dendro",
+              "variant": "Dendro",
+              "gender": "male",
+              "element": "Dendro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Dendro",
+              "variant": "Dendro",
+              "gender": "female",
+              "element": "Dendro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Hydro",
+              "variant": "Hydro",
+              "gender": "male",
+              "element": "Hydro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Hydro",
+              "variant": "Hydro",
+              "gender": "female",
+              "element": "Hydro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Pyro",
+              "variant": "Pyro",
+              "gender": "male",
+              "element": "Pyro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Pyro",
+              "variant": "Pyro",
+              "gender": "female",
+              "element": "Pyro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            }
+          ]
+        },
+        {
           "id": "gi-10000016",
           "name": "Diluc",
           "aliases": [],
@@ -146855,192 +146975,13 @@ var NYX_DB = {
             "../../Database/GameData/gi/gcg/character cards/assets/1202-Xingqiu.webp"
           ],
           "forms": []
-        },
-        {
-          "id": "gi-traveler",
-          "name": "Traveler",
-          "aliases": [
-            "Aether",
-            "Lumine"
-          ],
-          "title": "Descender",
-          "rarity": 5,
-          "element": "Anemo",
-          "role": "Sword",
-          "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-          "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-          "facts": {
-            "constellation": "Viator"
-          },
-          "overviewArt": "../../Database/GameData/gi/gcg/other cards/assets/332001-The Bestest Travel Companion!.webp",
-          "overviewArtPool": [
-            "../../Database/GameData/gi/gcg/other cards/assets/332001-The Bestest Travel Companion!.webp"
-          ],
-          "forms": [
-            {
-              "name": "Traveler",
-              "label": "Anemo",
-              "variant": "Anemo",
-              "gender": "male",
-              "element": "Anemo",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {
-                "constellation": "Viator"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Anemo",
-              "variant": "Anemo",
-              "gender": "female",
-              "element": "Anemo",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {
-                "constellation": "Viatrix"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Geo",
-              "variant": "Geo",
-              "gender": "male",
-              "element": "Geo",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {
-                "constellation": "Viator"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Geo",
-              "variant": "Geo",
-              "gender": "female",
-              "element": "Geo",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {
-                "constellation": "Viatrix"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Electro",
-              "variant": "Electro",
-              "gender": "male",
-              "element": "Electro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {
-                "constellation": "Viator"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Electro",
-              "variant": "Electro",
-              "gender": "female",
-              "element": "Electro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {
-                "constellation": "Viatrix"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Dendro",
-              "variant": "Dendro",
-              "gender": "male",
-              "element": "Dendro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {
-                "constellation": "Viator"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Dendro",
-              "variant": "Dendro",
-              "gender": "female",
-              "element": "Dendro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {
-                "constellation": "Viatrix"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Hydro",
-              "variant": "Hydro",
-              "gender": "male",
-              "element": "Hydro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {
-                "constellation": "Viator"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Hydro",
-              "variant": "Hydro",
-              "gender": "female",
-              "element": "Hydro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {
-                "constellation": "Viatrix"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Pyro",
-              "variant": "Pyro",
-              "gender": "male",
-              "element": "Pyro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {
-                "constellation": "Viator"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Pyro",
-              "variant": "Pyro",
-              "gender": "female",
-              "element": "Pyro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {
-                "constellation": "Viatrix"
-              }
-            }
-          ]
         }
       ]
     },
     "hsr": {
       "name": "Honkai: Star Rail",
       "icon": "../assets/icon/hsricon.png",
-      "rosterCount": 88,
+      "rosterCount": 90,
       "collections": [
         {
           "key": "light-cones",
@@ -150188,7 +150129,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-14",
+          "added": "2026-07-16",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK"
@@ -150202,8 +150143,8 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-14",
-          "firstSeen": "2026-07-14T06:19:26.408Z",
+          "added": "2026-07-16",
+          "firstSeen": "2026-07-15T09:16:06.610Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB"
         },
@@ -150216,7 +150157,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-14",
+          "added": "2026-07-16",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH"
@@ -150230,7 +150171,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-14",
+          "added": "2026-07-16",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL"
@@ -150244,7 +150185,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-14",
+          "added": "2026-07-16",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS"
@@ -150258,7 +150199,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-14",
+          "added": "2026-07-16",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA"
@@ -150272,50 +150213,53 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-14",
+          "added": "2026-07-16",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT"
+        },
+        {
+          "code": "BESTCOFFEEEVER",
+          "reward": "3 Traveler's Guide, 2 Express Special Blend: Rustic Infusion",
+          "premium": false,
+          "premiumCurrency": {
+            "name": "Stellar Jade",
+            "needle": "stellar jade",
+            "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
+          },
+          "added": "2026-07-15",
+          "firstSeen": "2026-07-15T06:22:38.686Z",
+          "sourceUrl": "https://www.crimsonwitch.com/codes/Honkai_Star_Rail",
+          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=BESTCOFFEEEVER"
+        },
+        {
+          "code": "PSJQKBQPYGMT",
+          "reward": "50 Stellar Jade, 10000 Credit",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Stellar Jade",
+            "needle": "stellar jade",
+            "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
+          },
+          "added": "2026-07-15",
+          "firstSeen": "2026-07-15T06:22:38.686Z",
+          "sourceUrl": "https://www.crimsonwitch.com/codes/Honkai_Star_Rail",
+          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=PSJQKBQPYGMT"
         }
       ],
       "banners": {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-14T14:34:54.602Z",
-          "lastSuccessfulFetch": "2026-07-14T14:34:54.602Z",
-          "lastValidUpdate": "2026-07-14T14:34:54.602Z",
-          "source": "game8"
+          "checkedAt": "2026-07-16T14:20:11.785Z",
+          "lastSuccessfulFetch": "2026-07-15T08:35:12.948Z",
+          "lastValidUpdate": "2026-07-15T08:35:12.948Z",
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
-          "phase": "4.3",
-          "start": null,
-          "end": "2026-07-14T16:00:00.000Z",
-          "characters": [
-            {
-              "name": "Cyrene",
-              "icon": "../../Database/GameData/hsr/assets/characters/round/1415.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1415.webp",
-              "iconZoom": false,
-              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1415.webp",
-              "namecard": null,
-              "rarity": 5
-            },
-            {
-              "name": "Phainon",
-              "icon": "../../Database/GameData/hsr/assets/characters/round/1408.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1408.webp",
-              "iconZoom": false,
-              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1408.webp",
-              "namecard": null,
-              "rarity": 5
-            }
-          ],
-          "subBanners": []
-        },
-        "next": {
           "phase": "4.4",
-          "start": "2026-07-14T16:00:00.000Z",
+          "start": null,
           "end": "2026-08-25T16:00:00.000Z",
           "characters": [
             {
@@ -150329,16 +150273,17 @@ var NYX_DB = {
             },
             {
               "name": "Evernight",
-              "icon": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1413.webp",
+              "icon": "../../Database/GameData/hsr/assets/characters/round/1413.webp",
               "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1413.webp",
               "iconZoom": false,
-              "art": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1413.webp",
+              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1413.webp",
               "namecard": null,
-              "rarity": null
+              "rarity": 5
             }
           ],
           "subBanners": []
         },
+        "next": null,
         "upcoming": []
       },
       "roster": [
@@ -150355,6 +150300,10 @@ var NYX_DB = {
           "facts": {
             "title": "Ad Astra Nova"
           },
+          "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23060.webp",
+          "overviewArtPool": [
+            "../../Database/GameData/hsr/assets/lightcones/full/23060.webp"
+          ],
           "forms": []
         },
         {
@@ -150364,8 +150313,8 @@ var NYX_DB = {
           "rarity": 5,
           "element": "Quantum",
           "role": "Elation",
-          "icon": null,
-          "art": "../../Database/Prydwen/hsr/assets/characters/aventurine-waveflair-0fb8df0c48dc.webp",
+          "icon": "../../Database/GameData/hsr/assets/characters/round/1513.webp",
+          "art": "../../Database/GameData/hsr/assets/characters/draw-card/1513.webp",
           "facts": {},
           "forms": []
         },
@@ -150376,8 +150325,8 @@ var NYX_DB = {
           "rarity": 5,
           "element": "Wind",
           "role": "Remembrance",
-          "icon": null,
-          "art": "../../Database/Prydwen/hsr/assets/characters/robin-summeretto-50f73fbdd44b.webp",
+          "icon": "../../Database/GameData/hsr/assets/characters/round/1512.webp",
+          "art": "../../Database/GameData/hsr/assets/characters/draw-card/1512.webp",
           "facts": {},
           "forms": []
         },
@@ -150392,7 +150341,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1505.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1505.webp",
           "facts": {
-            "camp": "Planarcadia",
             "title": "The Demoiselle in Charge"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23058.webp",
@@ -150412,7 +150360,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1502.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1502.webp",
           "facts": {
-            "camp": "The Xianzhou Yuque",
             "title": "Gleam of a Thousand Plumes"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23054.webp",
@@ -150432,7 +150379,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1507.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1507.webp",
           "facts": {
-            "camp": "Stellaron Hunters",
             "title": "Now I Am Become Blade"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23059.webp",
@@ -150454,6 +150400,10 @@ var NYX_DB = {
           "facts": {
             "title": "I Am As You Behold"
           },
+          "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23062.webp",
+          "overviewArtPool": [
+            "../../Database/GameData/hsr/assets/lightcones/full/23062.webp"
+          ],
           "forms": []
         },
         {
@@ -150467,7 +150417,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1412.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1412.webp",
           "facts": {
-            "camp": "Amphoreus",
             "title": "The Iron Tamer of Tides"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23048.webp",
@@ -150487,7 +150436,7 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1308.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1308.webp",
           "facts": {
-            "camp": "Galaxy Ranger",
+            "camp": "Self-Annihilator",
             "title": "Bosenmori"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23024.webp",
@@ -150507,7 +150456,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1402.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1402.webp",
           "facts": {
-            "camp": "Amphoreus",
             "title": "Tailored Fate"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23036.webp",
@@ -150527,7 +150475,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1405.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1405.webp",
           "facts": {
-            "camp": "Amphoreus",
             "title": "The Universe in a Seed"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23041.webp",
@@ -150547,7 +150494,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1015.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1015.webp",
           "facts": {
-            "camp": "Another World",
             "title": "The Hell Where Ideals Burn"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23046.webp",
@@ -150587,7 +150533,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1504.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1504.webp",
           "facts": {
-            "camp": "Planarcadia",
             "title": "A Hunt Through Night"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23056.webp",
@@ -150687,7 +150632,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1315.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1315.webp",
           "facts": {
-            "camp": "Galaxy Ranger",
             "title": "Dusty Trail's Lone Star"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23027.webp",
@@ -150727,7 +150671,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1407.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1407.webp",
           "facts": {
-            "camp": "Amphoreus",
             "title": "Blossom to the Beyond"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23040.webp",
@@ -150747,7 +150690,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1406.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1406.webp",
           "facts": {
-            "camp": "Amphoreus",
             "title": "Slick and Speedy Steals the Sky"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23043.webp",
@@ -150787,7 +150729,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1415.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1415.webp",
           "facts": {
-            "camp": "Amphoreus",
             "title": "Ripples Rejoined"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23052.webp",
@@ -150827,7 +150768,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1414.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1414.webp",
           "facts": {
-            "camp": "Amphoreus",
             "title": "Slay Until Evil Ends"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23051.webp",
@@ -150867,7 +150807,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1220.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1220.webp",
           "facts": {
-            "camp": "The Xianzhou Yaoqing",
             "title": "Stormrider's Bolt"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23031.webp",
@@ -150887,7 +150826,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1310.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1310.webp",
           "facts": {
-            "camp": "Stellaron Hunters",
             "title": "Firefull Flyshine"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23025.webp",
@@ -150987,7 +150925,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1409.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1409.webp",
           "facts": {
-            "camp": "Amphoreus",
             "title": "A Rainbow onto Twilight"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23042.webp",
@@ -151007,7 +150944,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1410.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1410.webp",
           "facts": {
-            "camp": "Amphoreus",
             "title": "Winedark Swansong"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23047.webp",
@@ -151027,7 +150963,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1314.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1314.webp",
           "facts": {
-            "camp": "Interastral Peace Corporation",
             "title": "Lien on Life, Lease on Fate"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23028.webp",
@@ -151047,7 +150982,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1218.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1218.webp",
           "facts": {
-            "camp": "The Xianzhou Yaoqing",
             "title": "Cauldron Contrivance"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23029.webp",
@@ -151127,7 +151061,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1222.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1222.webp",
           "facts": {
-            "camp": "The Xianzhou Luofu",
             "title": "Let Scent Sink In"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23032.webp",
@@ -151167,7 +151100,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1413.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1413.webp",
           "facts": {
-            "camp": "Amphoreus",
             "title": "The Remembrance of None"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23049.webp",
@@ -151187,7 +151119,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1404.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1404.webp",
           "facts": {
-            "camp": "Amphoreus",
             "title": "Fiery Lionheart"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23039.webp",
@@ -151207,7 +151138,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1408.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1408.webp",
           "facts": {
-            "camp": "Amphoreus",
             "title": "To Evermore Burn as the Sun"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23044.webp",
@@ -151227,7 +151157,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1317.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1317.webp",
           "facts": {
-            "camp": "Galaxy Ranger",
             "title": "Eyes of a Ninja"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23033.webp",
@@ -151249,6 +151178,10 @@ var NYX_DB = {
           "facts": {
             "title": "The Gem Coursing in Red"
           },
+          "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23061.webp",
+          "overviewArtPool": [
+            "../../Database/GameData/hsr/assets/lightcones/full/23061.webp"
+          ],
           "forms": []
         },
         {
@@ -151262,7 +151195,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1309.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1309.webp",
           "facts": {
-            "camp": "Penacony",
             "title": "Flowing Nightglow"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23026.webp",
@@ -151302,7 +151234,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1014.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1014.webp",
           "facts": {
-            "camp": "Another World",
             "title": "Excalibur Excelsior"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23045.webp",
@@ -151362,7 +151293,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1506.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1506.webp",
           "facts": {
-            "camp": "Stellaron Hunters",
             "title": "Godmode Player"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23057.webp",
@@ -151402,7 +151332,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1501.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1501.webp",
           "facts": {
-            "camp": "Masked Fools",
             "title": "Project: Party Time"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23053.webp",
@@ -151422,7 +151351,7 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1313.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1313.webp",
           "facts": {
-            "camp": "Penacony",
+            "camp": "Cosmos",
             "title": "Eyes to the Stars"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23034.webp",
@@ -151442,7 +151371,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1321.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1321.webp",
           "facts": {
-            "camp": "The Cremators",
             "title": "Dance in Flame"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23050.webp",
@@ -151462,7 +151390,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1401.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1401.webp",
           "facts": {
-            "camp": "Herta Space Station",
             "title": "Message From Beyond"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23037.webp",
@@ -151482,7 +151409,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1225.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1225.webp",
           "facts": {
-            "camp": "The Xianzhou Luofu",
             "title": "The Long Voyage Home"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23035.webp",
@@ -151611,7 +151537,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1403.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1403.webp",
           "facts": {
-            "camp": "Amphoreus",
             "title": "Back to Fons et Origo"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23038.webp",
@@ -151671,7 +151596,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1221.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1221.webp",
           "facts": {
-            "camp": "The Xianzhou Zhuming",
             "title": "Dance at Sunset"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23030.webp",
@@ -151931,7 +151855,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1223.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1223.webp",
           "facts": {
-            "camp": "The Xianzhou Yaoqing",
             "title": "* Any Warp Banner (except Departure Warp)"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/21010.webp",
@@ -152099,6 +152022,38 @@ var NYX_DB = {
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/21025.webp",
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/21025.webp"
+          ],
+          "forms": []
+        },
+        {
+          "id": "hsr-1413",
+          "name": "Evernight",
+          "aliases": [],
+          "rarity": 5,
+          "element": "Ice",
+          "role": "Memory",
+          "icon": "../../Database/GameData/hsr/assets/characters/round/1413.webp",
+          "art": "../../Database/GameData/hsr/assets/characters/draw-card/1413.webp",
+          "facts": {},
+          "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23049.webp",
+          "overviewArtPool": [
+            "../../Database/GameData/hsr/assets/lightcones/full/23049.webp"
+          ],
+          "forms": []
+        },
+        {
+          "id": "hsr-1225",
+          "name": "Fugue",
+          "aliases": [],
+          "rarity": 5,
+          "element": "Fire",
+          "role": "Warlock",
+          "icon": "../../Database/GameData/hsr/assets/characters/round/1225.webp",
+          "art": "../../Database/GameData/hsr/assets/characters/draw-card/1225.webp",
+          "facts": {},
+          "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23035.webp",
+          "overviewArtPool": [
+            "../../Database/GameData/hsr/assets/lightcones/full/23035.webp"
           ],
           "forms": []
         }
@@ -155676,7 +155631,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-14",
+          "added": "2026-07-16",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ROSCAELIFER0617",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ROSCAELIFER0617"
@@ -155690,7 +155645,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-14",
+          "added": "2026-07-16",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT"
@@ -155704,7 +155659,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-14",
+          "added": "2026-07-16",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO"
@@ -155718,7 +155673,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-14",
+          "added": "2026-07-16",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSEASON3",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSEASON3"
@@ -155732,7 +155687,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-14",
+          "added": "2026-07-16",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM"
@@ -155742,10 +155697,11 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-14T14:34:54.602Z",
-          "lastSuccessfulFetch": "2026-07-14T14:34:54.602Z",
-          "lastValidUpdate": "2026-07-14T14:34:54.602Z",
-          "source": "game8"
+          "checkedAt": "2026-07-16T14:20:11.785Z",
+          "lastSuccessfulFetch": "2026-07-15T08:35:12.948Z",
+          "lastValidUpdate": "2026-07-15T08:35:12.948Z",
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": null,
@@ -160492,10 +160448,11 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-14T14:34:54.602Z",
-          "lastSuccessfulFetch": "2026-07-14T14:34:54.602Z",
-          "lastValidUpdate": "2026-07-14T14:34:54.602Z",
-          "source": "game8"
+          "checkedAt": "2026-07-16T14:20:11.785Z",
+          "lastSuccessfulFetch": "2026-07-15T08:35:12.948Z",
+          "lastValidUpdate": "2026-07-15T08:35:12.948Z",
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": null,
@@ -165007,86 +164964,18 @@ var NYX_DB = {
           ]
         }
       ],
-      "codes": [
-        {
-          "code": "ZAU2SYXHWX5L4ZH",
-          "reward": "5k T Creds and Ten Arms Insp Kits",
-          "premium": false,
-          "premiumCurrency": {
-            "name": "Oroberyl",
-            "needle": "oroberyl",
-            "aliases": [
-              "originium"
-            ],
-            "icon": null
-          },
-          "added": "2026-05-05",
-          "firstSeen": "2026-07-09T21:36:12.789Z",
-          "sourceUrl": "https://nexus-codes.app/copy/?code=ZAU2SYXHWX5L4ZH",
-          "redeemUrl": null
-        },
-        {
-          "code": "ENDFIELD4PC",
-          "reward": "Two Advanced Combat Records, Two Arms Insp Kits, and 13k T Creds Pc Only",
-          "premium": false,
-          "premiumCurrency": {
-            "name": "Oroberyl",
-            "needle": "oroberyl",
-            "aliases": [
-              "originium"
-            ],
-            "icon": null
-          },
-          "added": "2026-05-03",
-          "firstSeen": "2026-07-09T21:36:12.789Z",
-          "sourceUrl": "https://nexus-codes.app/copy/?code=ENDFIELD4PC",
-          "redeemUrl": null
-        },
-        {
-          "code": "ENDFIELDGIFT",
-          "reward": "150 Oroberyl, 20 Intermediate Combat Records, 20 Arms Insp Kits, and 10k T Creds",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Oroberyl",
-            "needle": "oroberyl",
-            "aliases": [
-              "originium"
-            ],
-            "icon": null
-          },
-          "added": "2026-05-03",
-          "firstSeen": "2026-07-09T21:36:12.789Z",
-          "sourceUrl": "https://nexus-codes.app/copy/?code=ENDFIELDGIFT",
-          "redeemUrl": null
-        }
-      ],
+      "codes": [],
       "banners": {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-14T14:34:54.602Z",
-          "lastSuccessfulFetch": "2026-07-14T14:34:54.602Z",
-          "lastValidUpdate": "2026-07-14T14:34:54.602Z",
-          "source": "game8"
+          "checkedAt": "2026-07-16T14:20:11.785Z",
+          "lastSuccessfulFetch": "2026-07-15T08:35:12.948Z",
+          "lastValidUpdate": "2026-07-15T08:35:12.948Z",
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
-          "phase": "1.3 Phase 2",
-          "start": null,
-          "end": "2026-07-16T02:00:00.000Z",
-          "characters": [
-            {
-              "name": "Camille",
-              "icon": "../../Database/EndfieldWiki/endfield/assets/operators/camille/icon.png",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/EndfieldWiki/endfield/assets/operators/camille/splash.png",
-              "namecard": null,
-              "rarity": 6
-            }
-          ],
-          "subBanners": []
-        },
-        "next": {
           "phase": null,
           "start": "2026-07-16T02:00:00.000Z",
           "end": "2026-08-09T02:00:00.000Z",
@@ -165103,6 +164992,7 @@ var NYX_DB = {
           ],
           "subBanners": []
         },
+        "next": null,
         "upcoming": []
       },
       "roster": [

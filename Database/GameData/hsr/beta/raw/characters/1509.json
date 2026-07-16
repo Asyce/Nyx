@@ -15,7 +15,7 @@
     "1": {
       "id": 150901,
       "name": "He Who Saw the Deep",
-      "desc": "When Gilgamesh possesses \"King's Acknowledgement,\" its DEF-ignoring effect will apply to other teammates as well, and \"King's Acknowledgement\" will additionally increase Gilgamesh's ATK by <unbreak>#1[i]%</unbreak>. He additionally regenerates a fixed <unbreak>#2[i]</unbreak> Energy when he uses his Skill.",
+      "desc": "When Gilgamesh holds \"King's Acknowledgement,\" its DEF-ignoring effect also applies to other teammates, and \"King's Acknowledgement\" additionally increases Gilgamesh's ATK by <unbreak>#1[i]%</unbreak>. When using Skill, additionally regenerates a fixed <unbreak>#2[i]</unbreak> Energy.",
       "icon": "SkillIcon_1509_Rank1.png",
       "param_list": [
         0.6,
@@ -26,7 +26,7 @@
     "2": {
       "id": 150902,
       "name": "Wisdom That Encompassed All",
-      "desc": "When entering combat, Gilgamesh gains <unbreak>#1[i]</unbreak> point(s) of \"Interest,\" and additionally gains <unbreak>#2[i]</unbreak> point(s) of \"Interest\" when using his Ultimate. The DMG multiplier of the Skill \"Gate of Babylon\" dealt to the primary target increases by <unbreak>#3[i]%</unbreak>, and the DMG multiplier dealt to adjacent targets increases by <unbreak>#4[i]%</unbreak>.",
+      "desc": "When entering combat, Gilgamesh gains <unbreak>#1[i]</unbreak> \"Interest.\" When using Ultimate, additionally gains <unbreak>#2[i]</unbreak> \"Interest.\" The DMG multiplier of the Skill \"Gate of Babylon\" against the primary target increases by <unbreak>#3[i]%</unbreak>, and its DMG multiplier against adjacent targets increases by <unbreak>#4[i]%</unbreak>.",
       "icon": "SkillIcon_1509_Rank2.png",
       "param_list": [
         5,
@@ -71,7 +71,7 @@
     "6": {
       "id": 150906,
       "name": "Soul That Bore Friendship",
-      "desc": "Increases the bounce DMG multiplier of the Ultimate \"Enuma Elish\" by <unbreak>#1[i]%</unbreak>. While Gilgamesh is on the field, increases the All-Type <u>RES PEN</u> of ally characters by <unbreak>#2[i]%</unbreak>. When a teammate uses their Ultimate, Gilgamesh gains 1 point of \"Golden Rule,\" up to a total of <unbreak>#3[i]</unbreak> points. When this unit uses his Ultimate, he consumes all \"Golden Rule\" points and increases his Ultimate DMG's CRIT DMG by <unbreak>#4[i]%</unbreak> for each point of \"Golden Rule\" consumed.",
+      "desc": "Increases the bounce DMG multiplier of the Ultimate \"Enuma Elish\" by <unbreak>#1[i]%</unbreak>. While Gilgamesh is on the field, increases ally characters' All-Type <u>RES PEN</u> by <unbreak>#2[i]%</unbreak>. When a teammate uses Ultimate, Gilgamesh gains 1 point of \"Golden Rule,\" up to a total of <unbreak>#3[i]</unbreak> points. When this unit uses Ultimate, consumes all \"Golden Rule\" points, and each point of \"Golden Rule\" consumed increases the CRIT DMG for the Ultimate DMG dealt by <unbreak>#4[i]%</unbreak>.",
       "icon": "SkillIcon_1509_Rank6.png",
       "param_list": [
         0.8,
@@ -172,8 +172,8 @@
     "150902": {
       "id": 150902,
       "name": "Gate of Babylon",
-      "desc": "Obtains \"King's Acknowledgement,\" allowing this unit to ignore <color=#f29e38ff><unbreak>#5[i]%</unbreak></color> of the target's DEF when dealing DMG, lasting for <unbreak>#6[i]</unbreak> turn(s).\\nDeals Lightning DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Gilgamesh's ATK to adjacent targets.",
-      "simple_desc": "Gains \"King's Acknowledgement,\" enabling this unit to ignore the target's DEF when dealing DMG. Deals Lightning DMG to one enemy and Lightning DMG to adjacent targets.",
+      "desc": "Gains \"King's Acknowledgement,\" allowing this unit to ignore <color=#f29e38ff><unbreak>#5[i]%</unbreak></color> of the target's DEF when dealing DMG, lasting for <unbreak>#6[i]</unbreak> turn(s).\\nDeals Lightning DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Gilgamesh's ATK to adjacent targets.",
+      "simple_desc": "Gains \"King's Acknowledgement,\" enabling this unit to ignore part of the target's DEF when dealing DMG. Deals Lightning DMG to one enemy and Lightning DMG to adjacent targets.",
       "type": "BPSkill",
       "type_name": "Skill",
       "tag": "Blast",
@@ -372,7 +372,7 @@
       "id": 150903,
       "name": "Enuma Elish",
       "desc": "Deals Lightning DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Gilgamesh's ATK to all enemies, and additionally deals <unbreak>#3[i]</unbreak> instance(s) of DMG, with each instance dealing Lightning DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Gilgamesh's ATK to one random enemy.",
-      "simple_desc": "Deals <color=#f29e38ff>massive Lightning DMG</color> to all enemies. Additionally deals minor Lightning DMG to one random enemy, bouncing <color=#f29e38ff><unbreak>#3[i]</unbreak></color> time(s).",
+      "simple_desc": "Deals <color=#f29e38ff>massive Lightning DMG</color> to all enemies. Additionally deals minor Lightning DMG to random enemies, bouncing <color=#f29e38ff><unbreak>#3[i]</unbreak></color> time(s).",
       "type": "Ultra",
       "type_name": "Ultimate",
       "tag": "AoEAttack",
@@ -510,8 +510,8 @@
     "150904": {
       "id": 150904,
       "name": "\"Amuse Me to the Fullest\"",
-      "desc": "When an ally uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>, lasting for <unbreak>#1[i]</unbreak> turn(s).\\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest\". For each point of \"Interest\" in possession, SPD increases by <unbreak>#4[i]%</unbreak>.\\nWhen \"Interest\" reaches <unbreak>#2[i]</unbreak> points for the first time, Gilgamesh enters the \"Interest Piqued!\" state. In that state, he can only use his Skill, lasting for the entire battle. After using Skill, this unit's \"Interest\" resets.",
-      "simple_desc": "When an ally <color=#f29e38ff>uses their Ultimate</color>, Gilgamesh gains \"King's Burden,\" which <color=#f29e38ff>increases Ultimate DMG dealt</color> by this unit.\\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh <color=#f29e38ff>gains 1 point of \"Interest\"</color>. For each point of \"Interest\" in possession, <color=#f29e38ff>SPD increases</color>.\\nWhen \"Interest\" reaches <color=#f29e38ff><unbreak>#2[i]</unbreak></color> points for the first time, Gilgamesh enters the \"Interest Piqued!\" state. In that state, he can only use his Skill, lasting for the entire battle. After using Skill, this unit's \"Interest\" resets.",
+      "desc": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>, lasting for <unbreak>#1[i]</unbreak> turn(s).\\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by <unbreak>#4[i]%</unbreak>.\\nWhen \"Interest\" reaches <unbreak>#2[i]</unbreak> for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\"",
+      "simple_desc": "When a teammate <color=#f29e38ff>uses their Ultimate</color>, Gilgamesh gains \"King's Burden,\" which <color=#f29e38ff>increases Ultimate DMG dealt</color> by this unit.\\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh <color=#f29e38ff>gains 1 point of \"Interest\"</color>. For each point of \"Interest\" in possession, <color=#f29e38ff>increases SPD</color> for this unit.\\nWhen \"Interest\" reaches <color=#f29e38ff><unbreak>#2[i]</unbreak></color> for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\"",
       "type_name": "Talent",
       "tag": "Enhance",
       "sp_base": 10,
@@ -663,8 +663,8 @@
     "150905": {
       "id": 150905,
       "name": "\"I Grant You Permission To Strike\"",
-      "desc": "When Gilgamesh or <unbreak>Saber</unbreak> attacks, they accumulate 1 attack tally. After either unit attacks, if the accumulated attack tally reaches <unbreak>#5[i]</unbreak>, Gilgamesh and <unbreak>Saber</unbreak> launch a <u>Joint Follow-Up ATK</u>, dealing Lightning DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Gilgamesh's ATK and Wind DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Saber's ATK to all enemies. Then, Gilgamesh gains <unbreak>#3[i]</unbreak> point(s) of \"Interest,\" and <unbreak>Saber</unbreak> regenerates <unbreak>#4[i]</unbreak> Energy and the DMG dealt when she next uses her Ultimate becomes <color=#f29e38ff><unbreak>#6[i]%</unbreak></color> of the original DMG.\\nThe accumulated attack tally is reset after using the <u>Joint Follow-Up ATK</u>.",
-      "simple_desc": "When Gilgamesh or <unbreak>Saber</unbreak> attacks, they accumulate attack tally. If the accumulated attack tally reaches <color=#f29e38ff><unbreak>#5[i]</unbreak></color> after either unit attacks, Gilgamesh and <unbreak>Saber</unbreak> launch a <u>Joint Follow-Up ATK</u>, dealing massive Lightning DMG and massive Wind DMG to all enemies. Gilgamesh <color=#f29e38ff>gains <color=#f29e38ff><unbreak>#3[i]</unbreak></color> point(s) of \"Interest\"</color>, and <unbreak>Saber</unbreak> regenerates Energy and additionally increases the DMG of her next Ultimate.",
+      "desc": "When Gilgamesh or <unbreak>Saber</unbreak> attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches <unbreak>#5[i]</unbreak>, Gilgamesh and <unbreak>Saber</unbreak> launch <u>Joint Follow-Up ATK</u>, dealing Lightning DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Gilgamesh's ATK and Wind DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains <unbreak>#3[i]</unbreak> \"Interest.\" <unbreak>Saber</unbreak> regenerates a fixed <unbreak>#4[i]</unbreak> Energy, and the next time she uses Ultimate, the DMG dealt becomes <color=#f29e38ff><unbreak>#6[i]%</unbreak></color> of the original DMG.\\nAfter using <u>Joint Follow-Up ATK</u>, resets the attack tally.",
+      "simple_desc": "When Gilgamesh or <unbreak>Saber</unbreak> attacks, the attack tally increases. After any unit attacks, if the attack tally reaches <color=#f29e38ff><unbreak>#5[i]</unbreak></color>, Gilgamesh and <unbreak>Saber</unbreak> launch <u>Joint Follow-Up ATK</u>, dealing massive Lightning DMG and massive Wind DMG to all enemies. Gilgamesh <color=#f29e38ff>gains <color=#f29e38ff><unbreak>#3[i]</unbreak></color> \"Interest.\"</color> <unbreak>Saber</unbreak> regenerates Energy and additionally increases the DMG of her next Ultimate.",
       "type_name": "Talent",
       "tag": "AoEAttack",
       "sp_base": 10,
@@ -877,8 +877,8 @@
     "150907": {
       "id": 150907,
       "name": "Enkidu",
-      "desc": "After using Technique, creates 1 Special Dimension lasting for <unbreak>#1[i]</unbreak> second(s). Enemies in the Special Dimension enter the \"King's Permission\" state. Enemies in the \"King's Permission\" state will stop all actions.\\nWhen entering combat by actively attacking an enemy in the \"King's Permission\" state, causes all enemies in the \"King's Permission\" state to enter combat, and deals Lightning DMG equal to <unbreak>#2[i]%</unbreak> of Gilgamesh's ATK to all enemies after entering battle. Gilgamesh also immediately gains <unbreak>#3[i]</unbreak> point(s) of \"Interest.\" Only 1 Special Dimension created by allies can exist.",
-      "simple_desc": "Creates a Special Dimension. Enemies in the Special Dimension enter the \"King's Permission\" state and stop all their actions.\\nAttacking an enemy in the \"King's Permission\" state causes all enemies in the \"King's Permission\" state to enter combat simultaneously. After entering combat, deals Lightning DMG to all enemies and immediately <color=#f29e38ff>gains <color=#f29e38ff><unbreak>#3[i]</unbreak></color> point(s) of \"Interest\"</color>.",
+      "desc": "After using Technique, creates 1 Special Dimension lasting for <unbreak>#1[i]</unbreak> second(s). Enemies in the Special Dimension enter the \"King's Permission\" state. Enemies in the \"King's Permission\" state will cease all actions.\\nWhen entering combat by actively attacking an enemy in the \"King's Permission\" state, causes all enemies in the \"King's Permission\" state to enter combat, and deals Lightning DMG equal to <unbreak>#2[i]%</unbreak> of Gilgamesh's ATK to all enemies after entering combat. Gilgamesh also immediately gains <unbreak>#3[i]</unbreak> \"Interest.\" Only 1 Dimension Effect created by allies can exist at the same time.",
+      "simple_desc": "Creates a Special Dimension. Enemies in the Special Dimension enter the \"King's Permission\" state and cease all actions.\\nAttacking an enemy in the \"King's Permission\" state causes all enemies in the \"King's Permission\" state to enter combat simultaneously. After entering combat, deals Lightning DMG to all enemies and immediately <color=#f29e38ff>gains <color=#f29e38ff><unbreak>#3[i]</unbreak></color> \"Interest.\"</color>",
       "type": "Maze",
       "type_name": "Technique",
       "tag": "Impair",
@@ -2234,7 +2234,7 @@
         ],
         "point_id": 1509101,
         "point_name": "Epic's Opening",
-        "point_desc": "When Gilgamesh uses his Ultimate, he gains <unbreak>#3[i]</unbreak> points of \"Interest.\" When other ally characters use their Ultimates, Gilgamesh additionally gains <unbreak>#1[i]</unbreak> \"Interest\" points and regenerates a fixed amount of Energy equal to <unbreak>#2[i]%</unbreak> of the Energy consumed this time.",
+        "point_desc": "When Gilgamesh uses Ultimate, gains <unbreak>#3[i]</unbreak> \"Interest.\" When other ally characters use Ultimate, Gilgamesh additionally gains <unbreak>#1[i]</unbreak> \"Interest\" and regenerates a fixed amount of Energy equal to <unbreak>#2[i]%</unbreak> of the Energy consumed this time.",
         "point_trigger_key": 6,
         "point_type": 3,
         "pre_point": [],
@@ -2278,7 +2278,7 @@
         ],
         "point_id": 1509102,
         "point_name": "Hero's Hauteur",
-        "point_desc": "During the battle, every 1 point of \"Interest\" gained by Gilgamesh increases his CRIT DMG by <unbreak>#1[i]%</unbreak>. This effect can stack up to <unbreak>#2[i]</unbreak> time(s).",
+        "point_desc": "During the current battle, for every 1 point of \"Interest\" gained by Gilgamesh, increases his CRIT DMG by <unbreak>#1[i]%</unbreak>. This effect can stack up to <unbreak>#2[i]</unbreak> time(s).",
         "point_trigger_key": 7,
         "point_type": 3,
         "pre_point": [],
@@ -2325,7 +2325,7 @@
         ],
         "point_id": 1509103,
         "point_name": "Hegemon's Strife",
-        "point_desc": "While Gilgamesh is on the field, increases the ATK of all ally targets by <unbreak>#1[i]%</unbreak> and CRIT DMG by <unbreak>#2[i]%</unbreak>. If the target's Max Energy exceeds <unbreak>#3[i]</unbreak>, every 1 excess point of Max Energy additionally increases ATK and CRIT DMG by <unbreak>#4[i]%</unbreak>, up to a maximum of <unbreak>#5[i]%</unbreak>.",
+        "point_desc": "While Gilgamesh is on the field, increases all ally targets' ATK by <unbreak>#1[i]%</unbreak> and CRIT DMG by <unbreak>#2[i]%</unbreak>. If the target's Max Energy exceeds <unbreak>#3[i]</unbreak>, for every 1 excess point of Max Energy, additionally increases ATK and CRIT DMG by <unbreak>#4[i]%</unbreak>, up to a maximum additional increase of <unbreak>#5[i]%</unbreak>.",
         "point_trigger_key": 8,
         "point_type": 3,
         "pre_point": [],

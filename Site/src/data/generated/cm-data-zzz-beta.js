@@ -2836,7 +2836,7 @@
       "title": "En-Nah Time",
       "slug": "norma",
       "releasePatch": "2.5",
-      "updated": 1783634400000,
+      "updated": 1783641600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm9332106|Madeline Dorroh",
@@ -5552,7 +5552,7 @@
       "slug": "pyrois",
       "release": 1781654400000,
       "releasePatch": "3.0",
-      "updated": 1783461600000,
+      "updated": 1783468800000,
       "sourceOrder": 0,
       "icon": "../../Database/GameData/zzz/assets/agents/icons/IconRole63.webp",
       "portraitProvenance": {
@@ -8237,7 +8237,7 @@
       "slug": "velina",
       "release": 1781654400000,
       "releasePatch": "3.0",
-      "updated": 1783461600000,
+      "updated": 1783468800000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm5966262|Rhiannon Moushall",
@@ -10863,7 +10863,7 @@
       "slug": "aria",
       "release": 1772582400000,
       "releasePatch": "2.6",
-      "updated": 1782165600000,
+      "updated": 1782172800000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm9702939|Rebecca Wang",
@@ -13571,7 +13571,7 @@
         "zh": "(Test1)\u5e0c\u683c\u8389\u5fb7"
       },
       "slug": "sigrid",
-      "updated": 1781906400000,
+      "updated": 1781913600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Dani Chambers",
@@ -16143,7 +16143,7 @@
       "slug": "miyabi",
       "release": 1734480000000,
       "releasePatch": "1.4",
-      "updated": 1781388000000,
+      "updated": 1781395200000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Cristina Vee",
@@ -18706,7 +18706,7 @@
       "title": "Patience of a Cat",
       "slug": "nekomata",
       "releasePatch": "1.0",
-      "updated": 1781388000000,
+      "updated": 1781395200000,
       "sourceOrder": 0,
       "voiceActors": {
         "japanese": "Hara Sayuri (\u539f \u7d17\u53cb\u91cc)",
@@ -21316,7 +21316,7 @@
       "slug": "rina",
       "release": 1720051200000,
       "releasePatch": "1.0",
-      "updated": 1781388000000,
+      "updated": 1781395200000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Morgan Laur\u00e9",

@@ -1549,6 +1549,36 @@
     "zh": "灼尽炼狱的新骸",
     "ja": "{RUBY_B#れんごく}煉獄{RUBY_E#}に{RUBY_B#や}焼{RUBY_E#}かれし{RUBY_B#あらみ}新身{RUBY_E#}"
   },
+  "23060": {
+    "rank": "CombatPowerLightconeRarity5",
+    "baseType": "Mage",
+    "en": "A Star That Lights the Night",
+    "atk": 635,
+    "desc": "Looking back at her childhood, she remembered the first time she heard adventure stories of the Trailblaze.\\nHer tiny heart beat for the mystery and vastness of the universe, so she picked up a paintbrush and drew her very first imaginings of the cosmos.\\n<i>\"A comet ship, a silver rail, a Navigator...\"</i>\\n<i>\"With this, is it possible to Trailblaze now?\"</i>\\n\\nBut a curse delayed her footsteps, and a sickbed confined her youth.\\nDuring those lonely times, towering stacks of books, scattered engine blueprints, and empty bottles of paint became her everyday life.\\nHer frail figure wielded the brush, carefully outlining the dream she yearned for.\\n<i>\"Perhaps I can seize more possibilities within this limited time.\"</i>\\n<i>\"Even a dream is worth being illuminated by colors.\"</i>\\n\\nAs the stars shifted once more, in the blink of an eye, she had already departed on her journey to the stars.\\nCarrying the wish she shared with her friend, she became the person she had always dreamed of becoming.\\n\\n<i>\"The journey of the Trailblaze begins at this very moment.\"</i>\\nThe Express traverses the universe, and the footprints of the Navigator and her companions advancing side by side form a solid silver rail.\\n<i>\"Together, let's reach the future where the stars reside!\"</i>",
+    "ko": "별이 밤하늘을 밝힐 때",
+    "zh": "当一颗星照亮夜空",
+    "ja": "{RUBY_B#よる}夜{RUBY_E#}を{RUBY_B#て}照{RUBY_E#}らす{RUBY_B#みちび}導{RUBY_E#}きの{RUBY_B#ほし}星{RUBY_E#}"
+  },
+  "23061": {
+    "rank": "CombatPowerLightconeRarity5",
+    "baseType": "Mage",
+    "en": "Flickering Stars",
+    "atk": 635,
+    "desc": "The instant magical energy surges forth, the gem's brilliant hues splash across the walls.\\nThe teenage girl breaks into a delighted smile, carefully enfolding the dancing light with her palms.\\n\\n<i>\"I did it! Does this mean I can also become a great mage someday?\"</i>\\nShe envisions her future as a mage, planting the seed of a wish deep in her heart.\\n\\n<i>\"You can do this, Rin Tohsaka! Succeeding once isn't enough! You need to succeed countless times!\"</i>\\n<i>\"I don't know what the future holds, but right now, just follow your heart and press forward!\"</i>\\nIn this moment of triumph, her expectations of herself, her family's hopes, and the responsibility she shoulders all converge.\\nThe girl quietly cheers herself on. She's ready to become the best version of herself.\\n\\nThe road ahead stretches long and arduous, yet her blazing heart shines brighter than any magic.",
+    "ko": "고요히 빛나는 불티",
+    "zh": "星火悄然闪耀",
+    "ja": "{RUBY_B#しず}静{RUBY_E#}かに{RUBY_B#またた}瞬{RUBY_E#}く{RUBY_B#ちい}小{RUBY_E#}さな{RUBY_B#ひ}火{RUBY_E#}"
+  },
+  "23062": {
+    "rank": "CombatPowerLightconeRarity5",
+    "baseType": "Warrior",
+    "en": "I Am As You Behold",
+    "atk": 635,
+    "desc": "Treasure, power, conquest, challenges... A jumble of fragments played on repeat in his mind.\\nIn the flickering lamplight, the King drained his cup in one gulp.\\n<i>\"Overflowing riches, boundless lands, absolute power. All that is rightfully mine belongs to me.\"</i>\\n<i>\"But if that is all there is... does anything truly matter?\"</i>\\n\\nA languid figure sank into the plush sofa, thoughts and musings dissipating like smoke in an instant.\\nEven a king must occasionally surrender to his own desires and savor a moment of pleasure.\\n<i>\"What does it matter what I seek or gain? The moments when life pulses freely at my whim are the moments I treasure most.\"</i>",
+    "ko": "보이는 것이 곧 나",
+    "zh": "所见即我",
+    "ja": "{RUBY_B#あ}在{RUBY_E#}るがままの{RUBY_B#オレ}我{RUBY_E#}"
+  },
   "24000": {
     "rank": "CombatPowerLightconeRarity5",
     "baseType": "Warrior",

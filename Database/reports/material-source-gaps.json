@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-14T14:36:38.081Z",
+  "generatedAt": "2026-07-16T16:08:08.439Z",
   "note": "Generic shops, crafting, exchanges, and event rewards are intentionally filtered. Rows here need scraper/wiki-specific source data.",
-  "count": 207,
+  "count": 214,
   "missing": [
     {
       "game": "gi",
@@ -467,7 +467,7 @@
     },
     {
       "game": "gi",
-      "context": "Bennett ascension",
+      "context": "Traveler ascension",
       "id": "100024",
       "name": "Windwheel Aster",
       "kind": "specialty"
@@ -600,6 +600,13 @@
     },
     {
       "game": "hsr",
+      "context": "Himeko Nova talents",
+      "id": "110291",
+      "name": "Celestial Globe",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
       "context": "Cerydra talents",
       "id": "110232",
       "name": "Celestial Section",
@@ -618,6 +625,13 @@
       "id": "111013",
       "name": "Conqueror's Will",
       "kind": "mob"
+    },
+    {
+      "game": "hsr",
+      "context": "Himeko Nova talents",
+      "id": "110293",
+      "name": "Cosmic Sandpit",
+      "kind": "book"
     },
     {
       "game": "hsr",
@@ -712,7 +726,7 @@
     },
     {
       "game": "hsr",
-      "context": "Evanescia ascension",
+      "context": "Himeko Nova ascension",
       "id": "116002",
       "name": "Dreamweave Steel",
       "kind": "mob"
@@ -775,7 +789,7 @@
     },
     {
       "game": "hsr",
-      "context": "Archer ascension",
+      "context": "Gilgamesh ascension",
       "id": "111001",
       "name": "Extinguished Core",
       "kind": "mob"
@@ -817,10 +831,24 @@
     },
     {
       "game": "hsr",
+      "context": "Gilgamesh talents",
+      "id": "110281",
+      "name": "Four Phases, Crossing the River to Check the King",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
       "context": "Aventurine ascension",
       "id": "114012",
       "name": "Fragments of Impression",
       "kind": "mob"
+    },
+    {
+      "game": "hsr",
+      "context": "Himeko Nova talents",
+      "id": "110292",
+      "name": "Galaxy Framework",
+      "kind": "book"
     },
     {
       "game": "hsr",
@@ -831,7 +859,7 @@
     },
     {
       "game": "hsr",
-      "context": "Archer ascension",
+      "context": "Gilgamesh ascension",
       "id": "111002",
       "name": "Glimmering Core",
       "kind": "mob"
@@ -859,7 +887,7 @@
     },
     {
       "game": "hsr",
-      "context": "Archer talents",
+      "context": "Gilgamesh talents",
       "id": "110502",
       "name": "Guardian's Lament",
       "kind": "weekly"
@@ -992,7 +1020,7 @@
     },
     {
       "game": "hsr",
-      "context": "Evanescia ascension",
+      "context": "Himeko Nova ascension",
       "id": "116003",
       "name": "Lucid Awl",
       "kind": "mob"
@@ -1069,6 +1097,13 @@
     },
     {
       "game": "hsr",
+      "context": "Gilgamesh talents",
+      "id": "110283",
+      "name": "Omnicolor, Fool's Own",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
       "context": "Acheron talents",
       "id": "110504",
       "name": "Past Evils of the Borehole Planet Disaster",
@@ -1076,7 +1111,7 @@
     },
     {
       "game": "hsr",
-      "context": "Mortenax Blade ascension",
+      "context": "Himeko Nova ascension",
       "id": "110432",
       "name": "Radiant Prominence",
       "kind": "boss"
@@ -1188,6 +1223,20 @@
     },
     {
       "game": "hsr",
+      "context": "Gilgamesh talents",
+      "id": "110282",
+      "name": "Sixen, King-Rook Fork",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Rin Tohsaka ascension",
+      "id": "110443",
+      "name": "Sneering Harlequin",
+      "kind": "boss"
+    },
+    {
+      "game": "hsr",
       "context": "Bailu talents",
       "id": "110172",
       "name": "Sprout of Life",
@@ -1195,7 +1244,7 @@
     },
     {
       "game": "hsr",
-      "context": "Archer ascension",
+      "context": "Gilgamesh ascension",
       "id": "111003",
       "name": "Squirming Core",
       "kind": "mob"
@@ -1272,14 +1321,14 @@
     },
     {
       "game": "hsr",
-      "context": "Ashveil ascension",
+      "context": "Gilgamesh ascension",
       "id": "110434",
       "name": "Thunder Strum",
       "kind": "boss"
     },
     {
       "game": "hsr",
-      "context": "Evanescia talents",
+      "context": "Himeko Nova talents",
       "id": "241",
       "name": "Tracks of Destiny",
       "kind": "mob"
@@ -1293,7 +1342,7 @@
     },
     {
       "game": "hsr",
-      "context": "Evanescia talents",
+      "context": "Himeko Nova talents",
       "id": "110508",
       "name": "Vanquished Flow's Reticence",
       "kind": "weekly"
@@ -1307,7 +1356,7 @@
     },
     {
       "game": "hsr",
-      "context": "Evanescia ascension",
+      "context": "Himeko Nova ascension",
       "id": "116001",
       "name": "Whimsy Wax",
       "kind": "mob"

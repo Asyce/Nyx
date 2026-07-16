@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "path": "GameData/hsr/assets/characters/avatar/1507.webp",
+    "gamedataAssetPath": "avataricon/avatar/1507.webp"
+  },
+  {
+    "path": "GameData/hsr/assets/characters/avatar/1512.webp",
+    "gamedataAssetPath": "avataricon/avatar/1512.webp"
+  },
+  {
+    "path": "GameData/hsr/assets/characters/avatar/1513.webp",
+    "gamedataAssetPath": "avataricon/avatar/1513.webp"
+  }
+]

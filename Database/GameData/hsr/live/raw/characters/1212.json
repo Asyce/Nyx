@@ -126,12 +126,6 @@
         "is_battle_voice": false
       },
       {
-        "voice_id": 28,
-        "voice_title": "About Mortenax Blade",
-        "voice_m": "I'll be waiting... for the day he comes to take his revenge on me.",
-        "is_battle_voice": false
-      },
-      {
         "voice_id": 18,
         "voice_title": "Eidolon Activation",
         "voice_m": "The blade's reflection illuminates the past.",
@@ -183,12 +177,6 @@
         "voice_id": 27,
         "voice_title": "Added to Team With Yao Guang",
         "voice_m": "Do not fear my sword, I wield it only to slay the enemy.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 29,
-        "voice_title": "Added to Team With Mortenax Blade",
-        "voice_m": "Still that sword...? Just how much of the past have you truly left behind?",
         "is_battle_voice": false
       },
       {

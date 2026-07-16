@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "floating-grease-chronicles-literary-fragment",
+  "name": "Floating Grease Chronicles: Literary Fragment",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Floating_Grease_Chronicles:_Literary_Fragment",
+  "scrapedAt": "2026-07-16T09:08:14.242Z",
+  "volumes": [
+    {
+      "id": "1",
+      "volumeKey": "text",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Art is the grand deception"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The inequality of the soul"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Remains unsolved"
+              }
+            ],
+            "id": "p-b690fc7db9e66a1e"
+          }
+        ]
+      }
+    }
+  ]
+}

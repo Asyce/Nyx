@@ -4,7 +4,7 @@
   "id": "floating-grease-chronicles-chapter-of-the-rabbit",
   "name": "Floating Grease Chronicles: Chapter of the Rabbit",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Floating_Grease_Chronicles:_Chapter_of_the_Rabbit",
-  "scrapedAt": "2026-07-15T09:07:35.239Z",
+  "scrapedAt": "2026-07-16T09:08:14.242Z",
   "volumes": [
     {
       "id": "1",
@@ -412,6 +412,176 @@
               }
             ],
             "id": "p-334c19dd7c060032"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "volumeKey": "part-vii",
+      "label": "Part VII",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Rabbits have no freedom"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "As their perspectives always stretch elsewhere"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "They diverge, they evade"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "They carve out many a path"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Between one another with no return"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Love becomes extravagance"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "For it is rich enough"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Wisdom becomes miserliness"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "For it is poor enough"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Rabbits are not masters of dominance"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Nor do they bow to Gods"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "They decree by their own will"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And seize the inversion of strength"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "It is not that cause begets effect"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Rather, it is the effect"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "That sets rabbits searching for a cause"
+              }
+            ],
+            "id": "p-d1fc442b7fd24289"
           }
         ]
       }

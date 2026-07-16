@@ -4,7 +4,7 @@
   "id": "dahao-s-diary",
   "name": "Dahao's Diary",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Dahao%27s_Diary",
-  "scrapedAt": "2026-07-15T09:07:35.239Z",
+  "scrapedAt": "2026-07-16T09:08:14.242Z",
   "volumes": [
     {
       "id": "1",
@@ -98,10 +98,10 @@
             "children": [
               {
                 "type": "text",
-                "text": "I once dreamed that I was back on the battlefield. Wielding crossbows with my Cloud Knight brethren, this giant sword followed around behind us, searching out enemies. We went back to Dikong; went back to the Giant's Arm system; went back to the islands of Thalassa; fought all kinds of Abominations of Abundance along the way."
+                "text": "I once dreamed that I was back on the battlefield. Wielding crossbows with my Cloud Knight brethren, this giant sword followed around behind us, searching out enemies. We went back to the Star of Void; went back to the Giant's Arm system; went back to the islands of Thalassa; fought all kinds of Abominations of Abundance along the way."
               }
             ],
-            "id": "p-021df8d34264bdeb"
+            "id": "p-54536e199372ee92"
           },
           {
             "type": "paragraph",

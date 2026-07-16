@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "game": "hsr",
-  "generatedAt": "2026-07-15T09:07:35.239Z",
-  "count": 618,
+  "generatedAt": "2026-07-16T09:08:14.242Z",
+  "count": 619,
   "entries": [
     {
       "id": "back-to-era-chrysea-handbook",
@@ -3142,14 +3142,16 @@
       "name": "Floating Grease Chronicles: Chapter of the Monkey",
       "icon": "icons/101dd6a2e169ce598606ea59592e1769a9d2c622e3c8c5da916c0dc743ee68f4.webp",
       "file": "floating-grease-chronicles-chapter-of-the-monkey.json",
-      "volumeCount": 2,
+      "volumeCount": 3,
       "volumeLabels": [
         "I",
-        "XI"
+        "XI",
+        "Part XXIII"
       ],
       "volumeKeys": [
         "i",
-        "xi"
+        "xi",
+        "part-xxiii"
       ]
     },
     {
@@ -3157,14 +3159,29 @@
       "name": "Floating Grease Chronicles: Chapter of the Rabbit",
       "icon": "icons/101dd6a2e169ce598606ea59592e1769a9d2c622e3c8c5da916c0dc743ee68f4.webp",
       "file": "floating-grease-chronicles-chapter-of-the-rabbit.json",
-      "volumeCount": 2,
+      "volumeCount": 3,
       "volumeLabels": [
         "I",
-        "V"
+        "V",
+        "Part VII"
       ],
       "volumeKeys": [
         "i",
-        "v"
+        "v",
+        "part-vii"
+      ]
+    },
+    {
+      "id": "floating-grease-chronicles-literary-fragment",
+      "name": "Floating Grease Chronicles: Literary Fragment",
+      "icon": "icons/101dd6a2e169ce598606ea59592e1769a9d2c622e3c8c5da916c0dc743ee68f4.webp",
+      "file": "floating-grease-chronicles-literary-fragment.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ],
+      "volumeKeys": [
+        "text"
       ]
     },
     {

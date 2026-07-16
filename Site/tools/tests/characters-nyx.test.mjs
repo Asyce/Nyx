@@ -36,7 +36,7 @@ test('Characters tabs share the shell control and pinned favourites stay on Rost
   assert.doesNotMatch(materials, /cm-tab-orbit/);
   assert.ok(materials.indexOf('curTab === \'roster\' && pinnedFavourites') > materials.indexOf('<div className="cm-body">'), 'favourites scroll with the roster body');
   assert.match(materials, /<span className="cm-character-tabs">[\s\S]*className="cm-detail-back"[\s\S]*>Materials<\/button>/, 'Back sits beside Materials and Character Kit');
-  assert.match(css, /\.cm-tabs\{[^}]*max-width:994px[^}]*repeat\(3,minmax\(0,326px\)\)/);
+  assert.match(css, /\.cm-tabs\{[^}]*display:inline-grid[^}]*grid-auto-columns:1fr/, 'desktop tabs size to the widest label (2026-07-15 #7)');
   assert.match(css, /@media \(max-width: 680px\)[\s\S]*grid-template-columns:minmax\(0,326px\)/);
 });
 
@@ -208,7 +208,7 @@ test('Endfield material overview uses the exact sourced Growth and Progression l
 
 test('Endfield uses user-facing Growth and Progression tab labels without mutating generated data', async () => {
   const materials = await read('src/features/materials/char-materials.jsx');
-  assert.match(materials, /gk === 'ae'[\s\S]*mid:'Growth Materials', boss:'Progression Materials'/);
+  assert.match(materials, /gk === 'ae'[\s\S]*mid:'Growth Materials', boss:'Progression'/, 'boss tab reads Progression (2026-07-15 #8)');
   assert.match(materials, /label:displayTabs\.mid/);
   assert.match(materials, /label:displayTabs\.boss/);
 });

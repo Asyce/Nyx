@@ -1,0 +1,233 @@
+  @font-face{ font-family:'GI';  src:url('../../assets/fonts/GI.ttf')  format('truetype'); font-display:swap; }
+  @font-face{ font-family:'HSR'; src:url('../../assets/fonts/HSR.ttf') format('truetype'); font-display:swap; }
+
+  :root{
+    --accent:var(--nyx-color-accent);
+    --accent-bright:var(--nyx-color-accent-bright);
+    --accent-glow:var(--nyx-compat-color-b09395706592);
+    --glow:1;
+    --spin:480s;
+    --tx:var(--nyx-color-text);
+  }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  html,body{ height:100%; }
+  body{
+    background:var(--nyx-color-canvas);
+    font-family:var(--nyx-font-ui);
+    color:var(--tx);
+    overflow:hidden;
+    -webkit-font-smoothing:antialiased;
+  }
+  /* ===== full-viewport background stack ===== */
+  .page-bg{
+    position:fixed; inset:-6vmax; z-index:0;
+    background:var(--nyx-color-canvas) url('../../assets/bg/backgroundnyx.png') 50% 46%/112% auto no-repeat;
+    filter:brightness(.62) saturate(1.03) contrast(1.02);
+    transform:scale(1.025);
+    transform-origin:center center;
+  }
+  .page-pattern{
+    position:fixed; top:50%; left:50%; width:150vmax; height:150vmax; z-index:1;
+    transform:translate(-50%,-50%) rotate(0deg); transform-origin:center center;
+    background:url('../../assets/decor/pattern.png') center/84% no-repeat;
+    mix-blend-mode:screen; opacity:.2; pointer-events:none;
+    animation:spinPattern var(--spin) linear infinite;
+  }
+  :root.no-motion .page-pattern{ animation-play-state:paused; }
+  @keyframes spinPattern{ from{ transform:translate(-50%,-50%) rotate(0deg); } to{ transform:translate(-50%,-50%) rotate(360deg); } }
+  @keyframes rot{ from{ transform:rotate(0deg); } to{ transform:rotate(360deg); } }
+  @keyframes chainloop{ from{ offset-distance:0%; } to{ offset-distance:100%; } }
+  .page-vignette{
+    position:fixed; inset:0; z-index:2; pointer-events:none;
+    background:
+      radial-gradient(120% 90% at 50% 8%, var(--nyx-compat-color-031c9122883a), transparent 46%),
+      radial-gradient(140% 120% at 50% 120%, var(--nyx-compat-color-6d4fa07a28aa), transparent 55%),
+      linear-gradient(180deg, var(--nyx-compat-color-8191746d3407) 0%, var(--nyx-compat-color-ee20a42e582c) 24%, var(--nyx-compat-color-ee20a42e582c) 62%, var(--nyx-compat-color-9ab69cf710a0) 100%);
+  }
+
+  /* ===== scaling stage ===== */
+  .stage-wrap{ position:fixed; inset:0; z-index:3; display:grid; place-items:center; overflow:hidden; }
+  .stage{ position:relative; width:1600px; height:900px; transform-origin:center center; }
+
+  /* ===== header — large living-eye logo, hugging the top-right border ===== */
+  .hd{ position:absolute; top:-44px; right:18px; z-index:20; }
+  .hd-eye{ position:relative; width:336px; height:336px;
+    filter:var(--nyx-compat-shadow-drop-fe559570d0d4) var(--nyx-compat-shadow-drop-6bca0d8d77a2); }
+  .elayer{ position:absolute; inset:0; background:var(--nyx-compat-color-hex-f7f4ff);
+    -webkit-mask-repeat:no-repeat; mask-repeat:no-repeat;
+    -webkit-mask-position:center; mask-position:center;
+    -webkit-mask-size:100% 100%; mask-size:100% 100%; }
+  .elayer.ball{ -webkit-mask-image:url('../../assets/icon/eye_ball.png'); mask-image:url('../../assets/icon/eye_ball.png');
+    transition:transform 1.3s cubic-bezier(.45,.05,.3,1); will-change:transform; }
+  .elayer.lid{ -webkit-mask-image:url('../../assets/icon/eye_lid.png'); mask-image:url('../../assets/icon/eye_lid.png'); }
+  .elayer.drips{ -webkit-mask-image:url('../../assets/icon/eye_drips.png'); mask-image:url('../../assets/icon/eye_drips.png'); }
+
+  /* ===== top-left: large wordmark on the (180-flipped) achievement-cycle plate ===== */
+  .hd-right{ position:absolute; top:8px; left:18px; z-index:20;
+    width:720px; height:128px; display:flex; align-items:center; justify-content:flex-start;
+    transform:scale(.8); transform-origin:top left; }
+  .hd-right .plate{ position:absolute; inset:0; pointer-events:none;
+    background:url('../../assets/decor/achievement_cycle.png') center/100% 100% no-repeat;
+    mix-blend-mode:screen; opacity:.55; transform:rotate(180deg);
+    -webkit-mask:linear-gradient(90deg, var(--nyx-compat-color-hex-000) 0%, var(--nyx-compat-color-hex-000) 30%, transparent 88%);
+    mask:linear-gradient(90deg, var(--nyx-compat-color-hex-000) 0%, var(--nyx-compat-color-hex-000) 30%, transparent 88%); }
+  .hd-right .wm{ position:relative; display:flex; align-items:center; gap:var(--nyx-space-18); white-space:nowrap;
+    font-family:var(--nyx-font-display); font-size:var(--nyx-compat-size-78px); line-height:.9; letter-spacing:var(--nyx-compat-tracking-p04em); color:var(--nyx-compat-color-hex-f7f4ff);
+    text-shadow:var(--nyx-compat-shadow-text-871c43a7345c); }
+  .hd-right .wm-logo{ height:120px; width:auto; flex:none;
+    filter:var(--nyx-compat-shadow-drop-fac6b4c87f7c) var(--nyx-compat-shadow-drop-f83b4095f4e9); }
+
+  /* ===== banner buttons — centered above the cards ===== */
+  .topbanners{ display:flex; gap:var(--nyx-space-18); justify-content:center; }
+  :root.hide-banners .topbanners{ display:none; }
+  .banner{ position:relative; height:54px; border:none; cursor:pointer;
+    display:flex; align-items:center; justify-content:center; min-width:248px; padding:0 var(--nyx-compat-spacing-30px);
+    background:url('../../assets/cards/principal_frame.png') center/100% 100% no-repeat;
+    font-family:var(--nyx-compat-family-bbbd64e38bdd); font-size:var(--nyx-compat-size-15px); letter-spacing:var(--nyx-compat-tracking-p16em); text-transform:uppercase;
+    color:var(--nyx-compat-color-hex-ece6ff); text-shadow:var(--nyx-compat-shadow-text-2dcb8d5b1bda); white-space:nowrap;
+    filter:var(--nyx-compat-shadow-drop-97b223da952f) var(--nyx-compat-shadow-drop-b751dbb72ded);
+    transition:transform .35s cubic-bezier(.2,.7,.2,1), filter .35s; }
+  .banner:hover{ transform:translateY(-3px);
+    filter:brightness(1.15) var(--nyx-compat-shadow-drop-32572877d0c0) var(--nyx-compat-shadow-drop-5df3db96847d); }
+  .banner:focus-visible{ outline:var(--nyx-focus-ring); outline-offset:var(--nyx-focus-offset); }
+  .banner-seat{ position:absolute; left:-18px; bottom:-10px; height:112px; width:auto; z-index:4;
+    pointer-events:none; filter:var(--nyx-compat-shadow-drop-8f69dd7d7701); }
+
+  /* ===== layout: Nyx apart, games in a 3-wide grid ===== */
+  .layout{ position:absolute; inset:0; z-index:10;
+    display:flex; flex-direction:column; align-items:center; justify-content:center; gap:var(--nyx-compat-spacing-46px); }
+  .grid{ display:grid; grid-template-columns:repeat(3, 304px); gap:var(--nyx-compat-spacing-48px) var(--nyx-compat-spacing-40px); }
+  .col{ position:relative; cursor:pointer; transition:filter .5s ease; }
+  /* hovering any card greys out all the others */
+  .layout:has(.col:hover) .col:not(:hover){ filter:grayscale(1) brightness(.5); }
+
+  /* ===== circular sigil-orbit game card ===== */
+  .card{ position:relative; width:304px; height:304px;
+    transition:transform .5s cubic-bezier(.2,.7,.2,1), filter .5s;
+    filter:var(--nyx-compat-shadow-drop-97b223da952f) var(--nyx-compat-shadow-drop-3af2c652efff); }
+  .framewrap{ position:absolute; inset:0; }
+  .bed{ position:absolute; inset:0; border-radius:50%; background:var(--nyx-compat-color-c956d57ac554);
+    box-shadow:var(--nyx-compat-shadow-box-c52604492861); }
+  .rail{ position:absolute; border-radius:50%; border:1px solid var(--nyx-compat-color-aaf84fa004c4);
+    pointer-events:none; transition:border-color .45s, box-shadow .45s; }
+  .rail.out{ inset:0; }
+  .rail.in{ inset:18px; }
+  .col:hover .rail{ border-color:var(--nyx-compat-color-a921370c6cb7); box-shadow:var(--nyx-compat-shadow-box-7273da4cf5e9); }
+  /* the pattern border — a continuous chain of patternv1 sigils riding the
+     frame band. Plain purple, no gradient. Paused (fully coloured) at rest;
+     orbits only while its card is hovered. */
+  .lk{ position:absolute; left:0; top:0; width:36px; height:21px;
+    background:var(--accent);
+    -webkit-mask:url('../../assets/decor/patternv1.png') center/contain no-repeat;
+    mask:url('../../assets/decor/patternv1.png') center/contain no-repeat;
+    offset-path:path('M 152 9 A 143 143 0 0 1 152 295 A 143 143 0 0 1 152 9 Z');
+    offset-rotate:auto;
+    animation:chainloop 42s linear infinite; animation-play-state:paused;
+    animation-delay:calc(var(--i) * -1.75s);
+    transition:filter .45s; }
+  .col:hover .lk{ animation-play-state:running;
+    filter:var(--nyx-compat-shadow-drop-832bbff1deda) brightness(1.1); }
+  .artwrap{ position:absolute; inset:18px; border-radius:50%; overflow:hidden;
+    box-shadow:var(--nyx-compat-shadow-box-0788c6e853fd); }
+  /* at rest the card shows the game ICON; hovering summons the key art */
+  .ico{ position:absolute; inset:0; background-size:cover; background-position:center;
+    background-repeat:no-repeat; background-color:var(--nyx-color-surface); }
+  .art{ position:absolute; inset:0; background-size:cover; background-position:50% 22%;
+    background-repeat:no-repeat; opacity:0;
+    transition:opacity .55s ease, transform .7s cubic-bezier(.2,.7,.2,1); }
+  .col:hover .art{ opacity:1; transform:scale(1.05); }
+  /* hover-only background animation over the art — invisible at rest */
+  .fx{ position:absolute; inset:0; pointer-events:none;
+    background:url('../../assets/decor/BgRogueCommonPatternRogue1.png') center/contain no-repeat;
+    mix-blend-mode:screen; opacity:0; transition:opacity .5s;
+    animation:rot 36s linear infinite reverse; animation-play-state:paused; }
+  .col:hover .fx{ opacity:.6; animation-play-state:running; }
+  .scrim{ position:absolute; inset:0; pointer-events:none;
+    background:linear-gradient(180deg, var(--nyx-compat-color-b3d95ff8d9d9) 0%, var(--nyx-compat-color-12727bdce092) 26%, var(--nyx-compat-color-12727bdce092) 56%, var(--nyx-compat-color-e7f07e6ca6a0) 100%); }
+  /* 8d² portal rings — plain purple, slightly larger than the card and
+     BEHIND it; invisible at rest, counter-turning while hovered */
+  .ringA, .ringB{ position:absolute; pointer-events:none; opacity:0; z-index:-1;
+    background:var(--accent); transition:opacity .5s; }
+  .ringA{ inset:-30px;
+    -webkit-mask:url('../../assets/cards/sumeru_circle_1.png') center/contain no-repeat;
+    mask:url('../../assets/cards/sumeru_circle_1.png') center/contain no-repeat;
+    animation:rot 55s linear infinite reverse; animation-play-state:paused; }
+  .ringB{ inset:-14px;
+    -webkit-mask:url('../../assets/cards/abyss_circle.png') center/contain no-repeat;
+    mask:url('../../assets/cards/abyss_circle.png') center/contain no-repeat;
+    animation:rot 80s linear infinite; animation-play-state:paused; }
+  .col:hover .ringA{ opacity:.8; animation-play-state:running; }
+  .col:hover .ringB{ opacity:.55; animation-play-state:running; }
+  .col:hover .card{ transform:translateY(-8px);
+    filter:var(--nyx-compat-shadow-drop-082647f709d4) var(--nyx-compat-shadow-drop-88b914fa564f); }
+
+  /* Nyx — same circular card as the rest; the living eye sits on
+     top of its key art permanently, and its eyeball follows the mouse */
+  .simeye{ position:absolute; inset:0; pointer-events:none; z-index:5;
+    filter:var(--nyx-compat-shadow-drop-3155b631564e); }
+  .simeye .slayer{ position:absolute; inset:0;
+    background:linear-gradient(165deg,var(--nyx-compat-color-hex-e3dcff),var(--nyx-compat-color-hex-9a89ea) 70%,var(--nyx-compat-color-hex-7a69d8));
+    -webkit-mask-repeat:no-repeat; mask-repeat:no-repeat;
+    -webkit-mask-position:50% 44%; mask-position:50% 44%;
+    -webkit-mask-size:88% auto; mask-size:88% auto; }
+  .simeye .slayer.ball{ -webkit-mask-image:url('../../assets/icon/eye_ball.png'); mask-image:url('../../assets/icon/eye_ball.png');
+    transition:transform .6s cubic-bezier(.2,.7,.2,1); will-change:transform; }
+  .simeye .slayer.lid{ -webkit-mask-image:url('../../assets/icon/eye_lid.png'); mask-image:url('../../assets/icon/eye_lid.png'); }
+  .simeye .slayer.drips{ -webkit-mask-image:url('../../assets/icon/eye_drips.png'); mask-image:url('../../assets/icon/eye_drips.png'); }
+  /* hovering the Nyx card: the eyeball vibrates with excitement
+     (vibration lives on a wrapper so the gaze-follow transform still applies) */
+  .ballvibe{ position:absolute; inset:0; }
+  .ballscale{ position:absolute; inset:0; transform-origin:50% 45%;
+    transition:transform .5s cubic-bezier(.2,.7,.2,1); }
+  .col.sim:hover .ballscale{ transform:scale(1.09); }
+  .simeye.sad .ballscale{ transform:scale(.86); transition-duration:1.1s; }
+  @keyframes simVibe{ from{ transform:translateX(-1.4px); } to{ transform:translateX(1.4px); } }
+  .col.sim:hover .ballvibe{ animation:simVibe .055s linear infinite alternate; }
+  :root.no-motion .col.sim:hover .ballvibe{ animation:none; }
+
+  @media (prefers-reduced-motion: reduce){
+    .page-pattern, .lk, .fx, .ringA, .ringB, .elayer.drips, .hd-eye .drop{ animation:none; }
+  }
+
+  /* screen-reader / crawler label — the cards stay imagery-only for sighted
+     users, but each link carries its game name for assistive tech and search. */
+  .sr-only{ position:absolute; width:1px; height:1px; padding:0; margin:var(--nyx-compat-spacing-neg-1px);
+    overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
+  .col{ text-decoration:none; color:inherit; -webkit-tap-highlight-color:transparent; }
+  .vis-label{ display:none; }
+  /* keyboard focus ring around the circular card */
+  .col:focus-visible{ outline:var(--nyx-focus-ring); outline-offset:8px; border-radius:var(--nyx-radius-circle); }
+
+  /* ===== mobile: a real compact grid instead of the off-screen 1600×900 canvas ===== */
+  @media (max-width: 760px){
+    html, body{ height:auto; min-height:100%; overflow-x:hidden; overflow-y:auto; }
+    .stage-wrap{ position:static; inset:auto; display:block; overflow:visible; height:auto; place-items:initial; }
+    .stage{ position:static; width:100%; height:auto; transform:none !important; }
+    .hd{ display:none; }
+    .hd-right{ position:static; transform:none; width:auto; height:auto;
+      padding:var(--nyx-space-24) var(--nyx-space-16) var(--nyx-space-2); justify-content:center; }
+    .hd-right .plate{ display:none; }
+    .hd-right .wm{ font-size:var(--nyx-type-title); gap:var(--nyx-compat-spacing-9px); justify-content:center; }
+    .hd-right .wm-logo{ height:38px; }
+    .layout{ position:static; inset:auto; padding:var(--nyx-space-10) var(--nyx-space-16) var(--nyx-compat-spacing-40px); gap:var(--nyx-space-20); justify-content:flex-start; }
+    .topbanners{ flex-wrap:wrap; }
+    .grid{ grid-template-columns:repeat(2, minmax(0, 1fr)); gap:var(--nyx-space-20) var(--nyx-space-16); width:100%; max-width:430px; }
+    .col, .col.sim{ width:100%; min-width:0; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:var(--nyx-space-10); }
+    .card{ width:100%; max-width:170px; height:auto; aspect-ratio:1 / 1; }
+    .vis-label{ display:block; width:100%; max-width:100%; min-width:0; min-height:28px; padding:var(--nyx-compat-spacing-7px) var(--nyx-space-4) 0;
+      font-family:var(--nyx-compat-family-bbbd64e38bdd); font-size:var(--nyx-compat-size-11px); line-height:1.15; letter-spacing:var(--nyx-compat-tracking-p09em); text-transform:uppercase;
+      color:var(--nyx-color-heading); text-align:center; text-shadow:var(--nyx-compat-shadow-text-f6af13416a58);
+      white-space:normal; overflow-wrap:anywhere; word-break:normal; }
+    /* hover-only / pixel-anchored decorations don't translate to small touch cards */
+    .lk, .ringA, .ringB, .fx{ display:none; }
+    .layout:has(.col:active) .col:not(:active){ filter:none; }
+  }
+  @media (max-width: 480px){
+    .hd-right{ padding-top:var(--nyx-compat-spacing-22px); }
+    .hd-right .wm{ font-size:var(--nyx-compat-size-28px); gap:var(--nyx-space-8); }
+    .hd-right .wm-logo{ height:36px; }
+    .layout{ padding:var(--nyx-space-8) var(--nyx-space-12) var(--nyx-compat-spacing-36px); gap:var(--nyx-space-18); }
+    .grid{ max-width:340px; gap:var(--nyx-space-18) var(--nyx-space-12); }
+    .card{ max-width:136px; }
+    .vis-label{ min-height:30px; padding-top:var(--nyx-space-6); font-size:var(--nyx-type-label); letter-spacing:var(--nyx-compat-tracking-p06em); line-height:1.2; }
+  }

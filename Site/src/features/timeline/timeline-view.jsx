@@ -213,7 +213,9 @@ function NyxEventLane({ label, icon, blocks, laneCount, view, msPerPx, width, no
 function BannerTimeline({ game, gameName }){
   var rootRef = React.useRef(null);
   var canvasRef = React.useRef(null);
-  var isGenshin = game === 'gi';
+  // Unified frame: every game renders the Genshin timeline layout — track
+  // rail, patch/phase/week schedule, forecast horizon, mini-map (user 2026-07-16).
+  var isGenshin = true;
   var timePreference = nyxTlUseTimePreference(game);
   var viewDate = function(ms, dateOnly){ return nyxTlViewDate(ms, dateOnly, timePreference, game); };
   var [payload, setPayload] = React.useState({ loading:true, records:[], activities:[], events:[], updated:null, error:null });

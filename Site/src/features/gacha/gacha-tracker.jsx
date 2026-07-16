@@ -894,7 +894,7 @@ function GachaTracker({ open, onClose, cfg, inline }){
               ? <div className="gt-ttl-results"><div className="t">{TITLE}</div><button type="button" className="gt-title-import" onClick={showImport}>Manage import</button></div>
               : <div className="t">Import history</div>}
           </div>
-          <button type="button" className="gt-x" title="Close" onClick={onClose} style={{ display:inline ? 'none' : undefined }}>{'\u2715'}</button>
+          <button type="button" className={'gt-x' + (inline ? ' nyx-u-hidden' : '')} title="Close" onClick={onClose}>{'\u2715'}</button>
         </div>
 
         {phase !== 'results' && (
@@ -941,7 +941,7 @@ function GachaTracker({ open, onClose, cfg, inline }){
                 <section className="gt-method">
                   <b>Import a file</b>
                   <p>Best privacy option. Upload UIGF/JSON exports from other trackers, Paimon Excel where supported, Wuwa/Endfield JSON, or CSV/manual files.</p>
-                  <input ref={fileRef} type="file" accept=".json,application/json,.csv,text/csv,.xlsx,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" style={{ display:'none' }}
+                  <input ref={fileRef} className="nyx-u-hidden" type="file" accept=".json,application/json,.csv,text/csv,.xlsx,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
                          onChange={(e) => { const f = e.target.files && e.target.files[0]; e.target.value = ''; runImportFile(f); }} />
                   <button type="button" className="gt-method-action" disabled={phase === 'loading'}
                           onClick={() => { if (fileRef.current) fileRef.current.click(); }}>

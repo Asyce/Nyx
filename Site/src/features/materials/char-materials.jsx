@@ -2092,13 +2092,13 @@ function CMUnfavouriteConfirm({ character, onCancel, onConfirm }){
 function CMCell({ ch, onClick, hideMode, hidden, onToggleHidden, pinned, onTogglePinned }){
   return (
     <div className={'cm-cell' + (hideMode ? ' hide-mode' : '') + (hidden ? ' hidden' : '')}
-         style={{ '--el':CM_ELEM[ch.el] || '#b7aaff' }}>
+         style={{ '--el':CM_ELEM[ch.el] || 'var(--nyx-color-accent-bright)' }}>
       <button type="button" className="cm-cell-open"
         title={hideMode ? (hidden ? 'Unhide ' : 'Hide ') + ch.n : ch.n}
         aria-pressed={hideMode ? !!hidden : undefined}
         onClick={() => { if (hideMode && onToggleHidden) onToggleHidden(ch); else if (onClick) onClick(); }}>
       <CMAvatar ch={ch} />
-      <span className="cn">{ch.n}</span>
+      <span className="cn">{String(ch.n || '').replace(/\s*[•·]\s*/g, ' ')}</span>
       {ch.__betaNew && <span className="cm-beta-tag" title="Beta (latest) data — upcoming, not yet released">Beta</span>}
       {cmIsUpcomingOnly(ch) && !ch.__betaNew && <span className="cm-beta-tag upcoming" title="Upcoming unit - currently no reliable material data">Upcoming</span>}
       {hideMode && <span className="hm">{hidden ? 'Hidden' : 'Hide'}</span>}
@@ -2905,7 +2905,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
   };
 
   const displayTabs = gk === 'ae'
-    ? { ...cfg.tabs, mid:'Growth Materials', boss:'Progression Materials' }
+    ? { ...cfg.tabs, mid:'Growth Materials', boss:'Progression' }
     : cfg.tabs;
   const hasBoss = !!displayTabs.boss;
   const tabs = [{ k:'roster', label:'Roster' }, { k:'mid', label:displayTabs.mid }];
@@ -2924,7 +2924,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
           <div className="cm-head">
             <span className="cm-dia"></span>
             <div className="cm-ttl"><div className="t">Characters</div></div>
-            <button type="button" className="cm-x" title="Close" onClick={onClose} style={{ display:inline ? 'none' : undefined }}>{'✕'}</button>
+            <button type="button" className={'cm-x' + (inline ? ' nyx-u-hidden' : '')} title="Close" onClick={onClose}>{'✕'}</button>
           </div>
         )}
 
@@ -3087,12 +3087,17 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
                 const mats = cmTokens(g.mats, g.region);
                 if (chars.length === 0) return null;
                 if (mats.length === 0) return null;
+                // A region that just repeats the tab name (Endfield data) adds
+                // nothing — the material token already names the section (#9).
+                const genericRegion = /^(growth|progression) materials$/i.test(String(g.region || ''));
                 return (
                   <div className="cm-mgroup" key={gi}>
-                    <div className="cm-mgroup-hd">
-                      <span className="t">{g.region}</span>
-                      {g.label && <span className="sub">{g.label}</span>}
-                    </div>
+                    {!genericRegion && (
+                      <div className="cm-mgroup-hd">
+                        <span className="t">{g.region}</span>
+                        {g.label && <span className="sub">{g.label}</span>}
+                      </div>
+                    )}
                     <div className={'cm-mrow' + (cmBlockArtStyle(chars) ? ' has-bg' : '')} style={cmBlockArtStyle(chars)}>
                       <div className="cm-mtokens">
                         {mats.map((m, mi) => (
@@ -3158,7 +3163,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
         <div className={'cm-pop-wrap' + (inline ? ' float page' : '')} onMouseDown={inline ? undefined : (e) => { if (e.target === e.currentTarget) closePop(); }}>
           <div className="cm-pop ledger" data-screen-label={inline ? 'Material detail page' : 'Material popup'} ref={cmPopRef}
                role={inline ? undefined : 'dialog'} aria-modal={inline ? undefined : 'true'} aria-label={(sel.n || 'Character') + ' materials'}
-               style={{ '--el':CM_ELEM[view.el] || '#b7aaff' }}>
+               style={{ '--el':CM_ELEM[view.el] || 'var(--nyx-color-accent-bright)' }}>
             <div className="cm-pop-ambient"></div>
             <div className="cm-pop-scrim"></div>
             {!inline && (

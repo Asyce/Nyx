@@ -26,7 +26,7 @@ function LibraryPage({ game }){
         if (data?.game !== game || !Array.isArray(data.entries)) throw new Error('Library index is invalid');
         setIndexState({ loading:false, data, error:null });
       })
-      .catch((error) => { if (error.name !== 'AbortError') setIndexState({ loading:false, data:null, error:error.message || 'The Library could not be loaded.' }); });
+      .catch((error) => { if (error.name !== 'AbortError') setIndexState({ loading:false, data:null, error:error.message || 'Library could not be loaded.' }); });
     return () => controller.abort();
   }, [game, indexAttempt]);
 
@@ -93,7 +93,7 @@ function LibraryPage({ game }){
     const selected = bookState.data?.volumes?.[volume];
     return <main className="gp-main-pane fill library-page">
       <header className="library-reader-head">
-        <button type="button" className="library-back" onClick={closeBook} aria-label="Back to The Library"><span aria-hidden="true">{'\u2190'}</span> Library</button>
+        <button type="button" className="library-back" onClick={closeBook} aria-label="Back to Library"><span aria-hidden="true">{'\u2190'}</span> Library</button>
         <h1 tabIndex="-1" ref={readerTitle}>{bookState.data?.name || indexState.data?.entries?.find((entry) => entry.id === bookState.id)?.name || 'Loading book\u2026'}</h1>
       </header>
       {bookState.loading && <div className="library-status" role="status" aria-live="polite">Opening book\u2026</div>}
@@ -115,11 +115,10 @@ function LibraryPage({ game }){
   }
 
   return <main className="gp-main-pane fill library-page">
-    <header className="library-hero"><span>{NYX_LIBRARY_GAMES[game] || game}</span><h1>The Library</h1></header>
-    {indexState.loading && <div className="library-status" role="status" aria-live="polite">Loading The Library\u2026</div>}
+    {indexState.loading && <div className="library-status" role="status" aria-live="polite">Loading Library\u2026</div>}
     {indexState.error && <div className="library-status error" role="alert"><p>{indexState.error}</p><button type="button" onClick={() => setIndexAttempt((attempt) => attempt + 1)}>Try again</button></div>}
     {indexState.data && <>
-      <label className="library-search"><span>Search The Library</span><input type="search" value={query} onChange={(event) => {
+      <label className="library-search"><span>Search Library</span><input type="search" value={query} onChange={(event) => {
         const value = event.target.value;
         setQuery(value);
         if (value.trim()) setShouldLoadSearch(true);

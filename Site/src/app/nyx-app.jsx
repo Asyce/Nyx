@@ -790,7 +790,7 @@ function CurrentBannerStrip({ cfg }){
   return (
     <section className="gp-current-banners" aria-label="Current banners">
       <div className="gp-current-banners-head">
-        <GPSec title="Current Banners" icon="../assets/decor/orbit_burst.png" style={{ flex:1, minWidth:0 }} />
+        <GPSec title="Current Banners" icon="../assets/decor/orbit_burst.png" className="nyx-u-fill" />
         {updated && <span>Updated {formatUpdated(updated)}</span>}
       </div>
       <BannerFreshnessNote fresh={fresh} />
@@ -1062,7 +1062,14 @@ function TimePreferenceControl({ gameKey }){
       document.removeEventListener('keydown', onKeyDown);
     };
   }, [open]);
-  const apply = (patch) => setPreference(nyxPatchTimePreference(gameKey, patch));
+  // The server-time choice is global: one pick drives every game's timers and
+  // timelines (user decision 2026-07-15, #2).
+  const apply = (patch) => {
+    Object.keys(GAME_REGISTRY).concat('nyx').forEach((key) => {
+      if (key !== gameKey) nyxPatchTimePreference(key, patch);
+    });
+    setPreference(nyxPatchTimePreference(gameKey, patch));
+  };
   const pickRegion = (region) => {
     apply({ serverRegion:region, displayMode:'server' });
     setOpen(false);
@@ -1265,7 +1272,7 @@ const buildTrack = (cfg) => Object.assign({ pull:'Wish', pulls:'Wishes', currenc
 
 function FavIconPinned({ ch, cfg, onOpen }){
   return (
-    <div className="gp-fav-icon" style={{ '--el':'#9a72e8' }}>
+    <div className="gp-fav-icon gp-fav-icon--sim">
       <button type="button" className="gp-fav-icon-open" onClick={() => onOpen(ch)} aria-label={ch.name}>
         <span>
           <img src={ch.icon || cfg.benchIcon} alt="" draggable="false" />
@@ -1416,6 +1423,7 @@ function CodeCardRow({ row, currency, onCopy, onToggleRedeemed }){
               title="Copy" aria-label={'Copy ' + r.code} onClick={() => onCopy(r.code)}>
         <span className="i-copy"></span>
       </button>
+      {r.st === 'copied' && <span className="cc-copied-pop" role="status">Copied</span>}
     </div>
   );
 }
@@ -1438,6 +1446,11 @@ function CodesPanel({ codes, gameKey = 'nyx' }){
     saveRedeemed(next);
   };
   const onCopy = (code) => { copyText(code); setCopiedCode(code); };
+  React.useEffect(() => {
+    if (!copiedCode) return undefined;
+    const t = setTimeout(() => setCopiedCode(null), 1400);
+    return () => clearTimeout(t);
+  }, [copiedCode]);
 
   const rows = sourceCodes.map((c, i) => ({
     ...c,
@@ -1483,10 +1496,14 @@ function CodesPanel({ codes, gameKey = 'nyx' }){
   );
 }
 
-/* shared overview right rail */
+/* shared overview right rail — server-time selection sits above the timers it
+   drives (user decision 2026-07-15, #2). */
 function OverviewAside({ cfg }){
   return (
     <aside className="gp-overview-aside">
+      <div className="gp-aside-time">
+        <TimePreferenceControl gameKey={cfg.key} />
+      </div>
       <ResetTimersPanel gameKey={cfg.key} />
       <GPSec title="Redemption Codes" />
       <CodesPanel codes={cfg.codes} gameKey={cfg.key} />
@@ -1562,9 +1579,9 @@ function AllCodesView(){
   const filterActive = premiumOnly && hasPremiumRows;
   const visibleCount = allCodes.filter((c) => !filterActive || c.premium).length;
   return (
-    <div style={{ minWidth:0, minHeight:0, display:'flex', flexDirection:'column' }}>
-      <div style={{ display:'flex', alignItems:'center', gap:'14px' }}>
-        <GPSec title="All Redemption Codes" style={{ flex:1, minWidth:0 }} />
+    <div className="all-codes-view">
+      <div className="all-codes-head">
+        <GPSec title="All Redemption Codes" className="nyx-u-fill" />
         <label className={'code-filter wide' + (filterActive ? ' on' : '') + (!hasPremiumRows ? ' disabled' : '')}>
           <input type="checkbox" checked={filterActive} disabled={!hasPremiumRows} onChange={(e) => setPremiumOnly(e.target.checked)} />
           <span className="cur-glyph"></span>
@@ -1572,7 +1589,7 @@ function AllCodesView(){
         </label>
         <span className="sim-updated">Updated {CODES_UPDATED}</span>
       </div>
-      <div className="gp-codes-scroll" style={{ flex:1, minHeight:0, marginTop:'16px', gap:'26px' }}>
+      <div className="gp-codes-scroll all-codes-list">
         {SIM_GAMES.map(g => (
           <div key={g.key} className="sim-codegroup">
             <div className="sim-grouphd">
@@ -1793,7 +1810,6 @@ function CollectionLibrary({ game, view, onViewChange }){
   if (!cur && !specialViews.length) {
     return (
       <div className="db-lib">
-        <GPSec title="Database" />
         <div className="db-empty">No database collections found.</div>
       </div>
     );
@@ -1801,21 +1817,7 @@ function CollectionLibrary({ game, view, onViewChange }){
 
   return (
     <div className="db-lib">
-      <div className="db-lib-head">
-        <GPSec title="Database" style={{ flex:1, minWidth:0 }} />
-        {!specialActive && (
-          <div className="db-search-tools">
-            <div className="gp-search">
-              <span className="ic"></span>
-              <input value={q} placeholder="Search Database" spellCheck="false" onChange={(e) => setQ(e.target.value)} />
-              {q !== '' && <button type="button" className="x" title="Clear" onClick={() => setQ('')}>{'\u2715'}</button>}
-            </div>
-            {nyxDatabaseHasFacets(facets) && <DatabaseFilterPopover id="database-collection-filter-popout" label="Database" open={filterOpen} setOpen={setFilterOpen}
-              filters={filters} onClear={() => setFilters({})} onToggle={toggleFilter}
-              facets={facets.map((facet) => ({ key:facet.key, label:nyxDatabaseFacetLabel(facet.key), values:facet.values }))} />}
-          </div>
-        )}
-      </div>
+      {/* No page title; the search docks after the last tab (user 2026-07-16). */}
       <div className="db-tabs">
         {collections.map(c => (
           <button type="button" key={c.key} className={!specialActive && cur && c.key === cur.key ? 'on' : ''} onClick={() => pickCollection(c.key)}>
@@ -1827,6 +1829,18 @@ function CollectionLibrary({ game, view, onViewChange }){
             <span>{s.title}</span>
           </button>
         ))}
+        {!specialActive && (
+        <div className="db-search-tools">
+          <div className="gp-search">
+            <span className="ic"></span>
+            <input value={q} placeholder="Search Database" spellCheck="false" onChange={(e) => setQ(e.target.value)} />
+            {q !== '' && <button type="button" className="x" title="Clear" onClick={() => setQ('')}>{'\u2715'}</button>}
+          </div>
+          {nyxDatabaseHasFacets(facets) && <DatabaseFilterPopover id="database-collection-filter-popout" label="Database" open={filterOpen} setOpen={setFilterOpen}
+            filters={filters} onClear={() => setFilters({})} onToggle={toggleFilter}
+            facets={facets.map((facet) => ({ key:facet.key, label:nyxDatabaseFacetLabel(facet.key), values:facet.values }))} />}
+        </div>
+        )}
       </div>
       {!specialActive && extraState === 'loading' && (
         <div className="db-load-state" role="status" aria-live="polite">
@@ -2122,7 +2136,6 @@ function GenshinWonderlandView(){
   return (
     <div className="wonder-view">
       <div className="wonder-head">
-        <GPSec title="Miliastra Wonderland" style={{ flex:1, minWidth:0 }} />
         <div className="db-search-tools">
           <div className="gp-search">
             <span className="ic"></span>
@@ -2441,7 +2454,6 @@ function GenshinTcgView(){
   return (
     <div className="tcg-view">
       <div className="tcg-head">
-        <GPSec title="Genius Invokation TCG" style={{ flex:1, minWidth:0 }} />
         <div className="tcg-search-tools">
           <div className="gp-search">
             <span className="ic"></span>
@@ -2562,9 +2574,6 @@ function GenshinPotView(){
   if (!items.length) {
     return (
       <div className="pot-view">
-        <div className="pot-head">
-          <GPSec title="Serenitea Pot" style={{ flex:1, minWidth:0 }} />
-        </div>
         <div className="db-empty">Furnishing data has not been generated yet.</div>
       </div>
     );
@@ -2635,7 +2644,6 @@ function GenshinPotView(){
   return (
     <div className="pot-view">
       <div className="pot-head">
-        <GPSec title="Serenitea Pot" style={{ flex:1, minWidth:0 }} />
         <div className="db-search-tools">
           <div className="gp-search">
             <span className="ic"></span>
@@ -3061,7 +3069,7 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
   };
   // G13: the section list the Characters header icon-dropdown switches between.
   const sectionKey = (f) => /tracker$/i.test(f) ? 'tracker' : /^(characters|character materials)$/i.test(f) ? 'mats' : 'database';
-  const sections = [{ key:'overview', label:'Overview' }, ...visibleFns.map((f) => ({ key:sectionKey(f), label:f })), ...(hasAchievements ? [{ key:'achievements', label:'Achievements' }] : []), ...(hasLibrary ? [{ key:'books', label:'The Library' }] : []), ...(betaActive ? [{ key:'beta', label:'Beta' }] : []), { key:'settings', label:'Settings' }];
+  const sections = [{ key:'overview', label:'Overview' }, ...visibleFns.map((f) => ({ key:sectionKey(f), label:f })), ...(hasAchievements ? [{ key:'achievements', label:'Achievements' }] : []), ...(hasLibrary ? [{ key:'books', label:'Library' }] : []), ...(betaActive ? [{ key:'beta', label:'Beta' }] : []), { key:'settings', label:'Settings' }];
   return (
     <div className={'gp-layout' + (tab === 'overview' ? ' has-aside' : '')}>
       <nav ref={sideNavRef} className="gp-side-nav" aria-label="Tools">
@@ -3085,7 +3093,7 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
           </div>
         )}
         {hasLibrary && (
-          <GPSectionNavButton active={tab === 'books'} label="The Library" onActivate={() => setTab('books')} />
+          <GPSectionNavButton active={tab === 'books'} label="Library" onActivate={() => setTab('books')} />
         )}
         {betaActive && (
           <GPSectionNavButton active={tab === 'beta'} label="Beta" onActivate={() => setTab('beta')} />
@@ -3394,7 +3402,7 @@ function BirthdayCalendar({ onOpenMaterial }){
     <section className="bcal" aria-label="Character birthday calendar" ref={calendarRef}>
       {editing !== undefined && <BirthdayDialog entry={editing || null} onClose={() => closeEditor(!!editing)} onSaved={saveCustom} onDeleted={deleteCustom} />}
       <div className="bcal-head">
-        <GPSec title="Birthday Calendar" icon="../assets/decor/orbit_burst.png" style={{ flex:1, minWidth:0 }} />
+        <GPSec title="Birthday Calendar" icon="../assets/decor/orbit_burst.png" className="nyx-u-fill" />
         <button type="button" className="bcal-add" ref={addButtonRef} onClick={(event) => openEditor(null, event.currentTarget)}>Add date</button>
         <div className="bcal-toggles" role="group" aria-label="Games shown on the calendar">
           {BDAY_GAMES.map((g) => (
@@ -3631,7 +3639,7 @@ function routeTitleFor(key, tab, selection){
   const selectedName = selection && selection.game === key ? routeDisplayName(selection.name) : '';
   if (selectedName) return 'Nyx \u2014 ' + selectedName + ' \u2014 ' + name;
   if (key === 'nyx') return tab && tab !== 'overview' ? 'Nyx \u2014 ' + tab.replace(/\b\w/g, (c) => c.toUpperCase()) : 'Nyx';
-  const label = { mats:'Characters', database:'Database', tracker:'Tracker', tcg:'TCG', pot:'Serenitea Pot', wonderland:'Miliastra Wonderland', achievements:'Achievements', books:'The Library', beta:'Beta', settings:'Settings' }[tab] || '';
+  const label = { mats:'Characters', database:'Database', tracker:'Tracker', tcg:'TCG', pot:'Serenitea Pot', wonderland:'Miliastra Wonderland', achievements:'Achievements', books:'Library', beta:'Beta', settings:'Settings' }[tab] || '';
   return label ? 'Nyx \u2014 ' + label + ' \u2014 ' + name : 'Nyx \u2014 ' + name;
 }
 
@@ -4477,7 +4485,9 @@ function NyxApp(){
 
   const isNyx = activeKey === 'nyx';
   const cfg = isNyx ? NYX_META : GAME_REGISTRY[activeKey];
-  const showTimePreference = tab === 'overview' || (isNyx && (tab === 'banners' || tab === 'events'));
+  // Overview renders the time control inside its right rail; the topbar copy
+  // only remains for hub tabs that have no aside.
+  const showTimePreference = isNyx && (tab === 'banners' || tab === 'events');
   const isGameOverview = !isNyx && tab === 'overview';
   const openMaterialPage = (game, name, options) => {
     const targetGame = (game && game !== 'nyx') ? game : activeKey;
@@ -4515,7 +4525,7 @@ function NyxApp(){
   };
 
   return (
-    <div style={{ position:'absolute', inset:0, display:'flex', flexDirection:'column' }} data-screen-label={cfg.name + ' page'}>
+    <div className="nyx-screen" data-screen-label={cfg.name + ' page'}>
       <header className={'gp-topbar' + (showTimePreference ? ' has-time-preference' : '') + (isGameOverview ? ' is-game-overview' : '')} data-screen-label="Top bar">
         <a className="tb-brand" href="/" title="Back to Worlds" aria-label="Back to the worlds index">
           <span className="plate" aria-hidden="true"></span>

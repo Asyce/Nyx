@@ -96,12 +96,6 @@
         "is_battle_voice": false
       },
       {
-        "voice_id": 22,
-        "voice_title": "About Misha 2",
-        "voice_m": "When I met Mikhail he was already grown up... but whatever the case, Misha's still here. He's spent his whole life with me, and for that, I should be glad.",
-        "is_battle_voice": false
-      },
-      {
         "voice_id": 14,
         "voice_title": "About Sunday",
         "voice_m": "He reminds me of the \"Odes of Harmony,\" but I caught a whiff of something behind the facade he puts on... something real.",
@@ -147,12 +141,6 @@
         "voice_id": 21,
         "voice_title": "Added to Team With Misha",
         "voice_m": "Enough gallivanting, kid. Better get to bed early, or you won't grow.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 23,
-        "voice_title": "Added to Team With Robin",
-        "voice_m": "No matter where I am in the future, I will definitely still hear your singing.",
         "is_battle_voice": false
       },
       {

@@ -59625,6 +59625,1203 @@
     ]
   },
   {
+    "id": "23060",
+    "contentStatus": "live",
+    "name": "A Star That Lights the Night",
+    "rarity": 5,
+    "rarityRaw": "CombatPowerLightconeRarity5",
+    "path": "Mage",
+    "description": "Looking back at her childhood, she remembered the first time she heard adventure stories of the Trailblaze.\\nHer tiny heart beat for the mystery and vastness of the universe, so she picked up a paintbrush and drew her very first imaginings of the cosmos.\\n<i>\"A comet ship, a silver rail, a Navigator...\"</i>\\n<i>\"With this, is it possible to Trailblaze now?\"</i>\\n\\nBut a curse delayed her footsteps, and a sickbed confined her youth.\\nDuring those lonely times, towering stacks of books, scattered engine blueprints, and empty bottles of paint became her everyday life.\\nHer frail figure wielded the brush, carefully outlining the dream she yearned for.\\n<i>\"Perhaps I can seize more possibilities within this limited time.\"</i>\\n<i>\"Even a dream is worth being illuminated by colors.\"</i>\\n\\nAs the stars shifted once more, in the blink of an eye, she had already departed on her journey to the stars.\\nCarrying the wish she shared with her friend, she became the person she had always dreamed of becoming.\\n\\n<i>\"The journey of the Trailblaze begins at this very moment.\"</i>\\nThe Express traverses the universe, and the footprints of the Navigator and her companions advancing side by side form a solid silver rail.\\n<i>\"Together, let's reach the future where the stars reside!\"</i>",
+    "attack": 635,
+    "assets": {
+      "mediumIcon": "GameData/hsr/assets/lightcones/medium/23060.webp",
+      "fullFigure": "GameData/hsr/assets/lightcones/full/23060.webp"
+    },
+    "effect": {
+      "name": "First Wish",
+      "description": "The wearer ignores <color=#f29e38ff><unbreak>#7[i]%</unbreak></color> of the target's DEF when dealing DMG. When the wearer uses Assist Skill, they regenerate <unbreak>#2[i]</unbreak> Energy and gain \"Sail,\" lasting for 2 turns and stacking up to <unbreak>#3[i]</unbreak> time(s). Each stack of \"Sail\" increases Assist Skill DMG by <color=#f29e38ff><unbreak>#4[i]%</unbreak></color>. When \"Sail\" reaches <unbreak>#5[i]</unbreak> stacks, each stack of \"Sail\" increases Ultimate DMG by <color=#f29e38ff><unbreak>#6[i]%</unbreak></color>.",
+      "levels": [
+        {
+          "level": 1,
+          "params": [
+            0,
+            6,
+            3,
+            0.2,
+            3,
+            0.2,
+            0.32
+          ]
+        },
+        {
+          "level": 2,
+          "params": [
+            0,
+            6,
+            3,
+            0.25,
+            3,
+            0.25,
+            0.36
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            0,
+            6,
+            3,
+            0.3,
+            3,
+            0.3,
+            0.4
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            0,
+            6,
+            3,
+            0.35,
+            3,
+            0.35,
+            0.44
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            0,
+            6,
+            3,
+            0.4,
+            3,
+            0.4,
+            0.48
+          ]
+        }
+      ]
+    },
+    "ascensions": [
+      {
+        "key": "0",
+        "promotion": 0,
+        "playerLevelRequirement": 15,
+        "maxLevel": 20,
+        "requirements": [
+          {
+            "itemId": "2",
+            "quantity": 5000,
+            "rarity": "Rare",
+            "name": "Credit",
+            "type": "Virtual",
+            "subType": "Virtual",
+            "description": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/2.webp"
+            }
+          },
+          {
+            "itemId": "116001",
+            "quantity": 8,
+            "rarity": "NotNormal",
+            "name": "Whimsy Wax",
+            "type": "Material",
+            "subType": "CommonMonsterDrop",
+            "description": "A Wishpower fragment from an imagenated creature. A crude material used for enhancement.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/116001.webp"
+            }
+          }
+        ],
+        "stats": {
+          "equipment_id": 23060,
+          "base_hp": 38.4,
+          "base_hp_add": 5.76,
+          "base_attack": 28.8,
+          "base_attack_add": 4.32,
+          "base_defence": 24,
+          "base_defence_add": 3.6
+        }
+      },
+      {
+        "key": "1",
+        "promotion": 1,
+        "worldLevelRequirement": 1,
+        "maxLevel": 30,
+        "requirements": [
+          {
+            "itemId": "2",
+            "quantity": 10000,
+            "rarity": "Rare",
+            "name": "Credit",
+            "type": "Virtual",
+            "subType": "Virtual",
+            "description": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/2.webp"
+            }
+          },
+          {
+            "itemId": "110291",
+            "quantity": 4,
+            "rarity": "NotNormal",
+            "name": "Celestial Globe",
+            "type": "Material",
+            "subType": "TracePath",
+            "description": "A beginner-level model suitable for astronomy enthusiasts to study. Can slightly level up Traces for <color=#f29e38ff>Erudition</color> characters.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/110291.webp"
+            }
+          },
+          {
+            "itemId": "116001",
+            "quantity": 12,
+            "rarity": "NotNormal",
+            "name": "Whimsy Wax",
+            "type": "Material",
+            "subType": "CommonMonsterDrop",
+            "description": "A Wishpower fragment from an imagenated creature. A crude material used for enhancement.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/116001.webp"
+            }
+          }
+        ],
+        "stats": {
+          "equipment_id": 23060,
+          "base_hp": 84.48,
+          "base_hp_add": 5.76,
+          "base_attack": 63.36,
+          "base_attack_add": 4.32,
+          "base_defence": 52.8,
+          "base_defence_add": 3.6
+        }
+      },
+      {
+        "key": "2",
+        "promotion": 2,
+        "worldLevelRequirement": 2,
+        "maxLevel": 40,
+        "requirements": [
+          {
+            "itemId": "2",
+            "quantity": 20000,
+            "rarity": "Rare",
+            "name": "Credit",
+            "type": "Virtual",
+            "subType": "Virtual",
+            "description": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/2.webp"
+            }
+          },
+          {
+            "itemId": "110292",
+            "quantity": 4,
+            "rarity": "Rare",
+            "name": "Galaxy Framework",
+            "type": "Material",
+            "subType": "TracePath",
+            "description": "A framework of a galaxy used for advanced studies in interstellar navigation. Used to moderately level up Traces for <color=#f29e38ff>Erudition</color> characters.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/110292.webp"
+            }
+          },
+          {
+            "itemId": "116002",
+            "quantity": 8,
+            "rarity": "Rare",
+            "name": "Dreamweave Steel",
+            "type": "Material",
+            "subType": "CommonMonsterDrop",
+            "description": "A Wishpower fragment from an imagenated creature. A normal material used for enhancement.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/116002.webp"
+            }
+          }
+        ],
+        "stats": {
+          "equipment_id": 23060,
+          "base_hp": 145.92,
+          "base_hp_add": 5.76,
+          "base_attack": 109.44,
+          "base_attack_add": 4.32,
+          "base_defence": 91.2,
+          "base_defence_add": 3.6
+        }
+      },
+      {
+        "key": "3",
+        "promotion": 3,
+        "worldLevelRequirement": 3,
+        "maxLevel": 50,
+        "requirements": [
+          {
+            "itemId": "2",
+            "quantity": 50000,
+            "rarity": "Rare",
+            "name": "Credit",
+            "type": "Virtual",
+            "subType": "Virtual",
+            "description": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/2.webp"
+            }
+          },
+          {
+            "itemId": "110292",
+            "quantity": 8,
+            "rarity": "Rare",
+            "name": "Galaxy Framework",
+            "type": "Material",
+            "subType": "TracePath",
+            "description": "A framework of a galaxy used for advanced studies in interstellar navigation. Used to moderately level up Traces for <color=#f29e38ff>Erudition</color> characters.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/110292.webp"
+            }
+          },
+          {
+            "itemId": "116002",
+            "quantity": 12,
+            "rarity": "Rare",
+            "name": "Dreamweave Steel",
+            "type": "Material",
+            "subType": "CommonMonsterDrop",
+            "description": "A Wishpower fragment from an imagenated creature. A normal material used for enhancement.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/116002.webp"
+            }
+          }
+        ],
+        "stats": {
+          "equipment_id": 23060,
+          "base_hp": 207.36,
+          "base_hp_add": 5.76,
+          "base_attack": 155.52,
+          "base_attack_add": 4.32,
+          "base_defence": 129.6,
+          "base_defence_add": 3.6
+        }
+      },
+      {
+        "key": "4",
+        "promotion": 4,
+        "worldLevelRequirement": 4,
+        "maxLevel": 60,
+        "requirements": [
+          {
+            "itemId": "2",
+            "quantity": 100000,
+            "rarity": "Rare",
+            "name": "Credit",
+            "type": "Virtual",
+            "subType": "Virtual",
+            "description": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/2.webp"
+            }
+          },
+          {
+            "itemId": "110293",
+            "quantity": 5,
+            "rarity": "VeryRare",
+            "name": "Cosmic Sandpit",
+            "type": "Material",
+            "subType": "TracePath",
+            "description": "A cosmic sandpit drawn by a Navigator after surveying the universe. Can greatly level up Traces for <color=#f29e38ff>Erudition</color> characters.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/110293.webp"
+            }
+          },
+          {
+            "itemId": "116003",
+            "quantity": 6,
+            "rarity": "VeryRare",
+            "name": "Lucid Awl",
+            "type": "Material",
+            "subType": "CommonMonsterDrop",
+            "description": "A Wishpower fragment from an imagenated creature. An advanced material used for enhancement.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/116003.webp"
+            }
+          }
+        ],
+        "stats": {
+          "equipment_id": 23060,
+          "base_hp": 268.8,
+          "base_hp_add": 5.76,
+          "base_attack": 201.6,
+          "base_attack_add": 4.32,
+          "base_defence": 168,
+          "base_defence_add": 3.6
+        }
+      },
+      {
+        "key": "5",
+        "promotion": 5,
+        "worldLevelRequirement": 5,
+        "maxLevel": 70,
+        "requirements": [
+          {
+            "itemId": "2",
+            "quantity": 200000,
+            "rarity": "Rare",
+            "name": "Credit",
+            "type": "Virtual",
+            "subType": "Virtual",
+            "description": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/2.webp"
+            }
+          },
+          {
+            "itemId": "110293",
+            "quantity": 10,
+            "rarity": "VeryRare",
+            "name": "Cosmic Sandpit",
+            "type": "Material",
+            "subType": "TracePath",
+            "description": "A cosmic sandpit drawn by a Navigator after surveying the universe. Can greatly level up Traces for <color=#f29e38ff>Erudition</color> characters.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/110293.webp"
+            }
+          },
+          {
+            "itemId": "116003",
+            "quantity": 8,
+            "rarity": "VeryRare",
+            "name": "Lucid Awl",
+            "type": "Material",
+            "subType": "CommonMonsterDrop",
+            "description": "A Wishpower fragment from an imagenated creature. An advanced material used for enhancement.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/116003.webp"
+            }
+          }
+        ],
+        "stats": {
+          "equipment_id": 23060,
+          "base_hp": 330.24,
+          "base_hp_add": 5.76,
+          "base_attack": 247.68,
+          "base_attack_add": 4.32,
+          "base_defence": 206.4,
+          "base_defence_add": 3.6
+        }
+      },
+      {
+        "key": "6",
+        "promotion": 6,
+        "worldLevelRequirement": 5,
+        "maxLevel": 80,
+        "requirements": [],
+        "stats": {
+          "equipment_id": 23060,
+          "base_hp": 391.68,
+          "base_hp_add": 5.76,
+          "base_attack": 293.76,
+          "base_attack_add": 4.32,
+          "base_defence": 244.8,
+          "base_defence_add": 3.6
+        }
+      }
+    ]
+  },
+  {
+    "id": "23061",
+    "contentStatus": "live",
+    "name": "Flickering Stars",
+    "rarity": 5,
+    "rarityRaw": "CombatPowerLightconeRarity5",
+    "path": "Mage",
+    "description": "The instant magical energy surges forth, the gem's brilliant hues splash across the walls.\\nThe teenage girl breaks into a delighted smile, carefully enfolding the dancing light with her palms.\\n\\n<i>\"I did it! Does this mean I can also become a great mage someday?\"</i>\\nShe envisions her future as a mage, planting the seed of a wish deep in her heart.\\n\\n<i>\"You can do this, Rin Tohsaka! Succeeding once isn't enough! You need to succeed countless times!\"</i>\\n<i>\"I don't know what the future holds, but right now, just follow your heart and press forward!\"</i>\\nIn this moment of triumph, her expectations of herself, her family's hopes, and the responsibility she shoulders all converge.\\nThe girl quietly cheers herself on. She's ready to become the best version of herself.\\n\\nThe road ahead stretches long and arduous, yet her blazing heart shines brighter than any magic.",
+    "attack": 635,
+    "assets": {
+      "mediumIcon": "GameData/hsr/assets/lightcones/medium/23061.webp",
+      "fullFigure": "GameData/hsr/assets/lightcones/full/23061.webp"
+    },
+    "effect": {
+      "name": "Sprout",
+      "description": "Increases the wearer's CRIT Rate by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When any ally character consumes a total of <unbreak>#3[i]</unbreak> or more Skill Points in a single turn, the wearer gains \"Radiant Crown,\" lasting for <unbreak>#4[i]</unbreak> turn(s). While the wearer holds \"Radiant Crown,\" all allies' DMG dealt ignores <color=#f29e38ff><unbreak>#5[i]%</unbreak></color> of the target's DEF, and the Skill DMG dealt by the wearer increases by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>. Effects of the same type cannot stack.",
+      "levels": [
+        {
+          "level": 1,
+          "params": [
+            0.18,
+            0.72,
+            4,
+            3,
+            0.2
+          ]
+        },
+        {
+          "level": 2,
+          "params": [
+            0.21,
+            0.84,
+            4,
+            3,
+            0.24
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            0.24,
+            0.96,
+            4,
+            3,
+            0.28
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            0.27,
+            1.08,
+            4,
+            3,
+            0.32
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            0.3,
+            1.2,
+            4,
+            3,
+            0.36
+          ]
+        }
+      ]
+    },
+    "ascensions": [
+      {
+        "key": "0",
+        "promotion": 0,
+        "playerLevelRequirement": 15,
+        "maxLevel": 20,
+        "requirements": [
+          {
+            "itemId": "2",
+            "quantity": 5000,
+            "rarity": "Rare",
+            "name": "Credit",
+            "type": "Virtual",
+            "subType": "Virtual",
+            "description": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/2.webp"
+            }
+          },
+          {
+            "itemId": "111011",
+            "quantity": 8,
+            "rarity": "NotNormal",
+            "name": "Thief's Instinct",
+            "type": "Material",
+            "subType": "CommonMonsterDrop",
+            "description": "A small amount of anti-matter. Crude material used for enhancement.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/111011.webp"
+            }
+          }
+        ],
+        "stats": {
+          "equipment_id": 23061,
+          "base_hp": 38.4,
+          "base_hp_add": 5.76,
+          "base_attack": 28.8,
+          "base_attack_add": 4.32,
+          "base_defence": 24,
+          "base_defence_add": 3.6
+        }
+      },
+      {
+        "key": "1",
+        "promotion": 1,
+        "worldLevelRequirement": 1,
+        "maxLevel": 30,
+        "requirements": [
+          {
+            "itemId": "2",
+            "quantity": 10000,
+            "rarity": "Rare",
+            "name": "Credit",
+            "type": "Virtual",
+            "subType": "Virtual",
+            "description": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/2.webp"
+            }
+          },
+          {
+            "itemId": "110291",
+            "quantity": 4,
+            "rarity": "NotNormal",
+            "name": "Celestial Globe",
+            "type": "Material",
+            "subType": "TracePath",
+            "description": "A beginner-level model suitable for astronomy enthusiasts to study. Can slightly level up Traces for <color=#f29e38ff>Erudition</color> characters.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/110291.webp"
+            }
+          },
+          {
+            "itemId": "111011",
+            "quantity": 12,
+            "rarity": "NotNormal",
+            "name": "Thief's Instinct",
+            "type": "Material",
+            "subType": "CommonMonsterDrop",
+            "description": "A small amount of anti-matter. Crude material used for enhancement.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/111011.webp"
+            }
+          }
+        ],
+        "stats": {
+          "equipment_id": 23061,
+          "base_hp": 84.48,
+          "base_hp_add": 5.76,
+          "base_attack": 63.36,
+          "base_attack_add": 4.32,
+          "base_defence": 52.8,
+          "base_defence_add": 3.6
+        }
+      },
+      {
+        "key": "2",
+        "promotion": 2,
+        "worldLevelRequirement": 2,
+        "maxLevel": 40,
+        "requirements": [
+          {
+            "itemId": "2",
+            "quantity": 20000,
+            "rarity": "Rare",
+            "name": "Credit",
+            "type": "Virtual",
+            "subType": "Virtual",
+            "description": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/2.webp"
+            }
+          },
+          {
+            "itemId": "110292",
+            "quantity": 4,
+            "rarity": "Rare",
+            "name": "Galaxy Framework",
+            "type": "Material",
+            "subType": "TracePath",
+            "description": "A framework of a galaxy used for advanced studies in interstellar navigation. Used to moderately level up Traces for <color=#f29e38ff>Erudition</color> characters.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/110292.webp"
+            }
+          },
+          {
+            "itemId": "111012",
+            "quantity": 8,
+            "rarity": "Rare",
+            "name": "Usurper's Scheme",
+            "type": "Material",
+            "subType": "CommonMonsterDrop",
+            "description": "A moderate amount of anti-matter. Normal material used for enhancement.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/111012.webp"
+            }
+          }
+        ],
+        "stats": {
+          "equipment_id": 23061,
+          "base_hp": 145.92,
+          "base_hp_add": 5.76,
+          "base_attack": 109.44,
+          "base_attack_add": 4.32,
+          "base_defence": 91.2,
+          "base_defence_add": 3.6
+        }
+      },
+      {
+        "key": "3",
+        "promotion": 3,
+        "worldLevelRequirement": 3,
+        "maxLevel": 50,
+        "requirements": [
+          {
+            "itemId": "2",
+            "quantity": 50000,
+            "rarity": "Rare",
+            "name": "Credit",
+            "type": "Virtual",
+            "subType": "Virtual",
+            "description": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/2.webp"
+            }
+          },
+          {
+            "itemId": "110292",
+            "quantity": 8,
+            "rarity": "Rare",
+            "name": "Galaxy Framework",
+            "type": "Material",
+            "subType": "TracePath",
+            "description": "A framework of a galaxy used for advanced studies in interstellar navigation. Used to moderately level up Traces for <color=#f29e38ff>Erudition</color> characters.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/110292.webp"
+            }
+          },
+          {
+            "itemId": "111012",
+            "quantity": 12,
+            "rarity": "Rare",
+            "name": "Usurper's Scheme",
+            "type": "Material",
+            "subType": "CommonMonsterDrop",
+            "description": "A moderate amount of anti-matter. Normal material used for enhancement.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/111012.webp"
+            }
+          }
+        ],
+        "stats": {
+          "equipment_id": 23061,
+          "base_hp": 207.36,
+          "base_hp_add": 5.76,
+          "base_attack": 155.52,
+          "base_attack_add": 4.32,
+          "base_defence": 129.6,
+          "base_defence_add": 3.6
+        }
+      },
+      {
+        "key": "4",
+        "promotion": 4,
+        "worldLevelRequirement": 4,
+        "maxLevel": 60,
+        "requirements": [
+          {
+            "itemId": "2",
+            "quantity": 100000,
+            "rarity": "Rare",
+            "name": "Credit",
+            "type": "Virtual",
+            "subType": "Virtual",
+            "description": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/2.webp"
+            }
+          },
+          {
+            "itemId": "110293",
+            "quantity": 5,
+            "rarity": "VeryRare",
+            "name": "Cosmic Sandpit",
+            "type": "Material",
+            "subType": "TracePath",
+            "description": "A cosmic sandpit drawn by a Navigator after surveying the universe. Can greatly level up Traces for <color=#f29e38ff>Erudition</color> characters.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/110293.webp"
+            }
+          },
+          {
+            "itemId": "111013",
+            "quantity": 6,
+            "rarity": "VeryRare",
+            "name": "Conqueror's Will",
+            "type": "Material",
+            "subType": "CommonMonsterDrop",
+            "description": "Condensed anti-matter. Advanced material used for enhancement.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/111013.webp"
+            }
+          }
+        ],
+        "stats": {
+          "equipment_id": 23061,
+          "base_hp": 268.8,
+          "base_hp_add": 5.76,
+          "base_attack": 201.6,
+          "base_attack_add": 4.32,
+          "base_defence": 168,
+          "base_defence_add": 3.6
+        }
+      },
+      {
+        "key": "5",
+        "promotion": 5,
+        "worldLevelRequirement": 5,
+        "maxLevel": 70,
+        "requirements": [
+          {
+            "itemId": "2",
+            "quantity": 200000,
+            "rarity": "Rare",
+            "name": "Credit",
+            "type": "Virtual",
+            "subType": "Virtual",
+            "description": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/2.webp"
+            }
+          },
+          {
+            "itemId": "110293",
+            "quantity": 10,
+            "rarity": "VeryRare",
+            "name": "Cosmic Sandpit",
+            "type": "Material",
+            "subType": "TracePath",
+            "description": "A cosmic sandpit drawn by a Navigator after surveying the universe. Can greatly level up Traces for <color=#f29e38ff>Erudition</color> characters.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/110293.webp"
+            }
+          },
+          {
+            "itemId": "111013",
+            "quantity": 8,
+            "rarity": "VeryRare",
+            "name": "Conqueror's Will",
+            "type": "Material",
+            "subType": "CommonMonsterDrop",
+            "description": "Condensed anti-matter. Advanced material used for enhancement.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/111013.webp"
+            }
+          }
+        ],
+        "stats": {
+          "equipment_id": 23061,
+          "base_hp": 330.24,
+          "base_hp_add": 5.76,
+          "base_attack": 247.68,
+          "base_attack_add": 4.32,
+          "base_defence": 206.4,
+          "base_defence_add": 3.6
+        }
+      },
+      {
+        "key": "6",
+        "promotion": 6,
+        "worldLevelRequirement": 5,
+        "maxLevel": 80,
+        "requirements": [],
+        "stats": {
+          "equipment_id": 23061,
+          "base_hp": 391.68,
+          "base_hp_add": 5.76,
+          "base_attack": 293.76,
+          "base_attack_add": 4.32,
+          "base_defence": 244.8,
+          "base_defence_add": 3.6
+        }
+      }
+    ]
+  },
+  {
+    "id": "23062",
+    "contentStatus": "live",
+    "name": "I Am As You Behold",
+    "rarity": 5,
+    "rarityRaw": "CombatPowerLightconeRarity5",
+    "path": "Warrior",
+    "description": "Treasure, power, conquest, challenges... A jumble of fragments played on repeat in his mind.\\nIn the flickering lamplight, the King drained his cup in one gulp.\\n<i>\"Overflowing riches, boundless lands, absolute power. All that is rightfully mine belongs to me.\"</i>\\n<i>\"But if that is all there is... does anything truly matter?\"</i>\\n\\nA languid figure sank into the plush sofa, thoughts and musings dissipating like smoke in an instant.\\nEven a king must occasionally surrender to his own desires and savor a moment of pleasure.\\n<i>\"What does it matter what I seek or gain? The moments when life pulses freely at my whim are the moments I treasure most.\"</i>",
+    "attack": 635,
+    "assets": {
+      "mediumIcon": "GameData/hsr/assets/lightcones/medium/23062.webp",
+      "fullFigure": "GameData/hsr/assets/lightcones/full/23062.webp"
+    },
+    "effect": {
+      "name": "At Will",
+      "description": "Increases the wearer's ATK by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> and Energy Regeneration Rate by <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color>. When the wearer uses Ultimate, for every 1 Energy consumed, increases the Ultimate DMG dealt this time by <color=#f29e38ff><unbreak>#3[f2]%</unbreak></color>, up to a max increase of <color=#f29e38ff><unbreak>#6[i]%</unbreak></color>. When the wearer enters combat or uses Ultimate, the wearer gains \"King's Entertainment,\" lasting for <unbreak>#4[i]</unbreak> turn(s). While the wearer holds \"King's Entertainment,\" increases all allies' CRIT DMG by <color=#f29e38ff><unbreak>#5[i]%</unbreak></color>. Effects of the same type cannot stack.",
+      "levels": [
+        {
+          "level": 1,
+          "params": [
+            0.18,
+            0.1,
+            0.002,
+            3,
+            0.24,
+            0.72
+          ]
+        },
+        {
+          "level": 2,
+          "params": [
+            0.21,
+            0.125,
+            0.0025,
+            3,
+            0.3,
+            0.9
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            0.24,
+            0.15,
+            0.003,
+            3,
+            0.36,
+            1.08
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            0.27,
+            0.175,
+            0.0035,
+            3,
+            0.42,
+            1.26
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            0.3,
+            0.2,
+            0.004,
+            3,
+            0.48,
+            1.44
+          ]
+        }
+      ]
+    },
+    "ascensions": [
+      {
+        "key": "0",
+        "promotion": 0,
+        "playerLevelRequirement": 15,
+        "maxLevel": 20,
+        "requirements": [
+          {
+            "itemId": "2",
+            "quantity": 5000,
+            "rarity": "Rare",
+            "name": "Credit",
+            "type": "Virtual",
+            "subType": "Virtual",
+            "description": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/2.webp"
+            }
+          },
+          {
+            "itemId": "111001",
+            "quantity": 8,
+            "rarity": "NotNormal",
+            "name": "Extinguished Core",
+            "type": "Material",
+            "subType": "CommonMonsterDrop",
+            "description": "The heart of a monster wandering the Fragmentum. Crude material used for enhancement.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/111001.webp"
+            }
+          }
+        ],
+        "stats": {
+          "equipment_id": 23062,
+          "base_hp": 43.2,
+          "base_hp_add": 6.48,
+          "base_attack": 28.8,
+          "base_attack_add": 4.32,
+          "base_defence": 21,
+          "base_defence_add": 3.15
+        }
+      },
+      {
+        "key": "1",
+        "promotion": 1,
+        "worldLevelRequirement": 1,
+        "maxLevel": 30,
+        "requirements": [
+          {
+            "itemId": "2",
+            "quantity": 10000,
+            "rarity": "Rare",
+            "name": "Credit",
+            "type": "Virtual",
+            "subType": "Virtual",
+            "description": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/2.webp"
+            }
+          },
+          {
+            "itemId": "110281",
+            "quantity": 4,
+            "rarity": "NotNormal",
+            "name": "Four Phases, Crossing the River to Check the King",
+            "type": "Material",
+            "subType": "TracePath",
+            "description": "A four-sided die used for simple checks. Can slightly level up Traces for <color=#f29e38ff>Destruction</color> characters.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/110281.webp"
+            }
+          },
+          {
+            "itemId": "111001",
+            "quantity": 12,
+            "rarity": "NotNormal",
+            "name": "Extinguished Core",
+            "type": "Material",
+            "subType": "CommonMonsterDrop",
+            "description": "The heart of a monster wandering the Fragmentum. Crude material used for enhancement.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/111001.webp"
+            }
+          }
+        ],
+        "stats": {
+          "equipment_id": 23062,
+          "base_hp": 95.04,
+          "base_hp_add": 6.48,
+          "base_attack": 63.36,
+          "base_attack_add": 4.32,
+          "base_defence": 46.2,
+          "base_defence_add": 3.15
+        }
+      },
+      {
+        "key": "2",
+        "promotion": 2,
+        "worldLevelRequirement": 2,
+        "maxLevel": 40,
+        "requirements": [
+          {
+            "itemId": "2",
+            "quantity": 20000,
+            "rarity": "Rare",
+            "name": "Credit",
+            "type": "Virtual",
+            "subType": "Virtual",
+            "description": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/2.webp"
+            }
+          },
+          {
+            "itemId": "110282",
+            "quantity": 4,
+            "rarity": "Rare",
+            "name": "Sixen, King-Rook Fork",
+            "type": "Material",
+            "subType": "TracePath",
+            "description": "A six-sided die used for complex destiny checks. Can moderately upgrade the Traces of <color=#f29e38ff>Destruction</color> characters.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/110282.webp"
+            }
+          },
+          {
+            "itemId": "111002",
+            "quantity": 8,
+            "rarity": "Rare",
+            "name": "Glimmering Core",
+            "type": "Material",
+            "subType": "CommonMonsterDrop",
+            "description": "The heart of a monster wandering the Fragmentum. Normal material used for enhancement.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/111002.webp"
+            }
+          }
+        ],
+        "stats": {
+          "equipment_id": 23062,
+          "base_hp": 164.16,
+          "base_hp_add": 6.48,
+          "base_attack": 109.44,
+          "base_attack_add": 4.32,
+          "base_defence": 79.8,
+          "base_defence_add": 3.15
+        }
+      },
+      {
+        "key": "3",
+        "promotion": 3,
+        "worldLevelRequirement": 3,
+        "maxLevel": 50,
+        "requirements": [
+          {
+            "itemId": "2",
+            "quantity": 50000,
+            "rarity": "Rare",
+            "name": "Credit",
+            "type": "Virtual",
+            "subType": "Virtual",
+            "description": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/2.webp"
+            }
+          },
+          {
+            "itemId": "110282",
+            "quantity": 8,
+            "rarity": "Rare",
+            "name": "Sixen, King-Rook Fork",
+            "type": "Material",
+            "subType": "TracePath",
+            "description": "A six-sided die used for complex destiny checks. Can moderately upgrade the Traces of <color=#f29e38ff>Destruction</color> characters.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/110282.webp"
+            }
+          },
+          {
+            "itemId": "111002",
+            "quantity": 12,
+            "rarity": "Rare",
+            "name": "Glimmering Core",
+            "type": "Material",
+            "subType": "CommonMonsterDrop",
+            "description": "The heart of a monster wandering the Fragmentum. Normal material used for enhancement.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/111002.webp"
+            }
+          }
+        ],
+        "stats": {
+          "equipment_id": 23062,
+          "base_hp": 233.28,
+          "base_hp_add": 6.48,
+          "base_attack": 155.52,
+          "base_attack_add": 4.32,
+          "base_defence": 113.4,
+          "base_defence_add": 3.15
+        }
+      },
+      {
+        "key": "4",
+        "promotion": 4,
+        "worldLevelRequirement": 4,
+        "maxLevel": 60,
+        "requirements": [
+          {
+            "itemId": "2",
+            "quantity": 100000,
+            "rarity": "Rare",
+            "name": "Credit",
+            "type": "Virtual",
+            "subType": "Virtual",
+            "description": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/2.webp"
+            }
+          },
+          {
+            "itemId": "110283",
+            "quantity": 5,
+            "rarity": "VeryRare",
+            "name": "Omnicolor, Fool's Own",
+            "type": "Material",
+            "subType": "TracePath",
+            "description": "A bizarre, myriad-colored die that binds infinite futures. Can greatly level up Traces for <color=#f29e38ff>Destruction</color> characters.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/110283.webp"
+            }
+          },
+          {
+            "itemId": "111003",
+            "quantity": 6,
+            "rarity": "VeryRare",
+            "name": "Squirming Core",
+            "type": "Material",
+            "subType": "CommonMonsterDrop",
+            "description": "The heart of a monster wandering the Fragmentum. Advanced material used for enhancement.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/111003.webp"
+            }
+          }
+        ],
+        "stats": {
+          "equipment_id": 23062,
+          "base_hp": 302.4,
+          "base_hp_add": 6.48,
+          "base_attack": 201.6,
+          "base_attack_add": 4.32,
+          "base_defence": 147,
+          "base_defence_add": 3.15
+        }
+      },
+      {
+        "key": "5",
+        "promotion": 5,
+        "worldLevelRequirement": 5,
+        "maxLevel": 70,
+        "requirements": [
+          {
+            "itemId": "2",
+            "quantity": 200000,
+            "rarity": "Rare",
+            "name": "Credit",
+            "type": "Virtual",
+            "subType": "Virtual",
+            "description": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/2.webp"
+            }
+          },
+          {
+            "itemId": "110283",
+            "quantity": 10,
+            "rarity": "VeryRare",
+            "name": "Omnicolor, Fool's Own",
+            "type": "Material",
+            "subType": "TracePath",
+            "description": "A bizarre, myriad-colored die that binds infinite futures. Can greatly level up Traces for <color=#f29e38ff>Destruction</color> characters.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/110283.webp"
+            }
+          },
+          {
+            "itemId": "111003",
+            "quantity": 8,
+            "rarity": "VeryRare",
+            "name": "Squirming Core",
+            "type": "Material",
+            "subType": "CommonMonsterDrop",
+            "description": "The heart of a monster wandering the Fragmentum. Advanced material used for enhancement.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/111003.webp"
+            }
+          }
+        ],
+        "stats": {
+          "equipment_id": 23062,
+          "base_hp": 371.52,
+          "base_hp_add": 6.48,
+          "base_attack": 247.68,
+          "base_attack_add": 4.32,
+          "base_defence": 180.6,
+          "base_defence_add": 3.15
+        }
+      },
+      {
+        "key": "6",
+        "promotion": 6,
+        "worldLevelRequirement": 5,
+        "maxLevel": 80,
+        "requirements": [],
+        "stats": {
+          "equipment_id": 23062,
+          "base_hp": 440.64,
+          "base_hp_add": 6.48,
+          "base_attack": 293.76,
+          "base_attack_add": 4.32,
+          "base_defence": 214.2,
+          "base_defence_add": 3.15
+        }
+      }
+    ]
+  },
+  {
     "id": "24000",
     "contentStatus": "live",
     "name": "On the Fall of an Aeon",

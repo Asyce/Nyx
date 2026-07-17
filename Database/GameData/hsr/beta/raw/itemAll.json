@@ -6019,8 +6019,8 @@
     "purpose_type": 13,
     "is_visible": true,
     "item_name": "Arcadian Token",
-    "item_desc": "A commemorative coin used within Planarcadia, commonly known as \"Wishbae.\" Can be exchanged for rewards at Furbobocom News.",
-    "item_bg_desc": "<i>The local currency of Planarcadia, minted and issued by the Wishpower Bank after being infused with Wishpower. The front depicts various imagenae living together in harmony. In the face of a digital economy, the Arcadian Token maintains its prestigious status among tourists and collectors for its unique blend of cultural sentiment and economic value.</i>",
+    "item_desc": "A commemorative coin used in Planarcadia and Astropolis, commonly known as \"Wishbae.\" Can be exchanged for rewards at Furbobocom News.",
+    "item_bg_desc": "<i>The local currency of Planarcadia, minted and issued by the Wishpower Bank after being infused with Wishpower. The front depicts various imagenae living together in harmony. In the face of a digital economy, the Arcadian Token maintains its prestigious status among tourists and collectors for its unique blend of cultural sentiment and economic value.</i>\\n<i>Pursuant to the \"Vehicle City Accord\" ratified in Year <unbreak>1985</unbreak> of the Arcadian Calendar, universal equivalents tied to Wishpower are permitted to circulate in Astropolis as well.</i>",
     "item_icon_path": "SpriteOutput/ItemIcon/120006.png",
     "item_figure_icon_path": "SpriteOutput/ItemFigures/120006.png",
     "item_currency_icon_path": "SpriteOutput/ItemCurrency/120006.png",
@@ -6040,6 +6040,9 @@
       {
         "id": 3,
         "desc": "Adventure Missions"
+      },
+      {
+        "id": 4
       }
     ]
   },
@@ -6139,8 +6142,8 @@
     "item_name": "Anomaly Arbitration Limited-Time Clearance Medal",
     "item_desc": "Obtain this medal after achieving 3 stars in the King Stage of Anomaly Arbitration of this period.",
     "item_bg_desc": "Guided by the starlight, you reached the end of a path few have ever traveled.",
-    "item_icon_path": "SpriteOutput/ItemIcon/295535.png",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/295535.png",
+    "item_icon_path": "SpriteOutput/ItemIcon/295536.png",
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/295536.png",
     "item_currency_icon_path": "",
     "item_avatar_icon_path": "",
     "pile_limit": 99999,
@@ -17151,6 +17154,109 @@
     "item_avatar_icon_path": "",
     "pile_limit": 1,
     "use_method": "TreasureMap",
+    "custom_data_list": [],
+    "return_item_id_list": [],
+    "item_desc": "",
+    "item_comefrom": []
+  },
+  "140630": {
+    "id": 140630,
+    "item_main_type": "Mission",
+    "item_sub_type": "Mission",
+    "inventory_display_tag": 1,
+    "rarity": "Rare",
+    "purpose_type": 16,
+    "is_visible": true,
+    "item_name": "...",
+    "item_bg_desc": "...",
+    "item_icon_path": "SpriteOutput/ItemIcon/140028.png",
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png",
+    "item_currency_icon_path": "SpriteOutput/ItemIcon/140028.png",
+    "item_avatar_icon_path": "",
+    "pile_limit": 1,
+    "custom_data_list": [],
+    "return_item_id_list": [],
+    "item_desc": "",
+    "item_comefrom": []
+  },
+  "140631": {
+    "id": 140631,
+    "item_main_type": "Mission",
+    "item_sub_type": "Mission",
+    "inventory_display_tag": 1,
+    "rarity": "Rare",
+    "purpose_type": 16,
+    "is_visible": true,
+    "item_name": "...",
+    "item_bg_desc": "...",
+    "item_icon_path": "SpriteOutput/ItemIcon/140028.png",
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png",
+    "item_currency_icon_path": "SpriteOutput/ItemIcon/140028.png",
+    "item_avatar_icon_path": "",
+    "pile_limit": 1,
+    "use_method": "TreasureMap",
+    "custom_data_list": [],
+    "return_item_id_list": [],
+    "item_desc": "",
+    "item_comefrom": []
+  },
+  "140632": {
+    "id": 140632,
+    "item_main_type": "Mission",
+    "item_sub_type": "Mission",
+    "inventory_display_tag": 1,
+    "rarity": "Rare",
+    "purpose_type": 16,
+    "is_visible": true,
+    "item_name": "...",
+    "item_bg_desc": "...",
+    "item_icon_path": "SpriteOutput/ItemIcon/140028.png",
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png",
+    "item_currency_icon_path": "SpriteOutput/ItemIcon/140028.png",
+    "item_avatar_icon_path": "",
+    "pile_limit": 1,
+    "use_method": "TreasureMap",
+    "custom_data_list": [],
+    "return_item_id_list": [],
+    "item_desc": "",
+    "item_comefrom": []
+  },
+  "140633": {
+    "id": 140633,
+    "item_main_type": "Mission",
+    "item_sub_type": "Mission",
+    "inventory_display_tag": 1,
+    "rarity": "Rare",
+    "purpose_type": 16,
+    "is_visible": true,
+    "item_name": "...",
+    "item_bg_desc": "...",
+    "item_icon_path": "SpriteOutput/ItemIcon/140028.png",
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png",
+    "item_currency_icon_path": "SpriteOutput/ItemIcon/140028.png",
+    "item_avatar_icon_path": "",
+    "pile_limit": 1,
+    "use_method": "TreasureMap",
+    "custom_data_list": [],
+    "return_item_id_list": [],
+    "item_desc": "",
+    "item_comefrom": []
+  },
+  "140634": {
+    "id": 140634,
+    "item_main_type": "Mission",
+    "item_sub_type": "Mission",
+    "inventory_display_tag": 1,
+    "rarity": "VeryRare",
+    "purpose_type": 16,
+    "is_visible": true,
+    "item_name": "",
+    "item_bg_desc": "",
+    "item_icon_path": "SpriteOutput/ItemIcon/140028.png",
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png",
+    "item_currency_icon_path": "SpriteOutput/ItemIcon/140028.png",
+    "item_avatar_icon_path": "",
+    "pile_limit": 1,
     "custom_data_list": [],
     "return_item_id_list": [],
     "item_desc": "",
@@ -31315,6 +31421,59 @@
       }
     ]
   },
+  "402037": {
+    "id": 402037,
+    "item_main_type": "Usable",
+    "item_sub_type": "Food",
+    "inventory_display_tag": 1,
+    "rarity": "Rare",
+    "purpose_type": 10,
+    "is_visible": true,
+    "item_name": "",
+    "item_desc": "",
+    "item_bg_desc": "",
+    "item_icon_path": "SpriteOutput/ItemIcon/402037.png",
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/402037.png",
+    "item_currency_icon_path": "SpriteOutput/ItemIcon/402037.png",
+    "item_avatar_icon_path": "",
+    "pile_limit": 99999,
+    "use_method": "ExternalSystemFoodBenefit",
+    "custom_data_list": [],
+    "return_item_id_list": [],
+    "item_group": 2003,
+    "item_comefrom": []
+  },
+  "402038": {
+    "id": 402038,
+    "item_main_type": "Usable",
+    "item_sub_type": "Food",
+    "inventory_display_tag": 1,
+    "rarity": "Rare",
+    "purpose_type": 10,
+    "is_visible": true,
+    "item_name": "Mung Bean Soda Sukiyaki",
+    "item_desc": "Upon use, immediately causes all allies to lose HP equal to 5% of their Max HP and increases their ATK by <unbreak>40%</unbreak> for the next battle.",
+    "item_bg_desc": "Mingxi developed dozens of \"creative Xianzhou dishes\" for the Upside-Down Restaurant. Not all of them were hits. The most controversial by far was the \"Mung Bean Soda Sukiyaki.\" That said, it wasn't exactly a commercial failure. Nobody actually liked the dish, but everyone who visited Astropolis tried it at least once.\\n\\n<i>\"So weird, let me try a bite… *blech*… So weird, let me try another bite… *blech*… So weird, just one more bite… *blech*… So weird, one more bite… *blech*…\"</i>",
+    "item_icon_path": "SpriteOutput/ItemIcon/402038.png",
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/402038.png",
+    "item_currency_icon_path": "SpriteOutput/ItemIcon/402038.png",
+    "item_avatar_icon_path": "",
+    "pile_limit": 99999,
+    "use_method": "ExternalSystemFoodBenefit",
+    "custom_data_list": [],
+    "return_item_id_list": [],
+    "item_group": 2003,
+    "item_comefrom": [
+      {
+        "id": 1,
+        "desc": "Omni-Synthesizer"
+      },
+      {
+        "id": 2,
+        "desc": "Curious Flavors"
+      }
+    ]
+  },
   "403001": {
     "id": 403001,
     "item_main_type": "Usable",
@@ -31772,6 +31931,37 @@
       {
         "id": 2,
         "desc": "∞-Eleven"
+      }
+    ]
+  },
+  "403017": {
+    "id": 403017,
+    "item_main_type": "Usable",
+    "item_sub_type": "Food",
+    "inventory_display_tag": 1,
+    "rarity": "VeryRare",
+    "purpose_type": 10,
+    "is_visible": true,
+    "item_name": "Amber Lord Jumps Over the Wall",
+    "item_desc": "Upon use, increase ATK of all allies by <unbreak>24%</unbreak> and CRIT DMG by <unbreak>24%</unbreak> for the next battle.",
+    "item_bg_desc": "Mingxi has developed dozens of \"creative Xianzhou dishes\" for the Upside-Down Restaurant, and \"Amber Lord Jumps Over the Wall\" has been the most successful of them all. It has already become the go-to dish representing \"high-end dining\" in Astropolis. Given enough time, it might just come to define the \"Astropolis cuisine\" entirely.\\n\\n<i>\"Hey boss, why is it called 'Amber Lord Jumps Over the Wall' and not 'Amber Lord Builds the Wall'?\"\\n\"'Builds the Wall'? I'm afraid you'd break a tooth trying to chew through that.\"</i>",
+    "item_icon_path": "SpriteOutput/ItemIcon/403017.png",
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/403017.png",
+    "item_currency_icon_path": "SpriteOutput/ItemIcon/403017.png",
+    "item_avatar_icon_path": "",
+    "pile_limit": 99999,
+    "use_method": "ExternalSystemFoodBenefit",
+    "custom_data_list": [],
+    "return_item_id_list": [],
+    "item_group": 2003,
+    "item_comefrom": [
+      {
+        "id": 1,
+        "desc": "Omni-Synthesizer"
+      },
+      {
+        "id": 2,
+        "desc": "Curious Flavors"
       }
     ]
   },
@@ -33371,6 +33561,48 @@
     "return_item_id_list": [],
     "item_comefrom": []
   },
+  "406037": {
+    "id": 406037,
+    "item_main_type": "Usable",
+    "item_sub_type": "Formula",
+    "inventory_display_tag": 1,
+    "rarity": "Rare",
+    "purpose_type": 19,
+    "is_visible": true,
+    "item_name": "",
+    "item_desc": "",
+    "item_bg_desc": "",
+    "item_icon_path": "SpriteOutput/ItemIcon/406037.png",
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/406037.png",
+    "item_currency_icon_path": "SpriteOutput/ItemIcon/406037.png",
+    "item_avatar_icon_path": "",
+    "pile_limit": 99999,
+    "use_method": "Recipe",
+    "custom_data_list": [],
+    "return_item_id_list": [],
+    "item_comefrom": []
+  },
+  "406038": {
+    "id": 406038,
+    "item_main_type": "Usable",
+    "item_sub_type": "Formula",
+    "inventory_display_tag": 1,
+    "rarity": "Rare",
+    "purpose_type": 19,
+    "is_visible": true,
+    "item_name": "Recipe: Mung Bean Soda Sukiyaki",
+    "item_desc": "A simple equation. When entered into the Synthesizer, it will unlock a new recipe.",
+    "item_icon_path": "SpriteOutput/ItemIcon/404001.png",
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/404001.png",
+    "item_currency_icon_path": "SpriteOutput/ItemIcon/404001.png",
+    "item_avatar_icon_path": "",
+    "pile_limit": 99999,
+    "use_method": "Recipe",
+    "custom_data_list": [],
+    "return_item_id_list": [],
+    "item_bg_desc": "",
+    "item_comefrom": []
+  },
   "407001": {
     "id": 407001,
     "item_main_type": "Usable",
@@ -33695,6 +33927,27 @@
     "purpose_type": 19,
     "is_visible": true,
     "item_name": "Recipe: Steel Coil",
+    "item_desc": "A simple equation. When entered into the Synthesizer, it will unlock a new recipe.",
+    "item_icon_path": "SpriteOutput/ItemIcon/404001.png",
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/404001.png",
+    "item_currency_icon_path": "SpriteOutput/ItemIcon/404001.png",
+    "item_avatar_icon_path": "",
+    "pile_limit": 99999,
+    "use_method": "Recipe",
+    "custom_data_list": [],
+    "return_item_id_list": [],
+    "item_bg_desc": "",
+    "item_comefrom": []
+  },
+  "407017": {
+    "id": 407017,
+    "item_main_type": "Usable",
+    "item_sub_type": "Formula",
+    "inventory_display_tag": 1,
+    "rarity": "VeryRare",
+    "purpose_type": 19,
+    "is_visible": true,
+    "item_name": "Recipe: Amber Lord Jumps Over the Wall",
     "item_desc": "A simple equation. When entered into the Synthesizer, it will unlock a new recipe.",
     "item_icon_path": "SpriteOutput/ItemIcon/404001.png",
     "item_figure_icon_path": "SpriteOutput/ItemFigures/404001.png",
@@ -35378,6 +35631,168 @@
       }
     ]
   },
+  "408449": {
+    "id": 408449,
+    "item_main_type": "Usable",
+    "item_sub_type": "Food",
+    "inventory_display_tag": 1,
+    "rarity": "NotNormal",
+    "purpose_type": 10,
+    "is_visible": true,
+    "item_name": "Extra Sodium Sausage",
+    "item_desc": "Upon use, immediately heals one designated ally by <unbreak>20%</unbreak> of their Max HP plus <unbreak>240</unbreak> extra HP.",
+    "item_bg_desc": "A signature dish of Astropolis, though it's mainly served to Intellitrons and diners with exceptionally strong teeth. Some customers lack the bite force but not the audacity to try anyway, a combination that has led to no shortage of dental emergencies. Shady vendors have been known to use expired, rusted metal as ingredients, so diners are advised to eat with caution.\\n\\n<i>\"That's not rust. It's chili powder. I would never gamble with your health.\"</i>",
+    "item_icon_path": "SpriteOutput/ItemIcon/408449.png",
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/408449.png",
+    "item_currency_icon_path": "SpriteOutput/ItemIcon/408449.png",
+    "item_avatar_icon_path": "",
+    "pile_limit": 99999,
+    "use_method": "TeamSpecificFoodBenefit",
+    "custom_data_list": [],
+    "return_item_id_list": [],
+    "item_group": 2000,
+    "item_comefrom": [
+      {
+        "id": 1,
+        "desc": "Grumpy Bob"
+      }
+    ]
+  },
+  "408450": {
+    "id": 408450,
+    "item_main_type": "Usable",
+    "item_sub_type": "Food",
+    "inventory_display_tag": 1,
+    "rarity": "NotNormal",
+    "purpose_type": 10,
+    "is_visible": true,
+    "item_name": "Invincible Steak",
+    "item_desc": "Upon use, increases all allies' CRIT DMG by <unbreak>24%</unbreak> for the next battle.",
+    "item_bg_desc": "A steak that bounces around and even picks fights with the diners. \"Only true warriors eat the Invincible Steak\" was arguably the most successful marketing campaign of the Amber Era. In reality, however, the Invincible Steak isn't alive at all. It's not even meat. It's just a synthetic food made from fungal matter.\\n\\n<i>\"This veggie steak has more muscle than I do. How is that even possible?\"\\n\"Obviously, all you need is an electrical signal and it immediately starts doing sit-ups. Can you do that?\"</i>",
+    "item_icon_path": "SpriteOutput/ItemIcon/408450.png",
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/408450.png",
+    "item_currency_icon_path": "SpriteOutput/ItemIcon/408450.png",
+    "item_avatar_icon_path": "",
+    "pile_limit": 99999,
+    "use_method": "ExternalSystemFoodBenefit",
+    "custom_data_list": [],
+    "return_item_id_list": [],
+    "item_group": 2003,
+    "item_comefrom": [
+      {
+        "id": 1,
+        "desc": "Grumpy Bob"
+      }
+    ]
+  },
+  "408451": {
+    "id": 408451,
+    "item_main_type": "Usable",
+    "item_sub_type": "Food",
+    "inventory_display_tag": 1,
+    "rarity": "NotNormal",
+    "purpose_type": 10,
+    "is_visible": true,
+    "item_name": "\"Oceanic\" Tri-Flavored Ice Cream",
+    "item_desc": "Upon use, increases DEF, Max HP, and HP restored by 8% for all allies in the next battle.",
+    "item_bg_desc": "The three best-selling flavors at \"Oceanic\" ice cream are: Aether, Phlogiston, and Ancient Dreamscape Fossil. Nobody knows what any of them actually taste like but that's all part of the marketing strategy.\\n\\n<i>\"The strawberry flavor segment is a mature market, and so is the chocolate segment. But Ancient Dream Fossil, that is a taste defined by us, a market created by us.\"</i>",
+    "item_icon_path": "SpriteOutput/ItemIcon/408451.png",
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/408451.png",
+    "item_currency_icon_path": "SpriteOutput/ItemIcon/408451.png",
+    "item_avatar_icon_path": "",
+    "pile_limit": 99999,
+    "use_method": "ExternalSystemFoodBenefit",
+    "custom_data_list": [],
+    "return_item_id_list": [],
+    "item_group": 2006,
+    "item_comefrom": [
+      {
+        "id": 1,
+        "desc": "Mobile Cooling Station"
+      }
+    ]
+  },
+  "408452": {
+    "id": 408452,
+    "item_main_type": "Usable",
+    "item_sub_type": "Food",
+    "inventory_display_tag": 1,
+    "rarity": "NotNormal",
+    "purpose_type": 10,
+    "is_visible": true,
+    "item_name": "\"Lighthouse\" Movable Action Model",
+    "item_desc": "Upon use, increase DEF of all allies by <unbreak>25%</unbreak> in the next battle.",
+    "item_bg_desc": "\"Lighthouse\" is Astropolis's most iconic homegrown IP, and the merchandise has never stopped flying off the shelves. Nobody knows who started this quirky tradition, but some people actually believe that this movable action model has the power to \"bless your home and keep it safe,\" so they buy one and enshrine it right by their front door.\\n\\n<i>\"Please, 'Lighthouse,' I'm begging you! Bless me so I can pass my exams and land a job at the Life Sciences Institute!\"\\n\"Isn't he supposed to bless your home? Why are you asking him for exam luck? You really think that's gonna work?\"\\n\"Doesn't matter. I've already prayed to every single Aeon out there. Might as well throw him in too.\"</i>",
+    "item_icon_path": "SpriteOutput/ItemIcon/408452.png",
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/408452.png",
+    "item_currency_icon_path": "SpriteOutput/ItemIcon/408452.png",
+    "item_avatar_icon_path": "",
+    "pile_limit": 99999,
+    "use_method": "ExternalSystemFoodBenefit",
+    "custom_data_list": [],
+    "return_item_id_list": [],
+    "item_group": 2006,
+    "item_comefrom": [
+      {
+        "id": 1,
+        "desc": "Mangia's Hero Hut"
+      }
+    ]
+  },
+  "408453": {
+    "id": 408453,
+    "item_main_type": "Usable",
+    "item_sub_type": "Food",
+    "inventory_display_tag": 1,
+    "rarity": "NotNormal",
+    "purpose_type": 10,
+    "is_visible": true,
+    "item_name": "Aeon Balloon",
+    "item_desc": "Upon use, immediately recovers 3 Technique Points for the team.",
+    "item_bg_desc": "Among all the themed balloons sold at the seaside park, Aeon balloons are by far the best-sellers. And within that category, the Nihility, Abundance, Propagation, and Preservation Path balloons top the charts. Some eccentric Aeon scholars believe this reflects a collective unconscious foretelling the cosmic future. Consumer surveys, however, tell a different story: people buy them because \"keeping one at home brings blessings in that particular domain.\"\\n\\n<i>\"I heard that releasing a certain number of balloons grants you the power of the corresponding Aeon's Path...\"\\n\"First of all, that's called littering. Second, drop those <unbreak>50</unbreak> Propagation balloons RIGHT NOW!\"</i>",
+    "item_icon_path": "SpriteOutput/ItemIcon/408453.png",
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/408453.png",
+    "item_currency_icon_path": "SpriteOutput/ItemIcon/408453.png",
+    "item_avatar_icon_path": "",
+    "pile_limit": 99999,
+    "use_method": "ExternalSystemFoodBenefit",
+    "custom_data_list": [],
+    "return_item_id_list": [],
+    "item_group": 2001,
+    "item_comefrom": [
+      {
+        "id": 1,
+        "desc": "Mangia's Hero Hut"
+      }
+    ]
+  },
+  "408454": {
+    "id": 408454,
+    "item_main_type": "Usable",
+    "item_sub_type": "Food",
+    "inventory_display_tag": 1,
+    "rarity": "NotNormal",
+    "purpose_type": 10,
+    "is_visible": true,
+    "item_name": "\"Diggertron\" 1:1 Replica Model",
+    "item_desc": "Upon use, increases Fire DMG of all allies by <unbreak>16%</unbreak> for the next battle.",
+    "item_bg_desc": "It's hard to explain why Hook is so beloved in Astropolis. Aetherium Wars hasn't been the hottest game in years, and Hook was never the most popular player to begin with, yet the people of Astropolis just can't get enough of her. Maybe she represents something pure, something the steel-and-concrete jungle of Astropolis can no longer offer.\\n\\n<i>\"I mean, Pitch-Dark Hook the Great, you're practically a celebrity in Astropolis! Come with me sometime, and the people will line the streets to welcome you with open arms. The whole city, yours for the taking!\"\\n\"Sampo, if you keep filling the kid's head with this nonsense, I'm going to smack that mouth of yours.\"</i>",
+    "item_icon_path": "SpriteOutput/ItemIcon/408454.png",
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/408454.png",
+    "item_currency_icon_path": "SpriteOutput/ItemIcon/408454.png",
+    "item_avatar_icon_path": "",
+    "pile_limit": 99999,
+    "use_method": "ExternalSystemFoodBenefit",
+    "custom_data_list": [],
+    "return_item_id_list": [],
+    "item_group": 2003,
+    "item_comefrom": [
+      {
+        "id": 1,
+        "desc": "Hook's Frontline"
+      }
+    ]
+  },
   "408601": {
     "id": 408601,
     "item_main_type": "Usable",
@@ -36524,6 +36939,60 @@
       }
     ]
   },
+  "408644": {
+    "id": 408644,
+    "item_main_type": "Usable",
+    "item_sub_type": "Food",
+    "inventory_display_tag": 1,
+    "rarity": "Rare",
+    "purpose_type": 10,
+    "is_visible": true,
+    "item_name": "The Swimsuit",
+    "item_desc": "Upon use, increases all allies' Elation by <unbreak>24%</unbreak> for the next battle.",
+    "item_bg_desc": "The \"Swimsuit\" is a private submarine outfitted with a safe, cozy, and highly customizable cockpit. The truly elite never splash around at the beach. They prefer to dive beneath the waves in their own submarine, drinking in the sublime grandeur that only the most extreme environments can offer.\\n\\n<i>\"When you have the 'Swimsuit,' who needs an actual swimsuit?\"</i>",
+    "item_icon_path": "SpriteOutput/ItemIcon/408644.png",
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/408644.png",
+    "item_currency_icon_path": "SpriteOutput/ItemIcon/408644.png",
+    "item_avatar_icon_path": "",
+    "pile_limit": 99999,
+    "use_method": "ExternalSystemFoodBenefit",
+    "custom_data_list": [],
+    "return_item_id_list": [],
+    "item_group": 2003,
+    "item_comefrom": [
+      {
+        "id": 1,
+        "desc": "Bot No. 1"
+      }
+    ]
+  },
+  "408645": {
+    "id": 408645,
+    "item_main_type": "Usable",
+    "item_sub_type": "Food",
+    "inventory_display_tag": 1,
+    "rarity": "Rare",
+    "purpose_type": 10,
+    "is_visible": true,
+    "item_name": "Speeding Jet Surfboard",
+    "item_desc": "Upon use, increases SPD of all allies by <unbreak>12%</unbreak> for the next battle.",
+    "item_bg_desc": "Humanity has always chased the ultimate thrill of speed, and so, all manner of high-velocity vehicles were born. The \"Speeding Jet Surfboard\" stands as the pinnacle of that dream. It may be just a waterborne surfboard, but it once claimed the record for the \"Fastest Man-Made Object,\" forever engraved in the annals of speed. Unfortunately, this item is strictly a collector's piece, not exactly meant for actual use. Most living beings simply cannot withstand the velocity, and would be reduced to a fine crimson mist in an instant.\\n\\n<i>\"Do NOT attach this surfboard to a racing vehicle. The last person who tried... well, they're probably somewhere well outside Astropolis's gravitational range by now.\"</i>",
+    "item_icon_path": "SpriteOutput/ItemIcon/408645.png",
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/408645.png",
+    "item_currency_icon_path": "SpriteOutput/ItemIcon/408645.png",
+    "item_avatar_icon_path": "",
+    "pile_limit": 99999,
+    "use_method": "ExternalSystemFoodBenefit",
+    "custom_data_list": [],
+    "return_item_id_list": [],
+    "item_group": 2003,
+    "item_comefrom": [
+      {
+        "id": 1,
+        "desc": "Bot No. 1"
+      }
+    ]
+  },
   "408801": {
     "id": 408801,
     "item_main_type": "Usable",
@@ -36791,6 +37260,33 @@
       {
         "id": 1,
         "desc": "Obtained from the \"Furbobocom\" Bestseller Rank Rewards"
+      }
+    ]
+  },
+  "408907": {
+    "id": 408907,
+    "item_main_type": "Usable",
+    "item_sub_type": "FindChest",
+    "inventory_display_tag": 1,
+    "rarity": "SuperRare",
+    "purpose_type": 10,
+    "is_visible": true,
+    "item_name": "Energy Sensor",
+    "item_desc": "A treasure gadget that can be used indefinitely. After use, 1 Basic Treasure's location will be displayed on the Astropolis maps.",
+    "item_bg_desc": "Legend has it that this type of detector traces its origin to ancient pseudoscientific theories. Yet as scholars deepened their understanding of the Primum Mobile of the Paths, they were astonished to discover that the old \"Energy Sensing\" wasn't pure pseudoscience after all. Objects dense with Wishpower genuinely exert a greater gravitational pull, enough to draw a reaction from the sensor\\n\\n<i>\"I originally invented this detector to locate missing pets and people. These days, though, it's far more commonly used to hunt down ownerless treasure. What's that? Am I disappointed? Of course I am! If only I'd been the only one who ever thought of using it to go treasure hunting!\"</i>",
+    "item_icon_path": "SpriteOutput/ItemIcon/408907.png",
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/408907.png",
+    "item_currency_icon_path": "SpriteOutput/ItemIcon/408907.png",
+    "item_avatar_icon_path": "",
+    "pile_limit": 1,
+    "use_method": "FindChest",
+    "custom_data_list": [],
+    "return_item_id_list": [],
+    "item_group": 1999,
+    "item_comefrom": [
+      {
+        "id": 1,
+        "desc": "\"Furbobo Freebies\" Level Reward Obtained"
       }
     ]
   }

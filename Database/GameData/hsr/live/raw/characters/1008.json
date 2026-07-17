@@ -84,12 +84,6 @@
         "is_battle_voice": false
       },
       {
-        "voice_id": 19,
-        "voice_title": "About The Herta",
-        "voice_m": "Madam Herta is a legend on the space station. Even I can tell you plenty of stories about her.",
-        "is_battle_voice": false
-      },
-      {
         "voice_id": 12,
         "voice_title": "Eidolon Activation",
         "voice_m": "I've found a home to protect.",
@@ -129,12 +123,6 @@
         "voice_id": 18,
         "voice_title": "Added to Team With Herta",
         "voice_m": "Madam Herta! A—Awaiting your orders!",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 20,
-        "voice_title": "Added to Team With The Herta",
-        "voice_m": "You are...? My apologies! I won't slow you down!",
         "is_battle_voice": false
       },
       {

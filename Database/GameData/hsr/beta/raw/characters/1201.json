@@ -342,25 +342,7 @@
         "is_battle_voice": true
       },
       {
-        "voice_id": 79,
-        "voice_title": "...",
-        "voice_m": "...",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 80,
-        "voice_title": "...",
-        "voice_m": "...",
-        "is_battle_voice": true
-      },
-      {
         "voice_id": 76,
-        "voice_title": "...",
-        "voice_m": "...",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 81,
         "voice_title": "...",
         "voice_m": "...",
         "is_battle_voice": true
@@ -373,6 +355,24 @@
       },
       {
         "voice_id": 78,
+        "voice_title": "...",
+        "voice_m": "...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 79,
+        "voice_title": "...",
+        "voice_m": "...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 80,
+        "voice_title": "...",
+        "voice_m": "...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 81,
         "voice_title": "...",
         "voice_m": "...",
         "is_battle_voice": true

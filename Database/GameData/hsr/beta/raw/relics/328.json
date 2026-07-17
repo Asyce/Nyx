@@ -11,7 +11,7 @@
   },
   "require_num": {
     "2": {
-      "desc": "When entering combat, if the wearer's Max Energy is greater than or equal to <unbreak>#1[i]</unbreak>, increases the wearer's DMG dealt by <unbreak>#2[f1]%</unbreak> for every 1 point exceeding this value, up to a max increase of <unbreak>#3[i]%</unbreak>.",
+      "desc": "When entering combat, if the wearer's Max Energy is greater than or equal to <unbreak>#1[i]</unbreak>, for every 1 excess point, increases the wearer's DMG dealt by <unbreak>#2[f1]%</unbreak>, up to a max increase of <unbreak>#3[i]%</unbreak>.",
       "param_list": [
         200,
         0.002,

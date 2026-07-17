@@ -498,7 +498,7 @@
       "extra": {
         "10000010": {
           "name": "Debuff",
-          "desc": "Debuffs are negative status effects that render units weaker. Unless otherwise specified, debuffs can be dispelled.",
+          "desc": "All status effects that provide negative combat debuffs, can be dispelled unless stated otherwise.",
           "param": []
         }
       },
@@ -3260,7 +3260,7 @@
           "extra": {
             "10000010": {
               "name": "Debuff",
-              "desc": "Debuffs are negative status effects that render units weaker. Unless otherwise specified, debuffs can be dispelled.",
+              "desc": "All status effects that provide negative combat debuffs, can be dispelled unless stated otherwise.",
               "param": []
             }
           },
@@ -5020,7 +5020,7 @@
             "status_add_list": [],
             "extra": {
               "10000002": {
-                "name": "Action Delayed",
+                "name": "Delay Action",
                 "desc": "Increases the target's waiting interval before the next action.",
                 "param": []
               },

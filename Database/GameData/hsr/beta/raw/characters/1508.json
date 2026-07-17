@@ -15,7 +15,7 @@
     "1": {
       "id": 150801,
       "name": "Zelretch's Apprentice",
-      "desc": "If the amount of \"Gem Energy\" consumed by a single Enhanced Skill is <unbreak>#1[i]</unbreak> or more, Rin Tohsaka gains \"Shadow Gem\" equal to the amount of \"Gem Energy\" consumed.\\nWhile possessing \"Shadow Gem,\" Skill is enhanced to \"Second Magic Experiment.\" The Enhanced Skill consumes all \"Shadow Gem,\" does not trigger the effect of converting Skill Points into \"Gem Energy,\" and does not consume \"Gem Energy.\"",
+      "desc": "If one instance of the Enhanced Skill consumes <unbreak>#1[i]</unbreak> or more \"Gem Energy,\" Rin Tohsaka gains \"Shadow Gem\" equal to the amount of \"Gem Energy\" consumed.\\nWhile holding \"Shadow Gem,\" enhances Skill to \"Second Magic Experiment.\" The Enhanced Skill consumes all \"Shadow Gem,\" does not trigger the effect that converts Skill Points into \"Gem Energy,\" and does not consume \"Gem Energy.\"",
       "icon": "SkillIcon_1508_Rank1.png",
       "param_list": [
         30
@@ -25,7 +25,7 @@
     "2": {
       "id": 150802,
       "name": "Dimensional Traveler",
-      "desc": "Increases Rin Tohsaka's Skill DMG by <unbreak>#1[i]%</unbreak>. While Rin Tohsaka is on the field, Skill DMG dealt by all allies becomes <unbreak>#2[i]%</unbreak> of the original DMG.",
+      "desc": "Rin Tohsaka's Skill DMG dealt increases by <unbreak>#1[i]%</unbreak>. While Rin Tohsaka is on the field, Skill DMG dealt by all allies becomes <unbreak>#2[i]%</unbreak> of the original DMG.",
       "icon": "SkillIcon_1508_Rank2.png",
       "param_list": [
         0.3,
@@ -44,7 +44,7 @@
     "4": {
       "id": 150804,
       "name": "Red Devil: Triple Speed",
-      "desc": "When the CRIT DMG boost effect from Talent \"Gem Magecraft\" takes effect on Rin Tohsaka, the effect can stack up to <unbreak>#1[i]</unbreak> time(s).",
+      "desc": "When the CRIT DMG boost effect from the Talent \"Gem Magecraft\" applies to Rin Tohsaka, the effect can stack, up to <unbreak>#1[i]</unbreak> time(s).",
       "icon": "SkillIcon_1508_Rank4.png",
       "param_list": [
         2
@@ -62,7 +62,7 @@
     "6": {
       "id": 150806,
       "name": "Nailed It This Time!",
-      "desc": "Rin Tohsaka's All-Type <u>RES PEN</u> increases by <unbreak>#1[i]%</unbreak>. When using Ultimate, gains <unbreak>#2[i]</unbreak> point(s) of \"Gem Energy\" and 1 <u>extra turn</u>.",
+      "desc": "Rin Tohsaka's All-Type <u>RES PEN</u> increases by <unbreak>#1[i]%</unbreak>. When using Ultimate, gains <unbreak>#2[i]</unbreak> \"Gem Energy\" and 1 <u>extra turn</u>.",
       "icon": "SkillIcon_1508_Rank6.png",
       "param_list": [
         0.2,
@@ -86,7 +86,7 @@
     "150801": {
       "id": 150801,
       "name": "Bajiquan",
-      "desc": "Deals Quantum DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Rin Tohsaka's ATK to one designated enemy target.",
+      "desc": "Deals Quantum DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Rin Tohsaka's ATK to one designated enemy.",
       "simple_desc": "Deals minor Quantum DMG to one designated enemy.",
       "type": "Normal",
       "type_name": "Basic ATK",
@@ -166,8 +166,8 @@
     "150802": {
       "id": 150802,
       "name": "Jeweled Sword Zelretch",
-      "desc": "Deals Quantum DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Rin Tohsaka's ATK to one designated enemy target.",
-      "simple_desc": "Deals Quantum DMG to one designated enemy target.",
+      "desc": "Deals Quantum DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Rin Tohsaka's ATK to one designated enemy.",
+      "simple_desc": "Deals Quantum DMG to one designated enemy.",
       "type": "BPSkill",
       "type_name": "Skill",
       "tag": "SingleAttack",
@@ -275,7 +275,7 @@
     "150803": {
       "id": 150803,
       "name": "<unbreak>An Gal Ta</unbreak> <unbreak>Ki Gal Šè</unbreak>",
-      "desc": "Deals Quantum DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Rin Tohsaka's ATK to other enemy targets. When used, recovers <unbreak>#4[i]</unbreak> Skill Point(s) for allies, and increases the DMG taken by all enemies by <color=#f29e38ff><unbreak>#5[i]%</unbreak></color> for <unbreak>#6[i]</unbreak> turn(s).",
+      "desc": "Deals Quantum DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Rin Tohsaka's ATK to other enemy targets. When used, recovers <unbreak>#4[i]</unbreak> Skill Point(s) for allies, and increases the DMG taken by all enemies by <color=#f29e38ff><unbreak>#5[i]%</unbreak></color>, lasting for <unbreak>#6[i]</unbreak> turn(s).",
       "simple_desc": "Deals massive Quantum DMG to one designated enemy and Quantum DMG to other enemy targets. When used, increases the DMG taken by all enemies and recovers Skill Point(s) for allies.",
       "type": "Ultra",
       "type_name": "Ultimate",
@@ -459,8 +459,8 @@
     "150804": {
       "id": 150804,
       "name": "Gem Magecraft",
-      "desc": "When entering combat, gains <unbreak>#1[i]</unbreak> \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> for <unbreak>#2[i]</unbreak> turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka possesses <unbreak>#5[i]</unbreak> or more \"Gem Energy\" or if current Skill Points are <unbreak>#4[i]</unbreak> or more, her Skill is enhanced into \"Second Magic Experiment.\"",
-      "simple_desc": "When entering combat, <color=#f29e38ff>gains</color> <color=#f29e38ff><unbreak>#1[i]</unbreak></color> <color=#f29e38ff>point(s) of \"Gem Energy\"</color>. When an ally target <color=#f29e38ff>consumes or recovers Skill Points</color>, <color=#f29e38ff>increases their CRIT DMG</color> and <color=#f29e38ff>grants Rin Tohsaka \"Gem Energy.\"</color> If Rin Tohsaka possesses <color=#f29e38ff><unbreak>#5[i]</unbreak></color> or more point(s) of \"Gem Energy\" or current Skill Points is <color=#f29e38ff><unbreak>#4[i]</unbreak></color> or more, her Skill is enhanced into \"Second Magic Experiment.\"",
+      "desc": "When entering combat, gains <unbreak>#1[i]</unbreak> \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> for <unbreak>#2[i]</unbreak> turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds <unbreak>#5[i]</unbreak> or more \"Gem Energy,\" or if the current Skill Points are <unbreak>#4[i]</unbreak> or more, her Skill is enhanced to \"Second Magic Experiment.\"",
+      "simple_desc": "When entering combat, <color=#f29e38ff>gains</color> <color=#f29e38ff><unbreak>#1[i]</unbreak></color> <color=#f29e38ff>\"Gem Energy\"</color>. When an ally target <color=#f29e38ff>consumes or recovers Skill Points</color>, <color=#f29e38ff>increases their CRIT DMG</color> and <color=#f29e38ff>grants Rin Tohsaka \"Gem Energy.\"</color> If Rin Tohsaka holds <color=#f29e38ff><unbreak>#5[i]</unbreak></color> or more \"Gem Energy,\" or the current Skill Points are <color=#f29e38ff><unbreak>#4[i]</unbreak></color> or more, her Skill is enhanced to \"Second Magic Experiment.\"",
       "type_name": "Talent",
       "tag": "Enhance",
       "sp_base": 10,
@@ -642,8 +642,8 @@
     "150805": {
       "id": 150805,
       "name": "Freeform Tohsaka Style",
-      "desc": "After <unbreak>Archer</unbreak> uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if there are <unbreak>#3[i]</unbreak> or fewer Skill Point(s) remaining or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the <u>Joint Follow-Up ATK</u> from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and <unbreak>Archer</unbreak> will launch a <u>Joint Follow-Up ATK</u> on all enemies, dealing Quantum DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Rin Tohsaka's ATK and <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> of <unbreak>Archer</unbreak>'s ATK respectively, and recovering <unbreak>#2[i]</unbreak> Skill Point(s) for allies. This <u>Joint Follow-Up ATK</u> can only trigger once. The trigger count resets when Rin Tohsaka's turn ends.",
-      "simple_desc": "After <unbreak>Archer</unbreak> attacks with his Skill \"Caladbolg II: Fake Spiral Sword,\" if there are <color=#f29e38ff><unbreak>#3[i]</unbreak></color> Skill Point(s) or fewer remaining, or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state and the <u>Joint Follow-Up ATK</u> from \"Freeform Tohsaka Style\" has not yet been triggered, Rin Tohsaka and <unbreak>Archer</unbreak> will launch a <u>Joint Follow-Up ATK</u> on all enemies, dealing massive Quantum DMG and recovering Skill Point(s) for allies. This <u>Joint Follow-Up ATK</u> can only trigger once. The trigger count resets when Rin Tohsaka ends her turn.",
+      "desc": "After <unbreak>Archer</unbreak> uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are <unbreak>#3[i]</unbreak> or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the <u>Joint Follow-Up ATK</u> from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and <unbreak>Archer</unbreak> will launch <u>Joint Follow-Up ATK</u> on all enemies, dealing Quantum DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Rin Tohsaka's ATK and <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> of <unbreak>Archer</unbreak>'s ATK respectively, and recovering <unbreak>#2[i]</unbreak> Skill Point(s) for allies. This <u>Joint Follow-Up ATK</u> can only trigger once. The trigger count resets when Rin Tohsaka's turn ends.",
+      "simple_desc": "After <unbreak>Archer</unbreak> uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are <color=#f29e38ff><unbreak>#3[i]</unbreak></color> or fewer, or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the <u>Joint Follow-Up ATK</u> from \"Freeform Tohsaka Style\" has not yet been triggered, Rin Tohsaka and <unbreak>Archer</unbreak> will launch <u>Joint Follow-Up ATK</u> on all enemies, dealing massive Quantum DMG and recovering Skill Point(s) for allies. This <u>Joint Follow-Up ATK</u> can only trigger once. The trigger count resets when Rin Tohsaka ends her turn.",
       "type_name": "Talent",
       "tag": "AoEAttack",
       "sp_base": 10,
@@ -826,8 +826,8 @@
     "150807": {
       "id": 150807,
       "name": "Conversion Charge",
-      "desc": "After using the Technique, gains <unbreak>#1[i]</unbreak> point(s) of \"Gem Energy\" at the start of the next combat.",
-      "simple_desc": "After using Technique, gains <color=#f29e38ff><unbreak>#1[i]</unbreak></color> point(s) of \"Gem Energy\" at the start of the next combat.",
+      "desc": "After using Technique, gains <unbreak>#1[i]</unbreak> \"Gem Energy\" at the start of the next battle.",
+      "simple_desc": "After using Technique, gains <color=#f29e38ff><unbreak>#1[i]</unbreak></color> \"Gem Energy\" at the start of the next battle.",
       "type": "Maze",
       "type_name": "Technique",
       "tag": "Enhance",
@@ -852,8 +852,8 @@
     "150809": {
       "id": 150809,
       "name": "Second Magic Experiment",
-      "desc": "Deals Quantum DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Rin Tohsaka's ATK to all enemies. Then, consumes <unbreak>#2[i]</unbreak> point(s) of \"Gem Energy\" to deal additional Quantum DMG equal to <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than <unbreak>#2[i]</unbreak> or there are no enemy targets with current HP greater than 0, up to a maximum of <unbreak>#6[i]</unbreak> time(s). When used, if current Skill Points are greater than <unbreak>#4[i]</unbreak>, consumes Skill Points until there are <unbreak>#4[i]</unbreak> point(s) left, immediately gaining <unbreak>#5[i]</unbreak> point(s) of \"Gem Energy\" for every 1 Skill Point consumed.",
-      "simple_desc": "Deals minor Quantum DMG to all enemies, then <color=#f29e38ff>consumes \"Gem Energy\"</color> to additionally deal minor Quantum DMG to one random enemy target a certain number of times. When using this ability, if current Skill Points are greater than <color=#f29e38ff><unbreak>#4[i]</unbreak></color>, consumes Skill Points until <color=#f29e38ff><unbreak>#4[i]</unbreak></color> point(s) remain, and immediately <color=#f29e38ff>gains</color> <color=#f29e38ff><unbreak>#5[i]</unbreak></color> <color=#f29e38ff>point(s) of \"Gem Energy\"</color> for each Skill Point consumed.",
+      "desc": "Deals Quantum DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Rin Tohsaka's ATK to all enemies. Then, consumes <unbreak>#2[i]</unbreak> \"Gem Energy\" to additionally deal Quantum DMG equal to <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than <unbreak>#2[i]</unbreak> or there are no enemy targets with current HP greater than 0. Can repeat up to <unbreak>#6[i]</unbreak> cycle(s). When used, if the current Skill Points are greater than <unbreak>#4[i]</unbreak>, consumes Skill Points down to <unbreak>#4[i]</unbreak>, and for each Point consumed, immediately gains <unbreak>#5[i]</unbreak> \"Gem Energy.\"",
+      "simple_desc": "Deals minor Quantum DMG to all enemies. Then, <color=#f29e38ff>consumes \"Gem Energy\"</color> to additionally deal minor Quantum DMG to random single enemy targets for a certain number of times. When used, if the current Skill Points are greater than <color=#f29e38ff><unbreak>#4[i]</unbreak></color>, consumes Skill Points down to <color=#f29e38ff><unbreak>#4[i]</unbreak></color>, and for each point consumed, immediately <color=#f29e38ff>gains</color> <color=#f29e38ff><unbreak>#5[i]</unbreak></color> <color=#f29e38ff>\"Gem Energy\"</color>.",
       "type": "BPSkill",
       "type_name": "Skill",
       "tag": "Bounce",
@@ -2330,7 +2330,7 @@
         ],
         "point_id": 1508101,
         "point_name": "Elegant Conduct",
-        "point_desc": "When Rin Tohsaka is on the field, additionally increases the max number of Skill Points by <unbreak>#1[i]</unbreak>. When entering combat, Rin Tohsaka's ATK increases by <unbreak>#2[i]%</unbreak>, and Quantum <u>RES PEN</u> increases by <unbreak>#3[i]%</unbreak>. If <unbreak>Archer</unbreak> is in the team, <unbreak>Archer</unbreak> also gains this effect.",
+        "point_desc": "While Rin Tohsaka is on the field, additionally increases the upper limit of Skill Points by <unbreak>#1[i]</unbreak>. When entering combat, Rin Tohsaka's ATK increases by <unbreak>#2[i]%</unbreak>, and Quantum <u>RES PEN</u> increases by <unbreak>#3[i]%</unbreak>. If <unbreak>Archer</unbreak> is in the team, <unbreak>Archer</unbreak> also gains this effect.",
         "point_trigger_key": 6,
         "point_type": 3,
         "pre_point": [],
@@ -2380,7 +2380,7 @@
         ],
         "point_id": 1508102,
         "point_name": "Ladylike Poise",
-        "point_desc": "When entering combat and after using Enhanced Skill, Rin Tohsaka's SPD increases by <unbreak>#1[i]%</unbreak>, lasting for <unbreak>#2[i]</unbreak> turn(s).",
+        "point_desc": "When entering combat or after using Enhanced Skill, increases Rin Tohsaka's SPD by <unbreak>#1[i]%</unbreak>, lasting for <unbreak>#2[i]</unbreak> turn(s).",
         "point_trigger_key": 7,
         "point_type": 3,
         "pre_point": [],
@@ -2423,7 +2423,7 @@
         ],
         "point_id": 1508103,
         "point_name": "Inbound Prosperity",
-        "point_desc": "When Rin Tohsaka uses her Ultimate, she gains <unbreak>#1[i]</unbreak> point(s) of \"Gem Energy.\"",
+        "point_desc": "When Rin Tohsaka uses Ultimate, gains <unbreak>#1[i]</unbreak> \"Gem Energy.\"",
         "point_trigger_key": 8,
         "point_type": 3,
         "pre_point": [],

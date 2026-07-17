@@ -269,25 +269,7 @@
         "is_battle_voice": true
       },
       {
-        "voice_id": 72,
-        "voice_title": "...",
-        "voice_m": "...",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 73,
-        "voice_title": "...",
-        "voice_m": "...",
-        "is_battle_voice": true
-      },
-      {
         "voice_id": 69,
-        "voice_title": "...",
-        "voice_m": "...",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 74,
         "voice_title": "...",
         "voice_m": "...",
         "is_battle_voice": true
@@ -300,6 +282,24 @@
       },
       {
         "voice_id": 71,
+        "voice_title": "...",
+        "voice_m": "...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 72,
+        "voice_title": "...",
+        "voice_m": "...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 73,
+        "voice_title": "...",
+        "voice_m": "...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 74,
         "voice_title": "...",
         "voice_m": "...",
         "is_battle_voice": true
@@ -641,7 +641,7 @@
       ],
       "extra": {
         "10000002": {
-          "name": "Action Delayed",
+          "name": "Delay Action",
           "desc": "Increases the target's waiting interval before the next action.",
           "param": []
         },
@@ -939,7 +939,7 @@
       ],
       "extra": {
         "10000002": {
-          "name": "Action Delayed",
+          "name": "Delay Action",
           "desc": "Increases the target's waiting interval before the next action.",
           "param": []
         },
@@ -3065,7 +3065,7 @@
           ],
           "extra": {
             "10000002": {
-              "name": "Action Delayed",
+              "name": "Delay Action",
               "desc": "Increases the target's waiting interval before the next action.",
               "param": []
             },
@@ -3437,7 +3437,7 @@
           ],
           "extra": {
             "10000002": {
-              "name": "Action Delayed",
+              "name": "Delay Action",
               "desc": "Increases the target's waiting interval before the next action.",
               "param": []
             },

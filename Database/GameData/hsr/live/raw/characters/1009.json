@@ -114,12 +114,6 @@
         "is_battle_voice": false
       },
       {
-        "voice_id": 25,
-        "voice_title": "About The Herta",
-        "voice_m": "I've only seen Madam Herta in the flesh a few times after the establishment of the Herta Space Station, but every one of those meetings was an unforgettable experience.",
-        "is_battle_voice": false
-      },
-      {
         "voice_id": 17,
         "voice_title": "Eidolon Activation",
         "voice_m": "Every star is a miracle!",
@@ -165,12 +159,6 @@
         "voice_id": 24,
         "voice_title": "Added to Team With Topaz",
         "voice_m": "Topaz, what a coincidence! Guess I should see this as a business trip!",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 26,
-        "voice_title": "Added to Team With The Herta",
-        "voice_m": "Thank you for showing up personally. No need to worry. Just leave the support work to me!",
         "is_battle_voice": false
       },
       {

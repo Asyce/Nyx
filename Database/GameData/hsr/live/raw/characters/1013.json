@@ -108,12 +108,6 @@
         "is_battle_voice": false
       },
       {
-        "voice_id": 25,
-        "voice_title": "About The Herta",
-        "voice_m": "Special condition detected. Remote puppet automatic praise mode — on. Madam Herta is a peerless gem. Madam Herta is an unrivaled genius. Madam Herta is an inimitable beauty...",
-        "is_battle_voice": false
-      },
-      {
         "voice_id": 16,
         "voice_title": "Eidolon Activation",
         "voice_m": "Define inspiration? Tsk, it's only the several thousand ideas racing through my mind every minute.",
@@ -165,12 +159,6 @@
         "voice_id": 24,
         "voice_title": "Added to Team With Ruan Mei",
         "voice_m": "I don't usually get to see you outside the Simulated Universe. Who do you want to experiment on this time?",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 26,
-        "voice_title": "Added to Team With The Herta",
-        "voice_m": "Madam Herta is a peerless gem. Madam Herta is an unrivalled genius. Madam Herta is an inimitable beauty.",
         "is_battle_voice": false
       },
       {

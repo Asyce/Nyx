@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "game": "zzz",
-  "generatedAt": "2026-07-16T08:33:29.925Z",
+  "generatedAt": "2026-07-16T19:34:01.877Z",
   "source": {
     "name": "Zenless Zone Zero Official",
     "endpoint": "sg-announcement-api.hoyoverse.com getAnnList+getAnnContent"
@@ -29,7 +29,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1226",
         "kind": "official-announcement-api",
         "recordId": "1226",
-        "fetchedAt": "2026-07-16T08:33:35.983Z",
+        "fetchedAt": "2026-07-16T19:34:07.282Z",
         "priority": 1
       },
       "confidence": "high",
@@ -73,7 +73,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1203",
         "kind": "official-announcement-api",
         "recordId": "1203",
-        "fetchedAt": "2026-07-16T08:33:35.983Z",
+        "fetchedAt": "2026-07-16T19:34:07.282Z",
         "priority": 1
       },
       "confidence": "high",
@@ -117,7 +117,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1204",
         "kind": "official-announcement-api",
         "recordId": "1204",
-        "fetchedAt": "2026-07-16T08:33:35.983Z",
+        "fetchedAt": "2026-07-16T19:34:07.282Z",
         "priority": 1
       },
       "confidence": "high",
@@ -186,7 +186,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1189",
         "kind": "official-announcement-api",
         "recordId": "1189",
-        "fetchedAt": "2026-07-16T08:33:35.983Z",
+        "fetchedAt": "2026-07-16T19:34:07.282Z",
         "priority": 1
       },
       "confidence": "high",
@@ -230,7 +230,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1205",
         "kind": "official-announcement-api",
         "recordId": "1205",
-        "fetchedAt": "2026-07-16T08:33:35.983Z",
+        "fetchedAt": "2026-07-16T19:34:07.282Z",
         "priority": 1
       },
       "confidence": "low",
@@ -255,7 +255,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1200",
         "kind": "official-announcement-api",
         "recordId": "1200",
-        "fetchedAt": "2026-07-16T08:33:35.983Z",
+        "fetchedAt": "2026-07-16T19:34:07.282Z",
         "priority": 1
       },
       "confidence": "low",

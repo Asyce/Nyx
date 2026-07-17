@@ -120,18 +120,6 @@
         "is_battle_voice": false
       },
       {
-        "voice_id": 27,
-        "voice_title": "About Feixiao",
-        "voice_m": "Feixiao won't show any weakness to anyone. The fact that she sometimes chats with me about her feelings already counts as relaxing for her.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 30,
-        "voice_title": "About Fugue",
-        "voice_m": "In my heart, she has always been that child who yearned for the many worlds across the vast universe. She has always been... Tingyun.",
-        "is_battle_voice": false
-      },
-      {
         "voice_id": 18,
         "voice_title": "Eidolon Activation",
         "voice_m": "The heavens are vast, the kite flies where it wishes.",
@@ -183,24 +171,6 @@
         "voice_id": 26,
         "voice_title": "Added to Team With Sushang",
         "voice_m": "Be careful, Sushang. The battlefield tolerates no mistakes.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 28,
-        "voice_title": "Added to Team With Lingsha",
-        "voice_m": "This brings back a lot of old memories.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 29,
-        "voice_title": "Added to Team With Feixiao",
-        "voice_m": "You're much calmer than you once were.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 31,
-        "voice_title": "Added to Team With Fugue",
-        "voice_m": "We must both move on now.",
         "is_battle_voice": false
       },
       {

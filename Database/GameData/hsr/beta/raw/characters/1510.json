@@ -15,7 +15,7 @@
     "1": {
       "id": 151001,
       "name": "That Which We Stride Is the Trailblaze",
-      "desc": "Increases the number of times the Talent triggers the extra <u>Assist Skill</u> effect by <unbreak>#4[i]</unbreak>. When in the \"Companion Protocol: Verdict\" state, the number of Ultimate uses required to launch the <u>Assist Skill</u> is reduced by <unbreak>#1[i]</unbreak>. When in the \"Companion Protocol: Decimation\" state, the Charge required to launch the <u>Assist Skill</u> is reduced by <unbreak>#2[i]</unbreak>. When Himeko • Nova launches the <u>Assist Skill</u>, the number of times the extra DMG effect is triggered increases by <unbreak>#3[i]</unbreak>.",
+      "desc": "The number of extra <u>Assist Skill</u> uses from Talent additionally increases by <unbreak>#4[i]</unbreak>. While in the \"Companion Protocol: Verdict\" state, reduces the number of Ultimate uses required to launch <u>Assist Skill</u> by <unbreak>#1[i]</unbreak>. While in the \"Companion Protocol: Decimation\" state, reduces the Charge required to launch <u>Assist Skill</u> by <unbreak>#2[i]</unbreak>. When Himeko • Nova launches <u>Assist Skill</u>, the number of extra DMG instances increases by <unbreak>#3[i]</unbreak>.",
       "icon": "SkillIcon_1510_Rank1.png",
       "param_list": [
         1,
@@ -34,7 +34,7 @@
     "2": {
       "id": 151002,
       "name": "The Colors We Never Strike",
-      "desc": "Max uses of Himeko • Nova's <u>Assist Skill</u> increase to 2, and DMG dealt by Ultimate and <u>Assist Skill</u> becomes <unbreak>#1[i]%</unbreak> of their original DMG. At the start of each turn in the \"Navigator's Semaphore\" state, immediately recovers 1 extra <u>Assist Skill</u> use. Trace \"Hark! The Express's Pulse Roars\" effect: When characters other than <u>Trailblaze Companions</u> use <u>Assist Skill</u>, they also gain 1 <u>extra turn</u>.",
+      "desc": "The cap of Himeko • Nova's <u>Assist Skill</u> uses increases to 2, and the DMG dealt by Ultimate and <u>Assist Skill</u> becomes <unbreak>#1[i]%</unbreak> of their original DMG. During the \"Navigator's Semaphore\" state, at the start of each turn , additionally recovers 1 use of <u>Assist Skill</u> immediately. When a non-<u>Trailblaze Companions</u> character uses <u>Assist Skill</u>, the Trace \"Hark! The Express's Pulse Roars\" now also grants them 1 <u>extra turn</u>.",
       "icon": "SkillIcon_1510_Rank2.png",
       "param_list": [
         1.3
@@ -63,7 +63,7 @@
     "4": {
       "id": 151004,
       "name": "Let No Skyward Hand Stay Unheld",
-      "desc": "When using the <u>Assist Skill</u> from Talent \"Of Fire and Far Faring,\" the All-Type RES PEN increase effect applies to all allies. When Himeko • Nova gains this effect, her All-Type RES PEN increases by an additional <unbreak>#1[i]%</unbreak>.",
+      "desc": "When using <u>Assist Skill</u> via the Talent \"Of Fire and Far Faring,\" the All-Type RES PEN boost now applies to all allies. And when Himeko • Nova gains this effect, her All-Type RES PEN additionally increases by <unbreak>#1[i]%</unbreak>.",
       "icon": "SkillIcon_1510_Rank4.png",
       "param_list": [
         0.1
@@ -87,7 +87,7 @@
     "6": {
       "id": 151006,
       "name": "Ours Is the Oath to Sail Starward",
-      "desc": "Himeko • Nova's Fire Type <u>RES PEN</u> increases by <unbreak>#1[i]%</unbreak>. Max <u>\"Source Energy\"</u> increases to <unbreak>#2[i]</unbreak> point(s), and when an ally uses or triggers an <u>Assist Skill</u>, DMG dealt by the <u>Assist Skill</u> increases by <unbreak>#3[i]%</unbreak>, and Himeko • Nova gains 1 point of <u>\"Source Energy\"</u>. When launching a \"Hyperluminal Particle Beam\" attack during Ultimate, additionally gains 1 point of <u>\"Source Energy\"</u>. When launching \"Orbital Annihilation Pulse,\" if the current <u>\"Source Energy\"</u> is <unbreak>#4[i]</unbreak> point(s) or more, additionally deals Fire DMG equal to <unbreak>#5[i]%</unbreak> of Himeko • Nova's ATK to all enemies 1 time.",
+      "desc": "Himeko • Nova's Fire <u>RES PEN</u> increases by <unbreak>#1[i]%</unbreak>. The cap of <u>\"Source Energy\"</u> increases to <unbreak>#2[i]</unbreak>. When an ally uses or launches <u>Assist Skill</u>, DMG dealt by <u>Assist Skill</u> increases by <unbreak>#3[i]%</unbreak>, and Himeko • Nova gains 1 <u>\"Source Energy.\"</u> When launching \"Hyperluminal Particle Beam\" during Ultimate, additionally gains 1 <u>\"Source Energy\"</u>. When launching \"Orbital Annihilation Pulse,\" if the current <u>\"Source Energy\"</u> is <unbreak>#4[i]</unbreak> or more, additionally deals 1 instance of Fire DMG to all enemies, equal to <unbreak>#5[i]%</unbreak> of Himeko • Nova's ATK.",
       "icon": "SkillIcon_1510_Rank6.png",
       "param_list": [
         0.2,
@@ -100,6 +100,11 @@
         "10000032": {
           "name": "Assist Skill",
           "desc": "An extra ability that can be granted to an ally target. Using an Assist Skill will also consume the current action turn.",
+          "param": []
+        },
+        "10015101": {
+          "name": "Source Energy",
+          "desc": "Charge exclusive to the Starblazer.",
           "param": []
         },
         "30000005": {
@@ -194,8 +199,8 @@
     "151002": {
       "id": 151002,
       "name": "Upraise the Vanward Cresset",
-      "desc": "After using Skill, immediately regains all uses of <u>Assist Skill</u> and Himeko • Nova gains \"Navigator's Semaphore,\" lasting for <unbreak>#2[i]</unbreak> turn(s). At the start of each of Himeko • Nova's turn, the duration is reduced by 1. When Himeko • Nova has \"Navigator's Semaphore,\" DMG dealt by all allies increases by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. At the start of every turn, immediately regains 1 use of <u>Assist Skill</u>.",
-      "simple_desc": "After using Skill, immediately regains all uses of <u>Assist Skill</u> and Himeko • Nova gains \"Navigator's Semaphore.\" When Himeko • Nova has \"Navigator's Semaphore,\" DMG dealt increases. At the start of every turn, immediately regains 1 use of <u>Assist Skill</u>.",
+      "desc": "After using Skill, immediately recovers all <u>Assist Skill</u> uses. Himeko • Nova gains \"Navigator's Semaphore,\" lasting for <unbreak>#2[i]</unbreak> turn(s). This duration decreases by 1 at the start of Himeko • Nova's every turn. When Himeko • Nova has \"Navigator's Semaphore,\" DMG dealt by all allies increases by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. At the start of every turn, immediately recovers 1 <u>Assist Skill</u> use.",
+      "simple_desc": "After using Skill, immediately recovers all <u>Assist Skill</u> uses. Himeko • Nova gains \"Navigator's Semaphore.\" When Himeko • Nova has \"Navigator's Semaphore,\" DMG dealt increases. At the start of every turn, immediately regains 1 <u>Assist Skill</u> use.",
       "type": "BPSkill",
       "type_name": "Skill",
       "tag": "Support",
@@ -324,8 +329,8 @@
     "151003": {
       "id": 151003,
       "name": "We, Too, Stride the Stars",
-      "desc": "Immediately takes control of Starblazer. Starblazer can launch \"Hyperluminal Particle Beam\" against enemies 6 times, or consume <u>\"Source Energy\"</u> to launch \"Orbital Annihilation Pulse,\" dealing Fire DMG up to <color=#f29e38ff><unbreak>#9[i]%</unbreak></color> of Himeko • Nova's ATK to one designated enemy, and Fire DMG up to <color=#f29e38ff><unbreak>#10[i]%</unbreak></color> of Himeko • Nova's ATK to other targets.\\nWhen the uses of \"Hyperluminal Particle Beam\" are depleted, automatically launches \"Orbital Annihilation Pulse,\" followed by Final Hit, dealing <unbreak>#6[i]</unbreak> instance(s) of DMG, with each instance dealing Fire DMG equal to <color=#f29e38ff><unbreak>#7[i]%</unbreak></color> of Himeko • Nova's ATK to one random enemy.\\nWhen \"Hyperluminal Particle Beam\" or \"Orbital Annihilation Pulse\" deals fatal damage to all enemies on the field, or when enemy HP can no longer be reduced, immediately launches Final Hit.",
-      "simple_desc": "During the Ultimate, can unleash \"Hyperluminal Particle Beam\" or \"Orbital Annihilation Pulse\" on all enemies. At the end, deals Fire DMG to <color=#f29e38ff><unbreak>#6[i]</unbreak></color> random single enemies.",
+      "desc": "Immediately takes control of \"Starblazer.\" \"Starblazer\" can launch \"Hyperluminal Particle Beam\" against enemies 6 times, or consume <u>\"Source Energy\"</u> to launch \"Orbital Annihilation Pulse,\" dealing Fire DMG up to <color=#f29e38ff><unbreak>#9[i]%</unbreak></color> of Himeko • Nova's ATK to one designated enemy, and Fire DMG up to <color=#f29e38ff><unbreak>#10[i]%</unbreak></color> of Himeko • Nova's ATK to other targets.\\nWhen the uses of \"Hyperluminal Particle Beam\" are depleted, automatically launches \"Orbital Annihilation Pulse,\" followed by Final Hit, dealing <unbreak>#6[i]</unbreak> instance(s) of DMG, with each instance dealing Fire DMG equal to <color=#f29e38ff><unbreak>#7[i]%</unbreak></color> of Himeko • Nova's ATK to one random enemy.\\nWhen \"Hyperluminal Particle Beam\" or \"Orbital Annihilation Pulse\" deals fatal damage to all enemies on the field, or when enemy HP can no longer be reduced, immediately launches Final Hit.",
+      "simple_desc": "During the Ultimate, can launch \"Hyperluminal Particle Beam\" or \"Orbital Annihilation Pulse\" on all enemies. At the end, deals Fire DMG to <color=#f29e38ff><unbreak>#6[i]</unbreak></color> random single enemies.",
       "type": "Ultra",
       "type_name": "Ultimate",
       "tag": "AoEAttack",
@@ -339,7 +344,7 @@
       "extra": {
         "10015101": {
           "name": "Source Energy",
-          "desc": "Charge exclusive to the Starblazer, maximum 3 points.",
+          "desc": "Charge exclusive to the Starblazer.",
           "param": []
         }
       },
@@ -574,8 +579,8 @@
     "151004": {
       "id": 151004,
       "name": "Of Fire and Far Faring",
-      "desc": "While Himeko • Nova is on the field, immediately deploys the <u>Territory</u> \"Starblazer Visioscape,\" causing a \"Starblazer\" to appear on the field and granting all ally characters 1 <u>Assist Skill</u> usage. Ally characters can use the <u>Assist Skill</u> to command the \"Starblazer\" to attack enemies.\\nUsing the <u>Assist Skill</u> is considered as Himeko • Nova using her Skill. Himeko • Nova's All-Type <u>RES PEN</u> increases by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> and CRIT DMG increases by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. Attacks can ignore Weakness Types to reduce enemy Toughness. When Weakness is Broken, triggers the Fire Weakness Break effect.\\nWhen an ally character other than Himeko • Nova uses the <u>Assist Skill</u>, they regenerate <unbreak>#3[i]</unbreak> Energy.",
-      "simple_desc": "When Himeko • Nova is on the field, she deploys a <u>Territory</u>, granting all ally characters <u>Assist Skill</u>. When an ally character uses <u>Assist Skill</u>, Himeko • Nova gains All-Type <u>RES PEN</u> boost and CRIT DMG boost, and her attacks ignore Weakness Types to reduce Toughness.\\nWhen ally characters aside from Himeko • Nova use <u>Assist Skill</u>, she regenerates Energy.",
+      "desc": "While Himeko • Nova is on the field, immediately deploys the <u>Territory</u> \"Starblazer Visioscape,\" summoning \"Starblazer\" to the field and granting all ally characters 1 <u>Assist Skill</u> use. Ally characters can use <u>Assist Skill</u> to call upon \"Starblazer\" to attack enemies.\\nUsing <u>Assist Skill</u> is considered as Himeko • Nova using her Skill. Himeko • Nova gains <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> increased All-Type <u>RES PEN</u> and <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> increased CRIT DMG. When attacking, can ignore Weakness Types to reduce enemy Toughness. When breaking Weakness, triggers the Fire Weakness Break effect.\\nWhen ally characters other than Himeko • Nova use their <u>Assist Skill</u>, regenerates <unbreak>#3[i]</unbreak> Energy for them.",
+      "simple_desc": "When Himeko • Nova is on the field, deploys a <u>Territory</u>, granting all ally characters <u>Assist Skill</u>. When an ally character uses <u>Assist Skill</u>, Himeko • Nova gains increased All-Type <u>RES PEN</u> and increased CRIT DMG. When attacking, ignores Weakness Types to reduce Toughness.\\nWhen ally characters other than Himeko • Nova use <u>Assist Skill</u>, regenerates Energy for them.",
       "type_name": "Talent",
       "tag": "Enhance",
       "bp_need": -1,
@@ -747,8 +752,8 @@
     "151007": {
       "id": 151007,
       "name": "Starcharter Cruise",
-      "desc": "When Himeko • Nova is in the team, increases max Technique Points by 3.\\nAfter using the Technique, she enters the \"Cruise\" state, lasting for <unbreak>#1[i]</unbreak> seconds. Actively using the Technique consumes 2 Technique Points and immediately attacks all enemies within a certain range. After entering combat, immediately uses Skill 1 time at the start of each wave.\\nIf attacking a Normal Enemy, immediately defeats them without entering combat. No Technique Points are consumed if no enemies are hit.",
-      "simple_desc": "Increases <color=#f29e38ff>max Technique Points</color> by 3. After using the Technique actively, enters the \"Cruise\" state and consumes 2 Technique Points to attack all enemies within a certain range. After entering combat, uses Skill 1 time at the start of each wave.\\nIf attacking a Normal Enemy, <color=#f29e38ff>immediately defeats them</color> without entering combat. No Technique Points are consumed if no enemies are hit.",
+      "desc": "When Himeko • Nova is in the team, increases the max Technique Points by 3.\\nAfter using Technique, enters the \"Cruise\" state for <unbreak>#1[i]</unbreak> seconds. Actively using the Technique consumes 2 Technique Points and immediately attacks all enemies within a certain range. After entering combat, immediately uses Skill 1 time at the start of each wave.\\nIf attacking a Normal Enemy, immediately defeats them without entering combat. No Technique Points are consumed if no enemies are hit.",
+      "simple_desc": "Increases the <color=#f29e38ff>max Technique Points</color> by 3. After actively using Technique, enters the \"Cruise\" state and consumes 2 Technique Points to attack all enemies within a certain range. After entering combat, uses Skill 1 time at the start of each wave.\\nIf attacking a Normal Enemy, <color=#f29e38ff>immediately defeats them</color> without entering combat. No Technique Points are consumed if no enemies are hit.",
       "type": "Maze",
       "type_name": "Technique",
       "tag": "Enhance",
@@ -771,8 +776,8 @@
     "151008": {
       "id": 151008,
       "name": "Hyperluminal Particle Beam",
-      "desc": "Deals Fire DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Himeko • Nova's ATK to all enemies and gains <unbreak>#2[i]</unbreak> point(s) of <u>\"Source Energy\"</u>. A maximum of <unbreak>#3[i]</unbreak> <u>\"Source Energy\"</u> can be held.",
-      "simple_desc": "Deals minor Fire DMG to all enemies. Gains <color=#f29e38ff><unbreak>#2[i]</unbreak></color> point(s) of <u>\"Source Energy\"</u>. A maximum of <color=#f29e38ff><unbreak>#3[i]</unbreak></color> <u>\"Source Energy\"</u> can be held.",
+      "desc": "Deals Fire DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Himeko • Nova's ATK to all enemies and gains <unbreak>#2[i]</unbreak> point(s) of <u>\"Source Energy.\"</u> A maximum of <unbreak>#3[i]</unbreak> <u>\"Source Energy\"</u> can be held.",
+      "simple_desc": "Deals minor Fire DMG to all enemies. Gains <color=#f29e38ff><unbreak>#2[i]</unbreak></color> point(s) of <u>\"Source Energy.\"</u> A maximum of <color=#f29e38ff><unbreak>#3[i]</unbreak></color> <u>\"Source Energy\"</u> can be held.",
       "type": "Ultra",
       "type_name": "Ultimate",
       "tag": "AoEAttack",
@@ -785,7 +790,7 @@
       "extra": {
         "10015101": {
           "name": "Source Energy",
-          "desc": "Charge exclusive to the Starblazer, maximum 3 points.",
+          "desc": "Charge exclusive to the Starblazer.",
           "param": []
         }
       },
@@ -915,8 +920,8 @@
     "151009": {
       "id": 151009,
       "name": "Orbital Annihilation Pulse",
-      "desc": "Consumes 1 point of <u>\"Source Energy\"</u> to deal Fire DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Himeko • Nova's ATK to all enemies. When current <u>\"Source Energy\"</u> is more than 1 point, for every <unbreak>#2[i]</unbreak> point(s) of <u>\"Source Energy\"</u> consumed, additionally deals 1 instance of Fire DMG equal to <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> of Himeko • Nova's ATK to one random enemy.",
-      "simple_desc": "Consumes 1 point of <u>\"Source Energy\"</u> to deal minor Fire DMG to all enemies. When current <u>\"Source Energy\"</u> is more than 1 point, for every <color=#f29e38ff><unbreak>#2[i]</unbreak></color> point(s) of <u>\"Source Energy\"</u> consumed, deals minor Fire DMG 1 time to one random enemy.",
+      "desc": "Consumes 1 point of <u>\"Source Energy\"</u> to deal Fire DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Himeko • Nova's ATK to all enemies. When the current <u>\"Source Energy\"</u> is more than 1, for every <unbreak>#2[i]</unbreak> point(s) of <u>\"Source Energy\"</u> consumed, additionally deals 1 instance of Fire DMG equal to <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> of Himeko • Nova's ATK to one random enemy.",
+      "simple_desc": "Consumes 1 point of <u>\"Source Energy\"</u> to deal minor Fire DMG to all enemies. When the current <u>\"Source Energy\"</u> is more than 1, for every <color=#f29e38ff><unbreak>#2[i]</unbreak></color> <u>\"Source Energy\"</u> consumed, deals 1 instance of minor Fire DMG to one random enemy.",
       "type": "Ultra",
       "type_name": "Ultimate",
       "tag": "AoEAttack",
@@ -929,7 +934,7 @@
       "extra": {
         "10015101": {
           "name": "Source Energy",
-          "desc": "Charge exclusive to the Starblazer, maximum 3 points.",
+          "desc": "Charge exclusive to the Starblazer.",
           "param": []
         }
       },
@@ -1181,8 +1186,8 @@
     "151022": {
       "id": 151022,
       "name": "Trailblaze, By Your Side",
-      "desc": "Deals Fire DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Himeko • Nova's ATK to all enemies, and deals <unbreak>#2[i]</unbreak> extra instances of DMG, with each instance dealing Fire DMG equal to <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> of Himeko • Nova's ATK to one random enemy. When used by Himeko • Nova, deals Fire DMG equal to <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> of Himeko • Nova's ATK to all enemies, and deals <unbreak>#5[i]</unbreak> extra instances of DMG, with each instance dealing Fire DMG equal to <color=#f29e38ff><unbreak>#6[i]%</unbreak></color> of Himeko • Nova's ATK to one random enemy.\\nIf used by a <u>Trailblaze Companions</u> character other than Himeko • Nova, Himeko • Nova will additionally gain 1 of the <color=#DE7A66><u><unbreak><icon SpriteName=AvatarHimekoNova id=0 width=1 height=1>Special</unbreak> Effects</u></color> depending on the user.\\nThe extra <u>Assist Skill</u> triggered by all <color=#DE7A66><u><unbreak><icon SpriteName=AvatarHimekoNova id=1 width=1 height=1>Special</unbreak> Effects</u></color> can be triggered up to <unbreak>#8[i]</unbreak> time(s) per battle, and the trigger count is reset after Himeko • Nova uses her Ultimate.",
-      "simple_desc": "Deals minor Fire DMG to all enemies, and minor Fire DMG to <color=#f29e38ff><unbreak>#2[i]</unbreak></color> random enemies. When used by Himeko • Nova, deals minor Fire DMG to all enemies, and minor Fire DMG to <color=#f29e38ff><unbreak>#5[i]</unbreak></color> random enemies. If used by a <u>Trailblaze Companions</u> character other than Himeko • Nova, Himeko • Nova obtains 1 of the <color=#DE7A66><u><unbreak><icon SpriteName=AvatarHimekoNova id=0 width=1 height=1>Special</unbreak> Effects</u></color>.",
+      "desc": "Deals Fire DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Himeko • Nova's ATK to all enemies, and additionally deals <unbreak>#2[i]</unbreak> instances of DMG, with each instance dealing Fire DMG equal to <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> of Himeko • Nova's ATK to one random enemy. When used by Himeko • Nova, deals Fire DMG equal to <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> of Himeko • Nova's ATK to all enemies, and additionally deals <unbreak>#5[i]</unbreak> instances of DMG, with each instance dealing Fire DMG equal to <color=#f29e38ff><unbreak>#6[i]%</unbreak></color> of Himeko • Nova's ATK to one random enemy.\\nIf the user is a <u>Trailblaze Companions</u> character other than Himeko • Nova, then depending on the user, Himeko • Nova additionally gains 1 of the <color=#DE7A66><u><unbreak><icon SpriteName=AvatarHimekoNova id=0 width=1 height=1>Special</unbreak> Effects</u></color>.\\nThe extra <u>Assist Skill</u> via all <color=#DE7A66><u><unbreak><icon SpriteName=AvatarHimekoNova id=1 width=1 height=1>Special</unbreak> Effects</u></color> can be launched up to <unbreak>#8[i]</unbreak> time(s) per battle, and this count is reset after Himeko • Nova uses her Ultimate.",
+      "simple_desc": "Deals minor Fire DMG to all enemies, and minor Fire DMG to <color=#f29e38ff><unbreak>#2[i]</unbreak></color> random enemies. When used by Himeko • Nova, deals minor Fire DMG to all enemies, and minor Fire DMG to <color=#f29e38ff><unbreak>#5[i]</unbreak></color> random enemies. If used by a <u>Trailblaze Companions</u> character other than Himeko • Nova, she will gain 1 of the <color=#DE7A66><u><unbreak><icon SpriteName=AvatarHimekoNova id=0 width=1 height=1>Special</unbreak> Effects</u></color>.",
       "type": "Assist",
       "type_name": "Assist Skill",
       "tag": "AoEAttack",
@@ -1406,8 +1411,8 @@
     "151025": {
       "id": 151025,
       "name": "Companion Protocol: Verdict",
-      "desc": "Enters the \"Companion Protocol: Verdict\" state. Increases DMG dealt by Himeko • Nova by <color=#f29e38ff><unbreak>#8[i]%</unbreak></color>, and additionally increases her Ultimate DMG dealt by <color=#f29e38ff><unbreak>#10[i]%</unbreak></color>. After Himeko • Nova's teammates actively use their Ultimate <unbreak>#9[i]</unbreak> time(s), Himeko • Nova immediately launches 1 <u>Assist Skill</u> against the enemy at no cost.",
-      "simple_desc": "Enters the \"Companion Protocol: Verdict\" state. Increases DMG dealt by Himeko • Nova, and additionally increases her Ultimate DMG dealt. After Himeko • Nova's teammates actively use their Ultimate <color=#f29e38ff><unbreak>#9[i]</unbreak></color> time(s), Himeko • Nova immediately launches 1 <u>Assist Skill</u> against the enemy.",
+      "desc": "Enters the \"Companion Protocol: Verdict\" state. Increases DMG dealt by Himeko • Nova by <color=#f29e38ff><unbreak>#8[i]%</unbreak></color>, and additionally increases her Ultimate DMG dealt by <color=#f29e38ff><unbreak>#10[i]%</unbreak></color>. After Himeko • Nova's teammates actively use their Ultimate <unbreak>#9[i]</unbreak> time(s), Himeko • Nova immediately launches 1 <u>Assist Skill</u> against enemies at no cost.",
+      "simple_desc": "Enters the \"Companion Protocol: Verdict\" state. Increases DMG dealt by Himeko • Nova, and additionally increases her Ultimate DMG dealt. After Himeko • Nova's teammates actively use their Ultimate <color=#f29e38ff><unbreak>#9[i]</unbreak></color> time(s), Himeko • Nova immediately launches 1 <u>Assist Skill</u> against enemies.",
       "type": "Assist",
       "type_name": "Assist Skill",
       "tag": "AoEAttack",
@@ -1447,7 +1452,7 @@
             0.88,
             3,
             0.132,
-            1,
+            1.1,
             4,
             0.194,
             4,
@@ -1462,7 +1467,7 @@
             0.96,
             3,
             0.144,
-            1,
+            1.2,
             4,
             0.208,
             4,
@@ -1477,7 +1482,7 @@
             1.04,
             3,
             0.156,
-            1,
+            1.3,
             4,
             0.222,
             4,
@@ -1492,7 +1497,7 @@
             1.12,
             3,
             0.168,
-            1,
+            1.4,
             4,
             0.236,
             4,
@@ -1507,7 +1512,7 @@
             1.2,
             3,
             0.18,
-            1,
+            1.5,
             4,
             0.25,
             4,
@@ -1522,7 +1527,7 @@
             1.3,
             3,
             0.195,
-            1,
+            1.625,
             4,
             0.2675,
             4,
@@ -1537,7 +1542,7 @@
             1.4,
             3,
             0.21,
-            1,
+            1.75,
             4,
             0.285,
             4,
@@ -1552,7 +1557,7 @@
             1.5,
             3,
             0.225,
-            1,
+            1.875,
             4,
             0.3025,
             4,
@@ -1567,7 +1572,7 @@
             1.6,
             3,
             0.24,
-            1,
+            2,
             4,
             0.32,
             4,
@@ -1582,7 +1587,7 @@
             1.68,
             3,
             0.252,
-            1,
+            2.1,
             4,
             0.334,
             4,
@@ -1597,7 +1602,7 @@
             1.76,
             3,
             0.264,
-            1,
+            2.2,
             4,
             0.348,
             4,
@@ -1612,7 +1617,7 @@
             1.84,
             3,
             0.276,
-            1,
+            2.3,
             4,
             0.362,
             4,
@@ -1627,7 +1632,7 @@
             1.92,
             3,
             0.288,
-            1,
+            2.4,
             4,
             0.376,
             4,
@@ -1642,7 +1647,7 @@
             2,
             3,
             0.3,
-            1,
+            2.5,
             4,
             0.39,
             4,
@@ -1656,8 +1661,8 @@
     "151026": {
       "id": 151026,
       "name": "Companion Protocol: Decimation",
-      "desc": "Enters the \"Companion Protocol: Decimation\" state. Increases all allies' CRIT DMG by <color=#f29e38ff><unbreak>#8[i]%</unbreak></color>, and additionally increases the CRIT DMG dealt by Skills by <color=#f29e38ff><unbreak>#10[i]%</unbreak></color>. Gains 1 point of Charge for each enemy target hit by an ally. When Charge reaches <unbreak>#9[i]</unbreak> points, consumes all Charge, and Himeko • Nova immediately launches 1 <u>Assist Skill</u> against the enemy at no cost. This instance of <u>Assist Skill</u> cannot gain Charge.",
-      "simple_desc": "Enters the \"Companion Protocol: Decimation\" state. Increases all allies' CRIT DMG, and additionally increases CRIT DMG dealt by Skills. Gains 1 point of Charge for each enemy target hit by an ally. When Charge reaches <color=#f29e38ff><unbreak>#9[i]</unbreak></color> points, consumes all Charge, and Himeko • Nova immediately launches 1 <u>Assist Skill</u> against the enemy.",
+      "desc": "Enters the \"Companion Protocol: Decimation\" state. Increases all allies' CRIT DMG by <color=#f29e38ff><unbreak>#8[i]%</unbreak></color>, and additionally increases the CRIT DMG dealt by Skill by <color=#f29e38ff><unbreak>#10[i]%</unbreak></color>. For every 1 enemy target hit by allies, gains 1 Charge. When Charge reaches <unbreak>#9[i]</unbreak>, consumes all Charge, and Himeko • Nova immediately launches 1 <u>Assist Skill</u> against enemies at no cost. This instance of <u>Assist Skill</u> cannot grant Charge.",
+      "simple_desc": "Enters the \"Companion Protocol: Decimation\" state. Increases all allies' CRIT DMG, and additionally increases CRIT DMG dealt by Skill. For every 1 enemy target hit by allies, gains 1 Charge. When Charge reaches <color=#f29e38ff><unbreak>#9[i]</unbreak></color>, consumes all Charge, and Himeko • Nova immediately launches 1 <u>Assist Skill</u> against enemies.",
       "type": "Assist",
       "type_name": "Assist Skill",
       "tag": "AoEAttack",
@@ -3208,7 +3213,7 @@
         ],
         "point_id": 1510101,
         "point_name": "Whither, the Last and First Men?",
-        "point_desc": "When Himeko • Nova uses her <u>Assist Skill</u>, it does not consume <u>Assist Skill</u> uses. At the start of the turn, if the current <u>Assist Skill</u> uses equal the current maximum limit, Himeko • Nova additionally regenerates <unbreak>#1[i]</unbreak> Energy.",
+        "point_desc": "When Himeko • Nova launches <u>Assist Skill</u>, it does not consume <u>Assist Skill</u> uses. At the start of the turn, if the <u>Assist Skill</u> uses have reached the current cap, Himeko • Nova additionally regenerates <unbreak>#1[i]</unbreak> Energy.",
         "point_trigger_key": 6,
         "point_type": 3,
         "pre_point": [],
@@ -3255,7 +3260,7 @@
         "param_list": [],
         "point_id": 1510102,
         "point_name": "Hark! The Express's Pulse Roars",
-        "point_desc": "When a <u>Trailblaze Companions</u> character other than Himeko • Nova uses an <u>Assist Skill</u>, that character immediately gains 1 <u>extra turn</u> during which they can use their Ultimate. An <u>extra turn</u> gained from an <u>Assist Skill</u> will not repeatedly trigger this Trace effect.",
+        "point_desc": "When a <u>Trailblaze Companions</u> character other than Himeko • Nova uses <u>Assist Skill</u>, that character immediately gains 1 <u>extra turn</u> in which they can insert the use of their Ultimate. The <u>extra turn</u> gained from <u>Assist Skill</u> will not repeatedly trigger this Trace effect.",
         "point_trigger_key": 7,
         "point_type": 3,
         "pre_point": [],
@@ -3316,7 +3321,7 @@
         ],
         "point_id": 1510103,
         "point_name": "The Silver Rail, Hushed in Antiquity",
-        "point_desc": "When using Ultimate, immediately gains <unbreak>#1[i]</unbreak> point(s) of <u>\"Source Energy.\"</u> If current <u>\"Source Energy\"</u> is <unbreak>#2[i]</unbreak> point(s) or more, when using the \"Orbital Annihilation Pulse\" attack, the DMG multiplier of \"Orbital Annihilation Pulse\" against random single enemies increases by <unbreak>#3[i]%</unbreak>.",
+        "point_desc": "When using Ultimate, immediately gains <unbreak>#1[i]</unbreak> <u>\"Source Energy.\"</u> If the current <u>\"Source Energy\"</u> is <unbreak>#2[i]</unbreak> or more, when using the \"Orbital Annihilation Pulse\" attack, the DMG multiplier of \"Orbital Annihilation Pulse\" against random single enemies increases by <unbreak>#3[i]%</unbreak>.",
         "point_trigger_key": 8,
         "point_type": 3,
         "pre_point": [],
@@ -3324,7 +3329,7 @@
         "extra": {
           "10015101": {
             "name": "Source Energy",
-            "desc": "Charge exclusive to the Starblazer, maximum 3 points.",
+            "desc": "Charge exclusive to the Starblazer.",
             "param": []
           }
         }

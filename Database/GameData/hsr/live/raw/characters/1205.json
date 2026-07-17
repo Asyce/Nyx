@@ -132,18 +132,6 @@
         "is_battle_voice": false
       },
       {
-        "voice_id": 32,
-        "voice_title": "About Firefly",
-        "voice_m": "I yearn for the end, yet she yearns for survival... We are both destiny's slaves.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 33,
-        "voice_title": "About Silver Wolf LV.<unbreak>999</unbreak>",
-        "voice_m": "She tried to convince me that games don't just end in \"death.\" There are defeats and victories, too.",
-        "is_battle_voice": false
-      },
-      {
         "voice_id": 20,
         "voice_title": "Eidolon Activation",
         "voice_m": "Life itself is punishment.",
@@ -201,18 +189,6 @@
         "voice_id": 29,
         "voice_title": "Added to Team With Dan Heng • Imbibitor Lunae",
         "voice_m": "Need me to watch your back?",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 31,
-        "voice_title": "Added to Team With Firefly",
-        "voice_m": "Who do you think will reach the \"end\" first — you, or me... or them?",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 34,
-        "voice_title": "Added to Team With Silver Wolf LV.<unbreak>999</unbreak>",
-        "voice_m": "Since it's your game, we'll do it your way.",
         "is_battle_voice": false
       },
       {

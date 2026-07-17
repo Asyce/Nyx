@@ -108,18 +108,6 @@
         "is_battle_voice": false
       },
       {
-        "voice_id": 22,
-        "voice_title": "About Fugue",
-        "voice_m": "She has simply proven once again that our understanding of the essence of life is still far from complete.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 24,
-        "voice_title": "About The Herta",
-        "voice_m": "Her feedback is always sharp and brusque, especially when conversing face-to-face. However, I am never offended... We both know that every step taken beyond the boundaries of knowledge requires immense sacrifices.",
-        "is_battle_voice": false
-      },
-      {
         "voice_id": 16,
         "voice_title": "Eidolon Activation",
         "voice_m": "Can life's past moments truly be restored to what they once were?",
@@ -153,18 +141,6 @@
         "voice_id": 21,
         "voice_title": "Added to Team With Herta",
         "voice_m": "If this were the Simulated Universe, I'd be at your mercy — but this is real life.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 23,
-        "voice_title": "Added to Team With Fugue",
-        "voice_m": "Always remember, don't let life leave you any regrets.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 25,
-        "voice_title": "Added to Team With The Herta",
-        "voice_m": "We don't have many opportunities to fight alongside each other. Let's treasure this.",
         "is_battle_voice": false
       },
       {

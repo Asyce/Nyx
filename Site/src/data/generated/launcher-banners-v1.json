@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "d35cd84e35a2cc1359c9bda8f72fba1f60dcf20b953e19dc7cb198b8d8484da9",
-  "generatedAt": "2026-07-17T07:24:20.575Z",
+  "revision": "6b16db86e40fde3b5b1250929dbe1497d541e25448d757628bfa7c760964791f",
+  "generatedAt": "2026-07-17T07:37:14.796Z",
   "health": {
     "status": "ok",
     "games": {
@@ -43,7 +43,7 @@
         "remaining": {
           "startsAt": "2026-07-01T03:00:00.000Z",
           "endsAt": "2026-07-21T09:59:59.000Z",
-          "durationSeconds": 354938
+          "durationSeconds": 354164
         },
         "characters": [
           {
@@ -281,7 +281,7 @@
         "remaining": {
           "startsAt": "2026-07-15T03:00:00.000Z",
           "endsAt": "2026-08-05T03:59:00.000Z",
-          "durationSeconds": 1629279
+          "durationSeconds": 1628505
         },
         "characters": [
           {
@@ -323,7 +323,7 @@
             "name": "Dan Heng • Permansor Terrae",
             "rarity": 5,
             "limited": true,
-            "debut": "2023-04-25T22:00:00.000Z",
+            "debut": "2025-10-11T09:00:00.000Z",
             "variants": [
               {
                 "id": "1414-draw-card",
@@ -530,7 +530,7 @@
         "remaining": {
           "startsAt": "2026-07-08T11:00:00.000Z",
           "endsAt": "2026-07-28T13:59:59.000Z",
-          "durationSeconds": 974138
+          "durationSeconds": 973364
         },
         "characters": [
           {
@@ -683,7 +683,7 @@
         "remaining": {
           "startsAt": "2026-07-10T08:10:00.000Z",
           "endsAt": "2026-07-30T08:59:00.000Z",
-          "durationSeconds": 1128879
+          "durationSeconds": 1128105
         },
         "characters": [
           {
@@ -980,7 +980,7 @@
         "remaining": {
           "startsAt": "2026-07-16T04:00:00.000Z",
           "endsAt": "2026-08-09T03:59:59.000Z",
-          "durationSeconds": 1974938
+          "durationSeconds": 1974164
         },
         "characters": [
           {

@@ -902,12 +902,19 @@
     "rarity": "VeryRare",
     "item_figure_icon_path": "SpriteOutput/ItemFigures/110508.png"
   },
+  "110509": {
+    "item_name": "High Hopes of the Falsely Enlightened",
+    "item_sub_type": "WeeklyMonsterDrop",
+    "purpose_type": 4,
+    "rarity": "VeryRare",
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/110509.png"
+  },
   "110610": {
     "item_name": "Tears of Rail",
     "item_sub_type": "WeeklyMonsterDrop",
     "purpose_type": 4,
     "rarity": "VeryRare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/110610.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/Figure_Testmaterial01.png"
   },
   "111000": {
     "item_name": "Tears of Souls",
@@ -1223,6 +1230,13 @@
     "purpose_type": 14,
     "rarity": "SuperRare",
     "item_figure_icon_path": "SpriteOutput/ItemFigures/295534.png"
+  },
+  "122004": {
+    "item_name": "Anomaly Arbitration Limited-Time Clearance Medal",
+    "item_sub_type": "Material",
+    "purpose_type": 14,
+    "rarity": "SuperRare",
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/295535.png"
   },
   "123000": {
     "item_name": "Access Card",
@@ -4372,14 +4386,14 @@
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/140532.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "140533": {
     "item_name": "Burning Golden Bough of Vows",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/140533.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "140534": {
     "item_name": "Steel Claw Dagger with Faded Patterns",
@@ -4547,147 +4561,147 @@
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "VeryRare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/140557.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "140558": {
     "item_name": "Seal Slammers Photo Slate",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "VeryRare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/140558.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "140559": {
     "item_name": "Nicomachus' Work Permit",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/190020.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "140560": {
     "item_name": "Andreas' Work Permit",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/190020.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "140561": {
     "item_name": "Clio's Work Permit",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/190020.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "140562": {
     "item_name": "Clio's Experimental Crop",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/180009.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "140563": {
     "item_name": "Nicomachus' Notebook",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/190017.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "140564": {
     "item_name": "Andreas' Ceremonial Medicine Enhancer",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/402008.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "140565": {
     "item_name": "Artakama's Sword",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/140534.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "140566": {
     "item_name": "Dew of Divine Blood",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/140567.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "140567": {
     "item_name": "Weft",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/140566.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "140568": {
     "item_name": "\"Work Champion\" Medal",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "VeryRare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/140568.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "140569": {
     "item_name": "Coreflame of Time",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/140569.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "140570": {
     "item_name": "Nether Butterfly's Pondering",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/140570.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "140571": {
     "item_name": "Letter from the Phantom Thief Cipher",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/140571.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "140572": {
     "item_name": "Cipher's Coin",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/140572.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "140573": {
     "item_name": "Trianne's Hand-Drawn Picture",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/140573.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "140574": {
     "item_name": "Coreflame of Death",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/140574.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "140575": {
     "item_name": "Outlander King of Knights Puppet",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/1040536.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "140576": {
     "item_name": "Tarnished Glory",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/1040538.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "140577": {
     "item_name": "Chronocognitive Anchor",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/140577.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "140578": {
     "item_name": "\"Take the Feast to Tomorrow\"",
@@ -4771,168 +4785,287 @@
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/140589.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "140590": {
     "item_name": "Hysilens's Ceramic Cup",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/140590.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "140591": {
     "item_name": "Dew of Divine Blood",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/140591.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "140592": {
     "item_name": "Coreflame of Worldbearing",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/140592.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "140593": {
     "item_name": "Flame-Chase Medallion",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/140589.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "140594": {
     "item_name": "Hysilens's Ceramic Cup",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/140590.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "140595": {
     "item_name": "Dew of Divine Blood",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/140591.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "140596": {
     "item_name": "Chronocognitive Anchor",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/140577.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "140597": {
     "item_name": "Dream's Curtain Call",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/140597.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "140598": {
     "item_name": "Dream's Curtain Call",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/140598.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "140599": {
     "item_name": "Imperial Ring of Strife",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/140599.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "140600": {
     "item_name": "Trickery Coin",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/140600.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "140601": {
     "item_name": "Winter Blossom of Death",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/140601.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "140602": {
     "item_name": "Passage Plushie",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/140602.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "140603": {
     "item_name": "Bracelet of Romance",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/140603.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "140604": {
     "item_name": "Skybound Spirit Kist",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/140604.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "140605": {
     "item_name": "Jade of Reason",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/140605.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "140606": {
     "item_name": "Wish of Worldbearing",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/140606.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "140607": {
     "item_name": "Despair of Worldbearing",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/140607.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "140608": {
     "item_name": "Trailblazemon's Paw (Right)",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/140608.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "140609": {
     "item_name": "Trailblazemon's Round Foot (Left)",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/140609.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "140610": {
     "item_name": "Trailblazemon's Paw (Left)",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/140610.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "140611": {
     "item_name": "\"Blue Guardian\" Trophy",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "VeryRare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/140611.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "140612": {
     "item_name": "Ashveil's Detective Notes",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/190016.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
+  },
+  "140613": {
+    "item_name": "<i>Setting Sail Among the Stars</i> Picture Book",
+    "item_sub_type": "Mission",
+    "purpose_type": 16,
+    "rarity": "VeryRare",
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
+  },
+  "140614": {
+    "item_name": "<i>Setting Sail Among the Stars</i> Picture Book",
+    "item_sub_type": "Mission",
+    "purpose_type": 16,
+    "rarity": "VeryRare",
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
+  },
+  "140615": {
+    "item_name": "",
+    "item_sub_type": "Mission",
+    "purpose_type": 16,
+    "rarity": "Rare",
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
+  },
+  "140616": {
+    "item_name": "<i>Setting Sail Among the Stars</i> Picture Book",
+    "item_sub_type": "Mission",
+    "purpose_type": 16,
+    "rarity": "VeryRare",
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
+  },
+  "140617": {
+    "item_name": "<i>Setting Sail Among the Stars</i> Picture Book",
+    "item_sub_type": "Mission",
+    "purpose_type": 16,
+    "rarity": "VeryRare",
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
+  },
+  "140618": {
+    "item_name": "<i>Setting Sail Among the Stars</i> Picture Book",
+    "item_sub_type": "Mission",
+    "purpose_type": 16,
+    "rarity": "VeryRare",
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
+  },
+  "140619": {
+    "item_name": "<i>Setting Sail Among the Stars</i> Picture Book",
+    "item_sub_type": "Mission",
+    "purpose_type": 16,
+    "rarity": "VeryRare",
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
+  },
+  "140620": {
+    "item_name": "<i>Setting Sail Among the Stars</i> Picture Book",
+    "item_sub_type": "Mission",
+    "purpose_type": 16,
+    "rarity": "VeryRare",
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
+  },
+  "140621": {
+    "item_name": "<i>Setting Sail Among the Stars</i> Picture Book",
+    "item_sub_type": "Mission",
+    "purpose_type": 16,
+    "rarity": "VeryRare",
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
+  },
+  "140622": {
+    "item_name": "<i>Setting Sail Among the Stars</i> Picture Book",
+    "item_sub_type": "Mission",
+    "purpose_type": 16,
+    "rarity": "VeryRare",
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
+  },
+  "140623": {
+    "item_name": "<i>Setting Sail Among the Stars</i> Picture Book",
+    "item_sub_type": "Mission",
+    "purpose_type": 16,
+    "rarity": "VeryRare",
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
+  },
+  "140624": {
+    "item_name": "<i>Setting Sail Among the Stars</i> Picture Book",
+    "item_sub_type": "Mission",
+    "purpose_type": 16,
+    "rarity": "VeryRare",
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
+  },
+  "140625": {
+    "item_name": "<i>Setting Sail Among the Stars</i> Picture Book",
+    "item_sub_type": "Mission",
+    "purpose_type": 16,
+    "rarity": "VeryRare",
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
+  },
+  "140626": {
+    "item_name": "<i>Setting Sail Among the Stars</i> Picture Book",
+    "item_sub_type": "Mission",
+    "purpose_type": 16,
+    "rarity": "VeryRare",
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
+  },
+  "140627": {
+    "item_name": "<i>Setting Sail Among the Stars</i> Picture Book",
+    "item_sub_type": "Mission",
+    "purpose_type": 16,
+    "rarity": "VeryRare",
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
+  },
+  "140628": {
+    "item_name": "<i>Setting Sail Among the Stars</i> Picture Book",
+    "item_sub_type": "Mission",
+    "purpose_type": 16,
+    "rarity": "VeryRare",
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
+  },
+  "140629": {
+    "item_name": "<i>Setting Sail Among the Stars</i> Picture Book",
+    "item_sub_type": "Mission",
+    "purpose_type": 16,
+    "rarity": "VeryRare",
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "149957": {
     "item_name": "Photo With March 7th",
@@ -5604,133 +5737,133 @@
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/150069.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "150070": {
     "item_name": "\"Dragonbone City\" Hymn Tablet (II)",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/150070.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "150071": {
     "item_name": "\"Dawncloud\" Hymn Tablet (I)",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/150071.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "150072": {
     "item_name": "\"Dawncloud\" Hymn Tablet (II)",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/150072.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "150073": {
     "item_name": "Portentous Goldwoven: Dragonbone City",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/190017.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "150074": {
     "item_name": "\"Lightless Chapel\" Dawncloud Hymn Tablet",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/150074.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "150075": {
     "item_name": "\"Fallen Twilight City\" Okhema Hymn Tablet",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/150075.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "150076": {
     "item_name": "\"Cloudedge Bastion Ruins\" Eye of Twilight Hymn Tablet",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/150076.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "150077": {
     "item_name": "\"Fortress of Dome\" Eye of Twilight Hymn Tablet",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/150077.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "150078": {
     "item_name": "Portentous Goldwoven: \"Lightless Chapel\"",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/190017.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "150079": {
     "item_name": "Portentous Goldwoven: \"Lightless Chapel\"",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/190017.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "150080": {
     "item_name": "Conch Echo: Kindling",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/150080.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "150081": {
     "item_name": "Conch Echo: Winter",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/150080.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "150082": {
     "item_name": "Conch Echo: In the Rain",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/150080.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "150083": {
     "item_name": "Conch Echo: Rumble",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/150080.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "150084": {
     "item_name": "Portentous Goldwoven: \"Lightless Chapel\"",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/190017.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "150085": {
     "item_name": "Portentous Goldwoven: \"Lightless Chapel\"",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/190017.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "150086": {
     "item_name": "\"Fruit of Time\"",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/150088.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "150087": {
     "item_name": "Portentous Goldwoven: Aedes Elysiae",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/190017.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "150088": {
     "item_name": "Heroic Variable",
@@ -5758,14 +5891,14 @@
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/190017.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "150092": {
     "item_name": "Portentous Goldwoven: Radiant Scarwood",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/190017.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "150093": {
     "item_name": "Power Analyst Certificate",
@@ -5800,7 +5933,7 @@
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/190002.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "150098": {
     "item_name": "Star Rail FEST Fan Glowstick",
@@ -8749,6 +8882,13 @@
     "rarity": "VeryRare",
     "item_figure_icon_path": "SpriteOutput/ItemFigures/300057.png"
   },
+  "300058": {
+    "item_name": "Letter Sent Across the Stars",
+    "item_sub_type": "Gift",
+    "purpose_type": 14,
+    "rarity": "VeryRare",
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/300058.png"
+  },
   "300101": {
     "item_name": "Express Supply Pass",
     "item_sub_type": "Gift",
@@ -9308,13 +9448,6 @@
     "purpose_type": 10,
     "rarity": "Rare",
     "item_figure_icon_path": "SpriteOutput/ItemFigures/402036.png"
-  },
-  "402037": {
-    "item_name": "Vibrant Zest-Core",
-    "item_sub_type": "Food",
-    "purpose_type": 10,
-    "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/402037.png"
   },
   "403001": {
     "item_name": "Disposable Kinetic Arm",
@@ -9959,13 +10092,6 @@
     "purpose_type": 19,
     "rarity": "Rare",
     "item_figure_icon_path": "SpriteOutput/ItemFigures/404001.png"
-  },
-  "406037": {
-    "item_name": "Recipe: Vibrant Zest-Core",
-    "item_sub_type": "Formula",
-    "purpose_type": 19,
-    "rarity": "Rare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/406037.png"
   },
   "407001": {
     "item_name": "Recipe: Disposable Kinetic Arm",

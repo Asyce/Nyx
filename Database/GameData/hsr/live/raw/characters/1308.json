@@ -2,7 +2,7 @@
   "name": "Acheron",
   "desc": "A drifter claiming to be a Galaxy Ranger. Her true name is unknown.\\nShe walks the cosmos alone, carrying with her a long sword.",
   "chara_info": {
-    "camp": "Galaxy Ranger",
+    "camp": "Self-Annihilator",
     "va": {
       "chinese": "菊花花",
       "japanese": "沢城みゆき",
@@ -144,18 +144,6 @@
         "is_battle_voice": false
       },
       {
-        "voice_id": 30,
-        "voice_title": "About Boothill",
-        "voice_m": "Galaxy Ranger... His affiliation with the organization is merely a cover. It's evident that he lives only for himself, and that is exactly why I have faith in him.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 33,
-        "voice_title": "About The Dahlia",
-        "voice_m": "She dances at the edge of death and takes delight in it while she consorts with the Nihility. She desires nothing, and perhaps that is how she can bloom so carefree.",
-        "is_battle_voice": false
-      },
-      {
         "voice_id": 22,
         "voice_title": "Eidolon Activation",
         "voice_m": "\"To cross the same river twice\" ...Hardly a hardship.",
@@ -201,24 +189,6 @@
         "voice_id": 29,
         "voice_title": "Added to Team With Welt",
         "voice_m": "Even before the abyss of a black hole... we still have a choice.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 31,
-        "voice_title": "Added to Team With Boothill",
-        "voice_m": "You're fast... hand at the holster already?",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 32,
-        "voice_title": "Added to Team With Firefly",
-        "voice_m": "You can't escape the past, and neither can I.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 34,
-        "voice_title": "Added to Team With The Dahlia",
-        "voice_m": "If you do not fear wilting, I would gladly share a dance with you.",
         "is_battle_voice": false
       },
       {

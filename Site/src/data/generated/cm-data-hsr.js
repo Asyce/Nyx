@@ -552,6 +552,66 @@
       "cost": 385000
     },
     {
+      "id": "23062",
+      "name": "I Am As You Behold",
+      "rarity": 5,
+      "path": "Destruction",
+      "type": "Destruction",
+      "icon": "../../Database/GameData/hsr/assets/lightcones/medium/23062.webp",
+      "art": "../../Database/GameData/hsr/assets/lightcones/full/23062.webp",
+      "items": [
+        {
+          "id": "110281",
+          "name": "Four Phases, Crossing the River to Check the King",
+          "qty": 4,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/GameData/hsr/assets/items/110281.webp"
+        },
+        {
+          "id": "110282",
+          "name": "Sixen, King-Rook Fork",
+          "qty": 12,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/GameData/hsr/assets/items/110282.webp"
+        },
+        {
+          "id": "110283",
+          "name": "Omnicolor, Fool's Own",
+          "qty": 15,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
+        },
+        {
+          "id": "111001",
+          "name": "Extinguished Core",
+          "qty": 20,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/GameData/hsr/assets/items/111001.webp"
+        },
+        {
+          "id": "111002",
+          "name": "Glimmering Core",
+          "qty": 20,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/GameData/hsr/assets/items/111002.webp"
+        },
+        {
+          "id": "111003",
+          "name": "Squirming Core",
+          "qty": 14,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/GameData/hsr/assets/items/111003.webp"
+        }
+      ],
+      "cost": 385000
+    },
+    {
       "id": "23014",
       "name": "I Shall Be My Own Sword",
       "rarity": 5,
@@ -1212,6 +1272,66 @@
       "cost": 385000
     },
     {
+      "id": "23060",
+      "name": "A Star That Lights the Night",
+      "rarity": 5,
+      "path": "Erudition",
+      "type": "Erudition",
+      "icon": "../../Database/GameData/hsr/assets/lightcones/medium/23060.webp",
+      "art": "../../Database/GameData/hsr/assets/lightcones/full/23060.webp",
+      "items": [
+        {
+          "id": "110291",
+          "name": "Celestial Globe",
+          "qty": 4,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/GameData/hsr/assets/items/110291.webp"
+        },
+        {
+          "id": "110292",
+          "name": "Galaxy Framework",
+          "qty": 12,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
+        },
+        {
+          "id": "110293",
+          "name": "Cosmic Sandpit",
+          "qty": 15,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+        },
+        {
+          "id": "116001",
+          "name": "Whimsy Wax",
+          "qty": 20,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+        },
+        {
+          "id": "116002",
+          "name": "Dreamweave Steel",
+          "qty": 20,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+        },
+        {
+          "id": "116003",
+          "name": "Lucid Awl",
+          "qty": 14,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+        }
+      ],
+      "cost": 385000
+    },
+    {
       "id": "23018",
       "name": "An Instant Before A Gaze",
       "rarity": 5,
@@ -1387,6 +1507,66 @@
           "rar": 5,
           "kind": "mob",
           "icon": "../../Database/GameData/hsr/assets/items/111003.webp"
+        }
+      ],
+      "cost": 385000
+    },
+    {
+      "id": "23061",
+      "name": "Flickering Stars",
+      "rarity": 5,
+      "path": "Erudition",
+      "type": "Erudition",
+      "icon": "../../Database/GameData/hsr/assets/lightcones/medium/23061.webp",
+      "art": "../../Database/GameData/hsr/assets/lightcones/full/23061.webp",
+      "items": [
+        {
+          "id": "110291",
+          "name": "Celestial Globe",
+          "qty": 4,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/GameData/hsr/assets/items/110291.webp"
+        },
+        {
+          "id": "110292",
+          "name": "Galaxy Framework",
+          "qty": 12,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
+        },
+        {
+          "id": "110293",
+          "name": "Cosmic Sandpit",
+          "qty": 15,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+        },
+        {
+          "id": "111011",
+          "name": "Thief's Instinct",
+          "qty": 20,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/GameData/hsr/assets/items/111011.webp"
+        },
+        {
+          "id": "111012",
+          "name": "Usurper's Scheme",
+          "qty": 20,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/GameData/hsr/assets/items/111012.webp"
+        },
+        {
+          "id": "111013",
+          "name": "Conqueror's Will",
+          "qty": 14,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/GameData/hsr/assets/items/111013.webp"
         }
       ],
       "cost": 385000
@@ -9806,10 +9986,36 @@
       "slug": "himeko-nova",
       "updated": 1783461600000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Cia Court",
+        "japanese": "\u7530\u4e2d\u7406\u6075",
+        "chinese": "\u6797\u7c0c",
+        "korean": "\uae40\ubcf4\ub098"
+      },
       "icon": "../../Database/GameData/hsr/assets/characters/round/1510.webp",
       "art": "../../Database/GameData/hsr/assets/characters/draw-card/1510.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/himeko-nova-2a8de327b90f.webp",
-      "status": "beta",
+      "signatureLightCone": {
+        "id": "23060",
+        "name": "A Star That Lights the Night",
+        "icon": "../../Database/GameData/hsr/assets/lightcones/medium/23060.webp",
+        "art": "../../Database/GameData/hsr/assets/lightcones/full/23060.webp",
+        "path": "Erudition"
+      },
+      "signatureWeapon": {
+        "id": "23060",
+        "name": "A Star That Lights the Night",
+        "path": "Erudition",
+        "type": "Erudition",
+        "educated": false
+      },
+      "signatureWeaponId": "23060",
+      "signatureWeaponName": "A Star That Lights the Night",
+      "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23060.webp",
+      "overviewArtPool": [
+        "../../Database/GameData/hsr/assets/lightcones/full/23060.webp"
+      ],
+      "status": "live",
       "labels": [
         "4.4"
       ],
@@ -9838,22 +10044,1666 @@
       "facts": {
         "title": "Ad Astra Nova"
       },
-      "upcoming": true,
-      "reliableData": false,
-      "noReliableInfo": true,
-      "recent": false
+      "skillIcons": [
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1510_Normal.webp",
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1510_BP.webp",
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1510_Ultra.webp",
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1510_Passive.webp"
+      ],
+      "kit": {
+        "source": "Game data",
+        "channel": "live",
+        "version": "4.4",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Enkindle the First Lodestar",
+                "type": "Basic ATK",
+                "desc": "Deals Fire DMG equal to 140% of Himeko \u2022 Nova's ATK to one enemy.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1510_Normal.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Fire DMG equal to 50% of Himeko \u2022 Nova's ATK to one enemy."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Fire DMG equal to 60% of Himeko \u2022 Nova's ATK to one enemy."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Fire DMG equal to 70% of Himeko \u2022 Nova's ATK to one enemy."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Fire DMG equal to 80% of Himeko \u2022 Nova's ATK to one enemy."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Fire DMG equal to 90% of Himeko \u2022 Nova's ATK to one enemy."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Fire DMG equal to 100% of Himeko \u2022 Nova's ATK to one enemy."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Fire DMG equal to 110% of Himeko \u2022 Nova's ATK to one enemy."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Fire DMG equal to 120% of Himeko \u2022 Nova's ATK to one enemy."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Fire DMG equal to 130% of Himeko \u2022 Nova's ATK to one enemy."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Fire DMG equal to 140% of Himeko \u2022 Nova's ATK to one enemy."
+                  }
+                ]
+              },
+              {
+                "name": "Upraise the Vanward Cresset",
+                "type": "Skill",
+                "desc": "After using Skill, immediately recovers all Assist Skill uses. Himeko \u2022 Nova gains \"Navigator's Semaphore,\" lasting for 3 turn(s). This duration decreases by 1 at the start of Himeko \u2022 Nova's every turn. When Himeko \u2022 Nova has \"Navigator's Semaphore,\" DMG dealt by all allies increases by 25%. At the start of every turn, immediately recovers 1 Assist Skill use.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1510_BP.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "After using Skill, immediately recovers all Assist Skill uses. Himeko \u2022 Nova gains \"Navigator's Semaphore,\" lasting for 3 turn(s). This duration decreases by 1 at the start of Himeko \u2022 Nova's every turn. When Himeko \u2022 Nova has \"Navigator's Semaphore,\" DMG dealt by all allies increases by 10%. At the start of every turn, immediately recovers 1 Assist Skill use."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "After using Skill, immediately recovers all Assist Skill uses. Himeko \u2022 Nova gains \"Navigator's Semaphore,\" lasting for 3 turn(s). This duration decreases by 1 at the start of Himeko \u2022 Nova's every turn. When Himeko \u2022 Nova has \"Navigator's Semaphore,\" DMG dealt by all allies increases by 11%. At the start of every turn, immediately recovers 1 Assist Skill use."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "After using Skill, immediately recovers all Assist Skill uses. Himeko \u2022 Nova gains \"Navigator's Semaphore,\" lasting for 3 turn(s). This duration decreases by 1 at the start of Himeko \u2022 Nova's every turn. When Himeko \u2022 Nova has \"Navigator's Semaphore,\" DMG dealt by all allies increases by 12%. At the start of every turn, immediately recovers 1 Assist Skill use."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "After using Skill, immediately recovers all Assist Skill uses. Himeko \u2022 Nova gains \"Navigator's Semaphore,\" lasting for 3 turn(s). This duration decreases by 1 at the start of Himeko \u2022 Nova's every turn. When Himeko \u2022 Nova has \"Navigator's Semaphore,\" DMG dealt by all allies increases by 13%. At the start of every turn, immediately recovers 1 Assist Skill use."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "After using Skill, immediately recovers all Assist Skill uses. Himeko \u2022 Nova gains \"Navigator's Semaphore,\" lasting for 3 turn(s). This duration decreases by 1 at the start of Himeko \u2022 Nova's every turn. When Himeko \u2022 Nova has \"Navigator's Semaphore,\" DMG dealt by all allies increases by 14%. At the start of every turn, immediately recovers 1 Assist Skill use."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "After using Skill, immediately recovers all Assist Skill uses. Himeko \u2022 Nova gains \"Navigator's Semaphore,\" lasting for 3 turn(s). This duration decreases by 1 at the start of Himeko \u2022 Nova's every turn. When Himeko \u2022 Nova has \"Navigator's Semaphore,\" DMG dealt by all allies increases by 15%. At the start of every turn, immediately recovers 1 Assist Skill use."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "After using Skill, immediately recovers all Assist Skill uses. Himeko \u2022 Nova gains \"Navigator's Semaphore,\" lasting for 3 turn(s). This duration decreases by 1 at the start of Himeko \u2022 Nova's every turn. When Himeko \u2022 Nova has \"Navigator's Semaphore,\" DMG dealt by all allies increases by 16.3%. At the start of every turn, immediately recovers 1 Assist Skill use."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "After using Skill, immediately recovers all Assist Skill uses. Himeko \u2022 Nova gains \"Navigator's Semaphore,\" lasting for 3 turn(s). This duration decreases by 1 at the start of Himeko \u2022 Nova's every turn. When Himeko \u2022 Nova has \"Navigator's Semaphore,\" DMG dealt by all allies increases by 17.5%. At the start of every turn, immediately recovers 1 Assist Skill use."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "After using Skill, immediately recovers all Assist Skill uses. Himeko \u2022 Nova gains \"Navigator's Semaphore,\" lasting for 3 turn(s). This duration decreases by 1 at the start of Himeko \u2022 Nova's every turn. When Himeko \u2022 Nova has \"Navigator's Semaphore,\" DMG dealt by all allies increases by 18.8%. At the start of every turn, immediately recovers 1 Assist Skill use."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "After using Skill, immediately recovers all Assist Skill uses. Himeko \u2022 Nova gains \"Navigator's Semaphore,\" lasting for 3 turn(s). This duration decreases by 1 at the start of Himeko \u2022 Nova's every turn. When Himeko \u2022 Nova has \"Navigator's Semaphore,\" DMG dealt by all allies increases by 20%. At the start of every turn, immediately recovers 1 Assist Skill use."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "After using Skill, immediately recovers all Assist Skill uses. Himeko \u2022 Nova gains \"Navigator's Semaphore,\" lasting for 3 turn(s). This duration decreases by 1 at the start of Himeko \u2022 Nova's every turn. When Himeko \u2022 Nova has \"Navigator's Semaphore,\" DMG dealt by all allies increases by 21%. At the start of every turn, immediately recovers 1 Assist Skill use."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "After using Skill, immediately recovers all Assist Skill uses. Himeko \u2022 Nova gains \"Navigator's Semaphore,\" lasting for 3 turn(s). This duration decreases by 1 at the start of Himeko \u2022 Nova's every turn. When Himeko \u2022 Nova has \"Navigator's Semaphore,\" DMG dealt by all allies increases by 22%. At the start of every turn, immediately recovers 1 Assist Skill use."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "After using Skill, immediately recovers all Assist Skill uses. Himeko \u2022 Nova gains \"Navigator's Semaphore,\" lasting for 3 turn(s). This duration decreases by 1 at the start of Himeko \u2022 Nova's every turn. When Himeko \u2022 Nova has \"Navigator's Semaphore,\" DMG dealt by all allies increases by 23%. At the start of every turn, immediately recovers 1 Assist Skill use."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "After using Skill, immediately recovers all Assist Skill uses. Himeko \u2022 Nova gains \"Navigator's Semaphore,\" lasting for 3 turn(s). This duration decreases by 1 at the start of Himeko \u2022 Nova's every turn. When Himeko \u2022 Nova has \"Navigator's Semaphore,\" DMG dealt by all allies increases by 24%. At the start of every turn, immediately recovers 1 Assist Skill use."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "After using Skill, immediately recovers all Assist Skill uses. Himeko \u2022 Nova gains \"Navigator's Semaphore,\" lasting for 3 turn(s). This duration decreases by 1 at the start of Himeko \u2022 Nova's every turn. When Himeko \u2022 Nova has \"Navigator's Semaphore,\" DMG dealt by all allies increases by 25%. At the start of every turn, immediately recovers 1 Assist Skill use."
+                  }
+                ]
+              },
+              {
+                "name": "We, Too, Stride the Stars",
+                "type": "Ultimate",
+                "desc": "Immediately takes control of \"Starblazer.\" \"Starblazer\" can launch \"Hyperluminal Particle Beam\" against enemies 6 times, or consume \"Source Energy\" to launch \"Orbital Annihilation Pulse,\" dealing Fire DMG up to 953% of Himeko \u2022 Nova's ATK to one designated enemy, and Fire DMG up to 315% of Himeko \u2022 Nova's ATK to other targets.\\nWhen the uses of \"Hyperluminal Particle Beam\" are depleted, automatically launches \"Orbital Annihilation Pulse,\" followed by Final Hit, dealing 3 instance(s) of DMG, with each instance dealing Fire DMG equal to 100% of Himeko \u2022 Nova's ATK to one random enemy.\\nWhen \"Hyperluminal Particle Beam\" or \"Orbital Annihilation Pulse\" deals fatal damage to all enemies on the field, or when enemy HP can no longer be reduced, immediately launches Final Hit.\n\nDeals 1 instance(s) of DMG, each dealing Fire DMG to one random enemy.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1510_Ultra.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Immediately takes control of \"Starblazer.\" \"Starblazer\" can launch \"Hyperluminal Particle Beam\" against enemies 6 times, or consume \"Source Energy\" to launch \"Orbital Annihilation Pulse,\" dealing Fire DMG up to 381% of Himeko \u2022 Nova's ATK to one designated enemy, and Fire DMG up to 126% of Himeko \u2022 Nova's ATK to other targets.\\nWhen the uses of \"Hyperluminal Particle Beam\" are depleted, automatically launches \"Orbital Annihilation Pulse,\" followed by Final Hit, dealing 3 instance(s) of DMG, with each instance dealing Fire DMG equal to 40% of Himeko \u2022 Nova's ATK to one random enemy.\\nWhen \"Hyperluminal Particle Beam\" or \"Orbital Annihilation Pulse\" deals fatal damage to all enemies on the field, or when enemy HP can no longer be reduced, immediately launches Final Hit."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Immediately takes control of \"Starblazer.\" \"Starblazer\" can launch \"Hyperluminal Particle Beam\" against enemies 6 times, or consume \"Source Energy\" to launch \"Orbital Annihilation Pulse,\" dealing Fire DMG up to 419% of Himeko \u2022 Nova's ATK to one designated enemy, and Fire DMG up to 139% of Himeko \u2022 Nova's ATK to other targets.\\nWhen the uses of \"Hyperluminal Particle Beam\" are depleted, automatically launches \"Orbital Annihilation Pulse,\" followed by Final Hit, dealing 3 instance(s) of DMG, with each instance dealing Fire DMG equal to 44% of Himeko \u2022 Nova's ATK to one random enemy.\\nWhen \"Hyperluminal Particle Beam\" or \"Orbital Annihilation Pulse\" deals fatal damage to all enemies on the field, or when enemy HP can no longer be reduced, immediately launches Final Hit."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Immediately takes control of \"Starblazer.\" \"Starblazer\" can launch \"Hyperluminal Particle Beam\" against enemies 6 times, or consume \"Source Energy\" to launch \"Orbital Annihilation Pulse,\" dealing Fire DMG up to 457% of Himeko \u2022 Nova's ATK to one designated enemy, and Fire DMG up to 151% of Himeko \u2022 Nova's ATK to other targets.\\nWhen the uses of \"Hyperluminal Particle Beam\" are depleted, automatically launches \"Orbital Annihilation Pulse,\" followed by Final Hit, dealing 3 instance(s) of DMG, with each instance dealing Fire DMG equal to 48% of Himeko \u2022 Nova's ATK to one random enemy.\\nWhen \"Hyperluminal Particle Beam\" or \"Orbital Annihilation Pulse\" deals fatal damage to all enemies on the field, or when enemy HP can no longer be reduced, immediately launches Final Hit."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Immediately takes control of \"Starblazer.\" \"Starblazer\" can launch \"Hyperluminal Particle Beam\" against enemies 6 times, or consume \"Source Energy\" to launch \"Orbital Annihilation Pulse,\" dealing Fire DMG up to 495% of Himeko \u2022 Nova's ATK to one designated enemy, and Fire DMG up to 164% of Himeko \u2022 Nova's ATK to other targets.\\nWhen the uses of \"Hyperluminal Particle Beam\" are depleted, automatically launches \"Orbital Annihilation Pulse,\" followed by Final Hit, dealing 3 instance(s) of DMG, with each instance dealing Fire DMG equal to 52% of Himeko \u2022 Nova's ATK to one random enemy.\\nWhen \"Hyperluminal Particle Beam\" or \"Orbital Annihilation Pulse\" deals fatal damage to all enemies on the field, or when enemy HP can no longer be reduced, immediately launches Final Hit."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Immediately takes control of \"Starblazer.\" \"Starblazer\" can launch \"Hyperluminal Particle Beam\" against enemies 6 times, or consume \"Source Energy\" to launch \"Orbital Annihilation Pulse,\" dealing Fire DMG up to 533% of Himeko \u2022 Nova's ATK to one designated enemy, and Fire DMG up to 176% of Himeko \u2022 Nova's ATK to other targets.\\nWhen the uses of \"Hyperluminal Particle Beam\" are depleted, automatically launches \"Orbital Annihilation Pulse,\" followed by Final Hit, dealing 3 instance(s) of DMG, with each instance dealing Fire DMG equal to 56% of Himeko \u2022 Nova's ATK to one random enemy.\\nWhen \"Hyperluminal Particle Beam\" or \"Orbital Annihilation Pulse\" deals fatal damage to all enemies on the field, or when enemy HP can no longer be reduced, immediately launches Final Hit."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Immediately takes control of \"Starblazer.\" \"Starblazer\" can launch \"Hyperluminal Particle Beam\" against enemies 6 times, or consume \"Source Energy\" to launch \"Orbital Annihilation Pulse,\" dealing Fire DMG up to 572% of Himeko \u2022 Nova's ATK to one designated enemy, and Fire DMG up to 189% of Himeko \u2022 Nova's ATK to other targets.\\nWhen the uses of \"Hyperluminal Particle Beam\" are depleted, automatically launches \"Orbital Annihilation Pulse,\" followed by Final Hit, dealing 3 instance(s) of DMG, with each instance dealing Fire DMG equal to 60% of Himeko \u2022 Nova's ATK to one random enemy.\\nWhen \"Hyperluminal Particle Beam\" or \"Orbital Annihilation Pulse\" deals fatal damage to all enemies on the field, or when enemy HP can no longer be reduced, immediately launches Final Hit."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Immediately takes control of \"Starblazer.\" \"Starblazer\" can launch \"Hyperluminal Particle Beam\" against enemies 6 times, or consume \"Source Energy\" to launch \"Orbital Annihilation Pulse,\" dealing Fire DMG up to 619% of Himeko \u2022 Nova's ATK to one designated enemy, and Fire DMG up to 205% of Himeko \u2022 Nova's ATK to other targets.\\nWhen the uses of \"Hyperluminal Particle Beam\" are depleted, automatically launches \"Orbital Annihilation Pulse,\" followed by Final Hit, dealing 3 instance(s) of DMG, with each instance dealing Fire DMG equal to 65% of Himeko \u2022 Nova's ATK to one random enemy.\\nWhen \"Hyperluminal Particle Beam\" or \"Orbital Annihilation Pulse\" deals fatal damage to all enemies on the field, or when enemy HP can no longer be reduced, immediately launches Final Hit."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Immediately takes control of \"Starblazer.\" \"Starblazer\" can launch \"Hyperluminal Particle Beam\" against enemies 6 times, or consume \"Source Energy\" to launch \"Orbital Annihilation Pulse,\" dealing Fire DMG up to 667% of Himeko \u2022 Nova's ATK to one designated enemy, and Fire DMG up to 221% of Himeko \u2022 Nova's ATK to other targets.\\nWhen the uses of \"Hyperluminal Particle Beam\" are depleted, automatically launches \"Orbital Annihilation Pulse,\" followed by Final Hit, dealing 3 instance(s) of DMG, with each instance dealing Fire DMG equal to 70% of Himeko \u2022 Nova's ATK to one random enemy.\\nWhen \"Hyperluminal Particle Beam\" or \"Orbital Annihilation Pulse\" deals fatal damage to all enemies on the field, or when enemy HP can no longer be reduced, immediately launches Final Hit."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Immediately takes control of \"Starblazer.\" \"Starblazer\" can launch \"Hyperluminal Particle Beam\" against enemies 6 times, or consume \"Source Energy\" to launch \"Orbital Annihilation Pulse,\" dealing Fire DMG up to 714% of Himeko \u2022 Nova's ATK to one designated enemy, and Fire DMG up to 236% of Himeko \u2022 Nova's ATK to other targets.\\nWhen the uses of \"Hyperluminal Particle Beam\" are depleted, automatically launches \"Orbital Annihilation Pulse,\" followed by Final Hit, dealing 3 instance(s) of DMG, with each instance dealing Fire DMG equal to 75% of Himeko \u2022 Nova's ATK to one random enemy.\\nWhen \"Hyperluminal Particle Beam\" or \"Orbital Annihilation Pulse\" deals fatal damage to all enemies on the field, or when enemy HP can no longer be reduced, immediately launches Final Hit."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Immediately takes control of \"Starblazer.\" \"Starblazer\" can launch \"Hyperluminal Particle Beam\" against enemies 6 times, or consume \"Source Energy\" to launch \"Orbital Annihilation Pulse,\" dealing Fire DMG up to 762% of Himeko \u2022 Nova's ATK to one designated enemy, and Fire DMG up to 252% of Himeko \u2022 Nova's ATK to other targets.\\nWhen the uses of \"Hyperluminal Particle Beam\" are depleted, automatically launches \"Orbital Annihilation Pulse,\" followed by Final Hit, dealing 3 instance(s) of DMG, with each instance dealing Fire DMG equal to 80% of Himeko \u2022 Nova's ATK to one random enemy.\\nWhen \"Hyperluminal Particle Beam\" or \"Orbital Annihilation Pulse\" deals fatal damage to all enemies on the field, or when enemy HP can no longer be reduced, immediately launches Final Hit."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Immediately takes control of \"Starblazer.\" \"Starblazer\" can launch \"Hyperluminal Particle Beam\" against enemies 6 times, or consume \"Source Energy\" to launch \"Orbital Annihilation Pulse,\" dealing Fire DMG up to 800% of Himeko \u2022 Nova's ATK to one designated enemy, and Fire DMG up to 265% of Himeko \u2022 Nova's ATK to other targets.\\nWhen the uses of \"Hyperluminal Particle Beam\" are depleted, automatically launches \"Orbital Annihilation Pulse,\" followed by Final Hit, dealing 3 instance(s) of DMG, with each instance dealing Fire DMG equal to 84% of Himeko \u2022 Nova's ATK to one random enemy.\\nWhen \"Hyperluminal Particle Beam\" or \"Orbital Annihilation Pulse\" deals fatal damage to all enemies on the field, or when enemy HP can no longer be reduced, immediately launches Final Hit."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Immediately takes control of \"Starblazer.\" \"Starblazer\" can launch \"Hyperluminal Particle Beam\" against enemies 6 times, or consume \"Source Energy\" to launch \"Orbital Annihilation Pulse,\" dealing Fire DMG up to 838% of Himeko \u2022 Nova's ATK to one designated enemy, and Fire DMG up to 277% of Himeko \u2022 Nova's ATK to other targets.\\nWhen the uses of \"Hyperluminal Particle Beam\" are depleted, automatically launches \"Orbital Annihilation Pulse,\" followed by Final Hit, dealing 3 instance(s) of DMG, with each instance dealing Fire DMG equal to 88% of Himeko \u2022 Nova's ATK to one random enemy.\\nWhen \"Hyperluminal Particle Beam\" or \"Orbital Annihilation Pulse\" deals fatal damage to all enemies on the field, or when enemy HP can no longer be reduced, immediately launches Final Hit."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Immediately takes control of \"Starblazer.\" \"Starblazer\" can launch \"Hyperluminal Particle Beam\" against enemies 6 times, or consume \"Source Energy\" to launch \"Orbital Annihilation Pulse,\" dealing Fire DMG up to 876% of Himeko \u2022 Nova's ATK to one designated enemy, and Fire DMG up to 290% of Himeko \u2022 Nova's ATK to other targets.\\nWhen the uses of \"Hyperluminal Particle Beam\" are depleted, automatically launches \"Orbital Annihilation Pulse,\" followed by Final Hit, dealing 3 instance(s) of DMG, with each instance dealing Fire DMG equal to 92% of Himeko \u2022 Nova's ATK to one random enemy.\\nWhen \"Hyperluminal Particle Beam\" or \"Orbital Annihilation Pulse\" deals fatal damage to all enemies on the field, or when enemy HP can no longer be reduced, immediately launches Final Hit."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Immediately takes control of \"Starblazer.\" \"Starblazer\" can launch \"Hyperluminal Particle Beam\" against enemies 6 times, or consume \"Source Energy\" to launch \"Orbital Annihilation Pulse,\" dealing Fire DMG up to 914% of Himeko \u2022 Nova's ATK to one designated enemy, and Fire DMG up to 302% of Himeko \u2022 Nova's ATK to other targets.\\nWhen the uses of \"Hyperluminal Particle Beam\" are depleted, automatically launches \"Orbital Annihilation Pulse,\" followed by Final Hit, dealing 3 instance(s) of DMG, with each instance dealing Fire DMG equal to 96% of Himeko \u2022 Nova's ATK to one random enemy.\\nWhen \"Hyperluminal Particle Beam\" or \"Orbital Annihilation Pulse\" deals fatal damage to all enemies on the field, or when enemy HP can no longer be reduced, immediately launches Final Hit."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Immediately takes control of \"Starblazer.\" \"Starblazer\" can launch \"Hyperluminal Particle Beam\" against enemies 6 times, or consume \"Source Energy\" to launch \"Orbital Annihilation Pulse,\" dealing Fire DMG up to 953% of Himeko \u2022 Nova's ATK to one designated enemy, and Fire DMG up to 315% of Himeko \u2022 Nova's ATK to other targets.\\nWhen the uses of \"Hyperluminal Particle Beam\" are depleted, automatically launches \"Orbital Annihilation Pulse,\" followed by Final Hit, dealing 3 instance(s) of DMG, with each instance dealing Fire DMG equal to 100% of Himeko \u2022 Nova's ATK to one random enemy.\\nWhen \"Hyperluminal Particle Beam\" or \"Orbital Annihilation Pulse\" deals fatal damage to all enemies on the field, or when enemy HP can no longer be reduced, immediately launches Final Hit."
+                  }
+                ]
+              },
+              {
+                "name": "Hyperluminal Particle Beam",
+                "type": "Ultimate",
+                "desc": "Deals Fire DMG equal to 40% of Himeko \u2022 Nova's ATK to all enemies and gains 1 point(s) of \"Source Energy.\" A maximum of 3 \"Source Energy\" can be held.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1510_Ultra.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Fire DMG equal to 16% of Himeko \u2022 Nova's ATK to all enemies and gains 1 point(s) of \"Source Energy.\" A maximum of 3 \"Source Energy\" can be held."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Fire DMG equal to 17.6% of Himeko \u2022 Nova's ATK to all enemies and gains 1 point(s) of \"Source Energy.\" A maximum of 3 \"Source Energy\" can be held."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Fire DMG equal to 19.2% of Himeko \u2022 Nova's ATK to all enemies and gains 1 point(s) of \"Source Energy.\" A maximum of 3 \"Source Energy\" can be held."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Fire DMG equal to 20.8% of Himeko \u2022 Nova's ATK to all enemies and gains 1 point(s) of \"Source Energy.\" A maximum of 3 \"Source Energy\" can be held."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Fire DMG equal to 22.4% of Himeko \u2022 Nova's ATK to all enemies and gains 1 point(s) of \"Source Energy.\" A maximum of 3 \"Source Energy\" can be held."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Fire DMG equal to 24% of Himeko \u2022 Nova's ATK to all enemies and gains 1 point(s) of \"Source Energy.\" A maximum of 3 \"Source Energy\" can be held."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Fire DMG equal to 26% of Himeko \u2022 Nova's ATK to all enemies and gains 1 point(s) of \"Source Energy.\" A maximum of 3 \"Source Energy\" can be held."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Fire DMG equal to 28% of Himeko \u2022 Nova's ATK to all enemies and gains 1 point(s) of \"Source Energy.\" A maximum of 3 \"Source Energy\" can be held."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Fire DMG equal to 30% of Himeko \u2022 Nova's ATK to all enemies and gains 1 point(s) of \"Source Energy.\" A maximum of 3 \"Source Energy\" can be held."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Fire DMG equal to 32% of Himeko \u2022 Nova's ATK to all enemies and gains 1 point(s) of \"Source Energy.\" A maximum of 3 \"Source Energy\" can be held."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Deals Fire DMG equal to 33.6% of Himeko \u2022 Nova's ATK to all enemies and gains 1 point(s) of \"Source Energy.\" A maximum of 3 \"Source Energy\" can be held."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Deals Fire DMG equal to 35.2% of Himeko \u2022 Nova's ATK to all enemies and gains 1 point(s) of \"Source Energy.\" A maximum of 3 \"Source Energy\" can be held."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Deals Fire DMG equal to 36.8% of Himeko \u2022 Nova's ATK to all enemies and gains 1 point(s) of \"Source Energy.\" A maximum of 3 \"Source Energy\" can be held."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Deals Fire DMG equal to 38.4% of Himeko \u2022 Nova's ATK to all enemies and gains 1 point(s) of \"Source Energy.\" A maximum of 3 \"Source Energy\" can be held."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Deals Fire DMG equal to 40% of Himeko \u2022 Nova's ATK to all enemies and gains 1 point(s) of \"Source Energy.\" A maximum of 3 \"Source Energy\" can be held."
+                  }
+                ]
+              },
+              {
+                "name": "Orbital Annihilation Pulse",
+                "type": "Ultimate",
+                "desc": "Consumes 1 point of \"Source Energy\" to deal Fire DMG equal to 25% of Himeko \u2022 Nova's ATK to all enemies. When the current \"Source Energy\" is more than 1, for every 1 point(s) of \"Source Energy\" consumed, additionally deals 1 instance of Fire DMG equal to 37.5% of Himeko \u2022 Nova's ATK to one random enemy.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1510_Ultra.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Consumes 1 point of \"Source Energy\" to deal Fire DMG equal to 10% of Himeko \u2022 Nova's ATK to all enemies. When the current \"Source Energy\" is more than 1, for every 1 point(s) of \"Source Energy\" consumed, additionally deals 1 instance of Fire DMG equal to 15% of Himeko \u2022 Nova's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Consumes 1 point of \"Source Energy\" to deal Fire DMG equal to 11% of Himeko \u2022 Nova's ATK to all enemies. When the current \"Source Energy\" is more than 1, for every 1 point(s) of \"Source Energy\" consumed, additionally deals 1 instance of Fire DMG equal to 16.5% of Himeko \u2022 Nova's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Consumes 1 point of \"Source Energy\" to deal Fire DMG equal to 12% of Himeko \u2022 Nova's ATK to all enemies. When the current \"Source Energy\" is more than 1, for every 1 point(s) of \"Source Energy\" consumed, additionally deals 1 instance of Fire DMG equal to 18% of Himeko \u2022 Nova's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Consumes 1 point of \"Source Energy\" to deal Fire DMG equal to 13% of Himeko \u2022 Nova's ATK to all enemies. When the current \"Source Energy\" is more than 1, for every 1 point(s) of \"Source Energy\" consumed, additionally deals 1 instance of Fire DMG equal to 19.5% of Himeko \u2022 Nova's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Consumes 1 point of \"Source Energy\" to deal Fire DMG equal to 14% of Himeko \u2022 Nova's ATK to all enemies. When the current \"Source Energy\" is more than 1, for every 1 point(s) of \"Source Energy\" consumed, additionally deals 1 instance of Fire DMG equal to 21% of Himeko \u2022 Nova's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Consumes 1 point of \"Source Energy\" to deal Fire DMG equal to 15% of Himeko \u2022 Nova's ATK to all enemies. When the current \"Source Energy\" is more than 1, for every 1 point(s) of \"Source Energy\" consumed, additionally deals 1 instance of Fire DMG equal to 22.5% of Himeko \u2022 Nova's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Consumes 1 point of \"Source Energy\" to deal Fire DMG equal to 16.3% of Himeko \u2022 Nova's ATK to all enemies. When the current \"Source Energy\" is more than 1, for every 1 point(s) of \"Source Energy\" consumed, additionally deals 1 instance of Fire DMG equal to 24.4% of Himeko \u2022 Nova's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Consumes 1 point of \"Source Energy\" to deal Fire DMG equal to 17.5% of Himeko \u2022 Nova's ATK to all enemies. When the current \"Source Energy\" is more than 1, for every 1 point(s) of \"Source Energy\" consumed, additionally deals 1 instance of Fire DMG equal to 26.3% of Himeko \u2022 Nova's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Consumes 1 point of \"Source Energy\" to deal Fire DMG equal to 18.8% of Himeko \u2022 Nova's ATK to all enemies. When the current \"Source Energy\" is more than 1, for every 1 point(s) of \"Source Energy\" consumed, additionally deals 1 instance of Fire DMG equal to 28.1% of Himeko \u2022 Nova's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Consumes 1 point of \"Source Energy\" to deal Fire DMG equal to 20% of Himeko \u2022 Nova's ATK to all enemies. When the current \"Source Energy\" is more than 1, for every 1 point(s) of \"Source Energy\" consumed, additionally deals 1 instance of Fire DMG equal to 30% of Himeko \u2022 Nova's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Consumes 1 point of \"Source Energy\" to deal Fire DMG equal to 21% of Himeko \u2022 Nova's ATK to all enemies. When the current \"Source Energy\" is more than 1, for every 1 point(s) of \"Source Energy\" consumed, additionally deals 1 instance of Fire DMG equal to 31.5% of Himeko \u2022 Nova's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Consumes 1 point of \"Source Energy\" to deal Fire DMG equal to 22% of Himeko \u2022 Nova's ATK to all enemies. When the current \"Source Energy\" is more than 1, for every 1 point(s) of \"Source Energy\" consumed, additionally deals 1 instance of Fire DMG equal to 33% of Himeko \u2022 Nova's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Consumes 1 point of \"Source Energy\" to deal Fire DMG equal to 23% of Himeko \u2022 Nova's ATK to all enemies. When the current \"Source Energy\" is more than 1, for every 1 point(s) of \"Source Energy\" consumed, additionally deals 1 instance of Fire DMG equal to 34.5% of Himeko \u2022 Nova's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Consumes 1 point of \"Source Energy\" to deal Fire DMG equal to 24% of Himeko \u2022 Nova's ATK to all enemies. When the current \"Source Energy\" is more than 1, for every 1 point(s) of \"Source Energy\" consumed, additionally deals 1 instance of Fire DMG equal to 36% of Himeko \u2022 Nova's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Consumes 1 point of \"Source Energy\" to deal Fire DMG equal to 25% of Himeko \u2022 Nova's ATK to all enemies. When the current \"Source Energy\" is more than 1, for every 1 point(s) of \"Source Energy\" consumed, additionally deals 1 instance of Fire DMG equal to 37.5% of Himeko \u2022 Nova's ATK to one random enemy."
+                  }
+                ]
+              },
+              {
+                "name": "Starcharter Cruise",
+                "type": "Technique",
+                "desc": "When Himeko \u2022 Nova is in the team, increases the max Technique Points by 3.\\nAfter using Technique, enters the \"Cruise\" state for 30 seconds. Actively using the Technique consumes 2 Technique Points and immediately attacks all enemies within a certain range. After entering combat, immediately uses Skill 1 time at the start of each wave.\\nIf attacking a Normal Enemy, immediately defeats them without entering combat. No Technique Points are consumed if no enemies are hit.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1510_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "Technique Attack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Of Fire and Far Faring",
+                "type": "Talent",
+                "desc": "While Himeko \u2022 Nova is on the field, immediately deploys the Territory \"Starblazer Visioscape,\" summoning \"Starblazer\" to the field and granting all ally characters 1 Assist Skill use. Ally characters can use Assist Skill to call upon \"Starblazer\" to attack enemies.\\nUsing Assist Skill is considered as Himeko \u2022 Nova using her Skill. Himeko \u2022 Nova gains 25% increased All-Type RES PEN and 100% increased CRIT DMG. When attacking, can ignore Weakness Types to reduce enemy Toughness. When breaking Weakness, triggers the Fire Weakness Break effect.\\nWhen ally characters other than Himeko \u2022 Nova use their Assist Skill, regenerates 4 Energy for them.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1510_Passive.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "While Himeko \u2022 Nova is on the field, immediately deploys the Territory \"Starblazer Visioscape,\" summoning \"Starblazer\" to the field and granting all ally characters 1 Assist Skill use. Ally characters can use Assist Skill to call upon \"Starblazer\" to attack enemies.\\nUsing Assist Skill is considered as Himeko \u2022 Nova using her Skill. Himeko \u2022 Nova gains 10% increased All-Type RES PEN and 40% increased CRIT DMG. When attacking, can ignore Weakness Types to reduce enemy Toughness. When breaking Weakness, triggers the Fire Weakness Break effect.\\nWhen ally characters other than Himeko \u2022 Nova use their Assist Skill, regenerates 4 Energy for them."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "While Himeko \u2022 Nova is on the field, immediately deploys the Territory \"Starblazer Visioscape,\" summoning \"Starblazer\" to the field and granting all ally characters 1 Assist Skill use. Ally characters can use Assist Skill to call upon \"Starblazer\" to attack enemies.\\nUsing Assist Skill is considered as Himeko \u2022 Nova using her Skill. Himeko \u2022 Nova gains 11% increased All-Type RES PEN and 44% increased CRIT DMG. When attacking, can ignore Weakness Types to reduce enemy Toughness. When breaking Weakness, triggers the Fire Weakness Break effect.\\nWhen ally characters other than Himeko \u2022 Nova use their Assist Skill, regenerates 4 Energy for them."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "While Himeko \u2022 Nova is on the field, immediately deploys the Territory \"Starblazer Visioscape,\" summoning \"Starblazer\" to the field and granting all ally characters 1 Assist Skill use. Ally characters can use Assist Skill to call upon \"Starblazer\" to attack enemies.\\nUsing Assist Skill is considered as Himeko \u2022 Nova using her Skill. Himeko \u2022 Nova gains 12% increased All-Type RES PEN and 48% increased CRIT DMG. When attacking, can ignore Weakness Types to reduce enemy Toughness. When breaking Weakness, triggers the Fire Weakness Break effect.\\nWhen ally characters other than Himeko \u2022 Nova use their Assist Skill, regenerates 4 Energy for them."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "While Himeko \u2022 Nova is on the field, immediately deploys the Territory \"Starblazer Visioscape,\" summoning \"Starblazer\" to the field and granting all ally characters 1 Assist Skill use. Ally characters can use Assist Skill to call upon \"Starblazer\" to attack enemies.\\nUsing Assist Skill is considered as Himeko \u2022 Nova using her Skill. Himeko \u2022 Nova gains 13% increased All-Type RES PEN and 52% increased CRIT DMG. When attacking, can ignore Weakness Types to reduce enemy Toughness. When breaking Weakness, triggers the Fire Weakness Break effect.\\nWhen ally characters other than Himeko \u2022 Nova use their Assist Skill, regenerates 4 Energy for them."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "While Himeko \u2022 Nova is on the field, immediately deploys the Territory \"Starblazer Visioscape,\" summoning \"Starblazer\" to the field and granting all ally characters 1 Assist Skill use. Ally characters can use Assist Skill to call upon \"Starblazer\" to attack enemies.\\nUsing Assist Skill is considered as Himeko \u2022 Nova using her Skill. Himeko \u2022 Nova gains 14% increased All-Type RES PEN and 56% increased CRIT DMG. When attacking, can ignore Weakness Types to reduce enemy Toughness. When breaking Weakness, triggers the Fire Weakness Break effect.\\nWhen ally characters other than Himeko \u2022 Nova use their Assist Skill, regenerates 4 Energy for them."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "While Himeko \u2022 Nova is on the field, immediately deploys the Territory \"Starblazer Visioscape,\" summoning \"Starblazer\" to the field and granting all ally characters 1 Assist Skill use. Ally characters can use Assist Skill to call upon \"Starblazer\" to attack enemies.\\nUsing Assist Skill is considered as Himeko \u2022 Nova using her Skill. Himeko \u2022 Nova gains 15% increased All-Type RES PEN and 60% increased CRIT DMG. When attacking, can ignore Weakness Types to reduce enemy Toughness. When breaking Weakness, triggers the Fire Weakness Break effect.\\nWhen ally characters other than Himeko \u2022 Nova use their Assist Skill, regenerates 4 Energy for them."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "While Himeko \u2022 Nova is on the field, immediately deploys the Territory \"Starblazer Visioscape,\" summoning \"Starblazer\" to the field and granting all ally characters 1 Assist Skill use. Ally characters can use Assist Skill to call upon \"Starblazer\" to attack enemies.\\nUsing Assist Skill is considered as Himeko \u2022 Nova using her Skill. Himeko \u2022 Nova gains 16.3% increased All-Type RES PEN and 65% increased CRIT DMG. When attacking, can ignore Weakness Types to reduce enemy Toughness. When breaking Weakness, triggers the Fire Weakness Break effect.\\nWhen ally characters other than Himeko \u2022 Nova use their Assist Skill, regenerates 4 Energy for them."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "While Himeko \u2022 Nova is on the field, immediately deploys the Territory \"Starblazer Visioscape,\" summoning \"Starblazer\" to the field and granting all ally characters 1 Assist Skill use. Ally characters can use Assist Skill to call upon \"Starblazer\" to attack enemies.\\nUsing Assist Skill is considered as Himeko \u2022 Nova using her Skill. Himeko \u2022 Nova gains 17.5% increased All-Type RES PEN and 70% increased CRIT DMG. When attacking, can ignore Weakness Types to reduce enemy Toughness. When breaking Weakness, triggers the Fire Weakness Break effect.\\nWhen ally characters other than Himeko \u2022 Nova use their Assist Skill, regenerates 4 Energy for them."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "While Himeko \u2022 Nova is on the field, immediately deploys the Territory \"Starblazer Visioscape,\" summoning \"Starblazer\" to the field and granting all ally characters 1 Assist Skill use. Ally characters can use Assist Skill to call upon \"Starblazer\" to attack enemies.\\nUsing Assist Skill is considered as Himeko \u2022 Nova using her Skill. Himeko \u2022 Nova gains 18.8% increased All-Type RES PEN and 75% increased CRIT DMG. When attacking, can ignore Weakness Types to reduce enemy Toughness. When breaking Weakness, triggers the Fire Weakness Break effect.\\nWhen ally characters other than Himeko \u2022 Nova use their Assist Skill, regenerates 4 Energy for them."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "While Himeko \u2022 Nova is on the field, immediately deploys the Territory \"Starblazer Visioscape,\" summoning \"Starblazer\" to the field and granting all ally characters 1 Assist Skill use. Ally characters can use Assist Skill to call upon \"Starblazer\" to attack enemies.\\nUsing Assist Skill is considered as Himeko \u2022 Nova using her Skill. Himeko \u2022 Nova gains 20% increased All-Type RES PEN and 80% increased CRIT DMG. When attacking, can ignore Weakness Types to reduce enemy Toughness. When breaking Weakness, triggers the Fire Weakness Break effect.\\nWhen ally characters other than Himeko \u2022 Nova use their Assist Skill, regenerates 4 Energy for them."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "While Himeko \u2022 Nova is on the field, immediately deploys the Territory \"Starblazer Visioscape,\" summoning \"Starblazer\" to the field and granting all ally characters 1 Assist Skill use. Ally characters can use Assist Skill to call upon \"Starblazer\" to attack enemies.\\nUsing Assist Skill is considered as Himeko \u2022 Nova using her Skill. Himeko \u2022 Nova gains 21% increased All-Type RES PEN and 84% increased CRIT DMG. When attacking, can ignore Weakness Types to reduce enemy Toughness. When breaking Weakness, triggers the Fire Weakness Break effect.\\nWhen ally characters other than Himeko \u2022 Nova use their Assist Skill, regenerates 4 Energy for them."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "While Himeko \u2022 Nova is on the field, immediately deploys the Territory \"Starblazer Visioscape,\" summoning \"Starblazer\" to the field and granting all ally characters 1 Assist Skill use. Ally characters can use Assist Skill to call upon \"Starblazer\" to attack enemies.\\nUsing Assist Skill is considered as Himeko \u2022 Nova using her Skill. Himeko \u2022 Nova gains 22% increased All-Type RES PEN and 88% increased CRIT DMG. When attacking, can ignore Weakness Types to reduce enemy Toughness. When breaking Weakness, triggers the Fire Weakness Break effect.\\nWhen ally characters other than Himeko \u2022 Nova use their Assist Skill, regenerates 4 Energy for them."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "While Himeko \u2022 Nova is on the field, immediately deploys the Territory \"Starblazer Visioscape,\" summoning \"Starblazer\" to the field and granting all ally characters 1 Assist Skill use. Ally characters can use Assist Skill to call upon \"Starblazer\" to attack enemies.\\nUsing Assist Skill is considered as Himeko \u2022 Nova using her Skill. Himeko \u2022 Nova gains 23% increased All-Type RES PEN and 92% increased CRIT DMG. When attacking, can ignore Weakness Types to reduce enemy Toughness. When breaking Weakness, triggers the Fire Weakness Break effect.\\nWhen ally characters other than Himeko \u2022 Nova use their Assist Skill, regenerates 4 Energy for them."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "While Himeko \u2022 Nova is on the field, immediately deploys the Territory \"Starblazer Visioscape,\" summoning \"Starblazer\" to the field and granting all ally characters 1 Assist Skill use. Ally characters can use Assist Skill to call upon \"Starblazer\" to attack enemies.\\nUsing Assist Skill is considered as Himeko \u2022 Nova using her Skill. Himeko \u2022 Nova gains 24% increased All-Type RES PEN and 96% increased CRIT DMG. When attacking, can ignore Weakness Types to reduce enemy Toughness. When breaking Weakness, triggers the Fire Weakness Break effect.\\nWhen ally characters other than Himeko \u2022 Nova use their Assist Skill, regenerates 4 Energy for them."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "While Himeko \u2022 Nova is on the field, immediately deploys the Territory \"Starblazer Visioscape,\" summoning \"Starblazer\" to the field and granting all ally characters 1 Assist Skill use. Ally characters can use Assist Skill to call upon \"Starblazer\" to attack enemies.\\nUsing Assist Skill is considered as Himeko \u2022 Nova using her Skill. Himeko \u2022 Nova gains 25% increased All-Type RES PEN and 100% increased CRIT DMG. When attacking, can ignore Weakness Types to reduce enemy Toughness. When breaking Weakness, triggers the Fire Weakness Break effect.\\nWhen ally characters other than Himeko \u2022 Nova use their Assist Skill, regenerates 4 Energy for them."
+                  }
+                ]
+              },
+              {
+                "name": "Trailblaze, By Your Side",
+                "type": "Assist Skill",
+                "desc": "Deals Fire DMG equal to 200% of Himeko \u2022 Nova's ATK to all enemies, and additionally deals 3 instances of DMG, with each instance dealing Fire DMG equal to 30% of Himeko \u2022 Nova's ATK to one random enemy. When used by Himeko \u2022 Nova, deals Fire DMG equal to 250% of Himeko \u2022 Nova's ATK to all enemies, and additionally deals 4 instances of DMG, with each instance dealing Fire DMG equal to 39% of Himeko \u2022 Nova's ATK to one random enemy.\\nIf the user is a Trailblaze Companions character other than Himeko \u2022 Nova, then depending on the user, Himeko \u2022 Nova additionally gains 1 of the Special Effects.\\nThe extra Assist Skill via all Special Effects can be launched up to 2 time(s) per battle, and this count is reset after Himeko \u2022 Nova uses her Ultimate.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1510_Passive.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Fire DMG equal to 80% of Himeko \u2022 Nova's ATK to all enemies, and additionally deals 3 instances of DMG, with each instance dealing Fire DMG equal to 12% of Himeko \u2022 Nova's ATK to one random enemy. When used by Himeko \u2022 Nova, deals Fire DMG equal to 100% of Himeko \u2022 Nova's ATK to all enemies, and additionally deals 4 instances of DMG, with each instance dealing Fire DMG equal to 18% of Himeko \u2022 Nova's ATK to one random enemy.\\nIf the user is a Trailblaze Companions character other than Himeko \u2022 Nova, then depending on the user, Himeko \u2022 Nova additionally gains 1 of the Special Effects.\\nThe extra Assist Skill via all Special Effects can be launched up to 2 time(s) per battle, and this count is reset after Himeko \u2022 Nova uses her Ultimate."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Fire DMG equal to 88% of Himeko \u2022 Nova's ATK to all enemies, and additionally deals 3 instances of DMG, with each instance dealing Fire DMG equal to 13.2% of Himeko \u2022 Nova's ATK to one random enemy. When used by Himeko \u2022 Nova, deals Fire DMG equal to 110% of Himeko \u2022 Nova's ATK to all enemies, and additionally deals 4 instances of DMG, with each instance dealing Fire DMG equal to 19.4% of Himeko \u2022 Nova's ATK to one random enemy.\\nIf the user is a Trailblaze Companions character other than Himeko \u2022 Nova, then depending on the user, Himeko \u2022 Nova additionally gains 1 of the Special Effects.\\nThe extra Assist Skill via all Special Effects can be launched up to 2 time(s) per battle, and this count is reset after Himeko \u2022 Nova uses her Ultimate."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Fire DMG equal to 96% of Himeko \u2022 Nova's ATK to all enemies, and additionally deals 3 instances of DMG, with each instance dealing Fire DMG equal to 14.4% of Himeko \u2022 Nova's ATK to one random enemy. When used by Himeko \u2022 Nova, deals Fire DMG equal to 120% of Himeko \u2022 Nova's ATK to all enemies, and additionally deals 4 instances of DMG, with each instance dealing Fire DMG equal to 20.8% of Himeko \u2022 Nova's ATK to one random enemy.\\nIf the user is a Trailblaze Companions character other than Himeko \u2022 Nova, then depending on the user, Himeko \u2022 Nova additionally gains 1 of the Special Effects.\\nThe extra Assist Skill via all Special Effects can be launched up to 2 time(s) per battle, and this count is reset after Himeko \u2022 Nova uses her Ultimate."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Fire DMG equal to 104% of Himeko \u2022 Nova's ATK to all enemies, and additionally deals 3 instances of DMG, with each instance dealing Fire DMG equal to 15.6% of Himeko \u2022 Nova's ATK to one random enemy. When used by Himeko \u2022 Nova, deals Fire DMG equal to 130% of Himeko \u2022 Nova's ATK to all enemies, and additionally deals 4 instances of DMG, with each instance dealing Fire DMG equal to 22.2% of Himeko \u2022 Nova's ATK to one random enemy.\\nIf the user is a Trailblaze Companions character other than Himeko \u2022 Nova, then depending on the user, Himeko \u2022 Nova additionally gains 1 of the Special Effects.\\nThe extra Assist Skill via all Special Effects can be launched up to 2 time(s) per battle, and this count is reset after Himeko \u2022 Nova uses her Ultimate."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Fire DMG equal to 112% of Himeko \u2022 Nova's ATK to all enemies, and additionally deals 3 instances of DMG, with each instance dealing Fire DMG equal to 16.8% of Himeko \u2022 Nova's ATK to one random enemy. When used by Himeko \u2022 Nova, deals Fire DMG equal to 140% of Himeko \u2022 Nova's ATK to all enemies, and additionally deals 4 instances of DMG, with each instance dealing Fire DMG equal to 23.6% of Himeko \u2022 Nova's ATK to one random enemy.\\nIf the user is a Trailblaze Companions character other than Himeko \u2022 Nova, then depending on the user, Himeko \u2022 Nova additionally gains 1 of the Special Effects.\\nThe extra Assist Skill via all Special Effects can be launched up to 2 time(s) per battle, and this count is reset after Himeko \u2022 Nova uses her Ultimate."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Fire DMG equal to 120% of Himeko \u2022 Nova's ATK to all enemies, and additionally deals 3 instances of DMG, with each instance dealing Fire DMG equal to 18% of Himeko \u2022 Nova's ATK to one random enemy. When used by Himeko \u2022 Nova, deals Fire DMG equal to 150% of Himeko \u2022 Nova's ATK to all enemies, and additionally deals 4 instances of DMG, with each instance dealing Fire DMG equal to 25% of Himeko \u2022 Nova's ATK to one random enemy.\\nIf the user is a Trailblaze Companions character other than Himeko \u2022 Nova, then depending on the user, Himeko \u2022 Nova additionally gains 1 of the Special Effects.\\nThe extra Assist Skill via all Special Effects can be launched up to 2 time(s) per battle, and this count is reset after Himeko \u2022 Nova uses her Ultimate."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Fire DMG equal to 130% of Himeko \u2022 Nova's ATK to all enemies, and additionally deals 3 instances of DMG, with each instance dealing Fire DMG equal to 19.5% of Himeko \u2022 Nova's ATK to one random enemy. When used by Himeko \u2022 Nova, deals Fire DMG equal to 163% of Himeko \u2022 Nova's ATK to all enemies, and additionally deals 4 instances of DMG, with each instance dealing Fire DMG equal to 26.8% of Himeko \u2022 Nova's ATK to one random enemy.\\nIf the user is a Trailblaze Companions character other than Himeko \u2022 Nova, then depending on the user, Himeko \u2022 Nova additionally gains 1 of the Special Effects.\\nThe extra Assist Skill via all Special Effects can be launched up to 2 time(s) per battle, and this count is reset after Himeko \u2022 Nova uses her Ultimate."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Fire DMG equal to 140% of Himeko \u2022 Nova's ATK to all enemies, and additionally deals 3 instances of DMG, with each instance dealing Fire DMG equal to 21% of Himeko \u2022 Nova's ATK to one random enemy. When used by Himeko \u2022 Nova, deals Fire DMG equal to 175% of Himeko \u2022 Nova's ATK to all enemies, and additionally deals 4 instances of DMG, with each instance dealing Fire DMG equal to 28.5% of Himeko \u2022 Nova's ATK to one random enemy.\\nIf the user is a Trailblaze Companions character other than Himeko \u2022 Nova, then depending on the user, Himeko \u2022 Nova additionally gains 1 of the Special Effects.\\nThe extra Assist Skill via all Special Effects can be launched up to 2 time(s) per battle, and this count is reset after Himeko \u2022 Nova uses her Ultimate."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Fire DMG equal to 150% of Himeko \u2022 Nova's ATK to all enemies, and additionally deals 3 instances of DMG, with each instance dealing Fire DMG equal to 22.5% of Himeko \u2022 Nova's ATK to one random enemy. When used by Himeko \u2022 Nova, deals Fire DMG equal to 188% of Himeko \u2022 Nova's ATK to all enemies, and additionally deals 4 instances of DMG, with each instance dealing Fire DMG equal to 30.3% of Himeko \u2022 Nova's ATK to one random enemy.\\nIf the user is a Trailblaze Companions character other than Himeko \u2022 Nova, then depending on the user, Himeko \u2022 Nova additionally gains 1 of the Special Effects.\\nThe extra Assist Skill via all Special Effects can be launched up to 2 time(s) per battle, and this count is reset after Himeko \u2022 Nova uses her Ultimate."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Fire DMG equal to 160% of Himeko \u2022 Nova's ATK to all enemies, and additionally deals 3 instances of DMG, with each instance dealing Fire DMG equal to 24% of Himeko \u2022 Nova's ATK to one random enemy. When used by Himeko \u2022 Nova, deals Fire DMG equal to 200% of Himeko \u2022 Nova's ATK to all enemies, and additionally deals 4 instances of DMG, with each instance dealing Fire DMG equal to 32% of Himeko \u2022 Nova's ATK to one random enemy.\\nIf the user is a Trailblaze Companions character other than Himeko \u2022 Nova, then depending on the user, Himeko \u2022 Nova additionally gains 1 of the Special Effects.\\nThe extra Assist Skill via all Special Effects can be launched up to 2 time(s) per battle, and this count is reset after Himeko \u2022 Nova uses her Ultimate."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Deals Fire DMG equal to 168% of Himeko \u2022 Nova's ATK to all enemies, and additionally deals 3 instances of DMG, with each instance dealing Fire DMG equal to 25.2% of Himeko \u2022 Nova's ATK to one random enemy. When used by Himeko \u2022 Nova, deals Fire DMG equal to 210% of Himeko \u2022 Nova's ATK to all enemies, and additionally deals 4 instances of DMG, with each instance dealing Fire DMG equal to 33.4% of Himeko \u2022 Nova's ATK to one random enemy.\\nIf the user is a Trailblaze Companions character other than Himeko \u2022 Nova, then depending on the user, Himeko \u2022 Nova additionally gains 1 of the Special Effects.\\nThe extra Assist Skill via all Special Effects can be launched up to 2 time(s) per battle, and this count is reset after Himeko \u2022 Nova uses her Ultimate."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Deals Fire DMG equal to 176% of Himeko \u2022 Nova's ATK to all enemies, and additionally deals 3 instances of DMG, with each instance dealing Fire DMG equal to 26.4% of Himeko \u2022 Nova's ATK to one random enemy. When used by Himeko \u2022 Nova, deals Fire DMG equal to 220% of Himeko \u2022 Nova's ATK to all enemies, and additionally deals 4 instances of DMG, with each instance dealing Fire DMG equal to 34.8% of Himeko \u2022 Nova's ATK to one random enemy.\\nIf the user is a Trailblaze Companions character other than Himeko \u2022 Nova, then depending on the user, Himeko \u2022 Nova additionally gains 1 of the Special Effects.\\nThe extra Assist Skill via all Special Effects can be launched up to 2 time(s) per battle, and this count is reset after Himeko \u2022 Nova uses her Ultimate."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Deals Fire DMG equal to 184% of Himeko \u2022 Nova's ATK to all enemies, and additionally deals 3 instances of DMG, with each instance dealing Fire DMG equal to 27.6% of Himeko \u2022 Nova's ATK to one random enemy. When used by Himeko \u2022 Nova, deals Fire DMG equal to 230% of Himeko \u2022 Nova's ATK to all enemies, and additionally deals 4 instances of DMG, with each instance dealing Fire DMG equal to 36.2% of Himeko \u2022 Nova's ATK to one random enemy.\\nIf the user is a Trailblaze Companions character other than Himeko \u2022 Nova, then depending on the user, Himeko \u2022 Nova additionally gains 1 of the Special Effects.\\nThe extra Assist Skill via all Special Effects can be launched up to 2 time(s) per battle, and this count is reset after Himeko \u2022 Nova uses her Ultimate."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Deals Fire DMG equal to 192% of Himeko \u2022 Nova's ATK to all enemies, and additionally deals 3 instances of DMG, with each instance dealing Fire DMG equal to 28.8% of Himeko \u2022 Nova's ATK to one random enemy. When used by Himeko \u2022 Nova, deals Fire DMG equal to 240% of Himeko \u2022 Nova's ATK to all enemies, and additionally deals 4 instances of DMG, with each instance dealing Fire DMG equal to 37.6% of Himeko \u2022 Nova's ATK to one random enemy.\\nIf the user is a Trailblaze Companions character other than Himeko \u2022 Nova, then depending on the user, Himeko \u2022 Nova additionally gains 1 of the Special Effects.\\nThe extra Assist Skill via all Special Effects can be launched up to 2 time(s) per battle, and this count is reset after Himeko \u2022 Nova uses her Ultimate."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Deals Fire DMG equal to 200% of Himeko \u2022 Nova's ATK to all enemies, and additionally deals 3 instances of DMG, with each instance dealing Fire DMG equal to 30% of Himeko \u2022 Nova's ATK to one random enemy. When used by Himeko \u2022 Nova, deals Fire DMG equal to 250% of Himeko \u2022 Nova's ATK to all enemies, and additionally deals 4 instances of DMG, with each instance dealing Fire DMG equal to 39% of Himeko \u2022 Nova's ATK to one random enemy.\\nIf the user is a Trailblaze Companions character other than Himeko \u2022 Nova, then depending on the user, Himeko \u2022 Nova additionally gains 1 of the Special Effects.\\nThe extra Assist Skill via all Special Effects can be launched up to 2 time(s) per battle, and this count is reset after Himeko \u2022 Nova uses her Ultimate."
+                  }
+                ]
+              },
+              {
+                "name": "Companion Protocol: Verdict",
+                "type": "Assist Skill",
+                "desc": "Enters the \"Companion Protocol: Verdict\" state. Increases DMG dealt by Himeko \u2022 Nova by 125%, and additionally increases her Ultimate DMG dealt by 125%. After Himeko \u2022 Nova's teammates actively use their Ultimate 2 time(s), Himeko \u2022 Nova immediately launches 1 Assist Skill against enemies at no cost.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1510_Passive.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Enters the \"Companion Protocol: Verdict\" state. Increases DMG dealt by Himeko \u2022 Nova by 50%, and additionally increases her Ultimate DMG dealt by 50%. After Himeko \u2022 Nova's teammates actively use their Ultimate 2 time(s), Himeko \u2022 Nova immediately launches 1 Assist Skill against enemies at no cost."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Enters the \"Companion Protocol: Verdict\" state. Increases DMG dealt by Himeko \u2022 Nova by 55%, and additionally increases her Ultimate DMG dealt by 55%. After Himeko \u2022 Nova's teammates actively use their Ultimate 2 time(s), Himeko \u2022 Nova immediately launches 1 Assist Skill against enemies at no cost."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Enters the \"Companion Protocol: Verdict\" state. Increases DMG dealt by Himeko \u2022 Nova by 60%, and additionally increases her Ultimate DMG dealt by 60%. After Himeko \u2022 Nova's teammates actively use their Ultimate 2 time(s), Himeko \u2022 Nova immediately launches 1 Assist Skill against enemies at no cost."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Enters the \"Companion Protocol: Verdict\" state. Increases DMG dealt by Himeko \u2022 Nova by 65%, and additionally increases her Ultimate DMG dealt by 65%. After Himeko \u2022 Nova's teammates actively use their Ultimate 2 time(s), Himeko \u2022 Nova immediately launches 1 Assist Skill against enemies at no cost."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Enters the \"Companion Protocol: Verdict\" state. Increases DMG dealt by Himeko \u2022 Nova by 70%, and additionally increases her Ultimate DMG dealt by 70%. After Himeko \u2022 Nova's teammates actively use their Ultimate 2 time(s), Himeko \u2022 Nova immediately launches 1 Assist Skill against enemies at no cost."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Enters the \"Companion Protocol: Verdict\" state. Increases DMG dealt by Himeko \u2022 Nova by 75%, and additionally increases her Ultimate DMG dealt by 75%. After Himeko \u2022 Nova's teammates actively use their Ultimate 2 time(s), Himeko \u2022 Nova immediately launches 1 Assist Skill against enemies at no cost."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Enters the \"Companion Protocol: Verdict\" state. Increases DMG dealt by Himeko \u2022 Nova by 81.3%, and additionally increases her Ultimate DMG dealt by 81.3%. After Himeko \u2022 Nova's teammates actively use their Ultimate 2 time(s), Himeko \u2022 Nova immediately launches 1 Assist Skill against enemies at no cost."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Enters the \"Companion Protocol: Verdict\" state. Increases DMG dealt by Himeko \u2022 Nova by 87.5%, and additionally increases her Ultimate DMG dealt by 87.5%. After Himeko \u2022 Nova's teammates actively use their Ultimate 2 time(s), Himeko \u2022 Nova immediately launches 1 Assist Skill against enemies at no cost."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Enters the \"Companion Protocol: Verdict\" state. Increases DMG dealt by Himeko \u2022 Nova by 93.8%, and additionally increases her Ultimate DMG dealt by 93.8%. After Himeko \u2022 Nova's teammates actively use their Ultimate 2 time(s), Himeko \u2022 Nova immediately launches 1 Assist Skill against enemies at no cost."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Enters the \"Companion Protocol: Verdict\" state. Increases DMG dealt by Himeko \u2022 Nova by 100%, and additionally increases her Ultimate DMG dealt by 100%. After Himeko \u2022 Nova's teammates actively use their Ultimate 2 time(s), Himeko \u2022 Nova immediately launches 1 Assist Skill against enemies at no cost."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Enters the \"Companion Protocol: Verdict\" state. Increases DMG dealt by Himeko \u2022 Nova by 105%, and additionally increases her Ultimate DMG dealt by 105%. After Himeko \u2022 Nova's teammates actively use their Ultimate 2 time(s), Himeko \u2022 Nova immediately launches 1 Assist Skill against enemies at no cost."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Enters the \"Companion Protocol: Verdict\" state. Increases DMG dealt by Himeko \u2022 Nova by 110%, and additionally increases her Ultimate DMG dealt by 110%. After Himeko \u2022 Nova's teammates actively use their Ultimate 2 time(s), Himeko \u2022 Nova immediately launches 1 Assist Skill against enemies at no cost."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Enters the \"Companion Protocol: Verdict\" state. Increases DMG dealt by Himeko \u2022 Nova by 115%, and additionally increases her Ultimate DMG dealt by 115%. After Himeko \u2022 Nova's teammates actively use their Ultimate 2 time(s), Himeko \u2022 Nova immediately launches 1 Assist Skill against enemies at no cost."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Enters the \"Companion Protocol: Verdict\" state. Increases DMG dealt by Himeko \u2022 Nova by 120%, and additionally increases her Ultimate DMG dealt by 120%. After Himeko \u2022 Nova's teammates actively use their Ultimate 2 time(s), Himeko \u2022 Nova immediately launches 1 Assist Skill against enemies at no cost."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Enters the \"Companion Protocol: Verdict\" state. Increases DMG dealt by Himeko \u2022 Nova by 125%, and additionally increases her Ultimate DMG dealt by 125%. After Himeko \u2022 Nova's teammates actively use their Ultimate 2 time(s), Himeko \u2022 Nova immediately launches 1 Assist Skill against enemies at no cost."
+                  }
+                ]
+              },
+              {
+                "name": "Companion Protocol: Decimation",
+                "type": "Assist Skill",
+                "desc": "Enters the \"Companion Protocol: Decimation\" state. Increases all allies' CRIT DMG by 125%, and additionally increases the CRIT DMG dealt by Skill by 125%. For every 1 enemy target hit by allies, gains 1 Charge. When Charge reaches 9, consumes all Charge, and Himeko \u2022 Nova immediately launches 1 Assist Skill against enemies at no cost. This instance of Assist Skill cannot grant Charge.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1510_Passive.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Enters the \"Companion Protocol: Decimation\" state. Increases all allies' CRIT DMG by 50%, and additionally increases the CRIT DMG dealt by Skill by 50%. For every 1 enemy target hit by allies, gains 1 Charge. When Charge reaches 9, consumes all Charge, and Himeko \u2022 Nova immediately launches 1 Assist Skill against enemies at no cost. This instance of Assist Skill cannot grant Charge."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Enters the \"Companion Protocol: Decimation\" state. Increases all allies' CRIT DMG by 55%, and additionally increases the CRIT DMG dealt by Skill by 55%. For every 1 enemy target hit by allies, gains 1 Charge. When Charge reaches 9, consumes all Charge, and Himeko \u2022 Nova immediately launches 1 Assist Skill against enemies at no cost. This instance of Assist Skill cannot grant Charge."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Enters the \"Companion Protocol: Decimation\" state. Increases all allies' CRIT DMG by 60%, and additionally increases the CRIT DMG dealt by Skill by 60%. For every 1 enemy target hit by allies, gains 1 Charge. When Charge reaches 9, consumes all Charge, and Himeko \u2022 Nova immediately launches 1 Assist Skill against enemies at no cost. This instance of Assist Skill cannot grant Charge."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Enters the \"Companion Protocol: Decimation\" state. Increases all allies' CRIT DMG by 65%, and additionally increases the CRIT DMG dealt by Skill by 65%. For every 1 enemy target hit by allies, gains 1 Charge. When Charge reaches 9, consumes all Charge, and Himeko \u2022 Nova immediately launches 1 Assist Skill against enemies at no cost. This instance of Assist Skill cannot grant Charge."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Enters the \"Companion Protocol: Decimation\" state. Increases all allies' CRIT DMG by 70%, and additionally increases the CRIT DMG dealt by Skill by 70%. For every 1 enemy target hit by allies, gains 1 Charge. When Charge reaches 9, consumes all Charge, and Himeko \u2022 Nova immediately launches 1 Assist Skill against enemies at no cost. This instance of Assist Skill cannot grant Charge."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Enters the \"Companion Protocol: Decimation\" state. Increases all allies' CRIT DMG by 75%, and additionally increases the CRIT DMG dealt by Skill by 75%. For every 1 enemy target hit by allies, gains 1 Charge. When Charge reaches 9, consumes all Charge, and Himeko \u2022 Nova immediately launches 1 Assist Skill against enemies at no cost. This instance of Assist Skill cannot grant Charge."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Enters the \"Companion Protocol: Decimation\" state. Increases all allies' CRIT DMG by 81.3%, and additionally increases the CRIT DMG dealt by Skill by 81.3%. For every 1 enemy target hit by allies, gains 1 Charge. When Charge reaches 9, consumes all Charge, and Himeko \u2022 Nova immediately launches 1 Assist Skill against enemies at no cost. This instance of Assist Skill cannot grant Charge."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Enters the \"Companion Protocol: Decimation\" state. Increases all allies' CRIT DMG by 87.5%, and additionally increases the CRIT DMG dealt by Skill by 87.5%. For every 1 enemy target hit by allies, gains 1 Charge. When Charge reaches 9, consumes all Charge, and Himeko \u2022 Nova immediately launches 1 Assist Skill against enemies at no cost. This instance of Assist Skill cannot grant Charge."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Enters the \"Companion Protocol: Decimation\" state. Increases all allies' CRIT DMG by 93.8%, and additionally increases the CRIT DMG dealt by Skill by 93.8%. For every 1 enemy target hit by allies, gains 1 Charge. When Charge reaches 9, consumes all Charge, and Himeko \u2022 Nova immediately launches 1 Assist Skill against enemies at no cost. This instance of Assist Skill cannot grant Charge."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Enters the \"Companion Protocol: Decimation\" state. Increases all allies' CRIT DMG by 100%, and additionally increases the CRIT DMG dealt by Skill by 100%. For every 1 enemy target hit by allies, gains 1 Charge. When Charge reaches 9, consumes all Charge, and Himeko \u2022 Nova immediately launches 1 Assist Skill against enemies at no cost. This instance of Assist Skill cannot grant Charge."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Enters the \"Companion Protocol: Decimation\" state. Increases all allies' CRIT DMG by 105%, and additionally increases the CRIT DMG dealt by Skill by 105%. For every 1 enemy target hit by allies, gains 1 Charge. When Charge reaches 9, consumes all Charge, and Himeko \u2022 Nova immediately launches 1 Assist Skill against enemies at no cost. This instance of Assist Skill cannot grant Charge."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Enters the \"Companion Protocol: Decimation\" state. Increases all allies' CRIT DMG by 110%, and additionally increases the CRIT DMG dealt by Skill by 110%. For every 1 enemy target hit by allies, gains 1 Charge. When Charge reaches 9, consumes all Charge, and Himeko \u2022 Nova immediately launches 1 Assist Skill against enemies at no cost. This instance of Assist Skill cannot grant Charge."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Enters the \"Companion Protocol: Decimation\" state. Increases all allies' CRIT DMG by 115%, and additionally increases the CRIT DMG dealt by Skill by 115%. For every 1 enemy target hit by allies, gains 1 Charge. When Charge reaches 9, consumes all Charge, and Himeko \u2022 Nova immediately launches 1 Assist Skill against enemies at no cost. This instance of Assist Skill cannot grant Charge."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Enters the \"Companion Protocol: Decimation\" state. Increases all allies' CRIT DMG by 120%, and additionally increases the CRIT DMG dealt by Skill by 120%. For every 1 enemy target hit by allies, gains 1 Charge. When Charge reaches 9, consumes all Charge, and Himeko \u2022 Nova immediately launches 1 Assist Skill against enemies at no cost. This instance of Assist Skill cannot grant Charge."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Enters the \"Companion Protocol: Decimation\" state. Increases all allies' CRIT DMG by 125%, and additionally increases the CRIT DMG dealt by Skill by 125%. For every 1 enemy target hit by allies, gains 1 Charge. When Charge reaches 9, consumes all Charge, and Himeko \u2022 Nova immediately launches 1 Assist Skill against enemies at no cost. This instance of Assist Skill cannot grant Charge."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Whither, the Last and First Men?",
+                "type": "Major Trace",
+                "desc": "When Himeko \u2022 Nova launches Assist Skill, it does not consume Assist Skill uses. At the start of the turn, if the Assist Skill uses have reached the current cap, Himeko \u2022 Nova additionally regenerates 5 Energy.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1510_SkillTree1.webp"
+              },
+              {
+                "name": "Hark! The Express's Pulse Roars",
+                "type": "Major Trace",
+                "desc": "When a Trailblaze Companions character other than Himeko \u2022 Nova uses Assist Skill, that character immediately gains 1 extra turn in which they can insert the use of their Ultimate. The extra turn gained from Assist Skill will not repeatedly trigger this Trace effect.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1510_SkillTree2.webp"
+              },
+              {
+                "name": "The Silver Rail, Hushed in Antiquity",
+                "type": "Major Trace",
+                "desc": "When using Ultimate, immediately gains 3 \"Source Energy.\" If the current \"Source Energy\" is 3 or more, when using the \"Orbital Annihilation Pulse\" attack, the DMG multiplier of \"Orbital Annihilation Pulse\" against random single enemies increases by 30%.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1510_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "That Which We Stride Is the Trailblaze",
+                "type": "Eidolon 1",
+                "desc": "The number of extra Assist Skill uses from Talent additionally increases by 1. While in the \"Companion Protocol: Verdict\" state, reduces the number of Ultimate uses required to launch Assist Skill by 1. While in the \"Companion Protocol: Decimation\" state, reduces the Charge required to launch Assist Skill by 3. When Himeko \u2022 Nova launches Assist Skill, the number of extra DMG instances increases by 1.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1510_Rank1.webp"
+              },
+              {
+                "name": "The Colors We Never Strike",
+                "type": "Eidolon 2",
+                "desc": "The cap of Himeko \u2022 Nova's Assist Skill uses increases to 2, and the DMG dealt by Ultimate and Assist Skill becomes 130% of their original DMG. During the \"Navigator's Semaphore\" state, at the start of each turn , additionally recovers 1 use of Assist Skill immediately. When a non-Trailblaze Companions character uses Assist Skill, the Trace \"Hark! The Express's Pulse Roars\" now also grants them 1 extra turn.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1510_Rank2.webp"
+              },
+              {
+                "name": "We Who Are Starborn Muse Starward",
+                "type": "Eidolon 3",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1510_Ultra.webp"
+              },
+              {
+                "name": "Let No Skyward Hand Stay Unheld",
+                "type": "Eidolon 4",
+                "desc": "When using Assist Skill via the Talent \"Of Fire and Far Faring,\" the All-Type RES PEN boost now applies to all allies. And when Himeko \u2022 Nova gains this effect, her All-Type RES PEN additionally increases by 10%.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1510_Rank4.webp"
+              },
+              {
+                "name": "To Cross the Cosmos and Beyond",
+                "type": "Eidolon 5",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1510_BP.webp"
+              },
+              {
+                "name": "Ours Is the Oath to Sail Starward",
+                "type": "Eidolon 6",
+                "desc": "Himeko \u2022 Nova's Fire RES PEN increases by 20%. The cap of \"Source Energy\" increases to 6. When an ally uses or launches Assist Skill, DMG dealt by Assist Skill increases by 75%, and Himeko \u2022 Nova gains 1 \"Source Energy.\" When launching \"Hyperluminal Particle Beam\" during Ultimate, additionally gains 1 \"Source Energy\". When launching \"Orbital Annihilation Pulse,\" if the current \"Source Energy\" is 6 or more, additionally deals 1 instance of Fire DMG to all enemies, equal to 160% of Himeko \u2022 Nova's ATK.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1510_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
+      "req": {
+        "ascension": [
+          {
+            "id": "110432",
+            "name": "Radiant Prominence",
+            "qty": 65,
+            "rar": 5,
+            "kind": "boss",
+            "icon": "../../Database/GameData/hsr/assets/items/110432.webp"
+          },
+          {
+            "id": "116001",
+            "name": "Whimsy Wax",
+            "qty": 15,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+          },
+          {
+            "id": "116002",
+            "name": "Dreamweave Steel",
+            "qty": 15,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+          },
+          {
+            "id": "116003",
+            "name": "Lucid Awl",
+            "qty": 15,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+          }
+        ],
+        "talents": [
+          {
+            "id": "116001",
+            "name": "Whimsy Wax",
+            "qty": 41,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+          },
+          {
+            "id": "116002",
+            "name": "Dreamweave Steel",
+            "qty": 56,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+          },
+          {
+            "id": "116003",
+            "name": "Lucid Awl",
+            "qty": 58,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+          },
+          {
+            "id": "241",
+            "name": "Tracks of Destiny",
+            "qty": 8,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+          },
+          {
+            "id": "110291",
+            "name": "Celestial Globe",
+            "qty": 18,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110291.webp"
+          },
+          {
+            "id": "110292",
+            "name": "Galaxy Framework",
+            "qty": 69,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
+          },
+          {
+            "id": "110293",
+            "name": "Cosmic Sandpit",
+            "qty": 139,
+            "rar": 5,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+          },
+          {
+            "id": "110508",
+            "name": "Vanquished Flow's Reticence",
+            "qty": 12,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
+          }
+        ],
+        "talentStages": [
+          [
+            {
+              "cost": 5000,
+              "items": [
+                {
+                  "id": "110291",
+                  "name": "Celestial Globe",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110291.webp"
+                },
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 6,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 10000,
+              "items": [
+                {
+                  "id": "110292",
+                  "name": "Galaxy Framework",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 20000,
+              "items": [
+                {
+                  "id": "110292",
+                  "name": "Galaxy Framework",
+                  "qty": 5,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "110293",
+                  "name": "Cosmic Sandpit",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 160000,
+              "items": [
+                {
+                  "id": "110293",
+                  "name": "Cosmic Sandpit",
+                  "qty": 8,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2500,
+              "items": [
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 5000,
+              "items": [
+                {
+                  "id": "110291",
+                  "name": "Celestial Globe",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110291.webp"
+                },
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 6,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 10000,
+              "items": [
+                {
+                  "id": "110292",
+                  "name": "Galaxy Framework",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 20000,
+              "items": [
+                {
+                  "id": "110292",
+                  "name": "Galaxy Framework",
+                  "qty": 5,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 30000,
+              "items": [
+                {
+                  "id": "110292",
+                  "name": "Galaxy Framework",
+                  "qty": 7,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "110293",
+                  "name": "Cosmic Sandpit",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 80000,
+              "items": [
+                {
+                  "id": "110293",
+                  "name": "Cosmic Sandpit",
+                  "qty": 5,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "Vanquished Flow's Reticence",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 160000,
+              "items": [
+                {
+                  "id": "110293",
+                  "name": "Cosmic Sandpit",
+                  "qty": 8,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "Vanquished Flow's Reticence",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
+                }
+              ]
+            },
+            {
+              "cost": 300000,
+              "items": [
+                {
+                  "id": "110293",
+                  "name": "Cosmic Sandpit",
+                  "qty": 14,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "Vanquished Flow's Reticence",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2500,
+              "items": [
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 5000,
+              "items": [
+                {
+                  "id": "110291",
+                  "name": "Celestial Globe",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110291.webp"
+                },
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 6,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 10000,
+              "items": [
+                {
+                  "id": "110292",
+                  "name": "Galaxy Framework",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 20000,
+              "items": [
+                {
+                  "id": "110292",
+                  "name": "Galaxy Framework",
+                  "qty": 5,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 30000,
+              "items": [
+                {
+                  "id": "110292",
+                  "name": "Galaxy Framework",
+                  "qty": 7,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "110293",
+                  "name": "Cosmic Sandpit",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 80000,
+              "items": [
+                {
+                  "id": "110293",
+                  "name": "Cosmic Sandpit",
+                  "qty": 5,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "Vanquished Flow's Reticence",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 160000,
+              "items": [
+                {
+                  "id": "110293",
+                  "name": "Cosmic Sandpit",
+                  "qty": 8,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "Vanquished Flow's Reticence",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
+                }
+              ]
+            },
+            {
+              "cost": 300000,
+              "items": [
+                {
+                  "id": "110293",
+                  "name": "Cosmic Sandpit",
+                  "qty": 14,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "Vanquished Flow's Reticence",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2500,
+              "items": [
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 5000,
+              "items": [
+                {
+                  "id": "110291",
+                  "name": "Celestial Globe",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110291.webp"
+                },
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 6,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 10000,
+              "items": [
+                {
+                  "id": "110292",
+                  "name": "Galaxy Framework",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 20000,
+              "items": [
+                {
+                  "id": "110292",
+                  "name": "Galaxy Framework",
+                  "qty": 5,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 30000,
+              "items": [
+                {
+                  "id": "110292",
+                  "name": "Galaxy Framework",
+                  "qty": 7,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "110293",
+                  "name": "Cosmic Sandpit",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 80000,
+              "items": [
+                {
+                  "id": "110293",
+                  "name": "Cosmic Sandpit",
+                  "qty": 5,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "Vanquished Flow's Reticence",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 160000,
+              "items": [
+                {
+                  "id": "110293",
+                  "name": "Cosmic Sandpit",
+                  "qty": 8,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "Vanquished Flow's Reticence",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
+                }
+              ]
+            },
+            {
+              "cost": 300000,
+              "items": [
+                {
+                  "id": "110293",
+                  "name": "Cosmic Sandpit",
+                  "qty": 14,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "Vanquished Flow's Reticence",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
+                }
+              ]
+            }
+          ]
+        ],
+        "talentBase": [
+          {
+            "id": "116001",
+            "name": "Whimsy Wax",
+            "qty": 8,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+          },
+          {
+            "id": "116002",
+            "name": "Dreamweave Steel",
+            "qty": 10,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+          },
+          {
+            "id": "116003",
+            "name": "Lucid Awl",
+            "qty": 30,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+          },
+          {
+            "id": "241",
+            "name": "Tracks of Destiny",
+            "qty": 2,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+          },
+          {
+            "id": "110291",
+            "name": "Celestial Globe",
+            "qty": 6,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110291.webp"
+          },
+          {
+            "id": "110292",
+            "name": "Galaxy Framework",
+            "qty": 16,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
+          },
+          {
+            "id": "110293",
+            "name": "Cosmic Sandpit",
+            "qty": 38,
+            "rar": 5,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+          },
+          {
+            "id": "110508",
+            "name": "Vanquished Flow's Reticence",
+            "qty": 3,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
+          }
+        ],
+        "talentBaseCost": 802500,
+        "ascCost": 308000,
+        "talentCost": 3000000,
+        "currency": 3693000,
+        "weapon": {
+          "name": "A Star That Lights the Night",
+          "icon": "../../Database/GameData/hsr/assets/lightcones/medium/23060.webp",
+          "art": "../../Database/GameData/hsr/assets/lightcones/full/23060.webp",
+          "path": "Erudition",
+          "items": [
+            {
+              "id": "110291",
+              "name": "Celestial Globe",
+              "qty": 4,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110291.webp"
+            },
+            {
+              "id": "110292",
+              "name": "Galaxy Framework",
+              "qty": 12,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
+            },
+            {
+              "id": "110293",
+              "name": "Cosmic Sandpit",
+              "qty": 15,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+            },
+            {
+              "id": "116001",
+              "name": "Whimsy Wax",
+              "qty": 20,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+            },
+            {
+              "id": "116002",
+              "name": "Dreamweave Steel",
+              "qty": 20,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+            },
+            {
+              "id": "116003",
+              "name": "Lucid Awl",
+              "qty": 14,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+            }
+          ],
+          "cost": 385000
+        }
+      },
+      "recent": 1
     },
     {
       "id": "hsr-aventurine-waveflair",
       "n": "Aventurine Waveflair",
       "localizedNames": {
-        "en": "Aventurine Waveflair"
+        "en": "Aventurine \u2022 Waveflair",
+        "zh": "\u7802\u91d1\u2022\u620f\u6d6a",
+        "ja": "\u30a2\u30d9\u30f3\u30c1\u30e5\u30ea\u30f3\u30fb\u6ce2\u3068\u622f\u308c\u308b\u590f",
+        "ko": "\uc5b4\ubca4\uce04\ub9b0\u2022\uc6e8\uc774\ube0c"
       },
       "slug": "aventurine-waveflair",
       "updated": 1782770400000,
       "sourceOrder": 0,
-      "icon": null,
-      "art": "../../Database/Prydwen/hsr/assets/characters/aventurine-waveflair-0fb8df0c48dc.webp",
+      "icon": "../../Database/GameData/hsr/assets/characters/round/1513.webp",
+      "art": "../../Database/GameData/hsr/assets/characters/draw-card/1513.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/aventurine-waveflair-0fb8df0c48dc.webp",
       "status": "beta",
       "labels": [
@@ -9862,7 +11712,25 @@
       "r": 5,
       "el": "Quantum",
       "path": "Elation",
-      "baseStats": {},
+      "baseStats": {
+        "level1": {
+          "hp": 168.96,
+          "atk": 58.08,
+          "def": 102.3,
+          "speed": 103,
+          "critRate": 0.05,
+          "critDmg": 0.5
+        },
+        "max": {
+          "level": 80,
+          "hp": 1241.86,
+          "atk": 426.89,
+          "def": 751.9,
+          "speed": 103,
+          "critRate": 0.05,
+          "critDmg": 0.5
+        }
+      },
       "facts": {},
       "upcoming": true,
       "reliableData": false,
@@ -9873,13 +11741,16 @@
       "id": "hsr-robin-summeretto",
       "n": "Robin Summeretto",
       "localizedNames": {
-        "en": "Robin Summeretto"
+        "en": "Robin \u2022 Summeretto",
+        "zh": "\u77e5\u66f4\u9e1f\u2022\u6674\u6b4c",
+        "ja": "\u30ed\u30d3\u30f3\u30fb\u590f\u7a7a\u306e\u6b4c",
+        "ko": "\ub85c\ube48\u2022\uc11c\uba38\ub808\ud1a0"
       },
       "slug": "robin-summeretto",
       "updated": 1782770400000,
       "sourceOrder": 0,
-      "icon": null,
-      "art": "../../Database/Prydwen/hsr/assets/characters/robin-summeretto-50f73fbdd44b.webp",
+      "icon": "../../Database/GameData/hsr/assets/characters/round/1512.webp",
+      "art": "../../Database/GameData/hsr/assets/characters/draw-card/1512.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/robin-summeretto-50f73fbdd44b.webp",
       "status": "beta",
       "labels": [
@@ -9888,7 +11759,25 @@
       "r": 5,
       "el": "Wind",
       "path": "Remembrance",
-      "baseStats": {},
+      "baseStats": {
+        "level1": {
+          "hp": 163.68,
+          "atk": 81.84,
+          "def": 66,
+          "speed": 98,
+          "critRate": 0.05,
+          "critDmg": 0.5
+        },
+        "max": {
+          "level": 80,
+          "hp": 1203.05,
+          "atk": 601.52,
+          "def": 485.1,
+          "speed": 98,
+          "critRate": 0.05,
+          "critDmg": 0.5
+        }
+      },
       "facts": {},
       "upcoming": true,
       "reliableData": false,
@@ -9963,7 +11852,6 @@
         }
       },
       "facts": {
-        "camp": "Planarcadia",
         "title": "The Demoiselle in Charge"
       },
       "skillIcons": [
@@ -9975,7 +11863,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -11413,7 +13301,6 @@
         }
       },
       "facts": {
-        "camp": "The Xianzhou Yuque",
         "title": "Gleam of a Thousand Plumes"
       },
       "skillIcons": [
@@ -11425,7 +13312,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -12801,7 +14688,7 @@
       },
       "title": "Now I Am Become Blade",
       "slug": "blade-mortenax",
-      "release": 1780272000000,
+      "release": 1780304400000,
       "releasePatch": "4.3",
       "updated": 1781042400000,
       "sourceOrder": 0,
@@ -12864,7 +14751,6 @@
         }
       },
       "facts": {
-        "camp": "Stellaron Hunters",
         "title": "Now I Am Become Blade"
       },
       "skillIcons": [
@@ -12876,7 +14762,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -14286,8 +16172,7 @@
           ],
           "cost": 385000
         }
-      },
-      "recent": 1
+      }
     },
     {
       "id": "hsr-gilgamesh",
@@ -14313,7 +16198,27 @@
       "icon": "../../Database/GameData/hsr/assets/characters/round/1509.webp",
       "art": "../../Database/GameData/hsr/assets/characters/draw-card/1509.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/gilgamesh-8b85b84d2d9d.webp",
-      "status": "beta",
+      "signatureLightCone": {
+        "id": "23062",
+        "name": "I Am As You Behold",
+        "icon": "../../Database/GameData/hsr/assets/lightcones/medium/23062.webp",
+        "art": "../../Database/GameData/hsr/assets/lightcones/full/23062.webp",
+        "path": "Destruction"
+      },
+      "signatureWeapon": {
+        "id": "23062",
+        "name": "I Am As You Behold",
+        "path": "Destruction",
+        "type": "Destruction",
+        "educated": false
+      },
+      "signatureWeaponId": "23062",
+      "signatureWeaponName": "I Am As You Behold",
+      "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23062.webp",
+      "overviewArtPool": [
+        "../../Database/GameData/hsr/assets/lightcones/full/23062.webp"
+      ],
+      "status": "live",
       "labels": [
         "4.4"
       ],
@@ -14342,10 +16247,1382 @@
       "facts": {
         "title": "I Am As You Behold"
       },
-      "upcoming": true,
-      "reliableData": false,
-      "noReliableInfo": true,
-      "recent": false
+      "skillIcons": [
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_Normal.webp",
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_BP.webp",
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_Ultra.webp",
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_Passive.webp"
+      ],
+      "kit": {
+        "source": "Game data",
+        "channel": "live",
+        "version": "4.4",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Halfhearted Blow",
+                "type": "Basic ATK",
+                "desc": "Deals Lightning DMG equal to 140% of Gilgamesh's ATK to one designated enemy.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_Normal.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Lightning DMG equal to 50% of Gilgamesh's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Lightning DMG equal to 60% of Gilgamesh's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Lightning DMG equal to 70% of Gilgamesh's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Lightning DMG equal to 80% of Gilgamesh's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Lightning DMG equal to 90% of Gilgamesh's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Lightning DMG equal to 100% of Gilgamesh's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Lightning DMG equal to 110% of Gilgamesh's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Lightning DMG equal to 120% of Gilgamesh's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Lightning DMG equal to 130% of Gilgamesh's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Lightning DMG equal to 140% of Gilgamesh's ATK to one designated enemy."
+                  }
+                ]
+              },
+              {
+                "name": "Gate of Babylon",
+                "type": "Skill",
+                "desc": "Gains \"King's Acknowledgement,\" allowing this unit to ignore 37.5% of the target's DEF when dealing DMG, lasting for 3 turn(s).\\nDeals Lightning DMG equal to 350% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 175% of Gilgamesh's ATK to adjacent targets.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_BP.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Gains \"King's Acknowledgement,\" allowing this unit to ignore 15% of the target's DEF when dealing DMG, lasting for 3 turn(s).\\nDeals Lightning DMG equal to 140% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 70% of Gilgamesh's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Gains \"King's Acknowledgement,\" allowing this unit to ignore 16.5% of the target's DEF when dealing DMG, lasting for 3 turn(s).\\nDeals Lightning DMG equal to 154% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 77% of Gilgamesh's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Gains \"King's Acknowledgement,\" allowing this unit to ignore 18% of the target's DEF when dealing DMG, lasting for 3 turn(s).\\nDeals Lightning DMG equal to 168% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 84% of Gilgamesh's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Gains \"King's Acknowledgement,\" allowing this unit to ignore 19.5% of the target's DEF when dealing DMG, lasting for 3 turn(s).\\nDeals Lightning DMG equal to 182% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 91% of Gilgamesh's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Gains \"King's Acknowledgement,\" allowing this unit to ignore 21% of the target's DEF when dealing DMG, lasting for 3 turn(s).\\nDeals Lightning DMG equal to 196% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 98% of Gilgamesh's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Gains \"King's Acknowledgement,\" allowing this unit to ignore 22.5% of the target's DEF when dealing DMG, lasting for 3 turn(s).\\nDeals Lightning DMG equal to 210% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 105% of Gilgamesh's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Gains \"King's Acknowledgement,\" allowing this unit to ignore 24.4% of the target's DEF when dealing DMG, lasting for 3 turn(s).\\nDeals Lightning DMG equal to 228% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 114% of Gilgamesh's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Gains \"King's Acknowledgement,\" allowing this unit to ignore 26.3% of the target's DEF when dealing DMG, lasting for 3 turn(s).\\nDeals Lightning DMG equal to 245% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 123% of Gilgamesh's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Gains \"King's Acknowledgement,\" allowing this unit to ignore 28.1% of the target's DEF when dealing DMG, lasting for 3 turn(s).\\nDeals Lightning DMG equal to 263% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 131% of Gilgamesh's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Gains \"King's Acknowledgement,\" allowing this unit to ignore 30% of the target's DEF when dealing DMG, lasting for 3 turn(s).\\nDeals Lightning DMG equal to 280% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 140% of Gilgamesh's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Gains \"King's Acknowledgement,\" allowing this unit to ignore 31.5% of the target's DEF when dealing DMG, lasting for 3 turn(s).\\nDeals Lightning DMG equal to 294% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 147% of Gilgamesh's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Gains \"King's Acknowledgement,\" allowing this unit to ignore 33% of the target's DEF when dealing DMG, lasting for 3 turn(s).\\nDeals Lightning DMG equal to 308% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 154% of Gilgamesh's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Gains \"King's Acknowledgement,\" allowing this unit to ignore 34.5% of the target's DEF when dealing DMG, lasting for 3 turn(s).\\nDeals Lightning DMG equal to 322% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 161% of Gilgamesh's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Gains \"King's Acknowledgement,\" allowing this unit to ignore 36% of the target's DEF when dealing DMG, lasting for 3 turn(s).\\nDeals Lightning DMG equal to 336% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 168% of Gilgamesh's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Gains \"King's Acknowledgement,\" allowing this unit to ignore 37.5% of the target's DEF when dealing DMG, lasting for 3 turn(s).\\nDeals Lightning DMG equal to 350% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 175% of Gilgamesh's ATK to adjacent targets."
+                  }
+                ]
+              },
+              {
+                "name": "Halfhearted Blow",
+                "type": "Skill"
+              },
+              {
+                "name": "Enuma Elish",
+                "type": "Ultimate",
+                "desc": "Deals Lightning DMG equal to 500% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 125% of Gilgamesh's ATK to one random enemy.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_Ultra.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Lightning DMG equal to 200% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 50% of Gilgamesh's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Lightning DMG equal to 220% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 55% of Gilgamesh's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Lightning DMG equal to 240% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 60% of Gilgamesh's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Lightning DMG equal to 260% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 65% of Gilgamesh's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Lightning DMG equal to 280% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 70% of Gilgamesh's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Lightning DMG equal to 300% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 75% of Gilgamesh's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Lightning DMG equal to 325% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 81.3% of Gilgamesh's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Lightning DMG equal to 350% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 87.5% of Gilgamesh's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Lightning DMG equal to 375% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 93.8% of Gilgamesh's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Lightning DMG equal to 400% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 100% of Gilgamesh's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Deals Lightning DMG equal to 420% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 105% of Gilgamesh's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Deals Lightning DMG equal to 440% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 110% of Gilgamesh's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Deals Lightning DMG equal to 460% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 115% of Gilgamesh's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Deals Lightning DMG equal to 480% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 120% of Gilgamesh's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Deals Lightning DMG equal to 500% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 125% of Gilgamesh's ATK to one random enemy."
+                  }
+                ]
+              },
+              {
+                "name": "Enkidu",
+                "type": "Technique",
+                "desc": "After using Technique, creates 1 Special Dimension lasting for 10 second(s). Enemies in the Special Dimension enter the \"King's Permission\" state. Enemies in the \"King's Permission\" state will cease all actions.\\nWhen entering combat by actively attacking an enemy in the \"King's Permission\" state, causes all enemies in the \"King's Permission\" state to enter combat, and deals Lightning DMG equal to 200% of Gilgamesh's ATK to all enemies after entering combat. Gilgamesh also immediately gains 3 \"Interest.\" Only 1 Dimension Effect created by allies can exist at the same time.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "Technique Attack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "\"Amuse Me to the Fullest\"",
+                "type": "Talent",
+                "desc": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 50%, lasting for 3 turn(s).\\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by 10%.\\nWhen \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\"",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_Passive.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 20%, lasting for 3 turn(s).\\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by 10%.\\nWhen \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\""
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 22%, lasting for 3 turn(s).\\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by 10%.\\nWhen \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\""
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 24%, lasting for 3 turn(s).\\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by 10%.\\nWhen \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\""
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 26%, lasting for 3 turn(s).\\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by 10%.\\nWhen \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\""
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 28%, lasting for 3 turn(s).\\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by 10%.\\nWhen \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\""
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 30%, lasting for 3 turn(s).\\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by 10%.\\nWhen \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\""
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 32.5%, lasting for 3 turn(s).\\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by 10%.\\nWhen \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\""
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 35%, lasting for 3 turn(s).\\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by 10%.\\nWhen \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\""
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 37.5%, lasting for 3 turn(s).\\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by 10%.\\nWhen \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\""
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 40%, lasting for 3 turn(s).\\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by 10%.\\nWhen \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\""
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 42%, lasting for 3 turn(s).\\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by 10%.\\nWhen \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\""
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 44%, lasting for 3 turn(s).\\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by 10%.\\nWhen \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\""
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 46%, lasting for 3 turn(s).\\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by 10%.\\nWhen \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\""
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 48%, lasting for 3 turn(s).\\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by 10%.\\nWhen \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\""
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 50%, lasting for 3 turn(s).\\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by 10%.\\nWhen \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\""
+                  }
+                ]
+              },
+              {
+                "name": "\"I Grant You Permission To Strike\"",
+                "type": "Talent",
+                "desc": "When Gilgamesh or Saber attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint Follow-Up ATK, dealing Lightning DMG equal to 500% of Gilgamesh's ATK and Wind DMG equal to 750% of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains 3 \"Interest.\" Saber regenerates a fixed 120 Energy, and the next time she uses Ultimate, the DMG dealt becomes 240% of the original DMG.\\nAfter using Joint Follow-Up ATK, resets the attack tally.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_Passive.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "When Gilgamesh or Saber attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint Follow-Up ATK, dealing Lightning DMG equal to 200% of Gilgamesh's ATK and Wind DMG equal to 300% of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains 3 \"Interest.\" Saber regenerates a fixed 120 Energy, and the next time she uses Ultimate, the DMG dealt becomes 120% of the original DMG.\\nAfter using Joint Follow-Up ATK, resets the attack tally."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "When Gilgamesh or Saber attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint Follow-Up ATK, dealing Lightning DMG equal to 220% of Gilgamesh's ATK and Wind DMG equal to 330% of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains 3 \"Interest.\" Saber regenerates a fixed 120 Energy, and the next time she uses Ultimate, the DMG dealt becomes 128% of the original DMG.\\nAfter using Joint Follow-Up ATK, resets the attack tally."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "When Gilgamesh or Saber attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint Follow-Up ATK, dealing Lightning DMG equal to 240% of Gilgamesh's ATK and Wind DMG equal to 360% of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains 3 \"Interest.\" Saber regenerates a fixed 120 Energy, and the next time she uses Ultimate, the DMG dealt becomes 136% of the original DMG.\\nAfter using Joint Follow-Up ATK, resets the attack tally."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "When Gilgamesh or Saber attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint Follow-Up ATK, dealing Lightning DMG equal to 260% of Gilgamesh's ATK and Wind DMG equal to 390% of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains 3 \"Interest.\" Saber regenerates a fixed 120 Energy, and the next time she uses Ultimate, the DMG dealt becomes 144% of the original DMG.\\nAfter using Joint Follow-Up ATK, resets the attack tally."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "When Gilgamesh or Saber attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint Follow-Up ATK, dealing Lightning DMG equal to 280% of Gilgamesh's ATK and Wind DMG equal to 420% of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains 3 \"Interest.\" Saber regenerates a fixed 120 Energy, and the next time she uses Ultimate, the DMG dealt becomes 152% of the original DMG.\\nAfter using Joint Follow-Up ATK, resets the attack tally."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "When Gilgamesh or Saber attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint Follow-Up ATK, dealing Lightning DMG equal to 300% of Gilgamesh's ATK and Wind DMG equal to 450% of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains 3 \"Interest.\" Saber regenerates a fixed 120 Energy, and the next time she uses Ultimate, the DMG dealt becomes 160% of the original DMG.\\nAfter using Joint Follow-Up ATK, resets the attack tally."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "When Gilgamesh or Saber attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint Follow-Up ATK, dealing Lightning DMG equal to 325% of Gilgamesh's ATK and Wind DMG equal to 488% of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains 3 \"Interest.\" Saber regenerates a fixed 120 Energy, and the next time she uses Ultimate, the DMG dealt becomes 170% of the original DMG.\\nAfter using Joint Follow-Up ATK, resets the attack tally."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "When Gilgamesh or Saber attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint Follow-Up ATK, dealing Lightning DMG equal to 350% of Gilgamesh's ATK and Wind DMG equal to 525% of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains 3 \"Interest.\" Saber regenerates a fixed 120 Energy, and the next time she uses Ultimate, the DMG dealt becomes 180% of the original DMG.\\nAfter using Joint Follow-Up ATK, resets the attack tally."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "When Gilgamesh or Saber attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint Follow-Up ATK, dealing Lightning DMG equal to 375% of Gilgamesh's ATK and Wind DMG equal to 563% of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains 3 \"Interest.\" Saber regenerates a fixed 120 Energy, and the next time she uses Ultimate, the DMG dealt becomes 190% of the original DMG.\\nAfter using Joint Follow-Up ATK, resets the attack tally."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "When Gilgamesh or Saber attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint Follow-Up ATK, dealing Lightning DMG equal to 400% of Gilgamesh's ATK and Wind DMG equal to 600% of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains 3 \"Interest.\" Saber regenerates a fixed 120 Energy, and the next time she uses Ultimate, the DMG dealt becomes 200% of the original DMG.\\nAfter using Joint Follow-Up ATK, resets the attack tally."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "When Gilgamesh or Saber attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint Follow-Up ATK, dealing Lightning DMG equal to 420% of Gilgamesh's ATK and Wind DMG equal to 630% of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains 3 \"Interest.\" Saber regenerates a fixed 120 Energy, and the next time she uses Ultimate, the DMG dealt becomes 208% of the original DMG.\\nAfter using Joint Follow-Up ATK, resets the attack tally."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "When Gilgamesh or Saber attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint Follow-Up ATK, dealing Lightning DMG equal to 440% of Gilgamesh's ATK and Wind DMG equal to 660% of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains 3 \"Interest.\" Saber regenerates a fixed 120 Energy, and the next time she uses Ultimate, the DMG dealt becomes 216% of the original DMG.\\nAfter using Joint Follow-Up ATK, resets the attack tally."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "When Gilgamesh or Saber attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint Follow-Up ATK, dealing Lightning DMG equal to 460% of Gilgamesh's ATK and Wind DMG equal to 690% of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains 3 \"Interest.\" Saber regenerates a fixed 120 Energy, and the next time she uses Ultimate, the DMG dealt becomes 224% of the original DMG.\\nAfter using Joint Follow-Up ATK, resets the attack tally."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "When Gilgamesh or Saber attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint Follow-Up ATK, dealing Lightning DMG equal to 480% of Gilgamesh's ATK and Wind DMG equal to 720% of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains 3 \"Interest.\" Saber regenerates a fixed 120 Energy, and the next time she uses Ultimate, the DMG dealt becomes 232% of the original DMG.\\nAfter using Joint Follow-Up ATK, resets the attack tally."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "When Gilgamesh or Saber attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint Follow-Up ATK, dealing Lightning DMG equal to 500% of Gilgamesh's ATK and Wind DMG equal to 750% of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains 3 \"Interest.\" Saber regenerates a fixed 120 Energy, and the next time she uses Ultimate, the DMG dealt becomes 240% of the original DMG.\\nAfter using Joint Follow-Up ATK, resets the attack tally."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Epic's Opening",
+                "type": "Major Trace",
+                "desc": "When Gilgamesh uses Ultimate, gains 2 \"Interest.\" When other ally characters use Ultimate, Gilgamesh additionally gains 2 \"Interest\" and regenerates a fixed amount of Energy equal to 30% of the Energy consumed this time.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_SkillTree1.webp"
+              },
+              {
+                "name": "Hero's Hauteur",
+                "type": "Major Trace",
+                "desc": "During the current battle, for every 1 point of \"Interest\" gained by Gilgamesh, increases his CRIT DMG by 25%. This effect can stack up to 6 time(s).",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_SkillTree2.webp"
+              },
+              {
+                "name": "Hegemon's Strife",
+                "type": "Major Trace",
+                "desc": "While Gilgamesh is on the field, increases all ally targets' ATK by 20% and CRIT DMG by 20%. If the target's Max Energy exceeds 140, for every 1 excess point of Max Energy, additionally increases ATK and CRIT DMG by 1%, up to a maximum additional increase of 100%.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "He Who Saw the Deep",
+                "type": "Eidolon 1",
+                "desc": "When Gilgamesh holds \"King's Acknowledgement,\" its DEF-ignoring effect also applies to other teammates, and \"King's Acknowledgement\" additionally increases Gilgamesh's ATK by 60%. When using Skill, additionally regenerates a fixed 40 Energy.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_Rank1.webp"
+              },
+              {
+                "name": "Wisdom That Encompassed All",
+                "type": "Eidolon 2",
+                "desc": "When entering combat, Gilgamesh gains 5 \"Interest.\" When using Ultimate, additionally gains 5 \"Interest.\" The DMG multiplier of the Skill \"Gate of Babylon\" against the primary target increases by 100%, and its DMG multiplier against adjacent targets increases by 50%.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_Rank2.webp"
+              },
+              {
+                "name": "Journey That Spanned Far",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_BP.webp"
+              },
+              {
+                "name": "King Who Bowed to None",
+                "type": "Eidolon 4",
+                "desc": "Gilgamesh's Energy Regeneration Rate increases by 20%.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_Rank4.webp"
+              },
+              {
+                "name": "Sword That Parted Gods from Man",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_Ultra.webp"
+              },
+              {
+                "name": "Soul That Bore Friendship",
+                "type": "Eidolon 6",
+                "desc": "Increases the bounce DMG multiplier of the Ultimate \"Enuma Elish\" by 80%. While Gilgamesh is on the field, increases ally characters' All-Type RES PEN by 20%. When a teammate uses Ultimate, Gilgamesh gains 1 point of \"Golden Rule,\" up to a total of 3 points. When this unit uses Ultimate, consumes all \"Golden Rule\" points, and each point of \"Golden Rule\" consumed increases the CRIT DMG for the Ultimate DMG dealt by 100%.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
+      "req": {
+        "ascension": [
+          {
+            "id": "110434",
+            "name": "Thunder Strum",
+            "qty": 65,
+            "rar": 5,
+            "kind": "boss",
+            "icon": "../../Database/GameData/hsr/assets/items/110434.webp"
+          },
+          {
+            "id": "111001",
+            "name": "Extinguished Core",
+            "qty": 15,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/111001.webp"
+          },
+          {
+            "id": "111002",
+            "name": "Glimmering Core",
+            "qty": 15,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/111002.webp"
+          },
+          {
+            "id": "111003",
+            "name": "Squirming Core",
+            "qty": 15,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/111003.webp"
+          }
+        ],
+        "talents": [
+          {
+            "id": "111001",
+            "name": "Extinguished Core",
+            "qty": 41,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/111001.webp"
+          },
+          {
+            "id": "111002",
+            "name": "Glimmering Core",
+            "qty": 56,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/111002.webp"
+          },
+          {
+            "id": "111003",
+            "name": "Squirming Core",
+            "qty": 58,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/111003.webp"
+          },
+          {
+            "id": "241",
+            "name": "Tracks of Destiny",
+            "qty": 8,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+          },
+          {
+            "id": "110281",
+            "name": "Four Phases, Crossing the River to Check the King",
+            "qty": 18,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110281.webp"
+          },
+          {
+            "id": "110282",
+            "name": "Sixen, King-Rook Fork",
+            "qty": 69,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110282.webp"
+          },
+          {
+            "id": "110283",
+            "name": "Omnicolor, Fool's Own",
+            "qty": 139,
+            "rar": 5,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
+          },
+          {
+            "id": "110502",
+            "name": "Guardian's Lament",
+            "qty": 12,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/GameData/hsr/assets/items/110502.webp"
+          }
+        ],
+        "talentStages": [
+          [
+            {
+              "cost": 5000,
+              "items": [
+                {
+                  "id": "110281",
+                  "name": "Four Phases, Crossing the River to Check the King",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110281.webp"
+                },
+                {
+                  "id": "111001",
+                  "name": "Extinguished Core",
+                  "qty": 6,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 10000,
+              "items": [
+                {
+                  "id": "110282",
+                  "name": "Sixen, King-Rook Fork",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110282.webp"
+                },
+                {
+                  "id": "111002",
+                  "name": "Glimmering Core",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 20000,
+              "items": [
+                {
+                  "id": "110282",
+                  "name": "Sixen, King-Rook Fork",
+                  "qty": 5,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110282.webp"
+                },
+                {
+                  "id": "111002",
+                  "name": "Glimmering Core",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "110283",
+                  "name": "Omnicolor, Fool's Own",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
+                },
+                {
+                  "id": "111003",
+                  "name": "Squirming Core",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 160000,
+              "items": [
+                {
+                  "id": "110283",
+                  "name": "Omnicolor, Fool's Own",
+                  "qty": 8,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
+                },
+                {
+                  "id": "111003",
+                  "name": "Squirming Core",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111003.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2500,
+              "items": [
+                {
+                  "id": "111001",
+                  "name": "Extinguished Core",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 5000,
+              "items": [
+                {
+                  "id": "110281",
+                  "name": "Four Phases, Crossing the River to Check the King",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110281.webp"
+                },
+                {
+                  "id": "111001",
+                  "name": "Extinguished Core",
+                  "qty": 6,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 10000,
+              "items": [
+                {
+                  "id": "110282",
+                  "name": "Sixen, King-Rook Fork",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110282.webp"
+                },
+                {
+                  "id": "111002",
+                  "name": "Glimmering Core",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 20000,
+              "items": [
+                {
+                  "id": "110282",
+                  "name": "Sixen, King-Rook Fork",
+                  "qty": 5,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110282.webp"
+                },
+                {
+                  "id": "111002",
+                  "name": "Glimmering Core",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 30000,
+              "items": [
+                {
+                  "id": "110282",
+                  "name": "Sixen, King-Rook Fork",
+                  "qty": 7,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110282.webp"
+                },
+                {
+                  "id": "111002",
+                  "name": "Glimmering Core",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "110283",
+                  "name": "Omnicolor, Fool's Own",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
+                },
+                {
+                  "id": "111003",
+                  "name": "Squirming Core",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 80000,
+              "items": [
+                {
+                  "id": "110283",
+                  "name": "Omnicolor, Fool's Own",
+                  "qty": 5,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
+                },
+                {
+                  "id": "110502",
+                  "name": "Guardian's Lament",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110502.webp"
+                },
+                {
+                  "id": "111003",
+                  "name": "Squirming Core",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 160000,
+              "items": [
+                {
+                  "id": "110283",
+                  "name": "Omnicolor, Fool's Own",
+                  "qty": 8,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110502",
+                  "name": "Guardian's Lament",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110502.webp"
+                }
+              ]
+            },
+            {
+              "cost": 300000,
+              "items": [
+                {
+                  "id": "110283",
+                  "name": "Omnicolor, Fool's Own",
+                  "qty": 14,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110502",
+                  "name": "Guardian's Lament",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110502.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2500,
+              "items": [
+                {
+                  "id": "111001",
+                  "name": "Extinguished Core",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 5000,
+              "items": [
+                {
+                  "id": "110281",
+                  "name": "Four Phases, Crossing the River to Check the King",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110281.webp"
+                },
+                {
+                  "id": "111001",
+                  "name": "Extinguished Core",
+                  "qty": 6,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 10000,
+              "items": [
+                {
+                  "id": "110282",
+                  "name": "Sixen, King-Rook Fork",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110282.webp"
+                },
+                {
+                  "id": "111002",
+                  "name": "Glimmering Core",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 20000,
+              "items": [
+                {
+                  "id": "110282",
+                  "name": "Sixen, King-Rook Fork",
+                  "qty": 5,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110282.webp"
+                },
+                {
+                  "id": "111002",
+                  "name": "Glimmering Core",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 30000,
+              "items": [
+                {
+                  "id": "110282",
+                  "name": "Sixen, King-Rook Fork",
+                  "qty": 7,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110282.webp"
+                },
+                {
+                  "id": "111002",
+                  "name": "Glimmering Core",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "110283",
+                  "name": "Omnicolor, Fool's Own",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
+                },
+                {
+                  "id": "111003",
+                  "name": "Squirming Core",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 80000,
+              "items": [
+                {
+                  "id": "110283",
+                  "name": "Omnicolor, Fool's Own",
+                  "qty": 5,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
+                },
+                {
+                  "id": "110502",
+                  "name": "Guardian's Lament",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110502.webp"
+                },
+                {
+                  "id": "111003",
+                  "name": "Squirming Core",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 160000,
+              "items": [
+                {
+                  "id": "110283",
+                  "name": "Omnicolor, Fool's Own",
+                  "qty": 8,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110502",
+                  "name": "Guardian's Lament",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110502.webp"
+                }
+              ]
+            },
+            {
+              "cost": 300000,
+              "items": [
+                {
+                  "id": "110283",
+                  "name": "Omnicolor, Fool's Own",
+                  "qty": 14,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110502",
+                  "name": "Guardian's Lament",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110502.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2500,
+              "items": [
+                {
+                  "id": "111001",
+                  "name": "Extinguished Core",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 5000,
+              "items": [
+                {
+                  "id": "110281",
+                  "name": "Four Phases, Crossing the River to Check the King",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110281.webp"
+                },
+                {
+                  "id": "111001",
+                  "name": "Extinguished Core",
+                  "qty": 6,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 10000,
+              "items": [
+                {
+                  "id": "110282",
+                  "name": "Sixen, King-Rook Fork",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110282.webp"
+                },
+                {
+                  "id": "111002",
+                  "name": "Glimmering Core",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 20000,
+              "items": [
+                {
+                  "id": "110282",
+                  "name": "Sixen, King-Rook Fork",
+                  "qty": 5,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110282.webp"
+                },
+                {
+                  "id": "111002",
+                  "name": "Glimmering Core",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 30000,
+              "items": [
+                {
+                  "id": "110282",
+                  "name": "Sixen, King-Rook Fork",
+                  "qty": 7,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110282.webp"
+                },
+                {
+                  "id": "111002",
+                  "name": "Glimmering Core",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "110283",
+                  "name": "Omnicolor, Fool's Own",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
+                },
+                {
+                  "id": "111003",
+                  "name": "Squirming Core",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 80000,
+              "items": [
+                {
+                  "id": "110283",
+                  "name": "Omnicolor, Fool's Own",
+                  "qty": 5,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
+                },
+                {
+                  "id": "110502",
+                  "name": "Guardian's Lament",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110502.webp"
+                },
+                {
+                  "id": "111003",
+                  "name": "Squirming Core",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 160000,
+              "items": [
+                {
+                  "id": "110283",
+                  "name": "Omnicolor, Fool's Own",
+                  "qty": 8,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110502",
+                  "name": "Guardian's Lament",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110502.webp"
+                }
+              ]
+            },
+            {
+              "cost": 300000,
+              "items": [
+                {
+                  "id": "110283",
+                  "name": "Omnicolor, Fool's Own",
+                  "qty": 14,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110502",
+                  "name": "Guardian's Lament",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110502.webp"
+                }
+              ]
+            }
+          ]
+        ],
+        "talentBase": [
+          {
+            "id": "111001",
+            "name": "Extinguished Core",
+            "qty": 8,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/111001.webp"
+          },
+          {
+            "id": "111002",
+            "name": "Glimmering Core",
+            "qty": 10,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/111002.webp"
+          },
+          {
+            "id": "111003",
+            "name": "Squirming Core",
+            "qty": 30,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/111003.webp"
+          },
+          {
+            "id": "241",
+            "name": "Tracks of Destiny",
+            "qty": 2,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+          },
+          {
+            "id": "110281",
+            "name": "Four Phases, Crossing the River to Check the King",
+            "qty": 6,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110281.webp"
+          },
+          {
+            "id": "110282",
+            "name": "Sixen, King-Rook Fork",
+            "qty": 16,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110282.webp"
+          },
+          {
+            "id": "110283",
+            "name": "Omnicolor, Fool's Own",
+            "qty": 38,
+            "rar": 5,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
+          },
+          {
+            "id": "110502",
+            "name": "Guardian's Lament",
+            "qty": 3,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/GameData/hsr/assets/items/110502.webp"
+          }
+        ],
+        "talentBaseCost": 802500,
+        "ascCost": 308000,
+        "talentCost": 3000000,
+        "currency": 3693000,
+        "weapon": {
+          "name": "I Am As You Behold",
+          "icon": "../../Database/GameData/hsr/assets/lightcones/medium/23062.webp",
+          "art": "../../Database/GameData/hsr/assets/lightcones/full/23062.webp",
+          "path": "Destruction",
+          "items": [
+            {
+              "id": "110281",
+              "name": "Four Phases, Crossing the River to Check the King",
+              "qty": 4,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110281.webp"
+            },
+            {
+              "id": "110282",
+              "name": "Sixen, King-Rook Fork",
+              "qty": 12,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110282.webp"
+            },
+            {
+              "id": "110283",
+              "name": "Omnicolor, Fool's Own",
+              "qty": 15,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
+            },
+            {
+              "id": "111001",
+              "name": "Extinguished Core",
+              "qty": 20,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/GameData/hsr/assets/items/111001.webp"
+            },
+            {
+              "id": "111002",
+              "name": "Glimmering Core",
+              "qty": 20,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/GameData/hsr/assets/items/111002.webp"
+            },
+            {
+              "id": "111003",
+              "name": "Squirming Core",
+              "qty": 14,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/GameData/hsr/assets/items/111003.webp"
+            }
+          ],
+          "cost": 385000
+        }
+      }
     },
     {
       "id": "hsr-cerydra",
@@ -14358,7 +17635,7 @@
       },
       "title": "The Iron Tamer of Tides",
       "slug": "cerydra",
-      "release": 1760518800000,
+      "release": 1756803600000,
       "releasePatch": "3.5",
       "updated": 1780524000000,
       "sourceOrder": 0,
@@ -14415,7 +17692,6 @@
         }
       },
       "facts": {
-        "camp": "Amphoreus",
         "title": "The Iron Tamer of Tides"
       },
       "skillIcons": [
@@ -14427,7 +17703,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -15794,7 +19070,7 @@
         }
       },
       "facts": {
-        "camp": "Galaxy Ranger",
+        "camp": "Self-Annihilator",
         "title": "Bosenmori"
       },
       "skillIcons": [
@@ -15806,7 +19082,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -17187,7 +20463,6 @@
         }
       },
       "facts": {
-        "camp": "Amphoreus",
         "title": "Tailored Fate"
       },
       "skillIcons": [
@@ -17199,7 +20474,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -18621,7 +21896,6 @@
         }
       },
       "facts": {
-        "camp": "Amphoreus",
         "title": "The Universe in a Seed"
       },
       "skillIcons": [
@@ -18633,7 +21907,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -20003,7 +23277,6 @@
         }
       },
       "facts": {
-        "camp": "Another World",
         "title": "The Hell Where Ideals Burn"
       },
       "skillIcons": [
@@ -20015,7 +23288,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -21395,7 +24668,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -22838,7 +26111,6 @@
         }
       },
       "facts": {
-        "camp": "Planarcadia",
         "title": "A Hunt Through Night"
       },
       "skillIcons": [
@@ -22850,7 +26122,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -24230,7 +27502,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -25611,7 +28883,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -26990,7 +30262,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -28376,7 +31648,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -29799,7 +33071,6 @@
         }
       },
       "facts": {
-        "camp": "Galaxy Ranger",
         "title": "Dusty Trail's Lone Star"
       },
       "skillIcons": [
@@ -29811,7 +33082,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -31239,7 +34510,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -32608,7 +35879,6 @@
         }
       },
       "facts": {
-        "camp": "Amphoreus",
         "title": "Blossom to the Beyond"
       },
       "skillIcons": [
@@ -32620,7 +35890,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -32974,7 +36244,7 @@
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1407_SkillTree2.webp"
               },
               {
-                "name": "Where The West Wind Dwells",
+                "name": "Where the West Wind Dwells",
                 "type": "Major Trace",
                 "desc": "Each time Netherwing uses \"Breath Scorches the Shadow,\" the DMG dealt increases by 30%. This effect stacks up to 6 time(s) and lasts until the end of this turn.",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1407_SkillTree3.webp"
@@ -34055,7 +37325,6 @@
         }
       },
       "facts": {
-        "camp": "Amphoreus",
         "title": "Slick and Speedy Steals the Sky"
       },
       "skillIcons": [
@@ -34067,7 +37336,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -35447,7 +38716,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -36815,7 +40084,6 @@
         }
       },
       "facts": {
-        "camp": "Amphoreus",
         "title": "Ripples Rejoined"
       },
       "skillIcons": [
@@ -36827,7 +40095,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -38268,7 +41536,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -39724,7 +42992,7 @@
       },
       "title": "Slay Until Evil Ends",
       "slug": "dan-heng-permansor-terrae",
-      "release": 1682460000000,
+      "release": 1760173200000,
       "releasePatch": "3.6",
       "updated": 1780178400000,
       "sourceOrder": 0,
@@ -39785,7 +43053,6 @@
         }
       },
       "facts": {
-        "camp": "Amphoreus",
         "title": "Slay Until Evil Ends"
       },
       "skillIcons": [
@@ -39797,7 +43064,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -41176,7 +44443,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -42545,7 +45812,6 @@
         }
       },
       "facts": {
-        "camp": "The Xianzhou Yaoqing",
         "title": "Stormrider's Bolt"
       },
       "skillIcons": [
@@ -42557,7 +45823,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -44066,7 +47332,6 @@
         }
       },
       "facts": {
-        "camp": "Stellaron Hunters",
         "title": "Firefull Flyshine"
       },
       "skillIcons": [
@@ -44078,7 +47343,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -45575,7 +48840,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -46955,7 +50220,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -48340,7 +51605,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -49719,7 +52984,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -51093,7 +54358,6 @@
         }
       },
       "facts": {
-        "camp": "Amphoreus",
         "title": "A Rainbow onto Twilight"
       },
       "skillIcons": [
@@ -51105,7 +54369,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -52475,7 +55739,6 @@
         }
       },
       "facts": {
-        "camp": "Amphoreus",
         "title": "Winedark Swansong"
       },
       "skillIcons": [
@@ -52487,7 +55750,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -53854,7 +57117,6 @@
         }
       },
       "facts": {
-        "camp": "Interastral Peace Corporation",
         "title": "Lien on Life, Lease on Fate"
       },
       "skillIcons": [
@@ -53866,7 +57128,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -55234,7 +58496,6 @@
         }
       },
       "facts": {
-        "camp": "The Xianzhou Yaoqing",
         "title": "Cauldron Contrivance"
       },
       "skillIcons": [
@@ -55246,7 +58507,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -56631,7 +59892,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -58010,7 +61271,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -59457,7 +62718,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -60825,7 +64086,6 @@
         }
       },
       "facts": {
-        "camp": "The Xianzhou Luofu",
         "title": "Let Scent Sink In"
       },
       "skillIcons": [
@@ -60837,7 +64097,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -62217,7 +65477,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -63593,7 +66853,6 @@
         }
       },
       "facts": {
-        "camp": "Amphoreus",
         "title": "The Remembrance of None"
       },
       "skillIcons": [
@@ -63605,7 +66864,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -64979,7 +68238,6 @@
         }
       },
       "facts": {
-        "camp": "Amphoreus",
         "title": "Fiery Lionheart"
       },
       "skillIcons": [
@@ -64991,7 +68249,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -66495,7 +69753,6 @@
         }
       },
       "facts": {
-        "camp": "Amphoreus",
         "title": "To Evermore Burn as the Sun"
       },
       "skillIcons": [
@@ -66507,7 +69764,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -68127,7 +71384,6 @@
         }
       },
       "facts": {
-        "camp": "Galaxy Ranger",
         "title": "Eyes of a Ninja"
       },
       "skillIcons": [
@@ -68139,7 +71395,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -69513,7 +72769,27 @@
       "icon": "../../Database/GameData/hsr/assets/characters/round/1508.webp",
       "art": "../../Database/GameData/hsr/assets/characters/draw-card/1508.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/rin-tohsaka-0ac7ee84c320.webp",
-      "status": "beta",
+      "signatureLightCone": {
+        "id": "23061",
+        "name": "Flickering Stars",
+        "icon": "../../Database/GameData/hsr/assets/lightcones/medium/23061.webp",
+        "art": "../../Database/GameData/hsr/assets/lightcones/full/23061.webp",
+        "path": "Erudition"
+      },
+      "signatureWeapon": {
+        "id": "23061",
+        "name": "Flickering Stars",
+        "path": "Erudition",
+        "type": "Erudition",
+        "educated": false
+      },
+      "signatureWeaponId": "23061",
+      "signatureWeaponName": "Flickering Stars",
+      "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23061.webp",
+      "overviewArtPool": [
+        "../../Database/GameData/hsr/assets/lightcones/full/23061.webp"
+      ],
+      "status": "live",
       "labels": [
         "4.4"
       ],
@@ -69542,10 +72818,1446 @@
       "facts": {
         "title": "The Gem Coursing in Red"
       },
-      "upcoming": true,
-      "reliableData": false,
-      "noReliableInfo": true,
-      "recent": false
+      "skillIcons": [
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_Normal.webp",
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_BP.webp",
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_Ultra.webp",
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_Passive.webp"
+      ],
+      "kit": {
+        "source": "Game data",
+        "channel": "live",
+        "version": "4.4",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Bajiquan",
+                "type": "Basic ATK",
+                "desc": "Deals Quantum DMG equal to 140% of Rin Tohsaka's ATK to one designated enemy.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_Normal.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Quantum DMG equal to 50% of Rin Tohsaka's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Quantum DMG equal to 60% of Rin Tohsaka's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Quantum DMG equal to 70% of Rin Tohsaka's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Quantum DMG equal to 80% of Rin Tohsaka's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Quantum DMG equal to 90% of Rin Tohsaka's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Quantum DMG equal to 100% of Rin Tohsaka's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Quantum DMG equal to 110% of Rin Tohsaka's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Quantum DMG equal to 120% of Rin Tohsaka's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Quantum DMG equal to 130% of Rin Tohsaka's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Quantum DMG equal to 140% of Rin Tohsaka's ATK to one designated enemy."
+                  }
+                ]
+              },
+              {
+                "name": "Jeweled Sword Zelretch",
+                "type": "Skill",
+                "desc": "Deals Quantum DMG equal to 225% of Rin Tohsaka's ATK to one designated enemy.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_BP.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Quantum DMG equal to 90% of Rin Tohsaka's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Quantum DMG equal to 99% of Rin Tohsaka's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Quantum DMG equal to 108% of Rin Tohsaka's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Quantum DMG equal to 117% of Rin Tohsaka's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Quantum DMG equal to 126% of Rin Tohsaka's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Quantum DMG equal to 135% of Rin Tohsaka's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Quantum DMG equal to 146% of Rin Tohsaka's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Quantum DMG equal to 158% of Rin Tohsaka's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Quantum DMG equal to 169% of Rin Tohsaka's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Quantum DMG equal to 180% of Rin Tohsaka's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Deals Quantum DMG equal to 189% of Rin Tohsaka's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Deals Quantum DMG equal to 198% of Rin Tohsaka's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Deals Quantum DMG equal to 207% of Rin Tohsaka's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Deals Quantum DMG equal to 216% of Rin Tohsaka's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Deals Quantum DMG equal to 225% of Rin Tohsaka's ATK to one designated enemy."
+                  }
+                ]
+              },
+              {
+                "name": "Second Magic Experiment",
+                "type": "Skill",
+                "desc": "Deals Quantum DMG equal to 113% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 \"Gem Energy\" to additionally deal Quantum DMG equal to 113% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0. Can repeat up to 33 cycle(s). When used, if the current Skill Points are greater than 2, consumes Skill Points down to 2, and for each Point consumed, immediately gains 2 \"Gem Energy.\"",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_BP.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Quantum DMG equal to 45% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 \"Gem Energy\" to additionally deal Quantum DMG equal to 45% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0. Can repeat up to 33 cycle(s). When used, if the current Skill Points are greater than 2, consumes Skill Points down to 2, and for each Point consumed, immediately gains 2 \"Gem Energy.\""
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Quantum DMG equal to 49.5% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 \"Gem Energy\" to additionally deal Quantum DMG equal to 49.5% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0. Can repeat up to 33 cycle(s). When used, if the current Skill Points are greater than 2, consumes Skill Points down to 2, and for each Point consumed, immediately gains 2 \"Gem Energy.\""
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Quantum DMG equal to 54% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 \"Gem Energy\" to additionally deal Quantum DMG equal to 54% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0. Can repeat up to 33 cycle(s). When used, if the current Skill Points are greater than 2, consumes Skill Points down to 2, and for each Point consumed, immediately gains 2 \"Gem Energy.\""
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Quantum DMG equal to 58.5% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 \"Gem Energy\" to additionally deal Quantum DMG equal to 58.5% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0. Can repeat up to 33 cycle(s). When used, if the current Skill Points are greater than 2, consumes Skill Points down to 2, and for each Point consumed, immediately gains 2 \"Gem Energy.\""
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Quantum DMG equal to 63% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 \"Gem Energy\" to additionally deal Quantum DMG equal to 63% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0. Can repeat up to 33 cycle(s). When used, if the current Skill Points are greater than 2, consumes Skill Points down to 2, and for each Point consumed, immediately gains 2 \"Gem Energy.\""
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Quantum DMG equal to 67.5% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 \"Gem Energy\" to additionally deal Quantum DMG equal to 67.5% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0. Can repeat up to 33 cycle(s). When used, if the current Skill Points are greater than 2, consumes Skill Points down to 2, and for each Point consumed, immediately gains 2 \"Gem Energy.\""
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Quantum DMG equal to 73.1% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 \"Gem Energy\" to additionally deal Quantum DMG equal to 73.1% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0. Can repeat up to 33 cycle(s). When used, if the current Skill Points are greater than 2, consumes Skill Points down to 2, and for each Point consumed, immediately gains 2 \"Gem Energy.\""
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Quantum DMG equal to 78.8% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 \"Gem Energy\" to additionally deal Quantum DMG equal to 78.8% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0. Can repeat up to 33 cycle(s). When used, if the current Skill Points are greater than 2, consumes Skill Points down to 2, and for each Point consumed, immediately gains 2 \"Gem Energy.\""
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Quantum DMG equal to 84.4% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 \"Gem Energy\" to additionally deal Quantum DMG equal to 84.4% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0. Can repeat up to 33 cycle(s). When used, if the current Skill Points are greater than 2, consumes Skill Points down to 2, and for each Point consumed, immediately gains 2 \"Gem Energy.\""
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Quantum DMG equal to 90% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 \"Gem Energy\" to additionally deal Quantum DMG equal to 90% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0. Can repeat up to 33 cycle(s). When used, if the current Skill Points are greater than 2, consumes Skill Points down to 2, and for each Point consumed, immediately gains 2 \"Gem Energy.\""
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Deals Quantum DMG equal to 94.5% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 \"Gem Energy\" to additionally deal Quantum DMG equal to 94.5% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0. Can repeat up to 33 cycle(s). When used, if the current Skill Points are greater than 2, consumes Skill Points down to 2, and for each Point consumed, immediately gains 2 \"Gem Energy.\""
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Deals Quantum DMG equal to 99% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 \"Gem Energy\" to additionally deal Quantum DMG equal to 99% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0. Can repeat up to 33 cycle(s). When used, if the current Skill Points are greater than 2, consumes Skill Points down to 2, and for each Point consumed, immediately gains 2 \"Gem Energy.\""
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Deals Quantum DMG equal to 103% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 \"Gem Energy\" to additionally deal Quantum DMG equal to 103% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0. Can repeat up to 33 cycle(s). When used, if the current Skill Points are greater than 2, consumes Skill Points down to 2, and for each Point consumed, immediately gains 2 \"Gem Energy.\""
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Deals Quantum DMG equal to 108% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 \"Gem Energy\" to additionally deal Quantum DMG equal to 108% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0. Can repeat up to 33 cycle(s). When used, if the current Skill Points are greater than 2, consumes Skill Points down to 2, and for each Point consumed, immediately gains 2 \"Gem Energy.\""
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Deals Quantum DMG equal to 113% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 \"Gem Energy\" to additionally deal Quantum DMG equal to 113% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0. Can repeat up to 33 cycle(s). When used, if the current Skill Points are greater than 2, consumes Skill Points down to 2, and for each Point consumed, immediately gains 2 \"Gem Energy.\""
+                  }
+                ]
+              },
+              {
+                "name": "An Gal Ta Ki Gal \u0160\u00e8",
+                "type": "Ultimate",
+                "desc": "Deals Quantum DMG equal to 750% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 250% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 25%, lasting for 3 turn(s).",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_Ultra.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Quantum DMG equal to 300% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 100% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 10%, lasting for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Quantum DMG equal to 330% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 110% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 11%, lasting for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Quantum DMG equal to 360% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 120% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 12%, lasting for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Quantum DMG equal to 390% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 130% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 13%, lasting for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Quantum DMG equal to 420% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 140% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 14%, lasting for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Quantum DMG equal to 450% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 150% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 15%, lasting for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Quantum DMG equal to 488% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 163% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 16.3%, lasting for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Quantum DMG equal to 525% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 175% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 17.5%, lasting for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Quantum DMG equal to 563% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 188% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 18.8%, lasting for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Quantum DMG equal to 600% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 200% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 20%, lasting for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Deals Quantum DMG equal to 630% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 210% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 21%, lasting for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Deals Quantum DMG equal to 660% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 220% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 22%, lasting for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Deals Quantum DMG equal to 690% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 230% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 23%, lasting for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Deals Quantum DMG equal to 720% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 240% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 24%, lasting for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Deals Quantum DMG equal to 750% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 250% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 25%, lasting for 3 turn(s)."
+                  }
+                ]
+              },
+              {
+                "name": "Conversion Charge",
+                "type": "Technique",
+                "desc": "After using Technique, gains 10 \"Gem Energy\" at the start of the next battle.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "Technique Attack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Gem Magecraft",
+                "type": "Talent",
+                "desc": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 87.5% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds 15 or more \"Gem Energy,\" or if the current Skill Points are 7 or more, her Skill is enhanced to \"Second Magic Experiment.\"",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_Passive.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 35% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds 15 or more \"Gem Energy,\" or if the current Skill Points are 7 or more, her Skill is enhanced to \"Second Magic Experiment.\""
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 38.5% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds 15 or more \"Gem Energy,\" or if the current Skill Points are 7 or more, her Skill is enhanced to \"Second Magic Experiment.\""
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 42% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds 15 or more \"Gem Energy,\" or if the current Skill Points are 7 or more, her Skill is enhanced to \"Second Magic Experiment.\""
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 45.5% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds 15 or more \"Gem Energy,\" or if the current Skill Points are 7 or more, her Skill is enhanced to \"Second Magic Experiment.\""
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 49% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds 15 or more \"Gem Energy,\" or if the current Skill Points are 7 or more, her Skill is enhanced to \"Second Magic Experiment.\""
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 52.5% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds 15 or more \"Gem Energy,\" or if the current Skill Points are 7 or more, her Skill is enhanced to \"Second Magic Experiment.\""
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 56.9% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds 15 or more \"Gem Energy,\" or if the current Skill Points are 7 or more, her Skill is enhanced to \"Second Magic Experiment.\""
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 61.3% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds 15 or more \"Gem Energy,\" or if the current Skill Points are 7 or more, her Skill is enhanced to \"Second Magic Experiment.\""
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 65.6% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds 15 or more \"Gem Energy,\" or if the current Skill Points are 7 or more, her Skill is enhanced to \"Second Magic Experiment.\""
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 70% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds 15 or more \"Gem Energy,\" or if the current Skill Points are 7 or more, her Skill is enhanced to \"Second Magic Experiment.\""
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 73.5% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds 15 or more \"Gem Energy,\" or if the current Skill Points are 7 or more, her Skill is enhanced to \"Second Magic Experiment.\""
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 77% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds 15 or more \"Gem Energy,\" or if the current Skill Points are 7 or more, her Skill is enhanced to \"Second Magic Experiment.\""
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 80.5% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds 15 or more \"Gem Energy,\" or if the current Skill Points are 7 or more, her Skill is enhanced to \"Second Magic Experiment.\""
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 84% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds 15 or more \"Gem Energy,\" or if the current Skill Points are 7 or more, her Skill is enhanced to \"Second Magic Experiment.\""
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 87.5% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds 15 or more \"Gem Energy,\" or if the current Skill Points are 7 or more, her Skill is enhanced to \"Second Magic Experiment.\""
+                  }
+                ]
+              },
+              {
+                "name": "Freeform Tohsaka Style",
+                "type": "Talent",
+                "desc": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are 3 or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 375% of Rin Tohsaka's ATK and 375% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_Passive.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are 3 or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 150% of Rin Tohsaka's ATK and 150% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are 3 or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 165% of Rin Tohsaka's ATK and 165% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are 3 or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 180% of Rin Tohsaka's ATK and 180% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are 3 or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 195% of Rin Tohsaka's ATK and 195% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are 3 or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 210% of Rin Tohsaka's ATK and 210% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are 3 or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 225% of Rin Tohsaka's ATK and 225% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are 3 or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 244% of Rin Tohsaka's ATK and 244% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are 3 or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 263% of Rin Tohsaka's ATK and 263% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are 3 or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 281% of Rin Tohsaka's ATK and 281% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are 3 or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 300% of Rin Tohsaka's ATK and 300% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are 3 or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 315% of Rin Tohsaka's ATK and 315% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are 3 or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 330% of Rin Tohsaka's ATK and 330% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are 3 or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 345% of Rin Tohsaka's ATK and 345% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are 3 or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 360% of Rin Tohsaka's ATK and 360% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are 3 or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 375% of Rin Tohsaka's ATK and 375% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Elegant Conduct",
+                "type": "Major Trace",
+                "desc": "While Rin Tohsaka is on the field, additionally increases the upper limit of Skill Points by 2. When entering combat, Rin Tohsaka's ATK increases by 150%, and Quantum RES PEN increases by 15%. If Archer is in the team, Archer also gains this effect.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_SkillTree1.webp"
+              },
+              {
+                "name": "Ladylike Poise",
+                "type": "Major Trace",
+                "desc": "When entering combat or after using Enhanced Skill, increases Rin Tohsaka's SPD by 20%, lasting for 3 turn(s).",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_SkillTree2.webp"
+              },
+              {
+                "name": "Inbound Prosperity",
+                "type": "Major Trace",
+                "desc": "When Rin Tohsaka uses Ultimate, gains 12 \"Gem Energy.\"",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Zelretch's Apprentice",
+                "type": "Eidolon 1",
+                "desc": "If one instance of the Enhanced Skill consumes 30 or more \"Gem Energy,\" Rin Tohsaka gains \"Shadow Gem\" equal to the amount of \"Gem Energy\" consumed.\\nWhile holding \"Shadow Gem,\" enhances Skill to \"Second Magic Experiment.\" The Enhanced Skill consumes all \"Shadow Gem,\" does not trigger the effect that converts Skill Points into \"Gem Energy,\" and does not consume \"Gem Energy.\"",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_Rank1.webp"
+              },
+              {
+                "name": "Dimensional Traveler",
+                "type": "Eidolon 2",
+                "desc": "Rin Tohsaka's Skill DMG dealt increases by 30%. While Rin Tohsaka is on the field, Skill DMG dealt by all allies becomes 130% of the original DMG.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_Rank2.webp"
+              },
+              {
+                "name": "Holy Grail War: Victory Memorial",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_BP.webp"
+              },
+              {
+                "name": "Red Devil: Triple Speed",
+                "type": "Eidolon 4",
+                "desc": "When the CRIT DMG boost effect from the Talent \"Gem Magecraft\" applies to Rin Tohsaka, the effect can stack, up to 2 time(s).",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_Rank4.webp"
+              },
+              {
+                "name": "Goddess of Venus's Favor",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_Ultra.webp"
+              },
+              {
+                "name": "Nailed It This Time!",
+                "type": "Eidolon 6",
+                "desc": "Rin Tohsaka's All-Type RES PEN increases by 20%. When using Ultimate, gains 24 \"Gem Energy\" and 1 extra turn.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
+      "req": {
+        "ascension": [
+          {
+            "id": "110443",
+            "name": "Sneering Harlequin",
+            "qty": 65,
+            "rar": 5,
+            "kind": "boss",
+            "icon": "../../Database/GameData/hsr/assets/items/110443.webp"
+          },
+          {
+            "id": "111011",
+            "name": "Thief's Instinct",
+            "qty": 15,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/111011.webp"
+          },
+          {
+            "id": "111012",
+            "name": "Usurper's Scheme",
+            "qty": 15,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/111012.webp"
+          },
+          {
+            "id": "111013",
+            "name": "Conqueror's Will",
+            "qty": 15,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/111013.webp"
+          }
+        ],
+        "talents": [
+          {
+            "id": "111011",
+            "name": "Thief's Instinct",
+            "qty": 41,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/111011.webp"
+          },
+          {
+            "id": "111012",
+            "name": "Usurper's Scheme",
+            "qty": 56,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/111012.webp"
+          },
+          {
+            "id": "111013",
+            "name": "Conqueror's Will",
+            "qty": 58,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/111013.webp"
+          },
+          {
+            "id": "241",
+            "name": "Tracks of Destiny",
+            "qty": 8,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+          },
+          {
+            "id": "110291",
+            "name": "Celestial Globe",
+            "qty": 18,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110291.webp"
+          },
+          {
+            "id": "110292",
+            "name": "Galaxy Framework",
+            "qty": 69,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
+          },
+          {
+            "id": "110293",
+            "name": "Cosmic Sandpit",
+            "qty": 139,
+            "rar": 5,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+          },
+          {
+            "id": "110501",
+            "name": "Destroyer's Final Road",
+            "qty": 12,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/GameData/hsr/assets/items/110501.webp"
+          }
+        ],
+        "talentStages": [
+          [
+            {
+              "cost": 5000,
+              "items": [
+                {
+                  "id": "110291",
+                  "name": "Celestial Globe",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110291.webp"
+                },
+                {
+                  "id": "111011",
+                  "name": "Thief's Instinct",
+                  "qty": 6,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111011.webp"
+                }
+              ]
+            },
+            {
+              "cost": 10000,
+              "items": [
+                {
+                  "id": "110292",
+                  "name": "Galaxy Framework",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
+                },
+                {
+                  "id": "111012",
+                  "name": "Usurper's Scheme",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 20000,
+              "items": [
+                {
+                  "id": "110292",
+                  "name": "Galaxy Framework",
+                  "qty": 5,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
+                },
+                {
+                  "id": "111012",
+                  "name": "Usurper's Scheme",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "110293",
+                  "name": "Cosmic Sandpit",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+                },
+                {
+                  "id": "111013",
+                  "name": "Conqueror's Will",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111013.webp"
+                }
+              ]
+            },
+            {
+              "cost": 160000,
+              "items": [
+                {
+                  "id": "110293",
+                  "name": "Cosmic Sandpit",
+                  "qty": 8,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+                },
+                {
+                  "id": "111013",
+                  "name": "Conqueror's Will",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111013.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2500,
+              "items": [
+                {
+                  "id": "111011",
+                  "name": "Thief's Instinct",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111011.webp"
+                }
+              ]
+            },
+            {
+              "cost": 5000,
+              "items": [
+                {
+                  "id": "110291",
+                  "name": "Celestial Globe",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110291.webp"
+                },
+                {
+                  "id": "111011",
+                  "name": "Thief's Instinct",
+                  "qty": 6,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111011.webp"
+                }
+              ]
+            },
+            {
+              "cost": 10000,
+              "items": [
+                {
+                  "id": "110292",
+                  "name": "Galaxy Framework",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
+                },
+                {
+                  "id": "111012",
+                  "name": "Usurper's Scheme",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 20000,
+              "items": [
+                {
+                  "id": "110292",
+                  "name": "Galaxy Framework",
+                  "qty": 5,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
+                },
+                {
+                  "id": "111012",
+                  "name": "Usurper's Scheme",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 30000,
+              "items": [
+                {
+                  "id": "110292",
+                  "name": "Galaxy Framework",
+                  "qty": 7,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
+                },
+                {
+                  "id": "111012",
+                  "name": "Usurper's Scheme",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "110293",
+                  "name": "Cosmic Sandpit",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+                },
+                {
+                  "id": "111013",
+                  "name": "Conqueror's Will",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111013.webp"
+                }
+              ]
+            },
+            {
+              "cost": 80000,
+              "items": [
+                {
+                  "id": "110293",
+                  "name": "Cosmic Sandpit",
+                  "qty": 5,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+                },
+                {
+                  "id": "110501",
+                  "name": "Destroyer's Final Road",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110501.webp"
+                },
+                {
+                  "id": "111013",
+                  "name": "Conqueror's Will",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111013.webp"
+                }
+              ]
+            },
+            {
+              "cost": 160000,
+              "items": [
+                {
+                  "id": "110293",
+                  "name": "Cosmic Sandpit",
+                  "qty": 8,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110501",
+                  "name": "Destroyer's Final Road",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110501.webp"
+                }
+              ]
+            },
+            {
+              "cost": 300000,
+              "items": [
+                {
+                  "id": "110293",
+                  "name": "Cosmic Sandpit",
+                  "qty": 14,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110501",
+                  "name": "Destroyer's Final Road",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110501.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2500,
+              "items": [
+                {
+                  "id": "111011",
+                  "name": "Thief's Instinct",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111011.webp"
+                }
+              ]
+            },
+            {
+              "cost": 5000,
+              "items": [
+                {
+                  "id": "110291",
+                  "name": "Celestial Globe",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110291.webp"
+                },
+                {
+                  "id": "111011",
+                  "name": "Thief's Instinct",
+                  "qty": 6,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111011.webp"
+                }
+              ]
+            },
+            {
+              "cost": 10000,
+              "items": [
+                {
+                  "id": "110292",
+                  "name": "Galaxy Framework",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
+                },
+                {
+                  "id": "111012",
+                  "name": "Usurper's Scheme",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 20000,
+              "items": [
+                {
+                  "id": "110292",
+                  "name": "Galaxy Framework",
+                  "qty": 5,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
+                },
+                {
+                  "id": "111012",
+                  "name": "Usurper's Scheme",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 30000,
+              "items": [
+                {
+                  "id": "110292",
+                  "name": "Galaxy Framework",
+                  "qty": 7,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
+                },
+                {
+                  "id": "111012",
+                  "name": "Usurper's Scheme",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "110293",
+                  "name": "Cosmic Sandpit",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+                },
+                {
+                  "id": "111013",
+                  "name": "Conqueror's Will",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111013.webp"
+                }
+              ]
+            },
+            {
+              "cost": 80000,
+              "items": [
+                {
+                  "id": "110293",
+                  "name": "Cosmic Sandpit",
+                  "qty": 5,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+                },
+                {
+                  "id": "110501",
+                  "name": "Destroyer's Final Road",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110501.webp"
+                },
+                {
+                  "id": "111013",
+                  "name": "Conqueror's Will",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111013.webp"
+                }
+              ]
+            },
+            {
+              "cost": 160000,
+              "items": [
+                {
+                  "id": "110293",
+                  "name": "Cosmic Sandpit",
+                  "qty": 8,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110501",
+                  "name": "Destroyer's Final Road",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110501.webp"
+                }
+              ]
+            },
+            {
+              "cost": 300000,
+              "items": [
+                {
+                  "id": "110293",
+                  "name": "Cosmic Sandpit",
+                  "qty": 14,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110501",
+                  "name": "Destroyer's Final Road",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110501.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2500,
+              "items": [
+                {
+                  "id": "111011",
+                  "name": "Thief's Instinct",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111011.webp"
+                }
+              ]
+            },
+            {
+              "cost": 5000,
+              "items": [
+                {
+                  "id": "110291",
+                  "name": "Celestial Globe",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110291.webp"
+                },
+                {
+                  "id": "111011",
+                  "name": "Thief's Instinct",
+                  "qty": 6,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111011.webp"
+                }
+              ]
+            },
+            {
+              "cost": 10000,
+              "items": [
+                {
+                  "id": "110292",
+                  "name": "Galaxy Framework",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
+                },
+                {
+                  "id": "111012",
+                  "name": "Usurper's Scheme",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 20000,
+              "items": [
+                {
+                  "id": "110292",
+                  "name": "Galaxy Framework",
+                  "qty": 5,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
+                },
+                {
+                  "id": "111012",
+                  "name": "Usurper's Scheme",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 30000,
+              "items": [
+                {
+                  "id": "110292",
+                  "name": "Galaxy Framework",
+                  "qty": 7,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
+                },
+                {
+                  "id": "111012",
+                  "name": "Usurper's Scheme",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "110293",
+                  "name": "Cosmic Sandpit",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+                },
+                {
+                  "id": "111013",
+                  "name": "Conqueror's Will",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111013.webp"
+                }
+              ]
+            },
+            {
+              "cost": 80000,
+              "items": [
+                {
+                  "id": "110293",
+                  "name": "Cosmic Sandpit",
+                  "qty": 5,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+                },
+                {
+                  "id": "110501",
+                  "name": "Destroyer's Final Road",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110501.webp"
+                },
+                {
+                  "id": "111013",
+                  "name": "Conqueror's Will",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111013.webp"
+                }
+              ]
+            },
+            {
+              "cost": 160000,
+              "items": [
+                {
+                  "id": "110293",
+                  "name": "Cosmic Sandpit",
+                  "qty": 8,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110501",
+                  "name": "Destroyer's Final Road",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110501.webp"
+                }
+              ]
+            },
+            {
+              "cost": 300000,
+              "items": [
+                {
+                  "id": "110293",
+                  "name": "Cosmic Sandpit",
+                  "qty": 14,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110501",
+                  "name": "Destroyer's Final Road",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110501.webp"
+                }
+              ]
+            }
+          ]
+        ],
+        "talentBase": [
+          {
+            "id": "111011",
+            "name": "Thief's Instinct",
+            "qty": 8,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/111011.webp"
+          },
+          {
+            "id": "111012",
+            "name": "Usurper's Scheme",
+            "qty": 10,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/111012.webp"
+          },
+          {
+            "id": "111013",
+            "name": "Conqueror's Will",
+            "qty": 30,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/111013.webp"
+          },
+          {
+            "id": "241",
+            "name": "Tracks of Destiny",
+            "qty": 2,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+          },
+          {
+            "id": "110291",
+            "name": "Celestial Globe",
+            "qty": 6,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110291.webp"
+          },
+          {
+            "id": "110292",
+            "name": "Galaxy Framework",
+            "qty": 16,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
+          },
+          {
+            "id": "110293",
+            "name": "Cosmic Sandpit",
+            "qty": 38,
+            "rar": 5,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+          },
+          {
+            "id": "110501",
+            "name": "Destroyer's Final Road",
+            "qty": 3,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/GameData/hsr/assets/items/110501.webp"
+          }
+        ],
+        "talentBaseCost": 802500,
+        "ascCost": 308000,
+        "talentCost": 3000000,
+        "currency": 3693000,
+        "weapon": {
+          "name": "Flickering Stars",
+          "icon": "../../Database/GameData/hsr/assets/lightcones/medium/23061.webp",
+          "art": "../../Database/GameData/hsr/assets/lightcones/full/23061.webp",
+          "path": "Erudition",
+          "items": [
+            {
+              "id": "110291",
+              "name": "Celestial Globe",
+              "qty": 4,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110291.webp"
+            },
+            {
+              "id": "110292",
+              "name": "Galaxy Framework",
+              "qty": 12,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
+            },
+            {
+              "id": "110293",
+              "name": "Cosmic Sandpit",
+              "qty": 15,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+            },
+            {
+              "id": "111011",
+              "name": "Thief's Instinct",
+              "qty": 20,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/GameData/hsr/assets/items/111011.webp"
+            },
+            {
+              "id": "111012",
+              "name": "Usurper's Scheme",
+              "qty": 20,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/GameData/hsr/assets/items/111012.webp"
+            },
+            {
+              "id": "111013",
+              "name": "Conqueror's Will",
+              "qty": 14,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/GameData/hsr/assets/items/111013.webp"
+            }
+          ],
+          "cost": 385000
+        }
+      }
     },
     {
       "id": "hsr-robin",
@@ -69618,7 +74330,6 @@
         }
       },
       "facts": {
-        "camp": "Penacony",
         "title": "Flowing Nightglow"
       },
       "skillIcons": [
@@ -69630,7 +74341,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -71011,7 +75722,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -72375,7 +77086,6 @@
         }
       },
       "facts": {
-        "camp": "Another World",
         "title": "Excalibur Excelsior"
       },
       "skillIcons": [
@@ -72387,7 +77097,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -73821,7 +78531,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -75200,7 +79910,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -76563,7 +81273,6 @@
         }
       },
       "facts": {
-        "camp": "Stellaron Hunters",
         "title": "Godmode Player"
       },
       "skillIcons": [
@@ -76575,7 +81284,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -78094,7 +82803,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -79461,7 +84170,6 @@
         }
       },
       "facts": {
-        "camp": "Masked Fools",
         "title": "Project: Party Time"
       },
       "skillIcons": [
@@ -79473,7 +84181,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -80964,7 +85672,7 @@
         }
       },
       "facts": {
-        "camp": "Penacony",
+        "camp": "Cosmos",
         "title": "Eyes to the Stars"
       },
       "skillIcons": [
@@ -80976,7 +85684,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -82349,7 +87057,6 @@
         }
       },
       "facts": {
-        "camp": "The Cremators",
         "title": "Dance in Flame"
       },
       "skillIcons": [
@@ -82361,7 +87068,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -83728,7 +88435,6 @@
         }
       },
       "facts": {
-        "camp": "Herta Space Station",
         "title": "Message From Beyond"
       },
       "skillIcons": [
@@ -83740,7 +88446,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -85171,7 +89877,6 @@
         }
       },
       "facts": {
-        "camp": "The Xianzhou Luofu",
         "title": "The Long Voyage Home"
       },
       "skillIcons": [
@@ -85183,7 +89888,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -86611,7 +91316,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -88003,7 +92708,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -89519,7 +94224,7 @@
           "kit": {
             "source": "Game data",
             "channel": "live",
-            "version": "4.3",
+            "version": "4.4",
             "sections": [
               {
                 "title": "Skills",
@@ -91023,7 +95728,7 @@
           "kit": {
             "source": "Game data",
             "channel": "live",
-            "version": "4.3",
+            "version": "4.4",
             "sections": [
               {
                 "title": "Skills",
@@ -92388,7 +97093,7 @@
           "kit": {
             "source": "Game data",
             "channel": "live",
-            "version": "4.3",
+            "version": "4.4",
             "sections": [
               {
                 "title": "Skills",
@@ -93756,7 +98461,7 @@
           "kit": {
             "source": "Game data",
             "channel": "live",
-            "version": "4.3",
+            "version": "4.4",
             "sections": [
               {
                 "title": "Skills",
@@ -95172,7 +99877,7 @@
           "kit": {
             "source": "Game data",
             "channel": "live",
-            "version": "4.3",
+            "version": "4.4",
             "sections": [
               {
                 "title": "Skills",
@@ -96593,7 +101298,6 @@
         }
       },
       "facts": {
-        "camp": "Amphoreus",
         "title": "Back to Fons et Origo"
       },
       "skillIcons": [
@@ -96605,7 +101309,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -97988,7 +102692,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -99369,7 +104073,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -100737,7 +105441,6 @@
         }
       },
       "facts": {
-        "camp": "The Xianzhou Zhuming",
         "title": "Dance at Sunset"
       },
       "skillIcons": [
@@ -100749,7 +105452,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -102124,7 +106827,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -103478,7 +108181,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -104842,7 +109545,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -106195,7 +110898,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -107594,7 +112297,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -108947,7 +113650,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -110305,7 +115008,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -111660,7 +116363,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -113014,7 +117717,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -114416,7 +119119,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -115780,7 +120483,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -117142,7 +121845,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -118546,7 +123249,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -119890,7 +124593,6 @@
         }
       },
       "facts": {
-        "camp": "The Xianzhou Yaoqing",
         "title": "* Any Warp Banner (except Departure Warp)"
       },
       "skillIcons": [
@@ -119902,7 +124604,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -121262,7 +125964,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -122616,7 +127318,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -123971,7 +128673,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -125374,7 +130076,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -126728,7 +131430,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -128083,7 +132785,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -129434,7 +134136,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -130785,7 +135487,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -132139,7 +136841,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -133456,9 +138158,7 @@
           "critDmg": 0.5
         }
       },
-      "facts": {
-        "camp": "Amphoreus"
-      },
+      "facts": {},
       "signatureLightCone": {
         "id": "23049",
         "name": "To Evernight's Stars",
@@ -133488,7 +138188,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -134836,9 +139536,7 @@
           "critDmg": 0.5
         }
       },
-      "facts": {
-        "camp": "The Xianzhou Luofu"
-      },
+      "facts": {},
       "signatureLightCone": {
         "id": "23035",
         "name": "Long Road Leads Home",
@@ -134868,7 +139566,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.3",
+        "version": "4.4",
         "sections": [
           {
             "title": "Skills",
@@ -136236,6 +140934,23 @@
       ]
     },
     {
+      "region": "Cosmic Sandpit",
+      "mats": [
+        {
+          "id": "110293",
+          "name": "Cosmic Sandpit",
+          "qty": 139,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+        }
+      ],
+      "chars": [
+        "Himeko Nova",
+        "Rin Tohsaka"
+      ]
+    },
+    {
       "region": "Countertemporal Shot",
       "mats": [
         {
@@ -136488,6 +141203,22 @@
         "Sampo",
         "Silver Wolf",
         "Welt"
+      ]
+    },
+    {
+      "region": "Omnicolor, Fool's Own",
+      "mats": [
+        {
+          "id": "110283",
+          "name": "Omnicolor, Fool's Own",
+          "qty": 139,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
+        }
+      ],
+      "chars": [
+        "Gilgamesh"
       ]
     },
     {
@@ -136744,6 +141475,7 @@
           "chars": [
             "Ashveil",
             "Evanescia",
+            "Himeko Nova",
             "Mortenax Blade",
             "Silver Wolf \u2022 Lv. 999",
             "Sparxie",
@@ -136896,6 +141628,7 @@
             "Bronya",
             "Clara",
             "Gepard",
+            "Gilgamesh",
             "Hook",
             "Luocha",
             "Natasha",
@@ -136929,6 +141662,7 @@
             "Jing Yuan",
             "March 7th",
             "March 7th \u2022 The Hunt",
+            "Rin Tohsaka",
             "Saber",
             "Silver Wolf",
             "Tingyun",

@@ -83,12 +83,6 @@
         "is_battle_voice": false
       },
       {
-        "voice_id": 32,
-        "voice_title": "About March 7th 2",
-        "voice_m": "Since experiencing this trip — or perhaps much earlier — March has become a mature Nameless. We needn't treat her like a helpless child anymore.",
-        "is_battle_voice": false
-      },
-      {
         "voice_id": 12,
         "voice_title": "About Dan Heng",
         "voice_m": "He's safe. I know he has his doubts... but he's one of the crew now. Himeko and I won't let anyone harm him.",
@@ -110,30 +104,6 @@
         "voice_id": 15,
         "voice_title": "About Dan Heng 2",
         "voice_m": "There is a quote I like very much that I would like to share with him: \"The galaxy is vast beyond compare, containing an infinite number of possibilities. An individual's fate shouldn't be limited to a single path ordained by heaven.\"",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 25,
-        "voice_title": "About Sunday",
-        "voice_m": "Having an ideal and pursuing it is not rare, but being able to start anew after that ideal is shattered — this kind of willpower will carry him far.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 26,
-        "voice_title": "About Fugue",
-        "voice_m": "In the face of the seemingly unstoppable tide of destiny, we always have the freedom to resist... She must have fought an extremely tragic but heroic battle against herself.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 28,
-        "voice_title": "About The Herta",
-        "voice_m": "The world is full of extraordinary complexity. Normally, researchers are only able to glean truth after dissecting the universe into categories... yet she revealed the essence of all things in such a miraculous way. If I hadn't seen it with my own eyes, I would never have believed it.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 29,
-        "voice_title": "About Dan Heng 3",
-        "voice_m": "Growth might look like just taking one step forward, but it can only be completed after finishing a long journey. I am relieved to see how much more determined the light in his eyes has become.",
         "is_battle_voice": false
       },
       {
@@ -188,24 +158,6 @@
         "voice_id": 24,
         "voice_title": "Added to Team With March 7th",
         "voice_m": "Youthful energy is a good thing... but I'd appreciate a heads-up before you make any moves, March.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 27,
-        "voice_title": "Added to Team With Sunday",
-        "voice_m": "There are both dangers and opportunities during interstellar travel... This is what companions are for.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 30,
-        "voice_title": "Added to Team With Evernight",
-        "voice_m": "Seems like you have quite a few ideas about this fight.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 31,
-        "voice_title": "Added to Team With Dan Heng • Permansor Terrae",
-        "voice_m": "No need to hesitate. I believe this is far from the limit of your power.",
         "is_battle_voice": false
       },
       {
@@ -5539,6 +5491,38 @@
     {
       "avatar_id": 1004,
       "team_id": 1,
+      "position": 1,
+      "member_list": [
+        1510,
+        1403,
+        1409
+      ],
+      "backup_list1": [],
+      "backup_list2": [
+        1309,
+        8007,
+        1306
+      ],
+      "backup_list3": [
+        1414,
+        1222,
+        1304,
+        1217,
+        1208,
+        1203,
+        1301
+      ],
+      "backup_group_list1": [],
+      "backup_group_list2": [
+        104
+      ],
+      "backup_group_list3": [
+        101
+      ]
+    },
+    {
+      "avatar_id": 1004,
+      "team_id": 2,
       "position": 1,
       "member_list": [
         1313,

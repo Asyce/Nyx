@@ -102,18 +102,6 @@
         "is_battle_voice": false
       },
       {
-        "voice_id": 22,
-        "voice_title": "About Firefly",
-        "voice_m": "If Firefly's life was a game. It'd probably be a high-difficulty, single-player, action/speedrun thing... Everyone wants to play games like that, but no one wants a life like that.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 23,
-        "voice_title": "About The Herta",
-        "voice_m": "I heard that no one has been able to find out where she lives? One day, I'll definitely break that myth.",
-        "is_battle_voice": false
-      },
-      {
         "voice_id": 14,
         "voice_title": "Eidolon Activation",
         "voice_m": "Could've done it using console commands.",
@@ -147,30 +135,6 @@
         "voice_id": 19,
         "voice_title": "Added to Team With Blade",
         "voice_m": "...You gonna say something? Chat's enabled, y'know.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 21,
-        "voice_title": "Added to Team With Firefly",
-        "voice_m": "Don't push yourself too hard... Doesn't matter if I'm there or not — it's no fun beating the game too fast.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 24,
-        "voice_title": "Added to Team With The Herta",
-        "voice_m": "Heh. Never thought you'd come to personally play a turn-based game.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 25,
-        "voice_title": "Added to Team With Silver Wolf LV.<unbreak>999</unbreak>",
-        "voice_m": "This is basically playing on easy mode. One of me is plenty.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 26,
-        "voice_title": "Added to Team With Mortenax Blade",
-        "voice_m": "A new form, awesome!",
         "is_battle_voice": false
       },
       {
@@ -5622,7 +5586,7 @@
     {
       "avatar_id": 1006,
       "team_id": 1,
-      "position": 2,
+      "position": 1,
       "member_list": [
         1308,
         1406,

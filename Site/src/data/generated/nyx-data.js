@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-07-17T07:24:43.417Z",
+  "generatedAt": "2026-07-17T07:37:35.473Z",
   "codes": {
-    "updated": "2026-07-16T11:46:48.589Z",
+    "updated": "2026-07-17T00:07:09.260Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -19,7 +19,7 @@ var NYX_DB = {
             "needle": "primogem",
             "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
           },
-          "added": "2026-07-16",
+          "added": "2026-07-17",
           "firstSeen": "2026-07-05T17:19:20.440Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=PFY1S40I88T9",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=PFY1S40I88T9"
@@ -63,7 +63,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-16",
+          "added": "2026-07-17",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK"
@@ -77,7 +77,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-16",
+          "added": "2026-07-17",
           "firstSeen": "2026-07-15T09:16:06.610Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB"
@@ -91,7 +91,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-16",
+          "added": "2026-07-17",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH"
@@ -105,7 +105,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-16",
+          "added": "2026-07-17",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL"
@@ -119,7 +119,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-16",
+          "added": "2026-07-17",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS"
@@ -133,7 +133,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-16",
+          "added": "2026-07-17",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA"
@@ -147,7 +147,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-16",
+          "added": "2026-07-17",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT"
@@ -191,7 +191,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-16",
+          "added": "2026-07-17",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ROSCAELIFER0617",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ROSCAELIFER0617"
@@ -205,7 +205,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-16",
+          "added": "2026-07-17",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT"
@@ -219,7 +219,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-16",
+          "added": "2026-07-17",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO"
@@ -233,7 +233,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-16",
+          "added": "2026-07-17",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSEASON3",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSEASON3"
@@ -247,7 +247,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-16",
+          "added": "2026-07-17",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM"
@@ -4196,7 +4196,7 @@ var NYX_DB = {
             "needle": "primogem",
             "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
           },
-          "added": "2026-07-16",
+          "added": "2026-07-17",
           "firstSeen": "2026-07-05T17:19:20.440Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=PFY1S40I88T9",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=PFY1S40I88T9"
@@ -150139,7 +150139,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-16",
+          "added": "2026-07-17",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK"
@@ -150153,7 +150153,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-16",
+          "added": "2026-07-17",
           "firstSeen": "2026-07-15T09:16:06.610Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB"
@@ -150167,7 +150167,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-16",
+          "added": "2026-07-17",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH"
@@ -150181,7 +150181,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-16",
+          "added": "2026-07-17",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL"
@@ -150195,7 +150195,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-16",
+          "added": "2026-07-17",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS"
@@ -150209,7 +150209,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-16",
+          "added": "2026-07-17",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA"
@@ -150223,7 +150223,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-16",
+          "added": "2026-07-17",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT"
@@ -150309,6 +150309,10 @@ var NYX_DB = {
           "facts": {
             "title": "Ad Astra Nova"
           },
+          "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23060.webp",
+          "overviewArtPool": [
+            "../../Database/GameData/hsr/assets/lightcones/full/23060.webp"
+          ],
           "forms": []
         },
         {
@@ -150318,8 +150322,8 @@ var NYX_DB = {
           "rarity": 5,
           "element": "Quantum",
           "role": "Elation",
-          "icon": null,
-          "art": "../../Database/Prydwen/hsr/assets/characters/aventurine-waveflair-0fb8df0c48dc.webp",
+          "icon": "../../Database/GameData/hsr/assets/characters/round/1513.webp",
+          "art": "../../Database/GameData/hsr/assets/characters/draw-card/1513.webp",
           "facts": {},
           "forms": []
         },
@@ -150330,8 +150334,8 @@ var NYX_DB = {
           "rarity": 5,
           "element": "Wind",
           "role": "Remembrance",
-          "icon": null,
-          "art": "../../Database/Prydwen/hsr/assets/characters/robin-summeretto-50f73fbdd44b.webp",
+          "icon": "../../Database/GameData/hsr/assets/characters/round/1512.webp",
+          "art": "../../Database/GameData/hsr/assets/characters/draw-card/1512.webp",
           "facts": {},
           "forms": []
         },
@@ -150346,7 +150350,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1505.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1505.webp",
           "facts": {
-            "camp": "Planarcadia",
             "title": "The Demoiselle in Charge"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23058.webp",
@@ -150366,7 +150369,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1502.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1502.webp",
           "facts": {
-            "camp": "The Xianzhou Yuque",
             "title": "Gleam of a Thousand Plumes"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23054.webp",
@@ -150386,7 +150388,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1507.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1507.webp",
           "facts": {
-            "camp": "Stellaron Hunters",
             "title": "Now I Am Become Blade"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23059.webp",
@@ -150408,6 +150409,10 @@ var NYX_DB = {
           "facts": {
             "title": "I Am As You Behold"
           },
+          "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23062.webp",
+          "overviewArtPool": [
+            "../../Database/GameData/hsr/assets/lightcones/full/23062.webp"
+          ],
           "forms": []
         },
         {
@@ -150421,7 +150426,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1412.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1412.webp",
           "facts": {
-            "camp": "Amphoreus",
             "title": "The Iron Tamer of Tides"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23048.webp",
@@ -150441,7 +150445,7 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1308.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1308.webp",
           "facts": {
-            "camp": "Galaxy Ranger",
+            "camp": "Self-Annihilator",
             "title": "Bosenmori"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23024.webp",
@@ -150461,7 +150465,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1402.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1402.webp",
           "facts": {
-            "camp": "Amphoreus",
             "title": "Tailored Fate"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23036.webp",
@@ -150481,7 +150484,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1405.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1405.webp",
           "facts": {
-            "camp": "Amphoreus",
             "title": "The Universe in a Seed"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23041.webp",
@@ -150501,7 +150503,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1015.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1015.webp",
           "facts": {
-            "camp": "Another World",
             "title": "The Hell Where Ideals Burn"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23046.webp",
@@ -150541,7 +150542,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1504.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1504.webp",
           "facts": {
-            "camp": "Planarcadia",
             "title": "A Hunt Through Night"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23056.webp",
@@ -150641,7 +150641,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1315.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1315.webp",
           "facts": {
-            "camp": "Galaxy Ranger",
             "title": "Dusty Trail's Lone Star"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23027.webp",
@@ -150681,7 +150680,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1407.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1407.webp",
           "facts": {
-            "camp": "Amphoreus",
             "title": "Blossom to the Beyond"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23040.webp",
@@ -150701,7 +150699,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1406.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1406.webp",
           "facts": {
-            "camp": "Amphoreus",
             "title": "Slick and Speedy Steals the Sky"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23043.webp",
@@ -150741,7 +150738,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1415.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1415.webp",
           "facts": {
-            "camp": "Amphoreus",
             "title": "Ripples Rejoined"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23052.webp",
@@ -150781,7 +150777,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1414.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1414.webp",
           "facts": {
-            "camp": "Amphoreus",
             "title": "Slay Until Evil Ends"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23051.webp",
@@ -150821,7 +150816,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1220.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1220.webp",
           "facts": {
-            "camp": "The Xianzhou Yaoqing",
             "title": "Stormrider's Bolt"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23031.webp",
@@ -150841,7 +150835,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1310.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1310.webp",
           "facts": {
-            "camp": "Stellaron Hunters",
             "title": "Firefull Flyshine"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23025.webp",
@@ -150941,7 +150934,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1409.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1409.webp",
           "facts": {
-            "camp": "Amphoreus",
             "title": "A Rainbow onto Twilight"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23042.webp",
@@ -150961,7 +150953,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1410.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1410.webp",
           "facts": {
-            "camp": "Amphoreus",
             "title": "Winedark Swansong"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23047.webp",
@@ -150981,7 +150972,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1314.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1314.webp",
           "facts": {
-            "camp": "Interastral Peace Corporation",
             "title": "Lien on Life, Lease on Fate"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23028.webp",
@@ -151001,7 +150991,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1218.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1218.webp",
           "facts": {
-            "camp": "The Xianzhou Yaoqing",
             "title": "Cauldron Contrivance"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23029.webp",
@@ -151081,7 +151070,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1222.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1222.webp",
           "facts": {
-            "camp": "The Xianzhou Luofu",
             "title": "Let Scent Sink In"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23032.webp",
@@ -151121,7 +151109,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1413.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1413.webp",
           "facts": {
-            "camp": "Amphoreus",
             "title": "The Remembrance of None"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23049.webp",
@@ -151141,7 +151128,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1404.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1404.webp",
           "facts": {
-            "camp": "Amphoreus",
             "title": "Fiery Lionheart"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23039.webp",
@@ -151161,7 +151147,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1408.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1408.webp",
           "facts": {
-            "camp": "Amphoreus",
             "title": "To Evermore Burn as the Sun"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23044.webp",
@@ -151181,7 +151166,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1317.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1317.webp",
           "facts": {
-            "camp": "Galaxy Ranger",
             "title": "Eyes of a Ninja"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23033.webp",
@@ -151203,6 +151187,10 @@ var NYX_DB = {
           "facts": {
             "title": "The Gem Coursing in Red"
           },
+          "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23061.webp",
+          "overviewArtPool": [
+            "../../Database/GameData/hsr/assets/lightcones/full/23061.webp"
+          ],
           "forms": []
         },
         {
@@ -151216,7 +151204,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1309.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1309.webp",
           "facts": {
-            "camp": "Penacony",
             "title": "Flowing Nightglow"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23026.webp",
@@ -151256,7 +151243,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1014.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1014.webp",
           "facts": {
-            "camp": "Another World",
             "title": "Excalibur Excelsior"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23045.webp",
@@ -151316,7 +151302,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1506.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1506.webp",
           "facts": {
-            "camp": "Stellaron Hunters",
             "title": "Godmode Player"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23057.webp",
@@ -151356,7 +151341,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1501.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1501.webp",
           "facts": {
-            "camp": "Masked Fools",
             "title": "Project: Party Time"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23053.webp",
@@ -151376,7 +151360,7 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1313.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1313.webp",
           "facts": {
-            "camp": "Penacony",
+            "camp": "Cosmos",
             "title": "Eyes to the Stars"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23034.webp",
@@ -151396,7 +151380,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1321.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1321.webp",
           "facts": {
-            "camp": "The Cremators",
             "title": "Dance in Flame"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23050.webp",
@@ -151416,7 +151399,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1401.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1401.webp",
           "facts": {
-            "camp": "Herta Space Station",
             "title": "Message From Beyond"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23037.webp",
@@ -151436,7 +151418,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1225.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1225.webp",
           "facts": {
-            "camp": "The Xianzhou Luofu",
             "title": "The Long Voyage Home"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23035.webp",
@@ -151565,7 +151546,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1403.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1403.webp",
           "facts": {
-            "camp": "Amphoreus",
             "title": "Back to Fons et Origo"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23038.webp",
@@ -151625,7 +151605,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1221.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1221.webp",
           "facts": {
-            "camp": "The Xianzhou Zhuming",
             "title": "Dance at Sunset"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23030.webp",
@@ -151885,7 +151864,6 @@ var NYX_DB = {
           "icon": "../../Database/GameData/hsr/assets/characters/round/1223.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1223.webp",
           "facts": {
-            "camp": "The Xianzhou Yaoqing",
             "title": "* Any Warp Banner (except Departure Warp)"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/21010.webp",
@@ -152065,9 +152043,7 @@ var NYX_DB = {
           "role": "Memory",
           "icon": "../../Database/GameData/hsr/assets/characters/round/1413.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1413.webp",
-          "facts": {
-            "camp": "Amphoreus"
-          },
+          "facts": {},
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23049.webp",
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23049.webp"
@@ -152083,9 +152059,7 @@ var NYX_DB = {
           "role": "Warlock",
           "icon": "../../Database/GameData/hsr/assets/characters/round/1225.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1225.webp",
-          "facts": {
-            "camp": "The Xianzhou Luofu"
-          },
+          "facts": {},
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23035.webp",
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23035.webp"
@@ -155666,7 +155640,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-16",
+          "added": "2026-07-17",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ROSCAELIFER0617",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ROSCAELIFER0617"
@@ -155680,7 +155654,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-16",
+          "added": "2026-07-17",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT"
@@ -155694,7 +155668,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-16",
+          "added": "2026-07-17",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO"
@@ -155708,7 +155682,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-16",
+          "added": "2026-07-17",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSEASON3",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSEASON3"
@@ -155722,7 +155696,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-16",
+          "added": "2026-07-17",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM"

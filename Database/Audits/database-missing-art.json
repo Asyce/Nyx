@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T07:24:44.760Z",
+  "generatedAt": "2026-07-17T07:37:36.586Z",
   "policy": "Every generated Database row is counted. Released rows remain visible when art or description is missing; only rows with no usable localized display name or proven internal/test provenance are quarantined.",
   "coverage": {
     "before": {
@@ -10,7 +10,7 @@
       ],
       "summaryCount": 25,
       "missingArtCount": 2186,
-      "quarantinedCount": 563
+      "quarantinedCount": 565
     },
     "after": {
       "scopes": [
@@ -20,7 +20,7 @@
       ],
       "summaryCount": 25,
       "missingArtCount": 2186,
-      "quarantinedCount": 563
+      "quarantinedCount": 565
     }
   },
   "summary": [
@@ -49,23 +49,23 @@
     {
       "game": "hsr",
       "collection": "monsters",
-      "sourceCount": 577,
-      "normalizedCount": 577,
-      "quarantinedCount": 0,
-      "approvedSourceCount": 577,
-      "generatedCount": 577,
-      "localArtCount": 577,
+      "sourceCount": 613,
+      "normalizedCount": 613,
+      "quarantinedCount": 1,
+      "approvedSourceCount": 612,
+      "generatedCount": 612,
+      "localArtCount": 612,
       "missingArtCount": 0
     },
     {
       "game": "hsr",
       "collection": "items",
-      "sourceCount": 1556,
-      "normalizedCount": 1556,
-      "quarantinedCount": 15,
-      "approvedSourceCount": 1541,
-      "generatedCount": 1541,
-      "localArtCount": 1541,
+      "sourceCount": 1574,
+      "normalizedCount": 1574,
+      "quarantinedCount": 16,
+      "approvedSourceCount": 1558,
+      "generatedCount": 1558,
+      "localArtCount": 1558,
       "missingArtCount": 0
     },
     {
@@ -32192,7 +32192,7 @@
       "reason": "The released generated record has no usable local art reference and no approved source URL or filename was available; the record remains visible with a neutral fallback."
     }
   ],
-  "quarantinedCount": 563,
+  "quarantinedCount": 565,
   "quarantinedRecords": [
     {
       "game": "gi",
@@ -36586,6 +36586,21 @@
     {
       "game": "hsr",
       "collection": "items",
+      "recordId": "140615",
+      "name": "140615",
+      "releaseStatus": "no-localized-display-name",
+      "sourceIconField": {
+        "field": "item_icon_path",
+        "value": "SpriteOutput/ItemIcon/140028.png"
+      },
+      "sourceUrl": null,
+      "localDestination": null,
+      "result": "quarantined",
+      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+    },
+    {
+      "game": "hsr",
+      "collection": "items",
       "recordId": "149990",
       "name": "149990",
       "releaseStatus": "no-localized-display-name",
@@ -36637,6 +36652,21 @@
       "sourceIconField": {
         "field": "item_icon_path",
         "value": "SpriteOutput/ItemIcon/420001.png"
+      },
+      "sourceUrl": null,
+      "localDestination": null,
+      "result": "quarantined",
+      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+    },
+    {
+      "game": "hsr",
+      "collection": "monsters",
+      "recordId": "4015012",
+      "name": "4015012",
+      "releaseStatus": "no-localized-display-name",
+      "sourceIconField": {
+        "field": "icon",
+        "value": "SpriteOutput/MonsterFigure/Monster_4015010.png"
       },
       "sourceUrl": null,
       "localDestination": null,

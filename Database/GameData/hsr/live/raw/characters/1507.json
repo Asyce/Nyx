@@ -1,8 +1,7 @@
 {
   "name": "Mortenax Blade",
-  "desc": "His body is like springwood. His heart is like dead ash. Yet still, a craftsman's spark cling to his fingertips.\\nAncient grudges flare anew. He vows to send both himself and that God over to the other shore.\\nThis body torn asunder, yet holding fast through a thousand temperings into a blade... What answer will it forge?\\n",
+  "desc": "Body like spring wood, heart like dead ash. Yet embers of a craftsman's spark still linger at his fingertips.\\nAs ancient grudges are ignited once more, he promises to send both himself and the gods to the other side...\\nTorn flesh, tempered a thousand times into a blade... What answer will it create?",
   "chara_info": {
-    "camp": "Stellaron Hunters",
     "va": {
       "chinese": "刘以嘉",
       "japanese": "三木眞一郎",
@@ -16,410 +15,7 @@
       "3": "Chaos. Darkness. The belly of the beast from the dawn of the universe seemed ready to dissolve everything.\\nHe'd thought himself numb to pain long ago, but now an invisible struggle threatened to tear his soul to shreds.\\n\\nPetty whispers chattered on and on inside his head, step by step, coaxing him toward the abyss of ruin.\\n<i>\"Why resist? I can grant you the power to reforge life and death itself, to undo all your regrets!\"</i>\\nUndo all regrets... He thought of Master Huaiyan, the disappointment in his eyes. He thought of the five of them, once so full of promise. He thought of the ending he should have had...\\nNo. Not that. Never that. Not once, not ever.\\nThis was nothing but escape, cowardice, surrender...\\nJust like those years spent rotting in regret. Just like this aimless, half-dead existence, wandering from day to day with nothing but the wish to die.\\nThat wasn't how his \"script\" was supposed to \"end.\"\\n\\n<i>\"Stellaron Hunters exist to rewrite Finality, and to rewrite their own endings.\"</i>\\nIn the \"Finality\" Elio revealed, he glimpsed a sea of spider lilies scattered with bones, a boundless beast skewered through, and a furnace belching flames. Black hair turned white as snow, and the aged artisan could finally embrace death. Yet the root of the immortality calamity had already bloomed anew elsewhere...\\nHe still has a chance to change it all.\\n<i>\"Yingxing, are you really so bent on dragging us both into the abyss!? All you'll gain is endless suffering, torn between life and death!\"</i>\\nHe didn't hear Shuhu's frenzied roar. Instead, he heard his master's voice, his companions' voices, his own voice—\\n<i>\"What makes a blade?\"</i>\\n\\nHe had once forged shackles to cage the mighty foes. Now, he would forge himself into a prison.\\nAs a hunter, his sole pursuit had been the elusive release of death. Now, he would take revenge on the architect of this tragedy.\\nHe felt himself cracking apart.\\nPiece by piece. Shard by shard. Like snowflakes torn asunder, frozen in an instant by a surge of boundless life, then sent drifting once more into the sea of suffering.\\n<i>\"Waste not the bounty of the world, but perfect it through craft. Good.\"</i>\\nWith great effort, he raised his hand, just as he had many years ago when he first lifted the forging hammer, striking the white-hot metal until it was sharp enough to plunge that immortal abomination to unending hell.\\nHis scorching iron body couldn't shed tears. In his daze, he could almost believe he was still in the Forge, blazing with blinding radiance like a divine weapon fresh from quenching.",
       "4": "He thought of that lonely island of Insumousu, bristling with rusted, broken swords.\\nHe wanted to go back, just once, to let those sword cries of grief, of hatred, of sorrow, rest in peace, if only for a moment.\\nHe thought of his aging master, and the warmth born of longing and shame welled up in his chest.\\nClosing his eyes, he could almost smell the smoke and fire of the Zhuming, hear the endless rhythm of hammers on anvils.\\n<i>\"Once this is all over, maybe I could...\"</i>\\nHe let out a long sigh. Then he turned and walked back to the Hunters' camp.\\n\\n<i>\"Mara-struck? He's completely cured... At least he's no longer clamoring to skin that little azure dragon alive.\"\\n\"Oh, right, about that box Blade mentioned, he admitted that the stuff inside was a gift for us!\"</i>\\nHe gently pushed the door open, frowning: <i>\"Do I really need to report matters unrelated to the mission to her as well?\"</i>\\n<i>\"Bladie, thank you.\"</i> A woman's voice came through the phone.\\n<i>\"No need.\"\\n\"We'll celebrate for you once everyone is back.\"</i>\\nThe man paused, took a few steps, then stopped again.\\n<i>\"The item in the iron box is poorly made. If you want, I can make another.\"</i>\\n<i>\"Okay, sure,\"</i> the young girl looked at him in surprise, <i>\"then why don't you tell her yourself? Look, talking to you just made me have to restart again!\"</i>\\nHe didn't reply, but turned around and headed to the next room.\\n<i>\"Practice hard, the next time we PK when your hand is healed, I won't go easy on you.\"\\n\\n\"Okay.\"</i>\\nHe unfastened the Shard Sword and placed it by the bed.\\nIn the past, it was resentment, it was fury, it was regret, it was the embodiment of all agony.\\nHe stroked the shattered blade. What exactly constitutes a blade?\\n\\nPerhaps a blade is simply a blade, nothing more."
     },
-    "voicelines": [
-      {
-        "voice_id": 1,
-        "voice_title": "First Meeting",
-        "voice_m": "I remember you, {NICKNAME}. Time has made us both sharper. Yet you are still you... and I am still me.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 2,
-        "voice_title": "Greeting",
-        "voice_m": "You're here. ...Have you eaten?",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 3,
-        "voice_title": "Parting",
-        "voice_m": "Though our paths have diverged... the bond between us remains unbroken.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 4,
-        "voice_title": "About Self: Mortenax",
-        "voice_m": "A shattered body reforged, tempered through countless deaths. After a thousand trials, a new \"Blade\" is born.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 5,
-        "voice_title": "About Self: Shuhu's Flesh",
-        "voice_m": "It gave me an infinite lifespan of suffering, so I will return the favor with an inferno of endless torment. This undying body will be forged a thousand times over, tempered in fury until it turns pitch-black. I will make it understand... the true pain of living.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 6,
-        "voice_title": "Chat: Forging",
-        "voice_m": "For me, the hardest part of forging is choosing a name... Such as \"Cloud-Piercer\" and \"Shard Sword\"... They've kept me awake through many sleepless nights.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 7,
-        "voice_title": "Chat: Phantasmoon Games",
-        "voice_m": "I have no interest in the role of \"Supplicant.\" I'm not here to worship. I'm here to settle the past.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 8,
-        "voice_title": "Chat: Stellaron Hunters",
-        "voice_m": "We play our parts in the \"script,\" yet beyond it, we became companions.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 9,
-        "voice_title": "Hobbies: Cold Springs",
-        "voice_m": "The hot springs in Planarcadia are comfortable, but they dull your edge. Bone-chilling cold water on the other hand, that's what helps me relax.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 10,
-        "voice_title": "Annoyances",
-        "voice_m": "At the moment before death, memories come flooding back... and that hurts more than death itself.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 11,
-        "voice_title": "Share",
-        "voice_m": "The sword in my hand has shattered twice, true to its name, \"Shard Sword.\" I still remember its first forging. It was nothing more than a failed, broken blade. \"Waste not the bounty of the world, but perfect it through craft.\" By that creed, it was reborn again and again through destruction.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 12,
-        "voice_title": "Knowledge",
-        "voice_m": "Once, the only thing that kept me alive was death. That part hasn't changed. The difference is... now I understand what I'm willing to die for.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 13,
-        "voice_title": "About {NICKNAME}",
-        "voice_m": "I knew little of you before, until you set foot on another path, one called \"Trailblaze.\"",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 14,
-        "voice_title": "About Silver Wolf",
-        "voice_m": "My hand's healed quite a bit. I should be able to keep my promise and play with her this time. Still, I won't be nearly as skilled with a controller as I am with a sword.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 15,
-        "voice_title": "About Firefly",
-        "voice_m": "In a final blaze, we parted with the past. Yet where we go from here remains uncertain.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 16,
-        "voice_title": "About Kafka",
-        "voice_m": "She has done much to suppress the mara. Now that I've broken my shackles, it's time I help her fulfill her wish.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 17,
-        "voice_title": "About Elio",
-        "voice_m": "Elio only cares about two things: the cost, and the outcome.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 18,
-        "voice_title": "About Jing Yuan",
-        "voice_m": "When will he stop hiding behind his role as a general and confront his past?",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 19,
-        "voice_title": "About Jingliu",
-        "voice_m": "The wounds she left have long since healed. But the blade I wield will never forget.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 20,
-        "voice_title": "About Dan Heng",
-        "voice_m": "The debts Imbibitor Lunae owes... he has repaid many of them. But the past cannot be so easily erased.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 21,
-        "voice_title": "About Evanescia",
-        "voice_m": "She walks beside me in the fight against \"immortality.\"",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 22,
-        "voice_title": "About Yao Guang",
-        "voice_m": "We once believed miracles would always happen. That's what led to disaster... I hope she's thought through the consequences.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 23,
-        "voice_title": "About Ashveil",
-        "voice_m": "When I was young, he tried to convince me to leave with him and become a ranger. But I chose to stay and forge swords. If I had gone with him... There are no \"ifs\" in life.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 24,
-        "voice_title": "About Huaiyan",
-        "voice_m": "Ever since I left the forge behind and became a hunter, I've felt unworthy to face my master. But when this is over, if I return with what I've forged... maybe I won't let him down.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 101,
-        "voice_title": "Eidolon Activation",
-        "voice_m": "If the body is to be honed, it must face a thousand blows.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 102,
-        "voice_title": "Character Ascension",
-        "voice_m": "With blazing death, forge this body anew.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 103,
-        "voice_title": "Max Level Reached",
-        "voice_m": "Quenched in blood, only then comes rebirth.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 104,
-        "voice_title": "Trace Activation",
-        "voice_m": "Step by step, every grudge will be laid to rest.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 105,
-        "voice_title": "Added to Team With {NICKNAME}",
-        "voice_m": "Just how long has it been since last time?",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 106,
-        "voice_title": "Added to Team With Silver Wolf",
-        "voice_m": "Hmm. This fight doesn't call for your full power.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 107,
-        "voice_title": "Added to Team With Silver Wolf LV.<unbreak>999</unbreak>",
-        "voice_m": "So this is your new trick, LV9... Anyway, we'll do it your way.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 108,
-        "voice_title": "Added to Team With Kafka",
-        "voice_m": "Those we could not lay to rest now run through our blood and bones.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 109,
-        "voice_title": "Added to Team With Firefly",
-        "voice_m": "Rebirth need not wait until the ending is rewritten.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 110,
-        "voice_title": "Added to Team With Jing Yuan",
-        "voice_m": "Make sure your Starfall Reverie doesn't lose its edge.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 111,
-        "voice_title": "Added to Team With Jingliu",
-        "voice_m": "I can withstand the pain of a thousand temperings... you played your part in that.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 112,
-        "voice_title": "Added to Team With Dan Heng",
-        "voice_m": "Nameless Dan Heng, it's been a while.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 113,
-        "voice_title": "Added to Team With Dan Heng • Imbibitor Lunae",
-        "voice_m": "Beyond outward appearance, you and he are hardly alike.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 114,
-        "voice_title": "Added to Team With Dan Heng • Permansor Terrae",
-        "voice_m": "I see... you've taken a new step forward as well.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 115,
-        "voice_title": "Added to Team With Evanescia",
-        "voice_m": "It appears you have not yet failed.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 116,
-        "voice_title": "Added to Team With Yao Guang",
-        "voice_m": "The criminal stands before you once again, will you not enforce justice?",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 117,
-        "voice_title": "Added to Team With Ashveil",
-        "voice_m": "La Mancha... I have never forgotten the favor you once granted me.",
-        "is_battle_voice": false
-      },
-      {
-        "voice_id": 201,
-        "voice_title": "Combat Begins: Weakness Break",
-        "voice_m": "This will be our final meeting.",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 202,
-        "voice_title": "Combat Begins: Danger Alert",
-        "voice_m": "Good. You'll serve to sharpen my blade.",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 203,
-        "voice_title": "Turn Begins 1",
-        "voice_m": "All scores are settled here.",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 204,
-        "voice_title": "Turn Begins 2",
-        "voice_m": "This journey ends it all.",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 205,
-        "voice_title": "Turn Begins 3",
-        "voice_m": "I will bury you.",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 206,
-        "voice_title": "Turn Begins 4",
-        "voice_m": "A drawn sword knows no rest until death.",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 207,
-        "voice_title": "Turn Idling",
-        "voice_m": "Delay much longer, and the sword's intent may turn cold.",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 208,
-        "voice_title": "Basic ATK",
-        "voice_m": "Mere iron.",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 209,
-        "voice_title": "Skill 1",
-        "voice_m": "Purgatory... take hold!",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 210,
-        "voice_title": "Skill 2",
-        "voice_m": "Tomb of Blades... Eternal!",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 211,
-        "voice_title": "Hit by Light Attack",
-        "voice_m": "Done?",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 212,
-        "voice_title": "Hit by Heavy Attack",
-        "voice_m": "More.",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 213,
-        "voice_title": "Ultimate: Activate 1",
-        "voice_m": "Torn flesh, tempered a thousand times into a blade.",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 214,
-        "voice_title": "Ultimate: Activate 2",
-        "voice_m": "Returned from death a thousandfold...",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 215,
-        "voice_title": "Ultimate: Unleash",
-        "voice_m": "Burn this broken shell, you will serve as the tempering fire!",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 216,
-        "voice_title": "Downed",
-        "voice_m": "Shuhu... I can't...",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 217,
-        "voice_title": "Return to Battle",
-        "voice_m": "Is there a chance...?",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 218,
-        "voice_title": "Health Recovery",
-        "voice_m": "No need.",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 219,
-        "voice_title": "Battle Won",
-        "voice_m": "The shackles of the past are not broken in a single day.",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 220,
-        "voice_title": "Treasure Opening 1",
-        "voice_m": "Alright, it's yours.",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 221,
-        "voice_title": "Treasure Opening 2",
-        "voice_m": "Just this, and nothing more.",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 222,
-        "voice_title": "Open Precious Treasure",
-        "voice_m": "Hmm. Fine material.",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 223,
-        "voice_title": "Successful Puzzle-Solving 1",
-        "voice_m": "The art of ingenia takes many forms.",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 224,
-        "voice_title": "Successful Puzzle-Solving 2",
-        "voice_m": "Hardly innovative.",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 225,
-        "voice_title": "Enemy Target Found",
-        "voice_m": "Merely another soul among the dead.",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 226,
-        "voice_title": "Return to Town",
-        "voice_m": "If nothing else remains, I should save my strength.",
-        "is_battle_voice": true
-      }
-    ]
+    "voicelines": []
   },
   "rarity": "CombatPowerAvatarRarityType5",
   "avatar_vo_tag": "mortenaxblade",
@@ -582,7 +178,7 @@
     "150702": {
       "id": 150702,
       "name": "A Rain of Blades Seals Fate",
-      "desc": "Consumes HP equal to <unbreak>#4[i]%</unbreak> of Mortenax Blade's Max HP and deals Fire DMG equal to <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> of Mortenax Blade's Max HP to all enemies, and additionally deals <unbreak>#2[i]</unbreak> instance(s) of DMG, with each instance dealing Fire DMG equal to <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points.",
+      "desc": "Consumes HP equal to <unbreak>#4[f1]%</unbreak> of Mortenax Blade's Max HP and deals Fire DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Mortenax Blade's Max HP to all enemies, and additionally deals <unbreak>#2[i]</unbreak> instance(s) of DMG, with each instance dealing Fire DMG equal to <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points.",
       "simple_desc": "Consumes HP and deals Fire DMG to all enemies. Then, deals minor Fire DMG to single enemies, bouncing <color=#f29e38ff><unbreak>#2[i]</unbreak></color> time(s).",
       "type": "BPSkill",
       "type_name": "Skill",
@@ -3417,8 +3013,8 @@
       315
     ],
     "property_list3": [
-      "CriticalDamageBase",
-      "CriticalChanceBase"
+      "CriticalChanceBase",
+      "CriticalDamageBase"
     ],
     "property_list4": [
       "SpeedDelta",
@@ -3435,7 +3031,7 @@
     "property_list": [
       {
         "relic_type": "BODY",
-        "property_type": "CriticalDamageBase"
+        "property_type": "CriticalChanceBase"
       },
       {
         "relic_type": "FOOT",
@@ -3459,7 +3055,8 @@
     "score_rank_list": [
       340,
       281
-    ]
+    ],
+    "local_critical_chance": 0.2
   },
   "lightcones": [
     23059,

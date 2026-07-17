@@ -791,6 +791,15 @@
     "zh": "今日好手气",
     "ja": "{RUBY_B#きょう}今日{RUBY_E#}は{RUBY_B#こううん}好運{RUBY_E#}"
   },
+  "21066": {
+    "rank": "CombatPowerLightconeRarity4",
+    "baseType": "Elation",
+    "en": "A Little Getaway",
+    "atk": 423,
+    "ko": "짧은 휴가",
+    "zh": "放个短假",
+    "ja": "バカンスのひと時"
+  },
   "22000": {
     "rank": "CombatPowerLightconeRarity4",
     "baseType": "Warlock",
@@ -862,6 +871,15 @@
     "ko": "미래엔 우리가 함께할 거야",
     "zh": "未来，有我们一起",
     "ja": "みんなで{RUBY_B#いっしょ}一緒{RUBY_E#}に{RUBY_B#みらい}未来{RUBY_E#}へ"
+  },
+  "22008": {
+    "rank": "CombatPowerLightconeRarity4",
+    "baseType": "Rogue",
+    "en": "Race to the Horizon",
+    "atk": 476,
+    "ko": "지평선의 끝을 향해",
+    "zh": "向着地平线的终点",
+    "ja": "地平線のゴールへ"
   },
   "23000": {
     "rank": "CombatPowerLightconeRarity5",
@@ -1420,6 +1438,24 @@
     "ko": "보이는 것이 곧 나",
     "zh": "所见即我",
     "ja": "{RUBY_B#あ}在{RUBY_E#}るがままの{RUBY_B#オレ}我{RUBY_E#}"
+  },
+  "23063": {
+    "rank": "CombatPowerLightconeRarity5",
+    "baseType": "Memory",
+    "en": "Rise and Sing",
+    "atk": 582,
+    "ko": "그대는 나아가 노래하리니",
+    "zh": "你将起身歌唱",
+    "ja": "立ち上がり高らかな歌を"
+  },
+  "23064": {
+    "rank": "CombatPowerLightconeRarity5",
+    "baseType": "Elation",
+    "en": "Summer Rides the Surf",
+    "atk": 582,
+    "ko": "파도에 내던진 한여름",
+    "zh": "向浪花掷下盛夏",
+    "ja": "波しぶきが躍る夏へ"
   },
   "24000": {
     "rank": "CombatPowerLightconeRarity5",

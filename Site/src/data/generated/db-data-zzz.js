@@ -12,7 +12,7 @@
       "key": "monsters",
       "title": "Monsters",
       "source": "GameData",
-      "count": 288,
+      "count": 251,
       "items": [
         {
           "id": "zzz-mon-10000",
@@ -158,17 +158,6 @@
           "text": "Unknown unit. Further investigation is needed."
         },
         {
-          "id": "zzz-mon-10013",
-          "name": "OfficialName_",
-          "kind": "monster",
-          "art": "../../Database/GameData/zzz/assets/monsters/Monster_Patroller.webp",
-          "fields": {
-            "rarity": "1 \u2605",
-            "type": "Special"
-          },
-          "text": "Highly maneuverable small autonomous mechs deployed by Public Security, equipped with inert Ether circular saws that also serve as assistant steering wheels for navigating complex terrains at high speeds.\nHowever, due to their rudimentary self-control programs, these lawnmowers occasionally cause unintended damage while executing their slicing attacks.\n\"Hey! Who the heck messed up my brand new car!?\""
-        },
-        {
           "id": "zzz-mon-10014",
           "name": "Mandrake",
           "kind": "monster",
@@ -235,17 +224,6 @@
           "text": "As the vanguards in Hollow Raider gangs, Assaulters and Ambushers often brandish their weapons and charge ahead independently.\nThis isn't because of their recklessness or disregard for teamwork, but rather a precautionary measure to prevent accidental harm. The modified transformer coils in their hands release high-voltage currents upon contact, capable of paralyzing or even knocking out an opponent with just a touch.\nAnd in the logistically difficult Hollows, an incapacitated teammate could pose a terrible challenge for an entire squad.\n\"What's this? Lemme check it out! Oh, it's some electric baton replicaaaa... Aaaaaaaaaaarrghhh...\""
         },
         {
-          "id": "zzz-mon-10020",
-          "name": "OfficialName_",
-          "kind": "monster",
-          "art": "../../Database/GameData/zzz/assets/monsters/Monster_FierySerpent.webp",
-          "fields": {
-            "rarity": "1 \u2605",
-            "type": "Ether Mutants"
-          },
-          "text": "Unknown"
-        },
-        {
           "id": "zzz-mon-10021",
           "name": "Raven UAV",
           "kind": "monster",
@@ -310,28 +288,6 @@
             "type": "Ether Mutants"
           },
           "text": "Influenced by the distinctive decor of the interior of the Ballet Twins, Specters have the grotesque and twisted limb configuration of an artistic sculpture.\nSome investigators believe its unique shape is intended to enhance the protection of its Ether Core.\nOthers argue it's merely a trick designed to distract its enemies. While its enemies are mesmerized by its peculiar posture, a Specter will seize the opportunity to launch long-range attacks using concentrated Ether.\n\"I looked at its bizarre structure and thought to myself: Was it trying to play a game of bowling with its own head?\"\n\"But before I could make sense of anything, its bowling ball had already smashed into my face...\""
-        },
-        {
-          "id": "zzz-mon-10027",
-          "name": "OfficialName_",
-          "kind": "monster",
-          "art": "../../Database/GameData/zzz/assets/monsters/Monster_ViciousStriker.webp",
-          "fields": {
-            "rarity": "1 \u2605",
-            "type": "Corrupted"
-          },
-          "text": "A poor soul mutated by the corruption due to potent Ether matter in the Hollows. As the original entity had a certain level of Ether aptitude, the transformation is not fully complete, retaining some humanoid features of the original form. Judging by the remnants of clothing and combat experience, it's quite likely it was originally a thug/criminal dwelling within the Hollow.\nWhile gangsters and thugs in the Hollows typically wear anti-corruption gear, some unlucky individuals undergo monstrous transformations due to severe Ether corruption. These transformed Ethereal beings retain their combat skills from their past lives, making them a more formidable threat compared to pure Ethereals.\n\"They lived as criminals, and even in death they continue being a nuisance.\""
-        },
-        {
-          "id": "zzz-mon-10028",
-          "name": "OfficialName_",
-          "kind": "monster",
-          "art": "../../Database/GameData/zzz/assets/monsters/Monster_GreedyRanger.webp",
-          "fields": {
-            "rarity": "1 \u2605",
-            "type": "Corrupted"
-          },
-          "text": "This humanoid intelligent being is a result of potent Ether matter corruption in the Hollow, exhibiting both humanoid traits and remnants of its former clothing and combat style. It is likely that it was once a gang member or raider living in the Hollow.\nThe creature's physical characteristics indicate its past as a long-range weapon specialist. Despite losing its free will and life due to Etherealization, it retains its instincts and habits for long-range combat. Its corrupted form enables it to launch projectiles, attacking enemies from a distance. The Ether corruption has enhanced its shooting abilities and projectile firepower. (For example, these creatures may fire sharp Ether Crystals or mixed explosives.)\n\"I told him not to touch that crystal, but he wouldn't listen! That reckless idiot never listens! By the time we were about to leave the Hollow, he... he changed...\""
         },
         {
           "id": "zzz-mon-10029",
@@ -596,39 +552,6 @@
             "type": "Corrupted"
           },
           "text": "A fallen creation, reshaped in the depths of impure darkness.\nTo step into the domain of the sleeping behemoth is to prepare for confronting the crimson nightmare, for it's no longer content with games of hide and seek.\nThe reckless Hollow Raider attempts to provoke, luring it to expose its deeply buried core. Yet skilled hunters often appear as prey - letting your guard down when the enemy's weakness is revealed is often a rookie's deadliest flaw.\n\"Don't call me stupid, my head really was caught in those Ethereal pincers...\""
-        },
-        {
-          "id": "zzz-mon-20012",
-          "name": "OfficialName_",
-          "kind": "monster",
-          "art": "../../Database/GameData/zzz/assets/monsters/Monster_FrenziedManiac.webp",
-          "fields": {
-            "rarity": "2 \u2605",
-            "type": "Corrupted"
-          },
-          "text": "Unfortunate souls mutated by the intense corruption of Ether matter within the Hollows. Due to a considerable degree of Ether aptitude and physical capability, their bodies have not been completely transformed by the Ether, retaining humanoid features but with enhanced mutant limbs that are more dangerous.\nJudging from the remnants of clothing and its combat experience, it was likely once a senior gang member or Raider lurking in the Hollows.\nThese corrupted subjects, potentially due to their enhanced physiology or affinity for Ether matter, have developed formidable close combat abilities, making them even more menacing than the typical monsters found in the Hollow.\n\"Their weapons look very fancy... and kinda like they came as freebies.\""
-        },
-        {
-          "id": "zzz-mon-20013",
-          "name": "OfficialName_",
-          "kind": "monster",
-          "art": "../../Database/GameData/zzz/assets/monsters/Monster_WickedWraith.webp",
-          "fields": {
-            "rarity": "2 \u2605",
-            "type": "Corrupted"
-          },
-          "text": "Unfortunate souls mutated by the intense corruption of Ether matter within the Hollows. Due to a considerable degree of Ether aptitude and physical capability, their bodies have not been completely transformed by the Ether, retaining humanoid features but with enhanced mutant limbs that are more dangerous.\nJudging from the remnants of clothing and its combat experience, it was likely once a senior gang member or Raider lurking in the Hollows.\nThe makeshift firearms favored by these bandits have somehow been preserved and enhanced by the Ether matter. They no longer fire iron bullets but rather more dangerous crystalline mixtures.\n\"Don't wait around! They have endless bullets and don't need to reload at all!\""
-        },
-        {
-          "id": "zzz-mon-20014",
-          "name": "OfficialName_",
-          "kind": "monster",
-          "art": "../../Database/GameData/zzz/assets/monsters/Monster_RuthlessFiend.webp",
-          "fields": {
-            "rarity": "2 \u2605",
-            "type": "Corrupted"
-          },
-          "text": "Unfortunate souls mutated by the intense corruption of Ether matter within the Hollows. Due to a considerable degree of Ether aptitude and physical capability, their bodies have not been completely transformed by the Ether. Humanoid features are more dangerous with enhanced mutant limbs.\nJudging from the remnants of clothing and its combat experience, it was likely once a senior gang member or Raider lurking in the Hollows.\nBandits are notorious for their dangerous behavior, and within their ranks, Hollow bandits stand out as the most ruthless. The elite fighters among these Hollow bandits are especially terrifying, displaying an elevated level of violence. When these brutes, toughened both physically and mentally through violence, undergo Ether corruption, they transform into monsters with a more feral and savage nature.\n\"They used to yell 'money or your life,' but now they're just hell-bent on taking your life...\""
         },
         {
           "id": "zzz-mon-20015",
@@ -1049,17 +972,6 @@
           "text": "An old-era military autonomous unit specializing in long-range elimination, equipped with an appearance-simulation system that can effectively disrupt enemy recognition.\nThe Mirage Archer Unit is proficient in multiple attack methods. When facing formidable enemies, it activates excess power output to generate Energy, compressing it into a nearly solid concentrated Energy blade. With highly threatening offensive pressure, it unleashes continuous slashes to sweep the battlefield. When energy reaches its threshold, the light blade enter an overload state, and the escaping energy disrupts enemy movement and reactions, creating an opening for the next decisive assault. Originally deployed as a standardized tactical weapon system, the Mirage Archer Unit was fully decommissioned as the era changed and sealed deep within the Hollows. Prolonged stasis and Ether corruption have caused corrosion and system instability, yet its core extermination protocols remain dormant within its residual commands.\n\n\"Its task remains unfinished, yet the body rots away... the torment this brings needs no more words.\""
         },
         {
-          "id": "zzz-mon-30016",
-          "name": "OfficialName_",
-          "kind": "monster",
-          "art": null,
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Special"
-          },
-          "text": "Unknown"
-        },
-        {
           "id": "zzz-mon-30017",
           "name": "Ionized - Cyrtoidea",
           "kind": "monster",
@@ -1445,17 +1357,6 @@
           "text": "The unique and magnificent appearance of the symbiotic Ethereal swarm known as Nineveh make it \"difficult\" for people to be wary of it.\nAccording to the few research records available, as Nineveh extends its body, a concentrated and potent Ether flows towards its core through its \"rhizome,\" providing a constant supply of energy. Some scholars speculate that this behavior is akin to the photosynthesis process in plants.\nIn the course of its swaying motions, excess highly active Ether energy continuously pours out. When this accumulation of highly active Ether is nearly overflowing, it transforms, unveiling its true \"blossoming\" form.\nAnd with its bloom comes death.\n\"The good news is it doesn't mean any harm, it just absorbs nutrients for photosynthesis. The bad news is... we're the nutrients.\""
         },
         {
-          "id": "zzz-mon-35002",
-          "name": "OfficialName_",
-          "kind": "monster",
-          "art": "../../Database/GameData/zzz/assets/monsters/Monster_Geppetto.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Ether Mutants"
-          },
-          "text": "Unknown"
-        },
-        {
           "id": "zzz-mon-40000",
           "name": "Primordial Nightmare - \"The Creator\"",
           "kind": "monster",
@@ -1555,28 +1456,6 @@
           "text": "The Hollow Investigative Association has been studying Tyrfing's behavioral patterns, and research results show that its seemingly unbalanced stance of swaying and skewing is, in fact, a highly efficient stance for launching successive slashing attacks.\nDue to its frequent appearances and aggressive behavior, Tyrfing has been identified as one of the most deadly Ethereals in the Hollow, particularly for certain Hollow personnel.\nWhen faced with a shielded enemy, it relentlessly launches attacks until either its enemy or itself is destroyed.\n\"Perhaps... they don't actually hate us, but just think of us as punching bags for practice?\""
         },
         {
-          "id": "zzz-mon-100002",
-          "name": "OfficialName_",
-          "kind": "monster",
-          "art": "../../Database/GameData/zzz/assets/monsters/Monster_Claymore.webp",
-          "fields": {
-            "rarity": "1 \u2605",
-            "type": "Ether Mutants"
-          },
-          "text": "The Hollow Investigative Association has been studying Tyrfing's behavioral patterns, and research results show that its seemingly unbalanced stance of swaying and skewing is, in fact, a highly efficient stance for launching successive slashing attacks.\nDue to its frequent appearances and aggressive behavior, Tyrfing has been identified as one of the most deadly Ethereals in the Hollow, particularly for certain Hollow personnel.\nWhen faced with a shielded enemy, it relentlessly launches attacks until either its enemy or itself is destroyed.\n\"Perhaps... they don't actually hate us, but just think of us as punching bags for practice?\""
-        },
-        {
-          "id": "zzz-mon-100003",
-          "name": "OfficialName_",
-          "kind": "monster",
-          "art": "../../Database/GameData/zzz/assets/monsters/Monster_ClaymoreGrey.webp",
-          "fields": {
-            "rarity": "1 \u2605",
-            "type": "Ether Mutants"
-          },
-          "text": "The Hollow Investigative Association has been studying Tyrfing's behavioral patterns, and research results show that its seemingly unbalanced stance of swaying and skewing is, in fact, a highly efficient stance for launching successive slashing attacks.\nDue to its frequent appearances and aggressive behavior, Tyrfing has been identified as one of the most deadly Ethereals in the Hollow, particularly for certain Hollow personnel.\nWhen faced with a shielded enemy, it relentlessly launches attacks until either its enemy or itself is destroyed.\n\"Perhaps... they don't actually hate us, but just think of us as punching bags for practice?\""
-        },
-        {
           "id": "zzz-mon-100004",
           "name": "Tyrfing (Infested)",
           "kind": "monster",
@@ -1592,28 +1471,6 @@
           "name": "Alpeca - Energized",
           "kind": "monster",
           "art": "../../Database/GameData/zzz/assets/monsters/Monster_CyclopsGreyPro.webp",
-          "fields": {
-            "rarity": "1 \u2605",
-            "type": "Ether Mutants"
-          },
-          "text": "The Hollow Investigative Association has limited research on Alpeca. After briefly studying its behavioral pattern of spewing liquid Ether, the Association classified Alpeca as a low-threat Ethereal and ended its investigation.\nScholars once showed great interest in observing how Alpeca spews liquefied Ether and even commissioned surveys for closer observation.\nExperienced investigators have been avoiding such tasks for unknown reasons, however.\n\"Run! They're spitting again... Oh, no! My new clothes!\""
-        },
-        {
-          "id": "zzz-mon-100012",
-          "name": "OfficialName_",
-          "kind": "monster",
-          "art": "../../Database/GameData/zzz/assets/monsters/Monster_Cyclops.webp",
-          "fields": {
-            "rarity": "1 \u2605",
-            "type": "Ether Mutants"
-          },
-          "text": "The Hollow Investigative Association has limited research on Alpeca. After briefly studying its behavioral pattern of spewing liquid Ether, the Association classified Alpeca as a low-threat Ethereal and ended its investigation.\nScholars once showed great interest in observing how Alpeca spews liquefied Ether and even commissioned surveys for closer observation.\nExperienced investigators have been avoiding such tasks for unknown reasons, however.\n\"Run! They're spitting again... Oh, no! My new clothes!\""
-        },
-        {
-          "id": "zzz-mon-100013",
-          "name": "OfficialName_",
-          "kind": "monster",
-          "art": "../../Database/GameData/zzz/assets/monsters/Monster_CyclopsPro.webp",
           "fields": {
             "rarity": "1 \u2605",
             "type": "Ether Mutants"
@@ -1654,54 +1511,10 @@
           "text": "While categorized by the Hollow Investigative Association as a \"low threat\" Ethereal, Hoplitai prove to be a formidable opponent for novice Hollow Raiders and investigators.\nIts forelimbs are covered in a thick inert Ether matter, serving as both a tough shield and an intimidating weapon.\nThe only drawback is its top-heavy appearance, making it not look very clever.\n\"Alright, guys... Check out this sorry excuse... This is Hoplitai.\"\n\"When Ethereals gather together to play rock-paper-scissors, this idiot always plays paper!\""
         },
         {
-          "id": "zzz-mon-100032",
-          "name": "OfficialName_",
-          "kind": "monster",
-          "art": "../../Database/GameData/zzz/assets/monsters/Monster_Golem.webp",
-          "fields": {
-            "rarity": "1 \u2605",
-            "type": "Ether Mutants"
-          },
-          "text": "While categorized by the Hollow Investigative Association as a \"low threat\" Ethereal, Hoplitai prove to be a formidable opponent for novice Hollow Raiders and investigators.\nIts forelimbs are covered in a thick inert Ether matter, serving as both a tough shield and an intimidating weapon.\nThe only drawback is its top-heavy appearance, making it not look very clever.\n\"Alright, guys... Check out this sorry excuse... This is Hoplitai.\"\n\"When Ethereals gather together to play rock-paper-scissors, this idiot always plays paper!\""
-        },
-        {
-          "id": "zzz-mon-100033",
-          "name": "OfficialName_",
-          "kind": "monster",
-          "art": "../../Database/GameData/zzz/assets/monsters/Monster_GolemPro.webp",
-          "fields": {
-            "rarity": "1 \u2605",
-            "type": "Ether Mutants"
-          },
-          "text": "While categorized by the Hollow Investigative Association as a \"low threat\" Ethereal, Hoplitai prove to be a formidable opponent for novice Hollow Raiders and investigators.\nIts forelimbs are covered in a thick inert Ether matter, serving as both a tough shield and an intimidating weapon.\nThe only drawback is its top-heavy appearance, making it not look very clever.\n\"Alright, guys... Check out this sorry excuse... This is Hoplitai.\"\n\"When Ethereals gather together to play rock-paper-scissors, this idiot always plays paper!\""
-        },
-        {
           "id": "zzz-mon-100041",
           "name": "Blastcrawler - Energized",
           "kind": "monster",
           "art": "../../Database/GameData/zzz/assets/monsters/Monster_SpiderGreyPro.webp",
-          "fields": {
-            "rarity": "1 \u2605",
-            "type": "Ether Mutants"
-          },
-          "text": "According to research reports conducted by the Hollow Investigative Association, Blastcrawlers, with their low mobility and causing only small explosions, are classified as a \"low-threat,\" \"non-concern\" lower-tier Ethereal.\nHowever, astute businessmen have recognized the opportunities presented by their rounded bodies and short legs.\nA film titled \"Roll Over, Little Blastcrawler\" gained significant popularity, leading to the sale of merchandise like Blastcrawler dolls and pillows at remarkably high prices.\n\"I didn't expect their dolls to be more deadly than the real deal... on your wallet at least. Looks like I'll be surviving on instant noodles next month, Billy...\""
-        },
-        {
-          "id": "zzz-mon-100042",
-          "name": "OfficialName_",
-          "kind": "monster",
-          "art": "../../Database/GameData/zzz/assets/monsters/Monster_Spider.webp",
-          "fields": {
-            "rarity": "1 \u2605",
-            "type": "Ether Mutants"
-          },
-          "text": "According to research reports conducted by the Hollow Investigative Association, Blastcrawlers, with their low mobility and causing only small explosions, are classified as a \"low-threat,\" \"non-concern\" lower-tier Ethereal.\nHowever, astute businessmen have recognized the opportunities presented by their rounded bodies and short legs.\nA film titled \"Roll Over, Little Blastcrawler\" gained significant popularity, leading to the sale of merchandise like Blastcrawler dolls and pillows at remarkably high prices.\n\"I didn't expect their dolls to be more deadly than the real deal... on your wallet at least. Looks like I'll be surviving on instant noodles next month, Billy...\""
-        },
-        {
-          "id": "zzz-mon-100043",
-          "name": "OfficialName_",
-          "kind": "monster",
-          "art": "../../Database/GameData/zzz/assets/monsters/Monster_SpiderPro.webp",
           "fields": {
             "rarity": "1 \u2605",
             "type": "Ether Mutants"
@@ -1773,50 +1586,6 @@
             "type": "Rebel Soldiers"
           },
           "text": "Grenadier Jaegers and Demolition Jaegers are equipped with a modified version of the Mamba-TG3 Bazooka, featuring special ammunition containing active Ether incendiary agents. This weapon enables them to swiftly destroy enemy mech units and eliminate large Ethereals within the Hollows.\nTo counteract the recoil and ensure accurate aim, they are required to undergo special weapon-grip training. Interestingly, Defense Force statistics indicate recruits excelling in this program often possess prior experience in photography.\n\"Wanna know how to use this thing? It's like using a shoulder-mounted camera.\"\n\"Just lock onto your target, pull the trigger, and say...\"\n\"Hey, idiot!... Say cheese!\""
-        },
-        {
-          "id": "zzz-mon-100101",
-          "name": "OfficialName_",
-          "kind": "monster",
-          "art": null,
-          "fields": {
-            "rarity": "1 \u2605",
-            "type": "Public Security"
-          },
-          "text": "Unknown"
-        },
-        {
-          "id": "zzz-mon-100111",
-          "name": "OfficialName_",
-          "kind": "monster",
-          "art": null,
-          "fields": {
-            "rarity": "1 \u2605",
-            "type": "Public Security"
-          },
-          "text": "Unknown"
-        },
-        {
-          "id": "zzz-mon-100121",
-          "name": "OfficialName_",
-          "kind": "monster",
-          "art": null,
-          "fields": {
-            "rarity": "1 \u2605",
-            "type": "Public Security"
-          },
-          "text": "Unknown"
-        },
-        {
-          "id": "zzz-mon-100131",
-          "name": "OfficialName_",
-          "kind": "monster",
-          "art": "../../Database/GameData/zzz/assets/monsters/Monster_PatrollerPro.webp",
-          "fields": {
-            "rarity": "1 \u2605",
-            "type": "Special"
-          },
-          "text": "Highly maneuverable small autonomous mechs deployed by Public Security, equipped with inert Ether circular saws that also serve as assistant steering wheels for navigating complex terrains at high speeds.\nHowever, due to their rudimentary self-control programs, these lawnmowers occasionally cause unintended damage while executing their slicing attacks.\n\"Hey! Who the heck messed up my brand new car!?\""
         },
         {
           "id": "zzz-mon-100132",
@@ -1951,17 +1720,6 @@
           "text": "This humanoid intelligent being is a result of potent Ether matter corruption in the Hollow, exhibiting both humanoid traits and remnants of its former clothing and combat style. It is likely that it was once a gang member or raider living in the Hollow.\nThe creature's physical characteristics indicate its past as a long-range weapon specialist. Despite losing its free will and life due to Etherealization, it retains its instincts and habits for long-range combat. Its corrupted form enables it to launch projectiles, attacking enemies from a distance. The Ether corruption has enhanced its shooting abilities and projectile firepower. (For example, these creatures may fire sharp Ether Crystals or mixed explosives.)\n\"I told him not to touch that crystal, but he wouldn't listen! That reckless idiot never listens! By the time we were about to leave the Hollow, he... he changed...\""
         },
         {
-          "id": "zzz-mon-100291",
-          "name": "OfficialName_",
-          "kind": "monster",
-          "art": "../../Database/GameData/zzz/assets/monsters/Monster_BeholderEnginePro.webp",
-          "fields": {
-            "rarity": "1 \u2605",
-            "type": "Ether Mutants"
-          },
-          "text": "While a Beholder Engine is primarily considered a close-range threat, it frequently presents unforeseen dangers to investigators during Hollow expeditions.\nEven seasoned investigators can experience an overwhelming sense of panic when confronted by the piercing gaze of its eyes in the darkness.\nWithin the Hollows, fear has a tendency to intensify Ether corruption, thereby inviting calamity.\n\"The only way to overcome fear... is to stare into it and fight it back.\""
-        },
-        {
           "id": "zzz-mon-100301",
           "name": "Fossor - Energized",
           "kind": "monster",
@@ -1995,28 +1753,6 @@
           "text": "Farbauti, possessing immense strength and often in a frenzied state, is one of the most formidable threats Hollow Raiders may face. Its hammer-like arms can effortlessly deflect damage and unleash storms of blows that crush everything in its path.\nSome Hollow Raiders have observed Farbauti frequently pounding the ground in a rhythmic, high-frequency manner, leading to speculation about its peculiar interest in drumming music.\nDespite the Hollow Investigative Association publicly debunking this rumor, many Hollow Raiders carry portable stereos in an attempt to distract Farbauti with music.\nNo successful escapes using this method have been reported however.\n\"The reason for their failure is simple: Even Farbauti think your taste in music sucks!\""
         },
         {
-          "id": "zzz-mon-200002",
-          "name": "OfficialName_",
-          "kind": "monster",
-          "art": "../../Database/GameData/zzz/assets/monsters/Monster_Giant.webp",
-          "fields": {
-            "rarity": "2 \u2605",
-            "type": "Ether Mutants"
-          },
-          "text": "Farbauti, possessing immense strength and often in a frenzied state, is one of the most formidable threats Hollow Raiders may face. Its hammer-like arms can effortlessly deflect damage and unleash storms of blows that crush everything in its path.\nSome Hollow Raiders have observed Farbauti frequently pounding the ground in a rhythmic, high-frequency manner, leading to speculation about its peculiar interest in drumming music.\nDespite the Hollow Investigative Association publicly debunking this rumor, many Hollow Raiders carry portable stereos in an attempt to distract Farbauti with music.\nNo successful escapes using this method have been reported however.\n\"The reason for their failure is simple: Even Farbauti think your taste in music sucks!\""
-        },
-        {
-          "id": "zzz-mon-200003",
-          "name": "OfficialName_",
-          "kind": "monster",
-          "art": "../../Database/GameData/zzz/assets/monsters/Monster_GiantPro.webp",
-          "fields": {
-            "rarity": "2 \u2605",
-            "type": "Ether Mutants"
-          },
-          "text": "Farbauti, possessing immense strength and often in a frenzied state, is one of the most formidable threats Hollow Raiders may face. Its hammer-like arms can effortlessly deflect damage and unleash storms of blows that crush everything in its path.\nSome Hollow Raiders have observed Farbauti frequently pounding the ground in a rhythmic, high-frequency manner, leading to speculation about its peculiar interest in drumming music.\nDespite the Hollow Investigative Association publicly debunking this rumor, many Hollow Raiders carry portable stereos in an attempt to distract Farbauti with music.\nNo successful escapes using this method have been reported however.\n\"The reason for their failure is simple: Even Farbauti think your taste in music sucks!\""
-        },
-        {
           "id": "zzz-mon-200004",
           "name": "Ionized - Farbauti",
           "kind": "monster",
@@ -2032,28 +1768,6 @@
           "name": "Hati - Energized",
           "kind": "monster",
           "art": "../../Database/GameData/zzz/assets/monsters/Monster_HatiGreyPro.webp",
-          "fields": {
-            "rarity": "2 \u2605",
-            "type": "Ether Mutants"
-          },
-          "text": "The HIA Phase-I Investigation Team has officially documented the existence of this sentient living Ether resembling a four-legged beast, which poses significant danger.\nAccording to rumors, the first sighting took place in Nest Hollow, where individuals exploring the nearby wastes reported hearing ear-splitting roars reminiscent of wild animal growls.\n\"If I throw a stick or a ball, do you think that monster will catch it?\"\n\"You can give it a try, but I won't cover your medical bill.\""
-        },
-        {
-          "id": "zzz-mon-200012",
-          "name": "OfficialName_",
-          "kind": "monster",
-          "art": "../../Database/GameData/zzz/assets/monsters/Monster_Hati.webp",
-          "fields": {
-            "rarity": "2 \u2605",
-            "type": "Ether Mutants"
-          },
-          "text": "The HIA Phase-I Investigation Team has officially documented the existence of this sentient living Ether resembling a four-legged beast, which poses significant danger.\nAccording to rumors, the first sighting took place in Nest Hollow, where individuals exploring the nearby wastes reported hearing ear-splitting roars reminiscent of wild animal growls.\n\"If I throw a stick or a ball, do you think that monster will catch it?\"\n\"You can give it a try, but I won't cover your medical bill.\""
-        },
-        {
-          "id": "zzz-mon-200013",
-          "name": "OfficialName_",
-          "kind": "monster",
-          "art": "../../Database/GameData/zzz/assets/monsters/Monster_HatiPro.webp",
           "fields": {
             "rarity": "2 \u2605",
             "type": "Ether Mutants"
@@ -2094,54 +1808,10 @@
           "text": "During initial encounters with these unique Ethereals, Hollow investigators mistakenly thought they possessed some level of intelligence, even showing signs of learning to wield bludgeoning weapons like humans. As a result, they were dubbed \"Goblins.\"\nHowever, subsequent research revealed that their \"hammers\" were actually twisted and deformed limbs, and that they lacked the ability to imitate human behavior.\nNevertheless, Goblins remain formidable adversaries due to their robust physique and sheer brute strength, with even a simple swing of their limbs proving deadly.\nIf anything trespasses on their territory, they will immediately enter a state of fury, sparing no effort in mercilessly smashing the intruder.\n\"Huh? There's a Goblin running over here, banging on a heap of scrap metal.\"\n\"Don't you think his attacks have a rhythm to them, like he's playing a drum...?\"\n\"Hey! Don't be stupid, you two! That's not scrap metal! It's our supply truck!\""
         },
         {
-          "id": "zzz-mon-200022",
-          "name": "OfficialName_",
-          "kind": "monster",
-          "art": "../../Database/GameData/zzz/assets/monsters/Monster_Goblin.webp",
-          "fields": {
-            "rarity": "2 \u2605",
-            "type": "Ether Mutants"
-          },
-          "text": "During initial encounters with these unique Ethereals, Hollow investigators mistakenly thought they possessed some level of intelligence, even showing signs of learning to wield bludgeoning weapons like humans. As a result, they were dubbed \"Goblins.\"\nHowever, subsequent research revealed that their \"hammers\" were actually twisted and deformed limbs, and that they lacked the ability to imitate human behavior.\nNevertheless, Goblins remain formidable adversaries due to their robust physique and sheer brute strength, with even a simple swing of their limbs proving deadly.\nIf anything trespasses on their territory, they will immediately enter a state of fury, sparing no effort in mercilessly smashing the intruder.\n\"Huh? There's a Goblin running over here, banging on a heap of scrap metal.\"\n\"Don't you think his attacks have a rhythm to them, like he's playing a drum...?\"\n\"Hey! Don't be stupid, you two! That's not scrap metal! It's our supply truck!\""
-        },
-        {
-          "id": "zzz-mon-200023",
-          "name": "OfficialName_",
-          "kind": "monster",
-          "art": "../../Database/GameData/zzz/assets/monsters/Monster_GoblinPro.webp",
-          "fields": {
-            "rarity": "2 \u2605",
-            "type": "Ether Mutants"
-          },
-          "text": "During initial encounters with these unique Ethereals, Hollow investigators mistakenly thought they possessed some level of intelligence, even showing signs of learning to wield bludgeoning weapons like humans. As a result, they were dubbed \"Goblins.\"\nHowever, subsequent research revealed that their \"hammers\" were actually twisted and deformed limbs, and that they lacked the ability to imitate human behavior.\nNevertheless, Goblins remain formidable adversaries due to their robust physique and sheer brute strength, with even a simple swing of their limbs proving deadly.\nIf anything trespasses on their territory, they will immediately enter a state of fury, sparing no effort in mercilessly smashing the intruder.\n\"Huh? There's a Goblin running over here, banging on a heap of scrap metal.\"\n\"Don't you think his attacks have a rhythm to them, like he's playing a drum...?\"\n\"Hey! Don't be stupid, you two! That's not scrap metal! It's our supply truck!\""
-        },
-        {
           "id": "zzz-mon-200031",
           "name": "Armored Hati - Energized",
           "kind": "monster",
           "art": "../../Database/GameData/zzz/assets/monsters/Monster_HatiArmoredGreyPro.webp",
-          "fields": {
-            "rarity": "2 \u2605",
-            "type": "Ether Mutants"
-          },
-          "text": "The Armored Hati is widely regarded as a formidable adversary by many experienced Hollow investigators.\nAlthough its armored shell limits its agility, it compensates with exceptional resistance to attacks.\nAdditionally, the corrupted material on its body forms sharp and hardened protrusions that can cause additional damage when an Armored Hati charges at high speeds.\nThis creature's agile movements, resilience to blows, and seamless armor compel even the most seasoned explorers to seek alternative routes to avoid direct confrontation.\nSome novice Hollow Raiders have attempted to lure Armored Hati away with pet food.\nHowever, these endeavors have proven futile.\n\"Run! It doesn't like this flavor of dog food!\""
-        },
-        {
-          "id": "zzz-mon-200032",
-          "name": "OfficialName_",
-          "kind": "monster",
-          "art": "../../Database/GameData/zzz/assets/monsters/Monster_HatiArmored.webp",
-          "fields": {
-            "rarity": "2 \u2605",
-            "type": "Ether Mutants"
-          },
-          "text": "The Armored Hati is widely regarded as a formidable adversary by many experienced Hollow investigators.\nAlthough its armored shell limits its agility, it compensates with exceptional resistance to attacks.\nAdditionally, the corrupted material on its body forms sharp and hardened protrusions that can cause additional damage when an Armored Hati charges at high speeds.\nThis creature's agile movements, resilience to blows, and seamless armor compel even the most seasoned explorers to seek alternative routes to avoid direct confrontation.\nSome novice Hollow Raiders have attempted to lure Armored Hati away with pet food.\nHowever, these endeavors have proven futile.\n\"Run! It doesn't like this flavor of dog food!\""
-        },
-        {
-          "id": "zzz-mon-200033",
-          "name": "OfficialName_",
-          "kind": "monster",
-          "art": "../../Database/GameData/zzz/assets/monsters/Monster_HatiArmoredPro.webp",
           "fields": {
             "rarity": "2 \u2605",
             "type": "Ether Mutants"
@@ -2180,39 +1850,6 @@
             "type": "Ether Mutants"
           },
           "text": "Many novice Hollow Raiders who come across an Arlaune for the first time are often deceived by its appearance, mistakenly assuming it to be a harmless plant.\nHowever, upon approaching it, they discover that Arlaune release a concentrated discharge of Ether matter, catching their unsuspecting victims off guard.\n\"Huh? I tried to water it, and it spat at me?\""
-        },
-        {
-          "id": "zzz-mon-200052",
-          "name": "OfficialName_",
-          "kind": "monster",
-          "art": "../../Database/GameData/zzz/assets/monsters/Monster_Arlaune.webp",
-          "fields": {
-            "rarity": "2 \u2605",
-            "type": "Ether Mutants"
-          },
-          "text": "Many novice Hollow Raiders who come across an Arlaune for the first time are often deceived by its appearance, mistakenly assuming it to be a harmless plant.\nHowever, upon approaching it, they discover that Arlaune release a concentrated discharge of Ether matter, catching their unsuspecting victims off guard.\n\"Huh? I tried to water it, and it spat at me?\""
-        },
-        {
-          "id": "zzz-mon-200053",
-          "name": "OfficialName_",
-          "kind": "monster",
-          "art": "../../Database/GameData/zzz/assets/monsters/Monster_ArlaunePro.webp",
-          "fields": {
-            "rarity": "2 \u2605",
-            "type": "Ether Mutants"
-          },
-          "text": "Many novice Hollow Raiders who come across an Arlaune for the first time are often deceived by its appearance, mistakenly assuming it to be a harmless plant.\nHowever, upon approaching it, they discover that Arlaune release a concentrated discharge of Ether matter, catching their unsuspecting victims off guard.\n\"Huh? I tried to water it, and it spat at me?\""
-        },
-        {
-          "id": "zzz-mon-200061",
-          "name": "OfficialName_",
-          "kind": "monster",
-          "art": "../../Database/GameData/zzz/assets/monsters/Monster_LAAndroidPro.webp",
-          "fields": {
-            "rarity": "2 \u2605",
-            "type": "Public Security"
-          },
-          "text": "An automatic combat mech utilized by Public Security. It possesses various combat modes tailored to various Ethereals types. Its weapons include circular chainsaws and fusion heat rays.\nSweepers can swiftly identify target Ethereals and adapt to the most effective combat strategy.\nHowever, their reliability diminishes to some extent when faced with Hollow Raiders who possess greater versatility than Ethereals.\n\"Stirring, chopping, heating... I wonder who came up with this? Maybe some undercover agent from a kitchenware company trying to boost sales?\""
         },
         {
           "id": "zzz-mon-200071",
@@ -2290,17 +1927,6 @@
             "type": "Rebel Soldiers"
           },
           "text": "A heavy infantry unit belonging to the New Eridu Defense Force.\nEquipped with \"Gray Rhino\" heavy combat armor paired with a complete arsenal enhanced using Ether technology, they can sustain high-intensity firepower for an extended period when ample ammunition is available. They serve as the assault core of a combat team and are often deployed as the front line in assault and clearance operations.\nAfter the fall of the old capital, many soldiers left the army and joined civilian factions. Since then, these elite gunners have emerged under various banners, including private armies of plutocrats, new security companies, and even roving gangs of bandits...\n\"I'm convinced those heavy gunners are secretly adorable little girls who somehow manage to hide all that ammo in the extra pockets of their combat suits. I mean, how else can you explain their endless stockpile of shells?\""
-        },
-        {
-          "id": "zzz-mon-200101",
-          "name": "OfficialName_",
-          "kind": "monster",
-          "art": "../../Database/GameData/zzz/assets/monsters/Monster_TarasqueMixerPro.webp",
-          "fields": {
-            "rarity": "2 \u2605",
-            "type": "Ether Mutants"
-          },
-          "text": "Based on their research, the Hollow Investigative Association speculates the Tarasque Mixer contains various levels of liquefied Ether.\nWhen it stirs and mixes its stored Ether, a complex reaction takes place, resulting in the release of destructive and violent energy. The power unleashed is comparable to that of the heavy artillery employed by the Defense Force.\nExperienced investigators understand the importance of maintaining a low profile to avoid direct bombardment from its heavy artillery.\n\"When it leaned down towards me, I thought it was some kind of strange welcoming gift. But when its cannon chamber lit up, I realized... it was a farewell gift.\""
         },
         {
           "id": "zzz-mon-200121",
@@ -2424,17 +2050,6 @@
           "text": "A potent humanoid living Ether, initially observed in the Laketown Hollow and documented by the Third Investigation Team of the Hollow Investigative Association. The exact correlation between these living Ether beings and the downfall of the lakeside town known as Blaise remains uncertain.\nDue to their immense power and formidable fighting style, the HIA has labeled them as highly dangerous and advises novice investigators avoid direct confrontations with them.\n\"Don't let it activate its sword, and if it already has... just don't get cut.\""
         },
         {
-          "id": "zzz-mon-300003",
-          "name": "OfficialName_",
-          "kind": "monster",
-          "art": "../../Database/GameData/zzz/assets/monsters/Monster_DurahanPro.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Ether Mutants"
-          },
-          "text": "A potent humanoid living Ether, initially observed in the Laketown Hollow and documented by the Third Investigation Team of the Hollow Investigative Association. The exact correlation between these living Ether beings and the downfall of the lakeside town known as Blaise remains uncertain.\nDue to their immense power and formidable fighting style, the HIA has labeled them as highly dangerous and advises novice investigators avoid direct confrontations with them.\n\"Don't let it activate its sword, and if it already has... just don't get cut.\""
-        },
-        {
           "id": "zzz-mon-300004",
           "name": "Ionized - Dullahan",
           "kind": "monster",
@@ -2463,28 +2078,6 @@
           "art": "../../Database/GameData/zzz/assets/monsters/Monster_DeathXIIIGreyPro.webp",
           "fields": {
             "rarity": "2 \u2605",
-            "type": "Ether Mutants"
-          },
-          "text": "Hollow exploration can be mentally distressing, and Thanatos, with its unique teleportation ability and unpredictable attack patterns, has become a common psychological challenge among Hollow Raiders.\nA considerable number of individuals who have faced Thanatos alone in the Hollow have lost all courage to continue their ventures and instead chosen to retire prematurely.\nAs a result, these elusive entities have become recurring figures in horror movies.\n\"The slender shadow disappears before your eyes and reappears behind you...\"\n\"What should I do? Now I'm too scared to even go to the restroom alone...\""
-        },
-        {
-          "id": "zzz-mon-300012",
-          "name": "OfficialName_",
-          "kind": "monster",
-          "art": "../../Database/GameData/zzz/assets/monsters/Monster_DeathXIII.webp",
-          "fields": {
-            "rarity": "2 \u2605",
-            "type": "Ether Mutants"
-          },
-          "text": "Hollow exploration can be mentally distressing, and Thanatos, with its unique teleportation ability and unpredictable attack patterns, has become a common psychological challenge among Hollow Raiders.\nA considerable number of individuals who have faced Thanatos alone in the Hollow have lost all courage to continue their ventures and instead chosen to retire prematurely.\nAs a result, these elusive entities have become recurring figures in horror movies.\n\"The slender shadow disappears before your eyes and reappears behind you...\"\n\"What should I do? Now I'm too scared to even go to the restroom alone...\""
-        },
-        {
-          "id": "zzz-mon-300013",
-          "name": "OfficialName_",
-          "kind": "monster",
-          "art": "../../Database/GameData/zzz/assets/monsters/Monster_DeathXIIIPro.webp",
-          "fields": {
-            "rarity": "3 \u2605",
             "type": "Ether Mutants"
           },
           "text": "Hollow exploration can be mentally distressing, and Thanatos, with its unique teleportation ability and unpredictable attack patterns, has become a common psychological challenge among Hollow Raiders.\nA considerable number of individuals who have faced Thanatos alone in the Hollow have lost all courage to continue their ventures and instead chosen to retire prematurely.\nAs a result, these elusive entities have become recurring figures in horror movies.\n\"The slender shadow disappears before your eyes and reappears behind you...\"\n\"What should I do? Now I'm too scared to even go to the restroom alone...\""
@@ -3188,46 +2781,13 @@
       "key": "items",
       "title": "Items",
       "source": "GameData",
-      "count": 4952,
+      "count": 4747,
       "items": [
         {
           "id": "zzz-item-1",
           "name": "Gear Coins",
           "kind": "item",
           "art": "../../Database/GameData/zzz/assets/items/IconFund.webp",
-          "fields": {
-            "rarity": "2 \u2605",
-            "type": "Currency"
-          },
-          "text": ""
-        },
-        {
-          "id": "zzz-item-2",
-          "name": "Item_Chessboard_Key",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/ChessBoardItemIcon_Key.webp",
-          "fields": {
-            "rarity": "2 \u2605",
-            "type": "Currency"
-          },
-          "text": ""
-        },
-        {
-          "id": "zzz-item-3",
-          "name": "Item_Chessboard_Key",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/ChessBoardItemIcon_Key.webp",
-          "fields": {
-            "rarity": "2 \u2605",
-            "type": "Currency"
-          },
-          "text": ""
-        },
-        {
-          "id": "zzz-item-4",
-          "name": "Item_Chessboard_Key",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/ChessBoardItemIcon_Key.webp",
           "fields": {
             "rarity": "2 \u2605",
             "type": "Currency"
@@ -3697,17 +3257,6 @@
           "text": "A very sturdy storage chest. It looks quite valuable."
         },
         {
-          "id": "zzz-item-405",
-          "name": "Item_Activity_GroceryPoint_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Currency"
-          },
-          "text": ""
-        },
-        {
           "id": "zzz-item-406",
           "name": "Engagement Record Points",
           "kind": "item",
@@ -4016,17 +3565,6 @@
           "text": "Advanced enhancement item obtained by challenging powerful foes, completing explorations, and solving puzzles in the Qingming Realm."
         },
         {
-          "id": "zzz-item-434",
-          "name": "Item_Activity_FCG_Point_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Currency"
-          },
-          "text": ""
-        },
-        {
           "id": "zzz-item-435",
           "name": "Victory Points",
           "kind": "item",
@@ -4069,83 +3607,6 @@
             "type": "Currency"
           },
           "text": "Accumulate Star Points to boost Star Progress and increase the popularity of the Angels of Delusion Official Account."
-        },
-        {
-          "id": "zzz-item-439",
-          "name": "Item_ActivityBlindBox_CostItem_Day01",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Currency"
-          },
-          "text": ""
-        },
-        {
-          "id": "zzz-item-440",
-          "name": "Item_ActivityBlindBox_CostItem_Day02",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Currency"
-          },
-          "text": ""
-        },
-        {
-          "id": "zzz-item-441",
-          "name": "Item_ActivityBlindBox_CostItem_Day03",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Currency"
-          },
-          "text": ""
-        },
-        {
-          "id": "zzz-item-442",
-          "name": "Item_ActivityBlindBox_CostItem_Day04",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Currency"
-          },
-          "text": ""
-        },
-        {
-          "id": "zzz-item-443",
-          "name": "Item_ActivityBlindBox_CostItem_Day05",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Currency"
-          },
-          "text": ""
-        },
-        {
-          "id": "zzz-item-444",
-          "name": "Item_ActivityBlindBox_CostItem_Day06",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Currency"
-          },
-          "text": ""
-        },
-        {
-          "id": "zzz-item-445",
-          "name": "Item_ActivityBlindBox_CostItem_Day07",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Currency"
-          },
-          "text": ""
         },
         {
           "id": "zzz-item-446",
@@ -4234,17 +3695,6 @@
             "type": "Currency"
           },
           "text": "Event-exclusive Bangboo badges for \"Gilded Surprise, Wonderful Boo-ns,\" featuring both the \"Lucky\" and \"Gilded\" series. These badges were a total hit thanks to their festive vibes."
-        },
-        {
-          "id": "zzz-item-454",
-          "name": "ActivityBangkov_Coin_Name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/BangkovCoinNormal.webp",
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Currency"
-          },
-          "text": "Internal currency used within the Marcel Group."
         },
         {
           "id": "zzz-item-455",
@@ -4368,17 +3818,6 @@
           "text": "The analysis data of a special type of Ether crystal. It will increase your current investigation progress."
         },
         {
-          "id": "zzz-item-703",
-          "name": "Item_AbyssPoint_Name_703",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/EthericMatterSamples.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Resource"
-          },
-          "text": "Completing explorations of Hollow Zero earns you Investigation Points, which can be used to upgrade your Investigation License Level and get extra supplies."
-        },
-        {
           "id": "zzz-item-704",
           "name": "\"Deep Cleaning\" Service Card",
           "kind": "item",
@@ -4388,56 +3827,6 @@
             "type": "Resource"
           },
           "text": "Allows the Proxy to quickly complete stages in Hollow Zero: Withered Domain and The Mystery of Arpeggio Fault and claim the corresponding rewards directly."
-        },
-        {
-          "id": "zzz-item-801",
-          "name": "Item_RoarinStore_Name_801",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/RoarinStoreCard01.webp",
-          "fields": {
-            "rarity": "4 \u2605"
-          },
-          "text": "Item_RoarinStore_Desc_801"
-        },
-        {
-          "id": "zzz-item-802",
-          "name": "Item_RoarinStore_Name_802",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/RoarinStoreCard02.webp",
-          "fields": {
-            "rarity": "4 \u2605"
-          },
-          "text": "Item_RoarinStore_Desc_802"
-        },
-        {
-          "id": "zzz-item-803",
-          "name": "Item_RoarinStore_Name_803",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/RoarinStoreCard03.webp",
-          "fields": {
-            "rarity": "4 \u2605"
-          },
-          "text": "Item_RoarinStore_Desc_803"
-        },
-        {
-          "id": "zzz-item-804",
-          "name": "Item_RoarinStore_Name_804",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/RoarinStoreCard04.webp",
-          "fields": {
-            "rarity": "3 \u2605"
-          },
-          "text": "Item_RoarinStore_Desc_804"
-        },
-        {
-          "id": "zzz-item-805",
-          "name": "Item_RoarinStore_Name_805",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/RoarinStoreCard05.webp",
-          "fields": {
-            "rarity": "2 \u2605"
-          },
-          "text": "Item_RoarinStore_Desc_805"
         },
         {
           "id": "zzz-item-1011",
@@ -5060,17 +4449,6 @@
           "name": "Norma",
           "kind": "item",
           "art": "../../Database/GameData/zzz/assets/items/IconRolePiece64.webp",
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Agent"
-          },
-          "text": "Use it to obtain the Agent or unlock the Agent's Mindscapes."
-        },
-        {
-          "id": "zzz-item-1581",
-          "name": "Avatar_Female_Size02_Remielle",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/IconRolePiece50.webp",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Agent"
@@ -5731,17 +5109,6 @@
           "name": "Agent Focus: Norma",
           "kind": "item",
           "art": "../../Database/GameData/zzz/assets/items/IconRolePiece64.webp",
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Agent Archive"
-          },
-          "text": "Used to unlock Agent's Mindscape Cinema"
-        },
-        {
-          "id": "zzz-item-5581",
-          "name": "Avatar_Female_Size02_Remielle_Piece",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/IconRolePiece50.webp",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Agent Archive"
@@ -14307,17 +13674,6 @@
           "text": ""
         },
         {
-          "id": "zzz-item-201308",
-          "name": "Item_HackCollection_01_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "5 \u2605",
-            "type": "Battle Resource"
-          },
-          "text": ""
-        },
-        {
           "id": "zzz-item-201401",
           "name": "Denny",
           "kind": "item",
@@ -14333,127 +13689,6 @@
           "name": "Denny",
           "kind": "item",
           "art": "../../Database/GameData/zzz/assets/items/IconCoin.webp",
-          "fields": {
-            "rarity": "1 \u2605",
-            "type": "Battle Resource"
-          },
-          "text": ""
-        },
-        {
-          "id": "zzz-item-201501",
-          "name": "Item_ResourceItem_01_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/Recovery.webp",
-          "fields": {
-            "rarity": "1 \u2605",
-            "type": "Battle Resource"
-          },
-          "text": ""
-        },
-        {
-          "id": "zzz-item-201502",
-          "name": "Item_ResourceItem_02_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/Recovery.webp",
-          "fields": {
-            "rarity": "1 \u2605",
-            "type": "Battle Resource"
-          },
-          "text": ""
-        },
-        {
-          "id": "zzz-item-201503",
-          "name": "Item_ResourceItem_03_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/Recovery.webp",
-          "fields": {
-            "rarity": "1 \u2605",
-            "type": "Battle Resource"
-          },
-          "text": ""
-        },
-        {
-          "id": "zzz-item-201504",
-          "name": "Item_SwitchItem_01_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/Recovery.webp",
-          "fields": {
-            "rarity": "1 \u2605",
-            "type": "Battle Resource"
-          },
-          "text": ""
-        },
-        {
-          "id": "zzz-item-201505",
-          "name": "Item_TimeItem_01_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/Recovery.webp",
-          "fields": {
-            "rarity": "1 \u2605",
-            "type": "Battle Resource"
-          },
-          "text": ""
-        },
-        {
-          "id": "zzz-item-201506",
-          "name": "Item_ResourceItem_01_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/Recovery.webp",
-          "fields": {
-            "rarity": "1 \u2605",
-            "type": "Battle Resource"
-          },
-          "text": ""
-        },
-        {
-          "id": "zzz-item-201507",
-          "name": "Item_ResourceItem_01_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/Recovery.webp",
-          "fields": {
-            "rarity": "1 \u2605",
-            "type": "Battle Resource"
-          },
-          "text": ""
-        },
-        {
-          "id": "zzz-item-201508",
-          "name": "Item_ResourceItem_01_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/Recovery.webp",
-          "fields": {
-            "rarity": "1 \u2605",
-            "type": "Battle Resource"
-          },
-          "text": ""
-        },
-        {
-          "id": "zzz-item-201509",
-          "name": "Item_ResourceItem_01_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/Recovery.webp",
-          "fields": {
-            "rarity": "1 \u2605",
-            "type": "Battle Resource"
-          },
-          "text": ""
-        },
-        {
-          "id": "zzz-item-201510",
-          "name": "Item_ResourceItem_01_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/Recovery.webp",
-          "fields": {
-            "rarity": "1 \u2605",
-            "type": "Battle Resource"
-          },
-          "text": ""
-        },
-        {
-          "id": "zzz-item-201511",
-          "name": "Item_ResourceItem_01_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/Recovery.webp",
           "fields": {
             "rarity": "1 \u2605",
             "type": "Battle Resource"
@@ -14536,50 +13771,6 @@
             "type": "Battle Resource"
           },
           "text": "All Agents lose 50% of their HP."
-        },
-        {
-          "id": "zzz-item-201519",
-          "name": "201519",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/Choice006.webp",
-          "fields": {
-            "rarity": "1 \u2605",
-            "type": "Battle Resource"
-          },
-          "text": ""
-        },
-        {
-          "id": "zzz-item-201520",
-          "name": "201520",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/Choice006.webp",
-          "fields": {
-            "rarity": "1 \u2605",
-            "type": "Battle Resource"
-          },
-          "text": ""
-        },
-        {
-          "id": "zzz-item-201521",
-          "name": "201521",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/Choice006.webp",
-          "fields": {
-            "rarity": "1 \u2605",
-            "type": "Battle Resource"
-          },
-          "text": ""
-        },
-        {
-          "id": "zzz-item-201522",
-          "name": "201522",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/Choice006.webp",
-          "fields": {
-            "rarity": "1 \u2605",
-            "type": "Battle Resource"
-          },
-          "text": ""
         },
         {
           "id": "zzz-item-202001",
@@ -14892,50 +14083,6 @@
         {
           "id": "zzz-item-206005",
           "name": "Gear Coins",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/IconFund.webp",
-          "fields": {
-            "rarity": "1 \u2605",
-            "type": "Battle Resource"
-          },
-          "text": ""
-        },
-        {
-          "id": "zzz-item-206006",
-          "name": "Item_SummerSurfing_Coin",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/IconFund.webp",
-          "fields": {
-            "rarity": "1 \u2605",
-            "type": "Battle Resource"
-          },
-          "text": ""
-        },
-        {
-          "id": "zzz-item-206007",
-          "name": "Item_SummerSurfing_BigCoin",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/IconFund.webp",
-          "fields": {
-            "rarity": "1 \u2605",
-            "type": "Battle Resource"
-          },
-          "text": ""
-        },
-        {
-          "id": "zzz-item-206008",
-          "name": "Item_SummerSurfing_Magnet",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/IconFund.webp",
-          "fields": {
-            "rarity": "1 \u2605",
-            "type": "Battle Resource"
-          },
-          "text": ""
-        },
-        {
-          "id": "zzz-item-206009",
-          "name": "Item_SummerSurfing_InvincibleStar",
           "kind": "item",
           "art": "../../Database/GameData/zzz/assets/items/IconFund.webp",
           "fields": {
@@ -17222,28 +16369,6 @@
           "text": "A photo from Nicole."
         },
         {
-          "id": "zzz-item-306007",
-          "name": "Item_ClueItem_Story_07_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/IconParts.webp",
-          "fields": {
-            "rarity": "2 \u2605",
-            "type": "Clue Item"
-          },
-          "text": "Item_ClueItem_Story_07_des"
-        },
-        {
-          "id": "zzz-item-306008",
-          "name": "Item_ClueItem_Story_08_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/IconParts.webp",
-          "fields": {
-            "rarity": "2 \u2605",
-            "type": "Clue Item"
-          },
-          "text": "Item_ClueItem_Story_08_des"
-        },
-        {
           "id": "zzz-item-306010",
           "name": "Detective Sketch",
           "kind": "item",
@@ -17264,17 +16389,6 @@
             "type": "Clue Item"
           },
           "text": "A hand-drawn blueprint provided by Victoria Housekeeping Co. that clearly outlines the structure of the Ballet Twins and the route to the rooftop of Tower B."
-        },
-        {
-          "id": "zzz-item-306012",
-          "name": "Item_ClueItem_Story_12_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/IconParts.webp",
-          "fields": {
-            "rarity": "2 \u2605",
-            "type": "Clue Item"
-          },
-          "text": "Item_ClueItem_Story_12_des"
         },
         {
           "id": "zzz-item-306013",
@@ -17352,28 +16466,6 @@
             "type": "Clue Item"
           },
           "text": "A letter of recommendation addressed to an academic at the White Star Institute."
-        },
-        {
-          "id": "zzz-item-306021",
-          "name": "306021",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/IconParts.webp",
-          "fields": {
-            "rarity": "2 \u2605",
-            "type": "Clue Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "zzz-item-306022",
-          "name": "306022",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/IconParts.webp",
-          "fields": {
-            "rarity": "2 \u2605",
-            "type": "Clue Item"
-          },
-          "text": ""
         },
         {
           "id": "zzz-item-306023",
@@ -21411,72 +20503,6 @@
             "type": "Info"
           },
           "text": ""
-        },
-        {
-          "id": "zzz-item-900102",
-          "name": "EquipmentSuit_01_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "2 \u2605",
-            "type": "Info"
-          },
-          "text": "EquipmentSuit_01_4_des"
-        },
-        {
-          "id": "zzz-item-900202",
-          "name": "EquipmentSuit_02_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "2 \u2605",
-            "type": "Info"
-          },
-          "text": "EquipmentSuit_02_4_des"
-        },
-        {
-          "id": "zzz-item-900303",
-          "name": "EquipmentSuit_10_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Info"
-          },
-          "text": "EquipmentSuit_03_4_des"
-        },
-        {
-          "id": "zzz-item-900403",
-          "name": "EquipmentSuit_11_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Info"
-          },
-          "text": "EquipmentSuit_04_4_des"
-        },
-        {
-          "id": "zzz-item-900504",
-          "name": "EquipmentSuit_12_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Info"
-          },
-          "text": "EquipmentSuit_05_4_des"
-        },
-        {
-          "id": "zzz-item-900604",
-          "name": "EquipmentSuit_13_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Info"
-          },
-          "text": "EquipmentSuit_06_4_des"
         },
         {
           "id": "zzz-item-1000000",
@@ -29606,28 +28632,6 @@
           "text": "Increases Agent Max HP by 15%."
         },
         {
-          "id": "zzz-item-1105001",
-          "name": "Curse_1105001_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Bless"
-          },
-          "text": "Curse_1105001_des"
-        },
-        {
-          "id": "zzz-item-1105002",
-          "name": "Curse_1105002_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Bless"
-          },
-          "text": "Curse_1105002_des"
-        },
-        {
           "id": "zzz-item-1106001",
           "name": "Metabolic Trauma",
           "kind": "item",
@@ -29659,17 +28663,6 @@
             "type": "Bless"
           },
           "text": "Significantly increases gained Pressure."
-        },
-        {
-          "id": "zzz-item-1106004",
-          "name": "Curse_1106004_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Bless"
-          },
-          "text": "Curse_1106004_des"
         },
         {
           "id": "zzz-item-1110001",
@@ -29980,72 +28973,6 @@
           "text": "A notebook with info recorded inside. You can check the exact content."
         },
         {
-          "id": "zzz-item-1200004",
-          "name": "Item_Chessboard_1200004_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/ChessBoardItemIcon_Note.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Hollow Only"
-          },
-          "text": "Item_Chessboard_1200004_des"
-        },
-        {
-          "id": "zzz-item-1200005",
-          "name": "Item_Chessboard_1200005_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/ChessBoardItemIcon_Note.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Hollow Only"
-          },
-          "text": "Item_Chessboard_1200005_des"
-        },
-        {
-          "id": "zzz-item-1200006",
-          "name": "Item_Chessboard_1200006_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/ChessBoardItemIcon_Note.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Hollow Only"
-          },
-          "text": "Item_Chessboard_1200006_des"
-        },
-        {
-          "id": "zzz-item-1200007",
-          "name": "Item_Chessboard_1200007_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/ChessBoardItemIcon_Note.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Hollow Only"
-          },
-          "text": "Item_Chessboard_1200007_des"
-        },
-        {
-          "id": "zzz-item-1200008",
-          "name": "Item_Chessboard_1200008_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/ChessBoardItemIcon_Note.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Hollow Only"
-          },
-          "text": "Item_Chessboard_1200008_des"
-        },
-        {
-          "id": "zzz-item-1200009",
-          "name": "Item_Chessboard_1200009_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/ChessBoardItemIcon_Note.webp",
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Hollow Only"
-          },
-          "text": "Item_Chessboard_1200009_des"
-        },
-        {
           "id": "zzz-item-1200010",
           "name": "Ether Fuel Cells",
           "kind": "item",
@@ -30088,17 +29015,6 @@
             "type": "Hollow Only"
           },
           "text": ""
-        },
-        {
-          "id": "zzz-item-1200014",
-          "name": "Item_Chessboard_1200014_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/EtherFuel.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Hollow Only"
-          },
-          "text": "Item_Chessboard_1200014_des"
         },
         {
           "id": "zzz-item-1200015",
@@ -30445,17 +29361,6 @@
             "rarity": "3 \u2605"
           },
           "text": "When activating EX Special Attack, hold Special Attack to charge, increasing the skill's power. The DMG Multiplier for EX Special Attack increases by 200%, and guaranteeing a critical hit."
-        },
-        {
-          "id": "zzz-item-1310606",
-          "name": "TarotCard_1310606_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/CardAdversity05.webp",
-          "fields": {
-            "rarity": "2 \u2605",
-            "type": "Medal"
-          },
-          "text": "TarotCard_1310606_des"
         },
         {
           "id": "zzz-item-1310701",
@@ -30936,36 +29841,6 @@
           "text": "Tag Assist reduces DEF by 10% for 10s upon hitting an enemy."
         },
         {
-          "id": "zzz-item-1312101",
-          "name": "TarotCard_1312101_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/CardDailyUse1011.webp",
-          "fields": {
-            "rarity": "3 \u2605"
-          },
-          "text": "TarotCard_1312101_des"
-        },
-        {
-          "id": "zzz-item-1312102",
-          "name": "TarotCard_1312102_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/CardDailyUse1011.webp",
-          "fields": {
-            "rarity": "3 \u2605"
-          },
-          "text": "TarotCard_1312102_des"
-        },
-        {
-          "id": "zzz-item-1312103",
-          "name": "TarotCard_1312103_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/CardDailyUse1011.webp",
-          "fields": {
-            "rarity": "3 \u2605"
-          },
-          "text": "TarotCard_1312103_des"
-        },
-        {
           "id": "zzz-item-1312201",
           "name": "Astra Yao - Perfect Save",
           "kind": "item",
@@ -31159,16 +30034,6 @@
             "rarity": "4 \u2605"
           },
           "text": "Reduces the Decibels required to launch an Ultimate to 2,000."
-        },
-        {
-          "id": "zzz-item-1320103",
-          "name": "Relic_1320103_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/Relic004.webp",
-          "fields": {
-            "rarity": "4 \u2605"
-          },
-          "text": "Decibels limit is increased to 6,000 for all squad members."
         },
         {
           "id": "zzz-item-1320201",
@@ -31369,36 +30234,6 @@
             "rarity": "4 \u2605"
           },
           "text": "When the active character lands a heavy attack with Assist Follow-Up, EX Special Attack, Ultimate, or triggers Perfect Dodge, it will trigger Tag Assist for the next character. Press at this moment, and the next character will perform a Quick Assist centered on the enemy. Tag Assist won't switch the current active character and the damage dealt is considered Aftershock DMG. Tag Assist deals 200% increased DMG, 50% increased Daze, and 100% increased Anomaly Buildup. After the squad performs 3 Tag Assists, the next Tag Assist will trigger Vital View."
-        },
-        {
-          "id": "zzz-item-1322101",
-          "name": "Relic_1322101_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/CardDailyUse1011.webp",
-          "fields": {
-            "rarity": "4 \u2605"
-          },
-          "text": "Relic_132210101_des"
-        },
-        {
-          "id": "zzz-item-1322102",
-          "name": "Relic_1322102_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/CardDailyUse1011.webp",
-          "fields": {
-            "rarity": "4 \u2605"
-          },
-          "text": "Relic_132210201_des"
-        },
-        {
-          "id": "zzz-item-1322103",
-          "name": "Relic_1322103_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/CardDailyUse1011.webp",
-          "fields": {
-            "rarity": "4 \u2605"
-          },
-          "text": "Relic_132210301_des"
         },
         {
           "id": "zzz-item-1322201",
@@ -32383,16 +31218,6 @@
             "rarity": "3 \u2605"
           },
           "text": "Upgrade 1 owned Gear once"
-        },
-        {
-          "id": "zzz-item-1340006",
-          "name": "Choice_1340006_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/IconFund.webp",
-          "fields": {
-            "rarity": "2 \u2605"
-          },
-          "text": "Choice_1340006_des"
         },
         {
           "id": "zzz-item-1340007",
@@ -33978,66 +32803,6 @@
           "text": "Use Ether Dewdrops on Pyrois"
         },
         {
-          "id": "zzz-item-1341073",
-          "name": "Choice_1341073_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605"
-          },
-          "text": "Choice_1341073_des"
-        },
-        {
-          "id": "zzz-item-1341074",
-          "name": "Choice_1341074_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605"
-          },
-          "text": "Choice_1341074_des"
-        },
-        {
-          "id": "zzz-item-1341075",
-          "name": "Choice_1341075_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605"
-          },
-          "text": "Choice_1341075_des"
-        },
-        {
-          "id": "zzz-item-1341076",
-          "name": "Choice_1341076_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605"
-          },
-          "text": "Choice_1341076_des"
-        },
-        {
-          "id": "zzz-item-1341077",
-          "name": "Choice_1341077_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605"
-          },
-          "text": "Choice_1341077_des"
-        },
-        {
-          "id": "zzz-item-1341078",
-          "name": "Choice_1341078_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605"
-          },
-          "text": "Choice_1341078_des"
-        },
-        {
           "id": "zzz-item-1342011",
           "name": "\"Heard It!\"",
           "kind": "item",
@@ -35075,16 +33840,6 @@
           "text": "Type: Press and hold to fire continuously. Releasing the button triggers an area explosion.\nHit Radius: Medium\nRoF: Fast\nCapacity: 120\nActive Skill: Enters a state of no ammo consumption for several seconds while enhancing coverage area. Continuous attack can be maintained during skill duration."
         },
         {
-          "id": "zzz-item-1344001",
-          "name": "1344001",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/ActivityFruitToysChoiceReward.webp",
-          "fields": {
-            "rarity": "4 \u2605"
-          },
-          "text": ""
-        },
-        {
           "id": "zzz-item-1350001",
           "name": "[Hoshimi Miyabi] Reflections and Shadows",
           "kind": "item",
@@ -35245,16 +34000,6 @@
           "text": "Corin's Dash Attack and Quick Assist are replaced with Dash Attack: Oopsy-Daisy! - Modified. Hold the Basic Attack button to maintain sprint state, which ends after hitting enemies 30 times with consecutive chainsaw slashes or upon releasing the button. Dash Attack: Oopsy-Daisy! - Modified will reduce enemy DEF by 3% when it hits, stacking up to 10 times and lasting 15s. Repeated triggers reset the duration."
         },
         {
-          "id": "zzz-item-1350053",
-          "name": "BranchRelic_13500530_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/Relic032.webp",
-          "fields": {
-            "rarity": "4 \u2605"
-          },
-          "text": "BranchRelic_13500530_des"
-        },
-        {
           "id": "zzz-item-1350061",
           "name": "[Astra Yao] Rainbow Concerto",
           "kind": "item",
@@ -35373,66 +34118,6 @@
             "rarity": "4 \u2605"
           },
           "text": "When Ju Fufu's 3rd Basic Attack sequence hits an enemy, she gains 3 Might.\nAfter executing the 4th Basic Attack sequence, pressing Basic Attack again will trigger Basic Attack: Tiger Seven Forms - Flaming Claw - Blazing Will. If Hu Wei is present at this time and Might is above 100, it will consume 100 Might to trigger Hu Wei's Chain Attack: Suppressing Tiger Cauldron."
-        },
-        {
-          "id": "zzz-item-1350101",
-          "name": "BranchRelic_13501010_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/Relic012.webp",
-          "fields": {
-            "rarity": "4 \u2605"
-          },
-          "text": "BranchRelic_13501010_des"
-        },
-        {
-          "id": "zzz-item-1350102",
-          "name": "BranchRelic_13501020_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/Relic013.webp",
-          "fields": {
-            "rarity": "4 \u2605"
-          },
-          "text": "BranchRelic_13501020_des"
-        },
-        {
-          "id": "zzz-item-1350103",
-          "name": "BranchRelic_13501030_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/Relic014.webp",
-          "fields": {
-            "rarity": "4 \u2605"
-          },
-          "text": "BranchRelic_13501030_des"
-        },
-        {
-          "id": "zzz-item-1350111",
-          "name": "BranchRelic_13501110_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/Relic012.webp",
-          "fields": {
-            "rarity": "4 \u2605"
-          },
-          "text": "BranchRelic_13501110_des"
-        },
-        {
-          "id": "zzz-item-1350112",
-          "name": "BranchRelic_13501120_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/Relic013.webp",
-          "fields": {
-            "rarity": "4 \u2605"
-          },
-          "text": "BranchRelic_13501120_des"
-        },
-        {
-          "id": "zzz-item-1350113",
-          "name": "BranchRelic_13501130_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/Relic014.webp",
-          "fields": {
-            "rarity": "4 \u2605"
-          },
-          "text": "BranchRelic_13501130_des"
         },
         {
           "id": "zzz-item-1350121",
@@ -37107,39 +35792,6 @@
           "text": "It appears to be a lingering phantom from the past, muttering words like \"family,\" \"worth,\" and \"little bunny\" under its breath..."
         },
         {
-          "id": "zzz-item-1354028",
-          "name": "Coop_Clue_Item_1354028",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/ItemCoopClue.webp",
-          "fields": {
-            "rarity": "2 \u2605",
-            "type": "Clue"
-          },
-          "text": "Coop_Clue_Item_Desc_1354028"
-        },
-        {
-          "id": "zzz-item-1354029",
-          "name": "Coop_Clue_Item_1354029",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/ItemCoopClue.webp",
-          "fields": {
-            "rarity": "2 \u2605",
-            "type": "Clue"
-          },
-          "text": "Coop_Clue_Item_Desc_1354029"
-        },
-        {
-          "id": "zzz-item-1354030",
-          "name": "Coop_Clue_Item_1354030",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/ItemCoopClue.webp",
-          "fields": {
-            "rarity": "2 \u2605",
-            "type": "Clue"
-          },
-          "text": "Coop_Clue_Item_Desc_1354030"
-        },
-        {
           "id": "zzz-item-1355001",
           "name": "Lumite Ore Refinement Log I",
           "kind": "item",
@@ -38653,94 +37305,6 @@
             "type": "Tarot Card"
           },
           "text": "During Chain Time, all Agents gain 1.7 Energy and Adrenaline per second, and Decibel recovery rate increases by 25%."
-        },
-        {
-          "id": "zzz-item-1358001",
-          "name": "Coop_Message_Item_1358001",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "1 \u2605",
-            "type": "Sticker"
-          },
-          "text": "Coop_Message_Item_Desc_1358001"
-        },
-        {
-          "id": "zzz-item-1358002",
-          "name": "Coop_Message_Item_1358002",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "1 \u2605",
-            "type": "Sticker"
-          },
-          "text": "Coop_Message_Item_Desc_1358002"
-        },
-        {
-          "id": "zzz-item-1358003",
-          "name": "Coop_Message_Item_1358003",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "1 \u2605",
-            "type": "Sticker"
-          },
-          "text": "Coop_Message_Item_Desc_1358003"
-        },
-        {
-          "id": "zzz-item-1358004",
-          "name": "Coop_Message_Item_1358004",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "1 \u2605",
-            "type": "Sticker"
-          },
-          "text": "Coop_Message_Item_Desc_1358004"
-        },
-        {
-          "id": "zzz-item-1358005",
-          "name": "Coop_Message_Item_1358005",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "1 \u2605",
-            "type": "Sticker"
-          },
-          "text": "Coop_Message_Item_Desc_1358005"
-        },
-        {
-          "id": "zzz-item-1358006",
-          "name": "Coop_Message_Item_1358006",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "1 \u2605",
-            "type": "Sticker"
-          },
-          "text": "Coop_Message_Item_Desc_1358006"
-        },
-        {
-          "id": "zzz-item-1358007",
-          "name": "Coop_Message_Item_1358007",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "1 \u2605",
-            "type": "Sticker"
-          },
-          "text": "Coop_Message_Item_Desc_1358007"
-        },
-        {
-          "id": "zzz-item-1358008",
-          "name": "Coop_Message_Item_1358008",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "1 \u2605",
-            "type": "Sticker"
-          },
-          "text": "Coop_Message_Item_Desc_1358008"
         },
         {
           "id": "zzz-item-1358009",
@@ -41015,28 +39579,6 @@
           "text": "Obtained after unlocking Pyrois' Mindscape: Morning Star at Dawn."
         },
         {
-          "id": "zzz-item-3110110",
-          "name": "Skin_3110110_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Dress"
-          },
-          "text": "Skin_3110110_des"
-        },
-        {
-          "id": "zzz-item-3110210",
-          "name": "Skin_3110210_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Dress"
-          },
-          "text": "Skin_3110210_des"
-        },
-        {
           "id": "zzz-item-3110310",
           "name": "Lil Sassy",
           "kind": "item",
@@ -41059,72 +39601,6 @@
           "text": "Nicole's outfit."
         },
         {
-          "id": "zzz-item-3110410",
-          "name": "Skin_3110410_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Dress"
-          },
-          "text": "Skin_3110410_des"
-        },
-        {
-          "id": "zzz-item-3110510",
-          "name": "Skin_3110510_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Dress"
-          },
-          "text": "Skin_3110510_des"
-        },
-        {
-          "id": "zzz-item-3110610",
-          "name": "Skin_3110610_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Dress"
-          },
-          "text": "Skin_3110610_des"
-        },
-        {
-          "id": "zzz-item-3110710",
-          "name": "Skin_3110710_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Dress"
-          },
-          "text": "Skin_3110710_des"
-        },
-        {
-          "id": "zzz-item-3110810",
-          "name": "Skin_3110810_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Dress"
-          },
-          "text": "Skin_3110810_des"
-        },
-        {
-          "id": "zzz-item-3110910",
-          "name": "Skin_3110910_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Dress"
-          },
-          "text": "Skin_3110910_des"
-        },
-        {
           "id": "zzz-item-3110911",
           "name": "Dignified Blossom",
           "kind": "item",
@@ -41134,105 +39610,6 @@
             "type": "Dress"
           },
           "text": "Hoshimi Miyabi's outfit."
-        },
-        {
-          "id": "zzz-item-3111010",
-          "name": "Skin_3111010_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Dress"
-          },
-          "text": "Skin_3111010_des"
-        },
-        {
-          "id": "zzz-item-3111110",
-          "name": "Skin_3111110_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Dress"
-          },
-          "text": "Skin_3111110_des"
-        },
-        {
-          "id": "zzz-item-3111210",
-          "name": "Skin_3111210_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Dress"
-          },
-          "text": "Skin_3111210_des"
-        },
-        {
-          "id": "zzz-item-3111310",
-          "name": "Skin_3111310_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Dress"
-          },
-          "text": "Skin_3111310_des"
-        },
-        {
-          "id": "zzz-item-3111410",
-          "name": "Skin_3111410_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Dress"
-          },
-          "text": "Skin_3111410_des"
-        },
-        {
-          "id": "zzz-item-3111510",
-          "name": "Skin_3111510_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Dress"
-          },
-          "text": "Skin_3111510_des"
-        },
-        {
-          "id": "zzz-item-3111610",
-          "name": "Skin_3111610_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Dress"
-          },
-          "text": "Skin_3111610_des"
-        },
-        {
-          "id": "zzz-item-3111710",
-          "name": "Skin_3111710_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Dress"
-          },
-          "text": "Skin_3111710_des"
-        },
-        {
-          "id": "zzz-item-3111810",
-          "name": "Skin_3111810_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Dress"
-          },
-          "text": "Skin_3111810_des"
         },
         {
           "id": "zzz-item-3111910",
@@ -41257,61 +39634,6 @@
           "text": "Ellen's outfit."
         },
         {
-          "id": "zzz-item-3112010",
-          "name": "Skin_3112010_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Dress"
-          },
-          "text": "Skin_3112010_des"
-        },
-        {
-          "id": "zzz-item-3112110",
-          "name": "Skin_3112110_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Dress"
-          },
-          "text": "Skin_3112110_des"
-        },
-        {
-          "id": "zzz-item-3112210",
-          "name": "Skin_3112210_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Dress"
-          },
-          "text": "Skin_3112210_des"
-        },
-        {
-          "id": "zzz-item-3112410",
-          "name": "Skin_3112410_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Dress"
-          },
-          "text": "Skin_3112410_des"
-        },
-        {
-          "id": "zzz-item-3112510",
-          "name": "Skin_3112510_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Dress"
-          },
-          "text": "Skin_3112510_des"
-        },
-        {
           "id": "zzz-item-3112610",
           "name": "Hidden Nightfade",
           "kind": "item",
@@ -41332,50 +39654,6 @@
             "type": "Dress"
           },
           "text": "Jane's Outfit."
-        },
-        {
-          "id": "zzz-item-3112710",
-          "name": "Skin_3112710_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Dress"
-          },
-          "text": "Skin_3112710_des"
-        },
-        {
-          "id": "zzz-item-3112810",
-          "name": "Skin_3112810_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Dress"
-          },
-          "text": "Skin_3112810_des"
-        },
-        {
-          "id": "zzz-item-3112910",
-          "name": "Skin_3112910_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Dress"
-          },
-          "text": "Skin_3112910_des"
-        },
-        {
-          "id": "zzz-item-3113010",
-          "name": "Skin_3113010_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Dress"
-          },
-          "text": "Skin_3113010_des"
         },
         {
           "id": "zzz-item-3113110",
@@ -41400,17 +39678,6 @@
           "text": "Astra Yao's outfit."
         },
         {
-          "id": "zzz-item-3113210",
-          "name": "Skin_3113210_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Dress"
-          },
-          "text": "Skin_3113210_des"
-        },
-        {
           "id": "zzz-item-3113310",
           "name": "Fluttering Violet",
           "kind": "item",
@@ -41433,39 +39700,6 @@
           "text": "Vivian's Outfit."
         },
         {
-          "id": "zzz-item-3113410",
-          "name": "Skin_3113410_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Dress"
-          },
-          "text": "Skin_3113410_des"
-        },
-        {
-          "id": "zzz-item-3113510",
-          "name": "Skin_3113510_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Dress"
-          },
-          "text": "Skin_3113510_des"
-        },
-        {
-          "id": "zzz-item-3113610",
-          "name": "Skin_3113610_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Dress"
-          },
-          "text": "Skin_3113610_des"
-        },
-        {
           "id": "zzz-item-3113710",
           "name": "Summit of Clouds",
           "kind": "item",
@@ -41486,28 +39720,6 @@
             "type": "Dress"
           },
           "text": "Yixuan's Outfit."
-        },
-        {
-          "id": "zzz-item-3113810",
-          "name": "Skin_3113810_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Dress"
-          },
-          "text": "Skin_3113810_des"
-        },
-        {
-          "id": "zzz-item-3113910",
-          "name": "Skin_3113910_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Dress"
-          },
-          "text": "Skin_3113910_des"
         },
         {
           "id": "zzz-item-3114010",
@@ -41620,50 +39832,6 @@
           "text": "Komano Manato's Outfit."
         },
         {
-          "id": "zzz-item-3114510",
-          "name": "Skin_3114510_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Dress"
-          },
-          "text": "Skin_3114510_des"
-        },
-        {
-          "id": "zzz-item-3114610",
-          "name": "Skin_3114610_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Dress"
-          },
-          "text": "Skin_3114610_des"
-        },
-        {
-          "id": "zzz-item-3114710",
-          "name": "Skin_3114710_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Dress"
-          },
-          "text": "Skin_3114710_des"
-        },
-        {
-          "id": "zzz-item-3114810",
-          "name": "Skin_3114810_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Dress"
-          },
-          "text": "Skin_3114810_des"
-        },
-        {
           "id": "zzz-item-3114910",
           "name": "Dreams on Loop",
           "kind": "item",
@@ -41686,50 +39854,6 @@
           "text": "Sunna's Outfit."
         },
         {
-          "id": "zzz-item-3115010",
-          "name": "Skin_3115010_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Dress"
-          },
-          "text": "Skin_3115010_des"
-        },
-        {
-          "id": "zzz-item-3115011",
-          "name": "Skin_3115011_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Dress"
-          },
-          "text": "Skin_3115011_des"
-        },
-        {
-          "id": "zzz-item-3115020",
-          "name": "Skin_3115010_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Dress"
-          },
-          "text": "Skin_3115010_des"
-        },
-        {
-          "id": "zzz-item-3115021",
-          "name": "Skin_3115011_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Dress"
-          },
-          "text": "Skin_3115011_des"
-        },
-        {
           "id": "zzz-item-3115091",
           "name": "Discordant Note",
           "kind": "item",
@@ -41739,17 +39863,6 @@
             "type": "Outfit Set"
           },
           "text": "Aria Outfit"
-        },
-        {
-          "id": "zzz-item-3115110",
-          "name": "Skin_3115110_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Dress"
-          },
-          "text": "Skin_3115110_des"
         },
         {
           "id": "zzz-item-3115111",
@@ -41763,61 +39876,6 @@
           "text": "Nangong Yu's Outfit"
         },
         {
-          "id": "zzz-item-3115210",
-          "name": "Skin_3115210_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Dress"
-          },
-          "text": "Skin_3115210_des"
-        },
-        {
-          "id": "zzz-item-3115310",
-          "name": "Skin_3115310_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Dress"
-          },
-          "text": "Skin_3115310_des"
-        },
-        {
-          "id": "zzz-item-3115410",
-          "name": "Skin_3115410_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Dress"
-          },
-          "text": "Skin_3115410_des"
-        },
-        {
-          "id": "zzz-item-3115510",
-          "name": "Skin_3115510_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Dress"
-          },
-          "text": "Skin_3115510_des"
-        },
-        {
-          "id": "zzz-item-3115610",
-          "name": "Skin_3115610_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Dress"
-          },
-          "text": "Skin_3115610_des"
-        },
-        {
           "id": "zzz-item-3115611",
           "name": "Shade of Leisure",
           "kind": "item",
@@ -41827,28 +39885,6 @@
             "type": "Dress"
           },
           "text": "Velina's Outfit."
-        },
-        {
-          "id": "zzz-item-3115710",
-          "name": "Skin_3115711_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Dress"
-          },
-          "text": "Skin_3116110_des"
-        },
-        {
-          "id": "zzz-item-3115811",
-          "name": "Skin_3115811_name",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Dress"
-          },
-          "text": "Skin_3115811_des"
         },
         {
           "id": "zzz-item-3131551",
@@ -41992,61 +40028,6 @@
             "type": "Profile"
           },
           "text": "Test"
-        },
-        {
-          "id": "zzz-item-3200011",
-          "name": "Profile_3200011_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/TestItemIcon.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Profile"
-          },
-          "text": "Profile_3200011_des"
-        },
-        {
-          "id": "zzz-item-3200012",
-          "name": "Profile_3200012_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/TestItemIcon.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Profile"
-          },
-          "text": "Profile_3200012_des"
-        },
-        {
-          "id": "zzz-item-3200013",
-          "name": "Profile_3200013_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/TestItemIcon.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Profile"
-          },
-          "text": "Profile_3200013_des"
-        },
-        {
-          "id": "zzz-item-3200014",
-          "name": "Profile_3200014_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/TestItemIcon.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Profile"
-          },
-          "text": "Profile_3200014_des"
-        },
-        {
-          "id": "zzz-item-3200015",
-          "name": "Profile_3200015_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/TestItemIcon.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Profile"
-          },
-          "text": "Profile_3200015_des"
         },
         {
           "id": "zzz-item-3201001",
@@ -42786,17 +40767,6 @@
           "text": ""
         },
         {
-          "id": "zzz-item-3231291",
-          "name": "Profile_3231291_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/ItemProfileGeneral.webp",
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Profile"
-          },
-          "text": ""
-        },
-        {
           "id": "zzz-item-3231301",
           "name": "Agent Avatar: Orphie & Magus",
           "kind": "item",
@@ -42830,74 +40800,8 @@
           "text": ""
         },
         {
-          "id": "zzz-item-3231331",
-          "name": "Profile_3231331_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/ItemProfileGeneral.webp",
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Profile"
-          },
-          "text": ""
-        },
-        {
           "id": "zzz-item-3231341",
           "name": "Agent Avatar: Zhao",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/ItemProfileGeneral.webp",
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Profile"
-          },
-          "text": ""
-        },
-        {
-          "id": "zzz-item-3231351",
-          "name": "Profile_3231351_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/ItemProfileGeneral.webp",
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Profile"
-          },
-          "text": ""
-        },
-        {
-          "id": "zzz-item-3231361",
-          "name": "Profile_3231361_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/ItemProfileGeneral.webp",
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Profile"
-          },
-          "text": ""
-        },
-        {
-          "id": "zzz-item-3231371",
-          "name": "Profile_3231371_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/ItemProfileGeneral.webp",
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Profile"
-          },
-          "text": ""
-        },
-        {
-          "id": "zzz-item-3231381",
-          "name": "Profile_3231381_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/ItemProfileGeneral.webp",
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Profile"
-          },
-          "text": ""
-        },
-        {
-          "id": "zzz-item-3231391",
-          "name": "Profile_3231391_name",
           "kind": "item",
           "art": "../../Database/GameData/zzz/assets/items/ItemProfileGeneral.webp",
           "fields": {
@@ -42924,17 +40828,6 @@
           "art": "../../Database/GameData/zzz/assets/items/ItemProfileGeneral.webp",
           "fields": {
             "rarity": "4 \u2605",
-            "type": "Profile"
-          },
-          "text": ""
-        },
-        {
-          "id": "zzz-item-3231421",
-          "name": "Profile_3231421_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/ItemProfileGeneral.webp",
-          "fields": {
-            "rarity": "3 \u2605",
             "type": "Profile"
           },
           "text": ""
@@ -43063,17 +40956,6 @@
         {
           "id": "zzz-item-3231541",
           "name": "Agent Avatar: Promeia",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/ItemProfileGeneral.webp",
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Profile"
-          },
-          "text": ""
-        },
-        {
-          "id": "zzz-item-3231551",
-          "name": "Profile_3231551_name",
           "kind": "item",
           "art": "../../Database/GameData/zzz/assets/items/ItemProfileGeneral.webp",
           "fields": {
@@ -48098,83 +45980,6 @@
           "text": "Coach Aster's friend left some chips that can help the Bangboo during the assessment. As for whether the Marcel Group is aware of this... well, they should be, right?"
         },
         {
-          "id": "zzz-item-3950021",
-          "name": "TowerDefence_Item_Data",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/TransformChain01.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Bangboo Item"
-          },
-          "text": "Congratulations on leading the Bangboo to victory over the Ethereals! Although this happened in the VR exam field, the test score already shows \u2014 you're an outstanding combat assistant!"
-        },
-        {
-          "id": "zzz-item-3950022",
-          "name": "TowerDefence_Item_Data",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/TransformGather04.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Bangboo Item"
-          },
-          "text": "Congratulations on leading the Bangboo to victory over the Ethereals! Although this happened in the VR exam field, the test score already shows \u2014 you're an outstanding combat assistant!"
-        },
-        {
-          "id": "zzz-item-3950023",
-          "name": "TowerDefence_Item_Data",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/TransformChip02.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Bangboo Item"
-          },
-          "text": "Congratulations on leading the Bangboo to victory over the Ethereals! Although this happened in the VR exam field, the test score already shows \u2014 you're an outstanding combat assistant!"
-        },
-        {
-          "id": "zzz-item-3950024",
-          "name": "TowerDefence_Item_Data",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/TransformSensor01.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Bangboo Item"
-          },
-          "text": "Congratulations on leading the Bangboo to victory over the Ethereals! Although this happened in the VR exam field, the test score already shows \u2014 you're an outstanding combat assistant!"
-        },
-        {
-          "id": "zzz-item-3950025",
-          "name": "TowerDefence_Item_Data",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/TransformDilatation01.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Bangboo Item"
-          },
-          "text": "Congratulations on leading the Bangboo to victory over the Ethereals! Although this happened in the VR exam field, the test score already shows \u2014 you're an outstanding combat assistant!"
-        },
-        {
-          "id": "zzz-item-3950026",
-          "name": "TowerDefence_Item_Data",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/TransformSlots02.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Bangboo Item"
-          },
-          "text": "Congratulations on leading the Bangboo to victory over the Ethereals! Although this happened in the VR exam field, the test score already shows \u2014 you're an outstanding combat assistant!"
-        },
-        {
-          "id": "zzz-item-3950027",
-          "name": "TowerDefence_Item_Data",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/TransformShaft01.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Bangboo Item"
-          },
-          "text": "Congratulations on leading the Bangboo to victory over the Ethereals! Although this happened in the VR exam field, the test score already shows \u2014 you're an outstanding combat assistant!"
-        },
-        {
           "id": "zzz-item-3960001",
           "name": "Volatile Charge",
           "kind": "item",
@@ -48261,39 +46066,6 @@
             "type": "Enhancement Gear"
           },
           "text": "During \"The Art of Knockback\" training, the trainee restores Energy for EX Special Attack and Decibels for Ultimate upon defeating an enemy target."
-        },
-        {
-          "id": "zzz-item-3960009",
-          "name": "SmashBro_Item_Name_3960009",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/TransformChain01.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Enhancement Gear"
-          },
-          "text": "SmashBro_Item_Desc_3960009"
-        },
-        {
-          "id": "zzz-item-3960010",
-          "name": "SmashBro_Item_Name_3960010",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/TransformChain01.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Enhancement Gear"
-          },
-          "text": "SmashBro_Item_Desc_3960010"
-        },
-        {
-          "id": "zzz-item-3960011",
-          "name": "SmashBro_Item_Name_3960011",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/TransformChain01.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Enhancement Gear"
-          },
-          "text": "SmashBro_Item_Desc_3960011"
         },
         {
           "id": "zzz-item-4000000",
@@ -48538,39 +46310,6 @@
           "text": "\"Poto Poto!\" Nursery Rhyme"
         },
         {
-          "id": "zzz-item-4000023",
-          "name": "MessageItem_4000023_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/RallyLetter01.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Message"
-          },
-          "text": "MessageItem_4000023_des"
-        },
-        {
-          "id": "zzz-item-4000024",
-          "name": "MessageItem_4000024_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/RallyLetter01.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Message"
-          },
-          "text": "MessageItem_4000024_des"
-        },
-        {
-          "id": "zzz-item-4000025",
-          "name": "MessageItem_4000025_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/RallyLetter01.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Message"
-          },
-          "text": "MessageItem_4000025_des"
-        },
-        {
           "id": "zzz-item-4000026",
           "name": "Mewmew's Port Elpis Notes",
           "kind": "item",
@@ -48670,50 +46409,6 @@
           "text": "A handwritten letter from Burnice to Pulchra."
         },
         {
-          "id": "zzz-item-4000035",
-          "name": "MessageItem_4000035_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/RallyLetter01.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Message"
-          },
-          "text": ""
-        },
-        {
-          "id": "zzz-item-4000036",
-          "name": "MessageItem_4000036_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/RallyLetter01.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Message"
-          },
-          "text": "MessageItem_4000036_des"
-        },
-        {
-          "id": "zzz-item-4000037",
-          "name": "MessageItem_4000037_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/RallyLetter01.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Message"
-          },
-          "text": "MessageItem_4000037_des"
-        },
-        {
-          "id": "zzz-item-4000038",
-          "name": "MessageItem_4000038_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/RallyLetter01.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Message"
-          },
-          "text": "MessageItem_4000038_des"
-        },
-        {
           "id": "zzz-item-4000039",
           "name": "Wish Bottle From the Sea Wizard",
           "kind": "item",
@@ -48745,72 +46440,6 @@
             "type": "Message"
           },
           "text": "A wish bottle returned by the Sea Wizard, with marks on its surface from hitting sea reefs."
-        },
-        {
-          "id": "zzz-item-4000042",
-          "name": "MessageItem_4000042_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/PoliceOfficerLetter07.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Message"
-          },
-          "text": "MessageItem_4000042_des"
-        },
-        {
-          "id": "zzz-item-4000043",
-          "name": "MessageItem_4000043_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/PoliceOfficerLetter07.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Message"
-          },
-          "text": "MessageItem_4000043_des"
-        },
-        {
-          "id": "zzz-item-4000044",
-          "name": "MessageItem_4000044_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/PoliceOfficerLetter07.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Message"
-          },
-          "text": "MessageItem_4000044_des"
-        },
-        {
-          "id": "zzz-item-4000045",
-          "name": "MessageItem_4000045_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/PoliceOfficerLetter07.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Message"
-          },
-          "text": "MessageItem_4000045_des"
-        },
-        {
-          "id": "zzz-item-4000046",
-          "name": "MessageItem_4000046_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/PoliceOfficerLetter07.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Message"
-          },
-          "text": "MessageItem_4000046_des"
-        },
-        {
-          "id": "zzz-item-4000047",
-          "name": "MessageItem_4000047_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/PoliceOfficerLetter07.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Message"
-          },
-          "text": "MessageItem_4000047_des"
         },
         {
           "id": "zzz-item-4000048",
@@ -48910,17 +46539,6 @@
             "type": "Message"
           },
           "text": "A strange letter obtained from Kylie"
-        },
-        {
-          "id": "zzz-item-4000101",
-          "name": "MessageItem_4000101_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/HIATowerLetter.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Message"
-          },
-          "text": "MessageItem_4000101_des"
         },
         {
           "id": "zzz-item-4000102",
@@ -49031,116 +46649,6 @@
             "type": "Message"
           },
           "text": "Ye Shunguang had left some old belongings in Failume Heights, but thankfully with your help, they were all recovered. To show gratitude, Xiao'Guang left you a letter explaining the origins of these items \u2014 it seems he has something special he wants to tell you..."
-        },
-        {
-          "id": "zzz-item-4000202",
-          "name": "MessageItem_4000202_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/PoliceOfficerLetter07.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Message"
-          },
-          "text": "MessageItem_4000202_name"
-        },
-        {
-          "id": "zzz-item-4000203",
-          "name": "MessageItem_4000203_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/PoliceOfficerLetter07.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Message"
-          },
-          "text": "MessageItem_4000203_name"
-        },
-        {
-          "id": "zzz-item-4000204",
-          "name": "MessageItem_4000204_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/PoliceOfficerLetter07.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Message"
-          },
-          "text": "MessageItem_4000204_name"
-        },
-        {
-          "id": "zzz-item-4000205",
-          "name": "MessageItem_4000205_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/PoliceOfficerLetter07.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Message"
-          },
-          "text": "MessageItem_4000205_name"
-        },
-        {
-          "id": "zzz-item-4000206",
-          "name": "MessageItem_4000206_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/PoliceOfficerLetter07.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Message"
-          },
-          "text": "MessageItem_4000206_name"
-        },
-        {
-          "id": "zzz-item-4000207",
-          "name": "MessageItem_4000207_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/PoliceOfficerLetter07.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Message"
-          },
-          "text": "MessageItem_4000207_name"
-        },
-        {
-          "id": "zzz-item-4000208",
-          "name": "MessageItem_4000208_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/PoliceOfficerLetter07.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Message"
-          },
-          "text": "MessageItem_4000208_name"
-        },
-        {
-          "id": "zzz-item-4000209",
-          "name": "MessageItem_4000209_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/PoliceOfficerLetter07.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Message"
-          },
-          "text": "MessageItem_4000209_name"
-        },
-        {
-          "id": "zzz-item-4000210",
-          "name": "MessageItem_4000210_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/PoliceOfficerLetter07.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Message"
-          },
-          "text": "MessageItem_4000210_name"
-        },
-        {
-          "id": "zzz-item-4000211",
-          "name": "MessageItem_4000211_name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/PoliceOfficerLetter07.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Message"
-          },
-          "text": "MessageItem_4000211_name"
         },
         {
           "id": "zzz-item-4100001",
@@ -54173,136 +51681,6 @@
             "rarity": "3 \u2605"
           },
           "text": "Describes how to obtain, its uses, and other gameplay info"
-        },
-        {
-          "id": "zzz-item-4361001",
-          "name": "BKItem_4361001_Name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/BangkovCoinSpecialBig.webp",
-          "fields": {
-            "rarity": "4 \u2605"
-          },
-          "text": "BKItem_4361001_Desc"
-        },
-        {
-          "id": "zzz-item-4361002",
-          "name": "BKItem_4361002_Name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/BangkovCoinSpecialBig.webp",
-          "fields": {
-            "rarity": "4 \u2605"
-          },
-          "text": "BKItem_4361002_Desc"
-        },
-        {
-          "id": "zzz-item-4361003",
-          "name": "BKItem_4361003_Name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/BangkovCoinSpecialBig.webp",
-          "fields": {
-            "rarity": "4 \u2605"
-          },
-          "text": "BKItem_4361003_Desc"
-        },
-        {
-          "id": "zzz-item-4361004",
-          "name": "BKItem_4361004_Name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/BangkovCoinSpecialBig.webp",
-          "fields": {
-            "rarity": "4 \u2605"
-          },
-          "text": "BKItem_4361004_Desc"
-        },
-        {
-          "id": "zzz-item-4361005",
-          "name": "BKItem_4361005_Name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/BangkovCoinSpecialBig.webp",
-          "fields": {
-            "rarity": "4 \u2605"
-          },
-          "text": "BKItem_4361005_Desc"
-        },
-        {
-          "id": "zzz-item-4361006",
-          "name": "BKItem_4361006_Name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/BangkovCoinSpecialBig.webp",
-          "fields": {
-            "rarity": "4 \u2605"
-          },
-          "text": "BKItem_4361006_Desc"
-        },
-        {
-          "id": "zzz-item-4361007",
-          "name": "BKItem_4361007_Name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/BangkovCoinSpecialBig.webp",
-          "fields": {
-            "rarity": "4 \u2605"
-          },
-          "text": "BKItem_4361007_Desc"
-        },
-        {
-          "id": "zzz-item-4361008",
-          "name": "BKItem_4361008_Name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/BangkovCoinSpecialBig.webp",
-          "fields": {
-            "rarity": "4 \u2605"
-          },
-          "text": "BKItem_4361008_Desc"
-        },
-        {
-          "id": "zzz-item-4361009",
-          "name": "BKItem_4361009_Name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/BangkovCoinSpecialBig.webp",
-          "fields": {
-            "rarity": "4 \u2605"
-          },
-          "text": "BKItem_4361009_Desc"
-        },
-        {
-          "id": "zzz-item-4361010",
-          "name": "BKItem_4361010_Name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/BangkovCoinSpecialBig.webp",
-          "fields": {
-            "rarity": "4 \u2605"
-          },
-          "text": "BKItem_4361010_Desc"
-        },
-        {
-          "id": "zzz-item-4361011",
-          "name": "BKItem_4361011_Name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/BangkovCoinSpecialBig.webp",
-          "fields": {
-            "rarity": "4 \u2605"
-          },
-          "text": "BKItem_4361011_Desc"
-        },
-        {
-          "id": "zzz-item-4361012",
-          "name": "BKItem_4361012_Name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/BangkovCoinSpecialBig.webp",
-          "fields": {
-            "rarity": "4 \u2605"
-          },
-          "text": "BKItem_4361012_Desc"
-        },
-        {
-          "id": "zzz-item-4361013",
-          "name": "BKItem_4361013_Name",
-          "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/BangkovCoinSpecialBig.webp",
-          "fields": {
-            "rarity": "4 \u2605"
-          },
-          "text": "BKItem_4361013_Desc"
         },
         {
           "id": "zzz-item-10007030",

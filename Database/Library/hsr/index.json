@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "game": "hsr",
-  "generatedAt": "2026-07-13T17:28:59.069Z",
-  "count": 618,
+  "generatedAt": "2026-07-16T09:08:14.242Z",
+  "count": 619,
   "entries": [
     {
       "id": "back-to-era-chrysea-handbook",
@@ -46,7 +46,7 @@
     {
       "id": "home-use-object-finder-after-sales-feedback-form",
       "name": "\"Home-Use Object Finder\" After-Sales Feedback Form",
-      "icon": "icons/a189a2a66b354adc408ee3a7616f60b894e531ca845bfdb6ee82dac985c0b59a.webp",
+      "icon": "icons/02e7f198376c002844da7085d9de1c02d39d4f128a89cbfabbef2bfd6c11fec2.webp",
       "file": "home-use-object-finder-after-sales-feedback-form.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -85,7 +85,7 @@
     {
       "id": "recording-a-fool-s-play-calamity-s-wrath-seeks-olden-clash-fool-s-blade-rends-divine-flesh",
       "name": "(Recording) A Fool's Play: Calamity's Wrath Seeks Olden Clash, Fool's Blade Rends Divine Flesh",
-      "icon": "icons/5febdda8d483c5333908ca311ea43e1e41d5101408397eeb38f1f20f937ee861.webp",
+      "icon": "icons/d72c85c0b70e51d566976fcf4e379375e3f1e92299263d12f8eaa30c302ff51f.webp",
       "file": "recording-a-fool-s-play-calamity-s-wrath-seeks-olden-clash-fool-s-blade-rends-divine-flesh.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -124,7 +124,7 @@
     {
       "id": "100-common-xianzhou-proverbs-for-outworlders",
       "name": "100 Common Xianzhou Proverbs for Outworlders",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "100-common-xianzhou-proverbs-for-outworlders.json",
       "volumeCount": 3,
       "volumeLabels": [
@@ -141,7 +141,7 @@
     {
       "id": "a-brief-message",
       "name": "A Brief Message",
-      "icon": "icons/a189a2a66b354adc408ee3a7616f60b894e531ca845bfdb6ee82dac985c0b59a.webp",
+      "icon": "icons/02e7f198376c002844da7085d9de1c02d39d4f128a89cbfabbef2bfd6c11fec2.webp",
       "file": "a-brief-message.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -182,7 +182,7 @@
     {
       "id": "a-collection-of-intelligence-on-the-xianzhou-luofu",
       "name": "A Collection of Intelligence on the Xianzhou Luofu",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "a-collection-of-intelligence-on-the-xianzhou-luofu.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -208,7 +208,7 @@
     {
       "id": "a-drizzle-douses-dust",
       "name": "A Drizzle Douses Dust",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "a-drizzle-douses-dust.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -247,7 +247,7 @@
     {
       "id": "a-handwritten-letter",
       "name": "A Handwritten Letter",
-      "icon": "icons/53274d2138d5acd481b6ee1b61f3fbaee357be0af3a815c372d02eb93f5d54bb.webp",
+      "icon": "icons/017858380dbb6d434d4a73c6e6fa5d883c7b5c55199d69bbb5e34b0ad307ee32.webp",
       "file": "a-handwritten-letter.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -260,7 +260,7 @@
     {
       "id": "a-hundred-truths-about-the-pepeshi",
       "name": "A Hundred Truths about the Pepeshi",
-      "icon": "icons/a9152703a5978e359950dfef7c4df87578bb809a94bb4bd5881a58476c743f18.webp",
+      "icon": "icons/7ea92c3fb2244a4c428b645588de9c7cf302d33afdc6aebd1866773e6fa4dcf3.webp",
       "file": "a-hundred-truths-about-the-pepeshi.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -273,7 +273,7 @@
     {
       "id": "a-hymn-of-charmonic-strings",
       "name": "A Hymn of Charmonic Strings",
-      "icon": "icons/a9152703a5978e359950dfef7c4df87578bb809a94bb4bd5881a58476c743f18.webp",
+      "icon": "icons/7ea92c3fb2244a4c428b645588de9c7cf302d33afdc6aebd1866773e6fa4dcf3.webp",
       "file": "a-hymn-of-charmonic-strings.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -312,7 +312,7 @@
     {
       "id": "a-letter-of-complaint",
       "name": "A Letter of Complaint",
-      "icon": "icons/53274d2138d5acd481b6ee1b61f3fbaee357be0af3a815c372d02eb93f5d54bb.webp",
+      "icon": "icons/017858380dbb6d434d4a73c6e6fa5d883c7b5c55199d69bbb5e34b0ad307ee32.webp",
       "file": "a-letter-of-complaint.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -325,7 +325,7 @@
     {
       "id": "a-letter-of-diffidation",
       "name": "A Letter of Diffidation",
-      "icon": "icons/53274d2138d5acd481b6ee1b61f3fbaee357be0af3a815c372d02eb93f5d54bb.webp",
+      "icon": "icons/017858380dbb6d434d4a73c6e6fa5d883c7b5c55199d69bbb5e34b0ad307ee32.webp",
       "file": "a-letter-of-diffidation.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -364,7 +364,7 @@
     {
       "id": "a-letter-to-dreamscape-motivators",
       "name": "A Letter to Dreamscape Motivators",
-      "icon": "icons/53274d2138d5acd481b6ee1b61f3fbaee357be0af3a815c372d02eb93f5d54bb.webp",
+      "icon": "icons/017858380dbb6d434d4a73c6e6fa5d883c7b5c55199d69bbb5e34b0ad307ee32.webp",
       "file": "a-letter-to-dreamscape-motivators.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -403,7 +403,7 @@
     {
       "id": "a-martial-arts-novel-that-stopped-updating-300-years-ago",
       "name": "A Martial Arts Novel That Stopped Updating 300 Years Ago",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "a-martial-arts-novel-that-stopped-updating-300-years-ago.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -561,7 +561,7 @@
     {
       "id": "a-scrawled-note",
       "name": "A Scrawled Note",
-      "icon": "icons/53274d2138d5acd481b6ee1b61f3fbaee357be0af3a815c372d02eb93f5d54bb.webp",
+      "icon": "icons/017858380dbb6d434d4a73c6e6fa5d883c7b5c55199d69bbb5e34b0ad307ee32.webp",
       "file": "a-scrawled-note.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -587,7 +587,7 @@
     {
       "id": "a-study-into-the-mara-struck",
       "name": "A Study into the Mara-Struck",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "a-study-into-the-mara-struck.json",
       "volumeCount": 2,
       "volumeLabels": [
@@ -680,7 +680,7 @@
     {
       "id": "adler-s-research-report-on-ghost-stories",
       "name": "Adler's Research Report on Ghost Stories",
-      "icon": "icons/5febdda8d483c5333908ca311ea43e1e41d5101408397eeb38f1f20f937ee861.webp",
+      "icon": "icons/d72c85c0b70e51d566976fcf4e379375e3f1e92299263d12f8eaa30c302ff51f.webp",
       "file": "adler-s-research-report-on-ghost-stories.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -706,7 +706,7 @@
     {
       "id": "advocate-legal-and-reasonable-care-for-animals-strictly-prohibit-illegal-wildlife-trade-for-releases",
       "name": "Advocate legal and reasonable care for animals, strictly prohibit illegal wildlife trade for \"releases\"",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "advocate-legal-and-reasonable-care-for-animals-strictly-prohibit-illegal-wildlife-trade-for-releases.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -801,7 +801,7 @@
     {
       "id": "amnesic-meditation-therapy-a-guide-to-a-long-healthy-life",
       "name": "Amnesic Meditation Therapy: A Guide to A Long, Healthy Life!",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "amnesic-meditation-therapy-a-guide-to-a-long-healthy-life.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -857,7 +857,7 @@
     {
       "id": "an-appeal-from-the-vidyadhara",
       "name": "An Appeal from the Vidyadhara",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "an-appeal-from-the-vidyadhara.json",
       "volumeCount": 2,
       "volumeLabels": [
@@ -872,7 +872,7 @@
     {
       "id": "an-evening-journey-through-exalting-sanctum",
       "name": "An Evening Journey Through Exalting Sanctum",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "an-evening-journey-through-exalting-sanctum.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -900,7 +900,7 @@
     {
       "id": "an-incomplete-automatic-transcript",
       "name": "An Incomplete Automatic Transcript",
-      "icon": "icons/8742963e0ec758b775be5f0ea0f27ed50454a24656ea6f45f543b749230213f8.webp",
+      "icon": "icons/8ce8a1182b4a8821c3eab5eb80a1359df47d24b4b9504647c9728f70370afde0.webp",
       "file": "an-incomplete-automatic-transcript.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -952,7 +952,7 @@
     {
       "id": "an-overview-of-the-faith-crises-in-the-xianzhou-alliance",
       "name": "An Overview of the Faith Crises in the Xianzhou Alliance",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "an-overview-of-the-faith-crises-in-the-xianzhou-alliance.json",
       "volumeCount": 4,
       "volumeLabels": [
@@ -971,7 +971,7 @@
     {
       "id": "an-unsent-letter",
       "name": "An Unsent Letter",
-      "icon": "icons/53274d2138d5acd481b6ee1b61f3fbaee357be0af3a815c372d02eb93f5d54bb.webp",
+      "icon": "icons/017858380dbb6d434d4a73c6e6fa5d883c7b5c55199d69bbb5e34b0ad307ee32.webp",
       "file": "an-unsent-letter.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -984,7 +984,7 @@
     {
       "id": "an-unsuitable-job-for-a-puppet",
       "name": "An Unsuitable Job for A Puppet",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "an-unsuitable-job-for-a-puppet.json",
       "volumeCount": 3,
       "volumeLabels": [
@@ -1027,7 +1027,7 @@
     {
       "id": "anecdotes-from-the-wardance-arena",
       "name": "Anecdotes from the Wardance Arena",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "anecdotes-from-the-wardance-arena.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -1053,7 +1053,7 @@
     {
       "id": "annotations-from-ode-to-reignbow-path",
       "name": "Annotations from \"Ode to Reignbow Path\"",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "annotations-from-ode-to-reignbow-path.json",
       "volumeCount": 5,
       "volumeLabels": [
@@ -1113,7 +1113,7 @@
     {
       "id": "arlan-s-work-log",
       "name": "Arlan's Work Log",
-      "icon": "icons/5febdda8d483c5333908ca311ea43e1e41d5101408397eeb38f1f20f937ee861.webp",
+      "icon": "icons/d72c85c0b70e51d566976fcf4e379375e3f1e92299263d12f8eaa30c302ff51f.webp",
       "file": "arlan-s-work-log.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -1165,7 +1165,7 @@
     {
       "id": "asta-and-business-elite-correspondence-records",
       "name": "Asta and Business Elite Correspondence Records",
-      "icon": "icons/8742963e0ec758b775be5f0ea0f27ed50454a24656ea6f45f543b749230213f8.webp",
+      "icon": "icons/8ce8a1182b4a8821c3eab5eb80a1359df47d24b4b9504647c9728f70370afde0.webp",
       "file": "asta-and-business-elite-correspondence-records.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -1178,7 +1178,7 @@
     {
       "id": "asta-s-equipment-purchase-contract",
       "name": "Asta's Equipment Purchase Contract",
-      "icon": "icons/8742963e0ec758b775be5f0ea0f27ed50454a24656ea6f45f543b749230213f8.webp",
+      "icon": "icons/8ce8a1182b4a8821c3eab5eb80a1359df47d24b4b9504647c9728f70370afde0.webp",
       "file": "asta-s-equipment-purchase-contract.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -1191,7 +1191,7 @@
     {
       "id": "asta-s-letters-from-home",
       "name": "Asta's Letters From Home",
-      "icon": "icons/a189a2a66b354adc408ee3a7616f60b894e531ca845bfdb6ee82dac985c0b59a.webp",
+      "icon": "icons/02e7f198376c002844da7085d9de1c02d39d4f128a89cbfabbef2bfd6c11fec2.webp",
       "file": "asta-s-letters-from-home.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -1204,7 +1204,7 @@
     {
       "id": "asta-s-shopping-list",
       "name": "Asta's Shopping List",
-      "icon": "icons/8742963e0ec758b775be5f0ea0f27ed50454a24656ea6f45f543b749230213f8.webp",
+      "icon": "icons/8ce8a1182b4a8821c3eab5eb80a1359df47d24b4b9504647c9728f70370afde0.webp",
       "file": "asta-s-shopping-list.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -1217,7 +1217,7 @@
     {
       "id": "attack-records-of-the-obstacle-detection-terminal",
       "name": "Attack Records of the Obstacle Detection Terminal",
-      "icon": "icons/5febdda8d483c5333908ca311ea43e1e41d5101408397eeb38f1f20f937ee861.webp",
+      "icon": "icons/d72c85c0b70e51d566976fcf4e379375e3f1e92299263d12f8eaa30c302ff51f.webp",
       "file": "attack-records-of-the-obstacle-detection-terminal.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -1230,7 +1230,7 @@
     {
       "id": "attendant-hamilton-s-notes",
       "name": "Attendant Hamilton's Notes",
-      "icon": "icons/a9152703a5978e359950dfef7c4df87578bb809a94bb4bd5881a58476c743f18.webp",
+      "icon": "icons/7ea92c3fb2244a4c428b645588de9c7cf302d33afdc6aebd1866773e6fa4dcf3.webp",
       "file": "attendant-hamilton-s-notes.json",
       "volumeCount": 4,
       "volumeLabels": [
@@ -1262,7 +1262,7 @@
     {
       "id": "back-to-the-future-readable",
       "name": "Back to the Future",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "back-to-the-future-readable.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -1487,7 +1487,7 @@
     {
       "id": "black-market-dealer-investigative-notes",
       "name": "Black Market Dealer Investigative Notes",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "black-market-dealer-investigative-notes.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -1515,7 +1515,7 @@
     {
       "id": "borisin-folk-song-collection",
       "name": "Borisin Folk Song Collection",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "borisin-folk-song-collection.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -1580,7 +1580,7 @@
     {
       "id": "butterfly-shadow-s-special-issue-the-ten-best-butterfly-immersias-of-the-millennium",
       "name": "Butterfly Shadow's Special Issue: The Ten Best Butterfly Immersias of the Millennium",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "butterfly-shadow-s-special-issue-the-ten-best-butterfly-immersias-of-the-millennium.json",
       "volumeCount": 10,
       "volumeLabels": [
@@ -1611,7 +1611,7 @@
     {
       "id": "bye-herta",
       "name": "Bye, Herta",
-      "icon": "icons/5febdda8d483c5333908ca311ea43e1e41d5101408397eeb38f1f20f937ee861.webp",
+      "icon": "icons/d72c85c0b70e51d566976fcf4e379375e3f1e92299263d12f8eaa30c302ff51f.webp",
       "file": "bye-herta.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -1624,7 +1624,7 @@
     {
       "id": "campus-message-board",
       "name": "Campus Message Board",
-      "icon": "icons/53274d2138d5acd481b6ee1b61f3fbaee357be0af3a815c372d02eb93f5d54bb.webp",
+      "icon": "icons/017858380dbb6d434d4a73c6e6fa5d883c7b5c55199d69bbb5e34b0ad307ee32.webp",
       "file": "campus-message-board.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -1637,7 +1637,7 @@
     {
       "id": "card-addressed-to-a-guest",
       "name": "Card Addressed to a Guest",
-      "icon": "icons/53274d2138d5acd481b6ee1b61f3fbaee357be0af3a815c372d02eb93f5d54bb.webp",
+      "icon": "icons/017858380dbb6d434d4a73c6e6fa5d883c7b5c55199d69bbb5e34b0ad307ee32.webp",
       "file": "card-addressed-to-a-guest.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -1689,7 +1689,7 @@
     {
       "id": "chat-history-between-researchers",
       "name": "Chat History Between Researchers",
-      "icon": "icons/5febdda8d483c5333908ca311ea43e1e41d5101408397eeb38f1f20f937ee861.webp",
+      "icon": "icons/d72c85c0b70e51d566976fcf4e379375e3f1e92299263d12f8eaa30c302ff51f.webp",
       "file": "chat-history-between-researchers.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -1784,7 +1784,7 @@
     {
       "id": "classified-major-incidents-in-dreamscape",
       "name": "Classified: Major Incidents in Dreamscape",
-      "icon": "icons/db185222dd63c6785d73246f01ae49a6336a73c82e26211a5f24fbd73c995f72.webp",
+      "icon": "icons/a1bae54dfe4acf32e5e5c9fb538b35ffa64698af7366f98dcb3359d4e3fbf449.webp",
       "file": "classified-major-incidents-in-dreamscape.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -1797,7 +1797,7 @@
     {
       "id": "claudia-s-gathered-clues",
       "name": "Claudia's Gathered Clues",
-      "icon": "icons/a9152703a5978e359950dfef7c4df87578bb809a94bb4bd5881a58476c743f18.webp",
+      "icon": "icons/7ea92c3fb2244a4c428b645588de9c7cf302d33afdc6aebd1866773e6fa4dcf3.webp",
       "file": "claudia-s-gathered-clues.json",
       "volumeCount": 2,
       "volumeLabels": [
@@ -1838,7 +1838,7 @@
     {
       "id": "clockie-and-captain-revolver",
       "name": "Clockie and Captain Revolver",
-      "icon": "icons/db185222dd63c6785d73246f01ae49a6336a73c82e26211a5f24fbd73c995f72.webp",
+      "icon": "icons/a1bae54dfe4acf32e5e5c9fb538b35ffa64698af7366f98dcb3359d4e3fbf449.webp",
       "file": "clockie-and-captain-revolver.json",
       "volumeCount": 3,
       "volumeLabels": [
@@ -1855,7 +1855,7 @@
     {
       "id": "clockie-and-mirror-princess",
       "name": "Clockie and Mirror Princess",
-      "icon": "icons/db185222dd63c6785d73246f01ae49a6336a73c82e26211a5f24fbd73c995f72.webp",
+      "icon": "icons/a1bae54dfe4acf32e5e5c9fb538b35ffa64698af7366f98dcb3359d4e3fbf449.webp",
       "file": "clockie-and-mirror-princess.json",
       "volumeCount": 2,
       "volumeLabels": [
@@ -1870,7 +1870,7 @@
     {
       "id": "cloud-knights-against-the-borisin",
       "name": "Cloud Knights Against the borisin",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "cloud-knights-against-the-borisin.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -1909,7 +1909,7 @@
     {
       "id": "codex-of-apocrypha",
       "name": "Codex of Apocrypha",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "codex-of-apocrypha.json",
       "volumeCount": 4,
       "volumeLabels": [
@@ -1928,7 +1928,7 @@
     {
       "id": "cold-foods-heliobi-and-injustice-a-study-of-the-custom-of-the-fire-taboo-festival",
       "name": "Cold Foods, Heliobi, and Injustice: A Study of the Custom of the Fire Taboo Festival",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "cold-foods-heliobi-and-injustice-a-study-of-the-custom-of-the-fire-taboo-festival.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -1954,7 +1954,7 @@
     {
       "id": "comet-hunter-s-treasure",
       "name": "Comet Hunter's Treasure",
-      "icon": "icons/8742963e0ec758b775be5f0ea0f27ed50454a24656ea6f45f543b749230213f8.webp",
+      "icon": "icons/8ce8a1182b4a8821c3eab5eb80a1359df47d24b4b9504647c9728f70370afde0.webp",
       "file": "comet-hunter-s-treasure.json",
       "volumeCount": 4,
       "volumeLabels": [
@@ -1973,7 +1973,7 @@
     {
       "id": "comments-on-scorchsand-adventure",
       "name": "Comments on Scorchsand Adventure",
-      "icon": "icons/a9152703a5978e359950dfef7c4df87578bb809a94bb4bd5881a58476c743f18.webp",
+      "icon": "icons/7ea92c3fb2244a4c428b645588de9c7cf302d33afdc6aebd1866773e6fa4dcf3.webp",
       "file": "comments-on-scorchsand-adventure.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -1999,7 +1999,7 @@
     {
       "id": "compendium-of-remedies",
       "name": "Compendium of Remedies",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "compendium-of-remedies.json",
       "volumeCount": 2,
       "volumeLabels": [
@@ -2040,7 +2040,7 @@
     {
       "id": "confession-letter",
       "name": "Confession Letter",
-      "icon": "icons/5febdda8d483c5333908ca311ea43e1e41d5101408397eeb38f1f20f937ee861.webp",
+      "icon": "icons/d72c85c0b70e51d566976fcf4e379375e3f1e92299263d12f8eaa30c302ff51f.webp",
       "file": "confession-letter.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -2107,7 +2107,7 @@
     {
       "id": "cosmos-public-service-award",
       "name": "Cosmos Public Service Award",
-      "icon": "icons/5febdda8d483c5333908ca311ea43e1e41d5101408397eeb38f1f20f937ee861.webp",
+      "icon": "icons/d72c85c0b70e51d566976fcf4e379375e3f1e92299263d12f8eaa30c302ff51f.webp",
       "file": "cosmos-public-service-award.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -2146,7 +2146,7 @@
     {
       "id": "curio-management-log",
       "name": "Curio Management Log",
-      "icon": "icons/5febdda8d483c5333908ca311ea43e1e41d5101408397eeb38f1f20f937ee861.webp",
+      "icon": "icons/d72c85c0b70e51d566976fcf4e379375e3f1e92299263d12f8eaa30c302ff51f.webp",
       "file": "curio-management-log.json",
       "volumeCount": 3,
       "volumeLabels": [
@@ -2193,7 +2193,7 @@
     {
       "id": "dahao-s-diary",
       "name": "Dahao's Diary",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "dahao-s-diary.json",
       "volumeCount": 2,
       "volumeLabels": [
@@ -2208,7 +2208,7 @@
     {
       "id": "dan-shu-s-diary",
       "name": "Dan Shu's Diary",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "dan-shu-s-diary.json",
       "volumeCount": 2,
       "volumeLabels": [
@@ -2249,7 +2249,7 @@
     {
       "id": "death-of-the-crow",
       "name": "Death of the Crow",
-      "icon": "icons/a9152703a5978e359950dfef7c4df87578bb809a94bb4bd5881a58476c743f18.webp",
+      "icon": "icons/7ea92c3fb2244a4c428b645588de9c7cf302d33afdc6aebd1866773e6fa4dcf3.webp",
       "file": "death-of-the-crow.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -2288,7 +2288,7 @@
     {
       "id": "department-of-ecology-s-plant-cultivation-program",
       "name": "Department of Ecology's Plant Cultivation Program",
-      "icon": "icons/8742963e0ec758b775be5f0ea0f27ed50454a24656ea6f45f543b749230213f8.webp",
+      "icon": "icons/8ce8a1182b4a8821c3eab5eb80a1359df47d24b4b9504647c9728f70370afde0.webp",
       "file": "department-of-ecology-s-plant-cultivation-program.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -2359,7 +2359,7 @@
     {
       "id": "disciples-of-sanctus-medicus-collection-of-exhibits",
       "name": "Disciples of Sanctus Medicus: Collection of Exhibits",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "disciples-of-sanctus-medicus-collection-of-exhibits.json",
       "volumeCount": 9,
       "volumeLabels": [
@@ -2388,7 +2388,7 @@
     {
       "id": "divination-report",
       "name": "Divination Report",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "divination-report.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -2570,7 +2570,7 @@
     {
       "id": "dr-ratio-s-note",
       "name": "Dr. Ratio's Note",
-      "icon": "icons/a189a2a66b354adc408ee3a7616f60b894e531ca845bfdb6ee82dac985c0b59a.webp",
+      "icon": "icons/02e7f198376c002844da7085d9de1c02d39d4f128a89cbfabbef2bfd6c11fec2.webp",
       "file": "dr-ratio-s-note.json",
       "volumeCount": 4,
       "volumeLabels": [
@@ -2589,7 +2589,7 @@
     {
       "id": "dream-bubble-notes",
       "name": "Dream Bubble Notes",
-      "icon": "icons/a9152703a5978e359950dfef7c4df87578bb809a94bb4bd5881a58476c743f18.webp",
+      "icon": "icons/7ea92c3fb2244a4c428b645588de9c7cf302d33afdc6aebd1866773e6fa4dcf3.webp",
       "file": "dream-bubble-notes.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -2615,7 +2615,7 @@
     {
       "id": "dreamflux-reef-travel-guide-19-0",
       "name": "Dreamflux Reef Travel Guide 19.0",
-      "icon": "icons/a9152703a5978e359950dfef7c4df87578bb809a94bb4bd5881a58476c743f18.webp",
+      "icon": "icons/7ea92c3fb2244a4c428b645588de9c7cf302d33afdc6aebd1866773e6fa4dcf3.webp",
       "file": "dreamflux-reef-travel-guide-19-0.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -2628,7 +2628,7 @@
     {
       "id": "dreamjoy-memoir-extras",
       "name": "Dreamjoy Memoir Extras",
-      "icon": "icons/db185222dd63c6785d73246f01ae49a6336a73c82e26211a5f24fbd73c995f72.webp",
+      "icon": "icons/a1bae54dfe4acf32e5e5c9fb538b35ffa64698af7366f98dcb3359d4e3fbf449.webp",
       "file": "dreamjoy-memoir-extras.json",
       "volumeCount": 6,
       "volumeLabels": [
@@ -2677,7 +2677,7 @@
     {
       "id": "dreamlight-anniversary-special-excerpt",
       "name": "Dreamlight Anniversary Special (Excerpt)",
-      "icon": "icons/53274d2138d5acd481b6ee1b61f3fbaee357be0af3a815c372d02eb93f5d54bb.webp",
+      "icon": "icons/017858380dbb6d434d4a73c6e6fa5d883c7b5c55199d69bbb5e34b0ad307ee32.webp",
       "file": "dreamlight-anniversary-special-excerpt.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -2703,7 +2703,7 @@
     {
       "id": "dreamscape-nursery-rhyme-the-family-of-seven",
       "name": "Dreamscape Nursery Rhyme: The Family of Seven",
-      "icon": "icons/53274d2138d5acd481b6ee1b61f3fbaee357be0af3a815c372d02eb93f5d54bb.webp",
+      "icon": "icons/017858380dbb6d434d4a73c6e6fa5d883c7b5c55199d69bbb5e34b0ad307ee32.webp",
       "file": "dreamscape-nursery-rhyme-the-family-of-seven.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -2716,7 +2716,7 @@
     {
       "id": "dreamscape-tourist-compendium-entertainment",
       "name": "Dreamscape Tourist Compendium — Entertainment",
-      "icon": "icons/a9152703a5978e359950dfef7c4df87578bb809a94bb4bd5881a58476c743f18.webp",
+      "icon": "icons/7ea92c3fb2244a4c428b645588de9c7cf302d33afdc6aebd1866773e6fa4dcf3.webp",
       "file": "dreamscape-tourist-compendium-entertainment.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -2729,7 +2729,7 @@
     {
       "id": "dreamscape-tourist-compendium-shopping",
       "name": "Dreamscape Tourist Compendium — Shopping",
-      "icon": "icons/a9152703a5978e359950dfef7c4df87578bb809a94bb4bd5881a58476c743f18.webp",
+      "icon": "icons/7ea92c3fb2244a4c428b645588de9c7cf302d33afdc6aebd1866773e6fa4dcf3.webp",
       "file": "dreamscape-tourist-compendium-shopping.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -2742,7 +2742,7 @@
     {
       "id": "dreamscape-tourist-compendium-transport",
       "name": "Dreamscape Tourist Compendium — Transport",
-      "icon": "icons/a9152703a5978e359950dfef7c4df87578bb809a94bb4bd5881a58476c743f18.webp",
+      "icon": "icons/7ea92c3fb2244a4c428b645588de9c7cf302d33afdc6aebd1866773e6fa4dcf3.webp",
       "file": "dreamscape-tourist-compendium-transport.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -2833,7 +2833,7 @@
     {
       "id": "era-of-dreams-a-record-of-legendary-captains-excerpt",
       "name": "Era of Dreams: A Record of Legendary Captains Excerpt",
-      "icon": "icons/a9152703a5978e359950dfef7c4df87578bb809a94bb4bd5881a58476c743f18.webp",
+      "icon": "icons/7ea92c3fb2244a4c428b645588de9c7cf302d33afdc6aebd1866773e6fa4dcf3.webp",
       "file": "era-of-dreams-a-record-of-legendary-captains-excerpt.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -2911,7 +2911,7 @@
     {
       "id": "excerpt-from-penaconian-art-history",
       "name": "Excerpt from Penaconian Art History",
-      "icon": "icons/a9152703a5978e359950dfef7c4df87578bb809a94bb4bd5881a58476c743f18.webp",
+      "icon": "icons/7ea92c3fb2244a4c428b645588de9c7cf302d33afdc6aebd1866773e6fa4dcf3.webp",
       "file": "excerpt-from-penaconian-art-history.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -2924,7 +2924,7 @@
     {
       "id": "excerpts-from-dreamscape-crime-files",
       "name": "Excerpts from Dreamscape Crime Files",
-      "icon": "icons/db185222dd63c6785d73246f01ae49a6336a73c82e26211a5f24fbd73c995f72.webp",
+      "icon": "icons/a1bae54dfe4acf32e5e5c9fb538b35ffa64698af7366f98dcb3359d4e3fbf449.webp",
       "file": "excerpts-from-dreamscape-crime-files.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -2950,7 +2950,7 @@
     {
       "id": "extracts-of-comprehensive-snack-recipe",
       "name": "Extracts of Comprehensive Snack Recipe",
-      "icon": "icons/5febdda8d483c5333908ca311ea43e1e41d5101408397eeb38f1f20f937ee861.webp",
+      "icon": "icons/d72c85c0b70e51d566976fcf4e379375e3f1e92299263d12f8eaa30c302ff51f.webp",
       "file": "extracts-of-comprehensive-snack-recipe.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -2963,7 +2963,7 @@
     {
       "id": "extras-handbook",
       "name": "Extras Handbook",
-      "icon": "icons/8742963e0ec758b775be5f0ea0f27ed50454a24656ea6f45f543b749230213f8.webp",
+      "icon": "icons/8ce8a1182b4a8821c3eab5eb80a1359df47d24b4b9504647c9728f70370afde0.webp",
       "file": "extras-handbook.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -2976,7 +2976,7 @@
     {
       "id": "fabricated-travelogue",
       "name": "Fabricated Travelogue",
-      "icon": "icons/a9152703a5978e359950dfef7c4df87578bb809a94bb4bd5881a58476c743f18.webp",
+      "icon": "icons/7ea92c3fb2244a4c428b645588de9c7cf302d33afdc6aebd1866773e6fa4dcf3.webp",
       "file": "fabricated-travelogue.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -2989,7 +2989,7 @@
     {
       "id": "face-of-fourteen-illusions",
       "name": "Face of Fourteen Illusions",
-      "icon": "icons/8742963e0ec758b775be5f0ea0f27ed50454a24656ea6f45f543b749230213f8.webp",
+      "icon": "icons/8ce8a1182b4a8821c3eab5eb80a1359df47d24b4b9504647c9728f70370afde0.webp",
       "file": "face-of-fourteen-illusions.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -3041,7 +3041,7 @@
     {
       "id": "feedback-form-for-the-space-station-staff-cafeteria",
       "name": "Feedback Form for the Space Station Staff Cafeteria",
-      "icon": "icons/5febdda8d483c5333908ca311ea43e1e41d5101408397eeb38f1f20f937ee861.webp",
+      "icon": "icons/d72c85c0b70e51d566976fcf4e379375e3f1e92299263d12f8eaa30c302ff51f.webp",
       "file": "feedback-form-for-the-space-station-staff-cafeteria.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -3095,7 +3095,7 @@
     {
       "id": "fleet-primer",
       "name": "Fleet Primer",
-      "icon": "icons/5febdda8d483c5333908ca311ea43e1e41d5101408397eeb38f1f20f937ee861.webp",
+      "icon": "icons/d72c85c0b70e51d566976fcf4e379375e3f1e92299263d12f8eaa30c302ff51f.webp",
       "file": "fleet-primer.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -3142,14 +3142,16 @@
       "name": "Floating Grease Chronicles: Chapter of the Monkey",
       "icon": "icons/101dd6a2e169ce598606ea59592e1769a9d2c622e3c8c5da916c0dc743ee68f4.webp",
       "file": "floating-grease-chronicles-chapter-of-the-monkey.json",
-      "volumeCount": 2,
+      "volumeCount": 3,
       "volumeLabels": [
         "I",
-        "XI"
+        "XI",
+        "Part XXIII"
       ],
       "volumeKeys": [
         "i",
-        "xi"
+        "xi",
+        "part-xxiii"
       ]
     },
     {
@@ -3157,14 +3159,29 @@
       "name": "Floating Grease Chronicles: Chapter of the Rabbit",
       "icon": "icons/101dd6a2e169ce598606ea59592e1769a9d2c622e3c8c5da916c0dc743ee68f4.webp",
       "file": "floating-grease-chronicles-chapter-of-the-rabbit.json",
-      "volumeCount": 2,
+      "volumeCount": 3,
       "volumeLabels": [
         "I",
-        "V"
+        "V",
+        "Part VII"
       ],
       "volumeKeys": [
         "i",
-        "v"
+        "v",
+        "part-vii"
+      ]
+    },
+    {
+      "id": "floating-grease-chronicles-literary-fragment",
+      "name": "Floating Grease Chronicles: Literary Fragment",
+      "icon": "icons/101dd6a2e169ce598606ea59592e1769a9d2c622e3c8c5da916c0dc743ee68f4.webp",
+      "file": "floating-grease-chronicles-literary-fragment.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ],
+      "volumeKeys": [
+        "text"
       ]
     },
     {
@@ -3183,7 +3200,7 @@
     {
       "id": "flyer-for-the-world-in-swarm-disaster-rebuilding-order-book-series",
       "name": "Flyer for The World in Swarm Disaster: Rebuilding Order Book Series",
-      "icon": "icons/53274d2138d5acd481b6ee1b61f3fbaee357be0af3a815c372d02eb93f5d54bb.webp",
+      "icon": "icons/017858380dbb6d434d4a73c6e6fa5d883c7b5c55199d69bbb5e34b0ad307ee32.webp",
       "file": "flyer-for-the-world-in-swarm-disaster-rebuilding-order-book-series.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -3248,7 +3265,7 @@
     {
       "id": "fragment-of-a-weekly-report-by-a-department-of-ecology-researcher",
       "name": "Fragment of a Weekly Report by a Department of Ecology Researcher",
-      "icon": "icons/5febdda8d483c5333908ca311ea43e1e41d5101408397eeb38f1f20f937ee861.webp",
+      "icon": "icons/d72c85c0b70e51d566976fcf4e379375e3f1e92299263d12f8eaa30c302ff51f.webp",
       "file": "fragment-of-a-weekly-report-by-a-department-of-ecology-researcher.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -3313,7 +3330,7 @@
     {
       "id": "fragments-of-herta-research-atlas-volume-7-traffic",
       "name": "Fragments of Herta Research Atlas Volume 7: Traffic",
-      "icon": "icons/8742963e0ec758b775be5f0ea0f27ed50454a24656ea6f45f543b749230213f8.webp",
+      "icon": "icons/8ce8a1182b4a8821c3eab5eb80a1359df47d24b4b9504647c9728f70370afde0.webp",
       "file": "fragments-of-herta-research-atlas-volume-7-traffic.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -3391,7 +3408,7 @@
     {
       "id": "general-s-diary",
       "name": "General's Diary",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "general-s-diary.json",
       "volumeCount": 3,
       "volumeLabels": [
@@ -3408,7 +3425,7 @@
     {
       "id": "genius-society-research-results",
       "name": "Genius Society: Research Results",
-      "icon": "icons/8742963e0ec758b775be5f0ea0f27ed50454a24656ea6f45f543b749230213f8.webp",
+      "icon": "icons/8ce8a1182b4a8821c3eab5eb80a1359df47d24b4b9504647c9728f70370afde0.webp",
       "file": "genius-society-research-results.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -3434,7 +3451,7 @@
     {
       "id": "giovanna-s-work-diary",
       "name": "Giovanna's Work Diary",
-      "icon": "icons/a9152703a5978e359950dfef7c4df87578bb809a94bb4bd5881a58476c743f18.webp",
+      "icon": "icons/7ea92c3fb2244a4c428b645588de9c7cf302d33afdc6aebd1866773e6fa4dcf3.webp",
       "file": "giovanna-s-work-diary.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -3447,7 +3464,7 @@
     {
       "id": "glimpses-into-the-beyond",
       "name": "Glimpses into the Beyond",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "glimpses-into-the-beyond.json",
       "volumeCount": 4,
       "volumeLabels": [
@@ -3606,7 +3623,7 @@
     {
       "id": "hanu-s-adventure-readable",
       "name": "Hanu's Adventure",
-      "icon": "icons/a9152703a5978e359950dfef7c4df87578bb809a94bb4bd5881a58476c743f18.webp",
+      "icon": "icons/7ea92c3fb2244a4c428b645588de9c7cf302d33afdc6aebd1866773e6fa4dcf3.webp",
       "file": "hanu-s-adventure-readable.json",
       "volumeCount": 11,
       "volumeLabels": [
@@ -3691,7 +3708,7 @@
     {
       "id": "herta-asset-damage-evaluation-list",
       "name": "Herta Asset Damage Evaluation List",
-      "icon": "icons/8742963e0ec758b775be5f0ea0f27ed50454a24656ea6f45f543b749230213f8.webp",
+      "icon": "icons/8ce8a1182b4a8821c3eab5eb80a1359df47d24b4b9504647c9728f70370afde0.webp",
       "file": "herta-asset-damage-evaluation-list.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -3704,7 +3721,7 @@
     {
       "id": "herta-collection-room-code-of-conduct",
       "name": "Herta Collection Room Code of Conduct",
-      "icon": "icons/5febdda8d483c5333908ca311ea43e1e41d5101408397eeb38f1f20f937ee861.webp",
+      "icon": "icons/d72c85c0b70e51d566976fcf4e379375e3f1e92299263d12f8eaa30c302ff51f.webp",
       "file": "herta-collection-room-code-of-conduct.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -3717,7 +3734,7 @@
     {
       "id": "herta-s-manuscripts",
       "name": "Herta's Manuscripts",
-      "icon": "icons/5febdda8d483c5333908ca311ea43e1e41d5101408397eeb38f1f20f937ee861.webp",
+      "icon": "icons/d72c85c0b70e51d566976fcf4e379375e3f1e92299263d12f8eaa30c302ff51f.webp",
       "file": "herta-s-manuscripts.json",
       "volumeCount": 4,
       "volumeLabels": [
@@ -3762,7 +3779,7 @@
     {
       "id": "history-of-the-xianzhou-errata",
       "name": "History of the Xianzhou: Errata",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "history-of-the-xianzhou-errata.json",
       "volumeCount": 4,
       "volumeLabels": [
@@ -3833,7 +3850,7 @@
     {
       "id": "hymn-of-the-stellaron",
       "name": "Hymn of the Stellaron",
-      "icon": "icons/a9152703a5978e359950dfef7c4df87578bb809a94bb4bd5881a58476c743f18.webp",
+      "icon": "icons/7ea92c3fb2244a4c428b645588de9c7cf302d33afdc6aebd1866773e6fa4dcf3.webp",
       "file": "hymn-of-the-stellaron.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -3924,7 +3941,7 @@
     {
       "id": "in-flight-precautions",
       "name": "In-Flight Precautions",
-      "icon": "icons/a9152703a5978e359950dfef7c4df87578bb809a94bb4bd5881a58476c743f18.webp",
+      "icon": "icons/7ea92c3fb2244a4c428b645588de9c7cf302d33afdc6aebd1866773e6fa4dcf3.webp",
       "file": "in-flight-precautions.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -3976,7 +3993,7 @@
     {
       "id": "invalid-pawn-ticket",
       "name": "Invalid Pawn Ticket",
-      "icon": "icons/a9152703a5978e359950dfef7c4df87578bb809a94bb4bd5881a58476c743f18.webp",
+      "icon": "icons/7ea92c3fb2244a4c428b645588de9c7cf302d33afdc6aebd1866773e6fa4dcf3.webp",
       "file": "invalid-pawn-ticket.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -4165,7 +4182,7 @@
     {
       "id": "kapo-kali-secret-recipe",
       "name": "Kapo-Kali Secret Recipe",
-      "icon": "icons/8742963e0ec758b775be5f0ea0f27ed50454a24656ea6f45f543b749230213f8.webp",
+      "icon": "icons/8ce8a1182b4a8821c3eab5eb80a1359df47d24b4b9504647c9728f70370afde0.webp",
       "file": "kapo-kali-secret-recipe.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -4312,7 +4329,7 @@
     {
       "id": "letter-from-locus-silentii",
       "name": "Letter From Locus Silentii",
-      "icon": "icons/5febdda8d483c5333908ca311ea43e1e41d5101408397eeb38f1f20f937ee861.webp",
+      "icon": "icons/d72c85c0b70e51d566976fcf4e379375e3f1e92299263d12f8eaa30c302ff51f.webp",
       "file": "letter-from-locus-silentii.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -4344,7 +4361,7 @@
     {
       "id": "letter-from-the-comet-hunter",
       "name": "Letter From the Comet Hunter",
-      "icon": "icons/a189a2a66b354adc408ee3a7616f60b894e531ca845bfdb6ee82dac985c0b59a.webp",
+      "icon": "icons/02e7f198376c002844da7085d9de1c02d39d4f128a89cbfabbef2bfd6c11fec2.webp",
       "file": "letter-from-the-comet-hunter.json",
       "volumeCount": 3,
       "volumeLabels": [
@@ -4395,7 +4412,7 @@
     {
       "id": "letter-to-be-sent",
       "name": "Letter to Be Sent",
-      "icon": "icons/a9152703a5978e359950dfef7c4df87578bb809a94bb4bd5881a58476c743f18.webp",
+      "icon": "icons/7ea92c3fb2244a4c428b645588de9c7cf302d33afdc6aebd1866773e6fa4dcf3.webp",
       "file": "letter-to-be-sent.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -4451,7 +4468,7 @@
     {
       "id": "list-of-archenemies",
       "name": "List of Archenemies",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "list-of-archenemies.json",
       "volumeCount": 4,
       "volumeLabels": [
@@ -4470,7 +4487,7 @@
     {
       "id": "list-of-ten-lords-commission-criminals-transferral-by-cloud-knights",
       "name": "List of Ten-Lords Commission Criminals Transferral by Cloud Knights",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "list-of-ten-lords-commission-criminals-transferral-by-cloud-knights.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -4509,7 +4526,7 @@
     {
       "id": "lost-property-readable",
       "name": "Lost Property",
-      "icon": "icons/a9152703a5978e359950dfef7c4df87578bb809a94bb4bd5881a58476c743f18.webp",
+      "icon": "icons/7ea92c3fb2244a4c428b645588de9c7cf302d33afdc6aebd1866773e6fa4dcf3.webp",
       "file": "lost-property-readable.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -4522,7 +4539,7 @@
     {
       "id": "louis-s-art-critiques",
       "name": "Louis's Art Critiques",
-      "icon": "icons/53274d2138d5acd481b6ee1b61f3fbaee357be0af3a815c372d02eb93f5d54bb.webp",
+      "icon": "icons/017858380dbb6d434d4a73c6e6fa5d883c7b5c55199d69bbb5e34b0ad307ee32.webp",
       "file": "louis-s-art-critiques.json",
       "volumeCount": 3,
       "volumeLabels": [
@@ -4591,7 +4608,7 @@
     {
       "id": "maker-s-diary-about-mecha-town",
       "name": "Maker's Diary about Mecha Town",
-      "icon": "icons/a9152703a5978e359950dfef7c4df87578bb809a94bb4bd5881a58476c743f18.webp",
+      "icon": "icons/7ea92c3fb2244a4c428b645588de9c7cf302d33afdc6aebd1866773e6fa4dcf3.webp",
       "file": "maker-s-diary-about-mecha-town.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -4604,7 +4621,7 @@
     {
       "id": "management-strategy-for-reporting-starskiff-traffic",
       "name": "Management Strategy for Reporting Starskiff Traffic",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "management-strategy-for-reporting-starskiff-traffic.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -4617,7 +4634,7 @@
     {
       "id": "march-7th-s-sword-training-notes",
       "name": "March 7th's Sword Training Notes",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "march-7th-s-sword-training-notes.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -4669,7 +4686,7 @@
     {
       "id": "meal-list-of-unknown-origin",
       "name": "Meal List of Unknown Origin",
-      "icon": "icons/53274d2138d5acd481b6ee1b61f3fbaee357be0af3a815c372d02eb93f5d54bb.webp",
+      "icon": "icons/017858380dbb6d434d4a73c6e6fa5d883c7b5c55199d69bbb5e34b0ad307ee32.webp",
       "file": "meal-list-of-unknown-origin.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -4734,7 +4751,7 @@
     {
       "id": "memory-zone-fairy-tales-the-ghost-ship",
       "name": "Memory Zone Fairy Tales: The Ghost Ship",
-      "icon": "icons/a9152703a5978e359950dfef7c4df87578bb809a94bb4bd5881a58476c743f18.webp",
+      "icon": "icons/7ea92c3fb2244a4c428b645588de9c7cf302d33afdc6aebd1866773e6fa4dcf3.webp",
       "file": "memory-zone-fairy-tales-the-ghost-ship.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -4747,7 +4764,7 @@
     {
       "id": "memory-zone-meme-victim-list-snippet",
       "name": "Memory Zone Meme Victim List Snippet",
-      "icon": "icons/db185222dd63c6785d73246f01ae49a6336a73c82e26211a5f24fbd73c995f72.webp",
+      "icon": "icons/a1bae54dfe4acf32e5e5c9fb538b35ffa64698af7366f98dcb3359d4e3fbf449.webp",
       "file": "memory-zone-meme-victim-list-snippet.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -5027,7 +5044,7 @@
     {
       "id": "my-romantic-encounters",
       "name": "My Romantic Encounters",
-      "icon": "icons/53274d2138d5acd481b6ee1b61f3fbaee357be0af3a815c372d02eb93f5d54bb.webp",
+      "icon": "icons/017858380dbb6d434d4a73c6e6fa5d883c7b5c55199d69bbb5e34b0ad307ee32.webp",
       "file": "my-romantic-encounters.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -5079,7 +5096,7 @@
     {
       "id": "nickodeum-cinemas-special-feature-night-of-fright",
       "name": "Nickodeum Cinemas Special Feature: Night of Fright",
-      "icon": "icons/53274d2138d5acd481b6ee1b61f3fbaee357be0af3a815c372d02eb93f5d54bb.webp",
+      "icon": "icons/017858380dbb6d434d4a73c6e6fa5d883c7b5c55199d69bbb5e34b0ad307ee32.webp",
       "file": "nickodeum-cinemas-special-feature-night-of-fright.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -5092,7 +5109,7 @@
     {
       "id": "night-of-bruce-promotional-flyer",
       "name": "Night of Bruce Promotional Flyer",
-      "icon": "icons/53274d2138d5acd481b6ee1b61f3fbaee357be0af3a815c372d02eb93f5d54bb.webp",
+      "icon": "icons/017858380dbb6d434d4a73c6e6fa5d883c7b5c55199d69bbb5e34b0ad307ee32.webp",
       "file": "night-of-bruce-promotional-flyer.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -5105,7 +5122,7 @@
     {
       "id": "night-of-burning-dreams-script",
       "name": "Night of Burning Dreams Script",
-      "icon": "icons/a9152703a5978e359950dfef7c4df87578bb809a94bb4bd5881a58476c743f18.webp",
+      "icon": "icons/7ea92c3fb2244a4c428b645588de9c7cf302d33afdc6aebd1866773e6fa4dcf3.webp",
       "file": "night-of-burning-dreams-script.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -5222,7 +5239,7 @@
     {
       "id": "notification-for-physical-examinations",
       "name": "Notification for Physical Examinations",
-      "icon": "icons/5febdda8d483c5333908ca311ea43e1e41d5101408397eeb38f1f20f937ee861.webp",
+      "icon": "icons/d72c85c0b70e51d566976fcf4e379375e3f1e92299263d12f8eaa30c302ff51f.webp",
       "file": "notification-for-physical-examinations.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -5274,7 +5291,7 @@
     {
       "id": "observation-on-wubbaboo-behavior",
       "name": "Observation on Wubbaboo Behavior",
-      "icon": "icons/5febdda8d483c5333908ca311ea43e1e41d5101408397eeb38f1f20f937ee861.webp",
+      "icon": "icons/d72c85c0b70e51d566976fcf4e379375e3f1e92299263d12f8eaa30c302ff51f.webp",
       "file": "observation-on-wubbaboo-behavior.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -5313,7 +5330,7 @@
     {
       "id": "observational-notes-on-memory-zone-lifeforms",
       "name": "Observational Notes on Memory Zone Lifeforms",
-      "icon": "icons/a9152703a5978e359950dfef7c4df87578bb809a94bb4bd5881a58476c743f18.webp",
+      "icon": "icons/7ea92c3fb2244a4c428b645588de9c7cf302d33afdc6aebd1866773e6fa4dcf3.webp",
       "file": "observational-notes-on-memory-zone-lifeforms.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -5365,7 +5382,7 @@
     {
       "id": "odes-of-harmony",
       "name": "Odes of Harmony",
-      "icon": "icons/a9152703a5978e359950dfef7c4df87578bb809a94bb4bd5881a58476c743f18.webp",
+      "icon": "icons/7ea92c3fb2244a4c428b645588de9c7cf302d33afdc6aebd1866773e6fa4dcf3.webp",
       "file": "odes-of-harmony.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -5542,7 +5559,7 @@
     {
       "id": "opinion-about-the-claretwheel-temple-issue",
       "name": "Opinion About the Claretwheel Temple Issue",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "opinion-about-the-claretwheel-temple-issue.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -5568,7 +5585,7 @@
     {
       "id": "otherworldly-delights",
       "name": "Otherworldly Delights",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "otherworldly-delights.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -5581,7 +5598,7 @@
     {
       "id": "overview-of-xianzhou-s-materia-medica",
       "name": "Overview of Xianzhou's Materia Medica",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "overview-of-xianzhou-s-materia-medica.json",
       "volumeCount": 4,
       "volumeLabels": [
@@ -5613,7 +5630,7 @@
     {
       "id": "paperfold-university-librarian-diary",
       "name": "Paperfold University Librarian Diary",
-      "icon": "icons/a9152703a5978e359950dfef7c4df87578bb809a94bb4bd5881a58476c743f18.webp",
+      "icon": "icons/7ea92c3fb2244a4c428b645588de9c7cf302d33afdc6aebd1866773e6fa4dcf3.webp",
       "file": "paperfold-university-librarian-diary.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -5639,7 +5656,7 @@
     {
       "id": "paperfold-university-student-disciplinary-record-vol-3",
       "name": "Paperfold University Student Disciplinary Record (Vol. 3)",
-      "icon": "icons/db185222dd63c6785d73246f01ae49a6336a73c82e26211a5f24fbd73c995f72.webp",
+      "icon": "icons/a1bae54dfe4acf32e5e5c9fb538b35ffa64698af7366f98dcb3359d4e3fbf449.webp",
       "file": "paperfold-university-student-disciplinary-record-vol-3.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -5652,7 +5669,7 @@
     {
       "id": "paperfold-university-yearbook-vol-24825",
       "name": "Paperfold University Yearbook: Vol 24825",
-      "icon": "icons/a9152703a5978e359950dfef7c4df87578bb809a94bb4bd5881a58476c743f18.webp",
+      "icon": "icons/7ea92c3fb2244a4c428b645588de9c7cf302d33afdc6aebd1866773e6fa4dcf3.webp",
       "file": "paperfold-university-yearbook-vol-24825.json",
       "volumeCount": 7,
       "volumeLabels": [
@@ -5716,7 +5733,7 @@
     {
       "id": "penacony-flight-guide",
       "name": "Penacony Flight Guide",
-      "icon": "icons/a9152703a5978e359950dfef7c4df87578bb809a94bb4bd5881a58476c743f18.webp",
+      "icon": "icons/7ea92c3fb2244a4c428b645588de9c7cf302d33afdc6aebd1866773e6fa4dcf3.webp",
       "file": "penacony-flight-guide.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -5885,7 +5902,7 @@
     {
       "id": "planet-of-festivities-collectible-card",
       "name": "Planet of Festivities Collectible Card",
-      "icon": "icons/53274d2138d5acd481b6ee1b61f3fbaee357be0af3a815c372d02eb93f5d54bb.webp",
+      "icon": "icons/017858380dbb6d434d4a73c6e6fa5d883c7b5c55199d69bbb5e34b0ad307ee32.webp",
       "file": "planet-of-festivities-collectible-card.json",
       "volumeCount": 11,
       "volumeLabels": [
@@ -5961,7 +5978,7 @@
     {
       "id": "port-bulletin-board",
       "name": "Port Bulletin Board",
-      "icon": "icons/8742963e0ec758b775be5f0ea0f27ed50454a24656ea6f45f543b749230213f8.webp",
+      "icon": "icons/8ce8a1182b4a8821c3eab5eb80a1359df47d24b4b9504647c9728f70370afde0.webp",
       "file": "port-bulletin-board.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -6039,7 +6056,7 @@
     {
       "id": "project-scarab",
       "name": "Project: Scarab",
-      "icon": "icons/a9152703a5978e359950dfef7c4df87578bb809a94bb4bd5881a58476c743f18.webp",
+      "icon": "icons/7ea92c3fb2244a4c428b645588de9c7cf302d33afdc6aebd1866773e6fa4dcf3.webp",
       "file": "project-scarab.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -6052,7 +6069,7 @@
     {
       "id": "protecting-starskiff-haven",
       "name": "Protecting Starskiff Haven",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "protecting-starskiff-haven.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -6065,7 +6082,7 @@
     {
       "id": "quinn-s-diary",
       "name": "Quinn's Diary",
-      "icon": "icons/a9152703a5978e359950dfef7c4df87578bb809a94bb4bd5881a58476c743f18.webp",
+      "icon": "icons/7ea92c3fb2244a4c428b645588de9c7cf302d33afdc6aebd1866773e6fa4dcf3.webp",
       "file": "quinn-s-diary.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -6130,7 +6147,7 @@
     {
       "id": "record-of-reignbow-s-road",
       "name": "Record of Reignbow's Road",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "record-of-reignbow-s-road.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -6169,7 +6186,7 @@
     {
       "id": "records-of-the-early-nation-fragment",
       "name": "Records of the Early Nation (Fragment)",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "records-of-the-early-nation-fragment.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -6182,7 +6199,7 @@
     {
       "id": "records-of-yellowbell-resonance",
       "name": "Records of Yellowbell Resonance",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "records-of-yellowbell-resonance.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -6221,7 +6238,7 @@
     {
       "id": "remnants-of-ruan-mei-s-diary",
       "name": "Remnants of Ruan Mei's Diary",
-      "icon": "icons/8742963e0ec758b775be5f0ea0f27ed50454a24656ea6f45f543b749230213f8.webp",
+      "icon": "icons/8ce8a1182b4a8821c3eab5eb80a1359df47d24b4b9504647c9728f70370afde0.webp",
       "file": "remnants-of-ruan-mei-s-diary.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -6260,7 +6277,7 @@
     {
       "id": "report-submitted-by-the-interastral-peace-corporation-s-luofu-office",
       "name": "Report submitted by the Interastral Peace Corporation's Luofu Office",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "report-submitted-by-the-interastral-peace-corporation-s-luofu-office.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -6299,7 +6316,7 @@
     {
       "id": "research-on-capsule-machine-no",
       "name": "Research On Capsule Machine No. ■",
-      "icon": "icons/db185222dd63c6785d73246f01ae49a6336a73c82e26211a5f24fbd73c995f72.webp",
+      "icon": "icons/a1bae54dfe4acf32e5e5c9fb538b35ffa64698af7366f98dcb3359d4e3fbf449.webp",
       "file": "research-on-capsule-machine-no.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -6312,7 +6329,7 @@
     {
       "id": "research-report-tottonid-crystals",
       "name": "Research Report: Tottonid Crystals",
-      "icon": "icons/5febdda8d483c5333908ca311ea43e1e41d5101408397eeb38f1f20f937ee861.webp",
+      "icon": "icons/d72c85c0b70e51d566976fcf4e379375e3f1e92299263d12f8eaa30c302ff51f.webp",
       "file": "research-report-tottonid-crystals.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -6325,7 +6342,7 @@
     {
       "id": "researcher-eikura-shuu-s-diary",
       "name": "Researcher Eikura Shuu's Diary",
-      "icon": "icons/5febdda8d483c5333908ca311ea43e1e41d5101408397eeb38f1f20f937ee861.webp",
+      "icon": "icons/d72c85c0b70e51d566976fcf4e379375e3f1e92299263d12f8eaa30c302ff51f.webp",
       "file": "researcher-eikura-shuu-s-diary.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -6338,7 +6355,7 @@
     {
       "id": "researchers-memo-notes",
       "name": "Researchers' Memo Notes",
-      "icon": "icons/8742963e0ec758b775be5f0ea0f27ed50454a24656ea6f45f543b749230213f8.webp",
+      "icon": "icons/8ce8a1182b4a8821c3eab5eb80a1359df47d24b4b9504647c9728f70370afde0.webp",
       "file": "researchers-memo-notes.json",
       "volumeCount": 6,
       "volumeLabels": [
@@ -6374,7 +6391,7 @@
     {
       "id": "review-on-the-ninefold-peace-set-menu-from-the-garden-of-gourmet",
       "name": "Review on the Ninefold Peace set menu from the Garden of Gourmet",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "review-on-the-ninefold-peace-set-menu-from-the-garden-of-gourmet.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -6417,7 +6434,7 @@
     {
       "id": "ruan-mei-s-lab-log",
       "name": "Ruan Mei's Lab Log",
-      "icon": "icons/8742963e0ec758b775be5f0ea0f27ed50454a24656ea6f45f543b749230213f8.webp",
+      "icon": "icons/8ce8a1182b4a8821c3eab5eb80a1359df47d24b4b9504647c9728f70370afde0.webp",
       "file": "ruan-mei-s-lab-log.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -6573,7 +6590,7 @@
     {
       "id": "selected-classic-case-studies",
       "name": "Selected Classic Case Studies",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "selected-classic-case-studies.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -6599,7 +6616,7 @@
     {
       "id": "sheila-s-character-script",
       "name": "Sheila's Character Script",
-      "icon": "icons/5febdda8d483c5333908ca311ea43e1e41d5101408397eeb38f1f20f937ee861.webp",
+      "icon": "icons/d72c85c0b70e51d566976fcf4e379375e3f1e92299263d12f8eaa30c302ff51f.webp",
       "file": "sheila-s-character-script.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -6612,7 +6629,7 @@
     {
       "id": "shelved-business-proposal-draft-version-7-0",
       "name": "Shelved Business Proposal Draft (Version 7.0)",
-      "icon": "icons/a9152703a5978e359950dfef7c4df87578bb809a94bb4bd5881a58476c743f18.webp",
+      "icon": "icons/7ea92c3fb2244a4c428b645588de9c7cf302d33afdc6aebd1866773e6fa4dcf3.webp",
       "file": "shelved-business-proposal-draft-version-7-0.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -6651,7 +6668,7 @@
     {
       "id": "silver-screen-shockwave-issue-280",
       "name": "Silver Screen Shockwave Issue 280",
-      "icon": "icons/53274d2138d5acd481b6ee1b61f3fbaee357be0af3a815c372d02eb93f5d54bb.webp",
+      "icon": "icons/017858380dbb6d434d4a73c6e6fa5d883c7b5c55199d69bbb5e34b0ad307ee32.webp",
       "file": "silver-screen-shockwave-issue-280.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -6703,7 +6720,7 @@
     {
       "id": "so-close-so-beautiful-spend-your-weekend-in-seafeld-city",
       "name": "So close, so beautiful. Spend your weekend in Seafeld City.",
-      "icon": "icons/8742963e0ec758b775be5f0ea0f27ed50454a24656ea6f45f543b749230213f8.webp",
+      "icon": "icons/8ce8a1182b4a8821c3eab5eb80a1359df47d24b4b9504647c9728f70370afde0.webp",
       "file": "so-close-so-beautiful-spend-your-weekend-in-seafeld-city.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -6742,7 +6759,7 @@
     {
       "id": "soulglad-cyclopedia",
       "name": "SoulGlad Cyclopedia",
-      "icon": "icons/53274d2138d5acd481b6ee1b61f3fbaee357be0af3a815c372d02eb93f5d54bb.webp",
+      "icon": "icons/017858380dbb6d434d4a73c6e6fa5d883c7b5c55199d69bbb5e34b0ad307ee32.webp",
       "file": "soulglad-cyclopedia.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -6755,7 +6772,7 @@
     {
       "id": "space-station-introductory-guide",
       "name": "Space Station Introductory Guide",
-      "icon": "icons/5febdda8d483c5333908ca311ea43e1e41d5101408397eeb38f1f20f937ee861.webp",
+      "icon": "icons/d72c85c0b70e51d566976fcf4e379375e3f1e92299263d12f8eaa30c302ff51f.webp",
       "file": "space-station-introductory-guide.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -6768,7 +6785,7 @@
     {
       "id": "space-station-love-poems",
       "name": "Space Station Love Poems",
-      "icon": "icons/5febdda8d483c5333908ca311ea43e1e41d5101408397eeb38f1f20f937ee861.webp",
+      "icon": "icons/d72c85c0b70e51d566976fcf4e379375e3f1e92299263d12f8eaa30c302ff51f.webp",
       "file": "space-station-love-poems.json",
       "volumeCount": 3,
       "volumeLabels": [
@@ -6785,7 +6802,7 @@
     {
       "id": "species-of-the-galaxy-tottonid",
       "name": "Species of the Galaxy: Tottonid",
-      "icon": "icons/5febdda8d483c5333908ca311ea43e1e41d5101408397eeb38f1f20f937ee861.webp",
+      "icon": "icons/d72c85c0b70e51d566976fcf4e379375e3f1e92299263d12f8eaa30c302ff51f.webp",
       "file": "species-of-the-galaxy-tottonid.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -6798,7 +6815,7 @@
     {
       "id": "species-of-the-galaxy-wubbaboo",
       "name": "Species of the Galaxy: Wubbaboo",
-      "icon": "icons/5febdda8d483c5333908ca311ea43e1e41d5101408397eeb38f1f20f937ee861.webp",
+      "icon": "icons/d72c85c0b70e51d566976fcf4e379375e3f1e92299263d12f8eaa30c302ff51f.webp",
       "file": "species-of-the-galaxy-wubbaboo.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -6962,7 +6979,7 @@
     {
       "id": "summary-of-clock-studios-financial-report",
       "name": "Summary of Clock Studios Financial Report",
-      "icon": "icons/a9152703a5978e359950dfef7c4df87578bb809a94bb4bd5881a58476c743f18.webp",
+      "icon": "icons/7ea92c3fb2244a4c428b645588de9c7cf302d33afdc6aebd1866773e6fa4dcf3.webp",
       "file": "summary-of-clock-studios-financial-report.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -7027,7 +7044,7 @@
     {
       "id": "surveillance-report-from-the-xianzhou-yuque",
       "name": "Surveillance Report from the Xianzhou Yuque",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "surveillance-report-from-the-xianzhou-yuque.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -7040,7 +7057,7 @@
     {
       "id": "sword-hunt-journal-crimson-thorn",
       "name": "Sword Hunt Journal: Crimson Thorn",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "sword-hunt-journal-crimson-thorn.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -7175,7 +7192,7 @@
     {
       "id": "ten-lords-commission-criminal-directory",
       "name": "Ten-Lords Commission Criminal Directory",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "ten-lords-commission-criminal-directory.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -7188,7 +7205,7 @@
     {
       "id": "the-58th-petition-to-the-student-court",
       "name": "The 58th Petition to the Student Court",
-      "icon": "icons/53274d2138d5acd481b6ee1b61f3fbaee357be0af3a815c372d02eb93f5d54bb.webp",
+      "icon": "icons/017858380dbb6d434d4a73c6e6fa5d883c7b5c55199d69bbb5e34b0ad307ee32.webp",
       "file": "the-58th-petition-to-the-student-court.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -7252,7 +7269,7 @@
     {
       "id": "the-angler-mystery",
       "name": "The Angler Mystery",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "the-angler-mystery.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -7265,7 +7282,7 @@
     {
       "id": "the-angler-mystery-anniversary-special-edition-review",
       "name": "The Angler Mystery Anniversary Special Edition Review",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "the-angler-mystery-anniversary-special-edition-review.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -7291,7 +7308,7 @@
     {
       "id": "the-curlcademy-guidelines",
       "name": "The Curlcademy Guidelines",
-      "icon": "icons/5febdda8d483c5333908ca311ea43e1e41d5101408397eeb38f1f20f937ee861.webp",
+      "icon": "icons/d72c85c0b70e51d566976fcf4e379375e3f1e92299263d12f8eaa30c302ff51f.webp",
       "file": "the-curlcademy-guidelines.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -7317,7 +7334,7 @@
     {
       "id": "the-dreamweaver-archives",
       "name": "The Dreamweaver Archives",
-      "icon": "icons/a9152703a5978e359950dfef7c4df87578bb809a94bb4bd5881a58476c743f18.webp",
+      "icon": "icons/7ea92c3fb2244a4c428b645588de9c7cf302d33afdc6aebd1866773e6fa4dcf3.webp",
       "file": "the-dreamweaver-archives.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -7369,7 +7386,7 @@
     {
       "id": "the-history-of-penacony-airship-design-excerpt",
       "name": "The History of Penacony Airship Design Excerpt",
-      "icon": "icons/a9152703a5978e359950dfef7c4df87578bb809a94bb4bd5881a58476c743f18.webp",
+      "icon": "icons/7ea92c3fb2244a4c428b645588de9c7cf302d33afdc6aebd1866773e6fa4dcf3.webp",
       "file": "the-history-of-penacony-airship-design-excerpt.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -7436,7 +7453,7 @@
     {
       "id": "the-luofu-cauldron-master-s-report-to-the-six-charioteers",
       "name": "The Luofu Cauldron Master's Report to the Six Charioteers",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "the-luofu-cauldron-master-s-report-to-the-six-charioteers.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -7475,7 +7492,7 @@
     {
       "id": "the-nature-of-emotion-a-physiological-analysis",
       "name": "The Nature of Emotion — A Physiological Analysis",
-      "icon": "icons/5febdda8d483c5333908ca311ea43e1e41d5101408397eeb38f1f20f937ee861.webp",
+      "icon": "icons/d72c85c0b70e51d566976fcf4e379375e3f1e92299263d12f8eaa30c302ff51f.webp",
       "file": "the-nature-of-emotion-a-physiological-analysis.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -7488,7 +7505,7 @@
     {
       "id": "the-paperfold-university-student-handbook-comments-on-the-43rd-revised-edition",
       "name": "The Paperfold University Student Handbook — Comments on the 43rd Revised Edition",
-      "icon": "icons/a9152703a5978e359950dfef7c4df87578bb809a94bb4bd5881a58476c743f18.webp",
+      "icon": "icons/7ea92c3fb2244a4c428b645588de9c7cf302d33afdc6aebd1866773e6fa4dcf3.webp",
       "file": "the-paperfold-university-student-handbook-comments-on-the-43rd-revised-edition.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -7514,7 +7531,7 @@
     {
       "id": "the-planet-of-canticles-final-song-song-of-beauty-concert",
       "name": "The Planet Of Canticles' Final Song: Song of Beauty Concert",
-      "icon": "icons/53274d2138d5acd481b6ee1b61f3fbaee357be0af3a815c372d02eb93f5d54bb.webp",
+      "icon": "icons/017858380dbb6d434d4a73c6e6fa5d883c7b5c55199d69bbb5e34b0ad307ee32.webp",
       "file": "the-planet-of-canticles-final-song-song-of-beauty-concert.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -7553,7 +7570,7 @@
     {
       "id": "the-search-for-calypso",
       "name": "The Search For Calypso",
-      "icon": "icons/a9152703a5978e359950dfef7c4df87578bb809a94bb4bd5881a58476c743f18.webp",
+      "icon": "icons/7ea92c3fb2244a4c428b645588de9c7cf302d33afdc6aebd1866773e6fa4dcf3.webp",
       "file": "the-search-for-calypso.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -7579,7 +7596,7 @@
     {
       "id": "the-seven-wonders-of-paperfold-university",
       "name": "The Seven Wonders of Paperfold University",
-      "icon": "icons/53274d2138d5acd481b6ee1b61f3fbaee357be0af3a815c372d02eb93f5d54bb.webp",
+      "icon": "icons/017858380dbb6d434d4a73c6e6fa5d883c7b5c55199d69bbb5e34b0ad307ee32.webp",
       "file": "the-seven-wonders-of-paperfold-university.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -7592,7 +7609,7 @@
     {
       "id": "the-startaro-bubble-tea-tastes-horrible",
       "name": "The Startaro Bubble Tea Tastes Horrible",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "the-startaro-bubble-tea-tastes-horrible.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -7605,7 +7622,7 @@
     {
       "id": "the-story-of-soulglad-dreams-in-a-bottle",
       "name": "The Story of SoulGlad: Dreams in a Bottle",
-      "icon": "icons/a9152703a5978e359950dfef7c4df87578bb809a94bb4bd5881a58476c743f18.webp",
+      "icon": "icons/7ea92c3fb2244a4c428b645588de9c7cf302d33afdc6aebd1866773e6fa4dcf3.webp",
       "file": "the-story-of-soulglad-dreams-in-a-bottle.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -7631,7 +7648,7 @@
     {
       "id": "the-well-kept-secret-of-the-maintenance-department",
       "name": "The Well-Kept Secret of the Maintenance Department",
-      "icon": "icons/5febdda8d483c5333908ca311ea43e1e41d5101408397eeb38f1f20f937ee861.webp",
+      "icon": "icons/d72c85c0b70e51d566976fcf4e379375e3f1e92299263d12f8eaa30c302ff51f.webp",
       "file": "the-well-kept-secret-of-the-maintenance-department.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -7696,7 +7713,7 @@
     {
       "id": "tiger-boxing-gym-admissions-ad",
       "name": "Tiger Boxing Gym Admissions Ad",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "tiger-boxing-gym-admissions-ad.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -7774,7 +7791,7 @@
     {
       "id": "tottonids-are-rocks",
       "name": "Tottonids Are Rocks",
-      "icon": "icons/5febdda8d483c5333908ca311ea43e1e41d5101408397eeb38f1f20f937ee861.webp",
+      "icon": "icons/d72c85c0b70e51d566976fcf4e379375e3f1e92299263d12f8eaa30c302ff51f.webp",
       "file": "tottonids-are-rocks.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -7787,7 +7804,7 @@
     {
       "id": "transcript-of-ten-lords-commission-interrogation-with-the-wingweaver-xili",
       "name": "Transcript of Ten-Lords Commission Interrogation With the Wingweaver Xili",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "transcript-of-ten-lords-commission-interrogation-with-the-wingweaver-xili.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -7813,7 +7830,7 @@
     {
       "id": "travelogue-on-xianzhou",
       "name": "Travelogue on Xianzhou",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "travelogue-on-xianzhou.json",
       "volumeCount": 7,
       "volumeLabels": [
@@ -7838,7 +7855,7 @@
     {
       "id": "treasure-clues-provided-by-someone-mysterious",
       "name": "Treasure Clues Provided by Someone Mysterious",
-      "icon": "icons/a9152703a5978e359950dfef7c4df87578bb809a94bb4bd5881a58476c743f18.webp",
+      "icon": "icons/7ea92c3fb2244a4c428b645588de9c7cf302d33afdc6aebd1866773e6fa4dcf3.webp",
       "file": "treasure-clues-provided-by-someone-mysterious.json",
       "volumeCount": 6,
       "volumeLabels": [
@@ -7887,7 +7904,7 @@
     {
       "id": "undelivered-prayer-book",
       "name": "Undelivered Prayer Book",
-      "icon": "icons/a9152703a5978e359950dfef7c4df87578bb809a94bb4bd5881a58476c743f18.webp",
+      "icon": "icons/7ea92c3fb2244a4c428b645588de9c7cf302d33afdc6aebd1866773e6fa4dcf3.webp",
       "file": "undelivered-prayer-book.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -7997,7 +8014,7 @@
     {
       "id": "update-notes-for-master-capote-s-life-wiki-version-12-0",
       "name": "Update Notes for Master Capote's Life Wiki Version 12.0",
-      "icon": "icons/5febdda8d483c5333908ca311ea43e1e41d5101408397eeb38f1f20f937ee861.webp",
+      "icon": "icons/d72c85c0b70e51d566976fcf4e379375e3f1e92299263d12f8eaa30c302ff51f.webp",
       "file": "update-notes-for-master-capote-s-life-wiki-version-12-0.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -8088,7 +8105,7 @@
     {
       "id": "views-of-the-universe-from-a-starskiff-the-xianzhou-zhuming",
       "name": "Views of the Universe from a Starskiff: The Xianzhou Zhuming",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "views-of-the-universe-from-a-starskiff-the-xianzhou-zhuming.json",
       "volumeCount": 3,
       "volumeLabels": [
@@ -8105,7 +8122,7 @@
     {
       "id": "vip-itinerary-guide",
       "name": "VIP Itinerary Guide",
-      "icon": "icons/53274d2138d5acd481b6ee1b61f3fbaee357be0af3a815c372d02eb93f5d54bb.webp",
+      "icon": "icons/017858380dbb6d434d4a73c6e6fa5d883c7b5c55199d69bbb5e34b0ad307ee32.webp",
       "file": "vip-itinerary-guide.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -8146,7 +8163,7 @@
     {
       "id": "warning",
       "name": "Warning!!!",
-      "icon": "icons/a189a2a66b354adc408ee3a7616f60b894e531ca845bfdb6ee82dac985c0b59a.webp",
+      "icon": "icons/02e7f198376c002844da7085d9de1c02d39d4f128a89cbfabbef2bfd6c11fec2.webp",
       "file": "warning.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -8159,7 +8176,7 @@
     {
       "id": "watchmaker-investigation-record",
       "name": "Watchmaker Investigation Record",
-      "icon": "icons/a9152703a5978e359950dfef7c4df87578bb809a94bb4bd5881a58476c743f18.webp",
+      "icon": "icons/7ea92c3fb2244a4c428b645588de9c7cf302d33afdc6aebd1866773e6fa4dcf3.webp",
       "file": "watchmaker-investigation-record.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -8185,7 +8202,7 @@
     {
       "id": "welcome-to",
       "name": "Welcome to ■■■■",
-      "icon": "icons/53274d2138d5acd481b6ee1b61f3fbaee357be0af3a815c372d02eb93f5d54bb.webp",
+      "icon": "icons/017858380dbb6d434d4a73c6e6fa5d883c7b5c55199d69bbb5e34b0ad307ee32.webp",
       "file": "welcome-to.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -8198,7 +8215,7 @@
     {
       "id": "welcome-to-ethansville-trial-episode",
       "name": "Welcome to Ethansville (Trial Episode)",
-      "icon": "icons/db185222dd63c6785d73246f01ae49a6336a73c82e26211a5f24fbd73c995f72.webp",
+      "icon": "icons/a1bae54dfe4acf32e5e5c9fb538b35ffa64698af7366f98dcb3359d4e3fbf449.webp",
       "file": "welcome-to-ethansville-trial-episode.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -8250,7 +8267,7 @@
     {
       "id": "whispers-of-the-elites-a-reporter-s-correspondence",
       "name": "Whispers of the Elites: A Reporter's Correspondence",
-      "icon": "icons/a9152703a5978e359950dfef7c4df87578bb809a94bb4bd5881a58476c743f18.webp",
+      "icon": "icons/7ea92c3fb2244a4c428b645588de9c7cf302d33afdc6aebd1866773e6fa4dcf3.webp",
       "file": "whispers-of-the-elites-a-reporter-s-correspondence.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -8367,7 +8384,7 @@
     {
       "id": "xianzhou-alliance-travel-guide",
       "name": "Xianzhou Alliance Travel Guide",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "xianzhou-alliance-travel-guide.json",
       "volumeCount": 2,
       "volumeLabels": [
@@ -8382,7 +8399,7 @@
     {
       "id": "xianzhou-luofu-wardance-guide",
       "name": "Xianzhou Luofu Wardance Guide",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "xianzhou-luofu-wardance-guide.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -8395,7 +8412,7 @@
     {
       "id": "xin-41-homeward-cloud-messaging",
       "name": "Xin-41 Homeward Cloud Messaging",
-      "icon": "icons/5febdda8d483c5333908ca311ea43e1e41d5101408397eeb38f1f20f937ee861.webp",
+      "icon": "icons/d72c85c0b70e51d566976fcf4e379375e3f1e92299263d12f8eaa30c302ff51f.webp",
       "file": "xin-41-homeward-cloud-messaging.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -8408,7 +8425,7 @@
     {
       "id": "yancui-interrogation-transcript",
       "name": "Yancui Interrogation Transcript",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "yancui-interrogation-transcript.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -8421,7 +8438,7 @@
     {
       "id": "yaoqing-recruit-handbook-borisin-pack-overview",
       "name": "Yaoqing Recruit Handbook: Borisin Pack Overview",
-      "icon": "icons/a5e943efdb73b350198a9535fde137ed5e31b4c34d9a4de5c8aca9feba6528ad.webp",
+      "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
       "file": "yaoqing-recruit-handbook-borisin-pack-overview.json",
       "volumeCount": 1,
       "volumeLabels": [

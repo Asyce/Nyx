@@ -2,6 +2,7 @@ import crypto from 'node:crypto';
 import fs from 'node:fs/promises';
 import http from 'node:http';
 import path from 'node:path';
+import { inspectAchievementIconBytes, validateCatalog as validateAchievementCatalog } from '../../Scraper/achievements/core.mjs';
 import vm from 'node:vm';
 import { fileURLToPath } from 'node:url';
 
@@ -113,9 +114,12 @@ async function verifyRuntimeData(base) {
   const manifest = JSON.parse(manifestText);
   if (manifest?.schemaVersion !== 1 || !Array.isArray(manifest.files) || !manifest.files.length) throw new Error('runtime manifest is missing or invalid');
   const urls = new Set();
+  const entriesByUrl = new Map();
   for (const entry of manifest.files) {
-    if (!entry?.url?.startsWith('/data/') || entry.url.includes('..') || urls.has(entry.url)) throw new Error(`runtime manifest has unsafe/duplicate URL ${entry?.url}`);
+    const achievementAsset = /^\/assets\/achievements\/(?:gi|hsr)\/(?:categories|rewards)\/[a-f0-9]{64}\.(?:png|webp)$/.test(entry?.url ?? '');
+    if ((!entry?.url?.startsWith('/data/') && !achievementAsset) || entry.url.includes('..') || urls.has(entry.url)) throw new Error(`runtime manifest has unsafe/duplicate URL ${entry?.url}`);
     urls.add(entry.url);
+    entriesByUrl.set(entry.url, entry);
     const relative = entry.url.replace(/^\/+/, '');
     const bytes = await fs.readFile(path.resolve(deployDir, relative));
     if (bytes.length !== entry.size) throw new Error(`${entry.url} size does not match runtime manifest`);
@@ -127,9 +131,26 @@ async function verifyRuntimeData(base) {
       const webp = bytes.length >= 12 && bytes.subarray(0, 4).toString('ascii') === 'RIFF' && bytes.subarray(8, 12).toString('ascii') === 'WEBP';
       const png = bytes.length >= 8 && bytes.subarray(0, 8).equals(Buffer.from([137,80,78,71,13,10,26,10]));
       if (!iconHash || iconHash !== hash || (!webp && !png)) throw new Error(`runtime manifest has invalid binary ${entry.url}`);
+      if (achievementAsset) inspectAchievementIconBytes(bytes);
     }
   }
   for (const game of ['gi','hsr']) {
+    const achievementUrl = `/data/achievements/${game}/catalog.json`;
+    if (!urls.has(achievementUrl)) throw new Error(`runtime manifest is missing ${achievementUrl}`);
+    const catalog = JSON.parse(await readDeployText(achievementUrl.slice(1)));
+    try {
+      if (catalog?.game !== game) throw new Error(`catalog game ${catalog?.game} does not match ${game}`);
+      validateAchievementCatalog(catalog);
+    } catch (error) { throw new Error(`${achievementUrl} is invalid: ${error.message}`); }
+    await checkFetch(base, achievementUrl, '"achievements"', 500);
+    const categoryIcons = catalog.categories.map((category) => category.icon).filter(Boolean);
+    if (categoryIcons.length !== catalog.categories.length) throw new Error(`${achievementUrl} is missing released category icons`);
+    if (!catalog.rewardCurrency?.icon) throw new Error(`${achievementUrl} is missing its reward currency icon`);
+    for (const icon of [...categoryIcons, catalog.rewardCurrency.icon]) {
+      const entry = entriesByUrl.get(icon.path);
+      if (!entry) throw new Error(`${achievementUrl} icon is absent from the runtime manifest: ${icon.path}`);
+      await checkBinaryFetch(base, icon.path, entry);
+    }
     const indexUrl = `/data/library/${game}/index.json`;
     const searchUrl = `/data/library/${game}/search-index.json`;
     if (!urls.has(indexUrl)) throw new Error(`runtime manifest is missing ${indexUrl}`);
@@ -137,7 +158,10 @@ async function verifyRuntimeData(base) {
     const index = JSON.parse(await readDeployText(indexUrl.slice(1)));
     const search = JSON.parse(await readDeployText(searchUrl.slice(1)));
     if (!Array.isArray(index.entries) || index.entries.length !== index.count || !index.entries.length) throw new Error(`${indexUrl} is empty or invalid`);
-    if (search?.schemaVersion !== 1 || search.game !== game || search.bookCount !== index.count || !Array.isArray(search.books) || search.books.length !== index.count || search.wordCount !== Object.keys(search.words || {}).length) throw new Error(`${searchUrl} is invalid`);
+    const expectedVolumeCount = index.entries.reduce((sum, row) => sum + Number(row.volumeCount || 0), 0);
+    if (search?.schemaVersion !== 2 || search.game !== game || search.bookCount !== index.count || !Array.isArray(search.books)
+      || search.books.length !== index.count || !Array.isArray(search.volumes) || search.volumeCount !== expectedVolumeCount
+      || search.volumes.length !== expectedVolumeCount) throw new Error(`${searchUrl} is invalid`);
     for (const row of index.entries) {
       if (!urls.has(`/data/library/${game}/${row.file}`)) throw new Error(`${indexUrl} book is absent from manifest: ${row.file}`);
       if (row.icon && !urls.has(`/data/library/${game}/${row.icon}`)) throw new Error(`${indexUrl} icon is absent from manifest: ${row.icon}`);
@@ -157,7 +181,10 @@ async function verifyRuntimeData(base) {
       }
     }
     await checkFetch(base, indexUrl, '"entries"', 100);
-    await checkFetch(base, searchUrl, '"words"', 100);
+    const fetchedSearch = JSON.parse(await fetchCheckedText(base, searchUrl, null, 100));
+    if (fetchedSearch?.schemaVersion !== 2 || !Array.isArray(fetchedSearch.volumes)) {
+      throw new Error(`${searchUrl} did not serve the volume-aware schema`);
+    }
     await checkFetch(base, `/data/library/${game}/${index.entries[0].file}`, '"volumes"', 100);
   }
   for (const game of ['gi','hsr','zzz','wuwa','ae']) {
@@ -188,13 +215,28 @@ async function verifyRuntimeData(base) {
   return manifest.files.length;
 }
 
-async function checkFetch(base, route, contains, minBytes = 500) {
+async function fetchCheckedText(base, route, contains, minBytes = 500) {
   const res = await fetch(base + route);
   const text = await res.text();
   if (res.status !== 200) throw new Error(`${route} returned ${res.status}`);
   if (text.length < minBytes) throw new Error(`${route} returned suspiciously small body (${text.length} bytes)`);
   if (contains && !text.includes(contains)) throw new Error(`${route} is missing expected text: ${contains}`);
-  return text.length;
+  return text;
+}
+
+async function checkFetch(base, route, contains, minBytes = 500) {
+  return (await fetchCheckedText(base, route, contains, minBytes)).length;
+}
+
+async function checkBinaryFetch(base, route, expected) {
+  const res = await fetch(base + route);
+  const bytes = Buffer.from(await res.arrayBuffer());
+  if (res.status !== 200) throw new Error(`${route} returned ${res.status}`);
+  if (bytes.length !== expected.size) throw new Error(`${route} returned the wrong byte count`);
+  const hash = crypto.createHash('sha256').update(bytes).digest('hex');
+  if (hash !== expected.sha256) throw new Error(`${route} returned the wrong content hash`);
+  inspectAchievementIconBytes(bytes);
+  return bytes.length;
 }
 
 async function main() {
@@ -218,6 +260,8 @@ async function main() {
       ['/genshin/database/tcg', 'Genshin Impact'],
       ['/genshin/database/serenitea-pot', 'Genshin Impact'],
       ['/genshin/database/wonderland', 'Genshin Impact'],
+      ['/genshin/achievements', 'Genshin Impact'],
+      ['/hsr/achievements', 'Honkai: Star Rail'],
       ['/genshin/books', 'Genshin Impact'],
       ['/hsr/books', 'Honkai: Star Rail'],
       ['/genshin/serenitea-pot', 'Genshin Impact'],
@@ -225,6 +269,8 @@ async function main() {
       ['/hsr/characters/castorice', 'Honkai: Star Rail'],
       ['/sitemap.xml', '<urlset'],
       ['/version.json', '"app": "pengo-nyx"', 50],
+      ['/scripts/pengo-achievements.ps1', 'Pengo Nyx - offline achievement screenshot reader', 50_000],
+      ['/scripts/pengo-hsr-hoyolab-achievements.js', 'Pengo HSR achievement export', 20_000],
     ]) {
       results.push(`${route} ${await checkFetch(base, route, marker, minBytes)} bytes`);
     }
@@ -236,6 +282,12 @@ async function main() {
   const script = await fs.readFile(path.resolve(deployDir, 'scripts', 'pengo-pulls.ps1'));
   const scriptText = script.toString('utf8');
   const scriptHash = crypto.createHash('sha256').update(script).digest('hex');
+  const achievementScript = await fs.readFile(path.resolve(deployDir, 'scripts', 'pengo-achievements.ps1'));
+  const achievementScriptText = achievementScript.toString('utf8');
+  const achievementScriptHash = crypto.createHash('sha256').update(achievementScript).digest('hex');
+  const hsrAchievementScript = await fs.readFile(path.resolve(deployDir, 'scripts', 'pengo-hsr-hoyolab-achievements.js'));
+  const hsrAchievementScriptText = hsrAchievementScript.toString('utf8');
+  const hsrAchievementScriptHash = crypto.createHash('sha256').update(hsrAchievementScript).digest('hex');
   const bundle = await readDeployText('dist/game-page.bundle.js');
   const indexHtml = await readDeployText('index.html');
   const version = JSON.parse(await readDeployText('version.json'));
@@ -244,6 +296,18 @@ async function main() {
   if (!scriptText.includes('Pengo Nyx')) throw new Error('pengo-pulls.ps1 is missing Pengo branding');
   if (scriptText.includes('asyce.com/asivepulled')) throw new Error('pengo-pulls.ps1 contains old helper URL');
   if (!bundle.includes(scriptHash)) throw new Error(`bundle does not contain script SHA-256 ${scriptHash}`);
+  if (!achievementScriptText.includes('Pengo Nyx - offline achievement screenshot reader')) throw new Error('pengo-achievements.ps1 is missing Pengo branding');
+  if (!achievementScriptText.includes('Windows.Media.Ocr.OcrEngine')) throw new Error('pengo-achievements.ps1 is missing offline OCR');
+  if (!achievementScriptText.includes('Get-CompletionDate') || !achievementScriptText.includes('Test-SameCardGeometry') || !achievementScriptText.includes('Test-WrappedTitleGeometry')) throw new Error('pengo-achievements.ps1 is missing completion date or card geometry checks');
+  if (!achievementScriptText.includes('OcrEngine') || !achievementScriptText.includes('MaxImageDimension') || !achievementScriptText.includes('$ConfiguredMaxDimension = 10000')) throw new Error('pengo-achievements.ps1 is missing the bounded Windows OCR dimension limit');
+  if (!achievementScriptText.includes('Only plain local paths are accepted') || !achievementScriptText.includes('DriveType]::Network')) throw new Error('pengo-achievements.ps1 is missing local-path restrictions');
+  if (achievementScriptText.includes('FixtureTextPath') || achievementScriptText.includes('PENGO_ACHIEVEMENT_EXTRACTOR_TEST_MODE')) throw new Error('pengo-achievements.ps1 contains a production test backdoor');
+  if (/Invoke-(?:WebRequest|RestMethod)|Start-BitsTransfer|WebClient|HttpClient|Get-Process|OpenProcess|ReadProcessMemory|WriteProcessMemory|CreateRemoteThread|SetWindowsHookEx/i.test(achievementScriptText)) throw new Error('pengo-achievements.ps1 contains a forbidden network or game-process API');
+  if (!/^[a-f0-9]{64}$/.test(achievementScriptHash)) throw new Error('pengo-achievements.ps1 SHA-256 could not be calculated');
+  if (!hsrAchievementScriptText.includes('Pengo HSR achievement export')) throw new Error('pengo-hsr-hoyolab-achievements.js is missing Pengo branding');
+  if (!hsrAchievementScriptText.includes('https://sg-public-api.hoyolab.com/common/badge/v1/login/info') || !hsrAchievementScriptText.includes('https://sg-public-api.hoyolab.com/event/rpgcultivate/achievement/list')) throw new Error('pengo-hsr-hoyolab-achievements.js is missing the reviewed HoYoLAB endpoints');
+  if (!/^[a-f0-9]{64}$/.test(hsrAchievementScriptHash)) throw new Error('pengo-hsr-hoyolab-achievements.js SHA-256 could not be calculated');
+  if (!bundle.includes('achievement-page-head') || !bundle.includes('NyxAchievementImport')) throw new Error('bundle is missing the achievement tracker');
   if (!bundle.includes('Quick PowerShell command')) throw new Error('bundle missing quick import method copy');
   if (!bundle.includes('Manual CSV backfill')) throw new Error('bundle missing manual CSV import copy');
   if (!bundle.includes('Pengo encrypted sync')) throw new Error('bundle missing encrypted sync UI copy');
@@ -254,7 +318,7 @@ async function main() {
   if (!bundle.includes('db-load-more')) throw new Error('bundle missing progressive Database result reveal');
   if (bundle.includes('Showing 400 of')) throw new Error('bundle still contains the old 400-result dead end');
   if (!bundle.includes('Search Miliastra Wonderland')) throw new Error('bundle missing accessible Wonderland search');
-  if (!bundle.includes('Search The Library')) throw new Error('bundle missing The Library search');
+  if (!bundle.includes('Search Library')) throw new Error('bundle missing Library search');
   if (!bundle.includes('Opening book')) throw new Error('bundle missing The Library lazy-reader state');
   if (!bundle.includes('Book volumes')) throw new Error('bundle missing accessible Library volume controls');
   if (bundle.includes('asyce.com/asivepulled')) throw new Error('bundle contains old helper URL');
@@ -309,6 +373,8 @@ async function main() {
   console.log('Deploy smoke passed:');
   for (const line of results) console.log('  ' + line);
   console.log(`  script sha256 ${scriptHash}`);
+  console.log(`  achievement script sha256 ${achievementScriptHash}`);
+  console.log(`  HSR HoYoLAB script sha256 ${hsrAchievementScriptHash}`);
   console.log(`  commit ${version.shortCommit}`);
   console.log(`  deploy files ${deployFileCount}/20000`);
 }

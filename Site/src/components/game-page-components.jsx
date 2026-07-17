@@ -43,9 +43,9 @@ function GPRoot({ children }){
   );
 }
 
-function GPSec({ title, style, icon, perch }){
+function GPSec({ title, style, icon, perch, className = '' }){
   return (
-    <div className={'gp-sec' + (perch ? ' withperch' : '')} style={style}>
+    <div className={'gp-sec' + (perch ? ' withperch' : '') + (className ? ' ' + className : '')} style={style}>
       {icon ? <img className="ic" src={icon} alt="" /> : <span className="dia"></span>}
       <span className="t">{title}</span>
       <span className="rule">{perch ? <img className="perch" src={perch} alt="" /> : null}</span>
@@ -219,7 +219,7 @@ function GPGameRail({ active, onSwitch, displayGames, gameIcons }){
 function GPMoreFavs({ count, icon }){
   const n = count || 8;
   return (
-    <div style={{ display:'flex', alignItems:'center', justifyContent:'center', gap:'12px' }}>
+    <div className="gp-more-favs">
       {Array.from({ length:n }).map((_, i) => (
         <div key={i} className="gp-med sz-sm dim" title="Pinned favourite">
           <img src={icon || '../assets/icon/giicon.png'} alt="Pinned favourite" />
@@ -232,7 +232,7 @@ function GPMoreFavs({ count, icon }){
 /* horizontal medallion strip — all games except `active` */
 function GPSwitcher({ active, size, gap }){
   return (
-    <div style={{ display:'flex', alignItems:'center', gap:(gap || 14) + 'px' }}>
+    <div className="gp-switcher-strip" style={gap == null ? undefined : { '--gp-switcher-gap':gap + 'px' }}>
       {GP_GAMES.filter(g => g.key !== active).map(g => (
         <GPMedallion key={g.key} game={g} size={size} />
       ))}
@@ -243,7 +243,7 @@ function GPSwitcher({ active, size, gap }){
 /* vertical world rows (sidebar) — medallion + name */
 function GPWorldRows({ active }){
   return (
-    <div style={{ display:'flex', flexDirection:'column', gap:'4px' }}>
+    <div className="gp-row-stack">
       {GP_GAMES.filter(g => g.key !== active).map(g => (
         <div key={g.key} className="gp-world-row">
           <GPMedallion game={g} size="sm" />
@@ -256,7 +256,7 @@ function GPWorldRows({ active }){
 
 function GPFnRows(){
   return (
-    <div style={{ display:'flex', flexDirection:'column', gap:'4px' }}>
+    <div className="gp-row-stack">
       {GP_FNS.map(f => (
         <div key={f} className="gp-fn-row">
           <span>{f}</span>
@@ -267,9 +267,22 @@ function GPFnRows(){
   );
 }
 
+function GPSectionNavButton({ active, label, onActivate, diamond = true, arrow = true, className = '' }){
+  return (
+    <button type="button"
+            className={'gp-fn-row click gp-section-nav-button' + (active ? ' on' : '') + (className ? ' ' + className : '')}
+            aria-current={active ? 'page' : undefined}
+            onClick={onActivate}>
+      {diamond && <span className="dia" aria-hidden="true"></span>}
+      <span>{label}</span>
+      {arrow && <span className="go" aria-hidden="true">{'›'}</span>}
+    </button>
+  );
+}
+
 function GPFnTabs({ small }){
   return (
-    <div style={{ display:'flex', alignItems:'center', gap:'16px' }}>
+    <div className="gp-fn-tabs">
       {GP_FNS.map(f => (
         <GPHex key={f} small={small}>
           <span className="dia"></span>
@@ -318,7 +331,7 @@ function GPCodeRow({ code, reward }){
 
 function GPCodes({ gap }){
   return (
-    <div style={{ display:'flex', flexDirection:'column', gap:(gap || 10) + 'px' }}>
+    <div className="gp-codes-stack" style={gap == null ? undefined : { '--gp-codes-gap':gap + 'px' }}>
       {GP_CODES.map(c => <GPCodeRow key={c.code} code={c.code} reward={c.reward} />)}
     </div>
   );
@@ -327,5 +340,5 @@ function GPCodes({ gap }){
 Object.assign(window, {
   GPRoot, GPSec, GPHex, GPBack, GPMedallion, GPSwitcher, GPWorldRows,
   GPFnRows, GPFnTabs, GPFav, GPCodes, GP_GAMES, GP_FNS, GP_CODES,
-  GPLogoBack, GPGameRail, GPMoreFavs, GPMedSim,
+  GPLogoBack, GPGameRail, GPMoreFavs, GPMedSim, GPSectionNavButton,
 });

@@ -790,7 +790,7 @@ function CurrentBannerStrip({ cfg }){
   return (
     <section className="gp-current-banners" aria-label="Current banners">
       <div className="gp-current-banners-head">
-        <GPSec title="Current Banners" icon="../assets/decor/orbit_burst.png" style={{ flex:1, minWidth:0 }} />
+        <GPSec title="Current Banners" icon="../assets/decor/orbit_burst.png" className="nyx-u-fill" />
         {updated && <span>Updated {formatUpdated(updated)}</span>}
       </div>
       <BannerFreshnessNote fresh={fresh} />
@@ -817,7 +817,6 @@ const RESET_REGIONS = {
   na:{ key:'na', label:'America', short:'NA', offset:-5 },
   asia:{ key:'asia', label:'Asia', short:'Asia', offset:8 },
 };
-const DEFAULT_RESET_REGION = 'na';
 
 function nextLocalResetAt(now, year, month, day, hour){
   return new Date(year, month, day, hour, 0, 0, 0).getTime();
@@ -893,8 +892,11 @@ function nextSemiMonthlyReset(now, region){
   return candidates.find((ts) => ts > now) || candidates[candidates.length - 1];
 }
 
-function resetTimerRows(now, regionKey){
-  const region = RESET_REGIONS[regionKey] || RESET_REGIONS[DEFAULT_RESET_REGION];
+function resetTimerRows(now, regionKey, gameKey){
+  // These four rules are Genshin-specific. Do not silently paint them onto
+  // another game's overview; nyx-0040 supplies other sourced schedules.
+  if (gameKey !== 'gi') return [];
+  const region = RESET_REGIONS[regionKey] || RESET_REGIONS.na;
   return [
     { key:'abyss', label:'Abyss', target:nextSemiMonthlyReset(now, region) },
     { key:'theater', label:'Imaginarium', target:nextMonthlyReset(now, region) },
@@ -928,58 +930,20 @@ function saveCustomTimers(gameKey, rows){
 }
 
 function resetRegionStorageKey(gameKey){
-  return 'nyx:reset-region:' + (gameKey || 'nyx') + ':v1';
+  return nyxLegacyResetRegionKey(gameKey);
 }
 
 function loadResetRegion(gameKey){
-  try {
-    const key = localStorage.getItem(resetRegionStorageKey(gameKey));
-    return RESET_REGIONS[key] ? key : DEFAULT_RESET_REGION;
-  } catch (e) {
-    return DEFAULT_RESET_REGION;
-  }
+  return nyxLoadTimePreference(gameKey).serverRegion;
 }
 
-// The Reset Timers card and the banner timeline both expose a server-region
-// selector backed by the same localStorage key. They are mounted together,
-// so each must react to the other's selection immediately (Sol finding #6).
-// A tiny in-memory pub/sub keyed by gameKey shares the choice across both
-// surfaces without a reload; a 'storage' listener extends it across tabs.
-const NYX_RESET_REGION_SUBS = {};
 function subscribeResetRegion(gameKey, cb){
   if (typeof cb !== 'function') return () => {};
-  const key = String(gameKey == null ? 'nyx' : gameKey);
-  const list = NYX_RESET_REGION_SUBS[key] || (NYX_RESET_REGION_SUBS[key] = []);
-  list.push(cb);
-  return () => {
-    const arr = NYX_RESET_REGION_SUBS[key];
-    if (!arr) return;
-    const i = arr.indexOf(cb);
-    if (i !== -1) arr.splice(i, 1);
-  };
+  return nyxSubscribeTimePreference(gameKey, (preference) => cb(preference.serverRegion));
 }
 function saveResetRegion(gameKey, regionKey){
   if (!RESET_REGIONS[regionKey]) return;
-  try { localStorage.setItem(resetRegionStorageKey(gameKey), regionKey); } catch (e) {}
-  const key = String(gameKey == null ? 'nyx' : gameKey);
-  const arr = NYX_RESET_REGION_SUBS[key];
-  if (!arr || !arr.length) return;
-  const copy = arr.slice();
-  for (let i = 0; i < copy.length; i++) { try { copy[i](regionKey); } catch (e) {} }
-}
-if (typeof window !== 'undefined' && !window.__nyxResetRegionStorageBound) {
-  window.__nyxResetRegionStorageBound = true;
-  window.addEventListener('storage', (event) => {
-    if (!event || typeof event.key !== 'string') return;
-    const m = /^nyx:reset-region:(.+):v1$/.exec(event.key);
-    if (!m) return;
-    const gameKey = m[1];
-    const value = RESET_REGIONS[event.newValue] ? event.newValue : DEFAULT_RESET_REGION;
-    const arr = NYX_RESET_REGION_SUBS[gameKey];
-    if (!arr) return;
-    const copy = arr.slice();
-    for (let i = 0; i < copy.length; i++) { try { copy[i](value); } catch (e) {} }
-  });
+  nyxPatchTimePreference(gameKey, { serverRegion:regionKey, displayMode:'server' });
 }
 
 function datetimeLocalValue(ts){
@@ -1067,6 +1031,98 @@ function recurLabel(recur){
   return '';
 }
 
+function TimePreferenceControl({ gameKey }){
+  const [preference, setPreference] = React.useState(() => nyxLoadTimePreference(gameKey));
+  const [open, setOpen] = React.useState(false);
+  const rootRef = React.useRef(null);
+  const customButtonRef = React.useRef(null);
+  const zoneRef = React.useRef(null);
+  const zones = React.useMemo(() => nyxSupportedTimeZones(), []);
+  React.useEffect(() => {
+    setPreference(nyxLoadTimePreference(gameKey));
+    setOpen(false);
+    return nyxSubscribeTimePreference(gameKey, setPreference);
+  }, [gameKey]);
+  React.useEffect(() => {
+    if (!open) return undefined;
+    const onPointerDown = (event) => {
+      if (rootRef.current && !rootRef.current.contains(event.target)) setOpen(false);
+    };
+    const onKeyDown = (event) => {
+      if (event.key !== 'Escape') return;
+      event.preventDefault();
+      setOpen(false);
+      requestAnimationFrame(() => customButtonRef.current?.focus());
+    };
+    document.addEventListener('pointerdown', onPointerDown);
+    document.addEventListener('keydown', onKeyDown);
+    requestAnimationFrame(() => zoneRef.current?.focus());
+    return () => {
+      document.removeEventListener('pointerdown', onPointerDown);
+      document.removeEventListener('keydown', onKeyDown);
+    };
+  }, [open]);
+  // The server-time choice is global: one pick drives every game's timers and
+  // timelines (user decision 2026-07-15, #2).
+  const apply = (patch) => {
+    Object.keys(GAME_REGISTRY).concat('nyx').forEach((key) => {
+      if (key !== gameKey) nyxPatchTimePreference(key, patch);
+    });
+    setPreference(nyxPatchTimePreference(gameKey, patch));
+  };
+  const pickRegion = (region) => {
+    apply({ serverRegion:region, displayMode:'server' });
+    setOpen(false);
+  };
+  const pickCustom = () => {
+    if (preference.displayMode !== 'custom') apply({ displayMode:'custom' });
+    setOpen((value) => !value);
+  };
+  const selected = preference.displayMode === 'custom' ? 'custom' : preference.serverRegion;
+  const fieldId = 'nyx-time-zone-' + String(gameKey || 'nyx').replace(/[^a-z0-9_-]/gi, '');
+  return (
+    <div className="nyx-time-pref" ref={rootRef}>
+      <div className="nyx-time-pref-buttons" role="group" aria-label="Server region and display timezone">
+        {['eu','na','asia'].map((key) => (
+          <button type="button" key={key} className={selected === key ? 'on' : ''}
+                  aria-pressed={selected === key} onClick={() => pickRegion(key)}>
+            {RESET_REGIONS[key].short}
+          </button>
+        ))}
+        <button type="button" ref={customButtonRef} className={selected === 'custom' ? 'on' : ''}
+                aria-pressed={selected === 'custom'} aria-expanded={open}
+                aria-controls={open ? fieldId + '-panel' : undefined} onClick={pickCustom}>
+          Custom
+        </button>
+      </div>
+      {open && (
+        <div className="nyx-time-pref-popover" id={fieldId + '-panel'} role="dialog" aria-label="Custom timezone">
+          <label htmlFor={fieldId}>
+            <span>Display timezone</span>
+            <select id={fieldId} ref={zoneRef} value={preference.timeZone}
+                    onChange={(event) => apply({ displayMode:'custom', timeZone:event.target.value })}>
+              {zones.indexOf(preference.timeZone) === -1 && (
+                <option value={preference.timeZone}>{preference.timeZone.replace(/_/g, ' ')}</option>
+              )}
+              {zones.map((zone) => <option key={zone} value={zone}>{zone.replace(/_/g, ' ')}</option>)}
+            </select>
+          </label>
+          <label htmlFor={fieldId + '-server'}>
+            <span>Reset server</span>
+            <select id={fieldId + '-server'} value={preference.serverRegion}
+                    onChange={(event) => apply({ displayMode:'custom', serverRegion:event.target.value })}>
+              <option value="eu">EU</option>
+              <option value="na">NA</option>
+              <option value="asia">Asia</option>
+            </select>
+          </label>
+          <p>Dates use your timezone. Resets still follow the chosen game server.</p>
+        </div>
+      )}
+    </div>
+  );
+}
+
 function ResetTimersPanel({ gameKey }){
   const [now, setNow] = React.useState(Date.now());
   const [regionKey, setRegionKey] = React.useState(() => loadResetRegion(gameKey));
@@ -1093,11 +1149,6 @@ function ResetTimersPanel({ gameKey }){
   // timeline (both mounted together): re-read whenever either changes.
   React.useEffect(() => subscribeResetRegion(gameKey, setRegionKey), [gameKey]);
   React.useEffect(() => nyxSubscribeCustomTimers(gameKey, setCustom), [gameKey]);
-  const pickRegion = (key) => {
-    if (!RESET_REGIONS[key]) return;
-    setRegionKey(key);
-    saveResetRegion(gameKey, key);
-  };
   const buildRecur = () => {
     if (recurMode === 'monthly') return { type:'monthly' };
     if (recurMode === 'semimonthly') return { type:'semimonthly' };
@@ -1125,29 +1176,22 @@ function ResetTimersPanel({ gameKey }){
   };
   const removeTimer = (id) => setCustom(nyxRemoveCustomTimerV2(gameKey, id));
   const toggleTimer = (id) => setCustom(nyxToggleCustomTimerV2(gameKey, id));
-  const rows = resetTimerRows(now, regionKey);
-  const activeRegion = RESET_REGIONS[regionKey] || RESET_REGIONS.local;
+  const rows = resetTimerRows(now, regionKey, gameKey);
   return (
     <section className="gp-reset-panel" aria-label="Reset timers">
       <div className="gp-reset-head">
         <span>Reset Timers</span>
-        <b>{activeRegion.short}</b>
       </div>
-      <div className="gp-reset-regions" role="group" aria-label="Timer region">
-        {Object.values(RESET_REGIONS).map((region) => (
-          <button type="button" key={region.key} className={regionKey === region.key ? 'on' : ''} aria-pressed={regionKey === region.key} onClick={() => pickRegion(region.key)}>
-            {region.short}
-          </button>
-        ))}
-      </div>
-      <div className="gp-reset-grid">
-        {rows.map((row) => (
-          <div className={'gp-reset-tile rt-' + row.key} key={row.key}>
-            <span className="k">{row.label}</span>
-            <span className="v">{durationParts(row.target - now)}</span>
-          </div>
-        ))}
-      </div>
+      {rows.length > 0 ? (
+        <div className="gp-reset-grid">
+          {rows.map((row) => (
+            <div className={'gp-reset-tile rt-' + row.key} key={row.key}>
+              <span className="k">{row.label}</span>
+              <span className="v">{durationParts(row.target - now)}</span>
+            </div>
+          ))}
+        </div>
+      ) : <p className="gp-reset-unknown">No sourced automatic reset schedule for this game yet.</p>}
       {custom.length > 0 && (
         <div className="gp-reset-custom">
           {custom.map((row) => {
@@ -1228,11 +1272,10 @@ const buildTrack = (cfg) => Object.assign({ pull:'Wish', pulls:'Wishes', currenc
 
 function FavIconPinned({ ch, cfg, onOpen }){
   return (
-    <div className="gp-fav-icon" style={{ '--el':'#c23a78' }}>
+    <div className="gp-fav-icon gp-fav-icon--sim">
       <button type="button" className="gp-fav-icon-open" onClick={() => onOpen(ch)} aria-label={ch.name}>
         <span>
           <img src={ch.icon || cfg.benchIcon} alt="" draggable="false" />
-          {cfg.key === 'nyx' && appGameIcon(ch.gameKey) && <i><img src={appGameIcon(ch.gameKey)} alt="" draggable="false" /></i>}
         </span>
         <b>{ch.name}</b>
       </button>
@@ -1256,7 +1299,7 @@ function makeCurrentFavouriteRoster(cfg, settings, characterImagePrefs){
   return Object.keys(GAME_REGISTRY).flatMap((gameKey) => makeRoster(GAME_REGISTRY[gameKey], settings, characterImagePrefs));
 }
 
-function CurrentFavCard({ ch, idx, onOpen, art, gameKey }){
+function CurrentFavCard({ ch, idx, onOpen, art }){
   const cardArt = overviewCardArt({ art }, ch, idx);
   const artStyle = {
     backgroundImage:bgUrl(cardArt || ch.art || art),
@@ -1268,7 +1311,6 @@ function CurrentFavCard({ ch, idx, onOpen, art, gameKey }){
          onClick={() => onOpen(ch)} onKeyDown={navKeyDown(() => onOpen(ch))}>
       <div className="artwrap"><div className="art" style={artStyle}></div><div className="scrim"></div></div>
       <div className="frame"></div>
-      {gameKey === 'nyx' && appGameIcon(ch.gameKey) && <span className="gp-fav-game"><img src={appGameIcon(ch.gameKey)} alt="" /></span>}
       <div className="nm">{ch.name}{ch.tag ? <span className="sub"> {ch.tag}</span> : null}</div>
     </div>
   );
@@ -1282,10 +1324,12 @@ function Favourites({ cfg, onOpenMaterial, settings }){
   const roster = React.useMemo(() => makeCurrentFavouriteRoster(cfg, settings, characterImagePrefs), [cfg.key, cmVersion, specialKey, customKey]);
   const [cards, setCards] = React.useState(() => loadCurrentPinnedCards(cfg, roster));
   const [mode, setMode] = React.useState(() => nyxLoadFavouriteMode(cfg.key));
+  const [visible, setVisible] = React.useState(() => nyxLoadFavouriteVisibility(cfg.key));
 
   React.useEffect(() => {
     setCards(loadCurrentPinnedCards(cfg, roster));
     setMode(nyxLoadFavouriteMode(cfg.key));
+    setVisible(nyxLoadFavouriteVisibility(cfg.key));
   }, [cfg.key, roster]);
 
   React.useEffect(() => {
@@ -1305,24 +1349,25 @@ function Favourites({ cfg, onOpenMaterial, settings }){
   const openCharacter = (ch) => {
     if (!onOpenMaterial || !ch?.name) return;
     const game = ch.gameKey && ch.gameKey !== 'nyx' ? ch.gameKey : cfg.key;
-    if (game && game !== 'nyx') onOpenMaterial(game, ch.name);
+    if (game && game !== 'nyx') onOpenMaterial(game, ch.name, { from:cfg.key === 'nyx' ? 'nyx' : 'characters' });
   };
 
   return (
     <section className={'gp-favs game-' + cfg.key} aria-labelledby={'gp-favs-title-' + cfg.key}>
       <div className="gp-fav-heading">
-        <img src="../assets/decor/orbit_burst.png" alt="" />
         <h2 id={'gp-favs-title-' + cfg.key}>Pinned Favourites</h2>
         <div className="gp-fav-modes" aria-label="Favourite display mode">
           <button type="button" className={mode === 'card' ? 'on' : ''} aria-pressed={mode === 'card'} onClick={() => selectMode('card')}>Card</button>
           <button type="button" className={mode === 'icon' ? 'on' : ''} aria-pressed={mode === 'icon'} onClick={() => selectMode('icon')}>Icon</button>
         </div>
+        <button type="button" className="gp-fav-visibility" aria-expanded={visible}
+                onClick={() => setVisible(nyxSaveFavouriteVisibility(cfg.key, !visible))}>{visible ? 'Hide' : 'Show'}</button>
         <span className="gp-fav-rule"></span>
       </div>
-      {cards.length === 0 ? <p className="gp-fav-empty">Favourite a character from the roster to pin them here.</p> : mode === 'card' ? (
+      {visible && (cards.length === 0 ? <p className="gp-fav-empty">Favourite a character from the roster to pin them here.</p> : mode === 'card' ? (
         <React.Fragment>
           <div className={'gp-card-grid' + (cfg.key === 'nyx' ? ' hub' : '')}>
-            {visibleCards.map((ch, idx) => <CurrentFavCard key={nyxPinnedCharacterId(cfg.key, ch)} ch={ch} idx={idx} onOpen={openCharacter} art={ch.art || cfg.art} gameKey={cfg.key} />)}
+            {visibleCards.map((ch, idx) => <CurrentFavCard key={nyxPinnedCharacterId(cfg.key, ch)} ch={ch} idx={idx} onOpen={openCharacter} art={ch.art || cfg.art} />)}
           </div>
           {overflowCards.length > 0 && <div className="gp-fav-overflow" aria-label="More pinned favourites">
             <span>More favourites</span>
@@ -1333,7 +1378,7 @@ function Favourites({ cfg, onOpenMaterial, settings }){
         </React.Fragment>
       ) : <div className="gp-fav-icon-grid">
         {visibleCards.map((ch) => <FavIconPinned key={nyxPinnedCharacterId(cfg.key, ch)} ch={ch} cfg={cfg} onOpen={openCharacter} />)}
-      </div>}
+      </div>)}
     </section>
   );
 }
@@ -1378,6 +1423,7 @@ function CodeCardRow({ row, currency, onCopy, onToggleRedeemed }){
               title="Copy" aria-label={'Copy ' + r.code} onClick={() => onCopy(r.code)}>
         <span className="i-copy"></span>
       </button>
+      {r.st === 'copied' && <span className="cc-copied-pop" role="status">Copied</span>}
     </div>
   );
 }
@@ -1400,6 +1446,11 @@ function CodesPanel({ codes, gameKey = 'nyx' }){
     saveRedeemed(next);
   };
   const onCopy = (code) => { copyText(code); setCopiedCode(code); };
+  React.useEffect(() => {
+    if (!copiedCode) return undefined;
+    const t = setTimeout(() => setCopiedCode(null), 1400);
+    return () => clearTimeout(t);
+  }, [copiedCode]);
 
   const rows = sourceCodes.map((c, i) => ({
     ...c,
@@ -1445,10 +1496,14 @@ function CodesPanel({ codes, gameKey = 'nyx' }){
   );
 }
 
-/* shared overview right rail */
+/* shared overview right rail — server-time selection sits above the timers it
+   drives (user decision 2026-07-15, #2). */
 function OverviewAside({ cfg }){
   return (
     <aside className="gp-overview-aside">
+      <div className="gp-aside-time">
+        <TimePreferenceControl gameKey={cfg.key} />
+      </div>
       <ResetTimersPanel gameKey={cfg.key} />
       <GPSec title="Redemption Codes" />
       <CodesPanel codes={cfg.codes} gameKey={cfg.key} />
@@ -1524,9 +1579,9 @@ function AllCodesView(){
   const filterActive = premiumOnly && hasPremiumRows;
   const visibleCount = allCodes.filter((c) => !filterActive || c.premium).length;
   return (
-    <div style={{ minWidth:0, minHeight:0, display:'flex', flexDirection:'column' }}>
-      <div style={{ display:'flex', alignItems:'center', gap:'14px' }}>
-        <GPSec title="All Redemption Codes" style={{ flex:1, minWidth:0 }} />
+    <div className="all-codes-view">
+      <div className="all-codes-head">
+        <GPSec title="All Redemption Codes" className="nyx-u-fill" />
         <label className={'code-filter wide' + (filterActive ? ' on' : '') + (!hasPremiumRows ? ' disabled' : '')}>
           <input type="checkbox" checked={filterActive} disabled={!hasPremiumRows} onChange={(e) => setPremiumOnly(e.target.checked)} />
           <span className="cur-glyph"></span>
@@ -1534,7 +1589,7 @@ function AllCodesView(){
         </label>
         <span className="sim-updated">Updated {CODES_UPDATED}</span>
       </div>
-      <div className="gp-codes-scroll" style={{ flex:1, minHeight:0, marginTop:'16px', gap:'26px' }}>
+      <div className="gp-codes-scroll all-codes-list">
         {SIM_GAMES.map(g => (
           <div key={g.key} className="sim-codegroup">
             <div className="sim-grouphd">
@@ -1597,7 +1652,7 @@ function loadNyxDbExtra(key){
   return NYX_DB_EXTRA_LOADS[key];
 }
 
-const DB_FACET_KEYS = ['type', 'rarity', 'element', 'family', 'purpose'];
+const DB_FACET_KEYS = ['type', 'rarity', 'element', 'family', 'purpose', 'rank', 'twoPieceStat'];
 
 function dbCollectionFacets(cur){
   if (!cur) return [];
@@ -1619,6 +1674,65 @@ function dbCollectionFacets(cur){
   return out;
 }
 
+function DatabaseFilterPopover({ id, label = 'Database', open, setOpen, filters, facets, onToggle, onClear }){
+  const buttonRef = React.useRef(null);
+  const popRef = React.useRef(null);
+  const activeCount = nyxDatabaseActiveFilterCount(filters);
+  React.useEffect(() => {
+    if (!open) return undefined;
+    const onPointerDown = (event) => {
+      if (popRef.current?.contains(event.target) || buttonRef.current?.contains(event.target)) return;
+      setOpen(false);
+    };
+    const onKeyDown = (event) => {
+      if (event.key !== 'Escape') return;
+      event.preventDefault();
+      event.stopPropagation();
+      setOpen(false);
+      requestAnimationFrame(() => buttonRef.current?.focus());
+    };
+    document.addEventListener('pointerdown', onPointerDown);
+    document.addEventListener('keydown', onKeyDown, true);
+    return () => {
+      document.removeEventListener('pointerdown', onPointerDown);
+      document.removeEventListener('keydown', onKeyDown, true);
+    };
+  }, [open, setOpen]);
+  return (
+    <div className="db-filter-control">
+      <button type="button" ref={buttonRef} className={'db-filter-button' + (open ? ' on' : '')}
+              aria-expanded={open} aria-controls={id} onClick={() => setOpen((value) => !value)}>
+        Filter{activeCount > 0 && <span>{activeCount}</span>}
+      </button>
+      {open && (
+        <div id={id} ref={popRef} className="db-filter-popout" role="dialog" aria-label={label + ' filters'}>
+          <div className="db-filter-pop-head">
+            <b>Filters</b>
+            <button type="button" onClick={onClear} disabled={activeCount === 0}>Clear all</button>
+          </div>
+          {(facets || []).map((facet) => (
+            <div className="db-filter-group" key={facet.key} role="group" aria-label={'Filter by ' + facet.label}>
+              <span>{facet.label}</span>
+              <div>
+                {(facet.values || []).map((entry) => {
+                  const row = typeof entry === 'object' ? entry : { value:entry, label:entry };
+                  const selected = filters?.[facet.key] === row.value;
+                  return (
+                    <button type="button" key={row.value} className={selected ? 'on' : ''} aria-pressed={selected}
+                            onClick={() => onToggle(facet.key, row.value)}>
+                      <span>{row.label ?? row.value}</span>{row.count !== undefined && <em>{row.count}</em>}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
 function CollectionLibrary({ game, view, onViewChange }){
   const gameData = (window.NYX_DB && window.NYX_DB.games && window.NYX_DB.games[game]) || null;
   const inline = (gameData && gameData.collections) || [];
@@ -1630,6 +1744,7 @@ function CollectionLibrary({ game, view, onViewChange }){
   const [active, setActive] = React.useState(collections[0] ? collections[0].key : '');
   const [q, setQ] = React.useState('');
   const [filters, setFilters] = React.useState({});
+  const [filterOpen, setFilterOpen] = React.useState(false);
   const [visibleLimit, setVisibleLimit] = React.useState(NYX_DATABASE_PAGE_SIZE);
   const [detailItem, setDetailItem] = React.useState(null);
   const restoreFocusRef = React.useRef(null);
@@ -1640,6 +1755,7 @@ function CollectionLibrary({ game, view, onViewChange }){
     setActive(gameInline[0] ? gameInline[0].key : '');
     setQ('');
     setFilters({});
+    setFilterOpen(false);
     setDetailItem(null);
     let live = true;
     setExtraState(NYX_DB_EXTRA_FILES[game] ? 'loading' : 'ready');
@@ -1673,11 +1789,13 @@ function CollectionLibrary({ game, view, onViewChange }){
     if (specialActive && onViewChange) onViewChange('database');
     setActive(key);
     setFilters({});
+    setFilterOpen(false);
     setDetailItem(null);
   };
   const toggleFilter = (key, value) => setFilters((prev) => ({ ...prev, [key]: prev[key] === value ? undefined : value }));
   const openDetail = (item) => {
     restoreFocusRef.current = document.activeElement;
+    setFilterOpen(false);
     setDetailItem(item);
   };
   const closeDetail = React.useCallback(() => {
@@ -1692,7 +1810,6 @@ function CollectionLibrary({ game, view, onViewChange }){
   if (!cur && !specialViews.length) {
     return (
       <div className="db-lib">
-        <GPSec title="Database" />
         <div className="db-empty">No database collections found.</div>
       </div>
     );
@@ -1700,16 +1817,7 @@ function CollectionLibrary({ game, view, onViewChange }){
 
   return (
     <div className="db-lib">
-      <div className="db-lib-head">
-        <GPSec title="Database" style={{ flex:1, minWidth:0 }} />
-        {!specialActive && (
-          <div className="gp-search">
-            <span className="ic"></span>
-            <input value={q} placeholder="Search Database" spellCheck="false" onChange={(e) => setQ(e.target.value)} />
-            {q !== '' && <button type="button" className="x" title="Clear" onClick={() => setQ('')}>{'\u2715'}</button>}
-          </div>
-        )}
-      </div>
+      {/* No page title; the search docks after the last tab (user 2026-07-16). */}
       <div className="db-tabs">
         {collections.map(c => (
           <button type="button" key={c.key} className={!specialActive && cur && c.key === cur.key ? 'on' : ''} onClick={() => pickCollection(c.key)}>
@@ -1721,6 +1829,18 @@ function CollectionLibrary({ game, view, onViewChange }){
             <span>{s.title}</span>
           </button>
         ))}
+        {!specialActive && (
+        <div className="db-search-tools">
+          <div className="gp-search">
+            <span className="ic"></span>
+            <input value={q} placeholder="Search Database" spellCheck="false" onChange={(e) => setQ(e.target.value)} />
+            {q !== '' && <button type="button" className="x" title="Clear" onClick={() => setQ('')}>{'\u2715'}</button>}
+          </div>
+          {nyxDatabaseHasFacets(facets) && <DatabaseFilterPopover id="database-collection-filter-popout" label="Database" open={filterOpen} setOpen={setFilterOpen}
+            filters={filters} onClear={() => setFilters({})} onToggle={toggleFilter}
+            facets={facets.map((facet) => ({ key:facet.key, label:nyxDatabaseFacetLabel(facet.key), values:facet.values }))} />}
+        </div>
+        )}
       </div>
       {!specialActive && extraState === 'loading' && (
         <div className="db-load-state" role="status" aria-live="polite">
@@ -1738,20 +1858,6 @@ function CollectionLibrary({ game, view, onViewChange }){
         ? (view === 'tcg' ? <GenshinTcgView /> : (view === 'pot' ? <GenshinPotView /> : <GenshinWonderlandView />))
         : (
           <React.Fragment>
-            {facets.length > 0 && (
-              <div className="db-filters">
-                {facets.map((facet) => (
-                  <div className="db-filter-row" key={facet.key} role="group" aria-label={'Filter by ' + dbFieldLabel(facet.key)}>
-                    <b>{dbFieldLabel(facet.key)}</b>
-                    {facet.values.map((value) => (
-                      <button type="button" key={value} className={filters[facet.key] === value ? 'on' : ''}
-                              aria-pressed={filters[facet.key] === value}
-                              onClick={() => toggleFilter(facet.key, value)}>{value}</button>
-                    ))}
-                  </div>
-                ))}
-              </div>
-            )}
             <div className="db-grid">
               {items.map(item => <CollectionCard key={item.id || item.name} item={item} onOpen={openDetail} />)}
             </div>
@@ -1815,12 +1921,38 @@ function dbRestoreListSnapshot(snapshot, gridRef){
   }));
 }
 
+/* Database art uses the same filled rarity treatment as material items. Tier 0
+   is deliberately the white Unknown frame; it never falls back to purple. */
+function DatabaseItemFrame({ art, fallback, rarity, portrait = false, className = '', children }){
+  const tier = nyxDatabaseRarityTier(rarity);
+  if (!portrait) {
+    return (
+      <CMItemFrame icon={art} glyph={fallback || '?'} rarity={tier} bandless
+        className={'db-item-frame' + (className ? ' ' + className : '')} dataRarityTier={tier}>
+        {children}
+      </CMItemFrame>
+    );
+  }
+  const style = { ...(CM_ITEM_FRAME_STYLES[tier] || CM_ITEM_FRAME_STYLES[0]) };
+  return (
+    <span className={'db-item-frame-portrait' + (className ? ' ' + className : '')}
+          style={style} data-rarity-tier={tier} aria-hidden="true">
+      <span className="db-item-frame-portrait-fill"><span className="db-item-frame-portrait-glow"></span></span>
+      <span className="db-item-frame-portrait-media">
+        {art ? <img src={art} alt="" draggable="false" /> : <span>{fallback || '?'}</span>}
+      </span>
+      <svg className="db-item-frame-portrait-rim" viewBox="0 0 208 320" preserveAspectRatio="none" aria-hidden="true">
+        <rect x="1" y="1" width="206" height="318" rx="13" fill="none" stroke="var(--cmf-line)" strokeWidth="2"></rect>
+        <rect x="4" y="4" width="200" height="312" rx="10" fill="none" stroke="var(--cmf-line)" strokeWidth="0.75" strokeOpacity="0.55"></rect>
+      </svg>
+    </span>
+  );
+}
+
 function CollectionCard({ item, onOpen }){
   return (
     <button type="button" className="db-card" title={'View ' + item.name} aria-label={'View details for ' + item.name} onClick={() => onOpen(item)}>
-      <span className="db-art">
-        {item.art ? <img src={item.art} alt="" draggable="false" /> : <span>{simInitials(item.name)}</span>}
-      </span>
+      <DatabaseItemFrame className="db-art" art={item.art} fallback={simInitials(item.name)} rarity={item.fields?.rarity} />
       <span className="db-name">{item.name}</span>
     </button>
   );
@@ -1865,9 +1997,7 @@ function CollectionDetailModal({ item, onClose }){
          onMouseDown={(event) => { if (event.target === event.currentTarget) onClose(); }}>
       <article ref={cardRef} tabIndex={-1} className="db-modal-card">
         <button type="button" ref={closeRef} className="db-modal-close" aria-label={'Close ' + item.name + ' details'} onClick={onClose}>{'\u2715'}</button>
-        <div className="db-modal-media">
-          {item.art ? <img src={item.art} alt="" draggable="false" /> : <span>{simInitials(item.name)}</span>}
-        </div>
+        <DatabaseItemFrame className="db-modal-media" art={item.art} fallback={simInitials(item.name)} rarity={item.fields?.rarity} />
         <div className="db-modal-copy">
           <span className="db-modal-kind">{dbFieldLabel(item.kind || 'Database record')}</span>
           <h2>{item.name}</h2>
@@ -1920,6 +2050,7 @@ function GenshinWonderlandView(){
   const [section, setSection] = React.useState('costumes');
   const [q, setQ] = React.useState('');
   const [filters, setFilters] = React.useState({});
+  const [filterOpen, setFilterOpen] = React.useState(false);
   const [detail, setDetail] = React.useState(null);
   const [visibleLimit, setVisibleLimit] = React.useState(NYX_DATABASE_PAGE_SIZE);
   const backRef = React.useRef(null);
@@ -1943,11 +2074,13 @@ function GenshinWonderlandView(){
   const selectSection = (key) => {
     setSection(key);
     setFilters({});
+    setFilterOpen(false);
     setDetail(null);
   };
   const toggle = (key, value) => setFilters((previous) => ({ ...previous, [key]:previous[key] === value ? undefined : value }));
   const openDetail = (item) => {
     listSnapshotRef.current = { focusKey:dbListFocusKey('wonder', item.id), scrollTop:gridRef.current ? gridRef.current.scrollTop : 0 };
+    setFilterOpen(false);
     setDetail(item);
   };
   const closeDetail = React.useCallback(() => {
@@ -1987,9 +2120,7 @@ function GenshinWonderlandView(){
         <button type="button" ref={backRef} className="wonder-back" onClick={closeDetail}><span>{'\u2039'}</span><b>Back to {active.label}</b></button>
         <div className="wonder-detail-scroll">
           <article className="wonder-detail-panel">
-            {detail.art
-              ? <img className="wonder-detail-image" src={detail.art} alt="" draggable="false" />
-              : <span className="wonder-detail-fallback">{simInitials(detail.name)}</span>}
+            <DatabaseItemFrame className="wonder-detail-art" art={detail.art} fallback={simInitials(detail.name)} rarity={detail.rank} />
             <div className="wonder-detail-copy">
               <span>{detail.kind}</span>
               <h2>{detail.name}</h2>
@@ -2005,11 +2136,19 @@ function GenshinWonderlandView(){
   return (
     <div className="wonder-view">
       <div className="wonder-head">
-        <GPSec title="Miliastra Wonderland" style={{ flex:1, minWidth:0 }} />
-        <div className="gp-search">
-          <span className="ic"></span>
-          <input aria-label="Search Miliastra Wonderland" value={q} placeholder={'Search ' + active.label} spellCheck="false" onChange={(event) => setQ(event.target.value)} />
-          {q !== '' && <button type="button" className="x" title="Clear search" onClick={() => setQ('')}>{'\u2715'}</button>}
+        <div className="db-search-tools">
+          <div className="gp-search">
+            <span className="ic"></span>
+            <input aria-label="Search Miliastra Wonderland" value={q} placeholder={'Search ' + active.label} spellCheck="false" onChange={(event) => setQ(event.target.value)} />
+            {q !== '' && <button type="button" className="x" title="Clear search" onClick={() => setQ('')}>{'\u2715'}</button>}
+          </div>
+          <DatabaseFilterPopover id="wonderland-filter-popout" label="Wonderland" open={filterOpen} setOpen={setFilterOpen}
+            filters={filters} onClear={() => setFilters({})} onToggle={toggle}
+            facets={facets.map((facet) => ({
+              key:facet.key,
+              label:facet.key === 'body' ? 'Body Type' : dbFieldLabel(facet.key),
+              values:facet.values.map(([value, count]) => ({ value, label:value, count })),
+            }))} />
         </div>
       </div>
       <div className="wonder-tabs" role="tablist" aria-label="Wonderland collections">
@@ -2019,24 +2158,10 @@ function GenshinWonderlandView(){
           </button>
         ))}
       </div>
-      {facets.length > 0 && (
-        <div className="wonder-filters">
-          {facets.map((facet) => (
-            <div className="wonder-filter-row" key={facet.key} role="group" aria-label={'Filter by ' + dbFieldLabel(facet.key)}>
-              <b>{facet.key === 'body' ? 'Body Type' : dbFieldLabel(facet.key)}</b>
-              {facet.values.map(([value, count]) => (
-                <button type="button" key={value} className={filters[facet.key] === value ? 'on' : ''} aria-pressed={filters[facet.key] === value} onClick={() => toggle(facet.key, value)}>
-                  <span>{value}</span><em>{count}</em>
-                </button>
-              ))}
-            </div>
-          ))}
-        </div>
-      )}
       <div className="wonder-grid" ref={gridRef} aria-live="polite">
         {visible.slice(0, visibleLimit).map((item) => (
           <button type="button" className="wonder-card" key={item.id} data-db-focus-key={dbListFocusKey('wonder', item.id)} aria-label={'View details for ' + item.name} onClick={() => openDetail(item)}>
-            <span>{item.art ? <img src={item.art} alt="" loading="lazy" draggable="false" /> : simInitials(item.name)}</span>
+            <DatabaseItemFrame className="wonder-art" art={item.art} fallback={simInitials(item.name)} rarity={item.rank} />
             <b>{item.name}</b>
           </button>
         ))}
@@ -2189,8 +2314,6 @@ function GenshinTcgView(){
   const [visibleLimit, setVisibleLimit] = React.useState(NYX_DATABASE_PAGE_SIZE);
   const gridRef = React.useRef(null);
   const listSnapshotRef = React.useRef(null);
-  const filterButtonRef = React.useRef(null);
-  const filterPopRef = React.useRef(null);
   const backRef = React.useRef(null);
   const cards = [
     ...((tcg.characterCards || []).map((card) => ({ ...card, kind:'character' }))),
@@ -2237,26 +2360,6 @@ function GenshinTcgView(){
     ['action', 'Action'],
   ];
   React.useEffect(() => setVisibleLimit(NYX_DATABASE_PAGE_SIZE), [kind, tag, q]);
-  React.useEffect(() => {
-    if (!filterOpen) return undefined;
-    const onPointerDown = (event) => {
-      if (filterPopRef.current?.contains(event.target) || filterButtonRef.current?.contains(event.target)) return;
-      setFilterOpen(false);
-    };
-    const onKeyDown = (event) => {
-      if (event.key !== 'Escape') return;
-      event.preventDefault();
-      event.stopPropagation();
-      setFilterOpen(false);
-      requestAnimationFrame(() => filterButtonRef.current?.focus());
-    };
-    document.addEventListener('pointerdown', onPointerDown);
-    document.addEventListener('keydown', onKeyDown, true);
-    return () => {
-      document.removeEventListener('pointerdown', onPointerDown);
-      document.removeEventListener('keydown', onKeyDown, true);
-    };
-  }, [filterOpen]);
   const openCard = (card) => {
     listSnapshotRef.current = { focusKey:dbListFocusKey('tcg', card.kind + '-' + card.id), scrollTop:gridRef.current ? gridRef.current.scrollTop : 0 };
     setFilterOpen(false);
@@ -2292,9 +2395,7 @@ function GenshinTcgView(){
         </div>
         <div className="tcg-detail-scroll">
           <article className="tcg-detail-panel">
-            {activeCard.art
-              ? <img className="tcg-detail-image" src={activeCard.art} alt="" draggable="false" />
-              : <span className="tcg-detail-fallback">{simInitials(activeCard.name)}</span>}
+            <DatabaseItemFrame className="tcg-detail-image" art={activeCard.art} fallback={simInitials(activeCard.name)} rarity={activeCard.rarity ?? 0} portrait />
             <div className="tcg-detail-copy">
               <b>{activeCard.name}</b>
               {activeCard.title && <em>{activeCard.title}</em>}
@@ -2353,41 +2454,19 @@ function GenshinTcgView(){
   return (
     <div className="tcg-view">
       <div className="tcg-head">
-        <GPSec title="Genius Invokation TCG" style={{ flex:1, minWidth:0 }} />
         <div className="tcg-search-tools">
           <div className="gp-search">
             <span className="ic"></span>
             <input aria-label="Search TCG cards" value={q} placeholder="Search TCG Cards" spellCheck="false" onChange={(e) => setQ(e.target.value)} />
             {q !== '' && <button type="button" className="x" title="Clear" onClick={() => setQ('')}>{'\u2715'}</button>}
           </div>
-          <button type="button" ref={filterButtonRef} className={'tcg-filter-button' + (filterOpen ? ' on' : '')}
-                  aria-expanded={filterOpen} aria-controls="tcg-filter-popout" onClick={() => setFilterOpen((open) => !open)}>
-            Filter{kind !== 'all' || tag !== 'all' ? <span>{Number(kind !== 'all') + Number(tag !== 'all')}</span> : null}
-          </button>
-          {filterOpen && (
-            <div id="tcg-filter-popout" ref={filterPopRef} className="tcg-filter-popout" role="dialog" aria-label="TCG filters">
-              <div className="tcg-filter-pop-head"><b>Filters</b><button type="button" onClick={() => { setKind('all'); setTag('all'); }}>Clear all</button></div>
-              <div className="tcg-filter-block">
-                <span>CARD TYPE</span>
-                <div className="tcg-tabs" role="group" aria-label="Card type">
-                  {kindFilters.map(([key, label]) => (
-                    <button type="button" key={key} className={kind === key ? 'on' : ''} aria-pressed={kind === key} onClick={() => setKind(key)}>{label}</button>
-                  ))}
-                </div>
-              </div>
-              {tagFilters.length > 0 && (
-                <div className="tcg-filter-block">
-                  <span>TAGS</span>
-                  <div className="tcg-tabs tcg-category-tabs" role="group" aria-label="TCG card tags">
-                    <button type="button" className={tag === 'all' ? 'on' : ''} aria-pressed={tag === 'all'} onClick={() => setTag('all')}>All</button>
-                    {tagFilters.map(([value]) => (
-                      <button type="button" key={value} className={tag === value ? 'on' : ''} aria-pressed={tag === value} onClick={() => setTag(value)}>{value}</button>
-                    ))}
-                  </div>
-                </div>
-              )}
-            </div>
-          )}
+          <DatabaseFilterPopover id="tcg-filter-popout" label="TCG" open={filterOpen} setOpen={setFilterOpen}
+            filters={{ kind, tag }} onClear={() => { setKind('all'); setTag('all'); }}
+            onToggle={(key, value) => key === 'kind' ? setKind((current) => current === value ? 'all' : value) : setTag((current) => current === value ? 'all' : value)}
+            facets={[
+              { key:'kind', label:'Card Type', values:kindFilters.filter(([key]) => key !== 'all').map(([value, label]) => ({ value, label })) },
+              { key:'tag', label:'Tags', values:tagFilters.map(([value, count]) => ({ value, label:value, count })) },
+            ]} />
         </div>
       </div>
       {(kind !== 'all' || tag !== 'all') && (
@@ -2402,9 +2481,7 @@ function GenshinTcgView(){
           <button type="button" className={'tcg-card kind-' + card.kind} key={card.kind + '-' + card.id}
                   data-db-focus-key={dbListFocusKey('tcg', card.kind + '-' + card.id)}
                   onClick={() => openCard(card)}>
-            <div className="tcg-art">
-              {card.art ? <img src={card.art} alt="" draggable="false" /> : <span>{simInitials(card.name)}</span>}
-            </div>
+            <DatabaseItemFrame className="tcg-art" art={card.art} fallback={simInitials(card.name)} rarity={card.rarity ?? 0} portrait />
             <div className="tcg-meta">
               <b>{card.name}</b>
               <span>{card.type}</span>
@@ -2443,6 +2520,7 @@ function GenshinPotView(){
   const [category, setCategory] = React.useState('all');
   const [sub, setSub] = React.useState('all');
   const [q, setQ] = React.useState('');
+  const [filterOpen, setFilterOpen] = React.useState(false);
   const [activeItem, setActiveItem] = React.useState(null);
   const [visibleLimit, setVisibleLimit] = React.useState(NYX_DATABASE_PAGE_SIZE);
   const gridRef = React.useRef(null);
@@ -2474,6 +2552,7 @@ function GenshinPotView(){
   React.useEffect(() => setVisibleLimit(NYX_DATABASE_PAGE_SIZE), [category, sub, q]);
   const openItem = (item) => {
     listSnapshotRef.current = { focusKey:dbListFocusKey('pot', item.id), scrollTop:gridRef.current ? gridRef.current.scrollTop : 0 };
+    setFilterOpen(false);
     setActiveItem(item);
   };
   const closeItem = React.useCallback(() => {
@@ -2495,9 +2574,6 @@ function GenshinPotView(){
   if (!items.length) {
     return (
       <div className="pot-view">
-        <div className="pot-head">
-          <GPSec title="Serenitea Pot" style={{ flex:1, minWidth:0 }} />
-        </div>
         <div className="db-empty">Furnishing data has not been generated yet.</div>
       </div>
     );
@@ -2523,9 +2599,7 @@ function GenshinPotView(){
         </div>
         <div className="pot-detail-scroll">
           <article className="pot-detail-panel">
-            {activeItem.art
-              ? <img className="pot-detail-image" src={activeItem.art} alt="" draggable="false" />
-              : <span className="pot-detail-fallback">{simInitials(activeItem.name)}</span>}
+            <DatabaseItemFrame className="pot-detail-art" art={activeItem.art} fallback={simInitials(activeItem.name)} rarity={activeItem.rarity} />
             <div className="pot-detail-copy">
               <b>{activeItem.name}</b>
               <div className="pot-stat-grid">
@@ -2570,45 +2644,34 @@ function GenshinPotView(){
   return (
     <div className="pot-view">
       <div className="pot-head">
-        <GPSec title="Serenitea Pot" style={{ flex:1, minWidth:0 }} />
-        <div className="gp-search">
-          <span className="ic"></span>
-          <input value={q} placeholder="Search Furnishings" spellCheck="false" onChange={(e) => setQ(e.target.value)} />
-          {q !== '' && <button type="button" className="x" title="Clear" onClick={() => setQ('')}>{'✕'}</button>}
-        </div>
-      </div>
-      <div className="pot-filter-block">
-        <span>CATEGORY</span>
-        <div className="pot-tabs pot-category-tabs">
-          {categories.map(([key, label]) => (
-            <button type="button" key={key} className={category === key ? 'on' : ''} onClick={() => setCategory(key)}>
-              <span>{label}</span>
-            </button>
-          ))}
-        </div>
-      </div>
-      {subFilters.length > 0 && (
-        <div className="pot-filter-block">
-          <span>TYPE</span>
-          <div className="pot-tabs pot-category-tabs" aria-label="Furnishing types">
-            <button type="button" className={sub === 'all' ? 'on' : ''} onClick={() => setSub('all')}>
-              <span>All</span>
-            </button>
-            {subFilters.map(([value]) => (
-              <button type="button" key={value} className={sub === value ? 'on' : ''} onClick={() => setSub(value)}>
-                <span>{value}</span>
-              </button>
-            ))}
+        <div className="db-search-tools">
+          <div className="gp-search">
+            <span className="ic"></span>
+            <input value={q} placeholder="Search Furnishings" spellCheck="false" onChange={(e) => setQ(e.target.value)} />
+            {q !== '' && <button type="button" className="x" title="Clear" onClick={() => setQ('')}>{'✕'}</button>}
           </div>
+          <DatabaseFilterPopover id="pot-filter-popout" label="Furnishing" open={filterOpen} setOpen={setFilterOpen}
+            filters={{ category, sub }} onClear={() => { setCategory('all'); setSub('all'); }}
+            onToggle={(key, value) => {
+              if (key === 'category') {
+                setCategory((current) => current === value ? 'all' : value);
+                setSub('all');
+              } else {
+                setSub((current) => current === value ? 'all' : value);
+              }
+            }}
+            facets={[
+              { key:'category', label:'Category', values:categories.filter(([value]) => value !== 'all').map(([value, label, count]) => ({ value, label, count })) },
+              { key:'sub', label:'Type', values:subFilters.map(([value, count]) => ({ value, label:value, count })) },
+            ]} />
         </div>
-      )}
+      </div>
       <div className="pot-grid" ref={gridRef}>
         {visible.slice(0, visibleLimit).map((item) => (
           <button type="button" className="pot-card" key={item.id} data-db-focus-key={dbListFocusKey('pot', item.id)} onClick={() => openItem(item)}>
-            <div className="pot-art">
-              {item.art ? <img src={item.art} alt="" draggable="false" loading="lazy" /> : <span>{simInitials(item.name)}</span>}
+            <DatabaseItemFrame className="pot-art" art={item.art} fallback={simInitials(item.name)} rarity={item.rarity}>
               {Number.isFinite(Number(item.rarity)) && item.rarity > 0 && <i className="pot-rar">{item.rarity + '★'}</i>}
-            </div>
+            </DatabaseItemFrame>
             <div className="pot-meta">
               <b>{item.name}</b>
               <span>{(item.subtypes && item.subtypes[0]) || item.category}</span>
@@ -2954,6 +3017,7 @@ function BetaDataPanel({ gameKey, onOpenCharacter }){
 function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, characterCustomize, setCharacterCustomize, materialSelection, setMaterialSelection, onSelectMaterialCharacter, onCloseMaterialCharacter }){
   const fns = cfg.fns || ['Characters','Database','Wish Tracker'];
   const visibleFns = fns; // J: Database is always visible (gating + settings toggle removed)
+  const sideNavRef = React.useRef(null);
   const [cmChannel, setCmChannel] = React.useState(() => (typeof cmLoadChannel === 'function' ? cmLoadChannel(cfg.key) : 'live'));
   React.useEffect(() => {
     setCmChannel(typeof cmLoadChannel === 'function' ? cmLoadChannel(cfg.key) : 'live');
@@ -2973,10 +3037,15 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
   }, [cfg.key]);
   const hasTcg = cfg.key === 'gi';
   const hasLibrary = cfg.key === 'gi' || cfg.key === 'hsr';
+  const hasAchievements = cfg.key === 'gi' || cfg.key === 'hsr';
   const betaActive = cfg.key !== 'ae' && typeof cmHasBeta === 'function' && cmHasBeta(cfg.key) && (cmChannel === 'beta' || window.NYX_ALWAYS_BETA === true);
   React.useEffect(() => {
     if (tab === 'beta' && !betaActive) setTab('mats');
   }, [tab, betaActive, setTab]);
+  React.useEffect(() => {
+    const nav = sideNavRef.current;
+    if (nav && window.matchMedia('(max-width:760px)').matches) nav.scrollLeft = 0;
+  }, [tab, cfg.key]);
   const openCharacterCustomize = (payload) => {
     setCharacterCustomize(Object.assign({ game:cfg.key, restoreScroll:0 }, payload || {}));
     setTab('char-customize');
@@ -3000,15 +3069,11 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
   };
   // G13: the section list the Characters header icon-dropdown switches between.
   const sectionKey = (f) => /tracker$/i.test(f) ? 'tracker' : /^(characters|character materials)$/i.test(f) ? 'mats' : 'database';
-  const sections = [{ key:'overview', label:'Overview' }, ...visibleFns.map((f) => ({ key:sectionKey(f), label:f })), ...(hasLibrary ? [{ key:'books', label:'The Library' }] : []), ...(betaActive ? [{ key:'beta', label:'Beta' }] : []), { key:'settings', label:'Settings' }];
+  const sections = [{ key:'overview', label:'Overview' }, ...visibleFns.map((f) => ({ key:sectionKey(f), label:f })), ...(hasAchievements ? [{ key:'achievements', label:'Achievements' }] : []), ...(hasLibrary ? [{ key:'books', label:'Library' }] : []), ...(betaActive ? [{ key:'beta', label:'Beta' }] : []), { key:'settings', label:'Settings' }];
   return (
     <div className={'gp-layout' + (tab === 'overview' ? ' has-aside' : '')}>
-      <nav className="gp-side-nav" aria-label="Tools">
-        <div className={'gp-fn-row click' + (tab === 'overview' ? ' on' : '')}
-             role="button" tabIndex={0} aria-current={tab === 'overview' ? 'page' : undefined}
-             onClick={() => setTab('overview')} onKeyDown={navKeyDown(() => setTab('overview'))}>
-          <span className="dia" aria-hidden="true"></span><span>Overview</span>
-        </div>
+      <nav ref={sideNavRef} className="gp-side-nav" aria-label="Tools">
+        <GPSectionNavButton active={tab === 'overview'} label="Overview" arrow={false} onActivate={() => setTab('overview')} />
         {visibleFns.map(f => {
           const isTracker = /tracker$/i.test(f);
           const isMats = /^(characters|character materials)$/i.test(f);
@@ -3017,32 +3082,23 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
           // Database nav row lit.
           const isOn = tab === key || (key === 'database' && (tab === 'tcg' || tab === 'pot'));
           return (
-            <div key={f} className={'gp-fn-row click' + (isOn ? ' on' : '')}
-                 role="button" tabIndex={0} aria-current={isOn ? 'page' : undefined}
-                 onClick={() => setTab(key)} onKeyDown={navKeyDown(() => setTab(key))}>
-              <span className="dia" aria-hidden="true"></span><span>{f}</span><span className="go">{'\u203A'}</span>
-            </div>
+            <GPSectionNavButton key={f} active={isOn} label={f} onActivate={() => setTab(key)} />
           );
         })}
-        {hasLibrary && (
-          <div className={'gp-fn-row click' + (tab === 'books' ? ' on' : '')}
-               role="button" tabIndex={0} aria-current={tab === 'books' ? 'page' : undefined}
-               onClick={() => setTab('books')} onKeyDown={navKeyDown(() => setTab('books'))}>
-            <span className="dia" aria-hidden="true"></span><span>The Library</span><span className="go">{'›'}</span>
+        {hasAchievements && (
+          <div className={'gp-fn-row click' + (tab === 'achievements' ? ' on' : '')}
+               role="button" tabIndex={0} aria-current={tab === 'achievements' ? 'page' : undefined}
+               onClick={() => setTab('achievements')} onKeyDown={navKeyDown(() => setTab('achievements'))}>
+            <span className="dia" aria-hidden="true"></span><span>Achievements</span><span className="go">{'›'}</span>
           </div>
+        )}
+        {hasLibrary && (
+          <GPSectionNavButton active={tab === 'books'} label="Library" onActivate={() => setTab('books')} />
         )}
         {betaActive && (
-          <div className={'gp-fn-row click' + (tab === 'beta' ? ' on' : '')}
-               role="button" tabIndex={0} aria-current={tab === 'beta' ? 'page' : undefined}
-               onClick={() => setTab('beta')} onKeyDown={navKeyDown(() => setTab('beta'))}>
-            <span className="dia" aria-hidden="true"></span><span>Beta</span><span className="go">{'\u203A'}</span>
-          </div>
+          <GPSectionNavButton active={tab === 'beta'} label="Beta" onActivate={() => setTab('beta')} />
         )}
-        <div className={'gp-fn-row click' + (tab === 'settings' ? ' on' : '')}
-             role="button" tabIndex={0} aria-current={tab === 'settings' ? 'page' : undefined}
-             onClick={() => setTab('settings')} onKeyDown={navKeyDown(() => setTab('settings'))}>
-          <span className="dia" aria-hidden="true"></span><span>Settings</span><span className="go">{'\u203A'}</span>
-        </div>
+        <GPSectionNavButton active={tab === 'settings'} label="Settings" onActivate={() => setTab('settings')} />
       </nav>
 
       {tab === 'overview' && (
@@ -3093,6 +3149,7 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
             onViewChange={(next) => setTab(next)} />
         </main>
       )}
+      {tab === 'achievements' && hasAchievements && <AchievementPage key={cfg.key} game={cfg.key} />}
       {tab === 'books' && hasLibrary && <LibraryPage game={cfg.key} />}
       {tab === 'beta' && betaActive && <BetaDataPanel gameKey={cfg.key} onOpenCharacter={openBetaCharacter} />}
       {tab === 'settings' && <SettingsPane settings={settings} setSettings={setSettings} />}
@@ -3196,7 +3253,7 @@ function BirthdayDialog({ entry, onClose, onSaved, onDeleted }){
   return <div className="bcal-dialog-backdrop" onMouseDown={(event) => { if (event.target === event.currentTarget && !busy) onClose(); }}>
     <form className="bcal-dialog" role="dialog" aria-modal="true" aria-labelledby="bcal-dialog-title" onSubmit={submit} ref={formRef}>
       <div className="bcal-dialog-head">
-        <div><span>Personal calendar</span><h2 id="bcal-dialog-title" tabIndex="-1" ref={titleRef}>{entry ? 'Edit birthday' : 'Add birthday'}</h2></div>
+        <div><span>Personal calendar</span><h2 id="bcal-dialog-title" tabIndex="-1" ref={titleRef}>{entry ? 'Edit date' : 'Add date'}</h2></div>
         <button type="button" className="bcal-dialog-close" aria-label="Close birthday dialog" onClick={onClose} disabled={busy}>{'×'}</button>
       </div>
       <label><span>Name</span><input required maxLength="80" value={draft.name} onChange={(event) => update('name', event.target.value)} /></label>
@@ -3215,7 +3272,7 @@ function BirthdayDialog({ entry, onClose, onSaved, onDeleted }){
       {error && <p className="bcal-dialog-error" role="alert">{error}</p>}
       <div className="bcal-dialog-actions">
         {entry && <button type="button" className="danger" onClick={remove} disabled={busy}>Delete</button>}
-        <span></span><button type="button" onClick={onClose} disabled={busy}>Cancel</button><button type="submit" className="primary" disabled={busy}>{busy ? 'Saving…' : 'Save birthday'}</button>
+        <span></span><button type="button" onClick={onClose} disabled={busy}>Cancel</button><button type="submit" className="primary" disabled={busy}>{busy ? 'Saving…' : 'Save date'}</button>
       </div>
     </form>
   </div>;
@@ -3345,8 +3402,8 @@ function BirthdayCalendar({ onOpenMaterial }){
     <section className="bcal" aria-label="Character birthday calendar" ref={calendarRef}>
       {editing !== undefined && <BirthdayDialog entry={editing || null} onClose={() => closeEditor(!!editing)} onSaved={saveCustom} onDeleted={deleteCustom} />}
       <div className="bcal-head">
-        <GPSec title="Birthday Calendar" icon="../assets/decor/orbit_burst.png" style={{ flex:1, minWidth:0 }} />
-        <button type="button" className="bcal-add" ref={addButtonRef} onClick={(event) => openEditor(null, event.currentTarget)}>Add birthday</button>
+        <GPSec title="Birthday Calendar" icon="../assets/decor/orbit_burst.png" className="nyx-u-fill" />
+        <button type="button" className="bcal-add" ref={addButtonRef} onClick={(event) => openEditor(null, event.currentTarget)}>Add date</button>
         <div className="bcal-toggles" role="group" aria-label="Games shown on the calendar">
           {BDAY_GAMES.map((g) => (
             <button type="button" key={g} className={'bcal-toggle g-' + g + (enabled.includes(g) ? ' on' : '')}
@@ -3407,6 +3464,11 @@ function BirthdayCalendar({ onOpenMaterial }){
 }
 
 function SimContent({ tab, setTab, onOpenMaterial, settings, setSettings }){
+  const sideNavRef = React.useRef(null);
+  React.useEffect(() => {
+    const nav = sideNavRef.current;
+    if (nav && window.matchMedia('(max-width:760px)').matches) nav.scrollLeft = 0;
+  }, [tab]);
   const NAV = [
     { key:'overview', label:'Overview' },
     { key:'characters', label:'Characters' },
@@ -3419,13 +3481,9 @@ function SimContent({ tab, setTab, onOpenMaterial, settings, setSettings }){
   ];
   return (
     <div className={'gp-layout' + (tab === 'overview' ? ' has-aside' : '')}>
-      <nav className="gp-side-nav" aria-label="Sections">
+      <nav ref={sideNavRef} className="gp-side-nav" aria-label="Sections">
         {NAV.map(n => (
-          <div key={n.key} className={'gp-fn-row click' + (tab === n.key ? ' on' : '')}
-               role="button" tabIndex={0} aria-current={tab === n.key ? 'page' : undefined}
-               onClick={() => setTab(n.key)} onKeyDown={navKeyDown(() => setTab(n.key))}>
-            <span>{n.label}</span><span className="go">{'\u203A'}</span>
-          </div>
+          <GPSectionNavButton key={n.key} active={tab === n.key} label={n.label} diamond={false} onActivate={() => setTab(n.key)} />
         ))}
       </nav>
       {tab === 'overview' && (
@@ -3464,6 +3522,7 @@ const GAME_TAB_TO_ROUTE = {
   tcg:'database/tcg',
   pot:'database/serenitea-pot',
   wonderland:'database/wonderland',
+  achievements:'achievements',
   books:'books',
   beta:'beta',
   settings:'settings',
@@ -3485,6 +3544,7 @@ const ROUTE_TO_GAME_TAB = {
   character:'mats',
   database:'database',
   library:'database', // old bookmarks land on the renamed Database tab
+  achievements:'achievements',
   books:'books',
   tracker:'tracker',
   tcg:'tcg',
@@ -3569,7 +3629,7 @@ function routeStateFor(key, tab, selection){
     nyxKey:key,
     nyxTab:coerceTabForKey(key, tab || 'overview'),
     nyxCharacter:selection && selection.game === key ? (selection.name || selection.slug || null) : null,
-    nyxFrom:selection && selection.game === key && selection.from === 'calendar' ? 'calendar' : null,
+    nyxFrom:selection && selection.game === key && (selection.from === 'calendar' || selection.from === 'nyx') ? selection.from : null,
   };
 }
 
@@ -3579,13 +3639,13 @@ function routeTitleFor(key, tab, selection){
   const selectedName = selection && selection.game === key ? routeDisplayName(selection.name) : '';
   if (selectedName) return 'Nyx \u2014 ' + selectedName + ' \u2014 ' + name;
   if (key === 'nyx') return tab && tab !== 'overview' ? 'Nyx \u2014 ' + tab.replace(/\b\w/g, (c) => c.toUpperCase()) : 'Nyx';
-  const label = { mats:'Characters', database:'Database', tracker:'Tracker', tcg:'TCG', pot:'Serenitea Pot', wonderland:'Miliastra Wonderland', books:'The Library', beta:'Beta', settings:'Settings' }[tab] || '';
+  const label = { mats:'Characters', database:'Database', tracker:'Tracker', tcg:'TCG', pot:'Serenitea Pot', wonderland:'Miliastra Wonderland', achievements:'Achievements', books:'Library', beta:'Beta', settings:'Settings' }[tab] || '';
   return label ? 'Nyx \u2014 ' + label + ' \u2014 ' + name : 'Nyx \u2014 ' + name;
 }
 
 function validTabsForKey(key){
-  if (key === 'gi') return ['overview','mats','char-customize','database','tracker','tcg','pot','wonderland','books','beta','settings'];
-  if (key === 'hsr') return ['overview','mats','char-customize','database','tracker','books','beta','settings'];
+  if (key === 'gi') return ['overview','mats','char-customize','database','tracker','tcg','pot','wonderland','achievements','books','beta','settings'];
+  if (key === 'hsr') return ['overview','mats','char-customize','database','tracker','achievements','books','beta','settings'];
   return key === 'nyx' ? ['overview','characters','calendar','pulls','codes','banners','events','settings'] : ['overview','mats','char-customize','database','tracker','beta','settings'];
 }
 
@@ -4425,13 +4485,18 @@ function NyxApp(){
 
   const isNyx = activeKey === 'nyx';
   const cfg = isNyx ? NYX_META : GAME_REGISTRY[activeKey];
+  // Overview renders the time control inside its right rail; the topbar copy
+  // only remains for hub tabs that have no aside.
+  const showTimePreference = isNyx && (tab === 'banners' || tab === 'events');
+  const isGameOverview = !isNyx && tab === 'overview';
   const openMaterialPage = (game, name, options) => {
     const targetGame = (game && game !== 'nyx') ? game : activeKey;
     if (!targetGame || targetGame === 'nyx' || !name) return;
     setActiveKey(targetGame);
     setTab('mats');
     setCharacterCustomize(null);
-    const selection = { game:targetGame, name, from:options?.from === 'calendar' ? 'calendar' : 'characters' };
+    const origin = options?.from === 'calendar' || options?.from === 'nyx' ? options.from : 'characters';
+    const selection = { game:targetGame, name, from:origin };
     setMaterialSelection(selection);
     commitRoute(targetGame, 'mats', selection);
   };
@@ -4460,8 +4525,8 @@ function NyxApp(){
   };
 
   return (
-    <div style={{ position:'absolute', inset:0, display:'flex', flexDirection:'column' }} data-screen-label={cfg.name + ' page'}>
-      <header className="gp-topbar" data-screen-label="Top bar">
+    <div className="nyx-screen" data-screen-label={cfg.name + ' page'}>
+      <header className={'gp-topbar' + (showTimePreference ? ' has-time-preference' : '') + (isGameOverview ? ' is-game-overview' : '')} data-screen-label="Top bar">
         <a className="tb-brand" href="/" title="Back to Worlds" aria-label="Back to the worlds index">
           <span className="plate" aria-hidden="true"></span>
           <span className="brand-mark">
@@ -4475,6 +4540,7 @@ function NyxApp(){
         </a>
         <div className="tb-center">
           <GPGameRail active={activeKey} onSwitch={switchGame} displayGames={pengoSettings.displayGames} gameIcons={pengoSettings.gameIcons} />
+          {showTimePreference && <TimePreferenceControl gameKey={isNyx ? 'nyx' : activeKey} />}
         </div>
       </header>
 

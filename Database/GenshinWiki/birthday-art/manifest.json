@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T08:59:11.445Z",
+  "generatedAt": "2026-07-16T09:06:11.639Z",
   "source": "Genshin Impact Wiki / Fandom MediaWiki API",
   "sourceExample": "https://genshin-impact.fandom.com/wiki/Ifa/Gallery",
   "requestedWidth": 1800,
@@ -3050,9 +3050,21 @@
           "mime": "image/png"
         },
         {
+          "file": "Hu Tao Birthday 2026.jpg",
+          "title": "Hu Tao Birthday 2026.jpg (1.68 MB)",
+          "localAsset": "GenshinWiki/birthday-art/hutao/06-Hu Tao Birthday 2026.jpg",
+          "sourcePage": "https://genshin-impact.fandom.com/wiki/Hu%20Tao/Gallery",
+          "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Hu_Tao_Birthday_2026.jpg",
+          "width": 1800,
+          "height": 1800,
+          "originalWidth": 5120,
+          "originalHeight": 5120,
+          "mime": "image/jpeg"
+        },
+        {
           "file": "Hu Tao Birthday 2024 - Miyoushe.png",
           "title": "Hu Tao Birthday 2024 - Miyoushe.png (1.5 MB)",
-          "localAsset": "GenshinWiki/birthday-art/hutao/06-Hu Tao Birthday 2024 - Miyoushe.png",
+          "localAsset": "GenshinWiki/birthday-art/hutao/07-Hu Tao Birthday 2024 - Miyoushe.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Hu%20Tao/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Hu_Tao_Birthday_2024_-_Miyoushe.png",
           "width": 1125,
@@ -3064,7 +3076,7 @@
         {
           "file": "Hu Tao TPRGT 2022 - Aether.png",
           "title": "Hu Tao TPRGT 2022 - Aether.png (1.73 MB)",
-          "localAsset": "GenshinWiki/birthday-art/hutao/07-Hu Tao TPRGT 2022 - Aether.png",
+          "localAsset": "GenshinWiki/birthday-art/hutao/08-Hu Tao TPRGT 2022 - Aether.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Hu%20Tao/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Hu_Tao_TPRGT_2022_-_Aether.png",
           "width": 1800,
@@ -3076,7 +3088,7 @@
         {
           "file": "Hu Tao TPRGT 2022 - Lumine.png",
           "title": "Hu Tao TPRGT 2022 - Lumine.png (1.72 MB)",
-          "localAsset": "GenshinWiki/birthday-art/hutao/08-Hu Tao TPRGT 2022 - Lumine.png",
+          "localAsset": "GenshinWiki/birthday-art/hutao/09-Hu Tao TPRGT 2022 - Lumine.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Hu%20Tao/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Hu_Tao_TPRGT_2022_-_Lumine.png",
           "width": 1800,
@@ -3088,7 +3100,7 @@
         {
           "file": "Hu Tao TPRGT 2023 - Aether.png",
           "title": "Hu Tao TPRGT 2023 - Aether.png (3.25 MB)",
-          "localAsset": "GenshinWiki/birthday-art/hutao/09-Hu Tao TPRGT 2023 - Aether.png",
+          "localAsset": "GenshinWiki/birthday-art/hutao/10-Hu Tao TPRGT 2023 - Aether.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Hu%20Tao/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Hu_Tao_TPRGT_2023_-_Aether.png",
           "width": 1800,
@@ -3100,7 +3112,7 @@
         {
           "file": "Hu Tao TPRGT 2023 - Lumine.png",
           "title": "Hu Tao TPRGT 2023 - Lumine.png (3.25 MB)",
-          "localAsset": "GenshinWiki/birthday-art/hutao/10-Hu Tao TPRGT 2023 - Lumine.png",
+          "localAsset": "GenshinWiki/birthday-art/hutao/11-Hu Tao TPRGT 2023 - Lumine.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Hu%20Tao/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Hu_Tao_TPRGT_2023_-_Lumine.png",
           "width": 1800,
@@ -4337,9 +4349,21 @@
           "mime": "image/png"
         },
         {
+          "file": "Kujou Sara Birthday 2026.jpg",
+          "title": "Kujou Sara Birthday 2026.jpg (1.85 MB)",
+          "localAsset": "GenshinWiki/birthday-art/kujousara/05-Kujou Sara Birthday 2026.jpg",
+          "sourcePage": "https://genshin-impact.fandom.com/wiki/Kujou%20Sara/Gallery",
+          "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Kujou_Sara_Birthday_2026.jpg",
+          "width": 1800,
+          "height": 1800,
+          "originalWidth": 3706,
+          "originalHeight": 3707,
+          "mime": "image/jpeg"
+        },
+        {
           "file": "Kujou Sara TPRGT 2022 - Aether.png",
           "title": "Kujou Sara TPRGT 2022 - Aether.png (2.65 MB)",
-          "localAsset": "GenshinWiki/birthday-art/kujousara/05-Kujou Sara TPRGT 2022 - Aether.png",
+          "localAsset": "GenshinWiki/birthday-art/kujousara/06-Kujou Sara TPRGT 2022 - Aether.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Kujou%20Sara/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Kujou_Sara_TPRGT_2022_-_Aether.png",
           "width": 1800,
@@ -4351,7 +4375,7 @@
         {
           "file": "Kujou Sara TPRGT 2022 - Lumine.png",
           "title": "Kujou Sara TPRGT 2022 - Lumine.png (2.63 MB)",
-          "localAsset": "GenshinWiki/birthday-art/kujousara/06-Kujou Sara TPRGT 2022 - Lumine.png",
+          "localAsset": "GenshinWiki/birthday-art/kujousara/07-Kujou Sara TPRGT 2022 - Lumine.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Kujou%20Sara/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Kujou_Sara_TPRGT_2022_-_Lumine.png",
           "width": 1800,
@@ -4363,7 +4387,7 @@
         {
           "file": "Kujou Sara TPRGT 2023 - Aether.png",
           "title": "Kujou Sara TPRGT 2023 - Aether.png (2.48 MB)",
-          "localAsset": "GenshinWiki/birthday-art/kujousara/07-Kujou Sara TPRGT 2023 - Aether.png",
+          "localAsset": "GenshinWiki/birthday-art/kujousara/08-Kujou Sara TPRGT 2023 - Aether.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Kujou%20Sara/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Kujou_Sara_TPRGT_2023_-_Aether.png",
           "width": 1800,
@@ -4375,7 +4399,7 @@
         {
           "file": "Kujou Sara TPRGT 2023 - Lumine.png",
           "title": "Kujou Sara TPRGT 2023 - Lumine.png (2.5 MB)",
-          "localAsset": "GenshinWiki/birthday-art/kujousara/08-Kujou Sara TPRGT 2023 - Lumine.png",
+          "localAsset": "GenshinWiki/birthday-art/kujousara/09-Kujou Sara TPRGT 2023 - Lumine.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Kujou%20Sara/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Kujou_Sara_TPRGT_2023_-_Lumine.png",
           "width": 1800,

@@ -1,0 +1,34 @@
+{
+  "projectId": "ad9ae6a5-c60b-46e6-98af-dee5d68e5371",
+  "shape": "package",
+  "pkg": "nyxarium-site",
+  "readmeHeader": ".design-sync/conventions.md",
+  "globalName": "NyxDS",
+  "cssEntry": "src/styles/game-page-shared.css",
+  "overrides": {
+    "GPRoot": { "cardMode": "column" },
+    "GPSec": { "cardMode": "column" },
+    "GPSectionNavButton": { "cardMode": "column" }
+  },
+  "libOverrides": {
+    "css.mjs": "inline site-served CSS image assets (bg/masks/frames) as data URIs; compressed stand-ins in .design-sync/assets/"
+  },
+  "tokensPkg": "..",
+  "tokensGlob": "src/styles/tokens.css",
+  "componentSrcMap": {
+    "GPRoot": "src/components/game-page-components.jsx",
+    "GPSec": "src/components/game-page-components.jsx",
+    "GPSectionNavButton": "src/components/game-page-components.jsx",
+    "GPMedallion": "src/components/game-page-components.jsx",
+    "GPMedSim": "src/components/game-page-components.jsx",
+    "GPGameRail": "src/components/game-page-components.jsx"
+  },
+  "dtsPropsFor": {
+    "GPRoot": "children?: React.ReactNode;",
+    "GPSec": "title: string; icon?: string; perch?: string; className?: string; style?: React.CSSProperties;",
+    "GPSectionNavButton": "label: string; active?: boolean; onActivate?: () => void; diamond?: boolean; arrow?: boolean; className?: string;",
+    "GPMedallion": "game: { key: string; name: string; icon: string; glyph?: boolean }; size?: 'sm'; on?: boolean; dim?: boolean; title?: string; href?: string; onSwitch?: (key: string) => void; railRival?: boolean;",
+    "GPMedSim": "on?: boolean; href?: string; onSwitch?: (key: string) => void;",
+    "GPGameRail": "active: string; onSwitch?: (key: string) => void; displayGames?: Record<string, boolean>; gameIcons?: Record<string, string>;"
+  }
+}

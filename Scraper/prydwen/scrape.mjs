@@ -2,6 +2,7 @@
 
 import path from 'node:path';
 import { promises as fs } from 'node:fs';
+import { parseCatalogFields } from './catalog-fields.mjs';
 import {
   DEFAULT_DATABASE_DIR,
   cleanText,
@@ -978,27 +979,7 @@ function isCatalogMarker(line, markers) {
 }
 
 function catalogFields(segment) {
-  const fields = {};
-  const bonuses = [];
-
-  for (let i = 1; i < segment.length; i += 1) {
-    const line = segment[i];
-    const field = line.match(/^([^:]{2,80}):\s*(.*)$/);
-    if (field) {
-      const key = safeKey(field[1]);
-      let value = cleanText(field[2]);
-      if (!value && segment[i + 1] && !segment[i + 1].includes(':')) {
-        value = cleanText(segment[i + 1]);
-        i += 1;
-      }
-      fields[key] = value;
-      continue;
-    }
-    if (/^\(\d+\)/.test(line)) bonuses.push(line);
-  }
-
-  if (bonuses.length) fields.bonuses = bonuses;
-  return fields;
+  return parseCatalogFields(segment);
 }
 
 function attachEntryArt(name, index, artAssets) {

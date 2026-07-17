@@ -7,7 +7,7 @@ function LibraryPage({ game }){
   const [indexAttempt, setIndexAttempt] = React.useState(0);
   const [searchState, setSearchState] = React.useState({ loading:false, data:null, error:null, attempt:0 });
   const [shouldLoadSearch, setShouldLoadSearch] = React.useState(false);
-  const [bookState, setBookState] = React.useState({ id:null, loading:false, data:null, error:null, attempt:0, query:'', bodyMatch:false });
+  const [bookState, setBookState] = React.useState({ id:null, loading:false, data:null, error:null, attempt:0, query:'', bodyMatch:false, matchVolumeKey:'' });
   const [query, setQuery] = React.useState('');
   const [volume, setVolume] = React.useState(0);
   const readerTitle = React.useRef(null);
@@ -19,14 +19,14 @@ function LibraryPage({ game }){
     setSearchState({ loading:false, data:null, error:null, attempt:0 });
     setShouldLoadSearch(false);
     setQuery('');
-    setBookState({ id:null, loading:false, data:null, error:null, attempt:0, query:'', bodyMatch:false });
+    setBookState({ id:null, loading:false, data:null, error:null, attempt:0, query:'', bodyMatch:false, matchVolumeKey:'' });
     fetch(`/data/library/${game}/index.json`, { signal:controller.signal, credentials:'same-origin' })
       .then((response) => { if (!response.ok) throw new Error(`Library index returned ${response.status}`); return response.json(); })
       .then((data) => {
         if (data?.game !== game || !Array.isArray(data.entries)) throw new Error('Library index is invalid');
         setIndexState({ loading:false, data, error:null });
       })
-      .catch((error) => { if (error.name !== 'AbortError') setIndexState({ loading:false, data:null, error:error.message || 'The Library could not be loaded.' }); });
+      .catch((error) => { if (error.name !== 'AbortError') setIndexState({ loading:false, data:null, error:error.message || 'Library could not be loaded.' }); });
     return () => controller.abort();
   }, [game, indexAttempt]);
 
@@ -37,7 +37,7 @@ function LibraryPage({ game }){
     fetch(`/data/library/${game}/search-index.json`, { signal:controller.signal, credentials:'same-origin' })
       .then((response) => { if (!response.ok) throw new Error(`Library search returned ${response.status}`); return response.json(); })
       .then((data) => {
-        if (data?.game !== game || data?.schemaVersion !== 1 || !Array.isArray(data.books) || typeof data.words !== 'object') throw new Error('Library search is invalid');
+        if (data?.game !== game || data?.schemaVersion !== 2 || !Array.isArray(data.books) || !Array.isArray(data.volumes)) throw new Error('Library search is invalid');
         setSearchState((state) => ({ ...state, loading:false, data, error:null }));
       })
       .catch((error) => { if (error.name !== 'AbortError') setSearchState((state) => ({ ...state, loading:false, data:null, error:error.message || 'Book text search could not be loaded.' })); });
@@ -57,10 +57,12 @@ function LibraryPage({ game }){
       .then((response) => { if (!response.ok) throw new Error(`Book returned ${response.status}`); return response.json(); })
       .then((data) => {
         if (data?.game !== game || !Array.isArray(data?.volumes) || !data.volumes.length) throw new Error('This book has no readable text.');
-        const tokens = bookState.bodyMatch ? nyxLibraryWords(bookState.query) : [];
-        const firstMatch = tokens.length ? data.volumes.findIndex((item) => nyxLibraryDocumentHasTokens(item.document, tokens)) : -1;
+        const firstMatch = bookState.bodyMatch
+          ? nyxLibraryMatchingVolumeIndex(data.volumes, bookState.query, bookState.matchVolumeKey)
+          : -1;
         setVolume(firstMatch >= 0 ? firstMatch : 0);
-        setBookState((state) => ({ ...state, loading:false, data, error:null }));
+        setBookState((state) => ({ ...state, loading:false, data, error:null, bodyMatch:firstMatch >= 0,
+          matchVolumeKey:firstMatch >= 0 ? String(data.volumes[firstMatch]?.volumeKey || data.volumes[firstMatch]?.id || '') : '' }));
         requestAnimationFrame(() => readerTitle.current?.focus());
       })
       .catch((error) => { if (error.name !== 'AbortError') setBookState((state) => ({ ...state, loading:false, data:null, error:error.message || 'This book could not be loaded.' })); });
@@ -68,18 +70,18 @@ function LibraryPage({ game }){
   }, [game, bookState.id, bookState.attempt, indexState.data]);
 
   const normalizedQuery = nyxLibraryNormalizeText(query);
-  const bodyIds = React.useMemo(() => nyxLibrarySearchIds(searchState.data, query), [searchState.data, query]);
+  const bodyMatches = React.useMemo(() => nyxLibrarySearchMatches(searchState.data, query), [searchState.data, query]);
   const entries = indexState.data?.entries || [];
   const matches = entries.map((entry) => ({
     entry,
-    titleMatch:!!normalizedQuery && nyxLibraryNormalizeText(entry.name).includes(normalizedQuery),
-    bodyMatch:bodyIds.has(entry.id),
+    titleMatch:!!normalizedQuery && nyxLibraryTextHasPhrase(entry.name, query),
+    bodyMatch:bodyMatches.get(entry.id) || null,
   })).filter((row) => !normalizedQuery || row.titleMatch || row.bodyMatch);
 
   const closeBook = () => {
     const openerId = opener.current?.dataset?.libraryBookId || bookState.id;
     ReactDOM.flushSync(() => {
-      setBookState({ id:null, loading:false, data:null, error:null, attempt:0, query:'', bodyMatch:false });
+      setBookState({ id:null, loading:false, data:null, error:null, attempt:0, query:'', bodyMatch:false, matchVolumeKey:'' });
       setVolume(0);
     });
     const target = nyxLibraryFocusReturnTarget(opener.current, openerId, document.querySelectorAll('[data-library-book-id]'));
@@ -89,10 +91,9 @@ function LibraryPage({ game }){
 
   if (bookState.id) {
     const selected = bookState.data?.volumes?.[volume];
-    const highlightTokens = new Set(bookState.bodyMatch ? nyxLibraryWords(bookState.query) : []);
     return <main className="gp-main-pane fill library-page">
       <header className="library-reader-head">
-        <button type="button" className="library-back" onClick={closeBook} aria-label="Back to The Library"><span aria-hidden="true">{'\u2190'}</span> Library</button>
+        <button type="button" className="library-back" onClick={closeBook} aria-label="Back to Library"><span aria-hidden="true">{'\u2190'}</span> Library</button>
         <h1 tabIndex="-1" ref={readerTitle}>{bookState.data?.name || indexState.data?.entries?.find((entry) => entry.id === bookState.id)?.name || 'Loading book\u2026'}</h1>
       </header>
       {bookState.loading && <div className="library-status" role="status" aria-live="polite">Opening book\u2026</div>}
@@ -107,18 +108,17 @@ function LibraryPage({ game }){
           bookId={bookState.data.id}
           volumeKey={selected?.volumeKey || selected?.id}
           knownVolumeKeys={bookState.data.volumes.map((item) => item.volumeKey || item.id)}
-          highlightTokens={highlightTokens}
+          query={bookState.bodyMatch ? bookState.query : ''}
         />
       </article>}
     </main>;
   }
 
   return <main className="gp-main-pane fill library-page">
-    <header className="library-hero"><span>{NYX_LIBRARY_GAMES[game] || game}</span><h1>The Library</h1></header>
-    {indexState.loading && <div className="library-status" role="status" aria-live="polite">Loading The Library\u2026</div>}
+    {indexState.loading && <div className="library-status" role="status" aria-live="polite">Loading Library\u2026</div>}
     {indexState.error && <div className="library-status error" role="alert"><p>{indexState.error}</p><button type="button" onClick={() => setIndexAttempt((attempt) => attempt + 1)}>Try again</button></div>}
     {indexState.data && <>
-      <label className="library-search"><span>Search The Library</span><input type="search" value={query} onChange={(event) => {
+      <label className="library-search"><span>Search Library</span><input type="search" value={query} onChange={(event) => {
         const value = event.target.value;
         setQuery(value);
         if (value.trim()) setShouldLoadSearch(true);
@@ -131,7 +131,7 @@ function LibraryPage({ game }){
       <div className="library-grid">
         {matches.map(({ entry, bodyMatch }) => <button type="button" className={'library-tile' + (bodyMatch ? ' text-match' : '')} data-library-book-id={entry.id} key={entry.id} onClick={(event) => {
           opener.current = event.currentTarget;
-          setBookState({ id:entry.id, loading:true, data:null, error:null, attempt:0, query, bodyMatch });
+          setBookState({ id:entry.id, loading:true, data:null, error:null, attempt:0, query, bodyMatch:!!bodyMatch, matchVolumeKey:bodyMatch?.volumeKey || '' });
         }}>
           <span className="library-cover">{entry.icon ? <img src={`/data/library/${game}/${entry.icon}`} alt="" loading="lazy" /> : <span aria-hidden="true">{'\ud83d\udcd6'}</span>}</span>
           <strong>{entry.name}</strong>

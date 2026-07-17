@@ -17,7 +17,7 @@ const context = {
   CustomEvent:class CustomEvent { constructor(type, init){ this.type = type; this.detail = init?.detail; } },
   window:{ dispatchEvent:(event) => { events.push(event); return true; } },
 };
-vm.runInNewContext(source + '\n;globalThis.api={nyxPinnedCharacterId,nyxLoadPinnedIds,nyxSavePinnedIds,nyxFavouriteModeKey,nyxLoadFavouriteMode,nyxSaveFavouriteMode,nyxAddPinnedId,nyxFavouriteVisibleCards,nyxLoadPinnedUnion,nyxAddFavourite,nyxUnfavouriteConfirmKey,nyxUnfavouriteConfirmSuppressed,nyxSaveUnfavouriteConfirm};', context);
+vm.runInNewContext(source + '\n;globalThis.api={nyxPinnedCharacterId,nyxLoadPinnedIds,nyxSavePinnedIds,nyxFavouriteModeKey,nyxLoadFavouriteMode,nyxSaveFavouriteMode,nyxFavouriteVisibilityKey,nyxLoadFavouriteVisibility,nyxSaveFavouriteVisibility,nyxAddPinnedId,nyxFavouriteVisibleCards,nyxLoadPinnedUnion,nyxAddFavourite,nyxUnfavouriteConfirmKey,nyxUnfavouriteConfirmSuppressed,nyxSaveUnfavouriteConfirm};', context);
 const api = context.api;
 
 assert.deepEqual([...api.nyxLoadPinnedIds('gi')], [], 'fresh storage starts with no favourites');
@@ -34,6 +34,10 @@ data.set(api.nyxFavouriteModeKey('hsr'), 'card');
 assert.equal(api.nyxLoadFavouriteMode('hsr'), 'card', 'an existing Card preference is preserved');
 assert.equal(api.nyxSaveFavouriteMode('gi', 'icon'), 'icon');
 assert.equal(api.nyxLoadFavouriteMode('gi'), 'icon');
+assert.equal(api.nyxLoadFavouriteVisibility('gi'), true, 'favourites start shown');
+assert.equal(api.nyxSaveFavouriteVisibility('gi', false), false);
+assert.equal(api.nyxLoadFavouriteVisibility('gi'), false, 'hidden state survives reload');
+assert.equal(api.nyxSaveFavouriteVisibility('gi', true), true);
 
 const cards = Array.from({ length:7 }, (_, index) => ({ id:String(index + 1) }));
 assert.equal(api.nyxFavouriteVisibleCards(cards, 'card', 'gi').length, 5);
@@ -73,10 +77,13 @@ assert.match(materialsSource, /placeholder="Search" aria-label="Search character
 assert.match(materialsSource, /cmMetaIconSrc\(gameKey, filterKey/, 'filter controls use the released local icon map');
 assert.match(materialsSource, /bandless/, 'Talent and boss tokens support the bandless frame');
 assert.match(materialsSource, /Back to Characters/, 'character detail back navigation targets Characters');
-assert.match(cssSource, /\.cm-cell:hover \.disc,\.cm-cell:focus-within \.disc[^}]*#c23a78/, 'roster hover and keyboard focus share one purple-red glow');
-assert.match(cssSource, /@media \(hover:none\), \(pointer:coarse\)[\s\S]*\.cm-favourite-star/, 'touch keeps favourite stars usable');
+assert.match(cssSource, /--character-hover:#c18cff;[\s\S]*\.cm-cell:hover \.disc,\.cm-cell:focus-within \.disc[^}]*var\(--character-hover\)/, 'roster hover and keyboard focus share the brighter purple token');
+assert.doesNotMatch(cssSource, /@media \(hover:none\), \(pointer:coarse\)[\s\S]{0,100}\.cm-favourite-star/, 'favourite stars remain hover/focus only');
 assert.match(cssSource, /\.cm-item-frame\.bandless/, 'bandless item frames remove the number section');
-assert.match(cssSource, /\.gp-card-grid\.hub\{ grid-template-columns:repeat\(5/, 'hub wraps after five cards');
+assert.match(cssSource, /\.gp-card-grid\.hub\{ grid-template-columns:repeat\(auto-fill,minmax\(132px,160px\)\)/, 'hub cards are compact and wrap naturally');
+assert.match(materialsSource, /curTab === 'roster' && pinnedFavourites/, 'pinned favourites only render on Roster');
+assert.match(materialsSource, /<GPSectionNavButton key=\{t\.k\}/, 'character tabs reuse the shell navigation button');
+assert.doesNotMatch(appSource, /gp-fav-game|appGameIcon\(ch\.gameKey\)/, 'Nyx favourites do not add game badges');
 assert.match(cssSource, /@media \(max-width: 680px\)[\s\S]*\.gp-fav-icon-grid/, 'compact favourites have a mobile layout');
 
 const mavuika = path.resolve(here, '../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Mavuika_Circle.webp');

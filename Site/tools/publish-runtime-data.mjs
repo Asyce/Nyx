@@ -2,6 +2,8 @@ import crypto from 'node:crypto';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { ACHIEVEMENT_ICON_MAX_BYTES, achievementIconFilename, inspectAchievementIconBytes, validateCatalog as validateAchievementCatalog } from '../../Scraper/achievements/core.mjs';
+import { nyxLibraryNormalizeText } from '../src/features/library/library-core.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DEFAULT_ROOT = path.resolve(__dirname, '..', '..');
@@ -11,6 +13,7 @@ const FAMILY_CONFIG = [
   { source:'Activities', target:'activities', optional:false },
   { source:'Events', target:'events', optional:true },
 ];
+const EVENT_GAMES = ['gi','hsr','zzz','wuwa','endfield'];
 
 async function exists(file) { try { await fs.access(file); return true; } catch { return false; } }
 
@@ -113,16 +116,24 @@ function validateBook(book, row, game, label) {
   });
 }
 
-function validateSearchIndex(search, game, ids, label) {
-  if (search?.schemaVersion !== 1 || search.game !== game || search.bookCount !== ids.size || search.minWordLength !== 2 || !Array.isArray(search.books) || !search.words || typeof search.words !== 'object' || Array.isArray(search.words)) throw new Error(`${label} is invalid`);
+function validateSearchIndex(search, game, ids, volumeKeysByBook, label) {
+  if (search?.schemaVersion !== 2 || search.game !== game || search.bookCount !== ids.size || !Array.isArray(search.books) || !Array.isArray(search.volumes)) throw new Error(`${label} is invalid`);
   if (search.books.length !== ids.size || search.books.some((id) => !ids.has(id)) || new Set(search.books).size !== search.books.length || search.books.join('\0') !== [...search.books].sort().join('\0')) throw new Error(`${label} has an invalid book dictionary`);
-  const words = Object.keys(search.words);
-  if (search.wordCount !== words.length) throw new Error(`${label} word metadata is invalid`);
-  for (const word of words) {
-    if (!/^[\p{L}\p{N}]{2,80}$/u.test(word)) throw new Error(`${label} has an invalid word`);
-    const posting = search.words[word];
-    if (!Array.isArray(posting) || !posting.length || posting.some((bookNumber) => !Number.isInteger(bookNumber) || bookNumber < 0 || bookNumber >= search.books.length) || new Set(posting).size !== posting.length || posting.some((bookNumber, index) => index && bookNumber <= posting[index - 1])) throw new Error(`${label} has invalid postings for ${word}`);
+  const expected = search.books.flatMap((bookId, book) => (volumeKeysByBook.get(bookId) || []).map((volumeKey) => `${book}\0${volumeKey}`));
+  if (search.volumeCount !== expected.length || search.volumes.length !== expected.length) throw new Error(`${label} has invalid volume metadata`);
+  const actual = [];
+  for (const volume of search.volumes) {
+    if (!volume || Object.keys(volume).sort().join(',') !== 'book,leaves,volumeKey'
+      || !Number.isInteger(volume.book) || volume.book < 0 || volume.book >= search.books.length
+      || !/^[a-z0-9][a-z0-9-]*$/.test(volume.volumeKey || '') || !Array.isArray(volume.leaves)) {
+      throw new Error(`${label} has an invalid volume row`);
+    }
+    actual.push(`${volume.book}\0${volume.volumeKey}`);
+    for (const leaf of volume.leaves) {
+      if (typeof leaf !== 'string' || !leaf || leaf.length > 250_000 || leaf !== nyxLibraryNormalizeText(leaf)) throw new Error(`${label} has invalid normalized leaf text`);
+    }
   }
+  if (actual.join('\u0001') !== expected.join('\u0001') || new Set(actual).size !== actual.length) throw new Error(`${label} volume rows do not match the books`);
 }
 
 async function validateIcon(file, relative) {
@@ -161,6 +172,7 @@ async function publishLibrary({ databaseDir, dataDir, maxBytes }) {
     const { parsed:index } = await validatedJson(sourceByRel.get(indexRel), maxBytes);
     if (index?.game !== game || !Array.isArray(index.entries) || index.count !== index.entries.length) throw new Error(`Runtime Library has an invalid ${indexRel}`);
     const ids = new Set();
+    const volumeKeysByBook = new Map();
     for (const row of index.entries) {
       if (!row?.id || ids.has(row.id) || !/^[a-z0-9][a-z0-9-]*$/.test(row.id)) throw new Error(`${indexRel} has an empty, duplicate, or unsafe id`);
       ids.add(row.id);
@@ -168,9 +180,10 @@ async function publishLibrary({ databaseDir, dataDir, maxBytes }) {
       if (row.icon && (!/^icons\/[a-f0-9]{64}\.(?:png|webp)$/.test(row.icon) || !sourceByRel.has(`${game}/${row.icon}`))) throw new Error(`${indexRel} references missing/unsafe icon ${row.icon}`);
       const { parsed:book } = await validatedJson(sourceByRel.get(`${game}/${row.file}`), maxBytes);
       validateBook(book, row, game, `${game}/${row.file}`);
+      volumeKeysByBook.set(row.id, [...row.volumeKeys]);
     }
     const { parsed:search } = await validatedJson(sourceByRel.get(searchRel), maxBytes);
-    validateSearchIndex(search, game, ids, searchRel);
+    validateSearchIndex(search, game, ids, volumeKeysByBook, searchRel);
   }
   for (const [relative, source] of sourceByRel) {
     if (!/^(?:gi|hsr)\/(?:index|search-index|[a-z0-9][a-z0-9-]*)\.json$/.test(relative) && !/^(?:gi|hsr)\/icons\/[a-f0-9]{64}\.(?:png|webp)$/.test(relative)) {
@@ -184,6 +197,61 @@ async function publishLibrary({ databaseDir, dataDir, maxBytes }) {
     } else {
       await validateIcon(source, relative);
       entries.push(await copyEntry({ source, dest, url, maxBytes }));
+    }
+  }
+  return entries;
+}
+
+async function validateAchievementAsset(file, filename, maxBytes) {
+  const bytes = await fs.readFile(file);
+  const inspected = inspectAchievementIconBytes(bytes, { maxBytes:Math.min(maxBytes, ACHIEVEMENT_ICON_MAX_BYTES) });
+  const hash = crypto.createHash('sha256').update(bytes).digest('hex');
+  const extension = inspected.mediaType === 'image/png' ? 'png' : 'webp';
+  if (filename !== `${hash}.${extension}`) throw new Error(`Runtime Achievement icon hash/magic mismatch: ${filename}`);
+}
+
+async function publishAchievements({ databaseDir, dataDir, deployDir, maxBytes }) {
+  const sourceRoot = path.resolve(databaseDir, 'Achievements');
+  if (!(await exists(sourceRoot))) throw new Error('Runtime Achievement source is missing');
+  const entries = [];
+  for (const game of ['gi', 'hsr']) {
+    const source = path.resolve(sourceRoot, game, 'catalog.json');
+    if (!(await exists(source))) throw new Error(`Runtime Achievements is missing ${game}/catalog.json`);
+    const { stat, parsed } = await validatedJson(source, maxBytes);
+    try {
+      if (parsed?.game !== game) throw new Error(`catalog game ${parsed?.game} does not match ${game}`);
+      validateAchievementCatalog(parsed);
+    } catch (error) {
+      throw new Error(`Runtime Achievements has an invalid ${game} catalog: ${error.message}`);
+    }
+    entries.push(await copyEntry({ source, dest:path.resolve(dataDir, 'achievements', game, 'catalog.json'), url:`/data/achievements/${game}/catalog.json`, maxBytes, parsed, timestamp:dataTimestamp(parsed, stat) }));
+
+    const references = parsed.categories.flatMap((category) => category.icon ? [{ icon:category.icon, kind:'categories' }] : []);
+    if (parsed.rewardCurrency?.icon) references.push({ icon:parsed.rewardCurrency.icon, kind:'rewards' });
+    const expected = new Map();
+    for (const { icon, kind } of references) {
+      const filename = achievementIconFilename(game, icon.path, kind);
+      const relative = `${kind}/${filename}`;
+      if (expected.has(relative)) throw new Error(`Runtime Achievements has duplicate ${game} asset ${relative}`);
+      expected.set(relative, { filename, url:icon.path });
+    }
+    const assetRoot = path.resolve(sourceRoot, game, 'assets');
+    const actual = await exists(assetRoot) ? await filesBelow(assetRoot) : [];
+    const actualByRelative = new Map(actual.map((file) => [relativeInside(assetRoot, file), file]));
+    for (const relative of actualByRelative.keys()) {
+      if (!/^(?:categories|rewards)\/[a-f0-9]{64}\.(?:png|webp)$/.test(relative) || !expected.has(relative)) throw new Error(`Runtime Achievements contains an unreferenced or unsafe ${game} asset: ${relative}`);
+    }
+    if (actualByRelative.size !== expected.size) throw new Error(`Runtime Achievements is missing a referenced ${game} asset`);
+    for (const [relative, { filename, url }] of expected) {
+      const assetSource = actualByRelative.get(relative);
+      if (!assetSource) throw new Error(`Runtime Achievements is missing ${game}/${relative}`);
+      await validateAchievementAsset(assetSource, filename, maxBytes);
+      entries.push(await copyEntry({
+        source: assetSource,
+        dest: path.resolve(deployDir, 'assets', 'achievements', game, ...relative.split('/')),
+        url,
+        maxBytes: Math.min(maxBytes, ACHIEVEMENT_ICON_MAX_BYTES),
+      }));
     }
   }
   return entries;
@@ -204,7 +272,7 @@ async function publishFamily({ databaseDir, dataDir, source, target, optional, m
   // is 'endfield' (unlike BannerHistory/Activities' 'ae'), so its filename
   // differs from the client game-key convention — consumed as-is, per the
   // client's own game-key -> filename map (timeline-view.jsx).
-  if (source === 'Events') for (const required of ['gi.json','hsr.json','zzz.json','wuwa.json','endfield.json']) if (!names.has(required)) throw new Error(`Runtime Events is missing ${required}`);
+  if (source === 'Events') for (const required of [...EVENT_GAMES.map((game) => `${game}.json`), 'manifest.json', 'history-state.json']) if (!names.has(required)) throw new Error(`Runtime Events is missing ${required}`);
   for (const file of files) {
     const relative = relativeInside(sourceRoot, file);
     if (!/^[a-z0-9][a-z0-9._-]*\.json$/i.test(relative) || relative.includes('/')) throw new Error(`Runtime ${source} contains a non-allowlisted file: ${relative}`);
@@ -214,7 +282,22 @@ async function publishFamily({ databaseDir, dataDir, source, target, optional, m
       const minimum = { 'gi.json':2, 'hsr.json':3, 'zzz.json':2, 'wuwa.json':1 }[relative] || 0;
       if (parsed?.schemaVersion !== 1 || !Array.isArray(parsed.activities) || parsed.activities.length < minimum) throw new Error(`Runtime Activities has invalid ${relative}`);
     }
-    if (source === 'Events' && (parsed?.schemaVersion !== 1 || parsed.game !== relative.replace(/\.json$/, '') || !Array.isArray(parsed.events))) throw new Error(`Runtime Events has invalid ${relative}`);
+    if (source === 'Events') {
+      if (EVENT_GAMES.includes(relative.replace(/\.json$/, ''))) {
+        if (parsed?.schemaVersion !== 1 || parsed.game !== relative.replace(/\.json$/, '') || !Array.isArray(parsed.events)) throw new Error(`Runtime Events has invalid ${relative}`);
+      } else if (relative === 'manifest.json') {
+        const games = Array.isArray(parsed?.games) ? parsed.games : [];
+        const gameKeys = games.map((row) => row?.game);
+        if (parsed?.schemaVersion !== 1 || !Number.isFinite(Date.parse(parsed?.generatedAt)) || games.length !== EVENT_GAMES.length || new Set(gameKeys).size !== EVENT_GAMES.length || EVENT_GAMES.some((game) => !gameKeys.includes(game)) || games.some((row) => !['complete-for-source','partial','stale'].includes(row?.status) || !row?.source?.name || !row?.source?.endpoint)) throw new Error('Runtime Events has invalid manifest.json');
+      } else if (relative === 'history-state.json') {
+        const keys = Object.keys(parsed?.games || {}).sort();
+        const invalid = parsed?.schemaVersion !== 1 || keys.join(',') !== [...EVENT_GAMES].sort().join(',') || EVENT_GAMES.some((game) => {
+          const row = parsed?.games?.[game];
+          return !row || !Array.isArray(row.completedIds) || row.completedIds.some((id) => typeof id !== 'string' || !id.trim()) || (row.resumeCursor !== null && typeof row.resumeCursor !== 'string') || typeof row.exhausted !== 'boolean' || (row.updatedAt !== null && !Number.isFinite(Date.parse(row.updatedAt)));
+        });
+        if (invalid) throw new Error('Runtime Events has invalid history-state.json');
+      }
+    }
     entries.push(await copyEntry({ source:file, dest:path.resolve(dataDir, target, relative), url:`/data/${target}/${relative}`, maxBytes, parsed, timestamp:dataTimestamp(parsed, stat) }));
   }
   return entries;
@@ -223,11 +306,14 @@ async function publishFamily({ databaseDir, dataDir, source, target, optional, m
 export async function publishRuntimeData({ rootDir = DEFAULT_ROOT, deployDir = path.resolve(rootDir, '.deploy', 'pengo'), maxBytes = DEFAULT_MAX_BYTES } = {}) {
   const databaseDir = path.resolve(rootDir, 'Database');
   const dataDir = path.resolve(deployDir, 'data');
+  const achievementAssetsDir = path.resolve(deployDir, 'assets', 'achievements');
   if (!Number.isSafeInteger(maxBytes) || maxBytes < 1024) throw new Error('Invalid runtime publisher size ceiling');
   await fs.rm(dataDir, { recursive:true, force:true });
+  await fs.rm(achievementAssetsDir, { recursive:true, force:true });
   await fs.mkdir(dataDir, { recursive:true });
   try {
     const files = await publishLibrary({ databaseDir, dataDir, maxBytes });
+    files.push(...await publishAchievements({ databaseDir, dataDir, deployDir, maxBytes }));
     for (const family of FAMILY_CONFIG) files.push(...await publishFamily({ databaseDir, dataDir, maxBytes, ...family }));
     files.sort((a, b) => a.url.localeCompare(b.url));
     const manifest = { schemaVersion:1, generatedAt:new Date().toISOString(), files };
@@ -235,6 +321,7 @@ export async function publishRuntimeData({ rootDir = DEFAULT_ROOT, deployDir = p
     return manifest;
   } catch (error) {
     await fs.rm(dataDir, { recursive:true, force:true });
+    await fs.rm(achievementAssetsDir, { recursive:true, force:true });
     throw error;
   }
 }

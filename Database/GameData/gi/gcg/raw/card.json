@@ -1301,7 +1301,12 @@
   },
   "113174": {
     "name": "Dragon of Dark Decay (In Effect)",
-    "desc": "Your <color=#FFFFFFFF>$[A1317]</color> and <color=#FFFFFFFF>$[C13172]</color> deal +1 DMG.",
+    "desc": "Your <color=#FFFFFFFF>$[A1317]</color> and <color=#FFFFFFFF>$[C113172]</color> deal +1 DMG.",
+    "icon": ""
+  },
+  "113175": {
+    "name": "",
+    "desc": "",
     "icon": ""
   },
   "114011": {
@@ -1826,7 +1831,7 @@
   },
   "115161": {
     "name": "Purr-loined Treasure Flask",
-    "desc": "<color=#FFFFFFFF>When $[A1516] switches to become the active character:</color> If the opponent active character is affected by Pyro/Hydro/Electro/Cryo, convert this card to the corresponding element.\\n$[K1]: Deal 2 <color=#FFFFFFFF>$[K105]</color> to the opponent's active character. Repeat once.",
+    "desc": "<color=#FFFFFFFF>When $[A1516] switches to become the active character:</color> If the opponent active character is affected by Pyro/Hydro/Electro/Cryo, convert this card to the corresponding element.\\n$[K1]: Deal 1 <color=#FFFFFFFF>$[K105]</color> to the opponent's active character. Repeat once.",
     "icon": "Gcg_CardFace_Summon_Jahoda_Wind"
   },
   "115162": {
@@ -4386,7 +4391,7 @@
   },
   "213171": {
     "name": "Adamah's Redemption",
-    "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1317]</color>, equip this card.\\nAfter $[A1317] equips this card, immediately use <color=#FFD780FF>$[S13173]</color> or <color=#FFD780FF>$[S13174]</color>once based on the character's current Elemental Burst.\\n<color=#FFFFFFFF>When the character to which this is attached uses $[S13173]:</color> Your next 3 instances of DMG gain +1.\\n<color=#FFFFFFFF>When the character to which this is attached uses $[S13174]:</color> This character and your <color=#FFFFFFFF>$[C113172]</color> deal +1 DMG.\\n(You must have $[A1317] in your deck to add this card to your deck.)",
+    "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1317]</color>, equip this card.\\nAfter $[A1317] equips this card, immediately use <color=#FFD780FF>$[S13173]</color> or <color=#FFD780FF>$[S13174]</color> once based on the character's current Elemental Burst.\\n<color=#FFFFFFFF>When the character to which this is attached uses $[S13173]:</color> Your next 3 instances of DMG gain +1.\\n<color=#FFFFFFFF>When the character to which this is attached uses $[S13174]:</color> Your <color=#FFFFFFFF>$[A1317]</color> and <color=#FFFFFFFF>$[C113172]</color> deal +1 DMG.\\n(You must have $[A1317] in your deck to add this card to your deck.)",
     "icon": "Gcg_CardFace_Modify_Talent_Durin"
   },
   "214011": {
@@ -4396,7 +4401,7 @@
   },
   "214012": {
     "name": "Phantasmal Nocturne",
-    "desc": "$[K2]: Equip this to your <color=#FFFFFFFF>$[A1401]</color>.\\nSummon <color=#FFFFFFFF>$[C114011]</color>.\\nWhile the <color=#FFFFFFFF>$[C114011]</color> is on the field, your $[K214] deals +1 DMG.\\n(You must have $[A1401] in your deck to add this card to your deck.)",
+    "desc": "$[K2]: Equip this to your <color=#FFFFFFFF>$[A1401]</color>.\\nSummon <color=#FFFFFFFF>$[C114011]</color>.\\nWhile <color=#FFFFFFFF>$[C114011]</color> is on the field, your $[K214] deals +1 DMG.\\n(You must have $[A1401] in your deck to add this card to your deck.)",
     "icon": "Gcg_CardFace_Modify_Talent_Modao_Fischl"
   },
   "214021": {
@@ -4506,7 +4511,7 @@
   },
   "215032": {
     "name": "Temporal Wind's Eulogy",
-    "desc": "$[K2]: When equip this to your <color=#FFFFFFFF>$[A1503]</color>, equip this card.\\nSummon <color=#FFFFFFFF>$[C115034]</color>.\\nAfter you summon <color=#FFFFFFFF>$[C115034]</color>, the attached character's $[K100] is converted to $[K105] for their next two <color=#FFFFFFFF>Normal Attacks</color> during this Round, and these attacks cost 2 fewer <color=#FFFFFFFF>{SPRITE_PRESET#1109}Unaligned Element</color>.\\n(You must have $[A1503] in your deck to add this card to your deck.)",
+    "desc": "$[K2]: Equip this to your <color=#FFFFFFFF>$[A1503]</color>.\\nSummon <color=#FFFFFFFF>$[C115034]</color>.\\nAfter you summon <color=#FFFFFFFF>$[C115034]</color>, the attached character's $[K100] is converted to $[K105] for their next two <color=#FFFFFFFF>Normal Attacks</color> during this Round, and these attacks cost 2 fewer <color=#FFFFFFFF>{SPRITE_PRESET#1109}Unaligned Element</color>.\\n(You must have $[A1503] in your deck to add this card to your deck.)",
     "icon": "Gcg_CardFace_Modify_Talent_Modao_Venti"
   },
   "215033": {
@@ -4576,7 +4581,7 @@
   },
   "215161": {
     "name": "Backstreet Guile",
-    "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1516]</color>, equip this card.\\nAfter $[A1516] equips this card, immediately use <color=#FFD780FF>$[S15162]</color> once.\\nWhen <color=#FFFFFFFF>$[A1516]</color> switches to the active character, if the number of cards in your opponent's Hand is greater than or equal to yours, randomly copy 2 cards from their Hand.\\n(You must have $[A1516] in your deck to add this card to your deck.)",
+    "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1516]</color>, equip this card.\\nAfter $[A1516] equips this card, immediately use <color=#FFD780FF>$[S15162]</color> once.\\nWhen <color=#FFFFFFFF>$[A1516]</color> switches to the active character, if the number of cards in your opponent's Hand is greater than or equal to yours, randomly copy 2 cards from their Hand. (Once per Round)\\n(You must have $[A1516] in your deck to add this card to your deck.)",
     "icon": "Gcg_CardFace_Modify_Talent_Jahoda"
   },
   "216011": {

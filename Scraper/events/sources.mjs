@@ -12,12 +12,14 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { cleanTitle, classifyType, makeEvent, parseEndfieldAvailability, parseHoyoDuration, parseScopedDateRange } from './core.mjs';
+import { cleanTitle, classifyType, makeEvent, mergeRegionalEvents, parseEndfieldAvailability, parseHoyoDuration, parseScopedDateRange } from './core.mjs';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 export const RAW_DIR = path.join(here, 'raw');
 const OFFLINE = String(process.env.NYX_EVENTS_OFFLINE || '').toLowerCase() === 'true' || process.env.NYX_EVENTS_OFFLINE === '1';
 const UA = 'Nyxarium/1.0 events (https://pengo.gg)';
+const staleFetchKeys = new Set();
+const sourceUsedStale = (prefix) => [...staleFetchKeys].some((key) => key.startsWith(prefix));
 
 async function writeRaw(key, payload) {
   try {
@@ -55,7 +57,7 @@ export async function fetchJson(url, key, { attempts = 3, timeoutMs = 20_000 } =
   }
   // Last-ditch: fall back to a stale snapshot rather than crash the pipeline.
   const stale = await readRaw(key);
-  if (stale !== null) { lastError && console.warn(`::warning::events ${key} fetch failed (${lastError.message}); using stale raw snapshot`); return stale; }
+  if (stale !== null) { staleFetchKeys.add(key); lastError && console.warn(`::warning::events ${key} fetch failed (${lastError.message}); using stale raw snapshot`); return stale; }
   throw new Error(`events fetch failed ${key}: ${lastError?.message || lastError}`);
 }
 
@@ -86,6 +88,29 @@ const HOYO = {
   },
 };
 
+const HOYO_REGION_VALUES = {
+  gi:{ asia:'os_asia', europe:'os_euro', america:'os_usa' },
+  hsr:{ asia:'prod_official_asia', europe:'prod_official_eur', america:'prod_official_usa' },
+  zzz:{ asia:'prod_gf_jp', europe:'prod_gf_eu', america:'prod_gf_us' },
+};
+const REGION_TIME = {
+  asia:{ timezone:'UTC+08:00', offset:'+08:00' },
+  europe:{ timezone:'UTC+01:00', offset:'+01:00' },
+  america:{ timezone:'UTC-05:00', offset:'-05:00' },
+};
+
+function hoyoRegionConfig(game, region) {
+  const base = HOYO[game];
+  const regionValue = HOYO_REGION_VALUES[game]?.[region];
+  if (!base || !regionValue || !REGION_TIME[region]) throw new Error(`Unsupported HoYo region ${game}/${region}`);
+  const replaceRegion = (value) => {
+    const url = new URL(value);
+    url.searchParams.set('region', regionValue);
+    return url.toString();
+  };
+  return { ...base, ...REGION_TIME[region], server:region, list:replaceRegion(base.list), content:replaceRegion(base.content) };
+}
+
 function flattenAnnList(payload) {
   const groups = payload?.data?.list;
   if (!Array.isArray(groups)) return { anns: [], retcode: payload?.retcode };
@@ -107,8 +132,8 @@ export function isHoyoEventCandidate(ann, body) {
 }
 
 // Pure parser: given a getAnnList payload + getAnnContent payload, produce events.
-export function parseHoyo(game, listPayload, contentPayload) {
-  const cfg = HOYO[game];
+export function parseHoyo(game, listPayload, contentPayload, region = 'europe', fetchedAt = null) {
+  const cfg = hoyoRegionConfig(game, region);
   const { anns } = flattenAnnList(listPayload);
   const contentById = new Map((contentPayload?.data?.list || []).map((c) => [c.ann_id, c]));
   const events = [];
@@ -135,6 +160,8 @@ export function parseHoyo(game, listPayload, contentPayload) {
       server: cfg.server, timezone: cfg.timezone,
       sourceName: cfg.sourceName,
       sourceUrl: cfg.postUrl(ann.ann_id),
+      sourceKind: 'official-announcement-api',
+      fetchedAt,
       priority: 1,
       image: ann.banner || null,
       description: body?.content || null,
@@ -145,12 +172,34 @@ export function parseHoyo(game, listPayload, contentPayload) {
 }
 
 export async function scrapeHoyo(game) {
-  const cfg = HOYO[game];
-  const listPayload = await fetchJson(cfg.list, `${game}-annlist`);
-  const contentPayload = await fetchJson(cfg.content, `${game}-anncontent`);
-  const { anns, retcode } = flattenAnnList(listPayload);
-  const anomaly = retcode !== 0 && retcode !== undefined ? `retcode ${retcode}` : (!anns.length ? 'empty announcement list' : null);
-  return { events: parseHoyo(game, listPayload, contentPayload), anomaly, fetched: anns.length };
+  staleFetchKeys.forEach((key) => { if (key.startsWith(`${game}-`)) staleFetchKeys.delete(key); });
+  const fetchedAt = new Date().toISOString();
+  const regional = [];
+  const anomalies = [];
+  let fetched = 0;
+  let pagesFetched = 0;
+  for (const region of ['europe','asia','america']) {
+    const cfg = hoyoRegionConfig(game, region);
+    try {
+      const listPayload = await fetchJson(cfg.list, `${game}-${region}-annlist`);
+      const contentPayload = await fetchJson(cfg.content, `${game}-${region}-anncontent`);
+      const { anns, retcode } = flattenAnnList(listPayload);
+      pagesFetched += 1;
+      fetched += anns.length;
+      if (retcode !== 0 && retcode !== undefined) anomalies.push(`${region} retcode ${retcode}`);
+      else if (!anns.length) anomalies.push(`${region} empty announcement list`);
+      regional.push(...parseHoyo(game, listPayload, contentPayload, region, fetchedAt));
+    } catch (error) {
+      anomalies.push(`${region} fetch failed: ${error.message}`);
+    }
+  }
+  const stale = sourceUsedStale(`${game}-`);
+  if (stale) anomalies.push('one or more regions used a stale raw snapshot');
+  return {
+    events:mergeRegionalEvents(regional), anomaly:anomalies.join('; ') || null, fetched,
+    pagesFetched, pageLimit:3, exhausted:pagesFetched === 3, resumeCursor:pagesFetched === 3 ? null : ['europe','asia','america'][pagesFetched], stale,
+    gaps:['The official HoYo announcement API is a rolling feed and does not expose a launch-to-present pagination cursor.'],
+  };
 }
 
 // ---------- WuWa (Kuro official CDN) ----------
@@ -174,34 +223,71 @@ export function parseWuwaArticle(menuItem, articlePayload) {
     server: 'global', timezone: 'UTC+08:00',
     sourceName: 'Wuthering Waves Official',
     sourceUrl: WUWA_POST(menuItem.articleId),
+    sourceKind: 'official-article-api',
     priority: 1,
     image: menuItem.suggestCover || null,
     description: html,
     dateSource: 'content',
+    windowsByRegion:start ? { global:{ start, ...(end ? { end } : {}), timezone:'UTC+08:00', sourceUrl:WUWA_POST(menuItem.articleId) } } : null,
   });
 }
 
-export async function scrapeWuwa({ limit = 40 } = {}) {
+const wuwaRecordId = (item) => String(item?.articleId || '');
+
+export function planWuwaHistory(candidates, { limit = 80, completedIds = [], resumeCursor = null, recentLimit = 60 } = {}) {
+  const boundedLimit = Math.max(1, Math.floor(Number(limit) || 1));
+  const completed = new Set(completedIds.map(String));
+  // Keep current notices fresh while reserving at least one slot for history.
+  const refreshCount = Math.min(candidates.length, Math.max(0, boundedLimit - 1), Math.max(0, recentLimit));
+  const recent = candidates.slice(0, refreshCount);
+  const recentIds = new Set(recent.map(wuwaRecordId));
+  const cursorIndex = resumeCursor === null ? -1 : candidates.findIndex((item) => wuwaRecordId(item) === String(resumeCursor));
+  const historyStart = cursorIndex >= 0 ? cursorIndex : refreshCount;
+  const historyPool = candidates.slice(historyStart)
+    .filter((item) => !recentIds.has(wuwaRecordId(item)) && !completed.has(wuwaRecordId(item)));
+  const history = historyPool.slice(0, boundedLimit - recent.length);
+  return {
+    batch:[...recent, ...history],
+    historyPool,
+    cursorFound:resumeCursor === null || cursorIndex >= 0,
+  };
+}
+
+export async function scrapeWuwa({ limit = 80, completedIds = [], resumeCursor = null, onCheckpoint = async () => {}, delayMs = 250 } = {}) {
+  staleFetchKeys.forEach((key) => { if (key.startsWith('wuwa-')) staleFetchKeys.delete(key); });
   const menu = await fetchJson(WUWA_MENU, 'wuwa-menu');
-  if (!Array.isArray(menu)) return { events: [], anomaly: 'menu not an array', fetched: 0 };
-  const cutoff = Date.now() - 200 * 86_400_000;
+  if (!Array.isArray(menu)) return { events: [], anomaly: 'menu not an array', fetched: 0, pagesFetched:1, pageLimit:1, exhausted:false, resumeCursor:null, gaps:['Official menu response was not an array.'] };
   const candidates = menu
     .filter(isWuwaEventCandidate)
-    .filter((a) => Date.parse(String(a.startTime || '').replace(' ', 'T') + '+08:00') >= cutoff)
-    .sort((a, b) => String(b.startTime).localeCompare(String(a.startTime)))
-    .slice(0, limit);
+    .sort((a, b) => String(b.startTime).localeCompare(String(a.startTime)) || String(b.articleId).localeCompare(String(a.articleId)));
+  const completed = new Set(completedIds.map(String));
+  const plan = planWuwaHistory(candidates, { limit, completedIds, resumeCursor });
+  const batch = plan.batch;
   const events = [];
   let failed = 0;
-  for (const item of candidates) {
+  const nextCursor = () => wuwaRecordId(plan.historyPool.find((item) => !completed.has(wuwaRecordId(item)))) || null;
+  for (let index = 0; index < batch.length; index += 1) {
+    const item = batch[index];
     try {
       const article = await fetchJson(WUWA_ARTICLE(item.articleId), `wuwa-article-${item.articleId}`);
       events.push(parseWuwaArticle(item, article));
+      completed.add(String(item.articleId));
+      await onCheckpoint({ completedIds:[...completed].sort(), resumeCursor:nextCursor() });
     } catch (error) {
       failed += 1;
       console.warn(`::warning::events wuwa article ${item.articleId} failed: ${error.message}`);
     }
+    if (index + 1 < batch.length && delayMs > 0) await new Promise((resolve) => setTimeout(resolve, delayMs));
   }
-  return { events, anomaly: !candidates.length ? 'no event-ish articles in menu' : (failed ? `${failed} article fetch failures` : null), fetched: candidates.length };
+  const unprocessed = plan.historyPool.filter((item) => !completed.has(wuwaRecordId(item))).length;
+  const stale = sourceUsedStale('wuwa-');
+  const anomaly = !candidates.length ? 'no event-ish articles in menu' : !plan.cursorFound ? `resume cursor ${resumeCursor} was absent; restarted at the first unprocessed historical record` : failed ? `${failed} article fetch failures` : unprocessed ? `history batch limit ${limit} reached` : stale ? 'one or more records used a stale raw snapshot' : null;
+  return {
+    events, anomaly, fetched:batch.length, pagesFetched:1, pageLimit:1, exhausted:unprocessed === 0 && failed === 0,
+    resumeCursor:nextCursor(),
+    completedIds:[...completed].sort(), stale,
+    gaps:unprocessed ? [`${unprocessed} official menu records remain for a later resumable batch.`] : [], reconcile:false,
+  };
 }
 
 // ---------- Endfield (Gryphline web-news) ----------
@@ -227,10 +313,12 @@ export function parseEndfieldDetail(listItem, detailPayload) {
     server: 'global', timezone: 'UTC+08:00',
     sourceName: 'Arknights: Endfield Official',
     sourceUrl: ENDFIELD_POST(listItem.cid),
+    sourceKind: 'official-bulletin-api',
     priority: 1,
     image: listItem.cover || null,
     description: html,
     dateSource: 'content',
+    windowsByRegion:start ? { asia:{ start, ...(end ? { end } : {}), timezone:'UTC+08:00', sourceUrl:ENDFIELD_POST(listItem.cid) } } : null,
   });
 }
 
@@ -248,27 +336,50 @@ export function isSourceEventRecord(game, event) {
   return !HOYO_NOTICE_ONLY.test(title);
 }
 
-export async function scrapeEndfield({ pages = 2 } = {}) {
+export async function scrapeEndfield({ pages = 50, startPage = 1, completedIds = [], onCheckpoint = async () => {}, delayMs = 250 } = {}) {
+  staleFetchKeys.forEach((key) => { if (key.startsWith('endfield-')) staleFetchKeys.delete(key); });
   const events = [];
   let fetched = 0;
   let failed = 0;
-  for (let page = 1; page <= pages; page += 1) {
+  let pagesFetched = 0;
+  let exhausted = false;
+  let resumeCursor = startPage;
+  const completed = new Set(completedIds.map(String));
+  const seenPageHeads = new Set();
+  const historyBudget = Math.max(0, pages - (startPage > 1 ? 1 : 0));
+  const pageNumbers = [...new Set([1, ...Array.from({ length:historyBudget }, (_, index) => startPage + index)])];
+  for (const page of pageNumbers) {
     const payload = await fetchJson(ENDFIELD_LIST(page), `endfield-list-${page}`);
     const list = payload?.data?.list || [];
+    pagesFetched += 1;
+    const head = list.map((item) => String(item.cid)).join(',');
+    if (head && seenPageHeads.has(head)) { failed += 1; resumeCursor = page; break; }
+    if (head) seenPageHeads.add(head);
     const relevant = list.filter(isEndfieldEventCandidate);
     fetched += relevant.length;
     for (const item of relevant) {
       try {
         const detail = await fetchJson(ENDFIELD_DETAIL(item.cid), `endfield-detail-${item.cid}`);
         events.push(parseEndfieldDetail(item, detail));
+        completed.add(String(item.cid));
       } catch (error) {
         failed += 1;
         console.warn(`::warning::events endfield ${item.cid} failed: ${error.message}`);
       }
     }
-    if (!list.length) break;
+    resumeCursor = page + 1;
+    exhausted = !list.length || list.length < 20;
+    await onCheckpoint({ completedIds:[...completed].sort(), resumeCursor:exhausted ? null : resumeCursor });
+    if (exhausted && page >= startPage) break;
+    if (delayMs > 0) await new Promise((resolve) => setTimeout(resolve, delayMs));
   }
-  return { events, anomaly: !fetched ? 'no endfield notices' : (failed ? `${failed} bulletin fetch failures` : null), fetched };
+  const stale = sourceUsedStale('endfield-');
+  const anomaly = !fetched && !exhausted ? 'no endfield notices' : failed ? `${failed} bulletin/repeated-page failures` : !exhausted ? `page limit ${pages} reached` : stale ? 'one or more records used a stale raw snapshot' : null;
+  return {
+    events, anomaly, fetched, pagesFetched, pageLimit:pages, exhausted, resumeCursor:exhausted ? null : resumeCursor,
+    completedIds:[...completed].sort(), stale,
+    gaps:!exhausted ? ['The Gryphline bulletin history has more pages pending in the next resumable batch.'] : [], reconcile:true,
+  };
 }
 
 export const SOURCE_META = {

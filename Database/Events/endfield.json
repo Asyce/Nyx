@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "game": "endfield",
-  "generatedAt": "2026-07-12T02:22:44.440Z",
+  "generatedAt": "2026-07-16T08:33:29.925Z",
   "source": {
     "name": "Arknights: Endfield Official",
     "endpoint": "web-news.gryphline.com /api/bulletin"
   },
   "counts": {
-    "total": 23,
-    "needs_review": 16,
-    "banner": 7,
+    "total": 28,
+    "needs_review": 21,
+    "banner": 9,
     "byType": {
-      "event": 15,
-      "banner": 7,
-      "login": 1
+      "event": 17,
+      "banner": 9,
+      "login": 2
     }
   },
   "events": [
@@ -29,12 +29,23 @@
       "source": {
         "name": "Arknights: Endfield Official",
         "url": "https://endfield.gryphline.com/en-us/news/1321",
+        "kind": "official-bulletin-api",
+        "recordId": "1321",
+        "fetchedAt": "2026-07-16T08:34:04.976Z",
         "priority": 1
       },
       "confidence": "medium",
+      "scheduleStatus": "exact",
       "permanence": "timed",
       "needs_review": false,
-      "image": "https://web-static.hg-cdn.com/upload/image/20260623/8a718964566924b548a48277f5d9a081.jpg",
+      "windowsByRegion": {
+        "asia": {
+          "start": "2026-06-26T04:00:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://endfield.gryphline.com/en-us/news/1321"
+        }
+      },
+      "image": null,
       "description": "Dear Endministrator, While [Crimson Hued Issue] is available, the chance of getting the 6★ weapon [Blessing of Lustrous Carmine (Polearm)] is increased! ▼// [Crimson Hued Issue] · Availability: Opens June 26, 2026 at 12:00 (server time),…"
     },
     {
@@ -49,12 +60,23 @@
       "source": {
         "name": "Arknights: Endfield Official",
         "url": "https://endfield.gryphline.com/en-us/news/6175",
+        "kind": "official-bulletin-api",
+        "recordId": "6175",
+        "fetchedAt": "2026-07-16T08:34:05.161Z",
         "priority": 1
       },
       "confidence": "medium",
+      "scheduleStatus": "exact",
       "permanence": "timed",
       "needs_review": false,
-      "image": "https://web-static.hg-cdn.com/upload/image/20260623/94a24581d688ef409392c8c5acc72ee4.jpg",
+      "windowsByRegion": {
+        "asia": {
+          "start": "2026-06-26T04:00:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://endfield.gryphline.com/en-us/news/6175"
+        }
+      },
+      "image": null,
       "description": "Dear Endministrator, During [Expunger of Sin] Chartered Headhunting, the 6★ operator [Camille] is Rate-UP! The [Peacekeeper's Nocturne] limited-time sign-in event will open simultaneously. Accumulate sign-ins to earn rewards such as…"
     },
     {
@@ -69,12 +91,23 @@
       "source": {
         "name": "Arknights: Endfield Official",
         "url": "https://endfield.gryphline.com/en-us/news/0759",
+        "kind": "official-bulletin-api",
+        "recordId": "0759",
+        "fetchedAt": "2026-07-16T08:34:06.093Z",
         "priority": 1
       },
       "confidence": "medium",
+      "scheduleStatus": "exact",
       "permanence": "timed",
       "needs_review": false,
-      "image": "https://web-static.hg-cdn.com/upload/image/20260602/5a12d7c068f0fe9f774025c1f4f97876.png",
+      "windowsByRegion": {
+        "asia": {
+          "start": "2026-06-26T03:59:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://endfield.gryphline.com/en-us/news/0759"
+        }
+      },
+      "image": null,
       "description": "Dear Endministrator, During [Fists of No Regrets] Chartered Headhunting, the 6★ operator [Mi Fu] is Rate-UP! The [One with Her Fists] limited-time sign-in event will open simultaneously. Accumulate sign-ins to earn rewards such as [One…"
     },
     {
@@ -89,12 +122,23 @@
       "source": {
         "name": "Arknights: Endfield Official",
         "url": "https://endfield.gryphline.com/en-us/news/9579",
+        "kind": "official-bulletin-api",
+        "recordId": "9579",
+        "fetchedAt": "2026-07-16T08:34:07.643Z",
         "priority": 1
       },
       "confidence": "medium",
+      "scheduleStatus": "exact",
       "permanence": "timed",
       "needs_review": false,
-      "image": "https://web-static.hg-cdn.com/upload/image/20260415/a2c29eb120c83c92d086e86df1c1760e.jpg",
+      "windowsByRegion": {
+        "asia": {
+          "start": "2026-05-22T03:59:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://endfield.gryphline.com/en-us/news/9579"
+        }
+      },
+      "image": null,
       "description": "Dear Endministrator: During [Thunder of Renewal] Chartered Headhunting, the 6★ operator [Zhuang Fangyi] is Rate-UP! The [Blitz of Verdance] limited-time sign-in event will open simultaneously. Accumulate sign-ins to earn rewards such as…"
     },
     {
@@ -109,12 +153,23 @@
       "source": {
         "name": "Arknights: Endfield Official",
         "url": "https://endfield.gryphline.com/en-us/news/2669",
+        "kind": "official-bulletin-api",
+        "recordId": "2669",
+        "fetchedAt": "2026-07-16T08:34:06.465Z",
         "priority": 1
       },
       "confidence": "medium",
+      "scheduleStatus": "exact",
       "permanence": "timed",
       "needs_review": false,
-      "image": "https://web-static.hg-cdn.com/upload/image/20260508/2f6a10a3178792fa72cfc1cf7dbc24db.jpg",
+      "windowsByRegion": {
+        "asia": {
+          "start": "2026-05-14T04:00:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://endfield.gryphline.com/en-us/news/2669"
+        }
+      },
+      "image": null,
       "description": "Dear Endministrator, While [Smelting Fire Issue] is available, the chance of getting 6★ weapon [Forgeborn Scathe (Sword)] is increased! ▼// [Smelting Fire Issue] · Availability: Asia Server Time Zone: UTC+8 Americas / Europe Server Time…"
     },
     {
@@ -129,12 +184,23 @@
       "source": {
         "name": "Arknights: Endfield Official",
         "url": "https://endfield.gryphline.com/en-us/news/5210",
+        "kind": "official-bulletin-api",
+        "recordId": "5210",
+        "fetchedAt": "2026-07-16T08:34:06.279Z",
         "priority": 1
       },
       "confidence": "medium",
+      "scheduleStatus": "exact",
       "permanence": "timed",
       "needs_review": false,
-      "image": "https://web-static.hg-cdn.com/upload/image/20260509/de1036fad914efaa6908cbf394c46916.jpg",
+      "windowsByRegion": {
+        "asia": {
+          "start": "2026-05-14T04:00:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://endfield.gryphline.com/en-us/news/5210"
+        }
+      },
+      "image": null,
       "description": "Dear Endministrator, While [Swift Walker Issue] is available, the chance of getting 6★ weapon [Delivery Guaranteed (Arts Unit)] is increased! ▼// [Swift Walker Issue] · Availability: Asia Server Time Zone: UTC+8 Americas / Europe Server…"
     },
     {
@@ -149,13 +215,72 @@
       "source": {
         "name": "Arknights: Endfield Official",
         "url": "https://endfield.gryphline.com/en-us/news/7024",
+        "kind": "official-bulletin-api",
+        "recordId": "7024",
+        "fetchedAt": "2026-07-16T08:34:06.651Z",
         "priority": 1
       },
       "confidence": "medium",
+      "scheduleStatus": "exact",
       "permanence": "timed",
       "needs_review": false,
-      "image": "https://web-static.hg-cdn.com/upload/image/20260508/fc997b32648f9c305a9f53ccfef096c4.jpg",
+      "windowsByRegion": {
+        "asia": {
+          "start": "2026-05-14T04:00:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://endfield.gryphline.com/en-us/news/7024"
+        }
+      },
+      "image": null,
       "description": "Dear Endministrator, 6★ operators that may appear in [Fest of Brilliance] Special Headhunting include: Laevatain / Gilberta / Ardelia / Pogranichnik. The [Shimmering Moment] limited-time sign-in event will open simultaneously. Accumulate…"
+    },
+    {
+      "game": "endfield",
+      "id": "endfield-gryphline-bulletin-0219bae02e77",
+      "title": "Arknights: Endfield Online Event Rules",
+      "type": "event",
+      "start": null,
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Arknights: Endfield Official",
+        "url": "https://endfield.gryphline.com/en-us/news/2677",
+        "kind": "official-bulletin-api",
+        "recordId": "2677",
+        "fetchedAt": "2026-07-16T08:34:10.562Z",
+        "priority": 1
+      },
+      "confidence": "low",
+      "scheduleStatus": "expected",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": null,
+      "description": "1. Before participating in this event, please ensure that you are of legal age in your country/region, or that you have obtained consent from a guardian. 2. The winners will be announced within 20 business days after the event concludes,…"
+    },
+    {
+      "game": "endfield",
+      "id": "endfield-gryphline-bulletin-0fd5271c88eb",
+      "title": "[North Yearns the Rift Vigile] Chartered Headhunting",
+      "type": "banner",
+      "start": null,
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Arknights: Endfield Official",
+        "url": "https://endfield.gryphline.com/en-us/news/2656",
+        "kind": "official-bulletin-api",
+        "recordId": "2656",
+        "fetchedAt": "2026-07-16T08:34:04.232Z",
+        "priority": 1
+      },
+      "confidence": "low",
+      "scheduleStatus": "expected",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": null,
+      "description": "Dear Endministrator, During [North Yearns the Rift Vigile] Chartered Headhunting, the 6★ operator [Arcane] is Rate-UP! The [Gaze North to the Rift] limited-time sign-in event will open simultaneously. Accumulate sign-ins to earn rewards…"
     },
     {
       "game": "endfield",
@@ -169,12 +294,16 @@
       "source": {
         "name": "Arknights: Endfield Official",
         "url": "https://endfield.gryphline.com/en-us/news/2660",
+        "kind": "official-bulletin-api",
+        "recordId": "2660",
+        "fetchedAt": "2026-07-16T08:34:07.828Z",
         "priority": 1
       },
       "confidence": "low",
+      "scheduleStatus": "expected",
       "permanence": "unknown",
       "needs_review": true,
-      "image": "https://web-static.hg-cdn.com/upload/image/20260325/646f4a2a5c53898633ec24119a92e834.png",
+      "image": null,
       "description": "Dear Endministrator: While [Scarlet Pearl Issue] is available, the chance of getting the 6★ weapon [Lupine Scarlet (Sword)] is increased! ▼// [Scarlet Pearl Issue] · Availability: Asia Server Time Zone: UTC+8 Americas / Europe Server Time…"
     },
     {
@@ -189,12 +318,16 @@
       "source": {
         "name": "Arknights: Endfield Official",
         "url": "https://endfield.gryphline.com/en-us/news/8909",
+        "kind": "official-bulletin-api",
+        "recordId": "8909",
+        "fetchedAt": "2026-07-16T08:34:08.752Z",
         "priority": 1
       },
       "confidence": "low",
+      "scheduleStatus": "expected",
       "permanence": "unknown",
       "needs_review": true,
-      "image": "https://web-static.hg-cdn.com/upload/image/20260211/0637320092dc0eb87eaa311410c60b85.jpg",
+      "image": null,
       "description": "Dear Endministrator: While [Graffiti Issue] is available, the chance of getting 6★ weapon [Artzy Tyrannical (Handcannon)] is increased! ▼// [Graffiti Issue] · Availability: Asia Server Time Zone: UTC+8 Americas / Europe Server Time Zone:…"
     },
     {
@@ -209,12 +342,16 @@
       "source": {
         "name": "Arknights: Endfield Official",
         "url": "https://endfield.gryphline.com/en-us/news/0754",
+        "kind": "official-bulletin-api",
+        "recordId": "0754",
+        "fetchedAt": "2026-07-16T08:34:08.938Z",
         "priority": 1
       },
       "confidence": "low",
+      "scheduleStatus": "expected",
       "permanence": "unknown",
       "needs_review": true,
-      "image": "https://web-static.hg-cdn.com/upload/image/20260210/e29de01e5ffb6d1487cb68ec1f9c5727.jpg",
+      "image": null,
       "description": "Dear Endministrator: While [Express Delivery Issue] is available, the chance of getting 6★ weapon [Delivery Guaranteed (Arts Unit)] is increased! ▼// [Express Delivery Issue] · Availability: Asia Server Time Zone: UTC+8 Americas / Europe…"
     },
     {
@@ -229,12 +366,16 @@
       "source": {
         "name": "Arknights: Endfield Official",
         "url": "https://endfield.gryphline.com/en-us/news/7028",
+        "kind": "official-bulletin-api",
+        "recordId": "7028",
+        "fetchedAt": "2026-07-16T08:34:09.565Z",
         "priority": 1
       },
       "confidence": "low",
+      "scheduleStatus": "expected",
       "permanence": "unknown",
       "needs_review": true,
-      "image": "https://web-static.hg-cdn.com/upload/image/20260202/218a298600ef5bb8b662041adfa2f187.jpg",
+      "image": null,
       "description": "Dear Endministrator: During [The Floaty Messenger] Chartered Headhunting, 6★ operator [Gilberta] is Rate-UP! The [Messenger Express] limited-time sign-in event will open simultaneously. Accumulate sign-ins to earn rewards such as…"
     },
     {
@@ -249,13 +390,41 @@
       "source": {
         "name": "Arknights: Endfield Official",
         "url": "https://endfield.gryphline.com/en-us/news/4484",
+        "kind": "official-bulletin-api",
+        "recordId": "4484",
+        "fetchedAt": "2026-07-16T08:34:04.791Z",
         "priority": 1
       },
       "confidence": "low",
+      "scheduleStatus": "expected",
       "permanence": "unknown",
       "needs_review": true,
-      "image": "https://web-static.hg-cdn.com/upload/image/20260624/21246f213a23e907b24d57422af9e1f1.jpg",
+      "image": null,
       "description": "▼// Update Time June 26, 2026 at 12:00 (server time) ※ Asia Server Time Zone: UTC+8 ※ Americas / Europe Server Time Zone: UTC-5 ▼// Update Details Added the following auto-unlocked Test Criteria: · [Team: Encumbered] · [Ambient: Time…"
+    },
+    {
+      "game": "endfield",
+      "id": "endfield-gryphline-bulletin-8504201afff6",
+      "title": "[Scars of the Forge] Chartered Headhunting",
+      "type": "banner",
+      "start": null,
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Arknights: Endfield Official",
+        "url": "https://endfield.gryphline.com/en-us/news/3847",
+        "kind": "official-bulletin-api",
+        "recordId": "3847",
+        "fetchedAt": "2026-07-16T08:34:09.750Z",
+        "priority": 1
+      },
+      "confidence": "low",
+      "scheduleStatus": "expected",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": null,
+      "description": "Dear Endministrator: During [Scars of the Forge] Chartered Headhunting, 6★ operator [Laevatain] is Rate-UP! The [Firewalker's Trail] limited-time sign-in event is available at the same time. Sign in over multiple days to earn rewards such…"
     },
     {
       "game": "endfield",
@@ -269,12 +438,16 @@
       "source": {
         "name": "Arknights: Endfield Official",
         "url": "https://endfield.gryphline.com/en-us/news/9566",
+        "kind": "official-bulletin-api",
+        "recordId": "9566",
+        "fetchedAt": "2026-07-16T08:34:05.347Z",
         "priority": 1
       },
       "confidence": "low",
+      "scheduleStatus": "expected",
       "permanence": "unknown",
       "needs_review": true,
-      "image": "https://web-static.hg-cdn.com/upload/image/20260618/79adbebb41ffb9190d081974bf1af071.jpg",
+      "image": null,
       "description": "Share your operation results screenshots and challenge insights to win Oroberyl×500! Ancient obligations shall be honored, and forgotten partnerships restored. [Contingency Contract: Re-Ignition Experimental Operation] is now underway!…"
     },
     {
@@ -289,12 +462,16 @@
       "source": {
         "name": "Arknights: Endfield Official",
         "url": "https://endfield.gryphline.com/en-us/news/3843",
+        "kind": "official-bulletin-api",
+        "recordId": "3843",
+        "fetchedAt": "2026-07-16T08:34:08.013Z",
         "priority": 1
       },
       "confidence": "low",
+      "scheduleStatus": "expected",
       "permanence": "unknown",
       "needs_review": true,
-      "image": "https://web-static.hg-cdn.com/upload/image/20260326/d13f0d8d040c82c36e756bb10c35bcbc.png",
+      "image": null,
       "description": "Dear Endministrator: During [Wolf Pearl] Chartered Headhunting, the 6★ operator [Rossi] is Rate-UP! The [Pearl of the Pack] limited-time sign-in event will open simultaneously. Accumulate sign-ins to earn rewards such as [Pearl of the…"
     },
     {
@@ -309,12 +486,16 @@
       "source": {
         "name": "Arknights: Endfield Official",
         "url": "https://endfield.gryphline.com/en-us/news/2657",
+        "kind": "official-bulletin-api",
+        "recordId": "2657",
+        "fetchedAt": "2026-07-16T08:34:05.532Z",
         "priority": 1
       },
       "confidence": "low",
+      "scheduleStatus": "expected",
       "permanence": "unknown",
       "needs_review": true,
-      "image": "https://web-static.hg-cdn.com/upload/image/20260617/3ed11076376da60fadfb3b43dcb31735.jpg",
+      "image": null,
       "description": "▼// Availability June 19, 2026 at 12:00 (server time) – Before version update and maintenance ※ Asia Server Time Zone: UTC+8 ※ Americas / Europe Server Time Zone: UTC-5 ▼// Event Update Time June 26, 2026 at 12:00 (server time) ▼//…"
     },
     {
@@ -329,12 +510,16 @@
       "source": {
         "name": "Arknights: Endfield Official",
         "url": "https://endfield.gryphline.com/en-us/news/5212",
+        "kind": "official-bulletin-api",
+        "recordId": "5212",
+        "fetchedAt": "2026-07-16T08:34:07.458Z",
         "priority": 1
       },
       "confidence": "low",
+      "scheduleStatus": "expected",
       "permanence": "unknown",
       "needs_review": true,
-      "image": "https://web-static.hg-cdn.com/upload/image/20260415/81c09de55f0a8b420b02dfcce368f3bf.jpg",
+      "image": null,
       "description": "Dear Endministrator: While [Drifting Raft Issue] is available, the chance of getting 6★ weapon [Lone Barge (Arts Unit)] is increased! ▼// [Drifting Raft Issue] · Availability: Opens after [At the Wake of Spring] version update, and ends…"
     },
     {
@@ -349,12 +534,16 @@
       "source": {
         "name": "Arknights: Endfield Official",
         "url": "https://endfield.gryphline.com/en-us/news/5211",
+        "kind": "official-bulletin-api",
+        "recordId": "5211",
+        "fetchedAt": "2026-07-16T08:34:07.272Z",
         "priority": 1
       },
       "confidence": "low",
+      "scheduleStatus": "expected",
       "permanence": "unknown",
       "needs_review": true,
-      "image": "https://web-static.hg-cdn.com/upload/image/20260429/73102ca64dee6b659696684f21ef1be6.png",
+      "image": null,
       "description": "Endministrator, you have a pending Blueprint Assistance notification: Round 2 of the [AIC Factory Blueprint Showcase] is now live! Join the in-game event [AIC Support: Palm-Top Savior] by submitting Xiranite Gourds to earn Wuling Stock…"
     },
     {
@@ -369,12 +558,16 @@
       "source": {
         "name": "Arknights: Endfield Official",
         "url": "https://endfield.gryphline.com/en-us/news/1338",
+        "kind": "official-bulletin-api",
+        "recordId": "1338",
+        "fetchedAt": "2026-07-16T08:34:08.383Z",
         "priority": 1
       },
       "confidence": "low",
+      "scheduleStatus": "expected",
       "permanence": "unknown",
       "needs_review": true,
-      "image": "https://web-static.hg-cdn.com/upload/image/20260310/83e2f066299177bdff5cc143b41bf076.jpg",
+      "image": null,
       "description": "Dear Endministrator: During [River's Daughter] Chartered Headhunting, the 6★ operator [Tangtang] is Rate-UP! The [Gently Flows Qingbo] limited-time sign-in event will open simultaneously. Accumulate sign-ins to earn rewards such as…"
     },
     {
@@ -389,12 +582,16 @@
       "source": {
         "name": "Arknights: Endfield Official",
         "url": "https://endfield.gryphline.com/en-us/news/1339",
+        "kind": "official-bulletin-api",
+        "recordId": "1339",
+        "fetchedAt": "2026-07-16T08:34:08.563Z",
         "priority": 1
       },
       "confidence": "low",
+      "scheduleStatus": "expected",
       "permanence": "unknown",
       "needs_review": true,
-      "image": "https://web-static.hg-cdn.com/upload/image/20260228/6ee5b34e56e807150db1f994adfbde1b.png",
+      "image": null,
       "description": "▼// Event Time Asia Server Time Zone: UTC+8 Americas / Europe Server Time Zone: UTC-5 Mar. 5, 2026 at 12:00 (server time) – Before version update and maintenance ▼// Participation Requirements Complete the main mission [Chapter I Process…"
     },
     {
@@ -409,13 +606,41 @@
       "source": {
         "name": "Arknights: Endfield Official",
         "url": "https://endfield.gryphline.com/en-us/news/8903",
+        "kind": "official-bulletin-api",
+        "recordId": "8903",
+        "fetchedAt": "2026-07-16T08:34:05.717Z",
         "priority": 1
       },
       "confidence": "low",
+      "scheduleStatus": "expected",
       "permanence": "unknown",
       "needs_review": true,
-      "image": "https://web-static.hg-cdn.com/upload/image/20260603/594df11ec6de5bf6e3647c9201426d7f.png",
+      "image": null,
       "description": "Join the discussion for a chance to win Oroberyl×500! \"Our fists know no regret, to live or die is the river's ways.\" This is the code Mi Fu used to live by back in Qingbo Stockade, and it remains her consistent way of doing things to…"
+    },
+    {
+      "game": "endfield",
+      "id": "endfield-gryphline-bulletin-de147ad098d8",
+      "title": "[Military Grade Issue] LTO Details",
+      "type": "event",
+      "start": null,
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Arknights: Endfield Official",
+        "url": "https://endfield.gryphline.com/en-us/news/6174",
+        "kind": "official-bulletin-api",
+        "recordId": "6174",
+        "fetchedAt": "2026-07-16T08:34:04.418Z",
+        "priority": 1
+      },
+      "confidence": "low",
+      "scheduleStatus": "expected",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": null,
+      "description": "Dear Endministrator, While [Military Grade Issue] is available, the chance of getting 6★ weapon [Type 42: Solemn Phalanx (Arts Unit)] is increased! ▼// [Military Grade Issue] · Availability: Opens after [Homecoming] version update; ends…"
     },
     {
       "game": "endfield",
@@ -429,13 +654,41 @@
       "source": {
         "name": "Arknights: Endfield Official",
         "url": "https://endfield.gryphline.com/en-us/news/5202",
+        "kind": "official-bulletin-api",
+        "recordId": "5202",
+        "fetchedAt": "2026-07-16T08:34:04.601Z",
         "priority": 1
       },
       "confidence": "low",
+      "scheduleStatus": "expected",
       "permanence": "unknown",
       "needs_review": true,
-      "image": "https://web-static.hg-cdn.com/upload/image/20260625/5db8cd142175110ac48ad06bbe26067c.png",
+      "image": null,
       "description": "Join the discussion for a chance to win Oroberyl×500! Amid an endless chase of fire and carnage, this time, the Expunger of Sin walks alone no more. Camille is accustomed to concealing his emotions behind an aloof, stone-cold facade, yet…"
+    },
+    {
+      "game": "endfield",
+      "id": "endfield-gryphline-bulletin-e57318dd65e7",
+      "title": "PSN Account Registration, Login & Usage FAQs",
+      "type": "login",
+      "start": null,
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Arknights: Endfield Official",
+        "url": "https://endfield.gryphline.com/en-us/news/1332",
+        "kind": "official-bulletin-api",
+        "recordId": "1332",
+        "fetchedAt": "2026-07-16T08:34:09.939Z",
+        "priority": 1
+      },
+      "confidence": "low",
+      "scheduleStatus": "expected",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": null,
+      "description": "Dear Endministrator, Arknights: Endfield will be launching on the PlayStation®5 platform on January 22, 2026 (UTC+8). Below you'll find answers to common questions about PlayStation™Network (PSN), Gryphline Accounts, and cross-platform…"
     },
     {
       "game": "endfield",
@@ -449,12 +702,16 @@
       "source": {
         "name": "Arknights: Endfield Official",
         "url": "https://endfield.gryphline.com/en-us/news/4492",
+        "kind": "official-bulletin-api",
+        "recordId": "4492",
+        "fetchedAt": "2026-07-16T08:34:05.905Z",
         "priority": 1
       },
       "confidence": "low",
+      "scheduleStatus": "expected",
       "permanence": "unknown",
       "needs_review": true,
-      "image": "https://web-static.hg-cdn.com/upload/image/20260602/763f9aa946af94c27361a6addcbd1100.jpg",
+      "image": null,
       "description": "Dear Endministrator, While [Scarlet Knot Issue] is available, the chance of getting the 6★ weapon [Amaranthine Tassel (Greatsword)] is increased! ▼// [Scarlet Knot Issue] · Availability: Opens after [Sketches of Lost Heirlooms] version…"
     },
     {
@@ -469,12 +726,16 @@
       "source": {
         "name": "Arknights: Endfield Official",
         "url": "https://endfield.gryphline.com/en-us/news/5213",
+        "kind": "official-bulletin-api",
+        "recordId": "5213",
+        "fetchedAt": "2026-07-16T08:34:08.197Z",
         "priority": 1
       },
       "confidence": "low",
+      "scheduleStatus": "expected",
       "permanence": "unknown",
       "needs_review": true,
-      "image": "https://web-static.hg-cdn.com/upload/image/20260310/231a8d4885837949eb209f5f09982e61.png",
+      "image": null,
       "description": "Dear Endministrator: While [Budding Anew Issue] is available, the chance of getting the 6★ weapon [Brigand's Calling (Handcannon)] is increased! ▼// [Budding Anew Issue] · Availability: Opens after [Old Deep Water Dies, by Rising Tide It…"
     }
   ]

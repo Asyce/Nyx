@@ -1,20 +1,65 @@
 {
   "schemaVersion": 1,
   "game": "hsr",
-  "generatedAt": "2026-07-12T02:23:17.297Z",
+  "generatedAt": "2026-07-16T08:33:29.925Z",
   "source": {
     "name": "Honkai: Star Rail Official",
     "endpoint": "sg-hkrpg-api.hoyoverse.com getAnnList+getAnnContent"
   },
   "counts": {
-    "total": 1,
+    "total": 2,
     "needs_review": 0,
     "banner": 0,
     "byType": {
+      "event": 1,
       "challenge": 1
     }
   },
   "events": [
+    {
+      "game": "hsr",
+      "id": "hsr-hoyo-ann-db92aa7adbb4",
+      "title": "Depart Anew When the Phantasmoon is Full | Share Screenshots to Win Stellar Jades and Gift Cards",
+      "type": "event",
+      "start": "2026-07-15T16:00:00.000Z",
+      "end": "2026-07-25T22:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Honkai: Star Rail Official",
+        "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1350",
+        "kind": "official-announcement-api",
+        "recordId": "1350",
+        "fetchedAt": "2026-07-16T08:33:32.960Z",
+        "priority": 1
+      },
+      "confidence": "high",
+      "scheduleStatus": "exact",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": null,
+      "description": "The villain character comes charging in, yelling stuff about sacrifice and destruction! Hehe, good thing Himeko fulfilled her promise with a certain \"someone\" under the full Phantasmoon, obtained the strength of the giant robot…",
+      "windowsByRegion": {
+        "europe": {
+          "start": "2026-07-15T16:00:00.000Z",
+          "end": "2026-07-25T22:59:00.000Z",
+          "timezone": "UTC+01:00",
+          "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1350"
+        },
+        "asia": {
+          "start": "2026-07-15T09:00:00.000Z",
+          "end": "2026-07-25T15:59:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1350"
+        },
+        "america": {
+          "start": "2026-07-15T22:00:00.000Z",
+          "end": "2026-07-26T04:59:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1350"
+        }
+      }
+    },
     {
       "game": "hsr",
       "id": "hsr-hoyo-ann-12c1a7a21c89",
@@ -27,13 +72,18 @@
       "source": {
         "name": "Honkai: Star Rail Official",
         "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1301",
-        "priority": 1
+        "priority": 1,
+        "kind": "legacy-official-snapshot",
+        "recordId": "1301",
+        "fetchedAt": "2026-07-13T22:40:55.330Z",
+        "fetchedAtMeaning": "nyx-snapshot-observed-at"
       },
       "confidence": "high",
       "permanence": "timed",
       "needs_review": false,
-      "image": "https://sdk.hoyoverse.com/upload/ann/2026/05/09/aa1f4ee17c0746bd46a8693d44d95188_5705131435332765014_transformed.png",
-      "description": "Event Period 2026/07/03 04:00:00 - 2026/07/13 03:59:00 Participation Requirements Unlock Cavern of Corrosion: Path of Drifting Event Details During the Realm of the Strange event, get double rewards when you challenge and beat Cavern of…"
+      "image": null,
+      "description": "Event Period 2026/07/03 04:00:00 - 2026/07/13 03:59:00 Participation Requirements Unlock Cavern of Corrosion: Path of Drifting Event Details During the Realm of the Strange event, get double rewards when you challenge and beat Cavern of…",
+      "scheduleStatus": "exact"
     }
   ]
 }

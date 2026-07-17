@@ -59,6 +59,24 @@ function nyxSaveFavouriteMode(gameKey, mode){
   return clean;
 }
 
+function nyxFavouriteVisibilityKey(gameKey){
+  return 'nyx:pinned-favourites-visible:' + gameKey + ':v1';
+}
+
+function nyxLoadFavouriteVisibility(gameKey){
+  try {
+    return localStorage.getItem(nyxFavouriteVisibilityKey(gameKey)) !== 'hidden';
+  } catch (e) {
+    return true;
+  }
+}
+
+function nyxSaveFavouriteVisibility(gameKey, visible){
+  const next = visible !== false;
+  try { localStorage.setItem(nyxFavouriteVisibilityKey(gameKey), next ? 'shown' : 'hidden'); } catch (e) {}
+  return next;
+}
+
 function nyxAddPinnedId(ids, id, mode){
   const rows = Array.isArray(ids) ? ids.map(String) : [];
   const clean = String(id || '');

@@ -125,7 +125,8 @@ export async function run() {
   const currentManifest = await readJson(manifestFile);
   if (!currentManifest || semanticHash(currentManifest) !== semanticHash(summary)) outputs.push([manifestFile, JSON.stringify(summary, null, 2) + '\n']);
   const currentCompat = await fs.readFile(compatibilityFile, 'utf8').catch(() => '');
-  if (currentCompat !== compatibility) outputs.push([compatibilityFile, compatibility]);
+  const normalizeEol = (value) => value.replace(/\r\n/g, '\n');
+  if (normalizeEol(currentCompat) !== normalizeEol(compatibility)) outputs.push([compatibilityFile, compatibility]);
   await transactionalReplace(outputs);
   console.log(`Banner history: ${GAMES.map((game) => `${game}=${candidates[game].records.length}`).join(' ')}; ${outputs.length} semantic outputs changed`);
   return { datasets:candidates, summary, outputs:outputs.map(([file]) => path.relative(root, file)) };

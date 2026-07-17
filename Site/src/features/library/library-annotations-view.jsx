@@ -64,7 +64,7 @@ function nyxLibraryAnnotationClasses(presentation, queryHit){
   ].filter(Boolean).join(' ');
 }
 
-function LibraryAnnotationText({ value, globalStart, resolved, highlightTokens, onOpenNote }){
+function LibraryAnnotationText({ value, globalStart, resolved, queryRanges, onOpenNote }){
   const text = String(value || '');
   const boundaries = new Set([0, text.length]);
   const localRows = [];
@@ -73,65 +73,80 @@ function LibraryAnnotationText({ value, globalStart, resolved, highlightTokens, 
     if (end <= start) return;
     boundaries.add(start - globalStart); boundaries.add(end - globalStart); localRows.push(row);
   });
-  const queryRanges = [];
-  if (highlightTokens?.size) for (const match of text.matchAll(/[\p{L}\p{N}\p{M}]+/gu)) {
-    if (!highlightTokens.has(nyxLibraryNormalizeText(match[0]))) continue;
-    boundaries.add(match.index); boundaries.add(match.index + match[0].length); queryRanges.push([match.index, match.index + match[0].length]);
-  }
+  const localQueryRanges = [];
+  (queryRanges || []).forEach((row) => {
+    const start = Math.max(globalStart, row.start); const end = Math.min(globalStart + text.length, row.end);
+    if (end <= start) return;
+    boundaries.add(start - globalStart); boundaries.add(end - globalStart);
+    localQueryRanges.push(row);
+  });
   const points = [...boundaries].sort((a, b) => a - b);
   return points.slice(0, -1).map((start, index) => {
     const end = points[index + 1]; if (end <= start) return null;
     const absoluteStart = globalStart + start; const absoluteEnd = globalStart + end;
     const active = localRows.filter((row) => row.start < absoluteEnd && row.end > absoluteStart);
     const presentation = nyxLibraryAnnotationPresentation(active);
-    const queryHit = queryRanges.some(([from, to]) => from < end && to > start);
+    const queryHit = localQueryRanges.some((row) => row.start < absoluteEnd && row.end > absoluteStart);
     const noteStarts = active.filter((row) => row.annotation.note && row.start === absoluteStart);
     return <React.Fragment key={`${absoluteStart}-${absoluteEnd}`}>
       {noteStarts.map((row) => <button type="button" className="library-note-pin" data-library-ui="note" key={`note-${row.annotation.id}`} aria-label={`Open note for ${row.annotation.anchor.quote}`} onClick={(event) => onOpenNote(row.annotation, event.currentTarget)} />)}
-      <span className={nyxLibraryAnnotationClasses(presentation, queryHit)} data-library-text-start={absoluteStart}>{text.slice(start, end)}</span>
+      <span className={nyxLibraryAnnotationClasses(presentation, queryHit)} data-library-text-start={absoluteStart}
+            data-library-query-hit={queryHit ? 'true' : undefined}>{text.slice(start, end)}</span>
     </React.Fragment>;
   });
 }
 
-function libraryAnnotatedInline(nodes, keyPrefix, cursor, resolved, highlightTokens, onOpenNote){
+function libraryAnnotatedInline(nodes, keyPrefix, cursor, resolved, queryRanges, onOpenNote){
   return (nodes || []).map((node, index) => {
     const key = `${keyPrefix}-${index}`;
     if (node.type === 'text') {
       const start = cursor.value; const value = String(node.text || ''); cursor.value += value.length;
-      return <React.Fragment key={key}><LibraryAnnotationText value={value} globalStart={start} resolved={resolved} highlightTokens={highlightTokens} onOpenNote={onOpenNote} /></React.Fragment>;
+      return <React.Fragment key={key}><LibraryAnnotationText value={value} globalStart={start} resolved={resolved} queryRanges={queryRanges} onOpenNote={onOpenNote} /></React.Fragment>;
     }
     if (node.type === 'br') { const start = cursor.value; cursor.value += 1; return <br key={key} data-library-text-start={start} />; }
-    if (node.type === 'em') return <em key={key}>{libraryAnnotatedInline(node.children, key, cursor, resolved, highlightTokens, onOpenNote)}</em>;
-    if (node.type === 'strong') return <strong key={key}>{libraryAnnotatedInline(node.children, key, cursor, resolved, highlightTokens, onOpenNote)}</strong>;
+    if (node.type === 'em') return <em key={key}>{libraryAnnotatedInline(node.children, key, cursor, resolved, queryRanges, onOpenNote)}</em>;
+    if (node.type === 'strong') return <strong key={key}>{libraryAnnotatedInline(node.children, key, cursor, resolved, queryRanges, onOpenNote)}</strong>;
     return null;
   });
 }
 
-function LibraryAnnotatedLeaf({ leaf, Tag, resolved, highlightTokens, onOpenNote }){
+function LibraryAnnotatedLeaf({ leaf, Tag, resolved, queryRanges, onOpenNote }){
   const key = leaf.id;
   const attrs = { 'data-library-block-id':String(leaf.id || ''), 'data-library-leaf-type':nyxLibraryLeafType(leaf), 'data-library-text-length':nyxLibraryLeafText(leaf).length };
-  if (leaf.type === 'heading') return <Tag key={key} {...attrs}><LibraryAnnotationText value={leaf.text} globalStart={0} resolved={resolved} highlightTokens={highlightTokens} onOpenNote={onOpenNote} /></Tag>;
+  if (leaf.type === 'heading') return <Tag key={key} {...attrs}><LibraryAnnotationText value={leaf.text} globalStart={0} resolved={resolved} queryRanges={queryRanges} onOpenNote={onOpenNote} /></Tag>;
   const cursor = { value:0 };
-  const children = libraryAnnotatedInline(leaf.children, key, cursor, resolved, highlightTokens, onOpenNote);
+  const children = libraryAnnotatedInline(leaf.children, key, cursor, resolved, queryRanges, onOpenNote);
   if (Tag === 'td') return <td key={key} {...attrs}>{children}</td>;
   return React.createElement(Tag, { key, ...attrs }, children);
 }
 
-function LibraryAnnotationToolbar({ selection, color, setColor, busy, onFormat, onNote, onCopy, onRemove, onClose }){
-  if (!selection) return null;
-  return <div className="library-annotation-toolbar" role="toolbar" aria-label="Personalise selected text" data-library-ui="toolbar" onMouseDown={(event) => { if (event.target.tagName !== 'SELECT') event.preventDefault(); }}>
-    <p>{selection.anchorable ? `Selected: “${selection.quote.slice(0, 70)}${selection.quote.length > 70 ? '…' : ''}”` : selection.message}</p>
-    {selection.anchorable && <>
-      <button type="button" disabled={busy} onClick={() => onFormat('highlight')}>Highlight</button>
-      <select aria-label="Highlight color" value={color} onChange={(event) => setColor(event.target.value)} disabled={busy}>
-        <option value="violet">Purple</option><option value="rose">Rose</option><option value="amber">Amber</option><option value="blue">Blue</option><option value="green">Green</option>
-      </select>
-      <button type="button" disabled={busy} onClick={() => onFormat('underline')}>Underline</button>
-      <button type="button" disabled={busy} onClick={() => onFormat('bold')}>Bold</button>
-      <button type="button" disabled={busy} onClick={onNote}>Add note</button>
-      <button type="button" disabled={busy} onClick={onRemove}>Remove formatting</button>
-    </>}
-    <button type="button" disabled={busy} onClick={onCopy}>Copy</button>
+const LIBRARY_HIGHLIGHT_COLORS = [
+  ['violet', 'Purple'], ['rose', 'Rose'], ['amber', 'Amber'], ['blue', 'Blue'], ['green', 'Green'],
+];
+
+function LibraryAnnotationToolbar({ selection, color, busy, formatState, onFormat, onColor, onNote, onClear, onClose }){
+  const [moreOpen, setMoreOpen] = React.useState(false);
+  if (!selection?.anchorable) return null;
+  const canClear = formatState.any;
+  return <div className="library-annotation-toolbar" role="toolbar" aria-label="Personalise selected text" data-library-ui="toolbar" onMouseDown={(event) => event.preventDefault()}>
+    <p>{`Selected: “${selection.quote.slice(0, 70)}${selection.quote.length > 70 ? '…' : ''}”`}</p>
+    <button type="button" disabled={busy} aria-pressed={formatState.highlight} onClick={() => onFormat('highlight')}>Highlight</button>
+    <div className="library-highlight-swatches" role="group" aria-label="Highlight color">
+      {LIBRARY_HIGHLIGHT_COLORS.map(([value, label]) => (
+        <button type="button" key={value} className={`library-highlight-swatch is-${value}`} disabled={busy}
+                aria-label={label} aria-pressed={color === value} title={label} onClick={() => onColor(value)}><span aria-hidden="true" /></button>
+      ))}
+    </div>
+    <button type="button" disabled={busy} aria-pressed={formatState.underline} onClick={() => onFormat('underline')}>Underline</button>
+    <button type="button" disabled={busy} aria-pressed={formatState.bold} onClick={() => onFormat('bold')}>Bold</button>
+    <button type="button" disabled={busy} onClick={onNote}>Add note</button>
+    <div className="library-annotation-more">
+      <button type="button" className="library-annotation-more-button" disabled={busy} aria-expanded={moreOpen} aria-haspopup="menu"
+              onClick={() => setMoreOpen((open) => !open)} aria-label="More text tools">•••</button>
+      {moreOpen && <div className="library-annotation-overflow" role="menu">
+        <button type="button" role="menuitem" disabled={busy || !canClear} onClick={() => { setMoreOpen(false); onClear(); }}>Clear formatting</button>
+      </div>}
+    </div>
     <button type="button" className="library-annotation-close" onClick={onClose} aria-label="Close text tools">×</button>
   </div>;
 }
@@ -150,8 +165,9 @@ function LibraryNoteEditor({ editor, setEditor, busy, onSave, onDelete, onClose,
   </div>;
 }
 
-function LibraryAnnotatedDocument({ document, game, bookId, volumeKey, knownVolumeKeys, highlightTokens }){
+function LibraryAnnotatedDocument({ document, game, bookId, volumeKey, knownVolumeKeys, query }){
   const rootRef = React.useRef(null);
+  const lastQueryScrollRef = React.useRef('');
   const noteTextareaRef = React.useRef(null);
   const noteTriggerRef = React.useRef(null);
   const [annotations, setAnnotations] = React.useState([]);
@@ -161,9 +177,16 @@ function LibraryAnnotatedDocument({ document, game, bookId, volumeKey, knownVolu
   const [busy, setBusy] = React.useState(false);
   const [message, setMessage] = React.useState('');
   const [storageError, setStorageError] = React.useState('');
+  const [undo, setUndo] = React.useState(null);
   const scope = React.useMemo(() => ({ game, bookId, volumeKey }), [game, bookId, volumeKey]);
   const fingerprint = React.useMemo(() => nyxLibraryVolumeFingerprint(document), [document]);
   const leafMap = React.useMemo(() => new Map(nyxLibraryDocumentLeaves(document).map((leaf) => [String(leaf.id || ''), { leaf, text:nyxLibraryLeafText(leaf), leafType:nyxLibraryLeafType(leaf) }])), [document]);
+  const queryRows = React.useMemo(() => query ? nyxLibraryDocumentQueryRanges(document, query) : [], [document, query]);
+  const queryByBlock = React.useMemo(() => {
+    const rows = new Map();
+    queryRows.forEach((row) => { if (!rows.has(row.blockId)) rows.set(row.blockId, []); rows.get(row.blockId).push(row); });
+    return rows;
+  }, [queryRows]);
 
   const reload = React.useCallback(() => {
     let active = true;
@@ -173,7 +196,7 @@ function LibraryAnnotatedDocument({ document, game, bookId, volumeKey, knownVolu
   }, [game, bookId]);
 
   React.useEffect(() => {
-    setAnnotations([]); setSelection(null); setEditor(null); setMessage(''); setStorageError('');
+    setAnnotations([]); setSelection(null); setEditor(null); setMessage(''); setStorageError(''); setUndo(null);
     const cancel = reload();
     const unsubscribe = nyxSubscribeLibraryAnnotations(() => reload());
     return () => { cancel(); unsubscribe(); };
@@ -182,6 +205,16 @@ function LibraryAnnotatedDocument({ document, game, bookId, volumeKey, knownVolu
   React.useEffect(() => {
     if (editor) requestAnimationFrame(() => noteTextareaRef.current?.focus());
   }, [editor]);
+
+  React.useEffect(() => {
+    const key = queryRows.length ? `${bookId}\u0000${volumeKey}\u0000${nyxLibraryNormalizeText(query)}` : '';
+    if (!key || lastQueryScrollRef.current === key) return undefined;
+    const hit = rootRef.current?.querySelector('[data-library-query-hit="true"]');
+    if (!hit) return undefined;
+    lastQueryScrollRef.current = key;
+    const frame = requestAnimationFrame(() => hit.scrollIntoView({ block:'center', inline:'nearest', behavior:'auto' }));
+    return () => cancelAnimationFrame(frame);
+  }, [bookId, volumeKey, query, queryRows]);
 
   React.useEffect(() => {
     const onKeyDown = (event) => {
@@ -201,6 +234,10 @@ function LibraryAnnotatedDocument({ document, game, bookId, volumeKey, knownVolu
 
   const current = annotations.filter((row) => row.volumeKey === volumeKey);
   const resolved = React.useMemo(() => nyxResolveLibraryAnnotations(current, document), [current, document]);
+  const formatState = React.useMemo(() => nyxLibrarySelectionFormatState(resolved, selection), [resolved, selection]);
+  React.useEffect(() => {
+    if (selection?.anchorable && formatState.highlightColor) setColor(formatState.highlightColor);
+  }, [selection?.blockId, selection?.start, selection?.end, formatState.highlightColor]);
   const known = new Set(knownVolumeKeys || []);
   const staleVolumes = annotations.filter((row) => row.volumeKey !== volumeKey && !known.has(row.volumeKey)).map((row) => ({ annotation:row, status:'stale-missing', reason:'missing-volume' }));
   const stale = [...resolved.filter((row) => row.status !== 'resolved'), ...staleVolumes];
@@ -209,19 +246,47 @@ function LibraryAnnotatedDocument({ document, game, bookId, volumeKey, knownVolu
 
   const capture = () => {
     const next = nyxLibraryCaptureDomSelection(rootRef.current, leafMap);
-    if (next) { setSelection(next); setMessage(''); }
+    if (next?.anchorable) { setSelection(next); setMessage(''); }
+    else setSelection(null);
   };
   const closeTools = () => { setSelection(null); requestAnimationFrame(() => rootRef.current?.focus({ preventScroll:true })); };
   const fail = (error) => setMessage(error?.message || 'That action could not be completed. Reading and copying still work.');
 
-  const saveStyle = async (style) => {
+  const saveStyle = async (style, requestedColor = color, forceSet = false) => {
     if (!selection?.anchorable) return;
+    const styleRows = resolved.filter((row) => row.status === 'resolved' && row.blockId === selection.blockId
+      && row.annotation.style === style && row.start < selection.end && row.end > selection.start);
+    const removeExisting = forceSet || formatState[style] === true;
+    const deleteIds = [];
+    const put = [];
+    if (removeExisting) styleRows.forEach((row) => {
+      const result = nyxLibrarySubtractFormatting(row.annotation, selection.start, selection.end, selection.leafText, fingerprint);
+      deleteIds.push(...result.deleteIds);
+      put.push(...result.put);
+    });
+    if (!formatState[style] || forceSet) put.push(nyxMakeLibraryAnnotation({
+      ...scope,
+      blockId:selection.blockId,
+      leafType:selection.leafType,
+      start:selection.start,
+      end:selection.end,
+      leafText:selection.leafText,
+      sourceFingerprint:fingerprint,
+      style,
+      color:style === 'highlight' ? requestedColor : null,
+    }));
     setBusy(true);
     try {
-      const existing = resolved.find((row) => row.status === 'resolved' && row.blockId === selection.blockId && row.start === selection.start && row.end === selection.end && row.annotation.style === style)?.annotation;
-      const row = nyxMakeLibraryAnnotation({ ...scope, id:existing?.id, createdAt:existing?.createdAt, revision:existing?.revision, blockId:selection.blockId, leafType:selection.leafType, start:selection.start, end:selection.end, leafText:selection.leafText, sourceFingerprint:fingerprint, style, color:style === 'highlight' ? color : null });
-      await nyxSaveLibraryAnnotation(row); setMessage(style === 'highlight' ? 'Highlight saved.' : `${style[0].toUpperCase()}${style.slice(1)} saved.`);
+      const result = await nyxCommitLibraryAnnotationMutation(deleteIds, put);
+      setUndo(result.undo.ids.length ? result.undo : null);
+      const label = style === 'highlight' ? 'Highlight' : `${style[0].toUpperCase()}${style.slice(1)}`;
+      setMessage(removeExisting && !forceSet ? `${label} removed.` : `${label} saved.`);
     } catch (error) { fail(error); } finally { setBusy(false); }
+  };
+
+  const chooseHighlightColor = (nextColor) => {
+    setColor(nextColor);
+    if (formatState.highlight && nextColor !== formatState.highlightColor) saveStyle('highlight', nextColor, true);
   };
 
   const openAddNote = (event) => {
@@ -245,7 +310,8 @@ function LibraryAnnotatedDocument({ document, game, bookId, volumeKey, knownVolu
       const row = editor.annotation
         ? nyxNormalizeLibraryAnnotation({ ...editor.annotation, note:editor.note })
         : nyxMakeLibraryAnnotation({ ...scope, blockId:editor.selection.blockId, leafType:editor.selection.leafType, start:editor.selection.start, end:editor.selection.end, leafText:editor.selection.leafText, sourceFingerprint:fingerprint, style:null, note:editor.note });
-      await nyxSaveLibraryAnnotation(row); setMessage('Note saved.'); closeEditor();
+      const result = await nyxCommitLibraryAnnotationMutation([], [row], { incrementRevision:true });
+      setUndo(result.undo.ids.length ? result.undo : null); setMessage('Note saved.'); closeEditor();
     } catch (error) { fail(error); } finally { setBusy(false); }
   };
 
@@ -254,8 +320,10 @@ function LibraryAnnotatedDocument({ document, game, bookId, volumeKey, knownVolu
     setBusy(true);
     try {
       const row = editor.annotation;
-      if (row.style) await nyxSaveLibraryAnnotation({ ...row, note:'' });
-      else await nyxDeleteLibraryAnnotation(row.id);
+      const result = row.style
+        ? await nyxCommitLibraryAnnotationMutation([], [{ ...row, note:'' }], { incrementRevision:true })
+        : await nyxCommitLibraryAnnotationMutation([row.id], []);
+      setUndo(result.undo.ids.length ? result.undo : null);
       setMessage('Note deleted.'); closeEditor();
     } catch (error) { fail(error); } finally { setBusy(false); }
   };
@@ -267,23 +335,41 @@ function LibraryAnnotatedDocument({ document, game, bookId, volumeKey, knownVolu
     const deleteIds = []; const put = [];
     overlaps.forEach((row) => { const result = nyxLibrarySubtractFormatting(row.annotation, selection.start, selection.end, selection.leafText, fingerprint); deleteIds.push(...result.deleteIds); put.push(...result.put); });
     setBusy(true);
-    try { await nyxReplaceLibraryAnnotations(deleteIds, put); setMessage('Formatting removed.'); }
+    try {
+      const result = await nyxCommitLibraryAnnotationMutation(deleteIds, put);
+      setUndo(result.undo.ids.length ? result.undo : null); setMessage('Formatting removed.');
+    }
     catch (error) { fail(error); } finally { setBusy(false); }
   };
 
-  const copySelection = async () => {
-    const text = selection?.quote || '';
-    try { if (!navigator.clipboard?.writeText) throw new Error(); await navigator.clipboard.writeText(text); setMessage('Copied.'); }
-    catch (error) { setMessage('Use your browser’s Copy command for this selection.'); }
-  };
-
   const deleteStale = async (id) => {
-    setBusy(true); try { await nyxDeleteLibraryAnnotation(id); setMessage('Stale mark deleted.'); } catch (error) { fail(error); } finally { setBusy(false); }
+    const row = annotations.find((annotation) => annotation.id === id);
+    setBusy(true);
+    try {
+      const result = await nyxCommitLibraryAnnotationMutation([id], []);
+      setUndo(row && result.undo.ids.length ? result.undo : null); setMessage('Stale mark deleted.');
+    } catch (error) { fail(error); } finally { setBusy(false); }
   };
 
-  const renderLeaf = (leaf, Tag) => <LibraryAnnotatedLeaf leaf={leaf} Tag={Tag} resolved={resolvedByBlock.get(String(leaf.id || '')) || []} highlightTokens={highlightTokens} onOpenNote={openExistingNote} />;
+  const undoLastMutation = async () => {
+    if (!undo) return;
+    setBusy(true);
+    try {
+      const result = await nyxUndoLibraryAnnotations(undo);
+      setUndo(null);
+      setMessage(result.skippedIds.length ? 'Undo was not applied because this mark changed in another tab.' : 'Last change undone.');
+    } catch (error) { fail(error); } finally { setBusy(false); }
+  };
+
+  const renderLeaf = (leaf, Tag) => {
+    const blockId = String(leaf.id || '');
+    return <LibraryAnnotatedLeaf leaf={leaf} Tag={Tag} resolved={resolvedByBlock.get(blockId) || []} queryRanges={queryByBlock.get(blockId) || []} onOpenNote={openExistingNote} />;
+  };
   return <>
-    {(storageError || message) && <div className={'library-annotation-message' + (storageError ? ' error' : '')} role={storageError ? 'alert' : 'status'} data-library-ui="status">{storageError || message}</div>}
+    {(storageError || message) && <div className={'library-annotation-message' + (storageError ? ' error' : '')} role={storageError ? 'alert' : 'status'} data-library-ui="status">
+      <span>{storageError || message}</span>
+      {!storageError && undo && <button type="button" disabled={busy} onClick={undoLastMutation}>Undo</button>}
+    </div>}
     {!!stale.length && <details className="library-stale-marks" data-library-ui="stale"><summary>{stale.length} {stale.length === 1 ? 'mark needs' : 'marks need'} repair</summary>
       {stale.map((row) => <div key={row.annotation.id}><span>“{row.annotation.anchor.quote.slice(0, 70)}{row.annotation.anchor.quote.length > 70 ? '…' : ''}” — {row.status === 'stale-ambiguous' ? 'more than one safe match' : row.reason === 'missing-volume' ? 'volume changed or is missing' : 'source text is missing'}</span><button type="button" disabled={busy} onClick={() => deleteStale(row.annotation.id)}>Delete</button></div>)}
     </details>}
@@ -298,7 +384,8 @@ function LibraryAnnotatedDocument({ document, game, bookId, volumeKey, knownVolu
         return null;
       })}
     </div>
-    <LibraryAnnotationToolbar selection={selection} color={color} setColor={setColor} busy={busy} onFormat={saveStyle} onNote={openAddNote} onCopy={copySelection} onRemove={removeFormatting} onClose={closeTools} />
+    <LibraryAnnotationToolbar selection={selection} color={color} busy={busy} formatState={formatState} onFormat={saveStyle}
+      onColor={chooseHighlightColor} onNote={openAddNote} onClear={removeFormatting} onClose={closeTools} />
     <LibraryNoteEditor editor={editor} setEditor={setEditor} busy={busy} onSave={saveNote} onDelete={deleteNote} onClose={closeEditor} textareaRef={noteTextareaRef} />
   </>;
 }

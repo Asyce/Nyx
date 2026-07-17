@@ -536,7 +536,7 @@ function nyxTlExpandDatedRegional(def, rangeStart, rangeEnd, regionKey){
     var e = win.end ? nyxTlNum(win.end) : null;
     if (s === null) continue;
     if (e === null) continue;
-    if (e >= rangeStart && s <= rangeEnd) out.push({ start: s, end: e, dateOnly: !win.precise, sourceUrl: win.sourceUrl });
+    if (e >= rangeStart && s <= rangeEnd) out.push({ start: s, end: e, dateOnly: !win.precise, sourceUrl: win.sourceUrl, scheduleStatus: windows[i].status === 'exact' ? 'exact' : 'expected' });
   }
   return out;
 }
@@ -552,7 +552,7 @@ function nyxTlExpandDatedDateOnly(def, rangeStart, rangeEnd){
     var e = nyxTlNum(wnd.dateEnd + 'T23:59:59.000Z');
     if (s === null || e === null) continue;
     if (e >= rangeStart && s <= rangeEnd) {
-      out.push({ start: s, end: e, dateOnly: true, sourceUrl: (wnd.source && wnd.source.url) || wnd.sourceUrl || null });
+      out.push({ start: s, end: e, dateOnly: true, sourceUrl: (wnd.source && wnd.source.url) || wnd.sourceUrl || null, scheduleStatus: wnd.status === 'exact' ? 'exact' : 'expected' });
     }
   }
   return out;
@@ -577,6 +577,7 @@ function nyxTlExpandActivity(def, rangeStart, rangeEnd, regionKey){
   var out = [];
   for (var i = 0; i < occ.length; i++) {
     var o = occ[i];
+    var scheduleStatus = def.mode === 'fixed' ? 'expected' : (o.scheduleStatus === 'exact' ? 'exact' : 'expected');
     out.push({
       id: def.id + '@' + o.start,
       defId: def.id,
@@ -585,6 +586,8 @@ function nyxTlExpandActivity(def, rangeStart, rangeEnd, regionKey){
       end: o.end,
       dateOnly: o.dateOnly || def.timezoneMode === 'date-only',
       sourceUrl: o.sourceUrl || def.sourceUrl || null,
+      scheduleStatus: scheduleStatus,
+      expected: scheduleStatus !== 'exact',
     });
   }
   return out;
@@ -622,6 +625,7 @@ function nyxTlExpandActivities(defs, rangeStart, rangeEnd, regionKey){
 function nyxTlEventBlockFromRecord(e, now){
   var startMs = e.start ? nyxTlNum(e.start) : null;
   var needsReview = !!e.needs_review || startMs === null;
+  var scheduleStatus = e.scheduleStatus === 'exact' && !needsReview ? 'exact' : 'expected';
   var block = {
     id: e.id, game: e.game || null, title: e.title || 'Event', type: e.type || 'event',
     image: e.image || null,
@@ -629,6 +633,7 @@ function nyxTlEventBlockFromRecord(e, now){
     sourceUrl: (e.source && e.source.url) || null,
     server: e.server || null, timezone: e.timezone || null,
     confidence: e.confidence || null, permanence: e.permanence || null,
+    scheduleStatus: scheduleStatus, expected: scheduleStatus !== 'exact',
     needsReview: needsReview, openEnd: false,
     rawStart: e.start || null, rawEnd: e.end || null,
     startMs: null, endMs: null,
@@ -851,6 +856,125 @@ function nyxTlVersionRibbons(blocks){
   return arr;
 }
 
+// Weekly reset rules are deliberately game-scoped and carry direct official
+// provenance. WuWa and Endfield stay unavailable because no official source
+// in the approved research set proves both weekday and hour; they must never
+// inherit a HoYo rule.
+var NYX_TL_WEEKLY_RESETS = {
+  gi:  { weekday:1, hour:4, source:'https://www.hoyolab.com/article/321317', offsets:{ america:-5, europe:1, asia:8 }, zoneSource:'https://www.hoyolab.com/article/791465/' },
+  hsr: { weekday:1, hour:4, source:'https://www.hoyolab.com/article/29990306', offsets:{ america:-5, europe:1, asia:8 }, zoneSource:'https://www.hoyolab.com/article/19123768' },
+  zzz: { weekday:1, hour:4, source:'https://www.hoyolab.com/article/35654082', requireWindowTimezone:true },
+};
+
+function nyxTlTimezoneOffset(value){
+  var match = String(value || '').trim().match(/^UTC\s*([+-])(\d{1,2})(?::?(\d{2}))?$/i);
+  if (!match) return null;
+  var hours = Number(match[2]) + Number(match[3] || 0) / 60;
+  return match[1] === '-' ? -hours : hours;
+}
+
+function nyxTlWeeklyReset(game, regionKey, windowTimezone){
+  var rule = NYX_TL_WEEKLY_RESETS[game];
+  if (!rule) return { known:false, label:'Weekly reset unavailable', source:null };
+  var offset = rule.offsets && Number.isFinite(rule.offsets[regionKey]) ? rule.offsets[regionKey] : null;
+  var zoneSource = rule.zoneSource || null;
+  if (rule.requireWindowTimezone) {
+    offset = nyxTlTimezoneOffset(windowTimezone);
+    zoneSource = offset === null ? null : 'published banner window';
+  }
+  if (offset === null) return { known:false, label:'Weekly reset unavailable for this region', source:rule.source, zoneSource:null };
+  return {
+    known:true,
+    weekday:rule.weekday,
+    hour:rule.hour,
+    offsetHours:offset,
+    label:'Monday 04:00 server time',
+    source:rule.source,
+    zoneSource:zoneSource,
+  };
+}
+
+function nyxTlWeekStartAtOrBefore(ms, reset){
+  var offMs = reset.offsetHours * 60 * 60 * 1000;
+  var local = new Date(ms + offMs);
+  var dayBack = (local.getUTCDay() - reset.weekday + 7) % 7;
+  var start = Date.UTC(local.getUTCFullYear(), local.getUTCMonth(), local.getUTCDate() - dayBack, reset.hour) - offMs;
+  if (start > ms) start -= 7 * NYX_TL_DAY_MS;
+  return start;
+}
+
+// Greedy interval packing for Patch/Phase labels. Some published banner
+// windows overlap inside one game (for example staggered HSR reruns), so one
+// visual row is not always enough even though every interval is valid. Rows
+// that only touch at a boundary may safely share a lane.
+function nyxTlPackScheduleIntervals(rows){
+  var laneEnds = [];
+  var packed = (rows || []).slice().sort(function(a, b){
+    return a.startMs - b.startMs || a.endMs - b.endMs;
+  }).map(function(row){
+    var lane = 0;
+    while (lane < laneEnds.length && row.startMs < laneEnds[lane]) lane++;
+    if (lane === laneEnds.length) laneEnds.push(row.endMs);
+    else laneEnds[lane] = row.endMs;
+    return Object.assign({}, row, { subrow:lane });
+  });
+  return { rows:packed, laneCount:laneEnds.length };
+}
+
+// The top-of-timeline hierarchy is built only from published block windows.
+// It never assumes a patch is six weeks or a phase is three weeks: irregular
+// and shortened schedules retain their real boundaries. Expected blocks keep
+// that provenance so the UI can render a dashed/Expected treatment.
+function nyxTlScheduleHierarchy(blocks, game, regionKey){
+  // Endfield's current runtime rows use the calendar year as `version`; that
+  // is not patch metadata, so presenting it as a year-long patch would be a
+  // fabricated boundary.
+  var patchStatus = game === 'ae' ? 'Patch schedule unavailable' : null;
+  var rows = (blocks || []).filter(function(block){
+    return game !== 'ae' && block && block.version && Number.isFinite(block.startMs) && Number.isFinite(block.endMs) && block.endMs > block.startMs;
+  });
+  var patchMap = {}, phaseMap = {};
+  rows.forEach(function(block){
+    var version = String(block.version);
+    if (!patchMap[version]) patchMap[version] = { label:version, startMs:block.startMs, endMs:block.endMs, expected:!!block.expected };
+    else {
+      patchMap[version].startMs = Math.min(patchMap[version].startMs, block.startMs);
+      patchMap[version].endMs = Math.max(patchMap[version].endMs, block.endMs);
+      patchMap[version].expected = patchMap[version].expected || !!block.expected;
+    }
+    var phaseKey = version + ':' + block.startMs + ':' + block.endMs;
+    if (!phaseMap[phaseKey]) phaseMap[phaseKey] = { patch:version, startMs:block.startMs, endMs:block.endMs, expected:!!block.expected };
+    else phaseMap[phaseKey].expected = phaseMap[phaseKey].expected || !!block.expected;
+  });
+  var patches = Object.keys(patchMap).map(function(key){ return patchMap[key]; }).sort(function(a,b){ return a.startMs - b.startMs; });
+  var phases = Object.keys(phaseMap).map(function(key){ return phaseMap[key]; }).sort(function(a,b){ return a.startMs - b.startMs; });
+  var phasesByPatch = {};
+  phases.forEach(function(phase){ (phasesByPatch[phase.patch] || (phasesByPatch[phase.patch] = [])).push(phase); });
+  Object.keys(phasesByPatch).forEach(function(version){
+    phasesByPatch[version].sort(function(a,b){ return a.startMs - b.startMs; }).forEach(function(phase, index){ phase.label = 'Phase ' + (index + 1); });
+  });
+  var windowTimezone = rows.find(function(row){ return row.timezone; });
+  var reset = nyxTlWeeklyReset(game, regionKey, windowTimezone && windowTimezone.timezone), weeks = [];
+  if (reset.known && patches.length) {
+    patches.forEach(function(patch){
+      var cursor = nyxTlWeekStartAtOrBefore(patch.startMs, reset), index = 0;
+      for (var guard = 0; guard < 200 && cursor < patch.endMs; guard++, cursor += 7 * NYX_TL_DAY_MS) {
+        var displayStart = Math.max(cursor, patch.startMs), displayEnd = Math.min(cursor + 7 * NYX_TL_DAY_MS, patch.endMs);
+        if (displayEnd <= displayStart) continue;
+        weeks.push({ patch:patch.label, startMs:displayStart, endMs:displayEnd, resetStartMs:cursor, resetEndMs:cursor + 7 * NYX_TL_DAY_MS, partial:displayStart !== cursor || displayEnd !== cursor + 7 * NYX_TL_DAY_MS, label:'Week ' + (++index), resetLabel:reset.label });
+      }
+    });
+  }
+  return { patches:patches, phases:phases, weeks:weeks, reset:reset, patchStatus:patchStatus };
+}
+
+function nyxTlSplitName(value){
+  var name = String(value || '').trim();
+  if (!name) return [];
+  var match = name.match(/^(\S+)\s+(.+)$/);
+  return match ? [match[1], match[2]] : [name];
+}
+
 if (typeof window !== 'undefined') {
   window.NyxTimelineData = {
     DAY_MS: NYX_TL_DAY_MS,
@@ -889,6 +1013,10 @@ if (typeof window !== 'undefined') {
     axisTicks: nyxTlAxisTicks,
     visibleBlocks: nyxTlVisibleBlocks,
     versionRibbons: nyxTlVersionRibbons,
+    weeklyReset: nyxTlWeeklyReset,
+    packScheduleIntervals: nyxTlPackScheduleIntervals,
+    scheduleHierarchy: nyxTlScheduleHierarchy,
+    splitName: nyxTlSplitName,
     featuredNames: nyxTlFeaturedNames,
   };
 }

@@ -51,7 +51,7 @@ const CM_BETA_META = {
   "gi": {
     "version": "6.7.52",
     "liveVersion": "6.7",
-    "newCount": 4,
+    "newCount": 2,
     "changedCount": 12
   },
   "hsr": {

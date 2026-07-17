@@ -487,7 +487,7 @@ function cmFrameQuantitySize(text){
   return Math.min(35, Math.floor(194 / (0.64 * digits + 0.30 * dots))) + 'px';
 }
 
-function CMItemFrame({ icon, sprite, glyph, rarity, quantity, className, bandless }){
+function CMItemFrame({ icon, sprite, glyph, rarity, quantity, className, bandless, dataRarityTier, children }){
   const r = cmItemFrameRarity(rarity, 4);
   const qty = cmFrameQuantityText(quantity);
   const style = {
@@ -497,7 +497,7 @@ function CMItemFrame({ icon, sprite, glyph, rarity, quantity, className, bandles
   /* DOM order mirrors the design template exactly — art, plate, seam glows,
      band (z2), rim strokes, eye emblem — so the paint order matches 1:1. */
   return (
-    <span className={'cm-item-frame' + (qty ? ' has-qty' : '') + (bandless ? ' bandless' : '') + (className ? ' ' + className : '')} style={style} aria-hidden={!icon && !glyph}>
+    <span className={'cm-item-frame' + (qty ? ' has-qty' : '') + (bandless ? ' bandless' : '') + (className ? ' ' + className : '')} style={style} data-rarity-tier={dataRarityTier} aria-hidden={!icon && !glyph}>
       <span className="cm-item-frame-canvas">
         <span className="cm-item-frame-art">
           <span className="cm-item-frame-fill">
@@ -505,7 +505,7 @@ function CMItemFrame({ icon, sprite, glyph, rarity, quantity, className, bandles
             <span className="cm-item-frame-eye-soft"></span>
           </span>
           <span className="cm-item-frame-icon">
-            {sprite ? <ZzzSpriteIcon icon={icon} sprite={sprite} alt="" /> : icon ? <img src={icon} alt="" draggable="false" /> : <span className="glyph cm-missing" title="Missing item">?</span>}
+            {sprite ? <ZzzSpriteIcon icon={icon} sprite={sprite} alt="" /> : icon ? <img src={icon} alt="" draggable="false" /> : <span className="glyph cm-missing" title="Missing item">{glyph || '?'}</span>}
           </span>
         </span>
         {bandless ? (
@@ -527,6 +527,7 @@ function CMItemFrame({ icon, sprite, glyph, rarity, quantity, className, bandles
           </React.Fragment>
         )}
       </span>
+      {children}
     </span>
   );
 }
@@ -691,7 +692,11 @@ function cmMatSourceDetails(m){
 function CMAvatar({ ch, big }){
   const pal = { a:'#9a89ea', b:'#372464', ring:'#cdb3ff', glow:'rgba(150,120,255,.55)' };
   const el = CM_ELEM[ch.el] || '#b7aaff';
-  const real = ch.icon || ch.circle || (ch.n === 'Skirk' ? '../assets/char/skirk_circle.png' : null);
+  const sources = [...new Set([ch.icon, ch.originalIcon, ch.circle, ch.card, ch.art, ch.n === 'Skirk' ? '../assets/char/skirk_circle.png' : null].filter(Boolean))];
+  const sourceKey = sources.join('|');
+  const [sourceIndex, setSourceIndex] = React.useState(0);
+  React.useEffect(() => setSourceIndex(0), [sourceKey]);
+  const real = sources[sourceIndex] || null;
   const imgStyle = {};
   if (ch.iconZoom) imgStyle['--iconZoom'] = ch.iconZoom;
   if (ch.iconPosition) imgStyle.objectPosition = ch.iconPosition;
@@ -709,6 +714,7 @@ function CMAvatar({ ch, big }){
           src={real}
           alt={ch.n}
           draggable="false"
+          onError={() => setSourceIndex((index) => index + 1)}
         /> : <span className="mono">{cmInitials(ch.n)}</span>}
       </div>
       {artPending && <span className="cm-av-pending">art pending</span>}
@@ -1077,6 +1083,11 @@ function cmFilterGlyph(gameKey, filterKey, label, value){
       <span hidden>{fallback}</span>
     </span>
   );
+}
+
+function cmKeepWeeklyDrop(drop, visibleCharacters, hasCharacterFilter){
+  const sourceCharacters = Array.isArray(drop?.chars) ? drop.chars : [];
+  return visibleCharacters.length > 0 || (!hasCharacterFilter && sourceCharacters.length === 0);
 }
 
 function cmMetaKey(value){
@@ -2081,13 +2092,13 @@ function CMUnfavouriteConfirm({ character, onCancel, onConfirm }){
 function CMCell({ ch, onClick, hideMode, hidden, onToggleHidden, pinned, onTogglePinned }){
   return (
     <div className={'cm-cell' + (hideMode ? ' hide-mode' : '') + (hidden ? ' hidden' : '')}
-         style={{ '--el':CM_ELEM[ch.el] || '#b7aaff' }}>
+         style={{ '--el':CM_ELEM[ch.el] || 'var(--nyx-color-accent-bright)' }}>
       <button type="button" className="cm-cell-open"
         title={hideMode ? (hidden ? 'Unhide ' : 'Hide ') + ch.n : ch.n}
         aria-pressed={hideMode ? !!hidden : undefined}
         onClick={() => { if (hideMode && onToggleHidden) onToggleHidden(ch); else if (onClick) onClick(); }}>
       <CMAvatar ch={ch} />
-      <span className="cn">{ch.n}</span>
+      <span className="cn">{String(ch.n || '').replace(/\s*[•·]\s*/g, ' ')}</span>
       {ch.__betaNew && <span className="cm-beta-tag" title="Beta (latest) data — upcoming, not yet released">Beta</span>}
       {cmIsUpcomingOnly(ch) && !ch.__betaNew && <span className="cm-beta-tag upcoming" title="Upcoming unit - currently no reliable material data">Upcoming</span>}
       {hideMode && <span className="hm">{hidden ? 'Hidden' : 'Hide'}</span>}
@@ -2608,6 +2619,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
   const isHidden = (ch) => hiddenIds.has(cmHiddenKey(ch));
   const passHidden = (ch) => showHidden || !isHidden(ch);
   const show = (ch) => passQ(ch) && passF(ch) && passHidden(ch);
+  const hasCharacterFilter = !!qq || Object.values(filt).some((value) => value !== undefined && value !== null);
   const updateHiddenPrefs = (fn) => {
     setHiddenPrefs((prev) => {
       const base = {
@@ -2722,9 +2734,15 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
         const chars = (drop.chars || []).map(resolve).filter(show);
         return { drop, chars, key:'weekly-' + bi + '-' + di };
       })
-      .filter((row) => row.chars.length > 0);
+      .filter((row) => cmKeepWeeklyDrop(row.drop, row.chars, hasCharacterFilter));
     const newest = cmNewestChar(drops.flatMap((r) => r.chars));
-    return drops.length ? { boss, drops, art:cmArtFor(newest || {}), order:cmCharRelease(newest) } : null;
+    const sourceOrder = Number(boss.releaseOrder);
+    return drops.length ? {
+      boss,
+      drops,
+      art:boss.art || '',
+      order:Number.isFinite(sourceOrder) ? sourceOrder : cmCharRelease(newest),
+    } : null;
   }).filter(Boolean).sort((a, b) => b.order - a.order);
   const activePreset = CM_GI_PRESETS.find((p) => p.targets.every((v, i) => v === giTargets[i]))
     || { key:'custom', label:giTargets.join('/'), targets:giTargets };
@@ -2886,9 +2904,12 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
     setTimeout(() => { if (cmLedgerMainRef.current) cmLedgerMainRef.current.scrollTop = top; }, 0);
   };
 
-  const hasBoss = !!cfg.tabs.boss;
-  const tabs = [{ k:'roster', label:'Roster' }, { k:'mid', label:cfg.tabs.mid }];
-  if (hasBoss) tabs.push({ k:'boss', label:cfg.tabs.boss });
+  const displayTabs = gk === 'ae'
+    ? { ...cfg.tabs, mid:'Growth Materials', boss:'Progression' }
+    : cfg.tabs;
+  const hasBoss = !!displayTabs.boss;
+  const tabs = [{ k:'roster', label:'Roster' }, { k:'mid', label:displayTabs.mid }];
+  if (hasBoss) tabs.push({ k:'boss', label:displayTabs.boss });
   const curTab = (tab === 'boss' && !hasBoss) ? 'roster' : tab;
 
   return (
@@ -2903,7 +2924,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
           <div className="cm-head">
             <span className="cm-dia"></span>
             <div className="cm-ttl"><div className="t">Characters</div></div>
-            <button type="button" className="cm-x" title="Close" onClick={onClose} style={{ display:inline ? 'none' : undefined }}>{'✕'}</button>
+            <button type="button" className={'cm-x' + (inline ? ' nyx-u-hidden' : '')} title="Close" onClick={onClose}>{'✕'}</button>
           </div>
         )}
 
@@ -2911,10 +2932,8 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
         <div className="cm-controls">
           <div className="cm-tabs">
             {tabs.map(t => (
-              <button type="button" key={t.k} className={curTab === t.k ? 'on' : ''} onClick={() => { setTab(t.k); setSel(null); if (onSelectedClose) onSelectedClose(); }}>
-                <span className="cm-tab-orbit" aria-hidden="true"><i></i></span>
-                <span>{t.label}</span>
-              </button>
+              <GPSectionNavButton key={t.k} active={curTab === t.k} label={t.label} arrow={false}
+                onActivate={() => { setTab(t.k); setSel(null); if (onSelectedClose) onSelectedClose(); }} />
             ))}
           </div>
           <div className="cm-tools">
@@ -2983,8 +3002,6 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
           </div>
         </div>
 
-        {pinnedFavourites && <div className="cm-pinned-slot">{pinnedFavourites}</div>}
-
         {/* day selector (Genshin Talents only) */}
         {curTab === 'mid' && cfg.midMode === 'days' && (
           <div className="cm-days">
@@ -2998,18 +3015,21 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
           {/* ---------- ROSTER ---------- */}
           {curTab === 'roster' && (
             <React.Fragment>
-              {recent.length > 0 && (
-                <div className="cm-group">
-                  <div className="cm-ghd" title="Characters from the 3 most recent patches"><span className="t">Recent</span></div>
-                  <div className="cm-grid cm-grid-recent">{recent.map((c, i) => renderCell('recent', c, i))}</div>
-                </div>
-              )}
-              {upcoming.length > 0 && (
-                <div className="cm-group cm-upcoming-group">
-                  <div className="cm-ghd" title="Upcoming units without reliable material data yet"><span className="t">Upcoming</span></div>
-                  <div className="cm-grid cm-grid-recent">{upcoming.map((c, i) => renderCell('upcoming', c, i))}</div>
-                </div>
-              )}
+              {curTab === 'roster' && pinnedFavourites && <div className="cm-pinned-slot">{pinnedFavourites}</div>}
+              {(recent.length > 0 || upcoming.length > 0) && <div className="cm-roster-highlights">
+                {recent.length > 0 && (
+                  <div className="cm-group">
+                    <div className="cm-ghd" title="Characters from the 3 most recent patches"><span className="t">Recent</span></div>
+                    <div className="cm-grid cm-grid-recent">{recent.map((c, i) => renderCell('recent', c, i))}</div>
+                  </div>
+                )}
+                {upcoming.length > 0 && (
+                  <div className="cm-group cm-upcoming-group">
+                    <div className="cm-ghd" title="Upcoming units without reliable material data yet"><span className="t">Upcoming</span></div>
+                    <div className="cm-grid cm-grid-recent">{upcoming.map((c, i) => renderCell('upcoming', c, i))}</div>
+                  </div>
+                )}
+              </div>}
               {rarityGroups.map(g => g.list.length > 0 && (
                 <div className="cm-group" key={g.r}>
                   <div className="cm-ghd"><span className="t">{g.label}</span></div>
@@ -3067,12 +3087,17 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
                 const mats = cmTokens(g.mats, g.region);
                 if (chars.length === 0) return null;
                 if (mats.length === 0) return null;
+                // A region that just repeats the tab name (Endfield data) adds
+                // nothing — the material token already names the section (#9).
+                const genericRegion = /^(growth|progression) materials$/i.test(String(g.region || ''));
                 return (
                   <div className="cm-mgroup" key={gi}>
-                    <div className="cm-mgroup-hd">
-                      <span className="t">{g.region}</span>
-                      {g.label && <span className="sub">{g.label}</span>}
-                    </div>
+                    {!genericRegion && (
+                      <div className="cm-mgroup-hd">
+                        <span className="t">{g.region}</span>
+                        {g.label && <span className="sub">{g.label}</span>}
+                      </div>
+                    )}
                     <div className={'cm-mrow' + (cmBlockArtStyle(chars) ? ' has-bg' : '')} style={cmBlockArtStyle(chars)}>
                       <div className="cm-mtokens">
                         {mats.map((m, mi) => (
@@ -3090,7 +3115,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
           {/* ---------- BOSS (Trounce / Echo / Hunt / Weekly) ---------- */}
           {curTab === 'boss' && hasBoss && (
             <React.Fragment>
-              <div className="cm-bosshd"><span className="t">{cfg.boss.title}</span></div>
+              <div className="cm-bosshd"><span className="t">{gk === 'ae' ? displayTabs.boss : cfg.boss.title}</span></div>
               {cfg.weeklyBosses ? (
                 <React.Fragment>
                   <div className="cm-trounce-grid">
@@ -3138,7 +3163,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
         <div className={'cm-pop-wrap' + (inline ? ' float page' : '')} onMouseDown={inline ? undefined : (e) => { if (e.target === e.currentTarget) closePop(); }}>
           <div className="cm-pop ledger" data-screen-label={inline ? 'Material detail page' : 'Material popup'} ref={cmPopRef}
                role={inline ? undefined : 'dialog'} aria-modal={inline ? undefined : 'true'} aria-label={(sel.n || 'Character') + ' materials'}
-               style={{ '--el':CM_ELEM[view.el] || '#b7aaff' }}>
+               style={{ '--el':CM_ELEM[view.el] || 'var(--nyx-color-accent-bright)' }}>
             <div className="cm-pop-ambient"></div>
             <div className="cm-pop-scrim"></div>
             {!inline && (
@@ -3147,13 +3172,6 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
             )}
 
             <div className="cm-pop-layout">
-              {inline && (
-                <div className="cm-detail-nav">
-                  <button type="button" className="cm-detail-back" onClick={closePop}>
-                    <span>{'\u2039'}</span><b>{selectedFrom === 'calendar' ? 'Back to Calendar' : 'Back to Characters'}</b>
-                  </button>
-                </div>
-              )}
               <div className="cm-pop-main cm-ledger-main" ref={cmLedgerMainRef}>
                 <div className="cm-ledger-top">
                   <div className="cm-ledger-title">
@@ -3175,6 +3193,11 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
                         </span>
                       )}
                       <span className="cm-character-tabs">
+                        {inline && (
+                          <button type="button" className="cm-detail-back" onClick={closePop}>
+                            <span>{'\u2039'}</span><b>{selectedFrom === 'calendar' ? 'Back to Calendar' : selectedFrom === 'nyx' ? 'Back to Nyx' : 'Back to Characters'}</b>
+                          </button>
+                        )}
                         <button type="button" className={detailTab === 'materials' ? 'on' : ''} onClick={() => setDetailTab('materials')}>Materials</button>
                         <button type="button" className={detailTab === 'kit' ? 'on' : ''} disabled={!hasKit} title={hasKit ? 'Character Kit' : 'No kit data available yet'} onClick={() => hasKit && setDetailTab('kit')}>Character Kit</button>
                       </span>
@@ -3290,7 +3313,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
                   {hasTalentData && (
                     <div className="cm-ledger-row">
                       <div className="cm-ledger-label">
-                        <b>{String(cfg.tabs.mid || 'Materials').toUpperCase()}</b>
+                        <b>{String(displayTabs.mid || 'Materials').toUpperCase()}</b>
                         {(() => {
                           const tcfg = CM_TALENT_CFG[gk];
                           const hasInputs = tcfg && view?.req?.talentStages?.some?.((s) => s.length);
@@ -3446,7 +3469,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
                           )}
                           {talentReq.length > 0 && (
                             <button type="button" className={ledgerInclude.talents ? 'on' : ''} aria-pressed={ledgerInclude.talents} onClick={() => toggleLedger('talents')}>
-                              <span className="box"></span><span>{cfg.tabs.mid}</span>
+                              <span className="box"></span><span>{displayTabs.mid}</span>
                             </button>
                           )}
                           {weaponReq.length > 0 && (

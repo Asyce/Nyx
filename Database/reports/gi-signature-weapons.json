@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-12T08:59:48.216Z",
-  "startedAt": "2026-07-12T08:59:23.038Z",
+  "generatedAt": "2026-07-16T09:06:53.261Z",
+  "startedAt": "2026-07-16T09:06:21.738Z",
   "dryRun": false,
   "source": "GameWith character build pages + web consensus fallback",
   "sourcePage": "https://gamewith.net/genshin-impact/article/show/22357",
@@ -122,6 +122,14 @@
           "weaponName": "Engulfing Lightning",
           "kind": "best-weapon",
           "matchedText": "w are Alyosha's best weapons. Alyosha mainly wants Energy Recharge to use his Elemental Burst every rotation, while also benefiting from ATK due to his healing and damage scaling. Engulfing Lightning R1 Timeless Dream: Eternal Stove Base ATK: 608 Energy Recharge: 55.1% ATK increased by 28% / 35% / 42% / 49% / 56% of Energy Recharge over the base 100%. You ca"
+        },
+        {
+          "title": "Genshin Impact | Alyosha Release Date & Known Information",
+          "url": "https://gamewith.net/genshin-impact/article/show/76471",
+          "domain": "gamewith.net",
+          "query": "Alyosha Genshin Impact signature weapon",
+          "searchProvider": "bing-rss",
+          "status": "no-match"
         },
         {
           "title": "Genshin Impact Alyosha Leaks: Electro Polearm Kit, Talents, and ...",

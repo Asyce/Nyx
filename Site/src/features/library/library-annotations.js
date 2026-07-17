@@ -205,6 +205,35 @@ function nyxLibraryAnnotationPresentation(rows){
   };
 }
 
+function nyxLibrarySelectionFormatState(resolvedRows, selection){
+  const empty = { highlight:false, underline:false, bold:false, highlightColor:null, any:false };
+  if (!selection?.anchorable || !Number.isInteger(selection.start) || !Number.isInteger(selection.end)) return empty;
+  const rows = (Array.isArray(resolvedRows) ? resolvedRows : []).filter((row) => row?.status === 'resolved'
+    && row.blockId === selection.blockId && row.annotation?.style && row.start < selection.end && row.end > selection.start);
+  const covers = (style) => {
+    const ranges = rows.filter((row) => row.annotation.style === style)
+      .map((row) => [Math.max(selection.start, row.start), Math.min(selection.end, row.end)])
+      .sort((left, right) => left[0] - right[0] || left[1] - right[1]);
+    let cursor = selection.start;
+    for (const [start, end] of ranges) {
+      if (start > cursor) return false;
+      cursor = Math.max(cursor, end);
+      if (cursor >= selection.end) return true;
+    }
+    return false;
+  };
+  const highlights = rows.filter((row) => row.annotation.style === 'highlight')
+    .sort((left, right) => Number(left.annotation.updatedAt) - Number(right.annotation.updatedAt)
+      || String(left.annotation.id).localeCompare(String(right.annotation.id)));
+  return {
+    highlight:covers('highlight'),
+    underline:covers('underline'),
+    bold:covers('bold'),
+    highlightColor:highlights.length ? highlights[highlights.length - 1].annotation.color || 'violet' : null,
+    any:rows.length > 0,
+  };
+}
+
 function nyxLibrarySubtractFormatting(row, removeStart, removeEnd, leafText, sourceFingerprint, options = {}){
   const annotation = nyxNormalizeLibraryAnnotation(row, { now:options.now ?? row.updatedAt });
   if (!annotation.style || removeEnd <= annotation.anchor.start || removeStart >= annotation.anchor.end) return { deleteIds:[], put:[annotation] };
@@ -214,6 +243,34 @@ function nyxLibrarySubtractFormatting(row, removeStart, removeEnd, leafText, sou
   const fragments = [[annotation.anchor.start, Math.max(annotation.anchor.start, removeStart)], [Math.min(annotation.anchor.end, removeEnd), annotation.anchor.end]];
   for (const [start, end] of fragments) if (end > start) put.push(nyxMakeLibraryAnnotation({ ...annotation, id:undefined, note:'', start, end, leafText, blockId:annotation.anchor.blockId, leafType:annotation.anchor.leafType, sourceFingerprint }, options));
   return { deleteIds, put };
+}
+
+function nyxLibraryAnnotationSnapshotRow(row){
+  if (!row) return null;
+  return nyxNormalizeLibraryAnnotation(row, { now:row.updatedAt });
+}
+
+function nyxLibraryAnnotationSnapshotSignature(row){
+  const normalized = nyxLibraryAnnotationSnapshotRow(row);
+  return normalized ? JSON.stringify(normalized) : null;
+}
+
+function nyxMakeLibraryAnnotationUndo(beforeRows, afterRows){
+  const before = new Map((beforeRows || []).map((row) => {
+    const normalized = nyxLibraryAnnotationSnapshotRow(row);
+    return [normalized.id, normalized];
+  }));
+  const after = new Map((afterRows || []).map((row) => {
+    const normalized = nyxLibraryAnnotationSnapshotRow(row);
+    return [normalized.id, normalized];
+  }));
+  const ids = [...new Set([...before.keys(), ...after.keys()])]
+    .filter((id) => nyxLibraryAnnotationSnapshotSignature(before.get(id)) !== nyxLibraryAnnotationSnapshotSignature(after.get(id)));
+  return {
+    ids,
+    before:Object.fromEntries(ids.map((id) => [id, before.get(id) || null])),
+    after:Object.fromEntries(ids.map((id) => [id, after.get(id) || null])),
+  };
 }
 
 function nyxLibraryAnnotationRequest(request){
@@ -257,6 +314,38 @@ function nyxLibraryAnnotationFriendlyError(error){
   return error instanceof Error ? error : new Error('This mark could not be saved. Reading and copying still work.');
 }
 
+async function nyxLibraryAnnotationReadwrite(factory, prepare){
+  const db = await nyxOpenLibraryAnnotationDatabase(factory);
+  try {
+    return await new Promise((resolve, reject) => {
+      const tx = db.transaction(NYX_LIBRARY_ANNOTATION_STORE, 'readwrite');
+      const store = tx.objectStore(NYX_LIBRARY_ANNOTATION_STORE);
+      const request = store.getAll();
+      let result;
+      let settled = false;
+      const fail = (error) => {
+        if (settled) return;
+        settled = true;
+        reject(error || tx.error || request.error || new Error('Library annotation storage transaction failed.'));
+      };
+      request.onsuccess = () => {
+        try { result = prepare(Array.isArray(request.result) ? request.result : [], store); }
+        catch (error) {
+          fail(error);
+          try { tx.abort?.(); } catch (abortError) {}
+        }
+      };
+      request.onerror = () => fail(request.error);
+      tx.oncomplete = () => {
+        if (settled) return;
+        settled = true;
+        resolve(result);
+      };
+      tx.onabort = tx.onerror = () => fail(tx.error);
+    });
+  } finally { db.close(); }
+}
+
 async function nyxListLibraryAnnotations(scope, options = {}){
   const game = nyxLibraryAnnotationToken(scope?.game, 10); const bookId = nyxLibraryAnnotationToken(scope?.bookId, 160); const volumeKey = nyxLibraryAnnotationToken(scope?.volumeKey, 160);
   const db = await nyxOpenLibraryAnnotationDatabase(options.indexedDB);
@@ -270,49 +359,92 @@ async function nyxListLibraryAnnotations(scope, options = {}){
   } finally { db.close(); }
 }
 
-async function nyxSaveLibraryAnnotation(input, options = {}){
-  const row = nyxNormalizeLibraryAnnotation(input, options);
-  const db = await nyxOpenLibraryAnnotationDatabase(options.indexedDB);
+async function nyxCommitLibraryAnnotationMutation(deleteIds, rows, options = {}){
+  const normalized = (Array.isArray(rows) ? rows : []).map((row) => nyxNormalizeLibraryAnnotation(row, options));
+  const ids = [...new Set([
+    ...(Array.isArray(deleteIds) ? deleteIds : []).map((id) => nyxLibraryAnnotationToken(id, 180)).filter(Boolean),
+    ...normalized.map((row) => row.id),
+  ])];
   try {
-    const readTx = db.transaction(NYX_LIBRARY_ANNOTATION_STORE, 'readonly');
-    const rows = await nyxLibraryAnnotationRequest(readTx.objectStore(NYX_LIBRARY_ANNOTATION_STORE).getAll());
-    await nyxLibraryAnnotationTransaction(readTx);
-    const existing = rows.find((item) => item.id === row.id);
-    if (!existing && rows.filter((item) => item.bookKey === row.bookKey).length >= NYX_LIBRARY_ANNOTATION_MAX_PER_BOOK) throw new Error('This book has too many personal marks. Delete a few before adding more.');
-    row.revision = existing ? Math.max(Number(existing.revision) || 1, Number(row.revision) || 1) + 1 : 1;
-    const writeTx = db.transaction(NYX_LIBRARY_ANNOTATION_STORE, 'readwrite');
-    writeTx.objectStore(NYX_LIBRARY_ANNOTATION_STORE).put(row);
-    await nyxLibraryAnnotationTransaction(writeTx);
+    const result = await nyxLibraryAnnotationReadwrite(options.indexedDB, (existingRows, store) => {
+      const finalRows = new Map(existingRows.map((row) => [String(row.id || ''), row]));
+      const before = ids.map((id) => finalRows.get(id)).filter(Boolean).map(nyxLibraryAnnotationSnapshotRow);
+      const effective = normalized.map((row) => {
+        if (options.incrementRevision !== true) return row;
+        const existing = finalRows.get(row.id);
+        return { ...row, revision:existing ? Math.max(Number(existing.revision) || 1, Number(row.revision) || 1) + 1 : 1 };
+      });
+      ids.forEach((id) => finalRows.delete(id));
+      effective.forEach((row) => finalRows.set(row.id, row));
+      const putBookKeys = new Set(effective.map((row) => row.bookKey));
+      for (const bookKey of putBookKeys) {
+        let count = 0;
+        finalRows.forEach((row) => { if (row?.bookKey === bookKey) count += 1; });
+        if (count > NYX_LIBRARY_ANNOTATION_MAX_PER_BOOK) throw new Error('This book has too many personal marks. Delete a few before adding more.');
+      }
+      ids.forEach((id) => store.delete(id));
+      effective.forEach((row) => store.put(row));
+      const after = ids.map((id) => finalRows.get(id)).filter(Boolean).map(nyxLibraryAnnotationSnapshotRow);
+      return { rows:effective, undo:nyxMakeLibraryAnnotationUndo(before, after) };
+    });
+    nyxLibraryAnnotationSubscribers.forEach((listener) => { try { listener(); } catch (error) {} });
+    return result;
   } catch (error) { throw nyxLibraryAnnotationFriendlyError(error); }
-  finally { db.close(); }
-  nyxLibraryAnnotationSubscribers.forEach((listener) => { try { listener(); } catch (error) {} });
-  return row;
+}
+
+async function nyxSaveLibraryAnnotation(input, options = {}){
+  const result = await nyxCommitLibraryAnnotationMutation([], [input], { ...options, incrementRevision:true });
+  return result.rows[0];
 }
 
 async function nyxReplaceLibraryAnnotations(deleteIds, rows, options = {}){
-  const normalized = (Array.isArray(rows) ? rows : []).map((row) => nyxNormalizeLibraryAnnotation(row, options));
-  const ids = [...new Set((Array.isArray(deleteIds) ? deleteIds : []).map((id) => nyxLibraryAnnotationToken(id, 180)).filter(Boolean))];
-  const db = await nyxOpenLibraryAnnotationDatabase(options.indexedDB);
+  return (await nyxCommitLibraryAnnotationMutation(deleteIds, rows, options)).rows;
+}
+
+async function nyxUndoLibraryAnnotations(input, options = {}){
+  const undo = input || {};
+  const ids = [...new Set((Array.isArray(undo.ids) ? undo.ids : [])
+    .map((id) => nyxLibraryAnnotationToken(id, 180)).filter(Boolean))];
+  const before = new Map();
+  const after = new Map();
+  ids.forEach((id) => {
+    const beforeRow = undo.before?.[id];
+    const afterRow = undo.after?.[id];
+    before.set(id, beforeRow ? nyxLibraryAnnotationSnapshotRow(beforeRow) : null);
+    after.set(id, afterRow ? nyxLibraryAnnotationSnapshotRow(afterRow) : null);
+  });
+  if (!ids.length) return { appliedIds:[], skippedIds:[] };
   try {
-    const readTx = db.transaction(NYX_LIBRARY_ANNOTATION_STORE, 'readonly');
-    const existing = await nyxLibraryAnnotationRequest(readTx.objectStore(NYX_LIBRARY_ANNOTATION_STORE).getAll());
-    await nyxLibraryAnnotationTransaction(readTx);
-    const finalRows = new Map(existing.map((row) => [String(row.id || ''), row]));
-    ids.forEach((id) => finalRows.delete(id));
-    normalized.forEach((row) => finalRows.set(row.id, row));
-    const putBookKeys = new Set(normalized.map((row) => row.bookKey));
-    for (const bookKey of putBookKeys) {
-      let count = 0;
-      finalRows.forEach((row) => { if (row?.bookKey === bookKey) count += 1; });
-      if (count > NYX_LIBRARY_ANNOTATION_MAX_PER_BOOK) throw new Error('This book has too many personal marks. Delete a few before adding more.');
-    }
-    const writeTx = db.transaction(NYX_LIBRARY_ANNOTATION_STORE, 'readwrite'); const store = writeTx.objectStore(NYX_LIBRARY_ANNOTATION_STORE);
-    ids.forEach((id) => store.delete(id)); normalized.forEach((row) => store.put(row));
-    await nyxLibraryAnnotationTransaction(writeTx);
+    const result = await nyxLibraryAnnotationReadwrite(options.indexedDB, (existing, store) => {
+      const current = new Map(existing.map((row) => [String(row.id || ''), row]));
+      const skippedIds = ids.filter((id) => {
+        try { return nyxLibraryAnnotationSnapshotSignature(current.get(id)) !== nyxLibraryAnnotationSnapshotSignature(after.get(id)); }
+        catch (error) { return true; }
+      });
+      // A formatting change may split one mark into several rows. Undo it as one
+      // atomic unit: if another tab changed any affected row, restore none of it.
+      if (skippedIds.length) return { appliedIds:[], skippedIds };
+      ids.forEach((id) => {
+        const restore = before.get(id);
+        if (restore) current.set(id, restore);
+        else current.delete(id);
+      });
+      const restoredBookKeys = new Set(ids.map((id) => before.get(id)?.bookKey).filter(Boolean));
+      for (const bookKey of restoredBookKeys) {
+        let count = 0;
+        current.forEach((row) => { if (row?.bookKey === bookKey) count += 1; });
+        if (count > NYX_LIBRARY_ANNOTATION_MAX_PER_BOOK) throw new Error('This book has too many personal marks. Delete a few before undoing this change.');
+      }
+      ids.forEach((id) => {
+        const restore = before.get(id);
+        if (restore) store.put(restore);
+        else store.delete(id);
+      });
+      return { appliedIds:ids, skippedIds:[] };
+    });
+    if (result.appliedIds.length) nyxLibraryAnnotationSubscribers.forEach((listener) => { try { listener(); } catch (error) {} });
+    return result;
   } catch (error) { throw nyxLibraryAnnotationFriendlyError(error); }
-  finally { db.close(); }
-  nyxLibraryAnnotationSubscribers.forEach((listener) => { try { listener(); } catch (error) {} });
-  return normalized;
 }
 
 async function nyxDeleteLibraryAnnotation(id, options = {}){ await nyxReplaceLibraryAnnotations([id], [], options); }

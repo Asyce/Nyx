@@ -889,7 +889,7 @@
       "Sword",
       "Mondstadt"
     ],
-    "ko": "",
+    "ko": "두린",
     "zh": "杜林",
     "ja": "ドゥリン"
   },
@@ -1503,7 +1503,7 @@
       "Bow",
       "Nod-Krai"
     ],
-    "ko": "",
+    "ko": "야호다",
     "zh": "雅珂达",
     "ja": "ヤフォダ"
   },
@@ -2157,7 +2157,7 @@
       "Other Weapons",
       "Monster"
     ],
-    "ko": "",
+    "ko": "무상의 물",
     "zh": "无相之水",
     "ja": "無相の水"
   },
@@ -3104,7 +3104,7 @@
       },
       {
         "cost_type": "GCG_COST_DICE_VOID",
-        "count": 2
+        "count": 1
       }
     ],
     "en": "Genesis of Starsigns",
@@ -3543,7 +3543,8 @@
     "icon": "UI_Gcg_CardFace_Modify_Talent_Modao_Klee",
     "cost": [
       {
-        "cost_type": "GCG_COST_INVALID"
+        "cost_type": "GCG_COST_DICE_PYRO",
+        "count": 1
       },
       {
         "cost_type": "GCG_COST_INVALID"

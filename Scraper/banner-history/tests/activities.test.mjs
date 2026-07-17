@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { expandActivity, validateActivity } from '../activities.mjs';
+import { expandActivity, reconcileActivityWindows, validateActivity } from '../activities.mjs';
 
 const biweekly = { id:'cycle', label:'Cycle', mode:'fixed', anchorStart:'2024-12-27T20:00:00.000Z', intervalDays:14, durationDays:14, resetHour:4, timezoneMode:'server-fixed', exceptions:[], sourceUrl:'https://official.example', verifiedAt:'2026-01-01T00:00:00Z' };
 test('fixed expansion crosses year and leap-year boundaries without DST drift', () => {
@@ -32,4 +32,25 @@ test('missing anchors, sources, and durations are rejected', () => {
   assert.throws(() => validateActivity({ ...biweekly, sourceUrl:'' }), /Invalid activity/);
   assert.throws(() => validateActivity({ ...biweekly, durationDays:null }), /no duration/);
   assert.throws(() => validateActivity({ id:'bad-dated',label:'Bad',mode:'dated',windows:[{dateStart:'2025-01-01'}],sourceUrl:'https://official.example',verifiedAt:'2026-01-01T00:00:00Z' }), /invalid window/);
+});
+
+test('fixed cadence is visibly Expected while sourced exceptions and dated windows are Exact', () => {
+  const forecast = expandActivity(biweekly, '2025-01-01T00:00:00Z', '2025-02-01T00:00:00Z', 'asia');
+  assert.ok(forecast.length);
+  assert.equal(forecast.every((row) => row.status === 'expected'), true);
+  const exception = { ...biweekly, exceptions:[{ region:'asia', start:'2025-01-10T20:00:00.000Z', window:{ start:'2025-01-10T20:00:00.000Z', end:'2025-01-24T19:59:59.000Z', timezone:'UTC+08:00', sourceUrl:'https://official.example/window' } }] };
+  assert.equal(expandActivity(exception, '2025-01-01T00:00:00Z', '2025-02-01T00:00:00Z', 'asia').find((row) => row.start === '2025-01-10T20:00:00.000Z').status, 'exact');
+});
+
+test('official exact windows replace only overlapping Expected forecasts', () => {
+  const region = (start, end) => ({ asia:{ start, end, timezone:'UTC+08:00', sourceUrl:'https://official.example' } });
+  const old = [
+    { id:'past', status:'exact', windowsByRegion:region('2025-01-01T00:00:00Z','2025-01-10T00:00:00Z') },
+    { id:'forecast-a', status:'expected', windowsByRegion:region('2026-01-01T00:00:00Z','2026-01-10T00:00:00Z') },
+    { id:'forecast-b', status:'expected', windowsByRegion:region('2026-02-01T00:00:00Z','2026-02-10T00:00:00Z') },
+  ];
+  const exact = [{ id:'official-a', windowsByRegion:region('2026-01-02T00:00:00Z','2026-01-09T00:00:00Z') }];
+  const rows = reconcileActivityWindows(old, exact);
+  assert.deepEqual(rows.map((row) => row.id).sort(), ['forecast-b','official-a','past']);
+  assert.equal(rows.find((row) => row.id === 'official-a').status, 'exact');
 });

@@ -5490,7 +5490,7 @@
       "key": "items",
       "title": "Items",
       "source": "GameData",
-      "count": 9970,
+      "count": 9721,
       "items": [
         {
           "id": "gi-item-101",
@@ -5568,17 +5568,6 @@
             "type": "Story Quest Access Item"
           },
           "text": "A key used to unlock Story Quests.\nObtained by completing the required number of Daily Commissions."
-        },
-        {
-          "id": "gi-item-108",
-          "name": "108",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108.webp",
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Item Virtual"
-          },
-          "text": ""
         },
         {
           "id": "gi-item-109",
@@ -6186,17 +6175,6 @@
           "text": "\"Waterborne Poetry\" Poetry Gala Fervor"
         },
         {
-          "id": "gi-item-165",
-          "name": "165",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Item Virtual"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-166",
           "name": "Thelxie's Badge",
           "kind": "item",
@@ -6580,17 +6558,6 @@
             "type": "Special Currency"
           },
           "text": "Currency of the realm. Used within the Serenitea Pot to exchange for various items."
-        },
-        {
-          "id": "gi-item-205",
-          "name": "205",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Special Currency"
-          },
-          "text": ""
         },
         {
           "id": "gi-item-206",
@@ -9352,17 +9319,6 @@
             "type": "Item Material"
           },
           "text": "Large Magnetic Energy Orb"
-        },
-        {
-          "id": "gi-item-2800",
-          "name": "2800",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Item Material"
-          },
-          "text": ""
         },
         {
           "id": "gi-item-3003",
@@ -14315,28 +14271,6 @@
           "text": "Segments from \"The Wrath of Haishan,\" mentioned by Liu Su, that features the story of The Crux..."
         },
         {
-          "id": "gi-item-100371",
-          "name": "100371",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100214.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-100372",
-          "name": "100372",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100214.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-100373",
           "name": "Ring of Raining Blades (I)",
           "kind": "item",
@@ -14357,17 +14291,6 @@
             "type": "Quest Item"
           },
           "text": "Segments from \"Ring of Raining Blades (II),\" mentioned by Liu Su, that features the story of the Guhua Clan..."
-        },
-        {
-          "id": "gi-item-100375",
-          "name": "100375",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100214.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
         },
         {
           "id": "gi-item-100376",
@@ -14599,17 +14522,6 @@
             "type": "Quest Item"
           },
           "text": "A box that's tightly sealed. The content must be important..."
-        },
-        {
-          "id": "gi-item-100397",
-          "name": "100397",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100214.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
         },
         {
           "id": "gi-item-100398",
@@ -14852,72 +14764,6 @@
             "type": "Quest Item"
           },
           "text": "A treasure map obtained from Bolai of a hidden treasure somewhere out there..."
-        },
-        {
-          "id": "gi-item-100420",
-          "name": "100420",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100214.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-100421",
-          "name": "100421",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100214.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-100422",
-          "name": "100422",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100214.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-100423",
-          "name": "100423",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100214.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-100424",
-          "name": "100424",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100214.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-100425",
-          "name": "100425",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100214.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
         },
         {
           "id": "gi-item-100426",
@@ -15338,17 +15184,6 @@
           "text": "The hidden treasure of Mt. Qingce contains enormous Energy."
         },
         {
-          "id": "gi-item-100468",
-          "name": "100468",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100214.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": "A report regarding the hidden treasure of Mt. Qingce."
-        },
-        {
           "id": "gi-item-100469",
           "name": "Draft Lines of Hilichurlian Poetry",
           "kind": "item",
@@ -15358,28 +15193,6 @@
             "type": "Quest Item"
           },
           "text": "A list of lines from Ella Musk. On the front are many terms in Hilichurlian, and the back has some simple footnotes regarding the content..."
-        },
-        {
-          "id": "gi-item-100470",
-          "name": "100470",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100229.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-100471",
-          "name": "100471",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100112.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
         },
         {
           "id": "gi-item-100472",
@@ -15976,28 +15789,6 @@
           "text": "A box with some leaves inside. Something feels unusual about it when you hold it in your hand, and you can't help but feel a little uneasy... can this box really contain these leaves?"
         },
         {
-          "id": "gi-item-100526",
-          "name": "100526",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100030.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-100527",
-          "name": "100527",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100030.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-100528",
           "name": "Treasure Hoarder's Key",
           "kind": "item",
@@ -16581,28 +16372,6 @@
           "text": "One of many drinking tales popularly told in Mondstadt. This wolf told a tale of wine and wolf to a drunken man of Mondstadt."
         },
         {
-          "id": "gi-item-100581",
-          "name": "100581",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100581.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-100582",
-          "name": "100582",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100582.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-100583",
           "name": "\"Dwelling in the Clouds\" Blueprints",
           "kind": "item",
@@ -16964,17 +16733,6 @@
             "type": "Quest Item"
           },
           "text": "It contains the investigations and observations into the cultural customs of the hilichurls by the \"Poet Laureate of Hilichurlian,\" Jacob Musk, a Mondstadt ecologist. This volume features mysterious hilichurls who live apart from the others."
-        },
-        {
-          "id": "gi-item-100616",
-          "name": "100616",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100616.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Quest Item"
-          },
-          "text": ""
         },
         {
           "id": "gi-item-100617",
@@ -17538,149 +17296,6 @@
           "text": "Orders written by Huffman. It's sealed up very tight. Best not to open it yourself..."
         },
         {
-          "id": "gi-item-100668",
-          "name": "100668",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100457.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-100669",
-          "name": "100669",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100458.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-100670",
-          "name": "100670",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100459.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-100671",
-          "name": "100671",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100625.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-100672",
-          "name": "100672",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-100673",
-          "name": "100673",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-100674",
-          "name": "100674",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-100675",
-          "name": "100675",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-100676",
-          "name": "100676",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-100677",
-          "name": "100677",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-100678",
-          "name": "100678",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100411.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-100679",
-          "name": "100679",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100411.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-100680",
-          "name": "100680",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100411.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-100681",
           "name": "Jiayi's Letter",
           "kind": "item",
@@ -17822,61 +17437,6 @@
             "type": "Quest Item"
           },
           "text": "An investigation journal found in the camp on the sunny side of Dragonspine.\nIts author seems to have been a member of the aristocracy that once ruled Mondstadt."
-        },
-        {
-          "id": "gi-item-100694",
-          "name": "100694",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100309.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-100695",
-          "name": "100695",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100316.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-100696",
-          "name": "100696",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100171.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-100697",
-          "name": "100697",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100172.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-100698",
-          "name": "100698",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100105.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
         },
         {
           "id": "gi-item-100699",
@@ -18121,28 +17681,6 @@
           "text": "Starsilver ore collected along the way. It looks similar to regular Starsilver, but upon closer inspection by Albedo, it can be used as an alchemical catalyst."
         },
         {
-          "id": "gi-item-100721",
-          "name": "100721",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_200001.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": "Dropped by the Fatui, hilichurls, and Abyss Mages. Can also be harvested from plants.\nCommon fibrous material that can be processed into lantern wrappings so that the lanterns can float away with their beautiful wishes.\nFound in Liyue."
-        },
-        {
-          "id": "gi-item-100722",
-          "name": "100722",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_200002.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": "Dropped by fluffy enemies and small animals. Can also be harvested from plants.\nCommon velvety material that can be processed into lantern wicks so that the lanterns can float away with their beautiful wishes.\nFound in Liyue."
-        },
-        {
           "id": "gi-item-100723",
           "name": "Dummy's Xiao Lantern",
           "kind": "item",
@@ -18163,17 +17701,6 @@
             "type": "Quest Item"
           },
           "text": "\"I wish for good fortune...\""
-        },
-        {
-          "id": "gi-item-100725",
-          "name": "100725",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100721.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
         },
         {
           "id": "gi-item-100726",
@@ -18691,17 +18218,6 @@
             "type": "Quest Item"
           },
           "text": "An ancient and mysterious item shaped like an ancient key. Where there's a key, there's a lock \u2014 but this key's lock is about to be breached by the defilement absorbed by the tree's roots.\nAccording to Hanachirusato, these wards are needed to conduct the Sacred Sakura Cleansing Ritual."
-        },
-        {
-          "id": "gi-item-100773",
-          "name": "100773",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100457.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
         },
         {
           "id": "gi-item-100774",
@@ -19364,17 +18880,6 @@
           "text": "A wooden plank that has partially rotted away. There seem to be some words carved on it..."
         },
         {
-          "id": "gi-item-100834",
-          "name": "100834",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100226.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-100835",
           "name": "Smaragdus Jadeite",
           "kind": "item",
@@ -19507,28 +19012,6 @@
           "text": "Fresh fish. What will Diona use it for, you wonder..."
         },
         {
-          "id": "gi-item-100847",
-          "name": "100847",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100226.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-100848",
-          "name": "100848",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100226.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-100849",
           "name": "Ragged List of Goods",
           "kind": "item",
@@ -19648,17 +19131,6 @@
             "type": "Quest Item"
           },
           "text": "A conch, but there's something strange about it. What could it be for?"
-        },
-        {
-          "id": "gi-item-100860",
-          "name": "100860",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100110.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": "Konda Village Missing Person Notice"
         },
         {
           "id": "gi-item-100861",
@@ -19914,28 +19386,6 @@
           "text": "A handwritten Mushroom Pizza recipe. Perhaps food prepared using various different methods might result in a unique flavor."
         },
         {
-          "id": "gi-item-100887",
-          "name": "100887",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100101.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-100888",
-          "name": "100888",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100101.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-100889",
           "name": "Chef Mao's Special Jueyun Chili Chicken",
           "kind": "item",
@@ -20123,17 +19573,6 @@
           "text": "A \"film script\" you obtained from Xavier."
         },
         {
-          "id": "gi-item-100906",
-          "name": "100906",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100105.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-100907",
           "name": "A Note Left by Someone",
           "kind": "item",
@@ -20220,17 +19659,6 @@
             "type": "Quest Item"
           },
           "text": "A bamboo slip that was used as a marking in some unremarkable spot. Can be exchanged with Gendou Ringo of the Grand Narukami Shrine for fortune-telling Fortune Slips."
-        },
-        {
-          "id": "gi-item-100915",
-          "name": "100915",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100789.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
         },
         {
           "id": "gi-item-100916",
@@ -20638,28 +20066,6 @@
             "type": "Quest Item"
           },
           "text": "The item that Sumida sent you to find.\nThis Maushiro appears to have been left behind by someone before they left Tsurumi Island.\nAccording to what Ruu tells you, the Maushiro are not musical instruments. Instead, they were used by the locals as a means of locating one another amidst the fog that shrouded their home."
-        },
-        {
-          "id": "gi-item-100953",
-          "name": "100953",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100302.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-100954",
-          "name": "100954",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100302.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
         },
         {
           "id": "gi-item-100955",
@@ -21089,17 +20495,6 @@
             "type": "Quest Item"
           },
           "text": "Beans you got from Sango. Arataki Itto seems to be allergic to beans, so these may prove to be useful tools in stopping him from resisting too much.\nSango says they're not free, though. Hopefully they don't cost too much..."
-        },
-        {
-          "id": "gi-item-100994",
-          "name": "100994",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_130015.webp",
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Quest Item"
-          },
-          "text": ""
         },
         {
           "id": "gi-item-100995",
@@ -22301,17 +21696,6 @@
           "text": "Segments of bamboo that are light and far stronger than their humble appearance might suggest. It lets off a light fragrance.\nCan be used to create furnishings."
         },
         {
-          "id": "gi-item-101306",
-          "name": "101306",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "1 \u2605",
-            "type": "Material"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-101307",
           "name": "Fragrant Cedar Wood",
           "kind": "item",
@@ -22785,17 +22169,6 @@
           "text": "A realm dispatch that you obtained from Tubby. It seems to be able to allow your companions to come and go in your realm as they please...\nAfter acquiring this item, you can invite companions to reside in your Serenitea Pot from the Placement Screen."
         },
         {
-          "id": "gi-item-101516",
-          "name": "101516",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_220018.webp",
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Gadget"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-101517",
           "name": "Special Sakura Bloom",
           "kind": "item",
@@ -23214,39 +22587,6 @@
           "text": "The preliminary volume of the \"Flowers for Princess Fischl\" series.\nThis work originally came in a violet and black wooden box as a limited edition gift, but many hardcore fans of the series who wanted to collect the whole saga were enraged by the great amount of content versus the small number of copies printed.\nDue to this, Yae Publishing House would name this book \"Volume 0\" and sell it separately. Eventually, the original work, the boxed collector's edition, and Volume 0 would all come to be regarded as standard by fans."
         },
         {
-          "id": "gi-item-101555",
-          "name": "101555",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101507.webp",
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-101556",
-          "name": "101556",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101507.webp",
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-101557",
-          "name": "101557",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101507.webp",
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-101558",
           "name": "Teyvat Travel Guide - Inazuma",
           "kind": "item",
@@ -23333,17 +22673,6 @@
             "type": "Quest Item"
           },
           "text": "Rope obtained from a Treasure Hoarder camp. You can use it for repairs."
-        },
-        {
-          "id": "gi-item-101574",
-          "name": "101574",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100302.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
         },
         {
           "id": "gi-item-101575",
@@ -24226,17 +23555,6 @@
           "text": "Incense you got from Wang Ping'an. Looks to be of good quality."
         },
         {
-          "id": "gi-item-101658",
-          "name": "101658",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100302.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-101659",
           "name": "Curious Cube",
           "kind": "item",
@@ -24567,17 +23885,6 @@
           "text": "\"By blending many styles together, this seemingly thin book transports you into a great many tales. I can only imagine that its author must also be a very interesting person. I happen to know someone like that, in fact \u2014 something that lends this book a very familiar touch.\" \u2014 Ms. Hina"
         },
         {
-          "id": "gi-item-101689",
-          "name": "101689",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101692.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Consumable"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-101690",
           "name": "Muning's Note",
           "kind": "item",
@@ -24818,17 +24125,6 @@
             "type": "Quest Item"
           },
           "text": "A letter you found off one of the Black Serpent Knights. The name of the letter's recipient is neatly written: \"Katarina Snezhevna, My Dear Elder Sister,\" while the sender's name is written somewhat haphazardly, though you can make out the words \"Your Brother, Nikolay Snezhevich.\""
-        },
-        {
-          "id": "gi-item-101713",
-          "name": "101713",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101692.webp",
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Consumable"
-          },
-          "text": ""
         },
         {
           "id": "gi-item-101714",
@@ -25337,39 +24633,6 @@
           "text": "A complete nautical chart pieced together after all four parts of the clue were collected, leading to the treasure hidden by Ako Domeki and company before they left this place."
         },
         {
-          "id": "gi-item-101761",
-          "name": "101761",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_71700047.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-101762",
-          "name": "101762",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_71700047.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-101763",
-          "name": "101763",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_71700047.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-101764",
           "name": "\"Outlander Brigade: When the Wind of Death Blew Towards the Blond Samurai\" Script",
           "kind": "item",
@@ -25513,28 +24776,6 @@
           "text": "One of the ingredients for making the elixir Arahaoma. \"Barsam\" is said to be a sacred tree that has long vanished in history."
         },
         {
-          "id": "gi-item-101777",
-          "name": "101777",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100302.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-101778",
-          "name": "101778",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100302.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-101779",
           "name": "Arahaoma",
           "kind": "item",
@@ -25577,138 +24818,6 @@
             "type": "Quest Item"
           },
           "text": "A thick soup that Jinwu made for sick miners. It's nutritious, fragrant, and makes you feel warm inside when you drink it.\nDon't let it go cold, now."
-        },
-        {
-          "id": "gi-item-101783",
-          "name": "101783",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108087.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-101784",
-          "name": "101784",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108087.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-101785",
-          "name": "101785",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108087.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-101786",
-          "name": "101786",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108087.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-101787",
-          "name": "101787",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108087.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-101788",
-          "name": "101788",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108087.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-101789",
-          "name": "101789",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108087.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-101790",
-          "name": "101790",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108087.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-101791",
-          "name": "101791",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108087.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-101792",
-          "name": "101792",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108087.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-101793",
-          "name": "101793",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108087.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-101794",
-          "name": "101794",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_108087.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
         },
         {
           "id": "gi-item-101795",
@@ -25874,17 +24983,6 @@
             "type": "Quest Item"
           },
           "text": "A fruit with mysterious powers.\nBija is indispensable for helping Rana, and the Vasoma Fruit is indispensable for obtaining Bija."
-        },
-        {
-          "id": "gi-item-101810",
-          "name": "101810",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101810.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
         },
         {
           "id": "gi-item-101811",
@@ -26105,17 +25203,6 @@
             "type": "Quest Item"
           },
           "text": "A flower gifted by Arakanta.\nArakanta used to love hanging out with Rishboland Tigers. But now, he has created a new game for his Nara friend."
-        },
-        {
-          "id": "gi-item-101831",
-          "name": "101831",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100770.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
         },
         {
           "id": "gi-item-101832",
@@ -26778,17 +25865,6 @@
           "text": "You found this note in the mysterious space. Its content seems similar to that of a journal."
         },
         {
-          "id": "gi-item-101895",
-          "name": "101895",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100302.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-101896",
           "name": "Crystalline Core",
           "kind": "item",
@@ -26965,17 +26041,6 @@
           "text": "Special \"Concresoil\" Akim made for Nima. What kind of pot warriors will Nima make with it?"
         },
         {
-          "id": "gi-item-101912",
-          "name": "101912",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100101.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-101913",
           "name": "Whopperflower Root Soil",
           "kind": "item",
@@ -27031,17 +26096,6 @@
           "text": "A key found in the Golden Apple Archipelago, seemingly able to open a lock somewhere..."
         },
         {
-          "id": "gi-item-101918",
-          "name": "101918",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100302.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-101919",
           "name": "Special Bird Egg",
           "kind": "item",
@@ -27095,17 +26149,6 @@
             "type": "Quest Item"
           },
           "text": "Sweet Flower needed for making Angler Kayvan's special bait. For some reason, Sweet Flowers of this kind hold some appeal for monsters such that they would willingly collect them..."
-        },
-        {
-          "id": "gi-item-101924",
-          "name": "101924",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100316.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
         },
         {
           "id": "gi-item-101925",
@@ -27779,17 +26822,6 @@
           "text": "A stone plate with ancient text on it that seems to have once been part of a certain building. The desert sands play host to many an unknown wish. Who made them, and who carries them now? The civilization from the era of King Deshret had different words for dunes of different shapes, something that has brought researchers no lack of headaches."
         },
         {
-          "id": "gi-item-101986",
-          "name": "101986",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-101987",
           "name": "Golden Rose Seeds",
           "kind": "item",
@@ -28019,39 +27051,6 @@
             "type": "Consumable"
           },
           "text": "A shard that broke off a larger Elemental Crystal. Gives 50 Elemental Energy when absorbed."
-        },
-        {
-          "id": "gi-item-102009",
-          "name": "102009",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101796.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-102010",
-          "name": "102010",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101796.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-102011",
-          "name": "102011",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101796.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
         },
         {
           "id": "gi-item-103001",
@@ -47392,105 +46391,6 @@
           "text": "Weapon Ascension Material.\nWith the unblessed birth of the prophesied son, a millennia-long plan ushered in a bleak twilight.\nA scheme born of cunning was shattered by foolish betrayal. The youth who was supposed to be king took the maid who was supposed to serve him and stole the secret treasure that was supposed to be his, only to reject the crowns that fate had ordained for him.\nIn time, the king who was destined to rule Elysium went down in history as an unpardonable thief, and by the time the true new moon shone upon the land, the far north's final wish of golden grandeur had already been buried by a priestess, who had never believed in any god, in the empty grave of her king."
         },
         {
-          "id": "gi-item-115001",
-          "name": "115001",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_114001.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Bundle"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-115002",
-          "name": "115002",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_114002.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Bundle"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-115003",
-          "name": "115003",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_114003.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Bundle"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-115004",
-          "name": "115004",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_114004.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Bundle"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-115005",
-          "name": "115005",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_114005.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Bundle"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-115006",
-          "name": "115006",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_114006.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Bundle"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-115007",
-          "name": "115007",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_114007.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Bundle"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-115008",
-          "name": "115008",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_114008.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Bundle"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-115009",
-          "name": "115009",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_114009.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Bundle"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-115010",
           "name": "Starter Supply Bundle",
           "kind": "item",
@@ -47962,28 +46862,6 @@
             "type": "Bundle"
           },
           "text": "You reached an epiphany during your travels in Liyue, the land of Geo. The collection of items within can be used to upgrade your Talents.\n\nAfter using this item, you may select one of the following rewards:\n\u00b7Philosophies of Prosperity\n\u00b7Philosophies of Diligence\n\u00b7Philosophies of Gold"
-        },
-        {
-          "id": "gi-item-116008",
-          "name": "116008",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_116008.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Bundle"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-116009",
-          "name": "116009",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_116009.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Bundle"
-          },
-          "text": ""
         },
         {
           "id": "gi-item-116010",
@@ -48646,17 +47524,6 @@
           "text": "An ancient and mysterious roll of parchment. It looks like a note left by an adventurer."
         },
         {
-          "id": "gi-item-120010",
-          "name": "120010",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_120010.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-120011",
           "name": "Withered Kusava",
           "kind": "item",
@@ -49141,17 +48008,6 @@
           "text": "The words on this prescription resemble nothing so much as a serpentine dance. You can barely make out the phrases \"Starshroom,\" \"turn the high flame down low,\" and \"the herbal soup deepens in color.\""
         },
         {
-          "id": "gi-item-120055",
-          "name": "120055",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100101.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-120056",
           "name": "Zakariya's Medicine for Maruf",
           "kind": "item",
@@ -49161,28 +48017,6 @@
             "type": "Quest Item"
           },
           "text": "The medicine that Zakariya has made for Maruf. It smells and looks like something bitterly terrible..."
-        },
-        {
-          "id": "gi-item-120057",
-          "name": "120057",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112059.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120058",
-          "name": "120058",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101219.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
         },
         {
           "id": "gi-item-120059",
@@ -49196,17 +48030,6 @@
           "text": "Judging by the wording, it seems to be a notebook that Dunyarzad has left behind. If the writer's hands hadn't turned shaky under the influence of Eleazar, the gracefully-penned writings could appear more elegant."
         },
         {
-          "id": "gi-item-120060",
-          "name": "120060",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100101.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-120061",
           "name": "Nermin's Minty Bean Soup",
           "kind": "item",
@@ -49216,17 +48039,6 @@
             "type": "Quest Item"
           },
           "text": "A serving of Minty Bean Soup that Nermin made herself. She even added Zaytun Peaches to it. It should taste quite good, you think..."
-        },
-        {
-          "id": "gi-item-120062",
-          "name": "120062",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100101.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
         },
         {
           "id": "gi-item-120063",
@@ -49471,17 +48283,6 @@
           "text": "An invoice that Georg wrote for Guanchui. It records the price for the 100 boxes of Fruits of the Festival, the details of various fees, the transaction time, and the estimated time when the goods will arrive. This will surely put the client at ease."
         },
         {
-          "id": "gi-item-120085",
-          "name": "120085",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100105.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-120086",
           "name": "Soulferry",
           "kind": "item",
@@ -49524,17 +48325,6 @@
             "type": "Quest Item"
           },
           "text": "A chess piece placed in the temple of Gurabad. This piece resembles the grand monument dedicated to King Deshret's ancient civilization."
-        },
-        {
-          "id": "gi-item-120090",
-          "name": "120090",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100105.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
         },
         {
           "id": "gi-item-120091",
@@ -49612,17 +48402,6 @@
             "type": "Quest Item"
           },
           "text": "An activatable device for a chess piece. Only the Jinn that served King Deshret can understand the complexities of its mechanisms."
-        },
-        {
-          "id": "gi-item-120098",
-          "name": "120098",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100302.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
         },
         {
           "id": "gi-item-120099",
@@ -49909,17 +48688,6 @@
             "type": "Quest Item"
           },
           "text": "During certain seasons, the Bamboo Shoots grown in Qingce Village will release a most delectable fragrance, the scent betraying its status as a most vaunted ingredient for certain recipes."
-        },
-        {
-          "id": "gi-item-120125",
-          "name": "120125",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100003.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
         },
         {
           "id": "gi-item-120126",
@@ -50364,138 +49132,6 @@
         {
           "id": "gi-item-120166",
           "name": "\"The Isle of Darkling Clouds\"",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100101.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120167",
-          "name": "120167",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100101.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120168",
-          "name": "120168",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100101.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120169",
-          "name": "120169",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100101.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120170",
-          "name": "120170",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100101.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120171",
-          "name": "120171",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100101.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120172",
-          "name": "120172",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100101.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120173",
-          "name": "120173",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100101.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120174",
-          "name": "120174",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100101.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120175",
-          "name": "120175",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100101.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120176",
-          "name": "120176",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100101.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120177",
-          "name": "120177",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100101.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120178",
-          "name": "120178",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100101.webp",
           "fields": {
@@ -50978,17 +49614,6 @@
           "text": "A mysterious key held by the Matriarch of the Tanit tribe. It should be able to open a certain door somewhere..."
         },
         {
-          "id": "gi-item-120222",
-          "name": "120222",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101701.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-120223",
           "name": "Plump Harra Fruit",
           "kind": "item",
@@ -51352,17 +49977,6 @@
           "text": ""
         },
         {
-          "id": "gi-item-120256",
-          "name": "120256",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_120001.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-120257",
           "name": "Venti's Note",
           "kind": "item",
@@ -51713,17 +50327,6 @@
             "type": "Quest Item"
           },
           "text": "An energy block of refined Azosite formed via the condensation of pure elemental energy. It seems that they can be used as an energy source for large-scale power systems."
-        },
-        {
-          "id": "gi-item-120289",
-          "name": "120289",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_120289.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
         },
         {
           "id": "gi-item-120290",
@@ -52122,17 +50725,6 @@
           "text": "Someone's Memo"
         },
         {
-          "id": "gi-item-120326",
-          "name": "120326",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_120001.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-120327",
           "name": "Locator",
           "kind": "item",
@@ -52142,83 +50734,6 @@
             "type": "Quest Item"
           },
           "text": "A Kshahrewar invention. When contestants carry these tracking devices, the locator can display their general locations. Additionally, should the contestants successfully complete their tasks, the locator will also sound."
-        },
-        {
-          "id": "gi-item-120328",
-          "name": "120328",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_120001.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120329",
-          "name": "120329",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_120001.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120330",
-          "name": "120330",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_120001.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120331",
-          "name": "120331",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_120001.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120332",
-          "name": "120332",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_120001.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120333",
-          "name": "120333",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_120001.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120334",
-          "name": "120334",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_120001.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
         },
         {
           "id": "gi-item-120335",
@@ -52285,17 +50800,6 @@
             "type": "Quest Item"
           },
           "text": "A prop book that has been hollowed out and had digging tools put into it. Of course, as a stage prop, its other pages have long been stuck together. But then again, the \"content\" of a book is sometimes more important than its... content."
-        },
-        {
-          "id": "gi-item-120341",
-          "name": "120341",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_120341.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
         },
         {
           "id": "gi-item-120342",
@@ -52661,17 +51165,6 @@
           "text": "A new fishing aid developed by Delaroche that applies the principles of odor analysis and advanced bait mimicry. It is said that its effect is \"very powerful.\" You can tell by the appearance that Delaroche thinks the world of this bait, with protective wrapping and a special bag. However, it is unknown whether such meticulous measures will affect the basic function of the bait \u2014 even if it attracts fish, the fish themselves may be unable to even find a way to bite down upon it."
         },
         {
-          "id": "gi-item-120375",
-          "name": "120375",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_120008.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-120376",
           "name": "Submerged Box",
           "kind": "item",
@@ -52716,28 +51209,6 @@
           "text": "It should be able to open a certain door in the Institute of Natural Philosophy."
         },
         {
-          "id": "gi-item-120380",
-          "name": "120380",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_120380.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120381",
-          "name": "120381",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-120382",
           "name": "Beautifully-Wrapped Gift Box",
           "kind": "item",
@@ -52769,17 +51240,6 @@
             "type": "Quest Item"
           },
           "text": "An overwhelmingly heavy pack, containing large quantities of paint. How will Depierris put these paints to use..."
-        },
-        {
-          "id": "gi-item-120385",
-          "name": "120385",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112038.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
         },
         {
           "id": "gi-item-120386",
@@ -52956,17 +51416,6 @@
             "type": "Quest Item"
           },
           "text": "\"A milestone in the science of success, this masterpiece written by a true genius is an absolute must-read!\"\nAn exceptional book emphatically recommended by the editor of La Gouttiere, titans of the business world, and researchers at the Fontaine Research Institute!\nIt will impart deep insights and understanding into the abyss of human nature, a truly incomparable contribution to the science and art of success!"
-        },
-        {
-          "id": "gi-item-120402",
-          "name": "120402",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100229.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
         },
         {
           "id": "gi-item-120403",
@@ -53266,28 +51715,6 @@
           "text": "A flowery accessory given away by Lyney at his magic shows. It is an arrangement of Lumidouce Bells, which symbolize parting, and Rainbow Roses that represent passion. Parting and passion are two separate perspectives sharing the same nature. What really matters is the present that we are living in."
         },
         {
-          "id": "gi-item-120430",
-          "name": "120430",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101814.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120431",
-          "name": "120431",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101814.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-120432",
           "name": "Red Stone",
           "kind": "item",
@@ -53319,17 +51746,6 @@
             "type": "Quest Item"
           },
           "text": "A holy sword that bears a special meaning in a certain story.\nIt belongs to no one."
-        },
-        {
-          "id": "gi-item-120435",
-          "name": "120435",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101104.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
         },
         {
           "id": "gi-item-120436",
@@ -53475,17 +51891,6 @@
           "text": "Said to be the key to the World of Intense Purity. In reality, it is a fluid, and thus can easily change shape to fit into any keyhole."
         },
         {
-          "id": "gi-item-120449",
-          "name": "120449",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-120450",
           "name": "Paimon's \"Food Fund\"",
           "kind": "item",
@@ -53495,39 +51900,6 @@
             "type": "Consumable"
           },
           "text": "Paimon used part of her personal \"Food Fund\" to pay for your commission fee. Hmm, now that you think about it, she probably has more squirreled away, doesn't she?"
-        },
-        {
-          "id": "gi-item-120451",
-          "name": "120451",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_Icon_Item_Temp.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120452",
-          "name": "120452",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_Icon_Item_Temp.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120453",
-          "name": "120453",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_Icon_Item_Temp.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
         },
         {
           "id": "gi-item-120454",
@@ -53829,17 +52201,6 @@
         {
           "id": "gi-item-120481",
           "name": "Ancient Log",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120482",
-          "name": "120482",
           "kind": "item",
           "art": null,
           "fields": {
@@ -54311,17 +52672,6 @@
           "text": "A widget that has been processed within the production zone."
         },
         {
-          "id": "gi-item-120525",
-          "name": "120525",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_Icon_Item_Temp.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-120526",
           "name": "Pankration Fonta Cup",
           "kind": "item",
@@ -54399,39 +52749,6 @@
           "text": "Damaged Diary"
         },
         {
-          "id": "gi-item-120533",
-          "name": "120533",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_120522.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120534",
-          "name": "120534",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_120522.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120535",
-          "name": "120535",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_120522.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-120536",
           "name": "Sir Arthur's Wing",
           "kind": "item",
@@ -54465,17 +52782,6 @@
           "text": "A clockwork head that belonged to Sir Arthur.\nWhat the criminal did was unforgivable!"
         },
         {
-          "id": "gi-item-120539",
-          "name": "120539",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_120522.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-120540",
           "name": "Leftover Poissonchant Pie",
           "kind": "item",
@@ -54485,39 +52791,6 @@
             "type": "Quest Item"
           },
           "text": "It looks cute, but might cause stomach problems later..."
-        },
-        {
-          "id": "gi-item-120541",
-          "name": "120541",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_120522.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120542",
-          "name": "120542",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_120522.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120543",
-          "name": "120543",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_120522.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
         },
         {
           "id": "gi-item-120544",
@@ -54590,39 +52863,6 @@
           "name": "Letter to the Editor-in-Chief (Draft)",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_120522.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120551",
-          "name": "120551",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_120522.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120552",
-          "name": "120552",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101629.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120553",
-          "name": "120553",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101629.webp",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
@@ -55983,248 +54223,6 @@
           "text": ""
         },
         {
-          "id": "gi-item-120677",
-          "name": "120677",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101629.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120678",
-          "name": "120678",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101629.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120679",
-          "name": "120679",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101629.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120680",
-          "name": "120680",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101629.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120681",
-          "name": "120681",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101629.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120682",
-          "name": "120682",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101629.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120683",
-          "name": "120683",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101629.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120684",
-          "name": "120684",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101629.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120685",
-          "name": "120685",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101629.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120686",
-          "name": "120686",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101629.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120687",
-          "name": "120687",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101629.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120688",
-          "name": "120688",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101629.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120689",
-          "name": "120689",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101629.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120690",
-          "name": "120690",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101629.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120691",
-          "name": "120691",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101629.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120692",
-          "name": "120692",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101629.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120693",
-          "name": "120693",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101629.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120694",
-          "name": "120694",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101629.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120695",
-          "name": "120695",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101629.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120696",
-          "name": "120696",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101629.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120697",
-          "name": "120697",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101629.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120698",
-          "name": "120698",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101629.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-120699",
           "name": "Blanche's Letter",
           "kind": "item",
@@ -56434,17 +54432,6 @@
           "text": "An exit card issued by the Fortress of Meropide. It's just a piece of paper, but it has been given a name most heartening."
         },
         {
-          "id": "gi-item-120727",
-          "name": "120727",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100540.webp",
-          "fields": {
-            "rarity": "5 \u2605",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-120730",
           "name": "Root Cycle",
           "kind": "item",
@@ -56509,94 +54496,6 @@
             "type": "Quest Item"
           },
           "text": "One of the keys that opens the iron barrier on the shattered vessel."
-        },
-        {
-          "id": "gi-item-120736",
-          "name": "120736",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100302.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120737",
-          "name": "120737",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100302.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120738",
-          "name": "120738",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100302.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120739",
-          "name": "120739",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100302.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120740",
-          "name": "120740",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100302.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120741",
-          "name": "120741",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100302.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120742",
-          "name": "120742",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100302.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120743",
-          "name": "120743",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100302.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
         },
         {
           "id": "gi-item-120744",
@@ -56685,17 +54584,6 @@
             "type": "Quest Item"
           },
           "text": "A commonly-seen coin pouch filled with Mora."
-        },
-        {
-          "id": "gi-item-120752",
-          "name": "120752",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100302.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
         },
         {
           "id": "gi-item-120753",
@@ -57314,17 +55202,6 @@
           "text": "A Lumitoile collected from the seafloor. The shape is stellar and the color charming. It should be usable as a clothing accessory."
         },
         {
-          "id": "gi-item-120811",
-          "name": "120811",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112025.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-120812",
           "name": "Forgotten Key (I)",
           "kind": "item",
@@ -57345,17 +55222,6 @@
             "type": "Quest Item"
           },
           "text": "A key that seems to have been lost in the wilderness of Chenyu Vale. What could it be used for...?"
-        },
-        {
-          "id": "gi-item-120814",
-          "name": "120814",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100302.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
         },
         {
           "id": "gi-item-120815",
@@ -57677,17 +55543,6 @@
           "text": "This ledger found in the Wangshan Hall contains detailed records of every last income and expenditure item."
         },
         {
-          "id": "gi-item-120844",
-          "name": "120844",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100302.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-120845",
           "name": "Votive Rainjade",
           "kind": "item",
@@ -57697,61 +55552,6 @@
             "type": "Quest Item"
           },
           "text": "The final gemstone hurled by the Adeptus Fujin in ancient times. Although it looks pretty much the same as other ordinary jade stones, it contains enough adeptal energy to transform the nearby water and land in an instant..."
-        },
-        {
-          "id": "gi-item-120846",
-          "name": "120846",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100302.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120847",
-          "name": "120847",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100302.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120848",
-          "name": "120848",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100302.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120849",
-          "name": "120849",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100302.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120850",
-          "name": "120850",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100302.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
         },
         {
           "id": "gi-item-120851",
@@ -57851,17 +55651,6 @@
             "type": "Adventure Item"
           },
           "text": "An obsidian ring with engraved patterns styled like those of the Children of Echoes. It is an ancient medium by which the tribe established contact with the deep night. Perhaps its strength can allow you to cross the boundary between this place and a certain other location..."
-        },
-        {
-          "id": "gi-item-120860",
-          "name": "120860",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101629.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
         },
         {
           "id": "gi-item-120861",
@@ -58150,17 +55939,6 @@
           "text": "A key to a Saurian Cart with notched patterns that tend toward its rear. Perhaps this might open the door of quite a special cart indeed."
         },
         {
-          "id": "gi-item-120887",
-          "name": "120887",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100302.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-120888",
           "name": "Brickstacks Long-Range Lamp",
           "kind": "item",
@@ -58306,94 +56084,6 @@
         {
           "id": "gi-item-120901",
           "name": "Nameless Artisan's Memo",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100003.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120902",
-          "name": "120902",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100003.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120903",
-          "name": "120903",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100003.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120904",
-          "name": "120904",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100003.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120905",
-          "name": "120905",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100003.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120906",
-          "name": "120906",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100003.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120907",
-          "name": "120907",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100003.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120908",
-          "name": "120908",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100003.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120909",
-          "name": "120909",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100003.webp",
           "fields": {
@@ -59008,28 +56698,6 @@
           "text": "A fragment of a shattered Iridescent Inscription. It is broken beyond repair and can no longer serve its purpose. Though dismissed by many as delusional obsession, some still believe they hold the key to unraveling messages from ancient civilizations."
         },
         {
-          "id": "gi-item-120966",
-          "name": "120966",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120967",
-          "name": "120967",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-120968",
           "name": "Golden Entreaty",
           "kind": "item",
@@ -59129,72 +56797,6 @@
           "text": "A book that commemorates the participants in this game of \"Marechaussee Hunter: Judgment Day.\" For both players and Game Master, it is full of memories of your adventures together. \"And so shall I never despair\"... Perhaps this exhortation holds a deeper meaning for the one who played the Marechaussee Hunter?"
         },
         {
-          "id": "gi-item-120978",
-          "name": "120978",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100302.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120979",
-          "name": "120979",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100003.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120980",
-          "name": "120980",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100302.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120981",
-          "name": "120981",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100302.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120982",
-          "name": "120982",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100003.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-120983",
-          "name": "120983",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100302.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-120984",
           "name": "\"Uthabiti\"",
           "kind": "item",
@@ -59204,17 +56806,6 @@
             "type": "Quest Item"
           },
           "text": "Kachina's Ancient Name. This plain, unadorned obsidian seems to be a bit heavier than expected. It is said you can use it to find Kachina's approximate location..."
-        },
-        {
-          "id": "gi-item-120985",
-          "name": "120985",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_120985.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
         },
         {
           "id": "gi-item-120986",
@@ -59690,17 +57281,6 @@
           "text": "A map left behind by the first chief of the People of the Springs. It is said to indicate the route to the mysterious island, yet only skilled guides can decipher its secrets."
         },
         {
-          "id": "gi-item-121029",
-          "name": "121029",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100101.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-121030",
           "name": "Amina's Coin Pouch",
           "kind": "item",
@@ -59743,17 +57323,6 @@
             "type": "Quest Item"
           },
           "text": "High-end camping gear that Mualani has bought for this adventure."
-        },
-        {
-          "id": "gi-item-121034",
-          "name": "121034",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100101.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
         },
         {
           "id": "gi-item-121035",
@@ -60097,17 +57666,6 @@
           "text": "A woven scroll that depicts the legend of the hero Traore, a favorite among the children of the Nanatzcayan."
         },
         {
-          "id": "gi-item-121066",
-          "name": "121066",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121066.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-121067",
           "name": "Rust-Spotted Key",
           "kind": "item",
@@ -60271,17 +57829,6 @@
             "type": "Quest Item"
           },
           "text": "Notes left by an adventurer of an unknown era. In them, they recorded their adventures in Ochkanatlan."
-        },
-        {
-          "id": "gi-item-121082",
-          "name": "121082",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_120280.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
         },
         {
           "id": "gi-item-121083",
@@ -60471,17 +58018,6 @@
           "text": "An incomplete notebook in which Tepal has recorded his obsessions and dreams."
         },
         {
-          "id": "gi-item-121100",
-          "name": "121100",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100148.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-121101",
           "name": "Key Found by the \"Painted Stone Challenge\" Podium",
           "kind": "item",
@@ -60585,28 +58121,6 @@
           "name": "Pakpaka Flying School Flying Tournament Invitation Letter",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100242.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-121117",
-          "name": "121117",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100242.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-121118",
-          "name": "121118",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121118.webp",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
@@ -61217,17 +58731,6 @@
             "type": "Quest Item"
           },
           "text": "Crackers shaped like little Saurians. The enticing aroma of butter draws forth the delightful, irresistible interplay between the Cacahuatl and Grainfruit, while the cute shapes make them truly hard to put down... Be that as it may, you received these treats on the parade of blessings and it might be nicer to keep them as an uneaten memento."
-        },
-        {
-          "id": "gi-item-121174",
-          "name": "121174",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100001.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Quest Item"
-          },
-          "text": ""
         },
         {
           "id": "gi-item-121175",
@@ -61934,17 +59437,6 @@
           "text": "A memento to remind you of the roaring success that you and your companions achieved with the Chevalmarin Film Fantasyland. You drew this map together in a whimsical, storybook style, ensuring every enchanting attraction and adorable landmark stands out. Of course, the most important features are the friends who came to visit. Following Furina's advice, you added a snowy white beard to her portrait, like a coating of sweet cream, making sure the entire map \"sounds delicious\"..."
         },
         {
-          "id": "gi-item-121239",
-          "name": "121239",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100084.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-121240",
           "name": "Portable Kuuvahki Charging Component",
           "kind": "item",
@@ -62035,17 +59527,6 @@
         {
           "id": "gi-item-121248",
           "name": "Rekis's Orders",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100229.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-121249",
-          "name": "121249",
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100229.webp",
           "fields": {
@@ -62306,39 +59787,6 @@
             "type": "Quest Item"
           },
           "text": "After completing Skirk's rigorous training, you and she compiled a summary of your experiences, documenting your relentless efforts and her grueling trials. Though the training has ended, revisiting these records can still yield invaluable insights..."
-        },
-        {
-          "id": "gi-item-121273",
-          "name": "121273",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-121274",
-          "name": "121274",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-121275",
-          "name": "121275",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
         },
         {
           "id": "gi-item-121276",
@@ -62979,17 +60427,6 @@
           "text": "A cassette that seems to be used by the Fatui for storing data. Who knows what information this one contains?"
         },
         {
-          "id": "gi-item-121336",
-          "name": "121336",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121336.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": "???"
-        },
-        {
           "id": "gi-item-121337",
           "name": "Neatly-Written Note",
           "kind": "item",
@@ -63045,28 +60482,6 @@
           "text": "Densely covered with writing, the meaning of which is difficult to make out."
         },
         {
-          "id": "gi-item-121342",
-          "name": "121342",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121146.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-121343",
-          "name": "121343",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121146.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-121344",
           "name": "Conch-Patterned Notebook",
           "kind": "item",
@@ -63109,28 +60524,6 @@
             "type": "Quest Item"
           },
           "text": "A device developed by Fanngel for the collection of data from high-altitude experiments.\nIts data collection module has been removed, but it can still block damage from lightning strikes. Although it only seems to be effective against the special lightning strikes in Nod-Krai..."
-        },
-        {
-          "id": "gi-item-121348",
-          "name": "121348",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121146.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-121349",
-          "name": "121349",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121146.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
         },
         {
           "id": "gi-item-121350",
@@ -64046,17 +61439,6 @@
           "text": ""
         },
         {
-          "id": "gi-item-121438",
-          "name": "121438",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121146.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-121439",
           "name": "Wish",
           "kind": "item",
@@ -64264,17 +61646,6 @@
             "type": "Quest Item"
           },
           "text": "The freshly harvested rye that carries a warm, comforting scent. Only after grinding and baking does it transform into a rich, full-bodied flavor."
-        },
-        {
-          "id": "gi-item-121464",
-          "name": "121464",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
         },
         {
           "id": "gi-item-121465",
@@ -65025,17 +62396,6 @@
           "text": "A shared backpack. It's not that spacious... but there's never a dull moment inside!"
         },
         {
-          "id": "gi-item-121534",
-          "name": "121534",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_120965.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-121535",
           "name": "Spirit Envoy Championship Champion Medal",
           "kind": "item",
@@ -65355,39 +62715,6 @@
           "text": "Suspected to be a resinous concretion exuded from Irminsul's incinerated trunk. Its form is peculiar, and where it remains exposed, a baleful light emanates from within."
         },
         {
-          "id": "gi-item-121577",
-          "name": "121577",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-121578",
-          "name": "121578",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-121579",
-          "name": "121579",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-121580",
           "name": "Anomalous Tree Marrow",
           "kind": "item",
@@ -65441,17 +62768,6 @@
             "type": "Quest Item"
           },
           "text": "A preserved flower from a long-lost era, bearing a striking resemblance to a certain plant found in Teyvat. There may be a distant and ambiguous connection between the two."
-        },
-        {
-          "id": "gi-item-121595",
-          "name": "121595",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121595.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Quest Item"
-          },
-          "text": ""
         },
         {
           "id": "gi-item-121596",
@@ -74177,17 +71493,6 @@
           "text": "Use this to clear a certain area in Enkanomiya of the darkness' influence.\nThe name \"Bokuso\" is formed from \"boku,\" meaning \"to draw near to what is good,\" and \"so,\" meaning \"to shun that which is tainted.\""
         },
         {
-          "id": "gi-item-220050",
-          "name": "220050",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_220049.webp",
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Gadget"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-220051",
           "name": "Arataki's Great and Glorious Drum",
           "kind": "item",
@@ -74219,17 +71524,6 @@
             "type": "Gadget"
           },
           "text": "Equip it to utilize the power of Aranara.\n\"Fatty fruit, bitter fruit.\"\nA temporary home for Aranara memories. Kusava makes Aranara strong."
-        },
-        {
-          "id": "gi-item-220054",
-          "name": "220054",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_220017.webp",
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Gadget"
-          },
-          "text": ""
         },
         {
           "id": "gi-item-220055",
@@ -74375,17 +71669,6 @@
           "text": "A party popper that, when used, unleashes streamers and confetti.\n\"Jumpy Dumpty is Klee's good friend and fish blasting companion! But if Klee brings Jumpy Dumpty to the festival, Master Jean will be angry... Don't you worry, though! Jumpy Dumpty has gained a new ability with Albedo's help! Just pull on its tail, and beautiful colored strips will come flying out!\""
         },
         {
-          "id": "gi-item-220068",
-          "name": "220068",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_220068.webp",
-          "fields": {
-            "rarity": "Unknown",
-            "type": "Gadget"
-          },
-          "text": ""
-        },
-        {
           "id": "gi-item-220069",
           "name": "Scarlet Sand Slate",
           "kind": "item",
@@ -74516,17 +71799,6 @@
             "type": "Gadget"
           },
           "text": "A \"Search Compass\" made to find relic replicas. As this device was adapted from one used to survey elemental energies, the localized elements present might disrupt its attempts to scan for those replicas..."
-        },
-        {
-          "id": "gi-item-220081",
-          "name": "220081",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_220080.webp",
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Gadget"
-          },
-          "text": ""
         },
         {
           "id": "gi-item-220082",
@@ -78342,17 +75614,6 @@
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
-          },
-          "text": ""
-        },
-        {
-          "id": "gi-item-320001",
-          "name": "320001",
-          "kind": "item",
-          "art": "../../Database/GameData/gi/assets/items/UI_AvatarIcon_Ambor_Circle.webp",
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Portrait"
           },
           "text": ""
         },

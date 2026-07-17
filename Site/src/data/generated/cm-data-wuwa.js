@@ -17643,7 +17643,7 @@
             "name": "Skyward Glazed Heart",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_028_UI.webp",
             "source": "Thousand-Puppet Pavilion / Thousand-Puppet Pavilion - Early Access",
             "sourceDetails": [
@@ -19086,7 +19086,7 @@
             "name": "The Netherworld's Stare",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_007_UI.webp",
             "source": "Hecate / Hecate - Early Access",
             "sourceDetails": [
@@ -20763,7 +20763,7 @@
             "name": "When Irises Bloom",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_017_UI.webp",
             "source": "Fleurdelys / Fleurdelys - Early Access",
             "sourceDetails": [
@@ -22115,7 +22115,7 @@
             "name": "The Netherworld's Stare",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_007_UI.webp",
             "source": "Hecate / Hecate - Early Access",
             "sourceDetails": [
@@ -23498,7 +23498,7 @@
             "name": "Unending Destruction",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_014_UI.webp",
             "source": "Scar / Scar - Early Access",
             "sourceDetails": [
@@ -24890,7 +24890,7 @@
                 "name": "Unending Destruction",
                 "qty": 26,
                 "rar": 4,
-                "kind": "boss",
+                "kind": "weekly",
                 "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_014_UI.webp",
                 "source": "Scar / Scar - Early Access",
                 "sourceDetails": [
@@ -26456,7 +26456,7 @@
                 "name": "Dreamless Feather",
                 "qty": 26,
                 "rar": 4,
-                "kind": "boss",
+                "kind": "weekly",
                 "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_013_UI.webp",
                 "source": "Dreamless / Dreamless - Early Access",
                 "sourceDetails": [
@@ -27921,7 +27921,7 @@
                 "name": "When Irises Bloom",
                 "qty": 26,
                 "rar": 4,
-                "kind": "boss",
+                "kind": "weekly",
                 "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_017_UI.webp",
                 "source": "Fleurdelys / Fleurdelys - Early Access",
                 "sourceDetails": [
@@ -29730,7 +29730,7 @@
                 "name": "We Who Question",
                 "qty": 26,
                 "rar": 4,
-                "kind": "boss",
+                "kind": "weekly",
                 "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_026_UI.webp",
                 "source": "Denia / Denia - Early Access",
                 "sourceDetails": [
@@ -31390,7 +31390,7 @@
             "name": "Dreamless Feather",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_013_UI.webp",
             "source": "Dreamless / Dreamless - Early Access",
             "sourceDetails": [
@@ -32837,7 +32837,7 @@
             "name": "Dreamless Feather",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_013_UI.webp",
             "source": "Dreamless / Dreamless - Early Access",
             "sourceDetails": [
@@ -34276,7 +34276,7 @@
             "name": "Dreamless Feather",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_013_UI.webp",
             "source": "Dreamless / Dreamless - Early Access",
             "sourceDetails": [
@@ -36110,7 +36110,7 @@
             "name": "Gold in Memory",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_025_UI.webp",
             "source": "Sigillum / Sigillum - Early Access",
             "sourceDetails": [
@@ -37639,7 +37639,7 @@
             "name": "Gold in Memory",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_025_UI.webp",
             "source": "Sigillum / Sigillum - Early Access",
             "sourceDetails": [
@@ -39420,7 +39420,7 @@
             "name": "Dreamless Feather",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_013_UI.webp",
             "source": "Dreamless / Dreamless - Early Access",
             "sourceDetails": [
@@ -41155,7 +41155,7 @@
             "name": "When Irises Bloom",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_017_UI.webp",
             "source": "Fleurdelys / Fleurdelys - Early Access",
             "sourceDetails": [
@@ -42800,7 +42800,7 @@
             "name": "The Netherworld's Stare",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_007_UI.webp",
             "source": "Hecate / Hecate - Early Access",
             "sourceDetails": [
@@ -44208,7 +44208,7 @@
             "name": "Sentinel's Dagger",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_005_UI.webp",
             "source": "Sentinel Ju\u00e9 / Sentinel Ju\u00e9 - Early Access",
             "sourceDetails": [
@@ -45693,7 +45693,7 @@
             "name": "Sentinel's Dagger",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_005_UI.webp",
             "source": "Sentinel Ju\u00e9 / Sentinel Ju\u00e9 - Early Access",
             "sourceDetails": [
@@ -47211,7 +47211,7 @@
             "name": "Sentinel's Dagger",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_005_UI.webp",
             "source": "Sentinel Ju\u00e9 / Sentinel Ju\u00e9 - Early Access",
             "sourceDetails": [
@@ -48748,7 +48748,7 @@
             "name": "Monument Bell",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_003_1_UI.webp",
             "source": "Bell-Borne Geochelone / Bell-Borne Geochelone - Early Access",
             "sourceDetails": [
@@ -50210,7 +50210,7 @@
             "name": "Gold in Memory",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_025_UI.webp",
             "source": "Sigillum / Sigillum - Early Access",
             "sourceDetails": [
@@ -51565,7 +51565,7 @@
             "name": "Curse of the Abyss",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_021_UI.webp",
             "source": "Threnodian: Leviathan / Threnodian: Leviathan - Early Access",
             "sourceDetails": [
@@ -53610,7 +53610,7 @@
             "name": "The Netherworld's Stare",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_007_UI.webp",
             "source": "Hecate / Hecate - Early Access",
             "sourceDetails": [
@@ -55530,7 +55530,7 @@
             "name": "When Irises Bloom",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_017_UI.webp",
             "source": "Fleurdelys / Fleurdelys - Early Access",
             "sourceDetails": [
@@ -56899,7 +56899,7 @@
             "name": "When Irises Bloom",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_017_UI.webp",
             "source": "Fleurdelys / Fleurdelys - Early Access",
             "sourceDetails": [
@@ -58605,7 +58605,7 @@
             "name": "Unending Destruction",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_014_UI.webp",
             "source": "Scar / Scar - Early Access",
             "sourceDetails": [
@@ -59995,7 +59995,7 @@
             "name": "Monument Bell",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_003_1_UI.webp",
             "source": "Bell-Borne Geochelone / Bell-Borne Geochelone - Early Access",
             "sourceDetails": [
@@ -61307,7 +61307,7 @@
             "name": "Monument Bell",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_003_1_UI.webp",
             "source": "Bell-Borne Geochelone / Bell-Borne Geochelone - Early Access",
             "sourceDetails": [
@@ -62581,7 +62581,7 @@
             "name": "Unending Destruction",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_014_UI.webp",
             "source": "Scar / Scar - Early Access",
             "sourceDetails": [
@@ -64315,7 +64315,7 @@
             "name": "We Who Question",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_026_UI.webp",
             "source": "Denia / Denia - Early Access",
             "sourceDetails": [
@@ -65845,7 +65845,7 @@
             "name": "Curse of the Abyss",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_021_UI.webp",
             "source": "Threnodian: Leviathan / Threnodian: Leviathan - Early Access",
             "sourceDetails": [
@@ -67519,7 +67519,7 @@
             "name": "When Irises Bloom",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_017_UI.webp",
             "source": "Fleurdelys / Fleurdelys - Early Access",
             "sourceDetails": [
@@ -69083,7 +69083,7 @@
             "name": "Unending Destruction",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_014_UI.webp",
             "source": "Scar / Scar - Early Access",
             "sourceDetails": [
@@ -70705,7 +70705,7 @@
             "name": "Sentinel's Dagger",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_005_UI.webp",
             "source": "Sentinel Ju\u00e9 / Sentinel Ju\u00e9 - Early Access",
             "sourceDetails": [
@@ -72303,7 +72303,7 @@
             "name": "Unending Destruction",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_014_UI.webp",
             "source": "Scar / Scar - Early Access",
             "sourceDetails": [
@@ -73646,7 +73646,7 @@
             "name": "Dreamless Feather",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_013_UI.webp",
             "source": "Dreamless / Dreamless - Early Access",
             "sourceDetails": [
@@ -75270,7 +75270,7 @@
             "name": "Monument Bell",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_003_1_UI.webp",
             "source": "Bell-Borne Geochelone / Bell-Borne Geochelone - Early Access",
             "sourceDetails": [
@@ -77027,7 +77027,7 @@
             "name": "We Who Question",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_026_UI.webp",
             "source": "Denia / Denia - Early Access",
             "sourceDetails": [
@@ -78679,7 +78679,7 @@
             "name": "Gold in Memory",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_025_UI.webp",
             "source": "Sigillum / Sigillum - Early Access",
             "sourceDetails": [
@@ -80181,7 +80181,7 @@
             "name": "The Netherworld's Stare",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_007_UI.webp",
             "source": "Hecate / Hecate - Early Access",
             "sourceDetails": [
@@ -82098,7 +82098,7 @@
             "name": "Curse of the Abyss",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_021_UI.webp",
             "source": "Threnodian: Leviathan / Threnodian: Leviathan - Early Access",
             "sourceDetails": [
@@ -83709,7 +83709,7 @@
             "name": "The Netherworld's Stare",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_007_UI.webp",
             "source": "Hecate / Hecate - Early Access",
             "sourceDetails": [
@@ -85404,7 +85404,7 @@
             "name": "The Netherworld's Stare",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_007_UI.webp",
             "source": "Hecate / Hecate - Early Access",
             "sourceDetails": [
@@ -86824,7 +86824,7 @@
             "name": "Sentinel's Dagger",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_005_UI.webp",
             "source": "Sentinel Ju\u00e9 / Sentinel Ju\u00e9 - Early Access",
             "sourceDetails": [
@@ -88114,7 +88114,7 @@
             "name": "Monument Bell",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_003_1_UI.webp",
             "source": "Bell-Borne Geochelone / Bell-Borne Geochelone - Early Access",
             "sourceDetails": [
@@ -89680,7 +89680,7 @@
             "name": "Unending Destruction",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_014_UI.webp",
             "source": "Scar / Scar - Early Access",
             "sourceDetails": [
@@ -90949,7 +90949,7 @@
             "name": "Monument Bell",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_003_1_UI.webp",
             "source": "Bell-Borne Geochelone / Bell-Borne Geochelone - Early Access",
             "sourceDetails": [
@@ -92412,7 +92412,7 @@
             "name": "Skyward Glazed Heart",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_028_UI.webp",
             "source": "Thousand-Puppet Pavilion / Thousand-Puppet Pavilion - Early Access",
             "sourceDetails": [
@@ -93626,7 +93626,7 @@
             "name": "We Who Question",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_026_UI.webp",
             "source": "Denia / Denia - Early Access",
             "sourceDetails": [
@@ -95403,7 +95403,7 @@
             "name": "We Who Question",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_026_UI.webp",
             "source": "Denia / Denia - Early Access",
             "sourceDetails": [
@@ -96967,7 +96967,7 @@
             "name": "The Netherworld's Stare",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_007_UI.webp",
             "source": "Hecate / Hecate - Early Access",
             "sourceDetails": [
@@ -98444,7 +98444,7 @@
             "name": "Monument Bell",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_003_1_UI.webp",
             "source": "Bell-Borne Geochelone / Bell-Borne Geochelone - Early Access",
             "sourceDetails": [
@@ -99831,7 +99831,7 @@
             "name": "Monument Bell",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_003_1_UI.webp",
             "source": "Bell-Borne Geochelone / Bell-Borne Geochelone - Early Access",
             "sourceDetails": [
@@ -101250,7 +101250,7 @@
             "name": "Unending Destruction",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_014_UI.webp",
             "source": "Scar / Scar - Early Access",
             "sourceDetails": [
@@ -102615,7 +102615,7 @@
             "name": "Monument Bell",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_003_1_UI.webp",
             "source": "Bell-Borne Geochelone / Bell-Borne Geochelone - Early Access",
             "sourceDetails": [
@@ -104081,7 +104081,7 @@
             "name": "Unending Destruction",
             "qty": 26,
             "rar": 4,
-            "kind": "boss",
+            "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_014_UI.webp",
             "source": "Scar / Scar - Early Access",
             "sourceDetails": [
@@ -104413,60 +104413,6 @@
       "region": "Cadence Series",
       "mats": [
         {
-          "id": "43020051",
-          "name": "Cadence Seed",
-          "qty": 25,
-          "rar": 2,
-          "kind": "book",
-          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_013_UI.webp",
-          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves / Souvenir Store",
-          "sourceDetails": [
-            {
-              "name": "Forgery Challenge: Abyss of Sacrifice"
-            },
-            {
-              "name": "Forgery Challenge: Moonlit Groves"
-            },
-            {
-              "name": "Souvenir Store"
-            }
-          ]
-        },
-        {
-          "id": "43020052",
-          "name": "Cadence Bud",
-          "qty": 28,
-          "rar": 3,
-          "kind": "book",
-          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_014_UI.webp",
-          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
-          "sourceDetails": [
-            {
-              "name": "Forgery Challenge: Abyss of Sacrifice"
-            },
-            {
-              "name": "Forgery Challenge: Moonlit Groves"
-            }
-          ]
-        },
-        {
-          "id": "43020053",
-          "name": "Cadence Leaf",
-          "qty": 55,
-          "rar": 4,
-          "kind": "book",
-          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_015_UI.webp",
-          "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
-          "sourceDetails": [
-            {
-              "name": "Forgery Challenge: Abyss of Sacrifice"
-            },
-            {
-              "name": "Forgery Challenge: Moonlit Groves"
-            }
-          ]
-        },
-        {
           "id": "43020054",
           "name": "Cadence Blossom",
           "qty": 67,
@@ -104499,57 +104445,6 @@
       "region": "Carved Crystal Series",
       "mats": [
         {
-          "id": "43021041",
-          "name": "LF Carved Crystal",
-          "qty": 25,
-          "rar": 2,
-          "kind": "book",
-          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_1_UI.webp",
-          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Corroded Remnants",
-          "sourceDetails": [
-            {
-              "name": "Forgery Challenge: Cloudfall Chasm"
-            },
-            {
-              "name": "Forgery Challenge: Corroded Remnants"
-            }
-          ]
-        },
-        {
-          "id": "43021042",
-          "name": "MF Carved Crystal",
-          "qty": 28,
-          "rar": 3,
-          "kind": "book",
-          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_2_UI.webp",
-          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Corroded Remnants",
-          "sourceDetails": [
-            {
-              "name": "Forgery Challenge: Cloudfall Chasm"
-            },
-            {
-              "name": "Forgery Challenge: Corroded Remnants"
-            }
-          ]
-        },
-        {
-          "id": "43021043",
-          "name": "HF Carved Crystal",
-          "qty": 55,
-          "rar": 4,
-          "kind": "book",
-          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_3_UI.webp",
-          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Corroded Remnants",
-          "sourceDetails": [
-            {
-              "name": "Forgery Challenge: Cloudfall Chasm"
-            },
-            {
-              "name": "Forgery Challenge: Corroded Remnants"
-            }
-          ]
-        },
-        {
           "id": "43021044",
           "name": "FF Carved Crystal",
           "qty": 67,
@@ -104574,57 +104469,6 @@
     {
       "region": "Combustor Series",
       "mats": [
-        {
-          "id": "43021021",
-          "name": "Incomplete Combustor",
-          "qty": 25,
-          "rar": 2,
-          "kind": "book",
-          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_1_UI.webp",
-          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Embers",
-          "sourceDetails": [
-            {
-              "name": "Forgery Challenge: Cloudfall Chasm"
-            },
-            {
-              "name": "Forgery Challenge: Lesson in Embers"
-            }
-          ]
-        },
-        {
-          "id": "43021022",
-          "name": "Aftertune Combustor",
-          "qty": 28,
-          "rar": 3,
-          "kind": "book",
-          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_2_UI.webp",
-          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Embers",
-          "sourceDetails": [
-            {
-              "name": "Forgery Challenge: Cloudfall Chasm"
-            },
-            {
-              "name": "Forgery Challenge: Lesson in Embers"
-            }
-          ]
-        },
-        {
-          "id": "43021023",
-          "name": "Remnant Combustor",
-          "qty": 55,
-          "rar": 4,
-          "kind": "book",
-          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_3_UI.webp",
-          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Embers",
-          "sourceDetails": [
-            {
-              "name": "Forgery Challenge: Cloudfall Chasm"
-            },
-            {
-              "name": "Forgery Challenge: Lesson in Embers"
-            }
-          ]
-        },
         {
           "id": "43021024",
           "name": "Reverb Combustor",
@@ -104652,60 +104496,6 @@
     {
       "region": "Helix Series",
       "mats": [
-        {
-          "id": "43020031",
-          "name": "Lento Helix",
-          "qty": 25,
-          "rar": 2,
-          "kind": "book",
-          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_005_UI.webp",
-          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest / Souvenir Store",
-          "sourceDetails": [
-            {
-              "name": "Forgery Challenge: Abyss of Initiation"
-            },
-            {
-              "name": "Forgery Challenge: Misty Forest"
-            },
-            {
-              "name": "Souvenir Store"
-            }
-          ]
-        },
-        {
-          "id": "43020032",
-          "name": "Adagio Helix",
-          "qty": 28,
-          "rar": 3,
-          "kind": "book",
-          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_006_UI.webp",
-          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
-          "sourceDetails": [
-            {
-              "name": "Forgery Challenge: Abyss of Initiation"
-            },
-            {
-              "name": "Forgery Challenge: Misty Forest"
-            }
-          ]
-        },
-        {
-          "id": "43020033",
-          "name": "Andante Helix",
-          "qty": 55,
-          "rar": 4,
-          "kind": "book",
-          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_007_UI.webp",
-          "source": "Forgery Challenge: Abyss of Initiation / Forgery Challenge: Misty Forest",
-          "sourceDetails": [
-            {
-              "name": "Forgery Challenge: Abyss of Initiation"
-            },
-            {
-              "name": "Forgery Challenge: Misty Forest"
-            }
-          ]
-        },
         {
           "id": "43020034",
           "name": "Presto Helix",
@@ -104741,60 +104531,6 @@
       "region": "Metallic Drip Series",
       "mats": [
         {
-          "id": "43020011",
-          "name": "Inert Metallic Drip",
-          "qty": 25,
-          "rar": 2,
-          "kind": "book",
-          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_1_UI.webp",
-          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants / Souvenir Store",
-          "sourceDetails": [
-            {
-              "name": "Forgery Challenge: Garden of Salvation"
-            },
-            {
-              "name": "Forgery Challenge: Flaming Remnants"
-            },
-            {
-              "name": "Souvenir Store"
-            }
-          ]
-        },
-        {
-          "id": "43020012",
-          "name": "Reactive Metallic Drip",
-          "qty": 28,
-          "rar": 3,
-          "kind": "book",
-          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_2_UI.webp",
-          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
-          "sourceDetails": [
-            {
-              "name": "Forgery Challenge: Garden of Salvation"
-            },
-            {
-              "name": "Forgery Challenge: Flaming Remnants"
-            }
-          ]
-        },
-        {
-          "id": "43020013",
-          "name": "Polarized Metallic Drip",
-          "qty": 55,
-          "rar": 4,
-          "kind": "book",
-          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_3_UI.webp",
-          "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
-          "sourceDetails": [
-            {
-              "name": "Forgery Challenge: Garden of Salvation"
-            },
-            {
-              "name": "Forgery Challenge: Flaming Remnants"
-            }
-          ]
-        },
-        {
           "id": "43020014",
           "name": "Heterized Metallic Drip",
           "qty": 67,
@@ -104828,60 +104564,6 @@
       "region": "Phlogiston Series",
       "mats": [
         {
-          "id": "43020021",
-          "name": "Impure Phlogiston",
-          "qty": 25,
-          "rar": 2,
-          "kind": "book",
-          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_01_UI.webp",
-          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods / Souvenir Store",
-          "sourceDetails": [
-            {
-              "name": "Forgery Challenge: Abyss of Confession"
-            },
-            {
-              "name": "Forgery Challenge: Marigold Woods"
-            },
-            {
-              "name": "Souvenir Store"
-            }
-          ]
-        },
-        {
-          "id": "43020022",
-          "name": "Extracted Phlogiston",
-          "qty": 28,
-          "rar": 3,
-          "kind": "book",
-          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_02_UI.webp",
-          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
-          "sourceDetails": [
-            {
-              "name": "Forgery Challenge: Abyss of Confession"
-            },
-            {
-              "name": "Forgery Challenge: Marigold Woods"
-            }
-          ]
-        },
-        {
-          "id": "43020023",
-          "name": "Refined Phlogiston",
-          "qty": 55,
-          "rar": 4,
-          "kind": "book",
-          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_03_UI.webp",
-          "source": "Forgery Challenge: Abyss of Confession / Forgery Challenge: Marigold Woods",
-          "sourceDetails": [
-            {
-              "name": "Forgery Challenge: Abyss of Confession"
-            },
-            {
-              "name": "Forgery Challenge: Marigold Woods"
-            }
-          ]
-        },
-        {
           "id": "43020024",
           "name": "Flawless Phlogiston",
           "qty": 67,
@@ -104912,57 +104594,6 @@
       "region": "String Series",
       "mats": [
         {
-          "id": "43021031",
-          "name": "Spliced String",
-          "qty": 25,
-          "rar": 2,
-          "kind": "book",
-          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_1_UI.webp",
-          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
-          "sourceDetails": [
-            {
-              "name": "Forgery Challenge: Cloudfall Chasm"
-            },
-            {
-              "name": "Forgery Challenge: Lesson in Sunset"
-            }
-          ]
-        },
-        {
-          "id": "43021032",
-          "name": "Broken String",
-          "qty": 28,
-          "rar": 3,
-          "kind": "book",
-          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_2_UI.webp",
-          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
-          "sourceDetails": [
-            {
-              "name": "Forgery Challenge: Cloudfall Chasm"
-            },
-            {
-              "name": "Forgery Challenge: Lesson in Sunset"
-            }
-          ]
-        },
-        {
-          "id": "43021033",
-          "name": "Solidified String",
-          "qty": 55,
-          "rar": 4,
-          "kind": "book",
-          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_3_UI.webp",
-          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
-          "sourceDetails": [
-            {
-              "name": "Forgery Challenge: Cloudfall Chasm"
-            },
-            {
-              "name": "Forgery Challenge: Lesson in Sunset"
-            }
-          ]
-        },
-        {
           "id": "43021034",
           "name": "Melodic String",
           "qty": 67,
@@ -104989,60 +104620,6 @@
     {
       "region": "Waveworn Residue Series",
       "mats": [
-        {
-          "id": "43020041",
-          "name": "Waveworn Residue 210",
-          "qty": 25,
-          "rar": 2,
-          "kind": "book",
-          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_009_UI.webp",
-          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins / Souvenir Store",
-          "sourceDetails": [
-            {
-              "name": "Forgery Challenge: Garden of Adoration"
-            },
-            {
-              "name": "Forgery Challenge: Eroded Ruins"
-            },
-            {
-              "name": "Souvenir Store"
-            }
-          ]
-        },
-        {
-          "id": "43020042",
-          "name": "Waveworn Residue 226",
-          "qty": 28,
-          "rar": 3,
-          "kind": "book",
-          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_010_UI.webp",
-          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
-          "sourceDetails": [
-            {
-              "name": "Forgery Challenge: Garden of Adoration"
-            },
-            {
-              "name": "Forgery Challenge: Eroded Ruins"
-            }
-          ]
-        },
-        {
-          "id": "43020043",
-          "name": "Waveworn Residue 235",
-          "qty": 55,
-          "rar": 4,
-          "kind": "book",
-          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_011_UI.webp",
-          "source": "Forgery Challenge: Garden of Adoration / Forgery Challenge: Eroded Ruins",
-          "sourceDetails": [
-            {
-              "name": "Forgery Challenge: Garden of Adoration"
-            },
-            {
-              "name": "Forgery Challenge: Eroded Ruins"
-            }
-          ]
-        },
         {
           "id": "43020044",
           "name": "Waveworn Residue 239",
@@ -105076,57 +104653,6 @@
       "region": "Waveworn Shard Series",
       "mats": [
         {
-          "id": "43021051",
-          "name": "LF Waveworn Shard",
-          "qty": 25,
-          "rar": 2,
-          "kind": "book",
-          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_1_UI.webp",
-          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Void",
-          "sourceDetails": [
-            {
-              "name": "Forgery Challenge: Cloudfall Chasm"
-            },
-            {
-              "name": "Forgery Challenge: Lesson in Void"
-            }
-          ]
-        },
-        {
-          "id": "43021052",
-          "name": "MF Waveworn Shard",
-          "qty": 28,
-          "rar": 3,
-          "kind": "book",
-          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_2_UI.webp",
-          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Void",
-          "sourceDetails": [
-            {
-              "name": "Forgery Challenge: Cloudfall Chasm"
-            },
-            {
-              "name": "Forgery Challenge: Lesson in Void"
-            }
-          ]
-        },
-        {
-          "id": "43021053",
-          "name": "HF Waveworn Shard",
-          "qty": 55,
-          "rar": 4,
-          "kind": "book",
-          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_3_UI.webp",
-          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Void",
-          "sourceDetails": [
-            {
-              "name": "Forgery Challenge: Cloudfall Chasm"
-            },
-            {
-              "name": "Forgery Challenge: Lesson in Void"
-            }
-          ]
-        },
-        {
           "id": "43021054",
           "name": "FF Waveworn Shard",
           "qty": 67,
@@ -105152,57 +104678,6 @@
     {
       "region": "Wing Polarizer Series",
       "mats": [
-        {
-          "id": "43021011",
-          "name": "Broken Wing Polarizer",
-          "qty": 25,
-          "rar": 2,
-          "kind": "book",
-          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_1_UI.webp",
-          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
-          "sourceDetails": [
-            {
-              "name": "Forgery Challenge: Cloudfall Chasm"
-            },
-            {
-              "name": "Forgery Challenge: Forsaken Remnants"
-            }
-          ]
-        },
-        {
-          "id": "43021012",
-          "name": "Monowing Polarizer",
-          "qty": 28,
-          "rar": 3,
-          "kind": "book",
-          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_2_UI.webp",
-          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
-          "sourceDetails": [
-            {
-              "name": "Forgery Challenge: Cloudfall Chasm"
-            },
-            {
-              "name": "Forgery Challenge: Forsaken Remnants"
-            }
-          ]
-        },
-        {
-          "id": "43021013",
-          "name": "Polywing Polarizer",
-          "qty": 55,
-          "rar": 4,
-          "kind": "book",
-          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_3_UI.webp",
-          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
-          "sourceDetails": [
-            {
-              "name": "Forgery Challenge: Cloudfall Chasm"
-            },
-            {
-              "name": "Forgery Challenge: Forsaken Remnants"
-            }
-          ]
-        },
         {
           "id": "43021014",
           "name": "Layered Wing Polarizer",
@@ -105233,8 +104708,644 @@
     "title": "Weekly Challenge",
     "count": 57
   },
-  "bossGroups": [],
-  "weeklyBosses": []
+  "bossGroups": [
+    {
+      "title": "Bell-Borne Geochelone / Bell-Borne Geochelone - Early Access",
+      "mats": [
+        {
+          "id": "41400094",
+          "name": "Monument Bell",
+          "qty": 26,
+          "rar": 4,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_003_1_UI.webp",
+          "source": "Bell-Borne Geochelone / Bell-Borne Geochelone - Early Access",
+          "sourceDetails": [
+            {
+              "name": "Bell-Borne Geochelone",
+              "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_992_UI.webp"
+            }
+          ],
+          "chars": [
+            "Aalto",
+            "Baizhi",
+            "Calcharo",
+            "Chixia",
+            "Jiyan",
+            "Mortefi",
+            "Verina",
+            "Youhu",
+            "Zhezhi"
+          ]
+        }
+      ],
+      "chars": [
+        "Aalto",
+        "Baizhi",
+        "Calcharo",
+        "Chixia",
+        "Jiyan",
+        "Mortefi",
+        "Verina",
+        "Youhu",
+        "Zhezhi"
+      ]
+    },
+    {
+      "title": "Denia / Denia - Early Access",
+      "mats": [
+        {
+          "id": "41400304",
+          "name": "We Who Question",
+          "qty": 26,
+          "rar": 4,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_026_UI.webp",
+          "source": "Denia / Denia - Early Access",
+          "sourceDetails": [
+            {
+              "name": "Denia",
+              "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34028_UI.webp"
+            }
+          ],
+          "chars": [
+            "Denia",
+            "Hiyuki",
+            "Lucilla",
+            "Rebecca",
+            "Rover"
+          ]
+        }
+      ],
+      "chars": [
+        "Denia",
+        "Hiyuki",
+        "Lucilla",
+        "Rebecca",
+        "Rover"
+      ]
+    },
+    {
+      "title": "Dreamless / Dreamless - Early Access",
+      "mats": [
+        {
+          "id": "41400124",
+          "name": "Dreamless Feather",
+          "qty": 26,
+          "rar": 4,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_013_UI.webp",
+          "source": "Dreamless / Dreamless - Early Access",
+          "sourceDetails": [
+            {
+              "name": "Dreamless",
+              "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_998_UI.webp"
+            }
+          ],
+          "chars": [
+            "Camellya",
+            "Danjin",
+            "Lynae",
+            "Rover",
+            "Taoqi",
+            "Yinlin"
+          ]
+        }
+      ],
+      "chars": [
+        "Camellya",
+        "Danjin",
+        "Lynae",
+        "Rover",
+        "Taoqi",
+        "Yinlin"
+      ]
+    },
+    {
+      "title": "Fleurdelys / Fleurdelys - Early Access",
+      "mats": [
+        {
+          "id": "41400204",
+          "name": "When Irises Bloom",
+          "qty": 26,
+          "rar": 4,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_017_UI.webp",
+          "source": "Fleurdelys / Fleurdelys - Early Access",
+          "sourceDetails": [
+            {
+              "name": "Fleurdelys",
+              "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34012_UI.webp"
+            }
+          ],
+          "chars": [
+            "Augusta",
+            "Cantarella",
+            "Cartethyia",
+            "Chisa",
+            "Ciaccona",
+            "Rover"
+          ]
+        }
+      ],
+      "chars": [
+        "Augusta",
+        "Cantarella",
+        "Cartethyia",
+        "Chisa",
+        "Ciaccona",
+        "Rover"
+      ]
+    },
+    {
+      "title": "Hecate / Hecate - Early Access",
+      "mats": [
+        {
+          "id": "41400194",
+          "name": "The Netherworld's Stare",
+          "qty": 26,
+          "rar": 4,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_007_UI.webp",
+          "source": "Hecate / Hecate - Early Access",
+          "sourceDetails": [
+            {
+              "name": "Hecate",
+              "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34010_1_UI.webp"
+            }
+          ],
+          "chars": [
+            "Brant",
+            "Carlotta",
+            "Iuno",
+            "Lupa",
+            "Mornye",
+            "Phrolova",
+            "Roccia",
+            "Zani"
+          ]
+        }
+      ],
+      "chars": [
+        "Brant",
+        "Carlotta",
+        "Iuno",
+        "Lupa",
+        "Mornye",
+        "Phrolova",
+        "Roccia",
+        "Zani"
+      ]
+    },
+    {
+      "title": "Scar / Scar - Early Access",
+      "mats": [
+        {
+          "id": "41400114",
+          "name": "Unending Destruction",
+          "qty": 26,
+          "rar": 4,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_014_UI.webp",
+          "source": "Scar / Scar - Early Access",
+          "sourceDetails": [
+            {
+              "name": "Scar: Lightbane Reversal",
+              "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1004_UI.webp"
+            },
+            {
+              "name": "Scar - Early Access"
+            }
+          ],
+          "chars": [
+            "Encore",
+            "Jianxin",
+            "Lingyang",
+            "Rover",
+            "Sanhua",
+            "Xiangli Yao",
+            "Yangyang",
+            "Yuanwu"
+          ]
+        }
+      ],
+      "chars": [
+        "Encore",
+        "Jianxin",
+        "Lingyang",
+        "Rover",
+        "Sanhua",
+        "Xiangli Yao",
+        "Yangyang",
+        "Yuanwu"
+      ]
+    },
+    {
+      "title": "Sentinel Ju\u00e9 / Sentinel Ju\u00e9 - Early Access",
+      "mats": [
+        {
+          "id": "41400144",
+          "name": "Sentinel's Dagger",
+          "qty": 26,
+          "rar": 4,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_005_UI.webp",
+          "source": "Sentinel Ju\u00e9 / Sentinel Ju\u00e9 - Early Access",
+          "sourceDetails": [
+            {
+              "name": "Ju\u00e9",
+              "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_327_UI.webp"
+            }
+          ],
+          "chars": [
+            "Changli",
+            "Jinhsi",
+            "Lumi",
+            "Phoebe",
+            "The Shorekeeper"
+          ]
+        }
+      ],
+      "chars": [
+        "Changli",
+        "Jinhsi",
+        "Lumi",
+        "Phoebe",
+        "The Shorekeeper"
+      ]
+    },
+    {
+      "title": "Sigillum / Sigillum - Early Access",
+      "mats": [
+        {
+          "id": "41400294",
+          "name": "Gold in Memory",
+          "qty": 26,
+          "rar": 4,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_025_UI.webp",
+          "source": "Sigillum / Sigillum - Early Access",
+          "sourceDetails": [
+            {
+              "name": "Sigillum",
+              "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34025_UI.webp"
+            }
+          ],
+          "chars": [
+            "Aemeath",
+            "Lucy",
+            "Luuk Herssen",
+            "Sigrika"
+          ]
+        }
+      ],
+      "chars": [
+        "Aemeath",
+        "Lucy",
+        "Luuk Herssen",
+        "Sigrika"
+      ]
+    },
+    {
+      "title": "Thousand-Puppet Pavilion / Thousand-Puppet Pavilion - Early Access",
+      "mats": [
+        {
+          "id": "41400324",
+          "name": "Skyward Glazed Heart",
+          "qty": 26,
+          "rar": 4,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_028_UI.webp",
+          "source": "Thousand-Puppet Pavilion / Thousand-Puppet Pavilion - Early Access",
+          "sourceDetails": [
+            {
+              "name": "Thousand-Puppet Pavilion",
+              "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34031_UI.webp"
+            }
+          ],
+          "chars": [
+            "Suisui",
+            "Yangyang Xuanling"
+          ]
+        }
+      ],
+      "chars": [
+        "Suisui",
+        "Yangyang Xuanling"
+      ]
+    },
+    {
+      "title": "Threnodian: Leviathan / Threnodian: Leviathan - Early Access",
+      "mats": [
+        {
+          "id": "41400254",
+          "name": "Curse of the Abyss",
+          "qty": 26,
+          "rar": 4,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_021_UI.webp",
+          "source": "Threnodian: Leviathan / Threnodian: Leviathan - Early Access",
+          "sourceDetails": [
+            {
+              "name": "Threnodian: Leviathan",
+              "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34020_UI.webp"
+            }
+          ],
+          "chars": [
+            "Buling",
+            "Galbrena",
+            "Qiuyuan"
+          ]
+        }
+      ],
+      "chars": [
+        "Buling",
+        "Galbrena",
+        "Qiuyuan"
+      ]
+    }
+  ],
+  "weeklyBosses": [
+    {
+      "bossName": "Bell-Borne Geochelone / Bell-Borne Geochelone - Early Access",
+      "drops": [
+        {
+          "id": "41400094",
+          "name": "Monument Bell",
+          "qty": 26,
+          "rar": 4,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_003_1_UI.webp",
+          "source": "Bell-Borne Geochelone / Bell-Borne Geochelone - Early Access",
+          "sourceDetails": [
+            {
+              "name": "Bell-Borne Geochelone",
+              "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_992_UI.webp"
+            }
+          ],
+          "chars": [
+            "Aalto",
+            "Baizhi",
+            "Calcharo",
+            "Chixia",
+            "Jiyan",
+            "Mortefi",
+            "Verina",
+            "Youhu",
+            "Zhezhi"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Denia / Denia - Early Access",
+      "drops": [
+        {
+          "id": "41400304",
+          "name": "We Who Question",
+          "qty": 26,
+          "rar": 4,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_026_UI.webp",
+          "source": "Denia / Denia - Early Access",
+          "sourceDetails": [
+            {
+              "name": "Denia",
+              "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34028_UI.webp"
+            }
+          ],
+          "chars": [
+            "Denia",
+            "Hiyuki",
+            "Lucilla",
+            "Rebecca",
+            "Rover"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Dreamless / Dreamless - Early Access",
+      "drops": [
+        {
+          "id": "41400124",
+          "name": "Dreamless Feather",
+          "qty": 26,
+          "rar": 4,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_013_UI.webp",
+          "source": "Dreamless / Dreamless - Early Access",
+          "sourceDetails": [
+            {
+              "name": "Dreamless",
+              "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_998_UI.webp"
+            }
+          ],
+          "chars": [
+            "Camellya",
+            "Danjin",
+            "Lynae",
+            "Rover",
+            "Taoqi",
+            "Yinlin"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Fleurdelys / Fleurdelys - Early Access",
+      "drops": [
+        {
+          "id": "41400204",
+          "name": "When Irises Bloom",
+          "qty": 26,
+          "rar": 4,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_017_UI.webp",
+          "source": "Fleurdelys / Fleurdelys - Early Access",
+          "sourceDetails": [
+            {
+              "name": "Fleurdelys",
+              "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34012_UI.webp"
+            }
+          ],
+          "chars": [
+            "Augusta",
+            "Cantarella",
+            "Cartethyia",
+            "Chisa",
+            "Ciaccona",
+            "Rover"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Hecate / Hecate - Early Access",
+      "drops": [
+        {
+          "id": "41400194",
+          "name": "The Netherworld's Stare",
+          "qty": 26,
+          "rar": 4,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_007_UI.webp",
+          "source": "Hecate / Hecate - Early Access",
+          "sourceDetails": [
+            {
+              "name": "Hecate",
+              "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34010_1_UI.webp"
+            }
+          ],
+          "chars": [
+            "Brant",
+            "Carlotta",
+            "Iuno",
+            "Lupa",
+            "Mornye",
+            "Phrolova",
+            "Roccia",
+            "Zani"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Scar / Scar - Early Access",
+      "drops": [
+        {
+          "id": "41400114",
+          "name": "Unending Destruction",
+          "qty": 26,
+          "rar": 4,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_014_UI.webp",
+          "source": "Scar / Scar - Early Access",
+          "sourceDetails": [
+            {
+              "name": "Scar: Lightbane Reversal",
+              "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1004_UI.webp"
+            },
+            {
+              "name": "Scar - Early Access"
+            }
+          ],
+          "chars": [
+            "Encore",
+            "Jianxin",
+            "Lingyang",
+            "Rover",
+            "Sanhua",
+            "Xiangli Yao",
+            "Yangyang",
+            "Yuanwu"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Sentinel Ju\u00e9 / Sentinel Ju\u00e9 - Early Access",
+      "drops": [
+        {
+          "id": "41400144",
+          "name": "Sentinel's Dagger",
+          "qty": 26,
+          "rar": 4,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_005_UI.webp",
+          "source": "Sentinel Ju\u00e9 / Sentinel Ju\u00e9 - Early Access",
+          "sourceDetails": [
+            {
+              "name": "Ju\u00e9",
+              "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_327_UI.webp"
+            }
+          ],
+          "chars": [
+            "Changli",
+            "Jinhsi",
+            "Lumi",
+            "Phoebe",
+            "The Shorekeeper"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Sigillum / Sigillum - Early Access",
+      "drops": [
+        {
+          "id": "41400294",
+          "name": "Gold in Memory",
+          "qty": 26,
+          "rar": 4,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_025_UI.webp",
+          "source": "Sigillum / Sigillum - Early Access",
+          "sourceDetails": [
+            {
+              "name": "Sigillum",
+              "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34025_UI.webp"
+            }
+          ],
+          "chars": [
+            "Aemeath",
+            "Lucy",
+            "Luuk Herssen",
+            "Sigrika"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Thousand-Puppet Pavilion / Thousand-Puppet Pavilion - Early Access",
+      "drops": [
+        {
+          "id": "41400324",
+          "name": "Skyward Glazed Heart",
+          "qty": 26,
+          "rar": 4,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_028_UI.webp",
+          "source": "Thousand-Puppet Pavilion / Thousand-Puppet Pavilion - Early Access",
+          "sourceDetails": [
+            {
+              "name": "Thousand-Puppet Pavilion",
+              "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34031_UI.webp"
+            }
+          ],
+          "chars": [
+            "Suisui",
+            "Yangyang Xuanling"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Threnodian: Leviathan / Threnodian: Leviathan - Early Access",
+      "drops": [
+        {
+          "id": "41400254",
+          "name": "Curse of the Abyss",
+          "qty": 26,
+          "rar": 4,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_021_UI.webp",
+          "source": "Threnodian: Leviathan / Threnodian: Leviathan - Early Access",
+          "sourceDetails": [
+            {
+              "name": "Threnodian: Leviathan",
+              "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34020_UI.webp"
+            }
+          ],
+          "chars": [
+            "Buling",
+            "Galbrena",
+            "Qiuyuan"
+          ]
+        }
+      ]
+    }
+  ]
 };
   window.dispatchEvent(new CustomEvent('nyx:cm-game-loaded', { detail:{ key:"wuwa" } }));
 })();

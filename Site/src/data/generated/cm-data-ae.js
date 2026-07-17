@@ -11,8 +11,8 @@
   "icon": "../assets/icon/aeicon.png",
   "cur": "Currency",
   "tabs": {
-    "mid": "Skills",
-    "boss": "Field Operations"
+    "mid": "Growth Materials",
+    "boss": "Progression Materials"
   },
   "rarities": [
     6,
@@ -56510,132 +56510,18 @@
   ],
   "midGroups": [
     {
-      "region": "Field Materials",
-      "title": "Blighted Jadeleaf",
-      "mats": [
-        {
-          "id": "ae:Blighted_Jadeleaf",
-          "name": "Blighted Jadeleaf",
-          "n": "Blighted Jadeleaf",
-          "qty": 84,
-          "rar": 5,
-          "kind": "specialty",
-          "icon": "../../Database/EndfieldWiki/endfield/assets/items/blighted-jadeleaf.png",
-          "source": "Area found: Wuling Outskirts, Rare Gathering Sites, Dijiang Production: Growth Chamber, Wuling City",
-          "sourceUrl": "https://endfield.wiki.gg/wiki/Blighted_Jadeleaf"
-        }
-      ],
-      "chars": [
-        "Akekuri",
-        "Antal",
-        "Chen Qianyu",
-        "Ember",
-        "Fluorite",
-        "Laevatain",
-        "Last Rite",
-        "Lifeng",
-        "Mi Fu",
-        "Perlica",
-        "Pogranichnik",
-        "Snowshine",
-        "Tangtang",
-        "Xaihi",
-        "Zhuang Fangyi"
-      ]
-    },
-    {
-      "region": "Field Materials",
-      "title": "Chrysodendra",
-      "mats": [
-        {
-          "id": "ae:Chrysodendra",
-          "name": "Chrysodendra",
-          "n": "Chrysodendra",
-          "qty": 16,
-          "rar": 4,
-          "kind": "specialty",
-          "icon": "../../Database/EndfieldWiki/endfield/assets/items/chrysodendra.png",
-          "source": "Area found: Originium Science Park, Rare Gathering Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
-          "sourceUrl": "https://endfield.wiki.gg/wiki/Chrysodendra"
-        }
-      ],
-      "chars": [
-        "Akekuri",
-        "Alesh",
-        "Antal",
-        "Arclight",
-        "Ardelia",
-        "Avywenna",
-        "Camille",
-        "Catcher",
-        "Chen Qianyu",
-        "Da Pan",
-        "Ember",
-        "Endministrator",
-        "Estella",
-        "Fluorite",
-        "Gilberta",
-        "Laevatain",
-        "Last Rite",
-        "Lifeng",
-        "Mi Fu",
-        "Perlica",
-        "Pogranichnik",
-        "Rossi",
-        "Snowshine",
-        "Tangtang",
-        "Wulfgard",
-        "Xaihi",
-        "Yvonne",
-        "Zhuang Fangyi"
-      ]
-    },
-    {
-      "region": "Field Materials",
-      "title": "False Aggela",
-      "mats": [
-        {
-          "id": "ae:False_Aggela",
-          "name": "False Aggela",
-          "n": "False Aggela",
-          "qty": 84,
-          "rar": 5,
-          "kind": "specialty",
-          "icon": "../../Database/EndfieldWiki/endfield/assets/items/false-aggela.png",
-          "source": "Rare Gathering Sites, Dijiang Production: Growth Chamber, Wuling City",
-          "sourceUrl": "https://endfield.wiki.gg/wiki/False_Aggela"
-        }
-      ],
-      "chars": [
-        "Alesh",
-        "Arclight",
-        "Ardelia",
-        "Avywenna",
-        "Camille",
-        "Catcher",
-        "Da Pan",
-        "Endministrator",
-        "Estella",
-        "Gilberta",
-        "Rossi",
-        "Wulfgard",
-        "Yvonne"
-      ]
-    },
-    {
-      "region": "Field Materials",
+      "region": "Growth Materials",
       "title": "Kalkodendra",
       "mats": [
         {
-          "id": "ae:Kalkodendra",
+          "id": "Kalkodendra",
           "name": "Kalkodendra",
-          "n": "Kalkodendra",
-          "qty": 12,
           "rar": 4,
           "kind": "specialty",
           "icon": "../../Database/EndfieldWiki/endfield/assets/items/kalkodendra.png",
           "source": "Area found: Hub Base, Rare Gathering Sites, Dijiang Production: Growth Chamber, The Hub",
-          "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkodendra"
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkodendra",
+          "n": "Kalkodendra"
         }
       ],
       "chars": [
@@ -56667,22 +56553,77 @@
         "Xaihi",
         "Yvonne",
         "Zhuang Fangyi"
-      ]
+      ],
+      "classificationSource": {
+        "url": "https://endfield.wiki.gg/wiki/Item/Rare_Materials",
+        "revisionId": 50579,
+        "lastEditedAt": "2026-05-31T06:44:00Z"
+      }
     },
     {
-      "region": "Field Materials",
+      "region": "Growth Materials",
+      "title": "Chrysodendra",
+      "mats": [
+        {
+          "id": "Chrysodendra",
+          "name": "Chrysodendra",
+          "rar": 4,
+          "kind": "specialty",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/items/chrysodendra.png",
+          "source": "Area found: Originium Science Park, Rare Gathering Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Chrysodendra",
+          "n": "Chrysodendra"
+        }
+      ],
+      "chars": [
+        "Akekuri",
+        "Alesh",
+        "Antal",
+        "Arclight",
+        "Ardelia",
+        "Avywenna",
+        "Camille",
+        "Catcher",
+        "Chen Qianyu",
+        "Da Pan",
+        "Ember",
+        "Endministrator",
+        "Estella",
+        "Fluorite",
+        "Gilberta",
+        "Laevatain",
+        "Last Rite",
+        "Lifeng",
+        "Mi Fu",
+        "Perlica",
+        "Pogranichnik",
+        "Rossi",
+        "Snowshine",
+        "Tangtang",
+        "Wulfgard",
+        "Xaihi",
+        "Yvonne",
+        "Zhuang Fangyi"
+      ],
+      "classificationSource": {
+        "url": "https://endfield.wiki.gg/wiki/Item/Rare_Materials",
+        "revisionId": 50579,
+        "lastEditedAt": "2026-05-31T06:44:00Z"
+      }
+    },
+    {
+      "region": "Growth Materials",
       "title": "Vitrodendra",
       "mats": [
         {
-          "id": "ae:Vitrodendra",
+          "id": "Vitrodendra",
           "name": "Vitrodendra",
-          "n": "Vitrodendra",
-          "qty": 16,
           "rar": 4,
           "kind": "specialty",
           "icon": "../../Database/EndfieldWiki/endfield/assets/items/vitrodendra.png",
           "source": "Area found: Power Plateau, Rare Gathering Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
-          "sourceUrl": "https://endfield.wiki.gg/wiki/Vitrodendra"
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Vitrodendra",
+          "n": "Vitrodendra"
         }
       ],
       "chars": [
@@ -56714,578 +56655,146 @@
         "Xaihi",
         "Yvonne",
         "Zhuang Fangyi"
-      ]
+      ],
+      "classificationSource": {
+        "url": "https://endfield.wiki.gg/wiki/Item/Rare_Materials",
+        "revisionId": 50579,
+        "lastEditedAt": "2026-05-31T06:44:00Z"
+      }
     },
     {
-      "region": "Promotion Materials",
-      "title": "Metadiastima Photoemission Tube",
+      "region": "Growth Materials",
+      "title": "Blighted Jadeleaf",
       "mats": [
         {
-          "id": "ae:Metadiastima_Photoemission_Tube",
-          "name": "Metadiastima Photoemission Tube",
-          "n": "Metadiastima Photoemission Tube",
-          "qty": 116,
+          "id": "Blighted_Jadeleaf",
+          "name": "Blighted Jadeleaf",
           "rar": 5,
-          "kind": "gem",
-          "icon": "../../Database/EndfieldWiki/endfield/assets/items/metadiastima-photoemission-tube.png",
-          "source": "Protocol Space: Hazardous Material Landfill, Crisis Pandemonium: Rhodagn (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (D",
-          "sourceUrl": "https://endfield.wiki.gg/wiki/Metadiastima_Photoemission_Tube"
+          "kind": "specialty",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/items/blighted-jadeleaf.png",
+          "source": "Area found: Wuling Outskirts, Rare Gathering Sites, Dijiang Production: Growth Chamber, Wuling City",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Blighted_Jadeleaf",
+          "n": "Blighted Jadeleaf"
         }
       ],
       "chars": [
         "Akekuri",
+        "Antal",
+        "Chen Qianyu",
+        "Ember",
+        "Fluorite",
+        "Laevatain",
+        "Last Rite",
+        "Lifeng",
+        "Mi Fu",
+        "Perlica",
+        "Pogranichnik",
+        "Snowshine",
+        "Tangtang",
+        "Xaihi",
+        "Zhuang Fangyi"
+      ],
+      "classificationSource": {
+        "url": "https://endfield.wiki.gg/wiki/Item/Rare_Materials",
+        "revisionId": 50579,
+        "lastEditedAt": "2026-05-31T06:44:00Z"
+      }
+    },
+    {
+      "region": "Growth Materials",
+      "title": "False Aggela",
+      "mats": [
+        {
+          "id": "False_Aggela",
+          "name": "False Aggela",
+          "rar": 5,
+          "kind": "specialty",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/items/false-aggela.png",
+          "source": "Rare Gathering Sites, Dijiang Production: Growth Chamber, Wuling City",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/False_Aggela",
+          "n": "False Aggela"
+        }
+      ],
+      "chars": [
+        "Alesh",
+        "Arclight",
+        "Ardelia",
+        "Avywenna",
+        "Camille",
         "Catcher",
         "Da Pan",
-        "Laevatain",
-        "Perlica",
+        "Endministrator",
+        "Estella",
+        "Gilberta",
         "Rossi",
-        "Snowshine",
+        "Wulfgard",
         "Yvonne"
-      ]
-    },
-    {
-      "region": "Promotion Materials",
-      "title": "Quadrant Fitting Fluid",
-      "mats": [
-        {
-          "id": "ae:Quadrant_Fitting_Fluid",
-          "name": "Quadrant Fitting Fluid",
-          "n": "Quadrant Fitting Fluid",
-          "qty": 116,
-          "rar": 5,
-          "kind": "gem",
-          "icon": "../../Database/EndfieldWiki/endfield/assets/items/quadrant-fitting-fluid.png",
-          "source": "Protocol Space: Hazardous Material Institute, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-          "sourceUrl": "https://endfield.wiki.gg/wiki/Quadrant_Fitting_Fluid"
-        }
       ],
-      "chars": [
-        "Alesh",
-        "Avywenna",
-        "Camille",
-        "Ember",
-        "Fluorite",
-        "Gilberta",
-        "Last Rite",
-        "Lifeng",
-        "Mi Fu",
-        "Pogranichnik",
-        "Tangtang",
-        "Wulfgard",
-        "Xaihi"
-      ]
-    },
-    {
-      "region": "Skill Materials",
-      "title": "D96 Steel Sample 4",
-      "mats": [
-        {
-          "id": "ae:D96_Steel_Sample_4",
-          "name": "D96 Steel Sample 4",
-          "n": "D96 Steel Sample 4",
-          "qty": 116,
-          "rar": 5,
-          "kind": "skill",
-          "icon": "../../Database/EndfieldWiki/endfield/assets/items/d96-steel-sample-4.png",
-          "source": "Protocol Space: Hazardous Material Collection Site, Crisis Calamity: Triaggelos (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Cr",
-          "sourceUrl": "https://endfield.wiki.gg/wiki/D96_Steel_Sample_4"
-        }
-      ],
-      "chars": [
-        "Antal",
-        "Arclight",
-        "Ardelia",
-        "Catcher",
-        "Chen Qianyu",
-        "Da Pan",
-        "Endministrator",
-        "Estella",
-        "Perlica",
-        "Tangtang",
-        "Yvonne",
-        "Zhuang Fangyi"
-      ]
-    },
-    {
-      "region": "Skill Materials",
-      "title": "Mark of Perseverance",
-      "mats": [
-        {
-          "id": "ae:Mark_of_Perseverance",
-          "name": "Mark of Perseverance",
-          "n": "Mark of Perseverance",
-          "qty": 24,
-          "rar": 5,
-          "kind": "skill",
-          "icon": "../../Database/EndfieldWiki/endfield/assets/items/mark-of-perseverance.png",
-          "source": "Reward: Protocol Pass, Acquisition Center: Bond Quota Exchange, Reward: Events",
-          "sourceUrl": "https://endfield.wiki.gg/wiki/Mark_of_Perseverance"
-        }
-      ],
-      "chars": [
-        "Akekuri",
-        "Alesh",
-        "Antal",
-        "Arclight",
-        "Ardelia",
-        "Avywenna",
-        "Camille",
-        "Catcher",
-        "Chen Qianyu",
-        "Da Pan",
-        "Ember",
-        "Endministrator",
-        "Estella",
-        "Fluorite",
-        "Gilberta",
-        "Laevatain",
-        "Last Rite",
-        "Lifeng",
-        "Mi Fu",
-        "Perlica",
-        "Pogranichnik",
-        "Rossi",
-        "Snowshine",
-        "Tangtang",
-        "Wulfgard",
-        "Xaihi",
-        "Yvonne",
-        "Zhuang Fangyi"
-      ]
-    },
-    {
-      "region": "Skill Materials",
-      "title": "Protohedron",
-      "mats": [
-        {
-          "id": "ae:Protohedron",
-          "name": "Protohedron",
-          "n": "Protohedron",
-          "qty": 534,
-          "rar": 4,
-          "kind": "book",
-          "icon": "../../Database/EndfieldWiki/endfield/assets/items/protohedron.png",
-          "source": "Protocol Space: Skill Up, Acquisition Center: AIC Trading, Exploring and Gathering",
-          "sourceUrl": "https://endfield.wiki.gg/wiki/Protohedron"
-        }
-      ],
-      "chars": [
-        "Akekuri",
-        "Alesh",
-        "Antal",
-        "Arclight",
-        "Ardelia",
-        "Avywenna",
-        "Camille",
-        "Catcher",
-        "Chen Qianyu",
-        "Da Pan",
-        "Ember",
-        "Endministrator",
-        "Estella",
-        "Fluorite",
-        "Gilberta",
-        "Laevatain",
-        "Last Rite",
-        "Lifeng",
-        "Mi Fu",
-        "Perlica",
-        "Pogranichnik",
-        "Rossi",
-        "Snowshine",
-        "Tangtang",
-        "Wulfgard",
-        "Xaihi",
-        "Yvonne",
-        "Zhuang Fangyi"
-      ]
-    },
-    {
-      "region": "Skill Materials",
-      "title": "Protoprism",
-      "mats": [
-        {
-          "id": "ae:Protoprism",
-          "name": "Protoprism",
-          "n": "Protoprism",
-          "qty": 567,
-          "rar": 3,
-          "kind": "book",
-          "icon": "../../Database/EndfieldWiki/endfield/assets/items/protoprism.png",
-          "source": "Protocol Space: Skill Up, Acquisition Center: AIC Trading, Exploring and Gathering",
-          "sourceUrl": "https://endfield.wiki.gg/wiki/Protoprism"
-        }
-      ],
-      "chars": [
-        "Akekuri",
-        "Alesh",
-        "Antal",
-        "Arclight",
-        "Ardelia",
-        "Avywenna",
-        "Camille",
-        "Catcher",
-        "Chen Qianyu",
-        "Da Pan",
-        "Ember",
-        "Endministrator",
-        "Estella",
-        "Fluorite",
-        "Gilberta",
-        "Laevatain",
-        "Last Rite",
-        "Lifeng",
-        "Mi Fu",
-        "Perlica",
-        "Pogranichnik",
-        "Rossi",
-        "Snowshine",
-        "Tangtang",
-        "Wulfgard",
-        "Xaihi",
-        "Yvonne",
-        "Zhuang Fangyi"
-      ]
-    },
-    {
-      "region": "Skill Materials",
-      "title": "Tachyon Screening Lattice",
-      "mats": [
-        {
-          "id": "ae:Tachyon_Screening_Lattice",
-          "name": "Tachyon Screening Lattice",
-          "n": "Tachyon Screening Lattice",
-          "qty": 116,
-          "rar": 5,
-          "kind": "skill",
-          "icon": "../../Database/EndfieldWiki/endfield/assets/items/tachyon-screening-lattice.png",
-          "source": "Protocol Space: Hazardous Material Management Room, Crisis Calamity: Marble Aggelomoirai (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Spa",
-          "sourceUrl": "https://endfield.wiki.gg/wiki/Tachyon_Screening_Lattice"
-        }
-      ],
-      "chars": [
-        "Antal",
-        "Arclight",
-        "Ardelia",
-        "Camille",
-        "Chen Qianyu",
-        "Ember",
-        "Endministrator",
-        "Estella",
-        "Fluorite",
-        "Last Rite",
-        "Rossi",
-        "Wulfgard",
-        "Xaihi",
-        "Zhuang Fangyi"
-      ]
-    },
-    {
-      "region": "Skill Materials",
-      "title": "Triphasic Nanoflake",
-      "mats": [
-        {
-          "id": "ae:Triphasic_Nanoflake",
-          "name": "Triphasic Nanoflake",
-          "n": "Triphasic Nanoflake",
-          "qty": 116,
-          "rar": 5,
-          "kind": "skill",
-          "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-          "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-          "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
-        }
-      ],
-      "chars": [
-        "Akekuri",
-        "Alesh",
-        "Avywenna",
-        "Gilberta",
-        "Laevatain",
-        "Lifeng",
-        "Mi Fu",
-        "Pogranichnik",
-        "Snowshine"
-      ]
+      "classificationSource": {
+        "url": "https://endfield.wiki.gg/wiki/Item/Rare_Materials",
+        "revisionId": 50579,
+        "lastEditedAt": "2026-05-31T06:44:00Z"
+      }
     }
   ],
   "boss": {
-    "title": "Field Operations",
+    "title": "Progression Materials",
     "count": 28
   },
   "bossGroups": [
     {
-      "region": "Field Materials",
-      "title": "Bloodcap",
-      "mats": [
-        {
-          "id": "ae:Bloodcap",
-          "name": "Bloodcap",
-          "n": "Bloodcap",
-          "qty": 8,
-          "rar": 5,
-          "kind": "specialty",
-          "icon": "../../Database/EndfieldWiki/endfield/assets/items/bloodcap.png",
-          "source": "Area found: Wuling Outskirts, Rare Gathering Sites, Dijiang Production: Growth Chamber, Wuling City",
-          "sourceUrl": "https://endfield.wiki.gg/wiki/Bloodcap"
-        }
-      ],
-      "chars": [
-        "Alesh",
-        "Avywenna",
-        "Catcher",
-        "Da Pan",
-        "Endministrator",
-        "Gilberta",
-        "Last Rite",
-        "Lifeng",
-        "Mi Fu",
-        "Perlica",
-        "Snowshine",
-        "Tangtang",
-        "Xaihi",
-        "Yvonne"
-      ]
-    },
-    {
-      "region": "Field Materials",
-      "title": "Cosmagaric",
-      "mats": [
-        {
-          "id": "ae:Cosmagaric",
-          "name": "Cosmagaric",
-          "n": "Cosmagaric",
-          "qty": 8,
-          "rar": 5,
-          "kind": "specialty",
-          "icon": "../../Database/EndfieldWiki/endfield/assets/items/cosmagaric.png",
-          "source": "Rare Gathering Sites, Dijiang Production: Growth Chamber, Wuling City",
-          "sourceUrl": "https://endfield.wiki.gg/wiki/Cosmagaric"
-        }
-      ],
-      "chars": [
-        "Akekuri",
-        "Antal",
-        "Arclight",
-        "Ardelia",
-        "Camille",
-        "Chen Qianyu",
-        "Ember",
-        "Estella",
-        "Fluorite",
-        "Laevatain",
-        "Pogranichnik",
-        "Rossi",
-        "Wulfgard",
-        "Zhuang Fangyi"
-      ]
-    },
-    {
-      "region": "Field Materials",
-      "title": "Pink Bolete",
-      "mats": [
-        {
-          "id": "ae:Pink_Bolete",
-          "name": "Pink Bolete",
-          "n": "Pink Bolete",
-          "qty": 3,
-          "rar": 4,
-          "kind": "specialty",
-          "icon": "../../Database/EndfieldWiki/endfield/assets/items/pink-bolete.png",
-          "source": "Area found: Hub Base, Rare Gathering Sites, Dijiang Production: Growth Chamber, The Hub",
-          "sourceUrl": "https://endfield.wiki.gg/wiki/Pink_Bolete"
-        }
-      ],
-      "chars": [
-        "Akekuri",
-        "Alesh",
-        "Antal",
-        "Arclight",
-        "Ardelia",
-        "Avywenna",
-        "Camille",
-        "Catcher",
-        "Chen Qianyu",
-        "Da Pan",
-        "Ember",
-        "Endministrator",
-        "Estella",
-        "Fluorite",
-        "Gilberta",
-        "Laevatain",
-        "Last Rite",
-        "Lifeng",
-        "Mi Fu",
-        "Perlica",
-        "Pogranichnik",
-        "Rossi",
-        "Snowshine",
-        "Tangtang",
-        "Wulfgard",
-        "Xaihi",
-        "Yvonne",
-        "Zhuang Fangyi"
-      ]
-    },
-    {
-      "region": "Field Materials",
-      "title": "Red Bolete",
-      "mats": [
-        {
-          "id": "ae:Red_Bolete",
-          "name": "Red Bolete",
-          "n": "Red Bolete",
-          "qty": 5,
-          "rar": 4,
-          "kind": "specialty",
-          "icon": "../../Database/EndfieldWiki/endfield/assets/items/red-bolete.png",
-          "source": "Area found: Originium Science Park, Rare Gathering Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
-          "sourceUrl": "https://endfield.wiki.gg/wiki/Red_Bolete"
-        }
-      ],
-      "chars": [
-        "Akekuri",
-        "Alesh",
-        "Antal",
-        "Arclight",
-        "Ardelia",
-        "Avywenna",
-        "Camille",
-        "Catcher",
-        "Chen Qianyu",
-        "Da Pan",
-        "Ember",
-        "Endministrator",
-        "Estella",
-        "Fluorite",
-        "Gilberta",
-        "Laevatain",
-        "Last Rite",
-        "Lifeng",
-        "Mi Fu",
-        "Perlica",
-        "Pogranichnik",
-        "Rossi",
-        "Snowshine",
-        "Tangtang",
-        "Wulfgard",
-        "Xaihi",
-        "Yvonne",
-        "Zhuang Fangyi"
-      ]
-    },
-    {
-      "region": "Field Materials",
-      "title": "Ruby Bolete",
-      "mats": [
-        {
-          "id": "ae:Ruby_Bolete",
-          "name": "Ruby Bolete",
-          "n": "Ruby Bolete",
-          "qty": 5,
-          "rar": 4,
-          "kind": "specialty",
-          "icon": "../../Database/EndfieldWiki/endfield/assets/items/ruby-bolete.png",
-          "source": "Area found: Power Plateau, Rare Gathering Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
-          "sourceUrl": "https://endfield.wiki.gg/wiki/Ruby_Bolete"
-        }
-      ],
-      "chars": [
-        "Akekuri",
-        "Alesh",
-        "Antal",
-        "Arclight",
-        "Ardelia",
-        "Avywenna",
-        "Camille",
-        "Catcher",
-        "Chen Qianyu",
-        "Da Pan",
-        "Ember",
-        "Endministrator",
-        "Estella",
-        "Fluorite",
-        "Gilberta",
-        "Laevatain",
-        "Last Rite",
-        "Lifeng",
-        "Mi Fu",
-        "Perlica",
-        "Pogranichnik",
-        "Rossi",
-        "Snowshine",
-        "Tangtang",
-        "Wulfgard",
-        "Xaihi",
-        "Yvonne",
-        "Zhuang Fangyi"
-      ]
-    },
-    {
-      "region": "Promotion Materials",
+      "region": "Progression Materials",
       "title": "D96 Steel Sample 4",
       "mats": [
         {
-          "id": "ae:D96_Steel_Sample_4",
+          "id": "D96_Steel_Sample_4",
           "name": "D96 Steel Sample 4",
-          "n": "D96 Steel Sample 4",
-          "qty": 20,
           "rar": 5,
           "kind": "skill",
           "icon": "../../Database/EndfieldWiki/endfield/assets/items/d96-steel-sample-4.png",
           "source": "Protocol Space: Hazardous Material Collection Site, Crisis Calamity: Triaggelos (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Cr",
-          "sourceUrl": "https://endfield.wiki.gg/wiki/D96_Steel_Sample_4"
+          "sourceUrl": "https://endfield.wiki.gg/wiki/D96_Steel_Sample_4",
+          "n": "D96 Steel Sample 4"
         }
       ],
       "chars": [
         "Akekuri",
+        "Antal",
+        "Arclight",
+        "Ardelia",
+        "Catcher",
+        "Chen Qianyu",
+        "Da Pan",
         "Ember",
+        "Endministrator",
+        "Estella",
         "Laevatain",
         "Mi Fu",
-        "Xaihi"
-      ]
+        "Perlica",
+        "Tangtang",
+        "Xaihi",
+        "Yvonne",
+        "Zhuang Fangyi"
+      ],
+      "classificationSource": {
+        "url": "https://endfield.wiki.gg/wiki/Item/Progression_Materials",
+        "revisionId": 38938,
+        "lastEditedAt": "2026-03-05T17:09:57Z"
+      }
     },
     {
-      "region": "Promotion Materials",
+      "region": "Progression Materials",
       "title": "Metadiastima Photoemission Tube",
       "mats": [
         {
-          "id": "ae:Metadiastima_Photoemission_Tube",
+          "id": "Metadiastima_Photoemission_Tube",
           "name": "Metadiastima Photoemission Tube",
-          "n": "Metadiastima Photoemission Tube",
-          "qty": 20,
           "rar": 5,
           "kind": "gem",
           "icon": "../../Database/EndfieldWiki/endfield/assets/items/metadiastima-photoemission-tube.png",
           "source": "Protocol Space: Hazardous Material Landfill, Crisis Pandemonium: Rhodagn (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (D",
-          "sourceUrl": "https://endfield.wiki.gg/wiki/Metadiastima_Photoemission_Tube"
-        }
-      ],
-      "chars": [
-        "Alesh",
-        "Antal",
-        "Arclight",
-        "Camille",
-        "Endministrator",
-        "Lifeng",
-        "Pogranichnik",
-        "Tangtang"
-      ]
-    },
-    {
-      "region": "Promotion Materials",
-      "title": "Protodisk",
-      "mats": [
-        {
-          "id": "ae:Protodisk",
-          "name": "Protodisk",
-          "n": "Protodisk",
-          "qty": 33,
-          "rar": 3,
-          "kind": "gem",
-          "icon": "../../Database/EndfieldWiki/endfield/assets/items/protodisk.png",
-          "source": "Protocol Space: Promotions, Acquisition Center: AIC Trading, Exploring and Gathering",
-          "sourceUrl": "https://endfield.wiki.gg/wiki/Protodisk"
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Metadiastima_Photoemission_Tube",
+          "n": "Metadiastima Photoemission Tube"
         }
       ],
       "chars": [
@@ -57293,152 +56802,646 @@
         "Alesh",
         "Antal",
         "Arclight",
-        "Ardelia",
-        "Avywenna",
         "Camille",
         "Catcher",
-        "Chen Qianyu",
         "Da Pan",
-        "Ember",
         "Endministrator",
-        "Estella",
-        "Fluorite",
-        "Gilberta",
         "Laevatain",
-        "Last Rite",
         "Lifeng",
-        "Mi Fu",
         "Perlica",
         "Pogranichnik",
         "Rossi",
         "Snowshine",
         "Tangtang",
-        "Wulfgard",
-        "Xaihi",
-        "Yvonne",
-        "Zhuang Fangyi"
-      ]
-    },
-    {
-      "region": "Promotion Materials",
-      "title": "Protoset",
-      "mats": [
-        {
-          "id": "ae:Protoset",
-          "name": "Protoset",
-          "n": "Protoset",
-          "qty": 60,
-          "rar": 4,
-          "kind": "gem",
-          "icon": "../../Database/EndfieldWiki/endfield/assets/items/protoset.png",
-          "source": "Protocol Space: Promotions, Acquisition Center: AIC Trading, Exploring and Gathering",
-          "sourceUrl": "https://endfield.wiki.gg/wiki/Protoset"
-        }
+        "Yvonne"
       ],
-      "chars": [
-        "Akekuri",
-        "Alesh",
-        "Antal",
-        "Arclight",
-        "Ardelia",
-        "Avywenna",
-        "Camille",
-        "Catcher",
-        "Chen Qianyu",
-        "Da Pan",
-        "Ember",
-        "Endministrator",
-        "Estella",
-        "Fluorite",
-        "Gilberta",
-        "Laevatain",
-        "Last Rite",
-        "Lifeng",
-        "Mi Fu",
-        "Perlica",
-        "Pogranichnik",
-        "Rossi",
-        "Snowshine",
-        "Tangtang",
-        "Wulfgard",
-        "Xaihi",
-        "Yvonne",
-        "Zhuang Fangyi"
-      ]
+      "classificationSource": {
+        "url": "https://endfield.wiki.gg/wiki/Item/Progression_Materials",
+        "revisionId": 38938,
+        "lastEditedAt": "2026-03-05T17:09:57Z"
+      }
     },
     {
-      "region": "Promotion Materials",
+      "region": "Progression Materials",
       "title": "Quadrant Fitting Fluid",
       "mats": [
         {
-          "id": "ae:Quadrant_Fitting_Fluid",
+          "id": "Quadrant_Fitting_Fluid",
           "name": "Quadrant Fitting Fluid",
-          "n": "Quadrant Fitting Fluid",
-          "qty": 20,
           "rar": 5,
           "kind": "gem",
           "icon": "../../Database/EndfieldWiki/endfield/assets/items/quadrant-fitting-fluid.png",
           "source": "Protocol Space: Hazardous Material Institute, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-          "sourceUrl": "https://endfield.wiki.gg/wiki/Quadrant_Fitting_Fluid"
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Quadrant_Fitting_Fluid",
+          "n": "Quadrant Fitting Fluid"
         }
       ],
       "chars": [
+        "Alesh",
         "Ardelia",
+        "Avywenna",
+        "Camille",
         "Chen Qianyu",
+        "Ember",
         "Estella",
+        "Fluorite",
+        "Gilberta",
+        "Last Rite",
+        "Lifeng",
+        "Mi Fu",
+        "Pogranichnik",
         "Rossi",
-        "Snowshine"
-      ]
+        "Snowshine",
+        "Tangtang",
+        "Wulfgard",
+        "Xaihi"
+      ],
+      "classificationSource": {
+        "url": "https://endfield.wiki.gg/wiki/Item/Progression_Materials",
+        "revisionId": 38938,
+        "lastEditedAt": "2026-03-05T17:09:57Z"
+      }
     },
     {
-      "region": "Promotion Materials",
+      "region": "Progression Materials",
       "title": "Tachyon Screening Lattice",
       "mats": [
         {
-          "id": "ae:Tachyon_Screening_Lattice",
+          "id": "Tachyon_Screening_Lattice",
           "name": "Tachyon Screening Lattice",
-          "n": "Tachyon Screening Lattice",
-          "qty": 20,
           "rar": 5,
           "kind": "skill",
           "icon": "../../Database/EndfieldWiki/endfield/assets/items/tachyon-screening-lattice.png",
           "source": "Protocol Space: Hazardous Material Management Room, Crisis Calamity: Marble Aggelomoirai (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Spa",
-          "sourceUrl": "https://endfield.wiki.gg/wiki/Tachyon_Screening_Lattice"
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Tachyon_Screening_Lattice",
+          "n": "Tachyon Screening Lattice"
         }
       ],
       "chars": [
+        "Antal",
+        "Arclight",
+        "Ardelia",
         "Avywenna",
+        "Camille",
         "Catcher",
+        "Chen Qianyu",
+        "Ember",
+        "Endministrator",
+        "Estella",
+        "Fluorite",
         "Gilberta",
+        "Last Rite",
         "Perlica",
-        "Yvonne"
-      ]
+        "Rossi",
+        "Wulfgard",
+        "Xaihi",
+        "Yvonne",
+        "Zhuang Fangyi"
+      ],
+      "classificationSource": {
+        "url": "https://endfield.wiki.gg/wiki/Item/Progression_Materials",
+        "revisionId": 38938,
+        "lastEditedAt": "2026-03-05T17:09:57Z"
+      }
     },
     {
-      "region": "Promotion Materials",
+      "region": "Progression Materials",
       "title": "Triphasic Nanoflake",
       "mats": [
         {
-          "id": "ae:Triphasic_Nanoflake",
+          "id": "Triphasic_Nanoflake",
           "name": "Triphasic Nanoflake",
-          "n": "Triphasic Nanoflake",
-          "qty": 20,
           "rar": 5,
           "kind": "skill",
           "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
           "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-          "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake",
+          "n": "Triphasic Nanoflake"
         }
       ],
       "chars": [
+        "Akekuri",
+        "Alesh",
+        "Avywenna",
         "Da Pan",
         "Fluorite",
+        "Gilberta",
+        "Laevatain",
         "Last Rite",
+        "Lifeng",
+        "Mi Fu",
+        "Pogranichnik",
+        "Snowshine",
         "Wulfgard",
         "Zhuang Fangyi"
-      ]
+      ],
+      "classificationSource": {
+        "url": "https://endfield.wiki.gg/wiki/Item/Progression_Materials",
+        "revisionId": 38938,
+        "lastEditedAt": "2026-03-05T17:09:57Z"
+      }
     }
-  ]
+  ],
+  "materialClassificationAudit": {
+    "classification": "explicit-source-name-lists",
+    "sourceCheckedAt": "2026-07-14",
+    "rosterCount": 28,
+    "growth": {
+      "label": "Growth Materials",
+      "materialNames": [
+        "Kalkodendra",
+        "Chrysodendra",
+        "Vitrodendra",
+        "Blighted Jadeleaf",
+        "False Aggela"
+      ],
+      "requirementFields": [
+        "talents"
+      ],
+      "sourceCharacters": [
+        "Akekuri",
+        "Alesh",
+        "Antal",
+        "Arclight",
+        "Ardelia",
+        "Avywenna",
+        "Camille",
+        "Catcher",
+        "Chen Qianyu",
+        "Da Pan",
+        "Ember",
+        "Endministrator",
+        "Estella",
+        "Fluorite",
+        "Gilberta",
+        "Laevatain",
+        "Last Rite",
+        "Lifeng",
+        "Mi Fu",
+        "Perlica",
+        "Pogranichnik",
+        "Rossi",
+        "Snowshine",
+        "Tangtang",
+        "Wulfgard",
+        "Xaihi",
+        "Yvonne",
+        "Zhuang Fangyi"
+      ],
+      "generatedCharacters": [
+        "Akekuri",
+        "Alesh",
+        "Antal",
+        "Arclight",
+        "Ardelia",
+        "Avywenna",
+        "Camille",
+        "Catcher",
+        "Chen Qianyu",
+        "Da Pan",
+        "Ember",
+        "Endministrator",
+        "Estella",
+        "Fluorite",
+        "Gilberta",
+        "Laevatain",
+        "Last Rite",
+        "Lifeng",
+        "Mi Fu",
+        "Perlica",
+        "Pogranichnik",
+        "Rossi",
+        "Snowshine",
+        "Tangtang",
+        "Wulfgard",
+        "Xaihi",
+        "Yvonne",
+        "Zhuang Fangyi"
+      ],
+      "missing": [],
+      "extra": [],
+      "source": {
+        "url": "https://endfield.wiki.gg/wiki/Item/Rare_Materials",
+        "revisionId": 50579,
+        "lastEditedAt": "2026-05-31T06:44:00Z"
+      }
+    },
+    "progression": {
+      "label": "Progression Materials",
+      "materialNames": [
+        "D96 Steel Sample 4",
+        "Metadiastima Photoemission Tube",
+        "Quadrant Fitting Fluid",
+        "Tachyon Screening Lattice",
+        "Triphasic Nanoflake"
+      ],
+      "requirementFields": [
+        "ascension",
+        "talents"
+      ],
+      "sourceCharacters": [
+        "Akekuri",
+        "Alesh",
+        "Antal",
+        "Arclight",
+        "Ardelia",
+        "Avywenna",
+        "Camille",
+        "Catcher",
+        "Chen Qianyu",
+        "Da Pan",
+        "Ember",
+        "Endministrator",
+        "Estella",
+        "Fluorite",
+        "Gilberta",
+        "Laevatain",
+        "Last Rite",
+        "Lifeng",
+        "Mi Fu",
+        "Perlica",
+        "Pogranichnik",
+        "Rossi",
+        "Snowshine",
+        "Tangtang",
+        "Wulfgard",
+        "Xaihi",
+        "Yvonne",
+        "Zhuang Fangyi"
+      ],
+      "generatedCharacters": [
+        "Akekuri",
+        "Alesh",
+        "Antal",
+        "Arclight",
+        "Ardelia",
+        "Avywenna",
+        "Camille",
+        "Catcher",
+        "Chen Qianyu",
+        "Da Pan",
+        "Ember",
+        "Endministrator",
+        "Estella",
+        "Fluorite",
+        "Gilberta",
+        "Laevatain",
+        "Last Rite",
+        "Lifeng",
+        "Mi Fu",
+        "Perlica",
+        "Pogranichnik",
+        "Rossi",
+        "Snowshine",
+        "Tangtang",
+        "Wulfgard",
+        "Xaihi",
+        "Yvonne",
+        "Zhuang Fangyi"
+      ],
+      "missing": [],
+      "extra": [],
+      "source": {
+        "url": "https://endfield.wiki.gg/wiki/Item/Progression_Materials",
+        "revisionId": 38938,
+        "lastEditedAt": "2026-03-05T17:09:57Z"
+      }
+    },
+    "unclassifiedRequirements": [
+      {
+        "name": "Bloodcap",
+        "requirementFields": [
+          "ascension"
+        ],
+        "characters": [
+          "Alesh",
+          "Avywenna",
+          "Catcher",
+          "Da Pan",
+          "Endministrator",
+          "Gilberta",
+          "Last Rite",
+          "Lifeng",
+          "Mi Fu",
+          "Perlica",
+          "Snowshine",
+          "Tangtang",
+          "Xaihi",
+          "Yvonne"
+        ]
+      },
+      {
+        "name": "Cosmagaric",
+        "requirementFields": [
+          "ascension"
+        ],
+        "characters": [
+          "Akekuri",
+          "Antal",
+          "Arclight",
+          "Ardelia",
+          "Camille",
+          "Chen Qianyu",
+          "Ember",
+          "Estella",
+          "Fluorite",
+          "Laevatain",
+          "Pogranichnik",
+          "Rossi",
+          "Wulfgard",
+          "Zhuang Fangyi"
+        ]
+      },
+      {
+        "name": "Mark of Perseverance",
+        "requirementFields": [
+          "talents"
+        ],
+        "characters": [
+          "Akekuri",
+          "Alesh",
+          "Antal",
+          "Arclight",
+          "Ardelia",
+          "Avywenna",
+          "Camille",
+          "Catcher",
+          "Chen Qianyu",
+          "Da Pan",
+          "Ember",
+          "Endministrator",
+          "Estella",
+          "Fluorite",
+          "Gilberta",
+          "Laevatain",
+          "Last Rite",
+          "Lifeng",
+          "Mi Fu",
+          "Perlica",
+          "Pogranichnik",
+          "Rossi",
+          "Snowshine",
+          "Tangtang",
+          "Wulfgard",
+          "Xaihi",
+          "Yvonne",
+          "Zhuang Fangyi"
+        ]
+      },
+      {
+        "name": "Pink Bolete",
+        "requirementFields": [
+          "ascension"
+        ],
+        "characters": [
+          "Akekuri",
+          "Alesh",
+          "Antal",
+          "Arclight",
+          "Ardelia",
+          "Avywenna",
+          "Camille",
+          "Catcher",
+          "Chen Qianyu",
+          "Da Pan",
+          "Ember",
+          "Endministrator",
+          "Estella",
+          "Fluorite",
+          "Gilberta",
+          "Laevatain",
+          "Last Rite",
+          "Lifeng",
+          "Mi Fu",
+          "Perlica",
+          "Pogranichnik",
+          "Rossi",
+          "Snowshine",
+          "Tangtang",
+          "Wulfgard",
+          "Xaihi",
+          "Yvonne",
+          "Zhuang Fangyi"
+        ]
+      },
+      {
+        "name": "Protodisk",
+        "requirementFields": [
+          "ascension"
+        ],
+        "characters": [
+          "Akekuri",
+          "Alesh",
+          "Antal",
+          "Arclight",
+          "Ardelia",
+          "Avywenna",
+          "Camille",
+          "Catcher",
+          "Chen Qianyu",
+          "Da Pan",
+          "Ember",
+          "Endministrator",
+          "Estella",
+          "Fluorite",
+          "Gilberta",
+          "Laevatain",
+          "Last Rite",
+          "Lifeng",
+          "Mi Fu",
+          "Perlica",
+          "Pogranichnik",
+          "Rossi",
+          "Snowshine",
+          "Tangtang",
+          "Wulfgard",
+          "Xaihi",
+          "Yvonne",
+          "Zhuang Fangyi"
+        ]
+      },
+      {
+        "name": "Protohedron",
+        "requirementFields": [
+          "talents"
+        ],
+        "characters": [
+          "Akekuri",
+          "Alesh",
+          "Antal",
+          "Arclight",
+          "Ardelia",
+          "Avywenna",
+          "Camille",
+          "Catcher",
+          "Chen Qianyu",
+          "Da Pan",
+          "Ember",
+          "Endministrator",
+          "Estella",
+          "Fluorite",
+          "Gilberta",
+          "Laevatain",
+          "Last Rite",
+          "Lifeng",
+          "Mi Fu",
+          "Perlica",
+          "Pogranichnik",
+          "Rossi",
+          "Snowshine",
+          "Tangtang",
+          "Wulfgard",
+          "Xaihi",
+          "Yvonne",
+          "Zhuang Fangyi"
+        ]
+      },
+      {
+        "name": "Protoprism",
+        "requirementFields": [
+          "talents"
+        ],
+        "characters": [
+          "Akekuri",
+          "Alesh",
+          "Antal",
+          "Arclight",
+          "Ardelia",
+          "Avywenna",
+          "Camille",
+          "Catcher",
+          "Chen Qianyu",
+          "Da Pan",
+          "Ember",
+          "Endministrator",
+          "Estella",
+          "Fluorite",
+          "Gilberta",
+          "Laevatain",
+          "Last Rite",
+          "Lifeng",
+          "Mi Fu",
+          "Perlica",
+          "Pogranichnik",
+          "Rossi",
+          "Snowshine",
+          "Tangtang",
+          "Wulfgard",
+          "Xaihi",
+          "Yvonne",
+          "Zhuang Fangyi"
+        ]
+      },
+      {
+        "name": "Protoset",
+        "requirementFields": [
+          "ascension"
+        ],
+        "characters": [
+          "Akekuri",
+          "Alesh",
+          "Antal",
+          "Arclight",
+          "Ardelia",
+          "Avywenna",
+          "Camille",
+          "Catcher",
+          "Chen Qianyu",
+          "Da Pan",
+          "Ember",
+          "Endministrator",
+          "Estella",
+          "Fluorite",
+          "Gilberta",
+          "Laevatain",
+          "Last Rite",
+          "Lifeng",
+          "Mi Fu",
+          "Perlica",
+          "Pogranichnik",
+          "Rossi",
+          "Snowshine",
+          "Tangtang",
+          "Wulfgard",
+          "Xaihi",
+          "Yvonne",
+          "Zhuang Fangyi"
+        ]
+      },
+      {
+        "name": "Red Bolete",
+        "requirementFields": [
+          "ascension"
+        ],
+        "characters": [
+          "Akekuri",
+          "Alesh",
+          "Antal",
+          "Arclight",
+          "Ardelia",
+          "Avywenna",
+          "Camille",
+          "Catcher",
+          "Chen Qianyu",
+          "Da Pan",
+          "Ember",
+          "Endministrator",
+          "Estella",
+          "Fluorite",
+          "Gilberta",
+          "Laevatain",
+          "Last Rite",
+          "Lifeng",
+          "Mi Fu",
+          "Perlica",
+          "Pogranichnik",
+          "Rossi",
+          "Snowshine",
+          "Tangtang",
+          "Wulfgard",
+          "Xaihi",
+          "Yvonne",
+          "Zhuang Fangyi"
+        ]
+      },
+      {
+        "name": "Ruby Bolete",
+        "requirementFields": [
+          "ascension"
+        ],
+        "characters": [
+          "Akekuri",
+          "Alesh",
+          "Antal",
+          "Arclight",
+          "Ardelia",
+          "Avywenna",
+          "Camille",
+          "Catcher",
+          "Chen Qianyu",
+          "Da Pan",
+          "Ember",
+          "Endministrator",
+          "Estella",
+          "Fluorite",
+          "Gilberta",
+          "Laevatain",
+          "Last Rite",
+          "Lifeng",
+          "Mi Fu",
+          "Perlica",
+          "Pogranichnik",
+          "Rossi",
+          "Snowshine",
+          "Tangtang",
+          "Wulfgard",
+          "Xaihi",
+          "Yvonne",
+          "Zhuang Fangyi"
+        ]
+      }
+    ]
+  }
 };
   window.dispatchEvent(new CustomEvent('nyx:cm-game-loaded', { detail:{ key:"ae" } }));
 })();

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "game": "zzz",
-  "generatedAt": "2026-07-12T02:22:44.440Z",
+  "generatedAt": "2026-07-16T08:33:29.925Z",
   "source": {
     "name": "Zenless Zone Zero Official",
     "endpoint": "sg-announcement-api.hoyoverse.com getAnnList+getAnnContent"
@@ -27,13 +27,37 @@
       "source": {
         "name": "Zenless Zone Zero Official",
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1226",
+        "kind": "official-announcement-api",
+        "recordId": "1226",
+        "fetchedAt": "2026-07-16T08:33:35.983Z",
         "priority": 1
       },
       "confidence": "high",
+      "scheduleStatus": "exact",
       "permanence": "timed",
       "needs_review": false,
-      "image": "https://sdk.hoyoverse.com/upload/ann/2026/07/03/b40c2c0f4ade541034ef841af5ddbfde_9107498888279022227_transformed.jpg",
-      "description": "Event Duration 2026/07/08 10:00 (server time) – 2026/07/28 03:59 (server time) Requirements Reach Inter-Knot Lv. 5, and unlock the Event feature in the Main Story Prologue \"The Hare and the Proxy\" Event Details During the \"'En-Nah' Into…"
+      "image": null,
+      "description": "Event Duration 2026/07/08 10:00 (server time) – 2026/07/28 03:59 (server time) Requirements Reach Inter-Knot Lv. 5, and unlock the Event feature in the Main Story Prologue \"The Hare and the Proxy\" Event Details During the \"'En-Nah' Into…",
+      "windowsByRegion": {
+        "europe": {
+          "start": "2026-07-08T09:00:00.000Z",
+          "end": "2026-07-28T02:59:00.000Z",
+          "timezone": "UTC+01:00",
+          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1226"
+        },
+        "asia": {
+          "start": "2026-07-08T02:00:00.000Z",
+          "end": "2026-07-27T19:59:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1226"
+        },
+        "america": {
+          "start": "2026-07-08T15:00:00.000Z",
+          "end": "2026-07-28T08:59:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1226"
+        }
+      }
     },
     {
       "game": "zzz",
@@ -47,13 +71,37 @@
       "source": {
         "name": "Zenless Zone Zero Official",
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1203",
+        "kind": "official-announcement-api",
+        "recordId": "1203",
+        "fetchedAt": "2026-07-16T08:33:35.983Z",
         "priority": 1
       },
       "confidence": "high",
+      "scheduleStatus": "exact",
       "permanence": "timed",
       "needs_review": false,
-      "image": "https://sdk.hoyoverse.com/upload/ann/2026/06/29/a235f309c1432f020ddd0d822909ff59_3471394558436324277_transformed.png",
-      "description": "Event Duration 2026/07/03 10:00 (server time) – 2026/07/20 03:59 (server time) Event Rewards Requirements Reach Inter-Knot Lv. 20 and complete Main Story Chapter 1 - Intermission to participate Event Details • During the event, Proxies…"
+      "image": null,
+      "description": "Event Duration 2026/07/03 10:00 (server time) – 2026/07/20 03:59 (server time) Event Rewards Requirements Reach Inter-Knot Lv. 20 and complete Main Story Chapter 1 - Intermission to participate Event Details • During the event, Proxies…",
+      "windowsByRegion": {
+        "europe": {
+          "start": "2026-07-03T09:00:00.000Z",
+          "end": "2026-07-20T02:59:00.000Z",
+          "timezone": "UTC+01:00",
+          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1203"
+        },
+        "asia": {
+          "start": "2026-07-03T02:00:00.000Z",
+          "end": "2026-07-19T19:59:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1203"
+        },
+        "america": {
+          "start": "2026-07-03T15:00:00.000Z",
+          "end": "2026-07-20T08:59:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1203"
+        }
+      }
     },
     {
       "game": "zzz",
@@ -67,13 +115,37 @@
       "source": {
         "name": "Zenless Zone Zero Official",
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1204",
+        "kind": "official-announcement-api",
+        "recordId": "1204",
+        "fetchedAt": "2026-07-16T08:33:35.983Z",
         "priority": 1
       },
       "confidence": "high",
+      "scheduleStatus": "exact",
       "permanence": "timed",
       "needs_review": false,
-      "image": "https://sdk.hoyoverse.com/upload/ann/2026/06/23/f9a38be1f7d8076390b3db9b404034dc_3417952199959931797_transformed.png",
-      "description": "Event Duration 2026/06/26 10:00 (server time) – 2026/07/27 03:59 (server time) Event Rewards Requirements Reach Inter-Knot Lv. 20 and complete Main Story Chapter 1 - Intermission to participate Event Details • During the event, Proxies…"
+      "image": null,
+      "description": "Event Duration 2026/06/26 10:00 (server time) – 2026/07/27 03:59 (server time) Event Rewards Requirements Reach Inter-Knot Lv. 20 and complete Main Story Chapter 1 - Intermission to participate Event Details • During the event, Proxies…",
+      "windowsByRegion": {
+        "europe": {
+          "start": "2026-06-26T09:00:00.000Z",
+          "end": "2026-07-27T02:59:00.000Z",
+          "timezone": "UTC+01:00",
+          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1204"
+        },
+        "asia": {
+          "start": "2026-06-26T02:00:00.000Z",
+          "end": "2026-07-26T19:59:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1204"
+        },
+        "america": {
+          "start": "2026-06-26T15:00:00.000Z",
+          "end": "2026-07-27T08:59:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1204"
+        }
+      }
     },
     {
       "game": "zzz",
@@ -87,13 +159,18 @@
       "source": {
         "name": "Zenless Zone Zero Official",
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1201",
-        "priority": 1
+        "priority": 1,
+        "kind": "legacy-official-snapshot",
+        "recordId": "1201",
+        "fetchedAt": "2026-07-13T22:40:55.330Z",
+        "fetchedAtMeaning": "nyx-snapshot-observed-at"
       },
       "confidence": "high",
       "permanence": "timed",
       "needs_review": false,
-      "image": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/6c70cdbc621afd51f0043e289e87c61b_389290135078557569_transformed.png",
-      "description": "Event Duration 2026/06/19 10:00 (server time) – 2026/07/13 03:59 (server time) Event Rewards Requirements Reach Inter-Knot Lv. 20 and complete Main Story Chapter 1 - Intermission to participate Event Details • During the event, Proxies…"
+      "image": null,
+      "description": "Event Duration 2026/06/19 10:00 (server time) – 2026/07/13 03:59 (server time) Event Rewards Requirements Reach Inter-Knot Lv. 20 and complete Main Story Chapter 1 - Intermission to participate Event Details • During the event, Proxies…",
+      "scheduleStatus": "exact"
     },
     {
       "game": "zzz",
@@ -107,13 +184,37 @@
       "source": {
         "name": "Zenless Zone Zero Official",
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1189",
+        "kind": "official-announcement-api",
+        "recordId": "1189",
+        "fetchedAt": "2026-07-16T08:33:35.983Z",
         "priority": 1
       },
       "confidence": "high",
+      "scheduleStatus": "exact",
       "permanence": "timed",
       "needs_review": false,
-      "image": "https://sdk.hoyoverse.com/upload/ann/2026/06/05/b6bf03619a0ccecfe79574921e8f928e_4762480000385953045_transformed.jpg",
-      "description": "Event Duration 2026/06/06 20:30 (UTC+8) – 2026/07/17 03:59 (server time) Event Rewards Event Details • During the event, invite friends to return to or join New Eridu and complete the Assembly Commission tasks to earn up to Polychrome…"
+      "image": null,
+      "description": "Event Duration 2026/06/06 20:30 (UTC+8) – 2026/07/17 03:59 (server time) Event Rewards Event Details • During the event, invite friends to return to or join New Eridu and complete the Assembly Commission tasks to earn up to Polychrome…",
+      "windowsByRegion": {
+        "europe": {
+          "start": "2026-06-06T19:30:00.000Z",
+          "end": "2026-07-17T02:59:00.000Z",
+          "timezone": "UTC+01:00",
+          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1189"
+        },
+        "asia": {
+          "start": "2026-06-06T12:30:00.000Z",
+          "end": "2026-07-16T19:59:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1189"
+        },
+        "america": {
+          "start": "2026-06-07T01:30:00.000Z",
+          "end": "2026-07-17T08:59:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1189"
+        }
+      }
     },
     {
       "game": "zzz",
@@ -127,13 +228,18 @@
       "source": {
         "name": "Zenless Zone Zero Official",
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1205",
+        "kind": "official-announcement-api",
+        "recordId": "1205",
+        "fetchedAt": "2026-07-16T08:33:35.983Z",
         "priority": 1
       },
       "confidence": "low",
+      "scheduleStatus": "expected",
       "permanence": "unknown",
       "needs_review": true,
-      "image": "https://sdk.hoyoverse.com/upload/ann/2026/06/12/c24070f9f55450263abe30a498308ac8_7675520590337195925_transformed.png",
-      "description": "Event Duration After the Version 3.0 update – 2026/07/29 05:59 (UTC+8) Event Rewards Requirements Unlock Main Story Season 3 Chapter 1 \"A Sleepwalker's Confession\" to participate Event Details • During the event, Proxies can press \"Go\" in…"
+      "image": null,
+      "description": "Event Duration After the Version 3.0 update – 2026/07/29 05:59 (UTC+8) Event Rewards Requirements Unlock Main Story Season 3 Chapter 1 \"A Sleepwalker's Confession\" to participate Event Details • During the event, Proxies can press \"Go\" in…",
+      "windowsByRegion": {}
     },
     {
       "game": "zzz",
@@ -147,13 +253,18 @@
       "source": {
         "name": "Zenless Zone Zero Official",
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1200",
+        "kind": "official-announcement-api",
+        "recordId": "1200",
+        "fetchedAt": "2026-07-16T08:33:35.983Z",
         "priority": 1
       },
       "confidence": "low",
+      "scheduleStatus": "expected",
       "permanence": "unknown",
       "needs_review": true,
-      "image": "https://sdk.hoyoverse.com/upload/ann/2026/06/12/d87d0aec822d85102130bfa93a22df23_7723773354289650040_transformed.png",
-      "description": "Event Duration After the Version 3.0 update – 2026/07/28 03:59 (server time) Requirements Reach Inter-Knot Lv. 5, and unlock the Event feature in the Main Story Prologue \"The Hare and the Proxy\" Event Details • During the \"All-New…"
+      "image": null,
+      "description": "Event Duration After the Version 3.0 update – 2026/07/28 03:59 (server time) Requirements Reach Inter-Knot Lv. 5, and unlock the Event feature in the Main Story Prologue \"The Hare and the Proxy\" Event Details • During the \"All-New…",
+      "windowsByRegion": {}
     }
   ]
 }

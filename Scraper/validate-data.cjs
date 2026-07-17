@@ -146,11 +146,16 @@ for (const [game, minimum] of Object.entries({ gi:2, hsr:3, zzz:2, wuwa:1 })) {
   if (payload.schemaVersion !== 1 || payload.game !== game || !Array.isArray(payload.activities) || payload.activities.length < minimum) errors.push(`activities ${game}: invalid schema/count (minimum ${minimum})`);
   for (const row of payload.activities || []) {
     if (!row?.id || !['fixed','dated'].includes(row.mode) || !row.sourceUrl || !Number.isFinite(Date.parse(row.verifiedAt))) errors.push(`activities ${game}: malformed ${row?.id}`);
-    if (row.mode === 'dated' && (!Array.isArray(row.windows) || !row.windows.length || row.windows.some((window) => {
+  if (row.mode === 'dated' && (
+    !Array.isArray(row.windows)
+    || !row.windows.length
+    || row.windows.some((window) => {
       const dateOnly = /^\d{4}-\d{2}-\d{2}$/.test(window.dateStart || '') && /^\d{4}-\d{2}-\d{2}$/.test(window.dateEnd || '') && window.dateEnd > window.dateStart && window.source?.url;
       const regional = Object.values(window.windowsByRegion || {});
       return !dateOnly && (!regional.length || regional.some((part) => !part.start || !part.end || part.end <= part.start || !part.sourceUrl));
-    }))) errors.push(`activities ${game}: invalid dated windows on ${row?.id}`);
+    })
+    || row.windows.some((window) => window.status && !['exact','expected'].includes(window.status))
+  )) errors.push(`activities ${game}: invalid dated windows on ${row?.id}`);
   }
   diagnostics.push(`activity ${game.padEnd(5)} ${(payload.activities || []).length} definition(s)`);
 }
@@ -161,7 +166,9 @@ for (const [game, minimum] of Object.entries({ gi:2, hsr:3, zzz:2, wuwa:1 })) {
 const EVENT_TYPES = new Set(['event', 'banner', 'web_event', 'login', 'challenge', 'shop', 'permanent']);
 const EVENT_CONFIDENCE = new Set(['high', 'medium', 'low']);
 const EVENT_PERMANENCE = new Set(['permanent', 'timed', 'unknown']);
-for (const game of ['gi', 'hsr', 'zzz', 'wuwa', 'endfield']) {
+const EVENT_GAMES = ['gi', 'hsr', 'zzz', 'wuwa', 'endfield'];
+const EVENT_LOCAL_IMAGE = /^\/assets\/[a-z0-9][a-z0-9._/-]*\.(?:avif|jpe?g|png|webp)$/i;
+for (const game of EVENT_GAMES) {
   const payload = load(`Events/${game}.json`);
   if (!payload) continue;
   if (payload.schemaVersion !== 1 || payload.game !== game || !Array.isArray(payload.events)) {
@@ -178,16 +185,48 @@ for (const game of ['gi', 'hsr', 'zzz', 'wuwa', 'endfield']) {
       errors.push(`events ${game}: malformed ${e?.id}`);
     }
     if (!e?.source?.name || !e?.source?.url || typeof e?.source?.priority !== 'number') errors.push(`events ${game}: bad source on ${e?.id}`);
+    if (!e?.source?.kind || !e?.source?.recordId) errors.push(`events ${game}: missing source provenance on ${e?.id}`);
+    if (!e?.source?.fetchedAt || !Number.isFinite(Date.parse(e.source.fetchedAt))) errors.push(`events ${game}: bad source fetchedAt on ${e?.id}`);
+    if (e?.image !== null && e?.image !== undefined && (!EVENT_LOCAL_IMAGE.test(e.image) || String(e.image).includes('..'))) errors.push(`events ${game}: remote/unsafe image on ${e?.id}`);
+    if (!['exact','expected'].includes(e?.scheduleStatus)) errors.push(`events ${game}: bad schedule status on ${e?.id}`);
+    if (e?.scheduleStatus === 'exact' && e?.permanence !== 'permanent' && !e?.start) errors.push(`events ${game}: exact schedule missing start on ${e?.id}`);
     for (const bound of ['start', 'end']) {
       if (e?.[bound] !== null && !Number.isFinite(Date.parse(e?.[bound]))) errors.push(`events ${game}: bad ${bound} on ${e?.id}`);
     }
     if (e?.start && e?.end && Date.parse(e.end) <= Date.parse(e.start)) errors.push(`events ${game}: end<=start on ${e?.id}`);
+    for (const [region, window] of Object.entries(e?.windowsByRegion || {})) {
+      if (!['global','asia','europe','america'].includes(region) || !window?.sourceUrl || !Number.isFinite(Date.parse(window?.start)) || (window?.end && Date.parse(window.end) <= Date.parse(window.start))) errors.push(`events ${game}: bad ${region} window on ${e?.id}`);
+    }
     // A non-review, non-permanent event must carry a real start anchor (no guessed dates).
     if (e && !e.needs_review && e.permanence !== 'permanent' && !e.start) errors.push(`events ${game}: dated event missing start on ${e?.id}`);
     if (e?.needs_review) review += 1;
     if (e?.type === 'banner') banners += 1;
   }
   diagnostics.push(`events  ${game.padEnd(9)} ${payload.events.length} event(s), ${review} needs_review, ${banners} banner-tagged`);
+}
+
+const eventCoverage = load('Events/manifest.json');
+if (eventCoverage) {
+  if (eventCoverage.schemaVersion !== 1 || !Number.isFinite(Date.parse(eventCoverage.generatedAt)) || !Array.isArray(eventCoverage.games)) errors.push('events coverage: invalid envelope');
+  const covered = new Set();
+  for (const row of eventCoverage.games || []) {
+    if (!['gi','hsr','zzz','wuwa','endfield'].includes(row?.game) || covered.has(row.game)) errors.push(`events coverage: invalid/duplicate ${row?.game}`);
+    covered.add(row?.game);
+    if (!['complete-for-source','partial','stale'].includes(row?.status) || !row?.source?.name || !row?.source?.endpoint || !Number.isInteger(row?.pagesFetched) || row.pagesFetched < 0 || !Number.isInteger(row?.fetchedRecords) || row.fetchedRecords < 0) errors.push(`events coverage: malformed ${row?.game}`);
+    if (row?.status === 'complete-for-source' && !row.exhausted) errors.push(`events coverage: false completion ${row?.game}`);
+  }
+  if (covered.size !== 5) errors.push(`events coverage: expected 5 games, found ${covered.size}`);
+  diagnostics.push(`events coverage ${covered.size} game(s), ${(eventCoverage.games || []).filter((row) => row.status === 'complete-for-source').length} source-complete`);
+}
+
+const eventHistoryState = load('Events/history-state.json');
+if (eventHistoryState) {
+  const keys = Object.keys(eventHistoryState.games || {}).sort();
+  if (eventHistoryState.schemaVersion !== 1 || keys.join(',') !== [...EVENT_GAMES].sort().join(',')) errors.push('events history state: invalid envelope/game set');
+  for (const game of EVENT_GAMES) {
+    const row = eventHistoryState.games?.[game];
+    if (!row || !Array.isArray(row.completedIds) || row.completedIds.some((id) => typeof id !== 'string' || !id.trim()) || (row.resumeCursor !== null && typeof row.resumeCursor !== 'string') || typeof row.exhausted !== 'boolean' || (row.updatedAt !== null && !Number.isFinite(Date.parse(row.updatedAt)))) errors.push(`events history state: malformed ${game}`);
+  }
 }
 
 console.log('--- data validation diagnostics ---');

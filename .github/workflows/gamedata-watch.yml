@@ -1,0 +1,175 @@
+name: Nanoka GameData watch & deploy
+
+# Nanoka does not provide this repository with a webhook, so poll its small
+# manifest every 15 minutes. The expensive scrape/build path runs only when a
+# supported game's manifest section really changed.
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch: {}
+
+concurrency:
+  group: pengo-deploy
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  gamedata:
+    runs-on: ubuntu-latest
+    env:
+      CF_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          lfs: true
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '20'
+
+      - name: Check Nanoka manifest
+        id: manifest
+        run: node ./Scraper/gamedata/check-upstream.mjs
+
+      - name: Ensure LFS objects resolved
+        if: ${{ steps.manifest.outputs.changed == 'true' }}
+        run: |
+          for i in 1 2 3; do
+            git lfs pull && break
+            echo "git lfs pull attempt $i failed; retrying" && sleep 5
+          done
+          for f in Database/GameData/hsr/live/characters.json Database/GameData/gi/live/characters.json; do
+            if head -c 40 "$f" | grep -q 'git-lfs'; then
+              echo "::error::$f is still an LFS pointer after git lfs pull"; exit 1
+            fi
+          done
+
+      - name: Install scraper deps
+        if: ${{ steps.manifest.outputs.changed == 'true' }}
+        working-directory: Scraper
+        run: npm ci --no-audit --no-fund
+
+      - name: Install site deps
+        if: ${{ steps.manifest.outputs.changed == 'true' }}
+        working-directory: Site
+        run: npm ci --no-audit --no-fund
+
+      - name: GameData tests
+        if: ${{ steps.manifest.outputs.changed == 'true' }}
+        working-directory: Scraper
+        run: node --test gamedata/tests/
+
+      - name: Character source tests
+        if: ${{ steps.manifest.outputs.changed == 'true' }}
+        working-directory: Site
+        run: node --test tools/tests/character-source-helpers.test.mjs
+
+      - name: Sync changed GameData (live, beta, and assets)
+        if: ${{ steps.manifest.outputs.changed == 'true' }}
+        working-directory: Scraper
+        env:
+          CHANGED_GAMES: ${{ steps.manifest.outputs.games }}
+        run: |
+          IFS=',' read -ra games <<< "$CHANGED_GAMES"
+          for game in "${games[@]}"; do
+            node ./gamedata/scrape.mjs --game "$game"
+          done
+
+      # This intentionally validates only the changed GameData channels. An
+      # unrelated stale banner or Endfield material cannot block a Nanoka update.
+      - name: Validate changed GameData
+        if: ${{ steps.manifest.outputs.changed == 'true' }}
+        working-directory: Scraper
+        env:
+          CHANGED_GAMES: ${{ steps.manifest.outputs.games }}
+        run: node ./gamedata/validate-output.mjs "$CHANGED_GAMES"
+
+      # Build before publishing the data commit, so broken generated output can
+      # never be pushed merely because the upstream manifest changed.
+      - name: Preflight site build
+        if: ${{ steps.manifest.outputs.changed == 'true' }}
+        working-directory: Site
+        run: npm run build:deploy
+
+      - name: Preflight deploy artifact
+        if: ${{ steps.manifest.outputs.changed == 'true' }}
+        working-directory: Site
+        run: npm run smoke:deploy
+
+      - name: Stage verified GameData and generated output
+        if: ${{ steps.manifest.outputs.changed == 'true' }}
+        run: |
+          git add -A Database/GameData Database/Audits Database/reports Site/src/data/generated
+          if git diff --cached --quiet; then
+            echo "::error::Nanoka manifest changed but the verified build produced no tracked change."
+            exit 1
+          fi
+          if ! git diff --quiet; then
+            echo "::error::The GameData build changed an unexpected tracked path."
+            git diff --stat
+            exit 1
+          fi
+          git diff --cached --stat
+
+      - name: Commit refreshed GameData
+        if: ${{ steps.manifest.outputs.changed == 'true' }}
+        id: commit
+        run: |
+          git config user.name "pengo-bot"
+          git config user.email "bot@pengo.gg"
+          git commit -m "chore(data): sync Nanoka GameData [skip ci]"
+          git pull --rebase origin main
+
+      # A rebase can bring in newer source/data. Rebuild from that exact base,
+      # then amend the generated outputs into the rebased GameData commit.
+      - name: Rebuild after rebase
+        if: ${{ steps.manifest.outputs.changed == 'true' }}
+        working-directory: Site
+        run: npm run build:deploy
+
+      - name: Smoke rebased deploy artifact
+        if: ${{ steps.manifest.outputs.changed == 'true' }}
+        working-directory: Site
+        run: npm run smoke:deploy
+
+      - name: Amend rebased generated output
+        if: ${{ steps.manifest.outputs.changed == 'true' }}
+        id: amend
+        run: |
+          git add -A Database/GameData Database/Audits Database/reports Site/src/data/generated
+          if ! git diff --quiet; then
+            echo "::error::The rebased GameData build changed an unexpected tracked path."
+            git diff --stat
+            exit 1
+          fi
+          if ! git diff --cached --quiet; then
+            git commit --amend --no-edit
+          fi
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      # Repackage the already-verified build without regenerating tracked data.
+      # This stamps the final amended commit into version.json and cache keys.
+      - name: Package exact committed site
+        if: ${{ steps.manifest.outputs.changed == 'true' }}
+        working-directory: Site
+        env:
+          PENGO_DEPLOY_COMMIT: ${{ steps.amend.outputs.sha }}
+        run: node ./tools/build-deploy.mjs && node ./tools/inject-seo.mjs
+
+      - name: Smoke exact deploy artifact
+        if: ${{ steps.manifest.outputs.changed == 'true' }}
+        working-directory: Site
+        run: npm run smoke:deploy
+
+      - name: Push verified GameData
+        if: ${{ steps.manifest.outputs.changed == 'true' }}
+        run: git push
+
+      - name: Deploy to Cloudflare
+        if: ${{ steps.manifest.outputs.changed == 'true' && env.CF_API_TOKEN != '' }}
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: npx --yes wrangler deploy

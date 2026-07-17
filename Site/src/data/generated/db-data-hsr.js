@@ -6580,7 +6580,7 @@
       "key": "items",
       "title": "Items",
       "source": "GameData",
-      "count": 1556,
+      "count": 1541,
       "items": [
         {
           "id": "hsr-item-1",
@@ -8519,17 +8519,6 @@
           "text": "Can be used to open the Relic Chest in the mysterious collection at Herta Space Station."
         },
         {
-          "id": "hsr-item-123001",
-          "name": "123001",
-          "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/123001.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Material"
-          },
-          "text": ""
-        },
-        {
           "id": "hsr-item-123002",
           "name": "Access Card",
           "kind": "item",
@@ -9144,17 +9133,6 @@
             "type": "Mission"
           },
           "text": "The uncrowned king of the beverage world, a coarse slice of manly friendship, and together with a lethal dosage of humor.\n\n\"A big barrel of pure caramel, a few jumping peas here and there, a handful of fresh canterbury bells, and some interdimensional leaves. Don't forget a drop of Ambergris of Abundance and a few rolls of orchid zest. How much of a kick you want is your choice.\""
-        },
-        {
-          "id": "hsr-item-140110",
-          "name": "140110",
-          "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140110.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Mission"
-          },
-          "text": ""
         },
         {
           "id": "hsr-item-140111",
@@ -10180,17 +10158,6 @@
           "text": "Parts of the modern sculpture Gears and Wisdom that has been disassembled into countless tiny pieces. These parts have evidently been modified artistically and will not run as a machine."
         },
         {
-          "id": "hsr-item-140214",
-          "name": "140214",
-          "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/149975.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Mission"
-          },
-          "text": ""
-        },
-        {
           "id": "hsr-item-140215",
           "name": "Old Photo: Mechanism Energy Hub",
           "kind": "item",
@@ -10211,17 +10178,6 @@
             "type": "Mission"
           },
           "text": "A treasure map revealing the location of the exhibit \"Cannon.\""
-        },
-        {
-          "id": "hsr-item-140217",
-          "name": "140217",
-          "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140066.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Mission"
-          },
-          "text": ""
         },
         {
           "id": "hsr-item-140218",
@@ -11423,28 +11379,6 @@
           "text": "A letter of unknown origin. Its penmanship is like swordplay, strokes unrestrained."
         },
         {
-          "id": "hsr-item-140332",
-          "name": "140332",
-          "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140125.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Mission"
-          },
-          "text": ""
-        },
-        {
-          "id": "hsr-item-140333",
-          "name": "140333",
-          "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140125.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Mission"
-          },
-          "text": ""
-        },
-        {
           "id": "hsr-item-140334",
           "name": "Cognition Chasm: Spontaneous Human Combustion",
           "kind": "item",
@@ -11632,17 +11566,6 @@
           "text": "An unusual dream bubble said to contain the dreams of Akivili, a fallen Aeon.\n\n\"I'm sorry... I truly am the worst Nameless in the world.\""
         },
         {
-          "id": "hsr-item-140353",
-          "name": "140353",
-          "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/270000.webp",
-          "fields": {
-            "rarity": "1 \u2605",
-            "type": "Mission"
-          },
-          "text": ""
-        },
-        {
           "id": "hsr-item-140354",
           "name": "Heliobus: Arkeri",
           "kind": "item",
@@ -11696,28 +11619,6 @@
             "type": "Mission"
           },
           "text": "The commemorative medallion sent by Ghostly Grove to influencers attaining one hundred thousand subscribers.\n\n\"Congratulations, you have one hundred thousand subscribers on Ghostly Grove!\""
-        },
-        {
-          "id": "hsr-item-140359",
-          "name": "140359",
-          "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140359.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Mission"
-          },
-          "text": ""
-        },
-        {
-          "id": "hsr-item-140360",
-          "name": "140360",
-          "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140360.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Mission"
-          },
-          "text": ""
         },
         {
           "id": "hsr-item-140361",
@@ -12213,17 +12114,6 @@
             "type": "Mission"
           },
           "text": "A petition calling on Lesley Dean's fans to enter the Dreamscape en masse and help him to \"be reborn\" through the Synesthesia Dreamscape."
-        },
-        {
-          "id": "hsr-item-140411",
-          "name": "140411",
-          "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140105.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Mission"
-          },
-          "text": ""
         },
         {
           "id": "hsr-item-140412",
@@ -12818,17 +12708,6 @@
             "type": "Mission"
           },
           "text": "The reward for beating the game Hanu's Prison Break, capturing all of Hanu's highlights in the story. Perhaps similar scenes did happen in real history."
-        },
-        {
-          "id": "hsr-item-140467",
-          "name": "140467",
-          "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140437.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Mission"
-          },
-          "text": ""
         },
         {
           "id": "hsr-item-140468",
@@ -14624,17 +14503,6 @@
           "text": ""
         },
         {
-          "id": "hsr-item-149990",
-          "name": "149990",
-          "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/420001.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Mission"
-          },
-          "text": ""
-        },
-        {
           "id": "hsr-item-149991",
           "name": "Box of Metal Plates and Bandages",
           "kind": "item",
@@ -14644,39 +14512,6 @@
             "type": "Mission"
           },
           "text": "Medical supplies urgently needed by Natasha.\n\n\"A full box of metal plates and bandages, exactly what Natasha needs.\""
-        },
-        {
-          "id": "hsr-item-149997",
-          "name": "149997",
-          "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/420001.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Mission"
-          },
-          "text": ""
-        },
-        {
-          "id": "hsr-item-149998",
-          "name": "149998",
-          "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/420001.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Mission"
-          },
-          "text": ""
-        },
-        {
-          "id": "hsr-item-149999",
-          "name": "149999",
-          "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/420001.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Mission"
-          },
-          "text": ""
         },
         {
           "id": "hsr-item-150000",

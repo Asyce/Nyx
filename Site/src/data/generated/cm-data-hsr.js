@@ -37,7 +37,9 @@
         "Harmony",
         "Abundance",
         "Remembrance",
-        "Elation"
+        "Elation",
+        "Memory",
+        "Warlock"
       ]
     },
     {
@@ -133408,6 +133410,2807 @@
           "cost": 308000
         }
       }
+    },
+    {
+      "id": "hsr-1413",
+      "n": "Evernight",
+      "localizedNames": {
+        "en": "Evernight",
+        "zh": "\u957f\u591c\u6708",
+        "ja": "\u9577\u591c\u6708",
+        "ko": "\uc5d0\ubc84\ub098\uc774\ud2b8"
+      },
+      "release": 1758790800000,
+      "updated": 1758790800000,
+      "sourceOrder": 1413,
+      "voiceActors": {
+        "english": "Skyler Davenport",
+        "japanese": "\u5c0f\u5009\u552f",
+        "chinese": "\u8bfa\u4e9a",
+        "korean": "\uc815\ud61c\uc6d0"
+      },
+      "icon": "../../Database/GameData/hsr/assets/characters/round/1413.webp",
+      "art": "../../Database/GameData/hsr/assets/characters/draw-card/1413.webp",
+      "card": "../../Database/GameData/hsr/assets/characters/round/1413.webp",
+      "status": "live",
+      "labels": [],
+      "r": 5,
+      "el": "Ice",
+      "path": "Memory",
+      "baseStats": {
+        "level1": {
+          "hp": 179.52,
+          "atk": 73.92,
+          "def": 79.2,
+          "speed": 99,
+          "critRate": 0.05,
+          "critDmg": 0.5
+        },
+        "max": {
+          "level": 80,
+          "hp": 1319.47,
+          "atk": 543.31,
+          "def": 582.12,
+          "speed": 99,
+          "critRate": 0.05,
+          "critDmg": 0.5
+        }
+      },
+      "facts": {
+        "camp": "Amphoreus"
+      },
+      "signatureLightCone": {
+        "id": "23049",
+        "name": "To Evernight's Stars",
+        "icon": "../../Database/GameData/hsr/assets/lightcones/medium/23049.webp",
+        "art": "../../Database/GameData/hsr/assets/lightcones/full/23049.webp",
+        "path": "Remembrance"
+      },
+      "signatureWeapon": {
+        "id": "23049",
+        "name": "To Evernight's Stars",
+        "path": "Remembrance",
+        "type": "Remembrance",
+        "educated": false
+      },
+      "signatureWeaponId": "23049",
+      "signatureWeaponName": "To Evernight's Stars",
+      "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23049.webp",
+      "overviewArtPool": [
+        "../../Database/GameData/hsr/assets/lightcones/full/23049.webp"
+      ],
+      "skillIcons": [
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1413_Normal.webp",
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1413_BP.webp",
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1413_Ultra.webp",
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1413_Passive.webp"
+      ],
+      "kit": {
+        "source": "Game data",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Time Thence Blurs",
+                "type": "Basic ATK",
+                "desc": "Deals Ice DMG equal to 70% of Evernight's Max HP to one designated enemy.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1413_Normal.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Ice DMG equal to 25% of Evernight's Max HP to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Ice DMG equal to 30% of Evernight's Max HP to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Ice DMG equal to 35% of Evernight's Max HP to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Ice DMG equal to 40% of Evernight's Max HP to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Ice DMG equal to 45% of Evernight's Max HP to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Ice DMG equal to 50% of Evernight's Max HP to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Ice DMG equal to 55% of Evernight's Max HP to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Ice DMG equal to 60% of Evernight's Max HP to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Ice DMG equal to 65% of Evernight's Max HP to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Ice DMG equal to 70% of Evernight's Max HP to one designated enemy."
+                  }
+                ]
+              },
+              {
+                "name": "Day Gently Slips",
+                "type": "Skill",
+                "desc": "Consumes 10% of Evernight's current HP to summon memosprite Evey and increases CRIT DMG of all ally memosprites by an amount equal to 30% of Evernight's CRIT DMG for 2 turn(s). This duration decreases by 1 at the start of Evernight's every turn. If Evey is already on the field, restores its HP by 50% of its Max HP. When using this, gains 2 point(s) of \"Memoria.\" If in the \"Darkest Riddle\" state, gains 12 additional point(s) of \"Memoria.\"\n\nConsumes this unit's HP to summon memosprite Evey and increase CRIT DMG for all ally memosprites. If Evey is already on the field, restores its HP. When using this, gains 2 \"Memoria.\" If in the \"Darkest Riddle\" state, additionally gains 12 \"Memoria.\"",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1413_BP.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Consumes 10% of Evernight's current HP to summon memosprite Evey and increases CRIT DMG of all ally memosprites by an amount equal to 12% of Evernight's CRIT DMG for 2 turn(s). This duration decreases by 1 at the start of Evernight's every turn. If Evey is already on the field, restores its HP by 50% of its Max HP. When using this, gains 2 point(s) of \"Memoria.\" If in the \"Darkest Riddle\" state, gains 12 additional point(s) of \"Memoria.\""
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Consumes 10% of Evernight's current HP to summon memosprite Evey and increases CRIT DMG of all ally memosprites by an amount equal to 13.2% of Evernight's CRIT DMG for 2 turn(s). This duration decreases by 1 at the start of Evernight's every turn. If Evey is already on the field, restores its HP by 50% of its Max HP. When using this, gains 2 point(s) of \"Memoria.\" If in the \"Darkest Riddle\" state, gains 12 additional point(s) of \"Memoria.\""
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Consumes 10% of Evernight's current HP to summon memosprite Evey and increases CRIT DMG of all ally memosprites by an amount equal to 14.4% of Evernight's CRIT DMG for 2 turn(s). This duration decreases by 1 at the start of Evernight's every turn. If Evey is already on the field, restores its HP by 50% of its Max HP. When using this, gains 2 point(s) of \"Memoria.\" If in the \"Darkest Riddle\" state, gains 12 additional point(s) of \"Memoria.\""
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Consumes 10% of Evernight's current HP to summon memosprite Evey and increases CRIT DMG of all ally memosprites by an amount equal to 15.6% of Evernight's CRIT DMG for 2 turn(s). This duration decreases by 1 at the start of Evernight's every turn. If Evey is already on the field, restores its HP by 50% of its Max HP. When using this, gains 2 point(s) of \"Memoria.\" If in the \"Darkest Riddle\" state, gains 12 additional point(s) of \"Memoria.\""
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Consumes 10% of Evernight's current HP to summon memosprite Evey and increases CRIT DMG of all ally memosprites by an amount equal to 16.8% of Evernight's CRIT DMG for 2 turn(s). This duration decreases by 1 at the start of Evernight's every turn. If Evey is already on the field, restores its HP by 50% of its Max HP. When using this, gains 2 point(s) of \"Memoria.\" If in the \"Darkest Riddle\" state, gains 12 additional point(s) of \"Memoria.\""
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Consumes 10% of Evernight's current HP to summon memosprite Evey and increases CRIT DMG of all ally memosprites by an amount equal to 18% of Evernight's CRIT DMG for 2 turn(s). This duration decreases by 1 at the start of Evernight's every turn. If Evey is already on the field, restores its HP by 50% of its Max HP. When using this, gains 2 point(s) of \"Memoria.\" If in the \"Darkest Riddle\" state, gains 12 additional point(s) of \"Memoria.\""
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Consumes 10% of Evernight's current HP to summon memosprite Evey and increases CRIT DMG of all ally memosprites by an amount equal to 19.5% of Evernight's CRIT DMG for 2 turn(s). This duration decreases by 1 at the start of Evernight's every turn. If Evey is already on the field, restores its HP by 50% of its Max HP. When using this, gains 2 point(s) of \"Memoria.\" If in the \"Darkest Riddle\" state, gains 12 additional point(s) of \"Memoria.\""
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Consumes 10% of Evernight's current HP to summon memosprite Evey and increases CRIT DMG of all ally memosprites by an amount equal to 21% of Evernight's CRIT DMG for 2 turn(s). This duration decreases by 1 at the start of Evernight's every turn. If Evey is already on the field, restores its HP by 50% of its Max HP. When using this, gains 2 point(s) of \"Memoria.\" If in the \"Darkest Riddle\" state, gains 12 additional point(s) of \"Memoria.\""
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Consumes 10% of Evernight's current HP to summon memosprite Evey and increases CRIT DMG of all ally memosprites by an amount equal to 22.5% of Evernight's CRIT DMG for 2 turn(s). This duration decreases by 1 at the start of Evernight's every turn. If Evey is already on the field, restores its HP by 50% of its Max HP. When using this, gains 2 point(s) of \"Memoria.\" If in the \"Darkest Riddle\" state, gains 12 additional point(s) of \"Memoria.\""
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Consumes 10% of Evernight's current HP to summon memosprite Evey and increases CRIT DMG of all ally memosprites by an amount equal to 24% of Evernight's CRIT DMG for 2 turn(s). This duration decreases by 1 at the start of Evernight's every turn. If Evey is already on the field, restores its HP by 50% of its Max HP. When using this, gains 2 point(s) of \"Memoria.\" If in the \"Darkest Riddle\" state, gains 12 additional point(s) of \"Memoria.\""
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Consumes 10% of Evernight's current HP to summon memosprite Evey and increases CRIT DMG of all ally memosprites by an amount equal to 25.2% of Evernight's CRIT DMG for 2 turn(s). This duration decreases by 1 at the start of Evernight's every turn. If Evey is already on the field, restores its HP by 50% of its Max HP. When using this, gains 2 point(s) of \"Memoria.\" If in the \"Darkest Riddle\" state, gains 12 additional point(s) of \"Memoria.\""
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Consumes 10% of Evernight's current HP to summon memosprite Evey and increases CRIT DMG of all ally memosprites by an amount equal to 26.4% of Evernight's CRIT DMG for 2 turn(s). This duration decreases by 1 at the start of Evernight's every turn. If Evey is already on the field, restores its HP by 50% of its Max HP. When using this, gains 2 point(s) of \"Memoria.\" If in the \"Darkest Riddle\" state, gains 12 additional point(s) of \"Memoria.\""
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Consumes 10% of Evernight's current HP to summon memosprite Evey and increases CRIT DMG of all ally memosprites by an amount equal to 27.6% of Evernight's CRIT DMG for 2 turn(s). This duration decreases by 1 at the start of Evernight's every turn. If Evey is already on the field, restores its HP by 50% of its Max HP. When using this, gains 2 point(s) of \"Memoria.\" If in the \"Darkest Riddle\" state, gains 12 additional point(s) of \"Memoria.\""
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Consumes 10% of Evernight's current HP to summon memosprite Evey and increases CRIT DMG of all ally memosprites by an amount equal to 28.8% of Evernight's CRIT DMG for 2 turn(s). This duration decreases by 1 at the start of Evernight's every turn. If Evey is already on the field, restores its HP by 50% of its Max HP. When using this, gains 2 point(s) of \"Memoria.\" If in the \"Darkest Riddle\" state, gains 12 additional point(s) of \"Memoria.\""
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Consumes 10% of Evernight's current HP to summon memosprite Evey and increases CRIT DMG of all ally memosprites by an amount equal to 30% of Evernight's CRIT DMG for 2 turn(s). This duration decreases by 1 at the start of Evernight's every turn. If Evey is already on the field, restores its HP by 50% of its Max HP. When using this, gains 2 point(s) of \"Memoria.\" If in the \"Darkest Riddle\" state, gains 12 additional point(s) of \"Memoria.\""
+                  }
+                ]
+              },
+              {
+                "name": "O Wakeful World, Goodnight",
+                "type": "Ultimate",
+                "desc": "Summons memosprite Evey. Then Evey deals Ice DMG to all enemies equal to 250% of Evey's Max HP and Evernight enters the \"Darkest Riddle\" state. During this state, all enemies take 37.5% increased DMG while both Evernight and Evey deal 75% increased DMG and are immune to Crowd Control debuffs. Gains 2 point(s) of Charge for \"Darkest Riddle.\" And Evey consumes 1 point after it uses \"Dream, Dissolving, as Dew.\" At the start of Evernight's turn, if no Charge remains, exits the \"Darkest Riddle\" state.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1413_Ultra.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Summons memosprite Evey. Then Evey deals Ice DMG to all enemies equal to 100% of Evey's Max HP and Evernight enters the \"Darkest Riddle\" state. During this state, all enemies take 15% increased DMG while both Evernight and Evey deal 30% increased DMG and are immune to Crowd Control debuffs. Gains 2 point(s) of Charge for \"Darkest Riddle.\" And Evey consumes 1 point after it uses \"Dream, Dissolving, as Dew.\" At the start of Evernight's turn, if no Charge remains, exits the \"Darkest Riddle\" state."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Summons memosprite Evey. Then Evey deals Ice DMG to all enemies equal to 110% of Evey's Max HP and Evernight enters the \"Darkest Riddle\" state. During this state, all enemies take 16.5% increased DMG while both Evernight and Evey deal 33% increased DMG and are immune to Crowd Control debuffs. Gains 2 point(s) of Charge for \"Darkest Riddle.\" And Evey consumes 1 point after it uses \"Dream, Dissolving, as Dew.\" At the start of Evernight's turn, if no Charge remains, exits the \"Darkest Riddle\" state."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Summons memosprite Evey. Then Evey deals Ice DMG to all enemies equal to 120% of Evey's Max HP and Evernight enters the \"Darkest Riddle\" state. During this state, all enemies take 18% increased DMG while both Evernight and Evey deal 36% increased DMG and are immune to Crowd Control debuffs. Gains 2 point(s) of Charge for \"Darkest Riddle.\" And Evey consumes 1 point after it uses \"Dream, Dissolving, as Dew.\" At the start of Evernight's turn, if no Charge remains, exits the \"Darkest Riddle\" state."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Summons memosprite Evey. Then Evey deals Ice DMG to all enemies equal to 130% of Evey's Max HP and Evernight enters the \"Darkest Riddle\" state. During this state, all enemies take 19.5% increased DMG while both Evernight and Evey deal 39% increased DMG and are immune to Crowd Control debuffs. Gains 2 point(s) of Charge for \"Darkest Riddle.\" And Evey consumes 1 point after it uses \"Dream, Dissolving, as Dew.\" At the start of Evernight's turn, if no Charge remains, exits the \"Darkest Riddle\" state."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Summons memosprite Evey. Then Evey deals Ice DMG to all enemies equal to 140% of Evey's Max HP and Evernight enters the \"Darkest Riddle\" state. During this state, all enemies take 21% increased DMG while both Evernight and Evey deal 42% increased DMG and are immune to Crowd Control debuffs. Gains 2 point(s) of Charge for \"Darkest Riddle.\" And Evey consumes 1 point after it uses \"Dream, Dissolving, as Dew.\" At the start of Evernight's turn, if no Charge remains, exits the \"Darkest Riddle\" state."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Summons memosprite Evey. Then Evey deals Ice DMG to all enemies equal to 150% of Evey's Max HP and Evernight enters the \"Darkest Riddle\" state. During this state, all enemies take 22.5% increased DMG while both Evernight and Evey deal 45% increased DMG and are immune to Crowd Control debuffs. Gains 2 point(s) of Charge for \"Darkest Riddle.\" And Evey consumes 1 point after it uses \"Dream, Dissolving, as Dew.\" At the start of Evernight's turn, if no Charge remains, exits the \"Darkest Riddle\" state."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Summons memosprite Evey. Then Evey deals Ice DMG to all enemies equal to 163% of Evey's Max HP and Evernight enters the \"Darkest Riddle\" state. During this state, all enemies take 24.4% increased DMG while both Evernight and Evey deal 48.8% increased DMG and are immune to Crowd Control debuffs. Gains 2 point(s) of Charge for \"Darkest Riddle.\" And Evey consumes 1 point after it uses \"Dream, Dissolving, as Dew.\" At the start of Evernight's turn, if no Charge remains, exits the \"Darkest Riddle\" state."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Summons memosprite Evey. Then Evey deals Ice DMG to all enemies equal to 175% of Evey's Max HP and Evernight enters the \"Darkest Riddle\" state. During this state, all enemies take 26.3% increased DMG while both Evernight and Evey deal 52.5% increased DMG and are immune to Crowd Control debuffs. Gains 2 point(s) of Charge for \"Darkest Riddle.\" And Evey consumes 1 point after it uses \"Dream, Dissolving, as Dew.\" At the start of Evernight's turn, if no Charge remains, exits the \"Darkest Riddle\" state."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Summons memosprite Evey. Then Evey deals Ice DMG to all enemies equal to 188% of Evey's Max HP and Evernight enters the \"Darkest Riddle\" state. During this state, all enemies take 28.1% increased DMG while both Evernight and Evey deal 56.3% increased DMG and are immune to Crowd Control debuffs. Gains 2 point(s) of Charge for \"Darkest Riddle.\" And Evey consumes 1 point after it uses \"Dream, Dissolving, as Dew.\" At the start of Evernight's turn, if no Charge remains, exits the \"Darkest Riddle\" state."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Summons memosprite Evey. Then Evey deals Ice DMG to all enemies equal to 200% of Evey's Max HP and Evernight enters the \"Darkest Riddle\" state. During this state, all enemies take 30% increased DMG while both Evernight and Evey deal 60% increased DMG and are immune to Crowd Control debuffs. Gains 2 point(s) of Charge for \"Darkest Riddle.\" And Evey consumes 1 point after it uses \"Dream, Dissolving, as Dew.\" At the start of Evernight's turn, if no Charge remains, exits the \"Darkest Riddle\" state."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Summons memosprite Evey. Then Evey deals Ice DMG to all enemies equal to 210% of Evey's Max HP and Evernight enters the \"Darkest Riddle\" state. During this state, all enemies take 31.5% increased DMG while both Evernight and Evey deal 63% increased DMG and are immune to Crowd Control debuffs. Gains 2 point(s) of Charge for \"Darkest Riddle.\" And Evey consumes 1 point after it uses \"Dream, Dissolving, as Dew.\" At the start of Evernight's turn, if no Charge remains, exits the \"Darkest Riddle\" state."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Summons memosprite Evey. Then Evey deals Ice DMG to all enemies equal to 220% of Evey's Max HP and Evernight enters the \"Darkest Riddle\" state. During this state, all enemies take 33% increased DMG while both Evernight and Evey deal 66% increased DMG and are immune to Crowd Control debuffs. Gains 2 point(s) of Charge for \"Darkest Riddle.\" And Evey consumes 1 point after it uses \"Dream, Dissolving, as Dew.\" At the start of Evernight's turn, if no Charge remains, exits the \"Darkest Riddle\" state."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Summons memosprite Evey. Then Evey deals Ice DMG to all enemies equal to 230% of Evey's Max HP and Evernight enters the \"Darkest Riddle\" state. During this state, all enemies take 34.5% increased DMG while both Evernight and Evey deal 69% increased DMG and are immune to Crowd Control debuffs. Gains 2 point(s) of Charge for \"Darkest Riddle.\" And Evey consumes 1 point after it uses \"Dream, Dissolving, as Dew.\" At the start of Evernight's turn, if no Charge remains, exits the \"Darkest Riddle\" state."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Summons memosprite Evey. Then Evey deals Ice DMG to all enemies equal to 240% of Evey's Max HP and Evernight enters the \"Darkest Riddle\" state. During this state, all enemies take 36% increased DMG while both Evernight and Evey deal 72% increased DMG and are immune to Crowd Control debuffs. Gains 2 point(s) of Charge for \"Darkest Riddle.\" And Evey consumes 1 point after it uses \"Dream, Dissolving, as Dew.\" At the start of Evernight's turn, if no Charge remains, exits the \"Darkest Riddle\" state."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Summons memosprite Evey. Then Evey deals Ice DMG to all enemies equal to 250% of Evey's Max HP and Evernight enters the \"Darkest Riddle\" state. During this state, all enemies take 37.5% increased DMG while both Evernight and Evey deal 75% increased DMG and are immune to Crowd Control debuffs. Gains 2 point(s) of Charge for \"Darkest Riddle.\" And Evey consumes 1 point after it uses \"Dream, Dissolving, as Dew.\" At the start of Evernight's turn, if no Charge remains, exits the \"Darkest Riddle\" state."
+                  }
+                ]
+              },
+              {
+                "name": "Let it Rain Cold On Thee",
+                "type": "Technique",
+                "desc": "After using Technique, at the start of the next battle, obtains the same effect as the one from Skill that increases CRIT DMG for all ally memosprites, and gains 1 \"Memoria.\"",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1413_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "Technique Attack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "With Me, This Night",
+                "type": "Talent",
+                "desc": "When entering combat, summons memosprite Evey. Evey has an initial SPD of 160 and its Max HP equals to 50% of that of Evernight's. Each time Evernight or Evey loses HP, increases CRIT DMG for Evernight and Evey by 75% for 2 turn(s), and gains 2 \"Memoria.\" This effect can trigger only once per target for each received attack.\\nWhen Evernight has 16 or more points of \"Memoria,\" dispels Crowd Control debuffs and becomes immune to them. If Evey is on the field, it immediately takes action. The immediate action effect can only trigger again after Evey uses \"Dream, Dissolving, as Dew.\"",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1413_Passive.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "When entering combat, summons memosprite Evey. Evey has an initial SPD of 160 and its Max HP equals to 50% of that of Evernight's. Each time Evernight or Evey loses HP, increases CRIT DMG for Evernight and Evey by 30% for 2 turn(s), and gains 2 \"Memoria.\" This effect can trigger only once per target for each received attack.\\nWhen Evernight has 16 or more points of \"Memoria,\" dispels Crowd Control debuffs and becomes immune to them. If Evey is on the field, it immediately takes action. The immediate action effect can only trigger again after Evey uses \"Dream, Dissolving, as Dew.\""
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "When entering combat, summons memosprite Evey. Evey has an initial SPD of 160 and its Max HP equals to 50% of that of Evernight's. Each time Evernight or Evey loses HP, increases CRIT DMG for Evernight and Evey by 33% for 2 turn(s), and gains 2 \"Memoria.\" This effect can trigger only once per target for each received attack.\\nWhen Evernight has 16 or more points of \"Memoria,\" dispels Crowd Control debuffs and becomes immune to them. If Evey is on the field, it immediately takes action. The immediate action effect can only trigger again after Evey uses \"Dream, Dissolving, as Dew.\""
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "When entering combat, summons memosprite Evey. Evey has an initial SPD of 160 and its Max HP equals to 50% of that of Evernight's. Each time Evernight or Evey loses HP, increases CRIT DMG for Evernight and Evey by 36% for 2 turn(s), and gains 2 \"Memoria.\" This effect can trigger only once per target for each received attack.\\nWhen Evernight has 16 or more points of \"Memoria,\" dispels Crowd Control debuffs and becomes immune to them. If Evey is on the field, it immediately takes action. The immediate action effect can only trigger again after Evey uses \"Dream, Dissolving, as Dew.\""
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "When entering combat, summons memosprite Evey. Evey has an initial SPD of 160 and its Max HP equals to 50% of that of Evernight's. Each time Evernight or Evey loses HP, increases CRIT DMG for Evernight and Evey by 39% for 2 turn(s), and gains 2 \"Memoria.\" This effect can trigger only once per target for each received attack.\\nWhen Evernight has 16 or more points of \"Memoria,\" dispels Crowd Control debuffs and becomes immune to them. If Evey is on the field, it immediately takes action. The immediate action effect can only trigger again after Evey uses \"Dream, Dissolving, as Dew.\""
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "When entering combat, summons memosprite Evey. Evey has an initial SPD of 160 and its Max HP equals to 50% of that of Evernight's. Each time Evernight or Evey loses HP, increases CRIT DMG for Evernight and Evey by 42% for 2 turn(s), and gains 2 \"Memoria.\" This effect can trigger only once per target for each received attack.\\nWhen Evernight has 16 or more points of \"Memoria,\" dispels Crowd Control debuffs and becomes immune to them. If Evey is on the field, it immediately takes action. The immediate action effect can only trigger again after Evey uses \"Dream, Dissolving, as Dew.\""
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "When entering combat, summons memosprite Evey. Evey has an initial SPD of 160 and its Max HP equals to 50% of that of Evernight's. Each time Evernight or Evey loses HP, increases CRIT DMG for Evernight and Evey by 45% for 2 turn(s), and gains 2 \"Memoria.\" This effect can trigger only once per target for each received attack.\\nWhen Evernight has 16 or more points of \"Memoria,\" dispels Crowd Control debuffs and becomes immune to them. If Evey is on the field, it immediately takes action. The immediate action effect can only trigger again after Evey uses \"Dream, Dissolving, as Dew.\""
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "When entering combat, summons memosprite Evey. Evey has an initial SPD of 160 and its Max HP equals to 50% of that of Evernight's. Each time Evernight or Evey loses HP, increases CRIT DMG for Evernight and Evey by 48.8% for 2 turn(s), and gains 2 \"Memoria.\" This effect can trigger only once per target for each received attack.\\nWhen Evernight has 16 or more points of \"Memoria,\" dispels Crowd Control debuffs and becomes immune to them. If Evey is on the field, it immediately takes action. The immediate action effect can only trigger again after Evey uses \"Dream, Dissolving, as Dew.\""
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "When entering combat, summons memosprite Evey. Evey has an initial SPD of 160 and its Max HP equals to 50% of that of Evernight's. Each time Evernight or Evey loses HP, increases CRIT DMG for Evernight and Evey by 52.5% for 2 turn(s), and gains 2 \"Memoria.\" This effect can trigger only once per target for each received attack.\\nWhen Evernight has 16 or more points of \"Memoria,\" dispels Crowd Control debuffs and becomes immune to them. If Evey is on the field, it immediately takes action. The immediate action effect can only trigger again after Evey uses \"Dream, Dissolving, as Dew.\""
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "When entering combat, summons memosprite Evey. Evey has an initial SPD of 160 and its Max HP equals to 50% of that of Evernight's. Each time Evernight or Evey loses HP, increases CRIT DMG for Evernight and Evey by 56.3% for 2 turn(s), and gains 2 \"Memoria.\" This effect can trigger only once per target for each received attack.\\nWhen Evernight has 16 or more points of \"Memoria,\" dispels Crowd Control debuffs and becomes immune to them. If Evey is on the field, it immediately takes action. The immediate action effect can only trigger again after Evey uses \"Dream, Dissolving, as Dew.\""
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "When entering combat, summons memosprite Evey. Evey has an initial SPD of 160 and its Max HP equals to 50% of that of Evernight's. Each time Evernight or Evey loses HP, increases CRIT DMG for Evernight and Evey by 60% for 2 turn(s), and gains 2 \"Memoria.\" This effect can trigger only once per target for each received attack.\\nWhen Evernight has 16 or more points of \"Memoria,\" dispels Crowd Control debuffs and becomes immune to them. If Evey is on the field, it immediately takes action. The immediate action effect can only trigger again after Evey uses \"Dream, Dissolving, as Dew.\""
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "When entering combat, summons memosprite Evey. Evey has an initial SPD of 160 and its Max HP equals to 50% of that of Evernight's. Each time Evernight or Evey loses HP, increases CRIT DMG for Evernight and Evey by 63% for 2 turn(s), and gains 2 \"Memoria.\" This effect can trigger only once per target for each received attack.\\nWhen Evernight has 16 or more points of \"Memoria,\" dispels Crowd Control debuffs and becomes immune to them. If Evey is on the field, it immediately takes action. The immediate action effect can only trigger again after Evey uses \"Dream, Dissolving, as Dew.\""
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "When entering combat, summons memosprite Evey. Evey has an initial SPD of 160 and its Max HP equals to 50% of that of Evernight's. Each time Evernight or Evey loses HP, increases CRIT DMG for Evernight and Evey by 66% for 2 turn(s), and gains 2 \"Memoria.\" This effect can trigger only once per target for each received attack.\\nWhen Evernight has 16 or more points of \"Memoria,\" dispels Crowd Control debuffs and becomes immune to them. If Evey is on the field, it immediately takes action. The immediate action effect can only trigger again after Evey uses \"Dream, Dissolving, as Dew.\""
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "When entering combat, summons memosprite Evey. Evey has an initial SPD of 160 and its Max HP equals to 50% of that of Evernight's. Each time Evernight or Evey loses HP, increases CRIT DMG for Evernight and Evey by 69% for 2 turn(s), and gains 2 \"Memoria.\" This effect can trigger only once per target for each received attack.\\nWhen Evernight has 16 or more points of \"Memoria,\" dispels Crowd Control debuffs and becomes immune to them. If Evey is on the field, it immediately takes action. The immediate action effect can only trigger again after Evey uses \"Dream, Dissolving, as Dew.\""
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "When entering combat, summons memosprite Evey. Evey has an initial SPD of 160 and its Max HP equals to 50% of that of Evernight's. Each time Evernight or Evey loses HP, increases CRIT DMG for Evernight and Evey by 72% for 2 turn(s), and gains 2 \"Memoria.\" This effect can trigger only once per target for each received attack.\\nWhen Evernight has 16 or more points of \"Memoria,\" dispels Crowd Control debuffs and becomes immune to them. If Evey is on the field, it immediately takes action. The immediate action effect can only trigger again after Evey uses \"Dream, Dissolving, as Dew.\""
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "When entering combat, summons memosprite Evey. Evey has an initial SPD of 160 and its Max HP equals to 50% of that of Evernight's. Each time Evernight or Evey loses HP, increases CRIT DMG for Evernight and Evey by 75% for 2 turn(s), and gains 2 \"Memoria.\" This effect can trigger only once per target for each received attack.\\nWhen Evernight has 16 or more points of \"Memoria,\" dispels Crowd Control debuffs and becomes immune to them. If Evey is on the field, it immediately takes action. The immediate action effect can only trigger again after Evey uses \"Dream, Dissolving, as Dew.\""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Dark the Night, Still the Moon",
+                "type": "Major Trace",
+                "desc": "Increases Evernight's and the memosprite Evey's CRIT Rate by 35%. When using an ability, consumes 5% of this unit's current HP to increase CRIT DMG for both of them by 15%, lasting for 2 turn(s). After Evey uses \"Dream, Dissolving, as Dew,\" recovers 1 Skill Point for allies.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1413_SkillTree1.webp"
+              },
+              {
+                "name": "Rouse the Flame, Lull the Light",
+                "type": "Major Trace",
+                "desc": "When combat starts, Evernight regenerates 70 Energy and gains 1 \"Memoria.\" When Evernight or an ally memosprite uses an ability, Evernight regenerates 5 Energy and gains 1 \"Memoria.\"",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1413_SkillTree2.webp"
+              },
+              {
+                "name": "Kindle the Morn, Drop the Rain",
+                "type": "Major Trace",
+                "desc": "When there are 1/2/3/\u22654 Remembrance characters in the team, increases CRIT DMG for all ally memosprites by 5%/15%/50%/65% respectively while Evernight's Skill lasts.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1413_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Sleep Tight, the Night Dreams Long",
+                "type": "Eidolon 1",
+                "desc": "When Evernight is on the field, if there are (\u22654)/3/2/1 enemy targets on the field, ally memosprites deal DMG equal to 120%/125%/130%/150% of their original DMG respectively.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1413_Rank1.webp"
+              },
+              {
+                "name": "Listen Up, the Slumber Speaks Soft",
+                "type": "Eidolon 2",
+                "desc": "Increases Evernight's and the memosprite Evey's CRIT DMG by 40%. Each time Evernight gains \"Memoria,\" increases the amount of \"Memoria\" gain by 2 point(s). When using Ultimate, additionally gains 2 Charge for \"Darkest Riddle.\"",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1413_Rank2.webp"
+              },
+              {
+                "name": "Fear Not, the Nightmare Lies Past",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\\nMemosprite Talent Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1413_BP.webp"
+              },
+              {
+                "name": "Wake Up, the Tomorrow is Yours",
+                "type": "Eidolon 4",
+                "desc": "While Evernight is on the field, ally memosprites' Weakness Break Efficiency increases by 25%, and the memosprite Evey's Weakness Break Efficiency additionally increases by 25%.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1413_Rank4.webp"
+              },
+              {
+                "name": "Let Go, the \"Me\" in Memories",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.\\nMemosprite Skill Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1413_Ultra.webp"
+              },
+              {
+                "name": "Like This, Always",
+                "type": "Eidolon 6",
+                "desc": "While Evernight is on the field, all ally targets' All-Type RES PEN increases by 20%. After the memosprite Evey uses \"Dream, Dissolving, as Dew,\" Evernight gains 30% of the amount of \"Memoria\" consumed in this attack.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1413_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
+      "req": {
+        "ascension": [
+          {
+            "id": "110433",
+            "name": "Sea Siren's Torn Fin",
+            "qty": 65,
+            "rar": 5,
+            "kind": "boss",
+            "icon": "../../Database/GameData/hsr/assets/items/110433.webp",
+            "source": "Lady of Crashing Waves",
+            "sourceDetails": [
+              {
+                "name": "Lady of Crashing Waves",
+                "icon": "../../Database/GameData/hsr/assets/monsters/Monster_4053010.webp"
+              }
+            ]
+          },
+          {
+            "id": "115011",
+            "name": "Ethereal Omen",
+            "qty": 15,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/115011.webp"
+          },
+          {
+            "id": "115012",
+            "name": "Echoing Wail",
+            "qty": 15,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/115012.webp"
+          },
+          {
+            "id": "115013",
+            "name": "Eternal Lament",
+            "qty": 15,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
+          }
+        ],
+        "talents": [
+          {
+            "id": "115011",
+            "name": "Ethereal Omen",
+            "qty": 41,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/115011.webp"
+          },
+          {
+            "id": "115012",
+            "name": "Echoing Wail",
+            "qty": 56,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/115012.webp"
+          },
+          {
+            "id": "115013",
+            "name": "Eternal Lament",
+            "qty": 58,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
+          },
+          {
+            "id": "241",
+            "name": "Tracks of Destiny",
+            "qty": 8,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+          },
+          {
+            "id": "110251",
+            "name": "B\u012bja of Consciousness",
+            "qty": 18,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110251.webp"
+          },
+          {
+            "id": "110252",
+            "name": "Seedling of Manas",
+            "qty": 69,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
+          },
+          {
+            "id": "110253",
+            "name": "Flower of \u0100laya",
+            "qty": 139,
+            "rar": 5,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+          },
+          {
+            "id": "110507",
+            "name": "Daythunder Anamnesis",
+            "qty": 12,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
+          }
+        ],
+        "talentStages": [
+          [
+            {
+              "cost": 3500,
+              "items": [
+                {
+                  "id": "110251",
+                  "name": "B\u012bja of Consciousness",
+                  "qty": 2,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110251.webp"
+                },
+                {
+                  "id": "115011",
+                  "name": "Ethereal Omen",
+                  "qty": 4,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/115011.webp"
+                }
+              ]
+            },
+            {
+              "cost": 7000,
+              "items": [
+                {
+                  "id": "110252",
+                  "name": "Seedling of Manas",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
+                },
+                {
+                  "id": "115012",
+                  "name": "Echoing Wail",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/115012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 16000,
+              "items": [
+                {
+                  "id": "110252",
+                  "name": "Seedling of Manas",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
+                },
+                {
+                  "id": "115012",
+                  "name": "Echoing Wail",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/115012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 35000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "115013",
+                  "name": "Eternal Lament",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
+                }
+              ]
+            },
+            {
+              "cost": 140000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 6,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "115013",
+                  "name": "Eternal Lament",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2500,
+              "items": [
+                {
+                  "id": "115011",
+                  "name": "Ethereal Omen",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/115011.webp"
+                }
+              ]
+            },
+            {
+              "cost": 3500,
+              "items": [
+                {
+                  "id": "110251",
+                  "name": "B\u012bja of Consciousness",
+                  "qty": 2,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110251.webp"
+                },
+                {
+                  "id": "115011",
+                  "name": "Ethereal Omen",
+                  "qty": 4,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/115011.webp"
+                }
+              ]
+            },
+            {
+              "cost": 7000,
+              "items": [
+                {
+                  "id": "110252",
+                  "name": "Seedling of Manas",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
+                },
+                {
+                  "id": "115012",
+                  "name": "Echoing Wail",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/115012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 16000,
+              "items": [
+                {
+                  "id": "110252",
+                  "name": "Seedling of Manas",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
+                },
+                {
+                  "id": "115012",
+                  "name": "Echoing Wail",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/115012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 25000,
+              "items": [
+                {
+                  "id": "110252",
+                  "name": "Seedling of Manas",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
+                },
+                {
+                  "id": "115012",
+                  "name": "Echoing Wail",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/115012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 35000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "115013",
+                  "name": "Eternal Lament",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
+                }
+              ]
+            },
+            {
+              "cost": 70000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 5,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "110507",
+                  "name": "Daythunder Anamnesis",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
+                },
+                {
+                  "id": "115013",
+                  "name": "Eternal Lament",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
+                }
+              ]
+            },
+            {
+              "cost": 140000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 6,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110507",
+                  "name": "Daythunder Anamnesis",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
+                }
+              ]
+            },
+            {
+              "cost": 240000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 13,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110507",
+                  "name": "Daythunder Anamnesis",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2500,
+              "items": [
+                {
+                  "id": "115011",
+                  "name": "Ethereal Omen",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/115011.webp"
+                }
+              ]
+            },
+            {
+              "cost": 3500,
+              "items": [
+                {
+                  "id": "110251",
+                  "name": "B\u012bja of Consciousness",
+                  "qty": 2,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110251.webp"
+                },
+                {
+                  "id": "115011",
+                  "name": "Ethereal Omen",
+                  "qty": 4,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/115011.webp"
+                }
+              ]
+            },
+            {
+              "cost": 7000,
+              "items": [
+                {
+                  "id": "110252",
+                  "name": "Seedling of Manas",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
+                },
+                {
+                  "id": "115012",
+                  "name": "Echoing Wail",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/115012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 16000,
+              "items": [
+                {
+                  "id": "110252",
+                  "name": "Seedling of Manas",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
+                },
+                {
+                  "id": "115012",
+                  "name": "Echoing Wail",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/115012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 25000,
+              "items": [
+                {
+                  "id": "110252",
+                  "name": "Seedling of Manas",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
+                },
+                {
+                  "id": "115012",
+                  "name": "Echoing Wail",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/115012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 35000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "115013",
+                  "name": "Eternal Lament",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
+                }
+              ]
+            },
+            {
+              "cost": 70000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 5,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "110507",
+                  "name": "Daythunder Anamnesis",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
+                },
+                {
+                  "id": "115013",
+                  "name": "Eternal Lament",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
+                }
+              ]
+            },
+            {
+              "cost": 140000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 6,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110507",
+                  "name": "Daythunder Anamnesis",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
+                }
+              ]
+            },
+            {
+              "cost": 240000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 13,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110507",
+                  "name": "Daythunder Anamnesis",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2500,
+              "items": [
+                {
+                  "id": "115011",
+                  "name": "Ethereal Omen",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/115011.webp"
+                }
+              ]
+            },
+            {
+              "cost": 3500,
+              "items": [
+                {
+                  "id": "110251",
+                  "name": "B\u012bja of Consciousness",
+                  "qty": 2,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110251.webp"
+                },
+                {
+                  "id": "115011",
+                  "name": "Ethereal Omen",
+                  "qty": 4,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/115011.webp"
+                }
+              ]
+            },
+            {
+              "cost": 7000,
+              "items": [
+                {
+                  "id": "110252",
+                  "name": "Seedling of Manas",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
+                },
+                {
+                  "id": "115012",
+                  "name": "Echoing Wail",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/115012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 16000,
+              "items": [
+                {
+                  "id": "110252",
+                  "name": "Seedling of Manas",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
+                },
+                {
+                  "id": "115012",
+                  "name": "Echoing Wail",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/115012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 25000,
+              "items": [
+                {
+                  "id": "110252",
+                  "name": "Seedling of Manas",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
+                },
+                {
+                  "id": "115012",
+                  "name": "Echoing Wail",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/115012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 35000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "115013",
+                  "name": "Eternal Lament",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
+                }
+              ]
+            },
+            {
+              "cost": 70000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 5,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "110507",
+                  "name": "Daythunder Anamnesis",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
+                },
+                {
+                  "id": "115013",
+                  "name": "Eternal Lament",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
+                }
+              ]
+            },
+            {
+              "cost": 140000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 6,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110507",
+                  "name": "Daythunder Anamnesis",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
+                }
+              ]
+            },
+            {
+              "cost": 240000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 13,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110507",
+                  "name": "Daythunder Anamnesis",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
+                }
+              ]
+            }
+          ]
+        ],
+        "talentBase": [
+          {
+            "id": "115011",
+            "name": "Ethereal Omen",
+            "qty": 16,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/115011.webp"
+          },
+          {
+            "id": "115012",
+            "name": "Echoing Wail",
+            "qty": 18,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/115012.webp"
+          },
+          {
+            "id": "115013",
+            "name": "Eternal Lament",
+            "qty": 36,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
+          },
+          {
+            "id": "241",
+            "name": "Tracks of Destiny",
+            "qty": 2,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+          },
+          {
+            "id": "110251",
+            "name": "B\u012bja of Consciousness",
+            "qty": 10,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110251.webp"
+          },
+          {
+            "id": "110252",
+            "name": "Seedling of Manas",
+            "qty": 27,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
+          },
+          {
+            "id": "110253",
+            "name": "Flower of \u0100laya",
+            "qty": 53,
+            "rar": 5,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+          },
+          {
+            "id": "110507",
+            "name": "Daythunder Anamnesis",
+            "qty": 3,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
+          }
+        ],
+        "talentBaseCost": 1181500,
+        "ascCost": 308000,
+        "talentCost": 3000000,
+        "currency": 3693000,
+        "weapon": {
+          "name": "To Evernight's Stars",
+          "icon": "../../Database/GameData/hsr/assets/lightcones/medium/23049.webp",
+          "art": "../../Database/GameData/hsr/assets/lightcones/full/23049.webp",
+          "path": "Remembrance",
+          "items": [
+            {
+              "id": "110251",
+              "name": "B\u012bja of Consciousness",
+              "qty": 4,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110251.webp"
+            },
+            {
+              "id": "110252",
+              "name": "Seedling of Manas",
+              "qty": 12,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
+            },
+            {
+              "id": "110253",
+              "name": "Flower of \u0100laya",
+              "qty": 15,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+            },
+            {
+              "id": "115011",
+              "name": "Ethereal Omen",
+              "qty": 20,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/GameData/hsr/assets/items/115011.webp"
+            },
+            {
+              "id": "115012",
+              "name": "Echoing Wail",
+              "qty": 20,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/GameData/hsr/assets/items/115012.webp"
+            },
+            {
+              "id": "115013",
+              "name": "Eternal Lament",
+              "qty": 14,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
+            }
+          ],
+          "cost": 385000
+        }
+      }
+    },
+    {
+      "id": "hsr-1225",
+      "n": "Fugue",
+      "localizedNames": {
+        "en": "Fugue",
+        "zh": "\u5fd8\u5f52\u4eba",
+        "ja": "\u5e30\u5fd8\u306e\u6d41\u96e2\u4eba",
+        "ko": "\ub9dd\uadc0\uc778"
+      },
+      "release": 1735120800000,
+      "updated": 1735120800000,
+      "sourceOrder": 1225,
+      "voiceActors": {
+        "english": "Anya Floris",
+        "japanese": "\u9ad8\u7530\u6182\u5e0c",
+        "chinese": "\u848b\u4e3d",
+        "korean": "\uc774\uba85\ud638"
+      },
+      "icon": "../../Database/GameData/hsr/assets/characters/round/1225.webp",
+      "art": "../../Database/GameData/hsr/assets/characters/draw-card/1225.webp",
+      "card": "../../Database/GameData/hsr/assets/characters/round/1225.webp",
+      "status": "live",
+      "labels": [],
+      "r": 5,
+      "el": "Fire",
+      "path": "Warlock",
+      "baseStats": {
+        "level1": {
+          "hp": 153.12,
+          "atk": 79.2,
+          "def": 75.9,
+          "speed": 102,
+          "critRate": 0.05,
+          "critDmg": 0.5
+        },
+        "max": {
+          "level": 80,
+          "hp": 1125.43,
+          "atk": 582.12,
+          "def": 557.87,
+          "speed": 102,
+          "critRate": 0.05,
+          "critDmg": 0.5
+        }
+      },
+      "facts": {
+        "camp": "The Xianzhou Luofu"
+      },
+      "signatureLightCone": {
+        "id": "23035",
+        "name": "Long Road Leads Home",
+        "icon": "../../Database/GameData/hsr/assets/lightcones/medium/23035.webp",
+        "art": "../../Database/GameData/hsr/assets/lightcones/full/23035.webp",
+        "path": "Nihility"
+      },
+      "signatureWeapon": {
+        "id": "23035",
+        "name": "Long Road Leads Home",
+        "path": "Nihility",
+        "type": "Nihility",
+        "educated": false
+      },
+      "signatureWeaponId": "23035",
+      "signatureWeaponName": "Long Road Leads Home",
+      "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23035.webp",
+      "overviewArtPool": [
+        "../../Database/GameData/hsr/assets/lightcones/full/23035.webp"
+      ],
+      "skillIcons": [
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1225_Normal.webp",
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1225_BP.webp",
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1225_Ultra.webp",
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1225_Passive.webp"
+      ],
+      "kit": {
+        "source": "Game data",
+        "channel": "live",
+        "version": "4.3",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Radiant Streak",
+                "type": "Basic ATK",
+                "desc": "Deals Fire DMG equal to 140% of Fugue's ATK to one designated enemy.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1225_Normal.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Fire DMG equal to 50% of Fugue's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Fire DMG equal to 60% of Fugue's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Fire DMG equal to 70% of Fugue's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Fire DMG equal to 80% of Fugue's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Fire DMG equal to 90% of Fugue's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Fire DMG equal to 100% of Fugue's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Fire DMG equal to 110% of Fugue's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Fire DMG equal to 120% of Fugue's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Fire DMG equal to 130% of Fugue's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Fire DMG equal to 140% of Fugue's ATK to one designated enemy."
+                  }
+                ]
+              },
+              {
+                "name": "Fiery Caress",
+                "type": "Basic ATK",
+                "desc": "Deals Fire DMG equal to 140% of Fugue's ATK to one designated enemy and Fire DMG equal to 70% of Fugue's ATK to adjacent targets.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1225_Normal.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Fire DMG equal to 50% of Fugue's ATK to one designated enemy and Fire DMG equal to 25% of Fugue's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Fire DMG equal to 60% of Fugue's ATK to one designated enemy and Fire DMG equal to 30% of Fugue's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Fire DMG equal to 70% of Fugue's ATK to one designated enemy and Fire DMG equal to 35% of Fugue's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Fire DMG equal to 80% of Fugue's ATK to one designated enemy and Fire DMG equal to 40% of Fugue's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Fire DMG equal to 90% of Fugue's ATK to one designated enemy and Fire DMG equal to 45% of Fugue's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Fire DMG equal to 100% of Fugue's ATK to one designated enemy and Fire DMG equal to 50% of Fugue's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Fire DMG equal to 110% of Fugue's ATK to one designated enemy and Fire DMG equal to 55% of Fugue's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Fire DMG equal to 120% of Fugue's ATK to one designated enemy and Fire DMG equal to 60% of Fugue's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Fire DMG equal to 130% of Fugue's ATK to one designated enemy and Fire DMG equal to 65% of Fugue's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Fire DMG equal to 140% of Fugue's ATK to one designated enemy and Fire DMG equal to 70% of Fugue's ATK to adjacent targets."
+                  }
+                ]
+              },
+              {
+                "name": "Virtue Beckons Bliss",
+                "type": "Skill",
+                "desc": "Grants one designated ally \"Foxian Prayer\". Enters the \"Torrid Scorch\" state, lasting for 3 turn(s). The duration decreases by 1 at the start of Fugue's every turn. \"Foxian Prayer\" only takes effect on the most recent target of Fugue's Skill.\\nThe ally target with \"Foxian Prayer\" increases their Break Effect by 37.5% and can also reduce Toughness even when attacking enemies that don't have the corresponding Weakness Type, with the effect equivalent to 50% of the original Toughness Reduction value. This cannot stack with other Toughness Reduction effects that also ignore Weakness Type.\\nWhile in the \"Torrid Scorch\" state, Fugue enhances her Basic ATK. Every time an ally target with \"Foxian Prayer\" attacks, Fugue has a 100% base chance to reduce the attacked enemy target's DEF by 23%, lasting for 2 turn(s).",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1225_BP.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Grants one designated ally \"Foxian Prayer\". Enters the \"Torrid Scorch\" state, lasting for 3 turn(s). The duration decreases by 1 at the start of Fugue's every turn. \"Foxian Prayer\" only takes effect on the most recent target of Fugue's Skill.\\nThe ally target with \"Foxian Prayer\" increases their Break Effect by 15% and can also reduce Toughness even when attacking enemies that don't have the corresponding Weakness Type, with the effect equivalent to 50% of the original Toughness Reduction value. This cannot stack with other Toughness Reduction effects that also ignore Weakness Type.\\nWhile in the \"Torrid Scorch\" state, Fugue enhances her Basic ATK. Every time an ally target with \"Foxian Prayer\" attacks, Fugue has a 100% base chance to reduce the attacked enemy target's DEF by 8%, lasting for 2 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Grants one designated ally \"Foxian Prayer\". Enters the \"Torrid Scorch\" state, lasting for 3 turn(s). The duration decreases by 1 at the start of Fugue's every turn. \"Foxian Prayer\" only takes effect on the most recent target of Fugue's Skill.\\nThe ally target with \"Foxian Prayer\" increases their Break Effect by 16.5% and can also reduce Toughness even when attacking enemies that don't have the corresponding Weakness Type, with the effect equivalent to 50% of the original Toughness Reduction value. This cannot stack with other Toughness Reduction effects that also ignore Weakness Type.\\nWhile in the \"Torrid Scorch\" state, Fugue enhances her Basic ATK. Every time an ally target with \"Foxian Prayer\" attacks, Fugue has a 100% base chance to reduce the attacked enemy target's DEF by 9%, lasting for 2 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Grants one designated ally \"Foxian Prayer\". Enters the \"Torrid Scorch\" state, lasting for 3 turn(s). The duration decreases by 1 at the start of Fugue's every turn. \"Foxian Prayer\" only takes effect on the most recent target of Fugue's Skill.\\nThe ally target with \"Foxian Prayer\" increases their Break Effect by 18% and can also reduce Toughness even when attacking enemies that don't have the corresponding Weakness Type, with the effect equivalent to 50% of the original Toughness Reduction value. This cannot stack with other Toughness Reduction effects that also ignore Weakness Type.\\nWhile in the \"Torrid Scorch\" state, Fugue enhances her Basic ATK. Every time an ally target with \"Foxian Prayer\" attacks, Fugue has a 100% base chance to reduce the attacked enemy target's DEF by 10%, lasting for 2 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Grants one designated ally \"Foxian Prayer\". Enters the \"Torrid Scorch\" state, lasting for 3 turn(s). The duration decreases by 1 at the start of Fugue's every turn. \"Foxian Prayer\" only takes effect on the most recent target of Fugue's Skill.\\nThe ally target with \"Foxian Prayer\" increases their Break Effect by 19.5% and can also reduce Toughness even when attacking enemies that don't have the corresponding Weakness Type, with the effect equivalent to 50% of the original Toughness Reduction value. This cannot stack with other Toughness Reduction effects that also ignore Weakness Type.\\nWhile in the \"Torrid Scorch\" state, Fugue enhances her Basic ATK. Every time an ally target with \"Foxian Prayer\" attacks, Fugue has a 100% base chance to reduce the attacked enemy target's DEF by 11%, lasting for 2 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Grants one designated ally \"Foxian Prayer\". Enters the \"Torrid Scorch\" state, lasting for 3 turn(s). The duration decreases by 1 at the start of Fugue's every turn. \"Foxian Prayer\" only takes effect on the most recent target of Fugue's Skill.\\nThe ally target with \"Foxian Prayer\" increases their Break Effect by 21% and can also reduce Toughness even when attacking enemies that don't have the corresponding Weakness Type, with the effect equivalent to 50% of the original Toughness Reduction value. This cannot stack with other Toughness Reduction effects that also ignore Weakness Type.\\nWhile in the \"Torrid Scorch\" state, Fugue enhances her Basic ATK. Every time an ally target with \"Foxian Prayer\" attacks, Fugue has a 100% base chance to reduce the attacked enemy target's DEF by 12%, lasting for 2 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Grants one designated ally \"Foxian Prayer\". Enters the \"Torrid Scorch\" state, lasting for 3 turn(s). The duration decreases by 1 at the start of Fugue's every turn. \"Foxian Prayer\" only takes effect on the most recent target of Fugue's Skill.\\nThe ally target with \"Foxian Prayer\" increases their Break Effect by 22.5% and can also reduce Toughness even when attacking enemies that don't have the corresponding Weakness Type, with the effect equivalent to 50% of the original Toughness Reduction value. This cannot stack with other Toughness Reduction effects that also ignore Weakness Type.\\nWhile in the \"Torrid Scorch\" state, Fugue enhances her Basic ATK. Every time an ally target with \"Foxian Prayer\" attacks, Fugue has a 100% base chance to reduce the attacked enemy target's DEF by 13%, lasting for 2 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Grants one designated ally \"Foxian Prayer\". Enters the \"Torrid Scorch\" state, lasting for 3 turn(s). The duration decreases by 1 at the start of Fugue's every turn. \"Foxian Prayer\" only takes effect on the most recent target of Fugue's Skill.\\nThe ally target with \"Foxian Prayer\" increases their Break Effect by 24.4% and can also reduce Toughness even when attacking enemies that don't have the corresponding Weakness Type, with the effect equivalent to 50% of the original Toughness Reduction value. This cannot stack with other Toughness Reduction effects that also ignore Weakness Type.\\nWhile in the \"Torrid Scorch\" state, Fugue enhances her Basic ATK. Every time an ally target with \"Foxian Prayer\" attacks, Fugue has a 100% base chance to reduce the attacked enemy target's DEF by 14.2%, lasting for 2 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Grants one designated ally \"Foxian Prayer\". Enters the \"Torrid Scorch\" state, lasting for 3 turn(s). The duration decreases by 1 at the start of Fugue's every turn. \"Foxian Prayer\" only takes effect on the most recent target of Fugue's Skill.\\nThe ally target with \"Foxian Prayer\" increases their Break Effect by 26.3% and can also reduce Toughness even when attacking enemies that don't have the corresponding Weakness Type, with the effect equivalent to 50% of the original Toughness Reduction value. This cannot stack with other Toughness Reduction effects that also ignore Weakness Type.\\nWhile in the \"Torrid Scorch\" state, Fugue enhances her Basic ATK. Every time an ally target with \"Foxian Prayer\" attacks, Fugue has a 100% base chance to reduce the attacked enemy target's DEF by 15.5%, lasting for 2 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Grants one designated ally \"Foxian Prayer\". Enters the \"Torrid Scorch\" state, lasting for 3 turn(s). The duration decreases by 1 at the start of Fugue's every turn. \"Foxian Prayer\" only takes effect on the most recent target of Fugue's Skill.\\nThe ally target with \"Foxian Prayer\" increases their Break Effect by 28.1% and can also reduce Toughness even when attacking enemies that don't have the corresponding Weakness Type, with the effect equivalent to 50% of the original Toughness Reduction value. This cannot stack with other Toughness Reduction effects that also ignore Weakness Type.\\nWhile in the \"Torrid Scorch\" state, Fugue enhances her Basic ATK. Every time an ally target with \"Foxian Prayer\" attacks, Fugue has a 100% base chance to reduce the attacked enemy target's DEF by 16.8%, lasting for 2 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Grants one designated ally \"Foxian Prayer\". Enters the \"Torrid Scorch\" state, lasting for 3 turn(s). The duration decreases by 1 at the start of Fugue's every turn. \"Foxian Prayer\" only takes effect on the most recent target of Fugue's Skill.\\nThe ally target with \"Foxian Prayer\" increases their Break Effect by 30% and can also reduce Toughness even when attacking enemies that don't have the corresponding Weakness Type, with the effect equivalent to 50% of the original Toughness Reduction value. This cannot stack with other Toughness Reduction effects that also ignore Weakness Type.\\nWhile in the \"Torrid Scorch\" state, Fugue enhances her Basic ATK. Every time an ally target with \"Foxian Prayer\" attacks, Fugue has a 100% base chance to reduce the attacked enemy target's DEF by 18%, lasting for 2 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Grants one designated ally \"Foxian Prayer\". Enters the \"Torrid Scorch\" state, lasting for 3 turn(s). The duration decreases by 1 at the start of Fugue's every turn. \"Foxian Prayer\" only takes effect on the most recent target of Fugue's Skill.\\nThe ally target with \"Foxian Prayer\" increases their Break Effect by 31.5% and can also reduce Toughness even when attacking enemies that don't have the corresponding Weakness Type, with the effect equivalent to 50% of the original Toughness Reduction value. This cannot stack with other Toughness Reduction effects that also ignore Weakness Type.\\nWhile in the \"Torrid Scorch\" state, Fugue enhances her Basic ATK. Every time an ally target with \"Foxian Prayer\" attacks, Fugue has a 100% base chance to reduce the attacked enemy target's DEF by 19%, lasting for 2 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Grants one designated ally \"Foxian Prayer\". Enters the \"Torrid Scorch\" state, lasting for 3 turn(s). The duration decreases by 1 at the start of Fugue's every turn. \"Foxian Prayer\" only takes effect on the most recent target of Fugue's Skill.\\nThe ally target with \"Foxian Prayer\" increases their Break Effect by 33% and can also reduce Toughness even when attacking enemies that don't have the corresponding Weakness Type, with the effect equivalent to 50% of the original Toughness Reduction value. This cannot stack with other Toughness Reduction effects that also ignore Weakness Type.\\nWhile in the \"Torrid Scorch\" state, Fugue enhances her Basic ATK. Every time an ally target with \"Foxian Prayer\" attacks, Fugue has a 100% base chance to reduce the attacked enemy target's DEF by 20%, lasting for 2 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Grants one designated ally \"Foxian Prayer\". Enters the \"Torrid Scorch\" state, lasting for 3 turn(s). The duration decreases by 1 at the start of Fugue's every turn. \"Foxian Prayer\" only takes effect on the most recent target of Fugue's Skill.\\nThe ally target with \"Foxian Prayer\" increases their Break Effect by 34.5% and can also reduce Toughness even when attacking enemies that don't have the corresponding Weakness Type, with the effect equivalent to 50% of the original Toughness Reduction value. This cannot stack with other Toughness Reduction effects that also ignore Weakness Type.\\nWhile in the \"Torrid Scorch\" state, Fugue enhances her Basic ATK. Every time an ally target with \"Foxian Prayer\" attacks, Fugue has a 100% base chance to reduce the attacked enemy target's DEF by 21%, lasting for 2 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Grants one designated ally \"Foxian Prayer\". Enters the \"Torrid Scorch\" state, lasting for 3 turn(s). The duration decreases by 1 at the start of Fugue's every turn. \"Foxian Prayer\" only takes effect on the most recent target of Fugue's Skill.\\nThe ally target with \"Foxian Prayer\" increases their Break Effect by 36% and can also reduce Toughness even when attacking enemies that don't have the corresponding Weakness Type, with the effect equivalent to 50% of the original Toughness Reduction value. This cannot stack with other Toughness Reduction effects that also ignore Weakness Type.\\nWhile in the \"Torrid Scorch\" state, Fugue enhances her Basic ATK. Every time an ally target with \"Foxian Prayer\" attacks, Fugue has a 100% base chance to reduce the attacked enemy target's DEF by 22%, lasting for 2 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Grants one designated ally \"Foxian Prayer\". Enters the \"Torrid Scorch\" state, lasting for 3 turn(s). The duration decreases by 1 at the start of Fugue's every turn. \"Foxian Prayer\" only takes effect on the most recent target of Fugue's Skill.\\nThe ally target with \"Foxian Prayer\" increases their Break Effect by 37.5% and can also reduce Toughness even when attacking enemies that don't have the corresponding Weakness Type, with the effect equivalent to 50% of the original Toughness Reduction value. This cannot stack with other Toughness Reduction effects that also ignore Weakness Type.\\nWhile in the \"Torrid Scorch\" state, Fugue enhances her Basic ATK. Every time an ally target with \"Foxian Prayer\" attacks, Fugue has a 100% base chance to reduce the attacked enemy target's DEF by 23%, lasting for 2 turn(s)."
+                  }
+                ]
+              },
+              {
+                "name": "Solar Splendor Shines Upon All",
+                "type": "Ultimate",
+                "desc": "Deals Fire DMG equal to 250% of Fugue's ATK to all enemies. This attack ignores Weakness Type to reduce all enemies' Toughness. And when breaking Weakness, triggers the Fire Weakness Break effect.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1225_Ultra.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Fire DMG equal to 100% of Fugue's ATK to all enemies. This attack ignores Weakness Type to reduce all enemies' Toughness. And when breaking Weakness, triggers the Fire Weakness Break effect."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Fire DMG equal to 110% of Fugue's ATK to all enemies. This attack ignores Weakness Type to reduce all enemies' Toughness. And when breaking Weakness, triggers the Fire Weakness Break effect."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Fire DMG equal to 120% of Fugue's ATK to all enemies. This attack ignores Weakness Type to reduce all enemies' Toughness. And when breaking Weakness, triggers the Fire Weakness Break effect."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Fire DMG equal to 130% of Fugue's ATK to all enemies. This attack ignores Weakness Type to reduce all enemies' Toughness. And when breaking Weakness, triggers the Fire Weakness Break effect."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Fire DMG equal to 140% of Fugue's ATK to all enemies. This attack ignores Weakness Type to reduce all enemies' Toughness. And when breaking Weakness, triggers the Fire Weakness Break effect."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Fire DMG equal to 150% of Fugue's ATK to all enemies. This attack ignores Weakness Type to reduce all enemies' Toughness. And when breaking Weakness, triggers the Fire Weakness Break effect."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Fire DMG equal to 163% of Fugue's ATK to all enemies. This attack ignores Weakness Type to reduce all enemies' Toughness. And when breaking Weakness, triggers the Fire Weakness Break effect."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Fire DMG equal to 175% of Fugue's ATK to all enemies. This attack ignores Weakness Type to reduce all enemies' Toughness. And when breaking Weakness, triggers the Fire Weakness Break effect."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Fire DMG equal to 188% of Fugue's ATK to all enemies. This attack ignores Weakness Type to reduce all enemies' Toughness. And when breaking Weakness, triggers the Fire Weakness Break effect."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Fire DMG equal to 200% of Fugue's ATK to all enemies. This attack ignores Weakness Type to reduce all enemies' Toughness. And when breaking Weakness, triggers the Fire Weakness Break effect."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Deals Fire DMG equal to 210% of Fugue's ATK to all enemies. This attack ignores Weakness Type to reduce all enemies' Toughness. And when breaking Weakness, triggers the Fire Weakness Break effect."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Deals Fire DMG equal to 220% of Fugue's ATK to all enemies. This attack ignores Weakness Type to reduce all enemies' Toughness. And when breaking Weakness, triggers the Fire Weakness Break effect."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Deals Fire DMG equal to 230% of Fugue's ATK to all enemies. This attack ignores Weakness Type to reduce all enemies' Toughness. And when breaking Weakness, triggers the Fire Weakness Break effect."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Deals Fire DMG equal to 240% of Fugue's ATK to all enemies. This attack ignores Weakness Type to reduce all enemies' Toughness. And when breaking Weakness, triggers the Fire Weakness Break effect."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Deals Fire DMG equal to 250% of Fugue's ATK to all enemies. This attack ignores Weakness Type to reduce all enemies' Toughness. And when breaking Weakness, triggers the Fire Weakness Break effect."
+                  }
+                ]
+              },
+              {
+                "name": "Percipient Shine",
+                "type": "Technique",
+                "desc": "After using Technique, inflicts Daze on enemies within a certain area, lasting for 10 second(s). While Dazed, enemies will not actively attack ally targets.\\nAfter entering battle via actively attacking Dazed enemies, Fugue's action advances by 40%, with a 100% base chance to inflict each enemy target with the same DEF Reduction state as that applied by Fugue's Skill, lasting for 2 turn(s).",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1225_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "Technique Attack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Fortune Follows Where Virtue Spreads",
+                "type": "Talent",
+                "desc": "While Fugue is on the field, enemy targets will get additionally afflicted with \"Cloudflame Luster,\" equal to 40% of their Max Toughness. When the initial Toughness is reduced to 0, \"Cloudflame Luster\" can continue to be reduced. When \"Cloudflame Luster\" is reduced to 0, the enemy will receive Weakness Break DMG again.\\nWhile Fugue is on the field and after allies attack Weakness Broken enemy targets, converts the Toughness Reduction of this attack into 1 instance of 125% Super Break DMG.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1225_Passive.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "While Fugue is on the field, enemy targets will get additionally afflicted with \"Cloudflame Luster,\" equal to 40% of their Max Toughness. When the initial Toughness is reduced to 0, \"Cloudflame Luster\" can continue to be reduced. When \"Cloudflame Luster\" is reduced to 0, the enemy will receive Weakness Break DMG again.\\nWhile Fugue is on the field and after allies attack Weakness Broken enemy targets, converts the Toughness Reduction of this attack into 1 instance of 50% Super Break DMG."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "While Fugue is on the field, enemy targets will get additionally afflicted with \"Cloudflame Luster,\" equal to 40% of their Max Toughness. When the initial Toughness is reduced to 0, \"Cloudflame Luster\" can continue to be reduced. When \"Cloudflame Luster\" is reduced to 0, the enemy will receive Weakness Break DMG again.\\nWhile Fugue is on the field and after allies attack Weakness Broken enemy targets, converts the Toughness Reduction of this attack into 1 instance of 55% Super Break DMG."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "While Fugue is on the field, enemy targets will get additionally afflicted with \"Cloudflame Luster,\" equal to 40% of their Max Toughness. When the initial Toughness is reduced to 0, \"Cloudflame Luster\" can continue to be reduced. When \"Cloudflame Luster\" is reduced to 0, the enemy will receive Weakness Break DMG again.\\nWhile Fugue is on the field and after allies attack Weakness Broken enemy targets, converts the Toughness Reduction of this attack into 1 instance of 60% Super Break DMG."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "While Fugue is on the field, enemy targets will get additionally afflicted with \"Cloudflame Luster,\" equal to 40% of their Max Toughness. When the initial Toughness is reduced to 0, \"Cloudflame Luster\" can continue to be reduced. When \"Cloudflame Luster\" is reduced to 0, the enemy will receive Weakness Break DMG again.\\nWhile Fugue is on the field and after allies attack Weakness Broken enemy targets, converts the Toughness Reduction of this attack into 1 instance of 65% Super Break DMG."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "While Fugue is on the field, enemy targets will get additionally afflicted with \"Cloudflame Luster,\" equal to 40% of their Max Toughness. When the initial Toughness is reduced to 0, \"Cloudflame Luster\" can continue to be reduced. When \"Cloudflame Luster\" is reduced to 0, the enemy will receive Weakness Break DMG again.\\nWhile Fugue is on the field and after allies attack Weakness Broken enemy targets, converts the Toughness Reduction of this attack into 1 instance of 70% Super Break DMG."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "While Fugue is on the field, enemy targets will get additionally afflicted with \"Cloudflame Luster,\" equal to 40% of their Max Toughness. When the initial Toughness is reduced to 0, \"Cloudflame Luster\" can continue to be reduced. When \"Cloudflame Luster\" is reduced to 0, the enemy will receive Weakness Break DMG again.\\nWhile Fugue is on the field and after allies attack Weakness Broken enemy targets, converts the Toughness Reduction of this attack into 1 instance of 75% Super Break DMG."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "While Fugue is on the field, enemy targets will get additionally afflicted with \"Cloudflame Luster,\" equal to 40% of their Max Toughness. When the initial Toughness is reduced to 0, \"Cloudflame Luster\" can continue to be reduced. When \"Cloudflame Luster\" is reduced to 0, the enemy will receive Weakness Break DMG again.\\nWhile Fugue is on the field and after allies attack Weakness Broken enemy targets, converts the Toughness Reduction of this attack into 1 instance of 81.3% Super Break DMG."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "While Fugue is on the field, enemy targets will get additionally afflicted with \"Cloudflame Luster,\" equal to 40% of their Max Toughness. When the initial Toughness is reduced to 0, \"Cloudflame Luster\" can continue to be reduced. When \"Cloudflame Luster\" is reduced to 0, the enemy will receive Weakness Break DMG again.\\nWhile Fugue is on the field and after allies attack Weakness Broken enemy targets, converts the Toughness Reduction of this attack into 1 instance of 87.5% Super Break DMG."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "While Fugue is on the field, enemy targets will get additionally afflicted with \"Cloudflame Luster,\" equal to 40% of their Max Toughness. When the initial Toughness is reduced to 0, \"Cloudflame Luster\" can continue to be reduced. When \"Cloudflame Luster\" is reduced to 0, the enemy will receive Weakness Break DMG again.\\nWhile Fugue is on the field and after allies attack Weakness Broken enemy targets, converts the Toughness Reduction of this attack into 1 instance of 93.8% Super Break DMG."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "While Fugue is on the field, enemy targets will get additionally afflicted with \"Cloudflame Luster,\" equal to 40% of their Max Toughness. When the initial Toughness is reduced to 0, \"Cloudflame Luster\" can continue to be reduced. When \"Cloudflame Luster\" is reduced to 0, the enemy will receive Weakness Break DMG again.\\nWhile Fugue is on the field and after allies attack Weakness Broken enemy targets, converts the Toughness Reduction of this attack into 1 instance of 100% Super Break DMG."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "While Fugue is on the field, enemy targets will get additionally afflicted with \"Cloudflame Luster,\" equal to 40% of their Max Toughness. When the initial Toughness is reduced to 0, \"Cloudflame Luster\" can continue to be reduced. When \"Cloudflame Luster\" is reduced to 0, the enemy will receive Weakness Break DMG again.\\nWhile Fugue is on the field and after allies attack Weakness Broken enemy targets, converts the Toughness Reduction of this attack into 1 instance of 105% Super Break DMG."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "While Fugue is on the field, enemy targets will get additionally afflicted with \"Cloudflame Luster,\" equal to 40% of their Max Toughness. When the initial Toughness is reduced to 0, \"Cloudflame Luster\" can continue to be reduced. When \"Cloudflame Luster\" is reduced to 0, the enemy will receive Weakness Break DMG again.\\nWhile Fugue is on the field and after allies attack Weakness Broken enemy targets, converts the Toughness Reduction of this attack into 1 instance of 110% Super Break DMG."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "While Fugue is on the field, enemy targets will get additionally afflicted with \"Cloudflame Luster,\" equal to 40% of their Max Toughness. When the initial Toughness is reduced to 0, \"Cloudflame Luster\" can continue to be reduced. When \"Cloudflame Luster\" is reduced to 0, the enemy will receive Weakness Break DMG again.\\nWhile Fugue is on the field and after allies attack Weakness Broken enemy targets, converts the Toughness Reduction of this attack into 1 instance of 115% Super Break DMG."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "While Fugue is on the field, enemy targets will get additionally afflicted with \"Cloudflame Luster,\" equal to 40% of their Max Toughness. When the initial Toughness is reduced to 0, \"Cloudflame Luster\" can continue to be reduced. When \"Cloudflame Luster\" is reduced to 0, the enemy will receive Weakness Break DMG again.\\nWhile Fugue is on the field and after allies attack Weakness Broken enemy targets, converts the Toughness Reduction of this attack into 1 instance of 120% Super Break DMG."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "While Fugue is on the field, enemy targets will get additionally afflicted with \"Cloudflame Luster,\" equal to 40% of their Max Toughness. When the initial Toughness is reduced to 0, \"Cloudflame Luster\" can continue to be reduced. When \"Cloudflame Luster\" is reduced to 0, the enemy will receive Weakness Break DMG again.\\nWhile Fugue is on the field and after allies attack Weakness Broken enemy targets, converts the Toughness Reduction of this attack into 1 instance of 125% Super Break DMG."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Verdantia Renaissance",
+                "type": "Major Trace",
+                "desc": "After ally targets break weakness, additionally delays the action of the enemy target by 15%.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1225_SkillTree1.webp"
+              },
+              {
+                "name": "Sylvan Enigma",
+                "type": "Major Trace",
+                "desc": "Increases this unit's Break Effect by 30%. After using Skill for the first time, immediately recovers 1 Skill Point(s).",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1225_SkillTree2.webp"
+              },
+              {
+                "name": "Phecda Primordia",
+                "type": "Major Trace",
+                "desc": "When an enemy target's Weakness gets broken, increases teammates' (i.e., excluding this unit) Break Effect by 6%. If Fugue's Break Effect is 220% or higher, the Break Effect increase is boosted by an additional 12%, lasting for 2 turn(s). This effect can stack up to 2 time(s).",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1225_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Earthbound I Was, Cloudward I Be",
+                "type": "Eidolon 1",
+                "desc": "Ally target with \"Foxian Prayer\" increases their Weakness Break Efficiency by 50%.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1225_Rank1.webp"
+              },
+              {
+                "name": "Beatitude Dawns for the Worthy",
+                "type": "Eidolon 2",
+                "desc": "When an enemy target's Weakness gets broken, Fugue regenerates 3 Energy. After using Ultimate, advances the action of all allies by 24%.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1225_Rank2.webp"
+              },
+              {
+                "name": "Verity Weaves Thoughts to Blade",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1225_BP.webp"
+              },
+              {
+                "name": "Bereft of Form, Which Name to Bear",
+                "type": "Eidolon 4",
+                "desc": "Ally target with \"Foxian Prayer\" increases their Break DMG dealt by 20%.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1225_Rank4.webp"
+              },
+              {
+                "name": "Colored Cloud Rains Fortune",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1225_Ultra.webp"
+              },
+              {
+                "name": "Clairvoyance of Boom and Doom",
+                "type": "Eidolon 6",
+                "desc": "Increases Fugue's Weakness Break Efficiency by 50%. While Fugue is in the \"Torrid Scorch\" state, \"Foxian Prayer\" takes effect on all allies.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1225_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
+      "req": {
+        "ascension": [
+          {
+            "id": "110412",
+            "name": "Searing Steel Blade",
+            "qty": 65,
+            "rar": 5,
+            "kind": "boss",
+            "icon": "../../Database/GameData/hsr/assets/items/110412.webp"
+          },
+          {
+            "id": "113001",
+            "name": "Immortal Scionette",
+            "qty": 15,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/113001.webp"
+          },
+          {
+            "id": "113002",
+            "name": "Immortal Aeroblossom",
+            "qty": 15,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/113002.webp"
+          },
+          {
+            "id": "113003",
+            "name": "Immortal Lumintwig",
+            "qty": 15,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/113003.webp"
+          }
+        ],
+        "talents": [
+          {
+            "id": "113001",
+            "name": "Immortal Scionette",
+            "qty": 41,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/113001.webp"
+          },
+          {
+            "id": "113002",
+            "name": "Immortal Aeroblossom",
+            "qty": 56,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/113002.webp"
+          },
+          {
+            "id": "113003",
+            "name": "Immortal Lumintwig",
+            "qty": 58,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/113003.webp"
+          },
+          {
+            "id": "241",
+            "name": "Tracks of Destiny",
+            "qty": 8,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+          },
+          {
+            "id": "110221",
+            "name": "Fiery Spirit",
+            "qty": 18,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110221.webp"
+          },
+          {
+            "id": "110222",
+            "name": "Starfire Essence",
+            "qty": 69,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110222.webp"
+          },
+          {
+            "id": "110223",
+            "name": "Heaven Incinerator",
+            "qty": 139,
+            "rar": 5,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
+          },
+          {
+            "id": "110503",
+            "name": "Regret of Infinite Ochema",
+            "qty": 12,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/GameData/hsr/assets/items/110503.webp"
+          }
+        ],
+        "talentStages": [
+          [
+            {
+              "cost": 5000,
+              "items": [
+                {
+                  "id": "110221",
+                  "name": "Fiery Spirit",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110221.webp"
+                },
+                {
+                  "id": "113001",
+                  "name": "Immortal Scionette",
+                  "qty": 6,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/113001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 10000,
+              "items": [
+                {
+                  "id": "110222",
+                  "name": "Starfire Essence",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110222.webp"
+                },
+                {
+                  "id": "113002",
+                  "name": "Immortal Aeroblossom",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/113002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 20000,
+              "items": [
+                {
+                  "id": "110222",
+                  "name": "Starfire Essence",
+                  "qty": 5,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110222.webp"
+                },
+                {
+                  "id": "113002",
+                  "name": "Immortal Aeroblossom",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/113002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "110223",
+                  "name": "Heaven Incinerator",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
+                },
+                {
+                  "id": "113003",
+                  "name": "Immortal Lumintwig",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/113003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 160000,
+              "items": [
+                {
+                  "id": "110223",
+                  "name": "Heaven Incinerator",
+                  "qty": 8,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
+                },
+                {
+                  "id": "113003",
+                  "name": "Immortal Lumintwig",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/113003.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2500,
+              "items": [
+                {
+                  "id": "113001",
+                  "name": "Immortal Scionette",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/113001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 5000,
+              "items": [
+                {
+                  "id": "110221",
+                  "name": "Fiery Spirit",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110221.webp"
+                },
+                {
+                  "id": "113001",
+                  "name": "Immortal Scionette",
+                  "qty": 6,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/113001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 10000,
+              "items": [
+                {
+                  "id": "110222",
+                  "name": "Starfire Essence",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110222.webp"
+                },
+                {
+                  "id": "113002",
+                  "name": "Immortal Aeroblossom",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/113002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 20000,
+              "items": [
+                {
+                  "id": "110222",
+                  "name": "Starfire Essence",
+                  "qty": 5,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110222.webp"
+                },
+                {
+                  "id": "113002",
+                  "name": "Immortal Aeroblossom",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/113002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 30000,
+              "items": [
+                {
+                  "id": "110222",
+                  "name": "Starfire Essence",
+                  "qty": 7,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110222.webp"
+                },
+                {
+                  "id": "113002",
+                  "name": "Immortal Aeroblossom",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/113002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "110223",
+                  "name": "Heaven Incinerator",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
+                },
+                {
+                  "id": "113003",
+                  "name": "Immortal Lumintwig",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/113003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 80000,
+              "items": [
+                {
+                  "id": "110223",
+                  "name": "Heaven Incinerator",
+                  "qty": 5,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
+                },
+                {
+                  "id": "110503",
+                  "name": "Regret of Infinite Ochema",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110503.webp"
+                },
+                {
+                  "id": "113003",
+                  "name": "Immortal Lumintwig",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/113003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 160000,
+              "items": [
+                {
+                  "id": "110223",
+                  "name": "Heaven Incinerator",
+                  "qty": 8,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110503",
+                  "name": "Regret of Infinite Ochema",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110503.webp"
+                }
+              ]
+            },
+            {
+              "cost": 300000,
+              "items": [
+                {
+                  "id": "110223",
+                  "name": "Heaven Incinerator",
+                  "qty": 14,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110503",
+                  "name": "Regret of Infinite Ochema",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110503.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2500,
+              "items": [
+                {
+                  "id": "113001",
+                  "name": "Immortal Scionette",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/113001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 5000,
+              "items": [
+                {
+                  "id": "110221",
+                  "name": "Fiery Spirit",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110221.webp"
+                },
+                {
+                  "id": "113001",
+                  "name": "Immortal Scionette",
+                  "qty": 6,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/113001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 10000,
+              "items": [
+                {
+                  "id": "110222",
+                  "name": "Starfire Essence",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110222.webp"
+                },
+                {
+                  "id": "113002",
+                  "name": "Immortal Aeroblossom",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/113002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 20000,
+              "items": [
+                {
+                  "id": "110222",
+                  "name": "Starfire Essence",
+                  "qty": 5,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110222.webp"
+                },
+                {
+                  "id": "113002",
+                  "name": "Immortal Aeroblossom",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/113002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 30000,
+              "items": [
+                {
+                  "id": "110222",
+                  "name": "Starfire Essence",
+                  "qty": 7,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110222.webp"
+                },
+                {
+                  "id": "113002",
+                  "name": "Immortal Aeroblossom",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/113002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "110223",
+                  "name": "Heaven Incinerator",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
+                },
+                {
+                  "id": "113003",
+                  "name": "Immortal Lumintwig",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/113003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 80000,
+              "items": [
+                {
+                  "id": "110223",
+                  "name": "Heaven Incinerator",
+                  "qty": 5,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
+                },
+                {
+                  "id": "110503",
+                  "name": "Regret of Infinite Ochema",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110503.webp"
+                },
+                {
+                  "id": "113003",
+                  "name": "Immortal Lumintwig",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/113003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 160000,
+              "items": [
+                {
+                  "id": "110223",
+                  "name": "Heaven Incinerator",
+                  "qty": 8,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110503",
+                  "name": "Regret of Infinite Ochema",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110503.webp"
+                }
+              ]
+            },
+            {
+              "cost": 300000,
+              "items": [
+                {
+                  "id": "110223",
+                  "name": "Heaven Incinerator",
+                  "qty": 14,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110503",
+                  "name": "Regret of Infinite Ochema",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110503.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2500,
+              "items": [
+                {
+                  "id": "113001",
+                  "name": "Immortal Scionette",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/113001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 5000,
+              "items": [
+                {
+                  "id": "110221",
+                  "name": "Fiery Spirit",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110221.webp"
+                },
+                {
+                  "id": "113001",
+                  "name": "Immortal Scionette",
+                  "qty": 6,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/113001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 10000,
+              "items": [
+                {
+                  "id": "110222",
+                  "name": "Starfire Essence",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110222.webp"
+                },
+                {
+                  "id": "113002",
+                  "name": "Immortal Aeroblossom",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/113002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 20000,
+              "items": [
+                {
+                  "id": "110222",
+                  "name": "Starfire Essence",
+                  "qty": 5,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110222.webp"
+                },
+                {
+                  "id": "113002",
+                  "name": "Immortal Aeroblossom",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/113002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 30000,
+              "items": [
+                {
+                  "id": "110222",
+                  "name": "Starfire Essence",
+                  "qty": 7,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110222.webp"
+                },
+                {
+                  "id": "113002",
+                  "name": "Immortal Aeroblossom",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/113002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "110223",
+                  "name": "Heaven Incinerator",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
+                },
+                {
+                  "id": "113003",
+                  "name": "Immortal Lumintwig",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/113003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 80000,
+              "items": [
+                {
+                  "id": "110223",
+                  "name": "Heaven Incinerator",
+                  "qty": 5,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
+                },
+                {
+                  "id": "110503",
+                  "name": "Regret of Infinite Ochema",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110503.webp"
+                },
+                {
+                  "id": "113003",
+                  "name": "Immortal Lumintwig",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/113003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 160000,
+              "items": [
+                {
+                  "id": "110223",
+                  "name": "Heaven Incinerator",
+                  "qty": 8,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110503",
+                  "name": "Regret of Infinite Ochema",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110503.webp"
+                }
+              ]
+            },
+            {
+              "cost": 300000,
+              "items": [
+                {
+                  "id": "110223",
+                  "name": "Heaven Incinerator",
+                  "qty": 14,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110503",
+                  "name": "Regret of Infinite Ochema",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110503.webp"
+                }
+              ]
+            }
+          ]
+        ],
+        "talentBase": [
+          {
+            "id": "113001",
+            "name": "Immortal Scionette",
+            "qty": 8,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/113001.webp"
+          },
+          {
+            "id": "113002",
+            "name": "Immortal Aeroblossom",
+            "qty": 10,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/113002.webp"
+          },
+          {
+            "id": "113003",
+            "name": "Immortal Lumintwig",
+            "qty": 30,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/113003.webp"
+          },
+          {
+            "id": "241",
+            "name": "Tracks of Destiny",
+            "qty": 2,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+          },
+          {
+            "id": "110221",
+            "name": "Fiery Spirit",
+            "qty": 6,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110221.webp"
+          },
+          {
+            "id": "110222",
+            "name": "Starfire Essence",
+            "qty": 16,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110222.webp"
+          },
+          {
+            "id": "110223",
+            "name": "Heaven Incinerator",
+            "qty": 38,
+            "rar": 5,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
+          },
+          {
+            "id": "110503",
+            "name": "Regret of Infinite Ochema",
+            "qty": 3,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/GameData/hsr/assets/items/110503.webp"
+          }
+        ],
+        "talentBaseCost": 802500,
+        "ascCost": 308000,
+        "talentCost": 3000000,
+        "currency": 3693000,
+        "weapon": {
+          "name": "Long Road Leads Home",
+          "icon": "../../Database/GameData/hsr/assets/lightcones/medium/23035.webp",
+          "art": "../../Database/GameData/hsr/assets/lightcones/full/23035.webp",
+          "path": "Nihility",
+          "items": [
+            {
+              "id": "110221",
+              "name": "Fiery Spirit",
+              "qty": 4,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110221.webp"
+            },
+            {
+              "id": "110222",
+              "name": "Starfire Essence",
+              "qty": 12,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110222.webp"
+            },
+            {
+              "id": "110223",
+              "name": "Heaven Incinerator",
+              "qty": 15,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
+            },
+            {
+              "id": "113001",
+              "name": "Immortal Scionette",
+              "qty": 20,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/GameData/hsr/assets/items/113001.webp"
+            },
+            {
+              "id": "113002",
+              "name": "Immortal Aeroblossom",
+              "qty": 20,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/GameData/hsr/assets/items/113002.webp"
+            },
+            {
+              "id": "113003",
+              "name": "Immortal Lumintwig",
+              "qty": 14,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/GameData/hsr/assets/items/113003.webp"
+            }
+          ],
+          "cost": 385000
+        }
+      }
     }
   ],
   "midGroups": [
@@ -133504,6 +136307,7 @@
         "Aglaea",
         "Castorice",
         "Cyrene",
+        "Evernight",
         "Hyacine",
         "March 7th \u2022 Evernight",
         "Trailblazer"
@@ -133561,6 +136365,7 @@
         "Acheron",
         "Black Swan",
         "Cipher",
+        "Fugue",
         "Hysilens",
         "Jiaoqiu",
         "The Dahlia",
@@ -133771,7 +136576,7 @@
   ],
   "boss": {
     "title": "Echo of War",
-    "count": 88
+    "count": 90
   },
   "bossGroups": [
     {
@@ -133817,7 +136622,8 @@
         "Asta",
         "Gallagher",
         "Guinaifen",
-        "Hook"
+        "Hook",
+        "Fugue"
       ]
     },
     {
@@ -133837,7 +136643,8 @@
         "Herta",
         "March 7th",
         "Misha",
-        "Pela"
+        "Pela",
+        "Evernight"
       ]
     },
     {
@@ -133962,6 +136769,7 @@
             "Cipher",
             "Cyrene",
             "Dan Heng \u2022 Permansor Terrae",
+            "Evernight",
             "Hysilens",
             "March 7th \u2022 Evernight",
             "Phainon"
@@ -134056,6 +136864,7 @@
             "Dan Heng \u2022 Imbibitor Lunae",
             "Feixiao",
             "Fu Xuan",
+            "Fugue",
             "Guinaifen",
             "Hanya",
             "Huohuo",

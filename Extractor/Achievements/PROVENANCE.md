@@ -63,10 +63,16 @@ and runs a copied release executable beside invalid `VCRUNTIME140.dll` and
 The embedded released catalogs are built from Nyx's local database and pinned
 by tests:
 
-| Catalog | IDs | Raw SHA-256 |
+| Catalog | IDs | LF-normalized raw SHA-256 |
 | --- | ---: | --- |
 | GI | 1,759 | `5608dd41a26a06639c6455d65de7abdd2a7e5e997f55c6ed93dec6d08dc673b5` |
 | HSR | 1,811 | `9d4fa10905c5f8472577e0c23414907394f312a9ea3b85eaebcf83400a867229` |
+
+The build accepts only the repository's exact reviewed JSON bytes after the
+single Windows-safe conversion from CRLF to LF. A bare carriage return,
+changed field, changed ID, missing row, duplicate ID, or extra row still fails
+the build. This avoids a false hash failure when Git checks out the same files
+with Windows line endings.
 
 ## Npcap fallback review pin
 

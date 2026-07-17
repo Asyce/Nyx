@@ -33,6 +33,7 @@ public sealed class LatestContentService : ILatestContentSource, IAsyncDisposabl
     private IReadOnlyDictionary<string, LatestContentSnapshot> current;
     private Task? refresh;
     private Task? pump;
+    private bool automaticRefreshEnabled;
     private bool disposed;
 
     public LatestContentService(byte[] bundledPayload)
@@ -77,14 +78,18 @@ public sealed class LatestContentService : ILatestContentSource, IAsyncDisposabl
     public event EventHandler? Updated;
 
     public void Start()
+        => SetAutomaticRefreshEnabled(true);
+
+    public void SetAutomaticRefreshEnabled(bool enabled)
     {
         lock (sync)
         {
             ObjectDisposedException.ThrowIf(disposed, this);
-            pump ??= PumpAsync();
+            automaticRefreshEnabled = enabled;
+            if (enabled) pump ??= PumpAsync();
         }
 
-        _ = RefreshAsync();
+        if (enabled) _ = RefreshAsync();
     }
 
     public Task RefreshAsync(CancellationToken cancellationToken = default)
@@ -180,6 +185,10 @@ public sealed class LatestContentService : ILatestContentSource, IAsyncDisposabl
         {
             while (await timer.WaitForNextTickAsync(shutdown.Token))
             {
+                lock (sync)
+                {
+                    if (!automaticRefreshEnabled) continue;
+                }
                 await RefreshAsync(shutdown.Token);
             }
         }

@@ -94,13 +94,13 @@ public static class LauncherLayoutStateSelector
             LauncherLayoutState.Wide => new(
                 LauncherLayoutState.Wide,
                 UsesHorizontalRail: false,
-                RailExtent: 132,
-                IconSize: 108,
+                RailExtent: 118,
+                IconSize: 84,
                 HeroWidth: Math.Clamp(width * 0.68, 760, 1080),
                 ContentWidth: Math.Clamp(width * 0.49, 540, 660),
                 TitleSize: 64,
                 OuterPadding: 24,
-                DeckHeight: 166,
+                DeckHeight: 184,
                 LaunchWidth: 360),
             _ => new(
                 LauncherLayoutState.Expanded,
@@ -152,7 +152,7 @@ public static class LauncherViewportGeometry
 {
     public const double TitleBarHeight = 52;
     public const double CommandDeckBorder = 1;
-    public const double NarrowWideDeckWidth = 1180;
+    public const double NarrowWideDeckWidth = 1360;
     public const double CompactDeckPadding = 12;
     public const double CompactOfficialInset = 10;
     public const double CompactRowGap = 8;
@@ -165,6 +165,7 @@ public static class LauncherViewportGeometry
     public const double TwoRowColumnGap = 12;
     public const double TwoRowGap = 8;
     public const double TwoRowHeight = 62;
+    public const double WideTwoRowStatusHeight = 92;
     public const double SingleRowHorizontalPadding = 26;
     public const double SingleRowVerticalPadding = 20;
     public const double SingleRowColumnGap = 20;
@@ -267,7 +268,10 @@ public static class LauncherViewportGeometry
         var x1 = x0 + firstWidth + TwoRowColumnGap;
         var x2 = x1 + firstWidth + TwoRowColumnGap;
         var x3 = x2 + launchHalf + TwoRowColumnGap;
-        var secondRowY = inner.Y + TwoRowHeight + TwoRowGap;
+        var statusHeight = profile.State is LauncherLayoutState.Wide
+            ? WideTwoRowStatusHeight
+            : TwoRowHeight;
+        var secondRowY = inner.Y + statusHeight + TwoRowGap;
 
         return new(
             profile,
@@ -276,12 +280,12 @@ public static class LauncherViewportGeometry
             content,
             deck,
             inner,
-            new LauncherRect(x0, inner.Y, firstWidth, TwoRowHeight),
+            new LauncherRect(x0, inner.Y, firstWidth, statusHeight),
             new LauncherRect(
                 x1,
                 inner.Y,
                 firstWidth + profile.LaunchWidth + (TwoRowColumnGap * 2),
-                TwoRowHeight),
+                statusHeight),
             ClipTo(
                 inner,
                 new LauncherRect(
@@ -308,8 +312,8 @@ public static class LauncherViewportGeometry
             deck,
             SingleRowHorizontalPadding + CommandDeckBorder,
             SingleRowVerticalPadding + CommandDeckBorder);
-        var localWidth = profile.State is LauncherLayoutState.Wide ? 160 : 190;
-        var toolsWidth = profile.State is LauncherLayoutState.Wide ? 216 : 230;
+        var localWidth = profile.State is LauncherLayoutState.Wide ? 200 : 190;
+        var toolsWidth = profile.State is LauncherLayoutState.Wide ? 232 : 230;
         var officialWidth = Math.Max(
             0,
             inner.Width

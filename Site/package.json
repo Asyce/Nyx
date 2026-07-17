@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "generate:data": "node ./tools/generate-site-data.mjs",
+    "generate:launcher-manifest": "node ./tools/generate-launcher-manifest.mjs",
     "generate:weapons": "node ./tools/gen-weapons-meta.mjs",
     "scrape:gcg": "node ./tools/scrape-gamedata-gcg.mjs",
     "scrape:furniture": "node ./tools/scrape-gamedata-furniture.mjs",
@@ -39,7 +40,8 @@
     "react-dom": "^19.2.7"
   },
   "devDependencies": {
-    "esbuild": "^0.28.1"
+    "esbuild": "^0.28.1",
+    "sharp": "0.35.3"
   },
   "engines": {
     "node": ">=20"

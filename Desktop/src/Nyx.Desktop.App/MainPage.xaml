@@ -42,13 +42,13 @@
             <Rectangle AutomationProperties.AccessibilityView="Raw">
                 <Rectangle.Fill>
                     <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
-                        <GradientStop Offset="0" Color="#FF08060F" />
+                        <GradientStop Offset="0" Color="#0008060F" />
                         <GradientStop
                             Offset="{Binding SelectedItem.HeroFadeStart, ElementName=GameSelector}"
-                            Color="#EE08060F" />
+                            Color="#3008060F" />
                         <GradientStop
                             Offset="{Binding SelectedItem.HeroFadeMid, ElementName=GameSelector}"
-                            Color="#7008060F" />
+                            Color="#1808060F" />
                         <GradientStop Offset="0.78" Color="#1008060F" />
                         <GradientStop Offset="1" Color="#0008060F" />
                     </LinearGradientBrush>
@@ -108,29 +108,35 @@
                     <Grid.RowDefinitions>
                         <RowDefinition x:Name="RailBrandRow" Height="92" />
                         <RowDefinition x:Name="RailContentRow" Height="*" />
-                        <RowDefinition x:Name="RailFooterRow" Height="20" />
+                        <RowDefinition x:Name="RailAddRow" Height="Auto" />
+                        <RowDefinition x:Name="RailSpacerRow" Height="0" />
+                        <RowDefinition x:Name="RailFooterRow" Height="66" />
                     </Grid.RowDefinitions>
 
-                    <StackPanel
+                    <Button
                         x:Name="BrandLockup"
                         Margin="12,48,12,0"
                         HorizontalAlignment="Center"
-                        IsHitTestVisible="False"
-                        Spacing="3"
-                        AutomationProperties.AccessibilityView="Raw">
-                        <Image
-                            Width="38"
-                            Height="38"
-                            HorizontalAlignment="Center"
-                            Source="ms-appx:///Assets/Iris/nyx-logo.png"
-                            Stretch="Uniform" />
-                        <TextBlock
-                            HorizontalAlignment="Center"
-                            FontFamily="{StaticResource NyxBodyFont}"
-                            FontSize="11"
-                            Foreground="{ThemeResource LavenderBrush}"
-                            Text="PENGO · NYX" />
-                    </StackPanel>
+                        AutomationProperties.Name="Open the Nyx website"
+                        Click="BrandLockup_Click"
+                        Style="{StaticResource NyxBrandButtonStyle}">
+                        <StackPanel Spacing="3">
+                            <Image
+                                Width="38"
+                                Height="38"
+                                HorizontalAlignment="Center"
+                                Source="ms-appx:///Assets/Iris/nyx-logo.png"
+                                Stretch="Uniform" />
+                            <TextBlock
+                                HorizontalAlignment="Center"
+                                FontFamily="{StaticResource NyxBodyFont}"
+                                FontSize="10"
+                                FontWeight="SemiBold"
+                                CharacterSpacing="80"
+                                Foreground="{ThemeResource LavenderBrush}"
+                                Text="NYX" />
+                        </StackPanel>
+                    </Button>
 
                     <ListView
                         x:Name="GameSelector"
@@ -138,7 +144,7 @@
                         Width="132"
                         HorizontalAlignment="Left"
                         VerticalAlignment="Center"
-                        AutomationProperties.Name="Games. Five game choices."
+                        AutomationProperties.Name="Games"
                         ContainerContentChanging="GameSelector_ContainerContentChanging"
                         IsItemClickEnabled="True"
                         ItemContainerStyle="{StaticResource NyxGameItemStyle}"
@@ -183,14 +189,39 @@
                         </ListView.ItemTemplate>
                     </ListView>
 
-                    <TextBlock
-                        x:Name="RailGameCount"
+                    <Button
+                        x:Name="AddGameButton"
                         Grid.Row="2"
+                        Width="108"
+                        Margin="12,8"
                         HorizontalAlignment="Center"
                         VerticalAlignment="Center"
-                        Style="{StaticResource NyxDataTextStyle}"
-                        Text="5 GAMES"
-                        AutomationProperties.AccessibilityView="Raw" />
+                        AutomationProperties.Name="Add a custom game"
+                        Click="AddGameButton_Click"
+                        Style="{StaticResource NyxRailActionStyle}">
+                        <StackPanel HorizontalAlignment="Center" Spacing="2">
+                            <FontIcon FontFamily="Segoe Fluent Icons" FontSize="20" Glyph="&#xE710;" />
+                            <TextBlock x:Name="AddGameLabel" HorizontalAlignment="Center" Text="Add Game" />
+                        </StackPanel>
+                    </Button>
+
+                    <Button
+                        x:Name="KofiButton"
+                        Grid.Row="4"
+                        Width="110"
+                        Height="38"
+                        Margin="10,8,10,12"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Bottom"
+                        AutomationProperties.Name="Support Pengo on Ko-fi"
+                        Click="KofiButton_Click"
+                        Style="{StaticResource NyxBrandButtonStyle}">
+                        <Image
+                            Width="90"
+                            MaxHeight="20"
+                            Source="ms-appx:///Assets/Brand/kofi-logo.png"
+                            Stretch="Uniform" />
+                    </Button>
                 </Grid>
             </Border>
 
@@ -208,13 +239,8 @@
                 VerticalScrollMode="Auto">
                 <StackPanel x:Name="ContentPanel" MaxWidth="620" Spacing="0">
                     <TextBlock
-                        x:Name="GameIndexText"
-                        Style="{StaticResource NyxEyebrowTextStyle}"
-                        Foreground="{ThemeResource IrisBrush}"
-                        Text="GAME 01 / 05" />
-                    <TextBlock
                         x:Name="HeroTitle"
-                        Margin="0,8,0,0"
+                        Margin="0"
                         MaxLines="2"
                         Style="{StaticResource NyxDisplayTextStyle}"
                         Text="{Binding SelectedItem.DisplayName, ElementName=GameSelector}"
@@ -226,7 +252,7 @@
                         Margin="1,4,0,0"
                         FontSize="15"
                         Style="{StaticResource NyxBodyTextStyle}"
-                        Text="Looking for the official Genshin Impact install." />
+                        Text="Official files verified." />
 
                     <Border
                         x:Name="LatestStrip"
@@ -267,45 +293,56 @@
                                 ItemsSource="{x:Bind LatestCards, Mode=OneWay}">
                                 <ItemsControl.ItemTemplate>
                                     <DataTemplate>
-                                        <Border
-                                            Padding="0,8"
-                                            BorderBrush="{ThemeResource HairlineBrush}"
-                                            BorderThickness="0,0,0,1"
-                                            Opacity="{Binding ItemOpacity}">
-                                            <Grid ColumnSpacing="12">
-                                                <Grid.ColumnDefinitions>
-                                                    <ColumnDefinition Width="68" />
-                                                    <ColumnDefinition Width="*" />
-                                                    <ColumnDefinition Width="Auto" />
-                                                </Grid.ColumnDefinitions>
-                                                <TextBlock
-                                                    VerticalAlignment="Center"
-                                                    FontFamily="{StaticResource NyxDataFont}"
-                                                    FontSize="11"
-                                                    FontWeight="SemiBold"
-                                                    Foreground="{ThemeResource LavenderBrush}"
-                                                    CharacterSpacing="70"
-                                                    Text="{Binding TypeLabel}" />
-                                                <TextBlock
-                                                    Grid.Column="1"
-                                                    VerticalAlignment="Center"
-                                                    FontFamily="{StaticResource NyxBodyFont}"
-                                                    FontSize="{Binding TitleSize}"
-                                                    FontWeight="SemiBold"
-                                                    Foreground="{ThemeResource MoonBrush}"
-                                                    MaxLines="2"
-                                                    Text="{Binding Title}"
-                                                    TextTrimming="CharacterEllipsis"
-                                                    TextWrapping="WrapWholeWords" />
-                                                <TextBlock
-                                                    Grid.Column="2"
-                                                    VerticalAlignment="Center"
-                                                    FontFamily="{StaticResource NyxDataFont}"
-                                                    FontSize="11"
-                                                    Foreground="{ThemeResource MistBrush}"
-                                                    Text="{Binding DateLabel}" />
-                                            </Grid>
-                                        </Border>
+                                        <Button
+                                            Padding="0"
+                                            HorizontalContentAlignment="Stretch"
+                                            AutomationProperties.Name="{Binding AccessibilityName}"
+                                            Background="Transparent"
+                                            BorderThickness="0"
+                                            Click="LatestCard_Click"
+                                            CommandParameter="{Binding ApprovedLink}"
+                                            IsEnabled="{Binding IsLinkSafe}"
+                                            UseSystemFocusVisuals="True">
+                                            <Border
+                                                Padding="0,8"
+                                                BorderBrush="{ThemeResource HairlineBrush}"
+                                                BorderThickness="0,0,0,1"
+                                                Opacity="{Binding ItemOpacity}">
+                                                <Grid ColumnSpacing="12">
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition Width="68" />
+                                                        <ColumnDefinition Width="*" />
+                                                        <ColumnDefinition Width="Auto" />
+                                                    </Grid.ColumnDefinitions>
+                                                    <TextBlock
+                                                        VerticalAlignment="Center"
+                                                        FontFamily="{StaticResource NyxDataFont}"
+                                                        FontSize="11"
+                                                        FontWeight="SemiBold"
+                                                        Foreground="{ThemeResource LavenderBrush}"
+                                                        CharacterSpacing="70"
+                                                        Text="{Binding TypeLabel}" />
+                                                    <TextBlock
+                                                        Grid.Column="1"
+                                                        VerticalAlignment="Center"
+                                                        FontFamily="{StaticResource NyxBodyFont}"
+                                                        FontSize="{Binding TitleSize}"
+                                                        FontWeight="SemiBold"
+                                                        Foreground="{ThemeResource MoonBrush}"
+                                                        MaxLines="1"
+                                                        Text="{Binding Title}"
+                                                        TextTrimming="CharacterEllipsis"
+                                                        TextWrapping="NoWrap" />
+                                                    <TextBlock
+                                                        Grid.Column="2"
+                                                        VerticalAlignment="Center"
+                                                        FontFamily="{StaticResource NyxDataFont}"
+                                                        FontSize="11"
+                                                        Foreground="{ThemeResource MistBrush}"
+                                                        Text="{Binding DateLabel}" />
+                                                </Grid>
+                                            </Border>
+                                        </Button>
                                     </DataTemplate>
                                 </ItemsControl.ItemTemplate>
                             </ItemsControl>
@@ -344,25 +381,60 @@
                     <StackPanel
                         x:Name="SignalPanel"
                         Grid.Column="0"
-                        MinWidth="150"
-                        VerticalAlignment="Center"
-                        Spacing="8">
+                        MinWidth="190"
+                        VerticalAlignment="Top"
+                        Spacing="7">
                         <TextBlock
                             Style="{StaticResource NyxEyebrowTextStyle}"
                             Foreground="{ThemeResource IrisBrush}"
-                            Text="LOCAL" />
-                        <StackPanel x:Name="SignalStack" Orientation="Horizontal" Spacing="9">
+                            Text="CURRENT BANNERS" />
+                        <ItemsControl
+                            x:Name="CurrentBannerList"
+                            AutomationProperties.Name="Current character banners"
+                            ItemsSource="{x:Bind CurrentBannerRows, Mode=OneWay}">
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <Grid Margin="0,1" ColumnSpacing="8">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="Auto" />
+                                        </Grid.ColumnDefinitions>
+                                        <TextBlock
+                                            FontFamily="{StaticResource NyxBodyFont}"
+                                            FontSize="12"
+                                            Foreground="{ThemeResource MoonBrush}"
+                                            MaxLines="1"
+                                            Text="{Binding Title}"
+                                            TextTrimming="CharacterEllipsis" />
+                                        <TextBlock
+                                            Grid.Column="1"
+                                            FontFamily="{StaticResource NyxDataFont}"
+                                            FontSize="11"
+                                            Foreground="{ThemeResource MistBrush}"
+                                            Text="{Binding Remaining}" />
+                                    </Grid>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                        <StackPanel x:Name="SignalStack" Orientation="Horizontal" Spacing="7">
+                            <TextBlock
+                                VerticalAlignment="Center"
+                                FontFamily="{StaticResource NyxDataFont}"
+                                FontSize="10"
+                                FontWeight="SemiBold"
+                                Foreground="{ThemeResource IrisBrush}"
+                                Text="LOCAL" />
                             <Ellipse
                                 x:Name="GameSignalDot"
-                                Width="8"
-                                Height="8"
+                                Width="6"
+                                Height="6"
                                 VerticalAlignment="Center"
                                 Fill="{ThemeResource IrisBrush}" />
                             <TextBlock
                                 x:Name="GameSignalText"
                                 VerticalAlignment="Center"
                                 FontFamily="{StaticResource NyxBodyFont}"
-                                FontSize="14"
+                                FontSize="12"
                                 FontWeight="SemiBold"
                                 Foreground="{ThemeResource LavenderBrush}"
                                 Text="Checking…"
@@ -374,7 +446,7 @@
                     <StackPanel
                         x:Name="UpdaterSignalRow"
                         Grid.Column="1"
-                        VerticalAlignment="Center"
+                        VerticalAlignment="Top"
                         Spacing="7">
                         <TextBlock
                             Style="{StaticResource NyxEyebrowTextStyle}"
@@ -436,7 +508,7 @@
                             FontFamily="{StaticResource NyxBodyFont}"
                             FontSize="10"
                             Foreground="{ThemeResource MistBrush}"
-                            Text="Nyx starts games. Official launchers handle downloads, updates, pre-downloads, verification, and repairs."
+                            Text="Nyx launches the game. Updates, repairs and installs happen in the official launcher."
                             TextTrimming="CharacterEllipsis"
                             TextWrapping="Wrap" />
                     </StackPanel>
@@ -444,8 +516,8 @@
                     <Grid
                         x:Name="NyxToolsPanel"
                         Grid.Column="2"
-                        VerticalAlignment="Center"
-                        AutomationProperties.Name="Pengo tools for the selected game">
+                        VerticalAlignment="Top"
+                        AutomationProperties.Name="Nyx exports for the selected game">
                         <Grid.RowDefinitions>
                             <RowDefinition Height="Auto" />
                             <RowDefinition Height="Auto" />
@@ -455,33 +527,62 @@
                             x:Name="PengoToolsLabel"
                             Style="{StaticResource NyxEyebrowTextStyle}"
                             Foreground="{ThemeResource IrisBrush}"
-                            Text="PENGO TOOLS" />
+                            Text="NYX EXPORTS" />
                         <StackPanel
                             x:Name="PengoToolButtons"
                             Grid.Row="1"
                             Margin="0,8,0,0"
                             Orientation="Horizontal"
                             Spacing="8">
-                            <Button
-                                x:Name="OpenPullTrackerButton"
-                                AutomationProperties.Name="Open Pengo pull history for Genshin Impact"
-                                Click="OpenPullTrackerButton_Click"
-                                Style="{StaticResource NyxToolActionStyle}">
-                                <StackPanel HorizontalAlignment="Center" Spacing="1">
-                                    <TextBlock HorizontalAlignment="Center" FontFamily="Segoe UI Symbol" FontSize="17" Text="✦" />
-                                    <TextBlock HorizontalAlignment="Center" Text="PULL HISTORY" />
+                            <ToggleButton
+                                x:Name="PullExportToggle"
+                                AutomationProperties.Name="Export pulls on the next Genshin Impact launch"
+                                Click="ExportToggle_Click"
+                                Style="{StaticResource NyxExportToggleStyle}">
+                                <StackPanel HorizontalAlignment="Center" Orientation="Horizontal" Spacing="6">
+                                    <TextBlock HorizontalAlignment="Center" FontFamily="Segoe UI Symbol" FontSize="16" Text="↗" />
+                                    <TextBlock HorizontalAlignment="Center" Text="PULLS" />
                                 </StackPanel>
-                            </Button>
-                            <Button
-                                x:Name="OpenAchievementsButton"
-                                AutomationProperties.Name="Open Pengo achievements for Genshin Impact"
-                                Click="OpenAchievementsButton_Click"
-                                Style="{StaticResource NyxToolActionStyle}">
-                                <StackPanel HorizontalAlignment="Center" Spacing="1">
-                                    <TextBlock HorizontalAlignment="Center" FontFamily="Segoe UI Symbol" FontSize="17" Text="♢" />
+                            </ToggleButton>
+                            <ToggleButton
+                                x:Name="AchievementExportToggle"
+                                Width="172"
+                                AutomationProperties.Name="Export achievements on the next Genshin Impact launch"
+                                Click="ExportToggle_Click"
+                                Style="{StaticResource NyxExportToggleStyle}">
+                                <StackPanel HorizontalAlignment="Center" Orientation="Horizontal" Spacing="6">
+                                    <TextBlock HorizontalAlignment="Center" FontFamily="Segoe UI Symbol" FontSize="16" Text="◇" />
                                     <TextBlock HorizontalAlignment="Center" Text="ACHIEVEMENTS" />
                                 </StackPanel>
-                            </Button>
+                            </ToggleButton>
+                            <Button
+                                x:Name="ConfirmWorldButton"
+                                AutomationProperties.Name="Confirm that the game world is ready"
+                                Click="ConfirmWorldButton_Click"
+                                Content="I'M IN THE WORLD"
+                                Style="{StaticResource NyxQuietActionStyle}"
+                                Visibility="Collapsed" />
+                            <Button
+                                x:Name="ConfirmHistoryButton"
+                                AutomationProperties.Name="Confirm that pull history is open"
+                                Click="ConfirmHistoryButton_Click"
+                                Content="HISTORY IS OPEN"
+                                Style="{StaticResource NyxQuietActionStyle}"
+                                Visibility="Collapsed" />
+                            <Button
+                                x:Name="CancelExportButton"
+                                AutomationProperties.Name="Cancel the active export"
+                                Click="CancelExportButton_Click"
+                                Content="CANCEL"
+                                Style="{StaticResource NyxQuietActionStyle}"
+                                Visibility="Collapsed" />
+                            <Button
+                                x:Name="OpenExportsButton"
+                                AutomationProperties.Name="Open the fixed Pengo Exports folder"
+                                Click="OpenExportsButton_Click"
+                                Content="OPEN FOLDER"
+                                Style="{StaticResource NyxQuietActionStyle}"
+                                Visibility="Collapsed" />
                         </StackPanel>
                         <TextBlock
                             x:Name="NyxToolsStatusText"
@@ -491,7 +592,7 @@
                             FontSize="10"
                             Foreground="{ThemeResource MistBrush}"
                             MaxLines="1"
-                            Text="Import and extraction choices stay on Pengo. OPENS IN YOUR BROWSER."
+                            Text="Choose what Nyx should export after the next launch."
                             TextTrimming="CharacterEllipsis"
                             TextWrapping="Wrap"
                             AutomationProperties.LiveSetting="Polite" />
@@ -540,20 +641,6 @@
                 </Grid>
             </Border>
 
-            <TextBlock
-                x:Name="FooterDisclaimer"
-                Grid.RowSpan="2"
-                Grid.Column="1"
-                Grid.ColumnSpan="2"
-                Margin="28,0,28,5"
-                HorizontalAlignment="Right"
-                VerticalAlignment="Bottom"
-                FontFamily="{StaticResource NyxBodyFont}"
-                FontSize="9"
-                Foreground="{ThemeResource MistBrush}"
-                Opacity="0.7"
-                Text="Fan-made launcher. Not affiliated with HoYoverse, Kuro Games, or GRYPHLINK."
-                TextTrimming="CharacterEllipsis" />
         </Grid>
     </Grid>
 </Page>

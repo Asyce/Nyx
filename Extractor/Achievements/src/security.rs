@@ -1,6 +1,9 @@
+use std::sync::atomic::{AtomicBool, Ordering};
 use windows::Win32::System::LibraryLoader::{
     LOAD_LIBRARY_SEARCH_SYSTEM32, SetDefaultDllDirectories,
 };
+
+static LAUNCHER_MODE: AtomicBool = AtomicBool::new(false);
 
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
 pub struct DllSearchError;
@@ -17,8 +20,14 @@ pub fn harden_process_dll_search() -> Result<(), DllSearchError> {
 /// Do not reveal panic payloads, source paths, or backtraces to the console.
 pub fn install_safe_panic_hook() {
     std::panic::set_hook(Box::new(|_| {
-        eprintln!("Error: the extractor stopped safely; no diagnostic details were written.");
+        if !LAUNCHER_MODE.load(Ordering::SeqCst) {
+            eprintln!("Error: the extractor stopped safely; no diagnostic details were written.");
+        }
     }));
+}
+
+pub fn set_launcher_mode() {
+    LAUNCHER_MODE.store(true, Ordering::SeqCst);
 }
 
 #[cfg(test)]

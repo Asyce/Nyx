@@ -8,7 +8,22 @@ fn catalog_ids(game: &str, expected_hash: &str, expected_count: usize) -> Vec<u3
     println!("cargo:rerun-if-changed={}", path.display());
     let bytes =
         fs::read(&path).unwrap_or_else(|error| panic!("cannot read {}: {error}", path.display()));
-    let actual_hash = format!("{:x}", Sha256::digest(&bytes));
+    // Git may materialize the reviewed JSON with CRLF on Windows. Pin the
+    // exact repository content while making that one transport-only newline
+    // conversion irrelevant. Bare CR bytes are never accepted.
+    assert!(
+        !bytes
+            .iter()
+            .enumerate()
+            .any(|(index, byte)| { *byte == b'\r' && bytes.get(index + 1) != Some(&b'\n') }),
+        "{} contains a bare carriage return",
+        path.display()
+    );
+    let normalized = bytes
+        .split(|byte| *byte == b'\r')
+        .flat_map(|part| part.iter().copied())
+        .collect::<Vec<_>>();
+    let actual_hash = format!("{:x}", Sha256::digest(&normalized));
     assert_eq!(
         actual_hash,
         expected_hash,
@@ -51,6 +66,8 @@ fn main() {
         // Make the Windows loader apply LOAD_LIBRARY_SEARCH_SYSTEM32 to every
         // direct PE dependency before Rust reaches main().
         println!("cargo:rustc-link-arg-bin=pengo-achievements-live=/DEPENDENTLOADFLAG:0x800");
+        println!("cargo:rustc-link-arg-bin=pengo-achievements-launcher=/DEPENDENTLOADFLAG:0x800");
+        println!("cargo:rustc-link-arg-bin=pengo-achievements-launcher=/Brepro");
 
         // A real embedded manifest makes Windows ignore executable-name
         // `.local` DLL redirection before Rust reaches main(). Keep this next
@@ -60,8 +77,13 @@ fn main() {
                 .join("pengo-achievements-live.manifest");
         println!("cargo:rerun-if-changed={}", manifest.display());
         println!("cargo:rustc-link-arg-bin=pengo-achievements-live=/MANIFEST:EMBED");
+        println!("cargo:rustc-link-arg-bin=pengo-achievements-launcher=/MANIFEST:EMBED");
         println!(
             "cargo:rustc-link-arg-bin=pengo-achievements-live=/MANIFESTINPUT:{}",
+            manifest.display()
+        );
+        println!(
+            "cargo:rustc-link-arg-bin=pengo-achievements-launcher=/MANIFESTINPUT:{}",
             manifest.display()
         );
     }

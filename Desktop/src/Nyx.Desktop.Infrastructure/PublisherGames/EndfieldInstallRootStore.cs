@@ -9,12 +9,40 @@ public sealed class EndfieldInstallRootStore
 {
     internal const string SettingName = "PublisherGames.Endfield.InstallRoot.v1";
     private const int MaximumPathLength = 2048;
-    private readonly IDictionary<string, object> values;
+    private readonly Func<object?> read;
+    private readonly Func<object, bool> write;
+    private readonly Func<object, bool> writeIfEmpty;
+    private readonly Func<bool> remove;
     private readonly object sync = new();
 
     public EndfieldInstallRootStore(IDictionary<string, object> values)
     {
-        this.values = values ?? throw new ArgumentNullException(nameof(values));
+        ArgumentNullException.ThrowIfNull(values);
+        read = () => values.TryGetValue(SettingName, out var value) ? value : null;
+        write = value => { values[SettingName] = value; return true; };
+        writeIfEmpty = value =>
+        {
+            if (values.TryGetValue(SettingName, out var existing)
+                && existing is string path
+                && TryNormalize(path, out _)) return false;
+            values.Remove(SettingName);
+            values[SettingName] = value;
+            return true;
+        };
+        remove = () => values.Remove(SettingName);
+    }
+
+    public EndfieldInstallRootStore(
+        Func<string?> read,
+        Func<string, bool> write,
+        Func<string, bool> writeIfEmpty,
+        Func<bool> remove)
+    {
+        ArgumentNullException.ThrowIfNull(read);
+        this.write = value => write((string)value);
+        this.writeIfEmpty = value => writeIfEmpty((string)value);
+        this.remove = remove ?? throw new ArgumentNullException(nameof(remove));
+        this.read = read;
     }
 
     public string? Load()
@@ -23,8 +51,8 @@ public sealed class EndfieldInstallRootStore
         {
             try
             {
-                if (!values.TryGetValue(SettingName, out var raw)
-                    || raw is not string value
+                var raw = read();
+                if (raw is not string value
                     || !TryNormalize(value, out var root))
                 {
                     ClearCore();
@@ -52,8 +80,7 @@ public sealed class EndfieldInstallRootStore
         {
             try
             {
-                values[SettingName] = root!;
-                return true;
+                return write(root!);
             }
             catch (Exception exception) when (IsSettingsFailure(exception))
             {
@@ -79,16 +106,7 @@ public sealed class EndfieldInstallRootStore
         {
             try
             {
-                if (values.TryGetValue(SettingName, out var raw)
-                    && raw is string existing
-                    && TryNormalize(existing, out _))
-                {
-                    return false;
-                }
-
-                ClearCore();
-                values[SettingName] = root!;
-                return true;
+                return writeIfEmpty(root!);
             }
             catch (Exception exception) when (IsSettingsFailure(exception))
             {
@@ -109,7 +127,7 @@ public sealed class EndfieldInstallRootStore
     {
         try
         {
-            values.Remove(SettingName);
+            remove();
         }
         catch (Exception exception) when (IsSettingsFailure(exception))
         {

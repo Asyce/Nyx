@@ -74,7 +74,6 @@ if ($CheckOnly -and $Restore) {
 $desktopRoot = [System.IO.Path]::GetFullPath((Join-Path $PSScriptRoot '..'))
 $globalJsonPath = Join-Path $desktopRoot 'global.json'
 $projectPath = Join-Path $desktopRoot 'src\Nyx.Desktop.App\Nyx.Desktop.App.csproj'
-$manifestPath = Join-Path $desktopRoot 'src\Nyx.Desktop.App\Package.appxmanifest'
 $assetsPath = Join-Path $desktopRoot 'src\Nyx.Desktop.App\obj\project.assets.json'
 
 if ($PSVersionTable.PSVersion.Major -ge 6 -and -not $IsWindows) {
@@ -90,7 +89,7 @@ if (-not [Environment]::Is64BitOperatingSystem -or
     Stop-NyxStart -Code $script:ExitEnvironment -Message 'Use 64-bit PowerShell on an x64 Windows PC.'
 }
 
-foreach ($requiredPath in @($globalJsonPath, $projectPath, $manifestPath)) {
+foreach ($requiredPath in @($globalJsonPath, $projectPath)) {
     if (-not (Test-Path -LiteralPath $requiredPath -PathType Leaf)) {
         Stop-NyxStart -Code $script:ExitProject -Message 'The Desktop project is incomplete. Keep the scripts inside the Nyx repository.'
     }
@@ -145,38 +144,35 @@ if (-not $hasPinnedSdk) {
 
 try {
     $projectXml = Read-SafeXml -LiteralPath $projectPath
-    $runPackage = @($projectXml.SelectNodes("/*[local-name()='Project']/*[local-name()='ItemGroup']/*[local-name()='PackageReference' and @Include='Microsoft.Windows.SDK.BuildTools.WinApp']"))
-    $disabledRunSupport = @(
-        @($projectXml.SelectNodes("/*[local-name()='Project']/*[local-name()='PropertyGroup']/*[local-name()='EnableWinAppRunSupport']")) |
-            Where-Object { $_.InnerText.Trim().Equals('false', [StringComparison]::OrdinalIgnoreCase) }
-    )
+    $windowsAppSdk = @($projectXml.SelectNodes("/*[local-name()='Project']/*[local-name()='ItemGroup']/*[local-name()='PackageReference' and @Include='Microsoft.WindowsAppSDK']"))
+    $packageTypes = @($projectXml.SelectNodes("/*[local-name()='Project']/*[local-name()='PropertyGroup']/*[local-name()='WindowsPackageType']"))
+    $selfContainedValues = @($projectXml.SelectNodes("/*[local-name()='Project']/*[local-name()='PropertyGroup']/*[local-name()='WindowsAppSDKSelfContained']"))
+    $trimValues = @($projectXml.SelectNodes("/*[local-name()='Project']/*[local-name()='PropertyGroup']/*[local-name()='PublishTrimmed']"))
+    $targetFrameworkValues = @($projectXml.SelectNodes("/*[local-name()='Project']/*[local-name()='PropertyGroup']/*[local-name()='TargetFramework']"))
 }
 catch {
     Stop-NyxStart -Code $script:ExitProject -Message 'The Nyx app project XML is invalid.'
 }
 
-if ($runPackage.Count -ne 1 -or $disabledRunSupport.Count -gt 0) {
-    Stop-NyxStart -Code $script:ExitRunSupport -Message 'Packaged-app run support is missing or disabled. Restore the reviewed project file.'
+if ($windowsAppSdk.Count -ne 1 -or
+    $packageTypes.Count -ne 1 -or -not $packageTypes[0].InnerText.Trim().Equals('None', [StringComparison]::OrdinalIgnoreCase) -or
+    $selfContainedValues.Count -ne 1 -or -not $selfContainedValues[0].InnerText.Trim().Equals('true', [StringComparison]::OrdinalIgnoreCase) -or
+    $trimValues.Count -ne 1 -or -not $trimValues[0].InnerText.Trim().Equals('false', [StringComparison]::OrdinalIgnoreCase) -or
+    $targetFrameworkValues.Count -ne 1) {
+    Stop-NyxStart -Code $script:ExitRunSupport -Message 'The reviewed unpackaged x64 configuration is missing or ambiguous.'
 }
 
-$developerMode = $false
-try {
-    $developerModeValue = Get-ItemPropertyValue -LiteralPath 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModelUnlock' -Name 'AllowDevelopmentWithoutDevLicense' -ErrorAction Stop
-    $developerMode = $developerModeValue -eq 1
-}
-catch {
-    $developerMode = $false
+$targetFramework = $targetFrameworkValues[0].InnerText.Trim()
+if ($targetFramework.Length -gt 80 -or
+    $targetFramework -notmatch '^net[0-9]+\.[0-9]+-windows10\.0\.[0-9]+\.[0-9]+$') {
+    Stop-NyxStart -Code $script:ExitProject -Message 'The reviewed target framework is invalid.'
 }
 
 $isAdministrator = ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole(
     [Security.Principal.WindowsBuiltInRole]::Administrator)
 
 if ($isAdministrator) {
-    Stop-NyxStart -Code $script:ExitRegistration -Message 'Close this administrator window, turn on Windows Developer Mode, and start Nyx normally.'
-}
-
-if (-not $developerMode) {
-    Stop-NyxStart -Code $script:ExitRegistration -Message 'Turn on Windows Developer Mode. Nyx stays a normal-user app and will not ask to elevate itself.'
+    Stop-NyxStart -Code $script:ExitRegistration -Message 'Close this administrator window and start Nyx normally. The launcher itself never needs elevation.'
 }
 
 function Test-RunAssets {
@@ -187,7 +183,10 @@ function Test-RunAssets {
     try {
         $assetsText = Read-BoundedText -LiteralPath $assetsPath -MaximumBytes 52428800
         $assets = $assetsText | ConvertFrom-Json
-        return $null -ne $assets.libraries.'Microsoft.Windows.SDK.BuildTools.WinApp/0.4.0'
+        $libraryNames = @($assets.libraries.PSObject.Properties.Name)
+        return @($libraryNames | Where-Object {
+            $_ -like 'Microsoft.WindowsAppSDK/*'
+        }).Count -eq 1
     }
     catch {
         return $false
@@ -199,7 +198,7 @@ if (-not $assetsReady -and $Restore -and -not $CheckOnly) {
     Write-Host 'Run files are missing. Restoring the reviewed Nyx projects now...'
     Push-Location -LiteralPath $desktopRoot
     try {
-        & $dotnet.Source restore 'Nyx.Desktop.slnx'
+        & $dotnet.Source restore 'src\Nyx.Desktop.App\Nyx.Desktop.App.csproj' -r 'win-x64'
         if ($LASTEXITCODE -ne 0) {
             Stop-NyxStart -Code $script:ExitRestore -Message 'Restore failed. Check your connection and the .NET SDK, then retry.'
         }
@@ -214,57 +213,79 @@ if (-not $assetsReady) {
     Stop-NyxStart -Code $script:ExitRestore -Message 'Restore assets are missing. Run `dotnet restore Desktop\Nyx.Desktop.slnx`, or use -Restore for a real start.'
 }
 
-$runSupportArguments = @(
-    'msbuild',
-    $projectPath,
-    '-t:WinAppRunSupportInfo',
-    '-p:Configuration=Release',
-    '-p:RuntimeIdentifier=win-x64',
-    '-p:Platform=x64',
-    '-nologo',
-    '-v:minimal'
+$outputRoot = Join-Path $desktopRoot "src\Nyx.Desktop.App\bin\x64\Release\$targetFramework\win-x64"
+$executablePath = Join-Path $outputRoot 'Nyx.Desktop.App.exe'
+$requiredOutputPaths = @(
+    $executablePath,
+    (Join-Path $outputRoot 'Nyx.Desktop.App.pri'),
+    (Join-Path $outputRoot 'Microsoft.ui.xaml.dll'),
+    (Join-Path $outputRoot 'Assets\backgroundnyx.png'),
+    (Join-Path $outputRoot 'Assets\Catalog\giicon.png'),
+    (Join-Path $outputRoot 'Assets\Iris\nyx-logo.png'),
+    (Join-Path $outputRoot 'Assets\Brand\kofi-logo.png'),
+    (Join-Path $outputRoot 'Assets\Content\launcher-banners-v1.json')
 )
-try {
-    $runSupportOutput = @(& $dotnet.Source @runSupportArguments 2>&1)
-    $runSupportExitCode = $LASTEXITCODE
-}
-catch {
-    $runSupportOutput = @()
-    $runSupportExitCode = 1
-}
 
-$activeRunSupport = @($runSupportOutput | Where-Object {
-    ([string] $_).Trim().Equals('_WinAppRunSupportActive: true', [StringComparison]::OrdinalIgnoreCase)
-})
-if ($runSupportExitCode -ne 0 -or $activeRunSupport.Count -ne 1) {
-    Stop-NyxStart -Code $script:ExitRunSupport -Message 'The packaged-app run check is inactive. Build the reviewed x64 project, then retry.'
+function Test-UnpackagedOutput {
+    foreach ($path in $requiredOutputPaths) {
+        if (-not (Test-Path -LiteralPath $path -PathType Leaf)) {
+            return $false
+        }
+        $item = Get-Item -LiteralPath $path -ErrorAction Stop
+        if ($item.Length -le 0) {
+            return $false
+        }
+    }
+    return $true
 }
 
 if ($CheckOnly) {
-    Write-Host "Nyx developer start is ready (Windows x64, SDK $pinnedSdk, packaged-app run support)." -ForegroundColor Green
+    if (-not (Test-UnpackagedOutput)) {
+        Stop-NyxStart -Code $script:ExitRunSupport -Message 'The reviewed unpackaged x64 build output is incomplete. Build Nyx, then retry.'
+    }
+    Write-Host "Nyx developer start is ready (Windows x64, SDK $pinnedSdk, unpackaged self-contained app)." -ForegroundColor Green
     exit 0
 }
 
-Write-Host 'Starting Nyx as a normal-user packaged developer app...'
+Write-Host 'Building the reviewed unpackaged x64 Nyx app...'
 Push-Location -LiteralPath $desktopRoot
 try {
-    $runArguments = @(
-        'run',
-        '--project', 'src\Nyx.Desktop.App\Nyx.Desktop.App.csproj',
-        '--configuration', 'Release',
-        '--runtime', 'win-x64',
-        '--property:Platform=x64',
+    $buildArguments = @(
+        'build',
+        'src\Nyx.Desktop.App\Nyx.Desktop.App.csproj',
+        '-c', 'Release',
+        '-r', 'win-x64',
+        '-p:Platform=x64',
         '--no-restore'
     )
-    & $dotnet.Source @runArguments
-    $runExitCode = $LASTEXITCODE
+    & $dotnet.Source @buildArguments
+    $buildExitCode = $LASTEXITCODE
 }
 finally {
     Pop-Location
 }
 
-if ($runExitCode -ne 0) {
-    Stop-NyxStart -Code $script:ExitRun -Message 'Packaged developer start failed. Confirm Developer Mode is on, then run -CheckOnly.'
+if ($buildExitCode -ne 0 -or -not (Test-UnpackagedOutput)) {
+    Stop-NyxStart -Code $script:ExitRun -Message 'The reviewed unpackaged x64 build failed or produced incomplete output.'
+}
+
+Write-Host 'Starting Nyx as a normal-user unpackaged app...'
+try {
+    $startInfo = [System.Diagnostics.ProcessStartInfo]::new()
+    $startInfo.FileName = $executablePath
+    $startInfo.WorkingDirectory = $outputRoot
+    $startInfo.UseShellExecute = $false
+    $process = [System.Diagnostics.Process]::Start($startInfo)
+    if ($null -eq $process) {
+        throw 'The Nyx process was not created.'
+    }
+    Start-Sleep -Milliseconds 750
+    if ($process.HasExited -and $process.ExitCode -ne 0) {
+        throw 'The Nyx process exited during startup.'
+    }
+}
+catch {
+    Stop-NyxStart -Code $script:ExitRun -Message 'The unpackaged Nyx app could not start. Run -CheckOnly, then retry.'
 }
 
 exit 0

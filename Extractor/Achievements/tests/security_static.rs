@@ -6,7 +6,18 @@ fn read(path: impl AsRef<Path>) -> String {
 }
 
 fn hash(path: impl AsRef<Path>) -> String {
-    format!("{:x}", Sha256::digest(fs::read(path).unwrap()))
+    let bytes = fs::read(path).unwrap();
+    assert!(
+        !bytes
+            .iter()
+            .enumerate()
+            .any(|(index, byte)| *byte == b'\r' && bytes.get(index + 1) != Some(&b'\n'))
+    );
+    let normalized = bytes
+        .into_iter()
+        .filter(|byte| *byte != b'\r')
+        .collect::<Vec<_>>();
+    format!("{:x}", Sha256::digest(normalized))
 }
 
 #[test]
@@ -48,6 +59,9 @@ fn application_has_no_forbidden_high_risk_capabilities() {
         read(root.join("src/main.rs")),
         read(root.join("src/capture.rs")),
         read(root.join("src/decoder.rs")),
+        read(root.join("src/launcher.rs")),
+        read(root.join("src/launcher_app.rs")),
+        read(root.join("src/bin/pengo-achievements-launcher.rs")),
         read(root.join("src/npcap.rs")),
         read(root.join("src/output.rs")),
         read(root.join("src/security.rs")),
@@ -135,12 +149,57 @@ fn memory_queue_and_output_location_are_bounded() {
     assert!(realtime.contains("try_send(packet)"));
     assert!(output.contains("SHGetKnownFolderPath"));
     assert!(output.contains("FOLDERID_LocalAppData"));
+    assert!(output.contains("FOLDERID_Downloads"));
+    assert!(output.contains("Pengo Exports"));
     assert!(output.contains("GetDriveTypeW"));
     assert!(output.contains("FILE_ATTRIBUTE_REPARSE_POINT"));
     assert!(output.contains("FILE_SHARE_READ.0 | FILE_SHARE_WRITE.0"));
     assert!(output.contains("FlushFileBuffers"));
     assert!(output.contains("MoveFileExW"));
     assert!(!output.contains("MOVEFILE_REPLACE_EXISTING"));
+}
+
+#[test]
+fn launcher_protocol_is_fixed_redacted_and_noninteractive() {
+    let root = Path::new(env!("CARGO_MANIFEST_DIR"));
+    let cli = read(root.join("src/cli.rs"));
+    let launcher = read(root.join("src/launcher.rs"));
+    let main = read(root.join("src/main.rs"));
+    let launcher_bin = read(root.join("src/bin/pengo-achievements-launcher.rs"));
+    for required in [
+        "achievements",
+        "named-event",
+        "downloads",
+        "fixed",
+        "named-pipe",
+        "JOB_ID_HEX_BYTES",
+    ] {
+        assert!(cli.contains(required));
+    }
+    for forbidden in ["--url", "--provider", "--command"] {
+        assert!(!main.contains(forbidden));
+        assert!(!launcher.contains(forbidden));
+    }
+    for state in [
+        "preparing",
+        "ready",
+        "waiting_for_game",
+        "exported",
+        "failed",
+        "cancelled",
+    ] {
+        assert!(launcher.contains(state));
+    }
+    assert!(launcher.contains("OpenEventW"));
+    assert!(launcher.contains("OpenMutexW"));
+    assert!(launcher.contains("Pengo.Nyx.ExportParent.v1"));
+    assert!(launcher.contains("WaitForSingleObject"));
+    assert!(launcher.contains("capture_invalid_snapshot"));
+    assert!(!launcher.contains("eprintln!"));
+    assert!(!launcher.contains("println!"));
+    assert!(main.contains("security::set_launcher_mode()"));
+    assert!(launcher_bin.contains("windows_subsystem = \"windows\""));
+    assert!(!launcher_bin.contains("print_help"));
 }
 
 #[test]
@@ -159,7 +218,7 @@ fn system_dll_loading_and_cancellation_have_single_safe_owners() {
     assert!(!security.contains("LOAD_LIBRARY_SEARCH_USER_DIRS"));
     assert!(!security.contains("AddDllDirectory"));
     let main_body = main.split_once("fn main() {").unwrap().1.trim_start();
-    assert!(main_body.starts_with("if security::harden_process_dll_search().is_err()"));
+    assert!(main_body.starts_with("let hardening = security::harden_process_dll_search();"));
     let hardening = main.find("harden_process_dll_search()").unwrap();
     let panic_hook = main.find("install_safe_panic_hook()").unwrap();
     let arguments = main.find("cli::parse").unwrap();
@@ -199,12 +258,15 @@ fn release_startup_dependencies_are_hardened_before_main() {
     assert!(cargo_config.contains("target-feature=+crt-static"));
     assert!(build.contains("env::var(\"PROFILE\").as_deref() == Ok(\"release\")"));
     assert!(build.contains("/DEPENDENTLOADFLAG:0x800"));
+    assert!(build.contains("rustc-link-arg-bin=pengo-achievements-launcher"));
+    assert!(build.contains("pengo-achievements-launcher=/Brepro"));
     assert!(build.contains("/MANIFEST:EMBED"));
     assert!(build.contains("/MANIFESTINPUT:"));
     assert!(manifest.contains("Pengo.AchievementExtractor"));
     assert!(manifest.contains("requestedExecutionLevel level=\"asInvoker\""));
     assert!(verifier.contains("dependent_load_flags != 0x800"));
     assert!(verifier.contains("RT_MANIFEST"));
+    assert!(verifier.contains("no-console GUI subsystem"));
     assert!(verifier.contains("forbidden_module == \"vcruntime140.dll\""));
     assert!(verifier.contains("bcryptprimitives.dll"));
 }

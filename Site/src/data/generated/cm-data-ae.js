@@ -623,6 +623,17 @@
       "art": "../../Database/EndfieldWiki/endfield/assets/weapons/detonation-unit/icon.png",
       "items": [
         {
+          "id": "ae:Triphasic_Nanoflake",
+          "name": "Triphasic Nanoflake",
+          "n": "Triphasic Nanoflake",
+          "qty": 16,
+          "rar": 5,
+          "kind": "gem",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+          "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+        },
+        {
           "id": "ae:Cast_Die",
           "name": "Cast Die",
           "n": "Cast Die",
@@ -698,17 +709,6 @@
           "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
           "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
           "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-        },
-        {
-          "id": "ae:Triphasic_Nanoflake",
-          "name": "Triphasic Nanoflake",
-          "n": "Triphasic Nanoflake",
-          "qty": 16,
-          "rar": 5,
-          "kind": "skill",
-          "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-          "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-          "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
         }
       ],
       "tuningStages": [
@@ -829,6 +829,17 @@
         {
           "items": [
             {
+              "id": "ae:Triphasic_Nanoflake",
+              "name": "Triphasic Nanoflake",
+              "n": "Triphasic Nanoflake",
+              "qty": 16,
+              "rar": 5,
+              "kind": "gem",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+              "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+            },
+            {
               "id": "ae:Heavy_Cast_Die",
               "name": "Heavy Cast Die",
               "n": "Heavy Cast Die",
@@ -860,17 +871,6 @@
               "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
               "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
               "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-            },
-            {
-              "id": "ae:Triphasic_Nanoflake",
-              "name": "Triphasic Nanoflake",
-              "n": "Triphasic Nanoflake",
-              "qty": 16,
-              "rar": 5,
-              "kind": "skill",
-              "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-              "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-              "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
             }
           ],
           "cost": 0
@@ -1155,6 +1155,17 @@
       "art": "../../Database/EndfieldWiki/endfield/assets/weapons/flickers-in-the-mist/icon.png",
       "items": [
         {
+          "id": "ae:Triphasic_Nanoflake",
+          "name": "Triphasic Nanoflake",
+          "n": "Triphasic Nanoflake",
+          "qty": 16,
+          "rar": 5,
+          "kind": "gem",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+          "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+        },
+        {
           "id": "ae:Cast_Die",
           "name": "Cast Die",
           "n": "Cast Die",
@@ -1230,17 +1241,272 @@
           "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
           "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
           "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+        }
+      ],
+      "tuningStages": [
+        {
+          "items": [
+            {
+              "id": "ae:Cast_Die",
+              "name": "Cast Die",
+              "n": "Cast Die",
+              "qty": 5,
+              "rar": 3,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Cast_Die"
+            },
+            {
+              "id": "ae:Kalkonyx",
+              "name": "Kalkonyx",
+              "n": "Kalkonyx",
+              "qty": 3,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/kalkonyx.png",
+              "source": "Area found: Hub Base, Rare Mining Sites, Dijiang Production: Growth Chamber, The Hub",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkonyx"
+            },
+            {
+              "id": "ae:T-Creds",
+              "name": "T-Creds",
+              "n": "T-Creds",
+              "qty": 2200,
+              "rar": 4,
+              "kind": "currency",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+              "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+            }
+          ],
+          "cost": 0
         },
         {
-          "id": "ae:Triphasic_Nanoflake",
-          "name": "Triphasic Nanoflake",
-          "n": "Triphasic Nanoflake",
+          "items": [
+            {
+              "id": "ae:Cast_Die",
+              "name": "Cast Die",
+              "n": "Cast Die",
+              "qty": 18,
+              "rar": 3,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Cast_Die"
+            },
+            {
+              "id": "ae:Auronyx",
+              "name": "Auronyx",
+              "n": "Auronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/auronyx.png",
+              "source": "Area found: Originium Science Park, Rare Mining Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Auronyx"
+            },
+            {
+              "id": "ae:T-Creds",
+              "name": "T-Creds",
+              "n": "T-Creds",
+              "qty": 8500,
+              "rar": 4,
+              "kind": "currency",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+              "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+            }
+          ],
+          "cost": 0
+        },
+        {
+          "items": [
+            {
+              "id": "ae:Heavy_Cast_Die",
+              "name": "Heavy Cast Die",
+              "n": "Heavy Cast Die",
+              "qty": 20,
+              "rar": 4,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/heavy-cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Heavy_Cast_Die"
+            },
+            {
+              "id": "ae:Umbronyx",
+              "name": "Umbronyx",
+              "n": "Umbronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/umbronyx.png",
+              "source": "Area found: Power Plateau, Rare Mining Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Umbronyx"
+            },
+            {
+              "id": "ae:T-Creds",
+              "name": "T-Creds",
+              "n": "T-Creds",
+              "qty": 25000,
+              "rar": 4,
+              "kind": "currency",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+              "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+            }
+          ],
+          "cost": 0
+        },
+        {
+          "items": [
+            {
+              "id": "ae:Triphasic_Nanoflake",
+              "name": "Triphasic Nanoflake",
+              "n": "Triphasic Nanoflake",
+              "qty": 16,
+              "rar": 5,
+              "kind": "gem",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+              "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+            },
+            {
+              "id": "ae:Heavy_Cast_Die",
+              "name": "Heavy Cast Die",
+              "n": "Heavy Cast Die",
+              "qty": 30,
+              "rar": 4,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/heavy-cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Heavy_Cast_Die"
+            },
+            {
+              "id": "ae:Wulingstone",
+              "name": "Wulingstone",
+              "n": "Wulingstone",
+              "qty": 8,
+              "rar": 5,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/wulingstone.png",
+              "source": "Rare Mining Sites, Dijiang Production: Growth Chamber, Wuling City",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Wulingstone"
+            },
+            {
+              "id": "ae:T-Creds",
+              "name": "T-Creds",
+              "n": "T-Creds",
+              "qty": 90000,
+              "rar": 4,
+              "kind": "currency",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+              "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+            }
+          ],
+          "cost": 0
+        }
+      ],
+      "cost": 0
+    },
+    {
+      "id": "Junction_Point",
+      "name": "Junction Point",
+      "rarity": 6,
+      "weaponType": "Arts Unit",
+      "type": "Arts Unit",
+      "source": "Reward: Protocol Pass",
+      "icon": "../../Database/EndfieldWiki/endfield/assets/weapons/junction-point/icon.png",
+      "art": "../../Database/EndfieldWiki/endfield/assets/weapons/junction-point/icon.png",
+      "items": [
+        {
+          "id": "ae:Cast_Die",
+          "name": "Cast Die",
+          "n": "Cast Die",
+          "qty": 23,
+          "rar": 3,
+          "kind": "weapon",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/items/cast-die.png",
+          "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Cast_Die"
+        },
+        {
+          "id": "ae:Heavy_Cast_Die",
+          "name": "Heavy Cast Die",
+          "n": "Heavy Cast Die",
+          "qty": 50,
+          "rar": 4,
+          "kind": "weapon",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/items/heavy-cast-die.png",
+          "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Heavy_Cast_Die"
+        },
+        {
+          "id": "ae:Auronyx",
+          "name": "Auronyx",
+          "n": "Auronyx",
+          "qty": 5,
+          "rar": 4,
+          "kind": "specialty",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/items/auronyx.png",
+          "source": "Area found: Originium Science Park, Rare Mining Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Auronyx"
+        },
+        {
+          "id": "ae:Igneosite",
+          "name": "Igneosite",
+          "n": "Igneosite",
+          "qty": 8,
+          "rar": 5,
+          "kind": "specialty",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/items/igneosite.png",
+          "source": "Area found: Wuling Outskirts, Rare Mining Sites, Dijiang Production: Growth Chamber, Wuling City",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Igneosite"
+        },
+        {
+          "id": "ae:Kalkonyx",
+          "name": "Kalkonyx",
+          "n": "Kalkonyx",
+          "qty": 3,
+          "rar": 4,
+          "kind": "specialty",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/items/kalkonyx.png",
+          "source": "Area found: Hub Base, Rare Mining Sites, Dijiang Production: Growth Chamber, The Hub",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkonyx"
+        },
+        {
+          "id": "ae:Umbronyx",
+          "name": "Umbronyx",
+          "n": "Umbronyx",
+          "qty": 5,
+          "rar": 4,
+          "kind": "specialty",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/items/umbronyx.png",
+          "source": "Area found: Power Plateau, Rare Mining Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Umbronyx"
+        },
+        {
+          "id": "ae:D96_Steel_Sample_4",
+          "name": "D96 Steel Sample 4",
+          "n": "D96 Steel Sample 4",
           "qty": 16,
           "rar": 5,
           "kind": "skill",
-          "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-          "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-          "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+          "icon": "../../Database/EndfieldWiki/endfield/assets/items/d96-steel-sample-4.png",
+          "source": "Protocol Space: Hazardous Material Collection Site, Crisis Calamity: Triaggelos (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Cr",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/D96_Steel_Sample_4"
+        },
+        {
+          "id": "ae:T-Creds",
+          "name": "T-Creds",
+          "n": "T-Creds",
+          "qty": 125700,
+          "rar": 4,
+          "kind": "currency",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+          "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
         }
       ],
       "tuningStages": [
@@ -1372,15 +1638,26 @@
               "sourceUrl": "https://endfield.wiki.gg/wiki/Heavy_Cast_Die"
             },
             {
-              "id": "ae:Wulingstone",
-              "name": "Wulingstone",
-              "n": "Wulingstone",
+              "id": "ae:Igneosite",
+              "name": "Igneosite",
+              "n": "Igneosite",
               "qty": 8,
               "rar": 5,
               "kind": "specialty",
-              "icon": "../../Database/EndfieldWiki/endfield/assets/items/wulingstone.png",
-              "source": "Rare Mining Sites, Dijiang Production: Growth Chamber, Wuling City",
-              "sourceUrl": "https://endfield.wiki.gg/wiki/Wulingstone"
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/igneosite.png",
+              "source": "Area found: Wuling Outskirts, Rare Mining Sites, Dijiang Production: Growth Chamber, Wuling City",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Igneosite"
+            },
+            {
+              "id": "ae:D96_Steel_Sample_4",
+              "name": "D96 Steel Sample 4",
+              "n": "D96 Steel Sample 4",
+              "qty": 16,
+              "rar": 5,
+              "kind": "skill",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/d96-steel-sample-4.png",
+              "source": "Protocol Space: Hazardous Material Collection Site, Crisis Calamity: Triaggelos (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Cr",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/D96_Steel_Sample_4"
             },
             {
               "id": "ae:T-Creds",
@@ -1392,17 +1669,6 @@
               "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
               "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
               "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-            },
-            {
-              "id": "ae:Triphasic_Nanoflake",
-              "name": "Triphasic Nanoflake",
-              "n": "Triphasic Nanoflake",
-              "qty": 16,
-              "rar": 5,
-              "kind": "skill",
-              "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-              "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-              "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
             }
           ],
           "cost": 0
@@ -2219,6 +2485,17 @@
       "art": "../../Database/EndfieldWiki/endfield/assets/weapons/exemplar/icon.png",
       "items": [
         {
+          "id": "ae:Triphasic_Nanoflake",
+          "name": "Triphasic Nanoflake",
+          "n": "Triphasic Nanoflake",
+          "qty": 16,
+          "rar": 5,
+          "kind": "gem",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+          "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+        },
+        {
           "id": "ae:Cast_Die",
           "name": "Cast Die",
           "n": "Cast Die",
@@ -2294,17 +2571,6 @@
           "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
           "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
           "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-        },
-        {
-          "id": "ae:Triphasic_Nanoflake",
-          "name": "Triphasic Nanoflake",
-          "n": "Triphasic Nanoflake",
-          "qty": 16,
-          "rar": 5,
-          "kind": "skill",
-          "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-          "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-          "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
         }
       ],
       "tuningStages": [
@@ -2425,6 +2691,17 @@
         {
           "items": [
             {
+              "id": "ae:Triphasic_Nanoflake",
+              "name": "Triphasic Nanoflake",
+              "n": "Triphasic Nanoflake",
+              "qty": 16,
+              "rar": 5,
+              "kind": "gem",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+              "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+            },
+            {
               "id": "ae:Heavy_Cast_Die",
               "name": "Heavy Cast Die",
               "n": "Heavy Cast Die",
@@ -2456,17 +2733,6 @@
               "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
               "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
               "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-            },
-            {
-              "id": "ae:Triphasic_Nanoflake",
-              "name": "Triphasic Nanoflake",
-              "n": "Triphasic Nanoflake",
-              "qty": 16,
-              "rar": 5,
-              "kind": "skill",
-              "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-              "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-              "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
             }
           ],
           "cost": 0
@@ -2751,6 +3017,17 @@
       "art": "../../Database/EndfieldWiki/endfield/assets/weapons/khravengger/icon.png",
       "items": [
         {
+          "id": "ae:Triphasic_Nanoflake",
+          "name": "Triphasic Nanoflake",
+          "n": "Triphasic Nanoflake",
+          "qty": 16,
+          "rar": 5,
+          "kind": "gem",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+          "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+        },
+        {
           "id": "ae:Cast_Die",
           "name": "Cast Die",
           "n": "Cast Die",
@@ -2826,17 +3103,6 @@
           "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
           "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
           "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-        },
-        {
-          "id": "ae:Triphasic_Nanoflake",
-          "name": "Triphasic Nanoflake",
-          "n": "Triphasic Nanoflake",
-          "qty": 16,
-          "rar": 5,
-          "kind": "skill",
-          "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-          "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-          "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
         }
       ],
       "tuningStages": [
@@ -2957,6 +3223,17 @@
         {
           "items": [
             {
+              "id": "ae:Triphasic_Nanoflake",
+              "name": "Triphasic Nanoflake",
+              "n": "Triphasic Nanoflake",
+              "qty": 16,
+              "rar": 5,
+              "kind": "gem",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+              "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+            },
+            {
               "id": "ae:Heavy_Cast_Die",
               "name": "Heavy Cast Die",
               "n": "Heavy Cast Die",
@@ -2988,17 +3265,6 @@
               "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
               "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
               "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-            },
-            {
-              "id": "ae:Triphasic_Nanoflake",
-              "name": "Triphasic Nanoflake",
-              "n": "Triphasic Nanoflake",
-              "qty": 16,
-              "rar": 5,
-              "kind": "skill",
-              "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-              "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-              "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
             }
           ],
           "cost": 0
@@ -5411,6 +5677,17 @@
       "art": "../../Database/EndfieldWiki/endfield/assets/weapons/beacon-of-duty/icon.png",
       "items": [
         {
+          "id": "ae:Triphasic_Nanoflake",
+          "name": "Triphasic Nanoflake",
+          "n": "Triphasic Nanoflake",
+          "qty": 16,
+          "rar": 5,
+          "kind": "gem",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+          "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+        },
+        {
           "id": "ae:Cast_Die",
           "name": "Cast Die",
           "n": "Cast Die",
@@ -5486,17 +5763,6 @@
           "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
           "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
           "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-        },
-        {
-          "id": "ae:Triphasic_Nanoflake",
-          "name": "Triphasic Nanoflake",
-          "n": "Triphasic Nanoflake",
-          "qty": 16,
-          "rar": 5,
-          "kind": "skill",
-          "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-          "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-          "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
         }
       ],
       "tuningStages": [
@@ -5617,6 +5883,17 @@
         {
           "items": [
             {
+              "id": "ae:Triphasic_Nanoflake",
+              "name": "Triphasic Nanoflake",
+              "n": "Triphasic Nanoflake",
+              "qty": 16,
+              "rar": 5,
+              "kind": "gem",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+              "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+            },
+            {
               "id": "ae:Heavy_Cast_Die",
               "name": "Heavy Cast Die",
               "n": "Heavy Cast Die",
@@ -5648,17 +5925,6 @@
               "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
               "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
               "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-            },
-            {
-              "id": "ae:Triphasic_Nanoflake",
-              "name": "Triphasic Nanoflake",
-              "n": "Triphasic Nanoflake",
-              "qty": 16,
-              "rar": 5,
-              "kind": "skill",
-              "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-              "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-              "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
             }
           ],
           "cost": 0
@@ -5914,6 +6180,272 @@
               "icon": "../../Database/EndfieldWiki/endfield/assets/items/d96-steel-sample-4.png",
               "source": "Protocol Space: Hazardous Material Collection Site, Crisis Calamity: Triaggelos (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Cr",
               "sourceUrl": "https://endfield.wiki.gg/wiki/D96_Steel_Sample_4"
+            },
+            {
+              "id": "ae:T-Creds",
+              "name": "T-Creds",
+              "n": "T-Creds",
+              "qty": 90000,
+              "rar": 4,
+              "kind": "currency",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+              "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+            }
+          ],
+          "cost": 0
+        }
+      ],
+      "cost": 0
+    },
+    {
+      "id": "Golden_Age",
+      "name": "Golden Age",
+      "rarity": 6,
+      "weaponType": "Polearm",
+      "type": "Polearm",
+      "source": "Reward: Protocol Pass",
+      "icon": "../../Database/EndfieldWiki/endfield/assets/weapons/golden-age/icon.png",
+      "art": "../../Database/EndfieldWiki/endfield/assets/weapons/golden-age/icon.png",
+      "items": [
+        {
+          "id": "ae:Quadrant_Fitting_Fluid",
+          "name": "Quadrant Fitting Fluid",
+          "n": "Quadrant Fitting Fluid",
+          "qty": 16,
+          "rar": 5,
+          "kind": "gem",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/items/quadrant-fitting-fluid.png",
+          "source": "Protocol Space: Hazardous Material Institute, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Quadrant_Fitting_Fluid"
+        },
+        {
+          "id": "ae:Cast_Die",
+          "name": "Cast Die",
+          "n": "Cast Die",
+          "qty": 23,
+          "rar": 3,
+          "kind": "weapon",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/items/cast-die.png",
+          "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Cast_Die"
+        },
+        {
+          "id": "ae:Heavy_Cast_Die",
+          "name": "Heavy Cast Die",
+          "n": "Heavy Cast Die",
+          "qty": 50,
+          "rar": 4,
+          "kind": "weapon",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/items/heavy-cast-die.png",
+          "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Heavy_Cast_Die"
+        },
+        {
+          "id": "ae:Auronyx",
+          "name": "Auronyx",
+          "n": "Auronyx",
+          "qty": 5,
+          "rar": 4,
+          "kind": "specialty",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/items/auronyx.png",
+          "source": "Area found: Originium Science Park, Rare Mining Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Auronyx"
+        },
+        {
+          "id": "ae:Kalkonyx",
+          "name": "Kalkonyx",
+          "n": "Kalkonyx",
+          "qty": 3,
+          "rar": 4,
+          "kind": "specialty",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/items/kalkonyx.png",
+          "source": "Area found: Hub Base, Rare Mining Sites, Dijiang Production: Growth Chamber, The Hub",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkonyx"
+        },
+        {
+          "id": "ae:Umbronyx",
+          "name": "Umbronyx",
+          "n": "Umbronyx",
+          "qty": 5,
+          "rar": 4,
+          "kind": "specialty",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/items/umbronyx.png",
+          "source": "Area found: Power Plateau, Rare Mining Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Umbronyx"
+        },
+        {
+          "id": "ae:Wulingstone",
+          "name": "Wulingstone",
+          "n": "Wulingstone",
+          "qty": 8,
+          "rar": 5,
+          "kind": "specialty",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/items/wulingstone.png",
+          "source": "Rare Mining Sites, Dijiang Production: Growth Chamber, Wuling City",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Wulingstone"
+        },
+        {
+          "id": "ae:T-Creds",
+          "name": "T-Creds",
+          "n": "T-Creds",
+          "qty": 125700,
+          "rar": 4,
+          "kind": "currency",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+          "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+        }
+      ],
+      "tuningStages": [
+        {
+          "items": [
+            {
+              "id": "ae:Cast_Die",
+              "name": "Cast Die",
+              "n": "Cast Die",
+              "qty": 5,
+              "rar": 3,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Cast_Die"
+            },
+            {
+              "id": "ae:Kalkonyx",
+              "name": "Kalkonyx",
+              "n": "Kalkonyx",
+              "qty": 3,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/kalkonyx.png",
+              "source": "Area found: Hub Base, Rare Mining Sites, Dijiang Production: Growth Chamber, The Hub",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkonyx"
+            },
+            {
+              "id": "ae:T-Creds",
+              "name": "T-Creds",
+              "n": "T-Creds",
+              "qty": 2200,
+              "rar": 4,
+              "kind": "currency",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+              "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+            }
+          ],
+          "cost": 0
+        },
+        {
+          "items": [
+            {
+              "id": "ae:Cast_Die",
+              "name": "Cast Die",
+              "n": "Cast Die",
+              "qty": 18,
+              "rar": 3,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Cast_Die"
+            },
+            {
+              "id": "ae:Auronyx",
+              "name": "Auronyx",
+              "n": "Auronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/auronyx.png",
+              "source": "Area found: Originium Science Park, Rare Mining Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Auronyx"
+            },
+            {
+              "id": "ae:T-Creds",
+              "name": "T-Creds",
+              "n": "T-Creds",
+              "qty": 8500,
+              "rar": 4,
+              "kind": "currency",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+              "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+            }
+          ],
+          "cost": 0
+        },
+        {
+          "items": [
+            {
+              "id": "ae:Heavy_Cast_Die",
+              "name": "Heavy Cast Die",
+              "n": "Heavy Cast Die",
+              "qty": 20,
+              "rar": 4,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/heavy-cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Heavy_Cast_Die"
+            },
+            {
+              "id": "ae:Umbronyx",
+              "name": "Umbronyx",
+              "n": "Umbronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/umbronyx.png",
+              "source": "Area found: Power Plateau, Rare Mining Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Umbronyx"
+            },
+            {
+              "id": "ae:T-Creds",
+              "name": "T-Creds",
+              "n": "T-Creds",
+              "qty": 25000,
+              "rar": 4,
+              "kind": "currency",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+              "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+            }
+          ],
+          "cost": 0
+        },
+        {
+          "items": [
+            {
+              "id": "ae:Quadrant_Fitting_Fluid",
+              "name": "Quadrant Fitting Fluid",
+              "n": "Quadrant Fitting Fluid",
+              "qty": 16,
+              "rar": 5,
+              "kind": "gem",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/quadrant-fitting-fluid.png",
+              "source": "Protocol Space: Hazardous Material Institute, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Quadrant_Fitting_Fluid"
+            },
+            {
+              "id": "ae:Heavy_Cast_Die",
+              "name": "Heavy Cast Die",
+              "n": "Heavy Cast Die",
+              "qty": 30,
+              "rar": 4,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/heavy-cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Heavy_Cast_Die"
+            },
+            {
+              "id": "ae:Wulingstone",
+              "name": "Wulingstone",
+              "n": "Wulingstone",
+              "qty": 8,
+              "rar": 5,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/wulingstone.png",
+              "source": "Rare Mining Sites, Dijiang Production: Growth Chamber, Wuling City",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Wulingstone"
             },
             {
               "id": "ae:T-Creds",
@@ -6997,6 +7529,250 @@
       "cost": 0
     },
     {
+      "id": "Farsight",
+      "name": "Farsight",
+      "rarity": 6,
+      "weaponType": "Sword",
+      "type": "Sword",
+      "source": "Reward: Events",
+      "icon": "../../Database/EndfieldWiki/endfield/assets/weapons/farsight/icon.png",
+      "art": "../../Database/EndfieldWiki/endfield/assets/weapons/farsight/icon.png",
+      "items": [
+        {
+          "id": "ae:Cast_Die",
+          "name": "Cast Die",
+          "n": "Cast Die",
+          "qty": 23,
+          "rar": 3,
+          "kind": "weapon",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/items/cast-die.png",
+          "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Cast_Die"
+        },
+        {
+          "id": "ae:Heavy_Cast_Die",
+          "name": "Heavy Cast Die",
+          "n": "Heavy Cast Die",
+          "qty": 50,
+          "rar": 4,
+          "kind": "weapon",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/items/heavy-cast-die.png",
+          "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Heavy_Cast_Die"
+        },
+        {
+          "id": "ae:Auronyx",
+          "name": "Auronyx",
+          "n": "Auronyx",
+          "qty": 5,
+          "rar": 4,
+          "kind": "specialty",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/items/auronyx.png",
+          "source": "Area found: Originium Science Park, Rare Mining Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Auronyx"
+        },
+        {
+          "id": "ae:Kalkonyx",
+          "name": "Kalkonyx",
+          "n": "Kalkonyx",
+          "qty": 3,
+          "rar": 4,
+          "kind": "specialty",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/items/kalkonyx.png",
+          "source": "Area found: Hub Base, Rare Mining Sites, Dijiang Production: Growth Chamber, The Hub",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkonyx"
+        },
+        {
+          "id": "ae:Umbronyx",
+          "name": "Umbronyx",
+          "n": "Umbronyx",
+          "qty": 5,
+          "rar": 4,
+          "kind": "specialty",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/items/umbronyx.png",
+          "source": "Area found: Power Plateau, Rare Mining Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Umbronyx"
+        },
+        {
+          "id": "ae:T-Creds",
+          "name": "T-Creds",
+          "n": "T-Creds",
+          "qty": 125700,
+          "rar": 4,
+          "kind": "currency",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+          "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+        },
+        {
+          "id": "ae:Tachyon_Screening_Lattice",
+          "name": "Tachyon Screening Lattice",
+          "n": "Tachyon Screening Lattice",
+          "qty": 16,
+          "rar": 5,
+          "kind": "skill",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/items/tachyon-screening-lattice.png",
+          "source": "Protocol Space: Hazardous Material Management Room, Crisis Calamity: Marble Aggelomoirai (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Spa",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Tachyon_Screening_Lattice"
+        }
+      ],
+      "tuningStages": [
+        {
+          "items": [
+            {
+              "id": "ae:Cast_Die",
+              "name": "Cast Die",
+              "n": "Cast Die",
+              "qty": 5,
+              "rar": 3,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Cast_Die"
+            },
+            {
+              "id": "ae:Kalkonyx",
+              "name": "Kalkonyx",
+              "n": "Kalkonyx",
+              "qty": 3,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/kalkonyx.png",
+              "source": "Area found: Hub Base, Rare Mining Sites, Dijiang Production: Growth Chamber, The Hub",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkonyx"
+            },
+            {
+              "id": "ae:T-Creds",
+              "name": "T-Creds",
+              "n": "T-Creds",
+              "qty": 2200,
+              "rar": 4,
+              "kind": "currency",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+              "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+            }
+          ],
+          "cost": 0
+        },
+        {
+          "items": [
+            {
+              "id": "ae:Cast_Die",
+              "name": "Cast Die",
+              "n": "Cast Die",
+              "qty": 18,
+              "rar": 3,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Cast_Die"
+            },
+            {
+              "id": "ae:Auronyx",
+              "name": "Auronyx",
+              "n": "Auronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/auronyx.png",
+              "source": "Area found: Originium Science Park, Rare Mining Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Auronyx"
+            },
+            {
+              "id": "ae:T-Creds",
+              "name": "T-Creds",
+              "n": "T-Creds",
+              "qty": 8500,
+              "rar": 4,
+              "kind": "currency",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+              "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+            }
+          ],
+          "cost": 0
+        },
+        {
+          "items": [
+            {
+              "id": "ae:Heavy_Cast_Die",
+              "name": "Heavy Cast Die",
+              "n": "Heavy Cast Die",
+              "qty": 20,
+              "rar": 4,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/heavy-cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Heavy_Cast_Die"
+            },
+            {
+              "id": "ae:Umbronyx",
+              "name": "Umbronyx",
+              "n": "Umbronyx",
+              "qty": 5,
+              "rar": 4,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/umbronyx.png",
+              "source": "Area found: Power Plateau, Rare Mining Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Umbronyx"
+            },
+            {
+              "id": "ae:T-Creds",
+              "name": "T-Creds",
+              "n": "T-Creds",
+              "qty": 25000,
+              "rar": 4,
+              "kind": "currency",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+              "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+            }
+          ],
+          "cost": 0
+        },
+        {
+          "items": [
+            {
+              "id": "ae:Heavy_Cast_Die",
+              "name": "Heavy Cast Die",
+              "n": "Heavy Cast Die",
+              "qty": 30,
+              "rar": 4,
+              "kind": "weapon",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/heavy-cast-die.png",
+              "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Heavy_Cast_Die"
+            },
+            {
+              "id": "ae:T-Creds",
+              "name": "T-Creds",
+              "n": "T-Creds",
+              "qty": 90000,
+              "rar": 4,
+              "kind": "currency",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+              "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+            },
+            {
+              "id": "ae:Tachyon_Screening_Lattice",
+              "name": "Tachyon Screening Lattice",
+              "n": "Tachyon Screening Lattice",
+              "qty": 16,
+              "rar": 5,
+              "kind": "skill",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/tachyon-screening-lattice.png",
+              "source": "Protocol Space: Hazardous Material Management Room, Crisis Calamity: Marble Aggelomoirai (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Spa",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Tachyon_Screening_Lattice"
+            }
+          ],
+          "cost": 0
+        }
+      ],
+      "cost": 0
+    },
+    {
       "id": "Forgeborn_Scathe",
       "name": "Forgeborn Scathe",
       "rarity": 6,
@@ -7805,6 +8581,17 @@
       "art": "../../Database/EndfieldWiki/endfield/assets/weapons/lupine-scarlet/icon.png",
       "items": [
         {
+          "id": "ae:Triphasic_Nanoflake",
+          "name": "Triphasic Nanoflake",
+          "n": "Triphasic Nanoflake",
+          "qty": 16,
+          "rar": 5,
+          "kind": "gem",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+          "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+        },
+        {
           "id": "ae:Cast_Die",
           "name": "Cast Die",
           "n": "Cast Die",
@@ -7880,17 +8667,6 @@
           "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
           "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
           "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-        },
-        {
-          "id": "ae:Triphasic_Nanoflake",
-          "name": "Triphasic Nanoflake",
-          "n": "Triphasic Nanoflake",
-          "qty": 16,
-          "rar": 5,
-          "kind": "skill",
-          "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-          "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-          "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
         }
       ],
       "tuningStages": [
@@ -8011,6 +8787,17 @@
         {
           "items": [
             {
+              "id": "ae:Triphasic_Nanoflake",
+              "name": "Triphasic Nanoflake",
+              "n": "Triphasic Nanoflake",
+              "qty": 16,
+              "rar": 5,
+              "kind": "gem",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+              "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+            },
+            {
               "id": "ae:Heavy_Cast_Die",
               "name": "Heavy Cast Die",
               "n": "Heavy Cast Die",
@@ -8042,17 +8829,6 @@
               "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
               "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
               "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-            },
-            {
-              "id": "ae:Triphasic_Nanoflake",
-              "name": "Triphasic Nanoflake",
-              "n": "Triphasic Nanoflake",
-              "qty": 16,
-              "rar": 5,
-              "kind": "skill",
-              "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-              "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-              "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
             }
           ],
           "cost": 0
@@ -9667,6 +10443,17 @@
       "art": "../../Database/EndfieldWiki/endfield/assets/weapons/monaihe/icon.png",
       "items": [
         {
+          "id": "ae:Triphasic_Nanoflake",
+          "name": "Triphasic Nanoflake",
+          "n": "Triphasic Nanoflake",
+          "qty": 16,
+          "rar": 5,
+          "kind": "gem",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+          "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+        },
+        {
           "id": "ae:Cast_Die",
           "name": "Cast Die",
           "n": "Cast Die",
@@ -9742,17 +10529,6 @@
           "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
           "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
           "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-        },
-        {
-          "id": "ae:Triphasic_Nanoflake",
-          "name": "Triphasic Nanoflake",
-          "n": "Triphasic Nanoflake",
-          "qty": 16,
-          "rar": 5,
-          "kind": "skill",
-          "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-          "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-          "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
         }
       ],
       "tuningStages": [
@@ -9873,6 +10649,17 @@
         {
           "items": [
             {
+              "id": "ae:Triphasic_Nanoflake",
+              "name": "Triphasic Nanoflake",
+              "n": "Triphasic Nanoflake",
+              "qty": 16,
+              "rar": 5,
+              "kind": "gem",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+              "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+            },
+            {
               "id": "ae:Heavy_Cast_Die",
               "name": "Heavy Cast Die",
               "n": "Heavy Cast Die",
@@ -9904,17 +10691,6 @@
               "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
               "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
               "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-            },
-            {
-              "id": "ae:Triphasic_Nanoflake",
-              "name": "Triphasic Nanoflake",
-              "n": "Triphasic Nanoflake",
-              "qty": 16,
-              "rar": 5,
-              "kind": "skill",
-              "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-              "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-              "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
             }
           ],
           "cost": 0
@@ -10731,6 +11507,17 @@
       "art": "../../Database/EndfieldWiki/endfield/assets/weapons/ancient-canal/icon.png",
       "items": [
         {
+          "id": "ae:Triphasic_Nanoflake",
+          "name": "Triphasic Nanoflake",
+          "n": "Triphasic Nanoflake",
+          "qty": 16,
+          "rar": 5,
+          "kind": "gem",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+          "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+        },
+        {
           "id": "ae:Cast_Die",
           "name": "Cast Die",
           "n": "Cast Die",
@@ -10806,17 +11593,6 @@
           "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
           "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
           "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-        },
-        {
-          "id": "ae:Triphasic_Nanoflake",
-          "name": "Triphasic Nanoflake",
-          "n": "Triphasic Nanoflake",
-          "qty": 16,
-          "rar": 5,
-          "kind": "skill",
-          "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-          "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-          "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
         }
       ],
       "tuningStages": [
@@ -10937,6 +11713,17 @@
         {
           "items": [
             {
+              "id": "ae:Triphasic_Nanoflake",
+              "name": "Triphasic Nanoflake",
+              "n": "Triphasic Nanoflake",
+              "qty": 16,
+              "rar": 5,
+              "kind": "gem",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+              "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+            },
+            {
               "id": "ae:Heavy_Cast_Die",
               "name": "Heavy Cast Die",
               "n": "Heavy Cast Die",
@@ -10968,17 +11755,6 @@
               "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
               "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
               "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-            },
-            {
-              "id": "ae:Triphasic_Nanoflake",
-              "name": "Triphasic Nanoflake",
-              "n": "Triphasic Nanoflake",
-              "qty": 16,
-              "rar": 5,
-              "kind": "skill",
-              "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-              "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-              "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
             }
           ],
           "cost": 0
@@ -11795,6 +12571,17 @@
       "art": "../../Database/EndfieldWiki/endfield/assets/weapons/obj-velocitous/icon.png",
       "items": [
         {
+          "id": "ae:Triphasic_Nanoflake",
+          "name": "Triphasic Nanoflake",
+          "n": "Triphasic Nanoflake",
+          "qty": 16,
+          "rar": 5,
+          "kind": "gem",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+          "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+        },
+        {
           "id": "ae:Cast_Die",
           "name": "Cast Die",
           "n": "Cast Die",
@@ -11870,17 +12657,6 @@
           "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
           "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
           "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-        },
-        {
-          "id": "ae:Triphasic_Nanoflake",
-          "name": "Triphasic Nanoflake",
-          "n": "Triphasic Nanoflake",
-          "qty": 16,
-          "rar": 5,
-          "kind": "skill",
-          "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-          "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-          "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
         }
       ],
       "tuningStages": [
@@ -12001,6 +12777,17 @@
         {
           "items": [
             {
+              "id": "ae:Triphasic_Nanoflake",
+              "name": "Triphasic Nanoflake",
+              "n": "Triphasic Nanoflake",
+              "qty": 16,
+              "rar": 5,
+              "kind": "gem",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+              "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+            },
+            {
               "id": "ae:Heavy_Cast_Die",
               "name": "Heavy Cast Die",
               "n": "Heavy Cast Die",
@@ -12032,17 +12819,6 @@
               "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
               "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
               "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-            },
-            {
-              "id": "ae:Triphasic_Nanoflake",
-              "name": "Triphasic Nanoflake",
-              "n": "Triphasic Nanoflake",
-              "qty": 16,
-              "rar": 5,
-              "kind": "skill",
-              "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-              "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-              "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
             }
           ],
           "cost": 0
@@ -12060,6 +12836,17 @@
       "icon": "../../Database/EndfieldWiki/endfield/assets/weapons/rational-farewell/icon.png",
       "art": "../../Database/EndfieldWiki/endfield/assets/weapons/rational-farewell/icon.png",
       "items": [
+        {
+          "id": "ae:Triphasic_Nanoflake",
+          "name": "Triphasic Nanoflake",
+          "n": "Triphasic Nanoflake",
+          "qty": 16,
+          "rar": 5,
+          "kind": "gem",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+          "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+        },
         {
           "id": "ae:Cast_Die",
           "name": "Cast Die",
@@ -12136,17 +12923,6 @@
           "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
           "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
           "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-        },
-        {
-          "id": "ae:Triphasic_Nanoflake",
-          "name": "Triphasic Nanoflake",
-          "n": "Triphasic Nanoflake",
-          "qty": 16,
-          "rar": 5,
-          "kind": "skill",
-          "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-          "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-          "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
         }
       ],
       "tuningStages": [
@@ -12267,6 +13043,17 @@
         {
           "items": [
             {
+              "id": "ae:Triphasic_Nanoflake",
+              "name": "Triphasic Nanoflake",
+              "n": "Triphasic Nanoflake",
+              "qty": 16,
+              "rar": 5,
+              "kind": "gem",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+              "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+            },
+            {
               "id": "ae:Heavy_Cast_Die",
               "name": "Heavy Cast Die",
               "n": "Heavy Cast Die",
@@ -12298,17 +13085,6 @@
               "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
               "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
               "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-            },
-            {
-              "id": "ae:Triphasic_Nanoflake",
-              "name": "Triphasic Nanoflake",
-              "n": "Triphasic Nanoflake",
-              "qty": 16,
-              "rar": 5,
-              "kind": "skill",
-              "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-              "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-              "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
             }
           ],
           "cost": 0
@@ -14987,6 +15763,17 @@
       "art": "../../Database/EndfieldWiki/endfield/assets/weapons/hypernova-auto/icon.png",
       "items": [
         {
+          "id": "ae:Triphasic_Nanoflake",
+          "name": "Triphasic Nanoflake",
+          "n": "Triphasic Nanoflake",
+          "qty": 16,
+          "rar": 5,
+          "kind": "gem",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+          "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+        },
+        {
           "id": "ae:Cast_Die",
           "name": "Cast Die",
           "n": "Cast Die",
@@ -15062,17 +15849,6 @@
           "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
           "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
           "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-        },
-        {
-          "id": "ae:Triphasic_Nanoflake",
-          "name": "Triphasic Nanoflake",
-          "n": "Triphasic Nanoflake",
-          "qty": 16,
-          "rar": 5,
-          "kind": "skill",
-          "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-          "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-          "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
         }
       ],
       "tuningStages": [
@@ -15193,6 +15969,17 @@
         {
           "items": [
             {
+              "id": "ae:Triphasic_Nanoflake",
+              "name": "Triphasic Nanoflake",
+              "n": "Triphasic Nanoflake",
+              "qty": 16,
+              "rar": 5,
+              "kind": "gem",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+              "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+            },
+            {
               "id": "ae:Heavy_Cast_Die",
               "name": "Heavy Cast Die",
               "n": "Heavy Cast Die",
@@ -15224,17 +16011,6 @@
               "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
               "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
               "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-            },
-            {
-              "id": "ae:Triphasic_Nanoflake",
-              "name": "Triphasic Nanoflake",
-              "n": "Triphasic Nanoflake",
-              "qty": 16,
-              "rar": 5,
-              "kind": "skill",
-              "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-              "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-              "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
             }
           ],
           "cost": 0
@@ -15519,6 +16295,17 @@
       "art": "../../Database/EndfieldWiki/endfield/assets/weapons/quencher/icon.png",
       "items": [
         {
+          "id": "ae:Triphasic_Nanoflake",
+          "name": "Triphasic Nanoflake",
+          "n": "Triphasic Nanoflake",
+          "qty": 16,
+          "rar": 5,
+          "kind": "gem",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+          "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+        },
+        {
           "id": "ae:Cast_Die",
           "name": "Cast Die",
           "n": "Cast Die",
@@ -15594,17 +16381,6 @@
           "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
           "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
           "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-        },
-        {
-          "id": "ae:Triphasic_Nanoflake",
-          "name": "Triphasic Nanoflake",
-          "n": "Triphasic Nanoflake",
-          "qty": 16,
-          "rar": 5,
-          "kind": "skill",
-          "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-          "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-          "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
         }
       ],
       "tuningStages": [
@@ -15725,6 +16501,17 @@
         {
           "items": [
             {
+              "id": "ae:Triphasic_Nanoflake",
+              "name": "Triphasic Nanoflake",
+              "n": "Triphasic Nanoflake",
+              "qty": 16,
+              "rar": 5,
+              "kind": "gem",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+              "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+            },
+            {
               "id": "ae:Heavy_Cast_Die",
               "name": "Heavy Cast Die",
               "n": "Heavy Cast Die",
@@ -15756,17 +16543,6 @@
               "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
               "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
               "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-            },
-            {
-              "id": "ae:Triphasic_Nanoflake",
-              "name": "Triphasic Nanoflake",
-              "n": "Triphasic Nanoflake",
-              "qty": 16,
-              "rar": 5,
-              "kind": "skill",
-              "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-              "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-              "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
             }
           ],
           "cost": 0
@@ -17647,6 +18423,17 @@
       "art": "../../Database/EndfieldWiki/endfield/assets/weapons/darhoff-7/icon.png",
       "items": [
         {
+          "id": "ae:Triphasic_Nanoflake",
+          "name": "Triphasic Nanoflake",
+          "n": "Triphasic Nanoflake",
+          "qty": 16,
+          "rar": 5,
+          "kind": "gem",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+          "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+        },
+        {
           "id": "ae:Cast_Die",
           "name": "Cast Die",
           "n": "Cast Die",
@@ -17722,17 +18509,6 @@
           "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
           "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
           "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-        },
-        {
-          "id": "ae:Triphasic_Nanoflake",
-          "name": "Triphasic Nanoflake",
-          "n": "Triphasic Nanoflake",
-          "qty": 16,
-          "rar": 5,
-          "kind": "skill",
-          "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-          "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-          "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
         }
       ],
       "tuningStages": [
@@ -17853,6 +18629,17 @@
         {
           "items": [
             {
+              "id": "ae:Triphasic_Nanoflake",
+              "name": "Triphasic Nanoflake",
+              "n": "Triphasic Nanoflake",
+              "qty": 16,
+              "rar": 5,
+              "kind": "gem",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+              "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+            },
+            {
               "id": "ae:Heavy_Cast_Die",
               "name": "Heavy Cast Die",
               "n": "Heavy Cast Die",
@@ -17884,17 +18671,6 @@
               "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
               "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
               "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-            },
-            {
-              "id": "ae:Triphasic_Nanoflake",
-              "name": "Triphasic Nanoflake",
-              "n": "Triphasic Nanoflake",
-              "qty": 16,
-              "rar": 5,
-              "kind": "skill",
-              "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-              "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-              "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
             }
           ],
           "cost": 0
@@ -18703,6 +19479,1202 @@
   ],
   "roster": [
     {
+      "id": "ae-arcane",
+      "n": "Arcane",
+      "title": "Caster",
+      "r": 6,
+      "el": "Nature",
+      "cls": "Caster",
+      "w": "Arts Unit",
+      "tag": "Hongshan Academy of Sciences (HAS)",
+      "icon": "../../Database/EndfieldWiki/endfield/assets/operators/arcane/icon.png",
+      "art": "../../Database/EndfieldWiki/endfield/assets/operators/arcane/splash.png",
+      "card": "../../Database/EndfieldWiki/endfield/assets/operators/arcane/banner.png",
+      "baseStats": {},
+      "facts": {
+        "faction": "Hongshan Academy of Sciences (HAS)",
+        "birthday": "July 7"
+      },
+      "kit": {
+        "source": "EndfieldWiki",
+        "channel": "live",
+        "version": "live",
+        "sections": [
+          {
+            "title": "Combat Skills",
+            "entries": [
+              {
+                "name": "Artillery Interdiction",
+                "type": "Combat Skill",
+                "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Nature DMG. As the controlled operator, Final Strike also deals 0 Stagger.\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Nature DMG to nearby enemies.\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Nature DMG and recovers some SP.",
+                "stats": [
+                  {
+                    "label": "BATK SEQ 1 Multiplier",
+                    "value": "42%"
+                  },
+                  {
+                    "label": "BATK SEQ 2 Multiplier",
+                    "value": "48%"
+                  },
+                  {
+                    "label": "BATK SEQ 3 Multiplier",
+                    "value": "75%"
+                  },
+                  {
+                    "label": "BATK SEQ 4 Multiplier",
+                    "value": "80%"
+                  },
+                  {
+                    "label": "BATK SEQ 5 Multiplier",
+                    "value": "106%"
+                  },
+                  {
+                    "label": "Finisher ATK Multiplier",
+                    "value": "900%"
+                  },
+                  {
+                    "label": "Dive ATK Multiplier",
+                    "value": "180%"
+                  }
+                ]
+              },
+              {
+                "name": "Jadecrushing Grid",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Creates a Jadecrushing Grid that deals Nature DMG and applies Nature Infliction to enemies within the area of effect.\nIntellect (N) \u2265 Will (N), Array Arcana: INT is ACTIVE.\nArray Arcana: INT:\n- Deals more DMG.",
+                "stats": [
+                  {
+                    "label": "SP Cost",
+                    "value": "100"
+                  },
+                  {
+                    "label": "DMG Multiplier",
+                    "value": "500%"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "10"
+                  }
+                ]
+              },
+              {
+                "name": "Yinglung Stance IV",
+                "type": "Combat Skill",
+                "desc": "Intellect (N) \u2265 Will (N), Array Arcana: INT is ACTIVE.\n COMBO TRIGGER: When Nature Infliction or at least 2 stacks of Arts Infliction are applied on an enemy.\n SKILL DESCRIPTION: Arcane charges at the target and sets up 4 Tactical Doubles that apply Nature Susceptibility and Cryo Susceptibility and deal Nature DMG to the target and nearby enemies, and also apply Imprisonment on the said target. When Imprisonment ends, the Tactical Doubles will attack the said target to deal Explosion DMG.\nImprisonment: A debuff that slows all actions.\nArray Arcana: INT:\n- Hitting an enemy under Imprisonment with Arcane's battle skill SP Return some SP, ends the Imprisonment early, deals Explosion DMG, applies another instance of Nature Susceptibility and Cryo Susceptibility, and deals multiple hits of bonus DMG after a short delay.\n- Combo skill cooldown is shorter.",
+                "stats": [
+                  {
+                    "label": "Cooldown",
+                    "value": "18"
+                  },
+                  {
+                    "label": "Base DMG Multiplier",
+                    "value": "80%"
+                  },
+                  {
+                    "label": "Base Stagger",
+                    "value": "5"
+                  },
+                  {
+                    "label": "Imprisonment and Susceptibility Duration (s)",
+                    "value": "4"
+                  },
+                  {
+                    "label": "Susceptibility",
+                    "value": "4%"
+                  },
+                  {
+                    "label": "Explosion DMG Multiplier",
+                    "value": "120%"
+                  },
+                  {
+                    "label": "Explosion Stagger",
+                    "value": "5"
+                  },
+                  {
+                    "label": "Bonus DMG Multiplier",
+                    "value": "500%"
+                  },
+                  {
+                    "label": "Bonus Susceptibility Duration (s)",
+                    "value": "2"
+                  },
+                  {
+                    "label": "SP Return",
+                    "value": "30"
+                  },
+                  {
+                    "label": "Ultimate Energy Gain",
+                    "value": "10"
+                  }
+                ]
+              },
+              {
+                "name": "Gloompurge",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Arcane creates a Gloompurger Array that immediately deals Nature DMG to enemies within the area of effect (AOE).\nWhen hitting an enemy within the Gloompurger Array with a Finisher or a Final Strike performed by the controlled operator, the Gloompurger Array unleashes a Cluster Strike that deals Area DMG to the said enemy. This effect triggers up to 2 times.\nAfter triggering Cluster Strike 2 times, the ultimate is switched to Gloompurge Arcana.\nGloompurge Arcana: Deals Nature DMG to enemies within a large AOE.\nIntellect (N) \u2265 Will (N), Array Arcana: INT is ACTIVE.\nArray Arcana: INT:\n- When created, the Gloompurger Array also forcibly applies Corrosion to enemies in the AOE.",
+                "stats": [
+                  {
+                    "label": "Ultimate Energy Cost",
+                    "value": "100"
+                  },
+                  {
+                    "label": "Gloompurger Array Creation DMG Multiplier",
+                    "value": "180%"
+                  },
+                  {
+                    "label": "Gloompurger Array Creation Stagger",
+                    "value": "10"
+                  },
+                  {
+                    "label": "Gloompurger Array Duration (s)",
+                    "value": "20"
+                  },
+                  {
+                    "label": "Forced Corrosion Duration (s)",
+                    "value": "15"
+                  },
+                  {
+                    "label": "Cluster Strike Total DMG Multiplier",
+                    "value": "360%"
+                  },
+                  {
+                    "label": "Gloompurge Arcana DMG Multiplier",
+                    "value": "1440%"
+                  },
+                  {
+                    "label": "Gloompurge Arcana Stagger",
+                    "value": "10"
+                  }
+                ]
+              },
+              {
+                "name": "Artillery Interdiction",
+                "type": "Combat Skill",
+                "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Nature DMG. As the controlled operator, Final Strike also deals 0 Stagger.\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Nature DMG to nearby enemies.\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Nature DMG and recovers some SP.",
+                "stats": [
+                  {
+                    "label": "BATK SEQ 1 Multiplier",
+                    "value": "42%"
+                  },
+                  {
+                    "label": "BATK SEQ 2 Multiplier",
+                    "value": "48%"
+                  },
+                  {
+                    "label": "BATK SEQ 3 Multiplier",
+                    "value": "75%"
+                  },
+                  {
+                    "label": "BATK SEQ 4 Multiplier",
+                    "value": "80%"
+                  },
+                  {
+                    "label": "BATK SEQ 5 Multiplier",
+                    "value": "106%"
+                  },
+                  {
+                    "label": "Finisher ATK Multiplier",
+                    "value": "900%"
+                  },
+                  {
+                    "label": "Dive ATK Multiplier",
+                    "value": "180%"
+                  }
+                ]
+              },
+              {
+                "name": "Jadecrushing Grid",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Creates a Jadecrushing Grid that deals Nature DMG and applies Nature Infliction to enemies within the area of effect.\nWill (N) \uff1e Intellect (N), Array Arcana: WILL is ACTIVE.\nArray Arcana: WILL:\n- When dealing DMG, the array also pulls in enemies within the area of effect.",
+                "stats": [
+                  {
+                    "label": "SP Cost",
+                    "value": "100"
+                  },
+                  {
+                    "label": "DMG Multiplier",
+                    "value": "300%"
+                  },
+                  {
+                    "label": "Stagger",
+                    "value": "10"
+                  }
+                ]
+              },
+              {
+                "name": "Yinglung Stance IV",
+                "type": "Combat Skill",
+                "desc": "Will (N) \uff1e Intellect (N), Array Arcana: WILL is ACTIVE.\n COMBO TRIGGER: When an Arts Infliction is applied on an enemy.\n SKILL DESCRIPTION: Arcane charges at the target and sets up 4 Tactical Doubles that deal Nature DMG and apply another stack of Arts Infliction of the same element, Nature Susceptibility, and Cryo Susceptibility to the target and nearby enemies, and also apply Imprisonment on the said target. When Imprisonment ends, the Tactical Doubles will attack the said target to deal Explosion DMG.\nImprisonment: A debuff that slows all actions.\nArray Arcana: WILL:\n- Applying Imprisonment by casting a combo skill will also slightly pull in enemies near the target.\n- The attribute of Will can further increase the effects of Nature Susceptibility and Cryo Susceptibility applied by the combo skill.",
+                "stats": [
+                  {
+                    "label": "Cooldown",
+                    "value": "18"
+                  },
+                  {
+                    "label": "Base DMG Multiplier",
+                    "value": "80%"
+                  },
+                  {
+                    "label": "Base Stagger",
+                    "value": "5"
+                  },
+                  {
+                    "label": "Imprisonment and Susceptibility Duration (s)",
+                    "value": "6"
+                  },
+                  {
+                    "label": "Base Susceptibility",
+                    "value": "4%"
+                  },
+                  {
+                    "label": "Max Bonus Susceptibility from Will",
+                    "value": "8%"
+                  },
+                  {
+                    "label": "Will Required for Max Bonus Susceptibility",
+                    "value": "640"
+                  },
+                  {
+                    "label": "Explosion DMG Multiplier",
+                    "value": "120%"
+                  },
+                  {
+                    "label": "Explosion Stagger",
+                    "value": "5"
+                  },
+                  {
+                    "label": "Ultimate Energy Gain",
+                    "value": "10"
+                  }
+                ]
+              },
+              {
+                "name": "Gloompurge",
+                "type": "Combat Skill",
+                "desc": "SKILL DESCRIPTION: Arcane creates a Gloompurger Array that immediately deals Nature DMG to enemies within the area of effect (AOE).\nWhen hitting an enemy within the Gloompurger Array with a Finisher or a Final Strike performed by the controlled operator, the Gloompurger Array unleashes a Cluster Strike that deals Area DMG to the said enemy. This effect triggers up to 2 times.\nAfter triggering Cluster Strike 2 times, the ultimate is switched to Gloompurge Arcana.\nGloompurge Arcana: Deals Nature DMG to enemies within a large AOE.\nWill (N) \uff1e Intellect (N), Array Arcana: WILL is ACTIVE.\nArray Arcana: WILL:\n- When created, the Gloompurger Array also targets enemies with Arts Infliction within its AOE, and applies another Arts Infliction stack of the same element to them.",
+                "stats": [
+                  {
+                    "label": "Ultimate Energy Cost",
+                    "value": "100"
+                  },
+                  {
+                    "label": "Gloompurger Array Creation DMG Multiplier",
+                    "value": "180%"
+                  },
+                  {
+                    "label": "Gloompurger Array Creation Stagger",
+                    "value": "10"
+                  },
+                  {
+                    "label": "Gloompurger Array Duration (s)",
+                    "value": "20"
+                  },
+                  {
+                    "label": "Cluster Strike Total DMG Multiplier",
+                    "value": "360%"
+                  },
+                  {
+                    "label": "Gloompurge Arcana DMG Multiplier",
+                    "value": "360%"
+                  },
+                  {
+                    "label": "Gloompurge Arcana Stagger",
+                    "value": "10"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "materialSourceStatus": "sourced",
+      "req": {
+        "ascension": [
+          {
+            "id": "ae:Protodisk",
+            "name": "Protodisk",
+            "n": "Protodisk",
+            "qty": 33,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/protodisk.png",
+            "source": "Protocol Space: Promotions, Acquisition Center: AIC Trading, Exploring and Gathering",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Protodisk"
+          },
+          {
+            "id": "ae:Protoset",
+            "name": "Protoset",
+            "n": "Protoset",
+            "qty": 60,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/protoset.png",
+            "source": "Protocol Space: Promotions, Acquisition Center: AIC Trading, Exploring and Gathering",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Protoset"
+          },
+          {
+            "id": "ae:Triphasic_Nanoflake",
+            "name": "Triphasic Nanoflake",
+            "n": "Triphasic Nanoflake",
+            "qty": 20,
+            "rar": 5,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+            "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+          },
+          {
+            "id": "ae:Pink_Bolete",
+            "name": "Pink Bolete",
+            "n": "Pink Bolete",
+            "qty": 3,
+            "rar": 4,
+            "kind": "specialty",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/pink-bolete.png",
+            "source": "Area found: Hub Base, Rare Gathering Sites, Dijiang Production: Growth Chamber, The Hub",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Pink_Bolete"
+          },
+          {
+            "id": "ae:Red_Bolete",
+            "name": "Red Bolete",
+            "n": "Red Bolete",
+            "qty": 5,
+            "rar": 4,
+            "kind": "specialty",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/red-bolete.png",
+            "source": "Area found: Originium Science Park, Rare Gathering Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Red_Bolete"
+          },
+          {
+            "id": "ae:Ruby_Bolete",
+            "name": "Ruby Bolete",
+            "n": "Ruby Bolete",
+            "qty": 5,
+            "rar": 4,
+            "kind": "specialty",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/ruby-bolete.png",
+            "source": "Area found: Power Plateau, Rare Gathering Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Ruby_Bolete"
+          },
+          {
+            "id": "ae:T-Creds",
+            "name": "T-Creds",
+            "n": "T-Creds",
+            "qty": 126100,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+            "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+          }
+        ],
+        "talents": [
+          {
+            "id": "ae:Triphasic_Nanoflake",
+            "name": "Triphasic Nanoflake",
+            "n": "Triphasic Nanoflake",
+            "qty": 116,
+            "rar": 5,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+            "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+          },
+          {
+            "id": "ae:Chrysodendra",
+            "name": "Chrysodendra",
+            "n": "Chrysodendra",
+            "qty": 16,
+            "rar": 4,
+            "kind": "specialty",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/chrysodendra.png",
+            "source": "Area found: Originium Science Park, Rare Gathering Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Chrysodendra"
+          },
+          {
+            "id": "ae:Kalkodendra",
+            "name": "Kalkodendra",
+            "n": "Kalkodendra",
+            "qty": 12,
+            "rar": 4,
+            "kind": "specialty",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/kalkodendra.png",
+            "source": "Area found: Hub Base, Rare Gathering Sites, Dijiang Production: Growth Chamber, The Hub",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkodendra"
+          },
+          {
+            "id": "ae:Vitrodendra",
+            "name": "Vitrodendra",
+            "n": "Vitrodendra",
+            "qty": 16,
+            "rar": 4,
+            "kind": "specialty",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/vitrodendra.png",
+            "source": "Area found: Power Plateau, Rare Gathering Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Vitrodendra"
+          },
+          {
+            "id": "ae:Protohedron",
+            "name": "Protohedron",
+            "n": "Protohedron",
+            "qty": 570,
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/protohedron.png",
+            "source": "Protocol Space: Skill Up, Acquisition Center: AIC Trading, Exploring and Gathering",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Protohedron"
+          },
+          {
+            "id": "ae:Protoprism",
+            "name": "Protoprism",
+            "n": "Protoprism",
+            "qty": 421,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/protoprism.png",
+            "source": "Protocol Space: Skill Up, Acquisition Center: AIC Trading, Exploring and Gathering",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Protoprism"
+          },
+          {
+            "id": "ae:Mark_of_Perseverance",
+            "name": "Mark of Perseverance",
+            "n": "Mark of Perseverance",
+            "qty": 24,
+            "rar": 5,
+            "kind": "skill",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/mark-of-perseverance.png",
+            "source": "Reward: Protocol Pass, Acquisition Center: Bond Quota Exchange, Reward: Events",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Mark_of_Perseverance"
+          },
+          {
+            "id": "ae:T-Creds",
+            "name": "T-Creds",
+            "n": "T-Creds",
+            "qty": 813500,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+            "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+          },
+          {
+            "id": "ae:Tachyon_Screening_Lattice",
+            "name": "Tachyon Screening Lattice",
+            "n": "Tachyon Screening Lattice",
+            "qty": 116,
+            "rar": 5,
+            "kind": "skill",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/tachyon-screening-lattice.png",
+            "source": "Protocol Space: Hazardous Material Management Room, Crisis Calamity: Marble Aggelomoirai (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Spa",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Tachyon_Screening_Lattice"
+          }
+        ],
+        "promotionStages": [
+          {
+            "items": [
+              {
+                "id": "ae:Protodisk",
+                "name": "Protodisk",
+                "n": "Protodisk",
+                "qty": 8,
+                "rar": 3,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/protodisk.png",
+                "source": "Protocol Space: Promotions, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Protodisk"
+              },
+              {
+                "id": "ae:Pink_Bolete",
+                "name": "Pink Bolete",
+                "n": "Pink Bolete",
+                "qty": 3,
+                "rar": 4,
+                "kind": "specialty",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/pink-bolete.png",
+                "source": "Area found: Hub Base, Rare Gathering Sites, Dijiang Production: Growth Chamber, The Hub",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Pink_Bolete"
+              },
+              {
+                "id": "ae:T-Creds",
+                "name": "T-Creds",
+                "n": "T-Creds",
+                "qty": 1600,
+                "rar": 4,
+                "kind": "currency",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+                "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+              }
+            ],
+            "cost": 0
+          },
+          {
+            "items": [
+              {
+                "id": "ae:Protodisk",
+                "name": "Protodisk",
+                "n": "Protodisk",
+                "qty": 25,
+                "rar": 3,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/protodisk.png",
+                "source": "Protocol Space: Promotions, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Protodisk"
+              },
+              {
+                "id": "ae:Red_Bolete",
+                "name": "Red Bolete",
+                "n": "Red Bolete",
+                "qty": 5,
+                "rar": 4,
+                "kind": "specialty",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/red-bolete.png",
+                "source": "Area found: Originium Science Park, Rare Gathering Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Red_Bolete"
+              },
+              {
+                "id": "ae:T-Creds",
+                "name": "T-Creds",
+                "n": "T-Creds",
+                "qty": 6500,
+                "rar": 4,
+                "kind": "currency",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+                "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+              }
+            ],
+            "cost": 0
+          },
+          {
+            "items": [
+              {
+                "id": "ae:Protoset",
+                "name": "Protoset",
+                "n": "Protoset",
+                "qty": 24,
+                "rar": 4,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/protoset.png",
+                "source": "Protocol Space: Promotions, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Protoset"
+              },
+              {
+                "id": "ae:Ruby_Bolete",
+                "name": "Ruby Bolete",
+                "n": "Ruby Bolete",
+                "qty": 5,
+                "rar": 4,
+                "kind": "specialty",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/ruby-bolete.png",
+                "source": "Area found: Power Plateau, Rare Gathering Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Ruby_Bolete"
+              },
+              {
+                "id": "ae:T-Creds",
+                "name": "T-Creds",
+                "n": "T-Creds",
+                "qty": 18000,
+                "rar": 4,
+                "kind": "currency",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+                "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+              }
+            ],
+            "cost": 0
+          },
+          {
+            "items": [
+              {
+                "id": "ae:Protoset",
+                "name": "Protoset",
+                "n": "Protoset",
+                "qty": 36,
+                "rar": 4,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/protoset.png",
+                "source": "Protocol Space: Promotions, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Protoset"
+              },
+              {
+                "id": "ae:Triphasic_Nanoflake",
+                "name": "Triphasic Nanoflake",
+                "n": "Triphasic Nanoflake",
+                "qty": 20,
+                "rar": 5,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+              },
+              {
+                "id": "ae:T-Creds",
+                "name": "T-Creds",
+                "n": "T-Creds",
+                "qty": 100000,
+                "rar": 4,
+                "kind": "currency",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+                "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+              }
+            ],
+            "cost": 0
+          }
+        ],
+        "skillLevelStages": [
+          {
+            "items": [
+              {
+                "id": "ae:Kalkodendra",
+                "name": "Kalkodendra",
+                "n": "Kalkodendra",
+                "qty": 1,
+                "rar": 4,
+                "kind": "specialty",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/kalkodendra.png",
+                "source": "Area found: Hub Base, Rare Gathering Sites, Dijiang Production: Growth Chamber, The Hub",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkodendra"
+              },
+              {
+                "id": "ae:Protoprism",
+                "name": "Protoprism",
+                "n": "Protoprism",
+                "qty": 6,
+                "rar": 3,
+                "kind": "book",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/protoprism.png",
+                "source": "Protocol Space: Skill Up, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Protoprism"
+              },
+              {
+                "id": "ae:T-Creds",
+                "name": "T-Creds",
+                "n": "T-Creds",
+                "qty": 1000,
+                "rar": 4,
+                "kind": "currency",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+                "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+              }
+            ],
+            "cost": 0
+          },
+          {
+            "items": [
+              {
+                "id": "ae:Kalkodendra",
+                "name": "Kalkodendra",
+                "n": "Kalkodendra",
+                "qty": 2,
+                "rar": 4,
+                "kind": "specialty",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/kalkodendra.png",
+                "source": "Area found: Hub Base, Rare Gathering Sites, Dijiang Production: Growth Chamber, The Hub",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkodendra"
+              },
+              {
+                "id": "ae:Protoprism",
+                "name": "Protoprism",
+                "n": "Protoprism",
+                "qty": 12,
+                "rar": 3,
+                "kind": "book",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/protoprism.png",
+                "source": "Protocol Space: Skill Up, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Protoprism"
+              },
+              {
+                "id": "ae:T-Creds",
+                "name": "T-Creds",
+                "n": "T-Creds",
+                "qty": 2700,
+                "rar": 4,
+                "kind": "currency",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+                "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+              }
+            ],
+            "cost": 0
+          },
+          {
+            "items": [
+              {
+                "id": "ae:Chrysodendra",
+                "name": "Chrysodendra",
+                "n": "Chrysodendra",
+                "qty": 1,
+                "rar": 4,
+                "kind": "specialty",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/chrysodendra.png",
+                "source": "Area found: Originium Science Park, Rare Gathering Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Chrysodendra"
+              },
+              {
+                "id": "ae:Protoprism",
+                "name": "Protoprism",
+                "n": "Protoprism",
+                "qty": 16,
+                "rar": 3,
+                "kind": "book",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/protoprism.png",
+                "source": "Protocol Space: Skill Up, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Protoprism"
+              },
+              {
+                "id": "ae:T-Creds",
+                "name": "T-Creds",
+                "n": "T-Creds",
+                "qty": 3200,
+                "rar": 4,
+                "kind": "currency",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+                "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+              }
+            ],
+            "cost": 0
+          },
+          {
+            "items": [
+              {
+                "id": "ae:Chrysodendra",
+                "name": "Chrysodendra",
+                "n": "Chrysodendra",
+                "qty": 1,
+                "rar": 4,
+                "kind": "specialty",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/chrysodendra.png",
+                "source": "Area found: Originium Science Park, Rare Gathering Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Chrysodendra"
+              },
+              {
+                "id": "ae:Protoprism",
+                "name": "Protoprism",
+                "n": "Protoprism",
+                "qty": 21,
+                "rar": 3,
+                "kind": "book",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/protoprism.png",
+                "source": "Protocol Space: Skill Up, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Protoprism"
+              },
+              {
+                "id": "ae:T-Creds",
+                "name": "T-Creds",
+                "n": "T-Creds",
+                "qty": 4200,
+                "rar": 4,
+                "kind": "currency",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+                "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+              }
+            ],
+            "cost": 0
+          },
+          {
+            "items": [
+              {
+                "id": "ae:Chrysodendra",
+                "name": "Chrysodendra",
+                "n": "Chrysodendra",
+                "qty": 2,
+                "rar": 4,
+                "kind": "specialty",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/chrysodendra.png",
+                "source": "Area found: Originium Science Park, Rare Gathering Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Chrysodendra"
+              },
+              {
+                "id": "ae:Protoprism",
+                "name": "Protoprism",
+                "n": "Protoprism",
+                "qty": 27,
+                "rar": 3,
+                "kind": "book",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/protoprism.png",
+                "source": "Protocol Space: Skill Up, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Protoprism"
+              },
+              {
+                "id": "ae:T-Creds",
+                "name": "T-Creds",
+                "n": "T-Creds",
+                "qty": 5400,
+                "rar": 4,
+                "kind": "currency",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+                "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+              }
+            ],
+            "cost": 0
+          },
+          {
+            "items": [
+              {
+                "id": "ae:Vitrodendra",
+                "name": "Vitrodendra",
+                "n": "Vitrodendra",
+                "qty": 1,
+                "rar": 4,
+                "kind": "specialty",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/vitrodendra.png",
+                "source": "Area found: Power Plateau, Rare Gathering Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Vitrodendra"
+              },
+              {
+                "id": "ae:Protohedron",
+                "name": "Protohedron",
+                "n": "Protohedron",
+                "qty": 6,
+                "rar": 4,
+                "kind": "book",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/protohedron.png",
+                "source": "Protocol Space: Skill Up, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Protohedron"
+              },
+              {
+                "id": "ae:T-Creds",
+                "name": "T-Creds",
+                "n": "T-Creds",
+                "qty": 8200,
+                "rar": 4,
+                "kind": "currency",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+                "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+              }
+            ],
+            "cost": 0
+          },
+          {
+            "items": [
+              {
+                "id": "ae:Vitrodendra",
+                "name": "Vitrodendra",
+                "n": "Vitrodendra",
+                "qty": 1,
+                "rar": 4,
+                "kind": "specialty",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/vitrodendra.png",
+                "source": "Area found: Power Plateau, Rare Gathering Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Vitrodendra"
+              },
+              {
+                "id": "ae:Protohedron",
+                "name": "Protohedron",
+                "n": "Protohedron",
+                "qty": 8,
+                "rar": 4,
+                "kind": "book",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/protohedron.png",
+                "source": "Protocol Space: Skill Up, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Protohedron"
+              },
+              {
+                "id": "ae:T-Creds",
+                "name": "T-Creds",
+                "n": "T-Creds",
+                "qty": 10500,
+                "rar": 4,
+                "kind": "currency",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+                "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+              }
+            ],
+            "cost": 0
+          },
+          {
+            "items": [
+              {
+                "id": "ae:Vitrodendra",
+                "name": "Vitrodendra",
+                "n": "Vitrodendra",
+                "qty": 2,
+                "rar": 4,
+                "kind": "specialty",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/vitrodendra.png",
+                "source": "Area found: Power Plateau, Rare Gathering Sites, Dijiang Production: Growth Chamber, Jingyu Valley",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Vitrodendra"
+              },
+              {
+                "id": "ae:Protohedron",
+                "name": "Protohedron",
+                "n": "Protohedron",
+                "qty": 15,
+                "rar": 4,
+                "kind": "book",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/protohedron.png",
+                "source": "Protocol Space: Skill Up, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Protohedron"
+              },
+              {
+                "id": "ae:T-Creds",
+                "name": "T-Creds",
+                "n": "T-Creds",
+                "qty": 18000,
+                "rar": 4,
+                "kind": "currency",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+                "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+              }
+            ],
+            "cost": 0
+          }
+        ],
+        "skillMasteryStages": [
+          {
+            "items": [
+              {
+                "id": "ae:Triphasic_Nanoflake",
+                "name": "Triphasic Nanoflake",
+                "n": "Triphasic Nanoflake",
+                "qty": 12,
+                "rar": 5,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+              },
+              {
+                "id": "ae:Protohedron",
+                "name": "Protohedron",
+                "n": "Protohedron",
+                "qty": 60,
+                "rar": 4,
+                "kind": "book",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/protohedron.png",
+                "source": "Protocol Space: Skill Up, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Protohedron"
+              },
+              {
+                "id": "ae:Mark_of_Perseverance",
+                "name": "Mark of Perseverance",
+                "n": "Mark of Perseverance",
+                "qty": 4,
+                "rar": 5,
+                "kind": "skill",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/mark-of-perseverance.png",
+                "source": "Reward: Protocol Pass, Acquisition Center: Bond Quota Exchange, Reward: Events",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Mark_of_Perseverance"
+              },
+              {
+                "id": "ae:T-Creds",
+                "name": "T-Creds",
+                "n": "T-Creds",
+                "qty": 96000,
+                "rar": 4,
+                "kind": "currency",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+                "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+              },
+              {
+                "id": "ae:Tachyon_Screening_Lattice",
+                "name": "Tachyon Screening Lattice",
+                "n": "Tachyon Screening Lattice",
+                "qty": 12,
+                "rar": 5,
+                "kind": "skill",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/tachyon-screening-lattice.png",
+                "source": "Protocol Space: Hazardous Material Management Room, Crisis Calamity: Marble Aggelomoirai (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Spa",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Tachyon_Screening_Lattice"
+              }
+            ],
+            "cost": 0
+          },
+          {
+            "items": [
+              {
+                "id": "ae:Triphasic_Nanoflake",
+                "name": "Triphasic Nanoflake",
+                "n": "Triphasic Nanoflake",
+                "qty": 32,
+                "rar": 5,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+              },
+              {
+                "id": "ae:Protohedron",
+                "name": "Protohedron",
+                "n": "Protohedron",
+                "qty": 96,
+                "rar": 4,
+                "kind": "book",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/protohedron.png",
+                "source": "Protocol Space: Skill Up, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Protohedron"
+              },
+              {
+                "id": "ae:Mark_of_Perseverance",
+                "name": "Mark of Perseverance",
+                "n": "Mark of Perseverance",
+                "qty": 8,
+                "rar": 5,
+                "kind": "skill",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/mark-of-perseverance.png",
+                "source": "Reward: Protocol Pass, Acquisition Center: Bond Quota Exchange, Reward: Events",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Mark_of_Perseverance"
+              },
+              {
+                "id": "ae:T-Creds",
+                "name": "T-Creds",
+                "n": "T-Creds",
+                "qty": 120000,
+                "rar": 4,
+                "kind": "currency",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+                "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+              },
+              {
+                "id": "ae:Tachyon_Screening_Lattice",
+                "name": "Tachyon Screening Lattice",
+                "n": "Tachyon Screening Lattice",
+                "qty": 32,
+                "rar": 5,
+                "kind": "skill",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/tachyon-screening-lattice.png",
+                "source": "Protocol Space: Hazardous Material Management Room, Crisis Calamity: Marble Aggelomoirai (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Spa",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Tachyon_Screening_Lattice"
+              }
+            ],
+            "cost": 0
+          },
+          {
+            "items": [
+              {
+                "id": "ae:Triphasic_Nanoflake",
+                "name": "Triphasic Nanoflake",
+                "n": "Triphasic Nanoflake",
+                "qty": 72,
+                "rar": 5,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+              },
+              {
+                "id": "ae:Protohedron",
+                "name": "Protohedron",
+                "n": "Protohedron",
+                "qty": 200,
+                "rar": 4,
+                "kind": "book",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/protohedron.png",
+                "source": "Protocol Space: Skill Up, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Protohedron"
+              },
+              {
+                "id": "ae:Mark_of_Perseverance",
+                "name": "Mark of Perseverance",
+                "n": "Mark of Perseverance",
+                "qty": 12,
+                "rar": 5,
+                "kind": "skill",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/mark-of-perseverance.png",
+                "source": "Reward: Protocol Pass, Acquisition Center: Bond Quota Exchange, Reward: Events",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Mark_of_Perseverance"
+              },
+              {
+                "id": "ae:T-Creds",
+                "name": "T-Creds",
+                "n": "T-Creds",
+                "qty": 260000,
+                "rar": 4,
+                "kind": "currency",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+                "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+              },
+              {
+                "id": "ae:Tachyon_Screening_Lattice",
+                "name": "Tachyon Screening Lattice",
+                "n": "Tachyon Screening Lattice",
+                "qty": 72,
+                "rar": 5,
+                "kind": "skill",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/tachyon-screening-lattice.png",
+                "source": "Protocol Space: Hazardous Material Management Room, Crisis Calamity: Marble Aggelomoirai (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Spa",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Tachyon_Screening_Lattice"
+              }
+            ],
+            "cost": 0
+          }
+        ],
+        "extras": [
+          {
+            "id": "ae:Protohedron",
+            "name": "Protohedron",
+            "n": "Protohedron",
+            "qty": 98,
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/protohedron.png",
+            "source": "Protocol Space: Skill Up, Acquisition Center: AIC Trading, Exploring and Gathering",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Protohedron"
+          },
+          {
+            "id": "ae:Protoprism",
+            "name": "Protoprism",
+            "n": "Protoprism",
+            "qty": 93,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/protoprism.png",
+            "source": "Protocol Space: Skill Up, Acquisition Center: AIC Trading, Exploring and Gathering",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Protoprism"
+          },
+          {
+            "id": "ae:T-Creds",
+            "name": "T-Creds",
+            "n": "T-Creds",
+            "qty": 124700,
+            "rar": 4,
+            "kind": "currency",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
+            "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
+          }
+        ],
+        "ascCost": 0,
+        "talentCost": 0,
+        "currency": 0
+      },
+      "aePreferredItems": [
+        {
+          "id": "weapon:wulingexplorerschoice",
+          "name": "Wuling Explorer's Choice",
+          "n": "Wuling Explorer's Choice",
+          "kind": "weapon",
+          "rar": 4,
+          "source": "Endfield database"
+        }
+      ],
+      "aeSkillItems": [
+        {
+          "id": "weapon:wulingexplorerschoice",
+          "name": "Wuling Explorer's Choice",
+          "n": "Wuling Explorer's Choice",
+          "kind": "weapon",
+          "rar": 4,
+          "source": "Endfield database"
+        }
+      ],
+      "aeStatItems": [],
+      "recent": 1,
+      "recentFallback": 1
+    },
+    {
       "id": "ae-ardelia",
       "n": "Ardelia",
       "title": "Supporter",
@@ -18736,7 +20708,7 @@
               {
                 "name": "Rocky Whispers",
                 "type": "Combat Skill",
-                "desc": "BASIC ATTACK:\nAn attack with up to 4 sequences that deals Nature DMG. As the controlled operator, Final Strike also deals 18 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Nature DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Nature DMG and recovers some SP.",
+                "desc": "BASIC ATTACK:\nAn attack with up to 4 sequences that deals Nature DMG. As the controlled operator, Final Strike also deals 18 Stagger.\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Nature DMG to nearby enemies.\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Nature DMG and recovers some SP.",
                 "stats": [
                   {
                     "label": "BATK SEQ 1 Multiplier",
@@ -18858,6 +20830,7 @@
       },
       "signatureWeaponId": "Dreams_of_the_Starry_Beach",
       "signatureWeaponName": "Dreams of the Starry Beach",
+      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -19962,7 +21935,7 @@
               {
                 "name": "Sanguine Absolution",
                 "type": "Combat Skill",
-                "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Heat DMG. As the controlled operator, Final Strike also deals 18 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Heat DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Heat DMG and recovers some SP.",
+                "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Heat DMG. As the controlled operator, Final Strike also deals 18 Stagger.\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Heat DMG to nearby enemies.\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Heat DMG and recovers some SP.",
                 "stats": [
                   {
                     "label": "BATK SEQ 1 Multiplier",
@@ -20012,7 +21985,7 @@
                     "value": "10"
                   },
                   {
-                    "label": "Firefang Vesperwing Duration (s)",
+                    "label": "Firefang Vesperwings Duration (s)",
                     "value": "45"
                   },
                   {
@@ -20108,6 +22081,7 @@
       },
       "signatureWeaponId": "Blessing_of_Lustrous_Carmine",
       "signatureWeaponName": "Blessing of Lustrous Carmine",
+      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -21212,7 +23186,7 @@
               {
                 "name": "Sword Art of Assault",
                 "type": "Combat Skill",
-                "desc": "BASIC ATTACK:\nAn attack with up to 4 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 25 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Physical DMG and recovers some SP.",
+                "desc": "BASIC ATTACK:\nAn attack with up to 4 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 25 Stagger.\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Physical DMG and recovers some SP.",
                 "stats": [
                   {
                     "label": "BATK SEQ 1 Multiplier",
@@ -21334,6 +23308,7 @@
       },
       "signatureWeaponId": "Thunderberge",
       "signatureWeaponName": "Thunderberge",
+      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -22470,7 +24445,7 @@
               {
                 "name": "Destructive Sequence",
                 "type": "Combat Skill",
-                "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 18 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
+                "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 18 Stagger.\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
                 "stats": [
                   {
                     "label": "BATK SEQ 1 Multiplier",
@@ -22598,6 +24573,7 @@
       },
       "signatureWeaponId": "Grand_Vision",
       "signatureWeaponName": "Grand Vision",
+      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -23743,7 +25719,7 @@
                   {
                     "name": "Destructive Sequence",
                     "type": "Combat Skill",
-                    "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 18 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
+                    "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 18 Stagger.\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
                     "stats": [
                       {
                         "label": "BATK SEQ 1 Multiplier",
@@ -23871,6 +25847,7 @@
           },
           "signatureWeaponId": "Grand_Vision",
           "signatureWeaponName": "Grand Vision",
+          "materialSourceStatus": "sourced",
           "req": {
             "ascension": [
               {
@@ -25015,7 +26992,7 @@
                   {
                     "name": "Destructive Sequence",
                     "type": "Combat Skill",
-                    "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 18 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
+                    "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 18 Stagger.\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
                     "stats": [
                       {
                         "label": "BATK SEQ 1 Multiplier",
@@ -25143,6 +27120,7 @@
           },
           "signatureWeaponId": "Grand_Vision",
           "signatureWeaponName": "Grand Vision",
+          "materialSourceStatus": "sourced",
           "req": {
             "ascension": [
               {
@@ -26290,7 +28268,7 @@
               {
                 "name": "Arcane Staff: Beam Cohesion Arts",
                 "type": "Combat Skill",
-                "desc": "BASIC ATTACK:\nAn attack with up to 4 sequences that deals Nature DMG. As the controlled operator, Final Strike also deals 16 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Nature DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Nature DMG and recovers some SP.",
+                "desc": "BASIC ATTACK:\nAn attack with up to 4 sequences that deals Nature DMG. As the controlled operator, Final Strike also deals 16 Stagger.\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Nature DMG to nearby enemies.\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Nature DMG and recovers some SP.",
                 "stats": [
                   {
                     "label": "BATK SEQ 1 Multiplier",
@@ -26412,6 +28390,7 @@
       },
       "signatureWeaponId": "Delivery_Guaranteed",
       "signatureWeaponName": "Delivery Guaranteed",
+      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -26516,6 +28495,17 @@
             "sourceUrl": "https://endfield.wiki.gg/wiki/Quadrant_Fitting_Fluid"
           },
           {
+            "id": "ae:Triphasic_Nanoflake",
+            "name": "Triphasic Nanoflake",
+            "n": "Triphasic Nanoflake",
+            "qty": 116,
+            "rar": 5,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+            "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+          },
+          {
             "id": "ae:Chrysodendra",
             "name": "Chrysodendra",
             "n": "Chrysodendra",
@@ -26602,17 +28592,6 @@
             "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
             "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
             "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-          },
-          {
-            "id": "ae:Triphasic_Nanoflake",
-            "name": "Triphasic Nanoflake",
-            "n": "Triphasic Nanoflake",
-            "qty": 116,
-            "rar": 5,
-            "kind": "skill",
-            "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-            "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-            "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
           }
         ],
         "promotionStages": [
@@ -27101,6 +29080,17 @@
                 "sourceUrl": "https://endfield.wiki.gg/wiki/Quadrant_Fitting_Fluid"
               },
               {
+                "id": "ae:Triphasic_Nanoflake",
+                "name": "Triphasic Nanoflake",
+                "n": "Triphasic Nanoflake",
+                "qty": 12,
+                "rar": 5,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+              },
+              {
                 "id": "ae:False_Aggela",
                 "name": "False Aggela",
                 "n": "False Aggela",
@@ -27143,17 +29133,6 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
                 "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-              },
-              {
-                "id": "ae:Triphasic_Nanoflake",
-                "name": "Triphasic Nanoflake",
-                "n": "Triphasic Nanoflake",
-                "qty": 12,
-                "rar": 5,
-                "kind": "skill",
-                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               }
             ],
             "cost": 0
@@ -27170,6 +29149,17 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/quadrant-fitting-fluid.png",
                 "source": "Protocol Space: Hazardous Material Institute, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/Quadrant_Fitting_Fluid"
+              },
+              {
+                "id": "ae:Triphasic_Nanoflake",
+                "name": "Triphasic Nanoflake",
+                "n": "Triphasic Nanoflake",
+                "qty": 32,
+                "rar": 5,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               },
               {
                 "id": "ae:False_Aggela",
@@ -27214,17 +29204,6 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
                 "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-              },
-              {
-                "id": "ae:Triphasic_Nanoflake",
-                "name": "Triphasic Nanoflake",
-                "n": "Triphasic Nanoflake",
-                "qty": 32,
-                "rar": 5,
-                "kind": "skill",
-                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               }
             ],
             "cost": 0
@@ -27241,6 +29220,17 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/quadrant-fitting-fluid.png",
                 "source": "Protocol Space: Hazardous Material Institute, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/Quadrant_Fitting_Fluid"
+              },
+              {
+                "id": "ae:Triphasic_Nanoflake",
+                "name": "Triphasic Nanoflake",
+                "n": "Triphasic Nanoflake",
+                "qty": 72,
+                "rar": 5,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               },
               {
                 "id": "ae:False_Aggela",
@@ -27285,17 +29275,6 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
                 "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-              },
-              {
-                "id": "ae:Triphasic_Nanoflake",
-                "name": "Triphasic Nanoflake",
-                "n": "Triphasic Nanoflake",
-                "qty": 72,
-                "rar": 5,
-                "kind": "skill",
-                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               }
             ],
             "cost": 0
@@ -27537,7 +29516,7 @@
               {
                 "name": "Flaming Cinders",
                 "type": "Combat Skill",
-                "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Heat DMG. As the controlled operator, Final Strike also deals 18 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Heat DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Heat DMG and recovers some SP.",
+                "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Heat DMG. As the controlled operator, Final Strike also deals 18 Stagger.\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Heat DMG to nearby enemies.\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Heat DMG and recovers some SP.",
                 "stats": [
                   {
                     "label": "BATK SEQ 1 Multiplier",
@@ -27711,6 +29690,7 @@
       },
       "signatureWeaponId": "Forgeborn_Scathe",
       "signatureWeaponName": "Forgeborn Scathe",
+      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -27815,6 +29795,17 @@
             "sourceUrl": "https://endfield.wiki.gg/wiki/Metadiastima_Photoemission_Tube"
           },
           {
+            "id": "ae:Triphasic_Nanoflake",
+            "name": "Triphasic Nanoflake",
+            "n": "Triphasic Nanoflake",
+            "qty": 116,
+            "rar": 5,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+            "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+          },
+          {
             "id": "ae:Blighted_Jadeleaf",
             "name": "Blighted Jadeleaf",
             "n": "Blighted Jadeleaf",
@@ -27901,17 +29892,6 @@
             "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
             "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
             "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-          },
-          {
-            "id": "ae:Triphasic_Nanoflake",
-            "name": "Triphasic Nanoflake",
-            "n": "Triphasic Nanoflake",
-            "qty": 116,
-            "rar": 5,
-            "kind": "skill",
-            "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-            "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-            "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
           }
         ],
         "promotionStages": [
@@ -28400,6 +30380,17 @@
                 "sourceUrl": "https://endfield.wiki.gg/wiki/Metadiastima_Photoemission_Tube"
               },
               {
+                "id": "ae:Triphasic_Nanoflake",
+                "name": "Triphasic Nanoflake",
+                "n": "Triphasic Nanoflake",
+                "qty": 12,
+                "rar": 5,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+              },
+              {
                 "id": "ae:Blighted_Jadeleaf",
                 "name": "Blighted Jadeleaf",
                 "n": "Blighted Jadeleaf",
@@ -28442,17 +30433,6 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
                 "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-              },
-              {
-                "id": "ae:Triphasic_Nanoflake",
-                "name": "Triphasic Nanoflake",
-                "n": "Triphasic Nanoflake",
-                "qty": 12,
-                "rar": 5,
-                "kind": "skill",
-                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               }
             ],
             "cost": 0
@@ -28469,6 +30449,17 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/metadiastima-photoemission-tube.png",
                 "source": "Protocol Space: Hazardous Material Landfill, Crisis Pandemonium: Rhodagn (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (D",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/Metadiastima_Photoemission_Tube"
+              },
+              {
+                "id": "ae:Triphasic_Nanoflake",
+                "name": "Triphasic Nanoflake",
+                "n": "Triphasic Nanoflake",
+                "qty": 32,
+                "rar": 5,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               },
               {
                 "id": "ae:Blighted_Jadeleaf",
@@ -28513,17 +30504,6 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
                 "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-              },
-              {
-                "id": "ae:Triphasic_Nanoflake",
-                "name": "Triphasic Nanoflake",
-                "n": "Triphasic Nanoflake",
-                "qty": 32,
-                "rar": 5,
-                "kind": "skill",
-                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               }
             ],
             "cost": 0
@@ -28540,6 +30520,17 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/metadiastima-photoemission-tube.png",
                 "source": "Protocol Space: Hazardous Material Landfill, Crisis Pandemonium: Rhodagn (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (D",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/Metadiastima_Photoemission_Tube"
+              },
+              {
+                "id": "ae:Triphasic_Nanoflake",
+                "name": "Triphasic Nanoflake",
+                "n": "Triphasic Nanoflake",
+                "qty": 72,
+                "rar": 5,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               },
               {
                 "id": "ae:Blighted_Jadeleaf",
@@ -28584,17 +30575,6 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
                 "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-              },
-              {
-                "id": "ae:Triphasic_Nanoflake",
-                "name": "Triphasic Nanoflake",
-                "n": "Triphasic Nanoflake",
-                "qty": 72,
-                "rar": 5,
-                "kind": "skill",
-                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               }
             ],
             "cost": 0
@@ -28837,7 +30817,7 @@
               {
                 "name": "Dance of Rime",
                 "type": "Combat Skill",
-                "desc": "BASIC ATTACK:\nAn attack with up to 4 sequences that deals Cryo DMG. As the controlled operator, Final Strike also deals 25 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Cryo DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Cryo DMG and recovers some SP.",
+                "desc": "BASIC ATTACK:\nAn attack with up to 4 sequences that deals Cryo DMG. As the controlled operator, Final Strike also deals 25 Stagger.\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Cryo DMG to nearby enemies.\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Cryo DMG and recovers some SP.",
                 "stats": [
                   {
                     "label": "BATK SEQ 1 Multiplier",
@@ -28975,6 +30955,7 @@
       },
       "signatureWeaponId": "Khravengger",
       "signatureWeaponName": "Khravengger",
+      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -28998,6 +30979,17 @@
             "icon": "../../Database/EndfieldWiki/endfield/assets/items/protoset.png",
             "source": "Protocol Space: Promotions, Acquisition Center: AIC Trading, Exploring and Gathering",
             "sourceUrl": "https://endfield.wiki.gg/wiki/Protoset"
+          },
+          {
+            "id": "ae:Triphasic_Nanoflake",
+            "name": "Triphasic Nanoflake",
+            "n": "Triphasic Nanoflake",
+            "qty": 20,
+            "rar": 5,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+            "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
           },
           {
             "id": "ae:Bloodcap",
@@ -29053,17 +31045,6 @@
             "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
             "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
             "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-          },
-          {
-            "id": "ae:Triphasic_Nanoflake",
-            "name": "Triphasic Nanoflake",
-            "n": "Triphasic Nanoflake",
-            "qty": 20,
-            "rar": 5,
-            "kind": "skill",
-            "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-            "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-            "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
           }
         ],
         "talents": [
@@ -29307,6 +31288,17 @@
                 "sourceUrl": "https://endfield.wiki.gg/wiki/Protoset"
               },
               {
+                "id": "ae:Triphasic_Nanoflake",
+                "name": "Triphasic Nanoflake",
+                "n": "Triphasic Nanoflake",
+                "qty": 20,
+                "rar": 5,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+              },
+              {
                 "id": "ae:Bloodcap",
                 "name": "Bloodcap",
                 "n": "Bloodcap",
@@ -29327,17 +31319,6 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
                 "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-              },
-              {
-                "id": "ae:Triphasic_Nanoflake",
-                "name": "Triphasic Nanoflake",
-                "n": "Triphasic Nanoflake",
-                "qty": 20,
-                "rar": 5,
-                "kind": "skill",
-                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               }
             ],
             "cost": 0
@@ -29912,6 +31893,17 @@
           "type": "Great Sword",
           "items": [
             {
+              "id": "ae:Triphasic_Nanoflake",
+              "name": "Triphasic Nanoflake",
+              "n": "Triphasic Nanoflake",
+              "qty": 16,
+              "rar": 5,
+              "kind": "gem",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+              "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+            },
+            {
               "id": "ae:Cast_Die",
               "name": "Cast Die",
               "n": "Cast Die",
@@ -29987,17 +31979,6 @@
               "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
               "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
               "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-            },
-            {
-              "id": "ae:Triphasic_Nanoflake",
-              "name": "Triphasic Nanoflake",
-              "n": "Triphasic Nanoflake",
-              "qty": 16,
-              "rar": 5,
-              "kind": "skill",
-              "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-              "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-              "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
             }
           ],
           "cost": 0,
@@ -30112,7 +32093,7 @@
               {
                 "name": "Ruination",
                 "type": "Combat Skill",
-                "desc": "BASIC ATTACK:\nAn attack with up to 4 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 19 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Physical DMG and recovers some SP.",
+                "desc": "BASIC ATTACK:\nAn attack with up to 4 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 19 Stagger.\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Physical DMG and recovers some SP.",
                 "stats": [
                   {
                     "label": "BATK SEQ 1 Multiplier",
@@ -30143,7 +32124,7 @@
               {
                 "name": "Turbid Avatar",
                 "type": "Contrary to the in-game text, Lifeng will apply both Knock Down and Physical Sus",
-                "desc": "SKILL DESCRIPTION: Swings the polearm multiple times to deal 2 hits of Physical DMG, then slams the ground to deal Physical DMG and Knock Down to all enemies in the area of effect.\nIf the enemy struck by the last hit of this skill has no Vulnerable stacks, apply Physical Susceptibility to the said enemy instead.",
+                "desc": "SKILL DESCRIPTION: Swings the polearm multiple times to deal 2 hits of Physical DMG, then slams the ground to deal Physical DMG and Knock Down to all enemies in the area of effect.\nIf the enemy struck by the last hit of this skill has no Vulnerable stacks, apply Physical Susceptibility to the said enemy as well.",
                 "stats": [
                   {
                     "label": "SP Cost",
@@ -30254,6 +32235,7 @@
       },
       "signatureWeaponId": "Mountain_Bearer",
       "signatureWeaponName": "Mountain Bearer",
+      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -30358,6 +32340,17 @@
             "sourceUrl": "https://endfield.wiki.gg/wiki/Quadrant_Fitting_Fluid"
           },
           {
+            "id": "ae:Triphasic_Nanoflake",
+            "name": "Triphasic Nanoflake",
+            "n": "Triphasic Nanoflake",
+            "qty": 116,
+            "rar": 5,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+            "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+          },
+          {
             "id": "ae:Blighted_Jadeleaf",
             "name": "Blighted Jadeleaf",
             "n": "Blighted Jadeleaf",
@@ -30444,17 +32437,6 @@
             "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
             "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
             "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-          },
-          {
-            "id": "ae:Triphasic_Nanoflake",
-            "name": "Triphasic Nanoflake",
-            "n": "Triphasic Nanoflake",
-            "qty": 116,
-            "rar": 5,
-            "kind": "skill",
-            "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-            "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-            "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
           }
         ],
         "promotionStages": [
@@ -30943,6 +32925,17 @@
                 "sourceUrl": "https://endfield.wiki.gg/wiki/Quadrant_Fitting_Fluid"
               },
               {
+                "id": "ae:Triphasic_Nanoflake",
+                "name": "Triphasic Nanoflake",
+                "n": "Triphasic Nanoflake",
+                "qty": 12,
+                "rar": 5,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+              },
+              {
                 "id": "ae:Blighted_Jadeleaf",
                 "name": "Blighted Jadeleaf",
                 "n": "Blighted Jadeleaf",
@@ -30985,17 +32978,6 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
                 "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-              },
-              {
-                "id": "ae:Triphasic_Nanoflake",
-                "name": "Triphasic Nanoflake",
-                "n": "Triphasic Nanoflake",
-                "qty": 12,
-                "rar": 5,
-                "kind": "skill",
-                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               }
             ],
             "cost": 0
@@ -31012,6 +32994,17 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/quadrant-fitting-fluid.png",
                 "source": "Protocol Space: Hazardous Material Institute, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/Quadrant_Fitting_Fluid"
+              },
+              {
+                "id": "ae:Triphasic_Nanoflake",
+                "name": "Triphasic Nanoflake",
+                "n": "Triphasic Nanoflake",
+                "qty": 32,
+                "rar": 5,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               },
               {
                 "id": "ae:Blighted_Jadeleaf",
@@ -31056,17 +33049,6 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
                 "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-              },
-              {
-                "id": "ae:Triphasic_Nanoflake",
-                "name": "Triphasic Nanoflake",
-                "n": "Triphasic Nanoflake",
-                "qty": 32,
-                "rar": 5,
-                "kind": "skill",
-                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               }
             ],
             "cost": 0
@@ -31083,6 +33065,17 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/quadrant-fitting-fluid.png",
                 "source": "Protocol Space: Hazardous Material Institute, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/Quadrant_Fitting_Fluid"
+              },
+              {
+                "id": "ae:Triphasic_Nanoflake",
+                "name": "Triphasic Nanoflake",
+                "n": "Triphasic Nanoflake",
+                "qty": 72,
+                "rar": 5,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               },
               {
                 "id": "ae:Blighted_Jadeleaf",
@@ -31127,17 +33120,6 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
                 "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-              },
-              {
-                "id": "ae:Triphasic_Nanoflake",
-                "name": "Triphasic Nanoflake",
-                "n": "Triphasic Nanoflake",
-                "qty": 72,
-                "rar": 5,
-                "kind": "skill",
-                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               }
             ],
             "cost": 0
@@ -31331,9 +33313,29 @@
           "source": "Prydwen recommendation"
         }
       ],
-      "aeStatItems": [],
-      "recent": 1,
-      "recentFallback": 1
+      "aeStatItems": []
+    },
+    {
+      "id": "ae-liino",
+      "n": "Liino",
+      "title": "Supporter",
+      "r": 6,
+      "el": "Electric",
+      "cls": "Supporter",
+      "w": "Polearm",
+      "tag": "Talos-II General Chamber of Commerce",
+      "icon": "../../Database/EndfieldWiki/endfield/assets/operators/liino/icon.png",
+      "art": "../../Database/EndfieldWiki/endfield/assets/operators/liino/splash.png",
+      "card": "../../Database/EndfieldWiki/endfield/assets/operators/liino/splash.png",
+      "baseStats": {},
+      "facts": {
+        "faction": "Talos-II General Chamber of Commerce"
+      },
+      "materialSourceStatus": "pending-source",
+      "req": null,
+      "aePreferredItems": [],
+      "aeSkillItems": [],
+      "aeStatItems": []
     },
     {
       "id": "ae-mi-fu",
@@ -31369,7 +33371,7 @@
               {
                 "name": "Fistmancer of Blades",
                 "type": "Combat Skill",
-                "desc": "BASIC ATTACK:\nAn attack with up to 4 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 25 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Physical DMG and recovers some SP.",
+                "desc": "BASIC ATTACK:\nAn attack with up to 4 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 25 Stagger.\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Physical DMG and recovers some SP.",
                 "stats": [
                   {
                     "label": "BATK SEQ 1 Multiplier",
@@ -31400,7 +33402,7 @@
               {
                 "name": "Qingbo Triplex",
                 "type": "Combat Skill",
-                "desc": "SKILL DESCRIPTION: Keep casting Mi Fu's battle skill to unleash 3 different moves. The first battle skill cast is Cloudtrapper.\n\nMOVE 1 - Cloudtrapper: Costs 100 SP and SP Return 50 SP after casting; Mi Fu fires a grappling chain from her gauntlets that deals Physical DMG to the target and nearby enemies, then attempts to pull the target and nearby enemies towards her. After casting MOVE 1, the next battle skill will be temporarily replaced with Trail and Mangle.\n\nMOVE 2 - Trail and Mangle: Costs 50 SP; Mi Fu unleashes a flurry of punches that deals Physical DMG with the final punch applying Crush. If this Crush Debuff Consumption at least 3 Vulnerable stacks from a single target, then the next battle skill will be temporarily replaced with World Splitter.\n\nMOVE 3 - World Splitter: Costs 50 SP; Mi Fu deals massive Physical DMG to a specified area; this DMG is not treated as Battle Skill DMG, but as Crush DMG.",
+                "desc": "SKILL DESCRIPTION: Keep casting Mi Fu's battle skill to unleash 3 different moves. The first battle skill cast is Cloudtrapper.\nMOVE 1 - Cloudtrapper: Costs 100 SP and SP Return 50 SP after casting; Mi Fu fires a grappling chain from her gauntlets that deals Physical DMG to the target and nearby enemies, then attempts to pull the target and nearby enemies towards her. After casting MOVE 1, the next battle skill will be temporarily replaced with Trail and Mangle.\nMOVE 2 - Trail and Mangle: Costs 50 SP; Mi Fu unleashes a flurry of punches that deals Physical DMG with the final punch applying Crush. If this Crush Debuff Consumption at least 3 Vulnerable stacks from a single target, then the next battle skill will be temporarily replaced with World Splitter.\nMOVE 3 - World Splitter: Costs 50 SP; Mi Fu deals massive Physical DMG to a specified area; this DMG is not treated as Battle Skill DMG, but as Crush DMG.",
                 "stats": [
                   {
                     "label": "SP Cost",
@@ -31491,6 +33493,7 @@
       },
       "signatureWeaponId": "Amaranthine_Tassel",
       "signatureWeaponName": "Amaranthine Tassel",
+      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -31595,6 +33598,17 @@
             "sourceUrl": "https://endfield.wiki.gg/wiki/Quadrant_Fitting_Fluid"
           },
           {
+            "id": "ae:Triphasic_Nanoflake",
+            "name": "Triphasic Nanoflake",
+            "n": "Triphasic Nanoflake",
+            "qty": 116,
+            "rar": 5,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+            "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+          },
+          {
             "id": "ae:Blighted_Jadeleaf",
             "name": "Blighted Jadeleaf",
             "n": "Blighted Jadeleaf",
@@ -31681,17 +33695,6 @@
             "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
             "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
             "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-          },
-          {
-            "id": "ae:Triphasic_Nanoflake",
-            "name": "Triphasic Nanoflake",
-            "n": "Triphasic Nanoflake",
-            "qty": 116,
-            "rar": 5,
-            "kind": "skill",
-            "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-            "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-            "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
           }
         ],
         "promotionStages": [
@@ -32180,6 +34183,17 @@
                 "sourceUrl": "https://endfield.wiki.gg/wiki/Quadrant_Fitting_Fluid"
               },
               {
+                "id": "ae:Triphasic_Nanoflake",
+                "name": "Triphasic Nanoflake",
+                "n": "Triphasic Nanoflake",
+                "qty": 12,
+                "rar": 5,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+              },
+              {
                 "id": "ae:Blighted_Jadeleaf",
                 "name": "Blighted Jadeleaf",
                 "n": "Blighted Jadeleaf",
@@ -32222,17 +34236,6 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
                 "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-              },
-              {
-                "id": "ae:Triphasic_Nanoflake",
-                "name": "Triphasic Nanoflake",
-                "n": "Triphasic Nanoflake",
-                "qty": 12,
-                "rar": 5,
-                "kind": "skill",
-                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               }
             ],
             "cost": 0
@@ -32249,6 +34252,17 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/quadrant-fitting-fluid.png",
                 "source": "Protocol Space: Hazardous Material Institute, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/Quadrant_Fitting_Fluid"
+              },
+              {
+                "id": "ae:Triphasic_Nanoflake",
+                "name": "Triphasic Nanoflake",
+                "n": "Triphasic Nanoflake",
+                "qty": 32,
+                "rar": 5,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               },
               {
                 "id": "ae:Blighted_Jadeleaf",
@@ -32293,17 +34307,6 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
                 "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-              },
-              {
-                "id": "ae:Triphasic_Nanoflake",
-                "name": "Triphasic Nanoflake",
-                "n": "Triphasic Nanoflake",
-                "qty": 32,
-                "rar": 5,
-                "kind": "skill",
-                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               }
             ],
             "cost": 0
@@ -32320,6 +34323,17 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/quadrant-fitting-fluid.png",
                 "source": "Protocol Space: Hazardous Material Institute, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/Quadrant_Fitting_Fluid"
+              },
+              {
+                "id": "ae:Triphasic_Nanoflake",
+                "name": "Triphasic Nanoflake",
+                "n": "Triphasic Nanoflake",
+                "qty": 72,
+                "rar": 5,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               },
               {
                 "id": "ae:Blighted_Jadeleaf",
@@ -32364,17 +34378,6 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
                 "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-              },
-              {
-                "id": "ae:Triphasic_Nanoflake",
-                "name": "Triphasic Nanoflake",
-                "n": "Triphasic Nanoflake",
-                "qty": 72,
-                "rar": 5,
-                "kind": "skill",
-                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               }
             ],
             "cost": 0
@@ -32604,7 +34607,7 @@
               {
                 "name": "All-Out Offensive",
                 "type": "Combat Skill",
-                "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 18 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
+                "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 18 Stagger.\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
                 "stats": [
                   {
                     "label": "BATK SEQ 1 Multiplier",
@@ -32798,6 +34801,7 @@
       },
       "signatureWeaponId": "Thermite_Cutter",
       "signatureWeaponName": "Thermite Cutter",
+      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -32902,6 +34906,17 @@
             "sourceUrl": "https://endfield.wiki.gg/wiki/Quadrant_Fitting_Fluid"
           },
           {
+            "id": "ae:Triphasic_Nanoflake",
+            "name": "Triphasic Nanoflake",
+            "n": "Triphasic Nanoflake",
+            "qty": 116,
+            "rar": 5,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+            "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+          },
+          {
             "id": "ae:Blighted_Jadeleaf",
             "name": "Blighted Jadeleaf",
             "n": "Blighted Jadeleaf",
@@ -32988,17 +35003,6 @@
             "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
             "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
             "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-          },
-          {
-            "id": "ae:Triphasic_Nanoflake",
-            "name": "Triphasic Nanoflake",
-            "n": "Triphasic Nanoflake",
-            "qty": 116,
-            "rar": 5,
-            "kind": "skill",
-            "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-            "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-            "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
           }
         ],
         "promotionStages": [
@@ -33487,6 +35491,17 @@
                 "sourceUrl": "https://endfield.wiki.gg/wiki/Quadrant_Fitting_Fluid"
               },
               {
+                "id": "ae:Triphasic_Nanoflake",
+                "name": "Triphasic Nanoflake",
+                "n": "Triphasic Nanoflake",
+                "qty": 12,
+                "rar": 5,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+              },
+              {
                 "id": "ae:Blighted_Jadeleaf",
                 "name": "Blighted Jadeleaf",
                 "n": "Blighted Jadeleaf",
@@ -33529,17 +35544,6 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
                 "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-              },
-              {
-                "id": "ae:Triphasic_Nanoflake",
-                "name": "Triphasic Nanoflake",
-                "n": "Triphasic Nanoflake",
-                "qty": 12,
-                "rar": 5,
-                "kind": "skill",
-                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               }
             ],
             "cost": 0
@@ -33556,6 +35560,17 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/quadrant-fitting-fluid.png",
                 "source": "Protocol Space: Hazardous Material Institute, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/Quadrant_Fitting_Fluid"
+              },
+              {
+                "id": "ae:Triphasic_Nanoflake",
+                "name": "Triphasic Nanoflake",
+                "n": "Triphasic Nanoflake",
+                "qty": 32,
+                "rar": 5,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               },
               {
                 "id": "ae:Blighted_Jadeleaf",
@@ -33600,17 +35615,6 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
                 "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-              },
-              {
-                "id": "ae:Triphasic_Nanoflake",
-                "name": "Triphasic Nanoflake",
-                "n": "Triphasic Nanoflake",
-                "qty": 32,
-                "rar": 5,
-                "kind": "skill",
-                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               }
             ],
             "cost": 0
@@ -33627,6 +35631,17 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/quadrant-fitting-fluid.png",
                 "source": "Protocol Space: Hazardous Material Institute, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/Quadrant_Fitting_Fluid"
+              },
+              {
+                "id": "ae:Triphasic_Nanoflake",
+                "name": "Triphasic Nanoflake",
+                "n": "Triphasic Nanoflake",
+                "qty": 72,
+                "rar": 5,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               },
               {
                 "id": "ae:Blighted_Jadeleaf",
@@ -33671,17 +35686,6 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
                 "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-              },
-              {
-                "id": "ae:Triphasic_Nanoflake",
-                "name": "Triphasic Nanoflake",
-                "n": "Triphasic Nanoflake",
-                "qty": 72,
-                "rar": 5,
-                "kind": "skill",
-                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               }
             ],
             "cost": 0
@@ -33922,7 +35926,7 @@
               {
                 "name": "Seething Wolfblood",
                 "type": "Combat Skill",
-                "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 18 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
+                "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 18 Stagger.\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
                 "stats": [
                   {
                     "label": "BATK SEQ 1 Multiplier",
@@ -34072,6 +36076,7 @@
       },
       "signatureWeaponId": "Lupine_Scarlet",
       "signatureWeaponName": "Lupine Scarlet",
+      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -35009,6 +37014,17 @@
           "type": "Sword",
           "items": [
             {
+              "id": "ae:Triphasic_Nanoflake",
+              "name": "Triphasic Nanoflake",
+              "n": "Triphasic Nanoflake",
+              "qty": 16,
+              "rar": 5,
+              "kind": "gem",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+              "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+            },
+            {
               "id": "ae:Cast_Die",
               "name": "Cast Die",
               "n": "Cast Die",
@@ -35084,17 +37100,6 @@
               "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
               "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
               "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-            },
-            {
-              "id": "ae:Triphasic_Nanoflake",
-              "name": "Triphasic Nanoflake",
-              "n": "Triphasic Nanoflake",
-              "qty": 16,
-              "rar": 5,
-              "kind": "skill",
-              "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-              "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-              "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
             }
           ],
           "cost": 0,
@@ -35207,7 +37212,7 @@
               {
                 "name": "I'LL BLOW YOUR MIND!",
                 "type": "Combat Skill",
-                "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Cryo DMG. As the controlled operator, Final Strike also deals 18 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Cryo DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Cryo DMG and recovers some SP.",
+                "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Cryo DMG. As the controlled operator, Final Strike also deals 18 Stagger.\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Cryo DMG to nearby enemies.\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Cryo DMG and recovers some SP.",
                 "stats": [
                   {
                     "label": "BATK SEQ 1 Multiplier",
@@ -35357,6 +37362,7 @@
       },
       "signatureWeaponId": "Brigand's_Calling",
       "signatureWeaponName": "Brigand's Calling",
+      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -36470,7 +38476,7 @@
               {
                 "name": "Exuberant Trigger",
                 "type": "Combat Skill",
-                "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Cryo DMG. As the controlled operator, Final Strike also deals 17 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Cryo DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Cryo DMG and recovers some SP.",
+                "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Cryo DMG. As the controlled operator, Final Strike also deals 17 Stagger.\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Cryo DMG to nearby enemies.\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Cryo DMG and recovers some SP.",
                 "stats": [
                   {
                     "label": "BATK SEQ 1 Multiplier",
@@ -36632,6 +38638,7 @@
       },
       "signatureWeaponId": "Artzy_Tyrannical",
       "signatureWeaponName": "Artzy Tyrannical",
+      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -37778,7 +39785,7 @@
               {
                 "name": "Jolting Arts",
                 "type": "Combat Skill",
-                "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Electric DMG. As the controlled operator, Final Strike also deals 18 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Electric DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Electric DMG and recovers some SP.",
+                "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Electric DMG. As the controlled operator, Final Strike also deals 18 Stagger.\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Electric DMG to nearby enemies.\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Electric DMG and recovers some SP.",
                 "stats": [
                   {
                     "label": "BATK SEQ 1 Multiplier",
@@ -37924,6 +39931,7 @@
       },
       "signatureWeaponId": "Lone_Barge",
       "signatureWeaponName": "Lone Barge",
+      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -37947,6 +39955,17 @@
             "icon": "../../Database/EndfieldWiki/endfield/assets/items/protoset.png",
             "source": "Protocol Space: Promotions, Acquisition Center: AIC Trading, Exploring and Gathering",
             "sourceUrl": "https://endfield.wiki.gg/wiki/Protoset"
+          },
+          {
+            "id": "ae:Triphasic_Nanoflake",
+            "name": "Triphasic Nanoflake",
+            "n": "Triphasic Nanoflake",
+            "qty": 20,
+            "rar": 5,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+            "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
           },
           {
             "id": "ae:Cosmagaric",
@@ -38002,17 +40021,6 @@
             "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
             "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
             "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-          },
-          {
-            "id": "ae:Triphasic_Nanoflake",
-            "name": "Triphasic Nanoflake",
-            "n": "Triphasic Nanoflake",
-            "qty": 20,
-            "rar": 5,
-            "kind": "skill",
-            "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-            "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-            "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
           }
         ],
         "talents": [
@@ -38256,6 +40264,17 @@
                 "sourceUrl": "https://endfield.wiki.gg/wiki/Protoset"
               },
               {
+                "id": "ae:Triphasic_Nanoflake",
+                "name": "Triphasic Nanoflake",
+                "n": "Triphasic Nanoflake",
+                "qty": 20,
+                "rar": 5,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+              },
+              {
                 "id": "ae:Cosmagaric",
                 "name": "Cosmagaric",
                 "n": "Cosmagaric",
@@ -38276,17 +40295,6 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
                 "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-              },
-              {
-                "id": "ae:Triphasic_Nanoflake",
-                "name": "Triphasic Nanoflake",
-                "n": "Triphasic Nanoflake",
-                "qty": 20,
-                "rar": 5,
-                "kind": "skill",
-                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               }
             ],
             "cost": 0
@@ -39037,7 +41045,7 @@
               {
                 "name": "Basic Rod Casting",
                 "type": "Combat Skill",
-                "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 17 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
+                "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 17 Stagger.\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
                 "stats": [
                   {
                     "label": "BATK SEQ 1 Multiplier",
@@ -39187,6 +41195,7 @@
       },
       "signatureWeaponId": "Thermite_Cutter",
       "signatureWeaponName": "Thermite Cutter",
+      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -39291,6 +41300,17 @@
             "sourceUrl": "https://endfield.wiki.gg/wiki/Quadrant_Fitting_Fluid"
           },
           {
+            "id": "ae:Triphasic_Nanoflake",
+            "name": "Triphasic Nanoflake",
+            "n": "Triphasic Nanoflake",
+            "qty": 116,
+            "rar": 5,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+            "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+          },
+          {
             "id": "ae:Chrysodendra",
             "name": "Chrysodendra",
             "n": "Chrysodendra",
@@ -39377,17 +41397,6 @@
             "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
             "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
             "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-          },
-          {
-            "id": "ae:Triphasic_Nanoflake",
-            "name": "Triphasic Nanoflake",
-            "n": "Triphasic Nanoflake",
-            "qty": 116,
-            "rar": 5,
-            "kind": "skill",
-            "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-            "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-            "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
           }
         ],
         "promotionStages": [
@@ -39876,6 +41885,17 @@
                 "sourceUrl": "https://endfield.wiki.gg/wiki/Quadrant_Fitting_Fluid"
               },
               {
+                "id": "ae:Triphasic_Nanoflake",
+                "name": "Triphasic Nanoflake",
+                "n": "Triphasic Nanoflake",
+                "qty": 12,
+                "rar": 5,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+              },
+              {
                 "id": "ae:False_Aggela",
                 "name": "False Aggela",
                 "n": "False Aggela",
@@ -39918,17 +41938,6 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
                 "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-              },
-              {
-                "id": "ae:Triphasic_Nanoflake",
-                "name": "Triphasic Nanoflake",
-                "n": "Triphasic Nanoflake",
-                "qty": 12,
-                "rar": 5,
-                "kind": "skill",
-                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               }
             ],
             "cost": 0
@@ -39945,6 +41954,17 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/quadrant-fitting-fluid.png",
                 "source": "Protocol Space: Hazardous Material Institute, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/Quadrant_Fitting_Fluid"
+              },
+              {
+                "id": "ae:Triphasic_Nanoflake",
+                "name": "Triphasic Nanoflake",
+                "n": "Triphasic Nanoflake",
+                "qty": 32,
+                "rar": 5,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               },
               {
                 "id": "ae:False_Aggela",
@@ -39989,17 +42009,6 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
                 "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-              },
-              {
-                "id": "ae:Triphasic_Nanoflake",
-                "name": "Triphasic Nanoflake",
-                "n": "Triphasic Nanoflake",
-                "qty": 32,
-                "rar": 5,
-                "kind": "skill",
-                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               }
             ],
             "cost": 0
@@ -40016,6 +42025,17 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/quadrant-fitting-fluid.png",
                 "source": "Protocol Space: Hazardous Material Institute, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/Quadrant_Fitting_Fluid"
+              },
+              {
+                "id": "ae:Triphasic_Nanoflake",
+                "name": "Triphasic Nanoflake",
+                "n": "Triphasic Nanoflake",
+                "qty": 72,
+                "rar": 5,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               },
               {
                 "id": "ae:False_Aggela",
@@ -40060,17 +42080,6 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
                 "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-              },
-              {
-                "id": "ae:Triphasic_Nanoflake",
-                "name": "Triphasic Nanoflake",
-                "n": "Triphasic Nanoflake",
-                "qty": 72,
-                "rar": 5,
-                "kind": "skill",
-                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               }
             ],
             "cost": 0
@@ -40289,7 +42298,7 @@
               {
                 "name": "Seek and Hunt",
                 "type": "Combat Skill",
-                "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 16 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
+                "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 16 Stagger.\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
                 "stats": [
                   {
                     "label": "BATK SEQ 1 Multiplier",
@@ -40423,6 +42432,7 @@
       },
       "signatureWeaponId": "Thermite_Cutter",
       "signatureWeaponName": "Thermite Cutter",
+      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -41569,7 +43579,7 @@
               {
                 "name": "Thunderlance: Blitz",
                 "type": "Combat Skill",
-                "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 17 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
+                "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 17 Stagger.\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
                 "stats": [
                   {
                     "label": "BATK SEQ 1 Multiplier",
@@ -41699,6 +43709,7 @@
       },
       "signatureWeaponId": "JET",
       "signatureWeaponName": "JET",
+      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -41803,6 +43814,17 @@
             "sourceUrl": "https://endfield.wiki.gg/wiki/Quadrant_Fitting_Fluid"
           },
           {
+            "id": "ae:Triphasic_Nanoflake",
+            "name": "Triphasic Nanoflake",
+            "n": "Triphasic Nanoflake",
+            "qty": 116,
+            "rar": 5,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+            "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+          },
+          {
             "id": "ae:Chrysodendra",
             "name": "Chrysodendra",
             "n": "Chrysodendra",
@@ -41889,17 +43911,6 @@
             "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
             "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
             "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-          },
-          {
-            "id": "ae:Triphasic_Nanoflake",
-            "name": "Triphasic Nanoflake",
-            "n": "Triphasic Nanoflake",
-            "qty": 116,
-            "rar": 5,
-            "kind": "skill",
-            "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-            "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-            "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
           }
         ],
         "promotionStages": [
@@ -42388,6 +44399,17 @@
                 "sourceUrl": "https://endfield.wiki.gg/wiki/Quadrant_Fitting_Fluid"
               },
               {
+                "id": "ae:Triphasic_Nanoflake",
+                "name": "Triphasic Nanoflake",
+                "n": "Triphasic Nanoflake",
+                "qty": 12,
+                "rar": 5,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+              },
+              {
                 "id": "ae:False_Aggela",
                 "name": "False Aggela",
                 "n": "False Aggela",
@@ -42430,17 +44452,6 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
                 "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-              },
-              {
-                "id": "ae:Triphasic_Nanoflake",
-                "name": "Triphasic Nanoflake",
-                "n": "Triphasic Nanoflake",
-                "qty": 12,
-                "rar": 5,
-                "kind": "skill",
-                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               }
             ],
             "cost": 0
@@ -42457,6 +44468,17 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/quadrant-fitting-fluid.png",
                 "source": "Protocol Space: Hazardous Material Institute, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/Quadrant_Fitting_Fluid"
+              },
+              {
+                "id": "ae:Triphasic_Nanoflake",
+                "name": "Triphasic Nanoflake",
+                "n": "Triphasic Nanoflake",
+                "qty": 32,
+                "rar": 5,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               },
               {
                 "id": "ae:False_Aggela",
@@ -42501,17 +44523,6 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
                 "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-              },
-              {
-                "id": "ae:Triphasic_Nanoflake",
-                "name": "Triphasic Nanoflake",
-                "n": "Triphasic Nanoflake",
-                "qty": 32,
-                "rar": 5,
-                "kind": "skill",
-                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               }
             ],
             "cost": 0
@@ -42528,6 +44539,17 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/quadrant-fitting-fluid.png",
                 "source": "Protocol Space: Hazardous Material Institute, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/Quadrant_Fitting_Fluid"
+              },
+              {
+                "id": "ae:Triphasic_Nanoflake",
+                "name": "Triphasic Nanoflake",
+                "n": "Triphasic Nanoflake",
+                "qty": 72,
+                "rar": 5,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               },
               {
                 "id": "ae:False_Aggela",
@@ -42572,17 +44594,6 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
                 "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-              },
-              {
-                "id": "ae:Triphasic_Nanoflake",
-                "name": "Triphasic Nanoflake",
-                "n": "Triphasic Nanoflake",
-                "qty": 72,
-                "rar": 5,
-                "kind": "skill",
-                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               }
             ],
             "cost": 0
@@ -42812,7 +44823,7 @@
               {
                 "name": "Soaring Break",
                 "type": "Combat Skill",
-                "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 16 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
+                "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 16 Stagger.\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
                 "stats": [
                   {
                     "label": "BATK SEQ 1 Multiplier",
@@ -42926,6 +44937,7 @@
       },
       "signatureWeaponId": "Sundering_Steel",
       "signatureWeaponName": "Sundering Steel",
+      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -44072,7 +46084,7 @@
               {
                 "name": "ROLLING CUT!",
                 "type": "Combat Skill",
-                "desc": "BASIC ATTACK:\nAn attack with up to 4 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 20 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Physical DMG and recovers some SP.",
+                "desc": "BASIC ATTACK:\nAn attack with up to 4 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 20 Stagger.\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Physical DMG and recovers some SP.",
                 "stats": [
                   {
                     "label": "BATK SEQ 1 Multiplier",
@@ -44182,6 +46194,7 @@
       },
       "signatureWeaponId": "Amaranthine_Tassel",
       "signatureWeaponName": "Amaranthine Tassel",
+      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -44205,6 +46218,17 @@
             "icon": "../../Database/EndfieldWiki/endfield/assets/items/protoset.png",
             "source": "Protocol Space: Promotions, Acquisition Center: AIC Trading, Exploring and Gathering",
             "sourceUrl": "https://endfield.wiki.gg/wiki/Protoset"
+          },
+          {
+            "id": "ae:Triphasic_Nanoflake",
+            "name": "Triphasic Nanoflake",
+            "n": "Triphasic Nanoflake",
+            "qty": 20,
+            "rar": 5,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+            "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
           },
           {
             "id": "ae:Bloodcap",
@@ -44260,17 +46284,6 @@
             "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
             "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
             "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-          },
-          {
-            "id": "ae:Triphasic_Nanoflake",
-            "name": "Triphasic Nanoflake",
-            "n": "Triphasic Nanoflake",
-            "qty": 20,
-            "rar": 5,
-            "kind": "skill",
-            "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-            "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-            "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
           }
         ],
         "talents": [
@@ -44514,6 +46527,17 @@
                 "sourceUrl": "https://endfield.wiki.gg/wiki/Protoset"
               },
               {
+                "id": "ae:Triphasic_Nanoflake",
+                "name": "Triphasic Nanoflake",
+                "n": "Triphasic Nanoflake",
+                "qty": 20,
+                "rar": 5,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+              },
+              {
                 "id": "ae:Bloodcap",
                 "name": "Bloodcap",
                 "n": "Bloodcap",
@@ -44534,17 +46558,6 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
                 "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-              },
-              {
-                "id": "ae:Triphasic_Nanoflake",
-                "name": "Triphasic Nanoflake",
-                "n": "Triphasic Nanoflake",
-                "qty": 20,
-                "rar": 5,
-                "kind": "skill",
-                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               }
             ],
             "cost": 0
@@ -45328,7 +47341,7 @@
               {
                 "name": "Protocol \u03b1: Breach",
                 "type": "Combat Skill",
-                "desc": "BASIC ATTACK:\nAn attack with up to 4 sequences that deals Electric DMG. As the controlled operator, Final Strike also deals 15 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Electric DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Electric DMG and recovers some SP.",
+                "desc": "BASIC ATTACK:\nAn attack with up to 4 sequences that deals Electric DMG. As the controlled operator, Final Strike also deals 15 Stagger.\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Electric DMG to nearby enemies.\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Electric DMG and recovers some SP.",
                 "stats": [
                   {
                     "label": "BATK SEQ 1 Multiplier",
@@ -45434,6 +47447,7 @@
       },
       "signatureWeaponId": "Stanza_of_Memorials",
       "signatureWeaponName": "Stanza of Memorials",
+      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -46547,7 +48561,7 @@
               {
                 "name": "Hypothermic Assault",
                 "type": "Combat Skill",
-                "desc": "BASIC ATTACK:\nAn attack with up to 3 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 23 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
+                "desc": "BASIC ATTACK:\nAn attack with up to 3 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 23 Stagger.\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
                 "stats": [
                   {
                     "label": "BATK SEQ 1 Multiplier",
@@ -46681,6 +48695,7 @@
       },
       "signatureWeaponId": "Finishing_Call",
       "signatureWeaponName": "Finishing Call",
+      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -46785,6 +48800,17 @@
             "sourceUrl": "https://endfield.wiki.gg/wiki/Metadiastima_Photoemission_Tube"
           },
           {
+            "id": "ae:Triphasic_Nanoflake",
+            "name": "Triphasic Nanoflake",
+            "n": "Triphasic Nanoflake",
+            "qty": 116,
+            "rar": 5,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+            "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+          },
+          {
             "id": "ae:Blighted_Jadeleaf",
             "name": "Blighted Jadeleaf",
             "n": "Blighted Jadeleaf",
@@ -46871,17 +48897,6 @@
             "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
             "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
             "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-          },
-          {
-            "id": "ae:Triphasic_Nanoflake",
-            "name": "Triphasic Nanoflake",
-            "n": "Triphasic Nanoflake",
-            "qty": 116,
-            "rar": 5,
-            "kind": "skill",
-            "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-            "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-            "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
           }
         ],
         "promotionStages": [
@@ -47370,6 +49385,17 @@
                 "sourceUrl": "https://endfield.wiki.gg/wiki/Metadiastima_Photoemission_Tube"
               },
               {
+                "id": "ae:Triphasic_Nanoflake",
+                "name": "Triphasic Nanoflake",
+                "n": "Triphasic Nanoflake",
+                "qty": 12,
+                "rar": 5,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+              },
+              {
                 "id": "ae:Blighted_Jadeleaf",
                 "name": "Blighted Jadeleaf",
                 "n": "Blighted Jadeleaf",
@@ -47412,17 +49438,6 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
                 "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-              },
-              {
-                "id": "ae:Triphasic_Nanoflake",
-                "name": "Triphasic Nanoflake",
-                "n": "Triphasic Nanoflake",
-                "qty": 12,
-                "rar": 5,
-                "kind": "skill",
-                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               }
             ],
             "cost": 0
@@ -47439,6 +49454,17 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/metadiastima-photoemission-tube.png",
                 "source": "Protocol Space: Hazardous Material Landfill, Crisis Pandemonium: Rhodagn (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (D",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/Metadiastima_Photoemission_Tube"
+              },
+              {
+                "id": "ae:Triphasic_Nanoflake",
+                "name": "Triphasic Nanoflake",
+                "n": "Triphasic Nanoflake",
+                "qty": 32,
+                "rar": 5,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               },
               {
                 "id": "ae:Blighted_Jadeleaf",
@@ -47483,17 +49509,6 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
                 "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-              },
-              {
-                "id": "ae:Triphasic_Nanoflake",
-                "name": "Triphasic Nanoflake",
-                "n": "Triphasic Nanoflake",
-                "qty": 32,
-                "rar": 5,
-                "kind": "skill",
-                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               }
             ],
             "cost": 0
@@ -47510,6 +49525,17 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/metadiastima-photoemission-tube.png",
                 "source": "Protocol Space: Hazardous Material Landfill, Crisis Pandemonium: Rhodagn (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (D",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/Metadiastima_Photoemission_Tube"
+              },
+              {
+                "id": "ae:Triphasic_Nanoflake",
+                "name": "Triphasic Nanoflake",
+                "n": "Triphasic Nanoflake",
+                "qty": 72,
+                "rar": 5,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               },
               {
                 "id": "ae:Blighted_Jadeleaf",
@@ -47554,17 +49580,6 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
                 "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-              },
-              {
-                "id": "ae:Triphasic_Nanoflake",
-                "name": "Triphasic Nanoflake",
-                "n": "Triphasic Nanoflake",
-                "qty": 72,
-                "rar": 5,
-                "kind": "skill",
-                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               }
             ],
             "cost": 0
@@ -47816,7 +49831,7 @@
               {
                 "name": "Rapid Fire Akimbo",
                 "type": "Combat Skill",
-                "desc": "BASIC ATTACK:\nAn attack with up to 4 sequences that deals Heat DMG. As the controlled operator, Final Strike also deals 18 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Heat DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Heat DMG and recovers some SP.",
+                "desc": "BASIC ATTACK:\nAn attack with up to 4 sequences that deals Heat DMG. As the controlled operator, Final Strike also deals 18 Stagger.\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Heat DMG to nearby enemies.\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Heat DMG and recovers some SP.",
                 "stats": [
                   {
                     "label": "BATK SEQ 1 Multiplier",
@@ -47926,6 +49941,7 @@
       },
       "signatureWeaponId": "Clannibal",
       "signatureWeaponName": "Clannibal",
+      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -47949,6 +49965,17 @@
             "icon": "../../Database/EndfieldWiki/endfield/assets/items/protoset.png",
             "source": "Protocol Space: Promotions, Acquisition Center: AIC Trading, Exploring and Gathering",
             "sourceUrl": "https://endfield.wiki.gg/wiki/Protoset"
+          },
+          {
+            "id": "ae:Triphasic_Nanoflake",
+            "name": "Triphasic Nanoflake",
+            "n": "Triphasic Nanoflake",
+            "qty": 20,
+            "rar": 5,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+            "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
           },
           {
             "id": "ae:Cosmagaric",
@@ -48004,17 +50031,6 @@
             "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
             "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
             "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-          },
-          {
-            "id": "ae:Triphasic_Nanoflake",
-            "name": "Triphasic Nanoflake",
-            "n": "Triphasic Nanoflake",
-            "qty": 20,
-            "rar": 5,
-            "kind": "skill",
-            "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-            "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-            "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
           }
         ],
         "talents": [
@@ -48258,6 +50274,17 @@
                 "sourceUrl": "https://endfield.wiki.gg/wiki/Protoset"
               },
               {
+                "id": "ae:Triphasic_Nanoflake",
+                "name": "Triphasic Nanoflake",
+                "n": "Triphasic Nanoflake",
+                "qty": 20,
+                "rar": 5,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+              },
+              {
                 "id": "ae:Cosmagaric",
                 "name": "Cosmagaric",
                 "n": "Cosmagaric",
@@ -48278,17 +50305,6 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
                 "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-              },
-              {
-                "id": "ae:Triphasic_Nanoflake",
-                "name": "Triphasic Nanoflake",
-                "n": "Triphasic Nanoflake",
-                "qty": 20,
-                "rar": 5,
-                "kind": "skill",
-                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               }
             ],
             "cost": 0
@@ -49083,7 +51099,7 @@
               {
                 "name": "Cooldown",
                 "type": "Combat Skill",
-                "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Cryo DMG. As the controlled operator, Final Strike also deals 15 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Cryo DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Cryo DMG and recovers some SP.",
+                "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Cryo DMG. As the controlled operator, Final Strike also deals 15 Stagger.\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Cryo DMG to nearby enemies.\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Cryo DMG and recovers some SP.",
                 "stats": [
                   {
                     "label": "BATK SEQ 1 Multiplier",
@@ -49213,6 +51229,7 @@
       },
       "signatureWeaponId": "Detonation_Unit",
       "signatureWeaponName": "Detonation Unit",
+      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -50150,6 +52167,17 @@
           "type": "Arts Unit",
           "items": [
             {
+              "id": "ae:Triphasic_Nanoflake",
+              "name": "Triphasic Nanoflake",
+              "n": "Triphasic Nanoflake",
+              "qty": 16,
+              "rar": 5,
+              "kind": "gem",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+              "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+            },
+            {
               "id": "ae:Cast_Die",
               "name": "Cast Die",
               "n": "Cast Die",
@@ -50225,17 +52253,6 @@
               "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
               "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
               "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-            },
-            {
-              "id": "ae:Triphasic_Nanoflake",
-              "name": "Triphasic Nanoflake",
-              "n": "Triphasic Nanoflake",
-              "qty": 16,
-              "rar": 5,
-              "kind": "skill",
-              "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-              "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-              "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
             }
           ],
           "cost": 0,
@@ -50326,7 +52343,7 @@
               {
                 "name": "Sword of Aspiration",
                 "type": "Combat Skill",
-                "desc": "BASIC ATTACK:\nAn attack with up to 4 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 17 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Physical DMG and recovers some SP.",
+                "desc": "BASIC ATTACK:\nAn attack with up to 4 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 17 Stagger.\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Physical DMG and recovers some SP.",
                 "stats": [
                   {
                     "label": "BATK SEQ 1 Multiplier",
@@ -50428,6 +52445,7 @@
       },
       "signatureWeaponId": "Thermite_Cutter",
       "signatureWeaponName": "Thermite Cutter",
+      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -50532,6 +52550,17 @@
             "sourceUrl": "https://endfield.wiki.gg/wiki/Metadiastima_Photoemission_Tube"
           },
           {
+            "id": "ae:Triphasic_Nanoflake",
+            "name": "Triphasic Nanoflake",
+            "n": "Triphasic Nanoflake",
+            "qty": 116,
+            "rar": 5,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+            "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+          },
+          {
             "id": "ae:Blighted_Jadeleaf",
             "name": "Blighted Jadeleaf",
             "n": "Blighted Jadeleaf",
@@ -50618,17 +52647,6 @@
             "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
             "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
             "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-          },
-          {
-            "id": "ae:Triphasic_Nanoflake",
-            "name": "Triphasic Nanoflake",
-            "n": "Triphasic Nanoflake",
-            "qty": 116,
-            "rar": 5,
-            "kind": "skill",
-            "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-            "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-            "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
           }
         ],
         "promotionStages": [
@@ -51117,6 +53135,17 @@
                 "sourceUrl": "https://endfield.wiki.gg/wiki/Metadiastima_Photoemission_Tube"
               },
               {
+                "id": "ae:Triphasic_Nanoflake",
+                "name": "Triphasic Nanoflake",
+                "n": "Triphasic Nanoflake",
+                "qty": 12,
+                "rar": 5,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+              },
+              {
                 "id": "ae:Blighted_Jadeleaf",
                 "name": "Blighted Jadeleaf",
                 "n": "Blighted Jadeleaf",
@@ -51159,17 +53188,6 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
                 "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-              },
-              {
-                "id": "ae:Triphasic_Nanoflake",
-                "name": "Triphasic Nanoflake",
-                "n": "Triphasic Nanoflake",
-                "qty": 12,
-                "rar": 5,
-                "kind": "skill",
-                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               }
             ],
             "cost": 0
@@ -51186,6 +53204,17 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/metadiastima-photoemission-tube.png",
                 "source": "Protocol Space: Hazardous Material Landfill, Crisis Pandemonium: Rhodagn (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (D",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/Metadiastima_Photoemission_Tube"
+              },
+              {
+                "id": "ae:Triphasic_Nanoflake",
+                "name": "Triphasic Nanoflake",
+                "n": "Triphasic Nanoflake",
+                "qty": 32,
+                "rar": 5,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               },
               {
                 "id": "ae:Blighted_Jadeleaf",
@@ -51230,17 +53259,6 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
                 "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-              },
-              {
-                "id": "ae:Triphasic_Nanoflake",
-                "name": "Triphasic Nanoflake",
-                "n": "Triphasic Nanoflake",
-                "qty": 32,
-                "rar": 5,
-                "kind": "skill",
-                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               }
             ],
             "cost": 0
@@ -51257,6 +53275,17 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/metadiastima-photoemission-tube.png",
                 "source": "Protocol Space: Hazardous Material Landfill, Crisis Pandemonium: Rhodagn (Deep Dive), Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (D",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/Metadiastima_Photoemission_Tube"
+              },
+              {
+                "id": "ae:Triphasic_Nanoflake",
+                "name": "Triphasic Nanoflake",
+                "n": "Triphasic Nanoflake",
+                "qty": 72,
+                "rar": 5,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               },
               {
                 "id": "ae:Blighted_Jadeleaf",
@@ -51301,17 +53330,6 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
                 "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-              },
-              {
-                "id": "ae:Triphasic_Nanoflake",
-                "name": "Triphasic Nanoflake",
-                "n": "Triphasic Nanoflake",
-                "qty": 72,
-                "rar": 5,
-                "kind": "skill",
-                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               }
             ],
             "cost": 0
@@ -51541,7 +53559,7 @@
               {
                 "name": "Exchange Current",
                 "type": "Combat Skill",
-                "desc": "BASIC ATTACK:\nAn attack with up to 4 sequences that deals Electric DMG. As the controlled operator, Final Strike also deals 15 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Electric DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Electric DMG and recovers some SP.",
+                "desc": "BASIC ATTACK:\nAn attack with up to 4 sequences that deals Electric DMG. As the controlled operator, Final Strike also deals 15 Stagger.\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Electric DMG to nearby enemies.\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Electric DMG and recovers some SP.",
                 "stats": [
                   {
                     "label": "BATK SEQ 1 Multiplier",
@@ -51655,6 +53673,7 @@
       },
       "signatureWeaponId": "Detonation_Unit",
       "signatureWeaponName": "Detonation Unit",
+      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -52592,6 +54611,17 @@
           "type": "Arts Unit",
           "items": [
             {
+              "id": "ae:Triphasic_Nanoflake",
+              "name": "Triphasic Nanoflake",
+              "n": "Triphasic Nanoflake",
+              "qty": 16,
+              "rar": 5,
+              "kind": "gem",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+              "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+            },
+            {
               "id": "ae:Cast_Die",
               "name": "Cast Die",
               "n": "Cast Die",
@@ -52667,17 +54697,6 @@
               "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
               "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
               "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-            },
-            {
-              "id": "ae:Triphasic_Nanoflake",
-              "name": "Triphasic Nanoflake",
-              "n": "Triphasic Nanoflake",
-              "qty": 16,
-              "rar": 5,
-              "kind": "skill",
-              "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-              "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-              "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
             }
           ],
           "cost": 0,
@@ -52768,7 +54787,7 @@
               {
                 "name": "Basic Tactics",
                 "type": "Combat Skill",
-                "desc": "BASIC ATTACK:\nAn attack with up to 4 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 22 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Physical DMG and recovers some SP.",
+                "desc": "BASIC ATTACK:\nAn attack with up to 4 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 22 Stagger.\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Physical DMG and recovers some SP.",
                 "stats": [
                   {
                     "label": "BATK SEQ 1 Multiplier",
@@ -52918,6 +54937,7 @@
       },
       "signatureWeaponId": "OBJ_Heavy_Burden",
       "signatureWeaponName": "OBJ Heavy Burden",
+      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -54053,7 +56073,7 @@
               {
                 "name": "Audio Noise",
                 "type": "Combat Skill",
-                "desc": "BASIC ATTACK:\nAn attack with up to 4 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 17 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Physical DMG and recovers some SP.",
+                "desc": "BASIC ATTACK:\nAn attack with up to 4 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 17 Stagger.\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Physical DMG and recovers some SP.",
                 "stats": [
                   {
                     "label": "BATK SEQ 1 Multiplier",
@@ -54167,6 +56187,7 @@
       },
       "signatureWeaponId": "JET",
       "signatureWeaponName": "JET",
+      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -55302,7 +57323,7 @@
               {
                 "name": "Signature Gun Kata",
                 "type": "Combat Skill",
-                "desc": "BASIC ATTACK:\nAn attack with up to 4 sequences that deals Nature DMG. As the controlled operator, Final Strike also deals 15 Stagger.\n\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Nature DMG to nearby enemies.\n\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Nature DMG and recovers some SP.",
+                "desc": "BASIC ATTACK:\nAn attack with up to 4 sequences that deals Nature DMG. As the controlled operator, Final Strike also deals 15 Stagger.\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Nature DMG to nearby enemies.\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Nature DMG and recovers some SP.",
                 "stats": [
                   {
                     "label": "BATK SEQ 1 Multiplier",
@@ -55428,6 +57449,7 @@
       },
       "signatureWeaponId": "OBJ_Velocitous",
       "signatureWeaponName": "OBJ Velocitous",
+      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -55451,6 +57473,17 @@
             "icon": "../../Database/EndfieldWiki/endfield/assets/items/protoset.png",
             "source": "Protocol Space: Promotions, Acquisition Center: AIC Trading, Exploring and Gathering",
             "sourceUrl": "https://endfield.wiki.gg/wiki/Protoset"
+          },
+          {
+            "id": "ae:Triphasic_Nanoflake",
+            "name": "Triphasic Nanoflake",
+            "n": "Triphasic Nanoflake",
+            "qty": 20,
+            "rar": 5,
+            "kind": "gem",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+            "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
           },
           {
             "id": "ae:Cosmagaric",
@@ -55506,17 +57539,6 @@
             "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
             "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
             "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-          },
-          {
-            "id": "ae:Triphasic_Nanoflake",
-            "name": "Triphasic Nanoflake",
-            "n": "Triphasic Nanoflake",
-            "qty": 20,
-            "rar": 5,
-            "kind": "skill",
-            "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-            "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-            "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
           }
         ],
         "talents": [
@@ -55760,6 +57782,17 @@
                 "sourceUrl": "https://endfield.wiki.gg/wiki/Protoset"
               },
               {
+                "id": "ae:Triphasic_Nanoflake",
+                "name": "Triphasic Nanoflake",
+                "n": "Triphasic Nanoflake",
+                "qty": 20,
+                "rar": 5,
+                "kind": "gem",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+              },
+              {
                 "id": "ae:Cosmagaric",
                 "name": "Cosmagaric",
                 "n": "Cosmagaric",
@@ -55780,17 +57813,6 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
                 "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-              },
-              {
-                "id": "ae:Triphasic_Nanoflake",
-                "name": "Triphasic Nanoflake",
-                "n": "Triphasic Nanoflake",
-                "qty": 20,
-                "rar": 5,
-                "kind": "skill",
-                "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-                "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-                "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               }
             ],
             "cost": 0
@@ -56365,6 +58387,17 @@
           "type": "Handcannon",
           "items": [
             {
+              "id": "ae:Triphasic_Nanoflake",
+              "name": "Triphasic Nanoflake",
+              "n": "Triphasic Nanoflake",
+              "qty": 16,
+              "rar": 5,
+              "kind": "gem",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
+              "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+            },
+            {
               "id": "ae:Cast_Die",
               "name": "Cast Die",
               "n": "Cast Die",
@@ -56440,17 +58473,6 @@
               "icon": "../../Database/EndfieldWiki/endfield/assets/items/t-creds.png",
               "source": "Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering",
               "sourceUrl": "https://endfield.wiki.gg/wiki/T-Creds"
-            },
-            {
-              "id": "ae:Triphasic_Nanoflake",
-              "name": "Triphasic Nanoflake",
-              "n": "Triphasic Nanoflake",
-              "qty": 16,
-              "rar": 5,
-              "kind": "skill",
-              "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
-              "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
-              "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
             }
           ],
           "cost": 0,
@@ -56528,6 +58550,7 @@
         "Akekuri",
         "Alesh",
         "Antal",
+        "Arcane",
         "Arclight",
         "Ardelia",
         "Avywenna",
@@ -56579,6 +58602,7 @@
         "Akekuri",
         "Alesh",
         "Antal",
+        "Arcane",
         "Arclight",
         "Ardelia",
         "Avywenna",
@@ -56630,6 +58654,7 @@
         "Akekuri",
         "Alesh",
         "Antal",
+        "Arcane",
         "Arclight",
         "Ardelia",
         "Avywenna",
@@ -56739,7 +58764,7 @@
   ],
   "boss": {
     "title": "Progression Materials",
-    "count": 28
+    "count": 30
   },
   "bossGroups": [
     {
@@ -56879,6 +58904,7 @@
       ],
       "chars": [
         "Antal",
+        "Arcane",
         "Arclight",
         "Ardelia",
         "Avywenna",
@@ -56912,7 +58938,7 @@
           "id": "Triphasic_Nanoflake",
           "name": "Triphasic Nanoflake",
           "rar": 5,
-          "kind": "skill",
+          "kind": "gem",
           "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
           "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
           "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake",
@@ -56922,6 +58948,7 @@
       "chars": [
         "Akekuri",
         "Alesh",
+        "Arcane",
         "Avywenna",
         "Da Pan",
         "Fluorite",
@@ -56945,7 +58972,7 @@
   "materialClassificationAudit": {
     "classification": "explicit-source-name-lists",
     "sourceCheckedAt": "2026-07-14",
-    "rosterCount": 28,
+    "rosterCount": 30,
     "growth": {
       "label": "Growth Materials",
       "materialNames": [
@@ -56962,6 +58989,7 @@
         "Akekuri",
         "Alesh",
         "Antal",
+        "Arcane",
         "Arclight",
         "Ardelia",
         "Avywenna",
@@ -56992,6 +59020,7 @@
         "Akekuri",
         "Alesh",
         "Antal",
+        "Arcane",
         "Arclight",
         "Ardelia",
         "Avywenna",
@@ -57017,6 +59046,9 @@
         "Xaihi",
         "Yvonne",
         "Zhuang Fangyi"
+      ],
+      "pendingSourceCharacters": [
+        "Liino"
       ],
       "missing": [],
       "extra": [],
@@ -57043,6 +59075,7 @@
         "Akekuri",
         "Alesh",
         "Antal",
+        "Arcane",
         "Arclight",
         "Ardelia",
         "Avywenna",
@@ -57073,6 +59106,7 @@
         "Akekuri",
         "Alesh",
         "Antal",
+        "Arcane",
         "Arclight",
         "Ardelia",
         "Avywenna",
@@ -57098,6 +59132,9 @@
         "Xaihi",
         "Yvonne",
         "Zhuang Fangyi"
+      ],
+      "pendingSourceCharacters": [
+        "Liino"
       ],
       "missing": [],
       "extra": [],
@@ -57161,6 +59198,7 @@
           "Akekuri",
           "Alesh",
           "Antal",
+          "Arcane",
           "Arclight",
           "Ardelia",
           "Avywenna",
@@ -57197,6 +59235,7 @@
           "Akekuri",
           "Alesh",
           "Antal",
+          "Arcane",
           "Arclight",
           "Ardelia",
           "Avywenna",
@@ -57233,6 +59272,7 @@
           "Akekuri",
           "Alesh",
           "Antal",
+          "Arcane",
           "Arclight",
           "Ardelia",
           "Avywenna",
@@ -57269,6 +59309,7 @@
           "Akekuri",
           "Alesh",
           "Antal",
+          "Arcane",
           "Arclight",
           "Ardelia",
           "Avywenna",
@@ -57305,6 +59346,7 @@
           "Akekuri",
           "Alesh",
           "Antal",
+          "Arcane",
           "Arclight",
           "Ardelia",
           "Avywenna",
@@ -57341,6 +59383,7 @@
           "Akekuri",
           "Alesh",
           "Antal",
+          "Arcane",
           "Arclight",
           "Ardelia",
           "Avywenna",
@@ -57377,6 +59420,7 @@
           "Akekuri",
           "Alesh",
           "Antal",
+          "Arcane",
           "Arclight",
           "Ardelia",
           "Avywenna",
@@ -57413,6 +59457,7 @@
           "Akekuri",
           "Alesh",
           "Antal",
+          "Arcane",
           "Arclight",
           "Ardelia",
           "Avywenna",

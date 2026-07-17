@@ -184,7 +184,7 @@ public sealed class WuWaMaintenanceUiTests
     {
         var page = ReadAppFile("MainPage.xaml.cs");
 
-        Assert.Contains("sessions.RequestLaunchAsync(gameId, lease.CancellationToken)", page, StringComparison.Ordinal);
+        Assert.Contains("sessions.RequestLaunchAsync(gameId, cancellationToken)", page, StringComparison.Ordinal);
         Assert.Contains("hoyoPlayExecutor.OpenOrObserveCurrentAsync", page, StringComparison.Ordinal);
         var launchStart = page.IndexOf("private async void LaunchButton_Click", StringComparison.Ordinal);
         var launchEnd = page.IndexOf("private async void ChooseGameFolderButton_Click", StringComparison.Ordinal);

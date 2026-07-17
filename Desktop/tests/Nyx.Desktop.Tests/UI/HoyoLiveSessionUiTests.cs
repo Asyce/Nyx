@@ -36,7 +36,7 @@ public sealed class HoyoLiveSessionUiTests
     {
         var page = ReadAppFile("MainPage.xaml.cs");
 
-        Assert.Contains("gameSnapshot = sessions.GetSnapshot(selected.Id)", page, StringComparison.Ordinal);
+        Assert.Contains("gameSnapshot = sessions.TryGetSnapshot(selected.Id", page, StringComparison.Ordinal);
         Assert.Contains("selected.Id is \"hsr\" or \"zzz\"", page, StringComparison.Ordinal);
         Assert.Contains("RenderHoyo(selected)", page, StringComparison.Ordinal);
         Assert.Contains("e.Snapshots.TryGetValue(selected.Id", page, StringComparison.Ordinal);

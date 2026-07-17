@@ -19,7 +19,7 @@ public sealed class LatestContentUiTests
         Assert.Contains("LatestCards.Add(LatestContentCardItem.From(card, cardIndex++))", render, StringComparison.Ordinal);
         Assert.Contains("var cardIndex = 0", render, StringComparison.Ordinal);
         Assert.DoesNotContain("ApprovedLink", render, StringComparison.Ordinal);
-        Assert.DoesNotContain("Image", render, StringComparison.Ordinal);
+        Assert.Contains("IsApprovedNewsUri", code, StringComparison.Ordinal);
     }
 
     [Fact]
@@ -36,6 +36,43 @@ public sealed class LatestContentUiTests
         Assert.DoesNotContain("sessionRefresh", handler, StringComparison.Ordinal);
         Assert.DoesNotContain("gameSnapshot", handler, StringComparison.Ordinal);
         Assert.DoesNotContain("updaterStatus", handler, StringComparison.Ordinal);
+    }
+
+    [Fact]
+    public void Official_news_flag_hides_cards_and_blocks_stale_card_clicks()
+    {
+        var code = ReadAppFile("MainPage.xaml.cs");
+        var render = Slice(code, "private void RenderLatestContent()", "private void RenderGenshin()");
+        var click = Slice(code, "private async void LatestCard_Click", "private static bool IsApprovedNewsUri");
+
+        Assert.Contains("FeatureFlags.OfficialNews", render, StringComparison.Ordinal);
+        Assert.Contains("LatestStrip.Visibility = officialNewsEnabled", render, StringComparison.Ordinal);
+        Assert.Contains("if (!officialNewsEnabled) return", render, StringComparison.Ordinal);
+        Assert.Contains("FeatureFlags.OfficialNews", click, StringComparison.Ordinal);
+    }
+
+    [Fact]
+    public void Click_time_news_policy_uses_game_specific_hosts()
+    {
+        var code = ReadAppFile("MainPage.xaml.cs");
+        var policy = Slice(code, "private static bool IsApprovedNewsUri", "private async void KofiButton_Click");
+
+        Assert.Contains("sg-hk4e-api.hoyoverse.com", policy, StringComparison.Ordinal);
+        Assert.Contains("sg-hkrpg-api.hoyoverse.com", policy, StringComparison.Ordinal);
+        Assert.Contains("sg-announcement-api.hoyoverse.com", policy, StringComparison.Ordinal);
+        Assert.DoesNotContain("host.EndsWith(\".hoyoverse.com\"", policy, StringComparison.Ordinal);
+        Assert.DoesNotContain("host.EndsWith", policy, StringComparison.Ordinal);
+    }
+
+    [Fact]
+    public void Ordinary_window_focus_never_refreshes_remote_content()
+    {
+        var app = ReadAppFile("App.xaml.cs");
+        var handler = Slice(app, "private async Task RefreshAfterActivationAsync", "private static async Task DisposeRefreshAsync");
+
+        Assert.Contains("SessionRefresh.RefreshNowAsync", handler, StringComparison.Ordinal);
+        Assert.DoesNotContain("RefreshOnReactivationAsync", handler, StringComparison.Ordinal);
+        Assert.DoesNotContain("RefreshAsync", handler, StringComparison.Ordinal);
     }
 
     [Fact]
@@ -80,6 +117,7 @@ public sealed class LatestContentUiTests
         Assert.Contains("_latestContent.Start();", app, StringComparison.Ordinal);
         Assert.Contains("DisposeLatestContentAsync", app, StringComparison.Ordinal);
         Assert.Contains("Assets\\Content\\**\\*", project, StringComparison.Ordinal);
+        Assert.Contains("CopyToOutputDirectory=\"PreserveNewest\"", project, StringComparison.Ordinal);
         Assert.True(File.Exists(bundled));
         Assert.True(new FileInfo(bundled).Length > 0);
     }

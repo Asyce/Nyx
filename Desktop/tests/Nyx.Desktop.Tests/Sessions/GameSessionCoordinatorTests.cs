@@ -3,6 +3,7 @@ using System.Diagnostics;
 using System.Reflection;
 using Nyx.Desktop.Core.Games;
 using Nyx.Desktop.Core.Sessions;
+using Nyx.Desktop.Core.State;
 
 namespace Nyx.Desktop.Tests.Sessions;
 
@@ -92,6 +93,44 @@ public sealed class GameSessionCoordinatorTests
         Assert.Throws<UnsupportedGameException>(() => coordinator.GetSnapshot("genshin"));
         Assert.Throws<UnsupportedGameException>(() => coordinator.GetSnapshot("endfield"));
         coordinator.Shutdown();
+    }
+
+    [Theory]
+    [InlineData("evil")]
+    [InlineData("custom-")]
+    [InlineData("custom_bad")]
+    public void Coordinator_rejects_noncanonical_custom_adapter_ids(string gameId)
+    {
+        var fixture = new SessionFixture();
+
+        Assert.Throws<UnsupportedGameException>(() => new GameSessionCoordinator(
+            fixture.Adapters.Values.Append(new FakeSessionAdapter(gameId))));
+    }
+
+    [Fact]
+    public async Task Startup_state_registers_no_invalid_official_colliding_or_duplicate_custom_identity()
+    {
+        var loaded = LauncherStateMigrations.Read("""
+        {"version":1,"customGames":[
+          {"id":"evil","name":"Evil","executablePath":"C:\\evil.exe","iconPath":"C:\\evil.png"},
+          {"id":"gi","name":"Collision","executablePath":"C:\\gi.exe","iconPath":"C:\\gi.png"},
+          {"id":"custom_bad","name":"Malformed","executablePath":"C:\\bad.exe","iconPath":"C:\\bad.png"},
+          {"id":"custom-duplicate","name":"First","executablePath":"C:\\one.exe","iconPath":"C:\\one.png"},
+          {"id":"custom-duplicate","name":"Second","executablePath":"C:\\two.exe","iconPath":"C:\\two.png"},
+          {"id":"custom-good","name":"Good","executablePath":"C:\\good.exe","iconPath":"C:\\good.png"}
+        ]}
+        """);
+        var fixture = new SessionFixture();
+        var startupAdapters = fixture.Adapters.Values.Cast<IGameSessionAdapter>()
+            .Concat(loaded.State!.CustomGames.Select(game => new FakeSessionAdapter(game.Id)));
+
+        await using var coordinator = new GameSessionCoordinator(startupAdapters);
+
+        Assert.True(coordinator.TryGetSnapshot("custom-good", out _));
+        Assert.False(coordinator.TryGetSnapshot("evil", out _));
+        Assert.False(coordinator.TryGetSnapshot("custom_bad", out _));
+        Assert.False(coordinator.TryGetSnapshot("custom-duplicate", out _));
+        Assert.False(coordinator.TryRegisterCustomAdapter(new FakeSessionAdapter("gi")));
     }
 
     [Theory]

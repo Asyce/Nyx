@@ -2,7 +2,7 @@
   "provider": "EndfieldWiki",
   "game": "endfield",
   "gameName": "Arknights: Endfield",
-  "scrapedAt": "2026-07-10T08:51:16.237Z",
+  "scrapedAt": "2026-07-17T03:24:13.350Z",
   "source": {
     "site": "endfield.wiki.gg",
     "api": "MediaWiki API rendered item boxes"
@@ -327,7 +327,7 @@
       "pageName": "Triphasic_Nanoflake",
       "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake",
       "rarity": 5,
-      "kind": "skill",
+      "kind": "gem",
       "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
       "icon": {
         "path": "EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",

@@ -23,15 +23,18 @@ public sealed class DesktopStartReadinessTests
     }
 
     [Fact]
-    public void Start_script_has_fail_closed_normal_user_and_package_identity_boundaries()
+    public void Start_script_has_fail_closed_normal_user_and_unpackaged_boundaries()
     {
         var script = File.ReadAllText(StartScript);
 
         Assert.Contains("Version.Build -lt 22621", script);
         Assert.Contains("Architecture]::X64", script);
         Assert.Contains("--list-sdks", script);
-        Assert.Contains("WinAppRunSupportInfo", script);
-        Assert.Contains("_WinAppRunSupportActive: true", script);
+        Assert.Contains("WindowsPackageType", script);
+        Assert.Contains("WindowsAppSDKSelfContained", script);
+        Assert.Contains("PublishTrimmed", script);
+        Assert.Contains("Test-UnpackagedOutput", script);
+        Assert.Contains("Nyx.Desktop.App.pri", script);
         Assert.Contains("if ($isAdministrator)", script);
         Assert.True(
             script.IndexOf("if ($isAdministrator)", StringComparison.Ordinal) <
@@ -39,7 +42,8 @@ public sealed class DesktopStartReadinessTests
             "Elevation must be refused before optional restore.");
         Assert.Contains("if ($CheckOnly -and $Restore)", script);
         Assert.Contains("--no-restore", script);
-        Assert.Contains("'run'", script);
+        Assert.Contains("'build'", script);
+        Assert.Contains("[System.Diagnostics.Process]::Start", script);
         Assert.DoesNotContain("Start-Process", script, StringComparison.OrdinalIgnoreCase);
         Assert.DoesNotContain("Verb RunAs", script, StringComparison.OrdinalIgnoreCase);
         Assert.DoesNotContain("AppX\\Nyx.Desktop.App.exe", script, StringComparison.OrdinalIgnoreCase);
@@ -107,7 +111,7 @@ public sealed class DesktopStartReadinessTests
     }
 
     [Fact]
-    public void Fixture_reports_inactive_run_support_without_starting()
+    public void Fixture_reports_incomplete_unpackaged_output_without_starting()
     {
         using var fixture = StartFixture.Create("run support fixture");
         fixture.WriteMinimumProject("10.0.100");
@@ -116,7 +120,7 @@ public sealed class DesktopStartReadinessTests
         var result = RunPowerShell(fixture.StartScript, "-CheckOnly");
 
         Assert.Equal(13, result.ExitCode);
-        Assert.Contains("packaged-app run check is inactive", result.Output);
+        Assert.Contains("unpackaged x64 build output is incomplete", result.Output);
         Assert.DoesNotContain("Starting Nyx", result.Output);
     }
 
@@ -515,7 +519,7 @@ public sealed class DesktopStartReadinessTests
             var appRoot = Path.Combine(Root, "src", "Nyx.Desktop.App");
             Directory.CreateDirectory(appRoot);
             File.WriteAllText(Path.Combine(appRoot, "Nyx.Desktop.App.csproj"),
-                "<Project Sdk=\"Microsoft.NET.Sdk\"><PropertyGroup><TargetFramework>net10.0-windows10.0.22621.0</TargetFramework><OutputType>WinExe</OutputType></PropertyGroup><ItemGroup><PackageReference Include=\"Microsoft.Windows.SDK.BuildTools.WinApp\" Version=\"0.4.0\" /></ItemGroup></Project>");
+                "<Project Sdk=\"Microsoft.NET.Sdk\"><PropertyGroup><TargetFramework>net10.0-windows10.0.22621.0</TargetFramework><OutputType>WinExe</OutputType><WindowsPackageType>None</WindowsPackageType><WindowsAppSDKSelfContained>true</WindowsAppSDKSelfContained><PublishTrimmed>false</PublishTrimmed></PropertyGroup><ItemGroup><PackageReference Include=\"Microsoft.WindowsAppSDK\" Version=\"2.2.0\" /></ItemGroup></Project>");
             File.WriteAllText(Path.Combine(appRoot, "Package.appxmanifest"), "<Package />");
         }
 
@@ -525,7 +529,7 @@ public sealed class DesktopStartReadinessTests
             Directory.CreateDirectory(objectRoot);
             File.WriteAllText(
                 Path.Combine(objectRoot, "project.assets.json"),
-                "{\"libraries\":{\"Microsoft.Windows.SDK.BuildTools.WinApp/0.4.0\":{}}}");
+                "{\"libraries\":{\"Microsoft.WindowsAppSDK/2.2.0\":{}}}");
         }
 
         public void WriteOversizedProject(string sdk)

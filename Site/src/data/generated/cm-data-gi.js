@@ -273619,11 +273619,12 @@
         "../../Database/GenshinWiki/birthday-art/hutao/03-Hu Tao Birthday 2023.jpg",
         "../../Database/GenshinWiki/birthday-art/hutao/04-Hu Tao Birthday 2024.png",
         "../../Database/GenshinWiki/birthday-art/hutao/05-Hu Tao Birthday 2025.png",
-        "../../Database/GenshinWiki/birthday-art/hutao/06-Hu Tao Birthday 2024 - Miyoushe.png",
-        "../../Database/GenshinWiki/birthday-art/hutao/07-Hu Tao TPRGT 2022 - Aether.png",
-        "../../Database/GenshinWiki/birthday-art/hutao/08-Hu Tao TPRGT 2022 - Lumine.png",
-        "../../Database/GenshinWiki/birthday-art/hutao/09-Hu Tao TPRGT 2023 - Aether.png",
-        "../../Database/GenshinWiki/birthday-art/hutao/10-Hu Tao TPRGT 2023 - Lumine.png"
+        "../../Database/GenshinWiki/birthday-art/hutao/06-Hu Tao Birthday 2026.jpg",
+        "../../Database/GenshinWiki/birthday-art/hutao/07-Hu Tao Birthday 2024 - Miyoushe.png",
+        "../../Database/GenshinWiki/birthday-art/hutao/08-Hu Tao TPRGT 2022 - Aether.png",
+        "../../Database/GenshinWiki/birthday-art/hutao/09-Hu Tao TPRGT 2022 - Lumine.png",
+        "../../Database/GenshinWiki/birthday-art/hutao/10-Hu Tao TPRGT 2023 - Aether.png",
+        "../../Database/GenshinWiki/birthday-art/hutao/11-Hu Tao TPRGT 2023 - Lumine.png"
       ],
       "namecard": "../../Database/GenshinWiki/namecards/Hutao.png",
       "skillIcons": [

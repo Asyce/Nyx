@@ -56,6 +56,16 @@ pub trait SnapshotDecoder {
     fn decode(&mut self, frame: &[u8]) -> Option<Vec<AchievementRecord>>;
 }
 
+pub trait CancelSignal {
+    fn is_cancelled(&self) -> bool;
+}
+
+impl CancelSignal for AtomicBool {
+    fn is_cancelled(&self) -> bool {
+        self.load(Ordering::SeqCst)
+    }
+}
+
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
 pub enum BackendChoice {
     PktMon,
@@ -71,17 +81,12 @@ pub enum BackendSelectionError {
 pub fn choose_backend(
     game: Game,
     administrator: bool,
-    pktmon_available: bool,
 ) -> Result<BackendChoice, BackendSelectionError> {
-    if game == Game::Hsr || pktmon_available {
-        return administrator
-            .then_some(BackendChoice::PktMon)
-            .ok_or(BackendSelectionError::AdministratorRequired);
-    }
-    if administrator {
-        Err(BackendSelectionError::NpcapRejectsAdministrator)
-    } else {
-        Ok(BackendChoice::Npcap)
+    match (game, administrator) {
+        (Game::Gi, false) => Ok(BackendChoice::Npcap),
+        (Game::Gi, true) => Err(BackendSelectionError::NpcapRejectsAdministrator),
+        (Game::Hsr, true) => Ok(BackendChoice::PktMon),
+        (Game::Hsr, false) => Err(BackendSelectionError::AdministratorRequired),
     }
 }
 
@@ -135,7 +140,7 @@ pub fn capture_complete_snapshot<S: FrameSource + ?Sized, D: SnapshotDecoder>(
     selected_catalog: &[u32],
     other_catalog: &[u32],
     limits: CaptureLimits,
-    cancelled: &AtomicBool,
+    cancelled: &dyn CancelSignal,
 ) -> Result<Vec<u32>, CaptureError> {
     if limits.timeout > MAX_TIMEOUT
         || limits.max_packets > MAX_PACKETS
@@ -153,7 +158,7 @@ pub fn capture_complete_snapshot<S: FrameSource + ?Sized, D: SnapshotDecoder>(
     let mut packets = 0_u64;
     let mut bytes = 0_u64;
     let result = loop {
-        if cancelled.load(Ordering::SeqCst) {
+        if cancelled.is_cancelled() {
             break Err(CaptureError::Cancelled);
         }
         if started.elapsed() >= limits.timeout {
@@ -331,26 +336,16 @@ mod tests {
 
     #[test]
     fn backend_selection_preserves_hsr_and_rejects_elevated_npcap() {
+        assert_eq!(choose_backend(Game::Hsr, true), Ok(BackendChoice::PktMon));
         assert_eq!(
-            choose_backend(Game::Hsr, true, false),
-            Ok(BackendChoice::PktMon)
-        );
-        assert_eq!(
-            choose_backend(Game::Hsr, false, false),
+            choose_backend(Game::Hsr, false),
             Err(BackendSelectionError::AdministratorRequired)
         );
         assert_eq!(
-            choose_backend(Game::Gi, true, true),
-            Ok(BackendChoice::PktMon)
-        );
-        assert_eq!(
-            choose_backend(Game::Gi, false, false),
-            Ok(BackendChoice::Npcap)
-        );
-        assert_eq!(
-            choose_backend(Game::Gi, true, false),
+            choose_backend(Game::Gi, true),
             Err(BackendSelectionError::NpcapRejectsAdministrator)
         );
+        assert_eq!(choose_backend(Game::Gi, false), Ok(BackendChoice::Npcap));
     }
 
     #[test]

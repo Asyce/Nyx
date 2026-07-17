@@ -1118,31 +1118,6 @@ function endfieldReqFromMaterials(materials) {
   };
 }
 
-// Fallback only. Current EndfieldWiki scraper runs emit exact per-character
-// material tables; this shared schedule is used only for older or partial data.
-function endfieldSharedReq() {
-  const ascension = [
-    endfieldMaterial('Credits', 500000, 'currency'),
-    endfieldMaterial('Protohedron', 46, 'gem'),
-    endfieldMaterial('Protoprism', 46, 'gem'),
-    endfieldMaterial('Heavy Cast Die', 36, 'mob'),
-    endfieldMaterial('Cast Die', 96, 'mob'),
-    endfieldMaterial('Arms Inspector', 168, 'mob'),
-    endfieldMaterial('Mark of Perseverance', 12, 'boss'),
-  ];
-  const talents = [
-    endfieldMaterial('Credits', 700000, 'currency'),
-    endfieldMaterial('Advanced Combat Record', 12, 'book'),
-    endfieldMaterial('Intermediate Combat Record', 21, 'book'),
-    endfieldMaterial('Elementary Combat Record', 9, 'book'),
-    endfieldMaterial('Elementary Cognitive Carrier', 18, 'specialty'),
-    endfieldMaterial('Heavy Cast Die', 24, 'mob'),
-    endfieldMaterial('Cast Die', 18, 'mob'),
-    endfieldMaterial('D96 Steel Sample 4', 12, 'weekly'),
-  ];
-  return { ascension, talents, ascCost: 0, talentCost: 0, currency: 0 };
-}
-
 // G37/ZZZ: the 5 skill-type icons are SHARED across all agents (Basic / Dodge /
 // Assist / Special Attack / Chain Attack), sourced from static.nanoka.cc.
 const ZZZ_SKILL_ICONS = [
@@ -3721,7 +3696,13 @@ function endfieldExplicitMaterialView(roster, { label, names, reqFields, source 
   groups.forEach((group) => group.chars.sort((a, b) => a.localeCompare(b)));
 
   const generatedCharacters = new Set(groups.flatMap((group) => group.chars));
-  const rosterCharacters = new Set((roster || []).map((ch) => ch.n));
+  const pendingSourceCharacters = (roster || [])
+    .filter((ch) => ch.materialSourceStatus === 'pending-source')
+    .map((ch) => ch.n)
+    .sort();
+  const rosterCharacters = new Set((roster || [])
+    .filter((ch) => ch.materialSourceStatus !== 'pending-source')
+    .map((ch) => ch.n));
   const missing = [...sourceCharacters].filter((name) => !generatedCharacters.has(name)).sort();
   const extra = [...generatedCharacters].filter((name) => !sourceCharacters.has(name)).sort();
   const withoutSourceRequirement = [...rosterCharacters].filter((name) => !sourceCharacters.has(name)).sort();
@@ -3739,6 +3720,7 @@ function endfieldExplicitMaterialView(roster, { label, names, reqFields, source 
       requirementFields:reqFields.slice(),
       sourceCharacters:[...sourceCharacters].sort(),
       generatedCharacters:[...generatedCharacters].sort(),
+      pendingSourceCharacters,
       missing,
       extra,
       source:{ ...source },
@@ -3831,7 +3813,7 @@ function buildEndfieldRoster() {
     const skillItems = recommendedGear.length ? recommendedGear : endfieldItemsFromCharacter(ch, 'matskill', 'gear');
     const statItems = endfieldItemsFromCharacter(ch, 'matstats', 'gear');
     const signatureWeapon = endfieldSignatureWeapon(ch, recommendedWeapons, wikiWeaponsByName);
-    const reqBase = endfieldReqFromMaterials(ch.materials) || endfieldSharedReq();
+    const reqBase = endfieldReqFromMaterials(ch.materials);
     const req = signatureWeapon ? {
       ...(reqBase || {}),
       weapon: {
@@ -3876,6 +3858,7 @@ function buildEndfieldRoster() {
         signatureWeaponId: signatureWeapon.id,
         signatureWeaponName: signatureWeapon.name,
       } : {}),
+      materialSourceStatus: reqBase ? 'sourced' : 'pending-source',
       req,
       aePreferredItems: preferredWeapons,
       aeSkillItems: skillItems.length ? skillItems : preferredWeapons,

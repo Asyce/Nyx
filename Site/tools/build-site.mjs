@@ -81,6 +81,16 @@ await copyFile(
   path.resolve(generatedDataDir, 'launcher-content-v1.json'),
   path.resolve(distDir, 'launcher-content-v1.json'),
 );
+await copyFile(
+  path.resolve(generatedDataDir, 'launcher-banners-v1.json'),
+  path.resolve(distDir, 'launcher-banners-v1.json'),
+);
+await fs.rm(path.resolve(distDir, 'launcher-art'), { recursive: true, force: true });
+await fs.cp(
+  path.resolve(generatedDataDir, 'launcher-art'),
+  path.resolve(distDir, 'launcher-art'),
+  { recursive: true },
+);
 
 await compileJsxBundle(
   [

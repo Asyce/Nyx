@@ -1,11 +1,12 @@
-use crate::Game;
+use crate::{Game, capture::CancelSignal, cli::OutputRoot};
 use std::{
     ffi::OsStr,
     fmt,
     fs::{File, OpenOptions},
     io::Write,
     os::windows::{ffi::OsStrExt, fs::OpenOptionsExt, io::AsRawHandle},
-    path::{Path, PathBuf},
+    path::{Component, Path, PathBuf, Prefix},
+    time::{Duration, SystemTime},
 };
 use windows::{
     Win32::{
@@ -17,18 +18,22 @@ use windows::{
             GetFileInformationByHandle, INVALID_FILE_ATTRIBUTES, MOVEFILE_WRITE_THROUGH,
             MoveFileExW,
         },
-        System::Com::CoTaskMemFree,
-        UI::Shell::{FOLDERID_LocalAppData, KF_FLAG_DEFAULT, SHGetKnownFolderPath},
+        System::{Com::CoTaskMemFree, SystemInformation::GetSystemTime},
+        UI::Shell::{
+            FOLDERID_Downloads, FOLDERID_LocalAppData, KF_FLAG_DEFAULT, SHGetKnownFolderPath,
+        },
     },
     core::PCWSTR,
 };
 
 const DRIVE_FIXED: u32 = 3;
+const STALE_TEMP_AGE: Duration = Duration::from_secs(24 * 60 * 60);
 
 #[derive(Debug)]
 pub enum OutputError {
     UnsafeLocation,
     Exists,
+    Cancelled,
     Io(std::io::Error),
 }
 
@@ -42,6 +47,7 @@ impl fmt::Display for OutputError {
                 formatter,
                 "an export already exists; move or delete it before trying again"
             ),
+            Self::Cancelled => write!(formatter, "export cancelled"),
             Self::Io(_) => write!(
                 formatter,
                 "the protected local JSON could not be written safely"
@@ -71,9 +77,9 @@ fn wide(value: &OsStr) -> Result<Vec<u16>, OutputError> {
     Ok(encoded.into_iter().chain([0]).collect())
 }
 
-fn local_app_data() -> Result<PathBuf, OutputError> {
+fn known_folder(id: &windows::core::GUID) -> Result<PathBuf, OutputError> {
     unsafe {
-        let value = SHGetKnownFolderPath(&FOLDERID_LocalAppData, KF_FLAG_DEFAULT, HANDLE(0))
+        let value = SHGetKnownFolderPath(id, KF_FLAG_DEFAULT, HANDLE(0))
             .map_err(|error| OutputError::Io(error.into()))?;
         let decoded = value.to_string();
         CoTaskMemFree(Some(value.0.cast()));
@@ -81,6 +87,33 @@ fn local_app_data() -> Result<PathBuf, OutputError> {
             .map(PathBuf::from)
             .map_err(|_| OutputError::UnsafeLocation)
     }
+}
+
+fn local_app_data() -> Result<PathBuf, OutputError> {
+    known_folder(&FOLDERID_LocalAppData)
+}
+
+fn downloads() -> Result<PathBuf, OutputError> {
+    known_folder(&FOLDERID_Downloads)
+}
+
+fn require_absolute_local_path(path: &Path) -> Result<(), OutputError> {
+    let mut components = path.components();
+    match components.next() {
+        Some(Component::Prefix(prefix)) if matches!(prefix.kind(), Prefix::Disk(_)) => {}
+        _ => return Err(OutputError::UnsafeLocation),
+    }
+    if components.next() != Some(Component::RootDir)
+        || components.any(|part| {
+            matches!(
+                part,
+                Component::CurDir | Component::ParentDir | Component::Prefix(_)
+            )
+        })
+    {
+        return Err(OutputError::UnsafeLocation);
+    }
+    Ok(())
 }
 
 fn require_fixed_volume(path: &Path) -> Result<(), OutputError> {
@@ -149,6 +182,7 @@ fn hold_directory(path: &Path) -> Result<File, OutputError> {
 }
 
 fn secure_export_directory(base: &Path) -> Result<(PathBuf, File), OutputError> {
+    require_absolute_local_path(base)?;
     require_fixed_volume(base)?;
     require_plain_ancestors(base)?;
     let pengo = base.join("Pengo");
@@ -159,12 +193,110 @@ fn secure_export_directory(base: &Path) -> Result<(PathBuf, File), OutputError> 
     Ok((exports, handle))
 }
 
+pub struct LauncherOutput {
+    directory: PathBuf,
+    relative_directory: &'static str,
+    _held_directory: File,
+}
+
+pub fn prepare_launcher_output(
+    root: &OutputRoot,
+    game: Game,
+) -> Result<LauncherOutput, OutputError> {
+    let base = match root {
+        OutputRoot::Downloads => {
+            let downloads = downloads()?;
+            require_absolute_local_path(&downloads)?;
+            require_fixed_volume(&downloads)?;
+            require_plain_ancestors(&downloads)?;
+            let exports = downloads.join("Pengo Exports");
+            ensure_plain_directory(&exports)?;
+            exports
+        }
+        OutputRoot::Fixed(path) => {
+            require_absolute_local_path(path)?;
+            require_fixed_volume(path)?;
+            require_plain_ancestors(path)?;
+            path.clone()
+        }
+    };
+    let game_directory = base.join(game.key());
+    ensure_plain_directory(&game_directory)?;
+    let held = hold_directory(&game_directory)?;
+    scavenge_stale_launcher_temps(&game_directory, SystemTime::now())?;
+    Ok(LauncherOutput {
+        directory: game_directory,
+        relative_directory: game.key(),
+        _held_directory: held,
+    })
+}
+
+fn strict_launcher_temp_name(name: &str) -> bool {
+    const PREFIX: &str = ".pengo-achievements-";
+    const SUFFIX: &str = ".tmp";
+    let Some(body) = name
+        .strip_prefix(PREFIX)
+        .and_then(|value| value.strip_suffix(SUFFIX))
+    else {
+        return false;
+    };
+    if body.len() != 23 || !body.is_ascii() {
+        return false;
+    }
+    let bytes = body.as_bytes();
+    bytes[..8].iter().all(u8::is_ascii_digit)
+        && bytes[8] == b'T'
+        && bytes[9..15].iter().all(u8::is_ascii_digit)
+        && bytes[15] == b'Z'
+        && bytes[16] == b'-'
+        && bytes[17..].iter().all(u8::is_ascii_alphanumeric)
+}
+
+fn scavenge_stale_launcher_temps(directory: &Path, now: SystemTime) -> Result<(), OutputError> {
+    for entry in std::fs::read_dir(directory)? {
+        let entry = entry?;
+        let Some(name) = entry.file_name().to_str().map(str::to_owned) else {
+            continue;
+        };
+        if !strict_launcher_temp_name(&name) || !entry.file_type()?.is_file() {
+            continue;
+        }
+        let modified = entry.metadata()?.modified()?;
+        if now.duration_since(modified).unwrap_or_default() < STALE_TEMP_AGE {
+            continue;
+        }
+        std::fs::remove_file(entry.path())?;
+    }
+    Ok(())
+}
+
 struct TempGuard(PathBuf);
 
 impl Drop for TempGuard {
     fn drop(&mut self) {
         let _ = std::fs::remove_file(&self.0);
     }
+}
+
+fn commit_no_overwrite(from: &Path, to: &Path) -> Result<(), OutputError> {
+    let from = wide(from.as_os_str())?;
+    let to = wide(to.as_os_str())?;
+    if unsafe {
+        MoveFileExW(
+            PCWSTR(from.as_ptr()),
+            PCWSTR(to.as_ptr()),
+            MOVEFILE_WRITE_THROUGH,
+        )
+        .as_bool()
+    } {
+        return Ok(());
+    }
+    let error = std::io::Error::last_os_error();
+    Err(if error.kind() == std::io::ErrorKind::AlreadyExists {
+        OutputError::Exists
+    } else {
+        OutputError::Io(error)
+    })
 }
 
 fn write_export_at(base: &Path, game: Game, ids: &[u32]) -> Result<PathBuf, OutputError> {
@@ -192,25 +324,65 @@ fn write_export_at(base: &Path, game: Game, ids: &[u32]) -> Result<PathBuf, Outp
         .map_err(|error| OutputError::Io(error.error))?;
     drop(_file);
     let mut cleanup = TempGuard(temporary_path);
-    let from = wide(cleanup.0.as_os_str())?;
-    let to = wide(destination.as_os_str())?;
-    if !unsafe {
-        MoveFileExW(
-            PCWSTR(from.as_ptr()),
-            PCWSTR(to.as_ptr()),
-            MOVEFILE_WRITE_THROUGH,
-        )
-        .as_bool()
-    } {
-        let error = std::io::Error::last_os_error();
-        return Err(if error.kind() == std::io::ErrorKind::AlreadyExists {
-            OutputError::Exists
-        } else {
-            OutputError::Io(error)
-        });
-    }
+    commit_no_overwrite(&cleanup.0, &destination)?;
     cleanup.0 = PathBuf::new();
     Ok(destination)
+}
+
+fn utc_timestamp() -> String {
+    let value = unsafe { GetSystemTime() };
+    format!(
+        "{:04}{:02}{:02}T{:02}{:02}{:02}Z",
+        value.wYear, value.wMonth, value.wDay, value.wHour, value.wMinute, value.wSecond
+    )
+}
+
+pub fn write_launcher_export(
+    prepared: &LauncherOutput,
+    game: Game,
+    ids: &[u32],
+    cancelled: &dyn CancelSignal,
+) -> Result<(PathBuf, String), OutputError> {
+    if cancelled.is_cancelled() {
+        return Err(OutputError::Cancelled);
+    }
+    let prefix = format!(".pengo-achievements-{}-", utc_timestamp());
+    let mut temporary = tempfile::Builder::new()
+        .prefix(&prefix)
+        .suffix(".tmp")
+        .tempfile_in(&prepared.directory)?;
+    temporary.write_all(&export_bytes(game, ids))?;
+    temporary.flush()?;
+    if !unsafe { FlushFileBuffers(HANDLE(temporary.as_file().as_raw_handle() as isize)).as_bool() }
+    {
+        return Err(OutputError::Io(std::io::Error::last_os_error()));
+    }
+    if cancelled.is_cancelled() {
+        return Err(OutputError::Cancelled);
+    }
+    let temporary_name = temporary
+        .path()
+        .file_name()
+        .and_then(OsStr::to_str)
+        .ok_or(OutputError::UnsafeLocation)?;
+    let stem = temporary_name
+        .strip_prefix(".pengo-achievements-")
+        .and_then(|value| value.strip_suffix(".tmp"))
+        .ok_or(OutputError::UnsafeLocation)?;
+    let final_name = format!("{stem}.json");
+    let destination = prepared.directory.join(&final_name);
+    let (_file, temporary_path) = temporary
+        .keep()
+        .map_err(|error| OutputError::Io(error.error))?;
+    drop(_file);
+    let mut cleanup = TempGuard(temporary_path);
+    if cancelled.is_cancelled() {
+        return Err(OutputError::Cancelled);
+    }
+    commit_no_overwrite(&cleanup.0, &destination)?;
+    cleanup.0 = PathBuf::new();
+    let relative = format!("{}/{}", prepared.relative_directory, final_name);
+    Ok((destination, relative))
 }
 
 pub fn write_export(game: Game, ids: &[u32]) -> Result<PathBuf, OutputError> {
@@ -220,6 +392,15 @@ pub fn write_export(game: Game, ids: &[u32]) -> Result<PathBuf, OutputError> {
 #[cfg(test)]
 mod tests {
     use super::*;
+    use std::sync::atomic::{AtomicBool, AtomicUsize, Ordering};
+
+    struct CancelOnSecondCheck(AtomicUsize);
+
+    impl CancelSignal for CancelOnSecondCheck {
+        fn is_cancelled(&self) -> bool {
+            self.0.fetch_add(1, Ordering::SeqCst) >= 1
+        }
+    }
 
     #[test]
     fn exact_json_is_bomless() {
@@ -273,5 +454,122 @@ mod tests {
         std::fs::write(&path, b"not an export").unwrap();
         drop(TempGuard(path.clone()));
         assert!(!path.exists());
+    }
+
+    #[test]
+    fn startup_scavenges_only_strictly_named_stale_temporary_files() {
+        let directory = tempfile::tempdir().unwrap();
+        let stale = directory
+            .path()
+            .join(".pengo-achievements-20260717T120000Z-abc123.tmp");
+        let fresh = directory
+            .path()
+            .join(".pengo-achievements-20260717T120001Z-def456.tmp");
+        let unrelated = directory.path().join("notes.tmp");
+        let almost = directory
+            .path()
+            .join(".pengo-achievements-20260717T120000Z-abc12!.tmp");
+        for path in [&stale, &fresh, &unrelated, &almost] {
+            std::fs::write(path, b"preserve unless strictly stale").unwrap();
+        }
+        let now = SystemTime::now();
+        std::fs::File::options()
+            .write(true)
+            .open(&stale)
+            .unwrap()
+            .set_times(
+                std::fs::FileTimes::new()
+                    .set_modified(now - STALE_TEMP_AGE - Duration::from_secs(1)),
+            )
+            .unwrap();
+
+        scavenge_stale_launcher_temps(directory.path(), now).unwrap();
+
+        assert!(!stale.exists());
+        assert!(fresh.exists());
+        assert!(unrelated.exists());
+        assert!(almost.exists());
+    }
+
+    #[test]
+    fn launcher_output_is_unique_atomic_and_exact() {
+        let root = tempfile::tempdir().unwrap();
+        let prepared =
+            prepare_launcher_output(&OutputRoot::Fixed(root.path().to_path_buf()), Game::Hsr)
+                .unwrap();
+        let cancel = AtomicBool::new(false);
+        let (first, first_relative) =
+            write_launcher_export(&prepared, Game::Hsr, &[30, 40], &cancel).unwrap();
+        let (second, second_relative) =
+            write_launcher_export(&prepared, Game::Hsr, &[50], &cancel).unwrap();
+        assert_ne!(first, second);
+        assert_ne!(first_relative, second_relative);
+        assert!(first_relative.starts_with("hsr/"));
+        assert_eq!(
+            std::fs::read(first).unwrap(),
+            export_bytes(Game::Hsr, &[30, 40])
+        );
+        assert_eq!(
+            std::fs::read(second).unwrap(),
+            export_bytes(Game::Hsr, &[50])
+        );
+        assert!(
+            std::fs::read_dir(root.path().join("hsr"))
+                .unwrap()
+                .all(|entry| !entry
+                    .unwrap()
+                    .file_name()
+                    .to_string_lossy()
+                    .ends_with(".tmp"))
+        );
+    }
+
+    #[test]
+    fn launcher_cancel_leaves_no_output_or_temporary_file() {
+        let root = tempfile::tempdir().unwrap();
+        let prepared =
+            prepare_launcher_output(&OutputRoot::Fixed(root.path().to_path_buf()), Game::Gi)
+                .unwrap();
+        let result = write_launcher_export(
+            &prepared,
+            Game::Gi,
+            &[20],
+            &CancelOnSecondCheck(AtomicUsize::new(0)),
+        );
+        assert!(matches!(result, Err(OutputError::Cancelled)));
+        assert_eq!(
+            std::fs::read_dir(root.path().join("gi")).unwrap().count(),
+            0
+        );
+    }
+
+    #[test]
+    fn atomic_commit_never_replaces_an_existing_file() {
+        let directory = tempfile::tempdir().unwrap();
+        let source = directory.path().join("source.tmp");
+        let destination = directory.path().join("destination.json");
+        std::fs::write(&source, b"new secret data").unwrap();
+        std::fs::write(&destination, b"preserved user data").unwrap();
+        assert!(matches!(
+            commit_no_overwrite(&source, &destination),
+            Err(OutputError::Exists)
+        ));
+        assert_eq!(std::fs::read(&destination).unwrap(), b"preserved user data");
+        assert_eq!(std::fs::read(&source).unwrap(), b"new secret data");
+    }
+
+    #[test]
+    fn fixed_root_rejects_relative_parent_unc_and_reparse_paths() {
+        for path in [
+            PathBuf::from("relative"),
+            PathBuf::from(r"C:\safe\..\escape"),
+            PathBuf::from(r"\\server\share"),
+            PathBuf::from(r"\\?\C:\device"),
+        ] {
+            assert!(matches!(
+                prepare_launcher_output(&OutputRoot::Fixed(path), Game::Gi),
+                Err(OutputError::UnsafeLocation)
+            ));
+        }
     }
 }

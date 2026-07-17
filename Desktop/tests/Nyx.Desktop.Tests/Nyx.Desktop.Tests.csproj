@@ -22,6 +22,8 @@
     <ProjectReference Include="..\..\src\Nyx.Desktop.Core\Nyx.Desktop.Core.csproj" />
     <ProjectReference Include="..\..\src\Nyx.Desktop.Infrastructure\Nyx.Desktop.Infrastructure.csproj" />
     <ProjectReference Include="..\..\tools\Nyx.Desktop.ReadOnlyPilot\Nyx.Desktop.ReadOnlyPilot.csproj" />
+    <ProjectReference Include="..\Nyx.Desktop.StateWorker\Nyx.Desktop.StateWorker.csproj"
+                      ReferenceOutputAssembly="false" />
   </ItemGroup>
 
   <ItemGroup>

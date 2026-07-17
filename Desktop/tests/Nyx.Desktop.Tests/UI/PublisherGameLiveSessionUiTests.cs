@@ -12,7 +12,8 @@ public sealed class PublisherGameLiveSessionUiTests
         Assert.Contains("PublisherGameDirectLaunchFactory.Create()", app, StringComparison.Ordinal);
         Assert.Contains("var wuwaRootLocator = new WuWaInstallRootLocator()", app, StringComparison.Ordinal);
         Assert.Contains("wuwaRootLocator.LocateRoot", app, StringComparison.Ordinal);
-        Assert.Contains("ApplicationData.Current.LocalSettings.Values", app, StringComparison.Ordinal);
+        Assert.Contains("Preferences.EndfieldInstallRoot", app, StringComparison.Ordinal);
+        Assert.DoesNotContain("ApplicationData.Current", app, StringComparison.Ordinal);
         Assert.Contains("EndfieldRootStore.Load", app, StringComparison.Ordinal);
         Assert.Contains("\"wuwa\" or \"ae\" => PublisherGameSessions[game.Id]", app, StringComparison.Ordinal);
         Assert.DoesNotContain(@"D:\Gaming", app, StringComparison.OrdinalIgnoreCase);

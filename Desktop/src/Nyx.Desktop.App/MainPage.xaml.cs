@@ -2,20 +2,28 @@ using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Automation;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Media;
+using Microsoft.UI.Xaml.Media.Imaging;
+using Windows.ApplicationModel.DataTransfer;
 using Windows.Storage.Pickers;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Globalization;
 using Nyx.Desktop.Core.Content;
+using Nyx.Desktop.Core.Diagnostics;
+using Nyx.Desktop.Core.Exports;
+using Nyx.Desktop.Core.Features;
 using Nyx.Desktop.Core.Games;
 using Nyx.Desktop.Core.Genshin;
 using Nyx.Desktop.Core.Hoyo;
 using Nyx.Desktop.Core.Launching;
 using Nyx.Desktop.Core.PublisherMaintenance;
 using Nyx.Desktop.Core.PublisherGames;
+using Nyx.Desktop.Core.Recovery;
 using Nyx.Desktop.Core.Sessions;
-using Nyx.Desktop.Core.Tools;
+using Nyx.Desktop.Core.State;
 using Nyx.Desktop.Infrastructure.Genshin;
+using Nyx.Desktop.Infrastructure.Games;
+using Nyx.Desktop.Infrastructure.Content;
 using Nyx.Desktop.Infrastructure.Hoyo;
 using Nyx.Desktop.Infrastructure.PublisherMaintenance;
 using Nyx.Desktop.Infrastructure.PublisherGames;
@@ -96,6 +104,9 @@ public sealed partial class MainPage : Page
     private readonly GameSessionRefreshPump sessionRefresh;
     private readonly SessionUiLifetime sessionUiLifetime;
     private readonly ILatestContentSource latestContent;
+    private readonly LauncherBannersContentService launcherBanners;
+    private readonly ExportCoordinator exports;
+    private readonly UserConfirmedExportSignalWaiter exportSignals;
     private readonly HoyoPublisherStatusSource publisherStatus;
     private readonly GenshinGameSessionAdapter genshinSession;
     private readonly IReadOnlyDictionary<string, HoyoGameSessionAdapter> hoyoSessions;
@@ -105,6 +116,8 @@ public sealed partial class MainPage : Page
     private readonly EndfieldInstallRootStore endfieldRootStore;
     private readonly EndfieldOfficialMaintenanceService endfieldMaintenance;
     private readonly App app;
+    private readonly LauncherStateController launcherState;
+    private readonly UserAssetStore userAssets;
     private readonly WindowsGenshinCandidateDiscovery discovery;
     private string? updaterRoot;
     private GameSessionSnapshot? gameSnapshot;
@@ -113,10 +126,9 @@ public sealed partial class MainPage : Page
     private bool updaterScanFinished;
     private bool wuwaScanFinished;
     private readonly HashSet<string> gameActionsInFlight = new(StringComparer.Ordinal);
-    private readonly HashSet<(string GameId, PengoWebToolKind Kind)> webToolActionsInFlight = [];
-    private readonly Dictionary<string, (long Generation, string Message)> webToolFeedbackByGame =
-        new(StringComparer.Ordinal);
-    private long nextWebToolFeedbackGeneration;
+    private readonly Dictionary<string, Guid> latestExportJobs = new(StringComparer.Ordinal);
+    private readonly Dictionary<string, (string Revision, string VariantId)> automaticArtVariants = new(StringComparer.Ordinal);
+    private string? lastArtSelectionGameId;
     private bool updaterActionInFlight;
     private bool wuwaActionInFlight;
     private bool endfieldFolderActionInFlight;
@@ -130,6 +142,7 @@ public sealed partial class MainPage : Page
     private OfficialMaintenanceHandoffRequest? wuwaMaintenanceRequest;
     private bool refreshSubscribed;
     private bool latestSubscribed;
+    private bool launcherBannersSubscribed;
     private bool publisherStatusSubscribed;
     private bool selectorSubscribed;
     private bool reactivationSubscribed;
@@ -141,37 +154,27 @@ public sealed partial class MainPage : Page
     private readonly EndfieldUiActionAdmission endfieldUiActions = new();
     private SessionUiLease? pageLease;
 
-    public IReadOnlyList<GameLauncherItem> Games { get; } = GameCatalog.All
-        .Select(game =>
-        {
-            var hero = HeroPresentations[game.Id];
-            return new GameLauncherItem(
-                game.Id,
-                game.DisplayName,
-                IconPaths[game.Id],
-                HeroArtPaths[game.Id],
-                hero.Scale,
-                hero.OffsetX,
-                hero.OffsetY,
-                hero.FadeStart,
-                hero.FadeMid,
-                MaintenanceProviders[game.Id],
-                "⋯",
-                "Checking local status");
-        })
-        .ToArray();
+    public ObservableCollection<GameLauncherItem> Games { get; } = new();
 
     public ObservableCollection<LatestContentCardItem> LatestCards { get; } = new();
+
+    public ObservableCollection<CurrentBannerRowItem> CurrentBannerRows { get; } = new();
 
     public MainPage()
     {
         InitializeComponent();
 
         app = (App)Application.Current;
+        launcherState = app.LauncherState;
+        userAssets = new UserAssetStore(launcherState.DataDirectory);
+        RebuildGameRail(launcherState.Snapshot);
         sessions = app.Sessions;
         sessionRefresh = app.SessionRefresh;
         sessionUiLifetime = app.SessionUiLifetime;
         latestContent = app.LatestContent;
+        launcherBanners = app.LauncherBanners;
+        exports = app.Exports;
+        exportSignals = app.ExportSignals;
         publisherStatus = app.HoyoPublisherStatus;
         genshinSession = app.GenshinSession;
         hoyoSessions = app.HoyoSessions;
@@ -185,8 +188,77 @@ public sealed partial class MainPage : Page
         Loaded += MainPage_Loaded;
         Unloaded += MainPage_Unloaded;
         SizeChanged += MainPage_SizeChanged;
-        gameSnapshot = sessions.GetSnapshot("gi");
+        GameSelector.SelectedItem = Games.FirstOrDefault(
+            game => game.Id == launcherState.Snapshot.SelectedGameId) ?? Games.FirstOrDefault();
+        gameSnapshot = GameSelector.SelectedItem is GameLauncherItem selected
+            && sessions.TryGetSnapshot(selected.Id, out var initialSnapshot)
+                ? initialSnapshot
+                : null;
         RenderSelection();
+    }
+
+    private void RebuildGameRail(Nyx.Desktop.Core.State.LauncherState state)
+    {
+        var official = GameCatalog.All.ToDictionary(
+            static game => game.Id,
+            game =>
+            {
+                var hero = HeroPresentations[game.Id];
+                var appearance = state.Appearance.TryGetValue(game.Id, out var saved)
+                    ? saved
+                    : null;
+                return new GameLauncherItem(
+                    game.Id,
+                    game.DisplayName,
+                    appearance?.IconPath ?? IconPaths[game.Id],
+                    HeroArtPaths[game.Id],
+                    (appearance?.ArtScale ?? (int)(hero.Scale * 100)) / 100d,
+                    appearance?.ArtX ?? (int)hero.OffsetX,
+                    appearance?.ArtY ?? (int)hero.OffsetY,
+                    hero.FadeStart,
+                    hero.FadeMid,
+                    MaintenanceProviders[game.Id],
+                    "⋯",
+                    "Checking local status",
+                    isCustom: false);
+            },
+            StringComparer.Ordinal);
+        var customs = state.CustomGames.ToDictionary(
+            static game => game.Id,
+            game =>
+            {
+                var appearance = state.Appearance.TryGetValue(game.Id, out var saved)
+                    ? saved
+                    : null;
+                return new GameLauncherItem(
+                    game.Id,
+                    game.Name,
+                    appearance?.IconPath ?? game.IconPath,
+                    "ms-appx:///Assets/Iris/nyx-eye-fill.png",
+                    (appearance?.ArtScale ?? 100) / 100d,
+                    appearance?.ArtX ?? 0,
+                    appearance?.ArtY ?? 0,
+                    0.24,
+                    0.56,
+                    "CUSTOM GAME",
+                    "○",
+                    "Ready to check",
+                    isCustom: true);
+            },
+            StringComparer.Ordinal);
+
+        Games.Clear();
+        foreach (var id in state.RailOrder)
+        {
+            if (official.TryGetValue(id, out var officialGame))
+            {
+                Games.Add(officialGame);
+            }
+            else if (customs.TryGetValue(id, out var customGame))
+            {
+                Games.Add(customGame);
+            }
+        }
     }
 
     private async void MainPage_Loaded(object sender, RoutedEventArgs e)
@@ -201,7 +273,6 @@ public sealed partial class MainPage : Page
         var lease = sessionUiLifetime.Activate();
         pageLease = lease;
         gameActionsInFlight.Clear();
-        webToolActionsInFlight.Clear();
         updaterActionInFlight = false;
         wuwaActionInFlight = false;
         endfieldFolderActionInFlight = false;
@@ -217,6 +288,12 @@ public sealed partial class MainPage : Page
         {
             latestContent.Updated += LatestContent_Updated;
             latestSubscribed = true;
+        }
+
+        if (!launcherBannersSubscribed)
+        {
+            launcherBanners.Updated += LauncherBanners_Updated;
+            launcherBannersSubscribed = true;
         }
 
         if (!publisherStatusSubscribed)
@@ -272,6 +349,12 @@ public sealed partial class MainPage : Page
         {
             latestContent.Updated -= LatestContent_Updated;
             latestSubscribed = false;
+        }
+
+        if (launcherBannersSubscribed)
+        {
+            launcherBanners.Updated -= LauncherBanners_Updated;
+            launcherBannersSubscribed = false;
         }
 
         if (publisherStatusSubscribed)
@@ -502,15 +585,42 @@ public sealed partial class MainPage : Page
 
         try
         {
-            var result = await sessions.RequestLaunchAsync(gameId, lease.CancellationToken);
-            _ = sessionUiLifetime.TryRun(lease, () =>
+            var state = launcherState.Snapshot;
+            var arm = ExportArmSnapshot.From(state.Export, gameId, state.Preferences.FeatureFlags);
+            if (latestExportJobs.TryGetValue(gameId, out var activeJobId)
+                && !exports.GetSnapshot(activeJobId).IsFinished)
             {
-                gameSnapshot = result.Snapshot;
-                if (gameId == "gi")
+                RenderSelection();
+                return;
+            }
+            if (gameSnapshot?.Status is LocalGameStatus.Running
+                && arm.RequestedKinds == ExportKind.None)
+            {
+                RenderSelection();
+                return;
+            }
+            var exportResult = await exports.RunForLaunchAsync(
+                arm,
+                async cancellationToken =>
                 {
-                    gameFailureReason = genshinSession.LastLaunchFailureReason;
-                }
-            });
+                    var result = await sessions.RequestLaunchAsync(gameId, cancellationToken);
+                    _ = sessionUiLifetime.TryRun(lease, () =>
+                    {
+                        gameSnapshot = result.Snapshot;
+                        if (gameId == "gi") gameFailureReason = genshinSession.LastLaunchFailureReason;
+                    });
+                    return result.Outcome is GameLaunchRequestOutcome.Accepted
+                        or GameLaunchRequestOutcome.AlreadyRunning
+                        or GameLaunchRequestOutcome.AlreadyStarting;
+                },
+                lease.CancellationToken);
+            if (arm.RequestedKinds != ExportKind.None)
+            {
+                latestExportJobs[gameId] = exportResult.JobId;
+                _ = TrackExportJobAsync(gameId, exportResult.JobId, lease);
+            }
+            if (exportResult.LaunchAdmitted && !launcherState.Snapshot.Preferences.StayVisibleAfterLaunch)
+                app.MinimizeWindow();
         }
         catch (OperationCanceledException) when (lease.CancellationToken.IsCancellationRequested)
         {
@@ -847,75 +957,1181 @@ public sealed partial class MainPage : Page
         }
     }
 
-    private async void OpenPullTrackerButton_Click(object sender, RoutedEventArgs e) =>
-        await OpenPengoWebToolAsync(PengoWebToolKind.PullTracker);
+    private async void BrandLockup_Click(object sender, RoutedEventArgs e) =>
+        await OpenFixedDestinationAsync(new Uri("https://pengo.gg"), "the Nyx website");
 
-    private async void OpenAchievementsButton_Click(object sender, RoutedEventArgs e) =>
-        await OpenPengoWebToolAsync(PengoWebToolKind.Achievements);
-
-    private async Task OpenPengoWebToolAsync(PengoWebToolKind kind)
+    private async void LatestCard_Click(object sender, RoutedEventArgs e)
     {
-        var lease = pageLease;
-        if (lease is null
+        if (sender is not Button { CommandParameter: string destination }
             || GameSelector?.SelectedItem is not GameLauncherItem selected
-            || !PengoWebToolCatalog.TryGet(selected.Id, kind, out var definition))
+            || !launcherState.Snapshot.Preferences.FeatureFlags.OfficialNews
+            || !Uri.TryCreate(destination, UriKind.Absolute, out var uri)
+            || !IsApprovedNewsUri(selected.Id, uri))
         {
             return;
         }
+        await OpenFixedDestinationAsync(uri, "the official news item");
+    }
 
-        var action = (selected.Id, kind);
-        if (!webToolActionsInFlight.Add(action))
+    private static bool IsApprovedNewsUri(string gameId, Uri uri)
+    {
+        if (uri.Scheme != Uri.UriSchemeHttps || uri.UserInfo.Length != 0 || !uri.IsDefaultPort)
         {
-            return;
+            return false;
         }
+        var host = uri.IdnHost;
+        return gameId switch
+        {
+            "gi" => IsHost(host, "genshin.hoyoverse.com", "sg-hk4e-api.hoyoverse.com", "sg-hk4e-api.hoyolab.com"),
+            "hsr" => IsHost(host, "honkai-star-rail.hoyoverse.com", "sg-hkrpg-api.hoyoverse.com", "sg-hkrpg-api.hoyolab.com"),
+            "zzz" => IsHost(host, "zenless.hoyoverse.com", "sg-announcement-api.hoyoverse.com"),
+            "wuwa" => IsHost(host, "wutheringwaves.kurogames.com"),
+            "ae" => IsHost(host, "endfield.gryphline.com"),
+            _ => false,
+        };
+    }
 
-        var feedbackGeneration = ++nextWebToolFeedbackGeneration;
-        webToolFeedbackByGame[selected.Id] = (
-            feedbackGeneration,
-            "Opening the exact Pengo page...");
-        RenderPengoTools(selected);
+    private static bool IsHost(string host, params string[] allowed) =>
+        allowed.Any(candidate => host.Equals(candidate, StringComparison.OrdinalIgnoreCase));
 
+    private async void KofiButton_Click(object sender, RoutedEventArgs e) =>
+        await OpenFixedDestinationAsync(new Uri("https://ko-fi.com/asyce"), "Ko-fi");
+
+    private async Task OpenFixedDestinationAsync(Uri destination, string label)
+    {
         try
         {
-            var opened = await Windows.System.Launcher.LaunchUriAsync(definition.Destination);
-            _ = sessionUiLifetime.TryRun(lease, () =>
-                SetPengoWebToolFeedbackIfCurrent(
-                    selected.Id,
-                    feedbackGeneration,
-                    opened
-                    ? "Opened in your browser. Import choices stay on Pengo."
-                    : "Windows could not open the Pengo page. Check your default browser."));
+            if (!await Windows.System.Launcher.LaunchUriAsync(destination))
+            {
+                HeroDescription.Text = $"Windows could not open {label}.";
+            }
         }
         catch (Exception)
         {
-            _ = sessionUiLifetime.TryRun(lease, () =>
-                SetPengoWebToolFeedbackIfCurrent(
-                    selected.Id,
-                    feedbackGeneration,
-                    "Windows could not open the Pengo page. Check your default browser."));
-        }
-        finally
-        {
-            _ = sessionUiLifetime.TryRun(lease, () =>
-            {
-                webToolActionsInFlight.Remove(action);
-                if (GameSelector?.SelectedItem is GameLauncherItem current)
-                {
-                    RenderPengoTools(current);
-                }
-            });
+            HeroDescription.Text = $"Windows could not open {label}.";
         }
     }
 
-    private void SetPengoWebToolFeedbackIfCurrent(
-        string gameId,
-        long generation,
-        string message)
+    private async void AddGameButton_Click(object sender, RoutedEventArgs e) =>
+        await ShowAddGameDialogAsync();
+
+    private LauncherDiagnosticsSnapshot BuildDiagnosticsSnapshot()
     {
-        if (webToolFeedbackByGame.TryGetValue(gameId, out var current)
-            && current.Generation == generation)
+        var state = launcherState.Snapshot;
+        var games = Games.Select(game =>
         {
-            webToolFeedbackByGame[gameId] = (generation, message);
+            GameSessionSnapshot snapshot;
+            try
+            {
+                snapshot = sessions.GetSnapshot(game.Id);
+            }
+            catch (Exception)
+            {
+                snapshot = new GameSessionSnapshot(
+                    game.Id,
+                    LocalReadinessEvidence.Unknown,
+                    LocalGameStatus.NeedsReview,
+                    ExactProcessPresence.Uncertain,
+                    false,
+                    false,
+                    0,
+                    0,
+                    null,
+                    null,
+                    null,
+                    null,
+                    0,
+                    0,
+                    GameSessionFailureReason.EvidenceUnavailable,
+                    false);
+            }
+
+            var discovery = snapshot.Readiness switch
+            {
+                LocalReadinessEvidence.Ready => LauncherDiscoveryResultCategory.Ready,
+                LocalReadinessEvidence.NotFound => LauncherDiscoveryResultCategory.Missing,
+                LocalReadinessEvidence.NeedsReview => LauncherDiscoveryResultCategory.Invalid,
+                _ => LauncherDiscoveryResultCategory.Uncertain,
+            };
+            var export = state.Export.Games.TryGetValue(game.Id, out var arm)
+                ? $"pulls={(arm.PullsArmed ? "armed" : "off")},achievements={(arm.AchievementsArmed ? "armed" : "off")}"
+                : "off";
+            return new LauncherDiagnosticGame(
+                game.Id,
+                snapshot.Status.ToString(),
+                export,
+                discovery,
+                snapshot.FailureReason is GameSessionFailureReason.None
+                    ? null
+                    : snapshot.FailureReason.ToString());
+        });
+
+        var cache = app.Cache.GetTotals();
+        var manifest = launcherBanners.Current;
+        return new LauncherDiagnosticsSnapshot(
+            typeof(App).Assembly.GetName().Version?.ToString() ?? "dev",
+            state.Preferences.FeatureFlags,
+            games,
+            manifest.Revision,
+            manifest.Health.Status,
+            cache);
+    }
+
+    private static string FormatBytes(long bytes)
+    {
+        if (bytes < 1024) return $"{bytes} B";
+        var value = bytes / 1024d;
+        return value < 1024
+            ? $"{value:0.0} KB"
+            : value / 1024 < 1024
+                ? $"{value / 1024:0.0} MB"
+                : $"{value / 1024 / 1024:0.0} GB";
+    }
+
+    private async Task OpenFolderAsync(LauncherRecoveryAction action, TextBlock message)
+    {
+        try
+        {
+            string? folder;
+            if (action is LauncherRecoveryAction.OpenOutputFolder)
+            {
+                folder = Path.Combine(WindowsDownloadsDirectory.Get(), "Pengo Exports");
+                Directory.CreateDirectory(folder);
+            }
+            else
+            {
+                var result = await app.Recovery.OpenDataFolderAsync();
+                folder = result.Succeeded ? result.SafeLocation : null;
+            }
+            if (string.IsNullOrWhiteSpace(folder))
+            {
+                message.Text = "Nyx could not open that folder.";
+                return;
+            }
+
+            if (!await Windows.System.Launcher.LaunchFolderPathAsync(folder))
+            {
+                message.Text = "Windows could not open that folder.";
+            }
+        }
+        catch (Exception)
+        {
+            message.Text = "Windows could not open that folder.";
+        }
+    }
+
+    private void RebuildAfterStateRecovery()
+    {
+        if (!launcherState.TryReload()) return;
+        SynchronizeCustomSessions(launcherState.Snapshot);
+        RebuildGameRail(launcherState.Snapshot);
+        GameSelector.SelectedItem = Games.FirstOrDefault(game => game.Id == launcherState.Snapshot.SelectedGameId)
+            ?? Games.FirstOrDefault();
+        RenderSelection();
+    }
+
+    private void SynchronizeCustomSessions(Nyx.Desktop.Core.State.LauncherState state)
+    {
+        var savedIds = state.CustomGames.Select(static game => game.Id).ToHashSet(StringComparer.Ordinal);
+        foreach (var existingId in sessions.GetAllSnapshots().Keys
+                     .Where(static id => id.StartsWith("custom-", StringComparison.Ordinal))
+                     .Where(id => !savedIds.Contains(id)))
+        {
+            sessions.TryRemoveCustomAdapter(existingId);
+        }
+
+        foreach (var game in state.CustomGames)
+        {
+            sessions.TryRemoveCustomAdapter(game.Id);
+            sessions.TryRegisterCustomAdapter(CustomGameSessionFactory.Create(game));
+        }
+    }
+
+    private static void ApplyNyxAccentResources(ResourceDictionary resources)
+    {
+        if (Application.Current.Resources["HighContrastBackdropOpacity"] is double opacity && opacity > 0)
+        {
+            return;
+        }
+
+        static SolidColorBrush CloneBrush(string key)
+        {
+            var source = (SolidColorBrush)Application.Current.Resources[key];
+            return new SolidColorBrush(source.Color);
+        }
+
+        foreach (var key in new[]
+                 {
+                     "AccentFillColorDefaultBrush",
+                     "AccentButtonBackground",
+                     "ToggleSwitchFillOn",
+                     "ToggleSwitchStrokeOn",
+                     "SliderThumbBackground",
+                     "SliderTrackValueFill",
+                 })
+        {
+            resources[key] = CloneBrush("IrisBrush");
+        }
+        foreach (var key in new[]
+                 {
+                     "AccentFillColorSecondaryBrush",
+                     "AccentButtonBackgroundPointerOver",
+                     "ToggleSwitchFillOnPointerOver",
+                     "SliderThumbBackgroundPointerOver",
+                     "SliderTrackValueFillPointerOver",
+                 })
+        {
+            resources[key] = CloneBrush("AccentFillColorSecondaryBrush");
+        }
+        foreach (var key in new[]
+                 {
+                     "AccentFillColorTertiaryBrush",
+                     "AccentButtonBackgroundPressed",
+                     "ToggleSwitchFillOnPressed",
+                     "SliderThumbBackgroundPressed",
+                     "SliderTrackValueFillPressed",
+                 })
+        {
+            resources[key] = CloneBrush("AccentFillColorTertiaryBrush");
+        }
+        resources["AccentButtonForeground"] = CloneBrush("PrimaryActionForegroundBrush");
+        resources["AccentButtonForegroundPointerOver"] = CloneBrush("PrimaryActionForegroundBrush");
+        resources["AccentButtonForegroundPressed"] = CloneBrush("PrimaryActionForegroundBrush");
+    }
+
+    public async Task ShowSettingsAsync()
+    {
+        if (XamlRoot is null)
+        {
+            return;
+        }
+
+        if (GameSelector?.SelectedItem is not GameLauncherItem selected)
+        {
+            return;
+        }
+
+        var before = launcherState.Snapshot;
+        var savedAppearance = before.Appearance.TryGetValue(selected.Id, out var existingAppearance)
+            ? existingAppearance
+            : new Nyx.Desktop.Core.State.GameAppearanceState();
+        var hadAutomaticVariant = automaticArtVariants.TryGetValue(selected.Id, out var automaticVariantBefore);
+        string? chosenArtVariant = savedAppearance.ArtVariant
+            ?? (hadAutomaticVariant ? automaticVariantBefore.VariantId : null);
+        var openedAppearance = savedAppearance with
+        {
+            IconPath = savedAppearance.IconPath ?? selected.IconPath,
+            ArtVariant = chosenArtVariant,
+        };
+        var automaticArt = new ToggleSwitch
+        {
+            Header = "Automatic current-banner character art",
+            IsOn = savedAppearance.AutomaticArt,
+            OnContent = "On",
+            OffContent = "Off",
+        };
+        var artScale = new Slider
+        {
+            Minimum = 50,
+            Maximum = 250,
+            Value = savedAppearance.ArtScale,
+            StepFrequency = 1,
+            Header = "Character art scale",
+        };
+        var artX = new NumberBox
+        {
+            Header = "Horizontal position",
+            Minimum = -1000,
+            Maximum = 1000,
+            Value = savedAppearance.ArtX,
+            SpinButtonPlacementMode = NumberBoxSpinButtonPlacementMode.Compact,
+        };
+        var artY = new NumberBox
+        {
+            Header = "Vertical position",
+            Minimum = -1000,
+            Maximum = 1000,
+            Value = savedAppearance.ArtY,
+            SpinButtonPlacementMode = NumberBoxSpinButtonPlacementMode.Compact,
+        };
+        var keepArt = new ToggleSwitch
+        {
+            Header = "Keep this character-art variant",
+            IsOn = savedAppearance.ArtPinned,
+        };
+        var iconPath = new TextBox
+        {
+            Header = "Game icon",
+            Text = savedAppearance.IconPath ?? selected.IconPath,
+        };
+        var backgroundPath = new TextBox
+        {
+            Header = "Launcher background",
+            Text = savedAppearance.BackgroundPath ?? string.Empty,
+            PlaceholderText = "Nyx background (default)",
+        };
+        var browseIcon = new Button { Content = "CHANGE ICON", Style = (Style)Application.Current.Resources["NyxQuietActionStyle"] };
+        var browseBackground = new Button { Content = "CHANGE BACKGROUND", Style = (Style)Application.Current.Resources["NyxQuietActionStyle"] };
+        var resetAppearance = new Button { Content = "RESET APPEARANCE", Style = (Style)Application.Current.Resources["NyxQuietActionStyle"] };
+        var tryAnother = new Button { Content = "TRY ANOTHER", Style = (Style)Application.Current.Resources["NyxQuietActionStyle"] };
+        var stayVisible = new ToggleSwitch
+        {
+            Header = "Keep Nyx visible after starting a game",
+            IsOn = before.Preferences.StayVisibleAfterLaunch,
+        };
+        var refreshOnStartup = new ToggleSwitch
+        {
+            Header = "Refresh news and banner art when Nyx opens",
+            IsOn = before.Preferences.RefreshContentOnStartup,
+        };
+        var safeNotifications = new ToggleSwitch
+        {
+            Header = "Safe notifications",
+            IsOn = before.Preferences.SafeNotifications,
+            OnContent = "On",
+            OffContent = "Off",
+        };
+        var globalAutomaticArt = new ToggleSwitch
+        {
+            Header = "Enable automatic banner character art for all games",
+            IsOn = before.Preferences.FeatureFlags.AutomaticArt,
+            OnContent = "On",
+            OffContent = "Off",
+        };
+        var officialNews = new ToggleSwitch
+        {
+            Header = "Use official news feed",
+            IsOn = before.Preferences.FeatureFlags.OfficialNews,
+            OnContent = "On",
+            OffContent = "Off",
+        };
+        var remoteManifest = new ToggleSwitch
+        {
+            Header = "Allow remote banner manifest refresh",
+            IsOn = before.Preferences.FeatureFlags.RemoteBannerManifest,
+            OnContent = "On",
+            OffContent = "Off",
+        };
+        var cacheSummary = new TextBlock
+        {
+            Text = $"Generated content: {FormatBytes(app.Cache.GetTotals().GeneratedBytes)}",
+            Foreground = (Brush)Application.Current.Resources["MistBrush"],
+            TextWrapping = TextWrapping.Wrap,
+        };
+        var refreshContent = new Button
+        {
+            Content = "REFRESH CONTENT NOW",
+            Style = (Style)Application.Current.Resources["NyxQuietActionStyle"],
+        };
+        var clearCache = new Button
+        {
+            Content = "CLEAR GENERATED CACHE",
+            Style = (Style)Application.Current.Resources["NyxQuietActionStyle"],
+        };
+        var openData = new Button
+        {
+            Content = "OPEN DATA FOLDER",
+            Style = (Style)Application.Current.Resources["NyxQuietActionStyle"],
+        };
+        var openExports = new Button
+        {
+            Content = "OPEN EXPORT FOLDER",
+            Style = (Style)Application.Current.Resources["NyxQuietActionStyle"],
+        };
+        var copyDiagnostics = new Button
+        {
+            Content = "COPY SAFE DIAGNOSTICS",
+            Style = (Style)Application.Current.Resources["NyxQuietActionStyle"],
+        };
+        var rediscover = new Button
+        {
+            Content = "REDISCOVER GAME INSTALLS",
+            Style = (Style)Application.Current.Resources["NyxQuietActionStyle"],
+        };
+        var resetSavedAppearance = new Button
+        {
+            Content = "RESET SAVED APPEARANCE",
+            Style = (Style)Application.Current.Resources["NyxQuietActionStyle"],
+        };
+        var restoreSettings = new Button
+        {
+            Content = "RESTORE LAST-KNOWN-GOOD SETTINGS",
+            Style = (Style)Application.Current.Resources["NyxQuietActionStyle"],
+        };
+        var message = new TextBlock
+        {
+            TextWrapping = TextWrapping.Wrap,
+            Foreground = (Brush)Application.Current.Resources["MistBrush"],
+        };
+
+        var custom = before.CustomGames.FirstOrDefault(game => game.Id == selected.Id);
+        var customName = new TextBox { Header = "Custom game name", Text = custom?.Name ?? selected.DisplayName };
+        var customExecutable = new TextBox { Header = "Exact executable", Text = custom?.ExecutablePath ?? string.Empty };
+        var customRuntime = new TextBox { Header = "Runtime executable (optional)", Text = custom?.RuntimePath ?? string.Empty };
+        var customArguments = new TextBox { Header = "Arguments (optional)", Text = custom?.RawArguments ?? string.Empty };
+        var customAdmin = new ToggleSwitch { Header = "Ask Windows for administrator approval", IsOn = custom?.RequestAdministrator ?? false };
+        var browseExecutable = new Button { Content = "REPAIR / CHANGE EXE", Style = (Style)Application.Current.Resources["NyxQuietActionStyle"] };
+        var browseRuntime = new Button { Content = "CHOOSE RUNTIME", Style = (Style)Application.Current.Resources["NyxQuietActionStyle"] };
+
+        async Task<string?> PickFileAsync(params string[] extensions)
+        {
+            var picker = new FileOpenPicker { SuggestedStartLocation = PickerLocationId.ComputerFolder };
+            foreach (var extension in extensions) picker.FileTypeFilter.Add(extension);
+            WinRT.Interop.InitializeWithWindow.Initialize(picker, app.WindowHandle);
+            return (await picker.PickSingleFileAsync())?.Path;
+        }
+
+        browseIcon.Click += async (_, _) =>
+        {
+            var path = await PickFileAsync(".png", ".jpg", ".jpeg", ".webp", ".ico");
+            if (path is not null) iconPath.Text = path;
+        };
+        browseBackground.Click += async (_, _) =>
+        {
+            var path = await PickFileAsync(".png", ".jpg", ".jpeg", ".webp");
+            if (path is not null)
+            {
+                backgroundPath.Text = path;
+                BackgroundArtwork.Source = new BitmapImage(new Uri(path));
+            }
+        };
+        browseExecutable.Click += async (_, _) =>
+        {
+            var path = await PickFileAsync(".exe");
+            if (path is not null) customExecutable.Text = path;
+        };
+        browseRuntime.Click += async (_, _) =>
+        {
+            var path = await PickFileAsync(".exe");
+            if (path is not null) customRuntime.Text = path;
+        };
+
+        refreshContent.Click += async (_, _) =>
+        {
+            refreshContent.IsEnabled = false;
+            message.Text = "Refreshing official news and banner art...";
+            try
+            {
+                await app.RefreshContentManualAsync();
+                message.Text = "Official content refreshed."
+                    + (launcherBanners.Current.Health.Status is "ok" ? string.Empty : " Nyx kept the last safe copy.");
+                RenderSelection();
+            }
+            catch (Exception)
+            {
+                message.Text = "Nyx could not refresh content. The last safe copy is still in use.";
+            }
+            finally
+            {
+                refreshContent.IsEnabled = true;
+            }
+        };
+        clearCache.Click += async (_, _) =>
+        {
+            var result = await app.Recovery.ClearGeneratedCacheAsync();
+            cacheSummary.Text = $"Generated content: {FormatBytes(app.Cache.GetTotals().GeneratedBytes)}";
+            message.Text = result.Succeeded
+                ? "Generated content cache cleared. Nyx will rebuild it when needed."
+                : "Nyx could not clear the generated content cache.";
+        };
+        openData.Click += async (_, _) => await OpenFolderAsync(LauncherRecoveryAction.OpenDataFolder, message);
+        openExports.Click += async (_, _) => await OpenFolderAsync(LauncherRecoveryAction.OpenOutputFolder, message);
+        copyDiagnostics.Click += (_, _) =>
+        {
+            try
+            {
+                var package = new DataPackage();
+                package.SetText(LauncherDiagnosticsText.FormatForCopy(BuildDiagnosticsSnapshot()));
+                Clipboard.SetContent(package);
+                message.Text = "Safe diagnostics copied. They contain no user paths or account data.";
+            }
+            catch (Exception)
+            {
+                message.Text = "Nyx could not copy diagnostics to the clipboard.";
+            }
+        };
+        rediscover.Click += async (_, _) =>
+        {
+            rediscover.IsEnabled = false;
+            message.Text = "Rediscovering installed games...";
+            try
+            {
+                var result = await app.Recovery.RediscoverInstallsAsync();
+                await sessionRefresh.RefreshNowAsync();
+                RenderSelection();
+                message.Text = result.Succeeded
+                    ? "Game install checks refreshed."
+                    : "Nyx could not finish rediscovering installs.";
+            }
+            catch (Exception)
+            {
+                message.Text = "Nyx could not finish rediscovering installs.";
+            }
+            finally
+            {
+                rediscover.IsEnabled = true;
+            }
+        };
+        resetSavedAppearance.Click += async (_, _) =>
+        {
+            var result = await app.Recovery.ResetSelectedAppearanceAsync(selected.Id);
+            if (result.Succeeded)
+            {
+                RebuildAfterStateRecovery();
+                automaticArt.IsOn = true;
+                artScale.Value = 100;
+                artX.Value = 0;
+                artY.Value = 0;
+                keepArt.IsOn = false;
+                chosenArtVariant = null;
+                iconPath.Text = selected.IsCustom ? custom?.IconPath ?? selected.IconPath : IconPaths[selected.Id];
+                backgroundPath.Text = string.Empty;
+                message.Text = "Saved appearance reset. Choose Save to keep other changes in this dialog.";
+            }
+            else
+            {
+                message.Text = "Nyx could not reset the saved appearance.";
+            }
+        };
+        restoreSettings.Click += async (_, _) =>
+        {
+            var result = await app.Recovery.RestoreLastKnownGoodSettingsAsync();
+            if (result.Succeeded)
+            {
+                RebuildAfterStateRecovery();
+                message.Text = "Last-known-good settings restored. Close and reopen Settings to review them.";
+            }
+            else
+            {
+                message.Text = "No usable last-known-good settings backup was found.";
+            }
+        };
+
+        void PreviewArt()
+        {
+            if (HeroArtwork.RenderTransform is CompositeTransform transform)
+            {
+                transform.ScaleX = artScale.Value / 100d;
+                transform.ScaleY = artScale.Value / 100d;
+                transform.TranslateX = double.IsNaN(artX.Value) ? 0 : artX.Value;
+                transform.TranslateY = double.IsNaN(artY.Value) ? 0 : artY.Value;
+            }
+        }
+        artScale.ValueChanged += (_, _) => PreviewArt();
+        artX.ValueChanged += (_, _) => PreviewArt();
+        artY.ValueChanged += (_, _) => PreviewArt();
+        resetAppearance.Click += (_, _) =>
+        {
+            automaticArt.IsOn = true;
+            artScale.Value = 100;
+            artX.Value = 0;
+            artY.Value = 0;
+            keepArt.IsOn = false;
+            chosenArtVariant = null;
+            automaticArtVariants.Remove(selected.Id);
+            iconPath.Text = selected.IsCustom ? custom?.IconPath ?? selected.IconPath : IconPaths[selected.Id];
+            backgroundPath.Text = string.Empty;
+            BackgroundArtwork.Source = new BitmapImage(new Uri("ms-appx:///Assets/backgroundnyx.png"));
+            PreviewArt();
+        };
+        tryAnother.Click += (_, _) =>
+        {
+            if (!launcherBanners.Current.Games.TryGetValue(selected.Id, out var bannerGame)
+                || bannerGame.Current is not { } current)
+                return;
+            var selectedCharacter = current.Characters.FirstOrDefault(character => character.Id == current.SelectedCharacterId)
+                ?? current.Characters.FirstOrDefault();
+            var variants = selectedCharacter?.Variants.Count > 0
+                ? selectedCharacter.Variants
+                : current.Variants;
+            if (variants.Count == 0) return;
+            var currentIndex = chosenArtVariant is null
+                ? -1
+                : variants.ToList().FindIndex(asset => asset.Id == chosenArtVariant);
+            var next = variants[(currentIndex + 1) % variants.Count];
+            chosenArtVariant = next.Id;
+            automaticArtVariants[selected.Id] = (launcherBanners.Current.Revision, next.Id);
+            keepArt.IsOn = false;
+            var path = launcherBanners.TryResolveManagedAsset(next);
+            if (path is not null)
+            {
+                HeroArtwork.Source = new BitmapImage(new Uri(path));
+                HeroArtwork.Stretch = next.Placement.Fit == "contain" ? Stretch.Uniform : Stretch.UniformToFill;
+                PreviewArt();
+            }
+        };
+
+        var order = new ObservableCollection<GameOrderItem>(before.RailOrder.Select(id =>
+            new GameOrderItem(id, Games.FirstOrDefault(game => game.Id == id)?.DisplayName ?? id)));
+        var orderList = new ListView
+        {
+            Height = 180,
+            ItemsSource = order,
+            DisplayMemberPath = nameof(GameOrderItem.DisplayName),
+            SelectionMode = ListViewSelectionMode.Single,
+        };
+        var moveUp = new Button { Content = "MOVE UP", Style = (Style)Application.Current.Resources["NyxQuietActionStyle"] };
+        var moveDown = new Button { Content = "MOVE DOWN", Style = (Style)Application.Current.Resources["NyxQuietActionStyle"] };
+        var resetOrder = new Button { Content = "RESET ORDER", Style = (Style)Application.Current.Resources["NyxQuietActionStyle"] };
+        moveUp.Click += (_, _) => MoveOrderItem(orderList, order, -1);
+        moveDown.Click += (_, _) => MoveOrderItem(orderList, order, 1);
+        resetOrder.Click += (_, _) =>
+        {
+            order.Clear();
+            foreach (var game in GameCatalog.All) order.Add(new(game.Id, game.DisplayName));
+            foreach (var game in before.CustomGames.OrderBy(game => game.CreationOrder)) order.Add(new(game.Id, game.Name));
+        };
+
+        var content = new StackPanel { Width = 560, Spacing = 14 };
+        ApplyNyxAccentResources(content.Resources);
+        content.Children.Add(new TextBlock
+        {
+            Text = selected.DisplayName,
+            FontFamily = (FontFamily)Application.Current.Resources["NyxDisplayFont"],
+            FontSize = 30,
+            Foreground = (Brush)Application.Current.Resources["MoonBrush"],
+        });
+        content.Children.Add(new TextBlock
+        {
+            Text = "Appearance",
+            Style = (Style)Application.Current.Resources["NyxEyebrowTextStyle"],
+        });
+        content.Children.Add(automaticArt);
+        content.Children.Add(artScale);
+        var position = new Grid { ColumnSpacing = 10 };
+        position.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
+        position.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
+        position.Children.Add(artX);
+        Grid.SetColumn(artY, 1);
+        position.Children.Add(artY);
+        content.Children.Add(position);
+        content.Children.Add(keepArt);
+        content.Children.Add(iconPath);
+        content.Children.Add(backgroundPath);
+        content.Children.Add(new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 8,
+            Children = { browseIcon, browseBackground, tryAnother, resetAppearance },
+        });
+        if (selected.IsCustom)
+        {
+            content.Children.Add(new TextBlock { Text = "CUSTOM GAME", Style = (Style)Application.Current.Resources["NyxEyebrowTextStyle"] });
+            content.Children.Add(customName);
+            content.Children.Add(customExecutable);
+            content.Children.Add(browseExecutable);
+            content.Children.Add(customRuntime);
+            content.Children.Add(browseRuntime);
+            content.Children.Add(customArguments);
+            content.Children.Add(customAdmin);
+        }
+        content.Children.Add(new TextBlock { Text = "GAME ORDER", Style = (Style)Application.Current.Resources["NyxEyebrowTextStyle"] });
+        content.Children.Add(orderList);
+        content.Children.Add(new StackPanel { Orientation = Orientation.Horizontal, Spacing = 8, Children = { moveUp, moveDown, resetOrder } });
+        content.Children.Add(new TextBlock
+        {
+            Text = "Launcher",
+            Style = (Style)Application.Current.Resources["NyxEyebrowTextStyle"],
+        });
+        content.Children.Add(stayVisible);
+        content.Children.Add(refreshOnStartup);
+        content.Children.Add(safeNotifications);
+        content.Children.Add(globalAutomaticArt);
+        content.Children.Add(officialNews);
+        content.Children.Add(remoteManifest);
+        content.Children.Add(new TextBlock
+        {
+            Text = "Recovery & diagnostics",
+            Style = (Style)Application.Current.Resources["NyxEyebrowTextStyle"],
+        });
+        content.Children.Add(cacheSummary);
+        content.Children.Add(new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 8,
+            Children = { refreshContent, clearCache },
+        });
+        content.Children.Add(new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 8,
+            Children = { openData, openExports },
+        });
+        content.Children.Add(new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 8,
+            Children = { copyDiagnostics, rediscover },
+        });
+        content.Children.Add(new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 8,
+            Children = { resetSavedAppearance, restoreSettings },
+        });
+        content.Children.Add(message);
+
+        var dialog = new ContentDialog
+        {
+            XamlRoot = XamlRoot,
+            Title = "Settings",
+            Background = (Brush)Application.Current.Resources["GlassDeckBrush"],
+            BorderBrush = (Brush)Application.Current.Resources["DeckBorderBrush"],
+            BorderThickness = new Thickness(1),
+            CornerRadius = new CornerRadius(14),
+            Content = new ScrollViewer
+            {
+                MaxHeight = 620,
+                VerticalScrollBarVisibility = ScrollBarVisibility.Auto,
+                Content = content,
+            },
+            PrimaryButtonText = "Save",
+            SecondaryButtonText = selected.IsCustom ? "Delete Game" : string.Empty,
+            CloseButtonText = "Cancel",
+            DefaultButton = ContentDialogButton.Primary,
+            PrimaryButtonStyle = (Style)Application.Current.Resources["NyxDialogPrimaryStyle"],
+            SecondaryButtonStyle = (Style)Application.Current.Resources["NyxDialogQuietStyle"],
+            CloseButtonStyle = (Style)Application.Current.Resources["NyxDialogQuietStyle"],
+        };
+        ApplyNyxAccentResources(dialog.Resources);
+        var saveSucceeded = false;
+        string? newlyPinnedArtFile = null;
+        dialog.PrimaryButtonClick += (_sender, args) =>
+        {
+            try
+            {
+                var storedIcon = iconPath.Text;
+                if (!string.Equals(storedIcon, savedAppearance.IconPath ?? selected.IconPath, StringComparison.OrdinalIgnoreCase))
+                {
+                    storedIcon = userAssets.CopyImage(selected.Id, "icon", storedIcon);
+                }
+                var storedBackground = string.IsNullOrWhiteSpace(backgroundPath.Text)
+                    ? null
+                    : backgroundPath.Text;
+                if (storedBackground is not null
+                    && !string.Equals(storedBackground, savedAppearance.BackgroundPath, StringComparison.OrdinalIgnoreCase))
+                {
+                    storedBackground = userAssets.CopyImage(selected.Id, "background", storedBackground);
+                }
+
+                CustomGameDefinition? updatedCustom = custom;
+                if (custom is not null)
+                {
+                    var validation = CustomGameValidator.Validate(
+                        new CustomGameDraft(
+                            customName.Text,
+                            customExecutable.Text,
+                            storedIcon,
+                            storedBackground,
+                            string.IsNullOrWhiteSpace(customRuntime.Text) ? null : customRuntime.Text,
+                            string.IsNullOrWhiteSpace(customArguments.Text) ? null : customArguments.Text,
+                            customAdmin.IsOn,
+                            custom.Id,
+                            custom.CreationOrder),
+                        before.CustomGames.Where(game => game.Id != custom.Id));
+                    if (!validation.IsValid || validation.Game is null)
+                    {
+                        args.Cancel = true;
+                        message.Text = $"Custom game settings need review: {validation.Error}.";
+                        return;
+                    }
+                    updatedCustom = validation.Game;
+                }
+
+                var pinnedArtFile = savedAppearance.PinnedArtFile;
+                if (keepArt.IsOn)
+                {
+                    LauncherBannersAsset? chosenAsset = null;
+                    if (chosenArtVariant is not null
+                        && launcherBanners.Current.Games.TryGetValue(selected.Id, out var bannerGame)
+                        && bannerGame.Current is { } current)
+                    {
+                        chosenAsset = current.Characters.SelectMany(character => character.Variants)
+                            .Concat(current.Variants)
+                            .FirstOrDefault(asset => asset.Id == chosenArtVariant);
+                    }
+                    var savedPinIsUsable = launcherBanners.TryResolveUserArt(pinnedArtFile) is not null;
+                    if (chosenAsset is not null
+                        && (!savedPinIsUsable || !string.Equals(chosenArtVariant, savedAppearance.ArtVariant, StringComparison.Ordinal)))
+                    {
+                        newlyPinnedArtFile = launcherBanners.PinUserArt(selected.Id, chosenAsset);
+                        pinnedArtFile = newlyPinnedArtFile;
+                    }
+                    else if (!savedPinIsUsable)
+                    {
+                        args.Cancel = true;
+                        message.Text = "Choose available banner art before keeping it.";
+                        return;
+                    }
+                }
+                else
+                {
+                    pinnedArtFile = null;
+                }
+
+                var settingsEdit = new LauncherSettingsEdit
+                {
+                    GameId = selected.Id,
+                    OpenedAppearance = openedAppearance,
+                    Appearance = new GameAppearanceState
+                    {
+                        IconPath = storedIcon,
+                        BackgroundPath = storedBackground,
+                        AutomaticArt = automaticArt.IsOn,
+                        ArtScale = (int)Math.Round(artScale.Value),
+                        ArtX = double.IsNaN(artX.Value) ? 0 : (int)Math.Round(artX.Value),
+                        ArtY = double.IsNaN(artY.Value) ? 0 : (int)Math.Round(artY.Value),
+                        ArtVariant = chosenArtVariant,
+                        ArtPinned = keepArt.IsOn,
+                        PinnedArtFile = pinnedArtFile,
+                    },
+                    CustomGame = updatedCustom,
+                    RailOrder = order.Select(item => item.Id).ToArray(),
+                    StayVisibleAfterLaunch = stayVisible.IsOn,
+                    RefreshContentOnStartup = refreshOnStartup.IsOn,
+                    SafeNotifications = safeNotifications.IsOn,
+                    AutomaticArt = globalAutomaticArt.IsOn,
+                    OfficialNews = officialNews.IsOn,
+                    RemoteBannerManifest = remoteManifest.IsOn,
+                };
+                saveSucceeded = launcherState.TryUpdate(
+                    state => LauncherSettingsStateMerge.Apply(state, before, settingsEdit),
+                    out var settingsFailure);
+                if (!saveSucceeded)
+                {
+                    launcherBanners.ReleaseUserArt(newlyPinnedArtFile);
+                    newlyPinnedArtFile = null;
+                    args.Cancel = true;
+                    message.Text = settingsFailure is LauncherStateUpdateFailure.CustomGameExecutableConflict
+                        ? "That executable is already in your game rail. Your previous settings are still safe."
+                        : "Nyx could not save Settings. Your previous settings are still safe.";
+                    return;
+                }
+
+                if (updatedCustom is not null)
+                {
+                    sessions.TryRemoveCustomAdapter(updatedCustom.Id);
+                    var savedCustom = launcherState.Snapshot.CustomGames.FirstOrDefault(
+                        game => string.Equals(game.Id, updatedCustom.Id, StringComparison.Ordinal));
+                    if (savedCustom is not null)
+                    {
+                        sessions.TryRegisterCustomAdapter(CustomGameSessionFactory.Create(savedCustom));
+                    }
+                }
+
+                if ((globalAutomaticArt.IsOn && !before.Preferences.FeatureFlags.AutomaticArt)
+                    || (officialNews.IsOn && !before.Preferences.FeatureFlags.OfficialNews)
+                    || (remoteManifest.IsOn && !before.Preferences.FeatureFlags.RemoteBannerManifest))
+                {
+                    _ = app.RefreshContentManualAsync();
+                }
+                app.ApplyContentRefreshPreferences();
+            }
+            catch (Exception exception) when (exception is IOException or UnauthorizedAccessException or InvalidDataException)
+            {
+                launcherBanners.ReleaseUserArt(newlyPinnedArtFile);
+                newlyPinnedArtFile = null;
+                args.Cancel = true;
+                message.Text = "Nyx could not safely copy one of those images.";
+            }
+        };
+
+        var result = await dialog.ShowAsync();
+        if (result is ContentDialogResult.Secondary && custom is not null)
+        {
+            var confirmDelete = new ContentDialog
+            {
+                XamlRoot = XamlRoot,
+                Title = $"Delete {custom.Name}?",
+                Content = "This removes the custom game from Nyx. The game files on disk will not be touched.",
+                PrimaryButtonText = "Delete game",
+                CloseButtonText = "Cancel",
+                DefaultButton = ContentDialogButton.Close,
+            };
+            if (await confirmDelete.ShowAsync() is not ContentDialogResult.Primary)
+            {
+                return;
+            }
+
+            var deleted = launcherState.TryUpdate(state => state with
+            {
+                CustomGames = state.CustomGames.Where(game => game.Id != custom.Id).ToArray(),
+                RailOrder = state.RailOrder.Where(id => id != custom.Id).ToArray(),
+                Appearance = state.Appearance.Where(pair => pair.Key != custom.Id).ToDictionary(pair => pair.Key, pair => pair.Value, StringComparer.Ordinal),
+                SelectedGameId = "gi",
+            });
+            if (!deleted)
+            {
+                return;
+            }
+            sessions.TryRemoveCustomAdapter(custom.Id);
+            RebuildGameRail(launcherState.Snapshot);
+            GameSelector.SelectedItem = Games.FirstOrDefault(game => game.Id == "gi");
+        }
+        else if (saveSucceeded)
+        {
+            RebuildGameRail(launcherState.Snapshot);
+            GameSelector.SelectedItem = Games.FirstOrDefault(game => game.Id == selected.Id) ?? Games.FirstOrDefault();
+        }
+        else
+        {
+            if (hadAutomaticVariant) automaticArtVariants[selected.Id] = automaticVariantBefore;
+            else automaticArtVariants.Remove(selected.Id);
+            ApplySelectedAppearance(selected.Id);
+            RenderSelection();
+        }
+    }
+
+    private static void MoveOrderItem(
+        ListView list,
+        ObservableCollection<GameOrderItem> order,
+        int offset)
+    {
+        if (list.SelectedItem is not GameOrderItem selected)
+        {
+            return;
+        }
+        var index = order.IndexOf(selected);
+        var target = index + offset;
+        if (index < 0 || target < 0 || target >= order.Count)
+        {
+            return;
+        }
+        order.Move(index, target);
+        list.SelectedItem = selected;
+    }
+
+    private async Task ShowAddGameDialogAsync()
+    {
+        if (XamlRoot is null)
+        {
+            return;
+        }
+
+        var name = new TextBox { Header = "Game name", PlaceholderText = "My game" };
+        var executable = new TextBox { Header = "Game executable", PlaceholderText = "Choose the exact .exe file" };
+        var icon = new TextBox { Header = "Game icon", PlaceholderText = "Choose a PNG, JPG, WebP, or ICO file" };
+        var chooseExecutable = new Button
+        {
+            Content = "BROWSE",
+            Style = (Style)Application.Current.Resources["NyxQuietActionStyle"],
+            VerticalAlignment = VerticalAlignment.Bottom,
+        };
+        var chooseIcon = new Button
+        {
+            Content = "BROWSE",
+            Style = (Style)Application.Current.Resources["NyxQuietActionStyle"],
+            VerticalAlignment = VerticalAlignment.Bottom,
+        };
+        chooseExecutable.Click += async (_, _) =>
+        {
+            var picker = new FileOpenPicker { SuggestedStartLocation = PickerLocationId.ComputerFolder };
+            picker.FileTypeFilter.Add(".exe");
+            WinRT.Interop.InitializeWithWindow.Initialize(picker, app.WindowHandle);
+            var file = await picker.PickSingleFileAsync();
+            if (file is not null) executable.Text = file.Path;
+        };
+        chooseIcon.Click += async (_, _) =>
+        {
+            var picker = new FileOpenPicker { SuggestedStartLocation = PickerLocationId.PicturesLibrary };
+            foreach (var extension in new[] { ".png", ".jpg", ".jpeg", ".webp", ".ico" })
+            {
+                picker.FileTypeFilter.Add(extension);
+            }
+            WinRT.Interop.InitializeWithWindow.Initialize(picker, app.WindowHandle);
+            var file = await picker.PickSingleFileAsync();
+            if (file is not null) icon.Text = file.Path;
+        };
+        var message = new TextBlock
+        {
+            Text = "Nyx starts this exact file directly. You can add a separate runtime file and administrator approval in Settings after saving.",
+            TextWrapping = TextWrapping.Wrap,
+            Foreground = (Brush)Application.Current.Resources["MistBrush"],
+        };
+        static Grid PickerRow(TextBox field, Button button)
+        {
+            var row = new Grid { ColumnSpacing = 8 };
+            row.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
+            row.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Auto });
+            row.Children.Add(field);
+            Grid.SetColumn(button, 1);
+            row.Children.Add(button);
+            return row;
+        }
+
+        var content = new StackPanel
+        {
+            Width = 500,
+            Spacing = 12,
+            Children = { message, name, PickerRow(executable, chooseExecutable), PickerRow(icon, chooseIcon) },
+        };
+        var dialog = new ContentDialog
+        {
+            XamlRoot = XamlRoot,
+            Title = "Add Game",
+            Content = content,
+            PrimaryButtonText = "Add Game",
+            CloseButtonText = "Cancel",
+            DefaultButton = ContentDialogButton.Primary,
+        };
+        CustomGameDefinition? addedGame = null;
+        dialog.PrimaryButtonClick += (_, args) =>
+        {
+            var id = CustomGameValidator.GenerateId();
+            var validation = CustomGameValidator.Validate(
+                new CustomGameDraft(
+                    name.Text,
+                    executable.Text,
+                    icon.Text,
+                    Id: id,
+                    CreationOrder: DateTimeOffset.UtcNow.ToUnixTimeMilliseconds()),
+                launcherState.Snapshot.CustomGames);
+            if (!validation.IsValid || validation.Game is null)
+            {
+                args.Cancel = true;
+                message.Text = validation.Error switch
+                {
+                    CustomGameValidationError.NameRequired => "Enter a game name.",
+                    CustomGameValidationError.ExecutableMissing => "The selected game executable no longer exists.",
+                    CustomGameValidationError.IconMissing => "The selected icon no longer exists.",
+                    CustomGameValidationError.DuplicateExecutable => "That executable is already in your game rail.",
+                    CustomGameValidationError.UnsafeArguments => "The saved arguments are not safe to start directly.",
+                    _ => "Choose an exact local .exe and a local icon image.",
+                };
+                message.Foreground = (Brush)Application.Current.Resources["LavenderBrush"];
+                return;
+            }
+
+            try
+            {
+                var copiedIcon = userAssets.CopyImage(id, "icon", validation.Game.IconPath);
+                var game = validation.Game with { IconPath = copiedIcon };
+                if (!sessions.TryRegisterCustomAdapter(CustomGameSessionFactory.Create(game)))
+                {
+                    args.Cancel = true;
+                    message.Text = "Nyx could not prepare this game. Nothing was launched.";
+                    message.Foreground = (Brush)Application.Current.Resources["LavenderBrush"];
+                    return;
+                }
+
+                var saved = launcherState.TryUpdate(
+                    state => LauncherCustomGameStateMerge.Add(state, game),
+                    out var addFailure);
+                if (!saved)
+                {
+                    sessions.TryRemoveCustomAdapter(game.Id);
+                    args.Cancel = true;
+                    message.Text = addFailure is LauncherStateUpdateFailure.CustomGameExecutableConflict
+                        ? "That executable is already in your game rail. Nothing was launched."
+                        : "Nyx could not save this game. Nothing was launched.";
+                    message.Foreground = (Brush)Application.Current.Resources["LavenderBrush"];
+                    return;
+                }
+
+                addedGame = game;
+            }
+            catch (Exception exception) when (exception is IOException or UnauthorizedAccessException or InvalidDataException)
+            {
+                args.Cancel = true;
+                message.Text = "Nyx could not safely copy that icon into its data folder.";
+                message.Foreground = (Brush)Application.Current.Resources["LavenderBrush"];
+            }
+        };
+        var result = await dialog.ShowAsync();
+        if (result is ContentDialogResult.Primary && addedGame is not null)
+        {
+            RebuildGameRail(launcherState.Snapshot);
+            GameSelector.SelectedItem = Games.FirstOrDefault(game => game.Id == addedGame.Id);
+            var lease = pageLease;
+            if (lease is not null)
+            {
+                await sessionRefresh.RefreshNowAsync(lease.CancellationToken);
+            }
+        }
+    }
+
+    private void ExportToggle_Click(object sender, RoutedEventArgs e)
+    {
+        if (GameSelector?.SelectedItem is not GameLauncherItem selected)
+        {
+            return;
+        }
+        var capability = ExportProviderCatalog.GetEnabled(
+            selected.Id,
+            launcherState.Snapshot.Preferences.FeatureFlags);
+        if (ReferenceEquals(sender, PullExportToggle) && !capability.Supports(ExportKind.Pulls)) return;
+        if (ReferenceEquals(sender, AchievementExportToggle) && !capability.Supports(ExportKind.Achievements)) return;
+        var gameId = selected.Id;
+        var pullsArmed = capability.Supports(ExportKind.Pulls) && PullExportToggle.IsChecked == true;
+        var achievementsArmed = capability.Supports(ExportKind.Achievements) && AchievementExportToggle.IsChecked == true;
+        var saved = launcherState.TryUpdate(state =>
+        {
+            var games = state.Export.Games.ToDictionary(static pair => pair.Key, static pair => pair.Value, StringComparer.Ordinal);
+            games[gameId] = new Nyx.Desktop.Core.State.ExportGameArming
+            {
+                PullsArmed = pullsArmed,
+                AchievementsArmed = achievementsArmed,
+            };
+            return state with { Export = state.Export with { Games = games } };
+        });
+        if (!saved) NyxToolsStatusText.Text = "Nyx could not save that choice. Try again.";
+        else RenderSelection();
+    }
+
+    private async void OpenExportsButton_Click(object sender, RoutedEventArgs e)
+    {
+        var folder = Path.Combine(WindowsDownloadsDirectory.Get(), "Pengo Exports");
+        try
+        {
+            Directory.CreateDirectory(folder);
+            await Windows.System.Launcher.LaunchFolderPathAsync(folder);
+        }
+        catch (Exception exception) when (exception is IOException or UnauthorizedAccessException)
+        {
+            NyxToolsStatusText.Text = "Windows could not open the export folder.";
+        }
+    }
+
+    private void CancelExportButton_Click(object sender, RoutedEventArgs e)
+    {
+        if (GameSelector?.SelectedItem is GameLauncherItem selected
+            && latestExportJobs.TryGetValue(selected.Id, out var jobId)
+            && exports.Cancel(jobId))
+            NyxToolsStatusText.Text = "Canceling this export safely…";
+    }
+
+    private void ConfirmWorldButton_Click(object sender, RoutedEventArgs e)
+    {
+        if (GameSelector?.SelectedItem is GameLauncherItem selected
+            && exportSignals.ConfirmWorldReady(selected.Id))
+            NyxToolsStatusText.Text = "Achievements: collecting the complete list...";
+    }
+
+    private void ConfirmHistoryButton_Click(object sender, RoutedEventArgs e)
+    {
+        if (GameSelector?.SelectedItem is GameLauncherItem selected
+            && exportSignals.ConfirmHistory(selected.Id))
+            NyxToolsStatusText.Text = "Pulls: collecting history...";
+    }
+
+    private async Task TrackExportJobAsync(string gameId, Guid jobId, SessionUiLease lease)
+    {
+        while (!lease.CancellationToken.IsCancellationRequested)
+        {
+            ExportJobSnapshot snapshot;
+            try { snapshot = exports.GetSnapshot(jobId); }
+            catch (KeyNotFoundException) { return; }
+            _ = DispatcherQueue.TryEnqueue(() =>
+            {
+                if (GameSelector?.SelectedItem is GameLauncherItem { Id: var selectedId } && selectedId == gameId)
+                {
+                    if (snapshot.IsFinished) RenderSelection();
+                    else RenderExportTools((GameLauncherItem)GameSelector.SelectedItem);
+                }
+            });
+            if (snapshot.IsFinished) return;
+            try { await Task.Delay(400, lease.CancellationToken); }
+            catch (OperationCanceledException) { return; }
         }
     }
 
@@ -952,6 +2168,18 @@ public sealed partial class MainPage : Page
             sessionUiLifetime.TryRun(lease, RenderLatestContent));
     }
 
+    private void LauncherBanners_Updated(object? sender, EventArgs e)
+    {
+        var lease = pageLease;
+        if (lease is null)
+        {
+            return;
+        }
+
+        _ = DispatcherQueue.TryEnqueue(() =>
+            sessionUiLifetime.TryRun(lease, RenderSelection));
+    }
+
     private void PublisherStatus_Updated(object? sender, EventArgs e)
     {
         var lease = pageLease;
@@ -964,8 +2192,16 @@ public sealed partial class MainPage : Page
             sessionUiLifetime.TryRun(lease, RenderSelection));
     }
 
-    private void GameSelector_SelectionChanged(object sender, SelectionChangedEventArgs e) =>
+    private void GameSelector_SelectionChanged(object sender, SelectionChangedEventArgs e)
+    {
+        if (GameSelector?.SelectedItem is GameLauncherItem selected
+            && !string.Equals(lastArtSelectionGameId, selected.Id, StringComparison.Ordinal))
+        {
+            lastArtSelectionGameId = selected.Id;
+            automaticArtVariants.Remove(selected.Id);
+        }
         RenderSelection();
+    }
 
     private void GameSelector_Loaded(object sender, RoutedEventArgs e) =>
         ApplyLayout(ActualWidth, ActualHeight);
@@ -991,13 +2227,15 @@ public sealed partial class MainPage : Page
         HeroTitle.FontSize = profile.TitleSize;
         ContentPanel.MaxWidth = profile.ContentWidth;
         ContentScroll.MaxWidth = profile.ContentWidth;
-        HeroStage.Width = profile.HeroWidth;
+        HeroStage.Width = profile.UsesHorizontalRail
+            ? profile.HeroWidth
+            : Math.Max(profile.HeroWidth, width + 70);
         HeroArtwork.Opacity = profile.State switch
         {
             LauncherLayoutState.Compact => 0.34,
             LauncherLayoutState.Horizontal => 0.58,
-            LauncherLayoutState.Wide => 0.92,
-            _ => 1,
+            LauncherLayoutState.Wide => 0.68,
+            _ => 0.78,
         };
         CommandDeck.Height = profile.DeckHeight;
         LaunchButton.Width = profile.LaunchWidth;
@@ -1037,6 +2275,8 @@ public sealed partial class MainPage : Page
 
             RailBrandRow.Height = new GridLength(1, GridUnitType.Star);
             RailContentRow.Height = new GridLength(0);
+            RailAddRow.Height = new GridLength(0);
+            RailSpacerRow.Height = new GridLength(0);
             RailFooterRow.Height = new GridLength(0);
             Grid.SetRow(BrandLockup, 0);
             Grid.SetRowSpan(BrandLockup, 1);
@@ -1044,7 +2284,15 @@ public sealed partial class MainPage : Page
             BrandLockup.Margin = new Thickness(12, 48, 0, 6);
             BrandLockup.HorizontalAlignment = HorizontalAlignment.Left;
             BrandLockup.VerticalAlignment = VerticalAlignment.Center;
-            RailGameCount.Visibility = Visibility.Collapsed;
+            AddGameButton.Visibility = Visibility.Visible;
+            AddGameButton.Width = 52;
+            AddGameButton.Margin = new Thickness(0, 52, 12, 0);
+            AddGameButton.HorizontalAlignment = HorizontalAlignment.Right;
+            AddGameButton.VerticalAlignment = VerticalAlignment.Center;
+            AddGameLabel.Visibility = Visibility.Collapsed;
+            Grid.SetRow(AddGameButton, 0);
+            Grid.SetRowSpan(AddGameButton, 1);
+            KofiButton.Visibility = Visibility.Collapsed;
 
             Grid.SetRow(GameSelector, 0);
             Grid.SetRowSpan(GameSelector, 3);
@@ -1057,7 +2305,7 @@ public sealed partial class MainPage : Page
             GameSelector.Margin = new Thickness(
                 profile.State is LauncherLayoutState.Compact ? 100 : 126,
                 52,
-                10,
+                76,
                 0);
             ScrollViewer.SetHorizontalScrollMode(GameSelector, ScrollMode.Enabled);
             ScrollViewer.SetHorizontalScrollBarVisibility(GameSelector, ScrollBarVisibility.Hidden);
@@ -1103,16 +2351,27 @@ public sealed partial class MainPage : Page
         RailSurface.VerticalAlignment = VerticalAlignment.Stretch;
         RailSurface.BorderThickness = new Thickness(0, 0, 1, 0);
 
-        RailBrandRow.Height = new GridLength(100);
+        RailBrandRow.Height = new GridLength(105);
         RailContentRow.Height = new GridLength(1, GridUnitType.Star);
-        RailFooterRow.Height = new GridLength(0);
+        RailAddRow.Height = GridLength.Auto;
+        RailSpacerRow.Height = new GridLength(0);
+        RailFooterRow.Height = new GridLength(54);
         Grid.SetRow(BrandLockup, 0);
         Grid.SetRowSpan(BrandLockup, 1);
         BrandLockup.Width = double.NaN;
-        BrandLockup.Margin = new Thickness(12, 48, 12, 0);
+        BrandLockup.Margin = new Thickness(8, 42, 8, 0);
         BrandLockup.HorizontalAlignment = HorizontalAlignment.Center;
         BrandLockup.VerticalAlignment = VerticalAlignment.Top;
-        RailGameCount.Visibility = Visibility.Collapsed;
+        AddGameButton.Visibility = Visibility.Visible;
+        AddGameButton.Width = Math.Max(72, profile.RailExtent - 24);
+        AddGameButton.Margin = new Thickness(12, 8, 12, 8);
+        AddGameButton.HorizontalAlignment = HorizontalAlignment.Center;
+        AddGameButton.VerticalAlignment = VerticalAlignment.Center;
+        AddGameLabel.Visibility = Visibility.Visible;
+        Grid.SetRow(AddGameButton, 2);
+        Grid.SetRowSpan(AddGameButton, 1);
+        KofiButton.Visibility = Visibility.Visible;
+        Grid.SetRow(KofiButton, 4);
 
         Grid.SetRow(GameSelector, 1);
         Grid.SetRowSpan(GameSelector, 1);
@@ -1169,21 +2428,20 @@ public sealed partial class MainPage : Page
         CommandDeckGrid.RowSpacing = compact ? 8 : 0;
 
         SignalPanel.MinWidth = 0;
-        MaintenanceResponsibilityText.Visibility = horizontal || compact
+        MaintenanceResponsibilityText.Visibility = horizontalDeck || compact
             ? Visibility.Collapsed
             : Visibility.Visible;
-        PengoToolsLabel.Visibility = horizontal || compact
+        PengoToolsLabel.Visibility = horizontalDeck || compact
             ? Visibility.Collapsed
             : Visibility.Visible;
-        PengoToolButtons.Margin = horizontal || compact
+        PengoToolButtons.Margin = horizontalDeck || compact
             ? new Thickness(0, 0, 0, 0)
             : new Thickness(0, 8, 0, 0);
         UpdaterSignalRow.Margin = compact
             ? new Thickness(LauncherViewportGeometry.CompactOfficialInset, 0, 0, 0)
             : new Thickness(0, 0, 0, 0);
-        NyxToolsPanel.Margin = horizontalDeck
-            ? new Thickness(0, LauncherViewportGeometry.TwoRowGap, 0, 0)
-            : new Thickness(0, 0, 0, 0);
+        NyxToolsPanel.Margin = new Thickness(0);
+        SignalStack.Visibility = horizontalDeck ? Visibility.Collapsed : Visibility.Visible;
         LaunchButton.Margin = horizontalDeck
             ? new Thickness(0, LauncherViewportGeometry.TwoRowGap, 0, 0)
             : new Thickness(0, 0, 0, 0);
@@ -1211,7 +2469,10 @@ public sealed partial class MainPage : Page
         {
             LaunchButton.Width = double.NaN;
             LaunchButton.Height = 62;
-            DeckRow0.Height = new GridLength(LauncherViewportGeometry.TwoRowHeight);
+            DeckRow0.Height = new GridLength(
+                profile.State is LauncherLayoutState.Wide
+                    ? LauncherViewportGeometry.WideTwoRowStatusHeight
+                    : LauncherViewportGeometry.TwoRowHeight);
             DeckRow1.Height = new GridLength(
                 LauncherViewportGeometry.TwoRowHeight
                 + LauncherViewportGeometry.TwoRowGap);
@@ -1233,10 +2494,10 @@ public sealed partial class MainPage : Page
         DeckRow1.Height = new GridLength(0);
         DeckRow2.Height = new GridLength(0);
         DeckColumn0.Width = new GridLength(
-            profile.State is LauncherLayoutState.Wide ? 160 : 190);
+            profile.State is LauncherLayoutState.Wide ? 200 : 190);
         DeckColumn1.Width = new GridLength(1, GridUnitType.Star);
         DeckColumn2.Width = new GridLength(
-            profile.State is LauncherLayoutState.Wide ? 216 : 230);
+            profile.State is LauncherLayoutState.Wide ? 232 : 230);
         DeckColumn3.Width = new GridLength(profile.LaunchWidth);
         LaunchButton.Width = profile.LaunchWidth;
 
@@ -1314,13 +2575,33 @@ public sealed partial class MainPage : Page
             return;
         }
 
-        var gameIndex = Games.TakeWhile(game => game.Id != selected.Id).Count() + 1;
-        GameIndexText.Text = $"GAME {gameIndex:00} / {Games.Count:00}";
         MaintenanceProviderText.Text = selected.MaintenanceProvider;
+        ApplySelectedAppearance(selected.Id);
         ChooseGameFolderButton.Visibility = Visibility.Collapsed;
-        gameSnapshot = sessions.GetSnapshot(selected.Id);
+        gameSnapshot = sessions.TryGetSnapshot(selected.Id, out var selectedSnapshot)
+            ? selectedSnapshot
+            : null;
+        LatestStrip.Visibility = launcherState.Snapshot.Preferences.FeatureFlags.OfficialNews
+            ? Visibility.Visible
+            : Visibility.Collapsed;
+        CurrentBannerList.Visibility = Visibility.Visible;
+        var layout = LauncherLayoutStateSelector.CreateProfile(ActualWidth, ActualHeight);
+        MaintenanceResponsibilityText.Visibility = layout.State is LauncherLayoutState.Horizontal or LauncherLayoutState.Compact
+            || (layout.State is LauncherLayoutState.Wide && ActualWidth < LauncherViewportGeometry.NarrowWideDeckWidth)
+            ? Visibility.Collapsed
+            : Visibility.Visible;
+        if (launcherState.Snapshot.SelectedGameId != selected.Id)
+        {
+            _ = launcherState.TryUpdate(state => state with { SelectedGameId = selected.Id });
+        }
         RenderLatestContent();
-        RenderPengoTools(selected);
+        RenderExportTools(selected);
+
+        if (selected.IsCustom)
+        {
+            RenderCustomGame(selected);
+            return;
+        }
 
         if (selected.Id == "gi")
         {
@@ -1343,45 +2624,166 @@ public sealed partial class MainPage : Page
         RenderEndfield(selected);
     }
 
-    private void RenderPengoTools(GameLauncherItem selected)
+    private void ApplySelectedAppearance(string gameId)
     {
-        var pullAvailable = PengoWebToolCatalog.TryGet(
-            selected.Id,
-            PengoWebToolKind.PullTracker,
-            out _);
-        var achievementsAvailable = PengoWebToolCatalog.TryGet(
-            selected.Id,
-            PengoWebToolKind.Achievements,
-            out _);
+        var state = launcherState.Snapshot;
+        var appearance = state.Appearance.TryGetValue(gameId, out var savedAppearance)
+            ? savedAppearance
+            : new Nyx.Desktop.Core.State.GameAppearanceState();
+        if (GameSelector?.SelectedItem is GameLauncherItem selected
+            && string.Equals(selected.Id, gameId, StringComparison.Ordinal)
+            && Uri.TryCreate(selected.HeroArtPath, UriKind.Absolute, out var heroUri))
+        {
+            HeroArtwork.Source = new BitmapImage(heroUri);
+            HeroArtwork.Stretch = Stretch.UniformToFill;
+        }
+        _ = TryApplyPinnedArt(appearance);
+        var path = appearance.BackgroundPath;
+        if (!string.IsNullOrWhiteSpace(path) && File.Exists(path))
+        {
+            BackgroundArtwork.Source = new BitmapImage(new Uri(path));
+        }
+        else
+        {
+            BackgroundArtwork.Source = new BitmapImage(new Uri("ms-appx:///Assets/backgroundnyx.png"));
+        }
+    }
 
-        OpenPullTrackerButton.Visibility = pullAvailable
+    private void RenderCustomGame(GameLauncherItem selected)
+    {
+        LatestStrip.Visibility = Visibility.Collapsed;
+        UpdaterSignalRow.Visibility = Visibility.Collapsed;
+        NyxToolsPanel.Visibility = Visibility.Collapsed;
+        CurrentBannerList.Visibility = Visibility.Collapsed;
+        MaintenanceResponsibilityText.Visibility = Visibility.Collapsed;
+
+        var snapshot = gameSnapshot;
+        if (snapshot is null || snapshot.Readiness is LocalReadinessEvidence.Unknown)
+        {
+            SetGameSignal("Checking…", "LavenderBrush");
+            HeroDescription.Text = "Checking the exact custom executable.";
+            SetLaunchControls(false, "CHECKING", "Verifying the saved file", $"Checking {selected.DisplayName}");
+            return;
+        }
+
+        switch (snapshot.Status)
+        {
+            case LocalGameStatus.Ready:
+                SetGameSignal("Ready", "LavenderBrush");
+                HeroDescription.Text = "Custom executable verified.";
+                SetLaunchControls(true, "LAUNCH", "Ready", $"Launch {selected.DisplayName}");
+                break;
+            case LocalGameStatus.Starting:
+                SetGameSignal("Starting…", "LavenderBrush");
+                HeroDescription.Text = "Waiting for the exact game process.";
+                SetLaunchControls(false, "STARTING", "Waiting for the game", $"Starting {selected.DisplayName}");
+                break;
+            case LocalGameStatus.Running:
+                SetGameSignal("Running", "MoonBrush");
+                HeroDescription.Text = $"{selected.DisplayName} is running.";
+                SetLaunchControls(false, "RUNNING", "Detected", $"{selected.DisplayName} is running");
+                break;
+            case LocalGameStatus.LaunchFailed:
+                SetGameSignal("Launch failed", "MoonBrush");
+                HeroDescription.Text = "The custom game did not start. Check its saved path in Settings.";
+                SetLaunchControls(true, "TRY AGAIN", "Ready", $"Try launching {selected.DisplayName} again");
+                break;
+            case LocalGameStatus.NotFound:
+                SetGameSignal("Moved or missing", "MistBrush");
+                HeroDescription.Text = "The saved executable moved or is missing. Repair it in Settings.";
+                SetLaunchControls(false, "NOT FOUND", "Repair the saved path", $"{selected.DisplayName} was not found");
+                break;
+            default:
+                SetGameSignal("Needs review", "LavenderBrush");
+                HeroDescription.Text = "Nyx could not prove the exact custom process.";
+                SetLaunchControls(false, "LOCKED", "Review the saved path", $"{selected.DisplayName} needs review");
+                break;
+        }
+    }
+
+    private void RenderExportTools(GameLauncherItem selected)
+    {
+        var capability = ExportProviderCatalog.GetEnabled(
+            selected.Id,
+            launcherState.Snapshot.Preferences.FeatureFlags);
+        var pullsAvailable = capability.Supports(ExportKind.Pulls);
+        var achievementsAvailable = capability.Supports(ExportKind.Achievements);
+        NyxToolsPanel.Visibility = pullsAvailable || achievementsAvailable
             ? Visibility.Visible
             : Visibility.Collapsed;
-        OpenPullTrackerButton.IsEnabled = pullAvailable
-            && !webToolActionsInFlight.Contains((selected.Id, PengoWebToolKind.PullTracker));
-        AutomationProperties.SetName(
-            OpenPullTrackerButton,
-            $"Open Pengo pull history for {selected.DisplayName} in your browser");
+        if (!pullsAvailable && !achievementsAvailable) return;
+        var armed = launcherState.Snapshot.Export.Games.TryGetValue(selected.Id, out var saved)
+            ? saved
+            : new Nyx.Desktop.Core.State.ExportGameArming();
+        PullExportToggle.IsChecked = pullsAvailable && armed.PullsArmed;
+        AchievementExportToggle.IsChecked = achievementsAvailable && armed.AchievementsArmed;
+        PullExportToggle.Visibility = pullsAvailable ? Visibility.Visible : Visibility.Collapsed;
+        AchievementExportToggle.Visibility = achievementsAvailable ? Visibility.Visible : Visibility.Collapsed;
+        PullExportToggle.IsEnabled = pullsAvailable;
+        AchievementExportToggle.IsEnabled = achievementsAvailable;
+        AutomationProperties.SetName(PullExportToggle, pullsAvailable
+            ? $"Export pulls on the next {selected.DisplayName} launch"
+            : $"Pull export for {selected.DisplayName} is coming later");
+        AutomationProperties.SetName(AchievementExportToggle, achievementsAvailable
+            ? $"Export achievements on the next {selected.DisplayName} launch"
+            : $"Achievement export for {selected.DisplayName} is coming later");
 
-        OpenAchievementsButton.Visibility = achievementsAvailable
-            ? Visibility.Visible
-            : Visibility.Collapsed;
-        OpenAchievementsButton.IsEnabled = achievementsAvailable
-            && !webToolActionsInFlight.Contains((selected.Id, PengoWebToolKind.Achievements));
-        AutomationProperties.SetName(
-            OpenAchievementsButton,
-            $"Open Pengo achievements for {selected.DisplayName} in your browser");
+        CancelExportButton.Visibility = Visibility.Collapsed;
+        OpenExportsButton.Visibility = Visibility.Collapsed;
+        ConfirmWorldButton.Visibility = Visibility.Collapsed;
+        ConfirmHistoryButton.Visibility = Visibility.Collapsed;
+        if (latestExportJobs.TryGetValue(selected.Id, out var jobId))
+        {
+            var job = exports.GetSnapshot(jobId);
+            CancelExportButton.Visibility = job.IsFinished ? Visibility.Collapsed : Visibility.Visible;
+            OpenExportsButton.Visibility = job.IsFinished ? Visibility.Visible : Visibility.Collapsed;
+            ConfirmWorldButton.Visibility = job.Achievements.State is ExportTaskState.WaitingForWorld
+                ? Visibility.Visible
+                : Visibility.Collapsed;
+            ConfirmHistoryButton.Visibility = job.Pulls.State is ExportTaskState.WaitingForHistory
+                ? Visibility.Visible
+                : Visibility.Collapsed;
+            NyxToolsStatusText.Text = FormatExportStatus(job);
+        }
+        else
+        {
+            var kinds = (armed.PullsArmed, armed.AchievementsArmed) switch
+            {
+                (true, true) => "Pulls and achievements are armed for the next launch.",
+                (true, false) => "Pull export is armed for the next launch.",
+                (false, true) => "Achievement export is armed for the next launch.",
+                _ => "Choose what Nyx should export after the next launch.",
+            };
+            NyxToolsStatusText.Text = kinds;
+        }
+        AutomationProperties.SetName(NyxToolsPanel, $"Nyx exports for {selected.DisplayName}");
+    }
 
-        NyxToolsStatusText.Text = webToolFeedbackByGame.TryGetValue(selected.Id, out var feedback)
-                ? feedback.Message
-                : selected.Id == "ae"
-                    ? "Endfield currently supports JSON, CSV, and manual pull import."
-                    : "Import and extraction choices stay on Pengo.";
-        AutomationProperties.SetName(
-            NyxToolsPanel,
-            achievementsAvailable
-                ? $"Pengo pull history and achievements for {selected.DisplayName}"
-                : $"Pengo pull history for {selected.DisplayName}");
+    private static string FormatExportStatus(ExportJobSnapshot job)
+    {
+        if (!job.IsFinished)
+        {
+            if (job.Achievements.State is ExportTaskState.Preparing)
+                return "Achievements: preparing capture before launch...";
+            if (job.Achievements.State is ExportTaskState.WaitingForWorld)
+                return "Achievements: enter the world, then confirm.";
+            if (job.Pulls.State is ExportTaskState.WaitingForHistory)
+                return "Pulls: open Wish or Warp History, then confirm.";
+            return "Export is running. Keep the game open.";
+        }
+        if (job.State == ExportJobState.Completed) return "Export complete. The files are in Pengo Exports.";
+        if (job.State == ExportJobState.Canceled) return "Export canceled. No unfinished file was kept.";
+        if (job.State == ExportJobState.Unsupported) return "This game’s export provider is coming later.";
+        var code = job.Pulls.ErrorCode ?? job.Achievements.ErrorCode;
+        return code switch
+        {
+            "approval-canceled" => "Administrator approval was canceled, so achievements were not exported.",
+            "administrator_required" => "Achievement export needs administrator approval for this game.",
+            "normal_user_required" => "Genshin achievement export must run without administrator rights.",
+            "capture_timeout" or "timed-out" => "Export timed out. Launch again and enter the game promptly.",
+            "output-missing" or "output_write_failed" => "Nyx could not create the export file.",
+            _ => "The export did not finish, but the game launch was not blocked.",
+        };
     }
 
     private void RefreshGameRailSignals()
@@ -1410,6 +2812,48 @@ public sealed partial class MainPage : Page
         }
 
         LatestCards.Clear();
+        CurrentBannerRows.Clear();
+        var officialNewsEnabled = launcherState.Snapshot.Preferences.FeatureFlags.OfficialNews;
+        LatestStrip.Visibility = officialNewsEnabled ? Visibility.Visible : Visibility.Collapsed;
+        if (!selected.IsCustom
+            && launcherBanners.Current.Games.TryGetValue(selected.Id, out var launcherGame))
+        {
+            var health = launcherBanners.Current.Health.Games.TryGetValue(selected.Id, out var gameHealth)
+                ? gameHealth.Status
+                : launcherBanners.Current.Health.Status;
+            LatestSourceText.Text = "OFFICIAL";
+            LatestFreshnessText.Text = health.ToUpperInvariant();
+            AutomationProperties.SetName(LatestSourceText, "Source: official publisher feeds cached by Nyx");
+            AutomationProperties.SetName(LatestFreshnessText, $"Freshness: {health}");
+            var index = 0;
+            foreach (var item in officialNewsEnabled ? launcherGame.News.Take(3) : [])
+            {
+                LatestCards.Add(LatestContentCardItem.From(
+                    new LatestContentCard(
+                        item.Id,
+                        item.Type,
+                        item.Title,
+                        item.Start,
+                        item.ApprovedUrl?.AbsoluteUri),
+                    index++));
+            }
+
+            var now = DateTimeOffset.UtcNow;
+            if (launcherGame.Current is { } current && current.Start <= now && now < current.End)
+            {
+                foreach (var character in current.Characters.Take(2))
+                {
+                    CurrentBannerRows.Add(new CurrentBannerRowItem(
+                        character.Name,
+                        CurrentBannerRowItem.FormatRemainingForDisplay(current.End - DateTimeOffset.UtcNow)));
+                }
+                ApplyLauncherBannerArt(selected.Id, current);
+            }
+            return;
+        }
+
+        if (!officialNewsEnabled) return;
+
         if (!latestContent.Current.TryGetValue(selected.Id, out var snapshot))
         {
             LatestSourceText.Text = "LOCAL SNAPSHOT";
@@ -1435,6 +2879,139 @@ public sealed partial class MainPage : Page
         {
             LatestCards.Add(LatestContentCardItem.From(card, cardIndex++));
         }
+
+        foreach (var card in snapshot.Cards
+                     .Where(static card => string.Equals(card.Type, "banner", StringComparison.OrdinalIgnoreCase))
+                     .Take(2))
+        {
+            CurrentBannerRows.Add(CurrentBannerRowItem.From(card, DateTimeOffset.Now));
+        }
+    }
+
+    private void ApplyLauncherBannerArt(string gameId, LauncherBannersCurrentPhase current)
+    {
+        var state = launcherState.Snapshot;
+        var appearance = state.Appearance.TryGetValue(gameId, out var saved)
+            ? saved
+            : new Nyx.Desktop.Core.State.GameAppearanceState();
+        if (!state.Preferences.FeatureFlags.AutomaticArt || !appearance.AutomaticArt)
+        {
+            return;
+        }
+
+        if (TryApplyPinnedArt(appearance)) return;
+
+        var selectedCharacter = current.Characters.FirstOrDefault(character => character.Id == current.SelectedCharacterId)
+            ?? current.Characters.FirstOrDefault();
+        var variants = selectedCharacter?.Variants.Count > 0
+            ? selectedCharacter.Variants
+            : current.Variants;
+        var allCurrentVariants = current.Characters
+            .SelectMany(character => character.Variants)
+            .Concat(current.Variants)
+            .DistinctBy(asset => asset.Id)
+            .ToArray();
+        var pinMigration = LauncherPinnedArtMigration.Evaluate(
+            appearance,
+            protectedFileValid: false,
+            allCurrentVariants.Select(asset => asset.Id));
+        LauncherBannersAsset? variant = null;
+        if (pinMigration is LauncherPinnedArtMigrationStatus.AvailableForProtection)
+            variant = allCurrentVariants.FirstOrDefault(asset => asset.Id == appearance.ArtVariant);
+        if (appearance.ArtPinned
+            && launcherBanners.TryResolveUserArt(appearance.PinnedArtFile) is null
+            && variant is not null)
+        {
+            string? migratedPin = null;
+            try
+            {
+                migratedPin = launcherBanners.PinUserArt(gameId, variant);
+                var pinToSave = migratedPin;
+                var pinWasSaved = false;
+                var migrated = launcherState.TryUpdate(currentState =>
+                {
+                    var currentAppearance = currentState.Appearance.TryGetValue(gameId, out var existing)
+                        ? existing
+                        : new Nyx.Desktop.Core.State.GameAppearanceState();
+                    if (!currentAppearance.ArtPinned
+                        || !string.Equals(currentAppearance.ArtVariant, variant.Id, StringComparison.Ordinal)
+                        || (launcherBanners.TryResolveUserArt(currentAppearance.PinnedArtFile) is not null
+                            && !string.Equals(currentAppearance.PinnedArtFile, pinToSave, StringComparison.Ordinal)))
+                    {
+                        return currentState;
+                    }
+                    if (string.Equals(currentAppearance.PinnedArtFile, pinToSave, StringComparison.Ordinal))
+                    {
+                        pinWasSaved = true;
+                        return currentState;
+                    }
+                    var appearances = new Dictionary<string, Nyx.Desktop.Core.State.GameAppearanceState>(
+                        currentState.Appearance,
+                        StringComparer.Ordinal)
+                    {
+                        [gameId] = currentAppearance with { PinnedArtFile = pinToSave },
+                    };
+                    pinWasSaved = true;
+                    return currentState with { Appearance = appearances };
+                });
+                if (migrated && pinWasSaved)
+                {
+                    appearance = appearance with { PinnedArtFile = migratedPin };
+                    if (TryApplyPinnedArt(appearance)) return;
+                }
+                else
+                {
+                    migratedPin = null;
+                }
+            }
+            catch (Exception exception) when (exception is IOException or UnauthorizedAccessException or InvalidDataException)
+            {
+                migratedPin = null;
+            }
+        }
+        if (variant is null
+            && automaticArtVariants.TryGetValue(gameId, out var remembered)
+            && remembered.Revision == launcherBanners.Current.Revision)
+            variant = variants.FirstOrDefault(asset => asset.Id == remembered.VariantId);
+        if (variant is null && variants.Count > 0)
+        {
+            variant = variants[Random.Shared.Next(variants.Count)];
+            automaticArtVariants[gameId] = (launcherBanners.Current.Revision, variant.Id);
+        }
+        if (variant is null)
+        {
+            return;
+        }
+        var path = launcherBanners.TryResolveManagedAsset(variant);
+        if (path is null)
+        {
+            return;
+        }
+
+        HeroArtwork.Source = new BitmapImage(new Uri(path));
+        HeroArtwork.Stretch = variant.Placement.Fit == "contain" ? Stretch.Uniform : Stretch.UniformToFill;
+        if (HeroArtwork.RenderTransform is CompositeTransform transform)
+        {
+            transform.ScaleX = appearance.ArtScale / 100d;
+            transform.ScaleY = appearance.ArtScale / 100d;
+            transform.TranslateX = appearance.ArtX + ((variant.Placement.X - 0.5) * HeroStage.ActualWidth);
+            transform.TranslateY = appearance.ArtY + ((variant.Placement.Y - 0.5) * HeroStage.ActualHeight);
+        }
+    }
+
+    private bool TryApplyPinnedArt(Nyx.Desktop.Core.State.GameAppearanceState appearance)
+    {
+        if (!appearance.ArtPinned || launcherBanners.TryResolveUserArt(appearance.PinnedArtFile) is not { } path) return false;
+        HeroArtwork.Source = new BitmapImage(new Uri(path));
+        HeroArtwork.Stretch = Stretch.Uniform;
+        if (HeroArtwork.RenderTransform is CompositeTransform transform)
+        {
+            transform.ScaleX = appearance.ArtScale / 100d;
+            transform.ScaleY = appearance.ArtScale / 100d;
+            transform.TranslateX = appearance.ArtX + (0.22 * HeroStage.ActualWidth);
+            transform.TranslateY = appearance.ArtY;
+        }
+        return true;
     }
 
     private void RenderGenshin()
@@ -1457,7 +3034,7 @@ public sealed partial class MainPage : Page
         {
             case LocalGameStatus.Ready:
                 SetGameSignal(WithVersion("Ready", gameVersion), "LavenderBrush");
-                HeroDescription.Text = "Official files verified. Nyx is ready to start the game.";
+                HeroDescription.Text = "Official files verified.";
                 SetLaunchControls(true, "LAUNCH", WithVersion("Ready", gameVersion), "Launch Genshin Impact");
                 break;
             case LocalGameStatus.Starting:
@@ -1468,7 +3045,7 @@ public sealed partial class MainPage : Page
             case LocalGameStatus.Running:
                 SetGameSignal(WithVersion("Running", gameVersion), "MoonBrush");
                 HeroDescription.Text = "Genshin Impact is already running.";
-                SetLaunchControls(false, "RUNNING", WithVersion("Detected", gameVersion), "Genshin Impact is running");
+                SetRunningExportControls("Genshin Impact", gameVersion);
                 break;
             case LocalGameStatus.LaunchFailed:
                 RenderLaunchFailure(gameVersion);
@@ -1508,7 +3085,7 @@ public sealed partial class MainPage : Page
         {
             case LocalGameStatus.Ready:
                 SetGameSignal(WithVersion("Ready", version), "LavenderBrush");
-                HeroDescription.Text = "Official files verified. Nyx is ready to start the game.";
+                HeroDescription.Text = "Official files verified.";
                 SetLaunchControls(true, "LAUNCH", WithVersion("Ready", version), $"Launch {selected.DisplayName}");
                 break;
             case LocalGameStatus.Starting:
@@ -1519,7 +3096,7 @@ public sealed partial class MainPage : Page
             case LocalGameStatus.Running:
                 SetGameSignal(WithVersion("Running", version), "MoonBrush");
                 HeroDescription.Text = $"{selected.DisplayName} is already running.";
-                SetLaunchControls(false, "RUNNING", WithVersion("Detected", version), $"{selected.DisplayName} is running");
+                SetRunningExportControls(selected.DisplayName, version);
                 break;
             case LocalGameStatus.LaunchFailed:
                 SetGameSignal("Launch failed", "MoonBrush");
@@ -1570,7 +3147,7 @@ public sealed partial class MainPage : Page
         {
             case LocalGameStatus.Ready:
                 SetGameSignal("Ready", "LavenderBrush");
-                HeroDescription.Text = "Official files verified. Nyx is ready to start the game.";
+                HeroDescription.Text = "Official files verified.";
                 SetLaunchControls(true, "LAUNCH", "Ready", $"Launch {selected.DisplayName}");
                 break;
             case LocalGameStatus.Starting:
@@ -1857,6 +3434,27 @@ public sealed partial class MainPage : Page
         GameSignalText.Text = text;
     }
 
+    private void SetRunningExportControls(string gameName, string? version)
+    {
+        if (GameSelector?.SelectedItem is not GameLauncherItem selected)
+        {
+            SetLaunchControls(false, "RUNNING", WithVersion("Detected", version), $"{gameName} is running");
+            return;
+        }
+
+        var state = launcherState.Snapshot;
+        var arm = ExportArmSnapshot.From(state.Export, selected.Id, state.Preferences.FeatureFlags);
+        var hasActiveJob = latestExportJobs.TryGetValue(selected.Id, out var jobId)
+            && !exports.GetSnapshot(jobId).IsFinished;
+        if (arm.RequestedKinds != ExportKind.None && !hasActiveJob)
+        {
+            SetLaunchControls(true, "EXPORT", "Game already running", $"Export selected {gameName} data now");
+            return;
+        }
+
+        SetLaunchControls(false, "RUNNING", WithVersion("Detected", version), $"{gameName} is running");
+    }
+
     private void SetLaunchControls(
         bool enabled,
         string title,
@@ -1908,6 +3506,12 @@ public sealed class LatestContentCardItem
 
     public double ItemOpacity { get; set; } = 0.78;
 
+    public string? ApprovedLink { get; set; }
+
+    public bool IsLinkSafe { get; set; }
+
+    public string AccessibilityName { get; set; } = string.Empty;
+
     public static LatestContentCardItem From(LatestContentCard card, int index = 0) => new()
     {
         TypeLabel = FormatType(card.Type),
@@ -1917,6 +3521,11 @@ public sealed class LatestContentCardItem
             ?? "CURRENT",
         TitleSize = index == 0 ? 15 : 13,
         ItemOpacity = index == 0 ? 1 : 0.78,
+        ApprovedLink = card.ApprovedLink,
+        IsLinkSafe = !string.IsNullOrWhiteSpace(card.ApprovedLink),
+        AccessibilityName = string.IsNullOrWhiteSpace(card.ApprovedLink)
+            ? $"News: {card.Title}"
+            : $"Open official news: {card.Title}",
     };
 
     private static string FormatType(string type) => type switch
@@ -1927,6 +3536,41 @@ public sealed class LatestContentCardItem
         _ => type.ToUpperInvariant(),
     };
 }
+
+public sealed class CurrentBannerRowItem
+{
+    public CurrentBannerRowItem(string title, string remaining)
+    {
+        Title = title;
+        Remaining = remaining;
+    }
+
+    public string Title { get; set; }
+
+    public string Remaining { get; set; }
+
+    public static CurrentBannerRowItem From(LatestContentCard card, DateTimeOffset now)
+    {
+        var remaining = card.PublishedAt is not { } end || end <= now
+            ? "LIVE"
+            : FormatRemainingForDisplay(end - now);
+        return new(card.Title, remaining);
+    }
+
+    public static string FormatRemainingForDisplay(TimeSpan duration)
+    {
+        if (duration.TotalDays >= 1)
+        {
+            return $"{(int)duration.TotalDays}d {duration.Hours}h";
+        }
+
+        return duration.TotalHours >= 1
+            ? $"{(int)duration.TotalHours}h {duration.Minutes}m"
+            : $"{Math.Max(0, duration.Minutes)}m";
+    }
+}
+
+public sealed record GameOrderItem(string Id, string DisplayName);
 
 public sealed class GameLauncherItem : INotifyPropertyChanged
 {
@@ -1947,7 +3591,8 @@ public sealed class GameLauncherItem : INotifyPropertyChanged
         double heroFadeMid,
         string maintenanceProvider,
         string statusGlyph,
-        string statusDescription)
+        string statusDescription,
+        bool isCustom = false)
     {
         Id = id;
         DisplayName = displayName;
@@ -1959,6 +3604,7 @@ public sealed class GameLauncherItem : INotifyPropertyChanged
         HeroFadeStart = heroFadeStart;
         HeroFadeMid = heroFadeMid;
         MaintenanceProvider = maintenanceProvider;
+        IsCustom = isCustom;
         this.statusGlyph = statusGlyph;
         this.statusDescription = statusDescription;
     }
@@ -1984,6 +3630,8 @@ public sealed class GameLauncherItem : INotifyPropertyChanged
     public double HeroFadeMid { get; }
 
     public string MaintenanceProvider { get; }
+
+    public bool IsCustom { get; }
 
     public string StatusGlyph => statusGlyph;
 

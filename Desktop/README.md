@@ -1,14 +1,12 @@
 # Nyx Desktop developer start
 
-Nyx Desktop can currently be started from this repository for development. It is **not an end-user installer yet**. Do not open the raw executable in an `AppX` or `bin` folder; that file does not have the Windows package identity Nyx needs.
+Nyx Desktop can be started directly from this repository for development. It is an unpackaged, self-contained Windows app: it does not need temporary package identity, Developer Mode, or the official game launchers to start games.
 
 ## Requirements
 
 - Windows 11 22H2 or newer (build 22621+), x64.
 - The x64 .NET SDK version pinned in `global.json` (currently `10.0.100`).
-- Windows **Developer Mode** turned on. Nyx itself stays a normal-user app; do not run the wrapper or PowerShell as administrator.
-
-Developer Mode lets the reviewed `dotnet run` support give the development build its temporary package identity. It does not make the current build an installer.
+- A normal PowerShell window. Nyx itself stays a normal-user app; do not run the wrapper or PowerShell as administrator.
 
 ## Commands
 
@@ -17,7 +15,7 @@ Run these from the repository root in a normal PowerShell window.
 Restore packages only when the checked-in restore assets are missing or dependencies changed:
 
 ```powershell
-dotnet restore Desktop\Nyx.Desktop.slnx
+dotnet restore Desktop\src\Nyx.Desktop.App\Nyx.Desktop.App.csproj -r win-x64
 ```
 
 Build the reviewed x64 app without restoring:
@@ -32,7 +30,7 @@ Check that this PC and checkout are ready. This does not restore, register, or s
 & .\Desktop\scripts\start-nyx.ps1 -CheckOnly
 ```
 
-Start the packaged development app through the reviewed run support:
+Build and start the reviewed unpackaged app:
 
 ```powershell
 & .\Desktop\scripts\start-nyx.ps1
@@ -48,7 +46,7 @@ You can also double-click `Desktop\Start Nyx.cmd`. The wrapper calls only the fi
 
 ## Package configuration check
 
-This read-only gate explains whether the repository contains one explicit, internally consistent x64 MSIX configuration that can be tested later by a separate build/sign/install process:
+This separate read-only gate explains whether the repository contains one explicit, internally consistent x64 MSIX configuration that could be tested later by a separate build/sign/install process:
 
 ```powershell
 & .\Desktop\scripts\test-package-readiness.ps1

@@ -1,6 +1,8 @@
 pub mod capture;
 pub mod cli;
 pub mod decoder;
+pub mod launcher;
+pub mod launcher_app;
 pub mod npcap;
 pub mod output;
 pub mod security;
@@ -286,8 +288,18 @@ mod tests {
         assert!(HSR_IDS.windows(2).all(|pair| pair[0] < pair[1]));
         let database =
             std::path::Path::new(env!("CARGO_MANIFEST_DIR")).join("../../Database/Achievements");
-        let gi = std::fs::read(database.join("gi/catalog.json")).unwrap();
-        let hsr = std::fs::read(database.join("hsr/catalog.json")).unwrap();
+        let normalize =
+            |bytes: Vec<u8>| {
+                assert!(!bytes.iter().enumerate().any(|(index, byte)| {
+                    *byte == b'\r' && bytes.get(index + 1) != Some(&b'\n')
+                }));
+                bytes
+                    .into_iter()
+                    .filter(|byte| *byte != b'\r')
+                    .collect::<Vec<_>>()
+            };
+        let gi = normalize(std::fs::read(database.join("gi/catalog.json")).unwrap());
+        let hsr = normalize(std::fs::read(database.join("hsr/catalog.json")).unwrap());
         assert_eq!(
             format!("{:x}", Sha256::digest(gi)),
             "5608dd41a26a06639c6455d65de7abdd2a7e5e997f55c6ed93dec6d08dc673b5"

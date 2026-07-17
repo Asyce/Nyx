@@ -1,0 +1,370 @@
+using System.Security.Cryptography;
+using Nyx.Desktop.Core.Exports;
+using Nyx.Desktop.Core.Features;
+using Nyx.Desktop.Core.State;
+using Nyx.Desktop.Infrastructure.Exports;
+
+namespace Nyx.Desktop.Tests.Exports;
+
+public sealed class ExportCoordinatorTests
+{
+    [Theory]
+    [InlineData(false, false, 0, 0)]
+    [InlineData(true, false, 1, 0)]
+    [InlineData(false, true, 0, 1)]
+    [InlineData(true, true, 1, 1)]
+    public async Task Each_arm_combination_starts_only_its_requested_provider(
+        bool pullsArmed,
+        bool achievementsArmed,
+        int expectedPulls,
+        int expectedAchievements)
+    {
+        var pulls = new FakePullProvider();
+        var achievements = new FakeAchievementProvider();
+        await using var coordinator = new ExportCoordinator(
+            pulls, achievements, achievementPrepareTimeout: TimeSpan.FromMilliseconds(50));
+        var result = await coordinator.RunForLaunchAsync(
+            new ExportArmSnapshot("gi", pullsArmed, achievementsArmed),
+            _ => ValueTask.FromResult(true));
+
+
+        await EventuallyAsync(() => pulls.Calls == expectedPulls && achievements.Calls == expectedAchievements);
+        Assert.True(result.LaunchAdmitted);
+        Assert.Equal(expectedPulls, pulls.Calls);
+        Assert.Equal(expectedAchievements, achievements.Calls);
+    }
+
+    [Fact]
+    public async Task Failed_pull_does_not_cancel_successful_achievement_and_job_isolated()
+    {
+        var pulls = new FakePullProvider { Failure = new IOException("C:\\private\\token=secret") };
+        var achievements = new FakeAchievementProvider();
+        await using var coordinator = new ExportCoordinator(pulls, achievements);
+        var result = await coordinator.RunForLaunchAsync(
+            new ExportArmSnapshot("hsr", true, true), _ => ValueTask.FromResult(true));
+
+        var final = await WaitForFinishedAsync(coordinator, result.JobId);
+        Assert.Equal(ExportJobState.Failed, final.State);
+        Assert.Equal(ExportTaskState.Failed, final.Pulls.State);
+        Assert.Equal(ExportTaskState.Succeeded, final.Achievements.State);
+        Assert.Equal("io-failed", final.Pulls.ErrorCode);
+    }
+
+    [Fact]
+    public async Task Achievement_prepare_timeout_is_bounded_and_does_not_delay_launch_admission()
+    {
+        var pulls = new FakePullProvider();
+        var achievements = new FakeAchievementProvider { Block = true };
+        await using var coordinator = new ExportCoordinator(
+            pulls, achievements, achievementPrepareTimeout: TimeSpan.FromMilliseconds(30));
+        var launchReturned = false;
+        var result = await coordinator.RunForLaunchAsync(
+            new ExportArmSnapshot("gi", false, true),
+            _ => { launchReturned = true; return ValueTask.FromResult(true); });
+
+        Assert.True(launchReturned);
+        var final = await WaitForFinishedAsync(coordinator, result.JobId);
+        Assert.Equal(ExportTaskState.Failed, final.Achievements.State);
+        Assert.Equal("timed-out", final.Achievements.ErrorCode);
+    }
+
+    [Fact]
+    public async Task Unexpected_provider_exception_is_redacted_and_does_not_escape_task()
+    {
+        var pulls = new FakePullProvider { Failure = new Exception(@"secret=C:\users\alice\token") };
+        var statuses = new RecordingStatusSink();
+        await using var coordinator = new ExportCoordinator(pulls, new FakeAchievementProvider(), statusSink: statuses);
+        var result = await coordinator.RunForLaunchAsync(new ExportArmSnapshot("gi", true, false), _ => ValueTask.FromResult(true));
+        var final = await WaitForFinishedAsync(coordinator, result.JobId);
+        Assert.Equal("provider-failed", final.Pulls.ErrorCode);
+        Assert.DoesNotContain("alice", string.Join("\n", statuses.Lines), StringComparison.OrdinalIgnoreCase);
+        Assert.DoesNotContain("token", string.Join("\n", statuses.Lines), StringComparison.OrdinalIgnoreCase);
+    }
+
+    [Fact]
+    public async Task Coordinator_waits_for_history_and_world_signals_before_each_snapshot()
+    {
+        var signals = new RecordingSignals();
+        await using var coordinator = new ExportCoordinator(
+            new FakePullProvider(), new FakeAchievementProvider(), signals: signals);
+        var result = await coordinator.RunForLaunchAsync(new ExportArmSnapshot("gi", true, true), _ => ValueTask.FromResult(true));
+        await WaitForFinishedAsync(coordinator, result.JobId);
+        Assert.Equal(1, signals.HistoryWaits);
+        Assert.Equal(1, signals.WorldWaits);
+    }
+
+    [Fact]
+    public async Task World_confirmation_is_requested_only_after_launch_admission()
+    {
+        var signals = new RecordingSignals();
+        var achievements = new FakeAchievementProvider();
+        await using var coordinator = new ExportCoordinator(
+            new FakePullProvider(), achievements, signals: signals);
+
+        var result = await coordinator.RunForLaunchAsync(
+            new ExportArmSnapshot("gi", false, true),
+            _ =>
+            {
+                Assert.Equal(1, achievements.Calls);
+                Assert.Equal(0, signals.WorldWaits);
+                return ValueTask.FromResult(true);
+            });
+
+        await WaitForFinishedAsync(coordinator, result.JobId);
+        Assert.Equal(1, signals.WorldWaits);
+    }
+
+    [Fact]
+    public async Task User_confirmations_are_one_shot_cancelable_and_cannot_prearm_future_work()
+    {
+        var signals = new UserConfirmedExportSignalWaiter();
+        Assert.False(signals.ConfirmHistory("gi"));
+
+        var first = signals.WaitForHistoryAsync("gi", default).AsTask();
+        await Task.Yield();
+        Assert.False(first.IsCompleted);
+        Assert.True(signals.ConfirmHistory("gi"));
+        await first;
+
+        using var cancellation = new CancellationTokenSource();
+        var second = signals.WaitForHistoryAsync("gi", cancellation.Token).AsTask();
+        await Task.Yield();
+        Assert.False(second.IsCompleted);
+        cancellation.Cancel();
+        await Assert.ThrowsAnyAsync<OperationCanceledException>(() => second);
+        Assert.False(signals.ConfirmHistory("gi"));
+    }
+
+    [Fact]
+    public void Feature_flags_mask_armed_lanes_and_cannot_activate_dormant_providers()
+    {
+        var state = new ExportArmingState
+        {
+            Games = new Dictionary<string, ExportGameArming>(StringComparer.Ordinal)
+            {
+                ["gi"] = new() { PullsArmed = true, AchievementsArmed = true },
+                ["zzz"] = new() { PullsArmed = true, AchievementsArmed = true },
+            },
+        };
+        var flags = LauncherFeatureFlags.Defaults() with
+        {
+            GiPulls = false,
+            ZzzPulls = true,
+            ZzzAchievements = true,
+        };
+
+        var genshin = ExportArmSnapshot.From(state, "gi", flags);
+        var zzz = ExportArmSnapshot.From(state, "zzz", flags);
+
+        Assert.False(genshin.PullsArmed);
+        Assert.True(genshin.AchievementsArmed);
+        Assert.Equal(ExportKind.None, zzz.RequestedKinds);
+    }
+
+    [Fact]
+    public async Task Non_admitted_launch_starts_no_provider_and_is_canceled()
+    {
+        var pulls = new FakePullProvider();
+        var achievements = new FakeAchievementProvider();
+        await using var coordinator = new ExportCoordinator(pulls, achievements);
+        var result = await coordinator.RunForLaunchAsync(
+            new ExportArmSnapshot("gi", true, true), _ => ValueTask.FromResult(false));
+
+        Assert.False(result.LaunchAdmitted);
+        Assert.Equal(ExportJobState.Canceled, result.Snapshot.State);
+        Assert.Equal(0, pulls.Calls);
+        Assert.Equal(1, achievements.Calls);
+    }
+
+    [Fact]
+    public async Task Unsupported_slots_never_invoke_providers()
+    {
+        var pulls = new FakePullProvider();
+        var achievements = new FakeAchievementProvider();
+        await using var coordinator = new ExportCoordinator(pulls, achievements);
+        var result = await coordinator.RunForLaunchAsync(
+            new ExportArmSnapshot("zzz", true, true), _ => ValueTask.FromResult(true));
+
+        Assert.Equal(ExportJobState.Unsupported, result.Snapshot.State);
+        Assert.Equal(ExportTaskState.Unsupported, result.Snapshot.Pulls.State);
+        Assert.Equal(ExportTaskState.Unsupported, result.Snapshot.Achievements.State);
+        Assert.Equal(0, pulls.Calls);
+        Assert.Equal(0, achievements.Calls);
+    }
+
+    [Fact]
+    public async Task Jobs_run_concurrently_and_cancel_unfinished_work_on_close()
+    {
+        var pulls = new FakePullProvider { Block = true };
+        var achievements = new FakeAchievementProvider { Block = true };
+        await using var coordinator = new ExportCoordinator(
+            pulls, achievements, achievementPrepareTimeout: TimeSpan.FromMilliseconds(50));
+        var first = await coordinator.RunForLaunchAsync(new ExportArmSnapshot("gi", true, true), _ => ValueTask.FromResult(true));
+        var second = await coordinator.RunForLaunchAsync(new ExportArmSnapshot("hsr", true, true), _ => ValueTask.FromResult(true));
+        await EventuallyAsync(() => pulls.Calls == 2 && achievements.Calls == 2);
+
+        await coordinator.DisposeAsync();
+        Assert.Equal(ExportJobState.Canceled, coordinator.GetSnapshot(first.JobId).State);
+        Assert.Equal(ExportJobState.Canceled, coordinator.GetSnapshot(second.JobId).State);
+        Assert.Equal(2, pulls.Canceled);
+        Assert.Equal(2, achievements.Canceled);
+    }
+
+    [Fact]
+    public async Task Fixed_helper_path_and_allowlisted_arguments_are_used_and_status_is_redacted()
+    {
+        var runner = new FakeHelperRunner();
+        var directory = Path.Combine(Path.GetTempPath(), "nyx-helper-tests-" + Guid.NewGuid().ToString("N"));
+        Directory.CreateDirectory(directory);
+        var path = Path.Combine(directory, VerifiedAchievementHelperBoundary.ExpectedHelperFileName);
+        var bytes = new byte[] { 1, 2, 3, 4 };
+        File.WriteAllBytes(path, bytes);
+        try
+        {
+            var hash = Convert.ToHexString(SHA256.HashData(bytes)).ToLowerInvariant();
+            var helper = new VerifiedAchievementHelperBoundary(path, hash, runner);
+            var session = await helper.StartAsync("gi", null, CancellationToken.None);
+            var artifact = await session.Completion;
+
+            Assert.Equal(path, runner.Invocation!.HelperPath);
+            Assert.Equal("gi", runner.Invocation.GameId);
+            Assert.Contains("--launcher", runner.Invocation.Arguments);
+            Assert.Contains("--parent-watch", runner.Invocation.Arguments);
+            Assert.Contains("named-mutex", runner.Invocation.Arguments);
+            Assert.Contains("downloads", runner.Invocation.Arguments);
+            Assert.Equal("achievements", artifact.Kind);
+            Assert.Empty(NdjsonExportStatusParser.Parse(["{bad", "{\"gameId\":\"zzz\",\"kind\":\"achievements\"}"]));
+        }
+        finally { Directory.Delete(directory, recursive: true); }
+    }
+
+    [Fact]
+    public async Task Helper_hash_mismatch_fails_closed_before_runner_or_capture()
+    {
+        var runner = new FakeHelperRunner();
+        var directory = Path.Combine(Path.GetTempPath(), "nyx-helper-tests-" + Guid.NewGuid().ToString("N"));
+        Directory.CreateDirectory(directory);
+        var path = Path.Combine(directory, VerifiedAchievementHelperBoundary.ExpectedHelperFileName);
+        File.WriteAllText(path, "tampered");
+        try
+        {
+            var helper = new VerifiedAchievementHelperBoundary(path, new string('0', 64), runner);
+            await Assert.ThrowsAsync<InvalidOperationException>(async () => await helper.StartAsync("hsr", null, default));
+            Assert.Null(runner.Invocation);
+        }
+        finally { Directory.Delete(directory, recursive: true); }
+    }
+
+    private static async Task EventuallyAsync(Func<bool> predicate)
+    {
+        for (var i = 0; i < 100 && !predicate(); i++) await Task.Delay(10);
+        Assert.True(predicate());
+    }
+
+    private static async Task<ExportJobSnapshot> WaitForFinishedAsync(ExportCoordinator coordinator, Guid id)
+    {
+        for (var i = 0; i < 100; i++)
+        {
+            var snapshot = coordinator.GetSnapshot(id);
+            if (snapshot.IsFinished) return snapshot;
+            await Task.Delay(10);
+        }
+        return coordinator.GetSnapshot(id);
+    }
+
+    private sealed class FakePullProvider : IPullExportProvider
+    {
+        public int Calls;
+        public int Canceled;
+        public bool Block;
+        public Exception? Failure;
+        public async ValueTask<ExportArtifactMetadata> SnapshotAsync(string gameId, IExportSignalWaiter signals, CancellationToken cancellationToken)
+        {
+            Interlocked.Increment(ref Calls);
+            if (Block) try { await Task.Delay(Timeout.InfiniteTimeSpan, cancellationToken); } catch (OperationCanceledException) { Interlocked.Increment(ref Canceled); throw; }
+            if (Failure is not null) throw Failure;
+            return new("pulls", 1, 1, "json", DateTimeOffset.UtcNow);
+        }
+    }
+
+    private sealed class FakeAchievementProvider : IAchievementExportProvider
+    {
+        public int Calls;
+        public int Canceled;
+        public bool Block;
+        public ValueTask<IAchievementExportSession> StartAsync(string gameId, string? outputPath, IExportSignalWaiter signals, CancellationToken cancellationToken)
+        {
+            Interlocked.Increment(ref Calls);
+            return ValueTask.FromResult<IAchievementExportSession>(new FakeAchievementSession(this, Block, cancellationToken));
+        }
+
+        private sealed class FakeAchievementSession : IAchievementExportSession
+        {
+            private readonly FakeAchievementProvider owner;
+            private readonly CancellationTokenSource cancellation;
+            public FakeAchievementSession(FakeAchievementProvider owner, bool block, CancellationToken token)
+            {
+                this.owner = owner;
+                cancellation = CancellationTokenSource.CreateLinkedTokenSource(token);
+                Ready = block ? Task.Delay(Timeout.InfiniteTimeSpan, cancellation.Token) : Task.CompletedTask;
+                Completion = CompleteAsync(block, cancellation.Token);
+            }
+            public Task Ready { get; }
+            public Task<ExportArtifactMetadata> Completion { get; }
+            private static async Task<ExportArtifactMetadata> CompleteAsync(bool block, CancellationToken token)
+            {
+                if (block) await Task.Delay(Timeout.InfiniteTimeSpan, token);
+                return new("achievements", 1, 1, "ndjson", DateTimeOffset.UtcNow);
+            }
+            public async ValueTask DisposeAsync()
+            {
+                cancellation.Cancel();
+                try { await Completion; }
+                catch (OperationCanceledException) { Interlocked.Increment(ref owner.Canceled); }
+                cancellation.Dispose();
+            }
+        }
+    }
+
+    private sealed class FakeHelperRunner : IVerifiedAchievementHelperRunner
+    {
+        public AchievementHelperInvocation? Invocation;
+        public ValueTask<IAchievementExportSession> StartAsync(
+            AchievementHelperInvocation invocation,
+            VerifiedAchievementHelperLaunchBinding helperBinding,
+            CancellationToken cancellationToken)
+        {
+            ProcessAchievementHelperRunner.EnsureBoundHelper(invocation, helperBinding);
+            Invocation = invocation;
+            return ValueTask.FromResult<IAchievementExportSession>(new CompletedAchievementSession());
+        }
+
+        private sealed class CompletedAchievementSession : IAchievementExportSession
+        {
+            public Task Ready => Task.CompletedTask;
+            public Task<ExportArtifactMetadata> Completion => Task.FromResult(
+                new ExportArtifactMetadata("achievements", 1, 2, "ndjson", DateTimeOffset.UtcNow));
+            public ValueTask DisposeAsync() => ValueTask.CompletedTask;
+        }
+    }
+
+    private sealed class RecordingStatusSink : IExportStatusSink
+    {
+        public List<string> Lines { get; } = [];
+        public ValueTask PublishAsync(ExportStatusEvent status, CancellationToken cancellationToken)
+        {
+            Lines.Add(status.ToNdjson());
+            return ValueTask.CompletedTask;
+        }
+    }
+
+    private sealed class RecordingSignals : IExportSignalWaiter
+    {
+        public int HistoryWaits;
+        public int WorldWaits;
+        public ValueTask WaitForHistoryAsync(string gameId, CancellationToken cancellationToken)
+        { Interlocked.Increment(ref HistoryWaits); return ValueTask.CompletedTask; }
+        public ValueTask WaitForWorldReadyAsync(string gameId, CancellationToken cancellationToken)
+        { Interlocked.Increment(ref WorldWaits); return ValueTask.CompletedTask; }
+    }
+}

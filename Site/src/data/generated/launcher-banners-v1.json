@@ -1,0 +1,1153 @@
+{
+  "schemaVersion": 1,
+  "revision": "d35cd84e35a2cc1359c9bda8f72fba1f60dcf20b953e19dc7cb198b8d8484da9",
+  "generatedAt": "2026-07-17T07:24:20.575Z",
+  "health": {
+    "status": "ok",
+    "games": {
+      "gi": {
+        "status": "ok",
+        "reason": null,
+        "newsCount": 8
+      },
+      "hsr": {
+        "status": "ok",
+        "reason": null,
+        "newsCount": 2
+      },
+      "zzz": {
+        "status": "ok",
+        "reason": null,
+        "newsCount": 7
+      },
+      "wuwa": {
+        "status": "ok",
+        "reason": null,
+        "newsCount": 8
+      },
+      "ae": {
+        "status": "ok",
+        "reason": null,
+        "newsCount": 8
+      }
+    }
+  },
+  "games": {
+    "gi": {
+      "game": "gi",
+      "region": "asia",
+      "current": {
+        "phase": "Luna VIII",
+        "start": "2026-07-01T03:00:00.000Z",
+        "end": "2026-07-21T09:59:59.000Z",
+        "remaining": {
+          "startsAt": "2026-07-01T03:00:00.000Z",
+          "endsAt": "2026-07-21T09:59:59.000Z",
+          "durationSeconds": 354938
+        },
+        "characters": [
+          {
+            "id": "10000107",
+            "name": "Citlali",
+            "rarity": 5,
+            "limited": true,
+            "debut": "2024-12-30T23:00:00.000Z",
+            "variants": [
+              {
+                "id": "10000107-portrait-0",
+                "source": "portrait",
+                "path": "/launcher-art/9b62705bf52547d8f966a6b648f1507b59739f7e66e4c1574a9555f2a8ef5154.webp",
+                "url": "https://pengo.gg/dist/launcher-art/9b62705bf52547d8f966a6b648f1507b59739f7e66e4c1574a9555f2a8ef5154.webp",
+                "mime": "image/webp",
+                "size": 209076,
+                "dimensions": {
+                  "width": 1021,
+                  "height": 1023
+                },
+                "sha256": "9b62705bf52547d8f966a6b648f1507b59739f7e66e4c1574a9555f2a8ef5154",
+                "transparentBounds": {
+                  "left": 0,
+                  "top": 0,
+                  "right": 1021,
+                  "bottom": 1023
+                },
+                "placement": {
+                  "anchor": "center",
+                  "fit": "contain",
+                  "x": 0.7,
+                  "y": 0.5
+                }
+              }
+            ]
+          },
+          {
+            "id": "10000133",
+            "name": "Sandrone",
+            "rarity": 5,
+            "limited": true,
+            "debut": "2026-06-29T22:00:00.000Z",
+            "variants": [
+              {
+                "id": "10000133-gacha",
+                "source": "official-default",
+                "path": "/launcher-art/a9f3a9ea60d81554835927cf4201b8b80ee776a81f1c23e7e584dff49e873b2f.webp",
+                "url": "https://pengo.gg/dist/launcher-art/a9f3a9ea60d81554835927cf4201b8b80ee776a81f1c23e7e584dff49e873b2f.webp",
+                "mime": "image/webp",
+                "size": 324342,
+                "dimensions": {
+                  "width": 1641,
+                  "height": 888
+                },
+                "sha256": "a9f3a9ea60d81554835927cf4201b8b80ee776a81f1c23e7e584dff49e873b2f",
+                "transparentBounds": {
+                  "left": 0,
+                  "top": 0,
+                  "right": 1641,
+                  "bottom": 888
+                },
+                "placement": {
+                  "anchor": "center",
+                  "fit": "contain",
+                  "x": 0.68,
+                  "y": 0.5
+                }
+              }
+            ]
+          }
+        ],
+        "selectedCharacter": {
+          "id": "10000133",
+          "name": "Sandrone",
+          "rarity": 5,
+          "limited": true,
+          "debut": "2026-06-29T22:00:00.000Z",
+          "variants": [
+            {
+              "id": "10000133-gacha",
+              "source": "official-default",
+              "path": "/launcher-art/a9f3a9ea60d81554835927cf4201b8b80ee776a81f1c23e7e584dff49e873b2f.webp",
+              "url": "https://pengo.gg/dist/launcher-art/a9f3a9ea60d81554835927cf4201b8b80ee776a81f1c23e7e584dff49e873b2f.webp",
+              "mime": "image/webp",
+              "size": 324342,
+              "dimensions": {
+                "width": 1641,
+                "height": 888
+              },
+              "sha256": "a9f3a9ea60d81554835927cf4201b8b80ee776a81f1c23e7e584dff49e873b2f",
+              "transparentBounds": {
+                "left": 0,
+                "top": 0,
+                "right": 1641,
+                "bottom": 888
+              },
+              "placement": {
+                "anchor": "center",
+                "fit": "contain",
+                "x": 0.68,
+                "y": 0.5
+              }
+            }
+          ]
+        },
+        "selectedCharacterId": "10000133",
+        "selectionReason": "newer-limited-debut",
+        "variants": [
+          {
+            "id": "10000107-portrait-0",
+            "source": "portrait",
+            "path": "/launcher-art/9b62705bf52547d8f966a6b648f1507b59739f7e66e4c1574a9555f2a8ef5154.webp",
+            "url": "https://pengo.gg/dist/launcher-art/9b62705bf52547d8f966a6b648f1507b59739f7e66e4c1574a9555f2a8ef5154.webp",
+            "mime": "image/webp",
+            "size": 209076,
+            "dimensions": {
+              "width": 1021,
+              "height": 1023
+            },
+            "sha256": "9b62705bf52547d8f966a6b648f1507b59739f7e66e4c1574a9555f2a8ef5154",
+            "transparentBounds": {
+              "left": 0,
+              "top": 0,
+              "right": 1021,
+              "bottom": 1023
+            },
+            "placement": {
+              "anchor": "center",
+              "fit": "contain",
+              "x": 0.7,
+              "y": 0.5
+            }
+          },
+          {
+            "id": "10000133-gacha",
+            "source": "official-default",
+            "path": "/launcher-art/a9f3a9ea60d81554835927cf4201b8b80ee776a81f1c23e7e584dff49e873b2f.webp",
+            "url": "https://pengo.gg/dist/launcher-art/a9f3a9ea60d81554835927cf4201b8b80ee776a81f1c23e7e584dff49e873b2f.webp",
+            "mime": "image/webp",
+            "size": 324342,
+            "dimensions": {
+              "width": 1641,
+              "height": 888
+            },
+            "sha256": "a9f3a9ea60d81554835927cf4201b8b80ee776a81f1c23e7e584dff49e873b2f",
+            "transparentBounds": {
+              "left": 0,
+              "top": 0,
+              "right": 1641,
+              "bottom": 888
+            },
+            "placement": {
+              "anchor": "center",
+              "fit": "contain",
+              "x": 0.68,
+              "y": 0.5
+            }
+          }
+        ]
+      },
+      "news": [
+        {
+          "id": "gi-hoyo-ann-d0488121c15e",
+          "title": "\"Genius Invokation TCG\" Heated Battle Mode: Automatic Artistry",
+          "type": "event",
+          "start": "2026-07-18T09:00:00.000Z",
+          "end": "2026-08-03T02:59:00.000Z",
+          "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21368"
+        },
+        {
+          "id": "gi-hoyo-ann-d2a6bcc311cd",
+          "title": "\"Final Long-Range Sightlines\" Event: Shooting Strategy Challenge",
+          "type": "event",
+          "start": "2026-07-17T09:00:00.000Z",
+          "end": "2026-07-27T02:59:00.000Z",
+          "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21756"
+        },
+        {
+          "id": "gi-hoyo-ann-5e481c62dc26",
+          "title": "Stygian Onslaught Event: Disturbance-affected Ley Line challenges",
+          "type": "challenge",
+          "start": "2026-07-08T09:00:00.000Z",
+          "end": "2026-08-11T02:59:00.000Z",
+          "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21168"
+        },
+        {
+          "id": "gi-hoyo-ann-82ebf8a67d40",
+          "title": "\"Sunny Summer Fontinalia\" Event: Participate to Obtain Charlotte's Outfit and Invite \"Lens of Verity\" Charlotte (Cryo)",
+          "type": "event",
+          "start": "2026-07-01T03:00:00.000Z",
+          "end": "2026-08-11T02:59:00.000Z",
+          "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21749"
+        },
+        {
+          "id": "gi-hoyolab-official-45478500",
+          "title": "Kaleidoscopic Color Chase",
+          "type": "event",
+          "start": "2026-06-18T09:00:00.000Z",
+          "end": "2026-06-29T02:59:00.000Z",
+          "url": null
+        },
+        {
+          "id": "gi-hoyolab-official-45349300",
+          "title": "Trials of the Brave Warrior",
+          "type": "event",
+          "start": "2026-06-08T09:00:00.000Z",
+          "end": "2026-06-18T02:59:00.000Z",
+          "url": null
+        },
+        {
+          "id": "gi-hoyolab-official-45197150",
+          "title": "Stygian Onslaught",
+          "type": "challenge",
+          "start": "2026-05-27T09:00:00.000Z",
+          "end": "2026-06-30T02:59:00.000Z",
+          "url": null
+        },
+        {
+          "id": "gi-hoyo-ann-a32a219bfe08",
+          "title": "\"To Temper Thyself and Journey Far\": Rewards of Dedication",
+          "type": "event",
+          "start": "2026-05-18T03:00:00.000Z",
+          "end": "2026-08-10T02:59:00.000Z",
+          "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21646"
+        }
+      ]
+    },
+    "hsr": {
+      "game": "hsr",
+      "region": "asia",
+      "current": {
+        "phase": "4.4",
+        "start": "2026-07-15T03:00:00.000Z",
+        "end": "2026-08-05T03:59:00.000Z",
+        "remaining": {
+          "startsAt": "2026-07-15T03:00:00.000Z",
+          "endsAt": "2026-08-05T03:59:00.000Z",
+          "durationSeconds": 1629279
+        },
+        "characters": [
+          {
+            "id": "1501",
+            "name": "Sparxie",
+            "rarity": 5,
+            "limited": true,
+            "debut": "2026-02-13T10:00:00.000Z",
+            "variants": [
+              {
+                "id": "1501-draw-card",
+                "source": "draw-card",
+                "path": "/launcher-art/a3d984e2d0ccb500f9f69f0972b173909c7df5dc27194166bc68f6ec167243d7.webp",
+                "url": "https://pengo.gg/dist/launcher-art/a3d984e2d0ccb500f9f69f0972b173909c7df5dc27194166bc68f6ec167243d7.webp",
+                "mime": "image/webp",
+                "size": 768334,
+                "dimensions": {
+                  "width": 1756,
+                  "height": 2018
+                },
+                "sha256": "a3d984e2d0ccb500f9f69f0972b173909c7df5dc27194166bc68f6ec167243d7",
+                "transparentBounds": {
+                  "left": 0,
+                  "top": 0,
+                  "right": 1756,
+                  "bottom": 2018
+                },
+                "placement": {
+                  "anchor": "center",
+                  "fit": "contain",
+                  "x": 0.72,
+                  "y": 0.5
+                }
+              }
+            ]
+          },
+          {
+            "id": "1414",
+            "name": "Dan Heng • Permansor Terrae",
+            "rarity": 5,
+            "limited": true,
+            "debut": "2023-04-25T22:00:00.000Z",
+            "variants": [
+              {
+                "id": "1414-draw-card",
+                "source": "draw-card",
+                "path": "/launcher-art/1cc267e76027511e2c7f0f86dfa8bbdf983b323b3bab53750c5bfa7cdba9547b.webp",
+                "url": "https://pengo.gg/dist/launcher-art/1cc267e76027511e2c7f0f86dfa8bbdf983b323b3bab53750c5bfa7cdba9547b.webp",
+                "mime": "image/webp",
+                "size": 752508,
+                "dimensions": {
+                  "width": 2021,
+                  "height": 1724
+                },
+                "sha256": "1cc267e76027511e2c7f0f86dfa8bbdf983b323b3bab53750c5bfa7cdba9547b",
+                "transparentBounds": {
+                  "left": 0,
+                  "top": 0,
+                  "right": 2021,
+                  "bottom": 1724
+                },
+                "placement": {
+                  "anchor": "center",
+                  "fit": "contain",
+                  "x": 0.72,
+                  "y": 0.5
+                }
+              }
+            ]
+          },
+          {
+            "id": "1413",
+            "name": "Evernight",
+            "rarity": 5,
+            "limited": true,
+            "debut": "2025-09-25T09:00:00.000Z",
+            "variants": [
+              {
+                "id": "1413-draw-card",
+                "source": "draw-card",
+                "path": "/launcher-art/1dccba512624f40c06b8bd564523743707fd5c3e3dc0f2d90a44b25e1102e0d2.webp",
+                "url": "https://pengo.gg/dist/launcher-art/1dccba512624f40c06b8bd564523743707fd5c3e3dc0f2d90a44b25e1102e0d2.webp",
+                "mime": "image/webp",
+                "size": 880628,
+                "dimensions": {
+                  "width": 2029,
+                  "height": 2019
+                },
+                "sha256": "1dccba512624f40c06b8bd564523743707fd5c3e3dc0f2d90a44b25e1102e0d2",
+                "transparentBounds": {
+                  "left": 0,
+                  "top": 0,
+                  "right": 2029,
+                  "bottom": 2019
+                },
+                "placement": {
+                  "anchor": "center",
+                  "fit": "contain",
+                  "x": 0.72,
+                  "y": 0.5
+                }
+              }
+            ]
+          }
+        ],
+        "selectedCharacter": {
+          "id": "1501",
+          "name": "Sparxie",
+          "rarity": 5,
+          "limited": true,
+          "debut": "2026-02-13T10:00:00.000Z",
+          "variants": [
+            {
+              "id": "1501-draw-card",
+              "source": "draw-card",
+              "path": "/launcher-art/a3d984e2d0ccb500f9f69f0972b173909c7df5dc27194166bc68f6ec167243d7.webp",
+              "url": "https://pengo.gg/dist/launcher-art/a3d984e2d0ccb500f9f69f0972b173909c7df5dc27194166bc68f6ec167243d7.webp",
+              "mime": "image/webp",
+              "size": 768334,
+              "dimensions": {
+                "width": 1756,
+                "height": 2018
+              },
+              "sha256": "a3d984e2d0ccb500f9f69f0972b173909c7df5dc27194166bc68f6ec167243d7",
+              "transparentBounds": {
+                "left": 0,
+                "top": 0,
+                "right": 1756,
+                "bottom": 2018
+              },
+              "placement": {
+                "anchor": "center",
+                "fit": "contain",
+                "x": 0.72,
+                "y": 0.5
+              }
+            }
+          ]
+        },
+        "selectedCharacterId": "1501",
+        "selectionReason": "newer-limited-debut",
+        "variants": [
+          {
+            "id": "1501-draw-card",
+            "source": "draw-card",
+            "path": "/launcher-art/a3d984e2d0ccb500f9f69f0972b173909c7df5dc27194166bc68f6ec167243d7.webp",
+            "url": "https://pengo.gg/dist/launcher-art/a3d984e2d0ccb500f9f69f0972b173909c7df5dc27194166bc68f6ec167243d7.webp",
+            "mime": "image/webp",
+            "size": 768334,
+            "dimensions": {
+              "width": 1756,
+              "height": 2018
+            },
+            "sha256": "a3d984e2d0ccb500f9f69f0972b173909c7df5dc27194166bc68f6ec167243d7",
+            "transparentBounds": {
+              "left": 0,
+              "top": 0,
+              "right": 1756,
+              "bottom": 2018
+            },
+            "placement": {
+              "anchor": "center",
+              "fit": "contain",
+              "x": 0.72,
+              "y": 0.5
+            }
+          },
+          {
+            "id": "1414-draw-card",
+            "source": "draw-card",
+            "path": "/launcher-art/1cc267e76027511e2c7f0f86dfa8bbdf983b323b3bab53750c5bfa7cdba9547b.webp",
+            "url": "https://pengo.gg/dist/launcher-art/1cc267e76027511e2c7f0f86dfa8bbdf983b323b3bab53750c5bfa7cdba9547b.webp",
+            "mime": "image/webp",
+            "size": 752508,
+            "dimensions": {
+              "width": 2021,
+              "height": 1724
+            },
+            "sha256": "1cc267e76027511e2c7f0f86dfa8bbdf983b323b3bab53750c5bfa7cdba9547b",
+            "transparentBounds": {
+              "left": 0,
+              "top": 0,
+              "right": 2021,
+              "bottom": 1724
+            },
+            "placement": {
+              "anchor": "center",
+              "fit": "contain",
+              "x": 0.72,
+              "y": 0.5
+            }
+          },
+          {
+            "id": "1413-draw-card",
+            "source": "draw-card",
+            "path": "/launcher-art/1dccba512624f40c06b8bd564523743707fd5c3e3dc0f2d90a44b25e1102e0d2.webp",
+            "url": "https://pengo.gg/dist/launcher-art/1dccba512624f40c06b8bd564523743707fd5c3e3dc0f2d90a44b25e1102e0d2.webp",
+            "mime": "image/webp",
+            "size": 880628,
+            "dimensions": {
+              "width": 2029,
+              "height": 2019
+            },
+            "sha256": "1dccba512624f40c06b8bd564523743707fd5c3e3dc0f2d90a44b25e1102e0d2",
+            "transparentBounds": {
+              "left": 0,
+              "top": 0,
+              "right": 2029,
+              "bottom": 2019
+            },
+            "placement": {
+              "anchor": "center",
+              "fit": "contain",
+              "x": 0.72,
+              "y": 0.5
+            }
+          }
+        ]
+      },
+      "news": [
+        {
+          "id": "hsr-hoyo-ann-db92aa7adbb4",
+          "title": "Depart Anew When the Phantasmoon is Full | Share Screenshots to Win Stellar Jades and Gift Cards",
+          "type": "event",
+          "start": "2026-07-15T16:00:00.000Z",
+          "end": "2026-07-25T22:59:00.000Z",
+          "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1350"
+        },
+        {
+          "id": "hsr-hoyo-ann-12c1a7a21c89",
+          "title": "Realm of the Strange Event: Cavern Relic Drop Rate Doubled For a Limited Time",
+          "type": "challenge",
+          "start": "2026-07-03T03:00:00.000Z",
+          "end": "2026-07-13T02:59:00.000Z",
+          "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1301"
+        }
+      ]
+    },
+    "zzz": {
+      "game": "zzz",
+      "region": "europe",
+      "current": {
+        "phase": "3.0",
+        "start": "2026-07-08T11:00:00.000Z",
+        "end": "2026-07-28T13:59:59.000Z",
+        "remaining": {
+          "startsAt": "2026-07-08T11:00:00.000Z",
+          "endsAt": "2026-07-28T13:59:59.000Z",
+          "durationSeconds": 974138
+        },
+        "characters": [
+          {
+            "id": "normahollowell",
+            "name": "Norma Hollowell",
+            "rarity": 5,
+            "limited": true,
+            "debut": "2026-07-08T04:00:00.000Z",
+            "variants": []
+          },
+          {
+            "id": "1491",
+            "name": "Sunna",
+            "rarity": 5,
+            "limited": true,
+            "debut": "2026-02-06T03:00:00.000Z",
+            "variants": [
+              {
+                "id": "1491-icon-0",
+                "source": "icon-role",
+                "path": "/launcher-art/194e6af5cec032e9214e4467eb87e389e2e6134209668b079e2d9fa7833f9ce2.webp",
+                "url": "https://pengo.gg/dist/launcher-art/194e6af5cec032e9214e4467eb87e389e2e6134209668b079e2d9fa7833f9ce2.webp",
+                "mime": "image/webp",
+                "size": 212642,
+                "dimensions": {
+                  "width": 808,
+                  "height": 1798
+                },
+                "sha256": "194e6af5cec032e9214e4467eb87e389e2e6134209668b079e2d9fa7833f9ce2",
+                "transparentBounds": {
+                  "left": 0,
+                  "top": 0,
+                  "right": 808,
+                  "bottom": 1798
+                },
+                "placement": {
+                  "anchor": "center",
+                  "fit": "contain",
+                  "x": 0.74,
+                  "y": 0.52
+                }
+              }
+            ]
+          }
+        ],
+        "selectedCharacter": {
+          "id": "normahollowell",
+          "name": "Norma Hollowell",
+          "rarity": 5,
+          "limited": true,
+          "debut": "2026-07-08T04:00:00.000Z",
+          "variants": []
+        },
+        "selectedCharacterId": "normahollowell",
+        "selectionReason": "newer-limited-debut",
+        "variants": [
+          {
+            "id": "1491-icon-0",
+            "source": "icon-role",
+            "path": "/launcher-art/194e6af5cec032e9214e4467eb87e389e2e6134209668b079e2d9fa7833f9ce2.webp",
+            "url": "https://pengo.gg/dist/launcher-art/194e6af5cec032e9214e4467eb87e389e2e6134209668b079e2d9fa7833f9ce2.webp",
+            "mime": "image/webp",
+            "size": 212642,
+            "dimensions": {
+              "width": 808,
+              "height": 1798
+            },
+            "sha256": "194e6af5cec032e9214e4467eb87e389e2e6134209668b079e2d9fa7833f9ce2",
+            "transparentBounds": {
+              "left": 0,
+              "top": 0,
+              "right": 808,
+              "bottom": 1798
+            },
+            "placement": {
+              "anchor": "center",
+              "fit": "contain",
+              "x": 0.74,
+              "y": 0.52
+            }
+          }
+        ]
+      },
+      "news": [
+        {
+          "id": "zzz-hoyo-ann-dc5ffc5377a7",
+          "title": "\"'En-Nah' Into Your Lap\" Event Details",
+          "type": "event",
+          "start": "2026-07-08T09:00:00.000Z",
+          "end": "2026-07-28T02:59:00.000Z",
+          "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1226"
+        },
+        {
+          "id": "zzz-hoyo-ann-3df8e967840a",
+          "title": "\"Tales of the Hobbling Crow\" Event Details",
+          "type": "event",
+          "start": "2026-07-03T09:00:00.000Z",
+          "end": "2026-07-20T02:59:00.000Z",
+          "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1203"
+        },
+        {
+          "id": "zzz-hoyo-ann-96040c408314",
+          "title": "\"Assemble! Mock Exam Comeback Plan\" Event Details",
+          "type": "event",
+          "start": "2026-06-26T09:00:00.000Z",
+          "end": "2026-07-27T02:59:00.000Z",
+          "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1204"
+        },
+        {
+          "id": "zzz-hoyo-ann-768a78af26a9",
+          "title": "\"Gleaming Shadow Team Battle\" Event Details",
+          "type": "event",
+          "start": "2026-06-19T09:00:00.000Z",
+          "end": "2026-07-13T02:59:00.000Z",
+          "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1201"
+        },
+        {
+          "id": "zzz-hoyo-ann-a3834de7f2e7",
+          "title": "\"Return to Ridu: Together in a New Chapter\" Event Details",
+          "type": "event",
+          "start": "2026-06-06T19:30:00.000Z",
+          "end": "2026-07-17T02:59:00.000Z",
+          "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1189"
+        },
+        {
+          "id": "zzz-hoyo-ann-3b30c16ee6c6",
+          "title": "\"Celestial Nexus Intelligence Dossier\" Event Details",
+          "type": "event",
+          "start": null,
+          "end": null,
+          "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1205"
+        },
+        {
+          "id": "zzz-hoyo-ann-7474b8fa7526",
+          "title": "\"All-New Program\" Event Details",
+          "type": "event",
+          "start": null,
+          "end": null,
+          "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1200"
+        }
+      ]
+    },
+    "wuwa": {
+      "game": "wuwa",
+      "region": "europe",
+      "current": {
+        "phase": "3.5",
+        "start": "2026-07-10T08:10:00.000Z",
+        "end": "2026-07-30T08:59:00.000Z",
+        "remaining": {
+          "startsAt": "2026-07-10T08:10:00.000Z",
+          "endsAt": "2026-07-30T08:59:00.000Z",
+          "durationSeconds": 1128879
+        },
+        "characters": [
+          {
+            "id": "1509",
+            "name": "Lynae",
+            "rarity": 5,
+            "limited": true,
+            "debut": "2025-12-25T02:45:00.000Z",
+            "variants": [
+              {
+                "id": "1509-activity",
+                "source": "activity-role",
+                "path": "/launcher-art/84575bfbb54192a39e7abcde4b597f6eac7f6e55e2a61ba7b2a7075baf1949fe.webp",
+                "url": "https://pengo.gg/dist/launcher-art/84575bfbb54192a39e7abcde4b597f6eac7f6e55e2a61ba7b2a7075baf1949fe.webp",
+                "mime": "image/webp",
+                "size": 286102,
+                "dimensions": {
+                  "width": 1039,
+                  "height": 2032
+                },
+                "sha256": "84575bfbb54192a39e7abcde4b597f6eac7f6e55e2a61ba7b2a7075baf1949fe",
+                "transparentBounds": {
+                  "left": 0,
+                  "top": 0,
+                  "right": 1039,
+                  "bottom": 2032
+                },
+                "placement": {
+                  "anchor": "center",
+                  "fit": "contain",
+                  "x": 0.72,
+                  "y": 0.52
+                }
+              }
+            ]
+          },
+          {
+            "id": "1610",
+            "name": "Yangyang: Xuanling",
+            "rarity": 5,
+            "limited": true,
+            "debut": "2024-06-28T02:00:00.000Z",
+            "variants": [
+              {
+                "id": "1610-activity",
+                "source": "activity-role",
+                "path": "/launcher-art/a1905f45f9dd49aea6eff8a8f6012dcdd9d7ae0f27339774f9fa1a9b536d76b1.webp",
+                "url": "https://pengo.gg/dist/launcher-art/a1905f45f9dd49aea6eff8a8f6012dcdd9d7ae0f27339774f9fa1a9b536d76b1.webp",
+                "mime": "image/webp",
+                "size": 557876,
+                "dimensions": {
+                  "width": 1887,
+                  "height": 1842
+                },
+                "sha256": "a1905f45f9dd49aea6eff8a8f6012dcdd9d7ae0f27339774f9fa1a9b536d76b1",
+                "transparentBounds": {
+                  "left": 0,
+                  "top": 0,
+                  "right": 1887,
+                  "bottom": 1842
+                },
+                "placement": {
+                  "anchor": "center",
+                  "fit": "contain",
+                  "x": 0.72,
+                  "y": 0.52
+                }
+              }
+            ]
+          },
+          {
+            "id": "1510",
+            "name": "Luuk Herssen",
+            "rarity": 5,
+            "limited": true,
+            "debut": "2026-02-26T02:00:00.000Z",
+            "variants": [
+              {
+                "id": "1510-activity",
+                "source": "activity-role",
+                "path": "/launcher-art/017ef528230a14ec915588a207486c37a40c7b390ae3dc382b422523d1cd7fd6.webp",
+                "url": "https://pengo.gg/dist/launcher-art/017ef528230a14ec915588a207486c37a40c7b390ae3dc382b422523d1cd7fd6.webp",
+                "mime": "image/webp",
+                "size": 372952,
+                "dimensions": {
+                  "width": 1591,
+                  "height": 1817
+                },
+                "sha256": "017ef528230a14ec915588a207486c37a40c7b390ae3dc382b422523d1cd7fd6",
+                "transparentBounds": {
+                  "left": 0,
+                  "top": 0,
+                  "right": 1591,
+                  "bottom": 1817
+                },
+                "placement": {
+                  "anchor": "center",
+                  "fit": "contain",
+                  "x": 0.72,
+                  "y": 0.52
+                }
+              }
+            ]
+          }
+        ],
+        "selectedCharacter": {
+          "id": "1510",
+          "name": "Luuk Herssen",
+          "rarity": 5,
+          "limited": true,
+          "debut": "2026-02-26T02:00:00.000Z",
+          "variants": [
+            {
+              "id": "1510-activity",
+              "source": "activity-role",
+              "path": "/launcher-art/017ef528230a14ec915588a207486c37a40c7b390ae3dc382b422523d1cd7fd6.webp",
+              "url": "https://pengo.gg/dist/launcher-art/017ef528230a14ec915588a207486c37a40c7b390ae3dc382b422523d1cd7fd6.webp",
+              "mime": "image/webp",
+              "size": 372952,
+              "dimensions": {
+                "width": 1591,
+                "height": 1817
+              },
+              "sha256": "017ef528230a14ec915588a207486c37a40c7b390ae3dc382b422523d1cd7fd6",
+              "transparentBounds": {
+                "left": 0,
+                "top": 0,
+                "right": 1591,
+                "bottom": 1817
+              },
+              "placement": {
+                "anchor": "center",
+                "fit": "contain",
+                "x": 0.72,
+                "y": 0.52
+              }
+            }
+          ]
+        },
+        "selectedCharacterId": "1510",
+        "selectionReason": "newer-limited-debut",
+        "variants": [
+          {
+            "id": "1509-activity",
+            "source": "activity-role",
+            "path": "/launcher-art/84575bfbb54192a39e7abcde4b597f6eac7f6e55e2a61ba7b2a7075baf1949fe.webp",
+            "url": "https://pengo.gg/dist/launcher-art/84575bfbb54192a39e7abcde4b597f6eac7f6e55e2a61ba7b2a7075baf1949fe.webp",
+            "mime": "image/webp",
+            "size": 286102,
+            "dimensions": {
+              "width": 1039,
+              "height": 2032
+            },
+            "sha256": "84575bfbb54192a39e7abcde4b597f6eac7f6e55e2a61ba7b2a7075baf1949fe",
+            "transparentBounds": {
+              "left": 0,
+              "top": 0,
+              "right": 1039,
+              "bottom": 2032
+            },
+            "placement": {
+              "anchor": "center",
+              "fit": "contain",
+              "x": 0.72,
+              "y": 0.52
+            }
+          },
+          {
+            "id": "1610-activity",
+            "source": "activity-role",
+            "path": "/launcher-art/a1905f45f9dd49aea6eff8a8f6012dcdd9d7ae0f27339774f9fa1a9b536d76b1.webp",
+            "url": "https://pengo.gg/dist/launcher-art/a1905f45f9dd49aea6eff8a8f6012dcdd9d7ae0f27339774f9fa1a9b536d76b1.webp",
+            "mime": "image/webp",
+            "size": 557876,
+            "dimensions": {
+              "width": 1887,
+              "height": 1842
+            },
+            "sha256": "a1905f45f9dd49aea6eff8a8f6012dcdd9d7ae0f27339774f9fa1a9b536d76b1",
+            "transparentBounds": {
+              "left": 0,
+              "top": 0,
+              "right": 1887,
+              "bottom": 1842
+            },
+            "placement": {
+              "anchor": "center",
+              "fit": "contain",
+              "x": 0.72,
+              "y": 0.52
+            }
+          },
+          {
+            "id": "1510-activity",
+            "source": "activity-role",
+            "path": "/launcher-art/017ef528230a14ec915588a207486c37a40c7b390ae3dc382b422523d1cd7fd6.webp",
+            "url": "https://pengo.gg/dist/launcher-art/017ef528230a14ec915588a207486c37a40c7b390ae3dc382b422523d1cd7fd6.webp",
+            "mime": "image/webp",
+            "size": 372952,
+            "dimensions": {
+              "width": 1591,
+              "height": 1817
+            },
+            "sha256": "017ef528230a14ec915588a207486c37a40c7b390ae3dc382b422523d1cd7fd6",
+            "transparentBounds": {
+              "left": 0,
+              "top": 0,
+              "right": 1591,
+              "bottom": 1817
+            },
+            "placement": {
+              "anchor": "center",
+              "fit": "contain",
+              "x": 0.72,
+              "y": 0.52
+            }
+          }
+        ]
+      },
+      "news": [
+        {
+          "id": "wuwa-kuro-article-b65ae5342125",
+          "title": "Tidal Photography: Land of Xuanfang Photo Challenge is now underway!",
+          "type": "event",
+          "start": "2026-08-19T15:59:00.000Z",
+          "end": null,
+          "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5125"
+        },
+        {
+          "id": "wuwa-kuro-article-720d41e40f90",
+          "title": "[Starpath Reverbs] Reverb Resonator Convene",
+          "type": "banner",
+          "start": "2026-08-19T03:59:00.000Z",
+          "end": null,
+          "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5065"
+        },
+        {
+          "id": "wuwa-kuro-article-fa1867a600da",
+          "title": "[Tideforge Reverbs] Reverb Weapon Convene",
+          "type": "banner",
+          "start": "2026-08-19T03:59:00.000Z",
+          "end": null,
+          "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5076"
+        },
+        {
+          "id": "wuwa-kuro-article-10dc1ae9d256",
+          "title": "[Version 3.5 Featured Resonator/Weapon Convene: Phase I]",
+          "type": "banner",
+          "start": "2026-07-30T01:59:00.000Z",
+          "end": null,
+          "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5039"
+        },
+        {
+          "id": "wuwa-kuro-article-22b221c941ef",
+          "title": "[Azure Oath] Featured Weapon Convene",
+          "type": "banner",
+          "start": "2026-07-30T01:59:00.000Z",
+          "end": null,
+          "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5056"
+        },
+        {
+          "id": "wuwa-kuro-article-8a215c4e435a",
+          "title": "[Voices on Azure Feathers] Featured Resonator Convene",
+          "type": "banner",
+          "start": "2026-07-30T01:59:00.000Z",
+          "end": null,
+          "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5047"
+        },
+        {
+          "id": "wuwa-kuro-article-f493272cbb50",
+          "title": "Event Preview | [Lament Recon: Tacet Crisis] Combat Event, Coming Soon!",
+          "type": "challenge",
+          "start": "2026-07-11T02:00:00.000Z",
+          "end": "2026-08-19T03:59:00.000Z",
+          "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5129"
+        },
+        {
+          "id": "wuwa-kuro-article-09c96389754d",
+          "title": "[Spectral Trigger] Collab Weapon Convene",
+          "type": "banner",
+          "start": "2026-07-09T03:59:00.000Z",
+          "end": null,
+          "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4844"
+        }
+      ]
+    },
+    "ae": {
+      "game": "ae",
+      "region": "asia",
+      "current": {
+        "phase": "2026",
+        "start": "2026-07-16T04:00:00.000Z",
+        "end": "2026-08-09T03:59:59.000Z",
+        "remaining": {
+          "startsAt": "2026-07-16T04:00:00.000Z",
+          "endsAt": "2026-08-09T03:59:59.000Z",
+          "durationSeconds": 1974938
+        },
+        "characters": [
+          {
+            "id": "arcane",
+            "name": "Arcane",
+            "rarity": 6,
+            "limited": true,
+            "debut": null,
+            "variants": [
+              {
+                "id": "arcane-splash",
+                "source": "splash",
+                "path": "/launcher-art/5343db9a1d103ab84afd2b4196349f226f51378dd734a35f44fb698efc7ee575.webp",
+                "url": "https://pengo.gg/dist/launcher-art/5343db9a1d103ab84afd2b4196349f226f51378dd734a35f44fb698efc7ee575.webp",
+                "mime": "image/webp",
+                "size": 1057002,
+                "dimensions": {
+                  "width": 2048,
+                  "height": 1864
+                },
+                "sha256": "5343db9a1d103ab84afd2b4196349f226f51378dd734a35f44fb698efc7ee575",
+                "transparentBounds": {
+                  "left": 0,
+                  "top": 0,
+                  "right": 2048,
+                  "bottom": 1864
+                },
+                "placement": {
+                  "anchor": "center",
+                  "fit": "contain",
+                  "x": 0.72,
+                  "y": 0.5
+                }
+              }
+            ]
+          }
+        ],
+        "selectedCharacter": {
+          "id": "arcane",
+          "name": "Arcane",
+          "rarity": 6,
+          "limited": true,
+          "debut": null,
+          "variants": [
+            {
+              "id": "arcane-splash",
+              "source": "splash",
+              "path": "/launcher-art/5343db9a1d103ab84afd2b4196349f226f51378dd734a35f44fb698efc7ee575.webp",
+              "url": "https://pengo.gg/dist/launcher-art/5343db9a1d103ab84afd2b4196349f226f51378dd734a35f44fb698efc7ee575.webp",
+              "mime": "image/webp",
+              "size": 1057002,
+              "dimensions": {
+                "width": 2048,
+                "height": 1864
+              },
+              "sha256": "5343db9a1d103ab84afd2b4196349f226f51378dd734a35f44fb698efc7ee575",
+              "transparentBounds": {
+                "left": 0,
+                "top": 0,
+                "right": 2048,
+                "bottom": 1864
+              },
+              "placement": {
+                "anchor": "center",
+                "fit": "contain",
+                "x": 0.72,
+                "y": 0.5
+              }
+            }
+          ]
+        },
+        "selectedCharacterId": "arcane",
+        "selectionReason": "highest-rarity",
+        "variants": [
+          {
+            "id": "arcane-splash",
+            "source": "splash",
+            "path": "/launcher-art/5343db9a1d103ab84afd2b4196349f226f51378dd734a35f44fb698efc7ee575.webp",
+            "url": "https://pengo.gg/dist/launcher-art/5343db9a1d103ab84afd2b4196349f226f51378dd734a35f44fb698efc7ee575.webp",
+            "mime": "image/webp",
+            "size": 1057002,
+            "dimensions": {
+              "width": 2048,
+              "height": 1864
+            },
+            "sha256": "5343db9a1d103ab84afd2b4196349f226f51378dd734a35f44fb698efc7ee575",
+            "transparentBounds": {
+              "left": 0,
+              "top": 0,
+              "right": 2048,
+              "bottom": 1864
+            },
+            "placement": {
+              "anchor": "center",
+              "fit": "contain",
+              "x": 0.72,
+              "y": 0.5
+            }
+          }
+        ]
+      },
+      "news": [
+        {
+          "id": "endfield-gryphline-bulletin-ac9f742eafce",
+          "title": "[Crimson Hued Issue] LTO Details",
+          "type": "event",
+          "start": "2026-06-26T04:00:00.000Z",
+          "end": null,
+          "url": "https://endfield.gryphline.com/en-us/news/1321"
+        },
+        {
+          "id": "endfield-gryphline-bulletin-df461d8be80e",
+          "title": "[Expunger of Sin] Chartered Headhunting",
+          "type": "banner",
+          "start": "2026-06-26T04:00:00.000Z",
+          "end": null,
+          "url": "https://endfield.gryphline.com/en-us/news/6175"
+        },
+        {
+          "id": "endfield-gryphline-bulletin-d601e56b5de8",
+          "title": "[Fists of No Regrets] Chartered Headhunting",
+          "type": "banner",
+          "start": "2026-06-26T03:59:00.000Z",
+          "end": null,
+          "url": "https://endfield.gryphline.com/en-us/news/0759"
+        },
+        {
+          "id": "endfield-gryphline-bulletin-e38e1c313d93",
+          "title": "[Thunder of Renewal] Chartered Headhunting",
+          "type": "banner",
+          "start": "2026-05-22T03:59:00.000Z",
+          "end": null,
+          "url": "https://endfield.gryphline.com/en-us/news/9579"
+        },
+        {
+          "id": "endfield-gryphline-bulletin-245c88274682",
+          "title": "[Smelting Fire Issue] LTO Details",
+          "type": "event",
+          "start": "2026-05-14T04:00:00.000Z",
+          "end": null,
+          "url": "https://endfield.gryphline.com/en-us/news/2669"
+        },
+        {
+          "id": "endfield-gryphline-bulletin-734a0f7abac7",
+          "title": "[Swift Walker Issue] LTO Details",
+          "type": "event",
+          "start": "2026-05-14T04:00:00.000Z",
+          "end": null,
+          "url": "https://endfield.gryphline.com/en-us/news/5210"
+        },
+        {
+          "id": "endfield-gryphline-bulletin-d50d83765558",
+          "title": "[Fest of Brilliance] Special Headhunting Details",
+          "type": "banner",
+          "start": "2026-05-14T04:00:00.000Z",
+          "end": null,
+          "url": "https://endfield.gryphline.com/en-us/news/7024"
+        },
+        {
+          "id": "endfield-gryphline-bulletin-0219bae02e77",
+          "title": "Arknights: Endfield Online Event Rules",
+          "type": "event",
+          "start": null,
+          "end": null,
+          "url": "https://endfield.gryphline.com/en-us/news/2677"
+        }
+      ]
+    }
+  }
+}

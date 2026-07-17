@@ -1,0 +1,46 @@
+# Nyx Desktop development distribution
+
+This folder builds the approved local Windows distribution. It does not publish anything and it does not create or use a public signing identity.
+
+## Build
+
+Run from `Desktop` in normal, non-administrator PowerShell:
+
+```powershell
+& .\packaging\build-development-package.ps1 -Version 1.0.0.0
+```
+
+Use `-Restore` only when the checked-in projects do not already have restore assets. The build is fixed to Release, `win-x64`, self-contained Windows App SDK output, a fixed ZIP timestamp, sorted entries, and no PDB files. Output goes only to `packaging\artifacts`. `-Force` keeps the last artifact in place while the replacement builds and verifies, then replaces only generated files in that folder.
+
+The package build always compiles `pengo-achievements-launcher.exe` from the locked Rust source into its fresh private work directory. It applies the helper's checked-in Windows hardening config, runs the PE release verifier, computes SHA-256, embeds that exact hash in Nyx, and includes that exact file. It never reads `Extractor\Achievements\target`, so an old local helper cannot slip into a package. The runtime rechecks the embedded hash, binds every non-reparse ancestor directory plus the exact helper file identity, and holds those Windows handles until normal `Process.Start` or elevated `ShellExecute` has resolved the path.
+
+The generated outer ZIP contains:
+
+- `Install-Nyx.ps1` and `Uninstall-Nyx.ps1`;
+- the self-contained `Nyx.Desktop.Update.exe` verifier/updater;
+- `release.json`, release notes, and first-run defaults; and
+- one payload ZIP whose name, byte count, SHA-256, entry list, per-file sizes, and per-file SHA-256 values are sealed by `release.json`.
+
+The bundled achievement helper is launcher-only and uses the Windows GUI subsystem, so it cannot expose the old console prompt. Only this narrow helper may request Windows approval for HSR capture; Nyx itself stays unelevated. A job-owned cancel event handles normal shutdown, while a parent-owned mutex makes capture cancel if Nyx crashes or is killed.
+
+Extract the outer ZIP, review its hash, then run `Install-Nyx.ps1` as the normal Windows user. Installation is per user under `%LOCALAPPDATA%\Programs\Pengo Nyx`. It creates `Pengo\Nyx Desktop.lnk` in that user's Start menu. It never asks for administrator approval.
+
+Run the installed `control\Uninstall-Nyx.ps1` to uninstall. The default keeps both `%LOCALAPPDATA%\Pengo\Nyx` and the older `%LOCALAPPDATA%\Nyx` root. `-RemoveUserData` is the only path that removes those two fixed roots; it audits both before changing the program, shortcut, or either data root. App startup audits and atomically renames the complete legacy root only when the canonical root does not already exist. Migration conflicts and links fail closed without merging or deleting either root.
+
+## Update contract
+
+`release.json` schema 1 accepts only product `nyx-desktop`, channels `development`, `preview`, or `stable`, exact four-part versions, architecture `win-x64`, the fixed entry point `Nyx.Desktop.App.exe`, lowercase SHA-256 values, sorted non-colliding relative file paths, bounded sizes, and bounded file counts.
+
+Development packages may omit a URL. Preview and stable manifests require exactly:
+
+`https://pengo.gg/desktop/updates/<channel>/<sealed-package-name>`
+
+No user information, alternate port, query, fragment, other host, other scheme, or path variation is accepted. The updater intentionally has no downloader. A future transport may download only the manifest-selected file, then must give the local file to `verify`/`stage`; the updater checks the whole-package SHA-256 before extraction and every file SHA-256 while extracting.
+
+Staging uses a new same-volume directory and rejects absolute paths, `..`, Windows reserved aliases, case collisions, extra/missing ZIP entries, links/reparse points, or size/hash mismatches. Apply rechecks the complete staged tree, takes an exclusive update lock, and durably writes a phase journal before moving anything. It then moves the old `app` directory into `rollback`, moves the verified tree into place, and publishes a pending marker. Updater startup reconciles the journal after a stop between any phase; it accepts only the exact expected folder combination and fails closed on links, collisions, or impossible states. Rollback and first-install abandonment use the same before-mutation journal. A second apply is refused until `confirm` or `rollback`. Confirmation rechecks the installed tree before changing active metadata.
+
+The updater never writes to the separate Nyx user-data roots. Uninstall audits the complete program target and, when data removal is explicit, both fixed data targets before deletion. Deletion retains Windows handles for the root and every ancestor, refuses reparse points when opening each child, prevents rename/replacement while a child is in use, and deletes the already-open object through its handle. Concurrent substitution fails closed instead of turning an earlier name audit into authority. It keeps both current and legacy user data unless removal was explicit.
+
+## Signing boundary
+
+The artifact is unsigned development output. Windows SmartScreen may warn. A publicly trusted installer requires the owner to choose the final channel and publisher identity, buy or provision a Windows code-signing certificate/account, protect that private key outside the repository, sign both installer and updater/app binaries, timestamp them, and add a CI verification/publishing ceremony. None of that authority or key material exists in this workspace, so public signing and production publishing remain blocked by design.

@@ -29,6 +29,16 @@
     <SolidColorBrush x:Key="PrimaryActionForegroundBrush" Color="{StaticResource NyxVoidColor}" />
     <SolidColorBrush x:Key="QuietActionForegroundBrush" Color="#DED6FF" />
     <SolidColorBrush x:Key="HighContrastBackdropBrush" Color="{StaticResource NyxVoidColor}" />
+    <SolidColorBrush x:Key="AccentFillColorDefaultBrush" Color="#B8A6FF" />
+    <SolidColorBrush x:Key="AccentFillColorSecondaryBrush" Color="#D0C5FF" />
+    <SolidColorBrush x:Key="AccentFillColorTertiaryBrush" Color="#8D7CC9" />
+    <SolidColorBrush x:Key="AccentFillColorDisabledBrush" Color="#4DB8A6FF" />
+    <SolidColorBrush x:Key="AccentTextFillColorPrimaryBrush" Color="#D8CFFF" />
+    <SolidColorBrush x:Key="AccentTextFillColorSecondaryBrush" Color="#B8A6FF" />
+    <SolidColorBrush x:Key="AccentTextFillColorTertiaryBrush" Color="#9487C4" />
+    <SolidColorBrush x:Key="TextOnAccentFillColorPrimaryBrush" Color="#08060F" />
+    <SolidColorBrush x:Key="TextOnAccentFillColorSecondaryBrush" Color="#A608060F" />
+    <SolidColorBrush x:Key="TextOnAccentFillColorDisabledBrush" Color="#6608060F" />
     <x:Double x:Key="DecorativeArtOpacity">1</x:Double>
     <x:Double x:Key="HighContrastBackdropOpacity">0</x:Double>
 
@@ -54,6 +64,13 @@
             <SolidColorBrush x:Key="PrimaryActionForegroundBrush" Color="{ThemeResource SystemColorHighlightTextColor}" />
             <SolidColorBrush x:Key="QuietActionForegroundBrush" Color="{ThemeResource SystemColorWindowTextColor}" />
             <SolidColorBrush x:Key="HighContrastBackdropBrush" Color="{ThemeResource SystemColorWindowColor}" />
+            <SolidColorBrush x:Key="AccentFillColorDefaultBrush" Color="{ThemeResource SystemColorHighlightColor}" />
+            <SolidColorBrush x:Key="AccentFillColorSecondaryBrush" Color="{ThemeResource SystemColorHighlightColor}" />
+            <SolidColorBrush x:Key="AccentFillColorTertiaryBrush" Color="{ThemeResource SystemColorHighlightColor}" />
+            <SolidColorBrush x:Key="AccentTextFillColorPrimaryBrush" Color="{ThemeResource SystemColorHighlightColor}" />
+            <SolidColorBrush x:Key="AccentTextFillColorSecondaryBrush" Color="{ThemeResource SystemColorHighlightColor}" />
+            <SolidColorBrush x:Key="TextOnAccentFillColorPrimaryBrush" Color="{ThemeResource SystemColorHighlightTextColor}" />
+            <SolidColorBrush x:Key="TextOnAccentFillColorSecondaryBrush" Color="{ThemeResource SystemColorHighlightTextColor}" />
             <x:Double x:Key="DecorativeArtOpacity">0</x:Double>
             <x:Double x:Key="HighContrastBackdropOpacity">1</x:Double>
         </ResourceDictionary>

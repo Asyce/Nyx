@@ -58,7 +58,7 @@ const CM_BETA_META = {
     "version": "4.3.56",
     "liveVersion": "4.3",
     "newCount": 0,
-    "changedCount": 39
+    "changedCount": 41
   },
   "zzz": {
     "version": "3.1.5+17516165",

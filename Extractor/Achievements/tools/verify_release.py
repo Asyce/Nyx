@@ -10,8 +10,10 @@ import tempfile
 import pefile
 
 
-binary = Path(sys.argv[1] if len(sys.argv) > 1 else "target/release/pengo-achievements-live.exe")
+binary = Path(sys.argv[1] if len(sys.argv) > 1 else "target/release/pengo-achievements-launcher.exe")
 pe = pefile.PE(str(binary), fast_load=False)
+if pe.OPTIONAL_HEADER.Subsystem != 2:
+    raise SystemExit(f"launcher helper must use the Windows GUI/no-console subsystem, got {pe.OPTIONAL_HEADER.Subsystem}")
 imports = {
     entry.name.decode("ascii")
     for module in pe.DIRECTORY_ENTRY_IMPORT
@@ -66,14 +68,18 @@ required = {
     "GetModuleFileNameW",
     "GetModuleHandleW",
     "GetSystemDirectoryW",
+    "GetSystemTime",
     "LoadLibraryExW",
     "MoveFileExW",
     "OpenSCManagerW",
+    "OpenEventW",
+    "OpenMutexW",
     "OpenServiceW",
     "QueryServiceStatusEx",
     "RegGetValueW",
     "SHGetKnownFolderPath",
     "SetDefaultDllDirectories",
+    "WaitForSingleObject",
 }
 missing = required - imports
 if missing:
@@ -86,6 +92,13 @@ for required_string in (
     b"2793CE72F0E04D5885AAEE1273A7373441D01934B2CFF3886B031C13CA826345",
     b"13D598E277E9C7BF43688D7087EF9B944E8036561A1E7169D31D9EC1D38F9A01",
     b"\\SystemRoot\\system32\\DRIVERS\\npcap.sys",
+    b"--output-root",
+    b"named-event",
+    b"named-mutex",
+    b"named-pipe",
+    b"Pengo.Nyx.AchievementIpc.v1.",
+    b"Local\\Pengo.Nyx.ExportCancel.v1.",
+    b"Local\\Pengo.Nyx.ExportParent.v1.",
 ):
     if required_string not in data:
         raise SystemExit(f"reviewed Npcap release gate is missing: {required_string!r}")
@@ -97,7 +110,7 @@ for forbidden in (
     b"setting new session seed",
     b"possible session seeds",
     b"field: ",
-    b"--output",
+    b"--output-file",
     b"--force",
     b"pcap_dump",
     b"pcap_sendpacket",
@@ -119,21 +132,43 @@ with tempfile.TemporaryDirectory(prefix="pengo-achievements-pe-") as temporary:
     for name in ("VCRUNTIME140.dll", "bcryptprimitives.dll", "wpcap.dll", "Packet.dll"):
         (test_dir / name).write_bytes(b"Pengo PE verifier decoy; not a DLL")
     (test_dir / f"{binary.name}.local").write_bytes(b"Pengo DLL redirection decoy")
-    result = subprocess.run(
-        [test_binary, "--version"],
+    # Malformed launcher input is intentionally silent. In particular, never
+    # reflect a caller-supplied URL or token into coordinator logs.
+    secret = "https://secret.invalid/?token=DO_NOT_PRINT"
+    malformed = subprocess.run(
+        [
+            test_binary,
+            "--launcher",
+            "--game",
+            "gi",
+            "--kind",
+            "achievements",
+            "--job-id",
+            "0123456789abcdef0123456789abcdef",
+            "--cancel",
+            "named-event",
+            "--parent-watch",
+            "named-mutex",
+            "--ipc",
+            "named-pipe",
+            "--output-root",
+            "downloads",
+            "--url",
+            secret,
+        ],
         cwd=test_dir,
         capture_output=True,
         text=True,
         timeout=15,
         check=False,
     )
-    if result.returncode != 0 or result.stdout.strip() != "0.1.0":
+    if malformed.returncode != 2 or malformed.stdout or malformed.stderr:
         raise SystemExit(
-            "release failed sibling-DLL startup test: "
-            f"exit={result.returncode}, stdout={result.stdout!r}, stderr={result.stderr!r}"
+            "release reflected malformed launcher input: "
+            f"exit={malformed.returncode}, stdout={malformed.stdout!r}, stderr={malformed.stderr!r}"
         )
 
 print(
-    f"PE gate passed: {len(imports)} imports; static CRT; embedded manifest; dependent-load System32 flag; "
-    f"sibling and .local DLL decoys ignored; hardened APIs present; sensitive strings absent{projection_note}"
+    f"PE gate passed: {len(imports)} imports; no-console GUI subsystem; static CRT; embedded manifest; dependent-load System32 flag; "
+    f"sibling and .local DLL decoys ignored; hardened APIs present; malformed launcher input silent; sensitive strings absent{projection_note}"
 )

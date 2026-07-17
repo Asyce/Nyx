@@ -1,4 +1,5 @@
 using System.Collections.ObjectModel;
+using System.Collections.Concurrent;
 using Nyx.Desktop.Core.Games;
 
 namespace Nyx.Desktop.Core.Sessions;
@@ -14,7 +15,7 @@ public sealed class GameSessionCoordinator : IAsyncDisposable
     private static readonly TimeSpan DefaultAdapterCallTimeout = TimeSpan.FromSeconds(5);
     private static readonly TimeSpan DefaultAbsenceConfirmationInterval = TimeSpan.FromSeconds(1);
 
-    private readonly IReadOnlyDictionary<string, SessionEntry> entries;
+    private readonly ConcurrentDictionary<string, SessionEntry> entries;
     private readonly TimeProvider timeProvider;
     private readonly TimeSpan startupTimeout;
     private readonly TimeSpan adapterCallTimeout;
@@ -48,7 +49,11 @@ public sealed class GameSessionCoordinator : IAsyncDisposable
         foreach (var adapter in adapters)
         {
             ArgumentNullException.ThrowIfNull(adapter);
-            GameCatalog.GetRequired(adapter.GameId);
+            if (!GameCatalog.TryGet(adapter.GameId, out _)
+                && !CustomGameId.IsValid(adapter.GameId))
+            {
+                GameCatalog.GetRequired(adapter.GameId);
+            }
             if (!adapterById.TryAdd(adapter.GameId, adapter))
             {
                 throw new ArgumentException(
@@ -68,11 +73,12 @@ public sealed class GameSessionCoordinator : IAsyncDisposable
                 nameof(adapters));
         }
 
-        entries = new ReadOnlyDictionary<string, SessionEntry>(
-            GameCatalog.All.ToDictionary(
-                game => game.Id,
-                game => new SessionEntry(game.Id, adapterById[game.Id]),
-                StringComparer.Ordinal));
+        entries = new ConcurrentDictionary<string, SessionEntry>(
+            adapterById.ToDictionary(
+                static pair => pair.Key,
+                static pair => new SessionEntry(pair.Key, pair.Value),
+                StringComparer.Ordinal),
+            StringComparer.Ordinal);
     }
 
     internal GameSessionCoordinator(
@@ -94,12 +100,45 @@ public sealed class GameSessionCoordinator : IAsyncDisposable
 
     public GameSessionSnapshot GetSnapshot(string gameId) => Read(GetEntry(gameId));
 
+    public bool TryGetSnapshot(string gameId, out GameSessionSnapshot? snapshot)
+    {
+        if (entries.TryGetValue(gameId, out var entry))
+        {
+            snapshot = Read(entry);
+            return true;
+        }
+
+        snapshot = null;
+        return false;
+    }
+
     public IReadOnlyDictionary<string, GameSessionSnapshot> GetAllSnapshots() =>
         new ReadOnlyDictionary<string, GameSessionSnapshot>(
-            GameCatalog.All.ToDictionary(
-                game => game.Id,
-                game => GetSnapshot(game.Id),
+            entries.ToDictionary(
+                static pair => pair.Key,
+                static pair => Read(pair.Value),
                 StringComparer.Ordinal));
+
+    public bool TryRegisterCustomAdapter(IGameSessionAdapter adapter)
+    {
+        ArgumentNullException.ThrowIfNull(adapter);
+        if (IsStopped || !CustomGameId.IsValid(adapter.GameId))
+        {
+            return false;
+        }
+
+        return entries.TryAdd(adapter.GameId, new SessionEntry(adapter.GameId, adapter));
+    }
+
+    public bool TryRemoveCustomAdapter(string gameId)
+    {
+        if (!CustomGameId.IsValid(gameId))
+        {
+            return false;
+        }
+
+        return entries.TryRemove(gameId, out _);
+    }
 
     public async ValueTask<GameLaunchRequestResult> RequestLaunchAsync(
         string gameId,
@@ -305,10 +344,10 @@ public sealed class GameSessionCoordinator : IAsyncDisposable
     public async ValueTask<IReadOnlyDictionary<string, GameSessionSnapshot>> RefreshAllAsync(
         CancellationToken cancellationToken = default)
     {
-        var refreshes = GameCatalog.All
-            .Select(async game => new KeyValuePair<string, GameSessionSnapshot>(
-                game.Id,
-                await RefreshAsync(game.Id, cancellationToken).ConfigureAwait(false)))
+        var refreshes = entries.Keys
+            .Select(async gameId => new KeyValuePair<string, GameSessionSnapshot>(
+                gameId,
+                await RefreshAsync(gameId, cancellationToken).ConfigureAwait(false)))
             .ToArray();
         var results = await Task.WhenAll(refreshes).ConfigureAwait(false);
         return new ReadOnlyDictionary<string, GameSessionSnapshot>(
@@ -322,9 +361,9 @@ public sealed class GameSessionCoordinator : IAsyncDisposable
             return ValueTask.CompletedTask;
         }
 
-        foreach (var game in GameCatalog.All)
+        foreach (var entry in entries.Values)
         {
-            RequestResumeReset(entries[game.Id]);
+            RequestResumeReset(entry);
         }
 
         return ValueTask.CompletedTask;
@@ -624,8 +663,13 @@ public sealed class GameSessionCoordinator : IAsyncDisposable
 
     private SessionEntry GetEntry(string gameId)
     {
+        if (entries.TryGetValue(gameId, out var entry))
+        {
+            return entry;
+        }
+
         GameCatalog.GetRequired(gameId);
-        return entries[gameId];
+        throw new InvalidOperationException($"No session adapter exists for '{gameId}'.");
     }
 
     private static GameSessionSnapshot Read(SessionEntry entry)

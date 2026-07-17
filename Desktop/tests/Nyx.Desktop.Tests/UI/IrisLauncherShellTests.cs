@@ -58,7 +58,7 @@ public sealed class IrisLauncherShellTests
         Assert.Equal(760, constants["ExpandedHeight"]);
         Assert.Contains("IconSize: 92", source, StringComparison.Ordinal);
         Assert.Contains("IconSize: 100", source, StringComparison.Ordinal);
-        Assert.Contains("IconSize: 108", source, StringComparison.Ordinal);
+        Assert.Contains("IconSize: 84", source, StringComparison.Ordinal);
         Assert.Contains("IconSize: 116", source, StringComparison.Ordinal);
         Assert.Contains("Math.Clamp", source, StringComparison.Ordinal);
     }
@@ -67,7 +67,7 @@ public sealed class IrisLauncherShellTests
     {
         { "Compact", 112, 92 },
         { "Horizontal", 120, 100 },
-        { "Wide", 132, 108 },
+        { "Wide", 118, 84 },
         { "Expanded", 144, 116 },
     };
 
@@ -144,10 +144,10 @@ public sealed class IrisLauncherShellTests
         Assert.Single(Regex.Matches(xaml, "x:Name=\"LaunchButton\"").Cast<Match>());
         Assert.DoesNotContain("CompactLaunch", combined, StringComparison.OrdinalIgnoreCase);
         Assert.DoesNotContain("WideLaunch", combined, StringComparison.OrdinalIgnoreCase);
-        Assert.DoesNotContain("Coming later", combined, StringComparison.OrdinalIgnoreCase);
         Assert.DoesNotContain("Genshin first", combined, StringComparison.OrdinalIgnoreCase);
-        Assert.Contains("GAME 01 / 05", combined, StringComparison.Ordinal);
-        Assert.Contains("$\"GAME {gameIndex:00} / {Games.Count:00}\"", combined, StringComparison.Ordinal);
+        Assert.DoesNotContain("GAME 01 / 05", combined, StringComparison.Ordinal);
+        Assert.DoesNotContain("$\"GAME {gameIndex:00} / {Games.Count:00}\"", combined, StringComparison.Ordinal);
+        Assert.Contains("PullExportToggle.IsEnabled = pullsAvailable", code, StringComparison.Ordinal);
         Assert.DoesNotContain("LOCAL LIBRARY", combined, StringComparison.Ordinal);
         Assert.Single(Regex.Matches(xaml, "x:Name=\"CommandDeck\"").Cast<Match>());
         Assert.Contains("ApplyCommandDeckLayout(profile, width)", code, StringComparison.Ordinal);
@@ -177,7 +177,7 @@ public sealed class IrisLauncherShellTests
         Assert.Contains("profile.DeckHeight + 42", code, StringComparison.Ordinal);
         Assert.Contains("DeckHeight: 286", ReadAppFile("ViewModels", "LauncherLayoutState.cs"), StringComparison.Ordinal);
         Assert.Contains("DeckHeight: 152", ReadAppFile("ViewModels", "LauncherLayoutState.cs"), StringComparison.Ordinal);
-        Assert.Contains("DeckHeight: 166", ReadAppFile("ViewModels", "LauncherLayoutState.cs"), StringComparison.Ordinal);
+        Assert.Contains("DeckHeight: 184", ReadAppFile("ViewModels", "LauncherLayoutState.cs"), StringComparison.Ordinal);
         Assert.Contains("DeckHeight: 180", ReadAppFile("ViewModels", "LauncherLayoutState.cs"), StringComparison.Ordinal);
     }
 
@@ -289,11 +289,11 @@ public sealed class IrisLauncherShellTests
         var palette = ReadAppFile("Themes", "NyxPalette.xaml");
 
         Assert.Contains(
-            "Nyx starts games. Official launchers handle downloads, updates, pre-downloads, verification, and repairs.",
+            "Nyx launches the game. Updates, repairs and installs happen in the official launcher.",
             xaml,
             StringComparison.Ordinal);
-        Assert.Contains("Fan-made launcher", xaml, StringComparison.Ordinal);
-        Assert.Contains("Not affiliated with HoYoverse, Kuro Games, or GRYPHLINK", xaml, StringComparison.Ordinal);
+        Assert.DoesNotContain("Fan-made launcher", xaml, StringComparison.Ordinal);
+        Assert.DoesNotContain("Not affiliated with HoYoverse, Kuro Games, or GRYPHLINK", xaml, StringComparison.Ordinal);
         Assert.Contains("UseSystemFocusVisuals\" Value=\"True", controls, StringComparison.Ordinal);
         Assert.Contains("FocusVisualPrimaryThickness\" Value=\"2", controls, StringComparison.Ordinal);
         Assert.Contains("x:Key=\"HighContrast\"", palette, StringComparison.Ordinal);
@@ -338,14 +338,14 @@ public sealed class IrisLauncherShellTests
         var brand = xaml.IndexOf("x:Name=\"BrandLockup\"", StringComparison.Ordinal);
         var games = xaml.IndexOf("x:Name=\"GameSelector\"", StringComparison.Ordinal);
         var content = xaml.IndexOf("x:Name=\"ContentScroll\"", StringComparison.Ordinal);
-        var disclaimer = xaml.IndexOf("Fan-made launcher", StringComparison.Ordinal);
+        var deck = xaml.IndexOf("x:Name=\"CommandDeck\"", StringComparison.Ordinal);
 
         Assert.True(artwork >= 0 && artwork < scrim);
         Assert.True(scrim < cover);
         Assert.True(cover < brand);
         Assert.True(cover < games);
         Assert.True(cover < content);
-        Assert.True(cover < disclaimer);
+        Assert.True(cover < deck);
         var hero = xaml.IndexOf("x:Name=\"HeroStage\"", StringComparison.Ordinal);
         var heroTagEnd = xaml.IndexOf('>', hero);
         Assert.Contains(
@@ -410,6 +410,12 @@ public sealed class IrisLauncherShellTests
         Assert.DoesNotContain("SignalBrush", combined, StringComparison.Ordinal);
         Assert.DoesNotContain("TealBrush", combined, StringComparison.Ordinal);
         Assert.DoesNotContain("NyxSignalColor", combined, StringComparison.Ordinal);
+        Assert.Contains("ApplyNyxAccentResources(content.Resources)", code, StringComparison.Ordinal);
+        Assert.Contains("ApplyNyxAccentResources(dialog.Resources)", code, StringComparison.Ordinal);
+        Assert.Contains("\"ToggleSwitchFillOn\"", code, StringComparison.Ordinal);
+        Assert.Contains("\"SliderTrackValueFill\"", code, StringComparison.Ordinal);
+        Assert.Contains("\"AccentButtonBackground\"", code, StringComparison.Ordinal);
+        Assert.Contains("HighContrastBackdropOpacity", code, StringComparison.Ordinal);
     }
 
     [Fact]
@@ -497,11 +503,11 @@ public sealed class IrisLauncherShellTests
         var code = ReadAppFile("MainPage.xaml.cs");
         var combined = xaml + code;
 
-        Assert.DoesNotContain("Settings", combined, StringComparison.OrdinalIgnoreCase);
-        Assert.DoesNotContain("Add Game", combined, StringComparison.OrdinalIgnoreCase);
-        Assert.DoesNotContain("Ko-fi", combined, StringComparison.OrdinalIgnoreCase);
-        Assert.DoesNotContain("CURRENT BANNERS", combined, StringComparison.OrdinalIgnoreCase);
-        Assert.DoesNotContain("View all news", combined, StringComparison.OrdinalIgnoreCase);
+        Assert.Contains("Settings", combined, StringComparison.OrdinalIgnoreCase);
+        Assert.Contains("Add Game", combined, StringComparison.OrdinalIgnoreCase);
+        Assert.Contains("Ko-fi", combined, StringComparison.OrdinalIgnoreCase);
+        Assert.Contains("CURRENT BANNERS", combined, StringComparison.OrdinalIgnoreCase);
+        Assert.Contains("LatestCard_Click", combined, StringComparison.Ordinal);
         Assert.DoesNotContain("CornerRadius=\"", SliceElement(xaml, "x:Name=\"GameSelector\""), StringComparison.Ordinal);
     }
 
@@ -510,7 +516,7 @@ public sealed class IrisLauncherShellTests
         {
             { 390, 844, LauncherLayoutState.Compact, LauncherDeckLayoutMode.CompactStack },
             { 760, 540, LauncherLayoutState.Horizontal, LauncherDeckLayoutMode.TwoRow },
-            { 1280, 720, LauncherLayoutState.Wide, LauncherDeckLayoutMode.SingleRow },
+            { 1280, 720, LauncherLayoutState.Wide, LauncherDeckLayoutMode.TwoRow },
             { 1600, 900, LauncherLayoutState.Expanded, LauncherDeckLayoutMode.SingleRow },
             { 2560, 1080, LauncherLayoutState.Expanded, LauncherDeckLayoutMode.SingleRow },
         };
@@ -698,7 +704,7 @@ public sealed class IrisLauncherShellTests
         Assert.Contains("Opacity=\"{Binding ItemOpacity}\"", strip, StringComparison.Ordinal);
         Assert.DoesNotContain("<Image", strip, StringComparison.Ordinal);
         Assert.DoesNotContain("Hyperlink", strip, StringComparison.Ordinal);
-        Assert.DoesNotContain("Click=", strip, StringComparison.Ordinal);
+        Assert.Contains("Click=\"LatestCard_Click\"", strip, StringComparison.Ordinal);
         Assert.DoesNotContain("http://", strip, StringComparison.OrdinalIgnoreCase);
         Assert.DoesNotContain("https://", strip, StringComparison.OrdinalIgnoreCase);
     }
@@ -726,12 +732,65 @@ public sealed class IrisLauncherShellTests
         };
 
         Assert.Contains("Assets\\Iris\\**\\*", project, StringComparison.Ordinal);
+        Assert.Contains("Assets\\Iris\\**\\*\" CopyToOutputDirectory=\"PreserveNewest\"", project, StringComparison.Ordinal);
+        Assert.Contains("Assets\\Catalog\\**\\*\" CopyToOutputDirectory=\"PreserveNewest\"", project, StringComparison.Ordinal);
+        Assert.Contains("Assets\\backgroundnyx.png\" CopyToOutputDirectory=\"PreserveNewest\"", project, StringComparison.Ordinal);
+        Assert.Contains("<Link>Assets\\Brand\\kofi-logo.png</Link>", project, StringComparison.Ordinal);
+        Assert.Contains("<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>", project, StringComparison.Ordinal);
         Assert.All(required, fileName =>
         {
             var file = new FileInfo(Path.Combine(irisDirectory, fileName));
             Assert.True(file.Exists);
             Assert.True(file.Length > 1024);
         });
+    }
+
+    [Fact]
+    public void Direct_distribution_is_explicitly_unpackaged_and_self_contained()
+    {
+        var project = ReadAppFile("Nyx.Desktop.App.csproj");
+
+        Assert.Contains("<WindowsPackageType>None</WindowsPackageType>", project, StringComparison.Ordinal);
+        Assert.Contains("<WindowsAppSDKSelfContained>true</WindowsAppSDKSelfContained>", project, StringComparison.Ordinal);
+        Assert.Contains("<WindowsAppSdkUndockedRegFreeWinRTInitialize>true</WindowsAppSdkUndockedRegFreeWinRTInitialize>", project, StringComparison.Ordinal);
+        Assert.Contains("<SelfContained>true</SelfContained>", project, StringComparison.Ordinal);
+        Assert.Contains("<EnableMsixTooling>false</EnableMsixTooling>", project, StringComparison.Ordinal);
+        Assert.Contains("<PublishTrimmed>False</PublishTrimmed>", project, StringComparison.Ordinal);
+        Assert.Contains("Name=\"CopyApplicationPriToPublishDirectory\"", project, StringComparison.Ordinal);
+        Assert.Contains("$(TargetDir)$(AssemblyName).pri", project, StringComparison.Ordinal);
+        Assert.Contains("DestinationFolder=\"$(PublishDir)\"", project, StringComparison.Ordinal);
+    }
+
+    [Fact]
+    public void Pinned_art_is_lazily_protected_without_deleting_backup_references()
+    {
+        var code = ReadAppFile("MainPage.xaml.cs");
+
+        Assert.Contains("TryResolveUserArt(appearance.PinnedArtFile) is null", code, StringComparison.Ordinal);
+        Assert.Contains("launcherBanners.PinUserArt(gameId, variant)", code, StringComparison.Ordinal);
+        Assert.Contains("currentAppearance with { PinnedArtFile = pinToSave }", code, StringComparison.Ordinal);
+        Assert.Contains("pinWasSaved", code, StringComparison.Ordinal);
+        Assert.Contains("allCurrentVariants", code, StringComparison.Ordinal);
+        Assert.Contains("LauncherPinnedArtMigration.Evaluate", code, StringComparison.Ordinal);
+        Assert.DoesNotContain("ArtPinned = false", code, StringComparison.Ordinal);
+        Assert.DoesNotContain("ReleaseUserArt(savedAppearance.PinnedArtFile)", code, StringComparison.Ordinal);
+        Assert.DoesNotContain("ReleaseUserArt(migratedPin)", code, StringComparison.Ordinal);
+    }
+
+    [Fact]
+    public void Concurrent_custom_executable_conflicts_are_reported_and_add_cleanup_runs()
+    {
+        var page = ReadAppFile("MainPage.xaml.cs");
+        var controller = ReadAppFile("LauncherStateController.cs");
+
+        Assert.Contains("out var settingsFailure", page, StringComparison.Ordinal);
+        Assert.Contains("out var addFailure", page, StringComparison.Ordinal);
+        Assert.True(
+            page.Split("That executable is already in your game rail.", StringSplitOptions.None).Length - 1 >= 2,
+            "Both locked Settings and Add Game conflicts must show the duplicate message.");
+        Assert.Contains("sessions.TryRemoveCustomAdapter(game.Id);", page, StringComparison.Ordinal);
+        Assert.Contains("catch (CustomGameExecutableConflictException)", controller, StringComparison.Ordinal);
+        Assert.Contains("LauncherStateUpdateFailure.CustomGameExecutableConflict", controller, StringComparison.Ordinal);
     }
 
     private static void AssertRawElement(string xaml, string elementName)

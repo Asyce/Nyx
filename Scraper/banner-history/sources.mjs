@@ -224,18 +224,28 @@ export async function applyOfficialLatest(game, records) {
       const latest = asia ? Date.parse(asia.end || asia.start) : 0;
       if (latest < cutoff) continue;
       const boundaryDates = [asia?.start, asia?.end].filter(Boolean).map((iso) => wallTimeFromAsia(iso).slice(0,10));
+      const annWindow = (ann, offset) => {
+        const text = String(ann.content || '').replace(/<[^>]+>/g, ' ');
+        const dates = [...text.matchAll(/(20\d{2})[/-](\d{2})[/-](\d{2})\s+(\d{2}):(\d{2})(?::(\d{2}))?/g)].map((m) => `${m[1]}-${m[2]}-${m[3]} ${m[4]}:${m[5]}:${m[6] || '00'}`);
+        return dates.length >= 2 ? { start:localIso(dates[0], offset), end:localIso(dates[1], offset) } : null;
+      };
+      // Recurring banner names (e.g. Epitome Invocation) share a boundary date across back-to-back
+      // phases: the outgoing phase's end date equals the next phase's start date, so a name+date
+      // text match alone can attach the NEXT phase's notice and overwrite this record's window.
+      // A notice with a parseable window is only accepted when that window overlaps the record's
+      // known window; windowless notices (e.g. "After the Version X.X update") still match by date.
+      const overlaps = (window) => !window || (Date.parse(window.start) < (asia.end ? Date.parse(asia.end) : Infinity) && Date.parse(window.end) > Date.parse(asia.start));
       const matches = Object.entries(announcements).map(([region, group]) => [region, group, group.rows.find((ann) => {
         const combined = `${ann.title} ${ann.subtitle} ${ann.content}`;
         const normalized = combined.replace(/\//g, '-').toLowerCase();
-        return normalized.includes(row.name.toLowerCase()) && boundaryDates.some((date) => normalized.includes(date));
+        return normalized.includes(row.name.toLowerCase()) && boundaryDates.some((date) => normalized.includes(date)) && overlaps(annWindow(ann, group.offset));
       })]).filter(([, , ann]) => ann);
       if (!matches.length) continue;
       const [, firstGroup, first] = matches[0];
       row.confirmed = true; row.officialSource = { url:firstGroup.endpoint, kind:'official-latest', revision:String(first.ann_id) };
       for (const [region, group, ann] of matches) {
-        const text = String(ann.content || '').replace(/<[^>]+>/g, ' ');
-        const dates = [...text.matchAll(/(20\d{2})[/-](\d{2})[/-](\d{2})\s+(\d{2}):(\d{2})(?::(\d{2}))?/g)].map((m) => `${m[1]}-${m[2]}-${m[3]} ${m[4]}:${m[5]}:${m[6] || '00'}`);
-        if (dates.length >= 2) row.windowsByRegion[region] = { start:localIso(dates[0], group.offset), end:localIso(dates[1], group.offset), timezone:`UTC${group.offset}`, sourceUrl:group.endpoint };
+        const window = annWindow(ann, group.offset);
+        if (window) row.windowsByRegion[region] = { ...window, timezone:`UTC${group.offset}`, sourceUrl:group.endpoint };
       }
     }
   }

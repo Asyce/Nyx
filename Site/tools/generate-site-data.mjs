@@ -445,6 +445,10 @@ function gamedataCharacterAliases(game, ch) {
   }
 
   if (key === 'ww' && name && !/^the\s+/i.test(name)) aliases.push(`The ${name}`);
+
+  // GameData names agent 1261 "Jane"; Prydwen (and the game's UI) use "Jane Doe".
+  if (key === 'zzz' && id === '1261') aliases.push('Jane Doe');
+
   return uniq(aliases.map((alias) => cleanText(alias, 120)).filter(Boolean));
 }
 
@@ -3211,7 +3215,8 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
     if (game === 'zzz' && local) {
       if (local.el && (!mapped.el || mapped.el === 'Unknown')) mapped.el = local.el;
       if (local.spec && (!mapped.spec || mapped.spec === 'Unknown')) mapped.spec = local.spec;
-      if (local.rarity && (!mapped.r || mapped.r === 'Unknown')) mapped.r = Number(local.rarity) >= 5 ? 'S' : 'A';
+      // ZZZ's rarity enum is 4 = S-rank, 3 = A-rank (not the 5/4-star scale).
+      if (local.rarity && (!mapped.r || mapped.r === 'Unknown')) mapped.r = Number(local.rarity) >= 4 ? 'S' : 'A';
     }
     const meta = fandom.get(normKey(ch.name));
     const officialPortrait = game === 'zzz' ? ZZZ_OFFICIAL_CHARACTER_PORTRAITS.get(normKey(ch.name)) : null;
@@ -3396,7 +3401,11 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
     for (const ag of readJson(`GameData/zzz/${nch()}/agents.json`)) {
       if (!/^beta/.test(String(ag.contentStatus || '').toLowerCase())) continue;
       const display = cleanText(resolvedCharacterName(ag), 120);
-      if (!display || have.has(normKey(display))) continue;
+      // Match against every known alias, not just the display name — GameData's
+      // "Jane" is Prydwen's "Jane Doe", and a display-only check would resurface
+      // a released agent here as a duplicate "new beta" entry.
+      const aliasKeys = gamedataCharacterAliases('zzz', ag).map(normKey);
+      if (!display || have.has(normKey(display)) || aliasKeys.some((alias) => have.has(alias))) continue;
       have.add(normKey(display));
       const req = reqByName?.get(String(ag.name || '').toLowerCase()) || reqByName?.get(normKey(ag.name)) || null;
       const kit = kitByName?.get(String(ag.name || '').toLowerCase()) || kitByName?.get(normKey(ag.name)) || null;
@@ -3411,7 +3420,7 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
         icon,
         art,
         card: icon || art,
-        r: Number(ag.rarity) >= 5 ? 'S' : 'A',
+        r: Number(ag.rarity) >= 4 ? 'S' : 'A', // ZZZ rarity enum: 4 = S, 3 = A
         el: firstVal(ag.element) || 'Unknown',
         spec: firstVal(ag.specialty) || undefined,
         status: 'beta',
@@ -5329,7 +5338,14 @@ const cmBetaDeltas = (() => {
     const liveWeaponsById = new Map((cmCfg[key]?.weapons || []).map((weapon) => [weapon.id, weapon]));
     const delta = (betaCfg[key]?.roster || [])
       .filter((bc) => { const lc = liveById.get(bc.id); return !lc || charSig(bc) !== charSig(lc); })
-      .map((bc) => ({ ...bc, betaStatus: liveById.has(bc.id) ? 'changed' : 'new' }));
+      .map((bc) => {
+        // A live row that is itself an unreleased stub (beta status / upcoming / no
+        // reliable data) is not released content: its beta replacement is NEW beta
+        // material and should carry the Beta flair, not a silent "changed".
+        const lc = liveById.get(bc.id);
+        const released = lc && !(lc.upcoming || lc.reliableData === false || (lc.status && lc.status !== 'live'));
+        return { ...bc, betaStatus: released ? 'changed' : 'new' };
+      });
     const weaponDelta = (betaCfg[key]?.weapons || [])
       .filter((bw) => {
         const lw = liveWeaponsById.get(bw.id);

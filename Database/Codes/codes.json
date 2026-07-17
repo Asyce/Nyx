@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T14:01:33.332Z",
+  "generatedAt": "2026-07-17T15:01:00.612Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,7 +9,7 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-07-17T14:01:33.332Z",
+      "lastSuccessfulFetch": "2026-07-17T15:00:44.174Z",
       "codes": [
         {
           "code": "PFY1S40I88T9",
@@ -51,7 +51,7 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-07-17T14:01:28.548Z",
+      "lastSuccessfulFetch": "2026-07-17T15:00:44.148Z",
       "codes": [
         {
           "code": "4TKSX77Y58QK",
@@ -176,7 +176,7 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-07-17T14:01:30.138Z",
+      "lastSuccessfulFetch": "2026-07-17T15:01:00.612Z",
       "codes": [
         {
           "code": "ROSCAELIFER0617",
@@ -210,6 +210,28 @@
           "premium100": false,
           "cwSeen": true,
           "firstSeen": "2026-07-05T17:19:07.479Z"
+        },
+        {
+          "code": "ZZZ31REMIELLE",
+          "rewards": "",
+          "added": "2026-07-17",
+          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ31REMIELLE",
+          "hoyoVerified": true,
+          "premium": false,
+          "premium100": false,
+          "cwSeen": false,
+          "firstSeen": "2026-07-17T15:01:00.612Z"
+        },
+        {
+          "code": "ZZZDREAMLAND",
+          "rewards": "",
+          "added": "2026-07-17",
+          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZDREAMLAND",
+          "hoyoVerified": true,
+          "premium": false,
+          "premium100": false,
+          "cwSeen": false,
+          "firstSeen": "2026-07-17T15:01:00.612Z"
         },
         {
           "code": "ZZZSEASON3",
@@ -255,7 +277,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-07-17T14:01:30.957Z",
+      "lastSuccessfulFetch": "2026-07-17T15:00:43.743Z",
       "codes": []
     },
     {
@@ -265,7 +287,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-07-17T14:01:32.530Z",
+      "lastSuccessfulFetch": "2026-07-17T15:00:43.779Z",
       "codes": [
         {
           "code": "ENDFIELDRENEW",

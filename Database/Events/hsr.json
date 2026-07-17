@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "game": "hsr",
-  "generatedAt": "2026-07-17T14:01:33.405Z",
+  "generatedAt": "2026-07-17T19:31:36.171Z",
   "source": {
     "name": "Honkai: Star Rail Official",
     "endpoint": "sg-hkrpg-api.hoyoverse.com getAnnList+getAnnContent"
@@ -30,7 +30,7 @@
         "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1350",
         "kind": "official-announcement-api",
         "recordId": "1350",
-        "fetchedAt": "2026-07-17T14:01:37.111Z",
+        "fetchedAt": "2026-07-17T19:31:39.813Z",
         "priority": 1
       },
       "confidence": "high",

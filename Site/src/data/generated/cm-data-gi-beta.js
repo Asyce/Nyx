@@ -23,7 +23,7 @@
       "el": "Cryo",
       "w": "Claymore",
       "tag": "SNEZHNAYA STAR",
-      "release": 1782777600000,
+      "release": 1782770400000,
       "voiceActors": {
         "english": "imdb:nm3069800|Deneen Melody",
         "japanese": "Mariko Honda|Honda Mariko (\u672c\u591a\u771f\u68a8\u5b50)",
@@ -2728,7 +2728,7 @@
       "el": "Anemo",
       "w": "Catalyst",
       "tag": "MONDSTADT",
-      "release": 1779148800000,
+      "release": 1779141600000,
       "voiceActors": {
         "english": "imdb:nm12363730|Alice Himora",
         "japanese": "ja:\u9577\u6708\u3042\u304a\u3044|Nagatsuki Aoi (\u9577\u6708 \u3042\u304a\u3044)",
@@ -5333,7 +5333,7 @@
       "el": "Anemo",
       "w": "Claymore",
       "tag": "MONDSTADT",
-      "release": 1771891200000,
+      "release": 1771887600000,
       "voiceActors": {
         "english": "Joseph May",
         "japanese": "Tomokazu Sugita|Sugita Tomokazu (\u6749\u7530\u667a\u548c)",
@@ -8157,7 +8157,7 @@
       "el": "Cryo",
       "w": "Sword",
       "tag": "OMNI SCOURGE",
-      "release": 1750118400000,
+      "release": 1750111200000,
       "releasePatch": "5.7",
       "voiceActors": {
         "english": "imdb:nm11767862|Cat Protano",
@@ -10324,7 +10324,7 @@
       "el": "Anemo",
       "w": "Catalyst",
       "tag": "INAZUMA",
-      "release": 1739232000000,
+      "release": 1739228400000,
       "releasePatch": "5.4",
       "voiceActors": {
         "english": "imdb:nm1696370|Naomi McDonald",
@@ -12885,7 +12885,7 @@
       "el": "Cryo",
       "w": "Catalyst",
       "tag": "FONTAINE",
-      "release": 1697565600000,
+      "release": 1697558400000,
       "releasePatch": "4.1",
       "voiceActors": {
         "english": "Joe Zieja",
@@ -14901,7 +14901,7 @@
       "el": "Anemo",
       "w": "Claymore",
       "tag": "INAZUMA",
-      "release": 1628618400000,
+      "release": 1628611200000,
       "releasePatch": "2.0",
       "voiceActors": {
         "english": "Lilypichu (Lily Ki)",
@@ -17300,7 +17300,7 @@
       "el": "Anemo",
       "w": "Sword",
       "tag": "INAZUMA",
-      "release": 1624989600000,
+      "release": 1624982400000,
       "releasePatch": "1.6",
       "voiceActors": {
         "english": "imdb:nm4008536|Mark Whitten",
@@ -19995,7 +19995,7 @@
       "el": "Cryo",
       "w": "Bow",
       "tag": "MONDSTADT",
-      "release": 1605067200000,
+      "release": 1605063600000,
       "releasePatch": "1.1",
       "voiceActors": {
         "english": "imdb:nm0088650|Dina Sherman",
@@ -22453,7 +22453,7 @@
       "el": "Cryo",
       "w": "Sword",
       "tag": "LIYUE",
-      "release": 1600142400000,
+      "release": 1600135200000,
       "releasePatch": "1.0",
       "voiceActors": {
         "english": "imdb:nm7116087|Christie Cate",
@@ -25242,7 +25242,7 @@
       "el": "Anemo",
       "w": "Bow",
       "tag": "MONDSTADT",
-      "release": 1600142400000,
+      "release": 1600135200000,
       "releasePatch": "1.0",
       "voiceActors": {
         "english": "Erika Harlacher",
@@ -27956,7 +27956,7 @@
       "el": "Anemo",
       "w": "Catalyst",
       "tag": "MONDSTADT",
-      "release": 1600142400000,
+      "release": 1600135200000,
       "releasePatch": "1.0",
       "voiceActors": {
         "english": "imdb:nm14897455|Maya Graydon",
@@ -30168,6 +30168,7 @@
       "el": "Cryo",
       "w": "Sword",
       "tag": "SNEZHNAYA STAR",
+      "release": -3600000,
       "voiceActors": {
         "english": "???",
         "japanese": "???",
@@ -31931,6 +31932,7 @@
       "el": "Electro",
       "w": "Polearm",
       "tag": "SNEZHNAYA",
+      "release": -3600000,
       "voiceActors": {
         "english": "???",
         "japanese": "???",

@@ -2888,7 +2888,7 @@
       "title": "En-Nah Time",
       "slug": "norma",
       "releasePatch": "2.5",
-      "updated": 1783641600000,
+      "updated": 1783634400000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm9332106|Madeline Dorroh",
@@ -5641,7 +5641,7 @@
       "slug": "pyrois",
       "release": 1781654400000,
       "releasePatch": "3.0",
-      "updated": 1783468800000,
+      "updated": 1783461600000,
       "sourceOrder": 0,
       "icon": "../../Database/GameData/zzz/assets/agents/icons/IconRole63.webp",
       "portraitProvenance": {
@@ -8355,7 +8355,7 @@
       "slug": "velina",
       "release": 1781654400000,
       "releasePatch": "3.0",
-      "updated": 1783468800000,
+      "updated": 1783461600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm5966262|Rhiannon Moushall",
@@ -11012,7 +11012,7 @@
       "slug": "aria",
       "release": 1772582400000,
       "releasePatch": "2.6",
-      "updated": 1782172800000,
+      "updated": 1782165600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm9702939|Rebecca Wang",
@@ -13726,7 +13726,7 @@
       "slug": "burnice",
       "release": 1729036800000,
       "releasePatch": "1.2",
-      "updated": 1782172800000,
+      "updated": 1782165600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm10862160|Risa Mei",
@@ -16444,7 +16444,7 @@
       "slug": "grace-howard",
       "release": 1720051200000,
       "releasePatch": "1.0",
-      "updated": 1782172800000,
+      "updated": 1782165600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Megan Shipman",
@@ -18980,7 +18980,7 @@
       "slug": "nangong-yu",
       "release": 1774310400000,
       "releasePatch": "2.7",
-      "updated": 1782172800000,
+      "updated": 1782165600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm7835016|Michelle Marie",
@@ -21476,7 +21476,7 @@
       "slug": "vivian",
       "release": 1745366400000,
       "releasePatch": "1.7",
-      "updated": 1782172800000,
+      "updated": 1782165600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Sarah Wiedenheft",
@@ -24028,7 +24028,7 @@
       "title": "Peach-Flavored Flash Suppressor",
       "slug": "orphie-and-magus",
       "releasePatch": "2.2",
-      "updated": 1781654400000,
+      "updated": 1781647200000,
       "sourceOrder": 0,
       "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle49.webp",
       "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole49.webp",
@@ -26731,7 +26731,7 @@
       "slug": "ye-shunguang",
       "release": 1767052800000,
       "releasePatch": "2.5",
-      "updated": 1781654400000,
+      "updated": 1781647200000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Kristen McGuire",
@@ -30148,7 +30148,7 @@
       "slug": "alice",
       "release": 1754438400000,
       "releasePatch": "2.1",
-      "updated": 1781395200000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Diana Garnet",
@@ -32771,7 +32771,7 @@
       "slug": "astra-yao",
       "release": 1737504000000,
       "releasePatch": "1.5",
-      "updated": 1781395200000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm10646355|Molly Zhang",
@@ -35421,7 +35421,7 @@
       "slug": "banyue",
       "release": 1765929600000,
       "releasePatch": "2.4",
-      "updated": 1781395200000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "|voiceCN = https://zh.moegirl.org.cn/zh-hans/\u5218\u5317\u8fb0|Liu Beichen (\u5218\u5317\u8fb0)",
@@ -38488,7 +38488,7 @@
       "slug": "caesar",
       "release": 1727222400000,
       "releasePatch": "1.2",
-      "updated": 1781395200000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm3158889|Jennifer Sun Bell",
@@ -41227,7 +41227,7 @@
       "slug": "cissia",
       "release": 1776211200000,
       "releasePatch": "2.7",
-      "updated": 1781395200000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Erin Yvette",
@@ -43748,7 +43748,7 @@
       "slug": "dialyn",
       "release": 1764115200000,
       "releasePatch": "2.4",
-      "updated": 1781395200000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Jad Saxton",
@@ -46457,7 +46457,7 @@
       "slug": "ellen",
       "release": 1720051200000,
       "releasePatch": "1.0",
-      "updated": 1781395200000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm7374420|Giselle Fernandez",
@@ -49483,7 +49483,7 @@
       "slug": "evelyn",
       "release": 1739318400000,
       "releasePatch": "1.5",
-      "updated": 1781395200000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Elizabeth Maxwell",
@@ -52197,7 +52197,7 @@
       "slug": "harumasa",
       "release": 1734480000000,
       "releasePatch": "1.4",
-      "updated": 1781395200000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Micah Solusod",
@@ -55096,7 +55096,7 @@
       "slug": "hugo",
       "release": 1747180800000,
       "releasePatch": "1.7",
-      "updated": 1781395200000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm12025555|Jimmie Yamaguchi",
@@ -57783,6 +57783,2788 @@
       }
     },
     {
+      "id": "zzz-jane-doe",
+      "n": "Jane Doe",
+      "localizedNames": {
+        "en": "Jane",
+        "zh": "\u7b80",
+        "ja": "\u30b8\u30a7\u30fc\u30f3",
+        "ko": "\uc81c\uc778"
+      },
+      "title": "Anonymity",
+      "slug": "jane-doe",
+      "release": 1725408000000,
+      "releasePatch": "1.1",
+      "updated": 1781388000000,
+      "sourceOrder": 0,
+      "voiceActors": {
+        "english": "imdb:nm7462725|Kelsey Jaffer",
+        "japanese": "Y\u016b Shimamura|Shimamura Y\u016b (\u5d8b\u6751 \u4f91)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u66fe\u5f64|Zeng Tong (\u66fe\u5f64)",
+        "korean": "ko:\uc7a5\uc608\ub098|Jang Ye-na (\uc7a5\uc608\ub098)"
+      },
+      "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle24.webp",
+      "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole24.webp",
+      "card": "../../Database/Prydwen/zzz/assets/characters/jane-doe-59c7bcdfa19b.webp",
+      "signatureWeapon": {
+        "id": "14126",
+        "name": "Sharpened Stinger",
+        "type": "Anomaly",
+        "educated": false
+      },
+      "signatureWeaponId": "14126",
+      "signatureWeaponName": "Sharpened Stinger",
+      "status": "live",
+      "labels": [],
+      "r": "S",
+      "el": "Physical",
+      "spec": "Anomaly",
+      "tag": "N.E.P.S.",
+      "baseStats": {
+        "level1": {
+          "hp": 626,
+          "atk": 127,
+          "def": 49,
+          "critRate": 0.05,
+          "critDmg": 0.5,
+          "impact": 86,
+          "anomalyProficiency": 112,
+          "anomalyMastery": 114
+        },
+        "max": {
+          "level": 60,
+          "hp": 7788.7,
+          "atk": 805.7,
+          "def": 606.6,
+          "critRate": 0.05,
+          "critDmg": 0.5,
+          "impact": 86,
+          "anomalyProficiency": 112,
+          "anomalyMastery": 114
+        }
+      },
+      "facts": {
+        "fullName": "Jane Doe",
+        "faction": "New Eridu Public Security",
+        "birthday": "February 16",
+        "title": "Anonymity"
+      },
+      "skillIcons": [
+        "../../Database/GameData/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/GameData/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/GameData/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/GameData/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/GameData/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
+      "kit": {
+        "source": "Game data",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Dancing Blades",
+                "type": "Basic",
+                "desc": "Press to activate:\nUnleashes up to 6 attacks in front, dealing Physical DMG.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "1st-Hit DMG Multiplier",
+                        "values": [
+                          "36.1%",
+                          "39.4%",
+                          "42.7%",
+                          "46%",
+                          "49.3%",
+                          "52.6%",
+                          "55.9%",
+                          "59.2%",
+                          "62.5%",
+                          "65.8%",
+                          "69.1%",
+                          "72.4%"
+                        ]
+                      },
+                      {
+                        "label": "2nd-Hit DMG Multiplier",
+                        "values": [
+                          "62.3%",
+                          "68%",
+                          "73.7%",
+                          "79.4%",
+                          "85.1%",
+                          "90.8%",
+                          "96.5%",
+                          "102.2%",
+                          "107.9%",
+                          "113.6%",
+                          "119.3%",
+                          "125%"
+                        ]
+                      },
+                      {
+                        "label": "3rd-Hit DMG Multiplier",
+                        "values": [
+                          "83.5%",
+                          "91.1%",
+                          "98.7%",
+                          "106.3%",
+                          "113.9%",
+                          "121.5%",
+                          "129.1%",
+                          "136.7%",
+                          "144.3%",
+                          "151.9%",
+                          "159.5%",
+                          "167.1%"
+                        ]
+                      },
+                      {
+                        "label": "4th-Hit DMG Multiplier",
+                        "values": [
+                          "163.4%",
+                          "178.3%",
+                          "193.2%",
+                          "208.1%",
+                          "223%",
+                          "237.9%",
+                          "252.8%",
+                          "267.7%",
+                          "282.6%",
+                          "297.5%",
+                          "312.4%",
+                          "327.3%"
+                        ]
+                      },
+                      {
+                        "label": "5th-Hit DMG Multiplier",
+                        "values": [
+                          "98.8%",
+                          "107.8%",
+                          "116.8%",
+                          "125.8%",
+                          "134.8%",
+                          "143.8%",
+                          "152.8%",
+                          "161.8%",
+                          "170.8%",
+                          "179.8%",
+                          "188.8%",
+                          "197.8%"
+                        ]
+                      },
+                      {
+                        "label": "6th-Hit DMG Multiplier",
+                        "values": [
+                          "291.3%",
+                          "317.8%",
+                          "344.3%",
+                          "370.8%",
+                          "397.3%",
+                          "423.8%",
+                          "450.3%",
+                          "476.8%",
+                          "503.3%",
+                          "529.8%",
+                          "556.3%",
+                          "582.8%"
+                        ]
+                      },
+                      {
+                        "label": "1st-Hit Daze Multiplier",
+                        "values": [
+                          "15.3%",
+                          "16%",
+                          "16.7%",
+                          "17.4%",
+                          "18.1%",
+                          "18.8%",
+                          "19.5%",
+                          "20.2%",
+                          "20.9%",
+                          "21.6%",
+                          "22.3%",
+                          "23%"
+                        ]
+                      },
+                      {
+                        "label": "2nd-Hit Daze Multiplier",
+                        "values": [
+                          "44.3%",
+                          "46.4%",
+                          "48.5%",
+                          "50.6%",
+                          "52.7%",
+                          "54.8%",
+                          "56.9%",
+                          "59%",
+                          "61.1%",
+                          "63.2%",
+                          "65.3%",
+                          "67.4%"
+                        ]
+                      },
+                      {
+                        "label": "3rd-Hit Daze Multiplier",
+                        "values": [
+                          "59.5%",
+                          "62.3%",
+                          "65.1%",
+                          "67.9%",
+                          "70.7%",
+                          "73.5%",
+                          "76.3%",
+                          "79.1%",
+                          "81.9%",
+                          "84.7%",
+                          "87.5%",
+                          "90.3%"
+                        ]
+                      },
+                      {
+                        "label": "4th-Hit Daze Multiplier",
+                        "values": [
+                          "109.7%",
+                          "114.7%",
+                          "119.7%",
+                          "124.7%",
+                          "129.7%",
+                          "134.7%",
+                          "139.7%",
+                          "144.7%",
+                          "149.7%",
+                          "154.7%",
+                          "159.7%",
+                          "164.7%"
+                        ]
+                      },
+                      {
+                        "label": "5th-Hit Daze Multiplier",
+                        "values": [
+                          "68.7%",
+                          "71.9%",
+                          "75.1%",
+                          "78.3%",
+                          "81.5%",
+                          "84.7%",
+                          "87.9%",
+                          "91.1%",
+                          "94.3%",
+                          "97.5%",
+                          "100.7%",
+                          "103.9%"
+                        ]
+                      },
+                      {
+                        "label": "6th-Hit Daze Multiplier",
+                        "values": [
+                          "200%",
+                          "209.1%",
+                          "218.2%",
+                          "227.3%",
+                          "236.4%",
+                          "245.5%",
+                          "254.6%",
+                          "263.7%",
+                          "272.8%",
+                          "281.9%",
+                          "291%",
+                          "300.1%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Passion",
+                "type": "Basic",
+                "desc": "When Jane triggers Perfect Dodge, Defensive Assist, or performs a move that deals DMG to the enemy, she accumulates Passion Stream. Upon reaching the maximum Passion Stream, Jane enters the Passion state.\nWhile in the Passion state, Jane's Physical Anomaly Buildup Rate is increased by 25%. Additionally, if Jane's Anomaly Proficiency exceeds 120, each extra point raises her ATK by 2, up to a maximum of 600.\nIn the Passion state, Jane's skills that deal damage consume Passion Stream. Activating a Perfect Dodge or Defensive Assist regenerates Passion Stream. Jane exits the Passion state when all of her Passion Stream is consumed."
+              },
+              {
+                "name": "Basic Attack: Salchow Jump",
+                "type": "Basic",
+                "desc": "Entering the Passion state grants Jane one use of Basic Attack: Salchow Jump.\nWhen available, hold to activate:\nLaunch rapid consecutive attacks forward, followed by a Finishing Move, dealing Physical DMG.\nHold the button during the consecutive attacks to extend the skill duration. Release to trigger the Finishing Move early.\nAnti-Interrupt level is increased during the consecutive attacks, and Jane takes 40% reduced DMG. Jane is invulnerable during the Finishing Move.\nUsing and damaging an enemy with Basic Attack: Salchow Jump while in the Passion state generates Passion Stream.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Consecutive Attack DMG Multiplier",
+                        "values": [
+                          "300.8%",
+                          "328.2%",
+                          "355.6%",
+                          "383%",
+                          "410.4%",
+                          "437.8%",
+                          "465.2%",
+                          "492.6%",
+                          "520%",
+                          "547.4%",
+                          "574.8%",
+                          "602.2%"
+                        ]
+                      },
+                      {
+                        "label": "Finishing Move DMG Multiplier",
+                        "values": [
+                          "161.3%",
+                          "176%",
+                          "190.7%",
+                          "205.4%",
+                          "220.1%",
+                          "234.8%",
+                          "249.5%",
+                          "264.2%",
+                          "278.9%",
+                          "293.6%",
+                          "308.3%",
+                          "323%"
+                        ]
+                      },
+                      {
+                        "label": "Consecutive Attack Daze Multiplier",
+                        "values": [
+                          "229.2%",
+                          "239.7%",
+                          "250.2%",
+                          "260.7%",
+                          "271.2%",
+                          "281.7%",
+                          "292.2%",
+                          "302.7%",
+                          "313.2%",
+                          "323.7%",
+                          "334.2%",
+                          "344.7%"
+                        ]
+                      },
+                      {
+                        "label": "Finishing Move Daze Multiplier",
+                        "values": [
+                          "122.9%",
+                          "128.5%",
+                          "134.1%",
+                          "139.7%",
+                          "145.3%",
+                          "150.9%",
+                          "156.5%",
+                          "162.1%",
+                          "167.7%",
+                          "173.3%",
+                          "178.9%",
+                          "184.5%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Dodge: Phantom",
+                "type": "Dodge",
+                "desc": "Press to trigger.\nA quick slide dodge.\nCharacter is invulnerable while using this skill.\nJane has an extra dodge. Before she enters the Passion state, she alternates between the two dodges. After entering the Passion state, Jane can pass through enemies in front when dodging."
+              },
+              {
+                "name": "Dash Attack: Edge Jump",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nIf after the first dodge, launch an upward slash in front, dealing Physical DMG.\nIf after the second dodge, perform a consecutive slashes in front, dealing Physical DMG.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "1st-Dodge DMG Multiplier",
+                        "values": [
+                          "71.5%",
+                          "78%",
+                          "84.5%",
+                          "91%",
+                          "97.5%",
+                          "104%",
+                          "110.5%",
+                          "117%",
+                          "123.5%",
+                          "130%",
+                          "136.5%",
+                          "143%"
+                        ]
+                      },
+                      {
+                        "label": "1st-Dodge Daze Multiplier",
+                        "values": [
+                          "35.8%",
+                          "37.5%",
+                          "39.2%",
+                          "40.9%",
+                          "42.6%",
+                          "44.3%",
+                          "46%",
+                          "47.7%",
+                          "49.4%",
+                          "51.1%",
+                          "52.8%",
+                          "54.5%"
+                        ]
+                      },
+                      {
+                        "label": "2nd-Dodge DMG Multiplier",
+                        "values": [
+                          "71.5%",
+                          "78%",
+                          "84.5%",
+                          "91%",
+                          "97.5%",
+                          "104%",
+                          "110.5%",
+                          "117%",
+                          "123.5%",
+                          "130%",
+                          "136.5%",
+                          "143%"
+                        ]
+                      },
+                      {
+                        "label": "2nd-Dodge Daze Multiplier",
+                        "values": [
+                          "35.8%",
+                          "37.5%",
+                          "39.2%",
+                          "40.9%",
+                          "42.6%",
+                          "44.3%",
+                          "46%",
+                          "47.7%",
+                          "49.4%",
+                          "51.1%",
+                          "52.8%",
+                          "54.5%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Dash Attack: Phantom Thrust",
+                "type": "Dodge",
+                "desc": "While in the Passion state, press during a dodge to activate:\nLaunch three quick rushing slashes in front, dealing Physical DMG.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "104.5%",
+                          "114%",
+                          "123.5%",
+                          "133%",
+                          "142.5%",
+                          "152%",
+                          "161.5%",
+                          "171%",
+                          "180.5%",
+                          "190%",
+                          "199.5%",
+                          "209%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "52.3%",
+                          "54.7%",
+                          "57.1%",
+                          "59.5%",
+                          "61.9%",
+                          "64.3%",
+                          "66.7%",
+                          "69.1%",
+                          "71.5%",
+                          "73.9%",
+                          "76.3%",
+                          "78.7%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Dodge Counter: Swift Shadow",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nIf after the first dodge, unleash multiple slashes at enemies in front, followed by a downward thrust, dealing Physical DMG.\nIf after the second dodge, leap up and deliver three consecutive attacks to enemies in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "1st-Dodge DMG Multiplier",
+                        "values": [
+                          "341.2%",
+                          "372.3%",
+                          "403.4%",
+                          "434.5%",
+                          "465.6%",
+                          "496.7%",
+                          "527.8%",
+                          "558.9%",
+                          "590%",
+                          "621.1%",
+                          "652.2%",
+                          "683.3%"
+                        ]
+                      },
+                      {
+                        "label": "1st-Dodge Daze Multiplier",
+                        "values": [
+                          "229.2%",
+                          "239.7%",
+                          "250.2%",
+                          "260.7%",
+                          "271.2%",
+                          "281.7%",
+                          "292.2%",
+                          "302.7%",
+                          "313.2%",
+                          "323.7%",
+                          "334.2%",
+                          "344.7%"
+                        ]
+                      },
+                      {
+                        "label": "2nd-Dodge DMG Multiplier",
+                        "values": [
+                          "341.2%",
+                          "372.3%",
+                          "403.4%",
+                          "434.5%",
+                          "465.6%",
+                          "496.7%",
+                          "527.8%",
+                          "558.9%",
+                          "590%",
+                          "621.1%",
+                          "652.2%",
+                          "683.3%"
+                        ]
+                      },
+                      {
+                        "label": "2nd-Dodge Daze Multiplier",
+                        "values": [
+                          "229.2%",
+                          "239.7%",
+                          "250.2%",
+                          "260.7%",
+                          "271.2%",
+                          "281.7%",
+                          "292.2%",
+                          "302.7%",
+                          "313.2%",
+                          "323.7%",
+                          "334.2%",
+                          "344.7%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Dodge Counter: Swift Shadow Dance",
+                "type": "Dodge",
+                "desc": "While in the Passion state, press during a Perfect Dodge to activate:\nSlash enemies in front quickly multiple times, dealing Physical DMG.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "387%",
+                          "422.2%",
+                          "457.4%",
+                          "492.6%",
+                          "527.8%",
+                          "563%",
+                          "598.2%",
+                          "633.4%",
+                          "668.6%",
+                          "703.8%",
+                          "739%",
+                          "774.2%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "247.5%",
+                          "258.8%",
+                          "270.1%",
+                          "281.4%",
+                          "292.7%",
+                          "304%",
+                          "315.3%",
+                          "326.6%",
+                          "337.9%",
+                          "349.2%",
+                          "360.5%",
+                          "371.8%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Quick Assist:\u00a0Dark Thorn",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nUnleash multiple slashes at enemies in front, followed by a downward thrust, dealing Physical DMG.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "119.2%",
+                          "130.1%",
+                          "141%",
+                          "151.9%",
+                          "162.8%",
+                          "173.7%",
+                          "184.6%",
+                          "195.5%",
+                          "206.4%",
+                          "217.3%",
+                          "228.2%",
+                          "239.1%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "119.2%",
+                          "124.7%",
+                          "130.2%",
+                          "135.7%",
+                          "141.2%",
+                          "146.7%",
+                          "152.2%",
+                          "157.7%",
+                          "163.2%",
+                          "168.7%",
+                          "174.2%",
+                          "179.7%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Quick Assist: Lutz Jump",
+                "type": "Assist",
+                "desc": "While in the Passion state, when the active character is launched, press to activate:\nSlash enemies in front quickly multiple times, dealing Physical DMG.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "137.5%",
+                          "150%",
+                          "162.5%",
+                          "175%",
+                          "187.5%",
+                          "200%",
+                          "212.5%",
+                          "225%",
+                          "237.5%",
+                          "250%",
+                          "262.5%",
+                          "275%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "137.5%",
+                          "143.8%",
+                          "150.1%",
+                          "156.4%",
+                          "162.7%",
+                          "169%",
+                          "175.3%",
+                          "181.6%",
+                          "187.9%",
+                          "194.2%",
+                          "200.5%",
+                          "206.8%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Defensive Assist: Last Defense",
+                "type": "Assist",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Light Defensive Daze Multiplier",
+                        "values": [
+                          "271.3%",
+                          "283.7%",
+                          "296.1%",
+                          "308.5%",
+                          "320.9%",
+                          "333.3%",
+                          "345.7%",
+                          "358.1%",
+                          "370.5%",
+                          "382.9%",
+                          "395.3%",
+                          "407.7%"
+                        ]
+                      },
+                      {
+                        "label": "Heavy Defensive Daze Multiplier",
+                        "values": [
+                          "342.8%",
+                          "358.4%",
+                          "374%",
+                          "389.6%",
+                          "405.2%",
+                          "420.8%",
+                          "436.4%",
+                          "452%",
+                          "467.6%",
+                          "483.2%",
+                          "498.8%",
+                          "514.4%"
+                        ]
+                      },
+                      {
+                        "label": "Chain Defensive Daze Multiplier",
+                        "values": [
+                          "166.8%",
+                          "174.4%",
+                          "182%",
+                          "189.6%",
+                          "197.2%",
+                          "204.8%",
+                          "212.4%",
+                          "220%",
+                          "227.6%",
+                          "235.2%",
+                          "242.8%",
+                          "250.4%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Assist Follow-Up: Gale Sweep",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nLeap up and swiftly slash the enemy, then execute a wide sweeping slash across a large area in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "345.5%",
+                          "377%",
+                          "408.5%",
+                          "440%",
+                          "471.5%",
+                          "503%",
+                          "534.5%",
+                          "566%",
+                          "597.5%",
+                          "629%",
+                          "660.5%",
+                          "692%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "299%",
+                          "312.6%",
+                          "326.2%",
+                          "339.8%",
+                          "353.4%",
+                          "367%",
+                          "380.6%",
+                          "394.2%",
+                          "407.8%",
+                          "421.4%",
+                          "435%",
+                          "448.6%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Special Attack: Aerial Sweep",
+                "type": "Special",
+                "desc": "Press to activate:\nLeaps into the air to launch consecutive kicks forward, then sweeps across, dealing Physical DMG.\nAnti-Interrupt level is increased while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "57.8%",
+                          "63.1%",
+                          "68.4%",
+                          "73.7%",
+                          "79%",
+                          "84.3%",
+                          "89.6%",
+                          "94.9%",
+                          "100.2%",
+                          "105.5%",
+                          "110.8%",
+                          "116.1%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "57.8%",
+                          "60.5%",
+                          "63.2%",
+                          "65.9%",
+                          "68.6%",
+                          "71.3%",
+                          "74%",
+                          "76.7%",
+                          "79.4%",
+                          "82.1%",
+                          "84.8%",
+                          "87.5%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "EX Special Attack: Aerial Sweep - Clearout",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nLeaps into the air to launch multiple consecutive kicks forward, then sweeps across, dealing massive Physical DMG.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "574.7%",
+                          "627%",
+                          "679.3%",
+                          "731.6%",
+                          "783.9%",
+                          "836.2%",
+                          "888.5%",
+                          "940.8%",
+                          "993.1%",
+                          "1045.4%",
+                          "1097.7%",
+                          "1150%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "468.1%",
+                          "489.4%",
+                          "510.7%",
+                          "532%",
+                          "553.3%",
+                          "574.6%",
+                          "595.9%",
+                          "617.2%",
+                          "638.5%",
+                          "659.8%",
+                          "681.1%",
+                          "702.4%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Chain Attack: Flowers of Sin",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nWeaves between and slashes enemies in a large area in front, dealing massive Physical DMG.\nJane directly enters the Passion state upon activating the skill, and gains max Passion Stream.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "632.6%",
+                          "690.2%",
+                          "747.8%",
+                          "805.4%",
+                          "863%",
+                          "920.6%",
+                          "978.2%",
+                          "1035.8%",
+                          "1093.4%",
+                          "1151%",
+                          "1208.6%",
+                          "1266.2%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "237.6%",
+                          "248.4%",
+                          "259.2%",
+                          "270%",
+                          "280.8%",
+                          "291.6%",
+                          "302.4%",
+                          "313.2%",
+                          "324%",
+                          "334.8%",
+                          "345.6%",
+                          "356.4%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Ultimate: Final Curtain",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nWeaves between and slashes enemies with a powerful attack in a large area in front, followed by a Finishing Move, dealing massive Physical DMG.\nJane directly enters the Passion state upon activating the skill, and gains max Passion Stream.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "1470.6%",
+                          "1604.3%",
+                          "1738%",
+                          "1871.7%",
+                          "2005.4%",
+                          "2139.1%",
+                          "2272.8%",
+                          "2406.5%",
+                          "2540.2%",
+                          "2673.9%",
+                          "2807.6%",
+                          "2941.3%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "186.5%",
+                          "195%",
+                          "203.5%",
+                          "212%",
+                          "220.5%",
+                          "229%",
+                          "237.5%",
+                          "246%",
+                          "254.5%",
+                          "263%",
+                          "271.5%",
+                          "280%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Insight",
+                "type": "Core Passive",
+                "desc": "When Jane's attacks hit an enemy, it causes them to enter the Gnawed state, lasting for 10s. If any squad member triggers Assault on an enemy in the Gnawed state and causes the Flinch effect, the Flinch effect duration is extended by 5s. Assault DMG has a chance to trigger a critical hit against enemies in the Gnawed state, with a base CRIT Rate of 40% and CRIT DMG of 50%. Each point of Jane's Anomaly Proficiency further increases this CRIT Rate by 0.16%.",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "When Jane's attacks hit an enemy, it causes them to enter the Gnawed state, lasting for 10s. If any squad member triggers Assault on an enemy in the Gnawed state and causes the Flinch effect, the Flinch effect duration is extended by 5s. Assault DMG has a chance to trigger a critical hit against enemies in the Gnawed state, with a base CRIT Rate of 20% and CRIT DMG of 50%. Each point of Jane's Anomaly Proficiency further increases this CRIT Rate by 0.1%."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "When Jane's attacks hit an enemy, it causes them to enter the Gnawed state, lasting for 10s. If any squad member triggers Assault on an enemy in the Gnawed state and causes the Flinch effect, the Flinch effect duration is extended by 5s. Assault DMG has a chance to trigger a critical hit against enemies in the Gnawed state, with a base CRIT Rate of 25% and CRIT DMG of 50%. Each point of Jane's Anomaly Proficiency further increases this CRIT Rate by 0.11%."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "When Jane's attacks hit an enemy, it causes them to enter the Gnawed state, lasting for 10s. If any squad member triggers Assault on an enemy in the Gnawed state and causes the Flinch effect, the Flinch effect duration is extended by 5s. Assault DMG has a chance to trigger a critical hit against enemies in the Gnawed state, with a base CRIT Rate of 28% and CRIT DMG of 50%. Each point of Jane's Anomaly Proficiency further increases this CRIT Rate by 0.12%."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "When Jane's attacks hit an enemy, it causes them to enter the Gnawed state, lasting for 10s. If any squad member triggers Assault on an enemy in the Gnawed state and causes the Flinch effect, the Flinch effect duration is extended by 5s. Assault DMG has a chance to trigger a critical hit against enemies in the Gnawed state, with a base CRIT Rate of 31% and CRIT DMG of 50%. Each point of Jane's Anomaly Proficiency further increases this CRIT Rate by 0.13%."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "When Jane's attacks hit an enemy, it causes them to enter the Gnawed state, lasting for 10s. If any squad member triggers Assault on an enemy in the Gnawed state and causes the Flinch effect, the Flinch effect duration is extended by 5s. Assault DMG has a chance to trigger a critical hit against enemies in the Gnawed state, with a base CRIT Rate of 34% and CRIT DMG of 50%. Each point of Jane's Anomaly Proficiency further increases this CRIT Rate by 0.14%."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "When Jane's attacks hit an enemy, it causes them to enter the Gnawed state, lasting for 10s. If any squad member triggers Assault on an enemy in the Gnawed state and causes the Flinch effect, the Flinch effect duration is extended by 5s. Assault DMG has a chance to trigger a critical hit against enemies in the Gnawed state, with a base CRIT Rate of 37% and CRIT DMG of 50%. Each point of Jane's Anomaly Proficiency further increases this CRIT Rate by 0.15%."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "When Jane's attacks hit an enemy, it causes them to enter the Gnawed state, lasting for 10s. If any squad member triggers Assault on an enemy in the Gnawed state and causes the Flinch effect, the Flinch effect duration is extended by 5s. Assault DMG has a chance to trigger a critical hit against enemies in the Gnawed state, with a base CRIT Rate of 40% and CRIT DMG of 50%. Each point of Jane's Anomaly Proficiency further increases this CRIT Rate by 0.16%."
+                  }
+                ]
+              },
+              {
+                "name": "Additional Ability: Sore Spot",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad is an Anomaly character or shares the same Faction:\nJane's Physical Anomaly Buildup Rate is increased by 20%. When the enemy is already suffering from an Attribute Anomaly, Jane's Physical Anomaly Buildup towards the target is increased by an additional 15%.",
+                "levels": []
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Crime Counsel",
+                "type": "Mindscape 1",
+                "desc": "The maximum uses of Basic Attack: Salchow Jump are increased by one. While in the Passion state, Jane's Physical Anomaly Buildup Rate increases by an extra 15% and each point of Jane's Anomaly Proficiency increases her DMG by 0.1%, up to a maximum increase of 30%."
+              },
+              {
+                "name": "Adapt to the Environment",
+                "type": "Mindscape 2",
+                "desc": "When Jane's attack hits an enemy in the Gnawed state, or when any squad member triggers Assault on an enemy in the Gnawed state, 15% of the enemy's DEF is ignored. Additionally, when Assault DMG triggers a critical hit, the CRIT DMG dealt is increased by an additional 50%."
+              },
+              {
+                "name": "Anonymity",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Adapt and Thrive",
+                "type": "Mindscape 4",
+                "desc": "When any squad member triggers the Assault or Disorder effects, all squad members' Attribute Anomaly DMG is increased by 18%, lasting 15s."
+              },
+              {
+                "name": "Compulsive Hoarder",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "\"Shady\" Technique",
+                "type": "Mindscape 6",
+                "desc": "While in the Passion state, Jane's CRIT Rate increases by 20%, and CRIT DMG by 40%. After any squad member inflicts Assault, Jane instantly enters the Passion state, and gains max Passion Stream. When that instance of Assault triggers a critical hit, Jane performs an additional attack on the target, dealing Physical DMG equal to 1,600% of her Anomaly Proficiency."
+              }
+            ]
+          }
+        ]
+      },
+      "req": {
+        "ascension": [
+          {
+            "id": "100213",
+            "name": "Basic Anomaly Certification Seal",
+            "qty": 4,
+            "rar": 1,
+            "kind": "gem",
+            "icon": "../../Database/GameData/zzz/assets/items/AvatarRankBuff01.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100223",
+            "name": "Advanced Anomaly Certification Seal",
+            "qty": 32,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/GameData/zzz/assets/items/AvatarRankBuff02.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100233",
+            "name": "Controller Certification Seal",
+            "qty": 30,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/GameData/zzz/assets/items/AvatarRankBuff03.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          }
+        ],
+        "talents": [
+          {
+            "id": "100110",
+            "name": "Basic Physical Chip",
+            "qty": 25,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100120",
+            "name": "Advanced Physical Chip",
+            "qty": 75,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys02.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100130",
+            "name": "Specialized Physical Chip",
+            "qty": 250,
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100941",
+            "name": "Hamster Cage Pass",
+            "qty": 5,
+            "rar": 5,
+            "kind": "crown",
+            "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
+            "source": "Event / New Eridu City Fund",
+            "sourceDetails": [
+              {
+                "name": "Event / New Eridu City Fund"
+              }
+            ]
+          },
+          {
+            "id": "110001",
+            "name": "Ferocious Grip",
+            "qty": 9,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss001.webp",
+            "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss001.webp",
+            "source": "Dead End Butcher",
+            "sourceDetails": [
+              {
+                "name": "Dead End Butcher",
+                "icon": "../../Database/GameData/zzz/assets/monsters/Monster_CottusGrey.webp"
+              }
+            ]
+          },
+          {
+            "id": "110506",
+            "name": "Higher Dimensional Data: Falling Fist",
+            "qty": 60,
+            "rar": 4,
+            "kind": "boss",
+            "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss006.webp",
+            "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss006.webp",
+            "source": "Hollow Thug - Rampant Brute / Expert Challenge",
+            "sourceDetails": [
+              {
+                "name": "Rampant Brute",
+                "icon": "../../Database/GameData/zzz/assets/monsters/Monster_DubiousHero.webp"
+              },
+              {
+                "name": "Expert Challenge"
+              }
+            ]
+          }
+        ],
+        "talentStages": [
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100110",
+                  "name": "Basic Physical Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100110",
+                  "name": "Basic Physical Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100120",
+                  "name": "Advanced Physical Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100120",
+                  "name": "Advanced Physical Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100120",
+                  "name": "Advanced Physical Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100120",
+                  "name": "Advanced Physical Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100130",
+                  "name": "Specialized Physical Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100130",
+                  "name": "Specialized Physical Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100130",
+                  "name": "Specialized Physical Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100130",
+                  "name": "Specialized Physical Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100130",
+                  "name": "Specialized Physical Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100110",
+                  "name": "Basic Physical Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100110",
+                  "name": "Basic Physical Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100120",
+                  "name": "Advanced Physical Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100120",
+                  "name": "Advanced Physical Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100120",
+                  "name": "Advanced Physical Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100120",
+                  "name": "Advanced Physical Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100130",
+                  "name": "Specialized Physical Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100130",
+                  "name": "Specialized Physical Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100130",
+                  "name": "Specialized Physical Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100130",
+                  "name": "Specialized Physical Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100130",
+                  "name": "Specialized Physical Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100110",
+                  "name": "Basic Physical Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100110",
+                  "name": "Basic Physical Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100120",
+                  "name": "Advanced Physical Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100120",
+                  "name": "Advanced Physical Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100120",
+                  "name": "Advanced Physical Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100120",
+                  "name": "Advanced Physical Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100130",
+                  "name": "Specialized Physical Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100130",
+                  "name": "Specialized Physical Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100130",
+                  "name": "Specialized Physical Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100130",
+                  "name": "Specialized Physical Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100130",
+                  "name": "Specialized Physical Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100110",
+                  "name": "Basic Physical Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100110",
+                  "name": "Basic Physical Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100120",
+                  "name": "Advanced Physical Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100120",
+                  "name": "Advanced Physical Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100120",
+                  "name": "Advanced Physical Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100120",
+                  "name": "Advanced Physical Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100130",
+                  "name": "Specialized Physical Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100130",
+                  "name": "Specialized Physical Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100130",
+                  "name": "Specialized Physical Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100130",
+                  "name": "Specialized Physical Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100130",
+                  "name": "Specialized Physical Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100110",
+                  "name": "Basic Physical Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100110",
+                  "name": "Basic Physical Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100120",
+                  "name": "Advanced Physical Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100120",
+                  "name": "Advanced Physical Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100120",
+                  "name": "Advanced Physical Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100120",
+                  "name": "Advanced Physical Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100130",
+                  "name": "Specialized Physical Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100130",
+                  "name": "Specialized Physical Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100130",
+                  "name": "Specialized Physical Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100130",
+                  "name": "Specialized Physical Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100130",
+                  "name": "Specialized Physical Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 5000,
+              "items": []
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "110506",
+                  "name": "Higher Dimensional Data: Falling Fist",
+                  "qty": 2,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss006.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss006.webp",
+                  "source": "Hollow Thug - Rampant Brute / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Rampant Brute",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_DubiousHero.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 28000,
+              "items": [
+                {
+                  "id": "110506",
+                  "name": "Higher Dimensional Data: Falling Fist",
+                  "qty": 4,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss006.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss006.webp",
+                  "source": "Hollow Thug - Rampant Brute / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Rampant Brute",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_DubiousHero.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 60000,
+              "items": [
+                {
+                  "id": "110001",
+                  "name": "Ferocious Grip",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss001.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss001.webp",
+                  "source": "Dead End Butcher",
+                  "sourceDetails": [
+                    {
+                      "name": "Dead End Butcher",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_CottusGrey.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "110506",
+                  "name": "Higher Dimensional Data: Falling Fist",
+                  "qty": 9,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss006.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss006.webp",
+                  "source": "Hollow Thug - Rampant Brute / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Rampant Brute",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_DubiousHero.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 100000,
+              "items": [
+                {
+                  "id": "110001",
+                  "name": "Ferocious Grip",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss001.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss001.webp",
+                  "source": "Dead End Butcher",
+                  "sourceDetails": [
+                    {
+                      "name": "Dead End Butcher",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_CottusGrey.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "110506",
+                  "name": "Higher Dimensional Data: Falling Fist",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss006.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss006.webp",
+                  "source": "Hollow Thug - Rampant Brute / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Rampant Brute",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_DubiousHero.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 200000,
+              "items": [
+                {
+                  "id": "110001",
+                  "name": "Ferocious Grip",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss001.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss001.webp",
+                  "source": "Dead End Butcher",
+                  "sourceDetails": [
+                    {
+                      "name": "Dead End Butcher",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_CottusGrey.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "110506",
+                  "name": "Higher Dimensional Data: Falling Fist",
+                  "qty": 30,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss006.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss006.webp",
+                  "source": "Hollow Thug - Rampant Brute / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Rampant Brute",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_DubiousHero.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        ],
+        "ascCost": 800000,
+        "talentCost": 2905000,
+        "currency": 4105000,
+        "weapon": {
+          "name": "Sharpened Stinger",
+          "icon": "../../Database/GameData/zzz/assets/w-engines/Weapon_S_1261.webp",
+          "art": "../../Database/GameData/zzz/assets/w-engines/Weapon_S_1261.webp",
+          "items": [
+            {
+              "id": "101012",
+              "name": "Anomaly Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/GameData/zzz/assets/items/WeaponRankBuff01.webp"
+            },
+            {
+              "id": "101022",
+              "name": "Reinforced Anomaly Component",
+              "qty": 32,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/GameData/zzz/assets/items/WeaponRankBuff02.webp"
+            },
+            {
+              "id": "101032",
+              "name": "Specialized Anomaly Component",
+              "qty": 30,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/GameData/zzz/assets/items/WeaponRankBuff03.webp"
+            }
+          ],
+          "cost": 400000
+        }
+      }
+    },
+    {
       "id": "zzz-ju-fufu",
       "n": "Ju Fufu",
       "localizedNames": {
@@ -57795,7 +60577,7 @@
       "slug": "ju-fufu",
       "release": 1750809600000,
       "releasePatch": "2.0",
-      "updated": 1781395200000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm6574991|Lindsay Sheppard",
@@ -60460,7 +63242,7 @@
       "slug": "koleda",
       "release": 1720051200000,
       "releasePatch": "1.0",
-      "updated": 1781395200000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm6634766|Emily Reams",
@@ -63099,7 +65881,7 @@
       "slug": "lighter",
       "release": 1732665600000,
       "releasePatch": "1.3",
-      "updated": 1781395200000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm8937582|Aleks Le",
@@ -65908,7 +68690,7 @@
       "slug": "lucia",
       "release": 1760486400000,
       "releasePatch": "2.3",
-      "updated": 1781395200000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm2917120|Nola Klop",
@@ -68581,7 +71363,7 @@
       "slug": "lycaon",
       "release": 1720051200000,
       "releasePatch": "1.0",
-      "updated": 1781395200000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm11814554|Will De Renzy-Martin",
@@ -71399,7 +74181,7 @@
       "slug": "miyabi",
       "release": 1734480000000,
       "releasePatch": "1.4",
-      "updated": 1781395200000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Cristina Vee",
@@ -73961,7 +76743,7 @@
       "title": "Patience of a Cat",
       "slug": "nekomata",
       "releasePatch": "1.0",
-      "updated": 1781395200000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "voiceActors": {
         "japanese": "Hara Sayuri (\u539f \u7d17\u53cb\u91cc)",
@@ -76420,7 +79202,7 @@
       "slug": "promeia",
       "release": 1778025600000,
       "releasePatch": "2.8",
-      "updated": 1781395200000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm4630205|Natalie Van Sistine",
@@ -79088,7 +81870,7 @@
       "slug": "qingyi",
       "release": 1723593600000,
       "releasePatch": "1.1",
-      "updated": 1781395200000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Kira Buckland",
@@ -81682,7 +84464,7 @@
       "slug": "rina",
       "release": 1720051200000,
       "releasePatch": "1.0",
-      "updated": 1781395200000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Morgan Laur\u00e9",
@@ -84037,7 +86819,7 @@
       "slug": "seed",
       "release": 1756951200000,
       "releasePatch": "2.2",
-      "updated": 1781395200000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Monica Rial",
@@ -86647,7 +89429,7 @@
       "slug": "soldier-11",
       "release": 1720051200000,
       "releasePatch": "1.0",
-      "updated": 1781395200000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "|voiceCN = https://mzh.moegirl.org.cn/zh-hans/\u9648\u96e8|Chen Yu (\u9648\u96e8)",
@@ -89381,7 +92163,7 @@
       "slug": "sunna",
       "release": 1770336000000,
       "releasePatch": "2.6",
-      "updated": 1781395200000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Alexis Tipton",
@@ -91915,7 +94697,7 @@
       "slug": "trigger",
       "release": 1743552000000,
       "releasePatch": "1.6",
-      "updated": 1781395200000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Erica Mendez",
@@ -94564,7 +97346,7 @@
       "slug": "yanagi",
       "release": 1730851200000,
       "releasePatch": "1.3",
-      "updated": 1781395200000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm7913831|Corey Pettit",
@@ -97198,7 +99980,7 @@
       "slug": "yidhari",
       "release": 1762300800000,
       "releasePatch": "2.3",
-      "updated": 1781395200000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm7336696|Katelyn Barr",
@@ -99963,7 +102745,7 @@
       "slug": "yixuan",
       "release": 1749168000000,
       "releasePatch": "2.0",
-      "updated": 1781395200000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "|voiceCN = https://mzh.moegirl.org.cn/zh-hans/\u5f20\u6631|Zhang Yu (\u5f20\u6631)",
@@ -102831,7 +105613,7 @@
       "slug": "ukinami-yuzuha",
       "release": 1752624000000,
       "releasePatch": "2.1",
-      "updated": 1781395200000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm6151726|Kimberly Tierney",
@@ -105606,7 +108388,7 @@
       "slug": "zhao",
       "release": 1767052800000,
       "releasePatch": "2.5",
-      "updated": 1781395200000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm11216308|Siv Ryan",
@@ -108123,7 +110905,7 @@
       "slug": "zhu-yuan",
       "release": 1721779200000,
       "releasePatch": "1.0",
-      "updated": 1781395200000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm10980156|Alaina Wis",
@@ -110776,7 +113558,7 @@
       "slug": "anby-demara",
       "release": 1720051200000,
       "releasePatch": "1.0",
-      "updated": 1781395200000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm7430885|Sam Slade",
@@ -113203,7 +115985,7 @@
       "slug": "anton",
       "release": 1720051200000,
       "releasePatch": "1.0",
-      "updated": 1781395200000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Alejandro Saab",
@@ -115878,7 +118660,7 @@
       "slug": "ben",
       "release": 1720051200000,
       "releasePatch": "1.0",
-      "updated": 1781395200000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm13407037|Henry Schrader",
@@ -118347,7 +121129,7 @@
       "slug": "billy-kid",
       "release": 1720051200000,
       "releasePatch": "1.0",
-      "updated": 1781395200000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Clifford Chapin",
@@ -120812,7 +123594,7 @@
       "slug": "corin",
       "release": 1720051200000,
       "releasePatch": "1.0",
-      "updated": 1781395200000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm9098554|Chloe Eves",
@@ -123348,7 +126130,7 @@
       "title": "Little Boars, Coming Right Up",
       "slug": "lucy",
       "releasePatch": "1.0",
-      "updated": 1781395200000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Courtney Lin"
@@ -126007,7 +128789,7 @@
       "slug": "manato",
       "release": 1760486400000,
       "releasePatch": "2.3",
-      "updated": 1781395200000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Ricco Fajardo",
@@ -128694,7 +131476,7 @@
       "slug": "nicole-demara",
       "release": 1720051200000,
       "releasePatch": "1.0",
-      "updated": 1781395200000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm11161667|Nadia Marshall",
@@ -131384,7 +134166,7 @@
       "slug": "pan-yinhu",
       "release": 1749168000000,
       "releasePatch": "2.0",
-      "updated": 1781395200000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm2296408|Philip Sacramento",
@@ -133879,7 +136661,7 @@
       "slug": "piper",
       "release": 1720051200000,
       "releasePatch": "1.0",
-      "updated": 1781395200000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Suzie Yeung",
@@ -136434,7 +139216,7 @@
       "slug": "pulchra",
       "release": 1741737600000,
       "releasePatch": "1.6",
-      "updated": 1781395200000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Marissa Lenti",
@@ -138849,7 +141631,7 @@
       "slug": "seth",
       "release": 1725408000000,
       "releasePatch": "1.1",
-      "updated": 1781395200000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm5941822|Nazeeh Tarsha",
@@ -141344,7 +144126,7 @@
       "slug": "soukaku",
       "release": 1720051200000,
       "releasePatch": "1.0",
-      "updated": 1781395200000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm9201772|Rogin Rashidan",
@@ -144055,7 +146837,7 @@
         "zh": "\u857e\u7c73\u57c3\u5c14"
       },
       "slug": "remielle",
-      "updated": 1778544000000,
+      "updated": 1778536800000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Amber Lee Connors",
@@ -144068,7 +146850,7 @@
       "labels": [
         "3.x"
       ],
-      "r": "A",
+      "r": "S",
       "el": "Lumiflux",
       "spec": "Anomaly",
       "tag": "Unknown",
@@ -146806,6 +149588,7 @@
         "Caesar",
         "Corin",
         "Dialyn",
+        "Jane Doe",
         "Nekomata",
         "Pan Yinhu",
         "Piper",
@@ -146872,7 +149655,7 @@
   ],
   "boss": {
     "title": "Notorious Hunt",
-    "count": 54
+    "count": 55
   },
   "bossGroups": [
     {
@@ -146967,6 +149750,7 @@
             "Anby",
             "Billy",
             "Ellen",
+            "Jane Doe",
             "Lucy",
             "Nekomata",
             "Nicole",
@@ -146978,6 +149762,7 @@
         "Anby",
         "Billy",
         "Ellen",
+        "Jane Doe",
         "Lucy",
         "Nekomata",
         "Nicole",
@@ -147312,6 +150097,7 @@
             "Anby",
             "Billy",
             "Ellen",
+            "Jane Doe",
             "Lucy",
             "Nekomata",
             "Nicole",

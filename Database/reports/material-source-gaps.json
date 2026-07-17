@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T16:08:08.439Z",
+  "generatedAt": "2026-07-17T11:11:29.768Z",
   "note": "Generic shops, crafting, exchanges, and event rewards are intentionally filtered. Rows here need scraper/wiki-specific source data.",
   "count": 214,
   "missing": [
@@ -467,7 +467,7 @@
     },
     {
       "game": "gi",
-      "context": "Traveler ascension",
+      "context": "Bennett ascension",
       "id": "100024",
       "name": "Windwheel Aster",
       "kind": "specialty"

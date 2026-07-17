@@ -3696,7 +3696,14 @@ function endfieldExplicitMaterialView(roster, { label, names, reqFields, source 
   groups.forEach((group) => group.chars.sort((a, b) => a.localeCompare(b)));
 
   const generatedCharacters = new Set(groups.flatMap((group) => group.chars));
-  const rosterCharacters = new Set((roster || []).map((ch) => ch.n));
+  // A freshly released operator whose wiki page has no materials yet (e.g. Liino,
+  // 2026-07) ships with an empty req — exempt it from the sourced-requirement
+  // check instead of failing the whole generation and keeping every complete
+  // operator off the site. Operators that DO carry requirements in these fields
+  // must still classify into a group.
+  const unfilled = (roster || []).filter((ch) => !reqFields.some((field) => (ch.req?.[field] || []).length)).map((ch) => ch.n);
+  if (unfilled.length) console.warn(`[endfield] ${label}: operator(s) without any sourced requirements (unfilled wiki page): ${unfilled.join(', ')}`);
+  const rosterCharacters = new Set((roster || []).filter((ch) => !unfilled.includes(ch.n)).map((ch) => ch.n));
   const missing = [...sourceCharacters].filter((name) => !generatedCharacters.has(name)).sort();
   const extra = [...generatedCharacters].filter((name) => !sourceCharacters.has(name)).sort();
   const withoutSourceRequirement = [...rosterCharacters].filter((name) => !sourceCharacters.has(name)).sort();
@@ -3795,7 +3802,8 @@ function buildEndfieldWeaponRoster() {
 }
 
 function buildEndfieldRoster() {
-  const src = exists('EndfieldWiki/endfield/characters.json')
+  const usingWiki = exists('EndfieldWiki/endfield/characters.json');
+  const src = usingWiki
     ? readJson('EndfieldWiki/endfield/characters.json')
     : readJson('Prydwen/endfield/characters.json');
   const wikiWeaponsByName = new Map(buildEndfieldWeaponRoster().map((weapon) => [normKey(weapon.name), weapon]));
@@ -3806,7 +3814,13 @@ function buildEndfieldRoster() {
     const skillItems = recommendedGear.length ? recommendedGear : endfieldItemsFromCharacter(ch, 'matskill', 'gear');
     const statItems = endfieldItemsFromCharacter(ch, 'matstats', 'gear');
     const signatureWeapon = endfieldSignatureWeapon(ch, recommendedWeapons, wikiWeaponsByName);
-    const reqBase = endfieldReqFromMaterials(ch.materials) || endfieldSharedReq();
+    // With the wiki source, an operator without scraped materials is a freshly
+    // released unit whose wiki page hasn't been filled in yet (e.g. Liino,
+    // 2026-07). Ship it with NO requirement — the estimated shared fallback
+    // would show invented numbers and fail the growth/progression material-view
+    // classification. The Prydwen fallback source has no materials at all, so it
+    // keeps the shared estimate.
+    const reqBase = endfieldReqFromMaterials(ch.materials) || (usingWiki ? null : endfieldSharedReq());
     const req = signatureWeapon ? {
       ...(reqBase || {}),
       weapon: {
@@ -3852,6 +3866,9 @@ function buildEndfieldRoster() {
         signatureWeaponName: signatureWeapon.name,
       } : {}),
       req,
+      // No requirement at all (unfilled wiki page): surface the roster's
+      // "no reliable material data" treatment instead of an empty ledger.
+      ...(reqBase ? {} : { reliableData: false }),
       aePreferredItems: preferredWeapons,
       aeSkillItems: skillItems.length ? skillItems : preferredWeapons,
       aeStatItems: statItems,

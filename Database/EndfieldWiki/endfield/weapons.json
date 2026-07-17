@@ -2,7 +2,7 @@
   "provider": "EndfieldWiki",
   "game": "endfield",
   "gameName": "Arknights: Endfield",
-  "scrapedAt": "2026-07-10T08:51:16.237Z",
+  "scrapedAt": "2026-07-17T11:15:12.999Z",
   "source": {
     "site": "endfield.wiki.gg",
     "api": "MediaWiki API rendered Weapon pages",
@@ -1319,6 +1319,107 @@
       ]
     },
     {
+      "id": "Farsight",
+      "name": "Farsight",
+      "pageName": "Farsight",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Farsight",
+      "rarity": 6,
+      "weaponType": "Sword",
+      "source": "Reward: Events",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/farsight/icon.png",
+        "url": "https://endfield.wiki.gg/images/Farsight_icon.png?73ffe7"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Tachyon_Screening_Lattice",
+          "count": 16
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Tachyon_Screening_Lattice",
+            "count": 16
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
       "id": "Flickers_in_the_Mist",
       "name": "Flickers in the Mist",
       "pageName": "Flickers_in_the_Mist",
@@ -1755,6 +1856,115 @@
       ]
     },
     {
+      "id": "Golden_Age",
+      "name": "Golden Age",
+      "pageName": "Golden_Age",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Golden_Age",
+      "rarity": 6,
+      "weaponType": "Polearm",
+      "source": "Reward: Protocol Pass",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/golden-age/icon.png",
+        "url": "https://endfield.wiki.gg/images/Golden_Age_icon.png?2182c0"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "Quadrant_Fitting_Fluid",
+          "count": 16
+        },
+        {
+          "id": "Wulingstone",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "Quadrant_Fitting_Fluid",
+            "count": 16
+          },
+          {
+            "id": "Wulingstone",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
       "id": "Grand_Vision",
       "name": "Grand Vision",
       "pageName": "Grand_Vision",
@@ -2072,6 +2282,115 @@
           },
           {
             "id": "Wulingstone",
+            "count": 8
+          },
+          {
+            "id": "T-Creds",
+            "count": 90000
+          }
+        ]
+      ]
+    },
+    {
+      "id": "Junction_Point",
+      "name": "Junction Point",
+      "pageName": "Junction_Point",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Junction_Point",
+      "rarity": 6,
+      "weaponType": "Arts Unit",
+      "source": "Reward: Protocol Pass",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/weapons/junction-point/icon.png",
+        "url": "https://endfield.wiki.gg/images/Junction_Point_icon.png?ae6679"
+      },
+      "materials": [
+        {
+          "id": "Cast_Die",
+          "count": 23
+        },
+        {
+          "id": "Kalkonyx",
+          "count": 3
+        },
+        {
+          "id": "T-Creds",
+          "count": 125700
+        },
+        {
+          "id": "Auronyx",
+          "count": 5
+        },
+        {
+          "id": "Heavy_Cast_Die",
+          "count": 50
+        },
+        {
+          "id": "Umbronyx",
+          "count": 5
+        },
+        {
+          "id": "D96_Steel_Sample_4",
+          "count": 16
+        },
+        {
+          "id": "Igneosite",
+          "count": 8
+        }
+      ],
+      "tuningStages": [
+        [
+          {
+            "id": "Cast_Die",
+            "count": 5
+          },
+          {
+            "id": "Kalkonyx",
+            "count": 3
+          },
+          {
+            "id": "T-Creds",
+            "count": 2200
+          }
+        ],
+        [
+          {
+            "id": "Cast_Die",
+            "count": 18
+          },
+          {
+            "id": "Auronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 8500
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 20
+          },
+          {
+            "id": "Umbronyx",
+            "count": 5
+          },
+          {
+            "id": "T-Creds",
+            "count": 25000
+          }
+        ],
+        [
+          {
+            "id": "Heavy_Cast_Die",
+            "count": 30
+          },
+          {
+            "id": "D96_Steel_Sample_4",
+            "count": 16
+          },
+          {
+            "id": "Igneosite",
             "count": 8
           },
           {

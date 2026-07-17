@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-07-17T11:11:29.770Z",
+  "generatedAt": "2026-07-17T11:20:02.490Z",
   "note": "Endfield recommendation records that still lack a local icon. Character upgrade requirements are sourced from EndfieldWiki material tables when available.",
-  "count": 0,
-  "missing": []
+  "count": 2,
+  "missing": [
+    {
+      "field": "aeSkillItems",
+      "name": "Wuling Explorer's Choice",
+      "kind": "weapon"
+    },
+    {
+      "field": "aePreferredItems",
+      "name": "Wuling Explorer's Choice",
+      "kind": "weapon"
+    }
+  ]
 }

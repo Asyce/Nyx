@@ -4,7 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-07-17T11:11:30.530Z",
+  "generatedAt": "2026-07-17T11:20:03.190Z",
   "codes": {
     "updated": "2026-07-17T00:07:09.260Z",
     "maxAgeDays": 28,
@@ -488,10 +488,10 @@ var NYX_DB = {
           "characters": [
             {
               "name": "Arcane",
-              "icon": "https://cdn.perlica.moe/images/operators/portraits/arcane.webp",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/operators/arcane/icon.png",
               "iconFallback": null,
               "iconZoom": false,
-              "art": "https://cdn.perlica.moe/images/operators/portraits/arcane.webp",
+              "art": "../../Database/EndfieldWiki/endfield/assets/operators/arcane/splash.png",
               "namecard": null,
               "rarity": 6
             }
@@ -505,10 +505,10 @@ var NYX_DB = {
           "characters": [
             {
               "name": "Liino",
-              "icon": "https://cdn.perlica.moe/images/operators/portraits/liino.webp",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/operators/liino/icon.png",
               "iconFallback": null,
               "iconZoom": false,
-              "art": "https://cdn.perlica.moe/images/operators/portraits/liino.webp",
+              "art": "../../Database/EndfieldWiki/endfield/assets/operators/liino/splash.png",
               "namecard": null,
               "rarity": 6
             }
@@ -161567,7 +161567,7 @@ var NYX_DB = {
     "ae": {
       "name": "Arknights: Endfield",
       "icon": "../assets/icon/aeicon.png",
-      "rosterCount": 28,
+      "rosterCount": 30,
       "collections": [
         {
           "key": "weapons",
@@ -165006,10 +165006,10 @@ var NYX_DB = {
           "characters": [
             {
               "name": "Arcane",
-              "icon": "https://cdn.perlica.moe/images/operators/portraits/arcane.webp",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/operators/arcane/icon.png",
               "iconFallback": null,
               "iconZoom": false,
-              "art": "https://cdn.perlica.moe/images/operators/portraits/arcane.webp",
+              "art": "../../Database/EndfieldWiki/endfield/assets/operators/arcane/splash.png",
               "namecard": null,
               "rarity": 6
             }
@@ -165023,10 +165023,10 @@ var NYX_DB = {
           "characters": [
             {
               "name": "Liino",
-              "icon": "https://cdn.perlica.moe/images/operators/portraits/liino.webp",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/operators/liino/icon.png",
               "iconFallback": null,
               "iconZoom": false,
-              "art": "https://cdn.perlica.moe/images/operators/portraits/liino.webp",
+              "art": "../../Database/EndfieldWiki/endfield/assets/operators/liino/splash.png",
               "namecard": null,
               "rarity": 6
             }
@@ -165036,6 +165036,22 @@ var NYX_DB = {
         "upcoming": []
       },
       "roster": [
+        {
+          "id": "ae-arcane",
+          "name": "Arcane",
+          "aliases": [],
+          "title": "Caster",
+          "rarity": 6,
+          "element": "Nature",
+          "role": "Caster",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/operators/arcane/icon.png",
+          "art": "../../Database/EndfieldWiki/endfield/assets/operators/arcane/splash.png",
+          "facts": {
+            "faction": "Hongshan Academy of Sciences (HAS)",
+            "birthday": "July 7"
+          },
+          "forms": []
+        },
         {
           "id": "ae-ardelia",
           "name": "Ardelia",
@@ -165186,6 +165202,21 @@ var NYX_DB = {
           "facts": {
             "faction": "Hongshan Academy of Sciences (HAS)",
             "birthday": "July 16"
+          },
+          "forms": []
+        },
+        {
+          "id": "ae-liino",
+          "name": "Liino",
+          "aliases": [],
+          "title": "Supporter",
+          "rarity": 6,
+          "element": "Electric",
+          "role": "Supporter",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/operators/liino/icon.png",
+          "art": "../../Database/EndfieldWiki/endfield/assets/operators/liino/splash.png",
+          "facts": {
+            "faction": "Talos-II General Chamber of Commerce"
           },
           "forms": []
         },

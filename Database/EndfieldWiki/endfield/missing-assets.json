@@ -1,9 +1,30 @@
 [
   {
+    "id": "arcane",
+    "name": "Arcane",
+    "kind": "portrait",
+    "wikiFile": "Arcane tooltip.png",
+    "reason": "Referenced file does not currently resolve through the wiki image API."
+  },
+  {
     "id": "camille",
     "name": "Camille",
     "kind": "portrait",
     "wikiFile": "Camille tooltip.png",
+    "reason": "Referenced file does not currently resolve through the wiki image API."
+  },
+  {
+    "id": "liino",
+    "name": "Liino",
+    "kind": "banner",
+    "wikiFile": "Liino Banner.png",
+    "reason": "Referenced file does not currently resolve through the wiki image API."
+  },
+  {
+    "id": "liino",
+    "name": "Liino",
+    "kind": "portrait",
+    "wikiFile": "Liino tooltip.png",
     "reason": "Referenced file does not currently resolve through the wiki image API."
   },
   {

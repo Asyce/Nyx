@@ -1,12 +1,12 @@
 {
   "provider": "EndfieldWiki",
   "game": "endfield",
-  "generatedAt": "2026-07-10T08:51:16.237Z",
+  "generatedAt": "2026-07-17T11:15:12.999Z",
   "counts": {
-    "characters": 29,
-    "charactersWithMaterials": 29,
-    "charactersMissingMaterials": 0,
-    "weapons": 70,
+    "characters": 31,
+    "charactersWithMaterials": 30,
+    "charactersMissingMaterials": 1,
+    "weapons": 73,
     "items": 28
   },
   "characters": [
@@ -97,6 +97,36 @@
       "counts": {
         "ascension": 8,
         "skill": 10,
+        "extras": 3
+      }
+    },
+    {
+      "id": "arcane",
+      "name": "Arcane",
+      "pageName": "Arcane",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Arcane",
+      "status": "ok",
+      "sections": {
+        "Promotion": {
+          "stages": 4,
+          "items": 12
+        },
+        "Skill_upgrades": {
+          "rows": 11,
+          "skillLevelStages": 8,
+          "skillMasteryStages": 3,
+          "items": 72
+        },
+        "Talent_upgrades": {
+          "items": 17
+        },
+        "Base_Skill_upgrades": {
+          "items": 8
+        }
+      },
+      "counts": {
+        "ascension": 7,
+        "skill": 9,
         "extras": 3
       }
     },
@@ -578,6 +608,36 @@
         "ascension": 8,
         "skill": 10,
         "extras": 3
+      }
+    },
+    {
+      "id": "liino",
+      "name": "Liino",
+      "pageName": "Liino",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Liino",
+      "status": "missing-materials",
+      "sections": {
+        "Promotion": {
+          "stages": 0,
+          "items": 0
+        },
+        "Skill_upgrades": {
+          "rows": 0,
+          "skillLevelStages": 0,
+          "skillMasteryStages": 0,
+          "items": 0
+        },
+        "Talent_upgrades": {
+          "items": 0
+        },
+        "Base_Skill_upgrades": {
+          "items": 0
+        }
+      },
+      "counts": {
+        "ascension": 0,
+        "skill": 0,
+        "extras": 0
       }
     },
     {

@@ -1139,11 +1139,11 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
 .gp-corner .tb-pengo.corner img{ height:40px; width:auto; display:block; transform:scaleX(-1); }
 .gp-corner .tb-pengo.corner:hover, .gp-corner .tb-pengo.corner.on{ transform:scale(1.06);
   filter:var(--nyx-compat-shadow-drop-ee53a56a3776); box-shadow:var(--nyx-compat-shadow-box-f170ab8396b6); }
-.gp-kofi{ flex:none; width:110px; height:30px; display:grid; place-items:center; border-radius:var(--nyx-radius-control); padding:var(--nyx-space-4) var(--nyx-space-10);
+.gp-kofi{ flex:none; width:118px; height:34px; display:grid; place-items:center; border-radius:var(--nyx-radius-control); padding:var(--nyx-space-4) var(--nyx-space-10);
   background:transparent; box-shadow:none;
   transition:transform .18s ease, box-shadow .18s ease, background .18s ease; }
 .gp-kofi:hover{ transform:translateY(-1px); background:var(--nyx-compat-color-acca2f28522d); box-shadow:var(--nyx-compat-shadow-box-ed8239814032); }
-.gp-kofi img{ width:90px; height:auto; max-height:20px; display:block; object-fit:contain; }
+.gp-kofi img{ width:100px; height:auto; max-height:24px; display:block; object-fit:contain; }
 .nyx-pengo-menu{ position:absolute; z-index:95; left:calc(100% + 14px); bottom:46px; width:388px; max-height:calc(100vh - 84px); overflow:visible;
   padding:var(--nyx-space-12) var(--nyx-space-14) var(--nyx-space-14); border-radius:var(--nyx-radius-card); color:var(--nyx-compat-color-hex-f5f0ff); font-family:var(--nyx-compat-family-bbbd64e38bdd); background:var(--nyx-compat-color-hex-1a0731);
   box-shadow:var(--nyx-compat-shadow-box-8fe6d8f12733);

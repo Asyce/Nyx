@@ -34,6 +34,40 @@ const dbDir = path.resolve(root, 'Database');
 const readJson = (rel) => JSON.parse(fs.readFileSync(path.resolve(dbDir, rel), 'utf8'));
 const exists = (rel) => fs.existsSync(path.resolve(dbDir, rel));
 
+const launcherContentOnly = process.argv.includes('--launcher-content-only');
+if (launcherContentOnly) {
+  const inputArg = process.argv.find((arg) => arg.startsWith('--launcher-content-input='));
+  const atArg = process.argv.find((arg) => arg.startsWith('--launcher-content-at='));
+  const inputPath = inputArg
+    ? path.resolve(inputArg.slice('--launcher-content-input='.length))
+    : path.resolve(dbDir, 'Banners', 'banners.json');
+  const at = atArg ? Date.parse(atArg.slice('--launcher-content-at='.length)) : Date.now();
+  if (!Number.isFinite(at)) throw new Error('Invalid launcher content generation time.');
+  const source = JSON.parse(fs.readFileSync(inputPath, 'utf8'));
+  const inspectArg = process.argv.find((arg) => arg.startsWith('--launcher-content-inspect='));
+  if (inspectArg) {
+    const inspected = inspectLauncherPhase(
+      source,
+      inspectArg.slice('--launcher-content-inspect='.length),
+      at,
+    );
+    process.stdout.write(JSON.stringify(inspected));
+    process.exit(0);
+  }
+  const output = buildLauncherContentSnapshot(source, at);
+  if (process.argv.includes('--launcher-content-stdout')) {
+    process.stdout.write(JSON.stringify(output));
+  } else {
+    fs.mkdirSync(generatedDataDir, { recursive: true });
+    fs.writeFileSync(
+      path.resolve(generatedDataDir, 'launcher-content-v1.json'),
+      JSON.stringify(output, null, 2) + '\n',
+      'utf8',
+    );
+  }
+  process.exit(0);
+}
+
 // Active GameData channel for character/material reads. 'live' by default; flipped to
 // 'beta' while building the beta delta. Item/avatar caches are keyed by channel so the
 // two passes never cross-contaminate. Assets live in a shared (channel-less) dir.
@@ -4773,6 +4807,111 @@ function buildBannersData(rosters) {
   return { updated: src.updated || src.generatedAt || null, checkedAt: src.checkedAt || null, games };
 }
 
+function launcherIso(value) {
+  if (!value || typeof value !== 'string') return null;
+  const timestamp = Date.parse(value);
+  return Number.isFinite(timestamp) && new Date(timestamp).toISOString() === value
+    ? { value, timestamp }
+    : null;
+}
+
+function launcherText(value, maximumLength) {
+  const text = String(value || '')
+    .replace(/<[^>]*>/g, '')
+    .replace(/[\u0000-\u001f\u007f]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+  return text ? text.slice(0, maximumLength) : '';
+}
+
+function launcherPhases(group) {
+  return [group?.current, group?.next, ...(Array.isArray(group?.upcoming) ? group.upcoming : [])]
+    .filter(Boolean)
+    .map((phase, index) => {
+      const start = launcherIso(phase.start);
+      const end = launcherIso(phase.end);
+      if (!end) return null;
+      return {
+        phase: launcherText(phase.phase, 48),
+        start: start?.timestamp ?? (index === 0 ? Number.NEGATIVE_INFINITY : null),
+        end: end.timestamp,
+        endIso: end.value,
+        names: (Array.isArray(phase.characters) ? phase.characters : [])
+          .map((character) => launcherText(character?.name ?? character, 48))
+          .filter(Boolean)
+          .slice(0, 3),
+      };
+    })
+    .filter((phase) => phase && phase.start !== null && phase.start < phase.end);
+}
+
+function selectLauncherPhase(group, now) {
+  const phases = launcherPhases(group);
+  const active = phases.filter((phase) => phase.start <= now && now < phase.end);
+  if (active.length > 1) return null;
+  if (active.length === 1) return active[0];
+  return phases
+    .filter((phase) => phase.start > now)
+    .sort((left, right) => left.start - right.start)[0] || null;
+}
+
+function inspectLauncherPhase(source, requestedId, now) {
+  const wanted = String(requestedId || '').toLowerCase().replace(/[^a-z0-9]+/g, '');
+  const group = (Array.isArray(source?.games) ? source.games : []).find((entry) =>
+    String(entry?.id || entry?.slug || entry?.name || '')
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, '') === wanted);
+  const phase = selectLauncherPhase(group, now);
+  return phase ? {
+    phase: phase.phase,
+    names: phase.names,
+    date: phase.endIso,
+  } : null;
+}
+
+function buildLauncherContentSnapshot(source, now = Date.now()) {
+  const canonical = new Map([
+    ['wuwa', 'wuwa'],
+    ['wutheringwaves', 'wuwa'],
+    ['endfield', 'ae'],
+    ['arknightsendfield', 'ae'],
+  ]);
+  const groups = new Map();
+  for (const group of Array.isArray(source?.games) ? source.games : []) {
+    const raw = String(group?.id || group?.slug || group?.name || '')
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, '');
+    const gameId = canonical.get(raw);
+    if (!gameId || groups.has(gameId)) continue;
+    groups.set(gameId, group);
+  }
+
+  const games = {};
+  for (const gameId of ['wuwa', 'ae']) {
+    const phase = selectLauncherPhase(groups.get(gameId), now);
+    const cards = [];
+    if (phase && phase.names.length) {
+      const label = phase.phase ? `${phase.phase}: ` : '';
+      cards.push({
+        id: `${gameId}-banner-${phase.endIso.slice(0, 10)}`,
+        type: 'banner',
+        title: launcherText(`${label}${phase.names.join(', ')}`, 120),
+        date: phase.endIso,
+      });
+    }
+    games[gameId] = {
+      source: 'Nyx banner snapshot',
+      cards,
+    };
+  }
+
+  return {
+    schemaVersion: 1,
+    generatedAt: new Date(now).toISOString(),
+    games,
+  };
+}
+
 function sourceMeta() {
   // Only ship the build timestamp to the client. Upstream data-provider version
   // info is intentionally not surfaced in the shipped payload.
@@ -4977,12 +5116,18 @@ fs.writeFileSync(
 const collections = buildCollections();
 const codes = buildCodesData();
 const banners = buildBannersData(rosters);
+const launcherContent = buildLauncherContentSnapshot(readJson('Banners/banners.json'), Date.now());
 const genshinTcgCards = buildGenshinTcgCards();
 const genshinFurniture = buildGenshinFurniture();
 const genshinWonderland = buildGenshinWonderland();
 const meta = sourceMeta();
 
 fs.mkdirSync(generatedDataDir, { recursive: true });
+fs.writeFileSync(
+  path.resolve(generatedDataDir, 'launcher-content-v1.json'),
+  JSON.stringify(launcherContent, null, 2) + '\n',
+  'utf8',
+);
 
 const cmHeader = `// ============================================================\n// Nyx - generated Character Materials data\n// Source: Database/Prydwen, Database/GameData, Database/EndfieldWiki\n// Generated by Site/tools/generate-site-data.mjs\n// ============================================================\n\n`;
 

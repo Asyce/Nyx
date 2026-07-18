@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T19:24:14.078Z",
+  "generatedAt": "2026-07-18T21:30:56.535Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,7 +9,7 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-07-18T19:24:14.078Z",
+      "lastSuccessfulFetch": "2026-07-18T21:30:22.827Z",
       "codes": [
         {
           "code": "PFY1S40I88T9",
@@ -51,7 +51,7 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-07-18T19:24:09.284Z",
+      "lastSuccessfulFetch": "2026-07-18T21:30:22.324Z",
       "codes": [
         {
           "code": "4TKSX77Y58QK",
@@ -176,7 +176,7 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-07-18T19:24:10.880Z",
+      "lastSuccessfulFetch": "2026-07-18T21:30:56.535Z",
       "codes": [
         {
           "code": "ROSCAELIFER0617",
@@ -239,11 +239,11 @@
         },
         {
           "code": "ZZZDREAMLAND",
-          "rewards": "",
+          "rewards": "Polychrome x 30, Denny x 6,666",
           "added": "2026-07-18",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZDREAMLAND",
           "hoyoVerified": true,
-          "premium": false,
+          "premium": true,
           "premium100": false,
           "cwSeen": false,
           "firstSeen": "2026-07-17T15:01:00.612Z"
@@ -292,7 +292,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-07-18T19:24:11.679Z",
+      "lastSuccessfulFetch": "2026-07-18T21:30:22.317Z",
       "codes": []
     },
     {
@@ -302,7 +302,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-07-18T19:24:13.278Z",
+      "lastSuccessfulFetch": "2026-07-18T21:30:22.291Z",
       "codes": [
         {
           "code": "ENDFIELDRENEW",

@@ -3,9 +3,9 @@
   "game": "endfield",
   "collection": "characters",
   "sourcePath": "/arknights-endfield/characters",
-  "scrapedAt": "2026-07-10T08:49:31.188Z",
-  "detailPagesTotal": 28,
-  "detailPagesScraped": 28,
+  "scrapedAt": "2026-07-18T07:14:17.186Z",
+  "detailPagesTotal": 31,
+  "detailPagesScraped": 31,
   "staleDetailPagesRemoved": 0,
   "items": [
     {
@@ -31,6 +31,16 @@
       "sourcePath": "/arknights-endfield/characters/antal",
       "contentStatus": "live",
       "statusLabels": []
+    },
+    {
+      "id": "arcane",
+      "slug": "arcane",
+      "name": "Arcane New",
+      "sourcePath": "/arknights-endfield/characters/arcane",
+      "contentStatus": "live",
+      "statusLabels": [
+        "New"
+      ]
     },
     {
       "id": "arclight",
@@ -59,12 +69,10 @@
     {
       "id": "camille",
       "slug": "camille",
-      "name": "Camille New",
+      "name": "Camille",
       "sourcePath": "/arknights-endfield/characters/camille",
       "contentStatus": "live",
-      "statusLabels": [
-        "New"
-      ]
+      "statusLabels": []
     },
     {
       "id": "catcher",
@@ -155,6 +163,16 @@
       "statusLabels": []
     },
     {
+      "id": "liino",
+      "slug": "liino",
+      "name": "Liino Soon",
+      "sourcePath": "/arknights-endfield/characters/liino",
+      "contentStatus": "beta",
+      "statusLabels": [
+        "Soon"
+      ]
+    },
+    {
       "id": "mi-fu",
       "slug": "mi-fu",
       "name": "Mi Fu",
@@ -185,6 +203,16 @@
       "sourcePath": "/arknights-endfield/characters/rossi",
       "contentStatus": "live",
       "statusLabels": []
+    },
+    {
+      "id": "si",
+      "slug": "si",
+      "name": "Si Soon",
+      "sourcePath": "/arknights-endfield/characters/si",
+      "contentStatus": "beta",
+      "statusLabels": [
+        "Soon"
+      ]
     },
     {
       "id": "snowshine",

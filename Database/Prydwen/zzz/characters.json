@@ -29,7 +29,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 48
+    "assetCount": 47
   },
   {
     "id": "anby-demara",
@@ -157,7 +157,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 44
+    "assetCount": 42
   },
   {
     "id": "astra-yao",
@@ -188,7 +188,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 59
+    "assetCount": 55
   },
   {
     "id": "banyue",
@@ -220,7 +220,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 42
+    "assetCount": 38
   },
   {
     "id": "ben",
@@ -316,7 +316,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 50
+    "assetCount": 52
   },
   {
     "id": "burnice",
@@ -380,7 +380,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 59
+    "assetCount": 56
   },
   {
     "id": "cissia",
@@ -412,7 +412,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 47
+    "assetCount": 46
   },
   {
     "id": "claret",
@@ -568,7 +568,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 44
+    "assetCount": 42
   },
   {
     "id": "grace-howard",
@@ -600,7 +600,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 47
+    "assetCount": 49
   },
   {
     "id": "harumasa",
@@ -728,7 +728,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 53
+    "assetCount": 54
   },
   {
     "id": "koleda",
@@ -760,7 +760,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 47
+    "assetCount": 46
   },
   {
     "id": "lighter",
@@ -792,7 +792,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 50
+    "assetCount": 51
   },
   {
     "id": "lucia",
@@ -856,7 +856,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 48
+    "assetCount": 47
   },
   {
     "id": "lycaon",
@@ -867,7 +867,7 @@
     "sourcePath": "/zenless/characters/lycaon",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "14/June/2026",
+    "updatedText": "17/July/2026",
     "facts": {
       "attribute": "Ice",
       "specialty": "Stun",
@@ -888,7 +888,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 53
+    "assetCount": 54
   },
   {
     "id": "manato",
@@ -984,7 +984,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 50
+    "assetCount": 51
   },
   {
     "id": "nekomata",
@@ -1048,7 +1048,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 58
+    "assetCount": 53
   },
   {
     "id": "norma",
@@ -1206,7 +1206,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 46
+    "assetCount": 47
   },
   {
     "id": "promeia",
@@ -1269,7 +1269,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 53
+    "assetCount": 52
   },
   {
     "id": "pyrois",
@@ -1301,7 +1301,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 33
+    "assetCount": 34
   },
   {
     "id": "qingyi",
@@ -1333,7 +1333,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 48
+    "assetCount": 47
   },
   {
     "id": "remielle",
@@ -1346,11 +1346,12 @@
     "statusLabels": [
       "3.x"
     ],
-    "updatedText": "12/May/2026",
+    "updatedText": "17/July/2026",
     "facts": {
       "attribute": "Unknown",
-      "specialty": "Unknown",
-      "faction": "Unknown"
+      "specialty": "Anomaly",
+      "faction": "Unknown",
+      "rarity": "S"
     },
     "art": {
       "card": "Prydwen/zzz/assets/characters/remielle-card-e8b52d52cf40.webp"
@@ -1361,7 +1362,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 1
+    "assetCount": 3
   },
   {
     "id": "rina",
@@ -1393,7 +1394,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 40
+    "assetCount": 44
   },
   {
     "id": "roxy",
@@ -1453,7 +1454,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 52
+    "assetCount": 53
   },
   {
     "id": "seth",
@@ -1606,7 +1607,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 45
+    "assetCount": 47
   },
   {
     "id": "sunbringer",
@@ -1665,7 +1666,7 @@
       "skill-priority",
       "synergy"
     ],
-    "assetCount": 49
+    "assetCount": 47
   },
   {
     "id": "the-storyteller",
@@ -1821,7 +1822,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 47
+    "assetCount": 46
   },
   {
     "id": "ye-shunguang",
@@ -1980,7 +1981,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 48
+    "assetCount": 50
   },
   {
     "id": "zhu-yuan",
@@ -2012,6 +2013,6 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 44
+    "assetCount": 45
   }
 ]

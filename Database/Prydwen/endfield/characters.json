@@ -82,6 +82,32 @@
     "assetCount": 19
   },
   {
+    "id": "arcane",
+    "provider": "Prydwen",
+    "game": "endfield",
+    "name": "Arcane",
+    "slug": "arcane",
+    "sourcePath": "/arknights-endfield/characters/arcane",
+    "contentStatus": "live",
+    "statusLabels": [
+      "New"
+    ],
+    "updatedText": "16/July/2026",
+    "facts": {},
+    "art": {
+      "card": "Prydwen/endfield/assets/characters/arcane-card-f6342e13426a.webp",
+      "full": "Prydwen/endfield/assets/characters/arcane-full-illustration-ed1ff0ed724f.webp",
+      "icon": "Prydwen/endfield/assets/characters/perlica-34393427391b.webp"
+    },
+    "pageFile": "Prydwen/endfield/pages/characters/arcane.json",
+    "recommendationSections": [
+      "best-teams",
+      "best-weapons",
+      "best-gear"
+    ],
+    "assetCount": 34
+  },
+  {
     "id": "arclight",
     "provider": "Prydwen",
     "game": "endfield",
@@ -171,10 +197,8 @@
     "slug": "camille",
     "sourcePath": "/arknights-endfield/characters/camille",
     "contentStatus": "live",
-    "statusLabels": [
-      "New"
-    ],
-    "updatedText": "30/June/2026",
+    "statusLabels": [],
+    "updatedText": "16/July/2026",
     "facts": {
       "rarity": 6,
       "weapon": "Polearm",
@@ -192,7 +216,7 @@
       "best-weapons",
       "best-gear"
     ],
-    "assetCount": 23
+    "assetCount": 27
   },
   {
     "id": "catcher",
@@ -319,7 +343,7 @@
     "sourcePath": "/arknights-endfield/characters/endministrator",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "14/June/2026",
+    "updatedText": "15/July/2026",
     "facts": {
       "rarity": 6,
       "weapon": "Sword",
@@ -477,7 +501,7 @@
       "best-weapons",
       "best-gear"
     ],
-    "assetCount": 45
+    "assetCount": 46
   },
   {
     "id": "lifeng",
@@ -507,6 +531,36 @@
       "best-gear"
     ],
     "assetCount": 51
+  },
+  {
+    "id": "liino",
+    "provider": "Prydwen",
+    "game": "endfield",
+    "name": "Liino",
+    "slug": "liino",
+    "sourcePath": "/arknights-endfield/characters/liino",
+    "contentStatus": "beta",
+    "statusLabels": [
+      "Soon"
+    ],
+    "updatedText": "16/July/2026",
+    "facts": {
+      "rarity": 6,
+      "weapon": "Polearm",
+      "class": "Supporter",
+      "element": "Electric"
+    },
+    "art": {
+      "card": "Prydwen/endfield/assets/characters/liino-card-46712342b038.webp",
+      "full": "Prydwen/endfield/assets/characters/liino-full-illustration-a88184098f8f.webp"
+    },
+    "pageFile": "Prydwen/endfield/pages/characters/liino.json",
+    "recommendationSections": [
+      "best-teams",
+      "best-weapons",
+      "best-gear"
+    ],
+    "assetCount": 2
   },
   {
     "id": "mi-fu",
@@ -620,6 +674,36 @@
     "assetCount": 44
   },
   {
+    "id": "si",
+    "provider": "Prydwen",
+    "game": "endfield",
+    "name": "Si",
+    "slug": "si",
+    "sourcePath": "/arknights-endfield/characters/si",
+    "contentStatus": "beta",
+    "statusLabels": [
+      "Soon"
+    ],
+    "updatedText": "17/July/2026",
+    "facts": {
+      "rarity": 6,
+      "weapon": "Unknown",
+      "class": "Unknown",
+      "element": "Unknown"
+    },
+    "art": {
+      "card": "Prydwen/endfield/assets/characters/si-card-701af3cf52e7.webp",
+      "full": "Prydwen/endfield/assets/characters/si-full-illustration-d55b40ef1180.webp"
+    },
+    "pageFile": "Prydwen/endfield/pages/characters/si.json",
+    "recommendationSections": [
+      "best-teams",
+      "best-weapons",
+      "best-gear"
+    ],
+    "assetCount": 2
+  },
+  {
     "id": "snowshine",
     "provider": "Prydwen",
     "game": "endfield",
@@ -728,7 +812,7 @@
       "best-weapons",
       "best-gear"
     ],
-    "assetCount": 25
+    "assetCount": 24
   },
   {
     "id": "yvonne",
@@ -757,7 +841,7 @@
       "best-weapons",
       "best-gear"
     ],
-    "assetCount": 51
+    "assetCount": 52
   },
   {
     "id": "zhuang-fangyi",

@@ -11,7 +11,7 @@
   "sourcePath": "/zenless/characters/astra-yao",
   "contentStatus": "live",
   "statusLabels": [],
-  "scrapedAt": "2026-07-10T08:49:31.188Z",
+  "scrapedAt": "2026-07-18T07:14:17.186Z",
   "updatedText": "14/June/2026",
   "meta": {
     "title": "Astra Yao Best Build Guide | Zenless Zone Zero",
@@ -455,52 +455,22 @@
       "height": 60
     },
     {
-      "id": "98d8d659c143",
-      "sourceHash": "98d8d659c143",
-      "kind": "characters",
-      "name": "Astra Yao",
-      "fileStem": "astra-yao",
-      "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "e8a1e5a4346f",
-      "sourceHash": "e8a1e5a4346f",
-      "kind": "characters",
-      "name": "Zhao",
-      "fileStem": "zhao",
-      "path": "Prydwen/zzz/assets/characters/zhao-e8a1e5a4346f.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "5b1302d794ba",
-      "sourceHash": "5b1302d794ba",
-      "kind": "characters",
-      "name": "Dialyn",
-      "fileStem": "dialyn",
-      "path": "Prydwen/zzz/assets/characters/dialyn-5b1302d794ba.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "118e26488ea7",
-      "sourceHash": "118e26488ea7",
-      "kind": "characters",
-      "name": "Lighter",
-      "fileStem": "lighter",
-      "path": "Prydwen/zzz/assets/characters/lighter-118e26488ea7.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
       "id": "2541747ebcdb",
       "sourceHash": "2541747ebcdb",
       "kind": "characters",
       "name": "Nangong Yu",
       "fileStem": "nangong-yu",
       "path": "Prydwen/zzz/assets/characters/nangong-yu-2541747ebcdb.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "98d8d659c143",
+      "sourceHash": "98d8d659c143",
+      "kind": "characters",
+      "name": "Astra Yao",
+      "fileStem": "astra-yao",
+      "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
       "width": 60,
       "height": 60
     },
@@ -515,52 +485,12 @@
       "height": 60
     },
     {
-      "id": "9746a8e7a1a4",
-      "sourceHash": "9746a8e7a1a4",
+      "id": "e8a1e5a4346f",
+      "sourceHash": "e8a1e5a4346f",
       "kind": "characters",
-      "name": "Cissia",
-      "fileStem": "cissia",
-      "path": "Prydwen/zzz/assets/characters/cissia-9746a8e7a1a4.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "3e8d48ac0bd4",
-      "sourceHash": "3e8d48ac0bd4",
-      "kind": "characters",
-      "name": "Ju Fufu",
-      "fileStem": "ju-fufu",
-      "path": "Prydwen/zzz/assets/characters/ju-fufu-3e8d48ac0bd4.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "53300a2a5c70",
-      "sourceHash": "53300a2a5c70",
-      "kind": "characters",
-      "name": "Yixuan",
-      "fileStem": "yixuan",
-      "path": "Prydwen/zzz/assets/characters/yixuan-53300a2a5c70.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "7557c8060dc2",
-      "sourceHash": "7557c8060dc2",
-      "kind": "characters",
-      "name": "Lucia",
-      "fileStem": "lucia",
-      "path": "Prydwen/zzz/assets/characters/lucia-7557c8060dc2.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "cacf856bd725",
-      "sourceHash": "cacf856bd725",
-      "kind": "characters",
-      "name": "Orphie & Magus",
-      "fileStem": "orphie-and-magus",
-      "path": "Prydwen/zzz/assets/characters/orphie-magus-cacf856bd725.webp",
+      "name": "Zhao",
+      "fileStem": "zhao",
+      "path": "Prydwen/zzz/assets/characters/zhao-e8a1e5a4346f.webp",
       "width": 60,
       "height": 60
     },
@@ -571,6 +501,56 @@
       "name": "Pyrois",
       "fileStem": "pyrois",
       "path": "Prydwen/zzz/assets/characters/pyrois-08a137fda00f.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "5b1302d794ba",
+      "sourceHash": "5b1302d794ba",
+      "kind": "characters",
+      "name": "Dialyn",
+      "fileStem": "dialyn",
+      "path": "Prydwen/zzz/assets/characters/dialyn-5b1302d794ba.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "d6ce03b535c6",
+      "sourceHash": "d6ce03b535c6",
+      "kind": "characters",
+      "name": "Velina",
+      "fileStem": "velina",
+      "path": "Prydwen/zzz/assets/characters/velina-d6ce03b535c6.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "9746a8e7a1a4",
+      "sourceHash": "9746a8e7a1a4",
+      "kind": "characters",
+      "name": "Cissia",
+      "fileStem": "cissia",
+      "path": "Prydwen/zzz/assets/characters/cissia-9746a8e7a1a4.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "07290ab47d04",
+      "sourceHash": "07290ab47d04",
+      "kind": "characters",
+      "name": "Promeia",
+      "fileStem": "promeia",
+      "path": "Prydwen/zzz/assets/characters/promeia-07290ab47d04.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "118e26488ea7",
+      "sourceHash": "118e26488ea7",
+      "kind": "characters",
+      "name": "Lighter",
+      "fileStem": "lighter",
+      "path": "Prydwen/zzz/assets/characters/lighter-118e26488ea7.webp",
       "width": 60,
       "height": 60
     },
@@ -591,26 +571,6 @@
       "name": "Sunna",
       "fileStem": "sunna",
       "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "07290ab47d04",
-      "sourceHash": "07290ab47d04",
-      "kind": "characters",
-      "name": "Promeia",
-      "fileStem": "promeia",
-      "path": "Prydwen/zzz/assets/characters/promeia-07290ab47d04.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "d6ce03b535c6",
-      "sourceHash": "d6ce03b535c6",
-      "kind": "characters",
-      "name": "Velina",
-      "fileStem": "velina",
-      "path": "Prydwen/zzz/assets/characters/velina-d6ce03b535c6.webp",
       "width": 60,
       "height": 60
     }
@@ -972,7 +932,7 @@
       "id": "best-w-engines-24",
       "level": 2,
       "heading": "Best W-Engines",
-      "text": "The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 1\n\n Elegant Vanity (S 1 )\n\n Astra's Signature and one of multiple of her top choices. Provides an excellent amount of ATK% to assist with capping out the buff from her Core Passive, 5 extra Energy any time any squadmate performs a Quick Assist, Chain Attack, Defensive Assist or Evasive Assist (With Astra's kit this is constantly), granting her a tonne of extra energy and finally an up to 20% team wide DMG% boost she can maintain indefinitely. Astra's Signature is her best option in many cases but under ideal gearing scenarios is closer than you might expect to alternatives sometimes - even being beaten out by them in raw buffing capabilities in some teams. Because of this, Astra's signature is not as integral to her gameplay as many other characters making it a luxury and not a necessity.\n Usage: 31.31 %\n Shiyu Defense: 29292\n Deadly Assault: 24590\n\n 2\n\n Bashful Demon (S 5 )\n\n Soukaku's Signature at maximum rank is a very competitive option for Astra, due to its excellent team-wide buffs and stats. Bashful Demon grants Astra ATK% for her Core Passive and an up to 12.8% Combat ATK buff for the whole team. The Combat ATK buff of this engine is usually hard to keep active but Astra can build a stack of its effect each time she triggers her Tremelo, making it no issue with correct Quick Assist management. Lacks the energy recovery of some other options, but offers some of the best team buffing and consistency of all W-Engine choices.\n Usage: 25.01 %\n Shiyu Defense: 28537\n Deadly Assault: 23427\n\n 3\n\n Kaboom the Cannon (S 5 )\n\n Lucy's Signature at maximum rank is also a solid option thanks to its Energy Regen bonus and team ATK increase. Kaboom Cannon grants Astra 50% Energy Regen and an up to 12% Combat ATK buff for the whole team but with some restrictions. Kaboom requires each team member hit the enemy once every 4 seconds to maintain full effect. Astra's Tremelo counts toward this but you'll still need to ensure you manage your Quick Assists effectively and continually swap between characters to ensure maximum uptime. The W-Engine ss missing an ATK% main stat, putting more pressure on other areas of Astra's build when hitting her Core Passive cap. Also harder to fully maintain its team wide buffing effect.\n Usage: 34.07 %\n Shiyu Defense: 30193\n Deadly Assault: 24787\n\n 4\n\n The Vault (S 5 )\n\n Nicole's Signature at maximum rank is a usable but not perfect Engine for Astra. The Vault grants her 50% Energy Regen and a combat trigger that occurs whenever her Chain Attack, Tremelo or Ultimate deals damage to an enemy. This trigger will increase her Energy Regen by 0.8/s and her teams damage against the struck target by 24% both for 2 seconds. This Engine has everything Astra wants except for ATK, but requires careful management and team play for it to perform well against alternatives given its incredibly short 2 second duration.\n Usage: 6.66 %\n Shiyu Defense: 27965\n Deadly Assault: 22740",
+      "text": "The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 1\n\n Elegant Vanity (S 1 )\n\n Astra's Signature and one of multiple of her top choices. Provides an excellent amount of ATK% to assist with capping out the buff from her Core Passive, 5 extra Energy any time any squadmate performs a Quick Assist, Chain Attack, Defensive Assist or Evasive Assist (With Astra's kit this is constantly), granting her a tonne of extra energy and finally an up to 20% team wide DMG% boost she can maintain indefinitely. Astra's Signature is her best option in many cases but under ideal gearing scenarios is closer than you might expect to alternatives sometimes - even being beaten out by them in raw buffing capabilities in some teams. Because of this, Astra's signature is not as integral to her gameplay as many other characters making it a luxury and not a necessity.\n Usage: 31.07 %\n Shiyu Defense: 31671\n Deadly Assault: 24590\n\n 2\n\n Bashful Demon (S 5 )\n\n Soukaku's Signature at maximum rank is a very competitive option for Astra, due to its excellent team-wide buffs and stats. Bashful Demon grants Astra ATK% for her Core Passive and an up to 12.8% Combat ATK buff for the whole team. The Combat ATK buff of this engine is usually hard to keep active but Astra can build a stack of its effect each time she triggers her Tremelo, making it no issue with correct Quick Assist management. Lacks the energy recovery of some other options, but offers some of the best team buffing and consistency of all W-Engine choices.\n Usage: 25.81 %\n Shiyu Defense: 30711\n Deadly Assault: 23427\n\n 3\n\n Kaboom the Cannon (S 5 )\n\n Lucy's Signature at maximum rank is also a solid option thanks to its Energy Regen bonus and team ATK increase. Kaboom Cannon grants Astra 50% Energy Regen and an up to 12% Combat ATK buff for the whole team but with some restrictions. Kaboom requires each team member hit the enemy once every 4 seconds to maintain full effect. Astra's Tremelo counts toward this but you'll still need to ensure you manage your Quick Assists effectively and continually swap between characters to ensure maximum uptime. The W-Engine ss missing an ATK% main stat, putting more pressure on other areas of Astra's build when hitting her Core Passive cap. Also harder to fully maintain its team wide buffing effect.\n Usage: 33.38 %\n Shiyu Defense: 32024\n Deadly Assault: 24787\n\n 4\n\n The Vault (S 5 )\n\n Nicole's Signature at maximum rank is a usable but not perfect Engine for Astra. The Vault grants her 50% Energy Regen and a combat trigger that occurs whenever her Chain Attack, Tremelo or Ultimate deals damage to an enemy. This trigger will increase her Energy Regen by 0.8/s and her teams damage against the struck target by 24% both for 2 seconds. This Engine has everything Astra wants except for ATK, but requires careful management and team play for it to perform well against alternatives given its incredibly short 2 second duration.\n Usage: 6.98 %\n Shiyu Defense: 29112\n Deadly Assault: 22740",
       "assets": [
         {
           "id": "e497f030f7a2",
@@ -1292,68 +1252,8 @@
       "id": "teams-shiyu-defense-33",
       "level": 2,
       "heading": "Teams (Shiyu Defense)",
-      "text": "This section lists most popular teams featuring Astra Yao in the current phase of Shiyu Defense.\n Rank 10\n App. rate: 6.79 %\n Avg. time: 32016\n\n Rank 13\n App. rate: 3.73 %\n Avg. time: 27949\n\n Rank 16\n App. rate: 3.26 %\n Avg. time: 27203\n\n Rank 17\n App. rate: 3.02 %\n Avg. time: 32350\n\n Rank 21\n App. rate: 2.14 %\n Avg. time: 27681\n\n Rank 22\n App. rate: 2.13 %\n Avg. time: 28309\n\n Rank 23\n App. rate: 1.98 %\n Avg. time: 31182\n\n Rank 34\n App. rate: 0.99 %\n Avg. time: 26545\n\n Rank 35\n App. rate: 0.93 %\n Avg. time: 27525\n\n Rank 45\n App. rate: 0.66 %\n Avg. time: 29461",
+      "text": "This section lists most popular teams featuring Astra Yao in the current phase of Shiyu Defense.\n Rank 6\n App. rate: 12.88 %\n Avg. time: 32829\n\n Rank 12\n App. rate: 7.14 %\n Avg. time: 30326\n\n Rank 13\n App. rate: 4.96 %\n Avg. time: 30788\n\n Rank 16\n App. rate: 3.96 %\n Avg. time: 30781\n\n Rank 20\n App. rate: 2.31 %\n Avg. time: 25791\n\n Rank 23\n App. rate: 1.57 %\n Avg. time: 29841\n\n Rank 32\n App. rate: 0.98 %\n Avg. time: 32609\n\n Rank 33\n App. rate: 0.97 %\n Avg. time: 32533\n\n Rank 35\n App. rate: 0.94 %\n Avg. time: 30507\n\n Rank 37\n App. rate: 0.87 %\n Avg. time: 31738",
       "assets": [
-        {
-          "id": "5887e20e4502",
-          "sourceHash": "5887e20e4502",
-          "kind": "characters",
-          "name": "Ye Shunguang",
-          "fileStem": "ye-shunguang",
-          "path": "Prydwen/zzz/assets/characters/ye-shunguang-5887e20e4502.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "98d8d659c143",
-          "sourceHash": "98d8d659c143",
-          "kind": "characters",
-          "name": "Astra Yao",
-          "fileStem": "astra-yao",
-          "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "e8a1e5a4346f",
-          "sourceHash": "e8a1e5a4346f",
-          "kind": "characters",
-          "name": "Zhao",
-          "fileStem": "zhao",
-          "path": "Prydwen/zzz/assets/characters/zhao-e8a1e5a4346f.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "6dcc7426ba11",
-          "sourceHash": "6dcc7426ba11",
-          "kind": "characters",
-          "name": "Evelyn",
-          "fileStem": "evelyn",
-          "path": "Prydwen/zzz/assets/characters/evelyn-6dcc7426ba11.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "5b1302d794ba",
-          "sourceHash": "5b1302d794ba",
-          "kind": "characters",
-          "name": "Dialyn",
-          "fileStem": "dialyn",
-          "path": "Prydwen/zzz/assets/characters/dialyn-5b1302d794ba.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "118e26488ea7",
-          "sourceHash": "118e26488ea7",
-          "kind": "characters",
-          "name": "Lighter",
-          "fileStem": "lighter",
-          "path": "Prydwen/zzz/assets/characters/lighter-118e26488ea7.webp",
-          "width": 60,
-          "height": 60
-        },
         {
           "id": "bf8821af9328",
           "sourceHash": "bf8821af9328",
@@ -1375,12 +1275,12 @@
           "height": 60
         },
         {
-          "id": "79ca38737857",
-          "sourceHash": "79ca38737857",
+          "id": "98d8d659c143",
+          "sourceHash": "98d8d659c143",
           "kind": "characters",
-          "name": "Yanagi",
-          "fileStem": "yanagi",
-          "path": "Prydwen/zzz/assets/characters/yanagi-79ca38737857.webp",
+          "name": "Astra Yao",
+          "fileStem": "astra-yao",
+          "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
           "width": 60,
           "height": 60
         },
@@ -1391,6 +1291,76 @@
           "name": "Vivian",
           "fileStem": "vivian",
           "path": "Prydwen/zzz/assets/characters/vivian-e33ff79684e5.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "5887e20e4502",
+          "sourceHash": "5887e20e4502",
+          "kind": "characters",
+          "name": "Ye Shunguang",
+          "fileStem": "ye-shunguang",
+          "path": "Prydwen/zzz/assets/characters/ye-shunguang-5887e20e4502.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e8a1e5a4346f",
+          "sourceHash": "e8a1e5a4346f",
+          "kind": "characters",
+          "name": "Zhao",
+          "fileStem": "zhao",
+          "path": "Prydwen/zzz/assets/characters/zhao-e8a1e5a4346f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "79ca38737857",
+          "sourceHash": "79ca38737857",
+          "kind": "characters",
+          "name": "Yanagi",
+          "fileStem": "yanagi",
+          "path": "Prydwen/zzz/assets/characters/yanagi-79ca38737857.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "08a137fda00f",
+          "sourceHash": "08a137fda00f",
+          "kind": "characters",
+          "name": "Pyrois",
+          "fileStem": "pyrois",
+          "path": "Prydwen/zzz/assets/characters/pyrois-08a137fda00f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "5b1302d794ba",
+          "sourceHash": "5b1302d794ba",
+          "kind": "characters",
+          "name": "Dialyn",
+          "fileStem": "dialyn",
+          "path": "Prydwen/zzz/assets/characters/dialyn-5b1302d794ba.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "7a4ba5242a6c",
+          "sourceHash": "7a4ba5242a6c",
+          "kind": "characters",
+          "name": "Jane Doe",
+          "fileStem": "jane-doe",
+          "path": "Prydwen/zzz/assets/characters/jane-doe-7a4ba5242a6c.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d6ce03b535c6",
+          "sourceHash": "d6ce03b535c6",
+          "kind": "characters",
+          "name": "Velina",
+          "fileStem": "velina",
+          "path": "Prydwen/zzz/assets/characters/velina-d6ce03b535c6.webp",
           "width": 60,
           "height": 60
         },
@@ -1415,52 +1385,32 @@
           "height": 60
         },
         {
-          "id": "3e8d48ac0bd4",
-          "sourceHash": "3e8d48ac0bd4",
+          "id": "07290ab47d04",
+          "sourceHash": "07290ab47d04",
           "kind": "characters",
-          "name": "Ju Fufu",
-          "fileStem": "ju-fufu",
-          "path": "Prydwen/zzz/assets/characters/ju-fufu-3e8d48ac0bd4.webp",
+          "name": "Promeia",
+          "fileStem": "promeia",
+          "path": "Prydwen/zzz/assets/characters/promeia-07290ab47d04.webp",
           "width": 60,
           "height": 60
         },
         {
-          "id": "53300a2a5c70",
-          "sourceHash": "53300a2a5c70",
+          "id": "ad063e072375",
+          "sourceHash": "ad063e072375",
           "kind": "characters",
-          "name": "Yixuan",
-          "fileStem": "yixuan",
-          "path": "Prydwen/zzz/assets/characters/yixuan-53300a2a5c70.webp",
+          "name": "Nicole",
+          "fileStem": "nicole-demara",
+          "path": "Prydwen/zzz/assets/characters/nicole-ad063e072375.webp",
           "width": 60,
           "height": 60
         },
         {
-          "id": "7557c8060dc2",
-          "sourceHash": "7557c8060dc2",
+          "id": "7cafcffe0fee",
+          "sourceHash": "7cafcffe0fee",
           "kind": "characters",
-          "name": "Lucia",
-          "fileStem": "lucia",
-          "path": "Prydwen/zzz/assets/characters/lucia-7557c8060dc2.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "04d0ef59478b",
-          "sourceHash": "04d0ef59478b",
-          "kind": "characters",
-          "name": "Anby: Soldier 0",
-          "fileStem": "anby-demara-soldier-0",
-          "path": "Prydwen/zzz/assets/characters/anby-soldier-0-04d0ef59478b.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "cacf856bd725",
-          "sourceHash": "cacf856bd725",
-          "kind": "characters",
-          "name": "Orphie & Magus",
-          "fileStem": "orphie-and-magus",
-          "path": "Prydwen/zzz/assets/characters/orphie-magus-cacf856bd725.webp",
+          "name": "Burnice",
+          "fileStem": "burnice",
+          "path": "Prydwen/zzz/assets/characters/burnice-7cafcffe0fee.webp",
           "width": 60,
           "height": 60
         }
@@ -1631,7 +1581,7 @@
       "sections": [
         {
           "heading": "Best W-Engines",
-          "text": "The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 1\n\n Elegant Vanity (S 1 )\n\n Astra's Signature and one of multiple of her top choices. Provides an excellent amount of ATK% to assist with capping out the buff from her Core Passive, 5 extra Energy any time any squadmate performs a Quick Assist, Chain Attack, Defensive Assist or Evasive Assist (With Astra's kit this is constantly), granting her a tonne of extra energy and finally an up to 20% team wide DMG% boost she can maintain indefinitely. Astra's Signature is her best option in many cases but under ideal gearing scenarios is closer than you might expect to alternatives sometimes - even being beaten out by them in raw buffing capabilities in some teams. Because of this, Astra's signature is not as integral to her gameplay as many other characters making it a luxury and not a necessity.\n Usage: 31.31 %\n Shiyu Defense: 29292\n Deadly Assault: 24590\n\n 2\n\n Bashful Demon (S 5 )\n\n Soukaku's Signature at maximum rank is a very competitive option for Astra, due to its excellent team-wide buffs and stats. Bashful Demon grants Astra ATK% for her Core Passive and an up to 12.8% Combat ATK buff for the whole team. The Combat ATK buff of this engine is usually hard to keep active but Astra can build a stack of its effect each time she triggers her Tremelo, making it no issue with correct Quick Assist management. Lacks the energy recovery of some other options, but offers some of the best team buffing and consistency of all W-Engine choices.\n Usage: 25.01 %\n Shiyu Defense: 28537\n Deadly Assault: 23427\n\n 3\n\n Kaboom the Cannon (S 5 )\n\n Lucy's Signature at maximum rank is also a solid option thanks to its Energy Regen bonus and team ATK increase. Kaboom Cannon grants Astra 50% Energy Regen and an up to 12% Combat ATK buff for the whole team but with some restrictions. Kaboom requires each team member hit the enemy once every 4 seconds to maintain full effect. Astra's Tremelo counts toward this but you'll still need to ensure you manage your Quick Assists effectively and continually swap between characters to ensure maximum uptime. The W-Engine ss missing an ATK% main stat, putting more pressure on other areas of Astra's build when hitting her Core Passive cap. Also harder to fully maintain its team wide buffing effect.\n Usage: 34.07 %\n Shiyu Defense: 30193\n Deadly Assault: 24787\n\n 4\n\n The Vault (S 5 )\n\n Nicole's Signature at maximum rank is a usable but not perfect Engine for Astra. The Vault grants her 50% Energy Regen and a combat trigger that occurs whenever her Chain Attack, Tremelo or Ultimate deals damage to an enemy. This trigger will increase her Energy Regen by 0.8/s and her teams damage against the struck target by 24% both for 2 seconds. This Engine has everything Astra wants except for ATK, but requires careful management and team play for it to perform well against alternatives given its incredibly short 2 second duration.\n Usage: 6.66 %\n Shiyu Defense: 27965\n Deadly Assault: 22740",
+          "text": "The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 1\n\n Elegant Vanity (S 1 )\n\n Astra's Signature and one of multiple of her top choices. Provides an excellent amount of ATK% to assist with capping out the buff from her Core Passive, 5 extra Energy any time any squadmate performs a Quick Assist, Chain Attack, Defensive Assist or Evasive Assist (With Astra's kit this is constantly), granting her a tonne of extra energy and finally an up to 20% team wide DMG% boost she can maintain indefinitely. Astra's Signature is her best option in many cases but under ideal gearing scenarios is closer than you might expect to alternatives sometimes - even being beaten out by them in raw buffing capabilities in some teams. Because of this, Astra's signature is not as integral to her gameplay as many other characters making it a luxury and not a necessity.\n Usage: 31.07 %\n Shiyu Defense: 31671\n Deadly Assault: 24590\n\n 2\n\n Bashful Demon (S 5 )\n\n Soukaku's Signature at maximum rank is a very competitive option for Astra, due to its excellent team-wide buffs and stats. Bashful Demon grants Astra ATK% for her Core Passive and an up to 12.8% Combat ATK buff for the whole team. The Combat ATK buff of this engine is usually hard to keep active but Astra can build a stack of its effect each time she triggers her Tremelo, making it no issue with correct Quick Assist management. Lacks the energy recovery of some other options, but offers some of the best team buffing and consistency of all W-Engine choices.\n Usage: 25.81 %\n Shiyu Defense: 30711\n Deadly Assault: 23427\n\n 3\n\n Kaboom the Cannon (S 5 )\n\n Lucy's Signature at maximum rank is also a solid option thanks to its Energy Regen bonus and team ATK increase. Kaboom Cannon grants Astra 50% Energy Regen and an up to 12% Combat ATK buff for the whole team but with some restrictions. Kaboom requires each team member hit the enemy once every 4 seconds to maintain full effect. Astra's Tremelo counts toward this but you'll still need to ensure you manage your Quick Assists effectively and continually swap between characters to ensure maximum uptime. The W-Engine ss missing an ATK% main stat, putting more pressure on other areas of Astra's build when hitting her Core Passive cap. Also harder to fully maintain its team wide buffing effect.\n Usage: 33.38 %\n Shiyu Defense: 32024\n Deadly Assault: 24787\n\n 4\n\n The Vault (S 5 )\n\n Nicole's Signature at maximum rank is a usable but not perfect Engine for Astra. The Vault grants her 50% Energy Regen and a combat trigger that occurs whenever her Chain Attack, Tremelo or Ultimate deals damage to an enemy. This trigger will increase her Energy Regen by 0.8/s and her teams damage against the struck target by 24% both for 2 seconds. This Engine has everything Astra wants except for ATK, but requires careful management and team play for it to perform well against alternatives given its incredibly short 2 second duration.\n Usage: 6.98 %\n Shiyu Defense: 29112\n Deadly Assault: 22740",
           "assets": [
             {
               "id": "e497f030f7a2",
@@ -1945,68 +1895,8 @@
       "sections": [
         {
           "heading": "Teams (Shiyu Defense)",
-          "text": "This section lists most popular teams featuring Astra Yao in the current phase of Shiyu Defense.\n Rank 10\n App. rate: 6.79 %\n Avg. time: 32016\n\n Rank 13\n App. rate: 3.73 %\n Avg. time: 27949\n\n Rank 16\n App. rate: 3.26 %\n Avg. time: 27203\n\n Rank 17\n App. rate: 3.02 %\n Avg. time: 32350\n\n Rank 21\n App. rate: 2.14 %\n Avg. time: 27681\n\n Rank 22\n App. rate: 2.13 %\n Avg. time: 28309\n\n Rank 23\n App. rate: 1.98 %\n Avg. time: 31182\n\n Rank 34\n App. rate: 0.99 %\n Avg. time: 26545\n\n Rank 35\n App. rate: 0.93 %\n Avg. time: 27525\n\n Rank 45\n App. rate: 0.66 %\n Avg. time: 29461",
+          "text": "This section lists most popular teams featuring Astra Yao in the current phase of Shiyu Defense.\n Rank 6\n App. rate: 12.88 %\n Avg. time: 32829\n\n Rank 12\n App. rate: 7.14 %\n Avg. time: 30326\n\n Rank 13\n App. rate: 4.96 %\n Avg. time: 30788\n\n Rank 16\n App. rate: 3.96 %\n Avg. time: 30781\n\n Rank 20\n App. rate: 2.31 %\n Avg. time: 25791\n\n Rank 23\n App. rate: 1.57 %\n Avg. time: 29841\n\n Rank 32\n App. rate: 0.98 %\n Avg. time: 32609\n\n Rank 33\n App. rate: 0.97 %\n Avg. time: 32533\n\n Rank 35\n App. rate: 0.94 %\n Avg. time: 30507\n\n Rank 37\n App. rate: 0.87 %\n Avg. time: 31738",
           "assets": [
-            {
-              "id": "5887e20e4502",
-              "sourceHash": "5887e20e4502",
-              "kind": "characters",
-              "name": "Ye Shunguang",
-              "fileStem": "ye-shunguang",
-              "path": "Prydwen/zzz/assets/characters/ye-shunguang-5887e20e4502.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "98d8d659c143",
-              "sourceHash": "98d8d659c143",
-              "kind": "characters",
-              "name": "Astra Yao",
-              "fileStem": "astra-yao",
-              "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "e8a1e5a4346f",
-              "sourceHash": "e8a1e5a4346f",
-              "kind": "characters",
-              "name": "Zhao",
-              "fileStem": "zhao",
-              "path": "Prydwen/zzz/assets/characters/zhao-e8a1e5a4346f.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "6dcc7426ba11",
-              "sourceHash": "6dcc7426ba11",
-              "kind": "characters",
-              "name": "Evelyn",
-              "fileStem": "evelyn",
-              "path": "Prydwen/zzz/assets/characters/evelyn-6dcc7426ba11.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "5b1302d794ba",
-              "sourceHash": "5b1302d794ba",
-              "kind": "characters",
-              "name": "Dialyn",
-              "fileStem": "dialyn",
-              "path": "Prydwen/zzz/assets/characters/dialyn-5b1302d794ba.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "118e26488ea7",
-              "sourceHash": "118e26488ea7",
-              "kind": "characters",
-              "name": "Lighter",
-              "fileStem": "lighter",
-              "path": "Prydwen/zzz/assets/characters/lighter-118e26488ea7.webp",
-              "width": 60,
-              "height": 60
-            },
             {
               "id": "bf8821af9328",
               "sourceHash": "bf8821af9328",
@@ -2028,12 +1918,12 @@
               "height": 60
             },
             {
-              "id": "79ca38737857",
-              "sourceHash": "79ca38737857",
+              "id": "98d8d659c143",
+              "sourceHash": "98d8d659c143",
               "kind": "characters",
-              "name": "Yanagi",
-              "fileStem": "yanagi",
-              "path": "Prydwen/zzz/assets/characters/yanagi-79ca38737857.webp",
+              "name": "Astra Yao",
+              "fileStem": "astra-yao",
+              "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
               "width": 60,
               "height": 60
             },
@@ -2044,6 +1934,76 @@
               "name": "Vivian",
               "fileStem": "vivian",
               "path": "Prydwen/zzz/assets/characters/vivian-e33ff79684e5.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "5887e20e4502",
+              "sourceHash": "5887e20e4502",
+              "kind": "characters",
+              "name": "Ye Shunguang",
+              "fileStem": "ye-shunguang",
+              "path": "Prydwen/zzz/assets/characters/ye-shunguang-5887e20e4502.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "e8a1e5a4346f",
+              "sourceHash": "e8a1e5a4346f",
+              "kind": "characters",
+              "name": "Zhao",
+              "fileStem": "zhao",
+              "path": "Prydwen/zzz/assets/characters/zhao-e8a1e5a4346f.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "79ca38737857",
+              "sourceHash": "79ca38737857",
+              "kind": "characters",
+              "name": "Yanagi",
+              "fileStem": "yanagi",
+              "path": "Prydwen/zzz/assets/characters/yanagi-79ca38737857.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "08a137fda00f",
+              "sourceHash": "08a137fda00f",
+              "kind": "characters",
+              "name": "Pyrois",
+              "fileStem": "pyrois",
+              "path": "Prydwen/zzz/assets/characters/pyrois-08a137fda00f.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "5b1302d794ba",
+              "sourceHash": "5b1302d794ba",
+              "kind": "characters",
+              "name": "Dialyn",
+              "fileStem": "dialyn",
+              "path": "Prydwen/zzz/assets/characters/dialyn-5b1302d794ba.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "7a4ba5242a6c",
+              "sourceHash": "7a4ba5242a6c",
+              "kind": "characters",
+              "name": "Jane Doe",
+              "fileStem": "jane-doe",
+              "path": "Prydwen/zzz/assets/characters/jane-doe-7a4ba5242a6c.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "d6ce03b535c6",
+              "sourceHash": "d6ce03b535c6",
+              "kind": "characters",
+              "name": "Velina",
+              "fileStem": "velina",
+              "path": "Prydwen/zzz/assets/characters/velina-d6ce03b535c6.webp",
               "width": 60,
               "height": 60
             },
@@ -2068,52 +2028,32 @@
               "height": 60
             },
             {
-              "id": "3e8d48ac0bd4",
-              "sourceHash": "3e8d48ac0bd4",
+              "id": "07290ab47d04",
+              "sourceHash": "07290ab47d04",
               "kind": "characters",
-              "name": "Ju Fufu",
-              "fileStem": "ju-fufu",
-              "path": "Prydwen/zzz/assets/characters/ju-fufu-3e8d48ac0bd4.webp",
+              "name": "Promeia",
+              "fileStem": "promeia",
+              "path": "Prydwen/zzz/assets/characters/promeia-07290ab47d04.webp",
               "width": 60,
               "height": 60
             },
             {
-              "id": "53300a2a5c70",
-              "sourceHash": "53300a2a5c70",
+              "id": "ad063e072375",
+              "sourceHash": "ad063e072375",
               "kind": "characters",
-              "name": "Yixuan",
-              "fileStem": "yixuan",
-              "path": "Prydwen/zzz/assets/characters/yixuan-53300a2a5c70.webp",
+              "name": "Nicole",
+              "fileStem": "nicole-demara",
+              "path": "Prydwen/zzz/assets/characters/nicole-ad063e072375.webp",
               "width": 60,
               "height": 60
             },
             {
-              "id": "7557c8060dc2",
-              "sourceHash": "7557c8060dc2",
+              "id": "7cafcffe0fee",
+              "sourceHash": "7cafcffe0fee",
               "kind": "characters",
-              "name": "Lucia",
-              "fileStem": "lucia",
-              "path": "Prydwen/zzz/assets/characters/lucia-7557c8060dc2.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "04d0ef59478b",
-              "sourceHash": "04d0ef59478b",
-              "kind": "characters",
-              "name": "Anby: Soldier 0",
-              "fileStem": "anby-demara-soldier-0",
-              "path": "Prydwen/zzz/assets/characters/anby-soldier-0-04d0ef59478b.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "cacf856bd725",
-              "sourceHash": "cacf856bd725",
-              "kind": "characters",
-              "name": "Orphie & Magus",
-              "fileStem": "orphie-and-magus",
-              "path": "Prydwen/zzz/assets/characters/orphie-magus-cacf856bd725.webp",
+              "name": "Burnice",
+              "fileStem": "burnice",
+              "path": "Prydwen/zzz/assets/characters/burnice-7cafcffe0fee.webp",
               "width": 60,
               "height": 60
             }
@@ -2279,5 +2219,5 @@
     }
   },
   "tables": [],
-  "text": "Astra Yao Best Build Guide | Zenless Zone Zero\n \n\n Zenless Zone Zero\n Home Database Agents Bangboo W-Engines Disk Drives Banners\n Tier Lists Tier List\n Endgame Shiyu Defense Deadly Assault\n Resources Guides News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Zenless Zone Zero\n /\n Characters\n /\n Astra Yao\n Astra Yao Best Build Guide\n Last updated: 14/June/2026\n\n Introduction\n Best guide and build for Astra Yao from ZZZ (Zenless Zone Zero). Astra Yao is an rank character with the Ether attribute who belongs to the Support Specialty and who is part of the Stars of Lyra faction.\n It's too late! You're now officially invited to join me on my one-day escape plan. I'm gonna ditch work, run away, and make my way to Reverb Arena!\n\n To learn more about Astra Yao check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n Astra Yao has at least one video guide available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 2.4\n\n Last build update\n Patch 2.2\n\n Last teams update\n Patch 2.5\n\n Last profile update*\n 14/June/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.\n\n Kit\n\n Review\n\n Build\n\n SD/DA Analytics\n\n Teams & Synergy\n\n Calculations\n\n To learn more about Astra Yao check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile\n\n Core skills\n\n Core Passive Graceful Andante\n\n Lv. 1\n\n During the Idyllic Cadenza state, when other characters switch in through a Quick Assist, Chain Attack, Defensive Assist, or Evasive Assist, and when Astra Yao expends Energy to release Tremolo to attack, both Astra Yao and the incoming character's ATK are increased. The increase is equal to 22% of Astra Yao's initial ATK, up to a maximum of 1,200 . The effect lasts for 20s and can be extended up to 30s with repeated triggers.\n\n PEN Ratio 0\n BASE ATK: 0\n\n Additional Ability Moonlit Frenzy\n\n When another character in your squad is an Attack, Anomaly, or Rupture character:\n When Energy is consumed to trigger a Precise Assist or Basic Attack: Finale, Astra Yao will additionally follow up with 1 Tremolo and 3 Tone Clusters.\n\n Skills\n Basic\n Dodge\n Assist\n Special\n Chain\n\n Basic Attack: \"Capriccio\"\n\n Press to activate:\nPerform up to three attacks forward, dealing Ether DMG.\nDuring the 3rd-hit, hold to charge, drawing enemies in and expanding the attack range for a stronger attack.\nAfter using other skills, hold to initiate the 3rd-hit directly.\n Multipliers\n\n Basic Attack: Interlude\n\n While in the Idyllic Cadenza state, press to activate:\nRelease Tremolo forward to attack, dealing Ether DMG.\nA Quick Assist will be triggered when this skill hits an enemy.\n Multipliers\n\n Basic Attack: Chorus\n\n While in the Idyllic Cadenza state, press during a Perfect Dodge to activate:\nLaunch multiple Tremolo attacks at enemies in front, dealing massive Ether DMG.\nA Quick Assist will be triggered when this skill hits an enemy.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Basic Attack: Finale\n\n While in the Idyllic Cadenza state, press to activate:\nRelease Tremolo forward to attack, dealing Ether DMG and exit the Idyllic Cadenza state.\nUpon activation of the skill, it grants the buff from Core Passive: \"Graceful Andante\".\nWith enough Energy, consumes Energy to follow up with 1 Tremolo and 3 Tone Clusters. This Tremolo attack released is considered an EX Special Attack.\n Multipliers\n\n Dodge: \"Mini Waltz\"\n\n Press to activate.\nA quick dash dodge.\nCharacter is invulnerable while using this skill.\n\n Dash Attack: \"Lunar Eclipse Melody\"\n\n Press during a dodge to activate:\nAttack ahead, dealing Ether DMG.\nWhen triggered, dragging thestick/joystick allows movement in the corresponding direction.\n Multipliers\n\n Dodge Counter: \"Umbrella Waltz\"\n\n Press during a Perfect Dodge to activate.\nAttack enemies in front, dealing Ether DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Special Attack: \"Windchimes & Oaths\"\n\n Press to activate.\nQuickly move, then release Tremolo, dealing Ether DMG, and enter the Idyllic Cadenza state.\nDuring activation, dragging the stick/joystick enables movement in the direction held.\nHold to charge during activation, drawing enemies in, and follow up with 1 to 4 Tremolos depending on the charge duration.\nA Quick Assist will be triggered when this skill hits an enemy.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Idyllic Cadenza\n\n After entering the Idyllic Cadenza state, Astra Yao increases all squad members' DMG and CRIT DMG.\nWhile in the Idyllic Cadenza state, Astra Yao cannot move, but pressing will activate Basic Attack: Interlude, and pressing will activate a dodge. After triggering a Perfect Dodge, press to activate Basic Attack: Chorus.\nWhile in this state, Astra Yao's Anti-Interrupt Level is increased, and the DMG she takes is reduced by 40%. After switching to another character, Astra Yao will remain on the field and become Invulnerable. When switching back to her, she will automatically follow up with Special Attack: Windchimes & Oaths.\nDuring this state, hold to activate Basic Attack: Finale, or hold to exit the Idyllic Cadenza state.\n Multipliers\n\n Chord\n\n For every 25 Energy, Astra Yao will have 1 Chord.\nWhile in the Idyllic Cadenza state, when Astra Yao has Chords, a Quick Assist can be triggered in the following situations:\nWhen the controlled character's attack hits an enemy, once per 3s.\nWhen the controlled character's heavy attack hits an enemy, once per 1s.\nWhen other characters in the squad switch in through a Quick Assist, Chain Attack, Defensive Assist, or Evasive Assist, Astra Yao will consume 25 Energy and release 1 Tremolo to attack. This Tremolo attack released is considered an EX Special Attack.\nAfter triggering a Quick Assist, quickly press to switch characters and trigger a Precise Assist, causing Astra Yao to follow up with 3 Tone Clusters to attack. When other squad members switch in through a Chain Attack, Defensive Assist, or Evasive Assist, it will automatically trigger a Precise Assist.\n Multipliers\n\n Chain Attack: \"Tipsy Concerto\"\n\n When a Chain Attack is triggered, select the character to activate:\nUse song to channel energy into a blast, dealing massive Ether DMG.\nCharacter is invulnerable while using this skill.\nAfter the skill, Astra Yao enters the Idyllic Cadenza state.\n Multipliers\n\n Ultimate: \"Fantasian Sonata\"\n\n When Decibel Rating is at Maximum, press to activate.\nUse song to channel energy into a blast, dealing massive Ether DMG, and restoring some HP to all squad members.\nCharacter is invulnerable while using this skill.\nAfter the skill, Astra Yao enters the Idyllic Cadenza state.\nAfter the skill, the next two Quick Assists will be replaced by Chain Attacks.\n Multipliers\n\n Assist Follow-Up: \"Three Lifetimes of Fate\"\n\n Press after an Evasive Assist to activate:\nRelease an energy beam forward, dealing Ether DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Evasive Assist: \"Two Hearts\"\n\n When the character on field is about to be attacked, press to activate.\nDodges the enemy's attack and activates Vital View.\nCharacter is invulnerable while using this skill.\n\n Quick Assist: \"One Luminous Sky\"\n\n When the on-field character is launched, press to activate.\nAttack enemies in front, dealing Ether DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Mindscapes\n M1\n 12-Tone Equal Temperament\n Mindscape 1\n\n When Astra Yao's attack hits an enemy, the target's All-Attribute RES is reduced by 6% , stacking up to 3 times and lasting 30s . Repeated triggers refresh the duration. Upon entering the battlefield, Astra Yao immediately gains 1,000 Decibels. When activating her Ultimate, all squad members gain 1 stack of Song of Protection for 60s . When attacked by an enemy, consume Song of Protection, granting Invulnerability for 1s .\n\n M2\n Art of Greed\n Mindscape 2\n\n The ATK buff from Core Passive: Graceful Andante is further increased by 19% , with an increased maximum of 400 . While in the Idyllic Cadenza state, when other characters switch in through a Quick Assist, Chain Attack, Defensive Assist, or Evasive Assist, Astra Yao will additionally follow up with 1 Tremolo and 3 Tone Clusters to attack. This effect can trigger once every 3s .\n\n M3\n Interwoven Staff Notation\n Mindscape 3\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M4\n Hair Upon Your Nape\n Mindscape 4\n\n After activating a Chain Attack or Ultimate, within 15s , Astra Yao can trigger a Quick Assist even if she does not have Chords. When the attack hits an enemy, the interval for triggering a Quick Assist is reduced to 1s . While in the Idyllic Cadenza state, when other characters enter the field via a Quick Assist, they will receive different buffs based on their specialty, and this effect can be triggered once every 3s for the entire squad: Attack: The next Quick Assist heavy attack on an enemy will deal extra DMG equal to 300% of Astra Yao's ATK; Anomaly: The next Quick Assist will have 50% increased Anomaly Buildup; Stun: The next Quick Assist will inflict 50% increased Daze.\n\n M5\n Proxy and Silk String\n Mindscape 5\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M6\n We Are the World\n Mindscape 6\n\n While in the Idyllic Cadenza state, the DMG multiplier for Tremolo and Tone Clusters released or followed up with will increase to 200% of the original, and CRIT Rate is increased by 80% . When triggering a Precise Assist, Astra Yao will automatically follow up with the charged 3rd-hit of Basic Attack: Capriccio, with a 80% increased CRIT Rate. This effect can trigger once every 10s .\n\n Stats (Level 60)\n Astra Yao Stats at level 60 (including Core passive bonuses).\n\n HP\n 8609\n\n DEF\n 600\n\n ATK\n 715\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 50 %\n\n PEN Ratio\n 0 %\n\n Impact\n 83\n\n Anomaly Mastery\n 93\n\n Anomaly Proficiency\n 92\n\n Energy Regen\n 1.56\n\n Voice Actors\n ENG\n -\n\n JPN\n Aya Endo (遠藤 綾)\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Support\n T0.5\n Endgame Modes\n\n Pros & Cons\n Pros\n Universal support that can be played in almost any team composition.\n\n Buffs affect the whole team, offering even greater power to double damage teams than other supports.\n\n Provides Healing to teammates, which is useful for content where sustain is relevant.\n\n Allows incredibly frequent use of quick assists and the use of chain attacks outside of stun windows.\n\n Provides an incredible array of buffs, including one of the highest attack buffs in the game.\n\n Cons\n Effectively locks you into a 2 active Agent playstyledue to her low field time playstyle which while competitive wont be for everyone.\n\n Review\n Astra Yao is a S-Rank Ranged Ether Support Agent wielding a microphone and the power of her voice to buff allies and deal a bit of damage herself. As the first Limited Support unit, it’s no surprise that Astra’s buffs take things to the next level and set a new bar for team-wide boosts. With that said she is more than just a buff machine as she brings her own unique playstyle to the game, thanks to her powerful but somewhat unusual kit.\n Astra is all about her Special Attack, an ability that renders her immobile and mostly inactive by placing her in a special singing state called “Idyllic Cadenza”. In this state, she remains on the field even when swapped off (is invulnerable for the duration), buffs allies, and allows them to expend her energy to trigger Quick Assists on demand taking the concept of “Quick-Swap” to an entirely new level. If all of that sounds a bit strange and maybe a bit too simple you’d be right so let's get into more detail.\n Her kit is wordy and doesn’t read like a traditional character’s kit due to the nature of her “Idyllic Cadenza” state, but have no fear! She is in fact the simplest character to play in the entire game (and it’s not close), with her gameplay boiling down to the following:\n Use her Special Attack to enter the “Idyllic Cadenza” state.\n\n Use her Chain Attack when available.\n\n Use her Ultimate when it makes sense.\n\n And that’s it... There is no “traditional rotation” with her and whilst there are other actions you can perform such as Basic Attacks and Dodges, it’s usually not needed. With that said, while “How to Play” Astra is simple, understanding what she’s doing and her effects on teams is less so, and quite important to making full of her. And as such, it’s time to dive into the nitty gritty of her kit!\n Her unique resource gauge is “Chords” which unlike other character’s resources doesn’t require you to do anything special to accumulate. “Chords” are simply a representation of her current energy for the purpose of tracking her potential ability usage more easily. For every 25 energy she has, it will show up as having 1 “Chord”, thus 100 energy = 4 “Chords”. Spending 25 of that on an ability will consume 1 “Chord” worth of energy.\n First and most important of Astra’s abilities is her Special Attack which notably has no EX-Special alternative and Astra will be using that energy for something else. Using the Special Attack causes the following effects to happen all at once:\n Astra enters the “Idyllic Cadenza” state.\n\n Astra performs an attack called Tremolo.\n She can optionally choose to press and hold to charge the Special Attack. Doing so draws enemies toward Astra and increases the Tremeloes triggered from the typically 1 up to a maximum of 4 instead (dependent on charge duration).\n\n She triggers a Quick Assist in the same way as all other Support’s Special Attacks (Can be converted to a “Precise Assist”).\n\n Tremolo is a special damage source triggered by multiple of Astra’s abilities, it deals a small amount of Ether DMG, but most importantly is considered EX-Special DMG which is important for the purpose of many W-Engine effects.\n While in the “Idyllic Cadenza” state Astra gains access to a myriad of buffs, mechanics and ability changes. To get started and keep things simple here is a quick list of all of them:\n Becomes immobile outside of Dashing.\n\n Gains Anti-Interrupt Level and takes 40% reduced damage while on field.\n\n Gains the ability to remain on the field in an Invulnerable state when switched out maintaining “Idyllic Cadenza” while not being the active Agent.\n\n Grants all squad members 20% DMG and 25% CRIT DMG.\n\n Enables Squad Members to trigger “Precise Assists” and gain access to Quick Assists at non-standard times.\n\n Out of all of these, the last one is the one that needs explaining. While in “Idyllic Cadenza” state and having at least 1 “Chord”, whenever the on-field agent executes:\n A hit on an enemy (CD: 3s).\n\n A Heavy Attack on an enemy (CD: 1s).\n\n She will grant that Agent a Quick Assist between them and your team's other Agent (not being Astra) immediately followed by a “Precise Assist” trigger and the “Chord” consumption related to it. Triggering Quick Assists in this way, follow the cooldowns listed above for their respective attack types.\n “Precise Assists” trigger whenever any squad mate performs a:\n Quick Assist\n\n Chain Attack\n\n Defensive Assist\n\n Evasive Assist\n\n And Astra has access to a “Chord” (25 energy). Triggering a “Precise Assist\" consumes the “Chord” and causes Astra to launch 1 Tremolo (the same one as the initial cast of her Special Attack) followed immediately by 3 “Tone Clusters” which deal a small amount of Ether DMG each for even more damage.\n Astra can remain in the “Idyllic Cadenza” state indefinitely even if her energy reaches 0 - a fact that many players take advantage of by using her ability at the start of battle and only ever switching back to her to use her Ultimate or Chain Attack.\n Astra’s Additional Ability and Core Passive directly build on her Special Attack and “Idyllic Cadenza” state enhancing it further. Her Core Passive: “Graceful Andante” allows her to grant 35% of her own ATK as additional Flat ATK to both herself and any character that switches in after triggering a “Precise Assist” up to a cap of 1200 Flat ATK (Requires roughly 3430 ATK to max out at M0). Assuming you’re playing Astra normally and constantly alternating between your other two agents via Quick Assists you’ll have no issues maintaining this buff on your entire team indefinitely.\n Whereas, while Active, her Additional Ability: “Moonlit Frenzy” causes her Tremolo and 3 Tone Clusters to double trigger every time a “Chord” is consumed, doubling her damage output from “Precise Assist” triggers.\n Astra’s Chain Attack is a stock standard Ether DMG attack but her Ultimate is something special. Upon use, her Ultimate heals all squad members up to 2950 HP and causes the next two Quick Assists Astra grants to be Chain Attacks instead. With this Astra is ZZZ’s very first Healer and can also open up new potential combos with characters having particularly impactful Chain Attacks.\n Because her role in battle is to remain in the “Idyllic Cadenza” state, off the field for almost all of the combat, it should be no surprise that her Basic Attacks, Dodge Attacks, and Assists aren’t of too much relevance or used that frequently. With that said her Dodge can be used to reposition if you end up with her as your active Agent and her Basic Attack can be pressed and held to perform an attack that causes her to exit the “Idyllic Cadenza” state. Some of her abilities in these categories also gain different versions while within “Idyllic Cadenza” state but aren’t impactful on her role as a Support and as a result aren’t frequently used.\n In conclusion, Astra is perhaps one of the simplest characters to play in the game but also is someone who has some of the highest impact on teams she's present in. Astra teams are effectively 2 Agent teams as Astra is almost exclusively off-field buffing and offering her Quick Assists. While this playstyle is competitive it certainly won't be for everyone. It also heavily relies on the fact that those 2 Agents are strong enough to carry the extra weight. Ultimately, Astra has some of the best buffs in the game, offers a new twist on combat and team building and is a top tier meta choice at the time of her release.\n\n How to play\n At first glance, Astra is a very simple character: use her Special, Quick Assist out, then be done with it. However, there are many ways to optimise her, as she can be surprisingly complex. Sustaining her Core Passive: Graceful Andante’s buff is easy when alternating between two Agents, however this often isn’t the case for many teams in which Astra is a good pick for.\n Any team with a damage dealer that likes on-fielding, such as with Ellen, Evelyn, Soldier 0 - Anby, Seed, etc. may often come into a scenario where one is Quick Assisting out to a Stunner or secondary support, but not remain on them long enough for Astra to regenerate her Energy for another Quick Assist.\n Therefore, it’s important to keep an eye out for her buff uptime, as it can frequently drop in critical periods - like in stun bursts - if special attention isn’t given to her Energy levels.\n Besides standard buff management, Astra can struggle in generating Decibels in fights. Although she is able to trigger Anomalies while being inactive, her personal build-up is awful (both of Decibels and Anomaly), making her overly reliant on shared Decibel generation.\n To remedy this, making use of her Basic Attack: Finale to exit Idyllic Cadenza is a way to open up Astra to be picked for Evasive Assists. It only uses up 1 Assist Point (so assuming a team of 2 Assist Point cost characters, it does not sacrifice the total number of Perfect Assists) and can help with building Decibels to better align her Ultimates.\n Do remember to get her back in Idyllic Cadenza right after, as while her Core Passive’s ATK buff is independent of it, her DMG and CRIT DMG bonuses are not.\n In combos, Astra can also allow for double Chain Attacks in a single character from her Ultimate alone. Normally, this is not possible, as once her Ultimate is used, a Quick Assist prompt will yield a Chain Attack to the following character - normally the main damage dealer - but after that, the next Quick Assist prompt will take one to the second character.\n This will happen regardless of Energy too, owing to her Ultimate forcing the Idyllic Cadenza state and its unique property that forces Quick Assist prompts when any squad member lands a Chain Attack or Ultimate until all charges are used up.\n The trick lies in the fact that these Quick Assist prompts can only come up while Astra is in Idyllic Cadenza or after hardcasting her Special. Which means that it’s possible to:\n Astra Ultimate\n\n Basic Attack: Finale to exit Idyllic Cadenza\n\n Quick Assist → Chain Attack to main damage dealer\n\n Swap back to Astra and hardcast her Special\n\n Quick Assist → Chain Attack to main damage dealer\n\n There are even more efficient ways of doing this, such as by doing a Special, Dodge, Special series of inputs after her Ultimate instead of holding down Basic Attack.\n Despite Astra not being in Idyllic Cadenza for the first Chain Attack conversion, the buff lingers for around 3 seconds, leading to no damage loss. Learning how to make use of this “double Chain Attack” tech is critical for the highest damaging combos to many teams that Astra is used in.\n So Astra can be very simple, but learning how to use her optimally can help get the most value out of her.\n\n Build and teams\n\n Collaboration Disclaimer\n For ZZZ calculations we worked alongside Rivyn Elowen . Any other content such as comments on W-Engines, Disks, etc are our own.\n\n Best W-Engines\n The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 1\n\n Elegant Vanity (S 1 )\n\n Astra's Signature and one of multiple of her top choices. Provides an excellent amount of ATK% to assist with capping out the buff from her Core Passive, 5 extra Energy any time any squadmate performs a Quick Assist, Chain Attack, Defensive Assist or Evasive Assist (With Astra's kit this is constantly), granting her a tonne of extra energy and finally an up to 20% team wide DMG% boost she can maintain indefinitely. Astra's Signature is her best option in many cases but under ideal gearing scenarios is closer than you might expect to alternatives sometimes - even being beaten out by them in raw buffing capabilities in some teams. Because of this, Astra's signature is not as integral to her gameplay as many other characters making it a luxury and not a necessity.\n Usage: 31.31 %\n Shiyu Defense: 29292\n Deadly Assault: 24590\n\n 2\n\n Bashful Demon (S 5 )\n\n Soukaku's Signature at maximum rank is a very competitive option for Astra, due to its excellent team-wide buffs and stats. Bashful Demon grants Astra ATK% for her Core Passive and an up to 12.8% Combat ATK buff for the whole team. The Combat ATK buff of this engine is usually hard to keep active but Astra can build a stack of its effect each time she triggers her Tremelo, making it no issue with correct Quick Assist management. Lacks the energy recovery of some other options, but offers some of the best team buffing and consistency of all W-Engine choices.\n Usage: 25.01 %\n Shiyu Defense: 28537\n Deadly Assault: 23427\n\n 3\n\n Kaboom the Cannon (S 5 )\n\n Lucy's Signature at maximum rank is also a solid option thanks to its Energy Regen bonus and team ATK increase. Kaboom Cannon grants Astra 50% Energy Regen and an up to 12% Combat ATK buff for the whole team but with some restrictions. Kaboom requires each team member hit the enemy once every 4 seconds to maintain full effect. Astra's Tremelo counts toward this but you'll still need to ensure you manage your Quick Assists effectively and continually swap between characters to ensure maximum uptime. The W-Engine ss missing an ATK% main stat, putting more pressure on other areas of Astra's build when hitting her Core Passive cap. Also harder to fully maintain its team wide buffing effect.\n Usage: 34.07 %\n Shiyu Defense: 30193\n Deadly Assault: 24787\n\n 4\n\n The Vault (S 5 )\n\n Nicole's Signature at maximum rank is a usable but not perfect Engine for Astra. The Vault grants her 50% Energy Regen and a combat trigger that occurs whenever her Chain Attack, Tremelo or Ultimate deals damage to an enemy. This trigger will increase her Energy Regen by 0.8/s and her teams damage against the struck target by 24% both for 2 seconds. This Engine has everything Astra wants except for ATK, but requires careful management and team play for it to perform well against alternatives given its incredibly short 2 second duration.\n Usage: 6.66 %\n Shiyu Defense: 27965\n Deadly Assault: 22740\n\n Best Disk Drives Sets\n 1\n\n Astral Voice ( 4 -PC)\n\n Astral Voice is Astra Yao's best set - by a long shot - beating out Swing Jazz in both buff potential and uptime. Astra can stack its effect quickly ,thanks to the Quick Assists she continually grants the team and maintain it indefinitely.\n Best combined with your choice of 2-PC Set:\n 2P\n Swing Jazz\n\n Moonlight Lullaby\n\n (Recommended)\n 2P\n Hormone Punk\n\n 2\n\n Moonlight Lullaby ( 4 -PC)\n\n Only use this set if another Agent is wielding Astral Voice. Gives 20% Energy Regen on the 2-piece, and most importantly the 4-piece is the best set for every Support-class Agent. This is because it provides not only more DMG Bonus than both Proto Punk and Swing Jazz (18%), but the duration of the buff is also much longer than both of them as well (25s), while the condition is also much easier to fulfill (it only requires casting an EX Special or Ultimate). It makes this set the best choice for all Supports and is only superceded by a fully stacked Astral Voice.\n Best combined with your choice of 2-PC Set:\n 2P\n Swing Jazz\n\n (Recommended)\n 2P\n Hormone Punk\n\n Astral Voice\n\n Best Disk Drives Stats\n Anomaly Build\n Disk 4\n ATK%\n\n Disk 5\n ATK%\n\n Disk 6\n Energy Regen = ATK%\n\n Substats: ATK% > Flat ATK (Top Priorities Until Ability Cap) > Anomaly Proficiency > PEN\n\n CRIT Build\n Disk 4\n ATK%\n\n Disk 5\n ATK%\n\n Disk 6\n Energy Regen = ATK%\n\n Substats: ATK% > Flat ATK (Top Priorities Until Ability Cap) > CRIT RATE = CRIT DMG > PEN\n\n Best Endgame Stats (Level 60)\n ATK: 3430+\n Astra requires at minimum ~3430 ATK to get the maximum effect out of her Core Skill team-wide buff.\n\n Because of the potency of this buff, reaching this ATK breakpoint is the most important thing Astra can do with her Set Bonus, Main Stats, Sub Stats, and W-Engine choice. Use each of these methods to stack ATK until you have enough.\n\n HP: 10500+\n\n DEF: 800+\n\n Energy Regen: 0 - 130% (Dependant on Secondary Disc Set, Disc Main Stat and W-Engine)\n Gaining more ER is equivalent to gaining more free Quick Assists. Because of this getting as much Energy Regen as possible is very beneficial and picking it up whenever it doesn't interfere with you reaching 3430 ATK or more is a top priority.\n\n After achieving or exceeding all the stat goals above, you can aim to maximize Astra's damage potential by either stacking CRIT or Anomaly ( not both ) - any amount of either of the offensive stats is beneficial.\n CRIT RATE: Any Amount\n\n CRIT DMG: Any Amount\n\n OR\n Anomaly Proficiency: Any Amount\n\n Skill priority\n Special Attack\n\n Chain Attack\n\n Assist\n\n Dodge\n\n Basic Attack\n\n Video guides\n\n Teams & Synergy\n\n Synergy\n Below we list only the most important synergies for Astra Yao . The character can work with others if you know what to do and how to use them.\n\n Evelyn - Astra Yao has a particular synergy with Evelyn because she's able to provide all her typical buffs to her, but most importantly her Ultimate allows your next 2 Quick Assists to become Chain Attacks — Chains being most relevant for Evelyn to exploit, the synergy between the two is particularly noteworthy and she provides a drastic boost to Evelyn's damage as a result (even though the same could be said for a lot of characters, it's especially remarkable in this example).\n Ye Shunguang Anby: Soldier 0 Seed Soldier 11 Zhu Yuan Nekomata - Astra is in practice the dedicated \"Attacker Support\" Agent, so it's no wonder she has good synergies with them. For some, like Ye Shunguang, Soldier 0 - Anby and Seed, there isn't anything in particular that Astra offers besides strong buffs and little to no field time commitment, but that alone is still enough to make her one of the best supports. For others, Astra's ability to provide up to 2 Chain Attacks every Ultimate use is incredibly powerful, be it to give Soldier 11 more uses of her enhanced Fire Suppression B5, giving extra Shotshell refills to Zhu Yuan (being particularly strong synergy with her M1) or merely allowing for better stun combos (Nekomata, Billy, Anton, etc.), resulting in a universally strong unit that works with almost any Attacker team.\n Miyabi Yanagi Jane Doe Burnice - Astra Yao takes pretty much no field time — you only swap her in at the start to activate her buffs via her Special, you use her to perform Quick Assists, and you use her Ultimate typically during Stun windows. That's it. Therefore, any DPS character that benefits from taking a lot of field time especially benefits from having Astra Yao on the team, and this includes the faces above.\n Nicole Trigger - Astra Yao enables a particular team archetype to function especially well, being Double Support. On certain DPS characters, it's straight-up their best team by far, and on most units it's at least slightly better than other choices or close to them. Nicole and Trigger are the best partners for Astra to pair with for Double Support teams because they take extremely little field time as well, allowing your DPS character to take the spotlight for almost the whole gameplay — Nicole provides more potent buffs and debuffs, Trigger provides more Daze and damage. Depending on the DPS used, the two will alternate in coordination with Astra Yao to make for one of the best team archetypes in the game.\n Teams (Shiyu Defense)\n This section lists most popular teams featuring Astra Yao in the current phase of Shiyu Defense.\n Rank 10\n App. rate: 6.79 %\n Avg. time: 32016\n\n Rank 13\n App. rate: 3.73 %\n Avg. time: 27949\n\n Rank 16\n App. rate: 3.26 %\n Avg. time: 27203\n\n Rank 17\n App. rate: 3.02 %\n Avg. time: 32350\n\n Rank 21\n App. rate: 2.14 %\n Avg. time: 27681\n\n Rank 22\n App. rate: 2.13 %\n Avg. time: 28309\n\n Rank 23\n App. rate: 1.98 %\n Avg. time: 31182\n\n Rank 34\n App. rate: 0.99 %\n Avg. time: 26545\n\n Rank 35\n App. rate: 0.93 %\n Avg. time: 27525\n\n Rank 45\n App. rate: 0.66 %\n Avg. time: 29461\n\n Teams (Deadly Assault)\n This section lists most popular teams featuring Astra Yao in the current phase of Deadly Assault.\n Rank 9\n App. rate: 7.45 %\n Avg. score: 25141\n\n Rank 15\n App. rate: 2.88 %\n Avg. score: 23659\n\n Rank 16\n App. rate: 2.75 %\n Avg. score: 21102\n\n Rank 20\n App. rate: 1.65 %\n Avg. score: 26374\n\n Rank 27\n App. rate: 1.17 %\n Avg. score: 24495\n\n Rank 28\n App. rate: 1.06 %\n Avg. score: 23728\n\n Rank 32\n App. rate: 0.88 %\n Avg. score: 24655\n\n Rank 42\n App. rate: 0.56 %\n Avg. score: 23715\n\n Rank 45\n App. rate: 0.5 %\n Avg. score: 26820\n\n Rank 47\n App. rate: 0.47 %\n Avg. score: 25243"
+  "text": "Astra Yao Best Build Guide | Zenless Zone Zero\n \n\n Zenless Zone Zero\n Home Database Agents Bangboo W-Engines Disk Drives Banners\n Tier Lists Tier List\n Endgame Shiyu Defense Deadly Assault\n Resources Guides News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Zenless Zone Zero\n /\n Characters\n /\n Astra Yao\n Astra Yao Best Build Guide\n Last updated: 14/June/2026\n\n Introduction\n Best guide and build for Astra Yao from ZZZ (Zenless Zone Zero). Astra Yao is an rank character with the Ether attribute who belongs to the Support Specialty and who is part of the Stars of Lyra faction.\n It's too late! You're now officially invited to join me on my one-day escape plan. I'm gonna ditch work, run away, and make my way to Reverb Arena!\n\n To learn more about Astra Yao check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n Astra Yao has at least one video guide available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 2.4\n\n Last build update\n Patch 2.2\n\n Last teams update\n Patch 2.5\n\n Last profile update*\n 14/June/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.\n\n Kit\n\n Review\n\n Build\n\n SD/DA Analytics\n\n Teams & Synergy\n\n Calculations\n\n To learn more about Astra Yao check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile\n\n Core skills\n\n Core Passive Graceful Andante\n\n Lv. 1\n\n During the Idyllic Cadenza state, when other characters switch in through a Quick Assist, Chain Attack, Defensive Assist, or Evasive Assist, and when Astra Yao expends Energy to release Tremolo to attack, both Astra Yao and the incoming character's ATK are increased. The increase is equal to 22% of Astra Yao's initial ATK, up to a maximum of 1,200 . The effect lasts for 20s and can be extended up to 30s with repeated triggers.\n\n PEN Ratio 0\n BASE ATK: 0\n\n Additional Ability Moonlit Frenzy\n\n When another character in your squad is an Attack, Anomaly, or Rupture character:\n When Energy is consumed to trigger a Precise Assist or Basic Attack: Finale, Astra Yao will additionally follow up with 1 Tremolo and 3 Tone Clusters.\n\n Skills\n Basic\n Dodge\n Assist\n Special\n Chain\n\n Basic Attack: \"Capriccio\"\n\n Press to activate:\nPerform up to three attacks forward, dealing Ether DMG.\nDuring the 3rd-hit, hold to charge, drawing enemies in and expanding the attack range for a stronger attack.\nAfter using other skills, hold to initiate the 3rd-hit directly.\n Multipliers\n\n Basic Attack: Interlude\n\n While in the Idyllic Cadenza state, press to activate:\nRelease Tremolo forward to attack, dealing Ether DMG.\nA Quick Assist will be triggered when this skill hits an enemy.\n Multipliers\n\n Basic Attack: Chorus\n\n While in the Idyllic Cadenza state, press during a Perfect Dodge to activate:\nLaunch multiple Tremolo attacks at enemies in front, dealing massive Ether DMG.\nA Quick Assist will be triggered when this skill hits an enemy.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Basic Attack: Finale\n\n While in the Idyllic Cadenza state, press to activate:\nRelease Tremolo forward to attack, dealing Ether DMG and exit the Idyllic Cadenza state.\nUpon activation of the skill, it grants the buff from Core Passive: \"Graceful Andante\".\nWith enough Energy, consumes Energy to follow up with 1 Tremolo and 3 Tone Clusters. This Tremolo attack released is considered an EX Special Attack.\n Multipliers\n\n Dodge: \"Mini Waltz\"\n\n Press to activate.\nA quick dash dodge.\nCharacter is invulnerable while using this skill.\n\n Dash Attack: \"Lunar Eclipse Melody\"\n\n Press during a dodge to activate:\nAttack ahead, dealing Ether DMG.\nWhen triggered, dragging thestick/joystick allows movement in the corresponding direction.\n Multipliers\n\n Dodge Counter: \"Umbrella Waltz\"\n\n Press during a Perfect Dodge to activate.\nAttack enemies in front, dealing Ether DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Special Attack: \"Windchimes & Oaths\"\n\n Press to activate.\nQuickly move, then release Tremolo, dealing Ether DMG, and enter the Idyllic Cadenza state.\nDuring activation, dragging the stick/joystick enables movement in the direction held.\nHold to charge during activation, drawing enemies in, and follow up with 1 to 4 Tremolos depending on the charge duration.\nA Quick Assist will be triggered when this skill hits an enemy.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Idyllic Cadenza\n\n After entering the Idyllic Cadenza state, Astra Yao increases all squad members' DMG and CRIT DMG.\nWhile in the Idyllic Cadenza state, Astra Yao cannot move, but pressing will activate Basic Attack: Interlude, and pressing will activate a dodge. After triggering a Perfect Dodge, press to activate Basic Attack: Chorus.\nWhile in this state, Astra Yao's Anti-Interrupt Level is increased, and the DMG she takes is reduced by 40%. After switching to another character, Astra Yao will remain on the field and become Invulnerable. When switching back to her, she will automatically follow up with Special Attack: Windchimes & Oaths.\nDuring this state, hold to activate Basic Attack: Finale, or hold to exit the Idyllic Cadenza state.\n Multipliers\n\n Chord\n\n For every 25 Energy, Astra Yao will have 1 Chord.\nWhile in the Idyllic Cadenza state, when Astra Yao has Chords, a Quick Assist can be triggered in the following situations:\nWhen the controlled character's attack hits an enemy, once per 3s.\nWhen the controlled character's heavy attack hits an enemy, once per 1s.\nWhen other characters in the squad switch in through a Quick Assist, Chain Attack, Defensive Assist, or Evasive Assist, Astra Yao will consume 25 Energy and release 1 Tremolo to attack. This Tremolo attack released is considered an EX Special Attack.\nAfter triggering a Quick Assist, quickly press to switch characters and trigger a Precise Assist, causing Astra Yao to follow up with 3 Tone Clusters to attack. When other squad members switch in through a Chain Attack, Defensive Assist, or Evasive Assist, it will automatically trigger a Precise Assist.\n Multipliers\n\n Chain Attack: \"Tipsy Concerto\"\n\n When a Chain Attack is triggered, select the character to activate:\nUse song to channel energy into a blast, dealing massive Ether DMG.\nCharacter is invulnerable while using this skill.\nAfter the skill, Astra Yao enters the Idyllic Cadenza state.\n Multipliers\n\n Ultimate: \"Fantasian Sonata\"\n\n When Decibel Rating is at Maximum, press to activate.\nUse song to channel energy into a blast, dealing massive Ether DMG, and restoring some HP to all squad members.\nCharacter is invulnerable while using this skill.\nAfter the skill, Astra Yao enters the Idyllic Cadenza state.\nAfter the skill, the next two Quick Assists will be replaced by Chain Attacks.\n Multipliers\n\n Assist Follow-Up: \"Three Lifetimes of Fate\"\n\n Press after an Evasive Assist to activate:\nRelease an energy beam forward, dealing Ether DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Evasive Assist: \"Two Hearts\"\n\n When the character on field is about to be attacked, press to activate.\nDodges the enemy's attack and activates Vital View.\nCharacter is invulnerable while using this skill.\n\n Quick Assist: \"One Luminous Sky\"\n\n When the on-field character is launched, press to activate.\nAttack enemies in front, dealing Ether DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Mindscapes\n M1\n 12-Tone Equal Temperament\n Mindscape 1\n\n When Astra Yao's attack hits an enemy, the target's All-Attribute RES is reduced by 6% , stacking up to 3 times and lasting 30s . Repeated triggers refresh the duration. Upon entering the battlefield, Astra Yao immediately gains 1,000 Decibels. When activating her Ultimate, all squad members gain 1 stack of Song of Protection for 60s . When attacked by an enemy, consume Song of Protection, granting Invulnerability for 1s .\n\n M2\n Art of Greed\n Mindscape 2\n\n The ATK buff from Core Passive: Graceful Andante is further increased by 19% , with an increased maximum of 400 . While in the Idyllic Cadenza state, when other characters switch in through a Quick Assist, Chain Attack, Defensive Assist, or Evasive Assist, Astra Yao will additionally follow up with 1 Tremolo and 3 Tone Clusters to attack. This effect can trigger once every 3s .\n\n M3\n Interwoven Staff Notation\n Mindscape 3\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M4\n Hair Upon Your Nape\n Mindscape 4\n\n After activating a Chain Attack or Ultimate, within 15s , Astra Yao can trigger a Quick Assist even if she does not have Chords. When the attack hits an enemy, the interval for triggering a Quick Assist is reduced to 1s . While in the Idyllic Cadenza state, when other characters enter the field via a Quick Assist, they will receive different buffs based on their specialty, and this effect can be triggered once every 3s for the entire squad: Attack: The next Quick Assist heavy attack on an enemy will deal extra DMG equal to 300% of Astra Yao's ATK; Anomaly: The next Quick Assist will have 50% increased Anomaly Buildup; Stun: The next Quick Assist will inflict 50% increased Daze.\n\n M5\n Proxy and Silk String\n Mindscape 5\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M6\n We Are the World\n Mindscape 6\n\n While in the Idyllic Cadenza state, the DMG multiplier for Tremolo and Tone Clusters released or followed up with will increase to 200% of the original, and CRIT Rate is increased by 80% . When triggering a Precise Assist, Astra Yao will automatically follow up with the charged 3rd-hit of Basic Attack: Capriccio, with a 80% increased CRIT Rate. This effect can trigger once every 10s .\n\n Stats (Level 60)\n Astra Yao Stats at level 60 (including Core passive bonuses).\n\n HP\n 8609\n\n DEF\n 600\n\n ATK\n 715\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 50 %\n\n PEN Ratio\n 0 %\n\n Impact\n 83\n\n Anomaly Mastery\n 93\n\n Anomaly Proficiency\n 92\n\n Energy Regen\n 1.56\n\n Voice Actors\n ENG\n -\n\n JPN\n Aya Endo (遠藤 綾)\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Support\n T0.5\n Endgame Modes\n\n Pros & Cons\n Pros\n Universal support that can be played in almost any team composition.\n\n Buffs affect the whole team, offering even greater power to double damage teams than other supports.\n\n Provides Healing to teammates, which is useful for content where sustain is relevant.\n\n Allows incredibly frequent use of quick assists and the use of chain attacks outside of stun windows.\n\n Provides an incredible array of buffs, including one of the highest attack buffs in the game.\n\n Cons\n Effectively locks you into a 2 active Agent playstyledue to her low field time playstyle which while competitive wont be for everyone.\n\n Review\n Astra Yao is a S-Rank Ranged Ether Support Agent wielding a microphone and the power of her voice to buff allies and deal a bit of damage herself. As the first Limited Support unit, it’s no surprise that Astra’s buffs take things to the next level and set a new bar for team-wide boosts. With that said she is more than just a buff machine as she brings her own unique playstyle to the game, thanks to her powerful but somewhat unusual kit.\n Astra is all about her Special Attack, an ability that renders her immobile and mostly inactive by placing her in a special singing state called “Idyllic Cadenza”. In this state, she remains on the field even when swapped off (is invulnerable for the duration), buffs allies, and allows them to expend her energy to trigger Quick Assists on demand taking the concept of “Quick-Swap” to an entirely new level. If all of that sounds a bit strange and maybe a bit too simple you’d be right so let's get into more detail.\n Her kit is wordy and doesn’t read like a traditional character’s kit due to the nature of her “Idyllic Cadenza” state, but have no fear! She is in fact the simplest character to play in the entire game (and it’s not close), with her gameplay boiling down to the following:\n Use her Special Attack to enter the “Idyllic Cadenza” state.\n\n Use her Chain Attack when available.\n\n Use her Ultimate when it makes sense.\n\n And that’s it... There is no “traditional rotation” with her and whilst there are other actions you can perform such as Basic Attacks and Dodges, it’s usually not needed. With that said, while “How to Play” Astra is simple, understanding what she’s doing and her effects on teams is less so, and quite important to making full of her. And as such, it’s time to dive into the nitty gritty of her kit!\n Her unique resource gauge is “Chords” which unlike other character’s resources doesn’t require you to do anything special to accumulate. “Chords” are simply a representation of her current energy for the purpose of tracking her potential ability usage more easily. For every 25 energy she has, it will show up as having 1 “Chord”, thus 100 energy = 4 “Chords”. Spending 25 of that on an ability will consume 1 “Chord” worth of energy.\n First and most important of Astra’s abilities is her Special Attack which notably has no EX-Special alternative and Astra will be using that energy for something else. Using the Special Attack causes the following effects to happen all at once:\n Astra enters the “Idyllic Cadenza” state.\n\n Astra performs an attack called Tremolo.\n She can optionally choose to press and hold to charge the Special Attack. Doing so draws enemies toward Astra and increases the Tremeloes triggered from the typically 1 up to a maximum of 4 instead (dependent on charge duration).\n\n She triggers a Quick Assist in the same way as all other Support’s Special Attacks (Can be converted to a “Precise Assist”).\n\n Tremolo is a special damage source triggered by multiple of Astra’s abilities, it deals a small amount of Ether DMG, but most importantly is considered EX-Special DMG which is important for the purpose of many W-Engine effects.\n While in the “Idyllic Cadenza” state Astra gains access to a myriad of buffs, mechanics and ability changes. To get started and keep things simple here is a quick list of all of them:\n Becomes immobile outside of Dashing.\n\n Gains Anti-Interrupt Level and takes 40% reduced damage while on field.\n\n Gains the ability to remain on the field in an Invulnerable state when switched out maintaining “Idyllic Cadenza” while not being the active Agent.\n\n Grants all squad members 20% DMG and 25% CRIT DMG.\n\n Enables Squad Members to trigger “Precise Assists” and gain access to Quick Assists at non-standard times.\n\n Out of all of these, the last one is the one that needs explaining. While in “Idyllic Cadenza” state and having at least 1 “Chord”, whenever the on-field agent executes:\n A hit on an enemy (CD: 3s).\n\n A Heavy Attack on an enemy (CD: 1s).\n\n She will grant that Agent a Quick Assist between them and your team's other Agent (not being Astra) immediately followed by a “Precise Assist” trigger and the “Chord” consumption related to it. Triggering Quick Assists in this way, follow the cooldowns listed above for their respective attack types.\n “Precise Assists” trigger whenever any squad mate performs a:\n Quick Assist\n\n Chain Attack\n\n Defensive Assist\n\n Evasive Assist\n\n And Astra has access to a “Chord” (25 energy). Triggering a “Precise Assist\" consumes the “Chord” and causes Astra to launch 1 Tremolo (the same one as the initial cast of her Special Attack) followed immediately by 3 “Tone Clusters” which deal a small amount of Ether DMG each for even more damage.\n Astra can remain in the “Idyllic Cadenza” state indefinitely even if her energy reaches 0 - a fact that many players take advantage of by using her ability at the start of battle and only ever switching back to her to use her Ultimate or Chain Attack.\n Astra’s Additional Ability and Core Passive directly build on her Special Attack and “Idyllic Cadenza” state enhancing it further. Her Core Passive: “Graceful Andante” allows her to grant 35% of her own ATK as additional Flat ATK to both herself and any character that switches in after triggering a “Precise Assist” up to a cap of 1200 Flat ATK (Requires roughly 3430 ATK to max out at M0). Assuming you’re playing Astra normally and constantly alternating between your other two agents via Quick Assists you’ll have no issues maintaining this buff on your entire team indefinitely.\n Whereas, while Active, her Additional Ability: “Moonlit Frenzy” causes her Tremolo and 3 Tone Clusters to double trigger every time a “Chord” is consumed, doubling her damage output from “Precise Assist” triggers.\n Astra’s Chain Attack is a stock standard Ether DMG attack but her Ultimate is something special. Upon use, her Ultimate heals all squad members up to 2950 HP and causes the next two Quick Assists Astra grants to be Chain Attacks instead. With this Astra is ZZZ’s very first Healer and can also open up new potential combos with characters having particularly impactful Chain Attacks.\n Because her role in battle is to remain in the “Idyllic Cadenza” state, off the field for almost all of the combat, it should be no surprise that her Basic Attacks, Dodge Attacks, and Assists aren’t of too much relevance or used that frequently. With that said her Dodge can be used to reposition if you end up with her as your active Agent and her Basic Attack can be pressed and held to perform an attack that causes her to exit the “Idyllic Cadenza” state. Some of her abilities in these categories also gain different versions while within “Idyllic Cadenza” state but aren’t impactful on her role as a Support and as a result aren’t frequently used.\n In conclusion, Astra is perhaps one of the simplest characters to play in the game but also is someone who has some of the highest impact on teams she's present in. Astra teams are effectively 2 Agent teams as Astra is almost exclusively off-field buffing and offering her Quick Assists. While this playstyle is competitive it certainly won't be for everyone. It also heavily relies on the fact that those 2 Agents are strong enough to carry the extra weight. Ultimately, Astra has some of the best buffs in the game, offers a new twist on combat and team building and is a top tier meta choice at the time of her release.\n\n How to play\n At first glance, Astra is a very simple character: use her Special, Quick Assist out, then be done with it. However, there are many ways to optimise her, as she can be surprisingly complex. Sustaining her Core Passive: Graceful Andante’s buff is easy when alternating between two Agents, however this often isn’t the case for many teams in which Astra is a good pick for.\n Any team with a damage dealer that likes on-fielding, such as with Ellen, Evelyn, Soldier 0 - Anby, Seed, etc. may often come into a scenario where one is Quick Assisting out to a Stunner or secondary support, but not remain on them long enough for Astra to regenerate her Energy for another Quick Assist.\n Therefore, it’s important to keep an eye out for her buff uptime, as it can frequently drop in critical periods - like in stun bursts - if special attention isn’t given to her Energy levels.\n Besides standard buff management, Astra can struggle in generating Decibels in fights. Although she is able to trigger Anomalies while being inactive, her personal build-up is awful (both of Decibels and Anomaly), making her overly reliant on shared Decibel generation.\n To remedy this, making use of her Basic Attack: Finale to exit Idyllic Cadenza is a way to open up Astra to be picked for Evasive Assists. It only uses up 1 Assist Point (so assuming a team of 2 Assist Point cost characters, it does not sacrifice the total number of Perfect Assists) and can help with building Decibels to better align her Ultimates.\n Do remember to get her back in Idyllic Cadenza right after, as while her Core Passive’s ATK buff is independent of it, her DMG and CRIT DMG bonuses are not.\n In combos, Astra can also allow for double Chain Attacks in a single character from her Ultimate alone. Normally, this is not possible, as once her Ultimate is used, a Quick Assist prompt will yield a Chain Attack to the following character - normally the main damage dealer - but after that, the next Quick Assist prompt will take one to the second character.\n This will happen regardless of Energy too, owing to her Ultimate forcing the Idyllic Cadenza state and its unique property that forces Quick Assist prompts when any squad member lands a Chain Attack or Ultimate until all charges are used up.\n The trick lies in the fact that these Quick Assist prompts can only come up while Astra is in Idyllic Cadenza or after hardcasting her Special. Which means that it’s possible to:\n Astra Ultimate\n\n Basic Attack: Finale to exit Idyllic Cadenza\n\n Quick Assist → Chain Attack to main damage dealer\n\n Swap back to Astra and hardcast her Special\n\n Quick Assist → Chain Attack to main damage dealer\n\n There are even more efficient ways of doing this, such as by doing a Special, Dodge, Special series of inputs after her Ultimate instead of holding down Basic Attack.\n Despite Astra not being in Idyllic Cadenza for the first Chain Attack conversion, the buff lingers for around 3 seconds, leading to no damage loss. Learning how to make use of this “double Chain Attack” tech is critical for the highest damaging combos to many teams that Astra is used in.\n So Astra can be very simple, but learning how to use her optimally can help get the most value out of her.\n\n Build and teams\n\n Collaboration Disclaimer\n For ZZZ calculations we worked alongside Rivyn Elowen . Any other content such as comments on W-Engines, Disks, etc are our own.\n\n Best W-Engines\n The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 1\n\n Elegant Vanity (S 1 )\n\n Astra's Signature and one of multiple of her top choices. Provides an excellent amount of ATK% to assist with capping out the buff from her Core Passive, 5 extra Energy any time any squadmate performs a Quick Assist, Chain Attack, Defensive Assist or Evasive Assist (With Astra's kit this is constantly), granting her a tonne of extra energy and finally an up to 20% team wide DMG% boost she can maintain indefinitely. Astra's Signature is her best option in many cases but under ideal gearing scenarios is closer than you might expect to alternatives sometimes - even being beaten out by them in raw buffing capabilities in some teams. Because of this, Astra's signature is not as integral to her gameplay as many other characters making it a luxury and not a necessity.\n Usage: 31.07 %\n Shiyu Defense: 31671\n Deadly Assault: 24590\n\n 2\n\n Bashful Demon (S 5 )\n\n Soukaku's Signature at maximum rank is a very competitive option for Astra, due to its excellent team-wide buffs and stats. Bashful Demon grants Astra ATK% for her Core Passive and an up to 12.8% Combat ATK buff for the whole team. The Combat ATK buff of this engine is usually hard to keep active but Astra can build a stack of its effect each time she triggers her Tremelo, making it no issue with correct Quick Assist management. Lacks the energy recovery of some other options, but offers some of the best team buffing and consistency of all W-Engine choices.\n Usage: 25.81 %\n Shiyu Defense: 30711\n Deadly Assault: 23427\n\n 3\n\n Kaboom the Cannon (S 5 )\n\n Lucy's Signature at maximum rank is also a solid option thanks to its Energy Regen bonus and team ATK increase. Kaboom Cannon grants Astra 50% Energy Regen and an up to 12% Combat ATK buff for the whole team but with some restrictions. Kaboom requires each team member hit the enemy once every 4 seconds to maintain full effect. Astra's Tremelo counts toward this but you'll still need to ensure you manage your Quick Assists effectively and continually swap between characters to ensure maximum uptime. The W-Engine ss missing an ATK% main stat, putting more pressure on other areas of Astra's build when hitting her Core Passive cap. Also harder to fully maintain its team wide buffing effect.\n Usage: 33.38 %\n Shiyu Defense: 32024\n Deadly Assault: 24787\n\n 4\n\n The Vault (S 5 )\n\n Nicole's Signature at maximum rank is a usable but not perfect Engine for Astra. The Vault grants her 50% Energy Regen and a combat trigger that occurs whenever her Chain Attack, Tremelo or Ultimate deals damage to an enemy. This trigger will increase her Energy Regen by 0.8/s and her teams damage against the struck target by 24% both for 2 seconds. This Engine has everything Astra wants except for ATK, but requires careful management and team play for it to perform well against alternatives given its incredibly short 2 second duration.\n Usage: 6.98 %\n Shiyu Defense: 29112\n Deadly Assault: 22740\n\n Best Disk Drives Sets\n 1\n\n Astral Voice ( 4 -PC)\n\n Astral Voice is Astra Yao's best set - by a long shot - beating out Swing Jazz in both buff potential and uptime. Astra can stack its effect quickly ,thanks to the Quick Assists she continually grants the team and maintain it indefinitely.\n Best combined with your choice of 2-PC Set:\n 2P\n Swing Jazz\n\n Moonlight Lullaby\n\n (Recommended)\n 2P\n Hormone Punk\n\n 2\n\n Moonlight Lullaby ( 4 -PC)\n\n Only use this set if another Agent is wielding Astral Voice. Gives 20% Energy Regen on the 2-piece, and most importantly the 4-piece is the best set for every Support-class Agent. This is because it provides not only more DMG Bonus than both Proto Punk and Swing Jazz (18%), but the duration of the buff is also much longer than both of them as well (25s), while the condition is also much easier to fulfill (it only requires casting an EX Special or Ultimate). It makes this set the best choice for all Supports and is only superceded by a fully stacked Astral Voice.\n Best combined with your choice of 2-PC Set:\n 2P\n Swing Jazz\n\n (Recommended)\n 2P\n Hormone Punk\n\n Astral Voice\n\n Best Disk Drives Stats\n Anomaly Build\n Disk 4\n ATK%\n\n Disk 5\n ATK%\n\n Disk 6\n Energy Regen = ATK%\n\n Substats: ATK% > Flat ATK (Top Priorities Until Ability Cap) > Anomaly Proficiency > PEN\n\n CRIT Build\n Disk 4\n ATK%\n\n Disk 5\n ATK%\n\n Disk 6\n Energy Regen = ATK%\n\n Substats: ATK% > Flat ATK (Top Priorities Until Ability Cap) > CRIT RATE = CRIT DMG > PEN\n\n Best Endgame Stats (Level 60)\n ATK: 3430+\n Astra requires at minimum ~3430 ATK to get the maximum effect out of her Core Skill team-wide buff.\n\n Because of the potency of this buff, reaching this ATK breakpoint is the most important thing Astra can do with her Set Bonus, Main Stats, Sub Stats, and W-Engine choice. Use each of these methods to stack ATK until you have enough.\n\n HP: 10500+\n\n DEF: 800+\n\n Energy Regen: 0 - 130% (Dependant on Secondary Disc Set, Disc Main Stat and W-Engine)\n Gaining more ER is equivalent to gaining more free Quick Assists. Because of this getting as much Energy Regen as possible is very beneficial and picking it up whenever it doesn't interfere with you reaching 3430 ATK or more is a top priority.\n\n After achieving or exceeding all the stat goals above, you can aim to maximize Astra's damage potential by either stacking CRIT or Anomaly ( not both ) - any amount of either of the offensive stats is beneficial.\n CRIT RATE: Any Amount\n\n CRIT DMG: Any Amount\n\n OR\n Anomaly Proficiency: Any Amount\n\n Skill priority\n Special Attack\n\n Chain Attack\n\n Assist\n\n Dodge\n\n Basic Attack\n\n Video guides\n\n Teams & Synergy\n\n Synergy\n Below we list only the most important synergies for Astra Yao . The character can work with others if you know what to do and how to use them.\n\n Evelyn - Astra Yao has a particular synergy with Evelyn because she's able to provide all her typical buffs to her, but most importantly her Ultimate allows your next 2 Quick Assists to become Chain Attacks — Chains being most relevant for Evelyn to exploit, the synergy between the two is particularly noteworthy and she provides a drastic boost to Evelyn's damage as a result (even though the same could be said for a lot of characters, it's especially remarkable in this example).\n Ye Shunguang Anby: Soldier 0 Seed Soldier 11 Zhu Yuan Nekomata - Astra is in practice the dedicated \"Attacker Support\" Agent, so it's no wonder she has good synergies with them. For some, like Ye Shunguang, Soldier 0 - Anby and Seed, there isn't anything in particular that Astra offers besides strong buffs and little to no field time commitment, but that alone is still enough to make her one of the best supports. For others, Astra's ability to provide up to 2 Chain Attacks every Ultimate use is incredibly powerful, be it to give Soldier 11 more uses of her enhanced Fire Suppression B5, giving extra Shotshell refills to Zhu Yuan (being particularly strong synergy with her M1) or merely allowing for better stun combos (Nekomata, Billy, Anton, etc.), resulting in a universally strong unit that works with almost any Attacker team.\n Miyabi Yanagi Jane Doe Burnice - Astra Yao takes pretty much no field time — you only swap her in at the start to activate her buffs via her Special, you use her to perform Quick Assists, and you use her Ultimate typically during Stun windows. That's it. Therefore, any DPS character that benefits from taking a lot of field time especially benefits from having Astra Yao on the team, and this includes the faces above.\n Nicole Trigger - Astra Yao enables a particular team archetype to function especially well, being Double Support. On certain DPS characters, it's straight-up their best team by far, and on most units it's at least slightly better than other choices or close to them. Nicole and Trigger are the best partners for Astra to pair with for Double Support teams because they take extremely little field time as well, allowing your DPS character to take the spotlight for almost the whole gameplay — Nicole provides more potent buffs and debuffs, Trigger provides more Daze and damage. Depending on the DPS used, the two will alternate in coordination with Astra Yao to make for one of the best team archetypes in the game.\n Teams (Shiyu Defense)\n This section lists most popular teams featuring Astra Yao in the current phase of Shiyu Defense.\n Rank 6\n App. rate: 12.88 %\n Avg. time: 32829\n\n Rank 12\n App. rate: 7.14 %\n Avg. time: 30326\n\n Rank 13\n App. rate: 4.96 %\n Avg. time: 30788\n\n Rank 16\n App. rate: 3.96 %\n Avg. time: 30781\n\n Rank 20\n App. rate: 2.31 %\n Avg. time: 25791\n\n Rank 23\n App. rate: 1.57 %\n Avg. time: 29841\n\n Rank 32\n App. rate: 0.98 %\n Avg. time: 32609\n\n Rank 33\n App. rate: 0.97 %\n Avg. time: 32533\n\n Rank 35\n App. rate: 0.94 %\n Avg. time: 30507\n\n Rank 37\n App. rate: 0.87 %\n Avg. time: 31738\n\n Teams (Deadly Assault)\n This section lists most popular teams featuring Astra Yao in the current phase of Deadly Assault.\n Rank 9\n App. rate: 7.45 %\n Avg. score: 25141\n\n Rank 15\n App. rate: 2.88 %\n Avg. score: 23659\n\n Rank 16\n App. rate: 2.75 %\n Avg. score: 21102\n\n Rank 20\n App. rate: 1.65 %\n Avg. score: 26374\n\n Rank 27\n App. rate: 1.17 %\n Avg. score: 24495\n\n Rank 28\n App. rate: 1.06 %\n Avg. score: 23728\n\n Rank 32\n App. rate: 0.88 %\n Avg. score: 24655\n\n Rank 42\n App. rate: 0.56 %\n Avg. score: 23715\n\n Rank 45\n App. rate: 0.5 %\n Avg. score: 26820\n\n Rank 47\n App. rate: 0.47 %\n Avg. score: 25243"
 }

@@ -1,0 +1,293 @@
+{
+  "id": "characters:liino",
+  "provider": "Prydwen",
+  "game": "endfield",
+  "gameName": "Arknights: Endfield",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "liino",
+  "name": "Liino",
+  "title": "Liino Best Build Guide",
+  "sourcePath": "/arknights-endfield/characters/liino",
+  "contentStatus": "beta",
+  "statusLabels": [
+    "Soon"
+  ],
+  "scrapedAt": "2026-07-18T07:14:17.186Z",
+  "updatedText": "16/July/2026",
+  "meta": {
+    "title": "Liino Best Build Guide | Arknights: Endfield",
+    "description": ""
+  },
+  "facts": {
+    "rarity": 6,
+    "weapon": "Polearm",
+    "class": "Supporter",
+    "element": "Electric"
+  },
+  "assets": [
+    {
+      "id": "46712342b038",
+      "sourceHash": "46712342b038",
+      "kind": "characters",
+      "name": "Character",
+      "fileStem": "liino-card",
+      "path": "Prydwen/endfield/assets/characters/liino-card-46712342b038.webp",
+      "width": 640,
+      "height": 800
+    },
+    {
+      "id": "a88184098f8f",
+      "sourceHash": "a88184098f8f",
+      "kind": "characters",
+      "name": "Liino full illustration",
+      "fileStem": "liino-full",
+      "path": "Prydwen/endfield/assets/characters/liino-full-illustration-a88184098f8f.webp",
+      "width": 600,
+      "height": 800
+    }
+  ],
+  "sections": [
+    {
+      "id": "liino-best-build-guide-0",
+      "level": 1,
+      "heading": "Liino Best Build Guide",
+      "text": "Last updated: 16/July/2026",
+      "assets": [
+        {
+          "id": "46712342b038",
+          "sourceHash": "46712342b038",
+          "kind": "characters",
+          "name": "Character",
+          "fileStem": "liino-card",
+          "path": "Prydwen/endfield/assets/characters/liino-card-46712342b038.webp",
+          "width": 640,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Liino is a 6 -star character in Arknights: Endfield (AKE). Liino wields a Polearm and belongs to the Supporter class. Liino also has access to the Electric element. This guide provides a comprehensive overview of Liino 's best build, including recommended Weapons, Gear pieces, Stats, and the strongest team compositions and rotations that maximize their potential.\n\n To learn more about Liino check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - whether it's best build, teams, synergies or calculations.",
+      "assets": []
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "Liino has no video guide yet.",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Not yet available\n\n Last major build/calcs update\n Not yet available\n\n Last profile update*\n 16/July/2026\n\n *Profile update means smaller edits to the guide that don't require new calculations.\n\n To learn more about Liino check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - whether it's best build, teams, synergies or calculations.",
+      "assets": []
+    },
+    {
+      "id": "best-teams-7",
+      "level": 2,
+      "heading": "Best Teams",
+      "text": "Profile",
+      "assets": []
+    },
+    {
+      "id": "attributes-level-90-9",
+      "level": 3,
+      "heading": "Attributes (level 90)",
+      "text": "The yellow color shows the Primary Attribute and the green Secondary Attribute . Both of those attributes, on top of their normal bonuses, provide additional ATK to the character.\n Liino attributes aren't available yet. They will be added soon!",
+      "assets": []
+    },
+    {
+      "id": "skills-11",
+      "level": 3,
+      "heading": "Skills",
+      "text": "Basic Attack\n Starry Heart Throb",
+      "assets": []
+    },
+    {
+      "id": "basic-attack-12",
+      "level": 6,
+      "heading": "BASIC ATTACK:",
+      "text": "Liino can perform up to 5 basic attack sequences, dealing Electric DMG to the enemy. When performing a Finisher on an enemy, Liino deals massive Electric DMG and restores some SP.",
+      "assets": []
+    },
+    {
+      "id": "finisher-14",
+      "level": 6,
+      "heading": "FINISHER:",
+      "text": "Battle Skill\n Dazzling Focus\n\n Costs a small amount of SP to deal Electric DMG to enemies, and then enters Vocalist Stance for an extended period. While this stance is active, Liino grants the entire team an ATK Boost, provides HP Treatment to operators within range, and periodically performs additional attacks on nearby enemies.\n\n Combo Skill\n Delightful Harmonics\n\n Deals Electric DMG to enemies, grants HP Treatment to the controlled operator, and gains additional Ultimate Energy to herself.\n\n Trigger: While Vocalist Stance is active, when an Arts Reaction is consumed or applied on an enemy.\n\n Ultimate\n Dawnstar Concerto\n\n Liino gives HP Treatment to the entire team while entering Cosmovoice Stance for a period of time, dealing DMG and forcibly applying Electrification to enemies in a large area of effect (AOE). While active, this stance continuously grants powerful buffs and HP Treatment to allied operators while dealing continuous DMG to enemies.",
+      "assets": []
+    },
+    {
+      "id": "talents-16",
+      "level": 3,
+      "heading": "Talents",
+      "text": "Liino Talents are currently missing. They will be added soon!",
+      "assets": []
+    },
+    {
+      "id": "potential-dupes-18",
+      "level": 3,
+      "heading": "Potential (dupes)",
+      "text": "Liino Potential information are currently missing. They will be added soon!",
+      "assets": []
+    },
+    {
+      "id": "lore-20",
+      "level": 3,
+      "heading": "Lore",
+      "text": "Liino lore is currently missing. It will be added soon!",
+      "assets": []
+    },
+    {
+      "id": "voice-actors-22",
+      "level": 3,
+      "heading": "Voice Actors",
+      "text": "ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -",
+      "assets": []
+    },
+    {
+      "id": "gallery-24",
+      "level": 3,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "a88184098f8f",
+          "sourceHash": "a88184098f8f",
+          "kind": "characters",
+          "name": "Liino full illustration",
+          "fileStem": "liino-full",
+          "path": "Prydwen/endfield/assets/characters/liino-full-illustration-a88184098f8f.webp",
+          "width": 600,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "id": "ratings-26",
+      "level": 3,
+      "heading": "Ratings",
+      "text": "Liino ratings aren't available yet. It will be added soon!",
+      "assets": []
+    },
+    {
+      "id": "pros-cons-28",
+      "level": 3,
+      "heading": "Pros & Cons",
+      "text": "Liino pros & cons aren't available yet. They will be added soon.",
+      "assets": []
+    },
+    {
+      "id": "review-30",
+      "level": 3,
+      "heading": "Review",
+      "text": "Liino review isn't available yet. It will be added soon!\n\n Build",
+      "assets": []
+    },
+    {
+      "id": "best-weapons-32",
+      "level": 2,
+      "heading": "Best Weapons",
+      "text": "Liino best Weapons aren't available yet. They will be added soon.",
+      "assets": []
+    },
+    {
+      "id": "best-gear-34",
+      "level": 2,
+      "heading": "Best Gear",
+      "text": "Liino best Gear aren't available yet. They will be added soon.",
+      "assets": []
+    },
+    {
+      "id": "best-gear-pieces-36",
+      "level": 3,
+      "heading": "Best Gear Pieces",
+      "text": "Liino is a Support, hence there will be no calculations available for them to show the various gear pieces and their percentage difference.",
+      "assets": []
+    },
+    {
+      "id": "potentials-review-38",
+      "level": 2,
+      "heading": "Potentials Review",
+      "text": "Liino dupes reviews aren't available yet. They will be added soon.",
+      "assets": []
+    },
+    {
+      "id": "calculations-40",
+      "level": 3,
+      "heading": "Calculations",
+      "text": "Liino is a Support, hence there will be no calculations available for them to show the team setup and damage split.",
+      "assets": []
+    },
+    {
+      "id": "skill-priority-42",
+      "level": 2,
+      "heading": "Skill Priority",
+      "text": "Liino skill priority information aren't available yet. They will be added soon.\n\n Teams and Synergies",
+      "assets": []
+    },
+    {
+      "id": "synergies-44",
+      "level": 3,
+      "heading": "Synergies",
+      "text": "Liino synergies aren't available yet. They will be added soon.",
+      "assets": []
+    },
+    {
+      "id": "teams-46",
+      "level": 3,
+      "heading": "Teams",
+      "text": "Liino teams aren't listed in any specific order - so they're not listed best to worst or vice versa. Check our Team Tier List for more information about best teams.\n\n Liino team compositions aren't available yet. They will be added soon.",
+      "assets": []
+    }
+  ],
+  "recommendations": {
+    "best-teams": {
+      "label": "Best Teams",
+      "sections": [
+        {
+          "heading": "Best Teams",
+          "text": "Profile",
+          "assets": []
+        },
+        {
+          "heading": "Teams",
+          "text": "Liino teams aren't listed in any specific order - so they're not listed best to worst or vice versa. Check our Team Tier List for more information about best teams.\n\n Liino team compositions aren't available yet. They will be added soon.",
+          "assets": []
+        }
+      ]
+    },
+    "best-weapons": {
+      "label": "Best Weapons",
+      "sections": [
+        {
+          "heading": "Best Weapons",
+          "text": "Liino best Weapons aren't available yet. They will be added soon.",
+          "assets": []
+        }
+      ]
+    },
+    "best-gear": {
+      "label": "Best Gear",
+      "sections": [
+        {
+          "heading": "Best Gear",
+          "text": "Liino best Gear aren't available yet. They will be added soon.",
+          "assets": []
+        },
+        {
+          "heading": "Best Gear Pieces",
+          "text": "Liino is a Support, hence there will be no calculations available for them to show the various gear pieces and their percentage difference.",
+          "assets": []
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Liino Best Build Guide | Arknights: Endfield\n \n\n Arknights: Endfield\n Home Database Characters Gear Weapons\n Tier Lists Tier List Team Tier List\n Guides Guides\n Tools Team Builder Adv. Team Builder Rotation Builder Gacha Simulator Material Planner Character Comparison Patch Timeline\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Arknights: Endfield\n /\n Characters\n /\n Liino\n Liino Best Build Guide\n Last updated: 16/July/2026\n\n Introduction\n\n Liino is a 6 -star character in Arknights: Endfield (AKE). Liino wields a Polearm and belongs to the Supporter class. Liino also has access to the Electric element. This guide provides a comprehensive overview of Liino 's best build, including recommended Weapons, Gear pieces, Stats, and the strongest team compositions and rotations that maximize their potential.\n\n To learn more about Liino check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - whether it's best build, teams, synergies or calculations.\n\n Video guide\n\n Liino has no video guide yet.\n\n Update tracker\n\n Last review update\n Not yet available\n\n Last major build/calcs update\n Not yet available\n\n Last profile update*\n 16/July/2026\n\n *Profile update means smaller edits to the guide that don't require new calculations.\n\n To learn more about Liino check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - whether it's best build, teams, synergies or calculations.\n\n Kit\n\n Review\n\n Build\n\n Best Teams\n\n Profile\n\n Attributes (level 90)\n\n The yellow color shows the Primary Attribute and the green Secondary Attribute . Both of those attributes, on top of their normal bonuses, provide additional ATK to the character.\n Liino attributes aren't available yet. They will be added soon!\n\n Skills\n\n Basic Attack\n Starry Heart Throb\n\n BASIC ATTACK:\n Liino can perform up to 5 basic attack sequences, dealing Electric DMG to the enemy. When performing a Finisher on an enemy, Liino deals massive Electric DMG and restores some SP.\n\n DIVE ATTACK:\n\n FINISHER:\n\n Battle Skill\n Dazzling Focus\n\n Costs a small amount of SP to deal Electric DMG to enemies, and then enters Vocalist Stance for an extended period. While this stance is active, Liino grants the entire team an ATK Boost, provides HP Treatment to operators within range, and periodically performs additional attacks on nearby enemies.\n\n Combo Skill\n Delightful Harmonics\n\n Deals Electric DMG to enemies, grants HP Treatment to the controlled operator, and gains additional Ultimate Energy to herself.\n\n Trigger: While Vocalist Stance is active, when an Arts Reaction is consumed or applied on an enemy.\n\n Ultimate\n Dawnstar Concerto\n\n Liino gives HP Treatment to the entire team while entering Cosmovoice Stance for a period of time, dealing DMG and forcibly applying Electrification to enemies in a large area of effect (AOE). While active, this stance continuously grants powerful buffs and HP Treatment to allied operators while dealing continuous DMG to enemies.\n\n Talents\n\n Liino Talents are currently missing. They will be added soon!\n\n Potential (dupes)\n\n Liino Potential information are currently missing. They will be added soon!\n\n Lore\n\n Liino lore is currently missing. It will be added soon!\n\n Voice Actors\n\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n\n Liino ratings aren't available yet. It will be added soon!\n\n Pros & Cons\n\n Liino pros & cons aren't available yet. They will be added soon.\n\n Review\n\n Liino review isn't available yet. It will be added soon!\n\n Build\n\n Best Weapons\n\n Liino best Weapons aren't available yet. They will be added soon.\n\n Best Gear\n\n Liino best Gear aren't available yet. They will be added soon.\n\n Best Gear Pieces\n\n Liino is a Support, hence there will be no calculations available for them to show the various gear pieces and their percentage difference.\n\n Potentials Review\n\n Liino dupes reviews aren't available yet. They will be added soon.\n\n Calculations\n\n Liino is a Support, hence there will be no calculations available for them to show the team setup and damage split.\n\n Skill Priority\n\n Liino skill priority information aren't available yet. They will be added soon.\n\n Teams and Synergies\n\n Synergies\n\n Liino synergies aren't available yet. They will be added soon.\n\n Teams\n\n Liino teams aren't listed in any specific order - so they're not listed best to worst or vice versa. Check our Team Tier List for more information about best teams.\n\n Liino team compositions aren't available yet. They will be added soon."
+}

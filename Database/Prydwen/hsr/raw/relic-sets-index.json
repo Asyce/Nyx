@@ -3,7 +3,7 @@
   "game": "hsr",
   "collection": "relic-sets",
   "sourcePath": "/star-rail/guides/relic-sets",
-  "scrapedAt": "2026-07-10T08:49:31.188Z",
+  "scrapedAt": "2026-07-18T07:14:17.186Z",
   "detailPagesTotal": 0,
   "detailPagesScraped": 0,
   "staleDetailPagesRemoved": 0,
@@ -182,11 +182,11 @@
       "fields": {
         "type": "PLANETARY ORNAMENT SET",
         "bonuses": [
-          "(2) Unknown",
-          "(4) Unknown"
+          "(2) When entering combat, if the wearer's Max Energy is greater than or equal to 200 , increases the wearer's DMG dealt by 0.2% for every 1 point exceeding this value, up to a max increase of 32% .",
+          "(4)"
         ]
       },
-      "text": "Cosmic Life Sciences Institute\nType: PLANETARY ORNAMENT SET\n(2) Unknown\n(4) Unknown"
+      "text": "Cosmic Life Sciences Institute\nType: PLANETARY ORNAMENT SET\n(2) When entering combat, if the wearer's Max Energy is greater than or equal to 200 , increases the wearer's DMG dealt by 0.2% for every 1 point exceeding this value, up to a max increase of 32% .\n(4)"
     },
     {
       "id": "divine-querying-master-smith",
@@ -283,11 +283,11 @@
       "fields": {
         "type": "PLANETARY ORNAMENT SET",
         "bonuses": [
-          "(2) Unknown",
-          "(4) Unknown"
+          "(2) Increases the wearer's CRIT Rate by 8% . When entering combat, if the wearer and another teammate are both Trailblaze Companions characters, increases the wearer's CRIT DMG by 32% .",
+          "(4)"
         ]
       },
-      "text": "Fallen Star Anchorage\nType: PLANETARY ORNAMENT SET\n(2) Unknown\n(4) Unknown"
+      "text": "Fallen Star Anchorage\nType: PLANETARY ORNAMENT SET\n(2) Increases the wearer's CRIT Rate by 8% . When entering combat, if the wearer and another teammate are both Trailblaze Companions characters, increases the wearer's CRIT DMG by 32% .\n(4)"
     },
     {
       "id": "firesmith-of-lava-forging",

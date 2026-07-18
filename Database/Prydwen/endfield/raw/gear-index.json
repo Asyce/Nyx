@@ -3,7 +3,7 @@
   "game": "endfield",
   "collection": "gear",
   "sourcePath": "/arknights-endfield/gear",
-  "scrapedAt": "2026-07-10T08:49:31.188Z",
+  "scrapedAt": "2026-07-18T07:14:17.186Z",
   "detailPagesTotal": 0,
   "detailPagesScraped": 0,
   "staleDetailPagesRemoved": 0,
@@ -22,7 +22,7 @@
         "def": "+ 21",
         "strength": "+ 32",
         "will": "+ 21",
-        "physicalDmg": "+ 23.00%"
+        "physical_dmg": "+ 23.00%"
       },
       "text": "Aethertech Analysis Band\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nStrength :\n+ 32\nWill :\n+ 21\nPhysical DMG :\n+ 23.00%\nGear Set (3-PC)\nAethertech\nAttack + 8% . When the wearer applies Vulnerability , Physical DMG +8% for 15s . This effect can reach 4 stacks. If the target already has 4 stack(s) of Vulnerability , the wearer gains an additional Physical DMG +16% for 10s . This effect cannot stack."
     },
@@ -40,7 +40,7 @@
         "def": "+ 42",
         "agility": "+ 65",
         "strength": "+ 43",
-        "artsIntensity": "+ 34"
+        "arts_intensity": "+ 34"
       },
       "text": "Aethertech Gloves\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nAgility :\n+ 65\nStrength :\n+ 43\nArts Intensity :\n+ 34\nGear Set (3-PC)\nAethertech\nAttack + 8% . When the wearer applies Vulnerability , Physical DMG +8% for 15s . This effect can reach 4 stacks. If the target already has 4 stack(s) of Vulnerability , the wearer gains an additional Physical DMG +16% for 10s . This effect cannot stack."
     },
@@ -58,7 +58,7 @@
         "def": "+ 42",
         "will": "+ 65",
         "agility": "+ 43",
-        "allSkillDmg": "+ 23.00%"
+        "all_skill_dmg": "+ 23.00%"
       },
       "text": "Aethertech Light Gloves\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nWill :\n+ 65\nAgility :\n+ 43\nAll Skill DMG :\n+ 23.00%\nGear Set (3-PC)\nAethertech\nAttack + 8% . When the wearer applies Vulnerability , Physical DMG +8% for 15s . This effect can reach 4 stacks. If the target already has 4 stack(s) of Vulnerability , the wearer gains an additional Physical DMG +16% for 10s . This effect cannot stack."
     },
@@ -76,7 +76,7 @@
         "def": "+ 56",
         "strength": "+ 87",
         "will": "+ 58",
-        "dmgBonusVsStaggered": "+ 20.70%"
+        "dmg_bonus_vs_staggered": "+ 20.70%"
       },
       "text": "Aethertech Plating\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nStrength :\n+ 87\nWill :\n+ 58\nDMG Bonus vs Staggered :\n+ 20.70%\nGear Set (3-PC)\nAethertech\nAttack + 8% . When the wearer applies Vulnerability , Physical DMG +8% for 15s . This effect can reach 4 stacks. If the target already has 4 stack(s) of Vulnerability , the wearer gains an additional Physical DMG +16% for 10s . This effect cannot stack."
     },
@@ -94,7 +94,7 @@
         "def": "+ 21",
         "agility": "+ 32",
         "strength": "+ 21",
-        "artsIntensity": "+ 41"
+        "arts_intensity": "+ 41"
       },
       "text": "Aethertech Stabilizer\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nAgility :\n+ 32\nStrength :\n+ 21\nArts Intensity :\n+ 41\nGear Set (3-PC)\nAethertech\nAttack + 8% . When the wearer applies Vulnerability , Physical DMG +8% for 15s . This effect can reach 4 stacks. If the target already has 4 stack(s) of Vulnerability , the wearer gains an additional Physical DMG +16% for 10s . This effect cannot stack."
     },
@@ -112,7 +112,7 @@
         "def": "+ 21",
         "agility": "+ 32",
         "strength": "+ 21",
-        "physicalDmg": "+ 23.00%"
+        "physical_dmg": "+ 23.00%"
       },
       "text": "Aethertech Stabilizer T1\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nAgility :\n+ 32\nStrength :\n+ 21\nPhysical DMG :\n+ 23.00%\nGear Set (3-PC)\nAethertech\nAttack + 8% . When the wearer applies Vulnerability , Physical DMG +8% for 15s . This effect can reach 4 stacks. If the target already has 4 stack(s) of Vulnerability , the wearer gains an additional Physical DMG +16% for 10s . This effect cannot stack."
     },
@@ -130,9 +130,168 @@
         "def": "+ 21",
         "strength": "+ 32",
         "agility": "+ 21",
-        "battleSkillDmg": "+ 41.40%"
+        "battle_skill_dmg": "+ 41.40%"
       },
       "text": "Aethertech Watch\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nStrength :\n+ 32\nAgility :\n+ 21\nBattle Skill DMG :\n+ 41.40%\nGear Set (3-PC)\nAethertech\nAttack + 8% . When the wearer applies Vulnerability , Physical DMG +8% for 15s . This effect can reach 4 stacks. If the target already has 4 stack(s) of Vulnerability , the wearer gains an additional Physical DMG +16% for 10s . This effect cannot stack."
+    },
+    {
+      "id": "aic-fieldwork-armor",
+      "name": "AIC Fieldwork Armor",
+      "kind": "gear",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/gear/gear-130-e8ce87f4c3b6.webp",
+      "assetId": "e8ce87f4c3b6",
+      "fields": {
+        "level": "70",
+        "type": "Armor",
+        "def": "+ 48",
+        "main_attribute": "+ 74",
+        "secondary_attribute": "+ 49",
+        "arts_dmg": "+ 9.30%"
+      },
+      "text": "AIC Fieldwork Armor\nLevel: 70\nType: Armor\nDEF: + 48\nGear Attributes\nMain Attribute :\n+ 74\nSecondary Attribute :\n+ 49\nArts DMG :\n+ 9.30%\nGear Set (3-PC)\nAIC Fieldwork\n+ . Wearer gains DMG Dealt +20% for all types of DMG, 10% DMG Reduction against all types of DMG, and Ultimate Gain Efficiency +10% ."
+    },
+    {
+      "id": "aic-fieldwork-ember",
+      "name": "AIC Fieldwork Ember",
+      "kind": "gear",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/gear/gear-137-940faa48c130.webp",
+      "assetId": "940faa48c130",
+      "fields": {
+        "level": "70",
+        "type": "Kit",
+        "def": "+ 18",
+        "main_attribute": "+ 27",
+        "secondary_attribute": "+ 18",
+        "ultimate_gain_efficiency": "+ 21.10%"
+      },
+      "text": "AIC Fieldwork Ember\nLevel: 70\nType: Kit\nDEF: + 18\nGear Attributes\nMain Attribute :\n+ 27\nSecondary Attribute :\n+ 18\nUltimate Gain Efficiency :\n+ 21.10%\nGear Set (3-PC)\nAIC Fieldwork\n+ . Wearer gains DMG Dealt +20% for all types of DMG, 10% DMG Reduction against all types of DMG, and Ultimate Gain Efficiency +10% ."
+    },
+    {
+      "id": "aic-fieldwork-flashlight",
+      "name": "AIC Fieldwork Flashlight",
+      "kind": "gear",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/gear/gear-136-74b8797668c4.webp",
+      "assetId": "74b8797668c4",
+      "fields": {
+        "level": "70",
+        "type": "Kit",
+        "def": "+ 18",
+        "secondary_attribute": "+ 17.70%",
+        "main_attribute": "+ 18"
+      },
+      "text": "AIC Fieldwork Flashlight\nLevel: 70\nType: Kit\nDEF: + 18\nGear Attributes\nSecondary Attribute :\n+ 27\nMain Attribute :\n+ 18\nSecondary Attribute :\n+ 17.70%\nGear Set (3-PC)\nAIC Fieldwork\n+ . Wearer gains DMG Dealt +20% for all types of DMG, 10% DMG Reduction against all types of DMG, and Ultimate Gain Efficiency +10% ."
+    },
+    {
+      "id": "aic-fieldwork-gloves",
+      "name": "AIC Fieldwork Gloves",
+      "kind": "gear",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/gear/gear-134-9df7f3523954.webp",
+      "assetId": "9df7f3523954",
+      "fields": {
+        "level": "70",
+        "type": "Gloves",
+        "def": "+ 36",
+        "main_attribute": "+ 55",
+        "secondary_attribute": "+ 37",
+        "arts_dmg": "+ 15.50%"
+      },
+      "text": "AIC Fieldwork Gloves\nLevel: 70\nType: Gloves\nDEF: + 36\nGear Attributes\nMain Attribute :\n+ 55\nSecondary Attribute :\n+ 37\nArts DMG :\n+ 15.50%\nGear Set (3-PC)\nAIC Fieldwork\n+ . Wearer gains DMG Dealt +20% for all types of DMG, 10% DMG Reduction against all types of DMG, and Ultimate Gain Efficiency +10% ."
+    },
+    {
+      "id": "aic-fieldwork-hands",
+      "name": "AIC Fieldwork Hands",
+      "kind": "gear",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/gear/gear-135-252a385aec76.webp",
+      "assetId": "252a385aec76",
+      "fields": {
+        "level": "70",
+        "type": "Gloves",
+        "def": "+ 36",
+        "main_attribute": "+ 55",
+        "secondary_attribute": "+ 37",
+        "ultimate_gain_efficiency": "+ 17.60%"
+      },
+      "text": "AIC Fieldwork Hands\nLevel: 70\nType: Gloves\nDEF: + 36\nGear Attributes\nMain Attribute :\n+ 55\nSecondary Attribute :\n+ 37\nUltimate Gain Efficiency :\n+ 17.60%\nGear Set (3-PC)\nAIC Fieldwork\n+ . Wearer gains DMG Dealt +20% for all types of DMG, 10% DMG Reduction against all types of DMG, and Ultimate Gain Efficiency +10% ."
+    },
+    {
+      "id": "aic-fieldwork-machete",
+      "name": "AIC Fieldwork Machete",
+      "kind": "gear",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/gear/gear-138-9e576d135f64.webp",
+      "assetId": "9e576d135f64",
+      "fields": {
+        "level": "70",
+        "type": "Kit",
+        "def": "+ 18",
+        "main_attribute": "+ 27",
+        "secondary_attribute": "+ 18",
+        "arts_dmg": "+ 18.60%"
+      },
+      "text": "AIC Fieldwork Machete\nLevel: 70\nType: Kit\nDEF: + 18\nGear Attributes\nMain Attribute :\n+ 27\nSecondary Attribute :\n+ 18\nArts DMG :\n+ 18.60%\nGear Set (3-PC)\nAIC Fieldwork\n+ . Wearer gains DMG Dealt +20% for all types of DMG, 10% DMG Reduction against all types of DMG, and Ultimate Gain Efficiency +10% ."
+    },
+    {
+      "id": "aic-fieldwork-plate",
+      "name": "AIC Fieldwork Plate",
+      "kind": "gear",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/gear/gear-132-05cfe3f2214b.webp",
+      "assetId": "05cfe3f2214b",
+      "fields": {
+        "level": "70",
+        "type": "Armor",
+        "def": "+ 48",
+        "main_attribute": "+ 74",
+        "secondary_attribute": "+ 49",
+        "ultimate_gain_efficiency": "+ 10.50%"
+      },
+      "text": "AIC Fieldwork Plate\nLevel: 70\nType: Armor\nDEF: + 48\nGear Attributes\nMain Attribute :\n+ 74\nSecondary Attribute :\n+ 49\nUltimate Gain Efficiency :\n+ 10.50%\nGear Set (3-PC)\nAIC Fieldwork\n+ . Wearer gains DMG Dealt +20% for all types of DMG, 10% DMG Reduction against all types of DMG, and Ultimate Gain Efficiency +10% ."
+    },
+    {
+      "id": "aic-fieldwork-vest",
+      "name": "AIC Fieldwork Vest",
+      "kind": "gear",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/gear/gear-131-dc3d5de4850f.webp",
+      "assetId": "dc3d5de4850f",
+      "fields": {
+        "level": "70",
+        "type": "Armor",
+        "def": "+ 48",
+        "secondary_attribute": "+ 8.90%",
+        "main_attribute": "+ 49"
+      },
+      "text": "AIC Fieldwork Vest\nLevel: 70\nType: Armor\nDEF: + 48\nGear Attributes\nSecondary Attribute :\n+ 74\nMain Attribute :\n+ 49\nSecondary Attribute :\n+ 8.90%\nGear Set (3-PC)\nAIC Fieldwork\n+ . Wearer gains DMG Dealt +20% for all types of DMG, 10% DMG Reduction against all types of DMG, and Ultimate Gain Efficiency +10% ."
+    },
+    {
+      "id": "aic-fieldwork-wraps",
+      "name": "AIC Fieldwork Wraps",
+      "kind": "gear",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/gear/gear-133-a6fa11f3d9e8.webp",
+      "assetId": "a6fa11f3d9e8",
+      "fields": {
+        "level": "70",
+        "type": "Gloves",
+        "def": "+ 36",
+        "secondary_attribute": "+ 14.80%",
+        "main_attribute": "+ 37"
+      },
+      "text": "AIC Fieldwork Wraps\nLevel: 70\nType: Gloves\nDEF: + 36\nGear Attributes\nSecondary Attribute :\n+ 55\nMain Attribute :\n+ 37\nSecondary Attribute :\n+ 14.80%\nGear Set (3-PC)\nAIC Fieldwork\n+ . Wearer gains DMG Dealt +20% for all types of DMG, 10% DMG Reduction against all types of DMG, and Ultimate Gain Efficiency +10% ."
     },
     {
       "id": "bonekrusha-figurine",
@@ -148,7 +307,7 @@
         "def": "+ 21",
         "will": "+ 32",
         "agility": "+ 21",
-        "battleSkillDmg": "+ 41.40%"
+        "battle_skill_dmg": "+ 41.40%"
       },
       "text": "Bonekrusha Figurine\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nWill :\n+ 32\nAgility :\n+ 21\nBattle Skill DMG :\n+ 41.40%\nGear Set (3-PC)\nBonekrusha\nAttack + 15% . When the wearer casts a combo skill, gain 1 stack of Bonekrushing Smash that grants DMG +30% to the next battle skill cast. Bonekrushing Smash can stack 2 time(s)."
     },
@@ -166,7 +325,7 @@
         "def": "+ 21",
         "will": "+ 32",
         "intellect": "+ 21",
-        "comboSkillDmg": "+ 41.40%"
+        "combo_skill_dmg": "+ 41.40%"
       },
       "text": "Bonekrusha Figurine T1\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nWill :\n+ 32\nIntellect :\n+ 21\nCombo Skill DMG :\n+ 41.40%\nGear Set (3-PC)\nBonekrusha\nAttack + 15% . When the wearer casts a combo skill, gain 1 stack of Bonekrushing Smash that grants DMG +30% to the next battle skill cast. Bonekrushing Smash can stack 2 time(s)."
     },
@@ -184,7 +343,7 @@
         "def": "+ 21",
         "will": "+ 32",
         "intellect": "+ 21",
-        "battleSkillDmg": "+ 41.40%"
+        "battle_skill_dmg": "+ 41.40%"
       },
       "text": "Bonekrusha Figurine T2\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nWill :\n+ 32\nIntellect :\n+ 21\nBattle Skill DMG :\n+ 41.40%\nGear Set (3-PC)\nBonekrusha\nAttack + 15% . When the wearer casts a combo skill, gain 1 stack of Bonekrushing Smash that grants DMG +30% to the next battle skill cast. Bonekrushing Smash can stack 2 time(s)."
     },
@@ -202,8 +361,8 @@
         "def": "+ 42",
         "will": "+ 65",
         "agility": "+ 43",
-        "cryoDmg": "+ 19.20%",
-        "electricDmg": "+ 19.20%"
+        "cryo_dmg": "+ 19.20%",
+        "electric_dmg": "+ 19.20%"
       },
       "text": "Bonekrusha Gloves\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nWill :\n+ 65\nAgility :\n+ 43\nCryo DMG :\n+ 19.20%\nElectric DMG :\n+ 19.20%\nGear Set (3-PC)\nBonekrusha\nAttack + 15% . When the wearer casts a combo skill, gain 1 stack of Bonekrushing Smash that grants DMG +30% to the next battle skill cast. Bonekrushing Smash can stack 2 time(s)."
     },
@@ -221,7 +380,7 @@
         "def": "+ 56",
         "agility": "+ 87",
         "intellect": "+ 58",
-        "ultimateGainEfficiency": "+ 12.30%"
+        "ultimate_gain_efficiency": "+ 12.30%"
       },
       "text": "Bonekrusha Heavy Armor\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nAgility :\n+ 87\nIntellect :\n+ 58\nUltimate Gain Efficiency :\n+ 12.30%\nGear Set (3-PC)\nBonekrusha\nAttack + 15% . When the wearer casts a combo skill, gain 1 stack of Bonekrushing Smash that grants DMG +30% to the next battle skill cast. Bonekrushing Smash can stack 2 time(s)."
     },
@@ -239,7 +398,7 @@
         "def": "+ 56",
         "agility": "+ 87",
         "strength": "+ 58",
-        "comboSkillDmg": "+ 20.70%"
+        "combo_skill_dmg": "+ 20.70%"
       },
       "text": "Bonekrusha Heavy Armor T1\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nAgility :\n+ 87\nStrength :\n+ 58\nCombo Skill DMG :\n+ 20.70%\nGear Set (3-PC)\nBonekrusha\nAttack + 15% . When the wearer casts a combo skill, gain 1 stack of Bonekrushing Smash that grants DMG +30% to the next battle skill cast. Bonekrushing Smash can stack 2 time(s)."
     },
@@ -257,8 +416,8 @@
         "def": "+ 56",
         "agility": "+ 87",
         "strength": "+ 58",
-        "cryoDmg": "+ 11.50%",
-        "electricDmg": "+ 11.50%"
+        "cryo_dmg": "+ 11.50%",
+        "electric_dmg": "+ 11.50%"
       },
       "text": "Bonekrusha Heavy Armor T2\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nAgility :\n+ 87\nStrength :\n+ 58\nCryo DMG :\n+ 11.50%\nElectric DMG :\n+ 11.50%\nGear Set (3-PC)\nBonekrusha\nAttack + 15% . When the wearer casts a combo skill, gain 1 stack of Bonekrushing Smash that grants DMG +30% to the next battle skill cast. Bonekrushing Smash can stack 2 time(s)."
     },
@@ -276,7 +435,7 @@
         "def": "+ 21",
         "agility": "+ 32",
         "strength": "+ 21",
-        "dmgBonusVsStaggered": "+ 41.40%"
+        "dmg_bonus_vs_staggered": "+ 41.40%"
       },
       "text": "Bonekrusha Mask\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nAgility :\n+ 32\nStrength :\n+ 21\nDMG Bonus vs Staggered :\n+ 41.40%\nGear Set (3-PC)\nBonekrusha\nAttack + 15% . When the wearer casts a combo skill, gain 1 stack of Bonekrushing Smash that grants DMG +30% to the next battle skill cast. Bonekrushing Smash can stack 2 time(s)."
     },
@@ -294,7 +453,7 @@
         "def": "+ 21",
         "agility": "+ 32",
         "strength": "+ 21",
-        "criticalRate": "+ 10.40%"
+        "critical_rate": "+ 10.40%"
       },
       "text": "Bonekrusha Mask T1\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nAgility :\n+ 32\nStrength :\n+ 21\nCritical Rate :\n+ 10.40%\nGear Set (3-PC)\nBonekrusha\nAttack + 15% . When the wearer casts a combo skill, gain 1 stack of Bonekrushing Smash that grants DMG +30% to the next battle skill cast. Bonekrushing Smash can stack 2 time(s)."
     },
@@ -312,7 +471,7 @@
         "def": "+ 21",
         "agility": "+ 32",
         "strength": "+ 21",
-        "battleSkillDmg": "+ 41.40%"
+        "battle_skill_dmg": "+ 41.40%"
       },
       "text": "Bonekrusha Mask T2\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nAgility :\n+ 32\nStrength :\n+ 21\nBattle Skill DMG :\n+ 41.40%\nGear Set (3-PC)\nBonekrusha\nAttack + 15% . When the wearer casts a combo skill, gain 1 stack of Bonekrushing Smash that grants DMG +30% to the next battle skill cast. Bonekrushing Smash can stack 2 time(s)."
     },
@@ -330,7 +489,7 @@
         "def": "+ 56",
         "will": "+ 87",
         "strength": "+ 58",
-        "comboSkillDmg": "+ 20.70%"
+        "combo_skill_dmg": "+ 20.70%"
       },
       "text": "Bonekrusha Poncho\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nWill :\n+ 87\nStrength :\n+ 58\nCombo Skill DMG :\n+ 20.70%\nGear Set (3-PC)\nBonekrusha\nAttack + 15% . When the wearer casts a combo skill, gain 1 stack of Bonekrushing Smash that grants DMG +30% to the next battle skill cast. Bonekrushing Smash can stack 2 time(s)."
     },
@@ -340,15 +499,15 @@
       "kind": "gear",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": "Prydwen/endfield/assets/gear/gear-15-926e3820f36c.webp",
-      "assetId": "926e3820f36c",
+      "art": "Prydwen/endfield/assets/gear/gear-139-6b91c70d34fd.webp",
+      "assetId": "6b91c70d34fd",
       "fields": {
         "level": "70",
         "type": "Armor",
         "def": "+ 56",
         "will": "+ 87",
         "agility": "+ 58",
-        "ultimateGainEfficiency": "+ 12.30%"
+        "ultimate_gain_efficiency": "+ 12.30%"
       },
       "text": "Bonekrusha Poncho T1\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nWill :\n+ 87\nAgility :\n+ 58\nUltimate Gain Efficiency :\n+ 12.30%\nGear Set (3-PC)\nBonekrusha\nAttack + 15% . When the wearer casts a combo skill, gain 1 stack of Bonekrushing Smash that grants DMG +30% to the next battle skill cast. Bonekrushing Smash can stack 2 time(s)."
     },
@@ -358,16 +517,16 @@
       "kind": "gear",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": "Prydwen/endfield/assets/gear/gear-17-6cc83aa8f2b7.webp",
-      "assetId": "6cc83aa8f2b7",
+      "art": "Prydwen/endfield/assets/gear/gear-15-926e3820f36c.webp",
+      "assetId": "926e3820f36c",
       "fields": {
         "level": "70",
         "type": "Gloves",
         "def": "+ 42",
         "strength": "+ 65",
         "agility": "+ 43",
-        "heatDmg": "+ 19.20%",
-        "natureDmg": "+ 19.20%"
+        "heat_dmg": "+ 19.20%",
+        "nature_dmg": "+ 19.20%"
       },
       "text": "Bonekrusha Wristband\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nStrength :\n+ 65\nAgility :\n+ 43\nHeat DMG :\n+ 19.20%\nNature DMG :\n+ 19.20%\nGear Set (3-PC)\nBonekrusha\nAttack + 15% . When the wearer casts a combo skill, gain 1 stack of Bonekrushing Smash that grants DMG +30% to the next battle skill cast. Bonekrushing Smash can stack 2 time(s)."
     },
@@ -377,16 +536,16 @@
       "kind": "gear",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": "Prydwen/endfield/assets/gear/gear-94-bc879c2c123e.webp",
-      "assetId": "bc879c2c123e",
+      "art": "Prydwen/endfield/assets/gear/gear-140-a7d37211c7be.webp",
+      "assetId": "a7d37211c7be",
       "fields": {
         "level": "70",
         "type": "Gloves",
         "def": "+ 42",
         "agility": "+ 65",
         "strength": "+ 43",
-        "cryoDmg": "+ 19.20%",
-        "electricDmg": "+ 19.20%"
+        "cryo_dmg": "+ 19.20%",
+        "electric_dmg": "+ 19.20%"
       },
       "text": "Bonekrusha Wristband T1\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nAgility :\n+ 65\nStrength :\n+ 43\nCryo DMG :\n+ 19.20%\nElectric DMG :\n+ 19.20%\nGear Set (3-PC)\nBonekrusha\nAttack + 15% . When the wearer casts a combo skill, gain 1 stack of Bonekrushing Smash that grants DMG +30% to the next battle skill cast. Bonekrushing Smash can stack 2 time(s)."
     },
@@ -396,15 +555,15 @@
       "kind": "gear",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": "Prydwen/endfield/assets/gear/gear-19-3bb18ad35648.webp",
-      "assetId": "3bb18ad35648",
+      "art": "Prydwen/endfield/assets/gear/gear-142-5f92f82aa557.webp",
+      "assetId": "5f92f82aa557",
       "fields": {
         "level": "70",
         "type": "Armor",
         "def": "+ 56",
         "will": "+ 87",
         "intellect": "+ 58",
-        "artsIntensity": "+ 20"
+        "arts_intensity": "+ 20"
       },
       "text": "Eternal Xiranite Armor\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nWill :\n+ 87\nIntellect :\n+ 58\nArts Intensity :\n+ 20\nGear Set (3-PC)\nEternal Xiranite\nFlat HP + 1000 . When the wearer applies Amp , Protected , Susceptible , or Weakened , other teammates also gain DMG Dealt +16% for 15s . This effect cannot stack."
     },
@@ -414,17 +573,34 @@
       "kind": "gear",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": "Prydwen/endfield/assets/gear/gear-23-e5ea2a02805a.webp",
-      "assetId": "e5ea2a02805a",
+      "art": "Prydwen/endfield/assets/gear/gear-143-20b29045997a.webp",
+      "assetId": "20b29045997a",
       "fields": {
         "level": "70",
         "type": "Kit",
         "def": "+ 21",
         "will": "+ 32",
         "intellect": "+ 21",
-        "ultimateGainEfficiency": "+ 24.60%"
+        "ultimate_gain_efficiency": "+ 24.60%"
       },
       "text": "Eternal Xiranite Auxiliary Arm\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nWill :\n+ 32\nIntellect :\n+ 21\nUltimate Gain Efficiency :\n+ 24.60%\nGear Set (3-PC)\nEternal Xiranite\nFlat HP + 1000 . When the wearer applies Amp , Protected , Susceptible , or Weakened , other teammates also gain DMG Dealt +16% for 15s . This effect cannot stack."
+    },
+    {
+      "id": "eternal-xiranite-bracing-slab",
+      "name": "Eternal Xiranite Bracing Slab",
+      "kind": "gear",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/gear/gear-17-6cc83aa8f2b7.webp",
+      "assetId": "6cc83aa8f2b7",
+      "fields": {
+        "level": "70",
+        "type": "Kit",
+        "def": "+ 21",
+        "will": "+ 41",
+        "secondary_attribute": "+ 20.70%"
+      },
+      "text": "Eternal Xiranite Bracing Slab\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nWill :\n+ 41\nSecondary Attribute :\n+ 20.70%\nGear Set (3-PC)\nEternal Xiranite\nFlat HP + 1000 . When the wearer applies Amp , Protected , Susceptible , or Weakened , other teammates also gain DMG Dealt +16% for 15s . This effect cannot stack."
     },
     {
       "id": "eternal-xiranite-gloves",
@@ -432,15 +608,15 @@
       "kind": "gear",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": "Prydwen/endfield/assets/gear/gear-24-0f5968f8403f.webp",
-      "assetId": "0f5968f8403f",
+      "art": "Prydwen/endfield/assets/gear/gear-141-e4bb80410b99.webp",
+      "assetId": "e4bb80410b99",
       "fields": {
         "level": "70",
         "type": "Gloves",
         "def": "+ 42",
         "intellect": "+ 65",
         "strength": "+ 43",
-        "ultimateGainEfficiency": "+ 20.50%"
+        "ultimate_gain_efficiency": "+ 20.50%"
       },
       "text": "Eternal Xiranite Gloves\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nIntellect :\n+ 65\nStrength :\n+ 43\nUltimate Gain Efficiency :\n+ 20.50%\nGear Set (3-PC)\nEternal Xiranite\nFlat HP + 1000 . When the wearer applies Amp , Protected , Susceptible , or Weakened , other teammates also gain DMG Dealt +16% for 15s . This effect cannot stack."
     },
@@ -450,21 +626,92 @@
       "kind": "gear",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": "Prydwen/endfield/assets/gear/gear-26-ae5d588d4460.webp",
-      "assetId": "ae5d588d4460",
+      "art": "Prydwen/endfield/assets/gear/gear-94-bc879c2c123e.webp",
+      "assetId": "bc879c2c123e",
       "fields": {
         "level": "70",
         "type": "Gloves",
         "def": "+ 42",
         "intellect": "+ 65",
         "will": "+ 43",
-        "ultimateGainEfficiency": "+ 20.50%"
+        "ultimate_gain_efficiency": "+ 20.50%"
       },
       "text": "Eternal Xiranite Gloves T1\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nIntellect :\n+ 65\nWill :\n+ 43\nUltimate Gain Efficiency :\n+ 20.50%\nGear Set (3-PC)\nEternal Xiranite\nFlat HP + 1000 . When the wearer applies Amp , Protected , Susceptible , or Weakened , other teammates also gain DMG Dealt +16% for 15s . This effect cannot stack."
     },
     {
+      "id": "eternal-xiranite-hands",
+      "name": "Eternal Xiranite Hands",
+      "kind": "gear",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/gear/gear-19-3bb18ad35648.webp",
+      "assetId": "3bb18ad35648",
+      "fields": {
+        "level": "70",
+        "type": "Gloves",
+        "def": "+ 42",
+        "will": "+ 65",
+        "agility": "+ 43",
+        "ultimate_gain_efficiency": "+ 20.50%"
+      },
+      "text": "Eternal Xiranite Hands\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nWill :\n+ 65\nAgility :\n+ 43\nUltimate Gain Efficiency :\n+ 20.50%\nGear Set (3-PC)\nEternal Xiranite\nFlat HP + 1000 . When the wearer applies Amp , Protected , Susceptible , or Weakened , other teammates also gain DMG Dealt +16% for 15s . This effect cannot stack."
+    },
+    {
+      "id": "eternal-xiranite-light-armor",
+      "name": "Eternal Xiranite Light Armor",
+      "kind": "gear",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/gear/gear-23-e5ea2a02805a.webp",
+      "assetId": "e5ea2a02805a",
+      "fields": {
+        "level": "70",
+        "type": "Armor",
+        "def": "+ 56",
+        "will": "+ 110",
+        "ultimate_gain_efficiency": "+ 12.30%"
+      },
+      "text": "Eternal Xiranite Light Armor\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nWill :\n+ 110\nUltimate Gain Efficiency :\n+ 12.30%\nGear Set (3-PC)\nEternal Xiranite\nFlat HP + 1000 . When the wearer applies Amp , Protected , Susceptible , or Weakened , other teammates also gain DMG Dealt +16% for 15s . This effect cannot stack."
+    },
+    {
+      "id": "eternal-xiranite-light-armor-t1",
+      "name": "Eternal Xiranite Light Armor T1",
+      "kind": "gear",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/gear/gear-24-0f5968f8403f.webp",
+      "assetId": "0f5968f8403f",
+      "fields": {
+        "level": "70",
+        "type": "Armor",
+        "def": "+ 56",
+        "intellect": "+ 87",
+        "will": "+ 58",
+        "secondary_attribute": "+ 10.40%"
+      },
+      "text": "Eternal Xiranite Light Armor T1\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nIntellect :\n+ 87\nWill :\n+ 58\nSecondary Attribute :\n+ 10.40%\nGear Set (3-PC)\nEternal Xiranite\nFlat HP + 1000 . When the wearer applies Amp , Protected , Susceptible , or Weakened , other teammates also gain DMG Dealt +16% for 15s . This effect cannot stack."
+    },
+    {
       "id": "eternal-xiranite-power-core",
       "name": "Eternal Xiranite Power Core",
+      "kind": "gear",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/gear/gear-26-ae5d588d4460.webp",
+      "assetId": "ae5d588d4460",
+      "fields": {
+        "level": "70",
+        "type": "Kit",
+        "def": "+ 21",
+        "intellect": "+ 32",
+        "strength": "+ 21",
+        "ultimate_gain_efficiency": "+ 24.60%"
+      },
+      "text": "Eternal Xiranite Power Core\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nIntellect :\n+ 32\nStrength :\n+ 21\nUltimate Gain Efficiency :\n+ 24.60%\nGear Set (3-PC)\nEternal Xiranite\nFlat HP + 1000 . When the wearer applies Amp , Protected , Susceptible , or Weakened , other teammates also gain DMG Dealt +16% for 15s . This effect cannot stack."
+    },
+    {
+      "id": "eternal-xiranite-power-core-t1",
+      "name": "Eternal Xiranite Power Core T1",
       "kind": "gear",
       "contentStatus": "live",
       "statusLabels": [],
@@ -475,14 +722,14 @@
         "type": "Kit",
         "def": "+ 21",
         "intellect": "+ 32",
-        "strength": "+ 21",
-        "ultimateGainEfficiency": "+ 24.60%"
+        "will": "+ 21",
+        "treatment_bonus": "+ 20.70%"
       },
-      "text": "Eternal Xiranite Power Core\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nIntellect :\n+ 32\nStrength :\n+ 21\nUltimate Gain Efficiency :\n+ 24.60%\nGear Set (3-PC)\nEternal Xiranite\nFlat HP + 1000 . When the wearer applies Amp , Protected , Susceptible , or Weakened , other teammates also gain DMG Dealt +16% for 15s . This effect cannot stack."
+      "text": "Eternal Xiranite Power Core T1\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nIntellect :\n+ 32\nWill :\n+ 21\nTreatment Bonus :\n+ 20.70%\nGear Set (3-PC)\nEternal Xiranite\nFlat HP + 1000 . When the wearer applies Amp , Protected , Susceptible , or Weakened , other teammates also gain DMG Dealt +16% for 15s . This effect cannot stack."
     },
     {
-      "id": "eternal-xiranite-power-core-t1",
-      "name": "Eternal Xiranite Power Core T1",
+      "id": "eternal-xiranite-wraps",
+      "name": "Eternal Xiranite Wraps",
       "kind": "gear",
       "contentStatus": "live",
       "statusLabels": [],
@@ -490,13 +737,13 @@
       "assetId": "aad43a732a97",
       "fields": {
         "level": "70",
-        "type": "Kit",
-        "def": "+ 21",
-        "intellect": "+ 32",
-        "will": "+ 21",
-        "treatmentBonus": "+ 20.70%"
+        "type": "Gloves",
+        "def": "+ 42",
+        "will": "+ 65",
+        "intellect": "+ 43",
+        "ultimate_gain_efficiency": "+ 20.50%"
       },
-      "text": "Eternal Xiranite Power Core T1\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nIntellect :\n+ 32\nWill :\n+ 21\nTreatment Bonus :\n+ 20.70%\nGear Set (3-PC)\nEternal Xiranite\nFlat HP + 1000 . When the wearer applies Amp , Protected , Susceptible , or Weakened , other teammates also gain DMG Dealt +16% for 15s . This effect cannot stack."
+      "text": "Eternal Xiranite Wraps\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nWill :\n+ 65\nIntellect :\n+ 43\nUltimate Gain Efficiency :\n+ 20.50%\nGear Set (3-PC)\nEternal Xiranite\nFlat HP + 1000 . When the wearer applies Amp , Protected , Susceptible , or Weakened , other teammates also gain DMG Dealt +16% for 15s . This effect cannot stack."
     },
     {
       "id": "frontiers-analyzer",
@@ -511,7 +758,7 @@
         "type": "Kit",
         "def": "+ 21",
         "strength": "+ 41",
-        "ultimateDmg": "+ 51.80%"
+        "ultimate_dmg": "+ 51.80%"
       },
       "text": "Frontiers Analyzer\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nStrength :\n+ 41\nUltimate DMG :\n+ 51.80%\nGear Set (3-PC)\nFrontiers\nCombo Skill CDR + 15% . When the wearer recovers SP with a skill, the team gains DMG +16% for 12s . This effect cannot stack."
     },
@@ -529,7 +776,7 @@
         "def": "+ 56",
         "strength": "+ 87",
         "intellect": "+ 58",
-        "ultimateDmg": "+ 25.90%"
+        "ultimate_dmg": "+ 25.90%"
       },
       "text": "Frontiers Armor\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nStrength :\n+ 87\nIntellect :\n+ 58\nUltimate DMG :\n+ 25.90%\nGear Set (3-PC)\nFrontiers\nCombo Skill CDR + 15% . When the wearer recovers SP with a skill, the team gains DMG +16% for 12s . This effect cannot stack."
     },
@@ -547,7 +794,7 @@
         "def": "+ 56",
         "strength": "+ 87",
         "agility": "+ 58",
-        "battleSkillDmg": "+ 20.70%"
+        "battle_skill_dmg": "+ 20.70%"
       },
       "text": "Frontiers Armor T1\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nStrength :\n+ 87\nAgility :\n+ 58\nBattle Skill DMG :\n+ 20.70%\nGear Set (3-PC)\nFrontiers\nCombo Skill CDR + 15% . When the wearer recovers SP with a skill, the team gains DMG +16% for 12s . This effect cannot stack."
     },
@@ -565,7 +812,7 @@
         "def": "+ 56",
         "agility": "+ 87",
         "intellect": "+ 58",
-        "battleSkillDmg": "+ 20.70%"
+        "battle_skill_dmg": "+ 20.70%"
       },
       "text": "Frontiers Armor T2\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nAgility :\n+ 87\nIntellect :\n+ 58\nBattle Skill DMG :\n+ 20.70%\nGear Set (3-PC)\nFrontiers\nCombo Skill CDR + 15% . When the wearer recovers SP with a skill, the team gains DMG +16% for 12s . This effect cannot stack."
     },
@@ -583,7 +830,7 @@
         "def": "+ 56",
         "agility": "+ 87",
         "intellect": "+ 58",
-        "secondaryAttribute": "+ 10.40%"
+        "secondary_attribute": "+ 10.40%"
       },
       "text": "Frontiers Armor T3\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nAgility :\n+ 87\nIntellect :\n+ 58\nSecondary Attribute :\n+ 10.40%\nGear Set (3-PC)\nFrontiers\nCombo Skill CDR + 15% . When the wearer recovers SP with a skill, the team gains DMG +16% for 12s . This effect cannot stack."
     },
@@ -601,7 +848,7 @@
         "def": "+ 42",
         "agility": "+ 65",
         "intellect": "+ 43",
-        "battleSkillDmg": "+ 34.50%"
+        "battle_skill_dmg": "+ 34.50%"
       },
       "text": "Frontiers Blight RES Gloves\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nAgility :\n+ 65\nIntellect :\n+ 43\nBattle Skill DMG :\n+ 34.50%\nGear Set (3-PC)\nFrontiers\nCombo Skill CDR + 15% . When the wearer recovers SP with a skill, the team gains DMG +16% for 12s . This effect cannot stack."
     },
@@ -619,7 +866,7 @@
         "def": "+ 21",
         "strength": "+ 32",
         "agility": "+ 21",
-        "comboSkillDmg": "+ 41.40%"
+        "combo_skill_dmg": "+ 41.40%"
       },
       "text": "Frontiers Comm\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nStrength :\n+ 32\nAgility :\n+ 21\nCombo Skill DMG :\n+ 41.40%\nGear Set (3-PC)\nFrontiers\nCombo Skill CDR + 15% . When the wearer recovers SP with a skill, the team gains DMG +16% for 12s . This effect cannot stack."
     },
@@ -637,8 +884,8 @@
         "def": "+ 21",
         "strength": "+ 32",
         "intellect": "+ 21",
-        "cryoDmg": "+ 23.00%",
-        "electricDmg": "+ 23.00%"
+        "cryo_dmg": "+ 23.00%",
+        "electric_dmg": "+ 23.00%"
       },
       "text": "Frontiers Comm T1\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nStrength :\n+ 32\nIntellect :\n+ 21\nCryo DMG :\n+ 23.00%\nElectric DMG :\n+ 23.00%\nGear Set (3-PC)\nFrontiers\nCombo Skill CDR + 15% . When the wearer recovers SP with a skill, the team gains DMG +16% for 12s . This effect cannot stack."
     },
@@ -656,7 +903,7 @@
         "def": "+ 21",
         "agility": "+ 32",
         "intellect": "+ 21",
-        "secondaryAttribute": "+ 20.70%"
+        "secondary_attribute": "+ 20.70%"
       },
       "text": "Frontiers Extra O2 Tube\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nAgility :\n+ 32\nIntellect :\n+ 21\nSecondary Attribute :\n+ 20.70%\nGear Set (3-PC)\nFrontiers\nCombo Skill CDR + 15% . When the wearer recovers SP with a skill, the team gains DMG +16% for 12s . This effect cannot stack."
     },
@@ -674,7 +921,7 @@
         "def": "+ 21",
         "intellect": "+ 32",
         "agility": "+ 21",
-        "secondaryAttribute": "+ 20.70%"
+        "secondary_attribute": "+ 20.70%"
       },
       "text": "Frontiers Extra O2 Tube T1\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nIntellect :\n+ 32\nAgility :\n+ 21\nSecondary Attribute :\n+ 20.70%\nGear Set (3-PC)\nFrontiers\nCombo Skill CDR + 15% . When the wearer recovers SP with a skill, the team gains DMG +16% for 12s . This effect cannot stack."
     },
@@ -692,7 +939,7 @@
         "def": "+ 42",
         "will": "+ 65",
         "strength": "+ 43",
-        "allSkillDmg": "+ 23.00%"
+        "all_skill_dmg": "+ 23.00%"
       },
       "text": "Frontiers Fiber Gloves\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nWill :\n+ 65\nStrength :\n+ 43\nAll Skill DMG :\n+ 23.00%\nGear Set (3-PC)\nFrontiers\nCombo Skill CDR + 15% . When the wearer recovers SP with a skill, the team gains DMG +16% for 12s . This effect cannot stack."
     },
@@ -710,7 +957,7 @@
         "def": "+ 42",
         "intellect": "+ 65",
         "agility": "+ 43",
-        "ultimateGainEfficiency": "+ 20.50%"
+        "ultimate_gain_efficiency": "+ 20.50%"
       },
       "text": "Frontiers Fiber Gloves T1\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nIntellect :\n+ 65\nAgility :\n+ 43\nUltimate Gain Efficiency :\n+ 20.50%\nGear Set (3-PC)\nFrontiers\nCombo Skill CDR + 15% . When the wearer recovers SP with a skill, the team gains DMG +16% for 12s . This effect cannot stack."
     },
@@ -727,7 +974,7 @@
         "type": "Kit",
         "def": "+ 21",
         "will": "+ 41",
-        "physicalDmg": "+ 23.00%"
+        "physical_dmg": "+ 23.00%"
       },
       "text": "Frontiers O2 Tube\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nWill :\n+ 41\nPhysical DMG :\n+ 23.00%\nGear Set (3-PC)\nFrontiers\nCombo Skill CDR + 15% . When the wearer recovers SP with a skill, the team gains DMG +16% for 12s . This effect cannot stack."
     },
@@ -745,7 +992,7 @@
         "def": "+ 56",
         "intellect": "+ 87",
         "agility": "+ 58",
-        "ultimateGainEfficiency": "+ 12.30%"
+        "ultimate_gain_efficiency": "+ 12.30%"
       },
       "text": "Frontiers Protection Suit\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nIntellect :\n+ 87\nAgility :\n+ 58\nUltimate Gain Efficiency :\n+ 12.30%\nGear Set (3-PC)\nFrontiers\nCombo Skill CDR + 15% . When the wearer recovers SP with a skill, the team gains DMG +16% for 12s . This effect cannot stack."
     },
@@ -755,15 +1002,15 @@
       "kind": "gear",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": "Prydwen/endfield/assets/gear/gear-31-442eec6cd2fa.webp",
-      "assetId": "442eec6cd2fa",
+      "art": "Prydwen/endfield/assets/gear/gear-145-f295e552d41f.webp",
+      "assetId": "f295e552d41f",
       "fields": {
         "level": "70",
         "type": "Armor",
         "def": "+ 56",
         "strength": "+ 87",
         "will": "+ 58",
-        "physicalDmg": "+ 11.50%"
+        "physical_dmg": "+ 11.50%"
       },
       "text": "Grizzled Edge Armor\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nStrength :\n+ 87\nWill :\n+ 58\nPhysical DMG :\n+ 11.50%\nGear Set (3-PC)\nGrizzled Edge\nAttack + 8% . When the wearer applies Crush or Breach the wearer gains Physical DMG Dealt + [ 6% x Max Number of Vulnerability stacks consumed from one enemy] for 20s . If the target already has Physical Susceptibility , is Staggered, or has attached Originium Crystals, increase the aforementioned buff to 1.5 times. This buff cannot stack."
     },
@@ -773,15 +1020,15 @@
       "kind": "gear",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": "Prydwen/endfield/assets/gear/gear-32-37fc381e310b.webp",
-      "assetId": "37fc381e310b",
+      "art": "Prydwen/endfield/assets/gear/gear-144-0489a633e0ef.webp",
+      "assetId": "0489a633e0ef",
       "fields": {
         "level": "70",
         "type": "Armor",
         "def": "+ 56",
         "agility": "+ 87",
         "strength": "+ 58",
-        "artsIntensity": "+ 20"
+        "arts_intensity": "+ 20"
       },
       "text": "Grizzled Edge Armor T1\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nAgility :\n+ 87\nStrength :\n+ 58\nArts Intensity :\n+ 20\nGear Set (3-PC)\nGrizzled Edge\nAttack + 8% . When the wearer applies Crush or Breach the wearer gains Physical DMG Dealt + [ 6% x Max Number of Vulnerability stacks consumed from one enemy] for 20s . If the target already has Physical Susceptibility , is Staggered, or has attached Originium Crystals, increase the aforementioned buff to 1.5 times. This buff cannot stack."
     },
@@ -791,15 +1038,15 @@
       "kind": "gear",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": "Prydwen/endfield/assets/gear/gear-33-7f78591c2d4b.webp",
-      "assetId": "7f78591c2d4b",
+      "art": "Prydwen/endfield/assets/gear/gear-31-442eec6cd2fa.webp",
+      "assetId": "442eec6cd2fa",
       "fields": {
         "level": "70",
         "type": "Gloves",
         "def": "+ 42",
         "strength": "+ 65",
         "will": "+ 43",
-        "artsIntensity": "+ 34"
+        "arts_intensity": "+ 34"
       },
       "text": "Grizzled Edge Gauntlets\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nStrength :\n+ 65\nWill :\n+ 43\nArts Intensity :\n+ 34\nGear Set (3-PC)\nGrizzled Edge\nAttack + 8% . When the wearer applies Crush or Breach the wearer gains Physical DMG Dealt + [ 6% x Max Number of Vulnerability stacks consumed from one enemy] for 20s . If the target already has Physical Susceptibility , is Staggered, or has attached Originium Crystals, increase the aforementioned buff to 1.5 times. This buff cannot stack."
     },
@@ -809,21 +1056,57 @@
       "kind": "gear",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": "Prydwen/endfield/assets/gear/gear-34-80cdf126161f.webp",
-      "assetId": "80cdf126161f",
+      "art": "Prydwen/endfield/assets/gear/gear-32-37fc381e310b.webp",
+      "assetId": "37fc381e310b",
       "fields": {
         "level": "70",
         "type": "Gloves",
         "def": "+ 42",
         "agility": "+ 65",
         "strength": "+ 43",
-        "artsIntensity": "+ 34"
+        "arts_intensity": "+ 34"
       },
       "text": "Grizzled Edge Gauntlets T1\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nAgility :\n+ 65\nStrength :\n+ 43\nArts Intensity :\n+ 34\nGear Set (3-PC)\nGrizzled Edge\nAttack + 8% . When the wearer applies Crush or Breach the wearer gains Physical DMG Dealt + [ 6% x Max Number of Vulnerability stacks consumed from one enemy] for 20s . If the target already has Physical Susceptibility , is Staggered, or has attached Originium Crystals, increase the aforementioned buff to 1.5 times. This buff cannot stack."
     },
     {
       "id": "grizzled-edge-push-knife",
       "name": "Grizzled Edge Push Knife",
+      "kind": "gear",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/gear/gear-33-7f78591c2d4b.webp",
+      "assetId": "7f78591c2d4b",
+      "fields": {
+        "level": "70",
+        "type": "Kit",
+        "def": "+ 21",
+        "strength": "+ 32",
+        "will": "+ 21",
+        "physical_dmg": "+ 23.00%"
+      },
+      "text": "Grizzled Edge Push Knife\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nStrength :\n+ 32\nWill :\n+ 21\nPhysical DMG :\n+ 23.00%\nGear Set (3-PC)\nGrizzled Edge\nAttack + 8% . When the wearer applies Crush or Breach the wearer gains Physical DMG Dealt + [ 6% x Max Number of Vulnerability stacks consumed from one enemy] for 20s . If the target already has Physical Susceptibility , is Staggered, or has attached Originium Crystals, increase the aforementioned buff to 1.5 times. This buff cannot stack."
+    },
+    {
+      "id": "grizzled-edge-push-knife-t1",
+      "name": "Grizzled Edge Push Knife T1",
+      "kind": "gear",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/gear/gear-34-80cdf126161f.webp",
+      "assetId": "80cdf126161f",
+      "fields": {
+        "level": "70",
+        "type": "Kit",
+        "def": "+ 21",
+        "agility": "+ 32",
+        "strength": "+ 21",
+        "physical_dmg": "+ 23.00%"
+      },
+      "text": "Grizzled Edge Push Knife T1\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nAgility :\n+ 32\nStrength :\n+ 21\nPhysical DMG :\n+ 23.00%\nGear Set (3-PC)\nGrizzled Edge\nAttack + 8% . When the wearer applies Crush or Breach the wearer gains Physical DMG Dealt + [ 6% x Max Number of Vulnerability stacks consumed from one enemy] for 20s . If the target already has Physical Susceptibility , is Staggered, or has attached Originium Crystals, increase the aforementioned buff to 1.5 times. This buff cannot stack."
+    },
+    {
+      "id": "hanging-river-02-tube",
+      "name": "Hanging River 02 Tube",
       "kind": "gear",
       "contentStatus": "live",
       "statusLabels": [],
@@ -835,44 +1118,8 @@
         "def": "+ 21",
         "strength": "+ 32",
         "will": "+ 21",
-        "physicalDmg": "+ 23.00%"
-      },
-      "text": "Grizzled Edge Push Knife\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nStrength :\n+ 32\nWill :\n+ 21\nPhysical DMG :\n+ 23.00%\nGear Set (3-PC)\nGrizzled Edge\nAttack + 8% . When the wearer applies Crush or Breach the wearer gains Physical DMG Dealt + [ 6% x Max Number of Vulnerability stacks consumed from one enemy] for 20s . If the target already has Physical Susceptibility , is Staggered, or has attached Originium Crystals, increase the aforementioned buff to 1.5 times. This buff cannot stack."
-    },
-    {
-      "id": "grizzled-edge-push-knife-t1",
-      "name": "Grizzled Edge Push Knife T1",
-      "kind": "gear",
-      "contentStatus": "live",
-      "statusLabels": [],
-      "art": "Prydwen/endfield/assets/gear/gear-85-9f00e158cd76.webp",
-      "assetId": "9f00e158cd76",
-      "fields": {
-        "level": "70",
-        "type": "Kit",
-        "def": "+ 21",
-        "agility": "+ 32",
-        "strength": "+ 21",
-        "physicalDmg": "+ 23.00%"
-      },
-      "text": "Grizzled Edge Push Knife T1\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nAgility :\n+ 32\nStrength :\n+ 21\nPhysical DMG :\n+ 23.00%\nGear Set (3-PC)\nGrizzled Edge\nAttack + 8% . When the wearer applies Crush or Breach the wearer gains Physical DMG Dealt + [ 6% x Max Number of Vulnerability stacks consumed from one enemy] for 20s . If the target already has Physical Susceptibility , is Staggered, or has attached Originium Crystals, increase the aforementioned buff to 1.5 times. This buff cannot stack."
-    },
-    {
-      "id": "hanging-river-02-tube",
-      "name": "Hanging River 02 Tube",
-      "kind": "gear",
-      "contentStatus": "live",
-      "statusLabels": [],
-      "art": "Prydwen/endfield/assets/gear/gear-37-e9a04471a2be.webp",
-      "assetId": "e9a04471a2be",
-      "fields": {
-        "level": "70",
-        "type": "Kit",
-        "def": "+ 21",
-        "strength": "+ 32",
-        "will": "+ 21",
-        "cryoDmg": "+ 23.00%",
-        "electricDmg": "+ 23.00%"
+        "cryo_dmg": "+ 23.00%",
+        "electric_dmg": "+ 23.00%"
       },
       "text": "Hanging River 02 Tube\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nStrength :\n+ 32\nWill :\n+ 21\nCryo DMG :\n+ 23.00%\nElectric DMG :\n+ 23.00%\nGear Set (3-PC)\nTide Surge\nAll Skill DMG + 20% . After the wearer applies 2 or more stacks of Arts Infliction on the enemy, the wearer gains Arts DMG dealt +35% for 15s . This effect cannot stack."
     },
@@ -882,16 +1129,16 @@
       "kind": "gear",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": "Prydwen/endfield/assets/gear/gear-38-0407aec52976.webp",
-      "assetId": "0407aec52976",
+      "art": "Prydwen/endfield/assets/gear/gear-85-9f00e158cd76.webp",
+      "assetId": "9f00e158cd76",
       "fields": {
         "level": "70",
         "type": "Armor",
         "def": "+ 56",
         "intellect": "+ 87",
         "will": "+ 58",
-        "heatDmg": "+ 11.50%",
-        "natureDmg": "+ 11.50%"
+        "heat_dmg": "+ 11.50%",
+        "nature_dmg": "+ 11.50%"
       },
       "text": "Hot Work Exo-Rig\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nIntellect :\n+ 87\nWill :\n+ 58\nHeat DMG :\n+ 11.50%\nNature DMG :\n+ 11.50%\nGear Set (3-PC)\nHot Work\nArts Intensity + 30 . When the wearer applies Combustion , Heat DMG +50% for 10s . When the wearer applies Corrosion , Nature DMG +50% for 10s . The aforementioned effects cannot stack."
     },
@@ -901,16 +1148,16 @@
       "kind": "gear",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": "Prydwen/endfield/assets/gear/gear-39-3baf65ff6288.webp",
-      "assetId": "3baf65ff6288",
+      "art": "Prydwen/endfield/assets/gear/gear-37-e9a04471a2be.webp",
+      "assetId": "e9a04471a2be",
       "fields": {
         "level": "70",
         "type": "Armor",
         "def": "+ 56",
         "strength": "+ 87",
         "agility": "+ 58",
-        "heatDmg": "+ 11.50%",
-        "natureDmg": "+ 11.50%"
+        "heat_dmg": "+ 11.50%",
+        "nature_dmg": "+ 11.50%"
       },
       "text": "Hot Work Exoskeleton\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nStrength :\n+ 87\nAgility :\n+ 58\nHeat DMG :\n+ 11.50%\nNature DMG :\n+ 11.50%\nGear Set (3-PC)\nHot Work\nArts Intensity + 30 . When the wearer applies Combustion , Heat DMG +50% for 10s . When the wearer applies Corrosion , Nature DMG +50% for 10s . The aforementioned effects cannot stack."
     },
@@ -920,16 +1167,16 @@
       "kind": "gear",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": "Prydwen/endfield/assets/gear/gear-40-4074ead03122.webp",
-      "assetId": "4074ead03122",
+      "art": "Prydwen/endfield/assets/gear/gear-146-22568a619e39.webp",
+      "assetId": "22568a619e39",
       "fields": {
         "level": "70",
         "type": "Gloves",
         "def": "+ 42",
         "intellect": "+ 65",
         "strength": "+ 43",
-        "heatDmg": "+ 19.20%",
-        "natureDmg": "+ 19.20%"
+        "heat_dmg": "+ 19.20%",
+        "nature_dmg": "+ 19.20%"
       },
       "text": "Hot Work Gauntlets\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nIntellect :\n+ 65\nStrength :\n+ 43\nHeat DMG :\n+ 19.20%\nNature DMG :\n+ 19.20%\nGear Set (3-PC)\nHot Work\nArts Intensity + 30 . When the wearer applies Combustion , Heat DMG +50% for 10s . When the wearer applies Corrosion , Nature DMG +50% for 10s . The aforementioned effects cannot stack."
     },
@@ -939,16 +1186,16 @@
       "kind": "gear",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": "Prydwen/endfield/assets/gear/gear-41-120fdd57c9bd.webp",
-      "assetId": "120fdd57c9bd",
+      "art": "Prydwen/endfield/assets/gear/gear-38-0407aec52976.webp",
+      "assetId": "0407aec52976",
       "fields": {
         "level": "70",
         "type": "Gloves",
         "def": "+ 42",
         "will": "+ 65",
         "intellect": "+ 43",
-        "heatDmg": "+ 19.20%",
-        "natureDmg": "+ 19.20%"
+        "heat_dmg": "+ 19.20%",
+        "nature_dmg": "+ 19.20%"
       },
       "text": "Hot Work Gauntlets T1\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nWill :\n+ 65\nIntellect :\n+ 43\nHeat DMG :\n+ 19.20%\nNature DMG :\n+ 19.20%\nGear Set (3-PC)\nHot Work\nArts Intensity + 30 . When the wearer applies Combustion , Heat DMG +50% for 10s . When the wearer applies Corrosion , Nature DMG +50% for 10s . The aforementioned effects cannot stack."
     },
@@ -958,17 +1205,54 @@
       "kind": "gear",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": "Prydwen/endfield/assets/gear/gear-42-da7a61fbb290.webp",
-      "assetId": "da7a61fbb290",
+      "art": "Prydwen/endfield/assets/gear/gear-147-db17783dfcb0.webp",
+      "assetId": "db17783dfcb0",
       "fields": {
         "level": "70",
         "type": "Gloves",
         "def": "+ 42",
         "strength": "+ 65",
         "will": "+ 43",
-        "artsIntensity": "+ 34"
+        "arts_intensity": "+ 34"
       },
       "text": "Hot Work Gloves\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nStrength :\n+ 65\nWill :\n+ 43\nArts Intensity :\n+ 34\nGear Set (3-PC)\nHot Work\nArts Intensity + 30 . When the wearer applies Combustion , Heat DMG +50% for 10s . When the wearer applies Corrosion , Nature DMG +50% for 10s . The aforementioned effects cannot stack."
+    },
+    {
+      "id": "hot-work-hands-ppe",
+      "name": "Hot Work Hands PPE",
+      "kind": "gear",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/gear/gear-39-3baf65ff6288.webp",
+      "assetId": "3baf65ff6288",
+      "fields": {
+        "level": "70",
+        "type": "Gloves",
+        "def": "+ 42",
+        "intellect": "+ 65",
+        "will": "+ 43",
+        "heat_dmg": "+ 19.20%",
+        "nature_dmg": "+ 19.20%"
+      },
+      "text": "Hot Work Hands PPE\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nIntellect :\n+ 65\nWill :\n+ 43\nHeat DMG :\n+ 19.20%\nNature DMG :\n+ 19.20%\nGear Set (3-PC)\nHot Work\nArts Intensity + 30 . When the wearer applies Combustion , Heat DMG +50% for 10s . When the wearer applies Corrosion , Nature DMG +50% for 10s . The aforementioned effects cannot stack."
+    },
+    {
+      "id": "hot-work-insulation-slab",
+      "name": "Hot Work Insulation Slab",
+      "kind": "gear",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/gear/gear-40-4074ead03122.webp",
+      "assetId": "4074ead03122",
+      "fields": {
+        "level": "70",
+        "type": "Kit",
+        "def": "+ 21",
+        "intellect": "+ 32",
+        "will": "+ 21",
+        "all_skill_dmg": "+ 27.60%"
+      },
+      "text": "Hot Work Insulation Slab\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nIntellect :\n+ 32\nWill :\n+ 21\nAll Skill DMG :\n+ 27.60%\nGear Set (3-PC)\nHot Work\nArts Intensity + 30 . When the wearer applies Combustion , Heat DMG +50% for 10s . When the wearer applies Corrosion , Nature DMG +50% for 10s . The aforementioned effects cannot stack."
     },
     {
       "id": "hot-work-power-bank",
@@ -976,15 +1260,15 @@
       "kind": "gear",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": "Prydwen/endfield/assets/gear/gear-43-0d6cb71a1abf.webp",
-      "assetId": "0d6cb71a1abf",
+      "art": "Prydwen/endfield/assets/gear/gear-41-120fdd57c9bd.webp",
+      "assetId": "120fdd57c9bd",
       "fields": {
         "level": "70",
         "type": "Kit",
         "def": "+ 21",
         "strength": "+ 32",
         "agility": "+ 21",
-        "artsIntensity": "+ 41"
+        "arts_intensity": "+ 41"
       },
       "text": "Hot Work Power Bank\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nStrength :\n+ 32\nAgility :\n+ 21\nArts Intensity :\n+ 41\nGear Set (3-PC)\nHot Work\nArts Intensity + 30 . When the wearer applies Combustion , Heat DMG +50% for 10s . When the wearer applies Corrosion , Nature DMG +50% for 10s . The aforementioned effects cannot stack."
     },
@@ -994,15 +1278,15 @@
       "kind": "gear",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": "Prydwen/endfield/assets/gear/gear-92-371d63275c69.webp",
-      "assetId": "371d63275c69",
+      "art": "Prydwen/endfield/assets/gear/gear-42-da7a61fbb290.webp",
+      "assetId": "da7a61fbb290",
       "fields": {
         "level": "70",
         "type": "Kit",
         "def": "+ 21",
         "will": "+ 32",
         "intellect": "+ 21",
-        "artsIntensity": "+ 41"
+        "arts_intensity": "+ 41"
       },
       "text": "Hot Work Power Cartridge\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nWill :\n+ 32\nIntellect :\n+ 21\nArts Intensity :\n+ 41\nGear Set (3-PC)\nHot Work\nArts Intensity + 30 . When the wearer applies Combustion , Heat DMG +50% for 10s . When the wearer applies Corrosion , Nature DMG +50% for 10s . The aforementioned effects cannot stack."
     },
@@ -1012,14 +1296,14 @@
       "kind": "gear",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": "Prydwen/endfield/assets/gear/gear-44-517133a1c3b1.webp",
-      "assetId": "517133a1c3b1",
+      "art": "Prydwen/endfield/assets/gear/gear-43-0d6cb71a1abf.webp",
+      "assetId": "0d6cb71a1abf",
       "fields": {
         "level": "70",
         "type": "Kit",
         "def": "+ 21",
         "intellect": "+ 41",
-        "battleSkillDmg": "+ 41.40%"
+        "battle_skill_dmg": "+ 41.40%"
       },
       "text": "Hot Work Pyrometer\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nIntellect :\n+ 41\nBattle Skill DMG :\n+ 41.40%\nGear Set (3-PC)\nHot Work\nArts Intensity + 30 . When the wearer applies Combustion , Heat DMG +50% for 10s . When the wearer applies Corrosion , Nature DMG +50% for 10s . The aforementioned effects cannot stack."
     },
@@ -1029,14 +1313,14 @@
       "kind": "gear",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": "Prydwen/endfield/assets/gear/gear-91-ac51222668f4.webp",
-      "assetId": "ac51222668f4",
+      "art": "Prydwen/endfield/assets/gear/gear-92-371d63275c69.webp",
+      "assetId": "371d63275c69",
       "fields": {
         "level": "70",
         "type": "Kit",
         "def": "+ 21",
         "will": "+ 41",
-        "treatmentBonus": "+ 20.70%"
+        "treatment_bonus": "+ 20.70%"
       },
       "text": "LYNX Aegis Injector\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nWill :\n+ 41\nTreatment Bonus :\n+ 20.70%\nGear Set (3-PC)\nLYNX\nTreatment Bonus + 20% . When the wearer treats an allied target, the target also gains 15% DMG Reduction against all types of DMG for 10s . If the said treatment excees the target's Max HP, the target gains 30% DMG Reduction against all types of DMG. The aforementioned effects cannot stack."
     },
@@ -1046,15 +1330,15 @@
       "kind": "gear",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": "Prydwen/endfield/assets/gear/gear-45-71f2e0ed92df.webp",
-      "assetId": "71f2e0ed92df",
+      "art": "Prydwen/endfield/assets/gear/gear-44-517133a1c3b1.webp",
+      "assetId": "517133a1c3b1",
       "fields": {
         "level": "70",
         "type": "Kit",
         "def": "+ 21",
         "strength": "+ 32",
         "will": "+ 21",
-        "finalDmgReduction": "+ 17.20%"
+        "final_dmg_reduction": "+ 17.20%"
       },
       "text": "LYNX Connector\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nStrength :\n+ 32\nWill :\n+ 21\nFinal DMG Reduction :\n+ 17.20%\nGear Set (3-PC)\nLYNX\nTreatment Bonus + 20% . When the wearer treats an allied target, the target also gains 15% DMG Reduction against all types of DMG for 10s . If the said treatment excees the target's Max HP, the target gains 30% DMG Reduction against all types of DMG. The aforementioned effects cannot stack."
     },
@@ -1064,8 +1348,8 @@
       "kind": "gear",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": "Prydwen/endfield/assets/gear/gear-50-ed1c46d8a7c6.webp",
-      "assetId": "ed1c46d8a7c6",
+      "art": "Prydwen/endfield/assets/gear/gear-91-ac51222668f4.webp",
+      "assetId": "ac51222668f4",
       "fields": {
         "level": "70",
         "type": "Kit",
@@ -1082,8 +1366,8 @@
       "kind": "gear",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": "Prydwen/endfield/assets/gear/gear-47-3932c5b1971a.webp",
-      "assetId": "3932c5b1971a",
+      "art": "Prydwen/endfield/assets/gear/gear-45-71f2e0ed92df.webp",
+      "assetId": "71f2e0ed92df",
       "fields": {
         "level": "70",
         "type": "Kit",
@@ -1099,21 +1383,57 @@
       "kind": "gear",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": "Prydwen/endfield/assets/gear/gear-49-31a71303f190.webp",
-      "assetId": "31a71303f190",
+      "art": "Prydwen/endfield/assets/gear/gear-50-ed1c46d8a7c6.webp",
+      "assetId": "ed1c46d8a7c6",
       "fields": {
         "level": "70",
         "type": "Armor",
         "def": "+ 56",
         "will": "+ 87",
         "intellect": "+ 58",
-        "treatmentBonus": "+ 10.40%"
+        "treatment_bonus": "+ 10.40%"
       },
       "text": "LYNX Cuirass\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nWill :\n+ 87\nIntellect :\n+ 58\nTreatment Bonus :\n+ 10.40%\nGear Set (3-PC)\nLYNX\nTreatment Bonus + 20% . When the wearer treats an allied target, the target also gains 15% DMG Reduction against all types of DMG for 10s . If the said treatment excees the target's Max HP, the target gains 30% DMG Reduction against all types of DMG. The aforementioned effects cannot stack."
     },
     {
+      "id": "lynx-cuirass-t1",
+      "name": "LYNX Cuirass T1",
+      "kind": "gear",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/gear/gear-47-3932c5b1971a.webp",
+      "assetId": "3932c5b1971a",
+      "fields": {
+        "level": "70",
+        "type": "Armor",
+        "def": "+ 56",
+        "will": "+ 87",
+        "agility": "+ 58",
+        "ultimate_gain_efficiency": "+ 12.30%"
+      },
+      "text": "LYNX Cuirass T1\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nWill :\n+ 87\nAgility :\n+ 58\nUltimate Gain Efficiency :\n+ 12.30%\nGear Set (3-PC)\nLYNX\nTreatment Bonus + 20% . When the wearer treats an allied target, the target also gains 15% DMG Reduction against all types of DMG for 10s . If the said treatment excees the target's Max HP, the target gains 30% DMG Reduction against all types of DMG. The aforementioned effects cannot stack."
+    },
+    {
       "id": "lynx-gauntlets",
       "name": "LYNX Gauntlets",
+      "kind": "gear",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/gear/gear-49-31a71303f190.webp",
+      "assetId": "31a71303f190",
+      "fields": {
+        "level": "70",
+        "type": "Gloves",
+        "def": "+ 42",
+        "will": "+ 65",
+        "strength": "+ 43",
+        "treatment_bonus": "+ 17.30%"
+      },
+      "text": "LYNX Gauntlets\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nWill :\n+ 65\nStrength :\n+ 43\nTreatment Bonus :\n+ 17.30%\nGear Set (3-PC)\nLYNX\nTreatment Bonus + 20% . When the wearer treats an allied target, the target also gains 15% DMG Reduction against all types of DMG for 10s . If the said treatment excees the target's Max HP, the target gains 30% DMG Reduction against all types of DMG. The aforementioned effects cannot stack."
+    },
+    {
+      "id": "lynx-gauntlets-t1",
+      "name": "LYNX Gauntlets T1",
       "kind": "gear",
       "contentStatus": "live",
       "statusLabels": [],
@@ -1124,10 +1444,10 @@
         "type": "Gloves",
         "def": "+ 42",
         "will": "+ 65",
-        "strength": "+ 43",
-        "treatmentBonus": "+ 17.30%"
+        "agility": "+ 43",
+        "ultimate_gain_efficiency": "+ 20.50%"
       },
-      "text": "LYNX Gauntlets\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nWill :\n+ 65\nStrength :\n+ 43\nTreatment Bonus :\n+ 17.30%\nGear Set (3-PC)\nLYNX\nTreatment Bonus + 20% . When the wearer treats an allied target, the target also gains 15% DMG Reduction against all types of DMG for 10s . If the said treatment excees the target's Max HP, the target gains 30% DMG Reduction against all types of DMG. The aforementioned effects cannot stack."
+      "text": "LYNX Gauntlets T1\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nWill :\n+ 65\nAgility :\n+ 43\nUltimate Gain Efficiency :\n+ 20.50%\nGear Set (3-PC)\nLYNX\nTreatment Bonus + 20% . When the wearer treats an allied target, the target also gains 15% DMG Reduction against all types of DMG for 10s . If the said treatment excees the target's Max HP, the target gains 30% DMG Reduction against all types of DMG. The aforementioned effects cannot stack."
     },
     {
       "id": "lynx-gloves",
@@ -1143,7 +1463,7 @@
         "def": "+ 42",
         "strength": "+ 65",
         "will": "+ 43",
-        "ultimateGainEfficiency": "+ 20.50%"
+        "ultimate_gain_efficiency": "+ 20.50%"
       },
       "text": "LYNX Gloves\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nStrength :\n+ 65\nWill :\n+ 43\nUltimate Gain Efficiency :\n+ 20.50%\nGear Set (3-PC)\nLYNX\nTreatment Bonus + 20% . When the wearer treats an allied target, the target also gains 15% DMG Reduction against all types of DMG for 10s . If the said treatment excees the target's Max HP, the target gains 30% DMG Reduction against all types of DMG. The aforementioned effects cannot stack."
     },
@@ -1161,7 +1481,7 @@
         "def": "+ 56",
         "strength": "+ 87",
         "will": "+ 58",
-        "treatmentBonus": "+ 10.40%"
+        "treatment_bonus": "+ 10.40%"
       },
       "text": "LYNX Heavy Armor\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nStrength :\n+ 87\nWill :\n+ 58\nTreatment Bonus :\n+ 10.40%\nGear Set (3-PC)\nLYNX\nTreatment Bonus + 20% . When the wearer treats an allied target, the target also gains 15% DMG Reduction against all types of DMG for 10s . If the said treatment excees the target's Max HP, the target gains 30% DMG Reduction against all types of DMG. The aforementioned effects cannot stack."
     },
@@ -1179,7 +1499,7 @@
         "def": "+ 21",
         "will": "+ 32",
         "intellect": "+ 21",
-        "mainAttribute": "+ 20.70%"
+        "main_attribute": "+ 20.70%"
       },
       "text": "LYNX Slab\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nWill :\n+ 32\nIntellect :\n+ 21\nMain Attribute :\n+ 20.70%\nGear Set (3-PC)\nLYNX\nTreatment Bonus + 20% . When the wearer treats an allied target, the target also gains 15% DMG Reduction against all types of DMG for 10s . If the said treatment excees the target's Max HP, the target gains 30% DMG Reduction against all types of DMG. The aforementioned effects cannot stack."
     },
@@ -1197,8 +1517,8 @@
         "def": "+ 21",
         "strength": "+ 32",
         "will": "+ 21",
-        "cryoDmg": "+ 23.00%",
-        "electricDmg": "+ 23.00%"
+        "cryo_dmg": "+ 23.00%",
+        "electric_dmg": "+ 23.00%"
       },
       "text": "MI Security Armband\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nStrength :\n+ 32\nWill :\n+ 21\nCryo DMG :\n+ 23.00%\nElectric DMG :\n+ 23.00%\nGear Set (3-PC)\nMI Security\nCritical Rate + 5% . When the wearer scores a critical hit, gain ATK +5% for 5s . This effect can reach 5 stacks. At max stacks, grant an additional Critical Rate +5% . This effect cannot stack."
     },
@@ -1216,7 +1536,7 @@
         "def": "+ 56",
         "agility": "+ 87",
         "strength": "+ 58",
-        "artsIntensity": "+ 20"
+        "arts_intensity": "+ 20"
       },
       "text": "MI Security Armor\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nAgility :\n+ 87\nStrength :\n+ 58\nArts Intensity :\n+ 20\nGear Set (3-PC)\nMI Security\nCritical Rate + 5% . When the wearer scores a critical hit, gain ATK +5% for 5s . This effect can reach 5 stacks. At max stacks, grant an additional Critical Rate +5% . This effect cannot stack."
     },
@@ -1234,7 +1554,7 @@
         "def": "+ 56",
         "agility": "+ 87",
         "intellect": "+ 58",
-        "ultimateGainEfficiency": "+ 12.30%"
+        "ultimate_gain_efficiency": "+ 12.30%"
       },
       "text": "MI Security Armor T1\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nAgility :\n+ 87\nIntellect :\n+ 58\nUltimate Gain Efficiency :\n+ 12.30%\nGear Set (3-PC)\nMI Security\nCritical Rate + 5% . When the wearer scores a critical hit, gain ATK +5% for 5s . This effect can reach 5 stacks. At max stacks, grant an additional Critical Rate +5% . This effect cannot stack."
     },
@@ -1252,7 +1572,7 @@
         "def": "+ 42",
         "agility": "+ 65",
         "strength": "+ 43",
-        "battleSkillDmg": "+ 34.50%"
+        "battle_skill_dmg": "+ 34.50%"
       },
       "text": "MI Security Gloves\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nAgility :\n+ 65\nStrength :\n+ 43\nBattle Skill DMG :\n+ 34.50%\nGear Set (3-PC)\nMI Security\nCritical Rate + 5% . When the wearer scores a critical hit, gain ATK +5% for 5s . This effect can reach 5 stacks. At max stacks, grant an additional Critical Rate +5% . This effect cannot stack."
     },
@@ -1270,7 +1590,7 @@
         "def": "+ 42",
         "agility": "+ 65",
         "intellect": "+ 43",
-        "ultimateDmg": "+ 43.10%"
+        "ultimate_dmg": "+ 43.10%"
       },
       "text": "MI Security Gloves T1\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nAgility :\n+ 65\nIntellect :\n+ 43\nUltimate DMG :\n+ 43.10%\nGear Set (3-PC)\nMI Security\nCritical Rate + 5% . When the wearer scores a critical hit, gain ATK +5% for 5s . This effect can reach 5 stacks. At max stacks, grant an additional Critical Rate +5% . This effect cannot stack."
     },
@@ -1288,7 +1608,7 @@
         "def": "+ 42",
         "intellect": "+ 65",
         "agility": "+ 43",
-        "basicAtkDmg": "+ 23.00%"
+        "basic_atk_dmg": "+ 23.00%"
       },
       "text": "MI Security Hands PPE\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nIntellect :\n+ 65\nAgility :\n+ 43\nBasic ATK DMG :\n+ 23.00%\nGear Set (3-PC)\nMI Security\nCritical Rate + 5% . When the wearer scores a critical hit, gain ATK +5% for 5s . This effect can reach 5 stacks. At max stacks, grant an additional Critical Rate +5% . This effect cannot stack."
     },
@@ -1306,7 +1626,7 @@
         "def": "+ 42",
         "intellect": "+ 65",
         "will": "+ 43",
-        "criticalRate": "+ 8.60%"
+        "critical_rate": "+ 8.60%"
       },
       "text": "MI Security Hands PPE T1\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nIntellect :\n+ 65\nWill :\n+ 43\nCritical Rate :\n+ 8.60%\nGear Set (3-PC)\nMI Security\nCritical Rate + 5% . When the wearer scores a critical hit, gain ATK +5% for 5s . This effect can reach 5 stacks. At max stacks, grant an additional Critical Rate +5% . This effect cannot stack."
     },
@@ -1324,7 +1644,7 @@
         "def": "+ 56",
         "intellect": "+ 87",
         "agility": "+ 58",
-        "basicAtkDmg": "+ 13.80%"
+        "basic_atk_dmg": "+ 13.80%"
       },
       "text": "MI Security Overalls\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nIntellect :\n+ 87\nAgility :\n+ 58\nBasic ATK DMG :\n+ 13.80%\nGear Set (3-PC)\nMI Security\nCritical Rate + 5% . When the wearer scores a critical hit, gain ATK +5% for 5s . This effect can reach 5 stacks. At max stacks, grant an additional Critical Rate +5% . This effect cannot stack."
     },
@@ -1342,7 +1662,7 @@
         "def": "+ 56",
         "intellect": "+ 87",
         "will": "+ 58",
-        "criticalRate": "+ 5.20%"
+        "critical_rate": "+ 5.20%"
       },
       "text": "MI Security Overalls T1\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nIntellect :\n+ 87\nWill :\n+ 58\nCritical Rate :\n+ 5.20%\nGear Set (3-PC)\nMI Security\nCritical Rate + 5% . When the wearer scores a critical hit, gain ATK +5% for 5s . This effect can reach 5 stacks. At max stacks, grant an additional Critical Rate +5% . This effect cannot stack."
     },
@@ -1360,7 +1680,7 @@
         "def": "+ 56",
         "will": "+ 87",
         "agility": "+ 58",
-        "battleSkillDmg": "+ 20.70%"
+        "battle_skill_dmg": "+ 20.70%"
       },
       "text": "MI Security Overalls T2\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nWill :\n+ 87\nAgility :\n+ 58\nBattle Skill DMG :\n+ 20.70%\nGear Set (3-PC)\nMI Security\nCritical Rate + 5% . When the wearer scores a critical hit, gain ATK +5% for 5s . This effect can reach 5 stacks. At max stacks, grant an additional Critical Rate +5% . This effect cannot stack."
     },
@@ -1378,8 +1698,8 @@
         "def": "+ 21",
         "will": "+ 32",
         "intellect": "+ 21",
-        "heatDmg": "+ 23.00%",
-        "natureDmg": "+ 23.00%"
+        "heat_dmg": "+ 23.00%",
+        "nature_dmg": "+ 23.00%"
       },
       "text": "MI Security Push Knife\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nWill :\n+ 32\nIntellect :\n+ 21\nHeat DMG :\n+ 23.00%\nNature DMG :\n+ 23.00%\nGear Set (3-PC)\nMI Security\nCritical Rate + 5% . When the wearer scores a critical hit, gain ATK +5% for 5s . This effect can reach 5 stacks. At max stacks, grant an additional Critical Rate +5% . This effect cannot stack."
     },
@@ -1397,7 +1717,7 @@
         "def": "+ 21",
         "will": "+ 32",
         "agility": "+ 21",
-        "battleSkillDmg": "+ 41.40%"
+        "battle_skill_dmg": "+ 41.40%"
       },
       "text": "MI Security Push Knife T1\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nWill :\n+ 32\nAgility :\n+ 21\nBattle Skill DMG :\n+ 41.40%\nGear Set (3-PC)\nMI Security\nCritical Rate + 5% . When the wearer scores a critical hit, gain ATK +5% for 5s . This effect can reach 5 stacks. At max stacks, grant an additional Critical Rate +5% . This effect cannot stack."
     },
@@ -1415,7 +1735,7 @@
         "def": "+ 21",
         "agility": "+ 32",
         "strength": "+ 21",
-        "battleSkillDmg": "+ 41.40%"
+        "battle_skill_dmg": "+ 41.40%"
       },
       "text": "MI Security Scope\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nAgility :\n+ 32\nStrength :\n+ 21\nBattle Skill DMG :\n+ 41.40%\nGear Set (3-PC)\nMI Security\nCritical Rate + 5% . When the wearer scores a critical hit, gain ATK +5% for 5s . This effect can reach 5 stacks. At max stacks, grant an additional Critical Rate +5% . This effect cannot stack."
     },
@@ -1433,7 +1753,7 @@
         "def": "+ 21",
         "agility": "+ 32",
         "intellect": "+ 21",
-        "criticalRate": "+ 10.40%"
+        "critical_rate": "+ 10.40%"
       },
       "text": "MI Security Scope T1\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nAgility :\n+ 32\nIntellect :\n+ 21\nCritical Rate :\n+ 10.40%\nGear Set (3-PC)\nMI Security\nCritical Rate + 5% . When the wearer scores a critical hit, gain ATK +5% for 5s . This effect can reach 5 stacks. At max stacks, grant an additional Critical Rate +5% . This effect cannot stack."
     },
@@ -1451,7 +1771,7 @@
         "def": "+ 21",
         "intellect": "+ 32",
         "agility": "+ 21",
-        "criticalRate": "+ 10.40%"
+        "critical_rate": "+ 10.40%"
       },
       "text": "MI Security Toolkit\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nIntellect :\n+ 32\nAgility :\n+ 21\nCritical Rate :\n+ 10.40%\nGear Set (3-PC)\nMI Security\nCritical Rate + 5% . When the wearer scores a critical hit, gain ATK +5% for 5s . This effect can reach 5 stacks. At max stacks, grant an additional Critical Rate +5% . This effect cannot stack."
     },
@@ -1468,7 +1788,7 @@
         "type": "Kit",
         "def": "+ 21",
         "intellect": "+ 41",
-        "artsIntensity": "+ 41"
+        "arts_intensity": "+ 41"
       },
       "text": "Pulser Labs Calibrator\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nIntellect :\n+ 41\nArts Intensity :\n+ 41\nGear Set (3-PC)\nPulser Labs\nArts Intensity + 30 . When the wearer applies Electrification , Electric DMG +50% for 10s. When the wearer applies Solidification , Cryo DMG +50% for 10s . The aforementioned effects cannot stack."
     },
@@ -1486,7 +1806,7 @@
         "def": "+ 56",
         "intellect": "+ 87",
         "will": "+ 58",
-        "artsIntensity": "+ 20"
+        "arts_intensity": "+ 20"
       },
       "text": "Pulser Labs Disruptor Suit\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nIntellect :\n+ 87\nWill :\n+ 58\nArts Intensity :\n+ 20\nGear Set (3-PC)\nPulser Labs\nArts Intensity + 30 . When the wearer applies Electrification , Electric DMG +50% for 10s. When the wearer applies Solidification , Cryo DMG +50% for 10s . The aforementioned effects cannot stack."
     },
@@ -1496,16 +1816,16 @@
       "kind": "gear",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": "Prydwen/endfield/assets/gear/gear-116-d001bca928d8.webp",
-      "assetId": "d001bca928d8",
+      "art": "Prydwen/endfield/assets/gear/gear-152-1f56fb987750.webp",
+      "assetId": "1f56fb987750",
       "fields": {
         "level": "70",
         "type": "Gloves",
         "def": "+ 42",
         "will": "+ 65",
         "intellect": "+ 43",
-        "cryoDmg": "+ 19.20%",
-        "electricDmg": "+ 19.20%"
+        "cryo_dmg": "+ 19.20%",
+        "electric_dmg": "+ 19.20%"
       },
       "text": "Pulser Labs Gloves\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nWill :\n+ 65\nIntellect :\n+ 43\nCryo DMG :\n+ 19.20%\nElectric DMG :\n+ 19.20%\nGear Set (3-PC)\nPulser Labs\nArts Intensity + 30 . When the wearer applies Electrification , Electric DMG +50% for 10s. When the wearer applies Solidification , Cryo DMG +50% for 10s . The aforementioned effects cannot stack."
     },
@@ -1515,14 +1835,14 @@
       "kind": "gear",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": "Prydwen/endfield/assets/gear/gear-122-d3225e11ad5d.webp",
-      "assetId": "d3225e11ad5d",
+      "art": "Prydwen/endfield/assets/gear/gear-151-13f3c5ffc5e4.webp",
+      "assetId": "13f3c5ffc5e4",
       "fields": {
         "level": "70",
         "type": "Kit",
         "def": "+ 21",
         "will": "+ 41",
-        "ultimateDmg": "+ 51.80%"
+        "ultimate_dmg": "+ 51.80%"
       },
       "text": "Pulser Labs Invasion Core\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nWill :\n+ 41\nUltimate DMG :\n+ 51.80%\nGear Set (3-PC)\nPulser Labs\nArts Intensity + 30 . When the wearer applies Electrification , Electric DMG +50% for 10s. When the wearer applies Solidification , Cryo DMG +50% for 10s . The aforementioned effects cannot stack."
     },
@@ -1532,15 +1852,15 @@
       "kind": "gear",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": "Prydwen/endfield/assets/gear/gear-61-34b2f54bc3ca.webp",
-      "assetId": "34b2f54bc3ca",
+      "art": "Prydwen/endfield/assets/gear/gear-150-a6785db56762.webp",
+      "assetId": "a6785db56762",
       "fields": {
         "level": "70",
         "type": "Kit",
         "def": "+ 21",
         "intellect": "+ 32",
         "agility": "+ 21",
-        "artsIntensity": "+ 41"
+        "arts_intensity": "+ 41"
       },
       "text": "Pulser Labs Probe\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nIntellect :\n+ 32\nAgility :\n+ 21\nArts Intensity :\n+ 41\nGear Set (3-PC)\nPulser Labs\nArts Intensity + 30 . When the wearer applies Electrification , Electric DMG +50% for 10s. When the wearer applies Solidification , Cryo DMG +50% for 10s . The aforementioned effects cannot stack."
     },
@@ -1550,16 +1870,16 @@
       "kind": "gear",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": "Prydwen/endfield/assets/gear/gear-62-62b0e360463a.webp",
-      "assetId": "62b0e360463a",
+      "art": "Prydwen/endfield/assets/gear/gear-148-da37226de93d.webp",
+      "assetId": "da37226de93d",
       "fields": {
         "level": "70",
         "type": "Kit",
         "def": "+ 21",
         "strength": "+ 32",
         "agility": "+ 21",
-        "heatDmg": "+ 23%",
-        "natureDmg": "+ 23%"
+        "heat_dmg": "+ 23%",
+        "nature_dmg": "+ 23%"
       },
       "text": "Qingbo Bamboo Cutter\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nStrength :\n+ 32\nAgility :\n+ 21\nHeat DMG :\n+ 23%\nNature DMG :\n+ 23%\nGear Set (3-PC)\nQingbo\nCombo Skill CDR + 15% . When the wearer casts a combo skill, the wearer gains Skill DMG Dealt +20% (for every skill) for 15s . This effect can reach 2 stacks. Duration of each stack is counted separately."
     },
@@ -1569,15 +1889,15 @@
       "kind": "gear",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": "Prydwen/endfield/assets/gear/gear-118-eb7ede700ea2.webp",
-      "assetId": "eb7ede700ea2",
+      "art": "Prydwen/endfield/assets/gear/gear-149-e4cdd0b059fa.webp",
+      "assetId": "e4cdd0b059fa",
       "fields": {
         "level": "70",
         "type": "Kit",
         "def": "+ 21",
         "intellect": "+ 32",
         "will": "+ 32",
-        "artsIntensity": "+ 41"
+        "arts_intensity": "+ 41"
       },
       "text": "Qingbo Cask\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nIntellect :\n+ 32\nWill :\n+ 32\nArts Intensity :\n+ 41\nGear Set (3-PC)\nQingbo\nCombo Skill CDR + 15% . When the wearer casts a combo skill, the wearer gains Skill DMG Dealt +20% (for every skill) for 15s . This effect can reach 2 stacks. Duration of each stack is counted separately."
     },
@@ -1587,15 +1907,15 @@
       "kind": "gear",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": "Prydwen/endfield/assets/gear/gear-80-1e21f9be1509.webp",
-      "assetId": "1e21f9be1509",
+      "art": "Prydwen/endfield/assets/gear/gear-116-d001bca928d8.webp",
+      "assetId": "d001bca928d8",
       "fields": {
         "level": "70",
         "type": "Gloves",
         "def": "+ 42",
         "agility": "+ 65",
         "strength": "+ 43",
-        "allSkillDmg": "+ 23%"
+        "all_skill_dmg": "+ 23%"
       },
       "text": "Qingbo Gauntlets\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nAgility :\n+ 65\nStrength :\n+ 43\nAll Skill DMG :\n+ 23%\nGear Set (3-PC)\nQingbo\nCombo Skill CDR + 15% . When the wearer casts a combo skill, the wearer gains Skill DMG Dealt +20% (for every skill) for 15s . This effect can reach 2 stacks. Duration of each stack is counted separately."
     },
@@ -1605,15 +1925,15 @@
       "kind": "gear",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": "Prydwen/endfield/assets/gear/gear-79-fdf29f9286c4.webp",
-      "assetId": "fdf29f9286c4",
+      "art": "Prydwen/endfield/assets/gear/gear-122-d3225e11ad5d.webp",
+      "assetId": "d3225e11ad5d",
       "fields": {
         "level": "70",
         "type": "Gloves",
         "def": "+ 42",
         "intellect": "+ 65",
         "will": "+ 43",
-        "ultimateGainEfficiency": "+ 20.50%"
+        "ultimate_gain_efficiency": "+ 20.50%"
       },
       "text": "Qingbo Gloves\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nIntellect :\n+ 65\nWill :\n+ 43\nUltimate Gain Efficiency :\n+ 20.50%\nGear Set (3-PC)\nQingbo\nCombo Skill CDR + 15% . When the wearer casts a combo skill, the wearer gains Skill DMG Dealt +20% (for every skill) for 15s . This effect can reach 2 stacks. Duration of each stack is counted separately."
     },
@@ -1623,15 +1943,15 @@
       "kind": "gear",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": "Prydwen/endfield/assets/gear/gear-81-295f9668dc5d.webp",
-      "assetId": "295f9668dc5d",
+      "art": "Prydwen/endfield/assets/gear/gear-61-34b2f54bc3ca.webp",
+      "assetId": "34b2f54bc3ca",
       "fields": {
         "level": "70",
         "type": "Armor",
         "def": "+ 56",
         "agility": "+ 87",
         "strength": "+ 58",
-        "ultimateGainEfficiency": "+ 12.30%"
+        "ultimate_gain_efficiency": "+ 12.30%"
       },
       "text": "Qingbo Heavy Armor\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nAgility :\n+ 87\nStrength :\n+ 58\nUltimate Gain Efficiency :\n+ 12.30%\nGear Set (3-PC)\nQingbo\nCombo Skill CDR + 15% . When the wearer casts a combo skill, the wearer gains Skill DMG Dealt +20% (for every skill) for 15s . This effect can reach 2 stacks. Duration of each stack is counted separately."
     },
@@ -1641,15 +1961,15 @@
       "kind": "gear",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": "Prydwen/endfield/assets/gear/gear-63-b8c382149543.webp",
-      "assetId": "b8c382149543",
+      "art": "Prydwen/endfield/assets/gear/gear-62-62b0e360463a.webp",
+      "assetId": "62b0e360463a",
       "fields": {
         "level": "70",
         "type": "Armor",
         "def": "+ 56",
         "intellect": "+ 87",
         "will": "+ 58",
-        "artsIntensity": "+ 20"
+        "arts_intensity": "+ 20"
       },
       "text": "Qingbo Light Armor\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nIntellect :\n+ 87\nWill :\n+ 58\nArts Intensity :\n+ 20\nGear Set (3-PC)\nQingbo\nCombo Skill CDR + 15% . When the wearer casts a combo skill, the wearer gains Skill DMG Dealt +20% (for every skill) for 15s . This effect can reach 2 stacks. Duration of each stack is counted separately."
     },
@@ -1659,15 +1979,15 @@
       "kind": "gear",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": "Prydwen/endfield/assets/gear/gear-117-ac5e306c630f.webp",
-      "assetId": "ac5e306c630f",
+      "art": "Prydwen/endfield/assets/gear/gear-118-eb7ede700ea2.webp",
+      "assetId": "eb7ede700ea2",
       "fields": {
         "level": "70",
         "type": "Kit",
         "def": "+ 21",
         "agility": "+ 32",
         "strength": "+ 21",
-        "battleSkillDmg": "+ 41.40%"
+        "battle_skill_dmg": "+ 41.40%"
       },
       "text": "Qingbo Positioning Kit\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nAgility :\n+ 32\nStrength :\n+ 21\nBattle Skill DMG :\n+ 41.40%\nGear Set (3-PC)\nQingbo\nCombo Skill CDR + 15% . When the wearer casts a combo skill, the wearer gains Skill DMG Dealt +20% (for every skill) for 15s . This effect can reach 2 stacks. Duration of each stack is counted separately."
     },
@@ -1677,15 +1997,15 @@
       "kind": "gear",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": "Prydwen/endfield/assets/gear/gear-64-199b30cfa072.webp",
-      "assetId": "199b30cfa072",
+      "art": "Prydwen/endfield/assets/gear/gear-80-1e21f9be1509.webp",
+      "assetId": "1e21f9be1509",
       "fields": {
         "level": "70",
         "type": "Kit",
         "def": "+ 21",
         "agility": "+ 32",
         "strength": "+ 21",
-        "physicalDmg": "+ 23.00%"
+        "physical_dmg": "+ 23.00%"
       },
       "text": "Qingbo Positioning Kit T1\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nAgility :\n+ 32\nStrength :\n+ 21\nPhysical DMG :\n+ 23.00%\nGear Set (3-PC)\nQingbo\nCombo Skill CDR + 15% . When the wearer casts a combo skill, the wearer gains Skill DMG Dealt +20% (for every skill) for 15s . This effect can reach 2 stacks. Duration of each stack is counted separately."
     },
@@ -1695,14 +2015,14 @@
       "kind": "gear",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": "Prydwen/endfield/assets/gear/gear-65-f15fdd036e2d.webp",
-      "assetId": "f15fdd036e2d",
+      "art": "Prydwen/endfield/assets/gear/gear-79-fdf29f9286c4.webp",
+      "assetId": "fdf29f9286c4",
       "fields": {
         "level": "70",
         "type": "Armor",
         "def": "+ 56",
         "intellect": "+ 115",
-        "ultimateGainEfficiency": "+ 12.90%"
+        "ultimate_gain_efficiency": "+ 12.90%"
       },
       "text": "Redeemer Armor\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nIntellect :\n+ 115\nUltimate Gain Efficiency :\n+ 12.90%\nGear Set (3-PC)\nThis gear piece has no set."
     },
@@ -1712,14 +2032,14 @@
       "kind": "gear",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": "Prydwen/endfield/assets/gear/gear-66-beff01bccdbd.webp",
-      "assetId": "beff01bccdbd",
+      "art": "Prydwen/endfield/assets/gear/gear-81-295f9668dc5d.webp",
+      "assetId": "295f9668dc5d",
       "fields": {
         "level": "70",
         "type": "Gloves",
         "def": "+ 42",
         "agility": "+ 86",
-        "ultimateDmg": "+ 45.00%"
+        "ultimate_dmg": "+ 45.00%"
       },
       "text": "Redeemer Gloves\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nAgility :\n+ 86\nUltimate DMG :\n+ 45.00%\nGear Set (3-PC)\nThis gear piece has no set."
     },
@@ -1729,14 +2049,14 @@
       "kind": "gear",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": "Prydwen/endfield/assets/gear/gear-67-5031ea56a1c1.webp",
-      "assetId": "5031ea56a1c1",
+      "art": "Prydwen/endfield/assets/gear/gear-63-b8c382149543.webp",
+      "assetId": "b8c382149543",
       "fields": {
         "level": "70",
         "type": "Gloves",
         "def": "+ 42",
         "strength": "+ 86",
-        "allSkillDmg": "+ 24.00%"
+        "all_skill_dmg": "+ 24.00%"
       },
       "text": "Redeemer Hands\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nStrength :\n+ 86\nAll Skill DMG :\n+ 24.00%\nGear Set (3-PC)\nThis gear piece has no set."
     },
@@ -1746,14 +2066,14 @@
       "kind": "gear",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": "Prydwen/endfield/assets/gear/gear-68-4f128e86edc0.webp",
-      "assetId": "4f128e86edc0",
+      "art": "Prydwen/endfield/assets/gear/gear-117-ac5e306c630f.webp",
+      "assetId": "ac5e306c630f",
       "fields": {
         "level": "70",
         "type": "Armor",
         "def": "+ 56",
         "agility": "+ 115",
-        "basicAtkDmg": "+ 14.40%"
+        "basic_atk_dmg": "+ 14.40%"
       },
       "text": "Redeemer Plates\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nAgility :\n+ 115\nBasic ATK DMG :\n+ 14.40%\nGear Set (3-PC)\nThis gear piece has no set."
     },
@@ -1763,14 +2083,14 @@
       "kind": "gear",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": "Prydwen/endfield/assets/gear/gear-70-278306afe33b.webp",
-      "assetId": "278306afe33b",
+      "art": "Prydwen/endfield/assets/gear/gear-64-199b30cfa072.webp",
+      "assetId": "199b30cfa072",
       "fields": {
         "level": "70",
         "type": "Kit",
         "def": "+ 21",
         "intellect": "+ 43",
-        "ultimateGainEfficiency": "+ 25.70%"
+        "ultimate_gain_efficiency": "+ 25.70%"
       },
       "text": "Redeemer Seal\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nIntellect :\n+ 43\nUltimate Gain Efficiency :\n+ 25.70%\nGear Set (3-PC)\nThis gear piece has no set."
     },
@@ -1780,14 +2100,14 @@
       "kind": "gear",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": "Prydwen/endfield/assets/gear/gear-88-9495f1769b0e.webp",
-      "assetId": "9495f1769b0e",
+      "art": "Prydwen/endfield/assets/gear/gear-65-f15fdd036e2d.webp",
+      "assetId": "f15fdd036e2d",
       "fields": {
         "level": "70",
         "type": "Kit",
         "def": "+ 21",
         "will": "+ 43",
-        "criticalRate": "+ 10.80%"
+        "critical_rate": "+ 10.80%"
       },
       "text": "Redeemer Seal T1\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nWill :\n+ 43\nCritical Rate :\n+ 10.80%\nGear Set (3-PC)\nThis gear piece has no set."
     },
@@ -1797,14 +2117,14 @@
       "kind": "gear",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": "Prydwen/endfield/assets/gear/gear-89-c35d99bc898e.webp",
-      "assetId": "c35d99bc898e",
+      "art": "Prydwen/endfield/assets/gear/gear-66-beff01bccdbd.webp",
+      "assetId": "beff01bccdbd",
       "fields": {
         "level": "70",
         "type": "Kit",
         "def": "+ 21",
         "strength": "+ 43",
-        "finalDmgReduction": "+ 17.80%"
+        "final_dmg_reduction": "+ 17.80%"
       },
       "text": "Redeemer Tag\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nStrength :\n+ 43\nFinal DMG Reduction :\n+ 17.80%\nGear Set (3-PC)\nThis gear piece has no set."
     },
@@ -1814,16 +2134,101 @@
       "kind": "gear",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": "Prydwen/endfield/assets/gear/gear-71-346e3930a9ba.webp",
-      "assetId": "346e3930a9ba",
+      "art": "Prydwen/endfield/assets/gear/gear-67-5031ea56a1c1.webp",
+      "assetId": "5031ea56a1c1",
       "fields": {
         "level": "70",
         "type": "Kit",
         "def": "+ 21",
         "agility": "+ 43",
-        "comboSkillDmg": "+ 43.20%"
+        "combo_skill_dmg": "+ 43.20%"
       },
       "text": "Redeemer Tag T1\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nAgility :\n+ 43\nCombo Skill DMG :\n+ 43.20%\nGear Set (3-PC)\nThis gear piece has no set."
+    },
+    {
+      "id": "rift-trekker-armor-slab",
+      "name": "Rift Trekker Armor Slab",
+      "kind": "gear",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/gear/gear-68-4f128e86edc0.webp",
+      "assetId": "4f128e86edc0",
+      "fields": {
+        "level": "70",
+        "type": "Kit",
+        "def": "+ 21",
+        "agility": "+ 43",
+        "secondary_attribute": "+ 21.60%"
+      },
+      "text": "Rift Trekker Armor Slab\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nAgility :\n+ 43\nSecondary Attribute :\n+ 21.60%\nGear Set (3-PC)\nThis gear piece has no set."
+    },
+    {
+      "id": "rift-trekker-gloves",
+      "name": "Rift Trekker Gloves",
+      "kind": "gear",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/gear/gear-70-278306afe33b.webp",
+      "assetId": "278306afe33b",
+      "fields": {
+        "level": "70",
+        "type": "Gloves",
+        "def": "+ 42",
+        "intellect": "+ 86",
+        "ultimate_gain_efficiency": "+ 21.40%"
+      },
+      "text": "Rift Trekker Gloves\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nIntellect :\n+ 86\nUltimate Gain Efficiency :\n+ 21.40%\nGear Set (3-PC)\nThis gear piece has no set."
+    },
+    {
+      "id": "rift-trekker-hands",
+      "name": "Rift Trekker Hands",
+      "kind": "gear",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/gear/gear-88-9495f1769b0e.webp",
+      "assetId": "9495f1769b0e",
+      "fields": {
+        "level": "70",
+        "type": "Gloves",
+        "def": "+ 42",
+        "will": "+ 86",
+        "battle_skill_dmg": "+ 36.00%"
+      },
+      "text": "Rift Trekker Hands\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nWill :\n+ 86\nBattle Skill DMG :\n+ 36.00%\nGear Set (3-PC)\nThis gear piece has no set."
+    },
+    {
+      "id": "rift-trekker-heavy-armor",
+      "name": "Rift Trekker Heavy Armor",
+      "kind": "gear",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/gear/gear-89-c35d99bc898e.webp",
+      "assetId": "c35d99bc898e",
+      "fields": {
+        "level": "70",
+        "type": "Armor",
+        "def": "+ 56",
+        "strength": "+ 115",
+        "arts_intensity": "+ 21"
+      },
+      "text": "Rift Trekker Heavy Armor\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nStrength :\n+ 115\nArts Intensity :\n+ 21\nGear Set (3-PC)\nThis gear piece has no set."
+    },
+    {
+      "id": "rift-trekker-light-armor",
+      "name": "Rift Trekker Light Armor",
+      "kind": "gear",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/gear/gear-71-346e3930a9ba.webp",
+      "assetId": "346e3930a9ba",
+      "fields": {
+        "level": "70",
+        "type": "Armor",
+        "def": "+ 56",
+        "will": "+ 115",
+        "treatment_bonus": "+ 10.80%"
+      },
+      "text": "Rift Trekker Light Armor\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nWill :\n+ 115\nTreatment Bonus :\n+ 10.80%\nGear Set (3-PC)\nThis gear piece has no set."
     },
     {
       "id": "swordmancer-dagger",
@@ -1839,7 +2244,7 @@
         "def": "+ 21",
         "agility": "+ 32",
         "strength": "+ 21",
-        "ultimateDmg": "+ 51.80%"
+        "ultimate_dmg": "+ 51.80%"
       },
       "text": "Swordmancer Dagger\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nAgility :\n+ 32\nStrength :\n+ 21\nUltimate DMG :\n+ 51.80%\nGear Set (3-PC)\nSwordmancer\nStagger Efficiency Bonus + 20% . When the wearer applies a Physical Status , the wearer also performs 1 hit that deals 250% ATK of Physical DMG and 10 Stagger. Effect trigger cooldown: 15s ."
     },
@@ -1857,7 +2262,7 @@
         "def": "+ 56",
         "strength": "+ 87",
         "will": "+ 58",
-        "physicalDmg": "+ 11.50%"
+        "physical_dmg": "+ 11.50%"
       },
       "text": "Swordmancer Fiber Armor\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nStrength :\n+ 87\nWill :\n+ 58\nPhysical DMG :\n+ 11.50%\nGear Set (3-PC)\nSwordmancer\nStagger Efficiency Bonus + 20% . When the wearer applies a Physical Status , the wearer also performs 1 hit that deals 250% ATK of Physical DMG and 10 Stagger. Effect trigger cooldown: 15s ."
     },
@@ -1875,7 +2280,7 @@
         "def": "+ 21",
         "agility": "+ 32",
         "strength": "+ 21",
-        "physicalDmg": "+ 23.00%"
+        "physical_dmg": "+ 23.00%"
       },
       "text": "Swordmancer Flint\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nAgility :\n+ 32\nStrength :\n+ 21\nPhysical DMG :\n+ 23.00%\nGear Set (3-PC)\nSwordmancer\nStagger Efficiency Bonus + 20% . When the wearer applies a Physical Status , the wearer also performs 1 hit that deals 250% ATK of Physical DMG and 10 Stagger. Effect trigger cooldown: 15s ."
     },
@@ -1893,7 +2298,7 @@
         "def": "+ 56",
         "agility": "+ 87",
         "strength": "+ 58",
-        "artsIntensity": "+ 20"
+        "arts_intensity": "+ 20"
       },
       "text": "Swordmancer Heavy Armor\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nAgility :\n+ 87\nStrength :\n+ 58\nArts Intensity :\n+ 20\nGear Set (3-PC)\nSwordmancer\nStagger Efficiency Bonus + 20% . When the wearer applies a Physical Status , the wearer also performs 1 hit that deals 250% ATK of Physical DMG and 10 Stagger. Effect trigger cooldown: 15s ."
     },
@@ -1911,7 +2316,7 @@
         "def": "+ 56",
         "agility": "+ 87",
         "strength": "+ 58",
-        "physicalDmg": "+ 11.50%"
+        "physical_dmg": "+ 11.50%"
       },
       "text": "Swordmancer Heavy Armor T1\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nAgility :\n+ 87\nStrength :\n+ 58\nPhysical DMG :\n+ 11.50%\nGear Set (3-PC)\nSwordmancer\nStagger Efficiency Bonus + 20% . When the wearer applies a Physical Status , the wearer also performs 1 hit that deals 250% ATK of Physical DMG and 10 Stagger. Effect trigger cooldown: 15s ."
     },
@@ -1929,7 +2334,7 @@
         "def": "+ 56",
         "strength": "+ 87",
         "will": "+ 58",
-        "ultimateGainEfficiency": "+ 12.30%"
+        "ultimate_gain_efficiency": "+ 12.30%"
       },
       "text": "Swordmancer Light Armor\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nStrength :\n+ 87\nWill :\n+ 58\nUltimate Gain Efficiency :\n+ 12.30%\nGear Set (3-PC)\nSwordmancer\nStagger Efficiency Bonus + 20% . When the wearer applies a Physical Status , the wearer also performs 1 hit that deals 250% ATK of Physical DMG and 10 Stagger. Effect trigger cooldown: 15s ."
     },
@@ -1947,7 +2352,7 @@
         "def": "+ 21",
         "strength": "+ 32",
         "will": "+ 21",
-        "physicalDmg": "+ 23.00%"
+        "physical_dmg": "+ 23.00%"
       },
       "text": "Swordmancer Micro Filter\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nStrength :\n+ 32\nWill :\n+ 21\nPhysical DMG :\n+ 23.00%\nGear Set (3-PC)\nSwordmancer\nStagger Efficiency Bonus + 20% . When the wearer applies a Physical Status , the wearer also performs 1 hit that deals 250% ATK of Physical DMG and 10 Stagger. Effect trigger cooldown: 15s ."
     },
@@ -1964,7 +2369,7 @@
         "type": "Kit",
         "def": "+ 21",
         "strength": "+ 41",
-        "artsIntensity": "+ 41"
+        "arts_intensity": "+ 41"
       },
       "text": "Swordmancer NAV Beacon\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nStrength :\n+ 41\nArts Intensity :\n+ 41\nGear Set (3-PC)\nSwordmancer\nStagger Efficiency Bonus + 20% . When the wearer applies a Physical Status , the wearer also performs 1 hit that deals 250% ATK of Physical DMG and 10 Stagger. Effect trigger cooldown: 15s ."
     },
@@ -1982,7 +2387,7 @@
         "def": "+ 42",
         "agility": "+ 65",
         "strength": "+ 43",
-        "ultimateDmg": "+ 43.10%"
+        "ultimate_dmg": "+ 43.10%"
       },
       "text": "Swordmancer TAC Gauntlets\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nAgility :\n+ 65\nStrength :\n+ 43\nUltimate DMG :\n+ 43.10%\nGear Set (3-PC)\nSwordmancer\nStagger Efficiency Bonus + 20% . When the wearer applies a Physical Status , the wearer also performs 1 hit that deals 250% ATK of Physical DMG and 10 Stagger. Effect trigger cooldown: 15s ."
     },
@@ -2000,7 +2405,7 @@
         "def": "+ 42",
         "strength": "+ 65",
         "will": "+ 43",
-        "artsIntensity": "+ 34"
+        "arts_intensity": "+ 34"
       },
       "text": "Swordmancer TAC Gauntlets T1\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nStrength :\n+ 65\nWill :\n+ 43\nArts Intensity :\n+ 34\nGear Set (3-PC)\nSwordmancer\nStagger Efficiency Bonus + 20% . When the wearer applies a Physical Status , the wearer also performs 1 hit that deals 250% ATK of Physical DMG and 10 Stagger. Effect trigger cooldown: 15s ."
     },
@@ -2018,7 +2423,7 @@
         "def": "+ 42",
         "strength": "+ 65",
         "will": "+ 43",
-        "physicalDmg": "+ 19.20%"
+        "physical_dmg": "+ 19.20%"
       },
       "text": "Swordmancer TAC Gloves\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nStrength :\n+ 65\nWill :\n+ 43\nPhysical DMG :\n+ 19.20%\nGear Set (3-PC)\nSwordmancer\nStagger Efficiency Bonus + 20% . When the wearer applies a Physical Status , the wearer also performs 1 hit that deals 250% ATK of Physical DMG and 10 Stagger. Effect trigger cooldown: 15s ."
     },
@@ -2036,7 +2441,7 @@
         "def": "+ 56",
         "intellect": "+ 87",
         "strength": "+ 58",
-        "ultimateGainEfficiency": "+ 12.30%"
+        "ultimate_gain_efficiency": "+ 12.30%"
       },
       "text": "Tide Fall Light Armor\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nIntellect :\n+ 87\nStrength :\n+ 58\nUltimate Gain Efficiency :\n+ 12.30%\nGear Set (3-PC)\nTide Surge\nAll Skill DMG + 20% . After the wearer applies 2 or more stacks of Arts Infliction on the enemy, the wearer gains Arts DMG dealt +35% for 15s . This effect cannot stack."
     },
@@ -2054,8 +2459,8 @@
         "def": "+ 42",
         "strength": "+ 65",
         "will": "+ 43",
-        "cryoDmg": "+ 19.20%",
-        "electricDmg": "+ 19.20%"
+        "cryo_dmg": "+ 19.20%",
+        "electric_dmg": "+ 19.20%"
       },
       "text": "Tide Surge Gauntlets\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nStrength :\n+ 65\nWill :\n+ 43\nCryo DMG :\n+ 19.20%\nElectric DMG :\n+ 19.20%\nGear Set (3-PC)\nTide Surge\nAll Skill DMG + 20% . After the wearer applies 2 or more stacks of Arts Infliction on the enemy, the wearer gains Arts DMG dealt +35% for 15s . This effect cannot stack."
     },
@@ -2073,7 +2478,7 @@
         "def": "+ 21",
         "intellect": "+ 32",
         "strength": "+ 21",
-        "basicAtkDmg": "+ 27.60%"
+        "basic_atk_dmg": "+ 27.60%"
       },
       "text": "Turbid Cutting Torch\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nIntellect :\n+ 32\nStrength :\n+ 21\nBasic ATK DMG :\n+ 27.60%\nGear Set (3-PC)\nTide Surge\nAll Skill DMG + 20% . After the wearer applies 2 or more stacks of Arts Infliction on the enemy, the wearer gains Arts DMG dealt +35% for 15s . This effect cannot stack."
     },
@@ -2091,7 +2496,7 @@
         "def": "+ 42",
         "agility": "+ 65",
         "intellect": "+ 43",
-        "comboSkillDmg": "+ 34.50%"
+        "combo_skill_dmg": "+ 34.50%"
       },
       "text": "Type 50 Yinglung Gloves\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nAgility :\n+ 65\nIntellect :\n+ 43\nCombo Skill DMG :\n+ 34.50%\nGear Set (3-PC)\nType 50 Yinglung\nAttack + 15% . When any operator in the team casts a battle skill, the wearer gains 1 stack of Yinglung's Edge that gives DMG +20% to the wearer's next combo skill. Yinglung's Edge can stack 3 time(s)."
     },
@@ -2109,7 +2514,7 @@
         "def": "+ 42",
         "will": "+ 65",
         "agility": "+ 43",
-        "comboSkillDmg": "+ 34.50%"
+        "combo_skill_dmg": "+ 34.50%"
       },
       "text": "Type 50 Yinglung Gloves T1\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nWill :\n+ 65\nAgility :\n+ 43\nCombo Skill DMG :\n+ 34.50%\nGear Set (3-PC)\nType 50 Yinglung\nAttack + 15% . When any operator in the team casts a battle skill, the wearer gains 1 stack of Yinglung's Edge that gives DMG +20% to the wearer's next combo skill. Yinglung's Edge can stack 3 time(s)."
     },
@@ -2127,7 +2532,7 @@
         "def": "+ 56",
         "strength": "+ 87",
         "will": "+ 58",
-        "physicalDmg": "+ 11.50%"
+        "physical_dmg": "+ 11.50%"
       },
       "text": "Type 50 Yinglung Heavy Armor\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nStrength :\n+ 87\nWill :\n+ 58\nPhysical DMG :\n+ 11.50%\nGear Set (3-PC)\nType 50 Yinglung\nAttack + 15% . When any operator in the team casts a battle skill, the wearer gains 1 stack of Yinglung's Edge that gives DMG +20% to the wearer's next combo skill. Yinglung's Edge can stack 3 time(s)."
     },
@@ -2145,7 +2550,7 @@
         "def": "+ 56",
         "agility": "+ 87",
         "strength": "+ 58",
-        "ultimateGainEfficiency": "+ 12.30%"
+        "ultimate_gain_efficiency": "+ 12.30%"
       },
       "text": "Type 50 Yinglung Heavy Armor T1\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nAgility :\n+ 87\nStrength :\n+ 58\nUltimate Gain Efficiency :\n+ 12.30%\nGear Set (3-PC)\nType 50 Yinglung\nAttack + 15% . When any operator in the team casts a battle skill, the wearer gains 1 stack of Yinglung's Edge that gives DMG +20% to the wearer's next combo skill. Yinglung's Edge can stack 3 time(s)."
     },
@@ -2163,7 +2568,7 @@
         "def": "+ 56",
         "agility": "+ 87",
         "intellect": "+ 58",
-        "comboSkillDmg": "+ 20.70%"
+        "combo_skill_dmg": "+ 20.70%"
       },
       "text": "Type 50 Yinglung Heavy Armor T2\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nAgility :\n+ 87\nIntellect :\n+ 58\nCombo Skill DMG :\n+ 20.70%\nGear Set (3-PC)\nType 50 Yinglung\nAttack + 15% . When any operator in the team casts a battle skill, the wearer gains 1 stack of Yinglung's Edge that gives DMG +20% to the wearer's next combo skill. Yinglung's Edge can stack 3 time(s)."
     },
@@ -2181,7 +2586,7 @@
         "def": "+ 21",
         "will": "+ 32",
         "agility": "+ 21",
-        "comboSkillDmg": "+ 41.40%"
+        "combo_skill_dmg": "+ 41.40%"
       },
       "text": "Type 50 Yinglung Knife\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nWill :\n+ 32\nAgility :\n+ 21\nCombo Skill DMG :\n+ 41.40%\nGear Set (3-PC)\nType 50 Yinglung\nAttack + 15% . When any operator in the team casts a battle skill, the wearer gains 1 stack of Yinglung's Edge that gives DMG +20% to the wearer's next combo skill. Yinglung's Edge can stack 3 time(s)."
     },
@@ -2199,7 +2604,7 @@
         "def": "+ 21",
         "intellect": "+ 32",
         "strength": "+ 21",
-        "allSkillDmg": "+ 27.60%"
+        "all_skill_dmg": "+ 27.60%"
       },
       "text": "Type 50 Yinglung Knife T1\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nIntellect :\n+ 32\nStrength :\n+ 21\nAll Skill DMG :\n+ 27.60%\nGear Set (3-PC)\nType 50 Yinglung\nAttack + 15% . When any operator in the team casts a battle skill, the wearer gains 1 stack of Yinglung's Edge that gives DMG +20% to the wearer's next combo skill. Yinglung's Edge can stack 3 time(s)."
     },
@@ -2217,7 +2622,7 @@
         "def": "+ 56",
         "will": "+ 87",
         "strength": "+ 58",
-        "allSkillDmg": "+ 13.80%"
+        "all_skill_dmg": "+ 13.80%"
       },
       "text": "Type 50 Yinglung Light Armor\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nWill :\n+ 87\nStrength :\n+ 58\nAll Skill DMG :\n+ 13.80%\nGear Set (3-PC)\nType 50 Yinglung\nAttack + 15% . When any operator in the team casts a battle skill, the wearer gains 1 stack of Yinglung's Edge that gives DMG +20% to the wearer's next combo skill. Yinglung's Edge can stack 3 time(s)."
     },
@@ -2235,7 +2640,7 @@
         "def": "+ 21",
         "strength": "+ 32",
         "will": "+ 21",
-        "physicalDmg": "+ 23.00%"
+        "physical_dmg": "+ 23.00%"
       },
       "text": "Type 50 Yinglung Radar\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nStrength :\n+ 32\nWill :\n+ 21\nPhysical DMG :\n+ 23.00%\nGear Set (3-PC)\nType 50 Yinglung\nAttack + 15% . When any operator in the team casts a battle skill, the wearer gains 1 stack of Yinglung's Edge that gives DMG +20% to the wearer's next combo skill. Yinglung's Edge can stack 3 time(s)."
     },
@@ -2253,7 +2658,7 @@
         "def": "+ 21",
         "agility": "+ 32",
         "strength": "+ 21",
-        "ultimateDmg": "+ 51.80%"
+        "ultimate_dmg": "+ 51.80%"
       },
       "text": "Type 50 Yinglung Radar T1\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nAgility :\n+ 32\nStrength :\n+ 21\nUltimate DMG :\n+ 51.80%\nGear Set (3-PC)\nType 50 Yinglung\nAttack + 15% . When any operator in the team casts a battle skill, the wearer gains 1 stack of Yinglung's Edge that gives DMG +20% to the wearer's next combo skill. Yinglung's Edge can stack 3 time(s)."
     },
@@ -2271,7 +2676,7 @@
         "def": "+ 21",
         "agility": "+ 32",
         "intellect": "+ 21",
-        "comboSkillDmg": "+ 41.40%"
+        "combo_skill_dmg": "+ 41.40%"
       },
       "text": "Type 50 Yinglung Radar T2\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nAgility :\n+ 32\nIntellect :\n+ 21\nCombo Skill DMG :\n+ 41.40%\nGear Set (3-PC)\nType 50 Yinglung\nAttack + 15% . When any operator in the team casts a battle skill, the wearer gains 1 stack of Yinglung's Edge that gives DMG +20% to the wearer's next combo skill. Yinglung's Edge can stack 3 time(s)."
     },
@@ -2289,7 +2694,7 @@
         "def": "+ 21",
         "will": "+ 32",
         "intellect": "+ 21",
-        "battleSkillDmg": "+ 41.40%"
+        "battle_skill_dmg": "+ 41.40%"
       },
       "text": "Xiranflow Baton\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nWill :\n+ 32\nIntellect :\n+ 21\nBattle Skill DMG :\n+ 41.40%\nGear Set (3-PC)\nXiranflow\nAttack + 15% . Whenever the wearer consumes Electrification or Corrosion , the wearer gains a number of buff stacks equal to the Status Level of the Arts Reaction consumed, with each buff stack giving Electric DMG Dealt and Nature DMG Dealt +15% for 25s . The number of buff stacks maxes out at 3 stacks. Duration of each stack is counted separately."
     },
@@ -2307,8 +2712,8 @@
         "def": "+ 42",
         "will": "+ 65",
         "intellect": "+ 43",
-        "cryoDmg": "+ 19.20%",
-        "electricDmg": "+ 19.20%"
+        "cryo_dmg": "+ 19.20%",
+        "electric_dmg": "+ 19.20%"
       },
       "text": "Xiranflow Gloves\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nWill :\n+ 65\nIntellect :\n+ 43\nCryo DMG :\n+ 19.20%\nElectric DMG :\n+ 19.20%\nGear Set (3-PC)\nXiranflow\nAttack + 15% . Whenever the wearer consumes Electrification or Corrosion , the wearer gains a number of buff stacks equal to the Status Level of the Arts Reaction consumed, with each buff stack giving Electric DMG Dealt and Nature DMG Dealt +15% for 25s . The number of buff stacks maxes out at 3 stacks. Duration of each stack is counted separately."
     },
@@ -2326,8 +2731,8 @@
         "def": "+ 56",
         "will": "+ 87",
         "intellect": "+ 58",
-        "cryoDmg": "+ 11.50%",
-        "electricDmg": "+ 11.50%"
+        "cryo_dmg": "+ 11.50%",
+        "electric_dmg": "+ 11.50%"
       },
       "text": "Xiranflow Light Armor\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nWill :\n+ 87\nIntellect :\n+ 58\nCryo DMG :\n+ 11.50%\nElectric DMG :\n+ 11.50%\nGear Set (3-PC)\nXiranflow\nAttack + 15% . Whenever the wearer consumes Electrification or Corrosion , the wearer gains a number of buff stacks equal to the Status Level of the Arts Reaction consumed, with each buff stack giving Electric DMG Dealt and Nature DMG Dealt +15% for 25s . The number of buff stacks maxes out at 3 stacks. Duration of each stack is counted separately."
     }

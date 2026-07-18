@@ -1,6 +1,6 @@
 {
   "provider": "Prydwen",
-  "generatedAt": "2026-07-10T08:49:31.188Z",
+  "generatedAt": "2026-07-18T07:14:17.186Z",
   "games": {
     "hsr": {
       "game": "hsr",
@@ -9,12 +9,12 @@
         "collections": 3,
         "records": 95,
         "characters": 92,
-        "assetsPlanned": 721,
+        "assetsPlanned": 723,
         "errors": 0
       },
       "assets": {
-        "requested": 721,
-        "downloaded": 0,
+        "requested": 723,
+        "downloaded": 2,
         "cached": 721,
         "missing": 0
       },
@@ -22,8 +22,8 @@
         "records": {
           "added": 0,
           "removed": 0,
-          "changed": 2,
-          "unchanged": 93
+          "changed": 51,
+          "unchanged": 44
         }
       }
     },
@@ -39,16 +39,16 @@
       },
       "assets": {
         "requested": 516,
-        "downloaded": 6,
-        "cached": 510,
+        "downloaded": 0,
+        "cached": 516,
         "missing": 0
       },
       "changes": {
         "records": {
           "added": 0,
           "removed": 0,
-          "changed": 58,
-          "unchanged": 5
+          "changed": 6,
+          "unchanged": 57
         }
       }
     },
@@ -59,12 +59,12 @@
         "collections": 4,
         "records": 68,
         "characters": 64,
-        "assetsPlanned": 386,
+        "assetsPlanned": 389,
         "errors": 0
       },
       "assets": {
-        "requested": 386,
-        "downloaded": 0,
+        "requested": 389,
+        "downloaded": 3,
         "cached": 385,
         "missing": 1
       },
@@ -72,8 +72,8 @@
         "records": {
           "added": 0,
           "removed": 0,
-          "changed": 3,
-          "unchanged": 65
+          "changed": 59,
+          "unchanged": 9
         }
       }
     },
@@ -82,23 +82,23 @@
       "gameName": "Arknights: Endfield",
       "counts": {
         "collections": 3,
-        "records": 31,
-        "characters": 28,
-        "assetsPlanned": 287,
+        "records": 34,
+        "characters": 31,
+        "assetsPlanned": 321,
         "errors": 0
       },
       "assets": {
-        "requested": 287,
-        "downloaded": 0,
+        "requested": 321,
+        "downloaded": 30,
         "cached": 287,
-        "missing": 0
+        "missing": 4
       },
       "changes": {
         "records": {
-          "added": 0,
+          "added": 3,
           "removed": 0,
-          "changed": 3,
-          "unchanged": 28
+          "changed": 10,
+          "unchanged": 21
         }
       }
     }

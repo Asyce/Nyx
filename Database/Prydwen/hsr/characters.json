@@ -727,7 +727,7 @@
       "traces-priority",
       "synergy"
     ],
-    "assetCount": 58
+    "assetCount": 59
   },
   {
     "id": "dr-ratio",
@@ -789,10 +789,9 @@
       "best-stats",
       "recommended-endgame-stats",
       "traces-priority",
-      "synergy",
-      "teams"
+      "synergy"
     ],
-    "assetCount": 41
+    "assetCount": 39
   },
   {
     "id": "feixiao",
@@ -1116,11 +1115,11 @@
     "name": "Himeko Nova",
     "slug": "himeko-nova",
     "sourcePath": "/star-rail/characters/himeko-nova",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "statusLabels": [
-      "4.4"
+      "New"
     ],
-    "updatedText": "08/July/2026",
+    "updatedText": "15/July/2026",
     "facts": {
       "rarity": 5,
       "element": "Fire",
@@ -1128,13 +1127,21 @@
     },
     "art": {
       "card": "Prydwen/hsr/assets/characters/himeko-nova-2a8de327b90f.webp",
-      "full": "Prydwen/hsr/assets/characters/himeko-nova-4191fdac6ee2.webp"
+      "full": "Prydwen/hsr/assets/characters/himeko-nova-4191fdac6ee2.webp",
+      "icon": "Prydwen/hsr/assets/characters/sparkle-da99d2d9a505.webp"
     },
     "pageFile": "Prydwen/hsr/pages/characters/himeko-nova.json",
     "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy",
       "teams"
     ],
-    "assetCount": 13
+    "assetCount": 35
   },
   {
     "id": "hook",
@@ -1230,7 +1237,7 @@
       "traces-priority",
       "synergy"
     ],
-    "assetCount": 51
+    "assetCount": 49
   },
   {
     "id": "hysilens",
@@ -1688,10 +1695,8 @@
     "slug": "blade-mortenax",
     "sourcePath": "/star-rail/characters/blade-mortenax",
     "contentStatus": "live",
-    "statusLabels": [
-      "New"
-    ],
-    "updatedText": "10/June/2026",
+    "statusLabels": [],
+    "updatedText": "15/July/2026",
     "facts": {
       "rarity": 5,
       "element": "Fire",
@@ -2244,8 +2249,7 @@
       "best-stats",
       "recommended-endgame-stats",
       "traces-priority",
-      "synergy",
-      "teams"
+      "synergy"
     ],
     "assetCount": 35
   },
@@ -2343,7 +2347,7 @@
       "traces-priority",
       "synergy"
     ],
-    "assetCount": 53
+    "assetCount": 54
   },
   {
     "id": "sushang",
@@ -2693,7 +2697,7 @@
       "traces-priority",
       "synergy"
     ],
-    "assetCount": 50
+    "assetCount": 51
   },
   {
     "id": "tribbie",
@@ -2756,7 +2760,7 @@
       "traces-priority",
       "synergy"
     ],
-    "assetCount": 60
+    "assetCount": 61
   },
   {
     "id": "xueyi",

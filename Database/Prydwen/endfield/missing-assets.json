@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "sourceHash": "35450daa36a9",
+    "path": "Prydwen/endfield/assets/icons/unknown-35450daa36a9.webp",
+    "kind": "icons",
+    "name": "Unknown",
+    "reason": "Asset did not resolve from Prydwen CDN during this scrape."
+  },
+  {
+    "sourceHash": "ed1ff0ed724f",
+    "path": "Prydwen/endfield/assets/characters/arcane-full-illustration-ed1ff0ed724f.webp",
+    "kind": "characters",
+    "name": "Arcane full illustration",
+    "reason": "Asset did not resolve from Prydwen CDN during this scrape."
+  },
+  {
+    "sourceHash": "a88184098f8f",
+    "path": "Prydwen/endfield/assets/characters/liino-full-illustration-a88184098f8f.webp",
+    "kind": "characters",
+    "name": "Liino full illustration",
+    "reason": "Asset did not resolve from Prydwen CDN during this scrape."
+  },
+  {
+    "sourceHash": "d55b40ef1180",
+    "path": "Prydwen/endfield/assets/characters/si-full-illustration-d55b40ef1180.webp",
+    "kind": "characters",
+    "name": "Si full illustration",
+    "reason": "Asset did not resolve from Prydwen CDN during this scrape."
+  }
+]

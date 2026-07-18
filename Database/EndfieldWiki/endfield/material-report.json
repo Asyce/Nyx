@@ -1,13 +1,13 @@
 {
   "provider": "EndfieldWiki",
   "game": "endfield",
-  "generatedAt": "2026-07-17T11:15:12.999Z",
+  "generatedAt": "2026-07-18T07:16:03.886Z",
   "counts": {
     "characters": 31,
     "charactersWithMaterials": 30,
     "charactersMissingMaterials": 1,
     "weapons": 73,
-    "items": 28
+    "items": 31
   },
   "characters": [
     {
@@ -109,13 +109,13 @@
       "sections": {
         "Promotion": {
           "stages": 4,
-          "items": 12
+          "items": 13
         },
         "Skill_upgrades": {
           "rows": 11,
           "skillLevelStages": 8,
           "skillMasteryStages": 3,
-          "items": 72
+          "items": 84
         },
         "Talent_upgrades": {
           "items": 17
@@ -125,8 +125,8 @@
         }
       },
       "counts": {
-        "ascension": 7,
-        "skill": 9,
+        "ascension": 8,
+        "skill": 10,
         "extras": 3
       }
     },

@@ -2,7 +2,7 @@
   "provider": "EndfieldWiki",
   "game": "endfield",
   "gameName": "Arknights: Endfield",
-  "scrapedAt": "2026-07-17T11:15:12.999Z",
+  "scrapedAt": "2026-07-18T07:16:03.886Z",
   "source": {
     "site": "endfield.wiki.gg",
     "api": "MediaWiki API rendered Weapon pages",
@@ -1358,6 +1358,10 @@
         {
           "id": "Tachyon_Screening_Lattice",
           "count": 16
+        },
+        {
+          "id": "Protocolith",
+          "count": 8
         }
       ],
       "tuningStages": [
@@ -1411,6 +1415,10 @@
           {
             "id": "Tachyon_Screening_Lattice",
             "count": 16
+          },
+          {
+            "id": "Protocolith",
+            "count": 8
           },
           {
             "id": "T-Creds",

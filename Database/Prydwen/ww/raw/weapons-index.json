@@ -3,7 +3,7 @@
   "game": "ww",
   "collection": "weapons",
   "sourcePath": "/wuthering-waves/weapons",
-  "scrapedAt": "2026-07-10T08:49:31.188Z",
+  "scrapedAt": "2026-07-18T07:14:17.186Z",
   "detailPagesTotal": 0,
   "detailPagesScraped": 0,
   "staleDetailPagesRemoved": 0,
@@ -19,7 +19,7 @@
       "fields": {
         "rarity": "5 ★",
         "type": "Pistols",
-        "atkLv90": "36.4 %"
+        "atk_lv_90": "36.4 %"
       },
       "text": "Abyss Surges\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nATK (Lv.90): 36.4 %"
     },
@@ -34,8 +34,8 @@
       "fields": {
         "rarity": "4 ★",
         "type": "Pistols",
-        "atkLv90": "412",
-        "critDmgLv90": "40.5 %"
+        "atk_lv_90": "412",
+        "crit_dmg_lv_90": "40.5 %"
       },
       "text": "Aether Strike\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 412\nCRIT DMG (Lv.90): 40.5 %"
     },
@@ -50,8 +50,8 @@
       "fields": {
         "rarity": "5 ★",
         "type": "Pistols",
-        "atkLv90": "587",
-        "critRateLv90": "24.3 %"
+        "atk_lv_90": "587",
+        "crit_rate_lv_90": "24.3 %"
       },
       "text": "Ages of Harvest\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.3 %"
     },
@@ -66,8 +66,8 @@
       "fields": {
         "rarity": "4 ★",
         "type": "Pistols",
-        "atkLv90": "337",
-        "defLv90": "61.5 %"
+        "atk_lv_90": "337",
+        "def_lv_90": "61.5 %"
       },
       "text": "Amity Accord\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 337\nDEF (Lv.90): 61.5 %"
     },
@@ -82,8 +82,8 @@
       "fields": {
         "rarity": "4 ★",
         "type": "Pistols",
-        "atkLv90": "412",
-        "critRateLv90": "20.2 %"
+        "atk_lv_90": "412",
+        "crit_rate_lv_90": "20.2 %"
       },
       "text": "Augment\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 412\nCRIT Rate (Lv.90): 20.2 %"
     },
@@ -98,8 +98,8 @@
       "fields": {
         "rarity": "4 ★",
         "type": "Pistols",
-        "atkLv90": "412",
-        "critDmgLv90": "40.5 %"
+        "atk_lv_90": "412",
+        "crit_dmg_lv_90": "40.5 %"
       },
       "text": "Aureate Zenith\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 412\nCRIT DMG (Lv.90): 40.5 %"
     },
@@ -114,8 +114,8 @@
       "fields": {
         "rarity": "4 ★",
         "type": "Pistols",
-        "atkLv90": "412",
-        "critRateLv90": "20.2 %"
+        "atk_lv_90": "412",
+        "crit_rate_lv_90": "20.2 %"
       },
       "text": "Autumntrace\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 412\nCRIT Rate (Lv.90): 20.2 %"
     },
@@ -130,10 +130,10 @@
       "fields": {
         "rarity": "5 ★",
         "type": "Pistols",
-        "atkLv90": "588",
-        "critRateLv90": "24.3 %"
+        "atk_lv_90": "587",
+        "crit_rate_lv_90": "24.3 %"
       },
-      "text": "Azure Oath\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 588\nCrit. Rate (Lv.90): 24.3 %"
+      "text": "Azure Oath\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nCrit. Rate (Lv.90): 24.3 %"
     },
     {
       "id": "beguiling-melody",
@@ -146,7 +146,7 @@
       "fields": {
         "rarity": "3 ★",
         "type": "Pistols",
-        "atkLv90": "30.4 %"
+        "atk_lv_90": "30.4 %"
       },
       "text": "Beguiling Melody\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 300\nATK (Lv.90): 30.4 %"
     },
@@ -161,8 +161,8 @@
       "fields": {
         "rarity": "5 ★",
         "type": "Pistols",
-        "atkLv90": "587",
-        "critDmgLv90": "48.6 %"
+        "atk_lv_90": "587",
+        "crit_dmg_lv_90": "48.6 %"
       },
       "text": "Blazing Brilliance\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nCRIT DMG (Lv.90): 48.6 %"
     },
@@ -177,8 +177,8 @@
       "fields": {
         "rarity": "5 ★",
         "type": "Pistols",
-        "atkLv90": "587",
-        "critDmgLv90": "48.6 %"
+        "atk_lv_90": "587",
+        "crit_dmg_lv_90": "48.6 %"
       },
       "text": "Blazing Justice\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nCRIT DMG (Lv.90): 48.6 %"
     },
@@ -193,8 +193,8 @@
       "fields": {
         "rarity": "5 ★",
         "type": "Pistols",
-        "atkLv90": "587",
-        "energyRegLv90": "38.9 %"
+        "atk_lv_90": "587",
+        "energy_reg_lv_90": "38.9 %"
       },
       "text": "Bloodpact's Pledge\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nEnergy Reg. (Lv.90): 38.9 %"
     },
@@ -209,8 +209,8 @@
       "fields": {
         "rarity": "5 ★",
         "type": "Pistols",
-        "atkLv90": "525",
-        "energyRegLv90": "38.8 %"
+        "atk_lv_90": "525",
+        "energy_reg_lv_90": "38.8 %"
       },
       "text": "Boson Astrolabe\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 525\nEnergy Reg. (Lv.90): 38.8 %"
     },
@@ -225,7 +225,7 @@
       "fields": {
         "rarity": "3 ★",
         "type": "Pistols",
-        "atkLv90": "24.3 %"
+        "atk_lv_90": "24.3 %"
       },
       "text": "Broadblade of Night\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 325\nATK (Lv.90): 24.3 %"
     },
@@ -240,8 +240,8 @@
       "fields": {
         "rarity": "3 ★",
         "type": "Pistols",
-        "atkLv90": "300",
-        "energyRegLv90": "32.3 %"
+        "atk_lv_90": "300",
+        "energy_reg_lv_90": "32.3 %"
       },
       "text": "Broadblade of Voyager\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 300\nEnergy Reg. (Lv.90): 32.3 %"
     },
@@ -256,8 +256,8 @@
       "fields": {
         "rarity": "4 ★",
         "type": "Pistols",
-        "atkLv90": "412",
-        "energyRegLv90": "32.3 %"
+        "atk_lv_90": "412",
+        "energy_reg_lv_90": "32.3 %"
       },
       "text": "Broadblade#41\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 412\nEnergy Reg. (Lv.90): 32.3 %"
     },
@@ -272,8 +272,8 @@
       "fields": {
         "rarity": "4 ★",
         "type": "Pistols",
-        "atkLv90": "337",
-        "energyRegLv90": "51.8 %"
+        "atk_lv_90": "337",
+        "energy_reg_lv_90": "51.8 %"
       },
       "text": "Cadenza\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 337\nEnergy Reg. (Lv.90): 51.8 %"
     },
@@ -288,8 +288,8 @@
       "fields": {
         "rarity": "4 ★",
         "type": "Pistols",
-        "atkLv90": "338",
-        "energyRegenLv90": "51.8 %"
+        "atk_lv_90": "338",
+        "energy_regen_lv_90": "51.8 %"
       },
       "text": "Call of the Abyss\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 338\nEnergy Regen (Lv.90): 51.8 %"
     },
@@ -304,7 +304,7 @@
       "fields": {
         "rarity": "4 ★",
         "type": "Pistols",
-        "atkLv90": "18.2 %"
+        "atk_lv_90": "18.2 %"
       },
       "text": "Celestial Spiral\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 462\nATK (Lv.90): 18.2 %"
     },
@@ -319,8 +319,8 @@
       "fields": {
         "rarity": "4 ★",
         "type": "Pistols",
-        "atkLv90": "412",
-        "hpLv90": "30.3 %"
+        "atk_lv_90": "412",
+        "hp_lv_90": "30.3 %"
       },
       "text": "Comet Flare\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 412\nHP (Lv.90): 30.3 %"
     },
@@ -335,7 +335,7 @@
       "fields": {
         "rarity": "4 ★",
         "type": "Pistols",
-        "atkLv90": "30.3 %"
+        "atk_lv_90": "30.3 %"
       },
       "text": "Commando of Conviction\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 412\nATK (Lv.90): 30.3 %"
     },
@@ -350,7 +350,7 @@
       "fields": {
         "rarity": "5 ★",
         "type": "Pistols",
-        "atkLv90": "54 %"
+        "atk_lv_90": "54 %"
       },
       "text": "Cosmic Ripples\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 500\nATK (Lv.90): 54 %"
     },
@@ -365,8 +365,8 @@
       "fields": {
         "rarity": "4 ★",
         "type": "Pistols",
-        "atkLv90": "337",
-        "defLv90": "61.5 %"
+        "atk_lv_90": "337",
+        "def_lv_90": "61.5 %"
       },
       "text": "Dauntless Evernight\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 337\nDEF (Lv.90): 61.5 %"
     },
@@ -381,8 +381,8 @@
       "fields": {
         "rarity": "5 ★",
         "type": "Pistols",
-        "atkLv90": "587",
-        "critRateLv90": "24.3 %"
+        "atk_lv_90": "587",
+        "crit_rate_lv_90": "24.3 %"
       },
       "text": "Daybreaker's Spine\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.3 %"
     },
@@ -397,8 +397,8 @@
       "fields": {
         "rarity": "5 ★",
         "type": "Pistols",
-        "atkLv90": "413",
-        "hpLv90": "72.2 %"
+        "atk_lv_90": "413",
+        "hp_lv_90": "72.2 %"
       },
       "text": "Defier's Thorn\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 413\nHP (Lv.90): 72.2 %"
     },
@@ -413,8 +413,8 @@
       "fields": {
         "rarity": "4 ★",
         "type": "Pistols",
-        "atkLv90": "337",
-        "energyRegLv90": "51.8 %"
+        "atk_lv_90": "337",
+        "energy_reg_lv_90": "51.8 %"
       },
       "text": "Discord\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 337\nEnergy Reg. (Lv.90): 51.8 %"
     },
@@ -429,8 +429,8 @@
       "fields": {
         "rarity": "5 ★",
         "type": "Pistols",
-        "atkLv90": "587",
-        "critRateLv90": "24.3 %"
+        "atk_lv_90": "587",
+        "crit_rate_lv_90": "24.3 %"
       },
       "text": "Emerald of Genesis\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.3 %"
     },
@@ -445,8 +445,8 @@
       "fields": {
         "rarity": "5 ★",
         "type": "Pistols",
-        "atkLv90": "587",
-        "critRateLv90": "24.3 %"
+        "atk_lv_90": "587",
+        "crit_rate_lv_90": "24.3 %"
       },
       "text": "Emerald Sentence\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.3 %"
     },
@@ -461,7 +461,7 @@
       "fields": {
         "rarity": "4 ★",
         "type": "Pistols",
-        "atkLv90": "18.2 %"
+        "atk_lv_90": "18.2 %"
       },
       "text": "Endless Collapse\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 462\nATK (Lv.90): 18.2 %"
     },
@@ -476,8 +476,8 @@
       "fields": {
         "rarity": "5 ★",
         "type": "Pistols",
-        "atkLv90": "587",
-        "critRateLv90": "24.3 %"
+        "atk_lv_90": "587",
+        "crit_rate_lv_90": "24.3 %"
       },
       "text": "Everbright Polestar\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.3 %"
     },
@@ -492,7 +492,7 @@
       "fields": {
         "rarity": "4 ★",
         "type": "Pistols",
-        "atkLv90": "18.2 %"
+        "atk_lv_90": "18.2 %"
       },
       "text": "Fables of Wisdom\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 462\nATK (Lv.90): 18.2 %"
     },
@@ -507,8 +507,8 @@
       "fields": {
         "rarity": "4 ★",
         "type": "Pistols",
-        "atkLv90": "412",
-        "critRateLv90": "20.3 %"
+        "atk_lv_90": "412",
+        "crit_rate_lv_90": "20.3 %"
       },
       "text": "Feather Edge\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 412\nCRIT Rate (Lv.90): 20.3 %"
     },
@@ -523,8 +523,8 @@
       "fields": {
         "rarity": "5 ★",
         "type": "Pistols",
-        "atkLv90": "0",
-        "lv90": "0 %"
+        "atk_lv_90": "0",
+        "lv_90": "0 %"
       },
       "text": "Firstlight's Herald\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 0\n(Lv.90): 0 %"
     },
@@ -539,8 +539,8 @@
       "fields": {
         "rarity": "5 ★",
         "type": "Pistols",
-        "atkLv90": "500",
-        "critRateLv90": "36 %"
+        "atk_lv_90": "500",
+        "crit_rate_lv_90": "36 %"
       },
       "text": "Forged Dwarf Star\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 500\nCRIT Rate (Lv.90): 36 %"
     },
@@ -555,8 +555,8 @@
       "fields": {
         "rarity": "5 ★",
         "type": "Pistols",
-        "atkLv90": "587",
-        "critRateLv90": "24.2 %"
+        "atk_lv_90": "587",
+        "crit_rate_lv_90": "24.2 %"
       },
       "text": "Freeze Frame\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.2 %"
     },
@@ -571,8 +571,8 @@
       "fields": {
         "rarity": "5 ★",
         "type": "Pistols",
-        "atkLv90": "587",
-        "critRateLv90": "24.3 %"
+        "atk_lv_90": "587",
+        "crit_rate_lv_90": "24.3 %"
       },
       "text": "Frostburn\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.3 %"
     },
@@ -587,7 +587,7 @@
       "fields": {
         "rarity": "4 ★",
         "type": "Pistols",
-        "atkLv90": "18.2 %"
+        "atk_lv_90": "18.2 %"
       },
       "text": "Fusion Accretion\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 462\nATK (Lv.90): 18.2 %"
     },
@@ -602,7 +602,7 @@
       "fields": {
         "rarity": "3 ★",
         "type": "Pistols",
-        "atkLv90": "24.3 %"
+        "atk_lv_90": "24.3 %"
       },
       "text": "Gauntlets of Night\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 325\nATK (Lv.90): 24.3 %"
     },
@@ -617,8 +617,8 @@
       "fields": {
         "rarity": "3 ★",
         "type": "Pistols",
-        "atkLv90": "325",
-        "defLv90": "30.7 %"
+        "atk_lv_90": "325",
+        "def_lv_90": "30.7 %"
       },
       "text": "Gauntlets of Voyager\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 325\nDEF (Lv.90): 30.7 %"
     },
@@ -633,8 +633,8 @@
       "fields": {
         "rarity": "4 ★",
         "type": "Pistols",
-        "atkLv90": "387",
-        "energyRegLv90": "38.8 %"
+        "atk_lv_90": "387",
+        "energy_reg_lv_90": "38.8 %"
       },
       "text": "Gauntlets#21D\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 387\nEnergy Reg. (Lv.90): 38.8 %"
     },
@@ -649,7 +649,7 @@
       "fields": {
         "rarity": "3 ★",
         "type": "Pistols",
-        "atkLv90": "24.3 %"
+        "atk_lv_90": "24.3 %"
       },
       "text": "Guardian Broadblade\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 325\nATK (Lv.90): 24.3 %"
     },
@@ -664,8 +664,8 @@
       "fields": {
         "rarity": "3 ★",
         "type": "Pistols",
-        "atkLv90": "300",
-        "defLv90": "38.4 %"
+        "atk_lv_90": "300",
+        "def_lv_90": "38.4 %"
       },
       "text": "Guardian Gauntlets\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 300\nDEF (Lv.90): 38.4 %"
     },
@@ -680,7 +680,7 @@
       "fields": {
         "rarity": "3 ★",
         "type": "Pistols",
-        "atkLv90": "24.3 %"
+        "atk_lv_90": "24.3 %"
       },
       "text": "Guardian Pistols\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 325\nATK (Lv.90): 24.3 %"
     },
@@ -695,7 +695,7 @@
       "fields": {
         "rarity": "3 ★",
         "type": "Pistols",
-        "atkLv90": "24.3 %"
+        "atk_lv_90": "24.3 %"
       },
       "text": "Guardian Rectifier\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 325\nATK (Lv.90): 24.3 %"
     },
@@ -710,8 +710,8 @@
       "fields": {
         "rarity": "3 ★",
         "type": "Pistols",
-        "atkLv90": "300",
-        "hpLv90": "30.3 %"
+        "atk_lv_90": "300",
+        "hp_lv_90": "30.3 %"
       },
       "text": "Guardian Sword\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 300\nHP (Lv.90): 30.3 %"
     },
@@ -726,7 +726,7 @@
       "fields": {
         "rarity": "4 ★",
         "type": "Pistols",
-        "atkLv90": "30.3 %"
+        "atk_lv_90": "30.3 %"
       },
       "text": "Helios Cleaver\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 412\nATK (Lv.90): 30.3 %"
     },
@@ -741,7 +741,7 @@
       "fields": {
         "rarity": "4 ★",
         "type": "Pistols",
-        "atkLv90": "30.3 %"
+        "atk_lv_90": "30.3 %"
       },
       "text": "Hollow Mirage\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 412\nATK (Lv.90): 30.3 %"
     },
@@ -756,7 +756,7 @@
       "fields": {
         "rarity": "4 ★",
         "type": "Pistols",
-        "atkLv90": "36.4 %"
+        "atk_lv_90": "36.4 %"
       },
       "text": "Jinzhou Keeper\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 387\nATK (Lv.90): 36.4 %"
     },
@@ -771,8 +771,8 @@
       "fields": {
         "rarity": "5 ★",
         "type": "Pistols",
-        "atkLv90": "500",
-        "critRateLv90": "36 %"
+        "atk_lv_90": "500",
+        "crit_rate_lv_90": "36 %"
       },
       "text": "Kumokiri\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 500\nCRIT Rate (Lv.90): 36 %"
     },
@@ -787,8 +787,8 @@
       "fields": {
         "rarity": "5 ★",
         "type": "Pistols",
-        "atkLv90": "587",
-        "energyRegLv90": "38.8 %"
+        "atk_lv_90": "587",
+        "energy_reg_lv_90": "38.8 %"
       },
       "text": "Laser Shearer\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nEnergy Reg. (Lv.90): 38.8 %"
     },
@@ -803,7 +803,7 @@
       "fields": {
         "rarity": "4 ★",
         "type": "Pistols",
-        "atkLv90": "18.2 %"
+        "atk_lv_90": "18.2 %"
       },
       "text": "Legend of Drunken Hero\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 462\nATK (Lv.90): 18.2 %"
     },
@@ -818,8 +818,8 @@
       "fields": {
         "rarity": "5 ★",
         "type": "Pistols",
-        "atkLv90": "587",
-        "critRateLv90": "24.3 %"
+        "atk_lv_90": "587",
+        "crit_rate_lv_90": "24.3 %"
       },
       "text": "Lethean Elegy\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.3 %"
     },
@@ -834,7 +834,7 @@
       "fields": {
         "rarity": "4 ★",
         "type": "Pistols",
-        "atkLv90": "36.4 %"
+        "atk_lv_90": "36.4 %"
       },
       "text": "Lumingloss\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 387\nATK (Lv.90): 36.4 %"
     },
@@ -849,8 +849,8 @@
       "fields": {
         "rarity": "5 ★",
         "type": "Pistols",
-        "atkLv90": "500",
-        "critRateLv90": "36 %"
+        "atk_lv_90": "500",
+        "crit_rate_lv_90": "36 %"
       },
       "text": "Luminous Hymn\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 500\nCrit. Rate (Lv.90): 36 %"
     },
@@ -865,7 +865,7 @@
       "fields": {
         "rarity": "4 ★",
         "type": "Pistols",
-        "atkLv90": "30.3 %"
+        "atk_lv_90": "30.3 %"
       },
       "text": "Lunar Cutter\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 412\nATK (Lv.90): 30.3 %"
     },
@@ -880,7 +880,7 @@
       "fields": {
         "rarity": "5 ★",
         "type": "Pistols",
-        "atkLv90": "36.4 %"
+        "atk_lv_90": "36.4 %"
       },
       "text": "Lustrous Razor\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nATK (Lv.90): 36.4 %"
     },
@@ -895,8 +895,8 @@
       "fields": {
         "rarity": "5 ★",
         "type": "Pistols",
-        "atkLv90": "587",
-        "critDmgLv90": "48.6 %"
+        "atk_lv_90": "587",
+        "crit_dmg_lv_90": "48.6 %"
       },
       "text": "Lux & Umbra\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nCRIT DMG (Lv.90): 48.6 %"
     },
@@ -911,8 +911,8 @@
       "fields": {
         "rarity": "4 ★",
         "type": "Pistols",
-        "atkLv90": "337",
-        "energyRegLv90": "51.8 %"
+        "atk_lv_90": "337",
+        "energy_reg_lv_90": "51.8 %"
       },
       "text": "Marcato\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 337\nEnergy Reg. (Lv.90): 51.8 %"
     },
@@ -927,7 +927,7 @@
       "fields": {
         "rarity": "4 ★",
         "type": "Pistols",
-        "atkLv90": "18.2 %"
+        "atk_lv_90": "18.2 %"
       },
       "text": "Meditations on Mercy\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 462\nATK (Lv.90): 18.2 %"
     },
@@ -942,8 +942,8 @@
       "fields": {
         "rarity": "5 ★",
         "type": "Pistols",
-        "atkLv90": "500",
-        "critRateLv90": "36 %"
+        "atk_lv_90": "500",
+        "crit_rate_lv_90": "36 %"
       },
       "text": "Moongazer's Sigil\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 500\nCRIT Rate (Lv.90): 36 %"
     },
@@ -958,7 +958,7 @@
       "fields": {
         "rarity": "4 ★",
         "type": "Pistols",
-        "atkLv90": "30.3 %"
+        "atk_lv_90": "30.3 %"
       },
       "text": "Novaburst\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 412\nATK (Lv.90): 30.3 %"
     },
@@ -973,7 +973,7 @@
       "fields": {
         "rarity": "4 ★",
         "type": "Pistols",
-        "atkLv90": "18.2 %"
+        "atk_lv_90": "18.2 %"
       },
       "text": "Ocean's Gift\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 462\nATK (Lv.90): 18.2 %"
     },
@@ -988,8 +988,8 @@
       "fields": {
         "rarity": "3 ★",
         "type": "Pistols",
-        "atkLv90": "300",
-        "defLv90": "38.4 %"
+        "atk_lv_90": "300",
+        "def_lv_90": "38.4 %"
       },
       "text": "Originite: Type I\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 300\nDEF (Lv.90): 38.4 %"
     },
@@ -1004,8 +1004,8 @@
       "fields": {
         "rarity": "3 ★",
         "type": "Pistols",
-        "atkLv90": "325",
-        "hpLv90": "24.3 %"
+        "atk_lv_90": "325",
+        "hp_lv_90": "24.3 %"
       },
       "text": "Originite: Type II\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 325\nHP (Lv.90): 24.3 %"
     },
@@ -1020,7 +1020,7 @@
       "fields": {
         "rarity": "3 ★",
         "type": "Pistols",
-        "atkLv90": "24.3 %"
+        "atk_lv_90": "24.3 %"
       },
       "text": "Originite: Type III\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 325\nATK (Lv.90): 24.3 %"
     },
@@ -1035,8 +1035,8 @@
       "fields": {
         "rarity": "3 ★",
         "type": "Pistols",
-        "atkLv90": "300",
-        "critDmgLv90": "40.5 %"
+        "atk_lv_90": "300",
+        "crit_dmg_lv_90": "40.5 %"
       },
       "text": "Originite: Type IV\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 300\nCRIT DMG (Lv.90): 40.5 %"
     },
@@ -1051,7 +1051,7 @@
       "fields": {
         "rarity": "3 ★",
         "type": "Pistols",
-        "atkLv90": "30.3 %"
+        "atk_lv_90": "30.3 %"
       },
       "text": "Originite: Type V\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 300\nATK (Lv.90): 30.3 %"
     },
@@ -1066,8 +1066,8 @@
       "fields": {
         "rarity": "4 ★",
         "type": "Pistols",
-        "atkLv90": "337",
-        "energyRegLv90": "51.8 %"
+        "atk_lv_90": "337",
+        "energy_reg_lv_90": "51.8 %"
       },
       "text": "Overture\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 337\nEnergy Reg. (Lv.90): 51.8 %"
     },
@@ -1082,8 +1082,8 @@
       "fields": {
         "rarity": "5 ★",
         "type": "Pistols",
-        "atkLv90": "587",
-        "critDmgLv90": "48.6 %"
+        "atk_lv_90": "587",
+        "crit_dmg_lv_90": "48.6 %"
       },
       "text": "Phasic Homogenizer\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nCRIT DMG (Lv.90): 48.6 %"
     },
@@ -1098,7 +1098,7 @@
       "fields": {
         "rarity": "3 ★",
         "type": "Pistols",
-        "atkLv90": "24.3 %"
+        "atk_lv_90": "24.3 %"
       },
       "text": "Pistols of Night\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 325\nATK (Lv.90): 24.3 %"
     },
@@ -1113,8 +1113,8 @@
       "fields": {
         "rarity": "3 ★",
         "type": "Pistols",
-        "atkLv90": "300",
-        "hpLv90": "30.3 %"
+        "atk_lv_90": "300",
+        "hp_lv_90": "30.3 %"
       },
       "text": "Pistols of Voyager\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 300\nHP (Lv.90): 30.3 %"
     },
@@ -1129,7 +1129,7 @@
       "fields": {
         "rarity": "4 ★",
         "type": "Pistols",
-        "atkLv90": "36.4 %"
+        "atk_lv_90": "36.4 %"
       },
       "text": "Pistols#26\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 387\nATK (Lv.90): 36.4 %"
     },
@@ -1144,8 +1144,8 @@
       "fields": {
         "rarity": "5 ★",
         "type": "Pistols",
-        "atkLv90": "587",
-        "critRateLv90": "24.3 %"
+        "atk_lv_90": "587",
+        "crit_rate_lv_90": "24.3 %"
       },
       "text": "Pulsation Bracer\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.3 %"
     },
@@ -1160,8 +1160,8 @@
       "fields": {
         "rarity": "5 ★",
         "type": "Pistols",
-        "atkLv90": "587",
-        "critDmgLv90": "48.6 %"
+        "atk_lv_90": "587",
+        "crit_dmg_lv_90": "48.6 %"
       },
       "text": "Radiance Cleaver\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nCRIT DMG (Lv.90): 48.6 %"
     },
@@ -1176,8 +1176,8 @@
       "fields": {
         "rarity": "4 ★",
         "type": "Pistols",
-        "atkLv90": "412",
-        "critDmgLv90": "40.5 %"
+        "atk_lv_90": "412",
+        "crit_dmg_lv_90": "40.5 %"
       },
       "text": "Radiant Dawn\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 412\nCRIT DMG (Lv.90): 40.5 %"
     },
@@ -1192,7 +1192,7 @@
       "fields": {
         "rarity": "3 ★",
         "type": "Pistols",
-        "atkLv90": "24.3 %"
+        "atk_lv_90": "24.3 %"
       },
       "text": "Rectifier of Night\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 325\nATK (Lv.90): 24.3 %"
     },
@@ -1207,8 +1207,8 @@
       "fields": {
         "rarity": "3 ★",
         "type": "Pistols",
-        "atkLv90": "300",
-        "energyRegLv90": "32.3 %"
+        "atk_lv_90": "300",
+        "energy_reg_lv_90": "32.3 %"
       },
       "text": "Rectifier of Voyager\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 300\nEnergy Reg. (Lv.90): 32.3 %"
     },
@@ -1223,8 +1223,8 @@
       "fields": {
         "rarity": "4 ★",
         "type": "Pistols",
-        "atkLv90": "337",
-        "energyRegLv90": "51.8 %"
+        "atk_lv_90": "337",
+        "energy_reg_lv_90": "51.8 %"
       },
       "text": "Rectifier#25\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 337\nEnergy Reg. (Lv.90): 51.8 %"
     },
@@ -1239,8 +1239,8 @@
       "fields": {
         "rarity": "5 ★",
         "type": "Pistols",
-        "atkLv90": "587",
-        "critRateLv90": "24.3 %"
+        "atk_lv_90": "587",
+        "crit_rate_lv_90": "24.3 %"
       },
       "text": "Red Spring\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.3 %"
     },
@@ -1255,7 +1255,7 @@
       "fields": {
         "rarity": "4 ★",
         "type": "Pistols",
-        "atkLv90": "18.2 %"
+        "atk_lv_90": "18.2 %"
       },
       "text": "Relativistic Jet\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 462\nATK (Lv.90): 18.2 %"
     },
@@ -1270,8 +1270,8 @@
       "fields": {
         "rarity": "5 ★",
         "type": "Pistols",
-        "atkLv90": "500",
-        "critDmgLv90": "72 %"
+        "atk_lv_90": "500",
+        "crit_dmg_lv_90": "72 %"
       },
       "text": "Rime-Draped Sprouts\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 500\nCRIT DMG (Lv.90): 72 %"
     },
@@ -1286,7 +1286,7 @@
       "fields": {
         "rarity": "4 ★",
         "type": "Pistols",
-        "atkLv90": "18.2 %"
+        "atk_lv_90": "18.2 %"
       },
       "text": "Romance in Farewell\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 462\nATK (Lv.90): 18.2 %"
     },
@@ -1301,8 +1301,8 @@
       "fields": {
         "rarity": "5 ★",
         "type": "Pistols",
-        "atkLv90": "500",
-        "critDmgLv90": "72 %"
+        "atk_lv_90": "500",
+        "crit_dmg_lv_90": "72 %"
       },
       "text": "Skull Thrasher\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 500\nCRIT DMG% (Lv.90): 72 %"
     },
@@ -1317,8 +1317,8 @@
       "fields": {
         "rarity": "4 ★",
         "type": "Pistols",
-        "atkLv90": "412",
-        "critRateLv90": "20.3 %"
+        "atk_lv_90": "412",
+        "crit_rate_lv_90": "20.3 %"
       },
       "text": "Solar Flame\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 412\nCRIT Rate (Lv.90): 20.3 %"
     },
@@ -1333,8 +1333,8 @@
       "fields": {
         "rarity": "5 ★",
         "type": "Pistols",
-        "atkLv90": "587",
-        "critDmgLv90": "48.6 %"
+        "atk_lv_90": "587",
+        "crit_dmg_lv_90": "48.6 %"
       },
       "text": "Solsworn Ciphers\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nCRIT DMG (Lv.90): 48.6 %"
     },
@@ -1349,7 +1349,7 @@
       "fields": {
         "rarity": "4 ★",
         "type": "Pistols",
-        "atkLv90": "18.2 %"
+        "atk_lv_90": "18.2 %"
       },
       "text": "Somnoire Anchor\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 462\nATK (Lv.90): 18.2 %"
     },
@@ -1364,8 +1364,8 @@
       "fields": {
         "rarity": "5 ★",
         "type": "Pistols",
-        "atkLv90": "587",
-        "critDmgLv90": "48.6 %"
+        "atk_lv_90": "587",
+        "crit_dmg_lv_90": "48.6 %"
       },
       "text": "Spectral Trigger\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nCRIT DMG% (Lv.90): 48.6 %"
     },
@@ -1380,8 +1380,8 @@
       "fields": {
         "rarity": "5 ★",
         "type": "Pistols",
-        "atkLv90": "587",
-        "critRateLv90": "24.3 %"
+        "atk_lv_90": "587",
+        "crit_rate_lv_90": "24.3 %"
       },
       "text": "Spectrum Blaster\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.3 %"
     },
@@ -1396,8 +1396,8 @@
       "fields": {
         "rarity": "5 ★",
         "type": "Pistols",
-        "atkLv90": "414",
-        "energyRegenLv90": "77 %"
+        "atk_lv_90": "414",
+        "energy_regen_lv_90": "77 %"
       },
       "text": "Starfield Calibrator\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 414\nEnergy Regen (Lv.90): 77 %"
     },
@@ -1412,8 +1412,8 @@
       "fields": {
         "rarity": "5 ★",
         "type": "Pistols",
-        "atkLv90": "587",
-        "critRateLv90": "24.3 %"
+        "atk_lv_90": "587",
+        "crit_rate_lv_90": "24.3 %"
       },
       "text": "Static Mist\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.3 %"
     },
@@ -1428,8 +1428,8 @@
       "fields": {
         "rarity": "5 ★",
         "type": "Pistols",
-        "atkLv90": "412",
-        "energyRegenLv90": "77 %"
+        "atk_lv_90": "412",
+        "energy_regen_lv_90": "77 %"
       },
       "text": "Stellar Symphony\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 412\nEnergy Regen (Lv.90): 77 %"
     },
@@ -1444,8 +1444,8 @@
       "fields": {
         "rarity": "4 ★",
         "type": "Pistols",
-        "atkLv90": "412",
-        "critRateLv90": "20.2 %"
+        "atk_lv_90": "412",
+        "crit_rate_lv_90": "20.2 %"
       },
       "text": "Stonard\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 412\nCRIT Rate (Lv.90): 20.2 %"
     },
@@ -1460,8 +1460,8 @@
       "fields": {
         "rarity": "5 ★",
         "type": "Pistols",
-        "atkLv90": "500",
-        "critRateLv90": "36 %"
+        "atk_lv_90": "500",
+        "crit_rate_lv_90": "36 %"
       },
       "text": "Stringmaster\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 500\nCRIT Rate (Lv.90): 36 %"
     },
@@ -1476,7 +1476,7 @@
       "fields": {
         "rarity": "3 ★",
         "type": "Pistols",
-        "atkLv90": "24.3 %"
+        "atk_lv_90": "24.3 %"
       },
       "text": "Sword of Night\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 325\nATK (Lv.90): 24.3 %"
     },
@@ -1491,8 +1491,8 @@
       "fields": {
         "rarity": "3 ★",
         "type": "Pistols",
-        "atkLv90": "300",
-        "energyRegLv90": "32.3 %"
+        "atk_lv_90": "300",
+        "energy_reg_lv_90": "32.3 %"
       },
       "text": "Sword of Voyager\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 300\nEnergy Reg. (Lv.90): 32.3 %"
     },
@@ -1507,7 +1507,7 @@
       "fields": {
         "rarity": "4 ★",
         "type": "Pistols",
-        "atkLv90": "36.4 %"
+        "atk_lv_90": "36.4 %"
       },
       "text": "Sword#18\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 387\nATK (Lv.90): 36.4 %"
     },
@@ -1522,8 +1522,8 @@
       "fields": {
         "rarity": "5 ★",
         "type": "Pistols",
-        "atkLv90": "500",
-        "critDmgLv90": "72 %"
+        "atk_lv_90": "500",
+        "crit_dmg_lv_90": "72 %"
       },
       "text": "The Last Dance\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 500\nCRIT DMG (Lv.90): 72 %"
     },
@@ -1538,7 +1538,7 @@
       "fields": {
         "rarity": "4 ★",
         "type": "Pistols",
-        "atkLv90": "36.4 %"
+        "atk_lv_90": "36.4 %"
       },
       "text": "Thunderbolt\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 387\nATK (Lv.90): 36.4 %"
     },
@@ -1553,8 +1553,8 @@
       "fields": {
         "rarity": "5 ★",
         "type": "Pistols",
-        "atkLv90": "675",
-        "critRateLv90": "12.1 %"
+        "atk_lv_90": "675",
+        "crit_rate_lv_90": "12.1 %"
       },
       "text": "Thunderflare Dominion\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 675\nCRIT Rate (Lv.90): 12.1 %"
     },
@@ -1569,8 +1569,8 @@
       "fields": {
         "rarity": "5 ★",
         "type": "Pistols",
-        "atkLv90": "587",
-        "critRateLv90": "24.3 %"
+        "atk_lv_90": "587",
+        "crit_rate_lv_90": "24.3 %"
       },
       "text": "Tragicomedy\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.3 %"
     },
@@ -1585,7 +1585,7 @@
       "fields": {
         "rarity": "3 ★",
         "type": "Pistols",
-        "atkLv90": "11.4 %"
+        "atk_lv_90": "11.4 %"
       },
       "text": "Training Broadblade\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 250\nATK (Lv.90): 11.4 %"
     },
@@ -1600,7 +1600,7 @@
       "fields": {
         "rarity": "3 ★",
         "type": "Pistols",
-        "atkLv90": "11.4 %"
+        "atk_lv_90": "11.4 %"
       },
       "text": "Training Gauntlets\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 250\nATK (Lv.90): 11.4 %"
     },
@@ -1615,7 +1615,7 @@
       "fields": {
         "rarity": "3 ★",
         "type": "Pistols",
-        "atkLv90": "11.4 %"
+        "atk_lv_90": "11.4 %"
       },
       "text": "Training Pistols\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 250\nATK (Lv.90): 11.4 %"
     },
@@ -1630,7 +1630,7 @@
       "fields": {
         "rarity": "3 ★",
         "type": "Pistols",
-        "atkLv90": "11.4 %"
+        "atk_lv_90": "11.4 %"
       },
       "text": "Training Rectifier\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 250\nATK (Lv.90): 11.4 %"
     },
@@ -1645,7 +1645,7 @@
       "fields": {
         "rarity": "3 ★",
         "type": "Pistols",
-        "atkLv90": "11.4 %"
+        "atk_lv_90": "11.4 %"
       },
       "text": "Training Sword\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 250\nATK (Lv.90): 11.4 %"
     },
@@ -1660,7 +1660,7 @@
       "fields": {
         "rarity": "3 ★",
         "type": "Pistols",
-        "atkLv90": "14.8 %"
+        "atk_lv_90": "14.8 %"
       },
       "text": "Tyro Broadblade\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 275\nATK (Lv.90): 14.8 %"
     },
@@ -1675,7 +1675,7 @@
       "fields": {
         "rarity": "3 ★",
         "type": "Pistols",
-        "atkLv90": "14.8 %"
+        "atk_lv_90": "14.8 %"
       },
       "text": "Tyro Gauntlets\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 275\nATK (Lv.90): 14.8 %"
     },
@@ -1690,7 +1690,7 @@
       "fields": {
         "rarity": "3 ★",
         "type": "Pistols",
-        "atkLv90": "14.8 %"
+        "atk_lv_90": "14.8 %"
       },
       "text": "Tyro Pistols\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 275\nATK (Lv.90): 14.8 %"
     },
@@ -1705,7 +1705,7 @@
       "fields": {
         "rarity": "3 ★",
         "type": "Pistols",
-        "atkLv90": "14.8 %"
+        "atk_lv_90": "14.8 %"
       },
       "text": "Tyro Rectifier\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 275\nATK (Lv.90): 14.8 %"
     },
@@ -1720,7 +1720,7 @@
       "fields": {
         "rarity": "3 ★",
         "type": "Pistols",
-        "atkLv90": "14.8 %"
+        "atk_lv_90": "14.8 %"
       },
       "text": "Tyro Sword\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 275\nATK (Lv.90): 14.8 %"
     },
@@ -1735,7 +1735,7 @@
       "fields": {
         "rarity": "4 ★",
         "type": "Pistols",
-        "atkLv90": "30.3 %"
+        "atk_lv_90": "30.3 %"
       },
       "text": "Undying Flame\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 412\nATK (Lv.90): 30.3 %"
     },
@@ -1750,8 +1750,8 @@
       "fields": {
         "rarity": "5 ★",
         "type": "Pistols",
-        "atkLv90": "415",
-        "energyRegLv90": "77 %"
+        "atk_lv_90": "415",
+        "energy_reg_lv_90": "77 %"
       },
       "text": "Unflickering Valor\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 415\nEnergy Reg. (Lv.90): 77 %"
     },
@@ -1766,8 +1766,8 @@
       "fields": {
         "rarity": "4 ★",
         "type": "Pistols",
-        "atkLv90": "337",
-        "energyRegLv90": "51.8 %"
+        "atk_lv_90": "337",
+        "energy_reg_lv_90": "51.8 %"
       },
       "text": "Variation\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 337\nEnergy Reg. (Lv.90): 51.8 %"
     },
@@ -1782,8 +1782,8 @@
       "fields": {
         "rarity": "5 ★",
         "type": "Pistols",
-        "atkLv90": "587",
-        "critDmgLv90": "48.6 %"
+        "atk_lv_90": "587",
+        "crit_dmg_lv_90": "48.6 %"
       },
       "text": "Verdant Summit\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nCRIT DMG (Lv.90): 48.6 %"
     },
@@ -1798,8 +1798,8 @@
       "fields": {
         "rarity": "5 ★",
         "type": "Pistols",
-        "atkLv90": "587",
-        "critRateLv90": "24.3 %"
+        "atk_lv_90": "587",
+        "crit_rate_lv_90": "24.3 %"
       },
       "text": "Verity's Handle\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.3 %"
     },
@@ -1814,7 +1814,7 @@
       "fields": {
         "rarity": "4 ★",
         "type": "Pistols",
-        "atkLv90": "18.2 %"
+        "atk_lv_90": "18.2 %"
       },
       "text": "Waltz in Masquerade\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 462\nATK (Lv.90): 18.2 %"
     },
@@ -1829,7 +1829,7 @@
       "fields": {
         "rarity": "4 ★",
         "type": "Pistols",
-        "atkLv90": "18.2 %"
+        "atk_lv_90": "18.2 %"
       },
       "text": "Waning Redshift\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 462\nATK (Lv.90): 18.2 %"
     },
@@ -1844,8 +1844,8 @@
       "fields": {
         "rarity": "5 ★",
         "type": "Pistols",
-        "atkLv90": "500",
-        "critDmgLv90": "72 %"
+        "atk_lv_90": "500",
+        "crit_dmg_lv_90": "72 %"
       },
       "text": "Whispers of Sirens\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 500\nCRIT DMG (Lv.90): 72 %"
     },
@@ -1860,8 +1860,8 @@
       "fields": {
         "rarity": "5 ★",
         "type": "Pistols",
-        "atkLv90": "587",
-        "critDmgLv90": "48.6 %"
+        "atk_lv_90": "587",
+        "crit_dmg_lv_90": "48.6 %"
       },
       "text": "Wildfire Mark\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nCRIT DMG (Lv.90): 48.6 %"
     },
@@ -1876,8 +1876,8 @@
       "fields": {
         "rarity": "5 ★",
         "type": "Pistols",
-        "atkLv90": "500",
-        "critRateLv90": "36 %"
+        "atk_lv_90": "500",
+        "crit_rate_lv_90": "36 %"
       },
       "text": "Woodland Aria\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 500\nCRIT Rate (Lv.90): 36 %"
     }

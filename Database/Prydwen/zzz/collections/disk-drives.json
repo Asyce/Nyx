@@ -11,7 +11,7 @@
   "sourcePath": "/zenless/disk-drives",
   "contentStatus": "live",
   "statusLabels": [],
-  "scrapedAt": "2026-07-10T08:49:31.188Z",
+  "scrapedAt": "2026-07-18T07:14:17.186Z",
   "updatedText": "16/June/2026",
   "meta": {
     "title": "Drive Disk Sets | Zenless Zone Zero",
@@ -923,9 +923,9 @@
       "art": "Prydwen/zzz/assets/drive-discs/bunny-in-wonderland-86d253c71271.webp",
       "assetId": "86d253c71271",
       "fields": {
-        "4WhenTheEquipperIsADefenseCharacter": "When the equipper launches an EX Special Attack or any squad member triggers a Defensive Assist or Evasive Assist, all squad members' DMG increases by 6% , stacking up to 3 times, lasting 25s . Stacks decay one at a time, and duration refreshes when gained or decayed. Passive effects of the same name do not stack.",
         "bonuses": [
-          "(2) HP + 10% ."
+          "(2) HP + 10% .",
+          "(4) When the equipper is a Defense character: When the equipper launches an EX Special Attack or any squad member triggers a Defensive Assist or Evasive Assist, all squad members' DMG increases by 6% , stacking up to 3 times, lasting 25s . Stacks decay one at a time, and duration refreshes when gained or decayed. Passive effects of the same name do not stack."
         ]
       },
       "text": "Bunny in Wonderland\n(2) HP + 10% .\n(4) When the equipper is a Defense character: When the equipper launches an EX Special Attack or any squad member triggers a Defensive Assist or Evasive Assist, all squad members' DMG increases by 6% , stacking up to 3 times, lasting 25s . Stacks decay one at a time, and duration refreshes when gained or decayed. Passive effects of the same name do not stack."

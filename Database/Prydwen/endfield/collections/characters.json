@@ -11,8 +11,8 @@
   "sourcePath": "/arknights-endfield/characters",
   "contentStatus": "live",
   "statusLabels": [],
-  "scrapedAt": "2026-07-10T08:49:31.188Z",
-  "updatedText": "30/June/2026",
+  "scrapedAt": "2026-07-18T07:14:17.186Z",
+  "updatedText": "17/July/2026",
   "meta": {
     "title": "Arknights: Endfield Characters - All Operators & Build Guides",
     "description": ""
@@ -220,6 +220,16 @@
       "height": 400
     },
     {
+      "id": "f6342e13426a",
+      "sourceHash": "f6342e13426a",
+      "kind": "characters",
+      "name": "Arcane",
+      "fileStem": "arcane-card",
+      "path": "Prydwen/endfield/assets/characters/arcane-f6342e13426a.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
       "id": "b20c252a6d6a",
       "sourceHash": "b20c252a6d6a",
       "kind": "characters",
@@ -370,6 +380,16 @@
       "height": 400
     },
     {
+      "id": "46712342b038",
+      "sourceHash": "46712342b038",
+      "kind": "characters",
+      "name": "Liino",
+      "fileStem": "liino-card",
+      "path": "Prydwen/endfield/assets/characters/liino-46712342b038.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
       "id": "0965266d85b2",
       "sourceHash": "0965266d85b2",
       "kind": "characters",
@@ -408,6 +428,26 @@
       "path": "Prydwen/endfield/assets/characters/rossi-8cd0c2877986.webp",
       "width": 280,
       "height": 400
+    },
+    {
+      "id": "701af3cf52e7",
+      "sourceHash": "701af3cf52e7",
+      "kind": "characters",
+      "name": "Si",
+      "fileStem": "si-card",
+      "path": "Prydwen/endfield/assets/characters/si-701af3cf52e7.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "35450daa36a9",
+      "sourceHash": "35450daa36a9",
+      "kind": "icons",
+      "name": "Unknown",
+      "fileStem": "element-unknown",
+      "path": "Prydwen/endfield/assets/icons/unknown-35450daa36a9.webp",
+      "width": 24,
+      "height": 24
     },
     {
       "id": "6929810d4aca",
@@ -475,14 +515,14 @@
       "id": "arknights-endfield-characters-build-guides-0",
       "level": 1,
       "heading": "Arknights: Endfield Characters Build Guides",
-      "text": "All characters available in Arknights: Endfield. Use our character database to see every character and operator sorted by element, rarity, and class, plus build guides.\n Last updated: 30/June/2026",
+      "text": "All characters available in Arknights: Endfield. Use our character database to see every character and operator sorted by element, rarity, and class, plus build guides.\n Last updated: 17/July/2026",
       "assets": []
     },
     {
       "id": "all-arknights-endfield-characters-1",
       "level": 2,
       "heading": "All Arknights: Endfield Characters",
-      "text": "Showing 28 Characters\n ×\n 4✦ 5✦ 6✦\n\n Reset\n\n Akekuri\n\n Alesh\n\n Antal\n\n Arclight\n\n Ardelia\n\n Avywenna\n\n Camille New\n\n Catcher\n\n Chen Qianyu\n\n Da Pan\n\n Ember\n\n Endministrator\n\n Estella\n\n Fluorite\n\n Gilberta\n\n Laevatain\n\n Last Rite\n\n Lifeng\n\n Mi Fu\n\n Perlica\n\n Pogranichnik\n\n Rossi\n\n Snowshine\n\n Tangtang\n\n Wulfgard\n\n Xaihi\n\n Yvonne\n\n Zhuang Fangyi",
+      "text": "Showing 31 Characters\n ×\n 4✦ 5✦ 6✦\n\n Reset\n\n Akekuri\n\n Alesh\n\n Antal\n\n Arcane New\n\n Arclight\n\n Ardelia\n\n Avywenna\n\n Camille\n\n Catcher\n\n Chen Qianyu\n\n Da Pan\n\n Ember\n\n Endministrator\n\n Estella\n\n Fluorite\n\n Gilberta\n\n Laevatain\n\n Last Rite\n\n Lifeng\n\n Liino Soon\n\n Mi Fu\n\n Perlica\n\n Pogranichnik\n\n Rossi\n\n Si Soon\n\n Snowshine\n\n Tangtang\n\n Wulfgard\n\n Xaihi\n\n Yvonne\n\n Zhuang Fangyi",
       "assets": [
         {
           "id": "1c9bfc6b9d91",
@@ -675,6 +715,16 @@
           "height": 400
         },
         {
+          "id": "f6342e13426a",
+          "sourceHash": "f6342e13426a",
+          "kind": "characters",
+          "name": "Arcane",
+          "fileStem": "arcane-card",
+          "path": "Prydwen/endfield/assets/characters/arcane-f6342e13426a.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
           "id": "b20c252a6d6a",
           "sourceHash": "b20c252a6d6a",
           "kind": "characters",
@@ -825,6 +875,16 @@
           "height": 400
         },
         {
+          "id": "46712342b038",
+          "sourceHash": "46712342b038",
+          "kind": "characters",
+          "name": "Liino",
+          "fileStem": "liino-card",
+          "path": "Prydwen/endfield/assets/characters/liino-46712342b038.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
           "id": "0965266d85b2",
           "sourceHash": "0965266d85b2",
           "kind": "characters",
@@ -863,6 +923,26 @@
           "path": "Prydwen/endfield/assets/characters/rossi-8cd0c2877986.webp",
           "width": 280,
           "height": 400
+        },
+        {
+          "id": "701af3cf52e7",
+          "sourceHash": "701af3cf52e7",
+          "kind": "characters",
+          "name": "Si",
+          "fileStem": "si-card",
+          "path": "Prydwen/endfield/assets/characters/si-701af3cf52e7.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "35450daa36a9",
+          "sourceHash": "35450daa36a9",
+          "kind": "icons",
+          "name": "Unknown",
+          "fileStem": "element-unknown",
+          "path": "Prydwen/endfield/assets/icons/unknown-35450daa36a9.webp",
+          "width": 24,
+          "height": 24
         },
         {
           "id": "6929810d4aca",
@@ -929,7 +1009,7 @@
   ],
   "recommendations": {},
   "tables": [],
-  "text": "Arknights: Endfield Characters - All Operators & Build Guides\n \n\n Arknights: Endfield\n Home Database Characters Gear Weapons\n Tier Lists Tier List Team Tier List\n Guides Guides\n Tools Team Builder Adv. Team Builder Rotation Builder Gacha Simulator Material Planner Character Comparison Patch Timeline\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Arknights: Endfield\n /\n Characters Build Guides\n\n Arknights: Endfield Characters Build Guides\n All characters available in Arknights: Endfield. Use our character database to see every character and operator sorted by element, rarity, and class, plus build guides.\n Last updated: 30/June/2026\n\n All Arknights: Endfield Characters\n Showing 28 Characters\n ×\n 4✦ 5✦ 6✦\n\n Reset\n\n Akekuri\n\n Alesh\n\n Antal\n\n Arclight\n\n Ardelia\n\n Avywenna\n\n Camille New\n\n Catcher\n\n Chen Qianyu\n\n Da Pan\n\n Ember\n\n Endministrator\n\n Estella\n\n Fluorite\n\n Gilberta\n\n Laevatain\n\n Last Rite\n\n Lifeng\n\n Mi Fu\n\n Perlica\n\n Pogranichnik\n\n Rossi\n\n Snowshine\n\n Tangtang\n\n Wulfgard\n\n Xaihi\n\n Yvonne\n\n Zhuang Fangyi",
+  "text": "Arknights: Endfield Characters - All Operators & Build Guides\n \n\n Arknights: Endfield\n Home Database Characters Gear Weapons\n Tier Lists Tier List Team Tier List\n Guides Guides\n Tools Team Builder Adv. Team Builder Rotation Builder Gacha Simulator Material Planner Character Comparison Patch Timeline\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Arknights: Endfield\n /\n Characters Build Guides\n\n Arknights: Endfield Characters Build Guides\n All characters available in Arknights: Endfield. Use our character database to see every character and operator sorted by element, rarity, and class, plus build guides.\n Last updated: 17/July/2026\n\n All Arknights: Endfield Characters\n Showing 31 Characters\n ×\n 4✦ 5✦ 6✦\n\n Reset\n\n Akekuri\n\n Alesh\n\n Antal\n\n Arcane New\n\n Arclight\n\n Ardelia\n\n Avywenna\n\n Camille\n\n Catcher\n\n Chen Qianyu\n\n Da Pan\n\n Ember\n\n Endministrator\n\n Estella\n\n Fluorite\n\n Gilberta\n\n Laevatain\n\n Last Rite\n\n Lifeng\n\n Liino Soon\n\n Mi Fu\n\n Perlica\n\n Pogranichnik\n\n Rossi\n\n Si Soon\n\n Snowshine\n\n Tangtang\n\n Wulfgard\n\n Xaihi\n\n Yvonne\n\n Zhuang Fangyi",
   "entries": [
     {
       "id": "akekuri",
@@ -954,6 +1034,16 @@
       "sourcePath": "/arknights-endfield/characters/antal",
       "contentStatus": "live",
       "statusLabels": []
+    },
+    {
+      "id": "arcane",
+      "slug": "arcane",
+      "name": "Arcane New",
+      "sourcePath": "/arknights-endfield/characters/arcane",
+      "contentStatus": "live",
+      "statusLabels": [
+        "New"
+      ]
     },
     {
       "id": "arclight",
@@ -982,12 +1072,10 @@
     {
       "id": "camille",
       "slug": "camille",
-      "name": "Camille New",
+      "name": "Camille",
       "sourcePath": "/arknights-endfield/characters/camille",
       "contentStatus": "live",
-      "statusLabels": [
-        "New"
-      ]
+      "statusLabels": []
     },
     {
       "id": "catcher",
@@ -1078,6 +1166,16 @@
       "statusLabels": []
     },
     {
+      "id": "liino",
+      "slug": "liino",
+      "name": "Liino Soon",
+      "sourcePath": "/arknights-endfield/characters/liino",
+      "contentStatus": "beta",
+      "statusLabels": [
+        "Soon"
+      ]
+    },
+    {
       "id": "mi-fu",
       "slug": "mi-fu",
       "name": "Mi Fu",
@@ -1108,6 +1206,16 @@
       "sourcePath": "/arknights-endfield/characters/rossi",
       "contentStatus": "live",
       "statusLabels": []
+    },
+    {
+      "id": "si",
+      "slug": "si",
+      "name": "Si Soon",
+      "sourcePath": "/arknights-endfield/characters/si",
+      "contentStatus": "beta",
+      "statusLabels": [
+        "Soon"
+      ]
     },
     {
       "id": "snowshine",
@@ -1158,7 +1266,7 @@
       "statusLabels": []
     }
   ],
-  "detailPagesScraped": 28,
-  "detailPagesTotal": 28,
+  "detailPagesScraped": 31,
+  "detailPagesTotal": 31,
   "staleDetailPagesRemoved": 0
 }

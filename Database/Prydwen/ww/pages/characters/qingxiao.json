@@ -11,18 +11,18 @@
   "sourcePath": "/wuthering-waves/characters/qingxiao",
   "contentStatus": "beta",
   "statusLabels": [
-    "3.x"
+    "3.6"
   ],
-  "scrapedAt": "2026-07-10T08:49:31.188Z",
-  "updatedText": "15/June/2026",
+  "scrapedAt": "2026-07-18T07:14:17.186Z",
+  "updatedText": "17/July/2026",
   "meta": {
     "title": "Qingxiao Best Build Guide | Wuthering Waves (WuWa)",
     "description": ""
   },
   "facts": {
     "rarity": 5,
-    "element": "Unknown",
-    "weapon": "Unknown"
+    "element": "Aero",
+    "weapon": "Sword"
   },
   "assets": [
     {
@@ -34,6 +34,16 @@
       "path": "Prydwen/ww/assets/characters/qingxiao-4f6ce581004d.webp",
       "width": 210,
       "height": 280
+    },
+    {
+      "id": "ace758a61ce1",
+      "sourceHash": "ace758a61ce1",
+      "kind": "icons",
+      "name": "Aero",
+      "fileStem": "element-aero",
+      "path": "Prydwen/ww/assets/icons/aero-ace758a61ce1.webp",
+      "width": 20,
+      "height": 20
     },
     {
       "id": "df2ddd77ec24",
@@ -51,7 +61,7 @@
       "id": "qingxiao-best-build-guide-0",
       "level": 1,
       "heading": "Qingxiao Best Build Guide",
-      "text": "Last updated: 15/June/2026",
+      "text": "Last updated: 17/July/2026",
       "assets": [
         {
           "id": "4f6ce581004d",
@@ -69,8 +79,19 @@
       "id": "introduction-1",
       "level": 2,
       "heading": "Introduction",
-      "text": "Best guide and build for Qingxiao from WW (Wuthering Waves). Qingxiao is a 5 ★ rarity character from the Unknown element who uses the Unknown type weapon.\n\n To learn more about Qingxiao check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.",
-      "assets": []
+      "text": "Best guide and build for Qingxiao from WW (Wuthering Waves). Qingxiao is a 5 ★ rarity character from the Aero element who uses the Sword type weapon.\n\n To learn more about Qingxiao check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.",
+      "assets": [
+        {
+          "id": "ace758a61ce1",
+          "sourceHash": "ace758a61ce1",
+          "kind": "icons",
+          "name": "Aero",
+          "fileStem": "element-aero",
+          "path": "Prydwen/ww/assets/icons/aero-ace758a61ce1.webp",
+          "width": 20,
+          "height": 20
+        }
+      ]
     },
     {
       "id": "video-guide-2",
@@ -246,5 +267,5 @@
     }
   },
   "tables": [],
-  "text": "Qingxiao Best Build Guide | Wuthering Waves (WuWa)\n \n\n Wuthering Waves\n Home Database Characters Weapons Echoes Banners\n Tier Lists Tier List Team Tier List Value Tier List\n Guides Guides\n Resources Map News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Wuthering Waves\n /\n Characters\n /\n Qingxiao\n Qingxiao Best Build Guide\n Last updated: 15/June/2026\n\n Introduction\n Best guide and build for Qingxiao from WW (Wuthering Waves). Qingxiao is a 5 ★ rarity character from the Unknown element who uses the Unknown type weapon.\n\n To learn more about Qingxiao check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n This character has no video guide yet.\n\n To learn more about Qingxiao check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Kit\n\n Review\n\n Build\n\n Gameplay and teams\n\n Calculations\n\n Profile\n\n Skills\n Qingxiao skills aren't available yet. They will be added soon!\n\n Resonance Chain (Dupes)\n Qingxiao dupes information aren't available yet. They will be added soon!\n\n Minor Fortes (Total)\n Qingxiao Minor Fortes information aren't available yet.\n\n Stats\n Qingxiao stats aren't available yet.\n\n Upgrade Materials\n Qingxiao upgrade material information aren't available yet.\n\n Voice Actors\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n Please keep in mind Wuthering Waves is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Wuthering Waves is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Qingxiao ratings aren't available yet.\n\n Pros & Cons\n Qingxiao pros & cons aren't available yet.\n\n Review\n Qingxiao mini-review isn't available yet.\n\n Video guides\n Qingxiao guide videos aren't available yet.\n\n Build\n\n Best build\n Qingxiao build information aren't available yet.\n\n Gameplay and teams\n\n Rotation\n Qingxiao rotation information aren't available yet.\n\n Synergies\n Qingxiao synergies are currently missing.\n\n Example Teams\n Qingxiao teams are currently missing.\n\n Calculations"
+  "text": "Qingxiao Best Build Guide | Wuthering Waves (WuWa)\n \n\n Wuthering Waves\n Home Database Characters Weapons Echoes Banners\n Tier Lists Tier List Team Tier List Value Tier List\n Guides Guides\n Resources Map News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Wuthering Waves\n /\n Characters\n /\n Qingxiao\n Qingxiao Best Build Guide\n Last updated: 17/July/2026\n\n Introduction\n Best guide and build for Qingxiao from WW (Wuthering Waves). Qingxiao is a 5 ★ rarity character from the Aero element who uses the Sword type weapon.\n\n To learn more about Qingxiao check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n This character has no video guide yet.\n\n To learn more about Qingxiao check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Kit\n\n Review\n\n Build\n\n Gameplay and teams\n\n Calculations\n\n Profile\n\n Skills\n Qingxiao skills aren't available yet. They will be added soon!\n\n Resonance Chain (Dupes)\n Qingxiao dupes information aren't available yet. They will be added soon!\n\n Minor Fortes (Total)\n Qingxiao Minor Fortes information aren't available yet.\n\n Stats\n Qingxiao stats aren't available yet.\n\n Upgrade Materials\n Qingxiao upgrade material information aren't available yet.\n\n Voice Actors\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n Please keep in mind Wuthering Waves is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Wuthering Waves is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Qingxiao ratings aren't available yet.\n\n Pros & Cons\n Qingxiao pros & cons aren't available yet.\n\n Review\n Qingxiao mini-review isn't available yet.\n\n Video guides\n Qingxiao guide videos aren't available yet.\n\n Build\n\n Best build\n Qingxiao build information aren't available yet.\n\n Gameplay and teams\n\n Rotation\n Qingxiao rotation information aren't available yet.\n\n Synergies\n Qingxiao synergies are currently missing.\n\n Example Teams\n Qingxiao teams are currently missing.\n\n Calculations"
 }

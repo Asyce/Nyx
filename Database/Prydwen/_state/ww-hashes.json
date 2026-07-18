@@ -1,6 +1,6 @@
 {
   "game": "ww",
-  "updatedAt": "2026-07-10T08:49:31.188Z",
+  "updatedAt": "2026-07-18T07:14:17.186Z",
   "hashes": {
     "records": {
       "characters:aalto": "9015cce5588d22ad992c952b99a786724640bc12b511612714e6449bfbf9cac8",
@@ -26,7 +26,7 @@
       "characters:hsin": "8016eaf24fcc6af3c88dfae7ca7049fe913f53747a75d5f4898729fcc4a5a44f",
       "characters:iuno": "1b0b59cb5e8e5730bca5ee8877d86f44459bcd256713901b440d42e637ab7f30",
       "characters:jianxin": "a53761ed46088564cae51a4b1734379a5d37fbc9745ffc45c69410d0b6a0c3d2",
-      "characters:jingran": "86cd15a87f5e12384eb32d05632e42cb55d60a70562d14eec3b06fdf856fb6d6",
+      "characters:jingran": "6ce6a29960b98990e584f71abd91df825ab718fddf0983608ae882b5293571dd",
       "characters:jinhsi": "a0f56a90a0e792b7fbe1608eaed57cec05d341e213d1da7931ccff6ac678601e",
       "characters:jiyan": "982a955af89d5b24a5367105a1feef48faeec7a098f27b71b6eea414c807ba44",
       "characters:lingyang": "0ef9a12aad7dfa6747bac48df119c0b003ee1db37345b625ce3258de65fa9ee0",
@@ -40,10 +40,10 @@
       "characters:mortefi": "9b0b08eb03efcedf24106f8d88fc13caf41c339a02fa8b092e3d599c874114ed",
       "characters:phoebe": "cc5dac4c5b66552af84138d4018b9c52cc0e23575daa2fdf0978b6eb9ccb00c6",
       "characters:phrolova": "b0f3bd482895b5f769efa27af88a60f995318edb89f8a954f9165b7641d3dd7b",
-      "characters:qingxiao": "f6f904db7d805461023a2878565725f6fb84c1f2cad8336fdb048b404422eee8",
+      "characters:qingxiao": "aad9c2d55bd923fedd75256bf487f9c08f6cf82f5213eb6d21c2f13c1184d758",
       "characters:qiuyuan": "c8df03b370015c3b7a00a0c08da71d543ded0f108069cd560ab62a782bd4e703",
       "characters:rebecca": "90df21b183c638f301854a518ee83c00f40944e207f267e207a9fc4cd9c2d2b7",
-      "characters:roccia": "43913bf2c1ba5c84eb2ca344e43b86b506a227223492e286690f4d71a3e5c443",
+      "characters:roccia": "aea13c111e19dd71fcc01b8abaae49e79eb8de5f6ac7afbec229e82e69514b43",
       "characters:rover-aero": "fda713118bf4f17469d93b6a10d14a3d4efadd60e7ca6cdfa0ce79b2db3c936a",
       "characters:rover-electro": "fc1bd619ec2c823d455d750ed977fc13fb35647db5957578d1d8353afb38b74e",
       "characters:rover-havoc": "9958e157357d6fa70d071a06618f77ca5a97fb2cabd38ab3000fae87733dd186",
@@ -52,7 +52,7 @@
       "characters:sigrika": "bdfdd0ec22d3bea3cc2bb6730cf0cb77ddf3258acaa5097f5561372fab805cf1",
       "characters:suisui": "688bf49b54bb13ecae9c4064c6c719ec85f20e9ba9d27f08df400911f62554f6",
       "characters:suoming": "d38c2e4c682ded03db5ccf20ab0135c21532d999cf9e8f593ab6737d81a0ad70",
-      "characters:taoqi": "7d261eb89dfed2bc5a12b9a02fa5e6234c12d7df20d61251c895349d7140f7d3",
+      "characters:taoqi": "0bad3884723bb6945e454f070dc88e0e41e1bef01aa0caae93dbf6129e6cf079",
       "characters:the-shorekeeper": "ad91e60b1c5f1c91c9896994df02e5f79d75e76ad7962b7c47a7aee4eb56d977",
       "characters:verina": "62e075328cd693e953895a2e1cdbc854800db6488749907fceaaeee5df23213a",
       "characters:xiangli-yao": "ee89b84dd6ca3afa444f2eabe8274c5afe9c08a1ed8822e2c8e860abb11ab511",
@@ -63,9 +63,9 @@
       "characters:yuanwu": "a6563d57b9148123e30724a3ac047a0b4696464150122e667f7eb56bdf540010",
       "characters:zani": "abf56940d2629fdc8e869637f3f438a17265e5526d7d0f9d3071c59ff7cba396",
       "characters:zhezhi": "6181b9994aebcae61d34fac61711d998baf10aff096bb20a62569d11fc41bf11",
-      "collection:characters": "d7e70d4f9a1d1dd4a3191be7d5d6312175731c6f4d6333a335edd4faaf5bf6ad",
+      "collection:characters": "551648f32fc4b0227c4435df733f278ebaaf4d0c446f81600a074460a1d4e82b",
       "collection:echoes": "2bbc841003cd905d189e8ba303fcc566b43d9d60c27861f7504e422d1a38a33d",
-      "collection:weapons": "9860a4386d53fa1aed219599cf1a6b2fd806a75cfc8aab784240240edffaff66"
+      "collection:weapons": "b68e4850d487469947d76cf1f0dc632f89bfa600675b30752e4030c0a38e65a5"
     }
   }
 }

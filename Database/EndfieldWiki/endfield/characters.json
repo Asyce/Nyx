@@ -63,6 +63,10 @@
         {
           "id": "Triphasic_Nanoflake",
           "count": 20
+        },
+        {
+          "id": "Talos_Cap",
+          "count": 8
         }
       ],
       "skill": [
@@ -97,6 +101,10 @@
         {
           "id": "Tachyon_Screening_Lattice",
           "count": 116
+        },
+        {
+          "id": "Crimson_Spearleaf",
+          "count": 84
         },
         {
           "id": "Triphasic_Nanoflake",
@@ -154,6 +162,10 @@
           {
             "id": "Triphasic_Nanoflake",
             "count": 20
+          },
+          {
+            "id": "Talos_Cap",
+            "count": 8
           },
           {
             "id": "T-Creds",
@@ -290,6 +302,10 @@
             "count": 12
           },
           {
+            "id": "Crimson_Spearleaf",
+            "count": 12
+          },
+          {
             "id": "T-Creds",
             "count": 96000
           },
@@ -312,6 +328,10 @@
             "count": 32
           },
           {
+            "id": "Crimson_Spearleaf",
+            "count": 24
+          },
+          {
             "id": "T-Creds",
             "count": 120000
           },
@@ -332,6 +352,10 @@
           {
             "id": "Tachyon_Screening_Lattice",
             "count": 72
+          },
+          {
+            "id": "Crimson_Spearleaf",
+            "count": 48
           },
           {
             "id": "T-Creds",
@@ -359,6 +383,10 @@
               "count": 6
             },
             {
+              "id": "Crimson_Spearleaf",
+              "count": 3
+            },
+            {
               "id": "T-Creds",
               "count": 24000
             }
@@ -375,6 +403,10 @@
             {
               "id": "Triphasic_Nanoflake",
               "count": 6
+            },
+            {
+              "id": "Crimson_Spearleaf",
+              "count": 3
             },
             {
               "id": "T-Creds",
@@ -395,6 +427,10 @@
               "count": 6
             },
             {
+              "id": "Crimson_Spearleaf",
+              "count": 3
+            },
+            {
               "id": "T-Creds",
               "count": 24000
             }
@@ -411,6 +447,10 @@
             {
               "id": "Triphasic_Nanoflake",
               "count": 6
+            },
+            {
+              "id": "Crimson_Spearleaf",
+              "count": 3
             },
             {
               "id": "T-Creds",
@@ -433,6 +473,10 @@
               "count": 16
             },
             {
+              "id": "Crimson_Spearleaf",
+              "count": 6
+            },
+            {
               "id": "T-Creds",
               "count": 30000
             }
@@ -449,6 +493,10 @@
             {
               "id": "Triphasic_Nanoflake",
               "count": 16
+            },
+            {
+              "id": "Crimson_Spearleaf",
+              "count": 6
             },
             {
               "id": "T-Creds",
@@ -469,6 +517,10 @@
               "count": 16
             },
             {
+              "id": "Crimson_Spearleaf",
+              "count": 6
+            },
+            {
               "id": "T-Creds",
               "count": 30000
             }
@@ -485,6 +537,10 @@
             {
               "id": "Triphasic_Nanoflake",
               "count": 16
+            },
+            {
+              "id": "Crimson_Spearleaf",
+              "count": 6
             },
             {
               "id": "T-Creds",
@@ -507,6 +563,10 @@
               "count": 36
             },
             {
+              "id": "Crimson_Spearleaf",
+              "count": 12
+            },
+            {
               "id": "T-Creds",
               "count": 65000
             }
@@ -523,6 +583,10 @@
             {
               "id": "Triphasic_Nanoflake",
               "count": 36
+            },
+            {
+              "id": "Crimson_Spearleaf",
+              "count": 12
             },
             {
               "id": "T-Creds",
@@ -543,6 +607,10 @@
               "count": 36
             },
             {
+              "id": "Crimson_Spearleaf",
+              "count": 12
+            },
+            {
               "id": "T-Creds",
               "count": 65000
             }
@@ -559,6 +627,10 @@
             {
               "id": "Triphasic_Nanoflake",
               "count": 36
+            },
+            {
+              "id": "Crimson_Spearleaf",
+              "count": 12
             },
             {
               "id": "T-Creds",

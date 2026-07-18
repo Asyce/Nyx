@@ -3,7 +3,7 @@
   "label": "Genshin Impact",
   "source": "GachaBase beta changelog",
   "sourceUrl": "https://gi.gachabase.net/changelog/beta?lang=en",
-  "scrapedAt": "2026-07-10T08:51:15.950Z",
+  "scrapedAt": "2026-07-18T07:16:03.617Z",
   "title": "Changelog - v6.7.5X | Genshin Impact | Gachabase",
   "categoryLinks": [
     {
@@ -128,17 +128,108 @@
     }
   ],
   "counts": {
-    "entries": 28,
+    "entries": 35,
     "byType": {
-      "weapons": 24,
-      "artifacts": 4
+      "weapons": 29,
+      "artifacts": 6
     },
     "byStatus": {
-      "updated": 15,
+      "updated": 22,
       "new": 13
     }
   },
   "entries": [
+    {
+      "game": "gi",
+      "type": "weapons",
+      "id": "11436",
+      "rarity": 4,
+      "name": "Emberwell",
+      "iconHash": "e820cb9eb6c82d50758f8d2782587ed6",
+      "status": "updated",
+      "href": "https://gi.gachabase.net/weapons/11436/emberwell/beta/6.7.52/46514354",
+      "diff": "https://gi.gachabase.net/diff/weapons/11436/emberwell?prev=beta_6.7.51_46441325&cur=beta_6.7.52_46514354",
+      "betaVersion": "6.7.52",
+      "revision": "46514354"
+    },
+    {
+      "game": "gi",
+      "type": "weapons",
+      "id": "11520",
+      "rarity": 5,
+      "name": "Whitelake Frostfeather",
+      "iconHash": "a10b7853cb47513dafe98bbc3c068057",
+      "status": "updated",
+      "href": "https://gi.gachabase.net/weapons/11520/whitelake-frostfeather/beta/6.7.52/46514354",
+      "diff": "https://gi.gachabase.net/diff/weapons/11520/whitelake-frostfeather?prev=beta_6.7.51_46441325&cur=beta_6.7.52_46514354",
+      "betaVersion": "6.7.52",
+      "revision": "46514354"
+    },
+    {
+      "game": "gi",
+      "type": "weapons",
+      "id": "11521",
+      "rarity": 5,
+      "name": "Exaiphanes Blade",
+      "iconHash": "7065f048eaf4d97e231a2bcd66295a76",
+      "status": "updated",
+      "href": "https://gi.gachabase.net/weapons/11521/exaiphanes-blade/beta/6.7.52/46514354",
+      "diff": "https://gi.gachabase.net/diff/weapons/11521/exaiphanes-blade?prev=beta_6.7.51_46441325&cur=beta_6.7.52_46514354",
+      "betaVersion": "6.7.52",
+      "revision": "46514354"
+    },
+    {
+      "game": "gi",
+      "type": "weapons",
+      "id": "12516",
+      "rarity": 5,
+      "name": "A Teaspoon of Transcendence",
+      "iconHash": "2b7a5a0845ec4d16d7ba1bb6b7910d79",
+      "status": "updated",
+      "href": "https://gi.gachabase.net/weapons/12516/a-teaspoon-of-transcendence/beta/6.7.52/46514354",
+      "diff": "https://gi.gachabase.net/diff/weapons/12516/a-teaspoon-of-transcendence?prev=beta_6.7.51_46441325&cur=beta_6.7.52_46514354",
+      "betaVersion": "6.7.52",
+      "revision": "46514354"
+    },
+    {
+      "game": "gi",
+      "type": "weapons",
+      "id": "14436",
+      "rarity": 4,
+      "name": "Echoes of the Heart",
+      "iconHash": "ae50d2370dc7126dc4375c5c7ec07a97",
+      "status": "updated",
+      "href": "https://gi.gachabase.net/weapons/14436/echoes-of-the-heart/beta/6.7.52/46514354",
+      "diff": "https://gi.gachabase.net/diff/weapons/14436/echoes-of-the-heart?prev=beta_6.7.51_46441325&cur=beta_6.7.52_46514354",
+      "betaVersion": "6.7.52",
+      "revision": "46514354"
+    },
+    {
+      "game": "gi",
+      "type": "artifacts",
+      "id": "15047",
+      "rarity": null,
+      "name": "Scarlet Proof",
+      "iconHash": "bbde45c6d9db62bb2d277a7812ed0941",
+      "status": "updated",
+      "href": "https://gi.gachabase.net/artifacts/15047/scarlet-proof/beta/6.7.52/46514354",
+      "diff": "https://gi.gachabase.net/diff/artifacts/15047/scarlet-proof?prev=beta_6.7.51_46441325&cur=beta_6.7.52_46514354",
+      "betaVersion": "6.7.52",
+      "revision": "46514354"
+    },
+    {
+      "game": "gi",
+      "type": "artifacts",
+      "id": "15048",
+      "rarity": null,
+      "name": "Heart of the Furnace",
+      "iconHash": "32b6444c6d0d27629148cd0d8296f42b",
+      "status": "updated",
+      "href": "https://gi.gachabase.net/artifacts/15048/heart-of-the-furnace/beta/6.7.52/46514354",
+      "diff": "https://gi.gachabase.net/diff/artifacts/15048/heart-of-the-furnace?prev=beta_6.7.51_46441325&cur=beta_6.7.52_46514354",
+      "betaVersion": "6.7.52",
+      "revision": "46514354"
+    },
     {
       "game": "gi",
       "type": "weapons",

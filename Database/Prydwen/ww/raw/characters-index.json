@@ -3,7 +3,7 @@
   "game": "ww",
   "collection": "characters",
   "sourcePath": "/wuthering-waves/characters",
-  "scrapedAt": "2026-07-10T08:49:31.188Z",
+  "scrapedAt": "2026-07-18T07:14:17.186Z",
   "detailPagesTotal": 60,
   "detailPagesScraped": 60,
   "staleDetailPagesRemoved": 0,
@@ -197,11 +197,11 @@
     {
       "id": "jingran",
       "slug": "jingran",
-      "name": "Jingran 3.x",
+      "name": "Jingran 3.6",
       "sourcePath": "/wuthering-waves/characters/jingran",
       "contentStatus": "beta",
       "statusLabels": [
-        "3.x"
+        "3.6"
       ]
     },
     {
@@ -311,11 +311,11 @@
     {
       "id": "qingxiao",
       "slug": "qingxiao",
-      "name": "Qingxiao 3.x",
+      "name": "Qingxiao 3.6",
       "sourcePath": "/wuthering-waves/characters/qingxiao",
       "contentStatus": "beta",
       "statusLabels": [
-        "3.x"
+        "3.6"
       ]
     },
     {

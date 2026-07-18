@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T08:51:16.179Z",
+  "generatedAt": "2026-07-18T07:16:03.809Z",
   "source": "GachaBase beta changelog",
   "games": {
     "zzz": {
@@ -7,7 +7,7 @@
       "label": "Zenless Zone Zero",
       "source": "GachaBase beta changelog",
       "sourceUrl": "https://zzz.gachabase.net/changelog/beta?lang=en",
-      "scrapedAt": "2026-07-10T08:51:15.449Z",
+      "scrapedAt": "2026-07-18T07:16:03.069Z",
       "title": "Changelog - v3.1.X | Zenless Zone Zero | Gachabase",
       "categoryLinks": [
         {
@@ -87,19 +87,201 @@
         }
       ],
       "counts": {
-        "entries": 91,
+        "entries": 105,
         "byType": {
-          "agents": 63,
-          "w-engines": 11,
-          "bangboo": 6,
+          "agents": 72,
+          "w-engines": 14,
+          "bangboo": 8,
           "drive-discs": 11
         },
         "byStatus": {
-          "updated": 90,
+          "updated": 104,
           "new": 1
         }
       },
       "entries": [
+        {
+          "game": "zzz",
+          "type": "agents",
+          "id": "1591",
+          "rarity": null,
+          "name": "Sigrid",
+          "iconHash": "38e7b9db75281986921dc2f41cadef5e",
+          "status": "updated",
+          "href": "https://zzz.gachabase.net/agents/1591/1591/beta/3.1.5/17500498",
+          "diff": "https://zzz.gachabase.net/diff/agents/1591/1591?prev=beta_3.1.5_17496639&cur=beta_3.1.5_17500498",
+          "betaVersion": "3.1.5",
+          "revision": "17500498"
+        },
+        {
+          "game": "zzz",
+          "type": "agents",
+          "id": "1591",
+          "rarity": null,
+          "name": "Sigrid",
+          "iconHash": "38e7b9db75281986921dc2f41cadef5e",
+          "status": "updated",
+          "href": "https://zzz.gachabase.net/agents/1591/1591/beta/3.1.5/17487435",
+          "diff": "https://zzz.gachabase.net/diff/agents/1591/1591?prev=beta_3.1.5_17467153&cur=beta_3.1.5_17487435",
+          "betaVersion": "3.1.5",
+          "revision": "17487435"
+        },
+        {
+          "game": "zzz",
+          "type": "agents",
+          "id": "1591",
+          "rarity": null,
+          "name": "Sigrid",
+          "iconHash": "38e7b9db75281986921dc2f41cadef5e",
+          "status": "updated",
+          "href": "https://zzz.gachabase.net/agents/1591/1591/beta/3.1.5/17467153",
+          "diff": "https://zzz.gachabase.net/diff/agents/1591/1591?prev=beta_3.1.5_17465083&cur=beta_3.1.5_17467153",
+          "betaVersion": "3.1.5",
+          "revision": "17467153"
+        },
+        {
+          "game": "zzz",
+          "type": "agents",
+          "id": "1021",
+          "rarity": null,
+          "name": "Nekomata",
+          "iconHash": "dc36ffad7092e2295bf5421a10edf8e0",
+          "status": "updated",
+          "href": "https://zzz.gachabase.net/agents/1021/nekomata/beta/3.1.5/17463384",
+          "diff": "https://zzz.gachabase.net/diff/agents/1021/nekomata?prev=beta_3.1.5_17426961&cur=beta_3.1.5_17463384",
+          "betaVersion": "3.1.5",
+          "revision": "17463384"
+        },
+        {
+          "game": "zzz",
+          "type": "agents",
+          "id": "1211",
+          "rarity": null,
+          "name": "Rina",
+          "iconHash": "b06b14634997744ca11b55d9397dfcdf",
+          "status": "updated",
+          "href": "https://zzz.gachabase.net/agents/1211/rina/beta/3.1.5/17463384",
+          "diff": "https://zzz.gachabase.net/diff/agents/1211/rina?prev=beta_3.1.5_17426961&cur=beta_3.1.5_17463384",
+          "betaVersion": "3.1.5",
+          "revision": "17463384"
+        },
+        {
+          "game": "zzz",
+          "type": "agents",
+          "id": "1581",
+          "rarity": null,
+          "name": "Remielle",
+          "iconHash": null,
+          "status": "updated",
+          "href": "https://zzz.gachabase.net/agents/1581/1581/beta/3.1.5/17463384",
+          "diff": "https://zzz.gachabase.net/diff/agents/1581/1581?prev=beta_3.1.5_17426961&cur=beta_3.1.5_17463384",
+          "betaVersion": "3.1.5",
+          "revision": "17463384"
+        },
+        {
+          "game": "zzz",
+          "type": "agents",
+          "id": "1591",
+          "rarity": null,
+          "name": "Sigrid",
+          "iconHash": "38e7b9db75281986921dc2f41cadef5e",
+          "status": "updated",
+          "href": "https://zzz.gachabase.net/agents/1591/1591/beta/3.1.5/17463384",
+          "diff": "https://zzz.gachabase.net/diff/agents/1591/1591?prev=beta_3.1.5_17426961&cur=beta_3.1.5_17463384",
+          "betaVersion": "3.1.5",
+          "revision": "17463384"
+        },
+        {
+          "game": "zzz",
+          "type": "w-engines",
+          "id": "14158",
+          "rarity": null,
+          "name": "Poem of the Empty Feather Return",
+          "iconHash": "3a8ba04d8e5a0436370dcaf4f17bd54f",
+          "status": "updated",
+          "href": "https://zzz.gachabase.net/w-engines/14158/poem-of-the-empty-feather-return/beta/3.1.5/17463384",
+          "diff": "https://zzz.gachabase.net/diff/w-engines/14158/poem-of-the-empty-feather-return?prev=beta_3.1.5_17426961&cur=beta_3.1.5_17463384",
+          "betaVersion": "3.1.5",
+          "revision": "17463384"
+        },
+        {
+          "game": "zzz",
+          "type": "w-engines",
+          "id": "14159",
+          "rarity": null,
+          "name": "...",
+          "iconHash": "3d59cd5afa9a8585d1bc4a8355277747",
+          "status": "updated",
+          "href": "https://zzz.gachabase.net/w-engines/14159/14159/beta/3.1.5/17463384",
+          "diff": "https://zzz.gachabase.net/diff/w-engines/14159/14159?prev=beta_3.1.5_17426961&cur=beta_3.1.5_17463384",
+          "betaVersion": "3.1.5",
+          "revision": "17463384"
+        },
+        {
+          "game": "zzz",
+          "type": "bangboo",
+          "id": "54023",
+          "rarity": null,
+          "name": "Ariel",
+          "iconHash": "2692daf543448a6aa38d2f8b025edf40",
+          "status": "updated",
+          "href": "https://zzz.gachabase.net/bangboo/54023/ariel/beta/3.1.5/17463384",
+          "diff": "https://zzz.gachabase.net/diff/bangboo/54023/ariel?prev=beta_3.1.5_17426961&cur=beta_3.1.5_17463384",
+          "betaVersion": "3.1.5",
+          "revision": "17463384"
+        },
+        {
+          "game": "zzz",
+          "type": "agents",
+          "id": "1581",
+          "rarity": null,
+          "name": "Remielle",
+          "iconHash": null,
+          "status": "updated",
+          "href": "https://zzz.gachabase.net/agents/1581/1581/beta/3.1.5/17426961",
+          "diff": "https://zzz.gachabase.net/diff/agents/1581/1581?prev=beta_3.1.4_17288203&cur=beta_3.1.5_17426961",
+          "betaVersion": "3.1.5",
+          "revision": "17426961"
+        },
+        {
+          "game": "zzz",
+          "type": "agents",
+          "id": "1591",
+          "rarity": null,
+          "name": "Sigrid",
+          "iconHash": "38e7b9db75281986921dc2f41cadef5e",
+          "status": "updated",
+          "href": "https://zzz.gachabase.net/agents/1591/1591/beta/3.1.5/17426961",
+          "diff": "https://zzz.gachabase.net/diff/agents/1591/1591?prev=beta_3.1.4_17288203&cur=beta_3.1.5_17426961",
+          "betaVersion": "3.1.5",
+          "revision": "17426961"
+        },
+        {
+          "game": "zzz",
+          "type": "w-engines",
+          "id": "14158",
+          "rarity": null,
+          "name": "Poem of the Empty Feather Return",
+          "iconHash": "3a8ba04d8e5a0436370dcaf4f17bd54f",
+          "status": "updated",
+          "href": "https://zzz.gachabase.net/w-engines/14158/poem-of-the-empty-feather-return/beta/3.1.5/17426961",
+          "diff": "https://zzz.gachabase.net/diff/w-engines/14158/poem-of-the-empty-feather-return?prev=beta_3.1.4_17288203&cur=beta_3.1.5_17426961",
+          "betaVersion": "3.1.5",
+          "revision": "17426961"
+        },
+        {
+          "game": "zzz",
+          "type": "bangboo",
+          "id": "54023",
+          "rarity": null,
+          "name": "Ariel",
+          "iconHash": "2692daf543448a6aa38d2f8b025edf40",
+          "status": "updated",
+          "href": "https://zzz.gachabase.net/bangboo/54023/ariel/beta/3.1.5/17426961",
+          "diff": "https://zzz.gachabase.net/diff/bangboo/54023/ariel?prev=beta_3.1.4_17288203&cur=beta_3.1.5_17426961",
+          "betaVersion": "3.1.5",
+          "revision": "17426961"
+        },
         {
           "game": "zzz",
           "type": "agents",
@@ -2172,14 +2354,20 @@
           "betaVersion": "4.3.51",
           "revision": "15260290"
         }
-      ]
+      ],
+      "stale": true,
+      "freshness": {
+        "ok": false,
+        "message": "No GachaBase beta entries parsed for hsr",
+        "checkedAt": "2026-07-18T07:16:03.617Z"
+      }
     },
     "gi": {
       "game": "gi",
       "label": "Genshin Impact",
       "source": "GachaBase beta changelog",
       "sourceUrl": "https://gi.gachabase.net/changelog/beta?lang=en",
-      "scrapedAt": "2026-07-10T08:51:15.950Z",
+      "scrapedAt": "2026-07-18T07:16:03.617Z",
       "title": "Changelog - v6.7.5X | Genshin Impact | Gachabase",
       "categoryLinks": [
         {
@@ -2304,17 +2492,108 @@
         }
       ],
       "counts": {
-        "entries": 28,
+        "entries": 35,
         "byType": {
-          "weapons": 24,
-          "artifacts": 4
+          "weapons": 29,
+          "artifacts": 6
         },
         "byStatus": {
-          "updated": 15,
+          "updated": 22,
           "new": 13
         }
       },
       "entries": [
+        {
+          "game": "gi",
+          "type": "weapons",
+          "id": "11436",
+          "rarity": 4,
+          "name": "Emberwell",
+          "iconHash": "e820cb9eb6c82d50758f8d2782587ed6",
+          "status": "updated",
+          "href": "https://gi.gachabase.net/weapons/11436/emberwell/beta/6.7.52/46514354",
+          "diff": "https://gi.gachabase.net/diff/weapons/11436/emberwell?prev=beta_6.7.51_46441325&cur=beta_6.7.52_46514354",
+          "betaVersion": "6.7.52",
+          "revision": "46514354"
+        },
+        {
+          "game": "gi",
+          "type": "weapons",
+          "id": "11520",
+          "rarity": 5,
+          "name": "Whitelake Frostfeather",
+          "iconHash": "a10b7853cb47513dafe98bbc3c068057",
+          "status": "updated",
+          "href": "https://gi.gachabase.net/weapons/11520/whitelake-frostfeather/beta/6.7.52/46514354",
+          "diff": "https://gi.gachabase.net/diff/weapons/11520/whitelake-frostfeather?prev=beta_6.7.51_46441325&cur=beta_6.7.52_46514354",
+          "betaVersion": "6.7.52",
+          "revision": "46514354"
+        },
+        {
+          "game": "gi",
+          "type": "weapons",
+          "id": "11521",
+          "rarity": 5,
+          "name": "Exaiphanes Blade",
+          "iconHash": "7065f048eaf4d97e231a2bcd66295a76",
+          "status": "updated",
+          "href": "https://gi.gachabase.net/weapons/11521/exaiphanes-blade/beta/6.7.52/46514354",
+          "diff": "https://gi.gachabase.net/diff/weapons/11521/exaiphanes-blade?prev=beta_6.7.51_46441325&cur=beta_6.7.52_46514354",
+          "betaVersion": "6.7.52",
+          "revision": "46514354"
+        },
+        {
+          "game": "gi",
+          "type": "weapons",
+          "id": "12516",
+          "rarity": 5,
+          "name": "A Teaspoon of Transcendence",
+          "iconHash": "2b7a5a0845ec4d16d7ba1bb6b7910d79",
+          "status": "updated",
+          "href": "https://gi.gachabase.net/weapons/12516/a-teaspoon-of-transcendence/beta/6.7.52/46514354",
+          "diff": "https://gi.gachabase.net/diff/weapons/12516/a-teaspoon-of-transcendence?prev=beta_6.7.51_46441325&cur=beta_6.7.52_46514354",
+          "betaVersion": "6.7.52",
+          "revision": "46514354"
+        },
+        {
+          "game": "gi",
+          "type": "weapons",
+          "id": "14436",
+          "rarity": 4,
+          "name": "Echoes of the Heart",
+          "iconHash": "ae50d2370dc7126dc4375c5c7ec07a97",
+          "status": "updated",
+          "href": "https://gi.gachabase.net/weapons/14436/echoes-of-the-heart/beta/6.7.52/46514354",
+          "diff": "https://gi.gachabase.net/diff/weapons/14436/echoes-of-the-heart?prev=beta_6.7.51_46441325&cur=beta_6.7.52_46514354",
+          "betaVersion": "6.7.52",
+          "revision": "46514354"
+        },
+        {
+          "game": "gi",
+          "type": "artifacts",
+          "id": "15047",
+          "rarity": null,
+          "name": "Scarlet Proof",
+          "iconHash": "bbde45c6d9db62bb2d277a7812ed0941",
+          "status": "updated",
+          "href": "https://gi.gachabase.net/artifacts/15047/scarlet-proof/beta/6.7.52/46514354",
+          "diff": "https://gi.gachabase.net/diff/artifacts/15047/scarlet-proof?prev=beta_6.7.51_46441325&cur=beta_6.7.52_46514354",
+          "betaVersion": "6.7.52",
+          "revision": "46514354"
+        },
+        {
+          "game": "gi",
+          "type": "artifacts",
+          "id": "15048",
+          "rarity": null,
+          "name": "Heart of the Furnace",
+          "iconHash": "32b6444c6d0d27629148cd0d8296f42b",
+          "status": "updated",
+          "href": "https://gi.gachabase.net/artifacts/15048/heart-of-the-furnace/beta/6.7.52/46514354",
+          "diff": "https://gi.gachabase.net/diff/artifacts/15048/heart-of-the-furnace?prev=beta_6.7.51_46441325&cur=beta_6.7.52_46514354",
+          "betaVersion": "6.7.52",
+          "revision": "46514354"
+        },
         {
           "game": "gi",
           "type": "weapons",
@@ -2670,30 +2949,212 @@
     }
   },
   "counts": {
-    "entries": 177,
+    "entries": 198,
     "byGame": {
-      "zzz": 91,
+      "zzz": 105,
       "hsr": 58,
-      "gi": 28
+      "gi": 35
     },
     "byType": {
-      "zzz:agents": 63,
-      "zzz:w-engines": 11,
-      "zzz:bangboo": 6,
+      "zzz:agents": 72,
+      "zzz:w-engines": 14,
+      "zzz:bangboo": 8,
       "zzz:drive-discs": 11,
       "hsr:characters": 43,
       "hsr:lightcones": 11,
       "hsr:relics": 2,
       "hsr:planar-ornaments": 2,
-      "gi:weapons": 24,
-      "gi:artifacts": 4
+      "gi:weapons": 29,
+      "gi:artifacts": 6
     },
     "byStatus": {
-      "updated": 149,
+      "updated": 170,
       "new": 28
     }
   },
   "entries": [
+    {
+      "game": "zzz",
+      "type": "agents",
+      "id": "1591",
+      "rarity": null,
+      "name": "Sigrid",
+      "iconHash": "38e7b9db75281986921dc2f41cadef5e",
+      "status": "updated",
+      "href": "https://zzz.gachabase.net/agents/1591/1591/beta/3.1.5/17500498",
+      "diff": "https://zzz.gachabase.net/diff/agents/1591/1591?prev=beta_3.1.5_17496639&cur=beta_3.1.5_17500498",
+      "betaVersion": "3.1.5",
+      "revision": "17500498"
+    },
+    {
+      "game": "zzz",
+      "type": "agents",
+      "id": "1591",
+      "rarity": null,
+      "name": "Sigrid",
+      "iconHash": "38e7b9db75281986921dc2f41cadef5e",
+      "status": "updated",
+      "href": "https://zzz.gachabase.net/agents/1591/1591/beta/3.1.5/17487435",
+      "diff": "https://zzz.gachabase.net/diff/agents/1591/1591?prev=beta_3.1.5_17467153&cur=beta_3.1.5_17487435",
+      "betaVersion": "3.1.5",
+      "revision": "17487435"
+    },
+    {
+      "game": "zzz",
+      "type": "agents",
+      "id": "1591",
+      "rarity": null,
+      "name": "Sigrid",
+      "iconHash": "38e7b9db75281986921dc2f41cadef5e",
+      "status": "updated",
+      "href": "https://zzz.gachabase.net/agents/1591/1591/beta/3.1.5/17467153",
+      "diff": "https://zzz.gachabase.net/diff/agents/1591/1591?prev=beta_3.1.5_17465083&cur=beta_3.1.5_17467153",
+      "betaVersion": "3.1.5",
+      "revision": "17467153"
+    },
+    {
+      "game": "zzz",
+      "type": "agents",
+      "id": "1021",
+      "rarity": null,
+      "name": "Nekomata",
+      "iconHash": "dc36ffad7092e2295bf5421a10edf8e0",
+      "status": "updated",
+      "href": "https://zzz.gachabase.net/agents/1021/nekomata/beta/3.1.5/17463384",
+      "diff": "https://zzz.gachabase.net/diff/agents/1021/nekomata?prev=beta_3.1.5_17426961&cur=beta_3.1.5_17463384",
+      "betaVersion": "3.1.5",
+      "revision": "17463384"
+    },
+    {
+      "game": "zzz",
+      "type": "agents",
+      "id": "1211",
+      "rarity": null,
+      "name": "Rina",
+      "iconHash": "b06b14634997744ca11b55d9397dfcdf",
+      "status": "updated",
+      "href": "https://zzz.gachabase.net/agents/1211/rina/beta/3.1.5/17463384",
+      "diff": "https://zzz.gachabase.net/diff/agents/1211/rina?prev=beta_3.1.5_17426961&cur=beta_3.1.5_17463384",
+      "betaVersion": "3.1.5",
+      "revision": "17463384"
+    },
+    {
+      "game": "zzz",
+      "type": "agents",
+      "id": "1581",
+      "rarity": null,
+      "name": "Remielle",
+      "iconHash": null,
+      "status": "updated",
+      "href": "https://zzz.gachabase.net/agents/1581/1581/beta/3.1.5/17463384",
+      "diff": "https://zzz.gachabase.net/diff/agents/1581/1581?prev=beta_3.1.5_17426961&cur=beta_3.1.5_17463384",
+      "betaVersion": "3.1.5",
+      "revision": "17463384"
+    },
+    {
+      "game": "zzz",
+      "type": "agents",
+      "id": "1591",
+      "rarity": null,
+      "name": "Sigrid",
+      "iconHash": "38e7b9db75281986921dc2f41cadef5e",
+      "status": "updated",
+      "href": "https://zzz.gachabase.net/agents/1591/1591/beta/3.1.5/17463384",
+      "diff": "https://zzz.gachabase.net/diff/agents/1591/1591?prev=beta_3.1.5_17426961&cur=beta_3.1.5_17463384",
+      "betaVersion": "3.1.5",
+      "revision": "17463384"
+    },
+    {
+      "game": "zzz",
+      "type": "w-engines",
+      "id": "14158",
+      "rarity": null,
+      "name": "Poem of the Empty Feather Return",
+      "iconHash": "3a8ba04d8e5a0436370dcaf4f17bd54f",
+      "status": "updated",
+      "href": "https://zzz.gachabase.net/w-engines/14158/poem-of-the-empty-feather-return/beta/3.1.5/17463384",
+      "diff": "https://zzz.gachabase.net/diff/w-engines/14158/poem-of-the-empty-feather-return?prev=beta_3.1.5_17426961&cur=beta_3.1.5_17463384",
+      "betaVersion": "3.1.5",
+      "revision": "17463384"
+    },
+    {
+      "game": "zzz",
+      "type": "w-engines",
+      "id": "14159",
+      "rarity": null,
+      "name": "...",
+      "iconHash": "3d59cd5afa9a8585d1bc4a8355277747",
+      "status": "updated",
+      "href": "https://zzz.gachabase.net/w-engines/14159/14159/beta/3.1.5/17463384",
+      "diff": "https://zzz.gachabase.net/diff/w-engines/14159/14159?prev=beta_3.1.5_17426961&cur=beta_3.1.5_17463384",
+      "betaVersion": "3.1.5",
+      "revision": "17463384"
+    },
+    {
+      "game": "zzz",
+      "type": "bangboo",
+      "id": "54023",
+      "rarity": null,
+      "name": "Ariel",
+      "iconHash": "2692daf543448a6aa38d2f8b025edf40",
+      "status": "updated",
+      "href": "https://zzz.gachabase.net/bangboo/54023/ariel/beta/3.1.5/17463384",
+      "diff": "https://zzz.gachabase.net/diff/bangboo/54023/ariel?prev=beta_3.1.5_17426961&cur=beta_3.1.5_17463384",
+      "betaVersion": "3.1.5",
+      "revision": "17463384"
+    },
+    {
+      "game": "zzz",
+      "type": "agents",
+      "id": "1581",
+      "rarity": null,
+      "name": "Remielle",
+      "iconHash": null,
+      "status": "updated",
+      "href": "https://zzz.gachabase.net/agents/1581/1581/beta/3.1.5/17426961",
+      "diff": "https://zzz.gachabase.net/diff/agents/1581/1581?prev=beta_3.1.4_17288203&cur=beta_3.1.5_17426961",
+      "betaVersion": "3.1.5",
+      "revision": "17426961"
+    },
+    {
+      "game": "zzz",
+      "type": "agents",
+      "id": "1591",
+      "rarity": null,
+      "name": "Sigrid",
+      "iconHash": "38e7b9db75281986921dc2f41cadef5e",
+      "status": "updated",
+      "href": "https://zzz.gachabase.net/agents/1591/1591/beta/3.1.5/17426961",
+      "diff": "https://zzz.gachabase.net/diff/agents/1591/1591?prev=beta_3.1.4_17288203&cur=beta_3.1.5_17426961",
+      "betaVersion": "3.1.5",
+      "revision": "17426961"
+    },
+    {
+      "game": "zzz",
+      "type": "w-engines",
+      "id": "14158",
+      "rarity": null,
+      "name": "Poem of the Empty Feather Return",
+      "iconHash": "3a8ba04d8e5a0436370dcaf4f17bd54f",
+      "status": "updated",
+      "href": "https://zzz.gachabase.net/w-engines/14158/poem-of-the-empty-feather-return/beta/3.1.5/17426961",
+      "diff": "https://zzz.gachabase.net/diff/w-engines/14158/poem-of-the-empty-feather-return?prev=beta_3.1.4_17288203&cur=beta_3.1.5_17426961",
+      "betaVersion": "3.1.5",
+      "revision": "17426961"
+    },
+    {
+      "game": "zzz",
+      "type": "bangboo",
+      "id": "54023",
+      "rarity": null,
+      "name": "Ariel",
+      "iconHash": "2692daf543448a6aa38d2f8b025edf40",
+      "status": "updated",
+      "href": "https://zzz.gachabase.net/bangboo/54023/ariel/beta/3.1.5/17426961",
+      "diff": "https://zzz.gachabase.net/diff/bangboo/54023/ariel?prev=beta_3.1.4_17288203&cur=beta_3.1.5_17426961",
+      "betaVersion": "3.1.5",
+      "revision": "17426961"
+    },
     {
       "game": "zzz",
       "type": "agents",
@@ -4615,6 +5076,97 @@
       "href": "https://hsr.gachabase.net/planar-ornaments/328/cosmic-life-sciences-institute/beta/4.3.51/15260290",
       "betaVersion": "4.3.51",
       "revision": "15260290"
+    },
+    {
+      "game": "gi",
+      "type": "weapons",
+      "id": "11436",
+      "rarity": 4,
+      "name": "Emberwell",
+      "iconHash": "e820cb9eb6c82d50758f8d2782587ed6",
+      "status": "updated",
+      "href": "https://gi.gachabase.net/weapons/11436/emberwell/beta/6.7.52/46514354",
+      "diff": "https://gi.gachabase.net/diff/weapons/11436/emberwell?prev=beta_6.7.51_46441325&cur=beta_6.7.52_46514354",
+      "betaVersion": "6.7.52",
+      "revision": "46514354"
+    },
+    {
+      "game": "gi",
+      "type": "weapons",
+      "id": "11520",
+      "rarity": 5,
+      "name": "Whitelake Frostfeather",
+      "iconHash": "a10b7853cb47513dafe98bbc3c068057",
+      "status": "updated",
+      "href": "https://gi.gachabase.net/weapons/11520/whitelake-frostfeather/beta/6.7.52/46514354",
+      "diff": "https://gi.gachabase.net/diff/weapons/11520/whitelake-frostfeather?prev=beta_6.7.51_46441325&cur=beta_6.7.52_46514354",
+      "betaVersion": "6.7.52",
+      "revision": "46514354"
+    },
+    {
+      "game": "gi",
+      "type": "weapons",
+      "id": "11521",
+      "rarity": 5,
+      "name": "Exaiphanes Blade",
+      "iconHash": "7065f048eaf4d97e231a2bcd66295a76",
+      "status": "updated",
+      "href": "https://gi.gachabase.net/weapons/11521/exaiphanes-blade/beta/6.7.52/46514354",
+      "diff": "https://gi.gachabase.net/diff/weapons/11521/exaiphanes-blade?prev=beta_6.7.51_46441325&cur=beta_6.7.52_46514354",
+      "betaVersion": "6.7.52",
+      "revision": "46514354"
+    },
+    {
+      "game": "gi",
+      "type": "weapons",
+      "id": "12516",
+      "rarity": 5,
+      "name": "A Teaspoon of Transcendence",
+      "iconHash": "2b7a5a0845ec4d16d7ba1bb6b7910d79",
+      "status": "updated",
+      "href": "https://gi.gachabase.net/weapons/12516/a-teaspoon-of-transcendence/beta/6.7.52/46514354",
+      "diff": "https://gi.gachabase.net/diff/weapons/12516/a-teaspoon-of-transcendence?prev=beta_6.7.51_46441325&cur=beta_6.7.52_46514354",
+      "betaVersion": "6.7.52",
+      "revision": "46514354"
+    },
+    {
+      "game": "gi",
+      "type": "weapons",
+      "id": "14436",
+      "rarity": 4,
+      "name": "Echoes of the Heart",
+      "iconHash": "ae50d2370dc7126dc4375c5c7ec07a97",
+      "status": "updated",
+      "href": "https://gi.gachabase.net/weapons/14436/echoes-of-the-heart/beta/6.7.52/46514354",
+      "diff": "https://gi.gachabase.net/diff/weapons/14436/echoes-of-the-heart?prev=beta_6.7.51_46441325&cur=beta_6.7.52_46514354",
+      "betaVersion": "6.7.52",
+      "revision": "46514354"
+    },
+    {
+      "game": "gi",
+      "type": "artifacts",
+      "id": "15047",
+      "rarity": null,
+      "name": "Scarlet Proof",
+      "iconHash": "bbde45c6d9db62bb2d277a7812ed0941",
+      "status": "updated",
+      "href": "https://gi.gachabase.net/artifacts/15047/scarlet-proof/beta/6.7.52/46514354",
+      "diff": "https://gi.gachabase.net/diff/artifacts/15047/scarlet-proof?prev=beta_6.7.51_46441325&cur=beta_6.7.52_46514354",
+      "betaVersion": "6.7.52",
+      "revision": "46514354"
+    },
+    {
+      "game": "gi",
+      "type": "artifacts",
+      "id": "15048",
+      "rarity": null,
+      "name": "Heart of the Furnace",
+      "iconHash": "32b6444c6d0d27629148cd0d8296f42b",
+      "status": "updated",
+      "href": "https://gi.gachabase.net/artifacts/15048/heart-of-the-furnace/beta/6.7.52/46514354",
+      "diff": "https://gi.gachabase.net/diff/artifacts/15048/heart-of-the-furnace?prev=beta_6.7.51_46441325&cur=beta_6.7.52_46514354",
+      "betaVersion": "6.7.52",
+      "revision": "46514354"
     },
     {
       "game": "gi",

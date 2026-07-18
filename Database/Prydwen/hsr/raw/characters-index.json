@@ -3,7 +3,7 @@
   "game": "hsr",
   "collection": "characters",
   "sourcePath": "/star-rail/characters",
-  "scrapedAt": "2026-07-10T08:49:31.188Z",
+  "scrapedAt": "2026-07-18T07:14:17.186Z",
   "detailPagesTotal": 92,
   "detailPagesScraped": 92,
   "staleDetailPagesRemoved": 0,
@@ -295,11 +295,11 @@
     {
       "id": "himeko-nova",
       "slug": "himeko-nova",
-      "name": "Himeko Nova 4.4",
+      "name": "Himeko Nova New",
       "sourcePath": "/star-rail/characters/himeko-nova",
-      "contentStatus": "beta",
+      "contentStatus": "live",
       "statusLabels": [
-        "4.4"
+        "New"
       ]
     },
     {
@@ -441,12 +441,10 @@
     {
       "id": "blade-mortenax",
       "slug": "blade-mortenax",
-      "name": "Mortenax Blade New",
+      "name": "Mortenax Blade",
       "sourcePath": "/star-rail/characters/blade-mortenax",
       "contentStatus": "live",
-      "statusLabels": [
-        "New"
-      ]
+      "statusLabels": []
     },
     {
       "id": "moze",

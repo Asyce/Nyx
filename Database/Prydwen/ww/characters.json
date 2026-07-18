@@ -755,13 +755,13 @@
     "sourcePath": "/wuthering-waves/characters/jingran",
     "contentStatus": "beta",
     "statusLabels": [
-      "3.x"
+      "3.6"
     ],
-    "updatedText": "15/June/2026",
+    "updatedText": "17/July/2026",
     "facts": {
       "rarity": 5,
-      "element": "Unknown",
-      "weapon": "Unknown"
+      "element": "Fusion",
+      "weapon": "Broadblade"
     },
     "art": {
       "card": "Prydwen/ww/assets/characters/jingran-0e6d2cc79ad5.webp",
@@ -774,7 +774,7 @@
       "synergies",
       "example-teams"
     ],
-    "assetCount": 2
+    "assetCount": 3
   },
   {
     "id": "jinhsi",
@@ -1210,13 +1210,13 @@
     "sourcePath": "/wuthering-waves/characters/qingxiao",
     "contentStatus": "beta",
     "statusLabels": [
-      "3.x"
+      "3.6"
     ],
-    "updatedText": "15/June/2026",
+    "updatedText": "17/July/2026",
     "facts": {
       "rarity": 5,
-      "element": "Unknown",
-      "weapon": "Unknown"
+      "element": "Aero",
+      "weapon": "Sword"
     },
     "art": {
       "card": "Prydwen/ww/assets/characters/qingxiao-4f6ce581004d.webp",
@@ -1229,7 +1229,7 @@
       "synergies",
       "example-teams"
     ],
-    "assetCount": 2
+    "assetCount": 3
   },
   {
     "id": "qiuyuan",

@@ -1,0 +1,279 @@
+{
+  "id": "characters:si",
+  "provider": "Prydwen",
+  "game": "endfield",
+  "gameName": "Arknights: Endfield",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "si",
+  "name": "Si",
+  "title": "Si Best Build Guide",
+  "sourcePath": "/arknights-endfield/characters/si",
+  "contentStatus": "beta",
+  "statusLabels": [
+    "Soon"
+  ],
+  "scrapedAt": "2026-07-18T07:14:17.186Z",
+  "updatedText": "17/July/2026",
+  "meta": {
+    "title": "Si Best Build Guide | Arknights: Endfield",
+    "description": ""
+  },
+  "facts": {
+    "rarity": 6,
+    "weapon": "Unknown",
+    "class": "Unknown",
+    "element": "Unknown"
+  },
+  "assets": [
+    {
+      "id": "701af3cf52e7",
+      "sourceHash": "701af3cf52e7",
+      "kind": "characters",
+      "name": "Character",
+      "fileStem": "si-card",
+      "path": "Prydwen/endfield/assets/characters/si-card-701af3cf52e7.webp",
+      "width": 640,
+      "height": 800
+    },
+    {
+      "id": "d55b40ef1180",
+      "sourceHash": "d55b40ef1180",
+      "kind": "characters",
+      "name": "Si full illustration",
+      "fileStem": "si-full",
+      "path": "Prydwen/endfield/assets/characters/si-full-illustration-d55b40ef1180.webp",
+      "width": 600,
+      "height": 800
+    }
+  ],
+  "sections": [
+    {
+      "id": "si-best-build-guide-0",
+      "level": 1,
+      "heading": "Si Best Build Guide",
+      "text": "Last updated: 17/July/2026",
+      "assets": [
+        {
+          "id": "701af3cf52e7",
+          "sourceHash": "701af3cf52e7",
+          "kind": "characters",
+          "name": "Character",
+          "fileStem": "si-card",
+          "path": "Prydwen/endfield/assets/characters/si-card-701af3cf52e7.webp",
+          "width": 640,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Si is a 6 -star character in Arknights: Endfield (AKE). Si wields a Unknown and belongs to the Unknown class. Si also has access to the Unknown element. This guide provides a comprehensive overview of Si 's best build, including recommended Weapons, Gear pieces, Stats, and the strongest team compositions and rotations that maximize their potential.\n\n To learn more about Si check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - whether it's best build, teams, synergies or calculations.",
+      "assets": []
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "Si has no video guide yet.",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Not yet available\n\n Last major build/calcs update\n Not yet available\n\n Last profile update*\n 17/July/2026\n\n *Profile update means smaller edits to the guide that don't require new calculations.\n\n To learn more about Si check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - whether it's best build, teams, synergies or calculations.",
+      "assets": []
+    },
+    {
+      "id": "best-teams-7",
+      "level": 2,
+      "heading": "Best Teams",
+      "text": "Profile",
+      "assets": []
+    },
+    {
+      "id": "attributes-level-90-9",
+      "level": 3,
+      "heading": "Attributes (level 90)",
+      "text": "The yellow color shows the Primary Attribute and the green Secondary Attribute . Both of those attributes, on top of their normal bonuses, provide additional ATK to the character.\n Si attributes aren't available yet. They will be added soon!",
+      "assets": []
+    },
+    {
+      "id": "skills-11",
+      "level": 3,
+      "heading": "Skills",
+      "text": "Si skills are currently missing. They will be added soon!",
+      "assets": []
+    },
+    {
+      "id": "talents-13",
+      "level": 3,
+      "heading": "Talents",
+      "text": "Si Talents are currently missing. They will be added soon!",
+      "assets": []
+    },
+    {
+      "id": "potential-dupes-15",
+      "level": 3,
+      "heading": "Potential (dupes)",
+      "text": "Si Potential information are currently missing. They will be added soon!",
+      "assets": []
+    },
+    {
+      "id": "lore-17",
+      "level": 3,
+      "heading": "Lore",
+      "text": "Si lore is currently missing. It will be added soon!",
+      "assets": []
+    },
+    {
+      "id": "voice-actors-19",
+      "level": 3,
+      "heading": "Voice Actors",
+      "text": "ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -",
+      "assets": []
+    },
+    {
+      "id": "gallery-21",
+      "level": 3,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "d55b40ef1180",
+          "sourceHash": "d55b40ef1180",
+          "kind": "characters",
+          "name": "Si full illustration",
+          "fileStem": "si-full",
+          "path": "Prydwen/endfield/assets/characters/si-full-illustration-d55b40ef1180.webp",
+          "width": 600,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "id": "ratings-23",
+      "level": 3,
+      "heading": "Ratings",
+      "text": "Si ratings aren't available yet. It will be added soon!",
+      "assets": []
+    },
+    {
+      "id": "pros-cons-25",
+      "level": 3,
+      "heading": "Pros & Cons",
+      "text": "Si pros & cons aren't available yet. They will be added soon.",
+      "assets": []
+    },
+    {
+      "id": "review-27",
+      "level": 3,
+      "heading": "Review",
+      "text": "Si review isn't available yet. It will be added soon!\n\n Build",
+      "assets": []
+    },
+    {
+      "id": "best-weapons-29",
+      "level": 2,
+      "heading": "Best Weapons",
+      "text": "Si best Weapons aren't available yet. They will be added soon.",
+      "assets": []
+    },
+    {
+      "id": "best-gear-31",
+      "level": 2,
+      "heading": "Best Gear",
+      "text": "Si best Gear aren't available yet. They will be added soon.",
+      "assets": []
+    },
+    {
+      "id": "best-gear-pieces-33",
+      "level": 3,
+      "heading": "Best Gear Pieces",
+      "text": "Si gear pieces calculations aren't available yet. They will be added soon.",
+      "assets": []
+    },
+    {
+      "id": "potentials-review-35",
+      "level": 2,
+      "heading": "Potentials Review",
+      "text": "Si dupes reviews aren't available yet. They will be added soon.",
+      "assets": []
+    },
+    {
+      "id": "calculations-37",
+      "level": 3,
+      "heading": "Calculations",
+      "text": "Si calculations aren't available yet. They will be added soon.",
+      "assets": []
+    },
+    {
+      "id": "skill-priority-39",
+      "level": 2,
+      "heading": "Skill Priority",
+      "text": "Si skill priority information aren't available yet. They will be added soon.\n\n Teams and Synergies",
+      "assets": []
+    },
+    {
+      "id": "synergies-41",
+      "level": 3,
+      "heading": "Synergies",
+      "text": "Si synergies aren't available yet. They will be added soon.",
+      "assets": []
+    },
+    {
+      "id": "teams-43",
+      "level": 3,
+      "heading": "Teams",
+      "text": "Si teams aren't listed in any specific order - so they're not listed best to worst or vice versa. Check our Team Tier List for more information about best teams.\n\n Si team compositions aren't available yet. They will be added soon.",
+      "assets": []
+    }
+  ],
+  "recommendations": {
+    "best-teams": {
+      "label": "Best Teams",
+      "sections": [
+        {
+          "heading": "Best Teams",
+          "text": "Profile",
+          "assets": []
+        },
+        {
+          "heading": "Teams",
+          "text": "Si teams aren't listed in any specific order - so they're not listed best to worst or vice versa. Check our Team Tier List for more information about best teams.\n\n Si team compositions aren't available yet. They will be added soon.",
+          "assets": []
+        }
+      ]
+    },
+    "best-weapons": {
+      "label": "Best Weapons",
+      "sections": [
+        {
+          "heading": "Best Weapons",
+          "text": "Si best Weapons aren't available yet. They will be added soon.",
+          "assets": []
+        }
+      ]
+    },
+    "best-gear": {
+      "label": "Best Gear",
+      "sections": [
+        {
+          "heading": "Best Gear",
+          "text": "Si best Gear aren't available yet. They will be added soon.",
+          "assets": []
+        },
+        {
+          "heading": "Best Gear Pieces",
+          "text": "Si gear pieces calculations aren't available yet. They will be added soon.",
+          "assets": []
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Si Best Build Guide | Arknights: Endfield\n \n\n Arknights: Endfield\n Home Database Characters Gear Weapons\n Tier Lists Tier List Team Tier List\n Guides Guides\n Tools Team Builder Adv. Team Builder Rotation Builder Gacha Simulator Material Planner Character Comparison Patch Timeline\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Arknights: Endfield\n /\n Characters\n /\n Si\n Si Best Build Guide\n Last updated: 17/July/2026\n\n Introduction\n\n Si is a 6 -star character in Arknights: Endfield (AKE). Si wields a Unknown and belongs to the Unknown class. Si also has access to the Unknown element. This guide provides a comprehensive overview of Si 's best build, including recommended Weapons, Gear pieces, Stats, and the strongest team compositions and rotations that maximize their potential.\n\n To learn more about Si check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - whether it's best build, teams, synergies or calculations.\n\n Video guide\n\n Si has no video guide yet.\n\n Update tracker\n\n Last review update\n Not yet available\n\n Last major build/calcs update\n Not yet available\n\n Last profile update*\n 17/July/2026\n\n *Profile update means smaller edits to the guide that don't require new calculations.\n\n To learn more about Si check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - whether it's best build, teams, synergies or calculations.\n\n Kit\n\n Review\n\n Build\n\n Best Teams\n\n Profile\n\n Attributes (level 90)\n\n The yellow color shows the Primary Attribute and the green Secondary Attribute . Both of those attributes, on top of their normal bonuses, provide additional ATK to the character.\n Si attributes aren't available yet. They will be added soon!\n\n Skills\n\n Si skills are currently missing. They will be added soon!\n\n Talents\n\n Si Talents are currently missing. They will be added soon!\n\n Potential (dupes)\n\n Si Potential information are currently missing. They will be added soon!\n\n Lore\n\n Si lore is currently missing. It will be added soon!\n\n Voice Actors\n\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n\n Si ratings aren't available yet. It will be added soon!\n\n Pros & Cons\n\n Si pros & cons aren't available yet. They will be added soon.\n\n Review\n\n Si review isn't available yet. It will be added soon!\n\n Build\n\n Best Weapons\n\n Si best Weapons aren't available yet. They will be added soon.\n\n Best Gear\n\n Si best Gear aren't available yet. They will be added soon.\n\n Best Gear Pieces\n\n Si gear pieces calculations aren't available yet. They will be added soon.\n\n Potentials Review\n\n Si dupes reviews aren't available yet. They will be added soon.\n\n Calculations\n\n Si calculations aren't available yet. They will be added soon.\n\n Skill Priority\n\n Si skill priority information aren't available yet. They will be added soon.\n\n Teams and Synergies\n\n Synergies\n\n Si synergies aren't available yet. They will be added soon.\n\n Teams\n\n Si teams aren't listed in any specific order - so they're not listed best to worst or vice versa. Check our Team Tier List for more information about best teams.\n\n Si team compositions aren't available yet. They will be added soon."
+}

@@ -886,5 +886,11 @@
       "betaVersion": "4.3.51",
       "revision": "15260290"
     }
-  ]
+  ],
+  "stale": true,
+  "freshness": {
+    "ok": false,
+    "message": "No GachaBase beta entries parsed for hsr",
+    "checkedAt": "2026-07-18T07:16:03.617Z"
+  }
 }

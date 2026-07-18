@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "game": "hsr",
-  "generatedAt": "2026-07-16T09:08:14.242Z",
-  "count": 619,
+  "generatedAt": "2026-07-18T08:35:01.727Z",
+  "count": 624,
   "entries": [
     {
       "id": "back-to-era-chrysea-handbook",
@@ -2344,6 +2344,19 @@
       ]
     },
     {
+      "id": "diary-of-an-opportunist",
+      "name": "Diary of an Opportunist",
+      "icon": "icons/3a1a1ded5442b23a9cad32355c031795ead0c6e528d2c0823e2be21531bf10d5.webp",
+      "file": "diary-of-an-opportunist.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ],
+      "volumeKeys": [
+        "text"
+      ]
+    },
+    {
       "id": "digital-save-of-klein-s-handwritten-notes-excerpt",
       "name": "Digital Save of Klein's Handwritten Notes (Excerpt)",
       "icon": "icons/6abf8f5671277ab1f407b52322a960e8241798b49184fa53c41dd692f3ca8eba.webp",
@@ -2546,6 +2559,19 @@
       "name": "Divine Echo: Worldbearing",
       "icon": "icons/74051e5b71b9ff0e1ccf5df5657a9af6c3ce263bd199128eb39f40dc7382b352.webp",
       "file": "divine-echo-worldbearing.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ],
+      "volumeKeys": [
+        "text"
+      ]
+    },
+    {
+      "id": "doomsday-blog",
+      "name": "Doomsday Blog",
+      "icon": "icons/6abf8f5671277ab1f407b52322a960e8241798b49184fa53c41dd692f3ca8eba.webp",
+      "file": "doomsday-blog.json",
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
@@ -2796,6 +2822,19 @@
       "name": "Dyed Red Slate",
       "icon": "icons/b6cee0365e74252e050031b9836c4e07f82b7c75db3cbc2da21c62313f2e352b.webp",
       "file": "dyed-red-slate.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ],
+      "volumeKeys": [
+        "text"
+      ]
+    },
+    {
+      "id": "emergency-evacuation-notice",
+      "name": "Emergency Evacuation Notice",
+      "icon": "icons/f3b2af1c279c1609754f5d5b99361253ce95cddc6231fc1b1df7ab16c976c9af.webp",
+      "file": "emergency-evacuation-notice.json",
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
@@ -3514,6 +3553,19 @@
         "part-four",
         "part-five",
         "part-six"
+      ]
+    },
+    {
+      "id": "good-night-dear-thundercoil",
+      "name": "Good Night, Dear Thundercoil",
+      "icon": "icons/3a1a1ded5442b23a9cad32355c031795ead0c6e528d2c0823e2be21531bf10d5.webp",
+      "file": "good-night-dear-thundercoil.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ],
+      "volumeKeys": [
+        "text"
       ]
     },
     {
@@ -4701,6 +4753,19 @@
       "name": "Mech Mayhem: Hot-Blooded Radiance",
       "icon": "icons/56c8ac8f4d4d1ad905511d1d4f9c9233c321029bf3f19fa29e0dbe4f9403a572.webp",
       "file": "mech-mayhem-hot-blooded-radiance.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ],
+      "volumeKeys": [
+        "text"
+      ]
+    },
+    {
+      "id": "mechatron-freedom-manifesto",
+      "name": "Mechatron Freedom Manifesto",
+      "icon": "icons/3a1a1ded5442b23a9cad32355c031795ead0c6e528d2c0823e2be21531bf10d5.webp",
+      "file": "mechatron-freedom-manifesto.json",
       "volumeCount": 1,
       "volumeLabels": [
         "Text"

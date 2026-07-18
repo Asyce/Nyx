@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-16T09:07:57.746Z",
+  "generatedAt": "2026-07-18T08:34:21.813Z",
   "source": "Honkai: Star Rail Wiki / Fandom MediaWiki API",
   "sourceExample": "https://honkai-star-rail.fandom.com/wiki/Patience_Is_All_You_Need",
   "minRarity": 5,
-  "startedAt": "2026-07-16T09:07:29.330Z",
+  "startedAt": "2026-07-18T08:33:51.221Z",
   "lightCones": [
     {
       "id": "23034",
@@ -18,6 +18,20 @@
       "localAsset": "GameData/hsr/assets/lightcones/full/23034.webp",
       "localIcon": "GameData/hsr/assets/lightcones/medium/23034.webp",
       "sourcePage": "https://honkai-star-rail.fandom.com/wiki/A_Grounded_Ascent"
+    },
+    {
+      "id": "23060",
+      "name": "A Star That Lights the Night",
+      "key": "astarthatlightsthenight",
+      "rarity": 5,
+      "path": "Mage",
+      "status": "ok",
+      "characters": [
+        "Himeko • Nova"
+      ],
+      "localAsset": "GameData/hsr/assets/lightcones/full/23060.webp",
+      "localIcon": "GameData/hsr/assets/lightcones/medium/23060.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/A_Star_That_Lights_the_Night"
     },
     {
       "id": "23045",
@@ -247,6 +261,20 @@
       "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Flame_of_Blood%2C_Blaze_My_Path"
     },
     {
+      "id": "23061",
+      "name": "Flickering Stars",
+      "key": "flickeringstars",
+      "rarity": 5,
+      "path": "Mage",
+      "status": "ok",
+      "characters": [
+        "Rin Tohsaka"
+      ],
+      "localAsset": "GameData/hsr/assets/lightcones/full/23061.webp",
+      "localIcon": "GameData/hsr/assets/lightcones/medium/23061.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Flickering_Stars"
+    },
+    {
       "id": "23026",
       "name": "Flowing Nightglow",
       "key": "flowingnightglow",
@@ -259,6 +287,20 @@
       "localAsset": "GameData/hsr/assets/lightcones/full/23026.webp",
       "localIcon": "GameData/hsr/assets/lightcones/medium/23026.webp",
       "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Flowing_Nightglow"
+    },
+    {
+      "id": "23062",
+      "name": "I Am As You Behold",
+      "key": "iamasyoubehold",
+      "rarity": 5,
+      "path": "Warrior",
+      "status": "ok",
+      "characters": [
+        "Gilgamesh"
+      ],
+      "localAsset": "GameData/hsr/assets/lightcones/full/23062.webp",
+      "localIcon": "GameData/hsr/assets/lightcones/medium/23062.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/I_Am_As_You_Behold"
     },
     {
       "id": "23014",

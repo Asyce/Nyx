@@ -166,5 +166,11 @@
     "EndfieldWiki/endfield/skill-icons/Skill-Camille.png",
     "EndfieldWiki/endfield/skill-icons/Combo-Camille.png",
     "EndfieldWiki/endfield/skill-icons/Ult-Camille.png"
+  ],
+  "arcane": [
+    "EndfieldWiki/endfield/skill-icons/Attack-Orbiter.png",
+    "EndfieldWiki/endfield/skill-icons/Skill-Arcane1.png",
+    "EndfieldWiki/endfield/skill-icons/Combo-Arcane1.png",
+    "EndfieldWiki/endfield/skill-icons/Ult-Arcane1.png"
   ]
 }

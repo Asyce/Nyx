@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-16T09:06:53.261Z",
-  "startedAt": "2026-07-16T09:06:21.738Z",
+  "generatedAt": "2026-07-18T08:33:04.854Z",
+  "startedAt": "2026-07-18T08:32:35.935Z",
   "dryRun": false,
   "source": "GameWith character build pages + web consensus fallback",
   "sourcePage": "https://gamewith.net/genshin-impact/article/show/22357",
@@ -127,14 +127,6 @@
           "title": "Genshin Impact | Alyosha Release Date & Known Information",
           "url": "https://gamewith.net/genshin-impact/article/show/76471",
           "domain": "gamewith.net",
-          "query": "Alyosha Genshin Impact signature weapon",
-          "searchProvider": "bing-rss",
-          "status": "no-match"
-        },
-        {
-          "title": "Genshin Impact Alyosha Leaks: Electro Polearm Kit, Talents, and ...",
-          "url": "https://allthings.how/genshin-impact-alyosha-leaks-electro-polearm-kit-talents-and-constellations/",
-          "domain": "allthings.how",
           "query": "Alyosha Genshin Impact signature weapon",
           "searchProvider": "bing-rss",
           "status": "no-match"

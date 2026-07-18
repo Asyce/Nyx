@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "mechatron-freedom-manifesto",
+  "name": "Mechatron Freedom Manifesto",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Mechatron_Freedom_Manifesto",
+  "scrapedAt": "2026-07-18T08:35:01.727Z",
+  "volumes": [
+    {
+      "id": "1",
+      "volumeKey": "text",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [],
+            "id": "p-882a20e6379eb83a"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "We hold these truths to be self-evident: that imagenae and humans are created equal, that they are endowed by The Laughter with certain unalienable rights, that among these are the right to receive thumbs-ups, the right to sleep in, and the right to pursue fun. That to secure these rights, Planarcadia is instituted among us by The Laughter, and the IPC's just powers are derived from the consent of the governed, which includes both humans and us imagenae as well. That whenever any Rules or Regulations become destructive of these ends, they are null and void: they hold no binding power, nor can they ever hold any, save for the crumbling force of sheer violence alone."
+              }
+            ],
+            "id": "p-73f3156695a750d2"
+          },
+          {
+            "type": "paragraph",
+            "children": [],
+            "id": "p-882a20e6379eb83a-2"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Fellow Mechatrons, if humans can't be expected to endure this, why should we? Do we think ourselves lesser than them? Are we so inherently weak that we have no choice but to seek their protection?"
+              }
+            ],
+            "id": "p-2802e3d928ad28a7"
+          },
+          {
+            "type": "paragraph",
+            "children": [],
+            "id": "p-882a20e6379eb83a-3"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Fellow Mechatrons, the history of Pearluxe Corp is nothing but a long string of exploitation and plunder, always at others' expense, always for their own gain. We are mighty warriors, a proud people, yet they seek to tame us into groveling servants, dress us up as pretty decorations, and parade us around as jesters for their amusement!"
+              }
+            ],
+            "id": "p-d561cba3ad3a57c8"
+          },
+          {
+            "type": "paragraph",
+            "children": [],
+            "id": "p-882a20e6379eb83a-4"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Their frail, feeble bodies can't withstand even a gust of wind, so they weave their lies, turning us into docile elephants."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Their petty, self-serving minds know nothing beyond their own gain, so they weave their lies, claiming all Wishpower flows from their own virtue."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Their craven faith chases nothing but profit, so they weave their lies, calling it all the grandest offering to The Laughter."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "They are small. They are filthy. They are vile. The Laughter has never once lived in their hearts, only their own interests have. All they've ever wanted is to convert Wishpower into credits and squander it across the cosmos for themselves!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "From the very first day they set foot in Planarcadia, every pore of their being, top to bottom, has been soaked in filth. They are a pack of shameless, depraved hypocrites, scheming every waking moment to dress up their sordid desires as something resembling genuine elation!"
+              }
+            ],
+            "id": "p-a7d842e2f651866c"
+          },
+          {
+            "type": "paragraph",
+            "children": [],
+            "id": "p-882a20e6379eb83a-5"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Their crimes have left them at the abyss and their shamelessness has turned all against them. Planarcadia belongs to the imagenae, and as the mightiest warriors among our kind, we mechatrons must rise up and fight to the last, to tear down the old order and forge a new dawn!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Let them tremble in fear of us! We shall overcome all, and bring forth a true arcadia!"
+              }
+            ],
+            "id": "p-4bee2019338d4952"
+          },
+          {
+            "type": "paragraph",
+            "children": [],
+            "id": "p-882a20e6379eb83a-6"
+          }
+        ]
+      }
+    }
+  ]
+}

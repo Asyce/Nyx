@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T21:30:56.535Z",
+  "generatedAt": "2026-07-19T01:08:02.284Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,12 +9,12 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-07-18T21:30:22.827Z",
+      "lastSuccessfulFetch": "2026-07-19T01:07:43.780Z",
       "codes": [
         {
           "code": "PFY1S40I88T9",
           "rewards": "Primogem x 60, Adventurer's Experience x 5",
-          "added": "2026-07-18",
+          "added": "2026-07-19",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=PFY1S40I88T9",
           "hoyoVerified": true,
           "premium": true,
@@ -51,12 +51,12 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-07-18T21:30:22.324Z",
+      "lastSuccessfulFetch": "2026-07-19T01:07:43.621Z",
       "codes": [
         {
           "code": "4TKSX77Y58QK",
           "rewards": "30 stellar jade, three traveler's guides, five condensed aether, four lost gold fragments, and 20k credits",
-          "added": "2026-07-18",
+          "added": "2026-07-19",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK",
           "hoyoVerified": true,
           "premium": true,
@@ -67,7 +67,7 @@
         {
           "code": "5S6ZHRWTDNJB",
           "rewards": "60 stellar jade",
-          "added": "2026-07-18",
+          "added": "2026-07-19",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB",
           "hoyoVerified": true,
           "premium": true,
@@ -78,7 +78,7 @@
         {
           "code": "CREATIONNYMPH",
           "rewards": "60 stellar jade and one fuel",
-          "added": "2026-07-18",
+          "added": "2026-07-19",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH",
           "hoyoVerified": true,
           "premium": true,
@@ -89,7 +89,7 @@
         {
           "code": "CTK5DRQVT48F",
           "rewards": "",
-          "added": "2026-07-18",
+          "added": "2026-07-19",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=CTK5DRQVT48F",
           "hoyoVerified": true,
           "premium": false,
@@ -100,7 +100,7 @@
         {
           "code": "FAREWELL",
           "rewards": "60 stellar jade and one fuel",
-          "added": "2026-07-18",
+          "added": "2026-07-19",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL",
           "hoyoVerified": true,
           "premium": true,
@@ -111,7 +111,7 @@
         {
           "code": "IFYOUAREREADINGTHIS",
           "rewards": "60 stellar jade and one fuel",
-          "added": "2026-07-18",
+          "added": "2026-07-19",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS",
           "hoyoVerified": true,
           "premium": true,
@@ -122,7 +122,7 @@
         {
           "code": "OMEGA",
           "rewards": "60 stellar jade and one fuel",
-          "added": "2026-07-18",
+          "added": "2026-07-19",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA",
           "hoyoVerified": true,
           "premium": true,
@@ -133,7 +133,7 @@
         {
           "code": "STARRAILGIFT",
           "rewards": "50 stellar jade, 10k credits, two traveler's guides, and five bottled soda",
-          "added": "2026-07-18",
+          "added": "2026-07-19",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT",
           "hoyoVerified": true,
           "premium": true,
@@ -176,12 +176,12 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-07-18T21:30:56.535Z",
+      "lastSuccessfulFetch": "2026-07-19T01:08:02.283Z",
       "codes": [
         {
           "code": "ROSCAELIFER0617",
           "rewards": "Polychrome x 30",
-          "added": "2026-07-18",
+          "added": "2026-07-19",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ROSCAELIFER0617",
           "hoyoVerified": true,
           "premium": true,
@@ -192,8 +192,52 @@
         {
           "code": "ZENLESSGIFT",
           "rewards": "50 polychrome, two official investigator logs, three w-engine power supplies, and one bangboo algorithm module",
-          "added": "2026-07-18",
+          "added": "2026-07-19",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT",
+          "hoyoVerified": true,
+          "premium": true,
+          "premium100": false,
+          "cwSeen": true,
+          "firstSeen": "2026-07-05T17:19:07.479Z"
+        },
+        {
+          "code": "ZZZ30BANGBOO",
+          "rewards": "Polychrome x 60, Denny x 6,666",
+          "added": "2026-07-19",
+          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO",
+          "hoyoVerified": true,
+          "premium": true,
+          "premium100": false,
+          "cwSeen": true,
+          "firstSeen": "2026-07-05T17:19:07.479Z"
+        },
+        {
+          "code": "ZZZDREAMLAND",
+          "rewards": "Polychrome x 30, Denny x 6,666",
+          "added": "2026-07-19",
+          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZDREAMLAND",
+          "hoyoVerified": true,
+          "premium": true,
+          "premium100": false,
+          "cwSeen": false,
+          "firstSeen": "2026-07-17T15:01:00.612Z"
+        },
+        {
+          "code": "ZZZSEASON3",
+          "rewards": "Polychrome x 50",
+          "added": "2026-07-19",
+          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSEASON3",
+          "hoyoVerified": true,
+          "premium": true,
+          "premium100": false,
+          "cwSeen": true,
+          "firstSeen": "2026-07-05T17:19:07.479Z"
+        },
+        {
+          "code": "ZZZSTEAM",
+          "rewards": "60 polychrome, two w",
+          "added": "2026-07-19",
+          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM",
           "hoyoVerified": true,
           "premium": true,
           "premium100": false,
@@ -214,17 +258,6 @@
           "firstSeen": "2026-07-18T06:12:26.512Z"
         },
         {
-          "code": "ZZZ30BANGBOO",
-          "rewards": "Polychrome x 60, Denny x 6,666",
-          "added": "2026-07-18",
-          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO",
-          "hoyoVerified": true,
-          "premium": true,
-          "premium100": false,
-          "cwSeen": true,
-          "firstSeen": "2026-07-05T17:19:07.479Z"
-        },
-        {
           "code": "ZZZ31REMIELLE",
           "rewards": "60 Polychrome, 6666 Denny",
           "added": "2026-07-18",
@@ -236,39 +269,6 @@
           "premium100": false,
           "cwSeen": true,
           "firstSeen": "2026-07-17T15:01:00.612Z"
-        },
-        {
-          "code": "ZZZDREAMLAND",
-          "rewards": "Polychrome x 30, Denny x 6,666",
-          "added": "2026-07-18",
-          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZDREAMLAND",
-          "hoyoVerified": true,
-          "premium": true,
-          "premium100": false,
-          "cwSeen": false,
-          "firstSeen": "2026-07-17T15:01:00.612Z"
-        },
-        {
-          "code": "ZZZSEASON3",
-          "rewards": "Polychrome x 50",
-          "added": "2026-07-18",
-          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSEASON3",
-          "hoyoVerified": true,
-          "premium": true,
-          "premium100": false,
-          "cwSeen": true,
-          "firstSeen": "2026-07-05T17:19:07.479Z"
-        },
-        {
-          "code": "ZZZSTEAM",
-          "rewards": "60 polychrome, two w",
-          "added": "2026-07-18",
-          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM",
-          "hoyoVerified": true,
-          "premium": true,
-          "premium100": false,
-          "cwSeen": true,
-          "firstSeen": "2026-07-05T17:19:07.479Z"
         },
         {
           "code": "ZZZY2ANNIV",
@@ -292,7 +292,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-07-18T21:30:22.317Z",
+      "lastSuccessfulFetch": "2026-07-19T01:07:43.567Z",
       "codes": []
     },
     {
@@ -302,7 +302,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-07-18T21:30:22.291Z",
+      "lastSuccessfulFetch": "2026-07-19T01:07:43.594Z",
       "codes": [
         {
           "code": "ENDFIELDRENEW",

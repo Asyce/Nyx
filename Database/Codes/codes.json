@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T01:08:02.284Z",
+  "generatedAt": "2026-07-19T16:04:01.935Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,7 +9,7 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-07-19T01:07:43.780Z",
+      "lastSuccessfulFetch": "2026-07-19T16:03:42.330Z",
       "codes": [
         {
           "code": "PFY1S40I88T9",
@@ -51,7 +51,7 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-07-19T01:07:43.621Z",
+      "lastSuccessfulFetch": "2026-07-19T16:03:42.342Z",
       "codes": [
         {
           "code": "4TKSX77Y58QK",
@@ -176,7 +176,7 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-07-19T01:08:02.283Z",
+      "lastSuccessfulFetch": "2026-07-19T16:04:01.935Z",
       "codes": [
         {
           "code": "ROSCAELIFER0617",
@@ -269,19 +269,6 @@
           "premium100": false,
           "cwSeen": true,
           "firstSeen": "2026-07-17T15:01:00.612Z"
-        },
-        {
-          "code": "ZZZY2ANNIV",
-          "rewards": "300 Polychrome, 2 Senior Investigator Log, 3 W-Engine Energy Module, 30000 Denny",
-          "added": "2026-07-13",
-          "sourceUrl": "https://www.crimsonwitch.com/codes/Zenless_Zone_Zero",
-          "regionLocked": null,
-          "expires": "2026-07-19T15:59:59.000Z",
-          "variants": [],
-          "premium": true,
-          "premium100": false,
-          "cwSeen": true,
-          "firstSeen": "2026-07-17T12:46:27.326Z"
         }
       ]
     },
@@ -292,7 +279,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-07-19T01:07:43.567Z",
+      "lastSuccessfulFetch": "2026-07-19T16:03:42.392Z",
       "codes": []
     },
     {
@@ -302,7 +289,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-07-19T01:07:43.594Z",
+      "lastSuccessfulFetch": "2026-07-19T16:03:42.453Z",
       "codes": [
         {
           "code": "ENDFIELDRENEW",

@@ -4,8 +4,8 @@ name: Code Watch Deploy
 # Normal cadence: hourly at :07.
 # Livestream window cadence: also runs at :37, using deep mode.
 # Windows are refreshed from official YouTube feeds before each mode decision.
-# Build/deploy/commit happen only when Database/Codes/codes.json has a semantic
-# code diff; timestamp-only checks leave the file untouched and exit cleanly.
+# Every automated commit is verified by a site build and smoke test before it
+# is pushed. Deploys still happen only for semantic code changes.
 
 on:
   workflow_dispatch:
@@ -54,7 +54,6 @@ jobs:
           else
             git commit -m "chore(codes): update livestream windows [skip ci]"
             git pull --rebase origin main
-            git push
           fi
 
       - name: Decide watch mode
@@ -126,23 +125,26 @@ jobs:
           else
             git commit -m "chore(data): codes watch refresh [skip ci]"
             git pull --rebase origin main
-            git push
           fi
 
       - name: Install site deps
-        if: ${{ steps.changes.outputs.changed == 'true' }}
+        if: ${{ steps.livestream.outputs.changed == 'true' || steps.changes.outputs.changed == 'true' }}
         working-directory: Site
         run: npm ci --no-audit --no-fund
 
       - name: Build site
-        if: ${{ steps.changes.outputs.changed == 'true' }}
+        if: ${{ steps.livestream.outputs.changed == 'true' || steps.changes.outputs.changed == 'true' }}
         working-directory: Site
         run: npm run build:deploy
 
       - name: Smoke deploy artifact
-        if: ${{ steps.changes.outputs.changed == 'true' }}
+        if: ${{ steps.livestream.outputs.changed == 'true' || steps.changes.outputs.changed == 'true' }}
         working-directory: Site
         run: npm run smoke:deploy
+
+      - name: Push verified changes
+        if: ${{ steps.livestream.outputs.changed == 'true' || steps.changes.outputs.changed == 'true' }}
+        run: git push
 
       - name: Deploy to Cloudflare
         if: ${{ steps.changes.outputs.changed == 'true' && env.CF_API_TOKEN != '' }}

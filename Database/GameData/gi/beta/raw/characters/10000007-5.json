@@ -2378,7 +2378,7 @@
             "3-Hit DMG|{param3:F1P}",
             "4-Hit DMG|{param4:F1P}",
             "5-Hit DMG|{param5:P}",
-            "Charged Attack DMG|{param6:F1P}+{param7:F1P}",
+            "Charged Attack DMG|{param6:F1P}+{param7:P}",
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
@@ -2426,7 +2426,7 @@
             "3-Hit DMG|{param3:F1P}",
             "4-Hit DMG|{param4:F1P}",
             "5-Hit DMG|{param5:P}",
-            "Charged Attack DMG|{param6:F1P}+{param7:F1P}",
+            "Charged Attack DMG|{param6:F1P}+{param7:P}",
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
@@ -2474,7 +2474,7 @@
             "3-Hit DMG|{param3:F1P}",
             "4-Hit DMG|{param4:F1P}",
             "5-Hit DMG|{param5:P}",
-            "Charged Attack DMG|{param6:F1P}+{param7:F1P}",
+            "Charged Attack DMG|{param6:F1P}+{param7:P}",
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
@@ -2853,8 +2853,8 @@
     },
     {
       "id": 10127,
-      "name": "Pierce of the Ice Fog",
-      "desc": "Stabs at the opponent with the Traveler's weapon, which releases an ice-cold fog. This deals <color=#99FFFFFF>Cryo DMG</color> to opponents up ahead and forms a Frostpierce Star next to the Traveler.\\n\\n<color=#FFD780FF>Frostpierce Star</color>\\n· Follows your party members around the field and periodically fires ice crystals at nearby opponents, dealing <color=#99FFFFFF>Cryo DMG</color>.\\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: The Frostpierce Star will no longer fire ice crystals at opponents at intervals but will instead fire an ice crystal at opponents in a coordinated attack when the Traveler hits an opponent with a Normal Attack, Charged Attack, or Plunging Attack.\\n· When an opponent is hit with an ice crystal, the Traveler gains 1 stack of {LINK#N10050002}<color=#FFD780FF>Frostglow</color>{/LINK} (max 8 stacks).\\n· When not in combat, {LINK#N10050002}<color=#FFD780FF>Frostglow</color>{/LINK} expires after 30s.\\n\\n<i>You observed the formation of frost together with Paimon.</i>",
+      "name": "Ice Fog Piercer",
+      "desc": "Stabs at the opponent with the Traveler's weapon, which releases an ice-cold fog. This deals <color=#99FFFFFF>Cryo DMG</color> to opponents up ahead and forms a Frostpierce Star next to the Traveler.\\n\\n<color=#FFD780FF>Frostpierce Star</color>\\n· Follows your party members around the field and periodically fires ice crystals at nearby opponents, dealing <color=#99FFFFFF>Cryo DMG</color>.\\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: The Frostpierce Star will no longer fire ice crystals at opponents at intervals but will instead fire an ice crystal at opponents in a coordinated attack when the Traveler hits an opponent with a Normal Attack, Charged Attack, or Plunging Attack. This effect can trigger once every 0.2s.\\n· When an opponent is hit with an ice crystal, the Traveler gains 1 stack of {LINK#N10050002}<color=#FFD780FF>Frostglow</color>{/LINK} (max 8 stacks).\\n· When not in combat, {LINK#N10050002}<color=#FFD780FF>Frostglow</color>{/LINK} expires after 30s.\\n\\n<i>You observed the formation of frost together with Paimon.</i>",
       "promote": {
         "0": {
           "level": 1,
@@ -3581,7 +3581,7 @@
     {
       "id": 10128,
       "name": "Frostbound Javelin",
-      "desc": "Generates ice javelins with the power of Cryo, then directs them at the enemy to deal multiple instances of <color=#99FFFFFF>Cryo DMG</color>.\\nWhen cast, the Traveler consumes all existing stacks of {LINK#N10050002}<color=#FFD780FF>Frostglow</color>{/LINK}, which in turn increases the DMG dealt by this Elemental Burst. When 8 stacks of {LINK#N10050002}<color=#FFD780FF>Frostglow</color>{/LINK} are consumed, the number of DMG instances caused by the javelins is also increased.\\n\\n<color=#FFD780FF>Radiance: Stellar Glimmer</color>: DMG from the current Elemental Burst is changed to <color=#99FFFFFF>Cryo DMG</color> of the corresponding Stellar Glimmer reaction type.\\n\\n<i>Feel the keen edge of the icicles alongside Paimon.</i>",
+      "desc": "Generates ice javelins with the power of Cryo, then directs them at the enemy to deal multiple instances of <color=#99FFFFFF>Cryo DMG</color>.\\nWhen cast, the Traveler consumes all existing stacks of {LINK#N10050002}<color=#FFD780FF>Frostglow</color>{/LINK}, which in turn increases the DMG dealt by this Elemental Burst. When 8 stacks of {LINK#N10050002}<color=#FFD780FF>Frostglow</color>{/LINK} are consumed, the number of DMG instances caused by the javelins is also increased.\\n\\n{LINK#N11500004}<color=#FFD780FF>Radiance: Stellar Glimmer</color>{/LINK}: DMG from the current Elemental Burst is changed to <color=#99FFFFFF>Cryo DMG</color> of the corresponding Stellar Glimmer reaction type.\\n\\n<i>You felt the keen edge of the icicles alongside Paimon.</i>",
       "promote": {
         "0": {
           "level": 1,
@@ -3589,9 +3589,9 @@
           "desc": [
             "Ice Javelin DMG|{param1:F1P}/Strike",
             "Frostglow DMG Bonus|{param2:F1P}",
-            "Stellar-Conduct Ice Javelin DMG|{param8:F1P}/Strike",
+            "Stellar-Conduct Ice Javelin Single Strike DMG|{param8:F1P}",
             "Stellar-Conduct Frostglow DMG Bonus|{param9:F1P}",
-            "Stellar Swirl Ice Javelin DMG|{param10:F1P}/Strike",
+            "Stellar Swirl Ice Javelin Single Strike DMG|{param10:F1P}",
             "Stellar Swirl Frostglow DMG Bonus|{param11:F1P}",
             "No. of Strikes in Attack|{param3:I}",
             "Additional Frostglow Attack Strikes at Stack Max|{param4:I}",
@@ -3637,9 +3637,9 @@
           "desc": [
             "Ice Javelin DMG|{param1:F1P}/Strike",
             "Frostglow DMG Bonus|{param2:F1P}",
-            "Stellar-Conduct Ice Javelin DMG|{param8:F1P}/Strike",
+            "Stellar-Conduct Ice Javelin Single Strike DMG|{param8:F1P}",
             "Stellar-Conduct Frostglow DMG Bonus|{param9:F1P}",
-            "Stellar Swirl Ice Javelin DMG|{param10:F1P}/Strike",
+            "Stellar Swirl Ice Javelin Single Strike DMG|{param10:F1P}",
             "Stellar Swirl Frostglow DMG Bonus|{param11:F1P}",
             "No. of Strikes in Attack|{param3:I}",
             "Additional Frostglow Attack Strikes at Stack Max|{param4:I}",
@@ -3685,9 +3685,9 @@
           "desc": [
             "Ice Javelin DMG|{param1:F1P}/Strike",
             "Frostglow DMG Bonus|{param2:F1P}",
-            "Stellar-Conduct Ice Javelin DMG|{param8:F1P}/Strike",
+            "Stellar-Conduct Ice Javelin Single Strike DMG|{param8:F1P}",
             "Stellar-Conduct Frostglow DMG Bonus|{param9:F1P}",
-            "Stellar Swirl Ice Javelin DMG|{param10:F1P}/Strike",
+            "Stellar Swirl Ice Javelin Single Strike DMG|{param10:F1P}",
             "Stellar Swirl Frostglow DMG Bonus|{param11:F1P}",
             "No. of Strikes in Attack|{param3:I}",
             "Additional Frostglow Attack Strikes at Stack Max|{param4:I}",
@@ -3733,9 +3733,9 @@
           "desc": [
             "Ice Javelin DMG|{param1:F1P}/Strike",
             "Frostglow DMG Bonus|{param2:F1P}",
-            "Stellar-Conduct Ice Javelin DMG|{param8:F1P}/Strike",
+            "Stellar-Conduct Ice Javelin Single Strike DMG|{param8:F1P}",
             "Stellar-Conduct Frostglow DMG Bonus|{param9:F1P}",
-            "Stellar Swirl Ice Javelin DMG|{param10:F1P}/Strike",
+            "Stellar Swirl Ice Javelin Single Strike DMG|{param10:F1P}",
             "Stellar Swirl Frostglow DMG Bonus|{param11:F1P}",
             "No. of Strikes in Attack|{param3:I}",
             "Additional Frostglow Attack Strikes at Stack Max|{param4:I}",
@@ -3781,9 +3781,9 @@
           "desc": [
             "Ice Javelin DMG|{param1:F1P}/Strike",
             "Frostglow DMG Bonus|{param2:F1P}",
-            "Stellar-Conduct Ice Javelin DMG|{param8:F1P}/Strike",
+            "Stellar-Conduct Ice Javelin Single Strike DMG|{param8:F1P}",
             "Stellar-Conduct Frostglow DMG Bonus|{param9:F1P}",
-            "Stellar Swirl Ice Javelin DMG|{param10:F1P}/Strike",
+            "Stellar Swirl Ice Javelin Single Strike DMG|{param10:F1P}",
             "Stellar Swirl Frostglow DMG Bonus|{param11:F1P}",
             "No. of Strikes in Attack|{param3:I}",
             "Additional Frostglow Attack Strikes at Stack Max|{param4:I}",
@@ -3829,9 +3829,9 @@
           "desc": [
             "Ice Javelin DMG|{param1:F1P}/Strike",
             "Frostglow DMG Bonus|{param2:F1P}",
-            "Stellar-Conduct Ice Javelin DMG|{param8:F1P}/Strike",
+            "Stellar-Conduct Ice Javelin Single Strike DMG|{param8:F1P}",
             "Stellar-Conduct Frostglow DMG Bonus|{param9:F1P}",
-            "Stellar Swirl Ice Javelin DMG|{param10:F1P}/Strike",
+            "Stellar Swirl Ice Javelin Single Strike DMG|{param10:F1P}",
             "Stellar Swirl Frostglow DMG Bonus|{param11:F1P}",
             "No. of Strikes in Attack|{param3:I}",
             "Additional Frostglow Attack Strikes at Stack Max|{param4:I}",
@@ -3877,9 +3877,9 @@
           "desc": [
             "Ice Javelin DMG|{param1:F1P}/Strike",
             "Frostglow DMG Bonus|{param2:F1P}",
-            "Stellar-Conduct Ice Javelin DMG|{param8:F1P}/Strike",
+            "Stellar-Conduct Ice Javelin Single Strike DMG|{param8:F1P}",
             "Stellar-Conduct Frostglow DMG Bonus|{param9:F1P}",
-            "Stellar Swirl Ice Javelin DMG|{param10:F1P}/Strike",
+            "Stellar Swirl Ice Javelin Single Strike DMG|{param10:F1P}",
             "Stellar Swirl Frostglow DMG Bonus|{param11:F1P}",
             "No. of Strikes in Attack|{param3:I}",
             "Additional Frostglow Attack Strikes at Stack Max|{param4:I}",
@@ -3925,9 +3925,9 @@
           "desc": [
             "Ice Javelin DMG|{param1:F1P}/Strike",
             "Frostglow DMG Bonus|{param2:F1P}",
-            "Stellar-Conduct Ice Javelin DMG|{param8:F1P}/Strike",
+            "Stellar-Conduct Ice Javelin Single Strike DMG|{param8:F1P}",
             "Stellar-Conduct Frostglow DMG Bonus|{param9:F1P}",
-            "Stellar Swirl Ice Javelin DMG|{param10:F1P}/Strike",
+            "Stellar Swirl Ice Javelin Single Strike DMG|{param10:F1P}",
             "Stellar Swirl Frostglow DMG Bonus|{param11:F1P}",
             "No. of Strikes in Attack|{param3:I}",
             "Additional Frostglow Attack Strikes at Stack Max|{param4:I}",
@@ -3973,9 +3973,9 @@
           "desc": [
             "Ice Javelin DMG|{param1:F1P}/Strike",
             "Frostglow DMG Bonus|{param2:F1P}",
-            "Stellar-Conduct Ice Javelin DMG|{param8:F1P}/Strike",
+            "Stellar-Conduct Ice Javelin Single Strike DMG|{param8:F1P}",
             "Stellar-Conduct Frostglow DMG Bonus|{param9:F1P}",
-            "Stellar Swirl Ice Javelin DMG|{param10:F1P}/Strike",
+            "Stellar Swirl Ice Javelin Single Strike DMG|{param10:F1P}",
             "Stellar Swirl Frostglow DMG Bonus|{param11:F1P}",
             "No. of Strikes in Attack|{param3:I}",
             "Additional Frostglow Attack Strikes at Stack Max|{param4:I}",
@@ -4021,9 +4021,9 @@
           "desc": [
             "Ice Javelin DMG|{param1:F1P}/Strike",
             "Frostglow DMG Bonus|{param2:F1P}",
-            "Stellar-Conduct Ice Javelin DMG|{param8:F1P}/Strike",
+            "Stellar-Conduct Ice Javelin Single Strike DMG|{param8:F1P}",
             "Stellar-Conduct Frostglow DMG Bonus|{param9:F1P}",
-            "Stellar Swirl Ice Javelin DMG|{param10:F1P}/Strike",
+            "Stellar Swirl Ice Javelin Single Strike DMG|{param10:F1P}",
             "Stellar Swirl Frostglow DMG Bonus|{param11:F1P}",
             "No. of Strikes in Attack|{param3:I}",
             "Additional Frostglow Attack Strikes at Stack Max|{param4:I}",
@@ -4069,9 +4069,9 @@
           "desc": [
             "Ice Javelin DMG|{param1:F1P}/Strike",
             "Frostglow DMG Bonus|{param2:F1P}",
-            "Stellar-Conduct Ice Javelin DMG|{param8:F1P}/Strike",
+            "Stellar-Conduct Ice Javelin Single Strike DMG|{param8:F1P}",
             "Stellar-Conduct Frostglow DMG Bonus|{param9:F1P}",
-            "Stellar Swirl Ice Javelin DMG|{param10:F1P}/Strike",
+            "Stellar Swirl Ice Javelin Single Strike DMG|{param10:F1P}",
             "Stellar Swirl Frostglow DMG Bonus|{param11:F1P}",
             "No. of Strikes in Attack|{param3:I}",
             "Additional Frostglow Attack Strikes at Stack Max|{param4:I}",
@@ -4117,9 +4117,9 @@
           "desc": [
             "Ice Javelin DMG|{param1:F1P}/Strike",
             "Frostglow DMG Bonus|{param2:F1P}",
-            "Stellar-Conduct Ice Javelin DMG|{param8:F1P}/Strike",
+            "Stellar-Conduct Ice Javelin Single Strike DMG|{param8:F1P}",
             "Stellar-Conduct Frostglow DMG Bonus|{param9:F1P}",
-            "Stellar Swirl Ice Javelin DMG|{param10:F1P}/Strike",
+            "Stellar Swirl Ice Javelin Single Strike DMG|{param10:F1P}",
             "Stellar Swirl Frostglow DMG Bonus|{param11:F1P}",
             "No. of Strikes in Attack|{param3:I}",
             "Additional Frostglow Attack Strikes at Stack Max|{param4:I}",
@@ -4165,9 +4165,9 @@
           "desc": [
             "Ice Javelin DMG|{param1:F1P}/Strike",
             "Frostglow DMG Bonus|{param2:F1P}",
-            "Stellar-Conduct Ice Javelin DMG|{param8:F1P}/Strike",
+            "Stellar-Conduct Ice Javelin Single Strike DMG|{param8:F1P}",
             "Stellar-Conduct Frostglow DMG Bonus|{param9:F1P}",
-            "Stellar Swirl Ice Javelin DMG|{param10:F1P}/Strike",
+            "Stellar Swirl Ice Javelin Single Strike DMG|{param10:F1P}",
             "Stellar Swirl Frostglow DMG Bonus|{param11:F1P}",
             "No. of Strikes in Attack|{param3:I}",
             "Additional Frostglow Attack Strikes at Stack Max|{param4:I}",
@@ -4213,9 +4213,9 @@
           "desc": [
             "Ice Javelin DMG|{param1:F1P}/Strike",
             "Frostglow DMG Bonus|{param2:F1P}",
-            "Stellar-Conduct Ice Javelin DMG|{param8:F1P}/Strike",
+            "Stellar-Conduct Ice Javelin Single Strike DMG|{param8:F1P}",
             "Stellar-Conduct Frostglow DMG Bonus|{param9:F1P}",
-            "Stellar Swirl Ice Javelin DMG|{param10:F1P}/Strike",
+            "Stellar Swirl Ice Javelin Single Strike DMG|{param10:F1P}",
             "Stellar Swirl Frostglow DMG Bonus|{param11:F1P}",
             "No. of Strikes in Attack|{param3:I}",
             "Additional Frostglow Attack Strikes at Stack Max|{param4:I}",
@@ -4261,9 +4261,9 @@
           "desc": [
             "Ice Javelin DMG|{param1:F1P}/Strike",
             "Frostglow DMG Bonus|{param2:F1P}",
-            "Stellar-Conduct Ice Javelin DMG|{param8:F1P}/Strike",
+            "Stellar-Conduct Ice Javelin Single Strike DMG|{param8:F1P}",
             "Stellar-Conduct Frostglow DMG Bonus|{param9:F1P}",
-            "Stellar Swirl Ice Javelin DMG|{param10:F1P}/Strike",
+            "Stellar Swirl Ice Javelin Single Strike DMG|{param10:F1P}",
             "Stellar Swirl Frostglow DMG Bonus|{param11:F1P}",
             "No. of Strikes in Attack|{param3:I}",
             "Additional Frostglow Attack Strikes at Stack Max|{param4:I}",
@@ -4368,7 +4368,7 @@
     {
       "id": 82301,
       "name": "Illusory Frostmirror",
-      "desc": "The Traveler will enter the <color=#FFD780FF>Radiance: Stellar-Conduct</color> or <color=#FFD780FF>Radiance: Stellar Glimmer</color> state for 8s when they are inside a <color=#FFD780FF>Polestar Field</color> or trigger a Stellar Swirl reaction respectively.\\nWhen a party member triggers a Superconduct or Cryo Swirl reaction, it becomes a Stellar-Conduct or Stellar Swirl reaction instead, and the Base DMG of said reaction is also increased by 0.35% for every 100 points of the Traveler's ATK. A maximum 7% increase can be obtained in this way.",
+      "desc": "The Traveler will enter the <color=#FFD780FF>Radiance: Stellar-Conduct</color> or <color=#FFD780FF>Radiance: Stellar Swirl</color> state for 8s when they are inside a <color=#FFD780FF>Polestar Field</color> or when a party member triggers a Stellar Swirl reaction respectively.\\nWhen a party member triggers a Superconduct or Cryo Swirl reaction, it becomes a Stellar-Conduct or Stellar Swirl reaction instead, and the Base DMG of said reaction is also increased by 0.35% for every 100 points of the Traveler's ATK. A maximum 7% increase can be obtained in this way.",
       "icon": "UI_Talent_S_PlayerIce_07",
       "unlock": 0,
       "param_list": [
@@ -4415,7 +4415,7 @@
     {
       "id": 82,
       "name": "Frostfall Reverberation",
-      "desc": "The active character's Elemental Mastery is increased by 60 for 5s when an opponent is hit by an <color=#FFD780FF>ice crystal</color>.\\nAdditionally, when a character affected by the aforementioned effect triggers a Stellar reaction or deals Stellar Glimmer DMG, the Elemental Mastery boost described above will be increased to 120 for its duration.",
+      "desc": "The active character's Elemental Mastery is increased by 60 for 5s when an opponent is hit by an <color=#FFD780FF>ice crystal</color> fired by the Elemental Skill <color=#FFD780FF>{LINK#S10127}Ice Fog Piercer{/LINK}</color>.\\nAdditionally, when a character affected by the aforementioned effect triggers a Stellar Glimmer reaction or deals Stellar Glimmer reaction DMG, the Elemental Mastery boost described above will be increased to 120 for its duration.",
       "icon": "UI_Talent_S_PlayerIce_02",
       "param_list": [
         60,
@@ -4431,7 +4431,7 @@
     {
       "id": 83,
       "name": "Glacial Shard",
-      "desc": "Increases the Level of <color=#FFD780FF>Frostbound Javelin</color> by 3.\\nMaximum upgrade level is 15.",
+      "desc": "Increases the Level of <color=#FFD780FF>{LINK#S10128}Frostbound Javelin{/LINK}</color> by 3.\\nMaximum upgrade level is 15.",
       "icon": "UI_Talent_U_PlayerIce_01",
       "param_list": [
         0,
@@ -4447,7 +4447,7 @@
     {
       "id": 84,
       "name": "Enduring Ice",
-      "desc": "The duration of the <color=#FFD780FF>Frostpierce Star</color> is increased by 25%.",
+      "desc": "The duration of the <color=#FFD780FF>Frostpierce Star</color> created by <color=#FFD780FF>{LINK#S10127}Ice Fog Piercer{/LINK}</color> is increased by 25%.",
       "icon": "UI_Talent_S_PlayerIce_03",
       "param_list": [
         0.25,
@@ -4463,7 +4463,7 @@
     {
       "id": 85,
       "name": "Bittercold Fog",
-      "desc": "Increases the Level of <color=#FFD780FF>Pierce of the Ice Fog</color> by 3.\\nMaximum upgrade level is 15.",
+      "desc": "Increases the Level of <color=#FFD780FF>{LINK#S10127}Ice Fog Piercer{/LINK}</color> by 3.\\nMaximum upgrade level is 15.",
       "icon": "UI_Talent_U_PlayerIce_02",
       "param_list": [
         0,
@@ -4479,7 +4479,7 @@
     {
       "id": 86,
       "name": "Brumal Grimfrost",
-      "desc": "Every stack of {LINK#N10050002}<color=#FFD780FF>Frostglow</color>{/LINK} consumed when using the Elemental Burst <color=#FFD780FF>Frostbound Javelin</color> increases Stellar Glimmer DMG dealt by other party members by 5% for 15s. A maximum 40% increase can be obtained in this way.",
+      "desc": "Every stack of {LINK#N10050002}<color=#FFD780FF>Frostglow</color>{/LINK} consumed when using the Elemental Burst <color=#FFD780FF>{LINK#S10128}Frostbound Javelin{/LINK}</color> increases Stellar Glimmer reaction DMG dealt by other party members by 5% for 15s. A maximum 40% increase can be obtained in this way.",
       "icon": "UI_Talent_S_PlayerIce_04",
       "param_list": [
         0.05,

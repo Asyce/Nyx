@@ -1994,7 +1994,8 @@
         "Miasma",
         "MiasmaSpider",
         "DisableAI",
-        "LittleMonster"
+        "LittleMonster",
+        "Summoned"
       ],
       "type": "Monster",
       "element": {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T11:20:02.489Z",
+  "generatedAt": "2026-07-20T18:37:44.233Z",
   "note": "Generic shops, crafting, exchanges, and event rewards are intentionally filtered. Rows here need scraper/wiki-specific source data.",
   "count": 214,
   "missing": [
@@ -467,7 +467,7 @@
     },
     {
       "game": "gi",
-      "context": "Bennett ascension",
+      "context": "Traveler ascension",
       "id": "100024",
       "name": "Windwheel Aster",
       "kind": "specialty"
@@ -1426,7 +1426,7 @@
     },
     {
       "game": "zzz",
-      "context": "Norma weapon",
+      "context": "Lycaon weapon",
       "id": "101021",
       "name": "Reinforced Stun Component",
       "kind": "mob"
@@ -1475,7 +1475,7 @@
     },
     {
       "game": "zzz",
-      "context": "Norma weapon",
+      "context": "Lycaon weapon",
       "id": "101031",
       "name": "Specialized Stun Component",
       "kind": "mob"
@@ -1489,7 +1489,7 @@
     },
     {
       "game": "zzz",
-      "context": "Norma weapon",
+      "context": "Lycaon weapon",
       "id": "101011",
       "name": "Stun Component",
       "kind": "mob"

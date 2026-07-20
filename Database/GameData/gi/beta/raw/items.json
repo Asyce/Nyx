@@ -1318,25 +1318,25 @@
     "type": "Material"
   },
   "101331": {
-    "name": "???",
+    "name": "Snow Poplar Wood",
     "rank": 1,
     "icon": "UI_ItemIcon_101332",
     "type": "Material"
   },
   "101332": {
-    "name": "???",
+    "name": "White Birch Wood",
     "rank": 1,
     "icon": "UI_ItemIcon_101331",
     "type": "Material"
   },
   "101333": {
-    "name": "???",
+    "name": "Bluebeech Wood",
     "rank": 1,
     "icon": "UI_ItemIcon_101333",
     "type": "Material"
   },
   "101334": {
-    "name": "???",
+    "name": "Larch Wood",
     "rank": 1,
     "icon": "UI_ItemIcon_101334",
     "type": "Material"
@@ -2278,7 +2278,7 @@
     "type": "Adventure Item"
   },
   "107035": {
-    "name": "Cyroculus",
+    "name": "Cryoculus",
     "rank": 0,
     "icon": "UI_ItemIcon_107035",
     "type": "Adventure Item"
@@ -2290,7 +2290,7 @@
     "type": "Adventure Item"
   },
   "107037": {
-    "name": "（test）至冬地灵龛之钥",
+    "name": "Snezhnaya Shrine of Depths Key",
     "rank": 0,
     "icon": "UI_ItemIcon_107037",
     "type": "Adventure Item"
@@ -9304,7 +9304,7 @@
     "type": "Bait"
   },
   "111037": {
-    "name": "(test)7.0鱼饵",
+    "name": "Glimmering Bait",
     "rank": 2,
     "icon": "UI_ItemIcon_111037",
     "type": "Bait"
@@ -11716,7 +11716,7 @@
     "type": "Adventure Item"
   },
   "121657": {
-    "name": "(test)TPS爬塔角色外观奖励",
+    "name": "Stardust Trail: Radiant Glow",
     "rank": 4,
     "icon": "UI_ItemIcon_121657",
     "type": "Very Special Item"
@@ -11740,7 +11740,7 @@
     "type": "Adventure Item"
   },
   "121674": {
-    "name": "(test)TPS爬塔角色外观奖励纪念品",
+    "name": "Stardust Trail: Radiant Glow Sigil",
     "rank": 4,
     "icon": "UI_ItemIcon_121657",
     "type": "Very Special Item"
@@ -12364,40 +12364,214 @@
     "type": "Fish"
   },
   "131054": {
-    "name": "(test)球鱼01（灰）",
+    "name": "Charcoal Snowfin",
     "rank": 3,
     "icon": "UI_ItemIcon_131054",
     "type": "Fish"
   },
   "131055": {
-    "name": "(test)球鱼02（白）",
+    "name": "Cream Snowfin",
     "rank": 3,
     "icon": "UI_ItemIcon_131055",
     "type": "Fish"
   },
   "131056": {
-    "name": "(test)球鱼03（黄）",
+    "name": "Moonlight Snowfin",
     "rank": 3,
     "icon": "UI_ItemIcon_131056",
     "type": "Fish"
   },
   "131057": {
-    "name": "(test)飞鱼01（黄）",
+    "name": "Ruby Starbloom Fish",
     "rank": 3,
     "icon": "UI_ItemIcon_131057",
     "type": "Fish"
   },
   "131058": {
-    "name": "(test)飞鱼01（绿）",
+    "name": "Frostpetal Starbloom Fish",
     "rank": 3,
     "icon": "UI_ItemIcon_131058",
     "type": "Fish"
   },
   "131059": {
-    "name": "(test)飞鱼01（蓝）",
+    "name": "Iridescent Starbloom Fish",
     "rank": 3,
     "icon": "UI_ItemIcon_131059",
     "type": "Fish"
+  },
+  "132001": {
+    "name": "Suspicious Rimecurrant Ice Creams",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108890",
+    "type": "Food",
+    "food": "FOOD_QUALITY_STRANGE"
+  },
+  "132002": {
+    "name": "Rimecurrant Ice Creams",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108890",
+    "type": "Food",
+    "food": "FOOD_QUALITY_ORDINARY"
+  },
+  "132003": {
+    "name": "Delicious Rimecurrant Ice Creams",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108890",
+    "type": "Food",
+    "food": "FOOD_QUALITY_DELICIOUS"
+  },
+  "132004": {
+    "name": "Suspicious Glupov Rye Bread",
+    "rank": 2,
+    "icon": "UI_ItemIcon_108891",
+    "type": "Food",
+    "food": "FOOD_QUALITY_STRANGE"
+  },
+  "132005": {
+    "name": "Glupov Rye Bread",
+    "rank": 2,
+    "icon": "UI_ItemIcon_108891",
+    "type": "Food",
+    "food": "FOOD_QUALITY_ORDINARY"
+  },
+  "132006": {
+    "name": "Delicious Glupov Rye Bread",
+    "rank": 2,
+    "icon": "UI_ItemIcon_108891",
+    "type": "Food",
+    "food": "FOOD_QUALITY_DELICIOUS"
+  },
+  "132007": {
+    "name": "Suspicious Medovik",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108892",
+    "type": "Food",
+    "food": "FOOD_QUALITY_STRANGE"
+  },
+  "132008": {
+    "name": "Medovik",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108892",
+    "type": "Food",
+    "food": "FOOD_QUALITY_ORDINARY"
+  },
+  "132009": {
+    "name": "Delicious Medovik",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108892",
+    "type": "Food",
+    "food": "FOOD_QUALITY_DELICIOUS"
+  },
+  "132010": {
+    "name": "Suspicious Snezhnaya Shashliks",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108893",
+    "type": "Food",
+    "food": "FOOD_QUALITY_STRANGE"
+  },
+  "132011": {
+    "name": "Snezhnaya Shashliks",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108893",
+    "type": "Food",
+    "food": "FOOD_QUALITY_ORDINARY"
+  },
+  "132012": {
+    "name": "Delicious Snezhnaya Shashliks",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108893",
+    "type": "Food",
+    "food": "FOOD_QUALITY_DELICIOUS"
+  },
+  "132013": {
+    "name": "Suspicious Snowball Blooms Atop Snowfields",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108894",
+    "type": "Food",
+    "food": "FOOD_QUALITY_STRANGE"
+  },
+  "132014": {
+    "name": "Snowball Blooms Atop Snowfields",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108894",
+    "type": "Food",
+    "food": "FOOD_QUALITY_ORDINARY"
+  },
+  "132015": {
+    "name": "Delicious Snowball Blooms Atop Snowfields",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108894",
+    "type": "Food",
+    "food": "FOOD_QUALITY_DELICIOUS"
+  },
+  "132016": {
+    "name": "The Bullseye Roast",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108895",
+    "type": "Food"
+  },
+  "132017": {
+    "name": "Lakeside Snow Swan",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108896",
+    "type": "Food"
+  },
+  "132018": {
+    "name": "???",
+    "rank": 4,
+    "icon": "UI_ItemIcon_108897",
+    "type": "Food",
+    "food": "FOOD_QUALITY_STRANGE"
+  },
+  "132019": {
+    "name": "???",
+    "rank": 4,
+    "icon": "UI_ItemIcon_108897",
+    "type": "Food",
+    "food": "FOOD_QUALITY_ORDINARY"
+  },
+  "132020": {
+    "name": "???",
+    "rank": 4,
+    "icon": "UI_ItemIcon_108897",
+    "type": "Food",
+    "food": "FOOD_QUALITY_DELICIOUS"
+  },
+  "132021": {
+    "name": "???",
+    "rank": 2,
+    "icon": "UI_ItemIcon_108898",
+    "type": "Food"
+  },
+  "132022": {
+    "name": "???",
+    "rank": 2,
+    "icon": "UI_ItemIcon_108999",
+    "type": "Food"
+  },
+  "132023": {
+    "name": "Kvass",
+    "rank": 2,
+    "icon": "UI_ItemIcon_108900",
+    "type": "Food"
+  },
+  "132024": {
+    "name": "Spiced Honey Brew",
+    "rank": 2,
+    "icon": "UI_ItemIcon_108901",
+    "type": "Food"
+  },
+  "132025": {
+    "name": "Glacial Starbrew",
+    "rank": 2,
+    "icon": "UI_ItemIcon_108902",
+    "type": "Food"
+  },
+  "132026": {
+    "name": "Regular Ice Cream",
+    "rank": 2,
+    "icon": "UI_ItemIcon_108890",
+    "type": "Food"
   },
   "200005": {
     "name": "Celebratory Xiao Lantern",
@@ -12628,7 +12802,7 @@
     "type": "Fishing Rod"
   },
   "200909": {
-    "name": "(test)至冬鱼竿",
+    "name": "Scepter of the Snow Angler King",
     "rank": 4,
     "icon": "UI_ItemIcon_200909",
     "type": "Fishing Rod"
@@ -13322,173 +13496,5 @@
     "rank": 4,
     "icon": "UI_ItemIcon_220136",
     "type": "Gadget"
-  },
-  "1080001": {
-    "name": "Suspicious Rimecurrant Ice Creams",
-    "rank": 3,
-    "icon": "UI_ItemIcon_108890",
-    "type": "Food",
-    "food": "FOOD_QUALITY_STRANGE"
-  },
-  "1080002": {
-    "name": "Rimecurrant Ice Creams",
-    "rank": 3,
-    "icon": "UI_ItemIcon_108890",
-    "type": "Food",
-    "food": "FOOD_QUALITY_ORDINARY"
-  },
-  "1080003": {
-    "name": "Delicious Rimecurrant Ice Creams",
-    "rank": 3,
-    "icon": "UI_ItemIcon_108890",
-    "type": "Food",
-    "food": "FOOD_QUALITY_DELICIOUS"
-  },
-  "1080004": {
-    "name": "Suspicious Glupov Rye Bread",
-    "rank": 2,
-    "icon": "UI_ItemIcon_108891",
-    "type": "Food",
-    "food": "FOOD_QUALITY_STRANGE"
-  },
-  "1080005": {
-    "name": "Glupov Rye Bread",
-    "rank": 2,
-    "icon": "UI_ItemIcon_108891",
-    "type": "Food",
-    "food": "FOOD_QUALITY_ORDINARY"
-  },
-  "1080006": {
-    "name": "Delicious Glupov Rye Bread",
-    "rank": 2,
-    "icon": "UI_ItemIcon_108891",
-    "type": "Food",
-    "food": "FOOD_QUALITY_DELICIOUS"
-  },
-  "1080007": {
-    "name": "Suspicious Medovik",
-    "rank": 3,
-    "icon": "UI_ItemIcon_108892",
-    "type": "Food",
-    "food": "FOOD_QUALITY_STRANGE"
-  },
-  "1080008": {
-    "name": "Medovik",
-    "rank": 3,
-    "icon": "UI_ItemIcon_108892",
-    "type": "Food",
-    "food": "FOOD_QUALITY_ORDINARY"
-  },
-  "1080009": {
-    "name": "Delicious Medovik",
-    "rank": 3,
-    "icon": "UI_ItemIcon_108892",
-    "type": "Food",
-    "food": "FOOD_QUALITY_DELICIOUS"
-  },
-  "1080010": {
-    "name": "Suspicious Snezhnaya Shashliks",
-    "rank": 3,
-    "icon": "UI_ItemIcon_108893",
-    "type": "Food",
-    "food": "FOOD_QUALITY_STRANGE"
-  },
-  "1080011": {
-    "name": "Snezhnaya Shashliks",
-    "rank": 3,
-    "icon": "UI_ItemIcon_108893",
-    "type": "Food",
-    "food": "FOOD_QUALITY_ORDINARY"
-  },
-  "1080012": {
-    "name": "Delicious Snezhnaya Shashliks",
-    "rank": 3,
-    "icon": "UI_ItemIcon_108893",
-    "type": "Food",
-    "food": "FOOD_QUALITY_DELICIOUS"
-  },
-  "1080013": {
-    "name": "Suspicious Snowball Blooms Atop Snowfields",
-    "rank": 3,
-    "icon": "UI_ItemIcon_108894",
-    "type": "Food",
-    "food": "FOOD_QUALITY_STRANGE"
-  },
-  "1080014": {
-    "name": "Snowball Blooms Atop Snowfields",
-    "rank": 3,
-    "icon": "UI_ItemIcon_108894",
-    "type": "Food",
-    "food": "FOOD_QUALITY_ORDINARY"
-  },
-  "1080015": {
-    "name": "Delicious Snowball Blooms Atop Snowfields",
-    "rank": 3,
-    "icon": "UI_ItemIcon_108894",
-    "type": "Food",
-    "food": "FOOD_QUALITY_DELICIOUS"
-  },
-  "1080016": {
-    "name": "The Bullseye Roast",
-    "rank": 3,
-    "icon": "UI_ItemIcon_108895",
-    "type": "Food"
-  },
-  "1080017": {
-    "name": "Lakeside Snow Swan",
-    "rank": 3,
-    "icon": "UI_ItemIcon_108896",
-    "type": "Food"
-  },
-  "1080018": {
-    "name": "???",
-    "rank": 4,
-    "icon": "UI_ItemIcon_108897",
-    "type": "Food",
-    "food": "FOOD_QUALITY_STRANGE"
-  },
-  "1080019": {
-    "name": "???",
-    "rank": 4,
-    "icon": "UI_ItemIcon_108897",
-    "type": "Food",
-    "food": "FOOD_QUALITY_ORDINARY"
-  },
-  "1080020": {
-    "name": "???",
-    "rank": 4,
-    "icon": "UI_ItemIcon_108897",
-    "type": "Food",
-    "food": "FOOD_QUALITY_DELICIOUS"
-  },
-  "1080021": {
-    "name": "???",
-    "rank": 2,
-    "icon": "UI_ItemIcon_108898",
-    "type": "Food"
-  },
-  "1080022": {
-    "name": "???",
-    "rank": 2,
-    "icon": "UI_ItemIcon_108999",
-    "type": "Food"
-  },
-  "1080023": {
-    "name": "Kvass",
-    "rank": 2,
-    "icon": "UI_ItemIcon_108900",
-    "type": "Food"
-  },
-  "1080024": {
-    "name": "Spiced Honey Brew",
-    "rank": 2,
-    "icon": "UI_ItemIcon_108901",
-    "type": "Food"
-  },
-  "1080025": {
-    "name": "Glacial Starbrew",
-    "rank": 2,
-    "icon": "UI_ItemIcon_108902",
-    "type": "Food"
   }
 }

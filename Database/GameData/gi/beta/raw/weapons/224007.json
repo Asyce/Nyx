@@ -1,6 +1,6 @@
 {
   "name": "Frag Crystal - Cryo",
-  "desc": "",
+  "desc": "Tactical throwable that can deal AoE Cryo DMG.",
   "weapon_type": "ITEM_TPS_WEAPON",
   "rarity": 4,
   "icon": "UI_EquipIcon_Grenade_Ice",

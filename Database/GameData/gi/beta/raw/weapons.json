@@ -435,13 +435,13 @@
     "icon": "UI_EquipIcon_Sword_SerpentTooth",
     "rank": 4,
     "type": "WEAPON_SWORD_ONE_HAND",
-    "en": "",
-    "atk": 454,
+    "en": "Heretic's Molten Blade",
+    "atk": 510,
     "sub": "FIGHT_PROP_CRITICAL",
     "desc": "",
-    "ko": "",
-    "zh": "",
-    "ja": ""
+    "ko": "이단을 가르는 불꽃",
+    "zh": "熔猎异端之刃",
+    "ja": "異端を狩る熔刃"
   },
   "11436": {
     "icon": "UI_EquipIcon_Sword_GlintstoneSword",
@@ -451,9 +451,9 @@
     "atk": 510,
     "sub": "FIGHT_PROP_ELEMENT_MASTERY",
     "desc": "A longsword that is entirely gemstone, said to be crafted for the path of righteousness. When unsheathed, it glows with the luster of blue flame.",
-    "ko": "불씨의 근원",
+    "ko": "불꽃의 인도자",
     "zh": "引火之源",
-    "ja": "導炎の源JP0D"
+    "ja": "導炎の源"
   },
   "11501": {
     "icon": "UI_EquipIcon_Sword_Falcon",
@@ -657,7 +657,7 @@
     "desc": "",
     "ko": "백조의 호수",
     "zh": "白湖冬羽",
-    "ja": "白き湖の冬羽JP0D"
+    "ja": "白銀の湖を舞う翼"
   },
   "11521": {
     "icon": "UI_EquipIcon_Sword_WeaponQuestSnezhnaya",
@@ -669,7 +669,7 @@
     "desc": "",
     "ko": "별빛검",
     "zh": "星锋剑",
-    "ja": "星鋒の剣JP0D"
+    "ja": "星鋒の剣"
   },
   "12101": {
     "icon": "UI_EquipIcon_Claymore_Aniki",
@@ -1059,13 +1059,13 @@
     "icon": "UI_EquipIcon_Claymore_EscapeWheel",
     "rank": 4,
     "type": "WEAPON_CLAYMORE",
-    "en": "",
-    "atk": 454,
+    "en": "Forged by the Golden Law",
+    "atk": 510,
     "sub": "FIGHT_PROP_CRITICAL",
     "desc": "",
-    "ko": "",
-    "zh": "",
-    "ja": ""
+    "ko": "황금빛 선율",
+    "zh": "金律铸影",
+    "ja": "シンフォニーの鋳影"
   },
   "12436": {
     "icon": "UI_EquipIcon_Claymore_GlintstoneClaymore",
@@ -1075,9 +1075,9 @@
     "atk": 565,
     "sub": "FIGHT_PROP_ATTACK_PERCENT",
     "desc": "A greatsword passed down by the Luchkin. It is said that only the bravest warrior is qualified to wield it.",
-    "ko": "구원의 참격",
+    "ko": "구원의 대검",
     "zh": "救赎之斩",
-    "ja": "救済の剣JP0D"
+    "ja": "救済の剣"
   },
   "12501": {
     "icon": "UI_EquipIcon_Claymore_Dvalin",
@@ -1551,13 +1551,13 @@
     "icon": "UI_EquipIcon_Pole_FaesCrystalle",
     "rank": 4,
     "type": "WEAPON_POLE",
-    "en": "",
+    "en": "Frostbreath",
     "atk": 510,
     "sub": "FIGHT_PROP_CHARGE_EFFICIENCY",
     "desc": "",
-    "ko": "",
-    "zh": "",
-    "ja": ""
+    "ko": "서리 숨결",
+    "zh": "寒息",
+    "ja": "氷の吐息"
   },
   "13436": {
     "icon": "UI_EquipIcon_Pole_GlintstonePolearm",
@@ -1567,9 +1567,9 @@
     "atk": 565,
     "sub": "FIGHT_PROP_ELEMENT_MASTERY",
     "desc": "A long spear that once stood guard over all. Today, it has found a new purpose with children and their games of make-believe.",
-    "ko": "파수의 노래",
+    "ko": "수호의 노래",
     "zh": "戍望谣歌",
-    "ja": "遠望の歌JP0D"
+    "ja": "遠望の歌"
   },
   "13501": {
     "icon": "UI_EquipIcon_Pole_Homa",
@@ -2115,13 +2115,13 @@
     "icon": "UI_EquipIcon_Catalyst_SandMemoria",
     "rank": 4,
     "type": "WEAPON_CATALYST",
-    "en": "",
-    "atk": 454,
+    "en": "Clash of Kings",
+    "atk": 510,
     "sub": "FIGHT_PROP_CRITICAL",
     "desc": "",
-    "ko": "",
-    "zh": "",
-    "ja": ""
+    "ko": "왕들의 대국",
+    "zh": "群王局戏",
+    "ja": "諸王の対局"
   },
   "14436": {
     "icon": "UI_EquipIcon_Catalyst_GlintstoneCatalyst",
@@ -2131,9 +2131,9 @@
     "atk": 565,
     "sub": "FIGHT_PROP_ATTACK_PERCENT",
     "desc": "A Catalyst said to crystallize voice. Within it lies a sealed oath of loyalty, as well as a heart long since forgotten by mankind.",
-    "ko": "촌심의 잔향",
+    "ko": "충성의 메아리",
     "zh": "寸心余响",
-    "ja": "寸心の余響JP0D"
+    "ja": "胸中の谺"
   },
   "14501": {
     "icon": "UI_EquipIcon_Catalyst_Dvalin",
@@ -2787,13 +2787,13 @@
     "icon": "UI_EquipIcon_Bow_ShatteredMirror",
     "rank": 4,
     "type": "WEAPON_BOW",
-    "en": "",
-    "atk": 454,
+    "en": "Primordial Jade Vista",
+    "atk": 510,
     "sub": "FIGHT_PROP_CRITICAL",
     "desc": "",
-    "ko": "",
-    "zh": "",
-    "ja": ""
+    "ko": "옥빛 장궁",
+    "zh": "悬黎千钧",
+    "ja": "懸黎千鈞"
   },
   "15436": {
     "icon": "UI_EquipIcon_Bow_GlintstoneBow",
@@ -2803,9 +2803,9 @@
     "atk": 510,
     "sub": "FIGHT_PROP_DEFENSE_PERCENT",
     "desc": "A longbow crafted to preserve order. Its cold radiance perfectly emanates the ideals of absolute fairness and justice.",
-    "ko": "눈의 서약",
+    "ko": "서리의 서약",
     "zh": "霜雪誓约",
-    "ja": "霜雪の誓いJP0D"
+    "ja": "霜雪の契"
   },
   "15501": {
     "icon": "UI_EquipIcon_Bow_Dvalin",
@@ -2956,70 +2956,70 @@
     "rank": 4,
     "type": "ITEM_TPS_WEAPON",
     "en": "Shatanaya's Frostsilver",
-    "desc": "",
+    "desc": "An assault rifle that can accumulate Frigid Glory using Normal Attacks to switch to Breakthrough mode and use Charged Attacks.",
     "ko": "샤타나야의 은빛",
     "zh": "莎塔娜娅的苍银",
-    "ja": ""
+    "ja": "シャタナヤの蒼銀JP0B"
   },
   "224002": {
     "icon": "UI_EquipIcon_AssaultRifle_Fulmen",
     "rank": 4,
     "type": "ITEM_TPS_WEAPON",
     "en": "Ashamez's Thunder",
-    "desc": "",
+    "desc": "A grenade launcher that can switch between firing off Pyro, Hydro, and Cryo rounds in that order.",
     "ko": "아샤메즈의 천광",
     "zh": "阿夏梅兹的千光",
-    "ja": ""
+    "ja": "アシャメズの千光JP0B"
   },
   "224003": {
     "icon": "UI_EquipIcon_GrenadeLauncher_Ignis",
     "rank": 4,
     "type": "ITEM_TPS_WEAPON",
     "en": "Balsag's Sunwheel",
-    "desc": "",
+    "desc": "A grenade launcher that can cycle between Pyro, Hydro, and Cryo as the current grenade element.",
     "ko": "발사그의 일륜",
     "zh": "瓦尔萨格的日轮",
-    "ja": ""
+    "ja": "バルサグの日輪JP0B"
   },
   "224004": {
     "icon": "UI_EquipIcon_Grenade_Fire",
     "rank": 4,
     "type": "ITEM_TPS_WEAPON",
     "en": "Frag Crystal - Pyro",
-    "desc": "",
-    "ko": "결정 유탄·불",
+    "desc": "Tactical throwable that can deal AoE Pyro DMG.",
+    "ko": "결정 수류탄·불",
     "zh": "榴晶·火",
-    "ja": ""
+    "ja": "晶榴弾・炎"
   },
   "224005": {
     "icon": "UI_EquipIcon_Grenade_Water",
     "rank": 4,
     "type": "ITEM_TPS_WEAPON",
     "en": "Frag Crystal - Hydro",
-    "desc": "",
-    "ko": "결정 유탄·물",
+    "desc": "Tactical throwable that can deal AoE Hydro DMG.",
+    "ko": "결정 수류탄·물",
     "zh": "榴晶·水",
-    "ja": ""
+    "ja": "晶榴弾・水"
   },
   "224006": {
     "icon": "UI_EquipIcon_Grenade_Electric",
     "rank": 4,
     "type": "ITEM_TPS_WEAPON",
     "en": "Frag Crystal - Electro",
-    "desc": "",
-    "ko": "결정 유탄·번개",
+    "desc": "Tactical throwable that can deal AoE Electro DMG.",
+    "ko": "결정 수류탄·번개",
     "zh": "榴晶·雷",
-    "ja": ""
+    "ja": "晶榴弾・雷"
   },
   "224007": {
     "icon": "UI_EquipIcon_Grenade_Ice",
     "rank": 4,
     "type": "ITEM_TPS_WEAPON",
     "en": "Frag Crystal - Cryo",
-    "desc": "",
-    "ko": "결정 유탄·얼음",
+    "desc": "Tactical throwable that can deal AoE Cryo DMG.",
+    "ko": "결정 수류탄·얼음",
     "zh": "榴晶·冰",
-    "ja": ""
+    "ja": "晶榴弾・氷"
   },
   "224008": {
     "icon": "Sword_Template",
@@ -3028,8 +3028,8 @@
     "en": "(test) Shadow Realm Grenade",
     "desc": "",
     "ko": "(test)  그림자 영역 번개",
-    "zh": "(test)  影域雷",
-    "ja": ""
+    "zh": "影域特化榴晶",
+    "ja": "(test)  闇域グレネードJP0F"
   },
   "310001": {
     "icon": "UI_EquipIcon_Sword_MorphVinces_{0}",
@@ -3179,12 +3179,12 @@
     "icon": "UI_EquipIcon_Sword_Icecream",
     "rank": 4,
     "type": "WEAPON_SWORD_ONE_HAND",
-    "en": "",
+    "en": "A Touch of Frost in Scorching Summer!",
     "skin": true,
     "tag": "TAG_TYPE_NONE",
-    "desc": "",
-    "ko": "",
-    "zh": "WQ赠送幻化",
+    "desc": "A small gift from the Jack Frosts to their good friends! It looks wildly tasty and seems berry jam-flavored. One bite, and a refreshing chill and delightful sweetness would surely dance together across your tongue... if only this were actually edible. It looks super delicious, though.",
+    "ko": "한여름의 서리!",
+    "zh": "炎夏轻霜！",
     "ja": ""
   },
   "390001": {

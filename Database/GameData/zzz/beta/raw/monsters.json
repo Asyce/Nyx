@@ -403,11 +403,11 @@
     "icon": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_EvolvedBee.png",
     "rarity": 1,
     "group": 201,
-    "en": "Metamorphosed - Skull Wasp",
+    "en": "Metamorphosed - Hornet",
     "desc": "CardDesc_10040",
     "ko": "탈피·벌",
     "zh": "蜕生·骸蜂",
-    "ja": "蛻生・骸蜂"
+    "ja": "羽化・ホーネット"
   },
   "19999": {
     "icon": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/CardResources/Unknown.png",
@@ -1300,24 +1300,24 @@
     "ja": "全新人形boss"
   },
   "30052": {
-    "icon": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_SymbioticEtherealSinner.png",
+    "icon": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_SymbioticEtherealSinner.png",
     "rarity": 3,
     "group": 201,
     "en": "Infernal Revenant",
-    "desc": "CardDesc_30052",
+    "desc": "An Ethereal returned from the depths of Cinderglow Lake.\nOnce a Dead End Butcher defeated by Overlord Pompey, it plunged into Cinderglow Lake after its fall—yet rather than being incinerated, its body became encased in crystallized byproducts of burning Ether.\nWithin the flames, its shell endlessly melted and shed, only to be coated in fresh crystals. Through infernal, unrelenting torment, it forged an armor-like body and gained the ability to move freely through fire.\nAfter an age of wandering, as though abandoned by time itself, it finally stumbled upon a spatial fissure at the bottom of the Cinder Lake—and slipped through into the Divine Maze: Papago Hollow.\nYet that was merely falling into another inferno.\nIt seems to have suffered a crushing defeat there, and ever since, it has been driven by some force, consumed by an obsession to seize the scattered traces of special Ether hidden throughout the maze.\nBut it can no longer tell whether what that Ether holds is salvation—or sacrilege.\n\n\"Every time that walking bonfire strolls by, the temperature skyrockets. I'm filing for a heat hazard bonus!\"",
     "ko": "연옥을 누비는 자",
     "zh": "熔狱行赭",
-    "ja": "熔獄の赭行"
+    "ja": "炎獄を往く者"
   },
   "30053": {
-    "icon": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Stalker.png",
+    "icon": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_Stalker.png",
     "rarity": 3,
     "group": 201,
-    "en": "Ulydim",
-    "desc": "A notorious Ethereal prowling the depths of the Papago Hollow's \"Divine Maze.\"\nIf the Papago Hollow's \"Hallucinatory Soundfield\" is the trap that lures prey into the maze, then Ulydim is the Hound that hunts down those who fall into it.\nUlydim's special ability — and what makes it so terrifying — is its power to materialize from any location or object within the Hollow's illusion, whether from a shadowed corner of the labyrinth or a cherished memento tied to a victim's fondest memories. This allows it to deliver a devastating Strike to both the body and mind, earning it the name \"Olden Hound.\" At its core, this ability stems from Ulydim's unique power to ignore the illusions shaped by the Hallucinatory Soundfield and move freely through the Hollow's structure.\nDue to its terrifying nature and appearance, Ulydim stands as one of the most common yet most dreaded threats encountered during Papago Hollow Exploration Missions. The mere mention of its name is enough to send every Bangboo at the Papago outpost into a panic — and among them, chilling legends of Ulydim have taken on a life of their own.\nMultiple Ulydims exist within the Hollow, each assigned to patrol fixed areas and routes, maintaining the stability of the Hallucinatory Soundwaves throughout Papago Hollow. Should any intruder be detected interfering with the Hollow's steady expansion, Ulydim will pursue and eliminate the threat without hesitation.\n\"Perhaps in that endless maze with no way out, being devoured by the terrifying Hound is a mercy all its own.\"",
-    "ko": "우리딤무",
+    "en": "Ulidim",
+    "desc": "A notorious Ethereal that prowls the Divine Maze of Papago Hollow.\nIf Papago Hollow's Hallucinogenic Soundscape is the trap that lures prey into the maze, then Ulidim is the hound that hunts down those unfortunate enough to become trapped inside it.\nUlidim's most terrifying ability is its power to emerge from any location or object within the Hollow's illusion, whether from a forgotten corner of the labyrinth or an old keepsake filled with a victim's cherished memories. The shock of its sudden appearance delivers a devastating blow to both body and mind, earning it the nickname \"Hound of Old.\" Its true ability lies in ignoring the illusions woven by the Hallucinogenic Soundscape and moving freely through the Hollow itself.\nBecause of its terrifying nature and appearance, Ulidim is one of the most common and most feared threats encountered during expeditions into Papago Hollow. Among the Bangboo stationed at Papago Outpost, even the mention of its name inspires fear, and frightening legends about Ulidim have spread from one Bangboo to another.\nThere are multiple Ulidim within the Hollow. Their routine task is to patrol designated areas and routes, maintaining the stability of the Hallucinogenic Soundscape. Should they detect an intruder interfering with the Hollow's stable expansion, they will immediately pursue and kill the offender.\n\"Within that labyrinth that has a beginning but no end, perhaps being devoured by the dreadful hound is a mercy in itself.\"",
+    "ko": "우리딤",
     "zh": "乌利迪姆",
-    "ja": "ウリディム"
+    "ja": "ウリディンム"
   },
   "35001": {
     "icon": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Nineveh.png",
@@ -1423,21 +1423,21 @@
     "icon": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_GirReborn.png",
     "rarity": 4,
     "group": 201,
-    "en": "Kitabulu, Stagnant Aberrant Beast",
-    "desc": "CardDesc_40008",
+    "en": "Girtablullu - Stagnant Aberrant",
+    "desc": "...",
     "ko": "기르타블리르·퇴행 변종",
     "zh": "基塔布鲁·滞变畸兽",
-    "ja": "キタブル・滞変畸獣"
+    "ja": "歪みし異獣・ギルタブルル"
   },
   "40009": {
     "icon": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_Girtablu_HC.png",
     "rarity": 4,
     "group": 201,
-    "en": "Integrated Girtablullu",
-    "desc": "CardDesc_40009",
+    "en": "Integrated - Girtablullu",
+    "desc": "High-Risk simulated units mapped from real combat data. Through deep reconstruction and overfitting of prototype combat logic, certain individuals have broken through standard performance thresholds, presenting an extreme level of combat threat.\n\nA High-Risk scorpion-like Ethereal that fights with an ash-gray lance. Its powerful lower body and agile upper torso combine to create a combat machine that is both devastating and highly mobile. By burrowing through \"wormholes,\" it traverses the Scamall Hollow in search of its next victim to fall into the nest. Unlike Ethereals transformed from Corruption-afflicted wildlife or machinery, this creature was spawned by something far more terrifying, carrying an Ether signature unlike any other.\n\n\"There's no Insect Phobia Mode in the Options!\"",
     "ko": "융합·기르타블리르",
     "zh": "异构·基塔布鲁",
-    "ja": "異構・キタブル"
+    "ja": "異性体・ギルタブルル"
   },
   "100001": {
     "icon": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ClaymoreGreyPro.png",

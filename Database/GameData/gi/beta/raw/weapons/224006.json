@@ -1,6 +1,6 @@
 {
   "name": "Frag Crystal - Electro",
-  "desc": "",
+  "desc": "Tactical throwable that can deal AoE Electro DMG.",
   "weapon_type": "ITEM_TPS_WEAPON",
   "rarity": 4,
   "icon": "UI_EquipIcon_Grenade_Electric",

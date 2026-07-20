@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T11:20:04.568Z",
+  "generatedAt": "2026-07-20T18:37:45.689Z",
   "policy": "Every generated Database row is counted. Released rows remain visible when art or description is missing; only rows with no usable localized display name or proven internal/test provenance are quarantined.",
   "coverage": {
     "before": {
@@ -164,12 +164,12 @@
       "scope": "inline",
       "game": "zzz",
       "collection": "w-engines",
-      "sourceCount": 93,
-      "normalizedCount": 93,
+      "sourceCount": 96,
+      "normalizedCount": 96,
       "quarantinedCount": 0,
-      "approvedSourceCount": 93,
-      "generatedCount": 93,
-      "localArtCount": 92,
+      "approvedSourceCount": 96,
+      "generatedCount": 96,
+      "localArtCount": 95,
       "missingArtCount": 1
     },
     {
@@ -224,24 +224,24 @@
       "scope": "inline",
       "game": "ae",
       "collection": "weapons",
-      "sourceCount": 72,
-      "normalizedCount": 72,
+      "sourceCount": 75,
+      "normalizedCount": 75,
       "quarantinedCount": 0,
-      "approvedSourceCount": 72,
-      "generatedCount": 72,
-      "localArtCount": 72,
+      "approvedSourceCount": 75,
+      "generatedCount": 75,
+      "localArtCount": 75,
       "missingArtCount": 0
     },
     {
       "scope": "inline",
       "game": "ae",
       "collection": "gear",
-      "sourceCount": 129,
-      "normalizedCount": 129,
+      "sourceCount": 152,
+      "normalizedCount": 152,
       "quarantinedCount": 0,
-      "approvedSourceCount": 129,
-      "generatedCount": 129,
-      "localArtCount": 108,
+      "approvedSourceCount": 152,
+      "generatedCount": 152,
+      "localArtCount": 131,
       "missingArtCount": 21
     },
     {

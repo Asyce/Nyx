@@ -343,7 +343,7 @@
   "refinement": {
     "1": {
       "name": "White Fairy's Queening",
-      "desc": "ATK is increased by <color=#99FFFFFF>28%</color>.\\nAdditionally, each time the equipping character hits an opponent with their Charged Attack, they attain \"Transcendence\" for a short time: their Stellar-Conduct and Stellar Swirl DMG is increased by <color=#99FFFFFF>16%</color> for 5s. This effect can stack once every 0.2s, max 3 stacks.",
+      "desc": "ATK is increased by <color=#99FFFFFF>28%</color>.\\nAdditionally, each time the equipping character hits an opponent with their Charged Attack, they attain \"Transcendence\" for a short time: their Stellar-Conduct and Stellar Swirl reaction DMG is increased by <color=#99FFFFFF>16%</color> for 5s. This effect can stack once every 0.2s, max 3 stacks.",
       "param_list": [
         0.28,
         0.16,
@@ -357,7 +357,7 @@
     },
     "2": {
       "name": "White Fairy's Queening",
-      "desc": "ATK is increased by <color=#99FFFFFF>35%</color>.\\nAdditionally, each time the equipping character hits an opponent with their Charged Attack, they attain \"Transcendence\" for a short time: their Stellar-Conduct and Stellar Swirl DMG is increased by <color=#99FFFFFF>20%</color> for 5s. This effect can stack once every 0.2s, max 3 stacks.",
+      "desc": "ATK is increased by <color=#99FFFFFF>35%</color>.\\nAdditionally, each time the equipping character hits an opponent with their Charged Attack, they attain \"Transcendence\" for a short time: their Stellar-Conduct and Stellar Swirl reaction DMG is increased by <color=#99FFFFFF>20%</color> for 5s. This effect can stack once every 0.2s, max 3 stacks.",
       "param_list": [
         0.35,
         0.2,
@@ -371,7 +371,7 @@
     },
     "3": {
       "name": "White Fairy's Queening",
-      "desc": "ATK is increased by <color=#99FFFFFF>42%</color>.\\nAdditionally, each time the equipping character hits an opponent with their Charged Attack, they attain \"Transcendence\" for a short time: their Stellar-Conduct and Stellar Swirl DMG is increased by <color=#99FFFFFF>24%</color> for 5s. This effect can stack once every 0.2s, max 3 stacks.",
+      "desc": "ATK is increased by <color=#99FFFFFF>42%</color>.\\nAdditionally, each time the equipping character hits an opponent with their Charged Attack, they attain \"Transcendence\" for a short time: their Stellar-Conduct and Stellar Swirl reaction DMG is increased by <color=#99FFFFFF>24%</color> for 5s. This effect can stack once every 0.2s, max 3 stacks.",
       "param_list": [
         0.42,
         0.24,
@@ -385,7 +385,7 @@
     },
     "4": {
       "name": "White Fairy's Queening",
-      "desc": "ATK is increased by <color=#99FFFFFF>49%</color>.\\nAdditionally, each time the equipping character hits an opponent with their Charged Attack, they attain \"Transcendence\" for a short time: their Stellar-Conduct and Stellar Swirl DMG is increased by <color=#99FFFFFF>28%</color> for 5s. This effect can stack once every 0.2s, max 3 stacks.",
+      "desc": "ATK is increased by <color=#99FFFFFF>49%</color>.\\nAdditionally, each time the equipping character hits an opponent with their Charged Attack, they attain \"Transcendence\" for a short time: their Stellar-Conduct and Stellar Swirl reaction DMG is increased by <color=#99FFFFFF>28%</color> for 5s. This effect can stack once every 0.2s, max 3 stacks.",
       "param_list": [
         0.49,
         0.28,
@@ -399,7 +399,7 @@
     },
     "5": {
       "name": "White Fairy's Queening",
-      "desc": "ATK is increased by <color=#99FFFFFF>56%</color>.\\nAdditionally, each time the equipping character hits an opponent with their Charged Attack, they attain \"Transcendence\" for a short time: their Stellar-Conduct and Stellar Swirl DMG is increased by <color=#99FFFFFF>32%</color> for 5s. This effect can stack once every 0.2s, max 3 stacks.",
+      "desc": "ATK is increased by <color=#99FFFFFF>56%</color>.\\nAdditionally, each time the equipping character hits an opponent with their Charged Attack, they attain \"Transcendence\" for a short time: their Stellar-Conduct and Stellar Swirl reaction DMG is increased by <color=#99FFFFFF>32%</color> for 5s. This effect can stack once every 0.2s, max 3 stacks.",
       "param_list": [
         0.56,
         0.32,

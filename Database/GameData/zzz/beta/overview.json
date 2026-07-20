@@ -3,9 +3,9 @@
   "game": "zzz",
   "gameName": "Zenless Zone Zero",
   "channel": "beta",
-  "version": "3.1.4+17279672",
+  "version": "3.1.12+17625891",
   "liveVersion": "3.0",
-  "betaVersion": "3.1.4+17279672",
+  "betaVersion": "3.1.12+17625891",
   "availableVersions": [
     "3.0",
     "3.1.0+16474634",
@@ -26,24 +26,30 @@
     "3.1.4+17261355",
     "3.1.4+17275162",
     "3.1.4+17277842",
-    "3.1.4+17279672"
+    "3.1.4+17279672",
+    "3.1.5+17463384",
+    "3.1.5+17487435",
+    "3.1.5+17496639",
+    "3.1.5+17500498",
+    "3.1.5+17516165",
+    "3.1.12+17625891"
   ],
-  "scrapedAt": "2026-07-10T17:19:09.721Z",
+  "scrapedAt": "2026-07-20T18:36:49.811Z",
   "counts": {
     "agents": 58,
     "wEngines": 95,
-    "bangboos": 43,
+    "bangboos": 42,
     "driveDiscs": 30,
     "monsters": 293,
-    "items": 5639
+    "items": 5648
   },
   "sourceCounts": {
     "agents": 58,
     "wEngines": 95,
-    "bangboos": 43,
+    "bangboos": 42,
     "driveDiscs": 30,
     "monsters": 293,
-    "items": 5639
+    "items": 5648
   },
   "newInManifest": {
     "character": [
@@ -55,8 +61,7 @@
     ],
     "bangboo": [
       54023,
-      55098,
-      57001
+      55098
     ],
     "weapon": [
       14158,
@@ -666,6 +671,6 @@
     "items": "GameData/zzz/beta/items.json",
     "raw": "GameData/zzz/beta/raw"
   },
-  "assetsPlanned": 2872,
+  "assetsPlanned": 2955,
   "contentStatus": "Beta records are compared to Live and marked live, beta, or beta_changed."
 }

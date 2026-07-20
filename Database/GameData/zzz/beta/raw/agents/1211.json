@@ -334,8 +334,8 @@
           "potential": []
         },
         {
-          "name": "Morning Cleanup",
-          "desc": "After Rina uses her <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Chain Attack]</color>, or <color=#FFFFFF>[Ultimate]</color>, within 13s, Drusilla or Anastella attacks enemies once every 2.5s, dealing <color=#2EB6FF>Electric DMG</color> and gaining 1 <color=#FFFFFF>[Fright]</color>, up to 6 <color=#FFFFFF>[Fright]</color> max. After using this skill, Drusilla and Anastella's exit countdown resets.",
+          "name": "Basic Attack: Morning Cleanup",
+          "desc": "After Rina uses an <color=#FFFFFF>EX Special Attack</color>, <color=#FFFFFF>Chain Attack</color>, or <color=#FFFFFF>Ultimate</color>, she enters the <color=#FFFFFF>Spotless</color> state for 13s. During this time, Drusilla or Anastella attacks an enemy once every 2.5s, dealing <color=#F0D12B>Physical DMG</color> and <color=#2EB6FF>Electric DMG</color>, and grants 1 stack of <color=#FFFFFF>Fright</color>, up to a maximum of 6 stacks. After using the skill, Drusilla and Anastella's exit timer resets.",
           "potential": [
             121100,
             121101,
@@ -346,8 +346,8 @@
           ]
         },
         {
-          "name": "Midnight Cleanup",
-          "desc": "When <color=#FFFFFF>[Fright]</color> reaches 6, the next time Drusilla or Anastella uses <color=#FFFFFF>[Morning Cleanup]</color>, it will consume all <color=#FFFFFF>[Fright]</color> and trigger <color=#FFFFFF>[Midnight Cleanup]</color> instead; after using this skill, reset Drusilla and Anastella's exit countdown.",
+          "name": "Basic Attack: Midnight Cleanup",
+          "desc": "When <color=#FFFFFF><Term:1000026></Term></color> reaches 6 stacks, the next <color=#FFFFFF>Basic Attack: Morning Cleanup</color> performed by Drusilla or Anastella consumes all <color=#FFFFFF>Fright</color> stacks and is replaced with <color=#FFFFFF>Basic Attack: Midnight Cleanup</color>, dealing <color=#2EB6FF>Electric DMG</color> After using the skill, Drusilla and Anastella's exit timer resets.",
           "potential": [
             121100,
             121101,
@@ -630,7 +630,7 @@
           "potential": []
         },
         {
-          "name": "Morning Cleanup",
+          "name": "Basic Attack: Morning Cleanup",
           "param": [
             {
               "name": "1st-Hit DMG Multiplier",
@@ -841,7 +841,7 @@
           ]
         },
         {
-          "name": "Midnight Cleanup",
+          "name": "Basic Attack: Midnight Cleanup",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -1161,7 +1161,7 @@
         },
         {
           "name": "EX Special Attack: Dimwit Disappearing Trick",
-          "desc": "With enough Energy, press <IconMap:Icon_SpecialReady> to activate:\nOrder Drusilla and Anastella to execute multiple downward smashes, dealing massive <color=#2EB6FF>Electric DMG</color>.\nCharacter is invulnerable while using this skill.\nA <color=#FFFFFF>[Quick Assist]</color> is triggered after using this skill.",
+          "desc": "With enough Energy, press <IconMap:Icon_SpecialReady> to activate:\nCommands Drusilla and Anastella to unleash a continuous downward smash attack, dealing massive <color=#2EB6FF>Electric DMG</color>.\nCharacter is invulnerable while using this skill.\nAfter using this skill, a <color=#FFFFFF>Quick Assist</color> is triggered.",
           "potential": []
         },
         {
@@ -1344,7 +1344,7 @@
         },
         {
           "name": "Ultimate: The Queen's Attendants",
-          "desc": "When Decibel Rating is at <color=#FFFFFF>Maximum</color>, press <IconMap:Icon_UltimateReady> to activate:\nOrder Drusilla and Anastella to spin forward, dealing massive <color=#2EB6FF>Electric DMG</color>.\nDuring this skill, Drusilla and Anastella are unable to respond to <color=#FFFFFF>[Basic Attack]</color>, <color=#FFFFFF>[Dash Attack]</color>, <color=#FFFFFF>[Special Attack]</color>, or <color=#FFFFFF>[EX Special Attack]</color> commands, but can be recalled to Rina's side through <color=#FFFFFF>[Basic Attack: Shoo, Fool!]</color>.\nUpon activating this skill, the other squad members recover 10 Energy. The next character to switch in recovers an additional 20 Energy.\nCharacter is invulnerable while using this skill.\nAfter using this skill, a <color=#FFFFFF>[Quick Assist]</color> is triggered.",
+          "desc": "When Decibel Rating is at <color=#FFFFFF>Maximum</color>, press <IconMap:Icon_UltimateReady> to activate:\nCommands Drusilla and Anastella to spin forward, dealing massive <color=#2EB6FF>Electric DMG</color>.\nDuring this skill, Drusilla and Anastella are unable to respond to <color=#FFFFFF>Basic Attack</color>, <color=#FFFFFF>Dash Attack</color>, <color=#FFFFFF>Special Attack</color>, or <color=#FFFFFF>EX Special Attack</color> commands, but can be recalled to Rina's side through <color=#FFFFFF>Basic Attack: Shoo the Fool</color>.\nUpon activating this skill, other squad members recover 10 Energy. The next character to switch in recovers an additional 20 Energy.\nCharacter is invulnerable while using this skill.\nAfter using this skill, a <color=#FFFFFF>Quick Assist</color> is triggered.",
           "potential": []
         },
         {
@@ -1527,7 +1527,7 @@
         },
         {
           "name": "Assist Follow-Up: Quadruple Meter Gavotte",
-          "desc": "Press <IconMap:Icon_Normal> after an <color=#FFFFFF>Evasive Assist</color> to activate:\nOrder Drusilla and Anastella to push forward and generate an electrical vortex, dealing <color=#2EB6FF>Electric DMG</color>;\nCan quickly chain into <color=#FFFFFF>[Enhanced Special: Fool Vanishing Magic]</color> during this skill;\nCharacter is invulnerable while using this skill.",
+          "desc": "Press <IconMap:Icon_Normal> after an <color=#FFFFFF>Evasive Assist</color> to activate:\nCommands Drusilla and Anastella to continuously advance while generating a vortex of electricity, dealing <color=#2EB6FF>Electric DMG</color>.\nWhile using this skill, you can quickly chain into <color=#FFFFFF>EX Special Attack: Dimwit Disappearing Trick</color>.\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
@@ -2007,8 +2007,8 @@
     },
     "121101": {
       "id": 121101,
-      "name": "Potential Awakening: Perfect Service",
-      "desc": "PEN Ratio increases by 1.6%; While the buff gained from <color=#FFFFFF>[Core Passive: Mini Ruination Partner]</color> is active, for every 1% of Rina's own PEN Ratio, the entire team's ATK and DEF increase by <color=#2BAD00>3</color> and <color=#2BAD00>2.5</color> respectively, up to a maximum of 630 ATK and 525 DEF.",
+      "name": "Awakened Potential: Perfect Service",
+      "desc": "PEN Ratio increases by 1.6%; while the buff gained from <color=#FFFFFF>[Core Passive: Mini Destruction Partner]</color> is active, for every 1% of Rina's PEN Ratio, all squad members gain <color=#2BAD00>3</color> ATK and <color=#2BAD00>2.5</color> DEF, up to a maximum of 576 ATK and 468 DEF.",
       "image": "Rina",
       "level_show_name": "Big Cleanup II",
       "level": 2,
@@ -2025,8 +2025,8 @@
     },
     "121102": {
       "id": 121102,
-      "name": "Potential Awakening: Perfect Service",
-      "desc": "PEN Ratio increases by 1.6%; While the buff from <color=#FFFFFF>[Core Passive: Mini Ruination Partner]</color> is active, for every 1% of Rina's own PEN Ratio, the entire team's ATK and DEF increase by <color=#2BAD00>4.2</color> and <color=#2BAD00>3.5</color> respectively, up to a maximum of 630 ATK and 525 DEF.",
+      "name": "Awakened Potential: Perfect Service",
+      "desc": "PEN Ratio increases by 1.6%; while the buff gained from <color=#FFFFFF>[Core Passive: Mini Destruction Partner]</color> is active, for every 1% of Rina's PEN Ratio, all squad members gain <color=#2BAD00>4.2</color> ATK and <color=#2BAD00>3.5</color> DEF, up to a maximum of 576 ATK and 468 DEF.",
       "image": "Rina",
       "level_show_name": "Big Cleanup III",
       "level": 3,
@@ -2043,8 +2043,8 @@
     },
     "121103": {
       "id": 121103,
-      "name": "Potential Awakening: Perfect Service",
-      "desc": "PEN Ratio increases by 1.6%; While the buff obtained from <color=#FFFFFF>[Core Passive: Mini Ruination Partner]</color> is active, for every 1% of Rina's own PEN Ratio, the entire team's ATK and DEF increase by <color=#2BAD00>5.4</color> and <color=#2BAD00>4.5</color> respectively, up to a maximum of 630 ATK and 525 DEF.",
+      "name": "Awakened Potential: Perfect Service",
+      "desc": "PEN Ratio increases by 1.6%; while the buff gained from <color=#FFFFFF>[Core Passive: Mini Destruction Partner]</color> is active, for every 1% of Rina's PEN Ratio, all squad members gain <color=#2BAD00>5.5</color> ATK and <color=#2BAD00>4.5</color> DEF, up to a maximum of 576 ATK and 468 DEF.",
       "image": "Rina",
       "level_show_name": "Big Cleanup IV",
       "level": 4,
@@ -2061,8 +2061,8 @@
     },
     "121104": {
       "id": 121104,
-      "name": "Potential Awakening: Perfect Service",
-      "desc": "PEN Ratio increases by 1.6%; While the buff gained from <color=#FFFFFF>[Core Passive: Mini Ruination Partner]</color> is active, for every 1% of Rina's own PEN Ratio, the entire team's ATK and DEF increase by <color=#2BAD00>6.6</color> and <color=#2BAD00>5.5</color> respectively, up to a maximum of 630 ATK and 525 DEF.",
+      "name": "Awakened Potential: Perfect Service",
+      "desc": "PEN Ratio increases by 1.6%; while the buff gained from <color=#FFFFFF>[Core Passive: Mini Destruction Partner]</color> is active, for every 1% of Rina's PEN Ratio, all squad members gain <color=#2BAD00>6.7</color> ATK and <color=#2BAD00>5.5</color> DEF, up to a maximum of 576 ATK and 468 DEF.",
       "image": "Rina",
       "level_show_name": "Big Cleanup V",
       "level": 5,
@@ -2079,8 +2079,8 @@
     },
     "121105": {
       "id": 121105,
-      "name": "Potential Awakening: Perfect Service",
-      "desc": "PEN Ratio increases by 1.6%; While the buff gained from <color=#FFFFFF>[Core Passive: Mini Ruination Partner]</color> is active, for every 1% of Rina's own PEN Ratio, the entire team's ATK and DEF increase by <color=#2BAD00>7.8</color> and <color=#2BAD00>6.5</color> respectively, up to a maximum of 630 ATK and 525 DEF.",
+      "name": "Awakened Potential: Perfect Service",
+      "desc": "PEN Ratio increases by 1.6%; while the buff gained from <color=#FFFFFF>[Core Passive: Mini Destruction Partner]</color> is active, for every 1% of Rina's PEN Ratio, all squad members gain <color=#2BAD00>8</color> ATK and <color=#2BAD00>6.5</color> DEF, up to a maximum of 576 ATK and 468 DEF.",
       "image": "Rina",
       "level_show_name": "Big Cleanup VI",
       "level": 6,

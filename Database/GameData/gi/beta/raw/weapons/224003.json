@@ -1,6 +1,6 @@
 {
   "name": "Balsag's Sunwheel",
-  "desc": "",
+  "desc": "A grenade launcher that can cycle between Pyro, Hydro, and Cryo as the current grenade element.",
   "weapon_type": "ITEM_TPS_WEAPON",
   "rarity": 4,
   "icon": "UI_EquipIcon_GrenadeLauncher_Ignis",

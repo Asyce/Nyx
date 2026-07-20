@@ -34,7 +34,6 @@
         "Ice",
         "Electric",
         "Ether",
-        "Lumiflux",
         "Wind"
       ]
     },
@@ -2877,6 +2876,2825 @@
   ],
   "roster": [
     {
+      "id": "zzz-lycaon",
+      "n": "Lycaon",
+      "localizedNames": {
+        "en": "Lycaon",
+        "zh": "\u83b1\u5361\u6069",
+        "ja": "\u30e9\u30a4\u30ab\u30f3",
+        "ko": "\ub9ac\uce74\uc628"
+      },
+      "title": "Thank You For Requesting Me",
+      "slug": "lycaon",
+      "release": 1720051200000,
+      "releasePatch": "1.0",
+      "updated": 1784246400000,
+      "sourceOrder": 0,
+      "voiceActors": {
+        "english": "imdb:nm11814554|Will de Renzy-Martin",
+        "japanese": "Chikahiro Kobayashi|Kobayashi Chikahiro (\u5c0f\u6797 \u89aa\u5f18)",
+        "chinese": "https://zh.moegirl.org.cn/\u738b\u5b87\u822a|Wang Yuhang (\u738b\u5b87\u822a)",
+        "korean": "ko:\uc7a5\ubbfc\ud601|Jang Min-hyeok (\uc7a5\ubbfc\ud601)"
+      },
+      "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle18.webp",
+      "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole18.webp",
+      "card": "../../Database/Prydwen/zzz/assets/characters/lycaon-e706e87c67e0.webp",
+      "signatureWeapon": {
+        "id": "14116",
+        "name": "Blazing Laurel",
+        "type": "Stun",
+        "educated": false
+      },
+      "signatureWeaponId": "14116",
+      "signatureWeaponName": "Blazing Laurel",
+      "status": "live",
+      "labels": [],
+      "r": "S",
+      "el": "Ice",
+      "spec": "Stun",
+      "tag": "Victoria Housekeeping Co.",
+      "baseStats": {
+        "level1": {
+          "hp": 677,
+          "atk": 105,
+          "def": 49,
+          "critRate": 0.05,
+          "critDmg": 0.5,
+          "impact": 119,
+          "anomalyProficiency": 91,
+          "anomalyMastery": 90
+        },
+        "max": {
+          "level": 60,
+          "hp": 8416.29,
+          "atk": 653.59,
+          "def": 606.6,
+          "critRate": 0.05,
+          "critDmg": 0.5,
+          "impact": 119,
+          "anomalyProficiency": 91,
+          "anomalyMastery": 90
+        }
+      },
+      "facts": {
+        "fullName": "Von Lycaon",
+        "faction": "Victoria Housekeeping Co.",
+        "birthday": "October 4",
+        "title": "Thank You For Requesting Me"
+      },
+      "skillIcons": [
+        "../../Database/GameData/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/GameData/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/GameData/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/GameData/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/GameData/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
+      "kit": {
+        "source": "Game data",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Moon Hunter",
+                "type": "Basic",
+                "desc": "Press to activate:\nUnleashes up to 5 strikes in front, dealing Physical DMG.\nHold down to charge up, increasing the power of the attack and dealing Ice DMG.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "1st-Hit DMG Multiplier",
+                        "values": [
+                          "29.2%",
+                          "31.9%",
+                          "34.6%",
+                          "37.3%",
+                          "40%",
+                          "42.7%",
+                          "45.4%",
+                          "48.1%",
+                          "50.8%",
+                          "53.5%",
+                          "56.2%",
+                          "58.9%"
+                        ]
+                      },
+                      {
+                        "label": "1st-Hit Charged Attack DMG Multiplier",
+                        "values": [
+                          "37.1%",
+                          "40.5%",
+                          "43.9%",
+                          "47.3%",
+                          "50.7%",
+                          "54.1%",
+                          "57.5%",
+                          "60.9%",
+                          "64.3%",
+                          "67.7%",
+                          "71.1%",
+                          "74.5%"
+                        ]
+                      },
+                      {
+                        "label": "2nd-Hit DMG Multiplier",
+                        "values": [
+                          "34.9%",
+                          "38.1%",
+                          "41.3%",
+                          "44.5%",
+                          "47.7%",
+                          "50.9%",
+                          "54.1%",
+                          "57.3%",
+                          "60.5%",
+                          "63.7%",
+                          "66.9%",
+                          "70.1%"
+                        ]
+                      },
+                      {
+                        "label": "2nd-Hit Charged Attack DMG Multiplier",
+                        "values": [
+                          "56.4%",
+                          "61.6%",
+                          "66.8%",
+                          "72%",
+                          "77.2%",
+                          "82.4%",
+                          "87.6%",
+                          "92.8%",
+                          "98%",
+                          "103.2%",
+                          "108.4%",
+                          "113.6%"
+                        ]
+                      },
+                      {
+                        "label": "3rd-Hit DMG Multiplier",
+                        "values": [
+                          "58.4%",
+                          "63.8%",
+                          "69.2%",
+                          "74.6%",
+                          "80%",
+                          "85.4%",
+                          "90.8%",
+                          "96.2%",
+                          "101.6%",
+                          "107%",
+                          "112.4%",
+                          "117.8%"
+                        ]
+                      },
+                      {
+                        "label": "3rd-Hit Charged Attack DMG Multiplier",
+                        "values": [
+                          "99.5%",
+                          "108.6%",
+                          "117.7%",
+                          "126.8%",
+                          "135.9%",
+                          "145%",
+                          "154.1%",
+                          "163.2%",
+                          "172.3%",
+                          "181.4%",
+                          "190.5%",
+                          "199.6%"
+                        ]
+                      },
+                      {
+                        "label": "4th-Hit DMG Multiplier",
+                        "values": [
+                          "152%",
+                          "165.9%",
+                          "179.8%",
+                          "193.7%",
+                          "207.6%",
+                          "221.5%",
+                          "235.4%",
+                          "249.3%",
+                          "263.2%",
+                          "277.1%",
+                          "291%",
+                          "304.9%"
+                        ]
+                      },
+                      {
+                        "label": "4th-Hit Charged Attack DMG Multiplier",
+                        "values": [
+                          "210.9%",
+                          "230.1%",
+                          "249.3%",
+                          "268.5%",
+                          "287.7%",
+                          "306.9%",
+                          "326.1%",
+                          "345.3%",
+                          "364.5%",
+                          "383.7%",
+                          "402.9%",
+                          "422.1%"
+                        ]
+                      },
+                      {
+                        "label": "5th-Hit DMG Multiplier",
+                        "values": [
+                          "180.7%",
+                          "197.2%",
+                          "213.7%",
+                          "230.2%",
+                          "246.7%",
+                          "263.2%",
+                          "279.7%",
+                          "296.2%",
+                          "312.7%",
+                          "329.2%",
+                          "345.7%",
+                          "362.2%"
+                        ]
+                      },
+                      {
+                        "label": "5th-Hit Level-1 Charged Attack DMG Multiplier",
+                        "values": [
+                          "277.6%",
+                          "302.9%",
+                          "328.2%",
+                          "353.5%",
+                          "378.8%",
+                          "404.1%",
+                          "429.4%",
+                          "454.7%",
+                          "480%",
+                          "505.3%",
+                          "530.6%",
+                          "555.9%"
+                        ]
+                      },
+                      {
+                        "label": "5th-Hit Level-2 Charged Attack DMG Multiplier",
+                        "values": [
+                          "355.7%",
+                          "388.1%",
+                          "420.5%",
+                          "452.9%",
+                          "485.3%",
+                          "517.7%",
+                          "550.1%",
+                          "582.5%",
+                          "614.9%",
+                          "647.3%",
+                          "679.7%",
+                          "712.1%"
+                        ]
+                      },
+                      {
+                        "label": "1st-Hit Daze Multiplier",
+                        "values": [
+                          "14.6%",
+                          "15.3%",
+                          "16%",
+                          "16.7%",
+                          "17.4%",
+                          "18.1%",
+                          "18.8%",
+                          "19.5%",
+                          "20.2%",
+                          "20.9%",
+                          "21.6%",
+                          "22.3%"
+                        ]
+                      },
+                      {
+                        "label": "1st-Hit Charged Daze Multiplier",
+                        "values": [
+                          "12.1%",
+                          "12.7%",
+                          "13.3%",
+                          "13.9%",
+                          "14.5%",
+                          "15.1%",
+                          "15.7%",
+                          "16.3%",
+                          "16.9%",
+                          "17.5%",
+                          "18.1%",
+                          "18.7%"
+                        ]
+                      },
+                      {
+                        "label": "2nd-Hit Daze Multiplier",
+                        "values": [
+                          "30.3%",
+                          "31.7%",
+                          "33.1%",
+                          "34.5%",
+                          "35.9%",
+                          "37.3%",
+                          "38.7%",
+                          "40.1%",
+                          "41.5%",
+                          "42.9%",
+                          "44.3%",
+                          "45.7%"
+                        ]
+                      },
+                      {
+                        "label": "2nd-Hit Charged Daze Multiplier",
+                        "values": [
+                          "32.9%",
+                          "34.4%",
+                          "35.9%",
+                          "37.4%",
+                          "38.9%",
+                          "40.4%",
+                          "41.9%",
+                          "43.4%",
+                          "44.9%",
+                          "46.4%",
+                          "47.9%",
+                          "49.4%"
+                        ]
+                      },
+                      {
+                        "label": "3rd-Hit Daze Multiplier",
+                        "values": [
+                          "45.6%",
+                          "47.7%",
+                          "49.8%",
+                          "51.9%",
+                          "54%",
+                          "56.1%",
+                          "58.2%",
+                          "60.3%",
+                          "62.4%",
+                          "64.5%",
+                          "66.6%",
+                          "68.7%"
+                        ]
+                      },
+                      {
+                        "label": "3rd-Hit Charged Daze Multiplier",
+                        "values": [
+                          "53.7%",
+                          "56.2%",
+                          "58.7%",
+                          "61.2%",
+                          "63.7%",
+                          "66.2%",
+                          "68.7%",
+                          "71.2%",
+                          "73.7%",
+                          "76.2%",
+                          "78.7%",
+                          "81.2%"
+                        ]
+                      },
+                      {
+                        "label": "4th-Hit Daze Multiplier",
+                        "values": [
+                          "112%",
+                          "117.1%",
+                          "122.2%",
+                          "127.3%",
+                          "132.4%",
+                          "137.5%",
+                          "142.6%",
+                          "147.7%",
+                          "152.8%",
+                          "157.9%",
+                          "163%",
+                          "168.1%"
+                        ]
+                      },
+                      {
+                        "label": "4th-Hit Charged Daze Multiplier",
+                        "values": [
+                          "107.1%",
+                          "112%",
+                          "116.9%",
+                          "121.8%",
+                          "126.7%",
+                          "131.6%",
+                          "136.5%",
+                          "141.4%",
+                          "146.3%",
+                          "151.2%",
+                          "156.1%",
+                          "161%"
+                        ]
+                      },
+                      {
+                        "label": "5th-Hit Daze Multiplier",
+                        "values": [
+                          "147.7%",
+                          "154.5%",
+                          "161.3%",
+                          "168.1%",
+                          "174.9%",
+                          "181.7%",
+                          "188.5%",
+                          "195.3%",
+                          "202.1%",
+                          "208.9%",
+                          "215.7%",
+                          "222.5%"
+                        ]
+                      },
+                      {
+                        "label": "5th-Hit Level-1 Charged Daze Multiplier",
+                        "values": [
+                          "163.1%",
+                          "170.6%",
+                          "178.1%",
+                          "185.6%",
+                          "193.1%",
+                          "200.6%",
+                          "208.1%",
+                          "215.6%",
+                          "223.1%",
+                          "230.6%",
+                          "238.1%",
+                          "245.6%"
+                        ]
+                      },
+                      {
+                        "label": "5th-Hit Level-2 Charged Daze Multiplier",
+                        "values": [
+                          "205.6%",
+                          "215%",
+                          "224.4%",
+                          "233.8%",
+                          "243.2%",
+                          "252.6%",
+                          "262%",
+                          "271.4%",
+                          "280.8%",
+                          "290.2%",
+                          "299.6%",
+                          "309%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Dodge: Suitable Positioning",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Keep it Clean",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nSlides forward, launching a series of strikes in front, dealing Physical DMG.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "47.3%",
+                          "51.6%",
+                          "55.9%",
+                          "60.2%",
+                          "64.5%",
+                          "68.8%",
+                          "73.1%",
+                          "77.4%",
+                          "81.7%",
+                          "86%",
+                          "90.3%",
+                          "94.6%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "23.7%",
+                          "24.8%",
+                          "25.9%",
+                          "27%",
+                          "28.1%",
+                          "29.2%",
+                          "30.3%",
+                          "31.4%",
+                          "32.5%",
+                          "33.6%",
+                          "34.7%",
+                          "35.8%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Dodge Counter: Etiquette Manual",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nStrikes enemies in front, dealing Ice DMG.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "187%",
+                          "204%",
+                          "221%",
+                          "238%",
+                          "255%",
+                          "272%",
+                          "289%",
+                          "306%",
+                          "323%",
+                          "340%",
+                          "357%",
+                          "374%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "168.1%",
+                          "175.8%",
+                          "183.5%",
+                          "191.2%",
+                          "198.9%",
+                          "206.6%",
+                          "214.3%",
+                          "222%",
+                          "229.7%",
+                          "237.4%",
+                          "245.1%",
+                          "252.8%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Quick Assist: Wolf Pack",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nStrikes enemies in front, dealing Ice DMG.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "63.1%",
+                          "68.9%",
+                          "74.7%",
+                          "80.5%",
+                          "86.3%",
+                          "92.1%",
+                          "97.9%",
+                          "103.7%",
+                          "109.5%",
+                          "115.3%",
+                          "121.1%",
+                          "126.9%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "63.1%",
+                          "66%",
+                          "68.9%",
+                          "71.8%",
+                          "74.7%",
+                          "77.6%",
+                          "80.5%",
+                          "83.4%",
+                          "86.3%",
+                          "89.2%",
+                          "92.1%",
+                          "95%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Defensive Assist: Disrupted Hunt",
+                "type": "Assist",
+                "desc": "When the character on field is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill.\n\nWhen the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nThis skill excels at parrying enemy attacks and reduces the consumption of Assist Points when the character is under intense attacks.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Light Defensive Daze Multiplier",
+                        "values": [
+                          "259%",
+                          "270.8%",
+                          "282.6%",
+                          "294.4%",
+                          "306.2%",
+                          "318%",
+                          "329.8%",
+                          "341.6%",
+                          "353.4%",
+                          "365.2%",
+                          "377%",
+                          "388.8%"
+                        ]
+                      },
+                      {
+                        "label": "Heavy Defensive Daze Multiplier",
+                        "values": [
+                          "327.3%",
+                          "342.2%",
+                          "357.1%",
+                          "372%",
+                          "386.9%",
+                          "401.8%",
+                          "416.7%",
+                          "431.6%",
+                          "446.5%",
+                          "461.4%",
+                          "476.3%",
+                          "491.2%"
+                        ]
+                      },
+                      {
+                        "label": "Chain Defensive Daze Multiplier",
+                        "values": [
+                          "159.3%",
+                          "166.6%",
+                          "173.9%",
+                          "181.2%",
+                          "188.5%",
+                          "195.8%",
+                          "203.1%",
+                          "210.4%",
+                          "217.7%",
+                          "225%",
+                          "232.3%",
+                          "239.6%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Assist Follow-Up: Vengeful Counterattack",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nCreates an icicle in front, which strikes all enemies within range, dealing Ice DMG.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "288.3%",
+                          "314.6%",
+                          "340.9%",
+                          "367.2%",
+                          "393.5%",
+                          "419.8%",
+                          "446.1%",
+                          "472.4%",
+                          "498.7%",
+                          "525%",
+                          "551.3%",
+                          "577.6%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "246.8%",
+                          "258.1%",
+                          "269.4%",
+                          "280.7%",
+                          "292%",
+                          "303.3%",
+                          "314.6%",
+                          "325.9%",
+                          "337.2%",
+                          "348.5%",
+                          "359.8%",
+                          "371.1%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Assist Follow-Up: Vengeful Counterattack - Glacial Waltz",
+                "type": "Assist",
+                "desc": "Hold after a Defensive Assist to activate:\nQuickly launch multiple strikes against enemies in front, dealing Ice DMG.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "410.7%",
+                          "448.1%",
+                          "485.5%",
+                          "522.9%",
+                          "560.3%",
+                          "597.7%",
+                          "635.1%",
+                          "672.5%",
+                          "709.9%",
+                          "747.3%",
+                          "784.7%",
+                          "822.1%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "360.5%",
+                          "376.9%",
+                          "393.3%",
+                          "409.7%",
+                          "426.1%",
+                          "442.5%",
+                          "458.9%",
+                          "475.3%",
+                          "491.7%",
+                          "508.1%",
+                          "524.5%",
+                          "540.9%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Special Attack: Time to Hunt",
+                "type": "Special",
+                "desc": "Press to activate:\nUnleashes a series of strikes in front, dealing Ice DMG.\nHold down to charge up, increasing its power.\nAnti-Interrupt level is increased while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "22.8%",
+                          "24.9%",
+                          "27%",
+                          "29.1%",
+                          "31.2%",
+                          "33.3%",
+                          "35.4%",
+                          "37.5%",
+                          "39.6%",
+                          "41.7%",
+                          "43.8%",
+                          "45.9%"
+                        ]
+                      },
+                      {
+                        "label": "Charged Attack DMG Multiplier",
+                        "values": [
+                          "22.8%",
+                          "24.9%",
+                          "27%",
+                          "29.1%",
+                          "31.2%",
+                          "33.3%",
+                          "35.4%",
+                          "37.5%",
+                          "39.6%",
+                          "41.7%",
+                          "43.8%",
+                          "45.9%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "22.8%",
+                          "23.9%",
+                          "25%",
+                          "26.1%",
+                          "27.2%",
+                          "28.3%",
+                          "29.4%",
+                          "30.5%",
+                          "31.6%",
+                          "32.7%",
+                          "33.8%",
+                          "34.9%"
+                        ]
+                      },
+                      {
+                        "label": "Charged Daze Multiplier",
+                        "values": [
+                          "22.8%",
+                          "23.9%",
+                          "25%",
+                          "26.1%",
+                          "27.2%",
+                          "28.3%",
+                          "29.4%",
+                          "30.5%",
+                          "31.6%",
+                          "32.7%",
+                          "33.8%",
+                          "34.9%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "EX Special Attack: Thrill of the Hunt",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nUnleashes a series of powerful strikes in front, dealing massive Ice DMG.\nHold down to charge up, consuming Energy and enhancing the power of the attack.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "252.4%",
+                          "275.4%",
+                          "298.4%",
+                          "321.4%",
+                          "344.4%",
+                          "367.4%",
+                          "390.4%",
+                          "413.4%",
+                          "436.4%",
+                          "459.4%",
+                          "482.4%",
+                          "505.4%"
+                        ]
+                      },
+                      {
+                        "label": "Charged Attack DMG Multiplier",
+                        "values": [
+                          "252.4%",
+                          "275.4%",
+                          "298.4%",
+                          "321.4%",
+                          "344.4%",
+                          "367.4%",
+                          "390.4%",
+                          "413.4%",
+                          "436.4%",
+                          "459.4%",
+                          "482.4%",
+                          "505.4%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "211.5%",
+                          "221.2%",
+                          "230.9%",
+                          "240.6%",
+                          "250.3%",
+                          "260%",
+                          "269.7%",
+                          "279.4%",
+                          "289.1%",
+                          "298.8%",
+                          "308.5%",
+                          "318.2%"
+                        ]
+                      },
+                      {
+                        "label": "Charged Daze Multiplier",
+                        "values": [
+                          "211.5%",
+                          "221.2%",
+                          "230.9%",
+                          "240.6%",
+                          "250.3%",
+                          "260%",
+                          "269.7%",
+                          "279.4%",
+                          "289.1%",
+                          "298.8%",
+                          "308.5%",
+                          "318.2%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Chain Attack: As You Wish",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nUnleashes a series of powerful strikes at enemies in a small area in front of him, dealing massive Ice DMG.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "637.8%",
+                          "695.8%",
+                          "753.8%",
+                          "811.8%",
+                          "869.8%",
+                          "927.8%",
+                          "985.8%",
+                          "1043.8%",
+                          "1101.8%",
+                          "1159.8%",
+                          "1217.8%",
+                          "1275.8%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "218.8%",
+                          "228.8%",
+                          "238.8%",
+                          "248.8%",
+                          "258.8%",
+                          "268.8%",
+                          "278.8%",
+                          "288.8%",
+                          "298.8%",
+                          "308.8%",
+                          "318.8%",
+                          "328.8%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Ultimate: Mission Complete",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nUnleashes multiple powerful strikes at enemies in a large area, dealing massive Ice DMG.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "1694.1%",
+                          "1848.2%",
+                          "2002.3%",
+                          "2156.4%",
+                          "2310.5%",
+                          "2464.6%",
+                          "2618.7%",
+                          "2772.8%",
+                          "2926.9%",
+                          "3081%",
+                          "3235.1%",
+                          "3389.2%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "1096.6%",
+                          "1146.5%",
+                          "1196.4%",
+                          "1246.3%",
+                          "1296.2%",
+                          "1346.1%",
+                          "1396%",
+                          "1445.9%",
+                          "1495.8%",
+                          "1545.7%",
+                          "1595.6%",
+                          "1645.5%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Metallic Paws",
+                "type": "Core Passive",
+                "desc": "When Lycaon charges his Basic Attack to completion, the attack deals 80% increased Daze.\nWhen EX Special Attack: Thrill of the Hunt or Assist Follow-Up: Vengeful Counterattack hits an enemy, the target's Ice DMG RES decreases by 25% for 30s.",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "When Lycaon charges his Basic Attack to completion, the attack deals 40% increased Daze.\nWhen EX Special Attack: Thrill of the Hunt or Assist Follow-Up: Vengeful Counterattack hits an enemy, the target's Ice DMG RES decreases by 25% for 30s."
+                  },
+                  {
+                    "label": "Lv. 1",
+                    "text": "When Lycaon completes charging during a Basic Attack, or activates a Dodge Counter or Dash Attack, the Daze inflicted by the skill increases by 40%.\nWhen EX Special Attack: Thrill of the Hunt, Assist Follow-Up: Vengeful Counterattack, or Assist Follow-Up: Vengeful Counterattack - Glacial Waltz hits an enemy, the target's Ice RES is reduced by 25%, and it increases the DMG to the target from other attributes by 30% for 30s.\nUpon entering the battlefield, Lycaon gains one Encircle Prey activation chance.\nWhen Encircle Prey has available activations, hitting an enemy with Assist Follow-Up: Vengeful Counterattack - Glacial Waltz triggers the Quick Assist of the previous character in the squad. During this skill, when other squad members enter via Quick Assist, Lycaon enters the Encircle Prey state for 8s.\nWhen an elite or boss enemy becomes Stunned, 1 Encircle Prey activation chance is gained. Up to 1 Encircle Prey activation can be stored.\nWhen the Encircle Prey state ends, Lycaon automatically activates Assist Follow-Up: Vengeful Counterattack - Glacial Waltz. If the Encircle Prey state ends early, for every 1s of remaining duration, the Daze dealt by the next Assist Follow-Up: Vengeful Counterattack - Glacial Waltz increases by 6%.\nWhen the currently active character stops attacking or uses a Chain Attack or Ultimate, Lycaon will end the Encircle Prey state early.\nWhen Lycaon manually uses Assist Follow-Up: Vengeful Counterattack - Glacial Waltz, the Encircle Prey state also ends early, but Assist Follow-Up: Vengeful Counterattack - Glacial Waltz will not be automatically triggered.\nWhile the Encircle Prey state is active, Lycaon will activate Basic Attack, Dodge, Dash Attack, and Dodge Counter based on the skills used by the currently active character.\nWhen the currently active character uses a Basic Attack or EX Special Attack, Lycaon will simultaneously perform the 1st through 3rd hits of his Basic Attack.\nWhen the active character performs a Dodge or Dodge Counter, Lycaon will simultaneously perform a Dodge or Dodge Counter. After performing a Dodge Counter while in the Encircle Prey state, Lycaon can immediately follow up with the 3rd hit of his Basic Attack.\nWhile the Encircle Prey state is active, when Lycaon is not the currently active Agent, his attacks only deal DMG and Daze. While Lycaon is the currently active character, the Encircle Prey duration does not decrease."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "When Lycaon charges his Basic Attack to completion, the attack deals 46.6% increased Daze.\nWhen EX Special Attack: Thrill of the Hunt or Assist Follow-Up: Vengeful Counterattack hits an enemy, the target's Ice DMG RES decreases by 25% for 30s."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "When Lycaon completes charging during a Basic Attack, or activates a Dodge Counter or Dash Attack, the Daze inflicted by the skill increases by 46.6%.\nWhen EX Special Attack: Thrill of the Hunt, Assist Follow-Up: Vengeful Counterattack, or Assist Follow-Up: Vengeful Counterattack - Glacial Waltz hits an enemy, the target's Ice RES is reduced by 25%, and it increases the DMG to the target from other attributes by 30% for 30s.\nUpon entering the battlefield, Lycaon gains one Encircle Prey activation chance.\nWhen Encircle Prey has available activations, hitting an enemy with Assist Follow-Up: Vengeful Counterattack - Glacial Waltz triggers the Quick Assist of the previous character in the squad. During this skill, when other squad members enter via Quick Assist, Lycaon enters the Encircle Prey state for 8s.\nWhen an elite or boss enemy becomes Stunned, 1 Encircle Prey activation chance is gained. Up to 1 Encircle Prey activation can be stored.\nWhen the Encircle Prey state ends, Lycaon automatically activates Assist Follow-Up: Vengeful Counterattack - Glacial Waltz. If the Encircle Prey state ends early, for every 1s of remaining duration, the Daze dealt by the next Assist Follow-Up: Vengeful Counterattack - Glacial Waltz increases by 6%.\nWhen the currently active character stops attacking or uses a Chain Attack or Ultimate, Lycaon will end the Encircle Prey state early.\nWhen Lycaon manually uses Assist Follow-Up: Vengeful Counterattack - Glacial Waltz, the Encircle Prey state also ends early, but Assist Follow-Up: Vengeful Counterattack - Glacial Waltz will not be automatically triggered.\nWhile the Encircle Prey state is active, Lycaon will activate Basic Attack, Dodge, Dash Attack, and Dodge Counter based on the skills used by the currently active character.\nWhen the currently active character uses a Basic Attack or EX Special Attack, Lycaon will simultaneously perform the 1st through 3rd hits of his Basic Attack.\nWhen the active character performs a Dodge or Dodge Counter, Lycaon will simultaneously perform a Dodge or Dodge Counter. After performing a Dodge Counter while in the Encircle Prey state, Lycaon can immediately follow up with the 3rd hit of his Basic Attack.\nWhile the Encircle Prey state is active, when Lycaon is not the currently active Agent, his attacks only deal DMG and Daze. While Lycaon is the currently active character, the Encircle Prey duration does not decrease."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "When Lycaon charges his Basic Attack to completion, the attack deals 53.3% increased Daze.\nWhen EX Special Attack: Thrill of the Hunt or Assist Follow-Up: Vengeful Counterattack hits an enemy, the target's Ice DMG RES decreases by 25% for 30s."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "When Lycaon completes charging during a Basic Attack, or activates a Dodge Counter or Dash Attack, the Daze inflicted by the skill increases by 53.3%.\nWhen EX Special Attack: Thrill of the Hunt, Assist Follow-Up: Vengeful Counterattack, or Assist Follow-Up: Vengeful Counterattack - Glacial Waltz hits an enemy, the target's Ice RES is reduced by 25%, and it increases the DMG to the target from other attributes by 30% for 30s.\nUpon entering the battlefield, Lycaon gains one Encircle Prey activation chance.\nWhen Encircle Prey has available activations, hitting an enemy with Assist Follow-Up: Vengeful Counterattack - Glacial Waltz triggers the Quick Assist of the previous character in the squad. During this skill, when other squad members enter via Quick Assist, Lycaon enters the Encircle Prey state for 8s.\nWhen an elite or boss enemy becomes Stunned, 1 Encircle Prey activation chance is gained. Up to 1 Encircle Prey activation can be stored.\nWhen the Encircle Prey state ends, Lycaon automatically activates Assist Follow-Up: Vengeful Counterattack - Glacial Waltz. If the Encircle Prey state ends early, for every 1s of remaining duration, the Daze dealt by the next Assist Follow-Up: Vengeful Counterattack - Glacial Waltz increases by 6%.\nWhen the currently active character stops attacking or uses a Chain Attack or Ultimate, Lycaon will end the Encircle Prey state early.\nWhen Lycaon manually uses Assist Follow-Up: Vengeful Counterattack - Glacial Waltz, the Encircle Prey state also ends early, but Assist Follow-Up: Vengeful Counterattack - Glacial Waltz will not be automatically triggered.\nWhile the Encircle Prey state is active, Lycaon will activate Basic Attack, Dodge, Dash Attack, and Dodge Counter based on the skills used by the currently active character.\nWhen the currently active character uses a Basic Attack or EX Special Attack, Lycaon will simultaneously perform the 1st through 3rd hits of his Basic Attack.\nWhen the active character performs a Dodge or Dodge Counter, Lycaon will simultaneously perform a Dodge or Dodge Counter. After performing a Dodge Counter while in the Encircle Prey state, Lycaon can immediately follow up with the 3rd hit of his Basic Attack.\nWhile the Encircle Prey state is active, when Lycaon is not the currently active Agent, his attacks only deal DMG and Daze. While Lycaon is the currently active character, the Encircle Prey duration does not decrease."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "When Lycaon charges his Basic Attack to completion, the attack deals 60% increased Daze.\nWhen EX Special Attack: Thrill of the Hunt or Assist Follow-Up: Vengeful Counterattack hits an enemy, the target's Ice DMG RES decreases by 25% for 30s."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "When Lycaon completes charging during a Basic Attack, or activates a Dodge Counter or Dash Attack, the Daze inflicted by the skill increases by 60%.\nWhen EX Special Attack: Thrill of the Hunt, Assist Follow-Up: Vengeful Counterattack, or Assist Follow-Up: Vengeful Counterattack - Glacial Waltz hits an enemy, the target's Ice RES is reduced by 25%, and it increases the DMG to the target from other attributes by 30% for 30s.\nUpon entering the battlefield, Lycaon gains one Encircle Prey activation chance.\nWhen Encircle Prey has available activations, hitting an enemy with Assist Follow-Up: Vengeful Counterattack - Glacial Waltz triggers the Quick Assist of the previous character in the squad. During this skill, when other squad members enter via Quick Assist, Lycaon enters the Encircle Prey state for 8s.\nWhen an elite or boss enemy becomes Stunned, 1 Encircle Prey activation chance is gained. Up to 1 Encircle Prey activation can be stored.\nWhen the Encircle Prey state ends, Lycaon automatically activates Assist Follow-Up: Vengeful Counterattack - Glacial Waltz. If the Encircle Prey state ends early, for every 1s of remaining duration, the Daze dealt by the next Assist Follow-Up: Vengeful Counterattack - Glacial Waltz increases by 6%.\nWhen the currently active character stops attacking or uses a Chain Attack or Ultimate, Lycaon will end the Encircle Prey state early.\nWhen Lycaon manually uses Assist Follow-Up: Vengeful Counterattack - Glacial Waltz, the Encircle Prey state also ends early, but Assist Follow-Up: Vengeful Counterattack - Glacial Waltz will not be automatically triggered.\nWhile the Encircle Prey state is active, Lycaon will activate Basic Attack, Dodge, Dash Attack, and Dodge Counter based on the skills used by the currently active character.\nWhen the currently active character uses a Basic Attack or EX Special Attack, Lycaon will simultaneously perform the 1st through 3rd hits of his Basic Attack.\nWhen the active character performs a Dodge or Dodge Counter, Lycaon will simultaneously perform a Dodge or Dodge Counter. After performing a Dodge Counter while in the Encircle Prey state, Lycaon can immediately follow up with the 3rd hit of his Basic Attack.\nWhile the Encircle Prey state is active, when Lycaon is not the currently active Agent, his attacks only deal DMG and Daze. While Lycaon is the currently active character, the Encircle Prey duration does not decrease."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "When Lycaon charges his Basic Attack to completion, the attack deals 66.6% increased Daze.\nWhen EX Special Attack: Thrill of the Hunt or Assist Follow-Up: Vengeful Counterattack hits an enemy, the target's Ice DMG RES decreases by 25% for 30s."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "When Lycaon completes charging during a Basic Attack, or activates a Dodge Counter or Dash Attack, the Daze inflicted by the skill increases by 66.6%.\nWhen EX Special Attack: Thrill of the Hunt, Assist Follow-Up: Vengeful Counterattack, or Assist Follow-Up: Vengeful Counterattack - Glacial Waltz hits an enemy, the target's Ice RES is reduced by 25%, and it increases the DMG to the target from other attributes by 30% for 30s.\nUpon entering the battlefield, Lycaon gains one Encircle Prey activation chance.\nWhen Encircle Prey has available activations, hitting an enemy with Assist Follow-Up: Vengeful Counterattack - Glacial Waltz triggers the Quick Assist of the previous character in the squad. During this skill, when other squad members enter via Quick Assist, Lycaon enters the Encircle Prey state for 8s.\nWhen an elite or boss enemy becomes Stunned, 1 Encircle Prey activation chance is gained. Up to 1 Encircle Prey activation can be stored.\nWhen the Encircle Prey state ends, Lycaon automatically activates Assist Follow-Up: Vengeful Counterattack - Glacial Waltz. If the Encircle Prey state ends early, for every 1s of remaining duration, the Daze dealt by the next Assist Follow-Up: Vengeful Counterattack - Glacial Waltz increases by 6%.\nWhen the currently active character stops attacking or uses a Chain Attack or Ultimate, Lycaon will end the Encircle Prey state early.\nWhen Lycaon manually uses Assist Follow-Up: Vengeful Counterattack - Glacial Waltz, the Encircle Prey state also ends early, but Assist Follow-Up: Vengeful Counterattack - Glacial Waltz will not be automatically triggered.\nWhile the Encircle Prey state is active, Lycaon will activate Basic Attack, Dodge, Dash Attack, and Dodge Counter based on the skills used by the currently active character.\nWhen the currently active character uses a Basic Attack or EX Special Attack, Lycaon will simultaneously perform the 1st through 3rd hits of his Basic Attack.\nWhen the active character performs a Dodge or Dodge Counter, Lycaon will simultaneously perform a Dodge or Dodge Counter. After performing a Dodge Counter while in the Encircle Prey state, Lycaon can immediately follow up with the 3rd hit of his Basic Attack.\nWhile the Encircle Prey state is active, when Lycaon is not the currently active Agent, his attacks only deal DMG and Daze. While Lycaon is the currently active character, the Encircle Prey duration does not decrease."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "When Lycaon charges his Basic Attack to completion, the attack deals 73.3% increased Daze.\nWhen EX Special Attack: Thrill of the Hunt or Assist Follow-Up: Vengeful Counterattack hits an enemy, the target's Ice DMG RES decreases by 25% for 30s."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "When Lycaon completes charging during a Basic Attack, or activates a Dodge Counter or Dash Attack, the Daze inflicted by the skill increases by 73.3%.\nWhen EX Special Attack: Thrill of the Hunt, Assist Follow-Up: Vengeful Counterattack, or Assist Follow-Up: Vengeful Counterattack - Glacial Waltz hits an enemy, the target's Ice RES is reduced by 25%, and it increases the DMG to the target from other attributes by 30% for 30s.\nUpon entering the battlefield, Lycaon gains one Encircle Prey activation chance.\nWhen Encircle Prey has available activations, hitting an enemy with Assist Follow-Up: Vengeful Counterattack - Glacial Waltz triggers the Quick Assist of the previous character in the squad. During this skill, when other squad members enter via Quick Assist, Lycaon enters the Encircle Prey state for 8s.\nWhen an elite or boss enemy becomes Stunned, 1 Encircle Prey activation chance is gained. Up to 1 Encircle Prey activation can be stored.\nWhen the Encircle Prey state ends, Lycaon automatically activates Assist Follow-Up: Vengeful Counterattack - Glacial Waltz. If the Encircle Prey state ends early, for every 1s of remaining duration, the Daze dealt by the next Assist Follow-Up: Vengeful Counterattack - Glacial Waltz increases by 6%.\nWhen the currently active character stops attacking or uses a Chain Attack or Ultimate, Lycaon will end the Encircle Prey state early.\nWhen Lycaon manually uses Assist Follow-Up: Vengeful Counterattack - Glacial Waltz, the Encircle Prey state also ends early, but Assist Follow-Up: Vengeful Counterattack - Glacial Waltz will not be automatically triggered.\nWhile the Encircle Prey state is active, Lycaon will activate Basic Attack, Dodge, Dash Attack, and Dodge Counter based on the skills used by the currently active character.\nWhen the currently active character uses a Basic Attack or EX Special Attack, Lycaon will simultaneously perform the 1st through 3rd hits of his Basic Attack.\nWhen the active character performs a Dodge or Dodge Counter, Lycaon will simultaneously perform a Dodge or Dodge Counter. After performing a Dodge Counter while in the Encircle Prey state, Lycaon can immediately follow up with the 3rd hit of his Basic Attack.\nWhile the Encircle Prey state is active, when Lycaon is not the currently active Agent, his attacks only deal DMG and Daze. While Lycaon is the currently active character, the Encircle Prey duration does not decrease."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "When Lycaon charges his Basic Attack to completion, the attack deals 80% increased Daze.\nWhen EX Special Attack: Thrill of the Hunt or Assist Follow-Up: Vengeful Counterattack hits an enemy, the target's Ice DMG RES decreases by 25% for 30s."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "When Lycaon completes charging during a Basic Attack, or activates a Dodge Counter or Dash Attack, the Daze inflicted by the skill increases by 80%.\nWhen EX Special Attack: Thrill of the Hunt, Assist Follow-Up: Vengeful Counterattack, or Assist Follow-Up: Vengeful Counterattack - Glacial Waltz hits an enemy, the target's Ice RES is reduced by 25%, and it increases the DMG to the target from other attributes by 30% for 30s.\nUpon entering the battlefield, Lycaon gains one Encircle Prey activation chance.\nWhen Encircle Prey has available activations, hitting an enemy with Assist Follow-Up: Vengeful Counterattack - Glacial Waltz triggers the Quick Assist of the previous character in the squad. During this skill, when other squad members enter via Quick Assist, Lycaon enters the Encircle Prey state for 8s.\nWhen an elite or boss enemy becomes Stunned, 1 Encircle Prey activation chance is gained. Up to 1 Encircle Prey activation can be stored.\nWhen the Encircle Prey state ends, Lycaon automatically activates Assist Follow-Up: Vengeful Counterattack - Glacial Waltz. If the Encircle Prey state ends early, for every 1s of remaining duration, the Daze dealt by the next Assist Follow-Up: Vengeful Counterattack - Glacial Waltz increases by 6%.\nWhen the currently active character stops attacking or uses a Chain Attack or Ultimate, Lycaon will end the Encircle Prey state early.\nWhen Lycaon manually uses Assist Follow-Up: Vengeful Counterattack - Glacial Waltz, the Encircle Prey state also ends early, but Assist Follow-Up: Vengeful Counterattack - Glacial Waltz will not be automatically triggered.\nWhile the Encircle Prey state is active, Lycaon will activate Basic Attack, Dodge, Dash Attack, and Dodge Counter based on the skills used by the currently active character.\nWhen the currently active character uses a Basic Attack or EX Special Attack, Lycaon will simultaneously perform the 1st through 3rd hits of his Basic Attack.\nWhen the active character performs a Dodge or Dodge Counter, Lycaon will simultaneously perform a Dodge or Dodge Counter. After performing a Dodge Counter while in the Encircle Prey state, Lycaon can immediately follow up with the 3rd hit of his Basic Attack.\nWhile the Encircle Prey state is active, when Lycaon is not the currently active Agent, his attacks only deal DMG and Daze. While Lycaon is the currently active character, the Encircle Prey duration does not decrease."
+                  }
+                ]
+              },
+              {
+                "name": "Additional Ability: Elegant Predator",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad shares the same Attribute or Faction:\nWhen Lycaon hits a Stunned enemy, the target's Stun DMG Multiplier increases by 35%.",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "When another character in your squad shares the same Attribute or Faction:\nWhen Lycaon hits a Stunned enemy, the target's Stun DMG Multiplier increases by 35%."
+                  },
+                  {
+                    "label": "Lv. 1",
+                    "text": "When another character in your squad is an Anomaly character or shares the same Attribute or Faction:\nWhen Lycaon hits a Stunned enemy, the target's Stun DMG Multiplier increases by 35%."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "When another character in your squad shares the same Attribute or Faction:\nWhen Lycaon hits a Stunned enemy, the target's Stun DMG Multiplier increases by 35%."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "When another character in your squad is an Anomaly character or shares the same Attribute or Faction:\nWhen Lycaon hits a Stunned enemy, the target's Stun DMG Multiplier increases by 35%."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "When another character in your squad shares the same Attribute or Faction:\nWhen Lycaon hits a Stunned enemy, the target's Stun DMG Multiplier increases by 35%."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "When another character in your squad is an Anomaly character or shares the same Attribute or Faction:\nWhen Lycaon hits a Stunned enemy, the target's Stun DMG Multiplier increases by 35%."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "When another character in your squad shares the same Attribute or Faction:\nWhen Lycaon hits a Stunned enemy, the target's Stun DMG Multiplier increases by 35%."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "When another character in your squad is an Anomaly character or shares the same Attribute or Faction:\nWhen Lycaon hits a Stunned enemy, the target's Stun DMG Multiplier increases by 35%."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "When another character in your squad shares the same Attribute or Faction:\nWhen Lycaon hits a Stunned enemy, the target's Stun DMG Multiplier increases by 35%."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "When another character in your squad is an Anomaly character or shares the same Attribute or Faction:\nWhen Lycaon hits a Stunned enemy, the target's Stun DMG Multiplier increases by 35%."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "When another character in your squad shares the same Attribute or Faction:\nWhen Lycaon hits a Stunned enemy, the target's Stun DMG Multiplier increases by 35%."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "When another character in your squad is an Anomaly character or shares the same Attribute or Faction:\nWhen Lycaon hits a Stunned enemy, the target's Stun DMG Multiplier increases by 35%."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "When another character in your squad shares the same Attribute or Faction:\nWhen Lycaon hits a Stunned enemy, the target's Stun DMG Multiplier increases by 35%."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "When another character in your squad is an Anomaly character or shares the same Attribute or Faction:\nWhen Lycaon hits a Stunned enemy, the target's Stun DMG Multiplier increases by 35%."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Full Moon Momentum",
+                "type": "Mindscape 1",
+                "desc": "When Lycaon's EX Special Attack: Thrill of the Hunt hits an enemy, the attack's Daze increases by 12%. This effect can trigger once every 8s. When he charges his EX Special Attack: Thrill of the Hunt to completion, this buff will increase by an additional 10%."
+              },
+              {
+                "name": "Energy Feedback",
+                "type": "Mindscape 2",
+                "desc": "When Stunning an enemy or triggering a squad member's Chain Attack, Lycaon gains 5 Energy. Can trigger once every 1s."
+              },
+              {
+                "name": "Attendant Training",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Graceful Demeanor",
+                "type": "Mindscape 4",
+                "desc": "If Lycaon is attacked while using a Basic Attack or Special Attack, he will immediately gain a Shield equal to 7.5% of his Max HP, lasting for 15s.\nDuring the Shield's duration, his Anti-Interrupt level is increased. This effect can trigger once every 15s."
+              },
+              {
+                "name": "Alpha Nature",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Ruthless Hunter",
+                "type": "Mindscape 6",
+                "desc": "When a charged attack hits an enemy, the target suffers 10% increased DMG from Lycaon, stacking up to 5 times and lasting 12s. Only one stack can be gained per skill use, and repeated triggers reset the duration."
+              }
+            ]
+          }
+        ]
+      },
+      "req": {
+        "ascension": [
+          {
+            "id": "100212",
+            "name": "Basic Stun Certification Seal",
+            "qty": 4,
+            "rar": 1,
+            "kind": "gem",
+            "icon": "../../Database/GameData/zzz/assets/items/AvatarRankStun01.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100222",
+            "name": "Advanced Stun Certification Seal",
+            "qty": 32,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/GameData/zzz/assets/items/AvatarRankStun02.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100232",
+            "name": "Buster Certification Seal",
+            "qty": 30,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/GameData/zzz/assets/items/AvatarRankStun03.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          }
+        ],
+        "talents": [
+          {
+            "id": "100112",
+            "name": "Basic Freeze Chip",
+            "qty": 25,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100122",
+            "name": "Advanced Freeze Chip",
+            "qty": 75,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100132",
+            "name": "Specialized Freeze Chip",
+            "qty": 250,
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100941",
+            "name": "Hamster Cage Pass",
+            "qty": 5,
+            "rar": 5,
+            "kind": "crown",
+            "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
+            "source": "Event / New Eridu City Fund",
+            "sourceDetails": [
+              {
+                "name": "Event / New Eridu City Fund"
+              }
+            ]
+          },
+          {
+            "id": "110003",
+            "name": "Finale Dance Shoes",
+            "qty": 9,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss003.webp",
+            "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss003.webp",
+            "source": "Twin Marionettes",
+            "sourceDetails": [
+              {
+                "name": "Twin Marionettes",
+                "icon": "../../Database/GameData/zzz/assets/monsters/Monster_Marionette_Twins.webp"
+              }
+            ]
+          },
+          {
+            "id": "110503",
+            "name": "Higher Dimensional Data: Ethereal Pursuit",
+            "qty": 60,
+            "rar": 4,
+            "kind": "boss",
+            "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss003.webp",
+            "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss003.webp",
+            "source": "Notorious Armored Hati / Expert Challenge",
+            "sourceDetails": [
+              {
+                "name": "Notorious - Armored Hati",
+                "icon": "../../Database/GameData/zzz/assets/monsters/Monster_HatiArmoredBoss.webp"
+              },
+              {
+                "name": "Expert Challenge"
+              }
+            ]
+          }
+        ],
+        "talentStages": [
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100112",
+                  "name": "Basic Freeze Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100112",
+                  "name": "Basic Freeze Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100112",
+                  "name": "Basic Freeze Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100112",
+                  "name": "Basic Freeze Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100112",
+                  "name": "Basic Freeze Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100112",
+                  "name": "Basic Freeze Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100112",
+                  "name": "Basic Freeze Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100112",
+                  "name": "Basic Freeze Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100112",
+                  "name": "Basic Freeze Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100112",
+                  "name": "Basic Freeze Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 5000,
+              "items": []
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "110503",
+                  "name": "Higher Dimensional Data: Ethereal Pursuit",
+                  "qty": 2,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss003.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss003.webp",
+                  "source": "Notorious Armored Hati / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Notorious - Armored Hati",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_HatiArmoredBoss.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 28000,
+              "items": [
+                {
+                  "id": "110503",
+                  "name": "Higher Dimensional Data: Ethereal Pursuit",
+                  "qty": 4,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss003.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss003.webp",
+                  "source": "Notorious Armored Hati / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Notorious - Armored Hati",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_HatiArmoredBoss.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 60000,
+              "items": [
+                {
+                  "id": "110003",
+                  "name": "Finale Dance Shoes",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss003.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss003.webp",
+                  "source": "Twin Marionettes",
+                  "sourceDetails": [
+                    {
+                      "name": "Twin Marionettes",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_Marionette_Twins.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "110503",
+                  "name": "Higher Dimensional Data: Ethereal Pursuit",
+                  "qty": 9,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss003.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss003.webp",
+                  "source": "Notorious Armored Hati / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Notorious - Armored Hati",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_HatiArmoredBoss.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 100000,
+              "items": [
+                {
+                  "id": "110003",
+                  "name": "Finale Dance Shoes",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss003.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss003.webp",
+                  "source": "Twin Marionettes",
+                  "sourceDetails": [
+                    {
+                      "name": "Twin Marionettes",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_Marionette_Twins.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "110503",
+                  "name": "Higher Dimensional Data: Ethereal Pursuit",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss003.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss003.webp",
+                  "source": "Notorious Armored Hati / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Notorious - Armored Hati",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_HatiArmoredBoss.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 200000,
+              "items": [
+                {
+                  "id": "110003",
+                  "name": "Finale Dance Shoes",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss003.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss003.webp",
+                  "source": "Twin Marionettes",
+                  "sourceDetails": [
+                    {
+                      "name": "Twin Marionettes",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_Marionette_Twins.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "110503",
+                  "name": "Higher Dimensional Data: Ethereal Pursuit",
+                  "qty": 30,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss003.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss003.webp",
+                  "source": "Notorious Armored Hati / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Notorious - Armored Hati",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_HatiArmoredBoss.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        ],
+        "ascCost": 800000,
+        "talentCost": 2905000,
+        "currency": 4105000,
+        "weapon": {
+          "name": "Blazing Laurel",
+          "icon": "../../Database/GameData/zzz/assets/w-engines/Weapon_S_1161.webp",
+          "art": "../../Database/GameData/zzz/assets/w-engines/Weapon_S_1161.webp",
+          "items": [
+            {
+              "id": "101011",
+              "name": "Stun Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/GameData/zzz/assets/items/WeaponRankStun01.webp"
+            },
+            {
+              "id": "101021",
+              "name": "Reinforced Stun Component",
+              "qty": 32,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/GameData/zzz/assets/items/WeaponRankStun02.webp"
+            },
+            {
+              "id": "101031",
+              "name": "Specialized Stun Component",
+              "qty": 30,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/GameData/zzz/assets/items/WeaponRankStun03.webp"
+            }
+          ],
+          "cost": 400000
+        }
+      },
+      "recent": 1
+    },
+    {
       "id": "zzz-norma",
       "n": "Norma",
       "localizedNames": {
@@ -2887,8 +5705,9 @@
       },
       "title": "En-Nah Time",
       "slug": "norma",
+      "release": 1783468800000,
       "releasePatch": "2.5",
-      "updated": 1783634400000,
+      "updated": 1783641600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm9332106|Madeline Dorroh",
@@ -5641,7 +8460,7 @@
       "slug": "pyrois",
       "release": 1781654400000,
       "releasePatch": "3.0",
-      "updated": 1783461600000,
+      "updated": 1783468800000,
       "sourceOrder": 0,
       "icon": "../../Database/GameData/zzz/assets/agents/icons/IconRole63.webp",
       "portraitProvenance": {
@@ -8355,7 +11174,7 @@
       "slug": "velina",
       "release": 1781654400000,
       "releasePatch": "3.0",
-      "updated": 1783461600000,
+      "updated": 1783468800000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm5966262|Rhiannon Moushall",
@@ -11012,7 +13831,7 @@
       "slug": "aria",
       "release": 1772582400000,
       "releasePatch": "2.6",
-      "updated": 1782165600000,
+      "updated": 1782172800000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm9702939|Rebecca Wang",
@@ -13710,8 +16529,7 @@
           ],
           "cost": 400000
         }
-      },
-      "recent": 1
+      }
     },
     {
       "id": "zzz-burnice",
@@ -13726,7 +16544,7 @@
       "slug": "burnice",
       "release": 1729036800000,
       "releasePatch": "1.2",
-      "updated": 1782165600000,
+      "updated": 1782172800000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm10862160|Risa Mei",
@@ -16428,8 +19246,7 @@
           ],
           "cost": 400000
         }
-      },
-      "recent": 1
+      }
     },
     {
       "id": "zzz-grace-howard",
@@ -16444,7 +19261,7 @@
       "slug": "grace-howard",
       "release": 1720051200000,
       "releasePatch": "1.0",
-      "updated": 1782165600000,
+      "updated": 1782172800000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Megan Shipman",
@@ -18964,8 +21781,7 @@
           ],
           "cost": 400000
         }
-      },
-      "recent": 1
+      }
     },
     {
       "id": "zzz-nangong-yu",
@@ -18980,7 +21796,7 @@
       "slug": "nangong-yu",
       "release": 1774310400000,
       "releasePatch": "2.7",
-      "updated": 1782165600000,
+      "updated": 1782172800000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm7835016|Michelle Marie",
@@ -21460,8 +24276,7 @@
           ],
           "cost": 400000
         }
-      },
-      "recent": 1
+      }
     },
     {
       "id": "zzz-vivian",
@@ -21476,7 +24291,7 @@
       "slug": "vivian",
       "release": 1745366400000,
       "releasePatch": "1.7",
-      "updated": 1782165600000,
+      "updated": 1782172800000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Sarah Wiedenheft",
@@ -24013,8 +26828,7 @@
           ],
           "cost": 400000
         }
-      },
-      "recent": 1
+      }
     },
     {
       "id": "zzz-orphie-and-magus",
@@ -24028,7 +26842,7 @@
       "title": "Peach-Flavored Flash Suppressor",
       "slug": "orphie-and-magus",
       "releasePatch": "2.2",
-      "updated": 1781647200000,
+      "updated": 1781654400000,
       "sourceOrder": 0,
       "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle49.webp",
       "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole49.webp",
@@ -26731,7 +29545,7 @@
       "slug": "ye-shunguang",
       "release": 1767052800000,
       "releasePatch": "2.5",
-      "updated": 1781647200000,
+      "updated": 1781654400000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Kristen McGuire",
@@ -30148,7 +32962,7 @@
       "slug": "alice",
       "release": 1754438400000,
       "releasePatch": "2.1",
-      "updated": 1781388000000,
+      "updated": 1781395200000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Diana Garnet",
@@ -32771,7 +35585,7 @@
       "slug": "astra-yao",
       "release": 1737504000000,
       "releasePatch": "1.5",
-      "updated": 1781388000000,
+      "updated": 1781395200000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm10646355|Molly Zhang",
@@ -35421,10 +38235,10 @@
       "slug": "banyue",
       "release": 1765929600000,
       "releasePatch": "2.4",
-      "updated": 1781388000000,
+      "updated": 1781395200000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "|voiceCN = https://zh.moegirl.org.cn/zh-hans/\u5218\u5317\u8fb0|Liu Beichen (\u5218\u5317\u8fb0)",
+        "english": "Christopher Sabat",
         "japanese": "Show Hayami|Hayami Sh\u014d (\u901f\u6c34 \u5968)",
         "chinese": "https://zh.moegirl.org.cn/zh-hans/\u5218\u5317\u8fb0|Liu Beichen (\u5218\u5317\u8fb0)",
         "korean": "ko:\uae40\uc0c1\ubc31|Kim Sang-baek (\uae40\uc0c1\ubc31)"
@@ -38488,7 +41302,7 @@
       "slug": "caesar",
       "release": 1727222400000,
       "releasePatch": "1.2",
-      "updated": 1781388000000,
+      "updated": 1781395200000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm3158889|Jennifer Sun Bell",
@@ -41227,7 +44041,7 @@
       "slug": "cissia",
       "release": 1776211200000,
       "releasePatch": "2.7",
-      "updated": 1781388000000,
+      "updated": 1781395200000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Erin Yvette",
@@ -43748,7 +46562,7 @@
       "slug": "dialyn",
       "release": 1764115200000,
       "releasePatch": "2.4",
-      "updated": 1781388000000,
+      "updated": 1781395200000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Jad Saxton",
@@ -46457,7 +49271,7 @@
       "slug": "ellen",
       "release": 1720051200000,
       "releasePatch": "1.0",
-      "updated": 1781388000000,
+      "updated": 1781395200000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm7374420|Giselle Fernandez",
@@ -49483,7 +52297,7 @@
       "slug": "evelyn",
       "release": 1739318400000,
       "releasePatch": "1.5",
-      "updated": 1781388000000,
+      "updated": 1781395200000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Elizabeth Maxwell",
@@ -52197,7 +55011,7 @@
       "slug": "harumasa",
       "release": 1734480000000,
       "releasePatch": "1.4",
-      "updated": 1781388000000,
+      "updated": 1781395200000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Micah Solusod",
@@ -55096,7 +57910,7 @@
       "slug": "hugo",
       "release": 1747180800000,
       "releasePatch": "1.7",
-      "updated": 1781388000000,
+      "updated": 1781395200000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm12025555|Jimmie Yamaguchi",
@@ -57795,7 +60609,7 @@
       "slug": "jane-doe",
       "release": 1725408000000,
       "releasePatch": "1.1",
-      "updated": 1781388000000,
+      "updated": 1781395200000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm7462725|Kelsey Jaffer",
@@ -60577,7 +63391,7 @@
       "slug": "ju-fufu",
       "release": 1750809600000,
       "releasePatch": "2.0",
-      "updated": 1781388000000,
+      "updated": 1781395200000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm6574991|Lindsay Sheppard",
@@ -63242,7 +66056,7 @@
       "slug": "koleda",
       "release": 1720051200000,
       "releasePatch": "1.0",
-      "updated": 1781388000000,
+      "updated": 1781395200000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm6634766|Emily Reams",
@@ -65881,7 +68695,7 @@
       "slug": "lighter",
       "release": 1732665600000,
       "releasePatch": "1.3",
-      "updated": 1781388000000,
+      "updated": 1781395200000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm8937582|Aleks Le",
@@ -68690,7 +71504,7 @@
       "slug": "lucia",
       "release": 1760486400000,
       "releasePatch": "2.3",
-      "updated": 1781388000000,
+      "updated": 1781395200000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm2917120|Nola Klop",
@@ -71351,2824 +74165,6 @@
       }
     },
     {
-      "id": "zzz-lycaon",
-      "n": "Lycaon",
-      "localizedNames": {
-        "en": "Lycaon",
-        "zh": "\u83b1\u5361\u6069",
-        "ja": "\u30e9\u30a4\u30ab\u30f3",
-        "ko": "\ub9ac\uce74\uc628"
-      },
-      "title": "Thank You For Requesting Me",
-      "slug": "lycaon",
-      "release": 1720051200000,
-      "releasePatch": "1.0",
-      "updated": 1781388000000,
-      "sourceOrder": 0,
-      "voiceActors": {
-        "english": "imdb:nm11814554|Will De Renzy-Martin",
-        "japanese": "Chikahiro Kobayashi|Kobayashi Chikahiro (\u5c0f\u6797 \u89aa\u5f18)",
-        "chinese": "https://zh.moegirl.org.cn/\u738b\u5b87\u822a|Wang Yuhang (\u738b\u5b87\u822a)",
-        "korean": "ko:\uc7a5\ubbfc\ud601|Jang Min-hyeok (\uc7a5\ubbfc\ud601)"
-      },
-      "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle18.webp",
-      "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole18.webp",
-      "card": "../../Database/Prydwen/zzz/assets/characters/lycaon-e706e87c67e0.webp",
-      "signatureWeapon": {
-        "id": "14116",
-        "name": "Blazing Laurel",
-        "type": "Stun",
-        "educated": false
-      },
-      "signatureWeaponId": "14116",
-      "signatureWeaponName": "Blazing Laurel",
-      "status": "live",
-      "labels": [],
-      "r": "S",
-      "el": "Ice",
-      "spec": "Stun",
-      "tag": "Victoria Housekeeping Co.",
-      "baseStats": {
-        "level1": {
-          "hp": 677,
-          "atk": 105,
-          "def": 49,
-          "critRate": 0.05,
-          "critDmg": 0.5,
-          "impact": 119,
-          "anomalyProficiency": 91,
-          "anomalyMastery": 90
-        },
-        "max": {
-          "level": 60,
-          "hp": 8416.29,
-          "atk": 653.59,
-          "def": 606.6,
-          "critRate": 0.05,
-          "critDmg": 0.5,
-          "impact": 119,
-          "anomalyProficiency": 91,
-          "anomalyMastery": 90
-        }
-      },
-      "facts": {
-        "fullName": "Von Lycaon",
-        "faction": "Victoria Housekeeping Co.",
-        "birthday": "October 4",
-        "title": "Thank You For Requesting Me"
-      },
-      "skillIcons": [
-        "../../Database/GameData/zzz/assets/skills/Icon_Normal.webp",
-        "../../Database/GameData/zzz/assets/skills/Icon_Evade.webp",
-        "../../Database/GameData/zzz/assets/skills/Icon_Switch.webp",
-        "../../Database/GameData/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
-        "../../Database/GameData/zzz/assets/skills/Icon_UltimateReady.webp"
-      ],
-      "kit": {
-        "source": "Game data",
-        "channel": "live",
-        "version": "3.0",
-        "sections": [
-          {
-            "title": "Skills",
-            "entries": [
-              {
-                "name": "Basic Attack: Moon Hunter",
-                "type": "Basic",
-                "desc": "Press to activate:\nUnleashes up to 5 strikes in front, dealing Physical DMG.\nHold down to charge up, increasing the power of the attack and dealing Ice DMG.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "1st-Hit DMG Multiplier",
-                        "values": [
-                          "29.2%",
-                          "31.9%",
-                          "34.6%",
-                          "37.3%",
-                          "40%",
-                          "42.7%",
-                          "45.4%",
-                          "48.1%",
-                          "50.8%",
-                          "53.5%",
-                          "56.2%",
-                          "58.9%"
-                        ]
-                      },
-                      {
-                        "label": "1st-Hit Charged Attack DMG Multiplier",
-                        "values": [
-                          "37.1%",
-                          "40.5%",
-                          "43.9%",
-                          "47.3%",
-                          "50.7%",
-                          "54.1%",
-                          "57.5%",
-                          "60.9%",
-                          "64.3%",
-                          "67.7%",
-                          "71.1%",
-                          "74.5%"
-                        ]
-                      },
-                      {
-                        "label": "2nd-Hit DMG Multiplier",
-                        "values": [
-                          "34.9%",
-                          "38.1%",
-                          "41.3%",
-                          "44.5%",
-                          "47.7%",
-                          "50.9%",
-                          "54.1%",
-                          "57.3%",
-                          "60.5%",
-                          "63.7%",
-                          "66.9%",
-                          "70.1%"
-                        ]
-                      },
-                      {
-                        "label": "2nd-Hit Charged Attack DMG Multiplier",
-                        "values": [
-                          "56.4%",
-                          "61.6%",
-                          "66.8%",
-                          "72%",
-                          "77.2%",
-                          "82.4%",
-                          "87.6%",
-                          "92.8%",
-                          "98%",
-                          "103.2%",
-                          "108.4%",
-                          "113.6%"
-                        ]
-                      },
-                      {
-                        "label": "3rd-Hit DMG Multiplier",
-                        "values": [
-                          "58.4%",
-                          "63.8%",
-                          "69.2%",
-                          "74.6%",
-                          "80%",
-                          "85.4%",
-                          "90.8%",
-                          "96.2%",
-                          "101.6%",
-                          "107%",
-                          "112.4%",
-                          "117.8%"
-                        ]
-                      },
-                      {
-                        "label": "3rd-Hit Charged Attack DMG Multiplier",
-                        "values": [
-                          "99.5%",
-                          "108.6%",
-                          "117.7%",
-                          "126.8%",
-                          "135.9%",
-                          "145%",
-                          "154.1%",
-                          "163.2%",
-                          "172.3%",
-                          "181.4%",
-                          "190.5%",
-                          "199.6%"
-                        ]
-                      },
-                      {
-                        "label": "4th-Hit DMG Multiplier",
-                        "values": [
-                          "152%",
-                          "165.9%",
-                          "179.8%",
-                          "193.7%",
-                          "207.6%",
-                          "221.5%",
-                          "235.4%",
-                          "249.3%",
-                          "263.2%",
-                          "277.1%",
-                          "291%",
-                          "304.9%"
-                        ]
-                      },
-                      {
-                        "label": "4th-Hit Charged Attack DMG Multiplier",
-                        "values": [
-                          "210.9%",
-                          "230.1%",
-                          "249.3%",
-                          "268.5%",
-                          "287.7%",
-                          "306.9%",
-                          "326.1%",
-                          "345.3%",
-                          "364.5%",
-                          "383.7%",
-                          "402.9%",
-                          "422.1%"
-                        ]
-                      },
-                      {
-                        "label": "5th-Hit DMG Multiplier",
-                        "values": [
-                          "180.7%",
-                          "197.2%",
-                          "213.7%",
-                          "230.2%",
-                          "246.7%",
-                          "263.2%",
-                          "279.7%",
-                          "296.2%",
-                          "312.7%",
-                          "329.2%",
-                          "345.7%",
-                          "362.2%"
-                        ]
-                      },
-                      {
-                        "label": "5th-Hit Level-1 Charged Attack DMG Multiplier",
-                        "values": [
-                          "277.6%",
-                          "302.9%",
-                          "328.2%",
-                          "353.5%",
-                          "378.8%",
-                          "404.1%",
-                          "429.4%",
-                          "454.7%",
-                          "480%",
-                          "505.3%",
-                          "530.6%",
-                          "555.9%"
-                        ]
-                      },
-                      {
-                        "label": "5th-Hit Level-2 Charged Attack DMG Multiplier",
-                        "values": [
-                          "355.7%",
-                          "388.1%",
-                          "420.5%",
-                          "452.9%",
-                          "485.3%",
-                          "517.7%",
-                          "550.1%",
-                          "582.5%",
-                          "614.9%",
-                          "647.3%",
-                          "679.7%",
-                          "712.1%"
-                        ]
-                      },
-                      {
-                        "label": "1st-Hit Daze Multiplier",
-                        "values": [
-                          "14.6%",
-                          "15.3%",
-                          "16%",
-                          "16.7%",
-                          "17.4%",
-                          "18.1%",
-                          "18.8%",
-                          "19.5%",
-                          "20.2%",
-                          "20.9%",
-                          "21.6%",
-                          "22.3%"
-                        ]
-                      },
-                      {
-                        "label": "1st-Hit Charged Daze Multiplier",
-                        "values": [
-                          "12.1%",
-                          "12.7%",
-                          "13.3%",
-                          "13.9%",
-                          "14.5%",
-                          "15.1%",
-                          "15.7%",
-                          "16.3%",
-                          "16.9%",
-                          "17.5%",
-                          "18.1%",
-                          "18.7%"
-                        ]
-                      },
-                      {
-                        "label": "2nd-Hit Daze Multiplier",
-                        "values": [
-                          "30.3%",
-                          "31.7%",
-                          "33.1%",
-                          "34.5%",
-                          "35.9%",
-                          "37.3%",
-                          "38.7%",
-                          "40.1%",
-                          "41.5%",
-                          "42.9%",
-                          "44.3%",
-                          "45.7%"
-                        ]
-                      },
-                      {
-                        "label": "2nd-Hit Charged Daze Multiplier",
-                        "values": [
-                          "32.9%",
-                          "34.4%",
-                          "35.9%",
-                          "37.4%",
-                          "38.9%",
-                          "40.4%",
-                          "41.9%",
-                          "43.4%",
-                          "44.9%",
-                          "46.4%",
-                          "47.9%",
-                          "49.4%"
-                        ]
-                      },
-                      {
-                        "label": "3rd-Hit Daze Multiplier",
-                        "values": [
-                          "45.6%",
-                          "47.7%",
-                          "49.8%",
-                          "51.9%",
-                          "54%",
-                          "56.1%",
-                          "58.2%",
-                          "60.3%",
-                          "62.4%",
-                          "64.5%",
-                          "66.6%",
-                          "68.7%"
-                        ]
-                      },
-                      {
-                        "label": "3rd-Hit Charged Daze Multiplier",
-                        "values": [
-                          "53.7%",
-                          "56.2%",
-                          "58.7%",
-                          "61.2%",
-                          "63.7%",
-                          "66.2%",
-                          "68.7%",
-                          "71.2%",
-                          "73.7%",
-                          "76.2%",
-                          "78.7%",
-                          "81.2%"
-                        ]
-                      },
-                      {
-                        "label": "4th-Hit Daze Multiplier",
-                        "values": [
-                          "112%",
-                          "117.1%",
-                          "122.2%",
-                          "127.3%",
-                          "132.4%",
-                          "137.5%",
-                          "142.6%",
-                          "147.7%",
-                          "152.8%",
-                          "157.9%",
-                          "163%",
-                          "168.1%"
-                        ]
-                      },
-                      {
-                        "label": "4th-Hit Charged Daze Multiplier",
-                        "values": [
-                          "107.1%",
-                          "112%",
-                          "116.9%",
-                          "121.8%",
-                          "126.7%",
-                          "131.6%",
-                          "136.5%",
-                          "141.4%",
-                          "146.3%",
-                          "151.2%",
-                          "156.1%",
-                          "161%"
-                        ]
-                      },
-                      {
-                        "label": "5th-Hit Daze Multiplier",
-                        "values": [
-                          "147.7%",
-                          "154.5%",
-                          "161.3%",
-                          "168.1%",
-                          "174.9%",
-                          "181.7%",
-                          "188.5%",
-                          "195.3%",
-                          "202.1%",
-                          "208.9%",
-                          "215.7%",
-                          "222.5%"
-                        ]
-                      },
-                      {
-                        "label": "5th-Hit Level-1 Charged Daze Multiplier",
-                        "values": [
-                          "163.1%",
-                          "170.6%",
-                          "178.1%",
-                          "185.6%",
-                          "193.1%",
-                          "200.6%",
-                          "208.1%",
-                          "215.6%",
-                          "223.1%",
-                          "230.6%",
-                          "238.1%",
-                          "245.6%"
-                        ]
-                      },
-                      {
-                        "label": "5th-Hit Level-2 Charged Daze Multiplier",
-                        "values": [
-                          "205.6%",
-                          "215%",
-                          "224.4%",
-                          "233.8%",
-                          "243.2%",
-                          "252.6%",
-                          "262%",
-                          "271.4%",
-                          "280.8%",
-                          "290.2%",
-                          "299.6%",
-                          "309%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Dodge: Suitable Positioning",
-                "type": "Dodge",
-                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
-              },
-              {
-                "name": "Dash Attack: Keep it Clean",
-                "type": "Dodge",
-                "desc": "Press during a dodge to activate:\nSlides forward, launching a series of strikes in front, dealing Physical DMG.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "47.3%",
-                          "51.6%",
-                          "55.9%",
-                          "60.2%",
-                          "64.5%",
-                          "68.8%",
-                          "73.1%",
-                          "77.4%",
-                          "81.7%",
-                          "86%",
-                          "90.3%",
-                          "94.6%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "23.7%",
-                          "24.8%",
-                          "25.9%",
-                          "27%",
-                          "28.1%",
-                          "29.2%",
-                          "30.3%",
-                          "31.4%",
-                          "32.5%",
-                          "33.6%",
-                          "34.7%",
-                          "35.8%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Dodge Counter: Etiquette Manual",
-                "type": "Dodge",
-                "desc": "Press during a Perfect Dodge to activate:\nStrikes enemies in front, dealing Ice DMG.\nCharacter is invulnerable while using this skill.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "187%",
-                          "204%",
-                          "221%",
-                          "238%",
-                          "255%",
-                          "272%",
-                          "289%",
-                          "306%",
-                          "323%",
-                          "340%",
-                          "357%",
-                          "374%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "168.1%",
-                          "175.8%",
-                          "183.5%",
-                          "191.2%",
-                          "198.9%",
-                          "206.6%",
-                          "214.3%",
-                          "222%",
-                          "229.7%",
-                          "237.4%",
-                          "245.1%",
-                          "252.8%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Quick Assist: Wolf Pack",
-                "type": "Assist",
-                "desc": "When the active character is launched, press to activate:\nStrikes enemies in front, dealing Ice DMG.\nCharacter is invulnerable while using this skill.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "63.1%",
-                          "68.9%",
-                          "74.7%",
-                          "80.5%",
-                          "86.3%",
-                          "92.1%",
-                          "97.9%",
-                          "103.7%",
-                          "109.5%",
-                          "115.3%",
-                          "121.1%",
-                          "126.9%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "63.1%",
-                          "66%",
-                          "68.9%",
-                          "71.8%",
-                          "74.7%",
-                          "77.6%",
-                          "80.5%",
-                          "83.4%",
-                          "86.3%",
-                          "89.2%",
-                          "92.1%",
-                          "95%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Defensive Assist: Disrupted Hunt",
-                "type": "Assist",
-                "desc": "When the character on field is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill.\n\nWhen the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nThis skill excels at parrying enemy attacks and reduces the consumption of Assist Points when the character is under intense attacks.\nCharacter is invulnerable while using this skill.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "Light Defensive Daze Multiplier",
-                        "values": [
-                          "259%",
-                          "270.8%",
-                          "282.6%",
-                          "294.4%",
-                          "306.2%",
-                          "318%",
-                          "329.8%",
-                          "341.6%",
-                          "353.4%",
-                          "365.2%",
-                          "377%",
-                          "388.8%"
-                        ]
-                      },
-                      {
-                        "label": "Heavy Defensive Daze Multiplier",
-                        "values": [
-                          "327.3%",
-                          "342.2%",
-                          "357.1%",
-                          "372%",
-                          "386.9%",
-                          "401.8%",
-                          "416.7%",
-                          "431.6%",
-                          "446.5%",
-                          "461.4%",
-                          "476.3%",
-                          "491.2%"
-                        ]
-                      },
-                      {
-                        "label": "Chain Defensive Daze Multiplier",
-                        "values": [
-                          "159.3%",
-                          "166.6%",
-                          "173.9%",
-                          "181.2%",
-                          "188.5%",
-                          "195.8%",
-                          "203.1%",
-                          "210.4%",
-                          "217.7%",
-                          "225%",
-                          "232.3%",
-                          "239.6%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Assist Follow-Up: Vengeful Counterattack",
-                "type": "Assist",
-                "desc": "Press after a Defensive Assist to activate:\nCreates an icicle in front, which strikes all enemies within range, dealing Ice DMG.\nCharacter is invulnerable while using this skill.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "288.3%",
-                          "314.6%",
-                          "340.9%",
-                          "367.2%",
-                          "393.5%",
-                          "419.8%",
-                          "446.1%",
-                          "472.4%",
-                          "498.7%",
-                          "525%",
-                          "551.3%",
-                          "577.6%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "246.8%",
-                          "258.1%",
-                          "269.4%",
-                          "280.7%",
-                          "292%",
-                          "303.3%",
-                          "314.6%",
-                          "325.9%",
-                          "337.2%",
-                          "348.5%",
-                          "359.8%",
-                          "371.1%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Assist Follow-Up: Vengeful Counterattack - Glacial Waltz",
-                "type": "Assist",
-                "desc": "Hold after a Defensive Assist to activate:\nQuickly launch multiple strikes against enemies in front, dealing Ice DMG.\nCharacter is invulnerable while using this skill.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "410.7%",
-                          "448.1%",
-                          "485.5%",
-                          "522.9%",
-                          "560.3%",
-                          "597.7%",
-                          "635.1%",
-                          "672.5%",
-                          "709.9%",
-                          "747.3%",
-                          "784.7%",
-                          "822.1%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "360.5%",
-                          "376.9%",
-                          "393.3%",
-                          "409.7%",
-                          "426.1%",
-                          "442.5%",
-                          "458.9%",
-                          "475.3%",
-                          "491.7%",
-                          "508.1%",
-                          "524.5%",
-                          "540.9%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Special Attack: Time to Hunt",
-                "type": "Special",
-                "desc": "Press to activate:\nUnleashes a series of strikes in front, dealing Ice DMG.\nHold down to charge up, increasing its power.\nAnti-Interrupt level is increased while using this skill.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "22.8%",
-                          "24.9%",
-                          "27%",
-                          "29.1%",
-                          "31.2%",
-                          "33.3%",
-                          "35.4%",
-                          "37.5%",
-                          "39.6%",
-                          "41.7%",
-                          "43.8%",
-                          "45.9%"
-                        ]
-                      },
-                      {
-                        "label": "Charged Attack DMG Multiplier",
-                        "values": [
-                          "22.8%",
-                          "24.9%",
-                          "27%",
-                          "29.1%",
-                          "31.2%",
-                          "33.3%",
-                          "35.4%",
-                          "37.5%",
-                          "39.6%",
-                          "41.7%",
-                          "43.8%",
-                          "45.9%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "22.8%",
-                          "23.9%",
-                          "25%",
-                          "26.1%",
-                          "27.2%",
-                          "28.3%",
-                          "29.4%",
-                          "30.5%",
-                          "31.6%",
-                          "32.7%",
-                          "33.8%",
-                          "34.9%"
-                        ]
-                      },
-                      {
-                        "label": "Charged Daze Multiplier",
-                        "values": [
-                          "22.8%",
-                          "23.9%",
-                          "25%",
-                          "26.1%",
-                          "27.2%",
-                          "28.3%",
-                          "29.4%",
-                          "30.5%",
-                          "31.6%",
-                          "32.7%",
-                          "33.8%",
-                          "34.9%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "EX Special Attack: Thrill of the Hunt",
-                "type": "Special",
-                "desc": "With enough Energy, press to activate:\nUnleashes a series of powerful strikes in front, dealing massive Ice DMG.\nHold down to charge up, consuming Energy and enhancing the power of the attack.\nCharacter is invulnerable while using this skill.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "252.4%",
-                          "275.4%",
-                          "298.4%",
-                          "321.4%",
-                          "344.4%",
-                          "367.4%",
-                          "390.4%",
-                          "413.4%",
-                          "436.4%",
-                          "459.4%",
-                          "482.4%",
-                          "505.4%"
-                        ]
-                      },
-                      {
-                        "label": "Charged Attack DMG Multiplier",
-                        "values": [
-                          "252.4%",
-                          "275.4%",
-                          "298.4%",
-                          "321.4%",
-                          "344.4%",
-                          "367.4%",
-                          "390.4%",
-                          "413.4%",
-                          "436.4%",
-                          "459.4%",
-                          "482.4%",
-                          "505.4%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "211.5%",
-                          "221.2%",
-                          "230.9%",
-                          "240.6%",
-                          "250.3%",
-                          "260%",
-                          "269.7%",
-                          "279.4%",
-                          "289.1%",
-                          "298.8%",
-                          "308.5%",
-                          "318.2%"
-                        ]
-                      },
-                      {
-                        "label": "Charged Daze Multiplier",
-                        "values": [
-                          "211.5%",
-                          "221.2%",
-                          "230.9%",
-                          "240.6%",
-                          "250.3%",
-                          "260%",
-                          "269.7%",
-                          "279.4%",
-                          "289.1%",
-                          "298.8%",
-                          "308.5%",
-                          "318.2%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Chain Attack: As You Wish",
-                "type": "Chain",
-                "desc": "When a Chain Attack is triggered, select the character to activate:\nUnleashes a series of powerful strikes at enemies in a small area in front of him, dealing massive Ice DMG.\nCharacter is invulnerable while using this skill.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "637.8%",
-                          "695.8%",
-                          "753.8%",
-                          "811.8%",
-                          "869.8%",
-                          "927.8%",
-                          "985.8%",
-                          "1043.8%",
-                          "1101.8%",
-                          "1159.8%",
-                          "1217.8%",
-                          "1275.8%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "218.8%",
-                          "228.8%",
-                          "238.8%",
-                          "248.8%",
-                          "258.8%",
-                          "268.8%",
-                          "278.8%",
-                          "288.8%",
-                          "298.8%",
-                          "308.8%",
-                          "318.8%",
-                          "328.8%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Ultimate: Mission Complete",
-                "type": "Chain",
-                "desc": "When Decibel Rating is at Maximum, press to activate:\nUnleashes multiple powerful strikes at enemies in a large area, dealing massive Ice DMG.\nCharacter is invulnerable while using this skill.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "1694.1%",
-                          "1848.2%",
-                          "2002.3%",
-                          "2156.4%",
-                          "2310.5%",
-                          "2464.6%",
-                          "2618.7%",
-                          "2772.8%",
-                          "2926.9%",
-                          "3081%",
-                          "3235.1%",
-                          "3389.2%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "1096.6%",
-                          "1146.5%",
-                          "1196.4%",
-                          "1246.3%",
-                          "1296.2%",
-                          "1346.1%",
-                          "1396%",
-                          "1445.9%",
-                          "1495.8%",
-                          "1545.7%",
-                          "1595.6%",
-                          "1645.5%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "title": "Core Skill",
-            "entries": [
-              {
-                "name": "Core Passive: Metallic Paws",
-                "type": "Core Passive",
-                "desc": "When Lycaon charges his Basic Attack to completion, the attack deals 80% increased Daze.\nWhen EX Special Attack: Thrill of the Hunt or Assist Follow-Up: Vengeful Counterattack hits an enemy, the target's Ice DMG RES decreases by 25% for 30s.",
-                "levels": [
-                  {
-                    "label": "Lv. 1",
-                    "text": "When Lycaon charges his Basic Attack to completion, the attack deals 40% increased Daze.\nWhen EX Special Attack: Thrill of the Hunt or Assist Follow-Up: Vengeful Counterattack hits an enemy, the target's Ice DMG RES decreases by 25% for 30s."
-                  },
-                  {
-                    "label": "Lv. 1",
-                    "text": "When Lycaon completes charging during a Basic Attack, or activates a Dodge Counter or Dash Attack, the Daze inflicted by the skill increases by 40%.\nWhen EX Special Attack: Thrill of the Hunt, Assist Follow-Up: Vengeful Counterattack, or Assist Follow-Up: Vengeful Counterattack - Glacial Waltz hits an enemy, the target's Ice RES is reduced by 25%, and it increases the DMG to the target from other attributes by 30% for 30s.\nUpon entering the battlefield, Lycaon gains one Encircle Prey activation chance.\nWhen Encircle Prey has available activations, hitting an enemy with Assist Follow-Up: Vengeful Counterattack - Glacial Waltz triggers the Quick Assist of the previous character in the squad. During this skill, when other squad members enter via Quick Assist, Lycaon enters the Encircle Prey state for 8s.\nWhen an elite or boss enemy becomes Stunned, 1 Encircle Prey activation chance is gained. Up to 1 Encircle Prey activation can be stored.\nWhen the Encircle Prey state ends, Lycaon automatically activates Assist Follow-Up: Vengeful Counterattack - Glacial Waltz. If the Encircle Prey state ends early, for every 1s of remaining duration, the Daze dealt by the next Assist Follow-Up: Vengeful Counterattack - Glacial Waltz increases by 6%.\nWhen the currently active character stops attacking or uses a Chain Attack or Ultimate, Lycaon will end the Encircle Prey state early.\nWhen Lycaon manually uses Assist Follow-Up: Vengeful Counterattack - Glacial Waltz, the Encircle Prey state also ends early, but Assist Follow-Up: Vengeful Counterattack - Glacial Waltz will not be automatically triggered.\nWhile the Encircle Prey state is active, Lycaon will activate Basic Attack, Dodge, Dash Attack, and Dodge Counter based on the skills used by the currently active character.\nWhen the currently active character uses a Basic Attack or EX Special Attack, Lycaon will simultaneously perform the 1st through 3rd hits of his Basic Attack.\nWhen the active character performs a Dodge or Dodge Counter, Lycaon will simultaneously perform a Dodge or Dodge Counter. After performing a Dodge Counter while in the Encircle Prey state, Lycaon can immediately follow up with the 3rd hit of his Basic Attack.\nWhile the Encircle Prey state is active, when Lycaon is not the currently active Agent, his attacks only deal DMG and Daze. While Lycaon is the currently active character, the Encircle Prey duration does not decrease."
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "When Lycaon charges his Basic Attack to completion, the attack deals 46.6% increased Daze.\nWhen EX Special Attack: Thrill of the Hunt or Assist Follow-Up: Vengeful Counterattack hits an enemy, the target's Ice DMG RES decreases by 25% for 30s."
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "When Lycaon completes charging during a Basic Attack, or activates a Dodge Counter or Dash Attack, the Daze inflicted by the skill increases by 46.6%.\nWhen EX Special Attack: Thrill of the Hunt, Assist Follow-Up: Vengeful Counterattack, or Assist Follow-Up: Vengeful Counterattack - Glacial Waltz hits an enemy, the target's Ice RES is reduced by 25%, and it increases the DMG to the target from other attributes by 30% for 30s.\nUpon entering the battlefield, Lycaon gains one Encircle Prey activation chance.\nWhen Encircle Prey has available activations, hitting an enemy with Assist Follow-Up: Vengeful Counterattack - Glacial Waltz triggers the Quick Assist of the previous character in the squad. During this skill, when other squad members enter via Quick Assist, Lycaon enters the Encircle Prey state for 8s.\nWhen an elite or boss enemy becomes Stunned, 1 Encircle Prey activation chance is gained. Up to 1 Encircle Prey activation can be stored.\nWhen the Encircle Prey state ends, Lycaon automatically activates Assist Follow-Up: Vengeful Counterattack - Glacial Waltz. If the Encircle Prey state ends early, for every 1s of remaining duration, the Daze dealt by the next Assist Follow-Up: Vengeful Counterattack - Glacial Waltz increases by 6%.\nWhen the currently active character stops attacking or uses a Chain Attack or Ultimate, Lycaon will end the Encircle Prey state early.\nWhen Lycaon manually uses Assist Follow-Up: Vengeful Counterattack - Glacial Waltz, the Encircle Prey state also ends early, but Assist Follow-Up: Vengeful Counterattack - Glacial Waltz will not be automatically triggered.\nWhile the Encircle Prey state is active, Lycaon will activate Basic Attack, Dodge, Dash Attack, and Dodge Counter based on the skills used by the currently active character.\nWhen the currently active character uses a Basic Attack or EX Special Attack, Lycaon will simultaneously perform the 1st through 3rd hits of his Basic Attack.\nWhen the active character performs a Dodge or Dodge Counter, Lycaon will simultaneously perform a Dodge or Dodge Counter. After performing a Dodge Counter while in the Encircle Prey state, Lycaon can immediately follow up with the 3rd hit of his Basic Attack.\nWhile the Encircle Prey state is active, when Lycaon is not the currently active Agent, his attacks only deal DMG and Daze. While Lycaon is the currently active character, the Encircle Prey duration does not decrease."
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "When Lycaon charges his Basic Attack to completion, the attack deals 53.3% increased Daze.\nWhen EX Special Attack: Thrill of the Hunt or Assist Follow-Up: Vengeful Counterattack hits an enemy, the target's Ice DMG RES decreases by 25% for 30s."
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "When Lycaon completes charging during a Basic Attack, or activates a Dodge Counter or Dash Attack, the Daze inflicted by the skill increases by 53.3%.\nWhen EX Special Attack: Thrill of the Hunt, Assist Follow-Up: Vengeful Counterattack, or Assist Follow-Up: Vengeful Counterattack - Glacial Waltz hits an enemy, the target's Ice RES is reduced by 25%, and it increases the DMG to the target from other attributes by 30% for 30s.\nUpon entering the battlefield, Lycaon gains one Encircle Prey activation chance.\nWhen Encircle Prey has available activations, hitting an enemy with Assist Follow-Up: Vengeful Counterattack - Glacial Waltz triggers the Quick Assist of the previous character in the squad. During this skill, when other squad members enter via Quick Assist, Lycaon enters the Encircle Prey state for 8s.\nWhen an elite or boss enemy becomes Stunned, 1 Encircle Prey activation chance is gained. Up to 1 Encircle Prey activation can be stored.\nWhen the Encircle Prey state ends, Lycaon automatically activates Assist Follow-Up: Vengeful Counterattack - Glacial Waltz. If the Encircle Prey state ends early, for every 1s of remaining duration, the Daze dealt by the next Assist Follow-Up: Vengeful Counterattack - Glacial Waltz increases by 6%.\nWhen the currently active character stops attacking or uses a Chain Attack or Ultimate, Lycaon will end the Encircle Prey state early.\nWhen Lycaon manually uses Assist Follow-Up: Vengeful Counterattack - Glacial Waltz, the Encircle Prey state also ends early, but Assist Follow-Up: Vengeful Counterattack - Glacial Waltz will not be automatically triggered.\nWhile the Encircle Prey state is active, Lycaon will activate Basic Attack, Dodge, Dash Attack, and Dodge Counter based on the skills used by the currently active character.\nWhen the currently active character uses a Basic Attack or EX Special Attack, Lycaon will simultaneously perform the 1st through 3rd hits of his Basic Attack.\nWhen the active character performs a Dodge or Dodge Counter, Lycaon will simultaneously perform a Dodge or Dodge Counter. After performing a Dodge Counter while in the Encircle Prey state, Lycaon can immediately follow up with the 3rd hit of his Basic Attack.\nWhile the Encircle Prey state is active, when Lycaon is not the currently active Agent, his attacks only deal DMG and Daze. While Lycaon is the currently active character, the Encircle Prey duration does not decrease."
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "When Lycaon charges his Basic Attack to completion, the attack deals 60% increased Daze.\nWhen EX Special Attack: Thrill of the Hunt or Assist Follow-Up: Vengeful Counterattack hits an enemy, the target's Ice DMG RES decreases by 25% for 30s."
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "When Lycaon completes charging during a Basic Attack, or activates a Dodge Counter or Dash Attack, the Daze inflicted by the skill increases by 60%.\nWhen EX Special Attack: Thrill of the Hunt, Assist Follow-Up: Vengeful Counterattack, or Assist Follow-Up: Vengeful Counterattack - Glacial Waltz hits an enemy, the target's Ice RES is reduced by 25%, and it increases the DMG to the target from other attributes by 30% for 30s.\nUpon entering the battlefield, Lycaon gains one Encircle Prey activation chance.\nWhen Encircle Prey has available activations, hitting an enemy with Assist Follow-Up: Vengeful Counterattack - Glacial Waltz triggers the Quick Assist of the previous character in the squad. During this skill, when other squad members enter via Quick Assist, Lycaon enters the Encircle Prey state for 8s.\nWhen an elite or boss enemy becomes Stunned, 1 Encircle Prey activation chance is gained. Up to 1 Encircle Prey activation can be stored.\nWhen the Encircle Prey state ends, Lycaon automatically activates Assist Follow-Up: Vengeful Counterattack - Glacial Waltz. If the Encircle Prey state ends early, for every 1s of remaining duration, the Daze dealt by the next Assist Follow-Up: Vengeful Counterattack - Glacial Waltz increases by 6%.\nWhen the currently active character stops attacking or uses a Chain Attack or Ultimate, Lycaon will end the Encircle Prey state early.\nWhen Lycaon manually uses Assist Follow-Up: Vengeful Counterattack - Glacial Waltz, the Encircle Prey state also ends early, but Assist Follow-Up: Vengeful Counterattack - Glacial Waltz will not be automatically triggered.\nWhile the Encircle Prey state is active, Lycaon will activate Basic Attack, Dodge, Dash Attack, and Dodge Counter based on the skills used by the currently active character.\nWhen the currently active character uses a Basic Attack or EX Special Attack, Lycaon will simultaneously perform the 1st through 3rd hits of his Basic Attack.\nWhen the active character performs a Dodge or Dodge Counter, Lycaon will simultaneously perform a Dodge or Dodge Counter. After performing a Dodge Counter while in the Encircle Prey state, Lycaon can immediately follow up with the 3rd hit of his Basic Attack.\nWhile the Encircle Prey state is active, when Lycaon is not the currently active Agent, his attacks only deal DMG and Daze. While Lycaon is the currently active character, the Encircle Prey duration does not decrease."
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "When Lycaon charges his Basic Attack to completion, the attack deals 66.6% increased Daze.\nWhen EX Special Attack: Thrill of the Hunt or Assist Follow-Up: Vengeful Counterattack hits an enemy, the target's Ice DMG RES decreases by 25% for 30s."
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "When Lycaon completes charging during a Basic Attack, or activates a Dodge Counter or Dash Attack, the Daze inflicted by the skill increases by 66.6%.\nWhen EX Special Attack: Thrill of the Hunt, Assist Follow-Up: Vengeful Counterattack, or Assist Follow-Up: Vengeful Counterattack - Glacial Waltz hits an enemy, the target's Ice RES is reduced by 25%, and it increases the DMG to the target from other attributes by 30% for 30s.\nUpon entering the battlefield, Lycaon gains one Encircle Prey activation chance.\nWhen Encircle Prey has available activations, hitting an enemy with Assist Follow-Up: Vengeful Counterattack - Glacial Waltz triggers the Quick Assist of the previous character in the squad. During this skill, when other squad members enter via Quick Assist, Lycaon enters the Encircle Prey state for 8s.\nWhen an elite or boss enemy becomes Stunned, 1 Encircle Prey activation chance is gained. Up to 1 Encircle Prey activation can be stored.\nWhen the Encircle Prey state ends, Lycaon automatically activates Assist Follow-Up: Vengeful Counterattack - Glacial Waltz. If the Encircle Prey state ends early, for every 1s of remaining duration, the Daze dealt by the next Assist Follow-Up: Vengeful Counterattack - Glacial Waltz increases by 6%.\nWhen the currently active character stops attacking or uses a Chain Attack or Ultimate, Lycaon will end the Encircle Prey state early.\nWhen Lycaon manually uses Assist Follow-Up: Vengeful Counterattack - Glacial Waltz, the Encircle Prey state also ends early, but Assist Follow-Up: Vengeful Counterattack - Glacial Waltz will not be automatically triggered.\nWhile the Encircle Prey state is active, Lycaon will activate Basic Attack, Dodge, Dash Attack, and Dodge Counter based on the skills used by the currently active character.\nWhen the currently active character uses a Basic Attack or EX Special Attack, Lycaon will simultaneously perform the 1st through 3rd hits of his Basic Attack.\nWhen the active character performs a Dodge or Dodge Counter, Lycaon will simultaneously perform a Dodge or Dodge Counter. After performing a Dodge Counter while in the Encircle Prey state, Lycaon can immediately follow up with the 3rd hit of his Basic Attack.\nWhile the Encircle Prey state is active, when Lycaon is not the currently active Agent, his attacks only deal DMG and Daze. While Lycaon is the currently active character, the Encircle Prey duration does not decrease."
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "When Lycaon charges his Basic Attack to completion, the attack deals 73.3% increased Daze.\nWhen EX Special Attack: Thrill of the Hunt or Assist Follow-Up: Vengeful Counterattack hits an enemy, the target's Ice DMG RES decreases by 25% for 30s."
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "When Lycaon completes charging during a Basic Attack, or activates a Dodge Counter or Dash Attack, the Daze inflicted by the skill increases by 73.3%.\nWhen EX Special Attack: Thrill of the Hunt, Assist Follow-Up: Vengeful Counterattack, or Assist Follow-Up: Vengeful Counterattack - Glacial Waltz hits an enemy, the target's Ice RES is reduced by 25%, and it increases the DMG to the target from other attributes by 30% for 30s.\nUpon entering the battlefield, Lycaon gains one Encircle Prey activation chance.\nWhen Encircle Prey has available activations, hitting an enemy with Assist Follow-Up: Vengeful Counterattack - Glacial Waltz triggers the Quick Assist of the previous character in the squad. During this skill, when other squad members enter via Quick Assist, Lycaon enters the Encircle Prey state for 8s.\nWhen an elite or boss enemy becomes Stunned, 1 Encircle Prey activation chance is gained. Up to 1 Encircle Prey activation can be stored.\nWhen the Encircle Prey state ends, Lycaon automatically activates Assist Follow-Up: Vengeful Counterattack - Glacial Waltz. If the Encircle Prey state ends early, for every 1s of remaining duration, the Daze dealt by the next Assist Follow-Up: Vengeful Counterattack - Glacial Waltz increases by 6%.\nWhen the currently active character stops attacking or uses a Chain Attack or Ultimate, Lycaon will end the Encircle Prey state early.\nWhen Lycaon manually uses Assist Follow-Up: Vengeful Counterattack - Glacial Waltz, the Encircle Prey state also ends early, but Assist Follow-Up: Vengeful Counterattack - Glacial Waltz will not be automatically triggered.\nWhile the Encircle Prey state is active, Lycaon will activate Basic Attack, Dodge, Dash Attack, and Dodge Counter based on the skills used by the currently active character.\nWhen the currently active character uses a Basic Attack or EX Special Attack, Lycaon will simultaneously perform the 1st through 3rd hits of his Basic Attack.\nWhen the active character performs a Dodge or Dodge Counter, Lycaon will simultaneously perform a Dodge or Dodge Counter. After performing a Dodge Counter while in the Encircle Prey state, Lycaon can immediately follow up with the 3rd hit of his Basic Attack.\nWhile the Encircle Prey state is active, when Lycaon is not the currently active Agent, his attacks only deal DMG and Daze. While Lycaon is the currently active character, the Encircle Prey duration does not decrease."
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "When Lycaon charges his Basic Attack to completion, the attack deals 80% increased Daze.\nWhen EX Special Attack: Thrill of the Hunt or Assist Follow-Up: Vengeful Counterattack hits an enemy, the target's Ice DMG RES decreases by 25% for 30s."
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "When Lycaon completes charging during a Basic Attack, or activates a Dodge Counter or Dash Attack, the Daze inflicted by the skill increases by 80%.\nWhen EX Special Attack: Thrill of the Hunt, Assist Follow-Up: Vengeful Counterattack, or Assist Follow-Up: Vengeful Counterattack - Glacial Waltz hits an enemy, the target's Ice RES is reduced by 25%, and it increases the DMG to the target from other attributes by 30% for 30s.\nUpon entering the battlefield, Lycaon gains one Encircle Prey activation chance.\nWhen Encircle Prey has available activations, hitting an enemy with Assist Follow-Up: Vengeful Counterattack - Glacial Waltz triggers the Quick Assist of the previous character in the squad. During this skill, when other squad members enter via Quick Assist, Lycaon enters the Encircle Prey state for 8s.\nWhen an elite or boss enemy becomes Stunned, 1 Encircle Prey activation chance is gained. Up to 1 Encircle Prey activation can be stored.\nWhen the Encircle Prey state ends, Lycaon automatically activates Assist Follow-Up: Vengeful Counterattack - Glacial Waltz. If the Encircle Prey state ends early, for every 1s of remaining duration, the Daze dealt by the next Assist Follow-Up: Vengeful Counterattack - Glacial Waltz increases by 6%.\nWhen the currently active character stops attacking or uses a Chain Attack or Ultimate, Lycaon will end the Encircle Prey state early.\nWhen Lycaon manually uses Assist Follow-Up: Vengeful Counterattack - Glacial Waltz, the Encircle Prey state also ends early, but Assist Follow-Up: Vengeful Counterattack - Glacial Waltz will not be automatically triggered.\nWhile the Encircle Prey state is active, Lycaon will activate Basic Attack, Dodge, Dash Attack, and Dodge Counter based on the skills used by the currently active character.\nWhen the currently active character uses a Basic Attack or EX Special Attack, Lycaon will simultaneously perform the 1st through 3rd hits of his Basic Attack.\nWhen the active character performs a Dodge or Dodge Counter, Lycaon will simultaneously perform a Dodge or Dodge Counter. After performing a Dodge Counter while in the Encircle Prey state, Lycaon can immediately follow up with the 3rd hit of his Basic Attack.\nWhile the Encircle Prey state is active, when Lycaon is not the currently active Agent, his attacks only deal DMG and Daze. While Lycaon is the currently active character, the Encircle Prey duration does not decrease."
-                  }
-                ]
-              },
-              {
-                "name": "Additional Ability: Elegant Predator",
-                "type": "Additional Ability",
-                "desc": "When another character in your squad shares the same Attribute or Faction:\nWhen Lycaon hits a Stunned enemy, the target's Stun DMG Multiplier increases by 35%.",
-                "levels": [
-                  {
-                    "label": "Lv. 1",
-                    "text": "When another character in your squad shares the same Attribute or Faction:\nWhen Lycaon hits a Stunned enemy, the target's Stun DMG Multiplier increases by 35%."
-                  },
-                  {
-                    "label": "Lv. 1",
-                    "text": "When another character in your squad is an Anomaly character or shares the same Attribute or Faction:\nWhen Lycaon hits a Stunned enemy, the target's Stun DMG Multiplier increases by 35%."
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "When another character in your squad shares the same Attribute or Faction:\nWhen Lycaon hits a Stunned enemy, the target's Stun DMG Multiplier increases by 35%."
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "When another character in your squad is an Anomaly character or shares the same Attribute or Faction:\nWhen Lycaon hits a Stunned enemy, the target's Stun DMG Multiplier increases by 35%."
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "When another character in your squad shares the same Attribute or Faction:\nWhen Lycaon hits a Stunned enemy, the target's Stun DMG Multiplier increases by 35%."
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "When another character in your squad is an Anomaly character or shares the same Attribute or Faction:\nWhen Lycaon hits a Stunned enemy, the target's Stun DMG Multiplier increases by 35%."
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "When another character in your squad shares the same Attribute or Faction:\nWhen Lycaon hits a Stunned enemy, the target's Stun DMG Multiplier increases by 35%."
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "When another character in your squad is an Anomaly character or shares the same Attribute or Faction:\nWhen Lycaon hits a Stunned enemy, the target's Stun DMG Multiplier increases by 35%."
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "When another character in your squad shares the same Attribute or Faction:\nWhen Lycaon hits a Stunned enemy, the target's Stun DMG Multiplier increases by 35%."
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "When another character in your squad is an Anomaly character or shares the same Attribute or Faction:\nWhen Lycaon hits a Stunned enemy, the target's Stun DMG Multiplier increases by 35%."
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "When another character in your squad shares the same Attribute or Faction:\nWhen Lycaon hits a Stunned enemy, the target's Stun DMG Multiplier increases by 35%."
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "When another character in your squad is an Anomaly character or shares the same Attribute or Faction:\nWhen Lycaon hits a Stunned enemy, the target's Stun DMG Multiplier increases by 35%."
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "When another character in your squad shares the same Attribute or Faction:\nWhen Lycaon hits a Stunned enemy, the target's Stun DMG Multiplier increases by 35%."
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "When another character in your squad is an Anomaly character or shares the same Attribute or Faction:\nWhen Lycaon hits a Stunned enemy, the target's Stun DMG Multiplier increases by 35%."
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "title": "Mindscape Cinema",
-            "entries": [
-              {
-                "name": "Full Moon Momentum",
-                "type": "Mindscape 1",
-                "desc": "When Lycaon's EX Special Attack: Thrill of the Hunt hits an enemy, the attack's Daze increases by 12%. This effect can trigger once every 8s. When he charges his EX Special Attack: Thrill of the Hunt to completion, this buff will increase by an additional 10%."
-              },
-              {
-                "name": "Energy Feedback",
-                "type": "Mindscape 2",
-                "desc": "When Stunning an enemy or triggering a squad member's Chain Attack, Lycaon gains 5 Energy. Can trigger once every 1s."
-              },
-              {
-                "name": "Attendant Training",
-                "type": "Mindscape 3",
-                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
-              },
-              {
-                "name": "Graceful Demeanor",
-                "type": "Mindscape 4",
-                "desc": "If Lycaon is attacked while using a Basic Attack or Special Attack, he will immediately gain a Shield equal to 7.5% of his Max HP, lasting for 15s.\nDuring the Shield's duration, his Anti-Interrupt level is increased. This effect can trigger once every 15s."
-              },
-              {
-                "name": "Alpha Nature",
-                "type": "Mindscape 5",
-                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
-              },
-              {
-                "name": "Ruthless Hunter",
-                "type": "Mindscape 6",
-                "desc": "When a charged attack hits an enemy, the target suffers 10% increased DMG from Lycaon, stacking up to 5 times and lasting 12s. Only one stack can be gained per skill use, and repeated triggers reset the duration."
-              }
-            ]
-          }
-        ]
-      },
-      "req": {
-        "ascension": [
-          {
-            "id": "100212",
-            "name": "Basic Stun Certification Seal",
-            "qty": 4,
-            "rar": 1,
-            "kind": "gem",
-            "icon": "../../Database/GameData/zzz/assets/items/AvatarRankStun01.webp",
-            "source": "Combat Simulation - Agent Promotion",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Promotion"
-              }
-            ]
-          },
-          {
-            "id": "100222",
-            "name": "Advanced Stun Certification Seal",
-            "qty": 32,
-            "rar": 3,
-            "kind": "gem",
-            "icon": "../../Database/GameData/zzz/assets/items/AvatarRankStun02.webp",
-            "source": "Combat Simulation - Agent Promotion",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Promotion"
-              }
-            ]
-          },
-          {
-            "id": "100232",
-            "name": "Buster Certification Seal",
-            "qty": 30,
-            "rar": 4,
-            "kind": "gem",
-            "icon": "../../Database/GameData/zzz/assets/items/AvatarRankStun03.webp",
-            "source": "Combat Simulation - Agent Promotion",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Promotion"
-              }
-            ]
-          }
-        ],
-        "talents": [
-          {
-            "id": "100112",
-            "name": "Basic Freeze Chip",
-            "qty": 25,
-            "rar": 1,
-            "kind": "book",
-            "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
-            "source": "Combat Simulation - Agent Skills",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Skills"
-              }
-            ]
-          },
-          {
-            "id": "100122",
-            "name": "Advanced Freeze Chip",
-            "qty": 75,
-            "rar": 3,
-            "kind": "book",
-            "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
-            "source": "Combat Simulation - Agent Skills",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Skills"
-              }
-            ]
-          },
-          {
-            "id": "100132",
-            "name": "Specialized Freeze Chip",
-            "qty": 250,
-            "rar": 4,
-            "kind": "book",
-            "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-            "source": "Combat Simulation - Agent Skills",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Skills"
-              }
-            ]
-          },
-          {
-            "id": "100941",
-            "name": "Hamster Cage Pass",
-            "qty": 5,
-            "rar": 5,
-            "kind": "crown",
-            "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
-            "source": "Event / New Eridu City Fund",
-            "sourceDetails": [
-              {
-                "name": "Event / New Eridu City Fund"
-              }
-            ]
-          },
-          {
-            "id": "110003",
-            "name": "Finale Dance Shoes",
-            "qty": 9,
-            "rar": 5,
-            "kind": "weekly",
-            "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss003.webp",
-            "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss003.webp",
-            "source": "Twin Marionettes",
-            "sourceDetails": [
-              {
-                "name": "Twin Marionettes",
-                "icon": "../../Database/GameData/zzz/assets/monsters/Monster_Marionette_Twins.webp"
-              }
-            ]
-          },
-          {
-            "id": "110503",
-            "name": "Higher Dimensional Data: Ethereal Pursuit",
-            "qty": 60,
-            "rar": 4,
-            "kind": "boss",
-            "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss003.webp",
-            "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss003.webp",
-            "source": "Notorious Armored Hati / Expert Challenge",
-            "sourceDetails": [
-              {
-                "name": "Notorious - Armored Hati",
-                "icon": "../../Database/GameData/zzz/assets/monsters/Monster_HatiArmoredBoss.webp"
-              },
-              {
-                "name": "Expert Challenge"
-              }
-            ]
-          }
-        ],
-        "talentStages": [
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "100112",
-                  "name": "Basic Freeze Chip",
-                  "qty": 2,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 3000,
-              "items": [
-                {
-                  "id": "100112",
-                  "name": "Basic Freeze Chip",
-                  "qty": 3,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 6000,
-              "items": [
-                {
-                  "id": "100122",
-                  "name": "Advanced Freeze Chip",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 9000,
-              "items": [
-                {
-                  "id": "100122",
-                  "name": "Advanced Freeze Chip",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 12000,
-              "items": [
-                {
-                  "id": "100122",
-                  "name": "Advanced Freeze Chip",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 18000,
-              "items": [
-                {
-                  "id": "100122",
-                  "name": "Advanced Freeze Chip",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "100132",
-                  "name": "Specialized Freeze Chip",
-                  "qty": 5,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 67500,
-              "items": [
-                {
-                  "id": "100132",
-                  "name": "Specialized Freeze Chip",
-                  "qty": 8,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 90000,
-              "items": [
-                {
-                  "id": "100132",
-                  "name": "Specialized Freeze Chip",
-                  "qty": 10,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 112500,
-              "items": [
-                {
-                  "id": "100132",
-                  "name": "Specialized Freeze Chip",
-                  "qty": 12,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 135000,
-              "items": [
-                {
-                  "id": "100132",
-                  "name": "Specialized Freeze Chip",
-                  "qty": 15,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                },
-                {
-                  "id": "100941",
-                  "name": "Hamster Cage Pass",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "crown",
-                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
-                  "source": "Event / New Eridu City Fund",
-                  "sourceDetails": [
-                    {
-                      "name": "Event / New Eridu City Fund"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "100112",
-                  "name": "Basic Freeze Chip",
-                  "qty": 2,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 3000,
-              "items": [
-                {
-                  "id": "100112",
-                  "name": "Basic Freeze Chip",
-                  "qty": 3,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 6000,
-              "items": [
-                {
-                  "id": "100122",
-                  "name": "Advanced Freeze Chip",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 9000,
-              "items": [
-                {
-                  "id": "100122",
-                  "name": "Advanced Freeze Chip",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 12000,
-              "items": [
-                {
-                  "id": "100122",
-                  "name": "Advanced Freeze Chip",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 18000,
-              "items": [
-                {
-                  "id": "100122",
-                  "name": "Advanced Freeze Chip",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "100132",
-                  "name": "Specialized Freeze Chip",
-                  "qty": 5,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 67500,
-              "items": [
-                {
-                  "id": "100132",
-                  "name": "Specialized Freeze Chip",
-                  "qty": 8,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 90000,
-              "items": [
-                {
-                  "id": "100132",
-                  "name": "Specialized Freeze Chip",
-                  "qty": 10,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 112500,
-              "items": [
-                {
-                  "id": "100132",
-                  "name": "Specialized Freeze Chip",
-                  "qty": 12,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 135000,
-              "items": [
-                {
-                  "id": "100132",
-                  "name": "Specialized Freeze Chip",
-                  "qty": 15,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                },
-                {
-                  "id": "100941",
-                  "name": "Hamster Cage Pass",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "crown",
-                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
-                  "source": "Event / New Eridu City Fund",
-                  "sourceDetails": [
-                    {
-                      "name": "Event / New Eridu City Fund"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "100112",
-                  "name": "Basic Freeze Chip",
-                  "qty": 2,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 3000,
-              "items": [
-                {
-                  "id": "100112",
-                  "name": "Basic Freeze Chip",
-                  "qty": 3,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 6000,
-              "items": [
-                {
-                  "id": "100122",
-                  "name": "Advanced Freeze Chip",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 9000,
-              "items": [
-                {
-                  "id": "100122",
-                  "name": "Advanced Freeze Chip",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 12000,
-              "items": [
-                {
-                  "id": "100122",
-                  "name": "Advanced Freeze Chip",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 18000,
-              "items": [
-                {
-                  "id": "100122",
-                  "name": "Advanced Freeze Chip",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "100132",
-                  "name": "Specialized Freeze Chip",
-                  "qty": 5,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 67500,
-              "items": [
-                {
-                  "id": "100132",
-                  "name": "Specialized Freeze Chip",
-                  "qty": 8,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 90000,
-              "items": [
-                {
-                  "id": "100132",
-                  "name": "Specialized Freeze Chip",
-                  "qty": 10,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 112500,
-              "items": [
-                {
-                  "id": "100132",
-                  "name": "Specialized Freeze Chip",
-                  "qty": 12,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 135000,
-              "items": [
-                {
-                  "id": "100132",
-                  "name": "Specialized Freeze Chip",
-                  "qty": 15,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                },
-                {
-                  "id": "100941",
-                  "name": "Hamster Cage Pass",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "crown",
-                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
-                  "source": "Event / New Eridu City Fund",
-                  "sourceDetails": [
-                    {
-                      "name": "Event / New Eridu City Fund"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "100112",
-                  "name": "Basic Freeze Chip",
-                  "qty": 2,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 3000,
-              "items": [
-                {
-                  "id": "100112",
-                  "name": "Basic Freeze Chip",
-                  "qty": 3,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 6000,
-              "items": [
-                {
-                  "id": "100122",
-                  "name": "Advanced Freeze Chip",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 9000,
-              "items": [
-                {
-                  "id": "100122",
-                  "name": "Advanced Freeze Chip",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 12000,
-              "items": [
-                {
-                  "id": "100122",
-                  "name": "Advanced Freeze Chip",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 18000,
-              "items": [
-                {
-                  "id": "100122",
-                  "name": "Advanced Freeze Chip",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "100132",
-                  "name": "Specialized Freeze Chip",
-                  "qty": 5,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 67500,
-              "items": [
-                {
-                  "id": "100132",
-                  "name": "Specialized Freeze Chip",
-                  "qty": 8,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 90000,
-              "items": [
-                {
-                  "id": "100132",
-                  "name": "Specialized Freeze Chip",
-                  "qty": 10,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 112500,
-              "items": [
-                {
-                  "id": "100132",
-                  "name": "Specialized Freeze Chip",
-                  "qty": 12,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 135000,
-              "items": [
-                {
-                  "id": "100132",
-                  "name": "Specialized Freeze Chip",
-                  "qty": 15,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                },
-                {
-                  "id": "100941",
-                  "name": "Hamster Cage Pass",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "crown",
-                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
-                  "source": "Event / New Eridu City Fund",
-                  "sourceDetails": [
-                    {
-                      "name": "Event / New Eridu City Fund"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "100112",
-                  "name": "Basic Freeze Chip",
-                  "qty": 2,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 3000,
-              "items": [
-                {
-                  "id": "100112",
-                  "name": "Basic Freeze Chip",
-                  "qty": 3,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 6000,
-              "items": [
-                {
-                  "id": "100122",
-                  "name": "Advanced Freeze Chip",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 9000,
-              "items": [
-                {
-                  "id": "100122",
-                  "name": "Advanced Freeze Chip",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 12000,
-              "items": [
-                {
-                  "id": "100122",
-                  "name": "Advanced Freeze Chip",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 18000,
-              "items": [
-                {
-                  "id": "100122",
-                  "name": "Advanced Freeze Chip",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "100132",
-                  "name": "Specialized Freeze Chip",
-                  "qty": 5,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 67500,
-              "items": [
-                {
-                  "id": "100132",
-                  "name": "Specialized Freeze Chip",
-                  "qty": 8,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 90000,
-              "items": [
-                {
-                  "id": "100132",
-                  "name": "Specialized Freeze Chip",
-                  "qty": 10,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 112500,
-              "items": [
-                {
-                  "id": "100132",
-                  "name": "Specialized Freeze Chip",
-                  "qty": 12,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 135000,
-              "items": [
-                {
-                  "id": "100132",
-                  "name": "Specialized Freeze Chip",
-                  "qty": 15,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                },
-                {
-                  "id": "100941",
-                  "name": "Hamster Cage Pass",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "crown",
-                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
-                  "source": "Event / New Eridu City Fund",
-                  "sourceDetails": [
-                    {
-                      "name": "Event / New Eridu City Fund"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 5000,
-              "items": []
-            },
-            {
-              "cost": 12000,
-              "items": [
-                {
-                  "id": "110503",
-                  "name": "Higher Dimensional Data: Ethereal Pursuit",
-                  "qty": 2,
-                  "rar": 4,
-                  "kind": "boss",
-                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss003.webp",
-                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss003.webp",
-                  "source": "Notorious Armored Hati / Expert Challenge",
-                  "sourceDetails": [
-                    {
-                      "name": "Notorious - Armored Hati",
-                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_HatiArmoredBoss.webp"
-                    },
-                    {
-                      "name": "Expert Challenge"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 28000,
-              "items": [
-                {
-                  "id": "110503",
-                  "name": "Higher Dimensional Data: Ethereal Pursuit",
-                  "qty": 4,
-                  "rar": 4,
-                  "kind": "boss",
-                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss003.webp",
-                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss003.webp",
-                  "source": "Notorious Armored Hati / Expert Challenge",
-                  "sourceDetails": [
-                    {
-                      "name": "Notorious - Armored Hati",
-                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_HatiArmoredBoss.webp"
-                    },
-                    {
-                      "name": "Expert Challenge"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 60000,
-              "items": [
-                {
-                  "id": "110003",
-                  "name": "Finale Dance Shoes",
-                  "qty": 2,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss003.webp",
-                  "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss003.webp",
-                  "source": "Twin Marionettes",
-                  "sourceDetails": [
-                    {
-                      "name": "Twin Marionettes",
-                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_Marionette_Twins.webp"
-                    }
-                  ]
-                },
-                {
-                  "id": "110503",
-                  "name": "Higher Dimensional Data: Ethereal Pursuit",
-                  "qty": 9,
-                  "rar": 4,
-                  "kind": "boss",
-                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss003.webp",
-                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss003.webp",
-                  "source": "Notorious Armored Hati / Expert Challenge",
-                  "sourceDetails": [
-                    {
-                      "name": "Notorious - Armored Hati",
-                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_HatiArmoredBoss.webp"
-                    },
-                    {
-                      "name": "Expert Challenge"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 100000,
-              "items": [
-                {
-                  "id": "110003",
-                  "name": "Finale Dance Shoes",
-                  "qty": 3,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss003.webp",
-                  "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss003.webp",
-                  "source": "Twin Marionettes",
-                  "sourceDetails": [
-                    {
-                      "name": "Twin Marionettes",
-                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_Marionette_Twins.webp"
-                    }
-                  ]
-                },
-                {
-                  "id": "110503",
-                  "name": "Higher Dimensional Data: Ethereal Pursuit",
-                  "qty": 15,
-                  "rar": 4,
-                  "kind": "boss",
-                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss003.webp",
-                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss003.webp",
-                  "source": "Notorious Armored Hati / Expert Challenge",
-                  "sourceDetails": [
-                    {
-                      "name": "Notorious - Armored Hati",
-                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_HatiArmoredBoss.webp"
-                    },
-                    {
-                      "name": "Expert Challenge"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 200000,
-              "items": [
-                {
-                  "id": "110003",
-                  "name": "Finale Dance Shoes",
-                  "qty": 4,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss003.webp",
-                  "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss003.webp",
-                  "source": "Twin Marionettes",
-                  "sourceDetails": [
-                    {
-                      "name": "Twin Marionettes",
-                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_Marionette_Twins.webp"
-                    }
-                  ]
-                },
-                {
-                  "id": "110503",
-                  "name": "Higher Dimensional Data: Ethereal Pursuit",
-                  "qty": 30,
-                  "rar": 4,
-                  "kind": "boss",
-                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss003.webp",
-                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss003.webp",
-                  "source": "Notorious Armored Hati / Expert Challenge",
-                  "sourceDetails": [
-                    {
-                      "name": "Notorious - Armored Hati",
-                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_HatiArmoredBoss.webp"
-                    },
-                    {
-                      "name": "Expert Challenge"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        ],
-        "ascCost": 800000,
-        "talentCost": 2905000,
-        "currency": 4105000,
-        "weapon": {
-          "name": "Blazing Laurel",
-          "icon": "../../Database/GameData/zzz/assets/w-engines/Weapon_S_1161.webp",
-          "art": "../../Database/GameData/zzz/assets/w-engines/Weapon_S_1161.webp",
-          "items": [
-            {
-              "id": "101011",
-              "name": "Stun Component",
-              "qty": 4,
-              "rar": 1,
-              "kind": "mob",
-              "icon": "../../Database/GameData/zzz/assets/items/WeaponRankStun01.webp"
-            },
-            {
-              "id": "101021",
-              "name": "Reinforced Stun Component",
-              "qty": 32,
-              "rar": 3,
-              "kind": "mob",
-              "icon": "../../Database/GameData/zzz/assets/items/WeaponRankStun02.webp"
-            },
-            {
-              "id": "101031",
-              "name": "Specialized Stun Component",
-              "qty": 30,
-              "rar": 4,
-              "kind": "mob",
-              "icon": "../../Database/GameData/zzz/assets/items/WeaponRankStun03.webp"
-            }
-          ],
-          "cost": 400000
-        }
-      }
-    },
-    {
       "id": "zzz-miyabi",
       "n": "Miyabi",
       "localizedNames": {
@@ -74181,7 +74177,7 @@
       "slug": "miyabi",
       "release": 1734480000000,
       "releasePatch": "1.4",
-      "updated": 1781388000000,
+      "updated": 1781395200000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Cristina Vee",
@@ -76743,7 +76739,7 @@
       "title": "Patience of a Cat",
       "slug": "nekomata",
       "releasePatch": "1.0",
-      "updated": 1781388000000,
+      "updated": 1781395200000,
       "sourceOrder": 0,
       "voiceActors": {
         "japanese": "Hara Sayuri (\u539f \u7d17\u53cb\u91cc)",
@@ -79202,7 +79198,7 @@
       "slug": "promeia",
       "release": 1778025600000,
       "releasePatch": "2.8",
-      "updated": 1781388000000,
+      "updated": 1781395200000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm4630205|Natalie Van Sistine",
@@ -81870,7 +81866,7 @@
       "slug": "qingyi",
       "release": 1723593600000,
       "releasePatch": "1.1",
-      "updated": 1781388000000,
+      "updated": 1781395200000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Kira Buckland",
@@ -84464,7 +84460,7 @@
       "slug": "rina",
       "release": 1720051200000,
       "releasePatch": "1.0",
-      "updated": 1781388000000,
+      "updated": 1781395200000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Morgan Laur\u00e9",
@@ -86819,7 +86815,7 @@
       "slug": "seed",
       "release": 1756951200000,
       "releasePatch": "2.2",
-      "updated": 1781388000000,
+      "updated": 1781395200000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Monica Rial",
@@ -89429,10 +89425,10 @@
       "slug": "soldier-11",
       "release": 1720051200000,
       "releasePatch": "1.0",
-      "updated": 1781388000000,
+      "updated": 1781395200000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "|voiceCN = https://mzh.moegirl.org.cn/zh-hans/\u9648\u96e8|Chen Yu (\u9648\u96e8)",
+        "english": "imdb:nm16414950|Marina Aicholtz",
         "japanese": "Yukiyo Fujii|Fujii Yukiyo (\u85e4\u4e95 \u3086\u304d\u3088)",
         "chinese": "https://mzh.moegirl.org.cn/zh-hans/\u9648\u96e8|Chen Yu (\u9648\u96e8)",
         "korean": "ko:\ubb38\uc720\uc815|Moon Yoo-jeong (\ubb38\uc720\uc815)"
@@ -92163,7 +92159,7 @@
       "slug": "sunna",
       "release": 1770336000000,
       "releasePatch": "2.6",
-      "updated": 1781388000000,
+      "updated": 1781395200000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Alexis Tipton",
@@ -94697,7 +94693,7 @@
       "slug": "trigger",
       "release": 1743552000000,
       "releasePatch": "1.6",
-      "updated": 1781388000000,
+      "updated": 1781395200000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Erica Mendez",
@@ -97346,7 +97342,7 @@
       "slug": "yanagi",
       "release": 1730851200000,
       "releasePatch": "1.3",
-      "updated": 1781388000000,
+      "updated": 1781395200000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm7913831|Corey Pettit",
@@ -99980,7 +99976,7 @@
       "slug": "yidhari",
       "release": 1762300800000,
       "releasePatch": "2.3",
-      "updated": 1781388000000,
+      "updated": 1781395200000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm7336696|Katelyn Barr",
@@ -102745,10 +102741,10 @@
       "slug": "yixuan",
       "release": 1749168000000,
       "releasePatch": "2.0",
-      "updated": 1781388000000,
+      "updated": 1781395200000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "|voiceCN = https://mzh.moegirl.org.cn/zh-hans/\u5f20\u6631|Zhang Yu (\u5f20\u6631)",
+        "english": "imdb:nm8183780|Felicia Valenti",
         "japanese": "Mamiko Noto|Noto Mamiko (\u80fd\u767b \u9ebb\u7f8e\u5b50)",
         "chinese": "https://mzh.moegirl.org.cn/zh-hans/\u5f20\u6631|Zhang Yu (\u5f20\u6631)",
         "korean": "https://namu.wiki/w/\uc218\ud604(\uc131\uc6b0)|Su-hyeon (\uc218\ud604)"
@@ -105613,7 +105609,7 @@
       "slug": "ukinami-yuzuha",
       "release": 1752624000000,
       "releasePatch": "2.1",
-      "updated": 1781388000000,
+      "updated": 1781395200000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm6151726|Kimberly Tierney",
@@ -108388,10 +108384,10 @@
       "slug": "zhao",
       "release": 1767052800000,
       "releasePatch": "2.5",
-      "updated": 1781388000000,
+      "updated": 1781395200000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "imdb:nm11216308|Siv Ryan",
+        "english": "imdb:nm11216308|Oz Ryan",
         "japanese": "Naomi \u014czora|\u014czora Naomi (\u5927\u7a7a \u76f4\u7f8e)",
         "chinese": "https://mzh.moegirl.org.cn/zh-hans/\u8bfa\u4e9a|Nuoya (\u8bfa\u4e9a)",
         "korean": "https://namu.wiki/w/\ubbf8\uc18c(\uc131\uc6b0)|Miso (\ubbf8\uc18c)"
@@ -110905,7 +110901,7 @@
       "slug": "zhu-yuan",
       "release": 1721779200000,
       "releasePatch": "1.0",
-      "updated": 1781388000000,
+      "updated": 1781395200000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm10980156|Alaina Wis",
@@ -113558,7 +113554,7 @@
       "slug": "anby-demara",
       "release": 1720051200000,
       "releasePatch": "1.0",
-      "updated": 1781388000000,
+      "updated": 1781395200000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm7430885|Sam Slade",
@@ -115985,7 +115981,7 @@
       "slug": "anton",
       "release": 1720051200000,
       "releasePatch": "1.0",
-      "updated": 1781388000000,
+      "updated": 1781395200000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Alejandro Saab",
@@ -118660,7 +118656,7 @@
       "slug": "ben",
       "release": 1720051200000,
       "releasePatch": "1.0",
-      "updated": 1781388000000,
+      "updated": 1781395200000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm13407037|Henry Schrader",
@@ -121129,7 +121125,7 @@
       "slug": "billy-kid",
       "release": 1720051200000,
       "releasePatch": "1.0",
-      "updated": 1781388000000,
+      "updated": 1781395200000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Clifford Chapin",
@@ -123594,7 +123590,7 @@
       "slug": "corin",
       "release": 1720051200000,
       "releasePatch": "1.0",
-      "updated": 1781388000000,
+      "updated": 1781395200000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm9098554|Chloe Eves",
@@ -126130,7 +126126,7 @@
       "title": "Little Boars, Coming Right Up",
       "slug": "lucy",
       "releasePatch": "1.0",
-      "updated": 1781388000000,
+      "updated": 1781395200000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Courtney Lin"
@@ -128789,7 +128785,7 @@
       "slug": "manato",
       "release": 1760486400000,
       "releasePatch": "2.3",
-      "updated": 1781388000000,
+      "updated": 1781395200000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Ricco Fajardo",
@@ -131476,7 +131472,7 @@
       "slug": "nicole-demara",
       "release": 1720051200000,
       "releasePatch": "1.0",
-      "updated": 1781388000000,
+      "updated": 1781395200000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm11161667|Nadia Marshall",
@@ -134166,10 +134162,10 @@
       "slug": "pan-yinhu",
       "release": 1749168000000,
       "releasePatch": "2.0",
-      "updated": 1781388000000,
+      "updated": 1781395200000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "imdb:nm2296408|Philip Sacramento",
+        "english": "imdb:nm2296408|Phillip Sacramento",
         "japanese": "Ryota Takeuchi|Takeuchi Ry\u014dta (\u7af9\u5185 \u826f\u592a)",
         "chinese": "https://mzh.moegirl.org.cn/zh-hans/\u738b\u897f\u74dc|Wang Xigua (\u738b\u897f\u74dc)",
         "korean": "https://namu.wiki/w/\uc624\uac74\uc6b0(\uc131\uc6b0)|Oh Gun-woo (\uc624\uac74\uc6b0)"
@@ -136661,7 +136657,7 @@
       "slug": "piper",
       "release": 1720051200000,
       "releasePatch": "1.0",
-      "updated": 1781388000000,
+      "updated": 1781395200000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Suzie Yeung",
@@ -139216,7 +139212,7 @@
       "slug": "pulchra",
       "release": 1741737600000,
       "releasePatch": "1.6",
-      "updated": 1781388000000,
+      "updated": 1781395200000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Marissa Lenti",
@@ -141631,7 +141627,7 @@
       "slug": "seth",
       "release": 1725408000000,
       "releasePatch": "1.1",
-      "updated": 1781388000000,
+      "updated": 1781395200000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm5941822|Nazeeh Tarsha",
@@ -144126,7 +144122,7 @@
       "slug": "soukaku",
       "release": 1720051200000,
       "releasePatch": "1.0",
-      "updated": 1781388000000,
+      "updated": 1781395200000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm9201772|Rogin Rashidan",
@@ -146829,2624 +146825,6 @@
           "cost": 320000
         }
       }
-    },
-    {
-      "id": "zzz-remielle",
-      "n": "Remielle",
-      "localizedNames": {
-        "zh": "\u857e\u7c73\u57c3\u5c14"
-      },
-      "slug": "remielle",
-      "updated": 1778536800000,
-      "sourceOrder": 0,
-      "voiceActors": {
-        "english": "Amber Lee Connors",
-        "japanese": "Onishi Saori"
-      },
-      "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle67.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/remielle-e8b52d52cf40.webp",
-      "card": "../../Database/Prydwen/zzz/assets/characters/remielle-e8b52d52cf40.webp",
-      "status": "beta",
-      "labels": [
-        "3.x"
-      ],
-      "r": "S",
-      "el": "Lumiflux",
-      "spec": "Anomaly",
-      "tag": "Unknown",
-      "baseStats": {
-        "level1": {
-          "hp": 602,
-          "atk": 124,
-          "def": 48,
-          "critRate": 0.05,
-          "critDmg": 0.5,
-          "impact": 83,
-          "anomalyProficiency": 115,
-          "anomalyMastery": 116
-        },
-        "max": {
-          "level": 60,
-          "hp": 7482.71,
-          "atk": 748.46,
-          "def": 600.59,
-          "critRate": 0.05,
-          "critDmg": 0.5,
-          "impact": 83,
-          "anomalyProficiency": 115,
-          "anomalyMastery": 116
-        }
-      },
-      "facts": {
-        "faction": "Covenant of Dayat"
-      },
-      "skillIcons": [
-        "../../Database/GameData/zzz/assets/skills/Icon_Normal.webp",
-        "../../Database/GameData/zzz/assets/skills/Icon_Evade.webp",
-        "../../Database/GameData/zzz/assets/skills/Icon_Switch.webp",
-        "../../Database/GameData/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
-        "../../Database/GameData/zzz/assets/skills/Icon_UltimateReady.webp"
-      ],
-      "kit": {
-        "source": "Game data",
-        "channel": "beta",
-        "version": "3.1.5+17516165",
-        "sections": [
-          {
-            "title": "Skills",
-            "entries": [
-              {
-                "name": "Basic Attack: Flutter",
-                "type": "Basic",
-                "desc": "Press to activate:\nPerform up to 4 consecutive attacks forward, dealing Lumen Attribute DMG;\nIf a Basic Attack hits the target, the Character recovers [Plume Gauge] after the skill ends;\nThe 4th Basic Attack hit applies 1 [Lumen Buildup Point] to the target.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "1st-Hit DMG Multiplier",
-                        "values": [
-                          "31.2%",
-                          "34.1%",
-                          "37%",
-                          "39.9%",
-                          "42.8%",
-                          "45.7%",
-                          "48.6%",
-                          "51.5%",
-                          "54.4%",
-                          "57.3%",
-                          "60.2%",
-                          "63.1%"
-                        ]
-                      },
-                      {
-                        "label": "2nd-Hit DMG Multiplier",
-                        "values": [
-                          "54.5%",
-                          "59.5%",
-                          "64.5%",
-                          "69.5%",
-                          "74.5%",
-                          "79.5%",
-                          "84.5%",
-                          "89.5%",
-                          "94.5%",
-                          "99.5%",
-                          "104.5%",
-                          "109.5%"
-                        ]
-                      },
-                      {
-                        "label": "3rd-Hit DMG Multiplier",
-                        "values": [
-                          "84.3%",
-                          "92%",
-                          "99.7%",
-                          "107.4%",
-                          "115.1%",
-                          "122.8%",
-                          "130.5%",
-                          "138.2%",
-                          "145.9%",
-                          "153.6%",
-                          "161.3%",
-                          "169%"
-                        ]
-                      },
-                      {
-                        "label": "4th-Hit DMG Multiplier",
-                        "values": [
-                          "250.8%",
-                          "273.6%",
-                          "296.4%",
-                          "319.2%",
-                          "342%",
-                          "364.8%",
-                          "387.6%",
-                          "410.4%",
-                          "433.2%",
-                          "456%",
-                          "478.8%",
-                          "501.6%"
-                        ]
-                      },
-                      {
-                        "label": "1st-Hit Daze Multiplier",
-                        "values": [
-                          "12.2%",
-                          "12.8%",
-                          "13.4%",
-                          "14%",
-                          "14.6%",
-                          "15.2%",
-                          "15.8%",
-                          "16.4%",
-                          "17%",
-                          "17.6%",
-                          "18.2%",
-                          "18.8%"
-                        ]
-                      },
-                      {
-                        "label": "2nd-Hit Daze Multiplier",
-                        "values": [
-                          "28.2%",
-                          "29.5%",
-                          "30.8%",
-                          "32.1%",
-                          "33.4%",
-                          "34.7%",
-                          "36%",
-                          "37.3%",
-                          "38.6%",
-                          "39.9%",
-                          "41.2%",
-                          "42.5%"
-                        ]
-                      },
-                      {
-                        "label": "3rd-Hit Daze Multiplier",
-                        "values": [
-                          "49.3%",
-                          "51.6%",
-                          "53.9%",
-                          "56.2%",
-                          "58.5%",
-                          "60.8%",
-                          "63.1%",
-                          "65.4%",
-                          "67.7%",
-                          "70%",
-                          "72.3%",
-                          "74.6%"
-                        ]
-                      },
-                      {
-                        "label": "4th-Hit Daze Multiplier",
-                        "values": [
-                          "126.6%",
-                          "132.4%",
-                          "138.2%",
-                          "144%",
-                          "149.8%",
-                          "155.6%",
-                          "161.4%",
-                          "167.2%",
-                          "173%",
-                          "178.8%",
-                          "184.6%",
-                          "190.4%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Basic Attack: Solo Dance",
-                "type": "Basic",
-                "desc": "Hold to activate:\nPerform a wide-range Slash forward, dealing Lumiflux Attribute DMG;\nIf the skill hits a target, the Character recovers [Feather Gauge] after the skill ends.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "96.5%",
-                          "105.3%",
-                          "114.1%",
-                          "122.9%",
-                          "131.7%",
-                          "140.5%",
-                          "149.3%",
-                          "158.1%",
-                          "166.9%",
-                          "175.7%",
-                          "184.5%",
-                          "193.3%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "81.6%",
-                          "85.4%",
-                          "89.2%",
-                          "93%",
-                          "96.8%",
-                          "100.6%",
-                          "104.4%",
-                          "108.2%",
-                          "112%",
-                          "115.8%",
-                          "119.6%",
-                          "123.4%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Basic Attack: Trailing Rainbow",
-                "type": "Basic",
-                "desc": "When the Character has [Void Radiance] stored, hold to activate:\nLaunch a powerful large area attack forward, dealing Lumiflux Attribute DMG;\nAfter the skill ends, restore a large amount of [Plume Gauge] for the Character;\nIf the attack hits a target, trigger the [Luminize] effect after the skill ends, with a multiplier of {CAL:110+AvatarSkillLevel(0)*3,1,2}%;\nAll stored [Void Radiance] will be cleared upon activation.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "195%",
-                          "212.8%",
-                          "230.6%",
-                          "248.4%",
-                          "266.2%",
-                          "284%",
-                          "301.8%",
-                          "319.6%",
-                          "337.4%",
-                          "355.2%",
-                          "373%",
-                          "390.8%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "165%",
-                          "172.5%",
-                          "180%",
-                          "187.5%",
-                          "195%",
-                          "202.5%",
-                          "210%",
-                          "217.5%",
-                          "225%",
-                          "232.5%",
-                          "240%",
-                          "247.5%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Basic Attack: Fleeting Crane",
-                "type": "Basic",
-                "desc": "When the Character has stored [Void Radiance] and is in the [Mirror Radiance] state, hold to activate:\nLaunch a powerful large area attack forward, dealing Lumen Attribute DMG;\nAfter the skill ends, restore a large amount of [Feather Gauge] for the Character;\nIf it hits a target, the [Luminize] effect can be triggered after the skill ends, with a multiplier of {CAL:220+AvatarSkillLevel(0)*5,1,2}%;\nAfter activation, all stored [Void Radiance] will be cleared.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "597.2%",
-                          "651.5%",
-                          "705.8%",
-                          "760.1%",
-                          "814.4%",
-                          "868.7%",
-                          "923%",
-                          "977.3%",
-                          "1031.6%",
-                          "1085.9%",
-                          "1140.2%",
-                          "1194.5%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "388.7%",
-                          "406.4%",
-                          "424.1%",
-                          "441.8%",
-                          "459.5%",
-                          "477.2%",
-                          "494.9%",
-                          "512.6%",
-                          "530.3%",
-                          "548%",
-                          "565.7%",
-                          "583.4%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Dodge: Light Suppression",
-                "type": "Dodge",
-                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
-              },
-              {
-                "name": "Dash Attack: Sharp Edge",
-                "type": "Dodge",
-                "desc": "Press during a dodge to activate:\nDeliver a quick attack forward, dealing Lumen DMG.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "39%",
-                          "42.6%",
-                          "46.2%",
-                          "49.8%",
-                          "53.4%",
-                          "57%",
-                          "60.6%",
-                          "64.2%",
-                          "67.8%",
-                          "71.4%",
-                          "75%",
-                          "78.6%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "33%",
-                          "34.5%",
-                          "36%",
-                          "37.5%",
-                          "39%",
-                          "40.5%",
-                          "42%",
-                          "43.5%",
-                          "45%",
-                          "46.5%",
-                          "48%",
-                          "49.5%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Dodge Counter: Shadow",
-                "type": "Dodge",
-                "desc": "Press during a Perfect Dodge to activate:\nExecutes a powerful slash on the target, dealing Lumen DMG.\nCharacter is invulnerable while using this skill.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "214.5%",
-                          "234%",
-                          "253.5%",
-                          "273%",
-                          "292.5%",
-                          "312%",
-                          "331.5%",
-                          "351%",
-                          "370.5%",
-                          "390%",
-                          "409.5%",
-                          "429%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "165%",
-                          "172.5%",
-                          "180%",
-                          "187.5%",
-                          "195%",
-                          "202.5%",
-                          "210%",
-                          "217.5%",
-                          "225%",
-                          "232.5%",
-                          "240%",
-                          "247.5%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Quick Assist: Reborn From Ashes",
-                "type": "Assist",
-                "desc": "When the active character is launched, press to activate:\nSlash the target, dealing Lumiflux DMG.\nCharacter is invulnerable while using this skill.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "32.5%",
-                          "35.5%",
-                          "38.5%",
-                          "41.5%",
-                          "44.5%",
-                          "47.5%",
-                          "50.5%",
-                          "53.5%",
-                          "56.5%",
-                          "59.5%",
-                          "62.5%",
-                          "65.5%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "27.5%",
-                          "28.8%",
-                          "30.1%",
-                          "31.4%",
-                          "32.7%",
-                          "34%",
-                          "35.3%",
-                          "36.6%",
-                          "37.9%",
-                          "39.2%",
-                          "40.5%",
-                          "41.8%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Defensive Assist: Flickering Shadow",
-                "type": "Assist",
-                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "Light Defensive Daze Multiplier",
-                        "values": [
-                          "271.3%",
-                          "283.7%",
-                          "296.1%",
-                          "308.5%",
-                          "320.9%",
-                          "333.3%",
-                          "345.7%",
-                          "358.1%",
-                          "370.5%",
-                          "382.9%",
-                          "395.3%",
-                          "407.7%"
-                        ]
-                      },
-                      {
-                        "label": "Heavy Defensive Daze Multiplier",
-                        "values": [
-                          "342.8%",
-                          "358.4%",
-                          "374%",
-                          "389.6%",
-                          "405.2%",
-                          "420.8%",
-                          "436.4%",
-                          "452%",
-                          "467.6%",
-                          "483.2%",
-                          "498.8%",
-                          "514.4%"
-                        ]
-                      },
-                      {
-                        "label": "Chain Defensive Daze Multiplier",
-                        "values": [
-                          "166.8%",
-                          "174.4%",
-                          "182%",
-                          "189.6%",
-                          "197.2%",
-                          "204.8%",
-                          "212.4%",
-                          "220%",
-                          "227.6%",
-                          "235.2%",
-                          "242.8%",
-                          "250.4%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Assist Follow-Up: Twilight's Last Flicker",
-                "type": "Assist",
-                "desc": "Press after a Defensive Assist to activate:\nUnleash a series of slashes on the target, dealing Lumen DMG.\nCharacter is invulnerable while using this skill.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "381.1%",
-                          "415.8%",
-                          "450.5%",
-                          "485.2%",
-                          "519.9%",
-                          "554.6%",
-                          "589.3%",
-                          "624%",
-                          "658.7%",
-                          "693.4%",
-                          "728.1%",
-                          "762.8%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "277.6%",
-                          "290.3%",
-                          "303%",
-                          "315.7%",
-                          "328.4%",
-                          "341.1%",
-                          "353.8%",
-                          "366.5%",
-                          "379.2%",
-                          "391.9%",
-                          "404.6%",
-                          "417.3%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Assist: Petal Feather Waltz",
-                "type": "Assist",
-                "desc": "Enter and launch a large area attack, dealing Lumen Attribute DMG;\nConsumes 40 [New Feather Value] upon activation. If the remaining [New Feather Value] is equal to or less than 90 at the time of activation, this [Assist: Feather Petal Waltz] no longer consumes [New Feather Value], and the character enters the [Radiant Glow] state. The next use of [Basic Attack: Cascading Rainbow] will be upgraded to [Basic Attack: Startled Swan];\nWhen the skill hits an enemy in a Stunned state, the enemy's Stun duration is extended by 3s. Each enemy can only receive this effect once per Stun state, and this Stun duration extension effect cannot stack with effects of the same type;\nIf a target is hit, the [Luminize] effect can be triggered after the skill ends, with a multiplier of {CAL:220+AvatarSkillLevel(6)*5,1,2}%;\nCharacter is invulnerable while using this skill.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "453.5%",
-                          "494.8%",
-                          "536.1%",
-                          "577.4%",
-                          "618.7%",
-                          "660%",
-                          "701.3%",
-                          "742.6%",
-                          "783.9%",
-                          "825.2%",
-                          "866.5%",
-                          "907.8%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "295.2%",
-                          "308.7%",
-                          "322.2%",
-                          "335.7%",
-                          "349.2%",
-                          "362.7%",
-                          "376.2%",
-                          "389.7%",
-                          "403.2%",
-                          "416.7%",
-                          "430.2%",
-                          "443.7%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Special Attack: Twilight",
-                "type": "Special",
-                "desc": "Press to activate:\nLaunch a ranged attack forward, dealing Lumiflux Attribute DMG.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "49.9%",
-                          "54.5%",
-                          "59.1%",
-                          "63.7%",
-                          "68.3%",
-                          "72.9%",
-                          "77.5%",
-                          "82.1%",
-                          "86.7%",
-                          "91.3%",
-                          "95.9%",
-                          "100.5%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "42.2%",
-                          "44.2%",
-                          "46.2%",
-                          "48.2%",
-                          "50.2%",
-                          "52.2%",
-                          "54.2%",
-                          "56.2%",
-                          "58.2%",
-                          "60.2%",
-                          "62.2%",
-                          "64.2%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "EX Special Attack: Dawn Exaltation",
-                "type": "Special",
-                "desc": "With enough Energy, press to activate:\nUpon entering the battlefield, if the user's Energy is below 60, restore it to 60. In Investigation Zone mode, this effect can trigger at most once every 180 seconds;\nLaunch a large area attack forward, dealing Lumen Attribute DMG;\nAfter the skill ends, apply 2 [Lumen Buildup Points] to hit enemies;\nCharacter is invulnerable while using this skill.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "721.5%",
-                          "787.1%",
-                          "852.7%",
-                          "918.3%",
-                          "983.9%",
-                          "1049.5%",
-                          "1115.1%",
-                          "1180.7%",
-                          "1246.3%",
-                          "1311.9%",
-                          "1377.5%",
-                          "1443.1%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "283.3%",
-                          "296.2%",
-                          "309.1%",
-                          "322%",
-                          "334.9%",
-                          "347.8%",
-                          "360.7%",
-                          "373.6%",
-                          "386.5%",
-                          "399.4%",
-                          "412.3%",
-                          "425.2%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Special Attack: Dawn's Exaltation \u00b7 Radiant Turn",
-                "type": "Special",
-                "desc": "Hold to activate:\nIf Remie's [New Feather Value] reaches the maximum of 120 points, she can enter [Shift Stance] after a [Special Attack] or [EX Special Attack]. When switching characters during [Shift Stance], she will enter [Phase-Shift Flow]:\nWhile in [Phase-Shift Flow], Remie acts autonomously to assist in combat, and some of her attacks can apply [Lumen Buildup Points] to targets. [New Feather Value] is consumed over time while in [Phase-Shift Flow]. When [New Feather Value] is fully depleted, [Phase-Shift Flow] ends. Before exiting [Phase-Shift Flow], Remie can only be switched in via [Chain Attack];\nIf Remie triggers 3 Lumen Attribute [Mutation] reactions while in [Phase-Shift Flow], or has at least 1 stored [Void Radiance] when her [New Feather Value] is depleted, [Assist: Petal Feather Waltz] is activated. Once activated, Normal Switch-In is unlocked, and Remie will automatically trigger [Assist: Petal Feather Waltz] on her next Normal Switch-In;\nUpon entering [Phase-Shift Flow], Remie grants all squad members a DMG dealt increase of {CAL:0+AvatarSkillLevel(1)*1.5,1,2}% for 60s; repeated triggers reset the duration;\nIf Remie's [New Feather Value] reaches the maximum of 120 points and her [Special Attack] or [EX Special Attack] hits a Stunned enemy, switching characters during the [Special Attack] or [EX Special Attack] can also trigger [Phase-Shift Flow];\nIf no character switch is made after entering [Shift Stance], Remie performs a downward attack to land on the ground.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "164.7%",
-                          "179.7%",
-                          "194.7%",
-                          "209.7%",
-                          "224.7%",
-                          "239.7%",
-                          "254.7%",
-                          "269.7%",
-                          "284.7%",
-                          "299.7%",
-                          "314.7%",
-                          "329.7%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "69.7%",
-                          "72.9%",
-                          "76.1%",
-                          "79.3%",
-                          "82.5%",
-                          "85.7%",
-                          "88.9%",
-                          "92.1%",
-                          "95.3%",
-                          "98.5%",
-                          "101.7%",
-                          "104.9%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Chain Attack: Overlapping Dance Steps",
-                "type": "Chain",
-                "desc": "When a Chain Attack is triggered, select the character to activate:\nLaunches a multi-hit large area attack forward, dealing Lumen Attribute DMG;\nUpon activation, the character enters [Radiant Gleam] state, upgrading the next [Basic Attack: Cascading Rainbow] to [Basic Attack: Fleeting Grace];\nAfter the skill ends, applies 2 [Lumen Buildup Points] to hit enemies;\nCharacter is invulnerable while using this skill.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "785.2%",
-                          "856.6%",
-                          "928%",
-                          "999.4%",
-                          "1070.8%",
-                          "1142.2%",
-                          "1213.6%",
-                          "1285%",
-                          "1356.4%",
-                          "1427.8%",
-                          "1499.2%",
-                          "1570.6%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "225.5%",
-                          "235.8%",
-                          "246.1%",
-                          "256.4%",
-                          "266.7%",
-                          "277%",
-                          "287.3%",
-                          "297.6%",
-                          "307.9%",
-                          "318.2%",
-                          "328.5%",
-                          "338.8%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Ultimate: Curtain Call of Chaos",
-                "type": "Chain",
-                "desc": "When Decibel Rating is at Maximum, press to activate:\nPerform a large area attack forward, dealing Lumen Attribute DMG;\nIf the attack hits a target, the Luminize effect can be triggered after the skill ends, with a multiplier of {CAL:230+AvatarSkillLevel(3)*5.2,1,2}%;\nCharacter is invulnerable while using this skill.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "2009.7%",
-                          "2192.4%",
-                          "2375.1%",
-                          "2557.8%",
-                          "2740.5%",
-                          "2923.2%",
-                          "3105.9%",
-                          "3288.6%",
-                          "3471.3%",
-                          "3654%",
-                          "3836.7%",
-                          "4019.4%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "260.4%",
-                          "272.3%",
-                          "284.2%",
-                          "296.1%",
-                          "308%",
-                          "319.9%",
-                          "331.8%",
-                          "343.7%",
-                          "355.6%",
-                          "367.5%",
-                          "379.4%",
-                          "391.3%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "title": "Core Skill",
-            "entries": [
-              {
-                "name": "Core Passive: Chromatic Stasis",
-                "type": "Core Passive",
-                "desc": "Remie's [Mutation Coefficient] is 0.01% of her own Anomaly Proficiency. When the number of [Anomaly] Characters in the team is 3, the [Mutation Coefficient] is additionally increased by 15%;\nWhen a teammate triggers a Lumen Attribute [Mutation] reaction, Remie generates [Phantom Radiance] based on the [Anomaly Buildup Intensity] of that Attribute Anomaly effect after being enhanced by [Mutation]. Up to 3 of the most recently generated [Phantom Radiance] can be stored;\nIf [Assist Skill: Feather Waltz]/[Ultimate: Brilliant Finale]/[Basic Attack: Cascade]/[Basic Attack: Fleeting Grace] hits a target, the [Luminize] effect can be triggered after the skill ends:\nBased on the [Anomaly Buildup Intensity] of all stored [Phantom Radiance], deal Attribute Anomaly DMG to enemies at the corresponding multiplier of the skill, and increase this DMG Multiplier based on 0.2% of own Anomaly Proficiency;\nWhen the Character enters [Phase-Shift Flow] or after using [Basic Attack: Cascade] or [Basic Attack: Fleeting Grace], all stored [Phantom Radiance] will be cleared.",
-                "levels": [
-                  {
-                    "label": "Lv. 1",
-                    "text": "Remie's [Mutation Coefficient] is 0.01% of her own Anomaly Proficiency. When the number of [Anomaly] Characters in the team is 3, the [Mutation Coefficient] is additionally increased by 15%;\nWhen a teammate triggers a Lumen Attribute [Mutation] reaction, Remie generates [Phantom Radiance] based on the [Anomaly Buildup Intensity] of that Attribute Anomaly effect after being enhanced by [Mutation]. Up to 3 of the most recently generated [Phantom Radiance] can be stored;\nIf [Assist Skill: Feather Waltz]/[Ultimate: Brilliant Finale]/[Basic Attack: Cascade]/[Basic Attack: Fleeting Grace] hits a target, the [Luminize] effect can be triggered after the skill ends:\nBased on the [Anomaly Buildup Intensity] of all stored [Phantom Radiance], deal Attribute Anomaly DMG to enemies at the corresponding multiplier of the skill, and increase this DMG Multiplier based on 0.1% of own Anomaly Proficiency;\nWhen the Character enters [Phase-Shift Flow] or after using [Basic Attack: Cascade] or [Basic Attack: Fleeting Grace], all stored [Phantom Radiance] will be cleared."
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "Remie's [Mutation Coefficient] is 0.01% of her own Anomaly Proficiency. When the number of [Anomaly] Characters in the team is 3, the [Mutation Coefficient] is additionally increased by 15%;\nWhen a teammate triggers a Lumen Attribute [Mutation] reaction, Remie generates [Voidglow] based on the [Anomaly Intensity] of the Attribute Anomaly effect after being enhanced by [Mutation]. Up to 3 of the most recently generated [Voidglow] can be stored;\nIf [Assist: Feather Ring Dance]/[Ultimate: Turbulent Final Act]/[Basic Attack: Cascade]/[Basic Attack: Fleeting Grace] hits a target, the [Luminize] effect can be triggered after the skill ends:\nBased on the [Anomaly Intensity] of all stored [Voidglow], deal Attribute Anomaly DMG to enemies at the corresponding multiplier of the skill, and increase this DMG Multiplier based on 0.12% of own Anomaly Proficiency;\nWhen the Character enters [Phase-Shift Flow] state or after using [Basic Attack: Cascade] or [Basic Attack: Fleeting Grace], all stored [Voidglow] will be cleared."
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "Remie's [Mutation Coefficient] is 0.01% of her own Anomaly Proficiency. When the number of [Anomaly] Characters in the team is 3, the [Mutation Coefficient] is additionally increased by 15%;\nWhen a teammate triggers a Lumen Attribute [Mutation] reaction of the Character, Remie generates [Void Radiance] based on the [Anomaly Buildup Intensity] of the Attribute Anomaly effect after being enhanced by [Mutation]. Up to 3 of the most recently generated [Void Radiance] can be stored;\nIf [Assist Skill: Feather Waltz]/[Ultimate: Turbulent Finale]/[Basic Attack: Falling Rainbow]/[Basic Attack: Fleeting Grace] hits a target, the [Luminize] effect can be triggered after the skill ends:\nBased on the [Anomaly Buildup Intensity] among all stored [Void Radiance], deal Attribute Anomaly DMG to enemies at the corresponding multiplier of the skill, and increase this DMG Multiplier based on 0.14% of own Anomaly Proficiency;\nWhen the Character enters the [Phase-Shift Flow] state, or after triggering [Basic Attack: Falling Rainbow] or [Basic Attack: Fleeting Grace], all stored [Void Radiance] will be cleared."
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "Remie's [Mutation Coefficient] is 0.01% of her own Anomaly Proficiency. When the number of [Anomaly] Characters in the team is 3, the [Mutation Coefficient] is additionally increased by 15%;\nWhen a teammate triggers a Lumen Attribute [Mutation] reaction of the Character, Remie generates [Void Radiance] based on the [Anomaly Buildup Intensity] of the Attribute Anomaly effect after being enhanced by [Mutation]. Up to 3 of the most recently generated [Void Radiance] can be stored;\nIf [Assist Skill: Feather Waltz]/[Ultimate: Turbulent Finale]/[Basic Attack: Falling Rainbow]/[Basic Attack: Fleeting Grace] hits a target, the [Luminize] effect can be triggered after the skill ends:\nBased on the [Anomaly Buildup Intensity] among all stored [Void Radiance], deal Attribute Anomaly DMG to enemies at the corresponding multiplier of the skill, and increase this DMG Multiplier based on 0.15% of own Anomaly Proficiency;\nWhen the Character enters the [Phase-Shift Flow] state, or after triggering [Basic Attack: Falling Rainbow] or [Basic Attack: Fleeting Grace], all stored [Void Radiance] will be cleared."
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "Remie's [Mutation Coefficient] is 0.01% of her own Anomaly Proficiency. When the number of [Anomaly] Characters in the team is 3, the [Mutation Coefficient] is additionally increased by 15%;\nWhen a teammate triggers a Lumen Attribute [Mutation] reaction, Remie generates [Voidglow] based on the [Anomaly Intensity] of the Attribute Anomaly effect after being enhanced by [Mutation]. Up to 3 of the most recently generated [Voidglow] can be stored;\nIf [Assist: Feather Ring Dance]/[Ultimate: Turbulent Final Act]/[Basic Attack: Cascade]/[Basic Attack: Fleeting Grace] hits a target, the [Luminize] effect can be triggered after the skill ends:\nBased on the [Anomaly Intensity] of all stored [Voidglow], deal Attribute Anomaly DMG to enemies at the corresponding multiplier of the skill, and increase this DMG Multiplier based on 0.16% of own Anomaly Proficiency;\nWhen the Character enters [Phase-Shift Flow] state or after using [Basic Attack: Cascade] or [Basic Attack: Fleeting Grace], all stored [Voidglow] will be cleared."
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "Remie's [Mutation Coefficient] is 0.01% of her own Anomaly Proficiency. When the number of [Anomaly] Characters in the team is 3, the [Mutation Coefficient] is additionally increased by 15%;\nWhen a teammate triggers a Lumen Attribute [Mutation] reaction, Remie generates [Voidglow] based on the [Anomaly Intensity] of the Attribute Anomaly effect after being enhanced by [Mutation]. Up to 3 of the most recently generated [Voidglow] can be stored;\nIf [Assist: Feather Ring Dance]/[Ultimate: Turbulent Final Act]/[Basic Attack: Cascade]/[Basic Attack: Fleeting Grace] hits a target, the [Luminize] effect can be triggered after the skill ends:\nBased on the [Anomaly Intensity] of all stored [Voidglow], deal Attribute Anomaly DMG to enemies at the corresponding multiplier of the skill, and increase this DMG Multiplier based on 0.18% of own Anomaly Proficiency;\nWhen the Character enters [Phase-Shift Flow] state or after using [Basic Attack: Cascade] or [Basic Attack: Fleeting Grace], all stored [Voidglow] will be cleared."
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "Remie's [Mutation Coefficient] is 0.01% of her own Anomaly Proficiency. When the number of [Anomaly] Characters in the team is 3, the [Mutation Coefficient] is additionally increased by 15%;\nWhen a teammate triggers a Lumen Attribute [Mutation] reaction, Remie generates [Phantom Radiance] based on the [Anomaly Buildup Intensity] of that Attribute Anomaly effect after being enhanced by [Mutation]. Up to 3 of the most recently generated [Phantom Radiance] can be stored;\nIf [Assist Skill: Feather Waltz]/[Ultimate: Brilliant Finale]/[Basic Attack: Cascade]/[Basic Attack: Fleeting Grace] hits a target, the [Luminize] effect can be triggered after the skill ends:\nBased on the [Anomaly Buildup Intensity] of all stored [Phantom Radiance], deal Attribute Anomaly DMG to enemies at the corresponding multiplier of the skill, and increase this DMG Multiplier based on 0.2% of own Anomaly Proficiency;\nWhen the Character enters [Phase-Shift Flow] or after using [Basic Attack: Cascade] or [Basic Attack: Fleeting Grace], all stored [Phantom Radiance] will be cleared."
-                  }
-                ]
-              },
-              {
-                "name": "Additional Ability: Phee's Invitation",
-                "type": "Additional Ability",
-                "desc": "Triggers when another [Anomaly] Character or same-Faction Character exists in your squad:\nWhen the number of [Anomaly] Characters in your squad is 1/2/3, entering the battlefield grants all squad members a boost to ATK equal to 7.5%/15%/40% of Remie's initial ATK, with a cap of 1,600, and Daze dealt by this character while in the [Phase Flux] state is increased by 7.5%/15%/35%;\nAdditionally, when this character applies [Lumen Buildup Point] to an enemy, they also inflict the [Phantachrome] effect on that enemy: While under the [Phantachrome] effect, when an enemy takes Attribute Anomaly DMG, their Anomaly Buildup Rate is increased by 15%. When the enemy has no [Lumen Buildup Point], the [Phantachrome] effect expires. After the [Phantachrome] effect expires, the Anomaly Buildup Rate increase when the enemy takes Attribute Anomaly DMG persists for an additional 8 seconds.",
-                "levels": []
-              }
-            ]
-          },
-          {
-            "title": "Mindscape Cinema",
-            "entries": [
-              {
-                "name": "Green Vow",
-                "type": "Mindscape 1",
-                "desc": "When Remie enters the battlefield, she gains the maximum amount of Special [Radiance]. In Investigation Zone mode, this effect can trigger once every 180 seconds. When Remie triggers the [Luminize] effect, she ignores 50% of the target's All-Attribute RES. When using [Assist: Feather Wheel Dance], she gains 200 Decibels, and this effect can trigger at most once every 18 seconds. While Remie is in the [Phase Shift Flow] state, Attribute Anomaly Damage Dealt by teammates is increased by 10%."
-              },
-              {
-                "name": "Cascading Clamor",
-                "type": "Mindscape 2",
-                "desc": "Remie's [Refringence] increases to 2. When triggering a [Refringe] reaction, up to 2 [Lumen Buildup Points] will be consumed. When 2 [Lumen Buildup Points] are consumed, the [Mutation Coefficient] of this [Refringe] increases by 25%.\nAdditionally, while the character is in the [Phase Flux] state, the frequency at which auto-activated Support Skills apply [Lumen Buildup Points] to enemies increases, and the number of [Lumen Buildup Points] applied per skill also increases from 1 to 2."
-              },
-              {
-                "name": "Garden of Diverging Time",
-                "type": "Mindscape 3",
-                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
-              },
-              {
-                "name": "The Long Goodbye",
-                "type": "Mindscape 4",
-                "desc": "When Remie triggers the [Luminize] effect, DMG Multiplier is additionally increased by 12%; after Remie enters the battlefield and gains the maximum number of special [Void Radiance], if all [Void Radiance] are consumed within 30s, the maximum number of special [Void Radiance] can be obtained once more. The effect of gaining special [Void Radiance] again disappears after triggering 1 time or when Remie enters the [Phase-Shift Flow] state."
-              },
-              {
-                "name": "The Wayfarer Drinks Deep of Oblivion",
-                "type": "Mindscape 5",
-                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
-              },
-              {
-                "name": "Wings of a Thousand Beats",
-                "type": "Mindscape 6",
-                "desc": "When Remie uses [Basic Attack: Drooping Rainbow] and [Basic Attack: Fleeting Swan], she triggers the [Luminize] effect 2 times; if the 4th hit of [Basic Attack] lands on a target, Remie gains 3 special [Void Radiance] after the skill ends. The DMG dealt by special [Void Radiance] obtained this way is 20% of that from special [Void Radiance] gained upon entering the battlefield."
-              }
-            ]
-          }
-        ]
-      },
-      "req": {
-        "ascension": [
-          {
-            "id": "100213",
-            "name": "Basic Anomaly Certification Seal",
-            "qty": 4,
-            "rar": 1,
-            "kind": "gem",
-            "icon": "../../Database/GameData/zzz/assets/items/AvatarRankBuff01.webp",
-            "source": "Combat Simulation - Agent Promotion",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Promotion"
-              }
-            ]
-          },
-          {
-            "id": "100223",
-            "name": "Advanced Anomaly Certification Seal",
-            "qty": 32,
-            "rar": 3,
-            "kind": "gem",
-            "icon": "../../Database/GameData/zzz/assets/items/AvatarRankBuff02.webp",
-            "source": "Combat Simulation - Agent Promotion",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Promotion"
-              }
-            ]
-          },
-          {
-            "id": "100233",
-            "name": "Controller Certification Seal",
-            "qty": 30,
-            "rar": 4,
-            "kind": "gem",
-            "icon": "../../Database/GameData/zzz/assets/items/AvatarRankBuff03.webp",
-            "source": "Combat Simulation - Agent Promotion",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Promotion"
-              }
-            ]
-          }
-        ],
-        "talents": [
-          {
-            "id": "100117",
-            "name": "Basic Lumiflux Chip",
-            "qty": 25,
-            "rar": 1,
-            "kind": "book",
-            "icon": null,
-            "source": "Combat Simulation - Agent Skills",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Skills"
-              }
-            ]
-          },
-          {
-            "id": "100127",
-            "name": "Advanced Lumiflux Chip",
-            "qty": 75,
-            "rar": 3,
-            "kind": "book",
-            "icon": null,
-            "source": "Combat Simulation - Agent Skills",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Skills"
-              }
-            ]
-          },
-          {
-            "id": "100137",
-            "name": "Specialized Lumiflux Chip",
-            "qty": 250,
-            "rar": 4,
-            "kind": "book",
-            "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
-            "source": "Combat Simulation - Agent Skills",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Skills"
-              }
-            ]
-          },
-          {
-            "id": "100941",
-            "name": "Hamster Cage Pass",
-            "qty": 5,
-            "rar": 5,
-            "kind": "crown",
-            "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
-            "source": "Event / New Eridu City Fund",
-            "sourceDetails": [
-              {
-                "name": "Event / New Eridu City Fund"
-              }
-            ]
-          },
-          {
-            "id": "110010",
-            "name": "Timeworn Husk",
-            "qty": 9,
-            "rar": 5,
-            "kind": "weekly",
-            "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss010.webp",
-            "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss010.webp",
-            "source": "Girtablullu",
-            "sourceDetails": [
-              {
-                "name": "Girtablullu",
-                "icon": "../../Database/GameData/zzz/assets/monsters/Monster_Girtablu.webp"
-              }
-            ]
-          },
-          {
-            "id": "110515",
-            "name": "Higher Dimensional Data: Deep Erosion Circuit",
-            "qty": 60,
-            "rar": 4,
-            "kind": "boss",
-            "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss015.webp",
-            "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss015.webp",
-            "source": "the Airspace Sentinel / Expert Challenge",
-            "sourceDetails": [
-              {
-                "name": "Airspace Sentinel",
-                "icon": "../../Database/GameData/zzz/assets/monsters/Monster_Sentinel.webp"
-              },
-              {
-                "name": "Expert Challenge"
-              }
-            ]
-          }
-        ],
-        "talentStages": [
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "100117",
-                  "name": "Basic Lumiflux Chip",
-                  "qty": 2,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": null,
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 3000,
-              "items": [
-                {
-                  "id": "100117",
-                  "name": "Basic Lumiflux Chip",
-                  "qty": 3,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": null,
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 6000,
-              "items": [
-                {
-                  "id": "100127",
-                  "name": "Advanced Lumiflux Chip",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": null,
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 9000,
-              "items": [
-                {
-                  "id": "100127",
-                  "name": "Advanced Lumiflux Chip",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": null,
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 12000,
-              "items": [
-                {
-                  "id": "100127",
-                  "name": "Advanced Lumiflux Chip",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": null,
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 18000,
-              "items": [
-                {
-                  "id": "100127",
-                  "name": "Advanced Lumiflux Chip",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": null,
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "100137",
-                  "name": "Specialized Lumiflux Chip",
-                  "qty": 5,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 67500,
-              "items": [
-                {
-                  "id": "100137",
-                  "name": "Specialized Lumiflux Chip",
-                  "qty": 8,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 90000,
-              "items": [
-                {
-                  "id": "100137",
-                  "name": "Specialized Lumiflux Chip",
-                  "qty": 10,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 112500,
-              "items": [
-                {
-                  "id": "100137",
-                  "name": "Specialized Lumiflux Chip",
-                  "qty": 12,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 135000,
-              "items": [
-                {
-                  "id": "100137",
-                  "name": "Specialized Lumiflux Chip",
-                  "qty": 15,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                },
-                {
-                  "id": "100941",
-                  "name": "Hamster Cage Pass",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "crown",
-                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
-                  "source": "Event / New Eridu City Fund",
-                  "sourceDetails": [
-                    {
-                      "name": "Event / New Eridu City Fund"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "100117",
-                  "name": "Basic Lumiflux Chip",
-                  "qty": 2,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": null,
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 3000,
-              "items": [
-                {
-                  "id": "100117",
-                  "name": "Basic Lumiflux Chip",
-                  "qty": 3,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": null,
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 6000,
-              "items": [
-                {
-                  "id": "100127",
-                  "name": "Advanced Lumiflux Chip",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": null,
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 9000,
-              "items": [
-                {
-                  "id": "100127",
-                  "name": "Advanced Lumiflux Chip",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": null,
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 12000,
-              "items": [
-                {
-                  "id": "100127",
-                  "name": "Advanced Lumiflux Chip",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": null,
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 18000,
-              "items": [
-                {
-                  "id": "100127",
-                  "name": "Advanced Lumiflux Chip",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": null,
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "100137",
-                  "name": "Specialized Lumiflux Chip",
-                  "qty": 5,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 67500,
-              "items": [
-                {
-                  "id": "100137",
-                  "name": "Specialized Lumiflux Chip",
-                  "qty": 8,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 90000,
-              "items": [
-                {
-                  "id": "100137",
-                  "name": "Specialized Lumiflux Chip",
-                  "qty": 10,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 112500,
-              "items": [
-                {
-                  "id": "100137",
-                  "name": "Specialized Lumiflux Chip",
-                  "qty": 12,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 135000,
-              "items": [
-                {
-                  "id": "100137",
-                  "name": "Specialized Lumiflux Chip",
-                  "qty": 15,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                },
-                {
-                  "id": "100941",
-                  "name": "Hamster Cage Pass",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "crown",
-                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
-                  "source": "Event / New Eridu City Fund",
-                  "sourceDetails": [
-                    {
-                      "name": "Event / New Eridu City Fund"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "100117",
-                  "name": "Basic Lumiflux Chip",
-                  "qty": 2,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": null,
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 3000,
-              "items": [
-                {
-                  "id": "100117",
-                  "name": "Basic Lumiflux Chip",
-                  "qty": 3,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": null,
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 6000,
-              "items": [
-                {
-                  "id": "100127",
-                  "name": "Advanced Lumiflux Chip",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": null,
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 9000,
-              "items": [
-                {
-                  "id": "100127",
-                  "name": "Advanced Lumiflux Chip",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": null,
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 12000,
-              "items": [
-                {
-                  "id": "100127",
-                  "name": "Advanced Lumiflux Chip",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": null,
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 18000,
-              "items": [
-                {
-                  "id": "100127",
-                  "name": "Advanced Lumiflux Chip",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": null,
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "100137",
-                  "name": "Specialized Lumiflux Chip",
-                  "qty": 5,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 67500,
-              "items": [
-                {
-                  "id": "100137",
-                  "name": "Specialized Lumiflux Chip",
-                  "qty": 8,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 90000,
-              "items": [
-                {
-                  "id": "100137",
-                  "name": "Specialized Lumiflux Chip",
-                  "qty": 10,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 112500,
-              "items": [
-                {
-                  "id": "100137",
-                  "name": "Specialized Lumiflux Chip",
-                  "qty": 12,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 135000,
-              "items": [
-                {
-                  "id": "100137",
-                  "name": "Specialized Lumiflux Chip",
-                  "qty": 15,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                },
-                {
-                  "id": "100941",
-                  "name": "Hamster Cage Pass",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "crown",
-                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
-                  "source": "Event / New Eridu City Fund",
-                  "sourceDetails": [
-                    {
-                      "name": "Event / New Eridu City Fund"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "100117",
-                  "name": "Basic Lumiflux Chip",
-                  "qty": 2,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": null,
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 3000,
-              "items": [
-                {
-                  "id": "100117",
-                  "name": "Basic Lumiflux Chip",
-                  "qty": 3,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": null,
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 6000,
-              "items": [
-                {
-                  "id": "100127",
-                  "name": "Advanced Lumiflux Chip",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": null,
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 9000,
-              "items": [
-                {
-                  "id": "100127",
-                  "name": "Advanced Lumiflux Chip",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": null,
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 12000,
-              "items": [
-                {
-                  "id": "100127",
-                  "name": "Advanced Lumiflux Chip",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": null,
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 18000,
-              "items": [
-                {
-                  "id": "100127",
-                  "name": "Advanced Lumiflux Chip",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": null,
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "100137",
-                  "name": "Specialized Lumiflux Chip",
-                  "qty": 5,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 67500,
-              "items": [
-                {
-                  "id": "100137",
-                  "name": "Specialized Lumiflux Chip",
-                  "qty": 8,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 90000,
-              "items": [
-                {
-                  "id": "100137",
-                  "name": "Specialized Lumiflux Chip",
-                  "qty": 10,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 112500,
-              "items": [
-                {
-                  "id": "100137",
-                  "name": "Specialized Lumiflux Chip",
-                  "qty": 12,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 135000,
-              "items": [
-                {
-                  "id": "100137",
-                  "name": "Specialized Lumiflux Chip",
-                  "qty": 15,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                },
-                {
-                  "id": "100941",
-                  "name": "Hamster Cage Pass",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "crown",
-                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
-                  "source": "Event / New Eridu City Fund",
-                  "sourceDetails": [
-                    {
-                      "name": "Event / New Eridu City Fund"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "100117",
-                  "name": "Basic Lumiflux Chip",
-                  "qty": 2,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": null,
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 3000,
-              "items": [
-                {
-                  "id": "100117",
-                  "name": "Basic Lumiflux Chip",
-                  "qty": 3,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": null,
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 6000,
-              "items": [
-                {
-                  "id": "100127",
-                  "name": "Advanced Lumiflux Chip",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": null,
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 9000,
-              "items": [
-                {
-                  "id": "100127",
-                  "name": "Advanced Lumiflux Chip",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": null,
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 12000,
-              "items": [
-                {
-                  "id": "100127",
-                  "name": "Advanced Lumiflux Chip",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": null,
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 18000,
-              "items": [
-                {
-                  "id": "100127",
-                  "name": "Advanced Lumiflux Chip",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": null,
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "100137",
-                  "name": "Specialized Lumiflux Chip",
-                  "qty": 5,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 67500,
-              "items": [
-                {
-                  "id": "100137",
-                  "name": "Specialized Lumiflux Chip",
-                  "qty": 8,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 90000,
-              "items": [
-                {
-                  "id": "100137",
-                  "name": "Specialized Lumiflux Chip",
-                  "qty": 10,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 112500,
-              "items": [
-                {
-                  "id": "100137",
-                  "name": "Specialized Lumiflux Chip",
-                  "qty": 12,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 135000,
-              "items": [
-                {
-                  "id": "100137",
-                  "name": "Specialized Lumiflux Chip",
-                  "qty": 15,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                },
-                {
-                  "id": "100941",
-                  "name": "Hamster Cage Pass",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "crown",
-                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
-                  "source": "Event / New Eridu City Fund",
-                  "sourceDetails": [
-                    {
-                      "name": "Event / New Eridu City Fund"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 5000,
-              "items": []
-            },
-            {
-              "cost": 12000,
-              "items": [
-                {
-                  "id": "110515",
-                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
-                  "qty": 2,
-                  "rar": 4,
-                  "kind": "boss",
-                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss015.webp",
-                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss015.webp",
-                  "source": "the Airspace Sentinel / Expert Challenge",
-                  "sourceDetails": [
-                    {
-                      "name": "Airspace Sentinel",
-                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_Sentinel.webp"
-                    },
-                    {
-                      "name": "Expert Challenge"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 28000,
-              "items": [
-                {
-                  "id": "110515",
-                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
-                  "qty": 4,
-                  "rar": 4,
-                  "kind": "boss",
-                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss015.webp",
-                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss015.webp",
-                  "source": "the Airspace Sentinel / Expert Challenge",
-                  "sourceDetails": [
-                    {
-                      "name": "Airspace Sentinel",
-                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_Sentinel.webp"
-                    },
-                    {
-                      "name": "Expert Challenge"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 60000,
-              "items": [
-                {
-                  "id": "110010",
-                  "name": "Timeworn Husk",
-                  "qty": 2,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss010.webp",
-                  "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss010.webp",
-                  "source": "Girtablullu",
-                  "sourceDetails": [
-                    {
-                      "name": "Girtablullu",
-                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_Girtablu.webp"
-                    }
-                  ]
-                },
-                {
-                  "id": "110515",
-                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
-                  "qty": 9,
-                  "rar": 4,
-                  "kind": "boss",
-                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss015.webp",
-                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss015.webp",
-                  "source": "the Airspace Sentinel / Expert Challenge",
-                  "sourceDetails": [
-                    {
-                      "name": "Airspace Sentinel",
-                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_Sentinel.webp"
-                    },
-                    {
-                      "name": "Expert Challenge"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 100000,
-              "items": [
-                {
-                  "id": "110010",
-                  "name": "Timeworn Husk",
-                  "qty": 3,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss010.webp",
-                  "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss010.webp",
-                  "source": "Girtablullu",
-                  "sourceDetails": [
-                    {
-                      "name": "Girtablullu",
-                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_Girtablu.webp"
-                    }
-                  ]
-                },
-                {
-                  "id": "110515",
-                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
-                  "qty": 15,
-                  "rar": 4,
-                  "kind": "boss",
-                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss015.webp",
-                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss015.webp",
-                  "source": "the Airspace Sentinel / Expert Challenge",
-                  "sourceDetails": [
-                    {
-                      "name": "Airspace Sentinel",
-                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_Sentinel.webp"
-                    },
-                    {
-                      "name": "Expert Challenge"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 200000,
-              "items": [
-                {
-                  "id": "110010",
-                  "name": "Timeworn Husk",
-                  "qty": 4,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss010.webp",
-                  "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss010.webp",
-                  "source": "Girtablullu",
-                  "sourceDetails": [
-                    {
-                      "name": "Girtablullu",
-                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_Girtablu.webp"
-                    }
-                  ]
-                },
-                {
-                  "id": "110515",
-                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
-                  "qty": 30,
-                  "rar": 4,
-                  "kind": "boss",
-                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss015.webp",
-                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss015.webp",
-                  "source": "the Airspace Sentinel / Expert Challenge",
-                  "sourceDetails": [
-                    {
-                      "name": "Airspace Sentinel",
-                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_Sentinel.webp"
-                    },
-                    {
-                      "name": "Expert Challenge"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        ],
-        "ascCost": 800000,
-        "talentCost": 2905000,
-        "currency": 3705000
-      }
     }
   ],
   "midGroups": [
@@ -149543,28 +146921,6 @@
       ]
     },
     {
-      "region": "Lumiflux Chips",
-      "mats": [
-        {
-          "id": "100137",
-          "name": "Specialized Lumiflux Chip",
-          "qty": 250,
-          "rar": 4,
-          "kind": "book",
-          "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
-          "source": "Combat Simulation - Agent Skills",
-          "sourceDetails": [
-            {
-              "name": "Combat Simulation - Agent Skills"
-            }
-          ]
-        }
-      ],
-      "chars": [
-        "Remielle"
-      ]
-    },
-    {
       "region": "Physical Chips",
       "mats": [
         {
@@ -149655,7 +147011,7 @@
   ],
   "boss": {
     "title": "Notorious Hunt",
-    "count": 55
+    "count": 54
   },
   "bossGroups": [
     {
@@ -149822,7 +147178,6 @@
           "chars": [
             "Norma",
             "Pyrois",
-            "Remielle",
             "Velina"
           ]
         }
@@ -149830,7 +147185,6 @@
       "chars": [
         "Norma",
         "Pyrois",
-        "Remielle",
         "Velina"
       ]
     },
@@ -150153,7 +147507,6 @@
           "chars": [
             "Norma",
             "Pyrois",
-            "Remielle",
             "Velina"
           ]
         }

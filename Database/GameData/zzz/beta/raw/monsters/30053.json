@@ -18,13 +18,13 @@
         "ice": 1,
         "fire": 0,
         "electric": 0,
-        "ether": 1,
-        "physical": 0,
-        "wind": 0
+        "ether": 0,
+        "physical": -1,
+        "wind": 1
       },
       "stats": {
         "hp": 52410,
-        "attack": 130,
+        "attack": 144,
         "defence": 60,
         "crit": 0,
         "crit_damage": 5000,
@@ -498,15 +498,15 @@
       }
     }
   },
-  "image_path": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Stalker.png",
-  "name": "Ulydim",
-  "desc": "A notorious Ethereal prowling the depths of the Papago Hollow's \"Divine Maze.\"\nIf the Papago Hollow's \"Hallucinatory Soundfield\" is the trap that lures prey into the maze, then Ulydim is the Hound that hunts down those who fall into it.\nUlydim's special ability — and what makes it so terrifying — is its power to materialize from any location or object within the Hollow's illusion, whether from a shadowed corner of the labyrinth or a cherished memento tied to a victim's fondest memories. This allows it to deliver a devastating Strike to both the body and mind, earning it the name \"Olden Hound.\" At its core, this ability stems from Ulydim's unique power to ignore the illusions shaped by the Hallucinatory Soundfield and move freely through the Hollow's structure.\nDue to its terrifying nature and appearance, Ulydim stands as one of the most common yet most dreaded threats encountered during Papago Hollow Exploration Missions. The mere mention of its name is enough to send every Bangboo at the Papago outpost into a panic — and among them, chilling legends of Ulydim have taken on a life of their own.\nMultiple Ulydims exist within the Hollow, each assigned to patrol fixed areas and routes, maintaining the stability of the Hallucinatory Soundwaves throughout Papago Hollow. Should any intruder be detected interfering with the Hollow's steady expansion, Ulydim will pursue and eliminate the threat without hesitation.\n\"Perhaps in that endless maze with no way out, being devoured by the terrifying Hound is a mercy all its own.\"",
+  "image_path": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_Stalker.png",
+  "name": "Ulidim",
+  "desc": "A notorious Ethereal that prowls the Divine Maze of Papago Hollow.\nIf Papago Hollow's Hallucinogenic Soundscape is the trap that lures prey into the maze, then Ulidim is the hound that hunts down those unfortunate enough to become trapped inside it.\nUlidim's most terrifying ability is its power to emerge from any location or object within the Hollow's illusion, whether from a forgotten corner of the labyrinth or an old keepsake filled with a victim's cherished memories. The shock of its sudden appearance delivers a devastating blow to both body and mind, earning it the nickname \"Hound of Old.\" Its true ability lies in ignoring the illusions woven by the Hallucinogenic Soundscape and moving freely through the Hollow itself.\nBecause of its terrifying nature and appearance, Ulidim is one of the most common and most feared threats encountered during expeditions into Papago Hollow. Among the Bangboo stationed at Papago Outpost, even the mention of its name inspires fear, and frightening legends about Ulidim have spread from one Bangboo to another.\nThere are multiple Ulidim within the Hollow. Their routine task is to patrol designated areas and routes, maintaining the stability of the Hallucinogenic Soundscape. Should they detect an intruder interfering with the Hollow's stable expansion, they will immediately pursue and kill the offender.\n\"Within that labyrinth that has a beginning but no end, perhaps being devoured by the dreadful hound is a mercy in itself.\"",
   "rarity": 3,
   "group_id": 201,
   "group_desc": "Ether Mutants",
   "card_obtain": "[Unidentified] Defeat this monster in Hollow Zero 1 time to obtain its data",
-  "card_quote": "— \"Rookie's Guide to the Hollow: Papago Memoir\"",
-  "card_skill_desc": "In combat, \"Ulydim\" switches weapons based on the situation and launches surprise attacks using teleportation. Dodge its thrown spears and pull off Chain Defensives against its rapid combos to gradually seize the upper hand in the Precinct.",
+  "card_quote": "— \"Rookie's Guide to the Hollow: Papago's Memoirs\"",
+  "card_skill_desc": "In combat, Ulidim switches weapons as the battle unfolds and launches surprise attacks using teleportation. Dodge its thrown spears and perform a Chain Defensive against its relentless combos to gradually gain the upper hand. Ulidim will no longer have attribute weaknesses or resistances in Operation Bagel.",
   "element_abnormal": {
     "10001": 600,
     "10002": 600,

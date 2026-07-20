@@ -1,6 +1,6 @@
 {
   "name": "Ashamez's Thunder",
-  "desc": "",
+  "desc": "A grenade launcher that can switch between firing off Pyro, Hydro, and Cryo rounds in that order.",
   "weapon_type": "ITEM_TPS_WEAPON",
   "rarity": 4,
   "icon": "UI_EquipIcon_AssaultRifle_Fulmen",

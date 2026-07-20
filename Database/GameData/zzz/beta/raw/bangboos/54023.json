@@ -2,7 +2,7 @@
   "id": 54023,
   "code_name": "Ariel",
   "name": "Ariel",
-  "desc": "Never walk alone in the land of None.",
+  "desc": "You cannot walk alone in the darkness.",
   "rarity": 4,
   "icon": "UI/Sprite/A1DynamicLoad/BangbooModGarage/UnPacker/BangbooRole/BangbooGarageRole48.png",
   "stats": {
@@ -172,186 +172,196 @@
     "a": {
       "level": {
         "1": {
-          "name": "Flashflare",
-          "desc": "<color=#FFFFFF>[Active Skill]</color>\nUpon activating this skill, launches into the air and dashes near the target, attacking targets in a large area and pulling them in. After a short time, summons [Iridescent Cross] to deal <color=#FE437E>Ether DMG</color>. After the pull ends, based on the Number of Enemies Pulled, grants 1/2/3 random Buffs from the following:\nBuff 1: Restore Agent HP;\nBuff 2: Restore Agent Energy;\nBuff 3: Increases DMG dealt by [Iridescent Cross].",
+          "name": "Searing Flash",
+          "desc": "<color=#FFFFFF>Active Skill</color>\nFlies high into the air, then blinks to the target's vicinity, attacking and pulling in enemies across a large area. After a short time, a Prismatic Cross is generated that deals <color=#FE437E>Ether DMG</color>. Once the pull ends, gain 1/2/3 random buffs based on the number of enemies pulled (the same buff cannot be gained more than once):\nBuff 1: Restore the Agent's HP.\nBuff 2: Restore the Agent's Energy.\nBuff 3: Increase Prismatic Cross DMG.",
           "property": [
             "Buff 1: HP Recovery",
-            "Buff 2: Energy Restored",
+            "Buff 2: Restore Energy",
             "Buff 3: DMG Increase",
             "DMG Multiplier",
             "Daze Multiplier",
             "Cooldown",
             "Daze Multiplier"
           ],
-          "param": "6.6% HP|2.75 Energy|16.5%|{Skill:5402301, Prop:1001}|{Skill:5402301, Prop:1002}|28s"
+          "param": "6.6% HP|2.75 Energy|20%|{Skill:5402301, Prop:1001}|{Skill:5402301, Prop:1002}|28s"
         },
         "2": {
-          "name": "Flashflare",
-          "desc": "<color=#FFFFFF>[Active Skill]</color>\nUpon activating this skill, launches into the air and dashes near the target, attacking targets in a large area and pulling them in. After a short time, summons [Iridescent Cross] to deal <color=#FE437E>Ether DMG</color>. After the pull ends, based on the Number of Enemies Pulled, grants 1/2/3 random Buffs from the following:\nBuff 1: Restore Agent HP;\nBuff 2: Restore Agent Energy;\nBuff 3: Increases DMG dealt by [Iridescent Cross].",
+          "name": "Searing Flash",
+          "desc": "<color=#FFFFFF>Active Skill</color>\nFlies high into the air, then blinks to the target's vicinity, attacking and pulling in enemies across a large area. After a short time, a Prismatic Cross is generated that deals <color=#FE437E>Ether DMG</color>. Once the pull ends, gain 1/2/3 random buffs based on the number of enemies pulled (the same buff cannot be gained more than once):\nBuff 1: Restore the Agent's HP.\nBuff 2: Restore the Agent's Energy.\nBuff 3: Increase Prismatic Cross DMG.",
           "property": [
             "Buff 1: HP Recovery",
-            "Buff 2: Energy Restored",
+            "Buff 2: Restore Energy",
             "Buff 3: DMG Increase",
             "DMG Multiplier",
             "Daze Multiplier",
             "Cooldown",
             "Daze Multiplier"
           ],
-          "param": "7.2% HP|3 Energy|18%|{Skill:5402301, Prop:1001}|{Skill:5402301, Prop:1002}|28s"
+          "param": "7.2% HP|3 Energy|20%|{Skill:5402301, Prop:1001}|{Skill:5402301, Prop:1002}|28s"
         },
         "3": {
-          "name": "Flashflare",
-          "desc": "<color=#FFFFFF>[Active Skill]</color>\nUpon activating this skill, launches into the air and dashes near the target, attacking targets in a large area and pulling them in. After a short time, summons [Iridescent Cross] to deal <color=#FE437E>Ether DMG</color>. After the pull ends, based on the Number of Enemies Pulled, grants 1/2/3 random Buffs from the following:\nBuff 1: Restore Agent HP;\nBuff 2: Restore Agent Energy;\nBuff 3: Increases DMG dealt by [Iridescent Cross].",
+          "name": "Searing Flash",
+          "desc": "<color=#FFFFFF>Active Skill</color>\nFlies high into the air, then blinks to the target's vicinity, attacking and pulling in enemies across a large area. After a short time, a Prismatic Cross is generated that deals <color=#FE437E>Ether DMG</color>. Once the pull ends, gain 1/2/3 random buffs based on the number of enemies pulled (the same buff cannot be gained more than once):\nBuff 1: Restore the Agent's HP.\nBuff 2: Restore the Agent's Energy.\nBuff 3: Increase Prismatic Cross DMG.",
           "property": [
             "Buff 1: HP Recovery",
-            "Buff 2: Energy Restored",
+            "Buff 2: Restore Energy",
             "Buff 3: DMG Increase",
             "DMG Multiplier",
             "Daze Multiplier",
             "Cooldown",
             "Daze Multiplier"
           ],
-          "param": "7.8% HP|3.25 Energy|19.5%|{Skill:5402301, Prop:1001}|{Skill:5402301, Prop:1002}|28s"
+          "param": "7.8% HP|3.25 Energy|20%|{Skill:5402301, Prop:1001}|{Skill:5402301, Prop:1002}|28s"
         },
         "4": {
-          "name": "Flashflare",
-          "desc": "<color=#FFFFFF>[Active Skill]</color>\nUpon activating this skill, launches into the air and dashes near the target, attacking targets in a large area and pulling them in. After a short time, summons [Iridescent Cross] to deal <color=#FE437E>Ether DMG</color>. After the pull ends, based on the Number of Enemies Pulled, grants 1/2/3 random Buffs from the following:\nBuff 1: Restore Agent HP;\nBuff 2: Restore Agent Energy;\nBuff 3: Increases DMG dealt by [Iridescent Cross].",
+          "name": "Searing Flash",
+          "desc": "<color=#FFFFFF>Active Skill</color>\nFlies high into the air, then blinks to the target's vicinity, attacking and pulling in enemies across a large area. After a short time, a Prismatic Cross is generated that deals <color=#FE437E>Ether DMG</color>. Once the pull ends, gain 1/2/3 random buffs based on the number of enemies pulled (the same buff cannot be gained more than once):\nBuff 1: Restore the Agent's HP.\nBuff 2: Restore the Agent's Energy.\nBuff 3: Increase Prismatic Cross DMG.",
           "property": [
             "Buff 1: HP Recovery",
-            "Buff 2: Energy Restored",
+            "Buff 2: Restore Energy",
             "Buff 3: DMG Increase",
             "DMG Multiplier",
             "Daze Multiplier",
             "Cooldown",
             "Daze Multiplier"
           ],
-          "param": "8.4% HP|3.5 Energy|21%|{Skill:5402301, Prop:1001}|{Skill:5402301, Prop:1002}|28s"
+          "param": "8.4% HP|3.5 Energy|20%|{Skill:5402301, Prop:1001}|{Skill:5402301, Prop:1002}|28s"
         },
         "5": {
-          "name": "Flashflare",
-          "desc": "<color=#FFFFFF>[Active Skill]</color>\nUpon activating this skill, launches into the air and dashes near the target, attacking targets in a large area and pulling them in. After a short time, summons [Iridescent Cross] to deal <color=#FE437E>Ether DMG</color>. After the pull ends, based on the Number of Enemies Pulled, grants 1/2/3 random Buffs from the following:\nBuff 1: Restore Agent HP;\nBuff 2: Restore Agent Energy;\nBuff 3: Increases DMG dealt by [Iridescent Cross].",
+          "name": "Searing Flash",
+          "desc": "<color=#FFFFFF>Active Skill</color>\nFlies high into the air, then blinks to the target's vicinity, attacking and pulling in enemies across a large area. After a short time, a Prismatic Cross is generated that deals <color=#FE437E>Ether DMG</color>. Once the pull ends, gain 1/2/3 random buffs based on the number of enemies pulled (the same buff cannot be gained more than once):\nBuff 1: Restore the Agent's HP.\nBuff 2: Restore the Agent's Energy.\nBuff 3: Increase Prismatic Cross DMG.",
           "property": [
             "Buff 1: HP Recovery",
-            "Buff 2: Energy Restored",
+            "Buff 2: Restore Energy",
             "Buff 3: DMG Increase",
             "DMG Multiplier",
             "Daze Multiplier",
             "Cooldown",
             "Daze Multiplier"
           ],
-          "param": "9% HP|3.75 Energy|22.5%|{Skill:5402301, Prop:1001}|{Skill:5402301, Prop:1002}|28s"
+          "param": "9% HP|3.75 Energy|20%|{Skill:5402301, Prop:1001}|{Skill:5402301, Prop:1002}|28s"
         },
         "6": {
-          "name": "Flashflare",
-          "desc": "<color=#FFFFFF>[Active Skill]</color>\nUpon activating this skill, launches into the air and dashes near the target, attacking targets in a large area and pulling them in. After a short time, summons [Iridescent Cross] to deal <color=#FE437E>Ether DMG</color>. After the pull ends, based on the Number of Enemies Pulled, grants 1/2/3 random Buffs from the following:\nBuff 1: Restore Agent HP;\nBuff 2: Restore Agent Energy;\nBuff 3: Increases DMG dealt by [Iridescent Cross].",
+          "name": "Searing Flash",
+          "desc": "<color=#FFFFFF>Active Skill</color>\nFlies high into the air, then blinks to the target's vicinity, attacking and pulling in enemies across a large area. After a short time, a Prismatic Cross is generated that deals <color=#FE437E>Ether DMG</color>. Once the pull ends, gain 1/2/3 random buffs based on the number of enemies pulled (the same buff cannot be gained more than once):\nBuff 1: Restore the Agent's HP.\nBuff 2: Restore the Agent's Energy.\nBuff 3: Increase Prismatic Cross DMG.",
           "property": [
             "Buff 1: HP Recovery",
-            "Buff 2: Energy Restored",
+            "Buff 2: Restore Energy",
             "Buff 3: DMG Increase",
             "DMG Multiplier",
             "Daze Multiplier",
             "Cooldown",
             "Daze Multiplier"
           ],
-          "param": "9.6% HP|4 Energy|24%|{Skill:5402301, Prop:1001}|{Skill:5402301, Prop:1002}|28s"
+          "param": "9.6% HP|4 Energy|20%|{Skill:5402301, Prop:1001}|{Skill:5402301, Prop:1002}|28s"
         },
         "7": {
-          "name": "Flashflare",
-          "desc": "<color=#FFFFFF>[Active Skill]</color>\nUpon activating this skill, launches into the air and dashes near the target, attacking targets in a large area and pulling them in. After a short time, summons [Iridescent Cross] to deal <color=#FE437E>Ether DMG</color>. After the pull ends, based on the Number of Enemies Pulled, grants 1/2/3 random Buffs from the following:\nBuff 1: Restore Agent HP;\nBuff 2: Restore Agent Energy;\nBuff 3: Increases DMG dealt by [Iridescent Cross].",
+          "name": "Searing Flash",
+          "desc": "<color=#FFFFFF>Active Skill</color>\nFlies high into the air, then blinks to the target's vicinity, attacking and pulling in enemies across a large area. After a short time, a Prismatic Cross is generated that deals <color=#FE437E>Ether DMG</color>. Once the pull ends, gain 1/2/3 random buffs based on the number of enemies pulled (the same buff cannot be gained more than once):\nBuff 1: Restore the Agent's HP.\nBuff 2: Restore the Agent's Energy.\nBuff 3: Increase Prismatic Cross DMG.",
           "property": [
             "Buff 1: HP Recovery",
-            "Buff 2: Energy Restored",
+            "Buff 2: Restore Energy",
             "Buff 3: DMG Increase",
             "DMG Multiplier",
             "Daze Multiplier",
             "Cooldown",
             "Daze Multiplier"
           ],
-          "param": "10.2% HP|4.25 Energy|25.5%|{Skill:5402301, Prop:1001}|{Skill:5402301, Prop:1002}|28s"
+          "param": "10.2% HP|4.25 Energy|20%|{Skill:5402301, Prop:1001}|{Skill:5402301, Prop:1002}|28s"
         },
         "8": {
-          "name": "Flashflare",
-          "desc": "<color=#FFFFFF>[Active Skill]</color>\nUpon activating this skill, launches into the air and dashes near the target, attacking targets in a large area and pulling them in. After a short time, summons [Iridescent Cross] to deal <color=#FE437E>Ether DMG</color>. After the pull ends, based on the Number of Enemies Pulled, grants 1/2/3 random Buffs from the following:\nBuff 1: Restore Agent HP;\nBuff 2: Restore Agent Energy;\nBuff 3: Increases DMG dealt by [Iridescent Cross].",
+          "name": "Searing Flash",
+          "desc": "<color=#FFFFFF>Active Skill</color>\nFlies high into the air, then blinks to the target's vicinity, attacking and pulling in enemies across a large area. After a short time, a Prismatic Cross is generated that deals <color=#FE437E>Ether DMG</color>. Once the pull ends, gain 1/2/3 random buffs based on the number of enemies pulled (the same buff cannot be gained more than once):\nBuff 1: Restore the Agent's HP.\nBuff 2: Restore the Agent's Energy.\nBuff 3: Increase Prismatic Cross DMG.",
           "property": [
             "Buff 1: HP Recovery",
-            "Buff 2: Energy Restored",
+            "Buff 2: Restore Energy",
             "Buff 3: DMG Increase",
             "DMG Multiplier",
             "Daze Multiplier",
             "Cooldown",
             "Daze Multiplier"
           ],
-          "param": "10.8% HP|4.5 Energy|27%|{Skill:5402301, Prop:1001}|{Skill:5402301, Prop:1002}|28s"
+          "param": "10.8% HP|4.5 Energy|20%|{Skill:5402301, Prop:1001}|{Skill:5402301, Prop:1002}|28s"
         },
         "9": {
-          "name": "Flashflare",
-          "desc": "<color=#FFFFFF>[Active Skill]</color>\nUpon activating this skill, launches into the air and dashes near the target, attacking targets in a large area and pulling them in. After a short time, summons [Iridescent Cross] to deal <color=#FE437E>Ether DMG</color>. After the pull ends, based on the Number of Enemies Pulled, grants 1/2/3 random Buffs from the following:\nBuff 1: Restore Agent HP;\nBuff 2: Restore Agent Energy;\nBuff 3: Increases DMG dealt by [Iridescent Cross].",
+          "name": "Searing Flash",
+          "desc": "<color=#FFFFFF>Active Skill</color>\nFlies high into the air, then blinks to the target's vicinity, attacking and pulling in enemies across a large area. After a short time, a Prismatic Cross is generated that deals <color=#FE437E>Ether DMG</color>. Once the pull ends, gain 1/2/3 random buffs based on the number of enemies pulled (the same buff cannot be gained more than once):\nBuff 1: Restore the Agent's HP.\nBuff 2: Restore the Agent's Energy.\nBuff 3: Increase Prismatic Cross DMG.",
           "property": [
             "Buff 1: HP Recovery",
-            "Buff 2: Energy Restored",
+            "Buff 2: Restore Energy",
             "Buff 3: DMG Increase",
             "DMG Multiplier",
             "Daze Multiplier",
             "Cooldown",
             "Daze Multiplier"
           ],
-          "param": "11.4% HP|4.75 Energy|28.5%|{Skill:5402301, Prop:1001}|{Skill:5402301, Prop:1002}|28s"
+          "param": "11.4% HP|4.75 Energy|20%|{Skill:5402301, Prop:1001}|{Skill:5402301, Prop:1002}|28s"
         },
         "10": {
-          "name": "Flashflare",
-          "desc": "<color=#FFFFFF>[Active Skill]</color>\nUpon activating this skill, launches into the air and dashes near the target, attacking targets in a large area and pulling them in. After a short time, summons [Iridescent Cross] to deal <color=#FE437E>Ether DMG</color>. After the pull ends, based on the Number of Enemies Pulled, grants 1/2/3 random Buffs from the following:\nBuff 1: Restore Agent HP;\nBuff 2: Restore Agent Energy;\nBuff 3: Increases DMG dealt by [Iridescent Cross].",
+          "name": "Searing Flash",
+          "desc": "<color=#FFFFFF>Active Skill</color>\nFlies high into the air, then blinks to the target's vicinity, attacking and pulling in enemies across a large area. After a short time, a Prismatic Cross is generated that deals <color=#FE437E>Ether DMG</color>. Once the pull ends, gain 1/2/3 random buffs based on the number of enemies pulled (the same buff cannot be gained more than once):\nBuff 1: Restore the Agent's HP.\nBuff 2: Restore the Agent's Energy.\nBuff 3: Increase Prismatic Cross DMG.",
           "property": [
             "Buff 1: HP Recovery",
-            "Buff 2: Energy Restored",
+            "Buff 2: Restore Energy",
             "Buff 3: DMG Increase",
             "DMG Multiplier",
             "Daze Multiplier",
             "Cooldown",
             "Daze Multiplier"
           ],
-          "param": "12% HP|5 Energy|30%|{Skill:5402301, Prop:1001}|{Skill:5402301, Prop:1002}|28s"
+          "param": "12% HP|5 Energy|20%|{Skill:5402301, Prop:1001}|{Skill:5402301, Prop:1002}|28s"
         }
       }
     },
     "b": {
       "level": {
         "1": {
-          "name": "Angel's Grace",
-          "desc": "<color=#FFFFFF>[Additional Ability]</color>\nTriggered when <color=#FFFFFF>[Remielle]</color> is in your squad: When using an <color=#FFFFFF>[Active Skill]</color>, you are guaranteed to gain all buff effects.",
-          "property": [],
-          "param": ""
+          "name": "Angel's Protection",
+          "desc": "<color=#FFFFFF>Additional Ability</color>\nWhen <color=#FFFFFF>Remielle</color> is in the squad: When using an <color=#FFFFFF>Active Skill</color>, all buffs are guaranteed, and <color=#FFFFFF>Bangboo Chain Attack</color> DMG increases by 15%.",
+          "property": [
+            "DMG Increase"
+          ],
+          "param": "15%"
         },
         "2": {
-          "name": "Angel's Grace",
-          "desc": "<color=#FFFFFF>[Additional Ability]</color>\nTriggered when <color=#FFFFFF>[Remielle]</color> is in your squad: When using an <color=#FFFFFF>[Active Skill]</color>, you are guaranteed to gain all buff effects.",
-          "property": [],
-          "param": ""
+          "name": "Angel's Protection",
+          "desc": "<color=#FFFFFF>Additional Ability</color>\nWhen <color=#FFFFFF>Remielle</color> is in the squad: When using an <color=#FFFFFF>Active Skill</color>, all buffs are guaranteed, and <color=#FFFFFF>Bangboo Chain Attack</color> DMG increases by 18.8%.",
+          "property": [
+            "DMG Increase"
+          ],
+          "param": "18.8%"
         },
         "3": {
-          "name": "Angel's Grace",
-          "desc": "<color=#FFFFFF>[Additional Ability]</color>\nTriggered when <color=#FFFFFF>[Remielle]</color> is in your squad: When using an <color=#FFFFFF>[Active Skill]</color>, you are guaranteed to gain all buff effects.",
-          "property": [],
-          "param": ""
+          "name": "Angel's Protection",
+          "desc": "<color=#FFFFFF>Additional Ability</color>\nWhen <color=#FFFFFF>Remielle</color> is in the squad: When using an <color=#FFFFFF>Active Skill</color>, all buffs are guaranteed, and <color=#FFFFFF>Bangboo Chain Attack</color> DMG increases by 22.5%.",
+          "property": [
+            "DMG Increase"
+          ],
+          "param": "22.5%"
         },
         "4": {
-          "name": "Angel's Grace",
-          "desc": "<color=#FFFFFF>[Additional Ability]</color>\nTriggered when <color=#FFFFFF>[Remielle]</color> is in your squad: When using an <color=#FFFFFF>[Active Skill]</color>, you are guaranteed to gain all buff effects.",
-          "property": [],
-          "param": ""
+          "name": "Angel's Protection",
+          "desc": "<color=#FFFFFF>Additional Ability</color>\nWhen <color=#FFFFFF>Remielle</color> is in the squad: When using an <color=#FFFFFF>Active Skill</color>, all buffs are guaranteed, and <color=#FFFFFF>Bangboo Chain Attack</color> DMG increases by 26.3%.",
+          "property": [
+            "DMG Increase"
+          ],
+          "param": "26.3%"
         },
         "5": {
-          "name": "Angel's Grace",
-          "desc": "<color=#FFFFFF>[Additional Ability]</color>\nTriggered when <color=#FFFFFF>[Remielle]</color> is in your squad: When using an <color=#FFFFFF>[Active Skill]</color>, you are guaranteed to gain all buff effects.",
-          "property": [],
-          "param": ""
+          "name": "Angel's Protection",
+          "desc": "<color=#FFFFFF>Additional Ability</color>\nWhen <color=#FFFFFF>Remielle</color> is in the squad: When using an <color=#FFFFFF>Active Skill</color>, all buffs are guaranteed, and <color=#FFFFFF>Bangboo Chain Attack</color> DMG increases by 30%.",
+          "property": [
+            "DMG Increase"
+          ],
+          "param": "30%"
         }
       }
     },
     "c": {
       "level": {
         "1": {
-          "name": "Radiant Gleam",
-          "desc": "<color=#FFFFFF>[Bangboo Chain Attack]</color>\nGlide through the air and hurl the <b>Prismatic Starwhorl</b> at the target, dealing massive <color=#FE437E>Ether DMG</color>.",
+          "name": "Radiance",
+          "desc": "<color=#FFFFFF>Bangboo Chain Attack</color>\nGlides through the air and throws a Dazzling Nebula at the target, dealing massive <color=#FE437E>Ether DMG</color>.",
           "property": [
             "DMG Multiplier",
             "Daze Multiplier"
@@ -359,8 +369,8 @@
           "param": "{Skill:5402302, Prop:1001}|{Skill:5402302, Prop:1002}"
         },
         "2": {
-          "name": "Radiant Gleam",
-          "desc": "<color=#FFFFFF>[Bangboo Chain Attack]</color>\nGlide through the air and hurl the <b>Prismatic Starwhorl</b> at the target, dealing massive <color=#FE437E>Ether DMG</color>.",
+          "name": "Radiance",
+          "desc": "<color=#FFFFFF>Bangboo Chain Attack</color>\nGlides through the air and throws a Dazzling Nebula at the target, dealing massive <color=#FE437E>Ether DMG</color>.",
           "property": [
             "DMG Multiplier",
             "Daze Multiplier"
@@ -368,8 +378,8 @@
           "param": "{Skill:5402302, Prop:1001}|{Skill:5402302, Prop:1002}"
         },
         "3": {
-          "name": "Radiant Gleam",
-          "desc": "<color=#FFFFFF>[Bangboo Chain Attack]</color>\nGlide through the air and hurl the <b>Prismatic Starwhorl</b> at the target, dealing massive <color=#FE437E>Ether DMG</color>.",
+          "name": "Radiance",
+          "desc": "<color=#FFFFFF>Bangboo Chain Attack</color>\nGlides through the air and throws a Dazzling Nebula at the target, dealing massive <color=#FE437E>Ether DMG</color>.",
           "property": [
             "DMG Multiplier",
             "Daze Multiplier"
@@ -377,8 +387,8 @@
           "param": "{Skill:5402302, Prop:1001}|{Skill:5402302, Prop:1002}"
         },
         "4": {
-          "name": "Radiant Gleam",
-          "desc": "<color=#FFFFFF>[Bangboo Chain Attack]</color>\nGlide through the air and hurl the <b>Prismatic Starwhorl</b> at the target, dealing massive <color=#FE437E>Ether DMG</color>.",
+          "name": "Radiance",
+          "desc": "<color=#FFFFFF>Bangboo Chain Attack</color>\nGlides through the air and throws a Dazzling Nebula at the target, dealing massive <color=#FE437E>Ether DMG</color>.",
           "property": [
             "DMG Multiplier",
             "Daze Multiplier"
@@ -386,8 +396,8 @@
           "param": "{Skill:5402302, Prop:1001}|{Skill:5402302, Prop:1002}"
         },
         "5": {
-          "name": "Radiant Gleam",
-          "desc": "<color=#FFFFFF>[Bangboo Chain Attack]</color>\nGlide through the air and hurl the <b>Prismatic Starwhorl</b> at the target, dealing massive <color=#FE437E>Ether DMG</color>.",
+          "name": "Radiance",
+          "desc": "<color=#FFFFFF>Bangboo Chain Attack</color>\nGlides through the air and throws a Dazzling Nebula at the target, dealing massive <color=#FE437E>Ether DMG</color>.",
           "property": [
             "DMG Multiplier",
             "Daze Multiplier"
@@ -395,8 +405,8 @@
           "param": "{Skill:5402302, Prop:1001}|{Skill:5402302, Prop:1002}"
         },
         "6": {
-          "name": "Radiant Gleam",
-          "desc": "<color=#FFFFFF>[Bangboo Chain Attack]</color>\nGlide through the air and hurl the <b>Prismatic Starwhorl</b> at the target, dealing massive <color=#FE437E>Ether DMG</color>.",
+          "name": "Radiance",
+          "desc": "<color=#FFFFFF>Bangboo Chain Attack</color>\nGlides through the air and throws a Dazzling Nebula at the target, dealing massive <color=#FE437E>Ether DMG</color>.",
           "property": [
             "DMG Multiplier",
             "Daze Multiplier"
@@ -404,8 +414,8 @@
           "param": "{Skill:5402302, Prop:1001}|{Skill:5402302, Prop:1002}"
         },
         "7": {
-          "name": "Radiant Gleam",
-          "desc": "<color=#FFFFFF>[Bangboo Chain Attack]</color>\nGlide through the air and hurl the <b>Prismatic Starwhorl</b> at the target, dealing massive <color=#FE437E>Ether DMG</color>.",
+          "name": "Radiance",
+          "desc": "<color=#FFFFFF>Bangboo Chain Attack</color>\nGlides through the air and throws a Dazzling Nebula at the target, dealing massive <color=#FE437E>Ether DMG</color>.",
           "property": [
             "DMG Multiplier",
             "Daze Multiplier"
@@ -413,8 +423,8 @@
           "param": "{Skill:5402302, Prop:1001}|{Skill:5402302, Prop:1002}"
         },
         "8": {
-          "name": "Radiant Gleam",
-          "desc": "<color=#FFFFFF>[Bangboo Chain Attack]</color>\nGlide through the air and hurl the <b>Prismatic Starwhorl</b> at the target, dealing massive <color=#FE437E>Ether DMG</color>.",
+          "name": "Radiance",
+          "desc": "<color=#FFFFFF>Bangboo Chain Attack</color>\nGlides through the air and throws a Dazzling Nebula at the target, dealing massive <color=#FE437E>Ether DMG</color>.",
           "property": [
             "DMG Multiplier",
             "Daze Multiplier"
@@ -422,8 +432,8 @@
           "param": "{Skill:5402302, Prop:1001}|{Skill:5402302, Prop:1002}"
         },
         "9": {
-          "name": "Radiant Gleam",
-          "desc": "<color=#FFFFFF>[Bangboo Chain Attack]</color>\nGlide through the air and hurl the <b>Prismatic Starwhorl</b> at the target, dealing massive <color=#FE437E>Ether DMG</color>.",
+          "name": "Radiance",
+          "desc": "<color=#FFFFFF>Bangboo Chain Attack</color>\nGlides through the air and throws a Dazzling Nebula at the target, dealing massive <color=#FE437E>Ether DMG</color>.",
           "property": [
             "DMG Multiplier",
             "Daze Multiplier"
@@ -431,8 +441,8 @@
           "param": "{Skill:5402302, Prop:1001}|{Skill:5402302, Prop:1002}"
         },
         "10": {
-          "name": "Radiant Gleam",
-          "desc": "<color=#FFFFFF>[Bangboo Chain Attack]</color>\nGlide through the air and hurl the <b>Prismatic Starwhorl</b> at the target, dealing massive <color=#FE437E>Ether DMG</color>.",
+          "name": "Radiance",
+          "desc": "<color=#FFFFFF>Bangboo Chain Attack</color>\nGlides through the air and throws a Dazzling Nebula at the target, dealing massive <color=#FE437E>Ether DMG</color>.",
           "property": [
             "DMG Multiplier",
             "Daze Multiplier"
@@ -445,8 +455,8 @@
   "skill_prop": {
     "5402301": {
       "1001": {
-        "main": 89600,
-        "growth": 8960,
+        "main": 77200,
+        "growth": 7720,
         "format": "%"
       },
       "1002": {

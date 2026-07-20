@@ -3201,7 +3201,7 @@
     {
       "id": 1322101,
       "name": "Verdict and Punishment",
-      "desc": "During the Elemental Burst <color=#FFD780FF>{LINK#S11325}The Bell Tolls! The Hunt Is On!{/LINK}</color>, after the Witchlure Bell in Hunter-Seeker mode deals DMG to an opponent, if this DMG triggers Swirl or Stellar Swirl in an opponent, it will also summon a {LINK#N11320001}<color=#FFD780FF>Banehunter Oathhammer</color>{/LINK} that will deal 150% of Prune's ATK as DMG to them, with the DMG Type matching the Elemental Conversion from the Swirl. This DMG is considered Elemental Burst DMG.",
+      "desc": "During the Elemental Burst <color=#FFD780FF>{LINK#S11325}The Bell Tolls! The Hunt Is On!{/LINK}</color>, after the Witchlure Bell in Hunter-Seeker mode deals DMG to an opponent, if this DMG triggers Swirl or Stellar Swirl in an opponent, it will also summon a {LINK#N11320001}<color=#FFD780FF>Banehunter Oathhammer</color>{/LINK} that will deal 150% of Prune's ATK as DMG to them, with the DMG Type matching the Elemental Conversion from the Swirl or Stellar Swirl. This DMG is considered Elemental Burst DMG.",
       "icon": "UI_Talent_S_Prune_05",
       "unlock": 1,
       "param_list": [

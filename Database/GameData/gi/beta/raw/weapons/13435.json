@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "Frostbreath",
   "desc": "",
   "weapon_type": "WEAPON_POLE",
   "weapon_prop": [
@@ -342,8 +342,8 @@
   },
   "refinement": {
     "1": {
-      "name": "",
-      "desc": "Triggering a Cryo or Hydro-related elemental reaction increases ATK by <color=#99FFFFFF>20%</color> for 15s, as well as regenerates <color=#99FFFFFF>6</color> Elemental Energy for other members of the party nearby. This effect can trigger once every 16s.",
+      "name": "A Cast Real Far",
+      "desc": "Triggering a Cryo or Hydro-related elemental reaction increases the equipping character's ATK by <color=#99FFFFFF>20%</color> for the next 15s, as well as regenerates <color=#99FFFFFF>6</color> Elemental Energy for other members of their party. This effect can trigger once every 16s.",
       "param_list": [
         0.2,
         15,
@@ -356,8 +356,8 @@
       ]
     },
     "2": {
-      "name": "",
-      "desc": "Triggering a Cryo or Hydro-related elemental reaction increases ATK by <color=#99FFFFFF>25%</color> for 15s, as well as regenerates <color=#99FFFFFF>7.5</color> Elemental Energy for other members of the party nearby. This effect can trigger once every 16s.",
+      "name": "A Cast Real Far",
+      "desc": "Triggering a Cryo or Hydro-related elemental reaction increases the equipping character's ATK by <color=#99FFFFFF>25%</color> as well as regenerates <color=#99FFFFFF>7.5</color> Elemental Energy for other members of their party. This effect can trigger once every 16s.",
       "param_list": [
         0.25,
         15,
@@ -370,8 +370,8 @@
       ]
     },
     "3": {
-      "name": "",
-      "desc": "Triggering a Cryo or Hydro-related elemental reaction increases ATK by <color=#99FFFFFF>30%</color> for 15s, as well as regenerates <color=#99FFFFFF>9</color> Elemental Energy for other members of the party nearby. This effect can trigger once every 16s.",
+      "name": "A Cast Real Far",
+      "desc": "Triggering a Cryo or Hydro-related elemental reaction increases the equipping character's ATK by <color=#99FFFFFF>30%</color> as well as regenerates <color=#99FFFFFF>9</color> Elemental Energy for other members of their party. This effect can trigger once every 16s.",
       "param_list": [
         0.3,
         15,
@@ -384,8 +384,8 @@
       ]
     },
     "4": {
-      "name": "",
-      "desc": "Triggering a Cryo or Hydro-related elemental reaction increases ATK by <color=#99FFFFFF>35%</color> for 15s, as well as regenerates <color=#99FFFFFF>10.5</color> Elemental Energy for other members of the party nearby. This effect can trigger once every 16s.",
+      "name": "A Cast Real Far",
+      "desc": "Triggering a Cryo or Hydro-related elemental reaction increases the equipping character's ATK by <color=#99FFFFFF>35%</color> as well as regenerates <color=#99FFFFFF>10.5</color> Elemental Energy for other members of their party. This effect can trigger once every 16s.",
       "param_list": [
         0.35,
         15,
@@ -398,8 +398,8 @@
       ]
     },
     "5": {
-      "name": "",
-      "desc": "Triggering a Cryo or Hydro-related elemental reaction increases ATK by <color=#99FFFFFF>40%</color> for 15s, as well as regenerates <color=#99FFFFFF>12</color> Elemental Energy for other members of the party nearby. This effect can trigger once every 16s.",
+      "name": "A Cast Real Far",
+      "desc": "Triggering a Cryo or Hydro-related elemental reaction increases the equipping character's ATK by <color=#99FFFFFF>40%</color> as well as regenerates <color=#99FFFFFF>12</color> Elemental Energy for other members of their party. This effect can trigger once every 16s.",
       "param_list": [
         0.4,
         15,

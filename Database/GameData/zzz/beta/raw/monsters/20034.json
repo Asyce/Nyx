@@ -999,7 +999,8 @@
         "Promote",
         "Middle",
         "",
-        "NoCorruptiveEffect"
+        "NoCorruptiveEffect",
+        "Summoned"
       ],
       "type": "Monster",
       "element": {

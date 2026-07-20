@@ -1862,9 +1862,9 @@
     "rank": "QUALITY_ORANGE",
     "weapon": "WEAPON_CROSSBOW",
     "element": "None",
-    "en": "TPS Traveler",
+    "en": "Traveler",
     "desc": "",
-    "ko": "TPS 여행자",
+    "ko": "여행자",
     "zh": "旅行者",
     "ja": "旅人"
   },
@@ -1875,16 +1875,16 @@
     "rank": "QUALITY_ORANGE",
     "weapon": "WEAPON_CROSSBOW",
     "element": "None",
-    "en": "TPS Traveler",
+    "en": "Traveler",
     "desc": "",
-    "ko": "TPS 여행자",
+    "ko": "여행자",
     "zh": "旅行者",
     "ja": "旅人"
   },
   "10000148": {
     "birth": [
-      1,
-      1
+      2,
+      9
     ],
     "release": "1970-01-01 00:00:00",
     "icon": "UI_AvatarIcon_Alyosha",
@@ -1899,8 +1899,8 @@
   },
   "10000150": {
     "birth": [
-      1,
-      1
+      2,
+      20
     ],
     "release": "1970-01-01 00:00:00",
     "icon": "UI_AvatarIcon_Odette",

@@ -23,7 +23,7 @@
       },
       "title": "Ad Astra Nova",
       "slug": "himeko-nova",
-      "updated": 1783461600000,
+      "updated": 1784073600000,
       "sourceOrder": 0,
       "icon": "../../Database/GameData/hsr/assets/characters/round/1510.webp",
       "art": "../../Database/GameData/hsr/assets/characters/draw-card/1510.webp",
@@ -39,7 +39,6 @@
         "id": "23060",
         "name": "A Star That Lights the Night",
         "path": "Erudition",
-        "type": "Erudition",
         "educated": false
       },
       "signatureWeaponId": "23060",
@@ -50,7 +49,7 @@
       ],
       "status": "beta_changed",
       "labels": [
-        "4.4"
+        "New"
       ],
       "r": 5,
       "el": "Fire",
@@ -1670,6 +1669,30 @@
           "path": "Erudition",
           "items": [
             {
+              "id": "116001",
+              "name": "Whimsy Wax",
+              "qty": 20,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+            },
+            {
+              "id": "116002",
+              "name": "Dreamweave Steel",
+              "qty": 20,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+            },
+            {
+              "id": "116003",
+              "name": "Lucid Awl",
+              "qty": 14,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+            },
+            {
               "id": "110291",
               "name": "Celestial Globe",
               "qty": 4,
@@ -1692,7 +1715,1456 @@
               "rar": 5,
               "kind": "book",
               "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+            }
+          ],
+          "cost": 385000
+        }
+      },
+      "recent": 1,
+      "betaStatus": "changed"
+    },
+    {
+      "id": "hsr-blade-mortenax",
+      "n": "Mortenax Blade",
+      "localizedNames": {
+        "en": "Mortenax Blade",
+        "zh": "\u5343\u51b6\u2022\u5203",
+        "ja": "\u5343\u51b6\u30fb\u5203",
+        "ko": "\ucc9c\uc57c\u2022\ube14\ub808\uc774\ub4dc"
+      },
+      "title": "Now I Am Become Blade",
+      "slug": "blade-mortenax",
+      "release": 1780304400000,
+      "releasePatch": "4.3",
+      "updated": 1784073600000,
+      "sourceOrder": 0,
+      "voiceActors": {
+        "english": "imdb:nm5410860|Daman Mills",
+        "japanese": "Shin-ichiro Miki|Miki Shin-ichiro (\u4e09\u6728\u771e\u4e00\u90ce)",
+        "chinese": "https://zh.moegirl.org.cn/\u5218\u4ee5\u5609|Liu Yijia (\u5218\u4ee5\u5609)",
+        "korean": "https://namu.wiki/w/\uacfd\uc724\uc0c1|Kwak Yoon-sang (\uacfd\uc724\uc0c1)"
+      },
+      "icon": "../../Database/GameData/hsr/assets/characters/round/1507.webp",
+      "art": "../../Database/GameData/hsr/assets/characters/draw-card/1507.webp",
+      "card": "../../Database/Prydwen/hsr/assets/characters/mortenax-blade-95aef83c18a0.webp",
+      "holidayArtPool": [
+        "../../Database/HsrWiki/holiday-art/mortenaxblade/01-Chinese New Year 2026 Silver Wolf Blade.png",
+        "../../Database/HsrWiki/holiday-art/mortenaxblade/02-Chinese New Year 2026 2.png"
+      ],
+      "signatureLightCone": {
+        "id": "23059",
+        "name": "Reforged in Hellfire",
+        "icon": "../../Database/GameData/hsr/assets/lightcones/medium/23059.webp",
+        "art": "../../Database/GameData/hsr/assets/lightcones/full/23059.webp",
+        "path": "Nihility"
+      },
+      "signatureWeapon": {
+        "id": "23059",
+        "name": "Reforged in Hellfire",
+        "path": "Nihility",
+        "educated": false
+      },
+      "signatureWeaponId": "23059",
+      "signatureWeaponName": "Reforged in Hellfire",
+      "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23059.webp",
+      "overviewArtPool": [
+        "../../Database/GameData/hsr/assets/lightcones/full/23059.webp"
+      ],
+      "status": "beta_changed",
+      "labels": [],
+      "r": 5,
+      "el": "Fire",
+      "path": "Nihility",
+      "baseStats": {
+        "level1": {
+          "hp": 184.8,
+          "atk": 73.92,
+          "def": 66,
+          "speed": 107,
+          "critRate": 0.05,
+          "critDmg": 0.5
+        },
+        "max": {
+          "level": 80,
+          "hp": 1358.28,
+          "atk": 543.31,
+          "def": 485.1,
+          "speed": 107,
+          "critRate": 0.05,
+          "critDmg": 0.5
+        }
+      },
+      "facts": {
+        "title": "Now I Am Become Blade"
+      },
+      "skillIcons": [
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1507_Normal.webp",
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1507_BP.webp",
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1507_Ultra.webp",
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1507_Passive.webp"
+      ],
+      "kit": {
+        "source": "Game data",
+        "channel": "beta",
+        "version": "4.4.51",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "A Broken Blade Still Slays",
+                "type": "Basic ATK",
+                "desc": "Deals Fire DMG equal to 70% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1507_Normal.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Fire DMG equal to 25% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Fire DMG equal to 30% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Fire DMG equal to 35% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Fire DMG equal to 40% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Fire DMG equal to 45% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Fire DMG equal to 50% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Fire DMG equal to 55% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Fire DMG equal to 60% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Fire DMG equal to 65% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Fire DMG equal to 70% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
+                  }
+                ]
+              },
+              {
+                "name": "A Tempered Blade Severs Souls",
+                "type": "Basic ATK",
+                "desc": "Deals Fire DMG equal to 140% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1507_Normal.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Fire DMG equal to 50% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Fire DMG equal to 60% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Fire DMG equal to 70% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Fire DMG equal to 80% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Fire DMG equal to 90% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Fire DMG equal to 100% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Fire DMG equal to 110% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Fire DMG equal to 120% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Fire DMG equal to 130% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Fire DMG equal to 140% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
+                  }
+                ]
+              },
+              {
+                "name": "A Rain of Blades Seals Fate",
+                "type": "Skill",
+                "desc": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to 90% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 30% of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1507_BP.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to 36% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 12% of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to 39.6% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 13.2% of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to 43.2% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 14.4% of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to 46.8% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 15.6% of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to 50.4% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 16.8% of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to 54% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 18% of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to 58.5% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 19.5% of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to 63% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 21% of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to 67.5% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 22.5% of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to 72% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 24% of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to 75.6% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 25.2% of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to 79.2% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 26.4% of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to 82.8% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 27.6% of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to 86.4% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 28.8% of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to 90% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 30% of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points."
+                  }
+                ]
+              },
+              {
+                "name": "Fornax Ex Corpore",
+                "type": "Ultimate",
+                "desc": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by 35% and the DMG they receive increases by 60%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by 75%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1507_Ultra.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by 20% and the DMG they receive increases by 30%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by 30%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by 21% and the DMG they receive increases by 32%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by 33%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by 22% and the DMG they receive increases by 34%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by 36%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by 23% and the DMG they receive increases by 36%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by 39%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by 24% and the DMG they receive increases by 38%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by 42%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by 25% and the DMG they receive increases by 40%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by 45%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by 26.3% and the DMG they receive increases by 42.5%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by 48.8%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by 27.5% and the DMG they receive increases by 45%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by 52.5%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by 28.7% and the DMG they receive increases by 47.5%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by 56.3%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by 30% and the DMG they receive increases by 50%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by 60%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by 31% and the DMG they receive increases by 52%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by 63%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by 32% and the DMG they receive increases by 54%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by 66%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by 33% and the DMG they receive increases by 56%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by 69%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by 34% and the DMG they receive increases by 58%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by 72%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by 35% and the DMG they receive increases by 60%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by 75%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability."
+                  }
+                ]
+              },
+              {
+                "name": "Tenax Per Ignem",
+                "type": "Ultimate",
+                "desc": "Deals Fire DMG equal to 420% of Mortenax Blade's Max HP to all enemies.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1507_Ultra.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Fire DMG equal to 210% of Mortenax Blade's Max HP to all enemies."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Fire DMG equal to 224% of Mortenax Blade's Max HP to all enemies."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Fire DMG equal to 238% of Mortenax Blade's Max HP to all enemies."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Fire DMG equal to 252% of Mortenax Blade's Max HP to all enemies."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Fire DMG equal to 266% of Mortenax Blade's Max HP to all enemies."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Fire DMG equal to 280% of Mortenax Blade's Max HP to all enemies."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Fire DMG equal to 298% of Mortenax Blade's Max HP to all enemies."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Fire DMG equal to 315% of Mortenax Blade's Max HP to all enemies."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Fire DMG equal to 333% of Mortenax Blade's Max HP to all enemies."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Fire DMG equal to 350% of Mortenax Blade's Max HP to all enemies."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Deals Fire DMG equal to 364% of Mortenax Blade's Max HP to all enemies."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Deals Fire DMG equal to 378% of Mortenax Blade's Max HP to all enemies."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Deals Fire DMG equal to 392% of Mortenax Blade's Max HP to all enemies."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Deals Fire DMG equal to 406% of Mortenax Blade's Max HP to all enemies."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Deals Fire DMG equal to 420% of Mortenax Blade's Max HP to all enemies."
+                  }
+                ]
+              },
+              {
+                "name": "Blade's Reach Spares None",
+                "type": "Technique Attack",
+                "desc": "Immediately attacks all enemies within a certain range. After entering combat, inflicts the Taunt state on all enemies for 1 turn and decreases DMG taken by this unit by 90% for 2 turn(s).",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1507_Maze.webp"
+              },
+              {
+                "name": "One Cut Ends All",
+                "type": "Technique Attack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "All Karma Comes Due",
+                "type": "Talent",
+                "desc": "While the Zone is active, after each attack an ally target uses on an enemy, inflicts the \"Balefire Bind\" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates 30 Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1507_Passive.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "While the Zone is active, after each attack an ally target uses on an enemy, inflicts the \"Balefire Bind\" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates 15 Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "While the Zone is active, after each attack an ally target uses on an enemy, inflicts the \"Balefire Bind\" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates 16 Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "While the Zone is active, after each attack an ally target uses on an enemy, inflicts the \"Balefire Bind\" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates 17 Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "While the Zone is active, after each attack an ally target uses on an enemy, inflicts the \"Balefire Bind\" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates 18 Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "While the Zone is active, after each attack an ally target uses on an enemy, inflicts the \"Balefire Bind\" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates 19 Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "While the Zone is active, after each attack an ally target uses on an enemy, inflicts the \"Balefire Bind\" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates 20 Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "While the Zone is active, after each attack an ally target uses on an enemy, inflicts the \"Balefire Bind\" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates 21.3 Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "While the Zone is active, after each attack an ally target uses on an enemy, inflicts the \"Balefire Bind\" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates 22.5 Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "While the Zone is active, after each attack an ally target uses on an enemy, inflicts the \"Balefire Bind\" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates 23.8 Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "While the Zone is active, after each attack an ally target uses on an enemy, inflicts the \"Balefire Bind\" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates 25 Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "While the Zone is active, after each attack an ally target uses on an enemy, inflicts the \"Balefire Bind\" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates 26 Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "While the Zone is active, after each attack an ally target uses on an enemy, inflicts the \"Balefire Bind\" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates 27 Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "While the Zone is active, after each attack an ally target uses on an enemy, inflicts the \"Balefire Bind\" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates 28 Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "While the Zone is active, after each attack an ally target uses on an enemy, inflicts the \"Balefire Bind\" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates 29 Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "While the Zone is active, after each attack an ally target uses on an enemy, inflicts the \"Balefire Bind\" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates 30 Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Bone, Hardened ad Nauseam",
+                "type": "Major Trace",
+                "desc": "Mortenax Blade can accumulate up to 80 overflow Energy. After using Ultimate, clears it and regenerates a corresponding amount of Energy. When the battle starts or when the Zone is dispelled, if Energy is below 75%, it is immediately regenerated to 75%. When Energy is regenerated to its maximum, dispels all debuffs from this unit.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1507_SkillTree1.webp"
+              },
+              {
+                "name": "Soul, Tempered ad Mortem",
+                "type": "Major Trace",
+                "desc": "While the Zone is active, increases the chance of being attacked by enemies, decreases DMG taken by this unit by 50%, and increases Incoming Healing by 50%. After being attacked, inflicts the \"Balefire Bind\" state on the corresponding target, and enables Mortenax Blade to gain 1 Charge.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1507_SkillTree2.webp"
+              },
+              {
+                "name": "Heart, Refined ad Infinitum",
+                "type": "Major Trace",
+                "desc": "While the Zone is active, ally targets deal 50% increased DMG. If there are other Nihility characters aside from Mortenax Blade in the team, Ultimate DMG dealt by ally targets increases by 75%. Otherwise, DMG dealt by Mortenax Blade additionally increases by 75%.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1507_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Ere My Death, I Stood Unmade",
+                "type": "Eidolon 1",
+                "desc": "While the Zone is active, decreases all enemies' All-Type RES by 20%. After using the extra Skill from Talent, the \"Infinite Fury\" countdown has its action delayed by 15%.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1507_Rank1.webp"
+              },
+              {
+                "name": "Ash Was My Heart, Yet the Flame Stayed",
+                "type": "Eidolon 2",
+                "desc": "When an ally character uses Ultimate to deal DMG, it is considered as having launched Follow-Up ATK. And the Follow-Up ATK DMG dealt by ally targets increases by 75%. The upper limit of Mortenax Blade's Charge decreases to 7.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1507_Rank2.webp"
+              },
+              {
+                "name": "Across the Shore, Wrath Laid Bare",
+                "type": "Eidolon 3",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1507_Ultra.webp"
+              },
+              {
+                "name": "Odium I've Smitten, Thence Came the Blade",
+                "type": "Eidolon 4",
+                "desc": "\"Heart, Refined ad Infinitum\" additionally increases ally targets' DMG dealt by 50%.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1507_Rank4.webp"
+              },
+              {
+                "name": "I Severed My Woes, Knowing Death Begets Life",
+                "type": "Eidolon 5",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1507_BP.webp"
+              },
+              {
+                "name": "If Immortality Could Die, I Swore THEM Slain",
+                "type": "Eidolon 6",
+                "desc": "As the Zone persists, when Mortenax Blade takes DMG or consumes HP, he gains 1 Charge. This effect can trigger again after any target's turn ends. The DMG multiplier of \"Tenax Per Ignem\" increases to 150% of its original value.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1507_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
+      "req": {
+        "ascension": [
+          {
+            "id": "110432",
+            "name": "Radiant Prominence",
+            "qty": 65,
+            "rar": 5,
+            "kind": "boss",
+            "icon": "../../Database/GameData/hsr/assets/items/110432.webp"
+          },
+          {
+            "id": "116001",
+            "name": "Whimsy Wax",
+            "qty": 15,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+          },
+          {
+            "id": "116002",
+            "name": "Dreamweave Steel",
+            "qty": 15,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+          },
+          {
+            "id": "116003",
+            "name": "Lucid Awl",
+            "qty": 15,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+          }
+        ],
+        "talents": [
+          {
+            "id": "116001",
+            "name": "Whimsy Wax",
+            "qty": 41,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+          },
+          {
+            "id": "116002",
+            "name": "Dreamweave Steel",
+            "qty": 56,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+          },
+          {
+            "id": "116003",
+            "name": "Lucid Awl",
+            "qty": 58,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+          },
+          {
+            "id": "241",
+            "name": "Tracks of Destiny",
+            "qty": 8,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+          },
+          {
+            "id": "110311",
+            "name": "Tear of Phagousa",
+            "qty": 18,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110311.webp"
+          },
+          {
+            "id": "110312",
+            "name": "Wine of Phagousa",
+            "qty": 69,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110312.webp"
+          },
+          {
+            "id": "110313",
+            "name": "Heart of Phagousa",
+            "qty": 139,
+            "rar": 5,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
+          },
+          {
+            "id": "110508",
+            "name": "...",
+            "qty": 12,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
+          }
+        ],
+        "talentStages": [
+          [
+            {
+              "cost": 5000,
+              "items": [
+                {
+                  "id": "110311",
+                  "name": "Tear of Phagousa",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110311.webp"
+                },
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 6,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+                }
+              ]
             },
+            {
+              "cost": 10000,
+              "items": [
+                {
+                  "id": "110312",
+                  "name": "Wine of Phagousa",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110312.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 20000,
+              "items": [
+                {
+                  "id": "110312",
+                  "name": "Wine of Phagousa",
+                  "qty": 5,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110312.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "110313",
+                  "name": "Heart of Phagousa",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 160000,
+              "items": [
+                {
+                  "id": "110313",
+                  "name": "Heart of Phagousa",
+                  "qty": 8,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2500,
+              "items": [
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 5000,
+              "items": [
+                {
+                  "id": "110311",
+                  "name": "Tear of Phagousa",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110311.webp"
+                },
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 6,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 10000,
+              "items": [
+                {
+                  "id": "110312",
+                  "name": "Wine of Phagousa",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110312.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 20000,
+              "items": [
+                {
+                  "id": "110312",
+                  "name": "Wine of Phagousa",
+                  "qty": 5,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110312.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 30000,
+              "items": [
+                {
+                  "id": "110312",
+                  "name": "Wine of Phagousa",
+                  "qty": 7,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110312.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "110313",
+                  "name": "Heart of Phagousa",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 80000,
+              "items": [
+                {
+                  "id": "110313",
+                  "name": "Heart of Phagousa",
+                  "qty": 5,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 160000,
+              "items": [
+                {
+                  "id": "110313",
+                  "name": "Heart of Phagousa",
+                  "qty": 8,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
+                }
+              ]
+            },
+            {
+              "cost": 300000,
+              "items": [
+                {
+                  "id": "110313",
+                  "name": "Heart of Phagousa",
+                  "qty": 14,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2500,
+              "items": [
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 5000,
+              "items": [
+                {
+                  "id": "110311",
+                  "name": "Tear of Phagousa",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110311.webp"
+                },
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 6,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 10000,
+              "items": [
+                {
+                  "id": "110312",
+                  "name": "Wine of Phagousa",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110312.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 20000,
+              "items": [
+                {
+                  "id": "110312",
+                  "name": "Wine of Phagousa",
+                  "qty": 5,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110312.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 30000,
+              "items": [
+                {
+                  "id": "110312",
+                  "name": "Wine of Phagousa",
+                  "qty": 7,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110312.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "110313",
+                  "name": "Heart of Phagousa",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 80000,
+              "items": [
+                {
+                  "id": "110313",
+                  "name": "Heart of Phagousa",
+                  "qty": 5,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 160000,
+              "items": [
+                {
+                  "id": "110313",
+                  "name": "Heart of Phagousa",
+                  "qty": 8,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
+                }
+              ]
+            },
+            {
+              "cost": 300000,
+              "items": [
+                {
+                  "id": "110313",
+                  "name": "Heart of Phagousa",
+                  "qty": 14,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2500,
+              "items": [
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 5000,
+              "items": [
+                {
+                  "id": "110311",
+                  "name": "Tear of Phagousa",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110311.webp"
+                },
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 6,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 10000,
+              "items": [
+                {
+                  "id": "110312",
+                  "name": "Wine of Phagousa",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110312.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 20000,
+              "items": [
+                {
+                  "id": "110312",
+                  "name": "Wine of Phagousa",
+                  "qty": 5,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110312.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 30000,
+              "items": [
+                {
+                  "id": "110312",
+                  "name": "Wine of Phagousa",
+                  "qty": 7,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110312.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "110313",
+                  "name": "Heart of Phagousa",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 80000,
+              "items": [
+                {
+                  "id": "110313",
+                  "name": "Heart of Phagousa",
+                  "qty": 5,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 160000,
+              "items": [
+                {
+                  "id": "110313",
+                  "name": "Heart of Phagousa",
+                  "qty": 8,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
+                }
+              ]
+            },
+            {
+              "cost": 300000,
+              "items": [
+                {
+                  "id": "110313",
+                  "name": "Heart of Phagousa",
+                  "qty": 14,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
+                }
+              ]
+            }
+          ]
+        ],
+        "talentBase": [
+          {
+            "id": "116001",
+            "name": "Whimsy Wax",
+            "qty": 8,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+          },
+          {
+            "id": "116002",
+            "name": "Dreamweave Steel",
+            "qty": 10,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+          },
+          {
+            "id": "116003",
+            "name": "Lucid Awl",
+            "qty": 30,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+          },
+          {
+            "id": "241",
+            "name": "Tracks of Destiny",
+            "qty": 2,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+          },
+          {
+            "id": "110311",
+            "name": "Tear of Phagousa",
+            "qty": 6,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110311.webp"
+          },
+          {
+            "id": "110312",
+            "name": "Wine of Phagousa",
+            "qty": 16,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110312.webp"
+          },
+          {
+            "id": "110313",
+            "name": "Heart of Phagousa",
+            "qty": 38,
+            "rar": 5,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
+          },
+          {
+            "id": "110508",
+            "name": "...",
+            "qty": 3,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
+          }
+        ],
+        "talentBaseCost": 802500,
+        "ascCost": 308000,
+        "talentCost": 3000000,
+        "currency": 3693000,
+        "weapon": {
+          "name": "Reforged in Hellfire",
+          "icon": "../../Database/GameData/hsr/assets/lightcones/medium/23059.webp",
+          "art": "../../Database/GameData/hsr/assets/lightcones/full/23059.webp",
+          "path": "Nihility",
+          "items": [
             {
               "id": "116001",
               "name": "Whimsy Wax",
@@ -1716,6 +3188,30 @@
               "rar": 5,
               "kind": "mob",
               "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+            },
+            {
+              "id": "110311",
+              "name": "Tear of Phagousa",
+              "qty": 4,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110311.webp"
+            },
+            {
+              "id": "110312",
+              "name": "Wine of Phagousa",
+              "qty": 12,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110312.webp"
+            },
+            {
+              "id": "110313",
+              "name": "Heart of Phagousa",
+              "qty": 15,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
             }
           ],
           "cost": 385000
@@ -1734,7 +3230,7 @@
         "ko": "\uc5b4\ubca4\uce04\ub9b0\u2022\uc6e8\uc774\ube0c"
       },
       "slug": "aventurine-waveflair",
-      "updated": 1782770400000,
+      "updated": 1782777600000,
       "sourceOrder": 0,
       "icon": "../../Database/GameData/hsr/assets/characters/round/1513.webp",
       "art": "../../Database/GameData/hsr/assets/characters/draw-card/1513.webp",
@@ -3239,7 +4735,7 @@
         "ko": "\ub85c\ube48\u2022\uc11c\uba38\ub808\ud1a0"
       },
       "slug": "robin-summeretto",
-      "updated": 1782770400000,
+      "updated": 1782777600000,
       "sourceOrder": 0,
       "icon": "../../Database/GameData/hsr/assets/characters/round/1512.webp",
       "art": "../../Database/GameData/hsr/assets/characters/draw-card/1512.webp",
@@ -4611,7 +6107,7 @@
       "slug": "evanescia",
       "release": 1778662800000,
       "releasePatch": "4.2",
-      "updated": 1782252000000,
+      "updated": 1782259200000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm11116720|Nathalie Ferare",
@@ -6056,7 +7552,7 @@
       "slug": "yao-guang",
       "release": 1770976800000,
       "releasePatch": "4.0",
-      "updated": 1781474400000,
+      "updated": 1781481600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm14887295|Ari Thrash",
@@ -7493,1504 +8989,6 @@
       "betaStatus": "changed"
     },
     {
-      "id": "hsr-blade-mortenax",
-      "n": "Mortenax Blade",
-      "localizedNames": {
-        "en": "Mortenax Blade",
-        "zh": "\u5343\u51b6\u2022\u5203",
-        "ja": "\u5343\u51b6\u30fb\u5203",
-        "ko": "\ucc9c\uc57c\u2022\ube14\ub808\uc774\ub4dc"
-      },
-      "title": "Now I Am Become Blade",
-      "slug": "blade-mortenax",
-      "release": 1780304400000,
-      "releasePatch": "4.3",
-      "updated": 1781042400000,
-      "sourceOrder": 0,
-      "voiceActors": {
-        "english": "imdb:nm5410860|Daman Mills",
-        "japanese": "Shin-ichiro Miki|Miki Shin-ichiro (\u4e09\u6728\u771e\u4e00\u90ce)",
-        "chinese": "https://zh.moegirl.org.cn/\u5218\u4ee5\u5609|Liu Yijia (\u5218\u4ee5\u5609)",
-        "korean": "https://namu.wiki/w/\uacfd\uc724\uc0c1|Kwak Yoon-sang (\uacfd\uc724\uc0c1)"
-      },
-      "icon": "../../Database/GameData/hsr/assets/characters/round/1507.webp",
-      "art": "../../Database/GameData/hsr/assets/characters/draw-card/1507.webp",
-      "card": "../../Database/Prydwen/hsr/assets/characters/mortenax-blade-95aef83c18a0.webp",
-      "holidayArtPool": [
-        "../../Database/HsrWiki/holiday-art/mortenaxblade/01-Chinese New Year 2026 Silver Wolf Blade.png",
-        "../../Database/HsrWiki/holiday-art/mortenaxblade/02-Chinese New Year 2026 2.png"
-      ],
-      "signatureLightCone": {
-        "id": "23059",
-        "name": "Reforged in Hellfire",
-        "icon": "../../Database/GameData/hsr/assets/lightcones/medium/23059.webp",
-        "art": "../../Database/GameData/hsr/assets/lightcones/full/23059.webp",
-        "path": "Nihility"
-      },
-      "signatureWeapon": {
-        "id": "23059",
-        "name": "Reforged in Hellfire",
-        "path": "Nihility",
-        "educated": false
-      },
-      "signatureWeaponId": "23059",
-      "signatureWeaponName": "Reforged in Hellfire",
-      "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23059.webp",
-      "overviewArtPool": [
-        "../../Database/GameData/hsr/assets/lightcones/full/23059.webp"
-      ],
-      "status": "beta_changed",
-      "labels": [
-        "New"
-      ],
-      "r": 5,
-      "el": "Fire",
-      "path": "Nihility",
-      "baseStats": {
-        "level1": {
-          "hp": 184.8,
-          "atk": 73.92,
-          "def": 66,
-          "speed": 107,
-          "critRate": 0.05,
-          "critDmg": 0.5
-        },
-        "max": {
-          "level": 80,
-          "hp": 1358.28,
-          "atk": 543.31,
-          "def": 485.1,
-          "speed": 107,
-          "critRate": 0.05,
-          "critDmg": 0.5
-        }
-      },
-      "facts": {
-        "title": "Now I Am Become Blade"
-      },
-      "skillIcons": [
-        "../../Database/GameData/hsr/assets/skills/SkillIcon_1507_Normal.webp",
-        "../../Database/GameData/hsr/assets/skills/SkillIcon_1507_BP.webp",
-        "../../Database/GameData/hsr/assets/skills/SkillIcon_1507_Ultra.webp",
-        "../../Database/GameData/hsr/assets/skills/SkillIcon_1507_Passive.webp"
-      ],
-      "kit": {
-        "source": "Game data",
-        "channel": "beta",
-        "version": "4.4.51",
-        "sections": [
-          {
-            "title": "Skills",
-            "entries": [
-              {
-                "name": "A Broken Blade Still Slays",
-                "type": "Basic ATK",
-                "desc": "Deals Fire DMG equal to 70% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn.",
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1507_Normal.webp",
-                "levels": [
-                  {
-                    "label": "Lv. 1",
-                    "text": "Deals Fire DMG equal to 25% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "Deals Fire DMG equal to 30% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "Deals Fire DMG equal to 35% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "Deals Fire DMG equal to 40% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "Deals Fire DMG equal to 45% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "Deals Fire DMG equal to 50% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "Deals Fire DMG equal to 55% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
-                  },
-                  {
-                    "label": "Lv. 8",
-                    "text": "Deals Fire DMG equal to 60% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
-                  },
-                  {
-                    "label": "Lv. 9",
-                    "text": "Deals Fire DMG equal to 65% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
-                  },
-                  {
-                    "label": "Lv. 10",
-                    "text": "Deals Fire DMG equal to 70% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
-                  }
-                ]
-              },
-              {
-                "name": "A Tempered Blade Severs Souls",
-                "type": "Basic ATK",
-                "desc": "Deals Fire DMG equal to 140% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn.",
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1507_Normal.webp",
-                "levels": [
-                  {
-                    "label": "Lv. 1",
-                    "text": "Deals Fire DMG equal to 50% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "Deals Fire DMG equal to 60% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "Deals Fire DMG equal to 70% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "Deals Fire DMG equal to 80% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "Deals Fire DMG equal to 90% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "Deals Fire DMG equal to 100% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "Deals Fire DMG equal to 110% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
-                  },
-                  {
-                    "label": "Lv. 8",
-                    "text": "Deals Fire DMG equal to 120% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
-                  },
-                  {
-                    "label": "Lv. 9",
-                    "text": "Deals Fire DMG equal to 130% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
-                  },
-                  {
-                    "label": "Lv. 10",
-                    "text": "Deals Fire DMG equal to 140% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn."
-                  }
-                ]
-              },
-              {
-                "name": "A Rain of Blades Seals Fate",
-                "type": "Skill",
-                "desc": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to 90% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 30% of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points.",
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1507_BP.webp",
-                "levels": [
-                  {
-                    "label": "Lv. 1",
-                    "text": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to 36% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 12% of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points."
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to 39.6% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 13.2% of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points."
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to 43.2% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 14.4% of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points."
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to 46.8% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 15.6% of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points."
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to 50.4% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 16.8% of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points."
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to 54% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 18% of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points."
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to 58.5% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 19.5% of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points."
-                  },
-                  {
-                    "label": "Lv. 8",
-                    "text": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to 63% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 21% of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points."
-                  },
-                  {
-                    "label": "Lv. 9",
-                    "text": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to 67.5% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 22.5% of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points."
-                  },
-                  {
-                    "label": "Lv. 10",
-                    "text": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to 72% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 24% of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points."
-                  },
-                  {
-                    "label": "Lv. 11",
-                    "text": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to 75.6% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 25.2% of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points."
-                  },
-                  {
-                    "label": "Lv. 12",
-                    "text": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to 79.2% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 26.4% of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points."
-                  },
-                  {
-                    "label": "Lv. 13",
-                    "text": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to 82.8% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 27.6% of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points."
-                  },
-                  {
-                    "label": "Lv. 14",
-                    "text": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to 86.4% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 28.8% of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points."
-                  },
-                  {
-                    "label": "Lv. 15",
-                    "text": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to 90% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 30% of Mortenax Blade's Max HP to one random enemy.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\\nUsing Skill does not consume Skill Points."
-                  }
-                ]
-              },
-              {
-                "name": "Fornax Ex Corpore",
-                "type": "Ultimate",
-                "desc": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by 35% and the DMG they receive increases by 60%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by 75%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability.",
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1507_Ultra.webp",
-                "levels": [
-                  {
-                    "label": "Lv. 1",
-                    "text": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by 20% and the DMG they receive increases by 30%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by 30%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability."
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by 21% and the DMG they receive increases by 32%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by 33%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability."
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by 22% and the DMG they receive increases by 34%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by 36%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability."
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by 23% and the DMG they receive increases by 36%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by 39%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability."
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by 24% and the DMG they receive increases by 38%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by 42%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability."
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by 25% and the DMG they receive increases by 40%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by 45%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability."
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by 26.3% and the DMG they receive increases by 42.5%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by 48.8%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability."
-                  },
-                  {
-                    "label": "Lv. 8",
-                    "text": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by 27.5% and the DMG they receive increases by 45%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by 52.5%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability."
-                  },
-                  {
-                    "label": "Lv. 9",
-                    "text": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by 28.7% and the DMG they receive increases by 47.5%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by 56.3%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability."
-                  },
-                  {
-                    "label": "Lv. 10",
-                    "text": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by 30% and the DMG they receive increases by 50%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by 60%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability."
-                  },
-                  {
-                    "label": "Lv. 11",
-                    "text": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by 31% and the DMG they receive increases by 52%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by 63%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability."
-                  },
-                  {
-                    "label": "Lv. 12",
-                    "text": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by 32% and the DMG they receive increases by 54%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by 66%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability."
-                  },
-                  {
-                    "label": "Lv. 13",
-                    "text": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by 33% and the DMG they receive increases by 56%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by 69%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability."
-                  },
-                  {
-                    "label": "Lv. 14",
-                    "text": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by 34% and the DMG they receive increases by 58%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by 72%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability."
-                  },
-                  {
-                    "label": "Lv. 15",
-                    "text": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by 35% and the DMG they receive increases by 60%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by 75%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability."
-                  }
-                ]
-              },
-              {
-                "name": "Tenax Per Ignem",
-                "type": "Ultimate",
-                "desc": "Deals Fire DMG equal to 420% of Mortenax Blade's Max HP to all enemies.",
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1507_Ultra.webp",
-                "levels": [
-                  {
-                    "label": "Lv. 1",
-                    "text": "Deals Fire DMG equal to 210% of Mortenax Blade's Max HP to all enemies."
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "Deals Fire DMG equal to 224% of Mortenax Blade's Max HP to all enemies."
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "Deals Fire DMG equal to 238% of Mortenax Blade's Max HP to all enemies."
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "Deals Fire DMG equal to 252% of Mortenax Blade's Max HP to all enemies."
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "Deals Fire DMG equal to 266% of Mortenax Blade's Max HP to all enemies."
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "Deals Fire DMG equal to 280% of Mortenax Blade's Max HP to all enemies."
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "Deals Fire DMG equal to 298% of Mortenax Blade's Max HP to all enemies."
-                  },
-                  {
-                    "label": "Lv. 8",
-                    "text": "Deals Fire DMG equal to 315% of Mortenax Blade's Max HP to all enemies."
-                  },
-                  {
-                    "label": "Lv. 9",
-                    "text": "Deals Fire DMG equal to 333% of Mortenax Blade's Max HP to all enemies."
-                  },
-                  {
-                    "label": "Lv. 10",
-                    "text": "Deals Fire DMG equal to 350% of Mortenax Blade's Max HP to all enemies."
-                  },
-                  {
-                    "label": "Lv. 11",
-                    "text": "Deals Fire DMG equal to 364% of Mortenax Blade's Max HP to all enemies."
-                  },
-                  {
-                    "label": "Lv. 12",
-                    "text": "Deals Fire DMG equal to 378% of Mortenax Blade's Max HP to all enemies."
-                  },
-                  {
-                    "label": "Lv. 13",
-                    "text": "Deals Fire DMG equal to 392% of Mortenax Blade's Max HP to all enemies."
-                  },
-                  {
-                    "label": "Lv. 14",
-                    "text": "Deals Fire DMG equal to 406% of Mortenax Blade's Max HP to all enemies."
-                  },
-                  {
-                    "label": "Lv. 15",
-                    "text": "Deals Fire DMG equal to 420% of Mortenax Blade's Max HP to all enemies."
-                  }
-                ]
-              },
-              {
-                "name": "Blade's Reach Spares None",
-                "type": "Technique Attack",
-                "desc": "Immediately attacks all enemies within a certain range. After entering combat, inflicts the Taunt state on all enemies for 1 turn and decreases DMG taken by this unit by 90% for 2 turn(s).",
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1507_Maze.webp"
-              },
-              {
-                "name": "One Cut Ends All",
-                "type": "Technique Attack",
-                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
-              },
-              {
-                "name": "All Karma Comes Due",
-                "type": "Talent",
-                "desc": "While the Zone is active, after each attack an ally target uses on an enemy, inflicts the \"Balefire Bind\" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates 30 Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK.",
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1507_Passive.webp",
-                "levels": [
-                  {
-                    "label": "Lv. 1",
-                    "text": "While the Zone is active, after each attack an ally target uses on an enemy, inflicts the \"Balefire Bind\" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates 15 Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK."
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "While the Zone is active, after each attack an ally target uses on an enemy, inflicts the \"Balefire Bind\" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates 16 Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK."
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "While the Zone is active, after each attack an ally target uses on an enemy, inflicts the \"Balefire Bind\" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates 17 Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK."
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "While the Zone is active, after each attack an ally target uses on an enemy, inflicts the \"Balefire Bind\" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates 18 Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK."
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "While the Zone is active, after each attack an ally target uses on an enemy, inflicts the \"Balefire Bind\" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates 19 Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK."
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "While the Zone is active, after each attack an ally target uses on an enemy, inflicts the \"Balefire Bind\" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates 20 Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK."
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "While the Zone is active, after each attack an ally target uses on an enemy, inflicts the \"Balefire Bind\" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates 21.3 Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK."
-                  },
-                  {
-                    "label": "Lv. 8",
-                    "text": "While the Zone is active, after each attack an ally target uses on an enemy, inflicts the \"Balefire Bind\" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates 22.5 Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK."
-                  },
-                  {
-                    "label": "Lv. 9",
-                    "text": "While the Zone is active, after each attack an ally target uses on an enemy, inflicts the \"Balefire Bind\" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates 23.8 Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK."
-                  },
-                  {
-                    "label": "Lv. 10",
-                    "text": "While the Zone is active, after each attack an ally target uses on an enemy, inflicts the \"Balefire Bind\" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates 25 Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK."
-                  },
-                  {
-                    "label": "Lv. 11",
-                    "text": "While the Zone is active, after each attack an ally target uses on an enemy, inflicts the \"Balefire Bind\" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates 26 Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK."
-                  },
-                  {
-                    "label": "Lv. 12",
-                    "text": "While the Zone is active, after each attack an ally target uses on an enemy, inflicts the \"Balefire Bind\" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates 27 Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK."
-                  },
-                  {
-                    "label": "Lv. 13",
-                    "text": "While the Zone is active, after each attack an ally target uses on an enemy, inflicts the \"Balefire Bind\" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates 28 Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK."
-                  },
-                  {
-                    "label": "Lv. 14",
-                    "text": "While the Zone is active, after each attack an ally target uses on an enemy, inflicts the \"Balefire Bind\" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates 29 Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK."
-                  },
-                  {
-                    "label": "Lv. 15",
-                    "text": "While the Zone is active, after each attack an ally target uses on an enemy, inflicts the \"Balefire Bind\" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches 9 points and the current HP is more than 1, consumes 9 Charge, regenerates 30 Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK."
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "title": "Major Traces",
-            "entries": [
-              {
-                "name": "Bone, Hardened ad Nauseam",
-                "type": "Major Trace",
-                "desc": "Mortenax Blade can accumulate up to 80 overflow Energy. After using Ultimate, clears it and regenerates a corresponding amount of Energy. When the battle starts or when the Zone is dispelled, if Energy is below 75%, it is immediately regenerated to 75%. When Energy is regenerated to its maximum, dispels all debuffs from this unit.",
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1507_SkillTree1.webp"
-              },
-              {
-                "name": "Soul, Tempered ad Mortem",
-                "type": "Major Trace",
-                "desc": "While the Zone is active, increases the chance of being attacked by enemies, decreases DMG taken by this unit by 50%, and increases Incoming Healing by 50%. After being attacked, inflicts the \"Balefire Bind\" state on the corresponding target, and enables Mortenax Blade to gain 1 Charge.",
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1507_SkillTree2.webp"
-              },
-              {
-                "name": "Heart, Refined ad Infinitum",
-                "type": "Major Trace",
-                "desc": "While the Zone is active, ally targets deal 50% increased DMG. If there are other Nihility characters aside from Mortenax Blade in the team, Ultimate DMG dealt by ally targets increases by 75%. Otherwise, DMG dealt by Mortenax Blade additionally increases by 75%.",
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1507_SkillTree3.webp"
-              }
-            ]
-          },
-          {
-            "title": "Eidolons",
-            "entries": [
-              {
-                "name": "Ere My Death, I Stood Unmade",
-                "type": "Eidolon 1",
-                "desc": "While the Zone is active, decreases all enemies' All-Type RES by 20%. After using the extra Skill from Talent, the \"Infinite Fury\" countdown has its action delayed by 15%.",
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1507_Rank1.webp"
-              },
-              {
-                "name": "Ash Was My Heart, Yet the Flame Stayed",
-                "type": "Eidolon 2",
-                "desc": "When an ally character uses Ultimate to deal DMG, it is considered as having launched Follow-Up ATK. And the Follow-Up ATK DMG dealt by ally targets increases by 75%. The upper limit of Mortenax Blade's Charge decreases to 7.",
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1507_Rank2.webp"
-              },
-              {
-                "name": "Across the Shore, Wrath Laid Bare",
-                "type": "Eidolon 3",
-                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.",
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1507_Ultra.webp"
-              },
-              {
-                "name": "Odium I've Smitten, Thence Came the Blade",
-                "type": "Eidolon 4",
-                "desc": "\"Heart, Refined ad Infinitum\" additionally increases ally targets' DMG dealt by 50%.",
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1507_Rank4.webp"
-              },
-              {
-                "name": "I Severed My Woes, Knowing Death Begets Life",
-                "type": "Eidolon 5",
-                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1507_BP.webp"
-              },
-              {
-                "name": "If Immortality Could Die, I Swore THEM Slain",
-                "type": "Eidolon 6",
-                "desc": "As the Zone persists, when Mortenax Blade takes DMG or consumes HP, he gains 1 Charge. This effect can trigger again after any target's turn ends. The DMG multiplier of \"Tenax Per Ignem\" increases to 150% of its original value.",
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1507_Rank6.webp"
-              }
-            ]
-          }
-        ]
-      },
-      "req": {
-        "ascension": [
-          {
-            "id": "110432",
-            "name": "Radiant Prominence",
-            "qty": 65,
-            "rar": 5,
-            "kind": "boss",
-            "icon": "../../Database/GameData/hsr/assets/items/110432.webp"
-          },
-          {
-            "id": "116001",
-            "name": "Whimsy Wax",
-            "qty": 15,
-            "rar": 2,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
-          },
-          {
-            "id": "116002",
-            "name": "Dreamweave Steel",
-            "qty": 15,
-            "rar": 3,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
-          },
-          {
-            "id": "116003",
-            "name": "Lucid Awl",
-            "qty": 15,
-            "rar": 5,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
-          }
-        ],
-        "talents": [
-          {
-            "id": "116001",
-            "name": "Whimsy Wax",
-            "qty": 41,
-            "rar": 2,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
-          },
-          {
-            "id": "116002",
-            "name": "Dreamweave Steel",
-            "qty": 56,
-            "rar": 3,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
-          },
-          {
-            "id": "116003",
-            "name": "Lucid Awl",
-            "qty": 58,
-            "rar": 5,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
-          },
-          {
-            "id": "241",
-            "name": "Tracks of Destiny",
-            "qty": 8,
-            "rar": 4,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/241.webp"
-          },
-          {
-            "id": "110311",
-            "name": "Tear of Phagousa",
-            "qty": 18,
-            "rar": 2,
-            "kind": "book",
-            "icon": "../../Database/GameData/hsr/assets/items/110311.webp"
-          },
-          {
-            "id": "110312",
-            "name": "Wine of Phagousa",
-            "qty": 69,
-            "rar": 3,
-            "kind": "book",
-            "icon": "../../Database/GameData/hsr/assets/items/110312.webp"
-          },
-          {
-            "id": "110313",
-            "name": "Heart of Phagousa",
-            "qty": 139,
-            "rar": 5,
-            "kind": "book",
-            "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
-          },
-          {
-            "id": "110508",
-            "name": "...",
-            "qty": 12,
-            "rar": 5,
-            "kind": "weekly",
-            "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
-          }
-        ],
-        "talentStages": [
-          [
-            {
-              "cost": 5000,
-              "items": [
-                {
-                  "id": "110311",
-                  "name": "Tear of Phagousa",
-                  "qty": 3,
-                  "rar": 2,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110311.webp"
-                },
-                {
-                  "id": "116001",
-                  "name": "Whimsy Wax",
-                  "qty": 6,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 10000,
-              "items": [
-                {
-                  "id": "110312",
-                  "name": "Wine of Phagousa",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110312.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 20000,
-              "items": [
-                {
-                  "id": "110312",
-                  "name": "Wine of Phagousa",
-                  "qty": 5,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110312.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "110313",
-                  "name": "Heart of Phagousa",
-                  "qty": 3,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
-                },
-                {
-                  "id": "116003",
-                  "name": "Lucid Awl",
-                  "qty": 3,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 160000,
-              "items": [
-                {
-                  "id": "110313",
-                  "name": "Heart of Phagousa",
-                  "qty": 8,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
-                },
-                {
-                  "id": "116003",
-                  "name": "Lucid Awl",
-                  "qty": 4,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2500,
-              "items": [
-                {
-                  "id": "116001",
-                  "name": "Whimsy Wax",
-                  "qty": 3,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 5000,
-              "items": [
-                {
-                  "id": "110311",
-                  "name": "Tear of Phagousa",
-                  "qty": 3,
-                  "rar": 2,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110311.webp"
-                },
-                {
-                  "id": "116001",
-                  "name": "Whimsy Wax",
-                  "qty": 6,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 10000,
-              "items": [
-                {
-                  "id": "110312",
-                  "name": "Wine of Phagousa",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110312.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 20000,
-              "items": [
-                {
-                  "id": "110312",
-                  "name": "Wine of Phagousa",
-                  "qty": 5,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110312.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 30000,
-              "items": [
-                {
-                  "id": "110312",
-                  "name": "Wine of Phagousa",
-                  "qty": 7,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110312.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "110313",
-                  "name": "Heart of Phagousa",
-                  "qty": 3,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
-                },
-                {
-                  "id": "116003",
-                  "name": "Lucid Awl",
-                  "qty": 3,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 80000,
-              "items": [
-                {
-                  "id": "110313",
-                  "name": "Heart of Phagousa",
-                  "qty": 5,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "...",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
-                },
-                {
-                  "id": "116003",
-                  "name": "Lucid Awl",
-                  "qty": 4,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 160000,
-              "items": [
-                {
-                  "id": "110313",
-                  "name": "Heart of Phagousa",
-                  "qty": 8,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "...",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
-                }
-              ]
-            },
-            {
-              "cost": 300000,
-              "items": [
-                {
-                  "id": "110313",
-                  "name": "Heart of Phagousa",
-                  "qty": 14,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "...",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2500,
-              "items": [
-                {
-                  "id": "116001",
-                  "name": "Whimsy Wax",
-                  "qty": 3,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 5000,
-              "items": [
-                {
-                  "id": "110311",
-                  "name": "Tear of Phagousa",
-                  "qty": 3,
-                  "rar": 2,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110311.webp"
-                },
-                {
-                  "id": "116001",
-                  "name": "Whimsy Wax",
-                  "qty": 6,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 10000,
-              "items": [
-                {
-                  "id": "110312",
-                  "name": "Wine of Phagousa",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110312.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 20000,
-              "items": [
-                {
-                  "id": "110312",
-                  "name": "Wine of Phagousa",
-                  "qty": 5,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110312.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 30000,
-              "items": [
-                {
-                  "id": "110312",
-                  "name": "Wine of Phagousa",
-                  "qty": 7,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110312.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "110313",
-                  "name": "Heart of Phagousa",
-                  "qty": 3,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
-                },
-                {
-                  "id": "116003",
-                  "name": "Lucid Awl",
-                  "qty": 3,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 80000,
-              "items": [
-                {
-                  "id": "110313",
-                  "name": "Heart of Phagousa",
-                  "qty": 5,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "...",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
-                },
-                {
-                  "id": "116003",
-                  "name": "Lucid Awl",
-                  "qty": 4,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 160000,
-              "items": [
-                {
-                  "id": "110313",
-                  "name": "Heart of Phagousa",
-                  "qty": 8,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "...",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
-                }
-              ]
-            },
-            {
-              "cost": 300000,
-              "items": [
-                {
-                  "id": "110313",
-                  "name": "Heart of Phagousa",
-                  "qty": 14,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "...",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2500,
-              "items": [
-                {
-                  "id": "116001",
-                  "name": "Whimsy Wax",
-                  "qty": 3,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 5000,
-              "items": [
-                {
-                  "id": "110311",
-                  "name": "Tear of Phagousa",
-                  "qty": 3,
-                  "rar": 2,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110311.webp"
-                },
-                {
-                  "id": "116001",
-                  "name": "Whimsy Wax",
-                  "qty": 6,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 10000,
-              "items": [
-                {
-                  "id": "110312",
-                  "name": "Wine of Phagousa",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110312.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 20000,
-              "items": [
-                {
-                  "id": "110312",
-                  "name": "Wine of Phagousa",
-                  "qty": 5,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110312.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 30000,
-              "items": [
-                {
-                  "id": "110312",
-                  "name": "Wine of Phagousa",
-                  "qty": 7,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110312.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "110313",
-                  "name": "Heart of Phagousa",
-                  "qty": 3,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
-                },
-                {
-                  "id": "116003",
-                  "name": "Lucid Awl",
-                  "qty": 3,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 80000,
-              "items": [
-                {
-                  "id": "110313",
-                  "name": "Heart of Phagousa",
-                  "qty": 5,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "...",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
-                },
-                {
-                  "id": "116003",
-                  "name": "Lucid Awl",
-                  "qty": 4,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 160000,
-              "items": [
-                {
-                  "id": "110313",
-                  "name": "Heart of Phagousa",
-                  "qty": 8,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "...",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
-                }
-              ]
-            },
-            {
-              "cost": 300000,
-              "items": [
-                {
-                  "id": "110313",
-                  "name": "Heart of Phagousa",
-                  "qty": 14,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "...",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
-                }
-              ]
-            }
-          ]
-        ],
-        "talentBase": [
-          {
-            "id": "116001",
-            "name": "Whimsy Wax",
-            "qty": 8,
-            "rar": 2,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
-          },
-          {
-            "id": "116002",
-            "name": "Dreamweave Steel",
-            "qty": 10,
-            "rar": 3,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
-          },
-          {
-            "id": "116003",
-            "name": "Lucid Awl",
-            "qty": 30,
-            "rar": 5,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
-          },
-          {
-            "id": "241",
-            "name": "Tracks of Destiny",
-            "qty": 2,
-            "rar": 4,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/241.webp"
-          },
-          {
-            "id": "110311",
-            "name": "Tear of Phagousa",
-            "qty": 6,
-            "rar": 2,
-            "kind": "book",
-            "icon": "../../Database/GameData/hsr/assets/items/110311.webp"
-          },
-          {
-            "id": "110312",
-            "name": "Wine of Phagousa",
-            "qty": 16,
-            "rar": 3,
-            "kind": "book",
-            "icon": "../../Database/GameData/hsr/assets/items/110312.webp"
-          },
-          {
-            "id": "110313",
-            "name": "Heart of Phagousa",
-            "qty": 38,
-            "rar": 5,
-            "kind": "book",
-            "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
-          },
-          {
-            "id": "110508",
-            "name": "...",
-            "qty": 3,
-            "rar": 5,
-            "kind": "weekly",
-            "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
-          }
-        ],
-        "talentBaseCost": 802500,
-        "ascCost": 308000,
-        "talentCost": 3000000,
-        "currency": 3693000,
-        "weapon": {
-          "name": "Reforged in Hellfire",
-          "icon": "../../Database/GameData/hsr/assets/lightcones/medium/23059.webp",
-          "art": "../../Database/GameData/hsr/assets/lightcones/full/23059.webp",
-          "path": "Nihility",
-          "items": [
-            {
-              "id": "116001",
-              "name": "Whimsy Wax",
-              "qty": 20,
-              "rar": 2,
-              "kind": "mob",
-              "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
-            },
-            {
-              "id": "116002",
-              "name": "Dreamweave Steel",
-              "qty": 20,
-              "rar": 3,
-              "kind": "mob",
-              "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
-            },
-            {
-              "id": "116003",
-              "name": "Lucid Awl",
-              "qty": 14,
-              "rar": 5,
-              "kind": "mob",
-              "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
-            },
-            {
-              "id": "110311",
-              "name": "Tear of Phagousa",
-              "qty": 4,
-              "rar": 2,
-              "kind": "book",
-              "icon": "../../Database/GameData/hsr/assets/items/110311.webp"
-            },
-            {
-              "id": "110312",
-              "name": "Wine of Phagousa",
-              "qty": 12,
-              "rar": 3,
-              "kind": "book",
-              "icon": "../../Database/GameData/hsr/assets/items/110312.webp"
-            },
-            {
-              "id": "110313",
-              "name": "Heart of Phagousa",
-              "qty": 15,
-              "rar": 5,
-              "kind": "book",
-              "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
-            }
-          ],
-          "cost": 385000
-        }
-      },
-      "betaStatus": "changed"
-    },
-    {
       "id": "hsr-cerydra",
       "n": "Cerydra",
       "localizedNames": {
@@ -9003,7 +9001,7 @@
       "slug": "cerydra",
       "release": 1756803600000,
       "releasePatch": "3.5",
-      "updated": 1780524000000,
+      "updated": 1780531200000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm5966262|Rhiannon Moushall",
@@ -10379,7 +10377,7 @@
       "slug": "ashveil",
       "release": 1774432800000,
       "releasePatch": "4.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm10853569|Blythe Melin",
@@ -11759,7 +11757,7 @@
       "slug": "cipher",
       "release": 1749632400000,
       "releasePatch": "3.3",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm14096354|Shea Fairaday",
@@ -13138,7 +13136,7 @@
       "slug": "cyrene",
       "release": 1762336800000,
       "releasePatch": "3.7",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm12899945|Aiden Dawn",
@@ -14579,7 +14577,7 @@
       "slug": "dan-heng-permansor-terrae",
       "release": 1760173200000,
       "releasePatch": "3.6",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm8855652|Nicholas Leung",
@@ -15959,7 +15957,7 @@
       "slug": "hysilens",
       "release": 1755075600000,
       "releasePatch": "3.5",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm1133857|Rosie Day",
@@ -17334,7 +17332,7 @@
       "title": "The Remembrance of None",
       "slug": "march-7th-evernight",
       "release": 1758790800000,
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "icon": "../../Database/GameData/hsr/assets/characters/round/1413.webp",
       "art": "../../Database/GameData/hsr/assets/characters/draw-card/1413.webp",
@@ -18724,7 +18722,7 @@
       "slug": "phainon",
       "release": 1751446800000,
       "releasePatch": "3.4",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm10853574|Joshua Waters",
@@ -20355,7 +20353,7 @@
       "title": "Godmode Player",
       "slug": "silver-wolf-lv-999",
       "release": 1776848400000,
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "icon": "../../Database/GameData/hsr/assets/characters/round/1506.webp",
       "art": "../../Database/GameData/hsr/assets/characters/draw-card/1506.webp",
@@ -21865,7 +21863,7 @@
       "slug": "sparxie",
       "release": 1770976800000,
       "releasePatch": "4.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm5213242|Lizzie Freeman",
@@ -23366,7 +23364,7 @@
       "slug": "sunday",
       "release": 1733306400000,
       "releasePatch": "2.7",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm8427541|Griffin Puatu",
@@ -24753,7 +24751,7 @@
       "slug": "the-dahlia",
       "release": 1765101600000,
       "releasePatch": "3.8",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm2583829|Cristina Vee",

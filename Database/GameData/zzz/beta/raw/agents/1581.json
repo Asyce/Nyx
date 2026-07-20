@@ -1,7 +1,7 @@
 {
   "id": 1581,
   "icon": "IconRole67",
-  "name": "Avatar_Female_Size02_Remielle",
+  "name": "Remielle",
   "code_name": "Remielle",
   "rarity": 4,
   "weapon_type": {
@@ -19,32 +19,47 @@
   },
   "gender": 2,
   "partner_info": {
-    "birthday": "Partner_Birthday_1581",
-    "full_name": "Partner_Name_1581",
+    "birthday": "...",
+    "full_name": "...",
     "gender": "Female",
     "icon_path": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle67.png",
-    "impression_f": "Partner_Impression_f_1581",
-    "impression_m": "Partner_Impression_m_1581",
-    "profile_desc": "Partner_ProfileDesc_1581",
+    "impression_f": "...",
+    "impression_m": "...",
+    "profile_desc": "...",
     "role_icon": "IconRole/UnPacker/IconRole67",
-    "stature": "Partner_Stature_1581",
+    "stature": "...",
     "unlock_condition": [
       "Obtain Agent",
-      "Partner_Unlock_Condition_Chapter031",
+      "...",
       "Complete the \"Anby's Problem\" commission"
     ],
-    "trust_lv": {}
+    "trust_lv": {
+      "1": "...",
+      "2": "",
+      "3": "...",
+      "4": ""
+    }
   },
   "skin": {
     "3115810": {
-      "name": "AvatarSkin_RemielleOrigin_Name_000",
-      "desc": "AvatarSkin_RemielleOrigin_Desc_000",
+      "name": "...",
+      "desc": "...",
       "image": "IconRole67"
     },
     "3115811": {
-      "name": "AvatarSkin_RemielleOrigin_Name_001",
-      "desc": "AvatarSkin_RemielleOrigin_Desc_001",
+      "name": "...",
+      "desc": "...",
       "image": "IconRole67_02"
+    },
+    "3115812": {
+      "name": "...",
+      "desc": "...",
+      "image": "IconRole67_01"
+    },
+    "3115813": {
+      "name": "...",
+      "desc": "...",
+      "image": "IconRole67_03"
     }
   },
   "stats": {
@@ -324,27 +339,27 @@
     "basic": {
       "description": [
         {
-          "name": "Basic Attack: Flutter",
-          "desc": "Press <IconMap:Icon_Normal> to activate:\nPerform up to 4 consecutive attacks forward, dealing <color=#FFA9DD>Lumen Attribute DMG</color>;\nIf a Basic Attack hits the target, the Character recovers <color=#FFFFFF>[Plume Gauge]</color> after the skill ends;\nThe 4th Basic Attack hit applies 1 <color=#FFA9DD>[Lumen Buildup Point]</color> to the target.",
+          "name": "Basic Attack: Leap",
+          "desc": "Press <IconMap:Icon_Normal> to activate:\nPerform up to four attacks ahead, dealing <color=#FFA9DD>Lumiflux DMG</color>.\nIf the Basic Attack hits the target, gain <Term:1000032></Term> after the skill ends.\nAfter the 4th hit of the Basic Attack ends, 1 <color=#FFA9DD>Lumiflux Buildup</color> is applied to enemies hit.",
           "potential": []
         },
         {
           "name": "Basic Attack: Solo Dance",
-          "desc": "Hold <IconMap:Icon_Normal> to activate:\nPerform a wide-range Slash forward, dealing <color=#FFA9DD>Lumiflux Attribute DMG</color>;\nIf the skill hits a target, the Character recovers <color=#FFFFFF>[Feather Gauge]</color> after the skill ends.",
+          "desc": "Hold <IconMap:Icon_Normal> to activate:\nPerform a slash in an area ahead, dealing <color=#FFA9DD>Lumiflux DMG</color>.\nIf it hits a target, gain <color=#FFFFFF>Floating Radiance</color> after the skill ends.",
           "potential": []
         },
         {
-          "name": "Basic Attack: Trailing Rainbow",
-          "desc": "When the Character has <color=#FFFFFF>[Void Radiance]</color> stored, hold <IconMap:Icon_Normal> to activate:\nLaunch a powerful large area attack forward, dealing <color=#FFA9DD>Lumiflux Attribute DMG</color>;\nAfter the skill ends, restore a large amount of <color=#FFFFFF>[Plume Gauge]</color> for the Character;\nIf the attack hits a target, trigger the <color=#FFFFFF>[Luminize]</color> effect after the skill ends, with a multiplier of <color=#2BAD00>{CAL:110+AvatarSkillLevel(0)*3,1,2}%</color>;\nAll stored <color=#FFFFFF>[Void Radiance]</color> will be cleared upon activation.",
+          "name": "Basic Attack: Rainbow's End",
+          "desc": "When Remielle has <Term:1000033></Term>, hold <IconMap:Icon_Normal> to activate:\nUnleash a powerful large area attack ahead, dealing <color=#FFA9DD>Lumiflux DMG</color>.\nGrants a large amount of <color=#FFFFFF>[Floating Radiance]</color> when the skill ends.\nIf the attack hits a target, triggers the <Term:1000034></Term> effect after the skill ends with a <color=#2BAD00>{CAL:100+AvatarSkillLevel(0)*5,1,2}%</color> multiplier.\nConsumes all stored <color=#FFFFFF>[Voidflare]</color> upon use.",
           "potential": []
         },
         {
-          "name": "Basic Attack: Fleeting Crane",
-          "desc": "When the Character has stored <color=#FFFFFF>[Void Radiance]</color> and is in the <color=#FFFFFF>[Mirror Radiance]</color> state, hold <IconMap:Icon_Normal> to activate:\nLaunch a powerful large area attack forward, dealing <color=#FFA9DD>Lumen Attribute DMG</color>;\nAfter the skill ends, restore a large amount of <color=#FFFFFF>[Feather Gauge]</color> for the Character;\nIf it hits a target, the <color=#FFFFFF>[Luminize]</color> effect can be triggered after the skill ends, with a multiplier of <color=#2BAD00>{CAL:220+AvatarSkillLevel(0)*5,1,2}%</color>;\nAfter activation, all stored <color=#FFFFFF>[Void Radiance]</color> will be cleared.",
+          "name": "Basic Attack: Fleeting Grace",
+          "desc": "When Remielle has stored <color=#FFFFFF>Voidflare</color> and is in the <color=#FFFFFF>Luminous Reflection</color> state, hold <IconMap:Icon_Normal> to activate:\nUnleash a powerful large area attack ahead, dealing <color=#FFA9DD>Lumiflux DMG</color>.\nGrants a large amount of <color=#FFFFFF>Floating Radiance</color> when the skill ends.\nIf the attack hits a target, it triggers the <color=#FFFFFF>Luminize</color> effect after the skill ends with a multiplier of <color=#2BAD00>{CAL:200+AvatarSkillLevel(0)*10,1,2}%</color>.\nConsumes all stored <color=#FFFFFF>Voidflare</color> upon use.",
           "potential": []
         },
         {
-          "name": "Basic Attack: Flutter",
+          "name": "Basic Attack: Leap",
           "param": [
             {
               "name": "1st-Hit DMG Multiplier",
@@ -555,23 +570,23 @@
               "potential": []
             },
             {
-              "name": "A period to earn new Feather Points",
+              "name": "1st Hit Floating Radiance Gained",
               "desc": "5",
               "potential": []
             },
             {
-              "name": "Gain New Feather Points at Tier 2",
+              "name": "2nd Hit Floating Radiance Gained",
               "desc": "5",
               "potential": []
             },
             {
-              "name": "Gain new Feather Value at Tier 3",
-              "desc": "15 Points",
+              "name": "3rd Hit Floating Radiance Gained",
+              "desc": "15",
               "potential": []
             },
             {
-              "name": "Feather Points Earned at Rank 4",
-              "desc": "35 pts",
+              "name": "4th Hit Floating Radiance Gained",
+              "desc": "35",
               "potential": []
             }
           ],
@@ -633,7 +648,7 @@
               "potential": []
             },
             {
-              "name": "New Feather Points Earned",
+              "name": "Floating Radiance Gained",
               "desc": "30",
               "potential": []
             }
@@ -641,7 +656,7 @@
           "potential": []
         },
         {
-          "name": "Basic Attack: Trailing Rainbow",
+          "name": "Basic Attack: Rainbow's End",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -696,20 +711,20 @@
               "potential": []
             },
             {
-              "name": "New Feather Points Earned",
-              "desc": "120 Points",
+              "name": "Floating Radiance Gained",
+              "desc": "120",
               "potential": []
             },
             {
               "name": "Luminize Multiplier",
-              "desc": "{CAL:110+AvatarSkillLevel(0)*3,1,2}%",
+              "desc": "{CAL:100+AvatarSkillLevel(0)*5,1,2}%",
               "potential": []
             }
           ],
           "potential": []
         },
         {
-          "name": "Basic Attack: Fleeting Crane",
+          "name": "Basic Attack: Fleeting Grace",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -764,13 +779,13 @@
               "potential": []
             },
             {
-              "name": "New Feather Points Earned",
-              "desc": "120 Points",
+              "name": "Floating Radiance Gained",
+              "desc": "120",
               "potential": []
             },
             {
               "name": "Luminize Multiplier",
-              "desc": "{CAL:220+AvatarSkillLevel(0)*5,1,2}%",
+              "desc": "{CAL:200+AvatarSkillLevel(0)*10,1,2}%",
               "potential": []
             }
           ],
@@ -829,22 +844,22 @@
     "dodge": {
       "description": [
         {
-          "name": "Dodge: Light Suppression",
+          "name": "Dodge: Retreating Light",
           "desc": "Press <IconMap:Icon_Evade> to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
-          "name": "Dash Attack: Sharp Edge",
-          "desc": "Press <IconMap:Icon_Normal> during a dodge to activate:\nDeliver a quick attack forward, dealing <color=#FFA9DD>Lumen DMG</color>.",
+          "name": "Dash Attack: Keen Light",
+          "desc": "Press <IconMap:Icon_Normal> during a dodge to activate:\nLaunch a quick attack ahead, dealing <color=#FFA9DD>Lumiflux DMG</color>.",
           "potential": []
         },
         {
-          "name": "Dodge Counter: Shadow",
-          "desc": "Press <IconMap:Icon_Normal> during a <color=#FFFFFF>Perfect Dodge</color> to activate:\nExecutes a powerful slash on the target, dealing <color=#FFA9DD>Lumen DMG</color>.\nCharacter is invulnerable while using this skill.",
+          "name": "Dodge Counter: Mirrored Shadow",
+          "desc": "Press <IconMap:Icon_Normal> during a <color=#FFFFFF>Perfect Dodge</color> to activate:\nUnleash a powerful slash at the target, dealing <color=#FFA9DD>Lumiflux DMG</color>.\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
-          "name": "Dash Attack: Sharp Edge",
+          "name": "Dash Attack: Keen Light",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -902,7 +917,7 @@
           "potential": []
         },
         {
-          "name": "Dodge Counter: Shadow",
+          "name": "Dodge Counter: Mirrored Shadow",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -1012,22 +1027,22 @@
     "special": {
       "description": [
         {
-          "name": "Special Attack: Twilight",
-          "desc": "Press <IconMap:Icon_Special> to activate:\nLaunch a ranged attack forward, dealing <color=#FFA9DD>Lumiflux Attribute DMG</color>.",
+          "name": "Special Attack: Sliver of Light",
+          "desc": "Press <IconMap:Icon_Special> to activate:\nLaunch a ranged attack ahead, dealing <color=#FFA9DD>Lumiflux DMG</color>.",
           "potential": []
         },
         {
-          "name": "EX Special Attack: Dawn Exaltation",
-          "desc": "With enough Energy, press <IconMap:Icon_SpecialReady> to activate:\nUpon entering the battlefield, if the user's Energy is below 60, restore it to 60. In Investigation Zone mode, this effect can trigger at most once every 180 seconds;\nLaunch a large area attack forward, dealing <color=#FFA9DD>Lumen Attribute DMG</color>;\nAfter the skill ends, apply 2 <color=#FFA9DD>[Lumen Buildup Points]</color> to hit enemies;\nCharacter is invulnerable while using this skill.",
+          "name": "EX Special Attack: Ode to Dawn",
+          "desc": "Upon entering the battlefield, if the character has less than 60 Energy, recover Energy to 60. In Investigation Zone Mode, this effect can trigger once every 180s;\nWith enough Energy, press <IconMap:Icon_SpecialReady> to activate:\nUnleash a powerful attack across a large area ahead, dealing <color=#FFA9DD>Lumiflux DMG</color>;\nAfter the skill ends, apply 2 <color=#FFA9DD>[Lumiflux Buildup]</color> to all enemies hit;\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
-          "name": "Special Attack: Dawn's Exaltation · Radiant Turn",
-          "desc": "Hold <IconMap:Icon_Special> to activate:\nIf Remie's <color=#FFFFFF>[New Feather Value]</color> reaches the maximum of 120 points, she can enter <color=#FFFFFF>[Shift Stance]</color> after a <color=#FFFFFF>[Special Attack]</color> or <color=#FFFFFF>[EX Special Attack]</color>. When switching characters during <color=#FFFFFF>[Shift Stance]</color>, she will enter <color=#FFFFFF>[Phase-Shift Flow]</color>:\nWhile in <color=#FFFFFF>[Phase-Shift Flow]</color>, Remie acts autonomously to assist in combat, and some of her attacks can apply <color=#FFA9DD>[Lumen Buildup Points]</color> to targets. <color=#FFFFFF>[New Feather Value]</color> is consumed over time while in <color=#FFFFFF>[Phase-Shift Flow]</color>. When <color=#FFFFFF>[New Feather Value]</color> is fully depleted, <color=#FFFFFF>[Phase-Shift Flow]</color> ends. Before exiting <color=#FFFFFF>[Phase-Shift Flow]</color>, Remie can only be switched in via <color=#FFFFFF>[Chain Attack]</color>;\nIf Remie triggers 3 <color=#FFA9DD>Lumen Attribute</color> <color=#FFA9DD>[Mutation]</color> reactions while in <color=#FFFFFF>[Phase-Shift Flow]</color>, or has at least 1 stored <color=#FFFFFF>[Void Radiance]</color> when her <color=#FFFFFF>[New Feather Value]</color> is depleted, <color=#FFFFFF>[Assist: Petal Feather Waltz]</color> is activated. Once activated, Normal Switch-In is unlocked, and Remie will automatically trigger <color=#FFFFFF>[Assist: Petal Feather Waltz]</color> on her next Normal Switch-In;\nUpon entering <color=#FFFFFF>[Phase-Shift Flow]</color>, Remie grants all squad members a DMG dealt increase of <color=#2BAD00>{CAL:0+AvatarSkillLevel(1)*1.5,1,2}%</color> for 60s; repeated triggers reset the duration;\nIf Remie's <color=#FFFFFF>[New Feather Value]</color> reaches the maximum of 120 points and her <color=#FFFFFF>[Special Attack]</color> or <color=#FFFFFF>[EX Special Attack]</color> hits a Stunned enemy, switching characters during the <color=#FFFFFF>[Special Attack]</color> or <color=#FFFFFF>[EX Special Attack]</color> can also trigger <color=#FFFFFF>[Phase-Shift Flow]</color>;\nIf no character switch is made after entering <color=#FFFFFF>[Shift Stance]</color>, Remie performs a downward attack to land on the ground.",
+          "name": "Special Attack: Ode to Dawn - Radiant Turn",
+          "desc": "When Remielle is in-combat and <color=#FFFFFF>[Floating Radiance]</color> reaches its maximum of 120, hold <IconMap:Icon_Special> after a <color=#FFFFFF>[Special Attack]</color> or <color=#FFFFFF>[EX Special Attack]</color> to enter <color=#FFFFFF>[Stance Shift]</color>. Switching Characters while in <color=#FFFFFF>[Stance Shift]</color> enters the <color=#FFFFFF>[Phase Flow]</color> state:\nWhile in the <color=#FFFFFF>[Phase Flow]</color> state, Remielle acts autonomously to assist in combat. Some attacks also apply <color=#FFA9DD>[Lumiflux Buildup]</color> to the target. <color=#FFFFFF>[Floating Radiance]</color> is consumed over time while in the <color=#FFFFFF>[Phase Flow]</color> state. When <color=#FFFFFF>[Floating Radiance]</color> is depleted or Remielle leaves the in-combat state, she exits the <color=#FFFFFF>[Phase Flow]</color> state. Before exiting the <color=#FFFFFF>[Phase Flow]</color> state, Remielle cannot be switched in except via a <color=#FFFFFF>[Chain Attack]</color>;\nIf Remielle triggers 3 <Term:1000031></Term> reactions while in the <color=#FFFFFF>[Phase Flow]</color> state, or has at least 1 stored <Term:1000033></Term> when <color=#FFFFFF>[Floating Radiance]</color> is depleted, <color=#FFFFFF>[Assist: Flower & Feather Dance]</color> is activated, unlocking normal switch-ins and automatically triggering <color=#FFFFFF>[Assist: Flower & Feather Dance]</color> on Remielle's next normal switch-in;\nUpon entering the <color=#FFFFFF>[Phase Flow]</color> state, all squad members' DMG dealt is increased by <color=#2BAD00>{CAL:0+AvatarSkillLevel(1)*1.5,1,2}%</color> for 60s. Repeated triggers reset the duration;\nIf Remielle uses a <color=#FFFFFF>[Special Attack]</color> or <color=#FFFFFF>[EX Special Attack]</color> that hits a Stunned enemy and <color=#FFFFFF>[Floating Radiance]</color> has reached its maximum of 120, switching Characters during the <color=#FFFFFF>[Special Attack]</color> or <color=#FFFFFF>[EX Special Attack]</color> also enters the <color=#FFFFFF>[Phase Flow]</color> state;\nIf no character is switched in after entering <color=#FFFFFF>[Stance Shift]</color>, Remielle uses a downward attack to return to the ground.",
           "potential": []
         },
         {
-          "name": "Special Attack: Twilight",
+          "name": "Special Attack: Sliver of Light",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -1085,7 +1100,7 @@
           "potential": []
         },
         {
-          "name": "Special Attack: Dawn's Exaltation · Radiant Turn",
+          "name": "Special Attack: Ode to Dawn - Radiant Turn",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -1138,12 +1153,17 @@
                 }
               },
               "potential": []
+            },
+            {
+              "name": "DMG Increase",
+              "desc": "{CAL:0+AvatarSkillLevel(1)*1.5,1,2}%",
+              "potential": []
             }
           ],
           "potential": []
         },
         {
-          "name": "EX Special Attack: Dawn Exaltation",
+          "name": "EX Special Attack: Ode to Dawn",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -1258,17 +1278,17 @@
     "chain": {
       "description": [
         {
-          "name": "Chain Attack: Overlapping Dance Steps",
-          "desc": "When a <color=#FFFFFF>Chain Attack</color> is triggered, select the character to activate:\nLaunches a multi-hit large area attack forward, dealing <color=#FFA9DD>Lumen Attribute DMG</color>;\nUpon activation, the character enters <color=#FFFFFF>[Radiant Gleam]</color> state, upgrading the next <color=#FFFFFF>[Basic Attack: Cascading Rainbow]</color> to <color=#FFFFFF>[Basic Attack: Fleeting Grace]</color>;\nAfter the skill ends, applies 2 <color=#FFA9DD>[Lumen Buildup Points]</color> to hit enemies;\nCharacter is invulnerable while using this skill.",
+          "name": "Chain Attack: Interwoven Dance Steps",
+          "desc": "When a <color=#FFFFFF>Chain Attack</color> is triggered, select the character to activate:\nLaunch multiple attacks ahead in a large area, dealing <color=#FFA9DD>Lumiflux DMG</color>.\nEnter the <color=#FFFFFF>Luminous Reflection</color> state upon activation. The next <color=#FFFFFF>Basic Attack: Rainbow's End</color> is upgraded to <color=#FFFFFF>Basic Attack: Fleeting Grace</color>.\nAfter the skill ends, apply 2 <color=#FFA9DD>Lumiflux Buildup</color> to enemies hit.\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
-          "name": "Ultimate: Curtain Call of Chaos",
-          "desc": "When Decibel Rating is at <color=#FFFFFF>Maximum</color>, press <IconMap:Icon_UltimateReady> to activate:\nPerform a large area attack forward, dealing <color=#FFA9DD>Lumen Attribute DMG</color>;\nIf the attack hits a target, the <color=#FFFFFF>Luminize</color> effect can be triggered after the skill ends, with a multiplier of <color=#2BAD00>{CAL:230+AvatarSkillLevel(3)*5.2,1,2}%</color>;\nCharacter is invulnerable while using this skill.",
+          "name": "Ultimate: Dazzling Curtain Call",
+          "desc": "When Decibel Rating is at <color=#FFFFFF>Maximum</color>, press <IconMap:Icon_UltimateReady> to activate:\nLaunch a attack across a large area in front, dealing <color=#FFA9DD>Lumiflux DMG</color>.\nIf the skill hits, the <Term:1000034></Term> effect can be triggered after the skill ends with a multiplier of <color=#2BAD00>{CAL:210+AvatarSkillLevel(3)*10.5,1,2}%</color>.\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
-          "name": "Chain Attack: Overlapping Dance Steps",
+          "name": "Chain Attack: Interwoven Dance Steps",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -1326,7 +1346,7 @@
           "potential": []
         },
         {
-          "name": "Ultimate: Curtain Call of Chaos",
+          "name": "Ultimate: Dazzling Curtain Call",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -1382,7 +1402,7 @@
             },
             {
               "name": "Luminize Multiplier",
-              "desc": "{CAL:230+AvatarSkillLevel(3)*5.2,1,2}%",
+              "desc": "{CAL:210+AvatarSkillLevel(3)*10.5,1,2}%",
               "potential": []
             }
           ],
@@ -1441,27 +1461,27 @@
     "assist": {
       "description": [
         {
-          "name": "Quick Assist: Reborn From Ashes",
-          "desc": "When the active character is launched, press <IconMap:Icon_Switch> to activate:\nSlash the target, dealing <color=#FFA9DD>Lumiflux DMG</color>.\nCharacter is invulnerable while using this skill.",
+          "name": "Quick Assist: Featherglow Rebirth",
+          "desc": "When the active character is launched, press <IconMap:Icon_Switch> to activate:\nUnleash a slash at the target, dealing <color=#A6C5FD>Lumiflux DMG</color>.\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
-          "name": "Defensive Assist: Flickering Shadow",
+          "name": "Defensive Assist: Fleeting Light",
           "desc": "When the on-field character is about to be attacked, press <IconMap:Icon_Switch> to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
-          "name": "Assist Follow-Up: Twilight's Last Flicker",
-          "desc": "Press <IconMap:Icon_Normal> after a <color=#FFFFFF>Defensive Assist</color> to activate:\nUnleash a series of slashes on the target, dealing <color=#FFA9DD>Lumen DMG</color>.\nCharacter is invulnerable while using this skill.",
+          "name": "Assist Follow-Up: Awakening Glimmer",
+          "desc": "Press <IconMap:Icon_Normal> after a <color=#FFFFFF>Defensive Assist</color> to activate:\nUnleashes a series of slashes against the target, dealing <color=#FF5521>Lumiflux DMG</color>.\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
-          "name": "Assist: Petal Feather Waltz",
-          "desc": "Enter and launch a large area attack, dealing <color=#FFA9DD>Lumen Attribute DMG</color>;\nConsumes 40 <color=#FFFFFF>[New Feather Value]</color> upon activation. If the remaining <color=#FFFFFF>[New Feather Value]</color> is equal to or less than 90 at the time of activation, this <color=#FFFFFF>[Assist: Feather Petal Waltz]</color> no longer consumes <color=#FFFFFF>[New Feather Value]</color>, and the character enters the <color=#FFFFFF>[Radiant Glow]</color> state. The next use of <color=#FFFFFF>[Basic Attack: Cascading Rainbow]</color> will be upgraded to <color=#FFFFFF>[Basic Attack: Startled Swan]</color>;\nWhen the skill hits an enemy in a Stunned state, the enemy's Stun duration is extended by 3s. Each enemy can only receive this effect once per Stun state, and this Stun duration extension effect cannot stack with effects of the same type;\nIf a target is hit, the <color=#FFFFFF>[Luminize]</color> effect can be triggered after the skill ends, with a multiplier of <color=#2BAD00>{CAL:220+AvatarSkillLevel(6)*5,1,2}%</color>;\nCharacter is invulnerable while using this skill.",
+          "name": "Assist: Flower & Feather Dance",
+          "desc": "Enter the battlefield and unleash an attack in a large area, dealing <color=#FFA9DD>Lumiflux DMG</color>.\nConsumes 40 <Term:1000032></Term> upon activation. With 90 or fewer <color=#FFFFFF>Floating Radiance</color> remaining upon activation, this <color=#FFFFFF>Assist: Flower & Feather Dance</color> does not consume <color=#FFFFFF>Floating Radiance</color>. The character also enters the <color=#FFFFFF>Luminous Reflection</color> state, and the next <color=#FFFFFF>Basic Attack: Rainbow's End</color> is upgraded to <color=#FFFFFF>Basic Attack: Fleeting Grace</color>.\nWhen this skill hits a Stunned enemy, its Stun duration is extended by 3s. Each enemy can be affected by this effect only once per Stun. This Stun duration increase cannot stack with other effects of the same type.\nIf the skill hits, the <Term:1000034></Term> effect can be triggered after the skill ends with a multiplier of <color=#2BAD00>{CAL:200+AvatarSkillLevel(6)*10,1,2}%</color>.\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
-          "name": "Quick Assist: Reborn From Ashes",
+          "name": "Quick Assist: Featherglow Rebirth",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -1519,7 +1539,7 @@
           "potential": []
         },
         {
-          "name": "Defensive Assist: Flickering Shadow",
+          "name": "Defensive Assist: Fleeting Light",
           "param": [
             {
               "name": "Light Defensive Daze Multiplier",
@@ -1603,7 +1623,7 @@
           "potential": []
         },
         {
-          "name": "Assist Follow-Up: Twilight's Last Flicker",
+          "name": "Assist Follow-Up: Awakening Glimmer",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -1661,7 +1681,7 @@
           "potential": []
         },
         {
-          "name": "Assist: Petal Feather Waltz",
+          "name": "Assist: Flower & Feather Dance",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -1717,11 +1737,11 @@
             },
             {
               "name": "Luminize Multiplier",
-              "desc": "{CAL:220+AvatarSkillLevel(6)*5,1,2}%",
+              "desc": "{CAL:200+AvatarSkillLevel(6)*10,1,2}%",
               "potential": []
             },
             {
-              "name": "Consume Feather Points",
+              "name": "Floating Radiance Consumed",
               "desc": "40",
               "potential": []
             }
@@ -1781,7 +1801,7 @@
   },
   "skill_list": {
     "1581001": {
-      "name": "Basic Attack: Flutter",
+      "name": "Basic Attack: Leap",
       "desc": "<IconMap:Icon_Normal>",
       "element_type": 300,
       "hit_type": 101,
@@ -1795,91 +1815,91 @@
       "potential": []
     },
     "1581003": {
-      "name": "Basic Attack: Chuí Hóng",
-      "desc": "<IconMap:Icon_Normal>（Hold while [Voidluster] is Owned）",
+      "name": "Basic Attack: Rainbow's End",
+      "desc": "<IconMap:Icon_Normal> (Hold with Voidflare)",
       "element_type": 300,
       "hit_type": 101,
       "potential": []
     },
     "1581004": {
-      "name": "Basic Attack: Fleeting Glimpse",
-      "desc": "<IconMap:Icon_Normal>（Hold when [Void Radiance] is Owned and you are in [Mirrored Radiance] state）",
+      "name": "Basic Attack: Fleeting Grace",
+      "desc": "<IconMap:Icon_Normal> (Hold with Voidflare while in the Luminous Reflection state)",
       "element_type": 300,
       "hit_type": 101,
       "potential": []
     },
     "1581005": {
-      "name": "Special Attack: Fading Rays",
+      "name": "Special Attack: Sliver of Light",
       "desc": "<IconMap:Icon_Special>",
       "element_type": 300,
       "hit_type": 101,
       "potential": []
     },
     "1581006": {
-      "name": "EX Special Attack: Dawn Exalt",
+      "name": "EX Special Attack: Ode to Dawn",
       "desc": "<IconMap:Icon_SpecialReady>",
       "element_type": 300,
       "hit_type": 101,
       "potential": []
     },
     "1581007": {
-      "name": "Special Attack: Dawn's Exaltation · Radiant Turn",
-      "desc": "<IconMap:Icon_Special>（Hold [新羽值] at Max Duration）or<IconMap:Icon_SpecialReady>（Hold [新羽值] at Max Duration）",
+      "name": "Special Attack: Ode to Dawn - Radiant Turn",
+      "desc": "<IconMap:Icon_Special> (Hold with max Floating Radiance) or <IconMap:Icon_SpecialReady> (Hold with max Floating Radiance)",
       "element_type": 300,
       "hit_type": 101,
       "potential": []
     },
     "1581008": {
-      "name": "Dash Attack: Sharp Edge",
+      "name": "Dash Attack: Keen Light",
       "desc": "<IconMap:Icon_Evade> ; <IconMap:Icon_Normal>",
       "element_type": 300,
       "hit_type": 101,
       "potential": []
     },
     "1581009": {
-      "name": "Dodge Counter: Shadow",
+      "name": "Dodge Counter: Mirrored Shadow",
       "desc": "<IconMap:Icon_Evade> (Perfect) ; <IconMap:Icon_Normal>",
       "element_type": 300,
       "hit_type": 101,
       "potential": []
     },
     "1581010": {
-      "name": "Chain Attack: Overlapping Dance Steps",
+      "name": "Chain Attack: Interwoven Dance Steps",
       "desc": "<IconMap:Icon_QTE>",
       "element_type": 300,
       "hit_type": 101,
       "potential": []
     },
     "1581011": {
-      "name": "Ultimate: Chaotic Finale",
+      "name": "Ultimate: Dazzling Curtain Call",
       "desc": "<IconMap:Icon_UltimateReady>",
       "element_type": 300,
       "hit_type": 101,
       "potential": []
     },
     "1581012": {
-      "name": "Assist: Petal Feather Waltz",
-      "desc": "<IconMap:Icon_Switch>（After triggering [Mutation] 3 times while in [Phase Flux] state）",
+      "name": "Assist: Flower & Feather Dance",
+      "desc": "<IconMap:Icon_Switch> (After triggering 3 Refringe reactions while in the Phase Flow state)",
       "element_type": 300,
       "hit_type": 101,
       "potential": []
     },
     "1581013": {
-      "name": "Quick Assist: Feather's Rebirth",
+      "name": "Quick Assist: Moonfeather Rebirth",
       "desc": "<IconMap:Icon_Switch> (When Triggering Quick Assist)",
       "element_type": 300,
       "hit_type": 101,
       "potential": []
     },
     "1581014": {
-      "name": "Defensive Assist: Shadowflash",
+      "name": "Defensive Assist: Fleeting Light",
       "desc": "<IconMap:Icon_Switch> (When Triggering Defensive Assist)",
       "element_type": 0,
       "hit_type": 0,
       "potential": []
     },
     "1581015": {
-      "name": "Assist Follow-Up: Twilight Awakening",
+      "name": "Assist Follow-Up: Awakening Glimmer",
       "desc": "<IconMap:Icon_Normal> (After Defensive Assist)",
       "element_type": 300,
       "hit_type": 101,
@@ -1892,12 +1912,12 @@
         "level": 1,
         "id": 1581501,
         "name": [
-          "Core Passive: Chromatic Stasis",
-          "Additional Ability: Phee's Invitation"
+          "Core Passive: Temporal Patterns = Stilled Colors",
+          "Additional Ability: Invitation to Bloom"
         ],
         "desc": [
-          "Remie's <color=#FFA9DD>[Mutation Coefficient]</color> is 0.01% of her own Anomaly Proficiency. When the number of <color=#FFFFFF>[Anomaly]</color> Characters in the team is 3, the <color=#FFA9DD>[Mutation Coefficient]</color> is additionally increased by 15%;\nWhen a teammate triggers a <color=#FFA9DD>Lumen Attribute</color> <color=#FFA9DD>[Mutation]</color> reaction, Remie generates <color=#FFFFFF>[Phantom Radiance]</color> based on the <color=#FFFFFF>[Anomaly Buildup Intensity]</color> of that Attribute Anomaly effect after being enhanced by <color=#FFA9DD>[Mutation]</color>. Up to 3 of the most recently generated <color=#FFFFFF>[Phantom Radiance]</color> can be stored;\nIf <color=#FFFFFF>[Assist Skill: Feather Waltz]</color>/<color=#FFFFFF>[Ultimate: Brilliant Finale]</color>/<color=#FFFFFF>[Basic Attack: Cascade]</color>/<color=#FFFFFF>[Basic Attack: Fleeting Grace]</color> hits a target, the <color=#FFFFFF>[Luminize]</color> effect can be triggered after the skill ends:\nBased on the <color=#FFFFFF>[Anomaly Buildup Intensity]</color> of all stored <color=#FFFFFF>[Phantom Radiance]</color>, deal Attribute Anomaly DMG to enemies at the corresponding multiplier of the skill, and increase this DMG Multiplier based on <color=#2BAD00>0.1%</color> of own Anomaly Proficiency;\nWhen the Character enters <color=#FFFFFF>[Phase-Shift Flow]</color> or after using <color=#FFFFFF>[Basic Attack: Cascade]</color> or <color=#FFFFFF>[Basic Attack: Fleeting Grace]</color>, all stored <color=#FFFFFF>[Phantom Radiance]</color> will be cleared.",
-          "Triggers when another <color=#FFFFFF>[Anomaly]</color> Character or same-Faction Character exists in your squad:\nWhen the number of <color=#FFFFFF>[Anomaly]</color> Characters in your squad is 1/2/3, entering the battlefield grants all squad members a boost to ATK equal to 7.5%/15%/40% of Remie's initial ATK, with a cap of 1,600, and Daze dealt by this character while in the <color=#FFFFFF>[Phase Flux]</color> state is increased by 7.5%/15%/35%;\nAdditionally, when this character applies <color=#FFA9DD>[Lumen Buildup Point]</color> to an enemy, they also inflict the <color=#FFFFFF>[Phantachrome]</color> effect on that enemy: While under the <color=#FFFFFF>[Phantachrome]</color> effect, when an enemy takes Attribute Anomaly DMG, their Anomaly Buildup Rate is increased by 15%. When the enemy has no <color=#FFA9DD>[Lumen Buildup Point]</color>, the <color=#FFFFFF>[Phantachrome]</color> effect expires. After the <color=#FFFFFF>[Phantachrome]</color> effect expires, the Anomaly Buildup Rate increase when the enemy takes Attribute Anomaly DMG persists for an additional 8 seconds."
+          "Remielle's <color=#FFA9DD>[Refringe Coefficient]</color> is equal to 0.02% of her Anomaly Proficiency. If there are 3 <color=#FFFFFF>[Anomaly]</color> characters in the squad, her <color=#FFA9DD>[Refringe Coefficient]</color> increases by an additional 10%.\nWhen Remielle triggers a <Term:1000031></Term> reaction via a squad member, she generates <color=#FFFFFF>[Voidflare]</color> based on the <Term:1000023></Term> after it has been enhanced by <color=#FFA9DD>[Refringe]</color> for this Attribute Anomaly effect. Up to the 3 most recently generated <color=#FFFFFF>[Voidflare]</color> can be stored.\nIf <color=#FFFFFF>[Assist: Flower & Feather Dance]</color>/<color=#FFFFFF>[Ultimate: Dazzling Curtain Call]</color>/<color=#FFFFFF>[Basic Attack: Rainbow's End]</color>/<color=#FFFFFF>[Basic Attack: Fleeting Grace]</color> hits a target, <color=#FFFFFF>[Luminize]</color> is triggered after the skill ends:\nBased on the total <color=#FFFFFF>[Anomaly Effect Strength]</color> of all stored <color=#FFFFFF>[Voidflare]</color>, this deals Attribute Anomaly DMG to the enemy using the corresponding skill's DMG multiplier. This multiplier is further increased by <color=#2BAD00>0.1%</color> of Remielle's Anomaly Proficiency.\nAll stored <color=#FFFFFF>[Voidflare]</color> are cleared when Remielle enters the <Term:1000035></Term> state or after using <color=#FFFFFF>[Basic Attack: Rainbow's End]</color> or <color=#FFFFFF>[Basic Attack: Fleeting Grace]</color>.",
+          "When another character in your squad is an <color=#FFFFFF>[Anomaly]</color> character or shares the same faction:\nWhen there are 1/2/3 <color=#FFFFFF>[Anomaly]</color> characters in the squad, upon entering the battlefield, all squad members gain an ATK increase equal to 6%/12%/40% of Remielle's initial ATK, up to a maximum of 1,600 ATK. Additionally, while in the <Term:1000035></Term> state, Remielle's Daze dealt increases by 6%/12%/35%.\nWhen Remielle applies <color=#FFA9DD>[Lumiflux Buildup]</color> to an enemy, they also inflict <color=#FFFFFF>[Prismatic]</color>: When all squad members attack an enemy affected by <color=#FFFFFF>[Prismatic]</color>, Anomaly Buildup Rate increases by 15%. <color=#FFFFFF>[Prismatic]</color> is removed when the enemy no longer has <color=#FFA9DD>[Lumiflux Buildup]</color>. After <color=#FFFFFF>[Prismatic]</color> is removed, the Anomaly Buildup Rate increase persists for an additional 8s."
         ],
         "extra_property": {},
         "potential": []
@@ -1906,12 +1926,12 @@
         "level": 2,
         "id": 1581502,
         "name": [
-          "Core Passive: Chromatic Stasis",
-          "Additional Ability: Phee's Invitation"
+          "Core Passive: Temporal Patterns = Stilled Colors",
+          "Additional Ability: Invitation to Bloom"
         ],
         "desc": [
-          "Remie's <color=#FFA9DD>[Mutation Coefficient]</color> is 0.01% of her own Anomaly Proficiency. When the number of <color=#FFFFFF>[Anomaly]</color> Characters in the team is 3, the <color=#FFA9DD>[Mutation Coefficient]</color> is additionally increased by 15%;\nWhen a teammate triggers a <color=#FFA9DD>Lumen Attribute</color> <color=#FFA9DD>[Mutation]</color> reaction, Remie generates <color=#FFFFFF>[Voidglow]</color> based on the <color=#FFFFFF>[Anomaly Intensity]</color> of the Attribute Anomaly effect after being enhanced by <color=#FFA9DD>[Mutation]</color>. Up to 3 of the most recently generated <color=#FFFFFF>[Voidglow]</color> can be stored;\nIf <color=#FFFFFF>[Assist: Feather Ring Dance]</color>/<color=#FFFFFF>[Ultimate: Turbulent Final Act]</color>/<color=#FFFFFF>[Basic Attack: Cascade]</color>/<color=#FFFFFF>[Basic Attack: Fleeting Grace]</color> hits a target, the <color=#FFFFFF>[Luminize]</color> effect can be triggered after the skill ends:\nBased on the <color=#FFFFFF>[Anomaly Intensity]</color> of all stored <color=#FFFFFF>[Voidglow]</color>, deal Attribute Anomaly DMG to enemies at the corresponding multiplier of the skill, and increase this DMG Multiplier based on <color=#2BAD00>0.12%</color> of own Anomaly Proficiency;\nWhen the Character enters <color=#FFFFFF>[Phase-Shift Flow]</color> state or after using <color=#FFFFFF>[Basic Attack: Cascade]</color> or <color=#FFFFFF>[Basic Attack: Fleeting Grace]</color>, all stored <color=#FFFFFF>[Voidglow]</color> will be cleared.",
-          "Triggers when another <color=#FFFFFF>[Anomaly]</color> Character or same-Faction Character exists in your squad:\nWhen the number of <color=#FFFFFF>[Anomaly]</color> Characters in your squad is 1/2/3, entering the battlefield grants all squad members a boost to ATK equal to 7.5%/15%/40% of Remie's initial ATK, with a cap of 1,600, and Daze dealt by this character while in the <color=#FFFFFF>[Phase Flux]</color> state is increased by 7.5%/15%/35%;\nAdditionally, when this character applies <color=#FFA9DD>[Lumen Buildup Point]</color> to an enemy, they also inflict the <color=#FFFFFF>[Phantachrome]</color> effect on that enemy: While under the <color=#FFFFFF>[Phantachrome]</color> effect, when an enemy takes Attribute Anomaly DMG, their Anomaly Buildup Rate is increased by 15%. When the enemy has no <color=#FFA9DD>[Lumen Buildup Point]</color>, the <color=#FFFFFF>[Phantachrome]</color> effect expires. After the <color=#FFFFFF>[Phantachrome]</color> effect expires, the Anomaly Buildup Rate increase when the enemy takes Attribute Anomaly DMG persists for an additional 8 seconds."
+          "Remielle's <color=#FFA9DD>[Refringe Coefficient]</color> is equal to 0.02% of her Anomaly Proficiency. If there are 3 <color=#FFFFFF>[Anomaly]</color> characters in the squad, her <color=#FFA9DD>[Refringe Coefficient]</color> increases by an additional 10%.\nWhen Remielle triggers a <Term:1000031></Term> reaction via a squad member, she generates <color=#FFFFFF>[Voidflare]</color> based on the <Term:1000023></Term> after it has been enhanced by <color=#FFA9DD>[Refringe]</color> from the Attribute Anomaly effect. Up to the 3 most recently generated <color=#FFFFFF>[Voidflare]</color> can be stored.\nIf <color=#FFFFFF>[Assist: Flower & Feather Dance]</color>/<color=#FFFFFF>[Ultimate: Dazzling Curtain Call]</color>/<color=#FFFFFF>[Basic Attack: Rainbow's End]</color>/<color=#FFFFFF>[Basic Attack: Fleeting Grace]</color> hits a target, <color=#FFFFFF>[Luminize]</color> is triggered after the skill ends:\nBased on the total <color=#FFFFFF>[Anomaly Effect Strength]</color> of all stored <color=#FFFFFF>[Voidflare]</color>, this deals Attribute Anomaly DMG to the enemy using the corresponding skill's DMG multiplier. This multiplier is further increased by <color=#2BAD00>0.12%</color> of Remielle's Anomaly Proficiency.\nAll stored <color=#FFFFFF>[Voidflare]</color> are cleared when Remielle enters the <Term:1000035></Term> state or after using <color=#FFFFFF>[Basic Attack: Rainbow's End]</color> or <color=#FFFFFF>[Basic Attack: Fleeting Grace]</color>.",
+          "When another character in your squad is an <color=#FFFFFF>[Anomaly]</color> character or shares the same faction:\nWhen there are 1/2/3 <color=#FFFFFF>[Anomaly]</color> characters in the squad, upon entering the battlefield, all squad members gain an ATK increase equal to 6%/12%/40% of Remielle's initial ATK, up to a maximum of 1,600 ATK. Additionally, while in the <Term:1000035></Term> state, Remielle's Daze dealt increases by 6%/12%/35%.\nWhen Remielle applies <color=#FFA9DD>[Lumiflux Buildup]</color> to an enemy, they also inflict <color=#FFFFFF>[Prismatic]</color>: When all squad members attack an enemy affected by <color=#FFFFFF>[Prismatic]</color>, Anomaly Buildup Rate increases by 15%. <color=#FFFFFF>[Prismatic]</color> is removed when the enemy no longer has <color=#FFA9DD>[Lumiflux Buildup]</color>. After <color=#FFFFFF>[Prismatic]</color> is removed, the Anomaly Buildup Rate increase persists for an additional 8s."
         ],
         "extra_property": {},
         "potential": []
@@ -1920,12 +1940,12 @@
         "level": 3,
         "id": 1581503,
         "name": [
-          "Core Passive: Chromatic Stasis",
-          "Additional Ability: Phee's Invitation"
+          "Core Passive: Temporal Patterns = Stilled Colors",
+          "Additional Ability: Invitation to Bloom"
         ],
         "desc": [
-          "Remie's <color=#FFA9DD>[Mutation Coefficient]</color> is 0.01% of her own Anomaly Proficiency. When the number of <color=#FFFFFF>[Anomaly]</color> Characters in the team is 3, the <color=#FFA9DD>[Mutation Coefficient]</color> is additionally increased by 15%;\nWhen a teammate triggers a <color=#FFA9DD>Lumen Attribute</color> <color=#FFA9DD>[Mutation]</color> reaction of the Character, Remie generates <color=#FFFFFF>[Void Radiance]</color> based on the <color=#FFFFFF>[Anomaly Buildup Intensity]</color> of the Attribute Anomaly effect after being enhanced by <color=#FFA9DD>[Mutation]</color>. Up to 3 of the most recently generated <color=#FFFFFF>[Void Radiance]</color> can be stored;\nIf <color=#FFFFFF>[Assist Skill: Feather Waltz]</color>/<color=#FFFFFF>[Ultimate: Turbulent Finale]</color>/<color=#FFFFFF>[Basic Attack: Falling Rainbow]</color>/<color=#FFFFFF>[Basic Attack: Fleeting Grace]</color> hits a target, the <color=#FFFFFF>[Luminize]</color> effect can be triggered after the skill ends:\nBased on the <color=#FFFFFF>[Anomaly Buildup Intensity]</color> among all stored <color=#FFFFFF>[Void Radiance]</color>, deal Attribute Anomaly DMG to enemies at the corresponding multiplier of the skill, and increase this DMG Multiplier based on <color=#2BAD00>0.14%</color> of own Anomaly Proficiency;\nWhen the Character enters the <color=#FFFFFF>[Phase-Shift Flow]</color> state, or after triggering <color=#FFFFFF>[Basic Attack: Falling Rainbow]</color> or <color=#FFFFFF>[Basic Attack: Fleeting Grace]</color>, all stored <color=#FFFFFF>[Void Radiance]</color> will be cleared.",
-          "Triggers when another <color=#FFFFFF>[Anomaly]</color> Character or same-Faction Character exists in your squad:\nWhen the number of <color=#FFFFFF>[Anomaly]</color> Characters in your squad is 1/2/3, entering the battlefield grants all squad members a boost to ATK equal to 7.5%/15%/40% of Remie's initial ATK, with a cap of 1,600, and Daze dealt by this character while in the <color=#FFFFFF>[Phase Flux]</color> state is increased by 7.5%/15%/35%;\nAdditionally, when this character applies <color=#FFA9DD>[Lumen Buildup Point]</color> to an enemy, they also inflict the <color=#FFFFFF>[Phantachrome]</color> effect on that enemy: While under the <color=#FFFFFF>[Phantachrome]</color> effect, when an enemy takes Attribute Anomaly DMG, their Anomaly Buildup Rate is increased by 15%. When the enemy has no <color=#FFA9DD>[Lumen Buildup Point]</color>, the <color=#FFFFFF>[Phantachrome]</color> effect expires. After the <color=#FFFFFF>[Phantachrome]</color> effect expires, the Anomaly Buildup Rate increase when the enemy takes Attribute Anomaly DMG persists for an additional 8 seconds."
+          "Remielle's <color=#FFA9DD>[Refringe Coefficient]</color> is equal to 0.02% of her Anomaly Proficiency. If there are 3 <color=#FFFFFF>[Anomaly]</color> characters in the squad, her <color=#FFA9DD>[Refringe Coefficient]</color> increases by an additional 10%.\nWhen Remielle triggers a <Term:1000031></Term> reaction via a squad member, she generates <color=#FFFFFF>[Voidflare]</color> based on the <Term:1000023></Term> after it has been enhanced by <color=#FFA9DD>[Refringe]</color> from the Attribute Anomaly effect. Up to the 3 most recently generated <color=#FFFFFF>[Voidflare]</color> can be stored.\nIf <color=#FFFFFF>[Assist: Flower & Feather Dance]</color>/<color=#FFFFFF>[Ultimate: Dazzling Curtain Call]</color>/<color=#FFFFFF>[Basic Attack: Rainbow's End]</color>/<color=#FFFFFF>[Basic Attack: Fleeting Grace]</color> hits a target, <color=#FFFFFF>[Luminize]</color> is triggered after the skill ends:\nBased on the total <color=#FFFFFF>[Anomaly Effect Strength]</color> of all stored <color=#FFFFFF>[Voidflare]</color>, this deals Attribute Anomaly DMG to the enemy using the corresponding skill's DMG multiplier. This multiplier is further increased by <color=#2BAD00>0.14%</color> of Remielle's Anomaly Proficiency.\nAll stored <color=#FFFFFF>[Voidflare]</color> are cleared when Remielle enters the <Term:1000035></Term> state or after using <color=#FFFFFF>[Basic Attack: Rainbow's End]</color> or <color=#FFFFFF>[Basic Attack: Fleeting Grace]</color>.",
+          "When another character in your squad is an <color=#FFFFFF>[Anomaly]</color> character or shares the same faction:\nWhen there are 1/2/3 <color=#FFFFFF>[Anomaly]</color> characters in the squad, upon entering the battlefield, all squad members gain an ATK increase equal to 6%/12%/40% of Remielle's initial ATK, up to a maximum of 1,600 ATK. Additionally, while in the <Term:1000035></Term> state, Remielle's Daze dealt increases by 6%/12%/35%.\nWhen Remielle applies <color=#FFA9DD>[Lumiflux Buildup]</color> to an enemy, they also inflict <color=#FFFFFF>[Prismatic]</color>: When all squad members attack an enemy affected by <color=#FFFFFF>[Prismatic]</color>, Anomaly Buildup Rate increases by 15%. <color=#FFFFFF>[Prismatic]</color> is removed when the enemy no longer has <color=#FFA9DD>[Lumiflux Buildup]</color>. After <color=#FFFFFF>[Prismatic]</color> is removed, the Anomaly Buildup Rate increase persists for an additional 8s."
         ],
         "extra_property": {},
         "potential": []
@@ -1934,12 +1954,12 @@
         "level": 4,
         "id": 1581504,
         "name": [
-          "Core Passive: Chromatic Stasis",
-          "Additional Ability: Phee's Invitation"
+          "Core Passive: Temporal Patterns = Stilled Colors",
+          "Additional Ability: Invitation to Bloom"
         ],
         "desc": [
-          "Remie's <color=#FFA9DD>[Mutation Coefficient]</color> is 0.01% of her own Anomaly Proficiency. When the number of <color=#FFFFFF>[Anomaly]</color> Characters in the team is 3, the <color=#FFA9DD>[Mutation Coefficient]</color> is additionally increased by 15%;\nWhen a teammate triggers a <color=#FFA9DD>Lumen Attribute</color> <color=#FFA9DD>[Mutation]</color> reaction of the Character, Remie generates <color=#FFFFFF>[Void Radiance]</color> based on the <color=#FFFFFF>[Anomaly Buildup Intensity]</color> of the Attribute Anomaly effect after being enhanced by <color=#FFA9DD>[Mutation]</color>. Up to 3 of the most recently generated <color=#FFFFFF>[Void Radiance]</color> can be stored;\nIf <color=#FFFFFF>[Assist Skill: Feather Waltz]</color>/<color=#FFFFFF>[Ultimate: Turbulent Finale]</color>/<color=#FFFFFF>[Basic Attack: Falling Rainbow]</color>/<color=#FFFFFF>[Basic Attack: Fleeting Grace]</color> hits a target, the <color=#FFFFFF>[Luminize]</color> effect can be triggered after the skill ends:\nBased on the <color=#FFFFFF>[Anomaly Buildup Intensity]</color> among all stored <color=#FFFFFF>[Void Radiance]</color>, deal Attribute Anomaly DMG to enemies at the corresponding multiplier of the skill, and increase this DMG Multiplier based on <color=#2BAD00>0.15%</color> of own Anomaly Proficiency;\nWhen the Character enters the <color=#FFFFFF>[Phase-Shift Flow]</color> state, or after triggering <color=#FFFFFF>[Basic Attack: Falling Rainbow]</color> or <color=#FFFFFF>[Basic Attack: Fleeting Grace]</color>, all stored <color=#FFFFFF>[Void Radiance]</color> will be cleared.",
-          "Triggers when another <color=#FFFFFF>[Anomaly]</color> Character or same-Faction Character exists in your squad:\nWhen the number of <color=#FFFFFF>[Anomaly]</color> Characters in your squad is 1/2/3, entering the battlefield grants all squad members a boost to ATK equal to 7.5%/15%/40% of Remie's initial ATK, with a cap of 1,600, and Daze dealt by this character while in the <color=#FFFFFF>[Phase Flux]</color> state is increased by 7.5%/15%/35%;\nAdditionally, when this character applies <color=#FFA9DD>[Lumen Buildup Point]</color> to an enemy, they also inflict the <color=#FFFFFF>[Phantachrome]</color> effect on that enemy: While under the <color=#FFFFFF>[Phantachrome]</color> effect, when an enemy takes Attribute Anomaly DMG, their Anomaly Buildup Rate is increased by 15%. When the enemy has no <color=#FFA9DD>[Lumen Buildup Point]</color>, the <color=#FFFFFF>[Phantachrome]</color> effect expires. After the <color=#FFFFFF>[Phantachrome]</color> effect expires, the Anomaly Buildup Rate increase when the enemy takes Attribute Anomaly DMG persists for an additional 8 seconds."
+          "Remielle's <color=#FFA9DD>[Refringe Coefficient]</color> is equal to 0.02% of her Anomaly Proficiency. If there are 3 <color=#FFFFFF>[Anomaly]</color> characters in the squad, her <color=#FFA9DD>[Refringe Coefficient]</color> increases by an additional 10%.\nWhen Remielle triggers a <Term:1000031></Term> reaction via a squad member, she generates <color=#FFFFFF>[Voidflare]</color> based on the <Term:1000023></Term> after it has been enhanced by <color=#FFA9DD>[Refringe]</color> for this Attribute Anomaly effect. Up to the 3 most recently generated <color=#FFFFFF>[Voidflare]</color> can be stored.\nIf <color=#FFFFFF>[Assist: Flower & Feather Dance]</color>/<color=#FFFFFF>[Ultimate: Dazzling Curtain Call]</color>/<color=#FFFFFF>[Basic Attack: Rainbow's End]</color>/<color=#FFFFFF>[Basic Attack: Fleeting Grace]</color> hits a target, <color=#FFFFFF>[Luminize]</color> is triggered after the skill ends:\nBased on the total <color=#FFFFFF>[Anomaly Effect Strength]</color> of all stored <color=#FFFFFF>[Voidflare]</color>, this deals Attribute Anomaly DMG to the enemy using the corresponding skill's DMG multiplier. This multiplier is further increased by <color=#2BAD00>0.15%</color> of Remielle's Anomaly Proficiency.\nAll stored <color=#FFFFFF>[Voidflare]</color> are cleared when Remielle enters the <Term:1000035></Term> state or after using <color=#FFFFFF>[Basic Attack: Rainbow's End]</color> or <color=#FFFFFF>[Basic Attack: Fleeting Grace]</color>.",
+          "When another character in your squad is an <color=#FFFFFF>[Anomaly]</color> character or shares the same faction:\nWhen there are 1/2/3 <color=#FFFFFF>[Anomaly]</color> characters in the squad, upon entering the battlefield, all squad members gain an ATK increase equal to 6%/12%/40% of Remielle's initial ATK, up to a maximum of 1,600 ATK. Additionally, while in the <Term:1000035></Term> state, Remielle's Daze dealt increases by 6%/12%/35%.\nWhen Remielle applies <color=#FFA9DD>[Lumiflux Buildup]</color> to an enemy, they also inflict <color=#FFFFFF>[Prismatic]</color>: When all squad members attack an enemy affected by <color=#FFFFFF>[Prismatic]</color>, Anomaly Buildup Rate increases by 15%. <color=#FFFFFF>[Prismatic]</color> is removed when the enemy no longer has <color=#FFA9DD>[Lumiflux Buildup]</color>. After <color=#FFFFFF>[Prismatic]</color> is removed, the Anomaly Buildup Rate increase persists for an additional 8s."
         ],
         "extra_property": {},
         "potential": []
@@ -1948,12 +1968,12 @@
         "level": 5,
         "id": 1581505,
         "name": [
-          "Core Passive: Chromatic Stasis",
-          "Additional Ability: Phee's Invitation"
+          "Core Passive: Temporal Patterns = Stilled Colors",
+          "Additional Ability: Invitation to Bloom"
         ],
         "desc": [
-          "Remie's <color=#FFA9DD>[Mutation Coefficient]</color> is 0.01% of her own Anomaly Proficiency. When the number of <color=#FFFFFF>[Anomaly]</color> Characters in the team is 3, the <color=#FFA9DD>[Mutation Coefficient]</color> is additionally increased by 15%;\nWhen a teammate triggers a <color=#FFA9DD>Lumen Attribute</color> <color=#FFA9DD>[Mutation]</color> reaction, Remie generates <color=#FFFFFF>[Voidglow]</color> based on the <color=#FFFFFF>[Anomaly Intensity]</color> of the Attribute Anomaly effect after being enhanced by <color=#FFA9DD>[Mutation]</color>. Up to 3 of the most recently generated <color=#FFFFFF>[Voidglow]</color> can be stored;\nIf <color=#FFFFFF>[Assist: Feather Ring Dance]</color>/<color=#FFFFFF>[Ultimate: Turbulent Final Act]</color>/<color=#FFFFFF>[Basic Attack: Cascade]</color>/<color=#FFFFFF>[Basic Attack: Fleeting Grace]</color> hits a target, the <color=#FFFFFF>[Luminize]</color> effect can be triggered after the skill ends:\nBased on the <color=#FFFFFF>[Anomaly Intensity]</color> of all stored <color=#FFFFFF>[Voidglow]</color>, deal Attribute Anomaly DMG to enemies at the corresponding multiplier of the skill, and increase this DMG Multiplier based on <color=#2BAD00>0.16%</color> of own Anomaly Proficiency;\nWhen the Character enters <color=#FFFFFF>[Phase-Shift Flow]</color> state or after using <color=#FFFFFF>[Basic Attack: Cascade]</color> or <color=#FFFFFF>[Basic Attack: Fleeting Grace]</color>, all stored <color=#FFFFFF>[Voidglow]</color> will be cleared.",
-          "Triggers when another <color=#FFFFFF>[Anomaly]</color> Character or same-Faction Character exists in your squad:\nWhen the number of <color=#FFFFFF>[Anomaly]</color> Characters in your squad is 1/2/3, entering the battlefield grants all squad members a boost to ATK equal to 7.5%/15%/40% of Remie's initial ATK, with a cap of 1,600, and Daze dealt by this character while in the <color=#FFFFFF>[Phase Flux]</color> state is increased by 7.5%/15%/35%;\nAdditionally, when this character applies <color=#FFA9DD>[Lumen Buildup Point]</color> to an enemy, they also inflict the <color=#FFFFFF>[Phantachrome]</color> effect on that enemy: While under the <color=#FFFFFF>[Phantachrome]</color> effect, when an enemy takes Attribute Anomaly DMG, their Anomaly Buildup Rate is increased by 15%. When the enemy has no <color=#FFA9DD>[Lumen Buildup Point]</color>, the <color=#FFFFFF>[Phantachrome]</color> effect expires. After the <color=#FFFFFF>[Phantachrome]</color> effect expires, the Anomaly Buildup Rate increase when the enemy takes Attribute Anomaly DMG persists for an additional 8 seconds."
+          "Remielle's <color=#FFA9DD>[Refringe Coefficient]</color> is equal to 0.02% of her Anomaly Proficiency. If there are 3 <color=#FFFFFF>[Anomaly]</color> characters in the squad, her <color=#FFA9DD>[Refringe Coefficient]</color> increases by an additional 10%.\nWhen Remielle triggers a <Term:1000031></Term> reaction via a squad member, she generates <color=#FFFFFF>[Voidflare]</color> based on the <Term:1000023></Term> after it has been enhanced by <color=#FFA9DD>[Refringe]</color> for this Attribute Anomaly effect. Up to the 3 most recently generated <color=#FFFFFF>[Voidflare]</color> can be stored.\nIf <color=#FFFFFF>[Assist: Flower & Feather Dance]</color>/<color=#FFFFFF>[Ultimate: Dazzling Curtain Call]</color>/<color=#FFFFFF>[Basic Attack: Rainbow's End]</color>/<color=#FFFFFF>[Basic Attack: Fleeting Grace]</color> hits a target, <color=#FFFFFF>[Luminize]</color> is triggered after the skill ends:\nBased on the total <color=#FFFFFF>[Anomaly Effect Strength]</color> of all stored <color=#FFFFFF>[Voidflare]</color>, this deals Attribute Anomaly DMG to the enemy using the corresponding skill's DMG multiplier. This multiplier is further increased by <color=#2BAD00>0.16%</color> of Remielle's Anomaly Proficiency.\nAll stored <color=#FFFFFF>[Voidflare]</color> are cleared when Remielle enters the <Term:1000035></Term> state or after using <color=#FFFFFF>[Basic Attack: Rainbow's End]</color> or <color=#FFFFFF>[Basic Attack: Fleeting Grace]</color>.",
+          "When another character in your squad is an <color=#FFFFFF>[Anomaly]</color> character or shares the same faction:\nWhen there are 1/2/3 <color=#FFFFFF>[Anomaly]</color> characters in the squad, upon entering the battlefield, all squad members gain an ATK increase equal to 6%/12%/40% of Remielle's initial ATK, up to a maximum of 1,600 ATK. Additionally, while in the <Term:1000035></Term> state, Remielle's Daze dealt increases by 6%/12%/35%.\nWhen Remielle applies <color=#FFA9DD>[Lumiflux Buildup]</color> to an enemy, they also inflict <color=#FFFFFF>[Prismatic]</color>: When all squad members attack an enemy affected by <color=#FFFFFF>[Prismatic]</color>, Anomaly Buildup Rate increases by 15%. <color=#FFFFFF>[Prismatic]</color> is removed when the enemy no longer has <color=#FFA9DD>[Lumiflux Buildup]</color>. After <color=#FFFFFF>[Prismatic]</color> is removed, the Anomaly Buildup Rate increase persists for an additional 8s."
         ],
         "extra_property": {},
         "potential": []
@@ -1962,12 +1982,12 @@
         "level": 6,
         "id": 1581506,
         "name": [
-          "Core Passive: Chromatic Stasis",
-          "Additional Ability: Phee's Invitation"
+          "Core Passive: Temporal Patterns = Stilled Colors",
+          "Additional Ability: Invitation to Bloom"
         ],
         "desc": [
-          "Remie's <color=#FFA9DD>[Mutation Coefficient]</color> is 0.01% of her own Anomaly Proficiency. When the number of <color=#FFFFFF>[Anomaly]</color> Characters in the team is 3, the <color=#FFA9DD>[Mutation Coefficient]</color> is additionally increased by 15%;\nWhen a teammate triggers a <color=#FFA9DD>Lumen Attribute</color> <color=#FFA9DD>[Mutation]</color> reaction, Remie generates <color=#FFFFFF>[Voidglow]</color> based on the <color=#FFFFFF>[Anomaly Intensity]</color> of the Attribute Anomaly effect after being enhanced by <color=#FFA9DD>[Mutation]</color>. Up to 3 of the most recently generated <color=#FFFFFF>[Voidglow]</color> can be stored;\nIf <color=#FFFFFF>[Assist: Feather Ring Dance]</color>/<color=#FFFFFF>[Ultimate: Turbulent Final Act]</color>/<color=#FFFFFF>[Basic Attack: Cascade]</color>/<color=#FFFFFF>[Basic Attack: Fleeting Grace]</color> hits a target, the <color=#FFFFFF>[Luminize]</color> effect can be triggered after the skill ends:\nBased on the <color=#FFFFFF>[Anomaly Intensity]</color> of all stored <color=#FFFFFF>[Voidglow]</color>, deal Attribute Anomaly DMG to enemies at the corresponding multiplier of the skill, and increase this DMG Multiplier based on <color=#2BAD00>0.18%</color> of own Anomaly Proficiency;\nWhen the Character enters <color=#FFFFFF>[Phase-Shift Flow]</color> state or after using <color=#FFFFFF>[Basic Attack: Cascade]</color> or <color=#FFFFFF>[Basic Attack: Fleeting Grace]</color>, all stored <color=#FFFFFF>[Voidglow]</color> will be cleared.",
-          "Triggers when another <color=#FFFFFF>[Anomaly]</color> Character or same-Faction Character exists in your squad:\nWhen the number of <color=#FFFFFF>[Anomaly]</color> Characters in your squad is 1/2/3, entering the battlefield grants all squad members a boost to ATK equal to 7.5%/15%/40% of Remie's initial ATK, with a cap of 1,600, and Daze dealt by this character while in the <color=#FFFFFF>[Phase Flux]</color> state is increased by 7.5%/15%/35%;\nAdditionally, when this character applies <color=#FFA9DD>[Lumen Buildup Point]</color> to an enemy, they also inflict the <color=#FFFFFF>[Phantachrome]</color> effect on that enemy: While under the <color=#FFFFFF>[Phantachrome]</color> effect, when an enemy takes Attribute Anomaly DMG, their Anomaly Buildup Rate is increased by 15%. When the enemy has no <color=#FFA9DD>[Lumen Buildup Point]</color>, the <color=#FFFFFF>[Phantachrome]</color> effect expires. After the <color=#FFFFFF>[Phantachrome]</color> effect expires, the Anomaly Buildup Rate increase when the enemy takes Attribute Anomaly DMG persists for an additional 8 seconds."
+          "Remielle's <color=#FFA9DD>[Refringe Coefficient]</color> is equal to 0.02% of her Anomaly Proficiency. If there are 3 <color=#FFFFFF>[Anomaly]</color> characters in the squad, her <color=#FFA9DD>[Refringe Coefficient]</color> increases by an additional 10%.\nWhen Remielle triggers a <Term:1000031></Term> reaction via a squad member, she generates <color=#FFFFFF>[Voidflare]</color> based on the <Term:1000023></Term> after it has been enhanced by <color=#FFA9DD>[Refringe]</color> for this Attribute Anomaly effect. Up to the 3 most recently generated <color=#FFFFFF>[Voidflare]</color> can be stored.\nIf <color=#FFFFFF>[Assist: Flower & Feather Dance]</color>/<color=#FFFFFF>[Ultimate: Dazzling Curtain Call]</color>/<color=#FFFFFF>[Basic Attack: Rainbow's End]</color>/<color=#FFFFFF>[Basic Attack: Fleeting Grace]</color> hits a target, <color=#FFFFFF>[Luminize]</color> is triggered after the skill ends:\nBased on the total <color=#FFFFFF>[Anomaly Effect Strength]</color> of all stored <color=#FFFFFF>[Voidflare]</color>, this deals Attribute Anomaly DMG to the enemy using the corresponding skill's DMG multiplier. This multiplier is further increased by <color=#2BAD00>0.18%</color> of Remielle's Anomaly Proficiency.\nAll stored <color=#FFFFFF>[Voidflare]</color> are cleared when Remielle enters the <Term:1000035></Term> state or after using <color=#FFFFFF>[Basic Attack: Rainbow's End]</color> or <color=#FFFFFF>[Basic Attack: Fleeting Grace]</color>.",
+          "When another character in your squad is an <color=#FFFFFF>[Anomaly]</color> character or shares the same faction:\nWhen there are 1/2/3 <color=#FFFFFF>[Anomaly]</color> characters in the squad, upon entering the battlefield, all squad members gain an ATK increase equal to 6%/12%/40% of Remielle's initial ATK, up to a maximum of 1,600 ATK. Additionally, while in the <Term:1000035></Term> state, Remielle's Daze dealt increases by 6%/12%/35%.\nWhen Remielle applies <color=#FFA9DD>[Lumiflux Buildup]</color> to an enemy, they also inflict <color=#FFFFFF>[Prismatic]</color>: When all squad members attack an enemy affected by <color=#FFFFFF>[Prismatic]</color>, Anomaly Buildup Rate increases by 15%. <color=#FFFFFF>[Prismatic]</color> is removed when the enemy no longer has <color=#FFA9DD>[Lumiflux Buildup]</color>. After <color=#FFFFFF>[Prismatic]</color> is removed, the Anomaly Buildup Rate increase persists for an additional 8s."
         ],
         "extra_property": {},
         "potential": []
@@ -1976,12 +1996,12 @@
         "level": 7,
         "id": 1581507,
         "name": [
-          "Core Passive: Chromatic Stasis",
-          "Additional Ability: Phee's Invitation"
+          "Core Passive: Temporal Patterns = Stilled Colors",
+          "Additional Ability: Invitation to Bloom"
         ],
         "desc": [
-          "Remie's <color=#FFA9DD>[Mutation Coefficient]</color> is 0.01% of her own Anomaly Proficiency. When the number of <color=#FFFFFF>[Anomaly]</color> Characters in the team is 3, the <color=#FFA9DD>[Mutation Coefficient]</color> is additionally increased by 15%;\nWhen a teammate triggers a <color=#FFA9DD>Lumen Attribute</color> <color=#FFA9DD>[Mutation]</color> reaction, Remie generates <color=#FFFFFF>[Phantom Radiance]</color> based on the <color=#FFFFFF>[Anomaly Buildup Intensity]</color> of that Attribute Anomaly effect after being enhanced by <color=#FFA9DD>[Mutation]</color>. Up to 3 of the most recently generated <color=#FFFFFF>[Phantom Radiance]</color> can be stored;\nIf <color=#FFFFFF>[Assist Skill: Feather Waltz]</color>/<color=#FFFFFF>[Ultimate: Brilliant Finale]</color>/<color=#FFFFFF>[Basic Attack: Cascade]</color>/<color=#FFFFFF>[Basic Attack: Fleeting Grace]</color> hits a target, the <color=#FFFFFF>[Luminize]</color> effect can be triggered after the skill ends:\nBased on the <color=#FFFFFF>[Anomaly Buildup Intensity]</color> of all stored <color=#FFFFFF>[Phantom Radiance]</color>, deal Attribute Anomaly DMG to enemies at the corresponding multiplier of the skill, and increase this DMG Multiplier based on <color=#2BAD00>0.2%</color> of own Anomaly Proficiency;\nWhen the Character enters <color=#FFFFFF>[Phase-Shift Flow]</color> or after using <color=#FFFFFF>[Basic Attack: Cascade]</color> or <color=#FFFFFF>[Basic Attack: Fleeting Grace]</color>, all stored <color=#FFFFFF>[Phantom Radiance]</color> will be cleared.",
-          "Triggers when another <color=#FFFFFF>[Anomaly]</color> Character or same-Faction Character exists in your squad:\nWhen the number of <color=#FFFFFF>[Anomaly]</color> Characters in your squad is 1/2/3, entering the battlefield grants all squad members a boost to ATK equal to 7.5%/15%/40% of Remie's initial ATK, with a cap of 1,600, and Daze dealt by this character while in the <color=#FFFFFF>[Phase Flux]</color> state is increased by 7.5%/15%/35%;\nAdditionally, when this character applies <color=#FFA9DD>[Lumen Buildup Point]</color> to an enemy, they also inflict the <color=#FFFFFF>[Phantachrome]</color> effect on that enemy: While under the <color=#FFFFFF>[Phantachrome]</color> effect, when an enemy takes Attribute Anomaly DMG, their Anomaly Buildup Rate is increased by 15%. When the enemy has no <color=#FFA9DD>[Lumen Buildup Point]</color>, the <color=#FFFFFF>[Phantachrome]</color> effect expires. After the <color=#FFFFFF>[Phantachrome]</color> effect expires, the Anomaly Buildup Rate increase when the enemy takes Attribute Anomaly DMG persists for an additional 8 seconds."
+          "Remielle's <color=#FFA9DD>[Refringe Coefficient]</color> is equal to 0.02% of her Anomaly Proficiency. If there are 3 <color=#FFFFFF>[Anomaly]</color> characters in the squad, her <color=#FFA9DD>[Refringe Coefficient]</color> increases by an additional 10%.\nWhen Remielle triggers a <Term:1000031></Term> reaction via a squad member, she generates <color=#FFFFFF>[Voidflare]</color> based on the <Term:1000023></Term> after it has been enhanced by <color=#FFA9DD>[Refringe]</color> from the Attribute Anomaly effect. Up to the 3 most recently generated <color=#FFFFFF>[Voidflare]</color> can be stored.\nIf <color=#FFFFFF>[Assist: Flower & Feather Dance]</color>/<color=#FFFFFF>[Ultimate: Dazzling Curtain Call]</color>/<color=#FFFFFF>[Basic Attack: Rainbow's End]</color>/<color=#FFFFFF>[Basic Attack: Fleeting Grace]</color> hits a target, <color=#FFFFFF>[Luminize]</color> is triggered after the skill ends:\nBased on the total <color=#FFFFFF>[Anomaly Effect Strength]</color> of all stored <color=#FFFFFF>[Voidflare]</color>, this deals Attribute Anomaly DMG to the enemy using the corresponding skill's DMG multiplier. This multiplier is further increased by <color=#2BAD00>0.2%</color> of Remielle's Anomaly Proficiency.\nAll stored <color=#FFFFFF>[Voidflare]</color> are cleared when Remielle enters the <Term:1000035></Term> state or after using <color=#FFFFFF>[Basic Attack: Rainbow's End]</color> or <color=#FFFFFF>[Basic Attack: Fleeting Grace]</color>.",
+          "When another character in your squad is an <color=#FFFFFF>[Anomaly]</color> character or shares the same faction:\nWhen there are 1/2/3 <color=#FFFFFF>[Anomaly]</color> characters in the squad, upon entering the battlefield, all squad members gain an ATK increase equal to 6%/12%/40% of Remielle's initial ATK, up to a maximum of 1,600 ATK. Additionally, while in the <Term:1000035></Term> state, Remielle's Daze dealt increases by 6%/12%/35%.\nWhen Remielle applies <color=#FFA9DD>[Lumiflux Buildup]</color> to an enemy, they also inflict <color=#FFFFFF>[Prismatic]</color>: When all squad members attack an enemy affected by <color=#FFFFFF>[Prismatic]</color>, Anomaly Buildup Rate increases by 15%. <color=#FFFFFF>[Prismatic]</color> is removed when the enemy no longer has <color=#FFA9DD>[Lumiflux Buildup]</color>. After <color=#FFFFFF>[Prismatic]</color> is removed, the Anomaly Buildup Rate increase persists for an additional 8s."
         ],
         "extra_property": {},
         "potential": []
@@ -2019,38 +2039,38 @@
   "talent": {
     "1": {
       "level": 1,
-      "name": "Green Vow",
-      "desc": "When Remie enters the battlefield, she gains the maximum amount of Special <color=#FFFFFF>[Radiance]</color>. In Investigation Zone mode, this effect can trigger once every 180 seconds. When Remie triggers the <color=#FFFFFF>[Luminize]</color> effect, she ignores 50% of the target's All-Attribute RES. When using <color=#FFFFFF>[Assist: Feather Wheel Dance]</color>, she gains 200 Decibels, and this effect can trigger at most once every 18 seconds. While Remie is in the <color=#FFFFFF>[Phase Shift Flow]</color> state, Attribute Anomaly Damage Dealt by teammates is increased by 10%.",
+      "name": "Naive Oath",
+      "desc": "Upon entering the battlefield, Remielle gains 3 special <Term:1000033></Term>. In Investigation Zone mode, this effect can trigger once every 180s. When Remielle triggers <Term:1000034></Term> to deal DMG, she ignores 50% of the target's All-Attribute RES. When using <color=#FFFFFF>[Assist: Flower & Feather Dance]</color>, she gains 200 Decibels. This effect can trigger once every 18s. While Remielle is in the <Term:1000035></Term> state, other squad members' Attribute Anomaly DMG increases by 10%.",
       "desc2": "..."
     },
     "2": {
       "level": 2,
-      "name": "Cascading Clamor",
-      "desc": "Remie's <color=#FFA9DD>[Refringence]</color> increases to 2. When triggering a <color=#FFA9DD>[Refringe]</color> reaction, up to 2 <color=#FFA9DD>[Lumen Buildup Points]</color> will be consumed. When 2 <color=#FFA9DD>[Lumen Buildup Points]</color> are consumed, the <color=#FFA9DD>[Mutation Coefficient]</color> of this <color=#FFA9DD>[Refringe]</color> increases by 25%.\nAdditionally, while the character is in the <color=#FFFFFF>[Phase Flux]</color> state, the frequency at which auto-activated Support Skills apply <color=#FFA9DD>[Lumen Buildup Points]</color> to enemies increases, and the number of <color=#FFA9DD>[Lumen Buildup Points]</color> applied per skill also increases from 1 to 2.",
+      "name": "Fall Into the Noise",
+      "desc": "Remielle's <color=#FFA9DD>[Refringe Coefficient]</color> increases by 20%. When an <color=#FFFFFF>[Anomaly]</color> character in the squad deals Attribute Anomaly DMG to an enemy affected by <color=#FFFFFF>[Prismatic]</color>, the attack ignores 15% of the target's DEF. This effect persists for an additional 8s after <color=#FFFFFF>[Prismatic]</color> ends. While Remielle is in the <Term:1000035></Term> state, the frequency at which she automatically launches attacks to apply <color=#FFA9DD>[Lumiflux Buildup]</color> to enemies increases.",
       "desc2": "..."
     },
     "3": {
       "level": 3,
-      "name": "Garden of Diverging Time",
+      "name": "The Garden of Diverging Time",
       "desc": "<color=#FFFFFF>Basic Attack</color>, <color=#FFFFFF>Dodge</color>, <color=#FFFFFF>Assist</color>, <color=#FFFFFF>Special Attack</color>, and <color=#FFFFFF>Chain Attack</color> Lv. +2",
       "desc2": "..."
     },
     "4": {
       "level": 4,
       "name": "The Long Goodbye",
-      "desc": "When Remie triggers the <color=#FFFFFF>[Luminize]</color> effect, DMG Multiplier is additionally increased by 12%; after Remie enters the battlefield and gains the maximum number of special <color=#FFFFFF>[Void Radiance]</color>, if all <color=#FFFFFF>[Void Radiance]</color> are consumed within 30s, the maximum number of special <color=#FFFFFF>[Void Radiance]</color> can be obtained once more. The effect of gaining special <color=#FFFFFF>[Void Radiance]</color> again disappears after triggering 1 time or when Remie enters the <color=#FFFFFF>[Phase-Shift Flow]</color> state.",
+      "desc": "When Remielle triggers <Term:1000034></Term>, the DMG multiplier is increased by an additional 12%. After Remielle enters the battlefield and gains 3 special <Term:1000033></Term>, if all <color=#FFFFFF>[Voidflare]</color> are consumed, she immediately gains the maximum number of special <color=#FFFFFF>[Voidflare]</color> again. This effect is removed after triggering once or when Remielle enters the <Term:1000035></Term> state.",
       "desc2": "..."
     },
     "5": {
       "level": 5,
-      "name": "The Wayfarer Drinks Deep of Oblivion",
+      "name": "To Drink Forgetfulness",
       "desc": "<color=#FFFFFF>Basic Attack</color>, <color=#FFFFFF>Dodge</color>, <color=#FFFFFF>Assist</color>, <color=#FFFFFF>Special Attack</color>, and <color=#FFFFFF>Chain Attack</color> Lv. +2",
       "desc2": "..."
     },
     "6": {
       "level": 6,
-      "name": "Wings of a Thousand Beats",
-      "desc": "When Remie uses <color=#FFFFFF>[Basic Attack: Drooping Rainbow]</color> and <color=#FFFFFF>[Basic Attack: Fleeting Swan]</color>, she triggers the <color=#FFFFFF>[Luminize]</color> effect 2 times; if the 4th hit of <color=#FFFFFF>[Basic Attack]</color> lands on a target, Remie gains 3 special <color=#FFFFFF>[Void Radiance]</color> after the skill ends. The DMG dealt by special <color=#FFFFFF>[Void Radiance]</color> obtained this way is 20% of that from special <color=#FFFFFF>[Void Radiance]</color> gained upon entering the battlefield.",
+      "name": "Lone Feather's Endless Flight",
+      "desc": "When Remielle uses <color=#FFFFFF>[Basic Attack: Rainbow's End]</color> or <color=#FFFFFF>[Basic Attack: Fleeting Grace]</color>, <Term:1000034></Term> is triggered twice. If the 4th hit of her <color=#FFFFFF>[Basic Attack]</color> lands, Remielle gains 3 special <Term:1000033></Term> after the move ends. Special <color=#FFFFFF>[Voidflare]</color> gained this way deal DMG equal to 25% of the special <color=#FFFFFF>[Voidflare]</color> gained upon entering the battlefield.",
       "desc2": "..."
     }
   },

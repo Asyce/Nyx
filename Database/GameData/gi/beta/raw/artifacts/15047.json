@@ -72,7 +72,7 @@
         0
       ],
       "name": "Scarlet Proof",
-      "desc": "Triggering a Stellar Swirl reaction increases the character's ATK by 16% and Stellar Swirl DMG by 40% for 10s."
+      "desc": "Increases the equipping character's CRIT Rate by 16%, and their Stellar Swirl reaction dealt by 40%, for 10s when they trigger a Stellar Swirl reaction or deal Stellar Swirl reaction DMG."
     }
   ],
   "parts": {

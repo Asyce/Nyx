@@ -337,7 +337,7 @@
         },
         {
           "name": "Basic Attack: Dancing Blades",
-          "desc": "Press <IconMap:Icon_Normal> to activate:\nPerform up to 6 consecutive attacks, dealing <color=#F0D12B>Physical DMG</color>;\nThe 6th hit of <color=#FFFFFF>[Basic Attack]</color> is also considered a <color=#FFFFFF>[Dash Attack]</color>, and Anti-Interrupt level is increased while using this skill.",
+          "desc": "Press <IconMap:Icon_Normal> to activate:\nUnleashes up to six consecutive attacks ahead, dealing <color=#F0D12B>Physical DMG</color>.\nThe sixth <color=#FFFFFF>Basic Attack</color> is also treated as a <color=#FFFFFF>Dash Attack</color>, and Anti-Interrupt level is increased while using this skill.",
           "potential": [
             126100,
             126101,
@@ -361,7 +361,7 @@
         },
         {
           "name": "Basic Attack: Salchow Jump",
-          "desc": "Entering the <color=#FFFFFF>Passion</color> state grants Jane one use of <color=#FFFFFF>Basic Attack: Salchow Jump</color>.\nWhen available, hold <IconMap:Icon_Normal> to activate:\nLaunch rapid consecutive attacks forward, followed by a Finishing Move, dealing <color=#F0D12B>Physical DMG</color>.\nHold the button during the consecutive attacks to greatly extend the skill duration. Release <IconMap:Icon_Normal> to trigger the Finishing Move early.\nAnti-Interrupt level is increased during the consecutive attacks, and Jane takes 40% reduced DMG. Jane is Invulnerable during the Finishing Move and can trigger Perfect Dodge.\nIf Perfect Dodge is triggered, the amount of <color=#FFFFFF>Passion Stream</color> restored when the Finishing Move hits an enemy is increased.\nUsing and damaging an enemy with <color=#FFFFFF>Basic Attack: Salchow Jump</color> while in the <color=#FFFFFF>Passion</color> state generates <color=#FFFFFF>Passion Stream</color>.",
+          "desc": "Entering the <color=#FFFFFF>Passion</color> state grants Jane one use of <color=#FFFFFF>Basic Attack: Salchow Jump</color>.\nWhen available, hold <IconMap:Icon_Normal> to activate:\nLaunch rapid consecutive attacks forward, followed by a Finishing Move, dealing <color=#F0D12B>Physical DMG</color>.\nHold the button during the consecutive attacks to greatly extend the skill duration. Release <IconMap:Icon_Normal> to trigger the Finishing Move early.\nAnti-Interrupt level is increased during the consecutive attacks, and Jane takes 40% reduced DMG. Jane is invulnerable during the Finishing Move, which can also trigger a Perfect Dodge.\nIf a Perfect Dodge is triggered, the Finishing Move restores more <color=#FFFFFF>Passion Stream</color> on hit.\nUsing and damaging an enemy with <color=#FFFFFF>Basic Attack: Salchow Jump</color> while in the <color=#FFFFFF>Passion</color> state generates <color=#FFFFFF>Passion Stream</color>.",
           "potential": [
             126100,
             126101,
@@ -1438,7 +1438,7 @@
         },
         {
           "name": "EX Special Attack: Aerial Sweep - Clearout",
-          "desc": "With enough Energy, press <IconMap:Icon_SpecialReady> to activate:\nLeaps into the air to launch multiple consecutive kicks forward, then sweeps across, dealing massive <color=#F0D12B>Physical DMG</color>;\nCharacter is invulnerable while using this skill, and it is also considered as a <color=#FFFFFF>[Dash Attack]</color>.",
+          "desc": "With enough Energy, press <IconMap:Icon_SpecialReady> to activate:\nLeaps into the air to launch multiple consecutive kicks forward, then sweeps across, dealing massive <color=#F0D12B>Physical DMG</color>.\nCharacter is invulnerable while using this skill, which also counts as a <color=#FFFFFF>Dash Attack</color>.",
           "potential": [
             126100,
             126101,
@@ -1450,7 +1450,7 @@
         },
         {
           "name": "EX Special Attack: Aerial Sweep - Onslaught",
-          "desc": "<color=#FFFFFF>[Passion]</color> While in this state, with enough Energy, press <IconMap:Icon_SpecialReady> to activate:\nLeaps into the air to launch multiple consecutive kicks forward, then sweeps across, dealing massive <color=#F0D12B>Physical DMG</color>;\nCharacter is invulnerable while using this skill, and it is also considered a <color=#FFFFFF>[Dash Attack]</color>.",
+          "desc": "While in the Passion state and with enough Energy, press <IconMap:Icon_SpecialReady> to activate:\nLeaps into the air to launch multiple consecutive kicks forward, then sweeps across, dealing massive <color=#F0D12B>Physical DMG</color>.\nCharacter is invulnerable while using this skill, which also counts as a <color=#FFFFFF>Dash Attack</color>.",
           "potential": [
             126100,
             126101,
@@ -2389,7 +2389,7 @@
     },
     "1261015": {
       "name": "EX Special Attack: Aerial Sweep - Onslaught",
-      "desc": "<IconMap:Icon_SpecialReady>(Frenzy State)",
+      "desc": "<IconMap:Icon_SpecialReady> (Passion State)",
       "element_type": 200,
       "hit_type": 101,
       "potential": [
@@ -2619,7 +2619,7 @@
       "name": "",
       "desc": "",
       "image": "Jane",
-      "level_show_name": "Heart-Stealing Tango I",
+      "level_show_name": "Heartsnatch Tango I",
       "level": 1,
       "ability_list": [
         11261401
@@ -2633,10 +2633,10 @@
     },
     "126101": {
       "id": 126101,
-      "name": "Potential Awakening: Deadly Dance Steps",
-      "desc": "When Jane triggers <color=#F0D12B>[Assault]</color>, CRIT DMG is additionally increased by 10%.",
+      "name": "Awakened Potential: Lethal Dance",
+      "desc": "When Jane triggers <color=#F0D12B>Assault</color>, her CRIT DMG is additionally increased by 10%.",
       "image": "Jane",
-      "level_show_name": "Heart-Stealing Tango II",
+      "level_show_name": "Heartsnatch Tango II",
       "level": 2,
       "ability_list": [
         11261401,
@@ -2651,10 +2651,10 @@
     },
     "126102": {
       "id": 126102,
-      "name": "Potential Awakening: Deadly Dance Steps",
-      "desc": "When Jane triggers <color=#F0D12B>[Assault]</color>, CRIT DMG is additionally increased by 15%.",
+      "name": "Awakened Potential: Lethal Dance",
+      "desc": "When Jane triggers <color=#F0D12B>Assault</color>, her CRIT DMG is additionally increased by 15%.",
       "image": "Jane",
-      "level_show_name": "Heart-Stealing Tango III",
+      "level_show_name": "Heartsnatch Tango III",
       "level": 3,
       "ability_list": [
         11261401,
@@ -2669,10 +2669,10 @@
     },
     "126103": {
       "id": 126103,
-      "name": "Potential Awakening: Deadly Dance Steps",
-      "desc": "When Jane triggers <color=#F0D12B>[Assault]</color>, her CRIT DMG is additionally increased by 20%.",
+      "name": "Awakened Potential: Lethal Dance",
+      "desc": "When Jane triggers <color=#F0D12B>Assault</color>, her CRIT DMG is additionally increased by 20%.",
       "image": "Jane",
-      "level_show_name": "Heart-Stealing Tango IV",
+      "level_show_name": "Heartsnatch Tango IV",
       "level": 4,
       "ability_list": [
         11261401,
@@ -2687,10 +2687,10 @@
     },
     "126104": {
       "id": 126104,
-      "name": "Potential Awakening: Deadly Dance Steps",
-      "desc": "When Jane triggers <color=#F0D12B>[Assault]</color>, her CRIT DMG is additionally increased by 25%.",
+      "name": "Awakened Potential: Lethal Dance",
+      "desc": "When Jane triggers <color=#F0D12B>Assault</color>, her CRIT DMG is additionally increased by 25%.",
       "image": "Jane",
-      "level_show_name": "Heart-Stealing Tango V",
+      "level_show_name": "Heartsnatch Tango V",
       "level": 5,
       "ability_list": [
         11261401,
@@ -2705,10 +2705,10 @@
     },
     "126105": {
       "id": 126105,
-      "name": "Potential Awakening: Deadly Dance Steps",
-      "desc": "When Jane triggers <color=#F0D12B>[Assault]</color>, her CRIT DMG is additionally increased by 30%.",
+      "name": "Awakened Potential: Lethal Dance",
+      "desc": "When Jane triggers <color=#F0D12B>Assault</color>, her CRIT DMG is additionally increased by 30%.",
       "image": "Jane",
-      "level_show_name": "Heart-Stealing Tango VI",
+      "level_show_name": "Heartsnatch Tango VI",
       "level": 6,
       "ability_list": [
         11261401,

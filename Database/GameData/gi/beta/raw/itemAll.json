@@ -1514,14 +1514,16 @@
     "type": ""
   },
   "199": {
-    "name": "Prime Ice Resource",
+    "name": "Prime Ice Count",
     "desc": "Stored within the internal reservoir of the Eye of Graeae, it can be utilized to build the various mechanisms and constructs detailed in the blueprints.",
     "rank": 3,
     "icon": "UI_ItemIcon_199",
     "item_type": "ITEM_VIRTUAL",
     "material_type": "MATERIAL_NONE",
     "jump_descs": [],
-    "source_list": [],
+    "source_list": [
+      "Obtained by exploring Snezhnaya"
+    ],
     "title": "",
     "effect": "",
     "special": "",
@@ -1968,7 +1970,7 @@
   },
   "306": {
     "name": "Cryo Sigil",
-    "desc": "A token of recognition and appreciation that can be found around Mondstadt. Can be exchanged for rare items in the shop.",
+    "desc": "A sigil that serves as a sign of recognition from the frost and snow of Snezhnaya.\\nOffer it to the Meeting Point to receive the rewards from the ice.",
     "rank": 3,
     "icon": "UI_ItemIcon_306",
     "item_type": "ITEM_MATERIAL",
@@ -23439,7 +23441,8 @@
       "Go to collect"
     ],
     "source_list": [
-      "Recommendation: Found in Snezhnaya"
+      "Recommendation: Found near Snezhnograd",
+      "Recommendation: Found in White Birch Snowgrave"
     ],
     "title": "",
     "effect": "",
@@ -23457,7 +23460,7 @@
       "Go to collect"
     ],
     "source_list": [
-      "Recommendation: Found in Snezhnaya"
+      "Recommendation: Found in Fellfrost Peak"
     ],
     "title": "",
     "effect": "",
@@ -23475,7 +23478,8 @@
       "Go to collect"
     ],
     "source_list": [
-      "Recommendation: Found in Snezhnaya"
+      "Recommendation: Found in Flamefeather Valley",
+      "Recommendation: Found in Rankova Zorya"
     ],
     "title": "",
     "effect": "",
@@ -23555,7 +23559,8 @@
     "material_type": "MATERIAL_EXCHANGE",
     "jump_descs": [],
     "source_list": [
-      "Recommendation: Found in Snezhnaya"
+      "Recommendation: Found in Snezhnaya",
+      "Recommendation: Found in Shadow Realms and nearby area"
     ],
     "title": "",
     "effect": "",
@@ -24162,8 +24167,8 @@
     "type": "Material"
   },
   "101331": {
-    "name": "???",
-    "desc": "???",
+    "name": "Snow Poplar Wood",
+    "desc": "Wood from Snow Poplars that have smooth surfaces and light, soft textures. A fine choice for making all sorts of small woodworking products...",
     "rank": 1,
     "icon": "UI_ItemIcon_101332",
     "item_type": "ITEM_MATERIAL",
@@ -24173,7 +24178,7 @@
     ],
     "source_list": [
       "Found in the wild",
-      "???",
+      "Recommendation: Cut from Snezhnaya",
       "Purchased from Realm Depot: Wood"
     ],
     "title": "",
@@ -24182,8 +24187,8 @@
     "type": "Material"
   },
   "101332": {
-    "name": "???",
-    "desc": "???",
+    "name": "White Birch Wood",
+    "desc": "Wood from White Birches that boasts high density and toughness. Used for building structures for which bending resistance is a necessity...",
     "rank": 1,
     "icon": "UI_ItemIcon_101331",
     "item_type": "ITEM_MATERIAL",
@@ -24193,7 +24198,7 @@
     ],
     "source_list": [
       "Found in the wild",
-      "???",
+      "Recommendation: Cut from Snezhnaya",
       "Purchased from Realm Depot: Wood"
     ],
     "title": "",
@@ -24202,8 +24207,8 @@
     "type": "Material"
   },
   "101333": {
-    "name": "???",
-    "desc": "???",
+    "name": "Bluebeech Wood",
+    "desc": "Wood from Bluebeeches with even grain patterns and can better withstand wear and tear. In Snezhnaya, it is often used in layered panels involved in structures and implements for long-term use.",
     "rank": 1,
     "icon": "UI_ItemIcon_101333",
     "item_type": "ITEM_MATERIAL",
@@ -24213,7 +24218,7 @@
     ],
     "source_list": [
       "Found in the wild",
-      "???",
+      "Recommendation: Cut from Snezhnaya",
       "Purchased from Realm Depot: Wood"
     ],
     "title": "",
@@ -24222,8 +24227,8 @@
     "type": "Material"
   },
   "101334": {
-    "name": "???",
-    "desc": "???",
+    "name": "Larch Wood",
+    "desc": "Wood from Larches. They possess considerable hardness and are highly corrosion-proof. Snezhnayans often use it to build pillars and boards.",
     "rank": 1,
     "icon": "UI_ItemIcon_101334",
     "item_type": "ITEM_MATERIAL",
@@ -24233,7 +24238,7 @@
     ],
     "source_list": [
       "Found in the wild",
-      "???",
+      "Recommendation: Cut from Snezhnaya",
       "Purchased from Realm Depot: Wood"
     ],
     "title": "",
@@ -33129,7 +33134,7 @@
   },
   "104365": {
     "name": "Teachings of Charity",
-    "desc": "Talent Level-Up material.\\nCharity is the salvation of the frozen realm.\\nIt is the love and vigilant care shared among mortals. Across this vast and boundless land, it is the warmth by which the people withstand the biting frost, soothing the deep-seated scars etched into their memories.",
+    "desc": "Talent Level-Up Material.\\nCharity is the salvation of the frozen realm.\\nIt is the love and vigilant care shared among mortals. Across this vast and boundless land, it is the warmth by which the people withstand the biting frost, soothing the deep-seated scars etched into their memories.",
     "rank": 2,
     "icon": "UI_ItemIcon_104365",
     "item_type": "ITEM_MATERIAL",
@@ -33146,7 +33151,7 @@
   },
   "104366": {
     "name": "Guide to Charity",
-    "desc": "Talent Level-Up material.\\nCharity is the salvation of the frozen realm.\\nIt breeds mercy for others. In the realm of wind and snow, whosoever sincerely repents for the sins of their soul shall find absolution in the name of Charity.",
+    "desc": "Talent Level-Up Material.\\nCharity is the salvation of the frozen realm.\\nIt breeds mercy for others. In the realm of wind and snow, whosoever sincerely repents for the sins of their soul shall find absolution in the name of Charity.",
     "rank": 3,
     "icon": "UI_ItemIcon_104366",
     "item_type": "ITEM_MATERIAL",
@@ -33163,7 +33168,7 @@
   },
   "104367": {
     "name": "Philosophies of Charity",
-    "desc": "Talent Level-Up material.\\nCharity is the salvation of the frozen realm.\\nIt is a boundless grace extended to all living things. It collapses the divide between the highborn and the low, transcending both bloodline and nation. Its watchful gaze beholds all of humanity, offering sanctuary to the unfortunate and promising eternal liberation unto all.",
+    "desc": "Talent Level-Up Material.\\nCharity is the salvation of the frozen realm.\\nIt is a boundless grace extended to all living things. It collapses the divide between the highborn and the low, transcending both bloodline and nation. Its watchful gaze beholds all of humanity, offering sanctuary to the unfortunate and promising eternal liberation unto all.",
     "rank": 4,
     "icon": "UI_ItemIcon_104367",
     "item_type": "ITEM_MATERIAL",
@@ -33180,7 +33185,7 @@
   },
   "104368": {
     "name": "Teachings of Fortitude",
-    "desc": "Talent Level-Up material.\\nFortitude is the defining character of the frozen realm.\\nIt stems from a raw yearning for survival. Even if scattered far from fertile soil, a fragile seed can rely on this desperate longing to drive its roots deep beneath the frozen tundra.",
+    "desc": "Talent Level-Up Material.\\nFortitude is the defining character of the frozen realm.\\nIt stems from a raw yearning for survival. Even if scattered far from fertile soil, a fragile seed can rely on this desperate longing to drive its roots deep beneath the frozen tundra.",
     "rank": 2,
     "icon": "UI_ItemIcon_104368",
     "item_type": "ITEM_MATERIAL",
@@ -33197,7 +33202,7 @@
   },
   "104369": {
     "name": "Guide to Fortitude",
-    "desc": "Talent Level-Up material.\\nFortitude is the defining character of the frozen realm.\\nIt brings forth the will to grow. Though shattered by the bitter cold, a fragile seed can still harness this will to break through the frozen earth, pushing forth fresh sprouts to life across a landscape blanketed in wind and snow.",
+    "desc": "Talent Level-Up Material.\\nFortitude is the defining character of the frozen realm.\\nIt brings forth the will to grow. Though shattered by the bitter cold, a fragile seed can still harness this will to break through the frozen earth, pushing forth fresh sprouts to life across a landscape blanketed in wind and snow.",
     "rank": 3,
     "icon": "UI_ItemIcon_104369",
     "item_type": "ITEM_MATERIAL",
@@ -33214,7 +33219,7 @@
   },
   "104370": {
     "name": "Philosophies of Fortitude",
-    "desc": "Talent Level-Up material.\\nFortitude is the defining character of the frozen realm.\\nIt breeds the prosperity of life itself. The people here have never bowed to the biting cold, just as a fragile seed defiantly chooses to bloom amidst the blizzards. This civilization has witnessed centuries of bitter winter, yet remains vibrant much like the Frostfairy Flower that flourishes season after season.",
+    "desc": "Talent Level-Up Material.\\nFortitude is the defining character of the frozen realm.\\nIt breeds the prosperity of life itself. The people here have never bowed to the biting cold, just as a fragile seed defiantly chooses to bloom amidst the blizzards. This civilization has witnessed centuries of bitter winter, yet remains vibrant much like the Frostfairy Flower that flourishes season after season.",
     "rank": 4,
     "icon": "UI_ItemIcon_104370",
     "item_type": "ITEM_MATERIAL",
@@ -33231,7 +33236,7 @@
   },
   "104371": {
     "name": "Teachings of Glory",
-    "desc": "Talent Level-Up Material\\nGlory is the sacred faith of the frozen realm.\\nIt is a spark buried deep beneath the frozen soil; if one can but trace its true form, they shall grant themselves the courage to stand against the biting cold.",
+    "desc": "Talent Level-Up Material.\\nGlory is the sacred faith of the frozen realm.\\nIt is a spark buried deep beneath the frozen soil; if one can but trace its true form, they shall grant themselves the courage to stand against the biting cold.",
     "rank": 2,
     "icon": "UI_ItemIcon_104371",
     "item_type": "ITEM_MATERIAL",
@@ -33248,7 +33253,7 @@
   },
   "104372": {
     "name": "Guide to Glory",
-    "desc": "Talent Level-Up Material\\nGlory is the sacred faith of the frozen realm.\\nIt is an ember flickering in the deep night, a beacon upon which all who trek across the snowfields fix their gaze. Just as they are certain the blizzards will wane and the dawn will break, they are certain that the path they tread remains the true one.",
+    "desc": "Talent Level-Up Material.\\nGlory is the sacred faith of the frozen realm.\\nIt is an ember flickering in the deep night, a beacon upon which all who trek across the snowfields fix their gaze. Just as they are certain the blizzards will wane and the dawn will break, they are certain that the path they tread remains the true one.",
     "rank": 3,
     "icon": "UI_ItemIcon_104372",
     "item_type": "ITEM_MATERIAL",
@@ -33265,7 +33270,7 @@
   },
   "104373": {
     "name": "Philosophies of Glory",
-    "desc": "Talent Level-Up Material\\nGlory is the sacred faith of the frozen realm.\\nIt is the undying flame upon the beacon hearth, bound now to live or die with the frozen realm. The flame ignites a noble passion, and to sustain its eternal burn, the people would gladly offer up their all.",
+    "desc": "Talent Level-Up Material.\\nGlory is the sacred faith of the frozen realm.\\nIt is the undying flame upon the beacon hearth, bound now to live or die with the frozen realm. The flame ignites a noble passion, and to sustain its eternal burn, the people would gladly offer up their all.",
     "rank": 4,
     "icon": "UI_ItemIcon_104373",
     "item_type": "ITEM_MATERIAL",
@@ -33885,7 +33890,7 @@
     "type": "Adventure Item"
   },
   "107035": {
-    "name": "Cyroculus",
+    "name": "Cryoculus",
     "desc": "A substance that has accumulated intense Cryo energy. Offer it to the Statue and help reinstate the power it has lost over the years.",
     "rank": 0,
     "icon": "UI_ItemIcon_107035",
@@ -33913,8 +33918,8 @@
     "type": "Adventure Item"
   },
   "107037": {
-    "name": "（test）至冬地灵龛之钥",
-    "desc": "",
+    "name": "Snezhnaya Shrine of Depths Key",
+    "desc": "A key that can break the seal on the ancient Shrines of Depths scattered around Snezhnaya.\\nThese Shrines of Depths sealed themselves off when the civilization that built them was lost. Keys lost deep within domains are able to break the seals. Or perhaps that, for a moment, these keys help the seals to forget all that they have lost.",
     "rank": 0,
     "icon": "UI_ItemIcon_107037",
     "item_type": "ITEM_MATERIAL",
@@ -50341,7 +50346,7 @@
   },
   "108989": {
     "name": "Podvorye Smoked Sausage",
-    "desc": "A seasoned, stuffed, and smoked meat sausage, thinly sliced and served as is. A signature dish of Podvorye Restaurant, and a reliable choice no one at the table would turn down.",
+    "desc": "Sliced sausage. A seasoned, stuffed, and smoked meat sausage, thinly sliced and served as is. A signature dish of Podvorye Restaurant, and a reliable choice no one at the table would turn down.",
     "rank": 1,
     "icon": "UI_ItemIcon_108886",
     "item_type": "ITEM_MATERIAL",
@@ -50392,7 +50397,7 @@
   },
   "108992": {
     "name": "Fish Curls",
-    "desc": "Long, ribbon-like fish slices. Cut with a sharp blade at an angle across the surface of a whole frozen fish, shaving off thin, curling strips. Usually served with coarse salt, this is a common raw cold platter in Snezhnaya.",
+    "desc": "Sliced fish strips. Cut with a sharp blade at an angle across the surface of a whole frozen fish, shaving off thin, curling strips. Usually served with coarse salt, this is a common raw cold platter in Snezhnaya.",
     "rank": 2,
     "icon": "UI_ItemIcon_108887",
     "item_type": "ITEM_MATERIAL",
@@ -50426,7 +50431,7 @@
   },
   "108994": {
     "name": "Suspicious Snowrealm Okroshkas",
-    "desc": "A bowl of cold soup. It takes some effort to tell the ingredients floating in the cloudy broth. The vegetables are shredded like confetti, drowned alongside massive ham chunks. It seems the cook only remembered the ham at the very last second, tossing it in a desperate rush...",
+    "desc": "A bowl of cold soup. It takes some effort to identify the ingredients floating in the cloudy broth. The vegetables are shredded like confetti, drowned alongside massive ham chunks. It seems the cook only remembered the ham at the very last second, tossing it in a desperate rush...",
     "rank": 3,
     "icon": "UI_ItemIcon_108888",
     "item_type": "ITEM_MATERIAL",
@@ -50494,7 +50499,7 @@
   },
   "108998": {
     "name": "Borscht",
-    "desc": "A vibrant red soup dish. Once the broth is ready, various ingredients are added in batches and slow simmered until their flavors meld. A spoonful of sour cream is often added just before serving. With every sip, a steady warmth spreads through the body, enough to keep the bitter cold from the outside at bay.",
+    "desc": "A vibrant red soup dish. Once the broth is ready, various ingredients are added in batches and slow-simmered until their flavors meld. A spoonful of sour cream is often added just before serving. With every sip, a steady warmth spreads through the body, enough to keep the bitter cold at bay.",
     "rank": 2,
     "icon": "UI_ItemIcon_108889",
     "item_type": "ITEM_MATERIAL",
@@ -50511,7 +50516,7 @@
   },
   "108999": {
     "name": "Delicious Borscht",
-    "desc": "A vibrant red soup. The moment the hot broth slides down your throat, a deep warmth sinks all the way down, as if someone has lit a fire right in your chest. The heat quietly spreads until even the tips of your ears are warm. When trekking through a raging blizzard, this bowl of soup is worth far more than wrapping yourself in an extra coat!",
+    "desc": "A vibrant red soup. The moment the hot broth slides down your throat, a soothing warmth takes hold, as if someone has lit a fire inside your chest. The heat quietly spreads until even the tips of your ears are warm. When trekking through a raging blizzard, this bowl of soup is worth far more than wrapping yourself in an extra coat!",
     "rank": 2,
     "icon": "UI_ItemIcon_108889",
     "item_type": "ITEM_MATERIAL",
@@ -55241,8 +55246,8 @@
     "type": "Bait"
   },
   "111037": {
-    "name": "(test)7.0鱼饵",
-    "desc": "",
+    "name": "Glimmering Bait",
+    "desc": "A bait primarily crafted from sequins and coated with a trace amount of fluorescent material. When used correctly, it emits a glimmering brilliance. The central sphere contains smaller rattle beads that mimic the vibrations of small fish, making it exceptionally alluring to Snezhnayan fish.\\n\\nSuitable for: Snowfin and Starbloom Fish",
     "rank": 2,
     "icon": "UI_ItemIcon_111037",
     "item_type": "ITEM_MATERIAL",
@@ -61107,7 +61112,7 @@
   },
   "114091": {
     "name": "Exhilaration of the Cellared Spiritual Nectar",
-    "desc": "Weapon Ascension Material.\\nLegend has it that long ago, countless casks of fine wine were poured into a frozen lake.\\nSome say the wine was intended as wartime provisions, had to be destroyed after some mishap. had to be destroyed after something went awry. Others say a certain Grand Duke of the Domovoy had lost a bet to the Lord of the Water Imp.\\nOnly when unquenchable azure hellflame spread across the lake, and the foes below writhed in choking waves, did they come to understand:\\nIn the hands of the people well versed in the turning of the world, water itself could burn, and even the sweetest nectar could prove deadlier than poison.",
+    "desc": "Weapon Ascension Material.\\nLegend has it that long ago, countless casks of fine wine were poured into a frozen lake.\\nSome say the wine was intended as wartime provisions, which had to be destroyed after some mishap. Others say a certain Grand Duke of the Domovoy had lost a bet to the Lord of the Water Imp.\\nOnly when unquenchable azure hellflame spread across the lake, and the foes below writhed in choking waves, did they come to understand:\\nIn the hands of the people well versed in the turning of the world, water itself could burn, and even the sweetest nectar could prove deadlier than poison.",
     "rank": 4,
     "icon": "UI_ItemIcon_114091",
     "item_type": "ITEM_MATERIAL",
@@ -61141,7 +61146,7 @@
   },
   "114093": {
     "name": "The Frost Emperor's Revival",
-    "desc": "Weapon Ascension Material.\\nThe hero emerged from the snowfields had yet to become the ruler of that frozen realm, but even then, he already shown a habit of confiding far too much to those around him.\\nSo he was all the more surprised when he received a gift from the fae of snow, who at the time had not yet taken their human form.\\nAs far as he knew, he never told them that he was born from an egg as pale as ice deep within the wing-like mountains, nor did he ever mention the date of his birth.",
+    "desc": "Weapon Ascension Material.\\nThe hero who emerged from the snowfields had yet to become the ruler of that frozen realm, but even then, he had already shown a habit of confiding far too much to those around him.\\nSo he was all the more surprised when he received a gift from the fae of snow, who at the time had not yet taken their human form.\\nAs far as he knew, he never told them that he was born from an egg as pale as ice deep within the wing-like mountains, nor did he ever mention the date of his birth.",
     "rank": 2,
     "icon": "UI_ItemIcon_114093",
     "item_type": "ITEM_MATERIAL",
@@ -61175,7 +61180,7 @@
   },
   "114095": {
     "name": "The Frost Emperor's Lament",
-    "desc": "Weapon Ascension Material.\\nIt was a gift she prepared for her friend upon the throne, on the night when the truth stirred like bitter waters, though she was no longer what she had once been.\\nThey both seemed to understand that they might never speak to each other like this again.\\n",
+    "desc": "Weapon Ascension Material.\\nOn the night the truth stirred like bitter waves, she prepared this gift for her friend upon the throne—though she herself was no longer the person she used to be.\\nThey both seemed to understand that they might never speak to each other like this again.\\nFor after that night, the path they once walked together diverged—sundered by the weakness of one, and the fury of the other.",
     "rank": 4,
     "icon": "UI_ItemIcon_114095",
     "item_type": "ITEM_MATERIAL",
@@ -62587,7 +62592,7 @@
   },
   "117030": {
     "name": "Domain Reliquary: Tier II",
-    "desc": "???",
+    "desc": "A reliquary used to hold artifacts. May the one who sees it be blessed.\\n\\nEach reliquary will grant an artifact from the following sets:\\n·Scarlet Proof\\n·Heart of the Furnace\\n·Berserker\\n·Instructor\\n·The Exile",
     "rank": 4,
     "icon": "UI_ItemIcon_117002",
     "item_type": "ITEM_MATERIAL",
@@ -62603,7 +62608,7 @@
   },
   "117031": {
     "name": "Domain Reliquary: Tier I",
-    "desc": "???",
+    "desc": "A reliquary used to hold artifacts. May the one who sees it be blessed.\\n\\nEach reliquary will grant an artifact from the following sets:\\n·Scarlet Proof\\n·Heart of the Furnace",
     "rank": 5,
     "icon": "UI_ItemIcon_117003",
     "item_type": "ITEM_MATERIAL",
@@ -62787,7 +62792,7 @@
   },
   "118013": {
     "name": "Cake for Traveler",
-    "desc": "A gift given to a very special someone on a very special day.\\n\\nDedicated to you, who journey through moonlit shadows and endless forests.\\nMay your journey across this world be always blessed with joy and surprises.",
+    "desc": "A gift given to a very special someone on a very special day.\\n\\nDedicated to you, who journey through moonlit shadows and endless forests.\\nMay your journey across this world always be blessed with joy and surprises.",
     "rank": 4,
     "icon": "UI_ItemIcon_118013",
     "item_type": "ITEM_MATERIAL",
@@ -62801,7 +62806,7 @@
   },
   "118014": {
     "name": "Cake for Traveler",
-    "desc": "A gift given to a very special someone on a very special day.\\n\\nDedicated to you, who journey through moonlit shadows and endless forests.\\nMay your journey across this world be always blessed with joy and surprises.\\n\\n\"Every week, the recommended dishes get updated. Every month, the moon sends down new blessings — but wow, it's going to be almost nine thousand more hours before we can celebrate this day again! Still, just like the moon rises every single day, Paimon will always be right here, traveling by your side! Yep, let's make wonderful memories wherever we go!\"",
+    "desc": "A gift given to a very special someone on a very special day.\\n\\nDedicated to you, who journey through moonlit shadows and endless forests.\\nMay your journey across this world always be blessed with joy and surprises.\\n\\n\"Every week, the recommended dishes get updated. Every month, the moon sends down new blessings — but wow, it's going to be almost nine thousand more hours before we can celebrate this day again! Still, just like the moon rises every single day, Paimon will always be right here, traveling by your side! Yep, let's make wonderful memories wherever we go!\"",
     "rank": 4,
     "icon": "UI_ItemIcon_118013",
     "item_type": "ITEM_MATERIAL",
@@ -82266,8 +82271,8 @@
     "type": "Quest Item"
   },
   "121411": {
-    "name": "晶结蕴藏的卵石",
-    "desc": "",
+    "name": "Pebble of Crystalline Essence",
+    "desc": "An egg-shaped stone infused with the power required for the Eye of Graeae to reclaim his physical form.\\nOnce divided and seized by the Domovoy lord Alvis, its power was acquired by Aksinya through unknown means and placed within the hollow remains of the Alypium. Hidden within it may lie the secret of how, through rebirth, a mere mortal might transcend into a more perfect being.",
     "rank": 0,
     "icon": "UI_ItemIcon_121411",
     "item_type": "ITEM_MATERIAL",
@@ -82280,8 +82285,8 @@
     "type": "Quest Item"
   },
   "121412": {
-    "name": "雪精研究室的钥匙",
-    "desc": "",
+    "name": "Snegovik Laboratory Key",
+    "desc": "A needle-like key.\\nIt unlocks the laboratory doors of the Grand Duchess of the Snegurochka within the Alypium.",
     "rank": 0,
     "icon": "UI_ItemIcon_121412",
     "item_type": "ITEM_MATERIAL",
@@ -82294,8 +82299,8 @@
     "type": "Quest Item"
   },
   "121413": {
-    "name": "猫粮",
-    "desc": "",
+    "name": "Cat Food",
+    "desc": "It appears to be food prepared by Pavlina, the Grand Duchess of the Snegurochka, for a cat named Lala who was kept within the Alypium... It smells rather tempting — but at the end of the day, it's just cat food, so it probably tastes like cardboard.",
     "rank": 0,
     "icon": "UI_ItemIcon_121413",
     "item_type": "ITEM_MATERIAL",
@@ -82676,7 +82681,7 @@
     "type": "Consumable"
   },
   "121442": {
-    "name": "(test)赤钥匙卡",
+    "name": "赤钥匙卡",
     "desc": "",
     "rank": 0,
     "icon": "UI_ItemIcon_121442",
@@ -82690,7 +82695,7 @@
     "type": "Quest Item"
   },
   "121443": {
-    "name": "(test)白钥匙卡",
+    "name": "白钥匙卡",
     "desc": "",
     "rank": 0,
     "icon": "UI_ItemIcon_121443",
@@ -82704,7 +82709,7 @@
     "type": "Quest Item"
   },
   "121444": {
-    "name": "(test)蓝钥匙卡",
+    "name": "蓝钥匙卡",
     "desc": "",
     "rank": 0,
     "icon": "UI_ItemIcon_121444",
@@ -82718,7 +82723,7 @@
     "type": "Quest Item"
   },
   "121445": {
-    "name": "(test)婚礼请帖",
+    "name": "「仪式」观礼请柬",
     "desc": "",
     "rank": 0,
     "icon": "UI_ItemIcon_121445",
@@ -82732,7 +82737,7 @@
     "type": "Quest Item"
   },
   "121446": {
-    "name": "(test)新郎碎片",
+    "name": "被分离的伊科尔的碎片",
     "desc": "",
     "rank": 0,
     "icon": "UI_ItemIcon_121446",
@@ -84068,7 +84073,7 @@
     "type": "Quest Item"
   },
   "121541": {
-    "name": "(test)王女的心脏",
+    "name": "冰结如心的卵石",
     "desc": "",
     "rank": 0,
     "icon": "UI_ItemIcon_121541",
@@ -84082,7 +84087,7 @@
     "type": "Quest Item"
   },
   "121542": {
-    "name": "(test)未成形的空卵",
+    "name": "藻如蛇影的卵石",
     "desc": "",
     "rank": 0,
     "icon": "UI_ItemIcon_121542",
@@ -84208,10 +84213,10 @@
     "type": "Quest Item"
   },
   "121551": {
-    "name": "「大盗宝藏」所在处",
-    "desc": "",
+    "name": "\"Legendary Thief's Treasure\" Location",
+    "desc": "A lead seemingly acquired by a gang member known as \"The Butcher\" while scraping together funds... Perhaps a massive haul lies waiting to be found.",
     "rank": 0,
-    "icon": "UI_ItemIcon_120477",
+    "icon": "UI_ItemIcon_100173",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_QUEST",
     "jump_descs": [],
@@ -84446,8 +84451,8 @@
     "type": "Quest Item"
   },
   "121568": {
-    "name": "(test)白沙皇阅读物2",
-    "desc": "Unnamed Potion Formula",
+    "name": "Notes by a Certain Noble Individual (I)",
+    "desc": "Notes by a Certain Noble Individual (I)",
     "rank": 0,
     "icon": "UI_ItemIcon_121564",
     "item_type": "ITEM_MATERIAL",
@@ -84460,8 +84465,8 @@
     "type": "Quest Item"
   },
   "121569": {
-    "name": "(test)白沙皇阅读物3",
-    "desc": "Unnamed Potion Formula",
+    "name": "Notes by a Certain Noble Individual (II)",
+    "desc": "Notes by a Certain Noble Individual (II)",
     "rank": 0,
     "icon": "UI_ItemIcon_121564",
     "item_type": "ITEM_MATERIAL",
@@ -84474,8 +84479,8 @@
     "type": "Quest Item"
   },
   "121570": {
-    "name": "(test)白沙皇阅读物4",
-    "desc": "Unnamed Potion Formula",
+    "name": "Notes by a Certain Noble Individual (III)",
+    "desc": "Notes by a Certain Noble Individual (III)",
     "rank": 0,
     "icon": "UI_ItemIcon_121564",
     "item_type": "ITEM_MATERIAL",
@@ -84488,8 +84493,8 @@
     "type": "Quest Item"
   },
   "121571": {
-    "name": "(test)白沙皇阅读物5",
-    "desc": "Unnamed Potion Formula",
+    "name": "Notes by a Certain Noble Individual (IV)",
+    "desc": "Notes by a Certain Noble Individual (IV)",
     "rank": 0,
     "icon": "UI_ItemIcon_121564",
     "item_type": "ITEM_MATERIAL",
@@ -84502,8 +84507,8 @@
     "type": "Quest Item"
   },
   "121572": {
-    "name": "(test)白沙皇阅读物6",
-    "desc": "Unnamed Potion Formula",
+    "name": "Notes by a Certain Noble Individual (V)",
+    "desc": "Notes by a Certain Noble Individual (V)",
     "rank": 0,
     "icon": "UI_ItemIcon_121564",
     "item_type": "ITEM_MATERIAL",
@@ -84516,8 +84521,8 @@
     "type": "Quest Item"
   },
   "121573": {
-    "name": "(test)白沙皇阅读物7",
-    "desc": "Unnamed Potion Formula",
+    "name": "Notes by a Certain Noble Individual (VI)",
+    "desc": "Notes by a Certain Noble Individual (VI)",
     "rank": 0,
     "icon": "UI_ItemIcon_121564",
     "item_type": "ITEM_MATERIAL",
@@ -84944,7 +84949,7 @@
     "type": "Quest Item"
   },
   "121610": {
-    "name": "test礼堂徽记",
+    "name": "造型奇特的徽记",
     "desc": "",
     "rank": 0,
     "icon": "UI_ItemIcon_121610",
@@ -84958,8 +84963,8 @@
     "type": "Quest Item"
   },
   "121611": {
-    "name": "贵宾的凭证",
-    "desc": "",
+    "name": "VIP Pass",
+    "desc": "A gilded letter.\\nSaid to be issued by the master of the mountain manor, those bearing this letter were once frequently invited to the House of Hesperides.\\nThe bearer may enjoy a brief respite within the mountain manor's VIP lounge.",
     "rank": 0,
     "icon": "UI_ItemIcon_121596",
     "item_type": "ITEM_MATERIAL",
@@ -85000,7 +85005,7 @@
     "type": "Quest Item"
   },
   "121614": {
-    "name": "(test）奥古洛夫镇水利设施设计方案",
+    "name": "《下水道出入指南》",
     "desc": "",
     "rank": 0,
     "icon": "UI_ItemIcon_121614",
@@ -85014,8 +85019,8 @@
     "type": "Quest Item"
   },
   "121615": {
-    "name": "(test)一张神秘的卡片",
-    "desc": "",
+    "name": "Strange Card",
+    "desc": "A strange card obtained in the Hunter's Cabin. It is exquisitely crafted, but its purpose remains unknown...",
     "rank": 4,
     "icon": "UI_ItemIcon_121615",
     "item_type": "ITEM_MATERIAL",
@@ -85028,8 +85033,8 @@
     "type": "Quest Item"
   },
   "121616": {
-    "name": "(test)枪械工坊权限卡Lv.1",
-    "desc": "",
+    "name": "Shadow Realm Vault Access Card",
+    "desc": "A card obtained in the Hunter's Cabin that appears to be an access card for unlocking the Shadow Realm Vault beneath it.\\nExplore the Shadow Realm of Snezhnaya and upgrade the card's clearance to open even more Shadow Realm Vaults.",
     "rank": 4,
     "icon": "UI_ItemIcon_121616",
     "item_type": "ITEM_MATERIAL",
@@ -85042,8 +85047,8 @@
     "type": "Quest Item"
   },
   "121617": {
-    "name": "(test)枪械工坊权限卡Lv.2",
-    "desc": "",
+    "name": "Shadow Realm Vault Access Card",
+    "desc": "A card obtained in the Hunter's Cabin that appears to be an access card for unlocking the Shadow Realm Vault beneath it.\\nExplore the Shadow Realm of Snezhnaya and upgrade the card's clearance to open even more Shadow Realm Vaults.",
     "rank": 4,
     "icon": "UI_ItemIcon_121617",
     "item_type": "ITEM_MATERIAL",
@@ -85056,8 +85061,8 @@
     "type": "Quest Item"
   },
   "121618": {
-    "name": "(test)枪械工坊权限卡Lv.3",
-    "desc": "",
+    "name": "Shadow Realm Vault Access Card",
+    "desc": "A card obtained in the Hunter's Cabin that appears to be an access card for unlocking the Shadow Realm Vault beneath it.\\nExplore the Shadow Realm of Snezhnaya and upgrade the card's clearance to open even more Shadow Realm Vaults.",
     "rank": 4,
     "icon": "UI_ItemIcon_121618",
     "item_type": "ITEM_MATERIAL",
@@ -85070,8 +85075,8 @@
     "type": "Quest Item"
   },
   "121619": {
-    "name": "(test)枪械工坊权限卡Lv.4",
-    "desc": "",
+    "name": "Shadow Realm Vault Access Card",
+    "desc": "A card obtained in the Hunter's Cabin that appears to be an access card for unlocking the Shadow Realm Vault beneath it.\\nExplore the Shadow Realm of Snezhnaya and upgrade the card's clearance to open even more Shadow Realm Vaults.",
     "rank": 4,
     "icon": "UI_ItemIcon_121619",
     "item_type": "ITEM_MATERIAL",
@@ -85084,8 +85089,8 @@
     "type": "Quest Item"
   },
   "121620": {
-    "name": "(test)枪械工坊权限卡Lv.5",
-    "desc": "",
+    "name": "Shadow Realm Vault Access Card",
+    "desc": "A card obtained in the Hunter's Cabin that appears to be an access card for unlocking the Shadow Realm Vault beneath it.\\nExplore the Shadow Realm of Snezhnaya and upgrade the card's clearance to open even more Shadow Realm Vaults.",
     "rank": 4,
     "icon": "UI_ItemIcon_121620",
     "item_type": "ITEM_MATERIAL",
@@ -85098,8 +85103,8 @@
     "type": "Quest Item"
   },
   "121621": {
-    "name": "(test)枪械工坊权限卡Lv.6",
-    "desc": "",
+    "name": "Shadow Realm Vault Access Card",
+    "desc": "A card obtained in the Hunter's Cabin that appears to be an access card for unlocking the Shadow Realm Vault beneath it.",
     "rank": 4,
     "icon": "UI_ItemIcon_121621",
     "item_type": "ITEM_MATERIAL",
@@ -85112,8 +85117,8 @@
     "type": "Quest Item"
   },
   "121622": {
-    "name": "(test)枪械工坊权限卡碎片",
-    "desc": "",
+    "name": "Incomplete Data Block",
+    "desc": "Strange data blocks scattered throughout the Shadow Realm, seemingly placed on purpose to serve as markers. Perhaps gathering these peculiar fragments will aid in your exploration within the realm...",
     "rank": 4,
     "icon": "UI_ItemIcon_121622",
     "item_type": "ITEM_MATERIAL",
@@ -85168,7 +85173,7 @@
     "type": "Quest Item"
   },
   "121628": {
-    "name": "（test）报纸测试",
+    "name": "（test）至冬报纸1",
     "desc": "",
     "rank": 0,
     "icon": "UI_ItemIcon_121625",
@@ -85182,10 +85187,10 @@
     "type": "Quest Item"
   },
   "121630": {
-    "name": "(test)枪械工坊权限卡碎片·假的",
-    "desc": "",
+    "name": "Incomplete Data Block",
+    "desc": "Strange data blocks scattered throughout the Shadow Realm, seemingly placed on purpose to serve as markers. Perhaps gathering these peculiar fragments will aid in your exploration within the realm...",
     "rank": 4,
-    "icon": "UI_ItemIcon_121630",
+    "icon": "UI_ItemIcon_121622",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_QUEST",
     "jump_descs": [],
@@ -85197,7 +85202,7 @@
   },
   "121631": {
     "name": "Champion's Trophy of the First Adventurers' Tournament",
-    "desc": "A trophy awarded by the headquarters of the Adventurers' Guild in Snezhnaya. It stands as proof of the outstanding feats you and Paimon have achieved in the field of adventure.\\nAs discussions at the Adventurers' Guild Development Conference failed to progress smoothly, the First Adventurers' Tournament, originally meant to promote friendly exchange between adventurers of different nations, became an arena for deciding who would have the final say...\\nAs key figures in breaking the deadlock, you and Paimon joined the competition midway through and quickly rose through the ranks, ultimately claiming the championship, steering the course of the conference, and finalizing several key resolutions...\\nThough these resolutions may not have an immediate impact, they are sure to help the Guild keep pace with the times and bring greater benefits to more adventurers...",
+    "desc": "A trophy awarded by the headquarters of the Adventurers' Guild in Snezhnaya. It stands as proof of the outstanding feats you and Paimon have achieved in the field of adventure.\\nAs discussions at the Adventurers' Guild Development Conference failed to progress smoothly, the First Adventurers' Tournament, originally meant to promote friendly exchange between adventurers of different nations, became an arena for deciding who would have the final say...\\nAs key figures in breaking the deadlock, you and Paimon joined the competition midway. Swiftly climbing the ranks, you claimed the championship, steered the conference's direction, and finalized several key resolutions...\\nThough these resolutions may not have an immediate impact, they are sure to help the Guild keep pace with the times and bring greater benefits to more adventurers...",
     "rank": 3,
     "icon": "UI_ItemIcon_121631",
     "item_type": "ITEM_MATERIAL",
@@ -85210,7 +85215,7 @@
     "type": "Quest Item"
   },
   "121632": {
-    "name": "(test)冻雷残枝",
+    "name": "雷殛细枝",
     "desc": "",
     "rank": 0,
     "icon": "UI_ItemIcon_121632",
@@ -85378,7 +85383,7 @@
     "type": "Quest Item"
   },
   "121644": {
-    "name": "(test)雪孃馆钥匙",
+    "name": "形制古老的钥匙",
     "desc": "",
     "rank": 0,
     "icon": "UI_ItemIcon_121644",
@@ -85560,14 +85565,16 @@
     "type": "Quest Item"
   },
   "121657": {
-    "name": "(test)TPS爬塔角色外观奖励",
-    "desc": "",
+    "name": "Stardust Trail: Radiant Glow",
+    "desc": "Obtaining this alters the visual appearance of your combat outfit's cape within the Shadow Realm...\\n\\n\"A meteor's wake and a bullet's path... perhaps they aren't so different after all.\"",
     "rank": 4,
     "icon": "UI_ItemIcon_121657",
     "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_CONSUME",
+    "material_type": "MATERIAL_TPS_CLOAK_UPGRADE",
     "jump_descs": [],
-    "source_list": [],
+    "source_list": [
+      "Obtained by meeting specific requirements in \"Edge of Survival\""
+    ],
     "title": "",
     "effect": "",
     "special": "",
@@ -85636,7 +85643,7 @@
     "type": "Quest Item"
   },
   "121664": {
-    "name": "test娜斯佳的角",
+    "name": "娜斯佳头顶的枝叶",
     "desc": "",
     "rank": 0,
     "icon": "UI_ItemIcon_121664",
@@ -85650,7 +85657,7 @@
     "type": "Quest Item"
   },
   "121665": {
-    "name": "test火鸟壑礼堂画片",
+    "name": "娜斯佳手绘的示意图",
     "desc": "",
     "rank": 0,
     "icon": "UI_ItemIcon_100003",
@@ -85664,7 +85671,7 @@
     "type": "Quest Item"
   },
   "121666": {
-    "name": "test火鸟壑下水道图示",
+    "name": "《下水道出入指南》",
     "desc": "",
     "rank": 0,
     "icon": "UI_ItemIcon_100003",
@@ -85678,7 +85685,7 @@
     "type": "Quest Item"
   },
   "121667": {
-    "name": "幼童们的涂鸦",
+    "name": "Young Kids' Drawings",
     "desc": "",
     "rank": 0,
     "icon": "UI_ItemIcon_100003",
@@ -85692,7 +85699,7 @@
     "type": "Quest Item"
   },
   "121668": {
-    "name": "test拉杆",
+    "name": "地下室某房间入口门的操纵杆",
     "desc": "",
     "rank": 0,
     "icon": "UI_ItemIcon_121360",
@@ -85706,7 +85713,7 @@
     "type": "Quest Item"
   },
   "121669": {
-    "name": "test拉杆",
+    "name": "地下室某房间出口门的操纵杆",
     "desc": "",
     "rank": 0,
     "icon": "UI_ItemIcon_121360",
@@ -85737,8 +85744,8 @@
     "type": "Exploration Resources"
   },
   "121672": {
-    "name": "奇怪的试剂样品",
-    "desc": "",
+    "name": "Peculiar Reagent Sample",
+    "desc": "A sample extracted from the \"special cargo\" transported out of Izmaylov. Could it truly be connected to the Shadow Realm?",
     "rank": 0,
     "icon": "UI_ItemIcon_107036",
     "item_type": "ITEM_MATERIAL",
@@ -85748,11 +85755,11 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "任务道具"
+    "type": "Quest Item"
   },
   "121674": {
-    "name": "(test)TPS爬塔角色外观奖励纪念品",
-    "desc": "",
+    "name": "Stardust Trail: Radiant Glow Sigil",
+    "desc": "A wondrous sigil that alters the visual appearance of your combat outfit's cape within the Shadow Realm. It is already in effect...\\n\\n\"A meteor's wake and a bullet's path... perhaps they aren't so different after all.\"",
     "rank": 4,
     "icon": "UI_ItemIcon_121657",
     "item_type": "ITEM_MATERIAL",
@@ -85763,6 +85770,356 @@
     "effect": "",
     "special": "",
     "type": "Very Special Item"
+  },
+  "121675": {
+    "name": "Polestar Dance Collection (I)",
+    "desc": "???",
+    "rank": 4,
+    "icon": "UI_ItemIcon_121675",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_QUEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Quest Item"
+  },
+  "121676": {
+    "name": "Polestar Dance Collection (II)",
+    "desc": "???",
+    "rank": 4,
+    "icon": "UI_ItemIcon_121675",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_QUEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Quest Item"
+  },
+  "121677": {
+    "name": "Polestar Dance Collection (III)",
+    "desc": "???",
+    "rank": 4,
+    "icon": "UI_ItemIcon_121675",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_QUEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Quest Item"
+  },
+  "121678": {
+    "name": "Polestar Dance Collection (IV)",
+    "desc": "???",
+    "rank": 4,
+    "icon": "UI_ItemIcon_121675",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_QUEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Quest Item"
+  },
+  "121679": {
+    "name": "Heart of the Abyssal Beast",
+    "desc": "???",
+    "rank": 4,
+    "icon": "UI_ItemIcon_121679",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_QUEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Quest Item"
+  },
+  "121680": {
+    "name": "Expedition Journal",
+    "desc": "???",
+    "rank": 3,
+    "icon": "UI_ItemIcon_121680",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_QUEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Quest Item"
+  },
+  "121681": {
+    "name": "Ice Cream Container",
+    "desc": "A container for storing ice cream. Best enjoyed quickly before it starts to melt.",
+    "rank": 2,
+    "icon": "UI_ItemIcon_100101",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_CHEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Consumable"
+  },
+  "121682": {
+    "name": "Special Ice Cream Container",
+    "desc": "A container for storing specially made ice cream. It appears to have been custom-made for someone specific. In any case, please enjoy it as soon as possible before it melts.",
+    "rank": 2,
+    "icon": "UI_ItemIcon_100101",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_CHEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Consumable"
+  },
+  "121683": {
+    "name": "Special Ice Cream Container",
+    "desc": "A container for storing specially made ice cream. It appears to have been custom-made for someone specific. In any case, please enjoy it as soon as possible before it melts.",
+    "rank": 2,
+    "icon": "UI_ItemIcon_100101",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_CHEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Consumable"
+  },
+  "121685": {
+    "name": "娜斯佳与妈妈的合照",
+    "desc": "",
+    "rank": 0,
+    "icon": "UI_ItemIcon_121664",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_QUEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "任务道具"
+  },
+  "121686": {
+    "name": "执行命令者的记录",
+    "desc": "",
+    "rank": 0,
+    "icon": "UI_ItemIcon_101633",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_QUEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "任务道具"
+  },
+  "121687": {
+    "name": "调查手记",
+    "desc": "",
+    "rank": 0,
+    "icon": "UI_ItemIcon_101633",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_QUEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "任务道具"
+  },
+  "121688": {
+    "name": "炼金术士的手记·其一",
+    "desc": "",
+    "rank": 0,
+    "icon": "UI_ItemIcon_101633",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_QUEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "任务道具"
+  },
+  "121689": {
+    "name": "炼金术士的手记·其二",
+    "desc": "",
+    "rank": 0,
+    "icon": "UI_ItemIcon_101633",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_QUEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "任务道具"
+  },
+  "121690": {
+    "name": "矮灵王公的手记",
+    "desc": "",
+    "rank": 0,
+    "icon": "UI_ItemIcon_101633",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_QUEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "任务道具"
+  },
+  "121691": {
+    "name": "（test）至冬报纸2",
+    "desc": "",
+    "rank": 0,
+    "icon": "UI_ItemIcon_121625",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_QUEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "任务道具"
+  },
+  "121692": {
+    "name": "（test）至冬报纸3",
+    "desc": "",
+    "rank": 0,
+    "icon": "UI_ItemIcon_121625",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_QUEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "任务道具"
+  },
+  "121693": {
+    "name": "（test）至冬报纸4",
+    "desc": "",
+    "rank": 0,
+    "icon": "UI_ItemIcon_121625",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_QUEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "任务道具"
+  },
+  "121694": {
+    "name": "（test）至冬报纸5",
+    "desc": "",
+    "rank": 0,
+    "icon": "UI_ItemIcon_121625",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_QUEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "任务道具"
+  },
+  "121695": {
+    "name": "（test）至冬报纸6",
+    "desc": "",
+    "rank": 0,
+    "icon": "UI_ItemIcon_121625",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_QUEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "任务道具"
+  },
+  "121696": {
+    "name": "（test）至冬报纸7",
+    "desc": "",
+    "rank": 0,
+    "icon": "UI_ItemIcon_121625",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_QUEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "任务道具"
+  },
+  "121697": {
+    "name": "（test）至冬报纸8",
+    "desc": "",
+    "rank": 0,
+    "icon": "UI_ItemIcon_121625",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_QUEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "任务道具"
+  },
+  "121698": {
+    "name": "（test）至冬报纸9",
+    "desc": "",
+    "rank": 0,
+    "icon": "UI_ItemIcon_121625",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_QUEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "任务道具"
+  },
+  "121699": {
+    "name": "（test）至冬报纸10",
+    "desc": "",
+    "rank": 0,
+    "icon": "UI_ItemIcon_121625",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_QUEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "任务道具"
+  },
+  "121700": {
+    "name": "（test）至冬报纸11",
+    "desc": "",
+    "rank": 0,
+    "icon": "UI_ItemIcon_121625",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_QUEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "任务道具"
   },
   "129001": {
     "name": "Tears Among the Stars",
@@ -87361,8 +87718,8 @@
     "type": "Fish"
   },
   "131054": {
-    "name": "(test)球鱼01（灰）",
-    "desc": "",
+    "name": "Charcoal Snowfin",
+    "desc": "A plump, spherical Snezhnayan fish, this species might look like a distant cousin to the pufferfish found throughout Teyvat. However, the two actually belong to entirely separate lineages. When the Fishing Association first recorded it, its code name was \"Snowland Roundfin.\" After more than a dozen generations of anglers, this informal name gradually evolved into \"Snowfin.\"\\nThe Charcoal Snowfin is the most common subspecies in this family. It is said that the fine, powdery scales contain special components. When dried and ground, and then mixed with the dried powder of Golden Fern roots, they can serve as a remarkably efficient fire starter, prized by many Snezhnayan adventurers.",
     "rank": 3,
     "icon": "UI_ItemIcon_131054",
     "item_type": "ITEM_MATERIAL",
@@ -87377,8 +87734,8 @@
     "type": "Fish"
   },
   "131055": {
-    "name": "(test)球鱼02（白）",
-    "desc": "",
+    "name": "Cream Snowfin",
+    "desc": "A plump, spherical Snezhnayan fish, this species might look like a distant cousin to the pufferfish found throughout Teyvat. However, the two actually belong to entirely separate lineages. When the Fishing Association first recorded it, its code name was \"Snowland Roundfin.\" After more than a dozen generations of anglers, this informal name gradually evolved into \"Snowfin.\"\\nThe Cream Snowfin, thanks to its near-pure-white coloration and its scarcity, is considered the most precious of Snezhnayan fish. Legend has it that the moment its waters grow even slightly impure, other colors begin to leach into its body. Several fairy tales cast it as their protagonist, telling the dreamlike story of a gifted young angler-lad following one of these Snowfins to the \"Kingdom of Cream\" — a story that briefly caused a citywide cream shortage.",
     "rank": 3,
     "icon": "UI_ItemIcon_131055",
     "item_type": "ITEM_MATERIAL",
@@ -87393,8 +87750,8 @@
     "type": "Fish"
   },
   "131056": {
-    "name": "(test)球鱼03（黄）",
-    "desc": "",
+    "name": "Moonlight Snowfin",
+    "desc": "A plump, spherical Snezhnayan fish, this species might look like a distant cousin to the pufferfish found throughout Teyvat. However, the two actually belong to entirely separate lineages. When the Fishing Association first recorded it, its code name was \"Snowland Roundfin.\" After more than a dozen generations of anglers, this informal name gradually evolved into \"Snowfin.\"\\nFolklore claims the Moonlight Snowfin has the strongest endurance and the best sense of direction of any Snezhnayan fish, its unusual coloration being a gift from moonlight — its ancestors, so the story goes, once traveled far to the waters of Nod-Krai and were baptized in moonbeams. Merchants returning from Nod-Krai deny the tale, and biologists point out that the color most likely comes from the underwater plants it favors as food. But since \"moonlight\" is such a pleasant and memorable prefix, the name has stuck to this day.",
     "rank": 3,
     "icon": "UI_ItemIcon_131056",
     "item_type": "ITEM_MATERIAL",
@@ -87409,8 +87766,8 @@
     "type": "Fish"
   },
   "131057": {
-    "name": "(test)飞鱼01（黄）",
-    "desc": "",
+    "name": "Ruby Starbloom Fish",
+    "desc": "A special species that swims the waters of Snezhnaya. Viewed from the front, its six fins form a shape resembling stars and snowflakes, and so the angler who first discovered them called them \"Starbloom Fish.\" The red subspecies is close in color to a red beet and was therefore given the prefix \"Ruby.\" That said, the prefix is only a description of appearance. Some scholars have found that the surface coloration serves mainly to intimidate predators, thereby protecting the fish. It is thus somewhat ironic that from a human perspective, this makes them look all the more delicious.",
     "rank": 3,
     "icon": "UI_ItemIcon_131057",
     "item_type": "ITEM_MATERIAL",
@@ -87425,8 +87782,8 @@
     "type": "Fish"
   },
   "131058": {
-    "name": "(test)飞鱼01（绿）",
-    "desc": "",
+    "name": "Frostpetal Starbloom Fish",
+    "desc": "A special species that swims the waters of Snezhnaya. Viewed from the front, its six fins form a shape resembling stars and snowflakes, and so the angler who first discovered them called them \"Starbloom Fish.\" The azure subspecies has coloration akin to the outer petal-edges of a Frostfairy Flower, and so was given the prefix \"Frostpetal.\" Compared to its kin, the Frostpetal Starbloom Fish has the keenest senses of the family, always able to detect danger from far off. And thanks to the propulsion advantage of its six fins, they are also quick to flee from said danger.",
     "rank": 3,
     "icon": "UI_ItemIcon_131058",
     "item_type": "ITEM_MATERIAL",
@@ -87441,8 +87798,8 @@
     "type": "Fish"
   },
   "131059": {
-    "name": "(test)飞鱼01（蓝）",
-    "desc": "",
+    "name": "Iridescent Starbloom Fish",
+    "desc": "A special species that swims the waters of Snezhnaya. Viewed from the front, its six fins form a shape resembling stars and snowflakes, and so the angler who first discovered them called them \"Starbloom Fish.\" The blue subspecies' scales have superb texture and coloration — under certain light, they look like rainbow-reflecting crystal, earning it the elegant prefix \"Iridescent.\" Thanks to this shimmering appearance, Iridescent Starbloom Fish are prized guests of Snezhnayan fish collectors. Indeed, some have even built expensive aquarium landscapes solely for this fish, only to find themselves unable to catch one for the longest time...",
     "rank": 3,
     "icon": "UI_ItemIcon_131059",
     "item_type": "ITEM_MATERIAL",
@@ -87455,6 +87812,440 @@
     "effect": "",
     "special": "",
     "type": "Fish"
+  },
+  "132001": {
+    "name": "Suspicious Rimecurrant Ice Creams",
+    "desc": "A dessert served in a glass. Frozen rock-solid, it takes a monumental effort just to scrape off a tiny sliver with an iron spoon. Once in your mouth, the biting cold sets your teeth chattering instantly. Not a trace of sweetness remains, as if every ounce of flavor never got the chance to take the stage...",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108890",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FOOD",
+    "jump_descs": [],
+    "source_list": [
+      "Obtained by cooking"
+    ],
+    "title": "",
+    "effect": "Revives a character and restores 900 HP.",
+    "special": "",
+    "type": "Food",
+    "food_quality": "FOOD_QUALITY_STRANGE"
+  },
+  "132002": {
+    "name": "Rimecurrant Ice Creams",
+    "desc": "A dessert served in a glass. Cream, milk, honey, and crushed berries are mixed together, then frozen into smooth, velvety scoops of ice cream. The fruit and dairy flavors blend into a rich, delicious taste, making this a treat some will gladly enjoy no matter the temperature.",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108890",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FOOD",
+    "jump_descs": [],
+    "source_list": [
+      "Obtained by cooking"
+    ],
+    "title": "",
+    "effect": "Revives a character and restores 1,200 HP.",
+    "special": "",
+    "type": "Food",
+    "food_quality": "FOOD_QUALITY_ORDINARY"
+  },
+  "132003": {
+    "name": "Delicious Rimecurrant Ice Creams",
+    "desc": "A dessert served in a glass. Look closely and you can just faintly discern the delicate textures of fruit pulp,  looking like a tiny sliver of sunset trapped beneath the ice. While Snezhnaya's frozen climate could easily preserve this sweet scenery for an entire day, its flawless balance of sweet and tart ensures it will be devoured long before then...",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108890",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FOOD",
+    "jump_descs": [],
+    "source_list": [
+      "Obtained by cooking"
+    ],
+    "title": "",
+    "effect": "Revives a character and restores 1,500 HP.",
+    "special": "",
+    "type": "Food",
+    "food_quality": "FOOD_QUALITY_DELICIOUS"
+  },
+  "132004": {
+    "name": "Suspicious Glupov Rye Bread",
+    "desc": "A dense, hearty loaf of bread. It feels so heavy that one can't help but wonder if the fermentation step was skipped entirely. Even soaking it in soup fails to soften the loaf in the slightest... Could this actually be a training tool meant to forge a warrior's resolve?",
+    "rank": 2,
+    "icon": "UI_ItemIcon_108891",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_NOTICE_ADD_HP",
+    "jump_descs": [],
+    "source_list": [
+      "Obtained by cooking"
+    ],
+    "title": "",
+    "effect": "Restores 18% of Max HP to the selected character and regenerates 300 HP every 5s for 30s.",
+    "special": "",
+    "type": "Food",
+    "food_quality": "FOOD_QUALITY_STRANGE"
+  },
+  "132005": {
+    "name": "Glupov Rye Bread",
+    "desc": "A dense, hearty loaf of bread. The dough must undergo a long, cold fermentation. Once baked, it forms a hard crust and a firm, fine-textured crumb. The finished bread keeps for a long time, making it a common ration among Snezhnaya's traveling merchants, soldiers, and hunters.",
+    "rank": 2,
+    "icon": "UI_ItemIcon_108891",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_NOTICE_ADD_HP",
+    "jump_descs": [],
+    "source_list": [
+      "Obtained by cooking"
+    ],
+    "title": "",
+    "effect": "Restores 20% of Max HP to the selected character and regenerates 390 HP every 5s for 30s.",
+    "special": "",
+    "type": "Food",
+    "food_quality": "FOOD_QUALITY_ORDINARY"
+  },
+  "132006": {
+    "name": "Delicious Glupov Rye Bread",
+    "desc": "A dense, hearty loaf of bread. A single bite brings a steady, gentle tartness, followed by the uniquely rustic, grainy aroma of rye. It carries a heavy richness that makes every chew incredibly satisfying, culminating in a lingering sweetness at the back of your throat like a vibrant spark of life buried under the frozen earth.",
+    "rank": 2,
+    "icon": "UI_ItemIcon_108891",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_NOTICE_ADD_HP",
+    "jump_descs": [],
+    "source_list": [
+      "Obtained by cooking"
+    ],
+    "title": "",
+    "effect": "Restores 22% of Max HP to the selected character and regenerates 470 HP every 5s for 30s.",
+    "special": "",
+    "type": "Food",
+    "food_quality": "FOOD_QUALITY_DELICIOUS"
+  },
+  "132007": {
+    "name": "Suspicious Medovik",
+    "desc": "A cake made with honey. Any trace of sweetness has been incinerated into a bitter, burnt mess by a roaring oven fire. Though the sour cream frosting fulfills its tangy duty perfectly, it stands entirely unsupported without any sweetness to answer its call...",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108892",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_NOTICE_ADD_HP",
+    "jump_descs": [],
+    "source_list": [
+      "Obtained by cooking"
+    ],
+    "title": "",
+    "effect": "Restores 26% of Max HP to the selected character and regenerates 450 HP every 5s for 30s.",
+    "special": "",
+    "type": "Food",
+    "food_quality": "FOOD_QUALITY_STRANGE"
+  },
+  "132008": {
+    "name": "Medovik",
+    "desc": "A cake made with honey. Thin sheets of honeyed dough are baked, then stacked layer by layer with sour cream frosting spread between each sheet. The cake is finished with a sprinkle of crumbs and a drizzle of honey syrup. Every step must be done carefully to produce a neat, even result.",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108892",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_NOTICE_ADD_HP",
+    "jump_descs": [],
+    "source_list": [
+      "Obtained by cooking"
+    ],
+    "title": "",
+    "effect": "Restores 28% of Max HP to the selected character and regenerates 620 HP every 5s for 30s.",
+    "special": "",
+    "type": "Food",
+    "food_quality": "FOOD_QUALITY_ORDINARY"
+  },
+  "132009": {
+    "name": "Delicious Medovik",
+    "desc": "A cake made with honey. Amber pastry and snow-white cream embrace each other layer after layer in perfect harmony. Looking at it is like turning the pages of a chronicle, each one revealing a narrative equally brilliant and enchanting.",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108892",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_NOTICE_ADD_HP",
+    "jump_descs": [],
+    "source_list": [
+      "Obtained by cooking"
+    ],
+    "title": "",
+    "effect": "Restores 30% of Max HP to the selected character and regenerates 790 HP every 5s for 30s.",
+    "special": "",
+    "type": "Food",
+    "food_quality": "FOOD_QUALITY_DELICIOUS"
+  },
+  "132010": {
+    "name": "Suspicious Snezhnaya Shashliks",
+    "desc": "Large chunks of grilled meat skewers. Its blackened crust is so bitter and solid that it feels like chewing on a piece of charcoal. To make matters worse, the overcooked interior is so dry and tough, as if the juices had vanished before it even left the grill...",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108893",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FOOD",
+    "jump_descs": [],
+    "source_list": [
+      "Obtained by cooking"
+    ],
+    "title": "",
+    "effect": "Decreases all party members' climbing and sprinting Stamina consumption by 15% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "special": "",
+    "type": "Food",
+    "food_quality": "FOOD_QUALITY_STRANGE"
+  },
+  "132011": {
+    "name": "Snezhnaya Shashliks",
+    "desc": "Large chunks of grilled meat skewers. Marinated chunks of meat are threaded onto iron skewers and grilled over hot coals, turned until charred on the outside and tender within. Whether at courtyard gatherings, out on the hunt, or on a patch of snow cleared just large enough for a fire, these skewers can be found anywhere in Snezhnaya where a fire can be lit.",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108893",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FOOD",
+    "jump_descs": [],
+    "source_list": [
+      "Obtained by cooking"
+    ],
+    "title": "",
+    "effect": "Decreases all party members' climbing and sprinting Stamina consumption by 20% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "special": "",
+    "type": "Food",
+    "food_quality": "FOOD_QUALITY_ORDINARY"
+  },
+  "132012": {
+    "name": "Delicious Snezhnaya Shashliks",
+    "desc": "Large chunks of grilled meat skewers. Cracking through its crisp exterior delivers a satisfying crunch, followed by a savory burst of juices. As the skewer roasts over the fire, the marinade deepens into a hearty undertone that highlights the meat's fresh sweetness. Your mouth glistens with grease and juice, but the sheer flavor makes table manners the last thing on your mind...",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108893",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FOOD",
+    "jump_descs": [],
+    "source_list": [
+      "Obtained by cooking"
+    ],
+    "title": "",
+    "effect": "Decreases all party members' climbing and sprinting Stamina consumption by 25% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "special": "",
+    "type": "Food",
+    "food_quality": "FOOD_QUALITY_DELICIOUS"
+  },
+  "132013": {
+    "name": "Suspicious Snowball Blooms Atop Snowfields",
+    "desc": "A classic layered salad. After sitting out for a long time, its shape has become unstable. Worse yet, all the ingredients seem to have pulled off a chaotic migration that muddle the distinct flavors of each layer... Though it is still edible, it has lost the crisp texture a salad should have.",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108894",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FOOD",
+    "jump_descs": [],
+    "source_list": [
+      "Obtained by cooking"
+    ],
+    "title": "",
+    "effect": "Increases all party members' ATK by 160 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "special": "",
+    "type": "Food",
+    "food_quality": "FOOD_QUALITY_STRANGE"
+  },
+  "132014": {
+    "name": "Snowball Blooms Atop Snowfields",
+    "desc": "A classic layered salad. Each ingredient is prepared separately, then stacked in layers with seasoned sour cream dressing spread between them. Once assembled, the salad is usually left to rest for a while so the flavors can fully meld. The finished dish resembles clusters of snowball blooms blooming over a snowy field, which is how it earned its name.",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108894",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FOOD",
+    "jump_descs": [],
+    "source_list": [
+      "Obtained by cooking"
+    ],
+    "title": "",
+    "effect": "Increases all party members' ATK by 194 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "special": "",
+    "type": "Food",
+    "food_quality": "FOOD_QUALITY_ORDINARY"
+  },
+  "132015": {
+    "name": "Delicious Snowball Blooms Atop Snowfields",
+    "desc": "A classic layered salad. The snowball flowers lining the rim seem to bloom at the very end of a winter wasteland, and the rich, golden yolk serves as a setting sun painting the horizon with its light. You remain entirely lost in this delightful culinary artwork, until your spoon taps the bottom of an empty plate. Wait... when did I finish the whole thing?",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108894",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FOOD",
+    "jump_descs": [],
+    "source_list": [
+      "Obtained by cooking"
+    ],
+    "title": "",
+    "effect": "Increases all party members' ATK by 228 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "special": "",
+    "type": "Food",
+    "food_quality": "FOOD_QUALITY_DELICIOUS"
+  },
+  "132016": {
+    "name": "The Bullseye Roast",
+    "desc": "Alyosha's specialty. He hands over a massive skewer to the sound of Tugarin's excited barks. Sizzling with hot fat, the meat is sliced far thicker than a standard skewer. One bite reveals a rich, gamey flavor perfectly tamed by the open fire. Clearly, his control over the grill is just as flawless as his marksmanship!",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108895",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FOOD",
+    "jump_descs": [],
+    "source_list": [
+      "Obtained by cooking"
+    ],
+    "title": "",
+    "effect": "Decreases all party members' climbing and sprinting Stamina consumption by 25% for 1500s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "special": "",
+    "type": "Food"
+  },
+  "132017": {
+    "name": "Lakeside Snow Swan",
+    "desc": "Odette's specialty. A small portion of salad rests quietly at the center of the plate as if illuminated by a spotlight on center stage, each meticulous layer arranged with the precision of her own dance steps. The ingredients have been so carefully calculated that finishing the entire portion won't affect your weight tomorrow... So go ahead, enjoy it completely guilt-free!",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108896",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FOOD",
+    "jump_descs": [],
+    "source_list": [
+      "Obtained by cooking"
+    ],
+    "title": "",
+    "effect": "Increases all party members' ATK by 274 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "special": "",
+    "type": "Food"
+  },
+  "132018": {
+    "name": "???",
+    "desc": "???",
+    "rank": 4,
+    "icon": "UI_ItemIcon_108897",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FOOD",
+    "jump_descs": [],
+    "source_list": [
+      "???"
+    ],
+    "title": "",
+    "effect": "Increases all party members' ATK by 224 and CRIT Rate by 6% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "special": "",
+    "type": "Food",
+    "food_quality": "FOOD_QUALITY_STRANGE"
+  },
+  "132019": {
+    "name": "???",
+    "desc": "???",
+    "rank": 4,
+    "icon": "UI_ItemIcon_108897",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FOOD",
+    "jump_descs": [],
+    "source_list": [
+      "???"
+    ],
+    "title": "",
+    "effect": "Increases all party members' ATK by 272 and CRIT Rate by 8% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "special": "",
+    "type": "Food",
+    "food_quality": "FOOD_QUALITY_ORDINARY"
+  },
+  "132020": {
+    "name": "???",
+    "desc": "???",
+    "rank": 4,
+    "icon": "UI_ItemIcon_108897",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FOOD",
+    "jump_descs": [],
+    "source_list": [
+      "???"
+    ],
+    "title": "",
+    "effect": "Increases all party members' ATK by 320 and CRIT Rate by 10% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "special": "",
+    "type": "Food",
+    "food_quality": "FOOD_QUALITY_DELICIOUS"
+  },
+  "132021": {
+    "name": "???",
+    "desc": "???",
+    "rank": 2,
+    "icon": "UI_ItemIcon_108898",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_NOTICE_ADD_HP",
+    "jump_descs": [],
+    "source_list": [
+      "???"
+    ],
+    "title": "",
+    "effect": "It looks great and tastes wonderful, but it doesn't really have any effect.",
+    "special": "",
+    "type": "Food"
+  },
+  "132022": {
+    "name": "???",
+    "desc": "???",
+    "rank": 2,
+    "icon": "UI_ItemIcon_108999",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_NOTICE_ADD_HP",
+    "jump_descs": [],
+    "source_list": [
+      "???"
+    ],
+    "title": "",
+    "effect": "It looks great and tastes wonderful, but it doesn't really have any effect.",
+    "special": "",
+    "type": "Food"
+  },
+  "132023": {
+    "name": "Kvass",
+    "desc": "The signature drink of the Kvasnik Beverage Shop, and it seems completely alcohol-free. It features a prominent sour rye bread aroma and a gentle fizz, with a subtle sweetness that never feels heavy. Wonderfully refreshing when chilled, it is a drink that no Snezhnayan could ever turn down.",
+    "rank": 2,
+    "icon": "UI_ItemIcon_108900",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FOOD",
+    "jump_descs": [],
+    "source_list": [
+      "Sold at shops"
+    ],
+    "title": "",
+    "effect": "Increases all party members' ATK by 114 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "special": "",
+    "type": "Food"
+  },
+  "132024": {
+    "name": "Spiced Honey Brew",
+    "desc": "A specialty hot drink crafted by infusing hot honey-water with a selection of dried spices. Your chilled fingers feel an immediate wave of satisfaction just holding the glass. A single sip sends a gentle, aromatic wave of heat through you, perfectly steeling your body against the freezing gale.",
+    "rank": 2,
+    "icon": "UI_ItemIcon_108901",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_NOTICE_ADD_HP",
+    "jump_descs": [],
+    "source_list": [
+      "Sold at shops"
+    ],
+    "title": "",
+    "effect": "Restores 26% of Max HP to the selected character and regenerates 570 HP every 5s for 30s.",
+    "special": "",
+    "type": "Food"
+  },
+  "132025": {
+    "name": "Glacial Starbrew",
+    "desc": "A chilled beverage crafted from Glaciafruit. Featuring an otherworldly pink-blue clarity, it stands out sharply amidst an endless world of pure snow. It appears to be a tiny miracle, scooped straight from the sky at the exact break of dawn.",
+    "rank": 2,
+    "icon": "UI_ItemIcon_108902",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FOOD",
+    "jump_descs": [],
+    "source_list": [
+      "Sold at shops"
+    ],
+    "title": "",
+    "effect": "Increases all party members' CRIT Rate by 16% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "special": "",
+    "type": "Food"
+  },
+  "132026": {
+    "name": "Regular Ice Cream",
+    "desc": "A common sight, Snezhnayan ice cream. Cold as the snow in its land of origin.",
+    "rank": 2,
+    "icon": "UI_ItemIcon_108890",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_NOTICE_ADD_HP",
+    "jump_descs": [],
+    "source_list": [
+      "Obtained by exploring Snezhnograd"
+    ],
+    "title": "",
+    "effect": "It looks great and tastes wonderful, but it doesn't really have any effect.",
+    "special": "",
+    "type": "Food"
   },
   "140001": {
     "name": "Wings of First Flight",
@@ -92330,8 +93121,8 @@
     "type": "Fishing Rod"
   },
   "200909": {
-    "name": "(test)至冬鱼竿",
-    "desc": "",
+    "name": "Scepter of the Snow Angler King",
+    "desc": "If you can stay within the Ideal Tension Zone while fishing, using this rod will steadily shorten the time fish struggle and increase your chances of success. Only effective in Snezhnaya.\\n\\nA fishing rod made from Prime Ice by an unknown artisan, acclaimed as \"the scepter of the king of anglers in the land of snow.\" It is currently entrusted to the Snezhnaya Fishing Association. It is said that only anglers of supreme skill, fully tempered by the howling wind and snow, are worthy of wielding this rod...",
     "rank": 4,
     "icon": "UI_ItemIcon_200909",
     "item_type": "ITEM_MATERIAL",
@@ -95757,7 +96548,9 @@
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_NAMECARD",
     "jump_descs": [],
-    "source_list": [],
+    "source_list": [
+      "Obtained from a collaboration event"
+    ],
     "title": "",
     "effect": "",
     "special": "",
@@ -96420,8 +97213,8 @@
     "type": ""
   },
   "210260": {
-    "name": "???",
-    "desc": "???",
+    "name": "Celebration: Sublime Flavors",
+    "desc": "Namecard style.\\nSome say cooking a dish is a duel between a chef and a customer, and that the reward for the former's victory is the latter's satisfied smile.",
     "rank": 4,
     "icon": "UI_NameCardIcon_YellowV2",
     "item_type": "ITEM_MATERIAL",
@@ -96844,7 +97637,7 @@
     "material_type": "MATERIAL_NAMECARD",
     "jump_descs": [],
     "source_list": [
-      "???"
+      "Reward for reaching Friendship 10 with Odette"
     ],
     "title": "",
     "effect": "",
@@ -96860,7 +97653,7 @@
     "material_type": "MATERIAL_NAMECARD",
     "jump_descs": [],
     "source_list": [
-      "???"
+      "Reward for reaching Friendship 10 with Alyosha"
     ],
     "title": "",
     "effect": "",
@@ -96868,15 +97661,15 @@
     "type": ""
   },
   "210289": {
-    "name": "???",
-    "desc": "???",
+    "name": "Achievement: Resplendence",
+    "desc": "Namecard style.\\nWhenever I recall that outstretched hand at the start of our journey, the lake becomes adrift with falling Inteyvats.",
     "rank": 4,
     "icon": "UI_NameCardIcon_Ysxf7",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_NAMECARD",
     "jump_descs": [],
     "source_list": [
-      "???"
+      "Reward for completing all achievements under \"Meetings in Outrealm: Series VII\""
     ],
     "title": "",
     "effect": "",
@@ -96884,15 +97677,15 @@
     "type": ""
   },
   "210290": {
-    "name": "???",
-    "desc": "???",
+    "name": "Snezhnaya: Long Night",
+    "desc": "Namecard style.\\nWith our own hands, we raise fortresses against the frost — all to cross the endless night, to catch the chords of songs yet unsung, and to ensure that you and I might still watch the fresh snow fall, winter after winter.",
     "rank": 4,
     "icon": "UI_NameCardIcon_Snezhnaya1",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_NAMECARD",
     "jump_descs": [],
     "source_list": [
-      "???"
+      "Reward for completing all achievements under \"Snezhnaya: Sacred city of ice and pale star (I)\""
     ],
     "title": "",
     "effect": "",
@@ -96900,15 +97693,15 @@
     "type": ""
   },
   "210291": {
-    "name": "???",
-    "desc": "???",
+    "name": "Achievement: Treading Snow",
+    "desc": "Namecard style.\\nSnowflakes alight in the Traveler's palm, only to melt away moments later. Whilst some stories have already concluded, their memories remain forever etched in the Traveler's heart.",
     "rank": 4,
     "icon": "UI_NameCardIcon_Csxy7",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_NAMECARD",
     "jump_descs": [],
     "source_list": [
-      "???"
+      "Reward for completing all achievements under \"Mortal Travails: Series VII\""
     ],
     "title": "",
     "effect": "",
@@ -96916,15 +97709,15 @@
     "type": ""
   },
   "210292": {
-    "name": "???",
-    "desc": "???",
+    "name": "Achievement: Fleeting Glimpses",
+    "desc": "Namecard style.\\nCountless people wander through narratives without beginning or end. Surpass them, for your will to see the ending is stronger than that of anyone else.",
     "rank": 4,
     "icon": "UI_NameCardIcon_Tps1",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_NAMECARD",
     "jump_descs": [],
     "source_list": [
-      "???"
+      "Complete all Special Recruitment Plan: Cycle Training quests to obtain."
     ],
     "title": "",
     "effect": "",
@@ -96932,10 +97725,26 @@
     "type": ""
   },
   "210293": {
-    "name": "???",
-    "desc": "???",
+    "name": "Achievement: Enigmatic Core",
+    "desc": "Namecard style.\\nOmens of suffering always appear like bubbles rising to the surface.",
     "rank": 4,
     "icon": "UI_NameCardIcon_Shadow",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_NAMECARD",
+    "jump_descs": [],
+    "source_list": [
+      "Reward for completing all achievements under \"Land of Surging Shadows.\""
+    ],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": ""
+  },
+  "210294": {
+    "name": "Travel Notes: Frostfarer",
+    "desc": "Namecard style.\\nOnce the long snowstorm has passed, the skies will clear.",
+    "rank": 4,
+    "icon": "UI_NameCardIcon_Bp52",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_NAMECARD",
     "jump_descs": [],
@@ -96944,21 +97753,7 @@
     ],
     "title": "",
     "effect": "",
-    "special": "",
-    "type": ""
-  },
-  "210294": {
-    "name": "纪行·霜游",
-    "desc": "",
-    "rank": 4,
-    "icon": "UI_NameCardIcon_Bp52",
-    "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_NAMECARD",
-    "jump_descs": [],
-    "source_list": [],
-    "title": "",
-    "effect": "",
-    "special": "",
+    "special": "\"Travel Notes: Frostfarer\" namecard style.",
     "type": ""
   },
   "215001": {
@@ -97299,7 +98094,7 @@
   },
   "215022": {
     "name": "Echo: Childe",
-    "desc": "Tartaglia's Envisaged Echo",
+    "desc": "Tartaglia's Envisaged Echo. \"A flaw — here one moment, gone the next.\"",
     "rank": 4,
     "icon": "UI_TraceEffectIcon_Tartaglia",
     "item_type": "ITEM_MATERIAL",
@@ -97315,7 +98110,7 @@
   },
   "215023": {
     "name": "Echo: Vigilant Yaksha",
-    "desc": "Xiao's Envisaged Echo",
+    "desc": "Xiao's Envisaged Echo. \"Purge evil through battle — to this we dedicate our lives.\"",
     "rank": 4,
     "icon": "UI_TraceEffectIcon_Xiao",
     "item_type": "ITEM_MATERIAL",
@@ -97394,42 +98189,48 @@
     "type": "Avatar Frame"
   },
   "216005": {
-    "name": "(test)TPS爬塔头像框1",
-    "desc": "",
+    "name": "Keen Edge",
+    "desc": "Even after hundreds of hard-fought battles, it remains as keen as a freshly forged blade, its edge undiminished.",
     "rank": 3,
     "icon": "UI_AvatarFrameIcon_TPS_001",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_PROFILE_FRAME",
     "jump_descs": [],
-    "source_list": [],
+    "source_list": [
+      "Obtained by meeting specific requirements in \"Edge of Survival\""
+    ],
     "title": "",
     "effect": "",
     "special": "",
     "type": "Avatar Frame"
   },
   "216006": {
-    "name": "(test)TPS爬塔头像框2",
-    "desc": "",
+    "name": "Siege Breach",
+    "desc": "Like a heavy bullet, it punches through defenses and shatters the enemy's lines.",
     "rank": 4,
     "icon": "UI_AvatarFrameIcon_TPS_002",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_PROFILE_FRAME",
     "jump_descs": [],
-    "source_list": [],
+    "source_list": [
+      "Obtained by meeting specific requirements in \"Edge of Survival\""
+    ],
     "title": "",
     "effect": "",
     "special": "",
     "type": "Avatar Frame"
   },
   "216007": {
-    "name": "(test)TPS爬塔头像框3",
-    "desc": "",
+    "name": "Tempered Iron",
+    "desc": "Make adversity your crucible, forging the will to crush mighty foes and honing battle skills that none can withstand.",
     "rank": 5,
     "icon": "UI_AvatarFrameIcon_TPS_003",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_PROFILE_FRAME",
     "jump_descs": [],
-    "source_list": [],
+    "source_list": [
+      "Obtained by meeting specific requirements in \"Edge of Survival\""
+    ],
     "title": "",
     "effect": "",
     "special": "",
@@ -99357,7 +100158,7 @@
   },
   "220135": {
     "name": "MAAN-Kamera",
-    "desc": "A specialized Kamera provided by Krejcikova, serving as a special equipment for the Mutual Aid Advancement Network. Once a designated target is captured in accordance with the exploration plan, the captured image is processed into vital intelligence, lighting the way for the rookies who follow in their footsteps...",
+    "desc": "A specialized Kamera provided by Chichikova, serving as a special equipment for the Mutual Aid Advancement Network. Once a designated target is captured in accordance with the exploration plan, the captured image is processed into vital intelligence, lighting the way for the rookies who follow in their footsteps...",
     "rank": 4,
     "icon": "UI_ItemIcon_220094",
     "item_type": "ITEM_MATERIAL",
@@ -99371,7 +100172,7 @@
   },
   "220136": {
     "name": "Cryo Treasure Compass",
-    "desc": "???",
+    "desc": "A compass that can be used in Snezhnaya to search for nearby treasure and relevant clues.\\nMany treasures lie frozen in hidden places across the land of snow. Those who can undo the seals may claim the gifts left within the ice.",
     "rank": 4,
     "icon": "UI_ItemIcon_220136",
     "item_type": "ITEM_MATERIAL",
@@ -100304,8 +101105,8 @@
     "type": "Bait Blueprint"
   },
   "221070": {
-    "name": "(test)配方：至冬鱼饵",
-    "desc": "",
+    "name": "Formula: Glimmering Bait",
+    "desc": "A detailed step-by-step formula for making Glimmering Bait.",
     "rank": 2,
     "icon": "UI_ItemIcon_221035",
     "item_type": "ITEM_MATERIAL",
@@ -100641,11 +101442,11 @@
   },
   "223111": {
     "name": "Shatanaya's Frostsilver: Muzzle",
-    "desc": "",
+    "desc": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD.",
     "rank": 4,
     "icon": "UI_EquipIcon_AssaultRifle_Glacia_Part03",
     "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_NONE",
+    "material_type": "MATERIAL_TPS_ACCESSORY",
     "jump_descs": [],
     "source_list": [
       "Go to \"Meeting Point: Huntsman's Cabin\" to unlock"
@@ -100653,15 +101454,15 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "(test)枪械配件材料描述"
+    "type": "Firearm Accessory Blueprint"
   },
   "223112": {
     "name": "Shatanaya's Frostsilver: Ammo",
-    "desc": "",
+    "desc": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD.",
     "rank": 4,
     "icon": "UI_EquipIcon_AssaultRifle_Glacia_Part01",
     "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_NONE",
+    "material_type": "MATERIAL_TPS_ACCESSORY",
     "jump_descs": [],
     "source_list": [
       "Unlocked at Shadow Realm Vault Level 2 Access"
@@ -100669,15 +101470,15 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "(test)枪械配件材料描述"
+    "type": "Firearm Accessory Blueprint"
   },
   "223113": {
-    "name": "Shatanaya's Frostsilver: Tip",
-    "desc": "",
+    "name": "Shatanaya's Frostsilver: Gunstock",
+    "desc": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD.",
     "rank": 4,
     "icon": "UI_EquipIcon_AssaultRifle_Glacia_Part04",
     "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_NONE",
+    "material_type": "MATERIAL_TPS_ACCESSORY",
     "jump_descs": [],
     "source_list": [
       "Go to Flamefeather Valley and explore to unlock"
@@ -100685,15 +101486,15 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "(test)枪械配件材料描述"
+    "type": "Firearm Accessory Blueprint"
   },
   "223114": {
     "name": "Shatanaya's Frostsilver: Sight",
-    "desc": "",
+    "desc": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD.",
     "rank": 4,
     "icon": "UI_EquipIcon_AssaultRifle_Glacia_Part02",
     "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_NONE",
+    "material_type": "MATERIAL_TPS_ACCESSORY",
     "jump_descs": [],
     "source_list": [
       "Go to White Birch Snowgrave and explore to unlock"
@@ -100701,15 +101502,15 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "(test)枪械配件材料描述"
+    "type": "Firearm Accessory Blueprint"
   },
   "223121": {
     "name": "Balsag's Sunwheel: Muzzle",
-    "desc": "",
+    "desc": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD.",
     "rank": 4,
     "icon": "UI_EquipIcon_GrenadeLauncher_Ignis_Part03",
     "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_NONE",
+    "material_type": "MATERIAL_TPS_ACCESSORY",
     "jump_descs": [],
     "source_list": [
       "Go to White Birch Snowgrave and explore to unlock"
@@ -100717,15 +101518,15 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "(test)枪械配件材料描述"
+    "type": "Firearm Accessory Blueprint"
   },
   "223122": {
     "name": "Balsag's Sunwheel: Ammo",
-    "desc": "",
+    "desc": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD.",
     "rank": 4,
     "icon": "UI_EquipIcon_GrenadeLauncher_Ignis_Part01",
     "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_NONE",
+    "material_type": "MATERIAL_TPS_ACCESSORY",
     "jump_descs": [],
     "source_list": [
       "Unlocked from Edge of Survival challenges"
@@ -100733,15 +101534,15 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "(test)枪械配件材料描述"
+    "type": "Firearm Accessory Blueprint"
   },
   "223123": {
-    "name": "Balsag's Sunwheel: Tip",
-    "desc": "",
+    "name": "Balsag's Sunwheel: Gunstock",
+    "desc": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD.",
     "rank": 4,
     "icon": "UI_EquipIcon_GrenadeLauncher_Ignis_Part04",
     "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_NONE",
+    "material_type": "MATERIAL_TPS_ACCESSORY",
     "jump_descs": [],
     "source_list": [
       "Unlocked from Edge of Survival challenges"
@@ -100749,15 +101550,15 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "(test)枪械配件材料描述"
+    "type": "Firearm Accessory Blueprint"
   },
   "223124": {
     "name": "Balsag's Sunwheel: Sight",
-    "desc": "",
+    "desc": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD.",
     "rank": 4,
     "icon": "UI_EquipIcon_GrenadeLauncher_Ignis_Part02",
     "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_NONE",
+    "material_type": "MATERIAL_TPS_ACCESSORY",
     "jump_descs": [],
     "source_list": [
       "Unlocked from Edge of Survival challenges"
@@ -100765,15 +101566,15 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "(test)枪械配件材料描述"
+    "type": "Firearm Accessory Blueprint"
   },
   "223131": {
     "name": "Ashamez's Thunder: Muzzle",
-    "desc": "",
+    "desc": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD.",
     "rank": 4,
     "icon": "UI_EquipIcon_AssaultRifle_Fulmen_Part03",
     "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_NONE",
+    "material_type": "MATERIAL_TPS_ACCESSORY",
     "jump_descs": [],
     "source_list": [
       "Unlocked at Shadow Realm Vault Level 4 Access"
@@ -100781,15 +101582,15 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "(test)枪械配件材料描述"
+    "type": "Firearm Accessory Blueprint"
   },
   "223132": {
     "name": "Ashamez's Thunder: Ammo",
-    "desc": "",
+    "desc": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD.",
     "rank": 4,
     "icon": "UI_EquipIcon_AssaultRifle_Fulmen_Part01",
     "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_NONE",
+    "material_type": "MATERIAL_TPS_ACCESSORY",
     "jump_descs": [],
     "source_list": [
       "Unlocked at Shadow Realm Vault Level 6 Access"
@@ -100797,15 +101598,15 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "(test)枪械配件材料描述"
+    "type": "Firearm Accessory Blueprint"
   },
   "223133": {
-    "name": "Ashamez's Thunder: Tip",
-    "desc": "",
+    "name": "Ashamez's Thunder: Gunstock",
+    "desc": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD.",
     "rank": 4,
     "icon": "UI_EquipIcon_AssaultRifle_Fulmen_Part04",
     "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_NONE",
+    "material_type": "MATERIAL_TPS_ACCESSORY",
     "jump_descs": [],
     "source_list": [
       "Unlocked from Edge of Survival challenges"
@@ -100813,15 +101614,15 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "(test)枪械配件材料描述"
+    "type": "Firearm Accessory Blueprint"
   },
   "223134": {
     "name": "Ashamez's Thunder: Sight",
-    "desc": "",
+    "desc": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD.",
     "rank": 4,
     "icon": "UI_EquipIcon_AssaultRifle_Fulmen_Part02",
     "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_NONE",
+    "material_type": "MATERIAL_TPS_ACCESSORY",
     "jump_descs": [],
     "source_list": [
       "Unlocked at Shadow Realm Vault Level 5 Access"
@@ -100829,7 +101630,7 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "(test)枪械配件材料描述"
+    "type": "Firearm Accessory Blueprint"
   },
   "223301": {
     "name": "Construct Appearance: Jack Frost",
@@ -100843,7 +101644,7 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "臻冰造物外观"
+    "type": "Prime Ice Construct Appearance"
   },
   "223302": {
     "name": "Construct Appearance: Polyarbear",
@@ -100857,7 +101658,7 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "臻冰造物外观"
+    "type": "Prime Ice Construct Appearance"
   },
   "223303": {
     "name": "Construct Appearance: The Ballerina",
@@ -100871,7 +101672,7 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "臻冰造物外观"
+    "type": "Prime Ice Construct Appearance"
   },
   "223304": {
     "name": "Construct Appearance: The Hound",
@@ -100885,7 +101686,7 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "臻冰造物外观"
+    "type": "Prime Ice Construct Appearance"
   },
   "223305": {
     "name": "Construct Appearance: The Tides",
@@ -100899,7 +101700,7 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "臻冰造物外观"
+    "type": "Prime Ice Construct Appearance"
   },
   "318001": {
     "name": "Upbeat Encouragement",
@@ -130589,7 +131390,7 @@
     "name": "Snezhnaya",
     "desc": "A Genius Invokation TCG card back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby.",
     "rank": 3,
-    "icon": "UI_Gcg_CardBack_NodKrai",
+    "icon": "UI_Gcg_CardBack_Snezhnaya",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_GCG_CARD_BACK",
     "jump_descs": [],
@@ -131464,14 +132265,16 @@
     "type": ""
   },
   "341803": {
-    "name": "（test）霜精单手剑",
-    "desc": "",
+    "name": "A Touch of Frost in Scorching Summer!",
+    "desc": "A small gift from the Jack Frosts to their good friends! It looks wildly tasty and seems berry jam-flavored. One bite, and a refreshing chill and delightful sweetness would surely dance together across your tongue... if only this were actually edible. It looks super delicious, though.",
     "rank": 4,
     "icon": "UI_EquipIcon_Sword_Icecream",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_WEAPON_SKIN",
     "jump_descs": [],
-    "source_list": [],
+    "source_list": [
+      "Redeem from the Jack Frosts' Goodies Shop"
+    ],
     "title": "",
     "effect": "",
     "special": "",
@@ -134322,8 +135125,8 @@
     "type": "Furnishing Blueprint"
   },
   "380484": {
-    "name": "至冬路灯2",
-    "desc": "",
+    "name": "\"Chirping About As Birds Do\"",
+    "desc": "A detailed step-by-step blueprint for making \"Chirping About As Birds Do.\"\\nAfter using this item, you can view it in the Creation Screen.",
     "rank": 3,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
@@ -134333,7 +135136,7 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "摆设图纸"
+    "type": "Furnishing Blueprint"
   },
   "380504": {
     "name": "Efflorescent Illumination",
@@ -134742,8 +135545,8 @@
     "type": "Furnishing Blueprint"
   },
   "381126": {
-    "name": "旅馆衣柜-「加大容量」",
-    "desc": "",
+    "name": "\"Opening Business Hours\"",
+    "desc": "A detailed step-by-step blueprint for making \"Opening Business Hours.\"\\nAfter using this item, you can view it in the Creation Screen.",
     "rank": 3,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
@@ -134753,11 +135556,11 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "摆设图纸"
+    "type": "Furnishing Blueprint"
   },
   "381127": {
-    "name": "立柜",
-    "desc": "",
+    "name": "Indoor Standing Cabinet: \"The Steepled Little House\"",
+    "desc": "A detailed step-by-step blueprint for making an Indoor Standing Cabinet: \"The Steepled Little House.\"\\nAfter using this item, you can view it in the Creation Screen.",
     "rank": 3,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
@@ -134767,7 +135570,7 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "摆设图纸"
+    "type": "Furnishing Blueprint"
   },
   "381201": {
     "name": "Two-Tier Library Bookshelf",
@@ -135680,8 +136483,8 @@
     "type": "Furnishing Blueprint"
   },
   "381350": {
-    "name": "至冬高脚桌",
-    "desc": "",
+    "name": "\"Candle Perch\" Tall Square Table",
+    "desc": "A detailed step-by-step blueprint for making a \"Candle Perch\" Tall Square Table.\\nAfter using this item, you can view it in the Creation Screen.",
     "rank": 3,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
@@ -135691,7 +136494,7 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "摆设图纸"
+    "type": "Furnishing Blueprint"
   },
   "381401": {
     "name": "Breeze-Blessed Bed",
@@ -135890,9 +136693,9 @@
     "type": "Furnishing Blueprint"
   },
   "381415": {
-    "name": "至冬床",
-    "desc": "",
-    "rank": 3,
+    "name": "\"Sweet, Untroubled Slumber\"",
+    "desc": "A detailed step-by-step blueprint for making \"Sweet, Untroubled Slumber.\"\\nAfter using this item, you can view it in the Creation Screen.",
+    "rank": 4,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_FURNITURE_FORMULA",
@@ -135901,7 +136704,7 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "摆设图纸"
+    "type": "Furnishing Blueprint"
   },
   "381501": {
     "name": "Pine Reception Counter",
@@ -136506,8 +137309,8 @@
     "type": "Furnishing Blueprint"
   },
   "382136": {
-    "name": "至冬长椅",
-    "desc": "",
+    "name": "\"A Quiet Sigh on a Snowbound Night\"",
+    "desc": "A detailed step-by-step blueprint for making \"A Quiet Sigh on a Snowbound Night.\"\\nAfter using this item, you can view it in the Creation Screen.",
     "rank": 3,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
@@ -136517,11 +137320,11 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "摆设图纸"
+    "type": "Furnishing Blueprint"
   },
   "382137": {
-    "name": "至冬室内椅",
-    "desc": "",
+    "name": "Indoor Seat: \"Clashing Colors\"",
+    "desc": "A detailed step-by-step blueprint for making Indoor Seat: \"Clashing Colors.\"\\nAfter using this item, you can view it in the Creation Screen.",
     "rank": 3,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
@@ -136531,7 +137334,7 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "摆设图纸"
+    "type": "Furnishing Blueprint"
   },
   "382201": {
     "name": "Northern Stone Hearth",
@@ -137808,8 +138611,8 @@
     "type": "Furnishing Blueprint"
   },
   "382325": {
-    "name": "至冬地毯1",
-    "desc": "",
+    "name": "Indoor Rug: \"Frostbloom Beneath the Ice\"",
+    "desc": "A detailed step-by-step blueprint for making an Indoor Rug: \"Frostbloom Beneath the Ice.\"\\nAfter using this item, you can view it in the Creation Screen.",
     "rank": 3,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
@@ -137819,11 +138622,11 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "摆设图纸"
+    "type": "Furnishing Blueprint"
   },
   "382326": {
-    "name": "至冬地毯2",
-    "desc": "",
+    "name": "Indoor Rug: \"Warmth\"",
+    "desc": "A detailed step-by-step blueprint for making an Indoor Rug: \"Warmth.\"\\nAfter using this item, you can view it in the Creation Screen.",
     "rank": 3,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
@@ -137833,7 +138636,7 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "摆设图纸"
+    "type": "Furnishing Blueprint"
   },
   "382401": {
     "name": "Vibrant Pot: Born in Flames",
@@ -137920,8 +138723,8 @@
     "type": "Furnishing Blueprint"
   },
   "382408": {
-    "name": "至冬室内胡桃夹子",
-    "desc": "",
+    "name": "\"Tall-Capped Sentinel\"",
+    "desc": "A detailed step-by-step blueprint for making \"Tall-Capped Sentinel.\"\\nAfter using this item, you can view it in the Creation Screen.",
     "rank": 3,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
@@ -137931,7 +138734,7 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "摆设图纸"
+    "type": "Furnishing Blueprint"
   },
   "383101": {
     "name": "Trusty Portable Lamp",
@@ -138186,8 +138989,8 @@
     "type": "Furnishing Blueprint"
   },
   "383121": {
-    "name": "至冬室内灯1",
-    "desc": "",
+    "name": "\"For Whom It Shines\"",
+    "desc": "A detailed step-by-step blueprint for making \"For Whom It Shines.\"\\nAfter using this item, you can view it in the Creation Screen.",
     "rank": 3,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
@@ -138197,11 +139000,11 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "摆设图纸"
+    "type": "Furnishing Blueprint"
   },
   "383122": {
-    "name": "至冬室内灯2",
-    "desc": "",
+    "name": "Indoor Table Lamp: \"Soft Light\"",
+    "desc": "A detailed step-by-step blueprint for making an Indoor Table Lamp: \"Soft Light.\"\\nAfter using this item, you can view it in the Creation Screen.",
     "rank": 3,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
@@ -138211,7 +139014,7 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "摆设图纸"
+    "type": "Furnishing Blueprint"
   },
   "383201": {
     "name": "Flower Arrangement: Baby Blue Tranquility",
@@ -138998,8 +139801,8 @@
     "type": "Furnishing Blueprint"
   },
   "383399": {
-    "name": "钓鱼家具",
-    "desc": "",
+    "name": "\"Round and Round, the Little Fish Go\"",
+    "desc": "A detailed step-by-step blueprint for making \"Round and Round, the Little Fish Go.\"\\nAfter using this item, you can view it in the Creation Screen.",
     "rank": 4,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
@@ -139009,12 +139812,12 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "摆设图纸"
+    "type": "Furnishing Blueprint"
   },
   "383400": {
-    "name": "小火车车模",
-    "desc": "",
-    "rank": 3,
+    "name": "\"Wind-and-Snowpiercer\"",
+    "desc": "A detailed step-by-step blueprint for making \"Wind-and-Snowpiercer.\"\\nAfter using this item, you can view it in the Creation Screen.",
+    "rank": 4,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_FURNITURE_FORMULA",
@@ -139023,7 +139826,7 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "摆设图纸"
+    "type": "Furnishing Blueprint"
   },
   "383401": {
     "name": "Teahouse Tool: Miniscule Misses Make a Mile",
@@ -139250,8 +140053,8 @@
     "type": "Furnishing Blueprint"
   },
   "383441": {
-    "name": "至冬茶杯",
-    "desc": "",
+    "name": "\"Tea-Time Etiquette\"",
+    "desc": "A detailed step-by-step blueprint for making \"Tea-Time Etiquette.\"\\nAfter using this item, you can view it in the Creation Screen.",
     "rank": 3,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
@@ -139261,11 +140064,11 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "摆设图纸"
+    "type": "Furnishing Blueprint"
   },
   "383442": {
-    "name": "至冬室内烛台",
-    "desc": "",
+    "name": "\"Balanced Boughs\"",
+    "desc": "A detailed step-by-step blueprint for making \"Balanced Boughs.\"\\nAfter using this item, you can view it in the Creation Screen.",
     "rank": 3,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
@@ -139275,11 +140078,11 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "摆设图纸"
+    "type": "Furnishing Blueprint"
   },
   "383443": {
-    "name": "烛台",
-    "desc": "",
+    "name": "\"Steady Companion Through Dreams\"",
+    "desc": "A detailed step-by-step blueprint for making \"Steady Companion Through Dreams.\"\\nAfter using this item, you can view it in the Creation Screen.",
     "rank": 3,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
@@ -139289,7 +140092,7 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "摆设图纸"
+    "type": "Furnishing Blueprint"
   },
   "383501": {
     "name": "\"Realizations from the Land of Wisdom\"",
@@ -139446,8 +140249,8 @@
     "type": "Furnishing Blueprint"
   },
   "383513": {
-    "name": "至冬室内花瓶",
-    "desc": "",
+    "name": "Potted Bouquet: \"Elegant Blackthorn\"",
+    "desc": "A detailed step-by-step blueprint for making Potted Bouquet: \"Elegant Blackthorn\"\\nAfter using this item, you can view it in the Creation Screen.",
     "rank": 3,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
@@ -139457,11 +140260,11 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "摆设图纸"
+    "type": "Furnishing Blueprint"
   },
   "383514": {
-    "name": "至冬室内花坛",
-    "desc": "",
+    "name": "Decorative Flowerbed: \"Brightcore Blossoms\"",
+    "desc": "A detailed step-by-step blueprint for making Decorative Flowerbed: \"Brightcore Blossoms.\"\\nAfter using this item, you can view it in the Creation Screen.",
     "rank": 3,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
@@ -139471,7 +140274,7 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "摆设图纸"
+    "type": "Furnishing Blueprint"
   },
   "384101": {
     "name": "Landscape Painting: Country Home",
@@ -140034,9 +140837,9 @@
     "type": "Furnishing Blueprint"
   },
   "384524": {
-    "name": "至冬室内挂画",
-    "desc": "",
-    "rank": 3,
+    "name": "\"A Golden Winter\"",
+    "desc": "A detailed step-by-step blueprint for making \"A Golden Winter.\"\\nAfter using this item, you can view it in the Creation Screen.",
+    "rank": 4,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_FURNITURE_FORMULA",
@@ -140045,12 +140848,12 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "摆设图纸"
+    "type": "Furnishing Blueprint"
   },
   "384525": {
     "name": "???",
     "desc": "???",
-    "rank": 3,
+    "rank": 4,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_FURNITURE_FORMULA",
@@ -140059,7 +140862,7 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "摆设图纸"
+    "type": "Furnishing Blueprint"
   },
   "390101": {
     "name": "Straw Hut",
@@ -143870,8 +144673,8 @@
     "type": "Furnishing Blueprint"
   },
   "391050": {
-    "name": "乌贼工坊塔吊",
-    "desc": "",
+    "name": "Large Winch-and-Axle Crane",
+    "desc": "A detailed step-by-step blueprint for making \"Large Winch-and-Axle Crane.\"\\nAfter using this item, you can view it in the Creation Screen.",
     "rank": 3,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
@@ -143881,12 +144684,12 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "摆设图纸"
+    "type": "Furnishing Blueprint"
   },
   "391051": {
-    "name": "乌贼工坊民居",
-    "desc": "",
-    "rank": 3,
+    "name": "Town Dwelling: \"Cozy Warmth\"",
+    "desc": "A detailed step-by-step blueprint for making a Town Dwelling: \"Cozy Warmth.\"\\nAfter using this item, you can view it in the Creation Screen.",
+    "rank": 4,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_FURNITURE_FORMULA",
@@ -143895,11 +144698,11 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "摆设图纸"
+    "type": "Furnishing Blueprint"
   },
   "391052": {
-    "name": "雪屋-大",
-    "desc": "",
+    "name": "\"The Round Snowball\"",
+    "desc": "A detailed step-by-step blueprint for making \"The Round Snowball.\"\\nAfter using this item, you can view it in the Creation Screen.",
     "rank": 3,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
@@ -143909,11 +144712,11 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "摆设图纸"
+    "type": "Furnishing Blueprint"
   },
   "391053": {
-    "name": "启程车站-等车台",
-    "desc": "",
+    "name": "Waiting Platform: \"Quiet Anticipation\"",
+    "desc": "A detailed step-by-step blueprint for making a Waiting Platform: \"Quiet Anticipation.\"\\nAfter using this item, you can view it in the Creation Screen.",
     "rank": 3,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
@@ -143923,11 +144726,11 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "摆设图纸"
+    "type": "Furnishing Blueprint"
   },
   "391054": {
-    "name": "高级民居",
-    "desc": "",
+    "name": "Snezhnayan Dwelling: \"Warm-Toned Portico\"",
+    "desc": "A detailed step-by-step blueprint for making a Snezhnayan Dwelling: \"Warm-Toned Portico.\"\\nAfter using this item, you can view it in the Creation Screen.",
     "rank": 3,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
@@ -143937,11 +144740,11 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "摆设图纸"
+    "type": "Furnishing Blueprint"
   },
   "391055": {
-    "name": "高级民居-塔楼",
-    "desc": "",
+    "name": "\"The Round Onion\"",
+    "desc": "A detailed step-by-step blueprint for making \"The Round Onion.\"\\nAfter using this item, you can view it in the Creation Screen.",
     "rank": 3,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
@@ -143951,11 +144754,11 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "摆设图纸"
+    "type": "Furnishing Blueprint"
   },
   "391056": {
-    "name": "高级民居2",
-    "desc": "",
+    "name": "Snezhnayan Dwelling: \"Elegant Carvings\"",
+    "desc": "A detailed step-by-step blueprint for making a Snezhnayan Dwelling: \"Elegant Carvings.\"\\nAfter using this item, you can view it in the Creation Screen.",
     "rank": 3,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
@@ -143965,7 +144768,7 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "摆设图纸"
+    "type": "Furnishing Blueprint"
   },
   "391101": {
     "name": "Bird and Blossom Design Fountain",
@@ -149652,9 +150455,9 @@
     "type": "Furnishing Blueprint"
   },
   "393942": {
-    "name": "雪钻",
-    "desc": "",
-    "rank": 3,
+    "name": "\"Cherish the Present\"",
+    "desc": "A detailed step-by-step blueprint for making \"Cherish the Present.\"\\nAfter using this item, you can view it in the Creation Screen.",
+    "rank": 2,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_FURNITURE_FORMULA",
@@ -149663,11 +150466,11 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "摆设图纸"
+    "type": "Furnishing Blueprint"
   },
   "393943": {
-    "name": "冰柜",
-    "desc": "",
+    "name": "\"An Unmelted Home\"",
+    "desc": "A detailed step-by-step blueprint for making \"An Unmelted Home.\"\\nAfter using this item, you can view it in the Creation Screen.",
     "rank": 3,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
@@ -149677,11 +150480,11 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "摆设图纸"
+    "type": "Furnishing Blueprint"
   },
   "393944": {
-    "name": "雪人",
-    "desc": "",
+    "name": "\"Open Wide!\"",
+    "desc": "A detailed step-by-step blueprint for making \"Open Wide!\"\\nAfter using this item, you can view it in the Creation Screen.",
     "rank": 3,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
@@ -149691,7 +150494,7 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "摆设图纸"
+    "type": "Furnishing Blueprint"
   },
   "394101": {
     "name": "Weathered Bamboo Fence",
@@ -150436,9 +151239,9 @@
     "type": "Furnishing Blueprint"
   },
   "394224": {
-    "name": "车站长椅",
-    "desc": "",
-    "rank": 3,
+    "name": "Station Bench: \"Reading Between Trains\"",
+    "desc": "A detailed step-by-step blueprint for making a Station Bench: \"Reading Between Trains.\"\\nAfter using this item, you can view it in the Creation Screen.",
+    "rank": 4,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_FURNITURE_FORMULA",
@@ -150447,11 +151250,11 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "摆设图纸"
+    "type": "Furnishing Blueprint"
   },
   "394225": {
-    "name": "至冬室外椅",
-    "desc": "",
+    "name": "\"The Lingering Warmth of the Wait\"",
+    "desc": "A detailed step-by-step blueprint for making \"The Lingering Warmth of the Wait.\"\\nAfter using this item, you can view it in the Creation Screen.",
     "rank": 3,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
@@ -150461,7 +151264,7 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "摆设图纸"
+    "type": "Furnishing Blueprint"
   },
   "394301": {
     "name": "Two-Story Hilichurl Sentry Tower",
@@ -150898,8 +151701,8 @@
     "type": "Furnishing Blueprint"
   },
   "394334": {
-    "name": "至冬室外桌",
-    "desc": "",
+    "name": "\"Useless Advice\"",
+    "desc": "A detailed step-by-step blueprint for making \"Useless Advice.\"\\nAfter using this item, you can view it in the Creation Screen.",
     "rank": 3,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
@@ -150909,7 +151712,7 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "摆设图纸"
+    "type": "Furnishing Blueprint"
   },
   "394401": {
     "name": "Wine Shop Display Counter: To Your Heart's Content",
@@ -151766,8 +152569,8 @@
     "type": "Furnishing Blueprint"
   },
   "394661": {
-    "name": "运输车",
-    "desc": "",
+    "name": "Basic Transport Sled",
+    "desc": "A detailed step-by-step blueprint for making a Basic Transport Sled.\\nAfter using this item, you can view it in the Creation Screen.",
     "rank": 3,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
@@ -151777,12 +152580,12 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "摆设图纸"
+    "type": "Furnishing Blueprint"
   },
   "394662": {
-    "name": "乌贼工坊帐篷",
-    "desc": "",
-    "rank": 3,
+    "name": "Basic Tent: \"A Nap Beneath the Snow\"",
+    "desc": "A detailed step-by-step blueprint for making a Simple Basic Tent: \"A Nap Beneath the Snow.\"\\nAfter using this item, you can view it in the Creation Screen.",
+    "rank": 2,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_FURNITURE_FORMULA",
@@ -151791,11 +152594,11 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "摆设图纸"
+    "type": "Furnishing Blueprint"
   },
   "394663": {
-    "name": "采冰镇-货车",
-    "desc": "",
+    "name": "\"Sturdy as Solid Ice\"",
+    "desc": "A detailed step-by-step blueprint for making \"Sturdy as Solid Ice.\"\\nAfter using this item, you can view it in the Creation Screen.",
     "rank": 3,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
@@ -151805,11 +152608,11 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "摆设图纸"
+    "type": "Furnishing Blueprint"
   },
   "394664": {
-    "name": "小型暖炉",
-    "desc": "",
+    "name": "Portable Small Heating Device",
+    "desc": "A detailed step-by-step blueprint for making a Portable Small Heating Device.\\nAfter using this item, you can view it in the Creation Screen.",
     "rank": 3,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
@@ -151819,11 +152622,11 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "摆设图纸"
+    "type": "Furnishing Blueprint"
   },
   "394665": {
-    "name": "采冰镇-建材冰",
-    "desc": "",
+    "name": "Prime Ice Ore: \"Neatly Arrayed\"",
+    "desc": "A detailed step-by-step blueprint for making a Prime Ice Ore: \"Neatly Arrayed.\"\\nAfter using this item, you can view it in the Creation Screen.",
     "rank": 3,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
@@ -151833,11 +152636,11 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "摆设图纸"
+    "type": "Furnishing Blueprint"
   },
   "394666": {
-    "name": "采冰镇-控制台",
-    "desc": "",
+    "name": "Small \"Gauge-Panel\" Control Console",
+    "desc": "A detailed step-by-step blueprint for making a Small \"Gauge-Panel\" Control Console.\\nAfter using this item, you can view it in the Creation Screen.",
     "rank": 3,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
@@ -151847,7 +152650,7 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "摆设图纸"
+    "type": "Furnishing Blueprint"
   },
   "394800": {
     "name": "Sir Capy of the Long Incisors",
@@ -152043,424 +152846,6 @@
     "title": "",
     "effect": "",
     "special": "???",
-    "type": "摆设图纸"
-  },
-  "1080001": {
-    "name": "Suspicious Rimecurrant Ice Creams",
-    "desc": "A dessert served in a glass. Frozen rock-solid, it takes a monumental effort just to scrape off a tiny sliver with an iron spoon. Once in your mouth, the biting cold sets your teeth chattering instantly. Not a trace of sweetness remains, as if every ounce of flavor never got the chance to take the stage...",
-    "rank": 3,
-    "icon": "UI_ItemIcon_108890",
-    "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_FOOD",
-    "jump_descs": [],
-    "source_list": [
-      "Obtained by cooking"
-    ],
-    "title": "",
-    "effect": "Revives a character and restores 900 HP.",
-    "special": "",
-    "type": "Food",
-    "food_quality": "FOOD_QUALITY_STRANGE"
-  },
-  "1080002": {
-    "name": "Rimecurrant Ice Creams",
-    "desc": "A dessert served in a glass. Cream, milk, honey, and crushed berries are mixed together, then frozen into smooth, velvety scoops of ice cream. The fruit and dairy flavors blend into a rich, delicious taste, making this a treat some will gladly enjoy no matter the temperature.",
-    "rank": 3,
-    "icon": "UI_ItemIcon_108890",
-    "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_FOOD",
-    "jump_descs": [],
-    "source_list": [
-      "Obtained by cooking"
-    ],
-    "title": "",
-    "effect": "Revives a character and restores 1,200 HP.",
-    "special": "",
-    "type": "Food",
-    "food_quality": "FOOD_QUALITY_ORDINARY"
-  },
-  "1080003": {
-    "name": "Delicious Rimecurrant Ice Creams",
-    "desc": "A dessert served in a glass. Look closely and you can just faintly discern the delicate textures of fruit pulp,  looking like a tiny sliver of sunset trapped beneath the ice. While Snezhnaya's frozen climate could easily preserve this sweet scenery for an entire day, its flawless balance of sweet and tart ensures it will be devoured long before then...",
-    "rank": 3,
-    "icon": "UI_ItemIcon_108890",
-    "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_FOOD",
-    "jump_descs": [],
-    "source_list": [
-      "Obtained by cooking"
-    ],
-    "title": "",
-    "effect": "Revives a character and restores 1,500 HP.",
-    "special": "",
-    "type": "Food",
-    "food_quality": "FOOD_QUALITY_DELICIOUS"
-  },
-  "1080004": {
-    "name": "Suspicious Glupov Rye Bread",
-    "desc": "A dense, hearty loaf of bread. It feels so heavy that one can't help but wonder if the fermentation step was skipped entirely. Even soaking it in soup fails to soften the loaf in the slightest... Could this actually be a training tool meant to forge a warrior's resolve?",
-    "rank": 2,
-    "icon": "UI_ItemIcon_108891",
-    "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_NOTICE_ADD_HP",
-    "jump_descs": [],
-    "source_list": [
-      "Obtained by cooking"
-    ],
-    "title": "",
-    "effect": "Restores 18% of Max HP to the selected character and regenerates 300 HP every 5s for 30s.",
-    "special": "",
-    "type": "Food",
-    "food_quality": "FOOD_QUALITY_STRANGE"
-  },
-  "1080005": {
-    "name": "Glupov Rye Bread",
-    "desc": "A dense, hearty loaf of bread. The dough must undergo a long, cold fermentation. Once baked, it forms a hard crust and a firm, fine-textured crumb. The finished bread keeps for a long time, making it a common ration among Snezhnaya's traveling merchants, soldiers, and hunters.",
-    "rank": 2,
-    "icon": "UI_ItemIcon_108891",
-    "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_NOTICE_ADD_HP",
-    "jump_descs": [],
-    "source_list": [
-      "Obtained by cooking"
-    ],
-    "title": "",
-    "effect": "Restores 20% of Max HP to the selected character and regenerates 390 HP every 5s for 30s.",
-    "special": "",
-    "type": "Food",
-    "food_quality": "FOOD_QUALITY_ORDINARY"
-  },
-  "1080006": {
-    "name": "Delicious Glupov Rye Bread",
-    "desc": "A dense, hearty loaf of bread. A single bite brings a steady, gentle tartness, followed by the uniquely rustic, grainy aroma of rye. It carries a heavy richness that makes every chew incredibly satisfying, culminating in a lingering sweetness at the back of your throat like a vibrant spark of life buried under the frozen earth.",
-    "rank": 2,
-    "icon": "UI_ItemIcon_108891",
-    "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_NOTICE_ADD_HP",
-    "jump_descs": [],
-    "source_list": [
-      "Obtained by cooking"
-    ],
-    "title": "",
-    "effect": "Restores 22% of Max HP to the selected character and regenerates 470 HP every 5s for 30s.",
-    "special": "",
-    "type": "Food",
-    "food_quality": "FOOD_QUALITY_DELICIOUS"
-  },
-  "1080007": {
-    "name": "Suspicious Medovik",
-    "desc": "A cake made with honey. Any trace of sweetness has been incinerated into a bitter, burnt mess by a roaring oven fire. Though the sour cream frosting fulfills its tangy duty perfectly, it stands entirely unsupported without any sweetness to answer its call...",
-    "rank": 3,
-    "icon": "UI_ItemIcon_108892",
-    "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_NOTICE_ADD_HP",
-    "jump_descs": [],
-    "source_list": [
-      "Obtained by cooking"
-    ],
-    "title": "",
-    "effect": "Restores 26% of Max HP to the selected character and regenerates 450 HP every 5s for 30s.",
-    "special": "",
-    "type": "Food",
-    "food_quality": "FOOD_QUALITY_STRANGE"
-  },
-  "1080008": {
-    "name": "Medovik",
-    "desc": "A cake made with honey. Thin sheets of honeyed dough are baked, then stacked layer by layer with sour cream frosting spread between each sheet. The cake is finished with a sprinkle of crumbs and a drizzle of honey syrup. Every step must be done carefully to produce a neat, even result.",
-    "rank": 3,
-    "icon": "UI_ItemIcon_108892",
-    "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_NOTICE_ADD_HP",
-    "jump_descs": [],
-    "source_list": [
-      "Obtained by cooking"
-    ],
-    "title": "",
-    "effect": "Restores 28% of Max HP to the selected character and regenerates 620 HP every 5s for 30s.",
-    "special": "",
-    "type": "Food",
-    "food_quality": "FOOD_QUALITY_ORDINARY"
-  },
-  "1080009": {
-    "name": "Delicious Medovik",
-    "desc": "A cake made with honey. Amber pastry and snow-white cream embrace each other layer after layer in perfect harmony. Looking at it is like turning the pages of a chronicle, each one revealing a narrative equally brilliant and enchanting.",
-    "rank": 3,
-    "icon": "UI_ItemIcon_108892",
-    "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_NOTICE_ADD_HP",
-    "jump_descs": [],
-    "source_list": [
-      "Obtained by cooking"
-    ],
-    "title": "",
-    "effect": "Restores 30% of Max HP to the selected character and regenerates 790 HP every 5s for 30s.",
-    "special": "",
-    "type": "Food",
-    "food_quality": "FOOD_QUALITY_DELICIOUS"
-  },
-  "1080010": {
-    "name": "Suspicious Snezhnaya Shashliks",
-    "desc": "Large chunks of grilled meat skewers. Its blackened crust is so bitter and solid that it feels like chewing on a piece of charcoal. To make matters worse, the overcooked interior is so dry and tough, as if the juices had vanished before it even left the grill...",
-    "rank": 3,
-    "icon": "UI_ItemIcon_108893",
-    "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_FOOD",
-    "jump_descs": [],
-    "source_list": [
-      "Obtained by cooking"
-    ],
-    "title": "",
-    "effect": "Decreases all party members' climbing and sprinting Stamina consumption by 15% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
-    "special": "",
-    "type": "Food",
-    "food_quality": "FOOD_QUALITY_STRANGE"
-  },
-  "1080011": {
-    "name": "Snezhnaya Shashliks",
-    "desc": "Large chunks of grilled meat skewers. Marinated chunks of meat are threaded onto iron skewers and grilled over hot coals, turned until charred on the outside and tender within. Whether at courtyard gatherings, out on the hunt, or on a patch of snow cleared just large enough for a fire, these skewers can be found anywhere in Snezhnaya where a fire can be lit.",
-    "rank": 3,
-    "icon": "UI_ItemIcon_108893",
-    "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_FOOD",
-    "jump_descs": [],
-    "source_list": [
-      "Obtained by cooking"
-    ],
-    "title": "",
-    "effect": "Decreases all party members' climbing and sprinting Stamina consumption by 20% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
-    "special": "",
-    "type": "Food",
-    "food_quality": "FOOD_QUALITY_ORDINARY"
-  },
-  "1080012": {
-    "name": "Delicious Snezhnaya Shashliks",
-    "desc": "Large chunks of grilled meat skewers. Cracking through its crisp exterior delivers a satisfying crunch, followed by a savory burst of juices. As the skewer roasts over the fire, the marinade deepens into a hearty undertone that highlights the meat's fresh sweetness. Your mouth glistens with grease and juice, but the sheer flavor makes table manners the last thing on your mind...",
-    "rank": 3,
-    "icon": "UI_ItemIcon_108893",
-    "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_FOOD",
-    "jump_descs": [],
-    "source_list": [
-      "Obtained by cooking"
-    ],
-    "title": "",
-    "effect": "Decreases all party members' climbing and sprinting Stamina consumption by 25% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
-    "special": "",
-    "type": "Food",
-    "food_quality": "FOOD_QUALITY_DELICIOUS"
-  },
-  "1080013": {
-    "name": "Suspicious Snowball Blooms Atop Snowfields",
-    "desc": "A classic layered salad. After sitting out for a long time, its shape has become unstable. Worse yet, all the ingredients seem to have pulled off a chaotic migration that muddle the distinct flavors of each layer... Though it is still edible, it has lost the crisp texture a salad should have.",
-    "rank": 3,
-    "icon": "UI_ItemIcon_108894",
-    "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_FOOD",
-    "jump_descs": [],
-    "source_list": [
-      "Obtained by cooking"
-    ],
-    "title": "",
-    "effect": "Increases all party members' ATK by 160 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
-    "special": "",
-    "type": "Food",
-    "food_quality": "FOOD_QUALITY_STRANGE"
-  },
-  "1080014": {
-    "name": "Snowball Blooms Atop Snowfields",
-    "desc": "A classic layered salad. Each ingredient is prepared separately, then stacked in layers with seasoned sour cream dressing spread between them. Once assembled, the salad is usually left to rest for a while so the flavors can fully meld. The finished dish resembles clusters of snowball blooms blooming over a snowy field, which is how it earned its name.",
-    "rank": 3,
-    "icon": "UI_ItemIcon_108894",
-    "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_FOOD",
-    "jump_descs": [],
-    "source_list": [
-      "Obtained by cooking"
-    ],
-    "title": "",
-    "effect": "Increases all party members' ATK by 194 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
-    "special": "",
-    "type": "Food",
-    "food_quality": "FOOD_QUALITY_ORDINARY"
-  },
-  "1080015": {
-    "name": "Delicious Snowball Blooms Atop Snowfields",
-    "desc": "A classic layered salad. The snowball flowers lining the rim seem to bloom at the very end of a winter wasteland, and the rich, golden yolk serves as a setting sun painting the horizon with its light. You remain entirely lost in this delightful culinary artwork, until your spoon taps the bottom of an empty plate. Wait... when did I finish the whole thing?",
-    "rank": 3,
-    "icon": "UI_ItemIcon_108894",
-    "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_FOOD",
-    "jump_descs": [],
-    "source_list": [
-      "Obtained by cooking"
-    ],
-    "title": "",
-    "effect": "Increases all party members' ATK by 228 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
-    "special": "",
-    "type": "Food",
-    "food_quality": "FOOD_QUALITY_DELICIOUS"
-  },
-  "1080016": {
-    "name": "The Bullseye Roast",
-    "desc": "Alyosha's specialty. He hands over a massive skewer to the sound of Tugarin's excited barks. Sizzling with hot fat, the meat is sliced far thicker than a standard skewer. One bite reveals a rich, gamey flavor perfectly tamed by the open fire. Clearly, his control over the grill is just as flawless as his marksmanship!",
-    "rank": 3,
-    "icon": "UI_ItemIcon_108895",
-    "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_FOOD",
-    "jump_descs": [],
-    "source_list": [
-      "Obtained by cooking"
-    ],
-    "title": "",
-    "effect": "Decreases all party members' climbing and sprinting Stamina consumption by 25% for 1500s. In Co-Op Mode, this effect only applies to your own character(s).",
-    "special": "",
-    "type": "Food"
-  },
-  "1080017": {
-    "name": "Lakeside Snow Swan",
-    "desc": "Odette's specialty. A small portion of salad rests quietly at the center of the plate as if illuminated by a spotlight on center stage, each meticulous layer arranged with the precision of her own dance steps. The ingredients have been so carefully calculated that finishing the entire portion won't affect your weight tomorrow... So go ahead, enjoy it completely guilt-free!",
-    "rank": 3,
-    "icon": "UI_ItemIcon_108896",
-    "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_FOOD",
-    "jump_descs": [],
-    "source_list": [
-      "Obtained by cooking"
-    ],
-    "title": "",
-    "effect": "Increases all party members' ATK by 274 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
-    "special": "",
-    "type": "Food"
-  },
-  "1080018": {
-    "name": "???",
-    "desc": "???",
-    "rank": 4,
-    "icon": "UI_ItemIcon_108897",
-    "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_FOOD",
-    "jump_descs": [],
-    "source_list": [
-      "???"
-    ],
-    "title": "",
-    "effect": "Increases all party members' ATK by 224 and CRIT Rate by 6% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
-    "special": "",
-    "type": "Food",
-    "food_quality": "FOOD_QUALITY_STRANGE"
-  },
-  "1080019": {
-    "name": "???",
-    "desc": "???",
-    "rank": 4,
-    "icon": "UI_ItemIcon_108897",
-    "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_FOOD",
-    "jump_descs": [],
-    "source_list": [
-      "???"
-    ],
-    "title": "",
-    "effect": "Increases all party members' ATK by 272 and CRIT Rate by 8% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
-    "special": "",
-    "type": "Food",
-    "food_quality": "FOOD_QUALITY_ORDINARY"
-  },
-  "1080020": {
-    "name": "???",
-    "desc": "???",
-    "rank": 4,
-    "icon": "UI_ItemIcon_108897",
-    "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_FOOD",
-    "jump_descs": [],
-    "source_list": [
-      "???"
-    ],
-    "title": "",
-    "effect": "Increases all party members' ATK by 320 and CRIT Rate by 10% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
-    "special": "",
-    "type": "Food",
-    "food_quality": "FOOD_QUALITY_DELICIOUS"
-  },
-  "1080021": {
-    "name": "???",
-    "desc": "???",
-    "rank": 2,
-    "icon": "UI_ItemIcon_108898",
-    "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_NOTICE_ADD_HP",
-    "jump_descs": [],
-    "source_list": [
-      "???"
-    ],
-    "title": "",
-    "effect": "It looks great and tastes wonderful, but it doesn't really have any effect.",
-    "special": "",
-    "type": "Food"
-  },
-  "1080022": {
-    "name": "???",
-    "desc": "???",
-    "rank": 2,
-    "icon": "UI_ItemIcon_108999",
-    "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_NOTICE_ADD_HP",
-    "jump_descs": [],
-    "source_list": [
-      "???"
-    ],
-    "title": "",
-    "effect": "It looks great and tastes wonderful, but it doesn't really have any effect.",
-    "special": "",
-    "type": "Food"
-  },
-  "1080023": {
-    "name": "Kvass",
-    "desc": "The signature drink of the Kvasnik Beverage Shop, and it seems completely alcohol-free. It features a prominent sour rye bread aroma and a gentle fizz, with a subtle sweetness that never feels heavy. Wonderfully refreshing when chilled, it is a drink that no Snezhnayan could ever turn down.",
-    "rank": 2,
-    "icon": "UI_ItemIcon_108900",
-    "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_FOOD",
-    "jump_descs": [],
-    "source_list": [
-      "Sold at shops"
-    ],
-    "title": "",
-    "effect": "Increases all party members' ATK by 114 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
-    "special": "",
-    "type": "Food"
-  },
-  "1080024": {
-    "name": "Spiced Honey Brew",
-    "desc": "A specialty hot drink crafted by infusing hot honey-water with a selection of dried spices. Your chilled fingers feel an immediate wave of satisfaction just holding the glass. A single sip sends a gentle, aromatic wave of heat through you, perfectly steeling your body against the freezing gale.",
-    "rank": 2,
-    "icon": "UI_ItemIcon_108901",
-    "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_NOTICE_ADD_HP",
-    "jump_descs": [],
-    "source_list": [
-      "Sold at shops"
-    ],
-    "title": "",
-    "effect": "Restores 26% of Max HP to the selected character and regenerates 570 HP every 5s for 30s.",
-    "special": "",
-    "type": "Food"
-  },
-  "1080025": {
-    "name": "Glacial Starbrew",
-    "desc": "A chilled beverage crafted from Glaciafruit. Featuring an otherworldly pink-blue clarity, it stands out sharply amidst an endless world of pure snow. It appears to be a tiny miracle, scooped straight from the sky at the exact break of dawn.",
-    "rank": 2,
-    "icon": "UI_ItemIcon_108902",
-    "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_FOOD",
-    "jump_descs": [],
-    "source_list": [
-      "Sold at shops"
-    ],
-    "title": "",
-    "effect": "Increases all party members' CRIT Rate by 16% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
-    "special": "",
-    "type": "Food"
+    "type": "Furnishing Blueprint"
   }
 }

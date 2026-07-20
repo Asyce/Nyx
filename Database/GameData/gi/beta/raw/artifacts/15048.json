@@ -39,7 +39,7 @@
         0,
         0
       ],
-      "name": "",
+      "name": "Heart of the Furnace",
       "desc": "ATK +18%."
     },
     {
@@ -71,14 +71,14 @@
         0,
         0
       ],
-      "name": "",
-      "desc": "When you trigger Stellar-Conduct, Stellar Swirl, or directly deal reaction DMG of the above types, your ATK increases by 12% and nearby party members gain a buff that increases their Stellar-Conduct and Stellar Swirl DMG by 50% for 12s. This effect is unique and cannot stack. Can be triggered even when the character is not on the field."
+      "name": "Heart of the Furnace",
+      "desc": "Increases the equipping character's ATK by 12% for 12s when they trigger a Stellar Glimmer reaction or deal Stellar Glimmer reaction DMG. Also increases Stellar Glimmer reaction DMG dealt by all nearby party members by 50%. The above effects can trigger even when the equipping character is not on the field, and he DMG bonus from multiple Artifact Sets with the same name do not stack."
     }
   ],
   "parts": {
     "equip_ring": {
       "icon": "UI_RelicIcon_15048_1",
-      "name": "0",
+      "name": "Foundryman's Magnanimity",
       "desc": "",
       "story": {
         "285481": {
@@ -91,7 +91,7 @@
     },
     "equip_necklace": {
       "icon": "UI_RelicIcon_15048_2",
-      "name": "0",
+      "name": "Foundryman's Observation",
       "desc": "",
       "story": {
         "285482": {
@@ -104,7 +104,7 @@
     },
     "equip_dress": {
       "icon": "UI_RelicIcon_15048_3",
-      "name": "0",
+      "name": "Foundryman's Legacy",
       "desc": "",
       "story": {
         "285483": {
@@ -117,7 +117,7 @@
     },
     "equip_bracer": {
       "icon": "UI_RelicIcon_15048_4",
-      "name": "0",
+      "name": "Foundryman's Conjecture",
       "desc": "",
       "story": {
         "285484": {
@@ -130,7 +130,7 @@
     },
     "equip_shoes": {
       "icon": "UI_RelicIcon_15048_5",
-      "name": "0",
+      "name": "Foundryman's Calculus",
       "desc": "",
       "story": {
         "285485": {

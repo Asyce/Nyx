@@ -9984,7 +9984,7 @@
       },
       "title": "Ad Astra Nova",
       "slug": "himeko-nova",
-      "updated": 1783461600000,
+      "updated": 1784073600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Cia Court",
@@ -10006,7 +10006,6 @@
         "id": "23060",
         "name": "A Star That Lights the Night",
         "path": "Erudition",
-        "type": "Erudition",
         "educated": false
       },
       "signatureWeaponId": "23060",
@@ -10017,7 +10016,7 @@
       ],
       "status": "live",
       "labels": [
-        "4.4"
+        "New"
       ],
       "r": 5,
       "el": "Fire",
@@ -11637,6 +11636,30 @@
           "path": "Erudition",
           "items": [
             {
+              "id": "116001",
+              "name": "Whimsy Wax",
+              "qty": 20,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+            },
+            {
+              "id": "116002",
+              "name": "Dreamweave Steel",
+              "qty": 20,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+            },
+            {
+              "id": "116003",
+              "name": "Lucid Awl",
+              "qty": 14,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+            },
+            {
               "id": "110291",
               "name": "Celestial Globe",
               "qty": 4,
@@ -11659,3017 +11682,6 @@
               "rar": 5,
               "kind": "book",
               "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
-            },
-            {
-              "id": "116001",
-              "name": "Whimsy Wax",
-              "qty": 20,
-              "rar": 2,
-              "kind": "mob",
-              "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
-            },
-            {
-              "id": "116002",
-              "name": "Dreamweave Steel",
-              "qty": 20,
-              "rar": 3,
-              "kind": "mob",
-              "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
-            },
-            {
-              "id": "116003",
-              "name": "Lucid Awl",
-              "qty": 14,
-              "rar": 5,
-              "kind": "mob",
-              "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
-            }
-          ],
-          "cost": 385000
-        }
-      },
-      "recent": 1
-    },
-    {
-      "id": "hsr-aventurine-waveflair",
-      "n": "Aventurine Waveflair",
-      "localizedNames": {
-        "en": "Aventurine \u2022 Waveflair",
-        "zh": "\u7802\u91d1\u2022\u620f\u6d6a",
-        "ja": "\u30a2\u30d9\u30f3\u30c1\u30e5\u30ea\u30f3\u30fb\u6ce2\u3068\u622f\u308c\u308b\u590f",
-        "ko": "\uc5b4\ubca4\uce04\ub9b0\u2022\uc6e8\uc774\ube0c"
-      },
-      "slug": "aventurine-waveflair",
-      "updated": 1782770400000,
-      "sourceOrder": 0,
-      "icon": "../../Database/GameData/hsr/assets/characters/round/1513.webp",
-      "art": "../../Database/GameData/hsr/assets/characters/draw-card/1513.webp",
-      "card": "../../Database/Prydwen/hsr/assets/characters/aventurine-waveflair-0fb8df0c48dc.webp",
-      "status": "beta",
-      "labels": [
-        "4.X"
-      ],
-      "r": 5,
-      "el": "Quantum",
-      "path": "Elation",
-      "baseStats": {
-        "level1": {
-          "hp": 168.96,
-          "atk": 58.08,
-          "def": 102.3,
-          "speed": 103,
-          "critRate": 0.05,
-          "critDmg": 0.5
-        },
-        "max": {
-          "level": 80,
-          "hp": 1241.86,
-          "atk": 426.89,
-          "def": 751.9,
-          "speed": 103,
-          "critRate": 0.05,
-          "critDmg": 0.5
-        }
-      },
-      "facts": {},
-      "upcoming": true,
-      "reliableData": false,
-      "noReliableInfo": true,
-      "recent": false
-    },
-    {
-      "id": "hsr-robin-summeretto",
-      "n": "Robin Summeretto",
-      "localizedNames": {
-        "en": "Robin \u2022 Summeretto",
-        "zh": "\u77e5\u66f4\u9e1f\u2022\u6674\u6b4c",
-        "ja": "\u30ed\u30d3\u30f3\u30fb\u590f\u7a7a\u306e\u6b4c",
-        "ko": "\ub85c\ube48\u2022\uc11c\uba38\ub808\ud1a0"
-      },
-      "slug": "robin-summeretto",
-      "updated": 1782770400000,
-      "sourceOrder": 0,
-      "icon": "../../Database/GameData/hsr/assets/characters/round/1512.webp",
-      "art": "../../Database/GameData/hsr/assets/characters/draw-card/1512.webp",
-      "card": "../../Database/Prydwen/hsr/assets/characters/robin-summeretto-50f73fbdd44b.webp",
-      "status": "beta",
-      "labels": [
-        "4.X"
-      ],
-      "r": 5,
-      "el": "Wind",
-      "path": "Remembrance",
-      "baseStats": {
-        "level1": {
-          "hp": 163.68,
-          "atk": 81.84,
-          "def": 66,
-          "speed": 98,
-          "critRate": 0.05,
-          "critDmg": 0.5
-        },
-        "max": {
-          "level": 80,
-          "hp": 1203.05,
-          "atk": 601.52,
-          "def": 485.1,
-          "speed": 98,
-          "critRate": 0.05,
-          "critDmg": 0.5
-        }
-      },
-      "facts": {},
-      "upcoming": true,
-      "reliableData": false,
-      "noReliableInfo": true,
-      "recent": false
-    },
-    {
-      "id": "hsr-evanescia",
-      "n": "Evanescia",
-      "localizedNames": {
-        "en": "Evanescia",
-        "zh": "\u7eef\u82f1",
-        "ja": "\u7dcb\u82f1",
-        "ko": "\uc5d0\ubc14\ub124\uc2dc\uc544"
-      },
-      "title": "The Demoiselle in Charge",
-      "slug": "evanescia",
-      "release": 1778662800000,
-      "releasePatch": "4.2",
-      "updated": 1782252000000,
-      "sourceOrder": 0,
-      "voiceActors": {
-        "english": "imdb:nm11116720|Nathalie Ferare",
-        "japanese": "Ayane Sakura|Sakura Ayane (\u4f50\u5009 \u7dbe\u97f3)",
-        "chinese": "https://zh.moegirl.org.cn/\u6eaf\u6d54|Suxun (\u6eaf\u6d54)",
-        "korean": "https://namu.wiki/w/\ubb38\uc720\uc815|Moon Yoo-jeong (\ubb38\uc720\uc815)"
-      },
-      "icon": "../../Database/GameData/hsr/assets/characters/round/1505.webp",
-      "art": "../../Database/GameData/hsr/assets/characters/draw-card/1505.webp",
-      "card": "../../Database/Prydwen/hsr/assets/characters/evanescia-7567d1297c5d.webp",
-      "signatureLightCone": {
-        "id": "23058",
-        "name": "Until the Flowers Bloom Again",
-        "icon": "../../Database/GameData/hsr/assets/lightcones/medium/23058.webp",
-        "art": "../../Database/GameData/hsr/assets/lightcones/full/23058.webp",
-        "path": "Elation"
-      },
-      "signatureWeapon": {
-        "id": "23058",
-        "name": "Until the Flowers Bloom Again",
-        "path": "Elation",
-        "educated": false
-      },
-      "signatureWeaponId": "23058",
-      "signatureWeaponName": "Until the Flowers Bloom Again",
-      "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23058.webp",
-      "overviewArtPool": [
-        "../../Database/GameData/hsr/assets/lightcones/full/23058.webp"
-      ],
-      "status": "live",
-      "labels": [],
-      "r": 5,
-      "el": "Physical",
-      "path": "Elation",
-      "baseStats": {
-        "level1": {
-          "hp": 142.56,
-          "atk": 100.32,
-          "def": 62.7,
-          "speed": 104,
-          "critRate": 0.05,
-          "critDmg": 0.5
-        },
-        "max": {
-          "level": 80,
-          "hp": 1047.82,
-          "atk": 737.35,
-          "def": 460.85,
-          "speed": 104,
-          "critRate": 0.05,
-          "critDmg": 0.5
-        }
-      },
-      "facts": {
-        "title": "The Demoiselle in Charge"
-      },
-      "skillIcons": [
-        "../../Database/GameData/hsr/assets/skills/SkillIcon_1505_Normal.webp",
-        "../../Database/GameData/hsr/assets/skills/SkillIcon_1505_BP.webp",
-        "../../Database/GameData/hsr/assets/skills/SkillIcon_1505_Ultra.webp",
-        "../../Database/GameData/hsr/assets/skills/SkillIcon_1505_Passive.webp"
-      ],
-      "kit": {
-        "source": "Game data",
-        "channel": "live",
-        "version": "4.4",
-        "sections": [
-          {
-            "title": "Skills",
-            "entries": [
-              {
-                "name": "Syllabus: Pop Quiz",
-                "type": "Basic ATK",
-                "desc": "Deals Physical DMG equal to 140% of Evanescia's ATK to one designated enemy.",
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1505_Normal.webp",
-                "levels": [
-                  {
-                    "label": "Lv. 1",
-                    "text": "Deals Physical DMG equal to 50% of Evanescia's ATK to one designated enemy."
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "Deals Physical DMG equal to 60% of Evanescia's ATK to one designated enemy."
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "Deals Physical DMG equal to 70% of Evanescia's ATK to one designated enemy."
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "Deals Physical DMG equal to 80% of Evanescia's ATK to one designated enemy."
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "Deals Physical DMG equal to 90% of Evanescia's ATK to one designated enemy."
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "Deals Physical DMG equal to 100% of Evanescia's ATK to one designated enemy."
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "Deals Physical DMG equal to 110% of Evanescia's ATK to one designated enemy."
-                  },
-                  {
-                    "label": "Lv. 8",
-                    "text": "Deals Physical DMG equal to 120% of Evanescia's ATK to one designated enemy."
-                  },
-                  {
-                    "label": "Lv. 9",
-                    "text": "Deals Physical DMG equal to 130% of Evanescia's ATK to one designated enemy."
-                  },
-                  {
-                    "label": "Lv. 10",
-                    "text": "Deals Physical DMG equal to 140% of Evanescia's ATK to one designated enemy."
-                  }
-                ]
-              },
-              {
-                "name": "Discipline: Final Verdict",
-                "type": "Skill",
-                "desc": "Deals Physical DMG equal to 375% of Evanescia's ATK to one designated enemy and Physical DMG equal to 188% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline.",
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1505_BP.webp",
-                "levels": [
-                  {
-                    "label": "Lv. 1",
-                    "text": "Deals Physical DMG equal to 150% of Evanescia's ATK to one designated enemy and Physical DMG equal to 75% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "Deals Physical DMG equal to 165% of Evanescia's ATK to one designated enemy and Physical DMG equal to 82.5% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "Deals Physical DMG equal to 180% of Evanescia's ATK to one designated enemy and Physical DMG equal to 90% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "Deals Physical DMG equal to 195% of Evanescia's ATK to one designated enemy and Physical DMG equal to 97.5% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "Deals Physical DMG equal to 210% of Evanescia's ATK to one designated enemy and Physical DMG equal to 105% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "Deals Physical DMG equal to 225% of Evanescia's ATK to one designated enemy and Physical DMG equal to 113% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "Deals Physical DMG equal to 244% of Evanescia's ATK to one designated enemy and Physical DMG equal to 122% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
-                  },
-                  {
-                    "label": "Lv. 8",
-                    "text": "Deals Physical DMG equal to 263% of Evanescia's ATK to one designated enemy and Physical DMG equal to 131% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
-                  },
-                  {
-                    "label": "Lv. 9",
-                    "text": "Deals Physical DMG equal to 281% of Evanescia's ATK to one designated enemy and Physical DMG equal to 141% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
-                  },
-                  {
-                    "label": "Lv. 10",
-                    "text": "Deals Physical DMG equal to 300% of Evanescia's ATK to one designated enemy and Physical DMG equal to 150% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
-                  },
-                  {
-                    "label": "Lv. 11",
-                    "text": "Deals Physical DMG equal to 315% of Evanescia's ATK to one designated enemy and Physical DMG equal to 158% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
-                  },
-                  {
-                    "label": "Lv. 12",
-                    "text": "Deals Physical DMG equal to 330% of Evanescia's ATK to one designated enemy and Physical DMG equal to 165% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
-                  },
-                  {
-                    "label": "Lv. 13",
-                    "text": "Deals Physical DMG equal to 345% of Evanescia's ATK to one designated enemy and Physical DMG equal to 173% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
-                  },
-                  {
-                    "label": "Lv. 14",
-                    "text": "Deals Physical DMG equal to 360% of Evanescia's ATK to one designated enemy and Physical DMG equal to 180% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
-                  },
-                  {
-                    "label": "Lv. 15",
-                    "text": "Deals Physical DMG equal to 375% of Evanescia's ATK to one designated enemy and Physical DMG equal to 188% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
-                  }
-                ]
-              },
-              {
-                "name": "Swordsong: Absolution Denied",
-                "type": "Ultimate",
-                "desc": "Deals Physical DMG equal to 200% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 144% of Evanescia's ATK to one random enemy.",
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1505_Ultra.webp",
-                "levels": [
-                  {
-                    "label": "Lv. 1",
-                    "text": "Deals Physical DMG equal to 80% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 72% of Evanescia's ATK to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "Deals Physical DMG equal to 88% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 76.8% of Evanescia's ATK to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "Deals Physical DMG equal to 96% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 81.6% of Evanescia's ATK to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "Deals Physical DMG equal to 104% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 86.4% of Evanescia's ATK to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "Deals Physical DMG equal to 112% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 91.2% of Evanescia's ATK to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "Deals Physical DMG equal to 120% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 96% of Evanescia's ATK to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "Deals Physical DMG equal to 130% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 102% of Evanescia's ATK to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 8",
-                    "text": "Deals Physical DMG equal to 140% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 108% of Evanescia's ATK to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 9",
-                    "text": "Deals Physical DMG equal to 150% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 114% of Evanescia's ATK to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 10",
-                    "text": "Deals Physical DMG equal to 160% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 120% of Evanescia's ATK to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 11",
-                    "text": "Deals Physical DMG equal to 168% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 125% of Evanescia's ATK to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 12",
-                    "text": "Deals Physical DMG equal to 176% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 130% of Evanescia's ATK to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 13",
-                    "text": "Deals Physical DMG equal to 184% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 134% of Evanescia's ATK to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 14",
-                    "text": "Deals Physical DMG equal to 192% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 139% of Evanescia's ATK to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 15",
-                    "text": "Deals Physical DMG equal to 200% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 144% of Evanescia's ATK to one random enemy."
-                  }
-                ]
-              },
-              {
-                "name": "Petalfall: Floral Reminiscence",
-                "type": "Technique Attack",
-                "desc": "Immediately attacks all enemies within a certain range. After entering combat, deals Physical DMG equal to 100% of Evanescia's ATK to all enemies and gains 20 point(s) of \"Certified Banger.\"",
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1505_Maze.webp"
-              },
-              {
-                "name": "Attack",
-                "type": "Technique Attack",
-                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
-              },
-              {
-                "name": "Youth: Halcyon Evermore",
-                "type": "Talent",
-                "desc": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 125% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 20% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 30% Physical Elation DMG to all enemies and also deals 35% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 31.3% Physical Elation DMG to all enemies.",
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1505_Passive.webp",
-                "levels": [
-                  {
-                    "label": "Lv. 1",
-                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 50% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 8% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 12% Physical Elation DMG to all enemies and also deals 14% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 12.5% Physical Elation DMG to all enemies."
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 55% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 8.8% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 13.2% Physical Elation DMG to all enemies and also deals 15.4% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 13.8% Physical Elation DMG to all enemies."
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 60% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 9.6% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 14.4% Physical Elation DMG to all enemies and also deals 16.8% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 15% Physical Elation DMG to all enemies."
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 65% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 10.4% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 15.6% Physical Elation DMG to all enemies and also deals 18.2% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 16.3% Physical Elation DMG to all enemies."
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 70% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 11.2% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 16.8% Physical Elation DMG to all enemies and also deals 19.6% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 17.5% Physical Elation DMG to all enemies."
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 75% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 12% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 18% Physical Elation DMG to all enemies and also deals 21% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 18.8% Physical Elation DMG to all enemies."
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 81.3% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 13% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 19.5% Physical Elation DMG to all enemies and also deals 22.8% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 20.3% Physical Elation DMG to all enemies."
-                  },
-                  {
-                    "label": "Lv. 8",
-                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 87.5% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 14% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 21% Physical Elation DMG to all enemies and also deals 24.5% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 21.9% Physical Elation DMG to all enemies."
-                  },
-                  {
-                    "label": "Lv. 9",
-                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 93.8% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 15% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 22.5% Physical Elation DMG to all enemies and also deals 26.3% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 23.4% Physical Elation DMG to all enemies."
-                  },
-                  {
-                    "label": "Lv. 10",
-                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 100% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 16% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 24% Physical Elation DMG to all enemies and also deals 28% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 25% Physical Elation DMG to all enemies."
-                  },
-                  {
-                    "label": "Lv. 11",
-                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 105% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 16.8% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 25.2% Physical Elation DMG to all enemies and also deals 29.4% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 26.3% Physical Elation DMG to all enemies."
-                  },
-                  {
-                    "label": "Lv. 12",
-                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 110% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 17.6% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 26.4% Physical Elation DMG to all enemies and also deals 30.8% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 27.5% Physical Elation DMG to all enemies."
-                  },
-                  {
-                    "label": "Lv. 13",
-                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 115% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 18.4% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 27.6% Physical Elation DMG to all enemies and also deals 32.2% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 28.7% Physical Elation DMG to all enemies."
-                  },
-                  {
-                    "label": "Lv. 14",
-                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 120% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 19.2% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 28.8% Physical Elation DMG to all enemies and also deals 33.6% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 30% Physical Elation DMG to all enemies."
-                  },
-                  {
-                    "label": "Lv. 15",
-                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 125% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 20% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 30% Physical Elation DMG to all enemies and also deals 35% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 31.3% Physical Elation DMG to all enemies."
-                  }
-                ]
-              },
-              {
-                "name": "Scarlet: Elation or Execution",
-                "type": "Elation Skill",
-                "desc": "Deals 138% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\".",
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1505_Elation.webp",
-                "levels": [
-                  {
-                    "label": "Lv. 1",
-                    "text": "Deals 55% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "Deals 60.5% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "Deals 66% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "Deals 71.5% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "Deals 77% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "Deals 82.5% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "Deals 89.4% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
-                  },
-                  {
-                    "label": "Lv. 8",
-                    "text": "Deals 96.3% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
-                  },
-                  {
-                    "label": "Lv. 9",
-                    "text": "Deals 103% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
-                  },
-                  {
-                    "label": "Lv. 10",
-                    "text": "Deals 110% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
-                  },
-                  {
-                    "label": "Lv. 11",
-                    "text": "Deals 116% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
-                  },
-                  {
-                    "label": "Lv. 12",
-                    "text": "Deals 121% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
-                  },
-                  {
-                    "label": "Lv. 13",
-                    "text": "Deals 126% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
-                  },
-                  {
-                    "label": "Lv. 14",
-                    "text": "Deals 132% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
-                  },
-                  {
-                    "label": "Lv. 15",
-                    "text": "Deals 138% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "title": "Major Traces",
-            "entries": [
-              {
-                "name": "Watch All Revels",
-                "type": "Major Trace",
-                "desc": "Increases Evanescia's CRIT Rate by 30%. When there are (\u22653)/2/1 enemy target(s) on the field, the Ultimate's bounce count increases by 1/2/4. When a teammate with an Elation Skill Participant ID lower than Evanescia's gains \"Certified Banger,\" Evanescia converts 50% of it into her own \"Certified Banger.\"",
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1505_SkillTree1.webp"
-              },
-              {
-                "name": "Weigh All Truths",
-                "type": "Major Trace",
-                "desc": "When \"Master Fox\" uses an attack, it additionally inflicts Vulnerability on the target, increasing the DMG they take by 12% for 3 turn(s).",
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1505_SkillTree2.webp"
-              },
-              {
-                "name": "Best All Blooms",
-                "type": "Major Trace",
-                "desc": "When a teammate's \"Certified Banger\" ends, Evanescia converts 50% of it into her own \"Certified Banger.\"",
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1505_SkillTree3.webp"
-              }
-            ]
-          },
-          {
-            "title": "Eidolons",
-            "entries": [
-              {
-                "name": "Home: A Prayer in Dance",
-                "type": "Eidolon 1",
-                "desc": "Increases All-Type RES PEN by 20%. After \"Master Fox\" uses an attack, additionally triggers 1 instance of Elation Skill. Elation Skill additionally grants this unit 10 \"Certified Banger\" point(s).",
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1505_Rank1.webp"
-              },
-              {
-                "name": "Voyage: A Wish for Everbloom",
-                "type": "Eidolon 2",
-                "desc": "CRIT DMG increases by 36%. When triggering the Certified Banger gain effect from the Trace \"Watch All Revels\"/\"Best All Blooms\", additionally gains \"Certified Banger\" equal to 50%/100% of the \"Certified Banger\" gained this time.",
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1505_Rank2.webp"
-              },
-              {
-                "name": "Blade: A Feast on Evils",
-                "type": "Eidolon 3",
-                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\\nElation Skill Lv. +1, up to a maximum of Lv. 15.",
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1505_Ultra.webp"
-              },
-              {
-                "name": "Meadow: A Ruin by Vice",
-                "type": "Eidolon 4",
-                "desc": "Evanescia's DMG dealt ignores 15% of the enemy targets' DEF.",
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1505_Rank4.webp"
-              },
-              {
-                "name": "Arcadia: A Glimpse of Fates",
-                "type": "Eidolon 5",
-                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.\\nElation Skill Lv. +1, up to a maximum of Lv. 15.",
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1505_BP.webp"
-              },
-              {
-                "name": "Maiden: A Step into Dreams",
-                "type": "Eidolon 6",
-                "desc": "The duration of Evanescia's \"Certified Banger\" increases by 1 turn(s). The Elation DMG dealt by Evanescia merrymakes by 15%. For every 100 points of \"Certified Banger\" held, it additionally merrymakes by 2%. Up to 1000 points of \"Certified Banger\" can be taken into account. After using Ultimate for the first time upon entering combat, regenerates a fixed amount of 120 Energy for Evanescia. This effect can trigger 1 time for every 4 more instances of Ultimate used.",
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1505_Rank6.webp"
-              }
-            ]
-          }
-        ]
-      },
-      "req": {
-        "ascension": [
-          {
-            "id": "110431",
-            "name": "Invasive Clot",
-            "qty": 65,
-            "rar": 5,
-            "kind": "boss",
-            "icon": "../../Database/GameData/hsr/assets/items/110431.webp"
-          },
-          {
-            "id": "116001",
-            "name": "Whimsy Wax",
-            "qty": 15,
-            "rar": 2,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
-          },
-          {
-            "id": "116002",
-            "name": "Dreamweave Steel",
-            "qty": 15,
-            "rar": 3,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
-          },
-          {
-            "id": "116003",
-            "name": "Lucid Awl",
-            "qty": 15,
-            "rar": 5,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
-          }
-        ],
-        "talents": [
-          {
-            "id": "116001",
-            "name": "Whimsy Wax",
-            "qty": 41,
-            "rar": 2,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
-          },
-          {
-            "id": "116002",
-            "name": "Dreamweave Steel",
-            "qty": 56,
-            "rar": 3,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
-          },
-          {
-            "id": "116003",
-            "name": "Lucid Awl",
-            "qty": 58,
-            "rar": 5,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
-          },
-          {
-            "id": "241",
-            "name": "Tracks of Destiny",
-            "qty": 8,
-            "rar": 4,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/241.webp"
-          },
-          {
-            "id": "110261",
-            "name": "The Fluffy Hand-drawn Storyboards",
-            "qty": 18,
-            "rar": 2,
-            "kind": "book",
-            "icon": "../../Database/GameData/hsr/assets/items/110261.webp"
-          },
-          {
-            "id": "110262",
-            "name": "The Fluffy Serialization Memorial Issue",
-            "qty": 69,
-            "rar": 3,
-            "kind": "book",
-            "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
-          },
-          {
-            "id": "110263",
-            "name": "The Fluffy Collector's Edition",
-            "qty": 139,
-            "rar": 5,
-            "kind": "book",
-            "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
-          },
-          {
-            "id": "110508",
-            "name": "Vanquished Flow's Reticence",
-            "qty": 12,
-            "rar": 5,
-            "kind": "weekly",
-            "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
-          }
-        ],
-        "talentStages": [
-          [
-            {
-              "cost": 4000,
-              "items": [
-                {
-                  "id": "110261",
-                  "name": "The Fluffy Hand-drawn Storyboards",
-                  "qty": 2,
-                  "rar": 2,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110261.webp"
-                },
-                {
-                  "id": "116001",
-                  "name": "Whimsy Wax",
-                  "qty": 5,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 8000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 16000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 32000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 3,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "116003",
-                  "name": "Lucid Awl",
-                  "qty": 2,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 120000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 5,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "116003",
-                  "name": "Lucid Awl",
-                  "qty": 2,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "116001",
-                  "name": "Whimsy Wax",
-                  "qty": 2,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 4000,
-              "items": [
-                {
-                  "id": "110261",
-                  "name": "The Fluffy Hand-drawn Storyboards",
-                  "qty": 3,
-                  "rar": 2,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110261.webp"
-                },
-                {
-                  "id": "116001",
-                  "name": "Whimsy Wax",
-                  "qty": 5,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 8000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 15000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 24000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 5,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 32000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 2,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "116003",
-                  "name": "Lucid Awl",
-                  "qty": 2,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 65000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 4,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "Vanquished Flow's Reticence",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
-                },
-                {
-                  "id": "116003",
-                  "name": "Lucid Awl",
-                  "qty": 4,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 120000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 6,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "Vanquished Flow's Reticence",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
-                }
-              ]
-            },
-            {
-              "cost": 250000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 12,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "Vanquished Flow's Reticence",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "116001",
-                  "name": "Whimsy Wax",
-                  "qty": 2,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 4000,
-              "items": [
-                {
-                  "id": "110261",
-                  "name": "The Fluffy Hand-drawn Storyboards",
-                  "qty": 3,
-                  "rar": 2,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110261.webp"
-                },
-                {
-                  "id": "116001",
-                  "name": "Whimsy Wax",
-                  "qty": 5,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 8000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 15000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 24000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 5,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 32000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 2,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "116003",
-                  "name": "Lucid Awl",
-                  "qty": 2,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 65000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 4,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "Vanquished Flow's Reticence",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
-                },
-                {
-                  "id": "116003",
-                  "name": "Lucid Awl",
-                  "qty": 4,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 120000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 6,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "Vanquished Flow's Reticence",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
-                }
-              ]
-            },
-            {
-              "cost": 250000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 12,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "Vanquished Flow's Reticence",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "116001",
-                  "name": "Whimsy Wax",
-                  "qty": 2,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 4000,
-              "items": [
-                {
-                  "id": "110261",
-                  "name": "The Fluffy Hand-drawn Storyboards",
-                  "qty": 3,
-                  "rar": 2,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110261.webp"
-                },
-                {
-                  "id": "116001",
-                  "name": "Whimsy Wax",
-                  "qty": 5,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 8000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 15000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 24000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 5,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 32000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 2,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "116003",
-                  "name": "Lucid Awl",
-                  "qty": 2,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 65000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 4,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "Vanquished Flow's Reticence",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
-                },
-                {
-                  "id": "116003",
-                  "name": "Lucid Awl",
-                  "qty": 4,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 120000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 6,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "Vanquished Flow's Reticence",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
-                }
-              ]
-            },
-            {
-              "cost": 250000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 12,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "Vanquished Flow's Reticence",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
-                }
-              ]
-            }
-          ]
-        ],
-        "talentBase": [
-          {
-            "id": "116001",
-            "name": "Whimsy Wax",
-            "qty": 15,
-            "rar": 2,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
-          },
-          {
-            "id": "116002",
-            "name": "Dreamweave Steel",
-            "qty": 18,
-            "rar": 3,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
-          },
-          {
-            "id": "116003",
-            "name": "Lucid Awl",
-            "qty": 36,
-            "rar": 5,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
-          },
-          {
-            "id": "241",
-            "name": "Tracks of Destiny",
-            "qty": 2,
-            "rar": 4,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/241.webp"
-          },
-          {
-            "id": "110261",
-            "name": "The Fluffy Hand-drawn Storyboards",
-            "qty": 7,
-            "rar": 2,
-            "kind": "book",
-            "icon": "../../Database/GameData/hsr/assets/items/110261.webp"
-          },
-          {
-            "id": "110262",
-            "name": "The Fluffy Serialization Memorial Issue",
-            "qty": 28,
-            "rar": 3,
-            "kind": "book",
-            "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
-          },
-          {
-            "id": "110263",
-            "name": "The Fluffy Collector's Edition",
-            "qty": 59,
-            "rar": 5,
-            "kind": "book",
-            "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
-          },
-          {
-            "id": "110508",
-            "name": "Vanquished Flow's Reticence",
-            "qty": 3,
-            "rar": 5,
-            "kind": "weekly",
-            "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
-          }
-        ],
-        "talentBaseCost": 1260000,
-        "ascCost": 308000,
-        "talentCost": 3000000,
-        "currency": 3693000,
-        "weapon": {
-          "name": "Until the Flowers Bloom Again",
-          "icon": "../../Database/GameData/hsr/assets/lightcones/medium/23058.webp",
-          "art": "../../Database/GameData/hsr/assets/lightcones/full/23058.webp",
-          "path": "Elation",
-          "items": [
-            {
-              "id": "116001",
-              "name": "Whimsy Wax",
-              "qty": 20,
-              "rar": 2,
-              "kind": "mob",
-              "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
-            },
-            {
-              "id": "116002",
-              "name": "Dreamweave Steel",
-              "qty": 20,
-              "rar": 3,
-              "kind": "mob",
-              "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
-            },
-            {
-              "id": "116003",
-              "name": "Lucid Awl",
-              "qty": 14,
-              "rar": 5,
-              "kind": "mob",
-              "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
-            },
-            {
-              "id": "110261",
-              "name": "The Fluffy Hand-drawn Storyboards",
-              "qty": 4,
-              "rar": 2,
-              "kind": "book",
-              "icon": "../../Database/GameData/hsr/assets/items/110261.webp"
-            },
-            {
-              "id": "110262",
-              "name": "The Fluffy Serialization Memorial Issue",
-              "qty": 12,
-              "rar": 3,
-              "kind": "book",
-              "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
-            },
-            {
-              "id": "110263",
-              "name": "The Fluffy Collector's Edition",
-              "qty": 15,
-              "rar": 5,
-              "kind": "book",
-              "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
-            }
-          ],
-          "cost": 385000
-        }
-      },
-      "recent": 1
-    },
-    {
-      "id": "hsr-yao-guang",
-      "n": "Yao Guang",
-      "localizedNames": {
-        "en": "Yao Guang",
-        "zh": "\u723b\u5149",
-        "ja": "\u723b\u5149",
-        "ko": "\ud6a8\uad11"
-      },
-      "title": "Gleam of a Thousand Plumes",
-      "slug": "yao-guang",
-      "release": 1770976800000,
-      "releasePatch": "4.0",
-      "updated": 1781474400000,
-      "sourceOrder": 0,
-      "voiceActors": {
-        "english": "imdb:nm14887295|Ari Thrash",
-        "japanese": "Kana Hanazawa|Hanazawa Kana (\u82b1\u6fa4 \u9999\u83dc)",
-        "chinese": "https://zh.moegirl.org.cn/\u79e6\u7d2b\u7ffc|Qin Ziyi (\u79e6\u7d2b\u7ffc)",
-        "korean": "https://namu.wiki/w/\uc774\uc2ac(\uc131\uc6b0)|Lee Seul (\uc774\uc2ac)"
-      },
-      "icon": "../../Database/GameData/hsr/assets/characters/round/1502.webp",
-      "art": "../../Database/GameData/hsr/assets/characters/draw-card/1502.webp",
-      "card": "../../Database/Prydwen/hsr/assets/characters/yao-guang-84b9f69c7269.webp",
-      "holidayArtPool": [
-        "../../Database/HsrWiki/holiday-art/yaoguang/01-Chinese New Year 2026.png",
-        "../../Database/HsrWiki/holiday-art/yaoguang/02-Chinese New Year 2026 Yao Guang.png",
-        "../../Database/HsrWiki/holiday-art/yaoguang/03-Chinese New Year 2026 2.png"
-      ],
-      "signatureLightCone": {
-        "id": "23054",
-        "name": "When She Decided to See",
-        "icon": "../../Database/GameData/hsr/assets/lightcones/medium/23054.webp",
-        "art": "../../Database/GameData/hsr/assets/lightcones/full/23054.webp",
-        "path": "Elation"
-      },
-      "signatureWeapon": {
-        "id": "23054",
-        "name": "When She Decided to See",
-        "path": "Elation",
-        "educated": false
-      },
-      "signatureWeaponId": "23054",
-      "signatureWeaponName": "When She Decided to See",
-      "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23054.webp",
-      "overviewArtPool": [
-        "../../Database/GameData/hsr/assets/lightcones/full/23054.webp"
-      ],
-      "status": "live",
-      "labels": [],
-      "r": 5,
-      "el": "Physical",
-      "path": "Elation",
-      "baseStats": {
-        "level1": {
-          "hp": 168.96,
-          "atk": 63.36,
-          "def": 89.1,
-          "speed": 101,
-          "critRate": 0.05,
-          "critDmg": 0.5
-        },
-        "max": {
-          "level": 80,
-          "hp": 1241.86,
-          "atk": 465.7,
-          "def": 654.88,
-          "speed": 101,
-          "critRate": 0.05,
-          "critDmg": 0.5
-        }
-      },
-      "facts": {
-        "title": "Gleam of a Thousand Plumes"
-      },
-      "skillIcons": [
-        "../../Database/GameData/hsr/assets/skills/SkillIcon_1502_Normal.webp",
-        "../../Database/GameData/hsr/assets/skills/SkillIcon_1502_BP.webp",
-        "../../Database/GameData/hsr/assets/skills/SkillIcon_1502_Ultra.webp",
-        "../../Database/GameData/hsr/assets/skills/SkillIcon_1502_Passive.webp"
-      ],
-      "kit": {
-        "source": "Game data",
-        "channel": "live",
-        "version": "4.4",
-        "sections": [
-          {
-            "title": "Skills",
-            "entries": [
-              {
-                "name": "Whistlebolt Sings Joy",
-                "type": "Basic ATK",
-                "desc": "Deals Physical DMG equal to 126% of Yao Guang's ATK to one designated enemy and Physical DMG equal to 42% of Yao Guang's ATK to targets adjacent to it. The Energy regenerated from Basic ATK increases to 30.",
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1502_Normal.webp",
-                "levels": [
-                  {
-                    "label": "Lv. 1",
-                    "text": "Deals Physical DMG equal to 45% of Yao Guang's ATK to one designated enemy and Physical DMG equal to 15% of Yao Guang's ATK to targets adjacent to it. The Energy regenerated from Basic ATK increases to 30."
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "Deals Physical DMG equal to 54% of Yao Guang's ATK to one designated enemy and Physical DMG equal to 18% of Yao Guang's ATK to targets adjacent to it. The Energy regenerated from Basic ATK increases to 30."
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "Deals Physical DMG equal to 63% of Yao Guang's ATK to one designated enemy and Physical DMG equal to 21% of Yao Guang's ATK to targets adjacent to it. The Energy regenerated from Basic ATK increases to 30."
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "Deals Physical DMG equal to 72% of Yao Guang's ATK to one designated enemy and Physical DMG equal to 24% of Yao Guang's ATK to targets adjacent to it. The Energy regenerated from Basic ATK increases to 30."
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "Deals Physical DMG equal to 81% of Yao Guang's ATK to one designated enemy and Physical DMG equal to 27% of Yao Guang's ATK to targets adjacent to it. The Energy regenerated from Basic ATK increases to 30."
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "Deals Physical DMG equal to 90% of Yao Guang's ATK to one designated enemy and Physical DMG equal to 30% of Yao Guang's ATK to targets adjacent to it. The Energy regenerated from Basic ATK increases to 30."
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "Deals Physical DMG equal to 99% of Yao Guang's ATK to one designated enemy and Physical DMG equal to 33% of Yao Guang's ATK to targets adjacent to it. The Energy regenerated from Basic ATK increases to 30."
-                  },
-                  {
-                    "label": "Lv. 8",
-                    "text": "Deals Physical DMG equal to 108% of Yao Guang's ATK to one designated enemy and Physical DMG equal to 36% of Yao Guang's ATK to targets adjacent to it. The Energy regenerated from Basic ATK increases to 30."
-                  },
-                  {
-                    "label": "Lv. 9",
-                    "text": "Deals Physical DMG equal to 117% of Yao Guang's ATK to one designated enemy and Physical DMG equal to 39% of Yao Guang's ATK to targets adjacent to it. The Energy regenerated from Basic ATK increases to 30."
-                  },
-                  {
-                    "label": "Lv. 10",
-                    "text": "Deals Physical DMG equal to 126% of Yao Guang's ATK to one designated enemy and Physical DMG equal to 42% of Yao Guang's ATK to targets adjacent to it. The Energy regenerated from Basic ATK increases to 30."
-                  }
-                ]
-              },
-              {
-                "name": "Decalight Unveils All",
-                "type": "Skill",
-                "desc": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to 25% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline.",
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1502_BP.webp",
-                "levels": [
-                  {
-                    "label": "Lv. 1",
-                    "text": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to 10% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline."
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to 11% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline."
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to 12% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline."
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to 13% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline."
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to 14% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline."
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to 15% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline."
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to 16.3% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline."
-                  },
-                  {
-                    "label": "Lv. 8",
-                    "text": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to 17.5% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline."
-                  },
-                  {
-                    "label": "Lv. 9",
-                    "text": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to 18.8% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline."
-                  },
-                  {
-                    "label": "Lv. 10",
-                    "text": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to 20% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline."
-                  },
-                  {
-                    "label": "Lv. 11",
-                    "text": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to 21% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline."
-                  },
-                  {
-                    "label": "Lv. 12",
-                    "text": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to 22% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline."
-                  },
-                  {
-                    "label": "Lv. 13",
-                    "text": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to 23% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline."
-                  },
-                  {
-                    "label": "Lv. 14",
-                    "text": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to 24% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline."
-                  },
-                  {
-                    "label": "Lv. 15",
-                    "text": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to 25% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline."
-                  }
-                ]
-              },
-              {
-                "name": "Hexagram of Feathered Fortune",
-                "type": "Ultimate",
-                "desc": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by 25% for 3 turn(s).",
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1502_Ultra.webp",
-                "levels": [
-                  {
-                    "label": "Lv. 1",
-                    "text": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by 10% for 3 turn(s)."
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by 11% for 3 turn(s)."
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by 12% for 3 turn(s)."
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by 13% for 3 turn(s)."
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by 14% for 3 turn(s)."
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by 15% for 3 turn(s)."
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by 16.3% for 3 turn(s)."
-                  },
-                  {
-                    "label": "Lv. 8",
-                    "text": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by 17.5% for 3 turn(s)."
-                  },
-                  {
-                    "label": "Lv. 9",
-                    "text": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by 18.8% for 3 turn(s)."
-                  },
-                  {
-                    "label": "Lv. 10",
-                    "text": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by 20% for 3 turn(s)."
-                  },
-                  {
-                    "label": "Lv. 11",
-                    "text": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by 21% for 3 turn(s)."
-                  },
-                  {
-                    "label": "Lv. 12",
-                    "text": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by 22% for 3 turn(s)."
-                  },
-                  {
-                    "label": "Lv. 13",
-                    "text": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by 23% for 3 turn(s)."
-                  },
-                  {
-                    "label": "Lv. 14",
-                    "text": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by 24% for 3 turn(s)."
-                  },
-                  {
-                    "label": "Lv. 15",
-                    "text": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by 25% for 3 turn(s)."
-                  }
-                ]
-              },
-              {
-                "name": "Untethered Glimmer Sails Far",
-                "type": "Technique",
-                "desc": "After using Technique, automatically triggers Skill 1 time at the start of the next battle without consuming any Skill Points. When Yao Guang is in the team, breaking destructible objects immediately grants Fortune Pouch, up to 8 within every Earth Week.",
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1502_Maze.webp"
-              },
-              {
-                "name": "Whistlebolt Sings Joy",
-                "type": "Technique Attack",
-                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
-              },
-              {
-                "name": "Behold Wherever Light Unfolds",
-                "type": "Talent",
-                "desc": "While Yao Guang holds \"Certified Banger\":\\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of 25% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack.",
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1502_Passive.webp",
-                "levels": [
-                  {
-                    "label": "Lv. 1",
-                    "text": "While Yao Guang holds \"Certified Banger\":\\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of 10% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack."
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "While Yao Guang holds \"Certified Banger\":\\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of 11% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack."
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "While Yao Guang holds \"Certified Banger\":\\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of 12% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack."
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "While Yao Guang holds \"Certified Banger\":\\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of 13% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack."
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "While Yao Guang holds \"Certified Banger\":\\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of 14% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack."
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "While Yao Guang holds \"Certified Banger\":\\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of 15% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack."
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "While Yao Guang holds \"Certified Banger\":\\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of 16.3% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack."
-                  },
-                  {
-                    "label": "Lv. 8",
-                    "text": "While Yao Guang holds \"Certified Banger\":\\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of 17.5% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack."
-                  },
-                  {
-                    "label": "Lv. 9",
-                    "text": "While Yao Guang holds \"Certified Banger\":\\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of 18.8% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack."
-                  },
-                  {
-                    "label": "Lv. 10",
-                    "text": "While Yao Guang holds \"Certified Banger\":\\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of 20% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack."
-                  },
-                  {
-                    "label": "Lv. 11",
-                    "text": "While Yao Guang holds \"Certified Banger\":\\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of 21% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack."
-                  },
-                  {
-                    "label": "Lv. 12",
-                    "text": "While Yao Guang holds \"Certified Banger\":\\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of 22% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack."
-                  },
-                  {
-                    "label": "Lv. 13",
-                    "text": "While Yao Guang holds \"Certified Banger\":\\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of 23% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack."
-                  },
-                  {
-                    "label": "Lv. 14",
-                    "text": "While Yao Guang holds \"Certified Banger\":\\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of 24% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack."
-                  },
-                  {
-                    "label": "Lv. 15",
-                    "text": "While Yao Guang holds \"Certified Banger\":\\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of 25% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack."
-                  }
-                ]
-              },
-              {
-                "name": "Let Thy Fortune Burst in Flames",
-                "type": "Elation Skill",
-                "desc": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals 125% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of 25% Physical Elation DMG to one random enemy.",
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1502_Elation.webp",
-                "levels": [
-                  {
-                    "label": "Lv. 1",
-                    "text": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals 50% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of 10% Physical Elation DMG to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals 55% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of 11% Physical Elation DMG to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals 60% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of 12% Physical Elation DMG to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals 65% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of 13% Physical Elation DMG to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals 70% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of 14% Physical Elation DMG to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals 75% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of 15% Physical Elation DMG to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals 81.3% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of 16.3% Physical Elation DMG to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 8",
-                    "text": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals 87.5% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of 17.5% Physical Elation DMG to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 9",
-                    "text": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals 93.8% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of 18.8% Physical Elation DMG to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 10",
-                    "text": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals 100% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of 20% Physical Elation DMG to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 11",
-                    "text": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals 105% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of 21% Physical Elation DMG to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 12",
-                    "text": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals 110% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of 22% Physical Elation DMG to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 13",
-                    "text": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals 115% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of 23% Physical Elation DMG to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 14",
-                    "text": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals 120% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of 24% Physical Elation DMG to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 15",
-                    "text": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals 125% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of 25% Physical Elation DMG to one random enemy."
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "title": "Major Traces",
-            "entries": [
-              {
-                "name": "Amaze-In Grace",
-                "type": "Major Trace",
-                "desc": "When Yao Guang's SPD is 120 or higher, increases this unit's Elation by 30%. For every 1 SPD exceeded, increases this unit's Elation by 1%. Up to a max of 200 excess SPD can be taken into account for this effect.",
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1502_SkillTree1.webp"
-              },
-              {
-                "name": "Poised and Sated",
-                "type": "Major Trace",
-                "desc": "Increases this unit's CRIT DMG by 60%. After using Elation Skill, recovers 1 Skill Point(s) for the team.",
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1502_SkillTree2.webp"
-              },
-              {
-                "name": "Felicity Ensemble",
-                "type": "Major Trace",
-                "desc": "When Yao Guang gains \"Certified Banger,\" its duration increases by 1 turn(s).",
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1502_SkillTree3.webp"
-              }
-            ]
-          },
-          {
-            "title": "Eidolons",
-            "entries": [
-              {
-                "name": "Chuckle Chimes Where Jade Falls",
-                "type": "Eidolon 1",
-                "desc": "In Aha's extra turn triggered by Ultimate, the fixed amount of Punchline taken into account increases to 40. When dealing Elation DMG, all ally targets ignore 20% of the target's DEF.",
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1502_Rank1.webp"
-              },
-              {
-                "name": "Blind Arrows Guided by Feathers",
-                "type": "Eidolon 2",
-                "desc": "While the Zone is active, increases all ally targets' SPD by 12%, and additionally increases Elation by 16%.",
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1502_Rank2.webp"
-              },
-              {
-                "name": "Auspices Mirrored In Decalight",
-                "type": "Eidolon 3",
-                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\\nElation Skill Lv. +1, up to a maximum of Lv. 15.",
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1502_BP.webp"
-              },
-              {
-                "name": "Threads of Fate Colored by Plumes",
-                "type": "Eidolon 4",
-                "desc": "In Aha's extra turn triggered by Yao Guang's Ultimate, the DMG dealt by all ally characters' Elation Skill becomes 150% of the original DMG.",
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1502_Rank4.webp"
-              },
-              {
-                "name": "Bejeweled in Radiant Grace",
-                "type": "Eidolon 5",
-                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.\\nElation Skill Lv. +1, up to a maximum of Lv. 15.",
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1502_Ultra.webp"
-              },
-              {
-                "name": "Ferried Along the Astral Arc",
-                "type": "Eidolon 6",
-                "desc": "All ally targets' Elation DMG merrymakes by 25%. Increases the DMG multiplier of Yao Guang's Elation Skill by 100% of its original multiplier.",
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1502_Rank6.webp"
-              }
-            ]
-          }
-        ]
-      },
-      "req": {
-        "ascension": [
-          {
-            "id": "110431",
-            "name": "Invasive Clot",
-            "qty": 65,
-            "rar": 5,
-            "kind": "boss",
-            "icon": "../../Database/GameData/hsr/assets/items/110431.webp"
-          },
-          {
-            "id": "116001",
-            "name": "Whimsy Wax",
-            "qty": 15,
-            "rar": 2,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
-          },
-          {
-            "id": "116002",
-            "name": "Dreamweave Steel",
-            "qty": 15,
-            "rar": 3,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
-          },
-          {
-            "id": "116003",
-            "name": "Lucid Awl",
-            "qty": 15,
-            "rar": 5,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
-          }
-        ],
-        "talents": [
-          {
-            "id": "116001",
-            "name": "Whimsy Wax",
-            "qty": 41,
-            "rar": 2,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
-          },
-          {
-            "id": "116002",
-            "name": "Dreamweave Steel",
-            "qty": 56,
-            "rar": 3,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
-          },
-          {
-            "id": "116003",
-            "name": "Lucid Awl",
-            "qty": 58,
-            "rar": 5,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
-          },
-          {
-            "id": "241",
-            "name": "Tracks of Destiny",
-            "qty": 8,
-            "rar": 4,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/241.webp"
-          },
-          {
-            "id": "110261",
-            "name": "The Fluffy Hand-drawn Storyboards",
-            "qty": 18,
-            "rar": 2,
-            "kind": "book",
-            "icon": "../../Database/GameData/hsr/assets/items/110261.webp"
-          },
-          {
-            "id": "110262",
-            "name": "The Fluffy Serialization Memorial Issue",
-            "qty": 69,
-            "rar": 3,
-            "kind": "book",
-            "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
-          },
-          {
-            "id": "110263",
-            "name": "The Fluffy Collector's Edition",
-            "qty": 139,
-            "rar": 5,
-            "kind": "book",
-            "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
-          },
-          {
-            "id": "110508",
-            "name": "Vanquished Flow's Reticence",
-            "qty": 12,
-            "rar": 5,
-            "kind": "weekly",
-            "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
-          }
-        ],
-        "talentStages": [
-          [
-            {
-              "cost": 4000,
-              "items": [
-                {
-                  "id": "110261",
-                  "name": "The Fluffy Hand-drawn Storyboards",
-                  "qty": 2,
-                  "rar": 2,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110261.webp"
-                },
-                {
-                  "id": "116001",
-                  "name": "Whimsy Wax",
-                  "qty": 5,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 8000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 16000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 32000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 3,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "116003",
-                  "name": "Lucid Awl",
-                  "qty": 2,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 120000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 5,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "116003",
-                  "name": "Lucid Awl",
-                  "qty": 2,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "116001",
-                  "name": "Whimsy Wax",
-                  "qty": 2,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 4000,
-              "items": [
-                {
-                  "id": "110261",
-                  "name": "The Fluffy Hand-drawn Storyboards",
-                  "qty": 3,
-                  "rar": 2,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110261.webp"
-                },
-                {
-                  "id": "116001",
-                  "name": "Whimsy Wax",
-                  "qty": 5,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 8000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 15000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 24000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 5,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 32000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 2,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "116003",
-                  "name": "Lucid Awl",
-                  "qty": 2,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 65000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 4,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "Vanquished Flow's Reticence",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
-                },
-                {
-                  "id": "116003",
-                  "name": "Lucid Awl",
-                  "qty": 4,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 120000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 6,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "Vanquished Flow's Reticence",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
-                }
-              ]
-            },
-            {
-              "cost": 250000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 12,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "Vanquished Flow's Reticence",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "116001",
-                  "name": "Whimsy Wax",
-                  "qty": 2,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 4000,
-              "items": [
-                {
-                  "id": "110261",
-                  "name": "The Fluffy Hand-drawn Storyboards",
-                  "qty": 3,
-                  "rar": 2,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110261.webp"
-                },
-                {
-                  "id": "116001",
-                  "name": "Whimsy Wax",
-                  "qty": 5,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 8000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 15000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 24000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 5,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 32000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 2,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "116003",
-                  "name": "Lucid Awl",
-                  "qty": 2,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 65000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 4,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "Vanquished Flow's Reticence",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
-                },
-                {
-                  "id": "116003",
-                  "name": "Lucid Awl",
-                  "qty": 4,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 120000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 6,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "Vanquished Flow's Reticence",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
-                }
-              ]
-            },
-            {
-              "cost": 250000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 12,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "Vanquished Flow's Reticence",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "116001",
-                  "name": "Whimsy Wax",
-                  "qty": 2,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 4000,
-              "items": [
-                {
-                  "id": "110261",
-                  "name": "The Fluffy Hand-drawn Storyboards",
-                  "qty": 3,
-                  "rar": 2,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110261.webp"
-                },
-                {
-                  "id": "116001",
-                  "name": "Whimsy Wax",
-                  "qty": 5,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 8000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 15000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 24000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 5,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 32000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 2,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "116003",
-                  "name": "Lucid Awl",
-                  "qty": 2,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 65000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 4,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "Vanquished Flow's Reticence",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
-                },
-                {
-                  "id": "116003",
-                  "name": "Lucid Awl",
-                  "qty": 4,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 120000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 6,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "Vanquished Flow's Reticence",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
-                }
-              ]
-            },
-            {
-              "cost": 250000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 12,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "Vanquished Flow's Reticence",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
-                }
-              ]
-            }
-          ]
-        ],
-        "talentBase": [
-          {
-            "id": "116001",
-            "name": "Whimsy Wax",
-            "qty": 15,
-            "rar": 2,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
-          },
-          {
-            "id": "116002",
-            "name": "Dreamweave Steel",
-            "qty": 18,
-            "rar": 3,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
-          },
-          {
-            "id": "116003",
-            "name": "Lucid Awl",
-            "qty": 36,
-            "rar": 5,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
-          },
-          {
-            "id": "241",
-            "name": "Tracks of Destiny",
-            "qty": 2,
-            "rar": 4,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/241.webp"
-          },
-          {
-            "id": "110261",
-            "name": "The Fluffy Hand-drawn Storyboards",
-            "qty": 7,
-            "rar": 2,
-            "kind": "book",
-            "icon": "../../Database/GameData/hsr/assets/items/110261.webp"
-          },
-          {
-            "id": "110262",
-            "name": "The Fluffy Serialization Memorial Issue",
-            "qty": 28,
-            "rar": 3,
-            "kind": "book",
-            "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
-          },
-          {
-            "id": "110263",
-            "name": "The Fluffy Collector's Edition",
-            "qty": 59,
-            "rar": 5,
-            "kind": "book",
-            "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
-          },
-          {
-            "id": "110508",
-            "name": "Vanquished Flow's Reticence",
-            "qty": 3,
-            "rar": 5,
-            "kind": "weekly",
-            "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
-          }
-        ],
-        "talentBaseCost": 1260000,
-        "ascCost": 308000,
-        "talentCost": 3000000,
-        "currency": 3693000,
-        "weapon": {
-          "name": "When She Decided to See",
-          "icon": "../../Database/GameData/hsr/assets/lightcones/medium/23054.webp",
-          "art": "../../Database/GameData/hsr/assets/lightcones/full/23054.webp",
-          "path": "Elation",
-          "items": [
-            {
-              "id": "116001",
-              "name": "Whimsy Wax",
-              "qty": 20,
-              "rar": 2,
-              "kind": "mob",
-              "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
-            },
-            {
-              "id": "116002",
-              "name": "Dreamweave Steel",
-              "qty": 20,
-              "rar": 3,
-              "kind": "mob",
-              "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
-            },
-            {
-              "id": "116003",
-              "name": "Lucid Awl",
-              "qty": 14,
-              "rar": 5,
-              "kind": "mob",
-              "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
-            },
-            {
-              "id": "110261",
-              "name": "The Fluffy Hand-drawn Storyboards",
-              "qty": 4,
-              "rar": 2,
-              "kind": "book",
-              "icon": "../../Database/GameData/hsr/assets/items/110261.webp"
-            },
-            {
-              "id": "110262",
-              "name": "The Fluffy Serialization Memorial Issue",
-              "qty": 12,
-              "rar": 3,
-              "kind": "book",
-              "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
-            },
-            {
-              "id": "110263",
-              "name": "The Fluffy Collector's Edition",
-              "qty": 15,
-              "rar": 5,
-              "kind": "book",
-              "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
             }
           ],
           "cost": 385000
@@ -14690,7 +11702,7 @@
       "slug": "blade-mortenax",
       "release": 1780304400000,
       "releasePatch": "4.3",
-      "updated": 1781042400000,
+      "updated": 1784073600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm5410860|Daman Mills",
@@ -14725,9 +11737,7 @@
         "../../Database/GameData/hsr/assets/lightcones/full/23059.webp"
       ],
       "status": "live",
-      "labels": [
-        "New"
-      ],
+      "labels": [],
       "r": 5,
       "el": "Fire",
       "path": "Nihility",
@@ -16172,7 +13182,2995 @@
           ],
           "cost": 385000
         }
-      }
+      },
+      "recent": 1
+    },
+    {
+      "id": "hsr-aventurine-waveflair",
+      "n": "Aventurine Waveflair",
+      "localizedNames": {
+        "en": "Aventurine \u2022 Waveflair",
+        "zh": "\u7802\u91d1\u2022\u620f\u6d6a",
+        "ja": "\u30a2\u30d9\u30f3\u30c1\u30e5\u30ea\u30f3\u30fb\u6ce2\u3068\u622f\u308c\u308b\u590f",
+        "ko": "\uc5b4\ubca4\uce04\ub9b0\u2022\uc6e8\uc774\ube0c"
+      },
+      "slug": "aventurine-waveflair",
+      "updated": 1782777600000,
+      "sourceOrder": 0,
+      "icon": "../../Database/GameData/hsr/assets/characters/round/1513.webp",
+      "art": "../../Database/GameData/hsr/assets/characters/draw-card/1513.webp",
+      "card": "../../Database/Prydwen/hsr/assets/characters/aventurine-waveflair-0fb8df0c48dc.webp",
+      "status": "beta",
+      "labels": [
+        "4.X"
+      ],
+      "r": 5,
+      "el": "Quantum",
+      "path": "Elation",
+      "baseStats": {
+        "level1": {
+          "hp": 168.96,
+          "atk": 58.08,
+          "def": 102.3,
+          "speed": 103,
+          "critRate": 0.05,
+          "critDmg": 0.5
+        },
+        "max": {
+          "level": 80,
+          "hp": 1241.86,
+          "atk": 426.89,
+          "def": 751.9,
+          "speed": 103,
+          "critRate": 0.05,
+          "critDmg": 0.5
+        }
+      },
+      "facts": {},
+      "upcoming": true,
+      "reliableData": false,
+      "noReliableInfo": true,
+      "recent": false
+    },
+    {
+      "id": "hsr-robin-summeretto",
+      "n": "Robin Summeretto",
+      "localizedNames": {
+        "en": "Robin \u2022 Summeretto",
+        "zh": "\u77e5\u66f4\u9e1f\u2022\u6674\u6b4c",
+        "ja": "\u30ed\u30d3\u30f3\u30fb\u590f\u7a7a\u306e\u6b4c",
+        "ko": "\ub85c\ube48\u2022\uc11c\uba38\ub808\ud1a0"
+      },
+      "slug": "robin-summeretto",
+      "updated": 1782777600000,
+      "sourceOrder": 0,
+      "icon": "../../Database/GameData/hsr/assets/characters/round/1512.webp",
+      "art": "../../Database/GameData/hsr/assets/characters/draw-card/1512.webp",
+      "card": "../../Database/Prydwen/hsr/assets/characters/robin-summeretto-50f73fbdd44b.webp",
+      "status": "beta",
+      "labels": [
+        "4.X"
+      ],
+      "r": 5,
+      "el": "Wind",
+      "path": "Remembrance",
+      "baseStats": {
+        "level1": {
+          "hp": 163.68,
+          "atk": 81.84,
+          "def": 66,
+          "speed": 98,
+          "critRate": 0.05,
+          "critDmg": 0.5
+        },
+        "max": {
+          "level": 80,
+          "hp": 1203.05,
+          "atk": 601.52,
+          "def": 485.1,
+          "speed": 98,
+          "critRate": 0.05,
+          "critDmg": 0.5
+        }
+      },
+      "facts": {},
+      "upcoming": true,
+      "reliableData": false,
+      "noReliableInfo": true,
+      "recent": false
+    },
+    {
+      "id": "hsr-evanescia",
+      "n": "Evanescia",
+      "localizedNames": {
+        "en": "Evanescia",
+        "zh": "\u7eef\u82f1",
+        "ja": "\u7dcb\u82f1",
+        "ko": "\uc5d0\ubc14\ub124\uc2dc\uc544"
+      },
+      "title": "The Demoiselle in Charge",
+      "slug": "evanescia",
+      "release": 1778662800000,
+      "releasePatch": "4.2",
+      "updated": 1782259200000,
+      "sourceOrder": 0,
+      "voiceActors": {
+        "english": "imdb:nm11116720|Nathalie Ferare",
+        "japanese": "Ayane Sakura|Sakura Ayane (\u4f50\u5009 \u7dbe\u97f3)",
+        "chinese": "https://zh.moegirl.org.cn/\u6eaf\u6d54|Suxun (\u6eaf\u6d54)",
+        "korean": "https://namu.wiki/w/\ubb38\uc720\uc815|Moon Yoo-jeong (\ubb38\uc720\uc815)"
+      },
+      "icon": "../../Database/GameData/hsr/assets/characters/round/1505.webp",
+      "art": "../../Database/GameData/hsr/assets/characters/draw-card/1505.webp",
+      "card": "../../Database/Prydwen/hsr/assets/characters/evanescia-7567d1297c5d.webp",
+      "signatureLightCone": {
+        "id": "23058",
+        "name": "Until the Flowers Bloom Again",
+        "icon": "../../Database/GameData/hsr/assets/lightcones/medium/23058.webp",
+        "art": "../../Database/GameData/hsr/assets/lightcones/full/23058.webp",
+        "path": "Elation"
+      },
+      "signatureWeapon": {
+        "id": "23058",
+        "name": "Until the Flowers Bloom Again",
+        "path": "Elation",
+        "educated": false
+      },
+      "signatureWeaponId": "23058",
+      "signatureWeaponName": "Until the Flowers Bloom Again",
+      "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23058.webp",
+      "overviewArtPool": [
+        "../../Database/GameData/hsr/assets/lightcones/full/23058.webp"
+      ],
+      "status": "live",
+      "labels": [],
+      "r": 5,
+      "el": "Physical",
+      "path": "Elation",
+      "baseStats": {
+        "level1": {
+          "hp": 142.56,
+          "atk": 100.32,
+          "def": 62.7,
+          "speed": 104,
+          "critRate": 0.05,
+          "critDmg": 0.5
+        },
+        "max": {
+          "level": 80,
+          "hp": 1047.82,
+          "atk": 737.35,
+          "def": 460.85,
+          "speed": 104,
+          "critRate": 0.05,
+          "critDmg": 0.5
+        }
+      },
+      "facts": {
+        "title": "The Demoiselle in Charge"
+      },
+      "skillIcons": [
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1505_Normal.webp",
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1505_BP.webp",
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1505_Ultra.webp",
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1505_Passive.webp"
+      ],
+      "kit": {
+        "source": "Game data",
+        "channel": "live",
+        "version": "4.4",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Syllabus: Pop Quiz",
+                "type": "Basic ATK",
+                "desc": "Deals Physical DMG equal to 140% of Evanescia's ATK to one designated enemy.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1505_Normal.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Physical DMG equal to 50% of Evanescia's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Physical DMG equal to 60% of Evanescia's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Physical DMG equal to 70% of Evanescia's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Physical DMG equal to 80% of Evanescia's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Physical DMG equal to 90% of Evanescia's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Physical DMG equal to 100% of Evanescia's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Physical DMG equal to 110% of Evanescia's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Physical DMG equal to 120% of Evanescia's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Physical DMG equal to 130% of Evanescia's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Physical DMG equal to 140% of Evanescia's ATK to one designated enemy."
+                  }
+                ]
+              },
+              {
+                "name": "Discipline: Final Verdict",
+                "type": "Skill",
+                "desc": "Deals Physical DMG equal to 375% of Evanescia's ATK to one designated enemy and Physical DMG equal to 188% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1505_BP.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Physical DMG equal to 150% of Evanescia's ATK to one designated enemy and Physical DMG equal to 75% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Physical DMG equal to 165% of Evanescia's ATK to one designated enemy and Physical DMG equal to 82.5% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Physical DMG equal to 180% of Evanescia's ATK to one designated enemy and Physical DMG equal to 90% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Physical DMG equal to 195% of Evanescia's ATK to one designated enemy and Physical DMG equal to 97.5% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Physical DMG equal to 210% of Evanescia's ATK to one designated enemy and Physical DMG equal to 105% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Physical DMG equal to 225% of Evanescia's ATK to one designated enemy and Physical DMG equal to 113% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Physical DMG equal to 244% of Evanescia's ATK to one designated enemy and Physical DMG equal to 122% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Physical DMG equal to 263% of Evanescia's ATK to one designated enemy and Physical DMG equal to 131% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Physical DMG equal to 281% of Evanescia's ATK to one designated enemy and Physical DMG equal to 141% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Physical DMG equal to 300% of Evanescia's ATK to one designated enemy and Physical DMG equal to 150% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Deals Physical DMG equal to 315% of Evanescia's ATK to one designated enemy and Physical DMG equal to 158% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Deals Physical DMG equal to 330% of Evanescia's ATK to one designated enemy and Physical DMG equal to 165% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Deals Physical DMG equal to 345% of Evanescia's ATK to one designated enemy and Physical DMG equal to 173% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Deals Physical DMG equal to 360% of Evanescia's ATK to one designated enemy and Physical DMG equal to 180% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Deals Physical DMG equal to 375% of Evanescia's ATK to one designated enemy and Physical DMG equal to 188% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
+                  }
+                ]
+              },
+              {
+                "name": "Swordsong: Absolution Denied",
+                "type": "Ultimate",
+                "desc": "Deals Physical DMG equal to 200% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 144% of Evanescia's ATK to one random enemy.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1505_Ultra.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Physical DMG equal to 80% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 72% of Evanescia's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Physical DMG equal to 88% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 76.8% of Evanescia's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Physical DMG equal to 96% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 81.6% of Evanescia's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Physical DMG equal to 104% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 86.4% of Evanescia's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Physical DMG equal to 112% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 91.2% of Evanescia's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Physical DMG equal to 120% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 96% of Evanescia's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Physical DMG equal to 130% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 102% of Evanescia's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Physical DMG equal to 140% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 108% of Evanescia's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Physical DMG equal to 150% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 114% of Evanescia's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Physical DMG equal to 160% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 120% of Evanescia's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Deals Physical DMG equal to 168% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 125% of Evanescia's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Deals Physical DMG equal to 176% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 130% of Evanescia's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Deals Physical DMG equal to 184% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 134% of Evanescia's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Deals Physical DMG equal to 192% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 139% of Evanescia's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Deals Physical DMG equal to 200% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 144% of Evanescia's ATK to one random enemy."
+                  }
+                ]
+              },
+              {
+                "name": "Petalfall: Floral Reminiscence",
+                "type": "Technique Attack",
+                "desc": "Immediately attacks all enemies within a certain range. After entering combat, deals Physical DMG equal to 100% of Evanescia's ATK to all enemies and gains 20 point(s) of \"Certified Banger.\"",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1505_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "Technique Attack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Youth: Halcyon Evermore",
+                "type": "Talent",
+                "desc": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 125% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 20% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 30% Physical Elation DMG to all enemies and also deals 35% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 31.3% Physical Elation DMG to all enemies.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1505_Passive.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 50% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 8% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 12% Physical Elation DMG to all enemies and also deals 14% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 12.5% Physical Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 55% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 8.8% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 13.2% Physical Elation DMG to all enemies and also deals 15.4% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 13.8% Physical Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 60% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 9.6% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 14.4% Physical Elation DMG to all enemies and also deals 16.8% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 15% Physical Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 65% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 10.4% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 15.6% Physical Elation DMG to all enemies and also deals 18.2% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 16.3% Physical Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 70% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 11.2% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 16.8% Physical Elation DMG to all enemies and also deals 19.6% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 17.5% Physical Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 75% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 12% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 18% Physical Elation DMG to all enemies and also deals 21% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 18.8% Physical Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 81.3% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 13% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 19.5% Physical Elation DMG to all enemies and also deals 22.8% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 20.3% Physical Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 87.5% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 14% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 21% Physical Elation DMG to all enemies and also deals 24.5% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 21.9% Physical Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 93.8% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 15% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 22.5% Physical Elation DMG to all enemies and also deals 26.3% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 23.4% Physical Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 100% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 16% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 24% Physical Elation DMG to all enemies and also deals 28% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 25% Physical Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 105% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 16.8% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 25.2% Physical Elation DMG to all enemies and also deals 29.4% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 26.3% Physical Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 110% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 17.6% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 26.4% Physical Elation DMG to all enemies and also deals 30.8% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 27.5% Physical Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 115% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 18.4% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 27.6% Physical Elation DMG to all enemies and also deals 32.2% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 28.7% Physical Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 120% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 19.2% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 28.8% Physical Elation DMG to all enemies and also deals 33.6% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 30% Physical Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 125% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 20% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 30% Physical Elation DMG to all enemies and also deals 35% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 31.3% Physical Elation DMG to all enemies."
+                  }
+                ]
+              },
+              {
+                "name": "Scarlet: Elation or Execution",
+                "type": "Elation Skill",
+                "desc": "Deals 138% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\".",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1505_Elation.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals 55% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals 60.5% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals 66% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals 71.5% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals 77% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals 82.5% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals 89.4% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals 96.3% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals 103% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals 110% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Deals 116% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Deals 121% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Deals 126% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Deals 132% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Deals 138% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Watch All Revels",
+                "type": "Major Trace",
+                "desc": "Increases Evanescia's CRIT Rate by 30%. When there are (\u22653)/2/1 enemy target(s) on the field, the Ultimate's bounce count increases by 1/2/4. When a teammate with an Elation Skill Participant ID lower than Evanescia's gains \"Certified Banger,\" Evanescia converts 50% of it into her own \"Certified Banger.\"",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1505_SkillTree1.webp"
+              },
+              {
+                "name": "Weigh All Truths",
+                "type": "Major Trace",
+                "desc": "When \"Master Fox\" uses an attack, it additionally inflicts Vulnerability on the target, increasing the DMG they take by 12% for 3 turn(s).",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1505_SkillTree2.webp"
+              },
+              {
+                "name": "Best All Blooms",
+                "type": "Major Trace",
+                "desc": "When a teammate's \"Certified Banger\" ends, Evanescia converts 50% of it into her own \"Certified Banger.\"",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1505_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Home: A Prayer in Dance",
+                "type": "Eidolon 1",
+                "desc": "Increases All-Type RES PEN by 20%. After \"Master Fox\" uses an attack, additionally triggers 1 instance of Elation Skill. Elation Skill additionally grants this unit 10 \"Certified Banger\" point(s).",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1505_Rank1.webp"
+              },
+              {
+                "name": "Voyage: A Wish for Everbloom",
+                "type": "Eidolon 2",
+                "desc": "CRIT DMG increases by 36%. When triggering the Certified Banger gain effect from the Trace \"Watch All Revels\"/\"Best All Blooms\", additionally gains \"Certified Banger\" equal to 50%/100% of the \"Certified Banger\" gained this time.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1505_Rank2.webp"
+              },
+              {
+                "name": "Blade: A Feast on Evils",
+                "type": "Eidolon 3",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\\nElation Skill Lv. +1, up to a maximum of Lv. 15.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1505_Ultra.webp"
+              },
+              {
+                "name": "Meadow: A Ruin by Vice",
+                "type": "Eidolon 4",
+                "desc": "Evanescia's DMG dealt ignores 15% of the enemy targets' DEF.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1505_Rank4.webp"
+              },
+              {
+                "name": "Arcadia: A Glimpse of Fates",
+                "type": "Eidolon 5",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.\\nElation Skill Lv. +1, up to a maximum of Lv. 15.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1505_BP.webp"
+              },
+              {
+                "name": "Maiden: A Step into Dreams",
+                "type": "Eidolon 6",
+                "desc": "The duration of Evanescia's \"Certified Banger\" increases by 1 turn(s). The Elation DMG dealt by Evanescia merrymakes by 15%. For every 100 points of \"Certified Banger\" held, it additionally merrymakes by 2%. Up to 1000 points of \"Certified Banger\" can be taken into account. After using Ultimate for the first time upon entering combat, regenerates a fixed amount of 120 Energy for Evanescia. This effect can trigger 1 time for every 4 more instances of Ultimate used.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1505_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
+      "req": {
+        "ascension": [
+          {
+            "id": "110431",
+            "name": "Invasive Clot",
+            "qty": 65,
+            "rar": 5,
+            "kind": "boss",
+            "icon": "../../Database/GameData/hsr/assets/items/110431.webp"
+          },
+          {
+            "id": "116001",
+            "name": "Whimsy Wax",
+            "qty": 15,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+          },
+          {
+            "id": "116002",
+            "name": "Dreamweave Steel",
+            "qty": 15,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+          },
+          {
+            "id": "116003",
+            "name": "Lucid Awl",
+            "qty": 15,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+          }
+        ],
+        "talents": [
+          {
+            "id": "116001",
+            "name": "Whimsy Wax",
+            "qty": 41,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+          },
+          {
+            "id": "116002",
+            "name": "Dreamweave Steel",
+            "qty": 56,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+          },
+          {
+            "id": "116003",
+            "name": "Lucid Awl",
+            "qty": 58,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+          },
+          {
+            "id": "241",
+            "name": "Tracks of Destiny",
+            "qty": 8,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+          },
+          {
+            "id": "110261",
+            "name": "The Fluffy Hand-drawn Storyboards",
+            "qty": 18,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110261.webp"
+          },
+          {
+            "id": "110262",
+            "name": "The Fluffy Serialization Memorial Issue",
+            "qty": 69,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
+          },
+          {
+            "id": "110263",
+            "name": "The Fluffy Collector's Edition",
+            "qty": 139,
+            "rar": 5,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+          },
+          {
+            "id": "110508",
+            "name": "Vanquished Flow's Reticence",
+            "qty": 12,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
+          }
+        ],
+        "talentStages": [
+          [
+            {
+              "cost": 4000,
+              "items": [
+                {
+                  "id": "110261",
+                  "name": "The Fluffy Hand-drawn Storyboards",
+                  "qty": 2,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110261.webp"
+                },
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 5,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 8000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 16000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 32000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 120000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 5,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 2,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 4000,
+              "items": [
+                {
+                  "id": "110261",
+                  "name": "The Fluffy Hand-drawn Storyboards",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110261.webp"
+                },
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 5,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 8000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 15000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 24000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 5,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 32000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 65000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "Vanquished Flow's Reticence",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 120000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 6,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "Vanquished Flow's Reticence",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
+                }
+              ]
+            },
+            {
+              "cost": 250000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 12,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "Vanquished Flow's Reticence",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 2,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 4000,
+              "items": [
+                {
+                  "id": "110261",
+                  "name": "The Fluffy Hand-drawn Storyboards",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110261.webp"
+                },
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 5,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 8000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 15000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 24000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 5,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 32000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 65000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "Vanquished Flow's Reticence",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 120000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 6,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "Vanquished Flow's Reticence",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
+                }
+              ]
+            },
+            {
+              "cost": 250000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 12,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "Vanquished Flow's Reticence",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 2,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 4000,
+              "items": [
+                {
+                  "id": "110261",
+                  "name": "The Fluffy Hand-drawn Storyboards",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110261.webp"
+                },
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 5,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 8000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 15000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 24000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 5,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 32000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 65000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "Vanquished Flow's Reticence",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 120000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 6,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "Vanquished Flow's Reticence",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
+                }
+              ]
+            },
+            {
+              "cost": 250000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 12,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "Vanquished Flow's Reticence",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
+                }
+              ]
+            }
+          ]
+        ],
+        "talentBase": [
+          {
+            "id": "116001",
+            "name": "Whimsy Wax",
+            "qty": 15,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+          },
+          {
+            "id": "116002",
+            "name": "Dreamweave Steel",
+            "qty": 18,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+          },
+          {
+            "id": "116003",
+            "name": "Lucid Awl",
+            "qty": 36,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+          },
+          {
+            "id": "241",
+            "name": "Tracks of Destiny",
+            "qty": 2,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+          },
+          {
+            "id": "110261",
+            "name": "The Fluffy Hand-drawn Storyboards",
+            "qty": 7,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110261.webp"
+          },
+          {
+            "id": "110262",
+            "name": "The Fluffy Serialization Memorial Issue",
+            "qty": 28,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
+          },
+          {
+            "id": "110263",
+            "name": "The Fluffy Collector's Edition",
+            "qty": 59,
+            "rar": 5,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+          },
+          {
+            "id": "110508",
+            "name": "Vanquished Flow's Reticence",
+            "qty": 3,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
+          }
+        ],
+        "talentBaseCost": 1260000,
+        "ascCost": 308000,
+        "talentCost": 3000000,
+        "currency": 3693000,
+        "weapon": {
+          "name": "Until the Flowers Bloom Again",
+          "icon": "../../Database/GameData/hsr/assets/lightcones/medium/23058.webp",
+          "art": "../../Database/GameData/hsr/assets/lightcones/full/23058.webp",
+          "path": "Elation",
+          "items": [
+            {
+              "id": "116001",
+              "name": "Whimsy Wax",
+              "qty": 20,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+            },
+            {
+              "id": "116002",
+              "name": "Dreamweave Steel",
+              "qty": 20,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+            },
+            {
+              "id": "116003",
+              "name": "Lucid Awl",
+              "qty": 14,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+            },
+            {
+              "id": "110261",
+              "name": "The Fluffy Hand-drawn Storyboards",
+              "qty": 4,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110261.webp"
+            },
+            {
+              "id": "110262",
+              "name": "The Fluffy Serialization Memorial Issue",
+              "qty": 12,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
+            },
+            {
+              "id": "110263",
+              "name": "The Fluffy Collector's Edition",
+              "qty": 15,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+            }
+          ],
+          "cost": 385000
+        }
+      },
+      "recent": 1
+    },
+    {
+      "id": "hsr-yao-guang",
+      "n": "Yao Guang",
+      "localizedNames": {
+        "en": "Yao Guang",
+        "zh": "\u723b\u5149",
+        "ja": "\u723b\u5149",
+        "ko": "\ud6a8\uad11"
+      },
+      "title": "Gleam of a Thousand Plumes",
+      "slug": "yao-guang",
+      "release": 1770976800000,
+      "releasePatch": "4.0",
+      "updated": 1781481600000,
+      "sourceOrder": 0,
+      "voiceActors": {
+        "english": "imdb:nm14887295|Ari Thrash",
+        "japanese": "Kana Hanazawa|Hanazawa Kana (\u82b1\u6fa4 \u9999\u83dc)",
+        "chinese": "https://zh.moegirl.org.cn/\u79e6\u7d2b\u7ffc|Qin Ziyi (\u79e6\u7d2b\u7ffc)",
+        "korean": "https://namu.wiki/w/\uc774\uc2ac(\uc131\uc6b0)|Lee Seul (\uc774\uc2ac)"
+      },
+      "icon": "../../Database/GameData/hsr/assets/characters/round/1502.webp",
+      "art": "../../Database/GameData/hsr/assets/characters/draw-card/1502.webp",
+      "card": "../../Database/Prydwen/hsr/assets/characters/yao-guang-84b9f69c7269.webp",
+      "holidayArtPool": [
+        "../../Database/HsrWiki/holiday-art/yaoguang/01-Chinese New Year 2026.png",
+        "../../Database/HsrWiki/holiday-art/yaoguang/02-Chinese New Year 2026 Yao Guang.png",
+        "../../Database/HsrWiki/holiday-art/yaoguang/03-Chinese New Year 2026 2.png"
+      ],
+      "signatureLightCone": {
+        "id": "23054",
+        "name": "When She Decided to See",
+        "icon": "../../Database/GameData/hsr/assets/lightcones/medium/23054.webp",
+        "art": "../../Database/GameData/hsr/assets/lightcones/full/23054.webp",
+        "path": "Elation"
+      },
+      "signatureWeapon": {
+        "id": "23054",
+        "name": "When She Decided to See",
+        "path": "Elation",
+        "educated": false
+      },
+      "signatureWeaponId": "23054",
+      "signatureWeaponName": "When She Decided to See",
+      "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23054.webp",
+      "overviewArtPool": [
+        "../../Database/GameData/hsr/assets/lightcones/full/23054.webp"
+      ],
+      "status": "live",
+      "labels": [],
+      "r": 5,
+      "el": "Physical",
+      "path": "Elation",
+      "baseStats": {
+        "level1": {
+          "hp": 168.96,
+          "atk": 63.36,
+          "def": 89.1,
+          "speed": 101,
+          "critRate": 0.05,
+          "critDmg": 0.5
+        },
+        "max": {
+          "level": 80,
+          "hp": 1241.86,
+          "atk": 465.7,
+          "def": 654.88,
+          "speed": 101,
+          "critRate": 0.05,
+          "critDmg": 0.5
+        }
+      },
+      "facts": {
+        "title": "Gleam of a Thousand Plumes"
+      },
+      "skillIcons": [
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1502_Normal.webp",
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1502_BP.webp",
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1502_Ultra.webp",
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1502_Passive.webp"
+      ],
+      "kit": {
+        "source": "Game data",
+        "channel": "live",
+        "version": "4.4",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Whistlebolt Sings Joy",
+                "type": "Basic ATK",
+                "desc": "Deals Physical DMG equal to 126% of Yao Guang's ATK to one designated enemy and Physical DMG equal to 42% of Yao Guang's ATK to targets adjacent to it. The Energy regenerated from Basic ATK increases to 30.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1502_Normal.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Physical DMG equal to 45% of Yao Guang's ATK to one designated enemy and Physical DMG equal to 15% of Yao Guang's ATK to targets adjacent to it. The Energy regenerated from Basic ATK increases to 30."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Physical DMG equal to 54% of Yao Guang's ATK to one designated enemy and Physical DMG equal to 18% of Yao Guang's ATK to targets adjacent to it. The Energy regenerated from Basic ATK increases to 30."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Physical DMG equal to 63% of Yao Guang's ATK to one designated enemy and Physical DMG equal to 21% of Yao Guang's ATK to targets adjacent to it. The Energy regenerated from Basic ATK increases to 30."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Physical DMG equal to 72% of Yao Guang's ATK to one designated enemy and Physical DMG equal to 24% of Yao Guang's ATK to targets adjacent to it. The Energy regenerated from Basic ATK increases to 30."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Physical DMG equal to 81% of Yao Guang's ATK to one designated enemy and Physical DMG equal to 27% of Yao Guang's ATK to targets adjacent to it. The Energy regenerated from Basic ATK increases to 30."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Physical DMG equal to 90% of Yao Guang's ATK to one designated enemy and Physical DMG equal to 30% of Yao Guang's ATK to targets adjacent to it. The Energy regenerated from Basic ATK increases to 30."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Physical DMG equal to 99% of Yao Guang's ATK to one designated enemy and Physical DMG equal to 33% of Yao Guang's ATK to targets adjacent to it. The Energy regenerated from Basic ATK increases to 30."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Physical DMG equal to 108% of Yao Guang's ATK to one designated enemy and Physical DMG equal to 36% of Yao Guang's ATK to targets adjacent to it. The Energy regenerated from Basic ATK increases to 30."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Physical DMG equal to 117% of Yao Guang's ATK to one designated enemy and Physical DMG equal to 39% of Yao Guang's ATK to targets adjacent to it. The Energy regenerated from Basic ATK increases to 30."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Physical DMG equal to 126% of Yao Guang's ATK to one designated enemy and Physical DMG equal to 42% of Yao Guang's ATK to targets adjacent to it. The Energy regenerated from Basic ATK increases to 30."
+                  }
+                ]
+              },
+              {
+                "name": "Decalight Unveils All",
+                "type": "Skill",
+                "desc": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to 25% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1502_BP.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to 10% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to 11% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to 12% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to 13% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to 14% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to 15% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to 16.3% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to 17.5% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to 18.8% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to 20% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to 21% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to 22% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to 23% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to 24% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to 25% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline."
+                  }
+                ]
+              },
+              {
+                "name": "Hexagram of Feathered Fortune",
+                "type": "Ultimate",
+                "desc": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by 25% for 3 turn(s).",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1502_Ultra.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by 10% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by 11% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by 12% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by 13% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by 14% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by 15% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by 16.3% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by 17.5% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by 18.8% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by 20% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by 21% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by 22% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by 23% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by 24% for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by 25% for 3 turn(s)."
+                  }
+                ]
+              },
+              {
+                "name": "Untethered Glimmer Sails Far",
+                "type": "Technique",
+                "desc": "After using Technique, automatically triggers Skill 1 time at the start of the next battle without consuming any Skill Points. When Yao Guang is in the team, breaking destructible objects immediately grants Fortune Pouch, up to 8 within every Earth Week.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1502_Maze.webp"
+              },
+              {
+                "name": "Whistlebolt Sings Joy",
+                "type": "Technique Attack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Behold Wherever Light Unfolds",
+                "type": "Talent",
+                "desc": "While Yao Guang holds \"Certified Banger\":\\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of 25% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1502_Passive.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "While Yao Guang holds \"Certified Banger\":\\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of 10% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "While Yao Guang holds \"Certified Banger\":\\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of 11% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "While Yao Guang holds \"Certified Banger\":\\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of 12% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "While Yao Guang holds \"Certified Banger\":\\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of 13% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "While Yao Guang holds \"Certified Banger\":\\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of 14% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "While Yao Guang holds \"Certified Banger\":\\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of 15% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "While Yao Guang holds \"Certified Banger\":\\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of 16.3% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "While Yao Guang holds \"Certified Banger\":\\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of 17.5% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "While Yao Guang holds \"Certified Banger\":\\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of 18.8% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "While Yao Guang holds \"Certified Banger\":\\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of 20% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "While Yao Guang holds \"Certified Banger\":\\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of 21% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "While Yao Guang holds \"Certified Banger\":\\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of 22% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "While Yao Guang holds \"Certified Banger\":\\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of 23% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "While Yao Guang holds \"Certified Banger\":\\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of 24% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "While Yao Guang holds \"Certified Banger\":\\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of 25% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack."
+                  }
+                ]
+              },
+              {
+                "name": "Let Thy Fortune Burst in Flames",
+                "type": "Elation Skill",
+                "desc": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals 125% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of 25% Physical Elation DMG to one random enemy.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1502_Elation.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals 50% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of 10% Physical Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals 55% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of 11% Physical Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals 60% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of 12% Physical Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals 65% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of 13% Physical Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals 70% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of 14% Physical Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals 75% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of 15% Physical Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals 81.3% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of 16.3% Physical Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals 87.5% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of 17.5% Physical Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals 93.8% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of 18.8% Physical Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals 100% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of 20% Physical Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals 105% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of 21% Physical Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals 110% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of 22% Physical Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals 115% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of 23% Physical Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals 120% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of 24% Physical Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals 125% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of 25% Physical Elation DMG to one random enemy."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Amaze-In Grace",
+                "type": "Major Trace",
+                "desc": "When Yao Guang's SPD is 120 or higher, increases this unit's Elation by 30%. For every 1 SPD exceeded, increases this unit's Elation by 1%. Up to a max of 200 excess SPD can be taken into account for this effect.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1502_SkillTree1.webp"
+              },
+              {
+                "name": "Poised and Sated",
+                "type": "Major Trace",
+                "desc": "Increases this unit's CRIT DMG by 60%. After using Elation Skill, recovers 1 Skill Point(s) for the team.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1502_SkillTree2.webp"
+              },
+              {
+                "name": "Felicity Ensemble",
+                "type": "Major Trace",
+                "desc": "When Yao Guang gains \"Certified Banger,\" its duration increases by 1 turn(s).",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1502_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Chuckle Chimes Where Jade Falls",
+                "type": "Eidolon 1",
+                "desc": "In Aha's extra turn triggered by Ultimate, the fixed amount of Punchline taken into account increases to 40. When dealing Elation DMG, all ally targets ignore 20% of the target's DEF.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1502_Rank1.webp"
+              },
+              {
+                "name": "Blind Arrows Guided by Feathers",
+                "type": "Eidolon 2",
+                "desc": "While the Zone is active, increases all ally targets' SPD by 12%, and additionally increases Elation by 16%.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1502_Rank2.webp"
+              },
+              {
+                "name": "Auspices Mirrored In Decalight",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\\nElation Skill Lv. +1, up to a maximum of Lv. 15.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1502_BP.webp"
+              },
+              {
+                "name": "Threads of Fate Colored by Plumes",
+                "type": "Eidolon 4",
+                "desc": "In Aha's extra turn triggered by Yao Guang's Ultimate, the DMG dealt by all ally characters' Elation Skill becomes 150% of the original DMG.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1502_Rank4.webp"
+              },
+              {
+                "name": "Bejeweled in Radiant Grace",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.\\nElation Skill Lv. +1, up to a maximum of Lv. 15.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1502_Ultra.webp"
+              },
+              {
+                "name": "Ferried Along the Astral Arc",
+                "type": "Eidolon 6",
+                "desc": "All ally targets' Elation DMG merrymakes by 25%. Increases the DMG multiplier of Yao Guang's Elation Skill by 100% of its original multiplier.",
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1502_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
+      "req": {
+        "ascension": [
+          {
+            "id": "110431",
+            "name": "Invasive Clot",
+            "qty": 65,
+            "rar": 5,
+            "kind": "boss",
+            "icon": "../../Database/GameData/hsr/assets/items/110431.webp"
+          },
+          {
+            "id": "116001",
+            "name": "Whimsy Wax",
+            "qty": 15,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+          },
+          {
+            "id": "116002",
+            "name": "Dreamweave Steel",
+            "qty": 15,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+          },
+          {
+            "id": "116003",
+            "name": "Lucid Awl",
+            "qty": 15,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+          }
+        ],
+        "talents": [
+          {
+            "id": "116001",
+            "name": "Whimsy Wax",
+            "qty": 41,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+          },
+          {
+            "id": "116002",
+            "name": "Dreamweave Steel",
+            "qty": 56,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+          },
+          {
+            "id": "116003",
+            "name": "Lucid Awl",
+            "qty": 58,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+          },
+          {
+            "id": "241",
+            "name": "Tracks of Destiny",
+            "qty": 8,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+          },
+          {
+            "id": "110261",
+            "name": "The Fluffy Hand-drawn Storyboards",
+            "qty": 18,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110261.webp"
+          },
+          {
+            "id": "110262",
+            "name": "The Fluffy Serialization Memorial Issue",
+            "qty": 69,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
+          },
+          {
+            "id": "110263",
+            "name": "The Fluffy Collector's Edition",
+            "qty": 139,
+            "rar": 5,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+          },
+          {
+            "id": "110508",
+            "name": "Vanquished Flow's Reticence",
+            "qty": 12,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
+          }
+        ],
+        "talentStages": [
+          [
+            {
+              "cost": 4000,
+              "items": [
+                {
+                  "id": "110261",
+                  "name": "The Fluffy Hand-drawn Storyboards",
+                  "qty": 2,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110261.webp"
+                },
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 5,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 8000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 16000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 32000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 120000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 5,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 2,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 4000,
+              "items": [
+                {
+                  "id": "110261",
+                  "name": "The Fluffy Hand-drawn Storyboards",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110261.webp"
+                },
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 5,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 8000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 15000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 24000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 5,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 32000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 65000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "Vanquished Flow's Reticence",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 120000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 6,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "Vanquished Flow's Reticence",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
+                }
+              ]
+            },
+            {
+              "cost": 250000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 12,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "Vanquished Flow's Reticence",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 2,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 4000,
+              "items": [
+                {
+                  "id": "110261",
+                  "name": "The Fluffy Hand-drawn Storyboards",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110261.webp"
+                },
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 5,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 8000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 15000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 24000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 5,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 32000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 65000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "Vanquished Flow's Reticence",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 120000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 6,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "Vanquished Flow's Reticence",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
+                }
+              ]
+            },
+            {
+              "cost": 250000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 12,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "Vanquished Flow's Reticence",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 2,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 4000,
+              "items": [
+                {
+                  "id": "110261",
+                  "name": "The Fluffy Hand-drawn Storyboards",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110261.webp"
+                },
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 5,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 8000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 15000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 24000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 5,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 32000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 65000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "Vanquished Flow's Reticence",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 120000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 6,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "Vanquished Flow's Reticence",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
+                }
+              ]
+            },
+            {
+              "cost": 250000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 12,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "Vanquished Flow's Reticence",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
+                }
+              ]
+            }
+          ]
+        ],
+        "talentBase": [
+          {
+            "id": "116001",
+            "name": "Whimsy Wax",
+            "qty": 15,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+          },
+          {
+            "id": "116002",
+            "name": "Dreamweave Steel",
+            "qty": 18,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+          },
+          {
+            "id": "116003",
+            "name": "Lucid Awl",
+            "qty": 36,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+          },
+          {
+            "id": "241",
+            "name": "Tracks of Destiny",
+            "qty": 2,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+          },
+          {
+            "id": "110261",
+            "name": "The Fluffy Hand-drawn Storyboards",
+            "qty": 7,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110261.webp"
+          },
+          {
+            "id": "110262",
+            "name": "The Fluffy Serialization Memorial Issue",
+            "qty": 28,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
+          },
+          {
+            "id": "110263",
+            "name": "The Fluffy Collector's Edition",
+            "qty": 59,
+            "rar": 5,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+          },
+          {
+            "id": "110508",
+            "name": "Vanquished Flow's Reticence",
+            "qty": 3,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
+          }
+        ],
+        "talentBaseCost": 1260000,
+        "ascCost": 308000,
+        "talentCost": 3000000,
+        "currency": 3693000,
+        "weapon": {
+          "name": "When She Decided to See",
+          "icon": "../../Database/GameData/hsr/assets/lightcones/medium/23054.webp",
+          "art": "../../Database/GameData/hsr/assets/lightcones/full/23054.webp",
+          "path": "Elation",
+          "items": [
+            {
+              "id": "116001",
+              "name": "Whimsy Wax",
+              "qty": 20,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+            },
+            {
+              "id": "116002",
+              "name": "Dreamweave Steel",
+              "qty": 20,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+            },
+            {
+              "id": "116003",
+              "name": "Lucid Awl",
+              "qty": 14,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+            },
+            {
+              "id": "110261",
+              "name": "The Fluffy Hand-drawn Storyboards",
+              "qty": 4,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110261.webp"
+            },
+            {
+              "id": "110262",
+              "name": "The Fluffy Serialization Memorial Issue",
+              "qty": 12,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
+            },
+            {
+              "id": "110263",
+              "name": "The Fluffy Collector's Edition",
+              "qty": 15,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+            }
+          ],
+          "cost": 385000
+        }
+      },
+      "recent": 1
     },
     {
       "id": "hsr-gilgamesh",
@@ -16187,7 +16185,7 @@
       "slug": "gilgamesh",
       "release": 1784851200000,
       "releasePatch": "4.2",
-      "updated": 1780783200000,
+      "updated": 1780790400000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "|vaCN = https://zh.moegirl.org.cn/\u85e4\u65b0|Teng Xin (\u85e4\u65b0)",
@@ -16209,7 +16207,6 @@
         "id": "23062",
         "name": "I Am As You Behold",
         "path": "Destruction",
-        "type": "Destruction",
         "educated": false
       },
       "signatureWeaponId": "23062",
@@ -17572,30 +17569,6 @@
           "path": "Destruction",
           "items": [
             {
-              "id": "110281",
-              "name": "Four Phases, Crossing the River to Check the King",
-              "qty": 4,
-              "rar": 2,
-              "kind": "book",
-              "icon": "../../Database/GameData/hsr/assets/items/110281.webp"
-            },
-            {
-              "id": "110282",
-              "name": "Sixen, King-Rook Fork",
-              "qty": 12,
-              "rar": 3,
-              "kind": "book",
-              "icon": "../../Database/GameData/hsr/assets/items/110282.webp"
-            },
-            {
-              "id": "110283",
-              "name": "Omnicolor, Fool's Own",
-              "qty": 15,
-              "rar": 5,
-              "kind": "book",
-              "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
-            },
-            {
               "id": "111001",
               "name": "Extinguished Core",
               "qty": 20,
@@ -17618,6 +17591,30 @@
               "rar": 5,
               "kind": "mob",
               "icon": "../../Database/GameData/hsr/assets/items/111003.webp"
+            },
+            {
+              "id": "110281",
+              "name": "Four Phases, Crossing the River to Check the King",
+              "qty": 4,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110281.webp"
+            },
+            {
+              "id": "110282",
+              "name": "Sixen, King-Rook Fork",
+              "qty": 12,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110282.webp"
+            },
+            {
+              "id": "110283",
+              "name": "Omnicolor, Fool's Own",
+              "qty": 15,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
             }
           ],
           "cost": 385000
@@ -17637,7 +17634,7 @@
       "slug": "cerydra",
       "release": 1756803600000,
       "releasePatch": "3.5",
-      "updated": 1780524000000,
+      "updated": 1780531200000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm5966262|Rhiannon Moushall",
@@ -19012,7 +19009,7 @@
       "slug": "acheron",
       "release": 1711533600000,
       "releasePatch": "2.1",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm3265752|Allegra Clark",
@@ -20403,7 +20400,7 @@
       "slug": "aglaea",
       "release": 1738749600000,
       "releasePatch": "3.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm5098656|Morgan Laur\u00e9",
@@ -21837,7 +21834,7 @@
       "slug": "anaxa",
       "release": 1746003600000,
       "releasePatch": "3.2",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm8002676|Stephen Fu",
@@ -23222,7 +23219,7 @@
       "slug": "archer",
       "release": 1752224400000,
       "releasePatch": "3.4",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "|vaCN = https://zh.moegirl.org.cn/\u5434\u78ca|Wu Lei (\u5434\u78ca)",
@@ -24598,7 +24595,7 @@
       "slug": "argenti",
       "release": 1701856800000,
       "releasePatch": "1.5",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm8338757|Talon Warburton",
@@ -26052,7 +26049,7 @@
       "slug": "ashveil",
       "release": 1774432800000,
       "releasePatch": "4.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm10853569|Blythe Melin",
@@ -27431,7 +27428,7 @@
       "slug": "aventurine",
       "release": 1713344400000,
       "releasePatch": "2.1",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm8299400|Camden Sutkowski",
@@ -28811,7 +28808,7 @@
       "slug": "bailu",
       "release": 1682460000000,
       "releasePatch": "1.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm9149593|Su Ling Chan",
@@ -30192,7 +30189,7 @@
       "slug": "black-swan",
       "release": 1707213600000,
       "releasePatch": "2.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm5771189|Arryn Zech",
@@ -31578,7 +31575,7 @@
       "slug": "blade",
       "release": 1689757200000,
       "releasePatch": "1.2",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm5410860|Daman Mills",
@@ -33012,7 +33009,7 @@
       "slug": "boothill",
       "release": 1716973200000,
       "releasePatch": "2.2",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm7325686|Andrew Russell",
@@ -34439,7 +34436,7 @@
       "slug": "bronya",
       "release": 1682460000000,
       "releasePatch": "1.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm14682811|Madeline Reiter",
@@ -35819,7 +35816,7 @@
       "slug": "castorice",
       "release": 1744189200000,
       "releasePatch": "3.2",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm10969007|Melody Muze",
@@ -37267,7 +37264,7 @@
       "slug": "cipher",
       "release": 1749632400000,
       "releasePatch": "3.3",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm14096354|Shea Fairaday",
@@ -38645,7 +38642,7 @@
       "slug": "clara",
       "release": 1682460000000,
       "releasePatch": "1.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm13804083|Emily Sun",
@@ -40025,7 +40022,7 @@
       "slug": "cyrene",
       "release": 1762336800000,
       "releasePatch": "3.7",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm12899945|Aiden Dawn",
@@ -41465,7 +41462,7 @@
       "slug": "imbibitor-lunae",
       "release": 1693386000000,
       "releasePatch": "1.3",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm8855652|Nicholas Leung",
@@ -42994,7 +42991,7 @@
       "slug": "dan-heng-permansor-terrae",
       "release": 1760173200000,
       "releasePatch": "3.6",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm8855652|Nicholas Leung",
@@ -44373,7 +44370,7 @@
       "slug": "dr-ratio",
       "release": 1705485600000,
       "releasePatch": "1.6",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm8289381|Jordan Paul Haro",
@@ -45752,7 +45749,7 @@
       "slug": "feixiao",
       "release": 1725958800000,
       "releasePatch": "2.5",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm6657487|Anairis Qui\u00f1ones",
@@ -47274,7 +47271,7 @@
       "slug": "firefly",
       "release": 1718787600000,
       "releasePatch": "2.3",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm8418823|Analesa Fisher",
@@ -48768,7 +48765,7 @@
       "slug": "fu-xuan",
       "release": 1695200400000,
       "releasePatch": "1.3",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm6441957|Sarah Wiedenheft",
@@ -50149,7 +50146,7 @@
       "slug": "gepard",
       "release": 1682460000000,
       "releasePatch": "1.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm5236687|Bryson Baugus",
@@ -51529,7 +51526,7 @@
       "slug": "himeko",
       "release": 1682460000000,
       "releasePatch": "1.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm5947505|Cia Court",
@@ -52914,7 +52911,7 @@
       "slug": "huohuo",
       "release": 1700042400000,
       "releasePatch": "1.5",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm6741358|Megan Shipman",
@@ -54300,7 +54297,7 @@
       "slug": "hyacine",
       "release": 1747818000000,
       "releasePatch": "3.3",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm0247237|Holly Earl",
@@ -55684,7 +55681,7 @@
       "slug": "hysilens",
       "release": 1755075600000,
       "releasePatch": "3.5",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm1133857|Rosie Day",
@@ -57059,7 +57056,7 @@
       "slug": "jade",
       "release": 1720602000000,
       "releasePatch": "2.3",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm3788571|Faye Mata",
@@ -58437,7 +58434,7 @@
       "slug": "jiaoqiu",
       "release": 1724230800000,
       "releasePatch": "2.4",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm4008536|Mark Whitten",
@@ -59816,7 +59813,7 @@
       "slug": "jing-yuan",
       "release": 1684335600000,
       "releasePatch": "1.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm5260806|Alejandro Saab",
@@ -61201,7 +61198,7 @@
       "slug": "jingliu",
       "release": 1697014800000,
       "releasePatch": "1.4",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm1967053|AmaLee",
@@ -62648,7 +62645,7 @@
       "slug": "kafka",
       "release": 1689757200000,
       "releasePatch": "1.2",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm2303263|Cheryl Texiera",
@@ -64027,7 +64024,7 @@
       "slug": "lingsha",
       "release": 1727859600000,
       "releasePatch": "2.5",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm11326512|Whitney Holland",
@@ -65406,7 +65403,7 @@
       "slug": "luocha",
       "release": 1687942800000,
       "releasePatch": "1.1",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm3951343|Craig Lee Thomas",
@@ -66785,7 +66782,7 @@
       "title": "The Remembrance of None",
       "slug": "march-7th-evernight",
       "release": 1758790800000,
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Skyler Davenport",
@@ -68180,7 +68177,7 @@
       "slug": "mydei",
       "release": 1742378400000,
       "releasePatch": "3.1",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm3878276|Gabriel Warburton",
@@ -69694,7 +69691,7 @@
       "slug": "phainon",
       "release": 1751446800000,
       "releasePatch": "3.4",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm10853574|Joshua Waters",
@@ -71325,7 +71322,7 @@
       "slug": "rappa",
       "release": 1729674000000,
       "releasePatch": "2.6",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm9674561|Kendell Byrd",
@@ -72758,7 +72755,7 @@
       "slug": "rin-tohsaka",
       "release": 1784851200000,
       "releasePatch": "4.2",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "|vaCN = https://zh.moegirl.org.cn/\u6714\u5c0f\u5154|Shuo Xiaotu (\u6714\u5c0f\u5154)",
@@ -72780,7 +72777,6 @@
         "id": "23061",
         "name": "Flickering Stars",
         "path": "Erudition",
-        "type": "Erudition",
         "educated": false
       },
       "signatureWeaponId": "23061",
@@ -74207,30 +74203,6 @@
           "path": "Erudition",
           "items": [
             {
-              "id": "110291",
-              "name": "Celestial Globe",
-              "qty": 4,
-              "rar": 2,
-              "kind": "book",
-              "icon": "../../Database/GameData/hsr/assets/items/110291.webp"
-            },
-            {
-              "id": "110292",
-              "name": "Galaxy Framework",
-              "qty": 12,
-              "rar": 3,
-              "kind": "book",
-              "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
-            },
-            {
-              "id": "110293",
-              "name": "Cosmic Sandpit",
-              "qty": 15,
-              "rar": 5,
-              "kind": "book",
-              "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
-            },
-            {
               "id": "111011",
               "name": "Thief's Instinct",
               "qty": 20,
@@ -74253,6 +74225,30 @@
               "rar": 5,
               "kind": "mob",
               "icon": "../../Database/GameData/hsr/assets/items/111013.webp"
+            },
+            {
+              "id": "110291",
+              "name": "Celestial Globe",
+              "qty": 4,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110291.webp"
+            },
+            {
+              "id": "110292",
+              "name": "Galaxy Framework",
+              "qty": 12,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
+            },
+            {
+              "id": "110293",
+              "name": "Cosmic Sandpit",
+              "qty": 15,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
             }
           ],
           "cost": 385000
@@ -74272,7 +74268,7 @@
       "slug": "robin",
       "release": 1715158800000,
       "releasePatch": "2.2",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm12363730|Alice Himora",
@@ -75650,7 +75646,7 @@
       "slug": "ruan-mei",
       "release": 1703671200000,
       "releasePatch": "1.6",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Emi Lo",
@@ -77031,7 +77027,7 @@
       "slug": "saber",
       "release": 1752224400000,
       "releasePatch": "3.4",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "|vaCN = https://zh.moegirl.org.cn/\u767d\u677a\u74d2|Bai Xinzan (\u767d\u677a\u74d2)",
@@ -78460,7 +78456,7 @@
       "slug": "seele",
       "release": 1682460000000,
       "releasePatch": "1.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm10646355|Molly Zhang",
@@ -79840,7 +79836,7 @@
       "slug": "silver-wolf",
       "release": 1686128400000,
       "releasePatch": "1.1",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm0153100|Melissa Fahn",
@@ -81218,7 +81214,7 @@
       "title": "Godmode Player",
       "slug": "silver-wolf-lv-999",
       "release": 1776848400000,
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Melissa Fahn",
@@ -82733,7 +82729,7 @@
       "slug": "sparkle",
       "release": 1707213600000,
       "releasePatch": "2.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm5213242|Lizzie Freeman",
@@ -84112,7 +84108,7 @@
       "slug": "sparxie",
       "release": 1770976800000,
       "releasePatch": "4.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm5213242|Lizzie Freeman",
@@ -85612,7 +85608,7 @@
       "slug": "sunday",
       "release": 1733306400000,
       "releasePatch": "2.7",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm8427541|Griffin Puatu",
@@ -86999,7 +86995,7 @@
       "slug": "the-dahlia",
       "release": 1765101600000,
       "releasePatch": "3.8",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm2583829|Cristina Vee",
@@ -88377,7 +88373,7 @@
       "slug": "the-herta",
       "release": 1736935200000,
       "releasePatch": "3.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm3021642|PJ Mattson",
@@ -89822,7 +89818,7 @@
       "title": "The Long Voyage Home",
       "slug": "tingyun-fugue",
       "release": 1735120800000,
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Anya Floris",
@@ -91245,7 +91241,7 @@
       "slug": "topaz",
       "release": 1698483600000,
       "releasePatch": "1.4",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm7430885|Sam Slade",
@@ -92624,7 +92620,7 @@
       "title": "Chaos In the Deep",
       "slug": "trailblazer-destruction",
       "release": 1682460000000,
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Shaun Mendum",
@@ -94140,7 +94136,7 @@
           "title": "Chaos In the Deep",
           "slug": "trailblazer-destruction",
           "release": 1682460000000,
-          "updated": 1780178400000,
+          "updated": 1780185600000,
           "sourceOrder": 0,
           "voiceActors": {
             "english": "Shaun Mendum",
@@ -95651,7 +95647,7 @@
           "title": "The Return",
           "slug": "trailblazer-preservation",
           "release": 1682460000000,
-          "updated": 1780178400000,
+          "updated": 1780185600000,
           "sourceOrder": 0,
           "icon": "../../Database/GameData/hsr/assets/characters/round/8003.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/8003.webp",
@@ -97018,7 +97014,7 @@
           },
           "slug": "trailblazer-harmony",
           "release": 1715158800000,
-          "updated": 1780178400000,
+          "updated": 1780185600000,
           "sourceOrder": 0,
           "icon": "../../Database/GameData/hsr/assets/characters/round/8005.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/8005.webp",
@@ -98384,7 +98380,7 @@
           "title": "Night Veil, Shroud the Silent Past",
           "slug": "trailblazer-remembrance",
           "release": 1736935200000,
-          "updated": 1780178400000,
+          "updated": 1780185600000,
           "sourceOrder": 0,
           "icon": "../../Database/GameData/hsr/assets/characters/round/8007.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/8007.webp",
@@ -99800,7 +99796,7 @@
           "title": "Arcadia Revisited",
           "slug": "trailblazer-elation",
           "release": 1776848400000,
-          "updated": 1780178400000,
+          "updated": 1780185600000,
           "sourceOrder": 0,
           "icon": "../../Database/GameData/hsr/assets/characters/round/8009.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/8009.webp",
@@ -101239,7 +101235,7 @@
       "slug": "tribbie",
       "release": 1740564000000,
       "releasePatch": "3.1",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm6442425|Hayden Daviau",
@@ -102618,7 +102614,7 @@
       "slug": "welt",
       "release": 1682460000000,
       "releasePatch": "1.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm1813063|Corey Landis",
@@ -104001,7 +103997,7 @@
       "slug": "yanqing",
       "release": 1682460000000,
       "releasePatch": "1.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm6442558|Amber May",
@@ -105382,7 +105378,7 @@
       "slug": "yunli",
       "release": 1722416400000,
       "releasePatch": "2.4",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm7446036|Brenna Larsen",
@@ -106760,7 +106756,7 @@
       "slug": "arlan",
       "release": 1682460000000,
       "releasePatch": "1.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm8792229|Dani Chambers",
@@ -108111,7 +108107,7 @@
       "slug": "asta",
       "release": 1682460000000,
       "releasePatch": "1.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm5993940|Felecia Angelle",
@@ -109466,7 +109462,7 @@
       "slug": "dan-heng",
       "release": 1682460000000,
       "releasePatch": "1.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm8855652|Nicholas Leung",
@@ -110830,7 +110826,7 @@
       "slug": "gallagher",
       "release": 1711533600000,
       "releasePatch": "2.1",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm2819770|Erik Braa",
@@ -112230,7 +112226,7 @@
       "slug": "guinaifen",
       "release": 1698483600000,
       "releasePatch": "1.4",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm5098656|Morgan Laur\u00e9",
@@ -113582,7 +113578,7 @@
       "slug": "hanya",
       "release": 1701856800000,
       "releasePatch": "1.5",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm10931637|Suzie Yeung",
@@ -114941,7 +114937,7 @@
       "slug": "herta",
       "release": 1682460000000,
       "releasePatch": "1.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm3021642|PJ Mattson",
@@ -116292,7 +116288,7 @@
       "slug": "hook",
       "release": 1682460000000,
       "releasePatch": "1.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm5993940|Felecia Angelle",
@@ -117647,7 +117643,7 @@
       "slug": "luka",
       "release": 1689757200000,
       "releasePatch": "1.2",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Howard Wang",
@@ -119049,7 +119045,7 @@
       "slug": "lynx",
       "release": 1695200400000,
       "releasePatch": "1.3",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm10862160|Risa Mei",
@@ -120403,7 +120399,7 @@
       "slug": "march-7th",
       "release": 1682460000000,
       "releasePatch": "1.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Skyler Davenport",
@@ -121767,7 +121763,7 @@
       "slug": "march-7th-swordmaster",
       "release": 1722416400000,
       "releasePatch": "1.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Skyler Davenport",
@@ -123178,7 +123174,7 @@
       "slug": "misha",
       "release": 1709200800000,
       "releasePatch": "2.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm11767862|Cat Protano",
@@ -124534,7 +124530,7 @@
       "slug": "moze",
       "release": 1725958800000,
       "releasePatch": "2.5",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm9261313|Ben Balmaceda",
@@ -125894,7 +125890,7 @@
       "slug": "natasha",
       "release": 1682460000000,
       "releasePatch": "1.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm1752885|Elizabeth Maxwell",
@@ -127248,7 +127244,7 @@
       "slug": "pela",
       "release": 1682460000000,
       "releasePatch": "1.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm3125992|Xanthe Huynh",
@@ -128602,7 +128598,7 @@
       "slug": "qingque",
       "release": 1682460000000,
       "releasePatch": "1.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm6548466|Bryn Apprill",
@@ -130005,7 +130001,7 @@
       "slug": "sampo",
       "release": 1682460000000,
       "releasePatch": "1.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm0741648|Roger Rose",
@@ -131360,7 +131356,7 @@
       "slug": "serval",
       "release": 1682460000000,
       "releasePatch": "1.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm4630205|Natalie Van Sistine",
@@ -132714,7 +132710,7 @@
       "slug": "sushang",
       "release": 1682460000000,
       "releasePatch": "1.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm10698863|Anjali Kunapaneni",
@@ -134069,7 +134065,7 @@
       "slug": "tingyun",
       "release": 1682460000000,
       "releasePatch": "1.0",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm14824546|Anya Floris",
@@ -135420,7 +135416,7 @@
       "slug": "xueyi",
       "release": 1703671200000,
       "releasePatch": "1.6",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm7095498|Jenny Yokobori",
@@ -136771,7 +136767,7 @@
       "slug": "yukong",
       "release": 1687942800000,
       "releasePatch": "1.1",
-      "updated": 1780178400000,
+      "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm5261299|Dawn M. Bennett",

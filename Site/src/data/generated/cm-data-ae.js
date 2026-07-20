@@ -7583,6 +7583,17 @@
           "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkonyx"
         },
         {
+          "id": "ae:Protocolith",
+          "name": "Protocolith",
+          "n": "Protocolith",
+          "qty": 8,
+          "rar": 5,
+          "kind": "specialty",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/items/protocolith.png",
+          "source": "Rare Mining Sites, Dijiang Production: Growth Chamber, North Wuling Exclusion Zone",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Protocolith"
+        },
+        {
           "id": "ae:Umbronyx",
           "name": "Umbronyx",
           "n": "Umbronyx",
@@ -7743,6 +7754,17 @@
               "icon": "../../Database/EndfieldWiki/endfield/assets/items/heavy-cast-die.png",
               "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
               "sourceUrl": "https://endfield.wiki.gg/wiki/Heavy_Cast_Die"
+            },
+            {
+              "id": "ae:Protocolith",
+              "name": "Protocolith",
+              "n": "Protocolith",
+              "qty": 8,
+              "rar": 5,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/protocolith.png",
+              "source": "Rare Mining Sites, Dijiang Production: Growth Chamber, North Wuling Exclusion Zone",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Protocolith"
             },
             {
               "id": "ae:T-Creds",
@@ -19490,6 +19512,12 @@
       "icon": "../../Database/EndfieldWiki/endfield/assets/operators/arcane/icon.png",
       "art": "../../Database/EndfieldWiki/endfield/assets/operators/arcane/splash.png",
       "card": "../../Database/EndfieldWiki/endfield/assets/operators/arcane/banner.png",
+      "skillIcons": [
+        "../../Database/EndfieldWiki/endfield/skill-icons/Attack-Orbiter.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Skill-Arcane1.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Arcane1.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Arcane1.png"
+      ],
       "baseStats": {},
       "facts": {
         "faction": "Hongshan Academy of Sciences (HAS)",
@@ -19787,6 +19815,15 @@
           }
         ]
       },
+      "signatureWeapon": {
+        "id": "weapon:type-42-solemn-phalanx",
+        "name": "Type 42: Solemn Phalanx",
+        "path": "Arts Unit",
+        "type": "Arts Unit",
+        "educated": false
+      },
+      "signatureWeaponId": "weapon:type-42-solemn-phalanx",
+      "signatureWeaponName": "Type 42: Solemn Phalanx",
       "req": {
         "ascension": [
           {
@@ -19856,6 +19893,17 @@
             "sourceUrl": "https://endfield.wiki.gg/wiki/Ruby_Bolete"
           },
           {
+            "id": "ae:Talos_Cap",
+            "name": "Talos Cap",
+            "n": "Talos Cap",
+            "qty": 8,
+            "rar": 5,
+            "kind": "specialty",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/talos-cap.png",
+            "source": "Rare Gathering Sites, Dijiang Production: Growth Chamber, Yinglung Pass",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Talos_Cap"
+          },
+          {
             "id": "ae:T-Creds",
             "name": "T-Creds",
             "n": "T-Creds",
@@ -19889,6 +19937,17 @@
             "icon": "../../Database/EndfieldWiki/endfield/assets/items/chrysodendra.png",
             "source": "Area found: Originium Science Park, Rare Gathering Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
             "sourceUrl": "https://endfield.wiki.gg/wiki/Chrysodendra"
+          },
+          {
+            "id": "ae:Crimson_Spearleaf",
+            "name": "Crimson Spearleaf",
+            "n": "Crimson Spearleaf",
+            "qty": 84,
+            "rar": 5,
+            "kind": "specialty",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/crimson-spearleaf.png",
+            "source": "Rare Gathering Sites, Dijiang Production: Growth Chamber, North Wuling Exclusion Zone",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Crimson_Spearleaf"
           },
           {
             "id": "ae:Kalkodendra",
@@ -20106,6 +20165,17 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
                 "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+              },
+              {
+                "id": "ae:Talos_Cap",
+                "name": "Talos Cap",
+                "n": "Talos Cap",
+                "qty": 8,
+                "rar": 5,
+                "kind": "specialty",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/talos-cap.png",
+                "source": "Rare Gathering Sites, Dijiang Production: Growth Chamber, Yinglung Pass",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Talos_Cap"
               },
               {
                 "id": "ae:T-Creds",
@@ -20443,6 +20513,17 @@
                 "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               },
               {
+                "id": "ae:Crimson_Spearleaf",
+                "name": "Crimson Spearleaf",
+                "n": "Crimson Spearleaf",
+                "qty": 12,
+                "rar": 5,
+                "kind": "specialty",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/crimson-spearleaf.png",
+                "source": "Rare Gathering Sites, Dijiang Production: Growth Chamber, North Wuling Exclusion Zone",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Crimson_Spearleaf"
+              },
+              {
                 "id": "ae:Protohedron",
                 "name": "Protohedron",
                 "n": "Protohedron",
@@ -20503,6 +20584,17 @@
                 "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               },
               {
+                "id": "ae:Crimson_Spearleaf",
+                "name": "Crimson Spearleaf",
+                "n": "Crimson Spearleaf",
+                "qty": 24,
+                "rar": 5,
+                "kind": "specialty",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/crimson-spearleaf.png",
+                "source": "Rare Gathering Sites, Dijiang Production: Growth Chamber, North Wuling Exclusion Zone",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Crimson_Spearleaf"
+              },
+              {
                 "id": "ae:Protohedron",
                 "name": "Protohedron",
                 "n": "Protohedron",
@@ -20561,6 +20653,17 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
                 "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+              },
+              {
+                "id": "ae:Crimson_Spearleaf",
+                "name": "Crimson Spearleaf",
+                "n": "Crimson Spearleaf",
+                "qty": 48,
+                "rar": 5,
+                "kind": "specialty",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/crimson-spearleaf.png",
+                "source": "Rare Gathering Sites, Dijiang Production: Growth Chamber, North Wuling Exclusion Zone",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Crimson_Spearleaf"
               },
               {
                 "id": "ae:Protohedron",
@@ -20647,26 +20750,55 @@
         ],
         "ascCost": 0,
         "talentCost": 0,
-        "currency": 0
+        "currency": 0,
+        "weapon": {
+          "id": "weapon:type-42-solemn-phalanx",
+          "name": "Type 42: Solemn Phalanx",
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-75-73b494863a95.webp",
+          "art": "../../Database/Prydwen/endfield/assets/weapons/weapon-75-73b494863a95.webp",
+          "path": "Arts Unit",
+          "weaponType": "Arts Unit",
+          "type": "Arts Unit",
+          "items": [],
+          "cost": 0,
+          "educated": false
+        }
       },
       "aePreferredItems": [
         {
-          "id": "weapon:wulingexplorerschoice",
-          "name": "Wuling Explorer's Choice",
-          "n": "Wuling Explorer's Choice",
+          "id": "weapon:type-42-solemn-phalanx",
+          "name": "Type 42: Solemn Phalanx",
+          "n": "Type 42: Solemn Phalanx",
           "kind": "weapon",
-          "rar": 4,
-          "source": "Endfield database"
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-75-73b494863a95.webp",
+          "assetId": "73b494863a95",
+          "type": "Arts Unit",
+          "source": "Prydwen recommendation"
+        },
+        {
+          "id": "weapon:junction-point",
+          "name": "Junction Point",
+          "n": "Junction Point",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-73-a29f6215c847.webp",
+          "assetId": "a29f6215c847",
+          "type": "Arts Unit",
+          "source": "Prydwen recommendation"
         }
       ],
       "aeSkillItems": [
         {
-          "id": "weapon:wulingexplorerschoice",
-          "name": "Wuling Explorer's Choice",
-          "n": "Wuling Explorer's Choice",
-          "kind": "weapon",
+          "id": "gear:frontiers-fiber-gloves",
+          "name": "Frontiers Fiber Gloves",
+          "n": "Frontiers Fiber Gloves",
+          "kind": "gear",
           "rar": 4,
-          "source": "Endfield database"
+          "icon": "../../Database/Prydwen/endfield/assets/gear/gear-76-d9034544e721.webp",
+          "assetId": "d9034544e721",
+          "type": "Gloves",
+          "source": "Prydwen recommendation"
         }
       ],
       "aeStatItems": [],
@@ -23134,14 +23266,14 @@
       ],
       "aeSkillItems": [
         {
-          "id": "gear:eternal-xiranite-gloves-t1",
-          "name": "Eternal Xiranite Gloves T1",
-          "n": "Eternal Xiranite Gloves T1",
+          "id": "gear:eternal-xiranite-power-core",
+          "name": "Eternal Xiranite Power Core",
+          "n": "Eternal Xiranite Power Core",
           "kind": "gear",
           "rar": 4,
           "icon": "../../Database/Prydwen/endfield/assets/gear/gear-26-ae5d588d4460.webp",
           "assetId": "ae5d588d4460",
-          "type": "Gloves",
+          "type": "Kit",
           "source": "Prydwen recommendation"
         }
       ],
@@ -24393,14 +24525,14 @@
       ],
       "aeSkillItems": [
         {
-          "id": "gear:grizzled-edge-gauntlets-t1",
-          "name": "Grizzled Edge Gauntlets T1",
-          "n": "Grizzled Edge Gauntlets T1",
+          "id": "gear:grizzled-edge-push-knife-t1",
+          "name": "Grizzled Edge Push Knife T1",
+          "n": "Grizzled Edge Push Knife T1",
           "kind": "gear",
           "rar": 4,
           "icon": "../../Database/Prydwen/endfield/assets/gear/gear-34-80cdf126161f.webp",
           "assetId": "80cdf126161f",
-          "type": "Gloves",
+          "type": "Kit",
           "source": "Prydwen recommendation"
         }
       ],
@@ -33291,14 +33423,14 @@
       ],
       "aeSkillItems": [
         {
-          "id": "gear:pulser-labs-probe",
-          "name": "Pulser Labs Probe",
-          "n": "Pulser Labs Probe",
+          "id": "gear:qingbo-heavy-armor",
+          "name": "Qingbo Heavy Armor",
+          "n": "Qingbo Heavy Armor",
           "kind": "gear",
           "rar": 4,
           "icon": "../../Database/Prydwen/endfield/assets/gear/gear-61-34b2f54bc3ca.webp",
           "assetId": "34b2f54bc3ca",
-          "type": "Kit",
+          "type": "Armor",
           "source": "Prydwen recommendation"
         }
       ],
@@ -37151,9 +37283,9 @@
       ],
       "aeSkillItems": [
         {
-          "id": "gear:hot-work-power-cartridge",
-          "name": "Hot Work Power Cartridge",
-          "n": "Hot Work Power Cartridge",
+          "id": "gear:lynx-aegis-injector",
+          "name": "LYNX Aegis Injector",
+          "n": "LYNX Aegis Injector",
           "kind": "gear",
           "rar": 4,
           "icon": "../../Database/Prydwen/endfield/assets/gear/gear-92-371d63275c69.webp",
@@ -39722,14 +39854,14 @@
       ],
       "aeSkillItems": [
         {
-          "id": "gear:hot-work-gloves",
-          "name": "Hot Work Gloves",
-          "n": "Hot Work Gloves",
+          "id": "gear:hot-work-power-cartridge",
+          "name": "Hot Work Power Cartridge",
+          "n": "Hot Work Power Cartridge",
           "kind": "gear",
           "rar": 4,
           "icon": "../../Database/Prydwen/endfield/assets/gear/gear-42-da7a61fbb290.webp",
           "assetId": "da7a61fbb290",
-          "type": "Gloves",
+          "type": "Kit",
           "source": "Prydwen recommendation"
         }
       ],
@@ -42233,14 +42365,14 @@
       ],
       "aeSkillItems": [
         {
-          "id": "gear:eternal-xiranite-gloves-t1",
-          "name": "Eternal Xiranite Gloves T1",
-          "n": "Eternal Xiranite Gloves T1",
+          "id": "gear:eternal-xiranite-power-core",
+          "name": "Eternal Xiranite Power Core",
+          "n": "Eternal Xiranite Power Core",
           "kind": "gear",
           "rar": 4,
           "icon": "../../Database/Prydwen/endfield/assets/gear/gear-26-ae5d588d4460.webp",
           "assetId": "ae5d588d4460",
-          "type": "Gloves",
+          "type": "Kit",
           "source": "Prydwen recommendation"
         }
       ],
@@ -43513,14 +43645,14 @@
       ],
       "aeSkillItems": [
         {
-          "id": "gear:eternal-xiranite-armor",
-          "name": "Eternal Xiranite Armor",
-          "n": "Eternal Xiranite Armor",
+          "id": "gear:eternal-xiranite-hands",
+          "name": "Eternal Xiranite Hands",
+          "n": "Eternal Xiranite Hands",
           "kind": "gear",
           "rar": 4,
           "icon": "../../Database/Prydwen/endfield/assets/gear/gear-19-3bb18ad35648.webp",
           "assetId": "3bb18ad35648",
-          "type": "Armor",
+          "type": "Gloves",
           "source": "Prydwen recommendation"
         }
       ],
@@ -52270,13 +52402,13 @@
       ],
       "aeSkillItems": [
         {
-          "id": "gear:bonekrusha-poncho",
-          "name": "Bonekrusha Poncho",
-          "n": "Bonekrusha Poncho",
+          "id": "gear:bonekrusha-poncho-t1",
+          "name": "Bonekrusha Poncho T1",
+          "n": "Bonekrusha Poncho T1",
           "kind": "gear",
           "rar": 4,
-          "icon": "../../Database/Prydwen/endfield/assets/gear/gear-14-878ac8b93409.webp",
-          "assetId": "878ac8b93409",
+          "icon": "../../Database/Prydwen/endfield/assets/gear/gear-139-6b91c70d34fd.webp",
+          "assetId": "6b91c70d34fd",
           "type": "Armor",
           "source": "Prydwen recommendation"
         }
@@ -53485,9 +53617,9 @@
       ],
       "aeSkillItems": [
         {
-          "id": "gear:eternal-xiranite-power-core",
-          "name": "Eternal Xiranite Power Core",
-          "n": "Eternal Xiranite Power Core",
+          "id": "gear:eternal-xiranite-power-core-t1",
+          "name": "Eternal Xiranite Power Core T1",
+          "n": "Eternal Xiranite Power Core T1",
           "kind": "gear",
           "rar": 4,
           "icon": "../../Database/Prydwen/endfield/assets/gear/gear-106-755c2be029c8.webp",
@@ -54712,14 +54844,14 @@
       ],
       "aeSkillItems": [
         {
-          "id": "gear:bonekrusha-poncho-t1",
-          "name": "Bonekrusha Poncho T1",
-          "n": "Bonekrusha Poncho T1",
+          "id": "gear:bonekrusha-wristband",
+          "name": "Bonekrusha Wristband",
+          "n": "Bonekrusha Wristband",
           "kind": "gear",
           "rar": 4,
           "icon": "../../Database/Prydwen/endfield/assets/gear/gear-15-926e3820f36c.webp",
           "assetId": "926e3820f36c",
-          "type": "Armor",
+          "type": "Gloves",
           "source": "Prydwen recommendation"
         }
       ],
@@ -55997,14 +56129,14 @@
       ],
       "aeSkillItems": [
         {
-          "id": "gear:bonekrusha-poncho-t1",
-          "name": "Bonekrusha Poncho T1",
-          "n": "Bonekrusha Poncho T1",
+          "id": "gear:bonekrusha-wristband",
+          "name": "Bonekrusha Wristband",
+          "n": "Bonekrusha Wristband",
           "kind": "gear",
           "rar": 4,
           "icon": "../../Database/Prydwen/endfield/assets/gear/gear-15-926e3820f36c.webp",
           "assetId": "926e3820f36c",
-          "type": "Armor",
+          "type": "Gloves",
           "source": "Prydwen recommendation"
         }
       ],
@@ -59153,6 +59285,15 @@
         ]
       },
       {
+        "name": "Crimson Spearleaf",
+        "requirementFields": [
+          "talents"
+        ],
+        "characters": [
+          "Arcane"
+        ]
+      },
+      {
         "name": "Mark of Perseverance",
         "requirementFields": [
           "talents"
@@ -59446,6 +59587,15 @@
           "Xaihi",
           "Yvonne",
           "Zhuang Fangyi"
+        ]
+      },
+      {
+        "name": "Talos Cap",
+        "requirementFields": [
+          "ascension"
+        ],
+        "characters": [
+          "Arcane"
         ]
       }
     ]

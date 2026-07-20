@@ -402,11 +402,11 @@
   "54023": {
     "icon": "UI/Sprite/A1DynamicLoad/BangbooModGarage/UnPacker/BangbooRole/BangbooGarageRole48.png",
     "rank": 4,
-    "codename": "Ariel",
+    "codename": "アリエル",
     "en": "Ariel",
-    "desc": "Never walk alone in the land of None.",
-    "ko": "Bangboo_Name_54023",
-    "zh": "(Test1)艾瑞儿",
+    "desc": "You cannot walk alone in the darkness.",
+    "ko": "아리엘",
+    "zh": "艾瑞儿",
     "ja": "アリエル"
   },
   "55098": {
@@ -417,16 +417,6 @@
     "desc": "Eous",
     "ko": "이아스",
     "zh": "伊埃斯",
-    "ja": "イアス"
-  },
-  "57001": {
-    "icon": "",
-    "rank": 4,
-    "codename": "Eous",
-    "en": "Eous",
-    "desc": "Bangboo_Desc_57001",
-    "ko": "Bangboo_Name_57001",
-    "zh": "(Test1)伊埃斯",
     "ja": "イアス"
   }
 }

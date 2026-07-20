@@ -7,10 +7,10 @@
 (function(){
   window.CM_CFG_BETA = window.CM_CFG_BETA || {};
   window.CM_CFG_BETA["gi"] = {
-  "version": "6.7.52",
+  "version": "6.7.53",
   "liveVersion": "6.7",
   "newCount": 2,
-  "changedCount": 12,
+  "changedCount": 14,
   "roster": [
     {
       "id": "gi-10000133",
@@ -23,7 +23,7 @@
       "el": "Cryo",
       "w": "Claymore",
       "tag": "SNEZHNAYA STAR",
-      "release": 1782770400000,
+      "release": 1782777600000,
       "voiceActors": {
         "english": "imdb:nm3069800|Deneen Melody",
         "japanese": "Mariko Honda|Honda Mariko (\u672c\u591a\u771f\u68a8\u5b50)",
@@ -41,7 +41,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "6.7.52",
+        "version": "6.7.53",
         "sections": [
           {
             "title": "Talents",
@@ -49,7 +49,7 @@
               {
                 "name": "Formule Phenomenale: Self-Evident Proposition",
                 "type": "Talent",
-                "desc": "Normal Attack\\nGenerates threads that control her weapon using formulae, performing up to 3 consecutive strikes.\\n\\nCharged Attack\\nSummons the Facilitatrice Automatisee Generaliste Interactive et Omnitache, or \"Fagio,\" and switches it to Decoding mode: Unleashes a sweeping fire attack on enemies in front, as well as periodically fires condensed beams, dealing AoE Cryo DMG.\\nRadiance: Stellar Glimmer: The condensed beams will instead deal AoE Cryo DMG that is considered Stellar reaction DMG.\\nWhile in Decoding mode, Fagio's Decoding Power will continuously increase. Firing condensed beams will also further increase its Decoding Power.\\nWhen Fagio's Decoding Power reaches the maximum of 100 points, it switches to Power Overdrive mode, in which it fires at opponents with longer intervals, dealing Cryo DMG. It will be unable to switch to Decoding mode at this time.\\nWhen not in Decoding mode, Fagio's Decoding Power gradually decreases. When Sandrone is off-field, she will focus on maintaining Fagio, causing its Decoding Power to decrease at 300% the original rate.\\nFagio exits Power Overdrive mode when its Decoding Power has decreased to under 50.\\n\\nPlunging Attack\\nPlunges from midair to strike the ground below, dealing DMG to opponents along their path and causing AoE DMG on landing.",
+                "desc": "Normal Attack\\nGenerates threads that control her weapon using formulae, performing up to 3 consecutive strikes.\\n\\nCharged Attack\\nSummons the Facilitatrice Automatisee Generaliste Interactive et Omnitache, or \"Fagio,\" and switches it to Decoding mode: Unleashes a sweeping fire attack on enemies in front, as well as periodically fires condensed beams, dealing AoE Cryo DMG.\\nRadiance: Stellar Glimmer: The condensed beams will instead deal AoE Cryo DMG that is considered the corresponding Stellar Glimmer reaction DMG.\\nWhile in Decoding mode, Fagio's Decoding Power will continuously increase. Firing condensed beams will also further increase its Decoding Power.\\nWhen Fagio's Decoding Power reaches the maximum of 100 points, it switches to Power Overdrive mode, in which it fires at opponents with longer intervals, dealing Cryo DMG. It will be unable to switch to Decoding mode at this time.\\nWhen not in Decoding mode, Fagio's Decoding Power gradually decreases. When Sandrone is off-field, she will focus on maintaining Fagio, causing its Decoding Power to decrease at 300% the original rate.\\nFagio exits Power Overdrive mode when its Decoding Power has decreased to under 50.\\n\\nPlunging Attack\\nPlunges from midair to strike the ground below, dealing DMG to opponents along their path and causing AoE DMG on landing.",
                 "icon": "../../Database/GameData/gi/assets/skills/Skill_A_04.webp",
                 "scaling": [
                   {
@@ -279,7 +279,7 @@
               {
                 "name": "Formule Phenomenale: Differential Analysis",
                 "type": "Talent",
-                "desc": "With her impeccable, ladylike poise, Sandrone boards the Tea Party Tactical Assault Hovermech and hovers forward for 6s. During this time, Sandrone can control the travel direction of the craft. Pressing Sprint consumes 10 Stamina and launches her into an elegant high-speed hover mode, in which she will move even faster at the cost of 15 Stamina per second.\\n\\nWhen Sandrone starts hovering, if there are opponents nearby, she will also summon a Prismatic Resonance Cannon and fire 2 Prism Shots at any opponents who have yet to cool down, dealing Cryo DMG.\\nRadiance: Stellar Glimmer: The second Prism Shot will instead deal Cryo DMG that is considered Stellar reaction DMG.\\n\\nWhen on the Tea Party Tactical Assault Hovermech, Sandrone will also elegantly and quietly repair Fagio, causing Decoding Power to swiftly decrease.",
+                "desc": "With her impeccable, ladylike poise, Sandrone boards the Tea Party Tactical Assault Hovermech and hovers forward for 6s. During this time, Sandrone can control the travel direction of the craft. Pressing Sprint consumes 10 Stamina and launches her into an elegant high-speed hover mode, in which she will move even faster at the cost of 15 Stamina per second.\\n\\nWhen Sandrone starts hovering, if there are opponents nearby, she will also summon a Prismatic Resonance Cannon and fire 2 Prism Shots at any opponents who have yet to cool down, dealing Cryo DMG.\\nRadiance: Stellar Glimmer: The second Prism Shot will instead deal Cryo DMG that is considered the corresponding Stellar Glimmer reaction DMG.\\n\\nWhen on the Tea Party Tactical Assault Hovermech, Sandrone will also elegantly and quietly repair Fagio, causing Decoding Power to swiftly decrease.",
                 "icon": "../../Database/GameData/gi/assets/skills/Skill_S_MarionetteNew_01.webp",
                 "scaling": [
                   {
@@ -389,7 +389,7 @@
               {
                 "name": "Formule Phenomenale: Q.E.D.",
                 "type": "Talent",
-                "desc": "In line with established ladylike behavior, Sandrone summons a large number of Prismatic Resonance Cannons for a frontal bombardment before firing on her foes with a Convective Inhibition Ray, dealing AoE Cryo DMG.\\nRadiance: Stellar Glimmer: The Convective Inhibition Ray instead deals AoE Cryo DMG that is considered Stellar reaction DMG.",
+                "desc": "In line with established ladylike behavior, Sandrone summons a large number of Prismatic Resonance Cannons for a frontal bombardment before firing on her foes with a Convective Inhibition Ray, dealing AoE Cryo DMG.\\nRadiance: Stellar Glimmer: The Convective Inhibition Ray instead deals AoE Cryo DMG that is considered the corresponding Stellar Glimmer reaction DMG.",
                 "icon": "../../Database/GameData/gi/assets/skills/Skill_E_MarionetteNew_01.webp",
                 "scaling": [
                   {
@@ -554,7 +554,7 @@
               {
                 "name": "Light of Rationalisme",
                 "type": "Passive Talent",
-                "desc": "When party members trigger Superconduct or Cryo Swirl, it will be changed to a Stellar-Conduct or Stellar Swirl reaction, and party members' Base DMG for the aforementioned reactions will be increased based on Sandrone's ATK: Every 100 ATK she has increases the Base Stellar-Conduct or Stellar Swirl DMG by 0.7%. The maximum increase that can be gained this way is 14%.\\nAdditionally, when Sandrone is within a Polestar Field, she will enter the Radiance: Stellar-Conduct state.\\nSandrone will also enter the Radiance: Stellar Swirl state for 8s after triggering a Stellar Swirl reaction."
+                "desc": "Sandrone will enter the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state for 8s when she is inside a Polestar Field or when a nearby party member triggers a Stellar Swirl reaction respectively.\\nWhen a party member triggers a Superconduct or Cryo Swirl reaction, it becomes a Stellar-Conduct or Stellar Swirl reaction instead, and the Base DMG of said reaction is also increased by 0.7% for every 100 points of Sandrone's ATK. A maximum increase of 14% can be obtained in this way."
               },
               {
                 "name": "A Caucus Prelude and a Long Tale",
@@ -569,7 +569,7 @@
               {
                 "name": "Morrow After the Golden Dusk",
                 "type": "Constellation 1",
-                "desc": "When in Decoding mode, Fagio's Decoding Power increases at a 50% lower rate, and all party members deal 30% increased Stellar-Conduct and Stellar Swirl reaction DMG."
+                "desc": "When in Decoding mode, Fagio's Decoding Power increases at a 50% lower rate, and all party members deal 30% increased Stellar Glimmer reaction DMG."
               },
               {
                 "name": "An Heiress Gazed Into the Looking-Glass",
@@ -584,7 +584,7 @@
               {
                 "name": "In Knowledge Lies the World's True Ground",
                 "type": "Constellation 4",
-                "desc": "When Sandrone deals Stellar-Conduct or Stellar Swirl DMG to an opponent, she will also summon an extra Prismatic Resonance Cannon to fire off a coordinated attack which deals Cryo DMG at 125% and 187.5% of her ATK respectively. This DMG is considered Stellar-Conduct or Stellar Swirl reaction DMG, and the effect can occur once every 4s."
+                "desc": "When Sandrone deals Stellar-Conduct or Stellar Swirl DMG to an opponent, she will also summon an extra Prismatic Resonance Cannon to fire off a coordinated attack which deals Cryo DMG at 125% or 187.5% of her ATK, respectively. This DMG is considered the corresponding Stellar Glimmer reaction DMG, and the effect can occur once every 4s."
               },
               {
                 "name": "Of All Beside, She Takes No Part",
@@ -594,7 +594,7 @@
               {
                 "name": "Narcissus Wakes, Her Eyes Upon the Dawn",
                 "type": "Constellation 6",
-                "desc": "When Fagio fires a condensed beam for the third time while in Decoding mode, the beam becomes a more powerful Condensed Cluster Beam that fires continuously. This beam will deal up to 4 additional instances of AoE Cryo DMG at 100% of Sandrone's ATK on top of any subsequent original beam fired.\\nRadiance: Stellar-Conduct: The Condensed Cluster Beam will instead deal 4 additional instances of AoE Cryo DMG at 80% of Sandrone's ATK. This DMG is considered Stellar-Conduct DMG.\\nRadiance: Stellar Swirl: The condensed cluster beam deals AoE Cryo DMG of up to 4 strikes at 120% of Sandrone's ATK instead. This DMG is considered Stellar Swirl reaction DMG.\\nAdditionally, all Stellar-Conduct DMG dealt by Sandrone is elevated by 20%."
+                "desc": "When Fagio fires a condensed beam for the third time while in Decoding mode, the beam becomes a more powerful Condensed Cluster Beam that fires continuously. This beam will deal up to 4 additional instances of AoE Cryo DMG at 100% of Sandrone's ATK on top of any subsequent original beam fired.\\nRadiance: Stellar Glimmer: The Condensed Cluster Beam attack deals 4 additional instances of AoE Cryo DMG. The DMG dealt with this attack, which is considered the corresponding Stellar Glimmer reaction DMG, is equal to:\\nRadiance: Stellar-Conduct: 80% of Sandrone's ATK.\\nRadiance: Stellar Swirl: 120% of Sandrone's ATK.\\nAdditionally, all Stellar Glimmer reaction DMG dealt by Sandrone is elevated by 20%."
               }
             ]
           }
@@ -2728,7 +2728,7 @@
       "el": "Anemo",
       "w": "Catalyst",
       "tag": "MONDSTADT",
-      "release": 1779141600000,
+      "release": 1779148800000,
       "voiceActors": {
         "english": "imdb:nm12363730|Alice Himora",
         "japanese": "ja:\u9577\u6708\u3042\u304a\u3044|Nagatsuki Aoi (\u9577\u6708 \u3042\u304a\u3044)",
@@ -2746,7 +2746,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "6.7.52",
+        "version": "6.7.53",
         "sections": [
           {
             "title": "Talents",
@@ -3149,7 +3149,7 @@
               {
                 "name": "Verdict and Punishment",
                 "type": "Passive Talent",
-                "desc": "During the Elemental Burst The Bell Tolls! The Hunt Is On!, after the Witchlure Bell in Hunter-Seeker mode deals DMG to an opponent, if this DMG triggers Swirl or Stellar Swirl in an opponent, it will also summon a Banehunter Oathhammer that will deal 150% of Prune's ATK as DMG to them, with the DMG Type matching the Elemental Conversion from the Swirl. This DMG is considered Elemental Burst DMG."
+                "desc": "During the Elemental Burst The Bell Tolls! The Hunt Is On!, after the Witchlure Bell in Hunter-Seeker mode deals DMG to an opponent, if this DMG triggers Swirl or Stellar Swirl in an opponent, it will also summon a Banehunter Oathhammer that will deal 150% of Prune's ATK as DMG to them, with the DMG Type matching the Elemental Conversion from the Swirl or Stellar Swirl. This DMG is considered Elemental Burst DMG."
               },
               {
                 "name": "Tolling Synchronicity",
@@ -5333,7 +5333,7 @@
       "el": "Anemo",
       "w": "Claymore",
       "tag": "MONDSTADT",
-      "release": 1771887600000,
+      "release": 1771891200000,
       "voiceActors": {
         "english": "Joseph May",
         "japanese": "Tomokazu Sugita|Sugita Tomokazu (\u6749\u7530\u667a\u548c)",
@@ -5351,7 +5351,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "6.7.52",
+        "version": "6.7.53",
         "sections": [
           {
             "title": "Talents",
@@ -8157,7 +8157,7 @@
       "el": "Cryo",
       "w": "Sword",
       "tag": "OMNI SCOURGE",
-      "release": 1750111200000,
+      "release": 1750118400000,
       "releasePatch": "5.7",
       "voiceActors": {
         "english": "imdb:nm11767862|Cat Protano",
@@ -8179,7 +8179,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "6.7.52",
+        "version": "6.7.53",
         "sections": [
           {
             "title": "Talents",
@@ -10314,6 +10314,2619 @@
       "betaStatus": "changed"
     },
     {
+      "id": "gi-10000113",
+      "n": "Ifa",
+      "localizedNames": {
+        "en": "Ifa"
+      },
+      "title": "In the Wake of Wandering Winds",
+      "r": 4,
+      "el": "Anemo",
+      "w": "Catalyst",
+      "tag": "NATLAN",
+      "release": 1746489600000,
+      "releasePatch": "5.6",
+      "voiceActors": {
+        "english": "imdb:nm3637167|Jonny Loquasto",
+        "japanese": "Junta Terashima|Terashima Junta (\u5bfa\u5cf6\u60c7\u592a)",
+        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u5415\u4e66\u541b|Lu Shujun (\u5415\u4e66\u541b)",
+        "korean": "https://en.namu.wiki/w/\ubc15\uae30\uc6b1|Park Ki-wook (\ubc15\uae30\uc6b1)"
+      },
+      "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Ifa_Circle.webp",
+      "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Ifa.webp",
+      "birthdayArtPool": [
+        "../../Database/GenshinWiki/birthday-art/ifa/01-Ifa Birthday 2026.png"
+      ],
+      "namecard": "../../Database/GenshinWiki/namecards/Ifa.png",
+      "skillIcons": [
+        "../../Database/GameData/gi/assets/skills/Skill_A_Catalyst_MD.webp",
+        "../../Database/GameData/gi/assets/skills/Skill_S_Ifa_01.webp",
+        "../../Database/GameData/gi/assets/skills/Skill_E_Ifa_01.webp"
+      ],
+      "kit": {
+        "source": "Game data",
+        "channel": "beta",
+        "version": "6.7.53",
+        "sections": [
+          {
+            "title": "Talents",
+            "entries": [
+              {
+                "name": "Rite of Dispelling Winds",
+                "type": "Talent",
+                "desc": "Normal Attack\\nPerforms up to 3 attacks, dealing Anemo DMG.\\n\\nCharged Attack\\nConsumes a certain amount of Stamina and fires off a shot, dealing AoE Anemo DMG.\\n\\nPlunging Attack\\nPlunges towards the ground from mid-air, damaging all opponents along the path. Deals AoE Anemo DMG upon impact with the ground.",
+                "icon": "../../Database/GameData/gi/assets/skills/Skill_A_Catalyst_MD.webp",
+                "scaling": [
+                  {
+                    "title": "Talent Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15"
+                    ],
+                    "rows": [
+                      {
+                        "label": "1-Hit DMG",
+                        "values": [
+                          "53.6%",
+                          "57.6%",
+                          "61.6%",
+                          "67%",
+                          "71%",
+                          "75.1%",
+                          "80.4%",
+                          "85.8%",
+                          "91.1%",
+                          "96.5%",
+                          "101.9%",
+                          "107.2%",
+                          "113.9%",
+                          "120.6%",
+                          "127.3%"
+                        ]
+                      },
+                      {
+                        "label": "2-Hit DMG",
+                        "values": [
+                          "47.5%",
+                          "51%",
+                          "54.6%",
+                          "59.3%",
+                          "62.9%",
+                          "66.5%",
+                          "71.2%",
+                          "75.9%",
+                          "80.7%",
+                          "85.4%",
+                          "90.2%",
+                          "94.9%",
+                          "100.9%",
+                          "106.8%",
+                          "112.7%"
+                        ]
+                      },
+                      {
+                        "label": "3-Hit DMG",
+                        "values": [
+                          "74.8%",
+                          "80.4%",
+                          "86%",
+                          "93.4%",
+                          "99.1%",
+                          "104.7%",
+                          "112.1%",
+                          "119.6%",
+                          "127.1%",
+                          "134.6%",
+                          "142%",
+                          "149.5%",
+                          "158.9%",
+                          "168.2%",
+                          "177.6%"
+                        ]
+                      },
+                      {
+                        "label": "Charged Attack DMG",
+                        "values": [
+                          "147%",
+                          "158.1%",
+                          "169.1%",
+                          "183.8%",
+                          "194.8%",
+                          "205.9%",
+                          "220.6%",
+                          "235.3%",
+                          "250%",
+                          "264.7%",
+                          "279.4%",
+                          "294.1%",
+                          "312.5%",
+                          "330.8%",
+                          "349.2%"
+                        ]
+                      },
+                      {
+                        "label": "Charged Attack Stamina Cost",
+                        "values": [
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50",
+                          "50"
+                        ]
+                      },
+                      {
+                        "label": "Plunge DMG",
+                        "values": [
+                          "56.8%",
+                          "61.5%",
+                          "66.1%",
+                          "72.7%",
+                          "77.3%",
+                          "82.6%",
+                          "89.9%",
+                          "97.1%",
+                          "104.4%",
+                          "112.3%",
+                          "120.3%",
+                          "128.2%",
+                          "136.1%",
+                          "144.1%",
+                          "152%"
+                        ]
+                      },
+                      {
+                        "label": "Low/High Plunge DMG",
+                        "values": [
+                          "113.6%/141.9%",
+                          "122.9%/153.5%",
+                          "132.1%/165%",
+                          "145.3%/181.5%",
+                          "154.6%/193.1%",
+                          "165.2%/206.3%",
+                          "179.7%/224.5%",
+                          "194.2%/242.6%",
+                          "208.8%/260.8%",
+                          "224.6%/280.6%",
+                          "240.5%/300.4%",
+                          "256.3%/320.2%",
+                          "272.2%/340%",
+                          "288%/359.8%",
+                          "303.9%/379.6%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Airborne Disease Prevention",
+                "type": "Talent",
+                "desc": "It's time for the real bash bros to step up! Ifa calls Cacucu in as backup.\\nAfter using this skill, Ifa gains 80 Nightsoul points and enters the Nightsoul's Blessing state. In the Nightsoul's Blessing state, Ifa will hover with Cacucu's help. When he uses Normal Attacks in this state, he will use different kinds of Supporting Fire depending on whether you Tap or Hold, firing Tonicshots that are capable of healing all party members.\\n\\nAdditionally, Holding the Elemental Skill Airborne Disease Prevention while Ifa is in Nightsoul's Blessing will cause him to use a Nightsoul-aligned Plunging Attack. Letting go of the skill button will interrupt this Plunging Attack to maintain his hover. If Ifa lands due to this Plunging Attack, his Nightsoul's Blessing state will end.",
+                "icon": "../../Database/GameData/gi/assets/skills/Skill_S_Ifa_01.webp",
+                "scaling": [
+                  {
+                    "title": "Talent Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Tonicshot DMG",
+                        "values": [
+                          "133.4%",
+                          "143.4%",
+                          "153.4%",
+                          "166.7%",
+                          "176.7%",
+                          "186.7%",
+                          "200%",
+                          "213.4%",
+                          "226.7%",
+                          "240%",
+                          "253.4%",
+                          "266.7%",
+                          "283.4%",
+                          "300.1%",
+                          "316.7%"
+                        ]
+                      },
+                      {
+                        "label": "Tonicshot Healing On Hit",
+                        "values": [
+                          "20.2% Elemental Mastery+48.1",
+                          "21.7% Elemental Mastery+53",
+                          "23.2% Elemental Mastery+58.2",
+                          "25.2% Elemental Mastery+63.8",
+                          "26.7% Elemental Mastery+69.8",
+                          "28.2% Elemental Mastery+76.2",
+                          "30.2% Elemental Mastery+83.1",
+                          "32.3% Elemental Mastery+90.3",
+                          "34.3% Elemental Mastery+97.9",
+                          "36.3% Elemental Mastery+105.9",
+                          "38.3% Elemental Mastery+114.4",
+                          "40.3% Elemental Mastery+123.2",
+                          "42.8% Elemental Mastery+132.4",
+                          "45.4% Elemental Mastery+142.1",
+                          "47.9% Elemental Mastery+152.1"
+                        ]
+                      },
+                      {
+                        "label": "Nightsoul Point Limit",
+                        "values": [
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80",
+                          "80"
+                        ]
+                      },
+                      {
+                        "label": "CD",
+                        "values": [
+                          "7.5s",
+                          "7.5s",
+                          "7.5s",
+                          "7.5s",
+                          "7.5s",
+                          "7.5s",
+                          "7.5s",
+                          "7.5s",
+                          "7.5s",
+                          "7.5s",
+                          "7.5s",
+                          "7.5s",
+                          "7.5s",
+                          "7.5s",
+                          "7.5s"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Compound Sedation Field",
+                "type": "Talent",
+                "desc": "Fires a Therapeutic Sedative at a (temporarily aggressive) opponent. The sedative will explode on impact, creating a restraining wind current that pulls nearby objects and opponents in while dealing Nightsoul-aligned AoE Anemo DMG.\\nWhen the Therapeutic Sedative hits an opponent affected by Hydro/Pyro/Cryo/Electro, it will apply a Sedation Mark to them.",
+                "icon": "../../Database/GameData/gi/assets/skills/Skill_E_Ifa_01.webp",
+                "scaling": [
+                  {
+                    "title": "Talent Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Skill DMG",
+                        "values": [
+                          "508.5%",
+                          "546.6%",
+                          "584.8%",
+                          "635.6%",
+                          "673.7%",
+                          "711.9%",
+                          "762.7%",
+                          "813.6%",
+                          "864.4%",
+                          "915.3%",
+                          "966.1%",
+                          "1017%",
+                          "1080.5%",
+                          "1144.1%",
+                          "1207.6%"
+                        ]
+                      },
+                      {
+                        "label": "Sedation Mark DMG",
+                        "values": [
+                          "109%",
+                          "117.1%",
+                          "125.3%",
+                          "136.2%",
+                          "144.4%",
+                          "152.5%",
+                          "163.4%",
+                          "174.3%",
+                          "185.2%",
+                          "196.1%",
+                          "207%",
+                          "217.9%",
+                          "231.5%",
+                          "245.2%",
+                          "258.8%"
+                        ]
+                      },
+                      {
+                        "label": "CD",
+                        "values": [
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s",
+                          "15s"
+                        ]
+                      },
+                      {
+                        "label": "Energy Cost",
+                        "values": [
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60",
+                          "60"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Passive Talents",
+            "entries": [
+              {
+                "name": "Field Medic's Vision",
+                "type": "Passive Talent",
+                "desc": "When Ifa is in the Nightsoul's Blessing state, every 1 Nightsoul point out of the total in his entire party will grant him 1 Rescue Essentials point. Rescue Essentials will increase the Swirl, Stellar Swirl, Electro-Charged, and Lunar-Charged reaction DMG dealt by nearby party members."
+              },
+              {
+                "name": "Mutual Aid Agreement",
+                "type": "Passive Talent",
+                "desc": "When nearby party members trigger Nightsoul Bursts, Ifa's Elemental Mastery increases by 80 for 10s."
+              },
+              {
+                "name": "Night Realm's Gift: Focused Emergency Rescue",
+                "type": "Passive Talent",
+                "desc": "After his Nightsoul points are exhausted, Ifa will switch to consuming Phlogiston to maintain his Nightsoul's Blessing.\\nWhile in an area with Phlogiston Mechanics within Natlan, he can use Nightsoul Transmission: Ifa. When the active character is a certain height in the air, the following will occur when switching to Ifa: Ifa will enter the Nightsoul's Blessing state and gain 32 Nightsoul points. Nightsoul Transmission can be triggered once every 10s by your own team."
+              },
+              {
+                "name": "Tactical Warm Compress Bandaging",
+                "type": "Passive Talent",
+                "desc": "While in an area with Phlogiston Mechanics within Natlan, when the current active party member or indwelt saurian has less than 40% HP, Ifa will consume 10 Phlogiston and restore 40% of their HP. This effect can trigger once every 10s, and does not take effect in Domains, Trounce Domains, or the Spiral Abyss."
+              }
+            ]
+          },
+          {
+            "title": "Constellations",
+            "entries": [
+              {
+                "name": "Vitiferous Elixir's Concoction",
+                "type": "Constellation 1",
+                "desc": "When Supporting Fire hits an opponent, it will restore 6 Energy for Ifa. One such Energy restoration can be triggered once every 8s."
+              },
+              {
+                "name": "Guiding Spirit of Ballistic Prayer",
+                "type": "Constellation 2",
+                "desc": "When Ifa is in the Nightsoul's Blessing state, every Nightsoul point the party has above a total of 60 will grant Ifa 4 additional Rescue Essentials points.\\nAdditionally, Ifa's Rescue Essentials limit is increased by 50.\\nYou must first unlock the Ascension Talent Field Medic's Vision."
+              },
+              {
+                "name": "Rebuttal in Negotiations With the Night",
+                "type": "Constellation 3",
+                "desc": "Increases the Level of Airborne Disease Prevention by 3.\\nMaximum upgrade level is 15."
+              },
+              {
+                "name": "Decayed Vessel's Permutation",
+                "type": "Constellation 4",
+                "desc": "The restraining wind current created by the Elemental Burst Compound Sedation Field has its duration extended to 3s.\\nAdditionally, Ifa gains 100 Elemental Mastery for 15s after using his Elemental Burst Compound Sedation Field."
+              },
+              {
+                "name": "Vow of Universal Coexistence",
+                "type": "Constellation 5",
+                "desc": "Increases the Level of Compound Sedation Field by 3.\\nMaximum upgrade level is 15."
+              },
+              {
+                "name": "Oath on a Feathered Knot",
+                "type": "Constellation 6",
+                "desc": "When Ifa uses the Hold version of his Supporting Fire, there is a 50% chance that he will fire an additional Tonicshot that deals 120% of Ifa's ATK as Anemo DMG. This DMG is considered Normal Attack DMG.\\nAdditionally, when he is not in combat, Ifa will consume 20% less Nightsoul points and Phlogiston in his Nightsoul's Blessing state."
+              }
+            ]
+          }
+        ]
+      },
+      "baseStats": {
+        "level1": {
+          "hp": 845.23,
+          "atk": 14.96,
+          "def": 50.76,
+          "critRate": 0.05,
+          "critDmg": 0.5,
+          "elementalMastery": 0
+        },
+        "max": {
+          "level": 90,
+          "hp": 10081.05,
+          "atk": 178.41,
+          "def": 605.4,
+          "critRate": 0.05,
+          "critDmg": 0.5,
+          "elementalMastery": 96
+        }
+      },
+      "facts": {
+        "title": "In the Wake of Wandering Winds",
+        "affiliation": "Tlalocan",
+        "constellation": "Catena Opele",
+        "birthday": "March 23",
+        "nation": "Natlan"
+      },
+      "book": "Conflict",
+      "signatureWeapon": {
+        "id": "14518",
+        "name": "Sunny Morning Sleep-In",
+        "build": "Swirl Driver/Healer",
+        "educated": false
+      },
+      "signatureWeaponId": "14518",
+      "signatureWeaponName": "Sunny Morning Sleep-In",
+      "req": {
+        "ascension": [
+          {
+            "id": "104151",
+            "name": "Vayuda Turquoise Sliver",
+            "qty": 1,
+            "rar": 2,
+            "kind": "gem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104151.webp",
+            "sourceDetails": [
+              {
+                "name": "Anemo Hypostasis",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Effigy_Wind.webp"
+              },
+              {
+                "name": "Tenebrous Papilla: Type I",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_TheAbyss_Dendrite.webp"
+              },
+              {
+                "name": "Algorithm of Semi-Intransient Matrix of Overseer Network",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Monolith_Starchild.webp"
+              },
+              {
+                "name": "Maguu Kenki",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Samurai_Ningyo.webp"
+              },
+              {
+                "name": "Setekh Wenut",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Sandworm.webp"
+              },
+              {
+                "name": "Solitary Suanni",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Hermit.webp"
+              }
+            ]
+          },
+          {
+            "id": "104152",
+            "name": "Vayuda Turquoise Fragment",
+            "qty": 9,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104152.webp",
+            "sourceDetails": [
+              {
+                "name": "Anemo Hypostasis",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Effigy_Wind.webp"
+              },
+              {
+                "name": "Tenebrous Papilla: Type I",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_TheAbyss_Dendrite.webp"
+              },
+              {
+                "name": "Algorithm of Semi-Intransient Matrix of Overseer Network",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Monolith_Starchild.webp"
+              },
+              {
+                "name": "Maguu Kenki",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Samurai_Ningyo.webp"
+              },
+              {
+                "name": "Setekh Wenut",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Sandworm.webp"
+              },
+              {
+                "name": "Solitary Suanni",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Hermit.webp"
+              }
+            ]
+          },
+          {
+            "id": "104153",
+            "name": "Vayuda Turquoise Chunk",
+            "qty": 9,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104153.webp",
+            "sourceDetails": [
+              {
+                "name": "Anemo Hypostasis",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Effigy_Wind.webp"
+              },
+              {
+                "name": "Tenebrous Papilla: Type I",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_TheAbyss_Dendrite.webp"
+              },
+              {
+                "name": "Algorithm of Semi-Intransient Matrix of Overseer Network",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Monolith_Starchild.webp"
+              },
+              {
+                "name": "Maguu Kenki",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Samurai_Ningyo.webp"
+              },
+              {
+                "name": "Setekh Wenut",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Sandworm.webp"
+              },
+              {
+                "name": "Solitary Suanni",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Hermit.webp"
+              }
+            ]
+          },
+          {
+            "id": "104154",
+            "name": "Vayuda Turquoise Gemstone",
+            "qty": 6,
+            "rar": 5,
+            "kind": "gem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104154.webp",
+            "sourceDetails": [
+              {
+                "name": "Anemo Hypostasis",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Effigy_Wind.webp"
+              },
+              {
+                "name": "Tenebrous Papilla: Type I",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_TheAbyss_Dendrite.webp"
+              },
+              {
+                "name": "Algorithm of Semi-Intransient Matrix of Overseer Network",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Monolith_Starchild.webp"
+              },
+              {
+                "name": "Maguu Kenki",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Samurai_Ningyo.webp"
+              },
+              {
+                "name": "Setekh Wenut",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Sandworm.webp"
+              },
+              {
+                "name": "Solitary Suanni",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Hermit.webp"
+              }
+            ]
+          },
+          {
+            "id": "101250",
+            "name": "Saurian Claw Succulent",
+            "qty": 168,
+            "rar": 1,
+            "kind": "specialty",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101250.webp"
+          },
+          {
+            "id": "112101",
+            "name": "Juvenile Fang",
+            "qty": 18,
+            "rar": 1,
+            "kind": "mob",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112101.webp",
+            "sourceDetails": [
+              {
+                "name": "Tepetlisaur Whelp",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Small.webp"
+              },
+              {
+                "name": "Tepetlisaurus",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Normal.webp"
+              },
+              {
+                "name": "Koholasaur Whelp",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Small.webp"
+              },
+              {
+                "name": "Koholasaurus",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Normal.webp"
+              },
+              {
+                "name": "Yumkasaur Whelp",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Small.webp"
+              },
+              {
+                "name": "Yumkasaurus",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Normal.webp"
+              }
+            ]
+          },
+          {
+            "id": "113072",
+            "name": "Sparkless Statue Core",
+            "qty": 46,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113072.webp",
+            "sourceDetails": [
+              {
+                "name": "Lava Dragon Statue",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_LavaTitan.webp"
+              }
+            ]
+          },
+          {
+            "id": "112102",
+            "name": "Seasoned Fang",
+            "qty": 30,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112102.webp",
+            "sourceDetails": [
+              {
+                "name": "Tepetlisaur Whelp",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Small.webp"
+              },
+              {
+                "name": "Tepetlisaurus",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Normal.webp"
+              },
+              {
+                "name": "Koholasaur Whelp",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Small.webp"
+              },
+              {
+                "name": "Koholasaurus",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Normal.webp"
+              },
+              {
+                "name": "Yumkasaur Whelp",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Small.webp"
+              },
+              {
+                "name": "Yumkasaurus",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Normal.webp"
+              }
+            ]
+          },
+          {
+            "id": "112103",
+            "name": "Tyrant's Fang",
+            "qty": 36,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112103.webp",
+            "sourceDetails": [
+              {
+                "name": "Tepetlisaur Whelp",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Small.webp"
+              },
+              {
+                "name": "Tepetlisaurus",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Normal.webp"
+              },
+              {
+                "name": "Koholasaur Whelp",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Small.webp"
+              },
+              {
+                "name": "Koholasaurus",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Normal.webp"
+              },
+              {
+                "name": "Yumkasaur Whelp",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Small.webp"
+              },
+              {
+                "name": "Yumkasaurus",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Normal.webp"
+              }
+            ]
+          }
+        ],
+        "talents": [
+          {
+            "id": "112101",
+            "name": "Juvenile Fang",
+            "qty": 18,
+            "rar": 1,
+            "kind": "mob",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112101.webp",
+            "sourceDetails": [
+              {
+                "name": "Tepetlisaur Whelp",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Small.webp"
+              },
+              {
+                "name": "Tepetlisaurus",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Normal.webp"
+              },
+              {
+                "name": "Koholasaur Whelp",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Small.webp"
+              },
+              {
+                "name": "Koholasaurus",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Normal.webp"
+              },
+              {
+                "name": "Yumkasaur Whelp",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Small.webp"
+              },
+              {
+                "name": "Yumkasaurus",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Normal.webp"
+              }
+            ]
+          },
+          {
+            "id": "112102",
+            "name": "Seasoned Fang",
+            "qty": 66,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112102.webp",
+            "sourceDetails": [
+              {
+                "name": "Tepetlisaur Whelp",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Small.webp"
+              },
+              {
+                "name": "Tepetlisaurus",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Normal.webp"
+              },
+              {
+                "name": "Koholasaur Whelp",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Small.webp"
+              },
+              {
+                "name": "Koholasaurus",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Normal.webp"
+              },
+              {
+                "name": "Yumkasaur Whelp",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Small.webp"
+              },
+              {
+                "name": "Yumkasaurus",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Normal.webp"
+              }
+            ]
+          },
+          {
+            "id": "112103",
+            "name": "Tyrant's Fang",
+            "qty": 93,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112103.webp",
+            "sourceDetails": [
+              {
+                "name": "Tepetlisaur Whelp",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Small.webp"
+              },
+              {
+                "name": "Tepetlisaurus",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Normal.webp"
+              },
+              {
+                "name": "Koholasaur Whelp",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Small.webp"
+              },
+              {
+                "name": "Koholasaurus",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Normal.webp"
+              },
+              {
+                "name": "Yumkasaur Whelp",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Small.webp"
+              },
+              {
+                "name": "Yumkasaurus",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Normal.webp"
+              }
+            ]
+          },
+          {
+            "id": "104353",
+            "name": "Teachings of Conflict",
+            "qty": 9,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104353.webp",
+            "source": "Conflict - Natlan - Blazing Ruins",
+            "sourceDetails": [
+              {
+                "name": "Conflict - Natlan - Blazing Ruins"
+              }
+            ]
+          },
+          {
+            "id": "104354",
+            "name": "Guide to Conflict",
+            "qty": 63,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104354.webp",
+            "source": "Conflict - Natlan - Blazing Ruins",
+            "sourceDetails": [
+              {
+                "name": "Conflict - Natlan - Blazing Ruins"
+              }
+            ]
+          },
+          {
+            "id": "104355",
+            "name": "Philosophies of Conflict",
+            "qty": 114,
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104355.webp",
+            "source": "Conflict - Natlan - Blazing Ruins",
+            "sourceDetails": [
+              {
+                "name": "Conflict - Natlan - Blazing Ruins"
+              }
+            ]
+          },
+          {
+            "id": "113074",
+            "name": "Ascended Sample: Rook",
+            "qty": 18,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113074.webp",
+            "source": "The Game Before the Gate",
+            "sourceDetails": [
+              {
+                "name": "The Game Before the Gate",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_GiantChess.webp"
+              }
+            ]
+          },
+          {
+            "id": "104319",
+            "name": "Crown of Insight",
+            "qty": 3,
+            "rar": 5,
+            "kind": "crown",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104319.webp"
+          }
+        ],
+        "talentStages": [
+          [
+            {
+              "items": [
+                {
+                  "id": "112101",
+                  "name": "Juvenile Fang",
+                  "qty": 6,
+                  "rar": 1,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112101.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Tepetlisaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Small.webp"
+                    },
+                    {
+                      "name": "Tepetlisaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Normal.webp"
+                    },
+                    {
+                      "name": "Koholasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Small.webp"
+                    },
+                    {
+                      "name": "Koholasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Normal.webp"
+                    },
+                    {
+                      "name": "Yumkasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Small.webp"
+                    },
+                    {
+                      "name": "Yumkasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Normal.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104353",
+                  "name": "Teachings of Conflict",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104353.webp",
+                  "source": "Conflict - Natlan - Blazing Ruins",
+                  "sourceDetails": [
+                    {
+                      "name": "Conflict - Natlan - Blazing Ruins"
+                    }
+                  ]
+                }
+              ],
+              "cost": 12500
+            },
+            {
+              "items": [
+                {
+                  "id": "112102",
+                  "name": "Seasoned Fang",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112102.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Tepetlisaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Small.webp"
+                    },
+                    {
+                      "name": "Tepetlisaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Normal.webp"
+                    },
+                    {
+                      "name": "Koholasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Small.webp"
+                    },
+                    {
+                      "name": "Koholasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Normal.webp"
+                    },
+                    {
+                      "name": "Yumkasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Small.webp"
+                    },
+                    {
+                      "name": "Yumkasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Normal.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104354",
+                  "name": "Guide to Conflict",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104354.webp",
+                  "source": "Conflict - Natlan - Blazing Ruins",
+                  "sourceDetails": [
+                    {
+                      "name": "Conflict - Natlan - Blazing Ruins"
+                    }
+                  ]
+                }
+              ],
+              "cost": 17500
+            },
+            {
+              "items": [
+                {
+                  "id": "112102",
+                  "name": "Seasoned Fang",
+                  "qty": 4,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112102.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Tepetlisaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Small.webp"
+                    },
+                    {
+                      "name": "Tepetlisaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Normal.webp"
+                    },
+                    {
+                      "name": "Koholasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Small.webp"
+                    },
+                    {
+                      "name": "Koholasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Normal.webp"
+                    },
+                    {
+                      "name": "Yumkasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Small.webp"
+                    },
+                    {
+                      "name": "Yumkasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Normal.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104354",
+                  "name": "Guide to Conflict",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104354.webp",
+                  "source": "Conflict - Natlan - Blazing Ruins",
+                  "sourceDetails": [
+                    {
+                      "name": "Conflict - Natlan - Blazing Ruins"
+                    }
+                  ]
+                }
+              ],
+              "cost": 25000
+            },
+            {
+              "items": [
+                {
+                  "id": "112102",
+                  "name": "Seasoned Fang",
+                  "qty": 6,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112102.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Tepetlisaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Small.webp"
+                    },
+                    {
+                      "name": "Tepetlisaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Normal.webp"
+                    },
+                    {
+                      "name": "Koholasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Small.webp"
+                    },
+                    {
+                      "name": "Koholasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Normal.webp"
+                    },
+                    {
+                      "name": "Yumkasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Small.webp"
+                    },
+                    {
+                      "name": "Yumkasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Normal.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104354",
+                  "name": "Guide to Conflict",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104354.webp",
+                  "source": "Conflict - Natlan - Blazing Ruins",
+                  "sourceDetails": [
+                    {
+                      "name": "Conflict - Natlan - Blazing Ruins"
+                    }
+                  ]
+                }
+              ],
+              "cost": 30000
+            },
+            {
+              "items": [
+                {
+                  "id": "112102",
+                  "name": "Seasoned Fang",
+                  "qty": 9,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112102.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Tepetlisaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Small.webp"
+                    },
+                    {
+                      "name": "Tepetlisaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Normal.webp"
+                    },
+                    {
+                      "name": "Koholasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Small.webp"
+                    },
+                    {
+                      "name": "Koholasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Normal.webp"
+                    },
+                    {
+                      "name": "Yumkasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Small.webp"
+                    },
+                    {
+                      "name": "Yumkasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Normal.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104354",
+                  "name": "Guide to Conflict",
+                  "qty": 9,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104354.webp",
+                  "source": "Conflict - Natlan - Blazing Ruins",
+                  "sourceDetails": [
+                    {
+                      "name": "Conflict - Natlan - Blazing Ruins"
+                    }
+                  ]
+                }
+              ],
+              "cost": 37500
+            },
+            {
+              "items": [
+                {
+                  "id": "112103",
+                  "name": "Tyrant's Fang",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112103.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Tepetlisaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Small.webp"
+                    },
+                    {
+                      "name": "Tepetlisaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Normal.webp"
+                    },
+                    {
+                      "name": "Koholasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Small.webp"
+                    },
+                    {
+                      "name": "Koholasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Normal.webp"
+                    },
+                    {
+                      "name": "Yumkasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Small.webp"
+                    },
+                    {
+                      "name": "Yumkasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Normal.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104355",
+                  "name": "Philosophies of Conflict",
+                  "qty": 4,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104355.webp",
+                  "source": "Conflict - Natlan - Blazing Ruins",
+                  "sourceDetails": [
+                    {
+                      "name": "Conflict - Natlan - Blazing Ruins"
+                    }
+                  ]
+                },
+                {
+                  "id": "113074",
+                  "name": "Ascended Sample: Rook",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113074.webp",
+                  "source": "The Game Before the Gate",
+                  "sourceDetails": [
+                    {
+                      "name": "The Game Before the Gate",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_GiantChess.webp"
+                    }
+                  ]
+                }
+              ],
+              "cost": 120000
+            },
+            {
+              "items": [
+                {
+                  "id": "112103",
+                  "name": "Tyrant's Fang",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112103.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Tepetlisaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Small.webp"
+                    },
+                    {
+                      "name": "Tepetlisaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Normal.webp"
+                    },
+                    {
+                      "name": "Koholasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Small.webp"
+                    },
+                    {
+                      "name": "Koholasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Normal.webp"
+                    },
+                    {
+                      "name": "Yumkasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Small.webp"
+                    },
+                    {
+                      "name": "Yumkasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Normal.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104355",
+                  "name": "Philosophies of Conflict",
+                  "qty": 6,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104355.webp",
+                  "source": "Conflict - Natlan - Blazing Ruins",
+                  "sourceDetails": [
+                    {
+                      "name": "Conflict - Natlan - Blazing Ruins"
+                    }
+                  ]
+                },
+                {
+                  "id": "113074",
+                  "name": "Ascended Sample: Rook",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113074.webp",
+                  "source": "The Game Before the Gate",
+                  "sourceDetails": [
+                    {
+                      "name": "The Game Before the Gate",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_GiantChess.webp"
+                    }
+                  ]
+                }
+              ],
+              "cost": 260000
+            },
+            {
+              "items": [
+                {
+                  "id": "112103",
+                  "name": "Tyrant's Fang",
+                  "qty": 9,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112103.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Tepetlisaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Small.webp"
+                    },
+                    {
+                      "name": "Tepetlisaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Normal.webp"
+                    },
+                    {
+                      "name": "Koholasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Small.webp"
+                    },
+                    {
+                      "name": "Koholasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Normal.webp"
+                    },
+                    {
+                      "name": "Yumkasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Small.webp"
+                    },
+                    {
+                      "name": "Yumkasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Normal.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104355",
+                  "name": "Philosophies of Conflict",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104355.webp",
+                  "source": "Conflict - Natlan - Blazing Ruins",
+                  "sourceDetails": [
+                    {
+                      "name": "Conflict - Natlan - Blazing Ruins"
+                    }
+                  ]
+                },
+                {
+                  "id": "113074",
+                  "name": "Ascended Sample: Rook",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113074.webp",
+                  "source": "The Game Before the Gate",
+                  "sourceDetails": [
+                    {
+                      "name": "The Game Before the Gate",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_GiantChess.webp"
+                    }
+                  ]
+                }
+              ],
+              "cost": 450000
+            },
+            {
+              "items": [
+                {
+                  "id": "112103",
+                  "name": "Tyrant's Fang",
+                  "qty": 12,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112103.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Tepetlisaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Small.webp"
+                    },
+                    {
+                      "name": "Tepetlisaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Normal.webp"
+                    },
+                    {
+                      "name": "Koholasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Small.webp"
+                    },
+                    {
+                      "name": "Koholasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Normal.webp"
+                    },
+                    {
+                      "name": "Yumkasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Small.webp"
+                    },
+                    {
+                      "name": "Yumkasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Normal.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104355",
+                  "name": "Philosophies of Conflict",
+                  "qty": 16,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104355.webp",
+                  "source": "Conflict - Natlan - Blazing Ruins",
+                  "sourceDetails": [
+                    {
+                      "name": "Conflict - Natlan - Blazing Ruins"
+                    }
+                  ]
+                },
+                {
+                  "id": "113074",
+                  "name": "Ascended Sample: Rook",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113074.webp",
+                  "source": "The Game Before the Gate",
+                  "sourceDetails": [
+                    {
+                      "name": "The Game Before the Gate",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_GiantChess.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104319",
+                  "name": "Crown of Insight",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104319.webp"
+                }
+              ],
+              "cost": 700000
+            }
+          ],
+          [
+            {
+              "items": [
+                {
+                  "id": "112101",
+                  "name": "Juvenile Fang",
+                  "qty": 6,
+                  "rar": 1,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112101.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Tepetlisaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Small.webp"
+                    },
+                    {
+                      "name": "Tepetlisaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Normal.webp"
+                    },
+                    {
+                      "name": "Koholasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Small.webp"
+                    },
+                    {
+                      "name": "Koholasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Normal.webp"
+                    },
+                    {
+                      "name": "Yumkasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Small.webp"
+                    },
+                    {
+                      "name": "Yumkasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Normal.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104353",
+                  "name": "Teachings of Conflict",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104353.webp",
+                  "source": "Conflict - Natlan - Blazing Ruins",
+                  "sourceDetails": [
+                    {
+                      "name": "Conflict - Natlan - Blazing Ruins"
+                    }
+                  ]
+                }
+              ],
+              "cost": 12500
+            },
+            {
+              "items": [
+                {
+                  "id": "112102",
+                  "name": "Seasoned Fang",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112102.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Tepetlisaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Small.webp"
+                    },
+                    {
+                      "name": "Tepetlisaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Normal.webp"
+                    },
+                    {
+                      "name": "Koholasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Small.webp"
+                    },
+                    {
+                      "name": "Koholasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Normal.webp"
+                    },
+                    {
+                      "name": "Yumkasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Small.webp"
+                    },
+                    {
+                      "name": "Yumkasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Normal.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104354",
+                  "name": "Guide to Conflict",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104354.webp",
+                  "source": "Conflict - Natlan - Blazing Ruins",
+                  "sourceDetails": [
+                    {
+                      "name": "Conflict - Natlan - Blazing Ruins"
+                    }
+                  ]
+                }
+              ],
+              "cost": 17500
+            },
+            {
+              "items": [
+                {
+                  "id": "112102",
+                  "name": "Seasoned Fang",
+                  "qty": 4,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112102.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Tepetlisaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Small.webp"
+                    },
+                    {
+                      "name": "Tepetlisaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Normal.webp"
+                    },
+                    {
+                      "name": "Koholasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Small.webp"
+                    },
+                    {
+                      "name": "Koholasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Normal.webp"
+                    },
+                    {
+                      "name": "Yumkasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Small.webp"
+                    },
+                    {
+                      "name": "Yumkasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Normal.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104354",
+                  "name": "Guide to Conflict",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104354.webp",
+                  "source": "Conflict - Natlan - Blazing Ruins",
+                  "sourceDetails": [
+                    {
+                      "name": "Conflict - Natlan - Blazing Ruins"
+                    }
+                  ]
+                }
+              ],
+              "cost": 25000
+            },
+            {
+              "items": [
+                {
+                  "id": "112102",
+                  "name": "Seasoned Fang",
+                  "qty": 6,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112102.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Tepetlisaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Small.webp"
+                    },
+                    {
+                      "name": "Tepetlisaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Normal.webp"
+                    },
+                    {
+                      "name": "Koholasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Small.webp"
+                    },
+                    {
+                      "name": "Koholasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Normal.webp"
+                    },
+                    {
+                      "name": "Yumkasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Small.webp"
+                    },
+                    {
+                      "name": "Yumkasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Normal.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104354",
+                  "name": "Guide to Conflict",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104354.webp",
+                  "source": "Conflict - Natlan - Blazing Ruins",
+                  "sourceDetails": [
+                    {
+                      "name": "Conflict - Natlan - Blazing Ruins"
+                    }
+                  ]
+                }
+              ],
+              "cost": 30000
+            },
+            {
+              "items": [
+                {
+                  "id": "112102",
+                  "name": "Seasoned Fang",
+                  "qty": 9,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112102.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Tepetlisaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Small.webp"
+                    },
+                    {
+                      "name": "Tepetlisaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Normal.webp"
+                    },
+                    {
+                      "name": "Koholasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Small.webp"
+                    },
+                    {
+                      "name": "Koholasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Normal.webp"
+                    },
+                    {
+                      "name": "Yumkasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Small.webp"
+                    },
+                    {
+                      "name": "Yumkasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Normal.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104354",
+                  "name": "Guide to Conflict",
+                  "qty": 9,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104354.webp",
+                  "source": "Conflict - Natlan - Blazing Ruins",
+                  "sourceDetails": [
+                    {
+                      "name": "Conflict - Natlan - Blazing Ruins"
+                    }
+                  ]
+                }
+              ],
+              "cost": 37500
+            },
+            {
+              "items": [
+                {
+                  "id": "112103",
+                  "name": "Tyrant's Fang",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112103.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Tepetlisaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Small.webp"
+                    },
+                    {
+                      "name": "Tepetlisaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Normal.webp"
+                    },
+                    {
+                      "name": "Koholasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Small.webp"
+                    },
+                    {
+                      "name": "Koholasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Normal.webp"
+                    },
+                    {
+                      "name": "Yumkasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Small.webp"
+                    },
+                    {
+                      "name": "Yumkasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Normal.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104355",
+                  "name": "Philosophies of Conflict",
+                  "qty": 4,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104355.webp",
+                  "source": "Conflict - Natlan - Blazing Ruins",
+                  "sourceDetails": [
+                    {
+                      "name": "Conflict - Natlan - Blazing Ruins"
+                    }
+                  ]
+                },
+                {
+                  "id": "113074",
+                  "name": "Ascended Sample: Rook",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113074.webp",
+                  "source": "The Game Before the Gate",
+                  "sourceDetails": [
+                    {
+                      "name": "The Game Before the Gate",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_GiantChess.webp"
+                    }
+                  ]
+                }
+              ],
+              "cost": 120000
+            },
+            {
+              "items": [
+                {
+                  "id": "112103",
+                  "name": "Tyrant's Fang",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112103.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Tepetlisaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Small.webp"
+                    },
+                    {
+                      "name": "Tepetlisaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Normal.webp"
+                    },
+                    {
+                      "name": "Koholasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Small.webp"
+                    },
+                    {
+                      "name": "Koholasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Normal.webp"
+                    },
+                    {
+                      "name": "Yumkasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Small.webp"
+                    },
+                    {
+                      "name": "Yumkasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Normal.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104355",
+                  "name": "Philosophies of Conflict",
+                  "qty": 6,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104355.webp",
+                  "source": "Conflict - Natlan - Blazing Ruins",
+                  "sourceDetails": [
+                    {
+                      "name": "Conflict - Natlan - Blazing Ruins"
+                    }
+                  ]
+                },
+                {
+                  "id": "113074",
+                  "name": "Ascended Sample: Rook",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113074.webp",
+                  "source": "The Game Before the Gate",
+                  "sourceDetails": [
+                    {
+                      "name": "The Game Before the Gate",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_GiantChess.webp"
+                    }
+                  ]
+                }
+              ],
+              "cost": 260000
+            },
+            {
+              "items": [
+                {
+                  "id": "112103",
+                  "name": "Tyrant's Fang",
+                  "qty": 9,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112103.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Tepetlisaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Small.webp"
+                    },
+                    {
+                      "name": "Tepetlisaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Normal.webp"
+                    },
+                    {
+                      "name": "Koholasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Small.webp"
+                    },
+                    {
+                      "name": "Koholasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Normal.webp"
+                    },
+                    {
+                      "name": "Yumkasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Small.webp"
+                    },
+                    {
+                      "name": "Yumkasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Normal.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104355",
+                  "name": "Philosophies of Conflict",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104355.webp",
+                  "source": "Conflict - Natlan - Blazing Ruins",
+                  "sourceDetails": [
+                    {
+                      "name": "Conflict - Natlan - Blazing Ruins"
+                    }
+                  ]
+                },
+                {
+                  "id": "113074",
+                  "name": "Ascended Sample: Rook",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113074.webp",
+                  "source": "The Game Before the Gate",
+                  "sourceDetails": [
+                    {
+                      "name": "The Game Before the Gate",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_GiantChess.webp"
+                    }
+                  ]
+                }
+              ],
+              "cost": 450000
+            },
+            {
+              "items": [
+                {
+                  "id": "112103",
+                  "name": "Tyrant's Fang",
+                  "qty": 12,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112103.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Tepetlisaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Small.webp"
+                    },
+                    {
+                      "name": "Tepetlisaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Normal.webp"
+                    },
+                    {
+                      "name": "Koholasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Small.webp"
+                    },
+                    {
+                      "name": "Koholasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Normal.webp"
+                    },
+                    {
+                      "name": "Yumkasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Small.webp"
+                    },
+                    {
+                      "name": "Yumkasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Normal.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104355",
+                  "name": "Philosophies of Conflict",
+                  "qty": 16,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104355.webp",
+                  "source": "Conflict - Natlan - Blazing Ruins",
+                  "sourceDetails": [
+                    {
+                      "name": "Conflict - Natlan - Blazing Ruins"
+                    }
+                  ]
+                },
+                {
+                  "id": "113074",
+                  "name": "Ascended Sample: Rook",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113074.webp",
+                  "source": "The Game Before the Gate",
+                  "sourceDetails": [
+                    {
+                      "name": "The Game Before the Gate",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_GiantChess.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104319",
+                  "name": "Crown of Insight",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104319.webp"
+                }
+              ],
+              "cost": 700000
+            }
+          ],
+          [
+            {
+              "items": [
+                {
+                  "id": "112101",
+                  "name": "Juvenile Fang",
+                  "qty": 6,
+                  "rar": 1,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112101.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Tepetlisaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Small.webp"
+                    },
+                    {
+                      "name": "Tepetlisaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Normal.webp"
+                    },
+                    {
+                      "name": "Koholasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Small.webp"
+                    },
+                    {
+                      "name": "Koholasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Normal.webp"
+                    },
+                    {
+                      "name": "Yumkasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Small.webp"
+                    },
+                    {
+                      "name": "Yumkasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Normal.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104353",
+                  "name": "Teachings of Conflict",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104353.webp",
+                  "source": "Conflict - Natlan - Blazing Ruins",
+                  "sourceDetails": [
+                    {
+                      "name": "Conflict - Natlan - Blazing Ruins"
+                    }
+                  ]
+                }
+              ],
+              "cost": 12500
+            },
+            {
+              "items": [
+                {
+                  "id": "112102",
+                  "name": "Seasoned Fang",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112102.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Tepetlisaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Small.webp"
+                    },
+                    {
+                      "name": "Tepetlisaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Normal.webp"
+                    },
+                    {
+                      "name": "Koholasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Small.webp"
+                    },
+                    {
+                      "name": "Koholasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Normal.webp"
+                    },
+                    {
+                      "name": "Yumkasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Small.webp"
+                    },
+                    {
+                      "name": "Yumkasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Normal.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104354",
+                  "name": "Guide to Conflict",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104354.webp",
+                  "source": "Conflict - Natlan - Blazing Ruins",
+                  "sourceDetails": [
+                    {
+                      "name": "Conflict - Natlan - Blazing Ruins"
+                    }
+                  ]
+                }
+              ],
+              "cost": 17500
+            },
+            {
+              "items": [
+                {
+                  "id": "112102",
+                  "name": "Seasoned Fang",
+                  "qty": 4,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112102.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Tepetlisaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Small.webp"
+                    },
+                    {
+                      "name": "Tepetlisaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Normal.webp"
+                    },
+                    {
+                      "name": "Koholasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Small.webp"
+                    },
+                    {
+                      "name": "Koholasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Normal.webp"
+                    },
+                    {
+                      "name": "Yumkasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Small.webp"
+                    },
+                    {
+                      "name": "Yumkasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Normal.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104354",
+                  "name": "Guide to Conflict",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104354.webp",
+                  "source": "Conflict - Natlan - Blazing Ruins",
+                  "sourceDetails": [
+                    {
+                      "name": "Conflict - Natlan - Blazing Ruins"
+                    }
+                  ]
+                }
+              ],
+              "cost": 25000
+            },
+            {
+              "items": [
+                {
+                  "id": "112102",
+                  "name": "Seasoned Fang",
+                  "qty": 6,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112102.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Tepetlisaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Small.webp"
+                    },
+                    {
+                      "name": "Tepetlisaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Normal.webp"
+                    },
+                    {
+                      "name": "Koholasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Small.webp"
+                    },
+                    {
+                      "name": "Koholasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Normal.webp"
+                    },
+                    {
+                      "name": "Yumkasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Small.webp"
+                    },
+                    {
+                      "name": "Yumkasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Normal.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104354",
+                  "name": "Guide to Conflict",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104354.webp",
+                  "source": "Conflict - Natlan - Blazing Ruins",
+                  "sourceDetails": [
+                    {
+                      "name": "Conflict - Natlan - Blazing Ruins"
+                    }
+                  ]
+                }
+              ],
+              "cost": 30000
+            },
+            {
+              "items": [
+                {
+                  "id": "112102",
+                  "name": "Seasoned Fang",
+                  "qty": 9,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112102.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Tepetlisaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Small.webp"
+                    },
+                    {
+                      "name": "Tepetlisaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Normal.webp"
+                    },
+                    {
+                      "name": "Koholasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Small.webp"
+                    },
+                    {
+                      "name": "Koholasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Normal.webp"
+                    },
+                    {
+                      "name": "Yumkasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Small.webp"
+                    },
+                    {
+                      "name": "Yumkasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Normal.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104354",
+                  "name": "Guide to Conflict",
+                  "qty": 9,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104354.webp",
+                  "source": "Conflict - Natlan - Blazing Ruins",
+                  "sourceDetails": [
+                    {
+                      "name": "Conflict - Natlan - Blazing Ruins"
+                    }
+                  ]
+                }
+              ],
+              "cost": 37500
+            },
+            {
+              "items": [
+                {
+                  "id": "112103",
+                  "name": "Tyrant's Fang",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112103.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Tepetlisaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Small.webp"
+                    },
+                    {
+                      "name": "Tepetlisaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Normal.webp"
+                    },
+                    {
+                      "name": "Koholasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Small.webp"
+                    },
+                    {
+                      "name": "Koholasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Normal.webp"
+                    },
+                    {
+                      "name": "Yumkasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Small.webp"
+                    },
+                    {
+                      "name": "Yumkasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Normal.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104355",
+                  "name": "Philosophies of Conflict",
+                  "qty": 4,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104355.webp",
+                  "source": "Conflict - Natlan - Blazing Ruins",
+                  "sourceDetails": [
+                    {
+                      "name": "Conflict - Natlan - Blazing Ruins"
+                    }
+                  ]
+                },
+                {
+                  "id": "113074",
+                  "name": "Ascended Sample: Rook",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113074.webp",
+                  "source": "The Game Before the Gate",
+                  "sourceDetails": [
+                    {
+                      "name": "The Game Before the Gate",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_GiantChess.webp"
+                    }
+                  ]
+                }
+              ],
+              "cost": 120000
+            },
+            {
+              "items": [
+                {
+                  "id": "112103",
+                  "name": "Tyrant's Fang",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112103.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Tepetlisaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Small.webp"
+                    },
+                    {
+                      "name": "Tepetlisaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Normal.webp"
+                    },
+                    {
+                      "name": "Koholasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Small.webp"
+                    },
+                    {
+                      "name": "Koholasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Normal.webp"
+                    },
+                    {
+                      "name": "Yumkasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Small.webp"
+                    },
+                    {
+                      "name": "Yumkasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Normal.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104355",
+                  "name": "Philosophies of Conflict",
+                  "qty": 6,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104355.webp",
+                  "source": "Conflict - Natlan - Blazing Ruins",
+                  "sourceDetails": [
+                    {
+                      "name": "Conflict - Natlan - Blazing Ruins"
+                    }
+                  ]
+                },
+                {
+                  "id": "113074",
+                  "name": "Ascended Sample: Rook",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113074.webp",
+                  "source": "The Game Before the Gate",
+                  "sourceDetails": [
+                    {
+                      "name": "The Game Before the Gate",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_GiantChess.webp"
+                    }
+                  ]
+                }
+              ],
+              "cost": 260000
+            },
+            {
+              "items": [
+                {
+                  "id": "112103",
+                  "name": "Tyrant's Fang",
+                  "qty": 9,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112103.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Tepetlisaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Small.webp"
+                    },
+                    {
+                      "name": "Tepetlisaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Normal.webp"
+                    },
+                    {
+                      "name": "Koholasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Small.webp"
+                    },
+                    {
+                      "name": "Koholasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Normal.webp"
+                    },
+                    {
+                      "name": "Yumkasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Small.webp"
+                    },
+                    {
+                      "name": "Yumkasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Normal.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104355",
+                  "name": "Philosophies of Conflict",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104355.webp",
+                  "source": "Conflict - Natlan - Blazing Ruins",
+                  "sourceDetails": [
+                    {
+                      "name": "Conflict - Natlan - Blazing Ruins"
+                    }
+                  ]
+                },
+                {
+                  "id": "113074",
+                  "name": "Ascended Sample: Rook",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113074.webp",
+                  "source": "The Game Before the Gate",
+                  "sourceDetails": [
+                    {
+                      "name": "The Game Before the Gate",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_GiantChess.webp"
+                    }
+                  ]
+                }
+              ],
+              "cost": 450000
+            },
+            {
+              "items": [
+                {
+                  "id": "112103",
+                  "name": "Tyrant's Fang",
+                  "qty": 12,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112103.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Tepetlisaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Small.webp"
+                    },
+                    {
+                      "name": "Tepetlisaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Drillhead_Normal.webp"
+                    },
+                    {
+                      "name": "Koholasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Small.webp"
+                    },
+                    {
+                      "name": "Koholasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Mosasaurus_Normal.webp"
+                    },
+                    {
+                      "name": "Yumkasaur Whelp",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Small.webp"
+                    },
+                    {
+                      "name": "Yumkasaurus",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Natsaurus_Hookwalker_Normal.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104355",
+                  "name": "Philosophies of Conflict",
+                  "qty": 16,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104355.webp",
+                  "source": "Conflict - Natlan - Blazing Ruins",
+                  "sourceDetails": [
+                    {
+                      "name": "Conflict - Natlan - Blazing Ruins"
+                    }
+                  ]
+                },
+                {
+                  "id": "113074",
+                  "name": "Ascended Sample: Rook",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113074.webp",
+                  "source": "The Game Before the Gate",
+                  "sourceDetails": [
+                    {
+                      "name": "The Game Before the Gate",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_GiantChess.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104319",
+                  "name": "Crown of Insight",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104319.webp"
+                }
+              ],
+              "cost": 700000
+            }
+          ]
+        ],
+        "ascCost": 420000,
+        "talentCost": 4957500,
+        "currency": 5377500
+      },
+      "overviewArtPool": [
+        "../../Database/GameData/gi/gcg/character cards/assets/1515-Ifa.webp",
+        "../../Database/GameData/gi/gcg/other cards/assets/332050-Awesome_ Bro.webp"
+      ],
+      "overviewArt": "../../Database/GameData/gi/gcg/character cards/assets/1515-Ifa.webp",
+      "betaStatus": "changed"
+    },
+    {
       "id": "gi-10000109",
       "n": "Yumemizuki Mizuki",
       "localizedNames": {
@@ -10324,7 +12937,7 @@
       "el": "Anemo",
       "w": "Catalyst",
       "tag": "INAZUMA",
-      "release": 1739228400000,
+      "release": 1739232000000,
       "releasePatch": "5.4",
       "voiceActors": {
         "english": "imdb:nm1696370|Naomi McDonald",
@@ -10347,7 +12960,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "6.7.52",
+        "version": "6.7.53",
         "sections": [
           {
             "title": "Talents",
@@ -10525,7 +13138,7 @@
               {
                 "name": "Aisa Utamakura Pilgrimage",
                 "type": "Talent",
-                "desc": "Weaves memories of lovely dreams, entering a Dreamdrifter state where Yumemizuki Mizuki floats above the ground, and dealing 1 instance of AoE Anemo DMG to nearby opponents.\\n\\nDreamdrifter\\n\u00b7While in the Dreamdrifter state, Yumemizuki Mizuki will continuously drift forward, dealing AoE Anemo DMG to nearby opponents at regular intervals.\\n\u00b7During this time, Yumemizuki Mizuki can control her direction of drift, and the pick-up distance of Yumemi Style Special Snacks from the Elemental Burst Anraku Secret Spring Therapy will be increased.\\n\u00b7Increases the Swirl DMG that nearby party members deal based on Yumemizuki Mizuki's Elemental Mastery.\\n\u00b7Dreamdrifter will end when Mizuki leaves the field or uses her Elemental Skill again.\\n\\n\"Our dreams touch at midnight, their song ringing on in our hearts.\"",
+                "desc": "Weaves memories of lovely dreams, entering a Dreamdrifter state where Yumemizuki Mizuki floats above the ground, and dealing 1 instance of AoE Anemo DMG to nearby opponents.\\n\\nDreamdrifter\\n\u00b7While in the Dreamdrifter state, Yumemizuki Mizuki will continuously drift forward, dealing AoE Anemo DMG to nearby opponents at regular intervals.\\n\u00b7During this time, Yumemizuki Mizuki can control her direction of drift, and the pick-up distance of Yumemi Style Special Snacks from the Elemental Burst Anraku Secret Spring Therapy will be increased.\\n\u00b7Increases the Swirl DMG and Stellar Swirl reaction DMG that nearby party members deal based on Yumemizuki Mizuki's Elemental Mastery.\\n\u00b7Dreamdrifter will end when Mizuki leaves the field or uses her Elemental Skill again.\\n\\n\"Our dreams touch at midnight, their song ringing on in our hearts.\"",
                 "icon": "../../Database/GameData/gi/assets/skills/Skill_S_Mizuki_01.webp",
                 "scaling": [
                   {
@@ -10845,7 +13458,7 @@
               {
                 "name": "Vast Be the Dream",
                 "type": "Passive Talent",
-                "desc": "When Yumemizuki Mizuki triggers a Swirl reaction while in the Dreamdrifter state, the next instance of periodic AoE Anemo DMG she deals to nearby enemies during that same state will be increased by 1,000% of her Elemental Mastery. The aforementioned effect can trigger once every 2.5s.\\nRadiance: Stellar Swirl: A hit on an opponent by the aforementioned enhanced DMG will also trigger an additional instance of Anemo DMG at 1000% of her Elemental Mastery. This DMG is considered Stellar Swirl DMG.\\nWhile Yumemizuki Mizuki is in the Dreamdrifter state, the Elemental Mastery of nearby party characters is also increased by 10% of Yumemizuki Mizuki's Elemental Mastery.\\nYumemizuki Mizuki will also enter the Radiance: Stellar Swirl state for 8s after triggering a Stellar Swirl reaction."
+                "desc": "When Yumemizuki Mizuki triggers a Swirl or Stellar Swirl reaction while in the Dreamdrifter state, the next instance of periodic AoE Anemo DMG she deals to nearby enemies during that same state will be increased by 1,000% of her Elemental Mastery. The aforementioned effect can trigger once every 2.5s.\\nRadiance: Stellar Swirl: When Yumemizuki Mizuki deals to an opponent the above enhanced AoE Anemo DMG, she will also deal an additional instance of Anemo DMG at 1,000% of her Elemental Mastery. This DMG is considered Stellar Swirl reaction DMG.\\n\\nAdditionally, while Yumemizuki Mizuki is in the Dreamdrifter state, the Elemental Mastery of nearby party characters is also increased by 10% of her Elemental Mastery.\\nYumemizuki Mizuki will also enter the Radiance: Stellar Swirl state for 8s when a nearby party member triggers a Stellar Swirl reaction."
               }
             ]
           },
@@ -10855,7 +13468,7 @@
               {
                 "name": "In Mist-Like Waters",
                 "type": "Constellation 1",
-                "desc": "When Yumemizuki Mizuki is in the Dreamdrifter state, she will continuously apply the \"Twenty-Three Nights' Awaiting\" effect to nearby opponents for 3s every 3.5s. When an opponent affected by Anemo DMG triggers a Swirl or Stellar Swirl reaction while the aforementioned effect is active, the effect will be canceled and this Swirl or Stellar Swirl instance has its DMG against this opponent increased by 1,100%/550% of Mizuki's Elemental Mastery."
+                "desc": "When Yumemizuki Mizuki is in the Dreamdrifter state, she will continuously apply the \"Twenty-Three Nights' Awaiting\" effect to nearby opponents for 3s every 3.5s. When an opponent has a Swirl or Stellar Swirl reaction triggered against them by Anemo DMG while the aforementioned effect is active, the effect will be canceled, and this Swirl or Stellar Swirl instance deals DMG against this opponent increased by 1,100% and 550% of Mizuki's Elemental Mastery respectively."
               },
               {
                 "name": "Your Echo I Meet in Dreams",
@@ -10880,7 +13493,7 @@
               {
                 "name": "The Heart Lingers Long",
                 "type": "Constellation 6",
-                "desc": "While Yumemizuki Mizuki is in the Dreamdrifter state, Swirl DMG dealt by nearby party members can score CRIT Hits, with CRIT Rate fixed at 30%, and CRIT DMG fixed at 100%."
+                "desc": "While Yumemizuki Mizuki is in the Dreamdrifter state, Swirl reaction DMG dealt by nearby party members can score CRIT Hits, with CRIT Rate fixed at 30%, and CRIT DMG fixed at 100%. Any Stellar Swirl reaction DMG dealt by these characters will also have its CRIT Rate and CRIT DMG increased by 10% and 20% respectively."
               }
             ]
           }
@@ -12885,7 +15498,7 @@
       "el": "Cryo",
       "w": "Catalyst",
       "tag": "FONTAINE",
-      "release": 1697558400000,
+      "release": 1697565600000,
       "releasePatch": "4.1",
       "voiceActors": {
         "english": "Joe Zieja",
@@ -12911,7 +15524,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "6.7.52",
+        "version": "6.7.53",
         "sections": [
           {
             "title": "Talents",
@@ -14891,6 +17504,2680 @@
       "betaStatus": "changed"
     },
     {
+      "id": "gi-10000059",
+      "n": "Shikanoin Heizou",
+      "localizedNames": {
+        "en": "Shikanoin Heizou"
+      },
+      "title": "Analytical Harmony",
+      "r": 4,
+      "el": "Anemo",
+      "w": "Catalyst",
+      "tag": "INAZUMA",
+      "release": 1657670400000,
+      "releasePatch": "2.8",
+      "voiceActors": {
+        "english": "https://www.kieranregan.com/|Kieran Regan",
+        "japanese": "Y\u016bichi Iguchi|Iguchi Yuuichi (\u4e95\u53e3\u7950\u4e00)",
+        "chinese": "https://mzh.moegirl.org.cn/zh-hans/%E6%9E%97%E6%99%AF|Lin Jing (\u6797\u666f)",
+        "korean": "ko:\uc815\uc758\uc9c4|Jung Eui-jin (\uc815\uc758\uc9c4)"
+      },
+      "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Heizo_Circle.webp",
+      "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Heizo.webp",
+      "birthdayArtPool": [
+        "../../Database/GenshinWiki/birthday-art/shikanoinheizou/01-Shikanoin Heizou Birthday 2022.png",
+        "../../Database/GenshinWiki/birthday-art/shikanoinheizou/02-Shikanoin Heizou Birthday 2023.png",
+        "../../Database/GenshinWiki/birthday-art/shikanoinheizou/03-Shikanoin Heizou Birthday 2024.png",
+        "../../Database/GenshinWiki/birthday-art/shikanoinheizou/04-Shikanoin Heizou Birthday 2025.png",
+        "../../Database/GenshinWiki/birthday-art/shikanoinheizou/05-Shikanoin Heizou TPRGT 2022 - Aether.png",
+        "../../Database/GenshinWiki/birthday-art/shikanoinheizou/06-Shikanoin Heizou TPRGT 2022 - Lumine.png",
+        "../../Database/GenshinWiki/birthday-art/shikanoinheizou/07-Shikanoin Heizou TPRGT 2023 - Aether.png",
+        "../../Database/GenshinWiki/birthday-art/shikanoinheizou/08-Shikanoin Heizou TPRGT 2023 - Lumine.png"
+      ],
+      "namecard": "../../Database/GenshinWiki/namecards/Heizo.png",
+      "skillIcons": [
+        "../../Database/GameData/gi/assets/skills/Skill_A_Catalyst_MD.webp",
+        "../../Database/GameData/gi/assets/skills/Skill_S_Heizo_01.webp",
+        "../../Database/GameData/gi/assets/skills/Skill_E_Heizo_01.webp"
+      ],
+      "kit": {
+        "source": "Game data",
+        "channel": "beta",
+        "version": "6.7.53",
+        "sections": [
+          {
+            "title": "Talents",
+            "entries": [
+              {
+                "name": "Fudou Style Martial Arts",
+                "type": "Talent",
+                "desc": "Normal Attack\\nPerforms up to 5 fisticuffs empowered by a mighty wind, dealing Anemo DMG.\\n\\nCharged Attack\\nConsumes a certain amount of Stamina and performs a sweeping kick that deals Anemo DMG.\\n\\nPlunging Attack\\nCalling upon the surging wind, Heizou plunges towards the ground from mid-air, damaging all opponents in his path. Deals AoE Anemo DMG upon impact with the ground.",
+                "icon": "../../Database/GameData/gi/assets/skills/Skill_A_Catalyst_MD.webp",
+                "scaling": [
+                  {
+                    "title": "Talent Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15"
+                    ],
+                    "rows": [
+                      {
+                        "label": "1-Hit DMG",
+                        "values": [
+                          "37.5%",
+                          "40.3%",
+                          "43.1%",
+                          "46.8%",
+                          "49.7%",
+                          "52.5%",
+                          "56.2%",
+                          "60%",
+                          "63.7%",
+                          "67.5%",
+                          "71.2%",
+                          "74.9%",
+                          "79.6%",
+                          "84.3%",
+                          "89%"
+                        ]
+                      },
+                      {
+                        "label": "2-Hit DMG",
+                        "values": [
+                          "36.9%",
+                          "39.6%",
+                          "42.4%",
+                          "46.1%",
+                          "48.8%",
+                          "51.6%",
+                          "55.3%",
+                          "59%",
+                          "62.6%",
+                          "66.3%",
+                          "70%",
+                          "73.7%",
+                          "78.3%",
+                          "82.9%",
+                          "87.5%"
+                        ]
+                      },
+                      {
+                        "label": "3-Hit DMG",
+                        "values": [
+                          "51.1%",
+                          "54.9%",
+                          "58.7%",
+                          "63.8%",
+                          "67.7%",
+                          "71.5%",
+                          "76.6%",
+                          "81.7%",
+                          "86.8%",
+                          "91.9%",
+                          "97%",
+                          "102.1%",
+                          "108.5%",
+                          "114.9%",
+                          "121.3%"
+                        ]
+                      },
+                      {
+                        "label": "4-Hit DMG",
+                        "values": [
+                          "14.8%+16.3%+19.2%",
+                          "15.9%+17.5%+20.7%",
+                          "17%+18.7%+22.1%",
+                          "18.5%+20.3%+24%",
+                          "19.6%+21.5%+25.5%",
+                          "20.7%+22.8%+26.9%",
+                          "22.2%+24.4%+28.8%",
+                          "23.7%+26%+30.7%",
+                          "25.1%+27.6%+32.7%",
+                          "26.6%+29.3%+34.6%",
+                          "28.1%+30.9%+36.5%",
+                          "29.6%+32.5%+38.4%",
+                          "31.4%+34.6%+40.8%",
+                          "33.3%+36.6%+43.2%",
+                          "35.1%+38.6%+45.6%"
+                        ]
+                      },
+                      {
+                        "label": "5-Hit DMG",
+                        "values": [
+                          "61.4%",
+                          "66.1%",
+                          "70.7%",
+                          "76.8%",
+                          "81.4%",
+                          "86%",
+                          "92.2%",
+                          "98.3%",
+                          "104.5%",
+                          "110.6%",
+                          "116.8%",
+                          "122.9%",
+                          "130.6%",
+                          "138.3%",
+                          "145.9%"
+                        ]
+                      },
+                      {
+                        "label": "Charged Attack",
+                        "values": [
+                          "73%",
+                          "78.5%",
+                          "84%",
+                          "91.3%",
+                          "96.7%",
+                          "102.2%",
+                          "109.5%",
+                          "116.8%",
+                          "124.1%",
+                          "131.4%",
+                          "138.7%",
+                          "146%",
+                          "155.1%",
+                          "164.3%",
+                          "173.4%"
+                        ]
+                      },
+                      {
+                        "label": "Charged Attack Stamina Cost",
+                        "values": [
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25"
+                        ]
+                      },
+                      {
+                        "label": "Plunge DMG",
+                        "values": [
+                          "56.8%",
+                          "61.5%",
+                          "66.1%",
+                          "72.7%",
+                          "77.3%",
+                          "82.6%",
+                          "89.9%",
+                          "97.1%",
+                          "104.4%",
+                          "112.3%",
+                          "120.3%",
+                          "128.2%",
+                          "136.1%",
+                          "144.1%",
+                          "152%"
+                        ]
+                      },
+                      {
+                        "label": "Low/High Plunge DMG",
+                        "values": [
+                          "113.6%/141.9%",
+                          "122.9%/153.5%",
+                          "132.1%/165%",
+                          "145.3%/181.5%",
+                          "154.6%/193.1%",
+                          "165.2%/206.3%",
+                          "179.7%/224.5%",
+                          "194.2%/242.6%",
+                          "208.8%/260.8%",
+                          "224.6%/280.6%",
+                          "240.5%/300.4%",
+                          "256.3%/320.2%",
+                          "272.2%/340%",
+                          "288%/359.8%",
+                          "303.9%/379.6%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Heartstopper Strike",
+                "type": "Talent",
+                "desc": "Tap\\nWields the swift winds to launch a Heartstopper Strike that deals Anemo DMG.\\n\\nHold\\nCharges energy to unleash an even stronger blow. He will obtain the Declension effect while charging, which will increase the power of the Heartstopper Strike. When the skill button is released or the skill finishes charging, he will strike forward, dealing Anemo DMG.\\n\\nDeclension\\nIncreases the power of the next Heartstopper Strike. Max 4 stacks.\\nWhen you possess 4 Declension stacks, the Conviction effect will be produced, which will cause the next Heartstopper Strike to be even stronger and have a larger AoE.\\n\\nThis seemingly ordinary strike contains Heizou's desire for criminals to honestly confess and repent.",
+                "icon": "../../Database/GameData/gi/assets/skills/Skill_S_Heizo_01.webp",
+                "scaling": [
+                  {
+                    "title": "Talent Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Skill DMG",
+                        "values": [
+                          "227.5%",
+                          "244.6%",
+                          "261.6%",
+                          "284.4%",
+                          "301.5%",
+                          "318.5%",
+                          "341.3%",
+                          "364%",
+                          "386.8%",
+                          "409.5%",
+                          "432.3%",
+                          "455%",
+                          "483.5%",
+                          "511.9%",
+                          "540.4%"
+                        ]
+                      },
+                      {
+                        "label": "Declension DMG Bonus",
+                        "values": [
+                          "56.9%/stack",
+                          "61.1%/stack",
+                          "65.4%/stack",
+                          "71.1%/stack",
+                          "75.4%/stack",
+                          "79.6%/stack",
+                          "85.3%/stack",
+                          "91%/stack",
+                          "96.7%/stack",
+                          "102.4%/stack",
+                          "108.1%/stack",
+                          "113.8%/stack",
+                          "120.9%/stack",
+                          "128%/stack",
+                          "135.1%/stack"
+                        ]
+                      },
+                      {
+                        "label": "Conviction DMG Bonus",
+                        "values": [
+                          "113.8%",
+                          "122.3%",
+                          "130.8%",
+                          "142.2%",
+                          "150.7%",
+                          "159.3%",
+                          "170.6%",
+                          "182%",
+                          "193.4%",
+                          "204.8%",
+                          "216.1%",
+                          "227.5%",
+                          "241.7%",
+                          "256%",
+                          "270.2%"
+                        ]
+                      },
+                      {
+                        "label": "Declension Duration",
+                        "values": [
+                          "60s",
+                          "60s",
+                          "60s",
+                          "60s",
+                          "60s",
+                          "60s",
+                          "60s",
+                          "60s",
+                          "60s",
+                          "60s",
+                          "60s",
+                          "60s",
+                          "60s",
+                          "60s",
+                          "60s"
+                        ]
+                      },
+                      {
+                        "label": "CD",
+                        "values": [
+                          "10s",
+                          "10s",
+                          "10s",
+                          "10s",
+                          "10s",
+                          "10s",
+                          "10s",
+                          "10s",
+                          "10s",
+                          "10s",
+                          "10s",
+                          "10s",
+                          "10s",
+                          "10s",
+                          "10s"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Windmuster Kick",
+                "type": "Talent",
+                "desc": "Leaps into the air and uses the Fudou Style Vacuum Slugger and kicks his opponent. The Vacuum Slugger will explode upon hit and create an Arresting Windtunnel that pulls in nearby objects and opponents, dealing AoE Anemo DMG.\\nWhen Vacuum Slugger hits opponents affected by Hydro/Pyro/Cryo/Electro, these opponents will be afflicted with Windmuster Iris. This Windmuster Iris will explode after a moment and dissipate, dealing AoE DMG of the corresponding aforementioned elemental type.\\nVacuum Slugger can afflict a maximum of 4 opponents with the Windmuster Iris. A single opponent cannot be under the effect of Windmuster Irises of different elements at the same time.\\n\\nA unique technique that gathers Anemo in one place before unleashing it all in one kick. Is always there in a pinch to land on some criminal's fleeing back.",
+                "icon": "../../Database/GameData/gi/assets/skills/Skill_E_Heizo_01.webp",
+                "scaling": [
+                  {
+                    "title": "Talent Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Fudou Style Vacuum Slugger DMG",
+                        "values": [
+                          "314.7%",
+                          "338.3%",
+                          "361.9%",
+                          "393.4%",
+                          "417%",
+                          "440.6%",
+                          "472%",
+                          "503.5%",
+                          "535%",
+                          "566.4%",
+                          "597.9%",
+                          "629.4%",
+                          "668.7%",
+                          "708%",
+                          "747.4%"
+                        ]
+                      },
+                      {
+                        "label": "Windmuster Iris DMG",
+                        "values": [
+                          "21.5%",
+                          "23.1%",
+                          "24.7%",
+                          "26.8%",
+                          "28.4%",
+                          "30%",
+                          "32.2%",
+                          "34.3%",
+                          "36.5%",
+                          "38.6%",
+                          "40.8%",
+                          "42.9%",
+                          "45.6%",
+                          "48.3%",
+                          "51%"
+                        ]
+                      },
+                      {
+                        "label": "CD",
+                        "values": [
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s",
+                          "12s"
+                        ]
+                      },
+                      {
+                        "label": "Energy Cost",
+                        "values": [
+                          "40",
+                          "40",
+                          "40",
+                          "40",
+                          "40",
+                          "40",
+                          "40",
+                          "40",
+                          "40",
+                          "40",
+                          "40",
+                          "40",
+                          "40",
+                          "40",
+                          "40"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Passive Talents",
+            "entries": [
+              {
+                "name": "Paradoxical Practice",
+                "type": "Passive Talent",
+                "desc": "When Shikanoin Heizou activates a Swirl or Stellar Swirl reaction while on the field, he will gain 1 Declension stack for Heartstopper Strike. This effect can be triggered once every 0.1s."
+              },
+              {
+                "name": "Penetrative Reasoning",
+                "type": "Passive Talent",
+                "desc": "After Shikanoin Heizou's Heartstopper Strike hits an opponent, increases all party members' (excluding Shikanoin Heizou) Elemental Mastery by 80 for 10s."
+              },
+              {
+                "name": "Pre-Existing Guilt",
+                "type": "Passive Talent",
+                "desc": "Decreases sprinting Stamina consumption for your own party members by 20%.\\nNot stackable with Passive Talents that provide the exact same effects."
+              }
+            ]
+          },
+          {
+            "title": "Constellations",
+            "entries": [
+              {
+                "name": "Named Juvenile Casebook",
+                "type": "Constellation 1",
+                "desc": "For 5s after Shikanoin Heizou takes the field, his Normal Attack SPD is increased by 15%. He also gains 1 Declension stack for Heartstopper Strike. This effect can be triggered once every 10s."
+              },
+              {
+                "name": "Investigative Collection",
+                "type": "Constellation 2",
+                "desc": "The pull effect of the Arresting Windtunnel created by Windmuster Kick is enhanced, and its duration is increased to 1s."
+              },
+              {
+                "name": "Esoteric Puzzle Book",
+                "type": "Constellation 3",
+                "desc": "Increases the Level of Heartstopper Strike by 3.\\nMaximum upgrade level is 15."
+              },
+              {
+                "name": "Tome of Lies",
+                "type": "Constellation 4",
+                "desc": "The first Windmuster Iris explosion in each Windmuster Kick will regenerate 9 Elemental Energy for Shikanoin Heizou. Every subsequent explosion in that Windmuster Kick will each regenerate an additional 1.5 Energy for Heizou.\\nOne Windmuster Kick can regenerate a total of 13.5 Energy for Heizou in this manner."
+              },
+              {
+                "name": "Secret Archive",
+                "type": "Constellation 5",
+                "desc": "Increases the Level of Windmuster Kick by 3.\\nMaximum upgrade level is 15."
+              },
+              {
+                "name": "Curious Casefiles",
+                "type": "Constellation 6",
+                "desc": "Each Declension stack will increase the CRIT Rate of the Heartstopper Strike unleashed by 4%. When Heizou possesses Conviction, this Heartstopper Strike's CRIT DMG is increased by 32%."
+              }
+            ]
+          }
+        ]
+      },
+      "baseStats": {
+        "level1": {
+          "hp": 893.56,
+          "atk": 18.88,
+          "def": 57.34,
+          "critRate": 0.05,
+          "critDmg": 0.5,
+          "elementalMastery": 0
+        },
+        "max": {
+          "level": 90,
+          "hp": 10657.42,
+          "atk": 225.14,
+          "def": 683.89,
+          "critRate": 0.05,
+          "critDmg": 0.5,
+          "elementalMastery": 0
+        }
+      },
+      "facts": {
+        "title": "Analytical Harmony",
+        "affiliation": "Tenryou Commission",
+        "constellation": "Cervus Minor",
+        "birthday": "July 24",
+        "nation": "Inazuma"
+      },
+      "book": "Transience",
+      "signatureWeapon": {
+        "id": "14509",
+        "name": "Kagura's Verity",
+        "build": "Anemo Main DPS",
+        "educated": false
+      },
+      "signatureWeaponId": "14509",
+      "signatureWeaponName": "Kagura's Verity",
+      "req": {
+        "ascension": [
+          {
+            "id": "104151",
+            "name": "Vayuda Turquoise Sliver",
+            "qty": 1,
+            "rar": 2,
+            "kind": "gem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104151.webp",
+            "sourceDetails": [
+              {
+                "name": "Anemo Hypostasis",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Effigy_Wind.webp"
+              },
+              {
+                "name": "Tenebrous Papilla: Type I",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_TheAbyss_Dendrite.webp"
+              },
+              {
+                "name": "Algorithm of Semi-Intransient Matrix of Overseer Network",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Monolith_Starchild.webp"
+              },
+              {
+                "name": "Maguu Kenki",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Samurai_Ningyo.webp"
+              },
+              {
+                "name": "Setekh Wenut",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Sandworm.webp"
+              },
+              {
+                "name": "Solitary Suanni",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Hermit.webp"
+              }
+            ]
+          },
+          {
+            "id": "104152",
+            "name": "Vayuda Turquoise Fragment",
+            "qty": 9,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104152.webp",
+            "sourceDetails": [
+              {
+                "name": "Anemo Hypostasis",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Effigy_Wind.webp"
+              },
+              {
+                "name": "Tenebrous Papilla: Type I",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_TheAbyss_Dendrite.webp"
+              },
+              {
+                "name": "Algorithm of Semi-Intransient Matrix of Overseer Network",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Monolith_Starchild.webp"
+              },
+              {
+                "name": "Maguu Kenki",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Samurai_Ningyo.webp"
+              },
+              {
+                "name": "Setekh Wenut",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Sandworm.webp"
+              },
+              {
+                "name": "Solitary Suanni",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Hermit.webp"
+              }
+            ]
+          },
+          {
+            "id": "104153",
+            "name": "Vayuda Turquoise Chunk",
+            "qty": 9,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104153.webp",
+            "sourceDetails": [
+              {
+                "name": "Anemo Hypostasis",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Effigy_Wind.webp"
+              },
+              {
+                "name": "Tenebrous Papilla: Type I",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_TheAbyss_Dendrite.webp"
+              },
+              {
+                "name": "Algorithm of Semi-Intransient Matrix of Overseer Network",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Monolith_Starchild.webp"
+              },
+              {
+                "name": "Maguu Kenki",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Samurai_Ningyo.webp"
+              },
+              {
+                "name": "Setekh Wenut",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Sandworm.webp"
+              },
+              {
+                "name": "Solitary Suanni",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Hermit.webp"
+              }
+            ]
+          },
+          {
+            "id": "104154",
+            "name": "Vayuda Turquoise Gemstone",
+            "qty": 6,
+            "rar": 5,
+            "kind": "gem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104154.webp",
+            "sourceDetails": [
+              {
+                "name": "Anemo Hypostasis",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Effigy_Wind.webp"
+              },
+              {
+                "name": "Tenebrous Papilla: Type I",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_TheAbyss_Dendrite.webp"
+              },
+              {
+                "name": "Algorithm of Semi-Intransient Matrix of Overseer Network",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Monolith_Starchild.webp"
+              },
+              {
+                "name": "Maguu Kenki",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Samurai_Ningyo.webp"
+              },
+              {
+                "name": "Setekh Wenut",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Sandworm.webp"
+              },
+              {
+                "name": "Solitary Suanni",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Hermit.webp"
+              }
+            ]
+          },
+          {
+            "id": "101201",
+            "name": "Onikabuto",
+            "qty": 168,
+            "rar": 1,
+            "kind": "specialty",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101201.webp"
+          },
+          {
+            "id": "112035",
+            "name": "Treasure Hoarder Insignia",
+            "qty": 18,
+            "rar": 1,
+            "kind": "mob",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112035.webp",
+            "sourceDetails": [
+              {
+                "name": "Treasure Hoarders: Scout",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_01.webp"
+              },
+              {
+                "name": "Treasure Hoarders: Pyro Potioneer",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Fire_01.webp"
+              },
+              {
+                "name": "Treasure Hoarders: Hydro Potioneer",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Water_01.webp"
+              },
+              {
+                "name": "Treasure Hoarders: Electro Potioneer",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Electric_01.webp"
+              },
+              {
+                "name": "Treasure Hoarders: Cryo Potioneer",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Ice_01.webp"
+              },
+              {
+                "name": "Treasure Hoarders: Handyman",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_Fat_01.webp"
+              }
+            ]
+          },
+          {
+            "id": "113035",
+            "name": "Runic Fang",
+            "qty": 46,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113035.webp",
+            "sourceDetails": [
+              {
+                "name": "Ruin Serpent",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Nithhoggr_None.webp"
+              }
+            ]
+          },
+          {
+            "id": "112036",
+            "name": "Silver Raven Insignia",
+            "qty": 30,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112036.webp",
+            "sourceDetails": [
+              {
+                "name": "Treasure Hoarders: Scout",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_01.webp"
+              },
+              {
+                "name": "Treasure Hoarders: Pyro Potioneer",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Fire_01.webp"
+              },
+              {
+                "name": "Treasure Hoarders: Hydro Potioneer",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Water_01.webp"
+              },
+              {
+                "name": "Treasure Hoarders: Electro Potioneer",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Electric_01.webp"
+              },
+              {
+                "name": "Treasure Hoarders: Cryo Potioneer",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Ice_01.webp"
+              },
+              {
+                "name": "Treasure Hoarders: Handyman",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_Fat_01.webp"
+              }
+            ]
+          },
+          {
+            "id": "112037",
+            "name": "Golden Raven Insignia",
+            "qty": 36,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112037.webp",
+            "sourceDetails": [
+              {
+                "name": "Treasure Hoarders: Scout",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_01.webp"
+              },
+              {
+                "name": "Treasure Hoarders: Pyro Potioneer",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Fire_01.webp"
+              },
+              {
+                "name": "Treasure Hoarders: Hydro Potioneer",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Water_01.webp"
+              },
+              {
+                "name": "Treasure Hoarders: Electro Potioneer",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Electric_01.webp"
+              },
+              {
+                "name": "Treasure Hoarders: Cryo Potioneer",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Ice_01.webp"
+              },
+              {
+                "name": "Treasure Hoarders: Handyman",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_Fat_01.webp"
+              }
+            ]
+          }
+        ],
+        "talents": [
+          {
+            "id": "112035",
+            "name": "Treasure Hoarder Insignia",
+            "qty": 18,
+            "rar": 1,
+            "kind": "mob",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112035.webp",
+            "sourceDetails": [
+              {
+                "name": "Treasure Hoarders: Scout",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_01.webp"
+              },
+              {
+                "name": "Treasure Hoarders: Pyro Potioneer",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Fire_01.webp"
+              },
+              {
+                "name": "Treasure Hoarders: Hydro Potioneer",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Water_01.webp"
+              },
+              {
+                "name": "Treasure Hoarders: Electro Potioneer",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Electric_01.webp"
+              },
+              {
+                "name": "Treasure Hoarders: Cryo Potioneer",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Ice_01.webp"
+              },
+              {
+                "name": "Treasure Hoarders: Handyman",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_Fat_01.webp"
+              }
+            ]
+          },
+          {
+            "id": "112036",
+            "name": "Silver Raven Insignia",
+            "qty": 66,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112036.webp",
+            "sourceDetails": [
+              {
+                "name": "Treasure Hoarders: Scout",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_01.webp"
+              },
+              {
+                "name": "Treasure Hoarders: Pyro Potioneer",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Fire_01.webp"
+              },
+              {
+                "name": "Treasure Hoarders: Hydro Potioneer",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Water_01.webp"
+              },
+              {
+                "name": "Treasure Hoarders: Electro Potioneer",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Electric_01.webp"
+              },
+              {
+                "name": "Treasure Hoarders: Cryo Potioneer",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Ice_01.webp"
+              },
+              {
+                "name": "Treasure Hoarders: Handyman",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_Fat_01.webp"
+              }
+            ]
+          },
+          {
+            "id": "112037",
+            "name": "Golden Raven Insignia",
+            "qty": 93,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112037.webp",
+            "sourceDetails": [
+              {
+                "name": "Treasure Hoarders: Scout",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_01.webp"
+              },
+              {
+                "name": "Treasure Hoarders: Pyro Potioneer",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Fire_01.webp"
+              },
+              {
+                "name": "Treasure Hoarders: Hydro Potioneer",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Water_01.webp"
+              },
+              {
+                "name": "Treasure Hoarders: Electro Potioneer",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Electric_01.webp"
+              },
+              {
+                "name": "Treasure Hoarders: Cryo Potioneer",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Ice_01.webp"
+              },
+              {
+                "name": "Treasure Hoarders: Handyman",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_Fat_01.webp"
+              }
+            ]
+          },
+          {
+            "id": "104320",
+            "name": "Teachings of Transience",
+            "qty": 9,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104320.webp",
+            "source": "Transience - Inazuma - Violet Court",
+            "sourceDetails": [
+              {
+                "name": "Transience - Inazuma - Violet Court"
+              }
+            ]
+          },
+          {
+            "id": "104321",
+            "name": "Guide to Transience",
+            "qty": 63,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104321.webp",
+            "source": "Transience - Inazuma - Violet Court",
+            "sourceDetails": [
+              {
+                "name": "Transience - Inazuma - Violet Court"
+              }
+            ]
+          },
+          {
+            "id": "104322",
+            "name": "Philosophies of Transience",
+            "qty": 114,
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104322.webp",
+            "source": "Transience - Inazuma - Violet Court",
+            "sourceDetails": [
+              {
+                "name": "Transience - Inazuma - Violet Court"
+              }
+            ]
+          },
+          {
+            "id": "113034",
+            "name": "The Meaning of Aeons",
+            "qty": 18,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113034.webp",
+            "source": "Magatsu Mitake Narukami no Mikoto",
+            "sourceDetails": [
+              {
+                "name": "Magatsu Mitake Narukami no Mikoto",
+                "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Shougun_Mitakenarukami.webp"
+              }
+            ]
+          },
+          {
+            "id": "104319",
+            "name": "Crown of Insight",
+            "qty": 3,
+            "rar": 5,
+            "kind": "crown",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104319.webp"
+          }
+        ],
+        "talentStages": [
+          [
+            {
+              "items": [
+                {
+                  "id": "112035",
+                  "name": "Treasure Hoarder Insignia",
+                  "qty": 6,
+                  "rar": 1,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112035.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Treasure Hoarders: Scout",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Pyro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Fire_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Hydro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Water_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Electro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Electric_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Cryo Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Ice_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Handyman",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_Fat_01.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104320",
+                  "name": "Teachings of Transience",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104320.webp",
+                  "source": "Transience - Inazuma - Violet Court",
+                  "sourceDetails": [
+                    {
+                      "name": "Transience - Inazuma - Violet Court"
+                    }
+                  ]
+                }
+              ],
+              "cost": 12500
+            },
+            {
+              "items": [
+                {
+                  "id": "112036",
+                  "name": "Silver Raven Insignia",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112036.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Treasure Hoarders: Scout",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Pyro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Fire_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Hydro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Water_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Electro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Electric_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Cryo Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Ice_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Handyman",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_Fat_01.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104321",
+                  "name": "Guide to Transience",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104321.webp",
+                  "source": "Transience - Inazuma - Violet Court",
+                  "sourceDetails": [
+                    {
+                      "name": "Transience - Inazuma - Violet Court"
+                    }
+                  ]
+                }
+              ],
+              "cost": 17500
+            },
+            {
+              "items": [
+                {
+                  "id": "112036",
+                  "name": "Silver Raven Insignia",
+                  "qty": 4,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112036.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Treasure Hoarders: Scout",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Pyro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Fire_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Hydro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Water_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Electro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Electric_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Cryo Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Ice_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Handyman",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_Fat_01.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104321",
+                  "name": "Guide to Transience",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104321.webp",
+                  "source": "Transience - Inazuma - Violet Court",
+                  "sourceDetails": [
+                    {
+                      "name": "Transience - Inazuma - Violet Court"
+                    }
+                  ]
+                }
+              ],
+              "cost": 25000
+            },
+            {
+              "items": [
+                {
+                  "id": "112036",
+                  "name": "Silver Raven Insignia",
+                  "qty": 6,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112036.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Treasure Hoarders: Scout",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Pyro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Fire_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Hydro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Water_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Electro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Electric_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Cryo Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Ice_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Handyman",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_Fat_01.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104321",
+                  "name": "Guide to Transience",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104321.webp",
+                  "source": "Transience - Inazuma - Violet Court",
+                  "sourceDetails": [
+                    {
+                      "name": "Transience - Inazuma - Violet Court"
+                    }
+                  ]
+                }
+              ],
+              "cost": 30000
+            },
+            {
+              "items": [
+                {
+                  "id": "112036",
+                  "name": "Silver Raven Insignia",
+                  "qty": 9,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112036.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Treasure Hoarders: Scout",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Pyro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Fire_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Hydro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Water_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Electro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Electric_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Cryo Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Ice_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Handyman",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_Fat_01.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104321",
+                  "name": "Guide to Transience",
+                  "qty": 9,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104321.webp",
+                  "source": "Transience - Inazuma - Violet Court",
+                  "sourceDetails": [
+                    {
+                      "name": "Transience - Inazuma - Violet Court"
+                    }
+                  ]
+                }
+              ],
+              "cost": 37500
+            },
+            {
+              "items": [
+                {
+                  "id": "112037",
+                  "name": "Golden Raven Insignia",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112037.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Treasure Hoarders: Scout",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Pyro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Fire_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Hydro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Water_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Electro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Electric_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Cryo Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Ice_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Handyman",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_Fat_01.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104322",
+                  "name": "Philosophies of Transience",
+                  "qty": 4,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104322.webp",
+                  "source": "Transience - Inazuma - Violet Court",
+                  "sourceDetails": [
+                    {
+                      "name": "Transience - Inazuma - Violet Court"
+                    }
+                  ]
+                },
+                {
+                  "id": "113034",
+                  "name": "The Meaning of Aeons",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113034.webp",
+                  "source": "Magatsu Mitake Narukami no Mikoto",
+                  "sourceDetails": [
+                    {
+                      "name": "Magatsu Mitake Narukami no Mikoto",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Shougun_Mitakenarukami.webp"
+                    }
+                  ]
+                }
+              ],
+              "cost": 120000
+            },
+            {
+              "items": [
+                {
+                  "id": "112037",
+                  "name": "Golden Raven Insignia",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112037.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Treasure Hoarders: Scout",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Pyro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Fire_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Hydro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Water_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Electro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Electric_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Cryo Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Ice_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Handyman",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_Fat_01.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104322",
+                  "name": "Philosophies of Transience",
+                  "qty": 6,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104322.webp",
+                  "source": "Transience - Inazuma - Violet Court",
+                  "sourceDetails": [
+                    {
+                      "name": "Transience - Inazuma - Violet Court"
+                    }
+                  ]
+                },
+                {
+                  "id": "113034",
+                  "name": "The Meaning of Aeons",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113034.webp",
+                  "source": "Magatsu Mitake Narukami no Mikoto",
+                  "sourceDetails": [
+                    {
+                      "name": "Magatsu Mitake Narukami no Mikoto",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Shougun_Mitakenarukami.webp"
+                    }
+                  ]
+                }
+              ],
+              "cost": 260000
+            },
+            {
+              "items": [
+                {
+                  "id": "112037",
+                  "name": "Golden Raven Insignia",
+                  "qty": 9,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112037.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Treasure Hoarders: Scout",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Pyro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Fire_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Hydro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Water_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Electro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Electric_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Cryo Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Ice_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Handyman",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_Fat_01.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104322",
+                  "name": "Philosophies of Transience",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104322.webp",
+                  "source": "Transience - Inazuma - Violet Court",
+                  "sourceDetails": [
+                    {
+                      "name": "Transience - Inazuma - Violet Court"
+                    }
+                  ]
+                },
+                {
+                  "id": "113034",
+                  "name": "The Meaning of Aeons",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113034.webp",
+                  "source": "Magatsu Mitake Narukami no Mikoto",
+                  "sourceDetails": [
+                    {
+                      "name": "Magatsu Mitake Narukami no Mikoto",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Shougun_Mitakenarukami.webp"
+                    }
+                  ]
+                }
+              ],
+              "cost": 450000
+            },
+            {
+              "items": [
+                {
+                  "id": "112037",
+                  "name": "Golden Raven Insignia",
+                  "qty": 12,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112037.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Treasure Hoarders: Scout",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Pyro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Fire_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Hydro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Water_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Electro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Electric_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Cryo Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Ice_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Handyman",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_Fat_01.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104322",
+                  "name": "Philosophies of Transience",
+                  "qty": 16,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104322.webp",
+                  "source": "Transience - Inazuma - Violet Court",
+                  "sourceDetails": [
+                    {
+                      "name": "Transience - Inazuma - Violet Court"
+                    }
+                  ]
+                },
+                {
+                  "id": "113034",
+                  "name": "The Meaning of Aeons",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113034.webp",
+                  "source": "Magatsu Mitake Narukami no Mikoto",
+                  "sourceDetails": [
+                    {
+                      "name": "Magatsu Mitake Narukami no Mikoto",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Shougun_Mitakenarukami.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104319",
+                  "name": "Crown of Insight",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104319.webp"
+                }
+              ],
+              "cost": 700000
+            }
+          ],
+          [
+            {
+              "items": [
+                {
+                  "id": "112035",
+                  "name": "Treasure Hoarder Insignia",
+                  "qty": 6,
+                  "rar": 1,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112035.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Treasure Hoarders: Scout",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Pyro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Fire_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Hydro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Water_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Electro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Electric_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Cryo Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Ice_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Handyman",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_Fat_01.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104320",
+                  "name": "Teachings of Transience",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104320.webp",
+                  "source": "Transience - Inazuma - Violet Court",
+                  "sourceDetails": [
+                    {
+                      "name": "Transience - Inazuma - Violet Court"
+                    }
+                  ]
+                }
+              ],
+              "cost": 12500
+            },
+            {
+              "items": [
+                {
+                  "id": "112036",
+                  "name": "Silver Raven Insignia",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112036.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Treasure Hoarders: Scout",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Pyro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Fire_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Hydro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Water_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Electro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Electric_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Cryo Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Ice_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Handyman",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_Fat_01.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104321",
+                  "name": "Guide to Transience",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104321.webp",
+                  "source": "Transience - Inazuma - Violet Court",
+                  "sourceDetails": [
+                    {
+                      "name": "Transience - Inazuma - Violet Court"
+                    }
+                  ]
+                }
+              ],
+              "cost": 17500
+            },
+            {
+              "items": [
+                {
+                  "id": "112036",
+                  "name": "Silver Raven Insignia",
+                  "qty": 4,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112036.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Treasure Hoarders: Scout",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Pyro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Fire_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Hydro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Water_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Electro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Electric_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Cryo Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Ice_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Handyman",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_Fat_01.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104321",
+                  "name": "Guide to Transience",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104321.webp",
+                  "source": "Transience - Inazuma - Violet Court",
+                  "sourceDetails": [
+                    {
+                      "name": "Transience - Inazuma - Violet Court"
+                    }
+                  ]
+                }
+              ],
+              "cost": 25000
+            },
+            {
+              "items": [
+                {
+                  "id": "112036",
+                  "name": "Silver Raven Insignia",
+                  "qty": 6,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112036.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Treasure Hoarders: Scout",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Pyro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Fire_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Hydro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Water_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Electro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Electric_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Cryo Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Ice_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Handyman",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_Fat_01.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104321",
+                  "name": "Guide to Transience",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104321.webp",
+                  "source": "Transience - Inazuma - Violet Court",
+                  "sourceDetails": [
+                    {
+                      "name": "Transience - Inazuma - Violet Court"
+                    }
+                  ]
+                }
+              ],
+              "cost": 30000
+            },
+            {
+              "items": [
+                {
+                  "id": "112036",
+                  "name": "Silver Raven Insignia",
+                  "qty": 9,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112036.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Treasure Hoarders: Scout",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Pyro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Fire_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Hydro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Water_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Electro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Electric_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Cryo Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Ice_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Handyman",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_Fat_01.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104321",
+                  "name": "Guide to Transience",
+                  "qty": 9,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104321.webp",
+                  "source": "Transience - Inazuma - Violet Court",
+                  "sourceDetails": [
+                    {
+                      "name": "Transience - Inazuma - Violet Court"
+                    }
+                  ]
+                }
+              ],
+              "cost": 37500
+            },
+            {
+              "items": [
+                {
+                  "id": "112037",
+                  "name": "Golden Raven Insignia",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112037.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Treasure Hoarders: Scout",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Pyro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Fire_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Hydro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Water_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Electro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Electric_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Cryo Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Ice_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Handyman",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_Fat_01.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104322",
+                  "name": "Philosophies of Transience",
+                  "qty": 4,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104322.webp",
+                  "source": "Transience - Inazuma - Violet Court",
+                  "sourceDetails": [
+                    {
+                      "name": "Transience - Inazuma - Violet Court"
+                    }
+                  ]
+                },
+                {
+                  "id": "113034",
+                  "name": "The Meaning of Aeons",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113034.webp",
+                  "source": "Magatsu Mitake Narukami no Mikoto",
+                  "sourceDetails": [
+                    {
+                      "name": "Magatsu Mitake Narukami no Mikoto",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Shougun_Mitakenarukami.webp"
+                    }
+                  ]
+                }
+              ],
+              "cost": 120000
+            },
+            {
+              "items": [
+                {
+                  "id": "112037",
+                  "name": "Golden Raven Insignia",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112037.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Treasure Hoarders: Scout",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Pyro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Fire_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Hydro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Water_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Electro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Electric_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Cryo Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Ice_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Handyman",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_Fat_01.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104322",
+                  "name": "Philosophies of Transience",
+                  "qty": 6,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104322.webp",
+                  "source": "Transience - Inazuma - Violet Court",
+                  "sourceDetails": [
+                    {
+                      "name": "Transience - Inazuma - Violet Court"
+                    }
+                  ]
+                },
+                {
+                  "id": "113034",
+                  "name": "The Meaning of Aeons",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113034.webp",
+                  "source": "Magatsu Mitake Narukami no Mikoto",
+                  "sourceDetails": [
+                    {
+                      "name": "Magatsu Mitake Narukami no Mikoto",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Shougun_Mitakenarukami.webp"
+                    }
+                  ]
+                }
+              ],
+              "cost": 260000
+            },
+            {
+              "items": [
+                {
+                  "id": "112037",
+                  "name": "Golden Raven Insignia",
+                  "qty": 9,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112037.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Treasure Hoarders: Scout",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Pyro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Fire_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Hydro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Water_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Electro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Electric_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Cryo Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Ice_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Handyman",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_Fat_01.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104322",
+                  "name": "Philosophies of Transience",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104322.webp",
+                  "source": "Transience - Inazuma - Violet Court",
+                  "sourceDetails": [
+                    {
+                      "name": "Transience - Inazuma - Violet Court"
+                    }
+                  ]
+                },
+                {
+                  "id": "113034",
+                  "name": "The Meaning of Aeons",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113034.webp",
+                  "source": "Magatsu Mitake Narukami no Mikoto",
+                  "sourceDetails": [
+                    {
+                      "name": "Magatsu Mitake Narukami no Mikoto",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Shougun_Mitakenarukami.webp"
+                    }
+                  ]
+                }
+              ],
+              "cost": 450000
+            },
+            {
+              "items": [
+                {
+                  "id": "112037",
+                  "name": "Golden Raven Insignia",
+                  "qty": 12,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112037.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Treasure Hoarders: Scout",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Pyro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Fire_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Hydro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Water_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Electro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Electric_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Cryo Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Ice_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Handyman",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_Fat_01.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104322",
+                  "name": "Philosophies of Transience",
+                  "qty": 16,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104322.webp",
+                  "source": "Transience - Inazuma - Violet Court",
+                  "sourceDetails": [
+                    {
+                      "name": "Transience - Inazuma - Violet Court"
+                    }
+                  ]
+                },
+                {
+                  "id": "113034",
+                  "name": "The Meaning of Aeons",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113034.webp",
+                  "source": "Magatsu Mitake Narukami no Mikoto",
+                  "sourceDetails": [
+                    {
+                      "name": "Magatsu Mitake Narukami no Mikoto",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Shougun_Mitakenarukami.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104319",
+                  "name": "Crown of Insight",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104319.webp"
+                }
+              ],
+              "cost": 700000
+            }
+          ],
+          [
+            {
+              "items": [
+                {
+                  "id": "112035",
+                  "name": "Treasure Hoarder Insignia",
+                  "qty": 6,
+                  "rar": 1,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112035.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Treasure Hoarders: Scout",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Pyro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Fire_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Hydro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Water_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Electro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Electric_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Cryo Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Ice_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Handyman",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_Fat_01.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104320",
+                  "name": "Teachings of Transience",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104320.webp",
+                  "source": "Transience - Inazuma - Violet Court",
+                  "sourceDetails": [
+                    {
+                      "name": "Transience - Inazuma - Violet Court"
+                    }
+                  ]
+                }
+              ],
+              "cost": 12500
+            },
+            {
+              "items": [
+                {
+                  "id": "112036",
+                  "name": "Silver Raven Insignia",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112036.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Treasure Hoarders: Scout",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Pyro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Fire_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Hydro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Water_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Electro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Electric_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Cryo Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Ice_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Handyman",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_Fat_01.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104321",
+                  "name": "Guide to Transience",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104321.webp",
+                  "source": "Transience - Inazuma - Violet Court",
+                  "sourceDetails": [
+                    {
+                      "name": "Transience - Inazuma - Violet Court"
+                    }
+                  ]
+                }
+              ],
+              "cost": 17500
+            },
+            {
+              "items": [
+                {
+                  "id": "112036",
+                  "name": "Silver Raven Insignia",
+                  "qty": 4,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112036.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Treasure Hoarders: Scout",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Pyro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Fire_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Hydro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Water_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Electro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Electric_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Cryo Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Ice_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Handyman",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_Fat_01.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104321",
+                  "name": "Guide to Transience",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104321.webp",
+                  "source": "Transience - Inazuma - Violet Court",
+                  "sourceDetails": [
+                    {
+                      "name": "Transience - Inazuma - Violet Court"
+                    }
+                  ]
+                }
+              ],
+              "cost": 25000
+            },
+            {
+              "items": [
+                {
+                  "id": "112036",
+                  "name": "Silver Raven Insignia",
+                  "qty": 6,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112036.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Treasure Hoarders: Scout",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Pyro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Fire_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Hydro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Water_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Electro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Electric_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Cryo Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Ice_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Handyman",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_Fat_01.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104321",
+                  "name": "Guide to Transience",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104321.webp",
+                  "source": "Transience - Inazuma - Violet Court",
+                  "sourceDetails": [
+                    {
+                      "name": "Transience - Inazuma - Violet Court"
+                    }
+                  ]
+                }
+              ],
+              "cost": 30000
+            },
+            {
+              "items": [
+                {
+                  "id": "112036",
+                  "name": "Silver Raven Insignia",
+                  "qty": 9,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112036.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Treasure Hoarders: Scout",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Pyro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Fire_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Hydro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Water_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Electro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Electric_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Cryo Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Ice_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Handyman",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_Fat_01.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104321",
+                  "name": "Guide to Transience",
+                  "qty": 9,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104321.webp",
+                  "source": "Transience - Inazuma - Violet Court",
+                  "sourceDetails": [
+                    {
+                      "name": "Transience - Inazuma - Violet Court"
+                    }
+                  ]
+                }
+              ],
+              "cost": 37500
+            },
+            {
+              "items": [
+                {
+                  "id": "112037",
+                  "name": "Golden Raven Insignia",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112037.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Treasure Hoarders: Scout",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Pyro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Fire_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Hydro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Water_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Electro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Electric_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Cryo Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Ice_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Handyman",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_Fat_01.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104322",
+                  "name": "Philosophies of Transience",
+                  "qty": 4,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104322.webp",
+                  "source": "Transience - Inazuma - Violet Court",
+                  "sourceDetails": [
+                    {
+                      "name": "Transience - Inazuma - Violet Court"
+                    }
+                  ]
+                },
+                {
+                  "id": "113034",
+                  "name": "The Meaning of Aeons",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113034.webp",
+                  "source": "Magatsu Mitake Narukami no Mikoto",
+                  "sourceDetails": [
+                    {
+                      "name": "Magatsu Mitake Narukami no Mikoto",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Shougun_Mitakenarukami.webp"
+                    }
+                  ]
+                }
+              ],
+              "cost": 120000
+            },
+            {
+              "items": [
+                {
+                  "id": "112037",
+                  "name": "Golden Raven Insignia",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112037.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Treasure Hoarders: Scout",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Pyro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Fire_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Hydro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Water_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Electro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Electric_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Cryo Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Ice_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Handyman",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_Fat_01.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104322",
+                  "name": "Philosophies of Transience",
+                  "qty": 6,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104322.webp",
+                  "source": "Transience - Inazuma - Violet Court",
+                  "sourceDetails": [
+                    {
+                      "name": "Transience - Inazuma - Violet Court"
+                    }
+                  ]
+                },
+                {
+                  "id": "113034",
+                  "name": "The Meaning of Aeons",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113034.webp",
+                  "source": "Magatsu Mitake Narukami no Mikoto",
+                  "sourceDetails": [
+                    {
+                      "name": "Magatsu Mitake Narukami no Mikoto",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Shougun_Mitakenarukami.webp"
+                    }
+                  ]
+                }
+              ],
+              "cost": 260000
+            },
+            {
+              "items": [
+                {
+                  "id": "112037",
+                  "name": "Golden Raven Insignia",
+                  "qty": 9,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112037.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Treasure Hoarders: Scout",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Pyro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Fire_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Hydro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Water_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Electro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Electric_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Cryo Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Ice_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Handyman",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_Fat_01.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104322",
+                  "name": "Philosophies of Transience",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104322.webp",
+                  "source": "Transience - Inazuma - Violet Court",
+                  "sourceDetails": [
+                    {
+                      "name": "Transience - Inazuma - Violet Court"
+                    }
+                  ]
+                },
+                {
+                  "id": "113034",
+                  "name": "The Meaning of Aeons",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113034.webp",
+                  "source": "Magatsu Mitake Narukami no Mikoto",
+                  "sourceDetails": [
+                    {
+                      "name": "Magatsu Mitake Narukami no Mikoto",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Shougun_Mitakenarukami.webp"
+                    }
+                  ]
+                }
+              ],
+              "cost": 450000
+            },
+            {
+              "items": [
+                {
+                  "id": "112037",
+                  "name": "Golden Raven Insignia",
+                  "qty": 12,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112037.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Treasure Hoarders: Scout",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Pyro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Fire_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Hydro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Water_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Electro Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Electric_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Cryo Potioneer",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Chemist_Ice_01.webp"
+                    },
+                    {
+                      "name": "Treasure Hoarders: Handyman",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Thoarder_Male_Rogue_Fat_01.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104322",
+                  "name": "Philosophies of Transience",
+                  "qty": 16,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104322.webp",
+                  "source": "Transience - Inazuma - Violet Court",
+                  "sourceDetails": [
+                    {
+                      "name": "Transience - Inazuma - Violet Court"
+                    }
+                  ]
+                },
+                {
+                  "id": "113034",
+                  "name": "The Meaning of Aeons",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113034.webp",
+                  "source": "Magatsu Mitake Narukami no Mikoto",
+                  "sourceDetails": [
+                    {
+                      "name": "Magatsu Mitake Narukami no Mikoto",
+                      "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Shougun_Mitakenarukami.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104319",
+                  "name": "Crown of Insight",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104319.webp"
+                }
+              ],
+              "cost": 700000
+            }
+          ]
+        ],
+        "ascCost": 420000,
+        "talentCost": 4957500,
+        "currency": 5377500
+      },
+      "overviewArtPool": [
+        "../../Database/GameData/gi/gcg/character cards/assets/1513-Shikanoin Heizou.webp"
+      ],
+      "overviewArt": "../../Database/GameData/gi/gcg/character cards/assets/1513-Shikanoin Heizou.webp",
+      "betaStatus": "changed"
+    },
+    {
       "id": "gi-10000053",
       "n": "Sayu",
       "localizedNames": {
@@ -14901,7 +20188,7 @@
       "el": "Anemo",
       "w": "Claymore",
       "tag": "INAZUMA",
-      "release": 1628611200000,
+      "release": 1628618400000,
       "releasePatch": "2.0",
       "voiceActors": {
         "english": "Lilypichu (Lily Ki)",
@@ -14931,7 +20218,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "6.7.52",
+        "version": "6.7.53",
         "sections": [
           {
             "title": "Talents",
@@ -17300,7 +22587,7 @@
       "el": "Anemo",
       "w": "Sword",
       "tag": "INAZUMA",
-      "release": 1624982400000,
+      "release": 1624989600000,
       "releasePatch": "1.6",
       "voiceActors": {
         "english": "imdb:nm4008536|Mark Whitten",
@@ -17330,7 +22617,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "6.7.52",
+        "version": "6.7.53",
         "sections": [
           {
             "title": "Talents",
@@ -19995,7 +25282,7 @@
       "el": "Cryo",
       "w": "Bow",
       "tag": "MONDSTADT",
-      "release": 1605063600000,
+      "release": 1605067200000,
       "releasePatch": "1.1",
       "voiceActors": {
         "english": "imdb:nm0088650|Dina Sherman",
@@ -20027,7 +25314,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "6.7.52",
+        "version": "6.7.53",
         "sections": [
           {
             "title": "Talents",
@@ -20545,7 +25832,7 @@
               {
                 "name": "Choice Treasures",
                 "type": "Passive Talent",
-                "desc": "Within 20s after using the Elemental Skill Icy Paws, Diona will also fire off three Icy Paws when party members trigger Superconduct, Stellar-Conduct, Cryo Swirl, or Stellar Swirl reactions. Icy Paws fired this way cannot generate Elemental Particles, nor will they generate a shield upon hitting opponents. This effect can occur once every 3.5s.\\nAdditionally, Diona will also enter the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state for 8s when she is inside a Polestar Field or triggers a Stellar Swirl reaction respectively."
+                "desc": "Within 20s after using the Elemental Skill Icy Paws, Diona will also fire off three Icy Paws when party members trigger Stellar-Conduct, Superconduct, Cryo Swirl, or Stellar Swirl reactions. Icy Paws fired this way cannot generate Elemental Particles, nor will they generate a shield upon hitting opponents. This effect can occur once every 3.5s.\\nAdditionally, Diona will also enter the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state for 8s when she is inside a Polestar Field or when a nearby party member triggers a Stellar Swirl reaction respectively."
               }
             ]
           },
@@ -22453,7 +27740,7 @@
       "el": "Cryo",
       "w": "Sword",
       "tag": "LIYUE",
-      "release": 1600135200000,
+      "release": 1600142400000,
       "releasePatch": "1.0",
       "voiceActors": {
         "english": "imdb:nm7116087|Christie Cate",
@@ -22485,7 +27772,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "6.7.52",
+        "version": "6.7.53",
         "sections": [
           {
             "title": "Talents",
@@ -23083,7 +28370,7 @@
               {
                 "name": "Seven Sacred Treasures",
                 "type": "Passive Talent",
-                "desc": "The cooldown of the Elemental Skill Adeptus Art: Herald of Frost is reduced to 15s.\\nRadiance: Stellar-Conduct: While the Herald of Frost is on the field, Superconduct and Stellar-Conduct reaction DMG dealt by party members is increased by 50%.\\nRadiance: Stellar Swirl: While the Herald of Frost is on the field, Cryo Swirl and Stellar Swirl reaction DMG dealt by party members is increased by 50%.\\nAdditionally, Qiqi will also enter the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state for 8s when she is inside a Polestar Field or triggers a Stellar Swirl reaction respectively."
+                "desc": "The cooldown of the Elemental Skill Adeptus Art: Herald of Frost is reduced to 15s.\\nRadiance: Stellar-Conduct: While the Herald of Frost is on the field, Superconduct and Stellar-Conduct reaction DMG dealt by her own party members is increased by 50%.\\nRadiance: Stellar Swirl: While the Herald of Frost is on the field, Cryo Swirl and Stellar Swirl reaction DMG dealt by her own party members is increased by 50%.\\nAdditionally, Qiqi will also enter the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state for 8s when she is inside a Polestar Field or when a nearby party character triggers a Stellar Swirl reaction respectively."
               }
             ]
           },
@@ -25242,7 +30529,7 @@
       "el": "Anemo",
       "w": "Bow",
       "tag": "MONDSTADT",
-      "release": 1600135200000,
+      "release": 1600142400000,
       "releasePatch": "1.0",
       "voiceActors": {
         "english": "Erika Harlacher",
@@ -25275,7 +30562,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "6.7.52",
+        "version": "6.7.53",
         "sections": [
           {
             "title": "Talents",
@@ -27956,7 +33243,7 @@
       "el": "Anemo",
       "w": "Catalyst",
       "tag": "MONDSTADT",
-      "release": 1600135200000,
+      "release": 1600142400000,
       "releasePatch": "1.0",
       "voiceActors": {
         "english": "imdb:nm14897455|Maya Graydon",
@@ -27987,7 +33274,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "6.7.52",
+        "version": "6.7.53",
         "sections": [
           {
             "title": "Talents",
@@ -30168,7 +35455,6 @@
       "el": "Cryo",
       "w": "Sword",
       "tag": "SNEZHNAYA STAR",
-      "release": -3600000,
       "voiceActors": {
         "english": "???",
         "japanese": "???",
@@ -30185,7 +35471,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "6.7.52",
+        "version": "6.7.53",
         "sections": [
           {
             "title": "Talents",
@@ -30401,9 +35687,9 @@
                 ]
               },
               {
-                "name": "Slow Dance: Phantom Night Trance",
+                "name": "Adagio: Phantom Night Dancers",
                 "type": "Talent",
-                "desc": "With slow, graceful dance steps, Odette deals AoE Cryo DMG to the opponent, and also summons her solo dance double to the field.\\nIf a dance double summoned by Odette is already on the field, this will re-summon the dance double and reset its duration.\\n\\nSolo dance double\\nAlternates between the Plume and Wing dance moves, periodically attacking nearby opponents and dealing to them AoE Cryo DMG.\\nAdditionally, if there is a dance double summoned by Odette nearby, Odette's Elemental Skill Adagio: Phantom Night Dancers will become the special Elemental Skill Adagio: Cock-Crow Coda instead, where a dance duet deals AoE Cryo DMG to nearby opponents over time. Then, when the duet ends, she deals another instance of AoE Cryo DMG that is considered Stellar-Conduct or Stellar Swirl DMG.",
+                "desc": "With slow, graceful dance steps, Odette deals AoE Cryo DMG to the opponent, and also summons her Solo Dance Double to the field.\\nIf a Dance Double summoned by Odette is already on the field, this will re-summon the Dance Double and reset its duration.\\n\\nSolo Dance Double\\nAlternates between the Plume and Wing dance moves, periodically attacking nearby opponents and dealing to them AoE Cryo DMG.\\nAdditionally, for 6s after unleashing the Elemental Skill Adagio: Phantom Night Dancers, Odette's Elemental Skill Adagio: Phantom Night Dancers will become the special Elemental Skill Adagio: Coda at Dawn's Tolling instead, where a dance duet deals AoE Cryo DMG to nearby opponents over time. Then, when the duet ends, she deals another instance of AoE Cryo DMG that is considered Stellar-Conduct or Stellar Swirl DMG.",
                 "icon": "../../Database/GameData/gi/assets/skills/Skill_S_Odette_01.webp",
                 "scaling": [
                   {
@@ -30447,7 +35733,7 @@
                         ]
                       },
                       {
-                        "label": "Daybreak Finale DoT",
+                        "label": "Coda at Dawn's Tolling DoT",
                         "values": [
                           "95.8%",
                           "103%",
@@ -30467,23 +35753,23 @@
                         ]
                       },
                       {
-                        "label": "Daybreak Finale Stellar-Conduct/Stellar Swirl DMG",
+                        "label": "Coda at Dawn's Tolling Stellar-Conduct/Stellar Swirl DMG",
                         "values": [
-                          "203.2%/304.8%",
-                          "218.4%/327.6%",
-                          "233.7%/350.5%",
-                          "254%/381%",
-                          "269.2%/403.8%",
-                          "284.4%/426.7%",
-                          "304.8%/457.2%",
-                          "325.1%/487.6%",
-                          "345.4%/518.1%",
-                          "365.7%/548.6%",
-                          "386%/579.1%",
-                          "406.4%/609.5%",
-                          "431.7%/647.6%",
-                          "457.1%/685.7%",
-                          "482.5%/723.8%"
+                          "305.8%/458.6%",
+                          "328.7%/493%",
+                          "351.6%/527.4%",
+                          "382.2%/573.3%",
+                          "405.1%/607.7%",
+                          "428.1%/642.1%",
+                          "458.6%/688%",
+                          "489.2%/733.8%",
+                          "519.8%/779.7%",
+                          "550.4%/825.6%",
+                          "580.9%/871.4%",
+                          "611.5%/917.3%",
+                          "649.7%/974.6%",
+                          "688%/1031.9%",
+                          "726.2%/1089.3%"
                         ]
                       },
                       {
@@ -30567,7 +35853,7 @@
                         ]
                       },
                       {
-                        "label": "Daybreak Finale CD",
+                        "label": "Coda at Dawn's Tolling CD",
                         "values": [
                           "15s",
                           "15s",
@@ -30631,9 +35917,9 @@
                 ]
               },
               {
-                "name": "Fast Dance: A Dream of Sable Feathers",
+                "name": "Presto: Bluebird Finale",
                 "type": "Talent",
-                "desc": "With quick, lively dance steps, Odette deals multiple instances of AoE Cryo DMG to the opponent, and summons her solo dance double. She also gains Snow Swan's Dream, which increases the Stellar Glimmer reaction DMG Odette deals.",
+                "desc": "With quick, lively dance steps, Odette deals multiple instances of AoE Cryo DMG to the opponent, and summons her Solo Dance Double. She also gains Snow Swan's Dream, which increases the Stellar Glimmer reaction DMG Odette deals.\\nAdditionally, for 6s after unleashing the Elemental Burst Presto: Bluebird Finale, Odette's Elemental Skill Adagio: Phantom Night Dancers will be replaced with the special Elemental Skill Adagio: Coda at Dawn's Tolling instead.\\n\\nIf there is a Solo Dance Double summoned by Odette on the field, it will be summoned to her side with its duration refreshed.",
                 "icon": "../../Database/GameData/gi/assets/skills/Skill_E_Odette_01.webp",
                 "scaling": [
                   {
@@ -30697,7 +35983,7 @@
                         ]
                       },
                       {
-                        "label": "Snow Swan's Dream Stellar Reaction DMG Bonus",
+                        "label": "Snow Swan's Dream Stellar Glimmer Reaction DMG Bonus",
                         "values": [
                           "14%",
                           "18%",
@@ -30806,9 +36092,9 @@
             "title": "Passive Talents",
             "entries": [
               {
-                "name": "The Chosen One's Spring",
+                "name": "Spring Rite of the Chosen One",
                 "type": "Passive Talent",
-                "desc": "When Odette summons her solo dance double, she also obtains 4 stacks of Marvelous Splendor."
+                "desc": "When Odette summons her Solo Dance Double, she also obtains 4 stacks of Marvelous Splendor."
               },
               {
                 "name": "Pathetique of Pateticheskaya",
@@ -30816,12 +36102,12 @@
                 "desc": "For every 100 ATK Odette has over 1,000, her Stellar Glimmer DMG is additionally increased by 1.5% of the original DMG. She can deal up to 30% more additional DMG in this way."
               },
               {
-                "name": "Dance of the Silver Morn",
+                "name": "Dance of Aurore",
                 "type": "Passive Talent",
-                "desc": "Odette will enter the Radiance: Stellar-Conduct or Radiance: Stellar Glimmer state for 8s when she is inside a Polestar Field or triggers a Stellar Swirl reaction respectively.\\nWhen a party member triggers a Superconduct or Cryo Swirl reaction, it becomes a Stellar-Conduct or Stellar Swirl reaction instead, and the Base DMG of said reaction is also increased by 0.7% for every 100 points of Odette's ATK. A maximum 14% increase can be obtained in this way."
+                "desc": "Odette will enter the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state for 8s when she is inside a Polestar Field or when a nearby party member triggers a Stellar Swirl reaction respectively.\\nWhen a party member triggers a Superconduct or Cryo Swirl reaction, it becomes a Stellar-Conduct or Stellar Swirl reaction instead, and the Base DMG of said reaction is also increased by 0.7% for every 100 points of Odette's ATK. A maximum increase of 14% can be obtained in this way."
               },
               {
-                "name": "Winter Dream's Echo",
+                "name": "Echo of Winter Daydreams",
                 "type": "Passive Talent",
                 "desc": "Shows the locations of Snezhnaya's Local Specialties on the mini-map.\\nPracticing dance in one's spare time might even trigger other effects..."
               }
@@ -30831,34 +36117,34 @@
             "title": "Constellations",
             "entries": [
               {
-                "name": "\"On This Danceless Morn, She Gazes at Her Double\"",
+                "name": "\"On This Danceless Morn, She Gazes at Her Reflection\"",
                 "type": "Constellation 1",
-                "desc": "Unleashing the special Elemental Skill Adagio: Cock-Crow Coda deals an instance of Cryo AoE DMG to nearby opponents that will be considered the corresponding Stellar reaction DMG at a certain percentage of Odette's ATK:Radiance: Stellar-Conduct: 200%;\\nRadiance: Stellar Swirl: 300%.\\nAdditionally, the Passive Talent \"Spring Rite of the Chosen One\" is also enhanced: now, when Odette summons her solo dance double, she also gains 2 stacks of Marvelous Splendor, and when she is off-field, the rate at which Marvelous Splendor is removed is sped up to 2 stacks per second."
+                "desc": "After unleashing the special Elemental Skill Adagio: Coda at Dawn's Tolling, at the dance duet's end Odette will deal an additional instance of Cryo AoE DMG to nearby opponents that is considered:\\nRadiance: Stellar-Conduct or when not in a Radiance state: Stellar-Conduct reaction DMG at 300% of ATK;\\nRadiance: Stellar Swirl: Stellar Swirl reaction DMG at 450% of ATK.\\n\\nAdditionally, the Passive Talent \"Spring Rite of the Chosen One\" is also enhanced: now, when the Solo Dance Double is summoned, Odette also gains 2 stacks of Marvelous Splendor. When Odette is off-field, the rate at which Marvelous Splendor is removed is sped up to 2 stacks per second."
               },
               {
-                "name": "\"I Must See the Snow Swan's Dream for Myself, She Thought\"",
+                "name": "\"I Must See the Snow Swan's Unseen Dream for Myself, She Thought\"",
                 "type": "Constellation 2",
-                "desc": "The Passive Talent \"Spring Rite of the Chosen One\" is enhanced as follows: every stack of Marvelous Splendor active also increases the character's ATK by 7%.\\nAdditionally, if Odette is in the Radiance: Stellar Glimmer state when there is a solo dance double on the field, opponents near the dance double will also have their corresponding Elemental RES lowered by 20%.\\n\u00b7Radiance: Stellar-Conduct: Cryo and Electro.\\n\u00b7Radiance: Stellar Swirl: Cryo and Anemo.\\nYou must unlock the Passive Talent \"Spring Rite of the Chosen One\" to gain access to the above effects."
+                "desc": "The Passive Talent \"Spring Rite of the Chosen One\" is enhanced as follows: every stack of Marvelous Splendor active also increases the character's ATK by 7%.\\nAdditionally, if Odette is in the Radiance: Stellar Glimmer state when there is a Solo Dance Double on the field, opponents near the Dance Double will also have their corresponding Elemental RES lowered by 20%.\\n\u00b7Radiance: Stellar-Conduct: Cryo and Electro.\\n\u00b7Radiance: Stellar Swirl: Cryo and Anemo."
               },
               {
-                "name": "\"I Must Pursue the Howling Wind and Keep on Moving Up Myself\"",
+                "name": "\"I'll Chase the Shouting Wind Along, Climbing Alone As I Go\"",
                 "type": "Constellation 3",
-                "desc": "Increases the Level of Slow Dance: Phantom Night Trance by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases the Level of Adagio: Phantom Night Dancers by 3.\\nMaximum upgrade level is 15."
               },
               {
-                "name": "\"Upwards I Go, as I Fall Into the Hazy, Burning Sky\"",
+                "name": "\"Up, Up the Long, Delirious, Burning Blue\"",
                 "type": "Constellation 4",
-                "desc": "The Elemental Burst Fast Dance: A Dream of Sable Feathers is enhanced as follows: when Odette obtains Snow Swan's Dream, Stellar Glimmer reaction DMG dealt by other party members is increased by 50% of Snow Swan Dream's effects.\\nWhen a party member attacks and hits an opponent, Odette will also join in with a coordinated attack, dealing AoE Cryo DMG that is also considered as the corresponding Stellar reaction DMG. This effect, which can trigger once every 3.5s, will be at a certain percentage of Odette's ATK:\\nRadiance: Stellar-Conduct: 50%;\\nRadiance: Stellar Swirl: 75%."
+                "desc": "The Elemental Burst Presto: Bluebird Finale is enhanced as follows: when Odette obtains Snow Swan's Dream, Stellar Glimmer reaction DMG dealt by other nearby party members is increased by 50% of Snow Swan Dream's effects.\\n\\nAdditionally, when a party member deals Stellar Glimmer reaction DMG to an opponent, Odette will also join in with a coordinated attack, dealing an instance of AoE Cryo DMG. This effect, which can trigger once every 3.5s, will be considered:\\n\u00b7Radiance: Stellar-Conduct or when not in a Radiance state: Stellar-Conduct reaction DMG at 66% of ATK.\\n\u00b7Radiance: Stellar Swirl: Stellar Swirl reaction DMG at 99% of ATK."
               },
               {
-                "name": "\"Behold, for I Have Bid Farewell to Earthly Suffering\"",
+                "name": "\"Oh! I Have Slipped the Surly Bonds of Earth\"",
                 "type": "Constellation 5",
-                "desc": "Increases the Level of Fast Dance: A Dream of Sable Feathers by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases the Level of Presto: Bluebird Finale by 3.\\nMaximum upgrade level is 15."
               },
               {
-                "name": "\"Reach Out Your Hand to Touch the Eternal Visage of the Sky\"",
+                "name": "\"Put Out My Hand, and Touched the Face of the Divine\"",
                 "type": "Constellation 6",
-                "desc": "The Passive Talent \"Spring Rite of the Chosen One\" is enhanced as follows: When all nearby party members have been granted Marvelous Splendor by Odette, her Marvelous Splendor stack will no longer decrease.\\nAdditionally, characters affected by Marvelous Splendor have their Stellar Glimmer reaction DMG dealt to opponents elevated by 25%, and Stellar Glimmer reaction DMG dealt by Odette is elevated by an additional 20%.\\nYou must unlock the Passive Talent \"Spring Rite of the Chosen One\" to gain access to the above effects."
+                "desc": "The Passive Talent \"Spring Rite of the Chosen One\" is enhanced as follows: When all nearby party members have been granted Marvelous Splendor by Odette, her own Marvelous Splendor stacks will no longer decrease.\\nAdditionally, characters affected by Marvelous Splendor have their Stellar Glimmer reaction DMG dealt to opponents elevated by 25%, and Stellar Glimmer reaction DMG dealt by Odette is elevated by an additional 20%."
               }
             ]
           }
@@ -30885,8 +36171,9 @@
       },
       "facts": {
         "title": "Swirling Snow",
+        "affiliation": "Korolevskiy Troupe",
         "constellation": "Cygnus Olor",
-        "birthday": "January 1",
+        "birthday": "February 20",
         "nation": "Snezhnaya Star"
       },
       "book": "Charity",
@@ -31927,12 +37214,11 @@
       "localizedNames": {
         "en": "Alyosha"
       },
-      "title": "???",
+      "title": "Swift-Striding Hound",
       "r": 4,
       "el": "Electro",
       "w": "Polearm",
       "tag": "SNEZHNAYA",
-      "release": -3600000,
       "voiceActors": {
         "english": "???",
         "japanese": "???",
@@ -31949,7 +37235,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "6.7.52",
+        "version": "6.7.53",
         "sections": [
           {
             "title": "Talents",
@@ -31957,7 +37243,7 @@
               {
                 "name": "Skirmishing Spear",
                 "type": "Talent",
-                "desc": "Normal Attack\\nPerforms up to 4 consecutive spear strikes, and applies the Hunter's Mark to the opponent hit by the final strike.\\n\\nCharged Attack\\nConsumes a certain amount of Stamina to perform a spinning attack.\\n\\nPlunging Attack\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+                "desc": "Normal Attack\\nPerforms up to 4 consecutive spear strikes, and applies the Hunter's Mark to the opponent hit by the final strike.\\n\\nCharged Attack\\nConsumes a certain amount of Stamina to deal damage to opponents in his path.\\n\\nPlunging Attack\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
                 "icon": "../../Database/GameData/gi/assets/skills/Skill_A_03.webp",
                 "scaling": [
                   {
@@ -32063,21 +37349,21 @@
                       {
                         "label": "Charged Attack DMG",
                         "values": [
-                          "111%+2500%",
-                          "120.1%+2500%",
-                          "129.1%+2500%",
-                          "142%+2500%",
-                          "151%+2500%",
-                          "161.4%+2500%",
-                          "175.6%+2500%",
-                          "189.8%+2500%",
-                          "204%+2500%",
-                          "219.5%+2500%",
-                          "235%+2500%",
-                          "250.5%+2500%",
-                          "265.9%+2500%",
-                          "281.4%+2500%",
-                          "296.9%+2500%"
+                          "111%",
+                          "120.1%",
+                          "129.1%",
+                          "142%",
+                          "151%",
+                          "161.4%",
+                          "175.6%",
+                          "189.8%",
+                          "204%",
+                          "219.5%",
+                          "235%",
+                          "250.5%",
+                          "265.9%",
+                          "281.4%",
+                          "296.9%"
                         ]
                       },
                       {
@@ -32145,7 +37431,7 @@
                 ]
               },
               {
-                "name": "Thunderbolt Ambush",
+                "name": "Thunderbolt Strike",
                 "type": "Talent",
                 "desc": "Follows his hunter's instincts. Tap or hold to produce different effects as well as apply to the opponent the Hunter's Mark effect.\\n\\nTapping\\nFires at opponents in front of him, dealing AoE Electro DMG.\\n\\nHolding\\nGoes into aiming mode, then targets opponents within a certain area in front of him. Alyosha's Interruption RES is enhanced when in this mode.\\nAt the end of the button hold, he deals Electro DMG to the targeted opponents.\\n\\nThe reckless hunter once reached for the spear's edge, and it was only after they survived a lesson paid in blood that they came to understand the harsh truths of survival on the frozen plains.",
                 "icon": "../../Database/GameData/gi/assets/skills/Skill_S_Alyosha_01.webp",
@@ -32253,21 +37539,21 @@
                       {
                         "label": "Hunter's Precision ATK Bonus",
                         "values": [
+                          "11.7%",
+                          "12.7%",
                           "13.8%",
-                          "15%",
-                          "16.3%",
-                          "17.5%",
-                          "18.8%",
-                          "20%",
-                          "21.3%",
+                          "14.8%",
+                          "15.9%",
+                          "17%",
+                          "18%",
+                          "19.1%",
+                          "20.1%",
+                          "21.2%",
                           "22.5%",
-                          "23.8%",
+                          "23.7%",
                           "25%",
-                          "26.5%",
-                          "28%",
-                          "29.5%",
-                          "31%",
-                          "32.5%"
+                          "26.3%",
+                          "27.6%"
                         ]
                       },
                       {
@@ -32297,7 +37583,7 @@
               {
                 "name": "Hunter's Advance",
                 "type": "Talent",
-                "desc": "Summons his trusted companion Tugarin to fight alongside him on the field. This also turns an area in front of him into a Fulgurite Hunting Field for a short time.\\n\\nFulgurite Hunting Field\\n\u00b7 Continuously taunts nearby opponents to incite them to attack.\\n\u00b7 Every 2s, deals an instance of AoE Electro DMG to any opponent that has wandered into the field.\\n\\nWait. Keep waiting until the impatience fades. That's when the red-bellied plover shall sweep across the birch grove and present itself before one's arrow.",
+                "desc": "Summons his trusted companion Tugarin to fight alongside him on the field. This also turns an area in front of him into a Fulgurite Hunting Field for a short time.\\n\\nFulgurite Hunting Field\\n\u00b7 Continuously taunts nearby opponents to incite them to attack.\\n\u00b7 Every 2s, deals an instance of AoE Electro DMG to any opponent that has wandered into the field.\\n\\nTugarin\\n\u00b7 If there are any opponents nearby, every 2s Tugarin will quickly move close to an opponent and maul them, dealing Electro DMG.\\n\u00b7 If an opponent affected by the Hunter's Mark effect is hit, the Hunter's Mark will also be activated.\\n\u00b7 Where there are multiple opponents, Tugarin will attack those affected by the Hunter's Mark effect first.\\n\\nWait. Keep waiting until the impatience fades. That's when the red-bellied plover shall sweep across the birch grove and present itself before one's arrow.",
                 "icon": "../../Database/GameData/gi/assets/skills/Skill_E_Alyosha_01.webp",
                 "scaling": [
                   {
@@ -32430,19 +37716,19 @@
             "title": "Passive Talents",
             "entries": [
               {
-                "name": "The Treeline Rouses",
+                "name": "Awakened by the Baying Hounds",
                 "type": "Passive Talent",
                 "desc": "When Tugarin attacks, it will also restore HP to nearby party members at 120% of Alyosha's ATK."
               },
               {
-                "name": "Farewell, Winter Wheat",
+                "name": "Suffer the Winter Wheat Will",
                 "type": "Passive Talent",
                 "desc": "Increases the DMG Alyosha deals with his Elemental Skill and Elemental Burst by 0.35% for every 1% of his Energy Recharge. Up to a 70% increase can be obtained in this way."
               },
               {
                 "name": "Into the Fray",
                 "type": "Passive Talent",
-                "desc": "Alyosha will enter the Radiance: Stellar-Conduct state when inside a Polestar Field.\\nRadiance: Stellar-Conduct: The Hunter's Precision effect obtained when Hunter's Mark is activated will also increase all Stellar-Conduct DMG dealt by nearby teammates by 25%."
+                "desc": "Alyosha will enter the Radiance: Stellar-Conduct state when inside a Polestar Field.\\nRadiance: Stellar-Conduct: The Hunter's Precision effect obtained when the Hunter's Mark is activated will also increase Stellar-Conduct DMG dealt by all nearby party members by 20%."
               },
               {
                 "name": "Treetop Watch",
@@ -32457,7 +37743,7 @@
               {
                 "name": "Frostvale Thunderclap",
                 "type": "Constellation 1",
-                "desc": "Alyosha regenerates 15 Elemental Energy when nearby party members trigger an Electro-related reaction. This effect can trigger once every 18s."
+                "desc": "Alyosha regenerates 15 Elemental Energy when nearby party members trigger an Electro-related reaction on an opponent. This effect can trigger once every 18s."
               },
               {
                 "name": "Howl From Afar",
@@ -32465,24 +37751,24 @@
                 "desc": "The duration of the Elemental Burst Hunter's Advance is extended by 6s.\\nAdditionally, each time Tugarin attacks the opponent, it will first apply the Hunter's Mark. This effect does not activate existing Hunter's Marks."
               },
               {
-                "name": "Kindred Call",
+                "name": "Friendly Call",
                 "type": "Constellation 3",
-                "desc": "Increases the Level of the Elemental Skill Thunderbolt Ambush by 3.\\nMaximum upgrade level is 15."
+                "desc": "Increases the Level of the Elemental Skill Thunderbolt Strike by 3.\\nMaximum upgrade level is 15."
               },
               {
-                "name": "Spoils of the Hunt",
+                "name": "Harvest the Spoils",
                 "type": "Constellation 4",
                 "desc": "When Tugarin attacks, it will also restore 60% of Alyosha's ATK as HP to the nearby party member with the lowest HP by percentage."
               },
               {
-                "name": "When the Birdsong Falls Silent",
+                "name": "When the Nightbird Falls Silent",
                 "type": "Constellation 5",
                 "desc": "Increases the Level of the Elemental Burst Hunter's Advance by 3.\\nMaximum upgrade level is 15."
               },
               {
                 "name": "Standard Reclaimed",
                 "type": "Constellation 6",
-                "desc": "The Hunter's Precision effect obtained from activating Hunter's Mark can now stack, max 2 stacks. When the stack count reaches 2, characters affected by Hunter's Precision will also have their Elemental Mastery increased by 100."
+                "desc": "The Hunter's Precision effect obtained from activating a Hunter's Mark can now stack, max 2 stacks. When the stack count reaches 2, characters affected by Hunter's Precision will also have their Elemental Mastery increased by 100."
               }
             ]
           }
@@ -32510,8 +37796,10 @@
         }
       },
       "facts": {
+        "title": "Swift-Striding Hound",
+        "affiliation": "Snezhnaya",
         "constellation": "Canis Borzoides",
-        "birthday": "January 1",
+        "birthday": "February 9",
         "nation": "Snezhnaya"
       },
       "book": "Fortitude",
@@ -33739,8 +39027,100 @@
       "cost": 225000
     },
     {
+      "id": "15436",
+      "name": "Covenant of Frost and Snow",
+      "rarity": 4,
+      "weaponType": "Bow",
+      "type": "Bow",
+      "icon": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_Bow_GlintstoneBow.webp",
+      "art": "../../Database/GameData/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Bow_GlintstoneBow.webp",
+      "items": [
+        {
+          "id": "112149",
+          "name": "Chimeric Core",
+          "qty": 10,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112149.webp"
+        },
+        {
+          "id": "112150",
+          "name": "Symbiotic Chimeric Nucleus",
+          "qty": 15,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112150.webp"
+        },
+        {
+          "id": "112151",
+          "name": "Genesis Chimeric Nexus",
+          "qty": 18,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112151.webp"
+        },
+        {
+          "id": "112155",
+          "name": "Hollow Root of Life",
+          "qty": 15,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112155.webp"
+        },
+        {
+          "id": "112156",
+          "name": "Sprout Node of Life",
+          "qty": 18,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112156.webp"
+        },
+        {
+          "id": "112157",
+          "name": "Coiled Core of Life",
+          "qty": 27,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112157.webp"
+        },
+        {
+          "id": "114085",
+          "name": "Rise of the Pale Star Army",
+          "qty": 3,
+          "rar": 2,
+          "kind": "weapon",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_114085.webp"
+        },
+        {
+          "id": "114086",
+          "name": "Muster of the Pale Star Army",
+          "qty": 9,
+          "rar": 3,
+          "kind": "weapon",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_114086.webp"
+        },
+        {
+          "id": "114087",
+          "name": "Clarion of the Pale Star Army",
+          "qty": 9,
+          "rar": 4,
+          "kind": "weapon",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_114087.webp"
+        },
+        {
+          "id": "114088",
+          "name": "Triumph of the Pale Star Army",
+          "qty": 4,
+          "rar": 5,
+          "kind": "weapon",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_114088.webp"
+        }
+      ],
+      "cost": 150000
+    },
+    {
       "id": "15435",
-      "name": "15435",
+      "name": "Primordial Jade Vista",
       "rarity": 4,
       "weaponType": "Bow",
       "type": "Bow",
@@ -33975,100 +39355,8 @@
       "cost": 150000
     },
     {
-      "id": "15436",
-      "name": "Covenant of Frost and Snow",
-      "rarity": 4,
-      "weaponType": "Bow",
-      "type": "Bow",
-      "icon": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_Bow_GlintstoneBow.webp",
-      "art": "../../Database/GameData/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Bow_GlintstoneBow.webp",
-      "items": [
-        {
-          "id": "112149",
-          "name": "Chimeric Core",
-          "qty": 10,
-          "rar": 1,
-          "kind": "mob",
-          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112149.webp"
-        },
-        {
-          "id": "112150",
-          "name": "Symbiotic Chimeric Nucleus",
-          "qty": 15,
-          "rar": 2,
-          "kind": "mob",
-          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112150.webp"
-        },
-        {
-          "id": "112151",
-          "name": "Genesis Chimeric Nexus",
-          "qty": 18,
-          "rar": 3,
-          "kind": "mob",
-          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112151.webp"
-        },
-        {
-          "id": "112155",
-          "name": "Hollow Root of Life",
-          "qty": 15,
-          "rar": 2,
-          "kind": "mob",
-          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112155.webp"
-        },
-        {
-          "id": "112156",
-          "name": "Sprout Node of Life",
-          "qty": 18,
-          "rar": 3,
-          "kind": "mob",
-          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112156.webp"
-        },
-        {
-          "id": "112157",
-          "name": "Coiled Core of Life",
-          "qty": 27,
-          "rar": 4,
-          "kind": "mob",
-          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112157.webp"
-        },
-        {
-          "id": "114085",
-          "name": "Rise of the Pale Star Army",
-          "qty": 3,
-          "rar": 2,
-          "kind": "weapon",
-          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_114085.webp"
-        },
-        {
-          "id": "114086",
-          "name": "Muster of the Pale Star Army",
-          "qty": 9,
-          "rar": 3,
-          "kind": "weapon",
-          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_114086.webp"
-        },
-        {
-          "id": "114087",
-          "name": "Clarion of the Pale Star Army",
-          "qty": 9,
-          "rar": 4,
-          "kind": "weapon",
-          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_114087.webp"
-        },
-        {
-          "id": "114088",
-          "name": "Triumph of the Pale Star Army",
-          "qty": 4,
-          "rar": 5,
-          "kind": "weapon",
-          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_114088.webp"
-        }
-      ],
-      "cost": 150000
-    },
-    {
       "id": "14435",
-      "name": "14435",
+      "name": "Clash of Kings",
       "rarity": 4,
       "weaponType": "Catalyst",
       "type": "Catalyst",
@@ -34395,8 +39683,100 @@
       "cost": 150000
     },
     {
+      "id": "12436",
+      "name": "Blade of Atonement",
+      "rarity": 4,
+      "weaponType": "Claymore",
+      "type": "Claymore",
+      "icon": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_Claymore_GlintstoneClaymore.webp",
+      "art": "../../Database/GameData/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Claymore_GlintstoneClaymore.webp",
+      "items": [
+        {
+          "id": "112149",
+          "name": "Chimeric Core",
+          "qty": 10,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112149.webp"
+        },
+        {
+          "id": "112150",
+          "name": "Symbiotic Chimeric Nucleus",
+          "qty": 15,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112150.webp"
+        },
+        {
+          "id": "112151",
+          "name": "Genesis Chimeric Nexus",
+          "qty": 18,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112151.webp"
+        },
+        {
+          "id": "112155",
+          "name": "Hollow Root of Life",
+          "qty": 15,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112155.webp"
+        },
+        {
+          "id": "112156",
+          "name": "Sprout Node of Life",
+          "qty": 18,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112156.webp"
+        },
+        {
+          "id": "112157",
+          "name": "Coiled Core of Life",
+          "qty": 27,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112157.webp"
+        },
+        {
+          "id": "114085",
+          "name": "Rise of the Pale Star Army",
+          "qty": 3,
+          "rar": 2,
+          "kind": "weapon",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_114085.webp"
+        },
+        {
+          "id": "114086",
+          "name": "Muster of the Pale Star Army",
+          "qty": 9,
+          "rar": 3,
+          "kind": "weapon",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_114086.webp"
+        },
+        {
+          "id": "114087",
+          "name": "Clarion of the Pale Star Army",
+          "qty": 9,
+          "rar": 4,
+          "kind": "weapon",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_114087.webp"
+        },
+        {
+          "id": "114088",
+          "name": "Triumph of the Pale Star Army",
+          "qty": 4,
+          "rar": 5,
+          "kind": "weapon",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_114088.webp"
+        }
+      ],
+      "cost": 150000
+    },
+    {
       "id": "12435",
-      "name": "12435",
+      "name": "Forged by the Golden Law",
       "rarity": 4,
       "weaponType": "Claymore",
       "type": "Claymore",
@@ -34607,98 +39987,6 @@
       "cost": 150000
     },
     {
-      "id": "12436",
-      "name": "Blade of Atonement",
-      "rarity": 4,
-      "weaponType": "Claymore",
-      "type": "Claymore",
-      "icon": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_Claymore_GlintstoneClaymore.webp",
-      "art": "../../Database/GameData/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Claymore_GlintstoneClaymore.webp",
-      "items": [
-        {
-          "id": "112149",
-          "name": "Chimeric Core",
-          "qty": 10,
-          "rar": 1,
-          "kind": "mob",
-          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112149.webp"
-        },
-        {
-          "id": "112150",
-          "name": "Symbiotic Chimeric Nucleus",
-          "qty": 15,
-          "rar": 2,
-          "kind": "mob",
-          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112150.webp"
-        },
-        {
-          "id": "112151",
-          "name": "Genesis Chimeric Nexus",
-          "qty": 18,
-          "rar": 3,
-          "kind": "mob",
-          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112151.webp"
-        },
-        {
-          "id": "112155",
-          "name": "Hollow Root of Life",
-          "qty": 15,
-          "rar": 2,
-          "kind": "mob",
-          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112155.webp"
-        },
-        {
-          "id": "112156",
-          "name": "Sprout Node of Life",
-          "qty": 18,
-          "rar": 3,
-          "kind": "mob",
-          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112156.webp"
-        },
-        {
-          "id": "112157",
-          "name": "Coiled Core of Life",
-          "qty": 27,
-          "rar": 4,
-          "kind": "mob",
-          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112157.webp"
-        },
-        {
-          "id": "114085",
-          "name": "Rise of the Pale Star Army",
-          "qty": 3,
-          "rar": 2,
-          "kind": "weapon",
-          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_114085.webp"
-        },
-        {
-          "id": "114086",
-          "name": "Muster of the Pale Star Army",
-          "qty": 9,
-          "rar": 3,
-          "kind": "weapon",
-          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_114086.webp"
-        },
-        {
-          "id": "114087",
-          "name": "Clarion of the Pale Star Army",
-          "qty": 9,
-          "rar": 4,
-          "kind": "weapon",
-          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_114087.webp"
-        },
-        {
-          "id": "114088",
-          "name": "Triumph of the Pale Star Army",
-          "qty": 4,
-          "rar": 5,
-          "kind": "weapon",
-          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_114088.webp"
-        }
-      ],
-      "cost": 150000
-    },
-    {
       "id": "224008",
       "name": "(test) Shadow Realm Grenade",
       "rarity": 4,
@@ -34716,7 +40004,7 @@
       "weaponType": "ITEM_TPS_WEAPON",
       "type": "ITEM_TPS_WEAPON",
       "icon": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_AssaultRifle_Fulmen.webp",
-      "art": null,
+      "art": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_AssaultRifle_Fulmen.webp",
       "items": [],
       "cost": 0
     },
@@ -34727,7 +40015,7 @@
       "weaponType": "ITEM_TPS_WEAPON",
       "type": "ITEM_TPS_WEAPON",
       "icon": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_GrenadeLauncher_Ignis.webp",
-      "art": null,
+      "art": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_GrenadeLauncher_Ignis.webp",
       "items": [],
       "cost": 0
     },
@@ -34782,13 +40070,13 @@
       "weaponType": "ITEM_TPS_WEAPON",
       "type": "ITEM_TPS_WEAPON",
       "icon": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_AssaultRifle_Glacia.webp",
-      "art": null,
+      "art": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_AssaultRifle_Glacia.webp",
       "items": [],
       "cost": 0
     },
     {
       "id": "13435",
-      "name": "13435",
+      "name": "Frostbreath",
       "rarity": 4,
       "weaponType": "Polearm",
       "type": "Polearm",
@@ -34971,8 +40259,111 @@
       "cost": 150000
     },
     {
+      "id": "380003",
+      "name": "A Touch of Frost in Scorching Summer!",
+      "rarity": 4,
+      "weaponType": "Sword",
+      "type": "Sword",
+      "icon": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_Sword_Icecream.webp",
+      "art": "../../Database/GameData/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Sword_Icecream.webp",
+      "items": [],
+      "cost": 0
+    },
+    {
+      "id": "11436",
+      "name": "Emberwell",
+      "rarity": 4,
+      "weaponType": "Sword",
+      "type": "Sword",
+      "icon": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_Sword_GlintstoneSword.webp",
+      "art": "../../Database/GameData/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Sword_GlintstoneSword.webp",
+      "items": [
+        {
+          "id": "112146",
+          "name": "Ethereal Glimmershard",
+          "qty": 10,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112146.webp"
+        },
+        {
+          "id": "112147",
+          "name": "Ethereal Crystal",
+          "qty": 15,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112147.webp"
+        },
+        {
+          "id": "112148",
+          "name": "Ethereal Crystalscale Stone",
+          "qty": 18,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112148.webp"
+        },
+        {
+          "id": "112152",
+          "name": "Accreted Fragment",
+          "qty": 15,
+          "rar": 2,
+          "kind": "gem",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112152.webp"
+        },
+        {
+          "id": "112153",
+          "name": "Accreted Mass",
+          "qty": 18,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112153.webp"
+        },
+        {
+          "id": "112154",
+          "name": "Accreted Growth",
+          "qty": 27,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112154.webp"
+        },
+        {
+          "id": "114085",
+          "name": "Rise of the Pale Star Army",
+          "qty": 3,
+          "rar": 2,
+          "kind": "weapon",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_114085.webp"
+        },
+        {
+          "id": "114086",
+          "name": "Muster of the Pale Star Army",
+          "qty": 9,
+          "rar": 3,
+          "kind": "weapon",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_114086.webp"
+        },
+        {
+          "id": "114087",
+          "name": "Clarion of the Pale Star Army",
+          "qty": 9,
+          "rar": 4,
+          "kind": "weapon",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_114087.webp"
+        },
+        {
+          "id": "114088",
+          "name": "Triumph of the Pale Star Army",
+          "qty": 4,
+          "rar": 5,
+          "kind": "weapon",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_114088.webp"
+        }
+      ],
+      "cost": 150000
+    },
+    {
       "id": "11435",
-      "name": "11435",
+      "name": "Heretic's Molten Blade",
       "rarity": 4,
       "weaponType": "Sword",
       "type": "Sword",
@@ -35178,109 +40569,6 @@
               "name": "Blazing Sacrificial Heart - Natlan - Ancient Watchtower"
             }
           ]
-        }
-      ],
-      "cost": 150000
-    },
-    {
-      "id": "380003",
-      "name": "380003",
-      "rarity": 4,
-      "weaponType": "Sword",
-      "type": "Sword",
-      "icon": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_Sword_Icecream.webp",
-      "art": "../../Database/GameData/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Sword_Icecream.webp",
-      "items": [],
-      "cost": 0
-    },
-    {
-      "id": "11436",
-      "name": "Emberwell",
-      "rarity": 4,
-      "weaponType": "Sword",
-      "type": "Sword",
-      "icon": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_Sword_GlintstoneSword.webp",
-      "art": "../../Database/GameData/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Sword_GlintstoneSword.webp",
-      "items": [
-        {
-          "id": "112146",
-          "name": "Ethereal Glimmershard",
-          "qty": 10,
-          "rar": 1,
-          "kind": "mob",
-          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112146.webp"
-        },
-        {
-          "id": "112147",
-          "name": "Ethereal Crystal",
-          "qty": 15,
-          "rar": 2,
-          "kind": "mob",
-          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112147.webp"
-        },
-        {
-          "id": "112148",
-          "name": "Ethereal Crystalscale Stone",
-          "qty": 18,
-          "rar": 3,
-          "kind": "mob",
-          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112148.webp"
-        },
-        {
-          "id": "112152",
-          "name": "Accreted Fragment",
-          "qty": 15,
-          "rar": 2,
-          "kind": "gem",
-          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112152.webp"
-        },
-        {
-          "id": "112153",
-          "name": "Accreted Mass",
-          "qty": 18,
-          "rar": 3,
-          "kind": "mob",
-          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112153.webp"
-        },
-        {
-          "id": "112154",
-          "name": "Accreted Growth",
-          "qty": 27,
-          "rar": 4,
-          "kind": "mob",
-          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_112154.webp"
-        },
-        {
-          "id": "114085",
-          "name": "Rise of the Pale Star Army",
-          "qty": 3,
-          "rar": 2,
-          "kind": "weapon",
-          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_114085.webp"
-        },
-        {
-          "id": "114086",
-          "name": "Muster of the Pale Star Army",
-          "qty": 9,
-          "rar": 3,
-          "kind": "weapon",
-          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_114086.webp"
-        },
-        {
-          "id": "114087",
-          "name": "Clarion of the Pale Star Army",
-          "qty": 9,
-          "rar": 4,
-          "kind": "weapon",
-          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_114087.webp"
-        },
-        {
-          "id": "114088",
-          "name": "Triumph of the Pale Star Army",
-          "qty": 4,
-          "rar": 5,
-          "kind": "weapon",
-          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_114088.webp"
         }
       ],
       "cost": 150000

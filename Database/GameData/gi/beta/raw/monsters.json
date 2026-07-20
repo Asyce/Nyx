@@ -365,7 +365,7 @@
     "en": "Veiled Cloudchaser: Frostnight Scion",
     "desc": "An elegant elemental life form that possesses immense elemental affinity. The long years have exposed it to high concentrations of Anemo, resulting in its present form.\\nThe flowing wind has spun an extra pair of wings for it. As it almost never leaves footprints on the ground, it's also known as the one who walks with the wind.\\nIn still-extant prayers of the far north, it was born from the Frost Moon's blessings, symbolizing the pure source and the first radiance. Perhaps this is why it finds the tainting of its pale purity with the seven colors of heavenly light unbearable, thus rejecting all life that draws too close.",
     "ko": "질풍·서리밤 후예",
-    "zh": "",
+    "zh": "驰岚·霜夜灵嗣",
     "ja": "疾風・霜夜の継霊者"
   },
   "20080701": {
@@ -698,7 +698,7 @@
     "en": "Abyss Herald: Wicked Torrents",
     "desc": "Servants of the Abyss Order that use Hydro in combat.\\nThese silent figures are the vanguard of the Abyss, brandishing Tidal Blades that can engulf everything in an instant, crumpling armor and obliterating heretics. They shall bring preordained damnation upon the foolish masses.",
     "ko": "심연 사도·격류",
-    "zh": "",
+    "zh": "深渊使徒·激流",
     "ja": "アビスの使徒·激流"
   },
   "22020201": {
@@ -1040,7 +1040,7 @@
     "en": "Oprichniki Support Trooper",
     "desc": "A soldier of the Fatui Oprichniki, equipped with a heavy shield and tasked to fight at the very front to protect their comrades.\\nMany understand that in the long war between Snezhnaya and the dark calamity, only the side that holds out with greater resolution can outlast the other and emerge victorious. The ultimate resolution of the Oprichniki is, undoubtedly, the shield that protects their forces — so long as this shield does not fall, there is always hope for victory.",
     "ko": "우인단 특수부대·방패병",
-    "zh": "",
+    "zh": "愚人众特辖队·支援兵",
     "ja": "ファデュイ特務隊・重撃兵"
   },
   "23073101": {
@@ -1049,7 +1049,7 @@
     "en": "Oprichniki Grenadier",
     "desc": "A soldier of the Fatui Oprichniki, equipped with a man-portable grenade launcher that can perform close-range bombardment.\\nThough the Oprichniki has large-scale, fully-functional fire support attachments, the commanding staff still advocates for large numbers of grenadiers to be maintained. After all, no big gun can compare in surety at the very front lines of combat to a grenade launcher you can direct at will.",
     "ko": "우인단 특수부대·유탄 사수",
-    "zh": "",
+    "zh": "愚人众特辖队·榴铳手",
     "ja": "ファデュイ特務隊・銃士"
   },
   "23074101": {
@@ -1337,7 +1337,7 @@
     "en": "Geological Survey Mek",
     "desc": "A clockwork meka designed for surveying underground resources and certain minerals.\\nDue to the fact that the desired metal type can be set, this device has proven very popular among Treasure Hoarders and Adventurers alike.",
     "ko": "장치·지질 조사 타입",
-    "zh": "",
+    "zh": "机关·地质勘探型",
     "ja": "マシナリー·地質探知型"
   },
   "24068101": {
@@ -2237,7 +2237,7 @@
     "en": "Tatankasaurus Warrior: Skybreaker",
     "desc": "A powerful warrior from a land of plenty, whose bravery has been acknowledged and for which they may wear the Saurian Crown.\\nIt is said that the warriors of the Collective of Plenty like to deal powerful strikes while dashing at their foes — a lesson learned from the Tatankasaurs who share their lands. This is especially true for those warriors who wield heavy weapons, and claim the secret to a successful blow is to swing from the hips.",
     "ko": "뿔룡 무사·천둥 망치",
-    "zh": "",
+    "zh": "突角龙武士·破空轰动",
     "ja": "ライノ竜戦士・破空の響動"
   },
   "25511201": {
@@ -2426,7 +2426,7 @@
     "en": "Whirling Electro Fungus",
     "desc": "A spore organism of some intelligence. It possesses extreme adaptability.\\nResearch has shown that this sort of fungal beast's internal electric current will change periodically. If further developed, perhaps this study may give rise to a wide range of uses...",
     "ko": "빙글 번개 버섯몬",
-    "zh": "",
+    "zh": "旋转雷蕈兽",
     "ja": "グルグル雷キノコン"
   },
   "26090501": {
@@ -2444,7 +2444,7 @@
     "en": "Whirling Pyro Fungus",
     "desc": "A spore organism of some intelligence. It possesses extreme adaptability.\\nDue to the abundant amount of Pyro these creatures contain, they have a tendency to cause forest fires during dry seasons, and thus are considered a dangerous invasive species to the forest.",
     "ko": "빙글 불 버섯몬",
-    "zh": "",
+    "zh": "旋转火蕈兽",
     "ja": "グルグル炎キノコン"
   },
   "26090701": {
@@ -2543,7 +2543,7 @@
     "en": "Winged Dendroshroom",
     "desc": "A mimetic life form made out of spores that has extreme adaptability.\\nGoing well past mere appearances, this being even imitates the habits of birds. It can use its spore-built wings to fly in the sky, spreading yet more spores to yet more distant places.\\nThis creature has a position of command amongst colonies of Fungi and exhibits heightened intelligence to match.",
     "ko": "포롱 풀 버섯몬",
-    "zh": "",
+    "zh": "有翼草本真蕈",
     "ja": "パタパタ草マッシュロン"
   },
   "26120201": {
@@ -2948,7 +2948,7 @@
     "en": "Biting-Cold Wayob Manifestation",
     "desc": "The Masters of the Night-Wind believe in and worship the Wayob, which manifests upon the land with the power of totems and Nightsouls.\\nThe Masters of the Night-Wind have tried using many mediums to communicate with the Night Kingdom. Eventually, they discovered that the medium that allowed them to establish the most stable connection with the Wayob was obsidian. This may explain why, over the ages, Wayob Manifestations have taken on a form that resembles a stone statue. The Masters of the Night-Wind believe their Wayob has the power to control the process of freezing and crystallization, and can also command both fixedness and mutability.",
     "ko": "한기·대영혼의 화신",
-    "zh": "",
+    "zh": "凛冽·大灵显化身",
     "ja": "凛烈・大霊の化身"
   },
   "26260901": {
@@ -3082,7 +3082,7 @@
     "icon": "UI_MonsterIcon_Chimera_ElephantBird",
     "en": "Chimeric Winged Elephant",
     "desc": "A product of bio-alchemy that was once widespread across the frozen lands, an aberrant chimeric monster.\\nA short-legged elephant with wings could likely migrate without being restricted by terrain, and would also be able to reach fruit growing in higher places.\\nFor that purpose alone, its creator brought such a beast into being. Later, during the war against the dark tide, Chimeric Winged Elephants worked alongside the Vila in intelligence and communications, ensuring that the Belyi Tsar's commands could pass smoothly and swiftly as his army advanced.",
-    "ko": "비행 코끼리 키메라",
+    "ko": "코끼리 키메라",
     "zh": "嵌合翼象兽",
     "ja": "キメラエレファントJP0D"
   },
@@ -3100,9 +3100,9 @@
     "icon": "UI_MonsterIcon_Chimera_Manticore",
     "en": "Chimeric Winged Lion",
     "desc": "A product of bio-alchemy, one of the man-made monsters that was abandoned.\\nTo bring a certain great wish to fruition, an alchemist created numerous primordial bodies known as \"Prototypes\" through a technique that must never be retold.\\nOf these, only one successfully grew into the perfect creation he had planned. The others, though close to perfection, ultimately failed, and were carelessly remade into two-headed monsters.\\nThough regarded as failures, these special two-headed monsters still possess tremendous power. Among chimeras, there is nothing that can stand against them.",
-    "ko": "쌍두 사자 키메라",
+    "ko": "날개 사자 키메라",
     "zh": "嵌合翼骏狮",
-    "ja": "キメラ・フリューゲルレーヴェJP0B"
+    "ja": "合成獣・フリューゲルレーヴェ"
   },
   "28010101": {
     "codex": "CRITTER",
@@ -3489,7 +3489,7 @@
     "desc": "Humanity's best friend!\\nMorozhounds have stunning endurance and gentle personalities. And so, humans fitted them with harnesses and had them pull sleds, forming the first transport teams on the snowy plains.\\nToday, dog-pulled sleds have slowly become more of a tourist attraction in small border towns, with a tiny minority who still respect sledding as a traditional competitive sport. Still, the people of the snowfields continue to regard Morozhounds as the closest of companions.",
     "ko": "썰매견",
     "zh": "雪地犬",
-    "ja": "スノウウルフJP0D"
+    "ja": "スノウハウンド"
   },
   "28020501": {
     "codex": "ANIMAL",
@@ -3696,7 +3696,7 @@
     "desc": "Close kin of the Chic Badgers, these animals make their dwelling in the Snezhnayan interior.\\nFuzzbadgers are clad in long, thick, and soft fur, allowing them to travel as they please, even in the coldest of climes.\\nDespite their fluffy appearance, they possess a fierce temperament and never back down, even when facing massive foes. Such is the law of survival on the snowy plains: Do not tread upon the territory of a Fuzzbadger carelessly, lest they show their claws and swiftly make an example of any trespassers.",
     "ko": "복슬 오소리",
     "zh": "茸茸獾",
-    "ja": "モフモフアナグマJP0D"
+    "ja": "モフモフアナグマ"
   },
   "28021501": {
     "codex": "ANIMAL",
@@ -3719,11 +3719,11 @@
   "28021503": {
     "codex": "ANIMAL",
     "icon": "UI_AnimalIcon_Reindeer_03",
-    "en": "Severmoose",
+    "en": "Severelk",
     "desc": "Tall and tame animals with a pair of eyes that seem to see through all things.\\nThe Severelk living on the snowy plains have thick fur and sturdy horns, yet their feet are light and fleet, and their sense of smell is so keen that they can forage for food even in the thickest snow, and they flee pursuit from predators swiftly.\\nIn old Snezhanyan fairy tales, Severelk are gentle and winsome, and will enter the dreams of children to bring them the gift that is \"growing up well.\"",
     "ko": "주걱뿔 사슴",
     "zh": "雪驼鹿",
-    "ja": "雪ヘラジカJP0D"
+    "ja": "北ヘラジカ"
   },
   "28021601": {
     "codex": "ANIMAL",
@@ -3732,7 +3732,7 @@
     "desc": "Beasts covered from head to toe in spikes save for their soft bellies.\\nThe Fluffahog is a gentle soul that enjoys sleeping. Indeed, they are skilled at making hidden nests using plants and leaves, so that they can have sweet dreams even in the winter cold. If their nests are discovered, they will curl into a ball, presenting their wall of tough spikes to the world, as though meaning to repel all threats this way.\\nIn Snezhnayan folk stories, the Fluffahog is the smartest amongst animals, knowing formulae for wondrous herbal remedies, comprehending the secrets to stemming the tides of weakening age, even knowing how to open a lock that has no key.",
     "ko": "말랑 고슴도치",
     "zh": "软猬兽",
-    "ja": "やわらかねずみJP0D"
+    "ja": "モコモコネズミ"
   },
   "28021701": {
     "codex": "ANIMAL",
@@ -3741,7 +3741,7 @@
     "desc": "Animals that can survive even extreme cold, and that boast large bodies and thick fur.\\nDespite their size, Polyarbears are actually quite agile, being able to leap between ice floes and pursue their prey without making a sound, making them the best hunters in the tundra.\\nSkilled in combat, the Polyarbear is no tame beast, and will not submit to either beast or man easily. As such, they are regarded in some regions of Snezhnaya as a symbol of strength.",
     "ko": "극지곰",
     "zh": "极地熊",
-    "ja": "ポーラーベアJP0D"
+    "ja": "ユキグマ"
   },
   "28022001": {
     "codex": "ANIMAL",
@@ -4200,16 +4200,16 @@
     "desc": "Small Snezhnayan flying birds named for their feathers.\\nRed-Bellied Plovers occasionally call in slow, gentle, and even slightly mournful voices. As such, poets have written of them as singing about someone's tragedies.\\nOf course, these are just romantic interpolations by humans. Red-Bellied Plovers are an innocent, even naive sort, agile in flight, and tough to boot. Forests, fruit orchards, and the water's edge can all serve as their habitats. And for this Plover species, there is likely no more critical activity in life than foraging.",
     "ko": "붉은배물떼새",
     "zh": "赤腹兰鸻",
-    "ja": "赤腹のチドリJP0D"
+    "ja": "アカハラチドリ"
   },
   "28030712": {
     "codex": "AVIARY",
     "icon": "UI_AnimalIcon_Owl_01",
     "en": "Nochhornowl",
     "desc": "Birds that make Snezhnaya their home. They have a full-body covering of snow-white feathers, and their habit of hunting after sunset has earned them their name.\\nAs the most agile hunters to stalk the tundra, the Nochhornowl is skilled at the arts of disguise, observation, and rapid pursuit.\\nMany hunters see them as a symbol of wisdom, believing them to have spirits and giving them due respect. In return, these owls sometimes guide hunters, sending them messages from the forest depths.",
-    "ko": "밤올빼미",
+    "ko": "밤소쩍새",
     "zh": "夜角鸮",
-    "ja": "ヨルミミズクJP0D"
+    "ja": "ヨルミミズク"
   },
   "28030723": {
     "codex": "AVIARY",
@@ -4799,56 +4799,56 @@
   "28042001": {
     "codex": "FISH",
     "icon": "UI_ItemIcon_131054",
-    "en": "",
-    "desc": "",
-    "ko": "",
-    "zh": "(test)球鱼01（灰）",
-    "ja": ""
+    "en": "Charcoal Snowfin",
+    "desc": "A plump, spherical Snezhnayan fish, this species might look like a distant cousin to the pufferfish found throughout Teyvat. However, the two actually belong to entirely separate lineages. When the Fishing Association first recorded it, its code name was \"Snowland Roundfin.\" After more than a dozen generations of anglers, this informal name gradually evolved into \"Snowfin.\"\\nThe Charcoal Snowfin is the most common subspecies in this family. It is said that the fine, powdery scales contain special components. When dried and ground, and then mixed with the dried powder of Golden Fern roots, they can serve as a remarkably efficient fire starter, prized by many Snezhnayan adventurers.",
+    "ko": "잿빛 눈도치",
+    "zh": "炭灰雪圆鳍",
+    "ja": "ハイマルウオ"
   },
   "28042002": {
     "codex": "FISH",
     "icon": "UI_ItemIcon_131055",
-    "en": "",
-    "desc": "",
-    "ko": "",
-    "zh": "(test)球鱼02（白）",
-    "ja": ""
+    "en": "Cream Snowfin",
+    "desc": "A plump, spherical Snezhnayan fish, this species might look like a distant cousin to the pufferfish found throughout Teyvat. However, the two actually belong to entirely separate lineages. When the Fishing Association first recorded it, its code name was \"Snowland Roundfin.\" After more than a dozen generations of anglers, this informal name gradually evolved into \"Snowfin.\"\\nThe Cream Snowfin, thanks to its near-pure-white coloration and its scarcity, is considered the most precious of Snezhnayan fish. Legend has it that the moment its waters grow even slightly impure, other colors begin to leach into its body. Several fairy tales cast it as their protagonist, telling the dreamlike story of a gifted young angler-lad following one of these Snowfins to the \"Kingdom of Cream\" — a story that briefly caused a citywide cream shortage.",
+    "ko": "크림 눈도치",
+    "zh": "奶油雪圆鳍",
+    "ja": "ユキマルウオ"
   },
   "28042003": {
     "codex": "FISH",
     "icon": "UI_ItemIcon_131056",
-    "en": "",
-    "desc": "",
-    "ko": "",
-    "zh": "(test)球鱼03（黄）",
-    "ja": ""
+    "en": "Moonlight Snowfin",
+    "desc": "A plump, spherical Snezhnayan fish, this species might look like a distant cousin to the pufferfish found throughout Teyvat. However, the two actually belong to entirely separate lineages. When the Fishing Association first recorded it, its code name was \"Snowland Roundfin.\" After more than a dozen generations of anglers, this informal name gradually evolved into \"Snowfin.\"\\nFolklore claims the Moonlight Snowfin has the strongest endurance and the best sense of direction of any Snezhnayan fish, its unusual coloration being a gift from moonlight — its ancestors, so the story goes, once traveled far to the waters of Nod-Krai and were baptized in moonbeams. Merchants returning from Nod-Krai deny the tale, and biologists point out that the color most likely comes from the underwater plants it favors as food. But since \"moonlight\" is such a pleasant and memorable prefix, the name has stuck to this day.",
+    "ko": "달빛 눈도치",
+    "zh": "月光雪圆鳍",
+    "ja": "ゲッコウマルウオ"
   },
   "28042101": {
     "codex": "FISH",
     "icon": "UI_ItemIcon_131057",
-    "en": "",
-    "desc": "",
-    "ko": "",
-    "zh": "(test)飞鱼01（黄）",
-    "ja": ""
+    "en": "Ruby Starbloom Fish",
+    "desc": "A special species that swims the waters of Snezhnaya. Viewed from the front, its six fins form a shape resembling stars and snowflakes, and so the angler who first discovered them called them \"Starbloom Fish.\" The red subspecies is close in color to a red beet and was therefore given the prefix \"Ruby.\" That said, the prefix is only a description of appearance. Some scholars have found that the surface coloration serves mainly to intimidate predators, thereby protecting the fish. It is thus somewhat ironic that from a human perspective, this makes them look all the more delicious.",
+    "ko": "붉은 별꽃날치",
+    "zh": "赤甜星花鱼",
+    "ja": "レッドスターフィッシュ"
   },
   "28042102": {
     "codex": "FISH",
     "icon": "UI_ItemIcon_131058",
-    "en": "",
-    "desc": "",
-    "ko": "",
-    "zh": "(test)飞鱼02（绿）",
-    "ja": ""
+    "en": "Frostpetal Starbloom Fish",
+    "desc": "A special species that swims the waters of Snezhnaya. Viewed from the front, its six fins form a shape resembling stars and snowflakes, and so the angler who first discovered them called them \"Starbloom Fish.\" The azure subspecies has coloration akin to the outer petal-edges of a Frostfairy Flower, and so was given the prefix \"Frostpetal.\" Compared to its kin, the Frostpetal Starbloom Fish has the keenest senses of the family, always able to detect danger from far off. And thanks to the propulsion advantage of its six fins, they are also quick to flee from said danger.",
+    "ko": "서리 별꽃날치",
+    "zh": "青仙星花鱼",
+    "ja": "ブルースターフィッシュ"
   },
   "28042103": {
     "codex": "FISH",
     "icon": "UI_ItemIcon_131059",
-    "en": "",
-    "desc": "",
-    "ko": "",
-    "zh": "(test)飞鱼03（蓝）",
-    "ja": ""
+    "en": "Iridescent Starbloom Fish",
+    "desc": "A special species that swims the waters of Snezhnaya. Viewed from the front, its six fins form a shape resembling stars and snowflakes, and so the angler who first discovered them called them \"Starbloom Fish.\" The blue subspecies' scales have superb texture and coloration — under certain light, they look like rainbow-reflecting crystal, earning it the elegant prefix \"Iridescent.\" Thanks to this shimmering appearance, Iridescent Starbloom Fish are prized guests of Snezhnayan fish collectors. Indeed, some have even built expensive aquarium landscapes solely for this fish, only to find themselves unable to catch one for the longest time...",
+    "ko": "무지개 별꽃날치",
+    "zh": "虹晶星花鱼",
+    "ja": "プリズムスターフィッシュ"
   },
   "28050101": {
     "codex": "CRITTER",
@@ -5028,7 +5028,7 @@
     "desc": "A flying insect commonly found near mines. Beneath its icy-blue fuzz lies a body that resembles Kristall.\\nThis creature is much beloved by many miners. With even the faintest light source, Ledobugs in the mines can reflect the light and illuminate the dark caverns.",
     "ko": "얼음 벌레",
     "zh": "冰魄虫",
-    "ja": "氷魂虫JP0D"
+    "ja": "氷魂虫"
   },
   "28051301": {
     "codex": "CRITTER",
@@ -5037,7 +5037,7 @@
     "desc": "A beetle commonly found near mines. Its shell is hard, and its color and shape resemble that of Kresnik Kristall, hence its name.\\nIt is said that people first discovered the rich mineral deposits beneath these frozen lands by following the trails of Kristall Worms, and from those riches built a great civilization amid the bitter cold.",
     "ko": "광석 갑충",
     "zh": "晶矿虫",
-    "ja": "晶鉱虫JP0D"
+    "ja": "晶鉱虫"
   },
   "28060101": {
     "codex": "ANIMAL",
@@ -5105,11 +5105,11 @@
   "28061601": {
     "codex": "ANIMAL",
     "icon": "UI_AnimalIcon_Megamoth_Snezhnaya",
-    "en": "Sumpter Beast",
+    "en": "White Sumpter Beast",
     "desc": "These white-furred quadrupeds are distant relatives of Sumeru's Sumpter Beasts.\\nThe White Sumpter Beasts are friendly to humans and resistant to the cold by nature, and they were once the most important mode of transport across the frozen fields. Even today, they remain good helpers to the Snezhnayan traveling merchant.",
-    "ko": "동물 짐꾼",
-    "zh": "驮兽",
-    "ja": "駄獣"
+    "ko": "흰 동물 짐꾼",
+    "zh": "白驮兽",
+    "ja": "ホワイト駄獣"
   },
   "28070701": {
     "codex": "FISH",

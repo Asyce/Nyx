@@ -2,8 +2,8 @@
   "id": 34100,
   "name": "Feathered Fate",
   "desc2": "Anomaly Proficiency +30",
-  "desc4": "When the equipper enters the battlefield or is switched to as the active character, they gain a buff: Anomaly Proficiency increases by 50, and if the equipper is a <color=#FFA9DD>Lumen Attribute</color> character, Attribute Anomaly Damage Dealt increases by 15%, lasting 15s;\nWhen the equipper is not the active character, they always retain this buff.",
-  "story": "EquipmentSuit_34100_story",
+  "desc4": "When the equipper enters the battlefield or is switched in as the active character, they gain the following buff: Anomaly Proficiency increases by 50. If the equipper is a <color=#FFA9DD>Lumiflux</color> character, Attribute Anomaly DMG increases by 15%, lasting 15s.\nThis buff remains active while the equipper is off-field.",
+  "story": "...",
   "icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitFeatheredFate.png",
   "icon2": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitFeatheredFate.png"
 }

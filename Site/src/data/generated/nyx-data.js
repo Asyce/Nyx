@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-07-17T11:20:03.190Z",
+  "generatedAt": "2026-07-20T18:37:44.453Z",
   "codes": {
-    "updated": "2026-07-17T00:07:09.260Z",
+    "updated": "2026-07-20T00:04:24.624Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -19,7 +19,7 @@ var NYX_DB = {
             "needle": "primogem",
             "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-20",
           "firstSeen": "2026-07-05T17:19:20.440Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=PFY1S40I88T9",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=PFY1S40I88T9"
@@ -63,7 +63,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-20",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK"
@@ -77,7 +77,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-20",
           "firstSeen": "2026-07-15T09:16:06.610Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB"
@@ -91,7 +91,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-20",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH"
@@ -105,7 +105,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-20",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL"
@@ -119,7 +119,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-20",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS"
@@ -133,7 +133,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-20",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA"
@@ -147,7 +147,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-20",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT"
@@ -191,7 +191,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-20",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ROSCAELIFER0617",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ROSCAELIFER0617"
@@ -205,7 +205,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-20",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT"
@@ -219,10 +219,24 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-20",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO"
+        },
+        {
+          "code": "ZZZDREAMLAND",
+          "reward": "Polychrome x 30, Denny x 6,666",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Polychrome",
+            "needle": "polychrome",
+            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
+          },
+          "added": "2026-07-20",
+          "firstSeen": "2026-07-17T15:01:00.612Z",
+          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZDREAMLAND",
+          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZDREAMLAND"
         },
         {
           "code": "ZZZSEASON3",
@@ -233,7 +247,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-20",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSEASON3",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSEASON3"
@@ -247,28 +261,126 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-20",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM"
+        },
+        {
+          "code": "ZZZ2YEAR",
+          "reward": "50 Polychrome",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Polychrome",
+            "needle": "polychrome",
+            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
+          },
+          "added": "2026-07-18",
+          "firstSeen": "2026-07-18T06:12:26.512Z",
+          "sourceUrl": "https://www.crimsonwitch.com/codes/Zenless_Zone_Zero",
+          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ2YEAR"
+        },
+        {
+          "code": "ZZZ31REMIELLE",
+          "reward": "60 Polychrome, 6666 Denny",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Polychrome",
+            "needle": "polychrome",
+            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
+          },
+          "added": "2026-07-18",
+          "firstSeen": "2026-07-17T15:01:00.612Z",
+          "sourceUrl": "https://www.crimsonwitch.com/codes/Zenless_Zone_Zero",
+          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ31REMIELLE"
         }
       ],
       "wuwa": [],
-      "ae": []
+      "ae": [
+        {
+          "code": "ENDFIELDRENEW",
+          "reward": "One Safety Helmet Sticker and 71,600 T Creds",
+          "premium": false,
+          "premiumCurrency": {
+            "name": "Oroberyl",
+            "needle": "oroberyl",
+            "aliases": [
+              "originium"
+            ],
+            "icon": null
+          },
+          "added": "2026-07-14",
+          "firstSeen": "2026-07-16T11:46:47.991Z",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=ENDFIELDRENEW",
+          "redeemUrl": null
+        },
+        {
+          "code": "ZAU2SYXHWX5L4ZH",
+          "reward": "5k T Creds and Ten Arms Insp Kits",
+          "premium": false,
+          "premiumCurrency": {
+            "name": "Oroberyl",
+            "needle": "oroberyl",
+            "aliases": [
+              "originium"
+            ],
+            "icon": null
+          },
+          "added": "2026-05-05",
+          "firstSeen": "2026-07-16T11:46:47.991Z",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=ZAU2SYXHWX5L4ZH",
+          "redeemUrl": null
+        },
+        {
+          "code": "ENDFIELD4PC",
+          "reward": "Two Advanced Combat Records, Two Arms Insp Kits, and 13k T Creds Pc Only",
+          "premium": false,
+          "premiumCurrency": {
+            "name": "Oroberyl",
+            "needle": "oroberyl",
+            "aliases": [
+              "originium"
+            ],
+            "icon": null
+          },
+          "added": "2026-05-03",
+          "firstSeen": "2026-07-16T11:46:47.991Z",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=ENDFIELD4PC",
+          "redeemUrl": null
+        },
+        {
+          "code": "ENDFIELDGIFT",
+          "reward": "150 Oroberyl, 20 Intermediate Combat Records, 20 Arms Insp Kits, and 10k T Creds",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Oroberyl",
+            "needle": "oroberyl",
+            "aliases": [
+              "originium"
+            ],
+            "icon": null
+          },
+          "added": "2026-05-03",
+          "firstSeen": "2026-07-16T11:46:47.991Z",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=ENDFIELDGIFT",
+          "redeemUrl": null
+        }
+      ]
     }
   },
   "banners": {
     "updated": "2026-07-17T11:11:02.378Z",
-    "checkedAt": "2026-07-17T11:11:02.378Z",
+    "checkedAt": "2026-07-18T19:24:04.058Z",
     "games": {
       "hsr": {
         "name": "Honkai: Star Rail",
         "freshness": {
-          "status": "fresh",
-          "checkedAt": "2026-07-17T11:11:02.378Z",
+          "status": "stale",
+          "checkedAt": "2026-07-18T19:24:04.058Z",
           "lastSuccessfulFetch": "2026-07-17T11:11:02.378Z",
           "lastValidUpdate": "2026-07-17T11:11:02.378Z",
-          "source": "game8"
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": "4.4",
@@ -302,11 +414,12 @@ var NYX_DB = {
       "gi": {
         "name": "Genshin Impact",
         "freshness": {
-          "status": "fresh",
-          "checkedAt": "2026-07-17T11:11:02.378Z",
+          "status": "stale",
+          "checkedAt": "2026-07-18T19:24:04.058Z",
           "lastSuccessfulFetch": "2026-07-17T11:11:02.378Z",
           "lastValidUpdate": "2026-07-17T11:11:02.378Z",
-          "source": "game8"
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": "6.7 Phase 1",
@@ -356,11 +469,12 @@ var NYX_DB = {
       "wuwa": {
         "name": "Wuthering Waves",
         "freshness": {
-          "status": "fresh",
-          "checkedAt": "2026-07-17T11:11:02.378Z",
+          "status": "stale",
+          "checkedAt": "2026-07-18T19:24:04.058Z",
           "lastSuccessfulFetch": "2026-07-17T11:11:02.378Z",
           "lastValidUpdate": "2026-07-17T11:11:02.378Z",
-          "source": "game8"
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": null,
@@ -437,11 +551,12 @@ var NYX_DB = {
       "zzz": {
         "name": "Zenless Zone Zero",
         "freshness": {
-          "status": "fresh",
-          "checkedAt": "2026-07-17T11:11:02.378Z",
+          "status": "stale",
+          "checkedAt": "2026-07-18T19:24:04.058Z",
           "lastSuccessfulFetch": "2026-07-17T11:11:02.378Z",
           "lastValidUpdate": "2026-07-17T11:11:02.378Z",
-          "source": "game8"
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": null,
@@ -475,11 +590,12 @@ var NYX_DB = {
       "ae": {
         "name": "Arknights: Endfield",
         "freshness": {
-          "status": "fresh",
-          "checkedAt": "2026-07-17T11:11:02.378Z",
+          "status": "stale",
+          "checkedAt": "2026-07-18T19:24:04.058Z",
           "lastSuccessfulFetch": "2026-07-17T11:11:02.378Z",
           "lastValidUpdate": "2026-07-17T11:11:02.378Z",
-          "source": "game8"
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": "1.4 Phase 1",
@@ -4196,7 +4312,7 @@ var NYX_DB = {
             "needle": "primogem",
             "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-20",
           "firstSeen": "2026-07-05T17:19:20.440Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=PFY1S40I88T9",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=PFY1S40I88T9"
@@ -4233,11 +4349,12 @@ var NYX_DB = {
       "banners": {
         "name": "Genshin Impact",
         "freshness": {
-          "status": "fresh",
-          "checkedAt": "2026-07-17T11:11:02.378Z",
+          "status": "stale",
+          "checkedAt": "2026-07-18T19:24:04.058Z",
           "lastSuccessfulFetch": "2026-07-17T11:11:02.378Z",
           "lastValidUpdate": "2026-07-17T11:11:02.378Z",
-          "source": "game8"
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": "6.7 Phase 1",
@@ -4285,7 +4402,7 @@ var NYX_DB = {
         "upcoming": []
       },
       "tcg": {
-        "updated": "2026-07-16T09:08:10.119Z",
+        "updated": "2026-07-18T08:34:32.783Z",
         "counts": {
           "characterCards": 106,
           "otherCards": 513
@@ -41422,8 +41539,8 @@ var NYX_DB = {
         ]
       },
       "furniture": {
-        "updated": "2026-07-08T09:20:30.353Z",
-        "version": "6.7.51",
+        "updated": "2026-07-18T08:35:00.621Z",
+        "version": "6.7.52",
         "counts": {
           "items": 2342,
           "craftable": 1386
@@ -110754,7 +110871,7 @@ var NYX_DB = {
         ]
       },
       "wonderland": {
-        "updated": "2026-07-16T09:08:14.172Z",
+        "updated": "2026-07-18T08:35:01.650Z",
         "version": "6.7.52",
         "langMap": {
           "slot": {
@@ -146317,6 +146434,185 @@ var NYX_DB = {
           "forms": []
         },
         {
+          "id": "gi-traveler",
+          "name": "Traveler",
+          "aliases": [
+            "Aether",
+            "Lumine"
+          ],
+          "title": "Descender",
+          "rarity": 5,
+          "element": "Anemo",
+          "role": "Sword",
+          "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+          "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+          "facts": {
+            "constellation": "Viator"
+          },
+          "overviewArt": "../../Database/GameData/gi/gcg/other cards/assets/332001-The Bestest Travel Companion!.webp",
+          "overviewArtPool": [
+            "../../Database/GameData/gi/gcg/other cards/assets/332001-The Bestest Travel Companion!.webp"
+          ],
+          "forms": [
+            {
+              "name": "Traveler",
+              "label": "Anemo",
+              "variant": "Anemo",
+              "gender": "male",
+              "element": "Anemo",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Anemo",
+              "variant": "Anemo",
+              "gender": "female",
+              "element": "Anemo",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Geo",
+              "variant": "Geo",
+              "gender": "male",
+              "element": "Geo",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Geo",
+              "variant": "Geo",
+              "gender": "female",
+              "element": "Geo",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Electro",
+              "variant": "Electro",
+              "gender": "male",
+              "element": "Electro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Electro",
+              "variant": "Electro",
+              "gender": "female",
+              "element": "Electro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Dendro",
+              "variant": "Dendro",
+              "gender": "male",
+              "element": "Dendro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Dendro",
+              "variant": "Dendro",
+              "gender": "female",
+              "element": "Dendro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Hydro",
+              "variant": "Hydro",
+              "gender": "male",
+              "element": "Hydro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Hydro",
+              "variant": "Hydro",
+              "gender": "female",
+              "element": "Hydro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Pyro",
+              "variant": "Pyro",
+              "gender": "male",
+              "element": "Pyro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Pyro",
+              "variant": "Pyro",
+              "gender": "female",
+              "element": "Pyro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            }
+          ]
+        },
+        {
           "id": "gi-10000016",
           "name": "Diluc",
           "aliases": [],
@@ -146806,185 +147102,6 @@ var NYX_DB = {
             "../../Database/GameData/gi/gcg/character cards/assets/1202-Xingqiu.webp"
           ],
           "forms": []
-        },
-        {
-          "id": "gi-traveler",
-          "name": "Traveler",
-          "aliases": [
-            "Aether",
-            "Lumine"
-          ],
-          "title": "Descender",
-          "rarity": 5,
-          "element": "Anemo",
-          "role": "Sword",
-          "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-          "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-          "facts": {
-            "constellation": "Viator"
-          },
-          "overviewArt": "../../Database/GameData/gi/gcg/other cards/assets/332001-The Bestest Travel Companion!.webp",
-          "overviewArtPool": [
-            "../../Database/GameData/gi/gcg/other cards/assets/332001-The Bestest Travel Companion!.webp"
-          ],
-          "forms": [
-            {
-              "name": "Traveler",
-              "label": "Anemo",
-              "variant": "Anemo",
-              "gender": "male",
-              "element": "Anemo",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {
-                "constellation": "Viator"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Anemo",
-              "variant": "Anemo",
-              "gender": "female",
-              "element": "Anemo",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {
-                "constellation": "Viatrix"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Geo",
-              "variant": "Geo",
-              "gender": "male",
-              "element": "Geo",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {
-                "constellation": "Viator"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Geo",
-              "variant": "Geo",
-              "gender": "female",
-              "element": "Geo",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {
-                "constellation": "Viatrix"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Electro",
-              "variant": "Electro",
-              "gender": "male",
-              "element": "Electro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {
-                "constellation": "Viator"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Electro",
-              "variant": "Electro",
-              "gender": "female",
-              "element": "Electro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {
-                "constellation": "Viatrix"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Dendro",
-              "variant": "Dendro",
-              "gender": "male",
-              "element": "Dendro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {
-                "constellation": "Viator"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Dendro",
-              "variant": "Dendro",
-              "gender": "female",
-              "element": "Dendro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {
-                "constellation": "Viatrix"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Hydro",
-              "variant": "Hydro",
-              "gender": "male",
-              "element": "Hydro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {
-                "constellation": "Viator"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Hydro",
-              "variant": "Hydro",
-              "gender": "female",
-              "element": "Hydro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {
-                "constellation": "Viatrix"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Pyro",
-              "variant": "Pyro",
-              "gender": "male",
-              "element": "Pyro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {
-                "constellation": "Viator"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Pyro",
-              "variant": "Pyro",
-              "gender": "female",
-              "element": "Pyro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {
-                "constellation": "Viatrix"
-              }
-            }
-          ]
         }
       ]
     },
@@ -149188,7 +149305,7 @@ var NYX_DB = {
         {
           "key": "relic-sets",
           "title": "Relic Sets",
-          "updatedText": "03/07/2026",
+          "updatedText": "13/07/2026",
           "source": "Prydwen",
           "count": 60,
           "items": [
@@ -149353,11 +149470,11 @@ var NYX_DB = {
               "fields": {
                 "type": "PLANETARY ORNAMENT SET",
                 "bonuses": [
-                  "(2) Unknown",
-                  "(4) Unknown"
+                  "(2) When entering combat, if the wearer's Max Energy is greater than or equal to 200 , increases the wearer's DMG dealt by 0.2% for every 1 point exceeding this value, up to a max increase of 32% .",
+                  "(4)"
                 ]
               },
-              "text": "Cosmic Life Sciences Institute\nType: PLANETARY ORNAMENT SET\n(2) Unknown\n(4) Unknown",
+              "text": "Cosmic Life Sciences Institute\nType: PLANETARY ORNAMENT SET\n(2) When entering combat, if the wearer's Max Energy is greater than or equal to 200 , increases the wearer's DMG dealt by 0.2% for every 1 point exceeding this value, up to a max increase of 32% .\n(4)",
               "status": "live",
               "labels": []
             },
@@ -149448,11 +149565,11 @@ var NYX_DB = {
               "fields": {
                 "type": "PLANETARY ORNAMENT SET",
                 "bonuses": [
-                  "(2) Unknown",
-                  "(4) Unknown"
+                  "(2) Increases the wearer's CRIT Rate by 8% . When entering combat, if the wearer and another teammate are both Trailblaze Companions characters, increases the wearer's CRIT DMG by 32% .",
+                  "(4)"
                 ]
               },
-              "text": "Fallen Star Anchorage\nType: PLANETARY ORNAMENT SET\n(2) Unknown\n(4) Unknown",
+              "text": "Fallen Star Anchorage\nType: PLANETARY ORNAMENT SET\n(2) Increases the wearer's CRIT Rate by 8% . When entering combat, if the wearer and another teammate are both Trailblaze Companions characters, increases the wearer's CRIT DMG by 32% .\n(4)",
               "status": "live",
               "labels": []
             },
@@ -150139,7 +150256,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-20",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK"
@@ -150153,7 +150270,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-20",
           "firstSeen": "2026-07-15T09:16:06.610Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB"
@@ -150167,7 +150284,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-20",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH"
@@ -150181,7 +150298,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-20",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL"
@@ -150195,7 +150312,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-20",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS"
@@ -150209,7 +150326,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-20",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA"
@@ -150223,7 +150340,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-20",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT"
@@ -150260,11 +150377,12 @@ var NYX_DB = {
       "banners": {
         "name": "Honkai: Star Rail",
         "freshness": {
-          "status": "fresh",
-          "checkedAt": "2026-07-17T11:11:02.378Z",
+          "status": "stale",
+          "checkedAt": "2026-07-18T19:24:04.058Z",
           "lastSuccessfulFetch": "2026-07-17T11:11:02.378Z",
           "lastValidUpdate": "2026-07-17T11:11:02.378Z",
-          "source": "game8"
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": "4.4",
@@ -150312,6 +150430,25 @@ var NYX_DB = {
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23060.webp",
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23060.webp"
+          ],
+          "forms": []
+        },
+        {
+          "id": "hsr-blade-mortenax",
+          "name": "Mortenax Blade",
+          "aliases": [],
+          "title": "Now I Am Become Blade",
+          "rarity": 5,
+          "element": "Fire",
+          "role": "Nihility",
+          "icon": "../../Database/GameData/hsr/assets/characters/round/1507.webp",
+          "art": "../../Database/GameData/hsr/assets/characters/draw-card/1507.webp",
+          "facts": {
+            "title": "Now I Am Become Blade"
+          },
+          "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23059.webp",
+          "overviewArtPool": [
+            "../../Database/GameData/hsr/assets/lightcones/full/23059.webp"
           ],
           "forms": []
         },
@@ -150374,25 +150511,6 @@ var NYX_DB = {
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23054.webp",
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23054.webp"
-          ],
-          "forms": []
-        },
-        {
-          "id": "hsr-blade-mortenax",
-          "name": "Mortenax Blade",
-          "aliases": [],
-          "title": "Now I Am Become Blade",
-          "rarity": 5,
-          "element": "Fire",
-          "role": "Nihility",
-          "icon": "../../Database/GameData/hsr/assets/characters/round/1507.webp",
-          "art": "../../Database/GameData/hsr/assets/characters/draw-card/1507.webp",
-          "facts": {
-            "title": "Now I Am Become Blade"
-          },
-          "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23059.webp",
-          "overviewArtPool": [
-            "../../Database/GameData/hsr/assets/lightcones/full/23059.webp"
           ],
           "forms": []
         },
@@ -152071,14 +152189,14 @@ var NYX_DB = {
     "zzz": {
       "name": "Zenless Zone Zero",
       "icon": "../assets/icon/zzzicon.png",
-      "rosterCount": 55,
+      "rosterCount": 54,
       "collections": [
         {
           "key": "w-engines",
           "title": "W-Engines",
-          "updatedText": "16/June/2026",
+          "updatedText": "18/July/2026",
           "source": "Prydwen",
-          "count": 93,
+          "count": 96,
           "items": [
             {
               "id": "cinder-cobalt",
@@ -152088,8 +152206,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Rupture",
-                "baseAtkLv60": "475",
-                "hpLv60": "20"
+                "base_atk_lv_60": "475",
+                "hp_lv_60": "20"
               },
               "text": "[Cinder] Cobalt\nRarity: B | Type: Rupture\nUpon entering combat or switching in, the equipper's ATK increases by 7.2/8.2/9.3/10.4/11.5% for 10s . This effect can trigger once every 20s .\nBase ATK (Lv 60): 475\nHP (Lv 60): 20",
               "status": "live",
@@ -152103,8 +152221,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Defence",
-                "baseAtkLv60": "475",
-                "defenseLv60": "32"
+                "base_atk_lv_60": "475",
+                "defense_lv_60": "32"
               },
               "text": "[Identity] Base\nRarity: B | Type: Defence\nWhen attacked, the equipper's DEF increases by 20/23/26/29/32% for 8s .\nBase ATK (Lv 60): 475\nDefense (Lv 60): 32",
               "status": "live",
@@ -152118,8 +152236,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Defence",
-                "baseAtkLv60": "475",
-                "defenseLv60": "32"
+                "base_atk_lv_60": "475",
+                "defense_lv_60": "32"
               },
               "text": "[Identity] Inflection\nRarity: B | Type: Defence\nWhen attacked, reduces the attacker's DMG by 6/7/8/9/10% for 12s .\nBase ATK (Lv 60): 475\nDefense (Lv 60): 32",
               "status": "live",
@@ -152133,8 +152251,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Attack",
-                "baseAtkLv60": "475",
-                "attackLv60": "20"
+                "base_atk_lv_60": "475",
+                "attack_lv_60": "20"
               },
               "text": "[Lunar] Decrescent\nRarity: B | Type: Attack\nLaunching a Chain Attack or Ultimate increases the equipper's DMG by 15/17.5/20/22.5/25% for 6s .\nBase ATK (Lv 60): 475\nAttack (Lv 60): 20",
               "status": "live",
@@ -152148,8 +152266,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Attack",
-                "baseAtkLv60": "475",
-                "critRateLv60": "16"
+                "base_atk_lv_60": "475",
+                "crit_rate_lv_60": "16"
               },
               "text": "[Lunar] Noviluna\nRarity: B | Type: Attack\nLaunching an EX Special Attack generates 3/3.5/4/4.5/5 Energy for the equipper. This effect can trigger once every 12s .\nBase ATK (Lv 60): 475\nCrit Rate (Lv 60): 16",
               "status": "live",
@@ -152163,8 +152281,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Attack",
-                "baseAtkLv60": "475",
-                "attackLv60": "20"
+                "base_atk_lv_60": "475",
+                "attack_lv_60": "20"
               },
               "text": "[Lunar] Pleniluna\nRarity: B | Type: Attack\nBasic Attack, Dash Attack, and Dodge Counter DMG increase by 12/14/16/18/20%.\nBase ATK (Lv 60): 475\nAttack (Lv 60): 20",
               "status": "live",
@@ -152178,8 +152296,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Anomaly",
-                "baseAtkLv60": "475",
-                "attackLv60": "20"
+                "base_atk_lv_60": "475",
+                "attack_lv_60": "20"
               },
               "text": "[Magnetic Storm] Alpha\nRarity: B | Type: Anomaly\nAccumulating Anomaly Buildup increases the equipper's Anomaly Mastery by 25/28/32/36/40 for 10s. This effect can trigger once every 20s .\nBase ATK (Lv 60): 475\nAttack (Lv 60): 20",
               "status": "live",
@@ -152193,8 +152311,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Anomaly",
-                "baseAtkLv60": "356",
-                "anomalyProficiencyLv60": "0"
+                "base_atk_lv_60": "356",
+                "anomaly_proficiency_lv_60": "0"
               },
               "text": "[Magnetic Storm] Bravo\nRarity: B | Type: Anomaly\nAccumulating Anomaly Buildup increases the equipper's Anomaly Proficiency by 25/28/32/36/40 for 10s . This effect can only be triggered once every 20s .\nBase ATK (Lv 60): 356\nAnomaly Proficiency (Lv 60): 0",
               "status": "live",
@@ -152208,8 +152326,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Anomaly",
-                "baseAtkLv60": "475",
-                "penRatioLv60": "16"
+                "base_atk_lv_60": "475",
+                "pen_ratio_lv_60": "16"
               },
               "text": "[Magnetic Storm] Charlie\nRarity: B | Type: Anomaly\nWhenever a squad member inflicts an Attribute Anomaly on an enemy, the equipper generates 3.5/4/4.5/5/5.5 Energy. This effect can trigger once every 12s .\nBase ATK (Lv 60): 475\nPEN Ratio (Lv 60): 16",
               "status": "live",
@@ -152223,8 +152341,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Support",
-                "baseAtkLv60": "475",
-                "attackLv60": "20"
+                "base_atk_lv_60": "475",
+                "attack_lv_60": "20"
               },
               "text": "[Reverb] Mark I\nRarity: B | Type: Support\nLaunching an EX Special Attack increases all squad members' Impact by 8/9/10/11/12% for 10s . This effect can trigger once every 20s . Passive effects of the same name do not stack.\nBase ATK (Lv 60): 475\nAttack (Lv 60): 20",
               "status": "live",
@@ -152238,8 +152356,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Support",
-                "baseAtkLv60": "475",
-                "energyRegenLv60": "40"
+                "base_atk_lv_60": "475",
+                "energy_regen_lv_60": "40"
               },
               "text": "[Reverb] Mark II\nRarity: B | Type: Support\nLaunching an EX Special Attack or Chain Attack increases all squad members' Anomaly Mastery and Anomaly Proficiency by 10/12/13/15/16 for 10s . This effect can trigger once every 20s . Passive effects of the same name do not stack.\nBase ATK (Lv 60): 475\nEnergy Regen (Lv 60): 40",
               "status": "live",
@@ -152253,8 +152371,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Support",
-                "baseAtkLv60": "475",
-                "hpLv60": "20"
+                "base_atk_lv_60": "475",
+                "hp_lv_60": "20"
               },
               "text": "[Reverb] Mark III\nRarity: B | Type: Support\nLaunching a Chain Attack or Ultimate increases all squad members' ATK by 8/9/10/11/12% for 10s . This effect can trigger once every 20s . Passive effects of the same name do not stack.\nBase ATK (Lv 60): 475\nHP (Lv 60): 20",
               "status": "live",
@@ -152268,8 +152386,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Stun",
-                "baseAtkLv60": "475",
-                "impactLv60": "12"
+                "base_atk_lv_60": "475",
+                "impact_lv_60": "12"
               },
               "text": "[Vortex] Arrow\nRarity: B | Type: Stun\nThe equipper's attacks inflict 8/9/10/11/12% more Daze on their main target.\nBase ATK (Lv 60): 475\nImpact (Lv 60): 12",
               "status": "live",
@@ -152283,8 +152401,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Stun",
-                "baseAtkLv60": "475",
-                "energyRegenLv60": "16"
+                "base_atk_lv_60": "475",
+                "energy_regen_lv_60": "16"
               },
               "text": "[Vortex] Hatchet\nRarity: B | Type: Stun\nUpon entering combat or switching in, the equipper's Impact increases by 9/10/11/12/13% for 10s . This effect can trigger once every 20s .\nBase ATK (Lv 60): 475\nEnergy Regen (Lv 60): 16",
               "status": "live",
@@ -152298,8 +152416,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Stun",
-                "baseAtkLv60": "475",
-                "attackLv60": "20"
+                "base_atk_lv_60": "475",
+                "attack_lv_60": "20"
               },
               "text": "[Vortex] Revolver\nRarity: B | Type: Stun\nEX Special Attacks inflict 10/11.5/13/14.5/16% more Daze.\nBase ATK (Lv 60): 475\nAttack (Lv 60): 20",
               "status": "live",
@@ -152313,8 +152431,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Anomaly",
-                "baseAtkLv60": "713",
-                "anomalyMasteryLv60": "30"
+                "base_atk_lv_60": "713",
+                "anomaly_mastery_lv_60": "30"
               },
               "text": "Angel in the Shell\nRarity: S | Type: Anomaly\nIncreases the equipper's Anomaly Proficiency by 90/103/117/130/144 . When the equipper is an Ether character, and comes on-field or uses a Special Attack or EX Special Attack, they gain a buff: DMG dealt to enemies afflicted with Attribute Anomalies increases by 20/23/26/29/32% , and all Attribute Anomaly DMG they trigger increases by 10/11.5/13/14.5/16% , lasting 15s . Repeated triggers reset the duration, and the effect is removed when switching off-field.\nBase ATK (Lv 60): 713\nAnomaly Mastery (Lv 60): 30",
               "status": "live",
@@ -152328,8 +152446,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Support",
-                "baseAtkLv60": "624",
-                "attackLv60": "25"
+                "base_atk_lv_60": "624",
+                "attack_lv_60": "25"
               },
               "text": "Bashful Demon\nRarity: A | Type: Support\nIncreases Ice DMG by 15/17.5/20/22/24% . When launching an EX Special Attack, all squad members' ATK increases by 2/2.3/2.6/2.9/3.2% for 12s , stacking up to 4 times. Retriggering refreshes duration. Passive effects of the same name do not stack.\nBase ATK (Lv 60): 624\nAttack (Lv 60): 25",
               "status": "live",
@@ -152343,8 +152461,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Attack",
-                "baseAtkLv60": "713",
-                "energyRegenLv60": "60"
+                "base_atk_lv_60": "713",
+                "energy_regen_lv_60": "60"
               },
               "text": "Bellicose Blaze\nRarity: S | Type: Attack\nIncreases CRIT Rate by 20/23/26/29/32% . When the equipper triggers an Aftershock that deals Fire DMG , their attacks ignore 15/17.2/19.5/21.7/24% of the target's DEF for 8s . Can stack once every 3s , up to 2 stacks. Repeated triggers reset the duration.\nBase ATK (Lv 60): 713\nEnergy Regen (Lv 60): 60",
               "status": "live",
@@ -152358,8 +152476,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Defence",
-                "baseAtkLv60": "624",
-                "defenseLv60": "40"
+                "base_atk_lv_60": "624",
+                "defense_lv_60": "40"
               },
               "text": "Big Cylinder\nRarity: A | Type: Defence\nReduces DMG taken by 7.5/8.5/9.5/10.5/12% . After being attacked, the next attack to hit an enemy will trigger a critical hit and deal 600/690/780/870/960% of the equipper's DEF as additional DMG. This effect can be triggered once every 7.5s.\nBase ATK (Lv 60): 624\nDefense (Lv 60): 40",
               "status": "live",
@@ -152373,10 +152491,25 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Stun",
-                "baseAtkLv60": "713",
-                "impactLv60": "18"
+                "base_atk_lv_60": "713",
+                "impact_lv_60": "18"
               },
               "text": "Blazing Laurel\nRarity: S | Type: Stun\nUpon launching a Quick Assist or Perfect Assist, the equipper's Impact increases by 25/28.75/32.5/36.25/40% for 8s . When the equipper launches and hits an enemy with a Basic Attack, apply Wilt to the target for 30s , stacking up to 20 times, repeated triggers reset the duration. When any squad member hits an enemy, for every stack of Wilt applied to the target, the CRIT DMG of the Ice DMG and Fire DMG dealt by that attack increases by 1.5/1.72/1.95/2.17/2.4% . Only one of this effect can be active at a time in the same squad.\nBase ATK (Lv 60): 713\nImpact (Lv 60): 18",
+              "status": "live",
+              "labels": []
+            },
+            {
+              "id": "boisterous-echoes",
+              "name": "Boisterous Echoes",
+              "kind": "w-engines",
+              "art": "../../Database/Prydwen/zzz/assets/w-engines/boisterous-echoes-82512eb4d3c3.webp",
+              "fields": {
+                "rarity": "4 \u2605",
+                "type": "Anomaly",
+                "base_atk_lv_60": "594",
+                "anomaly_proficiency_lv_60": "75"
+              },
+              "text": "Boisterous Echoes\nRarity: A | Type: Anomaly\nWhen the equipper triggers the Vortex effect, they gain 2/2.3/2.6/2.9/3.2 Energy. This effect can trigger once every 10s. When attacking enemies afflicted with an Attribute Anomaly, the equipper deals 11.5/13.2/15/16.7/18.4% increased DMG.\nBase ATK (Lv 60): 594\nAnomaly Proficiency (Lv 60): 75",
               "status": "live",
               "labels": []
             },
@@ -152388,8 +152521,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Stun",
-                "baseAtkLv60": "624",
-                "impactLv60": "15"
+                "base_atk_lv_60": "624",
+                "impact_lv_60": "15"
               },
               "text": "Box Cutter\nRarity: A | Type: Stun\nUpon launching an Aftershock, the equipper's Physical DMG increases by 15/17.3/19.5/21.8/24% , and Daze inflicted increases by 10/11.5/13/14.5/16% , lasting 10s .\nBase ATK (Lv 60): 624\nImpact (Lv 60): 15",
               "status": "live",
@@ -152403,8 +152536,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Defence",
-                "baseAtkLv60": "594",
-                "defenseLv60": "40"
+                "base_atk_lv_60": "594",
+                "defense_lv_60": "40"
               },
               "text": "Bunny Band\nRarity: A | Type: Defence\nIncreases Max HP by 8/9.2/10.4/11.6/12.8% . Increases the equipper's ATK by 10/11.5/13/14.5/16% when they are shielded.\nBase ATK (Lv 60): 594\nDefense (Lv 60): 40",
               "status": "live",
@@ -152418,8 +152551,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Attack",
-                "baseAtkLv60": "594",
-                "critRateLv60": "20"
+                "base_atk_lv_60": "594",
+                "crit_rate_lv_60": "20"
               },
               "text": "Cannon Rotor\nRarity: A | Type: Attack\nIncreases ATK by 7.5/8.6/9.7/10.8/12% . Attacks that land a CRIT on an enemy will inflict an additional 200% of ATK as DMG. This effect can only be triggered once every 8/7.5/7/6.5/6s .\nBase ATK (Lv 60): 594\nCrit Rate (Lv 60): 20",
               "status": "live",
@@ -152433,8 +152566,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Rupture",
-                "baseAtkLv60": "594",
-                "hpLv60": "25"
+                "base_atk_lv_60": "594",
+                "hp_lv_60": "25"
               },
               "text": "Cauldron of Clarity\nRarity: A | Type: Rupture\nWhen the equipper activates an EX Special Attack, they gain 1 stack of a buff. Each stack increases the equipper's DMG by 4/4.6/5.2/5.8/6.4% , up to 3 stacks, and lasting 20s . This effect can trigger once every 0.5s , and repeated triggers reset the duration. At 3 stacks, the equipper's CRIT Rate increases by 6.5/7.5/8.5/9.4/10.4% .\nBase ATK (Lv 60): 594\nHP (Lv 60): 25",
               "status": "live",
@@ -152448,8 +152581,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Stun",
-                "baseAtkLv60": "713",
-                "critRateLv60": "24"
+                "base_atk_lv_60": "713",
+                "crit_rate_lv_60": "24"
               },
               "text": "Chief Sidekick\nRarity: S | Type: Stun\nThe equipper's Impact increases by 30/33/36/39/42 , and their DMG ignores 15/17.2/19.5/21.7/24% of the target's Fire RES . When the equipper is not the active character, Energy Regen increases by 0.4/0.46/0.52/0.58/0.64/s . When the equipper deals Fire DMG with an EX Special Attack, all Agents' DMG increases by 12.5/14.4/16.3/18.1/20% for 30s , stacking up to 2 times. Repeated triggers reset the duration. This effect can trigger once per skill. Only one instance of this effect can exist in the same squad.\nBase ATK (Lv 60): 713\nCRIT Rate (Lv 60): 24",
               "status": "live",
@@ -152463,8 +152596,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Attack",
-                "baseAtkLv60": "743",
-                "critDmgLv60": "48"
+                "base_atk_lv_60": "743",
+                "crit_dmg_lv_60": "48"
               },
               "text": "Cloudcleave Radiance\nRarity: S | Type: Attack\nThe equipper's DMG ignores 20/22/24/26/28% of the target's Physical RES . When the equipper activates an Ether Veil, the equipper's DMG increases by 25/28.7/32.5/36.2/40% and CRIT DMG increases by 25/28.7/32.5/36.2/40% for 40s . Repeated triggers reset the duration.\nBase ATK (Lv 60): 743\nCRIT DMG (Lv 60): 48",
               "status": "live",
@@ -152478,8 +152611,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Attack",
-                "baseAtkLv60": "713",
-                "critRateLv60": "24"
+                "base_atk_lv_60": "713",
+                "crit_rate_lv_60": "24"
               },
               "text": "Cordis Germina\nRarity: S | Type: Attack\nIncreases CRIT Rate by 15/17/19/21/23% . When the equipper deals DMG with a Basic Attack or EX Special Attack, they gain 1 stack of a buff. Each stack increases the equipper's Electric DMG by 12.5/14.5/16.5/18.5/20% , up to 2 stacks. Each stack lasts 40s . The duration of each stack is calculated separately. Can trigger once per use of a skill. At 2 stacks, the wearer's Basic Attack and Ultimate DMG ignore 20/23/26/29/32% of enemy DEF.\nBase ATK (Lv 60): 713\nCrit Rate (Lv 60): 24",
               "status": "live",
@@ -152493,8 +152626,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Attack",
-                "baseAtkLv60": "713",
-                "critRateLv60": "24"
+                "base_atk_lv_60": "713",
+                "crit_rate_lv_60": "24"
               },
               "text": "Deep Sea Visitor\nRarity: S | Type: Attack\nIncreases Ice DMG by 25/31.5/38/44.5/50% . Upon hitting an enemy with a Basic Attack, the equipper's CRIT Rate increases by 10/12.5.15/17.5/20% for 8s . When dealing Ice DMG with a Dash Attack, the equipper's CRIT Rate increases by an additional 10/12.5.15/17.5/20% for 15s . The duration of each effect is calculated separately.\nBase ATK (Lv 60): 713\nCrit Rate (Lv 60): 24",
               "status": "live",
@@ -152508,8 +152641,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Stun",
-                "baseAtkLv60": "624",
-                "impactLv60": "15"
+                "base_atk_lv_60": "624",
+                "impact_lv_60": "15"
               },
               "text": "Demara Battery Mark II\nRarity: A | Type: Stun\nIncreases Electric DMG by 15/17.5/20/22/24%. When the equipper hits an enemy with Dodge Counter or Assist Attack, their Energy Generation Rate increases by 18/20.5/23/25/27.5% for 8s .\nBase ATK (Lv 60): 624\nImpact (Lv 60): 15",
               "status": "live",
@@ -152523,8 +152656,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Support",
-                "baseAtkLv60": "713",
-                "hpLv60": "30"
+                "base_atk_lv_60": "713",
+                "hp_lv_60": "30"
               },
               "text": "Dreamlit Hearth\nRarity: S | Type: Support\nThe equipper's Energy Regen increases by 0.40/0.46/0.52/0.58/0.64/s . When the equipper activates Ether Veil or extends its duration, all squad members gain 25/28.8/32.5/36.3/40% increased DMG and 15/17.3/19.5/21.8/24% increased Max HP for 45s . Repeated triggers reset the duration. Only one instance of this effect can exist in the same squad.\nBase ATK (Lv 60): 713\nHP (Lv 60): 30",
               "status": "live",
@@ -152538,8 +152671,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Attack",
-                "baseAtkLv60": "624",
-                "energyRegenLv60": "50"
+                "base_atk_lv_60": "624",
+                "energy_regen_lv_60": "50"
               },
               "text": "Drill Rig - Red Axis\nRarity: A | Type: Attack\nWhen launching an EX Special Attack or Chain Attack, Electric DMG from Basic Attacks and Dash Attacks increases by 50/57.5/65/72.5/80% for 10s . This effect can trigger once every 15s .\nBase ATK (Lv 60): 624\nEnergy Regen (Lv 60): 50",
               "status": "live",
@@ -152553,8 +152686,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Anomaly",
-                "baseAtkLv60": "594",
-                "anomalyProficiencyLv60": "75"
+                "base_atk_lv_60": "594",
+                "anomaly_proficiency_lv_60": "75"
               },
               "text": "Electro-Lip Gloss\nRarity: A | Type: Anomaly\nWhen there are enemies inflicted with Attribute Anomaly on the field, the equipper's ATK increases by 10/11.5/13/14.5/16% and they deal an additional 15/17.5/20/22.5/25% more DMG to the target.\nBase ATK (Lv 60): 594\nAnomaly Proficiency (Lv 60): 75",
               "status": "live",
@@ -152568,8 +152701,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Support",
-                "baseAtkLv60": "713",
-                "attackLv60": "30"
+                "base_atk_lv_60": "713",
+                "attack_lv_60": "30"
               },
               "text": "Elegant Vanity\nRarity: S | Type: Support\nWhen any squad member enters the field through a Quick Assist, Chain Attack, Defensive Assist, or Evasive Assist, the equipper gains 5/5.5/6/6.5/7 Energy. This effect can trigger once every 5s .\nWhen the equipper consumes 25 or more Energy, the DMG dealt by all squad members increases by 10/11.5/13/14.5/16% , stacking up to 2 times, and lasting 20s . Repeated triggers refresh the duration. Only one instance of this effect can exist in the same squad.\nBase ATK (Lv 60): 713\nAttack (Lv 60): 30",
               "status": "live",
@@ -152583,8 +152716,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Anomaly",
-                "baseAtkLv60": "713",
-                "attackLv60": "30"
+                "base_atk_lv_60": "713",
+                "attack_lv_60": "30"
               },
               "text": "Flamemaker Shaker\nRarity: S | Type: Anomaly\nWhile off-field, the equipper's Energy Regen increases by 0.6/0.75/0.9/1.05/1.2 per second. When hitting an enemy with an EX Special Attack or Assist Attack, the equipper's DMG increases by 3.5/4.4/5.2/6.1/7% , stacking up to 10 times and lasting for 6s . This effect can trigger once every 0.3s . While off-field, the stack effect is doubled. Repeated triggers reset the duration. Upon obtaining the DMG increase effect, if the number of current stacks is greater than or equal to 5 , then the equipper's Anomaly Proficiency increases by 50/62/75/87/100 . This Anomaly Proficiency increase does not stack and lasts for 6s .\nBase ATK (Lv 60): 713\nAttack (Lv 60): 30",
               "status": "live",
@@ -152598,8 +152731,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Anomaly",
-                "baseAtkLv60": "713",
-                "anomalyProficiencyLv60": "90"
+                "base_atk_lv_60": "713",
+                "anomaly_proficiency_lv_60": "90"
               },
               "text": "Flight of Fancy\nRarity: S | Type: Anomaly\nIncreases Anomaly Buildup Rate by 40/46/52/58/64% . When the equipper deals Ether DMG, their Anomaly Proficiency increases by 20/23/26/29/32 for 5s , stacking up to 6 times. This effect can trigger once every 0.5s , and repeated triggers reset the duration.\nBase ATK (Lv 60): 713\nAnomaly Proficiency (Lv 60): 90",
               "status": "live",
@@ -152613,8 +152746,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Anomaly",
-                "baseAtkLv60": "713",
-                "anomalyMasteryLv60": "30"
+                "base_atk_lv_60": "713",
+                "anomaly_mastery_lv_60": "30"
               },
               "text": "Frostfall Sickle\nRarity: S | Type: Anomaly\nWhen an Ice attribute equipper uses a Special Attack or EX Special Attack, their Ice DMG is increased by 20/23/26/29/32% for 40s , stacking up to 2 times, once per use of a skill. Repeated triggers refresh the duration. At 2 stacks, the equipper's Abloom DMG dealt is increased by an additional 35/38.5/42/45.5/50% .\nBase ATK (Lv 60): 713\nAnomaly Mastery (Lv 60): 30",
               "status": "live",
@@ -152628,8 +152761,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Anomaly",
-                "baseAtkLv60": "684",
-                "penRatioLv60": "24"
+                "base_atk_lv_60": "684",
+                "pen_ratio_lv_60": "24"
               },
               "text": "Fusion Compiler\nRarity: S | Type: Anomaly\nIncreases ATK by 12/15/18/21/24% . When using a Special Attack or EX Special Attack, the equipper's Anomaly Proficiency is increased by 25/31/37/43/50 for 8s , stacking up to 3 times. The duration of each stack is calculated separately.\nBase ATK (Lv 60): 684\nPEN Ratio (Lv 60): 24",
               "status": "live",
@@ -152643,8 +152776,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Attack",
-                "baseAtkLv60": "594",
-                "attackLv60": "25"
+                "base_atk_lv_60": "594",
+                "attack_lv_60": "25"
               },
               "text": "Gilded Blossom\nRarity: A | Type: Attack\nATK increases by 6/6.9/7.8/8.7/9.6 %, and DMG dealt by EX Special Attacks increases by 15/17.2/19.5/21.8/24% .\nBase ATK (Lv 60): 594\nAttack (Lv 60): 25",
               "status": "live",
@@ -152658,8 +152791,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Rupture",
-                "baseAtkLv60": "624",
-                "hpLv60": "25"
+                "base_atk_lv_60": "624",
+                "hp_lv_60": "25"
               },
               "text": "Grill O'Wisp\nRarity: A | Type: Rupture\nThe equipper's Fire DMG increases by 15/17.25/19.5/21.75/24% . When the equipper's HP decreases, their CRIT Rate increases by 15/17.25/19.5/21.75/24% for 5s .\nBase ATK (Lv 60): 624\nHP (Lv 60): 25",
               "status": "live",
@@ -152673,8 +152806,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Anomaly",
-                "baseAtkLv60": "743",
-                "critRateLv60": "24"
+                "base_atk_lv_60": "743",
+                "crit_rate_lv_60": "24"
               },
               "text": "Hailstorm Shrine\nRarity: S | Type: Anomaly\nCRIT DMG increases by 50/57/65/72/80% . When using an EX Special Attack or when any squad member applies an Attribute Anomaly to an enemy, the equipper's Ice DMG increases by 20/23/26/29/32% , stacking up to 2 times and lasting 15s . The duration of each stack is calculated separately.\nBase ATK (Lv 60): 743\nCrit Rate (Lv 60): 24",
               "status": "live",
@@ -152688,8 +152821,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Defence",
-                "baseAtkLv60": "713",
-                "hpLv60": "30"
+                "base_atk_lv_60": "713",
+                "hp_lv_60": "30"
               },
               "text": "Half-Sugar Bunny\nRarity: S | Type: Defence\nThe equipper's Energy Regen increases by 0.46/0.53/06/0.67/0.76 per sec. All squad members gain 10/11.5/13./14.5/16% ATK and 10/11.5/13./14.5/16% Max HP. Only one instance of this effect can exist in the same squad. When the equipper activates or extends an Ether Veil, the whole squad gains 30/34.5/39/43.5/48% CRIT DMG for 60s . Repeated triggers reset the duration.\nBase ATK (Lv 60): 713\nHP (Lv 60): 30",
               "status": "live",
@@ -152703,8 +152836,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Attack",
-                "baseAtkLv60": "713",
-                "critRateLv60": "24"
+                "base_atk_lv_60": "713",
+                "crit_rate_lv_60": "24"
               },
               "text": "Heartstring Nocturne\nRarity: S | Type: Attack\nCRIT DMG increases by 50/57.5/65/72.5/80% . When the equipper enters the battlefield, or activates a Chain Attack or Ultimate, they gain 1 stack of Heartstring. Each stack of Heartstring allows the equipper's Chain Attack and Ultimate to ignore 12.5/14.5/16.5/18.5/20% of the target's Fire RES, stacking up to 2 times and lasting 30s . Repeated triggers reset the duration.\nBase ATK (Lv 60): 713\nCrit Rate (Lv 60): 24",
               "status": "live",
@@ -152718,8 +152851,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Stun",
-                "baseAtkLv60": "684",
-                "impactLv60": "18"
+                "base_atk_lv_60": "684",
+                "impact_lv_60": "18"
               },
               "text": "Hellfire Gears\nRarity: S | Type: Stun\nWhen off-field, the equipper's Energy Regen increases by 0.6/0.75/0.9/1.05/1.2 per second. When using an EX Special Attack, the equipper's Impact is increased by 10/12.5/15/17.5/20% for 10s , stacking up to 2 times. The duration of each stack is calculated separately.\nBase ATK (Lv 60): 684\nImpact (Lv 60): 18",
               "status": "live",
@@ -152733,8 +152866,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Attack",
-                "baseAtkLv60": "624",
-                "attackLv60": "25"
+                "base_atk_lv_60": "624",
+                "attack_lv_60": "25"
               },
               "text": "Housekeeper\nRarity: A | Type: Attack\nWhile off-field, Energy Regen increases by 0.45/0.52/0.58/0.65/0.72 per second . When an EX Special Attack hits an enemy, the equipper's Physical DMG increases by 3/3.5/4/4.4/4.8%, stacking up to 15 times and lasting 1s . Retriggering refreshes duration.\nBase ATK (Lv 60): 624\nAttack (Lv 60): 25",
               "status": "live",
@@ -152748,8 +152881,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Stun",
-                "baseAtkLv60": "713",
-                "impactLv60": "18"
+                "base_atk_lv_60": "713",
+                "impact_lv_60": "18"
               },
               "text": "Ice-Jade Teapot\nRarity: S | Type: Stun\nWhen a Basic Attack hits an enemy, gain 1 stack of Tea-riffic. Each stack of Tea-riffic increases the user's Impact by 0.7/0.88/1.05/1.22/1.4% , stacking up to 30 times, and lasting for 8s . The duration of each stack is calculated separately. Upon acquiring Tea-riffic, if the equipper possesses stacks of Tea-riffic greater than or equal to 15 , all squad members' DMG is increased by 20/23/26/29/32% for 10s . Passive effects of the same name do not stack.\nBase ATK (Lv 60): 713\nImpact (Lv 60): 18",
               "status": "live",
@@ -152763,8 +152896,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Support",
-                "baseAtkLv60": "594",
-                "attackLv60": "25"
+                "base_atk_lv_60": "594",
+                "attack_lv_60": "25"
               },
               "text": "Iris Enigma\nRarity: A | Type: Support\nWhenever a squad member launches their Ultimate, increases the equipper's Energy Regen by 1.2/1.36/1.52/1.68/1.84 per second for 12s .\nBase ATK (Lv 60): 594\nAttack (Lv 60): 25",
               "status": "live",
@@ -152778,8 +152911,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Anomaly",
-                "baseAtkLv60": "713",
-                "energyRegenLv60": "60"
+                "base_atk_lv_60": "713",
+                "energy_regen_lv_60": "60"
               },
               "text": "Joyau Dore\nRarity: S | Type: Anomaly\nThe equipper's Anomaly Proficiency increases by 70/80/90/100/110 . When the equipper's EX Special Attack deals Wind DMG , the DMG dealt by their Vortex and Windswept increases by 7/8/9/10/11% for 40s , stacking up to 2 times. Repeated triggers reset the duration. This effect can trigger once per skill use. At 2 stacks, all squad members gain 60/69/78/87/96 Anomaly Proficiency. Only one instance of this effect can exist in the same squad.\nBase ATK (Lv 60): 713\nEnergy Regen (Lv 60): 60",
               "status": "live",
@@ -152793,8 +152926,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Support",
-                "baseAtkLv60": "624",
-                "energyRegenLv60": "50"
+                "base_atk_lv_60": "624",
+                "energy_regen_lv_60": "50"
               },
               "text": "Kaboom the Cannon\nRarity: A | Type: Support\nWhen any friendly unit in the squad attacks and hits an enemy, all friendly units' ATK increases by 2.5/2.8/3.2/3.6/4% for 8s , stacking up to 4 times. The duration of each stack is calculated separately, and each friendly unit can provide 1 stack of the buff. Passive effects of the same name do not stack.\nBase ATK (Lv 60): 624\nEnergy Regen (Lv 60): 50",
               "status": "live",
@@ -152808,10 +152941,23 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Rupture",
-                "baseAtkLv60": "713",
-                "hpLv60": "30"
+                "base_atk_lv_60": "713",
+                "hp_lv_60": "30"
               },
               "text": "Kraken's Cradle\nRarity: S | Type: Rupture\nWhen the equipper's HP decreases, their Ice Sheer DMG increases by 6/7/8/9/10% , stacking up to 3 times and lasting 25s . The duration of each stack is calculated separately. This effect can trigger once every 0.5s . When the equipper's HP falls to 50% of Max HP or below, CRIT Rate increases by 20/23/26/29/32% .\nBase ATK (Lv 60): 713\nHP (Lv 60): 30",
+              "status": "live",
+              "labels": []
+            },
+            {
+              "id": "lumiflux",
+              "name": "Lumiflux",
+              "kind": "w-engines",
+              "art": "../../Database/Prydwen/zzz/assets/w-engines/lumiflux-85906a50e3db.webp",
+              "fields": {
+                "rarity": "5 \u2605",
+                "type": "Attack"
+              },
+              "text": "Lumiflux\nRarity: S | Type: Attack\nComing Soon!\nStats for this W-Engine aren't available yet.",
               "status": "live",
               "labels": []
             },
@@ -152823,8 +152969,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Attack",
-                "baseAtkLv60": "594",
-                "critRateLv60": "20"
+                "base_atk_lv_60": "594",
+                "crit_rate_lv_60": "20"
               },
               "text": "Marcato Desire\nRarity: A | Type: Attack\nWhen an EX Special Attack or Chain Attack hits an enemy, the equipper's ATK increases by 6/6.9/7.8/8.7/9.6% for 8s . While the target is under an Attribute Anomaly, this effect is increased by an additional 6/6.9/7.8/8.7/9.6% .\nBase ATK (Lv 60): 594\nCrit Rate (Lv 60): 20",
               "status": "live",
@@ -152838,8 +152984,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Support",
-                "baseAtkLv60": "713",
-                "energyRegenLv60": "60"
+                "base_atk_lv_60": "713",
+                "energy_regen_lv_60": "60"
               },
               "text": "Metanukimorphosis\nRarity: S | Type: Support\nWhen the equipper's EX Special Attack or Ultimate deals Physical DMG, their Anomaly Mastery increases by 30/34/39/43/48 for 40s .\nWhen the equipper's Aftershock hits an enemy, all squad members' Anomaly Proficiency increases by 60/69/78/87/98 for 40s . Only one instance of this effect can exist in the same squad.\nBase ATK (Lv 60): 713\nEnergy Regen (Lv 60): 60",
               "status": "live",
@@ -152853,8 +152999,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Attack",
-                "baseAtkLv60": "713",
-                "critRateLv60": "24"
+                "base_atk_lv_60": "713",
+                "crit_rate_lv_60": "24"
               },
               "text": "Myriad Eclipse\nRarity: S | Type: Attack\nIncreases CRIT DMG by 45/51.75/58.5/65.25/72% . When using an EX Special Attack, Chain Attack, or Ultimate to deal Ice DMG, the equipper gains the Absolute Zero Death Sentence effect for 3s . While Absolute Zero Death Sentence is active, the character ignores 25/28.75/32.5/36.25/40% of the enemy's DEF when landing a hit.\nBase ATK (Lv 60): 713\nCrit Rate (Lv 60): 24",
               "status": "live",
@@ -152868,8 +153014,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Stun",
-                "baseAtkLv60": "713",
-                "anomalyMasteryLv60": "30"
+                "base_atk_lv_60": "713",
+                "anomaly_mastery_lv_60": "30"
               },
               "text": "Neon Fantasies\nRarity: S | Type: Stun\nThe equipper's Anomaly Proficiency increases by 90/103/117/130/145 . When the equipper's EX Special Attack or Basic Attack deals Ether DMG , all squad members' DMG dealt increases by 15/17/19.5/21/24% for 40s , stacking up to 2 times. This effect can trigger once per use of a skill and repeated triggers reset the duration. With 2 stacks, the equipper's Anomaly Proficiency increases by an additional 60/69/78/87/96 . Only one instance of this effect can exist in the same squad.\nBase ATK (Lv 60): 713\nAnomaly Mastery (Lv 60): 30",
               "status": "live",
@@ -152883,8 +153029,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Defence",
-                "baseAtkLv60": "594",
-                "hpLv60": "25"
+                "base_atk_lv_60": "594",
+                "hp_lv_60": "25"
               },
               "text": "Original Transmorpher\nRarity: A | Type: Defence\nIncreases Max HP by 8/9/10/11/12.5% . When attacked, the equipper's Impact is increased by 10/11.5/13/14.5/16% for 12s .\nBase ATK (Lv 60): 594\nHP (Lv 60): 25",
               "status": "live",
@@ -152898,10 +153044,23 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Defence",
-                "baseAtkLv60": "624",
-                "attackLv60": "25"
+                "base_atk_lv_60": "624",
+                "attack_lv_60": "25"
               },
               "text": "Peacekeeper - Specialized\nRarity: A | Type: Defence\nWhile Shielded, the equipper's Energy Regen increases by 0.4/s . The Anomaly Buildup of EX Special Attacks and Assist Follow-Ups increase by 36% .\nBase ATK (Lv 60): 624\nAttack (Lv 60): 25",
+              "status": "live",
+              "labels": []
+            },
+            {
+              "id": "poem-of-the-empty-feather-return",
+              "name": "Poem of the Empty Feather Return",
+              "kind": "w-engines",
+              "art": "../../Database/Prydwen/zzz/assets/w-engines/poem-of-the-empty-feather-return-958ea696c848.webp",
+              "fields": {
+                "rarity": "5 \u2605",
+                "type": "Anomaly"
+              },
+              "text": "Poem of the Empty Feather Return\nRarity: S | Type: Anomaly\nComing Soon!\nStats for this W-Engine aren't available yet.",
               "status": "live",
               "labels": []
             },
@@ -152913,8 +153072,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Anomaly",
-                "baseAtkLv60": "713",
-                "attackLv60": "30"
+                "base_atk_lv_60": "713",
+                "attack_lv_60": "30"
               },
               "text": "Practiced Perfection\nRarity: S | Type: Anomaly\nThe equipper's Anomaly Mastery increases by 60/69/78/87/96 . When inflicting Assault, the equipper's Physical DMG increases by 20/23/26/29/32% for 20s , stacking up to 2 times. Repeated triggers reset the duration. When the equipper enters combat, immediately gain 2 stacks.\nBase ATK (Lv 60): 713\nAttack (Lv 60): 30",
               "status": "live",
@@ -152928,8 +153087,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Stun",
-                "baseAtkLv60": "594",
-                "impactLv60": "15"
+                "base_atk_lv_60": "594",
+                "impact_lv_60": "15"
               },
               "text": "Precious Fossilized Core\nRarity: A | Type: Stun\nWhen the target's HP is no lower than 50% , the equipper inflicts 10/11.5/13/14.5/16% more Daze. When the target's HP is no lower than 75%, this bonus is further enhanced by 10/11.5/13/14.5/16% .\nBase ATK (Lv 60): 594\nImpact (Lv 60): 15",
               "status": "live",
@@ -152943,8 +153102,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Rupture",
-                "baseAtkLv60": "594",
-                "attackLv60": "25"
+                "base_atk_lv_60": "594",
+                "attack_lv_60": "25"
               },
               "text": "Puzzle Sphere\nRarity: A | Type: Rupture\nUpon launching an EX Special Attack, the equipper's CRIT DMG increases by 16/18.4/20.8/23.2/25.6% for 12s . Additionally, if the target's current HP is below 50% of their Max HP, EX Special Attack DMG increases by 20/23/26/29/32% .\nBase ATK (Lv 60): 594\nAttack (Lv 60): 25",
               "status": "live",
@@ -152958,8 +153117,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Rupture",
-                "baseAtkLv60": "743",
-                "hpLv60": "30"
+                "base_atk_lv_60": "743",
+                "hp_lv_60": "30"
               },
               "text": "Qingming Birdcage\nRarity: S | Type: Rupture\nCRIT Rate increases by 20/23/26/29/32% . When the equipper launches an EX Special Attack, the character gains the Qingming Companion effect, stacking up to 2 times and lasting 15s . On entering combat, immediately gain 2 stacks. Repeated triggers reset the duration. Each stack of the Qingming Companion effect increases the equipper's Ether DMG by 8/9.2/10.4/11.6/12.8% , and increases Ultimate and EX Special Attack Ether Sheer DMG by 10/11.5/13/14.5/16% .\nBase ATK (Lv 60): 743\nHP (Lv 60): 30",
               "status": "live",
@@ -152973,8 +153132,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Rupture",
-                "baseAtkLv60": "594",
-                "hpLv60": "25"
+                "base_atk_lv_60": "594",
+                "hp_lv_60": "25"
               },
               "text": "Radiowave Journey\nRarity: A | Type: Rupture\nWhen launching a Chain Attack or Ultimate, the equipper gains 1 stack of a buff effect. Each stack increases the equipper's Sheer Force by 80/92/104/116/128 , stacking up to 3 times, and lasting 12s . The duration of each stack is calculated separately.\nBase ATK (Lv 60): 594\nHP (Lv 60): 25",
               "status": "live",
@@ -152988,8 +153147,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Anomaly",
-                "baseAtkLv60": "594",
-                "anomalyProficiencyLv60": "75"
+                "base_atk_lv_60": "594",
+                "anomaly_proficiency_lv_60": "75"
               },
               "text": "Rainforest Gourmet\nRarity: A | Type: Anomaly\nFor every 10 Energy consumed, the equipper gains a buff that increases ATK by 2.5/2.8/3.2/3.6/4% for 10s , stacking up to 10 times. The duration of each stack is calculated separately.\nBase ATK (Lv 60): 594\nAnomaly Proficiency (Lv 60): 75",
               "status": "live",
@@ -153003,8 +153162,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Defence",
-                "baseAtkLv60": "594",
-                "impactLv60": "15"
+                "base_atk_lv_60": "594",
+                "impact_lv_60": "15"
               },
               "text": "Reel Projector\nRarity: A | Type: Defence\nWhen a squad member's HP is greater than or equal to 50% , they take 7.5/8.6/9.7/10.8/12% less DMG, and 10/11.5/13/14.5/16% less Miasma Contamination. Only one instance of this effect can exist in the same squad.\nBase ATK (Lv 60): 594\nImpact (Lv 60): 15",
               "status": "live",
@@ -153018,8 +153177,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Attack",
-                "baseAtkLv60": "713",
-                "critDamageLv60": "48"
+                "base_atk_lv_60": "713",
+                "crit_damage_lv_60": "48"
               },
               "text": "Riot Suppressor Mark VI\nRarity: S | Type: Attack\nIncreases CRIT Rate by 15% . Launching an EX Special Attack grants the equipper 8 Charge stacks, up to a maximum of 8 stacks. Whenever the equipper's Basic Attack deals Ether DMG , consumes a Charge stack and increases the skill's DMG by 35% .\nBase ATK (Lv 60): 713\nCrit Damage (Lv 60): 48",
               "status": "live",
@@ -153033,8 +153192,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Stun",
-                "baseAtkLv60": "713",
-                "attackLv60": "30"
+                "base_atk_lv_60": "713",
+                "attack_lv_60": "30"
               },
               "text": "Roaring Fur-nace\nRarity: S | Type: Stun\nThe Daze dealt by the equipper's EX Special Attack, Chain Attack, and Ultimate increases by 28/32.2/36.4/40.6/44.8% .\nWhen using a Chain Attack or Ultimate to deal Fire DMG, the DMG dealt by all squad members increases by 10/11.5/13/14.5/16% , stacking up to 2 times and lasting 30s . The duration of each stack is calculated separately. Triggers once per use of a skill. Only one instance of this effect can exist in the same squad.\nBase ATK (Lv 60): 713\nAttack (Lv 60): 30",
               "status": "live",
@@ -153048,8 +153207,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Anomaly",
-                "baseAtkLv60": "624",
-                "attackLv60": "25"
+                "base_atk_lv_60": "624",
+                "attack_lv_60": "25"
               },
               "text": "Roaring Ride\nRarity: A | Type: Anomaly\nWhen EX Special Attack hits an enemy, one of three possible effects is randomly triggered for 5 seconds. This effect can trigger once every 0.3s . The same types of effects cannot stack. Repeated triggers reset the duration allowing several effects to be active at once:\nincreases the equipper's ATK by 8/9.2/10.4/11.6/12.8% ,\nincreases the equipper's Anomaly Proficiency by 40/46/52/58/64 ,\nincreases the equipper's Anomaly Buildup Rate by 25/28/32/36/40%.\nBase ATK (Lv 60): 624\nAttack (Lv 60): 25",
               "status": "live",
@@ -153063,8 +153222,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Attack",
-                "baseAtkLv60": "713",
-                "energyRegenLv60": "60"
+                "base_atk_lv_60": "713",
+                "energy_regen_lv_60": "60"
               },
               "text": "Serpentine Seeker\nRarity: S | Type: Attack\nCRIT Rate increases by 25/28.8/32.5/36.3/40% . When the equipper consumes at least 20 Energy in a single instance, every 20 Energy consumed grants 3s of a buff: when dealing Electric DMG , ignore 28/31.5/35/38.5/42% of the target's DEF. Repeated triggers extend the duration, up to a maximum of 30s . When entering combat, gain 10s of this buff. While the equipper is not the active character, the duration no longer decreases.\nBase ATK (Lv 60): 713\nEnergy Regen (Lv 60): 60",
               "status": "live",
@@ -153078,8 +153237,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Attack",
-                "baseAtkLv60": "713",
-                "critDmgLv60": "48"
+                "base_atk_lv_60": "713",
+                "crit_dmg_lv_60": "48"
               },
               "text": "Severed Innocence\nRarity: S | Type: Attack\nCRIT DMG is increased by 30/34.5/39/43.5/48% . When the equipper lands a hit with a Basic Attack, Special Attack, or Aftershock, they gain 1 stack of a buff. Each stack increases the equipper's CRIT DMG by an additional 10/11.5/13/14.5/16% , stacking up to 3 times. The effect lasts for 30s , with each stack's duration calculated separately, and can only be triggered once per use of a skill. With all 3 stacks, the equipper's Electric DMG increases by 20/23/26/29/32% .\nBase ATK (Lv 60): 713\nCrit DMG (Lv 60): 48",
               "status": "live",
@@ -153093,8 +153252,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Anomaly",
-                "baseAtkLv60": "713",
-                "anomalyProficiencyLv60": "90"
+                "base_atk_lv_60": "713",
+                "anomaly_proficiency_lv_60": "90"
               },
               "text": "Sharpened Stinger\nRarity: S | Type: Anomaly\nUpon activating a Dash Attack, gain 1 stack of Predatory Instinct. Each stack of Predatory Instinct increases the equipper's Physical DMG by 12/15/18/21/24% for 10s , stacking up to 3 times. This effect can trigger once every 0.5s and repeated triggers reset the duration. When entering combat or triggering Perfect Dodge, gain 3 stacks of Predatory Instinct. While Predatory Instinct is at maximum stacks, the equipper's Anomaly Buildup Rate increases by 40/50/60/70/80% .\nBase ATK (Lv 60): 713\nAnomaly Proficiency (Lv 60): 90",
               "status": "live",
@@ -153108,8 +153267,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Stun",
-                "baseAtkLv60": "594",
-                "impactLv60": "15"
+                "base_atk_lv_60": "594",
+                "impact_lv_60": "15"
               },
               "text": "Six Shooter\nRarity: A | Type: Stun\nThe equipper gains a Charge stack every 3s , stacking up to 6 times. When launching an EX Special Attack, consumes all Charge stacks, and each stack increases the Daze inflicted by 4/4.6/5.2/5.8/6.4% .\nBase ATK (Lv 60): 594\nImpact (Lv 60): 15",
               "status": "live",
@@ -153123,8 +153282,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Support",
-                "baseAtkLv60": "594",
-                "penRatioLv60": "20"
+                "base_atk_lv_60": "594",
+                "pen_ratio_lv_60": "20"
               },
               "text": "Slice of Time\nRarity: A | Type: Support\nAny squad members' Dodge Counter, EX Special Attack, Assist Attack, or Chain Attack respectively generates 20/23/26/29/32 (Dodge) | 25/28.5/32/35.5/40 (Special) | 30/34.5/39/43.5/48 (Assist) | 35/40/45/50/55 (Chain) more Decibels and generates 0.7/0.8/0.9/1/1.1 Energy for the equipper. This effect can trigger once every 12s . The cooldown for each type of attack is independent of others. Passive effects of the same name do not stack.\nBase ATK (Lv 60): 594\nPEN Ratio (Lv 60): 20",
               "status": "live",
@@ -153138,8 +153297,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Attack",
-                "baseAtkLv60": "713",
-                "atkLv60": "30"
+                "base_atk_lv_60": "713",
+                "atk_lv_60": "30"
               },
               "text": "Sol Exuvia\nRarity: S | Type: Attack\nCRIT Rate increases by 20% . When the equipper is Pyrois, using an Ultimate grants the Eclipse effect. When the Eclipse effect is active, DMG dealt by the equipper ignores 16/17.5/19/20.5/22% of Ether RES , lasting 45s . Repeated triggers reset the duration. When the equipper enters combat, they gain the Eclipse effect.\nBase ATK (Lv 60): 713\nATK% (Lv 60): 30",
               "status": "live",
@@ -153153,8 +153312,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Stun",
-                "baseAtkLv60": "713",
-                "critRateLv60": "24"
+                "base_atk_lv_60": "713",
+                "crit_rate_lv_60": "24"
               },
               "text": "Spectral Gaze\nRarity: S | Type: Stun\nWhen the equipper hits an enemy with an Aftershock, causing Electric DMG, the target's DEF is reduced by 25/28.75/32.5/36.25/40% for 5s . Passive effects of the same name do not stack. When this effect is triggered, if the equipper is not the active character, they gain 1 stack of Spirit Lock, up to a maximum of 3 stacks. This can trigger only once per use of a skill. Each stack of Spirit Lock increases the equipper's Impact by 4/4.6/5.2/5.8/6.4% , lasting 12s . The duration of each stack is calculated separately. At full stacks of Spirit Lock, the equipper's Impact increases by an additional 8/9.2/10.4/11.6/12.8% .\nBase ATK (Lv 60): 713\nCrit Rate (Lv 60): 24",
               "status": "live",
@@ -153168,8 +153327,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Defence",
-                "baseAtkLv60": "594",
-                "attackLv60": "25"
+                "base_atk_lv_60": "594",
+                "attack_lv_60": "25"
               },
               "text": "Spring Embrace\nRarity: A | Type: Defence\nReduces DMG taken 7.5/8.5/9.5/10.5/12% . When attacked, the equipper's Energy Generation Rate increased by 10/11.5/13/14.5/16% for 12s . When the equipper switches off-field, this buff will be transferred to the new on-field character with its duration refreshed. Passive effects of the same name do not stack.\nBase ATK (Lv 60): 594\nAttack (Lv 60): 25",
               "status": "live",
@@ -153183,8 +153342,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Attack",
-                "baseAtkLv60": "594",
-                "attackLv60": "25"
+                "base_atk_lv_60": "594",
+                "attack_lv_60": "25"
               },
               "text": "Starlight Engine\nRarity: A | Type: Attack\nLaunching a Dodge Counter or Quick Assist increases the equipper's ATK by 12/13.8/15.6/17.4/19.2% for 12s.\nBase ATK (Lv 60): 594\nAttack (Lv 60): 25",
               "status": "live",
@@ -153198,8 +153357,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Attack",
-                "baseAtkLv60": "624",
-                "atkLv60": "25"
+                "base_atk_lv_60": "624",
+                "atk_lv_60": "25"
               },
               "text": "Starlight Engine Replica\nRarity: A | Type: Attack\nIncreases the equipper's Physical DMG by 36/41/46.5/52/57.5% for 8s upon hitting an enemy at least 6 meters away with a Basic Attack or Dash Attack.\nBase ATK (Lv 60): 624\nATK (Lv 60): 25",
               "status": "live",
@@ -153213,8 +153372,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Rupture",
-                "baseAtkLv60": "713",
-                "hpLv60": "30"
+                "base_atk_lv_60": "713",
+                "hp_lv_60": "30"
               },
               "text": "Starlight Rider Faceplate\nRarity: S | Type: Rupture\nIncreases CRIT Rate by 20% . When the equipper launches a Special Attack , their Physical Sheer DMG increases by 10% , stacking up to 2 times and lasting 30s. Repeated triggers reset the duration.\nBase ATK (Lv 60): 713\nHP% (Lv 60): 30",
               "status": "live",
@@ -153228,8 +153387,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Stun",
-                "baseAtkLv60": "594",
-                "energyRegenLv60": "50"
+                "base_atk_lv_60": "594",
+                "energy_regen_lv_60": "50"
               },
               "text": "Steam Oven\nRarity: A | Type: Stun\nFor every 10 Energy accumulated, the equipper's Impact is increased by 2/2.3/2.6/2.9/3.2% , stacking up to 8 times. After Energy is consumed, this bonus remains for 8 more seconds. The duration of each stack is calculated separately.\nBase ATK (Lv 60): 594\nEnergy Regen (Lv 60): 50",
               "status": "live",
@@ -153243,8 +153402,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Attack",
-                "baseAtkLv60": "684",
-                "critRateLv60": "24"
+                "base_atk_lv_60": "684",
+                "crit_rate_lv_60": "24"
               },
               "text": "Steel Cushion\nRarity: S | Type: Attack\nIncreases Physical DMG by 20/25/30/35/40% . The equipper's DMG increases by 25/31.5/38/44/50% when attacking the enemy from behind.\nBase ATK (Lv 60): 684\nCrit Rate (Lv 60): 24",
               "status": "live",
@@ -153258,8 +153417,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Attack",
-                "baseAtkLv60": "594",
-                "attackLv60": "25"
+                "base_atk_lv_60": "594",
+                "attack_lv_60": "25"
               },
               "text": "Street Superstar\nRarity: A | Type: Attack\nWhenever a squad member launches a Chain Attack, the equipper gains a Charge stack, stacking up to 3 times. Upon activating their own Ultimate, the equipper consumes all Charge stacks, and each stack increases the skill's DMG by 15/17.2/19.5/21.7/24%.\nBase ATK (Lv 60): 594\nAttack (Lv 60): 25",
               "status": "live",
@@ -153273,8 +153432,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Attack",
-                "baseAtkLv60": "684",
-                "attackLv60": "30"
+                "base_atk_lv_60": "684",
+                "attack_lv_60": "30"
               },
               "text": "The Brimstone\nRarity: S | Type: Attack\nUpon hitting an enemy with a Basic Attack, Dash Attack, or Dodge Counter, the equipper's ATK increases by 3.5/4.4/5.2/6/7% for 8s , stacking up to 8 times. This effect can trigger once every 0.5s. The duration of each stack is calculated separately.\nBase ATK (Lv 60): 684\nAttack (Lv 60): 30",
               "status": "live",
@@ -153288,8 +153447,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Stun",
-                "baseAtkLv60": "684",
-                "impactLv60": "18"
+                "base_atk_lv_60": "684",
+                "impact_lv_60": "18"
               },
               "text": "The Restrained\nRarity: S | Type: Stun\nWhen an attack hits an enemy, DMG and Daze from Basic Attacks increase by 6/7.5/9/10.5/12% for 8s , stacking up to 5 times. This effect can trigger at most once during each skill. The duration of each stack is calculated separately.\nBase ATK (Lv 60): 684\nImpact (Lv 60): 18",
               "status": "live",
@@ -153303,8 +153462,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Stun",
-                "baseAtkLv60": "594",
-                "impactLv60": "15"
+                "base_atk_lv_60": "594",
+                "impact_lv_60": "15"
               },
               "text": "The Simmering Pot\nRarity: A | Type: Stun\nWhen activating an Assist Follow-Up, the equipper's Daze inflicted on the target increases by 7.2/8.2/9.2/10.2/11.5% , and DMG dealt increases by 7.2/8.2/9.2/10.2/11.5% for 30s . Repeated triggers reset the duration.\nBase ATK (Lv 60): 594\nImpact (Lv 60): 15",
               "status": "live",
@@ -153318,8 +153477,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Support",
-                "baseAtkLv60": "624",
-                "energyRegenLv60": "50"
+                "base_atk_lv_60": "624",
+                "energy_regen_lv_60": "50"
               },
               "text": "The Vault\nRarity: A | Type: Support\nDealing Ether DMG using an EX Special Attack, Chain Attack, or Ultimate increases all squad members' DMG against the target by 15/17.5/20/22/24% and increases the equipper's Energy Regen by 0.5/0.58/0.65/0.72/0.8 per second for 2s . Passive effects of the same name do not stack.\nBase ATK (Lv 60): 624\nEnergy Regen (Lv 60): 50",
               "status": "live",
@@ -153333,8 +153492,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Support",
-                "baseAtkLv60": "713",
-                "energyRegenLv60": "60"
+                "base_atk_lv_60": "713",
+                "energy_regen_lv_60": "60"
               },
               "text": "Thoughtbop\nRarity: S | Type: Support\nWhile not the active character, the equipper's Energy Regen increases by 0.6/0.69/0.78/0.87/0.96 per second. When the equipper uses an EX Special Attack and deals Physical DMG, all squad members gain a buff: DMG dealt increases by 12.5/14.3/16.1/17.9/20% for 40s , stacking up to 2 times. Repeated triggers reset the duration. At 2 stacks, characters gain an additional 10/11.5/13/14.5/16% ATK. Only one instance of this effect can exist in the same squad.\nBase ATK (Lv 60): 713\nEnergy Regen (Lv 60): 60",
               "status": "live",
@@ -153348,8 +153507,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Anomaly",
-                "baseAtkLv60": "713",
-                "attackLv60": "30"
+                "base_atk_lv_60": "713",
+                "attack_lv_60": "30"
               },
               "text": "Timeweaver\nRarity: S | Type: Anomaly\nThe equipper's Electric Anomaly Buildup Rate increases by 30/35/40/45/50% . When Special Attacks or EX Special Attacks hit enemies under Attribute Anomalies, the equipper's Anomaly Proficiency increases by 75/85/95/105/115 for 15s .\nWhen the equipper's Anomaly Proficiency is greater than or equal to 375 , Disorder DMG inflicted by the equipper increases by 25/27.5/30/32.5/35% .\nBase ATK (Lv 60): 713\nAttack (Lv 60): 30",
               "status": "live",
@@ -153363,8 +153522,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Defence",
-                "baseAtkLv60": "624",
-                "attackLv60": "25"
+                "base_atk_lv_60": "624",
+                "attack_lv_60": "25"
               },
               "text": "Tremor Trigram Vessel\nRarity: A | Type: Defence\nThe equipper's EX Special Attack and Ultimate DMG increases by 25/28.7/32.5/36.2/40% . Whenever any squad member takes DMG or heals, the equipper gains 2/2.3/2.6/2.9/3.2 Energy. This effect can trigger once every 5s .\nBase ATK (Lv 60): 624\nAttack (Lv 60): 25",
               "status": "live",
@@ -153378,8 +153537,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Defence",
-                "baseAtkLv60": "713",
-                "impactLv60": "18"
+                "base_atk_lv_60": "713",
+                "impact_lv_60": "18"
               },
               "text": "Tusks of Fury\nRarity: S | Type: Defence\nThe Shield value provided by the equipper increases by 30/38/46/52/60% . When any squad member triggers Interrupt or Perfect Dodge, all squad members' DMG increases by 18/22.5/27/31.5/36% and Daze dealt increases by 12/15/18/21/24% for 20s . Passive effects of the same name do not stack.\nBase ATK (Lv 60): 713\nImpact (Lv 60): 18",
               "status": "live",
@@ -153393,8 +153552,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Support",
-                "baseAtkLv60": "594",
-                "energyRegenLv60": "50"
+                "base_atk_lv_60": "594",
+                "energy_regen_lv_60": "50"
               },
               "text": "Unfettered Game Ball\nRarity: A | Type: Support\nWhenever the equipper's attack triggers an Attribute Counter effect, all squad members' CRIT Rate against the struck enemy increases by 12/13.5/15.5/17.5/20% for 12s . The bonuses triggered by the same type of passive effects do not stack.\nBase ATK (Lv 60): 594\nEnergy Regen (Lv 60): 50",
               "status": "live",
@@ -153408,8 +153567,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Support",
-                "baseAtkLv60": "684",
-                "penRatioLv60": "24"
+                "base_atk_lv_60": "684",
+                "pen_ratio_lv_60": "24"
               },
               "text": "Weeping Cradle\nRarity: S | Type: Support\nWhile off-field, Energy Regen increases by 0.6/0.75/0.9/1.05/1.2 per second . Attacks from the equipper enhance the squad's DMG against a struck target by 10/12.5/15/17.5/20% for 3 seconds. During this period, this effect is further increased by 1.7/2/2.5/3/3.3% every 0.5s , up to a maximum additional increase of 10.2/12/15/18/19.8% . Repeated triggers only refresh its duration without refreshing the DMG increase effect. Passive effects of the same name do not stack.\nBase ATK (Lv 60): 684\nPEN Ratio (Lv 60): 24",
               "status": "live",
@@ -153423,8 +153582,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Anomaly",
-                "baseAtkLv60": "594",
-                "attackLv60": "25"
+                "base_atk_lv_60": "594",
+                "attack_lv_60": "25"
               },
               "text": "Weeping Gemini\nRarity: A | Type: Anomaly\nWhenever a squad member inflicts an Attribute Anomaly on an enemy, the equipper gains a buff that increases Anomaly Proficiency by 30/34/38/42/46 , stacking up to 4 times. This effect expires when the target recovers from Stun or is defeated. The duration of each stack is calculated separately.\nBase ATK (Lv 60): 594\nAttack (Lv 60): 25",
               "status": "live",
@@ -153438,8 +153597,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Rupture",
-                "baseAtkLv60": "713",
-                "hpLv60": "30"
+                "base_atk_lv_60": "713",
+                "hp_lv_60": "30"
               },
               "text": "Wrathful Vajra\nRarity: S | Type: Rupture\nCRIT Rate increases by 20/23/26/29/32% . When the equipper launches an EX Special Attack, their Fire Sheer DMG increases by 9/10.35/11.7/13.05/14.4% , stacking up to 2 times and lasting 20s . The duration of each stack is calculated separately.\nBase ATK (Lv 60): 713\nHP (Lv 60): 30",
               "status": "live",
@@ -153453,8 +153612,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Stun",
-                "baseAtkLv60": "713",
-                "critRateLv60": "24"
+                "base_atk_lv_60": "713",
+                "crit_rate_lv_60": "24"
               },
               "text": "Yesterday Calls\nRarity: S | Type: Stun\nWhile off-field, the equipper's Energy Regen increases by 1.5/1.7/1.9/2.1/2.3 per second. When the equipper deals Physical DMG with an EX Special Attack, the Daze dealt by the equipper's attacks increases by 9/10.3/11.7/13/14.5% for 10s , stacking up to 3 times.\nAt 3 stacks, all squad members gain 30/34.5/39/43.5/48% additional CRIT DMG for 40s . Repeated triggers reset the duration. Only one instance of this CRIT DMG boost effect can exist in the same squad.\nBase ATK (Lv 60): 713\nCrit Rate (Lv 60): 24",
               "status": "live",
@@ -153468,8 +153627,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Attack",
-                "baseAtkLv60": "713",
-                "critDamageLv60": "48"
+                "base_atk_lv_60": "713",
+                "crit_damage_lv_60": "48"
               },
               "text": "Zanshin Herb Case\nRarity: S | Type: Attack\nCRIT Rate increases by 10/11.5/13/14.5/16% . Dash Attack Electric DMG increases by 40/46/52/58/64% . When any squad member applies an Attribute Anomaly or Stuns an enemy, the equipper's CRIT Rate increases by an additional 10/11.5/13/14.5/16% for 15s .\nBase ATK (Lv 60): 713\nCrit Damage (Lv 60): 48",
               "status": "live",
@@ -153523,7 +153682,8 @@ var NYX_DB = {
               "art": "../../Database/Prydwen/zzz/assets/drive-discs/bunny-in-wonderland-86d253c71271.webp",
               "fields": {
                 "bonuses": [
-                  "(2) HP + 10% ."
+                  "(2) HP + 10% .",
+                  "(4) When the equipper is a Defense character: When the equipper launches an EX Special Attack or any squad member triggers a Defensive Assist or Evasive Assist, all squad members' DMG increases by 6% , stacking up to 3 times, lasting 25s . Stacks decay one at a time, and duration refreshes when gained or decayed. Passive effects of the same name do not stack."
                 ],
                 "twoPieceStat": "HP"
               },
@@ -155640,7 +155800,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-20",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ROSCAELIFER0617",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ROSCAELIFER0617"
@@ -155654,7 +155814,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-20",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT"
@@ -155668,10 +155828,24 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-20",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO"
+        },
+        {
+          "code": "ZZZDREAMLAND",
+          "reward": "Polychrome x 30, Denny x 6,666",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Polychrome",
+            "needle": "polychrome",
+            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
+          },
+          "added": "2026-07-20",
+          "firstSeen": "2026-07-17T15:01:00.612Z",
+          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZDREAMLAND",
+          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZDREAMLAND"
         },
         {
           "code": "ZZZSEASON3",
@@ -155682,7 +155856,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-20",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSEASON3",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSEASON3"
@@ -155696,20 +155870,49 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-20",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM"
+        },
+        {
+          "code": "ZZZ2YEAR",
+          "reward": "50 Polychrome",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Polychrome",
+            "needle": "polychrome",
+            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
+          },
+          "added": "2026-07-18",
+          "firstSeen": "2026-07-18T06:12:26.512Z",
+          "sourceUrl": "https://www.crimsonwitch.com/codes/Zenless_Zone_Zero",
+          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ2YEAR"
+        },
+        {
+          "code": "ZZZ31REMIELLE",
+          "reward": "60 Polychrome, 6666 Denny",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Polychrome",
+            "needle": "polychrome",
+            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
+          },
+          "added": "2026-07-18",
+          "firstSeen": "2026-07-17T15:01:00.612Z",
+          "sourceUrl": "https://www.crimsonwitch.com/codes/Zenless_Zone_Zero",
+          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ31REMIELLE"
         }
       ],
       "banners": {
         "name": "Zenless Zone Zero",
         "freshness": {
-          "status": "fresh",
-          "checkedAt": "2026-07-17T11:11:02.378Z",
+          "status": "stale",
+          "checkedAt": "2026-07-18T19:24:04.058Z",
           "lastSuccessfulFetch": "2026-07-17T11:11:02.378Z",
           "lastValidUpdate": "2026-07-17T11:11:02.378Z",
-          "source": "game8"
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": null,
@@ -155741,6 +155944,24 @@ var NYX_DB = {
         "upcoming": []
       },
       "roster": [
+        {
+          "id": "zzz-lycaon",
+          "name": "Lycaon",
+          "aliases": [],
+          "title": "Thank You For Requesting Me",
+          "rarity": "S",
+          "element": "Ice",
+          "role": "Stun",
+          "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle18.webp",
+          "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole18.webp",
+          "facts": {
+            "fullName": "Von Lycaon",
+            "faction": "Victoria Housekeeping Co.",
+            "birthday": "October 4",
+            "title": "Thank You For Requesting Me"
+          },
+          "forms": []
+        },
         {
           "id": "zzz-norma",
           "name": "Norma",
@@ -156184,24 +156405,6 @@ var NYX_DB = {
             "faction": "Spook Shack",
             "birthday": "March 17",
             "title": "The Story Continues"
-          },
-          "forms": []
-        },
-        {
-          "id": "zzz-lycaon",
-          "name": "Lycaon",
-          "aliases": [],
-          "title": "Thank You For Requesting Me",
-          "rarity": "S",
-          "element": "Ice",
-          "role": "Stun",
-          "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle18.webp",
-          "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole18.webp",
-          "facts": {
-            "fullName": "Von Lycaon",
-            "faction": "Victoria Housekeeping Co.",
-            "birthday": "October 4",
-            "title": "Thank You For Requesting Me"
           },
           "forms": []
         },
@@ -156708,20 +156911,6 @@ var NYX_DB = {
             "title": "Take a Break"
           },
           "forms": []
-        },
-        {
-          "id": "zzz-remielle",
-          "name": "Remielle",
-          "aliases": [],
-          "rarity": "S",
-          "element": "Lumiflux",
-          "role": "Anomaly",
-          "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle67.webp",
-          "art": "../../Database/Prydwen/zzz/assets/characters/remielle-e8b52d52cf40.webp",
-          "facts": {
-            "faction": "Covenant of Dayat"
-          },
-          "forms": []
         }
       ]
     },
@@ -156733,7 +156922,7 @@ var NYX_DB = {
         {
           "key": "weapons",
           "title": "Weapons",
-          "updatedText": "09/July/2026",
+          "updatedText": "13/July/2026",
           "source": "Prydwen",
           "count": 120,
           "items": [
@@ -156745,7 +156934,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Gauntlets",
-                "atkLv90": "36.4 %"
+                "atk_lv_90": "36.4 %"
               },
               "text": "Abyss Surges\nRarity: 5 \u2605\nType: Gauntlets\nATK (Lv.90): 587\nATK (Lv.90): 36.4 %",
               "status": "live",
@@ -156759,8 +156948,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Gauntlets",
-                "atkLv90": "412",
-                "critDmgLv90": "40.5 %"
+                "atk_lv_90": "412",
+                "crit_dmg_lv_90": "40.5 %"
               },
               "text": "Aether Strike\nRarity: 4 \u2605\nType: Gauntlets\nATK (Lv.90): 412\nCRIT DMG (Lv.90): 40.5 %",
               "status": "live",
@@ -156774,8 +156963,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Broadblade",
-                "atkLv90": "587",
-                "critRateLv90": "24.3 %"
+                "atk_lv_90": "587",
+                "crit_rate_lv_90": "24.3 %"
               },
               "text": "Ages of Harvest\nRarity: 5 \u2605\nType: Broadblade\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.3 %",
               "status": "live",
@@ -156789,8 +156978,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Gauntlets",
-                "atkLv90": "337",
-                "defLv90": "61.5 %"
+                "atk_lv_90": "337",
+                "def_lv_90": "61.5 %"
               },
               "text": "Amity Accord\nRarity: 4 \u2605\nType: Gauntlets\nATK (Lv.90): 337\nDEF (Lv.90): 61.5 %",
               "status": "live",
@@ -156804,8 +156993,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Rectifier",
-                "atkLv90": "412",
-                "critRateLv90": "20.2 %"
+                "atk_lv_90": "412",
+                "crit_rate_lv_90": "20.2 %"
               },
               "text": "Augment\nRarity: 4 \u2605\nType: Rectifier\nATK (Lv.90): 412\nCRIT Rate (Lv.90): 20.2 %",
               "status": "live",
@@ -156819,8 +157008,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Broadblade",
-                "atkLv90": "412",
-                "critDmgLv90": "40.5 %"
+                "atk_lv_90": "412",
+                "crit_dmg_lv_90": "40.5 %"
               },
               "text": "Aureate Zenith\nRarity: 4 \u2605\nType: Broadblade\nATK (Lv.90): 412\nCRIT DMG (Lv.90): 40.5 %",
               "status": "live",
@@ -156834,8 +157023,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Broadblade",
-                "atkLv90": "412",
-                "critRateLv90": "20.2 %"
+                "atk_lv_90": "412",
+                "crit_rate_lv_90": "20.2 %"
               },
               "text": "Autumntrace\nRarity: 4 \u2605\nType: Broadblade\nATK (Lv.90): 412\nCRIT Rate (Lv.90): 20.2 %",
               "status": "live",
@@ -156849,10 +157038,10 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Sword",
-                "atkLv90": "588",
-                "critRateLv90": "24.3 %"
+                "atk_lv_90": "587",
+                "crit_rate_lv_90": "24.3 %"
               },
-              "text": "Azure Oath\nRarity: 5 \u2605\nType: Sword\nATK (Lv.90): 588\nCrit. Rate (Lv.90): 24.3 %",
+              "text": "Azure Oath\nRarity: 5 \u2605\nType: Sword\nATK (Lv.90): 587\nCrit. Rate (Lv.90): 24.3 %",
               "status": "live",
               "labels": []
             },
@@ -156864,7 +157053,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Broadblade",
-                "atkLv90": "30.4 %"
+                "atk_lv_90": "30.4 %"
               },
               "text": "Beguiling Melody\nRarity: 3 \u2605\nType: Broadblade\nATK (Lv.90): 300\nATK (Lv.90): 30.4 %",
               "status": "live",
@@ -156878,8 +157067,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Sword",
-                "atkLv90": "587",
-                "critDmgLv90": "48.6 %"
+                "atk_lv_90": "587",
+                "crit_dmg_lv_90": "48.6 %"
               },
               "text": "Blazing Brilliance\nRarity: 5 \u2605\nType: Sword\nATK (Lv.90): 587\nCRIT DMG (Lv.90): 48.6 %",
               "status": "live",
@@ -156893,8 +157082,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Gauntlets",
-                "atkLv90": "587",
-                "critDmgLv90": "48.6 %"
+                "atk_lv_90": "587",
+                "crit_dmg_lv_90": "48.6 %"
               },
               "text": "Blazing Justice\nRarity: 5 \u2605\nType: Gauntlets\nATK (Lv.90): 587\nCRIT DMG (Lv.90): 48.6 %",
               "status": "live",
@@ -156908,8 +157097,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Sword",
-                "atkLv90": "587",
-                "energyRegLv90": "38.9 %"
+                "atk_lv_90": "587",
+                "energy_reg_lv_90": "38.9 %"
               },
               "text": "Bloodpact's Pledge\nRarity: 5 \u2605\nType: Sword\nATK (Lv.90): 587\nEnergy Reg. (Lv.90): 38.9 %",
               "status": "live",
@@ -156923,8 +157112,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Rectifier",
-                "atkLv90": "525",
-                "energyRegLv90": "38.8 %"
+                "atk_lv_90": "525",
+                "energy_reg_lv_90": "38.8 %"
               },
               "text": "Boson Astrolabe\nRarity: 5 \u2605\nType: Rectifier\nATK (Lv.90): 525\nEnergy Reg. (Lv.90): 38.8 %",
               "status": "live",
@@ -156938,7 +157127,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Broadblade",
-                "atkLv90": "24.3 %"
+                "atk_lv_90": "24.3 %"
               },
               "text": "Broadblade of Night\nRarity: 3 \u2605\nType: Broadblade\nATK (Lv.90): 325\nATK (Lv.90): 24.3 %",
               "status": "live",
@@ -156952,8 +157141,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Broadblade",
-                "atkLv90": "300",
-                "energyRegLv90": "32.3 %"
+                "atk_lv_90": "300",
+                "energy_reg_lv_90": "32.3 %"
               },
               "text": "Broadblade of Voyager\nRarity: 3 \u2605\nType: Broadblade\nATK (Lv.90): 300\nEnergy Reg. (Lv.90): 32.3 %",
               "status": "live",
@@ -156967,8 +157156,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Broadblade",
-                "atkLv90": "412",
-                "energyRegLv90": "32.3 %"
+                "atk_lv_90": "412",
+                "energy_reg_lv_90": "32.3 %"
               },
               "text": "Broadblade#41\nRarity: 4 \u2605\nType: Broadblade\nATK (Lv.90): 412\nEnergy Reg. (Lv.90): 32.3 %",
               "status": "live",
@@ -156982,8 +157171,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Pistols",
-                "atkLv90": "337",
-                "energyRegLv90": "51.8 %"
+                "atk_lv_90": "337",
+                "energy_reg_lv_90": "51.8 %"
               },
               "text": "Cadenza\nRarity: 4 \u2605\nType: Pistols\nATK (Lv.90): 337\nEnergy Reg. (Lv.90): 51.8 %",
               "status": "live",
@@ -156997,8 +157186,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Rectifier",
-                "atkLv90": "338",
-                "energyRegenLv90": "51.8 %"
+                "atk_lv_90": "338",
+                "energy_regen_lv_90": "51.8 %"
               },
               "text": "Call of the Abyss\nRarity: 4 \u2605\nType: Rectifier\nATK (Lv.90): 338\nEnergy Regen (Lv.90): 51.8 %",
               "status": "live",
@@ -157012,7 +157201,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Gauntlets",
-                "atkLv90": "18.2 %"
+                "atk_lv_90": "18.2 %"
               },
               "text": "Celestial Spiral\nRarity: 4 \u2605\nType: Gauntlets\nATK (Lv.90): 462\nATK (Lv.90): 18.2 %",
               "status": "live",
@@ -157026,8 +157215,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Rectifier",
-                "atkLv90": "412",
-                "hpLv90": "30.3 %"
+                "atk_lv_90": "412",
+                "hp_lv_90": "30.3 %"
               },
               "text": "Comet Flare\nRarity: 4 \u2605\nType: Rectifier\nATK (Lv.90): 412\nHP (Lv.90): 30.3 %",
               "status": "live",
@@ -157041,7 +157230,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Sword",
-                "atkLv90": "30.3 %"
+                "atk_lv_90": "30.3 %"
               },
               "text": "Commando of Conviction\nRarity: 4 \u2605\nType: Sword\nATK (Lv.90): 412\nATK (Lv.90): 30.3 %",
               "status": "live",
@@ -157055,7 +157244,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Rectifier",
-                "atkLv90": "54 %"
+                "atk_lv_90": "54 %"
               },
               "text": "Cosmic Ripples\nRarity: 5 \u2605\nType: Rectifier\nATK (Lv.90): 500\nATK (Lv.90): 54 %",
               "status": "live",
@@ -157069,8 +157258,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Broadblade",
-                "atkLv90": "337",
-                "defLv90": "61.5 %"
+                "atk_lv_90": "337",
+                "def_lv_90": "61.5 %"
               },
               "text": "Dauntless Evernight\nRarity: 4 \u2605\nType: Broadblade\nATK (Lv.90): 337\nDEF (Lv.90): 61.5 %",
               "status": "live",
@@ -157084,8 +157273,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Gauntlets",
-                "atkLv90": "587",
-                "critRateLv90": "24.3 %"
+                "atk_lv_90": "587",
+                "crit_rate_lv_90": "24.3 %"
               },
               "text": "Daybreaker's Spine\nRarity: 5 \u2605\nType: Gauntlets\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.3 %",
               "status": "live",
@@ -157099,8 +157288,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Sword",
-                "atkLv90": "413",
-                "hpLv90": "72.2 %"
+                "atk_lv_90": "413",
+                "hp_lv_90": "72.2 %"
               },
               "text": "Defier's Thorn\nRarity: 5 \u2605\nType: Sword\nATK (Lv.90): 413\nHP (Lv.90): 72.2 %",
               "status": "live",
@@ -157114,8 +157303,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Broadblade",
-                "atkLv90": "337",
-                "energyRegLv90": "51.8 %"
+                "atk_lv_90": "337",
+                "energy_reg_lv_90": "51.8 %"
               },
               "text": "Discord\nRarity: 4 \u2605\nType: Broadblade\nATK (Lv.90): 337\nEnergy Reg. (Lv.90): 51.8 %",
               "status": "live",
@@ -157129,8 +157318,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Sword",
-                "atkLv90": "587",
-                "critRateLv90": "24.3 %"
+                "atk_lv_90": "587",
+                "crit_rate_lv_90": "24.3 %"
               },
               "text": "Emerald of Genesis\nRarity: 5 \u2605\nType: Sword\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.3 %",
               "status": "live",
@@ -157144,8 +157333,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Sword",
-                "atkLv90": "587",
-                "critRateLv90": "24.3 %"
+                "atk_lv_90": "587",
+                "crit_rate_lv_90": "24.3 %"
               },
               "text": "Emerald Sentence\nRarity: 5 \u2605\nType: Sword\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.3 %",
               "status": "live",
@@ -157159,7 +157348,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Sword",
-                "atkLv90": "18.2 %"
+                "atk_lv_90": "18.2 %"
               },
               "text": "Endless Collapse\nRarity: 4 \u2605\nType: Sword\nATK (Lv.90): 462\nATK (Lv.90): 18.2 %",
               "status": "live",
@@ -157173,8 +157362,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Sword",
-                "atkLv90": "587",
-                "critRateLv90": "24.3 %"
+                "atk_lv_90": "587",
+                "crit_rate_lv_90": "24.3 %"
               },
               "text": "Everbright Polestar\nRarity: 5 \u2605\nType: Sword\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.3 %",
               "status": "live",
@@ -157188,7 +157377,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Sword",
-                "atkLv90": "18.2 %"
+                "atk_lv_90": "18.2 %"
               },
               "text": "Fables of Wisdom\nRarity: 4 \u2605\nType: Sword\nATK (Lv.90): 462\nATK (Lv.90): 18.2 %",
               "status": "live",
@@ -157202,8 +157391,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Sword",
-                "atkLv90": "412",
-                "critRateLv90": "20.3 %"
+                "atk_lv_90": "412",
+                "crit_rate_lv_90": "20.3 %"
               },
               "text": "Feather Edge\nRarity: 4 \u2605\nType: Sword\nATK (Lv.90): 412\nCRIT Rate (Lv.90): 20.3 %",
               "status": "live",
@@ -157217,8 +157406,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Rectifier",
-                "atkLv90": "0",
-                "lv90": "0 %"
+                "atk_lv_90": "0",
+                "lv_90": "0 %"
               },
               "text": "Firstlight's Herald\nRarity: 5 \u2605\nType: Rectifier\nATK (Lv.90): 0\n(Lv.90): 0 %",
               "status": "live",
@@ -157232,8 +157421,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Rectifier",
-                "atkLv90": "500",
-                "critRateLv90": "36 %"
+                "atk_lv_90": "500",
+                "crit_rate_lv_90": "36 %"
               },
               "text": "Forged Dwarf Star\nRarity: 5 \u2605\nType: Rectifier\nATK (Lv.90): 500\nCRIT Rate (Lv.90): 36 %",
               "status": "live",
@@ -157247,8 +157436,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Rectifier",
-                "atkLv90": "587",
-                "critRateLv90": "24.2 %"
+                "atk_lv_90": "587",
+                "crit_rate_lv_90": "24.2 %"
               },
               "text": "Freeze Frame\nRarity: 5 \u2605\nType: Rectifier\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.2 %",
               "status": "live",
@@ -157262,8 +157451,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Sword",
-                "atkLv90": "587",
-                "critRateLv90": "24.3 %"
+                "atk_lv_90": "587",
+                "crit_rate_lv_90": "24.3 %"
               },
               "text": "Frostburn\nRarity: 5 \u2605\nType: Sword\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.3 %",
               "status": "live",
@@ -157277,7 +157466,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Rectifier",
-                "atkLv90": "18.2 %"
+                "atk_lv_90": "18.2 %"
               },
               "text": "Fusion Accretion\nRarity: 4 \u2605\nType: Rectifier\nATK (Lv.90): 462\nATK (Lv.90): 18.2 %",
               "status": "live",
@@ -157291,7 +157480,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Gauntlets",
-                "atkLv90": "24.3 %"
+                "atk_lv_90": "24.3 %"
               },
               "text": "Gauntlets of Night\nRarity: 3 \u2605\nType: Gauntlets\nATK (Lv.90): 325\nATK (Lv.90): 24.3 %",
               "status": "live",
@@ -157305,8 +157494,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Gauntlets",
-                "atkLv90": "325",
-                "defLv90": "30.7 %"
+                "atk_lv_90": "325",
+                "def_lv_90": "30.7 %"
               },
               "text": "Gauntlets of Voyager\nRarity: 3 \u2605\nType: Gauntlets\nATK (Lv.90): 325\nDEF (Lv.90): 30.7 %",
               "status": "live",
@@ -157320,8 +157509,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Gauntlets",
-                "atkLv90": "387",
-                "energyRegLv90": "38.8 %"
+                "atk_lv_90": "387",
+                "energy_reg_lv_90": "38.8 %"
               },
               "text": "Gauntlets#21D\nRarity: 4 \u2605\nType: Gauntlets\nATK (Lv.90): 387\nEnergy Reg. (Lv.90): 38.8 %",
               "status": "live",
@@ -157335,7 +157524,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Broadblade",
-                "atkLv90": "24.3 %"
+                "atk_lv_90": "24.3 %"
               },
               "text": "Guardian Broadblade\nRarity: 3 \u2605\nType: Broadblade\nATK (Lv.90): 325\nATK (Lv.90): 24.3 %",
               "status": "live",
@@ -157349,8 +157538,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Gauntlets",
-                "atkLv90": "300",
-                "defLv90": "38.4 %"
+                "atk_lv_90": "300",
+                "def_lv_90": "38.4 %"
               },
               "text": "Guardian Gauntlets\nRarity: 3 \u2605\nType: Gauntlets\nATK (Lv.90): 300\nDEF (Lv.90): 38.4 %",
               "status": "live",
@@ -157364,7 +157553,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Pistols",
-                "atkLv90": "24.3 %"
+                "atk_lv_90": "24.3 %"
               },
               "text": "Guardian Pistols\nRarity: 3 \u2605\nType: Pistols\nATK (Lv.90): 325\nATK (Lv.90): 24.3 %",
               "status": "live",
@@ -157378,7 +157567,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Rectifier",
-                "atkLv90": "24.3 %"
+                "atk_lv_90": "24.3 %"
               },
               "text": "Guardian Rectifier\nRarity: 3 \u2605\nType: Rectifier\nATK (Lv.90): 325\nATK (Lv.90): 24.3 %",
               "status": "live",
@@ -157392,8 +157581,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Sword",
-                "atkLv90": "300",
-                "hpLv90": "30.3 %"
+                "atk_lv_90": "300",
+                "hp_lv_90": "30.3 %"
               },
               "text": "Guardian Sword\nRarity: 3 \u2605\nType: Sword\nATK (Lv.90): 300\nHP (Lv.90): 30.3 %",
               "status": "live",
@@ -157407,7 +157596,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Broadblade",
-                "atkLv90": "30.3 %"
+                "atk_lv_90": "30.3 %"
               },
               "text": "Helios Cleaver\nRarity: 4 \u2605\nType: Broadblade\nATK (Lv.90): 412\nATK (Lv.90): 30.3 %",
               "status": "live",
@@ -157421,7 +157610,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Gauntlets",
-                "atkLv90": "30.3 %"
+                "atk_lv_90": "30.3 %"
               },
               "text": "Hollow Mirage\nRarity: 4 \u2605\nType: Gauntlets\nATK (Lv.90): 412\nATK (Lv.90): 30.3 %",
               "status": "live",
@@ -157435,7 +157624,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Rectifier",
-                "atkLv90": "36.4 %"
+                "atk_lv_90": "36.4 %"
               },
               "text": "Jinzhou Keeper\nRarity: 4 \u2605\nType: Rectifier\nATK (Lv.90): 387\nATK (Lv.90): 36.4 %",
               "status": "live",
@@ -157449,8 +157638,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Broadblade",
-                "atkLv90": "500",
-                "critRateLv90": "36 %"
+                "atk_lv_90": "500",
+                "crit_rate_lv_90": "36 %"
               },
               "text": "Kumokiri\nRarity: 5 \u2605\nType: Broadblade\nATK (Lv.90): 500\nCRIT Rate (Lv.90): 36 %",
               "status": "live",
@@ -157464,8 +157653,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Sword",
-                "atkLv90": "587",
-                "energyRegLv90": "38.8 %"
+                "atk_lv_90": "587",
+                "energy_reg_lv_90": "38.8 %"
               },
               "text": "Laser Shearer\nRarity: 5 \u2605\nType: Sword\nATK (Lv.90): 587\nEnergy Reg. (Lv.90): 38.8 %",
               "status": "live",
@@ -157479,7 +157668,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Gauntlets",
-                "atkLv90": "18.2 %"
+                "atk_lv_90": "18.2 %"
               },
               "text": "Legend of Drunken Hero\nRarity: 4 \u2605\nType: Gauntlets\nATK (Lv.90): 462\nATK (Lv.90): 18.2 %",
               "status": "live",
@@ -157493,8 +157682,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Rectifier",
-                "atkLv90": "587",
-                "critRateLv90": "24.3 %"
+                "atk_lv_90": "587",
+                "crit_rate_lv_90": "24.3 %"
               },
               "text": "Lethean Elegy\nRarity: 5 \u2605\nType: Rectifier\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.3 %",
               "status": "live",
@@ -157508,7 +157697,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Sword",
-                "atkLv90": "36.4 %"
+                "atk_lv_90": "36.4 %"
               },
               "text": "Lumingloss\nRarity: 4 \u2605\nType: Sword\nATK (Lv.90): 387\nATK (Lv.90): 36.4 %",
               "status": "live",
@@ -157522,8 +157711,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Rectifier",
-                "atkLv90": "500",
-                "critRateLv90": "36 %"
+                "atk_lv_90": "500",
+                "crit_rate_lv_90": "36 %"
               },
               "text": "Luminous Hymn\nRarity: 5 \u2605\nType: Rectifier\nATK (Lv.90): 500\nCrit. Rate (Lv.90): 36 %",
               "status": "live",
@@ -157537,7 +157726,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Sword",
-                "atkLv90": "30.3 %"
+                "atk_lv_90": "30.3 %"
               },
               "text": "Lunar Cutter\nRarity: 4 \u2605\nType: Sword\nATK (Lv.90): 412\nATK (Lv.90): 30.3 %",
               "status": "live",
@@ -157551,7 +157740,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Broadblade",
-                "atkLv90": "36.4 %"
+                "atk_lv_90": "36.4 %"
               },
               "text": "Lustrous Razor\nRarity: 5 \u2605\nType: Broadblade\nATK (Lv.90): 587\nATK (Lv.90): 36.4 %",
               "status": "live",
@@ -157565,8 +157754,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Pistols",
-                "atkLv90": "587",
-                "critDmgLv90": "48.6 %"
+                "atk_lv_90": "587",
+                "crit_dmg_lv_90": "48.6 %"
               },
               "text": "Lux & Umbra\nRarity: 5 \u2605\nType: Pistols\nATK (Lv.90): 587\nCRIT DMG (Lv.90): 48.6 %",
               "status": "live",
@@ -157580,8 +157769,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Gauntlets",
-                "atkLv90": "337",
-                "energyRegLv90": "51.8 %"
+                "atk_lv_90": "337",
+                "energy_reg_lv_90": "51.8 %"
               },
               "text": "Marcato\nRarity: 4 \u2605\nType: Gauntlets\nATK (Lv.90): 337\nEnergy Reg. (Lv.90): 51.8 %",
               "status": "live",
@@ -157595,7 +157784,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Broadblade",
-                "atkLv90": "18.2 %"
+                "atk_lv_90": "18.2 %"
               },
               "text": "Meditations on Mercy\nRarity: 4 \u2605\nType: Broadblade\nATK (Lv.90): 462\nATK (Lv.90): 18.2 %",
               "status": "live",
@@ -157609,8 +157798,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Gauntlets",
-                "atkLv90": "500",
-                "critRateLv90": "36 %"
+                "atk_lv_90": "500",
+                "crit_rate_lv_90": "36 %"
               },
               "text": "Moongazer's Sigil\nRarity: 5 \u2605\nType: Gauntlets\nATK (Lv.90): 500\nCRIT Rate (Lv.90): 36 %",
               "status": "live",
@@ -157624,7 +157813,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Pistols",
-                "atkLv90": "30.3 %"
+                "atk_lv_90": "30.3 %"
               },
               "text": "Novaburst\nRarity: 4 \u2605\nType: Pistols\nATK (Lv.90): 412\nATK (Lv.90): 30.3 %",
               "status": "live",
@@ -157638,7 +157827,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Rectifier",
-                "atkLv90": "18.2 %"
+                "atk_lv_90": "18.2 %"
               },
               "text": "Ocean's Gift\nRarity: 4 \u2605\nType: Rectifier\nATK (Lv.90): 462\nATK (Lv.90): 18.2 %",
               "status": "live",
@@ -157652,8 +157841,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Broadblade",
-                "atkLv90": "300",
-                "defLv90": "38.4 %"
+                "atk_lv_90": "300",
+                "def_lv_90": "38.4 %"
               },
               "text": "Originite: Type I\nRarity: 3 \u2605\nType: Broadblade\nATK (Lv.90): 300\nDEF (Lv.90): 38.4 %",
               "status": "live",
@@ -157667,8 +157856,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Sword",
-                "atkLv90": "325",
-                "hpLv90": "24.3 %"
+                "atk_lv_90": "325",
+                "hp_lv_90": "24.3 %"
               },
               "text": "Originite: Type II\nRarity: 3 \u2605\nType: Sword\nATK (Lv.90): 325\nHP (Lv.90): 24.3 %",
               "status": "live",
@@ -157682,7 +157871,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Pistols",
-                "atkLv90": "24.3 %"
+                "atk_lv_90": "24.3 %"
               },
               "text": "Originite: Type III\nRarity: 3 \u2605\nType: Pistols\nATK (Lv.90): 325\nATK (Lv.90): 24.3 %",
               "status": "live",
@@ -157696,8 +157885,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Gauntlets",
-                "atkLv90": "300",
-                "critDmgLv90": "40.5 %"
+                "atk_lv_90": "300",
+                "crit_dmg_lv_90": "40.5 %"
               },
               "text": "Originite: Type IV\nRarity: 3 \u2605\nType: Gauntlets\nATK (Lv.90): 300\nCRIT DMG (Lv.90): 40.5 %",
               "status": "live",
@@ -157711,7 +157900,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Rectifier",
-                "atkLv90": "30.3 %"
+                "atk_lv_90": "30.3 %"
               },
               "text": "Originite: Type V\nRarity: 3 \u2605\nType: Rectifier\nATK (Lv.90): 300\nATK (Lv.90): 30.3 %",
               "status": "live",
@@ -157725,8 +157914,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Sword",
-                "atkLv90": "337",
-                "energyRegLv90": "51.8 %"
+                "atk_lv_90": "337",
+                "energy_reg_lv_90": "51.8 %"
               },
               "text": "Overture\nRarity: 4 \u2605\nType: Sword\nATK (Lv.90): 337\nEnergy Reg. (Lv.90): 51.8 %",
               "status": "live",
@@ -157740,8 +157929,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Pistols",
-                "atkLv90": "587",
-                "critDmgLv90": "48.6 %"
+                "atk_lv_90": "587",
+                "crit_dmg_lv_90": "48.6 %"
               },
               "text": "Phasic Homogenizer\nRarity: 5 \u2605\nType: Pistols\nATK (Lv.90): 587\nCRIT DMG (Lv.90): 48.6 %",
               "status": "live",
@@ -157755,7 +157944,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Pistols",
-                "atkLv90": "24.3 %"
+                "atk_lv_90": "24.3 %"
               },
               "text": "Pistols of Night\nRarity: 3 \u2605\nType: Pistols\nATK (Lv.90): 325\nATK (Lv.90): 24.3 %",
               "status": "live",
@@ -157769,8 +157958,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Pistols",
-                "atkLv90": "300",
-                "hpLv90": "30.3 %"
+                "atk_lv_90": "300",
+                "hp_lv_90": "30.3 %"
               },
               "text": "Pistols of Voyager\nRarity: 3 \u2605\nType: Pistols\nATK (Lv.90): 300\nHP (Lv.90): 30.3 %",
               "status": "live",
@@ -157784,7 +157973,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Pistols",
-                "atkLv90": "36.4 %"
+                "atk_lv_90": "36.4 %"
               },
               "text": "Pistols#26\nRarity: 4 \u2605\nType: Pistols\nATK (Lv.90): 387\nATK (Lv.90): 36.4 %",
               "status": "live",
@@ -157798,8 +157987,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Gauntlets",
-                "atkLv90": "587",
-                "critRateLv90": "24.3 %"
+                "atk_lv_90": "587",
+                "crit_rate_lv_90": "24.3 %"
               },
               "text": "Pulsation Bracer\nRarity: 5 \u2605\nType: Gauntlets\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.3 %",
               "status": "live",
@@ -157813,8 +158002,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Broadblade",
-                "atkLv90": "587",
-                "critDmgLv90": "48.6 %"
+                "atk_lv_90": "587",
+                "crit_dmg_lv_90": "48.6 %"
               },
               "text": "Radiance Cleaver\nRarity: 5 \u2605\nType: Broadblade\nATK (Lv.90): 587\nCRIT DMG (Lv.90): 48.6 %",
               "status": "live",
@@ -157828,8 +158017,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Rectifier",
-                "atkLv90": "412",
-                "critDmgLv90": "40.5 %"
+                "atk_lv_90": "412",
+                "crit_dmg_lv_90": "40.5 %"
               },
               "text": "Radiant Dawn\nRarity: 4 \u2605\nType: Rectifier\nATK (Lv.90): 412\nCRIT DMG (Lv.90): 40.5 %",
               "status": "live",
@@ -157843,7 +158032,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Rectifier",
-                "atkLv90": "24.3 %"
+                "atk_lv_90": "24.3 %"
               },
               "text": "Rectifier of Night\nRarity: 3 \u2605\nType: Rectifier\nATK (Lv.90): 325\nATK (Lv.90): 24.3 %",
               "status": "live",
@@ -157857,8 +158046,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Rectifier",
-                "atkLv90": "300",
-                "energyRegLv90": "32.3 %"
+                "atk_lv_90": "300",
+                "energy_reg_lv_90": "32.3 %"
               },
               "text": "Rectifier of Voyager\nRarity: 3 \u2605\nType: Rectifier\nATK (Lv.90): 300\nEnergy Reg. (Lv.90): 32.3 %",
               "status": "live",
@@ -157872,8 +158061,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Rectifier",
-                "atkLv90": "337",
-                "energyRegLv90": "51.8 %"
+                "atk_lv_90": "337",
+                "energy_reg_lv_90": "51.8 %"
               },
               "text": "Rectifier#25\nRarity: 4 \u2605\nType: Rectifier\nATK (Lv.90): 337\nEnergy Reg. (Lv.90): 51.8 %",
               "status": "live",
@@ -157887,8 +158076,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Sword",
-                "atkLv90": "587",
-                "critRateLv90": "24.3 %"
+                "atk_lv_90": "587",
+                "crit_rate_lv_90": "24.3 %"
               },
               "text": "Red Spring\nRarity: 5 \u2605\nType: Sword\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.3 %",
               "status": "live",
@@ -157902,7 +158091,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Pistols",
-                "atkLv90": "18.2 %"
+                "atk_lv_90": "18.2 %"
               },
               "text": "Relativistic Jet\nRarity: 4 \u2605\nType: Pistols\nATK (Lv.90): 462\nATK (Lv.90): 18.2 %",
               "status": "live",
@@ -157916,8 +158105,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Rectifier",
-                "atkLv90": "500",
-                "critDmgLv90": "72 %"
+                "atk_lv_90": "500",
+                "crit_dmg_lv_90": "72 %"
               },
               "text": "Rime-Draped Sprouts\nRarity: 5 \u2605\nType: Rectifier\nATK (Lv.90): 500\nCRIT DMG (Lv.90): 72 %",
               "status": "live",
@@ -157931,7 +158120,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Pistols",
-                "atkLv90": "18.2 %"
+                "atk_lv_90": "18.2 %"
               },
               "text": "Romance in Farewell\nRarity: 4 \u2605\nType: Pistols\nATK (Lv.90): 462\nATK (Lv.90): 18.2 %",
               "status": "live",
@@ -157945,8 +158134,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Pistols",
-                "atkLv90": "500",
-                "critDmgLv90": "72 %"
+                "atk_lv_90": "500",
+                "crit_dmg_lv_90": "72 %"
               },
               "text": "Skull Thrasher\nRarity: 5 \u2605\nType: Pistols\nATK (Lv.90): 500\nCRIT DMG% (Lv.90): 72 %",
               "status": "live",
@@ -157960,8 +158149,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Pistols",
-                "atkLv90": "412",
-                "critRateLv90": "20.3 %"
+                "atk_lv_90": "412",
+                "crit_rate_lv_90": "20.3 %"
               },
               "text": "Solar Flame\nRarity: 4 \u2605\nType: Pistols\nATK (Lv.90): 412\nCRIT Rate (Lv.90): 20.3 %",
               "status": "live",
@@ -157975,8 +158164,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Gauntlets",
-                "atkLv90": "587",
-                "critDmgLv90": "48.6 %"
+                "atk_lv_90": "587",
+                "crit_dmg_lv_90": "48.6 %"
               },
               "text": "Solsworn Ciphers\nRarity: 5 \u2605\nType: Gauntlets\nATK (Lv.90): 587\nCRIT DMG (Lv.90): 48.6 %",
               "status": "live",
@@ -157990,7 +158179,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Sword",
-                "atkLv90": "18.2 %"
+                "atk_lv_90": "18.2 %"
               },
               "text": "Somnoire Anchor\nRarity: 4 \u2605\nType: Sword\nATK (Lv.90): 462\nATK (Lv.90): 18.2 %",
               "status": "live",
@@ -158004,8 +158193,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Pistols",
-                "atkLv90": "587",
-                "critDmgLv90": "48.6 %"
+                "atk_lv_90": "587",
+                "crit_dmg_lv_90": "48.6 %"
               },
               "text": "Spectral Trigger\nRarity: 5 \u2605\nType: Pistols\nATK (Lv.90): 587\nCRIT DMG% (Lv.90): 48.6 %",
               "status": "live",
@@ -158019,8 +158208,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Pistols",
-                "atkLv90": "587",
-                "critRateLv90": "24.3 %"
+                "atk_lv_90": "587",
+                "crit_rate_lv_90": "24.3 %"
               },
               "text": "Spectrum Blaster\nRarity: 5 \u2605\nType: Pistols\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.3 %",
               "status": "live",
@@ -158034,8 +158223,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Broadblade",
-                "atkLv90": "414",
-                "energyRegenLv90": "77 %"
+                "atk_lv_90": "414",
+                "energy_regen_lv_90": "77 %"
               },
               "text": "Starfield Calibrator\nRarity: 5 \u2605\nType: Broadblade\nATK (Lv.90): 414\nEnergy Regen (Lv.90): 77 %",
               "status": "live",
@@ -158049,8 +158238,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Pistols",
-                "atkLv90": "587",
-                "critRateLv90": "24.3 %"
+                "atk_lv_90": "587",
+                "crit_rate_lv_90": "24.3 %"
               },
               "text": "Static Mist\nRarity: 5 \u2605\nType: Pistols\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.3 %",
               "status": "live",
@@ -158064,8 +158253,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Rectifier",
-                "atkLv90": "412",
-                "energyRegenLv90": "77 %"
+                "atk_lv_90": "412",
+                "energy_regen_lv_90": "77 %"
               },
               "text": "Stellar Symphony\nRarity: 5 \u2605\nType: Rectifier\nATK (Lv.90): 412\nEnergy Regen (Lv.90): 77 %",
               "status": "live",
@@ -158079,8 +158268,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Gauntlets",
-                "atkLv90": "412",
-                "critRateLv90": "20.2 %"
+                "atk_lv_90": "412",
+                "crit_rate_lv_90": "20.2 %"
               },
               "text": "Stonard\nRarity: 4 \u2605\nType: Gauntlets\nATK (Lv.90): 412\nCRIT Rate (Lv.90): 20.2 %",
               "status": "live",
@@ -158094,8 +158283,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Rectifier",
-                "atkLv90": "500",
-                "critRateLv90": "36 %"
+                "atk_lv_90": "500",
+                "crit_rate_lv_90": "36 %"
               },
               "text": "Stringmaster\nRarity: 5 \u2605\nType: Rectifier\nATK (Lv.90): 500\nCRIT Rate (Lv.90): 36 %",
               "status": "live",
@@ -158109,7 +158298,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Sword",
-                "atkLv90": "24.3 %"
+                "atk_lv_90": "24.3 %"
               },
               "text": "Sword of Night\nRarity: 3 \u2605\nType: Sword\nATK (Lv.90): 325\nATK (Lv.90): 24.3 %",
               "status": "live",
@@ -158123,8 +158312,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Sword",
-                "atkLv90": "300",
-                "energyRegLv90": "32.3 %"
+                "atk_lv_90": "300",
+                "energy_reg_lv_90": "32.3 %"
               },
               "text": "Sword of Voyager\nRarity: 3 \u2605\nType: Sword\nATK (Lv.90): 300\nEnergy Reg. (Lv.90): 32.3 %",
               "status": "live",
@@ -158138,7 +158327,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Sword",
-                "atkLv90": "36.4 %"
+                "atk_lv_90": "36.4 %"
               },
               "text": "Sword#18\nRarity: 4 \u2605\nType: Sword\nATK (Lv.90): 387\nATK (Lv.90): 36.4 %",
               "status": "live",
@@ -158152,8 +158341,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Pistols",
-                "atkLv90": "500",
-                "critDmgLv90": "72 %"
+                "atk_lv_90": "500",
+                "crit_dmg_lv_90": "72 %"
               },
               "text": "The Last Dance\nRarity: 5 \u2605\nType: Pistols\nATK (Lv.90): 500\nCRIT DMG (Lv.90): 72 %",
               "status": "live",
@@ -158167,7 +158356,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Pistols",
-                "atkLv90": "36.4 %"
+                "atk_lv_90": "36.4 %"
               },
               "text": "Thunderbolt\nRarity: 4 \u2605\nType: Pistols\nATK (Lv.90): 387\nATK (Lv.90): 36.4 %",
               "status": "live",
@@ -158181,8 +158370,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Broadblade",
-                "atkLv90": "675",
-                "critRateLv90": "12.1 %"
+                "atk_lv_90": "675",
+                "crit_rate_lv_90": "12.1 %"
               },
               "text": "Thunderflare Dominion\nRarity: 5 \u2605\nType: Broadblade\nATK (Lv.90): 675\nCRIT Rate (Lv.90): 12.1 %",
               "status": "live",
@@ -158196,8 +158385,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Gauntlets",
-                "atkLv90": "587",
-                "critRateLv90": "24.3 %"
+                "atk_lv_90": "587",
+                "crit_rate_lv_90": "24.3 %"
               },
               "text": "Tragicomedy\nRarity: 5 \u2605\nType: Gauntlets\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.3 %",
               "status": "live",
@@ -158211,7 +158400,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Broadblade",
-                "atkLv90": "11.4 %"
+                "atk_lv_90": "11.4 %"
               },
               "text": "Training Broadblade\nRarity: 3 \u2605\nType: Broadblade\nATK (Lv.90): 250\nATK (Lv.90): 11.4 %",
               "status": "live",
@@ -158225,7 +158414,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Gauntlets",
-                "atkLv90": "11.4 %"
+                "atk_lv_90": "11.4 %"
               },
               "text": "Training Gauntlets\nRarity: 3 \u2605\nType: Gauntlets\nATK (Lv.90): 250\nATK (Lv.90): 11.4 %",
               "status": "live",
@@ -158239,7 +158428,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Pistols",
-                "atkLv90": "11.4 %"
+                "atk_lv_90": "11.4 %"
               },
               "text": "Training Pistols\nRarity: 3 \u2605\nType: Pistols\nATK (Lv.90): 250\nATK (Lv.90): 11.4 %",
               "status": "live",
@@ -158253,7 +158442,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Rectifier",
-                "atkLv90": "11.4 %"
+                "atk_lv_90": "11.4 %"
               },
               "text": "Training Rectifier\nRarity: 3 \u2605\nType: Rectifier\nATK (Lv.90): 250\nATK (Lv.90): 11.4 %",
               "status": "live",
@@ -158267,7 +158456,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Sword",
-                "atkLv90": "11.4 %"
+                "atk_lv_90": "11.4 %"
               },
               "text": "Training Sword\nRarity: 3 \u2605\nType: Sword\nATK (Lv.90): 250\nATK (Lv.90): 11.4 %",
               "status": "live",
@@ -158281,7 +158470,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Broadblade",
-                "atkLv90": "14.8 %"
+                "atk_lv_90": "14.8 %"
               },
               "text": "Tyro Broadblade\nRarity: 3 \u2605\nType: Broadblade\nATK (Lv.90): 275\nATK (Lv.90): 14.8 %",
               "status": "live",
@@ -158295,7 +158484,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Gauntlets",
-                "atkLv90": "14.8 %"
+                "atk_lv_90": "14.8 %"
               },
               "text": "Tyro Gauntlets\nRarity: 3 \u2605\nType: Gauntlets\nATK (Lv.90): 275\nATK (Lv.90): 14.8 %",
               "status": "live",
@@ -158309,7 +158498,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Pistols",
-                "atkLv90": "14.8 %"
+                "atk_lv_90": "14.8 %"
               },
               "text": "Tyro Pistols\nRarity: 3 \u2605\nType: Pistols\nATK (Lv.90): 275\nATK (Lv.90): 14.8 %",
               "status": "live",
@@ -158323,7 +158512,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Rectifier",
-                "atkLv90": "14.8 %"
+                "atk_lv_90": "14.8 %"
               },
               "text": "Tyro Rectifier\nRarity: 3 \u2605\nType: Rectifier\nATK (Lv.90): 275\nATK (Lv.90): 14.8 %",
               "status": "live",
@@ -158337,7 +158526,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Sword",
-                "atkLv90": "14.8 %"
+                "atk_lv_90": "14.8 %"
               },
               "text": "Tyro Sword\nRarity: 3 \u2605\nType: Sword\nATK (Lv.90): 275\nATK (Lv.90): 14.8 %",
               "status": "live",
@@ -158351,7 +158540,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Pistols",
-                "atkLv90": "30.3 %"
+                "atk_lv_90": "30.3 %"
               },
               "text": "Undying Flame\nRarity: 4 \u2605\nType: Pistols\nATK (Lv.90): 412\nATK (Lv.90): 30.3 %",
               "status": "live",
@@ -158365,8 +158554,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Sword",
-                "atkLv90": "415",
-                "energyRegLv90": "77 %"
+                "atk_lv_90": "415",
+                "energy_reg_lv_90": "77 %"
               },
               "text": "Unflickering Valor\nRarity: 5 \u2605\nType: Sword\nATK (Lv.90): 415\nEnergy Reg. (Lv.90): 77 %",
               "status": "live",
@@ -158380,8 +158569,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Rectifier",
-                "atkLv90": "337",
-                "energyRegLv90": "51.8 %"
+                "atk_lv_90": "337",
+                "energy_reg_lv_90": "51.8 %"
               },
               "text": "Variation\nRarity: 4 \u2605\nType: Rectifier\nATK (Lv.90): 337\nEnergy Reg. (Lv.90): 51.8 %",
               "status": "live",
@@ -158395,8 +158584,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Broadblade",
-                "atkLv90": "587",
-                "critDmgLv90": "48.6 %"
+                "atk_lv_90": "587",
+                "crit_dmg_lv_90": "48.6 %"
               },
               "text": "Verdant Summit\nRarity: 5 \u2605\nType: Broadblade\nATK (Lv.90): 587\nCRIT DMG (Lv.90): 48.6 %",
               "status": "live",
@@ -158410,8 +158599,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Gauntlets",
-                "atkLv90": "587",
-                "critRateLv90": "24.3 %"
+                "atk_lv_90": "587",
+                "crit_rate_lv_90": "24.3 %"
               },
               "text": "Verity's Handle\nRarity: 5 \u2605\nType: Gauntlets\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.3 %",
               "status": "live",
@@ -158425,7 +158614,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Rectifier",
-                "atkLv90": "18.2 %"
+                "atk_lv_90": "18.2 %"
               },
               "text": "Waltz in Masquerade\nRarity: 4 \u2605\nType: Rectifier\nATK (Lv.90): 462\nATK (Lv.90): 18.2 %",
               "status": "live",
@@ -158439,7 +158628,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Broadblade",
-                "atkLv90": "18.2 %"
+                "atk_lv_90": "18.2 %"
               },
               "text": "Waning Redshift\nRarity: 4 \u2605\nType: Broadblade\nATK (Lv.90): 462\nATK (Lv.90): 18.2 %",
               "status": "live",
@@ -158453,8 +158642,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Rectifier",
-                "atkLv90": "500",
-                "critDmgLv90": "72 %"
+                "atk_lv_90": "500",
+                "crit_dmg_lv_90": "72 %"
               },
               "text": "Whispers of Sirens\nRarity: 5 \u2605\nType: Rectifier\nATK (Lv.90): 500\nCRIT DMG (Lv.90): 72 %",
               "status": "live",
@@ -158468,8 +158657,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Broadblade",
-                "atkLv90": "587",
-                "critDmgLv90": "48.6 %"
+                "atk_lv_90": "587",
+                "crit_dmg_lv_90": "48.6 %"
               },
               "text": "Wildfire Mark\nRarity: 5 \u2605\nType: Broadblade\nATK (Lv.90): 587\nCRIT DMG (Lv.90): 48.6 %",
               "status": "live",
@@ -158483,8 +158672,8 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Pistols",
-                "atkLv90": "500",
-                "critRateLv90": "36 %"
+                "atk_lv_90": "500",
+                "crit_rate_lv_90": "36 %"
               },
               "text": "Woodland Aria\nRarity: 5 \u2605\nType: Pistols\nATK (Lv.90): 500\nCRIT Rate (Lv.90): 36 %",
               "status": "live",
@@ -160473,11 +160662,12 @@ var NYX_DB = {
       "banners": {
         "name": "Wuthering Waves",
         "freshness": {
-          "status": "fresh",
-          "checkedAt": "2026-07-17T11:11:02.378Z",
+          "status": "stale",
+          "checkedAt": "2026-07-18T19:24:04.058Z",
           "lastSuccessfulFetch": "2026-07-17T11:11:02.378Z",
           "lastValidUpdate": "2026-07-17T11:11:02.378Z",
-          "source": "game8"
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": null,
@@ -161531,8 +161721,8 @@ var NYX_DB = {
           "name": "Jingran",
           "aliases": [],
           "rarity": 5,
-          "element": "Unknown",
-          "role": "Unknown",
+          "element": "Fusion",
+          "role": "Broadblade",
           "icon": null,
           "art": "../../Database/Prydwen/ww/assets/characters/jingran-2b0e720255d4.webp",
           "facts": {},
@@ -161543,8 +161733,8 @@ var NYX_DB = {
           "name": "Qingxiao",
           "aliases": [],
           "rarity": 5,
-          "element": "Unknown",
-          "role": "Unknown",
+          "element": "Aero",
+          "role": "Sword",
           "icon": null,
           "art": "../../Database/Prydwen/ww/assets/characters/qingxiao-df2ddd77ec24.webp",
           "facts": {},
@@ -161572,9 +161762,9 @@ var NYX_DB = {
         {
           "key": "weapons",
           "title": "Weapons",
-          "updatedText": "26/June/2026",
+          "updatedText": "16/July/2026",
           "source": "Prydwen",
-          "count": 72,
+          "count": 75,
           "items": [
             {
               "id": "aggeloslayer",
@@ -161584,9 +161774,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Polearm",
-                "baseAtk": "341",
+                "base_atk": "341",
                 "will": "+ 93",
-                "artsDmgBonus": "+ 26.00%"
+                "arts_dmg_bonus": "+ 26.00%"
               },
               "text": "Aggeloslayer\nRarity: 4 \u2726\nType: Polearm\nBase ATK: 341\nStat 1 Boost - 9/9\nWill : + 93\nStat 2 Boost - 9/9\nArts DMG Bonus : + 26.00%\nPassive Boost - 9/9\nAfter the wielder's Battle Skill hits the enemy, ATK +33.6% for 20s . Effects of the same name cannot stack.",
               "status": "live",
@@ -161600,10 +161790,10 @@ var NYX_DB = {
               "fields": {
                 "rarity": "6 \u2605",
                 "type": "Greatsword",
-                "baseAtk": "510",
+                "base_atk": "510",
                 "strength": "+ 156",
                 "atk": "+ 39%",
-                "physicalDmgBonus": "+ 25.60%"
+                "physical_dmg_bonus": "+ 25.60%"
               },
               "text": "Amaranthine Tassel\nRarity: 6 \u2726\nType: Greatsword\nBase ATK: 510\nStat 1 Boost - 9/9\nStrength : + 156\nStat 2 Boost - 9/9\nATK : + 39%\nPassive Boost - 4/9\nPhysical DMG Bonus : + 25.60%\nWhen the wielder applies Physical Susceptibility , the wielder gains Arts Intensity +48 for 20s . When the wielder applies Crush , the wielder gains Physical DMG Dealt +[14.4% + (4.8% x Max Number of Vulnerability stacks consumed from one enemy)] for 30s .\nShow Effects",
               "status": "live",
@@ -161617,9 +161807,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Greatsword",
-                "baseAtk": "411",
+                "base_atk": "411",
                 "strength": "+ 124",
-                "artsIntensity": "+ 28"
+                "arts_intensity": "+ 28"
               },
               "text": "Ancient Canal\nRarity: 5 \u2726\nType: Greatsword\nBase ATK: 411\nStat 1 Boost - 9/9\nStrength : + 124\nStat 2 Boost - 9/9\nArts Intensity : + 62\nPassive Boost - 9/9\nArts Intensity : + 28\nAfter the wielder consumes Vulnerability stack(s), the wielder gains Physical DMG dealt +[14% x stacks consumed] for 20s . Effects of the same name cannot stack.\nShow Effects",
               "status": "live",
@@ -161633,10 +161823,10 @@ var NYX_DB = {
               "fields": {
                 "rarity": "6 \u2605",
                 "type": "Handcannon",
-                "baseAtk": "505",
+                "base_atk": "505",
                 "intellect": "+ 156",
-                "criticalRate": "+ 19.50%",
-                "cryoDmgBonus": "+ 25.60%"
+                "critical_rate": "+ 19.50%",
+                "cryo_dmg_bonus": "+ 25.60%"
               },
               "text": "Artzy Tyrannical\nRarity: 6 \u2726\nType: Handcannon\nBase ATK: 505\nStat 1 Boost - 9/9\nIntellect : + 156\nStat 2 Boost - 9/9\nCritical Rate : + 19.50%\nPassive Boost - 4/9\nCryo DMG Bonus : + 25.60%\nAfter the wielder scores a critical hit with a Battle Skill or Combo Skill, the wielder gains Cryo DMG dealt +22.4% for 30s . Max stacks for effects of the same name: 3 . Duration of each stack is counted separately. Effect only triggers once every 0.1s .",
               "status": "live",
@@ -161650,10 +161840,10 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Sword",
-                "baseAtk": "411",
+                "base_atk": "411",
                 "agility": "+ 124",
-                "physicalDmgBonus": "+ 34.70%",
-                "ultimateDmgBonus": "+ 44.80%"
+                "physical_dmg_bonus": "+ 34.70%",
+                "ultimate_dmg_bonus": "+ 44.80%"
               },
               "text": "Aspirant\nRarity: 5 \u2726\nType: Sword\nBase ATK: 411\nStat 1 Boost - 9/9\nAgility : + 124\nStat 2 Boost - 9/9\nPhysical DMG Bonus : + 34.70%\nPassive Boost - 9/9\nUltimate DMG Bonus : + 44.80%\nFor 30s after the wielder applies Lifted , the wielder gains Physical DMG dealt +33.6% during the next Ultimate cast. Max stacks for effects of the same name: 3 . Duration of each stack is counted separately. Effect only triggers once every 0.5s .\nShow Effects",
               "status": "live",
@@ -161667,10 +161857,10 @@ var NYX_DB = {
               "fields": {
                 "rarity": "6 \u2605",
                 "type": "Polearm",
-                "baseAtk": "485",
+                "base_atk": "485",
                 "agility": "+ 156",
-                "ultimateGainEff": "+ 46.40%",
-                "heatDmgBonus": "+ 11.20%"
+                "ultimate_gain_eff": "+ 46.40%",
+                "heat_dmg_bonus": "+ 11.20%"
               },
               "text": "Beacon of Duty\nRarity: 6 \u2726\nType: Polearm\nBase ATK: 485\nStat 1 Boost - 9/9\nAgility : + 156\nStat 2 Boost - 9/9\nUltimate Gain Eff. : + 46.40%\nPassive Boost - 4/9\nHeat DMG Bonus : + 11.20%\nWhen the wielder's skill applies Heat Infliction , the wielder gains Physical and Heat DMG Dealt +12.8% for 20s . When the wielder's skill applies Heat Susceptibility , the entire team gains Physical and Heat DMG Dealt +6.4% for 30s .\nShow Effects",
               "status": "live",
@@ -161684,10 +161874,10 @@ var NYX_DB = {
               "fields": {
                 "rarity": "6 \u2605",
                 "type": "Polearm",
-                "baseAtk": "500",
+                "base_atk": "500",
                 "agility": "+ 156",
-                "heatDmgBonus": "+ 43.30%",
-                "ultimateGainEff": "+ 28.80%"
+                "heat_dmg_bonus": "+ 43.30%",
+                "ultimate_gain_eff": "+ 28.80%"
               },
               "text": "Blessing of Lustrous Carmine\nRarity: 6 \u2726\nType: Polearm\nBase ATK: 500\nStat 1 Boost - 9/9\nAgility : + 156\nStat 2 Boost - 9/9\nHeat DMG Bonus : + 43.30%\nPassive Boost - 4/9\nUltimate Gain Eff. : + 28.80%\nWhen the wielder\u2019s skill recovers SP, the entire team gains ATK +9.6% for 20s . When the wielder\u2019s skill applies Heat Infliction , the entire team gains Heat DMG Dealt +9.6% for 20s .\nThe two effects apply separately and do not stack with themselves.",
               "status": "live",
@@ -161701,10 +161891,10 @@ var NYX_DB = {
               "fields": {
                 "rarity": "6 \u2605",
                 "type": "Handcannon",
-                "baseAtk": "505",
+                "base_atk": "505",
                 "agility": "+ 156",
                 "attack": "+ 39%",
-                "cryoDmgBonus": "+ 25.60%"
+                "cryo_dmg_bonus": "+ 25.60%"
               },
               "text": "Brigand's Calling\nRarity: 6 \u2726\nType: Handcannon\nBase ATK: 505\nStat 1 Boost - 9/9\nAgility : + 156\nStat 2 Boost - 9/9\nAttack : + 39%\nPassive Boost - 4/9\nCryo DMG Bonus : + 25.60%\nWhen the wielder applies Cryo Infliction via battle skills or ultimates, the wielder gains Cryo DMG Dealt +32% for 20s .\nWhen the wielder's battle skill or ultimate applies Arts Susceptibility , the target enemy suffers Arts DMG Taken +9.6% for 20s . The two effects apply separately and do not stack with themselves.\nShow Effects",
               "status": "live",
@@ -161718,10 +161908,10 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Polearm",
-                "baseAtk": "411",
+                "base_atk": "411",
                 "strength": "+ 124",
-                "ultimateGainEff": "+ 37.10%",
-                "criticalRate": "+ 8.40%"
+                "ultimate_gain_eff": "+ 37.10%",
+                "critical_rate": "+ 8.40%"
               },
               "text": "Chimeric Justice\nRarity: 5 \u2726\nType: Polearm\nBase ATK: 411\nStat 1 Boost - 9/9\nStrength : + 124\nStat 2 Boost - 9/9\nUltimate Gain Eff. : + 37.10%\nPassive Boost - 9/9\nCritical Rate : + 8.40%\nAfter the wielder applies Vulnerability to an enemy with no Vulnerability stacks, ATK +42% for 15s . Effects of the same name cannot stack.\nShow Effects",
               "status": "live",
@@ -161735,9 +161925,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "6 \u2605",
                 "type": "Arts Unit",
-                "baseAtk": "485",
+                "base_atk": "485",
                 "will": "+ 156",
-                "maxHp": "+ 78.00%"
+                "max_hp": "+ 78.00%"
               },
               "text": "Chivalric Virtues\nRarity: 6 \u2726\nType: Arts Unit\nBase ATK: 485\nStat 1 Boost - 9/9\nWill : + 156\nStat 2 Boost - 9/9\nMax HP : + 78.00%\nPassive Boost - 4/9\nTreatment Efficiency +16% . After the wielder gives HP Treatment with their own skill, the entire team gains ATK +14.4% for 15s . Effects of the same name cannot stack.",
               "status": "live",
@@ -161751,9 +161941,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "6 \u2605",
                 "type": "Handcannon",
-                "baseAtk": "490",
-                "mainAttribute": "+ 132",
-                "artsDmgBonus": "+ 19.20%"
+                "base_atk": "490",
+                "main_attribute": "+ 132",
+                "arts_dmg_bonus": "+ 19.20%"
               },
               "text": "Clannibal\nRarity: 6 \u2726\nType: Handcannon\nBase ATK: 490\nStat 1 Boost - 9/9\nMain Attribute : + 132\nStat 2 Boost - 9/9\nArts DMG Bonus : + 43.30%\nPassive Boost - 4/9\nArts DMG Bonus : + 19.20%\nAfter the wielder consumes an Arts Reaction, target enemy suffers Arts DMG taken +16% (for the specified element) for 15s . Effect only triggers once every 25s .\nShow Effects",
               "status": "live",
@@ -161767,10 +161957,10 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Polearm",
-                "baseAtk": "411",
+                "base_atk": "411",
                 "will": "+ 124",
-                "electricDmgBonus": "+ 34.70%",
-                "comboSkillDmgBonus": "+ 28.00%"
+                "electric_dmg_bonus": "+ 34.70%",
+                "combo_skill_dmg_bonus": "+ 28.00%"
               },
               "text": "Cohesive Traction\nRarity: 5 \u2726\nType: Polearm\nBase ATK: 411\nStat 1 Boost - 9/9\nWill : + 124\nStat 2 Boost - 9/9\nElectric DMG Bonus : + 34.70%\nPassive Boost - 9/9\nCombo Skill DMG Bonus : + 28.00%\nFor 30s after the wielder casts a Combo Skill, the wielder gains Electric DMG dealt +28% during the next Battle Skill cast. Max stacks for effects of the same name: 3 . Duration of each stack is counted separately.",
               "status": "live",
@@ -161784,9 +161974,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Sword",
-                "baseAtk": "341",
+                "base_atk": "341",
                 "agility": "+ 93",
-                "physicalDmgBonus": "+ 26.00%"
+                "physical_dmg_bonus": "+ 26.00%"
               },
               "text": "Contingent Measure\nRarity: 4 \u2726\nType: Sword\nBase ATK: 341\nStat 1 Boost - 9/9\nAgility : + 93\nStat 2 Boost - 9/9\nPhysical DMG Bonus : + 26.00%\nPassive Boost - 9/9\nAfter the wielder's Battle Skill hits the enemy, ATK +33.6% for 20s . Effects of the same name cannot stack.",
               "status": "live",
@@ -161800,9 +161990,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Greatsword",
-                "baseAtk": "283",
-                "mainAttribute": "+ 79",
-                "flatAtk": "+ 34"
+                "base_atk": "283",
+                "main_attribute": "+ 79",
+                "flat_atk": "+ 34"
               },
               "text": "Darhoff 7\nRarity: 3 \u2726\nType: Greatsword\nBase ATK: 283\nStat 1 Boost - 9/9\nMain Attribute : + 79\nPassive Boost - 9/9\nFlat ATK : + 34",
               "status": "live",
@@ -161816,10 +162006,10 @@ var NYX_DB = {
               "fields": {
                 "rarity": "6 \u2605",
                 "type": "Arts Unit",
-                "baseAtk": "500",
+                "base_atk": "500",
                 "will": "+ 156",
-                "ultimateGainEff": "+ 46.40%",
-                "natureDmgBonus": "+ 25.60%"
+                "ultimate_gain_eff": "+ 46.40%",
+                "nature_dmg_bonus": "+ 25.60%"
               },
               "text": "Delivery Guaranteed\nRarity: 6 \u2726\nType: Arts Unit\nBase ATK: 500\nStat 1 Boost - 9/9\nWill : + 156\nStat 2 Boost - 9/9\nUltimate Gain Eff. : + 46.40%\nPassive Boost - 4/9\nNature DMG Bonus : + 25.60%\nAfter the wielder applies Lifted with their own Combo Skill, the team gains Arts DMG dealt +19.2% for 15s . For every enemy Lifted , the team gains bonus Arts DMG dealt +5.6% , up to a max of 16.8% . Effects of the same name cannot stack.\nShow Effects",
               "status": "live",
@@ -161833,10 +162023,10 @@ var NYX_DB = {
               "fields": {
                 "rarity": "6 \u2605",
                 "type": "Arts Unit",
-                "baseAtk": "490",
-                "mainAttribute": "+ 132",
-                "artsIntensity": "+ 78",
-                "secAttribute": "+ 16.00%"
+                "base_atk": "490",
+                "main_attribute": "+ 132",
+                "arts_intensity": "+ 78",
+                "sec_attribute": "+ 16.00%"
               },
               "text": "Detonation Unit\nRarity: 6 \u2726\nType: Arts Unit\nBase ATK: 490\nStat 1 Boost - 9/9\nMain Attribute : + 132\nStat 2 Boost - 9/9\nArts Intensity : + 78\nPassive Boost - 4/9\nSec. Attribute : + 16.00%\nAfter the wielder applies an Arts Burst, target enemy suffers Arts DMG taken +14.4% for 15s . Effects of the same name cannot stack.\nShow Effects",
               "status": "live",
@@ -161850,10 +162040,10 @@ var NYX_DB = {
               "fields": {
                 "rarity": "6 \u2605",
                 "type": "Arts Unit",
-                "baseAtk": "495",
+                "base_atk": "495",
                 "intellect": "+ 156",
-                "treatmentBonus": "+ 46.40%",
-                "secAttribute": "+ 25.60%"
+                "treatment_bonus": "+ 46.40%",
+                "sec_attribute": "+ 25.60%"
               },
               "text": "Dreams of the Starry Beach\nRarity: 6 \u2726\nType: Arts Unit\nBase ATK: 495\nStat 1 Boost - 9/9\nIntellect : + 156\nStat 2 Boost - 9/9\nTreatment Bonus : + 46.40%\nPassive Boost - 4/9\nSec. Attribute : + 25.60%\nAfter the wielder consumes Corrosion , target enemy suffers Arts DMG taken +16% for 25s . Effects of the same name cannot stack.\nShow Effects",
               "status": "live",
@@ -161867,9 +162057,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "6 \u2605",
                 "type": "Sword",
-                "baseAtk": "490",
-                "mainAttribute": "+ 132",
-                "physicalDmgBonus": "+ 43.30%",
+                "base_atk": "490",
+                "main_attribute": "+ 132",
+                "physical_dmg_bonus": "+ 43.30%",
                 "attack": "+ 16.00%"
               },
               "text": "Eminent Repute\nRarity: 6 \u2726\nType: Sword\nBase ATK: 490\nStat 1 Boost - 9/9\nMain Attribute : + 132\nStat 2 Boost - 9/9\nPhysical DMG Bonus : + 43.30%\nPassive Boost - 4/9\nAttack : + 16.00%\nAfter the wielder consumes Vulnerability stack(s), ATK + [8% + 4% x Stacks Consumed] while other Operators in the team gain half of this buff for 20s . Effects of the same name cannot stack.\nShow Effects",
@@ -161884,10 +162074,10 @@ var NYX_DB = {
               "fields": {
                 "rarity": "6 \u2605",
                 "type": "Greatsword",
-                "baseAtk": "500",
-                "mainAttribute": "+ 132",
+                "base_atk": "500",
+                "main_attribute": "+ 132",
                 "attack": "+ 39.00%",
-                "physicalDmgBonus": "+ 16.00%"
+                "physical_dmg_bonus": "+ 16.00%"
               },
               "text": "Exemplar\nRarity: 6 \u2726\nType: Greatsword\nBase ATK: 500\nStat 1 Boost - 9/9\nMain Attribute : + 132\nStat 2 Boost - 9/9\nAttack : + 39.00%\nPassive Boost - 4/9\nPhysical DMG Bonus : + 16.00%\nAfter the wielder's Battle Skill or Ultimate hits the enemy, the wielder gains Physical DMG dealt +16% for 30s . Max stacks for effects of the same name: 3 . Duration of each stack is counted separately. Effect only triggers once every 0.1s .",
               "status": "live",
@@ -161901,9 +162091,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Sword",
-                "baseAtk": "411",
+                "base_atk": "411",
                 "strength": "+ 124",
-                "cryoDmgBonus": "+ 34.70%",
+                "cryo_dmg_bonus": "+ 34.70%",
                 "attack": "+ 14.00%"
               },
               "text": "Finchaser 3.0\nRarity: 5 \u2726\nType: Sword\nBase ATK: 411\nStat 1 Boost - 9/9\nStrength : + 124\nStat 2 Boost - 9/9\nCryo DMG Bonus : + 34.70%\nPassive Boost - 9/9\nAttack : + 14.00%\nAfter the wielder's Battle Skill applies Solidification , target enemy suffers Cryo DMG taken +19.6% for 15s .\nShow Effects",
@@ -161920,10 +162110,10 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Greatsword",
-                "baseAtk": "411",
+                "base_atk": "411",
                 "strength": "+ 124",
-                "maxHp": "+ 62.40%",
-                "secAttribute": "+ 14.00%"
+                "max_hp": "+ 62.40%",
+                "sec_attribute": "+ 14.00%"
               },
               "text": "Finishing Call\nRarity: 5 \u2726\nType: Greatsword\nBase ATK: 411\nStat 1 Boost - 9/9\nStrength : + 124\nStat 2 Boost - 9/9\nMax HP : + 62.40%\nPassive Boost - 9/9\nSec. Attribute : + 14.00%\nCombo Skill HP Treatment effect +56% .",
               "status": "live",
@@ -161937,11 +162127,11 @@ var NYX_DB = {
               "fields": {
                 "rarity": "6 \u2605",
                 "type": "Arts Unit",
-                "baseAtk": "490",
+                "base_atk": "490",
                 "will": "+ 156",
-                "electricDmgBonus": "+ 43.30%",
+                "electric_dmg_bonus": "+ 43.30%",
                 "atk": "+ 11.20%",
-                "maxStacksForEffectsOfTheSameName": "3 ."
+                "max_stacks_for_effects_of_the_same_name": "3 ."
               },
               "text": "Flickers in the Mist\nRarity: 6 \u2726\nType: Arts Unit\nBase ATK: 490\nStat 1 Boost - 9/9\nWill : + 156\nStat 2 Boost - 9/9\nElectric DMG Bonus : + 43.30%\nPassive Boost - 4/9\nATK : + 11.20%\nWhen the wielder gains Electric Amp the wielder also gains Electric DMG Dealt +8.8% for 30s .\nMax stacks for effects of the same name: 3 .\nDuration of each stack is counted separately.\nThis effect only triggers once every 0.1s .\nShow Effects",
               "status": "live",
@@ -161955,7 +162145,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Arts Unit",
-                "baseAtk": "341",
+                "base_atk": "341",
                 "will": "+ 93",
                 "attack": "+ 23.40%"
               },
@@ -161971,10 +162161,10 @@ var NYX_DB = {
               "fields": {
                 "rarity": "6 \u2605",
                 "type": "Sword",
-                "baseAtk": "510",
+                "base_atk": "510",
                 "intellect": "+ 156",
                 "attack": "+ 39.00%",
-                "heatDmgBonus": "+ 25.60%"
+                "heat_dmg_bonus": "+ 25.60%"
               },
               "text": "Forgeborn Scathe\nRarity: 6 \u2726\nType: Sword\nBase ATK: 510\nStat 1 Boost - 9/9\nIntellect : + 156\nStat 2 Boost - 9/9\nAttack : + 39.00%\nPassive Boost - 4/9\nHeat DMG Bonus : + 25.60%\nAfter the wielder casts an Ultimate, the wielder gains Basic Attack DMG dealt +120% for 20s . Effects of the same name cannot stack.",
               "status": "live",
@@ -161988,9 +162178,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "6 \u2605",
                 "type": "Greatsword",
-                "baseAtk": "495",
+                "base_atk": "495",
                 "will": "+ 156",
-                "maxHp": "+ 78.00%"
+                "max_hp": "+ 78.00%"
               },
               "text": "Former Finery\nRarity: 6 \u2726\nType: Greatsword\nBase ATK: 495\nStat 1 Boost - 9/9\nWill : + 156\nStat 2 Boost - 9/9\nMax HP : + 78.00%\nPassive Boost - 4/9\nTreatment Efficiency +16% . When a Protected Operator takes DMG, the wielder restores the said Operator's HP by [134 + Will x 1.12] . Effect only triggers once every 15s .",
               "status": "live",
@@ -162004,11 +162194,11 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Sword",
-                "baseAtk": "411",
+                "base_atk": "411",
                 "intellect": "+ 124",
-                "ultimateGainEff": "+ 37.10%",
+                "ultimate_gain_eff": "+ 37.10%",
                 "attack": "+ 14.00%",
-                "artsIntensity": "+ 70"
+                "arts_intensity": "+ 70"
               },
               "text": "Fortmaker\nRarity: 5 \u2726\nType: Sword\nBase ATK: 411\nStat 1 Boost - 9/9\nIntellect : + 124\nStat 2 Boost - 9/9\nUltimate Gain Eff. : + 37.10%\nPassive Boost - 9/9\nAttack : + 14.00%\nArts Intensity : + 70",
               "status": "live",
@@ -162022,10 +162212,10 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Arts Unit",
-                "baseAtk": "411",
+                "base_atk": "411",
                 "will": "+ 124",
-                "treatmentBonus": "+ 37.10%",
-                "mainAttribute": "+ 14.00%"
+                "treatment_bonus": "+ 37.10%",
+                "main_attribute": "+ 14.00%"
               },
               "text": "Freedom to Proselytize\nRarity: 5 \u2726\nType: Arts Unit\nBase ATK: 411\nStat 1 Boost - 9/9\nWill : + 124\nStat 2 Boost - 9/9\nTreatment Bonus : + 37.10%\nPassive Boost - 9/9\nMain Attribute : + 14.00%\nWhen the wielder restores HP with their own Battle Skill, the Controlled Operator is restored for another [168 + Will x 1.4] Effect only triggers once every 15s .",
               "status": "live",
@@ -162039,13 +162229,30 @@ var NYX_DB = {
               "fields": {
                 "rarity": "6 \u2605",
                 "type": "Sword",
-                "baseAtk": "490",
+                "base_atk": "490",
                 "agility": "+ 156",
-                "criticalRate": "+ 19.50%",
+                "critical_rate": "+ 19.50%",
                 "atk": "+ 11.20%",
-                "maxStacksForEffectsOfTheSameName": "3 . Duration of each stack is counted separately. Effect is only triggered once every 0.5s ."
+                "max_stacks_for_effects_of_the_same_name": "3 . Duration of each stack is counted separately. Effect is only triggered once every 0.5s ."
               },
               "text": "Glorious Memory\nRarity: 6 \u2726\nType: Sword\nBase ATK: 490\nStat 1 Boost - 9/9\nAgility : + 156\nStat 2 Boost - 9/9\nCritical Rate : + 19.50%\nPassive Boost - 4/9\nATK : + 11.20%\nWhen the wielder's skill applies Vulnerability , during the next ultimate cast within 30s , the wielder gains DMG Dealt +19.2% .\nMax stacks for effects of the same name: 3 . Duration of each stack is counted separately. Effect is only triggered once every 0.5s .\nShow Effects",
+              "status": "live",
+              "labels": []
+            },
+            {
+              "id": "golden-age",
+              "name": "Golden Age",
+              "kind": "weapons",
+              "art": "../../Database/Prydwen/endfield/assets/weapons/weapon-74-e410cbd7f1ae.webp",
+              "fields": {
+                "rarity": "6 \u2605",
+                "type": "Polearm",
+                "base_atk": "485",
+                "will": "+ 156",
+                "treatment_bonus": "+ 46.40%",
+                "electric_dmg_bonus": "+ 9.60%"
+              },
+              "text": "Golden Age\nRarity: 6 \u2726\nType: Polearm\nBase ATK: 485\nStat 1 Boost - 9/9\nWill : + 156\nStat 2 Boost - 9/9\nTreatment Bonus : + 46.40%\nPassive Boost - 4/9\nElectric DMG Bonus : + 9.60%\nWhen the wielder's combo skill deals DMG, the wielder gains Treatment Efficiency +6.4% for 15s . When the wielder's combo skill grants HP Treatment to other operators in the team, the entire team gains Arts DMG Dealt +8.0% for 20s .\nEffects of the same name cannot stack.",
               "status": "live",
               "labels": []
             },
@@ -162057,10 +162264,10 @@ var NYX_DB = {
               "fields": {
                 "rarity": "6 \u2605",
                 "type": "Sword",
-                "baseAtk": "500",
+                "base_atk": "500",
                 "agility": "+ 156",
                 "attack": "+ 39.00%",
-                "artsIntensity": "+ 48"
+                "arts_intensity": "+ 48"
               },
               "text": "Grand Vision\nRarity: 6 \u2726\nType: Sword\nBase ATK: 500\nStat 1 Boost - 9/9\nAgility : + 156\nStat 2 Boost - 9/9\nAttack : + 39.00%\nPassive Boost - 4/9\nArts Intensity : + 48\nFor 20s after the wielder applies Originium Crystals or Solidification the wielder gains Physical DMG dealt +57.6% during the next Battle Skill or Ultimate cast. Effects of the same name cannot stack.\nShow Effects",
               "status": "live",
@@ -162074,9 +162281,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "6 \u2605",
                 "type": "Handcannon",
-                "baseAtk": "490",
+                "base_atk": "490",
                 "agility": "+ 156",
-                "cryoDmgDealt": "+ 43.33%",
+                "cryo_dmg_dealt": "+ 43.33%",
                 "atk": "+ 11.20%"
               },
               "text": "Home Longing\nRarity: 6 \u2726\nType: Handcannon\nBase ATK: 490\nStat 1 Boost - 9/9\nAgility : + 156\nStat 2 Boost - 9/9\nCryo DMG Dealt : + 43.33%\nPassive Boost - 4/9\nATK : + 11.20%\nFor 20s after the wielder casts a combo skill, the wielder's next battle skill gains Cryo and Nature DMG Dealt +12.8% . Max stacks for effects of the same name: 2 . Duration of each stack is counted separately.",
@@ -162091,7 +162298,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Handcannon",
-                "baseAtk": "341",
+                "base_atk": "341",
                 "intellect": "+ 93",
                 "attack": "+ 23.40%"
               },
@@ -162107,9 +162314,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Arts Unit",
-                "baseAtk": "341",
+                "base_atk": "341",
                 "intellect": "+ 93",
-                "artsDmgBonus": "+ 26.00%"
+                "arts_dmg_bonus": "+ 26.00%"
               },
               "text": "Hypernova Auto\nRarity: 4 \u2726\nType: Arts Unit\nBase ATK: 341\nStat 1 Boost - 9/9\nIntellect : + 93\nStat 2 Boost - 9/9\nArts DMG Bonus : + 26.00%\nPassive Boost - 9/9\nWhen the wielder's HP is above 80% , ATK +42% .",
               "status": "live",
@@ -162123,7 +162330,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Greatsword",
-                "baseAtk": "341",
+                "base_atk": "341",
                 "strength": "+ 93",
                 "attack": "+ 23.40%"
               },
@@ -162141,10 +162348,10 @@ var NYX_DB = {
               "fields": {
                 "rarity": "6 \u2605",
                 "type": "Polearm",
-                "baseAtk": "500",
-                "mainAttribute": "+ 132",
+                "base_atk": "500",
+                "main_attribute": "+ 132",
                 "attack": "+ 39.00%",
-                "artsDmgBonus": "+ 19.20%"
+                "arts_dmg_bonus": "+ 19.20%"
               },
               "text": "JET\nRarity: 6 \u2726\nType: Polearm\nBase ATK: 500\nStat 1 Boost - 9/9\nMain Attribute : + 132\nStat 2 Boost - 9/9\nAttack : + 39.00%\nPassive Boost - 4/9\nArts DMG Bonus : + 19.20%\nAfter the wielder casts a Battle Skill, the wielder gains Arts DMG dealt +19.2% for 15s . After the wielder casts a Combo Skill, Arts DMG dealt +19.2% for 15s . The two effects apply separately and do not stack with themselves.\nShow Effects",
               "status": "live",
@@ -162158,11 +162365,29 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Arts Unit",
-                "baseAtk": "283",
-                "mainAttribute": "+ 79",
-                "flatAtk": "+ 34"
+                "base_atk": "283",
+                "main_attribute": "+ 79",
+                "flat_atk": "+ 34"
               },
               "text": "Jiminy 12\nRarity: 3 \u2726\nType: Arts Unit\nBase ATK: 283\nStat 1 Boost - 9/9\nMain Attribute : + 79\nPassive Boost - 9/9\nFlat ATK : + 34",
+              "status": "live",
+              "labels": []
+            },
+            {
+              "id": "junction-point",
+              "name": "Junction Point",
+              "kind": "weapons",
+              "art": "../../Database/Prydwen/endfield/assets/weapons/weapon-73-a29f6215c847.webp",
+              "fields": {
+                "rarity": "6 \u2605",
+                "type": "Arts Unit",
+                "base_atk": "490",
+                "intellect": "+ 156",
+                "ultimate_gain_eff": "+ 46.40%",
+                "nature_dmg_bonus": "+ 11.20%",
+                "max_stacks_for_effects_of_the_same_name": "2 . Duration of each stack is counted separately."
+              },
+              "text": "Junction Point\nRarity: 6 \u2726\nType: Arts Unit\nBase ATK: 490\nStat 1 Boost - 9/9\nIntellect : + 156\nStat 2 Boost - 9/9\nUltimate Gain Eff. : + 46.40%\nPassive Boost - 4/9\nNature DMG Bonus : + 11.20%\nWhen the wielder applies Arts Susceptibility or Arts Infliction with a combo skill, the wielder gains ATK +9.6% while other operators in the team gain ATK +2.4% . Duration: 20s .\nMax stacks for effects of the same name: 2 . Duration of each stack is counted separately.\nShow Effects",
               "status": "live",
               "labels": []
             },
@@ -162174,10 +162399,10 @@ var NYX_DB = {
               "fields": {
                 "rarity": "6 \u2605",
                 "type": "Greatsword",
-                "baseAtk": "505",
+                "base_atk": "505",
                 "strength": "+ 156",
                 "attack": "+ 39.00%",
-                "allSkillDmgBonus": "+ 32.00%"
+                "all_skill_dmg_bonus": "+ 32.00%"
               },
               "text": "Khravengger\nRarity: 6 \u2726\nType: Greatsword\nBase ATK: 505\nStat 1 Boost - 9/9\nStrength : + 156\nStat 2 Boost - 9/9\nAttack : + 39.00%\nPassive Boost - 4/9\nAll Skill DMG Bonus : + 32.00%\nWhen the wielder's Battle Skill applies Cryo Infliction , the wielder gains Cryo DMG dealt +16% for 15s . When the wielder deals Combo Skill DMG to an enemy with Cryo Infliction , the wielder gains Cryo DMG dealt +32% for 15s . The two effects apply seperately and do not stack with themselves.\nShow Effects",
               "status": "live",
@@ -162191,10 +162416,10 @@ var NYX_DB = {
               "fields": {
                 "rarity": "6 \u2605",
                 "type": "Arts Unit",
-                "baseAtk": "0",
+                "base_atk": "0",
                 "will": "+ 156",
                 "atk": "+ 39%",
-                "electricDmgBonus": "+ 25.60%"
+                "electric_dmg_bonus": "+ 25.60%"
               },
               "text": "Lone Barge\nRarity: 6 \u2726\nType: Arts Unit\nBase ATK: 0\nStat 1 Boost - 9/9\nWill : + 156\nStat 2 Boost - 9/9\nATK : + 39%\nPassive Boost - 4/9\nElectric DMG Bonus : + 25.60%\nWhen the wielder's battle skill consumes Arts Reactions, the wielder gains Battle Skill Electric DMG Dealt +32% for 20s .\nThis effect can reach 2 stacks.\nDuration of each stack is counted separately.\nThis effect only triggers once every 0.1s .\nAfter the wielder casts an ultimate, the wielder gains Battle Skill Electric DMG Dealt +64% for 25s . This effect cannot stack",
               "status": "live",
@@ -162208,9 +162433,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Handcannon",
-                "baseAtk": "341",
+                "base_atk": "341",
                 "strength": "+ 93",
-                "artsDmgBonus": "+ 26.00%"
+                "arts_dmg_bonus": "+ 26.00%"
               },
               "text": "Long Road\nRarity: 4 \u2726\nType: Handcannon\nBase ATK: 341\nStat 1 Boost - 9/9\nStrength : + 93\nStat 2 Boost - 9/9\nArts DMG Bonus : + 26.00%\nPassive Boost - 9/9\nAfter the wielder casts a Combo Skill, ATK +33.6% for 20s . Effects of the same name cannot stack.",
               "status": "live",
@@ -162224,9 +162449,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "6 \u2605",
                 "type": "Sword",
-                "baseAtk": "505",
+                "base_atk": "505",
                 "agility": "+ 156",
-                "criticalRate": "+ 19.50%",
+                "critical_rate": "+ 19.50%",
                 "atk": "+ 25.60%"
               },
               "text": "Lupine Scarlet\nRarity: 6 \u2726\nType: Sword\nBase ATK: 505\nStat 1 Boost - 9/9\nAgility : + 156\nStat 2 Boost - 9/9\nCritical Rate : + 19.50%\nPassive Boost - 4/9\nATK : + 25.60%\nAfter the wielder's skill deals Critical DMG, the wielder gains 1 stack of Wolven Blood that grants Physical and Heat DMG Dealt +1.6% . Wolven Blood can reach 16 stacks. After reaching 16 stacks, the wielder gains another Physical and Heat DMG Dealt +38.4% for 20s . After the Dealt duration ends, all Wolven Blood stacks are removed.",
@@ -162241,11 +162466,11 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Arts Unit",
-                "baseAtk": "411",
+                "base_atk": "411",
                 "will": "+ 124",
-                "ultimateGainEff": "+ 37.10%",
-                "mainAttribute": "+ 14.00%",
-                "artsIntensity": "+ 70"
+                "ultimate_gain_eff": "+ 37.10%",
+                "main_attribute": "+ 14.00%",
+                "arts_intensity": "+ 70"
               },
               "text": "Monaihe\nRarity: 5 \u2726\nType: Arts Unit\nBase ATK: 411\nStat 1 Boost - 9/9\nWill : + 124\nStat 2 Boost - 9/9\nUltimate Gain Eff. : + 37.10%\nPassive Boost - 9/9\nMain Attribute : + 14.00%\nArts Intensity : + 70",
               "status": "live",
@@ -162259,9 +162484,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "6 \u2605",
                 "type": "Polearm",
-                "baseAtk": "500",
+                "base_atk": "500",
                 "agility": "+ 156",
-                "physicalDmgBonus": "+ 43.30%"
+                "physical_dmg_bonus": "+ 43.30%"
               },
               "text": "Mountain Bearer\nRarity: 6 \u2726\nType: Polearm\nBase ATK: 500\nStat 1 Boost - 9/9\nAgility : + 156\nStat 2 Boost - 9/9\nPhysical DMG Bonus : + 43.30%\nPassive Boost - 4/9\nAgainst Vulnerability enemies, the wielder gains DMG dealt +32% . When the wielder's Battle Skill applies Vulnerability , the wielder gains All Attributes +12.8% for 15s . When the wielder's Battle Skill applies Physical Susceptibility , the wielder gains all attributes +12.8% for 15 s . Max stacks for effects of the same name: 2 . Duration of each stack is counted separately. Effect only triggers once every 0.1s .\nShow Effects",
               "status": "live",
@@ -162275,10 +162500,10 @@ var NYX_DB = {
               "fields": {
                 "rarity": "6 \u2605",
                 "type": "Handcannon",
-                "baseAtk": "490",
+                "base_atk": "490",
                 "intellect": "+ 156",
-                "cryoDmgBonus": "+ 43.30%",
-                "criticalRate": "+ 5.60%"
+                "cryo_dmg_bonus": "+ 43.30%",
+                "critical_rate": "+ 5.60%"
               },
               "text": "Navigator\nRarity: 6 \u2726\nType: Handcannon\nBase ATK: 490\nStat 1 Boost - 9/9\nIntellect : + 156\nStat 2 Boost - 9/9\nCryo DMG Bonus : + 43.30%\nPassive Boost - 4/9\nCritical Rate : + 5.60%\nWhen Solidification or Corrosion is applied to enemies, the wielder gains Cryo DMG dealt and Nature DMG dealt +5.6% , and Critical Rate +3.2% for 15s . If this effect is triggered by the wielder, double the increase gained. Effects of the same name cannot stack.\nShow Effects",
               "status": "live",
@@ -162292,10 +162517,10 @@ var NYX_DB = {
               "fields": {
                 "rarity": "6 \u2605",
                 "type": "Sword",
-                "baseAtk": "500",
+                "base_atk": "500",
                 "will": "+ 156",
                 "attack": "+ 39.00%",
-                "physicalDmgBonus": "+ 25.60%"
+                "physical_dmg_bonus": "+ 25.60%"
               },
               "text": "Never Rest\nRarity: 6 \u2726\nType: Sword\nBase ATK: 500\nStat 1 Boost - 9/9\nWill : + 156\nStat 2 Boost - 9/9\nAttack : + 39.00%\nPassive Boost - 4/9\nPhysical DMG Bonus : + 25.60%\nAfter the wielder recovers SP with their own skills, the wielder gains Physical DMG dealt +8% while other Operators in the team gain Physical DMG dealt +4% for 30s . Max stacks for effects of the same name: 5 . Duration of each stack is counted separately. Effect only triggers once every 0.1s .",
               "status": "live",
@@ -162309,10 +162534,10 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Arts Unit",
-                "baseAtk": "411",
+                "base_atk": "411",
                 "intellect": "+ 124",
-                "artsIntensity": "+ 62",
-                "maxHp": "+ 28.00%"
+                "arts_intensity": "+ 62",
+                "max_hp": "+ 28.00%"
               },
               "text": "OBJ Arts Identifier\nRarity: 5 \u2726\nType: Arts Unit\nBase ATK: 411\nStat 1 Boost - 9/9\nIntellect : + 124\nStat 2 Boost - 9/9\nArts Intensity : + 62\nPassive Boost - 9/9\nMax HP : + 28.00%\nAfter the wielder applies Arts Burst or Physical Status with their own Combo Skill, the entire team gains Heat DMG dealt and Electric DMG dealt +22.4% for 15s . Effects of the same name cannot stack.\nShow Effects",
               "status": "live",
@@ -162326,10 +162551,10 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Sword",
-                "baseAtk": "411",
+                "base_atk": "411",
                 "agility": "+ 124",
                 "attack": "+ 31.20%",
-                "secAttribute": "+ 14.00%"
+                "sec_attribute": "+ 14.00%"
               },
               "text": "OBJ Edge of Lightness\nRarity: 5 \u2726\nType: Sword\nBase ATK: 411\nStat 1 Boost - 9/9\nAgility : + 124\nStat 2 Boost - 9/9\nAttack : + 31.20%\nPassive Boost - 9/9\nSec. Attribute : + 14.00%\nAfter the wielder recovers SP by their own skill, the entire team gains Heat DMG dealt and Electric DMG dealt +8.4% for 20s . Max stacks for effects of the same name: 3 . Duration of each stack is counted separately.",
               "status": "live",
@@ -162343,10 +162568,10 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Greatsword",
-                "baseAtk": "411",
+                "base_atk": "411",
                 "strength": "+ 124",
-                "maxHp": "+ 62.40%",
-                "secAttribute": "+ 14.00%"
+                "max_hp": "+ 62.40%",
+                "sec_attribute": "+ 14.00%"
               },
               "text": "OBJ Heavy Burden\nRarity: 5 \u2726\nType: Greatsword\nBase ATK: 411\nStat 1 Boost - 9/9\nStrength : + 124\nStat 2 Boost - 9/9\nMax HP : + 62.40%\nPassive Boost - 9/9\nSec. Attribute : + 14.00%\nAfter the wielder applies Knocked Down or Weakened , DEF +50.4% for 15s . Effects of the same name cannot stack.\nShow Effects",
               "status": "live",
@@ -162360,9 +162585,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Polearm",
-                "baseAtk": "411",
+                "base_atk": "411",
                 "will": "+ 124",
-                "physicalDmgBonus": "+ 34.70%"
+                "physical_dmg_bonus": "+ 34.70%"
               },
               "text": "OBJ Razohorn\nRarity: 5 \u2726\nType: Polearm\nBase ATK: 411\nStat 1 Boost - 9/9\nWill : + 124\nStat 2 Boost - 9/9\nPhysical DMG Bonus : + 34.70%\nPassive Boost - 9/9\nTo enemies with Cryo Infliction or Solidification , the wielder gains DMG dealt +22.4% . After consuming Solidification , ATK +33.6% for 15s . Effects of the same name cannot stack.\nShow Effects",
               "status": "live",
@@ -162376,9 +162601,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Handcannon",
-                "baseAtk": "411",
+                "base_atk": "411",
                 "agility": "+ 124",
-                "ultimateGainEff": "+ 37.10%",
+                "ultimate_gain_eff": "+ 37.10%",
                 "attack": "+ 14.00%"
               },
               "text": "OBJ Velocitous\nRarity: 5 \u2726\nType: Handcannon\nBase ATK: 411\nStat 1 Boost - 9/9\nAgility : + 124\nStat 2 Boost - 9/9\nUltimate Gain Eff. : + 37.10%\nPassive Boost - 9/9\nAttack : + 14.00%\nAfter the wielder consumes an Arts Infliction , the wielder gains Nature DMG dealt +[14% x Stacks Consumed] for 20s . Effects of the same name cannot stack.\nShow Effects",
@@ -162393,10 +162618,10 @@ var NYX_DB = {
               "fields": {
                 "rarity": "6 \u2605",
                 "type": "Arts Unit",
-                "baseAtk": "495",
+                "base_atk": "495",
                 "intellect": "+ 156",
-                "artsDmgBonus": "+ 43.30%",
-                "criticalRate": "+ 8.00%"
+                "arts_dmg_bonus": "+ 43.30%",
+                "critical_rate": "+ 8.00%"
               },
               "text": "Oblivion\nRarity: 6 \u2726\nType: Arts Unit\nBase ATK: 495\nStat 1 Boost - 9/9\nIntellect : + 156\nStat 2 Boost - 9/9\nArts DMG Bonus : + 43.30%\nPassive Boost - 4/9\nCritical Rate : + 8.00%\nAfter the wielder casts an Ultimate, the wielder gains Arts DMG dealt +38.4% for 15s . After the wielder casts a Combo Skill, the wielder gains Arts DMG dealt +19.2% for 15s . The two effects apply separately and do not stack with themselves.\nShow Effects",
               "status": "live",
@@ -162410,9 +162635,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Polearm",
-                "baseAtk": "283",
-                "mainAttribute": "+ 79",
-                "flatAtk": "+ 34"
+                "base_atk": "283",
+                "main_attribute": "+ 79",
+                "flat_atk": "+ 34"
               },
               "text": "Opero 77\nRarity: 3 \u2726\nType: Polearm\nBase ATK: 283\nStat 1 Boost - 9/9\nMain Attribute : + 79\nPassive Boost - 9/9\nFlat ATK : + 34",
               "status": "live",
@@ -162426,9 +162651,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "6 \u2605",
                 "type": "Arts Unit",
-                "baseAtk": "485",
+                "base_atk": "485",
                 "will": "+ 156",
-                "natureDmgBonus": "+ 43.30%",
+                "nature_dmg_bonus": "+ 43.30%",
                 "attack": "+ 11.20%"
               },
               "text": "Opus: Etch Figure\nRarity: 6 \u2726\nType: Arts Unit\nBase ATK: 485\nStat 1 Boost - 9/9\nWill : + 156\nStat 2 Boost - 9/9\nNature DMG Bonus : + 43.30%\nPassive Boost - 4/9\nAttack : + 11.20%\nAfter the wielder applies a Nature Infliction with their own Battle Skill, the team gains Arts DMG dealt +8% for 15s . For every enemy suffering from Nature Infliction applied by the said Battle Skill, the team gains Bonus Arts DMG dealt +3.2% , up to a max of +9.6% . Effects of the same name cannot stack.\nShow Effects",
@@ -162443,10 +162668,10 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Handcannon",
-                "baseAtk": "411",
+                "base_atk": "411",
                 "agility": "+ 124",
-                "artsDmgBonus": "+ 34.70%",
-                "criticalRate": "+ 8.40%"
+                "arts_dmg_bonus": "+ 34.70%",
+                "critical_rate": "+ 8.40%"
               },
               "text": "Opus: The Living\nRarity: 5 \u2726\nType: Handcannon\nBase ATK: 411\nStat 1 Boost - 9/9\nAgility : + 124\nStat 2 Boost - 9/9\nArts DMG Bonus : + 34.70%\nPassive Boost - 9/9\nCritical Rate : + 8.40%\nAfter the wielder applies an Arts Reaction, ATK 21% for 20s . Max stacks for effects of the same name: 2 . Duration of each stack is counted separately. Effect only triggers once every 0.1s .",
               "status": "live",
@@ -162460,7 +162685,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Polearm",
-                "baseAtk": "341",
+                "base_atk": "341",
                 "agility": "+ 93",
                 "attack": "+ 23.40%"
               },
@@ -162476,9 +162701,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Handcannon",
-                "baseAtk": "283",
-                "mainAttribute": "+ 79",
-                "flatAtk": "+ 34"
+                "base_atk": "283",
+                "main_attribute": "+ 79",
+                "flat_atk": "+ 34"
               },
               "text": "Peco 5\nRarity: 3 \u2726\nType: Handcannon\nBase ATK: 283\nStat 1 Boost - 9/9\nMain Attribute : + 79\nPassive Boost - 9/9\nFlat ATK : + 34",
               "status": "live",
@@ -162492,10 +162717,10 @@ var NYX_DB = {
               "fields": {
                 "rarity": "6 \u2605",
                 "type": "Greatsword",
-                "baseAtk": "490",
+                "base_atk": "490",
                 "strength": "+ 156",
-                "artsIntensity": "+ 78",
-                "physicalDmgBonus": "+ 11.20%"
+                "arts_intensity": "+ 78",
+                "physical_dmg_bonus": "+ 11.20%"
               },
               "text": "Phantom Pain\nRarity: 6 \u2726\nType: Greatsword\nBase ATK: 490\nStat 1 Boost - 9/9\nStrength : + 156\nStat 2 Boost - 9/9\nArts Intensity : + 78\nPassive Boost - 4/9\nPhysical DMG Bonus : + 11.20%\nWhen the wielder casts battle skills or combo skills, the wielder gains Physical DMG Dealt +15.4% for 20s .",
               "status": "live",
@@ -162509,9 +162734,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Greatsword",
-                "baseAtk": "341",
+                "base_atk": "341",
                 "will": "+ 93",
-                "maxHp": "+ 46.80%"
+                "max_hp": "+ 46.80%"
               },
               "text": "Quencher\nRarity: 4 \u2726\nType: Greatsword\nBase ATK: 341\nStat 1 Boost - 9/9\nWill : + 93\nStat 2 Boost - 9/9\nMax HP : + 46.80%\nPassive Boost - 9/9\nAfter the wielder performs a Final Strike on the enemy, ATK +33.6% for 10s . Effects of the same name cannot stack.\nShow Effects",
               "status": "live",
@@ -162525,9 +162750,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "6 \u2605",
                 "type": "Sword",
-                "baseAtk": "495",
-                "mainAttribute": "+ 132",
-                "criticalRate": "+ 19.50%"
+                "base_atk": "495",
+                "main_attribute": "+ 132",
+                "critical_rate": "+ 19.50%"
               },
               "text": "Rapid Ascent\nRarity: 6 \u2726\nType: Sword\nBase ATK: 495\nStat 1 Boost - 9/9\nMain Attribute : + 132\nStat 2 Boost - 9/9\nCritical Rate : + 19.50%\nPassive Boost - 4/9\nBattle Skills and Ultimates gain Physical DMG dealt +24% . Against staggered enemies, Battle Skills and Ultimates also gain DMG dealt +56% .",
               "status": "live",
@@ -162541,10 +162766,10 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Handcannon",
-                "baseAtk": "411",
+                "base_atk": "411",
                 "strength": "+ 124",
-                "heatDmgBonus": "+ 34.70%",
-                "battleSkillDmg": "+ 28.00%"
+                "heat_dmg_bonus": "+ 34.70%",
+                "battle_skill_dmg": "+ 28.00%"
               },
               "text": "Rational Farewell\nRarity: 5 \u2726\nType: Handcannon\nBase ATK: 411\nStat 1 Boost - 9/9\nStrength : + 124\nStat 2 Boost - 9/9\nHeat DMG Bonus : + 34.70%\nPassive Boost - 9/9\nBattle Skill DMG : + 28.00%\nAfter the wielder's combo skil applies Arts Burst or Combusted , ATK +44.8% for 15s . Effects of the same name cannot stack.\nShow Effects",
               "status": "live",
@@ -162558,10 +162783,10 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Greatsword",
-                "baseAtk": "411",
+                "base_atk": "411",
                 "strength": "+ 124",
-                "ultimateGainEff": "+ 37.10%",
-                "mainAttribute": "+ 14.00%"
+                "ultimate_gain_eff": "+ 37.10%",
+                "main_attribute": "+ 14.00%"
               },
               "text": "Seeker of Dark Lung\nRarity: 5 \u2726\nType: Greatsword\nBase ATK: 411\nStat 1 Boost - 9/9\nStrength : + 124\nStat 2 Boost - 9/9\nUltimate Gain Eff. : + 37.10%\nPassive Boost - 9/9\nMain Attribute : + 14.00%\nAfter the wielder applies an Arts Burst, ATK +16.8% for 30s . Max stacks for effects of the same name: 3 . Duration of each stack is counted separately. Effect only triggers once every 0.1s .",
               "status": "live",
@@ -162575,10 +162800,10 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Arts Unit",
-                "baseAtk": "411",
+                "base_atk": "411",
                 "intellect": "+ 124",
                 "attack": "+ 31.20%",
-                "maxHp": "+ 28.00%"
+                "max_hp": "+ 28.00%"
               },
               "text": "Stanza of Memorials\nRarity: 5 \u2726\nType: Arts Unit\nBase ATK: 411\nStat 1 Boost - 9/9\nIntellect : + 124\nStat 2 Boost - 9/9\nAttack : + 31.20%\nPassive Boost - 9/9\nMax HP : + 28.00%\nAfter the wielder casts an Ultimate, Operators whose elements differ from the wielder gain ATK +22.4% for 20s . Effects of the same name cannot stack.",
               "status": "live",
@@ -162592,9 +162817,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "6 \u2605",
                 "type": "Greatsword",
-                "baseAtk": "490",
+                "base_atk": "490",
                 "strength": "+ 156",
-                "criticalRate": "+ 19.50%"
+                "critical_rate": "+ 19.50%"
               },
               "text": "Sundered Prince\nRarity: 6 \u2726\nType: Greatsword\nBase ATK: 490\nStat 1 Boost - 9/9\nStrength : + 156\nStat 2 Boost - 9/9\nCritical Rate : + 19.50%\nPassive Boost - 4/9\nAfter the wielder performs a Final Strike on the enemy, ATK +16% for 8s . If the wielder is also the Controlled Operator, double the ATK increase gained and buff the Final Strike so that it deals Stagger +19.2% to the enemy. Effects of the same name cannot stack.\nShow Effects",
               "status": "live",
@@ -162608,9 +162833,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Sword",
-                "baseAtk": "411",
+                "base_atk": "411",
                 "agility": "+ 124",
-                "physicalDmgBonus": "+ 34.70%",
+                "physical_dmg_bonus": "+ 34.70%",
                 "attack": "+ 14.00%"
               },
               "text": "Sundering Steel\nRarity: 5 \u2726\nType: Sword\nBase ATK: 411\nStat 1 Boost - 9/9\nAgility : + 124\nStat 2 Boost - 9/9\nPhysical DMG Bonus : + 34.70%\nPassive Boost - 9/9\nAttack : + 14.00%\nAfter the wielder deals a Physical Status , ATK +21% for 20s . Max stacks for effects of the same name: 2 . Duration of each stack is counted separately. Effect only triggers once every 0.1s .",
@@ -162625,9 +162850,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Sword",
-                "baseAtk": "283",
-                "mainAttribute": "+ 79",
-                "flatAtk": "+ 34"
+                "base_atk": "283",
+                "main_attribute": "+ 79",
+                "flat_atk": "+ 34"
               },
               "text": "Tarr 11\nRarity: 3 \u2726\nType: Sword\nBase ATK: 283\nStat 1 Boost - 9/9\nMain Attribute : + 79\nPassive Boost - 9/9\nFlat ATK : + 34",
               "status": "live",
@@ -162641,7 +162866,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "6 \u2605",
                 "type": "Sword",
-                "baseAtk": "490",
+                "base_atk": "490",
                 "will": "+ 156",
                 "attack": "+ 16.00%"
               },
@@ -162657,9 +162882,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "6 \u2605",
                 "type": "Greatsword",
-                "baseAtk": "495",
+                "base_atk": "495",
                 "strength": "+ 156",
-                "maxHp": "+ 78.00%"
+                "max_hp": "+ 78.00%"
               },
               "text": "Thunderberge\nRarity: 6 \u2726\nType: Greatsword\nBase ATK: 495\nStat 1 Boost - 9/9\nStrength : + 156\nStat 2 Boost - 9/9\nMax HP : + 78.00%\nPassive Boost - 4/9\nShield applied +38.4% . When the wielder restores HP with their own Combo Skill, grant the Controlled Operator an additional [11.2 x Wielder's Max HP] Shield for 15s . Effect only triggers once every 15s .\nShow Effects",
               "status": "live",
@@ -162673,12 +162898,31 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Sword",
-                "baseAtk": "411",
+                "base_atk": "411",
                 "agility": "+ 124",
                 "attack": "+ 31.20%",
-                "secAttribute": "+ 14.00%"
+                "sec_attribute": "+ 14.00%"
               },
               "text": "Twelve Questions\nRarity: 5 \u2726\nType: Sword\nBase ATK: 411\nStat 1 Boost - 9/9\nAgility : + 124\nStat 2 Boost - 9/9\nAttack : + 31.20%\nPassive Boost - 9/9\nSec. Attribute : + 14.00%\nAfter the wielder consumes an Arts Reaction, ATK +21% for 20s . Max stacks for effects of the same name: 2 . Duration of each stack is counted separately.",
+              "status": "live",
+              "labels": []
+            },
+            {
+              "id": "type-42-solemn-phalanx",
+              "name": "Type 42: Solemn Phalanx",
+              "kind": "weapons",
+              "art": "../../Database/Prydwen/endfield/assets/weapons/weapon-75-73b494863a95.webp",
+              "fields": {
+                "rarity": "6 \u2605",
+                "type": "Arts Unit",
+                "base_atk": "505",
+                "intellect": "+ 156",
+                "ultimate_gain_eff": "+ 46.40%",
+                "atk": "+ 25.60%",
+                "wielder_s_intellect_will": "When the wielder applies Arts Infliction with their own skill, the wielder gains Arts DMG Dealt +32.0% for 20s ; when the wielder applies Arts Susceptibility with their own skill, the wielder gains ATK +32.0% for 20s ;",
+                "wielder_s_will_intellect": "When the wielder applies Arts Burst with their own skill, the target enemy suffers Arts DMG Taken +9.6% for 25s ; when the wielder applies Arts Susceptibility with their own skill, the target enemy suffers Arts DMG Taken +9.6% for 25s ."
+              },
+              "text": "Type 42: Solemn Phalanx\nRarity: 6 \u2726\nType: Arts Unit\nBase ATK: 505\nStat 1 Boost - 9/9\nIntellect : + 156\nStat 2 Boost - 9/9\nUltimate Gain Eff. : + 46.40%\nPassive Boost - 4/9\nATK : + 25.60%\nWielder's Intellect \u2265 Will : When the wielder applies Arts Infliction with their own skill, the wielder gains Arts DMG Dealt +32.0% for 20s ; when the wielder applies Arts Susceptibility with their own skill, the wielder gains ATK +32.0% for 20s ;\nWielder's Will \uff1e Intellect : When the wielder applies Arts Burst with their own skill, the target enemy suffers Arts DMG Taken +9.6% for 25s ; when the wielder applies Arts Susceptibility with their own skill, the target enemy suffers Arts DMG Taken +9.6% for 25s .\nEffects of the same name cannot stack. The aforementioned attributes only include effects from the wielder's level, talents, potentials, and attribute bonuses provided by equipped gear and weapons.\nShow Effects",
               "status": "live",
               "labels": []
             },
@@ -162690,9 +162934,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "6 \u2605",
                 "type": "Sword",
-                "baseAtk": "490",
+                "base_atk": "490",
                 "intellect": "+ 156",
-                "heatDmgBonus": "+ 43.30%",
+                "heat_dmg_bonus": "+ 43.30%",
                 "attack": "+ 11.20%"
               },
               "text": "Umbral Torch\nRarity: 6 \u2726\nType: Sword\nBase ATK: 490\nStat 1 Boost - 9/9\nIntellect : + 156\nStat 2 Boost - 9/9\nHeat DMG Bonus : + 43.30%\nPassive Boost - 4/9\nAttack : + 11.20%\nWhenever Combustion or Corrosion is applied to an enemy, the wielder gains Heat DMG dealt and Nature DMG dealt +12.8% for 20s .. Max stacks for effects of the same name: 2 . Duration of each stack is counted seperately. Effect only triggers once every 0.1s .\nShow Effects",
@@ -162707,9 +162951,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "6 \u2605",
                 "type": "Polearm",
-                "baseAtk": "495",
+                "base_atk": "495",
                 "agility": "+ 156",
-                "physicalDmgBonus": "+ 43.30%",
+                "physical_dmg_bonus": "+ 43.30%",
                 "attack": "+ 16.00%"
               },
               "text": "Valiant\nRarity: 6 \u2726\nType: Polearm\nBase ATK: 495\nStat 1 Boost - 9/9\nAgility : + 156\nStat 2 Boost - 9/9\nPhysical DMG Bonus : + 43.30%\nPassive Boost - 4/9\nAttack : + 16.00%\nWhen the wielder applies Physical Statuses , the wielder also deals another hit of Physical DMG equal to 192% of the wielder's ATK.\nShow Effects",
@@ -162724,7 +162968,7 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Sword",
-                "baseAtk": "341",
+                "base_atk": "341",
                 "intellect": "+ 93",
                 "attack": "+ 23.40%"
               },
@@ -162740,10 +162984,10 @@ var NYX_DB = {
               "fields": {
                 "rarity": "6 \u2605",
                 "type": "Handcannon",
-                "baseAtk": "500",
-                "mainAttribute": "+ 132",
-                "criticalRate": "+ 19.50%",
-                "artsDmgBonus": "+ 19.20%"
+                "base_atk": "500",
+                "main_attribute": "+ 132",
+                "critical_rate": "+ 19.50%",
+                "arts_dmg_bonus": "+ 19.20%"
               },
               "text": "Wedge\nRarity: 6 \u2726\nType: Handcannon\nBase ATK: 500\nStat 1 Boost - 9/9\nMain Attribute : + 132\nStat 2 Boost - 9/9\nCritical Rate : + 19.50%\nPassive Boost - 4/9\nArts DMG Bonus : + 19.20%\nAfter the wielder casts a Battle Skill, the wielder gains Arts DMG dealt +12.8% for 15s . After the wielder applies an Arts Reaction with their own Battle Skill, the wielder gains Arts DMG dealt +25.6% for 15s . The two effects apply separately and do not stack with themselves.\nShow Effects",
               "status": "live",
@@ -162757,10 +163001,10 @@ var NYX_DB = {
               "fields": {
                 "rarity": "6 \u2605",
                 "type": "Sword",
-                "baseAtk": "505",
-                "mainAttribute": "+ 132",
-                "artsIntensity": "+ 78",
-                "artsDmgBonus": "+ 19.20%"
+                "base_atk": "505",
+                "main_attribute": "+ 132",
+                "arts_intensity": "+ 78",
+                "arts_dmg_bonus": "+ 19.20%"
               },
               "text": "White Night Nova\nRarity: 6 \u2726\nType: Sword\nBase ATK: 505\nStat 1 Boost - 9/9\nMain Attribute : + 132\nStat 2 Boost - 9/9\nArts Intensity : + 78\nPassive Boost - 4/9\nArts DMG Bonus : + 19.20%\nAfter the wielder applies Combustion or Electrification , the wielder gains Arts DMG dealt +19.2% and Arts Intensity +40 for 15s . Effects of the same name cannot stack.\nShow Effects",
               "status": "live",
@@ -162774,10 +163018,10 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Arts Unit",
-                "baseAtk": "411",
+                "base_atk": "411",
                 "intellect": "+ 124",
-                "electricDmgBonus": "+ 34.70%",
-                "artsIntensity": "+ 28"
+                "electric_dmg_bonus": "+ 34.70%",
+                "arts_intensity": "+ 28"
               },
               "text": "Wild Wanderer\nRarity: 5 \u2726\nType: Arts Unit\nBase ATK: 411\nStat 1 Boost - 9/9\nIntellect : + 124\nStat 2 Boost - 9/9\nElectric DMG Bonus : + 34.70%\nPassive Boost - 9/9\nArts Intensity : + 28\nAfter the wielder applies Electrification , the team gains Physical DMG dealt and Electric DMG dealt +22.4% for 15s . Effects of the same name cannot stack.\nShow Effects",
               "status": "live",
@@ -162788,9 +163032,9 @@ var NYX_DB = {
         {
           "key": "gear",
           "title": "Gear",
-          "updatedText": "05/June/2026",
+          "updatedText": "16/July/2026",
           "source": "Prydwen",
-          "count": 129,
+          "count": 152,
           "items": [
             {
               "id": "aethertech-analysis-band",
@@ -162803,7 +163047,7 @@ var NYX_DB = {
                 "def": "+ 21",
                 "strength": "+ 32",
                 "will": "+ 21",
-                "physicalDmg": "+ 23.00%"
+                "physical_dmg": "+ 23.00%"
               },
               "text": "Aethertech Analysis Band\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nStrength :\n+ 32\nWill :\n+ 21\nPhysical DMG :\n+ 23.00%\nGear Set (3-PC)\nAethertech\nAttack + 8% . When the wearer applies Vulnerability , Physical DMG +8% for 15s . This effect can reach 4 stacks. If the target already has 4 stack(s) of Vulnerability , the wearer gains an additional Physical DMG +16% for 10s . This effect cannot stack.",
               "status": "live",
@@ -162820,7 +163064,7 @@ var NYX_DB = {
                 "def": "+ 42",
                 "agility": "+ 65",
                 "strength": "+ 43",
-                "artsIntensity": "+ 34"
+                "arts_intensity": "+ 34"
               },
               "text": "Aethertech Gloves\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nAgility :\n+ 65\nStrength :\n+ 43\nArts Intensity :\n+ 34\nGear Set (3-PC)\nAethertech\nAttack + 8% . When the wearer applies Vulnerability , Physical DMG +8% for 15s . This effect can reach 4 stacks. If the target already has 4 stack(s) of Vulnerability , the wearer gains an additional Physical DMG +16% for 10s . This effect cannot stack.",
               "status": "live",
@@ -162837,7 +163081,7 @@ var NYX_DB = {
                 "def": "+ 42",
                 "will": "+ 65",
                 "agility": "+ 43",
-                "allSkillDmg": "+ 23.00%"
+                "all_skill_dmg": "+ 23.00%"
               },
               "text": "Aethertech Light Gloves\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nWill :\n+ 65\nAgility :\n+ 43\nAll Skill DMG :\n+ 23.00%\nGear Set (3-PC)\nAethertech\nAttack + 8% . When the wearer applies Vulnerability , Physical DMG +8% for 15s . This effect can reach 4 stacks. If the target already has 4 stack(s) of Vulnerability , the wearer gains an additional Physical DMG +16% for 10s . This effect cannot stack.",
               "status": "live",
@@ -162854,7 +163098,7 @@ var NYX_DB = {
                 "def": "+ 56",
                 "strength": "+ 87",
                 "will": "+ 58",
-                "dmgBonusVsStaggered": "+ 20.70%"
+                "dmg_bonus_vs_staggered": "+ 20.70%"
               },
               "text": "Aethertech Plating\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nStrength :\n+ 87\nWill :\n+ 58\nDMG Bonus vs Staggered :\n+ 20.70%\nGear Set (3-PC)\nAethertech\nAttack + 8% . When the wearer applies Vulnerability , Physical DMG +8% for 15s . This effect can reach 4 stacks. If the target already has 4 stack(s) of Vulnerability , the wearer gains an additional Physical DMG +16% for 10s . This effect cannot stack.",
               "status": "live",
@@ -162871,7 +163115,7 @@ var NYX_DB = {
                 "def": "+ 21",
                 "agility": "+ 32",
                 "strength": "+ 21",
-                "artsIntensity": "+ 41"
+                "arts_intensity": "+ 41"
               },
               "text": "Aethertech Stabilizer\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nAgility :\n+ 32\nStrength :\n+ 21\nArts Intensity :\n+ 41\nGear Set (3-PC)\nAethertech\nAttack + 8% . When the wearer applies Vulnerability , Physical DMG +8% for 15s . This effect can reach 4 stacks. If the target already has 4 stack(s) of Vulnerability , the wearer gains an additional Physical DMG +16% for 10s . This effect cannot stack.",
               "status": "live",
@@ -162888,7 +163132,7 @@ var NYX_DB = {
                 "def": "+ 21",
                 "agility": "+ 32",
                 "strength": "+ 21",
-                "physicalDmg": "+ 23.00%"
+                "physical_dmg": "+ 23.00%"
               },
               "text": "Aethertech Stabilizer T1\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nAgility :\n+ 32\nStrength :\n+ 21\nPhysical DMG :\n+ 23.00%\nGear Set (3-PC)\nAethertech\nAttack + 8% . When the wearer applies Vulnerability , Physical DMG +8% for 15s . This effect can reach 4 stacks. If the target already has 4 stack(s) of Vulnerability , the wearer gains an additional Physical DMG +16% for 10s . This effect cannot stack.",
               "status": "live",
@@ -162905,9 +163149,159 @@ var NYX_DB = {
                 "def": "+ 21",
                 "strength": "+ 32",
                 "agility": "+ 21",
-                "battleSkillDmg": "+ 41.40%"
+                "battle_skill_dmg": "+ 41.40%"
               },
               "text": "Aethertech Watch\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nStrength :\n+ 32\nAgility :\n+ 21\nBattle Skill DMG :\n+ 41.40%\nGear Set (3-PC)\nAethertech\nAttack + 8% . When the wearer applies Vulnerability , Physical DMG +8% for 15s . This effect can reach 4 stacks. If the target already has 4 stack(s) of Vulnerability , the wearer gains an additional Physical DMG +16% for 10s . This effect cannot stack.",
+              "status": "live",
+              "labels": []
+            },
+            {
+              "id": "aic-fieldwork-armor",
+              "name": "AIC Fieldwork Armor",
+              "kind": "gear",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-130-e8ce87f4c3b6.webp",
+              "fields": {
+                "level": "70",
+                "type": "Armor",
+                "def": "+ 48",
+                "main_attribute": "+ 74",
+                "secondary_attribute": "+ 49",
+                "arts_dmg": "+ 9.30%"
+              },
+              "text": "AIC Fieldwork Armor\nLevel: 70\nType: Armor\nDEF: + 48\nGear Attributes\nMain Attribute :\n+ 74\nSecondary Attribute :\n+ 49\nArts DMG :\n+ 9.30%\nGear Set (3-PC)\nAIC Fieldwork\n+ . Wearer gains DMG Dealt +20% for all types of DMG, 10% DMG Reduction against all types of DMG, and Ultimate Gain Efficiency +10% .",
+              "status": "live",
+              "labels": []
+            },
+            {
+              "id": "aic-fieldwork-ember",
+              "name": "AIC Fieldwork Ember",
+              "kind": "gear",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-137-940faa48c130.webp",
+              "fields": {
+                "level": "70",
+                "type": "Kit",
+                "def": "+ 18",
+                "main_attribute": "+ 27",
+                "secondary_attribute": "+ 18",
+                "ultimate_gain_efficiency": "+ 21.10%"
+              },
+              "text": "AIC Fieldwork Ember\nLevel: 70\nType: Kit\nDEF: + 18\nGear Attributes\nMain Attribute :\n+ 27\nSecondary Attribute :\n+ 18\nUltimate Gain Efficiency :\n+ 21.10%\nGear Set (3-PC)\nAIC Fieldwork\n+ . Wearer gains DMG Dealt +20% for all types of DMG, 10% DMG Reduction against all types of DMG, and Ultimate Gain Efficiency +10% .",
+              "status": "live",
+              "labels": []
+            },
+            {
+              "id": "aic-fieldwork-flashlight",
+              "name": "AIC Fieldwork Flashlight",
+              "kind": "gear",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-136-74b8797668c4.webp",
+              "fields": {
+                "level": "70",
+                "type": "Kit",
+                "def": "+ 18",
+                "secondary_attribute": "+ 17.70%",
+                "main_attribute": "+ 18"
+              },
+              "text": "AIC Fieldwork Flashlight\nLevel: 70\nType: Kit\nDEF: + 18\nGear Attributes\nSecondary Attribute :\n+ 27\nMain Attribute :\n+ 18\nSecondary Attribute :\n+ 17.70%\nGear Set (3-PC)\nAIC Fieldwork\n+ . Wearer gains DMG Dealt +20% for all types of DMG, 10% DMG Reduction against all types of DMG, and Ultimate Gain Efficiency +10% .",
+              "status": "live",
+              "labels": []
+            },
+            {
+              "id": "aic-fieldwork-gloves",
+              "name": "AIC Fieldwork Gloves",
+              "kind": "gear",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-134-9df7f3523954.webp",
+              "fields": {
+                "level": "70",
+                "type": "Gloves",
+                "def": "+ 36",
+                "main_attribute": "+ 55",
+                "secondary_attribute": "+ 37",
+                "arts_dmg": "+ 15.50%"
+              },
+              "text": "AIC Fieldwork Gloves\nLevel: 70\nType: Gloves\nDEF: + 36\nGear Attributes\nMain Attribute :\n+ 55\nSecondary Attribute :\n+ 37\nArts DMG :\n+ 15.50%\nGear Set (3-PC)\nAIC Fieldwork\n+ . Wearer gains DMG Dealt +20% for all types of DMG, 10% DMG Reduction against all types of DMG, and Ultimate Gain Efficiency +10% .",
+              "status": "live",
+              "labels": []
+            },
+            {
+              "id": "aic-fieldwork-hands",
+              "name": "AIC Fieldwork Hands",
+              "kind": "gear",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-135-252a385aec76.webp",
+              "fields": {
+                "level": "70",
+                "type": "Gloves",
+                "def": "+ 36",
+                "main_attribute": "+ 55",
+                "secondary_attribute": "+ 37",
+                "ultimate_gain_efficiency": "+ 17.60%"
+              },
+              "text": "AIC Fieldwork Hands\nLevel: 70\nType: Gloves\nDEF: + 36\nGear Attributes\nMain Attribute :\n+ 55\nSecondary Attribute :\n+ 37\nUltimate Gain Efficiency :\n+ 17.60%\nGear Set (3-PC)\nAIC Fieldwork\n+ . Wearer gains DMG Dealt +20% for all types of DMG, 10% DMG Reduction against all types of DMG, and Ultimate Gain Efficiency +10% .",
+              "status": "live",
+              "labels": []
+            },
+            {
+              "id": "aic-fieldwork-machete",
+              "name": "AIC Fieldwork Machete",
+              "kind": "gear",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-138-9e576d135f64.webp",
+              "fields": {
+                "level": "70",
+                "type": "Kit",
+                "def": "+ 18",
+                "main_attribute": "+ 27",
+                "secondary_attribute": "+ 18",
+                "arts_dmg": "+ 18.60%"
+              },
+              "text": "AIC Fieldwork Machete\nLevel: 70\nType: Kit\nDEF: + 18\nGear Attributes\nMain Attribute :\n+ 27\nSecondary Attribute :\n+ 18\nArts DMG :\n+ 18.60%\nGear Set (3-PC)\nAIC Fieldwork\n+ . Wearer gains DMG Dealt +20% for all types of DMG, 10% DMG Reduction against all types of DMG, and Ultimate Gain Efficiency +10% .",
+              "status": "live",
+              "labels": []
+            },
+            {
+              "id": "aic-fieldwork-plate",
+              "name": "AIC Fieldwork Plate",
+              "kind": "gear",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-132-05cfe3f2214b.webp",
+              "fields": {
+                "level": "70",
+                "type": "Armor",
+                "def": "+ 48",
+                "main_attribute": "+ 74",
+                "secondary_attribute": "+ 49",
+                "ultimate_gain_efficiency": "+ 10.50%"
+              },
+              "text": "AIC Fieldwork Plate\nLevel: 70\nType: Armor\nDEF: + 48\nGear Attributes\nMain Attribute :\n+ 74\nSecondary Attribute :\n+ 49\nUltimate Gain Efficiency :\n+ 10.50%\nGear Set (3-PC)\nAIC Fieldwork\n+ . Wearer gains DMG Dealt +20% for all types of DMG, 10% DMG Reduction against all types of DMG, and Ultimate Gain Efficiency +10% .",
+              "status": "live",
+              "labels": []
+            },
+            {
+              "id": "aic-fieldwork-vest",
+              "name": "AIC Fieldwork Vest",
+              "kind": "gear",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-131-dc3d5de4850f.webp",
+              "fields": {
+                "level": "70",
+                "type": "Armor",
+                "def": "+ 48",
+                "secondary_attribute": "+ 8.90%",
+                "main_attribute": "+ 49"
+              },
+              "text": "AIC Fieldwork Vest\nLevel: 70\nType: Armor\nDEF: + 48\nGear Attributes\nSecondary Attribute :\n+ 74\nMain Attribute :\n+ 49\nSecondary Attribute :\n+ 8.90%\nGear Set (3-PC)\nAIC Fieldwork\n+ . Wearer gains DMG Dealt +20% for all types of DMG, 10% DMG Reduction against all types of DMG, and Ultimate Gain Efficiency +10% .",
+              "status": "live",
+              "labels": []
+            },
+            {
+              "id": "aic-fieldwork-wraps",
+              "name": "AIC Fieldwork Wraps",
+              "kind": "gear",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-133-a6fa11f3d9e8.webp",
+              "fields": {
+                "level": "70",
+                "type": "Gloves",
+                "def": "+ 36",
+                "secondary_attribute": "+ 14.80%",
+                "main_attribute": "+ 37"
+              },
+              "text": "AIC Fieldwork Wraps\nLevel: 70\nType: Gloves\nDEF: + 36\nGear Attributes\nSecondary Attribute :\n+ 55\nMain Attribute :\n+ 37\nSecondary Attribute :\n+ 14.80%\nGear Set (3-PC)\nAIC Fieldwork\n+ . Wearer gains DMG Dealt +20% for all types of DMG, 10% DMG Reduction against all types of DMG, and Ultimate Gain Efficiency +10% .",
               "status": "live",
               "labels": []
             },
@@ -162922,7 +163316,7 @@ var NYX_DB = {
                 "def": "+ 21",
                 "will": "+ 32",
                 "agility": "+ 21",
-                "battleSkillDmg": "+ 41.40%"
+                "battle_skill_dmg": "+ 41.40%"
               },
               "text": "Bonekrusha Figurine\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nWill :\n+ 32\nAgility :\n+ 21\nBattle Skill DMG :\n+ 41.40%\nGear Set (3-PC)\nBonekrusha\nAttack + 15% . When the wearer casts a combo skill, gain 1 stack of Bonekrushing Smash that grants DMG +30% to the next battle skill cast. Bonekrushing Smash can stack 2 time(s).",
               "status": "live",
@@ -162939,7 +163333,7 @@ var NYX_DB = {
                 "def": "+ 21",
                 "will": "+ 32",
                 "intellect": "+ 21",
-                "comboSkillDmg": "+ 41.40%"
+                "combo_skill_dmg": "+ 41.40%"
               },
               "text": "Bonekrusha Figurine T1\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nWill :\n+ 32\nIntellect :\n+ 21\nCombo Skill DMG :\n+ 41.40%\nGear Set (3-PC)\nBonekrusha\nAttack + 15% . When the wearer casts a combo skill, gain 1 stack of Bonekrushing Smash that grants DMG +30% to the next battle skill cast. Bonekrushing Smash can stack 2 time(s).",
               "status": "live",
@@ -162956,7 +163350,7 @@ var NYX_DB = {
                 "def": "+ 21",
                 "will": "+ 32",
                 "intellect": "+ 21",
-                "battleSkillDmg": "+ 41.40%"
+                "battle_skill_dmg": "+ 41.40%"
               },
               "text": "Bonekrusha Figurine T2\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nWill :\n+ 32\nIntellect :\n+ 21\nBattle Skill DMG :\n+ 41.40%\nGear Set (3-PC)\nBonekrusha\nAttack + 15% . When the wearer casts a combo skill, gain 1 stack of Bonekrushing Smash that grants DMG +30% to the next battle skill cast. Bonekrushing Smash can stack 2 time(s).",
               "status": "live",
@@ -162973,8 +163367,8 @@ var NYX_DB = {
                 "def": "+ 42",
                 "will": "+ 65",
                 "agility": "+ 43",
-                "cryoDmg": "+ 19.20%",
-                "electricDmg": "+ 19.20%"
+                "cryo_dmg": "+ 19.20%",
+                "electric_dmg": "+ 19.20%"
               },
               "text": "Bonekrusha Gloves\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nWill :\n+ 65\nAgility :\n+ 43\nCryo DMG :\n+ 19.20%\nElectric DMG :\n+ 19.20%\nGear Set (3-PC)\nBonekrusha\nAttack + 15% . When the wearer casts a combo skill, gain 1 stack of Bonekrushing Smash that grants DMG +30% to the next battle skill cast. Bonekrushing Smash can stack 2 time(s).",
               "status": "live",
@@ -162991,7 +163385,7 @@ var NYX_DB = {
                 "def": "+ 56",
                 "agility": "+ 87",
                 "intellect": "+ 58",
-                "ultimateGainEfficiency": "+ 12.30%"
+                "ultimate_gain_efficiency": "+ 12.30%"
               },
               "text": "Bonekrusha Heavy Armor\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nAgility :\n+ 87\nIntellect :\n+ 58\nUltimate Gain Efficiency :\n+ 12.30%\nGear Set (3-PC)\nBonekrusha\nAttack + 15% . When the wearer casts a combo skill, gain 1 stack of Bonekrushing Smash that grants DMG +30% to the next battle skill cast. Bonekrushing Smash can stack 2 time(s).",
               "status": "live",
@@ -163008,7 +163402,7 @@ var NYX_DB = {
                 "def": "+ 56",
                 "agility": "+ 87",
                 "strength": "+ 58",
-                "comboSkillDmg": "+ 20.70%"
+                "combo_skill_dmg": "+ 20.70%"
               },
               "text": "Bonekrusha Heavy Armor T1\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nAgility :\n+ 87\nStrength :\n+ 58\nCombo Skill DMG :\n+ 20.70%\nGear Set (3-PC)\nBonekrusha\nAttack + 15% . When the wearer casts a combo skill, gain 1 stack of Bonekrushing Smash that grants DMG +30% to the next battle skill cast. Bonekrushing Smash can stack 2 time(s).",
               "status": "live",
@@ -163025,8 +163419,8 @@ var NYX_DB = {
                 "def": "+ 56",
                 "agility": "+ 87",
                 "strength": "+ 58",
-                "cryoDmg": "+ 11.50%",
-                "electricDmg": "+ 11.50%"
+                "cryo_dmg": "+ 11.50%",
+                "electric_dmg": "+ 11.50%"
               },
               "text": "Bonekrusha Heavy Armor T2\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nAgility :\n+ 87\nStrength :\n+ 58\nCryo DMG :\n+ 11.50%\nElectric DMG :\n+ 11.50%\nGear Set (3-PC)\nBonekrusha\nAttack + 15% . When the wearer casts a combo skill, gain 1 stack of Bonekrushing Smash that grants DMG +30% to the next battle skill cast. Bonekrushing Smash can stack 2 time(s).",
               "status": "live",
@@ -163043,7 +163437,7 @@ var NYX_DB = {
                 "def": "+ 21",
                 "agility": "+ 32",
                 "strength": "+ 21",
-                "dmgBonusVsStaggered": "+ 41.40%"
+                "dmg_bonus_vs_staggered": "+ 41.40%"
               },
               "text": "Bonekrusha Mask\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nAgility :\n+ 32\nStrength :\n+ 21\nDMG Bonus vs Staggered :\n+ 41.40%\nGear Set (3-PC)\nBonekrusha\nAttack + 15% . When the wearer casts a combo skill, gain 1 stack of Bonekrushing Smash that grants DMG +30% to the next battle skill cast. Bonekrushing Smash can stack 2 time(s).",
               "status": "live",
@@ -163060,7 +163454,7 @@ var NYX_DB = {
                 "def": "+ 21",
                 "agility": "+ 32",
                 "strength": "+ 21",
-                "criticalRate": "+ 10.40%"
+                "critical_rate": "+ 10.40%"
               },
               "text": "Bonekrusha Mask T1\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nAgility :\n+ 32\nStrength :\n+ 21\nCritical Rate :\n+ 10.40%\nGear Set (3-PC)\nBonekrusha\nAttack + 15% . When the wearer casts a combo skill, gain 1 stack of Bonekrushing Smash that grants DMG +30% to the next battle skill cast. Bonekrushing Smash can stack 2 time(s).",
               "status": "live",
@@ -163077,7 +163471,7 @@ var NYX_DB = {
                 "def": "+ 21",
                 "agility": "+ 32",
                 "strength": "+ 21",
-                "battleSkillDmg": "+ 41.40%"
+                "battle_skill_dmg": "+ 41.40%"
               },
               "text": "Bonekrusha Mask T2\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nAgility :\n+ 32\nStrength :\n+ 21\nBattle Skill DMG :\n+ 41.40%\nGear Set (3-PC)\nBonekrusha\nAttack + 15% . When the wearer casts a combo skill, gain 1 stack of Bonekrushing Smash that grants DMG +30% to the next battle skill cast. Bonekrushing Smash can stack 2 time(s).",
               "status": "live",
@@ -163094,7 +163488,7 @@ var NYX_DB = {
                 "def": "+ 56",
                 "will": "+ 87",
                 "strength": "+ 58",
-                "comboSkillDmg": "+ 20.70%"
+                "combo_skill_dmg": "+ 20.70%"
               },
               "text": "Bonekrusha Poncho\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nWill :\n+ 87\nStrength :\n+ 58\nCombo Skill DMG :\n+ 20.70%\nGear Set (3-PC)\nBonekrusha\nAttack + 15% . When the wearer casts a combo skill, gain 1 stack of Bonekrushing Smash that grants DMG +30% to the next battle skill cast. Bonekrushing Smash can stack 2 time(s).",
               "status": "live",
@@ -163104,14 +163498,14 @@ var NYX_DB = {
               "id": "bonekrusha-poncho-t1",
               "name": "Bonekrusha Poncho T1",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-15-926e3820f36c.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-139-6b91c70d34fd.webp",
               "fields": {
                 "level": "70",
                 "type": "Armor",
                 "def": "+ 56",
                 "will": "+ 87",
                 "agility": "+ 58",
-                "ultimateGainEfficiency": "+ 12.30%"
+                "ultimate_gain_efficiency": "+ 12.30%"
               },
               "text": "Bonekrusha Poncho T1\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nWill :\n+ 87\nAgility :\n+ 58\nUltimate Gain Efficiency :\n+ 12.30%\nGear Set (3-PC)\nBonekrusha\nAttack + 15% . When the wearer casts a combo skill, gain 1 stack of Bonekrushing Smash that grants DMG +30% to the next battle skill cast. Bonekrushing Smash can stack 2 time(s).",
               "status": "live",
@@ -163121,15 +163515,15 @@ var NYX_DB = {
               "id": "bonekrusha-wristband",
               "name": "Bonekrusha Wristband",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-17-6cc83aa8f2b7.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-15-926e3820f36c.webp",
               "fields": {
                 "level": "70",
                 "type": "Gloves",
                 "def": "+ 42",
                 "strength": "+ 65",
                 "agility": "+ 43",
-                "heatDmg": "+ 19.20%",
-                "natureDmg": "+ 19.20%"
+                "heat_dmg": "+ 19.20%",
+                "nature_dmg": "+ 19.20%"
               },
               "text": "Bonekrusha Wristband\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nStrength :\n+ 65\nAgility :\n+ 43\nHeat DMG :\n+ 19.20%\nNature DMG :\n+ 19.20%\nGear Set (3-PC)\nBonekrusha\nAttack + 15% . When the wearer casts a combo skill, gain 1 stack of Bonekrushing Smash that grants DMG +30% to the next battle skill cast. Bonekrushing Smash can stack 2 time(s).",
               "status": "live",
@@ -163139,15 +163533,15 @@ var NYX_DB = {
               "id": "bonekrusha-wristband-t1",
               "name": "Bonekrusha Wristband T1",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-94-bc879c2c123e.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-140-a7d37211c7be.webp",
               "fields": {
                 "level": "70",
                 "type": "Gloves",
                 "def": "+ 42",
                 "agility": "+ 65",
                 "strength": "+ 43",
-                "cryoDmg": "+ 19.20%",
-                "electricDmg": "+ 19.20%"
+                "cryo_dmg": "+ 19.20%",
+                "electric_dmg": "+ 19.20%"
               },
               "text": "Bonekrusha Wristband T1\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nAgility :\n+ 65\nStrength :\n+ 43\nCryo DMG :\n+ 19.20%\nElectric DMG :\n+ 19.20%\nGear Set (3-PC)\nBonekrusha\nAttack + 15% . When the wearer casts a combo skill, gain 1 stack of Bonekrushing Smash that grants DMG +30% to the next battle skill cast. Bonekrushing Smash can stack 2 time(s).",
               "status": "live",
@@ -163157,14 +163551,14 @@ var NYX_DB = {
               "id": "eternal-xiranite-armor",
               "name": "Eternal Xiranite Armor",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-19-3bb18ad35648.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-142-5f92f82aa557.webp",
               "fields": {
                 "level": "70",
                 "type": "Armor",
                 "def": "+ 56",
                 "will": "+ 87",
                 "intellect": "+ 58",
-                "artsIntensity": "+ 20"
+                "arts_intensity": "+ 20"
               },
               "text": "Eternal Xiranite Armor\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nWill :\n+ 87\nIntellect :\n+ 58\nArts Intensity :\n+ 20\nGear Set (3-PC)\nEternal Xiranite\nFlat HP + 1000 . When the wearer applies Amp , Protected , Susceptible , or Weakened , other teammates also gain DMG Dealt +16% for 15s . This effect cannot stack.",
               "status": "live",
@@ -163174,16 +163568,32 @@ var NYX_DB = {
               "id": "eternal-xiranite-auxiliary-arm",
               "name": "Eternal Xiranite Auxiliary Arm",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-23-e5ea2a02805a.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-143-20b29045997a.webp",
               "fields": {
                 "level": "70",
                 "type": "Kit",
                 "def": "+ 21",
                 "will": "+ 32",
                 "intellect": "+ 21",
-                "ultimateGainEfficiency": "+ 24.60%"
+                "ultimate_gain_efficiency": "+ 24.60%"
               },
               "text": "Eternal Xiranite Auxiliary Arm\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nWill :\n+ 32\nIntellect :\n+ 21\nUltimate Gain Efficiency :\n+ 24.60%\nGear Set (3-PC)\nEternal Xiranite\nFlat HP + 1000 . When the wearer applies Amp , Protected , Susceptible , or Weakened , other teammates also gain DMG Dealt +16% for 15s . This effect cannot stack.",
+              "status": "live",
+              "labels": []
+            },
+            {
+              "id": "eternal-xiranite-bracing-slab",
+              "name": "Eternal Xiranite Bracing Slab",
+              "kind": "gear",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-17-6cc83aa8f2b7.webp",
+              "fields": {
+                "level": "70",
+                "type": "Kit",
+                "def": "+ 21",
+                "will": "+ 41",
+                "secondary_attribute": "+ 20.70%"
+              },
+              "text": "Eternal Xiranite Bracing Slab\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nWill :\n+ 41\nSecondary Attribute :\n+ 20.70%\nGear Set (3-PC)\nEternal Xiranite\nFlat HP + 1000 . When the wearer applies Amp , Protected , Susceptible , or Weakened , other teammates also gain DMG Dealt +16% for 15s . This effect cannot stack.",
               "status": "live",
               "labels": []
             },
@@ -163191,14 +163601,14 @@ var NYX_DB = {
               "id": "eternal-xiranite-gloves",
               "name": "Eternal Xiranite Gloves",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-24-0f5968f8403f.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-141-e4bb80410b99.webp",
               "fields": {
                 "level": "70",
                 "type": "Gloves",
                 "def": "+ 42",
                 "intellect": "+ 65",
                 "strength": "+ 43",
-                "ultimateGainEfficiency": "+ 20.50%"
+                "ultimate_gain_efficiency": "+ 20.50%"
               },
               "text": "Eternal Xiranite Gloves\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nIntellect :\n+ 65\nStrength :\n+ 43\nUltimate Gain Efficiency :\n+ 20.50%\nGear Set (3-PC)\nEternal Xiranite\nFlat HP + 1000 . When the wearer applies Amp , Protected , Susceptible , or Weakened , other teammates also gain DMG Dealt +16% for 15s . This effect cannot stack.",
               "status": "live",
@@ -163208,16 +163618,66 @@ var NYX_DB = {
               "id": "eternal-xiranite-gloves-t1",
               "name": "Eternal Xiranite Gloves T1",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-26-ae5d588d4460.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-94-bc879c2c123e.webp",
               "fields": {
                 "level": "70",
                 "type": "Gloves",
                 "def": "+ 42",
                 "intellect": "+ 65",
                 "will": "+ 43",
-                "ultimateGainEfficiency": "+ 20.50%"
+                "ultimate_gain_efficiency": "+ 20.50%"
               },
               "text": "Eternal Xiranite Gloves T1\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nIntellect :\n+ 65\nWill :\n+ 43\nUltimate Gain Efficiency :\n+ 20.50%\nGear Set (3-PC)\nEternal Xiranite\nFlat HP + 1000 . When the wearer applies Amp , Protected , Susceptible , or Weakened , other teammates also gain DMG Dealt +16% for 15s . This effect cannot stack.",
+              "status": "live",
+              "labels": []
+            },
+            {
+              "id": "eternal-xiranite-hands",
+              "name": "Eternal Xiranite Hands",
+              "kind": "gear",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-19-3bb18ad35648.webp",
+              "fields": {
+                "level": "70",
+                "type": "Gloves",
+                "def": "+ 42",
+                "will": "+ 65",
+                "agility": "+ 43",
+                "ultimate_gain_efficiency": "+ 20.50%"
+              },
+              "text": "Eternal Xiranite Hands\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nWill :\n+ 65\nAgility :\n+ 43\nUltimate Gain Efficiency :\n+ 20.50%\nGear Set (3-PC)\nEternal Xiranite\nFlat HP + 1000 . When the wearer applies Amp , Protected , Susceptible , or Weakened , other teammates also gain DMG Dealt +16% for 15s . This effect cannot stack.",
+              "status": "live",
+              "labels": []
+            },
+            {
+              "id": "eternal-xiranite-light-armor",
+              "name": "Eternal Xiranite Light Armor",
+              "kind": "gear",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-23-e5ea2a02805a.webp",
+              "fields": {
+                "level": "70",
+                "type": "Armor",
+                "def": "+ 56",
+                "will": "+ 110",
+                "ultimate_gain_efficiency": "+ 12.30%"
+              },
+              "text": "Eternal Xiranite Light Armor\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nWill :\n+ 110\nUltimate Gain Efficiency :\n+ 12.30%\nGear Set (3-PC)\nEternal Xiranite\nFlat HP + 1000 . When the wearer applies Amp , Protected , Susceptible , or Weakened , other teammates also gain DMG Dealt +16% for 15s . This effect cannot stack.",
+              "status": "live",
+              "labels": []
+            },
+            {
+              "id": "eternal-xiranite-light-armor-t1",
+              "name": "Eternal Xiranite Light Armor T1",
+              "kind": "gear",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-24-0f5968f8403f.webp",
+              "fields": {
+                "level": "70",
+                "type": "Armor",
+                "def": "+ 56",
+                "intellect": "+ 87",
+                "will": "+ 58",
+                "secondary_attribute": "+ 10.40%"
+              },
+              "text": "Eternal Xiranite Light Armor T1\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nIntellect :\n+ 87\nWill :\n+ 58\nSecondary Attribute :\n+ 10.40%\nGear Set (3-PC)\nEternal Xiranite\nFlat HP + 1000 . When the wearer applies Amp , Protected , Susceptible , or Weakened , other teammates also gain DMG Dealt +16% for 15s . This effect cannot stack.",
               "status": "live",
               "labels": []
             },
@@ -163225,14 +163685,14 @@ var NYX_DB = {
               "id": "eternal-xiranite-power-core",
               "name": "Eternal Xiranite Power Core",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-106-755c2be029c8.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-26-ae5d588d4460.webp",
               "fields": {
                 "level": "70",
                 "type": "Kit",
                 "def": "+ 21",
                 "intellect": "+ 32",
                 "strength": "+ 21",
-                "ultimateGainEfficiency": "+ 24.60%"
+                "ultimate_gain_efficiency": "+ 24.60%"
               },
               "text": "Eternal Xiranite Power Core\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nIntellect :\n+ 32\nStrength :\n+ 21\nUltimate Gain Efficiency :\n+ 24.60%\nGear Set (3-PC)\nEternal Xiranite\nFlat HP + 1000 . When the wearer applies Amp , Protected , Susceptible , or Weakened , other teammates also gain DMG Dealt +16% for 15s . This effect cannot stack.",
               "status": "live",
@@ -163242,16 +163702,33 @@ var NYX_DB = {
               "id": "eternal-xiranite-power-core-t1",
               "name": "Eternal Xiranite Power Core T1",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-108-aad43a732a97.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-106-755c2be029c8.webp",
               "fields": {
                 "level": "70",
                 "type": "Kit",
                 "def": "+ 21",
                 "intellect": "+ 32",
                 "will": "+ 21",
-                "treatmentBonus": "+ 20.70%"
+                "treatment_bonus": "+ 20.70%"
               },
               "text": "Eternal Xiranite Power Core T1\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nIntellect :\n+ 32\nWill :\n+ 21\nTreatment Bonus :\n+ 20.70%\nGear Set (3-PC)\nEternal Xiranite\nFlat HP + 1000 . When the wearer applies Amp , Protected , Susceptible , or Weakened , other teammates also gain DMG Dealt +16% for 15s . This effect cannot stack.",
+              "status": "live",
+              "labels": []
+            },
+            {
+              "id": "eternal-xiranite-wraps",
+              "name": "Eternal Xiranite Wraps",
+              "kind": "gear",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-108-aad43a732a97.webp",
+              "fields": {
+                "level": "70",
+                "type": "Gloves",
+                "def": "+ 42",
+                "will": "+ 65",
+                "intellect": "+ 43",
+                "ultimate_gain_efficiency": "+ 20.50%"
+              },
+              "text": "Eternal Xiranite Wraps\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nWill :\n+ 65\nIntellect :\n+ 43\nUltimate Gain Efficiency :\n+ 20.50%\nGear Set (3-PC)\nEternal Xiranite\nFlat HP + 1000 . When the wearer applies Amp , Protected , Susceptible , or Weakened , other teammates also gain DMG Dealt +16% for 15s . This effect cannot stack.",
               "status": "live",
               "labels": []
             },
@@ -163265,7 +163742,7 @@ var NYX_DB = {
                 "type": "Kit",
                 "def": "+ 21",
                 "strength": "+ 41",
-                "ultimateDmg": "+ 51.80%"
+                "ultimate_dmg": "+ 51.80%"
               },
               "text": "Frontiers Analyzer\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nStrength :\n+ 41\nUltimate DMG :\n+ 51.80%\nGear Set (3-PC)\nFrontiers\nCombo Skill CDR + 15% . When the wearer recovers SP with a skill, the team gains DMG +16% for 12s . This effect cannot stack.",
               "status": "live",
@@ -163282,7 +163759,7 @@ var NYX_DB = {
                 "def": "+ 56",
                 "strength": "+ 87",
                 "intellect": "+ 58",
-                "ultimateDmg": "+ 25.90%"
+                "ultimate_dmg": "+ 25.90%"
               },
               "text": "Frontiers Armor\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nStrength :\n+ 87\nIntellect :\n+ 58\nUltimate DMG :\n+ 25.90%\nGear Set (3-PC)\nFrontiers\nCombo Skill CDR + 15% . When the wearer recovers SP with a skill, the team gains DMG +16% for 12s . This effect cannot stack.",
               "status": "live",
@@ -163299,7 +163776,7 @@ var NYX_DB = {
                 "def": "+ 56",
                 "strength": "+ 87",
                 "agility": "+ 58",
-                "battleSkillDmg": "+ 20.70%"
+                "battle_skill_dmg": "+ 20.70%"
               },
               "text": "Frontiers Armor T1\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nStrength :\n+ 87\nAgility :\n+ 58\nBattle Skill DMG :\n+ 20.70%\nGear Set (3-PC)\nFrontiers\nCombo Skill CDR + 15% . When the wearer recovers SP with a skill, the team gains DMG +16% for 12s . This effect cannot stack.",
               "status": "live",
@@ -163316,7 +163793,7 @@ var NYX_DB = {
                 "def": "+ 56",
                 "agility": "+ 87",
                 "intellect": "+ 58",
-                "battleSkillDmg": "+ 20.70%"
+                "battle_skill_dmg": "+ 20.70%"
               },
               "text": "Frontiers Armor T2\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nAgility :\n+ 87\nIntellect :\n+ 58\nBattle Skill DMG :\n+ 20.70%\nGear Set (3-PC)\nFrontiers\nCombo Skill CDR + 15% . When the wearer recovers SP with a skill, the team gains DMG +16% for 12s . This effect cannot stack.",
               "status": "live",
@@ -163333,7 +163810,7 @@ var NYX_DB = {
                 "def": "+ 56",
                 "agility": "+ 87",
                 "intellect": "+ 58",
-                "secondaryAttribute": "+ 10.40%"
+                "secondary_attribute": "+ 10.40%"
               },
               "text": "Frontiers Armor T3\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nAgility :\n+ 87\nIntellect :\n+ 58\nSecondary Attribute :\n+ 10.40%\nGear Set (3-PC)\nFrontiers\nCombo Skill CDR + 15% . When the wearer recovers SP with a skill, the team gains DMG +16% for 12s . This effect cannot stack.",
               "status": "live",
@@ -163350,7 +163827,7 @@ var NYX_DB = {
                 "def": "+ 42",
                 "agility": "+ 65",
                 "intellect": "+ 43",
-                "battleSkillDmg": "+ 34.50%"
+                "battle_skill_dmg": "+ 34.50%"
               },
               "text": "Frontiers Blight RES Gloves\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nAgility :\n+ 65\nIntellect :\n+ 43\nBattle Skill DMG :\n+ 34.50%\nGear Set (3-PC)\nFrontiers\nCombo Skill CDR + 15% . When the wearer recovers SP with a skill, the team gains DMG +16% for 12s . This effect cannot stack.",
               "status": "live",
@@ -163367,7 +163844,7 @@ var NYX_DB = {
                 "def": "+ 21",
                 "strength": "+ 32",
                 "agility": "+ 21",
-                "comboSkillDmg": "+ 41.40%"
+                "combo_skill_dmg": "+ 41.40%"
               },
               "text": "Frontiers Comm\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nStrength :\n+ 32\nAgility :\n+ 21\nCombo Skill DMG :\n+ 41.40%\nGear Set (3-PC)\nFrontiers\nCombo Skill CDR + 15% . When the wearer recovers SP with a skill, the team gains DMG +16% for 12s . This effect cannot stack.",
               "status": "live",
@@ -163384,8 +163861,8 @@ var NYX_DB = {
                 "def": "+ 21",
                 "strength": "+ 32",
                 "intellect": "+ 21",
-                "cryoDmg": "+ 23.00%",
-                "electricDmg": "+ 23.00%"
+                "cryo_dmg": "+ 23.00%",
+                "electric_dmg": "+ 23.00%"
               },
               "text": "Frontiers Comm T1\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nStrength :\n+ 32\nIntellect :\n+ 21\nCryo DMG :\n+ 23.00%\nElectric DMG :\n+ 23.00%\nGear Set (3-PC)\nFrontiers\nCombo Skill CDR + 15% . When the wearer recovers SP with a skill, the team gains DMG +16% for 12s . This effect cannot stack.",
               "status": "live",
@@ -163402,7 +163879,7 @@ var NYX_DB = {
                 "def": "+ 21",
                 "agility": "+ 32",
                 "intellect": "+ 21",
-                "secondaryAttribute": "+ 20.70%"
+                "secondary_attribute": "+ 20.70%"
               },
               "text": "Frontiers Extra O2 Tube\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nAgility :\n+ 32\nIntellect :\n+ 21\nSecondary Attribute :\n+ 20.70%\nGear Set (3-PC)\nFrontiers\nCombo Skill CDR + 15% . When the wearer recovers SP with a skill, the team gains DMG +16% for 12s . This effect cannot stack.",
               "status": "live",
@@ -163419,7 +163896,7 @@ var NYX_DB = {
                 "def": "+ 21",
                 "intellect": "+ 32",
                 "agility": "+ 21",
-                "secondaryAttribute": "+ 20.70%"
+                "secondary_attribute": "+ 20.70%"
               },
               "text": "Frontiers Extra O2 Tube T1\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nIntellect :\n+ 32\nAgility :\n+ 21\nSecondary Attribute :\n+ 20.70%\nGear Set (3-PC)\nFrontiers\nCombo Skill CDR + 15% . When the wearer recovers SP with a skill, the team gains DMG +16% for 12s . This effect cannot stack.",
               "status": "live",
@@ -163436,7 +163913,7 @@ var NYX_DB = {
                 "def": "+ 42",
                 "will": "+ 65",
                 "strength": "+ 43",
-                "allSkillDmg": "+ 23.00%"
+                "all_skill_dmg": "+ 23.00%"
               },
               "text": "Frontiers Fiber Gloves\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nWill :\n+ 65\nStrength :\n+ 43\nAll Skill DMG :\n+ 23.00%\nGear Set (3-PC)\nFrontiers\nCombo Skill CDR + 15% . When the wearer recovers SP with a skill, the team gains DMG +16% for 12s . This effect cannot stack.",
               "status": "live",
@@ -163453,7 +163930,7 @@ var NYX_DB = {
                 "def": "+ 42",
                 "intellect": "+ 65",
                 "agility": "+ 43",
-                "ultimateGainEfficiency": "+ 20.50%"
+                "ultimate_gain_efficiency": "+ 20.50%"
               },
               "text": "Frontiers Fiber Gloves T1\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nIntellect :\n+ 65\nAgility :\n+ 43\nUltimate Gain Efficiency :\n+ 20.50%\nGear Set (3-PC)\nFrontiers\nCombo Skill CDR + 15% . When the wearer recovers SP with a skill, the team gains DMG +16% for 12s . This effect cannot stack.",
               "status": "live",
@@ -163469,7 +163946,7 @@ var NYX_DB = {
                 "type": "Kit",
                 "def": "+ 21",
                 "will": "+ 41",
-                "physicalDmg": "+ 23.00%"
+                "physical_dmg": "+ 23.00%"
               },
               "text": "Frontiers O2 Tube\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nWill :\n+ 41\nPhysical DMG :\n+ 23.00%\nGear Set (3-PC)\nFrontiers\nCombo Skill CDR + 15% . When the wearer recovers SP with a skill, the team gains DMG +16% for 12s . This effect cannot stack.",
               "status": "live",
@@ -163486,7 +163963,7 @@ var NYX_DB = {
                 "def": "+ 56",
                 "intellect": "+ 87",
                 "agility": "+ 58",
-                "ultimateGainEfficiency": "+ 12.30%"
+                "ultimate_gain_efficiency": "+ 12.30%"
               },
               "text": "Frontiers Protection Suit\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nIntellect :\n+ 87\nAgility :\n+ 58\nUltimate Gain Efficiency :\n+ 12.30%\nGear Set (3-PC)\nFrontiers\nCombo Skill CDR + 15% . When the wearer recovers SP with a skill, the team gains DMG +16% for 12s . This effect cannot stack.",
               "status": "live",
@@ -163496,14 +163973,14 @@ var NYX_DB = {
               "id": "grizzled-edge-armor",
               "name": "Grizzled Edge Armor",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-31-442eec6cd2fa.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-145-f295e552d41f.webp",
               "fields": {
                 "level": "70",
                 "type": "Armor",
                 "def": "+ 56",
                 "strength": "+ 87",
                 "will": "+ 58",
-                "physicalDmg": "+ 11.50%"
+                "physical_dmg": "+ 11.50%"
               },
               "text": "Grizzled Edge Armor\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nStrength :\n+ 87\nWill :\n+ 58\nPhysical DMG :\n+ 11.50%\nGear Set (3-PC)\nGrizzled Edge\nAttack + 8% . When the wearer applies Crush or Breach the wearer gains Physical DMG Dealt + [ 6% x Max Number of Vulnerability stacks consumed from one enemy] for 20s . If the target already has Physical Susceptibility , is Staggered, or has attached Originium Crystals, increase the aforementioned buff to 1.5 times. This buff cannot stack.",
               "status": "live",
@@ -163513,14 +163990,14 @@ var NYX_DB = {
               "id": "grizzled-edge-armor-t1",
               "name": "Grizzled Edge Armor T1",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-32-37fc381e310b.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-144-0489a633e0ef.webp",
               "fields": {
                 "level": "70",
                 "type": "Armor",
                 "def": "+ 56",
                 "agility": "+ 87",
                 "strength": "+ 58",
-                "artsIntensity": "+ 20"
+                "arts_intensity": "+ 20"
               },
               "text": "Grizzled Edge Armor T1\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nAgility :\n+ 87\nStrength :\n+ 58\nArts Intensity :\n+ 20\nGear Set (3-PC)\nGrizzled Edge\nAttack + 8% . When the wearer applies Crush or Breach the wearer gains Physical DMG Dealt + [ 6% x Max Number of Vulnerability stacks consumed from one enemy] for 20s . If the target already has Physical Susceptibility , is Staggered, or has attached Originium Crystals, increase the aforementioned buff to 1.5 times. This buff cannot stack.",
               "status": "live",
@@ -163530,14 +164007,14 @@ var NYX_DB = {
               "id": "grizzled-edge-gauntlets",
               "name": "Grizzled Edge Gauntlets",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-33-7f78591c2d4b.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-31-442eec6cd2fa.webp",
               "fields": {
                 "level": "70",
                 "type": "Gloves",
                 "def": "+ 42",
                 "strength": "+ 65",
                 "will": "+ 43",
-                "artsIntensity": "+ 34"
+                "arts_intensity": "+ 34"
               },
               "text": "Grizzled Edge Gauntlets\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nStrength :\n+ 65\nWill :\n+ 43\nArts Intensity :\n+ 34\nGear Set (3-PC)\nGrizzled Edge\nAttack + 8% . When the wearer applies Crush or Breach the wearer gains Physical DMG Dealt + [ 6% x Max Number of Vulnerability stacks consumed from one enemy] for 20s . If the target already has Physical Susceptibility , is Staggered, or has attached Originium Crystals, increase the aforementioned buff to 1.5 times. This buff cannot stack.",
               "status": "live",
@@ -163547,14 +164024,14 @@ var NYX_DB = {
               "id": "grizzled-edge-gauntlets-t1",
               "name": "Grizzled Edge Gauntlets T1",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-34-80cdf126161f.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-32-37fc381e310b.webp",
               "fields": {
                 "level": "70",
                 "type": "Gloves",
                 "def": "+ 42",
                 "agility": "+ 65",
                 "strength": "+ 43",
-                "artsIntensity": "+ 34"
+                "arts_intensity": "+ 34"
               },
               "text": "Grizzled Edge Gauntlets T1\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nAgility :\n+ 65\nStrength :\n+ 43\nArts Intensity :\n+ 34\nGear Set (3-PC)\nGrizzled Edge\nAttack + 8% . When the wearer applies Crush or Breach the wearer gains Physical DMG Dealt + [ 6% x Max Number of Vulnerability stacks consumed from one enemy] for 20s . If the target already has Physical Susceptibility , is Staggered, or has attached Originium Crystals, increase the aforementioned buff to 1.5 times. This buff cannot stack.",
               "status": "live",
@@ -163564,14 +164041,14 @@ var NYX_DB = {
               "id": "grizzled-edge-push-knife",
               "name": "Grizzled Edge Push Knife",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-35-cccbb53f1df5.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-33-7f78591c2d4b.webp",
               "fields": {
                 "level": "70",
                 "type": "Kit",
                 "def": "+ 21",
                 "strength": "+ 32",
                 "will": "+ 21",
-                "physicalDmg": "+ 23.00%"
+                "physical_dmg": "+ 23.00%"
               },
               "text": "Grizzled Edge Push Knife\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nStrength :\n+ 32\nWill :\n+ 21\nPhysical DMG :\n+ 23.00%\nGear Set (3-PC)\nGrizzled Edge\nAttack + 8% . When the wearer applies Crush or Breach the wearer gains Physical DMG Dealt + [ 6% x Max Number of Vulnerability stacks consumed from one enemy] for 20s . If the target already has Physical Susceptibility , is Staggered, or has attached Originium Crystals, increase the aforementioned buff to 1.5 times. This buff cannot stack.",
               "status": "live",
@@ -163581,14 +164058,14 @@ var NYX_DB = {
               "id": "grizzled-edge-push-knife-t1",
               "name": "Grizzled Edge Push Knife T1",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-85-9f00e158cd76.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-34-80cdf126161f.webp",
               "fields": {
                 "level": "70",
                 "type": "Kit",
                 "def": "+ 21",
                 "agility": "+ 32",
                 "strength": "+ 21",
-                "physicalDmg": "+ 23.00%"
+                "physical_dmg": "+ 23.00%"
               },
               "text": "Grizzled Edge Push Knife T1\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nAgility :\n+ 32\nStrength :\n+ 21\nPhysical DMG :\n+ 23.00%\nGear Set (3-PC)\nGrizzled Edge\nAttack + 8% . When the wearer applies Crush or Breach the wearer gains Physical DMG Dealt + [ 6% x Max Number of Vulnerability stacks consumed from one enemy] for 20s . If the target already has Physical Susceptibility , is Staggered, or has attached Originium Crystals, increase the aforementioned buff to 1.5 times. This buff cannot stack.",
               "status": "live",
@@ -163598,15 +164075,15 @@ var NYX_DB = {
               "id": "hanging-river-02-tube",
               "name": "Hanging River 02 Tube",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-37-e9a04471a2be.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-35-cccbb53f1df5.webp",
               "fields": {
                 "level": "70",
                 "type": "Kit",
                 "def": "+ 21",
                 "strength": "+ 32",
                 "will": "+ 21",
-                "cryoDmg": "+ 23.00%",
-                "electricDmg": "+ 23.00%"
+                "cryo_dmg": "+ 23.00%",
+                "electric_dmg": "+ 23.00%"
               },
               "text": "Hanging River 02 Tube\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nStrength :\n+ 32\nWill :\n+ 21\nCryo DMG :\n+ 23.00%\nElectric DMG :\n+ 23.00%\nGear Set (3-PC)\nTide Surge\nAll Skill DMG + 20% . After the wearer applies 2 or more stacks of Arts Infliction on the enemy, the wearer gains Arts DMG dealt +35% for 15s . This effect cannot stack.",
               "status": "live",
@@ -163616,15 +164093,15 @@ var NYX_DB = {
               "id": "hot-work-exo-rig",
               "name": "Hot Work Exo-Rig",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-38-0407aec52976.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-85-9f00e158cd76.webp",
               "fields": {
                 "level": "70",
                 "type": "Armor",
                 "def": "+ 56",
                 "intellect": "+ 87",
                 "will": "+ 58",
-                "heatDmg": "+ 11.50%",
-                "natureDmg": "+ 11.50%"
+                "heat_dmg": "+ 11.50%",
+                "nature_dmg": "+ 11.50%"
               },
               "text": "Hot Work Exo-Rig\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nIntellect :\n+ 87\nWill :\n+ 58\nHeat DMG :\n+ 11.50%\nNature DMG :\n+ 11.50%\nGear Set (3-PC)\nHot Work\nArts Intensity + 30 . When the wearer applies Combustion , Heat DMG +50% for 10s . When the wearer applies Corrosion , Nature DMG +50% for 10s . The aforementioned effects cannot stack.",
               "status": "live",
@@ -163634,15 +164111,15 @@ var NYX_DB = {
               "id": "hot-work-exoskeleton",
               "name": "Hot Work Exoskeleton",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-39-3baf65ff6288.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-37-e9a04471a2be.webp",
               "fields": {
                 "level": "70",
                 "type": "Armor",
                 "def": "+ 56",
                 "strength": "+ 87",
                 "agility": "+ 58",
-                "heatDmg": "+ 11.50%",
-                "natureDmg": "+ 11.50%"
+                "heat_dmg": "+ 11.50%",
+                "nature_dmg": "+ 11.50%"
               },
               "text": "Hot Work Exoskeleton\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nStrength :\n+ 87\nAgility :\n+ 58\nHeat DMG :\n+ 11.50%\nNature DMG :\n+ 11.50%\nGear Set (3-PC)\nHot Work\nArts Intensity + 30 . When the wearer applies Combustion , Heat DMG +50% for 10s . When the wearer applies Corrosion , Nature DMG +50% for 10s . The aforementioned effects cannot stack.",
               "status": "live",
@@ -163652,15 +164129,15 @@ var NYX_DB = {
               "id": "hot-work-gauntlets",
               "name": "Hot Work Gauntlets",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-40-4074ead03122.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-146-22568a619e39.webp",
               "fields": {
                 "level": "70",
                 "type": "Gloves",
                 "def": "+ 42",
                 "intellect": "+ 65",
                 "strength": "+ 43",
-                "heatDmg": "+ 19.20%",
-                "natureDmg": "+ 19.20%"
+                "heat_dmg": "+ 19.20%",
+                "nature_dmg": "+ 19.20%"
               },
               "text": "Hot Work Gauntlets\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nIntellect :\n+ 65\nStrength :\n+ 43\nHeat DMG :\n+ 19.20%\nNature DMG :\n+ 19.20%\nGear Set (3-PC)\nHot Work\nArts Intensity + 30 . When the wearer applies Combustion , Heat DMG +50% for 10s . When the wearer applies Corrosion , Nature DMG +50% for 10s . The aforementioned effects cannot stack.",
               "status": "live",
@@ -163670,15 +164147,15 @@ var NYX_DB = {
               "id": "hot-work-gauntlets-t1",
               "name": "Hot Work Gauntlets T1",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-41-120fdd57c9bd.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-38-0407aec52976.webp",
               "fields": {
                 "level": "70",
                 "type": "Gloves",
                 "def": "+ 42",
                 "will": "+ 65",
                 "intellect": "+ 43",
-                "heatDmg": "+ 19.20%",
-                "natureDmg": "+ 19.20%"
+                "heat_dmg": "+ 19.20%",
+                "nature_dmg": "+ 19.20%"
               },
               "text": "Hot Work Gauntlets T1\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nWill :\n+ 65\nIntellect :\n+ 43\nHeat DMG :\n+ 19.20%\nNature DMG :\n+ 19.20%\nGear Set (3-PC)\nHot Work\nArts Intensity + 30 . When the wearer applies Combustion , Heat DMG +50% for 10s . When the wearer applies Corrosion , Nature DMG +50% for 10s . The aforementioned effects cannot stack.",
               "status": "live",
@@ -163688,16 +164165,51 @@ var NYX_DB = {
               "id": "hot-work-gloves",
               "name": "Hot Work Gloves",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-42-da7a61fbb290.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-147-db17783dfcb0.webp",
               "fields": {
                 "level": "70",
                 "type": "Gloves",
                 "def": "+ 42",
                 "strength": "+ 65",
                 "will": "+ 43",
-                "artsIntensity": "+ 34"
+                "arts_intensity": "+ 34"
               },
               "text": "Hot Work Gloves\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nStrength :\n+ 65\nWill :\n+ 43\nArts Intensity :\n+ 34\nGear Set (3-PC)\nHot Work\nArts Intensity + 30 . When the wearer applies Combustion , Heat DMG +50% for 10s . When the wearer applies Corrosion , Nature DMG +50% for 10s . The aforementioned effects cannot stack.",
+              "status": "live",
+              "labels": []
+            },
+            {
+              "id": "hot-work-hands-ppe",
+              "name": "Hot Work Hands PPE",
+              "kind": "gear",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-39-3baf65ff6288.webp",
+              "fields": {
+                "level": "70",
+                "type": "Gloves",
+                "def": "+ 42",
+                "intellect": "+ 65",
+                "will": "+ 43",
+                "heat_dmg": "+ 19.20%",
+                "nature_dmg": "+ 19.20%"
+              },
+              "text": "Hot Work Hands PPE\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nIntellect :\n+ 65\nWill :\n+ 43\nHeat DMG :\n+ 19.20%\nNature DMG :\n+ 19.20%\nGear Set (3-PC)\nHot Work\nArts Intensity + 30 . When the wearer applies Combustion , Heat DMG +50% for 10s . When the wearer applies Corrosion , Nature DMG +50% for 10s . The aforementioned effects cannot stack.",
+              "status": "live",
+              "labels": []
+            },
+            {
+              "id": "hot-work-insulation-slab",
+              "name": "Hot Work Insulation Slab",
+              "kind": "gear",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-40-4074ead03122.webp",
+              "fields": {
+                "level": "70",
+                "type": "Kit",
+                "def": "+ 21",
+                "intellect": "+ 32",
+                "will": "+ 21",
+                "all_skill_dmg": "+ 27.60%"
+              },
+              "text": "Hot Work Insulation Slab\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nIntellect :\n+ 32\nWill :\n+ 21\nAll Skill DMG :\n+ 27.60%\nGear Set (3-PC)\nHot Work\nArts Intensity + 30 . When the wearer applies Combustion , Heat DMG +50% for 10s . When the wearer applies Corrosion , Nature DMG +50% for 10s . The aforementioned effects cannot stack.",
               "status": "live",
               "labels": []
             },
@@ -163705,14 +164217,14 @@ var NYX_DB = {
               "id": "hot-work-power-bank",
               "name": "Hot Work Power Bank",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-43-0d6cb71a1abf.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-41-120fdd57c9bd.webp",
               "fields": {
                 "level": "70",
                 "type": "Kit",
                 "def": "+ 21",
                 "strength": "+ 32",
                 "agility": "+ 21",
-                "artsIntensity": "+ 41"
+                "arts_intensity": "+ 41"
               },
               "text": "Hot Work Power Bank\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nStrength :\n+ 32\nAgility :\n+ 21\nArts Intensity :\n+ 41\nGear Set (3-PC)\nHot Work\nArts Intensity + 30 . When the wearer applies Combustion , Heat DMG +50% for 10s . When the wearer applies Corrosion , Nature DMG +50% for 10s . The aforementioned effects cannot stack.",
               "status": "live",
@@ -163722,14 +164234,14 @@ var NYX_DB = {
               "id": "hot-work-power-cartridge",
               "name": "Hot Work Power Cartridge",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-92-371d63275c69.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-42-da7a61fbb290.webp",
               "fields": {
                 "level": "70",
                 "type": "Kit",
                 "def": "+ 21",
                 "will": "+ 32",
                 "intellect": "+ 21",
-                "artsIntensity": "+ 41"
+                "arts_intensity": "+ 41"
               },
               "text": "Hot Work Power Cartridge\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nWill :\n+ 32\nIntellect :\n+ 21\nArts Intensity :\n+ 41\nGear Set (3-PC)\nHot Work\nArts Intensity + 30 . When the wearer applies Combustion , Heat DMG +50% for 10s . When the wearer applies Corrosion , Nature DMG +50% for 10s . The aforementioned effects cannot stack.",
               "status": "live",
@@ -163739,13 +164251,13 @@ var NYX_DB = {
               "id": "hot-work-pyrometer",
               "name": "Hot Work Pyrometer",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-44-517133a1c3b1.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-43-0d6cb71a1abf.webp",
               "fields": {
                 "level": "70",
                 "type": "Kit",
                 "def": "+ 21",
                 "intellect": "+ 41",
-                "battleSkillDmg": "+ 41.40%"
+                "battle_skill_dmg": "+ 41.40%"
               },
               "text": "Hot Work Pyrometer\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nIntellect :\n+ 41\nBattle Skill DMG :\n+ 41.40%\nGear Set (3-PC)\nHot Work\nArts Intensity + 30 . When the wearer applies Combustion , Heat DMG +50% for 10s . When the wearer applies Corrosion , Nature DMG +50% for 10s . The aforementioned effects cannot stack.",
               "status": "live",
@@ -163755,13 +164267,13 @@ var NYX_DB = {
               "id": "lynx-aegis-injector",
               "name": "LYNX Aegis Injector",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-91-ac51222668f4.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-92-371d63275c69.webp",
               "fields": {
                 "level": "70",
                 "type": "Kit",
                 "def": "+ 21",
                 "will": "+ 41",
-                "treatmentBonus": "+ 20.70%"
+                "treatment_bonus": "+ 20.70%"
               },
               "text": "LYNX Aegis Injector\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nWill :\n+ 41\nTreatment Bonus :\n+ 20.70%\nGear Set (3-PC)\nLYNX\nTreatment Bonus + 20% . When the wearer treats an allied target, the target also gains 15% DMG Reduction against all types of DMG for 10s . If the said treatment excees the target's Max HP, the target gains 30% DMG Reduction against all types of DMG. The aforementioned effects cannot stack.",
               "status": "live",
@@ -163771,14 +164283,14 @@ var NYX_DB = {
               "id": "lynx-connector",
               "name": "LYNX Connector",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-45-71f2e0ed92df.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-44-517133a1c3b1.webp",
               "fields": {
                 "level": "70",
                 "type": "Kit",
                 "def": "+ 21",
                 "strength": "+ 32",
                 "will": "+ 21",
-                "finalDmgReduction": "+ 17.20%"
+                "final_dmg_reduction": "+ 17.20%"
               },
               "text": "LYNX Connector\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nStrength :\n+ 32\nWill :\n+ 21\nFinal DMG Reduction :\n+ 17.20%\nGear Set (3-PC)\nLYNX\nTreatment Bonus + 20% . When the wearer treats an allied target, the target also gains 15% DMG Reduction against all types of DMG for 10s . If the said treatment excees the target's Max HP, the target gains 30% DMG Reduction against all types of DMG. The aforementioned effects cannot stack.",
               "status": "live",
@@ -163788,7 +164300,7 @@ var NYX_DB = {
               "id": "lynx-connector-t1",
               "name": "LYNX Connector T1",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-50-ed1c46d8a7c6.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-91-ac51222668f4.webp",
               "fields": {
                 "level": "70",
                 "type": "Kit",
@@ -163805,7 +164317,7 @@ var NYX_DB = {
               "id": "lynx-connector-t2",
               "name": "LYNX Connector T2",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-47-3932c5b1971a.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-45-71f2e0ed92df.webp",
               "fields": {
                 "level": "70",
                 "type": "Kit",
@@ -163821,16 +164333,33 @@ var NYX_DB = {
               "id": "lynx-cuirass",
               "name": "LYNX Cuirass",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-49-31a71303f190.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-50-ed1c46d8a7c6.webp",
               "fields": {
                 "level": "70",
                 "type": "Armor",
                 "def": "+ 56",
                 "will": "+ 87",
                 "intellect": "+ 58",
-                "treatmentBonus": "+ 10.40%"
+                "treatment_bonus": "+ 10.40%"
               },
               "text": "LYNX Cuirass\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nWill :\n+ 87\nIntellect :\n+ 58\nTreatment Bonus :\n+ 10.40%\nGear Set (3-PC)\nLYNX\nTreatment Bonus + 20% . When the wearer treats an allied target, the target also gains 15% DMG Reduction against all types of DMG for 10s . If the said treatment excees the target's Max HP, the target gains 30% DMG Reduction against all types of DMG. The aforementioned effects cannot stack.",
+              "status": "live",
+              "labels": []
+            },
+            {
+              "id": "lynx-cuirass-t1",
+              "name": "LYNX Cuirass T1",
+              "kind": "gear",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-47-3932c5b1971a.webp",
+              "fields": {
+                "level": "70",
+                "type": "Armor",
+                "def": "+ 56",
+                "will": "+ 87",
+                "agility": "+ 58",
+                "ultimate_gain_efficiency": "+ 12.30%"
+              },
+              "text": "LYNX Cuirass T1\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nWill :\n+ 87\nAgility :\n+ 58\nUltimate Gain Efficiency :\n+ 12.30%\nGear Set (3-PC)\nLYNX\nTreatment Bonus + 20% . When the wearer treats an allied target, the target also gains 15% DMG Reduction against all types of DMG for 10s . If the said treatment excees the target's Max HP, the target gains 30% DMG Reduction against all types of DMG. The aforementioned effects cannot stack.",
               "status": "live",
               "labels": []
             },
@@ -163838,16 +164367,33 @@ var NYX_DB = {
               "id": "lynx-gauntlets",
               "name": "LYNX Gauntlets",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-90-58183c5c33db.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-49-31a71303f190.webp",
               "fields": {
                 "level": "70",
                 "type": "Gloves",
                 "def": "+ 42",
                 "will": "+ 65",
                 "strength": "+ 43",
-                "treatmentBonus": "+ 17.30%"
+                "treatment_bonus": "+ 17.30%"
               },
               "text": "LYNX Gauntlets\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nWill :\n+ 65\nStrength :\n+ 43\nTreatment Bonus :\n+ 17.30%\nGear Set (3-PC)\nLYNX\nTreatment Bonus + 20% . When the wearer treats an allied target, the target also gains 15% DMG Reduction against all types of DMG for 10s . If the said treatment excees the target's Max HP, the target gains 30% DMG Reduction against all types of DMG. The aforementioned effects cannot stack.",
+              "status": "live",
+              "labels": []
+            },
+            {
+              "id": "lynx-gauntlets-t1",
+              "name": "LYNX Gauntlets T1",
+              "kind": "gear",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-90-58183c5c33db.webp",
+              "fields": {
+                "level": "70",
+                "type": "Gloves",
+                "def": "+ 42",
+                "will": "+ 65",
+                "agility": "+ 43",
+                "ultimate_gain_efficiency": "+ 20.50%"
+              },
+              "text": "LYNX Gauntlets T1\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nWill :\n+ 65\nAgility :\n+ 43\nUltimate Gain Efficiency :\n+ 20.50%\nGear Set (3-PC)\nLYNX\nTreatment Bonus + 20% . When the wearer treats an allied target, the target also gains 15% DMG Reduction against all types of DMG for 10s . If the said treatment excees the target's Max HP, the target gains 30% DMG Reduction against all types of DMG. The aforementioned effects cannot stack.",
               "status": "live",
               "labels": []
             },
@@ -163862,7 +164408,7 @@ var NYX_DB = {
                 "def": "+ 42",
                 "strength": "+ 65",
                 "will": "+ 43",
-                "ultimateGainEfficiency": "+ 20.50%"
+                "ultimate_gain_efficiency": "+ 20.50%"
               },
               "text": "LYNX Gloves\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nStrength :\n+ 65\nWill :\n+ 43\nUltimate Gain Efficiency :\n+ 20.50%\nGear Set (3-PC)\nLYNX\nTreatment Bonus + 20% . When the wearer treats an allied target, the target also gains 15% DMG Reduction against all types of DMG for 10s . If the said treatment excees the target's Max HP, the target gains 30% DMG Reduction against all types of DMG. The aforementioned effects cannot stack.",
               "status": "live",
@@ -163879,7 +164425,7 @@ var NYX_DB = {
                 "def": "+ 56",
                 "strength": "+ 87",
                 "will": "+ 58",
-                "treatmentBonus": "+ 10.40%"
+                "treatment_bonus": "+ 10.40%"
               },
               "text": "LYNX Heavy Armor\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nStrength :\n+ 87\nWill :\n+ 58\nTreatment Bonus :\n+ 10.40%\nGear Set (3-PC)\nLYNX\nTreatment Bonus + 20% . When the wearer treats an allied target, the target also gains 15% DMG Reduction against all types of DMG for 10s . If the said treatment excees the target's Max HP, the target gains 30% DMG Reduction against all types of DMG. The aforementioned effects cannot stack.",
               "status": "live",
@@ -163896,7 +164442,7 @@ var NYX_DB = {
                 "def": "+ 21",
                 "will": "+ 32",
                 "intellect": "+ 21",
-                "mainAttribute": "+ 20.70%"
+                "main_attribute": "+ 20.70%"
               },
               "text": "LYNX Slab\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nWill :\n+ 32\nIntellect :\n+ 21\nMain Attribute :\n+ 20.70%\nGear Set (3-PC)\nLYNX\nTreatment Bonus + 20% . When the wearer treats an allied target, the target also gains 15% DMG Reduction against all types of DMG for 10s . If the said treatment excees the target's Max HP, the target gains 30% DMG Reduction against all types of DMG. The aforementioned effects cannot stack.",
               "status": "live",
@@ -163913,8 +164459,8 @@ var NYX_DB = {
                 "def": "+ 21",
                 "strength": "+ 32",
                 "will": "+ 21",
-                "cryoDmg": "+ 23.00%",
-                "electricDmg": "+ 23.00%"
+                "cryo_dmg": "+ 23.00%",
+                "electric_dmg": "+ 23.00%"
               },
               "text": "MI Security Armband\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nStrength :\n+ 32\nWill :\n+ 21\nCryo DMG :\n+ 23.00%\nElectric DMG :\n+ 23.00%\nGear Set (3-PC)\nMI Security\nCritical Rate + 5% . When the wearer scores a critical hit, gain ATK +5% for 5s . This effect can reach 5 stacks. At max stacks, grant an additional Critical Rate +5% . This effect cannot stack.",
               "status": "live",
@@ -163931,7 +164477,7 @@ var NYX_DB = {
                 "def": "+ 56",
                 "agility": "+ 87",
                 "strength": "+ 58",
-                "artsIntensity": "+ 20"
+                "arts_intensity": "+ 20"
               },
               "text": "MI Security Armor\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nAgility :\n+ 87\nStrength :\n+ 58\nArts Intensity :\n+ 20\nGear Set (3-PC)\nMI Security\nCritical Rate + 5% . When the wearer scores a critical hit, gain ATK +5% for 5s . This effect can reach 5 stacks. At max stacks, grant an additional Critical Rate +5% . This effect cannot stack.",
               "status": "live",
@@ -163948,7 +164494,7 @@ var NYX_DB = {
                 "def": "+ 56",
                 "agility": "+ 87",
                 "intellect": "+ 58",
-                "ultimateGainEfficiency": "+ 12.30%"
+                "ultimate_gain_efficiency": "+ 12.30%"
               },
               "text": "MI Security Armor T1\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nAgility :\n+ 87\nIntellect :\n+ 58\nUltimate Gain Efficiency :\n+ 12.30%\nGear Set (3-PC)\nMI Security\nCritical Rate + 5% . When the wearer scores a critical hit, gain ATK +5% for 5s . This effect can reach 5 stacks. At max stacks, grant an additional Critical Rate +5% . This effect cannot stack.",
               "status": "live",
@@ -163965,7 +164511,7 @@ var NYX_DB = {
                 "def": "+ 42",
                 "agility": "+ 65",
                 "strength": "+ 43",
-                "battleSkillDmg": "+ 34.50%"
+                "battle_skill_dmg": "+ 34.50%"
               },
               "text": "MI Security Gloves\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nAgility :\n+ 65\nStrength :\n+ 43\nBattle Skill DMG :\n+ 34.50%\nGear Set (3-PC)\nMI Security\nCritical Rate + 5% . When the wearer scores a critical hit, gain ATK +5% for 5s . This effect can reach 5 stacks. At max stacks, grant an additional Critical Rate +5% . This effect cannot stack.",
               "status": "live",
@@ -163982,7 +164528,7 @@ var NYX_DB = {
                 "def": "+ 42",
                 "agility": "+ 65",
                 "intellect": "+ 43",
-                "ultimateDmg": "+ 43.10%"
+                "ultimate_dmg": "+ 43.10%"
               },
               "text": "MI Security Gloves T1\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nAgility :\n+ 65\nIntellect :\n+ 43\nUltimate DMG :\n+ 43.10%\nGear Set (3-PC)\nMI Security\nCritical Rate + 5% . When the wearer scores a critical hit, gain ATK +5% for 5s . This effect can reach 5 stacks. At max stacks, grant an additional Critical Rate +5% . This effect cannot stack.",
               "status": "live",
@@ -163999,7 +164545,7 @@ var NYX_DB = {
                 "def": "+ 42",
                 "intellect": "+ 65",
                 "agility": "+ 43",
-                "basicAtkDmg": "+ 23.00%"
+                "basic_atk_dmg": "+ 23.00%"
               },
               "text": "MI Security Hands PPE\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nIntellect :\n+ 65\nAgility :\n+ 43\nBasic ATK DMG :\n+ 23.00%\nGear Set (3-PC)\nMI Security\nCritical Rate + 5% . When the wearer scores a critical hit, gain ATK +5% for 5s . This effect can reach 5 stacks. At max stacks, grant an additional Critical Rate +5% . This effect cannot stack.",
               "status": "live",
@@ -164016,7 +164562,7 @@ var NYX_DB = {
                 "def": "+ 42",
                 "intellect": "+ 65",
                 "will": "+ 43",
-                "criticalRate": "+ 8.60%"
+                "critical_rate": "+ 8.60%"
               },
               "text": "MI Security Hands PPE T1\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nIntellect :\n+ 65\nWill :\n+ 43\nCritical Rate :\n+ 8.60%\nGear Set (3-PC)\nMI Security\nCritical Rate + 5% . When the wearer scores a critical hit, gain ATK +5% for 5s . This effect can reach 5 stacks. At max stacks, grant an additional Critical Rate +5% . This effect cannot stack.",
               "status": "live",
@@ -164033,7 +164579,7 @@ var NYX_DB = {
                 "def": "+ 56",
                 "intellect": "+ 87",
                 "agility": "+ 58",
-                "basicAtkDmg": "+ 13.80%"
+                "basic_atk_dmg": "+ 13.80%"
               },
               "text": "MI Security Overalls\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nIntellect :\n+ 87\nAgility :\n+ 58\nBasic ATK DMG :\n+ 13.80%\nGear Set (3-PC)\nMI Security\nCritical Rate + 5% . When the wearer scores a critical hit, gain ATK +5% for 5s . This effect can reach 5 stacks. At max stacks, grant an additional Critical Rate +5% . This effect cannot stack.",
               "status": "live",
@@ -164050,7 +164596,7 @@ var NYX_DB = {
                 "def": "+ 56",
                 "intellect": "+ 87",
                 "will": "+ 58",
-                "criticalRate": "+ 5.20%"
+                "critical_rate": "+ 5.20%"
               },
               "text": "MI Security Overalls T1\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nIntellect :\n+ 87\nWill :\n+ 58\nCritical Rate :\n+ 5.20%\nGear Set (3-PC)\nMI Security\nCritical Rate + 5% . When the wearer scores a critical hit, gain ATK +5% for 5s . This effect can reach 5 stacks. At max stacks, grant an additional Critical Rate +5% . This effect cannot stack.",
               "status": "live",
@@ -164067,7 +164613,7 @@ var NYX_DB = {
                 "def": "+ 56",
                 "will": "+ 87",
                 "agility": "+ 58",
-                "battleSkillDmg": "+ 20.70%"
+                "battle_skill_dmg": "+ 20.70%"
               },
               "text": "MI Security Overalls T2\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nWill :\n+ 87\nAgility :\n+ 58\nBattle Skill DMG :\n+ 20.70%\nGear Set (3-PC)\nMI Security\nCritical Rate + 5% . When the wearer scores a critical hit, gain ATK +5% for 5s . This effect can reach 5 stacks. At max stacks, grant an additional Critical Rate +5% . This effect cannot stack.",
               "status": "live",
@@ -164084,8 +164630,8 @@ var NYX_DB = {
                 "def": "+ 21",
                 "will": "+ 32",
                 "intellect": "+ 21",
-                "heatDmg": "+ 23.00%",
-                "natureDmg": "+ 23.00%"
+                "heat_dmg": "+ 23.00%",
+                "nature_dmg": "+ 23.00%"
               },
               "text": "MI Security Push Knife\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nWill :\n+ 32\nIntellect :\n+ 21\nHeat DMG :\n+ 23.00%\nNature DMG :\n+ 23.00%\nGear Set (3-PC)\nMI Security\nCritical Rate + 5% . When the wearer scores a critical hit, gain ATK +5% for 5s . This effect can reach 5 stacks. At max stacks, grant an additional Critical Rate +5% . This effect cannot stack.",
               "status": "live",
@@ -164102,7 +164648,7 @@ var NYX_DB = {
                 "def": "+ 21",
                 "will": "+ 32",
                 "agility": "+ 21",
-                "battleSkillDmg": "+ 41.40%"
+                "battle_skill_dmg": "+ 41.40%"
               },
               "text": "MI Security Push Knife T1\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nWill :\n+ 32\nAgility :\n+ 21\nBattle Skill DMG :\n+ 41.40%\nGear Set (3-PC)\nMI Security\nCritical Rate + 5% . When the wearer scores a critical hit, gain ATK +5% for 5s . This effect can reach 5 stacks. At max stacks, grant an additional Critical Rate +5% . This effect cannot stack.",
               "status": "live",
@@ -164119,7 +164665,7 @@ var NYX_DB = {
                 "def": "+ 21",
                 "agility": "+ 32",
                 "strength": "+ 21",
-                "battleSkillDmg": "+ 41.40%"
+                "battle_skill_dmg": "+ 41.40%"
               },
               "text": "MI Security Scope\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nAgility :\n+ 32\nStrength :\n+ 21\nBattle Skill DMG :\n+ 41.40%\nGear Set (3-PC)\nMI Security\nCritical Rate + 5% . When the wearer scores a critical hit, gain ATK +5% for 5s . This effect can reach 5 stacks. At max stacks, grant an additional Critical Rate +5% . This effect cannot stack.",
               "status": "live",
@@ -164136,7 +164682,7 @@ var NYX_DB = {
                 "def": "+ 21",
                 "agility": "+ 32",
                 "intellect": "+ 21",
-                "criticalRate": "+ 10.40%"
+                "critical_rate": "+ 10.40%"
               },
               "text": "MI Security Scope T1\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nAgility :\n+ 32\nIntellect :\n+ 21\nCritical Rate :\n+ 10.40%\nGear Set (3-PC)\nMI Security\nCritical Rate + 5% . When the wearer scores a critical hit, gain ATK +5% for 5s . This effect can reach 5 stacks. At max stacks, grant an additional Critical Rate +5% . This effect cannot stack.",
               "status": "live",
@@ -164153,7 +164699,7 @@ var NYX_DB = {
                 "def": "+ 21",
                 "intellect": "+ 32",
                 "agility": "+ 21",
-                "criticalRate": "+ 10.40%"
+                "critical_rate": "+ 10.40%"
               },
               "text": "MI Security Toolkit\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nIntellect :\n+ 32\nAgility :\n+ 21\nCritical Rate :\n+ 10.40%\nGear Set (3-PC)\nMI Security\nCritical Rate + 5% . When the wearer scores a critical hit, gain ATK +5% for 5s . This effect can reach 5 stacks. At max stacks, grant an additional Critical Rate +5% . This effect cannot stack.",
               "status": "live",
@@ -164169,7 +164715,7 @@ var NYX_DB = {
                 "type": "Kit",
                 "def": "+ 21",
                 "intellect": "+ 41",
-                "artsIntensity": "+ 41"
+                "arts_intensity": "+ 41"
               },
               "text": "Pulser Labs Calibrator\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nIntellect :\n+ 41\nArts Intensity :\n+ 41\nGear Set (3-PC)\nPulser Labs\nArts Intensity + 30 . When the wearer applies Electrification , Electric DMG +50% for 10s. When the wearer applies Solidification , Cryo DMG +50% for 10s . The aforementioned effects cannot stack.",
               "status": "live",
@@ -164186,7 +164732,7 @@ var NYX_DB = {
                 "def": "+ 56",
                 "intellect": "+ 87",
                 "will": "+ 58",
-                "artsIntensity": "+ 20"
+                "arts_intensity": "+ 20"
               },
               "text": "Pulser Labs Disruptor Suit\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nIntellect :\n+ 87\nWill :\n+ 58\nArts Intensity :\n+ 20\nGear Set (3-PC)\nPulser Labs\nArts Intensity + 30 . When the wearer applies Electrification , Electric DMG +50% for 10s. When the wearer applies Solidification , Cryo DMG +50% for 10s . The aforementioned effects cannot stack.",
               "status": "live",
@@ -164196,15 +164742,15 @@ var NYX_DB = {
               "id": "pulser-labs-gloves",
               "name": "Pulser Labs Gloves",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-116-d001bca928d8.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-152-1f56fb987750.webp",
               "fields": {
                 "level": "70",
                 "type": "Gloves",
                 "def": "+ 42",
                 "will": "+ 65",
                 "intellect": "+ 43",
-                "cryoDmg": "+ 19.20%",
-                "electricDmg": "+ 19.20%"
+                "cryo_dmg": "+ 19.20%",
+                "electric_dmg": "+ 19.20%"
               },
               "text": "Pulser Labs Gloves\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nWill :\n+ 65\nIntellect :\n+ 43\nCryo DMG :\n+ 19.20%\nElectric DMG :\n+ 19.20%\nGear Set (3-PC)\nPulser Labs\nArts Intensity + 30 . When the wearer applies Electrification , Electric DMG +50% for 10s. When the wearer applies Solidification , Cryo DMG +50% for 10s . The aforementioned effects cannot stack.",
               "status": "live",
@@ -164214,13 +164760,13 @@ var NYX_DB = {
               "id": "pulser-labs-invasion-core",
               "name": "Pulser Labs Invasion Core",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-122-d3225e11ad5d.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-151-13f3c5ffc5e4.webp",
               "fields": {
                 "level": "70",
                 "type": "Kit",
                 "def": "+ 21",
                 "will": "+ 41",
-                "ultimateDmg": "+ 51.80%"
+                "ultimate_dmg": "+ 51.80%"
               },
               "text": "Pulser Labs Invasion Core\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nWill :\n+ 41\nUltimate DMG :\n+ 51.80%\nGear Set (3-PC)\nPulser Labs\nArts Intensity + 30 . When the wearer applies Electrification , Electric DMG +50% for 10s. When the wearer applies Solidification , Cryo DMG +50% for 10s . The aforementioned effects cannot stack.",
               "status": "live",
@@ -164230,14 +164776,14 @@ var NYX_DB = {
               "id": "pulser-labs-probe",
               "name": "Pulser Labs Probe",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-61-34b2f54bc3ca.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-150-a6785db56762.webp",
               "fields": {
                 "level": "70",
                 "type": "Kit",
                 "def": "+ 21",
                 "intellect": "+ 32",
                 "agility": "+ 21",
-                "artsIntensity": "+ 41"
+                "arts_intensity": "+ 41"
               },
               "text": "Pulser Labs Probe\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nIntellect :\n+ 32\nAgility :\n+ 21\nArts Intensity :\n+ 41\nGear Set (3-PC)\nPulser Labs\nArts Intensity + 30 . When the wearer applies Electrification , Electric DMG +50% for 10s. When the wearer applies Solidification , Cryo DMG +50% for 10s . The aforementioned effects cannot stack.",
               "status": "live",
@@ -164247,15 +164793,15 @@ var NYX_DB = {
               "id": "qingbo-bamboo-cutter",
               "name": "Qingbo Bamboo Cutter",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-62-62b0e360463a.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-148-da37226de93d.webp",
               "fields": {
                 "level": "70",
                 "type": "Kit",
                 "def": "+ 21",
                 "strength": "+ 32",
                 "agility": "+ 21",
-                "heatDmg": "+ 23%",
-                "natureDmg": "+ 23%"
+                "heat_dmg": "+ 23%",
+                "nature_dmg": "+ 23%"
               },
               "text": "Qingbo Bamboo Cutter\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nStrength :\n+ 32\nAgility :\n+ 21\nHeat DMG :\n+ 23%\nNature DMG :\n+ 23%\nGear Set (3-PC)\nQingbo\nCombo Skill CDR + 15% . When the wearer casts a combo skill, the wearer gains Skill DMG Dealt +20% (for every skill) for 15s . This effect can reach 2 stacks. Duration of each stack is counted separately.",
               "status": "live",
@@ -164265,14 +164811,14 @@ var NYX_DB = {
               "id": "qingbo-cask",
               "name": "Qingbo Cask",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-118-eb7ede700ea2.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-149-e4cdd0b059fa.webp",
               "fields": {
                 "level": "70",
                 "type": "Kit",
                 "def": "+ 21",
                 "intellect": "+ 32",
                 "will": "+ 32",
-                "artsIntensity": "+ 41"
+                "arts_intensity": "+ 41"
               },
               "text": "Qingbo Cask\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nIntellect :\n+ 32\nWill :\n+ 32\nArts Intensity :\n+ 41\nGear Set (3-PC)\nQingbo\nCombo Skill CDR + 15% . When the wearer casts a combo skill, the wearer gains Skill DMG Dealt +20% (for every skill) for 15s . This effect can reach 2 stacks. Duration of each stack is counted separately.",
               "status": "live",
@@ -164282,14 +164828,14 @@ var NYX_DB = {
               "id": "qingbo-gauntlets",
               "name": "Qingbo Gauntlets",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-80-1e21f9be1509.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-116-d001bca928d8.webp",
               "fields": {
                 "level": "70",
                 "type": "Gloves",
                 "def": "+ 42",
                 "agility": "+ 65",
                 "strength": "+ 43",
-                "allSkillDmg": "+ 23%"
+                "all_skill_dmg": "+ 23%"
               },
               "text": "Qingbo Gauntlets\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nAgility :\n+ 65\nStrength :\n+ 43\nAll Skill DMG :\n+ 23%\nGear Set (3-PC)\nQingbo\nCombo Skill CDR + 15% . When the wearer casts a combo skill, the wearer gains Skill DMG Dealt +20% (for every skill) for 15s . This effect can reach 2 stacks. Duration of each stack is counted separately.",
               "status": "live",
@@ -164299,14 +164845,14 @@ var NYX_DB = {
               "id": "qingbo-gloves",
               "name": "Qingbo Gloves",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-79-fdf29f9286c4.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-122-d3225e11ad5d.webp",
               "fields": {
                 "level": "70",
                 "type": "Gloves",
                 "def": "+ 42",
                 "intellect": "+ 65",
                 "will": "+ 43",
-                "ultimateGainEfficiency": "+ 20.50%"
+                "ultimate_gain_efficiency": "+ 20.50%"
               },
               "text": "Qingbo Gloves\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nIntellect :\n+ 65\nWill :\n+ 43\nUltimate Gain Efficiency :\n+ 20.50%\nGear Set (3-PC)\nQingbo\nCombo Skill CDR + 15% . When the wearer casts a combo skill, the wearer gains Skill DMG Dealt +20% (for every skill) for 15s . This effect can reach 2 stacks. Duration of each stack is counted separately.",
               "status": "live",
@@ -164316,14 +164862,14 @@ var NYX_DB = {
               "id": "qingbo-heavy-armor",
               "name": "Qingbo Heavy Armor",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-81-295f9668dc5d.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-61-34b2f54bc3ca.webp",
               "fields": {
                 "level": "70",
                 "type": "Armor",
                 "def": "+ 56",
                 "agility": "+ 87",
                 "strength": "+ 58",
-                "ultimateGainEfficiency": "+ 12.30%"
+                "ultimate_gain_efficiency": "+ 12.30%"
               },
               "text": "Qingbo Heavy Armor\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nAgility :\n+ 87\nStrength :\n+ 58\nUltimate Gain Efficiency :\n+ 12.30%\nGear Set (3-PC)\nQingbo\nCombo Skill CDR + 15% . When the wearer casts a combo skill, the wearer gains Skill DMG Dealt +20% (for every skill) for 15s . This effect can reach 2 stacks. Duration of each stack is counted separately.",
               "status": "live",
@@ -164333,14 +164879,14 @@ var NYX_DB = {
               "id": "qingbo-light-armor",
               "name": "Qingbo Light Armor",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-63-b8c382149543.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-62-62b0e360463a.webp",
               "fields": {
                 "level": "70",
                 "type": "Armor",
                 "def": "+ 56",
                 "intellect": "+ 87",
                 "will": "+ 58",
-                "artsIntensity": "+ 20"
+                "arts_intensity": "+ 20"
               },
               "text": "Qingbo Light Armor\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nIntellect :\n+ 87\nWill :\n+ 58\nArts Intensity :\n+ 20\nGear Set (3-PC)\nQingbo\nCombo Skill CDR + 15% . When the wearer casts a combo skill, the wearer gains Skill DMG Dealt +20% (for every skill) for 15s . This effect can reach 2 stacks. Duration of each stack is counted separately.",
               "status": "live",
@@ -164350,14 +164896,14 @@ var NYX_DB = {
               "id": "qingbo-positioning-kit",
               "name": "Qingbo Positioning Kit",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-117-ac5e306c630f.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-118-eb7ede700ea2.webp",
               "fields": {
                 "level": "70",
                 "type": "Kit",
                 "def": "+ 21",
                 "agility": "+ 32",
                 "strength": "+ 21",
-                "battleSkillDmg": "+ 41.40%"
+                "battle_skill_dmg": "+ 41.40%"
               },
               "text": "Qingbo Positioning Kit\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nAgility :\n+ 32\nStrength :\n+ 21\nBattle Skill DMG :\n+ 41.40%\nGear Set (3-PC)\nQingbo\nCombo Skill CDR + 15% . When the wearer casts a combo skill, the wearer gains Skill DMG Dealt +20% (for every skill) for 15s . This effect can reach 2 stacks. Duration of each stack is counted separately.",
               "status": "live",
@@ -164367,14 +164913,14 @@ var NYX_DB = {
               "id": "qingbo-positioning-kit-t1",
               "name": "Qingbo Positioning Kit T1",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-64-199b30cfa072.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-80-1e21f9be1509.webp",
               "fields": {
                 "level": "70",
                 "type": "Kit",
                 "def": "+ 21",
                 "agility": "+ 32",
                 "strength": "+ 21",
-                "physicalDmg": "+ 23.00%"
+                "physical_dmg": "+ 23.00%"
               },
               "text": "Qingbo Positioning Kit T1\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nAgility :\n+ 32\nStrength :\n+ 21\nPhysical DMG :\n+ 23.00%\nGear Set (3-PC)\nQingbo\nCombo Skill CDR + 15% . When the wearer casts a combo skill, the wearer gains Skill DMG Dealt +20% (for every skill) for 15s . This effect can reach 2 stacks. Duration of each stack is counted separately.",
               "status": "live",
@@ -164384,13 +164930,13 @@ var NYX_DB = {
               "id": "redeemer-armor",
               "name": "Redeemer Armor",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-65-f15fdd036e2d.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-79-fdf29f9286c4.webp",
               "fields": {
                 "level": "70",
                 "type": "Armor",
                 "def": "+ 56",
                 "intellect": "+ 115",
-                "ultimateGainEfficiency": "+ 12.90%"
+                "ultimate_gain_efficiency": "+ 12.90%"
               },
               "text": "Redeemer Armor\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nIntellect :\n+ 115\nUltimate Gain Efficiency :\n+ 12.90%\nGear Set (3-PC)\nThis gear piece has no set.",
               "status": "live",
@@ -164400,13 +164946,13 @@ var NYX_DB = {
               "id": "redeemer-gloves",
               "name": "Redeemer Gloves",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-66-beff01bccdbd.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-81-295f9668dc5d.webp",
               "fields": {
                 "level": "70",
                 "type": "Gloves",
                 "def": "+ 42",
                 "agility": "+ 86",
-                "ultimateDmg": "+ 45.00%"
+                "ultimate_dmg": "+ 45.00%"
               },
               "text": "Redeemer Gloves\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nAgility :\n+ 86\nUltimate DMG :\n+ 45.00%\nGear Set (3-PC)\nThis gear piece has no set.",
               "status": "live",
@@ -164416,13 +164962,13 @@ var NYX_DB = {
               "id": "redeemer-hands",
               "name": "Redeemer Hands",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-67-5031ea56a1c1.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-63-b8c382149543.webp",
               "fields": {
                 "level": "70",
                 "type": "Gloves",
                 "def": "+ 42",
                 "strength": "+ 86",
-                "allSkillDmg": "+ 24.00%"
+                "all_skill_dmg": "+ 24.00%"
               },
               "text": "Redeemer Hands\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nStrength :\n+ 86\nAll Skill DMG :\n+ 24.00%\nGear Set (3-PC)\nThis gear piece has no set.",
               "status": "live",
@@ -164432,13 +164978,13 @@ var NYX_DB = {
               "id": "redeemer-plates",
               "name": "Redeemer Plates",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-68-4f128e86edc0.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-117-ac5e306c630f.webp",
               "fields": {
                 "level": "70",
                 "type": "Armor",
                 "def": "+ 56",
                 "agility": "+ 115",
-                "basicAtkDmg": "+ 14.40%"
+                "basic_atk_dmg": "+ 14.40%"
               },
               "text": "Redeemer Plates\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nAgility :\n+ 115\nBasic ATK DMG :\n+ 14.40%\nGear Set (3-PC)\nThis gear piece has no set.",
               "status": "live",
@@ -164448,13 +164994,13 @@ var NYX_DB = {
               "id": "redeemer-seal",
               "name": "Redeemer Seal",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-70-278306afe33b.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-64-199b30cfa072.webp",
               "fields": {
                 "level": "70",
                 "type": "Kit",
                 "def": "+ 21",
                 "intellect": "+ 43",
-                "ultimateGainEfficiency": "+ 25.70%"
+                "ultimate_gain_efficiency": "+ 25.70%"
               },
               "text": "Redeemer Seal\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nIntellect :\n+ 43\nUltimate Gain Efficiency :\n+ 25.70%\nGear Set (3-PC)\nThis gear piece has no set.",
               "status": "live",
@@ -164464,13 +165010,13 @@ var NYX_DB = {
               "id": "redeemer-seal-t1",
               "name": "Redeemer Seal T1",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-88-9495f1769b0e.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-65-f15fdd036e2d.webp",
               "fields": {
                 "level": "70",
                 "type": "Kit",
                 "def": "+ 21",
                 "will": "+ 43",
-                "criticalRate": "+ 10.80%"
+                "critical_rate": "+ 10.80%"
               },
               "text": "Redeemer Seal T1\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nWill :\n+ 43\nCritical Rate :\n+ 10.80%\nGear Set (3-PC)\nThis gear piece has no set.",
               "status": "live",
@@ -164480,13 +165026,13 @@ var NYX_DB = {
               "id": "redeemer-tag",
               "name": "Redeemer Tag",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-89-c35d99bc898e.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-66-beff01bccdbd.webp",
               "fields": {
                 "level": "70",
                 "type": "Kit",
                 "def": "+ 21",
                 "strength": "+ 43",
-                "finalDmgReduction": "+ 17.80%"
+                "final_dmg_reduction": "+ 17.80%"
               },
               "text": "Redeemer Tag\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nStrength :\n+ 43\nFinal DMG Reduction :\n+ 17.80%\nGear Set (3-PC)\nThis gear piece has no set.",
               "status": "live",
@@ -164496,15 +165042,95 @@ var NYX_DB = {
               "id": "redeemer-tag-t1",
               "name": "Redeemer Tag T1",
               "kind": "gear",
-              "art": "../../Database/Prydwen/endfield/assets/gear/gear-71-346e3930a9ba.webp",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-67-5031ea56a1c1.webp",
               "fields": {
                 "level": "70",
                 "type": "Kit",
                 "def": "+ 21",
                 "agility": "+ 43",
-                "comboSkillDmg": "+ 43.20%"
+                "combo_skill_dmg": "+ 43.20%"
               },
               "text": "Redeemer Tag T1\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nAgility :\n+ 43\nCombo Skill DMG :\n+ 43.20%\nGear Set (3-PC)\nThis gear piece has no set.",
+              "status": "live",
+              "labels": []
+            },
+            {
+              "id": "rift-trekker-armor-slab",
+              "name": "Rift Trekker Armor Slab",
+              "kind": "gear",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-68-4f128e86edc0.webp",
+              "fields": {
+                "level": "70",
+                "type": "Kit",
+                "def": "+ 21",
+                "agility": "+ 43",
+                "secondary_attribute": "+ 21.60%"
+              },
+              "text": "Rift Trekker Armor Slab\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nAgility :\n+ 43\nSecondary Attribute :\n+ 21.60%\nGear Set (3-PC)\nThis gear piece has no set.",
+              "status": "live",
+              "labels": []
+            },
+            {
+              "id": "rift-trekker-gloves",
+              "name": "Rift Trekker Gloves",
+              "kind": "gear",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-70-278306afe33b.webp",
+              "fields": {
+                "level": "70",
+                "type": "Gloves",
+                "def": "+ 42",
+                "intellect": "+ 86",
+                "ultimate_gain_efficiency": "+ 21.40%"
+              },
+              "text": "Rift Trekker Gloves\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nIntellect :\n+ 86\nUltimate Gain Efficiency :\n+ 21.40%\nGear Set (3-PC)\nThis gear piece has no set.",
+              "status": "live",
+              "labels": []
+            },
+            {
+              "id": "rift-trekker-hands",
+              "name": "Rift Trekker Hands",
+              "kind": "gear",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-88-9495f1769b0e.webp",
+              "fields": {
+                "level": "70",
+                "type": "Gloves",
+                "def": "+ 42",
+                "will": "+ 86",
+                "battle_skill_dmg": "+ 36.00%"
+              },
+              "text": "Rift Trekker Hands\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nWill :\n+ 86\nBattle Skill DMG :\n+ 36.00%\nGear Set (3-PC)\nThis gear piece has no set.",
+              "status": "live",
+              "labels": []
+            },
+            {
+              "id": "rift-trekker-heavy-armor",
+              "name": "Rift Trekker Heavy Armor",
+              "kind": "gear",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-89-c35d99bc898e.webp",
+              "fields": {
+                "level": "70",
+                "type": "Armor",
+                "def": "+ 56",
+                "strength": "+ 115",
+                "arts_intensity": "+ 21"
+              },
+              "text": "Rift Trekker Heavy Armor\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nStrength :\n+ 115\nArts Intensity :\n+ 21\nGear Set (3-PC)\nThis gear piece has no set.",
+              "status": "live",
+              "labels": []
+            },
+            {
+              "id": "rift-trekker-light-armor",
+              "name": "Rift Trekker Light Armor",
+              "kind": "gear",
+              "art": "../../Database/Prydwen/endfield/assets/gear/gear-71-346e3930a9ba.webp",
+              "fields": {
+                "level": "70",
+                "type": "Armor",
+                "def": "+ 56",
+                "will": "+ 115",
+                "treatment_bonus": "+ 10.80%"
+              },
+              "text": "Rift Trekker Light Armor\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nWill :\n+ 115\nTreatment Bonus :\n+ 10.80%\nGear Set (3-PC)\nThis gear piece has no set.",
               "status": "live",
               "labels": []
             },
@@ -164519,7 +165145,7 @@ var NYX_DB = {
                 "def": "+ 21",
                 "agility": "+ 32",
                 "strength": "+ 21",
-                "ultimateDmg": "+ 51.80%"
+                "ultimate_dmg": "+ 51.80%"
               },
               "text": "Swordmancer Dagger\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nAgility :\n+ 32\nStrength :\n+ 21\nUltimate DMG :\n+ 51.80%\nGear Set (3-PC)\nSwordmancer\nStagger Efficiency Bonus + 20% . When the wearer applies a Physical Status , the wearer also performs 1 hit that deals 250% ATK of Physical DMG and 10 Stagger. Effect trigger cooldown: 15s .",
               "status": "live",
@@ -164536,7 +165162,7 @@ var NYX_DB = {
                 "def": "+ 56",
                 "strength": "+ 87",
                 "will": "+ 58",
-                "physicalDmg": "+ 11.50%"
+                "physical_dmg": "+ 11.50%"
               },
               "text": "Swordmancer Fiber Armor\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nStrength :\n+ 87\nWill :\n+ 58\nPhysical DMG :\n+ 11.50%\nGear Set (3-PC)\nSwordmancer\nStagger Efficiency Bonus + 20% . When the wearer applies a Physical Status , the wearer also performs 1 hit that deals 250% ATK of Physical DMG and 10 Stagger. Effect trigger cooldown: 15s .",
               "status": "live",
@@ -164553,7 +165179,7 @@ var NYX_DB = {
                 "def": "+ 21",
                 "agility": "+ 32",
                 "strength": "+ 21",
-                "physicalDmg": "+ 23.00%"
+                "physical_dmg": "+ 23.00%"
               },
               "text": "Swordmancer Flint\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nAgility :\n+ 32\nStrength :\n+ 21\nPhysical DMG :\n+ 23.00%\nGear Set (3-PC)\nSwordmancer\nStagger Efficiency Bonus + 20% . When the wearer applies a Physical Status , the wearer also performs 1 hit that deals 250% ATK of Physical DMG and 10 Stagger. Effect trigger cooldown: 15s .",
               "status": "live",
@@ -164570,7 +165196,7 @@ var NYX_DB = {
                 "def": "+ 56",
                 "agility": "+ 87",
                 "strength": "+ 58",
-                "artsIntensity": "+ 20"
+                "arts_intensity": "+ 20"
               },
               "text": "Swordmancer Heavy Armor\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nAgility :\n+ 87\nStrength :\n+ 58\nArts Intensity :\n+ 20\nGear Set (3-PC)\nSwordmancer\nStagger Efficiency Bonus + 20% . When the wearer applies a Physical Status , the wearer also performs 1 hit that deals 250% ATK of Physical DMG and 10 Stagger. Effect trigger cooldown: 15s .",
               "status": "live",
@@ -164587,7 +165213,7 @@ var NYX_DB = {
                 "def": "+ 56",
                 "agility": "+ 87",
                 "strength": "+ 58",
-                "physicalDmg": "+ 11.50%"
+                "physical_dmg": "+ 11.50%"
               },
               "text": "Swordmancer Heavy Armor T1\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nAgility :\n+ 87\nStrength :\n+ 58\nPhysical DMG :\n+ 11.50%\nGear Set (3-PC)\nSwordmancer\nStagger Efficiency Bonus + 20% . When the wearer applies a Physical Status , the wearer also performs 1 hit that deals 250% ATK of Physical DMG and 10 Stagger. Effect trigger cooldown: 15s .",
               "status": "live",
@@ -164604,7 +165230,7 @@ var NYX_DB = {
                 "def": "+ 56",
                 "strength": "+ 87",
                 "will": "+ 58",
-                "ultimateGainEfficiency": "+ 12.30%"
+                "ultimate_gain_efficiency": "+ 12.30%"
               },
               "text": "Swordmancer Light Armor\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nStrength :\n+ 87\nWill :\n+ 58\nUltimate Gain Efficiency :\n+ 12.30%\nGear Set (3-PC)\nSwordmancer\nStagger Efficiency Bonus + 20% . When the wearer applies a Physical Status , the wearer also performs 1 hit that deals 250% ATK of Physical DMG and 10 Stagger. Effect trigger cooldown: 15s .",
               "status": "live",
@@ -164621,7 +165247,7 @@ var NYX_DB = {
                 "def": "+ 21",
                 "strength": "+ 32",
                 "will": "+ 21",
-                "physicalDmg": "+ 23.00%"
+                "physical_dmg": "+ 23.00%"
               },
               "text": "Swordmancer Micro Filter\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nStrength :\n+ 32\nWill :\n+ 21\nPhysical DMG :\n+ 23.00%\nGear Set (3-PC)\nSwordmancer\nStagger Efficiency Bonus + 20% . When the wearer applies a Physical Status , the wearer also performs 1 hit that deals 250% ATK of Physical DMG and 10 Stagger. Effect trigger cooldown: 15s .",
               "status": "live",
@@ -164637,7 +165263,7 @@ var NYX_DB = {
                 "type": "Kit",
                 "def": "+ 21",
                 "strength": "+ 41",
-                "artsIntensity": "+ 41"
+                "arts_intensity": "+ 41"
               },
               "text": "Swordmancer NAV Beacon\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nStrength :\n+ 41\nArts Intensity :\n+ 41\nGear Set (3-PC)\nSwordmancer\nStagger Efficiency Bonus + 20% . When the wearer applies a Physical Status , the wearer also performs 1 hit that deals 250% ATK of Physical DMG and 10 Stagger. Effect trigger cooldown: 15s .",
               "status": "live",
@@ -164654,7 +165280,7 @@ var NYX_DB = {
                 "def": "+ 42",
                 "agility": "+ 65",
                 "strength": "+ 43",
-                "ultimateDmg": "+ 43.10%"
+                "ultimate_dmg": "+ 43.10%"
               },
               "text": "Swordmancer TAC Gauntlets\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nAgility :\n+ 65\nStrength :\n+ 43\nUltimate DMG :\n+ 43.10%\nGear Set (3-PC)\nSwordmancer\nStagger Efficiency Bonus + 20% . When the wearer applies a Physical Status , the wearer also performs 1 hit that deals 250% ATK of Physical DMG and 10 Stagger. Effect trigger cooldown: 15s .",
               "status": "live",
@@ -164671,7 +165297,7 @@ var NYX_DB = {
                 "def": "+ 42",
                 "strength": "+ 65",
                 "will": "+ 43",
-                "artsIntensity": "+ 34"
+                "arts_intensity": "+ 34"
               },
               "text": "Swordmancer TAC Gauntlets T1\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nStrength :\n+ 65\nWill :\n+ 43\nArts Intensity :\n+ 34\nGear Set (3-PC)\nSwordmancer\nStagger Efficiency Bonus + 20% . When the wearer applies a Physical Status , the wearer also performs 1 hit that deals 250% ATK of Physical DMG and 10 Stagger. Effect trigger cooldown: 15s .",
               "status": "live",
@@ -164688,7 +165314,7 @@ var NYX_DB = {
                 "def": "+ 42",
                 "strength": "+ 65",
                 "will": "+ 43",
-                "physicalDmg": "+ 19.20%"
+                "physical_dmg": "+ 19.20%"
               },
               "text": "Swordmancer TAC Gloves\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nStrength :\n+ 65\nWill :\n+ 43\nPhysical DMG :\n+ 19.20%\nGear Set (3-PC)\nSwordmancer\nStagger Efficiency Bonus + 20% . When the wearer applies a Physical Status , the wearer also performs 1 hit that deals 250% ATK of Physical DMG and 10 Stagger. Effect trigger cooldown: 15s .",
               "status": "live",
@@ -164705,7 +165331,7 @@ var NYX_DB = {
                 "def": "+ 56",
                 "intellect": "+ 87",
                 "strength": "+ 58",
-                "ultimateGainEfficiency": "+ 12.30%"
+                "ultimate_gain_efficiency": "+ 12.30%"
               },
               "text": "Tide Fall Light Armor\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nIntellect :\n+ 87\nStrength :\n+ 58\nUltimate Gain Efficiency :\n+ 12.30%\nGear Set (3-PC)\nTide Surge\nAll Skill DMG + 20% . After the wearer applies 2 or more stacks of Arts Infliction on the enemy, the wearer gains Arts DMG dealt +35% for 15s . This effect cannot stack.",
               "status": "live",
@@ -164722,8 +165348,8 @@ var NYX_DB = {
                 "def": "+ 42",
                 "strength": "+ 65",
                 "will": "+ 43",
-                "cryoDmg": "+ 19.20%",
-                "electricDmg": "+ 19.20%"
+                "cryo_dmg": "+ 19.20%",
+                "electric_dmg": "+ 19.20%"
               },
               "text": "Tide Surge Gauntlets\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nStrength :\n+ 65\nWill :\n+ 43\nCryo DMG :\n+ 19.20%\nElectric DMG :\n+ 19.20%\nGear Set (3-PC)\nTide Surge\nAll Skill DMG + 20% . After the wearer applies 2 or more stacks of Arts Infliction on the enemy, the wearer gains Arts DMG dealt +35% for 15s . This effect cannot stack.",
               "status": "live",
@@ -164740,7 +165366,7 @@ var NYX_DB = {
                 "def": "+ 21",
                 "intellect": "+ 32",
                 "strength": "+ 21",
-                "basicAtkDmg": "+ 27.60%"
+                "basic_atk_dmg": "+ 27.60%"
               },
               "text": "Turbid Cutting Torch\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nIntellect :\n+ 32\nStrength :\n+ 21\nBasic ATK DMG :\n+ 27.60%\nGear Set (3-PC)\nTide Surge\nAll Skill DMG + 20% . After the wearer applies 2 or more stacks of Arts Infliction on the enemy, the wearer gains Arts DMG dealt +35% for 15s . This effect cannot stack.",
               "status": "live",
@@ -164757,7 +165383,7 @@ var NYX_DB = {
                 "def": "+ 42",
                 "agility": "+ 65",
                 "intellect": "+ 43",
-                "comboSkillDmg": "+ 34.50%"
+                "combo_skill_dmg": "+ 34.50%"
               },
               "text": "Type 50 Yinglung Gloves\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nAgility :\n+ 65\nIntellect :\n+ 43\nCombo Skill DMG :\n+ 34.50%\nGear Set (3-PC)\nType 50 Yinglung\nAttack + 15% . When any operator in the team casts a battle skill, the wearer gains 1 stack of Yinglung's Edge that gives DMG +20% to the wearer's next combo skill. Yinglung's Edge can stack 3 time(s).",
               "status": "live",
@@ -164774,7 +165400,7 @@ var NYX_DB = {
                 "def": "+ 42",
                 "will": "+ 65",
                 "agility": "+ 43",
-                "comboSkillDmg": "+ 34.50%"
+                "combo_skill_dmg": "+ 34.50%"
               },
               "text": "Type 50 Yinglung Gloves T1\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nWill :\n+ 65\nAgility :\n+ 43\nCombo Skill DMG :\n+ 34.50%\nGear Set (3-PC)\nType 50 Yinglung\nAttack + 15% . When any operator in the team casts a battle skill, the wearer gains 1 stack of Yinglung's Edge that gives DMG +20% to the wearer's next combo skill. Yinglung's Edge can stack 3 time(s).",
               "status": "live",
@@ -164791,7 +165417,7 @@ var NYX_DB = {
                 "def": "+ 56",
                 "strength": "+ 87",
                 "will": "+ 58",
-                "physicalDmg": "+ 11.50%"
+                "physical_dmg": "+ 11.50%"
               },
               "text": "Type 50 Yinglung Heavy Armor\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nStrength :\n+ 87\nWill :\n+ 58\nPhysical DMG :\n+ 11.50%\nGear Set (3-PC)\nType 50 Yinglung\nAttack + 15% . When any operator in the team casts a battle skill, the wearer gains 1 stack of Yinglung's Edge that gives DMG +20% to the wearer's next combo skill. Yinglung's Edge can stack 3 time(s).",
               "status": "live",
@@ -164808,7 +165434,7 @@ var NYX_DB = {
                 "def": "+ 56",
                 "agility": "+ 87",
                 "strength": "+ 58",
-                "ultimateGainEfficiency": "+ 12.30%"
+                "ultimate_gain_efficiency": "+ 12.30%"
               },
               "text": "Type 50 Yinglung Heavy Armor T1\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nAgility :\n+ 87\nStrength :\n+ 58\nUltimate Gain Efficiency :\n+ 12.30%\nGear Set (3-PC)\nType 50 Yinglung\nAttack + 15% . When any operator in the team casts a battle skill, the wearer gains 1 stack of Yinglung's Edge that gives DMG +20% to the wearer's next combo skill. Yinglung's Edge can stack 3 time(s).",
               "status": "live",
@@ -164825,7 +165451,7 @@ var NYX_DB = {
                 "def": "+ 56",
                 "agility": "+ 87",
                 "intellect": "+ 58",
-                "comboSkillDmg": "+ 20.70%"
+                "combo_skill_dmg": "+ 20.70%"
               },
               "text": "Type 50 Yinglung Heavy Armor T2\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nAgility :\n+ 87\nIntellect :\n+ 58\nCombo Skill DMG :\n+ 20.70%\nGear Set (3-PC)\nType 50 Yinglung\nAttack + 15% . When any operator in the team casts a battle skill, the wearer gains 1 stack of Yinglung's Edge that gives DMG +20% to the wearer's next combo skill. Yinglung's Edge can stack 3 time(s).",
               "status": "live",
@@ -164842,7 +165468,7 @@ var NYX_DB = {
                 "def": "+ 21",
                 "will": "+ 32",
                 "agility": "+ 21",
-                "comboSkillDmg": "+ 41.40%"
+                "combo_skill_dmg": "+ 41.40%"
               },
               "text": "Type 50 Yinglung Knife\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nWill :\n+ 32\nAgility :\n+ 21\nCombo Skill DMG :\n+ 41.40%\nGear Set (3-PC)\nType 50 Yinglung\nAttack + 15% . When any operator in the team casts a battle skill, the wearer gains 1 stack of Yinglung's Edge that gives DMG +20% to the wearer's next combo skill. Yinglung's Edge can stack 3 time(s).",
               "status": "live",
@@ -164859,7 +165485,7 @@ var NYX_DB = {
                 "def": "+ 21",
                 "intellect": "+ 32",
                 "strength": "+ 21",
-                "allSkillDmg": "+ 27.60%"
+                "all_skill_dmg": "+ 27.60%"
               },
               "text": "Type 50 Yinglung Knife T1\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nIntellect :\n+ 32\nStrength :\n+ 21\nAll Skill DMG :\n+ 27.60%\nGear Set (3-PC)\nType 50 Yinglung\nAttack + 15% . When any operator in the team casts a battle skill, the wearer gains 1 stack of Yinglung's Edge that gives DMG +20% to the wearer's next combo skill. Yinglung's Edge can stack 3 time(s).",
               "status": "live",
@@ -164876,7 +165502,7 @@ var NYX_DB = {
                 "def": "+ 56",
                 "will": "+ 87",
                 "strength": "+ 58",
-                "allSkillDmg": "+ 13.80%"
+                "all_skill_dmg": "+ 13.80%"
               },
               "text": "Type 50 Yinglung Light Armor\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nWill :\n+ 87\nStrength :\n+ 58\nAll Skill DMG :\n+ 13.80%\nGear Set (3-PC)\nType 50 Yinglung\nAttack + 15% . When any operator in the team casts a battle skill, the wearer gains 1 stack of Yinglung's Edge that gives DMG +20% to the wearer's next combo skill. Yinglung's Edge can stack 3 time(s).",
               "status": "live",
@@ -164893,7 +165519,7 @@ var NYX_DB = {
                 "def": "+ 21",
                 "strength": "+ 32",
                 "will": "+ 21",
-                "physicalDmg": "+ 23.00%"
+                "physical_dmg": "+ 23.00%"
               },
               "text": "Type 50 Yinglung Radar\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nStrength :\n+ 32\nWill :\n+ 21\nPhysical DMG :\n+ 23.00%\nGear Set (3-PC)\nType 50 Yinglung\nAttack + 15% . When any operator in the team casts a battle skill, the wearer gains 1 stack of Yinglung's Edge that gives DMG +20% to the wearer's next combo skill. Yinglung's Edge can stack 3 time(s).",
               "status": "live",
@@ -164910,7 +165536,7 @@ var NYX_DB = {
                 "def": "+ 21",
                 "agility": "+ 32",
                 "strength": "+ 21",
-                "ultimateDmg": "+ 51.80%"
+                "ultimate_dmg": "+ 51.80%"
               },
               "text": "Type 50 Yinglung Radar T1\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nAgility :\n+ 32\nStrength :\n+ 21\nUltimate DMG :\n+ 51.80%\nGear Set (3-PC)\nType 50 Yinglung\nAttack + 15% . When any operator in the team casts a battle skill, the wearer gains 1 stack of Yinglung's Edge that gives DMG +20% to the wearer's next combo skill. Yinglung's Edge can stack 3 time(s).",
               "status": "live",
@@ -164927,7 +165553,7 @@ var NYX_DB = {
                 "def": "+ 21",
                 "agility": "+ 32",
                 "intellect": "+ 21",
-                "comboSkillDmg": "+ 41.40%"
+                "combo_skill_dmg": "+ 41.40%"
               },
               "text": "Type 50 Yinglung Radar T2\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nAgility :\n+ 32\nIntellect :\n+ 21\nCombo Skill DMG :\n+ 41.40%\nGear Set (3-PC)\nType 50 Yinglung\nAttack + 15% . When any operator in the team casts a battle skill, the wearer gains 1 stack of Yinglung's Edge that gives DMG +20% to the wearer's next combo skill. Yinglung's Edge can stack 3 time(s).",
               "status": "live",
@@ -164944,7 +165570,7 @@ var NYX_DB = {
                 "def": "+ 21",
                 "will": "+ 32",
                 "intellect": "+ 21",
-                "battleSkillDmg": "+ 41.40%"
+                "battle_skill_dmg": "+ 41.40%"
               },
               "text": "Xiranflow Baton\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nWill :\n+ 32\nIntellect :\n+ 21\nBattle Skill DMG :\n+ 41.40%\nGear Set (3-PC)\nXiranflow\nAttack + 15% . Whenever the wearer consumes Electrification or Corrosion , the wearer gains a number of buff stacks equal to the Status Level of the Arts Reaction consumed, with each buff stack giving Electric DMG Dealt and Nature DMG Dealt +15% for 25s . The number of buff stacks maxes out at 3 stacks. Duration of each stack is counted separately.",
               "status": "live",
@@ -164961,8 +165587,8 @@ var NYX_DB = {
                 "def": "+ 42",
                 "will": "+ 65",
                 "intellect": "+ 43",
-                "cryoDmg": "+ 19.20%",
-                "electricDmg": "+ 19.20%"
+                "cryo_dmg": "+ 19.20%",
+                "electric_dmg": "+ 19.20%"
               },
               "text": "Xiranflow Gloves\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nWill :\n+ 65\nIntellect :\n+ 43\nCryo DMG :\n+ 19.20%\nElectric DMG :\n+ 19.20%\nGear Set (3-PC)\nXiranflow\nAttack + 15% . Whenever the wearer consumes Electrification or Corrosion , the wearer gains a number of buff stacks equal to the Status Level of the Arts Reaction consumed, with each buff stack giving Electric DMG Dealt and Nature DMG Dealt +15% for 25s . The number of buff stacks maxes out at 3 stacks. Duration of each stack is counted separately.",
               "status": "live",
@@ -164979,8 +165605,8 @@ var NYX_DB = {
                 "def": "+ 56",
                 "will": "+ 87",
                 "intellect": "+ 58",
-                "cryoDmg": "+ 11.50%",
-                "electricDmg": "+ 11.50%"
+                "cryo_dmg": "+ 11.50%",
+                "electric_dmg": "+ 11.50%"
               },
               "text": "Xiranflow Light Armor\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nWill :\n+ 87\nIntellect :\n+ 58\nCryo DMG :\n+ 11.50%\nElectric DMG :\n+ 11.50%\nGear Set (3-PC)\nXiranflow\nAttack + 15% . Whenever the wearer consumes Electrification or Corrosion , the wearer gains a number of buff stacks equal to the Status Level of the Arts Reaction consumed, with each buff stack giving Electric DMG Dealt and Nature DMG Dealt +15% for 25s . The number of buff stacks maxes out at 3 stacks. Duration of each stack is counted separately.",
               "status": "live",
@@ -164989,15 +165615,85 @@ var NYX_DB = {
           ]
         }
       ],
-      "codes": [],
+      "codes": [
+        {
+          "code": "ENDFIELDRENEW",
+          "reward": "One Safety Helmet Sticker and 71,600 T Creds",
+          "premium": false,
+          "premiumCurrency": {
+            "name": "Oroberyl",
+            "needle": "oroberyl",
+            "aliases": [
+              "originium"
+            ],
+            "icon": null
+          },
+          "added": "2026-07-14",
+          "firstSeen": "2026-07-16T11:46:47.991Z",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=ENDFIELDRENEW",
+          "redeemUrl": null
+        },
+        {
+          "code": "ZAU2SYXHWX5L4ZH",
+          "reward": "5k T Creds and Ten Arms Insp Kits",
+          "premium": false,
+          "premiumCurrency": {
+            "name": "Oroberyl",
+            "needle": "oroberyl",
+            "aliases": [
+              "originium"
+            ],
+            "icon": null
+          },
+          "added": "2026-05-05",
+          "firstSeen": "2026-07-16T11:46:47.991Z",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=ZAU2SYXHWX5L4ZH",
+          "redeemUrl": null
+        },
+        {
+          "code": "ENDFIELD4PC",
+          "reward": "Two Advanced Combat Records, Two Arms Insp Kits, and 13k T Creds Pc Only",
+          "premium": false,
+          "premiumCurrency": {
+            "name": "Oroberyl",
+            "needle": "oroberyl",
+            "aliases": [
+              "originium"
+            ],
+            "icon": null
+          },
+          "added": "2026-05-03",
+          "firstSeen": "2026-07-16T11:46:47.991Z",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=ENDFIELD4PC",
+          "redeemUrl": null
+        },
+        {
+          "code": "ENDFIELDGIFT",
+          "reward": "150 Oroberyl, 20 Intermediate Combat Records, 20 Arms Insp Kits, and 10k T Creds",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Oroberyl",
+            "needle": "oroberyl",
+            "aliases": [
+              "originium"
+            ],
+            "icon": null
+          },
+          "added": "2026-05-03",
+          "firstSeen": "2026-07-16T11:46:47.991Z",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=ENDFIELDGIFT",
+          "redeemUrl": null
+        }
+      ],
       "banners": {
         "name": "Arknights: Endfield",
         "freshness": {
-          "status": "fresh",
-          "checkedAt": "2026-07-17T11:11:02.378Z",
+          "status": "stale",
+          "checkedAt": "2026-07-18T19:24:04.058Z",
           "lastSuccessfulFetch": "2026-07-17T11:11:02.378Z",
           "lastValidUpdate": "2026-07-17T11:11:02.378Z",
-          "source": "game8"
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": "1.4 Phase 1",

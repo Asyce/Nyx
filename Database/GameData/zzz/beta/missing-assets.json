@@ -8,22 +8,6 @@
     "gamedataAssetPath": "IconRole67.webp"
   },
   {
-    "path": "GameData/zzz/assets/agents/icons/IconRole66.webp",
-    "gamedataAssetPath": "IconRole66.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/agents/partner-icons/IconRoleCircle66.webp",
-    "gamedataAssetPath": "IconRoleCircle66.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/agents/role-icons/IconRole66.webp",
-    "gamedataAssetPath": "IconRole66.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/bangboos/BangbooGarageRole48.webp",
-    "gamedataAssetPath": "BangbooGarageRole48.webp"
-  },
-  {
     "path": "GameData/zzz/assets/monsters/Monster_UVARaven.webp",
     "gamedataAssetPath": "Monster_UVARaven.webp"
   },
@@ -34,10 +18,6 @@
   {
     "path": "GameData/zzz/assets/monsters/Monster_MazingerGoldenBomb.webp",
     "gamedataAssetPath": "Monster_MazingerGoldenBomb.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/monsters/Monster_GirReborn.webp",
-    "gamedataAssetPath": "Monster_GirReborn.webp"
   },
   {
     "path": "GameData/zzz/assets/monsters/Monster_HeavySoldierPro.webp",
@@ -54,18 +34,6 @@
   {
     "path": "GameData/zzz/assets/monsters/Monster_UVARavenPro.webp",
     "gamedataAssetPath": "Monster_UVARavenPro.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/items/Activity_SummerTideTreasure_SalesIcon.webp",
-    "gamedataAssetPath": "Activity_SummerTideTreasure_SalesIcon.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/items/AvatarSkillLight01.webp",
-    "gamedataAssetPath": "AvatarSkillLight01.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/items/AvatarSkillLight02.webp",
-    "gamedataAssetPath": "AvatarSkillLight02.webp"
   },
   {
     "path": "GameData/zzz/assets/items/Analeptic.webp",
@@ -132,6 +100,10 @@
     "gamedataAssetPath": "Skin_RemielleMoonlightWhispers.webp"
   },
   {
+    "path": "GameData/zzz/assets/items/Skin_RemielleSeashadePasSeul.webp",
+    "gamedataAssetPath": "Skin_RemielleSeashadePasSeul.webp"
+  },
+  {
     "path": "GameData/zzz/assets/items/Skin_SigridTraversing.webp",
     "gamedataAssetPath": "Skin_SigridTraversing.webp"
   },
@@ -148,6 +120,10 @@
     "gamedataAssetPath": "LiveWallpaper61.webp"
   },
   {
+    "path": "GameData/zzz/assets/items/LiveWallpaper_Remielle_SwimmingSuit.webp",
+    "gamedataAssetPath": "LiveWallpaper_Remielle_SwimmingSuit.webp"
+  },
+  {
     "path": "GameData/zzz/assets/items/PhotowallDecoration5.webp",
     "gamedataAssetPath": "PhotowallDecoration5.webp"
   },
@@ -156,68 +132,48 @@
     "gamedataAssetPath": "AvatarPose01.webp"
   },
   {
-    "path": "GameData/zzz/assets/items/Card02.webp",
-    "gamedataAssetPath": "Card02.webp"
+    "path": "GameData/zzz/assets/items/Zenkov_WeaponB_001_Blueprint.webp",
+    "gamedataAssetPath": "Zenkov_WeaponB_001_Blueprint.webp"
   },
   {
-    "path": "GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_03.webp",
-    "gamedataAssetPath": "SummerTideTreasure_DroopItemIcon_03.webp"
+    "path": "GameData/zzz/assets/items/Zenkov_WeaponB_004_Blueprint.webp",
+    "gamedataAssetPath": "Zenkov_WeaponB_004_Blueprint.webp"
   },
   {
-    "path": "GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_01.webp",
-    "gamedataAssetPath": "SummerTideTreasure_DroopItemIcon_01.webp"
+    "path": "GameData/zzz/assets/items/Zenkov_WeaponB_002_Blueprint.webp",
+    "gamedataAssetPath": "Zenkov_WeaponB_002_Blueprint.webp"
   },
   {
-    "path": "GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_04.webp",
-    "gamedataAssetPath": "SummerTideTreasure_DroopItemIcon_04.webp"
+    "path": "GameData/zzz/assets/items/Zenkov_WeaponB_005_Blueprint.webp",
+    "gamedataAssetPath": "Zenkov_WeaponB_005_Blueprint.webp"
   },
   {
-    "path": "GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_05.webp",
-    "gamedataAssetPath": "SummerTideTreasure_DroopItemIcon_05.webp"
+    "path": "GameData/zzz/assets/items/Zenkov_WeaponB_003_Blueprint.webp",
+    "gamedataAssetPath": "Zenkov_WeaponB_003_Blueprint.webp"
   },
   {
-    "path": "GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_11.webp",
-    "gamedataAssetPath": "SummerTideTreasure_DroopItemIcon_11.webp"
+    "path": "GameData/zzz/assets/items/Zenkov_WeaponB_006_Blueprint.webp",
+    "gamedataAssetPath": "Zenkov_WeaponB_006_Blueprint.webp"
   },
   {
-    "path": "GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_08.webp",
-    "gamedataAssetPath": "SummerTideTreasure_DroopItemIcon_08.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_13.webp",
-    "gamedataAssetPath": "SummerTideTreasure_DroopItemIcon_13.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_06.webp",
-    "gamedataAssetPath": "SummerTideTreasure_DroopItemIcon_06.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_02.webp",
-    "gamedataAssetPath": "SummerTideTreasure_DroopItemIcon_02.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_09.webp",
-    "gamedataAssetPath": "SummerTideTreasure_DroopItemIcon_09.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_12.webp",
-    "gamedataAssetPath": "SummerTideTreasure_DroopItemIcon_12.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_10.webp",
-    "gamedataAssetPath": "SummerTideTreasure_DroopItemIcon_10.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_07.webp",
-    "gamedataAssetPath": "SummerTideTreasure_DroopItemIcon_07.webp"
+    "path": "GameData/zzz/assets/items/Zenkov_Box_Blueprint.webp",
+    "gamedataAssetPath": "Zenkov_Box_Blueprint.webp"
   },
   {
     "path": "GameData/zzz/assets/items/icon_Wise_Back_WaistOrnament_Default.webp",
     "gamedataAssetPath": "icon_Wise_Back_WaistOrnament_Default.webp"
   },
   {
+    "path": "GameData/zzz/assets/items/icon_Wise_Head_Headgear_06.webp",
+    "gamedataAssetPath": "icon_Wise_Head_Headgear_06.webp"
+  },
+  {
     "path": "GameData/zzz/assets/items/icon_Wise_Head_Glass_06.webp",
     "gamedataAssetPath": "icon_Wise_Head_Glass_06.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/icon_Belle_Head_Headgear_06.webp",
+    "gamedataAssetPath": "icon_Belle_Head_Headgear_06.webp"
   },
   {
     "path": "GameData/zzz/assets/items/icon_Belle_Head_Glass_06.webp",

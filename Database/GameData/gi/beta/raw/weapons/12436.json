@@ -343,7 +343,7 @@
   "refinement": {
     "1": {
       "name": "",
-      "desc": "Triggering an elemental reaction increases the character's Elemental Mastery by <color=#99FFFFFF>64</color> for 12s, and when a Stellar-Conduct/Stellar Swirl reaction is triggered, ATK is also increased by <color=#99FFFFFF>16%</color> for 12s. The aforementioned effects can still trigger even when the equipping character is not on the field.",
+      "desc": "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by <color=#99FFFFFF>64</color> for the next 12s, while triggering a Stellar Glimmer reaction increases their ATK by <color=#99FFFFFF>16%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
       "param_list": [
         64,
         12,
@@ -357,7 +357,7 @@
     },
     "2": {
       "name": "",
-      "desc": "Triggering an elemental reaction increases the character's Elemental Mastery by <color=#99FFFFFF>80</color> for 12s, and when a Stellar-Conduct/Stellar Swirl reaction is triggered, ATK is also increased by <color=#99FFFFFF>20%</color> for 12s. The aforementioned effects can still trigger even when the equipping character is not on the field.",
+      "desc": "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by <color=#99FFFFFF>80</color> for the next 12s, while triggering a Stellar Glimmer reaction increases their ATK by <color=#99FFFFFF>20%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
       "param_list": [
         80,
         12,
@@ -371,7 +371,7 @@
     },
     "3": {
       "name": "",
-      "desc": "Triggering an elemental reaction increases the character's Elemental Mastery by <color=#99FFFFFF>96</color> for 12s, and when a Stellar-Conduct/Stellar Swirl reaction is triggered, ATK is also increased by <color=#99FFFFFF>24%</color> for 12s. The aforementioned effects can still trigger even when the equipping character is not on the field.",
+      "desc": "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by <color=#99FFFFFF>96</color> for the next 12s, while triggering a Stellar Glimmer reaction increases their ATK by <color=#99FFFFFF>24%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
       "param_list": [
         96,
         12,
@@ -385,7 +385,7 @@
     },
     "4": {
       "name": "",
-      "desc": "Triggering an elemental reaction increases the character's Elemental Mastery by <color=#99FFFFFF>112</color> for 12s, and when a Stellar-Conduct/Stellar Swirl reaction is triggered, ATK is also increased by <color=#99FFFFFF>28%</color> for 12s. The aforementioned effects can still trigger even when the equipping character is not on the field.",
+      "desc": "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by <color=#99FFFFFF>112</color> for the next 12s, while triggering a Stellar Glimmer reaction increases their ATK by <color=#99FFFFFF>28%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
       "param_list": [
         112,
         12,
@@ -399,7 +399,7 @@
     },
     "5": {
       "name": "",
-      "desc": "Triggering an elemental reaction increases the character's Elemental Mastery by <color=#99FFFFFF>128</color> for 12s, and when a Stellar-Conduct/Stellar Swirl reaction is triggered, ATK is also increased by <color=#99FFFFFF>32%</color> for 12s. The aforementioned effects can still trigger even when the equipping character is not on the field.",
+      "desc": "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by <color=#99FFFFFF>128</color> for the next 12s, while triggering a Stellar Glimmer reaction increases their ATK by <color=#99FFFFFF>32%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
       "param_list": [
         128,
         12,

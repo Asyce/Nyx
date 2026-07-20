@@ -1,7 +1,7 @@
 {
   "id": 1591,
   "icon": "IconRole66",
-  "name": "Avatar_Female_Size03_Sigrid",
+  "name": "Sigrid",
   "code_name": "Avatar_Female_Size03_Sigrid_En",
   "rarity": 4,
   "weapon_type": {
@@ -30,7 +30,7 @@
     "stature": "...",
     "unlock_condition": [
       "Obtain Agent",
-      "Partner_Unlock_Condition_Chapter031",
+      "...",
       "Complete the \"Anby's Problem\" commission"
     ],
     "trust_lv": {
@@ -42,13 +42,13 @@
   },
   "skin": {
     "3115910": {
-      "name": "AvatarSkin_Sigrid_Name_000",
-      "desc": "AvatarSkin_Sigrid_Desc_000",
+      "name": "...",
+      "desc": "...",
       "image": "IconRole66"
     },
     "3115911": {
-      "name": "AvatarSkin_Sigrid_Name_001",
-      "desc": "AvatarSkin_Sigrid_Desc_001",
+      "name": "...",
+      "desc": "...",
       "image": "IconRole66_01"
     }
   },
@@ -85,7 +85,7 @@
       "Pierce",
       "Ice",
       "Female",
-      "Camp7",
+      "Camp16",
       "Size03",
       "AidTypeParry",
       "Sigrid",
@@ -329,17 +329,17 @@
     "basic": {
       "description": [
         {
-          "name": "Basic Attack: Glacial Spearpoint",
-          "desc": "Press <IconMap:Icon_Normal> to activate:\nLaunch up to 4 Slashes forward, dealing <color=#98EFF0>Ice DMG</color>;\nThe 4th hit of <color=#FFFFFF>[Basic Attack: Frosty Spearhead]</color> is considered a <color=#FFFFFF>[Draw Stance]</color>;",
+          "name": "Basic Attack: Frost-Tipped Spear",
+          "desc": "Press <IconMap:Icon_Normal> to activate:\nLaunch up to four forward slashes, dealing <color=#98EFF0>Ice DMG</color>.\nThe 4th hit of <color=#FFFFFF>Basic Attack: Frost-Tipped Spear</color> is considered an <Term:1000029></Term> attack.",
           "potential": []
         },
         {
-          "name": "Basic Attack: Gun-Draw Stance",
-          "desc": "While in <color=#FFFFFF>[Sky Patrol Gunstance]</color> with available <color=#FFFFFF>[Basic Attack: Gun Retraction]</color> charges, hold <IconMap:Icon_Normal> to activate:\nActivates the corresponding <color=#FFFFFF>[Basic Attack: Gun Retraction]</color> based on the current branch stage, dealing <color=#98EFF0>Ice DMG</color>;\n<color=#FFFFFF>[Basic Attack: Gun Retraction]</color> has three stages. Each use advances the stage count. After activating Stage 3 of <color=#FFFFFF>[Basic Attack: Gun Retraction]</color>, the stage count resets;\nIf Sigrid is attacked during the charge Stance of Stages 1 or 2 of <color=#FFFFFF>[Basic Attack: Gun Retraction]</color>, she will Block with her shield. Upon a successful Block, the incoming attack DMG is negated, the <color=#FFFFFF>[Sky Patrol Gunstance]</color> state is refreshed, and one <color=#FFFFFF>[Basic Attack: Gun Retraction]</color> charge is granted. After a successful Block, press <IconMap:Icon_Normal> to activate <color=#FFFFFF>[Basic Attack: Gun Retraction]</color> at the corresponding stage;\n<color=#FFFFFF>[Basic Attack: Gun Retraction]</color> used after <color=#FFFFFF>[Basic Attack: Piercing Frost Tip]</color> retains the current stage count of <color=#FFFFFF>[Basic Attack: Piercing Frost Tip]</color>;\nDMG received during this skill is reduced by 60%;\nAnti-Interrupt level is increased during this skill;\nCharacter is invulnerable during Stage 3 of <color=#FFFFFF>[Basic Attack: Gun Retraction]</color>.",
+          "name": "Basic Attack: Converging Spear",
+          "desc": "While in the <Term:1000030></Term> state and with remaining <color=#FFFFFF>[Basic Attack: Converging Spear]</color> attacks, hold <IconMap:Icon_Normal> to activate:\nLaunch the corresponding <color=#FFFFFF>[Basic Attack: Converging Spear]</color> based on the current stage, dealing <color=#98EFF0>Ice DMG</color>.\n<color=#FFFFFF>[Basic Attack: Converging Spear]</color> has three stages. Each use advances it to the next stage. After performing the third stage of <color=#FFFFFF>[Basic Attack: Converging Spear]</color>, it resets to the first stage.\nIf Sigrid is attacked while charging the 1st or 2nd stage of <color=#FFFFFF>[Basic Attack: Converging Spear]</color>, she blocks with her shield. On a successful block, the attack's DMG is negated, the Daze of the next <color=#FFFFFF>[Basic Attack: Converging Spear]</color> is increased by 100%, the <Term:1000030></Term> state is refreshed, and she gains one use of <color=#FFFFFF>[Basic Attack: Converging Spear]</color>. Press <IconMap:Icon_Normal> after a successful block to perform the corresponding stage of <color=#FFFFFF>[Basic Attack: Converging Spear]</color>.\n<color=#FFFFFF>[Basic Attack: Converging Spear]</color> performed after <color=#FFFFFF>[Basic Attack: Frost-Tipped Spear]</color> retains the current stage of <color=#FFFFFF>[Basic Attack: Frost-Tipped Spear]</color>.\nDMG taken is reduced by 60% during this skill.\nAnti-Interrupt Level is increased during this skill.\nCharacter is Invulnerable during the third stage of <color=#FFFFFF>[Basic Attack: Converging Spear]</color>.",
           "potential": []
         },
         {
-          "name": "Basic Attack: Glacial Spearpoint",
+          "name": "Basic Attack: Frost-Tipped Spear",
           "param": [
             {
               "name": "1st-Hit DMG Multiplier",
@@ -424,23 +424,23 @@
               "desc": "{Skill:1591005, Prop:1001}",
               "param": {
                 "1591005": {
-                  "main": 25440,
-                  "growth": 2320,
+                  "main": 22100,
+                  "growth": 2010,
                   "format": "%",
-                  "damage_percentage": 25440,
-                  "damage_percentage_growth": 2320,
-                  "stun_ratio": 15860,
-                  "stun_ratio_growth": 730,
-                  "sp_recovery": 48450,
+                  "damage_percentage": 22100,
+                  "damage_percentage_growth": 2010,
+                  "stun_ratio": 13850,
+                  "stun_ratio_growth": 630,
+                  "sp_recovery": 41850,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 370150,
+                  "fever_recovery": 319825,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 13458,
+                  "attribute_infliction": 11624,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 14417
+                  "ether_purify": 12584
                 }
               },
               "potential": []
@@ -528,23 +528,23 @@
               "desc": "{Skill:1591005, Prop:1002}",
               "param": {
                 "1591005": {
-                  "main": 15860,
-                  "growth": 730,
+                  "main": 13850,
+                  "growth": 630,
                   "format": "%",
-                  "damage_percentage": 25440,
-                  "damage_percentage_growth": 2320,
-                  "stun_ratio": 15860,
-                  "stun_ratio_growth": 730,
-                  "sp_recovery": 48450,
+                  "damage_percentage": 22100,
+                  "damage_percentage_growth": 2010,
+                  "stun_ratio": 13850,
+                  "stun_ratio_growth": 630,
+                  "sp_recovery": 41850,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 370150,
+                  "fever_recovery": 319825,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 13458,
+                  "attribute_infliction": 11624,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 14417
+                  "ether_purify": 12584
                 }
               },
               "potential": []
@@ -553,30 +553,30 @@
           "potential": []
         },
         {
-          "name": "Basic Attack: Rifle Stance Phase 1",
+          "name": "Basic Attack: Converging Spear 1st Stage",
           "param": [
             {
               "name": "DMG Multiplier",
               "desc": "{Skill:1591007, Prop:1001}",
               "param": {
                 "1591007": {
-                  "main": 35080,
-                  "growth": 3190,
+                  "main": 35830,
+                  "growth": 3260,
                   "format": "%",
-                  "damage_percentage": 35080,
-                  "damage_percentage_growth": 3190,
-                  "stun_ratio": 9360,
-                  "stun_ratio_growth": 430,
-                  "sp_recovery": 30620,
+                  "damage_percentage": 35830,
+                  "damage_percentage_growth": 3260,
+                  "stun_ratio": 8630,
+                  "stun_ratio_growth": 400,
+                  "sp_recovery": 28220,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 234025,
+                  "fever_recovery": 215600,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 8503,
+                  "attribute_infliction": 7836,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 8504
+                  "ether_purify": 7837
                 }
               },
               "potential": []
@@ -586,23 +586,23 @@
               "desc": "{Skill:1591007, Prop:1002}",
               "param": {
                 "1591007": {
-                  "main": 9360,
-                  "growth": 430,
+                  "main": 8630,
+                  "growth": 400,
                   "format": "%",
-                  "damage_percentage": 35080,
-                  "damage_percentage_growth": 3190,
-                  "stun_ratio": 9360,
-                  "stun_ratio_growth": 430,
-                  "sp_recovery": 30620,
+                  "damage_percentage": 35830,
+                  "damage_percentage_growth": 3260,
+                  "stun_ratio": 8630,
+                  "stun_ratio_growth": 400,
+                  "sp_recovery": 28220,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 234025,
+                  "fever_recovery": 215600,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 8503,
+                  "attribute_infliction": 7836,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 8504
+                  "ether_purify": 7837
                 }
               },
               "potential": []
@@ -611,30 +611,30 @@
           "potential": []
         },
         {
-          "name": "Basic Attack: Furled Shot 2",
+          "name": "Basic Attack: Converging Spear 2nd Stage",
           "param": [
             {
               "name": "DMG Multiplier",
               "desc": "{Skill:1591008, Prop:1001}",
               "param": {
                 "1591008": {
-                  "main": 55190,
-                  "growth": 5020,
+                  "main": 60910,
+                  "growth": 5540,
                   "format": "%",
-                  "damage_percentage": 55190,
-                  "damage_percentage_growth": 5020,
-                  "stun_ratio": 15590,
-                  "stun_ratio_growth": 710,
-                  "sp_recovery": 51020,
+                  "damage_percentage": 60910,
+                  "damage_percentage_growth": 5540,
+                  "stun_ratio": 14310,
+                  "stun_ratio_growth": 660,
+                  "sp_recovery": 46820,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 389675,
+                  "fever_recovery": 357775,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 14169,
+                  "attribute_infliction": 13003,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 14170
+                  "ether_purify": 13004
                 }
               },
               "potential": []
@@ -644,23 +644,23 @@
               "desc": "{Skill:1591008, Prop:1002}",
               "param": {
                 "1591008": {
-                  "main": 15590,
-                  "growth": 710,
+                  "main": 14310,
+                  "growth": 660,
                   "format": "%",
-                  "damage_percentage": 55190,
-                  "damage_percentage_growth": 5020,
-                  "stun_ratio": 15590,
-                  "stun_ratio_growth": 710,
-                  "sp_recovery": 51020,
+                  "damage_percentage": 60910,
+                  "damage_percentage_growth": 5540,
+                  "stun_ratio": 14310,
+                  "stun_ratio_growth": 660,
+                  "sp_recovery": 46820,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 389675,
+                  "fever_recovery": 357775,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 14169,
+                  "attribute_infliction": 13003,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 14170
+                  "ether_purify": 13004
                 }
               },
               "potential": []
@@ -669,30 +669,30 @@
           "potential": []
         },
         {
-          "name": "Basic Attack: Reined Strike Phase 3",
+          "name": "Basic Attack: Converging Spear 3rd Stage",
           "param": [
             {
               "name": "DMG Multiplier",
               "desc": "{Skill:1591022, Prop:1001}",
               "param": {
                 "1591022": {
-                  "main": 71060,
-                  "growth": 6460,
+                  "main": 81460,
+                  "growth": 7410,
                   "format": "%",
-                  "damage_percentage": 71060,
-                  "damage_percentage_growth": 6460,
-                  "stun_ratio": 19260,
-                  "stun_ratio_growth": 880,
-                  "sp_recovery": 63010,
+                  "damage_percentage": 81460,
+                  "damage_percentage_growth": 7410,
+                  "stun_ratio": 19620,
+                  "stun_ratio_growth": 900,
+                  "sp_recovery": 64200,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 481525,
+                  "fever_recovery": 490600,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 17500,
+                  "attribute_infliction": 17833,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 17501
+                  "ether_purify": 17834
                 }
               },
               "potential": []
@@ -702,23 +702,23 @@
               "desc": "{Skill:1591022, Prop:1002}",
               "param": {
                 "1591022": {
-                  "main": 19260,
-                  "growth": 880,
+                  "main": 19620,
+                  "growth": 900,
                   "format": "%",
-                  "damage_percentage": 71060,
-                  "damage_percentage_growth": 6460,
-                  "stun_ratio": 19260,
-                  "stun_ratio_growth": 880,
-                  "sp_recovery": 63010,
+                  "damage_percentage": 81460,
+                  "damage_percentage_growth": 7410,
+                  "stun_ratio": 19620,
+                  "stun_ratio_growth": 900,
+                  "sp_recovery": 64200,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 481525,
+                  "fever_recovery": 490600,
                   "fever_recovery_growth": 0,
-                  "attribute_infliction": 17500,
+                  "attribute_infliction": 17833,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 17501
+                  "ether_purify": 17834
                 }
               },
               "potential": []
@@ -779,22 +779,22 @@
     "dodge": {
       "description": [
         {
-          "name": "Dodge: Cloud Step",
-          "desc": "Press <IconMap:Icon_Evade> to activate:\nA quick dash dodge;\nCharacter is invulnerable while using this skill.",
+          "name": "Dodge: Cloudstep",
+          "desc": "Press <IconMap:Icon_Evade> to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
-          "name": "Dash Attack: Wind Chase",
-          "desc": "Press <IconMap:Icon_Normal> during a dodge to activate:\nPerform a forward slash, dealing <color=#F0D12B>Physical DMG</color>.",
+          "name": "Dash Attack: Windchase",
+          "desc": "Press <IconMap:Icon_Normal> during a dodge to activate:\nPerform a forward cleaving slash, dealing <color=#F0D12B>Physical DMG</color>.",
           "potential": []
         },
         {
-          "name": "Dodge Counter: Parting Shot",
-          "desc": "Press <IconMap:Icon_Normal> during a <color=#FFFFFF>Perfect Dodge</color> to activate:\nCondenses ice at the spear tip to unleash a powerful counter against enemies ahead, dealing <color=#98EFF0>Ice DMG</color>;\nA <color=#FFFFFF>Dodge Counter: Parting Shot</color> used after <color=#FFFFFF>Basic Attack: Frostbite Spearhead</color> retains the number of stages of <color=#FFFFFF>Basic Attack: Frostbite Spearhead</color>;\nThis skill is considered a <color=#FFFFFF>Draw Stance</color>;\nCharacter is invulnerable while using this skill.",
+          "name": "Dodge Counter: Counterthrust",
+          "desc": "Press <IconMap:Icon_Normal> during a <color=#FFFFFF>Perfect Dodge</color> to activate:\nCondense frost around the spearhead before unleashing a powerful counterattack, dealing <color=#98EFF0>Ice DMG</color>.\nWhen performed after <color=#FFFFFF>Basic Attack: Frost-Tipped Spear</color>, <color=#FFFFFF>Dodge Counter: Counterthrust</color> retains the current stage of <color=#FFFFFF>Basic Attack: Frost-Tipped Spear</color>.\nThis skill is considered an <Term:1000029></Term> attack.\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
-          "name": "Dash Attack: Wind Chase",
+          "name": "Dash Attack: Windchase",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -852,7 +852,7 @@
           "potential": []
         },
         {
-          "name": "Dodge Counter: Parting Shot",
+          "name": "Dodge Counter: Counterthrust",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -962,22 +962,22 @@
     "special": {
       "description": [
         {
-          "name": "Special Attack: Ice Blossom",
-          "desc": "Press <IconMap:Icon_Special> to activate:\nLunge forward with three consecutive thrusts, dealing <color=#98EFF0>Ice DMG</color>.\nAnti-Interrupt level is increased while using this skill.",
+          "name": "Special Attack: Frostflower",
+          "desc": "Press <IconMap:Icon_Special> to activate:\nPerform three forward thrusts, dealing <color=#98EFF0>Ice DMG</color>.\nAnti-Interrupt level is increased while using this skill.",
           "potential": []
         },
         {
-          "name": "Enhance Special: Chaotic Jade",
-          "desc": "When Energy is sufficient and not in the <color=#FFFFFF>[Sky-Patrol Spearstance]</color> state, press <IconMap:Icon_SpecialReady> to activate:\nLaunch a powerful series of forward thrusts, dealing massive <color=#98EFF0>Ice DMG</color>;\nWhen hit by an enemy attack during the skill's thrusts, Sigrid uses her shield to Block. A successful Block negates the attack's DMG, refreshes the <color=#FFFFFF>[Sky-Patrol Spearstance]</color> state, and grants one opportunity to activate <color=#FFFFFF>[Basic Attack: Spear-Draw Stance]</color>; press <IconMap:Icon_Normal> after a successful Block to activate the corresponding hit of <color=#FFFFFF>[Basic Attack: Spear-Draw Stance]</color>;\nThis skill is considered a <color=#FFFFFF>[Spear-Draw Stance]</color>;\nCharacter is invulnerable while using this skill.",
+          "name": "EX Special Attack: Scattered Jade",
+          "desc": "With enough Energy and not in <Term:1000030></Term> state, press <IconMap:Icon_SpecialReady> to activate:\nLaunches a powerful series of thrusts forward, dealing massive <color=#98EFF0>Ice DMG</color>.\nThis skill is counted as <Term:1000029></Term>.\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
-          "name": "Blasting Enhance Special: Jade Shatter",
-          "desc": "When Energy is sufficient and in the <color=#FFFFFF>[Sky-Patrol Stance]</color> state, press <IconMap:Icon_SpecialReady> to activate:\nLaunch a powerful series of forward thrusting strikes, dealing massive <color=#98EFF0>Ice DMG</color>;\nIf Sigrid is struck by an enemy attack during the thrusting strikes, she will Block with her shield. Upon a successful Block, the incoming attack DMG is negated, the <color=#FFFFFF>[Sky-Patrol Stance]</color> state is refreshed, and an opportunity to use <color=#FFFFFF>[Basic Attack: Rifle-Retract Form]</color> is granted. Press <IconMap:Icon_Normal> after a successful Block to use the corresponding sequence of <color=#FFFFFF>[Basic Attack: Rifle-Retract Form]</color>;\nThis skill is considered a <color=#FFFFFF>[Rifle-Draw Form]</color>;\nCharacter is invulnerable while using this skill.",
+          "name": "EX Special Attack: Shattered Jade",
+          "desc": "With enough Energy and in <Term:1000030></Term> state, press <IconMap:Icon_SpecialReady> to activate:\nLaunches a powerful series of forward rushing thrusts, dealing massive <color=#98EFF0>Ice DMG</color>.\nThis skill is counted as <Term:1000029></Term>.\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
-          "name": "Special Attack: Ice Blossom",
+          "name": "Special Attack: Frostflower",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -989,8 +989,8 @@
                   "format": "%",
                   "damage_percentage": 5370,
                   "damage_percentage_growth": 490,
-                  "stun_ratio": 2750,
-                  "stun_ratio_growth": 130,
+                  "stun_ratio": 4220,
+                  "stun_ratio_growth": 200,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
                   "fever_recovery": 210925,
@@ -1010,13 +1010,13 @@
               "desc": "{Skill:1591010, Prop:1002}",
               "param": {
                 "1591010": {
-                  "main": 2750,
-                  "growth": 130,
+                  "main": 4220,
+                  "growth": 200,
                   "format": "%",
                   "damage_percentage": 5370,
                   "damage_percentage_growth": 490,
-                  "stun_ratio": 2750,
-                  "stun_ratio_growth": 130,
+                  "stun_ratio": 4220,
+                  "stun_ratio_growth": 200,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
                   "fever_recovery": 210925,
@@ -1035,7 +1035,7 @@
           "potential": []
         },
         {
-          "name": "Enhance Special: Chaotic Jade",
+          "name": "EX Special Attack: Scattered Jade",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -1098,18 +1098,18 @@
           "potential": []
         },
         {
-          "name": "Blasting Enhance Special: Jade Shatter",
+          "name": "EX Special Attack: Shattered Jade",
           "param": [
             {
               "name": "DMG Multiplier",
               "desc": "{Skill:1591012, Prop:1001}",
               "param": {
                 "1591012": {
-                  "main": 82380,
-                  "growth": 7490,
+                  "main": 104780,
+                  "growth": 9530,
                   "format": "%",
-                  "damage_percentage": 82380,
-                  "damage_percentage_growth": 7490,
+                  "damage_percentage": 104780,
+                  "damage_percentage_growth": 9530,
                   "stun_ratio": 36260,
                   "stun_ratio_growth": 1650,
                   "sp_recovery": 0,
@@ -1134,8 +1134,8 @@
                   "main": 36260,
                   "growth": 1650,
                   "format": "%",
-                  "damage_percentage": 82380,
-                  "damage_percentage_growth": 7490,
+                  "damage_percentage": 104780,
+                  "damage_percentage_growth": 9530,
                   "stun_ratio": 36260,
                   "stun_ratio_growth": 1650,
                   "sp_recovery": 0,
@@ -1213,28 +1213,28 @@
     "chain": {
       "description": [
         {
-          "name": "Chain Attack: Frost Ground Roll",
-          "desc": "When a <color=#FFFFFF>Chain Attack</color> is triggered, select the character to activate:\nLaunch a powerful Pierce at enemies ahead, dealing massive <color=#98EFF0>Ice DMG</color>;\nGain the <color=#FFFFFF>[Tempered]</color> effect, increasing DMG dealt by subsequent <color=#FFFFFF>[Basic Attack: Gun Stow]</color> by 25%, lasting 50s;\nWhen this skill hits an Elite or Boss-Rank enemy in a Stunned state for the first time, the current <color=#FFFFFF>[Basic Attack: Gun Stow]</color> stage count is recorded and reset, entering <color=#FFFFFF>[Formation Break]</color> state. This effect can trigger at most once per Stun;\nDuring <color=#FFFFFF>[Formation Break]</color> state, the duration of <color=#FFFFFF>[Sky Patrol Stance]</color> does not decrease, and holding <IconMap:Icon_Normal> allows continuous use of <color=#FFFFFF>[Basic Attack: Gun Stow]</color> Stages 1 through 3;\nAfter using <color=#FFFFFF>[Basic Attack: Gun Stow]</color> Stage 3, <color=#FFFFFF>[Formation Break]</color> state ends and the <color=#FFFFFF>[Basic Attack: Gun Stow]</color> stage count is restored;\nThis skill is treated as <color=#FFFFFF>[Gun Draw]</color>;\nDuring <color=#FFFFFF>[Formation Break]</color> state, <color=#FFFFFF>[Basic Attack: Gun Stow]</color> hitting Stunned enemies will not open the Chain Attack window;\nCharacter is invulnerable while using this skill.",
+          "name": "Chain Attack: Encroaching Ice",
+          "desc": "When a <color=#FFFFFF>Chain Attack</color> is triggered, select the character to activate:\nPerform a powerful piercing attack against enemies ahead, dealing massive <color=#98EFF0>Ice DMG</color>;\nUpon activating this skill, gain <color=#FFFFFF>Tempered</color>, increasing the DMG dealt by subsequent <color=#FFFFFF>Basic Attack: Converging Spear</color> attacks by 20% for 50s;\nWhen this skill hits a Stunned Elite or Boss enemy for the first time, the current stage of <color=#FFFFFF>Basic Attack: Converging Spear</color> is recorded and reset before entering the <Term:1000028></Term> state,\nWhile in the <Term:1000028></Term> state, the duration of <Term:1000030></Term> does not decrease. Hold <IconMap:Icon_Normal> to continuously perform the 1st through 3rd stages of <color=#FFFFFF>Basic Attack: Converging Spear</color>; After performing the 3rd stage of <color=#FFFFFF>Basic Attack: Converging Spear</color>, the <Term:1000028></Term> state ends and the recorded stage of <color=#FFFFFF>Basic Attack: Converging Spear</color> is restored;\nThe <Term:1000028></Term> state can only trigger once per Stun on the same target before the target recovers from the Stunned state.\nThis skill is considered a <Term:1000029></Term> attack;\nWhile in the <Term:1000028></Term> state, <color=#FFFFFF>Basic Attack: Converging Spear</color> does not trigger the Chain Attack window when hitting Stunned enemies;\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
-          "name": "Ultimate: Frost Sky",
-          "desc": "When Decibel Rating is at <color=#FFFFFF>Maximum</color>, press <IconMap:Icon_UltimateReady> to activate:\nChannels the power of extreme cold to unleash a devastating series of dashes forward, dealing massive <color=#98EFF0>Ice DMG</color>;\nThis skill is considered a <color=#FFFFFF>Draw</color>;\nCharacter is invulnerable while using this skill.",
+          "name": "Ultimate: Frozen Heavens",
+          "desc": "When Decibel Rating is at <color=#FFFFFF>Maximum</color>, press <IconMap:Icon_UltimateReady> to activate:\nGather the power of extreme cold before unleashing a devastating series of lunging attacks, dealing massive <color=#98EFF0>Ice DMG</color>.\nThis skill is considered an <Term:1000029></Term> attack.\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
-          "name": "Chain Attack: Frost Ground Roll",
+          "name": "Chain Attack: Encroaching Ice",
           "param": [
             {
               "name": "DMG Multiplier",
               "desc": "{Skill:1591015, Prop:1001}",
               "param": {
                 "1591015": {
-                  "main": 83870,
-                  "growth": 7630,
+                  "main": 94370,
+                  "growth": 8580,
                   "format": "%",
-                  "damage_percentage": 83870,
-                  "damage_percentage_growth": 7630,
+                  "damage_percentage": 94370,
+                  "damage_percentage_growth": 8580,
                   "stun_ratio": 13760,
                   "stun_ratio_growth": 630,
                   "sp_recovery": 0,
@@ -1259,8 +1259,8 @@
                   "main": 13760,
                   "growth": 630,
                   "format": "%",
-                  "damage_percentage": 83870,
-                  "damage_percentage_growth": 7630,
+                  "damage_percentage": 94370,
+                  "damage_percentage_growth": 8580,
                   "stun_ratio": 13760,
                   "stun_ratio_growth": 630,
                   "sp_recovery": 0,
@@ -1281,18 +1281,18 @@
           "potential": []
         },
         {
-          "name": "Ultimate: Frost Sky",
+          "name": "Ultimate: Frozen Heavens",
           "param": [
             {
               "name": "DMG Multiplier",
               "desc": "{Skill:1591016, Prop:1001}",
               "param": {
                 "1591016": {
-                  "main": 253980,
-                  "growth": 23090,
+                  "main": 218980,
+                  "growth": 19910,
                   "format": "%",
-                  "damage_percentage": 253980,
-                  "damage_percentage_growth": 23090,
+                  "damage_percentage": 218980,
+                  "damage_percentage_growth": 19910,
                   "stun_ratio": 26580,
                   "stun_ratio_growth": 1210,
                   "sp_recovery": 0,
@@ -1317,8 +1317,8 @@
                   "main": 26580,
                   "growth": 1210,
                   "format": "%",
-                  "damage_percentage": 253980,
-                  "damage_percentage_growth": 23090,
+                  "damage_percentage": 218980,
+                  "damage_percentage_growth": 19910,
                   "stun_ratio": 26580,
                   "stun_ratio_growth": 1210,
                   "sp_recovery": 0,
@@ -1391,22 +1391,22 @@
     "assist": {
       "description": [
         {
-          "name": "Quick Assist: Guardian",
-          "desc": "When the active character is launched, press <IconMap:Icon_Switch> to activate:\nDash forward with freezing force, dealing <color=#98EFF0>Ice DMG</color>.\nCharacter is invulnerable while using this skill.",
+          "name": "Quick Assist: Iron Sentinel",
+          "desc": "When the active character is launched, press <IconMap:Icon_Switch> to activate:\nCondense ice before lunging forward, dealing <color=#98EFF0>Ice DMG</color>.\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
-          "name": "Defensive Assist: Unyielding Frost",
+          "name": "Defensive Assist: Dauntless Cold",
           "desc": "When the on-field character is about to be attacked, press <IconMap:Icon_Switch> to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
-          "name": "Assist Follow-Up: Ice Glutton",
-          "desc": "Press <IconMap:Icon_Normal> after a <color=#FFFFFF>Defensive Assist</color> to activate:\nSwing the spear upward, then slam it down with a heavy attack, dealing massive <color=#98EFF0>Ice DMG</color>;\nThis skill is considered a <color=#FFFFFF>Spear Draw Stance</color>;\nCharacter is invulnerable while using this skill.",
+          "name": "Assist Follow-Up: Devouring Frost",
+          "desc": "Press <IconMap:Icon_Normal> after a <color=#FFFFFF>Defensive Assist</color> to activate:\nSwing the spear upward before following with a powerful downward attack, dealing massive <color=#98EFF0>Ice DMG</color>.\nThis skill is considered an <Term:1000029></Term> attack.\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
-          "name": "Quick Assist: Guardian",
+          "name": "Quick Assist: Iron Sentinel",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -1464,7 +1464,7 @@
           "potential": []
         },
         {
-          "name": "Defensive Assist: Unyielding Frost",
+          "name": "Defensive Assist: Dauntless Cold",
           "param": [
             {
               "name": "Light Defensive Daze Multiplier",
@@ -1548,7 +1548,7 @@
           "potential": []
         },
         {
-          "name": "Assist Follow-Up: Ice Glutton",
+          "name": "Assist Follow-Up: Devouring Frost",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -1658,77 +1658,84 @@
   },
   "skill_list": {
     "1591001": {
-      "name": "Basic Attack: Glacial Spearhead",
+      "name": "Basic Attack: Frost-Tipped Spear",
       "desc": "<IconMap:Icon_Normal>",
       "element_type": 202,
       "hit_type": 103,
       "potential": []
     },
     "1591002": {
-      "name": "Retract",
-      "desc": "<IconMap:Icon_Normal>(On Entering or Refreshing [Knight's Focus]) (Hold)",
+      "name": "Converging Spear",
+      "desc": "<IconMap:Icon_Normal> (Entering or refreshing the Aerial Patrol Spear state) (Hold)",
       "element_type": 202,
       "hit_type": 103,
       "potential": []
     },
     "1591003": {
-      "name": "Special Attack: Ice Blossom",
+      "name": "Special Attack: Frostflower",
       "desc": "<IconMap:Icon_Special>",
       "element_type": 202,
       "hit_type": 103,
       "potential": []
     },
     "1591004": {
-      "name": "EX Special Attack: Chaotic Jade",
-      "desc": "<IconMap:Icon_SpecialReady>",
+      "name": "EX Special Attack: Scattered Jade",
+      "desc": "<IconMap:Icon_SpecialReady> (While not in the Aerial Patrol Spear state)",
       "element_type": 202,
       "hit_type": 103,
       "potential": []
     },
     "1591005": {
-      "name": "Dash Attack: Wind Chase",
-      "desc": "<IconMap:Icon_Evade> ; <IconMap:Icon_Normal>",
+      "name": "EX Special Attack: Shattered Jade",
+      "desc": "<IconMap:Icon_SpecialReady> (In the Aerial Patrol Spear state)",
       "element_type": 202,
       "hit_type": 103,
       "potential": []
     },
     "1591006": {
-      "name": "Dodge Counter: Parting Shot",
-      "desc": "<IconMap:Icon_Evade> (Perfect) ; <IconMap:Icon_Normal>",
+      "name": "Dash Attack: Windchase",
+      "desc": "<IconMap:Icon_Evade> ; <IconMap:Icon_Normal>",
       "element_type": 202,
       "hit_type": 103,
       "potential": []
     },
     "1591007": {
-      "name": "Chain Attack: Ice Blizzard Sweep",
-      "desc": "<IconMap:Icon_QTE>",
+      "name": "Dodge Counter: Counterthrust",
+      "desc": "<IconMap:Icon_Evade> (Perfect) ; <IconMap:Icon_Normal>",
       "element_type": 202,
       "hit_type": 103,
       "potential": []
     },
     "1591008": {
-      "name": "Ultimate: Frost Sky",
-      "desc": "<IconMap:Icon_UltimateReady>",
+      "name": "Chain Attack: Encroaching Ice",
+      "desc": "<IconMap:Icon_QTE>",
       "element_type": 202,
       "hit_type": 103,
       "potential": []
     },
     "1591009": {
-      "name": "Quick Assist: Guardian Patrol",
-      "desc": "<IconMap:Icon_Switch> (When Triggering Quick Assist)",
+      "name": "Ultimate: Frozen Heavens",
+      "desc": "<IconMap:Icon_UltimateReady>",
       "element_type": 202,
       "hit_type": 103,
       "potential": []
     },
     "1591010": {
-      "name": "Defensive Assist: Untouchable Lynn",
+      "name": "Quick Assist: Iron Sentinel",
+      "desc": "<IconMap:Icon_Switch> (When Triggering Quick Assist)",
+      "element_type": 202,
+      "hit_type": 103,
+      "potential": []
+    },
+    "1591011": {
+      "name": "Defensive Assist: Dauntless Cold",
       "desc": "<IconMap:Icon_Switch> (When Triggering Defensive Assist)",
       "element_type": 0,
       "hit_type": 0,
       "potential": []
     },
-    "1591011": {
-      "name": "Assist Follow-Up: Ice Glutton",
+    "1591012": {
+      "name": "Assist Follow-Up: Devouring Frost",
       "desc": "<IconMap:Icon_Normal> (After Defensive Assist)",
       "element_type": 202,
       "hit_type": 103,
@@ -1742,11 +1749,11 @@
         "id": 1591501,
         "name": [
           "Core Passive: Sky Knight",
-          "Additional Ability: Sky Alliance"
+          "Additional Ability: Legion of the Skies"
         ],
         "desc": [
-          "<color=#FFFFFF>[Basic Attack]</color> Phase 4, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Assist Follow-Up]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Draw-Fire Stance]</color>;\nWhen Sigrid uses any <color=#FFFFFF>[Draw-Fire Stance]</color> in combat, if not currently in <color=#FFFFFF>[Sky Patrol Gunstance]</color>, she enters <color=#FFFFFF>[Sky Patrol Gunstance]</color> and gains 1 use of <color=#FFFFFF>[Basic Attack: Holster Stance]</color>, storable up to 1 time;\nIn combat, while in <color=#FFFFFF>[Sky Patrol Gunstance]</color>, when Sigrid uses any <color=#FFFFFF>[Draw-Fire Stance]</color>, she can refresh <color=#FFFFFF>[Sky Patrol Gunstance]</color> and gains 1 use of <color=#FFFFFF>[Basic Attack: Holster Stance]</color>, storable up to 1 time;\nThe duration of <color=#FFFFFF>[Sky Patrol Gunstance]</color> decreases as <color=#FFFFFF>[Basic Attack: Holster Stance]</color> phases increase: at Phase 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Sky Patrol Gunstance]</color> ends, <color=#FFFFFF>[Basic Attack: Holster Stance]</color> phase decreases by 1, down to a minimum of Phase 1;\nWhen activating or refreshing <color=#FFFFFF>[Sky Patrol Gunstance]</color>, Sigrid's CRIT Rate increases by <color=#2BAD00>33%</color> and her ATK increases by <color=#2BAD00>150</color>, lasting <color=#FFFFFF>8</color>s; on repeated triggers, the duration is extended by <color=#FFFFFF>8</color>s, up to a maximum of <color=#FFFFFF>40</color>s;\nWhen Sigrid's attacks hit enemies in a Stunned state, the Stun DMG Multiplier dealt to the target increases by 20%.",
-          "Triggers when your squad has an <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nWhen triggered, your DMG dealt increases by 30%;\nWhen your attacks hit enemies afflicted with Contamination, your DMG dealt increases by <color=#FFFFFF>15%</color>"
+          "The 4th hit of a <color=#FFFFFF>[Basic Attack]</color>, or an <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Assist Follow-Up]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <Term:1000029></Term> attacks.\nIn combat, when Sigrid performs any <Term:1000029></Term> attack that hits an enemy while not in the <Term:1000030></Term> state, she enters the <Term:1000030></Term> state and gains 1 use of <color=#FFFFFF>[Basic Attack: Converging Spear]</color>. A maximum of 1 use can be stored.\nIn combat, while in the <Term:1000030></Term> state, when Sigrid performs any <Term:1000029></Term> attack that hits an enemy, the <Term:1000030></Term> state is refreshed and she gains 1 use of <color=#FFFFFF>[Basic Attack: Converging Spear]</color>. A maximum of 1 use can be stored.\nWhen the <Term:1000030></Term> state is triggered or refreshed, its duration decreases as the stage of <color=#FFFFFF>[Basic Attack: Converging Spear]</color> increases. At stages 1/2/3, its duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s.\nWhen the <Term:1000030></Term> state ends, the stage of <color=#FFFFFF>[Basic Attack: Converging Spear]</color> is reduced by 1, to a minimum of stage 1.\nWhen the <Term:1000030></Term> state is activated or refreshed, Sigrid's CRIT Rate increases by <color=#2BAD00>33%</color> for <color=#FFFFFF>8</color>s. Repeated triggers extend the duration by <color=#FFFFFF>8</color>s, up to a maximum of <color=#FFFFFF>40</color>s.\nWhile in the <Term:1000030></Term> state, when Sigrid's attacks hit Stunned enemies, the target's Stun DMG Multiplier is increased by 20%.",
+          "Triggers when another character in your squad is an <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nSigrid's ATK increases by 120, scaling with character Lv., gaining an additional 12 per level, up to a maximum increase of 840;\nWhen attacks hit enemies under <color=#FFFFFF>[Contamination]</color>, DMG dealt increases by <color=#FFFFFF>15%</color>."
         ],
         "extra_property": {},
         "potential": []
@@ -1756,11 +1763,11 @@
         "id": 1591502,
         "name": [
           "Core Passive: Sky Knight",
-          "Additional Ability: Sky Alliance"
+          "Additional Ability: Legion of the Skies"
         ],
         "desc": [
-          "<color=#FFFFFF>[Basic Attack]</color> Phase 4, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Assist Follow-Up]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Draw-Fire Stance]</color>;\nWhen Sigrid uses any <color=#FFFFFF>[Draw-Fire Stance]</color> in combat, if not currently in <color=#FFFFFF>[Sky Patrol Gunstance]</color>, she enters <color=#FFFFFF>[Sky Patrol Gunstance]</color> and gains 1 use of <color=#FFFFFF>[Basic Attack: Holster Stance]</color>, storable up to 1 time;\nIn combat, while in <color=#FFFFFF>[Sky Patrol Gunstance]</color>, when Sigrid uses any <color=#FFFFFF>[Draw-Fire Stance]</color>, she can refresh <color=#FFFFFF>[Sky Patrol Gunstance]</color> and gains 1 use of <color=#FFFFFF>[Basic Attack: Holster Stance]</color>, storable up to 1 time;\nThe duration of <color=#FFFFFF>[Sky Patrol Gunstance]</color> decreases as <color=#FFFFFF>[Basic Attack: Holster Stance]</color> phases increase: at Phase 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Sky Patrol Gunstance]</color> ends, <color=#FFFFFF>[Basic Attack: Holster Stance]</color> phase decreases by 1, down to a minimum of Phase 1;\nWhen activating or refreshing <color=#FFFFFF>[Sky Patrol Gunstance]</color>, Sigrid's CRIT Rate increases by <color=#2BAD00>39%</color> and her ATK increases by <color=#2BAD00>180</color>, lasting <color=#FFFFFF>8</color>s; on repeated triggers, the duration is extended by <color=#FFFFFF>8</color>s, up to a maximum of <color=#FFFFFF>40</color>s;\nWhen Sigrid's attacks hit enemies in a Stunned state, the Stun DMG Multiplier dealt to the target increases by 20%.",
-          "Triggers when your squad has an <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nWhen triggered, your DMG dealt increases by 30%;\nWhen your attacks hit enemies afflicted with Contamination, your DMG dealt increases by <color=#FFFFFF>15%</color>"
+          "The 4th hit of a <color=#FFFFFF>[Basic Attack]</color>, or an <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Assist Follow-Up]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <Term:1000029></Term> attacks.\nIn combat, when Sigrid performs any <Term:1000029></Term> attack that hits an enemy while not in the <Term:1000030></Term> state, she enters the <Term:1000030></Term> state and gains 1 use of <color=#FFFFFF>[Basic Attack: Converging Spear]</color>. A maximum of 1 use can be stored.\nIn combat, while in the <Term:1000030></Term> state, when Sigrid performs any <Term:1000029></Term> attack that hits an enemy, the <Term:1000030></Term> state is refreshed, and she gains 1 use of <color=#FFFFFF>[Basic Attack: Converging Spear]</color>. A maximum of 1 use can be stored.\nWhen the <Term:1000030></Term> state is triggered or refreshed, its duration decreases as the stage of <color=#FFFFFF>[Basic Attack: Converging Spear]</color> increases. At stages 1/2/3, its duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s.\nWhen the <Term:1000030></Term> state ends, the stage of <color=#FFFFFF>[Basic Attack: Converging Spear]</color> is reduced by 1, to a minimum of stage 1.\nWhen the <Term:1000030></Term> state is activated or refreshed, Sigrid's CRIT Rate increases by <color=#2BAD00>39%</color> for <color=#FFFFFF>8</color>s. Repeated triggers extend the duration by <color=#FFFFFF>8</color>s, up to a maximum of <color=#FFFFFF>40</color>s.\nWhile in the <Term:1000030></Term> state, when Sigrid's attacks hit Stunned enemies, the target's Stun DMG Multiplier is increased by 20%.",
+          "Triggers when another character in your squad is an <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nSigrid's ATK increases by 120, scaling with character Lv., gaining an additional 12 per level, up to a maximum increase of 840;\nWhen attacks hit enemies under <color=#FFFFFF>[Contamination]</color>, DMG dealt increases by <color=#FFFFFF>15%</color>."
         ],
         "extra_property": {},
         "potential": []
@@ -1770,11 +1777,11 @@
         "id": 1591503,
         "name": [
           "Core Passive: Sky Knight",
-          "Additional Ability: Sky Alliance"
+          "Additional Ability: Legion of the Skies"
         ],
         "desc": [
-          "<color=#FFFFFF>[Basic Attack]</color> Phase 4, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Assist Follow-Up]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Draw-Fire Stance]</color>;\nWhen Sigrid uses any <color=#FFFFFF>[Draw-Fire Stance]</color> in combat, if not currently in <color=#FFFFFF>[Sky Patrol Gunstance]</color>, she enters <color=#FFFFFF>[Sky Patrol Gunstance]</color> and gains 1 use of <color=#FFFFFF>[Basic Attack: Holster Stance]</color>, storable up to 1 time;\nIn combat, while in <color=#FFFFFF>[Sky Patrol Gunstance]</color>, when Sigrid uses any <color=#FFFFFF>[Draw-Fire Stance]</color>, she can refresh <color=#FFFFFF>[Sky Patrol Gunstance]</color> and gains 1 use of <color=#FFFFFF>[Basic Attack: Holster Stance]</color>, storable up to 1 time;\nThe duration of <color=#FFFFFF>[Sky Patrol Gunstance]</color> decreases as <color=#FFFFFF>[Basic Attack: Holster Stance]</color> phases increase: at Phase 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Sky Patrol Gunstance]</color> ends, <color=#FFFFFF>[Basic Attack: Holster Stance]</color> phase decreases by 1, down to a minimum of Phase 1;\nWhen activating or refreshing <color=#FFFFFF>[Sky Patrol Gunstance]</color>, Sigrid's CRIT Rate increases by <color=#2BAD00>44%</color> and her ATK increases by <color=#2BAD00>210</color>, lasting <color=#FFFFFF>8</color>s; on repeated triggers, the duration is extended by <color=#FFFFFF>8</color>s, up to a maximum of <color=#FFFFFF>40</color>s;\nWhen Sigrid's attacks hit enemies in a Stunned state, the Stun DMG Multiplier dealt to the target increases by 20%.",
-          "Triggers when your squad has an <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nWhen triggered, your DMG dealt increases by 30%;\nWhen your attacks hit enemies afflicted with Contamination, your DMG dealt increases by <color=#FFFFFF>15%</color>"
+          "The 4th hit of a <color=#FFFFFF>Basic Attack</color>, or an <color=#FFFFFF>EX Special Attack</color>, <color=#FFFFFF>Assist Follow-Up</color>, <color=#FFFFFF>Chain Attack</color>, <color=#FFFFFF>Ultimate</color>, and <color=#FFFFFF>Dodge Counter</color> are considered <Term:1000029></Term> attacks.\nIn combat, when Sigrid performs any <Term:1000029></Term> attack that hits an enemy while not in the <Term:1000030></Term> state, she enters the <Term:1000030></Term> state and gains 1 use of <color=#FFFFFF>Basic Attack: Converging Spear</color>. A maximum of 1 use can be stored.\nIn combat, while in the <Term:1000030></Term> state, when Sigrid performs any <Term:1000029></Term> attack that hits an enemy, the <Term:1000030></Term> state is refreshed, and she gains 1 use of <color=#FFFFFF>Basic Attack: Converging Spear</color>. A maximum of 1 use can be stored.\nWhen the <Term:1000030></Term> state is triggered or refreshed, its duration decreases as the stage of <color=#FFFFFF>Basic Attack: Converging Spear</color> increases. At stages 1/2/3, its duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s.\nWhen the <Term:1000030></Term> state ends, the stage of <color=#FFFFFF>Basic Attack: Converging Spear</color> is reduced by 1, to a minimum of stage 1.\nWhen the <Term:1000030></Term> state is activated or refreshed, Sigrid's CRIT Rate increases by <color=#2BAD00>44%</color> for <color=#FFFFFF>8</color>s. Repeated triggers extend the duration by <color=#FFFFFF>8</color>s, up to a maximum of <color=#FFFFFF>40</color>s.\nWhile in the <Term:1000030></Term> state, when Sigrid's attacks hit Stunned enemies, the target's Stun DMG Multiplier is increased by 20%.",
+          "Triggers when another character in your squad is an <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nSigrid's ATK increases by 120, scaling with character Lv., gaining an additional 12 per level, up to a maximum increase of 840;\nWhen attacks hit enemies under <color=#FFFFFF>[Contamination]</color>, DMG dealt increases by <color=#FFFFFF>15%</color>."
         ],
         "extra_property": {},
         "potential": []
@@ -1784,11 +1791,11 @@
         "id": 1591504,
         "name": [
           "Core Passive: Sky Knight",
-          "Additional Ability: Sky Alliance"
+          "Additional Ability: Legion of the Skies"
         ],
         "desc": [
-          "<color=#FFFFFF>[Basic Attack]</color> Phase 4, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Assist Follow-Up]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Draw-Fire Stance]</color>;\nWhen Sigrid uses any <color=#FFFFFF>[Draw-Fire Stance]</color> in combat, if not currently in <color=#FFFFFF>[Sky Patrol Gunstance]</color>, she enters <color=#FFFFFF>[Sky Patrol Gunstance]</color> and gains 1 use of <color=#FFFFFF>[Basic Attack: Holster Stance]</color>, storable up to 1 time;\nIn combat, while in <color=#FFFFFF>[Sky Patrol Gunstance]</color>, when Sigrid uses any <color=#FFFFFF>[Draw-Fire Stance]</color>, she can refresh <color=#FFFFFF>[Sky Patrol Gunstance]</color> and gains 1 use of <color=#FFFFFF>[Basic Attack: Holster Stance]</color>, storable up to 1 time;\nThe duration of <color=#FFFFFF>[Sky Patrol Gunstance]</color> decreases as <color=#FFFFFF>[Basic Attack: Holster Stance]</color> phases increase: at Phase 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Sky Patrol Gunstance]</color> ends, <color=#FFFFFF>[Basic Attack: Holster Stance]</color> phase decreases by 1, down to a minimum of Phase 1;\nWhen activating or refreshing <color=#FFFFFF>[Sky Patrol Gunstance]</color>, Sigrid's CRIT Rate increases by <color=#2BAD00>50%</color> and her ATK increases by <color=#2BAD00>240</color>, lasting <color=#FFFFFF>8</color>s; on repeated triggers, the duration is extended by <color=#FFFFFF>8</color>s, up to a maximum of <color=#FFFFFF>40</color>s;\nWhen Sigrid's attacks hit enemies in a Stunned state, the Stun DMG Multiplier dealt to the target increases by 20%.",
-          "Triggers when your squad has an <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nWhen triggered, your DMG dealt increases by 30%;\nWhen your attacks hit enemies afflicted with Contamination, your DMG dealt increases by <color=#FFFFFF>15%</color>"
+          "The 4th hit of a <color=#FFFFFF>[Basic Attack]</color>, or an <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Assist Follow-Up]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <Term:1000029></Term> attacks.\nIn combat, when Sigrid performs any <Term:1000029></Term> attack that hits an enemy while not in the <Term:1000030></Term> state, she enters the <Term:1000030></Term> state and gains 1 use of <color=#FFFFFF>[Basic Attack: Converging Spear]</color>. A maximum of 1 use can be stored.\nIn combat, while in the <Term:1000030></Term> state, when Sigrid performs any <Term:1000029></Term> attack that hits an enemy, the <Term:1000030></Term> state is refreshed and she gains 1 use of <color=#FFFFFF>[Basic Attack: Converging Spear]</color>. A maximum of 1 use can be stored.\nWhen the <Term:1000030></Term> state is triggered or refreshed, its duration decreases as the stage of <color=#FFFFFF>[Basic Attack: Converging Spear]</color> increases. At stages 1/2/3, its duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s.\nWhen the <Term:1000030></Term> state ends, the stage of <color=#FFFFFF>[Basic Attack: Converging Spear]</color> is reduced by 1, to a minimum of stage 1.\nWhen the <Term:1000030></Term> state is activated or refreshed, Sigrid's CRIT Rate increases by <color=#2BAD00>50%</color> for <color=#FFFFFF>8</color>s. Repeated triggers extend the duration by <color=#FFFFFF>8</color>s, up to a maximum of <color=#FFFFFF>40</color>s.\nWhile in the <Term:1000030></Term> state, when Sigrid's attacks hit Stunned enemies, the target's Stun DMG Multiplier is increased by 20%.",
+          "Triggers when another character in your squad is an <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nSigrid's ATK increases by 120, scaling with character Lv., gaining an additional 12 per level, up to a maximum increase of 840;\nWhen attacks hit enemies under <color=#FFFFFF>[Contamination]</color>, DMG dealt increases by <color=#FFFFFF>15%</color>."
         ],
         "extra_property": {},
         "potential": []
@@ -1798,11 +1805,11 @@
         "id": 1591505,
         "name": [
           "Core Passive: Sky Knight",
-          "Additional Ability: Sky Alliance"
+          "Additional Ability: Legion of the Skies"
         ],
         "desc": [
-          "<color=#FFFFFF>[Basic Attack]</color> Phase 4, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Assist Follow-Up]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Draw Mode]</color>;\nWhen Sigrid uses any <color=#FFFFFF>[Draw Mode]</color> attack in combat, if not currently in <color=#FFFFFF>[Sky Patrol Stance]</color>, she enters <color=#FFFFFF>[Sky Patrol Stance]</color> and gains 1 charge of <color=#FFFFFF>[Basic Attack: Holster Mode]</color>, up to a maximum of 1 charge;\nIn combat, while in <color=#FFFFFF>[Sky Patrol Stance]</color>, when Sigrid uses any <color=#FFFFFF>[Draw Mode]</color> attack, she can refresh <color=#FFFFFF>[Sky Patrol Stance]</color> and gain 1 charge of <color=#FFFFFF>[Basic Attack: Holster Mode]</color>, up to a maximum of 1 charge;\nThe duration of <color=#FFFFFF>[Sky Patrol Stance]</color> decreases as the <color=#FFFFFF>[Basic Attack: Holster Mode]</color> phase increases: at Phase 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Sky Patrol Stance]</color> ends, the <color=#FFFFFF>[Basic Attack: Holster Mode]</color> phase decreases by 1, to a minimum of Phase 1;\nWhen activating or refreshing <color=#FFFFFF>[Sky Patrol Stance]</color>, Sigrid's CRIT Rate increases by <color=#2BAD00>55%</color> and her ATK increases by <color=#2BAD00>270</color> for <color=#FFFFFF>8</color>s; repeated triggers extend the duration by <color=#FFFFFF>8</color>s, up to a maximum of <color=#FFFFFF>40</color>s;\nWhen Sigrid's attacks hit enemies in a Stunned state, the Stun DMG Multiplier dealt to the target increases by 20%.",
-          "Triggers when your squad has an <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nWhen triggered, your DMG dealt increases by 30%;\nWhen your attacks hit enemies afflicted with Contamination, your DMG dealt increases by <color=#FFFFFF>15%</color>"
+          "The 4th hit of a <color=#FFFFFF>Basic Attack</color>, or an <color=#FFFFFF>EX Special Attack</color>, <color=#FFFFFF>Assist Follow-Up</color>, <color=#FFFFFF>Chain Attack</color>, <color=#FFFFFF>Ultimate</color>, and <color=#FFFFFF>Dodge Counter</color> are considered <Term:1000029></Term> attacks.\nIn combat, when Sigrid performs any <Term:1000029></Term> attack that hits an enemy while not in the <Term:1000030></Term> state, she enters the <Term:1000030></Term> state and gains 1 use of <color=#FFFFFF>Basic Attack: Converging Spear</color>. A maximum of 1 use can be stored.\nIn combat, while in the <Term:1000030></Term> state, when Sigrid performs any <Term:1000029></Term> attack that hits an enemy, the <Term:1000030></Term> state is refreshed, and she gains 1 use of <color=#FFFFFF>Basic Attack: Converging Spear</color>. A maximum of 1 use can be stored.\nWhen the <Term:1000030></Term> state is triggered or refreshed, its duration decreases as the stage of <color=#FFFFFF>Basic Attack: Converging Spear</color> increases. At stages 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s.\nWhen the <Term:1000030></Term> state ends, the stage of <color=#FFFFFF>Basic Attack: Converging Spear</color> is reduced by 1, to a minimum of stage 1.\nWhen the <Term:1000030></Term> state is activated or refreshed, Sigrid's CRIT Rate increases by <color=#2BAD00>55%</color> for <color=#FFFFFF>8</color>s. Repeated triggers extend the duration by <color=#FFFFFF>8</color>s, up to a maximum of <color=#FFFFFF>40</color>s.\nWhile in the <Term:1000030></Term> state, when Sigrid's attacks hit Stunned enemies, the target's Stun DMG Multiplier is increased by 20%.",
+          "Triggers when another character in your squad is an <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nSigrid's ATK increases by 120, scaling with character Lv., gaining an additional 12 per level, up to a maximum increase of 840;\nWhen attacks hit enemies under <color=#FFFFFF>[Contamination]</color>, DMG dealt increases by <color=#FFFFFF>15%</color>."
         ],
         "extra_property": {},
         "potential": []
@@ -1812,11 +1819,11 @@
         "id": 1591506,
         "name": [
           "Core Passive: Sky Knight",
-          "Additional Ability: Sky Alliance"
+          "Additional Ability: Legion of the Skies"
         ],
         "desc": [
-          "<color=#FFFFFF>[Basic Attack]</color> Phase 4, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Assist Follow-Up]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Gun-Draw Stance]</color>;\nWhen Sigrid uses any <color=#FFFFFF>[Gun-Draw Stance]</color> in combat, if not currently in <color=#FFFFFF>[Sky Patrol Gunform]</color>, she enters <color=#FFFFFF>[Sky Patrol Gunform]</color> and gains 1 use of <color=#FFFFFF>[Basic Attack: Gun-Stow Stance]</color>, stackable up to 1 time;\nIn combat, while in <color=#FFFFFF>[Sky Patrol Gunform]</color>, when Sigrid uses any <color=#FFFFFF>[Gun-Draw Stance]</color>, she can refresh <color=#FFFFFF>[Sky Patrol Gunform]</color> and gain 1 use of <color=#FFFFFF>[Basic Attack: Gun-Stow Stance]</color>, stackable up to 1 time;\nThe duration of <color=#FFFFFF>[Sky Patrol Gunform]</color> decreases as the <color=#FFFFFF>[Basic Attack: Gun-Stow Stance]</color> phase advances: at Phase 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Sky Patrol Gunform]</color> ends, the <color=#FFFFFF>[Basic Attack: Gun-Stow Stance]</color> phase decreases by 1, to a minimum of Phase 1;\nWhen <color=#FFFFFF>[Sky Patrol Gunform]</color> is activated or refreshed, Sigrid's CRIT Rate increases by <color=#2BAD00>61%</color> and her ATK increases by <color=#2BAD00>300</color>, lasting <color=#FFFFFF>8</color>s; on repeated triggers, the duration is extended by <color=#FFFFFF>8</color>s, up to a maximum of <color=#FFFFFF>40</color>s;\nWhen Sigrid's attacks hit enemies in a Stunned state, the Stun DMG Multiplier dealt to the target increases by 20%.",
-          "Triggers when your squad has an <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nWhen triggered, your DMG dealt increases by 30%;\nWhen your attacks hit enemies afflicted with Contamination, your DMG dealt increases by <color=#FFFFFF>15%</color>"
+          "The 4th hit of a <color=#FFFFFF>Basic Attack</color>, or an <color=#FFFFFF>EX Special Attack</color>, <color=#FFFFFF>Assist Follow-Up</color>, <color=#FFFFFF>Chain Attack</color>, <color=#FFFFFF>Ultimate</color>, and <color=#FFFFFF>Dodge Counter</color> are considered <Term:1000029></Term> attacks.\nIn combat, when Sigrid performs any <Term:1000029></Term> attack that hits an enemy while not in the <Term:1000030></Term> state, she enters the <Term:1000030></Term> state and gains 1 use of <color=#FFFFFF>Basic Attack: Converging Spear</color>. A maximum of 1 use can be stored.\nIn combat, while in the <Term:1000030></Term> state, when Sigrid performs any <Term:1000029></Term> attack that hits an enemy, the <Term:1000030></Term> state is refreshed, and she gains 1 use of <color=#FFFFFF>Basic Attack: Converging Spear</color>. A maximum of 1 use can be stored.\nWhen the <Term:1000030></Term> state is triggered or refreshed, its duration decreases as the stage of <color=#FFFFFF>Basic Attack: Converging Spear</color> increases. At stages 1/2/3, its duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s.\nWhen the <Term:1000030></Term> state ends, the stage of <color=#FFFFFF>Basic Attack: Converging Spear</color> is reduced by 1, to a minimum of stage 1.\nWhen the <Term:1000030></Term> state is activated or refreshed, Sigrid's CRIT Rate increases by <color=#2BAD00>61%</color> for <color=#FFFFFF>8</color>s. Repeated triggers extend the duration by <color=#FFFFFF>8</color>s, up to a maximum of <color=#FFFFFF>40</color>s.\nWhile in the <Term:1000030></Term> state, when Sigrid's attacks hit Stunned enemies, the target's Stun DMG Multiplier is increased by 20%.",
+          "Triggers when another character in your squad is an <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nSigrid's ATK increases by 120, scaling with character Lv., gaining an additional 12 per level, up to a maximum increase of 840;\nWhen attacks hit enemies under <color=#FFFFFF>[Contamination]</color>, DMG dealt increases by <color=#FFFFFF>15%</color>."
         ],
         "extra_property": {},
         "potential": []
@@ -1826,11 +1833,11 @@
         "id": 1591507,
         "name": [
           "Core Passive: Sky Knight",
-          "Additional Ability: Sky Alliance"
+          "Additional Ability: Legion of the Skies"
         ],
         "desc": [
-          "<color=#FFFFFF>[Basic Attack]</color> Phase 4, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Assist Follow-Up]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Draw-Fire Stance]</color>;\nWhen Sigrid uses any <color=#FFFFFF>[Draw-Fire Stance]</color> in combat, if not currently in <color=#FFFFFF>[Sky Patrol Gunstance]</color>, she enters <color=#FFFFFF>[Sky Patrol Gunstance]</color> and gains 1 use of <color=#FFFFFF>[Basic Attack: Holster Stance]</color>, storable up to 1 time;\nIn combat, while in <color=#FFFFFF>[Sky Patrol Gunstance]</color>, when Sigrid uses any <color=#FFFFFF>[Draw-Fire Stance]</color>, she can refresh <color=#FFFFFF>[Sky Patrol Gunstance]</color> and gains 1 use of <color=#FFFFFF>[Basic Attack: Holster Stance]</color>, storable up to 1 time;\nThe duration of <color=#FFFFFF>[Sky Patrol Gunstance]</color> decreases as <color=#FFFFFF>[Basic Attack: Holster Stance]</color> phases increase: at Phase 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Sky Patrol Gunstance]</color> ends, <color=#FFFFFF>[Basic Attack: Holster Stance]</color> phase decreases by 1, down to a minimum of Phase 1;\nWhen activating or refreshing <color=#FFFFFF>[Sky Patrol Gunstance]</color>, Sigrid's CRIT Rate increases by <color=#2BAD00>66%</color> and her ATK increases by <color=#2BAD00>330</color>, lasting <color=#FFFFFF>8</color>s; on repeated triggers, the duration is extended by <color=#FFFFFF>8</color>s, up to a maximum of <color=#FFFFFF>40</color>s;\nWhen Sigrid's attacks hit enemies in a Stunned state, the Stun DMG Multiplier dealt to the target increases by 20%.",
-          "Triggers when your squad has an <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nWhen triggered, your DMG dealt increases by 30%;\nWhen your attacks hit enemies afflicted with Contamination, your DMG dealt increases by <color=#FFFFFF>15%</color>"
+          "The 4th hit of a <color=#FFFFFF>Basic Attack</color>, or an <color=#FFFFFF>EX Special Attack</color>, <color=#FFFFFF>Assist Follow-Up</color>, <color=#FFFFFF>Chain Attack</color>, <color=#FFFFFF>Ultimate</color>, and <color=#FFFFFF>Dodge Counter</color> are considered <Term:1000029></Term> attacks.\nIn combat, when Sigrid performs any <Term:1000029></Term> attack that hits an enemy while not in the <Term:1000030></Term> state, she enters the <Term:1000030></Term> state and gains 1 use of <color=#FFFFFF>Basic Attack: Converging Spear</color>. A maximum of 1 use can be stored.\nIn combat, while in the <Term:1000030></Term> state, when Sigrid performs any <Term:1000029></Term> attack that hits an enemy, the <Term:1000030></Term> state is refreshed, and she gains 1 use of <color=#FFFFFF>Basic Attack: Converging Spear</color>. A maximum of 1 use can be stored.\nWhen the <Term:1000030></Term> state is triggered or refreshed, its duration decreases as the stage of <color=#FFFFFF>Basic Attack: Converging Spear</color> increases. At stages 1/2/3, its duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s.\nWhen the <Term:1000030></Term> state ends, the stage of <color=#FFFFFF>Basic Attack: Converging Spear</color> is reduced by 1, to a minimum of stage 1.\nWhen the <Term:1000030></Term> state is activated or refreshed, Sigrid's CRIT Rate increases by <color=#2BAD00>66%</color> for <color=#FFFFFF>8</color>s. Repeated triggers extend the duration by <color=#FFFFFF>8</color>s, up to a maximum of <color=#FFFFFF>40</color>s.\nWhile in the <Term:1000030></Term> state, when Sigrid's attacks hit Stunned enemies, the target's Stun DMG Multiplier is increased by 20%.",
+          "Triggers when another character in your squad is an <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nSigrid's ATK increases by 120, scaling with character Lv., gaining an additional 12 per level, up to a maximum increase of 840;\nWhen attacks hit enemies under <color=#FFFFFF>[Contamination]</color>, DMG dealt increases by <color=#FFFFFF>15%</color>."
         ],
         "extra_property": {},
         "potential": []
@@ -1868,44 +1875,44 @@
   "talent": {
     "1": {
       "level": 1,
-      "name": "A long, long time ago,",
-      "desc": "When the 3rd hit of <color=#FFFFFF>[Basic Attack: Gun Retraction]</color> is triggered, enter or refresh <color=#FFFFFF>[Sky Patrol Gunstance]</color> and gain one opportunity to trigger <color=#FFFFFF>[Basic Attack: Gun Retraction]</color>; excess <color=#FFFFFF>[Basic Attack: Gun Retraction]</color> opportunities cause the next <color=#FFFFFF>[Basic Attack: Gun Retraction]</color> to deal an extra <color=#FFFFFF>100%</color> DMG; Sigrid's own ATK increases by <color=#FFFFFF>22%</color>.",
-      "desc2": "Long, long ago, the great Sunbringer scooped up the very first handful of earth on the sky islands…\nHold on, hold on — the kids have heard the story of Lady Sunbringer building the first island of Roscaelifer so many times their ears have grown calluses.\nWhat we're here to talk about today is the story of the warrior who stood at Lady Sunbringer's side — clad in silver-white armor as radiant as a moonlit night, just like a Knight of old from a fairy tale…"
+      "name": "Long, Long Ago",
+      "desc": "Landing the 3rd hit of <color=#FFFFFF>[Basic Attack: Converging Spear]</color> grants <Term:1000030></Term> and 1 additional use of <color=#FFFFFF>[Basic Attack: Converging Spear]</color>. If this use would exceed the limit, the last hit of the next <color=#FFFFFF>[Basic Attack: Converging Spear]</color> deals an additional <color=#FFFFFF>100%</color> of ATK as <color=#98EFF0>Ice DMG</color>. Sigrid's ATK increases by <color=#FFFFFF>25%</color>.",
+      "desc2": "Long, long ago, Lady Sunbringer lifted the very first handful of soil that would become this sky island...\nAlright, alright. The children have already heard the story of Lady Sunbringer creating Roscaelifer's first island a thousand times over.\nToday, we're telling the story of the warrior who stood at Lady Sunbringer's side. Clad in moon-bright silver armor, she looked just like an ancient knight from a fairy tale..."
     },
     "2": {
       "level": 2,
-      "name": "Act One of the Legendary",
-      "desc": "<color=#FFFFFF>[Draw Stance]</color> and <color=#FFFFFF>[Basic Attack: Holster Stance]</color> deal <color=#98EFF0>Ice DMG</color> that ignores <color=#FFFFFF>24%</color> of the target's <color=#FFFFFF>DEF</color>; the duration of the <color=#FFFFFF>[Sky Patrol Gunform]</color> effect is extended by 2s;",
-      "desc2": "She was Roscaelifer's first Soldier, its first spear — standing at the first line of defense against the Hollow, leading the first charge.\nShe was the first wing to follow Lady Sunbringer, and with her own hands raised the first walls of Roscaelifer.\nShe was the first blade of Roscaelifer to be broken. Her name was de L'Azur.\nHer children, like her legend, burn eternal in the night sky over Roscaelifer."
+      "name": "Legend's First Act",
+      "desc": "<Term:1000029></Term> and <color=#FFFFFF>[Basic Attack: Converging Spear]</color> DMG PEN Ratio increases by <color=#FFFFFF>24%</color>; <Term:1000030></Term> effect duration is extended by 2s; Sigrid's Decibel Generation Rate increases by 10%.",
+      "desc2": "She was Roscaelifer's first soldier, its first spear. She stood on the first front line against the Hollows and led the very first charge.\nShe was the first wing to follow Lady Sunbringer, and with her own hands, she raised Roscaelifer's very first wall.\nShe was Roscaelifer's first blade broken. Her family name was de L'Azur.\nLike her legend, her descendants burn eternally in the night sky above Roscaelifer."
     },
     "3": {
       "level": 3,
-      "name": "Miracle Guardian",
+      "name": "Protector of Miracles",
       "desc": "<color=#FFFFFF>Basic Attack</color>, <color=#FFFFFF>Dodge</color>, <color=#FFFFFF>Assist</color>, <color=#FFFFFF>Special Attack</color>, and <color=#FFFFFF>Chain Attack</color> Lv. +2",
-      "desc2": "Roscaelifer is a miracle of the skies, and the title of its guardian belongs to no chosen few.\nYet someone must lead those guardians—that was meant to be the duty of Sir Lindverne, but her free-spirited, endearingly naive nature made it rather hard for her to cut an imposing figure as a general.\nLuckily, she always had a dashing deputy at her side—or rather, one after another."
+      "desc2": "..."
     },
     "4": {
       "level": 4,
-      "name": "Hero Upgrading",
-      "desc": "Each time <color=#FFFFFF>[Aerial Gunstance]</color> refreshes, increase the DMG dealt by <color=#FFFFFF>20%</color> for <color=#FFFFFF>8</color>s. Repeated triggers can extend the duration by <color=#FFFFFF>8</color>s, up to a maximum of <color=#FFFFFF>40</color>s.",
-      "desc2": "Soldiers and civilians alike couldn't help but quietly measure the new Deputy Administrative Director against the last—not that anyone could blame them. After all, in the words of Lindverne Sunbringer, every head of the de L'Azur family was the stuff of legend.\nBut because of that, everyone expected the young de L'Azur to outshine her predecessor—anything less would dishonor the name of that legendary guardian family.\nAnd so, Lindverne kept weaving new, ever more audacious legends around Sigrid."
+      "name": "Hero in Training",
+      "desc": "Each time <Term:1000030></Term> is refreshed, DMG dealt increases by <color=#FFFFFF>18%</color> for <color=#FFFFFF>8</color>s. Repeated triggers extend the duration by <color=#FFFFFF>8</color>s, up to a maximum of <color=#FFFFFF>40</color>s.",
+      "desc2": "..."
     },
     "5": {
       "level": 5,
-      "name": "Azure Sky Oath",
+      "name": "Skybound Oath",
       "desc": "<color=#FFFFFF>Basic Attack</color>, <color=#FFFFFF>Dodge</color>, <color=#FFFFFF>Assist</color>, <color=#FFFFFF>Special Attack</color>, and <color=#FFFFFF>Chain Attack</color> Lv. +2",
-      "desc2": "Today, Lady Sunbringer need only invoke the name of the Void Hunters to command legions—but every legendary leader was once followed by no one.\nTo chase that young leader into the sky, to build a city of miracles where none should exist, you needed either the courage of a brute or the naivety of a dreamer.\nAnd each time a de L'Azur recites that oath to conquer the sky, both qualities shine brilliantly once more."
+      "desc2": "..."
     },
     "6": {
       "level": 6,
       "name": "Knight of the Skies",
-      "desc": "<color=#FFFFFF>[Basic Attack: Gun Draw]</color> The first hit on an enemy in the 1st/2nd/3rd stage deals an additional <color=#FFFFFF>150%</color>/<color=#FFFFFF>150%</color>/<color=#FFFFFF>200%</color> DMG.",
-      "desc2": "In the Legendary tales of ancient times, a Knight of the Lake left their mark.\nIn the ballads of a distant future, the piercing lance of Lynn shall cleave across the horizon of time and space.\n\"Until this lance breaks, the miracle of the skies shall never fall.\""
+      "desc": "<color=#FFFFFF>[Basic Attack: Converging Spear]</color> When the final hit of the 1st/2nd/3rd stage lands on an enemy, deal an additional <color=#FFFFFF>80%</color>/<color=#FFFFFF>90%</color>/<color=#FFFFFF>100%</color> of ATK as <color=#98EFF0>Ice DMG</color>; using <color=#FFFFFF>[Chain Attack: Encroaching Ice]</color> to hit a Stunned enemy removes the usage limit when entering the <Term:1000028></Term> state; in the <Term:1000028></Term> state, <color=#FFFFFF>[Basic Attack: Converging Spear]</color> activates more quickly.",
+      "desc2": "..."
     }
   },
   "fairy_recommend": {
     "slot4": 33300,
-    "slot2": 32500,
+    "slot2": 31100,
     "slot_sub": 31400,
     "part4": {
       "prop": 21103,
@@ -1914,22 +1921,22 @@
       "icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconCritDam.png"
     },
     "part5": {
-      "prop": 31703,
-      "name": "Ice DMG Bonus",
+      "prop": 23103,
+      "name": "PEN Ratio",
       "format": "{0:0.#%}",
-      "icon": "UI/Sprite/A1DynamicLoad/IconGeneralBuff/Packer/IconIce.png"
+      "icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconPenRatio.png"
     },
     "part6": {
-      "prop": 12102,
-      "name": "ATK",
-      "format": "{0:0.#%}",
-      "icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconAttack.png"
-    },
-    "part_sub": {
       "prop": 20103,
       "name": "CRIT Rate",
       "format": "{0:0.#%}",
       "icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconCrit.png"
+    },
+    "part_sub": {
+      "prop": 12102,
+      "name": "ATK",
+      "format": "{0:0.#%}",
+      "icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconAttack.png"
     }
   },
   "strategy": {},

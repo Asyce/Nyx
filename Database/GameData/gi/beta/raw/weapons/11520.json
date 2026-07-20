@@ -343,24 +343,10 @@
   "refinement": {
     "1": {
       "name": "Snow Swan's Finale",
-      "desc": "When an opponent is hit with an Elemental Skill, the equipping character gains the \"Prelude\" effect, which increases their ATK by <color=#99FFFFFF>8%</color> for 8s. This effect can stack once every 0.1s, max 3 stacks. When the Prelude stack count reaches 3, the performance will reach its climax, giving the equipping character the \"Closing\" effect, increasing CRIT DMG dealt with Stellar reactions by <color=#99FFFFFF>40%</color>. During this time, the equipping character also gains <color=#99FFFFFF>4</color> Elemental Energy whenever they trigger a Stellar reaction or deal Stellar reaction DMG. This can trigger once every 3.5s, and can still trigger even if the equipping character is not on the field.",
+      "desc": "When the equipping character hits an opponent with their Elemental Skill, they gain \"Lake-Hued Lament\": ATK increases by <color=#99FFFFFF>8%</color> for 8s. This effect can trigger once every 0.1s. Max 3 stacks, and each stack's duration is independent. At 3 stacks, the CRIT DMG of any Stellar Glimmer reaction DMG caused by the equipping character is increased by <color=#99FFFFFF>40%</color>, and triggering Stellar Glimmer reactions or Stellar Glimmer reaction DMG will also restore <color=#99FFFFFF>4</color> Elemental Energy to the character. This Energy recovery effect can trigger once every 3.5s. Can be triggered even when the equipping character is off-field.",
       "param_list": [
         4,
         0.08,
-        8,
-        3,
-        0.4,
-        3.5,
-        0,
-        0
-      ]
-    },
-    "2": {
-      "name": "Snow Swan's Finale",
-      "desc": "When an opponent is hit with an Elemental Skill, the equipping character gains the \"Prelude\" effect, which increases their ATK by <color=#99FFFFFF>10%</color> for 8s. This effect can stack once every 0.1s, max 3 stacks. When the Prelude stack count reaches 3, the performance will reach its climax, giving the equipping character the \"Closing\" effect, increasing CRIT DMG dealt with Stellar reactions by <color=#99FFFFFF>50%</color>. During this time, the equipping character also gains <color=#99FFFFFF>5</color> Elemental Energy whenever they trigger a Stellar reaction or deal Stellar reaction DMG. This can trigger once every 3.5s, and can still trigger even if the equipping character is not on the field.",
-      "param_list": [
-        5,
-        0.1,
         8,
         3,
         0.5,
@@ -369,15 +355,29 @@
         0
       ]
     },
+    "2": {
+      "name": "Snow Swan's Finale",
+      "desc": "When the equipping character hits an opponent with their Elemental Skill, they gain \"Lake-Hued Lament\": ATK increases by <color=#99FFFFFF>10%</color> for 8s. This effect can trigger once every 0.1s. Max 3 stacks, and each stack's duration is independent. At 3 stacks, the CRIT DMG of any Stellar Glimmer reaction DMG caused by the equipping character is increased by <color=#99FFFFFF>52%</color>, and triggering Stellar Glimmer reactions or Stellar Glimmer reaction DMG will also restore <color=#99FFFFFF>4.5</color> Elemental Energy to the character. This Energy recovery effect can trigger once every 3.5s. Can be triggered even when the equipping character is off-field.",
+      "param_list": [
+        4.5,
+        0.1,
+        8,
+        3,
+        0.65,
+        3.5,
+        0,
+        0
+      ]
+    },
     "3": {
       "name": "Snow Swan's Finale",
-      "desc": "When an opponent is hit with an Elemental Skill, the equipping character gains the \"Prelude\" effect, which increases their ATK by <color=#99FFFFFF>12%</color> for 8s. This effect can stack once every 0.1s, max 3 stacks. When the Prelude stack count reaches 3, the performance will reach its climax, giving the equipping character the \"Closing\" effect, increasing CRIT DMG dealt with Stellar reactions by <color=#99FFFFFF>60%</color>. During this time, the equipping character also gains <color=#99FFFFFF>6</color> Elemental Energy whenever they trigger a Stellar reaction or deal Stellar reaction DMG. This can trigger once every 3.5s, and can still trigger even if the equipping character is not on the field.",
+      "desc": "When the equipping character hits an opponent with their Elemental Skill, they gain \"Lake-Hued Lament\": ATK increases by <color=#99FFFFFF>12%</color> for 8s. This effect can trigger once every 0.1s. Max 3 stacks, and each stack's duration is independent. At 3 stacks, the CRIT DMG of any Stellar Glimmer reaction DMG caused by the equipping character is increased by <color=#99FFFFFF>64%</color>, and triggering Stellar Glimmer reactions or Stellar Glimmer reaction DMG will also restore <color=#99FFFFFF>5</color> Elemental Energy to the character. This Energy recovery effect can trigger once every 3.5s. Can be triggered even when the equipping character is off-field.",
       "param_list": [
-        6,
+        5,
         0.12,
         8,
         3,
-        0.6,
+        0.8,
         3.5,
         0,
         0
@@ -385,13 +385,13 @@
     },
     "4": {
       "name": "Snow Swan's Finale",
-      "desc": "When an opponent is hit with an Elemental Skill, the equipping character gains the \"Prelude\" effect, which increases their ATK by <color=#99FFFFFF>14%</color> for 8s. This effect can stack once every 0.1s, max 3 stacks. When the Prelude stack count reaches 3, the performance will reach its climax, giving the equipping character the \"Closing\" effect, increasing CRIT DMG dealt with Stellar reactions by <color=#99FFFFFF>70%</color>. During this time, the equipping character also gains <color=#99FFFFFF>7</color> Elemental Energy whenever they trigger a Stellar reaction or deal Stellar reaction DMG. This can trigger once every 3.5s, and can still trigger even if the equipping character is not on the field.",
+      "desc": "When the equipping character hits an opponent with their Elemental Skill, they gain \"Lake-Hued Lament\": ATK increases by <color=#99FFFFFF>14%</color> for 8s. This effect can trigger once every 0.1s. Max 3 stacks, and each stack's duration is independent. At 3 stacks, the CRIT DMG of any Stellar Glimmer reaction DMG caused by the equipping character is increased by <color=#99FFFFFF>76%</color>, and triggering Stellar Glimmer reactions or Stellar Glimmer reaction DMG will also restore <color=#99FFFFFF>5.5</color> Elemental Energy to the character. This Energy recovery effect can trigger once every 3.5s. Can be triggered even when the equipping character is off-field.",
       "param_list": [
-        7,
+        5.5,
         0.14,
         8,
         3,
-        0.7,
+        0.95,
         3.5,
         0,
         0
@@ -399,13 +399,13 @@
     },
     "5": {
       "name": "Snow Swan's Finale",
-      "desc": "When an opponent is hit with an Elemental Skill, the equipping character gains the \"Prelude\" effect, which increases their ATK by <color=#99FFFFFF>16%</color> for 8s. This effect can stack once every 0.1s, max 3 stacks. When the Prelude stack count reaches 3, the performance will reach its climax, giving the equipping character the \"Closing\" effect, increasing CRIT DMG dealt with Stellar reactions by <color=#99FFFFFF>80%</color>. During this time, the equipping character also gains <color=#99FFFFFF>8</color> Elemental Energy whenever they trigger a Stellar reaction or deal Stellar reaction DMG. This can trigger once every 3.5s, and can still trigger even if the equipping character is not on the field.",
+      "desc": "When the equipping character hits an opponent with their Elemental Skill, they gain \"Lake-Hued Lament\": ATK increases by <color=#99FFFFFF>16%</color> for 8s. This effect can trigger once every 0.1s. Max 3 stacks, and each stack's duration is independent. At 3 stacks, the CRIT DMG of any Stellar Glimmer reaction DMG caused by the equipping character is increased by <color=#99FFFFFF>88%</color>, and triggering Stellar Glimmer reactions or Stellar Glimmer reaction DMG will also restore <color=#99FFFFFF>6</color> Elemental Energy to the character. This Energy recovery effect can trigger once every 3.5s. Can be triggered even when the equipping character is off-field.",
       "param_list": [
-        8,
+        6,
         0.16,
         8,
         3,
-        0.8,
+        1.1,
         3.5,
         0,
         0

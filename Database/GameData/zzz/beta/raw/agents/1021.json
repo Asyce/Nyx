@@ -332,7 +332,7 @@
         },
         {
           "name": "Basic Attack: Kitty Slash",
-          "desc": "Press <IconMap:Icon_Normal> to activate:\nUnleashes up to 5 slashes, dealing <color=#F0D12B>Physical DMG</color>.\nOn the last hit, if it strikes a Stunned enemy, this hit repeats 3 times.",
+          "desc": "Press <IconMap:Icon_Normal> to activate:\nUnleashes up to five slashes, dealing <color=#F0D12B>Physical DMG</color>.\nWhen the final slash lands on a Stunned enemy, it repeats three additional times.",
           "potential": [
             102100,
             102101,
@@ -351,7 +351,7 @@
         },
         {
           "name": "Basic Attack: Crimson Blade",
-          "desc": "Hold <IconMap:Icon_Normal> during the first 3 hits of <color=#FFFFFF>[Basic Attack]</color> to activate:\nSlashes enemies in front and passes through them, dealing <color=#F0D12B>Physical DMG</color>.\nUpon activating this skill, if it hits an enemy in a Stunned state, this attack repeats 3 times.",
+          "desc": "Hold <IconMap:Icon_Normal> during the first three hits of Nekomata's <color=#FFFFFF>Basic Attack</color> to activate:\nSlashes enemies in front and passes through them, dealing <color=#F0D12B>Physical DMG</color>.\nIf this skill hits a Stunned enemy, it repeats three additional times.",
           "potential": [
             102100,
             102101,
@@ -767,8 +767,8 @@
           "potential": []
         },
         {
-          "name": "Dodge: Vanishing Tail Technique",
-          "desc": "When Nekomata has <color=#FFFFFF>40</color> or more [Purr Energy], after triggering <color=#FFFFFF>[Perfect Dodge]</color>, press <IconMap:Icon_Evade> to consume 30 [Purr Energy] and activate:\nNekomata enters Vital View and quickly dashes behind the enemy;\nCharacter is invulnerable while using this skill, and this skill does not consume dodge charges;",
+          "name": "Dodge: Disappearing Tail",
+          "desc": "With at least 40 <Term:1000024></Term> and after triggering a <color=#FFFFFF>Perfect Dodge</color>, press <IconMap:Icon_Evade> and consume 30 Purr Energy  to activate:\nNekomata enters Vital View and swiftly moves behind the enemy.\nCharacter is invulnerable while using this skill. This skill does not consume dodge uses.",
           "potential": [
             102100,
             102101,
@@ -789,8 +789,8 @@
           "potential": []
         },
         {
-          "name": "Dodge Counter: Velvet Claw Pierce",
-          "desc": "After using <color=#FFFFFF>[Dodge: Vanishing Tail Technique]</color>, press <IconMap:Icon_Normal> or hold <IconMap:Icon_Normal> when having 40 or more [Purr Energy] to activate:\nLaunch a powerful Slash against enemies in a large area ahead, dealing massive <color=#F0D12B>Physical DMG</color>;\nCharacter is invulnerable while using this skill.",
+          "name": "Dodge Counter: Fluffy Piercing Claw",
+          "desc": "Press <IconMap:Icon_Normal> after using <color=#FFFFFF>Dodge: Disappearing Tail</color>, or hold <IconMap:Icon_Normal> with at least 40 <Term:1000024></Term> to activate:\nUnleashes a powerful slash at enemies in a large area ahead, dealing massive <color=#F0D12B>Physical DMG</color>.\nCharacter is invulnerable while using this skill.",
           "potential": [
             102100,
             102101,
@@ -925,7 +925,7 @@
           "potential": []
         },
         {
-          "name": "Dodge Counter: Velvet Claw Pierce",
+          "name": "Dodge Counter: Fluffy Piercing Claw",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -998,7 +998,7 @@
               ]
             },
             {
-              "name": "[Purr Energy] Cost",
+              "name": "Purr Energy Cost",
               "desc": "40",
               "potential": [
                 102100,
@@ -1080,7 +1080,7 @@
         },
         {
           "name": "Special Attack: Surprise Attack",
-          "desc": "Press <IconMap:Icon_Special> to activate:\nUnleashes a downward strike, dealing <color=#F0D12B>Physical DMG</color>;\nAnti-Interrupt level is increased while using this skill;\nThe skill's follow-up attack effect is enhanced.",
+          "desc": "Press <IconMap:Icon_Special> to activate:\nUnleashes a downward strike, dealing <color=#F0D12B>Physical DMG</color>.\nAnti-Interrupt level is increased while using this skill.\nThis skill's pursuit effect is enhanced.",
           "potential": [
             102100,
             102101,
@@ -1099,7 +1099,7 @@
         },
         {
           "name": "EX Special Attack: Super Surprise Attack!",
-          "desc": "With enough Energy, press <IconMap:Icon_SpecialReady> to activate:\nUnleashes a powerful falling slash that deals massive <color=#F0D12B>Physical DMG</color>.\nCharacter is invulnerable while using this skill.\nThe skill's follow-up attack effect is enhanced.",
+          "desc": "With enough Energy, press <IconMap:Icon_SpecialReady> to activate:\nUnleashes a powerful falling slash, dealing massive <color=#F0D12B>Physical DMG</color>.\nCharacter is invulnerable while using this skill.\nThis skill's pursuit effect is enhanced.",
           "potential": [
             102100,
             102101,
@@ -1835,7 +1835,7 @@
       "potential": []
     },
     "1021012": {
-      "name": "Dodge: Vanishing Tail Technique",
+      "name": "Dodge: Disappearing Tail",
       "desc": "<IconMap:Icon_Evade> (Perfect) ; <IconMap:Icon_Evade>",
       "element_type": 0,
       "hit_type": 0,
@@ -1849,8 +1849,8 @@
       ]
     },
     "1021013": {
-      "name": "Dodge Counter: Velvet Claw Pierce",
-      "desc": "<IconMap:Icon_Normal> (After triggering [Dodge: Vanishing Tail Technique]) or <IconMap:Icon_Normal> (hold) (when [Purr Energy] is sufficient)",
+      "name": "Dodge Counter: Fluffy Piercing Claw",
+      "desc": "<IconMap:Icon_Normal> (After activating Dodge: Disappearing Tail) or <IconMap:Icon_Normal> (Hold) (With sufficient Purr Energy)",
       "element_type": 200,
       "hit_type": 101,
       "potential": [
@@ -1985,8 +1985,8 @@
           "Additional Ability: Catwalk"
         ],
         "desc": [
-          "When Nekomata's <color=#FFFFFF>[Dodge Counter]</color> or <color=#FFFFFF>[Quick Assist]</color> hits an enemy, her DMG increases by <color=#2BAD00>30%</color> for 40s. Repeated triggers refresh the duration.\nNekomata gains 40 Purr Energy upon entering the battlefield. In Investigation Zone mode, this effect can trigger once every 180s.\nWhile Nekomata is in-combat, she gains 1 Purr Energy every second, up to a maximum of 60. Nekomata's Different Moves Hit the Enemy to restore different amounts of Purr Energy.\nWhen Nekomata has at least 40 Purr Energy, after triggering a <color=#FFFFFF>[Perfect Dodge]</color>, press <IconMap:Icon_Evade> to consume 30 Purr Energy and activate [Dodge: Vanishing Tail Technique], then press <IconMap:Icon_Normal> to perform [Dodge Counter: Velvet Claw Pierce] without consuming Purr Energy.\nWhen Nekomata has at least 40 Purr Energy, hold <IconMap:Icon_Normal> to consume 40 Purr Energy and activate [Dodge Counter: Velvet Claw Pierce].\nUsing [Dodge Counter: Velvet Claw Pierce] grants [Paw Pad Ambush] for 40s. Repeated triggers refresh the duration. While in [Paw Pad Ambush], all of Nekomata's DMG is treated as hitting enemies from behind.\nWhile [Paw Pad Ambush] is active, Nekomata's attacks trigger [Savage Pawprint], dealing an additional instance of <color=#F0D12B>Physical DMG</color> equal to 30% of her ATK. This effect can trigger once every 1s.\nNekomata additionally restores 20 Purr Energy when using her Ultimate, 10 when using her Chain Attack, and 5 when using her EX Special Attack.",
-          "When another character in your squad is a [Assist] character, or shares the same attribute or Faction:\nAfter Nekomata uses <color=#FFFFFF>[Dodge: Disappearing Tail]</color>, or after any squad member inflicts <color=#F0D12B>[Assault]</color> on an enemy, Nekomata's <color=#FFFFFF>[EX Special Attack]</color> and <color=#FFFFFF>[Dodge Counter]</color> deal 35% more DMG on hit. This effect stacks up to 2 times and lasts 30s. Repeated triggers reset the duration."
+          "When Nekomata's <color=#FFFFFF>Dodge Counter</color> or <color=#FFFFFF>Quick Assist</color> hits an enemy, her DMG increases by <color=#2BAD00>30%</color> for 40s. Repeated triggers reset the duration.\nNekomata gains 40 <Term:1000024></Term> upon entering the battlefield. In Investigation Zone mode, this effect can trigger once every 180s.\nWhile Nekomata is in-combat, she gains 1 [Purr Energy] every second, up to a maximum of 60. Different skills restore different amounts of [Purr Energy] when they hit an enemy.\nWhen Nekomata has at least 40 [Purr Energy] and after triggering a <color=#FFFFFF>Perfect Dodge</color>, press <IconMap:Icon_Evade> to consume 30 [Purr Energy] and activate [Dodge: Disappearing Tail]. Then press <IconMap:Icon_Normal> to perform [Dodge Counter: Fluffy Piercing Claw] once without consuming [Purr Energy].\nWhen Nekomata has at least 40 [Purr Energy], hold <IconMap:Icon_Normal> to consume 40 [Purr Energy] and activate [Dodge Counter: Fluffy Piercing Claw].\nUsing [Dodge Counter: Fluffy Piercing Claw] grants <Term:1000025></Term> state for 40s. Repeated triggers reset the duration. While [Pawpad Ambush] is active, all of Nekomata's attacks that hit are treated as hitting enemies from behind.\nWhile [Pawpad Ambush] is active, Nekomata's attacks that hit trigger [Super Mean Pawprint], dealing an additional instance of <color=#F0D12B>Physical DMG</color> equal to 30% of her ATK. This effect can trigger once every 1s.\nNekomata restores 20 additional [Purr Energy] when using her Ultimate, 10 when using her Chain Attack, and 5 when using her EX Special Attack.",
+          "When another character in your squad is a Support character, or shares the same attribute or Faction:\nAfter Nekomata uses <color=#FFFFFF>Dodge: Disappearing Tail</color>, or after any squad member inflicts <color=#F0D12B>Assault</color> on an enemy, Nekomata's <color=#FFFFFF>EX Special Attack</color> and <color=#FFFFFF>Dodge Counter</color> deal 35% more DMG on hit. This effect stacks up to 2 times and lasts 30s. Repeated triggers reset the duration."
         ],
         "extra_property": {},
         "potential": [
@@ -2006,8 +2006,8 @@
           "Additional Ability: Catwalk"
         ],
         "desc": [
-          "When Nekomata's <color=#FFFFFF>[Dodge Counter]</color> or <color=#FFFFFF>[Quick Assist]</color> hits an enemy, her DMG increases by <color=#2BAD00>35%</color> for 40s. Repeated triggers refresh the duration.\nNekomata gains 40 Purr Energy upon entering the battlefield. In Investigation Zone mode, this effect can trigger once every 180s.\nWhile Nekomata is in-combat, she gains 1 Purr Energy every second, up to a maximum of 60. Nekomata's Different Moves Hit the Enemy to restore different amounts of Purr Energy.\nWhen Nekomata has at least 40 Purr Energy, after triggering a <color=#FFFFFF>[Perfect Dodge]</color>, press <IconMap:Icon_Evade> to consume 30 Purr Energy and activate [Dodge: Vanishing Tail Technique], then press <IconMap:Icon_Normal> to perform [Dodge Counter: Velvet Claw Pierce] without consuming Purr Energy.\nWhen Nekomata has at least 40 Purr Energy, hold <IconMap:Icon_Normal> to consume 40 Purr Energy and activate [Dodge Counter: Velvet Claw Pierce].\nUsing [Dodge Counter: Velvet Claw Pierce] grants [Paw Pad Ambush] for 40s. Repeated triggers refresh the duration. While in [Paw Pad Ambush], all of Nekomata's DMG is treated as hitting enemies from behind.\nWhile [Paw Pad Ambush] is active, Nekomata's attacks trigger [Savage Pawprint], dealing an additional instance of <color=#F0D12B>Physical DMG</color> equal to 30% of her ATK. This effect can trigger once every 1s.\nNekomata additionally restores 20 Purr Energy when using her Ultimate, 10 when using her Chain Attack, and 5 when using her EX Special Attack.",
-          "When another character in your squad is a [Assist] character, or shares the same attribute or Faction:\nAfter Nekomata uses <color=#FFFFFF>[Dodge: Disappearing Tail]</color>, or after any squad member inflicts <color=#F0D12B>[Assault]</color> on an enemy, Nekomata's <color=#FFFFFF>[EX Special Attack]</color> and <color=#FFFFFF>[Dodge Counter]</color> deal 35% more DMG on hit. This effect stacks up to 2 times and lasts 30s. Repeated triggers reset the duration."
+          "When Nekomata's <color=#FFFFFF>Dodge Counter</color> or <color=#FFFFFF>Quick Assist</color> hits an enemy, her DMG increases by <color=#2BAD00>35%</color> for 40s. Repeated triggers reset the duration.\nNekomata gains 40 <Term:1000024></Term> upon entering the battlefield. In Investigation Zone mode, this effect can trigger once every 180s.\nWhile Nekomata is in-combat, she gains 1 [Purr Energy] every second, up to a maximum of 60. Different skills restore different amounts of [Purr Energy] when they hit an enemy.\nWhen Nekomata has at least 40 [Purr Energy] and after triggering a <color=#FFFFFF>Perfect Dodge</color>, press <IconMap:Icon_Evade> to consume 30 [Purr Energy] and activate [Dodge: Disappearing Tail]. Then press <IconMap:Icon_Normal> to perform [Dodge Counter: Fluffy Piercing Claw] once without consuming [Purr Energy].\nWhen Nekomata has at least 40 [Purr Energy], hold <IconMap:Icon_Normal> to consume 40 [Purr Energy] and activate [Dodge Counter: Fluffy Piercing Claw].\nUsing [Dodge Counter: Fluffy Piercing Claw] grants <Term:1000025></Term> state for 40s. Repeated triggers reset the duration. While [Pawpad Ambush] is active, all of Nekomata's attacks that hit are treated as hitting enemies from behind.\nWhile [Pawpad Ambush] is active, Nekomata's attacks that hit trigger [Super Mean Pawprint], dealing an additional instance of <color=#F0D12B>Physical DMG</color> equal to 30% of her ATK. This effect can trigger once every 1s.\nNekomata restores 20 additional [Purr Energy] when using her Ultimate, 10 when using her Chain Attack, and 5 when using her EX Special Attack.",
+          "When another character in your squad is a Support character, or shares the same attribute or Faction:\nAfter Nekomata uses <color=#FFFFFF>Dodge: Disappearing Tail</color>, or after any squad member inflicts <color=#F0D12B>Assault</color> on an enemy, Nekomata's <color=#FFFFFF>EX Special Attack</color> and <color=#FFFFFF>Dodge Counter</color> deal 35% more DMG on hit. This effect stacks up to 2 times and lasts 30s. Repeated triggers reset the duration."
         ],
         "extra_property": {},
         "potential": [
@@ -2027,8 +2027,8 @@
           "Additional Ability: Catwalk"
         ],
         "desc": [
-          "When Nekomata's <color=#FFFFFF>[Dodge Counter]</color> or <color=#FFFFFF>[Quick Assist]</color> hits an enemy, her DMG increases by <color=#2BAD00>40%</color> for 40s. Repeated triggers refresh the duration.\nNekomata gains 40 Purr Energy upon entering the battlefield. In Investigation Zone mode, this effect can trigger once every 180s.\nWhile Nekomata is in-combat, she gains 1 Purr Energy every second, up to a maximum of 60. Nekomata's Different Moves Hit the Enemy to restore different amounts of Purr Energy.\nWhen Nekomata has at least 40 Purr Energy, after triggering a <color=#FFFFFF>[Perfect Dodge]</color>, press <IconMap:Icon_Evade> to consume 30 Purr Energy and activate [Dodge: Vanishing Tail Technique], then press <IconMap:Icon_Normal> to perform [Dodge Counter: Velvet Claw Pierce] without consuming Purr Energy.\nWhen Nekomata has at least 40 Purr Energy, hold <IconMap:Icon_Normal> to consume 40 Purr Energy and activate [Dodge Counter: Velvet Claw Pierce].\nUsing [Dodge Counter: Velvet Claw Pierce] grants [Paw Pad Ambush] for 40s. Repeated triggers refresh the duration. While in [Paw Pad Ambush], all of Nekomata's DMG is treated as hitting enemies from behind.\nWhile [Paw Pad Ambush] is active, Nekomata's attacks trigger [Savage Pawprint], dealing an additional instance of <color=#F0D12B>Physical DMG</color> equal to 30% of her ATK. This effect can trigger once every 1s.\nNekomata additionally restores 20 Purr Energy when using her Ultimate, 10 when using her Chain Attack, and 5 when using her EX Special Attack.",
-          "When another character in your squad is a [Assist] character, or shares the same attribute or Faction:\nAfter Nekomata uses <color=#FFFFFF>[Dodge: Disappearing Tail]</color>, or after any squad member inflicts <color=#F0D12B>[Assault]</color> on an enemy, Nekomata's <color=#FFFFFF>[EX Special Attack]</color> and <color=#FFFFFF>[Dodge Counter]</color> deal 35% more DMG on hit. This effect stacks up to 2 times and lasts 30s. Repeated triggers reset the duration."
+          "When Nekomata's <color=#FFFFFF>Dodge Counter</color> or <color=#FFFFFF>Quick Assist</color> hits an enemy, her DMG increases by <color=#2BAD00>40%</color> for 40s. Repeated triggers reset the duration.\nNekomata gains 40 <Term:1000024></Term> upon entering the battlefield. In Investigation Zone mode, this effect can trigger once every 180s.\nWhile Nekomata is in-combat, she gains 1 [Purr Energy] every second, up to a maximum of 60. Different skills restore different amounts of [Purr Energy] when they hit an enemy.\nWhen Nekomata has at least 40 [Purr Energy] and after triggering a <color=#FFFFFF>Perfect Dodge</color>, press <IconMap:Icon_Evade> to consume 30 [Purr Energy] and activate [Dodge: Disappearing Tail]. Then press <IconMap:Icon_Normal> to perform [Dodge Counter: Fluffy Piercing Claw] once without consuming [Purr Energy].\nWhen Nekomata has at least 40 [Purr Energy], hold <IconMap:Icon_Normal> to consume 40 [Purr Energy] and activate [Dodge Counter: Fluffy Piercing Claw].\nUsing [Dodge Counter: Fluffy Piercing Claw] grants <Term:1000025></Term> state for 40s. Repeated triggers reset the duration. While [Pawpad Ambush] is active, all of Nekomata's attacks that hit are treated as hitting enemies from behind.\nWhile [Pawpad Ambush] is active, Nekomata's attacks that hit trigger [Super Mean Pawprint], dealing an additional instance of <color=#F0D12B>Physical DMG</color> equal to 30% of her ATK. This effect can trigger once every 1s.\nNekomata restores 20 additional [Purr Energy] when using her Ultimate, 10 when using her Chain Attack, and 5 when using her EX Special Attack.",
+          "When another character in your squad is a Support character, or shares the same attribute or Faction:\nAfter Nekomata uses <color=#FFFFFF>Dodge: Disappearing Tail</color>, or after any squad member inflicts <color=#F0D12B>Assault</color> on an enemy, Nekomata's <color=#FFFFFF>EX Special Attack</color> and <color=#FFFFFF>Dodge Counter</color> deal 35% more DMG on hit. This effect stacks up to 2 times and lasts 30s. Repeated triggers reset the duration."
         ],
         "extra_property": {},
         "potential": [
@@ -2048,8 +2048,8 @@
           "Additional Ability: Catwalk"
         ],
         "desc": [
-          "When Nekomata's <color=#FFFFFF>[Dodge Counter]</color> or <color=#FFFFFF>[Quick Assist]</color> hits an enemy, her DMG increases by <color=#2BAD00>45%</color> for 40s. Repeated triggers refresh the duration.\nNekomata gains 40 Purr Energy upon entering the battlefield. In Investigation Zone mode, this effect can trigger once every 180s.\nWhile Nekomata is in-combat, she gains 1 Purr Energy every second, up to a maximum of 60. Nekomata's Different Moves Hit the Enemy to restore different amounts of [Purr Energy].\nWhen Nekomata has at least 40 [Purr Energy], after triggering a <color=#FFFFFF>[Perfect Dodge]</color>, press <IconMap:Icon_Evade> to consume 30 [Purr Energy] and activate [Dodge: Vanishing Tail Technique], then press <IconMap:Icon_Normal> to perform a [Dodge Counter: Velvet Claw Pierce] without consuming [Purr Energy].\nWhen Nekomata has at least 40 [Purr Energy], hold <IconMap:Icon_Normal> to consume 40 [Purr Energy] and activate [Dodge Counter: Velvet Claw Pierce].\nUsing [Dodge Counter: Velvet Claw Pierce] grants [Paw Pad Ambush] for 40s. Repeated triggers refresh the duration. While in [Paw Pad Ambush], all DMG dealt by Nekomata is treated as hitting enemies from behind.\nWhile [Paw Pad Ambush] is active, Nekomata's attacks trigger the [Savage Pawprint] effect, dealing an instance of <color=#F0D12B>Physical DMG</color> equal to 30% of her ATK. This effect can trigger once every 1s.\nNekomata additionally restores 20 [Purr Energy] when using her Ultimate, 10 when using her Chain Attack, and 5 when using her EX Special Attack.",
-          "When another character in your squad is a [Assist] character, or shares the same attribute or Faction:\nAfter Nekomata uses <color=#FFFFFF>[Dodge: Disappearing Tail]</color>, or after any squad member inflicts <color=#F0D12B>[Assault]</color> on an enemy, Nekomata's <color=#FFFFFF>[EX Special Attack]</color> and <color=#FFFFFF>[Dodge Counter]</color> deal 35% more DMG on hit. This effect stacks up to 2 times and lasts 30s. Repeated triggers reset the duration."
+          "When Nekomata's <color=#FFFFFF>Dodge Counter</color> or <color=#FFFFFF>Quick Assist</color> hits an enemy, her DMG increases by <color=#2BAD00>45%</color> for 40s. Repeated triggers reset the duration.\nNekomata gains 40 <Term:1000024></Term> upon entering the battlefield. In Investigation Zone mode, this effect can trigger once every 180s.\nWhile Nekomata is in-combat, she gains 1 [Purr Energy] every second, up to a maximum of 60. Different skills restore different amounts of [Purr Energy] when they hit an enemy.\nWhen Nekomata has at least 40 [Purr Energy] and after triggering a <color=#FFFFFF>Perfect Dodge</color>, press <IconMap:Icon_Evade> to consume 30 [Purr Energy] and activate [Dodge: Disappearing Tail]. Then press <IconMap:Icon_Normal> to perform [Dodge Counter: Fluffy Piercing Claw] once without consuming [Purr Energy].\nWhen Nekomata has at least 40 [Purr Energy], hold <IconMap:Icon_Normal> to consume 40 [Purr Energy] and activate [Dodge Counter: Fluffy Piercing Claw].\nUsing [Dodge Counter: Fluffy Piercing Claw] grants <Term:1000025></Term> state for 40s. Repeated triggers reset the duration. While [Pawpad Ambush] is active, all of Nekomata's attacks that hit are treated as hitting enemies from behind.\nWhile [Pawpad Ambush] is active, Nekomata's attacks that hit trigger [Super Mean Pawprint], dealing an additional instance of <color=#F0D12B>Physical DMG</color> equal to 30% of her ATK. This effect can trigger once every 1s.\nNekomata restores 20 additional [Purr Energy] when using her Ultimate, 10 when using her Chain Attack, and 5 when using her EX Special Attack.",
+          "When another character in your squad is a Support character, or shares the same attribute or Faction:\nAfter Nekomata uses <color=#FFFFFF>Dodge: Disappearing Tail</color>, or after any squad member inflicts <color=#F0D12B>Assault</color> on an enemy, Nekomata's <color=#FFFFFF>EX Special Attack</color> and <color=#FFFFFF>Dodge Counter</color> deal 35% more DMG on hit. This effect stacks up to 2 times and lasts 30s. Repeated triggers reset the duration."
         ],
         "extra_property": {},
         "potential": [
@@ -2069,8 +2069,8 @@
           "Additional Ability: Catwalk"
         ],
         "desc": [
-          "When Nekomata's <color=#FFFFFF>[Dodge Counter]</color> or <color=#FFFFFF>[Quick Assist]</color> hits an enemy, her DMG increases by <color=#2BAD00>50%</color> for 40s. Repeated triggers refresh the duration.\nNekomata gains 40 Purr Energy upon entering the battlefield. In Investigation Zone mode, this effect can trigger once every 180s.\nWhile Nekomata is in-combat, she gains 1 Purr Energy every second, up to a maximum of 60. Nekomata's Different Moves Hit the Enemy to restore different amounts of Purr Energy.\nWhen Nekomata has at least 40 Purr Energy, after triggering a <color=#FFFFFF>[Perfect Dodge]</color>, press <IconMap:Icon_Evade> to consume 30 Purr Energy and activate [Dodge: Vanishing Tail Technique], then press <IconMap:Icon_Normal> to perform [Dodge Counter: Velvet Claw Pierce] without consuming Purr Energy.\nWhen Nekomata has at least 40 Purr Energy, hold <IconMap:Icon_Normal> to consume 40 Purr Energy and activate [Dodge Counter: Velvet Claw Pierce].\nUsing [Dodge Counter: Velvet Claw Pierce] grants [Paw Pad Ambush] for 40s. Repeated triggers refresh the duration. While in [Paw Pad Ambush], all of Nekomata's DMG is treated as hitting enemies from behind.\nWhile [Paw Pad Ambush] is active, Nekomata's attacks trigger [Savage Pawprint], dealing an additional instance of <color=#F0D12B>Physical DMG</color> equal to 30% of her ATK. This effect can trigger once every 1s.\nNekomata additionally restores 20 Purr Energy when using her Ultimate, 10 when using her Chain Attack, and 5 when using her EX Special Attack.",
-          "When another character in your squad is a [Assist] character, or shares the same attribute or Faction:\nAfter Nekomata uses <color=#FFFFFF>[Dodge: Disappearing Tail]</color>, or after any squad member inflicts <color=#F0D12B>[Assault]</color> on an enemy, Nekomata's <color=#FFFFFF>[EX Special Attack]</color> and <color=#FFFFFF>[Dodge Counter]</color> deal 35% more DMG on hit. This effect stacks up to 2 times and lasts 30s. Repeated triggers reset the duration."
+          "When Nekomata's <color=#FFFFFF>Dodge Counter</color> or <color=#FFFFFF>Quick Assist</color> hits an enemy, her DMG increases by <color=#2BAD00>50%</color> for 40s. Repeated triggers reset the duration.\nNekomata gains 40 <Term:1000024></Term> upon entering the battlefield. In Investigation Zone mode, this effect can trigger once every 180s.\nWhile Nekomata is in-combat, she gains 1 [Purr Energy] every second, up to a maximum of 60. Different skills restore different amounts of [Purr Energy] when they hit an enemy.\nWhen Nekomata has at least 40 [Purr Energy] and after triggering a <color=#FFFFFF>Perfect Dodge</color>, press <IconMap:Icon_Evade> to consume 30 [Purr Energy] and activate [Dodge: Disappearing Tail]. Then press <IconMap:Icon_Normal> to perform [Dodge Counter: Fluffy Piercing Claw] once without consuming [Purr Energy].\nWhen Nekomata has at least 40 [Purr Energy], hold <IconMap:Icon_Normal> to consume 40 [Purr Energy] and activate [Dodge Counter: Fluffy Piercing Claw].\nUsing [Dodge Counter: Fluffy Piercing Claw] grants <Term:1000025></Term> state for 40s. Repeated triggers reset the duration. While [Pawpad Ambush] is active, all of Nekomata's attacks that hit are treated as hitting enemies from behind.\nWhile [Pawpad Ambush] is active, Nekomata's attacks that hit trigger [Super Mean Pawprint], dealing an additional instance of <color=#F0D12B>Physical DMG</color> equal to 30% of her ATK. This effect can trigger once every 1s.\nNekomata restores 20 additional [Purr Energy] when using her Ultimate, 10 when using her Chain Attack, and 5 when using her EX Special Attack.",
+          "When another character in your squad is a Support character, or shares the same attribute or Faction:\nAfter Nekomata uses <color=#FFFFFF>Dodge: Disappearing Tail</color>, or after any squad member inflicts <color=#F0D12B>Assault</color> on an enemy, Nekomata's <color=#FFFFFF>EX Special Attack</color> and <color=#FFFFFF>Dodge Counter</color> deal 35% more DMG on hit. This effect stacks up to 2 times and lasts 30s. Repeated triggers reset the duration."
         ],
         "extra_property": {},
         "potential": [
@@ -2090,8 +2090,8 @@
           "Additional Ability: Catwalk"
         ],
         "desc": [
-          "When Nekomata's <color=#FFFFFF>[Dodge Counter]</color> or <color=#FFFFFF>[Quick Assist]</color> hits an enemy, her DMG increases by <color=#2BAD00>55%</color> for 40s. Repeated triggers refresh the duration.\nNekomata gains 40 Purr Energy upon entering the battlefield. In Investigation Zone mode, this effect can trigger once every 180s.\nWhile Nekomata is in-combat, she gains 1 Purr Energy every second, up to a maximum of 60. Nekomata's Different Moves Hit the Enemy to restore different amounts of Purr Energy.\nWhen Nekomata has at least 40 Purr Energy, after triggering a <color=#FFFFFF>[Perfect Dodge]</color>, press <IconMap:Icon_Evade> to consume 30 Purr Energy and activate [Dodge: Vanishing Tail Technique], then press <IconMap:Icon_Normal> to perform [Dodge Counter: Velvet Claw Pierce] without consuming Purr Energy.\nWhen Nekomata has at least 40 Purr Energy, hold <IconMap:Icon_Normal> to consume 40 Purr Energy and activate [Dodge Counter: Velvet Claw Pierce].\nUsing [Dodge Counter: Velvet Claw Pierce] grants [Paw Pad Ambush] for 40s. Repeated triggers refresh the duration. While in [Paw Pad Ambush], all of Nekomata's DMG is treated as hitting enemies from behind.\nWhile [Paw Pad Ambush] is active, Nekomata's attacks trigger [Savage Pawprint], dealing an additional instance of <color=#F0D12B>Physical DMG</color> equal to 30% of her ATK. This effect can trigger once every 1s.\nNekomata additionally restores 20 Purr Energy when using her Ultimate, 10 when using her Chain Attack, and 5 when using her EX Special Attack.",
-          "When another character in your squad is a [Assist] character, or shares the same attribute or Faction:\nAfter Nekomata uses <color=#FFFFFF>[Dodge: Disappearing Tail]</color>, or after any squad member inflicts <color=#F0D12B>[Assault]</color> on an enemy, Nekomata's <color=#FFFFFF>[EX Special Attack]</color> and <color=#FFFFFF>[Dodge Counter]</color> deal 35% more DMG on hit. This effect stacks up to 2 times and lasts 30s. Repeated triggers reset the duration."
+          "When Nekomata's <color=#FFFFFF>Dodge Counter</color> or <color=#FFFFFF>Quick Assist</color> hits an enemy, her DMG increases by <color=#2BAD00>55%</color> for 40s. Repeated triggers reset the duration.\nNekomata gains 40 <Term:1000024></Term> upon entering the battlefield. In Investigation Zone mode, this effect can trigger once every 180s.\nWhile Nekomata is in-combat, she gains 1 [Purr Energy] every second, up to a maximum of 60. Different skills restore different amounts of [Purr Energy] when they hit an enemy.\nWhen Nekomata has at least 40 [Purr Energy] and after triggering a <color=#FFFFFF>Perfect Dodge</color>, press <IconMap:Icon_Evade> to consume 30 [Purr Energy] and activate [Dodge: Disappearing Tail]. Then press <IconMap:Icon_Normal> to perform [Dodge Counter: Fluffy Piercing Claw] once without consuming [Purr Energy].\nWhen Nekomata has at least 40 [Purr Energy], hold <IconMap:Icon_Normal> to consume 40 [Purr Energy] and activate [Dodge Counter: Fluffy Piercing Claw].\nUsing [Dodge Counter: Fluffy Piercing Claw] grants <Term:1000025></Term> state for 40s. Repeated triggers reset the duration. While [Pawpad Ambush] is active, all of Nekomata's attacks that hit are treated as hitting enemies from behind.\nWhile [Pawpad Ambush] is active, Nekomata's attacks that hit trigger [Super Mean Pawprint], dealing an additional instance of <color=#F0D12B>Physical DMG</color> equal to 30% of her ATK. This effect can trigger once every 1s.\nNekomata restores 20 additional [Purr Energy] when using her Ultimate, 10 when using her Chain Attack, and 5 when using her EX Special Attack.",
+          "When another character in your squad is a Support character, or shares the same attribute or Faction:\nAfter Nekomata uses <color=#FFFFFF>Dodge: Disappearing Tail</color>, or after any squad member inflicts <color=#F0D12B>Assault</color> on an enemy, Nekomata's <color=#FFFFFF>EX Special Attack</color> and <color=#FFFFFF>Dodge Counter</color> deal 35% more DMG on hit. This effect stacks up to 2 times and lasts 30s. Repeated triggers reset the duration."
         ],
         "extra_property": {},
         "potential": [
@@ -2111,8 +2111,8 @@
           "Additional Ability: Catwalk"
         ],
         "desc": [
-          "When Nekomata's <color=#FFFFFF>[Dodge Counter]</color> or <color=#FFFFFF>[Quick Assist]</color> hits an enemy, her DMG increases by <color=#2BAD00>60%</color> for 40s. Repeated triggers refresh the duration.\nNekomata gains 40 Purr Energy upon entering the battlefield. In Investigation Zone mode, this effect can trigger once every 180s.\nWhile Nekomata is in-combat, she gains 1 Purr Energy every second, up to a maximum of 60. Nekomata's Different Moves Hit the Enemy to restore different amounts of [Purr Energy].\nWhen Nekomata has at least 40 [Purr Energy], after triggering a <color=#FFFFFF>[Perfect Dodge]</color>, press <IconMap:Icon_Evade> to consume 30 [Purr Energy] and activate [Dodge: Vanishing Tail Technique], then press <IconMap:Icon_Normal> to perform a [Dodge Counter: Velvet Claw Pierce] without consuming [Purr Energy].\nWhen Nekomata has at least 40 [Purr Energy], hold <IconMap:Icon_Normal> to consume 40 [Purr Energy] and activate [Dodge Counter: Velvet Claw Pierce].\nUsing [Dodge Counter: Velvet Claw Pierce] grants [Paw Pad Ambush] for 40s. Repeated triggers refresh the duration. While in [Paw Pad Ambush], all DMG dealt by Nekomata is treated as hitting enemies from behind.\nWhile [Paw Pad Ambush] is active, Nekomata's attacks trigger the [Savage Pawprint] effect, dealing an instance of <color=#F0D12B>Physical DMG</color> equal to 30% of her ATK. This effect can trigger once every 1s.\nNekomata additionally restores 20 [Purr Energy] when using her Ultimate, 10 when using her Chain Attack, and 5 when using her EX Special Attack.",
-          "When another character in your squad is a [Assist] character, or shares the same attribute or Faction:\nAfter Nekomata uses <color=#FFFFFF>[Dodge: Disappearing Tail]</color>, or after any squad member inflicts <color=#F0D12B>[Assault]</color> on an enemy, Nekomata's <color=#FFFFFF>[EX Special Attack]</color> and <color=#FFFFFF>[Dodge Counter]</color> deal 35% more DMG on hit. This effect stacks up to 2 times and lasts 30s. Repeated triggers reset the duration."
+          "When Nekomata's <color=#FFFFFF>Dodge Counter</color> or <color=#FFFFFF>Quick Assist</color> hits an enemy, her DMG increases by <color=#2BAD00>60%</color> for 40s. Repeated triggers reset the duration.\nNekomata gains 40 <Term:1000024></Term> upon entering the battlefield. In Investigation Zone mode, this effect can trigger once every 180s.\nWhile Nekomata is in-combat, she gains 1 [Purr Energy] every second, up to a maximum of 60. Different skills restore different amounts of [Purr Energy] when they hit an enemy.\nWhen Nekomata has at least 40 [Purr Energy] and after triggering a <color=#FFFFFF>Perfect Dodge</color>, press <IconMap:Icon_Evade> to consume 30 [Purr Energy] and activate [Dodge: Disappearing Tail]. Then press <IconMap:Icon_Normal> to perform [Dodge Counter: Fluffy Piercing Claw] once without consuming [Purr Energy].\nWhen Nekomata has at least 40 [Purr Energy], hold <IconMap:Icon_Normal> to consume 40 [Purr Energy] and activate [Dodge Counter: Fluffy Piercing Claw].\nUsing [Dodge Counter: Fluffy Piercing Claw] grants <Term:1000025></Term> state for 40s. Repeated triggers reset the duration. While [Pawpad Ambush] is active, all of Nekomata's attacks that hit are treated as hitting enemies from behind.\nWhile [Pawpad Ambush] is active, Nekomata's attacks that hit trigger [Super Mean Pawprint], dealing an additional instance of <color=#F0D12B>Physical DMG</color> equal to 30% of her ATK. This effect can trigger once every 1s.\nNekomata restores 20 additional [Purr Energy] when using her Ultimate, 10 when using her Chain Attack, and 5 when using her EX Special Attack.",
+          "When another character in your squad is a Support character, or shares the same attribute or Faction:\nAfter Nekomata uses <color=#FFFFFF>Dodge: Disappearing Tail</color>, or after any squad member inflicts <color=#F0D12B>Assault</color> on an enemy, Nekomata's <color=#FFFFFF>EX Special Attack</color> and <color=#FFFFFF>Dodge Counter</color> deal 35% more DMG on hit. This effect stacks up to 2 times and lasts 30s. Repeated triggers reset the duration."
         ],
         "extra_property": {},
         "potential": [
@@ -2257,8 +2257,8 @@
     },
     "102101": {
       "id": 102101,
-      "name": "Potential Awakening: Nocturnal Instinct",
-      "desc": "While Nekomata is in the [Paw Pad Ambush] state, CRIT DMG increases by <color=#2BAD00>20%</color>",
+      "name": "Awakened Potential: Nightborne Instinct",
+      "desc": "While Nekomata is in the [Pawpad Ambush] state, her CRIT DMG increases by <color=#2BAD00>20%</color>.",
       "image": "Nekomata",
       "level_show_name": "Cat's Gratitude II",
       "level": 2,
@@ -2277,8 +2277,8 @@
     },
     "102102": {
       "id": 102102,
-      "name": "Potential Awakening: Nocturnal Instinct",
-      "desc": "While Nekomata is in the [Paw Pad Ambush] state, CRIT DMG increases by <color=#2BAD00>30%</color>",
+      "name": "Awakened Potential: Nightborne Instinct",
+      "desc": "While Nekomata is in the [Pawpad Ambush] state, her CRIT DMG increases by <color=#2BAD00>30%</color>.",
       "image": "Nekomata",
       "level_show_name": "Cat's Gratitude III",
       "level": 3,
@@ -2297,8 +2297,8 @@
     },
     "102103": {
       "id": 102103,
-      "name": "Potential Awakening: Nocturnal Instinct",
-      "desc": "While Nekomata is in the [Paw Pad Ambush] state, CRIT DMG increases by <color=#2BAD00>40%</color>",
+      "name": "Awakened Potential: Nightborne Instinct",
+      "desc": "While Nekomata is in the [Pawpad Ambush] state, her CRIT DMG increases by <color=#2BAD00>40%</color>.",
       "image": "Nekomata",
       "level_show_name": "Cat's Gratitude IV",
       "level": 4,
@@ -2317,8 +2317,8 @@
     },
     "102104": {
       "id": 102104,
-      "name": "Potential Awakening: Nocturnal Instinct",
-      "desc": "While Nekomata is in the [Paw Pad Ambush] state, CRIT DMG increases by <color=#2BAD00>50%</color>",
+      "name": "Awakened Potential: Nightborne Instinct",
+      "desc": "While Nekomata is in the [Pawpad Ambush] state, her CRIT DMG increases by <color=#2BAD00>50%</color>.",
       "image": "Nekomata",
       "level_show_name": "Cat's Gratitude V",
       "level": 5,
@@ -2337,8 +2337,8 @@
     },
     "102105": {
       "id": 102105,
-      "name": "Potential Awakening: Nocturnal Instinct",
-      "desc": "While Nekomata is in the [Paw Pad Ambush] state, CRIT DMG increases by <color=#2BAD00>60%</color>",
+      "name": "Awakened Potential: Nightborne Instinct",
+      "desc": "While Nekomata is in the [Pawpad Ambush] state, her CRIT DMG increases by <color=#2BAD00>60%</color>.",
       "image": "Nekomata",
       "level_show_name": "Cat's Gratitude VI",
       "level": 6,

@@ -1,6 +1,6 @@
 {
   "name": "Frag Crystal - Hydro",
-  "desc": "",
+  "desc": "Tactical throwable that can deal AoE Hydro DMG.",
   "weapon_type": "ITEM_TPS_WEAPON",
   "rarity": 4,
   "icon": "UI_EquipIcon_Grenade_Water",

@@ -343,7 +343,7 @@
   "refinement": {
     "1": {
       "name": "",
-      "desc": "Using an Elemental Skill increases Elemental Mastery by <color=#99FFFFFF>120</color> for 12s.",
+      "desc": "For 12s after the equipping character uses an Elemental Skill, their Elemental Mastery is increased by <color=#99FFFFFF>120</color>.",
       "param_list": [
         120,
         12,
@@ -357,7 +357,7 @@
     },
     "2": {
       "name": "",
-      "desc": "Using an Elemental Skill increases Elemental Mastery by <color=#99FFFFFF>150</color> for 12s.",
+      "desc": "For 12s after the equipping character uses an Elemental Skill, their Elemental Mastery is increased by <color=#99FFFFFF>150</color>.",
       "param_list": [
         150,
         12,
@@ -371,7 +371,7 @@
     },
     "3": {
       "name": "",
-      "desc": "Using an Elemental Skill increases Elemental Mastery by <color=#99FFFFFF>180</color> for 12s.",
+      "desc": "For 12s after the equipping character uses an Elemental Skill, their Elemental Mastery is increased by <color=#99FFFFFF>180</color>.",
       "param_list": [
         180,
         12,
@@ -385,7 +385,7 @@
     },
     "4": {
       "name": "",
-      "desc": "Using an Elemental Skill increases Elemental Mastery by <color=#99FFFFFF>210</color> for 12s.",
+      "desc": "For 12s after the equipping character uses an Elemental Skill, their Elemental Mastery is increased by <color=#99FFFFFF>210</color>.",
       "param_list": [
         210,
         12,
@@ -399,7 +399,7 @@
     },
     "5": {
       "name": "",
-      "desc": "Using an Elemental Skill increases Elemental Mastery by <color=#99FFFFFF>240</color> for 12s.",
+      "desc": "For 12s after the equipping character uses an Elemental Skill, their Elemental Mastery is increased by <color=#99FFFFFF>240</color>.",
       "param_list": [
         240,
         12,

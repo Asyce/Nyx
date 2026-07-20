@@ -356,8 +356,8 @@
         "image": "IconRole27"
       },
       "3111511": {
-        "name": "AvatarSkin_Lucy_Name_001",
-        "desc": "AvatarSkin_Lucy_Desc_001",
+        "name": "...",
+        "desc": "...",
         "image": "IconRole27_01"
       }
     },
@@ -1398,23 +1398,33 @@
     "camp": 17,
     "icon": "IconRole67",
     "potential": [],
-    "en": "Avatar_Female_Size02_Remielle",
+    "en": "Remielle",
     "skin": {
       "3115810": {
-        "name": "AvatarSkin_RemielleOrigin_Name_000",
-        "desc": "AvatarSkin_RemielleOrigin_Desc_000",
+        "name": "...",
+        "desc": "...",
         "image": "IconRole67"
       },
       "3115811": {
-        "name": "AvatarSkin_RemielleOrigin_Name_001",
-        "desc": "AvatarSkin_RemielleOrigin_Desc_001",
+        "name": "...",
+        "desc": "...",
         "image": "IconRole67_02"
+      },
+      "3115812": {
+        "name": "...",
+        "desc": "...",
+        "image": "IconRole67_01"
+      },
+      "3115813": {
+        "name": "...",
+        "desc": "...",
+        "image": "IconRole67_03"
       }
     },
-    "desc": "Partner_ProfileDesc_1581",
-    "ko": "Avatar_Female_Size02_Remielle",
+    "desc": "...",
+    "ko": "레미엘",
     "zh": "蕾米埃尔",
-    "ja": "Avatar_Female_Size02_Remielle"
+    "ja": "レミエール"
   },
   "1591": {
     "code": "Avatar_Female_Size03_Sigrid_En",
@@ -1425,22 +1435,22 @@
     "camp": 16,
     "icon": "IconRole66",
     "potential": [],
-    "en": "Avatar_Female_Size03_Sigrid",
+    "en": "Sigrid",
     "skin": {
       "3115910": {
-        "name": "AvatarSkin_Sigrid_Name_000",
-        "desc": "AvatarSkin_Sigrid_Desc_000",
+        "name": "...",
+        "desc": "...",
         "image": "IconRole66"
       },
       "3115911": {
-        "name": "AvatarSkin_Sigrid_Name_001",
-        "desc": "AvatarSkin_Sigrid_Desc_001",
+        "name": "...",
+        "desc": "...",
         "image": "IconRole66_01"
       }
     },
     "desc": "...",
-    "ko": "Avatar_Female_Size03_Sigrid",
-    "zh": "(Test1)希格莉德",
-    "ja": "Avatar_Female_Size03_Sigrid"
+    "ko": "시그리드",
+    "zh": "希格莉德",
+    "ja": "シグリッド"
   }
 }

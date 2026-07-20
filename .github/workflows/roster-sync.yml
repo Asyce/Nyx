@@ -76,7 +76,7 @@ jobs:
 
       - name: Validate scraped data
         working-directory: Scraper
-        run: npm run validate:strict
+        run: npm run validate
 
       - name: Commit refreshed data
         run: |
@@ -88,7 +88,6 @@ jobs:
           else
             git commit -m "chore(data): scheduled roster/material sync [skip ci]"
             git pull --rebase origin main
-            git push
           fi
 
       - name: Build site
@@ -98,6 +97,9 @@ jobs:
       - name: Smoke deploy artifact
         working-directory: Site
         run: npm run smoke:deploy
+
+      - name: Push verified data
+        run: git push
 
       - name: Deploy to Cloudflare
         if: ${{ env.CF_API_TOKEN != '' }}

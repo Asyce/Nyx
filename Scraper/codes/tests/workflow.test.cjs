@@ -37,3 +37,39 @@ test('code watch verifies every automated commit before its only push', () => {
     assert(condition > start && (end < 0 || condition < end), name + ' must verify livestream and code changes');
   }
 });
+
+test('every scheduled publishing workflow pushes only after a deploy smoke test', () => {
+  const workflows = [
+    'banner-history-refresh.yml',
+    'code-watch.yml',
+    'data-refresh.yml',
+    'gamedata-asset-sync.yml',
+    'gamedata-watch.yml',
+    'roster-sync.yml',
+    'side-data-sync.yml',
+  ];
+  for (const file of workflows) {
+    const source = fs.readFileSync(path.join(root, '.github/workflows', file), 'utf8');
+    const pushes = [...source.matchAll(/\bgit push\b/g)];
+    assert.equal(pushes.length, 1, `${file} must have exactly one push`);
+    const push = pushes[0].index;
+    const smoke = source.lastIndexOf('npm run smoke:deploy', push);
+    const deploy = source.indexOf('wrangler deploy', push);
+    assert(smoke >= 0 && smoke < push, `${file} must smoke-test before push`);
+    assert(deploy < 0 || push < deploy, `${file} must push before deploy`);
+  }
+});
+
+test('only the current-banner owner blocks on banner freshness and retries transient failures', () => {
+  const workflow = (file) => fs.readFileSync(path.join(root, '.github/workflows', file), 'utf8');
+  const dataRefresh = workflow('data-refresh.yml');
+  assert.match(dataRefresh, /for attempt in 1 2 3/);
+  assert.match(dataRefresh, /banners\/scrape\.cjs --require-fresh/);
+  assert.match(dataRefresh, /npm run validate:strict/);
+
+  for (const file of ['banner-history-refresh.yml', 'roster-sync.yml', 'side-data-sync.yml']) {
+    const source = workflow(file);
+    assert.match(source, /npm run validate(?:\r?\n|$)/, `${file} must keep structural validation`);
+    assert.doesNotMatch(source, /npm run validate:strict/, `${file} must not own current-banner freshness`);
+  }
+});

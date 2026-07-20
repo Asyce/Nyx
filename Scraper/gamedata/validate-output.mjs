@@ -55,7 +55,11 @@ export async function validateGameDataOutput(databaseDir, games) {
         if (CHARACTER_SECTIONS.has(section)) {
           const withoutPortrait = records.filter((record) => assetReferences(record?.assets).length < 1);
           if (withoutPortrait.length) {
-            throw new Error(`${game}/${channel}/${section} has ${withoutPortrait.length} character(s) without a local portrait reference`);
+            const identities = withoutPortrait
+              .slice(0, 8)
+              .map((record) => `${record?.name || 'unnamed'} (${record?.id || 'no id'})`)
+              .join(', ');
+            throw new Error(`${game}/${channel}/${section} has ${withoutPortrait.length} character(s) without a local portrait reference: ${identities}`);
           }
         }
         for (const reference of new Set(assetReferences(records))) {

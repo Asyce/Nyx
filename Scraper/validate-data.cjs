@@ -16,15 +16,13 @@
 
 const fs = require('fs');
 const path = require('path');
-const { reflowBannerGroup } = require('./banners/normalize.cjs');
+const { reflowBannerGroup, requiredBannerFreshnessFailures } = require('./banners/normalize.cjs');
 
 const root = path.join(__dirname, '..');
 const errors = [];
 const diagnostics = [];
 const strictFreshness = process.argv.includes('--strict-freshness') ||
   String(process.env.NYX_STRICT_BANNER_FRESHNESS || '').toLowerCase() === 'true';
-const strictAllowed = new Set(['fresh', 'transition']);
-const strictOptionalGames = new Set(['endfield']);
 
 function load(rel) {
   const p = path.join(root, 'Database', rel);
@@ -42,13 +40,16 @@ if (banners) {
   const games = banners.games || [];
   if (!games.length) errors.push('banners.json has zero games (total scrape collapse?)');
   const now = Date.now();
+  const freshnessFailures = new Map(
+    requiredBannerFreshnessFailures(games, now).map(({ id, status }) => [id, status])
+  );
   for (const g of games) {
     const r = reflowBannerGroup(g, now);
     const phases = [r.current, r.next, ...(r.upcoming || [])].filter(Boolean);
     const allChars = phases.flatMap((p) => p.characters || []);
     const nameless = allChars.filter((c) => !c || !c.name).length;
     if (nameless) errors.push(`banners[${g.id || g.name}]: ${nameless} featured character(s) missing a name`);
-    if (strictFreshness && !strictAllowed.has(r.freshness.status) && !strictOptionalGames.has(String(g.id || g.name).toLowerCase())) {
+    if (strictFreshness && freshnessFailures.has(String(g.id || g.name).toLowerCase())) {
       errors.push(`banners[${g.id || g.name}]: freshness is ${r.freshness.status}; expected fresh or transition`);
     }
     diagnostics.push(

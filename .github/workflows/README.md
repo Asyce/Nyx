@@ -1,25 +1,25 @@
 # Scheduled workflows
 
-Six scheduled jobs keep pengo.gg fresh and deploy automatically.
+Seven scheduled jobs keep pengo.gg fresh and deploy automatically.
 
 | Workflow | Cadence | What it does |
 |---|---|---|
 | `gamedata-watch.yml` | every 15 min | compare Nanoka's manifest -> when a supported game changed, sync its live/beta JSON and assets -> GameData-only validate -> build -> smoke -> commit -> rebuild with exact commit metadata -> deploy |
 | `code-watch.yml` | hourly, plus half-hour checks during detected livestream windows | detect official livestream windows -> active-code-only scrape -> semantic diff -> validate -> commit -> build -> smoke -> deploy only when codes changed |
-| `data-refresh.yml` | every 6h | scrape banners + codes -> unit tests -> strict validate -> commit `Database/` -> build -> smoke -> deploy |
-| `roster-sync.yml` | daily | scrape secondary rosters/materials/titles + banners + codes -> strict validate -> commit `Database/` -> build -> smoke -> deploy |
-| `side-data-sync.yml` | daily | scrape birthdays/namecards/signatures/holidays/TCG/furniture/Endfield skill icons/Genshin banner history -> strict validate -> commit `Database/` and Genshin banner helper -> build -> smoke -> deploy |
-| `gamedata-asset-sync.yml` | daily | download missing local GameData assets -> commit only `Database/GameData/*/assets` -> build -> smoke -> deploy |
+| `data-refresh.yml` | every 6h | retry banners + scrape codes -> unit tests -> strict validate -> commit `Database/` -> build -> smoke -> push -> deploy |
+| `roster-sync.yml` | daily | scrape secondary rosters/materials/titles + banners + codes -> structural validate -> commit `Database/` -> build -> smoke -> push -> deploy |
+| `side-data-sync.yml` | daily | scrape birthdays/namecards/signatures/holidays/TCG/furniture/Endfield skill icons/Genshin banner history -> structural validate -> commit `Database/` and Genshin banner helper -> build -> smoke -> push -> deploy |
+| `gamedata-asset-sync.yml` | daily | download missing local GameData assets -> commit only `Database/GameData/*/assets` -> build -> smoke -> push -> deploy |
 
 Before any deploy:
 - `gamedata-watch.yml` takes the expensive path only when Nanoka's supported manifest sections differ from the tracked manifest. Its collapse guard and GameData-only validator cover both live and beta output without letting unrelated banner or Endfield failures block the refresh. It downloads new assets in the same run.
-- `data-refresh.yml` runs `Scraper` unit tests (`npm test`) and the strict data gate (`npm run validate:strict`), which fails deploys when required banner data is stale, invalid, or unavailable.
-- `roster-sync.yml` runs the same strict data gate (`npm run validate:strict`).
-- `side-data-sync.yml` runs the same strict data gate (`npm run validate:strict`) after the secondary scrapers finish. It installs Crawl4AI and Chromium, but each Crawl4AI-backed fetch has a plain HTTP fallback.
+- `data-refresh.yml` retries the banner scrape three times, then runs `Scraper` unit tests (`npm test`) and the strict data gate (`npm run validate:strict`), which fails deploys when required banner data is stale, invalid, or unavailable.
+- `roster-sync.yml`, `side-data-sync.yml`, and `banner-history-refresh.yml` run the full structural gate (`npm run validate`). Current-banner freshness remains owned by `data-refresh.yml`, so a source outage cannot turn unrelated refreshes red.
+- `side-data-sync.yml` installs Crawl4AI and Chromium, but each Crawl4AI-backed fetch has a plain HTTP fallback.
 - `gamedata-asset-sync.yml` runs scraper unit tests and restores scraper-generated JSON churn before committing, so the deploy maps to an asset-only commit.
 - `code-watch.yml` runs the structural data gate (`npm run validate`) because it is a fast codes-only deploy path and does not refresh banners.
 - A failure stops the run, so the already-live last-known-good is preserved.
-- Refreshed data is committed before the deploy step, so the deployed site maps back to a Git commit.
+- Refreshed data is committed locally before the build, then pushed only after build and smoke verification, so broken candidates never reach `main` and the deployed site maps back to a Git commit.
 - `Site` runs `npm run smoke:deploy` after `build:deploy` and before Wrangler deploy. It checks clean routes, key assets, import-helper copy, encrypted sync UI, bundled React output, script checksum, and `version.json`.
 - The deploy step is skipped automatically when no Cloudflare token is configured.
 

@@ -32,7 +32,7 @@ const config = {
       detailType: 'character',
       detailFolder: 'agents',
       outputFile: 'agents.json',
-      normalize: normalizeAgent
+      normalize: normalizeZzzAgent
     },
     {
       key: 'wEngines',
@@ -77,7 +77,26 @@ export async function scrapeZzz(options) {
   return scrapeConfiguredGame(options, config);
 }
 
-function normalizeAgent({ id, summary, detail, channel, lists, assetBag }) {
+export function isUnreleasedAgentPlaceholder(summary = {}, detail = {}) {
+  const portraitSources = [
+    detail?.icon,
+    summary?.icon,
+    detail?.partner_info?.icon_path,
+    detail?.partner_info?.role_icon,
+  ];
+  const identities = [detail?.name, detail?.code_name, summary?.en, summary?.code]
+    .filter(Boolean)
+    .map(String);
+  return !portraitSources.some((value) => typeof value === 'string' && value.trim())
+    && identities.some((value) => /^Avatar_[A-Za-z0-9_]+$/.test(value));
+}
+
+export function normalizeZzzAgent({ id, summary, detail, channel, lists, assetBag }) {
+  // Nanoka occasionally exposes an unreleased internal avatar shell in its
+  // live list before its name and portrait exist. It is not usable site data.
+  // Only discard the unmistakable internal placeholder; a normal named agent
+  // without art must continue to reach the validator and fail closed.
+  if (isUnreleasedAgentPlaceholder(summary, detail)) return null;
   const itemsById = lists.itemAll || lists.items || {};
   const registerItem = (itemIcon) => registerAsset(assetBag, config, 'items', itemIcon);
 

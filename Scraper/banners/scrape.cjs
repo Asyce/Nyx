@@ -4,7 +4,7 @@
 const fs   = require('fs');
 const path = require('path');
 const cheerio = require('cheerio');
-const { bannerFreshnessStatus } = require('./normalize.cjs');
+const { bannerFreshnessStatus, requiredBannerFreshnessFailures } = require('./normalize.cjs');
 const { headingCharCandidates } = require('./heading.cjs');
 
 const OUTPUT = path.join(__dirname, '..', '..', 'Database', 'Banners', 'banners.json');
@@ -1256,6 +1256,16 @@ async function main() {
   fs.mkdirSync(path.dirname(OUTPUT), { recursive: true });
   fs.writeFileSync(OUTPUT, JSON.stringify(payload, null, 2));
   console.log(`Saved ${OUTPUT}`);
+
+  // The banner-owning workflow uses this to retry short source/CDN outages.
+  // The file is still written so the next attempt preserves the last-known-good
+  // timeline and its honest successful-fetch timestamp.
+  if (process.argv.includes('--require-fresh')) {
+    const failures = requiredBannerFreshnessFailures(payload.games, freshNow);
+    if (failures.length) {
+      throw new Error(`Required banner data is not fresh: ${failures.map(({ id, status }) => `${id}=${status}`).join(', ')}`);
+    }
+  }
 }
 
 main().catch(err => {

@@ -13,7 +13,13 @@ test('history workflow is isolated, six-hourly, serialized, and scoped', () => {
   assert.match(workflow, /npm run banners:history/);
   assert.match(workflow, /git add Database\/BannerHistory Database\/Activities Site\/src\/features\/gacha\/pulls-banners-gi\.js/);
   assert.doesNotMatch(workflow, /codes\/|banners\/scrape\.cjs/);
-  assert(workflow.indexOf('npm run smoke:deploy') < workflow.indexOf('git commit -m'), 'smoke must run before commit/push');
+  const commit = workflow.indexOf('git commit -m');
+  const build = workflow.indexOf('npm run build:deploy');
+  const smoke = workflow.indexOf('npm run smoke:deploy');
+  const push = workflow.indexOf('git push');
+  assert(commit >= 0 && commit < build, 'candidate must be committed before exact-base verification');
+  assert(build < smoke && smoke < push, 'build and smoke must pass before push');
+  assert.equal((workflow.match(/\bgit push\b/g) || []).length, 1);
   const sideRunner = fs.readFileSync(path.join(root, 'Site/tools/run-side-data-sync.mjs'), 'utf8');
   assert.doesNotMatch(sideRunner, /banner-history\/gi\.mjs|Genshin banner history/);
   const source = fs.readFileSync(path.join(root, 'Scraper/banner-history/sources.mjs'), 'utf8');

@@ -137,6 +137,22 @@ function bannerFreshnessStatus(group, now) {
   return reflowed.freshness.status;
 }
 
+// Shared by the scraper's retry gate and tests. Keep this focused on the
+// games whose current banners are required for a deploy; Endfield can
+// legitimately have no announced banner between releases.
+function requiredBannerFreshnessFailures(groups, now, optionalGames = ['endfield']) {
+  const optional = new Set(optionalGames.map((game) => String(game).toLowerCase()));
+  const allowed = new Set(['fresh', 'transition']);
+  return (groups || [])
+    .filter(Boolean)
+    .map((group) => {
+      const id = String(group?.id || group?.name || '').toLowerCase();
+      const status = bannerFreshnessStatus(group, now);
+      return { id, status };
+    })
+    .filter(({ id, status }) => !optional.has(id) && !allowed.has(status));
+}
+
 module.exports = {
   STALE_AFTER_MS,
   TRANSITION_AFTER_MS,
@@ -146,4 +162,5 @@ module.exports = {
   reflowBannerGroup,
   computeFreshness,
   bannerFreshnessStatus,
+  requiredBannerFreshnessFailures,
 };

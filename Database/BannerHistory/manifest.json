@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-17T11:12:11.732Z",
+  "generatedAt": "2026-07-20T20:12:08.314Z",
   "games": {
     "gi": {
       "count": 291,
@@ -294,17 +294,17 @@
         "maintained-wiki:2124745",
         "maintained-wiki:2127802",
         "maintained-wiki:2127803",
-        "maintained-wiki:2127804",
-        "maintained-wiki:2128868",
-        "maintained-wiki:2128869",
-        "maintained-wiki:2129901",
-        "maintained-wiki:2129929",
         "maintained-wiki:2129930",
         "maintained-wiki:2130048",
         "maintained-wiki:2130104",
         "maintained-wiki:2130296",
         "maintained-wiki:2130298",
-        "maintained-wiki:2130520"
+        "maintained-wiki:2130520",
+        "maintained-wiki:2132207",
+        "maintained-wiki:2132477",
+        "maintained-wiki:2132621",
+        "maintained-wiki:2132661",
+        "maintained-wiki:2132675"
       ],
       "officialRevisions": [
         "official-latest:21743",
@@ -316,7 +316,7 @@
         "official-latest:21759",
         "official-latest:45076841"
       ],
-      "contentHash": "cff928354fcb907933ef9b03cf0a0deb5916232c02fd80b85daf27f6534cea4a"
+      "contentHash": "f71a254426e269dfdde425711a73fa7ce1ab4768334fa970e1a3f1d225d0408f"
     },
     "hsr": {
       "count": 218,
@@ -544,10 +544,10 @@
         "maintained-wiki:449917",
         "maintained-wiki:449997",
         "maintained-wiki:449998",
-        "maintained-wiki:453826",
         "maintained-wiki:453827",
         "maintained-wiki:453828",
-        "maintained-wiki:453829"
+        "maintained-wiki:453829",
+        "maintained-wiki:456005"
       ],
       "officialRevisions": [
         "official-latest:41938646",
@@ -566,18 +566,18 @@
         "official-latest:45712242",
         "official-latest:45842578"
       ],
-      "contentHash": "d6f93e63dc71ce3f9b84db6c44825c4fdfb2faf2b945954af291a2ed44d4e1c8"
+      "contentHash": "8a74111063e8ee8b7354f34a850270c9e292fffa61106a00f320e29029ae1062"
     },
     "zzz": {
-      "count": 124,
-      "character": 62,
-      "weapon": 61,
+      "count": 132,
+      "character": 66,
+      "weapon": 65,
       "mixed": 1,
       "permanent": 2,
       "confirmed": 124,
       "dateRange": {
         "start": "2024-07-04T02:00:00.000Z",
-        "end": "2026-07-28T19:59:59.000Z"
+        "end": "2026-09-08T06:59:59.000Z"
       },
       "revisions": [
         "maintained-wiki:101610",
@@ -672,12 +672,20 @@
         "maintained-wiki:168704",
         "maintained-wiki:168705",
         "maintained-wiki:169376",
-        "maintained-wiki:172896",
-        "maintained-wiki:172897",
         "maintained-wiki:173022",
         "maintained-wiki:173023",
-        "maintained-wiki:173028",
-        "maintained-wiki:173029",
+        "maintained-wiki:174532",
+        "maintained-wiki:174533",
+        "maintained-wiki:174537",
+        "maintained-wiki:174542",
+        "maintained-wiki:174553",
+        "maintained-wiki:174554",
+        "maintained-wiki:174555",
+        "maintained-wiki:174563",
+        "maintained-wiki:174567",
+        "maintained-wiki:174568",
+        "maintained-wiki:174569",
+        "maintained-wiki:174570",
         "maintained-wiki:71004",
         "maintained-wiki:74195",
         "maintained-wiki:74245",
@@ -720,7 +728,7 @@
         "official-latest:45467484",
         "official-latest:45747565"
       ],
-      "contentHash": "b283d5e10aaa05462a76f9c3969c399fc63a3faa049c50b45306cfe08c86011e"
+      "contentHash": "d1ab4ef03566bf7bcff3e3b2040092c8a2e00ea8209839ffb5591e5ef7687b02"
     },
     "wuwa": {
       "count": 166,

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T00:04:24.624Z",
+  "generatedAt": "2026-07-20T20:26:46.378Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,7 +9,7 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-07-20T00:04:05.046Z",
+      "lastSuccessfulFetch": "2026-07-20T20:26:46.373Z",
       "codes": [
         {
           "code": "PFY1S40I88T9",
@@ -51,7 +51,7 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-07-20T00:04:05.523Z",
+      "lastSuccessfulFetch": "2026-07-20T20:26:46.378Z",
       "codes": [
         {
           "code": "4TKSX77Y58QK",
@@ -74,6 +74,16 @@
           "premium100": false,
           "cwSeen": false,
           "firstSeen": "2026-07-15T09:16:06.610Z"
+        },
+        {
+          "code": "BESTCOFFEEEVER",
+          "rewards": "Three Traveler S Guides and Two Express Special Blend Rustic Infusion",
+          "added": "2026-07-20",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=BESTCOFFEEEVER",
+          "premium": false,
+          "premium100": false,
+          "cwSeen": true,
+          "firstSeen": "2026-07-15T06:22:38.686Z"
         },
         {
           "code": "CREATIONNYMPH",
@@ -131,6 +141,16 @@
           "firstSeen": "2026-07-05T17:19:05.883Z"
         },
         {
+          "code": "PSJQKBQPYGMT",
+          "rewards": "50 Stellar Jade and 10k Credits",
+          "added": "2026-07-20",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=PSJQKBQPYGMT",
+          "premium": true,
+          "premium100": false,
+          "cwSeen": true,
+          "firstSeen": "2026-07-15T06:22:38.686Z"
+        },
+        {
           "code": "STARRAILGIFT",
           "rewards": "50 stellar jade, 10k credits, two traveler's guides, and five bottled soda",
           "added": "2026-07-20",
@@ -140,32 +160,6 @@
           "premium100": false,
           "cwSeen": true,
           "firstSeen": "2026-07-05T17:19:05.883Z"
-        },
-        {
-          "code": "BESTCOFFEEEVER",
-          "rewards": "3 Traveler's Guide, 2 Express Special Blend: Rustic Infusion",
-          "added": "2026-07-15",
-          "sourceUrl": "https://www.crimsonwitch.com/codes/Honkai_Star_Rail",
-          "regionLocked": null,
-          "expires": null,
-          "variants": [],
-          "premium": false,
-          "premium100": false,
-          "cwSeen": true,
-          "firstSeen": "2026-07-15T06:22:38.686Z"
-        },
-        {
-          "code": "PSJQKBQPYGMT",
-          "rewards": "50 Stellar Jade, 10000 Credit",
-          "added": "2026-07-15",
-          "sourceUrl": "https://www.crimsonwitch.com/codes/Honkai_Star_Rail",
-          "regionLocked": null,
-          "expires": null,
-          "variants": [],
-          "premium": true,
-          "premium100": false,
-          "cwSeen": true,
-          "firstSeen": "2026-07-15T06:22:38.686Z"
         }
       ]
     },
@@ -176,7 +170,7 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-07-20T00:04:24.623Z",
+      "lastSuccessfulFetch": "2026-07-20T20:26:46.368Z",
       "codes": [
         {
           "code": "ROSCAELIFER0617",
@@ -279,7 +273,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-07-20T00:04:05.081Z",
+      "lastSuccessfulFetch": "2026-07-20T20:26:46.241Z",
       "codes": []
     },
     {
@@ -289,7 +283,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-07-20T00:04:05.123Z",
+      "lastSuccessfulFetch": "2026-07-20T20:26:46.347Z",
       "codes": [
         {
           "code": "ENDFIELDRENEW",

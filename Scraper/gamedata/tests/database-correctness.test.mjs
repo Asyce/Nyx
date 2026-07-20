@@ -2,6 +2,7 @@ import assert from 'node:assert/strict';
 import test from 'node:test';
 
 import { normalizeHsrMonster } from '../games/hsr.mjs';
+import { isUnreleasedAgentPlaceholder, normalizeZzzAgent } from '../games/zzz.mjs';
 
 test('HSR monster normalization preserves released fields and exact local icon provenance', () => {
   const registrations = [];
@@ -42,4 +43,22 @@ test('HSR monster normalization never invents an icon filename', () => {
     assetBag: { register() { throw new Error('must not register'); } },
   });
   assert.equal(row.assets, undefined);
+});
+
+test('ZZZ normalization drops only unmistakable unreleased internal avatar shells', () => {
+  const placeholder = {
+    code: 'Avatar_Female_Size02_Remielle_En',
+    en: 'Avatar_Female_Size02_Remielle',
+    icon: '',
+  };
+  const detail = {
+    name: 'Avatar_Female_Size02_Remielle',
+    code_name: 'Avatar_Female_Size02_Remielle_En',
+    icon: '',
+    partner_info: {},
+  };
+  assert.equal(isUnreleasedAgentPlaceholder(placeholder, detail), true);
+  assert.equal(normalizeZzzAgent({ id: '1581', summary: placeholder, detail }), null);
+  assert.equal(isUnreleasedAgentPlaceholder({ en: 'Remielle', icon: '' }, { name: 'Remielle' }), false);
+  assert.equal(isUnreleasedAgentPlaceholder(placeholder, { ...detail, icon: 'IconRole67' }), false);
 });

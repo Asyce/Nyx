@@ -5,6 +5,7 @@ const {
   reflowBannerGroup,
   mergeSameWindow,
   bannerFreshnessStatus,
+  requiredBannerFreshnessFailures,
 } = require('../normalize.cjs');
 
 // Fixed "now" so the fixtures are deterministic: 2026-06-24T02:00:00Z.
@@ -161,4 +162,16 @@ test('bannerFreshnessStatus is a convenience wrapper over reflow', () => {
     upcoming: [],
   };
   assert.equal(bannerFreshnessStatus(group, NOW), 'unavailable');
+});
+
+test('required banner freshness reports stale required games but allows optional Endfield gaps', () => {
+  const stale = {
+    id: 'zzz',
+    freshness: { lastSuccessfulFetch: '2026-06-21T00:00:00.000Z' },
+    current: { characters: [ch('Anby')], end: '2026-07-01T00:00:00.000Z' },
+  };
+  const optional = { id: 'endfield', freshness: {}, current: null, next: null };
+  assert.deepEqual(requiredBannerFreshnessFailures([stale, optional], NOW), [
+    { id: 'zzz', status: 'stale' },
+  ]);
 });

@@ -88,3 +88,29 @@ test('GameData-only validation rejects a missing referenced asset', async (t) =>
     /references missing asset GameData\/hsr\/assets\/characters\/round\/1512\.webp/,
   );
 });
+
+test('GameData-only validation identifies records that have no portrait source', async (t) => {
+  const databaseDir = await fs.mkdtemp(path.join(os.tmpdir(), 'nyx-gamedata-portrait-'));
+  t.after(() => fs.rm(databaseDir, { recursive: true, force: true }));
+  await fs.mkdir(path.join(databaseDir, 'GameData'), { recursive: true });
+  await fs.writeFile(path.join(databaseDir, 'GameData', 'manifest.json'), JSON.stringify({
+    zzz: { live: '3.0', latest: '3.0' },
+  }));
+
+  for (const channel of ['live', 'beta']) {
+    const channelDir = path.join(databaseDir, 'GameData', 'zzz', channel);
+    const relativeFile = `GameData/zzz/${channel}/agents.json`;
+    await fs.mkdir(channelDir, { recursive: true });
+    await fs.writeFile(path.join(databaseDir, relativeFile), JSON.stringify([
+      { id: '1581', name: 'Avatar_Female_Size02_Remielle', assets: {} },
+    ]));
+    await fs.writeFile(path.join(channelDir, 'metadata.json'), JSON.stringify({
+      channel, version: '3.0', counts: { agents: 1 }, files: { agents: relativeFile },
+    }));
+  }
+
+  await assert.rejects(
+    validateGameDataOutput(databaseDir, ['zzz']),
+    /without a local portrait reference: Avatar_Female_Size02_Remielle \(1581\)/,
+  );
+});

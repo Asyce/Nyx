@@ -88,15 +88,17 @@ async function scrapeChannel(context) {
   const collections = {};
   for (const section of config.sections) {
     const entries = sampleEntries(toEntries(lists[section.listKey]), sample);
-    collections[section.key] = entries.map(([id, summary]) => section.normalize({
-      id,
-      summary,
-      detail: detailResults[section.key]?.[id] || null,
-      channel: channel.name,
-      lists,
-      assetBag,
-      config
-    }));
+    collections[section.key] = entries
+      .map(([id, summary]) => section.normalize({
+        id,
+        summary,
+        detail: detailResults[section.key]?.[id] || null,
+        channel: channel.name,
+        lists,
+        assetBag,
+        config
+      }))
+      .filter((record) => record !== null && record !== undefined);
   }
 
   // Asset registration happens during normalize, so the bag is fully populated by now.

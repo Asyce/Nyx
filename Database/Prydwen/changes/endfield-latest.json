@@ -1,103 +1,23 @@
 {
   "provider": "Prydwen",
   "game": "endfield",
-  "generatedAt": "2026-07-18T07:14:17.186Z",
+  "generatedAt": "2026-07-21T07:45:45.514Z",
   "summary": {
     "records": {
-      "added": 3,
+      "added": 0,
       "removed": 0,
-      "changed": 10,
-      "unchanged": 21
+      "changed": 0,
+      "unchanged": 34
     }
   },
   "sections": {
     "records": {
-      "added": [
-        {
-          "id": "characters:arcane",
-          "name": "Arcane",
-          "previousHash": null,
-          "currentHash": "3f16cd1530e7d938ef04663f7ae889d1d745ef5668dea1a4479f9c790518e7e9"
-        },
-        {
-          "id": "characters:liino",
-          "name": "Liino",
-          "previousHash": null,
-          "currentHash": "dabad2024cf85875e90ded3e4e08e5a7a8c62a9944feeb8e3a0eeb77d00b1bb7"
-        },
-        {
-          "id": "characters:si",
-          "name": "Si",
-          "previousHash": null,
-          "currentHash": "00d9b7b8634027db03dbf86e39143141765e5c53174eeb862730143f3745b513"
-        }
-      ],
+      "added": [],
       "removed": [],
-      "changed": [
-        {
-          "id": "characters:akekuri",
-          "name": "Akekuri",
-          "previousHash": "3431d95fef4eac522e24e2cef042e923081eb9bd8fcab2eff9ac65e3d6bbddd5",
-          "currentHash": "d1b3f1ae8765949a6a9c52b452d7b27b2513c1ed35339d523d2b48f47df17570"
-        },
-        {
-          "id": "characters:camille",
-          "name": "Camille",
-          "previousHash": "14b824d392183498b2083295c8d56e4894a85bcc3cc6e2f56b8663c74a6490ba",
-          "currentHash": "4cfda33d24de511499c16bdff42e3f62870cdd8af51b940c9ffe5747a468a53f"
-        },
-        {
-          "id": "characters:endministrator",
-          "name": "Endministrator",
-          "previousHash": "cd06e5f8c9c2ab72c291b7463bef57111757c8e27a10fe05d16331416867b643",
-          "currentHash": "5f25a7fbec18d3c1ac940b0d20d0f0acb86d1290bdc987b9711669f143f39c48"
-        },
-        {
-          "id": "characters:laevatain",
-          "name": "Laevatain",
-          "previousHash": "a6a2ebbade14253107e1518d4e2135cf3772343a84f86825c16a21be7b5f37a8",
-          "currentHash": "722fa25eefa27b574bc4c2a31ee000eaca68c5db5fef5241ebb96d105b4095da"
-        },
-        {
-          "id": "characters:last-rite",
-          "name": "Last Rite",
-          "previousHash": "89efdde61cd83b9ca8557cb7eb8a70f4553307d164d0fbc97e4dbeb170730a10",
-          "currentHash": "688a5686db7a9af84438ad49e801c74b23483e96cb4ad3763074d757d3f42906"
-        },
-        {
-          "id": "characters:xaihi",
-          "name": "Xaihi",
-          "previousHash": "445eb8bda5df227481578eb2c0981ac579099d877d8cfdc0078ce71a89a04dc1",
-          "currentHash": "d7c6a943fd40e64772a39a6ff6b5c49b8689d4fd6c64e6a333014d02c41b1140"
-        },
-        {
-          "id": "characters:yvonne",
-          "name": "Yvonne",
-          "previousHash": "4d606aaaecefe57638634848252960b7c587df245aef351e7f914064a3cedbe9",
-          "currentHash": "da3c7f2bc73be86dc78449886c99643c2205e300e0d3b41f6ee01037941609de"
-        },
-        {
-          "id": "collection:characters",
-          "name": "Arknights: Endfield Characters Build Guides",
-          "previousHash": "1f62f0df8cd90d2642d0ea7cea0b77fafb792304bc8686ba614748d466d18026",
-          "currentHash": "44bfd576498064111dac849d2428e22ee1a21f08c63b6f7294d94b2cbf07ebb7"
-        },
-        {
-          "id": "collection:gear",
-          "name": "Arknights: Endfield Gear List",
-          "previousHash": "491b0dfa11dd9d9f4441c64a67a7218d6bc63157ec2efb4272a198d4e262d008",
-          "currentHash": "7953c03440c5e9710f74c23eec40cd5c179d039ebc5d895735de78a16bcc4a73"
-        },
-        {
-          "id": "collection:weapons",
-          "name": "Arknights: Endfield Weapons List",
-          "previousHash": "3abeddced8870afe5eab3026e3fe90560f63b154fb0fa76df11c0c82a426d7c7",
-          "currentHash": "39047be14000749a39559efb842a2ba0656fd47d45bf74e2ad8730be7cf61871"
-        }
-      ],
-      "unchanged": 21,
+      "changed": [],
+      "unchanged": 34,
       "totals": {
-        "previous": 31,
+        "previous": 34,
         "current": 34
       }
     }

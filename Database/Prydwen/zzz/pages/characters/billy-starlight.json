@@ -11,7 +11,7 @@
   "sourcePath": "/zenless/characters/billy-starlight",
   "contentStatus": "live",
   "statusLabels": [],
-  "scrapedAt": "2026-07-18T07:14:17.186Z",
+  "scrapedAt": "2026-07-21T07:45:45.514Z",
   "updatedText": "17/June/2026",
   "meta": {
     "title": "Billy - Starlight Best Build Guide | Zenless Zone Zero",
@@ -495,12 +495,12 @@
       "height": 60
     },
     {
-      "id": "ce33de22acc4",
-      "sourceHash": "ce33de22acc4",
+      "id": "b1058e3ac1d7",
+      "sourceHash": "b1058e3ac1d7",
       "kind": "characters",
-      "name": "Pulchra",
-      "fileStem": "pulchra",
-      "path": "Prydwen/zzz/assets/characters/pulchra-ce33de22acc4.webp",
+      "name": "Norma",
+      "fileStem": "norma",
+      "path": "Prydwen/zzz/assets/characters/norma-b1058e3ac1d7.webp",
       "width": 60,
       "height": 60
     },
@@ -515,32 +515,12 @@
       "height": 60
     },
     {
-      "id": "e8a1e5a4346f",
-      "sourceHash": "e8a1e5a4346f",
+      "id": "ce33de22acc4",
+      "sourceHash": "ce33de22acc4",
       "kind": "characters",
-      "name": "Zhao",
-      "fileStem": "zhao",
-      "path": "Prydwen/zzz/assets/characters/zhao-e8a1e5a4346f.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "05344f259fe9",
-      "sourceHash": "05344f259fe9",
-      "kind": "characters",
-      "name": "Caesar",
-      "fileStem": "caesar",
-      "path": "Prydwen/zzz/assets/characters/caesar-05344f259fe9.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "05437fe51e49",
-      "sourceHash": "05437fe51e49",
-      "kind": "characters",
-      "name": "Lycaon",
-      "fileStem": "lycaon",
-      "path": "Prydwen/zzz/assets/characters/lycaon-05437fe51e49.webp",
+      "name": "Pulchra",
+      "fileStem": "pulchra",
+      "path": "Prydwen/zzz/assets/characters/pulchra-ce33de22acc4.webp",
       "width": 60,
       "height": 60
     }
@@ -961,7 +941,7 @@
       "id": "team-buffed-calculations-32",
       "level": 5,
       "heading": "Team-buffed calculations",
-      "text": "The W-Engine calculations below are team-buffed calculations and here's the team we used for them:\n Dialyn + Yesterday Calls\n Lucia + Dreamlit Hearth\n 100.00%\n\n Starlight Rider Faceplate (S 1 )\n\n Billy's own Signature is, unsurprisingly, his best pick. As is the case for many Rupture Agents, there is a lack of good alternative picks, so its especially valuable as a result. It's a standard set of bonuses: an HP % mainstat, unconditional CRIT Rate and a stacking Sheer DMG buff, being all that Billy needs to be at his best.\n Usage: 76.47 %\n Shiyu Defense: 28402\n Deadly Assault: 30720\n\n 86.54%\n\n Qingming Birdcage (S 1 )\n\n There isn't much to say about Yixuan's Signature for Billy, other than it's an effective stat stick. Its high base ATK isn't as relevant - owing to how Rupture scales - but having 20% unconditional CRIT Rate goes a long way, especially when considering how loaded Billy is on CRIT DMG.\n Usage: 4.59 %\n Shiyu Defense: 26250\n Deadly Assault: 27646\n\n 84.10%\n\n Cauldron of Clarity (S 5 )\n\n Cauldron of Clarity is by far and away the best A-Rank option for Billy. It has an HP % mainstat, offers a valuable spread of buffs, and is very easy for Billy to maintain full uptime of, being barely worse than limited alternatives like Qingming Birdcage.\n Usage: 15.54 %\n Shiyu Defense: 26242\n Deadly Assault: 24541\n\n 80.97%\n\n Steel Cushion (S 1 )\n\n Despite it being an Attacker W-Engine, it's also a Standard S-Rank that has CRIT Rate as a mainstat, and that alone is enough to make it stand out above most other A-Rank picks.\n Usage: 0.45 %\n Shiyu Defense: 25567\n Deadly Assault: 23576\n\n 80.31%\n\n Grill O'Wisp (S 5 )\n\n Billy can drain his own HP with Drive Suppression, but in practice, this isn't happening often during his combos. It is possible to use it before every Adrenaline EX, but considering Billy's long animations and the extra time that it'd take to do this, would effectively be exchanging CRIT Rate for Stun DMG Multiplier, as attacks would be spilling out of stun. An uptime of 50% has been assumed here, but this could be higher or lower depending on how it's managed for important burst skills, with the bulk of this W-Engine's value being from its HP % mainstat.\n Usage: 0.56 %\n Shiyu Defense: 28224\n Deadly Assault: 26119\n\n 76.55%\n\n Puzzle Sphere (S 5 )\n\n Puzzle Sphere's ATK % mainstat and the fact it boosts CRIT DMG - a stat Billy is already very saturated in - make it a generally bad option. As it is the craftable Rupture W-Engine however, it can work as a holdover until better options are acquired.\n Usage: 0.52 %\n Shiyu Defense: 26552\n Deadly Assault: 24993\n\n 75.39%\n\n Radiowave Journey (S 5 )\n\n Despite it's HP % mainstat, Radiowave Journey's actual buff value is severely lacking. As it builds on Chains and Ultimates, the first ones used are going to be low on the Sheer Force stacks, and even those that do get it, may not have full stacks either owing to the 12s duration, which is shorter than stuns after accounting for stun pauses and extensions. While saturation can change its ranking relative to Puzzle Sphere, it's unlikely to be much better, so benching this W-Engine and using another option is likely best.\n Usage: 0.33 %\n Shiyu Defense: 0\n Deadly Assault: 24223",
+      "text": "The W-Engine calculations below are team-buffed calculations and here's the team we used for them:\n Dialyn + Yesterday Calls\n Lucia + Dreamlit Hearth\n 100.00%\n\n Starlight Rider Faceplate (S 1 )\n\n Billy's own Signature is, unsurprisingly, his best pick. As is the case for many Rupture Agents, there is a lack of good alternative picks, so its especially valuable as a result. It's a standard set of bonuses: an HP % mainstat, unconditional CRIT Rate and a stacking Sheer DMG buff, being all that Billy needs to be at his best.\n Usage: 85.1 %\n Shiyu Defense: 29145\n Deadly Assault: 29879\n\n 86.54%\n\n Qingming Birdcage (S 1 )\n\n There isn't much to say about Yixuan's Signature for Billy, other than it's an effective stat stick. Its high base ATK isn't as relevant - owing to how Rupture scales - but having 20% unconditional CRIT Rate goes a long way, especially when considering how loaded Billy is on CRIT DMG.\n Usage: 3.42 %\n Shiyu Defense: 27106\n Deadly Assault: 27008\n\n 84.10%\n\n Cauldron of Clarity (S 5 )\n\n Cauldron of Clarity is by far and away the best A-Rank option for Billy. It has an HP % mainstat, offers a valuable spread of buffs, and is very easy for Billy to maintain full uptime of, being barely worse than limited alternatives like Qingming Birdcage.\n Usage: 9.78 %\n Shiyu Defense: 27035\n Deadly Assault: 23784\n\n 80.97%\n\n Steel Cushion (S 1 )\n\n Despite it being an Attacker W-Engine, it's also a Standard S-Rank that has CRIT Rate as a mainstat, and that alone is enough to make it stand out above most other A-Rank picks.\n Usage: 0.06 %\n Shiyu Defense: 25317\n Deadly Assault: 0\n\n 80.31%\n\n Grill O'Wisp (S 5 )\n\n Billy can drain his own HP with Drive Suppression, but in practice, this isn't happening often during his combos. It is possible to use it before every Adrenaline EX, but considering Billy's long animations and the extra time that it'd take to do this, would effectively be exchanging CRIT Rate for Stun DMG Multiplier, as attacks would be spilling out of stun. An uptime of 50% has been assumed here, but this could be higher or lower depending on how it's managed for important burst skills, with the bulk of this W-Engine's value being from its HP % mainstat.\n Usage: 0.34 %\n Shiyu Defense: 26360\n Deadly Assault: 31268\n\n 76.55%\n\n Puzzle Sphere (S 5 )\n\n Puzzle Sphere's ATK % mainstat and the fact it boosts CRIT DMG - a stat Billy is already very saturated in - make it a generally bad option. As it is the craftable Rupture W-Engine however, it can work as a holdover until better options are acquired.\n Usage: 0.25 %\n Shiyu Defense: 26335\n Deadly Assault: 25094\n\n 75.39%\n\n Radiowave Journey (S 5 )\n\n Despite it's HP % mainstat, Radiowave Journey's actual buff value is severely lacking. As it builds on Chains and Ultimates, the first ones used are going to be low on the Sheer Force stacks, and even those that do get it, may not have full stacks either owing to the 12s duration, which is shorter than stuns after accounting for stun pauses and extensions. While saturation can change its ranking relative to Puzzle Sphere, it's unlikely to be much better, so benching this W-Engine and using another option is likely best.\n Usage: 0.19 %\n Shiyu Defense: 27219\n Deadly Assault: 22784",
       "assets": [
         {
           "id": "5b1302d794ba",
@@ -1392,7 +1372,7 @@
       "id": "teams-shiyu-defense-40",
       "level": 2,
       "heading": "Teams (Shiyu Defense)",
-      "text": "This section lists most popular teams featuring Billy - Starlight in the current phase of Shiyu Defense.\n Rank 18\n App. rate: 2.42 %\n Avg. time: 28985\n\n Rank 61\n App. rate: 0.42 %\n Avg. time: 27586\n\n Rank 87\n App. rate: 0.22 %\n Avg. time: 27696\n\n Rank 103\n App. rate: 0.15 %\n Avg. time: 26849\n\n Rank 140\n App. rate: 0.09 %\n Avg. time: 26902\n\n Rank 148\n App. rate: 0.08 %\n Avg. time: 28916\n\n Rank 148\n App. rate: 0.08 %\n Avg. time: 27794\n\n Rank 158\n App. rate: 0.07 %\n Avg. time: 27003\n\n Rank 179\n App. rate: 0.06 %\n Avg. time: 27859\n\n Rank 209\n App. rate: 0.04 %\n Avg. time: 27068",
+      "text": "This section lists most popular teams featuring Billy - Starlight in the current phase of Shiyu Defense.\n Rank 24\n App. rate: 1.88 %\n Avg. time: 30083\n\n Rank 44\n App. rate: 0.64 %\n Avg. time: 30951\n\n Rank 79\n App. rate: 0.29 %\n Avg. time: 26717\n\n Rank 108\n App. rate: 0.15 %\n Avg. time: 27504\n\n Rank 127\n App. rate: 0.11 %\n Avg. time: 29630\n\n Rank 137\n App. rate: 0.1 %\n Avg. time: 26790\n\n Rank 144\n App. rate: 0.09 %\n Avg. time: 26744\n\n Rank 144\n App. rate: 0.09 %\n Avg. time: 29201\n\n Rank 188\n App. rate: 0.06 %\n Avg. time: 27592\n\n Rank 200\n App. rate: 0.05 %\n Avg. time: 25807",
       "assets": [
         {
           "id": "d632251522d1",
@@ -1425,6 +1405,16 @@
           "height": 60
         },
         {
+          "id": "b1058e3ac1d7",
+          "sourceHash": "b1058e3ac1d7",
+          "kind": "characters",
+          "name": "Norma",
+          "fileStem": "norma",
+          "path": "Prydwen/zzz/assets/characters/norma-b1058e3ac1d7.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
           "id": "3e8d48ac0bd4",
           "sourceHash": "3e8d48ac0bd4",
           "kind": "characters",
@@ -1441,6 +1431,16 @@
           "name": "Pan Yinhu",
           "fileStem": "pan-yinhu",
           "path": "Prydwen/zzz/assets/characters/pan-yinhu-f34fb0a851f4.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "98d8d659c143",
+          "sourceHash": "98d8d659c143",
+          "kind": "characters",
+          "name": "Astra Yao",
+          "fileStem": "astra-yao",
+          "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
           "width": 60,
           "height": 60
         },
@@ -1461,104 +1461,6 @@
           "name": "Trigger",
           "fileStem": "trigger",
           "path": "Prydwen/zzz/assets/characters/trigger-2fd489d454a4.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "98d8d659c143",
-          "sourceHash": "98d8d659c143",
-          "kind": "characters",
-          "name": "Astra Yao",
-          "fileStem": "astra-yao",
-          "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "e8a1e5a4346f",
-          "sourceHash": "e8a1e5a4346f",
-          "kind": "characters",
-          "name": "Zhao",
-          "fileStem": "zhao",
-          "path": "Prydwen/zzz/assets/characters/zhao-e8a1e5a4346f.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "05344f259fe9",
-          "sourceHash": "05344f259fe9",
-          "kind": "characters",
-          "name": "Caesar",
-          "fileStem": "caesar",
-          "path": "Prydwen/zzz/assets/characters/caesar-05344f259fe9.webp",
-          "width": 60,
-          "height": 60
-        }
-      ]
-    },
-    {
-      "id": "teams-deadly-assault-41",
-      "level": 2,
-      "heading": "Teams (Deadly Assault)",
-      "text": "This section lists most popular teams featuring Billy - Starlight in the current phase of Deadly Assault.\n Rank 11\n App. rate: 6.39 %\n Avg. score: 30530\n\n Rank 19\n App. rate: 1.98 %\n Avg. score: 28690\n\n Rank 56\n App. rate: 0.37 %\n Avg. score: 25941\n\n Rank 71\n App. rate: 0.24 %\n Avg. score: 24547\n\n Rank 77\n App. rate: 0.21 %\n Avg. score: 26079\n\n Rank 77\n App. rate: 0.21 %\n Avg. score: 23030\n\n Rank 77\n App. rate: 0.21 %\n Avg. score: 23526\n\n Rank 83\n App. rate: 0.19 %\n Avg. score: 26759\n\n Rank 90\n App. rate: 0.16 %\n Avg. score: 22948\n\n Rank 90\n App. rate: 0.16 %\n Avg. score: 29139",
-      "assets": [
-        {
-          "id": "d632251522d1",
-          "sourceHash": "d632251522d1",
-          "kind": "characters",
-          "name": "Billy - Starlight",
-          "fileStem": "billy-starlight",
-          "path": "Prydwen/zzz/assets/characters/billy-starlight-d632251522d1.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "5b1302d794ba",
-          "sourceHash": "5b1302d794ba",
-          "kind": "characters",
-          "name": "Dialyn",
-          "fileStem": "dialyn",
-          "path": "Prydwen/zzz/assets/characters/dialyn-5b1302d794ba.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "7557c8060dc2",
-          "sourceHash": "7557c8060dc2",
-          "kind": "characters",
-          "name": "Lucia",
-          "fileStem": "lucia",
-          "path": "Prydwen/zzz/assets/characters/lucia-7557c8060dc2.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "3e8d48ac0bd4",
-          "sourceHash": "3e8d48ac0bd4",
-          "kind": "characters",
-          "name": "Ju Fufu",
-          "fileStem": "ju-fufu",
-          "path": "Prydwen/zzz/assets/characters/ju-fufu-3e8d48ac0bd4.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "f34fb0a851f4",
-          "sourceHash": "f34fb0a851f4",
-          "kind": "characters",
-          "name": "Pan Yinhu",
-          "fileStem": "pan-yinhu",
-          "path": "Prydwen/zzz/assets/characters/pan-yinhu-f34fb0a851f4.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "ce33de22acc4",
-          "sourceHash": "ce33de22acc4",
-          "kind": "characters",
-          "name": "Pulchra",
-          "fileStem": "pulchra",
-          "path": "Prydwen/zzz/assets/characters/pulchra-ce33de22acc4.webp",
           "width": 60,
           "height": 60
         },
@@ -1571,6 +1473,94 @@
           "path": "Prydwen/zzz/assets/characters/koleda-0d7d337e47cb.webp",
           "width": 60,
           "height": 60
+        }
+      ]
+    },
+    {
+      "id": "teams-deadly-assault-41",
+      "level": 2,
+      "heading": "Teams (Deadly Assault)",
+      "text": "This section lists most popular teams featuring Billy - Starlight in the current phase of Deadly Assault.\n Rank 19\n App. rate: 2.22 %\n Avg. score: 28137\n\n Rank 29\n App. rate: 1.14 %\n Avg. score: 34348\n\n Rank 73\n App. rate: 0.37 %\n Avg. score: 24623\n\n Rank 134\n App. rate: 0.12 %\n Avg. score: 22862\n\n Rank 156\n App. rate: 0.09 %\n Avg. score: 28526\n\n Rank 168\n App. rate: 0.08 %\n Avg. score: 22866\n\n Rank 175\n App. rate: 0.07 %\n Avg. score: 25079\n\n Rank 175\n App. rate: 0.07 %\n Avg. score: 23037\n\n Rank 175\n App. rate: 0.07 %\n Avg. score: 25336\n\n Rank 190\n App. rate: 0.06 %\n Avg. score: 22672",
+      "assets": [
+        {
+          "id": "d632251522d1",
+          "sourceHash": "d632251522d1",
+          "kind": "characters",
+          "name": "Billy - Starlight",
+          "fileStem": "billy-starlight",
+          "path": "Prydwen/zzz/assets/characters/billy-starlight-d632251522d1.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "5b1302d794ba",
+          "sourceHash": "5b1302d794ba",
+          "kind": "characters",
+          "name": "Dialyn",
+          "fileStem": "dialyn",
+          "path": "Prydwen/zzz/assets/characters/dialyn-5b1302d794ba.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "7557c8060dc2",
+          "sourceHash": "7557c8060dc2",
+          "kind": "characters",
+          "name": "Lucia",
+          "fileStem": "lucia",
+          "path": "Prydwen/zzz/assets/characters/lucia-7557c8060dc2.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "b1058e3ac1d7",
+          "sourceHash": "b1058e3ac1d7",
+          "kind": "characters",
+          "name": "Norma",
+          "fileStem": "norma",
+          "path": "Prydwen/zzz/assets/characters/norma-b1058e3ac1d7.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "3e8d48ac0bd4",
+          "sourceHash": "3e8d48ac0bd4",
+          "kind": "characters",
+          "name": "Ju Fufu",
+          "fileStem": "ju-fufu",
+          "path": "Prydwen/zzz/assets/characters/ju-fufu-3e8d48ac0bd4.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "f34fb0a851f4",
+          "sourceHash": "f34fb0a851f4",
+          "kind": "characters",
+          "name": "Pan Yinhu",
+          "fileStem": "pan-yinhu",
+          "path": "Prydwen/zzz/assets/characters/pan-yinhu-f34fb0a851f4.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "98d8d659c143",
+          "sourceHash": "98d8d659c143",
+          "kind": "characters",
+          "name": "Astra Yao",
+          "fileStem": "astra-yao",
+          "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ce33de22acc4",
+          "sourceHash": "ce33de22acc4",
+          "kind": "characters",
+          "name": "Pulchra",
+          "fileStem": "pulchra",
+          "path": "Prydwen/zzz/assets/characters/pulchra-ce33de22acc4.webp",
+          "width": 60,
+          "height": 60
         },
         {
           "id": "2fd489d454a4",
@@ -1583,22 +1573,12 @@
           "height": 60
         },
         {
-          "id": "05437fe51e49",
-          "sourceHash": "05437fe51e49",
+          "id": "0d7d337e47cb",
+          "sourceHash": "0d7d337e47cb",
           "kind": "characters",
-          "name": "Lycaon",
-          "fileStem": "lycaon",
-          "path": "Prydwen/zzz/assets/characters/lycaon-05437fe51e49.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "98d8d659c143",
-          "sourceHash": "98d8d659c143",
-          "kind": "characters",
-          "name": "Astra Yao",
-          "fileStem": "astra-yao",
-          "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
+          "name": "Koleda",
+          "fileStem": "koleda",
+          "path": "Prydwen/zzz/assets/characters/koleda-0d7d337e47cb.webp",
           "width": 60,
           "height": 60
         }
@@ -1960,7 +1940,7 @@
         },
         {
           "heading": "Teams (Shiyu Defense)",
-          "text": "This section lists most popular teams featuring Billy - Starlight in the current phase of Shiyu Defense.\n Rank 18\n App. rate: 2.42 %\n Avg. time: 28985\n\n Rank 61\n App. rate: 0.42 %\n Avg. time: 27586\n\n Rank 87\n App. rate: 0.22 %\n Avg. time: 27696\n\n Rank 103\n App. rate: 0.15 %\n Avg. time: 26849\n\n Rank 140\n App. rate: 0.09 %\n Avg. time: 26902\n\n Rank 148\n App. rate: 0.08 %\n Avg. time: 28916\n\n Rank 148\n App. rate: 0.08 %\n Avg. time: 27794\n\n Rank 158\n App. rate: 0.07 %\n Avg. time: 27003\n\n Rank 179\n App. rate: 0.06 %\n Avg. time: 27859\n\n Rank 209\n App. rate: 0.04 %\n Avg. time: 27068",
+          "text": "This section lists most popular teams featuring Billy - Starlight in the current phase of Shiyu Defense.\n Rank 24\n App. rate: 1.88 %\n Avg. time: 30083\n\n Rank 44\n App. rate: 0.64 %\n Avg. time: 30951\n\n Rank 79\n App. rate: 0.29 %\n Avg. time: 26717\n\n Rank 108\n App. rate: 0.15 %\n Avg. time: 27504\n\n Rank 127\n App. rate: 0.11 %\n Avg. time: 29630\n\n Rank 137\n App. rate: 0.1 %\n Avg. time: 26790\n\n Rank 144\n App. rate: 0.09 %\n Avg. time: 26744\n\n Rank 144\n App. rate: 0.09 %\n Avg. time: 29201\n\n Rank 188\n App. rate: 0.06 %\n Avg. time: 27592\n\n Rank 200\n App. rate: 0.05 %\n Avg. time: 25807",
           "assets": [
             {
               "id": "d632251522d1",
@@ -1993,6 +1973,16 @@
               "height": 60
             },
             {
+              "id": "b1058e3ac1d7",
+              "sourceHash": "b1058e3ac1d7",
+              "kind": "characters",
+              "name": "Norma",
+              "fileStem": "norma",
+              "path": "Prydwen/zzz/assets/characters/norma-b1058e3ac1d7.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
               "id": "3e8d48ac0bd4",
               "sourceHash": "3e8d48ac0bd4",
               "kind": "characters",
@@ -2009,6 +1999,16 @@
               "name": "Pan Yinhu",
               "fileStem": "pan-yinhu",
               "path": "Prydwen/zzz/assets/characters/pan-yinhu-f34fb0a851f4.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "98d8d659c143",
+              "sourceHash": "98d8d659c143",
+              "kind": "characters",
+              "name": "Astra Yao",
+              "fileStem": "astra-yao",
+              "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
               "width": 60,
               "height": 60
             },
@@ -2029,102 +2029,6 @@
               "name": "Trigger",
               "fileStem": "trigger",
               "path": "Prydwen/zzz/assets/characters/trigger-2fd489d454a4.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "98d8d659c143",
-              "sourceHash": "98d8d659c143",
-              "kind": "characters",
-              "name": "Astra Yao",
-              "fileStem": "astra-yao",
-              "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "e8a1e5a4346f",
-              "sourceHash": "e8a1e5a4346f",
-              "kind": "characters",
-              "name": "Zhao",
-              "fileStem": "zhao",
-              "path": "Prydwen/zzz/assets/characters/zhao-e8a1e5a4346f.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "05344f259fe9",
-              "sourceHash": "05344f259fe9",
-              "kind": "characters",
-              "name": "Caesar",
-              "fileStem": "caesar",
-              "path": "Prydwen/zzz/assets/characters/caesar-05344f259fe9.webp",
-              "width": 60,
-              "height": 60
-            }
-          ]
-        },
-        {
-          "heading": "Teams (Deadly Assault)",
-          "text": "This section lists most popular teams featuring Billy - Starlight in the current phase of Deadly Assault.\n Rank 11\n App. rate: 6.39 %\n Avg. score: 30530\n\n Rank 19\n App. rate: 1.98 %\n Avg. score: 28690\n\n Rank 56\n App. rate: 0.37 %\n Avg. score: 25941\n\n Rank 71\n App. rate: 0.24 %\n Avg. score: 24547\n\n Rank 77\n App. rate: 0.21 %\n Avg. score: 26079\n\n Rank 77\n App. rate: 0.21 %\n Avg. score: 23030\n\n Rank 77\n App. rate: 0.21 %\n Avg. score: 23526\n\n Rank 83\n App. rate: 0.19 %\n Avg. score: 26759\n\n Rank 90\n App. rate: 0.16 %\n Avg. score: 22948\n\n Rank 90\n App. rate: 0.16 %\n Avg. score: 29139",
-          "assets": [
-            {
-              "id": "d632251522d1",
-              "sourceHash": "d632251522d1",
-              "kind": "characters",
-              "name": "Billy - Starlight",
-              "fileStem": "billy-starlight",
-              "path": "Prydwen/zzz/assets/characters/billy-starlight-d632251522d1.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "5b1302d794ba",
-              "sourceHash": "5b1302d794ba",
-              "kind": "characters",
-              "name": "Dialyn",
-              "fileStem": "dialyn",
-              "path": "Prydwen/zzz/assets/characters/dialyn-5b1302d794ba.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "7557c8060dc2",
-              "sourceHash": "7557c8060dc2",
-              "kind": "characters",
-              "name": "Lucia",
-              "fileStem": "lucia",
-              "path": "Prydwen/zzz/assets/characters/lucia-7557c8060dc2.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "3e8d48ac0bd4",
-              "sourceHash": "3e8d48ac0bd4",
-              "kind": "characters",
-              "name": "Ju Fufu",
-              "fileStem": "ju-fufu",
-              "path": "Prydwen/zzz/assets/characters/ju-fufu-3e8d48ac0bd4.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "f34fb0a851f4",
-              "sourceHash": "f34fb0a851f4",
-              "kind": "characters",
-              "name": "Pan Yinhu",
-              "fileStem": "pan-yinhu",
-              "path": "Prydwen/zzz/assets/characters/pan-yinhu-f34fb0a851f4.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "ce33de22acc4",
-              "sourceHash": "ce33de22acc4",
-              "kind": "characters",
-              "name": "Pulchra",
-              "fileStem": "pulchra",
-              "path": "Prydwen/zzz/assets/characters/pulchra-ce33de22acc4.webp",
               "width": 60,
               "height": 60
             },
@@ -2137,24 +2041,70 @@
               "path": "Prydwen/zzz/assets/characters/koleda-0d7d337e47cb.webp",
               "width": 60,
               "height": 60
-            },
+            }
+          ]
+        },
+        {
+          "heading": "Teams (Deadly Assault)",
+          "text": "This section lists most popular teams featuring Billy - Starlight in the current phase of Deadly Assault.\n Rank 19\n App. rate: 2.22 %\n Avg. score: 28137\n\n Rank 29\n App. rate: 1.14 %\n Avg. score: 34348\n\n Rank 73\n App. rate: 0.37 %\n Avg. score: 24623\n\n Rank 134\n App. rate: 0.12 %\n Avg. score: 22862\n\n Rank 156\n App. rate: 0.09 %\n Avg. score: 28526\n\n Rank 168\n App. rate: 0.08 %\n Avg. score: 22866\n\n Rank 175\n App. rate: 0.07 %\n Avg. score: 25079\n\n Rank 175\n App. rate: 0.07 %\n Avg. score: 23037\n\n Rank 175\n App. rate: 0.07 %\n Avg. score: 25336\n\n Rank 190\n App. rate: 0.06 %\n Avg. score: 22672",
+          "assets": [
             {
-              "id": "2fd489d454a4",
-              "sourceHash": "2fd489d454a4",
+              "id": "d632251522d1",
+              "sourceHash": "d632251522d1",
               "kind": "characters",
-              "name": "Trigger",
-              "fileStem": "trigger",
-              "path": "Prydwen/zzz/assets/characters/trigger-2fd489d454a4.webp",
+              "name": "Billy - Starlight",
+              "fileStem": "billy-starlight",
+              "path": "Prydwen/zzz/assets/characters/billy-starlight-d632251522d1.webp",
               "width": 60,
               "height": 60
             },
             {
-              "id": "05437fe51e49",
-              "sourceHash": "05437fe51e49",
+              "id": "5b1302d794ba",
+              "sourceHash": "5b1302d794ba",
               "kind": "characters",
-              "name": "Lycaon",
-              "fileStem": "lycaon",
-              "path": "Prydwen/zzz/assets/characters/lycaon-05437fe51e49.webp",
+              "name": "Dialyn",
+              "fileStem": "dialyn",
+              "path": "Prydwen/zzz/assets/characters/dialyn-5b1302d794ba.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "7557c8060dc2",
+              "sourceHash": "7557c8060dc2",
+              "kind": "characters",
+              "name": "Lucia",
+              "fileStem": "lucia",
+              "path": "Prydwen/zzz/assets/characters/lucia-7557c8060dc2.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "b1058e3ac1d7",
+              "sourceHash": "b1058e3ac1d7",
+              "kind": "characters",
+              "name": "Norma",
+              "fileStem": "norma",
+              "path": "Prydwen/zzz/assets/characters/norma-b1058e3ac1d7.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "3e8d48ac0bd4",
+              "sourceHash": "3e8d48ac0bd4",
+              "kind": "characters",
+              "name": "Ju Fufu",
+              "fileStem": "ju-fufu",
+              "path": "Prydwen/zzz/assets/characters/ju-fufu-3e8d48ac0bd4.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "f34fb0a851f4",
+              "sourceHash": "f34fb0a851f4",
+              "kind": "characters",
+              "name": "Pan Yinhu",
+              "fileStem": "pan-yinhu",
+              "path": "Prydwen/zzz/assets/characters/pan-yinhu-f34fb0a851f4.webp",
               "width": 60,
               "height": 60
             },
@@ -2167,6 +2117,36 @@
               "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
               "width": 60,
               "height": 60
+            },
+            {
+              "id": "ce33de22acc4",
+              "sourceHash": "ce33de22acc4",
+              "kind": "characters",
+              "name": "Pulchra",
+              "fileStem": "pulchra",
+              "path": "Prydwen/zzz/assets/characters/pulchra-ce33de22acc4.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "2fd489d454a4",
+              "sourceHash": "2fd489d454a4",
+              "kind": "characters",
+              "name": "Trigger",
+              "fileStem": "trigger",
+              "path": "Prydwen/zzz/assets/characters/trigger-2fd489d454a4.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "0d7d337e47cb",
+              "sourceHash": "0d7d337e47cb",
+              "kind": "characters",
+              "name": "Koleda",
+              "fileStem": "koleda",
+              "path": "Prydwen/zzz/assets/characters/koleda-0d7d337e47cb.webp",
+              "width": 60,
+              "height": 60
             }
           ]
         }
@@ -2174,5 +2154,5 @@
     }
   },
   "tables": [],
-  "text": "Billy - Starlight Best Build Guide | Zenless Zone Zero\n \n\n Zenless Zone Zero\n Home Database Agents Bangboo W-Engines Disk Drives Banners\n Tier Lists Tier List\n Endgame Shiyu Defense Deadly Assault\n Resources Guides News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Zenless Zone Zero\n /\n Characters\n /\n Billy - Starlight\n Billy - Starlight Best Build Guide\n Last updated: 17/June/2026\n\n Introduction\n Best guide and build for Billy - Starlight from ZZZ (Zenless Zone Zero). Billy - Starlight is an rank character with the Physical attribute who belongs to the Rupture Specialty and who is part of the Cunning Hares faction.\n\n To learn more about Billy - Starlight check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n Billy - Starlight has at least one video guide available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 2.8\n\n Last build update\n Patch 2.8\n\n Last teams update\n Patch 2.8\n\n Last profile update*\n 17/June/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.\n\n Kit\n\n Review\n\n Build\n\n SD/DA Analytics\n\n Teams & Synergy\n\n Calculations\n\n To learn more about Billy - Starlight check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile\n\n Core skills\n\n Core Passive Knight's Resolve\n\n Lv. 1\n\n Starlight - Billy gains extra Sheer Force based on his Max HP, with every 1 point of Max HP increasing Sheer Force by 0.1 . All Physical DMG Starlight - Billy deals is Sheer DMG, ignoring enemy DEF and using his Sheer Force stat as the DMG Multiplier.\n Starlight - Billy restores 60 Adrenaline upon entering the battlefield. In Investigation Zone Mode, this effect can trigger once every 180s .\n When his HP is greater than 25% , press Special Icon to consume HP and activate Special Attack: Drive Suppression. While in combat, each use of this skill increases his CRIT DMG by 45% for 45s . Repeated triggers refresh the duration. When HP is at or below 25% , the DMG he takes is reduced by 50% .\n Starlight - Billy gains Determination when his attacks hit enemies, with the amount depending on the skill used. Determination regenerates slowly while in combat, and is capped at 120 . Hitting an enemy with EX Special Attack: Cool Wheelie, activating Chain Attack: Knight's Swagger, or triggering a block restores additional Determination. Triggering a Perfect Dodge by any means restores 3 Determination. This effect can trigger once every 0.5s .\n When Determination is greater than or equal to 100, hold Normal Icon to consume 100 Determination and activate Basic Attack: Full-Throttle Starlight.\n Hitting an enemy with Basic Attack: Knight's Technique restores a small amount of HP. Hitting an enemy with Dodge Counter: Duel King activated through a Perfect Dodge restores HP. Using EX Special Attack: High-Traction Wheels or EX Special Attack: Rocking Footwork restores HP.\n\n BASE ATK: 0\n\n Additional Ability Blazing Starlight\n\n When another character in your squad is a Stun, Defense, or Support character:\n Hitting an enemy with EX Special Attack: Cool Wheelie, the 4th hit of Basic Attack: Knight's Technique, Chain Attack, or Ultimate grants 1 stack of Starlight for 45s , up to a maximum of 2 stacks, Only one stack can be obtained per use of a skill. Each stack increases the DMG of Chain Attacks, Ultimates, EX Special Attacks, and Basic Attack: Full-Throttle Starlight by 20% .\n\n Skills\n Basic\n Dodge\n Assist\n Special\n Chain\n\n Basic Attack: Knight's Technique\n\n Press to activate:\nPerforms up to four attacks forward, dealing Physical DMG.\nDuring the 4th hit, press to use Special Attack: Drive Suppression, reducing HP consumption by 50%.\nRestores a small amount of HP on hit.\n Multipliers\n\n Basic Attack: Full-Throttle Starlight\n\n With enough Determination, hold to activate:\nCharges forward on the motorcycle, then fires a laser beam, dealing massive Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Dodge: Close Call!\n\n Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill.\n\n Dodge: Through the Galaxy\n\n During Special Attack: Drive Suppression, drag the / or hold to activate:\nDrifts with the motorcycle, enabling Perfect Dodges for a brief duration.\nIf a Perfect Dodge is successfully triggered, it immediately chains into Dodge Counter: Afterfire Spin.\nDuring this skill, continue dragging the / or holding to continue drifting.\nDuring this skill, the duration of Special Attack: Drive Suppression will continue, and upon reaching the maximum duration, it automatically chains into EX Special Attack: Cool Wheelie.\nIf the skill ends early, it automatically chains into Special Attack: Run Wild.\nCharacter is briefly invulnerable and Anti-Interrupt Level increases during this skill.\n\n Dash Attack: Starlight Retribution\n\n Press during a dodge to activate:\nPerforms a quick forward slash, dealing Physical DMG.\n Multipliers\n\n Dodge Counter: Duel King\n\n Press during a Perfect Dodge to activate:\nFires a blast from his arm cannon, dealing Physical DMG.\nIf this skill is triggered via a Perfect Dodge, hitting an enemy restores 10% of Max HP, and it can be chained into the 4th hit of Basic Attack: Knight's Technique.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Dodge Counter: Afterfire Spin\n\n During Dodge: Through the Galaxy, trigger a Perfect Dodge to activate:\nSpins with the bike to deal Physical DMG to surrounding enemies.\nAfter using this skill, it automatically chains into EX Special Attack: Cool Wheelie.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Special Attack: Drive Suppression\n\n When HP is above 25%, press to activate:\nConsumes HP equal to 16% of Max HP to summon a motorcycle and swiftly crash into enemies, continuously dealing Physical DMG.\nIf attacked by an enemy as the active character shortly upon activating this skill, triggers a block, negating the attack and restoring 5 Determination.\nAfter triggering a block, immediately chains into EX Special Attack: Cool Wheelie.\nAfter the skill continues for a while, it automatically chains into EX Special Attack: Cool Wheelie.\nAnti-Interrupt level is increased while using this skill.\n Multipliers\n\n Special Attack: Run Wild\n\n Triggers automatically when Dodge: Through the Galaxy is interrupted:\nKicks his motorcycle at enemies, dealing Physical DMG.\nAfter using this skill, it can be chained into Dodge Counter: Duel King.\nAnti-Interrupt level is increased while using this skill.\n Multipliers\n\n Special Attack: Cool Wheelie\n\n Triggers automatically when Special Attack: Drive Suppression reaches its maximum duration or a block is triggered:\nLifts the motorcycle to attack enemies, dealing Physical DMG.\nOn hit, restores an additional 8 Determination.\nAfter using this skill, with enough Adrenaline, press or hold to chain into EX Special Attack: Rocking Footwork.\nAfter the skill animation ends, automatically chains into Special Attack: Run Wild.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n EX Special Attack: High-Traction Wheels\n\n With enough Adrenaline, hold to activate:\nSlams down with the motorcycle, dealing Physical DMG.\nRestores 30% of Max HP upon activating this skill.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n EX Special Attack: Rocking Footwork\n\n After activating EX Special Attack: Cool Wheelie and with enough Adrenaline, press or hold to activate:\nUses the motorcycle and hand cannon for a combined attack, dealing Physical DMG.\nUpon activating this skill, restore 15% of Max HP.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Chain Attack: Knight's Swagger\n\n When a Chain Attack is triggered, select the character to activate:\nLaunches a series of attacks forward, dealing massive Physical DMG.\nUpon activating this skill, gains 15 Determination.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Ultimate: Starlight Knight Flying Kick\n\n When Decibel Rating is at Maximum, press to activate:\nLeaps into the air and delivers a flying kick at the target, dealing massive Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Assist Follow-Up: Villain's Exit\n\n Press after a Defensive Assist to activate:\nKicks the motorcycle at the target, dealing massive Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Defensive Assist: Hero's Entrance\n\n When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Quick Assist: Starlight - Power of Bonds\n\n When the active character is launched, press to activate:\nFires a blast from his arm cannon ahead, dealing Physical DMG. When HP is above 25%, this skill is replaced with Special Attack: Drive Suppression. This effect can trigger once every 5s.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Mindscapes\n M1\n Heroic Entrance\n Mindscape 1\n\n Core Passive: Knight's Resolve restores an additional 60 Adrenaline upon entering the battlefield. Hitting an enemy with an EX Special Attack causes Starlight - Billy's DMG to ignore 18% Physical RES for 45s . Repeated triggers refresh the duration.\n\n M2\n Wasteland Automaton\n Mindscape 2\n\n Increases the DMG dealt by Basic Attack: Full-Throttle Starlight, EX Special Attack: Cool Wheelie, and Ultimate: Starlight Knight Flying Kick by 50% . Activating EX Special Attack: Rocking Footwork, EX Special Attack: High-Traction Wheels, or hitting a Stunned enemy with Special Attack: Drive Suppression grants the Turbocharged effect: Special Attack: Drive Suppression consumes this effect to immediately follow up with EX Special Attack: Cool Wheelie, and increases that instance's CRIT DMG by 50% . Only 1 stack of Turbocharged can be held.\n\n M3\n Knight's Chivalry\n Mindscape 3\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M4\n Flames of Justice\n Mindscape 4\n\n While in combat, each use of Special Attack: Drive Suppression increases Starlight - Billy's CRIT DMG by 8% , stacking up to 2 times and lasting 45s . Repeated triggers reset the duration. If HP is below 35% and Starlight - Billy is not the active character, he continuously recovers HP, up to 35% .\n\n M5\n Radiant Armaments\n Mindscape 5\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M6\n Starlight Knight\n Mindscape 6\n\n Ultimate: Starlight Knight Flying Kick and Basic Attack: Full-Throttle Starlight's Sheer DMG increases by 18% . Landing the 4th hit of Basic Attack: Knight's Technique, EX Special Attack: Cool Wheelie, or Chain Attack: Knight's Swagger grants 1 stack of Brilliant Starlight, stacking up to 6 times, and gaining at most 1 stack per skill use. When using Ultimate: Starlight Knight Flying Kick or Basic Attack: Full-Throttle Starlight, consumes up to 2 stacks of Brilliant Starlight, with each stack consumed causing that skill's final hit to deal 100% Sheer Force as additional Physical DMG .\n\n Stats (Level 60)\n Billy - Starlight Stats at level 60 (including Core passive bonuses).\n\n HP\n 8497\n\n DEF\n 445\n\n ATK\n 859\n\n CRIT Rate\n 19.4 %\n\n CRIT DMG\n 50 %\n\n PEN Ratio\n 0 %\n\n Impact\n 95\n\n Anomaly Mastery\n 90\n\n Anomaly Proficiency\n 89\n\n Energy Regen\n 2\n\n Voice Actors\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Crit DPS\n T0.5\n Endgame Modes\n\n Pros & Cons\n Pros\n Has both high burst in stun combos and decent out of stun damage via Cool Wheelie, making him uniquely suited to some encounters (e.g. Thrall).\n\n High stat saturation from his Core Passive means that his substat distribution is far more forgiving than that of other Rupture Agents.\n\n Wide variety of moves, with multiple EXs, Dodge Counters and mobility skills that keep him feeling fresh.\n\n Raidā Kikku!\n\n Cons\n Massively reliant on a few key teammates, with some of the biggest performance drops out of any Agent yet when not in his best team.\n\n Spread out damage across multiple skills, making him expensive to invest in.\n\n Reeeeeeeeally long animations, which can feel clunky and cumbersome at times, having strict combo requirements.\n\n The closest we’ll ever get to playable Pompey, and yet doesn’t even have Scarlet Engine as a Core Unlock material.\n\n Review\n Intro & Unique Mechanic\n Starlight Billy is a Physical Rupture Agent who is able to quite literally ride a motorcycle in combat, with drifts, flips and wheelies that are integral to his gameplan.\n By consuming his own HP for resources then healing it back up, he gets to build up Determination , seen as a gauge with a cap of 120 points. All of his skills but one will generate Determination, with the exception being his enhanced Basic Attack: “Full-Throttle Starlight”. This is the attack that consumes Determination, costing 100 points to cast and dealing some heavy damage as a result.\n In addition to this, Billy has multiple Specials and EXs that can weave into one another: some are used to sustain his buffs, others for resource generation or damage, where knowing when and where to use each skill is key to his gameplan.\n Overall though, he’s a rather straightforward character that epitomises the Rupture archetype: he has on-field parries, as much of his damage be loaded on Specials and Ultimate, and has both high in-stun burst and decent sustain that comes from building his resources.\n Core Passive & Additional Ability\n Billy’s Core Passive nodes build CRIT Rate, which is especially important for him. While Attackers and Rupture Agents generally want all their skills to CRIT, it’s especially important for Billy because of the obscene amount of CRIT DMG that he gets.\n When Billy’s HP drops below 25%, he takes 50% reduced DMG, and with good reason, for as long as his HP is above this threshold, he can consume it to use Special Attack: “Drive Suppression”, being his trademark bike riding skill, being what much of his gameplay revolves around.\n As part of his Core Passive, it also increases Billy’s own CRIT DMG by 90% for 45s, being the primary reason as to how he gets so much of the stat.\n Given that his Special is consuming HP, Billy needs a way to recover it, and he does so by landing any of his regular Basic Attack strings, his regular Dodge Counter: “Duel King” if it is triggered by a Perfect Dodge, and either of his Adrenaline EX Specials.\n It’s here that his Determination gauge is outlined, and while most skills have their own build-up value associated with them, a few have additional bonuses, namely his EX Special Attack: “Cool Wheelie”, his Chain Attack, as well as either getting a block (with his Drive Suppression Special) or Perfect Dodging.\n These bonuses are all tied to a given skill, with the exception of the Perfect Dodge, which generates a blanket 3 Determination regardless of the means used to get it - something that’s relevant as Billy has multiple ways to Dodge. It is also the one bonus that has a cooldown associated with it, at 0.5s, so multi-hit attacks often won’t help build extra gauge.\n As for his Additional Ability, it demands Stun , Defence or Support Agents in the team, and it builds a stack of “ Starlight ” whenever the Cool Wheelie EX, Chain Attack, Ultimate or his regular Basic 4 hits an enemy, capped at 2.\n Each stack increases Billy’s Chain Attack, Ultimate and all EX Special damage by 20%, for 40% total. This functions as a buff with a 45s duration, so it doesn’t need much thought to maintain it.\n Basic\n Billy has 2 Basics, the aforementioned Full-Throttle Starlight enhanced Basic and a regular string, being “Knight’s Technique”.\n The enhanced Basic is split into a bike ride section first and a bike exhaust beam second. The first is slightly stronger than the second, which can influence how it's integrated into combos, as it has a very long animation - well over 3 seconds in total.\n This is made up by its strong damage, and given it only costs Determination, is used often.\n The regular Basic has low multipliers, but comes with slight healing on all its hits. As other healing skills are dependent on either enemy behaviour (Perfect Dodges) or resources (Adrenaline), it’s an accessible filler string if needing to recover.\n It also has a unique property where it will half the HP cost of the Drive Suppression Special, which can be situationally useful.\n Special\n Most of Billy’s kit revolves around his different Specials, of which he has 5.\n 2 of which come in a pair: the Drive Suppression Special costs 16% Max HP to use, and it’s both slow and weak. It can function as a gap closer, but the real reason to use it (besides refreshing the Core Passive buff) is that it will automatically lead to the Cool Wheelie EX once it ends.\n It also has a parry property, where if Billy is hit while in Drive Suppression, he will block the enemy, build an extra 5 Determination, and transition into the Cool Wheelie EX immediately.\n Not only is this used for Billy’s Additional Ability buff, it also deals surprisingly good damage and builds a lot of Determination, more than 10 if it lands in full.\n As it’s an EX, it can also be used to sustain Yunkui Tales’ 4-piece buff, making it an integral part of how Billy plays. Getting as many Cool Wheelie EXs as HP allows out-of-stun to deal damage, build Determination and maintain buffs is ideal.\n The next set are the Adrenaline EXs. Pressing Special leads to Drive Suppression, but holding it when over 60 Adrenaline will go into “High-Traction Wheels”, a high damaging bike slam.\n Pressing or holding Special after the Cool Wheelie EX however, leads to “Rocking Footwork”, an alternate Adrenaline EX that’s a little slower, but also hits a little harder.\n Both of these skills will heal Billy a significant amount, but their primary purpose is in their high multipliers. Look to save up Billy’s Adrenaline for stun periods to unload these EXs during it for the most damage.\n The final Special is “Run Wild”. It’s used automatically after Cool Wheelie EX or if Billy is swapped out of Drive Suppression before it gets to it.\n There’s no particular use to it, being slow and weak, working as a sort of forced recovery to these skills. It can link to Billy’s regular Dodge Counter, but as its not done off a Perfect Dodge, yields no extra Determination or healing.\n Dodge\n Said Dodge Counter, Duel King, is rather unremarkable. It’s about average with its multipliers, but can be useful to quickly heal Billy, as it recovers far more HP than his Basics.\n It can also shortcut into Basic 4 after a Perfect Dodge, so between its own healing, that of Basic 4’s, and the lower HP consumption cost of the Drive Suppression Special that comes after, makes for an HP-positive string.\n There is also an alternate Dodge Counter: “Afterfire Spin”. Holding a directional input during the Drive Suppression Special will have Billy drift, and other than the slight movement, changes nothing about the skill: it still leads to Cool Wheelie EX and Run Wild if it ends early.\n The difference is that if Billy is hit while drifting, rather than getting a parry like normal, he’ll transition into this alternate Dodge Counter instead.\n While it regens no HP, it hits almost twice as hard as a regular Dodge Counter and has some respectable Determination build, so it's more efficient for resources than relying on the parry.\n It will then always link into the Cool Wheelie EX, so the only downside from doing it is the extra time that it takes for the skill to land, making it ideal in most circumstances.\n Doing Assist Counters off it can be easier than with regular Dodge Counters, but be aware that as Billy needs to be in Drive Suppression to get to it, needs to start far earlier.\n Separate from combat abilities, holding the Dodge button has Billy ride his motorcycle, being a unique dash that gives him faster movement.\n Assist\n Both Billy’s Defensive Assist and Assist Follow-Up work mostly as standard, but aside from weaving them in for Decibels and Daze, they also generate Determination.\n The Defensive Assist itself is especially useful, as the Determination is generated on hit . This means that multi-hit attacks where Billy parries multiple times in a single Defensive Assist will generate additional Determination as many times as he’s hit.\n Against aggressive enemies, this can be a good way to build up Determination without needing to keep Billy on-field at all times.\n While he has a Quick Assist, it’s rarely ever used, as if he is over 25% HP it’s automatically converted into a Drive Suppression Special with a 5 second cooldown.\n Chain & Ultimate\n Although Billy’s Chain Attack hits decently hard, it’s the weakest out of his burst skills (enhanced Basic, Adrenaline EXs, Ultimate) and isn’t particularly fast.\n It does, however, generate 19.5 Determination on use, making it an integral part of his combos. With it, it’s possible to get 2 enhanced Basics in a single stun window!\n As for his Ultimate, it’s a very slow, very flashy and very strong move. That’s all there is to it, best saved for combos for its high damage numbers.\n\n How to play\n Billy’s general gameplan can be summed up as:\n Look to get as many uses of the Cool Wheelie EX out of stun as possible for everything, be it damage, resources or buffs.\n\n Do the above ideally through parries on Drive Suppression or with the alternate Dodge Counter for even better results.\n\n As Drive Suppression consumes HP, make use of the regular Basic string and regular Dodge Counters to heal, with an occasional Special use after B4 to reduce its HP cost.\n\n Have as much Determination and Adrenaline filled when going into stun, then unload his enhanced Basic, Adrenaline EXs, Chains and Ultimates for the most damage.\n\n On top of the above, making use of Defensive Assists to pad out Determination alongside Decibels, as well as being aware of enemy invulnerability phases and Billy’s HP so as to not drop key buffs can be important.\n A standard combo for Billy would be:\n Basic Attack: High-Throttle Starlight\n\n Swap to another character to trigger a Chain Attack\n\n Chain to Billy\n\n EX Special: High-Traction Wheels\n\n Swap to another character to trigger a Chain Attack\n\n Chain to Billy\n\n Ultimate\n\n EX Special: High-Traction Wheels\n\n Basic Attack: High-Throttle Starlight\n\n The 2nd enhanced Basic’s exhaust beam would land out of stun, but the first part - which does more damage - should land in full.\n It’s unlikely that Billy will have all his resources up on every stun, in which case, being flexible with his skill use works best.\n While High-Traction Wheels is the default Adrenaline EX to fall back on, if there aren’t enough Decibels for an Ultimate, or not enough Adrenaline to fit in 2 EXs, using a Cool Wheelie for damage after his second Chain Attack, then cancelling its recovery with Ultimate can be better.\n Alternatively, linking into the alternate Adrenaline EX Rocking Footwork can be better if there won’t be time or Determination to get another enhanced Basic.\n Since Billy takes a long time to cast his enhanced Basic, it’s a good opportunity to swap to other characters to refresh buffs and debuffs - like a Support for Moonlight Lullaby or a Stunner for King of the Summit - and get back to him via a Quick Assist conversion to Drive Suppression to cut out recovery animations.\n Although he has the standard features of a Rupture unit, Billy has a varied kit that allows him to adapt to different situations, and it's in learning how to balance out his skill that one can master his gameplay.\n\n Build and teams\n\n Collaboration Disclaimer\n For ZZZ calculations we worked alongside Rivyn Elowen . Any other content such as comments on W-Engines, Disks, etc are our own.\n\n Best W-Engines\n The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n Team-buffed calculations\n The W-Engine calculations below are team-buffed calculations and here's the team we used for them:\n Dialyn + Yesterday Calls\n Lucia + Dreamlit Hearth\n 100.00%\n\n Starlight Rider Faceplate (S 1 )\n\n Billy's own Signature is, unsurprisingly, his best pick. As is the case for many Rupture Agents, there is a lack of good alternative picks, so its especially valuable as a result. It's a standard set of bonuses: an HP % mainstat, unconditional CRIT Rate and a stacking Sheer DMG buff, being all that Billy needs to be at his best.\n Usage: 76.47 %\n Shiyu Defense: 28402\n Deadly Assault: 30720\n\n 86.54%\n\n Qingming Birdcage (S 1 )\n\n There isn't much to say about Yixuan's Signature for Billy, other than it's an effective stat stick. Its high base ATK isn't as relevant - owing to how Rupture scales - but having 20% unconditional CRIT Rate goes a long way, especially when considering how loaded Billy is on CRIT DMG.\n Usage: 4.59 %\n Shiyu Defense: 26250\n Deadly Assault: 27646\n\n 84.10%\n\n Cauldron of Clarity (S 5 )\n\n Cauldron of Clarity is by far and away the best A-Rank option for Billy. It has an HP % mainstat, offers a valuable spread of buffs, and is very easy for Billy to maintain full uptime of, being barely worse than limited alternatives like Qingming Birdcage.\n Usage: 15.54 %\n Shiyu Defense: 26242\n Deadly Assault: 24541\n\n 80.97%\n\n Steel Cushion (S 1 )\n\n Despite it being an Attacker W-Engine, it's also a Standard S-Rank that has CRIT Rate as a mainstat, and that alone is enough to make it stand out above most other A-Rank picks.\n Usage: 0.45 %\n Shiyu Defense: 25567\n Deadly Assault: 23576\n\n 80.31%\n\n Grill O'Wisp (S 5 )\n\n Billy can drain his own HP with Drive Suppression, but in practice, this isn't happening often during his combos. It is possible to use it before every Adrenaline EX, but considering Billy's long animations and the extra time that it'd take to do this, would effectively be exchanging CRIT Rate for Stun DMG Multiplier, as attacks would be spilling out of stun. An uptime of 50% has been assumed here, but this could be higher or lower depending on how it's managed for important burst skills, with the bulk of this W-Engine's value being from its HP % mainstat.\n Usage: 0.56 %\n Shiyu Defense: 28224\n Deadly Assault: 26119\n\n 76.55%\n\n Puzzle Sphere (S 5 )\n\n Puzzle Sphere's ATK % mainstat and the fact it boosts CRIT DMG - a stat Billy is already very saturated in - make it a generally bad option. As it is the craftable Rupture W-Engine however, it can work as a holdover until better options are acquired.\n Usage: 0.52 %\n Shiyu Defense: 26552\n Deadly Assault: 24993\n\n 75.39%\n\n Radiowave Journey (S 5 )\n\n Despite it's HP % mainstat, Radiowave Journey's actual buff value is severely lacking. As it builds on Chains and Ultimates, the first ones used are going to be low on the Sheer Force stacks, and even those that do get it, may not have full stacks either owing to the 12s duration, which is shorter than stuns after accounting for stun pauses and extensions. While saturation can change its ranking relative to Puzzle Sphere, it's unlikely to be much better, so benching this W-Engine and using another option is likely best.\n Usage: 0.33 %\n Shiyu Defense: 0\n Deadly Assault: 24223\n\n Best Disk Drives Sets\n 100.00%\n\n Yunkui Tales ( 4 -PC)\n\n Yunkui Tales is the only real viable 4-piece set for Billy. It should be noted however, that as he's usually run into encounters with long phase transitions, there's a very real risk of this buff falling off, so be sure to use Cool Wheelies every so often to maintain it even during downtimes. The 2-piece is varied however: so long as Billy is capped out on CRIT Rate, the difference between CRIT DMG and DMG % is minimal, with HP % being a little worse but still a serviceable option.\n Best combined with your choice of 2-PC Set:\n 2P\n Woodpecker Electro\n\n (Recommended)\n 2P\n Branch & Blade Song\n\n 2P\n Fanged Metal\n\n White Water Ballad\n\n 2P\n Astral Voice\n\n Hormone Punk\n\n 2P\n Bunny in Wonderland\n\n Best Disk Drives Stats\n Disk 4\n CRIT Rate% = CRIT DMG% = HP%\n\n Disk 5\n Physical DMG% > HP%\n\n Disk 6\n HP%\n\n Substats: CRIT RATE > CRIT DMG = HP% > Flat HP > Flat ATK\n\n Best Endgame Stats (Level 60)\n SHEER FORCE: 2200+\n\n ATK: 1800 - 2000+\n\n HP: 18,000+\n\n DEF: 600+\n\n CRIT RATE: 90 - 100% (In combat; Including Disc Drive Bonus & Signature Weapon)\n\n CRIT DMG: 120 - 150%+\n\n Skill priority\n Chain Attack\n\n Special Attack\n\n Basic Attack\n\n Assist\n\n Dodge\n\n Video guides\n\n Teams & Synergy\n\n Synergy\n Below we list only the most important synergies for Billy - Starlight . The character can work with others if you know what to do and how to use them.\n\n Dialyn - Dialyn has about everything Billy could want: for one, both of them are Physical, so her Daze is always going to be most effective on the fights Billy is run in. Dialyn's Ultimate conversion synergises well given it's Billy's strongest skill, and as his attack animations are all very long, Dialyn's stun extension goes a long way to helping maximise value in combos. When that's coupled with her general buff value and the ability to push at least 4 stuns on almost every fight, Dialyn is by far and away the best pick.\n Lucia - As the de-facto Premium Rupture Support, she's going to be best for Billy. Her Ultimate healing can be marginally helpful, ensuring Billy isn't running out of HP for his Drive Suppression, but the real benefit on having Lucia on the team amounts to her high buff value.\n Ju Fufu Trigger Qingyi - All these 3 are serviceable Stunners, even if far behind in Dialyn when it comes to actual performance. Ju Fufu buffs Chain and Ultimate (which is especially desirable for Billy), Trigger has low commitment needs while offering a relatively undiluted buff with Stun DMG Multiplier, and Qingyi has said buff be even higher, but at the cost of more field time. All also have issues, with Ju Fufu's lacklustre Daze making 4 stuns on Billy's ideal bosses (Thrall & Defiler) unfeasible, Trigger is much the same - she can't use her Signature or Additional here - and Qingyi is cumbersome to use without sacrificing on Billy's resources. Still, all function and can sub in without issue if played around.\n Pan Yinhu - Pan is the best A-Rank supportive pick for Billy. Even when compared to other S-Rank limiteds, like Astra or Caesar, he's going to pull out ahead at baseline. Given that Billy tends to run in fights with many parries, Bunny in Wonderland is easy enough to keep up, and Pan's general buff value is decent given his accessibility.\n Teams\n Team #1\n\n Team #2\n\n Team #3\n\n For more Teams, check this video:\n\n Teams (Shiyu Defense)\n This section lists most popular teams featuring Billy - Starlight in the current phase of Shiyu Defense.\n Rank 18\n App. rate: 2.42 %\n Avg. time: 28985\n\n Rank 61\n App. rate: 0.42 %\n Avg. time: 27586\n\n Rank 87\n App. rate: 0.22 %\n Avg. time: 27696\n\n Rank 103\n App. rate: 0.15 %\n Avg. time: 26849\n\n Rank 140\n App. rate: 0.09 %\n Avg. time: 26902\n\n Rank 148\n App. rate: 0.08 %\n Avg. time: 28916\n\n Rank 148\n App. rate: 0.08 %\n Avg. time: 27794\n\n Rank 158\n App. rate: 0.07 %\n Avg. time: 27003\n\n Rank 179\n App. rate: 0.06 %\n Avg. time: 27859\n\n Rank 209\n App. rate: 0.04 %\n Avg. time: 27068\n\n Teams (Deadly Assault)\n This section lists most popular teams featuring Billy - Starlight in the current phase of Deadly Assault.\n Rank 11\n App. rate: 6.39 %\n Avg. score: 30530\n\n Rank 19\n App. rate: 1.98 %\n Avg. score: 28690\n\n Rank 56\n App. rate: 0.37 %\n Avg. score: 25941\n\n Rank 71\n App. rate: 0.24 %\n Avg. score: 24547\n\n Rank 77\n App. rate: 0.21 %\n Avg. score: 26079\n\n Rank 77\n App. rate: 0.21 %\n Avg. score: 23030\n\n Rank 77\n App. rate: 0.21 %\n Avg. score: 23526\n\n Rank 83\n App. rate: 0.19 %\n Avg. score: 26759\n\n Rank 90\n App. rate: 0.16 %\n Avg. score: 22948\n\n Rank 90\n App. rate: 0.16 %\n Avg. score: 29139"
+  "text": "Billy - Starlight Best Build Guide | Zenless Zone Zero\n \n\n Zenless Zone Zero\n Home Database Agents Bangboo W-Engines Disk Drives Banners\n Tier Lists Tier List\n Endgame Shiyu Defense Deadly Assault\n Resources Guides News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Zenless Zone Zero\n /\n Characters\n /\n Billy - Starlight\n Billy - Starlight Best Build Guide\n Last updated: 17/June/2026\n\n Introduction\n Best guide and build for Billy - Starlight from ZZZ (Zenless Zone Zero). Billy - Starlight is an rank character with the Physical attribute who belongs to the Rupture Specialty and who is part of the Cunning Hares faction.\n\n To learn more about Billy - Starlight check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n Billy - Starlight has at least one video guide available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 2.8\n\n Last build update\n Patch 2.8\n\n Last teams update\n Patch 2.8\n\n Last profile update*\n 17/June/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.\n\n Kit\n\n Review\n\n Build\n\n SD/DA Analytics\n\n Teams & Synergy\n\n Calculations\n\n To learn more about Billy - Starlight check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile\n\n Core skills\n\n Core Passive Knight's Resolve\n\n Lv. 1\n\n Starlight - Billy gains extra Sheer Force based on his Max HP, with every 1 point of Max HP increasing Sheer Force by 0.1 . All Physical DMG Starlight - Billy deals is Sheer DMG, ignoring enemy DEF and using his Sheer Force stat as the DMG Multiplier.\n Starlight - Billy restores 60 Adrenaline upon entering the battlefield. In Investigation Zone Mode, this effect can trigger once every 180s .\n When his HP is greater than 25% , press Special Icon to consume HP and activate Special Attack: Drive Suppression. While in combat, each use of this skill increases his CRIT DMG by 45% for 45s . Repeated triggers refresh the duration. When HP is at or below 25% , the DMG he takes is reduced by 50% .\n Starlight - Billy gains Determination when his attacks hit enemies, with the amount depending on the skill used. Determination regenerates slowly while in combat, and is capped at 120 . Hitting an enemy with EX Special Attack: Cool Wheelie, activating Chain Attack: Knight's Swagger, or triggering a block restores additional Determination. Triggering a Perfect Dodge by any means restores 3 Determination. This effect can trigger once every 0.5s .\n When Determination is greater than or equal to 100, hold Normal Icon to consume 100 Determination and activate Basic Attack: Full-Throttle Starlight.\n Hitting an enemy with Basic Attack: Knight's Technique restores a small amount of HP. Hitting an enemy with Dodge Counter: Duel King activated through a Perfect Dodge restores HP. Using EX Special Attack: High-Traction Wheels or EX Special Attack: Rocking Footwork restores HP.\n\n BASE ATK: 0\n\n Additional Ability Blazing Starlight\n\n When another character in your squad is a Stun, Defense, or Support character:\n Hitting an enemy with EX Special Attack: Cool Wheelie, the 4th hit of Basic Attack: Knight's Technique, Chain Attack, or Ultimate grants 1 stack of Starlight for 45s , up to a maximum of 2 stacks, Only one stack can be obtained per use of a skill. Each stack increases the DMG of Chain Attacks, Ultimates, EX Special Attacks, and Basic Attack: Full-Throttle Starlight by 20% .\n\n Skills\n Basic\n Dodge\n Assist\n Special\n Chain\n\n Basic Attack: Knight's Technique\n\n Press to activate:\nPerforms up to four attacks forward, dealing Physical DMG.\nDuring the 4th hit, press to use Special Attack: Drive Suppression, reducing HP consumption by 50%.\nRestores a small amount of HP on hit.\n Multipliers\n\n Basic Attack: Full-Throttle Starlight\n\n With enough Determination, hold to activate:\nCharges forward on the motorcycle, then fires a laser beam, dealing massive Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Dodge: Close Call!\n\n Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill.\n\n Dodge: Through the Galaxy\n\n During Special Attack: Drive Suppression, drag the / or hold to activate:\nDrifts with the motorcycle, enabling Perfect Dodges for a brief duration.\nIf a Perfect Dodge is successfully triggered, it immediately chains into Dodge Counter: Afterfire Spin.\nDuring this skill, continue dragging the / or holding to continue drifting.\nDuring this skill, the duration of Special Attack: Drive Suppression will continue, and upon reaching the maximum duration, it automatically chains into EX Special Attack: Cool Wheelie.\nIf the skill ends early, it automatically chains into Special Attack: Run Wild.\nCharacter is briefly invulnerable and Anti-Interrupt Level increases during this skill.\n\n Dash Attack: Starlight Retribution\n\n Press during a dodge to activate:\nPerforms a quick forward slash, dealing Physical DMG.\n Multipliers\n\n Dodge Counter: Duel King\n\n Press during a Perfect Dodge to activate:\nFires a blast from his arm cannon, dealing Physical DMG.\nIf this skill is triggered via a Perfect Dodge, hitting an enemy restores 10% of Max HP, and it can be chained into the 4th hit of Basic Attack: Knight's Technique.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Dodge Counter: Afterfire Spin\n\n During Dodge: Through the Galaxy, trigger a Perfect Dodge to activate:\nSpins with the bike to deal Physical DMG to surrounding enemies.\nAfter using this skill, it automatically chains into EX Special Attack: Cool Wheelie.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Special Attack: Drive Suppression\n\n When HP is above 25%, press to activate:\nConsumes HP equal to 16% of Max HP to summon a motorcycle and swiftly crash into enemies, continuously dealing Physical DMG.\nIf attacked by an enemy as the active character shortly upon activating this skill, triggers a block, negating the attack and restoring 5 Determination.\nAfter triggering a block, immediately chains into EX Special Attack: Cool Wheelie.\nAfter the skill continues for a while, it automatically chains into EX Special Attack: Cool Wheelie.\nAnti-Interrupt level is increased while using this skill.\n Multipliers\n\n Special Attack: Run Wild\n\n Triggers automatically when Dodge: Through the Galaxy is interrupted:\nKicks his motorcycle at enemies, dealing Physical DMG.\nAfter using this skill, it can be chained into Dodge Counter: Duel King.\nAnti-Interrupt level is increased while using this skill.\n Multipliers\n\n Special Attack: Cool Wheelie\n\n Triggers automatically when Special Attack: Drive Suppression reaches its maximum duration or a block is triggered:\nLifts the motorcycle to attack enemies, dealing Physical DMG.\nOn hit, restores an additional 8 Determination.\nAfter using this skill, with enough Adrenaline, press or hold to chain into EX Special Attack: Rocking Footwork.\nAfter the skill animation ends, automatically chains into Special Attack: Run Wild.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n EX Special Attack: High-Traction Wheels\n\n With enough Adrenaline, hold to activate:\nSlams down with the motorcycle, dealing Physical DMG.\nRestores 30% of Max HP upon activating this skill.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n EX Special Attack: Rocking Footwork\n\n After activating EX Special Attack: Cool Wheelie and with enough Adrenaline, press or hold to activate:\nUses the motorcycle and hand cannon for a combined attack, dealing Physical DMG.\nUpon activating this skill, restore 15% of Max HP.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Chain Attack: Knight's Swagger\n\n When a Chain Attack is triggered, select the character to activate:\nLaunches a series of attacks forward, dealing massive Physical DMG.\nUpon activating this skill, gains 15 Determination.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Ultimate: Starlight Knight Flying Kick\n\n When Decibel Rating is at Maximum, press to activate:\nLeaps into the air and delivers a flying kick at the target, dealing massive Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Assist Follow-Up: Villain's Exit\n\n Press after a Defensive Assist to activate:\nKicks the motorcycle at the target, dealing massive Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Defensive Assist: Hero's Entrance\n\n When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Quick Assist: Starlight - Power of Bonds\n\n When the active character is launched, press to activate:\nFires a blast from his arm cannon ahead, dealing Physical DMG. When HP is above 25%, this skill is replaced with Special Attack: Drive Suppression. This effect can trigger once every 5s.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Mindscapes\n M1\n Heroic Entrance\n Mindscape 1\n\n Core Passive: Knight's Resolve restores an additional 60 Adrenaline upon entering the battlefield. Hitting an enemy with an EX Special Attack causes Starlight - Billy's DMG to ignore 18% Physical RES for 45s . Repeated triggers refresh the duration.\n\n M2\n Wasteland Automaton\n Mindscape 2\n\n Increases the DMG dealt by Basic Attack: Full-Throttle Starlight, EX Special Attack: Cool Wheelie, and Ultimate: Starlight Knight Flying Kick by 50% . Activating EX Special Attack: Rocking Footwork, EX Special Attack: High-Traction Wheels, or hitting a Stunned enemy with Special Attack: Drive Suppression grants the Turbocharged effect: Special Attack: Drive Suppression consumes this effect to immediately follow up with EX Special Attack: Cool Wheelie, and increases that instance's CRIT DMG by 50% . Only 1 stack of Turbocharged can be held.\n\n M3\n Knight's Chivalry\n Mindscape 3\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M4\n Flames of Justice\n Mindscape 4\n\n While in combat, each use of Special Attack: Drive Suppression increases Starlight - Billy's CRIT DMG by 8% , stacking up to 2 times and lasting 45s . Repeated triggers reset the duration. If HP is below 35% and Starlight - Billy is not the active character, he continuously recovers HP, up to 35% .\n\n M5\n Radiant Armaments\n Mindscape 5\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M6\n Starlight Knight\n Mindscape 6\n\n Ultimate: Starlight Knight Flying Kick and Basic Attack: Full-Throttle Starlight's Sheer DMG increases by 18% . Landing the 4th hit of Basic Attack: Knight's Technique, EX Special Attack: Cool Wheelie, or Chain Attack: Knight's Swagger grants 1 stack of Brilliant Starlight, stacking up to 6 times, and gaining at most 1 stack per skill use. When using Ultimate: Starlight Knight Flying Kick or Basic Attack: Full-Throttle Starlight, consumes up to 2 stacks of Brilliant Starlight, with each stack consumed causing that skill's final hit to deal 100% Sheer Force as additional Physical DMG .\n\n Stats (Level 60)\n Billy - Starlight Stats at level 60 (including Core passive bonuses).\n\n HP\n 8497\n\n DEF\n 445\n\n ATK\n 859\n\n CRIT Rate\n 19.4 %\n\n CRIT DMG\n 50 %\n\n PEN Ratio\n 0 %\n\n Impact\n 95\n\n Anomaly Mastery\n 90\n\n Anomaly Proficiency\n 89\n\n Energy Regen\n 2\n\n Voice Actors\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Crit DPS\n T0.5\n Endgame Modes\n\n Pros & Cons\n Pros\n Has both high burst in stun combos and decent out of stun damage via Cool Wheelie, making him uniquely suited to some encounters (e.g. Thrall).\n\n High stat saturation from his Core Passive means that his substat distribution is far more forgiving than that of other Rupture Agents.\n\n Wide variety of moves, with multiple EXs, Dodge Counters and mobility skills that keep him feeling fresh.\n\n Raidā Kikku!\n\n Cons\n Massively reliant on a few key teammates, with some of the biggest performance drops out of any Agent yet when not in his best team.\n\n Spread out damage across multiple skills, making him expensive to invest in.\n\n Reeeeeeeeally long animations, which can feel clunky and cumbersome at times, having strict combo requirements.\n\n The closest we’ll ever get to playable Pompey, and yet doesn’t even have Scarlet Engine as a Core Unlock material.\n\n Review\n Intro & Unique Mechanic\n Starlight Billy is a Physical Rupture Agent who is able to quite literally ride a motorcycle in combat, with drifts, flips and wheelies that are integral to his gameplan.\n By consuming his own HP for resources then healing it back up, he gets to build up Determination , seen as a gauge with a cap of 120 points. All of his skills but one will generate Determination, with the exception being his enhanced Basic Attack: “Full-Throttle Starlight”. This is the attack that consumes Determination, costing 100 points to cast and dealing some heavy damage as a result.\n In addition to this, Billy has multiple Specials and EXs that can weave into one another: some are used to sustain his buffs, others for resource generation or damage, where knowing when and where to use each skill is key to his gameplan.\n Overall though, he’s a rather straightforward character that epitomises the Rupture archetype: he has on-field parries, as much of his damage be loaded on Specials and Ultimate, and has both high in-stun burst and decent sustain that comes from building his resources.\n Core Passive & Additional Ability\n Billy’s Core Passive nodes build CRIT Rate, which is especially important for him. While Attackers and Rupture Agents generally want all their skills to CRIT, it’s especially important for Billy because of the obscene amount of CRIT DMG that he gets.\n When Billy’s HP drops below 25%, he takes 50% reduced DMG, and with good reason, for as long as his HP is above this threshold, he can consume it to use Special Attack: “Drive Suppression”, being his trademark bike riding skill, being what much of his gameplay revolves around.\n As part of his Core Passive, it also increases Billy’s own CRIT DMG by 90% for 45s, being the primary reason as to how he gets so much of the stat.\n Given that his Special is consuming HP, Billy needs a way to recover it, and he does so by landing any of his regular Basic Attack strings, his regular Dodge Counter: “Duel King” if it is triggered by a Perfect Dodge, and either of his Adrenaline EX Specials.\n It’s here that his Determination gauge is outlined, and while most skills have their own build-up value associated with them, a few have additional bonuses, namely his EX Special Attack: “Cool Wheelie”, his Chain Attack, as well as either getting a block (with his Drive Suppression Special) or Perfect Dodging.\n These bonuses are all tied to a given skill, with the exception of the Perfect Dodge, which generates a blanket 3 Determination regardless of the means used to get it - something that’s relevant as Billy has multiple ways to Dodge. It is also the one bonus that has a cooldown associated with it, at 0.5s, so multi-hit attacks often won’t help build extra gauge.\n As for his Additional Ability, it demands Stun , Defence or Support Agents in the team, and it builds a stack of “ Starlight ” whenever the Cool Wheelie EX, Chain Attack, Ultimate or his regular Basic 4 hits an enemy, capped at 2.\n Each stack increases Billy’s Chain Attack, Ultimate and all EX Special damage by 20%, for 40% total. This functions as a buff with a 45s duration, so it doesn’t need much thought to maintain it.\n Basic\n Billy has 2 Basics, the aforementioned Full-Throttle Starlight enhanced Basic and a regular string, being “Knight’s Technique”.\n The enhanced Basic is split into a bike ride section first and a bike exhaust beam second. The first is slightly stronger than the second, which can influence how it's integrated into combos, as it has a very long animation - well over 3 seconds in total.\n This is made up by its strong damage, and given it only costs Determination, is used often.\n The regular Basic has low multipliers, but comes with slight healing on all its hits. As other healing skills are dependent on either enemy behaviour (Perfect Dodges) or resources (Adrenaline), it’s an accessible filler string if needing to recover.\n It also has a unique property where it will half the HP cost of the Drive Suppression Special, which can be situationally useful.\n Special\n Most of Billy’s kit revolves around his different Specials, of which he has 5.\n 2 of which come in a pair: the Drive Suppression Special costs 16% Max HP to use, and it’s both slow and weak. It can function as a gap closer, but the real reason to use it (besides refreshing the Core Passive buff) is that it will automatically lead to the Cool Wheelie EX once it ends.\n It also has a parry property, where if Billy is hit while in Drive Suppression, he will block the enemy, build an extra 5 Determination, and transition into the Cool Wheelie EX immediately.\n Not only is this used for Billy’s Additional Ability buff, it also deals surprisingly good damage and builds a lot of Determination, more than 10 if it lands in full.\n As it’s an EX, it can also be used to sustain Yunkui Tales’ 4-piece buff, making it an integral part of how Billy plays. Getting as many Cool Wheelie EXs as HP allows out-of-stun to deal damage, build Determination and maintain buffs is ideal.\n The next set are the Adrenaline EXs. Pressing Special leads to Drive Suppression, but holding it when over 60 Adrenaline will go into “High-Traction Wheels”, a high damaging bike slam.\n Pressing or holding Special after the Cool Wheelie EX however, leads to “Rocking Footwork”, an alternate Adrenaline EX that’s a little slower, but also hits a little harder.\n Both of these skills will heal Billy a significant amount, but their primary purpose is in their high multipliers. Look to save up Billy’s Adrenaline for stun periods to unload these EXs during it for the most damage.\n The final Special is “Run Wild”. It’s used automatically after Cool Wheelie EX or if Billy is swapped out of Drive Suppression before it gets to it.\n There’s no particular use to it, being slow and weak, working as a sort of forced recovery to these skills. It can link to Billy’s regular Dodge Counter, but as its not done off a Perfect Dodge, yields no extra Determination or healing.\n Dodge\n Said Dodge Counter, Duel King, is rather unremarkable. It’s about average with its multipliers, but can be useful to quickly heal Billy, as it recovers far more HP than his Basics.\n It can also shortcut into Basic 4 after a Perfect Dodge, so between its own healing, that of Basic 4’s, and the lower HP consumption cost of the Drive Suppression Special that comes after, makes for an HP-positive string.\n There is also an alternate Dodge Counter: “Afterfire Spin”. Holding a directional input during the Drive Suppression Special will have Billy drift, and other than the slight movement, changes nothing about the skill: it still leads to Cool Wheelie EX and Run Wild if it ends early.\n The difference is that if Billy is hit while drifting, rather than getting a parry like normal, he’ll transition into this alternate Dodge Counter instead.\n While it regens no HP, it hits almost twice as hard as a regular Dodge Counter and has some respectable Determination build, so it's more efficient for resources than relying on the parry.\n It will then always link into the Cool Wheelie EX, so the only downside from doing it is the extra time that it takes for the skill to land, making it ideal in most circumstances.\n Doing Assist Counters off it can be easier than with regular Dodge Counters, but be aware that as Billy needs to be in Drive Suppression to get to it, needs to start far earlier.\n Separate from combat abilities, holding the Dodge button has Billy ride his motorcycle, being a unique dash that gives him faster movement.\n Assist\n Both Billy’s Defensive Assist and Assist Follow-Up work mostly as standard, but aside from weaving them in for Decibels and Daze, they also generate Determination.\n The Defensive Assist itself is especially useful, as the Determination is generated on hit . This means that multi-hit attacks where Billy parries multiple times in a single Defensive Assist will generate additional Determination as many times as he’s hit.\n Against aggressive enemies, this can be a good way to build up Determination without needing to keep Billy on-field at all times.\n While he has a Quick Assist, it’s rarely ever used, as if he is over 25% HP it’s automatically converted into a Drive Suppression Special with a 5 second cooldown.\n Chain & Ultimate\n Although Billy’s Chain Attack hits decently hard, it’s the weakest out of his burst skills (enhanced Basic, Adrenaline EXs, Ultimate) and isn’t particularly fast.\n It does, however, generate 19.5 Determination on use, making it an integral part of his combos. With it, it’s possible to get 2 enhanced Basics in a single stun window!\n As for his Ultimate, it’s a very slow, very flashy and very strong move. That’s all there is to it, best saved for combos for its high damage numbers.\n\n How to play\n Billy’s general gameplan can be summed up as:\n Look to get as many uses of the Cool Wheelie EX out of stun as possible for everything, be it damage, resources or buffs.\n\n Do the above ideally through parries on Drive Suppression or with the alternate Dodge Counter for even better results.\n\n As Drive Suppression consumes HP, make use of the regular Basic string and regular Dodge Counters to heal, with an occasional Special use after B4 to reduce its HP cost.\n\n Have as much Determination and Adrenaline filled when going into stun, then unload his enhanced Basic, Adrenaline EXs, Chains and Ultimates for the most damage.\n\n On top of the above, making use of Defensive Assists to pad out Determination alongside Decibels, as well as being aware of enemy invulnerability phases and Billy’s HP so as to not drop key buffs can be important.\n A standard combo for Billy would be:\n Basic Attack: High-Throttle Starlight\n\n Swap to another character to trigger a Chain Attack\n\n Chain to Billy\n\n EX Special: High-Traction Wheels\n\n Swap to another character to trigger a Chain Attack\n\n Chain to Billy\n\n Ultimate\n\n EX Special: High-Traction Wheels\n\n Basic Attack: High-Throttle Starlight\n\n The 2nd enhanced Basic’s exhaust beam would land out of stun, but the first part - which does more damage - should land in full.\n It’s unlikely that Billy will have all his resources up on every stun, in which case, being flexible with his skill use works best.\n While High-Traction Wheels is the default Adrenaline EX to fall back on, if there aren’t enough Decibels for an Ultimate, or not enough Adrenaline to fit in 2 EXs, using a Cool Wheelie for damage after his second Chain Attack, then cancelling its recovery with Ultimate can be better.\n Alternatively, linking into the alternate Adrenaline EX Rocking Footwork can be better if there won’t be time or Determination to get another enhanced Basic.\n Since Billy takes a long time to cast his enhanced Basic, it’s a good opportunity to swap to other characters to refresh buffs and debuffs - like a Support for Moonlight Lullaby or a Stunner for King of the Summit - and get back to him via a Quick Assist conversion to Drive Suppression to cut out recovery animations.\n Although he has the standard features of a Rupture unit, Billy has a varied kit that allows him to adapt to different situations, and it's in learning how to balance out his skill that one can master his gameplay.\n\n Build and teams\n\n Collaboration Disclaimer\n For ZZZ calculations we worked alongside Rivyn Elowen . Any other content such as comments on W-Engines, Disks, etc are our own.\n\n Best W-Engines\n The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n Team-buffed calculations\n The W-Engine calculations below are team-buffed calculations and here's the team we used for them:\n Dialyn + Yesterday Calls\n Lucia + Dreamlit Hearth\n 100.00%\n\n Starlight Rider Faceplate (S 1 )\n\n Billy's own Signature is, unsurprisingly, his best pick. As is the case for many Rupture Agents, there is a lack of good alternative picks, so its especially valuable as a result. It's a standard set of bonuses: an HP % mainstat, unconditional CRIT Rate and a stacking Sheer DMG buff, being all that Billy needs to be at his best.\n Usage: 85.1 %\n Shiyu Defense: 29145\n Deadly Assault: 29879\n\n 86.54%\n\n Qingming Birdcage (S 1 )\n\n There isn't much to say about Yixuan's Signature for Billy, other than it's an effective stat stick. Its high base ATK isn't as relevant - owing to how Rupture scales - but having 20% unconditional CRIT Rate goes a long way, especially when considering how loaded Billy is on CRIT DMG.\n Usage: 3.42 %\n Shiyu Defense: 27106\n Deadly Assault: 27008\n\n 84.10%\n\n Cauldron of Clarity (S 5 )\n\n Cauldron of Clarity is by far and away the best A-Rank option for Billy. It has an HP % mainstat, offers a valuable spread of buffs, and is very easy for Billy to maintain full uptime of, being barely worse than limited alternatives like Qingming Birdcage.\n Usage: 9.78 %\n Shiyu Defense: 27035\n Deadly Assault: 23784\n\n 80.97%\n\n Steel Cushion (S 1 )\n\n Despite it being an Attacker W-Engine, it's also a Standard S-Rank that has CRIT Rate as a mainstat, and that alone is enough to make it stand out above most other A-Rank picks.\n Usage: 0.06 %\n Shiyu Defense: 25317\n Deadly Assault: 0\n\n 80.31%\n\n Grill O'Wisp (S 5 )\n\n Billy can drain his own HP with Drive Suppression, but in practice, this isn't happening often during his combos. It is possible to use it before every Adrenaline EX, but considering Billy's long animations and the extra time that it'd take to do this, would effectively be exchanging CRIT Rate for Stun DMG Multiplier, as attacks would be spilling out of stun. An uptime of 50% has been assumed here, but this could be higher or lower depending on how it's managed for important burst skills, with the bulk of this W-Engine's value being from its HP % mainstat.\n Usage: 0.34 %\n Shiyu Defense: 26360\n Deadly Assault: 31268\n\n 76.55%\n\n Puzzle Sphere (S 5 )\n\n Puzzle Sphere's ATK % mainstat and the fact it boosts CRIT DMG - a stat Billy is already very saturated in - make it a generally bad option. As it is the craftable Rupture W-Engine however, it can work as a holdover until better options are acquired.\n Usage: 0.25 %\n Shiyu Defense: 26335\n Deadly Assault: 25094\n\n 75.39%\n\n Radiowave Journey (S 5 )\n\n Despite it's HP % mainstat, Radiowave Journey's actual buff value is severely lacking. As it builds on Chains and Ultimates, the first ones used are going to be low on the Sheer Force stacks, and even those that do get it, may not have full stacks either owing to the 12s duration, which is shorter than stuns after accounting for stun pauses and extensions. While saturation can change its ranking relative to Puzzle Sphere, it's unlikely to be much better, so benching this W-Engine and using another option is likely best.\n Usage: 0.19 %\n Shiyu Defense: 27219\n Deadly Assault: 22784\n\n Best Disk Drives Sets\n 100.00%\n\n Yunkui Tales ( 4 -PC)\n\n Yunkui Tales is the only real viable 4-piece set for Billy. It should be noted however, that as he's usually run into encounters with long phase transitions, there's a very real risk of this buff falling off, so be sure to use Cool Wheelies every so often to maintain it even during downtimes. The 2-piece is varied however: so long as Billy is capped out on CRIT Rate, the difference between CRIT DMG and DMG % is minimal, with HP % being a little worse but still a serviceable option.\n Best combined with your choice of 2-PC Set:\n 2P\n Woodpecker Electro\n\n (Recommended)\n 2P\n Branch & Blade Song\n\n 2P\n Fanged Metal\n\n White Water Ballad\n\n 2P\n Astral Voice\n\n Hormone Punk\n\n 2P\n Bunny in Wonderland\n\n Best Disk Drives Stats\n Disk 4\n CRIT Rate% = CRIT DMG% = HP%\n\n Disk 5\n Physical DMG% > HP%\n\n Disk 6\n HP%\n\n Substats: CRIT RATE > CRIT DMG = HP% > Flat HP > Flat ATK\n\n Best Endgame Stats (Level 60)\n SHEER FORCE: 2200+\n\n ATK: 1800 - 2000+\n\n HP: 18,000+\n\n DEF: 600+\n\n CRIT RATE: 90 - 100% (In combat; Including Disc Drive Bonus & Signature Weapon)\n\n CRIT DMG: 120 - 150%+\n\n Skill priority\n Chain Attack\n\n Special Attack\n\n Basic Attack\n\n Assist\n\n Dodge\n\n Video guides\n\n Teams & Synergy\n\n Synergy\n Below we list only the most important synergies for Billy - Starlight . The character can work with others if you know what to do and how to use them.\n\n Dialyn - Dialyn has about everything Billy could want: for one, both of them are Physical, so her Daze is always going to be most effective on the fights Billy is run in. Dialyn's Ultimate conversion synergises well given it's Billy's strongest skill, and as his attack animations are all very long, Dialyn's stun extension goes a long way to helping maximise value in combos. When that's coupled with her general buff value and the ability to push at least 4 stuns on almost every fight, Dialyn is by far and away the best pick.\n Lucia - As the de-facto Premium Rupture Support, she's going to be best for Billy. Her Ultimate healing can be marginally helpful, ensuring Billy isn't running out of HP for his Drive Suppression, but the real benefit on having Lucia on the team amounts to her high buff value.\n Ju Fufu Trigger Qingyi - All these 3 are serviceable Stunners, even if far behind in Dialyn when it comes to actual performance. Ju Fufu buffs Chain and Ultimate (which is especially desirable for Billy), Trigger has low commitment needs while offering a relatively undiluted buff with Stun DMG Multiplier, and Qingyi has said buff be even higher, but at the cost of more field time. All also have issues, with Ju Fufu's lacklustre Daze making 4 stuns on Billy's ideal bosses (Thrall & Defiler) unfeasible, Trigger is much the same - she can't use her Signature or Additional here - and Qingyi is cumbersome to use without sacrificing on Billy's resources. Still, all function and can sub in without issue if played around.\n Pan Yinhu - Pan is the best A-Rank supportive pick for Billy. Even when compared to other S-Rank limiteds, like Astra or Caesar, he's going to pull out ahead at baseline. Given that Billy tends to run in fights with many parries, Bunny in Wonderland is easy enough to keep up, and Pan's general buff value is decent given his accessibility.\n Teams\n Team #1\n\n Team #2\n\n Team #3\n\n For more Teams, check this video:\n\n Teams (Shiyu Defense)\n This section lists most popular teams featuring Billy - Starlight in the current phase of Shiyu Defense.\n Rank 24\n App. rate: 1.88 %\n Avg. time: 30083\n\n Rank 44\n App. rate: 0.64 %\n Avg. time: 30951\n\n Rank 79\n App. rate: 0.29 %\n Avg. time: 26717\n\n Rank 108\n App. rate: 0.15 %\n Avg. time: 27504\n\n Rank 127\n App. rate: 0.11 %\n Avg. time: 29630\n\n Rank 137\n App. rate: 0.1 %\n Avg. time: 26790\n\n Rank 144\n App. rate: 0.09 %\n Avg. time: 26744\n\n Rank 144\n App. rate: 0.09 %\n Avg. time: 29201\n\n Rank 188\n App. rate: 0.06 %\n Avg. time: 27592\n\n Rank 200\n App. rate: 0.05 %\n Avg. time: 25807\n\n Teams (Deadly Assault)\n This section lists most popular teams featuring Billy - Starlight in the current phase of Deadly Assault.\n Rank 19\n App. rate: 2.22 %\n Avg. score: 28137\n\n Rank 29\n App. rate: 1.14 %\n Avg. score: 34348\n\n Rank 73\n App. rate: 0.37 %\n Avg. score: 24623\n\n Rank 134\n App. rate: 0.12 %\n Avg. score: 22862\n\n Rank 156\n App. rate: 0.09 %\n Avg. score: 28526\n\n Rank 168\n App. rate: 0.08 %\n Avg. score: 22866\n\n Rank 175\n App. rate: 0.07 %\n Avg. score: 25079\n\n Rank 175\n App. rate: 0.07 %\n Avg. score: 23037\n\n Rank 175\n App. rate: 0.07 %\n Avg. score: 25336\n\n Rank 190\n App. rate: 0.06 %\n Avg. score: 22672"
 }

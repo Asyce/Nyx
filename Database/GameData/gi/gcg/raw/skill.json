@@ -1477,7 +1477,7 @@
   },
   "13172": {
     "name": "Binary Form: Convergence and Division",
-    "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT]."
+    "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT]. This character gains <color=#FFFFFFFF>$[C113175]</color>."
   },
   "13173": {
     "name": "Principle of Purity: As the Light Shifts",
@@ -1485,7 +1485,7 @@
   },
   "13174": {
     "name": "Principle of Darkness: As the Stars Smolder",
-    "desc": "$[D__KEY__DAMAGE]"
+    "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT] and creates <color=#FFFFFFFF>$[C113172]</color>."
   },
   "13175": {
     "name": "Light Manifest of the Divine Calculus",

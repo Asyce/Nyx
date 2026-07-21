@@ -1498,7 +1498,7 @@
   {
     "id": "2208",
     "name": "Hydro Hypostasis",
-    "title": "Hydro Hypostasis: He",
+    "title": "Hydro Hypostasis",
     "description": "Code Name: He. A high-purity Hydro entity. They have strong rejection properties, and will mercilessly expel any that test them.",
     "source": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with Hydro Hypostasis",
     "sourceUrl": "https://gi.nanoka.cc/gcg/2208",
@@ -6086,18 +6086,13 @@
     "details": {
       "talent": {
         "name": "Genesis of Starsigns",
-        "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1203]</color>, equip this card.\\nAfter $[A1203] equips this card, generate <color=#FFFFFFFF>$[C212033]</color> and immediately use <color=#FFD780FF>$[S12031]</color> once.\\nWhen <color=#FFFFFFFF>$[A1203]</color> uses a Normal Attack, spend 1 fewer <color=#FFFFFFFF>{SPRITE_PRESET#1109}Unaligned Element</color>. After the Normal Attack, generate <color=#FFFFFFFF>$[C212033]</color>.\\n(You must have $[A1203] in your deck to add this card to your deck.)",
+        "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1203]</color>, equip this card.\\nAfter $[A1203] equips this card, your next Vaporize Reaction deals +2 DMG and immediately use <color=#FFD780FF>$[S12031]</color> once.\\nWhen <color=#FFFFFFFF>$[A1203]</color> uses a Normal Attack, spend 1 fewer <color=#FFFFFFFF>{SPRITE_PRESET#1109}Unaligned Element</color>. After the Normal Attack, your next Vaporize Reaction deals +2 DMG.\\n(You must have $[A1203] in your deck to add this card to your deck.)",
         "child": {
           "k1": {
             "name": "<color=#FFFFFFFF>Combat Action</color>",
             "desc": "After you finish 1 Combat Action, it will be your opponent's turn.\\n<color=#FFFFFFFF>Playing a card from your Hand with this rule is also a Combat Action rather than a Fast Action</color>."
           },
           "a1203": "Genesis of Starsigns",
-          "c212033": {
-            "name": "Genesis of Starsigns (In Effect)",
-            "desc": "Your next Vaporize Reaction deals +2 DMG.",
-            "child": {}
-          },
           "s12031": "S12031"
         }
       },
@@ -7251,7 +7246,7 @@
     "details": {
       "talent": {
         "name": "Sparkborne Magic",
-        "desc": "$[K2]: Equip this to your <color=#FFFFFFFF>$[A1306]</color>.\\nAttach <color=#FFFFFFFF>$[C113061]</color> to $[A1306].\\n<color=#FFFFFFFF>When the attached character uses a $[K51]:</color> Attach 1 stack of <color=#FFFFFFFF>$[C210]</color>.\\n(You must have $[A1306] in your deck to add this card to your deck.)",
+        "desc": "$[K2]: Equip this to your <color=#FFFFFFFF>$[A1306]</color>.\\nAttach <color=#FFFFFFFF>$[C113061]</color> to $[A1306].\\n<color=#FFFFFFFF>When the attached character uses a $[K51]:</color> Deals 2 $[K103]. (Twice per Round)\\n(You must have $[A1306] in your deck to add this card to your deck.)",
         "child": {
           "k2": {
             "name": "<color=#FFFFFFFF>Fast Action</color>",
@@ -7280,10 +7275,9 @@
             "name": "<color=#FFFFFFFF>Charged Attack</color>",
             "desc": "Before your Action Phase, should the total number of your Elemental Dice be even, your Normal Attack will be considered a Charged Attack."
           },
-          "c210": {
-            "name": "RES",
-            "desc": "<color=#FFFFFFFF>When the character to which this is attached takes DMG:</color> Decrease DMG taken by 1. (Can stack, no stack limit)",
-            "child": {}
+          "k103": {
+            "name": "{SPRITE_PRESET#2103}<color=#FF9999FF>Pyro DMG</color>",
+            "desc": "Applies {SPRITE_PRESET#2103}Pyro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Melt</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Overloaded</color>: DMG +2 for this instance, the target is forcibly switched to the next character\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Burning</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Burning Flame</color>] that will deal 1 Pyro DMG at the end of the Round (Takes effect once, max 2 stacks)"
           }
         }
       },
@@ -7871,7 +7865,7 @@
     "details": {
       "talent": {
         "name": "Adamah's Redemption",
-        "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1317]</color>, equip this card.\\nAfter $[A1317] equips this card, immediately use <color=#FFD780FF>$[S13173]</color> or <color=#FFD780FF>$[S13174]</color> once based on the character's current Elemental Burst.\\n<color=#FFFFFFFF>When the character to which this is attached uses $[S13173]:</color> Your next 3 instances of DMG gain +1.\\n<color=#FFFFFFFF>When the character to which this is attached uses $[S13174]:</color> Your <color=#FFFFFFFF>$[A1317]</color> and <color=#FFFFFFFF>$[C113172]</color> deal +1 DMG.\\n(You must have $[A1317] in your deck to add this card to your deck.)",
+        "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1317]</color>, equip this card.\\nAfter $[A1317] equips this card, immediately use <color=#FFD780FF>$[S13173]</color> or <color=#FFD780FF>$[S13174]</color> once based on the character's current Elemental Burst.\\n<color=#FFFFFFFF>When the character to which this is attached uses $[S13173]:</color> Your next 4 instances of DMG gain +1.\\n<color=#FFFFFFFF>When the character to which this is attached uses $[S13174]:</color> Your <color=#FFFFFFFF>$[A1317]</color> and <color=#FFFFFFFF>$[C113172]</color> deal +2 DMG.\\n(You must have $[A1317] in your deck to add this card to your deck.)",
         "child": {
           "k1": {
             "name": "<color=#FFFFFFFF>Combat Action</color>",
@@ -8004,7 +7998,7 @@
     "details": {
       "talent": {
         "name": "Phantasmal Nocturne",
-        "desc": "$[K2]: Equip this to your <color=#FFFFFFFF>$[A1401]</color>.\\nSummon <color=#FFFFFFFF>$[C114011]</color>.\\nWhile <color=#FFFFFFFF>$[C114011]</color> is on the field, your $[K214] deals +1 DMG.\\n(You must have $[A1401] in your deck to add this card to your deck.)",
+        "desc": "$[K2]: Equip this to your <color=#FFFFFFFF>$[A1401]</color>.\\nSummon <color=#FFFFFFFF>$[C114011]</color>.\\nWhile <color=#FFFFFFFF>$[C114011]</color> is on the field, your $[K214] deals +1 DMG. (3 times per Round)\\n(You must have $[A1401] in your deck to add this card to your deck.)",
         "child": {
           "k2": {
             "name": "<color=#FFFFFFFF>Fast Action</color>",
@@ -12211,6 +12205,7 @@
     "localizedNames": {
       "en": "Treacherous Torrent",
       "zh": "诡谲恶浪",
+      "ja": "予測不能な荒波JP3A",
       "ko": "기이한 파도"
     },
     "type": "Action",
@@ -22948,7 +22943,7 @@
     "details": {
       "talent": {
         "name": "In Every House a Stove",
-        "desc": "<color=#FFFFFFFF>When this card is played in the first Round:</color> If your deck initially contains at least 2 different {SPRITE_PRESET#3006}Talent cards, draw 1 {SPRITE_PRESET#3006}Talent Card.\\n<color=#FFFFFFFF>When this card is played in the second Round or later:</color> Draw a number of cards equal to the <color=#FFFFFFFF>current Round number minus 1</color>. (Up to 4 cards can be drawn in this way)\\n(Only one {SPRITE_PRESET#3007}\"Arcane Legend\" card can be played per match. This card will be in your starting hand.)",
+        "desc": "<color=#FFFFFFFF>When this card is played in the first Round:</color> If your deck initially contains at least 4/2 different {SPRITE_PRESET#3006}Talent cards, draw 2/1 {SPRITE_PRESET#3006}Talent Card.\\n<color=#FFFFFFFF>When this card is played in the second Round or later:</color> Draw a number of cards equal to the <color=#FFFFFFFF>current Round number minus 1</color>. (Up to 4 cards can be drawn in this way)\\n(Only one {SPRITE_PRESET#3007}\"Arcane Legend\" card can be played per match. This card will be in your starting hand.)",
         "child": {}
       },
       "related": null
@@ -27378,7 +27373,7 @@
     "details": {
       "talent": {
         "name": "Witch's Homework",
-        "desc": "Draw 1 {SPRITE_PRESET#3006} Talent card. If your deck initially contains at least 3 {SPRITE_PRESET#3006} Talent cards, grant $[K3005] to the {SPRITE_PRESET#3006} Talent card with the highest <color=#FFFFFFFF>$[K3002]</color> in your Hand.",
+        "desc": "Draw 1 {SPRITE_PRESET#3006} Talent card. If your deck initially contains at least 3 {SPRITE_PRESET#3006} Talent cards, grant $[K3005] to a random {SPRITE_PRESET#3006} Talent card with the highest <color=#FFFFFFFF>$[K3002]</color> in your Hand.",
         "child": {
           "k3005": {
             "name": "<color=#FFFFFFFF>Cost Reduction</color>",
@@ -27405,6 +27400,7 @@
     "localizedNames": {
       "en": "Feasting in a Shared Toast",
       "zh": "齐聚共饮",
+      "ja": "集いて杯を交わすJP3A",
       "ko": "소모임"
     },
     "type": "Action",

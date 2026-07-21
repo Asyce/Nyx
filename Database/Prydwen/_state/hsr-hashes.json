@@ -1,9 +1,9 @@
 {
   "game": "hsr",
-  "updatedAt": "2026-07-18T07:14:17.186Z",
+  "updatedAt": "2026-07-21T07:45:45.514Z",
   "hashes": {
     "records": {
-      "characters:acheron": "78f4beb2acf5afe2ff76b5488b9ad31ea7edb941de5864118831ddc37c477d8b",
+      "characters:acheron": "345728d4167f11b7b2c92a7145d582e94ec9f7e35afb3f278806bf62629a2fcf",
       "characters:aglaea": "a0f94ad36f0c2e0faefbddacde57b8453992b0a5cec718ffc0c32e653d44cb26",
       "characters:anaxa": "c4dd3d927450ef7d3eb61107c5a5043ac508dd6a966927a2dbf0abdad17a4783",
       "characters:archer": "012d913b0c2d3c7a0bf8b36d173199b40f7ef12bcf83a95f9bd6b393e4ad755c",
@@ -62,7 +62,7 @@
       "characters:natasha": "6dbe49c648c7f9112d7590829079ac13e2764976ab75c051e5cd87d80d241995",
       "characters:pela": "e2bba5a56ae1d667db4e95bbc2b34bacbb1136515e08176e09b8e34996544605",
       "characters:phainon": "4c87cc6754c7204bdcd78358ea9b69aae6a650825460c0ea0b344b503ec31c5a",
-      "characters:qingque": "3c6adba2dcff6a7f3f2f84d97044199215a495cfdb568ef918d826c8d3dd51b9",
+      "characters:qingque": "534bd3a9def0379605d7fcf6d8ac67b3bf64f06b8437dbc39d33374fdfc53328",
       "characters:rappa": "35b5173e8907e51dab5da833b0bf2e9423a29962b2d5f838e950519ad3cab387",
       "characters:rin-tohsaka": "08e4a50893f19116b5ab805207630f16a865c0fd4d6e2e79d421d1b01c43f000",
       "characters:robin": "11f578de8dec5b5668edb96bc3b158762d4106cf210a20b07ef5a3fec38e34a2",

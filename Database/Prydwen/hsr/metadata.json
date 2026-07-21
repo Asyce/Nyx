@@ -2,7 +2,7 @@
   "provider": "Prydwen",
   "game": "hsr",
   "gameName": "Honkai: Star Rail",
-  "scrapedAt": "2026-07-18T07:14:17.186Z",
+  "scrapedAt": "2026-07-21T07:45:45.514Z",
   "sample": null,
   "source": {
     "site": "prydwen.gg",
@@ -25,8 +25,8 @@
   },
   "assets": {
     "requested": 723,
-    "downloaded": 2,
-    "cached": 721,
+    "downloaded": 0,
+    "cached": 723,
     "missing": 0
   },
   "errors": [],

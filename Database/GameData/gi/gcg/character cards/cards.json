@@ -5542,10 +5542,29 @@
         },
         "13172": {
           "name": "Binary Form: Convergence and Division",
-          "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
+          "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT]. This character gains <color=#FFFFFFFF>$[C113175]</color>.",
           "child": {
             "d_key_damage": 3,
-            "d_key_element": "GCG_ELEMENT_PYRO"
+            "d_key_element": "GCG_ELEMENT_PYRO",
+            "c113175": {
+              "name": "Essential Transmutation",
+              "desc": "<color=#FFFFFFFF>When the attached character uses a Normal Attack:</color> Deals 2 $[K103].\\n<color=#FFFFFFFF>When the attached character uses an Elemental Skill:</color> Generate 1 stack of <color=#FFFFFFFF>$[C169]</color>.\\n<color=#FFFFFFFF>$[K3]: 3</color> (Can stack)",
+              "child": {
+                "k103": {
+                  "name": "{SPRITE_PRESET#2103}<color=#FF9999FF>Pyro DMG</color>",
+                  "desc": "Applies {SPRITE_PRESET#2103}Pyro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Melt</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Overloaded</color>: DMG +2 for this instance, the target is forcibly switched to the next character\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Burning</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Burning Flame</color>] that will deal 1 Pyro DMG at the end of the Round (Takes effect once, max 2 stacks)"
+                },
+                "c169": {
+                  "name": "Efficient Switch",
+                  "desc": "<color=#FFFFFFFF>The next time you perform \"Switch Character\":</color> Spend 1 fewer Elemental Die. (Can stack, no stack limit)",
+                  "child": {}
+                },
+                "k3": {
+                  "name": "<color=#FFFFFFFF>Usage(s)</color>",
+                  "desc": "After this card's effect is triggered, 1 <color=#FFFFFFFF>Usage</color> of it will be consumed.\\nThis card will be discarded immediately once it has 0 <color=#FFFFFFFF>Usages</color> remaining."
+                }
+              }
+            }
           },
           "tag": "GCG_SKILL_TAG_E",
           "cost": {
@@ -5560,7 +5579,7 @@
             "d_key_element": "GCG_ELEMENT_PYRO",
             "c113171": {
               "name": "Confirmation of Purity",
-              "desc": "<color=#FFFFFFFF>After your characters take action:</color> Deal 1 $[K103].\\n<color=#FFFFFFFF>$[K3]: 3</color>",
+              "desc": "<color=#FFFFFFFF>After your character uses a Skill:</color> Deal 1 $[K103].\\n<color=#FFFFFFFF>$[K3]: 4</color>",
               "child": {
                 "k103": {
                   "name": "{SPRITE_PRESET#2103}<color=#FF9999FF>Pyro DMG</color>",

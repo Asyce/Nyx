@@ -11,7 +11,7 @@
   "sourcePath": "/zenless/characters/lycaon",
   "contentStatus": "live",
   "statusLabels": [],
-  "scrapedAt": "2026-07-18T07:14:17.186Z",
+  "scrapedAt": "2026-07-21T07:45:45.514Z",
   "updatedText": "17/July/2026",
   "meta": {
     "title": "Lycaon Best Build Guide | Zenless Zone Zero",
@@ -465,32 +465,22 @@
       "height": 60
     },
     {
+      "id": "5887e20e4502",
+      "sourceHash": "5887e20e4502",
+      "kind": "characters",
+      "name": "Ye Shunguang",
+      "fileStem": "ye-shunguang",
+      "path": "Prydwen/zzz/assets/characters/ye-shunguang-5887e20e4502.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
       "id": "05437fe51e49",
       "sourceHash": "05437fe51e49",
       "kind": "characters",
       "name": "Lycaon",
       "fileStem": "lycaon",
       "path": "Prydwen/zzz/assets/characters/lycaon-05437fe51e49.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "118e26488ea7",
-      "sourceHash": "118e26488ea7",
-      "kind": "characters",
-      "name": "Lighter",
-      "fileStem": "lighter",
-      "path": "Prydwen/zzz/assets/characters/lighter-118e26488ea7.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "08a137fda00f",
-      "sourceHash": "08a137fda00f",
-      "kind": "characters",
-      "name": "Pyrois",
-      "fileStem": "pyrois",
-      "path": "Prydwen/zzz/assets/characters/pyrois-08a137fda00f.webp",
       "width": 60,
       "height": 60
     },
@@ -505,12 +495,42 @@
       "height": 60
     },
     {
+      "id": "53300a2a5c70",
+      "sourceHash": "53300a2a5c70",
+      "kind": "characters",
+      "name": "Yixuan",
+      "fileStem": "yixuan",
+      "path": "Prydwen/zzz/assets/characters/yixuan-53300a2a5c70.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
       "id": "db3a1e63185e",
       "sourceHash": "db3a1e63185e",
       "kind": "characters",
       "name": "Aria",
       "fileStem": "aria",
       "path": "Prydwen/zzz/assets/characters/aria-db3a1e63185e.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "08a137fda00f",
+      "sourceHash": "08a137fda00f",
+      "kind": "characters",
+      "name": "Pyrois",
+      "fileStem": "pyrois",
+      "path": "Prydwen/zzz/assets/characters/pyrois-08a137fda00f.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "118e26488ea7",
+      "sourceHash": "118e26488ea7",
+      "kind": "characters",
+      "name": "Lighter",
+      "fileStem": "lighter",
+      "path": "Prydwen/zzz/assets/characters/lighter-118e26488ea7.webp",
       "width": 60,
       "height": 60
     },
@@ -525,42 +545,12 @@
       "height": 60
     },
     {
-      "id": "53300a2a5c70",
-      "sourceHash": "53300a2a5c70",
+      "id": "5b1302d794ba",
+      "sourceHash": "5b1302d794ba",
       "kind": "characters",
-      "name": "Yixuan",
-      "fileStem": "yixuan",
-      "path": "Prydwen/zzz/assets/characters/yixuan-53300a2a5c70.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "5887e20e4502",
-      "sourceHash": "5887e20e4502",
-      "kind": "characters",
-      "name": "Ye Shunguang",
-      "fileStem": "ye-shunguang",
-      "path": "Prydwen/zzz/assets/characters/ye-shunguang-5887e20e4502.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "d632251522d1",
-      "sourceHash": "d632251522d1",
-      "kind": "characters",
-      "name": "Billy - Starlight",
-      "fileStem": "billy-starlight",
-      "path": "Prydwen/zzz/assets/characters/billy-starlight-d632251522d1.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "f34fb0a851f4",
-      "sourceHash": "f34fb0a851f4",
-      "kind": "characters",
-      "name": "Pan Yinhu",
-      "fileStem": "pan-yinhu",
-      "path": "Prydwen/zzz/assets/characters/pan-yinhu-f34fb0a851f4.webp",
+      "name": "Dialyn",
+      "fileStem": "dialyn",
+      "path": "Prydwen/zzz/assets/characters/dialyn-5b1302d794ba.webp",
       "width": 60,
       "height": 60
     }
@@ -988,7 +978,7 @@
       "id": "team-buffed-calculations-32",
       "level": 5,
       "heading": "Team-buffed calculations",
-      "text": "The W-Engine calculations below are team-buffed calculations and here's the team we used for them:\n Yidhari + Kraken's Cradle\n Lucia + Dreamlit Hearth\n 118.56%\n\n Blazing Laurel (S 1 )\n\n Blazing Laurel is the de facto best option for Lycaon. It has a ridiculous amount of Impact % bonuses and can be activated on Defensive Assists, which leads to Assist Follow-Ups that are among Lycaon's main source of Daze application. The buffs from it are among the strongest for Fire and Ice teams and easy enough to upkeep, especially with Potentials active as Encircle Prey's Basic Attacks count for it.\n Usage: 3.22 %\n Shiyu Defense: 27804\n Deadly Assault: 28574\n\n 115.85%\n 101.41%\n\n Precious Fossilized Core (S 5 )\n\n As far as Daze goes, Fossilized Core is among the best, all the while being a highly accessible option. It's all that it offers, but it offers plenty of it, being especially strong early in fights, helping meet stun breakpoints. Note that performance will vary based on score, with the Top Value representing its output for enemies above 75% HP and the Bottom Value averaged for those below it.\n Usage: 12.3 %\n Shiyu Defense: 28158\n Deadly Assault: 23344\n\n 108.39%\n\n Steam Oven (S 5 )\n\n Steam Oven requires more active Energy management by players to get full Daze value out of it, and even then it can fall behind other options, but the Energy Regen it provides is very helpful. EX Specials are useful for King of the Summit upkeep, are one of Lycaon's primary sources of Daze, Anomaly and Decibel generation. Steam Oven is the most effective W-Engine to sustain constant EX Special uses, making it the best non-limited option in most circumstances if used properly.\n Usage: 23.35 %\n Shiyu Defense: 28655\n Deadly Assault: 25203\n\n 102.98%\n\n Hellfire Gears (S 1 )\n\n Hellfire Gears offers competitive Impact gains, and as Lycaon has the option to spend only 40 Energy per EX Special, it's easier for him than most to maintain its stacks. Unfortunately, when his Potential is in play, Encircle Prey counts as being \"on-field\", meaning that its Energy Regen effects do not contribute much. It's an option if Daze is required late in fights where Fossilized Core isn't enough, but it will often fall behind Steam Oven in both Daze and sustain.\n Usage: 16.41 %\n Shiyu Defense: 28116\n Deadly Assault: 25173\n\n 100.00%\n\n The Restrained (S 1 )\n\n Lycaon's Signature, The Restrained, is surprisingly a terrible option for him. The majority of Lycaon's Daze comes from Defensive Assists, Assist Follow-Ups and EX Specials, none of which benefit from its Daze increase. The stack duration is short and calculated separately, making it difficult to maintain full uptime of it, even with Encircle Prey easing this requirement. Almost any other Stunner W-Engine will be better for Daze and/or resources, making this a suboptimal pick that is best avoided.\n Usage: 40.53 %\n Shiyu Defense: 27325\n Deadly Assault: 23309",
+      "text": "The W-Engine calculations below are team-buffed calculations and here's the team we used for them:\n Yidhari + Kraken's Cradle\n Lucia + Dreamlit Hearth\n 118.56%\n\n Blazing Laurel (S 1 )\n\n Blazing Laurel is the de facto best option for Lycaon. It has a ridiculous amount of Impact % bonuses and can be activated on Defensive Assists, which leads to Assist Follow-Ups that are among Lycaon's main source of Daze application. The buffs from it are among the strongest for Fire and Ice teams and easy enough to upkeep, especially with Potentials active as Encircle Prey's Basic Attacks count for it.\n Usage: 3.24 %\n Shiyu Defense: 28431\n Deadly Assault: 29558\n\n 115.85%\n 101.41%\n\n Precious Fossilized Core (S 5 )\n\n As far as Daze goes, Fossilized Core is among the best, all the while being a highly accessible option. It's all that it offers, but it offers plenty of it, being especially strong early in fights, helping meet stun breakpoints. Note that performance will vary based on score, with the Top Value representing its output for enemies above 75% HP and the Bottom Value averaged for those below it.\n Usage: 12.25 %\n Shiyu Defense: 26699\n Deadly Assault: 26215\n\n 108.39%\n\n Steam Oven (S 5 )\n\n Steam Oven requires more active Energy management by players to get full Daze value out of it, and even then it can fall behind other options, but the Energy Regen it provides is very helpful. EX Specials are useful for King of the Summit upkeep, are one of Lycaon's primary sources of Daze, Anomaly and Decibel generation. Steam Oven is the most effective W-Engine to sustain constant EX Special uses, making it the best non-limited option in most circumstances if used properly.\n Usage: 22.63 %\n Shiyu Defense: 28026\n Deadly Assault: 23838\n\n 102.98%\n\n Hellfire Gears (S 1 )\n\n Hellfire Gears offers competitive Impact gains, and as Lycaon has the option to spend only 40 Energy per EX Special, it's easier for him than most to maintain its stacks. Unfortunately, when his Potential is in play, Encircle Prey counts as being \"on-field\", meaning that its Energy Regen effects do not contribute much. It's an option if Daze is required late in fights where Fossilized Core isn't enough, but it will often fall behind Steam Oven in both Daze and sustain.\n Usage: 17.91 %\n Shiyu Defense: 26399\n Deadly Assault: 25791\n\n 100.00%\n\n The Restrained (S 1 )\n\n Lycaon's Signature, The Restrained, is surprisingly a terrible option for him. The majority of Lycaon's Daze comes from Defensive Assists, Assist Follow-Ups and EX Specials, none of which benefit from its Daze increase. The stack duration is short and calculated separately, making it difficult to maintain full uptime of it, even with Encircle Prey easing this requirement. Almost any other Stunner W-Engine will be better for Daze and/or resources, making this a suboptimal pick that is best avoided.\n Usage: 39.2 %\n Shiyu Defense: 27210\n Deadly Assault: 23739",
       "assets": [
         {
           "id": "3f97af69c631",
@@ -1311,15 +1301,15 @@
       "id": "teams-shiyu-defense-39",
       "level": 2,
       "heading": "Teams (Shiyu Defense)",
-      "text": "This section lists most popular teams featuring Lycaon in the current phase of Shiyu Defense.\n Rank 44\n App. rate: 0.71 %\n Avg. time: 27966\n\n Rank 48\n App. rate: 0.67 %\n Avg. time: 29134\n\n Rank 71\n App. rate: 0.34 %\n Avg. time: 28264\n\n Rank 79\n App. rate: 0.27 %\n Avg. time: 26342\n\n Rank 109\n App. rate: 0.14 %\n Avg. time: 28120\n\n Rank 116\n App. rate: 0.13 %\n Avg. time: 0\n\n Rank 148\n App. rate: 0.08 %\n Avg. time: 29723\n\n Rank 158\n App. rate: 0.07 %\n Avg. time: 28535\n\n Rank 191\n App. rate: 0.05 %\n Avg. time: 26598\n\n Rank 209\n App. rate: 0.04 %\n Avg. time: 25424",
+      "text": "This section lists most popular teams featuring Lycaon in the current phase of Shiyu Defense.\n Rank 108\n App. rate: 0.15 %\n Avg. time: 28507\n\n Rank 114\n App. rate: 0.14 %\n Avg. time: 26468\n\n Rank 144\n App. rate: 0.09 %\n Avg. time: 27639\n\n Rank 158\n App. rate: 0.08 %\n Avg. time: 26696\n\n Rank 220\n App. rate: 0.04 %\n Avg. time: 26835\n\n Rank 220\n App. rate: 0.04 %\n Avg. time: 25748\n\n Rank 257\n App. rate: 0.03 %\n Avg. time: 29167\n\n Rank 311\n App. rate: 0.02 %\n Avg. time: 25963",
       "assets": [
         {
-          "id": "bf8821af9328",
-          "sourceHash": "bf8821af9328",
+          "id": "5887e20e4502",
+          "sourceHash": "5887e20e4502",
           "kind": "characters",
-          "name": "Miyabi",
-          "fileStem": "miyabi",
-          "path": "Prydwen/zzz/assets/characters/miyabi-bf8821af9328.webp",
+          "name": "Ye Shunguang",
+          "fileStem": "ye-shunguang",
+          "path": "Prydwen/zzz/assets/characters/ye-shunguang-5887e20e4502.webp",
           "width": 60,
           "height": 60
         },
@@ -1334,12 +1324,12 @@
           "height": 60
         },
         {
-          "id": "5bb6938af9bb",
-          "sourceHash": "5bb6938af9bb",
+          "id": "e8a1e5a4346f",
+          "sourceHash": "e8a1e5a4346f",
           "kind": "characters",
-          "name": "Soukaku",
-          "fileStem": "soukaku",
-          "path": "Prydwen/zzz/assets/characters/soukaku-5bb6938af9bb.webp",
+          "name": "Zhao",
+          "fileStem": "zhao",
+          "path": "Prydwen/zzz/assets/characters/zhao-e8a1e5a4346f.webp",
           "width": 60,
           "height": 60
         },
@@ -1364,6 +1354,84 @@
           "height": 60
         },
         {
+          "id": "bf8821af9328",
+          "sourceHash": "bf8821af9328",
+          "kind": "characters",
+          "name": "Miyabi",
+          "fileStem": "miyabi",
+          "path": "Prydwen/zzz/assets/characters/miyabi-bf8821af9328.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "5bb6938af9bb",
+          "sourceHash": "5bb6938af9bb",
+          "kind": "characters",
+          "name": "Soukaku",
+          "fileStem": "soukaku",
+          "path": "Prydwen/zzz/assets/characters/soukaku-5bb6938af9bb.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "53300a2a5c70",
+          "sourceHash": "53300a2a5c70",
+          "kind": "characters",
+          "name": "Yixuan",
+          "fileStem": "yixuan",
+          "path": "Prydwen/zzz/assets/characters/yixuan-53300a2a5c70.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "98d8d659c143",
+          "sourceHash": "98d8d659c143",
+          "kind": "characters",
+          "name": "Astra Yao",
+          "fileStem": "astra-yao",
+          "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d2c1c9b40367",
+          "sourceHash": "d2c1c9b40367",
+          "kind": "characters",
+          "name": "Yuzuha",
+          "fileStem": "ukinami-yuzuha",
+          "path": "Prydwen/zzz/assets/characters/yuzuha-d2c1c9b40367.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "db3a1e63185e",
+          "sourceHash": "db3a1e63185e",
+          "kind": "characters",
+          "name": "Aria",
+          "fileStem": "aria",
+          "path": "Prydwen/zzz/assets/characters/aria-db3a1e63185e.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "08a137fda00f",
+          "sourceHash": "08a137fda00f",
+          "kind": "characters",
+          "name": "Pyrois",
+          "fileStem": "pyrois",
+          "path": "Prydwen/zzz/assets/characters/pyrois-08a137fda00f.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "teams-deadly-assault-40",
+      "level": 2,
+      "heading": "Teams (Deadly Assault)",
+      "text": "This section lists most popular teams featuring Lycaon in the current phase of Deadly Assault.\n Rank 53\n App. rate: 0.61 %\n Avg. score: 28312\n\n Rank 68\n App. rate: 0.42 %\n Avg. score: 27510\n\n Rank 86\n App. rate: 0.25 %\n Avg. score: 21142\n\n Rank 110\n App. rate: 0.16 %\n Avg. score: 24635\n\n Rank 156\n App. rate: 0.09 %\n Avg. score: 21948\n\n Rank 156\n App. rate: 0.09 %\n Avg. score: 24403\n\n Rank 175\n App. rate: 0.07 %\n Avg. score: 25211\n\n Rank 190\n App. rate: 0.06 %\n Avg. score: 21757\n\n Rank 190\n App. rate: 0.06 %\n Avg. score: 21692\n\n Rank 217\n App. rate: 0.05 %\n Avg. score: 23205",
+      "assets": [
+        {
           "id": "869098c4c1e5",
           "sourceHash": "869098c4c1e5",
           "kind": "characters",
@@ -1384,12 +1452,72 @@
           "height": 60
         },
         {
-          "id": "98d8d659c143",
-          "sourceHash": "98d8d659c143",
+          "id": "05437fe51e49",
+          "sourceHash": "05437fe51e49",
           "kind": "characters",
-          "name": "Astra Yao",
-          "fileStem": "astra-yao",
-          "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
+          "name": "Lycaon",
+          "fileStem": "lycaon",
+          "path": "Prydwen/zzz/assets/characters/lycaon-05437fe51e49.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "3f97af69c631",
+          "sourceHash": "3f97af69c631",
+          "kind": "characters",
+          "name": "Yidhari",
+          "fileStem": "yidhari",
+          "path": "Prydwen/zzz/assets/characters/yidhari-3f97af69c631.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "7557c8060dc2",
+          "sourceHash": "7557c8060dc2",
+          "kind": "characters",
+          "name": "Lucia",
+          "fileStem": "lucia",
+          "path": "Prydwen/zzz/assets/characters/lucia-7557c8060dc2.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "bf8821af9328",
+          "sourceHash": "bf8821af9328",
+          "kind": "characters",
+          "name": "Miyabi",
+          "fileStem": "miyabi",
+          "path": "Prydwen/zzz/assets/characters/miyabi-bf8821af9328.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "5bb6938af9bb",
+          "sourceHash": "5bb6938af9bb",
+          "kind": "characters",
+          "name": "Soukaku",
+          "fileStem": "soukaku",
+          "path": "Prydwen/zzz/assets/characters/soukaku-5bb6938af9bb.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "db3a1e63185e",
+          "sourceHash": "db3a1e63185e",
+          "kind": "characters",
+          "name": "Aria",
+          "fileStem": "aria",
+          "path": "Prydwen/zzz/assets/characters/aria-db3a1e63185e.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "1cdf4d671727",
+          "sourceHash": "1cdf4d671727",
+          "kind": "characters",
+          "name": "Sunna",
+          "fileStem": "sunna",
+          "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
           "width": 60,
           "height": 60
         },
@@ -1424,100 +1552,12 @@
           "height": 60
         },
         {
-          "id": "db3a1e63185e",
-          "sourceHash": "db3a1e63185e",
-          "kind": "characters",
-          "name": "Aria",
-          "fileStem": "aria",
-          "path": "Prydwen/zzz/assets/characters/aria-db3a1e63185e.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "1cdf4d671727",
-          "sourceHash": "1cdf4d671727",
-          "kind": "characters",
-          "name": "Sunna",
-          "fileStem": "sunna",
-          "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
           "id": "53300a2a5c70",
           "sourceHash": "53300a2a5c70",
           "kind": "characters",
           "name": "Yixuan",
           "fileStem": "yixuan",
           "path": "Prydwen/zzz/assets/characters/yixuan-53300a2a5c70.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "8c66cbf659f4",
-          "sourceHash": "8c66cbf659f4",
-          "kind": "characters",
-          "name": "Ellen",
-          "fileStem": "ellen",
-          "path": "Prydwen/zzz/assets/characters/ellen-8c66cbf659f4.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "5887e20e4502",
-          "sourceHash": "5887e20e4502",
-          "kind": "characters",
-          "name": "Ye Shunguang",
-          "fileStem": "ye-shunguang",
-          "path": "Prydwen/zzz/assets/characters/ye-shunguang-5887e20e4502.webp",
-          "width": 60,
-          "height": 60
-        }
-      ]
-    },
-    {
-      "id": "teams-deadly-assault-40",
-      "level": 2,
-      "heading": "Teams (Deadly Assault)",
-      "text": "This section lists most popular teams featuring Lycaon in the current phase of Deadly Assault.\n Rank 18\n App. rate: 2.45 %\n Avg. score: 25428\n\n Rank 69\n App. rate: 0.26 %\n Avg. score: 21948\n\n Rank 83\n App. rate: 0.19 %\n Avg. score: 26759\n\n Rank 83\n App. rate: 0.19 %\n Avg. score: 20709\n\n Rank 86\n App. rate: 0.17 %\n Avg. score: 0\n\n Rank 86\n App. rate: 0.17 %\n Avg. score: 24033\n\n Rank 97\n App. rate: 0.14 %\n Avg. score: 22120\n\n Rank 97\n App. rate: 0.14 %\n Avg. score: 21648\n\n Rank 118\n App. rate: 0.09 %\n Avg. score: 0\n\n Rank 118\n App. rate: 0.09 %\n Avg. score: 21836",
-      "assets": [
-        {
-          "id": "3f97af69c631",
-          "sourceHash": "3f97af69c631",
-          "kind": "characters",
-          "name": "Yidhari",
-          "fileStem": "yidhari",
-          "path": "Prydwen/zzz/assets/characters/yidhari-3f97af69c631.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "05437fe51e49",
-          "sourceHash": "05437fe51e49",
-          "kind": "characters",
-          "name": "Lycaon",
-          "fileStem": "lycaon",
-          "path": "Prydwen/zzz/assets/characters/lycaon-05437fe51e49.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "7557c8060dc2",
-          "sourceHash": "7557c8060dc2",
-          "kind": "characters",
-          "name": "Lucia",
-          "fileStem": "lucia",
-          "path": "Prydwen/zzz/assets/characters/lucia-7557c8060dc2.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "8c66cbf659f4",
-          "sourceHash": "8c66cbf659f4",
-          "kind": "characters",
-          "name": "Ellen",
-          "fileStem": "ellen",
-          "path": "Prydwen/zzz/assets/characters/ellen-8c66cbf659f4.webp",
           "width": 60,
           "height": 60
         },
@@ -1532,52 +1572,12 @@
           "height": 60
         },
         {
-          "id": "d632251522d1",
-          "sourceHash": "d632251522d1",
+          "id": "5b1302d794ba",
+          "sourceHash": "5b1302d794ba",
           "kind": "characters",
-          "name": "Billy - Starlight",
-          "fileStem": "billy-starlight",
-          "path": "Prydwen/zzz/assets/characters/billy-starlight-d632251522d1.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "bf8821af9328",
-          "sourceHash": "bf8821af9328",
-          "kind": "characters",
-          "name": "Miyabi",
-          "fileStem": "miyabi",
-          "path": "Prydwen/zzz/assets/characters/miyabi-bf8821af9328.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "08a137fda00f",
-          "sourceHash": "08a137fda00f",
-          "kind": "characters",
-          "name": "Pyrois",
-          "fileStem": "pyrois",
-          "path": "Prydwen/zzz/assets/characters/pyrois-08a137fda00f.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "e8a1e5a4346f",
-          "sourceHash": "e8a1e5a4346f",
-          "kind": "characters",
-          "name": "Zhao",
-          "fileStem": "zhao",
-          "path": "Prydwen/zzz/assets/characters/zhao-e8a1e5a4346f.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "53300a2a5c70",
-          "sourceHash": "53300a2a5c70",
-          "kind": "characters",
-          "name": "Yixuan",
-          "fileStem": "yixuan",
-          "path": "Prydwen/zzz/assets/characters/yixuan-53300a2a5c70.webp",
+          "name": "Dialyn",
+          "fileStem": "dialyn",
+          "path": "Prydwen/zzz/assets/characters/dialyn-5b1302d794ba.webp",
           "width": 60,
           "height": 60
         },
@@ -1588,16 +1588,6 @@
           "name": "Ye Shunguang",
           "fileStem": "ye-shunguang",
           "path": "Prydwen/zzz/assets/characters/ye-shunguang-5887e20e4502.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "f34fb0a851f4",
-          "sourceHash": "f34fb0a851f4",
-          "kind": "characters",
-          "name": "Pan Yinhu",
-          "fileStem": "pan-yinhu",
-          "path": "Prydwen/zzz/assets/characters/pan-yinhu-f34fb0a851f4.webp",
           "width": 60,
           "height": 60
         }
@@ -1873,15 +1863,15 @@
       "sections": [
         {
           "heading": "Teams (Shiyu Defense)",
-          "text": "This section lists most popular teams featuring Lycaon in the current phase of Shiyu Defense.\n Rank 44\n App. rate: 0.71 %\n Avg. time: 27966\n\n Rank 48\n App. rate: 0.67 %\n Avg. time: 29134\n\n Rank 71\n App. rate: 0.34 %\n Avg. time: 28264\n\n Rank 79\n App. rate: 0.27 %\n Avg. time: 26342\n\n Rank 109\n App. rate: 0.14 %\n Avg. time: 28120\n\n Rank 116\n App. rate: 0.13 %\n Avg. time: 0\n\n Rank 148\n App. rate: 0.08 %\n Avg. time: 29723\n\n Rank 158\n App. rate: 0.07 %\n Avg. time: 28535\n\n Rank 191\n App. rate: 0.05 %\n Avg. time: 26598\n\n Rank 209\n App. rate: 0.04 %\n Avg. time: 25424",
+          "text": "This section lists most popular teams featuring Lycaon in the current phase of Shiyu Defense.\n Rank 108\n App. rate: 0.15 %\n Avg. time: 28507\n\n Rank 114\n App. rate: 0.14 %\n Avg. time: 26468\n\n Rank 144\n App. rate: 0.09 %\n Avg. time: 27639\n\n Rank 158\n App. rate: 0.08 %\n Avg. time: 26696\n\n Rank 220\n App. rate: 0.04 %\n Avg. time: 26835\n\n Rank 220\n App. rate: 0.04 %\n Avg. time: 25748\n\n Rank 257\n App. rate: 0.03 %\n Avg. time: 29167\n\n Rank 311\n App. rate: 0.02 %\n Avg. time: 25963",
           "assets": [
             {
-              "id": "bf8821af9328",
-              "sourceHash": "bf8821af9328",
+              "id": "5887e20e4502",
+              "sourceHash": "5887e20e4502",
               "kind": "characters",
-              "name": "Miyabi",
-              "fileStem": "miyabi",
-              "path": "Prydwen/zzz/assets/characters/miyabi-bf8821af9328.webp",
+              "name": "Ye Shunguang",
+              "fileStem": "ye-shunguang",
+              "path": "Prydwen/zzz/assets/characters/ye-shunguang-5887e20e4502.webp",
               "width": 60,
               "height": 60
             },
@@ -1896,12 +1886,12 @@
               "height": 60
             },
             {
-              "id": "5bb6938af9bb",
-              "sourceHash": "5bb6938af9bb",
+              "id": "e8a1e5a4346f",
+              "sourceHash": "e8a1e5a4346f",
               "kind": "characters",
-              "name": "Soukaku",
-              "fileStem": "soukaku",
-              "path": "Prydwen/zzz/assets/characters/soukaku-5bb6938af9bb.webp",
+              "name": "Zhao",
+              "fileStem": "zhao",
+              "path": "Prydwen/zzz/assets/characters/zhao-e8a1e5a4346f.webp",
               "width": 60,
               "height": 60
             },
@@ -1926,6 +1916,82 @@
               "height": 60
             },
             {
+              "id": "bf8821af9328",
+              "sourceHash": "bf8821af9328",
+              "kind": "characters",
+              "name": "Miyabi",
+              "fileStem": "miyabi",
+              "path": "Prydwen/zzz/assets/characters/miyabi-bf8821af9328.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "5bb6938af9bb",
+              "sourceHash": "5bb6938af9bb",
+              "kind": "characters",
+              "name": "Soukaku",
+              "fileStem": "soukaku",
+              "path": "Prydwen/zzz/assets/characters/soukaku-5bb6938af9bb.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "53300a2a5c70",
+              "sourceHash": "53300a2a5c70",
+              "kind": "characters",
+              "name": "Yixuan",
+              "fileStem": "yixuan",
+              "path": "Prydwen/zzz/assets/characters/yixuan-53300a2a5c70.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "98d8d659c143",
+              "sourceHash": "98d8d659c143",
+              "kind": "characters",
+              "name": "Astra Yao",
+              "fileStem": "astra-yao",
+              "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "d2c1c9b40367",
+              "sourceHash": "d2c1c9b40367",
+              "kind": "characters",
+              "name": "Yuzuha",
+              "fileStem": "ukinami-yuzuha",
+              "path": "Prydwen/zzz/assets/characters/yuzuha-d2c1c9b40367.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "db3a1e63185e",
+              "sourceHash": "db3a1e63185e",
+              "kind": "characters",
+              "name": "Aria",
+              "fileStem": "aria",
+              "path": "Prydwen/zzz/assets/characters/aria-db3a1e63185e.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "08a137fda00f",
+              "sourceHash": "08a137fda00f",
+              "kind": "characters",
+              "name": "Pyrois",
+              "fileStem": "pyrois",
+              "path": "Prydwen/zzz/assets/characters/pyrois-08a137fda00f.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        },
+        {
+          "heading": "Teams (Deadly Assault)",
+          "text": "This section lists most popular teams featuring Lycaon in the current phase of Deadly Assault.\n Rank 53\n App. rate: 0.61 %\n Avg. score: 28312\n\n Rank 68\n App. rate: 0.42 %\n Avg. score: 27510\n\n Rank 86\n App. rate: 0.25 %\n Avg. score: 21142\n\n Rank 110\n App. rate: 0.16 %\n Avg. score: 24635\n\n Rank 156\n App. rate: 0.09 %\n Avg. score: 21948\n\n Rank 156\n App. rate: 0.09 %\n Avg. score: 24403\n\n Rank 175\n App. rate: 0.07 %\n Avg. score: 25211\n\n Rank 190\n App. rate: 0.06 %\n Avg. score: 21757\n\n Rank 190\n App. rate: 0.06 %\n Avg. score: 21692\n\n Rank 217\n App. rate: 0.05 %\n Avg. score: 23205",
+          "assets": [
+            {
               "id": "869098c4c1e5",
               "sourceHash": "869098c4c1e5",
               "kind": "characters",
@@ -1946,12 +2012,72 @@
               "height": 60
             },
             {
-              "id": "98d8d659c143",
-              "sourceHash": "98d8d659c143",
+              "id": "05437fe51e49",
+              "sourceHash": "05437fe51e49",
               "kind": "characters",
-              "name": "Astra Yao",
-              "fileStem": "astra-yao",
-              "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
+              "name": "Lycaon",
+              "fileStem": "lycaon",
+              "path": "Prydwen/zzz/assets/characters/lycaon-05437fe51e49.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "3f97af69c631",
+              "sourceHash": "3f97af69c631",
+              "kind": "characters",
+              "name": "Yidhari",
+              "fileStem": "yidhari",
+              "path": "Prydwen/zzz/assets/characters/yidhari-3f97af69c631.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "7557c8060dc2",
+              "sourceHash": "7557c8060dc2",
+              "kind": "characters",
+              "name": "Lucia",
+              "fileStem": "lucia",
+              "path": "Prydwen/zzz/assets/characters/lucia-7557c8060dc2.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "bf8821af9328",
+              "sourceHash": "bf8821af9328",
+              "kind": "characters",
+              "name": "Miyabi",
+              "fileStem": "miyabi",
+              "path": "Prydwen/zzz/assets/characters/miyabi-bf8821af9328.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "5bb6938af9bb",
+              "sourceHash": "5bb6938af9bb",
+              "kind": "characters",
+              "name": "Soukaku",
+              "fileStem": "soukaku",
+              "path": "Prydwen/zzz/assets/characters/soukaku-5bb6938af9bb.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "db3a1e63185e",
+              "sourceHash": "db3a1e63185e",
+              "kind": "characters",
+              "name": "Aria",
+              "fileStem": "aria",
+              "path": "Prydwen/zzz/assets/characters/aria-db3a1e63185e.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "1cdf4d671727",
+              "sourceHash": "1cdf4d671727",
+              "kind": "characters",
+              "name": "Sunna",
+              "fileStem": "sunna",
+              "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
               "width": 60,
               "height": 60
             },
@@ -1986,98 +2112,12 @@
               "height": 60
             },
             {
-              "id": "db3a1e63185e",
-              "sourceHash": "db3a1e63185e",
-              "kind": "characters",
-              "name": "Aria",
-              "fileStem": "aria",
-              "path": "Prydwen/zzz/assets/characters/aria-db3a1e63185e.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "1cdf4d671727",
-              "sourceHash": "1cdf4d671727",
-              "kind": "characters",
-              "name": "Sunna",
-              "fileStem": "sunna",
-              "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
               "id": "53300a2a5c70",
               "sourceHash": "53300a2a5c70",
               "kind": "characters",
               "name": "Yixuan",
               "fileStem": "yixuan",
               "path": "Prydwen/zzz/assets/characters/yixuan-53300a2a5c70.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "8c66cbf659f4",
-              "sourceHash": "8c66cbf659f4",
-              "kind": "characters",
-              "name": "Ellen",
-              "fileStem": "ellen",
-              "path": "Prydwen/zzz/assets/characters/ellen-8c66cbf659f4.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "5887e20e4502",
-              "sourceHash": "5887e20e4502",
-              "kind": "characters",
-              "name": "Ye Shunguang",
-              "fileStem": "ye-shunguang",
-              "path": "Prydwen/zzz/assets/characters/ye-shunguang-5887e20e4502.webp",
-              "width": 60,
-              "height": 60
-            }
-          ]
-        },
-        {
-          "heading": "Teams (Deadly Assault)",
-          "text": "This section lists most popular teams featuring Lycaon in the current phase of Deadly Assault.\n Rank 18\n App. rate: 2.45 %\n Avg. score: 25428\n\n Rank 69\n App. rate: 0.26 %\n Avg. score: 21948\n\n Rank 83\n App. rate: 0.19 %\n Avg. score: 26759\n\n Rank 83\n App. rate: 0.19 %\n Avg. score: 20709\n\n Rank 86\n App. rate: 0.17 %\n Avg. score: 0\n\n Rank 86\n App. rate: 0.17 %\n Avg. score: 24033\n\n Rank 97\n App. rate: 0.14 %\n Avg. score: 22120\n\n Rank 97\n App. rate: 0.14 %\n Avg. score: 21648\n\n Rank 118\n App. rate: 0.09 %\n Avg. score: 0\n\n Rank 118\n App. rate: 0.09 %\n Avg. score: 21836",
-          "assets": [
-            {
-              "id": "3f97af69c631",
-              "sourceHash": "3f97af69c631",
-              "kind": "characters",
-              "name": "Yidhari",
-              "fileStem": "yidhari",
-              "path": "Prydwen/zzz/assets/characters/yidhari-3f97af69c631.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "05437fe51e49",
-              "sourceHash": "05437fe51e49",
-              "kind": "characters",
-              "name": "Lycaon",
-              "fileStem": "lycaon",
-              "path": "Prydwen/zzz/assets/characters/lycaon-05437fe51e49.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "7557c8060dc2",
-              "sourceHash": "7557c8060dc2",
-              "kind": "characters",
-              "name": "Lucia",
-              "fileStem": "lucia",
-              "path": "Prydwen/zzz/assets/characters/lucia-7557c8060dc2.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "8c66cbf659f4",
-              "sourceHash": "8c66cbf659f4",
-              "kind": "characters",
-              "name": "Ellen",
-              "fileStem": "ellen",
-              "path": "Prydwen/zzz/assets/characters/ellen-8c66cbf659f4.webp",
               "width": 60,
               "height": 60
             },
@@ -2092,52 +2132,12 @@
               "height": 60
             },
             {
-              "id": "d632251522d1",
-              "sourceHash": "d632251522d1",
+              "id": "5b1302d794ba",
+              "sourceHash": "5b1302d794ba",
               "kind": "characters",
-              "name": "Billy - Starlight",
-              "fileStem": "billy-starlight",
-              "path": "Prydwen/zzz/assets/characters/billy-starlight-d632251522d1.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "bf8821af9328",
-              "sourceHash": "bf8821af9328",
-              "kind": "characters",
-              "name": "Miyabi",
-              "fileStem": "miyabi",
-              "path": "Prydwen/zzz/assets/characters/miyabi-bf8821af9328.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "08a137fda00f",
-              "sourceHash": "08a137fda00f",
-              "kind": "characters",
-              "name": "Pyrois",
-              "fileStem": "pyrois",
-              "path": "Prydwen/zzz/assets/characters/pyrois-08a137fda00f.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "e8a1e5a4346f",
-              "sourceHash": "e8a1e5a4346f",
-              "kind": "characters",
-              "name": "Zhao",
-              "fileStem": "zhao",
-              "path": "Prydwen/zzz/assets/characters/zhao-e8a1e5a4346f.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "53300a2a5c70",
-              "sourceHash": "53300a2a5c70",
-              "kind": "characters",
-              "name": "Yixuan",
-              "fileStem": "yixuan",
-              "path": "Prydwen/zzz/assets/characters/yixuan-53300a2a5c70.webp",
+              "name": "Dialyn",
+              "fileStem": "dialyn",
+              "path": "Prydwen/zzz/assets/characters/dialyn-5b1302d794ba.webp",
               "width": 60,
               "height": 60
             },
@@ -2150,16 +2150,6 @@
               "path": "Prydwen/zzz/assets/characters/ye-shunguang-5887e20e4502.webp",
               "width": 60,
               "height": 60
-            },
-            {
-              "id": "f34fb0a851f4",
-              "sourceHash": "f34fb0a851f4",
-              "kind": "characters",
-              "name": "Pan Yinhu",
-              "fileStem": "pan-yinhu",
-              "path": "Prydwen/zzz/assets/characters/pan-yinhu-f34fb0a851f4.webp",
-              "width": 60,
-              "height": 60
             }
           ]
         }
@@ -2167,5 +2157,5 @@
     }
   },
   "tables": [],
-  "text": "Lycaon Best Build Guide | Zenless Zone Zero\n \n\n Zenless Zone Zero\n Home Database Agents Bangboo W-Engines Disk Drives Banners\n Tier Lists Tier List\n Endgame Shiyu Defense Deadly Assault\n Resources Guides News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Zenless Zone Zero\n /\n Characters\n /\n Lycaon\n Lycaon Best Build Guide\n Last updated: 17/July/2026\n\n Introduction\n Best guide and build for Lycaon from ZZZ (Zenless Zone Zero). Lycaon is an rank character with the Ice attribute who belongs to the Stun Specialty and who is part of the Victoria Housekeeping Co. faction.\n Can resolve any matter. The most trusted of attendants, and solid support for any team. Rational and wise, a true gentleman who can't tolerate a single stain. Offers absolute loyalty to the one he decides to follow. Though outwardly sophisticated and rational, his innate feral character will reveal itself when faced with certain dangers.\n\n To learn more about Lycaon check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n Lycaon has at least one video guide available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 2.6\n\n Last build update\n Patch 2.6\n\n Last teams update\n Patch 2.6\n\n Last profile update*\n 17/July/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.\n\n Kit\n\n Review\n\n Build\n\n SD/DA Analytics\n\n Teams & Synergy\n\n Calculations\n\n To learn more about Lycaon check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile\n\n Core skills\n\n Core Passive Metallic Paws\n\n Lv. 1\n\n When Lycaon completes charging during a Basic Attack, or activates a Dodge Counter or Dash Attack, the Daze inflicted by the skill increases by 40% .\n When EX Special Attack: Thrill of the Hunt, Assist Follow-Up: Vengeful Counterattack, or Assist Follow-Up: Vengeful Counterattack - Glacial Waltz hits an enemy, the target's Ice RES is reduced by 25% , and it increases the DMG to the target from other attributes by 30% for 30s .\n Upon entering the battlefield, Lycaon gains one Encircle Prey activation chance.\n When Encircle Prey has available activations, hitting an enemy with Assist Follow-Up: Vengeful Counterattack - Glacial Waltz triggers the Quick Assist of the previous character in the squad. During this skill, when other squad members enter via Quick Assist, Lycaon enters the Encircle Prey state for 8s .\n When an elite or boss enemy becomes Stunned, 1 Encircle Prey activation chance is gained. Up to 1 Encircle Prey activation can be stored.\n When the Encircle Prey state ends, Lycaon automatically activates Assist Follow-Up: Vengeful Counterattack - Glacial Waltz. If the Encircle Prey state ends early, for every 1s of remaining duration, the Daze dealt by the next Assist Follow-Up: Vengeful Counterattack - Glacial Waltz increases by 6% .\n When the currently active character stops attacking or uses a Chain Attack or Ultimate, Lycaon will end the Encircle Prey state early.\nWhen Lycaon manually uses Assist Follow-Up: Vengeful Counterattack - Glacial Waltz, the Encircle Prey state also ends early, but Assist Follow-Up: Vengeful Counterattack - Glacial Waltz will not be automatically triggered.\n While the Encircle Prey state is active, Lycaon will activate Basic Attack, Dodge, Dash Attack, and Dodge Counter based on the skills used by the currently active character.\n When the currently active character uses a Basic Attack or EX Special Attack, Lycaon will simultaneously perform the 1st through 3rd hits of his Basic Attack.\n When the active character performs a Dodge or Dodge Counter, Lycaon will simultaneously perform a Dodge or Dodge Counter. After performing a Dodge Counter while in the Encircle Prey state, Lycaon can immediately follow up with the 3rd hit of his Basic Attack.\nWhile the Encircle Prey state is active, when Lycaon is not the currently active Agent, his attacks only deal DMG and Daze. While Lycaon is the currently active character, the Encircle Prey duration does not decrease.\n\n Impact 0\n BASE ATK: 0\n\n Additional Ability Elegant Predator\n\n When another character in your squad is an Anomaly character or shares the same Attribute or Faction:\n When Lycaon hits a Stunned enemy, the target's Stun DMG Multiplier increases by 35% .\n\n Potential\n Potential\n Potential Awakening: Glacial Rush\n\n Lv. 1\n\n At Potential level 1, the character unlocks all of their kit and gameplay changes, but has no Additional Ability stat enhancements.\n\n Skills\n Basic\n Dodge\n Assist\n Special\n Chain\n\n Basic Attack: Moon Hunter\n\n Press to activate.\nUnleashes up to 5 strikes in front, dealing Physical DMG.\nHold down to charge up, increasing the power of the attack and dealing Ice DMG.\n Multipliers\n\n Dodge: Suitable Positioning\n\n Press to dodge.\nA rapid dodge.\nCharacter is invulnerable while using this skill.\n\n Dash Attack: Keep it Clean\n\n Press during a dodge to activate.\nSlide forwards, launching a series of strikes in front, dealing Physical DMG.\n Multipliers\n\n Dodge Counter: Etiquette Manual\n\n Press during a Perfect Dodge to activate.\nStrikes enemies in front, dealing Ice DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Special Attack: Time to Hunt\n\n Press to activate.\nUnleashes a series of strikes in front, dealing Ice DMG.\nHold down to charge up, increasing its power.\nAnti-Interrupt level is increased while using this skill.\n Multipliers\n\n EX Special Attack: Thrill of the Hunt\n\n With enough energy, press to activate.\nUnleashes a series of powerful strikes in front, dealing massive Ice DMG.\nHold down to charge up, consuming Energy and enhancing the power of the attack.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Chain Attack: As You Wish\n\n When a Chain Attack is triggered, select the character to activate.\nUnleashes a series of powerful strikes at enemies in a small area in front of him, dealing massive Ice DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Ultimate: Mission Complete\n\n When Decibel Rating is at Maximum, press to activate.\nUnleashes multiple powerful strikes at enemies in a large area, dealing massive Ice DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Assist Follow-Up: Vengeful Counterattack\n\n Press after a Defensive Assist to activate.\nCreates an icicle in front, which strikes all enemies within range, dealing Ice DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Defensive Assist: Disrupted Hunt\n\n When the character on field is about to be attacked, press to activate.\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Quick Assist: Wolf Pack\n\n When the on-field character is launched, press to activate.\nStrikes enemies in front, dealing Ice DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Mindscapes\n M1\n Full Moon Momentum\n Mindscape 1\n\n When Lycaon's EX Special Attack hits an enemy, the attack's Daze increases by 12%. This effect can trigger once every 8s . When he charges his EX Special Attack to completion, this buff will increase by an additional 10%.\n\n M2\n Energy Feedback\n Mindscape 2\n\n When Stunning an enemy or triggering a squad member's Chain Attack, Lycaon gains 5 Energy. Can trigger once every 1s .\n\n M3\n Attendant Training\n Mindscape 3\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M4\n Graceful Demeanor\n Mindscape 4\n\n If Lycaon is attacked while using a Basic Attack or Special Attack, he will immediately gain a Shield effect equal to 7.5% of his max HP, lasting for 15s. During the Shield's duration, his Anti-Interrupt level is increased. This effect can trigger once every 15s .\n\n M5\n Alpha Nature\n Mindscape 5\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M6\n Ruthless Hunter\n Mindscape 6\n\n When a charged attack hits an enemy, the target suffers 10% increased DMG from Lycaon, stacking up to 5 times and lasting 12s . Only one stack can be gained per skill use, and repeated triggers reset the duration.\n\n Stats (Level 60)\n Lycaon Stats at level 60 (including Core passive bonuses).\n\n HP\n 8416\n\n DEF\n 606\n\n ATK\n 728\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 50 %\n\n PEN Ratio\n 0 %\n\n Impact\n 137\n\n Anomaly Mastery\n 91\n\n Anomaly Proficiency\n 90\n\n Energy Regen\n 1.2\n\n Voice Actors\n ENG\n -\n\n JPN\n Kobayashi Chikahiro (小林 親弘)\n\n CN\n Yuhang Wang (王宇航)\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Support\n T1\n Endgame Modes\n\n Pros & Cons\n Pros\n Very strong buff value, all the while having low EX Special costs (better enabling effects like King of the Summit) and strong Daze build.\n\n Demands surprisingly little field time to perform and can adjust to fit team needs.\n\n Standard Agent that’s easy to build and can work well with a variety of W-Engines, making him a strong and accessible pick.\n\n Best housekeeping service in all of New Eridu.\n\n Cons\n Only thrives in Ice teams, limiting his flexibility as a Stunner.\n\n Needs to be the one to initiate stuns, else he loses a significant portion of his value.\n\n Strictly a buff/daze unit only, with no additional effects (e.g. Ultimate conversions, Decibel bonuses, stun extensions) to support his value.\n\n Does not abide by child labor laws.\n\n Review\n Lycaon is an Ice Stun Agent who offers both competitive buffs and a significant amount of Daze build-up, being one of the best Stunner choices for Ice teams and - as of his Potential release - a decent alternative for all elements.\n His main focus in battle is to use Assist Follow-Ups and EX Specials to apply debuffs to enemies, then be the one to initiate Stuns for a strong Stun DMG Multiplier increase. With Encircle Prey , he can continue to build Daze even without being the active character, needing to be swapped to only occasionally so as to expend resources as needed.\n Core Passive & Additional Ability\n Holding Basic on Lycaon will charge it. This is explained in more detail in the Basic Attack section, but as part of his Core Passive, fully completing a charge can increase the Daze dealt from the attack by 80%. This same bonus also applies passively to Dodge Counters and Dash Attacks.\n This means that fully charging his Basics is always desirable, but this doesn’t need to be done manually, as when entering the battlefield, Lycaon gains an Encircle Prey stack. When using his enhanced Assist Follow-Up: Vengeful Counterattack - Glacial Waltz, this stack is consumed and Lycaon will trigger a reverse Quick Assist. If it’s used, after swapping he will remain on field , mirroring some of the active Agent’s attacks, dealing damage and Daze, but not building up Anomaly.\n When the currently active character uses a Basic Attack or EX Special, Lycaon will do the charged version of his Basics 1 through to 3. He will copy Dodges and even Dodge Counters, the latter of which links into the 3rd hit of his Basic Attack string.\n The Encircle Prey state lasts 8 seconds, and once it ends, Lycaon will automatically cast Glacial Waltz. Swapping to him will pause the timer, but certain skills will pre-emptively end the state:\n If the active character stops attacking for an extended period.\n\n If the active character activates a Chain Attack or Ultimate.\n\n If Lycaon uses Assist Follow-Up: Vengeful Counterattack - Glacial Waltz.\n\n The first 2 still lead to the automatic Glacial Waltz cast, but the last does not (as he is already using it manually). In situations where the state ends early, every second left will increase the Daze of the next Glacial Waltz by 6% to make up for the loss.\n Lycaon then recovers a stack of Encircle Prey when Elite or Boss-Rank enemies are stunned, allowing for 1 use every stun cycle.\n Working around Encircle Prey to maximise his Daze contribution is key, especially as with higher Potentials, his Basics, Dash Attacks and Dodge Counters get up to 15% increased Combat Impact when in the Encircle Prey state and not the active character.\n On top of all this, Lycaon’s Core Passive inflicts a debuff on enemies when hitting with his EX Special or either of his Assist Follow-Ups, they suffer 25% Ice RES Shred and take 30% more DMG from all attacks (regardless of element).\n His Additional Ability demands Anomaly, or same Attribute or Faction, and it causes stunned enemies hit by Lycaon to have a 35% increased Stun DMG Multiplier. This applies even if his Heavy Attack is what initiates stun, and in fact, doing so is important to maximise its uptime.\n Basic Attack:\n Lycaon only has one Basic Attack: Moon Hunter. This is a standard set of hits accessed by pressing his Basic button, but as mentioned previously, they can be charged.\n Normally this is a 5-hit Physical DMG string, doing pitiful damage and Daze, but when the Basic Attack button is held down, he will charge up and deal Ice DMG instead, going through hits 1 through to 3 in a single charge. Holding the button again will then charge his Basic 4, and lastly his Basic 5. which distinguishes itself from others by having 2 charge levels (indicated by the flashing gem in his prosthetics).\n Despite this having decent multipliers, the time to Daze ratio compared to other abilities makes it not worth using manually in most circumstances, with Encircle Prey being the primary way to access it.\n Note that Lycaon’s charged Basic 1 can apply and break Freezes, so it can be tricky to work around at times.\n Specials:\n Lycaon’s regular Special Attack: Time to Hunt, isn’t all that remarkable, but it is a very quick skill. This can make it useful to trigger Chain Attacks and trigger Freezes, as his Basics may break it pre-emptively.\n His EX Special Attack: Thrill of the Hunt however, is one of his primary ways to build Daze and Anomaly. It costs 40 Energy to activate, but holding down the Special button will charge it and consume 20 Energy to extend it, dealing just under 50% more damage and Daze.\n It isn’t always worth using the extension, as the lower Energy cost uses can be more efficient, but it can be useful to push for a bit of extra Daze needed if near stuns so that Lycaon can be the one to initiate it.\n As mentioned in his Core Passive, it can apply the Ice RES Shred and DMG Bonus debuffs on enemies when landing.\n Dodge:\n Dash Attacks - despite gaining Daze bonus from Lycaon’s Core Passive - are weak and best avoided, dealing Physical damage and having pitifully low Daze values.\n Dodge Counter however, is quite good. It also benefits from the bonus, but deals Ice DMG, has good multipliers and is very fast in activation, making it great for certain fights (like Wandering Hunter) and an effective way to initiate stun on red flash attacks.\n Assist:\n Assists are key to Lycaon’s kit, being one of his main sources of Daze and the method to enter Encircle Prey.\n Unlike most Agents, who use up 2 Assist Points per Defensive Assist against Elites and Bosses, Lycaon only uses up 1, making it much easier for him to generate Decibels and sustain Daze build through frequent Assist Follow-Ups, of which he has 2.\n The standard one is Assist Follow-Up: Vengeful Counterattack. It’s a remarkably fast skill and can be used during Encircle Prey without ending the state, making for an effective way to build Daze consistently.\n The enhanced one is Assist Follow-Up: Vengeful Counterattack - Glacial Waltz. This is not only the way to enter Encircle Prey, but it also builds nearly 50% more Daze than the standard Assist Follow-Up. It is best avoided while in Encircle Prey so as to not end the state pre-emptively, but when outside of it, using it is the most accessible way for Lycaon to build Daze and apply the Ice RES Shred and DMG Bonus debuffs on enemies from his Core Passive.\n Chain & Ultimate:\n As far as Chain Attacks go, Lycaon’s is decently fast but rarely worth using, with only niche scenarios (such as for single Chain Attack combos in Hugo teams) enabling it.\n His Ultimate is rather straightforward, being a quick and simple burst of Daze, but it’s noteworthy if only for having one of the highest single Daze multipliers in the entire game, with very few Agents (namely Qingyi) beating it. This means it’s a great way to speed through to stun quickly and will often initiate it, applying Lycaon’s Additional Ability.\n\n How to play\n Despite having the ability to charge his Basic Attacks, keeping Lycaon as the active character and manually using them tends to not be ideal. Considering how much Daze he can build with his Assist Follow-Ups, and how it is required to enter the Encircle Prey state and being the most accessible way to apply Lycaon’s RES Shred and DMG Bonus, it’s often ideal to sit on another character until an opportunity to parry presents itself.\n Assist Follow-Up: Vengeful Counterattack - Glacial Waltz can then be used to consume to Encircle Prey charge and enter the state, after which he can be swapped out of and continue to build Daze and attack enemies.\n If Daze and Decibels are needed, frequent parries back to Lycaon can be repeated - but make sure to not accidentally use the Glacial Waltz variant on Assist Follow-Ups unless ending Encircle Prey pre-emptively is needed.\n As Energy builds up, it’s often worth using Lycaon’s EX Special Attack: Thrill of the Hunt for Daze and even some Anomaly build-up, as aligning Freeze timings for stuns can make a difference. This is true even for non-Freezeable enemies, owing to the CRIT DMG taken effect from Frostbite.\n It’s not often good to charge Lycaon’s EX in full. Although its multipliers are proportional to the extra Energy cost, it’s not quite a 50% improvement and takes more time, so splitting up EX Specials across more uses tends to be better, while also having the added benefit of maintaining buffs (like King of the Summit).\n As Stun approaches, make sure to open stun with Lycaon in some way to get the Stun DMG Multiplier increase, ideally with his EX Special for King of the Summit alignment.\n Once Stun is over, a new Encircle Prey stack is built and the cycle repeats, with the occasional Ultimate use where needed. Note that Lycaon’s playstyle can change depending on the team, with characters like Miyabi, Hugo, Yidhari and others all having distinct adjustments to be made.\n This can be in more precise management of Ice Anomaly build-up (important, as Encircle Prey attacks do not build any), having more frequent bouts of taking centre stage as the active character to make up for teammates that aren’t well suited to it, or stick to the standard, quick-swap Stunner playstyle.\n So long as buffs/debuffs are maintained and stun breakpoints are met, Lycaon is a flexible unit that can adjust to the needs of the team.\n\n Build and teams\n\n Collaboration Disclaimer\n For ZZZ calculations we worked alongside Rivyn Elowen . Any other content such as comments on W-Engines, Disks, etc are our own.\n\n Best W-Engines\n The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n The top number shows the performance of the W-Engine when applying Daze while the bottom number when dealing Damage .\n Team-buffed calculations\n The W-Engine calculations below are team-buffed calculations and here's the team we used for them:\n Yidhari + Kraken's Cradle\n Lucia + Dreamlit Hearth\n 118.56%\n\n Blazing Laurel (S 1 )\n\n Blazing Laurel is the de facto best option for Lycaon. It has a ridiculous amount of Impact % bonuses and can be activated on Defensive Assists, which leads to Assist Follow-Ups that are among Lycaon's main source of Daze application. The buffs from it are among the strongest for Fire and Ice teams and easy enough to upkeep, especially with Potentials active as Encircle Prey's Basic Attacks count for it.\n Usage: 3.22 %\n Shiyu Defense: 27804\n Deadly Assault: 28574\n\n 115.85%\n 101.41%\n\n Precious Fossilized Core (S 5 )\n\n As far as Daze goes, Fossilized Core is among the best, all the while being a highly accessible option. It's all that it offers, but it offers plenty of it, being especially strong early in fights, helping meet stun breakpoints. Note that performance will vary based on score, with the Top Value representing its output for enemies above 75% HP and the Bottom Value averaged for those below it.\n Usage: 12.3 %\n Shiyu Defense: 28158\n Deadly Assault: 23344\n\n 108.39%\n\n Steam Oven (S 5 )\n\n Steam Oven requires more active Energy management by players to get full Daze value out of it, and even then it can fall behind other options, but the Energy Regen it provides is very helpful. EX Specials are useful for King of the Summit upkeep, are one of Lycaon's primary sources of Daze, Anomaly and Decibel generation. Steam Oven is the most effective W-Engine to sustain constant EX Special uses, making it the best non-limited option in most circumstances if used properly.\n Usage: 23.35 %\n Shiyu Defense: 28655\n Deadly Assault: 25203\n\n 102.98%\n\n Hellfire Gears (S 1 )\n\n Hellfire Gears offers competitive Impact gains, and as Lycaon has the option to spend only 40 Energy per EX Special, it's easier for him than most to maintain its stacks. Unfortunately, when his Potential is in play, Encircle Prey counts as being \"on-field\", meaning that its Energy Regen effects do not contribute much. It's an option if Daze is required late in fights where Fossilized Core isn't enough, but it will often fall behind Steam Oven in both Daze and sustain.\n Usage: 16.41 %\n Shiyu Defense: 28116\n Deadly Assault: 25173\n\n 100.00%\n\n The Restrained (S 1 )\n\n Lycaon's Signature, The Restrained, is surprisingly a terrible option for him. The majority of Lycaon's Daze comes from Defensive Assists, Assist Follow-Ups and EX Specials, none of which benefit from its Daze increase. The stack duration is short and calculated separately, making it difficult to maintain full uptime of it, even with Encircle Prey easing this requirement. Almost any other Stunner W-Engine will be better for Daze and/or resources, making this a suboptimal pick that is best avoided.\n Usage: 40.53 %\n Shiyu Defense: 27325\n Deadly Assault: 23309\n\n Best Disk Drives Sets\n 1\n\n King of the Summit ( 4 -PC)\n\n New best Stun set, to be used on any Stun character in almost any team with very few exceptions. Gives 6% increased Daze on the 2-piece and up to 30% CRIT DMG for the entire squad for 15s when casting EX Specials and Chain Attacks on the condition that the equipper has 50% CRIT Rate or higher, a requirement which is easy to meet but must be ensured. Uptime on this buff is almost always easily maintained permanently, however be mindful this set will not be effective if you aren’t building the rest of your team on CRIT, in which case alternatives will be preferred, and that you cannot run this set multiple times on the same team.\n Best combined with your choice of 2-PC Set:\n 2P\n Shockstar Disco\n\n (Recommended)\n 2P\n Swing Jazz\n\n Moonlight Lullaby\n\n 2\n\n Astral Voice ( 4 -PC)\n\n Best generalist Support set, providing a useful 10% ATK on the 2-piece but most importantly buffing DMG dealt by characters entering the field via Quick Assists by upwards of 24%, the biggest buff provided by Disc Drives in the game. Generally a must-have set on any team, but be mindful of ensuring uptime on the buff.\n Best combined with your choice of 2-PC Set:\n 2P\n King of the Summit\n\n (Recommended)\n 2P\n Shockstar Disco\n\n 2P\n Swing Jazz\n\n Moonlight Lullaby\n\n 3\n\n Proto Punk ( 4 -PC)\n\n Niche supportive set used for teams that are in the position of triggering Perfect Assists often. Grants the entire party 15% increased DMG for 10s when triggering a Perfect Assist. Typically used if an Astral Voice wielder is already on the team and the equipped Agent is in a position to trigger lots of Perfect Assists. This set's value is significantly diminished if the player isn't comfortable with timing Perfect Assists, in which case other sets will be favoured such as 4P Swing Jazz.\n Best combined with your choice of 2-PC Set:\n 2P\n King of the Summit\n\n (Recommended)\n 2P\n Shockstar Disco\n\n 2P\n Swing Jazz\n\n Moonlight Lullaby\n\n 4\n\n Shockstar Disco ( 4 -PC)\n\n Provides the highest Daze output of any Disk Drive set in the game. However, the difference between the 4-piece effect increase in Daze is marginal compared to simply using the 2-piece effect, meaning it almost always yields better results to use a supportive set like King of the Summit or Astral Voice to buff your team further, instead of the extra Daze which only gives extra Stun windows against bosses in very specific situations. If an extra Stun window is enabled by using this set it will perform the best, however this only very rarely happens, causing it to be left behind in favour of other sets.\n Best combined with your choice of 2-PC Set:\n 2P\n King of the Summit\n\n (Recommended)\n 2P\n Swing Jazz\n\n Moonlight Lullaby\n\n Best Disk Drives Stats\n Disk 4\n CRIT Rate% >= CRIT DMG%\n\n Disk 5\n Ice DMG% > ATK%\n\n Disk 6\n Impact\n\n Substats: CRIT RATE = CRIT DMG > ATK% > PEN = ATK\n\n Best Endgame Stats (Level 60)\n Impact: 169 - 190+\n\n ATK: 2000 - 2200+ (Optional)\n\n HP: 10500+\n\n DEF: 850+\n\n CRIT RATE: 50%+ (Needed for King of the Summit)\n\n CRIT DMG: 100% - 120%+ (Optional)\n\n Skill priority\n Special Attack\n\n Assist\n\n Chain Attack\n\n Basic Attack\n\n Dodge\n\n Video guides\n\n Teams & Synergy\n\n Synergy\n Below we list only the most important synergies for Lycaon . The character can work with others if you know what to do and how to use them.\n\n Miyabi Ellen - Lycaon provides a big shred to Ice RES and increases Stun DMG multipliers of enemies — this obviously means he pairs well with Ice Agents as he's greatly able to buff their damage and provide a lot of Daze for them. He stands out as a really potent F2P Stun Agent for both Ice damage dealers we have in the game right now as a result: Miyabi and Ellen. Easily able to activate Lycaon's Additional Ability, the pairings are natural and effective.\n Corin - Corin might seem like a surprising synergy with Lycaon at first — and indeed Corin doesn't deal any Ice DMG. However, Corin's Additional Ability requires an extra Physical or Victoria Housekeeping character be present on the team, and that condition can be difficult to fill. That's where Lycaon comes in: he's able to provide Daze, a Stun DMG multiplier debuff, and Corin's Additional Ability all at once for her to benefit from, making for a solid F2P team.\n Astra Yao Yuzuha Nicole - These 3 generalist units are capable of acting as Support for any team in the game. Astra Yao provides Quick Assists, extra Chain Attacks, healing, super low field time, ATK, DMG and CRIT DMG buffs which makes her the overall best choice in almost all cases. Yuzuha is the ultimate Anomaly buffer who also has awesome ATK and DMG% buffs applicable to any Agent as well, giving her strong general use potential; Nicole provides the sought-after DEF Shred and CRIT Rate at M6 which makes her competitive. All in all, these three can work with anyone.\n Soukaku - Soukaku is one of the best Supports for teams where Lycaon is present. Thanks to her massive ATK buff to a single character, her huge Ice Anomaly application, and her ability to increase Ice DMG Bonus and decrease Ice RES of enemies, since Lycaon is also dedicated to buffing Ice Agents, they amplify each other's effects in order to apply lots of Ice Anomaly and buff Ice DPS Agents significantly — this synergy makes them particularly strong with Miyabi, but also agents like Ellen and even potentially Hugo (when double Stun isn't available for him).\n Hugo - As Hugo wants to run double stunners to get the most out of his passives, and Lycaon’s buffs are particularly strong for Ice Agents, they make for a natural pair. With most other compatible Stunners lacking the ability to on-field reliably, Lycaon can fill in that spot without issue and allow for proper uptime of Hugo’s Hormone Punk. There’s also many minor, but notable benefits he brings to the team as well, like more frequent Freezes (which pause the Stun timer, leading to higher Totalizes), easily accessible Heavy Attacks via Special (reliable Double Chains on Hugo) and low EX Special cost (easy King of the Summit upkeep despite fast stun times), all of which elevates Lycaon to being an ideal teammate for Hugo.\n Yidhari - Having been a best-in-slot at least once for every Ice damage dealer so far, it’s unsurprising that Lycaon is once again the ideal teammate for Yidhari - a superior choice even over other Limited Stun Agents. His quick-swappy playstyle affords her the time to on-field for damage and resources, all the while having buffs with little saturation and more than sufficient daze build to excel. It can be tricky to use him at times, as Lycaon must be the one to initiate stuns to get full value out of his Stun DMG Multiplier bonus, but Yidhari combos accommodate this with no issue.\n Teams (Shiyu Defense)\n This section lists most popular teams featuring Lycaon in the current phase of Shiyu Defense.\n Rank 44\n App. rate: 0.71 %\n Avg. time: 27966\n\n Rank 48\n App. rate: 0.67 %\n Avg. time: 29134\n\n Rank 71\n App. rate: 0.34 %\n Avg. time: 28264\n\n Rank 79\n App. rate: 0.27 %\n Avg. time: 26342\n\n Rank 109\n App. rate: 0.14 %\n Avg. time: 28120\n\n Rank 116\n App. rate: 0.13 %\n Avg. time: 0\n\n Rank 148\n App. rate: 0.08 %\n Avg. time: 29723\n\n Rank 158\n App. rate: 0.07 %\n Avg. time: 28535\n\n Rank 191\n App. rate: 0.05 %\n Avg. time: 26598\n\n Rank 209\n App. rate: 0.04 %\n Avg. time: 25424\n\n Teams (Deadly Assault)\n This section lists most popular teams featuring Lycaon in the current phase of Deadly Assault.\n Rank 18\n App. rate: 2.45 %\n Avg. score: 25428\n\n Rank 69\n App. rate: 0.26 %\n Avg. score: 21948\n\n Rank 83\n App. rate: 0.19 %\n Avg. score: 26759\n\n Rank 83\n App. rate: 0.19 %\n Avg. score: 20709\n\n Rank 86\n App. rate: 0.17 %\n Avg. score: 0\n\n Rank 86\n App. rate: 0.17 %\n Avg. score: 24033\n\n Rank 97\n App. rate: 0.14 %\n Avg. score: 22120\n\n Rank 97\n App. rate: 0.14 %\n Avg. score: 21648\n\n Rank 118\n App. rate: 0.09 %\n Avg. score: 0\n\n Rank 118\n App. rate: 0.09 %\n Avg. score: 21836"
+  "text": "Lycaon Best Build Guide | Zenless Zone Zero\n \n\n Zenless Zone Zero\n Home Database Agents Bangboo W-Engines Disk Drives Banners\n Tier Lists Tier List\n Endgame Shiyu Defense Deadly Assault\n Resources Guides News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Zenless Zone Zero\n /\n Characters\n /\n Lycaon\n Lycaon Best Build Guide\n Last updated: 17/July/2026\n\n Introduction\n Best guide and build for Lycaon from ZZZ (Zenless Zone Zero). Lycaon is an rank character with the Ice attribute who belongs to the Stun Specialty and who is part of the Victoria Housekeeping Co. faction.\n Can resolve any matter. The most trusted of attendants, and solid support for any team. Rational and wise, a true gentleman who can't tolerate a single stain. Offers absolute loyalty to the one he decides to follow. Though outwardly sophisticated and rational, his innate feral character will reveal itself when faced with certain dangers.\n\n To learn more about Lycaon check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n Lycaon has at least one video guide available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 2.6\n\n Last build update\n Patch 2.6\n\n Last teams update\n Patch 2.6\n\n Last profile update*\n 17/July/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.\n\n Kit\n\n Review\n\n Build\n\n SD/DA Analytics\n\n Teams & Synergy\n\n Calculations\n\n To learn more about Lycaon check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile\n\n Core skills\n\n Core Passive Metallic Paws\n\n Lv. 1\n\n When Lycaon completes charging during a Basic Attack, or activates a Dodge Counter or Dash Attack, the Daze inflicted by the skill increases by 40% .\n When EX Special Attack: Thrill of the Hunt, Assist Follow-Up: Vengeful Counterattack, or Assist Follow-Up: Vengeful Counterattack - Glacial Waltz hits an enemy, the target's Ice RES is reduced by 25% , and it increases the DMG to the target from other attributes by 30% for 30s .\n Upon entering the battlefield, Lycaon gains one Encircle Prey activation chance.\n When Encircle Prey has available activations, hitting an enemy with Assist Follow-Up: Vengeful Counterattack - Glacial Waltz triggers the Quick Assist of the previous character in the squad. During this skill, when other squad members enter via Quick Assist, Lycaon enters the Encircle Prey state for 8s .\n When an elite or boss enemy becomes Stunned, 1 Encircle Prey activation chance is gained. Up to 1 Encircle Prey activation can be stored.\n When the Encircle Prey state ends, Lycaon automatically activates Assist Follow-Up: Vengeful Counterattack - Glacial Waltz. If the Encircle Prey state ends early, for every 1s of remaining duration, the Daze dealt by the next Assist Follow-Up: Vengeful Counterattack - Glacial Waltz increases by 6% .\n When the currently active character stops attacking or uses a Chain Attack or Ultimate, Lycaon will end the Encircle Prey state early.\nWhen Lycaon manually uses Assist Follow-Up: Vengeful Counterattack - Glacial Waltz, the Encircle Prey state also ends early, but Assist Follow-Up: Vengeful Counterattack - Glacial Waltz will not be automatically triggered.\n While the Encircle Prey state is active, Lycaon will activate Basic Attack, Dodge, Dash Attack, and Dodge Counter based on the skills used by the currently active character.\n When the currently active character uses a Basic Attack or EX Special Attack, Lycaon will simultaneously perform the 1st through 3rd hits of his Basic Attack.\n When the active character performs a Dodge or Dodge Counter, Lycaon will simultaneously perform a Dodge or Dodge Counter. After performing a Dodge Counter while in the Encircle Prey state, Lycaon can immediately follow up with the 3rd hit of his Basic Attack.\nWhile the Encircle Prey state is active, when Lycaon is not the currently active Agent, his attacks only deal DMG and Daze. While Lycaon is the currently active character, the Encircle Prey duration does not decrease.\n\n Impact 0\n BASE ATK: 0\n\n Additional Ability Elegant Predator\n\n When another character in your squad is an Anomaly character or shares the same Attribute or Faction:\n When Lycaon hits a Stunned enemy, the target's Stun DMG Multiplier increases by 35% .\n\n Potential\n Potential\n Potential Awakening: Glacial Rush\n\n Lv. 1\n\n At Potential level 1, the character unlocks all of their kit and gameplay changes, but has no Additional Ability stat enhancements.\n\n Skills\n Basic\n Dodge\n Assist\n Special\n Chain\n\n Basic Attack: Moon Hunter\n\n Press to activate.\nUnleashes up to 5 strikes in front, dealing Physical DMG.\nHold down to charge up, increasing the power of the attack and dealing Ice DMG.\n Multipliers\n\n Dodge: Suitable Positioning\n\n Press to dodge.\nA rapid dodge.\nCharacter is invulnerable while using this skill.\n\n Dash Attack: Keep it Clean\n\n Press during a dodge to activate.\nSlide forwards, launching a series of strikes in front, dealing Physical DMG.\n Multipliers\n\n Dodge Counter: Etiquette Manual\n\n Press during a Perfect Dodge to activate.\nStrikes enemies in front, dealing Ice DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Special Attack: Time to Hunt\n\n Press to activate.\nUnleashes a series of strikes in front, dealing Ice DMG.\nHold down to charge up, increasing its power.\nAnti-Interrupt level is increased while using this skill.\n Multipliers\n\n EX Special Attack: Thrill of the Hunt\n\n With enough energy, press to activate.\nUnleashes a series of powerful strikes in front, dealing massive Ice DMG.\nHold down to charge up, consuming Energy and enhancing the power of the attack.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Chain Attack: As You Wish\n\n When a Chain Attack is triggered, select the character to activate.\nUnleashes a series of powerful strikes at enemies in a small area in front of him, dealing massive Ice DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Ultimate: Mission Complete\n\n When Decibel Rating is at Maximum, press to activate.\nUnleashes multiple powerful strikes at enemies in a large area, dealing massive Ice DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Assist Follow-Up: Vengeful Counterattack\n\n Press after a Defensive Assist to activate.\nCreates an icicle in front, which strikes all enemies within range, dealing Ice DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Defensive Assist: Disrupted Hunt\n\n When the character on field is about to be attacked, press to activate.\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Quick Assist: Wolf Pack\n\n When the on-field character is launched, press to activate.\nStrikes enemies in front, dealing Ice DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Mindscapes\n M1\n Full Moon Momentum\n Mindscape 1\n\n When Lycaon's EX Special Attack hits an enemy, the attack's Daze increases by 12%. This effect can trigger once every 8s . When he charges his EX Special Attack to completion, this buff will increase by an additional 10%.\n\n M2\n Energy Feedback\n Mindscape 2\n\n When Stunning an enemy or triggering a squad member's Chain Attack, Lycaon gains 5 Energy. Can trigger once every 1s .\n\n M3\n Attendant Training\n Mindscape 3\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M4\n Graceful Demeanor\n Mindscape 4\n\n If Lycaon is attacked while using a Basic Attack or Special Attack, he will immediately gain a Shield effect equal to 7.5% of his max HP, lasting for 15s. During the Shield's duration, his Anti-Interrupt level is increased. This effect can trigger once every 15s .\n\n M5\n Alpha Nature\n Mindscape 5\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M6\n Ruthless Hunter\n Mindscape 6\n\n When a charged attack hits an enemy, the target suffers 10% increased DMG from Lycaon, stacking up to 5 times and lasting 12s . Only one stack can be gained per skill use, and repeated triggers reset the duration.\n\n Stats (Level 60)\n Lycaon Stats at level 60 (including Core passive bonuses).\n\n HP\n 8416\n\n DEF\n 606\n\n ATK\n 728\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 50 %\n\n PEN Ratio\n 0 %\n\n Impact\n 137\n\n Anomaly Mastery\n 91\n\n Anomaly Proficiency\n 90\n\n Energy Regen\n 1.2\n\n Voice Actors\n ENG\n -\n\n JPN\n Kobayashi Chikahiro (小林 親弘)\n\n CN\n Yuhang Wang (王宇航)\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Support\n T1\n Endgame Modes\n\n Pros & Cons\n Pros\n Very strong buff value, all the while having low EX Special costs (better enabling effects like King of the Summit) and strong Daze build.\n\n Demands surprisingly little field time to perform and can adjust to fit team needs.\n\n Standard Agent that’s easy to build and can work well with a variety of W-Engines, making him a strong and accessible pick.\n\n Best housekeeping service in all of New Eridu.\n\n Cons\n Only thrives in Ice teams, limiting his flexibility as a Stunner.\n\n Needs to be the one to initiate stuns, else he loses a significant portion of his value.\n\n Strictly a buff/daze unit only, with no additional effects (e.g. Ultimate conversions, Decibel bonuses, stun extensions) to support his value.\n\n Does not abide by child labor laws.\n\n Review\n Lycaon is an Ice Stun Agent who offers both competitive buffs and a significant amount of Daze build-up, being one of the best Stunner choices for Ice teams and - as of his Potential release - a decent alternative for all elements.\n His main focus in battle is to use Assist Follow-Ups and EX Specials to apply debuffs to enemies, then be the one to initiate Stuns for a strong Stun DMG Multiplier increase. With Encircle Prey , he can continue to build Daze even without being the active character, needing to be swapped to only occasionally so as to expend resources as needed.\n Core Passive & Additional Ability\n Holding Basic on Lycaon will charge it. This is explained in more detail in the Basic Attack section, but as part of his Core Passive, fully completing a charge can increase the Daze dealt from the attack by 80%. This same bonus also applies passively to Dodge Counters and Dash Attacks.\n This means that fully charging his Basics is always desirable, but this doesn’t need to be done manually, as when entering the battlefield, Lycaon gains an Encircle Prey stack. When using his enhanced Assist Follow-Up: Vengeful Counterattack - Glacial Waltz, this stack is consumed and Lycaon will trigger a reverse Quick Assist. If it’s used, after swapping he will remain on field , mirroring some of the active Agent’s attacks, dealing damage and Daze, but not building up Anomaly.\n When the currently active character uses a Basic Attack or EX Special, Lycaon will do the charged version of his Basics 1 through to 3. He will copy Dodges and even Dodge Counters, the latter of which links into the 3rd hit of his Basic Attack string.\n The Encircle Prey state lasts 8 seconds, and once it ends, Lycaon will automatically cast Glacial Waltz. Swapping to him will pause the timer, but certain skills will pre-emptively end the state:\n If the active character stops attacking for an extended period.\n\n If the active character activates a Chain Attack or Ultimate.\n\n If Lycaon uses Assist Follow-Up: Vengeful Counterattack - Glacial Waltz.\n\n The first 2 still lead to the automatic Glacial Waltz cast, but the last does not (as he is already using it manually). In situations where the state ends early, every second left will increase the Daze of the next Glacial Waltz by 6% to make up for the loss.\n Lycaon then recovers a stack of Encircle Prey when Elite or Boss-Rank enemies are stunned, allowing for 1 use every stun cycle.\n Working around Encircle Prey to maximise his Daze contribution is key, especially as with higher Potentials, his Basics, Dash Attacks and Dodge Counters get up to 15% increased Combat Impact when in the Encircle Prey state and not the active character.\n On top of all this, Lycaon’s Core Passive inflicts a debuff on enemies when hitting with his EX Special or either of his Assist Follow-Ups, they suffer 25% Ice RES Shred and take 30% more DMG from all attacks (regardless of element).\n His Additional Ability demands Anomaly, or same Attribute or Faction, and it causes stunned enemies hit by Lycaon to have a 35% increased Stun DMG Multiplier. This applies even if his Heavy Attack is what initiates stun, and in fact, doing so is important to maximise its uptime.\n Basic Attack:\n Lycaon only has one Basic Attack: Moon Hunter. This is a standard set of hits accessed by pressing his Basic button, but as mentioned previously, they can be charged.\n Normally this is a 5-hit Physical DMG string, doing pitiful damage and Daze, but when the Basic Attack button is held down, he will charge up and deal Ice DMG instead, going through hits 1 through to 3 in a single charge. Holding the button again will then charge his Basic 4, and lastly his Basic 5. which distinguishes itself from others by having 2 charge levels (indicated by the flashing gem in his prosthetics).\n Despite this having decent multipliers, the time to Daze ratio compared to other abilities makes it not worth using manually in most circumstances, with Encircle Prey being the primary way to access it.\n Note that Lycaon’s charged Basic 1 can apply and break Freezes, so it can be tricky to work around at times.\n Specials:\n Lycaon’s regular Special Attack: Time to Hunt, isn’t all that remarkable, but it is a very quick skill. This can make it useful to trigger Chain Attacks and trigger Freezes, as his Basics may break it pre-emptively.\n His EX Special Attack: Thrill of the Hunt however, is one of his primary ways to build Daze and Anomaly. It costs 40 Energy to activate, but holding down the Special button will charge it and consume 20 Energy to extend it, dealing just under 50% more damage and Daze.\n It isn’t always worth using the extension, as the lower Energy cost uses can be more efficient, but it can be useful to push for a bit of extra Daze needed if near stuns so that Lycaon can be the one to initiate it.\n As mentioned in his Core Passive, it can apply the Ice RES Shred and DMG Bonus debuffs on enemies when landing.\n Dodge:\n Dash Attacks - despite gaining Daze bonus from Lycaon’s Core Passive - are weak and best avoided, dealing Physical damage and having pitifully low Daze values.\n Dodge Counter however, is quite good. It also benefits from the bonus, but deals Ice DMG, has good multipliers and is very fast in activation, making it great for certain fights (like Wandering Hunter) and an effective way to initiate stun on red flash attacks.\n Assist:\n Assists are key to Lycaon’s kit, being one of his main sources of Daze and the method to enter Encircle Prey.\n Unlike most Agents, who use up 2 Assist Points per Defensive Assist against Elites and Bosses, Lycaon only uses up 1, making it much easier for him to generate Decibels and sustain Daze build through frequent Assist Follow-Ups, of which he has 2.\n The standard one is Assist Follow-Up: Vengeful Counterattack. It’s a remarkably fast skill and can be used during Encircle Prey without ending the state, making for an effective way to build Daze consistently.\n The enhanced one is Assist Follow-Up: Vengeful Counterattack - Glacial Waltz. This is not only the way to enter Encircle Prey, but it also builds nearly 50% more Daze than the standard Assist Follow-Up. It is best avoided while in Encircle Prey so as to not end the state pre-emptively, but when outside of it, using it is the most accessible way for Lycaon to build Daze and apply the Ice RES Shred and DMG Bonus debuffs on enemies from his Core Passive.\n Chain & Ultimate:\n As far as Chain Attacks go, Lycaon’s is decently fast but rarely worth using, with only niche scenarios (such as for single Chain Attack combos in Hugo teams) enabling it.\n His Ultimate is rather straightforward, being a quick and simple burst of Daze, but it’s noteworthy if only for having one of the highest single Daze multipliers in the entire game, with very few Agents (namely Qingyi) beating it. This means it’s a great way to speed through to stun quickly and will often initiate it, applying Lycaon’s Additional Ability.\n\n How to play\n Despite having the ability to charge his Basic Attacks, keeping Lycaon as the active character and manually using them tends to not be ideal. Considering how much Daze he can build with his Assist Follow-Ups, and how it is required to enter the Encircle Prey state and being the most accessible way to apply Lycaon’s RES Shred and DMG Bonus, it’s often ideal to sit on another character until an opportunity to parry presents itself.\n Assist Follow-Up: Vengeful Counterattack - Glacial Waltz can then be used to consume to Encircle Prey charge and enter the state, after which he can be swapped out of and continue to build Daze and attack enemies.\n If Daze and Decibels are needed, frequent parries back to Lycaon can be repeated - but make sure to not accidentally use the Glacial Waltz variant on Assist Follow-Ups unless ending Encircle Prey pre-emptively is needed.\n As Energy builds up, it’s often worth using Lycaon’s EX Special Attack: Thrill of the Hunt for Daze and even some Anomaly build-up, as aligning Freeze timings for stuns can make a difference. This is true even for non-Freezeable enemies, owing to the CRIT DMG taken effect from Frostbite.\n It’s not often good to charge Lycaon’s EX in full. Although its multipliers are proportional to the extra Energy cost, it’s not quite a 50% improvement and takes more time, so splitting up EX Specials across more uses tends to be better, while also having the added benefit of maintaining buffs (like King of the Summit).\n As Stun approaches, make sure to open stun with Lycaon in some way to get the Stun DMG Multiplier increase, ideally with his EX Special for King of the Summit alignment.\n Once Stun is over, a new Encircle Prey stack is built and the cycle repeats, with the occasional Ultimate use where needed. Note that Lycaon’s playstyle can change depending on the team, with characters like Miyabi, Hugo, Yidhari and others all having distinct adjustments to be made.\n This can be in more precise management of Ice Anomaly build-up (important, as Encircle Prey attacks do not build any), having more frequent bouts of taking centre stage as the active character to make up for teammates that aren’t well suited to it, or stick to the standard, quick-swap Stunner playstyle.\n So long as buffs/debuffs are maintained and stun breakpoints are met, Lycaon is a flexible unit that can adjust to the needs of the team.\n\n Build and teams\n\n Collaboration Disclaimer\n For ZZZ calculations we worked alongside Rivyn Elowen . Any other content such as comments on W-Engines, Disks, etc are our own.\n\n Best W-Engines\n The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n The top number shows the performance of the W-Engine when applying Daze while the bottom number when dealing Damage .\n Team-buffed calculations\n The W-Engine calculations below are team-buffed calculations and here's the team we used for them:\n Yidhari + Kraken's Cradle\n Lucia + Dreamlit Hearth\n 118.56%\n\n Blazing Laurel (S 1 )\n\n Blazing Laurel is the de facto best option for Lycaon. It has a ridiculous amount of Impact % bonuses and can be activated on Defensive Assists, which leads to Assist Follow-Ups that are among Lycaon's main source of Daze application. The buffs from it are among the strongest for Fire and Ice teams and easy enough to upkeep, especially with Potentials active as Encircle Prey's Basic Attacks count for it.\n Usage: 3.24 %\n Shiyu Defense: 28431\n Deadly Assault: 29558\n\n 115.85%\n 101.41%\n\n Precious Fossilized Core (S 5 )\n\n As far as Daze goes, Fossilized Core is among the best, all the while being a highly accessible option. It's all that it offers, but it offers plenty of it, being especially strong early in fights, helping meet stun breakpoints. Note that performance will vary based on score, with the Top Value representing its output for enemies above 75% HP and the Bottom Value averaged for those below it.\n Usage: 12.25 %\n Shiyu Defense: 26699\n Deadly Assault: 26215\n\n 108.39%\n\n Steam Oven (S 5 )\n\n Steam Oven requires more active Energy management by players to get full Daze value out of it, and even then it can fall behind other options, but the Energy Regen it provides is very helpful. EX Specials are useful for King of the Summit upkeep, are one of Lycaon's primary sources of Daze, Anomaly and Decibel generation. Steam Oven is the most effective W-Engine to sustain constant EX Special uses, making it the best non-limited option in most circumstances if used properly.\n Usage: 22.63 %\n Shiyu Defense: 28026\n Deadly Assault: 23838\n\n 102.98%\n\n Hellfire Gears (S 1 )\n\n Hellfire Gears offers competitive Impact gains, and as Lycaon has the option to spend only 40 Energy per EX Special, it's easier for him than most to maintain its stacks. Unfortunately, when his Potential is in play, Encircle Prey counts as being \"on-field\", meaning that its Energy Regen effects do not contribute much. It's an option if Daze is required late in fights where Fossilized Core isn't enough, but it will often fall behind Steam Oven in both Daze and sustain.\n Usage: 17.91 %\n Shiyu Defense: 26399\n Deadly Assault: 25791\n\n 100.00%\n\n The Restrained (S 1 )\n\n Lycaon's Signature, The Restrained, is surprisingly a terrible option for him. The majority of Lycaon's Daze comes from Defensive Assists, Assist Follow-Ups and EX Specials, none of which benefit from its Daze increase. The stack duration is short and calculated separately, making it difficult to maintain full uptime of it, even with Encircle Prey easing this requirement. Almost any other Stunner W-Engine will be better for Daze and/or resources, making this a suboptimal pick that is best avoided.\n Usage: 39.2 %\n Shiyu Defense: 27210\n Deadly Assault: 23739\n\n Best Disk Drives Sets\n 1\n\n King of the Summit ( 4 -PC)\n\n New best Stun set, to be used on any Stun character in almost any team with very few exceptions. Gives 6% increased Daze on the 2-piece and up to 30% CRIT DMG for the entire squad for 15s when casting EX Specials and Chain Attacks on the condition that the equipper has 50% CRIT Rate or higher, a requirement which is easy to meet but must be ensured. Uptime on this buff is almost always easily maintained permanently, however be mindful this set will not be effective if you aren’t building the rest of your team on CRIT, in which case alternatives will be preferred, and that you cannot run this set multiple times on the same team.\n Best combined with your choice of 2-PC Set:\n 2P\n Shockstar Disco\n\n (Recommended)\n 2P\n Swing Jazz\n\n Moonlight Lullaby\n\n 2\n\n Astral Voice ( 4 -PC)\n\n Best generalist Support set, providing a useful 10% ATK on the 2-piece but most importantly buffing DMG dealt by characters entering the field via Quick Assists by upwards of 24%, the biggest buff provided by Disc Drives in the game. Generally a must-have set on any team, but be mindful of ensuring uptime on the buff.\n Best combined with your choice of 2-PC Set:\n 2P\n King of the Summit\n\n (Recommended)\n 2P\n Shockstar Disco\n\n 2P\n Swing Jazz\n\n Moonlight Lullaby\n\n 3\n\n Proto Punk ( 4 -PC)\n\n Niche supportive set used for teams that are in the position of triggering Perfect Assists often. Grants the entire party 15% increased DMG for 10s when triggering a Perfect Assist. Typically used if an Astral Voice wielder is already on the team and the equipped Agent is in a position to trigger lots of Perfect Assists. This set's value is significantly diminished if the player isn't comfortable with timing Perfect Assists, in which case other sets will be favoured such as 4P Swing Jazz.\n Best combined with your choice of 2-PC Set:\n 2P\n King of the Summit\n\n (Recommended)\n 2P\n Shockstar Disco\n\n 2P\n Swing Jazz\n\n Moonlight Lullaby\n\n 4\n\n Shockstar Disco ( 4 -PC)\n\n Provides the highest Daze output of any Disk Drive set in the game. However, the difference between the 4-piece effect increase in Daze is marginal compared to simply using the 2-piece effect, meaning it almost always yields better results to use a supportive set like King of the Summit or Astral Voice to buff your team further, instead of the extra Daze which only gives extra Stun windows against bosses in very specific situations. If an extra Stun window is enabled by using this set it will perform the best, however this only very rarely happens, causing it to be left behind in favour of other sets.\n Best combined with your choice of 2-PC Set:\n 2P\n King of the Summit\n\n (Recommended)\n 2P\n Swing Jazz\n\n Moonlight Lullaby\n\n Best Disk Drives Stats\n Disk 4\n CRIT Rate% >= CRIT DMG%\n\n Disk 5\n Ice DMG% > ATK%\n\n Disk 6\n Impact\n\n Substats: CRIT RATE = CRIT DMG > ATK% > PEN = ATK\n\n Best Endgame Stats (Level 60)\n Impact: 169 - 190+\n\n ATK: 2000 - 2200+ (Optional)\n\n HP: 10500+\n\n DEF: 850+\n\n CRIT RATE: 50%+ (Needed for King of the Summit)\n\n CRIT DMG: 100% - 120%+ (Optional)\n\n Skill priority\n Special Attack\n\n Assist\n\n Chain Attack\n\n Basic Attack\n\n Dodge\n\n Video guides\n\n Teams & Synergy\n\n Synergy\n Below we list only the most important synergies for Lycaon . The character can work with others if you know what to do and how to use them.\n\n Miyabi Ellen - Lycaon provides a big shred to Ice RES and increases Stun DMG multipliers of enemies — this obviously means he pairs well with Ice Agents as he's greatly able to buff their damage and provide a lot of Daze for them. He stands out as a really potent F2P Stun Agent for both Ice damage dealers we have in the game right now as a result: Miyabi and Ellen. Easily able to activate Lycaon's Additional Ability, the pairings are natural and effective.\n Corin - Corin might seem like a surprising synergy with Lycaon at first — and indeed Corin doesn't deal any Ice DMG. However, Corin's Additional Ability requires an extra Physical or Victoria Housekeeping character be present on the team, and that condition can be difficult to fill. That's where Lycaon comes in: he's able to provide Daze, a Stun DMG multiplier debuff, and Corin's Additional Ability all at once for her to benefit from, making for a solid F2P team.\n Astra Yao Yuzuha Nicole - These 3 generalist units are capable of acting as Support for any team in the game. Astra Yao provides Quick Assists, extra Chain Attacks, healing, super low field time, ATK, DMG and CRIT DMG buffs which makes her the overall best choice in almost all cases. Yuzuha is the ultimate Anomaly buffer who also has awesome ATK and DMG% buffs applicable to any Agent as well, giving her strong general use potential; Nicole provides the sought-after DEF Shred and CRIT Rate at M6 which makes her competitive. All in all, these three can work with anyone.\n Soukaku - Soukaku is one of the best Supports for teams where Lycaon is present. Thanks to her massive ATK buff to a single character, her huge Ice Anomaly application, and her ability to increase Ice DMG Bonus and decrease Ice RES of enemies, since Lycaon is also dedicated to buffing Ice Agents, they amplify each other's effects in order to apply lots of Ice Anomaly and buff Ice DPS Agents significantly — this synergy makes them particularly strong with Miyabi, but also agents like Ellen and even potentially Hugo (when double Stun isn't available for him).\n Hugo - As Hugo wants to run double stunners to get the most out of his passives, and Lycaon’s buffs are particularly strong for Ice Agents, they make for a natural pair. With most other compatible Stunners lacking the ability to on-field reliably, Lycaon can fill in that spot without issue and allow for proper uptime of Hugo’s Hormone Punk. There’s also many minor, but notable benefits he brings to the team as well, like more frequent Freezes (which pause the Stun timer, leading to higher Totalizes), easily accessible Heavy Attacks via Special (reliable Double Chains on Hugo) and low EX Special cost (easy King of the Summit upkeep despite fast stun times), all of which elevates Lycaon to being an ideal teammate for Hugo.\n Yidhari - Having been a best-in-slot at least once for every Ice damage dealer so far, it’s unsurprising that Lycaon is once again the ideal teammate for Yidhari - a superior choice even over other Limited Stun Agents. His quick-swappy playstyle affords her the time to on-field for damage and resources, all the while having buffs with little saturation and more than sufficient daze build to excel. It can be tricky to use him at times, as Lycaon must be the one to initiate stuns to get full value out of his Stun DMG Multiplier bonus, but Yidhari combos accommodate this with no issue.\n Teams (Shiyu Defense)\n This section lists most popular teams featuring Lycaon in the current phase of Shiyu Defense.\n Rank 108\n App. rate: 0.15 %\n Avg. time: 28507\n\n Rank 114\n App. rate: 0.14 %\n Avg. time: 26468\n\n Rank 144\n App. rate: 0.09 %\n Avg. time: 27639\n\n Rank 158\n App. rate: 0.08 %\n Avg. time: 26696\n\n Rank 220\n App. rate: 0.04 %\n Avg. time: 26835\n\n Rank 220\n App. rate: 0.04 %\n Avg. time: 25748\n\n Rank 257\n App. rate: 0.03 %\n Avg. time: 29167\n\n Rank 311\n App. rate: 0.02 %\n Avg. time: 25963\n\n Teams (Deadly Assault)\n This section lists most popular teams featuring Lycaon in the current phase of Deadly Assault.\n Rank 53\n App. rate: 0.61 %\n Avg. score: 28312\n\n Rank 68\n App. rate: 0.42 %\n Avg. score: 27510\n\n Rank 86\n App. rate: 0.25 %\n Avg. score: 21142\n\n Rank 110\n App. rate: 0.16 %\n Avg. score: 24635\n\n Rank 156\n App. rate: 0.09 %\n Avg. score: 21948\n\n Rank 156\n App. rate: 0.09 %\n Avg. score: 24403\n\n Rank 175\n App. rate: 0.07 %\n Avg. score: 25211\n\n Rank 190\n App. rate: 0.06 %\n Avg. score: 21757\n\n Rank 190\n App. rate: 0.06 %\n Avg. score: 21692\n\n Rank 217\n App. rate: 0.05 %\n Avg. score: 23205"
 }

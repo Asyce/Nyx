@@ -2150,7 +2150,7 @@
     "relate": 222081,
     "cost": 2,
     "en": "Hydro Hypostasis",
-    "title": "Hydro Hypostasis: He",
+    "title": "Hydro Hypostasis",
     "desc": "Code Name: He. A high-purity Hydro entity. They have strong rejection properties, and will mercilessly expel any that test them.",
     "tag": [
       "Hydro",
@@ -5468,7 +5468,7 @@
     ],
     "ko": "기이한 파도",
     "zh": "诡谲恶浪",
-    "ja": ""
+    "ja": "予測不能な荒波JP3A"
   },
   "223011": {
     "type": "Action",
@@ -12544,7 +12544,7 @@
     "tag": [],
     "ko": "소모임",
     "zh": "齐聚共饮",
-    "ja": ""
+    "ja": "集いて杯を交わすJP3A"
   },
   "333001": {
     "type": "Action",

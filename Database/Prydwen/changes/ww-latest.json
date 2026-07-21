@@ -1,13 +1,13 @@
 {
   "provider": "Prydwen",
   "game": "ww",
-  "generatedAt": "2026-07-18T07:14:17.186Z",
+  "generatedAt": "2026-07-21T07:45:45.514Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 6,
-      "unchanged": 57
+      "changed": 2,
+      "unchanged": 61
     }
   },
   "sections": {
@@ -16,43 +16,19 @@
       "removed": [],
       "changed": [
         {
-          "id": "characters:jingran",
-          "name": "Jingran",
-          "previousHash": "86cd15a87f5e12384eb32d05632e42cb55d60a70562d14eec3b06fdf856fb6d6",
-          "currentHash": "6ce6a29960b98990e584f71abd91df825ab718fddf0983608ae882b5293571dd"
-        },
-        {
-          "id": "characters:qingxiao",
-          "name": "Qingxiao",
-          "previousHash": "f6f904db7d805461023a2878565725f6fb84c1f2cad8336fdb048b404422eee8",
-          "currentHash": "aad9c2d55bd923fedd75256bf487f9c08f6cf82f5213eb6d21c2f13c1184d758"
+          "id": "characters:cantarella",
+          "name": "Cantarella",
+          "previousHash": "cbcf5d9fcf3c8f9fffd3eadf6331f1320326ae60840ad4039fe17ace34f793a8",
+          "currentHash": "a82d789d35d263ba926de34568878508864f2e680c07c305fcf1906ac19e9af7"
         },
         {
           "id": "characters:roccia",
           "name": "Roccia",
-          "previousHash": "43913bf2c1ba5c84eb2ca344e43b86b506a227223492e286690f4d71a3e5c443",
-          "currentHash": "aea13c111e19dd71fcc01b8abaae49e79eb8de5f6ac7afbec229e82e69514b43"
-        },
-        {
-          "id": "characters:taoqi",
-          "name": "Taoqi",
-          "previousHash": "7d261eb89dfed2bc5a12b9a02fa5e6234c12d7df20d61251c895349d7140f7d3",
-          "currentHash": "0bad3884723bb6945e454f070dc88e0e41e1bef01aa0caae93dbf6129e6cf079"
-        },
-        {
-          "id": "collection:characters",
-          "name": "Wuthering Waves Characters Build Guides",
-          "previousHash": "d7e70d4f9a1d1dd4a3191be7d5d6312175731c6f4d6333a335edd4faaf5bf6ad",
-          "currentHash": "551648f32fc4b0227c4435df733f278ebaaf4d0c446f81600a074460a1d4e82b"
-        },
-        {
-          "id": "collection:weapons",
-          "name": "Wuthering Waves Weapons",
-          "previousHash": "9860a4386d53fa1aed219599cf1a6b2fd806a75cfc8aab784240240edffaff66",
-          "currentHash": "b68e4850d487469947d76cf1f0dc632f89bfa600675b30752e4030c0a38e65a5"
+          "previousHash": "aea13c111e19dd71fcc01b8abaae49e79eb8de5f6ac7afbec229e82e69514b43",
+          "currentHash": "43913bf2c1ba5c84eb2ca344e43b86b506a227223492e286690f4d71a3e5c443"
         }
       ],
-      "unchanged": 57,
+      "unchanged": 61,
       "totals": {
         "previous": 63,
         "current": 63

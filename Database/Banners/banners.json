@@ -1,13 +1,13 @@
 {
-  "checkedAt": "2026-07-18T19:24:04.058Z",
+  "checkedAt": "2026-07-21T07:47:53.431Z",
   "updated": "2026-07-17T11:11:02.378Z",
   "games": [
     {
       "id": "hsr",
       "name": "Honkai: Star Rail",
       "freshness": {
-        "status": "fresh",
-        "checkedAt": "2026-07-18T19:24:04.058Z",
+        "status": "stale",
+        "checkedAt": "2026-07-21T07:47:53.431Z",
         "lastSuccessfulFetch": "2026-07-17T11:11:02.378Z",
         "source": "game8",
         "message": "This game failed to scrape during the latest banner check; preserved previous data."
@@ -70,8 +70,8 @@
       "id": "genshin",
       "name": "Genshin Impact",
       "freshness": {
-        "status": "fresh",
-        "checkedAt": "2026-07-18T19:24:04.058Z",
+        "status": "stale",
+        "checkedAt": "2026-07-21T07:47:53.431Z",
         "lastSuccessfulFetch": "2026-07-17T11:11:02.378Z",
         "source": "game8",
         "message": "This game failed to scrape during the latest banner check; preserved previous data."
@@ -115,8 +115,8 @@
       "id": "wuwa",
       "name": "Wuthering Waves",
       "freshness": {
-        "status": "fresh",
-        "checkedAt": "2026-07-18T19:24:04.058Z",
+        "status": "stale",
+        "checkedAt": "2026-07-21T07:47:53.431Z",
         "lastSuccessfulFetch": "2026-07-17T11:11:02.378Z",
         "source": "game8",
         "message": "This game failed to scrape during the latest banner check; preserved previous data."
@@ -172,8 +172,8 @@
       "id": "zzz",
       "name": "Zenless Zone Zero",
       "freshness": {
-        "status": "fresh",
-        "checkedAt": "2026-07-18T19:24:04.058Z",
+        "status": "stale",
+        "checkedAt": "2026-07-21T07:47:53.431Z",
         "lastSuccessfulFetch": "2026-07-17T11:11:02.378Z",
         "source": "game8",
         "message": "This game failed to scrape during the latest banner check; preserved previous data."
@@ -220,8 +220,8 @@
       "id": "endfield",
       "name": "Arknights: Endfield",
       "freshness": {
-        "status": "fresh",
-        "checkedAt": "2026-07-18T19:24:04.058Z",
+        "status": "stale",
+        "checkedAt": "2026-07-21T07:47:53.431Z",
         "lastSuccessfulFetch": "2026-07-17T11:11:02.378Z",
         "source": "game8",
         "message": "This game failed to scrape during the latest banner check; preserved previous data."

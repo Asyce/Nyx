@@ -3,8 +3,8 @@
   "label": "Honkai: Star Rail",
   "source": "GachaBase beta changelog",
   "sourceUrl": "https://hsr.gachabase.net/changelog/beta?lang=en",
-  "scrapedAt": "2026-07-10T08:51:15.824Z",
-  "title": "Changelog - v4.3.5X | Honkai: Star Rail | Gachabase",
+  "scrapedAt": "2026-07-21T07:47:41.937Z",
+  "title": "Changelog - v4.4.5X | Honkai: Star Rail | Gachabase",
   "categoryLinks": [
     {
       "type": "changelog",
@@ -130,19 +130,38 @@
       "type": "tutorials",
       "href": "https://hsr.gachabase.net/tutorials/currency-wars/beta?lang=en",
       "text": "Currency Wars"
+    },
+    {
+      "type": "characters",
+      "href": "https://hsr.gachabase.net/characters/1513/aventurine-waveflair/beta?lang=en",
+      "text": "Aventurine • Waveflair"
+    },
+    {
+      "type": "characters",
+      "href": "https://hsr.gachabase.net/characters/1512/robin-summeretto/beta?lang=en",
+      "text": "Robin • Summeretto"
+    },
+    {
+      "type": "characters",
+      "href": "https://hsr.gachabase.net/characters/1510/himeko-nova/beta?lang=en",
+      "text": "Himeko • Nova"
+    },
+    {
+      "type": "lightcones",
+      "href": "https://hsr.gachabase.net/lightcones/23064/summer-rides-the-surf/beta?lang=en",
+      "text": "Summer Rides the Surf"
     }
   ],
   "counts": {
-    "entries": 58,
+    "entries": 19,
     "byType": {
-      "characters": 43,
-      "lightcones": 11,
-      "relics": 2,
-      "planar-ornaments": 2
+      "characters": 11,
+      "lightcones": 7,
+      "planar-ornaments": 1
     },
     "byStatus": {
-      "updated": 44,
-      "new": 14
+      "updated": 13,
+      "new": 6
     }
   },
   "entries": [
@@ -154,10 +173,10 @@
       "name": "Rin Tohsaka",
       "iconHash": "9d03312750658cfd8fbd92df26e20abb",
       "status": "updated",
-      "href": "https://hsr.gachabase.net/characters/1508/rin-tohsaka/beta/4.3.55/15529013",
-      "diff": "https://hsr.gachabase.net/diff/characters/1508/rin-tohsaka?prev=beta_4.3.54_15497648&cur=beta_4.3.55_15529013",
-      "betaVersion": "4.3.55",
-      "revision": "15529013"
+      "href": "https://hsr.gachabase.net/characters/1508/rin-tohsaka/beta/4.4.51/15753142",
+      "diff": "https://hsr.gachabase.net/diff/characters/1508/rin-tohsaka?prev=beta_4.3.55_15537653&cur=beta_4.4.51_15753142",
+      "betaVersion": "4.4.51",
+      "revision": "15753142"
     },
     {
       "game": "hsr",
@@ -167,10 +186,10 @@
       "name": "Gilgamesh",
       "iconHash": "f14b7b301a148c6bfb417e88fc3bca95",
       "status": "updated",
-      "href": "https://hsr.gachabase.net/characters/1509/gilgamesh/beta/4.3.55/15529013",
-      "diff": "https://hsr.gachabase.net/diff/characters/1509/gilgamesh?prev=beta_4.3.54_15497648&cur=beta_4.3.55_15529013",
-      "betaVersion": "4.3.55",
-      "revision": "15529013"
+      "href": "https://hsr.gachabase.net/characters/1509/gilgamesh/beta/4.4.51/15753142",
+      "diff": "https://hsr.gachabase.net/diff/characters/1509/gilgamesh?prev=beta_4.3.55_15537653&cur=beta_4.4.51_15753142",
+      "betaVersion": "4.4.51",
+      "revision": "15753142"
     },
     {
       "game": "hsr",
@@ -180,10 +199,34 @@
       "name": "Himeko • Nova",
       "iconHash": "a02fa50e1826ff9d666e9a1e9299fd72",
       "status": "updated",
-      "href": "https://hsr.gachabase.net/characters/1510/himeko-nova/beta/4.3.55/15529013",
-      "diff": "https://hsr.gachabase.net/diff/characters/1510/himeko-nova?prev=beta_4.3.54_15497648&cur=beta_4.3.55_15529013",
-      "betaVersion": "4.3.55",
-      "revision": "15529013"
+      "href": "https://hsr.gachabase.net/characters/1510/himeko-nova/beta/4.4.51/15753142",
+      "diff": "https://hsr.gachabase.net/diff/characters/1510/himeko-nova?prev=beta_4.3.55_15537653&cur=beta_4.4.51_15753142",
+      "betaVersion": "4.4.51",
+      "revision": "15753142"
+    },
+    {
+      "game": "hsr",
+      "type": "characters",
+      "id": "1512",
+      "rarity": 5,
+      "name": "Robin • Summeretto",
+      "iconHash": "98bcc901782bee57cb5907f354f0c2d5",
+      "status": "new",
+      "href": "https://hsr.gachabase.net/characters/1512/robin-summeretto/beta/4.4.51/15753142",
+      "betaVersion": "4.4.51",
+      "revision": "15753142"
+    },
+    {
+      "game": "hsr",
+      "type": "characters",
+      "id": "1513",
+      "rarity": 5,
+      "name": "Aventurine • Waveflair",
+      "iconHash": "ee8b70b0f687f57d94af6326219b2ca5",
+      "status": "new",
+      "href": "https://hsr.gachabase.net/characters/1513/aventurine-waveflair/beta/4.4.51/15753142",
+      "betaVersion": "4.4.51",
+      "revision": "15753142"
     },
     {
       "game": "hsr",
@@ -193,62 +236,10 @@
       "name": "Saber",
       "iconHash": "d24c764b3defa40d37d46706f9646a24",
       "status": "updated",
-      "href": "https://hsr.gachabase.net/characters/6036/saber/beta/4.3.55/15529013",
-      "diff": "https://hsr.gachabase.net/diff/characters/6036/saber?prev=beta_4.3.54_15497648&cur=beta_4.3.55_15529013",
-      "betaVersion": "4.3.55",
-      "revision": "15529013"
-    },
-    {
-      "game": "hsr",
-      "type": "lightcones",
-      "id": "23062",
-      "rarity": 5,
-      "name": "I Am As You Behold",
-      "iconHash": "51b661213b0d78a8ff64a349470a03b5",
-      "status": "updated",
-      "href": "https://hsr.gachabase.net/lightcones/23062/i-am-as-you-behold/beta/4.3.55/15529013",
-      "diff": "https://hsr.gachabase.net/diff/lightcones/23062/i-am-as-you-behold?prev=beta_4.3.54_15497648&cur=beta_4.3.55_15529013",
-      "betaVersion": "4.3.55",
-      "revision": "15529013"
-    },
-    {
-      "game": "hsr",
-      "type": "characters",
-      "id": "1508",
-      "rarity": 5,
-      "name": "Rin Tohsaka",
-      "iconHash": "9d03312750658cfd8fbd92df26e20abb",
-      "status": "updated",
-      "href": "https://hsr.gachabase.net/characters/1508/rin-tohsaka/beta/4.3.54/15458669",
-      "diff": "https://hsr.gachabase.net/diff/characters/1508/rin-tohsaka?prev=beta_4.3.53_15385668&cur=beta_4.3.54_15458669",
-      "betaVersion": "4.3.54",
-      "revision": "15458669"
-    },
-    {
-      "game": "hsr",
-      "type": "characters",
-      "id": "1509",
-      "rarity": 5,
-      "name": "Gilgamesh",
-      "iconHash": "f14b7b301a148c6bfb417e88fc3bca95",
-      "status": "updated",
-      "href": "https://hsr.gachabase.net/characters/1509/gilgamesh/beta/4.3.54/15458669",
-      "diff": "https://hsr.gachabase.net/diff/characters/1509/gilgamesh?prev=beta_4.3.53_15385668&cur=beta_4.3.54_15458669",
-      "betaVersion": "4.3.54",
-      "revision": "15458669"
-    },
-    {
-      "game": "hsr",
-      "type": "characters",
-      "id": "1510",
-      "rarity": 5,
-      "name": "Himeko • Nova",
-      "iconHash": "a02fa50e1826ff9d666e9a1e9299fd72",
-      "status": "updated",
-      "href": "https://hsr.gachabase.net/characters/1510/himeko-nova/beta/4.3.54/15458669",
-      "diff": "https://hsr.gachabase.net/diff/characters/1510/himeko-nova?prev=beta_4.3.53_15385668&cur=beta_4.3.54_15458669",
-      "betaVersion": "4.3.54",
-      "revision": "15458669"
+      "href": "https://hsr.gachabase.net/characters/6036/saber/beta/4.4.51/15753142",
+      "diff": "https://hsr.gachabase.net/diff/characters/6036/saber?prev=beta_4.3.55_15537653&cur=beta_4.4.51_15753142",
+      "betaVersion": "4.4.51",
+      "revision": "15753142"
     },
     {
       "game": "hsr",
@@ -258,10 +249,10 @@
       "name": "Archer",
       "iconHash": "cee9af274fb905e5dc461066603f4549",
       "status": "updated",
-      "href": "https://hsr.gachabase.net/characters/6037/archer/beta/4.3.54/15458669",
-      "diff": "https://hsr.gachabase.net/diff/characters/6037/archer?prev=beta_4.3.53_15385668&cur=beta_4.3.54_15458669",
-      "betaVersion": "4.3.54",
-      "revision": "15458669"
+      "href": "https://hsr.gachabase.net/characters/6037/archer/beta/4.4.51/15753142",
+      "diff": "https://hsr.gachabase.net/diff/characters/6037/archer?prev=beta_4.3.55_15537653&cur=beta_4.4.51_15753142",
+      "betaVersion": "4.4.51",
+      "revision": "15753142"
     },
     {
       "game": "hsr",
@@ -271,127 +262,10 @@
       "name": "Rin Tohsaka",
       "iconHash": "9d03312750658cfd8fbd92df26e20abb",
       "status": "updated",
-      "href": "https://hsr.gachabase.net/characters/6038/rin-tohsaka/beta/4.3.54/15458669",
-      "diff": "https://hsr.gachabase.net/diff/characters/6038/rin-tohsaka?prev=beta_4.3.53_15385668&cur=beta_4.3.54_15458669",
-      "betaVersion": "4.3.54",
-      "revision": "15458669"
-    },
-    {
-      "game": "hsr",
-      "type": "lightcones",
-      "id": "23060",
-      "rarity": 5,
-      "name": "A Star That Lights the Night",
-      "iconHash": "5d73f13d03f8fa587d638eb7a3c40a60",
-      "status": "updated",
-      "href": "https://hsr.gachabase.net/lightcones/23060/a-star-that-lights-the-night/beta/4.3.54/15458669",
-      "diff": "https://hsr.gachabase.net/diff/lightcones/23060/a-star-that-lights-the-night?prev=beta_4.3.53_15385668&cur=beta_4.3.54_15458669",
-      "betaVersion": "4.3.54",
-      "revision": "15458669"
-    },
-    {
-      "game": "hsr",
-      "type": "lightcones",
-      "id": "23061",
-      "rarity": 5,
-      "name": "Flickering Stars",
-      "iconHash": "89de0b5a684b3d714e0a9bfe10b43e0d",
-      "status": "updated",
-      "href": "https://hsr.gachabase.net/lightcones/23061/flickering-stars/beta/4.3.54/15458669",
-      "diff": "https://hsr.gachabase.net/diff/lightcones/23061/flickering-stars?prev=beta_4.3.53_15385668&cur=beta_4.3.54_15458669",
-      "betaVersion": "4.3.54",
-      "revision": "15458669"
-    },
-    {
-      "game": "hsr",
-      "type": "characters",
-      "id": "1015",
-      "rarity": 5,
-      "name": "Archer",
-      "iconHash": "cee9af274fb905e5dc461066603f4549",
-      "status": "updated",
-      "href": "https://hsr.gachabase.net/characters/1015/archer/beta/4.3.53/15385668",
-      "diff": "https://hsr.gachabase.net/diff/characters/1015/archer?prev=beta_4.3.52_15318724&cur=beta_4.3.53_15385668",
-      "betaVersion": "4.3.53",
-      "revision": "15385668"
-    },
-    {
-      "game": "hsr",
-      "type": "characters",
-      "id": "1508",
-      "rarity": 5,
-      "name": "Rin Tohsaka",
-      "iconHash": "9d03312750658cfd8fbd92df26e20abb",
-      "status": "updated",
-      "href": "https://hsr.gachabase.net/characters/1508/rin-tohsaka/beta/4.3.53/15385668",
-      "diff": "https://hsr.gachabase.net/diff/characters/1508/rin-tohsaka?prev=beta_4.3.52_15318724&cur=beta_4.3.53_15385668",
-      "betaVersion": "4.3.53",
-      "revision": "15385668"
-    },
-    {
-      "game": "hsr",
-      "type": "characters",
-      "id": "1509",
-      "rarity": 5,
-      "name": "Gilgamesh",
-      "iconHash": "f14b7b301a148c6bfb417e88fc3bca95",
-      "status": "updated",
-      "href": "https://hsr.gachabase.net/characters/1509/gilgamesh/beta/4.3.53/15385668",
-      "diff": "https://hsr.gachabase.net/diff/characters/1509/gilgamesh?prev=beta_4.3.52_15318724&cur=beta_4.3.53_15385668",
-      "betaVersion": "4.3.53",
-      "revision": "15385668"
-    },
-    {
-      "game": "hsr",
-      "type": "characters",
-      "id": "1510",
-      "rarity": 5,
-      "name": "Himeko • Nova",
-      "iconHash": "a02fa50e1826ff9d666e9a1e9299fd72",
-      "status": "updated",
-      "href": "https://hsr.gachabase.net/characters/1510/himeko-nova/beta/4.3.53/15385668",
-      "diff": "https://hsr.gachabase.net/diff/characters/1510/himeko-nova?prev=beta_4.3.52_15318724&cur=beta_4.3.53_15385668",
-      "betaVersion": "4.3.53",
-      "revision": "15385668"
-    },
-    {
-      "game": "hsr",
-      "type": "characters",
-      "id": "6036",
-      "rarity": 5,
-      "name": "Saber",
-      "iconHash": "d24c764b3defa40d37d46706f9646a24",
-      "status": "updated",
-      "href": "https://hsr.gachabase.net/characters/6036/saber/beta/4.3.53/15385668",
-      "diff": "https://hsr.gachabase.net/diff/characters/6036/saber?prev=beta_4.3.52_15318724&cur=beta_4.3.53_15385668",
-      "betaVersion": "4.3.53",
-      "revision": "15385668"
-    },
-    {
-      "game": "hsr",
-      "type": "characters",
-      "id": "6037",
-      "rarity": 5,
-      "name": "Archer",
-      "iconHash": "cee9af274fb905e5dc461066603f4549",
-      "status": "updated",
-      "href": "https://hsr.gachabase.net/characters/6037/archer/beta/4.3.53/15385668",
-      "diff": "https://hsr.gachabase.net/diff/characters/6037/archer?prev=beta_4.3.52_15318724&cur=beta_4.3.53_15385668",
-      "betaVersion": "4.3.53",
-      "revision": "15385668"
-    },
-    {
-      "game": "hsr",
-      "type": "characters",
-      "id": "6038",
-      "rarity": 4,
-      "name": "Rin Tohsaka",
-      "iconHash": "9d03312750658cfd8fbd92df26e20abb",
-      "status": "updated",
-      "href": "https://hsr.gachabase.net/characters/6038/rin-tohsaka/beta/4.3.53/15385668",
-      "diff": "https://hsr.gachabase.net/diff/characters/6038/rin-tohsaka?prev=beta_4.3.52_15318724&cur=beta_4.3.53_15385668",
-      "betaVersion": "4.3.53",
-      "revision": "15385668"
+      "href": "https://hsr.gachabase.net/characters/6038/rin-tohsaka/beta/4.4.51/15753142",
+      "diff": "https://hsr.gachabase.net/diff/characters/6038/rin-tohsaka?prev=beta_4.3.55_15537653&cur=beta_4.4.51_15753142",
+      "betaVersion": "4.4.51",
+      "revision": "15753142"
     },
     {
       "game": "hsr",
@@ -401,10 +275,10 @@
       "name": "{NICKNAME}",
       "iconHash": "71766955de4ec3d7b647aded7b5266cb",
       "status": "updated",
-      "href": "https://hsr.gachabase.net/characters/6039/nickname/beta/4.3.53/15385668",
-      "diff": "https://hsr.gachabase.net/diff/characters/6039/nickname?prev=beta_4.3.52_15318724&cur=beta_4.3.53_15385668",
-      "betaVersion": "4.3.53",
-      "revision": "15385668"
+      "href": "https://hsr.gachabase.net/characters/6039/nickname/beta/4.4.51/15753142",
+      "diff": "https://hsr.gachabase.net/diff/characters/6039/nickname?prev=beta_4.3.55_15537653&cur=beta_4.4.51_15753142",
+      "betaVersion": "4.4.51",
+      "revision": "15753142"
     },
     {
       "game": "hsr",
@@ -414,10 +288,10 @@
       "name": "{NICKNAME}",
       "iconHash": "d761e38823852df1d28adfb72b47a08f",
       "status": "updated",
-      "href": "https://hsr.gachabase.net/characters/6040/nickname/beta/4.3.53/15385668",
-      "diff": "https://hsr.gachabase.net/diff/characters/6040/nickname?prev=beta_4.3.52_15318724&cur=beta_4.3.53_15385668",
-      "betaVersion": "4.3.53",
-      "revision": "15385668"
+      "href": "https://hsr.gachabase.net/characters/6040/nickname/beta/4.4.51/15753142",
+      "diff": "https://hsr.gachabase.net/diff/characters/6040/nickname?prev=beta_4.3.55_15537653&cur=beta_4.4.51_15753142",
+      "betaVersion": "4.4.51",
+      "revision": "15753142"
     },
     {
       "game": "hsr",
@@ -427,10 +301,34 @@
       "name": "Gilgamesh",
       "iconHash": "f14b7b301a148c6bfb417e88fc3bca95",
       "status": "updated",
-      "href": "https://hsr.gachabase.net/characters/6041/gilgamesh/beta/4.3.53/15385668",
-      "diff": "https://hsr.gachabase.net/diff/characters/6041/gilgamesh?prev=beta_4.3.52_15318724&cur=beta_4.3.53_15385668",
-      "betaVersion": "4.3.53",
-      "revision": "15385668"
+      "href": "https://hsr.gachabase.net/characters/6041/gilgamesh/beta/4.4.51/15753142",
+      "diff": "https://hsr.gachabase.net/diff/characters/6041/gilgamesh?prev=beta_4.3.55_15537653&cur=beta_4.4.51_15753142",
+      "betaVersion": "4.4.51",
+      "revision": "15753142"
+    },
+    {
+      "game": "hsr",
+      "type": "lightcones",
+      "id": "21066",
+      "rarity": 4,
+      "name": "A Little Getaway",
+      "iconHash": "8ce5dddf36a7bac510ff3d580cc065aa",
+      "status": "new",
+      "href": "https://hsr.gachabase.net/lightcones/21066/a-little-getaway/beta/4.4.51/15753142",
+      "betaVersion": "4.4.51",
+      "revision": "15753142"
+    },
+    {
+      "game": "hsr",
+      "type": "lightcones",
+      "id": "22008",
+      "rarity": 4,
+      "name": "Race to the Horizon",
+      "iconHash": "29288fd4291ae62a9ecd31b9f7644437",
+      "status": "new",
+      "href": "https://hsr.gachabase.net/lightcones/22008/race-to-the-horizon/beta/4.4.51/15753142",
+      "betaVersion": "4.4.51",
+      "revision": "15753142"
     },
     {
       "game": "hsr",
@@ -440,10 +338,10 @@
       "name": "A Star That Lights the Night",
       "iconHash": "5d73f13d03f8fa587d638eb7a3c40a60",
       "status": "updated",
-      "href": "https://hsr.gachabase.net/lightcones/23060/a-star-that-lights-the-night/beta/4.3.53/15385668",
-      "diff": "https://hsr.gachabase.net/diff/lightcones/23060/a-star-that-lights-the-night?prev=beta_4.3.52_15318724&cur=beta_4.3.53_15385668",
-      "betaVersion": "4.3.53",
-      "revision": "15385668"
+      "href": "https://hsr.gachabase.net/lightcones/23060/a-star-that-lights-the-night/beta/4.4.51/15753142",
+      "diff": "https://hsr.gachabase.net/diff/lightcones/23060/a-star-that-lights-the-night?prev=beta_4.3.55_15537653&cur=beta_4.4.51_15753142",
+      "betaVersion": "4.4.51",
+      "revision": "15753142"
     },
     {
       "game": "hsr",
@@ -453,10 +351,10 @@
       "name": "Flickering Stars",
       "iconHash": "89de0b5a684b3d714e0a9bfe10b43e0d",
       "status": "updated",
-      "href": "https://hsr.gachabase.net/lightcones/23061/flickering-stars/beta/4.3.53/15385668",
-      "diff": "https://hsr.gachabase.net/diff/lightcones/23061/flickering-stars?prev=beta_4.3.52_15318724&cur=beta_4.3.53_15385668",
-      "betaVersion": "4.3.53",
-      "revision": "15385668"
+      "href": "https://hsr.gachabase.net/lightcones/23061/flickering-stars/beta/4.4.51/15753142",
+      "diff": "https://hsr.gachabase.net/diff/lightcones/23061/flickering-stars?prev=beta_4.3.55_15537653&cur=beta_4.4.51_15753142",
+      "betaVersion": "4.4.51",
+      "revision": "15753142"
     },
     {
       "game": "hsr",
@@ -466,413 +364,34 @@
       "name": "I Am As You Behold",
       "iconHash": "51b661213b0d78a8ff64a349470a03b5",
       "status": "updated",
-      "href": "https://hsr.gachabase.net/lightcones/23062/i-am-as-you-behold/beta/4.3.53/15385668",
-      "diff": "https://hsr.gachabase.net/diff/lightcones/23062/i-am-as-you-behold?prev=beta_4.3.52_15318724&cur=beta_4.3.53_15385668",
-      "betaVersion": "4.3.53",
-      "revision": "15385668"
-    },
-    {
-      "game": "hsr",
-      "type": "characters",
-      "id": "1508",
-      "rarity": 5,
-      "name": "Rin Tohsaka",
-      "iconHash": "9d03312750658cfd8fbd92df26e20abb",
-      "status": "updated",
-      "href": "https://hsr.gachabase.net/characters/1508/rin-tohsaka/beta/4.3.52/15318724",
-      "diff": "https://hsr.gachabase.net/diff/characters/1508/rin-tohsaka?prev=beta_4.3.51_15265964&cur=beta_4.3.52_15318724",
-      "betaVersion": "4.3.52",
-      "revision": "15318724"
-    },
-    {
-      "game": "hsr",
-      "type": "characters",
-      "id": "1509",
-      "rarity": 5,
-      "name": "Gilgamesh",
-      "iconHash": "f14b7b301a148c6bfb417e88fc3bca95",
-      "status": "updated",
-      "href": "https://hsr.gachabase.net/characters/1509/gilgamesh/beta/4.3.52/15318724",
-      "diff": "https://hsr.gachabase.net/diff/characters/1509/gilgamesh?prev=beta_4.3.51_15265964&cur=beta_4.3.52_15318724",
-      "betaVersion": "4.3.52",
-      "revision": "15318724"
-    },
-    {
-      "game": "hsr",
-      "type": "characters",
-      "id": "6038",
-      "rarity": 4,
-      "name": "Rin Tohsaka",
-      "iconHash": "9d03312750658cfd8fbd92df26e20abb",
-      "status": "updated",
-      "href": "https://hsr.gachabase.net/characters/6038/rin-tohsaka/beta/4.3.52/15318724",
-      "diff": "https://hsr.gachabase.net/diff/characters/6038/rin-tohsaka?prev=beta_4.3.51_15265964&cur=beta_4.3.52_15318724",
-      "betaVersion": "4.3.52",
-      "revision": "15318724"
-    },
-    {
-      "game": "hsr",
-      "type": "characters",
-      "id": "1510",
-      "rarity": 5,
-      "name": "Himeko • Nova",
-      "iconHash": "a02fa50e1826ff9d666e9a1e9299fd72",
-      "status": "updated",
-      "href": "https://hsr.gachabase.net/characters/1510/himeko-nova/beta/4.3.52/15318724",
-      "diff": "https://hsr.gachabase.net/diff/characters/1510/himeko-nova?prev=beta_4.3.51_15265964&cur=beta_4.3.52_15318724",
-      "betaVersion": "4.3.52",
-      "revision": "15318724"
-    },
-    {
-      "game": "hsr",
-      "type": "characters",
-      "id": "6036",
-      "rarity": 5,
-      "name": "Saber",
-      "iconHash": "d24c764b3defa40d37d46706f9646a24",
-      "status": "updated",
-      "href": "https://hsr.gachabase.net/characters/6036/saber/beta/4.3.52/15318724",
-      "diff": "https://hsr.gachabase.net/diff/characters/6036/saber?prev=beta_4.3.51_15265964&cur=beta_4.3.52_15318724",
-      "betaVersion": "4.3.52",
-      "revision": "15318724"
-    },
-    {
-      "game": "hsr",
-      "type": "characters",
-      "id": "6041",
-      "rarity": 4,
-      "name": "Gilgamesh",
-      "iconHash": "f14b7b301a148c6bfb417e88fc3bca95",
-      "status": "updated",
-      "href": "https://hsr.gachabase.net/characters/6041/gilgamesh/beta/4.3.52/15318724",
-      "diff": "https://hsr.gachabase.net/diff/characters/6041/gilgamesh?prev=beta_4.3.51_15265964&cur=beta_4.3.52_15318724",
-      "betaVersion": "4.3.52",
-      "revision": "15318724"
+      "href": "https://hsr.gachabase.net/lightcones/23062/i-am-as-you-behold/beta/4.4.51/15753142",
+      "diff": "https://hsr.gachabase.net/diff/lightcones/23062/i-am-as-you-behold?prev=beta_4.3.55_15537653&cur=beta_4.4.51_15753142",
+      "betaVersion": "4.4.51",
+      "revision": "15753142"
     },
     {
       "game": "hsr",
       "type": "lightcones",
-      "id": "23060",
+      "id": "23063",
       "rarity": 5,
-      "name": "A Star That Lights the Night",
-      "iconHash": "5d73f13d03f8fa587d638eb7a3c40a60",
-      "status": "updated",
-      "href": "https://hsr.gachabase.net/lightcones/23060/a-star-that-lights-the-night/beta/4.3.52/15318724",
-      "diff": "https://hsr.gachabase.net/diff/lightcones/23060/a-star-that-lights-the-night?prev=beta_4.3.51_15265964&cur=beta_4.3.52_15318724",
-      "betaVersion": "4.3.52",
-      "revision": "15318724"
-    },
-    {
-      "game": "hsr",
-      "type": "characters",
-      "id": "1001",
-      "rarity": 4,
-      "name": "March 7th",
-      "iconHash": "9418d6a3a92a32b09501bbd72f8f3571",
-      "status": "updated",
-      "href": "https://hsr.gachabase.net/characters/1001/march-7th/beta/4.3.51/15260290",
-      "diff": "https://hsr.gachabase.net/diff/characters/1001/march-7th?prev=beta_4.2.54_15037666&cur=beta_4.3.51_15260290",
-      "betaVersion": "4.3.51",
-      "revision": "15260290"
-    },
-    {
-      "game": "hsr",
-      "type": "characters",
-      "id": "1004",
-      "rarity": 5,
-      "name": "Welt",
-      "iconHash": "b8e968d79adaeef4b592a197a167ff34",
-      "status": "updated",
-      "href": "https://hsr.gachabase.net/characters/1004/welt/beta/4.3.51/15260290",
-      "diff": "https://hsr.gachabase.net/diff/characters/1004/welt?prev=beta_4.2.54_15037666&cur=beta_4.3.51_15260290",
-      "betaVersion": "4.3.51",
-      "revision": "15260290"
-    },
-    {
-      "game": "hsr",
-      "type": "characters",
-      "id": "1313",
-      "rarity": 5,
-      "name": "Sunday",
-      "iconHash": "2dd3f7d16106722b57ff155f25dba780",
-      "status": "updated",
-      "href": "https://hsr.gachabase.net/characters/1313/sunday/beta/4.3.51/15260290",
-      "diff": "https://hsr.gachabase.net/diff/characters/1313/sunday?prev=beta_4.2.54_15037666&cur=beta_4.3.51_15260290",
-      "betaVersion": "4.3.51",
-      "revision": "15260290"
-    },
-    {
-      "game": "hsr",
-      "type": "characters",
-      "id": "1407",
-      "rarity": 5,
-      "name": "Castorice",
-      "iconHash": "9dc6745d071921b94a14e10538c9787c",
-      "status": "updated",
-      "href": "https://hsr.gachabase.net/characters/1407/castorice/beta/4.3.51/15260290",
-      "diff": "https://hsr.gachabase.net/diff/characters/1407/castorice?prev=beta_4.2.54_15037666&cur=beta_4.3.51_15260290",
-      "betaVersion": "4.3.51",
-      "revision": "15260290"
-    },
-    {
-      "game": "hsr",
-      "type": "characters",
-      "id": "1508",
-      "rarity": 5,
-      "name": "Rin Tohsaka",
-      "iconHash": "9d03312750658cfd8fbd92df26e20abb",
+      "name": "Rise and Sing",
+      "iconHash": "d1b152ecba1d6e307995eae689ef21b4",
       "status": "new",
-      "href": "https://hsr.gachabase.net/characters/1508/rin-tohsaka/beta/4.3.51/15260290",
-      "betaVersion": "4.3.51",
-      "revision": "15260290"
-    },
-    {
-      "game": "hsr",
-      "type": "characters",
-      "id": "6039",
-      "rarity": 5,
-      "name": "{NICKNAME}",
-      "iconHash": "71766955de4ec3d7b647aded7b5266cb",
-      "status": "new",
-      "href": "https://hsr.gachabase.net/characters/6039/nickname/beta/4.3.51/15260290",
-      "betaVersion": "4.3.51",
-      "revision": "15260290"
-    },
-    {
-      "game": "hsr",
-      "type": "characters",
-      "id": "1006",
-      "rarity": 5,
-      "name": "Silver Wolf",
-      "iconHash": "2ffd18388014392b721df480b6a147a9",
-      "status": "updated",
-      "href": "https://hsr.gachabase.net/characters/1006/silver-wolf/beta/4.3.51/15260290",
-      "diff": "https://hsr.gachabase.net/diff/characters/1006/silver-wolf?prev=beta_4.2.54_15037666&cur=beta_4.3.51_15260290",
-      "betaVersion": "4.3.51",
-      "revision": "15260290"
-    },
-    {
-      "game": "hsr",
-      "type": "characters",
-      "id": "1014",
-      "rarity": 5,
-      "name": "Saber",
-      "iconHash": "d24c764b3defa40d37d46706f9646a24",
-      "status": "updated",
-      "href": "https://hsr.gachabase.net/characters/1014/saber/beta/4.3.51/15260290",
-      "diff": "https://hsr.gachabase.net/diff/characters/1014/saber?prev=beta_4.2.54_15037666&cur=beta_4.3.51_15260290",
-      "betaVersion": "4.3.51",
-      "revision": "15260290"
-    },
-    {
-      "game": "hsr",
-      "type": "characters",
-      "id": "1414",
-      "rarity": 5,
-      "name": "Dan Heng • Permansor Terrae",
-      "iconHash": "8a939a292f2c996ad09006df2fc026bc",
-      "status": "updated",
-      "href": "https://hsr.gachabase.net/characters/1414/dan-heng-permansor-terrae/beta/4.3.51/15260290",
-      "diff": "https://hsr.gachabase.net/diff/characters/1414/dan-heng-permansor-terrae?prev=beta_4.2.54_15037666&cur=beta_4.3.51_15260290",
-      "betaVersion": "4.3.51",
-      "revision": "15260290"
-    },
-    {
-      "game": "hsr",
-      "type": "characters",
-      "id": "1510",
-      "rarity": 5,
-      "name": "Himeko • Nova",
-      "iconHash": "a02fa50e1826ff9d666e9a1e9299fd72",
-      "status": "new",
-      "href": "https://hsr.gachabase.net/characters/1510/himeko-nova/beta/4.3.51/15260290",
-      "betaVersion": "4.3.51",
-      "revision": "15260290"
-    },
-    {
-      "game": "hsr",
-      "type": "characters",
-      "id": "6037",
-      "rarity": 5,
-      "name": "Archer",
-      "iconHash": "cee9af274fb905e5dc461066603f4549",
-      "status": "new",
-      "href": "https://hsr.gachabase.net/characters/6037/archer/beta/4.3.51/15260290",
-      "betaVersion": "4.3.51",
-      "revision": "15260290"
-    },
-    {
-      "game": "hsr",
-      "type": "characters",
-      "id": "6040",
-      "rarity": 5,
-      "name": "{NICKNAME}",
-      "iconHash": "d761e38823852df1d28adfb72b47a08f",
-      "status": "new",
-      "href": "https://hsr.gachabase.net/characters/6040/nickname/beta/4.3.51/15260290",
-      "betaVersion": "4.3.51",
-      "revision": "15260290"
-    },
-    {
-      "game": "hsr",
-      "type": "characters",
-      "id": "1015",
-      "rarity": 5,
-      "name": "Archer",
-      "iconHash": "cee9af274fb905e5dc461066603f4549",
-      "status": "updated",
-      "href": "https://hsr.gachabase.net/characters/1015/archer/beta/4.3.51/15260290",
-      "diff": "https://hsr.gachabase.net/diff/characters/1015/archer?prev=beta_4.2.54_15037666&cur=beta_4.3.51_15260290",
-      "betaVersion": "4.3.51",
-      "revision": "15260290"
-    },
-    {
-      "game": "hsr",
-      "type": "characters",
-      "id": "1507",
-      "rarity": 5,
-      "name": "Mortenax Blade",
-      "iconHash": "c98c2d67c810e74bcc549f151ee42d14",
-      "status": "updated",
-      "href": "https://hsr.gachabase.net/characters/1507/mortenax-blade/beta/4.3.51/15260290",
-      "diff": "https://hsr.gachabase.net/diff/characters/1507/mortenax-blade?prev=beta_4.2.54_15037666&cur=beta_4.3.51_15260290",
-      "betaVersion": "4.3.51",
-      "revision": "15260290"
-    },
-    {
-      "game": "hsr",
-      "type": "characters",
-      "id": "1509",
-      "rarity": 5,
-      "name": "Gilgamesh",
-      "iconHash": "f14b7b301a148c6bfb417e88fc3bca95",
-      "status": "new",
-      "href": "https://hsr.gachabase.net/characters/1509/gilgamesh/beta/4.3.51/15260290",
-      "betaVersion": "4.3.51",
-      "revision": "15260290"
-    },
-    {
-      "game": "hsr",
-      "type": "characters",
-      "id": "6036",
-      "rarity": 5,
-      "name": "Saber",
-      "iconHash": "d24c764b3defa40d37d46706f9646a24",
-      "status": "new",
-      "href": "https://hsr.gachabase.net/characters/6036/saber/beta/4.3.51/15260290",
-      "betaVersion": "4.3.51",
-      "revision": "15260290"
-    },
-    {
-      "game": "hsr",
-      "type": "characters",
-      "id": "6038",
-      "rarity": 4,
-      "name": "Rin Tohsaka",
-      "iconHash": "9d03312750658cfd8fbd92df26e20abb",
-      "status": "new",
-      "href": "https://hsr.gachabase.net/characters/6038/rin-tohsaka/beta/4.3.51/15260290",
-      "betaVersion": "4.3.51",
-      "revision": "15260290"
-    },
-    {
-      "game": "hsr",
-      "type": "characters",
-      "id": "6041",
-      "rarity": 4,
-      "name": "Gilgamesh",
-      "iconHash": "f14b7b301a148c6bfb417e88fc3bca95",
-      "status": "new",
-      "href": "https://hsr.gachabase.net/characters/6041/gilgamesh/beta/4.3.51/15260290",
-      "betaVersion": "4.3.51",
-      "revision": "15260290"
+      "href": "https://hsr.gachabase.net/lightcones/23063/rise-and-sing/beta/4.4.51/15753142",
+      "betaVersion": "4.4.51",
+      "revision": "15753142"
     },
     {
       "game": "hsr",
       "type": "lightcones",
-      "id": "23060",
+      "id": "23064",
       "rarity": 5,
-      "name": "A Star That Lights the Night",
-      "iconHash": "5d73f13d03f8fa587d638eb7a3c40a60",
+      "name": "Summer Rides the Surf",
+      "iconHash": "665cfbbe94d6df9985c5ea5f32d62e70",
       "status": "new",
-      "href": "https://hsr.gachabase.net/lightcones/23060/a-star-that-lights-the-night/beta/4.3.51/15260290",
-      "betaVersion": "4.3.51",
-      "revision": "15260290"
-    },
-    {
-      "game": "hsr",
-      "type": "lightcones",
-      "id": "23062",
-      "rarity": 5,
-      "name": "I Am As You Behold",
-      "iconHash": "51b661213b0d78a8ff64a349470a03b5",
-      "status": "new",
-      "href": "https://hsr.gachabase.net/lightcones/23062/i-am-as-you-behold/beta/4.3.51/15260290",
-      "betaVersion": "4.3.51",
-      "revision": "15260290"
-    },
-    {
-      "game": "hsr",
-      "type": "lightcones",
-      "id": "23059",
-      "rarity": 5,
-      "name": "Reforged in Hellfire",
-      "iconHash": "a566dbce0b3241dcde36c64fe49aff2b",
-      "status": "updated",
-      "href": "https://hsr.gachabase.net/lightcones/23059/reforged-in-hellfire/beta/4.3.51/15260290",
-      "diff": "https://hsr.gachabase.net/diff/lightcones/23059/reforged-in-hellfire?prev=beta_4.2.54_15037666&cur=beta_4.3.51_15260290",
-      "betaVersion": "4.3.51",
-      "revision": "15260290"
-    },
-    {
-      "game": "hsr",
-      "type": "lightcones",
-      "id": "23061",
-      "rarity": 5,
-      "name": "Flickering Stars",
-      "iconHash": "89de0b5a684b3d714e0a9bfe10b43e0d",
-      "status": "new",
-      "href": "https://hsr.gachabase.net/lightcones/23061/flickering-stars/beta/4.3.51/15260290",
-      "betaVersion": "4.3.51",
-      "revision": "15260290"
-    },
-    {
-      "game": "hsr",
-      "type": "relics",
-      "id": "132",
-      "rarity": null,
-      "name": "Divine-Querying Master Smith",
-      "iconHash": "ec309a95156cb83a818408c9acf3d0be",
-      "status": "updated",
-      "href": "https://hsr.gachabase.net/relics/132/divine-querying-master-smith/beta/4.3.51/15260290",
-      "diff": "https://hsr.gachabase.net/diff/relics/132/divine-querying-master-smith?prev=beta_4.2.54_15037666&cur=beta_4.3.51_15260290",
-      "betaVersion": "4.3.51",
-      "revision": "15260290"
-    },
-    {
-      "game": "hsr",
-      "type": "relics",
-      "id": "131",
-      "rarity": null,
-      "name": "As Navigator Isee Sees It",
-      "iconHash": "10cc8f1400cfdb048610c33678b17290",
-      "status": "updated",
-      "href": "https://hsr.gachabase.net/relics/131/as-navigator-isee-sees-it/beta/4.3.51/15260290",
-      "diff": "https://hsr.gachabase.net/diff/relics/131/as-navigator-isee-sees-it?prev=beta_4.2.54_15037666&cur=beta_4.3.51_15260290",
-      "betaVersion": "4.3.51",
-      "revision": "15260290"
-    },
-    {
-      "game": "hsr",
-      "type": "planar-ornaments",
-      "id": "327",
-      "rarity": null,
-      "name": "Fallen Star Anchorage",
-      "iconHash": "54cb6b8c5325a238aab6c0f7fe9c5638",
-      "status": "new",
-      "href": "https://hsr.gachabase.net/planar-ornaments/327/fallen-star-anchorage/beta/4.3.51/15260290",
-      "betaVersion": "4.3.51",
-      "revision": "15260290"
+      "href": "https://hsr.gachabase.net/lightcones/23064/summer-rides-the-surf/beta/4.4.51/15753142",
+      "betaVersion": "4.4.51",
+      "revision": "15753142"
     },
     {
       "game": "hsr",
@@ -881,16 +400,11 @@
       "rarity": null,
       "name": "Cosmic Life Sciences Institute",
       "iconHash": "98cead03668eecabe38d481f17d477eb",
-      "status": "new",
-      "href": "https://hsr.gachabase.net/planar-ornaments/328/cosmic-life-sciences-institute/beta/4.3.51/15260290",
-      "betaVersion": "4.3.51",
-      "revision": "15260290"
+      "status": "updated",
+      "href": "https://hsr.gachabase.net/planar-ornaments/328/cosmic-life-sciences-institute/beta/4.4.51/15753142",
+      "diff": "https://hsr.gachabase.net/diff/planar-ornaments/328/cosmic-life-sciences-institute?prev=beta_4.3.55_15537653&cur=beta_4.4.51_15753142",
+      "betaVersion": "4.4.51",
+      "revision": "15753142"
     }
-  ],
-  "stale": true,
-  "freshness": {
-    "ok": false,
-    "message": "No GachaBase beta entries parsed for hsr",
-    "checkedAt": "2026-07-18T07:16:03.617Z"
-  }
+  ]
 }

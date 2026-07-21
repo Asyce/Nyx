@@ -3,6 +3,7 @@ import fs from 'node:fs/promises';
 import http from 'node:http';
 import path from 'node:path';
 import { inspectAchievementIconBytes, validateCatalog as validateAchievementCatalog } from '../../Scraper/achievements/core.mjs';
+import { buildManifest, loadManifestInputs, validatePackagedManifest } from './generate-launcher-manifest.mjs';
 import vm from 'node:vm';
 import { fileURLToPath } from 'node:url';
 
@@ -239,12 +240,105 @@ async function checkBinaryFetch(base, route, expected) {
   return bytes.length;
 }
 
+function collectLauncherAssets(manifest) {
+  const assets = [];
+  for (const game of Object.values(manifest?.games ?? {})) {
+    const current = game?.current;
+    assets.push(
+      ...(current?.variants ?? []),
+      ...(current?.characters ?? []).map((character) => character.icon).filter(Boolean),
+      ...(current?.characters ?? []).flatMap((character) => character.variants ?? []),
+      ...(game?.upcoming ?? []).flatMap((phase) => phase.characters ?? []).map((character) => character.icon).filter(Boolean),
+    );
+  }
+  return assets;
+}
+
+async function verifyLauncherBanners(base) {
+  const manifestFile = path.resolve(deployDir, 'dist', 'launcher-banners-v1.json');
+  const manifestBytes = await fs.readFile(manifestFile);
+  const manifest = JSON.parse(manifestBytes.toString('utf8'));
+  const launcherCodes = JSON.parse(await readDeployText('dist/launcher-codes-v1.json'));
+  const generatedAt = Date.parse(manifest.generatedAt ?? '');
+  validatePackagedManifest(manifest, { now: Date.now() });
+
+  const expected = buildManifest({
+    ...loadManifestInputs({ now: generatedAt }),
+    now: generatedAt,
+    generatedAt: manifest.generatedAt,
+  });
+  for (const game of ['gi', 'hsr', 'zzz', 'wuwa', 'ae']) {
+    if (JSON.stringify(manifest.games[game].codes) !== JSON.stringify(launcherCodes.games?.[game])) throw new Error(`${game} embedded launcher codes differ from the standalone feed`);
+    const actualIdentity = {
+      selected: manifest.games[game].current.selectedCharacter.name,
+      current: manifest.games[game].current.characters.map((character) => character.name),
+      upcoming: manifest.games[game].upcoming.map((phase) => ({ start: phase.start, characters: phase.characters.map((character) => character.name) })),
+    };
+    const expectedIdentity = {
+      selected: expected.games[game].current?.selectedCharacter?.name,
+      current: expected.games[game].current?.characters?.map((character) => character.name),
+      upcoming: expected.games[game].upcoming.map((phase) => ({ start: phase.start, characters: phase.characters.map((character) => character.name) })),
+    };
+    if (JSON.stringify(actualIdentity) !== JSON.stringify(expectedIdentity)) throw new Error(`${game} launcher selection does not match trusted source data`);
+  }
+
+  const assets = collectLauncherAssets(manifest);
+  const unique = new Map();
+  for (const asset of assets) {
+    const existing = unique.get(asset.sha256);
+    const metadata = JSON.stringify({ path: asset.path, url: asset.url, mime: asset.mime, size: asset.size, dimensions: asset.dimensions });
+    if (existing && existing.metadata !== metadata) throw new Error(`launcher asset ${asset.sha256} has conflicting metadata`);
+    unique.set(asset.sha256, { asset, metadata });
+  }
+  const artDir = path.resolve(deployDir, 'dist', 'launcher-art');
+  const entries = await fs.readdir(artDir, { withFileTypes: true });
+  const actualFiles = entries.map((entry) => entry.name).sort();
+  if (entries.some((entry) => !entry.isFile() || !/^[a-f0-9]{64}\.webp$/.test(entry.name))) throw new Error('launcher-art contains a non-content-addressed entry');
+  const expectedFiles = [...unique.keys()].map((sha) => `${sha}.webp`).sort();
+  if (JSON.stringify(actualFiles) !== JSON.stringify(expectedFiles)) throw new Error('launcher-art contains missing or unreferenced files');
+
+  let artBytes = 0;
+  for (const [sha, { asset }] of unique) {
+    const expectedPath = `/launcher-art/${sha}.webp`;
+    if (asset.path !== expectedPath || asset.url !== `https://pengo.gg/dist${expectedPath}` || asset.mime !== 'image/webp') throw new Error(`launcher asset ${sha} has an unsafe path or MIME`);
+    const file = path.resolve(artDir, `${sha}.webp`);
+    if (!file.startsWith(`${artDir}${path.sep}`)) throw new Error(`launcher asset ${sha} escaped launcher-art`);
+    const bytes = await fs.readFile(file);
+    if (bytes.length !== asset.size) throw new Error(`launcher asset ${sha} has the wrong size`);
+    if (crypto.createHash('sha256').update(bytes).digest('hex') !== sha) throw new Error(`launcher asset ${sha} has the wrong hash`);
+    if (bytes.toString('ascii', 0, 4) !== 'RIFF' || bytes.toString('ascii', 8, 12) !== 'WEBP') throw new Error(`launcher asset ${sha} is not WebP`);
+    artBytes += bytes.length;
+  }
+
+  const manifestResponse = await fetch(`${base}/dist/launcher-banners-v1.json`);
+  const fetchedManifest = Buffer.from(await manifestResponse.arrayBuffer());
+  if (manifestResponse.status !== 200 || !String(manifestResponse.headers.get('content-type')).startsWith('application/json')) throw new Error('launcher manifest HTTP probe failed');
+  if (!fetchedManifest.equals(manifestBytes)) throw new Error('launcher manifest HTTP bytes differ from deploy artifact');
+  const first = unique.values().next().value?.asset;
+  if (!first) throw new Error('launcher manifest references no art');
+  const assetResponse = await fetch(`${base}/dist${first.path}`);
+  const fetchedAsset = Buffer.from(await assetResponse.arrayBuffer());
+  if (assetResponse.status !== 200 || assetResponse.headers.get('content-type') !== 'image/webp') throw new Error('launcher art HTTP probe failed');
+  if (fetchedAsset.length !== first.size || crypto.createHash('sha256').update(fetchedAsset).digest('hex') !== first.sha256) throw new Error('launcher art HTTP bytes differ from manifest');
+
+  return {
+    manifestBytes: manifestBytes.length,
+    manifestSha256: crypto.createHash('sha256').update(manifestBytes).digest('hex'),
+    revision: manifest.revision,
+    occurrences: assets.length,
+    uniqueAssets: unique.size,
+    artBytes,
+    selections: Object.fromEntries(Object.entries(manifest.games).map(([game, entry]) => [game, entry.current.selectedCharacter.name])),
+  };
+}
+
 async function main() {
   if (!(await exists(deployDir))) throw new Error(`Missing deploy directory: ${deployDir}`);
 
   const server = createServer();
   const base = await listen(server);
   const results = [];
+  let launcherBanners;
   try {
     for (const [route, marker, minBytes] of [
       ['/', 'Pengo'],
@@ -270,11 +364,13 @@ async function main() {
       ['/sitemap.xml', '<urlset'],
       ['/version.json', '"app": "pengo-nyx"', 50],
       ['/dist/launcher-codes-v1.json', '"schemaVersion": 1', 100],
+      ['/dist/launcher-banners-v1.json', '"schemaVersion": 1', 1_000],
       ['/scripts/pengo-achievements.ps1', 'Pengo Nyx - offline achievement screenshot reader', 50_000],
       ['/scripts/pengo-hsr-hoyolab-achievements.js', 'Pengo HSR achievement export', 20_000],
     ]) {
       results.push(`${route} ${await checkFetch(base, route, marker, minBytes)} bytes`);
     }
+    launcherBanners = await verifyLauncherBanners(base);
     results.push(`runtime data ${await verifyRuntimeData(base)} files`);
   } finally {
     await close(server);
@@ -384,6 +480,9 @@ async function main() {
   console.log(`  script sha256 ${scriptHash}`);
   console.log(`  achievement script sha256 ${achievementScriptHash}`);
   console.log(`  HSR HoYoLAB script sha256 ${hsrAchievementScriptHash}`);
+  console.log(`  launcher manifest ${launcherBanners.manifestBytes} bytes sha256 ${launcherBanners.manifestSha256} revision ${launcherBanners.revision}`);
+  console.log(`  launcher art ${launcherBanners.uniqueAssets} unique/${launcherBanners.occurrences} occurrences ${launcherBanners.artBytes} bytes`);
+  console.log(`  launcher selections ${JSON.stringify(launcherBanners.selections)}`);
   console.log(`  commit ${version.shortCommit}`);
   console.log(`  deploy files ${deployFileCount}/20000`);
 }

@@ -56,15 +56,32 @@ jobs:
         run: npm run validate
 
       - name: Commit semantic history candidate
+        id: history_commit
         run: |
           git config user.name "pengo-bot"
           git config user.email "bot@pengo.gg"
           git add Database/BannerHistory Database/Activities Site/src/features/gacha/pulls-banners-gi.js
           if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "No semantic banner-history changes."
           else
             git commit -m "chore(data): scheduled banner-history refresh [skip ci]"
             git pull --rebase origin main
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Refresh committed site and launcher feeds
+        if: ${{ steps.history_commit.outputs.changed == 'true' }}
+        working-directory: Site
+        run: npm run generate:data && npm run refresh:launcher
+
+      - name: Amend history with generated feeds
+        if: ${{ steps.history_commit.outputs.changed == 'true' }}
+        run: |
+          git add Site/src/data/generated/nyx-data.js Site/src/data/generated/launcher-codes-v1.json Site/src/data/generated/launcher-banners-v1.json
+          git add -A Site/src/data/generated/launcher-art
+          if ! git diff --cached --quiet; then
+            git commit --amend --no-edit
           fi
 
       - name: Build deploy artifact

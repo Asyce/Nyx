@@ -36,6 +36,7 @@ const BANNER_HISTORY_HOSTS = {
 };
 const BANNER_REGIONS = ['europe', 'asia', 'america', 'global'];
 const REMOTE_WUWA_ICON_HOST = 'static.nanoka.cc';
+export const MAX_REMOTE_LAUNCHER_ART_BYTES = 2 * 1024 * 1024;
 const PREMIUM_CURRENCY = {
   gi: { name: 'Primogems', aliases: ['primogem', 'primogems'] },
   hsr: { name: 'Stellar Jade', aliases: ['stellar jade'] },
@@ -253,6 +254,56 @@ function remoteWuwaIconUrl(value) {
   } catch {
     return null;
   }
+}
+
+export async function fetchRemoteLauncherArt(sourceUrl, {
+  fetchImpl = globalThis.fetch,
+  maxBytes = MAX_REMOTE_LAUNCHER_ART_BYTES,
+} = {}) {
+  const approvedUrl = remoteWuwaIconUrl(sourceUrl);
+  if (!approvedUrl || approvedUrl !== sourceUrl) throw new Error(`Launcher art source URL is not approved: ${sourceUrl}`);
+  if (!Number.isSafeInteger(maxBytes) || maxBytes <= 0) throw new TypeError('Launcher art byte limit must be a positive safe integer');
+  const response = await fetchImpl(approvedUrl, {
+    headers: { accept: 'image/webp,image/png,image/jpeg' },
+    redirect: 'error',
+    signal: AbortSignal.timeout(20_000),
+  });
+  if (!response?.ok) throw new Error(`Launcher art source request failed (${response?.status ?? 'unknown'}): ${approvedUrl}`);
+  if (response.redirected === true || response.url !== approvedUrl) {
+    throw new Error(`Launcher art source redirected away from its approved URL: ${approvedUrl}`);
+  }
+  const contentType = String(response.headers?.get?.('content-type') ?? '').split(';', 1)[0].trim().toLowerCase();
+  if (!['image/webp', 'image/png', 'image/jpeg'].includes(contentType)) {
+    throw new Error(`Launcher art source returned an unsupported MIME type: ${contentType || '<missing>'}`);
+  }
+  const declaredLength = Number(response.headers?.get?.('content-length'));
+  if (Number.isFinite(declaredLength) && declaredLength > maxBytes) {
+    throw new Error(`Launcher art source exceeds ${maxBytes} bytes: ${approvedUrl}`);
+  }
+  if (!response.body || typeof response.body.getReader !== 'function') {
+    throw new Error(`Launcher art source did not provide a bounded response stream: ${approvedUrl}`);
+  }
+
+  const reader = response.body.getReader();
+  const chunks = [];
+  let total = 0;
+  try {
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      const chunk = Buffer.from(value);
+      total += chunk.length;
+      if (total > maxBytes) {
+        await reader.cancel('launcher art byte limit exceeded');
+        throw new Error(`Launcher art source exceeds ${maxBytes} bytes: ${approvedUrl}`);
+      }
+      chunks.push(chunk);
+    }
+  } finally {
+    reader.releaseLock?.();
+  }
+  if (!total) throw new Error(`Launcher art source is empty: ${approvedUrl}`);
+  return Buffer.concat(chunks, total);
 }
 
 function remoteCharacterIcon(game, raw, variantId) {
@@ -506,17 +557,17 @@ export function applySourcedBannerWindows(banners, db = DATABASE, nowMs = Date.n
   for (const group of copy.games ?? []) {
     const game = canonicalGame(group?.id ?? group?.slug ?? group?.name);
     if (!game) continue;
-    const historyFile = path.join(db, 'BannerHistory', `${game}.json`);
-    if (!fs.existsSync(historyFile)) continue;
-    const history = JSON.parse(fs.readFileSync(historyFile, 'utf8'));
     const corroboratingGroup = structuredClone(group);
-    group._displayUpcoming = [corroboratingGroup.next, ...(corroboratingGroup.upcoming ?? [])].filter(Boolean);
-    // A present history file is the only authority for launcher current-state
-    // decisions. Invalid identity/provenance must not fall back to raw banner
-    // timestamps from another provider.
+    group._displayUpcoming = [];
     group.current = null;
     group.next = null;
     group.upcoming = [];
+    const historyFile = path.join(db, 'BannerHistory', `${game}.json`);
+    if (!fs.existsSync(historyFile)) continue;
+    const history = JSON.parse(fs.readFileSync(historyFile, 'utf8'));
+    // A present history file is the only authority for launcher current-state
+    // decisions. Invalid identity/provenance must not fall back to raw banner
+    // timestamps from another provider.
     const trusted = (history.records ?? []).filter((record) => hasTrustedBannerHistoryIdentity(history, record, game));
     let region = null;
     let active = [];
@@ -586,9 +637,45 @@ export function applySourcedBannerWindows(banners, db = DATABASE, nowMs = Date.n
       _sourceRegion: region,
       _sourceChannels: active.map((entry) => ({ recordId: entry.recordId, category: entry.category })),
     };
-    // Raw next/upcoming timestamps are not trusted for current-state decisions.
-    // Only independently identified, complete history records above can enter
-    // the current composite.
+    const futureWindows = new Map();
+    for (const record of trusted) {
+      if (record?.confirmed !== true || record?.bannerType !== 'character' || record?.permanent === true || !record?.category) continue;
+      const window = record.windowsByRegion?.[region];
+      const futureStart = iso(window?.start);
+      const futureEnd = iso(window?.end);
+      if (!(timestamp(futureStart) > nowMs) || !(timestamp(futureEnd) > timestamp(futureStart))) continue;
+      const key = `${futureStart}\u0000${futureEnd}`;
+      if (!futureWindows.has(key)) futureWindows.set(key, []);
+      futureWindows.get(key).push(record);
+    }
+    group._displayUpcoming = [...futureWindows.entries()].flatMap(([key, records]) => {
+      const [futureStart, futureEnd] = key.split('\u0000');
+      const futureVersions = new Set(records.map((record) => cleanText(record.version, 48)).filter(Boolean));
+      if (records.some((record) => !cleanText(record.version, 48)) || futureVersions.size !== 1) return [];
+      const futureCharacters = [];
+      for (const record of records.sort((left, right) => left.id.localeCompare(right.id))) {
+        for (const featured of record.featured ?? []) {
+          const futureName = cleanText(featured?.name, 80);
+          if (featured?.primary !== true || !futureName || futureCharacters.some((entry) => sameBannerCharacter(game, entry.name, futureName))) continue;
+          const image = sourceImages.get(norm(futureName));
+          const character = { name: futureName, rarity: parseRarity(featured.rarity), limited: true };
+          futureCharacters.push(image ? { ...character, image } : character);
+        }
+      }
+      if (!futureCharacters.length) return [];
+      return [{
+        phase: [...futureVersions][0],
+        start: futureStart,
+        end: futureEnd,
+        characters: futureCharacters,
+        _sourcedWindow: true,
+        _sourceRegion: region,
+        _sourceChannels: records.map((record) => ({ recordId: record.id, category: record.category })),
+      }];
+    }).sort((left, right) => left.start.localeCompare(right.start));
+    // Raw next/upcoming timestamps never enter the launcher feed. Complete,
+    // confirmed records with the same trusted history identity as current data
+    // are the only future-banner authority.
   }
   return copy;
 }
@@ -604,7 +691,7 @@ function buildNews(game, events) {
 function buildUpcomingPhases(game, group, rosters, prydwen, db, debuts, nowMs) {
   const raw = Array.isArray(group?._displayUpcoming)
     ? group._displayUpcoming
-    : [group?.next, ...(group?.upcoming ?? [])].filter(Boolean);
+    : [];
   return raw
     .map((phase, index) => normalizePhase(group, phase, index))
     .filter((phase) => !phase.uncertain && phase.startMs > nowMs)
@@ -706,13 +793,7 @@ export async function mirrorLauncherArt(manifest, {
         if (typeof asset.sourceUrl === 'string') {
           const sourceUrl = remoteWuwaIconUrl(asset.sourceUrl);
           if (!sourceUrl) throw new Error(`Launcher art source URL is not an approved WuWa icon: ${asset.sourceUrl}`);
-          const response = await fetch(sourceUrl, {
-            headers: { accept: 'image/webp,image/png,image/jpeg' },
-            signal: AbortSignal.timeout(20_000),
-          });
-          if (!response.ok) throw new Error(`Launcher art source request failed (${response.status}): ${sourceUrl}`);
-          bytes = Buffer.from(await response.arrayBuffer());
-          if (!bytes.length) throw new Error(`Launcher art source is empty: ${sourceUrl}`);
+          bytes = await fetchRemoteLauncherArt(sourceUrl);
           source = sourceUrl;
         } else {
           if (typeof asset.path !== 'string' || !asset.path.startsWith('/Database/')) {

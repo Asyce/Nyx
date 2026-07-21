@@ -101,3 +101,27 @@ test('only the current-banner owner blocks on banner freshness and retries trans
     assert.doesNotMatch(source, /npm run validate:strict/, `${file} must not own current-banner freshness`);
   }
 });
+
+test('data owners commit regenerated launcher feeds before exact production builds', () => {
+  const workflow = (file) => fs.readFileSync(path.join(root, '.github/workflows', file), 'utf8');
+  for (const file of ['data-refresh.yml', 'banner-history-refresh.yml', 'roster-sync.yml']) {
+    const source = workflow(file);
+    const refresh = source.indexOf('npm run generate:data && npm run refresh:launcher');
+    const stageManifest = source.indexOf('git add Site/src/data/generated/nyx-data.js Site/src/data/generated/launcher-codes-v1.json Site/src/data/generated/launcher-banners-v1.json');
+    const stageArt = source.indexOf('git add -A Site/src/data/generated/launcher-art');
+    const amend = source.indexOf('git commit --amend --no-edit');
+    const build = source.indexOf('npm run build:deploy', amend);
+    assert(refresh >= 0 && refresh < stageManifest, `${file} must refresh before staging generated feeds`);
+    assert(stageManifest < stageArt && stageArt < amend, `${file} must stage feed bytes and exact art before amend`);
+    assert(amend < build, `${file} must amend generated feeds before the exact production build`);
+    assert.doesNotMatch(source.slice(build, source.indexOf('git push', build)), /build:deploy:generated/, `${file} production build must consume committed feeds`);
+  }
+
+  const gameData = workflow('gamedata-watch.yml');
+  assert.equal((gameData.match(/npm run build:deploy:generated/g) || []).length, 2, 'GameData pre-commit builds must regenerate explicitly');
+  assert.equal((gameData.match(/npm run smoke:deploy:generated/g) || []).length, 2, 'GameData pre-commit smoke checks must allow uncommitted candidates');
+  const amend = gameData.indexOf('- name: Amend rebased generated output');
+  const exactSmoke = gameData.indexOf('npm run smoke:deploy', amend);
+  const push = gameData.indexOf('git push', exactSmoke);
+  assert(amend >= 0 && exactSmoke > amend && push > exactSmoke, 'GameData must verify committed deploy bytes after amend and before push');
+});

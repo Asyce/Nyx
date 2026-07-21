@@ -3,7 +3,7 @@ import crypto from 'node:crypto';
 import fs from 'node:fs';
 import path from 'node:path';
 import test from 'node:test';
-import { ROOT, applySourcedBannerWindows, buildManifest, loadManifestInputs, mirrorLauncherArt, officialUrl, reconcileLauncherCodes, validatePackagedManifest } from '../generate-launcher-manifest.mjs';
+import { ROOT, applySourcedBannerWindows, buildManifest, fetchRemoteLauncherArt, loadManifestInputs, mirrorLauncherArt, officialUrl, reconcileLauncherCodes, validatePackagedManifest } from '../generate-launcher-manifest.mjs';
 
 const NOW = Date.parse('2026-07-17T00:00:00.000Z');
 const phase = (start, end, characters = [{ name: 'Alpha', rarity: 5 }]) => ({ phase: '1.0', start, end, characters });
@@ -189,6 +189,50 @@ test('failed art generation preserves the last-known-good output and manifest', 
   }
 });
 
+test('remote launcher art rejects redirects before reading response bytes', async () => {
+  const sourceUrl = 'https://static.nanoka.cc/assets/ww/icons/test.webp';
+  let options;
+  let read = false;
+  const fetchImpl = async (_url, requestOptions) => {
+    options = requestOptions;
+    return {
+      ok: true,
+      status: 200,
+      redirected: true,
+      url: 'https://example.invalid/redirected.webp',
+      headers: { get: (name) => name === 'content-type' ? 'image/webp' : null },
+      body: { getReader() { read = true; throw new Error('redirect body must not be read'); } },
+    };
+  };
+
+  await assert.rejects(fetchRemoteLauncherArt(sourceUrl, { fetchImpl }), /redirected away/);
+  assert.equal(options.redirect, 'error');
+  assert.equal(read, false);
+});
+
+test('remote launcher art stops an unbounded stream as soon as its byte cap is exceeded', async () => {
+  const sourceUrl = 'https://static.nanoka.cc/assets/ww/icons/test.webp';
+  const chunks = [Buffer.alloc(5, 1), Buffer.alloc(5, 2)];
+  let index = 0;
+  let cancelled = false;
+  const fetchImpl = async () => ({
+    ok: true,
+    status: 200,
+    redirected: false,
+    url: sourceUrl,
+    headers: { get: (name) => name === 'content-type' ? 'image/webp' : null },
+    body: { getReader: () => ({
+      async read() { return index < chunks.length ? { done: false, value: chunks[index++] } : { done: true }; },
+      async cancel() { cancelled = true; },
+      releaseLock() {},
+    }) },
+  });
+
+  await assert.rejects(fetchRemoteLauncherArt(sourceUrl, { fetchImpl, maxBytes: 8 }), /exceeds 8 bytes/);
+  assert.equal(cancelled, true);
+  assert.equal(index, 2);
+});
+
 test('packaged manifest validation rejects internal provenance leakage', () => {
   const sha = '0'.repeat(64);
   const asset = {
@@ -303,6 +347,50 @@ test('production preprocessing admits only independently identified active histo
     const manifest = buildManifest({ banners: normalized, events, rosters, now: NOW, generatedAt: '2026-07-17T00:00:00.000Z', db });
     assert.equal(manifest.games.gi.region, 'europe');
     assert.deepEqual(manifest.games.gi.current.characters.map((entry) => entry.name), ['Alpha', 'Beta']);
+  } finally {
+    fs.rmSync(db, { recursive: true, force: true });
+  }
+});
+
+test('production preprocessing publishes only complete confirmed future history windows', () => {
+  const db = fs.mkdtempSync(path.join(ROOT, 'Site', 'banner-upcoming-trust-test-'));
+  const source = { url: 'https://genshin-impact.fandom.com/wiki/Wish', kind: 'maintained-wiki', revision: 7 };
+  const record = (id, name, start, end, overrides = {}) => ({
+    id: `gi:character:Character Event:${id}`,
+    game: 'gi', bannerType: 'character', category: 'Character Event', version: '6.7', permanent: false, confirmed: true,
+    windowsByRegion: { europe: { start, end } },
+    featured: [{ name, rarity: 5, primary: true }], source, ...overrides,
+  });
+  try {
+    fs.mkdirSync(path.join(db, 'BannerHistory'));
+    fs.writeFileSync(path.join(db, 'BannerHistory', 'gi.json'), JSON.stringify({ schemaVersion: 1, game: 'gi', records: [
+      record('current', 'Alpha', '2026-07-16T00:00:00Z', '2026-07-18T00:00:00Z'),
+      record('trusted-future', 'Trusted Future', '2026-07-19T00:00:00Z', '2026-07-20T00:00:00Z'),
+      record('unconfirmed-future', 'Unconfirmed Future', '2026-07-21T00:00:00Z', '2026-07-22T00:00:00Z', { confirmed: false }),
+      record('untrusted-future', 'Untrusted Future', '2026-07-23T00:00:00Z', '2026-07-24T00:00:00Z', { source: { ...source, url: 'https://evil.genshin-impact.fandom.com/wiki/Wish' } }),
+      record('incomplete-future', 'Incomplete Future', '2026-07-25T00:00:00Z', null),
+      record('stale', 'Stale Future', '2026-07-14T00:00:00Z', '2026-07-15T00:00:00Z'),
+    ] }));
+    const raw = { games: [{
+      id: 'gi',
+      current: phase('2026-07-16T00:00:00Z', '2026-07-18T00:00:00Z', [{ name: 'Alpha' }]),
+      next: phase('2026-07-19T00:00:00Z', '2026-07-20T00:00:00Z', [{ name: 'Raw Game8 Future' }]),
+      upcoming: [phase('2026-07-21T00:00:00Z', '2026-07-22T00:00:00Z', [{ name: 'Unconfirmed Future' }])],
+    }] };
+
+    const normalized = applySourcedBannerWindows(raw, db, NOW);
+    assert.equal(normalized.games[0].current.characters[0].name, 'Alpha');
+    assert.deepEqual(normalized.games[0]._displayUpcoming.map((entry) => ({
+      start: entry.start,
+      end: entry.end,
+      names: entry.characters.map((character) => character.name),
+    })), [{
+      start: '2026-07-19T00:00:00.000Z',
+      end: '2026-07-20T00:00:00.000Z',
+      names: ['Trusted Future'],
+    }]);
+    const unprocessed = buildManifest({ banners: raw, events, rosters, now: NOW, generatedAt: '2026-07-17T00:00:00.000Z' });
+    assert.deepEqual(unprocessed.games.gi.upcoming, [], 'raw provider future rows must never publish without trusted preprocessing');
   } finally {
     fs.rmSync(db, { recursive: true, force: true });
   }
@@ -475,8 +563,10 @@ test('production snapshot selects the newest splash art and exposes future patch
   for (const game of ['gi', 'hsr', 'zzz', 'wuwa', 'ae']) {
     assert.ok(manifest.games[game].current.characters.every((character) => character.icon?.source === 'character-icon'));
   }
-  assert.ok(manifest.games.wuwa.upcoming.some((phase) => phase.characters.some((character) => character.name === 'Suisui')));
-  assert.ok(manifest.games.ae.upcoming.some((phase) => phase.characters.some((character) => character.name === 'Liino')));
+  assert.ok(manifest.games.gi.upcoming.some((phase) => phase.characters.some((character) => character.name === 'Columbina')));
+  assert.deepEqual(manifest.games.zzz.upcoming, []);
+  assert.deepEqual(manifest.games.wuwa.upcoming, []);
+  assert.deepEqual(manifest.games.ae.upcoming, []);
 });
 
 test('production source rolls Genshin from Sandrone to Columbina at the trusted boundary', () => {
@@ -499,15 +589,11 @@ test('WuWa banner icon sources stay tied to exact character identity', () => {
     generatedAt: '2026-07-17T12:00:00.000Z',
   });
   const current = Object.fromEntries(manifest.games.wuwa.current.characters.map((character) => [character.name, character]));
-  const upcoming = Object.fromEntries(manifest.games.wuwa.upcoming.flatMap((phase) => phase.characters).map((character) => [character.name, character]));
 
   assert.equal(current['Yangyang: Xuanling'].id, '1610');
-  assert.equal(upcoming.Suisui.id, '1110');
   assert.match(current['Yangyang: Xuanling'].icon.path, /T_IconRoleHead256_70_UI\.webp$/);
-  assert.match(upcoming.Suisui.icon.path, /T_IconRoleHead256_71_UI\.webp$/);
   assert.equal(current['Yangyang: Xuanling'].icon.sourceUrl, undefined);
-  assert.equal(upcoming.Suisui.icon.sourceUrl, undefined);
-  assert.notEqual(current['Yangyang: Xuanling'].icon.path, upcoming.Suisui.icon.path);
+  assert.deepEqual(manifest.games.wuwa.upcoming, []);
 });
 
 test('WuWa icon identity beats a Yangyang name-prefix collision', () => {

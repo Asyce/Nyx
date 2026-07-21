@@ -92,12 +92,12 @@ jobs:
       - name: Preflight site build
         if: ${{ steps.manifest.outputs.changed == 'true' }}
         working-directory: Site
-        run: npm run build:deploy
+        run: npm run build:deploy:generated
 
       - name: Preflight deploy artifact
         if: ${{ steps.manifest.outputs.changed == 'true' }}
         working-directory: Site
-        run: npm run smoke:deploy
+        run: npm run smoke:deploy:generated
 
       - name: Stage verified GameData and generated output
         if: ${{ steps.manifest.outputs.changed == 'true' }}
@@ -128,12 +128,12 @@ jobs:
       - name: Rebuild after rebase
         if: ${{ steps.manifest.outputs.changed == 'true' }}
         working-directory: Site
-        run: npm run build:deploy
+        run: npm run build:deploy:generated
 
       - name: Smoke rebased deploy artifact
         if: ${{ steps.manifest.outputs.changed == 'true' }}
         working-directory: Site
-        run: npm run smoke:deploy
+        run: npm run smoke:deploy:generated
 
       - name: Amend rebased generated output
         if: ${{ steps.manifest.outputs.changed == 'true' }}

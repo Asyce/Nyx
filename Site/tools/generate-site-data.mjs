@@ -5017,7 +5017,7 @@ const premiumCurrencyMeta = {
   hsr: { name: 'Stellar Jade', needle: 'stellar jade', icon: dbAsset('GameData/hsr/assets/items/900001.webp') },
   zzz: { name: 'Polychrome', needle: 'polychrome', icon: dbAsset('GameData/zzz/assets/items/IconCurrency.webp') },
   wuwa: { name: 'Astrite', needle: 'astrite', icon: dbAsset('GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_zcpq_UI.webp') },
-  ae: { name: 'Oroberyl', needle: 'oroberyl', aliases: ['originium'], icon: null },
+  ae: { name: 'Oroberyl', needle: 'oroberyl', aliases: ['originium'], icon: dbAsset('EndfieldWiki/endfield/material-icons/Oroberyl.png') },
 };
 
 function codeHasPremiumCurrency(key, reward) {

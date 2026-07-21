@@ -265,12 +265,12 @@ test('Unknown rarity gates remain explicit until a trustworthy source exists', (
   }, {
     giMonsters:547,
     giItems:2270,
-    hsrMonsters:577,
+    hsrMonsters:612,
     hsrRelicSets:60,
     hsrLightCones:3,
     zzzDriveDiscs:28,
     wuwaEchoes:180,
-    endfieldGear:129,
+    endfieldGear:152,
   });
   const tcg = [...(inline.gi.tcg.characterCards || []), ...(inline.gi.tcg.otherCards || [])];
   assert.equal(tcg.length, 619);

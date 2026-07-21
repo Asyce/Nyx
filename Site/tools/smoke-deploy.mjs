@@ -269,6 +269,7 @@ async function main() {
       ['/hsr/characters/castorice', 'Honkai: Star Rail'],
       ['/sitemap.xml', '<urlset'],
       ['/version.json', '"app": "pengo-nyx"', 50],
+      ['/dist/launcher-codes-v1.json', '"schemaVersion": 1', 100],
       ['/scripts/pengo-achievements.ps1', 'Pengo Nyx - offline achievement screenshot reader', 50_000],
       ['/scripts/pengo-hsr-hoyolab-achievements.js', 'Pengo HSR achievement export', 20_000],
     ]) {
@@ -353,6 +354,14 @@ async function main() {
   const nyxPayload = await readDeployText('dist/nyx-data.js');
   const nyxContext = { window:{} };
   vm.runInNewContext(nyxPayload, nyxContext, { filename:'nyx-data.js' });
+  const launcherCodes = JSON.parse(await readDeployText('dist/launcher-codes-v1.json'));
+  const endfieldLauncherCode = launcherCodes?.games?.ae?.find((entry) => entry.code === 'ENDFIELDGIFT');
+  if (endfieldLauncherCode?.amount !== 150 || endfieldLauncherCode?.currency !== 'Oroberyl') {
+    throw new Error('launcher code feed is missing the reviewed Endfield Oroberyl reward');
+  }
+  if (!(await exists(path.resolve(deployDir, 'Database', 'EndfieldWiki', 'endfield', 'material-icons', 'Oroberyl.png')))) {
+    throw new Error('deploy is missing the Endfield Oroberyl icon');
+  }
   const wonderland = nyxContext.window.NYX_DB?.games?.gi?.wonderland;
   for (const [key, minimum] of Object.entries({ costumes:500, suits:150, items:1200 })) {
     const rows = wonderland?.[key];

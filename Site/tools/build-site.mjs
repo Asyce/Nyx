@@ -77,6 +77,10 @@ for (const entry of await fs.readdir(generatedDataDir)) {
   }
 }
 await copyFile(path.resolve(generatedDataDir, 'nyx-data.js'), path.resolve(distDir, 'nyx-data.js'));
+await copyFile(
+  path.resolve(generatedDataDir, 'launcher-codes-v1.json'),
+  path.resolve(distDir, 'launcher-codes-v1.json'),
+);
 
 await compileJsxBundle(
   [

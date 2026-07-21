@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-07-21T04:31:32.076Z",
+  "generatedAt": "2026-07-21T16:14:36.544Z",
   "codes": {
-    "updated": "2026-07-21T03:28:24.626Z",
+    "updated": "2026-07-21T07:48:04.300Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -307,7 +307,7 @@ var NYX_DB = {
             "aliases": [
               "originium"
             ],
-            "icon": null
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Oroberyl.png"
           },
           "added": "2026-07-14",
           "firstSeen": "2026-07-16T11:46:47.991Z",
@@ -324,7 +324,7 @@ var NYX_DB = {
             "aliases": [
               "originium"
             ],
-            "icon": null
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Oroberyl.png"
           },
           "added": "2026-05-05",
           "firstSeen": "2026-07-16T11:46:47.991Z",
@@ -341,7 +341,7 @@ var NYX_DB = {
             "aliases": [
               "originium"
             ],
-            "icon": null
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Oroberyl.png"
           },
           "added": "2026-05-03",
           "firstSeen": "2026-07-16T11:46:47.991Z",
@@ -358,7 +358,7 @@ var NYX_DB = {
             "aliases": [
               "originium"
             ],
-            "icon": null
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Oroberyl.png"
           },
           "added": "2026-05-03",
           "firstSeen": "2026-07-16T11:46:47.991Z",
@@ -369,18 +369,17 @@ var NYX_DB = {
     }
   },
   "banners": {
-    "updated": "2026-07-17T11:11:02.378Z",
-    "checkedAt": "2026-07-18T19:24:04.058Z",
+    "updated": "2026-07-21T16:13:51.549Z",
+    "checkedAt": "2026-07-21T16:13:51.549Z",
     "games": {
       "hsr": {
         "name": "Honkai: Star Rail",
         "freshness": {
-          "status": "stale",
-          "checkedAt": "2026-07-18T19:24:04.058Z",
-          "lastSuccessfulFetch": "2026-07-17T11:11:02.378Z",
-          "lastValidUpdate": "2026-07-17T11:11:02.378Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "status": "fresh",
+          "checkedAt": "2026-07-21T16:13:51.549Z",
+          "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
+          "lastValidUpdate": "2026-07-21T16:13:51.549Z",
+          "source": "game8"
         },
         "current": {
           "phase": "4.4",
@@ -414,40 +413,13 @@ var NYX_DB = {
       "gi": {
         "name": "Genshin Impact",
         "freshness": {
-          "status": "stale",
-          "checkedAt": "2026-07-18T19:24:04.058Z",
-          "lastSuccessfulFetch": "2026-07-17T11:11:02.378Z",
-          "lastValidUpdate": "2026-07-17T11:11:02.378Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "status": "fresh",
+          "checkedAt": "2026-07-21T16:13:51.549Z",
+          "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
+          "lastValidUpdate": "2026-07-21T16:13:51.549Z",
+          "source": "game8"
         },
         "current": {
-          "phase": "6.7 Phase 1",
-          "start": null,
-          "end": "2026-07-21T10:00:00.000Z",
-          "characters": [
-            {
-              "name": "Sandrone",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_MarionetteNew_Circle.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_MarionetteNew.webp",
-              "iconZoom": true,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MarionetteNew.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/MarionetteNew.png",
-              "rarity": 5
-            },
-            {
-              "name": "Citlali",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Citlali_Circle.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Citlali.webp",
-              "iconZoom": true,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Citlali.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/Citlali.png",
-              "rarity": 5
-            }
-          ],
-          "subBanners": []
-        },
-        "next": {
           "phase": "6.7 Phase 2",
           "start": "2026-07-21T10:00:00.000Z",
           "end": "2026-08-11T10:00:00.000Z",
@@ -464,17 +436,17 @@ var NYX_DB = {
           ],
           "subBanners": []
         },
+        "next": null,
         "upcoming": []
       },
       "wuwa": {
         "name": "Wuthering Waves",
         "freshness": {
-          "status": "stale",
-          "checkedAt": "2026-07-18T19:24:04.058Z",
-          "lastSuccessfulFetch": "2026-07-17T11:11:02.378Z",
-          "lastValidUpdate": "2026-07-17T11:11:02.378Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "status": "fresh",
+          "checkedAt": "2026-07-21T16:13:51.549Z",
+          "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
+          "lastValidUpdate": "2026-07-21T16:13:51.549Z",
+          "source": "game8"
         },
         "current": {
           "phase": null,
@@ -551,12 +523,11 @@ var NYX_DB = {
       "zzz": {
         "name": "Zenless Zone Zero",
         "freshness": {
-          "status": "stale",
-          "checkedAt": "2026-07-18T19:24:04.058Z",
-          "lastSuccessfulFetch": "2026-07-17T11:11:02.378Z",
-          "lastValidUpdate": "2026-07-17T11:11:02.378Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "status": "fresh",
+          "checkedAt": "2026-07-21T16:13:51.549Z",
+          "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
+          "lastValidUpdate": "2026-07-21T16:13:51.549Z",
+          "source": "game8"
         },
         "current": {
           "phase": null,
@@ -584,18 +555,95 @@ var NYX_DB = {
           ],
           "subBanners": []
         },
-        "next": null,
-        "upcoming": []
+        "next": {
+          "phase": null,
+          "start": "2026-07-29T10:00:00.000Z",
+          "end": "2026-09-08T10:00:00.000Z",
+          "characters": [
+            {
+              "name": "Remielle",
+              "icon": "https://static.nanoka.cc/assets/zzz/IconRoleCircle67.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect67.webp",
+              "iconZoom": true,
+              "art": "https://static.nanoka.cc/assets/zzz/IconRoleCircle67.webp",
+              "namecard": null,
+              "rarity": 4
+            }
+          ],
+          "subBanners": []
+        },
+        "upcoming": [
+          {
+            "phase": null,
+            "start": "2026-07-29T10:00:00.000Z",
+            "end": "2026-08-19T10:00:00.000Z",
+            "characters": [
+              {
+                "name": "Aria",
+                "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle57.webp",
+                "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect57.webp",
+                "iconZoom": true,
+                "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole57.webp",
+                "namecard": null,
+                "rarity": "S"
+              }
+            ],
+            "subBanners": []
+          },
+          {
+            "phase": null,
+            "start": "2026-08-19T10:00:00.000Z",
+            "end": "2026-09-08T10:00:00.000Z",
+            "characters": [
+              {
+                "name": "Sigrid",
+                "icon": "https://static.nanoka.cc/assets/zzz/IconRoleCircle66.webp",
+                "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect66.webp",
+                "iconZoom": true,
+                "art": "https://static.nanoka.cc/assets/zzz/IconRoleCircle66.webp",
+                "namecard": null,
+                "rarity": 4
+              },
+              {
+                "name": "Dialyn",
+                "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle54.webp",
+                "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect54.webp",
+                "iconZoom": true,
+                "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole54.webp",
+                "namecard": null,
+                "rarity": "S"
+              },
+              {
+                "name": "Yuzuha",
+                "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle47.webp",
+                "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect47.webp",
+                "iconZoom": true,
+                "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole47.webp",
+                "namecard": null,
+                "rarity": "S"
+              },
+              {
+                "name": "Harumasa",
+                "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle35.webp",
+                "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect35.webp",
+                "iconZoom": true,
+                "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole35.webp",
+                "namecard": null,
+                "rarity": "S"
+              }
+            ],
+            "subBanners": []
+          }
+        ]
       },
       "ae": {
         "name": "Arknights: Endfield",
         "freshness": {
-          "status": "stale",
-          "checkedAt": "2026-07-18T19:24:04.058Z",
-          "lastSuccessfulFetch": "2026-07-17T11:11:02.378Z",
-          "lastValidUpdate": "2026-07-17T11:11:02.378Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "status": "fresh",
+          "checkedAt": "2026-07-21T16:13:51.549Z",
+          "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
+          "lastValidUpdate": "2026-07-21T16:13:51.549Z",
+          "source": "game8"
         },
         "current": {
           "phase": "1.4 Phase 1",
@@ -4349,40 +4397,13 @@ var NYX_DB = {
       "banners": {
         "name": "Genshin Impact",
         "freshness": {
-          "status": "stale",
-          "checkedAt": "2026-07-18T19:24:04.058Z",
-          "lastSuccessfulFetch": "2026-07-17T11:11:02.378Z",
-          "lastValidUpdate": "2026-07-17T11:11:02.378Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "status": "fresh",
+          "checkedAt": "2026-07-21T16:13:51.549Z",
+          "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
+          "lastValidUpdate": "2026-07-21T16:13:51.549Z",
+          "source": "game8"
         },
         "current": {
-          "phase": "6.7 Phase 1",
-          "start": null,
-          "end": "2026-07-21T10:00:00.000Z",
-          "characters": [
-            {
-              "name": "Sandrone",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_MarionetteNew_Circle.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_MarionetteNew.webp",
-              "iconZoom": true,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MarionetteNew.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/MarionetteNew.png",
-              "rarity": 5
-            },
-            {
-              "name": "Citlali",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Citlali_Circle.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Citlali.webp",
-              "iconZoom": true,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Citlali.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/Citlali.png",
-              "rarity": 5
-            }
-          ],
-          "subBanners": []
-        },
-        "next": {
           "phase": "6.7 Phase 2",
           "start": "2026-07-21T10:00:00.000Z",
           "end": "2026-08-11T10:00:00.000Z",
@@ -4399,10 +4420,11 @@ var NYX_DB = {
           ],
           "subBanners": []
         },
+        "next": null,
         "upcoming": []
       },
       "tcg": {
-        "updated": "2026-07-18T08:34:32.783Z",
+        "updated": "2026-07-21T07:48:10.100Z",
         "counts": {
           "characterCards": 106,
           "otherCards": 513
@@ -9708,10 +9730,29 @@ var NYX_DB = {
               },
               "13172": {
                 "name": "Binary Form: Convergence and Division",
-                "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
+                "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT]. This character gains <color=#FFFFFFFF>$[C113175]</color>.",
                 "child": {
                   "d_key_damage": 3,
-                  "d_key_element": "GCG_ELEMENT_PYRO"
+                  "d_key_element": "GCG_ELEMENT_PYRO",
+                  "c113175": {
+                    "name": "Essential Transmutation",
+                    "desc": "<color=#FFFFFFFF>When the attached character uses a Normal Attack:</color> Deals 2 $[K103].\\n<color=#FFFFFFFF>When the attached character uses an Elemental Skill:</color> Generate 1 stack of <color=#FFFFFFFF>$[C169]</color>.\\n<color=#FFFFFFFF>$[K3]: 3</color> (Can stack)",
+                    "child": {
+                      "k103": {
+                        "name": "{SPRITE_PRESET#2103}<color=#FF9999FF>Pyro DMG</color>",
+                        "desc": "Applies {SPRITE_PRESET#2103}Pyro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Melt</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Overloaded</color>: DMG +2 for this instance, the target is forcibly switched to the next character\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Burning</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Burning Flame</color>] that will deal 1 Pyro DMG at the end of the Round (Takes effect once, max 2 stacks)"
+                      },
+                      "c169": {
+                        "name": "Efficient Switch",
+                        "desc": "<color=#FFFFFFFF>The next time you perform \"Switch Character\":</color> Spend 1 fewer Elemental Die. (Can stack, no stack limit)",
+                        "child": {}
+                      },
+                      "k3": {
+                        "name": "<color=#FFFFFFFF>Usage(s)</color>",
+                        "desc": "After this card's effect is triggered, 1 <color=#FFFFFFFF>Usage</color> of it will be consumed.\\nThis card will be discarded immediately once it has 0 <color=#FFFFFFFF>Usages</color> remaining."
+                      }
+                    }
+                  }
                 },
                 "tag": "GCG_SKILL_TAG_E",
                 "cost": {
@@ -9726,7 +9767,7 @@ var NYX_DB = {
                   "d_key_element": "GCG_ELEMENT_PYRO",
                   "c113171": {
                     "name": "Confirmation of Purity",
-                    "desc": "<color=#FFFFFFFF>After your characters take action:</color> Deal 1 $[K103].\\n<color=#FFFFFFFF>$[K3]: 3</color>",
+                    "desc": "<color=#FFFFFFFF>After your character uses a Skill:</color> Deal 1 $[K103].\\n<color=#FFFFFFFF>$[K3]: 4</color>",
                     "child": {
                       "k103": {
                         "name": "{SPRITE_PRESET#2103}<color=#FF9999FF>Pyro DMG</color>",
@@ -17616,7 +17657,7 @@ var NYX_DB = {
             ],
             "talent": {
               "name": "Adamah's Redemption",
-              "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1317]</color>, equip this card.\\nAfter $[A1317] equips this card, immediately use <color=#FFD780FF>$[S13173]</color> or <color=#FFD780FF>$[S13174]</color> once based on the character's current Elemental Burst.\\n<color=#FFFFFFFF>When the character to which this is attached uses $[S13173]:</color> Your next 3 instances of DMG gain +1.\\n<color=#FFFFFFFF>When the character to which this is attached uses $[S13174]:</color> Your <color=#FFFFFFFF>$[A1317]</color> and <color=#FFFFFFFF>$[C113172]</color> deal +1 DMG.\\n(You must have $[A1317] in your deck to add this card to your deck.)",
+              "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1317]</color>, equip this card.\\nAfter $[A1317] equips this card, immediately use <color=#FFD780FF>$[S13173]</color> or <color=#FFD780FF>$[S13174]</color> once based on the character's current Elemental Burst.\\n<color=#FFFFFFFF>When the character to which this is attached uses $[S13173]:</color> Your next 4 instances of DMG gain +1.\\n<color=#FFFFFFFF>When the character to which this is attached uses $[S13174]:</color> Your <color=#FFFFFFFF>$[A1317]</color> and <color=#FFFFFFFF>$[C113172]</color> deal +2 DMG.\\n(You must have $[A1317] in your deck to add this card to your deck.)",
               "child": {
                 "k1": {
                   "name": "<color=#FFFFFFFF>Combat Action</color>",
@@ -25126,6 +25167,7 @@ var NYX_DB = {
             "localizedNames": {
               "en": "Feasting in a Shared Toast",
               "zh": "\u9f50\u805a\u5171\u996e",
+              "ja": "\u96c6\u3044\u3066\u676f\u3092\u4ea4\u308f\u3059JP3A",
               "ko": "\uc18c\ubaa8\uc784"
             },
             "type": "Action",
@@ -26736,18 +26778,13 @@ var NYX_DB = {
             ],
             "talent": {
               "name": "Genesis of Starsigns",
-              "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1203]</color>, equip this card.\\nAfter $[A1203] equips this card, generate <color=#FFFFFFFF>$[C212033]</color> and immediately use <color=#FFD780FF>$[S12031]</color> once.\\nWhen <color=#FFFFFFFF>$[A1203]</color> uses a Normal Attack, spend 1 fewer <color=#FFFFFFFF>{SPRITE_PRESET#1109}Unaligned Element</color>. After the Normal Attack, generate <color=#FFFFFFFF>$[C212033]</color>.\\n(You must have $[A1203] in your deck to add this card to your deck.)",
+              "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1203]</color>, equip this card.\\nAfter $[A1203] equips this card, your next Vaporize Reaction deals +2 DMG and immediately use <color=#FFD780FF>$[S12031]</color> once.\\nWhen <color=#FFFFFFFF>$[A1203]</color> uses a Normal Attack, spend 1 fewer <color=#FFFFFFFF>{SPRITE_PRESET#1109}Unaligned Element</color>. After the Normal Attack, your next Vaporize Reaction deals +2 DMG.\\n(You must have $[A1203] in your deck to add this card to your deck.)",
               "child": {
                 "k1": {
                   "name": "<color=#FFFFFFFF>Combat Action</color>",
                   "desc": "After you finish 1 Combat Action, it will be your opponent's turn.\\n<color=#FFFFFFFF>Playing a card from your Hand with this rule is also a Combat Action rather than a Fast Action</color>."
                 },
                 "a1203": "Genesis of Starsigns",
-                "c212033": {
-                  "name": "Genesis of Starsigns (In Effect)",
-                  "desc": "Your next Vaporize Reaction deals +2 DMG.",
-                  "child": {}
-                },
                 "s12031": "S12031"
               }
             },
@@ -28324,7 +28361,7 @@ var NYX_DB = {
           {
             "id": "2208",
             "name": "Hydro Hypostasis",
-            "title": "Hydro Hypostasis: He",
+            "title": "Hydro Hypostasis",
             "description": "Code Name: He. A high-purity Hydro entity. They have strong rejection properties, and will mercilessly expel any that test them.",
             "sourceText": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with Hydro Hypostasis",
             "localizedNames": {
@@ -28798,7 +28835,7 @@ var NYX_DB = {
             ],
             "talent": {
               "name": "In Every House a Stove",
-              "desc": "<color=#FFFFFFFF>When this card is played in the first Round:</color> If your deck initially contains at least 2 different {SPRITE_PRESET#3006}Talent cards, draw 1 {SPRITE_PRESET#3006}Talent Card.\\n<color=#FFFFFFFF>When this card is played in the second Round or later:</color> Draw a number of cards equal to the <color=#FFFFFFFF>current Round number minus 1</color>. (Up to 4 cards can be drawn in this way)\\n(Only one {SPRITE_PRESET#3007}\"Arcane Legend\" card can be played per match. This card will be in your starting hand.)",
+              "desc": "<color=#FFFFFFFF>When this card is played in the first Round:</color> If your deck initially contains at least 4/2 different {SPRITE_PRESET#3006}Talent cards, draw 2/1 {SPRITE_PRESET#3006}Talent Card.\\n<color=#FFFFFFFF>When this card is played in the second Round or later:</color> Draw a number of cards equal to the <color=#FFFFFFFF>current Round number minus 1</color>. (Up to 4 cards can be drawn in this way)\\n(Only one {SPRITE_PRESET#3007}\"Arcane Legend\" card can be played per match. This card will be in your starting hand.)",
               "child": {}
             },
             "playableCharacter": null,
@@ -33137,7 +33174,7 @@ var NYX_DB = {
             ],
             "talent": {
               "name": "Phantasmal Nocturne",
-              "desc": "$[K2]: Equip this to your <color=#FFFFFFFF>$[A1401]</color>.\\nSummon <color=#FFFFFFFF>$[C114011]</color>.\\nWhile <color=#FFFFFFFF>$[C114011]</color> is on the field, your $[K214] deals +1 DMG.\\n(You must have $[A1401] in your deck to add this card to your deck.)",
+              "desc": "$[K2]: Equip this to your <color=#FFFFFFFF>$[A1401]</color>.\\nSummon <color=#FFFFFFFF>$[C114011]</color>.\\nWhile <color=#FFFFFFFF>$[C114011]</color> is on the field, your $[K214] deals +1 DMG. (3 times per Round)\\n(You must have $[A1401] in your deck to add this card to your deck.)",
               "child": {
                 "k2": {
                   "name": "<color=#FFFFFFFF>Fast Action</color>",
@@ -36030,7 +36067,7 @@ var NYX_DB = {
             ],
             "talent": {
               "name": "Sparkborne Magic",
-              "desc": "$[K2]: Equip this to your <color=#FFFFFFFF>$[A1306]</color>.\\nAttach <color=#FFFFFFFF>$[C113061]</color> to $[A1306].\\n<color=#FFFFFFFF>When the attached character uses a $[K51]:</color> Attach 1 stack of <color=#FFFFFFFF>$[C210]</color>.\\n(You must have $[A1306] in your deck to add this card to your deck.)",
+              "desc": "$[K2]: Equip this to your <color=#FFFFFFFF>$[A1306]</color>.\\nAttach <color=#FFFFFFFF>$[C113061]</color> to $[A1306].\\n<color=#FFFFFFFF>When the attached character uses a $[K51]:</color> Deals 2 $[K103]. (Twice per Round)\\n(You must have $[A1306] in your deck to add this card to your deck.)",
               "child": {
                 "k2": {
                   "name": "<color=#FFFFFFFF>Fast Action</color>",
@@ -36059,10 +36096,9 @@ var NYX_DB = {
                   "name": "<color=#FFFFFFFF>Charged Attack</color>",
                   "desc": "Before your Action Phase, should the total number of your Elemental Dice be even, your Normal Attack will be considered a Charged Attack."
                 },
-                "c210": {
-                  "name": "RES",
-                  "desc": "<color=#FFFFFFFF>When the character to which this is attached takes DMG:</color> Decrease DMG taken by 1. (Can stack, no stack limit)",
-                  "child": {}
+                "k103": {
+                  "name": "{SPRITE_PRESET#2103}<color=#FF9999FF>Pyro DMG</color>",
+                  "desc": "Applies {SPRITE_PRESET#2103}Pyro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Melt</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Overloaded</color>: DMG +2 for this instance, the target is forcibly switched to the next character\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Burning</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Burning Flame</color>] that will deal 1 Pyro DMG at the end of the Round (Takes effect once, max 2 stacks)"
                 }
               }
             },
@@ -39558,6 +39594,7 @@ var NYX_DB = {
             "localizedNames": {
               "en": "Treacherous Torrent",
               "zh": "\u8be1\u8c32\u6076\u6d6a",
+              "ja": "\u4e88\u6e2c\u4e0d\u80fd\u306a\u8352\u6ce2JP3A",
               "ko": "\uae30\uc774\ud55c \ud30c\ub3c4"
             },
             "type": "Action",
@@ -41114,7 +41151,7 @@ var NYX_DB = {
             "tags": [],
             "talent": {
               "name": "Witch's Homework",
-              "desc": "Draw 1 {SPRITE_PRESET#3006} Talent card. If your deck initially contains at least 3 {SPRITE_PRESET#3006} Talent cards, grant $[K3005] to the {SPRITE_PRESET#3006} Talent card with the highest <color=#FFFFFFFF>$[K3002]</color> in your Hand.",
+              "desc": "Draw 1 {SPRITE_PRESET#3006} Talent card. If your deck initially contains at least 3 {SPRITE_PRESET#3006} Talent cards, grant $[K3005] to a random {SPRITE_PRESET#3006} Talent card with the highest <color=#FFFFFFFF>$[K3002]</color> in your Hand.",
               "child": {
                 "k3005": {
                   "name": "<color=#FFFFFFFF>Cost Reduction</color>",
@@ -110871,8 +110908,8 @@ var NYX_DB = {
         ]
       },
       "wonderland": {
-        "updated": "2026-07-18T08:35:01.650Z",
-        "version": "6.7.52",
+        "updated": "2026-07-21T09:24:40.014Z",
+        "version": "6.7.53",
         "langMap": {
           "slot": {
             "none": "Voice-Overs",
@@ -146434,185 +146471,6 @@ var NYX_DB = {
           "forms": []
         },
         {
-          "id": "gi-traveler",
-          "name": "Traveler",
-          "aliases": [
-            "Aether",
-            "Lumine"
-          ],
-          "title": "Descender",
-          "rarity": 5,
-          "element": "Anemo",
-          "role": "Sword",
-          "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-          "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-          "facts": {
-            "constellation": "Viator"
-          },
-          "overviewArt": "../../Database/GameData/gi/gcg/other cards/assets/332001-The Bestest Travel Companion!.webp",
-          "overviewArtPool": [
-            "../../Database/GameData/gi/gcg/other cards/assets/332001-The Bestest Travel Companion!.webp"
-          ],
-          "forms": [
-            {
-              "name": "Traveler",
-              "label": "Anemo",
-              "variant": "Anemo",
-              "gender": "male",
-              "element": "Anemo",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {
-                "constellation": "Viator"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Anemo",
-              "variant": "Anemo",
-              "gender": "female",
-              "element": "Anemo",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {
-                "constellation": "Viatrix"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Geo",
-              "variant": "Geo",
-              "gender": "male",
-              "element": "Geo",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {
-                "constellation": "Viator"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Geo",
-              "variant": "Geo",
-              "gender": "female",
-              "element": "Geo",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {
-                "constellation": "Viatrix"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Electro",
-              "variant": "Electro",
-              "gender": "male",
-              "element": "Electro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {
-                "constellation": "Viator"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Electro",
-              "variant": "Electro",
-              "gender": "female",
-              "element": "Electro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {
-                "constellation": "Viatrix"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Dendro",
-              "variant": "Dendro",
-              "gender": "male",
-              "element": "Dendro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {
-                "constellation": "Viator"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Dendro",
-              "variant": "Dendro",
-              "gender": "female",
-              "element": "Dendro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {
-                "constellation": "Viatrix"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Hydro",
-              "variant": "Hydro",
-              "gender": "male",
-              "element": "Hydro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {
-                "constellation": "Viator"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Hydro",
-              "variant": "Hydro",
-              "gender": "female",
-              "element": "Hydro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {
-                "constellation": "Viatrix"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Pyro",
-              "variant": "Pyro",
-              "gender": "male",
-              "element": "Pyro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {
-                "constellation": "Viator"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Pyro",
-              "variant": "Pyro",
-              "gender": "female",
-              "element": "Pyro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {
-                "constellation": "Viatrix"
-              }
-            }
-          ]
-        },
-        {
           "id": "gi-10000016",
           "name": "Diluc",
           "aliases": [],
@@ -147102,6 +146960,185 @@ var NYX_DB = {
             "../../Database/GameData/gi/gcg/character cards/assets/1202-Xingqiu.webp"
           ],
           "forms": []
+        },
+        {
+          "id": "gi-traveler",
+          "name": "Traveler",
+          "aliases": [
+            "Aether",
+            "Lumine"
+          ],
+          "title": "Descender",
+          "rarity": 5,
+          "element": "Anemo",
+          "role": "Sword",
+          "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+          "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+          "facts": {
+            "constellation": "Viator"
+          },
+          "overviewArt": "../../Database/GameData/gi/gcg/other cards/assets/332001-The Bestest Travel Companion!.webp",
+          "overviewArtPool": [
+            "../../Database/GameData/gi/gcg/other cards/assets/332001-The Bestest Travel Companion!.webp"
+          ],
+          "forms": [
+            {
+              "name": "Traveler",
+              "label": "Anemo",
+              "variant": "Anemo",
+              "gender": "male",
+              "element": "Anemo",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Anemo",
+              "variant": "Anemo",
+              "gender": "female",
+              "element": "Anemo",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Geo",
+              "variant": "Geo",
+              "gender": "male",
+              "element": "Geo",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Geo",
+              "variant": "Geo",
+              "gender": "female",
+              "element": "Geo",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Electro",
+              "variant": "Electro",
+              "gender": "male",
+              "element": "Electro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Electro",
+              "variant": "Electro",
+              "gender": "female",
+              "element": "Electro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Dendro",
+              "variant": "Dendro",
+              "gender": "male",
+              "element": "Dendro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Dendro",
+              "variant": "Dendro",
+              "gender": "female",
+              "element": "Dendro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Hydro",
+              "variant": "Hydro",
+              "gender": "male",
+              "element": "Hydro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Hydro",
+              "variant": "Hydro",
+              "gender": "female",
+              "element": "Hydro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Pyro",
+              "variant": "Pyro",
+              "gender": "male",
+              "element": "Pyro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Pyro",
+              "variant": "Pyro",
+              "gender": "female",
+              "element": "Pyro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            }
+          ]
         }
       ]
     },
@@ -150377,12 +150414,11 @@ var NYX_DB = {
       "banners": {
         "name": "Honkai: Star Rail",
         "freshness": {
-          "status": "stale",
-          "checkedAt": "2026-07-18T19:24:04.058Z",
-          "lastSuccessfulFetch": "2026-07-17T11:11:02.378Z",
-          "lastValidUpdate": "2026-07-17T11:11:02.378Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "status": "fresh",
+          "checkedAt": "2026-07-21T16:13:51.549Z",
+          "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
+          "lastValidUpdate": "2026-07-21T16:13:51.549Z",
+          "source": "game8"
         },
         "current": {
           "phase": "4.4",
@@ -155907,12 +155943,11 @@ var NYX_DB = {
       "banners": {
         "name": "Zenless Zone Zero",
         "freshness": {
-          "status": "stale",
-          "checkedAt": "2026-07-18T19:24:04.058Z",
-          "lastSuccessfulFetch": "2026-07-17T11:11:02.378Z",
-          "lastValidUpdate": "2026-07-17T11:11:02.378Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "status": "fresh",
+          "checkedAt": "2026-07-21T16:13:51.549Z",
+          "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
+          "lastValidUpdate": "2026-07-21T16:13:51.549Z",
+          "source": "game8"
         },
         "current": {
           "phase": null,
@@ -155940,8 +155975,86 @@ var NYX_DB = {
           ],
           "subBanners": []
         },
-        "next": null,
-        "upcoming": []
+        "next": {
+          "phase": null,
+          "start": "2026-07-29T10:00:00.000Z",
+          "end": "2026-09-08T10:00:00.000Z",
+          "characters": [
+            {
+              "name": "Remielle",
+              "icon": "https://static.nanoka.cc/assets/zzz/IconRoleCircle67.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect67.webp",
+              "iconZoom": true,
+              "art": "https://static.nanoka.cc/assets/zzz/IconRoleCircle67.webp",
+              "namecard": null,
+              "rarity": 4
+            }
+          ],
+          "subBanners": []
+        },
+        "upcoming": [
+          {
+            "phase": null,
+            "start": "2026-07-29T10:00:00.000Z",
+            "end": "2026-08-19T10:00:00.000Z",
+            "characters": [
+              {
+                "name": "Aria",
+                "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle57.webp",
+                "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect57.webp",
+                "iconZoom": true,
+                "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole57.webp",
+                "namecard": null,
+                "rarity": "S"
+              }
+            ],
+            "subBanners": []
+          },
+          {
+            "phase": null,
+            "start": "2026-08-19T10:00:00.000Z",
+            "end": "2026-09-08T10:00:00.000Z",
+            "characters": [
+              {
+                "name": "Sigrid",
+                "icon": "https://static.nanoka.cc/assets/zzz/IconRoleCircle66.webp",
+                "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect66.webp",
+                "iconZoom": true,
+                "art": "https://static.nanoka.cc/assets/zzz/IconRoleCircle66.webp",
+                "namecard": null,
+                "rarity": 4
+              },
+              {
+                "name": "Dialyn",
+                "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle54.webp",
+                "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect54.webp",
+                "iconZoom": true,
+                "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole54.webp",
+                "namecard": null,
+                "rarity": "S"
+              },
+              {
+                "name": "Yuzuha",
+                "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle47.webp",
+                "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect47.webp",
+                "iconZoom": true,
+                "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole47.webp",
+                "namecard": null,
+                "rarity": "S"
+              },
+              {
+                "name": "Harumasa",
+                "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle35.webp",
+                "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect35.webp",
+                "iconZoom": true,
+                "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole35.webp",
+                "namecard": null,
+                "rarity": "S"
+              }
+            ],
+            "subBanners": []
+          }
+        ]
       },
       "roster": [
         {
@@ -160662,12 +160775,11 @@ var NYX_DB = {
       "banners": {
         "name": "Wuthering Waves",
         "freshness": {
-          "status": "stale",
-          "checkedAt": "2026-07-18T19:24:04.058Z",
-          "lastSuccessfulFetch": "2026-07-17T11:11:02.378Z",
-          "lastValidUpdate": "2026-07-17T11:11:02.378Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "status": "fresh",
+          "checkedAt": "2026-07-21T16:13:51.549Z",
+          "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
+          "lastValidUpdate": "2026-07-21T16:13:51.549Z",
+          "source": "game8"
         },
         "current": {
           "phase": null,
@@ -161705,14 +161817,14 @@ var NYX_DB = {
           "id": "ww-hsin",
           "name": "Hsin",
           "aliases": [],
-          "title": "The Fox",
+          "title": "The Moon Fox",
           "rarity": 5,
           "element": "Unknown",
           "role": "Unknown",
           "icon": null,
           "art": "../../Database/Prydwen/ww/assets/characters/hsin-652a82fc04a8.webp",
           "facts": {
-            "title": "The Fox"
+            "title": "The Moon Fox"
           },
           "forms": []
         },
@@ -165626,7 +165738,7 @@ var NYX_DB = {
             "aliases": [
               "originium"
             ],
-            "icon": null
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Oroberyl.png"
           },
           "added": "2026-07-14",
           "firstSeen": "2026-07-16T11:46:47.991Z",
@@ -165643,7 +165755,7 @@ var NYX_DB = {
             "aliases": [
               "originium"
             ],
-            "icon": null
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Oroberyl.png"
           },
           "added": "2026-05-05",
           "firstSeen": "2026-07-16T11:46:47.991Z",
@@ -165660,7 +165772,7 @@ var NYX_DB = {
             "aliases": [
               "originium"
             ],
-            "icon": null
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Oroberyl.png"
           },
           "added": "2026-05-03",
           "firstSeen": "2026-07-16T11:46:47.991Z",
@@ -165677,7 +165789,7 @@ var NYX_DB = {
             "aliases": [
               "originium"
             ],
-            "icon": null
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Oroberyl.png"
           },
           "added": "2026-05-03",
           "firstSeen": "2026-07-16T11:46:47.991Z",
@@ -165688,12 +165800,11 @@ var NYX_DB = {
       "banners": {
         "name": "Arknights: Endfield",
         "freshness": {
-          "status": "stale",
-          "checkedAt": "2026-07-18T19:24:04.058Z",
-          "lastSuccessfulFetch": "2026-07-17T11:11:02.378Z",
-          "lastValidUpdate": "2026-07-17T11:11:02.378Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "status": "fresh",
+          "checkedAt": "2026-07-21T16:13:51.549Z",
+          "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
+          "lastValidUpdate": "2026-07-21T16:13:51.549Z",
+          "source": "game8"
         },
         "current": {
           "phase": "1.4 Phase 1",

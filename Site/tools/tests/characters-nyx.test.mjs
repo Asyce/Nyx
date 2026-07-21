@@ -175,16 +175,20 @@ test('Endfield material overview uses the exact sourced Growth and Progression l
   const progressionSource = sourceCharacters(progressionNames, ['ascension', 'talents']);
   const growthGenerated = new Set(ae.midGroups.flatMap((group) => group.chars));
   const progressionGenerated = new Set(ae.bossGroups.flatMap((group) => group.chars));
-  assert.equal(ae.roster.length, 28);
-  assert.equal(growthSource.size, 28);
-  assert.equal(progressionSource.size, 28);
+  assert.equal(ae.roster.length, 30);
+  assert.equal(growthSource.size, 29);
+  assert.equal(progressionSource.size, 29);
+  const missingSourcedRequirements = ae.roster
+    .map((character) => character.n)
+    .filter((name) => !growthSource.has(name) || !progressionSource.has(name));
+  assert.deepEqual(plain(missingSourcedRequirements), ['Liino']);
   assert.deepEqual([...growthGenerated].sort(), [...growthSource].sort());
   assert.deepEqual([...progressionGenerated].sort(), [...progressionSource].sort());
 
   const audit = ae.materialClassificationAudit;
   assert.equal(audit.classification, 'explicit-source-name-lists');
   assert.equal(audit.sourceCheckedAt, '2026-07-14');
-  assert.equal(audit.rosterCount, 28);
+  assert.equal(audit.rosterCount, 30);
   assert.deepEqual(plain(audit.growth.materialNames), growthNames);
   assert.deepEqual(plain(audit.progression.materialNames), progressionNames);
   assert.deepEqual(plain(audit.growth.requirementFields), ['talents']);

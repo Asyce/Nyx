@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-21T14:38:21.396Z",
+  "generatedAt": "2026-07-21T20:07:14.487Z",
   "games": {
     "gi": {
       "count": 291,
@@ -316,7 +316,7 @@
         "official-latest:21759",
         "official-latest:45076841"
       ],
-      "contentHash": "4cd6fff5ecb4cedb06cfc437a86ef94dfa48bbfdad601cd5e93d75ccd55ff6d3"
+      "contentHash": "9cf04f2c7a71d754ead7d22b29ecd8e6e18ecd14b640ecc57486dc2ca65e9024"
     },
     "hsr": {
       "count": 218,
@@ -742,15 +742,19 @@
         "end": "2026-07-30T14:59:00.000Z"
       },
       "revisions": [
-        "maintained-wiki:100749",
         "maintained-wiki:100750",
-        "maintained-wiki:100752",
         "maintained-wiki:100757",
-        "maintained-wiki:100759",
-        "maintained-wiki:100765",
         "maintained-wiki:100767",
-        "maintained-wiki:100774",
-        "maintained-wiki:100776",
+        "maintained-wiki:103324",
+        "maintained-wiki:103325",
+        "maintained-wiki:103326",
+        "maintained-wiki:103329",
+        "maintained-wiki:103331",
+        "maintained-wiki:103332",
+        "maintained-wiki:103333",
+        "maintained-wiki:103336",
+        "maintained-wiki:103337",
+        "maintained-wiki:103339",
         "maintained-wiki:55943",
         "maintained-wiki:59439",
         "maintained-wiki:59441",
@@ -894,19 +898,15 @@
         "maintained-wiki:96448",
         "maintained-wiki:96497",
         "maintained-wiki:98100",
-        "maintained-wiki:98101",
-        "maintained-wiki:98102",
         "maintained-wiki:98103",
         "maintained-wiki:98104",
         "maintained-wiki:98106",
         "maintained-wiki:98107",
         "maintained-wiki:98108",
         "maintained-wiki:98109",
-        "maintained-wiki:98110",
         "maintained-wiki:98112",
         "maintained-wiki:98113",
         "maintained-wiki:98114",
-        "maintained-wiki:98115",
         "maintained-wiki:98116"
       ],
       "officialRevisions": [
@@ -933,7 +933,7 @@
         "official-latest:5039",
         "official-latest:5047"
       ],
-      "contentHash": "815069cb9e710972050cd929fdf18e9b91b235200891e25d61d509a8ee9cefbe"
+      "contentHash": "872067a14dc68b02624a54627b70563580465b7000ebdc85b4e0561a06ebdbc7"
     },
     "ae": {
       "count": 29,

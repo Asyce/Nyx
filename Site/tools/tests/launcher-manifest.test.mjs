@@ -233,7 +233,7 @@ test('remote launcher art stops an unbounded stream as soon as its byte cap is e
   assert.equal(index, 2);
 });
 
-test('packaged manifest validation rejects internal provenance leakage', () => {
+test('packaged manifest validation rejects stale time, expired windows, bad countdowns, and provenance leakage', () => {
   const sha = '0'.repeat(64);
   const asset = {
     path: `/launcher-art/${sha}.webp`,
@@ -246,6 +246,13 @@ test('packaged manifest validation rejects internal provenance leakage', () => {
   const games = Object.fromEntries(['gi', 'hsr', 'zzz', 'wuwa', 'ae'].map((game) => [game, {
     game,
     current: {
+      start: '2026-07-16T00:00:00.000Z',
+      end: '2026-07-18T00:00:00.000Z',
+      remaining: {
+        startsAt: '2026-07-16T00:00:00.000Z',
+        endsAt: '2026-07-18T00:00:00.000Z',
+        durationSeconds: 86_400,
+      },
       selectedCharacter: { name: `${game}-current`, variants: [asset] },
       variants: [asset],
       characters: [{ name: `${game}-current`, icon: asset, variants: [asset] }],
@@ -260,6 +267,28 @@ test('packaged manifest validation rejects internal provenance leakage', () => {
     games,
   };
   assert.deepEqual(validatePackagedManifest(manifest, { now: NOW }), { assets: 15, uniqueAssets: 1 });
+  assert.throws(
+    () => validatePackagedManifest(manifest, { now: NOW + 15 * 60_000 + 1 }),
+    /generatedAt is missing or stale/,
+  );
+
+  const expiredCurrent = structuredClone(manifest);
+  for (const game of Object.values(expiredCurrent.games)) {
+    game.current.end = '2026-07-17T00:01:00.000Z';
+    game.current.remaining.endsAt = game.current.end;
+    game.current.remaining.durationSeconds = 60;
+  }
+  assert.throws(
+    () => validatePackagedManifest(expiredCurrent, { now: NOW + 60_000 }),
+    /current window is not active at deployment time/,
+  );
+
+  const forgedCountdown = structuredClone(manifest);
+  forgedCountdown.games.gi.current.remaining.durationSeconds += 1;
+  assert.throws(
+    () => validatePackagedManifest(forgedCountdown, { now: NOW }),
+    /current countdown does not match the committed snapshot/,
+  );
   manifest.games.wuwa.current.characters[0].icon = { ...asset, sourceUrl: 'https://static.nanoka.cc/private.webp' };
   assert.throws(() => validatePackagedManifest(manifest, { now: NOW }), /internal provenance/);
 });

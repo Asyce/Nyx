@@ -14,20 +14,20 @@ const workflow = fs.readFileSync(
 test('code watch verifies every automated commit before its only push', () => {
   const livestreamCommit = workflow.indexOf('git commit -m "chore(codes): update livestream windows [skip ci]"');
   const codesCommit = workflow.indexOf('git commit -m "chore(data): codes watch refresh [skip ci]"');
-  const reconcile = workflow.indexOf('- name: Reconcile committed launcher code feeds');
-  const amend = workflow.indexOf('git commit --amend --no-edit');
+  const refresh = workflow.indexOf('- name: Refresh committed launcher snapshot');
+  const snapshot = workflow.indexOf('- name: Commit refreshed launcher snapshot');
   const build = workflow.indexOf('- name: Build site');
   const smoke = workflow.indexOf('- name: Smoke deploy artifact');
   const push = workflow.indexOf('- name: Push verified changes');
   const deploy = workflow.indexOf('- name: Deploy to Cloudflare');
   const pushCommands = workflow.match(/\bgit push\b/g) || [];
-  const verifiedCondition = "if: ${{ steps.livestream.outputs.changed == 'true' || steps.changes.outputs.changed == 'true' }}";
-  const verifiedSteps = ['Install site deps', 'Build site', 'Smoke deploy artifact', 'Push verified changes'];
+  const freshCondition = "if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' }}";
+  const verifiedSteps = ['Build site', 'Smoke deploy artifact', 'Push verified changes'];
 
   assert(livestreamCommit >= 0 && livestreamCommit < build);
-  assert(codesCommit >= 0 && codesCommit < reconcile);
-  assert(reconcile >= 0 && reconcile < amend);
-  assert(amend >= 0 && amend < build);
+  assert(codesCommit >= 0 && codesCommit < refresh);
+  assert(refresh >= 0 && refresh < snapshot);
+  assert(snapshot >= 0 && snapshot < build);
   assert(build >= 0 && build < smoke);
   assert(smoke >= 0 && smoke < push);
   assert(push >= 0 && push < deploy);
@@ -36,34 +36,40 @@ test('code watch verifies every automated commit before its only push', () => {
   for (const name of verifiedSteps) {
     const start = workflow.indexOf('- name: ' + name);
     const end = workflow.indexOf('\n      - name:', start + 1);
-    const condition = workflow.indexOf(verifiedCondition, start);
+    const condition = workflow.indexOf(freshCondition, start);
     assert(start >= 0, 'missing ' + name + ' step');
-    assert(condition > start && (end < 0 || condition < end), name + ' must verify livestream and code changes');
+    assert(condition > start && (end < 0 || condition < end), name + ' must require a fresh committed launcher snapshot');
   }
+  const deployBlock = workflow.slice(deploy, workflow.indexOf('\n        run:', deploy));
+  assert.match(deployBlock, /steps\.launcher_snapshot\.outputs\.fresh == 'true'/);
+  assert.match(deployBlock, /steps\.changes\.outputs\.changed == 'true'/);
 });
 
-test('code watch commits both reconciled launcher feeds with authoritative codes', () => {
+test('code watch commits a full fresh launcher snapshot with authoritative codes', () => {
   const sourceCommit = workflow.indexOf('- name: Commit refreshed codes');
-  const reconcile = workflow.indexOf('- name: Reconcile committed launcher code feeds');
-  const amend = workflow.indexOf('- name: Amend refreshed codes with generated feeds');
+  const rebase = workflow.indexOf('- name: Rebase before launcher snapshot');
+  const refresh = workflow.indexOf('- name: Refresh committed launcher snapshot');
+  const snapshot = workflow.indexOf('- name: Commit refreshed launcher snapshot');
   const build = workflow.indexOf('- name: Build site');
-  const generated = workflow.indexOf('npm run generate:data && npm run generate:launcher-codes && npm run reconcile:launcher-codes', reconcile);
+  const generated = workflow.indexOf('npm run generate:data && npm run refresh:launcher', refresh);
   const sourceStaged = workflow.indexOf('git add Database/Codes/codes.json', sourceCommit);
   const pull = workflow.indexOf('git pull --rebase origin main', sourceCommit);
-  const feedsStaged = workflow.indexOf('git add Site/src/data/generated/nyx-data.js Site/src/data/generated/launcher-codes-v1.json Site/src/data/generated/launcher-banners-v1.json', amend);
+  const feedsStaged = workflow.indexOf('git add Site/src/data/generated/nyx-data.js Site/src/data/generated/launcher-codes-v1.json Site/src/data/generated/launcher-banners-v1.json', snapshot);
+  const artStaged = workflow.indexOf('git add -A Site/src/data/generated/launcher-art', snapshot);
   const sourceChangedCondition = "if: ${{ steps.changes.outputs.source_changed == 'true' }}";
 
-  assert(sourceCommit >= 0 && sourceCommit < reconcile);
+  assert(sourceCommit >= 0 && sourceCommit < rebase);
   assert(sourceStaged > sourceCommit && sourceStaged < pull);
-  assert(pull > sourceStaged && pull < reconcile, 'rebase must happen before generators can dirty unrelated tracked outputs');
-  assert(generated > reconcile && generated < amend);
-  assert(feedsStaged > amend && feedsStaged < build);
+  assert(pull > sourceStaged && pull < rebase);
+  assert(rebase < generated && generated < snapshot, 'the final rebase must happen before the wall-clock snapshot is generated');
+  assert(feedsStaged > snapshot && feedsStaged < artStaged && artStaged < build);
+  assert.match(workflow.slice(snapshot, build), /git commit --amend --no-edit/);
+  assert.match(workflow.slice(snapshot, build), /git commit -m "chore\(data\): refresh launcher snapshot \[skip ci\]"/);
+  assert.match(workflow.slice(snapshot, build), /echo "fresh=true"/);
   assert.match(workflow, /source_changed=(?:true|false)/);
-  for (const start of [sourceCommit, reconcile, amend]) {
-    const end = workflow.indexOf('\n      - name:', start + 1);
-    const condition = workflow.indexOf(sourceChangedCondition, start);
-    assert(condition > start && condition < end, 'source-changing steps must not run for force-only deploys');
-  }
+  const end = workflow.indexOf('\n      - name:', sourceCommit + 1);
+  const condition = workflow.indexOf(sourceChangedCondition, sourceCommit);
+  assert(condition > sourceCommit && condition < end, 'the source commit must not run for force-only deploys');
 });
 
 test('every scheduled publishing workflow pushes only after a deploy smoke test', () => {
@@ -88,7 +94,7 @@ test('every scheduled publishing workflow pushes only after a deploy smoke test'
   }
 });
 
-test('only the current-banner owner blocks on banner freshness and retries transient failures', () => {
+test('only the current-banner owner requires live scraper freshness and retries transient failures', () => {
   const workflow = (file) => fs.readFileSync(path.join(root, '.github/workflows', file), 'utf8');
   const dataRefresh = workflow('data-refresh.yml');
   assert.match(dataRefresh, /for attempt in 1 2 3/);
@@ -102,6 +108,33 @@ test('only the current-banner owner blocks on banner freshness and retries trans
   }
 });
 
+test('every production deploy requires a freshly committed launcher snapshot', () => {
+  const workflowDir = path.join(root, '.github/workflows');
+  const workflows = fs.readdirSync(workflowDir)
+    .filter((file) => /\.ya?ml$/.test(file))
+    .filter((file) => fs.readFileSync(path.join(workflowDir, file), 'utf8').includes('wrangler deploy'));
+  assert.ok(workflows.length > 0, 'expected at least one production deploy workflow');
+  for (const file of workflows) {
+    const source = fs.readFileSync(path.join(workflowDir, file), 'utf8');
+    const snapshot = source.indexOf('id: launcher_snapshot');
+    const refresh = Math.max(
+      source.lastIndexOf('npm run refresh:launcher', snapshot),
+      source.lastIndexOf('npm run build:deploy:generated', snapshot),
+    );
+    const exactSmoke = source.indexOf('npm run smoke:deploy', snapshot);
+    const push = source.indexOf('git push', exactSmoke);
+    const deploy = source.indexOf('- name: Deploy to Cloudflare', push);
+    const deployRun = source.indexOf('\n        run:', deploy);
+    const deployBlock = source.slice(deploy, deployRun);
+
+    assert(refresh >= 0 && refresh < snapshot, `${file} must refresh before marking a committed snapshot fresh`);
+    assert.match(source.slice(snapshot, exactSmoke), /git commit(?: --amend| -m)/, `${file} must commit refreshed launcher bytes`);
+    assert.match(source.slice(snapshot, exactSmoke), /echo "fresh=true"/, `${file} must publish an explicit fresh-snapshot output`);
+    assert(exactSmoke > snapshot && push > exactSmoke && deploy > push, `${file} must smoke, push, then deploy the committed snapshot`);
+    assert.match(deployBlock, /steps\.launcher_snapshot\.outputs\.fresh == 'true'/, `${file} deploy must fail closed without a fresh snapshot`);
+  }
+});
+
 test('data owners commit regenerated launcher feeds before exact production builds', () => {
   const workflow = (file) => fs.readFileSync(path.join(root, '.github/workflows', file), 'utf8');
   for (const file of ['data-refresh.yml', 'banner-history-refresh.yml', 'roster-sync.yml']) {
@@ -109,7 +142,8 @@ test('data owners commit regenerated launcher feeds before exact production buil
     const refresh = source.indexOf('npm run generate:data && npm run refresh:launcher');
     const stageManifest = source.indexOf('git add Site/src/data/generated/nyx-data.js Site/src/data/generated/launcher-codes-v1.json Site/src/data/generated/launcher-banners-v1.json');
     const stageArt = source.indexOf('git add -A Site/src/data/generated/launcher-art');
-    const amend = source.indexOf('git commit --amend --no-edit');
+    const snapshot = source.indexOf('- name: Commit refreshed launcher snapshot');
+    const amend = source.indexOf('git commit --amend --no-edit', snapshot);
     const build = source.indexOf('npm run build:deploy', amend);
     assert(refresh >= 0 && refresh < stageManifest, `${file} must refresh before staging generated feeds`);
     assert(stageManifest < stageArt && stageArt < amend, `${file} must stage feed bytes and exact art before amend`);

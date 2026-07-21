@@ -922,6 +922,21 @@ export function validatePackagedManifest(manifest, { now = Date.now(), maxAgeMs 
     if (entry?.game !== game || manifest?.health?.games?.[game]?.status !== 'ok') errors.push(`${game} identity or health is invalid`);
     if (!entry?.current?.selectedCharacter?.name) errors.push(`${game} has no current selection`);
     if (!(entry?.current?.selectedCharacter?.variants?.length > 0)) errors.push(`${game} current selection has no splash art`);
+    const currentStart = Date.parse(entry?.current?.start ?? '');
+    const currentEnd = Date.parse(entry?.current?.end ?? '');
+    const expectedDuration = Number.isFinite(currentEnd) && Number.isFinite(generatedAt)
+      ? Math.max(0, Math.floor((currentEnd - generatedAt) / 1000))
+      : NaN;
+    if (!Number.isFinite(currentStart) || !Number.isFinite(currentEnd) || currentStart > generatedAt || currentEnd <= generatedAt) {
+      errors.push(`${game} current window is invalid at generation time`);
+    } else if (now < currentStart || now >= currentEnd) {
+      errors.push(`${game} current window is not active at deployment time`);
+    }
+    if (entry?.current?.remaining?.startsAt !== entry?.current?.start
+      || entry?.current?.remaining?.endsAt !== entry?.current?.end
+      || entry?.current?.remaining?.durationSeconds !== expectedDuration) {
+      errors.push(`${game} current countdown does not match the committed snapshot`);
+    }
     for (const character of entry?.current?.characters ?? []) {
       if (!character?.icon) errors.push(`${game} current character ${character?.name ?? '<unknown>'} has no icon`);
     }

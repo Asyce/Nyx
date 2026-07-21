@@ -137,7 +137,7 @@ jobs:
 
       - name: Amend rebased generated output
         if: ${{ steps.manifest.outputs.changed == 'true' }}
-        id: amend
+        id: launcher_snapshot
         run: |
           git add -A Database/GameData Database/Audits Database/reports Site/src/data/generated
           if ! git diff --quiet; then
@@ -149,27 +149,28 @@ jobs:
             git commit --amend --no-edit
           fi
           echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+          echo "fresh=true" >> "$GITHUB_OUTPUT"
 
       # Repackage the already-verified build without regenerating tracked data.
       # This stamps the final amended commit into version.json and cache keys.
       - name: Package exact committed site
-        if: ${{ steps.manifest.outputs.changed == 'true' }}
+        if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' }}
         working-directory: Site
         env:
-          PENGO_DEPLOY_COMMIT: ${{ steps.amend.outputs.sha }}
+          PENGO_DEPLOY_COMMIT: ${{ steps.launcher_snapshot.outputs.sha }}
         run: node ./tools/build-deploy.mjs && node ./tools/inject-seo.mjs
 
       - name: Smoke exact deploy artifact
-        if: ${{ steps.manifest.outputs.changed == 'true' }}
+        if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' }}
         working-directory: Site
         run: npm run smoke:deploy
 
       - name: Push verified GameData
-        if: ${{ steps.manifest.outputs.changed == 'true' }}
+        if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' }}
         run: git push
 
       - name: Deploy to Cloudflare
-        if: ${{ steps.manifest.outputs.changed == 'true' && env.CF_API_TOKEN != '' }}
+        if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' && env.CF_API_TOKEN != '' }}
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: npx --yes wrangler deploy

@@ -75,7 +75,8 @@ jobs:
         working-directory: Site
         run: npm run generate:data && npm run refresh:launcher
 
-      - name: Amend history with generated feeds
+      - name: Commit refreshed launcher snapshot
+        id: launcher_snapshot
         if: ${{ steps.history_commit.outputs.changed == 'true' }}
         run: |
           git add Site/src/data/generated/nyx-data.js Site/src/data/generated/launcher-codes-v1.json Site/src/data/generated/launcher-banners-v1.json
@@ -83,20 +84,24 @@ jobs:
           if ! git diff --cached --quiet; then
             git commit --amend --no-edit
           fi
+          echo "fresh=true" >> "$GITHUB_OUTPUT"
 
       - name: Build deploy artifact
+        if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' }}
         working-directory: Site
         run: npm run build:deploy
 
       - name: Smoke published history and activities
+        if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' }}
         working-directory: Site
         run: npm run smoke:deploy
 
       - name: Push verified history
+        if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' }}
         run: git push
 
       - name: Deploy to Cloudflare
-        if: ${{ env.CF_API_TOKEN != '' }}
+        if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' && env.CF_API_TOKEN != '' }}
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: npx --yes wrangler deploy

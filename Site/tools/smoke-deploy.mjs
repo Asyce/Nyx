@@ -261,10 +261,9 @@ async function verifyLauncherBanners(base) {
   const launcherCodes = JSON.parse(await readDeployText('dist/launcher-codes-v1.json'));
   const generatedAt = Date.parse(manifest.generatedAt ?? '');
   if (!Number.isFinite(generatedAt) || generatedAt > Date.now() + 60_000) throw new Error('launcher manifest generatedAt is invalid or in the future');
-  // This is an immutable committed snapshot. Validate its structural and
-  // source-time invariants at its own generation instant; scheduled refreshes
-  // own advancing that timestamp in a new reviewed commit.
-  validatePackagedManifest(manifest, { now: generatedAt });
+  // Deploy the immutable committed snapshot only while it is fresh and all
+  // advertised current windows are still active at the real wall clock.
+  validatePackagedManifest(manifest, { now: Date.now() });
 
   const expected = buildManifest({
     ...loadManifestInputs({ now: generatedAt }),

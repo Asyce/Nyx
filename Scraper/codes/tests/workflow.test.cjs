@@ -14,6 +14,8 @@ const workflow = fs.readFileSync(
 test('code watch verifies every automated commit before its only push', () => {
   const livestreamCommit = workflow.indexOf('git commit -m "chore(codes): update livestream windows [skip ci]"');
   const codesCommit = workflow.indexOf('git commit -m "chore(data): codes watch refresh [skip ci]"');
+  const reconcile = workflow.indexOf('- name: Reconcile committed launcher code feeds');
+  const amend = workflow.indexOf('git commit --amend --no-edit');
   const build = workflow.indexOf('- name: Build site');
   const smoke = workflow.indexOf('- name: Smoke deploy artifact');
   const push = workflow.indexOf('- name: Push verified changes');
@@ -23,7 +25,9 @@ test('code watch verifies every automated commit before its only push', () => {
   const verifiedSteps = ['Install site deps', 'Build site', 'Smoke deploy artifact', 'Push verified changes'];
 
   assert(livestreamCommit >= 0 && livestreamCommit < build);
-  assert(codesCommit >= 0 && codesCommit < build);
+  assert(codesCommit >= 0 && codesCommit < reconcile);
+  assert(reconcile >= 0 && reconcile < amend);
+  assert(amend >= 0 && amend < build);
   assert(build >= 0 && build < smoke);
   assert(smoke >= 0 && smoke < push);
   assert(push >= 0 && push < deploy);
@@ -35,6 +39,30 @@ test('code watch verifies every automated commit before its only push', () => {
     const condition = workflow.indexOf(verifiedCondition, start);
     assert(start >= 0, 'missing ' + name + ' step');
     assert(condition > start && (end < 0 || condition < end), name + ' must verify livestream and code changes');
+  }
+});
+
+test('code watch commits both reconciled launcher feeds with authoritative codes', () => {
+  const sourceCommit = workflow.indexOf('- name: Commit refreshed codes');
+  const reconcile = workflow.indexOf('- name: Reconcile committed launcher code feeds');
+  const amend = workflow.indexOf('- name: Amend refreshed codes with generated feeds');
+  const build = workflow.indexOf('- name: Build site');
+  const generated = workflow.indexOf('npm run generate:data && npm run generate:launcher-codes && npm run reconcile:launcher-codes', reconcile);
+  const sourceStaged = workflow.indexOf('git add Database/Codes/codes.json', sourceCommit);
+  const pull = workflow.indexOf('git pull --rebase origin main', sourceCommit);
+  const feedsStaged = workflow.indexOf('git add Site/src/data/generated/nyx-data.js Site/src/data/generated/launcher-codes-v1.json Site/src/data/generated/launcher-banners-v1.json', amend);
+  const sourceChangedCondition = "if: ${{ steps.changes.outputs.source_changed == 'true' }}";
+
+  assert(sourceCommit >= 0 && sourceCommit < reconcile);
+  assert(sourceStaged > sourceCommit && sourceStaged < pull);
+  assert(pull > sourceStaged && pull < reconcile, 'rebase must happen before generators can dirty unrelated tracked outputs');
+  assert(generated > reconcile && generated < amend);
+  assert(feedsStaged > amend && feedsStaged < build);
+  assert.match(workflow, /source_changed=(?:true|false)/);
+  for (const start of [sourceCommit, reconcile, amend]) {
+    const end = workflow.indexOf('\n      - name:', start + 1);
+    const condition = workflow.indexOf(sourceChangedCondition, start);
+    assert(condition > start && condition < end, 'source-changing steps must not run for force-only deploys');
   }
 });
 

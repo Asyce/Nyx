@@ -84,6 +84,7 @@ jobs:
         id: changes
         run: |
           if git diff --quiet -- Database/Codes/codes.json; then
+            echo "source_changed=false" >> "$GITHUB_OUTPUT"
             if [ "${{ inputs.force_deploy || false }}" = "true" ]; then
               echo "changed=true" >> "$GITHUB_OUTPUT"
               echo "No semantic code changes, but force_deploy=true; continuing to build/deploy."
@@ -93,6 +94,7 @@ jobs:
             fi
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "source_changed=true" >> "$GITHUB_OUTPUT"
             git diff --stat -- Database/Codes/codes.json
           fi
 
@@ -115,7 +117,7 @@ jobs:
           done
 
       - name: Commit refreshed codes
-        if: ${{ steps.changes.outputs.changed == 'true' }}
+        if: ${{ steps.changes.outputs.source_changed == 'true' }}
         run: |
           git config user.name "pengo-bot"
           git config user.email "bot@pengo.gg"
@@ -131,6 +133,21 @@ jobs:
         if: ${{ steps.livestream.outputs.changed == 'true' || steps.changes.outputs.changed == 'true' }}
         working-directory: Site
         run: npm ci --no-audit --no-fund
+
+      - name: Reconcile committed launcher code feeds
+        if: ${{ steps.changes.outputs.source_changed == 'true' }}
+        working-directory: Site
+        run: npm run generate:data && npm run generate:launcher-codes && npm run reconcile:launcher-codes
+
+      - name: Amend refreshed codes with generated feeds
+        if: ${{ steps.changes.outputs.source_changed == 'true' }}
+        run: |
+          git add Site/src/data/generated/nyx-data.js Site/src/data/generated/launcher-codes-v1.json Site/src/data/generated/launcher-banners-v1.json
+          if git diff --cached --quiet; then
+            echo "Generated code feeds are already current."
+          else
+            git commit --amend --no-edit
+          fi
 
       - name: Build site
         if: ${{ steps.livestream.outputs.changed == 'true' || steps.changes.outputs.changed == 'true' }}

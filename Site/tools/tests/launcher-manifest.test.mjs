@@ -3,12 +3,46 @@ import crypto from 'node:crypto';
 import fs from 'node:fs';
 import path from 'node:path';
 import test from 'node:test';
-import { ROOT, applySourcedBannerWindows, buildManifest, loadManifestInputs, mirrorLauncherArt, officialUrl, validatePackagedManifest } from '../generate-launcher-manifest.mjs';
+import { ROOT, applySourcedBannerWindows, buildManifest, loadManifestInputs, mirrorLauncherArt, officialUrl, reconcileLauncherCodes, validatePackagedManifest } from '../generate-launcher-manifest.mjs';
 
 const NOW = Date.parse('2026-07-17T00:00:00.000Z');
 const phase = (start, end, characters = [{ name: 'Alpha', rarity: 5 }]) => ({ phase: '1.0', start, end, characters });
 const events = Object.fromEntries(['gi', 'hsr', 'zzz', 'wuwa', 'ae'].map((game) => [game, { events: [{ id: `${game}-safe`, title: 'Official update', start: '2026-07-16T00:00:00.000Z', end: '2026-07-20T00:00:00.000Z', source: { url: game === 'wuwa' ? 'https://wutheringwaves.kurogames.com/en/main/news/detail/1' : game === 'ae' ? 'https://endfield.gryphline.com/en-us/news/1' : `https://${game === 'gi' ? 'sg-hk4e-api' : game === 'hsr' ? 'sg-hkrpg-api' : 'sg-announcement-api'}.hoyoverse.com/common/announcement/1` } }, { id: `${game}-unsafe`, title: 'Unsafe', source: { url: 'http://example.invalid/nope' } }] }]));
 const rosters = Object.fromEntries(['gi', 'hsr', 'zzz', 'wuwa', 'ae'].map((game) => [game, [{ id: `${game}-alpha`, name: 'Alpha', rarity: 5, limited: true, release: '2026-01-01T00:00:00.000Z', assets: game === 'gi' ? { gacha: 'GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MarionetteNew.webp' } : undefined }]]));
+
+test('launcher code reconciliation changes only codes and content revision', () => {
+  const manifest = buildManifest({ banners: {}, events: {}, rosters: {}, now: NOW, generatedAt: '2026-07-17T00:00:00.000Z' });
+  const original = structuredClone(manifest);
+  const games = Object.fromEntries(['gi', 'hsr', 'zzz', 'wuwa', 'ae'].map((game) => [game, game === 'gi' ? [{ code: 'SAFE123', added: '2026-07-17', amount: 60, currency: 'Primogems', internal: 'must-not-leak' }] : []]));
+  const reconciled = reconcileLauncherCodes(manifest, { schemaVersion: 1, games });
+
+  assert.deepEqual(manifest, original, 'input manifest must remain unchanged on success');
+  assert.notEqual(reconciled.revision, original.revision);
+  assert.deepEqual(reconciled.games.gi.codes, [{ code: 'SAFE123', added: '2026-07-17', amount: 60, currency: 'Primogems' }]);
+  for (const game of ['gi', 'hsr', 'zzz', 'wuwa', 'ae']) {
+    const before = structuredClone(original.games[game]);
+    const after = structuredClone(reconciled.games[game]);
+    delete before.codes;
+    delete after.codes;
+    assert.deepEqual(after, before, `${game} banner data or art changed`);
+  }
+});
+
+test('launcher code reconciliation rejects malformed or partial feeds without mutation', () => {
+  const manifest = buildManifest({ banners: {}, events: {}, rosters: {}, now: NOW, generatedAt: '2026-07-17T00:00:00.000Z' });
+  const original = structuredClone(manifest);
+  const emptyGames = Object.fromEntries(['gi', 'hsr', 'zzz', 'wuwa', 'ae'].map((game) => [game, []]));
+  const invalidFeeds = [
+    { schemaVersion: 2, games: emptyGames },
+    { schemaVersion: 1, games: { gi: [] } },
+    { schemaVersion: 1, games: { ...emptyGames, gi: [{ code: '../BAD', added: '2026-07-17', amount: 60, currency: 'Primogems' }] } },
+    { schemaVersion: 1, games: { ...emptyGames, gi: [{ code: 'SAFE123', added: 'not-a-date', amount: 60, currency: 'Primogems' }] } },
+    { schemaVersion: 1, games: { ...emptyGames, gi: [{ code: 'SAFE123', added: '2026-07-17', amount: -1, currency: 'Primogems' }] } },
+  ];
+
+  for (const feed of invalidFeeds) assert.throws(() => reconcileLauncherCodes(manifest, feed));
+  assert.deepEqual(manifest, original, 'input manifest must remain unchanged after rejected feeds');
+});
 
 test('strict official links accept only HTTPS publisher hosts', () => {
   assert.equal(officialUrl('https://genshin.hoyoverse.com/en/news/1#unsafe', 'gi'), 'https://genshin.hoyoverse.com/en/news/1');

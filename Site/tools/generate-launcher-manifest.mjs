@@ -630,13 +630,42 @@ function stableStringify(value) {
   return JSON.stringify(value);
 }
 
-function manifestRevision(manifest) {
+export function manifestRevision(manifest) {
   const games = structuredClone(manifest.games ?? {});
   for (const game of Object.values(games)) {
     if (game?.current?.remaining) delete game.current.remaining.durationSeconds;
   }
   const payload = { schemaVersion: manifest.schemaVersion, health: { status: 'pending', games: manifest.health.games }, games };
   return crypto.createHash('sha256').update(stableStringify(payload)).digest('hex');
+}
+
+export function reconcileLauncherCodes(manifest, codesFeed) {
+  if (manifest?.schemaVersion !== 1 || codesFeed?.schemaVersion !== 1) {
+    throw new Error('Launcher manifests must use schemaVersion 1');
+  }
+  const manifestGames = Object.keys(manifest?.games ?? {});
+  const codeGames = Object.keys(codesFeed?.games ?? {});
+  if (manifestGames.length !== GAMES.length || codeGames.length !== GAMES.length
+    || GAMES.some((game) => !manifestGames.includes(game) || !codeGames.includes(game))) {
+    throw new Error('Launcher manifests must contain exactly the five canonical games');
+  }
+
+  const reconciled = structuredClone(manifest);
+  for (const game of GAMES) {
+    const codes = codesFeed.games[game];
+    if (!Array.isArray(codes) || codes.length > 5) throw new Error(`${game} launcher codes must be an array of at most five entries`);
+    for (const entry of codes) {
+      if (!entry || !/^[-_A-Za-z0-9]{1,64}$/.test(entry.code ?? '')
+        || !/^\d{4}-\d{2}-\d{2}$/.test(entry.added ?? '')
+        || !Number.isSafeInteger(entry.amount) || entry.amount < 0
+        || typeof entry.currency !== 'string') {
+        throw new Error(`${game} launcher code entry is invalid`);
+      }
+    }
+    reconciled.games[game].codes = codes.map(({ code, added, amount, currency }) => ({ code, added, amount, currency }));
+  }
+  reconciled.revision = manifestRevision(reconciled);
+  return reconciled;
 }
 
 /**

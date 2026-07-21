@@ -5,6 +5,7 @@
   "scripts": {
     "generate:data": "node ./tools/generate-site-data.mjs",
     "generate:launcher-codes": "node ./tools/generate-launcher-codes.mjs",
+    "reconcile:launcher-codes": "node ./tools/reconcile-launcher-codes.mjs",
     "generate:launcher-manifest": "node ./tools/generate-launcher-manifest.mjs",
     "generate:weapons": "node ./tools/gen-weapons-meta.mjs",
     "scrape:gcg": "node ./tools/scrape-gamedata-gcg.mjs",

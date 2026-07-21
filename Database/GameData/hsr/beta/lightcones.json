@@ -62472,7 +62472,7 @@
     },
     "effect": {
       "name": "Waveriding",
-      "description": "Increases the wearer's CRIT Rate by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When the wearer uses an Elation Skill, gains \"Hype\", which increases the wearer's SPD by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>. If the Elation Skill used is different from the last Elation Skill used, additionally gains \"Trend,\" which increases the wearer's Elation by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>.\\nAt the start of every wave or after the wearer uses their Elation Skill <unbreak>#4[i]</unbreak> time(s), recovers 1 Skill Point.",
+      "description": "Increases the wearer's CRIT Rate by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When the wearer uses an Elation Skill, gains \"Updraft,\" which increases the wearer's SPD by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>. If the Elation Skill used is different from the last Elation Skill used, additionally gains \"Uptrend,\" which increases the wearer's Elation by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>.\\nAt the start of every wave or after the wearer uses their Elation Skill <unbreak>#4[i]</unbreak> time(s), recovers 1 Skill Point.",
       "levels": [
         {
           "level": 1,
@@ -62846,7 +62846,7 @@
       }
     ],
     "liveComparison": {
-      "currentHash": "0ae02b6b35252978443ee1b4d9be15309bbfd28db6dd293ed3064b1d1737ef82"
+      "currentHash": "9bc5e4b859d71b17f4b307a560f425c055174579d29899744a9e463f17d99090"
     }
   },
   {

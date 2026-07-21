@@ -1131,7 +1131,7 @@
     "desc": "Soaring clearest skies and bluest oceans, wings sweep up the sea spray, transforming it into a new melody.\\nFollowing the lingering echoes of memory, she embraces the unexpected along the way, seeking inspiration for a melodic variation—\\nBeyond the melody, how else can the Harmony sing?",
     "ko": "로빈•서머레토",
     "zh": "知更鸟•晴歌",
-    "ja": "ロビン・夏空の歌"
+    "ja": "ロビン・{RUBY_B#なつぞら}夏空{RUBY_E#}の{RUBY_B#うた}歌{RUBY_E#}"
   },
   "1513": {
     "icon": "aventurinewaveflair",
@@ -1143,7 +1143,7 @@
     "desc": "The festival illuminates the shore, as storms brew within the Euphoria.\\nSecret orders in hand, he steps back into the eye of the storm to shake up this long holiday—\\nWhen the treacherous waves subsume him, how will he become the one that turns the tides?",
     "ko": "어벤츄린•웨이브",
     "zh": "砂金•戏浪",
-    "ja": "アベンチュリン・波と戯れる夏"
+    "ja": "アベンチュリン・{RUBY_B#なみ}波{RUBY_E#}と{RUBY_B#たわむ}戯{RUBY_E#}れる{RUBY_B#なつ}夏{RUBY_E#}"
   },
   "8001": {
     "release": 1682460000,

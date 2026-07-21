@@ -7,7 +7,7 @@
 (function(){
   window.CM_CFG_BETA = window.CM_CFG_BETA || {};
   window.CM_CFG_BETA["hsr"] = {
-  "version": "4.4.51",
+  "version": "4.4.52",
   "liveVersion": "4.4",
   "newCount": 2,
   "changedCount": 17,
@@ -85,7 +85,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.51",
+        "version": "4.4.52",
         "sections": [
           {
             "title": "Skills",
@@ -730,7 +730,7 @@
               {
                 "name": "The Colors We Never Strike",
                 "type": "Eidolon 2",
-                "desc": "The cap of Himeko \u2022 Nova's Assist Skill uses increases to 2, and the DMG dealt by Ultimate and Assist Skill becomes 130% of their original DMG. During the \"Navigator's Semaphore\" state, at the start of each turn , additionally recovers 1 use of Assist Skill immediately. When a non-Trailblaze Companions character uses Assist Skill, the Trace \"Hark! The Express's Pulse Roars\" now also grants them 1 extra turn.",
+                "desc": "The cap of Himeko \u2022 Nova's Assist Skill uses increases to 2, and the DMG dealt by Ultimate and Assist Skill becomes 130% of their original DMG. During the \"Navigator's Semaphore\" state, at the start of each turn, additionally recovers 1 use of Assist Skill immediately. When a non-Trailblaze Companions character uses Assist Skill, the Trace \"Hark! The Express's Pulse Roars\" now also grants them 1 extra turn.",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1510_Rank2.webp"
               },
               {
@@ -1806,7 +1806,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.51",
+        "version": "4.4.52",
         "sections": [
           {
             "title": "Skills",
@@ -3291,7 +3291,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.51",
+        "version": "4.4.52",
         "sections": [
           {
             "title": "Skills",
@@ -3756,7 +3756,7 @@
               {
                 "name": "Cashing the Past for a Wild Ride",
                 "type": "Eidolon 6",
-                "desc": "Elation DMG dealt by Aventurine \u2022 Waveflair merrymakes by 25%. After Aventurine \u2022 Waveflair uses his Ultimate 2 time(s), all subsequent Elation Skills used become \"All in! To the Blazing Summer,\" and when using the Elation Skill \"All in! To the Blazing Summer\" additionally deals DMG outside of Aha Instant, it no longer consumes \"Fervor.\"",
+                "desc": "Elation DMG dealt by Aventurine \u2022 Waveflair merrymakes by 25%. After Aventurine \u2022 Waveflair uses his Ultimate 2 time(s), all subsequent Elation Skills used become \"All in! To the Blazing Summer,\" and when using the Elation Skill \"All in! To the Blazing Summer\" to additionally deal DMG outside of Aha Instant, it no longer consumes \"Fervor.\"",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_Rank6.webp"
               }
             ]
@@ -4796,7 +4796,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.51",
+        "version": "4.4.52",
         "sections": [
           {
             "title": "Skills",
@@ -5113,7 +5113,7 @@
               {
                 "name": "Hearing the Chord Variations",
                 "type": "Eidolon 4",
-                "desc": "Upon entering the \"Fever\" state, immediately gains 12 Vibes, and the SPD of \"Summer Songbirds\" increases by 20% plus current Vibes \u00d7 0.5%.",
+                "desc": "Upon entering the \"Fever\" state, immediately gains 12 point(s) of Vibes, and the SPD of \"Summer Songbirds\" increases by 20% plus current Vibes \u00d7 0.5%.",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Rank4.webp"
               },
               {
@@ -6173,7 +6173,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.51",
+        "version": "4.4.52",
         "sections": [
           {
             "title": "Skills",
@@ -7623,7 +7623,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.51",
+        "version": "4.4.52",
         "sections": [
           {
             "title": "Skills",
@@ -9067,7 +9067,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.51",
+        "version": "4.4.52",
         "sections": [
           {
             "title": "Skills",
@@ -10447,7 +10447,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.51",
+        "version": "4.4.52",
         "sections": [
           {
             "title": "Skills",
@@ -11826,7 +11826,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.51",
+        "version": "4.4.52",
         "sections": [
           {
             "title": "Skills",
@@ -13206,7 +13206,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.51",
+        "version": "4.4.52",
         "sections": [
           {
             "title": "Skills",
@@ -14647,7 +14647,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.51",
+        "version": "4.4.52",
         "sections": [
           {
             "title": "Skills",
@@ -16023,7 +16023,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.51",
+        "version": "4.4.52",
         "sections": [
           {
             "title": "Skills",
@@ -17405,7 +17405,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.51",
+        "version": "4.4.52",
         "sections": [
           {
             "title": "Skills",
@@ -18792,7 +18792,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.51",
+        "version": "4.4.52",
         "sections": [
           {
             "title": "Skills",
@@ -20413,7 +20413,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.51",
+        "version": "4.4.52",
         "sections": [
           {
             "title": "Skills",
@@ -21932,7 +21932,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.51",
+        "version": "4.4.52",
         "sections": [
           {
             "title": "Skills",
@@ -23435,7 +23435,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.51",
+        "version": "4.4.52",
         "sections": [
           {
             "title": "Skills",
@@ -24820,7 +24820,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.51",
+        "version": "4.4.52",
         "sections": [
           {
             "title": "Skills",
@@ -26186,7 +26186,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.51",
+        "version": "4.4.52",
         "sections": [
           {
             "title": "Skills",

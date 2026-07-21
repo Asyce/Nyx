@@ -5096,7 +5096,7 @@
     "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png"
   },
   "140634": {
-    "item_name": "",
+    "item_name": "Speed Star • Grand Champion Trophy",
     "item_sub_type": "Mission",
     "purpose_type": 16,
     "rarity": "VeryRare",
@@ -9485,7 +9485,7 @@
     "item_figure_icon_path": "SpriteOutput/ItemFigures/402036.png"
   },
   "402037": {
-    "item_name": "",
+    "item_name": "Vibrant Zest-Core",
     "item_sub_type": "Food",
     "purpose_type": 10,
     "rarity": "Rare",
@@ -10150,7 +10150,7 @@
     "item_figure_icon_path": "SpriteOutput/ItemFigures/404001.png"
   },
   "406037": {
-    "item_name": "",
+    "item_name": "Recipe: Vibrant Zest-Core",
     "item_sub_type": "Formula",
     "purpose_type": 19,
     "rarity": "Rare",

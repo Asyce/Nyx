@@ -34,7 +34,7 @@
     "2": {
       "id": 151002,
       "name": "The Colors We Never Strike",
-      "desc": "The cap of Himeko • Nova's <u>Assist Skill</u> uses increases to 2, and the DMG dealt by Ultimate and <u>Assist Skill</u> becomes <unbreak>#1[i]%</unbreak> of their original DMG. During the \"Navigator's Semaphore\" state, at the start of each turn , additionally recovers 1 use of <u>Assist Skill</u> immediately. When a non-<u>Trailblaze Companions</u> character uses <u>Assist Skill</u>, the Trace \"Hark! The Express's Pulse Roars\" now also grants them 1 <u>extra turn</u>.",
+      "desc": "The cap of Himeko • Nova's <u>Assist Skill</u> uses increases to 2, and the DMG dealt by Ultimate and <u>Assist Skill</u> becomes <unbreak>#1[i]%</unbreak> of their original DMG. During the \"Navigator's Semaphore\" state, at the start of each turn, additionally recovers 1 use of <u>Assist Skill</u> immediately. When a non-<u>Trailblaze Companions</u> character uses <u>Assist Skill</u>, the Trace \"Hark! The Express's Pulse Roars\" now also grants them 1 <u>extra turn</u>.",
       "icon": "SkillIcon_1510_Rank2.png",
       "param_list": [
         1.3

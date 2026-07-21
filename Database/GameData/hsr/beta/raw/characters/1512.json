@@ -34,7 +34,13 @@
         1,
         0.5
       ],
-      "extra": {}
+      "extra": {
+        "10000017": {
+          "name": "True DMG",
+          "desc": "Non-Type DMG that is not affected by any effects. This DMG is not considered as launching 1 attack.",
+          "param": []
+        }
+      }
     },
     "3": {
       "id": 151203,
@@ -47,7 +53,7 @@
     "4": {
       "id": 151204,
       "name": "Hearing the Chord Variations",
-      "desc": "Upon entering the \"Fever\" state, immediately gains <unbreak>#1[i]</unbreak> Vibes, and the SPD of \"Summer Songbirds\" increases by <unbreak>#2[i]%</unbreak> plus current Vibes × <unbreak>#3[f1]%</unbreak>.",
+      "desc": "Upon entering the \"Fever\" state, immediately gains <unbreak>#1[i]</unbreak> point(s) of Vibes, and the SPD of \"Summer Songbirds\" increases by <unbreak>#2[i]%</unbreak> plus current Vibes × <unbreak>#3[f1]%</unbreak>.",
       "icon": "SkillIcon_1512_Rank4.png",
       "param_list": [
         12,
@@ -75,7 +81,13 @@
         0,
         2
       ],
-      "extra": {}
+      "extra": {
+        "30000005": {
+          "name": "RES PEN",
+          "desc": "When dealing DMG, ignore a part of the enemy target's resistance to the corresponding damage type.",
+          "param": []
+        }
+      }
     }
   },
   "skills": {
@@ -174,7 +186,13 @@
         0,
         0
       ],
-      "extra": {},
+      "extra": {
+        "10000018": {
+          "name": "Summon Memosprite",
+          "desc": "Summon the memosprite to the field. If the memosprite is already on the field, dispels all Crowd Control debuffs the memosprite is afflicted with.",
+          "param": []
+        }
+      },
       "level": {
         "1": {
           "level": 1,
@@ -298,7 +316,13 @@
         0,
         0
       ],
-      "extra": {},
+      "extra": {
+        "10000001": {
+          "name": "Action Advance",
+          "desc": "Reduces the target's waiting interval before the next action.",
+          "param": []
+        }
+      },
       "level": {
         "1": {
           "level": 1,
@@ -2488,7 +2512,7 @@
       "1": {
         "anchor": "Point19",
         "default_unlock": true,
-        "icon": "SkillIcon_11413_Servant03.png",
+        "icon": "SkillIcon_11512_Servant.png",
         "level_up_skill_id": [
           1151201
         ],
@@ -2507,7 +2531,7 @@
         "anchor": "Point19",
         "avatar_promotion_limit": 2,
         "default_unlock": false,
-        "icon": "SkillIcon_11413_Servant03.png",
+        "icon": "SkillIcon_11512_Servant.png",
         "level_up_skill_id": [
           1151201
         ],
@@ -2542,7 +2566,7 @@
         "anchor": "Point19",
         "avatar_promotion_limit": 3,
         "default_unlock": false,
-        "icon": "SkillIcon_11413_Servant03.png",
+        "icon": "SkillIcon_11512_Servant.png",
         "level_up_skill_id": [
           1151201
         ],
@@ -2577,7 +2601,7 @@
         "anchor": "Point19",
         "avatar_promotion_limit": 4,
         "default_unlock": false,
-        "icon": "SkillIcon_11413_Servant03.png",
+        "icon": "SkillIcon_11512_Servant.png",
         "level_up_skill_id": [
           1151201
         ],
@@ -2612,7 +2636,7 @@
         "anchor": "Point19",
         "avatar_promotion_limit": 5,
         "default_unlock": false,
-        "icon": "SkillIcon_11413_Servant03.png",
+        "icon": "SkillIcon_11512_Servant.png",
         "level_up_skill_id": [
           1151201
         ],
@@ -2647,7 +2671,7 @@
         "anchor": "Point19",
         "avatar_promotion_limit": 6,
         "default_unlock": false,
-        "icon": "SkillIcon_11413_Servant03.png",
+        "icon": "SkillIcon_11512_Servant.png",
         "level_up_skill_id": [
           1151201
         ],
@@ -2683,7 +2707,7 @@
       "1": {
         "anchor": "Point20",
         "default_unlock": true,
-        "icon": "SkillIcon_11413_ServantPassive.png",
+        "icon": "SkillIcon_11512_ServantPassive.png",
         "level_up_skill_id": [
           1151203,
           1151205,
@@ -2704,7 +2728,7 @@
         "anchor": "Point20",
         "avatar_promotion_limit": 2,
         "default_unlock": false,
-        "icon": "SkillIcon_11413_ServantPassive.png",
+        "icon": "SkillIcon_11512_ServantPassive.png",
         "level_up_skill_id": [
           1151203,
           1151205,
@@ -2741,7 +2765,7 @@
         "anchor": "Point20",
         "avatar_promotion_limit": 3,
         "default_unlock": false,
-        "icon": "SkillIcon_11413_ServantPassive.png",
+        "icon": "SkillIcon_11512_ServantPassive.png",
         "level_up_skill_id": [
           1151203,
           1151205,
@@ -2778,7 +2802,7 @@
         "anchor": "Point20",
         "avatar_promotion_limit": 4,
         "default_unlock": false,
-        "icon": "SkillIcon_11413_ServantPassive.png",
+        "icon": "SkillIcon_11512_ServantPassive.png",
         "level_up_skill_id": [
           1151203,
           1151205,
@@ -2815,7 +2839,7 @@
         "anchor": "Point20",
         "avatar_promotion_limit": 5,
         "default_unlock": false,
-        "icon": "SkillIcon_11413_ServantPassive.png",
+        "icon": "SkillIcon_11512_ServantPassive.png",
         "level_up_skill_id": [
           1151203,
           1151205,
@@ -2852,7 +2876,7 @@
         "anchor": "Point20",
         "avatar_promotion_limit": 6,
         "default_unlock": false,
-        "icon": "SkillIcon_11413_ServantPassive.png",
+        "icon": "SkillIcon_11512_ServantPassive.png",
         "level_up_skill_id": [
           1151203,
           1151205,
@@ -2900,7 +2924,7 @@
     "skills": {
       "1151201": {
         "name": "Twittering Quartet",
-        "desc": "Deals Wind DMG to all enemies equal to <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> of Summer Songbirds's Max HP.",
+        "desc": "Deals Wind DMG equal to <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> of Summer Songbirds' Max HP to all enemies.",
         "simple_desc": "Deals minor Wind DMG to all enemies.",
         "type": "Servant",
         "type_name": "Memosprite Skill",
@@ -2988,7 +3012,7 @@
       },
       "1151203": {
         "name": "Fluttering Harmony",
-        "desc": "While in the \"Fever\" state, Summer Songbirds and a countdown will appear on the action bar, increasing the DMG dealt by Robin • Summeretto and this unit by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> + Vibes × <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color>. When Summer Songbirds' turn starts, they use the Memosprite Skill. The countdown has an initial SPD of <unbreak>#9[i]</unbreak>. When their turn starts, <unbreak>#10[i]%</unbreak> of current Vibes (a minimum of <unbreak>#6[i]</unbreak> points) gets deducted. When Vibes reach 0, the Summer Songbirds disappear and Robin • Summeretto exits the \"Fever\" state. While Summer Songbirds are on the field, increases the DMG taken by all enemies by <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color>/<color=#f29e38ff><unbreak>#4[f1]%</unbreak></color>/<color=#f29e38ff><unbreak>#5[f1]%</unbreak></color> respectively based on the number of members present.",
+        "desc": "While in the \"Fever\" state, Summer Songbirds and a countdown will appear on the action bar, increasing the DMG dealt by Robin • Summeretto and themselves by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> + Vibes × <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color>. When Summer Songbirds' turn starts, they use the Memosprite Skill. The countdown has an initial SPD of <unbreak>#9[i]</unbreak>. When their turn starts, <unbreak>#10[i]%</unbreak> of current Vibes (a minimum of <unbreak>#6[i]</unbreak> points) gets deducted. When Vibes reach 0, the Summer Songbirds disappear and Robin • Summeretto exits the \"Fever\" state. While Summer Songbirds are on the field, increases the DMG taken by all enemies by <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color>/<color=#f29e38ff><unbreak>#4[f1]%</unbreak></color>/<color=#f29e38ff><unbreak>#5[f1]%</unbreak></color> respectively based on the number of members present.",
         "simple_desc": "While in the \"Fever\" state, DMG dealt by Robin • Summeretto and this unit increases. Summer Songbirds use Memosprite Skill at the start of their turn. When Vibes reach 0, Summer Songbirds disappear, causing Robin • Summeretto to exit the \"Fever\" state. While Summer Songbirds are on the field, increases DMG taken by all enemies based on the number of members.",
         "type_name": "Memosprite Talent",
         "tag": "Support",

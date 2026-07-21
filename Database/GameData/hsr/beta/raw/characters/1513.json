@@ -68,7 +68,7 @@
     "6": {
       "id": 151306,
       "name": "Cashing the Past for a Wild Ride",
-      "desc": "<u>Elation DMG</u> dealt by Aventurine • Waveflair <u>merrymakes</u> by <unbreak>#2[i]%</unbreak>. After Aventurine • Waveflair uses his Ultimate <unbreak>#1[i]</unbreak> time(s), all subsequent Elation Skills used become \"All in! To the Blazing Summer,\" and when using the Elation Skill \"All in! To the Blazing Summer\" additionally deals DMG outside of Aha Instant, it no longer consumes \"Fervor.\"",
+      "desc": "<u>Elation DMG</u> dealt by Aventurine • Waveflair <u>merrymakes</u> by <unbreak>#2[i]%</unbreak>. After Aventurine • Waveflair uses his Ultimate <unbreak>#1[i]</unbreak> time(s), all subsequent Elation Skills used become \"All in! To the Blazing Summer,\" and when using the Elation Skill \"All in! To the Blazing Summer\" to additionally deal DMG outside of Aha Instant, it no longer consumes \"Fervor.\"",
       "icon": "SkillIcon_1513_Rank6.png",
       "param_list": [
         2,
@@ -726,7 +726,7 @@
       "id": 151307,
       "name": "Stirring Waves in Still Waters",
       "desc": "Moves forward rapidly for a set distance, attacking all enemies in contact and blocking all incoming attacks. After entering combat via attacking enemies, Aventurine • Waveflair deals Quantum DMG equal to <unbreak>#1[i]%</unbreak> of his ATK to all enemies, and gains <unbreak>#2[i]</unbreak> point(s) of \"Fervor\" and <unbreak>#3[i]</unbreak> points of \"<u>Certified Banger</u>.\"",
-      "simple_desc": "Moves forward rapidly for a set distance and attacks enemies in contact. After entering combat by attacking enemies, deals minor Quantum DMG to all enemies and gains \"Fervor\" and \"<u>Certified Banger</u>\".",
+      "simple_desc": "Moves forward rapidly for a set distance and attacks enemies in contact. After entering combat by attacking enemies, deals minor Quantum DMG to all enemies and gains \"Fervor\" and \"<u>Certified Banger</u>.\"",
       "type": "Maze",
       "type_name": "Technique",
       "tag": "MazeAttack",

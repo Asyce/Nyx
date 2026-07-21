@@ -6031,7 +6031,7 @@
     "item_comefrom": [
       {
         "id": 1,
-        "desc": "Obtained from Planarcadia Exploration"
+        "desc": "Exploring Planarcadia"
       },
       {
         "id": 2,
@@ -6042,7 +6042,8 @@
         "desc": "Adventure Missions"
       },
       {
-        "id": 4
+        "id": 4,
+        "desc": "Obtained from Astropolis Exploration"
       }
     ]
   },
@@ -17250,8 +17251,8 @@
     "rarity": "VeryRare",
     "purpose_type": 16,
     "is_visible": true,
-    "item_name": "",
-    "item_bg_desc": "",
+    "item_name": "Speed Star • Grand Champion Trophy",
+    "item_bg_desc": "The trophy of the Overdrive Whirlwind Grand Prix. Starting with this year's race, it will record every champion to come, with each new victor adding their name to the legend. And on its base, the first champion left a motto carved in stone: \\n\\n<i>\"{TEXTJOIN#279}\"</i>",
     "item_icon_path": "SpriteOutput/ItemIcon/140028.png",
     "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png",
     "item_currency_icon_path": "SpriteOutput/ItemIcon/140028.png",
@@ -31429,9 +31430,9 @@
     "rarity": "Rare",
     "purpose_type": 10,
     "is_visible": true,
-    "item_name": "",
-    "item_desc": "",
-    "item_bg_desc": "",
+    "item_name": "Vibrant Zest-Core",
+    "item_desc": "Upon use, increases all allies' Elation by <unbreak>24%</unbreak> for the next battle.",
+    "item_bg_desc": "At first, no one paid any attention to this orange can... until it started jumping, singing, and showering all of Planarcadia with joyful dopamine. Watch out! If it catches you frowning, it'll send little orange fairies bursting into your mouth to do a cheerful tap dance on the tip of your tongue.\\n\\n<i>\"Note: No imagenae were harmed during this delivery event.\"</i>",
     "item_icon_path": "SpriteOutput/ItemIcon/402037.png",
     "item_figure_icon_path": "SpriteOutput/ItemFigures/402037.png",
     "item_currency_icon_path": "SpriteOutput/ItemIcon/402037.png",
@@ -31453,7 +31454,7 @@
     "is_visible": true,
     "item_name": "Mung Bean Soda Sukiyaki",
     "item_desc": "Upon use, immediately causes all allies to lose HP equal to 5% of their Max HP and increases their ATK by <unbreak>40%</unbreak> for the next battle.",
-    "item_bg_desc": "Mingxi developed dozens of \"creative Xianzhou dishes\" for the Upside-Down Restaurant. Not all of them were hits. The most controversial by far was the \"Mung Bean Soda Sukiyaki.\" That said, it wasn't exactly a commercial failure. Nobody actually liked the dish, but everyone who visited Astropolis tried it at least once.\\n\\n<i>\"So weird, let me try a bite… *blech*… So weird, let me try another bite… *blech*… So weird, just one more bite… *blech*… So weird, one more bite… *blech*…\"</i>",
+    "item_bg_desc": "Mingxi developed dozens of \"creative Xianzhou dishes\" for the Upside-Down Restaurant. Not all of them were hits. The most controversial by far was the \"Mung Bean Soda Sukiyaki.\" That said, it wasn't exactly a commercial failure. Nobody actually liked the dish, but everyone who visited Astropolis tried it at least once.\\n\\n<i>\"So weird, let me try a bite... *blech*... So weird, let me try another bite... *blech*... So weird, just one more bite... *blech*... So weird, one more bite... *blech*...\"</i>",
     "item_icon_path": "SpriteOutput/ItemIcon/402038.png",
     "item_figure_icon_path": "SpriteOutput/ItemFigures/402038.png",
     "item_currency_icon_path": "SpriteOutput/ItemIcon/402038.png",
@@ -31943,7 +31944,7 @@
     "purpose_type": 10,
     "is_visible": true,
     "item_name": "Amber Lord Jumps Over the Wall",
-    "item_desc": "Upon use, increase ATK of all allies by <unbreak>24%</unbreak> and CRIT DMG by <unbreak>24%</unbreak> for the next battle.",
+    "item_desc": "Upon use, increases ATK of all allies by <unbreak>24%</unbreak> and CRIT DMG by <unbreak>24%</unbreak> for the next battle.",
     "item_bg_desc": "Mingxi has developed dozens of \"creative Xianzhou dishes\" for the Upside-Down Restaurant, and \"Amber Lord Jumps Over the Wall\" has been the most successful of them all. It has already become the go-to dish representing \"high-end dining\" in Astropolis. Given enough time, it might just come to define the \"Astropolis cuisine\" entirely.\\n\\n<i>\"Hey boss, why is it called 'Amber Lord Jumps Over the Wall' and not 'Amber Lord Builds the Wall'?\"\\n\"'Builds the Wall'? I'm afraid you'd break a tooth trying to chew through that.\"</i>",
     "item_icon_path": "SpriteOutput/ItemIcon/403017.png",
     "item_figure_icon_path": "SpriteOutput/ItemFigures/403017.png",
@@ -33569,9 +33570,9 @@
     "rarity": "Rare",
     "purpose_type": 19,
     "is_visible": true,
-    "item_name": "",
-    "item_desc": "",
-    "item_bg_desc": "",
+    "item_name": "Recipe: Vibrant Zest-Core",
+    "item_desc": "A simple equation. When entered into the Synthesizer, it will unlock a new recipe.",
+    "item_bg_desc": "Sometimes, happiness is hard to find, so hard that even a fortune can't buy it.\\nBut sometimes, happiness is easy. All you need is a Happiness Coupon that represents vitality and dopamine.\\n\\n<i>\"You want it? You got it! Redeem it anytime! We'll always foot the bill for your happiness!\"</i>",
     "item_icon_path": "SpriteOutput/ItemIcon/406037.png",
     "item_figure_icon_path": "SpriteOutput/ItemFigures/406037.png",
     "item_currency_icon_path": "SpriteOutput/ItemIcon/406037.png",
@@ -35721,7 +35722,7 @@
     "purpose_type": 10,
     "is_visible": true,
     "item_name": "\"Lighthouse\" Movable Action Model",
-    "item_desc": "Upon use, increase DEF of all allies by <unbreak>25%</unbreak> in the next battle.",
+    "item_desc": "Upon use, increases DEF of all allies by <unbreak>25%</unbreak> in the next battle.",
     "item_bg_desc": "\"Lighthouse\" is Astropolis's most iconic homegrown IP, and the merchandise has never stopped flying off the shelves. Nobody knows who started this quirky tradition, but some people actually believe that this movable action model has the power to \"bless your home and keep it safe,\" so they buy one and enshrine it right by their front door.\\n\\n<i>\"Please, 'Lighthouse,' I'm begging you! Bless me so I can pass my exams and land a job at the Life Sciences Institute!\"\\n\"Isn't he supposed to bless your home? Why are you asking him for exam luck? You really think that's gonna work?\"\\n\"Doesn't matter. I've already prayed to every single Aeon out there. Might as well throw him in too.\"</i>",
     "item_icon_path": "SpriteOutput/ItemIcon/408452.png",
     "item_figure_icon_path": "SpriteOutput/ItemFigures/408452.png",
@@ -36949,7 +36950,7 @@
     "is_visible": true,
     "item_name": "The Swimsuit",
     "item_desc": "Upon use, increases all allies' Elation by <unbreak>24%</unbreak> for the next battle.",
-    "item_bg_desc": "The \"Swimsuit\" is a private submarine outfitted with a safe, cozy, and highly customizable cockpit. The truly elite never splash around at the beach. They prefer to dive beneath the waves in their own submarine, drinking in the sublime grandeur that only the most extreme environments can offer.\\n\\n<i>\"When you have the 'Swimsuit,' who needs an actual swimsuit?\"</i>",
+    "item_bg_desc": "\"The Swimsuit\" is a private submarine outfitted with a safe, cozy, and highly customizable cockpit. The truly elite never splash around at the beach. They prefer to dive beneath the waves in their own submarine, drinking in the sublime grandeur that only the most extreme environments can offer.\\n\\n<i>\"When you have 'The Swimsuit,' who needs an actual swimsuit?\"</i>",
     "item_icon_path": "SpriteOutput/ItemIcon/408644.png",
     "item_figure_icon_path": "SpriteOutput/ItemFigures/408644.png",
     "item_currency_icon_path": "SpriteOutput/ItemIcon/408644.png",

@@ -368929,7 +368929,7 @@
         "key": "2",
         "id": "151002",
         "name": "The Colors We Never Strike",
-        "description": "The cap of Himeko • Nova's <u>Assist Skill</u> uses increases to 2, and the DMG dealt by Ultimate and <u>Assist Skill</u> becomes <unbreak>#1[i]%</unbreak> of their original DMG. During the \"Navigator's Semaphore\" state, at the start of each turn , additionally recovers 1 use of <u>Assist Skill</u> immediately. When a non-<u>Trailblaze Companions</u> character uses <u>Assist Skill</u>, the Trace \"Hark! The Express's Pulse Roars\" now also grants them 1 <u>extra turn</u>.",
+        "description": "The cap of Himeko • Nova's <u>Assist Skill</u> uses increases to 2, and the DMG dealt by Ultimate and <u>Assist Skill</u> becomes <unbreak>#1[i]%</unbreak> of their original DMG. During the \"Navigator's Semaphore\" state, at the start of each turn, additionally recovers 1 use of <u>Assist Skill</u> immediately. When a non-<u>Trailblaze Companions</u> character uses <u>Assist Skill</u>, the Trace \"Hark! The Express's Pulse Roars\" now also grants them 1 <u>extra turn</u>.",
         "params": [
           1.3
         ],
@@ -372432,7 +372432,7 @@
     },
     "liveComparison": {
       "liveHash": "fc84a746bd037de945c98cc48a44d6f4f1d3e1b3fd5e20a5087eb391d0ced352",
-      "currentHash": "12e50b42a8e7bf0dcc0bdc7153ddd5337827c55f7464e52afff7a4d641cd83df"
+      "currentHash": "5622c45e69884df77301d5d8f2332022859967d21f8023cb0660e7d8e09083a5"
     }
   },
   {
@@ -372647,7 +372647,14 @@
               6
             ]
           }
-        ]
+        ],
+        "extra": {
+          "10000018": {
+            "name": "Summon Memosprite",
+            "desc": "Summon the memosprite to the field. If the memosprite is already on the field, dispels all Crowd Control debuffs the memosprite is afflicted with.",
+            "param": []
+          }
+        }
       },
       {
         "key": "151203",
@@ -372796,7 +372803,14 @@
               0
             ]
           }
-        ]
+        ],
+        "extra": {
+          "10000001": {
+            "name": "Action Advance",
+            "desc": "Reduces the target's waiting interval before the next action.",
+            "param": []
+          }
+        }
       },
       {
         "key": "151204",
@@ -373106,7 +373120,7 @@
         "key": "4",
         "id": "151204",
         "name": "Hearing the Chord Variations",
-        "description": "Upon entering the \"Fever\" state, immediately gains <unbreak>#1[i]</unbreak> Vibes, and the SPD of \"Summer Songbirds\" increases by <unbreak>#2[i]%</unbreak> plus current Vibes × <unbreak>#3[f1]%</unbreak>.",
+        "description": "Upon entering the \"Fever\" state, immediately gains <unbreak>#1[i]</unbreak> point(s) of Vibes, and the SPD of \"Summer Songbirds\" increases by <unbreak>#2[i]%</unbreak> plus current Vibes × <unbreak>#3[f1]%</unbreak>.",
         "params": [
           12,
           0.2,
@@ -376078,7 +376092,7 @@
             "statusAdds": [],
             "requirements": [],
             "assets": {
-              "icon": "GameData/hsr/assets/skills/SkillIcon_11413_Servant03.webp"
+              "icon": "GameData/hsr/assets/skills/SkillIcon_11512_Servant.webp"
             }
           },
           {
@@ -376136,7 +376150,7 @@
               }
             ],
             "assets": {
-              "icon": "GameData/hsr/assets/skills/SkillIcon_11413_Servant03.webp"
+              "icon": "GameData/hsr/assets/skills/SkillIcon_11512_Servant.webp"
             }
           },
           {
@@ -376194,7 +376208,7 @@
               }
             ],
             "assets": {
-              "icon": "GameData/hsr/assets/skills/SkillIcon_11413_Servant03.webp"
+              "icon": "GameData/hsr/assets/skills/SkillIcon_11512_Servant.webp"
             }
           },
           {
@@ -376252,7 +376266,7 @@
               }
             ],
             "assets": {
-              "icon": "GameData/hsr/assets/skills/SkillIcon_11413_Servant03.webp"
+              "icon": "GameData/hsr/assets/skills/SkillIcon_11512_Servant.webp"
             }
           },
           {
@@ -376310,7 +376324,7 @@
               }
             ],
             "assets": {
-              "icon": "GameData/hsr/assets/skills/SkillIcon_11413_Servant03.webp"
+              "icon": "GameData/hsr/assets/skills/SkillIcon_11512_Servant.webp"
             }
           },
           {
@@ -376368,7 +376382,7 @@
               }
             ],
             "assets": {
-              "icon": "GameData/hsr/assets/skills/SkillIcon_11413_Servant03.webp"
+              "icon": "GameData/hsr/assets/skills/SkillIcon_11512_Servant.webp"
             }
           }
         ]
@@ -376395,7 +376409,7 @@
             "statusAdds": [],
             "requirements": [],
             "assets": {
-              "icon": "GameData/hsr/assets/skills/SkillIcon_11413_ServantPassive.webp"
+              "icon": "GameData/hsr/assets/skills/SkillIcon_11512_ServantPassive.webp"
             }
           },
           {
@@ -376455,7 +376469,7 @@
               }
             ],
             "assets": {
-              "icon": "GameData/hsr/assets/skills/SkillIcon_11413_ServantPassive.webp"
+              "icon": "GameData/hsr/assets/skills/SkillIcon_11512_ServantPassive.webp"
             }
           },
           {
@@ -376515,7 +376529,7 @@
               }
             ],
             "assets": {
-              "icon": "GameData/hsr/assets/skills/SkillIcon_11413_ServantPassive.webp"
+              "icon": "GameData/hsr/assets/skills/SkillIcon_11512_ServantPassive.webp"
             }
           },
           {
@@ -376575,7 +376589,7 @@
               }
             ],
             "assets": {
-              "icon": "GameData/hsr/assets/skills/SkillIcon_11413_ServantPassive.webp"
+              "icon": "GameData/hsr/assets/skills/SkillIcon_11512_ServantPassive.webp"
             }
           },
           {
@@ -376635,7 +376649,7 @@
               }
             ],
             "assets": {
-              "icon": "GameData/hsr/assets/skills/SkillIcon_11413_ServantPassive.webp"
+              "icon": "GameData/hsr/assets/skills/SkillIcon_11512_ServantPassive.webp"
             }
           },
           {
@@ -376695,7 +376709,7 @@
               }
             ],
             "assets": {
-              "icon": "GameData/hsr/assets/skills/SkillIcon_11413_ServantPassive.webp"
+              "icon": "GameData/hsr/assets/skills/SkillIcon_11512_ServantPassive.webp"
             }
           }
         ]
@@ -377100,7 +377114,7 @@
         "skills": {
           "1151201": {
             "name": "Twittering Quartet",
-            "desc": "Deals Wind DMG to all enemies equal to <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> of Summer Songbirds's Max HP.",
+            "desc": "Deals Wind DMG equal to <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> of Summer Songbirds' Max HP to all enemies.",
             "simple_desc": "Deals minor Wind DMG to all enemies.",
             "type": "Servant",
             "type_name": "Memosprite Skill",
@@ -377188,7 +377202,7 @@
           },
           "1151203": {
             "name": "Fluttering Harmony",
-            "desc": "While in the \"Fever\" state, Summer Songbirds and a countdown will appear on the action bar, increasing the DMG dealt by Robin • Summeretto and this unit by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> + Vibes × <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color>. When Summer Songbirds' turn starts, they use the Memosprite Skill. The countdown has an initial SPD of <unbreak>#9[i]</unbreak>. When their turn starts, <unbreak>#10[i]%</unbreak> of current Vibes (a minimum of <unbreak>#6[i]</unbreak> points) gets deducted. When Vibes reach 0, the Summer Songbirds disappear and Robin • Summeretto exits the \"Fever\" state. While Summer Songbirds are on the field, increases the DMG taken by all enemies by <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color>/<color=#f29e38ff><unbreak>#4[f1]%</unbreak></color>/<color=#f29e38ff><unbreak>#5[f1]%</unbreak></color> respectively based on the number of members present.",
+            "desc": "While in the \"Fever\" state, Summer Songbirds and a countdown will appear on the action bar, increasing the DMG dealt by Robin • Summeretto and themselves by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> + Vibes × <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color>. When Summer Songbirds' turn starts, they use the Memosprite Skill. The countdown has an initial SPD of <unbreak>#9[i]</unbreak>. When their turn starts, <unbreak>#10[i]%</unbreak> of current Vibes (a minimum of <unbreak>#6[i]</unbreak> points) gets deducted. When Vibes reach 0, the Summer Songbirds disappear and Robin • Summeretto exits the \"Fever\" state. While Summer Songbirds are on the field, increases the DMG taken by all enemies by <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color>/<color=#f29e38ff><unbreak>#4[f1]%</unbreak></color>/<color=#f29e38ff><unbreak>#5[f1]%</unbreak></color> respectively based on the number of members present.",
             "simple_desc": "While in the \"Fever\" state, DMG dealt by Robin • Summeretto and this unit increases. Summer Songbirds use Memosprite Skill at the start of their turn. When Vibes reach 0, Summer Songbirds disappear, causing Robin • Summeretto to exit the \"Fever\" state. While Summer Songbirds are on the field, increases DMG taken by all enemies based on the number of members.",
             "type_name": "Memosprite Talent",
             "tag": "Support",
@@ -377518,7 +377532,7 @@
       "spNeed": 140
     },
     "liveComparison": {
-      "currentHash": "fad5052b2e4b4a01bab347963bf26a80bc4fb8ac3bddc5c7c1ca3bfcbe231754"
+      "currentHash": "41c63a02c29c4a8452d5f4cd41c941e3525c8324bf6c90df866d3dfbefe82e9d"
     }
   },
   {
@@ -378157,7 +378171,7 @@
         "id": "151307",
         "name": "Stirring Waves in Still Waters",
         "description": "Moves forward rapidly for a set distance, attacking all enemies in contact and blocking all incoming attacks. After entering combat via attacking enemies, Aventurine • Waveflair deals Quantum DMG equal to <unbreak>#1[i]%</unbreak> of his ATK to all enemies, and gains <unbreak>#2[i]</unbreak> point(s) of \"Fervor\" and <unbreak>#3[i]</unbreak> points of \"<u>Certified Banger</u>.\"",
-        "simpleDescription": "Moves forward rapidly for a set distance and attacks enemies in contact. After entering combat by attacking enemies, deals minor Quantum DMG to all enemies and gains \"Fervor\" and \"<u>Certified Banger</u>\".",
+        "simpleDescription": "Moves forward rapidly for a set distance and attacks enemies in contact. After entering combat by attacking enemies, deals minor Quantum DMG to all enemies and gains \"Fervor\" and \"<u>Certified Banger</u>.\"",
         "type": "Maze",
         "typeName": "Technique",
         "tag": "MazeAttack",
@@ -378540,7 +378554,7 @@
         "key": "6",
         "id": "151306",
         "name": "Cashing the Past for a Wild Ride",
-        "description": "<u>Elation DMG</u> dealt by Aventurine • Waveflair <u>merrymakes</u> by <unbreak>#2[i]%</unbreak>. After Aventurine • Waveflair uses his Ultimate <unbreak>#1[i]</unbreak> time(s), all subsequent Elation Skills used become \"All in! To the Blazing Summer,\" and when using the Elation Skill \"All in! To the Blazing Summer\" additionally deals DMG outside of Aha Instant, it no longer consumes \"Fervor.\"",
+        "description": "<u>Elation DMG</u> dealt by Aventurine • Waveflair <u>merrymakes</u> by <unbreak>#2[i]%</unbreak>. After Aventurine • Waveflair uses his Ultimate <unbreak>#1[i]</unbreak> time(s), all subsequent Elation Skills used become \"All in! To the Blazing Summer,\" and when using the Elation Skill \"All in! To the Blazing Summer\" to additionally deal DMG outside of Aha Instant, it no longer consumes \"Fervor.\"",
         "params": [
           2,
           0.25
@@ -382403,7 +382417,7 @@
       "spNeed": 140
     },
     "liveComparison": {
-      "currentHash": "20e9b0e1c0d0f41a2d0690ba166efb085b8e70909c71c4cd8d6295a3d5f071ac"
+      "currentHash": "19aa1166011c408d30cdac411e627ec225b984a495a5831a5e1d8b59d0f65f8e"
     }
   },
   {

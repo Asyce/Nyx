@@ -12540,16 +12540,17 @@
   {
     "id": "140634",
     "contentStatus": "beta",
-    "name": "140634",
+    "name": "Speed Star • Grand Champion Trophy",
     "rarity": "VeryRare",
     "type": "Mission",
     "subType": "Mission",
+    "backgroundDescription": "The trophy of the Overdrive Whirlwind Grand Prix. Starting with this year's race, it will record every champion to come, with each new victor adding their name to the legend. And on its base, the first champion left a motto carved in stone: \\n\\n<i>\"{TEXTJOIN#279}\"</i>",
     "purposeType": 16,
     "assets": {
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "currentHash": "bd5507a608ead1e5ee5c131ef8a7bdaf9950406d570bf14f34c7fbf888f30520"
+      "currentHash": "86b7371d1cb957815bbfa9567efd111267dede422c3fbdffdd5ad8db4add2d5e"
     }
   },
   {
@@ -23669,16 +23670,18 @@
   {
     "id": "402037",
     "contentStatus": "beta",
-    "name": "402037",
+    "name": "Vibrant Zest-Core",
     "rarity": "Rare",
     "type": "Usable",
     "subType": "Food",
+    "description": "Upon use, increases all allies' Elation by <unbreak>24%</unbreak> for the next battle.",
+    "backgroundDescription": "At first, no one paid any attention to this orange can... until it started jumping, singing, and showering all of Planarcadia with joyful dopamine. Watch out! If it catches you frowning, it'll send little orange fairies bursting into your mouth to do a cheerful tap dance on the tip of your tongue.\\n\\n<i>\"Note: No imagenae were harmed during this delivery event.\"</i>",
     "purposeType": 10,
     "assets": {
       "icon": "GameData/hsr/assets/items/402037.webp"
     },
     "liveComparison": {
-      "currentHash": "0dc8ef157497d25f24f8ca183ef3d6bd342a6b13296aa592c09d7e610e6419ab"
+      "currentHash": "c647f540b0ebd84be93b256f4423f6f1f143ab8abf3c21b9a7bc05be0e4e9ad9"
     }
   },
   {
@@ -23689,13 +23692,13 @@
     "type": "Usable",
     "subType": "Food",
     "description": "Upon use, immediately causes all allies to lose HP equal to 5% of their Max HP and increases their ATK by <unbreak>40%</unbreak> for the next battle.",
-    "backgroundDescription": "Mingxi developed dozens of \"creative Xianzhou dishes\" for the Upside-Down Restaurant. Not all of them were hits. The most controversial by far was the \"Mung Bean Soda Sukiyaki.\" That said, it wasn't exactly a commercial failure. Nobody actually liked the dish, but everyone who visited Astropolis tried it at least once.\\n\\n<i>\"So weird, let me try a bite… *blech*… So weird, let me try another bite… *blech*… So weird, just one more bite… *blech*… So weird, one more bite… *blech*…\"</i>",
+    "backgroundDescription": "Mingxi developed dozens of \"creative Xianzhou dishes\" for the Upside-Down Restaurant. Not all of them were hits. The most controversial by far was the \"Mung Bean Soda Sukiyaki.\" That said, it wasn't exactly a commercial failure. Nobody actually liked the dish, but everyone who visited Astropolis tried it at least once.\\n\\n<i>\"So weird, let me try a bite... *blech*... So weird, let me try another bite... *blech*... So weird, just one more bite... *blech*... So weird, one more bite... *blech*...\"</i>",
     "purposeType": 10,
     "assets": {
       "icon": "GameData/hsr/assets/items/402038.webp"
     },
     "liveComparison": {
-      "currentHash": "7998530c75ffe5140e7abcdf248d5814f9ec8801b06423ad8c78c3881d2ae798"
+      "currentHash": "38baf388f8b53462dde73a9cec388f6047515966fe8085e00cdb51f3b424fbd9"
     }
   },
   {
@@ -23993,14 +23996,14 @@
     "rarity": "VeryRare",
     "type": "Usable",
     "subType": "Food",
-    "description": "Upon use, increase ATK of all allies by <unbreak>24%</unbreak> and CRIT DMG by <unbreak>24%</unbreak> for the next battle.",
+    "description": "Upon use, increases ATK of all allies by <unbreak>24%</unbreak> and CRIT DMG by <unbreak>24%</unbreak> for the next battle.",
     "backgroundDescription": "Mingxi has developed dozens of \"creative Xianzhou dishes\" for the Upside-Down Restaurant, and \"Amber Lord Jumps Over the Wall\" has been the most successful of them all. It has already become the go-to dish representing \"high-end dining\" in Astropolis. Given enough time, it might just come to define the \"Astropolis cuisine\" entirely.\\n\\n<i>\"Hey boss, why is it called 'Amber Lord Jumps Over the Wall' and not 'Amber Lord Builds the Wall'?\"\\n\"'Builds the Wall'? I'm afraid you'd break a tooth trying to chew through that.\"</i>",
     "purposeType": 10,
     "assets": {
       "icon": "GameData/hsr/assets/items/403017.webp"
     },
     "liveComparison": {
-      "currentHash": "2383d1dc10a402d6afd5f7705205bc8eb2bd8b0018c3cdf1c45e5b233b9cefef"
+      "currentHash": "3f1d2c9d3c1b9c9ab49a4d34f8c149d8ed8e7c874ac4e4319146749e32a8372b"
     }
   },
   {
@@ -25304,16 +25307,18 @@
   {
     "id": "406037",
     "contentStatus": "beta",
-    "name": "406037",
+    "name": "Recipe: Vibrant Zest-Core",
     "rarity": "Rare",
     "type": "Usable",
     "subType": "Formula",
+    "description": "A simple equation. When entered into the Synthesizer, it will unlock a new recipe.",
+    "backgroundDescription": "Sometimes, happiness is hard to find, so hard that even a fortune can't buy it.\\nBut sometimes, happiness is easy. All you need is a Happiness Coupon that represents vitality and dopamine.\\n\\n<i>\"You want it? You got it! Redeem it anytime! We'll always foot the bill for your happiness!\"</i>",
     "purposeType": 19,
     "assets": {
       "icon": "GameData/hsr/assets/items/406037.webp"
     },
     "liveComparison": {
-      "currentHash": "e043b7b0eb8b62e146e3f93023cb3d3407c59c8cdaafb086dd73782978a55ce6"
+      "currentHash": "ffd3cf3544ee9db5c62c5c934481caff3a99edcd8be8e6557c99b7c922cbb335"
     }
   },
   {
@@ -26812,14 +26817,14 @@
     "rarity": "NotNormal",
     "type": "Usable",
     "subType": "Food",
-    "description": "Upon use, increase DEF of all allies by <unbreak>25%</unbreak> in the next battle.",
+    "description": "Upon use, increases DEF of all allies by <unbreak>25%</unbreak> in the next battle.",
     "backgroundDescription": "\"Lighthouse\" is Astropolis's most iconic homegrown IP, and the merchandise has never stopped flying off the shelves. Nobody knows who started this quirky tradition, but some people actually believe that this movable action model has the power to \"bless your home and keep it safe,\" so they buy one and enshrine it right by their front door.\\n\\n<i>\"Please, 'Lighthouse,' I'm begging you! Bless me so I can pass my exams and land a job at the Life Sciences Institute!\"\\n\"Isn't he supposed to bless your home? Why are you asking him for exam luck? You really think that's gonna work?\"\\n\"Doesn't matter. I've already prayed to every single Aeon out there. Might as well throw him in too.\"</i>",
     "purposeType": 10,
     "assets": {
       "icon": "GameData/hsr/assets/items/408452.webp"
     },
     "liveComparison": {
-      "currentHash": "d1040410f378b9e8334a307328322a578ab4bcfe0ff9e2e35069ae2c4c4e4c05"
+      "currentHash": "8d88e2877086277f8f892c74ff413e97d32ae1da1c8d76c974271d8eac7703fc"
     }
   },
   {
@@ -27638,13 +27643,13 @@
     "type": "Usable",
     "subType": "Food",
     "description": "Upon use, increases all allies' Elation by <unbreak>24%</unbreak> for the next battle.",
-    "backgroundDescription": "The \"Swimsuit\" is a private submarine outfitted with a safe, cozy, and highly customizable cockpit. The truly elite never splash around at the beach. They prefer to dive beneath the waves in their own submarine, drinking in the sublime grandeur that only the most extreme environments can offer.\\n\\n<i>\"When you have the 'Swimsuit,' who needs an actual swimsuit?\"</i>",
+    "backgroundDescription": "\"The Swimsuit\" is a private submarine outfitted with a safe, cozy, and highly customizable cockpit. The truly elite never splash around at the beach. They prefer to dive beneath the waves in their own submarine, drinking in the sublime grandeur that only the most extreme environments can offer.\\n\\n<i>\"When you have 'The Swimsuit,' who needs an actual swimsuit?\"</i>",
     "purposeType": 10,
     "assets": {
       "icon": "GameData/hsr/assets/items/408644.webp"
     },
     "liveComparison": {
-      "currentHash": "30a2318ea1243acd960dd74ab97d0fa150e355ff43aaadced9d2d3bd85242301"
+      "currentHash": "1384ce6b1d78d82728152ace51dc3d9084559eca71c7a9cf34363ecb02753ba8"
     }
   },
   {

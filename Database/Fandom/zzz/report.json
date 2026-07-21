@@ -2,14 +2,12 @@
   "game": "zzz",
   "label": "Zenless Zone Zero",
   "source": "https://zenless-zone-zero.fandom.com/api.php",
-  "scrapedAt": "2026-07-18T08:30:44.296Z",
-  "total": 57,
+  "scrapedAt": "2026-07-21T09:21:29.262Z",
+  "total": 56,
   "saved": 56,
   "withReleaseDate": 53,
   "withReleasePatch": 56,
   "withVoiceActors": 52,
-  "missing": [
-    "Avatar_Female_Size02_Remielle"
-  ],
+  "missing": [],
   "thin": []
 }

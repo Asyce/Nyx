@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T08:32:22.738Z",
+  "generatedAt": "2026-07-21T09:22:47.793Z",
   "source": "Genshin Impact Wiki / Fandom MediaWiki API",
   "sourceExample": "https://genshin-impact.fandom.com/wiki/Ifa/Gallery",
   "requestedWidth": 1800,
@@ -7089,9 +7089,21 @@
           "mime": "image/png"
         },
         {
+          "file": "Tartaglia Birthday 2026.png",
+          "title": "Tartaglia Birthday 2026.png (5.7 MB)",
+          "localAsset": "GenshinWiki/birthday-art/tartaglia/06-Tartaglia Birthday 2026.png",
+          "sourcePage": "https://genshin-impact.fandom.com/wiki/Tartaglia/Gallery",
+          "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Tartaglia_Birthday_2026.png",
+          "width": 1800,
+          "height": 1800,
+          "originalWidth": 2500,
+          "originalHeight": 2500,
+          "mime": "image/png"
+        },
+        {
           "file": "Tartaglia TPRGT 2022 - Aether.png",
           "title": "Tartaglia TPRGT 2022 - Aether.png (1.9 MB)",
-          "localAsset": "GenshinWiki/birthday-art/tartaglia/06-Tartaglia TPRGT 2022 - Aether.png",
+          "localAsset": "GenshinWiki/birthday-art/tartaglia/07-Tartaglia TPRGT 2022 - Aether.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Tartaglia/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Tartaglia_TPRGT_2022_-_Aether.png",
           "width": 1800,
@@ -7103,7 +7115,7 @@
         {
           "file": "Tartaglia TPRGT 2022 - Lumine.png",
           "title": "Tartaglia TPRGT 2022 - Lumine.png (1.92 MB)",
-          "localAsset": "GenshinWiki/birthday-art/tartaglia/07-Tartaglia TPRGT 2022 - Lumine.png",
+          "localAsset": "GenshinWiki/birthday-art/tartaglia/08-Tartaglia TPRGT 2022 - Lumine.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Tartaglia/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Tartaglia_TPRGT_2022_-_Lumine.png",
           "width": 1800,
@@ -7115,7 +7127,7 @@
         {
           "file": "Tartaglia TPRGT 2023 - Aether.png",
           "title": "Tartaglia TPRGT 2023 - Aether.png (2.85 MB)",
-          "localAsset": "GenshinWiki/birthday-art/tartaglia/08-Tartaglia TPRGT 2023 - Aether.png",
+          "localAsset": "GenshinWiki/birthday-art/tartaglia/09-Tartaglia TPRGT 2023 - Aether.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Tartaglia/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Tartaglia_TPRGT_2023_-_Aether.png",
           "width": 1800,
@@ -7127,7 +7139,7 @@
         {
           "file": "Tartaglia TPRGT 2023 - Lumine.png",
           "title": "Tartaglia TPRGT 2023 - Lumine.png (2.89 MB)",
-          "localAsset": "GenshinWiki/birthday-art/tartaglia/09-Tartaglia TPRGT 2023 - Lumine.png",
+          "localAsset": "GenshinWiki/birthday-art/tartaglia/10-Tartaglia TPRGT 2023 - Lumine.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Tartaglia/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Tartaglia_TPRGT_2023_-_Lumine.png",
           "width": 1800,

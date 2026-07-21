@@ -1,20 +1,65 @@
 {
   "schemaVersion": 1,
   "game": "zzz",
-  "generatedAt": "2026-07-18T19:24:14.131Z",
+  "generatedAt": "2026-07-21T19:50:38.242Z",
   "source": {
     "name": "Zenless Zone Zero Official",
     "endpoint": "sg-announcement-api.hoyoverse.com getAnnList+getAnnContent"
   },
   "counts": {
-    "total": 7,
+    "total": 8,
     "needs_review": 2,
     "banner": 0,
     "byType": {
+      "challenge": 1,
       "event": 7
     }
   },
   "events": [
+    {
+      "game": "zzz",
+      "id": "zzz-hoyo-ann-ceed88e3718a",
+      "title": "\"Data Bounty: Combat Simulation\" Event Details",
+      "type": "challenge",
+      "start": "2026-07-22T03:00:00.000Z",
+      "end": "2026-07-27T02:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Zenless Zone Zero Official",
+        "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1227",
+        "kind": "official-announcement-api",
+        "recordId": "1227",
+        "fetchedAt": "2026-07-21T19:50:42.149Z",
+        "priority": 1
+      },
+      "confidence": "high",
+      "scheduleStatus": "exact",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": null,
+      "description": "Event Duration 2026/07/22 04:00 (server time) – 2026/07/27 03:59 (server time) Requirements Unlock Combat Simulation in Main Story Chapter 1 \"Cat's Lost & Found\" Event Details • During the \"Data Bounty: Combat Simulation\" event, Proxies…",
+      "windowsByRegion": {
+        "europe": {
+          "start": "2026-07-22T03:00:00.000Z",
+          "end": "2026-07-27T02:59:00.000Z",
+          "timezone": "UTC+01:00",
+          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1227"
+        },
+        "asia": {
+          "start": "2026-07-21T20:00:00.000Z",
+          "end": "2026-07-26T19:59:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1227"
+        },
+        "america": {
+          "start": "2026-07-22T09:00:00.000Z",
+          "end": "2026-07-27T08:59:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1227"
+        }
+      }
+    },
     {
       "game": "zzz",
       "id": "zzz-hoyo-ann-dc5ffc5377a7",
@@ -29,7 +74,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1226",
         "kind": "official-announcement-api",
         "recordId": "1226",
-        "fetchedAt": "2026-07-18T19:24:18.914Z",
+        "fetchedAt": "2026-07-21T19:50:42.149Z",
         "priority": 1
       },
       "confidence": "high",
@@ -117,7 +162,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1204",
         "kind": "official-announcement-api",
         "recordId": "1204",
-        "fetchedAt": "2026-07-18T19:24:18.914Z",
+        "fetchedAt": "2026-07-21T19:50:42.149Z",
         "priority": 1
       },
       "confidence": "high",
@@ -230,7 +275,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1205",
         "kind": "official-announcement-api",
         "recordId": "1205",
-        "fetchedAt": "2026-07-18T19:24:18.914Z",
+        "fetchedAt": "2026-07-21T19:50:42.149Z",
         "priority": 1
       },
       "confidence": "low",
@@ -255,7 +300,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1200",
         "kind": "official-announcement-api",
         "recordId": "1200",
-        "fetchedAt": "2026-07-18T19:24:18.914Z",
+        "fetchedAt": "2026-07-21T19:50:42.149Z",
         "priority": 1
       },
       "confidence": "low",

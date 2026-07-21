@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "game": "gi",
-  "generatedAt": "2026-07-18T19:24:14.131Z",
+  "generatedAt": "2026-07-21T19:50:38.242Z",
   "source": {
     "name": "Genshin Impact Official",
     "endpoint": "sg-hk4e-api.hoyoverse.com getAnnList+getAnnContent"
@@ -35,7 +35,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21368",
         "kind": "official-announcement-api",
         "recordId": "21368",
-        "fetchedAt": "2026-07-18T19:24:14.134Z",
+        "fetchedAt": "2026-07-21T19:50:38.244Z",
         "priority": 1
       },
       "confidence": "high",
@@ -79,7 +79,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21756",
         "kind": "official-announcement-api",
         "recordId": "21756",
-        "fetchedAt": "2026-07-18T19:24:14.134Z",
+        "fetchedAt": "2026-07-21T19:50:38.244Z",
         "priority": 1
       },
       "confidence": "high",
@@ -123,7 +123,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21168",
         "kind": "official-announcement-api",
         "recordId": "21168",
-        "fetchedAt": "2026-07-18T19:24:14.134Z",
+        "fetchedAt": "2026-07-21T19:50:38.244Z",
         "priority": 1
       },
       "confidence": "high",
@@ -167,7 +167,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21749",
         "kind": "official-announcement-api",
         "recordId": "21749",
-        "fetchedAt": "2026-07-18T19:24:14.134Z",
+        "fetchedAt": "2026-07-21T19:50:38.244Z",
         "priority": 1
       },
       "confidence": "high",
@@ -267,7 +267,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21646",
         "kind": "official-announcement-api",
         "recordId": "21646",
-        "fetchedAt": "2026-07-18T19:24:14.134Z",
+        "fetchedAt": "2026-07-21T19:50:38.244Z",
         "priority": 1
       },
       "confidence": "high",
@@ -311,7 +311,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=1249",
         "kind": "official-announcement-api",
         "recordId": "1249",
-        "fetchedAt": "2026-07-18T19:24:14.134Z",
+        "fetchedAt": "2026-07-21T19:50:38.244Z",
         "priority": 1
       },
       "confidence": "low",
@@ -329,14 +329,14 @@
       "type": "banner",
       "start": null,
       "end": null,
-      "server": "europe",
-      "timezone": "UTC+01:00",
+      "server": "america",
+      "timezone": "UTC-05:00",
       "source": {
         "name": "Genshin Impact Official",
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21744",
         "kind": "official-announcement-api",
         "recordId": "21744",
-        "fetchedAt": "2026-07-18T19:24:14.134Z",
+        "fetchedAt": "2026-07-21T19:50:38.244Z",
         "priority": 1
       },
       "confidence": "low",
@@ -344,8 +344,7 @@
       "permanence": "unknown",
       "needs_review": true,
       "image": null,
-      "description": "Travelers, stock up on weapons and characters in the event wish to make your party stronger in combat! 〓Event Wish Details〓 Event Wish Duration Promotional Character (5-Star) Featured Characters (4-Star) After the Version \"Luna VIII\"…",
-      "windowsByRegion": {}
+      "description": "Travelers, stock up on weapons and characters in the event wish to make your party stronger in combat! 〓Event Wish Details〓 Event Wish Duration Promotional Character (5-Star) Featured Characters (4-Star) After the Version \"Luna VIII\"…"
     },
     {
       "game": "gi",
@@ -354,14 +353,14 @@
       "type": "banner",
       "start": null,
       "end": null,
-      "server": "europe",
-      "timezone": "UTC+01:00",
+      "server": "america",
+      "timezone": "UTC-05:00",
       "source": {
         "name": "Genshin Impact Official",
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21743",
         "kind": "official-announcement-api",
         "recordId": "21743",
-        "fetchedAt": "2026-07-18T19:24:14.134Z",
+        "fetchedAt": "2026-07-21T19:50:38.244Z",
         "priority": 1
       },
       "confidence": "low",
@@ -369,8 +368,7 @@
       "permanence": "unknown",
       "needs_review": true,
       "image": null,
-      "description": "Travelers, stock up on weapons and characters in the event wish to make your party stronger in combat! 〓Event Wish Details〓 Event Wish Duration Promotional Character (5-Star) Featured Characters (4-Star) After the Version \"Luna VIII\"…",
-      "windowsByRegion": {}
+      "description": "Travelers, stock up on weapons and characters in the event wish to make your party stronger in combat! 〓Event Wish Details〓 Event Wish Duration Promotional Character (5-Star) Featured Characters (4-Star) After the Version \"Luna VIII\"…"
     },
     {
       "game": "gi",
@@ -386,7 +384,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21282",
         "kind": "official-announcement-api",
         "recordId": "21282",
-        "fetchedAt": "2026-07-18T19:24:14.134Z",
+        "fetchedAt": "2026-07-21T19:50:38.244Z",
         "priority": 1
       },
       "confidence": "high",
@@ -411,7 +409,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21757",
         "kind": "official-announcement-api",
         "recordId": "21757",
-        "fetchedAt": "2026-07-18T19:24:14.134Z",
+        "fetchedAt": "2026-07-21T19:50:38.244Z",
         "priority": 1
       },
       "confidence": "low",
@@ -436,7 +434,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21784",
         "kind": "official-announcement-api",
         "recordId": "21784",
-        "fetchedAt": "2026-07-18T19:24:14.134Z",
+        "fetchedAt": "2026-07-21T19:50:38.244Z",
         "priority": 1
       },
       "confidence": "high",
@@ -454,14 +452,14 @@
       "type": "banner",
       "start": null,
       "end": null,
-      "server": "europe",
-      "timezone": "UTC+01:00",
+      "server": "america",
+      "timezone": "UTC-05:00",
       "source": {
         "name": "Genshin Impact Official",
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21748",
         "kind": "official-announcement-api",
         "recordId": "21748",
-        "fetchedAt": "2026-07-18T19:24:14.134Z",
+        "fetchedAt": "2026-07-21T19:50:38.244Z",
         "priority": 1
       },
       "confidence": "low",
@@ -469,8 +467,7 @@
       "permanence": "unknown",
       "needs_review": true,
       "image": null,
-      "description": "Travelers, stock up on weapons and characters in the Lightrace Wish to make your party stronger in combat! 〓Event Wish Details〓 Event Wish Duration Designatable 5-Star Characters Designatable 5-Star Weapons After the Version \"Luna VIII\"…",
-      "windowsByRegion": {}
+      "description": "Travelers, stock up on weapons and characters in the Lightrace Wish to make your party stronger in combat! 〓Event Wish Details〓 Event Wish Duration Designatable 5-Star Characters Designatable 5-Star Weapons After the Version \"Luna VIII\"…"
     },
     {
       "game": "gi",
@@ -486,7 +483,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21755",
         "kind": "official-announcement-api",
         "recordId": "21755",
-        "fetchedAt": "2026-07-18T19:24:14.134Z",
+        "fetchedAt": "2026-07-21T19:50:38.244Z",
         "priority": 1
       },
       "confidence": "low",
@@ -511,7 +508,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21759",
         "kind": "official-announcement-api",
         "recordId": "21759",
-        "fetchedAt": "2026-07-18T19:24:14.134Z",
+        "fetchedAt": "2026-07-21T19:50:38.244Z",
         "priority": 1
       },
       "confidence": "low",
@@ -536,7 +533,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21774",
         "kind": "official-announcement-api",
         "recordId": "21774",
-        "fetchedAt": "2026-07-18T19:24:14.134Z",
+        "fetchedAt": "2026-07-21T19:50:38.244Z",
         "priority": 1
       },
       "confidence": "low",
@@ -561,7 +558,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21707",
         "kind": "official-announcement-api",
         "recordId": "21707",
-        "fetchedAt": "2026-07-18T19:24:14.134Z",
+        "fetchedAt": "2026-07-21T19:50:38.244Z",
         "priority": 1
       },
       "confidence": "low",
@@ -579,14 +576,14 @@
       "type": "banner",
       "start": null,
       "end": null,
-      "server": "europe",
-      "timezone": "UTC+01:00",
+      "server": "america",
+      "timezone": "UTC-05:00",
       "source": {
         "name": "Genshin Impact Official",
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21745",
         "kind": "official-announcement-api",
         "recordId": "21745",
-        "fetchedAt": "2026-07-18T19:24:14.134Z",
+        "fetchedAt": "2026-07-21T19:50:38.244Z",
         "priority": 1
       },
       "confidence": "low",
@@ -594,8 +591,7 @@
       "permanence": "unknown",
       "needs_review": true,
       "image": null,
-      "description": "Travelers, stock up on weapons and characters in \"Epitome Invocation\" to make your party stronger in combat! 〓Event Wish Details〓 Event Wish Duration Promotional Weapons (5-Star) Featured Weapons (4-Star) After the Version \"Luna VIII\"…",
-      "windowsByRegion": {}
+      "description": "Travelers, stock up on weapons and characters in \"Epitome Invocation\" to make your party stronger in combat! 〓Event Wish Details〓 Event Wish Duration Promotional Weapons (5-Star) Featured Weapons (4-Star) After the Version \"Luna VIII\"…"
     },
     {
       "game": "gi",
@@ -611,7 +607,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21758",
         "kind": "official-announcement-api",
         "recordId": "21758",
-        "fetchedAt": "2026-07-18T19:24:14.134Z",
+        "fetchedAt": "2026-07-21T19:50:38.244Z",
         "priority": 1
       },
       "confidence": "low",

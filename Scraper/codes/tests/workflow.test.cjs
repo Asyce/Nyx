@@ -121,6 +121,14 @@ test('every production deploy requires a freshly committed launcher snapshot', (
       source.lastIndexOf('npm run refresh:launcher', snapshot),
       source.lastIndexOf('npm run build:deploy:generated', snapshot),
     );
+    const shaOutput = source.indexOf('echo "sha=$(git rev-parse HEAD)"', snapshot);
+    const commitEnv = source.indexOf('PENGO_DEPLOY_COMMIT: ${{ steps.launcher_snapshot.outputs.sha }}', snapshot);
+    const packageCommand = Math.min(
+      ...[
+        source.indexOf('npm run build:deploy', commitEnv),
+        source.indexOf('node ./tools/build-deploy.mjs', commitEnv),
+      ].filter((index) => index >= 0),
+    );
     const exactSmoke = source.indexOf('npm run smoke:deploy', snapshot);
     const push = source.indexOf('git push', exactSmoke);
     const deploy = source.indexOf('- name: Deploy to Cloudflare', push);
@@ -130,6 +138,8 @@ test('every production deploy requires a freshly committed launcher snapshot', (
     assert(refresh >= 0 && refresh < snapshot, `${file} must refresh before marking a committed snapshot fresh`);
     assert.match(source.slice(snapshot, exactSmoke), /git commit(?: --amend| -m)/, `${file} must commit refreshed launcher bytes`);
     assert.match(source.slice(snapshot, exactSmoke), /echo "fresh=true"/, `${file} must publish an explicit fresh-snapshot output`);
+    assert(shaOutput > snapshot && shaOutput < commitEnv, `${file} must export the exact post-refresh HEAD`);
+    assert(commitEnv < packageCommand && packageCommand < exactSmoke, `${file} production packaging must receive the post-refresh HEAD`);
     assert(exactSmoke > snapshot && push > exactSmoke && deploy > push, `${file} must smoke, push, then deploy the committed snapshot`);
     assert.match(deployBlock, /steps\.launcher_snapshot\.outputs\.fresh == 'true'/, `${file} deploy must fail closed without a fresh snapshot`);
   }

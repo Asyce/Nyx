@@ -4,6 +4,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import test from 'node:test';
 import { fileURLToPath } from 'node:url';
+import { assertDeployCommitIdentity, cacheStampForCommit, selectDeployCommit } from '../deploy-commit.mjs';
 import { verifyLauncherTree } from '../verify-committed-launcher.mjs';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
@@ -36,6 +37,47 @@ test('production build packages committed launcher bytes and keeps regeneration 
   assert.match(pkg.scripts['smoke:deploy'], /verify:launcher:deploy/);
   assert.match(smoke, /validatePackagedManifest\(manifest, \{ now: Date\.now\(\) \}\)/);
   assert.doesNotMatch(smoke, /validatePackagedManifest\(manifest, \{ now: generatedAt \}\)/);
+  assert.match(smoke, /execFileSync\('git', \['rev-parse', 'HEAD'\]/);
+  assert.match(smoke, /assertDeployCommitIdentity\(\{ head: headCommit, version, pages: deployPages \}\)/);
+});
+
+test('deploy commit selection ignores stale trigger SHAs and rejects a wrong explicit commit', () => {
+  const head = 'a'.repeat(40);
+  const staleTrigger = 'b'.repeat(40);
+  assert.equal(selectDeployCommit({ gitHead: head, githubSha: staleTrigger }), head);
+  assert.equal(selectDeployCommit({ explicitCommit: head, gitHead: head, githubSha: staleTrigger }), head);
+  assert.equal(cacheStampForCommit(head), 'a'.repeat(12));
+  assert.throws(
+    () => selectDeployCommit({ explicitCommit: staleTrigger, gitHead: head, githubSha: staleTrigger }),
+    /does not match Git HEAD/,
+  );
+});
+
+test('deploy identity rejects wrong version and cache commit labels', () => {
+  const head = 'c'.repeat(40);
+  const correct = {
+    head,
+    version: { commit: head, shortCommit: head.slice(0, 8) },
+    pages: { 'index.html': `<script src="/app.js?v=${head.slice(0, 12)}"></script>` },
+  };
+  assert.deepEqual(assertDeployCommitIdentity(correct), {
+    commit: head,
+    shortCommit: head.slice(0, 8),
+    cacheStamp: head.slice(0, 12),
+    pages: 1,
+  });
+  assert.throws(
+    () => assertDeployCommitIdentity({ ...correct, version: { ...correct.version, commit: 'd'.repeat(40) } }),
+    /version\.json commit .* does not match Git HEAD/,
+  );
+  assert.throws(
+    () => assertDeployCommitIdentity({ ...correct, version: { ...correct.version, shortCommit: 'd'.repeat(8) } }),
+    /shortCommit does not match Git HEAD/,
+  );
+  assert.throws(
+    () => assertDeployCommitIdentity({ ...correct, pages: { 'index.html': '<script src="/app.js?v=stale"></script>' } }),
+    /cache stamp does not match Git HEAD/,
+  );
 });
 
 test('committed launcher verifier rejects byte changes and extra art', async () => {

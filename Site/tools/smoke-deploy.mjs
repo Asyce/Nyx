@@ -1,8 +1,10 @@
 import crypto from 'node:crypto';
+import { execFileSync } from 'node:child_process';
 import fs from 'node:fs/promises';
 import http from 'node:http';
 import path from 'node:path';
 import { inspectAchievementIconBytes, validateCatalog as validateAchievementCatalog } from '../../Scraper/achievements/core.mjs';
+import { assertDeployCommitIdentity } from './deploy-commit.mjs';
 import { buildManifest, loadManifestInputs, validatePackagedManifest } from './generate-launcher-manifest.mjs';
 import vm from 'node:vm';
 import { fileURLToPath } from 'node:url';
@@ -392,6 +394,7 @@ async function main() {
   const indexHtml = await readDeployText('index.html');
   const version = JSON.parse(await readDeployText('version.json'));
   const gamePages = ['genshin.html', 'hsr.html', 'zzz.html', 'wuwa.html', 'endfield.html', 'nyx.html'];
+  const deployPages = { 'index.html': indexHtml };
 
   if (!scriptText.includes('Pengo Nyx')) throw new Error('pengo-pulls.ps1 is missing Pengo branding');
   if (scriptText.includes('asyce.com/asivepulled')) throw new Error('pengo-pulls.ps1 contains old helper URL');
@@ -473,10 +476,13 @@ async function main() {
   if (deployFileCount > 19_990) throw new Error(`deploy has ${deployFileCount} files, above the conservative 19,990-file asset limit`);
   for (const page of gamePages) {
     const html = await readDeployText(page);
+    deployPages[page] = html;
     if (!html.includes('<base href="/"/>')) throw new Error(`${page} missing root base href for nested routes`);
     if (html.includes('dist/vendor/react')) throw new Error(`${page} still references old React vendor scripts`);
   }
   if (!version.commit || !version.shortCommit) throw new Error('version.json is missing commit metadata');
+  const headCommit = execFileSync('git', ['rev-parse', 'HEAD'], { cwd: root, encoding: 'utf8' }).trim();
+  assertDeployCommitIdentity({ head: headCommit, version, pages: deployPages });
 
   console.log('Deploy smoke passed:');
   for (const line of results) console.log('  ' + line);

@@ -85,10 +85,13 @@ jobs:
             git commit --amend --no-edit
           fi
           echo "fresh=true" >> "$GITHUB_OUTPUT"
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
       - name: Build deploy artifact
         if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' }}
         working-directory: Site
+        env:
+          PENGO_DEPLOY_COMMIT: ${{ steps.launcher_snapshot.outputs.sha }}
         run: npm run build:deploy
 
       - name: Smoke published history and activities

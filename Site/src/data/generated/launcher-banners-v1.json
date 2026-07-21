@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "d864ac78a8633e7071b69aef3a8ae091d6f4ca7270810970d9d9352624c5ca9a",
-  "generatedAt": "2026-07-21T20:37:44.158Z",
+  "revision": "d87c0c0c8a1ac47b62f07391d3a70f345fe8c0e51a0fb401a7875dc0ba860f49",
+  "generatedAt": "2026-07-21T20:44:52.832Z",
   "health": {
     "status": "ok",
     "games": {
@@ -13,12 +13,12 @@
       "hsr": {
         "status": "ok",
         "reason": null,
-        "newsCount": 2
+        "newsCount": 1
       },
       "zzz": {
         "status": "ok",
         "reason": null,
-        "newsCount": 7
+        "newsCount": 8
       },
       "wuwa": {
         "status": "ok",
@@ -43,7 +43,7 @@
         "remaining": {
           "startsAt": "2026-07-21T17:00:00.000Z",
           "endsAt": "2026-08-11T13:59:00.000Z",
-          "durationSeconds": 1790475
+          "durationSeconds": 1790047
         },
         "characters": [
           {
@@ -365,7 +365,7 @@
         "remaining": {
           "startsAt": "2026-07-15T03:00:00.000Z",
           "endsAt": "2026-08-05T03:59:00.000Z",
-          "durationSeconds": 1236075
+          "durationSeconds": 1235647
         },
         "characters": [
           {
@@ -772,14 +772,6 @@
       "upcoming": [],
       "news": [
         {
-          "id": "hsr-hoyo-ann-db92aa7adbb4",
-          "title": "Depart Anew When the Phantasmoon is Full | Share Screenshots to Win Stellar Jades and Gift Cards",
-          "type": "event",
-          "start": "2026-07-15T16:00:00.000Z",
-          "end": "2026-07-25T22:59:00.000Z",
-          "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1350"
-        },
-        {
           "id": "hsr-hoyo-ann-12c1a7a21c89",
           "title": "Realm of the Strange Event: Cavern Relic Drop Rate Doubled For a Limited Time",
           "type": "challenge",
@@ -831,7 +823,7 @@
         "remaining": {
           "startsAt": "2026-07-08T11:00:00.000Z",
           "endsAt": "2026-07-28T13:59:59.000Z",
-          "durationSeconds": 580934
+          "durationSeconds": 580506
         },
         "characters": [
           {
@@ -1070,6 +1062,14 @@
       "upcoming": [],
       "news": [
         {
+          "id": "zzz-hoyo-ann-ceed88e3718a",
+          "title": "\"Data Bounty: Combat Simulation\" Event Details",
+          "type": "challenge",
+          "start": "2026-07-22T03:00:00.000Z",
+          "end": "2026-07-27T02:59:00.000Z",
+          "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1227"
+        },
+        {
           "id": "zzz-hoyo-ann-dc5ffc5377a7",
           "title": "\"'En-Nah' Into Your Lap\" Event Details",
           "type": "event",
@@ -1169,7 +1169,7 @@
         "remaining": {
           "startsAt": "2026-07-10T08:10:00.000Z",
           "endsAt": "2026-07-30T08:59:00.000Z",
-          "durationSeconds": 735675
+          "durationSeconds": 735247
         },
         "characters": [
           {
@@ -1568,7 +1568,7 @@
         "remaining": {
           "startsAt": "2026-07-16T04:00:00.000Z",
           "endsAt": "2026-08-09T03:59:59.000Z",
-          "durationSeconds": 1581734
+          "durationSeconds": 1581306
         },
         "characters": [
           {

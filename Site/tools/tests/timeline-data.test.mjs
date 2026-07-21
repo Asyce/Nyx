@@ -190,6 +190,23 @@ test('all timeline surfaces use the shared Patch, Phase, Week hierarchy and bott
   assert.doesNotMatch(viewSource, /function NyxGenshinTimeRuler|function NyxTimeRuler/);
 });
 
+test('timeline roster lookup ignores punctuation differences in published unit names', () => {
+  const resolverStart = viewSource.indexOf('function nyxTlRosterNameKey');
+  const resolverEnd = viewSource.indexOf('// Wide splash/card art', resolverStart);
+  assert.ok(resolverStart >= 0 && resolverEnd > resolverStart, 'timeline roster resolver is present');
+  const context = {
+    getCmRoster: () => [{
+      n:'Yangyang Xuanling',
+      icon:'../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_70_UI.webp',
+    }],
+  };
+  vm.createContext(context);
+  vm.runInContext(`${viewSource.slice(resolverStart, resolverEnd)}\n;globalThis.__api={nyxTlRosterRow,nyxTlViewIcon};`, context);
+  const icon = context.__api.nyxTlViewIcon('wuwa', 'Yangyang: Xuanling');
+  assert.equal(icon, '../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_70_UI.webp');
+  assert.match(icon, /_70_UI\.webp$/);
+});
+
 test('timeline copy is compact and the old redundant labels are gone', () => {
   assert.match(viewSource, /Add to Personal/);
   assert.match(viewSource, />Display</);

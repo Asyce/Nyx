@@ -74,10 +74,20 @@ function nyxTlViewMarkerInstances(rows, start, end){
 // 'ae' everywhere else (banner history, activities, page routes). Map here
 // rather than touching the backend schema or filenames.
 function nyxTlEventsFile(game){ return game === 'ae' ? 'endfield' : game; }
+function nyxTlRosterNameKey(value){
+  return String(value || '').normalize('NFKD').toLowerCase()
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^\p{L}\p{N}]+/gu, '');
+}
 function nyxTlRosterRow(game, name){
   try {
+    var needle = nyxTlRosterNameKey(name);
+    if (!needle) return null;
     var roster = typeof getCmRoster === 'function' ? getCmRoster(game) : [];
-    return roster.find(function(item){ return String(item.n || item.name || '').toLowerCase() === String(name || '').toLowerCase(); }) || null;
+    return roster.find(function(item){
+      var candidate = nyxTlRosterNameKey(item.n || item.name);
+      return candidate && candidate === needle;
+    }) || null;
   } catch (e) { return null; }
 }
 function nyxTlViewIcon(game, name){

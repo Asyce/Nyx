@@ -4,12 +4,26 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-07-22T16:28:14.463Z",
+  "generatedAt": "2026-07-22T18:22:00.822Z",
   "codes": {
-    "updated": "2026-07-22T16:27:56.219Z",
+    "updated": "2026-07-22T18:21:43.993Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
+        {
+          "code": "UIVI13C8X156",
+          "reward": "10000 Mora, 10 Adventurer's Experience, 5 Fine Enhancement Ore, 5 Jueyun Chili Chicken, 5 Stir-Fried Fish Noodles",
+          "premium": false,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-07-22",
+          "firstSeen": "2026-07-22T18:21:43.993Z",
+          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=UIVI13C8X156"
+        },
         {
           "code": "EZSB8889C2BZ",
           "reward": "10k Mora, Ten Adventurer S Experience, Five Fine Enhancement Ore, Five Jueyun Chili Chicken, and Five Stir Fried Fish Noodles",
@@ -4342,6 +4356,20 @@ var NYX_DB = {
         }
       ],
       "codes": [
+        {
+          "code": "UIVI13C8X156",
+          "reward": "10000 Mora, 10 Adventurer's Experience, 5 Fine Enhancement Ore, 5 Jueyun Chili Chicken, 5 Stir-Fried Fish Noodles",
+          "premium": false,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-07-22",
+          "firstSeen": "2026-07-22T18:21:43.993Z",
+          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=UIVI13C8X156"
+        },
         {
           "code": "EZSB8889C2BZ",
           "reward": "10k Mora, Ten Adventurer S Experience, Five Fine Enhancement Ore, Five Jueyun Chili Chicken, and Five Stir Fried Fish Noodles",

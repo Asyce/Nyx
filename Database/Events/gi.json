@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
   "game": "gi",
-  "generatedAt": "2026-07-21T19:50:38.242Z",
+  "generatedAt": "2026-07-22T03:43:14.401Z",
   "source": {
     "name": "Genshin Impact Official",
     "endpoint": "sg-hk4e-api.hoyoverse.com getAnnList+getAnnContent"
   },
   "counts": {
-    "total": 21,
-    "needs_review": 11,
-    "banner": 7,
+    "total": 17,
+    "needs_review": 7,
+    "banner": 3,
     "byType": {
       "event": 8,
       "challenge": 2,
       "shop": 1,
-      "banner": 7,
       "permanent": 1,
+      "banner": 3,
       "login": 1,
       "web_event": 1
     }
@@ -35,7 +35,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21368",
         "kind": "official-announcement-api",
         "recordId": "21368",
-        "fetchedAt": "2026-07-21T19:50:38.244Z",
+        "fetchedAt": "2026-07-22T03:43:14.404Z",
         "priority": 1
       },
       "confidence": "high",
@@ -79,7 +79,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21756",
         "kind": "official-announcement-api",
         "recordId": "21756",
-        "fetchedAt": "2026-07-21T19:50:38.244Z",
+        "fetchedAt": "2026-07-22T03:43:14.404Z",
         "priority": 1
       },
       "confidence": "high",
@@ -123,7 +123,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21168",
         "kind": "official-announcement-api",
         "recordId": "21168",
-        "fetchedAt": "2026-07-21T19:50:38.244Z",
+        "fetchedAt": "2026-07-22T03:43:14.404Z",
         "priority": 1
       },
       "confidence": "high",
@@ -167,7 +167,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21749",
         "kind": "official-announcement-api",
         "recordId": "21749",
-        "fetchedAt": "2026-07-21T19:50:38.244Z",
+        "fetchedAt": "2026-07-22T03:43:14.404Z",
         "priority": 1
       },
       "confidence": "high",
@@ -267,7 +267,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21646",
         "kind": "official-announcement-api",
         "recordId": "21646",
-        "fetchedAt": "2026-07-21T19:50:38.244Z",
+        "fetchedAt": "2026-07-22T03:43:14.404Z",
         "priority": 1
       },
       "confidence": "high",
@@ -311,7 +311,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=1249",
         "kind": "official-announcement-api",
         "recordId": "1249",
-        "fetchedAt": "2026-07-21T19:50:38.244Z",
+        "fetchedAt": "2026-07-22T03:43:14.404Z",
         "priority": 1
       },
       "confidence": "low",
@@ -321,54 +321,6 @@
       "image": null,
       "description": "Dear Travelers, the official Top-Up Center is now available on the Genshin Impact website. Interested Travelers can check it out by following the link below to the website. Go to Website From the homepage, simply select the \"Top Up\"…",
       "windowsByRegion": {}
-    },
-    {
-      "game": "gi",
-      "id": "gi-hoyo-ann-35dfee6c8841",
-      "title": "Event Wish \"Starry Night's Whispers\" - Boosted Drop Rate for \"Obsidian Opalstar\" Citlali (Cryo)!",
-      "type": "banner",
-      "start": null,
-      "end": null,
-      "server": "america",
-      "timezone": "UTC-05:00",
-      "source": {
-        "name": "Genshin Impact Official",
-        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21744",
-        "kind": "official-announcement-api",
-        "recordId": "21744",
-        "fetchedAt": "2026-07-21T19:50:38.244Z",
-        "priority": 1
-      },
-      "confidence": "low",
-      "scheduleStatus": "expected",
-      "permanence": "unknown",
-      "needs_review": true,
-      "image": null,
-      "description": "Travelers, stock up on weapons and characters in the event wish to make your party stronger in combat! 〓Event Wish Details〓 Event Wish Duration Promotional Character (5-Star) Featured Characters (4-Star) After the Version \"Luna VIII\"…"
-    },
-    {
-      "game": "gi",
-      "id": "gi-hoyo-ann-4e84ec1b62a5",
-      "title": "Event Wish \"To the Looking-Glass the Mademoiselle Said\" - Boosted Drop Rate for \"Mirrored Analysis\" Sandrone (Cryo)!",
-      "type": "banner",
-      "start": null,
-      "end": null,
-      "server": "america",
-      "timezone": "UTC-05:00",
-      "source": {
-        "name": "Genshin Impact Official",
-        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21743",
-        "kind": "official-announcement-api",
-        "recordId": "21743",
-        "fetchedAt": "2026-07-21T19:50:38.244Z",
-        "priority": 1
-      },
-      "confidence": "low",
-      "scheduleStatus": "expected",
-      "permanence": "unknown",
-      "needs_review": true,
-      "image": null,
-      "description": "Travelers, stock up on weapons and characters in the event wish to make your party stronger in combat! 〓Event Wish Details〓 Event Wish Duration Promotional Character (5-Star) Featured Characters (4-Star) After the Version \"Luna VIII\"…"
     },
     {
       "game": "gi",
@@ -384,7 +336,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21282",
         "kind": "official-announcement-api",
         "recordId": "21282",
-        "fetchedAt": "2026-07-21T19:50:38.244Z",
+        "fetchedAt": "2026-07-22T03:43:14.404Z",
         "priority": 1
       },
       "confidence": "high",
@@ -409,7 +361,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21757",
         "kind": "official-announcement-api",
         "recordId": "21757",
-        "fetchedAt": "2026-07-21T19:50:38.244Z",
+        "fetchedAt": "2026-07-22T03:43:14.404Z",
         "priority": 1
       },
       "confidence": "low",
@@ -434,7 +386,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21784",
         "kind": "official-announcement-api",
         "recordId": "21784",
-        "fetchedAt": "2026-07-21T19:50:38.244Z",
+        "fetchedAt": "2026-07-22T03:43:14.404Z",
         "priority": 1
       },
       "confidence": "high",
@@ -444,30 +396,6 @@
       "image": null,
       "description": "Dear Travelers, The HoYoLAB Community \"Daily Check-In\" feature is now available! Go to HoYoLAB Tools Genshin Impact Check-in, and check in daily to obtain Primogems, Mora, Hero's Wit, and other in-game rewards. You will receive 100…",
       "windowsByRegion": {}
-    },
-    {
-      "game": "gi",
-      "id": "gi-hoyo-ann-bf502c8f8d89",
-      "title": "Lightrace Wish \"Heavenlit Prophecy\" Now Available!",
-      "type": "banner",
-      "start": null,
-      "end": null,
-      "server": "america",
-      "timezone": "UTC-05:00",
-      "source": {
-        "name": "Genshin Impact Official",
-        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21748",
-        "kind": "official-announcement-api",
-        "recordId": "21748",
-        "fetchedAt": "2026-07-21T19:50:38.244Z",
-        "priority": 1
-      },
-      "confidence": "low",
-      "scheduleStatus": "expected",
-      "permanence": "unknown",
-      "needs_review": true,
-      "image": null,
-      "description": "Travelers, stock up on weapons and characters in the Lightrace Wish to make your party stronger in combat! 〓Event Wish Details〓 Event Wish Duration Designatable 5-Star Characters Designatable 5-Star Weapons After the Version \"Luna VIII\"…"
     },
     {
       "game": "gi",
@@ -483,7 +411,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21755",
         "kind": "official-announcement-api",
         "recordId": "21755",
-        "fetchedAt": "2026-07-21T19:50:38.244Z",
+        "fetchedAt": "2026-07-22T03:43:14.404Z",
         "priority": 1
       },
       "confidence": "low",
@@ -508,7 +436,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21759",
         "kind": "official-announcement-api",
         "recordId": "21759",
-        "fetchedAt": "2026-07-21T19:50:38.244Z",
+        "fetchedAt": "2026-07-22T03:43:14.404Z",
         "priority": 1
       },
       "confidence": "low",
@@ -533,7 +461,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21774",
         "kind": "official-announcement-api",
         "recordId": "21774",
-        "fetchedAt": "2026-07-21T19:50:38.244Z",
+        "fetchedAt": "2026-07-22T03:43:14.404Z",
         "priority": 1
       },
       "confidence": "low",
@@ -558,7 +486,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21707",
         "kind": "official-announcement-api",
         "recordId": "21707",
-        "fetchedAt": "2026-07-21T19:50:38.244Z",
+        "fetchedAt": "2026-07-22T03:43:14.404Z",
         "priority": 1
       },
       "confidence": "low",
@@ -568,30 +496,6 @@
       "image": null,
       "description": "〓Event Duration〓 After the Version \"Luna II\" update – 2026/09/23 05:59 〓Eligibility〓 Travelers who have completed registration and unlocked the Wish feature after the Version Luna II update 〓Event Details〓 ● New Travelers who register…",
       "windowsByRegion": {}
-    },
-    {
-      "game": "gi",
-      "id": "gi-hoyo-ann-f69fecddb379",
-      "title": "Event Wish \"Epitome Invocation\" - Boosted Drop Rate for A Teaspoon of Transcendence (Claymore) and Starcaller's Watch (Catalyst)!",
-      "type": "banner",
-      "start": null,
-      "end": null,
-      "server": "america",
-      "timezone": "UTC-05:00",
-      "source": {
-        "name": "Genshin Impact Official",
-        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21745",
-        "kind": "official-announcement-api",
-        "recordId": "21745",
-        "fetchedAt": "2026-07-21T19:50:38.244Z",
-        "priority": 1
-      },
-      "confidence": "low",
-      "scheduleStatus": "expected",
-      "permanence": "unknown",
-      "needs_review": true,
-      "image": null,
-      "description": "Travelers, stock up on weapons and characters in \"Epitome Invocation\" to make your party stronger in combat! 〓Event Wish Details〓 Event Wish Duration Promotional Weapons (5-Star) Featured Weapons (4-Star) After the Version \"Luna VIII\"…"
     },
     {
       "game": "gi",
@@ -607,7 +511,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21758",
         "kind": "official-announcement-api",
         "recordId": "21758",
-        "fetchedAt": "2026-07-21T19:50:38.244Z",
+        "fetchedAt": "2026-07-22T03:43:14.404Z",
         "priority": 1
       },
       "confidence": "low",

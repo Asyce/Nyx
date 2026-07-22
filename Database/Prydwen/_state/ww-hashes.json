@@ -1,6 +1,6 @@
 {
   "game": "ww",
-  "updatedAt": "2026-07-21T07:45:45.514Z",
+  "updatedAt": "2026-07-22T07:46:01.326Z",
   "hashes": {
     "records": {
       "characters:aalto": "9015cce5588d22ad992c952b99a786724640bc12b511612714e6449bfbf9cac8",
@@ -11,7 +11,7 @@
       "characters:buling": "0fa5cc7a2af8001e7cd2420c7ea304ffd636bda76ca0df864ddc07b28a7a45c5",
       "characters:calcharo": "d2aaf5002e4b0c380b25dbc4374c91f3669b73f6bac8f54a46d10881eb507040",
       "characters:camellya": "4651e8630e6bfa7fafb89451d743400f6d33f269df546f205e531ae256a3541b",
-      "characters:cantarella": "a82d789d35d263ba926de34568878508864f2e680c07c305fcf1906ac19e9af7",
+      "characters:cantarella": "cbcf5d9fcf3c8f9fffd3eadf6331f1320326ae60840ad4039fe17ace34f793a8",
       "characters:carlotta": "ada480e82545d1c085efda6be087bc659c70c9cef58903bbdedb63ffb4f8b8c5",
       "characters:cartethyia": "a85581ea492897c40923063316abd8cd60ec924dd6e818cda52eee3a8d6e627b",
       "characters:changli": "4506dd8bed9a956fec8aa767511529798a2abb5c8877fdc11c7c1c339f2d8c3b",
@@ -42,7 +42,7 @@
       "characters:phrolova": "b0f3bd482895b5f769efa27af88a60f995318edb89f8a954f9165b7641d3dd7b",
       "characters:qingxiao": "aad9c2d55bd923fedd75256bf487f9c08f6cf82f5213eb6d21c2f13c1184d758",
       "characters:qiuyuan": "c8df03b370015c3b7a00a0c08da71d543ded0f108069cd560ab62a782bd4e703",
-      "characters:rebecca": "90df21b183c638f301854a518ee83c00f40944e207f267e207a9fc4cd9c2d2b7",
+      "characters:rebecca": "ffda563b89da73a9a83c236df318e7600b102e32481d2a66645b417e7f9649fb",
       "characters:roccia": "43913bf2c1ba5c84eb2ca344e43b86b506a227223492e286690f4d71a3e5c443",
       "characters:rover-aero": "fda713118bf4f17469d93b6a10d14a3d4efadd60e7ca6cdfa0ce79b2db3c936a",
       "characters:rover-electro": "fc1bd619ec2c823d455d750ed977fc13fb35647db5957578d1d8353afb38b74e",

@@ -92,12 +92,12 @@
     "statusLabels": [
       "New"
     ],
-    "updatedText": "16/July/2026",
+    "updatedText": "21/July/2026",
     "facts": {},
     "art": {
       "card": "Prydwen/endfield/assets/characters/arcane-card-f6342e13426a.webp",
       "full": "Prydwen/endfield/assets/characters/arcane-full-illustration-ed1ff0ed724f.webp",
-      "icon": "Prydwen/endfield/assets/characters/perlica-34393427391b.webp"
+      "icon": "Prydwen/endfield/assets/characters/rossi-72f4fe10ab2e.webp"
     },
     "pageFile": "Prydwen/endfield/pages/characters/arcane.json",
     "recommendationSections": [
@@ -105,7 +105,7 @@
       "best-weapons",
       "best-gear"
     ],
-    "assetCount": 34
+    "assetCount": 36
   },
   {
     "id": "arclight",

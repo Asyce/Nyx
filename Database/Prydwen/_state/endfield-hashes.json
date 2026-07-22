@@ -1,12 +1,12 @@
 {
   "game": "endfield",
-  "updatedAt": "2026-07-21T07:45:45.514Z",
+  "updatedAt": "2026-07-22T07:46:01.326Z",
   "hashes": {
     "records": {
       "characters:akekuri": "d1b3f1ae8765949a6a9c52b452d7b27b2513c1ed35339d523d2b48f47df17570",
       "characters:alesh": "66f9bb764d93da5ed65bdf3ad641d90051becb691ecc48070d01399882fe48a0",
       "characters:antal": "adbe0c859da619289e2562b807de9d6427cef784dd5f218e79826eeb40c95d43",
-      "characters:arcane": "3f16cd1530e7d938ef04663f7ae889d1d745ef5668dea1a4479f9c790518e7e9",
+      "characters:arcane": "01e5e7990f9e1195bc5cd78709158005c5105e17278e7a51f79bc014b7a65b0d",
       "characters:arclight": "a8381e581b09b38a9c421ec737d040bf4e2fda1833dac71b4b5095d99592d691",
       "characters:ardelia": "b29bf94e21342c9b3aeb06a30c6a91774260e167c8bedcdfff3b136f267fd1a0",
       "characters:avywenna": "b23b0481b26fb147d75aaebbc17c7998b39d47301491c5352dec92ff8fd3d05a",
@@ -34,7 +34,7 @@
       "characters:xaihi": "d7c6a943fd40e64772a39a6ff6b5c49b8689d4fd6c64e6a333014d02c41b1140",
       "characters:yvonne": "da3c7f2bc73be86dc78449886c99643c2205e300e0d3b41f6ee01037941609de",
       "characters:zhuang-fangyi": "e69ad14abd3bc54e845895383f27e63191ac298c435e7c5d846fd4dac0f02952",
-      "collection:characters": "44bfd576498064111dac849d2428e22ee1a21f08c63b6f7294d94b2cbf07ebb7",
+      "collection:characters": "7582013202468f64ba7d75255159277dfc88b3b6e9b0787de68485d7c5d950e5",
       "collection:gear": "7953c03440c5e9710f74c23eec40cd5c179d039ebc5d895735de78a16bcc4a73",
       "collection:weapons": "39047be14000749a39559efb842a2ba0656fd47d45bf74e2ad8730be7cf61871"
     }

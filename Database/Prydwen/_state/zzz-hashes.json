@@ -1,12 +1,12 @@
 {
   "game": "zzz",
-  "updatedAt": "2026-07-21T07:45:45.514Z",
+  "updatedAt": "2026-07-22T07:46:01.326Z",
   "hashes": {
     "records": {
       "characters:alice": "bc505fb93e905944212a9d3994b8f78d0038c926ca446233fa65d56c7b40766a",
       "characters:anby-demara": "e41b55e5fb3047124328625dd806a0e4411a4a75c34a25e3efdb5d0779bc0431",
       "characters:anby-demara-soldier-0": "9a6f19401c00a451a82032566ce9e58759e42488f7ad3af0c0af5b562a3a9e5b",
-      "characters:anton": "e30c4d2776e4a228f392bde5aee5913b926ba0e7d2ad4023ec7ee3e9d9e2324d",
+      "characters:anton": "fce9dbd6bbee3a7f5bd56a8d2fd9f3643be2c23e44c2aeb8ffc22f67b6e22c8d",
       "characters:aria": "1f7b37536264cb9e302ab8c3f7ac110024aec44a9ef1089b8138471ab6d74117",
       "characters:astra-yao": "7e02f4abfd058ad5701daee8132d88ee5c0763dc976349f515c4029a85bd49af",
       "characters:banyue": "64530fb4dbb3ecf9a2b282867e3dc518d1c6fd93993fb4a541cc0b616ba1d789",
@@ -50,7 +50,7 @@
       "characters:roxy": "dea248d76ee4dccbc1aa2ea4830a9fe135d54ffda4b104023c01838766ee900f",
       "characters:seed": "cb31d00589b16fd93e92d2bb85602aa9a7290088db0effe405d73480fa98cf43",
       "characters:seth": "a9c57f1c3d5a2548c8d8b40ec8a938aa4a003dae76e37621bbd08bca9bf385db",
-      "characters:severian": "b11be6a5b25910b7250e7563c2865fef8e5342fd01f7a2f67349f85f39932541",
+      "characters:severian": "d94c44a80a1b651d58a111331b90e2accfefc65a7a63e3000941f42adabf7a19",
       "characters:sigrid": "719b74c7f7f7690b794e2b62263ed0f7c2e57daa5b51d63844fe00110ebec5c0",
       "characters:soldier-11": "733ac84dd3d6cb23f483af8c0fdacc9f33d7361f3d1a72945363b3d6511143e1",
       "characters:soukaku": "28c38a1ff6cf605b11ae9e7babb64e701188755097cf53f17c1dac848b3dbc3d",

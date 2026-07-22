@@ -1,13 +1,13 @@
 {
   "provider": "Prydwen",
   "game": "hsr",
-  "generatedAt": "2026-07-21T07:45:45.514Z",
+  "generatedAt": "2026-07-22T07:46:01.326Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 2,
-      "unchanged": 93
+      "changed": 1,
+      "unchanged": 94
     }
   },
   "sections": {
@@ -16,19 +16,13 @@
       "removed": [],
       "changed": [
         {
-          "id": "characters:acheron",
-          "name": "Acheron",
-          "previousHash": "78f4beb2acf5afe2ff76b5488b9ad31ea7edb941de5864118831ddc37c477d8b",
-          "currentHash": "345728d4167f11b7b2c92a7145d582e94ec9f7e35afb3f278806bf62629a2fcf"
-        },
-        {
           "id": "characters:qingque",
           "name": "Qingque",
-          "previousHash": "3c6adba2dcff6a7f3f2f84d97044199215a495cfdb568ef918d826c8d3dd51b9",
-          "currentHash": "534bd3a9def0379605d7fcf6d8ac67b3bf64f06b8437dbc39d33374fdfc53328"
+          "previousHash": "534bd3a9def0379605d7fcf6d8ac67b3bf64f06b8437dbc39d33374fdfc53328",
+          "currentHash": "3c6adba2dcff6a7f3f2f84d97044199215a495cfdb568ef918d826c8d3dd51b9"
         }
       ],
-      "unchanged": 93,
+      "unchanged": 94,
       "totals": {
         "previous": 95,
         "current": 95

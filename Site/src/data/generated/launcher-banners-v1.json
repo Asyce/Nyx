@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "d87c0c0c8a1ac47b62f07391d3a70f345fe8c0e51a0fb401a7875dc0ba860f49",
-  "generatedAt": "2026-07-21T20:48:02.936Z",
+  "revision": "f8a77567ded09e6c8976092f6b339c63809f807c803dd8d23016187565775be7",
+  "generatedAt": "2026-07-22T00:00:35.455Z",
   "health": {
     "status": "ok",
     "games": {
@@ -43,7 +43,7 @@
         "remaining": {
           "startsAt": "2026-07-21T17:00:00.000Z",
           "endsAt": "2026-08-11T13:59:00.000Z",
-          "durationSeconds": 1789857
+          "durationSeconds": 1778304
         },
         "characters": [
           {
@@ -51,7 +51,7 @@
             "name": "Raiden Shogun",
             "rarity": 5,
             "limited": true,
-            "debut": "2021-08-31T22:00:00.000Z",
+            "debut": "2021-09-01T00:00:00.000Z",
             "icon": {
               "id": "10000052-icon",
               "source": "character-icon",
@@ -110,7 +110,7 @@
             "name": "Columbina",
             "rarity": 5,
             "limited": true,
-            "debut": "2026-01-12T23:00:00.000Z",
+            "debut": "2026-01-13T00:00:00.000Z",
             "icon": {
               "id": "10000125-icon",
               "source": "character-icon",
@@ -170,7 +170,7 @@
           "name": "Columbina",
           "rarity": 5,
           "limited": true,
-          "debut": "2026-01-12T23:00:00.000Z",
+          "debut": "2026-01-13T00:00:00.000Z",
           "icon": {
             "id": "10000125-icon",
             "source": "character-icon",
@@ -365,7 +365,7 @@
         "remaining": {
           "startsAt": "2026-07-15T03:00:00.000Z",
           "endsAt": "2026-08-05T03:59:00.000Z",
-          "durationSeconds": 1235457
+          "durationSeconds": 1223904
         },
         "characters": [
           {
@@ -783,31 +783,31 @@
       "codes": [
         {
           "code": "5S6ZHRWTDNJB",
-          "added": "2026-07-21",
+          "added": "2026-07-22",
           "amount": 60,
           "currency": "Stellar Jade"
         },
         {
           "code": "4TKSX77Y58QK",
-          "added": "2026-07-21",
+          "added": "2026-07-22",
           "amount": 30,
           "currency": "Stellar Jade"
         },
         {
           "code": "CREATIONNYMPH",
-          "added": "2026-07-21",
+          "added": "2026-07-22",
           "amount": 60,
           "currency": "Stellar Jade"
         },
         {
           "code": "FAREWELL",
-          "added": "2026-07-21",
+          "added": "2026-07-22",
           "amount": 60,
           "currency": "Stellar Jade"
         },
         {
           "code": "IFYOUAREREADINGTHIS",
-          "added": "2026-07-21",
+          "added": "2026-07-22",
           "amount": 60,
           "currency": "Stellar Jade"
         }
@@ -823,7 +823,7 @@
         "remaining": {
           "startsAt": "2026-07-08T11:00:00.000Z",
           "endsAt": "2026-07-28T13:59:59.000Z",
-          "durationSeconds": 580316
+          "durationSeconds": 568763
         },
         "characters": [
           {
@@ -1129,31 +1129,31 @@
       "codes": [
         {
           "code": "ZZZDREAMLAND",
-          "added": "2026-07-21",
+          "added": "2026-07-22",
           "amount": 30,
           "currency": "Polychrome"
         },
         {
           "code": "ROSCAELIFER0617",
-          "added": "2026-07-21",
+          "added": "2026-07-22",
           "amount": 30,
           "currency": "Polychrome"
         },
         {
           "code": "ZENLESSGIFT",
-          "added": "2026-07-21",
+          "added": "2026-07-22",
           "amount": 50,
           "currency": "Polychrome"
         },
         {
           "code": "ZZZ30BANGBOO",
-          "added": "2026-07-21",
+          "added": "2026-07-22",
           "amount": 60,
           "currency": "Polychrome"
         },
         {
           "code": "ZZZSEASON3",
-          "added": "2026-07-21",
+          "added": "2026-07-22",
           "amount": 50,
           "currency": "Polychrome"
         }
@@ -1169,7 +1169,7 @@
         "remaining": {
           "startsAt": "2026-07-10T08:10:00.000Z",
           "endsAt": "2026-07-30T08:59:00.000Z",
-          "durationSeconds": 735057
+          "durationSeconds": 723504
         },
         "characters": [
           {
@@ -1568,7 +1568,7 @@
         "remaining": {
           "startsAt": "2026-07-16T04:00:00.000Z",
           "endsAt": "2026-08-09T03:59:59.000Z",
-          "durationSeconds": 1581116
+          "durationSeconds": 1569563
         },
         "characters": [
           {

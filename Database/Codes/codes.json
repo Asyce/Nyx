@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T14:21:01.307Z",
+  "generatedAt": "2026-07-22T16:27:56.219Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,7 +9,7 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-07-22T14:21:01.306Z",
+      "lastSuccessfulFetch": "2026-07-22T16:27:55.890Z",
       "codes": [
         {
           "code": "EZSB8889C2BZ",
@@ -40,7 +40,7 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-07-22T14:20:55.994Z",
+      "lastSuccessfulFetch": "2026-07-22T16:27:56.219Z",
       "codes": [
         {
           "code": "4TKSX77Y58QK",
@@ -159,7 +159,7 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-07-22T14:20:57.438Z",
+      "lastSuccessfulFetch": "2026-07-22T16:27:55.894Z",
       "codes": [
         {
           "code": "ROSCAELIFER0617",
@@ -262,8 +262,19 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-07-22T14:20:58.236Z",
-      "codes": []
+      "lastSuccessfulFetch": "2026-07-22T16:27:55.829Z",
+      "codes": [
+        {
+          "code": "F5F4D3B2A2",
+          "rewards": "Escape From Duckov Themed Bike Skin",
+          "added": "2026-07-22",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=F5F4D3B2A2",
+          "premium": false,
+          "premium100": false,
+          "cwSeen": false,
+          "firstSeen": "2026-07-22T16:27:55.829Z"
+        }
+      ]
     },
     {
       "slug": "endfield",
@@ -272,7 +283,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-07-22T14:20:59.838Z",
+      "lastSuccessfulFetch": "2026-07-22T16:27:55.854Z",
       "codes": [
         {
           "code": "ENDFIELDRENEW",

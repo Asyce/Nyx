@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "426a5fa8a5d7dc41ba1772ffecf41d04724f6faadd72bfb150110ec65584582d",
-  "generatedAt": "2026-07-22T19:46:21.896Z",
+  "revision": "16fbb74f1acf1932afff4eac737175c194b3d0e58551cf4b79a14cfeda1e7a92",
+  "generatedAt": "2026-07-23T00:08:33.808Z",
   "health": {
     "status": "ok",
     "games": {
@@ -43,7 +43,7 @@
         "remaining": {
           "startsAt": "2026-07-21T17:00:00.000Z",
           "endsAt": "2026-08-11T13:59:00.000Z",
-          "durationSeconds": 1707158
+          "durationSeconds": 1691426
         },
         "characters": [
           {
@@ -365,7 +365,7 @@
         "remaining": {
           "startsAt": "2026-07-15T03:00:00.000Z",
           "endsAt": "2026-08-05T03:59:00.000Z",
-          "durationSeconds": 1152758
+          "durationSeconds": 1137026
         },
         "characters": [
           {
@@ -783,31 +783,31 @@
       "codes": [
         {
           "code": "5S6ZHRWTDNJB",
-          "added": "2026-07-22",
+          "added": "2026-07-23",
           "amount": 60,
           "currency": "Stellar Jade"
         },
         {
           "code": "4TKSX77Y58QK",
-          "added": "2026-07-22",
+          "added": "2026-07-23",
           "amount": 30,
           "currency": "Stellar Jade"
         },
         {
           "code": "CREATIONNYMPH",
-          "added": "2026-07-22",
+          "added": "2026-07-23",
           "amount": 60,
           "currency": "Stellar Jade"
         },
         {
           "code": "FAREWELL",
-          "added": "2026-07-22",
+          "added": "2026-07-23",
           "amount": 60,
           "currency": "Stellar Jade"
         },
         {
           "code": "IFYOUAREREADINGTHIS",
-          "added": "2026-07-22",
+          "added": "2026-07-23",
           "amount": 60,
           "currency": "Stellar Jade"
         }
@@ -823,7 +823,7 @@
         "remaining": {
           "startsAt": "2026-07-08T11:00:00.000Z",
           "endsAt": "2026-07-28T13:59:59.000Z",
-          "durationSeconds": 497617
+          "durationSeconds": 481885
         },
         "characters": [
           {
@@ -1129,31 +1129,31 @@
       "codes": [
         {
           "code": "ZZZDREAMLAND",
-          "added": "2026-07-22",
+          "added": "2026-07-23",
           "amount": 30,
           "currency": "Polychrome"
         },
         {
           "code": "ROSCAELIFER0617",
-          "added": "2026-07-22",
+          "added": "2026-07-23",
           "amount": 30,
           "currency": "Polychrome"
         },
         {
           "code": "ZENLESSGIFT",
-          "added": "2026-07-22",
+          "added": "2026-07-23",
           "amount": 50,
           "currency": "Polychrome"
         },
         {
           "code": "ZZZ30BANGBOO",
-          "added": "2026-07-22",
+          "added": "2026-07-23",
           "amount": 60,
           "currency": "Polychrome"
         },
         {
           "code": "ZZZSEASON3",
-          "added": "2026-07-22",
+          "added": "2026-07-23",
           "amount": 50,
           "currency": "Polychrome"
         }
@@ -1169,7 +1169,7 @@
         "remaining": {
           "startsAt": "2026-07-10T08:10:00.000Z",
           "endsAt": "2026-07-30T08:59:00.000Z",
-          "durationSeconds": 652358
+          "durationSeconds": 636626
         },
         "characters": [
           {
@@ -1568,7 +1568,7 @@
         "remaining": {
           "startsAt": "2026-07-16T04:00:00.000Z",
           "endsAt": "2026-08-09T03:59:59.000Z",
-          "durationSeconds": 1498417
+          "durationSeconds": 1482685
         },
         "characters": [
           {

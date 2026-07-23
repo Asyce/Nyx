@@ -1,6 +1,6 @@
 {
-  "name": "Primordial Jade Vista",
-  "desc": "",
+  "name": "Jade Vista",
+  "desc": "A longbow of immense strength. It shines with the radiance of dreams even in the darkest of nights.",
   "weapon_type": "WEAPON_BOW",
   "weapon_prop": [
     {
@@ -343,7 +343,7 @@
   "refinement": {
     "1": {
       "name": "A Candle Woven From the Night",
-      "desc": "Party members other than the equipping character will provide the equipping character with buffs based on whether their Elemental Type is the same as the latter or not. If their Elemental Types are the same, the equipping character gets a <color=#99FFFFFF>64</color>-point Elemental Mastery boost. If not, the equipping character's ATK is increased by <color=#99FFFFFF>12%</color> instead. The equipping character can enjoy up to 3 instances of the aforementioned buffs, with Elemental Mastery buffs counted first.",
+      "desc": "For every party member other than the equipping character:\\n· Who is of the same Elemental Type as the equipper: The equipping character's Elemental Mastery is increased by <color=#99FFFFFF>64</color>;\\n· Who is not of the same Elemental Type as the equipper: The equipping character's ATK increases by <color=#99FFFFFF>12%</color>.\\nThe two effects described above can stack up to 3 times in total, with Elemental Mastery buffs applied first.",
       "param_list": [
         0.12,
         64,
@@ -357,7 +357,7 @@
     },
     "2": {
       "name": "A Candle Woven From the Night",
-      "desc": "Party members other than the equipping character will provide the equipping character with buffs based on whether their Elemental Type is the same as the latter or not. If their Elemental Types are the same, the equipping character gets a <color=#99FFFFFF>80</color>-point Elemental Mastery boost. If not, the equipping character's ATK is increased by <color=#99FFFFFF>15%</color> instead. The equipping character can enjoy up to 3 instances of the aforementioned buffs, with Elemental Mastery buffs counted first.",
+      "desc": "For every party member other than the equipping character:\\n· Who is of the same Elemental Type as the equipper: The equipping character's Elemental Mastery is increased by <color=#99FFFFFF>80</color>;\\n· Who is not of the same Elemental Type as the equipper: The equipping character's ATK increases by <color=#99FFFFFF>15%</color>.\\nThe two effects described above can stack up to 3 times in total, with Elemental Mastery buffs applied first.",
       "param_list": [
         0.15,
         80,
@@ -371,7 +371,7 @@
     },
     "3": {
       "name": "A Candle Woven From the Night",
-      "desc": "Party members other than the equipping character will provide the equipping character with buffs based on whether their Elemental Type is the same as the latter or not. If their Elemental Types are the same, the equipping character gets a <color=#99FFFFFF>96</color>-point Elemental Mastery boost. If not, the equipping character's ATK is increased by <color=#99FFFFFF>18%</color> instead. The equipping character can enjoy up to 3 instances of the aforementioned buffs, with Elemental Mastery buffs counted first.",
+      "desc": "For every party member other than the equipping character:\\n· Who is of the same Elemental Type as the equipper: The equipping character's Elemental Mastery is increased by <color=#99FFFFFF>96</color>;\\n· Who is not of the same Elemental Type as the equipper: The equipping character's ATK increases by <color=#99FFFFFF>18%</color>.\\nThe two effects described above can stack up to 3 times in total, with Elemental Mastery buffs applied first.",
       "param_list": [
         0.18,
         96,
@@ -385,7 +385,7 @@
     },
     "4": {
       "name": "A Candle Woven From the Night",
-      "desc": "Party members other than the equipping character will provide the equipping character with buffs based on whether their Elemental Type is the same as the latter or not. If their Elemental Types are the same, the equipping character gets a <color=#99FFFFFF>112</color>-point Elemental Mastery boost. If not, the equipping character's ATK is increased by <color=#99FFFFFF>21%</color> instead. The equipping character can enjoy up to 3 instances of the aforementioned buffs, with Elemental Mastery buffs counted first.",
+      "desc": "For every party member other than the equipping character:\\n· Who is of the same Elemental Type as the equipper: The equipping character's Elemental Mastery is increased by <color=#99FFFFFF>112</color>;\\n· Who is not of the same Elemental Type as the equipper: The equipping character's ATK increases by <color=#99FFFFFF>21%</color>.\\nThe two effects described above can stack up to 3 times in total, with Elemental Mastery buffs applied first.",
       "param_list": [
         0.21,
         112,
@@ -399,7 +399,7 @@
     },
     "5": {
       "name": "A Candle Woven From the Night",
-      "desc": "Party members other than the equipping character will provide the equipping character with buffs based on whether they have the same Elemental Type. If their Elemental Type is the same as the equipping character's, the character gets a <color=#99FFFFFF>128</color>-point Elemental Mastery boost. If not, their ATK is increased by <color=#99FFFFFF>24%</color> instead. This effect can stack up to 3 times for the equipping character, with Elemental Mastery buffs counted first.",
+      "desc": "For every party member other than the equipping character:\\n· Who is of the same Elemental Type as the equipper: The equipping character's Elemental Mastery is increased by <color=#99FFFFFF>128</color>;\\n· Who is not of the same Elemental Type as the equipper: The equipping character's ATK increases by <color=#99FFFFFF>24%</color>.\\nThe two effects described above can stack up to 3 times in total, with Elemental Mastery buffs applied first.",
       "param_list": [
         0.24,
         128,

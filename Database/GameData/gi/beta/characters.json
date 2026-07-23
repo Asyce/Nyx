@@ -26929,8 +26929,8 @@
       {
         "key": "82301",
         "id": "82301",
-        "name": "Illusory Frostmirror",
-        "description": "The Traveler will enter the <color=#FFD780FF>Radiance: Stellar-Conduct</color> or <color=#FFD780FF>Radiance: Stellar Swirl</color> state for 8s when they are inside a <color=#FFD780FF>Polestar Field</color> or when a party member triggers a Stellar Swirl reaction respectively.\\nWhen a party member triggers a Superconduct or Cryo Swirl reaction, it becomes a Stellar-Conduct or Stellar Swirl reaction instead, and the Base DMG of said reaction is also increased by 0.35% for every 100 points of the Traveler's ATK. A maximum 7% increase can be obtained in this way.",
+        "name": "Stellar Jubilee: Illusory Frostmirror",
+        "description": "The Traveler will enter the <color=#FFD780FF>Radiance: Stellar-Conduct</color> state when inside a <color=#FFD780FF>Polestar Field</color>, or the <color=#FFD780FF>Radiance: Stellar Swirl</color> state for 8s after a nearby party member triggers a Stellar Swirl reaction.\\nWhen a party member triggers a Superconduct or Cryo Swirl reaction, it becomes a Stellar-Conduct or Stellar Swirl reaction instead, and the Base DMG of said reaction is also increased by 0.35% for every 100 points of the Traveler's ATK. A maximum 7% increase can be obtained in this way.",
         "params": [
           0.000035,
           0.07,
@@ -27001,7 +27001,7 @@
         "key": "83",
         "id": "83",
         "name": "Glacial Shard",
-        "description": "Increases the Level of <color=#FFD780FF>{LINK#S10128}Frostbound Javelin{/LINK}</color> by 3.\\nMaximum upgrade level is 15.",
+        "description": "Increases the Level of the Elemental Burst <color=#FFD780FF>{LINK#S10128}Frostbound Javelin{/LINK}</color> by 3.\\nMaximum upgrade level is 15.",
         "params": [
           0,
           0,
@@ -27020,7 +27020,7 @@
         "key": "84",
         "id": "84",
         "name": "Enduring Ice",
-        "description": "The duration of the <color=#FFD780FF>Frostpierce Star</color> created by <color=#FFD780FF>{LINK#S10127}Ice Fog Piercer{/LINK}</color> is increased by 25%.",
+        "description": "The duration of the <color=#FFD780FF>Frostpierce Star</color> created by the Elemental Skill <color=#FFD780FF>{LINK#S10127}Ice Fog Piercer{/LINK}</color> is increased by 25%.",
         "params": [
           0.25,
           0,
@@ -27039,7 +27039,7 @@
         "key": "85",
         "id": "85",
         "name": "Bittercold Fog",
-        "description": "Increases the Level of <color=#FFD780FF>{LINK#S10127}Ice Fog Piercer{/LINK}</color> by 3.\\nMaximum upgrade level is 15.",
+        "description": "Increases the Level of the Elemental Skill <color=#FFD780FF>{LINK#S10127}Ice Fog Piercer{/LINK}</color> by 3.\\nMaximum upgrade level is 15.",
         "params": [
           0,
           0,
@@ -27309,7 +27309,7 @@
       ]
     },
     "liveComparison": {
-      "currentHash": "a07b316f8a4e54d5ee0657db1fbbef38ce24b00d6dc531bb3eb327e883a6e8ad"
+      "currentHash": "6639a4914f6ede4555817c2e1ea2df752638e8170d8ef10f58c60d8b9bf524bd"
     }
   },
   {
@@ -65006,8 +65006,8 @@
       {
         "key": "82301",
         "id": "82301",
-        "name": "Illusory Frostmirror",
-        "description": "The Traveler will enter the <color=#FFD780FF>Radiance: Stellar-Conduct</color> or <color=#FFD780FF>Radiance: Stellar Swirl</color> state for 8s when they are inside a <color=#FFD780FF>Polestar Field</color> or when a party member triggers a Stellar Swirl reaction respectively.\\nWhen a party member triggers a Superconduct or Cryo Swirl reaction, it becomes a Stellar-Conduct or Stellar Swirl reaction instead, and the Base DMG of said reaction is also increased by 0.35% for every 100 points of the Traveler's ATK. A maximum 7% increase can be obtained in this way.",
+        "name": "Stellar Jubilee: Illusory Frostmirror",
+        "description": "The Traveler will enter the <color=#FFD780FF>Radiance: Stellar-Conduct</color> state when inside a <color=#FFD780FF>Polestar Field</color>, or the <color=#FFD780FF>Radiance: Stellar Swirl</color> state for 8s after a nearby party member triggers a Stellar Swirl reaction.\\nWhen a party member triggers a Superconduct or Cryo Swirl reaction, it becomes a Stellar-Conduct or Stellar Swirl reaction instead, and the Base DMG of said reaction is also increased by 0.35% for every 100 points of the Traveler's ATK. A maximum 7% increase can be obtained in this way.",
         "params": [
           0.000035,
           0.07,
@@ -65078,7 +65078,7 @@
         "key": "83",
         "id": "83",
         "name": "Glacial Shard",
-        "description": "Increases the Level of <color=#FFD780FF>{LINK#S10128}Frostbound Javelin{/LINK}</color> by 3.\\nMaximum upgrade level is 15.",
+        "description": "Increases the Level of the Elemental Burst <color=#FFD780FF>{LINK#S10128}Frostbound Javelin{/LINK}</color> by 3.\\nMaximum upgrade level is 15.",
         "params": [
           0,
           0,
@@ -65097,7 +65097,7 @@
         "key": "84",
         "id": "84",
         "name": "Enduring Ice",
-        "description": "The duration of the <color=#FFD780FF>Frostpierce Star</color> created by <color=#FFD780FF>{LINK#S10127}Ice Fog Piercer{/LINK}</color> is increased by 25%.",
+        "description": "The duration of the <color=#FFD780FF>Frostpierce Star</color> created by the Elemental Skill <color=#FFD780FF>{LINK#S10127}Ice Fog Piercer{/LINK}</color> is increased by 25%.",
         "params": [
           0.25,
           0,
@@ -65116,7 +65116,7 @@
         "key": "85",
         "id": "85",
         "name": "Bittercold Fog",
-        "description": "Increases the Level of <color=#FFD780FF>{LINK#S10127}Ice Fog Piercer{/LINK}</color> by 3.\\nMaximum upgrade level is 15.",
+        "description": "Increases the Level of the Elemental Skill <color=#FFD780FF>{LINK#S10127}Ice Fog Piercer{/LINK}</color> by 3.\\nMaximum upgrade level is 15.",
         "params": [
           0,
           0,
@@ -65386,7 +65386,7 @@
       ]
     },
     "liveComparison": {
-      "currentHash": "c831ea900b07ebacaa652cf467d7580c45e762f1c21b8d385a083cdb950ec54b"
+      "currentHash": "4a4ed3f4015c65af7ee96be15875c4a9ecf2ab14168a53480495338bd6d36391"
     }
   },
   {
@@ -148829,7 +148829,7 @@
         "key": "355101",
         "id": "355101",
         "name": "Seven Sacred Treasures",
-        "description": "The cooldown of the Elemental Skill <color=#FFD780FF>Adeptus Art: Herald of Frost</color> is reduced to 15s.\\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: While the Herald of Frost is on the field, Superconduct and Stellar-Conduct reaction DMG dealt by her own party members is increased by 50%.\\n<color=#FFD780FF>Radiance: Stellar Swirl</color>: While the Herald of Frost is on the field, Cryo Swirl and Stellar Swirl reaction DMG dealt by her own party members is increased by 50%.\\nAdditionally, Qiqi will also enter the <color=#FFD780FF>Radiance: Stellar-Conduct</color> or <color=#FFD780FF>Radiance: Stellar Swirl</color> state for 8s when she is inside a {LINK#N11330003}<color=#FFD780FF>Polestar Field</color>{/LINK} or when a nearby party character triggers a Stellar Swirl reaction respectively.",
+        "description": "The cooldown of the Elemental Skill <color=#FFD780FF>Adeptus Art: Herald of Frost</color> is reduced to 15s.\\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: While the Herald of Frost is on the field, Superconduct and Stellar-Conduct reaction DMG dealt by her own party members is increased by 50%.\\n<color=#FFD780FF>Radiance: Stellar Swirl</color>: While the Herald of Frost is on the field, Cryo Swirl and Stellar Swirl reaction DMG dealt by her own party members is increased by 50%.\\nAdditionally, Qiqi will also enter the <color=#FFD780FF>Radiance: Stellar-Conduct</color> state when she is inside a {LINK#N11330003}<color=#FFD780FF>Polestar Field</color>{/LINK}, or the <color=#FFD780FF>Radiance: Stellar Swirl</color> state for 8s after a nearby party character triggers a Stellar Swirl reaction.",
         "params": [
           15,
           0.5,
@@ -149259,7 +149259,7 @@
     },
     "liveComparison": {
       "liveHash": "d3db9ae7e965194a368a1e16f2bef670e201ad87cfc1da6c4d7763d806f97fc4",
-      "currentHash": "2711f054205a7076f99e750dc2b8c40a4d4e7ab060a06c2a37386a5c321e1caa"
+      "currentHash": "4c1148d3d844e76626abe56d3fb9ef17aa9a883762a8faa751ec7b8909082910"
     }
   },
   {
@@ -164198,7 +164198,7 @@
         "key": "395101",
         "id": "395101",
         "name": "Choice Treasures",
-        "description": "Within 20s after using the Elemental Skill <color=#FFD780FF>Icy Paws</color>, Diona will also fire off three <color=#FFD780FF>Icy Paws</color> when party members trigger Stellar-Conduct, Superconduct, Cryo Swirl, or Stellar Swirl reactions. <color=#FFD780FF>Icy Paws</color> fired this way cannot generate Elemental Particles, nor will they generate a shield upon hitting opponents. This effect can occur once every 3.5s.\\nAdditionally, Diona will also enter the <color=#FFD780FF>Radiance: Stellar-Conduct</color> or <color=#FFD780FF>Radiance: Stellar Swirl</color> state for 8s when she is inside a {LINK#N11330003}<color=#FFD780FF>Polestar Field</color>{/LINK} or when a nearby party member triggers a Stellar Swirl reaction respectively.",
+        "description": "Within 20s after using the Elemental Skill <color=#FFD780FF>Icy Paws</color>, Diona will also fire off three <color=#FFD780FF>Icy Paws</color> when party members trigger Stellar-Conduct, Superconduct, Cryo Swirl, or Stellar Swirl reactions. <color=#FFD780FF>Icy Paws</color> fired this way cannot generate Elemental Particles, nor will they generate a shield upon hitting opponents. This effect can occur once every 3.5s.\\nAdditionally, Diona will also enter the <color=#FFD780FF>Radiance: Stellar-Conduct</color> state when she is inside a {LINK#N11330003}<color=#FFD780FF>Polestar Field</color>{/LINK}, or the <color=#FFD780FF>Radiance: Stellar Swirl</color> state for 8s after a nearby party member triggers a Stellar Swirl reaction.",
         "params": [
           20,
           3.5,
@@ -164628,7 +164628,7 @@
     },
     "liveComparison": {
       "liveHash": "48375dd1e12a5c74dafbcec44b723a95baedb04911976af9df47bef37c5f8604",
-      "currentHash": "0b3dc1036d1f951a149d41f1be311d51a0c9a452e0b01de3dbe43ab6f3319503"
+      "currentHash": "875529904845160b92fc251c28468a18d2203ba6476d48bc831aed57f28e87eb"
     }
   },
   {
@@ -428391,7 +428391,7 @@
         "key": "1091",
         "id": "1091",
         "name": "In Mist-Like Waters",
-        "description": "When Yumemizuki Mizuki is in the Dreamdrifter state, she will continuously apply the \"Twenty-Three Nights' Awaiting\" effect to nearby opponents for 3s every 3.5s. When an opponent has a Swirl or Stellar Swirl reaction triggered against them by Anemo DMG while the aforementioned effect is active, the effect will be canceled, and this Swirl or Stellar Swirl instance deals DMG against this opponent increased by 1,100% and 550% of Mizuki's Elemental Mastery respectively.",
+        "description": "When Yumemizuki Mizuki is in the Dreamdrifter state, she will continuously apply the \"Twenty-Three Nights' Awaiting\" effect to nearby opponents for 3s every 3.5s. When an opponent has a Swirl or Stellar Swirl reaction triggered against them by Anemo DMG while the aforementioned effect is active, the effect will be canceled, and this Swirl or Stellar Swirl instance deals DMG against this opponent increased by 1,100% and 550% of Mizuki's Elemental Mastery, respectively.",
         "params": [
           11,
           3,
@@ -428486,7 +428486,7 @@
         "key": "1096",
         "id": "1096",
         "name": "The Heart Lingers Long",
-        "description": "While Yumemizuki Mizuki is in the Dreamdrifter state, Swirl reaction DMG dealt by nearby party members can score CRIT Hits, with CRIT Rate fixed at 30%, and CRIT DMG fixed at 100%. Any Stellar Swirl reaction DMG dealt by these characters will also have its CRIT Rate and CRIT DMG increased by 10% and 20% respectively.",
+        "description": "While Yumemizuki Mizuki is in the Dreamdrifter state, Swirl reaction DMG dealt by nearby party members can score CRIT Hits, with CRIT Rate fixed at 30%, and CRIT DMG fixed at 100%. Any Stellar Swirl reaction DMG dealt by these characters will also have its CRIT Rate and CRIT DMG increased by 10% and 20%, respectively.",
         "params": [
           0.3,
           500,
@@ -428788,7 +428788,7 @@
     },
     "liveComparison": {
       "liveHash": "2176c96f9518933251dc3cc2cb938d7a15252cad6f6beb9cb5cef0c4e4a33ab0",
-      "currentHash": "eddd8be60c9dd13e4a3b52250647afa365f59765d561ad62167fa7d3d27f1362"
+      "currentHash": "afc7cf933f63491299dea85c307d6c1d343553b8a3d0b15258599c5386cbc4c8"
     }
   },
   {
@@ -443620,7 +443620,7 @@
         "key": "1132101",
         "id": "1132101",
         "name": "Field Medic's Vision",
-        "description": "When Ifa is in the Nightsoul's Blessing state, every 1 Nightsoul point out of the total in his entire party will grant him 1 {LINK#N11130002}<color=#FFD780FF>Rescue Essentials</color>{/LINK} point. Rescue Essentials will increase the Swirl, Stellar Swirl, Electro-Charged, and Lunar-Charged reaction DMG dealt by nearby party members.",
+        "description": "When Ifa is in the Nightsoul's Blessing state, every 1 Nightsoul point out of the current total in his entire party will grant him 1 {LINK#N11130002}<color=#FFD780FF>Rescue Essentials</color>{/LINK} point. Rescue Essentials will increase the Swirl, Stellar Swirl, Electro-Charged, and Lunar-Charged reaction DMG dealt by nearby party members.",
         "params": [
           1,
           1,
@@ -444143,7 +444143,7 @@
     },
     "liveComparison": {
       "liveHash": "1f8b7dfbd59dde81a1b353040a03819efdb47544069b4e0265e684494aa83365",
-      "currentHash": "57f26f37f19af2b275da4947e6ffe0b0d7c23233cad52f5fb2d0fe6c8732cf61"
+      "currentHash": "877349ddaf4bf8ed64c63f69d1dd6065144dfb6d17ec224f099f1b5ff9b06300"
     }
   },
   {
@@ -555036,7 +555036,7 @@
         "key": "1332301",
         "id": "1332301",
         "name": "Light of Rationalisme",
-        "description": "Sandrone will enter the <color=#FFD780FF>Radiance: Stellar-Conduct</color> or <color=#FFD780FF>Radiance: Stellar Swirl</color> state for 8s when she is inside a {LINK#N11330003}<color=#FFD780FF>Polestar Field</color>{/LINK} or when a nearby party member triggers a Stellar Swirl reaction respectively.\\nWhen a party member triggers a Superconduct or Cryo Swirl reaction, it becomes a Stellar-Conduct or Stellar Swirl reaction instead, and the Base DMG of said reaction is also increased by 0.7% for every 100 points of Sandrone's ATK. A maximum increase of 14% can be obtained in this way.",
+        "description": "Sandrone will enter the <color=#FFD780FF>Radiance: Stellar-Conduct</color> state when she is inside a {LINK#N11330003}<color=#FFD780FF>Polestar Field</color>{/LINK}, or the <color=#FFD780FF>Radiance: Stellar Swirl</color> state for 8s after a nearby party member triggers a Stellar Swirl reaction.\\nWhen a party member triggers a Superconduct or Cryo Swirl reaction, it becomes a Stellar-Conduct or Stellar Swirl reaction instead, and the Base DMG of said reaction is also increased by 0.7% for every 100 points of Sandrone's ATK. A maximum increase of 14% can be obtained in this way.",
         "params": [
           0.007,
           0.14,
@@ -555497,7 +555497,7 @@
     },
     "liveComparison": {
       "liveHash": "82ee5db3fbc4f15cde17b404f6a7bedb07cc1471211112b0a37f74202afefb34",
-      "currentHash": "22dc0db737434b8ed0ab703d16dee86cbf71ab0fc6fe68fd4252fee503fd9cf5"
+      "currentHash": "fa19f678885f1c06e9ba184cab7ee3623d2d3aed352d8b1c0e08b2546f3217dc"
     }
   },
   {
@@ -556610,6 +556610,7 @@
     "rarityRaw": "QUALITY_PURPLE",
     "weapon": "WEAPON_POLE",
     "element": "Electro",
+    "description": "A \"professional hunter\" and master of the Snezhnayan snowfields. A fierce, distinct \"idealism\" burns beneath his calm demeanor.",
     "release": "1970-01-01 00:00:00",
     "birthday": [
       2,
@@ -556634,7 +556635,7 @@
       "region": "ASSOC_TYPE_SNEZHNAYA",
       "title": "Swift-Striding Hound",
       "native": "Snezhnaya",
-      "detail": "A \"professional hunter\" mastering the Snezhnayan snowfields. Beneath his calm demeanor, a fiercely distinct \"ideal\" seems to burn.",
+      "detail": "A \"professional hunter\" and master of the Snezhnayan snowfields. A fierce, distinct \"idealism\" burns beneath his calm demeanor.",
       "va": {
         "chinese": "???",
         "japanese": "???",
@@ -557525,7 +557526,7 @@
       {
         "id": "11481",
         "name": "Skirmishing Spear",
-        "description": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 4 consecutive spear strikes, and applies the {LINK#N11500004}<color=#FFD780FF>Hunter's Mark</color>{/LINK} to the opponent hit by the final strike.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to deal damage to opponents in his path.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+        "description": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 4 consecutive spear strikes and applies the {LINK#N11480001}<color=#FFD780FF>Hunter's {LINK#N11480001}{/LINK}Mark</color>{/LINK} to the opponent hit by the final strike.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents in his path.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
         "assets": {
           "icon": "GameData/gi/assets/skills/Skill_A_03.webp"
         },
@@ -558300,7 +558301,7 @@
       {
         "id": "11482",
         "name": "Thunderbolt Strike",
-        "description": "Follows his hunter's instincts. Tap or hold to produce different effects as well as apply to the opponent the {LINK#N11500004}<color=#FFD780FF>Hunter's Mark</color>{/LINK} effect.\\n\\n<color=#FFD780FF>Tapping</color>\\nFires at opponents in front of him, dealing <color=#FFACFFFF>AoE Electro DMG</color>.\\n\\n<color=#FFD780FF>Holding</color>\\nGoes into aiming mode, then targets opponents within a certain area in front of him. Alyosha's Interruption RES is enhanced when in this mode.\\nAt the end of the button hold, he deals <color=#FFACFFFF>Electro DMG</color> to the targeted opponents.\\n\\n<i>The reckless hunter once reached for the spear's edge, and it was only after they survived a lesson paid in blood that they came to understand the harsh truths of survival on the frozen plains.</i>",
+        "description": "Follows his hunter's instincts. Tap or hold to produce different effects as well as apply the {LINK#N11480001}<color=#FFD780FF>Hunter's Mark</color>{/LINK} effect to the hit opponents.\\n\\n<color=#FFD780FF>Tapping</color>\\nFires at opponents in front of him, dealing <color=#FFACFFFF>AoE Electro DMG</color>.\\n\\n<color=#FFD780FF>Holding</color>\\nGoes into aiming mode, then targets opponents within a certain area in front of him. Alyosha's Interruption RES is enhanced when in this mode.\\nAt the end of the button hold, he deals <color=#FFACFFFF>Electro DMG</color> to the targeted opponents.\\n\\n<i>The reckless hunter once reached for the spear's edge, and it was only after they survived a lesson paid in blood that they came to understand the harsh truths of survival on the frozen plains.</i>",
         "assets": {
           "icon": "GameData/gi/assets/skills/Skill_S_Alyosha_01.webp"
         },
@@ -559075,7 +559076,7 @@
       {
         "id": "11485",
         "name": "Hunter's Advance",
-        "description": "Summons his trusted companion <color=#FFD780FF>Tugarin</color> to fight alongside him on the field. This also turns an area in front of him into a <color=#FFD780FF>Fulgurite Hunting Field</color> for a short time.\\n\\n<color=#FFD780FF>Fulgurite Hunting Field</color>\\n· Continuously taunts nearby opponents to incite them to attack.\\n· Every 2s, deals an instance of <color=#FFACFFFF>AoE Electro DMG</color> to any opponent that has wandered into the field.\\n\\n<color=#FFD780FF>Tugarin</color>\\n· If there are any opponents nearby, every 2s Tugarin will quickly move close to an opponent and maul them, dealing <color=#FFD780FF>Electro DMG</color>.\\n· If an opponent affected by the <color=#FFD780FF>Hunter's Mark</color> effect is hit, the <color=#FFD780FF>Hunter's Mark</color> will also be activated.\\n· Where there are multiple opponents, Tugarin will attack those affected by the <color=#FFD780FF>Hunter's Mark</color> effect first.\\n\\n<i>Wait. Keep waiting until the impatience fades. That's when the red-bellied plover shall sweep across the birch grove and present itself before one's arrow.</i>",
+        "description": "Summons his trusted companion <color=#FFD780FF>Tugarin</color> to fight alongside him on the field. This also turns an area in front of him into a <color=#FFD780FF>Fulgurite Hunting Field</color> for a short time.\\n\\n<color=#FFD780FF>Fulgurite Hunting Field</color>\\n· Continuously taunts nearby opponents to incite them to attack.\\n· Every 2s, deals an instance of <color=#FFACFFFF>AoE Electro DMG</color> to any opponent that has wandered into the field.\\n\\n<color=#FFD780FF>Tugarin</color>\\n· If there are any opponents nearby, Tugarin will quickly move close to an opponent and maul them every 2s, dealing <color=#FFD780FF>Electro DMG</color>.\\n· If an opponent affected by the <color=#FFD780FF>Hunter's Mark</color> effect is hit, the <color=#FFD780FF>Hunter's Mark</color> will also be activated.\\n· Where there are multiple opponents, Tugarin will attack those affected by the <color=#FFD780FF>Hunter's Mark</color> effect first.\\n\\n<i>Wait. Keep waiting until the impatience fades. That's when the red-bellied plover shall sweep across the birch grove and present itself before one's arrow.</i>",
         "assets": {
           "icon": "GameData/gi/assets/skills/Skill_E_Alyosha_01.webp"
         },
@@ -559853,7 +559854,7 @@
         "key": "1482101",
         "id": "1482101",
         "name": "Awakened by the Baying Hounds",
-        "description": "When {LINK#N11480002}<color=#FFD780FF>Tugarin</color>{/LINK} attacks, it will also restore HP to nearby party members at 120% of Alyosha's ATK.",
+        "description": "When {LINK#N11480002}<color=#FFD780FF>Tugarin</color>{/LINK} attacks, it will also restore HP to nearby active characters at 120% of Alyosha's ATK.",
         "params": [
           1.2,
           0,
@@ -559915,7 +559916,7 @@
         "key": "1482301",
         "id": "1482301",
         "name": "Into the Fray",
-        "description": "Alyosha will enter the <color=#FFD780FF>Radiance: Stellar-Conduct</color> state when inside a {LINK#N11330003}<color=#FFD780FF>Polestar Field</color>{/LINK}.\\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: The <color=#FFD780FF>Hunter's Precision</color> effect obtained when the {LINK#N11480001}<color=#FFD780FF>Hunter's Mark</color>{/LINK} is activated will also increase Stellar-Conduct DMG dealt by all nearby party members by 20%.",
+        "description": "Alyosha will enter the <color=#FFD780FF>Radiance: Stellar-Conduct</color> state when inside a {LINK#N11330003}<color=#FFD780FF>Polestar Field</color>{/LINK}.\\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: The <color=#FFD780FF>Hunter's Precision</color> effect obtained when the {LINK#N11480001}<color=#FFD780FF>Hunter's Mark</color>{/LINK} is activated will also increase Stellar-Conduct DMG dealt by all currently active party members by 20%.",
         "params": [
           0.2,
           0,
@@ -559998,7 +559999,7 @@
         "key": "1482",
         "id": "1482",
         "name": "Howl From Afar",
-        "description": "The duration of the Elemental Burst <color=#FFD780FF>Hunter's Advance</color> is extended by 6s.\\nAdditionally, each time {LINK#N11480002}<color=#FFD780FF>Tugarin</color>{/LINK} attacks the opponent, it will first apply the {LINK#N11480001}<color=#FFD780FF>Hunter's Mark</color>{/LINK}. This effect does not activate existing <color=#FFD780FF>Hunter's Marks</color>.",
+        "description": "The duration of the Elemental Burst <color=#FFD780FF>Hunter's Advance</color> is extended by 6s.\\nAdditionally, each time {LINK#N11480002}<color=#FFD780FF>Tugarin</color>{/LINK} attacks the opponent, he will also apply the {LINK#N11480001}<color=#FFD780FF>Hunter's Mark</color>{/LINK} to a target. This effect does not activate existing <color=#FFD780FF>Hunter's Marks</color>.",
         "params": [
           6,
           0,
@@ -560036,7 +560037,7 @@
         "key": "1484",
         "id": "1484",
         "name": "Harvest the Spoils",
-        "description": "When {LINK#N11480002}<color=#FFD780FF>Tugarin</color>{/LINK} attacks, it will also restore 60% of Alyosha's ATK as HP to the nearby party member with the lowest HP by percentage.",
+        "description": "When {LINK#N11480002}<color=#FFD780FF>Tugarin</color>{/LINK} attacks, he will also restore 60% of Alyosha's ATK as HP to the nearby party member with the lowest HP by percentage.",
         "params": [
           0.6,
           0,
@@ -560074,7 +560075,7 @@
         "key": "1486",
         "id": "1486",
         "name": "Standard Reclaimed",
-        "description": "The <color=#FFD780FF>Hunter's Precision</color> effect obtained from activating a {LINK#N11480001}<color=#FFD780FF>Hunter's Mark</color>{/LINK} can now stack, max 2 stacks. When the stack count reaches 2, characters affected by <color=#FFD780FF>Hunter's Precision</color> will also have their Elemental Mastery increased by 100.",
+        "description": "The <color=#FFD780FF>Hunter's Precision</color> effect obtained from activating a {LINK#N11480001}<color=#FFD780FF>Hunter's Mark</color>{/LINK} can now stack, max 2 stacks. When the stack count reaches 2, currently active party members will also have their Elemental Mastery increased by 100.",
         "params": [
           100,
           0,
@@ -560303,7 +560304,7 @@
             {
               "itemId": "112151",
               "quantity": 12,
-              "name": "Genesis Chimeric Nexus",
+              "name": "Prime Chimeric Nexus",
               "rarity": 3,
               "type": "Character and Weapon Enhancement Material",
               "assets": {
@@ -560349,7 +560350,7 @@
             {
               "itemId": "112151",
               "quantity": 24,
-              "name": "Genesis Chimeric Nexus",
+              "name": "Prime Chimeric Nexus",
               "rarity": 3,
               "type": "Character and Weapon Enhancement Material",
               "assets": {
@@ -560375,7 +560376,7 @@
       ]
     },
     "liveComparison": {
-      "currentHash": "db8ef85df7b7efdb0ed312458c02d70b6c08e1f77ccb16129ff4415a3b1f35e7"
+      "currentHash": "fb67e51ba3e9b10711b5d0b75fa4484c8d69652ec02f448c208b9edcecb51879"
     }
   },
   {
@@ -560386,6 +560387,7 @@
     "rarityRaw": "QUALITY_ORANGE",
     "weapon": "WEAPON_SWORD_ONE_HAND",
     "element": "Cryo",
+    "description": "A famed Snezhnayan ballerina who blossoms against the frozen landscape with a beauty as sharp as frost.",
     "release": "1970-01-01 00:00:00",
     "birthday": [
       2,
@@ -560410,7 +560412,7 @@
       "region": "ASSOC_TYPE_SNEZHNAYA_STAR",
       "title": "Swirling Snow",
       "native": "Korolevskiy Troupe",
-      "detail": "A famed ballerina of Snezhnaya, she blossoms against the frozen landscape with a beauty as sharp as frost.",
+      "detail": "A famed Snezhnayan ballerina who blossoms against the frozen landscape with a beauty as sharp as frost.",
       "va": {
         "chinese": "???",
         "japanese": "???",
@@ -562881,7 +562883,7 @@
       {
         "id": "11505",
         "name": "Presto: Bluebird Finale",
-        "description": "With quick, lively dance steps, Odette deals multiple instances of <color=#99FFFFFF>AoE Cryo DMG</color> to the opponent, and summons her <color=#FFD780FF>{LINK#N11500001}Solo Dance Double</color>{/LINK}. She also gains <color=#FFD780FF>Snow Swan's Dream</color>, which increases the Stellar Glimmer reaction DMG Odette deals.\\nAdditionally, for 6s after unleashing the Elemental Burst <color=#FFD780FF>Presto: Bluebird Finale</color>, Odette's Elemental Skill <color=#FFD780FF>Adagio: Phantom Night Dancers</color> will be replaced with the special Elemental Skill <color=#FFD780FF>{LINK#N11500002}Adagio: Coda at Dawn's Tolling</color>{/LINK} instead.\\n\\nIf there is a Solo Dance Double summoned by Odette on the field, it will be summoned to her side with its duration refreshed.",
+        "description": "With quick, lively dance steps, Odette deals multiple instances of <color=#99FFFFFF>AoE Cryo DMG</color>, and summons her <color=#FFD780FF>{LINK#N11500001}Solo Dance Double</color>{/LINK}. She also gains <color=#FFD780FF>Snow Swan's Dream</color>, which increases the Stellar Glimmer reaction DMG Odette deals.\\nAdditionally, for 6s after unleashing the Elemental Burst <color=#FFD780FF>Presto: Bluebird Finale</color>, Odette's Elemental Skill <color=#FFD780FF>Adagio: Phantom Night Dancers</color> will be replaced with the special Elemental Skill {LINK#N11500002}<color=#FFD780FF>Adagio: Coda at Dawn's Tolling</color>{/LINK} instead.\\n\\nIf there is a Solo Dance Double summoned by Odette on the field, it will be summoned to her side with its duration refreshed.",
         "assets": {
           "icon": "GameData/gi/assets/skills/Skill_E_Odette_01.webp"
         },
@@ -563720,8 +563722,8 @@
       {
         "key": "1502301",
         "id": "1502301",
-        "name": "Dance of Aurore",
-        "description": "Odette will enter the <color=#FFD780FF>Radiance: Stellar-Conduct</color> or <color=#FFD780FF>Radiance: Stellar Swirl</color> state for 8s when she is inside a {LINK#N11330003}<color=#FFD780FF>Polestar Field</color>{/LINK} or when a nearby party member triggers a Stellar Swirl reaction respectively.\\nWhen a party member triggers a Superconduct or Cryo Swirl reaction, it becomes a Stellar-Conduct or Stellar Swirl reaction instead, and the Base DMG of said reaction is also increased by 0.7% for every 100 points of Odette's ATK. A maximum increase of 14% can be obtained in this way.",
+        "name": "Stellar Jubilee: Dance of Aurore",
+        "description": "Odette will enter the <color=#FFD780FF>Radiance: Stellar-Conduct</color> state when she is inside a {LINK#N11330003}<color=#FFD780FF>Polestar Field</color>{/LINK}, or the <color=#FFD780FF>Radiance: Stellar Swirl</color> state for 8s after a nearby party member triggers a Stellar Swirl reaction.\\nWhen a party member triggers a Superconduct or Cryo Swirl reaction, it becomes a Stellar-Conduct or Stellar Swirl reaction instead, and the Base DMG of said reaction is also increased by 0.7% for every 100 points of Odette's ATK. A maximum increase of 14% can be obtained in this way.",
         "params": [
           0.007,
           0.14,
@@ -563785,7 +563787,7 @@
         "key": "1501",
         "id": "1501",
         "name": "\"On This Danceless Morn, She Gazes at Her Reflection\"",
-        "description": "After unleashing the special Elemental Skill {LINK#N11500002}<color=#FFD780FF>Adagio: Coda at Dawn's Tolling</color>{/LINK}, at the dance duet's end Odette will deal an additional instance of <color=#99FFFFFF>Cryo AoE DMG</color> to nearby opponents that is considered:\\n<color=#FFD780FF>Radiance: Stellar-Conduct</color> or when not in a Radiance state: Stellar-Conduct reaction DMG at 300% of ATK;\\n<color=#FFD780FF>Radiance: Stellar Swirl</color>: Stellar Swirl reaction DMG at 450% of ATK.\\n\\nAdditionally, the Passive Talent \"Spring Rite of the Chosen One\" is also enhanced: now, when the {LINK#N11500001}<color=#FFD780FF>Solo Dance Double</color>{/LINK} is summoned, Odette also gains 2 stacks of {LINK#N11500003}<color=#FFD780FF>Marvelous Splendor</color>{/LINK}. When Odette is off-field, the rate at which <color=#FFD780FF>Marvelous Splendor</color> is removed is sped up to 2 stacks per second.",
+        "description": "After unleashing the special Elemental Skill {LINK#N11500002}<color=#FFD780FF>Adagio: Coda at Dawn's Tolling</color>{/LINK}, at the dance duet's end Odette will deal an additional instance of <color=#99FFFFFF>Cryo AoE DMG</color> to nearby opponents that is considered:\\n<color=#FFD780FF>Radiance: Stellar-Conduct</color> or when not in a Radiance state: Stellar-Conduct reaction DMG at 300% of Odette's ATK;\\n<color=#FFD780FF>Radiance: Stellar Swirl</color>: Stellar Swirl reaction DMG at 450% of Odette's ATK.\\n\\nAdditionally, the Passive Talent \"Spring Rite of the Chosen One\" is also enhanced: now, when the {LINK#N11500001}<color=#FFD780FF>Solo Dance Double</color>{/LINK} is summoned, Odette also gains 2 stacks of {LINK#N11500003}<color=#FFD780FF>Marvelous Splendor</color>{/LINK}. When Odette is off-field, the rate at which <color=#FFD780FF>Marvelous Splendor</color> is removed is sped up to 2 stacks per second.",
         "params": [
           2,
           2,
@@ -563842,7 +563844,7 @@
         "key": "1504",
         "id": "1504",
         "name": "\"Up, Up the Long, Delirious, Burning Blue\"",
-        "description": "The Elemental Burst <color=#FFD780FF>Presto: Bluebird Finale</color> is enhanced as follows: when Odette obtains <color=#FFD780FF>Snow Swan's Dream</color>, Stellar Glimmer reaction DMG dealt by other nearby party members is increased by 50% of <color=#FFD780FF>Snow Swan Dream</color>'s effects.\\n\\nAdditionally, when a party member deals Stellar Glimmer reaction DMG to an opponent, Odette will also join in with a coordinated attack, dealing an instance of <color=#99FFFFFF>AoE Cryo DMG</color>. This effect, which can trigger once every 3.5s, will be considered:\\n·<color=#FFD780FF>Radiance: Stellar-Conduct</color> or when not in a Radiance state: Stellar-Conduct reaction DMG at 66% of ATK.\\n·<color=#FFD780FF>Radiance: Stellar Swirl</color>: Stellar Swirl reaction DMG at 99% of ATK.",
+        "description": "The Elemental Burst <color=#FFD780FF>Presto: Bluebird Finale</color> is enhanced as follows: when Odette obtains <color=#FFD780FF>Snow Swan's Dream</color>, Stellar Glimmer reaction DMG dealt by other nearby party members is increased by 50% of <color=#FFD780FF>Snow Swan Dream</color>'s effects.\\n\\nAdditionally, when a party member deals Stellar Glimmer reaction DMG to an opponent, Odette will also join in with a coordinated attack, dealing an instance of <color=#99FFFFFF>AoE Cryo DMG</color>. This effect, which can trigger once every 3.5s, will be considered:\\n·<color=#FFD780FF>Radiance: Stellar-Conduct</color> or when not in a Radiance state: Stellar-Conduct reaction DMG at 66% of Odette's ATK.\\n·<color=#FFD780FF>Radiance: Stellar Swirl</color>: Stellar Swirl reaction DMG at 99% of Odette's ATK.",
         "params": [
           0.66,
           0.99,
@@ -564181,7 +564183,7 @@
       ]
     },
     "liveComparison": {
-      "currentHash": "adca3cae5c3bf69fe124e2a7fff6a19641835d8d7320c96cb87b30b3591d4e28"
+      "currentHash": "7afbfe30b526357380bc8a0feb841418850d506b58706d3d6064b4cf4906f8d5"
     }
   }
 ]

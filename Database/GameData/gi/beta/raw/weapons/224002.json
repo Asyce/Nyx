@@ -1,6 +1,6 @@
 {
   "name": "Ashamez's Thunder",
-  "desc": "A grenade launcher that can switch between firing off Pyro, Hydro, and Cryo rounds in that order.",
+  "desc": "An assault rifle that can switch Normal ATKs to Chain Lightning mode, allowing you to lock onto and track targets.",
   "weapon_type": "ITEM_TPS_WEAPON",
   "rarity": 4,
   "icon": "UI_EquipIcon_AssaultRifle_Fulmen",

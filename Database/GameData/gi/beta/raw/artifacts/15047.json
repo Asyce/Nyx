@@ -72,14 +72,14 @@
         0
       ],
       "name": "Scarlet Proof",
-      "desc": "Increases the equipping character's CRIT Rate by 16%, and their Stellar Swirl reaction dealt by 40%, for 10s when they trigger a Stellar Swirl reaction or deal Stellar Swirl reaction DMG."
+      "desc": "Increases the equipping character's CRIT Rate by 16%, and their Stellar Swirl reaction dealt by 40%, for 10s after they trigger a Stellar Swirl reaction."
     }
   ],
   "parts": {
     "equip_ring": {
       "icon": "UI_RelicIcon_15047_1",
       "name": "Chalice of Your Blood and Sorrow",
-      "desc": "",
+      "desc": "A bright red wine bottle. May you never learn what's been in it.",
       "story": {
         "285471": {
           "zh": "ART/UI/Readable/CHS/Relic15047_1",
@@ -92,7 +92,7 @@
     "equip_necklace": {
       "icon": "UI_RelicIcon_15047_2",
       "name": "Glory to Your Legacy",
-      "desc": "",
+      "desc": "A bright red quill pen, granted to the youngest blood.",
       "story": {
         "285472": {
           "zh": "ART/UI/Readable/CHS/Relic15047_2",
@@ -105,7 +105,7 @@
     "equip_dress": {
       "icon": "UI_RelicIcon_15047_3",
       "name": "Testament to Your Faith",
-      "desc": "",
+      "desc": "A bright red helmet. Hopefully it has, once upon a time, protected someone.",
       "story": {
         "285473": {
           "zh": "ART/UI/Readable/CHS/Relic15047_3",
@@ -118,7 +118,7 @@
     "equip_bracer": {
       "icon": "UI_RelicIcon_15047_4",
       "name": "Honor to Your Devotion",
-      "desc": "",
+      "desc": "A bright red flower ornament that symbolizes blazing glory.",
       "story": {
         "285474": {
           "zh": "ART/UI/Readable/CHS/Relic15047_4",
@@ -131,7 +131,7 @@
     "equip_shoes": {
       "icon": "UI_RelicIcon_15047_5",
       "name": "Time Gifted Unto You",
-      "desc": "",
+      "desc": "A bright red pocket watch marking the time allotted for a conversation.",
       "story": {
         "285475": {
           "zh": "ART/UI/Readable/CHS/Relic15047_5",

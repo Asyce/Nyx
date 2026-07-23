@@ -49,7 +49,7 @@
     "icon": "UI_MonsterIcon_Slime_Electric_03",
     "en": "Large Electro Slime",
     "desc": "A monster created by the coalescing of Electro dispersed throughout nature.\\nDue to the abundant Electro within its form, it will deliver an electric shock to its surroundings from time to time. At present, some have attempted to harness this energy to aid in production activities. Perhaps some new science will be born from this...?",
-    "ko": "거대 번개 슬라임",
+    "ko": "",
     "zh": "大型雷史莱姆",
     "ja": "大型雷スライム"
   },
@@ -202,7 +202,7 @@
     "icon": "UI_MonsterIcon_Effigy_Grass",
     "en": "Dendro Hypostasis",
     "desc": "Code Name: Zayin. A high-purity Dendro entity.\\nAccording to the deductions of some researchers, Elemental Hypostases have the knowledge required to \"learn,\" which is how they use \"mimesis\" to initiate attacks. However, the ability to incorporate information to create change also opens one to the risk of information contamination. As this creature learns and changes, the purpose of its birth — no matter how academically unquantifiable it may still be — may yet become so distorted as to be rendered irrelevant.",
-    "ko": "무상의 풀",
+    "ko": "",
     "zh": "无相之草",
     "ja": "無相の草"
   },
@@ -220,7 +220,7 @@
     "icon": "UI_MonsterIcon_Necalevia_Normal",
     "en": "Tainted Water-Splitting Phantasm",
     "desc": "Today, with the Oceanids extirpated from Fontaine, strange elemental life forms have appeared in the waters.\\nThe elemental spirits that appeared after the calamity lack the elegance and beauty of the Oceanids, and thus have been called \"tainted.\" Though the toxins dissolved in the water have long since been diluted and cleansed, unless there are still containers of pure water somewhere, Fontaine's waters will never again naturally birth Oceanids.",
-    "ko": "탁한 물의 분쇄 환령",
+    "ko": "",
     "zh": "浊水粉碎幻灵",
     "ja": "濁水粉砕の幻霊"
   },
@@ -321,7 +321,7 @@
     "desc": "An elegant elemental life form that possesses immense elemental affinity. The long years have exposed it to high concentrations of Electro, resulting in its present form.\\nOne of the manifestations with the most violent temperament, it commands steel-shattering bolts of lightning like mere servants, such that any land it passes through shall be marked as if by a marauding, thunderous calamity.\\nIn still-extant prayers of the far north, it was born from the Frost Moon's blessings, symbolizing the pure source and the first radiance. Perhaps this is why it finds the tainting of its pale purity with the seven colors of heavenly light unbearable, thus rejecting all life that draws too close.",
     "ko": "뇌광·서리밤 후예",
     "zh": "辉电·霜夜灵嗣",
-    "ja": "輝電・霜夜の継霊者"
+    "ja": ""
   },
   "20080201": {
     "codex": "ELEMENTAL",
@@ -382,7 +382,7 @@
     "icon": "UI_MonsterIcon_HerraFrost",
     "en": "Frostnight Herra",
     "desc": "Proud beings that roam in the waning glow of the moon, wielding ancient powers long since tamed by the Lord of the Sky.\\nLegends say these graceful, mystical beasts were born in the age when the Frost Moon still turned, and, favored by the divine emissary, they would not be tainted by the light of day. Even now, among the followers of the Frost Moon, they are regarded as sacred beasts lost to this world, retreating along secret lunar paths beyond the reach of mortal eyes. Yet, as they have for countless centuries past, they still wander in the shadows of the moon, treading the boundary between two worlds, guarding the lands coveted by calamity, and watching over those who dwell within them — for this is the very oath they first swore to the apostle of the golden city.",
-    "ko": "서리밤 하늘 영주",
+    "ko": "",
     "zh": "霜夜巡天灵主",
     "ja": "霜夜の空を巡る霊主"
   },
@@ -672,7 +672,7 @@
     "desc": "Abyss creatures that call upon Cryo in battle.\\nThough they dabble with great power and can even create icicles by condensing and freezing water vapor in the atmosphere, their bodies are very vulnerable in and of themselves. Once their protective Ward has been broken, they are at your mercy.",
     "ko": "얼음의 심연 메이지",
     "zh": "冰深渊法师",
-    "ja": "アビスの魔術師·氷"
+    "ja": ""
   },
   "22010301": {
     "codex": "ABYSS",
@@ -1383,7 +1383,7 @@
     "desc": "A clockwork meka designed to conducting underwater attacks. Unlike \"Underwater Patrol Mek\" models, it is expected to take on much larger and fiercer opponents. Of course, the price it pays for such capabilities and its cost of manufacture is that is unable to fully unleash its capabilities against smaller opponents.\\nLong ago, Fontaine was once scarred by the tragic invasion of a massive monster. The revered White Armada that sailed upon the great terrestrial lake was completely destroyed in defense of the nation. The designer hoped that were such a thing to happen again, the clockwork meka would possess enough naval firepower to be the first line of defense, going before the soldiers and generals.",
     "ko": "장치·심해 공격 타입",
     "zh": "机关·深海攻击型",
-    "ja": "マシナリー·深海攻撃型"
+    "ja": ""
   },
   "24068701": {
     "codex": "AUTOMATRON",
@@ -1734,7 +1734,7 @@
     "desc": "A winged Vila capable of flight.\\nRecords show that in the century after the Tsaritsa ascended the throne, the Vila went through many turbulent periods. Among them were fae who launched small-scale rebellions out of dissatisfaction with the Tsaritsa's policies toward the fae nobility.\\nThe rebellions were soon suppressed, but the fact that their leaders were descendants of the old Vila nobility once led to a major split within the Vila people.",
     "ko": "바람 요정 미늘창 기사",
     "zh": "持戟羽骑士",
-    "ja": "戟持ち羽騎士JP0D"
+    "ja": "ハルバードの羽騎士"
   },
   "25130201": {
     "codex": "BEAST",
@@ -1743,7 +1743,7 @@
     "desc": "A winged Vila capable of flight.\\nIt's said that the Vila were among the fae clans that followed the Belyi Tsar from the very beginning of his campaign to unify the frozen lands. Their ability to take brief flight gives them exceptional mobility, allowing them to scout enemy formations and carry out long-distance raids with ease.\\nMost members of the Druzhna, the personal guard founded during the Belyi Tsar reign, were Vila.",
     "ko": "바람 요정 검무 기사",
     "zh": "舞空羽骑士",
-    "ja": "空を舞う羽騎士JP0D"
+    "ja": "大空の羽騎士"
   },
   "25131001": {
     "codex": "BEAST",
@@ -1752,7 +1752,7 @@
     "desc": "A relatively large and powerfully built type of Volkodlak found among the many that roam Snezhnaya.\\nWith the strength of beasts and humanoid bodies, their powerful upper bodies allow them to throw with greater force and precision. Volkodlak may not excel at shaping Prime Ice or wielding elemental power, but among the many fae lineages, few can match their command over physical strength.",
     "ko": "야수 요정 투척수",
     "zh": "兽怪投掷者",
-    "ja": "異怪の獣の投擲者JP0D"
+    "ja": "ヴァルコドラクの投擲手"
   },
   "25131201": {
     "codex": "BEAST",
@@ -1761,7 +1761,7 @@
     "desc": "A relatively large and powerfully built type of Volkodlak found among the many that roam Snezhnaya.\\nWith the strength of beasts and humanoid bodies, they possess a feral instinct for bringing their own power to bear. Should an untrained human face such a Volkodlak with weapons in hand, victory would undoubtedly belong to the latter.",
     "ko": "야수 요정 분쇄자",
     "zh": "兽怪敲打者",
-    "ja": "異怪の獣の打撃者JP0D"
+    "ja": "ヴァルコドラクの打撃手"
   },
   "25131401": {
     "codex": "BEAST",
@@ -1770,7 +1770,7 @@
     "desc": "A relatively small and agile type of Volkodlak found among the many that roam Snezhnaya.\\nWith their swift movements and senses keener than a human's, they can evade many attacks in battle by instinct alone, making them quite troublesome opponents in close-quarters combat.",
     "ko": "야수 요정 약탈자",
     "zh": "兽怪捷掠者",
-    "ja": "異怪の獣の略奪者JP0D"
+    "ja": "ヴァルコドラクの略奪手"
   },
   "25131601": {
     "codex": "BEAST",
@@ -1779,7 +1779,7 @@
     "desc": "A relatively small and agile type of Volkodlak found among the many that roam Snezhnaya.\\nThey possess senses keener than those of humans. Whether in their perception of wind speed or their vision under certain conditions, these traits give them unique advantages, allowing them to achieve far greater accuracy than ordinary people when firing bows, crossbows, or cannons from long range.",
     "ko": "야수 요정 저격수",
     "zh": "兽怪瞄击者",
-    "ja": "異怪の獣の狙撃者JP0D"
+    "ja": "ヴァルコドラクの狙撃手"
   },
   "25132601": {
     "codex": "BEAST",
@@ -1788,7 +1788,7 @@
     "desc": "A Volkodlak of the canine clans that usually appears somewhat lazy.\\nAmong the many Volkodlak clans, the canine clans have always enjoyed a better reputation. Loyal, friendly, and usually mild-mannered. Though they will turn ferocious when those they have sworn to serve, or friends they know well, are placed in danger, striking down anyone they deem enemies.\\nIt is said that during a war long ago, their clan fought His Majesty the Tsar to the last in defense of their own king, and for this, earned His Majesty's favor.",
     "ko": "사자개 호위병",
     "zh": "狮獒护卫",
-    "ja": "護衛の獅子JP0D"
+    "ja": "レオマスティフ・ガード"
   },
   "25132701": {
     "codex": "BEAST",
@@ -1797,7 +1797,7 @@
     "desc": "A Volkodlak that usually conceals its slender body beneath a cloak and moves in secrecy.\\nIt is said that long ago, the artisans of the Golden City, who held the authority of creation, fashioned bodies for fae for many different purposes. This type of Volkodlak was originally created to test the limits of reproductive capability.\\nYet after the calamity that reduced that golden realm to ruins, the long-eared clan survived to the present day thanks to their great numbers.\\nNow, they are masters of their own bodies. Agile enough to move deftly even across snow, they have become a threat that those crossing the snowy plains must handle with care.",
     "ko": "토끼 강습자",
     "zh": "长耳强袭者",
-    "ja": "長耳の強襲者JP0D"
+    "ja": "長耳のストライカー"
   },
   "25132801": {
     "codex": "BEAST",
@@ -1806,7 +1806,7 @@
     "desc": "A cunning Volkodlak that disguises its hand cannon as a tree trunk.\\nSkilled at disguising the weapons and cargo they carry, they are often entrusted with transporting goods or relaying intelligence.\\nThe hand cannon they carry was likely something they made in their spare time. At times, they also use it to fire signal rounds disguised as fireworks.\\nDon't be fooled by their appearance. These fae are far more shrewd and cunning than they seem.",
     "ko": "비버 연락책",
     "zh": "渠道联络人",
-    "ja": "ルート連絡員JP0D"
+    "ja": "ルートコネクター"
   },
   "25133601": {
     "codex": "BEAST",
@@ -1815,7 +1815,7 @@
     "desc": "A Volkodlak that has become extremely powerful after inheriting more of the mighty power in its bloodline.\\nAmong the many different Volkodlaks, those resembling giant elephants or mammoths possess some of the noblest bloodlines. Their clan once produced many formidable war leaders, many of whom even served as close retainers to the King of Beasts.\\nYet the greater an individual fae's power and the longer its life, the harder it becomes for such beings to form a clan. Compared with other Volkodlaks, this type is now far rarer in Snezhnaya.",
     "ko": "매머드 광전사",
     "zh": "牙兽狂徒",
-    "ja": "狂暴牙獣JP0D"
+    "ja": "牙獣の狂信者"
   },
   "25133701": {
     "codex": "BEAST",
@@ -1824,7 +1824,7 @@
     "desc": "A Volkodlak that has become extremely powerful after inheriting more of the mighty power in its bloodline.\\nTheir clan once prospered to the point that they could serve as an independent army under the King of Beasts. Yet after the Belyi Tsar, master of the Pale Star's royal court, unified the frozen lands, the clan's relatively small losses in the war caused them to fall under suspicion. They gradually declined, and by the time the Tsaritsa ascended the throne, they had withdrawn from the center of power in Snezhnaya. Today, most wolf-pack Volkodlak make their homes in the snowy plains and mountain forests.",
     "ko": "늑대 추적자",
     "zh": "嗥狼追猎者",
-    "ja": "オオカミハンターJP0D"
+    "ja": "蒼狼の狩猟者"
   },
   "25135001": {
     "codex": "BEAST",
@@ -1833,7 +1833,7 @@
     "desc": "A Snegovik born of love amid the snow and ice.\\nFemale Snegovik are known as Snegurochka, and most are born as mages capable of freely wielding the power of ice and snow. It's said that when Snegovik were first created, their souls were incomplete, and only by falling in love with humans could they make themselves whole.\\nYet once a Snegovik has attained wholeness, does it still need love? Perhaps not.\\nMaybe this is why so many stories of love between Snegovik and human end in tragedy.",
     "ko": "눈의 비법사",
     "zh": "凝冰秘法师",
-    "ja": "凝氷の秘法師JP0D"
+    "ja": "氷の秘法師"
   },
   "25135101": {
     "codex": "BEAST",
@@ -1842,7 +1842,7 @@
     "desc": "A Snegovik born of love amid the snow and ice.\\nMale Snegovik are natural-born knights, and most are born able to freely forge weapons from ice and snow.\\nLegend tells that during the Belyi Tsar's campaign against the dark tide, a Snegovik serving as his guard unleashed a power that didn't belong to his kind, transforming into a towering giant.\\nThough his final fate remains unknown, one who violated such a taboo surely could not have met with a happy end.",
     "ko": "눈의 수호기사",
     "zh": "凝冰戍卫",
-    "ja": "凝氷の守衛JP0D"
+    "ja": "氷の番人"
   },
   "25137001": {
     "codex": "BEAST",
@@ -1851,7 +1851,7 @@
     "desc": "A Leshy that grows in forests and wilds.\\nWith only fragmentary sentience and no ability to speak, Leshies may appear to be the result of the Golden Realm's early experiments. Yet according to records, the truth is the opposite. Only after its artisans had almost fully mastered the authority over life did they create this race of fae.\\nPerhaps there is some true purpose within this that neither the fae nor humans of the present can fully understand.",
     "ko": "고목 요정",
     "zh": "苍遒的木灵长",
-    "ja": "蒼き木霊の長JP0D"
+    "ja": "宿老の樹霊"
   },
   "25138001": {
     "codex": "BEAST",
@@ -1860,7 +1860,7 @@
     "desc": "A Leshy that grows in forests and wilds.\\nAmong the many fae of Snezhnaya, Leshies are a very unusual kind, rarely appearing in cities. They may well be the longest-lived among all fae, and few members of other long-lived races have ever witnessed a Leshy's life from beginning to end. Of course, most people would likely struggle even to distinguish one Leshy from another.",
     "ko": "묘목 요정",
     "zh": "幼嫩的分节树",
-    "ja": "幼き分節樹JP0D"
+    "ja": "若枝の木霊"
   },
   "25140101": {
     "codex": "BEAST",
@@ -1869,7 +1869,7 @@
     "desc": "A byproduct created by the alchemist Koshchei during his creation of the individual known as the Firebird.\\nPerhaps this was the gloomy alchemist's habit: whenever one experimental subject from a batch succeeded, all the others would be abandoned or disposed of as he pleased.\\nThis derivative creation should have fused with some form of power and reached completion. Now, however, it can only wander endlessly through the mountain gorges as an incomplete, mindless beast.",
     "ko": "불멸의 부산물",
     "zh": "不灭衍生造物",
-    "ja": "不滅の派生創造物JP0D"
+    "ja": "不滅の副産物"
   },
   "25210101": {
     "codex": "HUMAN",
@@ -1912,7 +1912,7 @@
     "icon": "UI_MonsterIcon_Eremite_MuscleMan_Simitar",
     "en": "Eremite Sword-Dancer",
     "desc": "A member of a loosely-organized mercenary corps from the golden desert sands. Will work for anyone as long as the pay is good.\\nThis desert warrior wields a large curved blade in battle. The skills such fighters boast of have been passed down since the days when their now-lost civilization was still extant, and are not only techniques to be used in battle, but also serve well as a performing art popular in various lands.\\nIt is said that this sword art was once practiced from horseback.",
-    "ko": "도금 여단·춤추는 칼",
+    "ko": "",
     "zh": "镀金旅团·刀舞者",
     "ja": "エルマイト旅団·ソードダンサー"
   },
@@ -2686,7 +2686,7 @@
     "icon": "UI_MonsterIcon_SeaHorse_Larva_03",
     "en": "Bubbly Seahorse",
     "desc": "An aquatic creature that hunts by firing watery projectiles.\\nAmong the (admittedly somewhat sparse) ranks of Fontemer Aberrant enthusiasts, Bubbly Seahorses have many fans. As with clockwork meka enthusiasts, a small minority of Fontemer Aberrant enthusiasts can be very standoffish when it comes to people whose opinions differ from their own.",
-    "ko": "방울 해마",
+    "ko": "",
     "zh": "泡泡海马",
     "ja": "アワアワタツノコ"
   },
@@ -2866,7 +2866,7 @@
     "icon": "UI_MonsterIcon_Natsaurus_Flamingo_Normal",
     "en": "Qucusaurus",
     "desc": "A Saurian with large, supple wings that can glide through the air for long periods.\\nIt is said that the ancestors of the Qucusaurs were the closest in form to the mighty winged dragons, and that they could soar through the sky like clouds. According to the storytellers, when the greatest of such dragons spread its wings, the entire sky would be blotted out. Of course, the Qucusaurs we see today no longer possess such forms, but the claws they hide within their downy feather coats remain as sharp as ever.",
-    "ko": "깃룡",
+    "ko": "",
     "zh": "绒翼龙",
     "ja": "クク竜"
   },
@@ -3066,7 +3066,7 @@
     "desc": "A product of bio-alchemy that was once widespread across the frozen lands, an aberrant chimeric monster.\\nIf a four-legged beast were given a carapace and charging horn like those of an Onikabuto, it might well become a shock force capable of breaking through enemy formations.\\nIn theory, man-made monsters designed around a single function rarely survive in the wild. Once they lose the place or purpose for which they were made, most perish for having defied the laws of nature. Clearly, however, the Armored Beast is not one of them.\\nToday, on the frozen lands of Snezhnaya, Armored Beasts can often be seen hunting in packs.",
     "ko": "갑각 키메라",
     "zh": "嵌合鍪甲兽",
-    "ja": "キメラカメJP0D"
+    "ja": "合成獣・アーマービースト"
   },
   "26310201": {
     "codex": "BEAST",
@@ -3075,7 +3075,7 @@
     "desc": "A product of bio-alchemy that was once widespread across the frozen lands, an aberrant chimeric monster.\\nIf a monster that burrows and moves through earth and snow were granted vision that could see all within the shadows, could it become an even stronger predator?\\nThe experiment proved astonishingly successful. These Burrowbeast move beneath the surface at night, digging traps in the dark or hiding in the shadows to hunt.\\nAccording to a report in Pioneers, a worker living in Svetloledovka once saw a giant Burrowbeast nearly as tall as two people... though that is probably nothing more than a wild rumor.",
     "ko": "땅굴 키메라",
     "zh": "嵌合梭地兽",
-    "ja": "キメラモグラJP0D"
+    "ja": "合成獣・バロウビースト"
   },
   "26310301": {
     "codex": "BEAST",
@@ -3084,7 +3084,7 @@
     "desc": "A product of bio-alchemy that was once widespread across the frozen lands, an aberrant chimeric monster.\\nA short-legged elephant with wings could likely migrate without being restricted by terrain, and would also be able to reach fruit growing in higher places.\\nFor that purpose alone, its creator brought such a beast into being. Later, during the war against the dark tide, Chimeric Winged Elephants worked alongside the Vila in intelligence and communications, ensuring that the Belyi Tsar's commands could pass smoothly and swiftly as his army advanced.",
     "ko": "코끼리 키메라",
     "zh": "嵌合翼象兽",
-    "ja": "キメラエレファントJP0D"
+    "ja": "合成獣・ウィングエレファント"
   },
   "26310401": {
     "codex": "BEAST",
@@ -3093,7 +3093,7 @@
     "desc": "A product of bio-alchemy, a man-made monster with an exceptionally unusual formation.\\nA man-made monster not formed according to its creator's design, but through the spontaneous assembly of life segments. As a result, it came to possess certain wondrous traits, including the ability to freely wield elemental power.\\nEven if life is broken down until almost nothing remains but segments, could some will or power still guide them to grow according to a mysterious plan?\\nPerhaps no one knows the answer to that by now.",
     "ko": "뿔곰 키메라",
     "zh": "嵌合角熊",
-    "ja": "キメラベアJP0D"
+    "ja": "合成獣・ホーンベア"
   },
   "26310501": {
     "codex": "BEAST",

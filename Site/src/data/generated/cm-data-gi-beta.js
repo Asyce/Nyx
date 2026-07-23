@@ -7,7 +7,7 @@
 (function(){
   window.CM_CFG_BETA = window.CM_CFG_BETA || {};
   window.CM_CFG_BETA["gi"] = {
-  "version": "6.7.53",
+  "version": "6.7.54",
   "liveVersion": "6.7",
   "newCount": 2,
   "changedCount": 14,
@@ -41,7 +41,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "6.7.53",
+        "version": "6.7.54",
         "sections": [
           {
             "title": "Talents",
@@ -554,7 +554,7 @@
               {
                 "name": "Light of Rationalisme",
                 "type": "Passive Talent",
-                "desc": "Sandrone will enter the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state for 8s when she is inside a Polestar Field or when a nearby party member triggers a Stellar Swirl reaction respectively.\\nWhen a party member triggers a Superconduct or Cryo Swirl reaction, it becomes a Stellar-Conduct or Stellar Swirl reaction instead, and the Base DMG of said reaction is also increased by 0.7% for every 100 points of Sandrone's ATK. A maximum increase of 14% can be obtained in this way."
+                "desc": "Sandrone will enter the Radiance: Stellar-Conduct state when she is inside a Polestar Field, or the Radiance: Stellar Swirl state for 8s after a nearby party member triggers a Stellar Swirl reaction.\\nWhen a party member triggers a Superconduct or Cryo Swirl reaction, it becomes a Stellar-Conduct or Stellar Swirl reaction instead, and the Base DMG of said reaction is also increased by 0.7% for every 100 points of Sandrone's ATK. A maximum increase of 14% can be obtained in this way."
               },
               {
                 "name": "A Caucus Prelude and a Long Tale",
@@ -2746,7 +2746,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "6.7.53",
+        "version": "6.7.54",
         "sections": [
           {
             "title": "Talents",
@@ -5351,7 +5351,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "6.7.53",
+        "version": "6.7.54",
         "sections": [
           {
             "title": "Talents",
@@ -8179,7 +8179,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "6.7.53",
+        "version": "6.7.54",
         "sections": [
           {
             "title": "Talents",
@@ -10346,7 +10346,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "6.7.53",
+        "version": "6.7.54",
         "sections": [
           {
             "title": "Talents",
@@ -10749,7 +10749,7 @@
               {
                 "name": "Field Medic's Vision",
                 "type": "Passive Talent",
-                "desc": "When Ifa is in the Nightsoul's Blessing state, every 1 Nightsoul point out of the total in his entire party will grant him 1 Rescue Essentials point. Rescue Essentials will increase the Swirl, Stellar Swirl, Electro-Charged, and Lunar-Charged reaction DMG dealt by nearby party members."
+                "desc": "When Ifa is in the Nightsoul's Blessing state, every 1 Nightsoul point out of the current total in his entire party will grant him 1 Rescue Essentials point. Rescue Essentials will increase the Swirl, Stellar Swirl, Electro-Charged, and Lunar-Charged reaction DMG dealt by nearby party members."
               },
               {
                 "name": "Mutual Aid Agreement",
@@ -12960,7 +12960,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "6.7.53",
+        "version": "6.7.54",
         "sections": [
           {
             "title": "Talents",
@@ -13468,7 +13468,7 @@
               {
                 "name": "In Mist-Like Waters",
                 "type": "Constellation 1",
-                "desc": "When Yumemizuki Mizuki is in the Dreamdrifter state, she will continuously apply the \"Twenty-Three Nights' Awaiting\" effect to nearby opponents for 3s every 3.5s. When an opponent has a Swirl or Stellar Swirl reaction triggered against them by Anemo DMG while the aforementioned effect is active, the effect will be canceled, and this Swirl or Stellar Swirl instance deals DMG against this opponent increased by 1,100% and 550% of Mizuki's Elemental Mastery respectively."
+                "desc": "When Yumemizuki Mizuki is in the Dreamdrifter state, she will continuously apply the \"Twenty-Three Nights' Awaiting\" effect to nearby opponents for 3s every 3.5s. When an opponent has a Swirl or Stellar Swirl reaction triggered against them by Anemo DMG while the aforementioned effect is active, the effect will be canceled, and this Swirl or Stellar Swirl instance deals DMG against this opponent increased by 1,100% and 550% of Mizuki's Elemental Mastery, respectively."
               },
               {
                 "name": "Your Echo I Meet in Dreams",
@@ -13493,7 +13493,7 @@
               {
                 "name": "The Heart Lingers Long",
                 "type": "Constellation 6",
-                "desc": "While Yumemizuki Mizuki is in the Dreamdrifter state, Swirl reaction DMG dealt by nearby party members can score CRIT Hits, with CRIT Rate fixed at 30%, and CRIT DMG fixed at 100%. Any Stellar Swirl reaction DMG dealt by these characters will also have its CRIT Rate and CRIT DMG increased by 10% and 20% respectively."
+                "desc": "While Yumemizuki Mizuki is in the Dreamdrifter state, Swirl reaction DMG dealt by nearby party members can score CRIT Hits, with CRIT Rate fixed at 30%, and CRIT DMG fixed at 100%. Any Stellar Swirl reaction DMG dealt by these characters will also have its CRIT Rate and CRIT DMG increased by 10% and 20%, respectively."
               }
             ]
           }
@@ -15524,7 +15524,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "6.7.53",
+        "version": "6.7.54",
         "sections": [
           {
             "title": "Talents",
@@ -17543,7 +17543,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "6.7.53",
+        "version": "6.7.54",
         "sections": [
           {
             "title": "Talents",
@@ -20218,7 +20218,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "6.7.53",
+        "version": "6.7.54",
         "sections": [
           {
             "title": "Talents",
@@ -22617,7 +22617,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "6.7.53",
+        "version": "6.7.54",
         "sections": [
           {
             "title": "Talents",
@@ -25314,7 +25314,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "6.7.53",
+        "version": "6.7.54",
         "sections": [
           {
             "title": "Talents",
@@ -25832,7 +25832,7 @@
               {
                 "name": "Choice Treasures",
                 "type": "Passive Talent",
-                "desc": "Within 20s after using the Elemental Skill Icy Paws, Diona will also fire off three Icy Paws when party members trigger Stellar-Conduct, Superconduct, Cryo Swirl, or Stellar Swirl reactions. Icy Paws fired this way cannot generate Elemental Particles, nor will they generate a shield upon hitting opponents. This effect can occur once every 3.5s.\\nAdditionally, Diona will also enter the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state for 8s when she is inside a Polestar Field or when a nearby party member triggers a Stellar Swirl reaction respectively."
+                "desc": "Within 20s after using the Elemental Skill Icy Paws, Diona will also fire off three Icy Paws when party members trigger Stellar-Conduct, Superconduct, Cryo Swirl, or Stellar Swirl reactions. Icy Paws fired this way cannot generate Elemental Particles, nor will they generate a shield upon hitting opponents. This effect can occur once every 3.5s.\\nAdditionally, Diona will also enter the Radiance: Stellar-Conduct state when she is inside a Polestar Field, or the Radiance: Stellar Swirl state for 8s after a nearby party member triggers a Stellar Swirl reaction."
               }
             ]
           },
@@ -27772,7 +27772,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "6.7.53",
+        "version": "6.7.54",
         "sections": [
           {
             "title": "Talents",
@@ -28370,7 +28370,7 @@
               {
                 "name": "Seven Sacred Treasures",
                 "type": "Passive Talent",
-                "desc": "The cooldown of the Elemental Skill Adeptus Art: Herald of Frost is reduced to 15s.\\nRadiance: Stellar-Conduct: While the Herald of Frost is on the field, Superconduct and Stellar-Conduct reaction DMG dealt by her own party members is increased by 50%.\\nRadiance: Stellar Swirl: While the Herald of Frost is on the field, Cryo Swirl and Stellar Swirl reaction DMG dealt by her own party members is increased by 50%.\\nAdditionally, Qiqi will also enter the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state for 8s when she is inside a Polestar Field or when a nearby party character triggers a Stellar Swirl reaction respectively."
+                "desc": "The cooldown of the Elemental Skill Adeptus Art: Herald of Frost is reduced to 15s.\\nRadiance: Stellar-Conduct: While the Herald of Frost is on the field, Superconduct and Stellar-Conduct reaction DMG dealt by her own party members is increased by 50%.\\nRadiance: Stellar Swirl: While the Herald of Frost is on the field, Cryo Swirl and Stellar Swirl reaction DMG dealt by her own party members is increased by 50%.\\nAdditionally, Qiqi will also enter the Radiance: Stellar-Conduct state when she is inside a Polestar Field, or the Radiance: Stellar Swirl state for 8s after a nearby party character triggers a Stellar Swirl reaction."
               }
             ]
           },
@@ -30562,7 +30562,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "6.7.53",
+        "version": "6.7.54",
         "sections": [
           {
             "title": "Talents",
@@ -33274,7 +33274,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "6.7.53",
+        "version": "6.7.54",
         "sections": [
           {
             "title": "Talents",
@@ -35471,7 +35471,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "6.7.53",
+        "version": "6.7.54",
         "sections": [
           {
             "title": "Talents",
@@ -35919,7 +35919,7 @@
               {
                 "name": "Presto: Bluebird Finale",
                 "type": "Talent",
-                "desc": "With quick, lively dance steps, Odette deals multiple instances of AoE Cryo DMG to the opponent, and summons her Solo Dance Double. She also gains Snow Swan's Dream, which increases the Stellar Glimmer reaction DMG Odette deals.\\nAdditionally, for 6s after unleashing the Elemental Burst Presto: Bluebird Finale, Odette's Elemental Skill Adagio: Phantom Night Dancers will be replaced with the special Elemental Skill Adagio: Coda at Dawn's Tolling instead.\\n\\nIf there is a Solo Dance Double summoned by Odette on the field, it will be summoned to her side with its duration refreshed.",
+                "desc": "With quick, lively dance steps, Odette deals multiple instances of AoE Cryo DMG, and summons her Solo Dance Double. She also gains Snow Swan's Dream, which increases the Stellar Glimmer reaction DMG Odette deals.\\nAdditionally, for 6s after unleashing the Elemental Burst Presto: Bluebird Finale, Odette's Elemental Skill Adagio: Phantom Night Dancers will be replaced with the special Elemental Skill Adagio: Coda at Dawn's Tolling instead.\\n\\nIf there is a Solo Dance Double summoned by Odette on the field, it will be summoned to her side with its duration refreshed.",
                 "icon": "../../Database/GameData/gi/assets/skills/Skill_E_Odette_01.webp",
                 "scaling": [
                   {
@@ -36102,9 +36102,9 @@
                 "desc": "For every 100 ATK Odette has over 1,000, her Stellar Glimmer DMG is additionally increased by 1.5% of the original DMG. She can deal up to 30% more additional DMG in this way."
               },
               {
-                "name": "Dance of Aurore",
+                "name": "Stellar Jubilee: Dance of Aurore",
                 "type": "Passive Talent",
-                "desc": "Odette will enter the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state for 8s when she is inside a Polestar Field or when a nearby party member triggers a Stellar Swirl reaction respectively.\\nWhen a party member triggers a Superconduct or Cryo Swirl reaction, it becomes a Stellar-Conduct or Stellar Swirl reaction instead, and the Base DMG of said reaction is also increased by 0.7% for every 100 points of Odette's ATK. A maximum increase of 14% can be obtained in this way."
+                "desc": "Odette will enter the Radiance: Stellar-Conduct state when she is inside a Polestar Field, or the Radiance: Stellar Swirl state for 8s after a nearby party member triggers a Stellar Swirl reaction.\\nWhen a party member triggers a Superconduct or Cryo Swirl reaction, it becomes a Stellar-Conduct or Stellar Swirl reaction instead, and the Base DMG of said reaction is also increased by 0.7% for every 100 points of Odette's ATK. A maximum increase of 14% can be obtained in this way."
               },
               {
                 "name": "Echo of Winter Daydreams",
@@ -36119,7 +36119,7 @@
               {
                 "name": "\"On This Danceless Morn, She Gazes at Her Reflection\"",
                 "type": "Constellation 1",
-                "desc": "After unleashing the special Elemental Skill Adagio: Coda at Dawn's Tolling, at the dance duet's end Odette will deal an additional instance of Cryo AoE DMG to nearby opponents that is considered:\\nRadiance: Stellar-Conduct or when not in a Radiance state: Stellar-Conduct reaction DMG at 300% of ATK;\\nRadiance: Stellar Swirl: Stellar Swirl reaction DMG at 450% of ATK.\\n\\nAdditionally, the Passive Talent \"Spring Rite of the Chosen One\" is also enhanced: now, when the Solo Dance Double is summoned, Odette also gains 2 stacks of Marvelous Splendor. When Odette is off-field, the rate at which Marvelous Splendor is removed is sped up to 2 stacks per second."
+                "desc": "After unleashing the special Elemental Skill Adagio: Coda at Dawn's Tolling, at the dance duet's end Odette will deal an additional instance of Cryo AoE DMG to nearby opponents that is considered:\\nRadiance: Stellar-Conduct or when not in a Radiance state: Stellar-Conduct reaction DMG at 300% of Odette's ATK;\\nRadiance: Stellar Swirl: Stellar Swirl reaction DMG at 450% of Odette's ATK.\\n\\nAdditionally, the Passive Talent \"Spring Rite of the Chosen One\" is also enhanced: now, when the Solo Dance Double is summoned, Odette also gains 2 stacks of Marvelous Splendor. When Odette is off-field, the rate at which Marvelous Splendor is removed is sped up to 2 stacks per second."
               },
               {
                 "name": "\"I Must See the Snow Swan's Unseen Dream for Myself, She Thought\"",
@@ -36134,7 +36134,7 @@
               {
                 "name": "\"Up, Up the Long, Delirious, Burning Blue\"",
                 "type": "Constellation 4",
-                "desc": "The Elemental Burst Presto: Bluebird Finale is enhanced as follows: when Odette obtains Snow Swan's Dream, Stellar Glimmer reaction DMG dealt by other nearby party members is increased by 50% of Snow Swan Dream's effects.\\n\\nAdditionally, when a party member deals Stellar Glimmer reaction DMG to an opponent, Odette will also join in with a coordinated attack, dealing an instance of AoE Cryo DMG. This effect, which can trigger once every 3.5s, will be considered:\\n\u00b7Radiance: Stellar-Conduct or when not in a Radiance state: Stellar-Conduct reaction DMG at 66% of ATK.\\n\u00b7Radiance: Stellar Swirl: Stellar Swirl reaction DMG at 99% of ATK."
+                "desc": "The Elemental Burst Presto: Bluebird Finale is enhanced as follows: when Odette obtains Snow Swan's Dream, Stellar Glimmer reaction DMG dealt by other nearby party members is increased by 50% of Snow Swan Dream's effects.\\n\\nAdditionally, when a party member deals Stellar Glimmer reaction DMG to an opponent, Odette will also join in with a coordinated attack, dealing an instance of AoE Cryo DMG. This effect, which can trigger once every 3.5s, will be considered:\\n\u00b7Radiance: Stellar-Conduct or when not in a Radiance state: Stellar-Conduct reaction DMG at 66% of Odette's ATK.\\n\u00b7Radiance: Stellar Swirl: Stellar Swirl reaction DMG at 99% of Odette's ATK."
               },
               {
                 "name": "\"Oh! I Have Slipped the Surly Bonds of Earth\"",
@@ -37235,7 +37235,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "6.7.53",
+        "version": "6.7.54",
         "sections": [
           {
             "title": "Talents",
@@ -37243,7 +37243,7 @@
               {
                 "name": "Skirmishing Spear",
                 "type": "Talent",
-                "desc": "Normal Attack\\nPerforms up to 4 consecutive spear strikes, and applies the Hunter's Mark to the opponent hit by the final strike.\\n\\nCharged Attack\\nConsumes a certain amount of Stamina to deal damage to opponents in his path.\\n\\nPlunging Attack\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+                "desc": "Normal Attack\\nPerforms up to 4 consecutive spear strikes and applies the Hunter's Mark to the opponent hit by the final strike.\\n\\nCharged Attack\\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents in his path.\\n\\nPlunging Attack\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
                 "icon": "../../Database/GameData/gi/assets/skills/Skill_A_03.webp",
                 "scaling": [
                   {
@@ -37433,7 +37433,7 @@
               {
                 "name": "Thunderbolt Strike",
                 "type": "Talent",
-                "desc": "Follows his hunter's instincts. Tap or hold to produce different effects as well as apply to the opponent the Hunter's Mark effect.\\n\\nTapping\\nFires at opponents in front of him, dealing AoE Electro DMG.\\n\\nHolding\\nGoes into aiming mode, then targets opponents within a certain area in front of him. Alyosha's Interruption RES is enhanced when in this mode.\\nAt the end of the button hold, he deals Electro DMG to the targeted opponents.\\n\\nThe reckless hunter once reached for the spear's edge, and it was only after they survived a lesson paid in blood that they came to understand the harsh truths of survival on the frozen plains.",
+                "desc": "Follows his hunter's instincts. Tap or hold to produce different effects as well as apply the Hunter's Mark effect to the hit opponents.\\n\\nTapping\\nFires at opponents in front of him, dealing AoE Electro DMG.\\n\\nHolding\\nGoes into aiming mode, then targets opponents within a certain area in front of him. Alyosha's Interruption RES is enhanced when in this mode.\\nAt the end of the button hold, he deals Electro DMG to the targeted opponents.\\n\\nThe reckless hunter once reached for the spear's edge, and it was only after they survived a lesson paid in blood that they came to understand the harsh truths of survival on the frozen plains.",
                 "icon": "../../Database/GameData/gi/assets/skills/Skill_S_Alyosha_01.webp",
                 "scaling": [
                   {
@@ -37583,7 +37583,7 @@
               {
                 "name": "Hunter's Advance",
                 "type": "Talent",
-                "desc": "Summons his trusted companion Tugarin to fight alongside him on the field. This also turns an area in front of him into a Fulgurite Hunting Field for a short time.\\n\\nFulgurite Hunting Field\\n\u00b7 Continuously taunts nearby opponents to incite them to attack.\\n\u00b7 Every 2s, deals an instance of AoE Electro DMG to any opponent that has wandered into the field.\\n\\nTugarin\\n\u00b7 If there are any opponents nearby, every 2s Tugarin will quickly move close to an opponent and maul them, dealing Electro DMG.\\n\u00b7 If an opponent affected by the Hunter's Mark effect is hit, the Hunter's Mark will also be activated.\\n\u00b7 Where there are multiple opponents, Tugarin will attack those affected by the Hunter's Mark effect first.\\n\\nWait. Keep waiting until the impatience fades. That's when the red-bellied plover shall sweep across the birch grove and present itself before one's arrow.",
+                "desc": "Summons his trusted companion Tugarin to fight alongside him on the field. This also turns an area in front of him into a Fulgurite Hunting Field for a short time.\\n\\nFulgurite Hunting Field\\n\u00b7 Continuously taunts nearby opponents to incite them to attack.\\n\u00b7 Every 2s, deals an instance of AoE Electro DMG to any opponent that has wandered into the field.\\n\\nTugarin\\n\u00b7 If there are any opponents nearby, Tugarin will quickly move close to an opponent and maul them every 2s, dealing Electro DMG.\\n\u00b7 If an opponent affected by the Hunter's Mark effect is hit, the Hunter's Mark will also be activated.\\n\u00b7 Where there are multiple opponents, Tugarin will attack those affected by the Hunter's Mark effect first.\\n\\nWait. Keep waiting until the impatience fades. That's when the red-bellied plover shall sweep across the birch grove and present itself before one's arrow.",
                 "icon": "../../Database/GameData/gi/assets/skills/Skill_E_Alyosha_01.webp",
                 "scaling": [
                   {
@@ -37718,7 +37718,7 @@
               {
                 "name": "Awakened by the Baying Hounds",
                 "type": "Passive Talent",
-                "desc": "When Tugarin attacks, it will also restore HP to nearby party members at 120% of Alyosha's ATK."
+                "desc": "When Tugarin attacks, it will also restore HP to nearby active characters at 120% of Alyosha's ATK."
               },
               {
                 "name": "Suffer the Winter Wheat Will",
@@ -37728,7 +37728,7 @@
               {
                 "name": "Into the Fray",
                 "type": "Passive Talent",
-                "desc": "Alyosha will enter the Radiance: Stellar-Conduct state when inside a Polestar Field.\\nRadiance: Stellar-Conduct: The Hunter's Precision effect obtained when the Hunter's Mark is activated will also increase Stellar-Conduct DMG dealt by all nearby party members by 20%."
+                "desc": "Alyosha will enter the Radiance: Stellar-Conduct state when inside a Polestar Field.\\nRadiance: Stellar-Conduct: The Hunter's Precision effect obtained when the Hunter's Mark is activated will also increase Stellar-Conduct DMG dealt by all currently active party members by 20%."
               },
               {
                 "name": "Treetop Watch",
@@ -37748,7 +37748,7 @@
               {
                 "name": "Howl From Afar",
                 "type": "Constellation 2",
-                "desc": "The duration of the Elemental Burst Hunter's Advance is extended by 6s.\\nAdditionally, each time Tugarin attacks the opponent, it will first apply the Hunter's Mark. This effect does not activate existing Hunter's Marks."
+                "desc": "The duration of the Elemental Burst Hunter's Advance is extended by 6s.\\nAdditionally, each time Tugarin attacks the opponent, he will also apply the Hunter's Mark to a target. This effect does not activate existing Hunter's Marks."
               },
               {
                 "name": "Friendly Call",
@@ -37758,7 +37758,7 @@
               {
                 "name": "Harvest the Spoils",
                 "type": "Constellation 4",
-                "desc": "When Tugarin attacks, it will also restore 60% of Alyosha's ATK as HP to the nearby party member with the lowest HP by percentage."
+                "desc": "When Tugarin attacks, he will also restore 60% of Alyosha's ATK as HP to the nearby party member with the lowest HP by percentage."
               },
               {
                 "name": "When the Nightbird Falls Silent",
@@ -37768,7 +37768,7 @@
               {
                 "name": "Standard Reclaimed",
                 "type": "Constellation 6",
-                "desc": "The Hunter's Precision effect obtained from activating a Hunter's Mark can now stack, max 2 stacks. When the stack count reaches 2, characters affected by Hunter's Precision will also have their Elemental Mastery increased by 100."
+                "desc": "The Hunter's Precision effect obtained from activating a Hunter's Mark can now stack, max 2 stacks. When the stack count reaches 2, currently active party members will also have their Elemental Mastery increased by 100."
               }
             ]
           }
@@ -37975,7 +37975,7 @@
           },
           {
             "id": "112151",
-            "name": "Genesis Chimeric Nexus",
+            "name": "Prime Chimeric Nexus",
             "qty": 36,
             "rar": 3,
             "kind": "mob",
@@ -38001,7 +38001,7 @@
           },
           {
             "id": "112151",
-            "name": "Genesis Chimeric Nexus",
+            "name": "Prime Chimeric Nexus",
             "qty": 93,
             "rar": 3,
             "kind": "mob",
@@ -38166,7 +38166,7 @@
               "items": [
                 {
                   "id": "112151",
-                  "name": "Genesis Chimeric Nexus",
+                  "name": "Prime Chimeric Nexus",
                   "qty": 4,
                   "rar": 3,
                   "kind": "mob",
@@ -38202,7 +38202,7 @@
               "items": [
                 {
                   "id": "112151",
-                  "name": "Genesis Chimeric Nexus",
+                  "name": "Prime Chimeric Nexus",
                   "qty": 6,
                   "rar": 3,
                   "kind": "mob",
@@ -38238,7 +38238,7 @@
               "items": [
                 {
                   "id": "112151",
-                  "name": "Genesis Chimeric Nexus",
+                  "name": "Prime Chimeric Nexus",
                   "qty": 9,
                   "rar": 3,
                   "kind": "mob",
@@ -38274,7 +38274,7 @@
               "items": [
                 {
                   "id": "112151",
-                  "name": "Genesis Chimeric Nexus",
+                  "name": "Prime Chimeric Nexus",
                   "qty": 12,
                   "rar": 3,
                   "kind": "mob",
@@ -38425,7 +38425,7 @@
               "items": [
                 {
                   "id": "112151",
-                  "name": "Genesis Chimeric Nexus",
+                  "name": "Prime Chimeric Nexus",
                   "qty": 4,
                   "rar": 3,
                   "kind": "mob",
@@ -38461,7 +38461,7 @@
               "items": [
                 {
                   "id": "112151",
-                  "name": "Genesis Chimeric Nexus",
+                  "name": "Prime Chimeric Nexus",
                   "qty": 6,
                   "rar": 3,
                   "kind": "mob",
@@ -38497,7 +38497,7 @@
               "items": [
                 {
                   "id": "112151",
-                  "name": "Genesis Chimeric Nexus",
+                  "name": "Prime Chimeric Nexus",
                   "qty": 9,
                   "rar": 3,
                   "kind": "mob",
@@ -38533,7 +38533,7 @@
               "items": [
                 {
                   "id": "112151",
-                  "name": "Genesis Chimeric Nexus",
+                  "name": "Prime Chimeric Nexus",
                   "qty": 12,
                   "rar": 3,
                   "kind": "mob",
@@ -38684,7 +38684,7 @@
               "items": [
                 {
                   "id": "112151",
-                  "name": "Genesis Chimeric Nexus",
+                  "name": "Prime Chimeric Nexus",
                   "qty": 4,
                   "rar": 3,
                   "kind": "mob",
@@ -38720,7 +38720,7 @@
               "items": [
                 {
                   "id": "112151",
-                  "name": "Genesis Chimeric Nexus",
+                  "name": "Prime Chimeric Nexus",
                   "qty": 6,
                   "rar": 3,
                   "kind": "mob",
@@ -38756,7 +38756,7 @@
               "items": [
                 {
                   "id": "112151",
-                  "name": "Genesis Chimeric Nexus",
+                  "name": "Prime Chimeric Nexus",
                   "qty": 9,
                   "rar": 3,
                   "kind": "mob",
@@ -38792,7 +38792,7 @@
               "items": [
                 {
                   "id": "112151",
-                  "name": "Genesis Chimeric Nexus",
+                  "name": "Prime Chimeric Nexus",
                   "qty": 12,
                   "rar": 3,
                   "kind": "mob",
@@ -38961,7 +38961,7 @@
         },
         {
           "id": "112151",
-          "name": "Genesis Chimeric Nexus",
+          "name": "Prime Chimeric Nexus",
           "qty": 27,
           "rar": 3,
           "kind": "mob",
@@ -39053,7 +39053,7 @@
         },
         {
           "id": "112151",
-          "name": "Genesis Chimeric Nexus",
+          "name": "Prime Chimeric Nexus",
           "qty": 18,
           "rar": 3,
           "kind": "mob",
@@ -39120,7 +39120,7 @@
     },
     {
       "id": "15435",
-      "name": "Primordial Jade Vista",
+      "name": "Jade Vista",
       "rarity": 4,
       "weaponType": "Bow",
       "type": "Bow",
@@ -39709,7 +39709,7 @@
         },
         {
           "id": "112151",
-          "name": "Genesis Chimeric Nexus",
+          "name": "Prime Chimeric Nexus",
           "qty": 18,
           "rar": 3,
           "kind": "mob",
@@ -39776,7 +39776,7 @@
     },
     {
       "id": "12435",
-      "name": "Forged by the Golden Law",
+      "name": "Forged by the Golden Melody",
       "rarity": 4,
       "weaponType": "Claymore",
       "type": "Claymore",
@@ -39987,17 +39987,6 @@
       "cost": 150000
     },
     {
-      "id": "224008",
-      "name": "(test) Shadow Realm Grenade",
-      "rarity": 4,
-      "weaponType": "ITEM_TPS_WEAPON",
-      "type": "ITEM_TPS_WEAPON",
-      "icon": null,
-      "art": null,
-      "items": [],
-      "cost": 0
-    },
-    {
       "id": "224002",
       "name": "Ashamez's Thunder",
       "rarity": 4,
@@ -40075,6 +40064,17 @@
       "cost": 0
     },
     {
+      "id": "224008",
+      "name": "Specialized Frag Crystals within the Shadow Realm",
+      "rarity": 4,
+      "weaponType": "ITEM_TPS_WEAPON",
+      "type": "ITEM_TPS_WEAPON",
+      "icon": null,
+      "art": null,
+      "items": [],
+      "cost": 0
+    },
+    {
       "id": "13435",
       "name": "Frostbreath",
       "rarity": 4,
@@ -40101,7 +40101,7 @@
         },
         {
           "id": "112151",
-          "name": "Genesis Chimeric Nexus",
+          "name": "Prime Chimeric Nexus",
           "qty": 18,
           "rar": 3,
           "kind": "mob",

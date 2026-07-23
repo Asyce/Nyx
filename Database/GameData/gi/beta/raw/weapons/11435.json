@@ -1,6 +1,6 @@
 {
   "name": "Heretic's Molten Blade",
-  "desc": "",
+  "desc": "He drew this weapon once more when he first met that God of Flame, revered by all, but it had been too long since he had last used it.",
   "weapon_type": "WEAPON_SWORD_ONE_HAND",
   "weapon_prop": [
     {
@@ -343,7 +343,7 @@
   "refinement": {
     "1": {
       "name": "Lone Light's Blessing",
-      "desc": "When the equipping character unleashes their Elemental Skill, they gain \"Gleam of First Light,\" which increases said character's ATK by between <color=#99FFFFFF>18%</color> and <color=#99FFFFFF>36%</color> depending on how much they have traveled over the last 1s while the effect is active. This effect, which lasts 14s, can trigger once every 14s. It is removed when the equipping character leaves the field.",
+      "desc": "When the equipping character unleashes their Elemental Skill, they gain \"Gleam of First Light\": Every second, increases said character's ATK by between <color=#99FFFFFF>18%</color> and <color=#99FFFFFF>36%</color> depending on how much they have traveled over the last 1s while the effect is active. This effect, which lasts 14s, can trigger once every 14s. It is removed when the equipping character leaves the field.",
       "param_list": [
         14,
         14,
@@ -357,7 +357,7 @@
     },
     "2": {
       "name": "Lone Light's Blessing",
-      "desc": "When the equipping character unleashes their Elemental Skill, they gain \"Gleam of First Light,\" which increases said character's ATK by between <color=#99FFFFFF>22.5%</color> and <color=#99FFFFFF>45%</color> depending on how much they have traveled over the last 1s while the effect is active. This effect, which lasts 14s, can trigger once every 14s. It is removed when the equipping character leaves the field.",
+      "desc": "When the equipping character unleashes their Elemental Skill, they gain \"Gleam of First Light\": Every second, increases said character's ATK by between <color=#99FFFFFF>22.5%</color> and <color=#99FFFFFF>45%</color> depending on how much they have traveled over the last 1s while the effect is active. This effect, which lasts 14s, can trigger once every 14s. It is removed when the equipping character leaves the field.",
       "param_list": [
         14,
         14,
@@ -371,7 +371,7 @@
     },
     "3": {
       "name": "Lone Light's Blessing",
-      "desc": "When the equipping character unleashes their Elemental Skill, they gain \"Gleam of First Light,\" which increases said character's ATK by between <color=#99FFFFFF>27%</color> and <color=#99FFFFFF>54%</color> depending on how much they have traveled over the last 1s while the effect is active. This effect, which lasts 14s, can trigger once every 14s. It is removed when the equipping character leaves the field.",
+      "desc": "When the equipping character unleashes their Elemental Skill, they gain \"Gleam of First Light\": Every second, increases said character's ATK by between <color=#99FFFFFF>27%</color> and <color=#99FFFFFF>54%</color> depending on how much they have traveled over the last 1s while the effect is active. This effect, which lasts 14s, can trigger once every 14s. It is removed when the equipping character leaves the field.",
       "param_list": [
         14,
         14,
@@ -385,7 +385,7 @@
     },
     "4": {
       "name": "Lone Light's Blessing",
-      "desc": "When the equipping character unleashes their Elemental Skill, they gain \"Gleam of First Light,\" which increases said character's ATK by between <color=#99FFFFFF>31.5%</color> and <color=#99FFFFFF>63%</color> depending on how much they have traveled over the last 1s while the effect is active. This effect, which lasts 14s, can trigger once every 14s. It is removed when the equipping character leaves the field.<color=#99FFFFFF></color>",
+      "desc": "When the equipping character unleashes their Elemental Skill, they gain \"Gleam of First Light\": Every second, increases said character's ATK by between <color=#99FFFFFF>31.5%</color> and <color=#99FFFFFF>63%</color> depending on how much they have traveled over the last 1s while the effect is active. This effect, which lasts 14s, can trigger once every 14s. It is removed when the equipping character leaves the field.<color=#99FFFFFF></color>",
       "param_list": [
         14,
         14,
@@ -399,7 +399,7 @@
     },
     "5": {
       "name": "Lone Light's Blessing",
-      "desc": "When the equipping character unleashes their Elemental Skill, they gain \"Gleam of First Light,\" which increases said character's ATK by between <color=#99FFFFFF>36%</color> and <color=#99FFFFFF>72%</color> depending on how mu<color=#99FFFFFF></color>ch they have traveled over the last 1s while the effect is active. This effect, which lasts 14s, can trigger once every 14s. It is removed when the equipping character leaves the field.<color=#99FFFFFF></color>",
+      "desc": "When the equipping character unleashes their Elemental Skill, they gain \"Gleam of First Light\": Every second, increases said character's ATK by between <color=#99FFFFFF>36%</color> and <color=#99FFFFFF>72%</color> depending on how mu<color=#99FFFFFF></color>ch they have traveled over the last 1s while the effect is active. This effect, which lasts 14s, can trigger once every 14s. It is removed when the equipping character leaves the field.<color=#99FFFFFF></color>",
       "param_list": [
         14,
         14,

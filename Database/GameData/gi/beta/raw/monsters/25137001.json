@@ -291,6 +291,47 @@
         "em": 0
       }
     },
+    "25137006": {
+      "monster_name": "Leshy_Mature_03",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": -0.2,
+        "grass": 0.3,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.3,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 21.945072,
+        "atk": 94.62242,
+        "def": 500,
+        "em": 0
+      }
+    },
     "25137091": {
       "monster_name": "Leshy_Mature_01",
       "type": "MONSTER_ORDINARY",

@@ -1,6 +1,6 @@
 {
   "name": "Whitelake Frostfeather",
-  "desc": "",
+  "desc": "A longsword light as the feathers of a snow swan, and which stays pure and untainted at all times.",
   "weapon_type": "WEAPON_SWORD_ONE_HAND",
   "weapon_prop": [
     {
@@ -343,7 +343,7 @@
   "refinement": {
     "1": {
       "name": "Snow Swan's Finale",
-      "desc": "When the equipping character hits an opponent with their Elemental Skill, they gain \"Lake-Hued Lament\": ATK increases by <color=#99FFFFFF>8%</color> for 8s. This effect can trigger once every 0.1s. Max 3 stacks, and each stack's duration is independent. At 3 stacks, the CRIT DMG of any Stellar Glimmer reaction DMG caused by the equipping character is increased by <color=#99FFFFFF>40%</color>, and triggering Stellar Glimmer reactions or Stellar Glimmer reaction DMG will also restore <color=#99FFFFFF>4</color> Elemental Energy to the character. This Energy recovery effect can trigger once every 3.5s. Can be triggered even when the equipping character is off-field.",
+      "desc": "When the equipping character hits an opponent with their Elemental Skill, they gain \"Lake-Hued Lament\": ATK increases by <color=#99FFFFFF>8%</color> for 8s. This effect can trigger once every 0.1s. Max 3 stacks, and each stack's duration is independent. At 3 stacks, the CRIT DMG of any Stellar Glimmer reaction DMG caused by the equipping character is increased by <color=#99FFFFFF>50%</color>, and triggering Stellar Glimmer reactions or Stellar Glimmer reaction DMG will also restore <color=#99FFFFFF>4</color> Elemental Energy to the character. This Energy recovery effect can trigger once every 3.5s. Can be triggered even when the equipping character is off-field.",
       "param_list": [
         4,
         0.08,
@@ -357,7 +357,7 @@
     },
     "2": {
       "name": "Snow Swan's Finale",
-      "desc": "When the equipping character hits an opponent with their Elemental Skill, they gain \"Lake-Hued Lament\": ATK increases by <color=#99FFFFFF>10%</color> for 8s. This effect can trigger once every 0.1s. Max 3 stacks, and each stack's duration is independent. At 3 stacks, the CRIT DMG of any Stellar Glimmer reaction DMG caused by the equipping character is increased by <color=#99FFFFFF>52%</color>, and triggering Stellar Glimmer reactions or Stellar Glimmer reaction DMG will also restore <color=#99FFFFFF>4.5</color> Elemental Energy to the character. This Energy recovery effect can trigger once every 3.5s. Can be triggered even when the equipping character is off-field.",
+      "desc": "When the equipping character hits an opponent with their Elemental Skill, they gain \"Lake-Hued Lament\": ATK increases by <color=#99FFFFFF>10%</color> for 8s. This effect can trigger once every 0.1s. Max 3 stacks, and each stack's duration is independent. At 3 stacks, the CRIT DMG of any Stellar Glimmer reaction DMG caused by the equipping character is increased by <color=#99FFFFFF>65%</color>, and triggering Stellar Glimmer reactions or Stellar Glimmer reaction DMG will also restore <color=#99FFFFFF>4.5</color> Elemental Energy to the character. This Energy recovery effect can trigger once every 3.5s. Can be triggered even when the equipping character is off-field.",
       "param_list": [
         4.5,
         0.1,
@@ -371,7 +371,7 @@
     },
     "3": {
       "name": "Snow Swan's Finale",
-      "desc": "When the equipping character hits an opponent with their Elemental Skill, they gain \"Lake-Hued Lament\": ATK increases by <color=#99FFFFFF>12%</color> for 8s. This effect can trigger once every 0.1s. Max 3 stacks, and each stack's duration is independent. At 3 stacks, the CRIT DMG of any Stellar Glimmer reaction DMG caused by the equipping character is increased by <color=#99FFFFFF>64%</color>, and triggering Stellar Glimmer reactions or Stellar Glimmer reaction DMG will also restore <color=#99FFFFFF>5</color> Elemental Energy to the character. This Energy recovery effect can trigger once every 3.5s. Can be triggered even when the equipping character is off-field.",
+      "desc": "When the equipping character hits an opponent with their Elemental Skill, they gain \"Lake-Hued Lament\": ATK increases by <color=#99FFFFFF>12%</color> for 8s. This effect can trigger once every 0.1s. Max 3 stacks, and each stack's duration is independent. At 3 stacks, the CRIT DMG of any Stellar Glimmer reaction DMG caused by the equipping character is increased by <color=#99FFFFFF>80%</color>, and triggering Stellar Glimmer reactions or Stellar Glimmer reaction DMG will also restore <color=#99FFFFFF>5</color> Elemental Energy to the character. This Energy recovery effect can trigger once every 3.5s. Can be triggered even when the equipping character is off-field.",
       "param_list": [
         5,
         0.12,
@@ -385,7 +385,7 @@
     },
     "4": {
       "name": "Snow Swan's Finale",
-      "desc": "When the equipping character hits an opponent with their Elemental Skill, they gain \"Lake-Hued Lament\": ATK increases by <color=#99FFFFFF>14%</color> for 8s. This effect can trigger once every 0.1s. Max 3 stacks, and each stack's duration is independent. At 3 stacks, the CRIT DMG of any Stellar Glimmer reaction DMG caused by the equipping character is increased by <color=#99FFFFFF>76%</color>, and triggering Stellar Glimmer reactions or Stellar Glimmer reaction DMG will also restore <color=#99FFFFFF>5.5</color> Elemental Energy to the character. This Energy recovery effect can trigger once every 3.5s. Can be triggered even when the equipping character is off-field.",
+      "desc": "When the equipping character hits an opponent with their Elemental Skill, they gain \"Lake-Hued Lament\": ATK increases by <color=#99FFFFFF>14%</color> for 8s. This effect can trigger once every 0.1s. Max 3 stacks, and each stack's duration is independent. At 3 stacks, the CRIT DMG of any Stellar Glimmer reaction DMG caused by the equipping character is increased by <color=#99FFFFFF>95%</color>, and triggering Stellar Glimmer reactions or Stellar Glimmer reaction DMG will also restore <color=#99FFFFFF>5.5</color> Elemental Energy to the character. This Energy recovery effect can trigger once every 3.5s. Can be triggered even when the equipping character is off-field.",
       "param_list": [
         5.5,
         0.14,
@@ -399,7 +399,7 @@
     },
     "5": {
       "name": "Snow Swan's Finale",
-      "desc": "When the equipping character hits an opponent with their Elemental Skill, they gain \"Lake-Hued Lament\": ATK increases by <color=#99FFFFFF>16%</color> for 8s. This effect can trigger once every 0.1s. Max 3 stacks, and each stack's duration is independent. At 3 stacks, the CRIT DMG of any Stellar Glimmer reaction DMG caused by the equipping character is increased by <color=#99FFFFFF>88%</color>, and triggering Stellar Glimmer reactions or Stellar Glimmer reaction DMG will also restore <color=#99FFFFFF>6</color> Elemental Energy to the character. This Energy recovery effect can trigger once every 3.5s. Can be triggered even when the equipping character is off-field.",
+      "desc": "When the equipping character hits an opponent with their Elemental Skill, they gain \"Lake-Hued Lament\": ATK increases by <color=#99FFFFFF>16%</color> for 8s. This effect can trigger once every 0.1s. Max 3 stacks, and each stack's duration is independent. At 3 stacks, the CRIT DMG of any Stellar Glimmer reaction DMG caused by the equipping character is increased by <color=#99FFFFFF>110%</color>, and triggering Stellar Glimmer reactions or Stellar Glimmer reaction DMG will also restore <color=#99FFFFFF>6</color> Elemental Energy to the character. This Energy recovery effect can trigger once every 3.5s. Can be triggered even when the equipping character is off-field.",
       "param_list": [
         6,
         0.16,
@@ -520,7 +520,7 @@
           "rank": 4
         },
         {
-          "name": "Genesis Chimeric Nexus",
+          "name": "Prime Chimeric Nexus",
           "id": 112151,
           "count": 9,
           "rank": 3
@@ -543,7 +543,7 @@
           "rank": 4
         },
         {
-          "name": "Genesis Chimeric Nexus",
+          "name": "Prime Chimeric Nexus",
           "id": 112151,
           "count": 18,
           "rank": 3
@@ -553,11 +553,17 @@
     }
   },
   "story": {
+    "291006": {
+      "zh": "ART/UI/Readable/CHS/Weapon11520_2",
+      "en": "ART/UI/Readable/EN/Weapon11520_2_EN",
+      "ja": "ART/UI/Readable/JP/Weapon11520_2_JP",
+      "ko": "ART/UI/Readable/KR/Weapon11520_2_KR"
+    },
     "291520": {
-      "zh": "ART/UI/Readable/CHS/Weapon11520",
-      "en": "ART/UI/Readable/EN/Weapon11520_EN",
-      "ja": "ART/UI/Readable/JP/Weapon11520_JP",
-      "ko": "ART/UI/Readable/KR/Weapon11520_KR"
+      "zh": "ART/UI/Readable/CHS/Weapon11520_1",
+      "en": "ART/UI/Readable/EN/Weapon11520_1_EN",
+      "ja": "ART/UI/Readable/JP/Weapon11520_1_JP",
+      "ko": "ART/UI/Readable/KR/Weapon11520_1_KR"
     }
   }
 }

@@ -4,7 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-07-23T09:14:35.316Z",
+  "generatedAt": "2026-07-23T10:38:09.292Z",
   "codes": {
     "updated": "2026-07-23T07:58:07.436Z",
     "maxAgeDays": 28,
@@ -4430,7 +4430,7 @@ var NYX_DB = {
         "upcoming": []
       },
       "tcg": {
-        "updated": "2026-07-23T07:58:13.274Z",
+        "updated": "2026-07-23T09:23:17.508Z",
         "counts": {
           "characterCards": 106,
           "otherCards": 513
@@ -41582,8 +41582,8 @@ var NYX_DB = {
         ]
       },
       "furniture": {
-        "updated": "2026-07-18T08:35:00.621Z",
-        "version": "6.7.52",
+        "updated": "2026-07-23T09:23:40.318Z",
+        "version": "6.7.53",
         "counts": {
           "items": 2342,
           "craftable": 1386
@@ -41595,7 +41595,7 @@ var NYX_DB = {
           },
           {
             "key": "Building",
-            "count": 272
+            "count": 279
           },
           {
             "key": "Landform",
@@ -41639,10 +41639,6 @@ var NYX_DB = {
           },
           {
             "key": "Main Building",
-            "count": 7
-          },
-          {
-            "key": "Other",
             "count": 7
           }
         ],
@@ -41721,6 +41717,43 @@ var NYX_DB = {
               ]
             },
             "art": "../../Database/GameData/gi/furniture/assets/371017.webp"
+          },
+          {
+            "id": "364524",
+            "name": "\"A Golden Winter\"",
+            "description": "A Snezhnayan-style wall painting depicting a corner of a birch grove on the snowfields. The brilliant golden-yellow canopy shows especially bright against the white snow, and the painter has used a spare color vocabulary to record the distinctive warmth of the deep winter.\\n\"When I finally pulled myself together and looked out the window,\" the painter of this work has said, \"I happened to catch sight of a golden winter.\"",
+            "rarity": 4,
+            "category": "Wall Decor",
+            "types": [
+              "Wall Decor"
+            ],
+            "subtypes": [
+              "Picture Frame"
+            ],
+            "comfort": 90,
+            "cost": 169,
+            "source": [
+              "Snezhnaya Remarkable Chest Reward"
+            ],
+            "recipe": {
+              "time": 57600,
+              "exp": 90,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 8,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 8,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/GameData/gi/furniture/assets/364524.webp"
           },
           {
             "id": "373122",
@@ -41819,6 +41852,43 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/furniture/assets/373335.webp"
           },
           {
+            "id": "362136",
+            "name": "\"A Quiet Sigh on a Snowbound Night\"",
+            "description": "A dark-toned long bench that can be seen in the Snegurochka's Demesne. The central back is decorated with golden geometric patterns, and the whole piece has a solemn, elegant profile.\\n\"Every passerby like unto a ghost,\" a traveler once sighed, seated alone on this bench, gazing at the wind and snow through the window. \"Every house was like a palace of ice and snow...\"",
+            "rarity": 3,
+            "category": "Small Furnishing",
+            "types": [
+              "Small Furnishing"
+            ],
+            "subtypes": [
+              "Seating"
+            ],
+            "comfort": 60,
+            "cost": 85,
+            "source": [
+              "Snezhnaya Remarkable Chest Reward"
+            ],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101334",
+                  "name": "101334",
+                  "count": 8,
+                  "icon": null
+                },
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 4,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
+                }
+              ]
+            },
+            "art": "../../Database/GameData/gi/furniture/assets/362136.webp"
+          },
+          {
             "id": "372430",
             "name": "\"A Seat in the Wilderness\"",
             "description": "A round shrub that has rather soft leaves and branches, and which can be easily uprooted. Two of them together could make for a good stool.",
@@ -41837,6 +41907,26 @@ var NYX_DB = {
             ],
             "recipe": null,
             "art": "../../Database/GameData/gi/furniture/assets/372430.webp"
+          },
+          {
+            "id": "372525",
+            "name": "\"A Silent Longing\"",
+            "description": "A tall shrub found within Okurov, with slender branches, spreading leaves, and colors as mysterious as the night.\\nSnowmelt silently nourishes the earth, from which these beautiful shrubs are born. They stand quiet and still, as if voicing a silent longing for the days to come.",
+            "rarity": 3,
+            "category": "Landform",
+            "types": [
+              "Landform"
+            ],
+            "subtypes": [
+              "Small Shrub"
+            ],
+            "comfort": 20,
+            "cost": 65,
+            "source": [
+              "Purchased from Realm Depot: Furnishings"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/372525.webp"
           },
           {
             "id": "370825",
@@ -42095,6 +42185,43 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/furniture/assets/373384.webp"
           },
           {
+            "id": "373943",
+            "name": "\"An Unmelted Home\"",
+            "description": "An icebox whose body has been carved from a block of ice, its form plain and natural.\\nThese iceboxes have no fixed shape, and their form shifts and multiplies with temperature changes. But so it could be properly displayed in the Serenitea Pot, Tubby used a touch of adeptal power to freeze it in its most pleasing form...",
+            "rarity": 3,
+            "category": "Landscape",
+            "types": [
+              "Landscape"
+            ],
+            "subtypes": [
+              "Small Object"
+            ],
+            "comfort": 60,
+            "cost": 35,
+            "source": [
+              "Snezhnaya Remarkable Chest Reward"
+            ],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 2,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 6,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/GameData/gi/furniture/assets/373943.webp"
+          },
+          {
             "id": "374654",
             "name": "\"Anomaly of the Temple\"",
             "description": "A rare collectible displayed in the display cases of the Temple of Space. Its shape seems to resemble a creature unfamiliar to the eye...\\nThe treasures resting within these display cases seem to hold fragments of the past in quiet suspension. They wait patiently for later visitors to pause and gaze upon them, so that the long-forgotten stories they carry may slowly stir back to life...",
@@ -42230,6 +42357,43 @@ var NYX_DB = {
               ]
             },
             "art": "../../Database/GameData/gi/furniture/assets/374215.webp"
+          },
+          {
+            "id": "363442",
+            "name": "\"Balanced Boughs\"",
+            "description": "A candelabrum on a sturdy base, with symmetrical branch-like arms upon which two candles burn with warm yellow flame. Elegant in overall form, it lends a touch of warmth to the room in the flicker of candlelight and shadow.",
+            "rarity": 3,
+            "category": "Ornaments",
+            "types": [
+              "Ornaments"
+            ],
+            "subtypes": [
+              "Utensil"
+            ],
+            "comfort": 60,
+            "cost": 305,
+            "source": [
+              "Snezhnaya Remarkable Chest Reward"
+            ],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 6,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 2,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/GameData/gi/furniture/assets/363442.webp"
           },
           {
             "id": "371104",
@@ -42825,6 +42989,37 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/furniture/assets/362258.webp"
           },
           {
+            "id": "361350",
+            "name": "\"Candle Perch\" Tall Square Table",
+            "description": "A dark-toned tall square table, adorned with elegant gold-outlined patterns, commonly used to hold candlesticks for lighting.\\nAmple clearance beneath the tabletop makes daily cleaning much easier.",
+            "rarity": 3,
+            "category": "Large Furnishing",
+            "types": [
+              "Large Furnishing"
+            ],
+            "subtypes": [
+              "Table"
+            ],
+            "comfort": 60,
+            "cost": 85,
+            "source": [
+              "Learned from Realm Depot Furnishing Blueprint"
+            ],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101333",
+                  "name": "101333",
+                  "count": 8,
+                  "icon": null
+                }
+              ]
+            },
+            "art": "../../Database/GameData/gi/furniture/assets/361350.webp"
+          },
+          {
             "id": "371018",
             "name": "\"Care in the City of the Ever-Watchful\"",
             "description": "A relatively tall building commonly found in Piramida that often houses medical treatment facilities.\\nAs the resident population of Piramida is by and large a healthy one, the area in front of the clinics is quiet and deserted most of the time. However, whenever the seasons change, there's always a brief surge in activity.",
@@ -42942,6 +43137,43 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/furniture/assets/361507.webp"
           },
           {
+            "id": "373942",
+            "name": "\"Cherish the Present\"",
+            "description": "A mechanical device commonly seen in Svetloledovka, often used to dig downward through stubborn, hardened layers of ice.\\n\"You lot should be grateful for today's working conditions,\" so an experienced old worker once said to some newly-arrived recruits while deep in his cups. \"Back in my day, we used our fists! One blow, one blow at a time, forcing our way through this ice sheet...\"",
+            "rarity": 2,
+            "category": "Landscape",
+            "types": [
+              "Landscape"
+            ],
+            "subtypes": [
+              "Small Object"
+            ],
+            "comfort": 30,
+            "cost": 65,
+            "source": [
+              "Snezhnaya Remarkable Chest Reward"
+            ],
+            "recipe": {
+              "time": 43200,
+              "exp": 30,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 2,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 2,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/GameData/gi/furniture/assets/373942.webp"
+          },
+          {
             "id": "362252",
             "name": "\"Chill Afternoon Tea Time\"",
             "description": "A food trolley with two levels often found in venues such as the Hotel Debord in Court of Fontaine. It provides a stable platform with ample space for carrying refreshments. In order to meet the varied requirements of different guests, both levels of the trolley are often loaded with luxurious tea sets, tableware, and various desserts and beverages. It's the perfect companion for a relaxing afternoon tea break.",
@@ -42977,6 +43209,43 @@ var NYX_DB = {
               ]
             },
             "art": "../../Database/GameData/gi/furniture/assets/362252.webp"
+          },
+          {
+            "id": "360484",
+            "name": "\"Chirping About As Birds Do\"",
+            "description": "A tall streetlamp commonly seen in Snezhnograd, its dark-blue post standing tall and straight, its body adorned with golden geometric patterns. At the top, two elegantly arched brackets extend outward, each holding a lamp.\\nThis streetlamp not only illuminates the street; from time to time, it also becomes a \"social hub\" for the neighborhood's little birds. Two flocks each claim one of the brackets, chirping back and forth across the lamppost, bringing a fair bit of life to the quiet street...",
+            "rarity": 3,
+            "category": "Landscape",
+            "types": [
+              "Landscape"
+            ],
+            "subtypes": [
+              "Lighting"
+            ],
+            "comfort": 60,
+            "cost": 105,
+            "source": [
+              "Snezhnaya Remarkable Chest Reward"
+            ],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 8,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 4,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/GameData/gi/furniture/assets/360484.webp"
           },
           {
             "id": "360449",
@@ -44535,6 +44804,43 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/furniture/assets/373463.webp"
           },
           {
+            "id": "363121",
+            "name": "\"For Whom It Shines\"",
+            "description": "A common Snezhnayan-style lighting fixture with a heavy, stable dark base supporting a uniquely designed conical shade.\\nAs a reading lamp it is unmatched \u2014 its light is just the right brightness, and it lends every reader a warm, quiet atmosphere in which to lose themselves in a book.",
+            "rarity": 3,
+            "category": "Ornaments",
+            "types": [
+              "Ornaments"
+            ],
+            "subtypes": [
+              "Lighting"
+            ],
+            "comfort": 60,
+            "cost": 220,
+            "source": [
+              "Learned from Realm Depot Furnishing Blueprint"
+            ],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 6,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 2,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/GameData/gi/furniture/assets/363121.webp"
+          },
+          {
             "id": "371019",
             "name": "\"Forge in the City of the Ever-Watchful\"",
             "description": "An extremely tall structure commonly found in Piramida that bears a resemblance to towers. In Piramida, it is often where forging services are provided.\\nEven when temperatures in Piramida reach their lowest, this spot offers a welcome source of warmth \u2014 sparks flying with every strike of the hammer, steam billowing from roaring boilers...",
@@ -45687,6 +45993,26 @@ var NYX_DB = {
             ],
             "recipe": null,
             "art": "../../Database/GameData/gi/furniture/assets/363363.webp"
+          },
+          {
+            "id": "372526",
+            "name": "\"Layer Upon Layer of Leaves\"",
+            "description": "A low shrub commonly seen in Okurov, bearing tiered fan-shaped leaves and resembling a giant flower in glorious bloom.\\nWhen morning comes, every leaf of the shrub is beaded with crystalline dewdrops, refracting dazzling colors under the sunlight. The brief and wondrous sight draws small woodland creatures who come to admire it.",
+            "rarity": 3,
+            "category": "Landform",
+            "types": [
+              "Landform"
+            ],
+            "subtypes": [
+              "Small Shrub"
+            ],
+            "comfort": 20,
+            "cost": 65,
+            "source": [
+              "Purchased from Realm Depot: Furnishings"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/372526.webp"
           },
           {
             "id": "373455",
@@ -47043,6 +47369,74 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/furniture/assets/361336.webp"
           },
           {
+            "id": "373944",
+            "name": "\"Open Wide!\"",
+            "description": "A figurine modeled on a wide-mouthed Jack Frost, its form endearingly plump and simple.\\n\"Wait a minute \u2014 there seems to be... another Jack Frost inside its mouth? Yikes,\" many who've caught sight of this figurine have exclaimed, \"it's a Cannibal Frost!\"",
+            "rarity": 3,
+            "category": "Landscape",
+            "types": [
+              "Landscape"
+            ],
+            "subtypes": [
+              "Small Object"
+            ],
+            "comfort": 60,
+            "cost": 65,
+            "source": [
+              "Snezhnaya Remarkable Chest Reward"
+            ],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 2,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 6,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/GameData/gi/furniture/assets/373944.webp"
+          },
+          {
+            "id": "361126",
+            "name": "\"Opening Business Hours\"",
+            "description": "A dark-toned storage cabinet, quiet and steady in style, with two banks of drawers on each side and a pair of double doors in the middle for holding a large quantity of odds and ends.\\nEach morning, the staff open the cabinet doors and the day's business begins. And deep in the evening, when every last item has been put back in its place, and the doors are closed, that day's work is fittingly done.",
+            "rarity": 3,
+            "category": "Large Furnishing",
+            "types": [
+              "Large Furnishing"
+            ],
+            "subtypes": [
+              "Cabinet"
+            ],
+            "comfort": 60,
+            "cost": 85,
+            "source": [
+              "Learned from Realm Depot Furnishing Blueprint"
+            ],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101333",
+                  "name": "101333",
+                  "count": 12,
+                  "icon": null
+                }
+              ]
+            },
+            "art": "../../Database/GameData/gi/furniture/assets/361126.webp"
+          },
+          {
             "id": "373454",
             "name": "\"Origin of Music\"",
             "description": "An intricate model of a harp with exquisitely carved decorations on the body. It is the same design as the harp in the Faded Castle.\\nIt is said that harps are one of the simplest instruments, yet also one of the most difficult. The timbre and texture are quite straightforward, and even a child still mastering language can easily pluck out a performance. But the harp's intonation relies completely upon the harpist's experiences. Even with decades of experience, unexpected mistakes may still occur during a performance. As such, according to some critics, the harp is regarded as the beginning and the end for all musicians. Of course, this is naturally hyperbole, but it also goes to show the unique significance of the harp.",
@@ -47710,6 +48104,26 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/furniture/assets/373191.webp"
           },
           {
+            "id": "374849",
+            "name": "\"Rattle-Bell Finchball: Rusalka\"",
+            "description": "A Finchball crafted to resemble a certain Prima Donna. Someone once tried to install a sound device inside it, so that the Finchball might sing \"in an elegant voice\" at every bump. But for various reasons, it never quite worked out, which is a great pity...?",
+            "rarity": 4,
+            "category": "Landscape",
+            "types": [
+              "Landscape"
+            ],
+            "subtypes": [
+              "Special Object"
+            ],
+            "comfort": 30,
+            "cost": 35,
+            "source": [
+              "Purchased from Rankova Zorya Shop - Knyazev"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/374849.webp"
+          },
+          {
             "id": "363501",
             "name": "\"Realizations from the Land of Wisdom\"",
             "description": "A flower pot from the House of Daena with a humble-looking luminescent plant inside. Its appearance is not exactly attractive, and it doesn't give off nice scents or possess any medicinal properties. To people passing by, it may be easy to ignore and seem at odds with the solemn atmosphere in the House of Daena.\\nHowever, it is said that the scholar who proposed the installation of these plants specifically selected them because of how common they looked. According to that scholar, these plants can serve as a reminder to all students that despite the plants' ordinary appearance, they still had a place in the halls of the House of Daena, and the same applies to the students \u2014 as such, there is no need to dwell too much on their ancestry or wealth. The most important thing is that everyone is here to immerse themselves in academic study.",
@@ -47904,6 +48318,43 @@ var NYX_DB = {
               ]
             },
             "art": "../../Database/GameData/gi/furniture/assets/374606.webp"
+          },
+          {
+            "id": "363399",
+            "name": "\"Round and Round, the Little Fish Go\"",
+            "description": "A whimsically-shaped fan, designed with the Iridescent Starbloom Fish as its inspiration; as the blades turn, they bring a bit of coolness to their surroundings.\\n\"The fish spins round and round, the wind blows on and on...\" Fishing enthusiasts feel the cool breeze from the fan on their faces, hum a soft tune, and wait patiently for the fish to bite...",
+            "rarity": 4,
+            "category": "Ornaments",
+            "types": [
+              "Ornaments"
+            ],
+            "subtypes": [
+              "Memento"
+            ],
+            "comfort": 90,
+            "cost": 300,
+            "source": [
+              "Purchase at the Snezhnaya Fishing Association"
+            ],
+            "recipe": {
+              "time": 57600,
+              "exp": 90,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 4,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 8,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/GameData/gi/furniture/assets/363399.webp"
           },
           {
             "id": "373214",
@@ -49050,6 +49501,43 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/furniture/assets/371020.webp"
           },
           {
+            "id": "363443",
+            "name": "\"Steady Companion Through Dreams\"",
+            "description": "An intricately designed standing candelabrum commonly seen in the Snegurochka's Demesne. Its candle arms have an elegant curve, and the candles they hold always give off a soft, tender light.\\nOn every quiet night, the faint crackle of the wicks brings a warm atmosphere to the room, easing those inside gently into their dreams...",
+            "rarity": 3,
+            "category": "Ornaments",
+            "types": [
+              "Ornaments"
+            ],
+            "subtypes": [
+              "Utensil"
+            ],
+            "comfort": 60,
+            "cost": 587,
+            "source": [
+              "Snezhnaya Remarkable Chest Reward"
+            ],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 6,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 2,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/GameData/gi/furniture/assets/363443.webp"
+          },
+          {
             "id": "361329",
             "name": "\"Steady Stately Stability\"",
             "description": "Crafted from high-quality Ash Wood, this rectangular table was originally designed to entertain important guests. To this end, it can hold an array of refreshments alongside the documents, materials, and gifts required for business meetings. Thanks to its excellent design and luxurious appearance, it is often paired with exquisitely patterned tablecloths and used by the hotels in the Court of Fontaine.",
@@ -49199,6 +49687,43 @@ var NYX_DB = {
               ]
             },
             "art": "../../Database/GameData/gi/furniture/assets/361326.webp"
+          },
+          {
+            "id": "374663",
+            "name": "\"Sturdy as Solid Ice\"",
+            "description": "A large-capacity transport vehicle, its body assembled from heavy metal plates for a highly stable overall structure. In addition, the transport has six wide wheels of uniform size, paired with specially-textured non-slip treads on the hubs, ensuring the vehicle can move freely across slippery snow and ice.\\n\"Do remember not to overload the transport. Otherwise...\" \u2014 advice from a worker in charge of loading and unloading cargo.",
+            "rarity": 3,
+            "category": "Landscape",
+            "types": [
+              "Landscape"
+            ],
+            "subtypes": [
+              "Large Object"
+            ],
+            "comfort": 60,
+            "cost": 95,
+            "source": [
+              "Snezhnaya Remarkable Chest Reward"
+            ],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 8,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 4,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/GameData/gi/furniture/assets/374663.webp"
           },
           {
             "id": "374310",
@@ -49394,6 +49919,43 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/furniture/assets/360428.webp"
           },
           {
+            "id": "361415",
+            "name": "\"Sweet, Untroubled Slumber\"",
+            "description": "A bed that can be found in the Snegurochka's Demesne, dressed with lavish draped canopies and adorned along the frame with exquisite patterns.\\nIt is said that no matter how tired you may be from the day, once you lie down here for a while, the weariness and worry slowly fade, leaving nothing but the purest, deepest sleep.",
+            "rarity": 4,
+            "category": "Large Furnishing",
+            "types": [
+              "Large Furnishing"
+            ],
+            "subtypes": [
+              "Bed"
+            ],
+            "comfort": 90,
+            "cost": 665,
+            "source": [
+              "Snezhnaya Remarkable Chest Reward"
+            ],
+            "recipe": {
+              "time": 57600,
+              "exp": 90,
+              "materials": [
+                {
+                  "id": "101404",
+                  "name": "Blue Dye",
+                  "count": 6,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101404.webp"
+                },
+                {
+                  "id": "101332",
+                  "name": "101332",
+                  "count": 12,
+                  "icon": null
+                }
+              ]
+            },
+            "art": "../../Database/GameData/gi/furniture/assets/361415.webp"
+          },
+          {
             "id": "373472",
             "name": "\"Tail Pouch of the Mountain Wind\"",
             "description": "An anemometer made from \"Ashen Aratiku Wood\" paired with a conical cloth bag, primarily used to help people monitor wind speed and direction in real time. It is a unique device of the Flower-Feather Clan.\\nIt is said that although this cloth-based anemometer is not as precise as propeller-style ones, its low cost and intuitive design make it a favorite. Even a Saurian rider flying high in the sky can judge the approximate wind speed and direction on the ground with a single glance, as if grasping the very tail of the mountain wind.",
@@ -49460,6 +50022,43 @@ var NYX_DB = {
               ]
             },
             "art": "../../Database/GameData/gi/furniture/assets/374608.webp"
+          },
+          {
+            "id": "362408",
+            "name": "\"Tall-Capped Sentinel\"",
+            "description": "A soldier figurine given as a gift by a certain shy girl, wearing a tall military cap adorned with golden trim, dressed in a deep blue uniform with golden buttons and epaulets.\\nThough its slightly upturned mustache lends it a hint of endearing charm, its expression is still solemn and its fists tightly clenched, as if it were standing guard over the peace and warmth around it.",
+            "rarity": 3,
+            "category": "Small Furnishing",
+            "types": [
+              "Small Furnishing"
+            ],
+            "subtypes": [
+              "Craftwork"
+            ],
+            "comfort": 60,
+            "cost": 157,
+            "source": [
+              "Snezhnaya Remarkable Chest Reward"
+            ],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 6,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 6,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/GameData/gi/furniture/assets/362408.webp"
           },
           {
             "id": "363381",
@@ -49709,6 +50308,43 @@ var NYX_DB = {
               ]
             },
             "art": "../../Database/GameData/gi/furniture/assets/363312.webp"
+          },
+          {
+            "id": "363441",
+            "name": "\"Tea-Time Etiquette\"",
+            "description": "A teacup commonly seen in the Snezhnograd Veche, its body has a base blue hue, with the rim and handle inlaid with delicate golden edging that shifts with a warm, mellow gleam in the light. The matching saucer is painted with symmetrical geometric petal patterns, elegant and unforced.\\nIn Snezhnayan social settings, ladies and gentlemen often patiently stir the tea with a spoon, wait for the heat to ease, and then take a leisurely sip, showing in the conversation flow a bearing that is neither hurried nor irritable...",
+            "rarity": 3,
+            "category": "Ornaments",
+            "types": [
+              "Ornaments"
+            ],
+            "subtypes": [
+              "Utensil"
+            ],
+            "comfort": 60,
+            "cost": 85,
+            "source": [
+              "Snezhnaya Remarkable Chest Reward"
+            ],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 4,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 4,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/GameData/gi/furniture/assets/363441.webp"
           },
           {
             "id": "373378",
@@ -50295,6 +50931,43 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/furniture/assets/361333.webp"
           },
           {
+            "id": "374225",
+            "name": "\"The Lingering Warmth of the Wait\"",
+            "description": "A dark-toned high-backed chair that can be seen along the streets of Snezhnograd, its backrest featuring an openwork carved design of elegant form.\\nCold as the weather may be, there are always those \"brave souls\" who love their gatherings \u2014 cradling hot tea, seated here, waiting for a friend to arrive in the crackling chill...",
+            "rarity": 3,
+            "category": "Outdoor Furnishing",
+            "types": [
+              "Outdoor Furnishing"
+            ],
+            "subtypes": [
+              "Seating"
+            ],
+            "comfort": 60,
+            "cost": 35,
+            "source": [
+              "Snezhnaya Remarkable Chest Reward"
+            ],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 4,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 4,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/GameData/gi/furniture/assets/374225.webp"
+          },
+          {
             "id": "371121",
             "name": "\"The Poetry of Song and Dreams\"",
             "description": "An arbor with an aura. It emanates quiet beauty, its crystal-clear flowers hang from branches where the glimmering twilight gathers, and its twirling branches have a sense of flow and rhythm, like the rhythm of life itself, with each inch of their arcs being filled with vitality.\\nThough such trees are far from the most ancient entities within Vanarana, they have still witnessed centuries of Nara-Aranara interaction, becoming scribes to the poetry of that relationship. Such trees delight in melodious songs and answer the singers with beautiful dreams. In such dreams, the singer shall find themselves embraced by the memories of the woods, and with the pomegranates they shall sing, and they shall hear the apples clap...",
@@ -50313,6 +50986,80 @@ var NYX_DB = {
             ],
             "recipe": null,
             "art": "../../Database/GameData/gi/furniture/assets/371121.webp"
+          },
+          {
+            "id": "371055",
+            "name": "\"The Round Onion\"",
+            "description": "An architectural fixture commonly seen throughout Snezhnograd, notable for its distinctive onion-shaped dome.\\n\"But it looks less like an onion and more like ice cream, doesn't it?\" A passing child once pointed at this fixture and put this puzzled question to their mother, and the answer came unexpectedly: \"Why can't it be onion-flavored ice cream?\"",
+            "rarity": 3,
+            "category": "Building",
+            "types": [
+              "Building"
+            ],
+            "subtypes": [
+              "Snezhnayan Style"
+            ],
+            "comfort": 60,
+            "cost": 220,
+            "source": [
+              "Learned from Realm Depot Furnishing Blueprint"
+            ],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 4,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 8,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/GameData/gi/furniture/assets/371055.webp"
+          },
+          {
+            "id": "371052",
+            "name": "\"The Round Snowball\"",
+            "description": "A hemispherical hut built of white ice bricks, shaped like a round little snowball, complete with a light-blue arched doorway and matching windows.\\nDespite being built entirely of ice bricks, the interior is remarkably warm...\\nIf you'd like to step inside this hut and take a look around, you'll probably need to put in a bit of thought to get the owner's consent...",
+            "rarity": 3,
+            "category": "Building",
+            "types": [
+              "Building"
+            ],
+            "subtypes": [
+              "Snezhnayan Style"
+            ],
+            "comfort": 60,
+            "cost": 210,
+            "source": [
+              "Snezhnaya Remarkable Chest Reward"
+            ],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 2,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 10,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/GameData/gi/furniture/assets/371052.webp"
           },
           {
             "id": "373920",
@@ -50765,6 +51512,43 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/furniture/assets/362103.webp"
           },
           {
+            "id": "374334",
+            "name": "\"Useless Advice\"",
+            "description": "A dark-toned round table commonly seen along the streets of Snezhnograd, its top adorned with symmetrical and delicate patterns.\\n\"Whatever you do, don't lick the table. Otherwise... wait, how's your tongue already stuck to it!?\" Those stubborn and curious children, always the ones who need to experience things firsthand before they understand what the grown-ups were telling them.",
+            "rarity": 3,
+            "category": "Outdoor Furnishing",
+            "types": [
+              "Outdoor Furnishing"
+            ],
+            "subtypes": [
+              "Table"
+            ],
+            "comfort": 60,
+            "cost": 35,
+            "source": [
+              "Snezhnaya Remarkable Chest Reward"
+            ],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 8,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 4,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/GameData/gi/furniture/assets/374334.webp"
+          },
+          {
             "id": "373381",
             "name": "\"Vahumana Flag\"",
             "description": "A flag planted by the Akademiya during the Akademiya Extravaganza. This bright yellow variant represents Vahumana, reflecting their long-cultivated wisdom in matters of history and social studies...",
@@ -51068,6 +51852,26 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/furniture/assets/374652.webp"
           },
           {
+            "id": "372363",
+            "name": "\"Wildfire in the Wind\"",
+            "description": "A tree commonly seen in Okurov, with a thick, twisted trunk and coiling, tangled branches. The rich orange-red foliage of its canopy is often mistaken from a distance for wildfire flickering in the wind.\\n\"I once saw it from far away and thought a fire had broken out,\" so an adventurer looking out over Okurov lamented, \"but after a moment's careful observation, I realized it was just a few trees.\"",
+            "rarity": 3,
+            "category": "Landform",
+            "types": [
+              "Landform"
+            ],
+            "subtypes": [
+              "Tree"
+            ],
+            "comfort": 20,
+            "cost": 65,
+            "source": [
+              "Purchased from Realm Depot: Furnishings"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/372363.webp"
+          },
+          {
             "id": "370916",
             "name": "\"Wings of the Springs\"",
             "description": "An inventive medium-sized wooden canopy featuring a distinctive layered roof, named for its resemblance to the overlapping wings of birds. The primary advantage of this design lies in its dynamic light management: it provides effective shade during midday when sunlight is direct, while allowing slanted rays to filter through the spaces between the layers in the morning and evening, keeping the interior warm and comfortable. However, this layered design also adds to the building's overall weight and construction costs, limiting its application within the \"People of the Springs.\"",
@@ -51314,1542 +52118,6 @@ var NYX_DB = {
             "source": [],
             "recipe": null,
             "art": null
-          },
-          {
-            "id": "360484",
-            "name": "360484",
-            "description": null,
-            "rarity": 3,
-            "category": "Landscape",
-            "types": [
-              "Landscape"
-            ],
-            "subtypes": [
-              "Lighting"
-            ],
-            "comfort": 30,
-            "cost": 85,
-            "source": [],
-            "recipe": {
-              "time": 50400,
-              "exp": 60,
-              "materials": [
-                {
-                  "id": "101001",
-                  "name": "Iron Chunk",
-                  "count": 8,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
-                },
-                {
-                  "id": "101002",
-                  "name": "White Iron Chunk",
-                  "count": 4,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
-                }
-              ]
-            },
-            "art": "../../Database/GameData/gi/furniture/assets/360484.webp"
-          },
-          {
-            "id": "361126",
-            "name": "361126",
-            "description": null,
-            "rarity": 3,
-            "category": "Large Furnishing",
-            "types": [
-              "Large Furnishing"
-            ],
-            "subtypes": [
-              "Cabinet"
-            ],
-            "comfort": 60,
-            "cost": 254,
-            "source": [],
-            "recipe": {
-              "time": 50400,
-              "exp": 60,
-              "materials": [
-                {
-                  "id": "101001",
-                  "name": "Iron Chunk",
-                  "count": 6,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
-                },
-                {
-                  "id": "101002",
-                  "name": "White Iron Chunk",
-                  "count": 6,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
-                }
-              ]
-            },
-            "art": "../../Database/GameData/gi/furniture/assets/361126.webp"
-          },
-          {
-            "id": "361127",
-            "name": "361127",
-            "description": null,
-            "rarity": 3,
-            "category": "Large Furnishing",
-            "types": [
-              "Large Furnishing"
-            ],
-            "subtypes": [
-              "Cabinet"
-            ],
-            "comfort": 60,
-            "cost": 254,
-            "source": [],
-            "recipe": {
-              "time": 50400,
-              "exp": 60,
-              "materials": [
-                {
-                  "id": "101001",
-                  "name": "Iron Chunk",
-                  "count": 2,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
-                },
-                {
-                  "id": "101002",
-                  "name": "White Iron Chunk",
-                  "count": 6,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
-                }
-              ]
-            },
-            "art": "../../Database/GameData/gi/furniture/assets/361127.webp"
-          },
-          {
-            "id": "361350",
-            "name": "361350",
-            "description": null,
-            "rarity": 3,
-            "category": "Large Furnishing",
-            "types": [
-              "Large Furnishing"
-            ],
-            "subtypes": [
-              "Table"
-            ],
-            "comfort": 60,
-            "cost": 592,
-            "source": [],
-            "recipe": {
-              "time": 50400,
-              "exp": 60,
-              "materials": [
-                {
-                  "id": "101001",
-                  "name": "Iron Chunk",
-                  "count": 6,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
-                },
-                {
-                  "id": "101002",
-                  "name": "White Iron Chunk",
-                  "count": 6,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
-                }
-              ]
-            },
-            "art": "../../Database/GameData/gi/furniture/assets/361350.webp"
-          },
-          {
-            "id": "361415",
-            "name": "361415",
-            "description": null,
-            "rarity": 3,
-            "category": "Large Furnishing",
-            "types": [
-              "Large Furnishing"
-            ],
-            "subtypes": [
-              "Bed"
-            ],
-            "comfort": 60,
-            "cost": 85,
-            "source": [],
-            "recipe": {
-              "time": 50400,
-              "exp": 60,
-              "materials": [
-                {
-                  "id": "101001",
-                  "name": "Iron Chunk",
-                  "count": 8,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
-                },
-                {
-                  "id": "101002",
-                  "name": "White Iron Chunk",
-                  "count": 4,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
-                }
-              ]
-            },
-            "art": "../../Database/GameData/gi/furniture/assets/361415.webp"
-          },
-          {
-            "id": "362136",
-            "name": "362136",
-            "description": null,
-            "rarity": 3,
-            "category": "Small Furnishing",
-            "types": [
-              "Small Furnishing"
-            ],
-            "subtypes": [
-              "Seating"
-            ],
-            "comfort": 60,
-            "cost": 85,
-            "source": [],
-            "recipe": {
-              "time": 50400,
-              "exp": 60,
-              "materials": [
-                {
-                  "id": "101001",
-                  "name": "Iron Chunk",
-                  "count": 2,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
-                },
-                {
-                  "id": "101002",
-                  "name": "White Iron Chunk",
-                  "count": 6,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
-                }
-              ]
-            },
-            "art": "../../Database/GameData/gi/furniture/assets/362136.webp"
-          },
-          {
-            "id": "362137",
-            "name": "362137",
-            "description": null,
-            "rarity": 3,
-            "category": "Small Furnishing",
-            "types": [
-              "Small Furnishing"
-            ],
-            "subtypes": [
-              "Seating"
-            ],
-            "comfort": 60,
-            "cost": 85,
-            "source": [],
-            "recipe": {
-              "time": 50400,
-              "exp": 60,
-              "materials": [
-                {
-                  "id": "101329",
-                  "name": "Pedunculate Oak Wood",
-                  "count": 8,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101329.webp"
-                }
-              ]
-            },
-            "art": "../../Database/GameData/gi/furniture/assets/362137.webp"
-          },
-          {
-            "id": "362325",
-            "name": "362325",
-            "description": null,
-            "rarity": 3,
-            "category": "Small Furnishing",
-            "types": [
-              "Small Furnishing"
-            ],
-            "subtypes": [
-              "Carpet"
-            ],
-            "comfort": 60,
-            "cost": 85,
-            "source": [],
-            "recipe": {
-              "time": 50400,
-              "exp": 60,
-              "materials": [
-                {
-                  "id": "101401",
-                  "name": "Fabric",
-                  "count": 4,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101401.webp"
-                },
-                {
-                  "id": "101403",
-                  "name": "Yellow Dye",
-                  "count": 4,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101403.webp"
-                }
-              ]
-            },
-            "art": "../../Database/GameData/gi/furniture/assets/362325.webp"
-          },
-          {
-            "id": "362326",
-            "name": "362326",
-            "description": null,
-            "rarity": 3,
-            "category": "Small Furnishing",
-            "types": [
-              "Small Furnishing"
-            ],
-            "subtypes": [
-              "Carpet"
-            ],
-            "comfort": 60,
-            "cost": 85,
-            "source": [],
-            "recipe": {
-              "time": 57600,
-              "exp": 90,
-              "materials": [
-                {
-                  "id": "101001",
-                  "name": "Iron Chunk",
-                  "count": 12,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
-                },
-                {
-                  "id": "101002",
-                  "name": "White Iron Chunk",
-                  "count": 18,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
-                }
-              ]
-            },
-            "art": "../../Database/GameData/gi/furniture/assets/362326.webp"
-          },
-          {
-            "id": "362408",
-            "name": "362408",
-            "description": null,
-            "rarity": 3,
-            "category": "Small Furnishing",
-            "types": [
-              "Small Furnishing"
-            ],
-            "subtypes": [
-              "Craftwork"
-            ],
-            "comfort": 60,
-            "cost": 190,
-            "source": [],
-            "recipe": {
-              "time": 50400,
-              "exp": 60,
-              "materials": [
-                {
-                  "id": "101001",
-                  "name": "Iron Chunk",
-                  "count": 8,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
-                },
-                {
-                  "id": "101002",
-                  "name": "White Iron Chunk",
-                  "count": 4,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
-                }
-              ]
-            },
-            "art": "../../Database/GameData/gi/furniture/assets/362408.webp"
-          },
-          {
-            "id": "363121",
-            "name": "363121",
-            "description": null,
-            "rarity": 3,
-            "category": "Ornaments",
-            "types": [
-              "Ornaments"
-            ],
-            "subtypes": [
-              "Lighting"
-            ],
-            "comfort": 60,
-            "cost": 305,
-            "source": [],
-            "recipe": {
-              "time": 50400,
-              "exp": 60,
-              "materials": [
-                {
-                  "id": "101001",
-                  "name": "Iron Chunk",
-                  "count": 6,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
-                },
-                {
-                  "id": "101002",
-                  "name": "White Iron Chunk",
-                  "count": 6,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
-                }
-              ]
-            },
-            "art": "../../Database/GameData/gi/furniture/assets/363121.webp"
-          },
-          {
-            "id": "363122",
-            "name": "363122",
-            "description": null,
-            "rarity": 3,
-            "category": "Ornaments",
-            "types": [
-              "Ornaments"
-            ],
-            "subtypes": [
-              "Lighting"
-            ],
-            "comfort": 60,
-            "cost": 305,
-            "source": [],
-            "recipe": {
-              "time": 50400,
-              "exp": 60,
-              "materials": [
-                {
-                  "id": "101001",
-                  "name": "Iron Chunk",
-                  "count": 6,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
-                },
-                {
-                  "id": "101002",
-                  "name": "White Iron Chunk",
-                  "count": 6,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
-                }
-              ]
-            },
-            "art": "../../Database/GameData/gi/furniture/assets/363122.webp"
-          },
-          {
-            "id": "363399",
-            "name": "363399",
-            "description": null,
-            "rarity": 4,
-            "category": "Ornaments",
-            "types": [
-              "Ornaments"
-            ],
-            "subtypes": [
-              "Memento"
-            ],
-            "comfort": 60,
-            "cost": 1300,
-            "source": [],
-            "recipe": {
-              "time": 50400,
-              "exp": 60,
-              "materials": [
-                {
-                  "id": "101001",
-                  "name": "Iron Chunk",
-                  "count": 4,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
-                },
-                {
-                  "id": "101002",
-                  "name": "White Iron Chunk",
-                  "count": 4,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
-                }
-              ]
-            },
-            "art": "../../Database/GameData/gi/furniture/assets/363399.webp"
-          },
-          {
-            "id": "363441",
-            "name": "363441",
-            "description": null,
-            "rarity": 3,
-            "category": "Ornaments",
-            "types": [
-              "Ornaments"
-            ],
-            "subtypes": [
-              "Utensil"
-            ],
-            "comfort": 60,
-            "cost": 676,
-            "source": [],
-            "recipe": {
-              "time": 50400,
-              "exp": 60,
-              "materials": [
-                {
-                  "id": "101001",
-                  "name": "Iron Chunk",
-                  "count": 4,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
-                },
-                {
-                  "id": "101002",
-                  "name": "White Iron Chunk",
-                  "count": 4,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
-                }
-              ]
-            },
-            "art": "../../Database/GameData/gi/furniture/assets/363441.webp"
-          },
-          {
-            "id": "363442",
-            "name": "363442",
-            "description": null,
-            "rarity": 3,
-            "category": "Ornaments",
-            "types": [
-              "Ornaments"
-            ],
-            "subtypes": [
-              "Utensil"
-            ],
-            "comfort": 60,
-            "cost": 676,
-            "source": [],
-            "recipe": {
-              "time": 50400,
-              "exp": 60,
-              "materials": [
-                {
-                  "id": "101001",
-                  "name": "Iron Chunk",
-                  "count": 4,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
-                },
-                {
-                  "id": "101002",
-                  "name": "White Iron Chunk",
-                  "count": 4,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
-                }
-              ]
-            },
-            "art": "../../Database/GameData/gi/furniture/assets/363442.webp"
-          },
-          {
-            "id": "363443",
-            "name": "363443",
-            "description": null,
-            "rarity": 3,
-            "category": "Ornaments",
-            "types": [
-              "Ornaments"
-            ],
-            "subtypes": [
-              "Utensil"
-            ],
-            "comfort": 60,
-            "cost": 676,
-            "source": [],
-            "recipe": {
-              "time": 57600,
-              "exp": 90,
-              "materials": [
-                {
-                  "id": "101001",
-                  "name": "Iron Chunk",
-                  "count": 6,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
-                },
-                {
-                  "id": "101002",
-                  "name": "White Iron Chunk",
-                  "count": 12,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
-                }
-              ]
-            },
-            "art": "../../Database/GameData/gi/furniture/assets/363443.webp"
-          },
-          {
-            "id": "363513",
-            "name": "363513",
-            "description": null,
-            "rarity": 3,
-            "category": "Ornaments",
-            "types": [
-              "Ornaments"
-            ],
-            "subtypes": [
-              "Potted Plant"
-            ],
-            "comfort": 60,
-            "cost": 180,
-            "source": [],
-            "recipe": {
-              "time": 50400,
-              "exp": 60,
-              "materials": [
-                {
-                  "id": "101001",
-                  "name": "Iron Chunk",
-                  "count": 8,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
-                },
-                {
-                  "id": "101002",
-                  "name": "White Iron Chunk",
-                  "count": 4,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
-                }
-              ]
-            },
-            "art": "../../Database/GameData/gi/furniture/assets/363513.webp"
-          },
-          {
-            "id": "363514",
-            "name": "363514",
-            "description": null,
-            "rarity": 3,
-            "category": "Ornaments",
-            "types": [
-              "Ornaments"
-            ],
-            "subtypes": [
-              "Potted Plant"
-            ],
-            "comfort": 60,
-            "cost": 180,
-            "source": [],
-            "recipe": {
-              "time": 50400,
-              "exp": 60,
-              "materials": [
-                {
-                  "id": "101001",
-                  "name": "Iron Chunk",
-                  "count": 4,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
-                },
-                {
-                  "id": "101002",
-                  "name": "White Iron Chunk",
-                  "count": 4,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
-                }
-              ]
-            },
-            "art": "../../Database/GameData/gi/furniture/assets/363514.webp"
-          },
-          {
-            "id": "364524",
-            "name": "364524",
-            "description": null,
-            "rarity": 3,
-            "category": "Wall Decor",
-            "types": [
-              "Wall Decor"
-            ],
-            "subtypes": [
-              "Picture Frame"
-            ],
-            "comfort": 60,
-            "cost": 169,
-            "source": [],
-            "recipe": {
-              "time": 50400,
-              "exp": 60,
-              "materials": [
-                {
-                  "id": "101001",
-                  "name": "Iron Chunk",
-                  "count": 4,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
-                },
-                {
-                  "id": "101002",
-                  "name": "White Iron Chunk",
-                  "count": 8,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
-                }
-              ]
-            },
-            "art": "../../Database/GameData/gi/furniture/assets/364524.webp"
-          },
-          {
-            "id": "369231",
-            "name": "369231",
-            "description": null,
-            "rarity": 3,
-            "category": "Animal",
-            "types": [
-              "Animal"
-            ],
-            "subtypes": [
-              "Outdoor Creature"
-            ],
-            "comfort": 100,
-            "cost": 620,
-            "source": [
-              "Obtained through capture"
-            ],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/369231.webp"
-          },
-          {
-            "id": "369232",
-            "name": "369232",
-            "description": null,
-            "rarity": 3,
-            "category": "Animal",
-            "types": [
-              "Animal"
-            ],
-            "subtypes": [
-              "Outdoor Creature"
-            ],
-            "comfort": 100,
-            "cost": 620,
-            "source": [
-              "Obtained through capture"
-            ],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/369232.webp"
-          },
-          {
-            "id": "369233",
-            "name": "369233",
-            "description": null,
-            "rarity": 3,
-            "category": "Animal",
-            "types": [
-              "Animal"
-            ],
-            "subtypes": [
-              "Outdoor Creature"
-            ],
-            "comfort": 100,
-            "cost": 625,
-            "source": [
-              "Obtained through capture"
-            ],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/369233.webp"
-          },
-          {
-            "id": "369234",
-            "name": "369234",
-            "description": null,
-            "rarity": 3,
-            "category": "Animal",
-            "types": [
-              "Animal"
-            ],
-            "subtypes": [
-              "Outdoor Creature"
-            ],
-            "comfort": 100,
-            "cost": 625,
-            "source": [
-              "Obtained through capture"
-            ],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/369234.webp"
-          },
-          {
-            "id": "369235",
-            "name": "369235",
-            "description": null,
-            "rarity": 3,
-            "category": "Animal",
-            "types": [
-              "Animal"
-            ],
-            "subtypes": [
-              "Outdoor Creature"
-            ],
-            "comfort": 100,
-            "cost": 620,
-            "source": [
-              "Obtained through capture"
-            ],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/369235.webp"
-          },
-          {
-            "id": "369236",
-            "name": "369236",
-            "description": null,
-            "rarity": 3,
-            "category": "Animal",
-            "types": [
-              "Animal"
-            ],
-            "subtypes": [
-              "Outdoor Creature"
-            ],
-            "comfort": 100,
-            "cost": 625,
-            "source": [
-              "Obtained through capture"
-            ],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/369236.webp"
-          },
-          {
-            "id": "369237",
-            "name": "369237",
-            "description": null,
-            "rarity": 3,
-            "category": "Animal",
-            "types": [
-              "Animal"
-            ],
-            "subtypes": [
-              "Outdoor Creature"
-            ],
-            "comfort": 100,
-            "cost": 625,
-            "source": [
-              "Obtained through capture"
-            ],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/369237.webp"
-          },
-          {
-            "id": "371050",
-            "name": "371050",
-            "description": null,
-            "rarity": 3,
-            "category": "Other",
-            "types": [
-              ""
-            ],
-            "subtypes": [
-              ""
-            ],
-            "comfort": 60,
-            "cost": 65,
-            "source": [],
-            "recipe": {
-              "time": 50400,
-              "exp": 60,
-              "materials": [
-                {
-                  "id": "101001",
-                  "name": "Iron Chunk",
-                  "count": 2,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
-                },
-                {
-                  "id": "101002",
-                  "name": "White Iron Chunk",
-                  "count": 6,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
-                }
-              ]
-            },
-            "art": "../../Database/GameData/gi/furniture/assets/371050.webp"
-          },
-          {
-            "id": "371051",
-            "name": "371051",
-            "description": null,
-            "rarity": 3,
-            "category": "Other",
-            "types": [
-              ""
-            ],
-            "subtypes": [
-              ""
-            ],
-            "comfort": 60,
-            "cost": 65,
-            "source": [],
-            "recipe": {
-              "time": 50400,
-              "exp": 60,
-              "materials": [
-                {
-                  "id": "101001",
-                  "name": "Iron Chunk",
-                  "count": 6,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
-                },
-                {
-                  "id": "101002",
-                  "name": "White Iron Chunk",
-                  "count": 6,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
-                }
-              ]
-            },
-            "art": "../../Database/GameData/gi/furniture/assets/371051.webp"
-          },
-          {
-            "id": "371052",
-            "name": "371052",
-            "description": null,
-            "rarity": 3,
-            "category": "Other",
-            "types": [
-              ""
-            ],
-            "subtypes": [
-              ""
-            ],
-            "comfort": 60,
-            "cost": 65,
-            "source": [],
-            "recipe": {
-              "time": 50400,
-              "exp": 60,
-              "materials": [
-                {
-                  "id": "101001",
-                  "name": "Iron Chunk",
-                  "count": 2,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
-                },
-                {
-                  "id": "101002",
-                  "name": "White Iron Chunk",
-                  "count": 6,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
-                }
-              ]
-            },
-            "art": "../../Database/GameData/gi/furniture/assets/371052.webp"
-          },
-          {
-            "id": "371053",
-            "name": "371053",
-            "description": null,
-            "rarity": 3,
-            "category": "Other",
-            "types": [
-              ""
-            ],
-            "subtypes": [
-              ""
-            ],
-            "comfort": 60,
-            "cost": 65,
-            "source": [],
-            "recipe": {
-              "time": 57600,
-              "exp": 90,
-              "materials": [
-                {
-                  "id": "101001",
-                  "name": "Iron Chunk",
-                  "count": 10,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
-                },
-                {
-                  "id": "101002",
-                  "name": "White Iron Chunk",
-                  "count": 8,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
-                }
-              ]
-            },
-            "art": "../../Database/GameData/gi/furniture/assets/371053.webp"
-          },
-          {
-            "id": "371054",
-            "name": "371054",
-            "description": null,
-            "rarity": 3,
-            "category": "Other",
-            "types": [
-              ""
-            ],
-            "subtypes": [
-              ""
-            ],
-            "comfort": 60,
-            "cost": 65,
-            "source": [],
-            "recipe": {
-              "time": 50400,
-              "exp": 60,
-              "materials": [
-                {
-                  "id": "101001",
-                  "name": "Iron Chunk",
-                  "count": 2,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
-                },
-                {
-                  "id": "101002",
-                  "name": "White Iron Chunk",
-                  "count": 6,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
-                }
-              ]
-            },
-            "art": "../../Database/GameData/gi/furniture/assets/371054.webp"
-          },
-          {
-            "id": "371055",
-            "name": "371055",
-            "description": null,
-            "rarity": 3,
-            "category": "Other",
-            "types": [
-              ""
-            ],
-            "subtypes": [
-              ""
-            ],
-            "comfort": 60,
-            "cost": 65,
-            "source": [],
-            "recipe": {
-              "time": 50400,
-              "exp": 60,
-              "materials": [
-                {
-                  "id": "101301",
-                  "name": "Birch Wood",
-                  "count": 6,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101301.webp"
-                },
-                {
-                  "id": "101002",
-                  "name": "White Iron Chunk",
-                  "count": 2,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
-                }
-              ]
-            },
-            "art": "../../Database/GameData/gi/furniture/assets/371055.webp"
-          },
-          {
-            "id": "371056",
-            "name": "371056",
-            "description": null,
-            "rarity": 3,
-            "category": "Other",
-            "types": [
-              ""
-            ],
-            "subtypes": [
-              ""
-            ],
-            "comfort": 60,
-            "cost": 65,
-            "source": [],
-            "recipe": {
-              "time": 50400,
-              "exp": 60,
-              "materials": [
-                {
-                  "id": "101001",
-                  "name": "Iron Chunk",
-                  "count": 2,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
-                },
-                {
-                  "id": "101002",
-                  "name": "White Iron Chunk",
-                  "count": 6,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
-                }
-              ]
-            },
-            "art": "../../Database/GameData/gi/furniture/assets/371056.webp"
-          },
-          {
-            "id": "372363",
-            "name": "372363",
-            "description": null,
-            "rarity": 3,
-            "category": "Landform",
-            "types": [
-              "Landform"
-            ],
-            "subtypes": [
-              "Tree"
-            ],
-            "comfort": 30,
-            "cost": 65,
-            "source": [],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/372363.webp"
-          },
-          {
-            "id": "372525",
-            "name": "372525",
-            "description": null,
-            "rarity": 3,
-            "category": "Landform",
-            "types": [
-              "Landform"
-            ],
-            "subtypes": [
-              "Small Shrub"
-            ],
-            "comfort": 30,
-            "cost": 35,
-            "source": [],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/372525.webp"
-          },
-          {
-            "id": "372526",
-            "name": "372526",
-            "description": null,
-            "rarity": 3,
-            "category": "Landform",
-            "types": [
-              "Landform"
-            ],
-            "subtypes": [
-              "Small Shrub"
-            ],
-            "comfort": 30,
-            "cost": 35,
-            "source": [],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/372526.webp"
-          },
-          {
-            "id": "373942",
-            "name": "373942",
-            "description": null,
-            "rarity": 3,
-            "category": "Landscape",
-            "types": [
-              "Landscape"
-            ],
-            "subtypes": [
-              "Small Object"
-            ],
-            "comfort": 30,
-            "cost": 35,
-            "source": [],
-            "recipe": {
-              "time": 50400,
-              "exp": 60,
-              "materials": [
-                {
-                  "id": "101320",
-                  "name": "Ash Wood",
-                  "count": 2,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101320.webp"
-                },
-                {
-                  "id": "101401",
-                  "name": "Fabric",
-                  "count": 4,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101401.webp"
-                }
-              ]
-            },
-            "art": "../../Database/GameData/gi/furniture/assets/373942.webp"
-          },
-          {
-            "id": "373943",
-            "name": "373943",
-            "description": null,
-            "rarity": 3,
-            "category": "Landscape",
-            "types": [
-              "Landscape"
-            ],
-            "subtypes": [
-              "Small Object"
-            ],
-            "comfort": 30,
-            "cost": 35,
-            "source": [],
-            "recipe": {
-              "time": 50400,
-              "exp": 60,
-              "materials": [
-                {
-                  "id": "101401",
-                  "name": "Fabric",
-                  "count": 8,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101401.webp"
-                },
-                {
-                  "id": "101402",
-                  "name": "Red Dye",
-                  "count": 4,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101402.webp"
-                }
-              ]
-            },
-            "art": "../../Database/GameData/gi/furniture/assets/373943.webp"
-          },
-          {
-            "id": "373944",
-            "name": "373944",
-            "description": null,
-            "rarity": 3,
-            "category": "Landscape",
-            "types": [
-              "Landscape"
-            ],
-            "subtypes": [
-              "Small Object"
-            ],
-            "comfort": 30,
-            "cost": 35,
-            "source": [],
-            "recipe": {
-              "time": 50400,
-              "exp": 60,
-              "materials": [
-                {
-                  "id": "101001",
-                  "name": "Iron Chunk",
-                  "count": 4,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
-                },
-                {
-                  "id": "101401",
-                  "name": "Fabric",
-                  "count": 4,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101401.webp"
-                }
-              ]
-            },
-            "art": "../../Database/GameData/gi/furniture/assets/373944.webp"
-          },
-          {
-            "id": "374224",
-            "name": "374224",
-            "description": null,
-            "rarity": 3,
-            "category": "Outdoor Furnishing",
-            "types": [
-              "Outdoor Furnishing"
-            ],
-            "subtypes": [
-              "Seating"
-            ],
-            "comfort": 30,
-            "cost": 35,
-            "source": [],
-            "recipe": {
-              "time": 50400,
-              "exp": 60,
-              "materials": [
-                {
-                  "id": "101001",
-                  "name": "Iron Chunk",
-                  "count": 6,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
-                },
-                {
-                  "id": "101002",
-                  "name": "White Iron Chunk",
-                  "count": 6,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
-                }
-              ]
-            },
-            "art": "../../Database/GameData/gi/furniture/assets/374224.webp"
-          },
-          {
-            "id": "374225",
-            "name": "374225",
-            "description": null,
-            "rarity": 3,
-            "category": "Outdoor Furnishing",
-            "types": [
-              "Outdoor Furnishing"
-            ],
-            "subtypes": [
-              "Seating"
-            ],
-            "comfort": 30,
-            "cost": 35,
-            "source": [],
-            "recipe": {
-              "time": 50400,
-              "exp": 60,
-              "materials": [
-                {
-                  "id": "101001",
-                  "name": "Iron Chunk",
-                  "count": 10,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
-                },
-                {
-                  "id": "101002",
-                  "name": "White Iron Chunk",
-                  "count": 4,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
-                }
-              ]
-            },
-            "art": "../../Database/GameData/gi/furniture/assets/374225.webp"
-          },
-          {
-            "id": "374334",
-            "name": "374334",
-            "description": null,
-            "rarity": 3,
-            "category": "Outdoor Furnishing",
-            "types": [
-              "Outdoor Furnishing"
-            ],
-            "subtypes": [
-              "Table"
-            ],
-            "comfort": 60,
-            "cost": 65,
-            "source": [],
-            "recipe": {
-              "time": 50400,
-              "exp": 60,
-              "materials": [
-                {
-                  "id": "101301",
-                  "name": "Birch Wood",
-                  "count": 6,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101301.webp"
-                },
-                {
-                  "id": "101002",
-                  "name": "White Iron Chunk",
-                  "count": 2,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
-                }
-              ]
-            },
-            "art": "../../Database/GameData/gi/furniture/assets/374334.webp"
-          },
-          {
-            "id": "374661",
-            "name": "374661",
-            "description": null,
-            "rarity": 3,
-            "category": "Landscape",
-            "types": [
-              "Landscape"
-            ],
-            "subtypes": [
-              "Large Object"
-            ],
-            "comfort": 30,
-            "cost": 50,
-            "source": [],
-            "recipe": {
-              "time": 50400,
-              "exp": 60,
-              "materials": [
-                {
-                  "id": "101001",
-                  "name": "Iron Chunk",
-                  "count": 4,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
-                },
-                {
-                  "id": "101002",
-                  "name": "White Iron Chunk",
-                  "count": 4,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
-                }
-              ]
-            },
-            "art": "../../Database/GameData/gi/furniture/assets/374661.webp"
-          },
-          {
-            "id": "374662",
-            "name": "374662",
-            "description": null,
-            "rarity": 3,
-            "category": "Landscape",
-            "types": [
-              "Landscape"
-            ],
-            "subtypes": [
-              "Large Object"
-            ],
-            "comfort": 30,
-            "cost": 50,
-            "source": [],
-            "recipe": {
-              "time": 50400,
-              "exp": 60,
-              "materials": [
-                {
-                  "id": "101001",
-                  "name": "Iron Chunk",
-                  "count": 2,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
-                },
-                {
-                  "id": "101002",
-                  "name": "White Iron Chunk",
-                  "count": 6,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
-                }
-              ]
-            },
-            "art": "../../Database/GameData/gi/furniture/assets/374662.webp"
-          },
-          {
-            "id": "374663",
-            "name": "374663",
-            "description": null,
-            "rarity": 3,
-            "category": "Landscape",
-            "types": [
-              "Landscape"
-            ],
-            "subtypes": [
-              "Large Object"
-            ],
-            "comfort": 30,
-            "cost": 50,
-            "source": [],
-            "recipe": {
-              "time": 50400,
-              "exp": 60,
-              "materials": [
-                {
-                  "id": "101001",
-                  "name": "Iron Chunk",
-                  "count": 2,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
-                },
-                {
-                  "id": "101002",
-                  "name": "White Iron Chunk",
-                  "count": 6,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
-                }
-              ]
-            },
-            "art": "../../Database/GameData/gi/furniture/assets/374663.webp"
-          },
-          {
-            "id": "374664",
-            "name": "374664",
-            "description": null,
-            "rarity": 3,
-            "category": "Landscape",
-            "types": [
-              "Landscape"
-            ],
-            "subtypes": [
-              "Large Object"
-            ],
-            "comfort": 30,
-            "cost": 50,
-            "source": [],
-            "recipe": {
-              "time": 57600,
-              "exp": 90,
-              "materials": [
-                {
-                  "id": "101001",
-                  "name": "Iron Chunk",
-                  "count": 6,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
-                },
-                {
-                  "id": "101002",
-                  "name": "White Iron Chunk",
-                  "count": 12,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
-                }
-              ]
-            },
-            "art": "../../Database/GameData/gi/furniture/assets/374664.webp"
-          },
-          {
-            "id": "374665",
-            "name": "374665",
-            "description": null,
-            "rarity": 3,
-            "category": "Landscape",
-            "types": [
-              "Landscape"
-            ],
-            "subtypes": [
-              "Large Object"
-            ],
-            "comfort": 30,
-            "cost": 50,
-            "source": [],
-            "recipe": {
-              "time": 57600,
-              "exp": 90,
-              "materials": [
-                {
-                  "id": "101320",
-                  "name": "Ash Wood",
-                  "count": 8,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101320.webp"
-                },
-                {
-                  "id": "101001",
-                  "name": "Iron Chunk",
-                  "count": 4,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
-                }
-              ]
-            },
-            "art": "../../Database/GameData/gi/furniture/assets/374665.webp"
-          },
-          {
-            "id": "374666",
-            "name": "374666",
-            "description": null,
-            "rarity": 3,
-            "category": "Landscape",
-            "types": [
-              "Landscape"
-            ],
-            "subtypes": [
-              "Large Object"
-            ],
-            "comfort": 30,
-            "cost": 50,
-            "source": [],
-            "recipe": {
-              "time": 50400,
-              "exp": 60,
-              "materials": [
-                {
-                  "id": "101001",
-                  "name": "Iron Chunk",
-                  "count": 2,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
-                },
-                {
-                  "id": "101002",
-                  "name": "White Iron Chunk",
-                  "count": 6,
-                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
-                }
-              ]
-            },
-            "art": "../../Database/GameData/gi/furniture/assets/374666.webp"
-          },
-          {
-            "id": "374849",
-            "name": "374849",
-            "description": null,
-            "rarity": 3,
-            "category": "Landscape",
-            "types": [
-              "Landscape"
-            ],
-            "subtypes": [
-              "Special Object"
-            ],
-            "comfort": 30,
-            "cost": 95,
-            "source": [],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/374849.webp"
           },
           {
             "id": "361319",
@@ -53130,7 +52398,7 @@ var NYX_DB = {
           {
             "id": "372501",
             "name": "A Path of Value: Jade Field",
-            "description": "An orderly field that is saturated with Sub-Space Creation energy. The fertile soil has almost unlimited nutrition, and thus seeds planted here will grow into excellent crops in time without much need for intensive care. However, crops placed here will tend to put long roots down, so you cannot put too many crops in here if you wish to give them all sufficient room to grow.\\nThe following seeds, spores, and samples obtained from the Seed Dispensary may be planted here: Valberry, Sweet Flower, Small Lamp Grass, Jueyun Chili, Carrot, Radish, Mint, Mushroom, Harra Fruit, Zaytun Peach, Marcotte, Grainfruit, Cacahuatl, Saurian Claw Succulent, Quenepa Berry, Glowing Hornshroom, Lakkaberry, Midsommar Berry, Pine Amber, Golden Fern, Red Beets, Cryo-Currant.",
+            "description": "An orderly field that is saturated with Sub-Space Creation energy. The fertile soil has almost unlimited nutrition, and thus seeds planted here will grow into excellent crops in time without much need for intensive care. However, crops placed here will tend to put long roots down, so you cannot put too many crops in here if you wish to give them all sufficient room to grow.\\nThe following seeds, spores, and samples obtained from the Seed Dispensary may be planted here: Valberry, Sweet Flower, Small Lamp Grass, Jueyun Chili, Carrot, Radish, Mint, Mushroom, Harra Fruit, Zaytun Peach, Marcotte, Grainfruit, Cacahuatl, Saurian Claw Succulent, Quenepa Berry, Glowing Hornshroom, Lakkaberry, Midsommar Berry, Pine Amber, Golden Fern, Red Beet, Rimecurrant.",
             "rarity": 4,
             "category": "Landform",
             "types": [
@@ -53150,7 +52418,7 @@ var NYX_DB = {
           {
             "id": "372502",
             "name": "A Path of Value: Luxuriant Glebe",
-            "description": "An orderly field saturated with Sub-Space Creation energy. The fertile soil boasts almost unlimited nutrition, and thus seeds planted here will grow into excellent flowers in time without much need for intensive care. However, flowers planted here tend to put down long roots, so you cannot place too many of them in here if you wish to give them all sufficient room to grow.\\nThe following seeds, spores, and samples obtained from the Seed Dispensary may be planted here: Silk Flower, Cecilia, Glaze Lily, Windwheel Aster, Qingxin, Violetgrass, Naku Weed, Sumeru Rose, Lumidouce Bell, Rainbow Rose, Brilliant Chrysanthemum, Skysplit Gembloom, Frostlamp Flower, Winter Icelea, Frostflower, Flockbloom, Snow-Eared Flower.",
+            "description": "An orderly field saturated with Sub-Space Creation energy. The fertile soil boasts almost unlimited nutrition, and thus seeds planted here will grow into excellent flowers in time without much need for intensive care. However, flowers planted here tend to put down long roots, so you cannot place too many of them in here if you wish to give them all sufficient room to grow.\\nThe following seeds, spores, and samples obtained from the Seed Dispensary may be planted here: Silk Flower, Cecilia, Glaze Lily, Windwheel Aster, Qingxin, Violetgrass, Naku Weed, Sumeru Rose, Lumidouce Bell, Rainbow Rose, Brilliant Chrysanthemum, Skysplit Gembloom, Frostlamp Flower, Winter Icelea, Frostfairy Flower, Flockingweed, Snowball Flower.",
             "rarity": 4,
             "category": "Landform",
             "types": [
@@ -54103,7 +53371,7 @@ var NYX_DB = {
               "Companion"
             ],
             "comfort": 300,
-            "cost": 1600,
+            "cost": 1750,
             "source": [],
             "recipe": null,
             "art": null
@@ -56563,6 +55831,86 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/furniture/assets/360507.webp"
           },
           {
+            "id": "374662",
+            "name": "Basic Tent: \"A Nap Beneath the Snow\"",
+            "description": "A basic tent commonly seen in Morepesok, its roof made of dark-red waterproof cloth and its four corners supported by sturdy wooden posts.\\nThe tent is mainly meant to shield those beneath it from snow falling vertically, providing a short-stay shelter for those passing through. Due to its low structural strength, however, the snow that accumulates overhead during heavy snowstorms can become heavy enough to bring the whole thing down...",
+            "rarity": 2,
+            "category": "Landscape",
+            "types": [
+              "Landscape"
+            ],
+            "subtypes": [
+              "Large Object"
+            ],
+            "comfort": 30,
+            "cost": 65,
+            "source": [
+              "Snezhnaya Remarkable Chest Reward"
+            ],
+            "recipe": {
+              "time": 43200,
+              "exp": 30,
+              "materials": [
+                {
+                  "id": "101401",
+                  "name": "Fabric",
+                  "count": 4,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101401.webp"
+                },
+                {
+                  "id": "101402",
+                  "name": "Red Dye",
+                  "count": 4,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101402.webp"
+                }
+              ]
+            },
+            "art": "../../Database/GameData/gi/furniture/assets/374662.webp"
+          },
+          {
+            "id": "374661",
+            "name": "Basic Transport Sled",
+            "description": "A transport sled built of thick wooden planks and a small amount of metal fittings. The runners curve gently upward at the front to prevent them from digging into the snow during sudden stops, and to reduce forward resistance. The cargo bay carries a large quantity of supplies, covered with a rainproof tarp and secured with fastening straps. Though it has no complex mechanisms, it is an indispensable and reliable companion for hauling supplies across the snowfields.",
+            "rarity": 3,
+            "category": "Landscape",
+            "types": [
+              "Landscape"
+            ],
+            "subtypes": [
+              "Large Object"
+            ],
+            "comfort": 60,
+            "cost": 50,
+            "source": [
+              "Snezhnaya Remarkable Chest Reward"
+            ],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101332",
+                  "name": "101332",
+                  "count": 4,
+                  "icon": null
+                },
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 2,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 2,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/GameData/gi/furniture/assets/374661.webp"
+          },
+          {
             "id": "374616",
             "name": "Bear Witness",
             "description": "A brazier meticulously carved from the finest volcanic rock, adorned with special painted motifs and an ornate base inlaid with luxurious metal fittings. Burning away with a solemn dignity, these braziers can be seen near the main pathways within the Stadium of the Sacred Flame.\\nNatlan is the Nation of Flame, where flames are not only a symbol of belief but also a source of inspiration. Thus have its people placed braziers along the main pathways, within the Stadium itself, and in the Speaker's Chamber, ensuring that all significant events are witnessed by the watchful flames.",
@@ -56737,6 +56085,86 @@ var NYX_DB = {
             ],
             "recipe": null,
             "art": "../../Database/GameData/gi/furniture/assets/360425.webp"
+          },
+          {
+            "id": "363437",
+            "name": "Big Adventurer - Cheer",
+            "description": "\"Cheer\" is one of the important treasures gathered during one's adventures!",
+            "rarity": 4,
+            "category": "Landscape",
+            "types": [
+              "Landscape"
+            ],
+            "subtypes": [
+              "Tes Katheryne Parts"
+            ],
+            "comfort": 0,
+            "cost": 0,
+            "source": [
+              "Obtained from Limited-Time Event"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/363437.webp"
+          },
+          {
+            "id": "363438",
+            "name": "Big Adventurer - Diligence",
+            "description": "\"Diligence\" is the state of steady, careful progress as one adventures!",
+            "rarity": 4,
+            "category": "Landscape",
+            "types": [
+              "Landscape"
+            ],
+            "subtypes": [
+              "Tes Katheryne Parts"
+            ],
+            "comfort": 0,
+            "cost": 0,
+            "source": [
+              "Obtained from Limited-Time Event"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/363438.webp"
+          },
+          {
+            "id": "363440",
+            "name": "Big Adventurer - Fighting Spirit",
+            "description": "\"Fighting Spirit\" is the resolve no adventurer ever lets slip!",
+            "rarity": 4,
+            "category": "Landscape",
+            "types": [
+              "Landscape"
+            ],
+            "subtypes": [
+              "Tes Katheryne Parts"
+            ],
+            "comfort": 0,
+            "cost": 0,
+            "source": [
+              "Obtained from Limited-Time Event"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/363440.webp"
+          },
+          {
+            "id": "363439",
+            "name": "Big Adventurer - Joy",
+            "description": "\"Joy\" is a feeling you should hold dear during any adventure!",
+            "rarity": 4,
+            "category": "Landscape",
+            "types": [
+              "Landscape"
+            ],
+            "subtypes": [
+              "Tes Katheryne Parts"
+            ],
+            "comfort": 0,
+            "cost": 0,
+            "source": [
+              "Obtained from Limited-Time Event"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/363439.webp"
           },
           {
             "id": "362402",
@@ -57450,86 +56878,6 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/furniture/assets/364221.webp"
           },
           {
-            "id": "363423",
-            "name": "Body - Bouquet",
-            "description": null,
-            "rarity": 4,
-            "category": "Landscape",
-            "types": [
-              "Landscape"
-            ],
-            "subtypes": [
-              "tes Katheryne component"
-            ],
-            "comfort": 0,
-            "cost": 0,
-            "source": [
-              "Obtained from Limited-Time Event"
-            ],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/363423.webp"
-          },
-          {
-            "id": "363424",
-            "name": "Body - Gift",
-            "description": null,
-            "rarity": 4,
-            "category": "Landscape",
-            "types": [
-              "Landscape"
-            ],
-            "subtypes": [
-              "tes Katheryne component"
-            ],
-            "comfort": 0,
-            "cost": 0,
-            "source": [
-              "Obtained from Limited-Time Event"
-            ],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/363424.webp"
-          },
-          {
-            "id": "363422",
-            "name": "Body - Hands on Hips",
-            "description": null,
-            "rarity": 4,
-            "category": "Landscape",
-            "types": [
-              "Landscape"
-            ],
-            "subtypes": [
-              "tes Katheryne component"
-            ],
-            "comfort": 0,
-            "cost": 0,
-            "source": [
-              "Obtained from Limited-Time Event"
-            ],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/363422.webp"
-          },
-          {
-            "id": "363421",
-            "name": "Body - Stance",
-            "description": null,
-            "rarity": 4,
-            "category": "Landscape",
-            "types": [
-              "Landscape"
-            ],
-            "subtypes": [
-              "tes Katheryne component"
-            ],
-            "comfort": 0,
-            "cost": 0,
-            "source": [
-              "Obtained from Limited-Time Event"
-            ],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/363421.webp"
-          },
-          {
             "id": "373513",
             "name": "Bookshelf: Focused Effect",
             "description": "A large segmented bookshelf made of durable Cypress Wood. It is a common public amenity in Fontaine.\\nFrom the outside, this bookshelf appears to be just a variant of the medium-sized bookshelf. However, according to researchers involved in looking into the rapid classification of news article themes, the new bookshelf has been specifically designed to allow people's eyes to quickly focus on a point, amplifying the effect of advertisements. However, judging from the great influence of The Steambird, this focusing effect seems far less important now...",
@@ -57714,86 +57062,6 @@ var NYX_DB = {
             ],
             "recipe": null,
             "art": "../../Database/GameData/gi/furniture/assets/369125.webp"
-          },
-          {
-            "id": "363417",
-            "name": "Booth 1",
-            "description": null,
-            "rarity": 4,
-            "category": "Landscape",
-            "types": [
-              "Landscape"
-            ],
-            "subtypes": [
-              "Curio"
-            ],
-            "comfort": 30,
-            "cost": 30,
-            "source": [
-              "Obtained from Limited-Time Event"
-            ],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/363417.webp"
-          },
-          {
-            "id": "363418",
-            "name": "Booth 2",
-            "description": null,
-            "rarity": 4,
-            "category": "Landscape",
-            "types": [
-              "Landscape"
-            ],
-            "subtypes": [
-              "Curio"
-            ],
-            "comfort": 30,
-            "cost": 30,
-            "source": [
-              "Obtained from Limited-Time Event"
-            ],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/363418.webp"
-          },
-          {
-            "id": "363419",
-            "name": "Booth 3",
-            "description": null,
-            "rarity": 4,
-            "category": "Landscape",
-            "types": [
-              "Landscape"
-            ],
-            "subtypes": [
-              "Curio"
-            ],
-            "comfort": 30,
-            "cost": 30,
-            "source": [
-              "Obtained from Limited-Time Event"
-            ],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/363419.webp"
-          },
-          {
-            "id": "363420",
-            "name": "Booth 4",
-            "description": null,
-            "rarity": 4,
-            "category": "Landscape",
-            "types": [
-              "Landscape"
-            ],
-            "subtypes": [
-              "Curio"
-            ],
-            "comfort": 30,
-            "cost": 30,
-            "source": [
-              "Obtained from Limited-Time Event"
-            ],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/363420.webp"
           },
           {
             "id": "370305",
@@ -60344,6 +59612,26 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/furniture/assets/361104.webp"
           },
           {
+            "id": "363429",
+            "name": "Classic Hairstyle",
+            "description": "The elegant hairstyle that forms Katheryne's signature look.",
+            "rarity": 4,
+            "category": "Landscape",
+            "types": [
+              "Landscape"
+            ],
+            "subtypes": [
+              "Tes Katheryne Parts"
+            ],
+            "comfort": 0,
+            "cost": 0,
+            "source": [
+              "Obtained from Limited-Time Event"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/363429.webp"
+          },
+          {
             "id": "363301",
             "name": "Classical Lyre: Tenor of the Wind",
             "description": "The lyres of Mondstadt are famous and known to be both small and compact. This one is a little larger than most as it draws from more ancient designs that can be dated back to the Decarabian's era.\\nIt is said that this lyre was once borrowed by a certain bard and tuned using special harmonic rules to the point where even outstanding players cannot comprehend it.\\nBefore a skilled tuner can return it to its original state, it can only be used for home decoration.",
@@ -62833,6 +62121,26 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/furniture/assets/369147.webp"
           },
           {
+            "id": "363422",
+            "name": "Cross Mood",
+            "description": "\"A proper adventurer shouldn't be reckless!\"",
+            "rarity": 4,
+            "category": "Landscape",
+            "types": [
+              "Landscape"
+            ],
+            "subtypes": [
+              "Tes Katheryne Parts"
+            ],
+            "comfort": 0,
+            "cost": 0,
+            "source": [
+              "Obtained from Limited-Time Event"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/363422.webp"
+          },
+          {
             "id": "369149",
             "name": "Crow",
             "description": "A black colored avian.\\nThe black on its feathers are darker than the long nights of Teyvat. When many of them circle in the sky, they can create the illusion of a solar eclipse.\\nSome locals consider them inauspicious, while others consider them a symbol of good fortune. As the saying goes, that's how traditions work.\\nRumors abound among adventurers from various nations concerning a giant talking crow raised by a young female investigator from Mondstadt... Tubby does not think there is any need to be alarmed. \"Every animal has their own language, not just birds. Isn't it natural for intelligent beings to learn human language in turn?\"",
@@ -63485,6 +62793,43 @@ var NYX_DB = {
               ]
             },
             "art": "../../Database/GameData/gi/furniture/assets/373226.webp"
+          },
+          {
+            "id": "363514",
+            "name": "Decorative Flowerbed: \"Brightcore Blossoms\"",
+            "description": "A decorative flowerbed commonly seen in the Snezhnograd Veche, elegant in form and reserved in style.\\nThe flowers bear clean, unadorned white petals, yet their pistils carry bright, vivid colors, conveying a special kind of brightness to every viewer who pauses to look...",
+            "rarity": 3,
+            "category": "Ornaments",
+            "types": [
+              "Ornaments"
+            ],
+            "subtypes": [
+              "Potted Plant"
+            ],
+            "comfort": 60,
+            "cost": 169,
+            "source": [
+              "Snezhnaya Remarkable Chest Reward"
+            ],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 4,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 4,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/GameData/gi/furniture/assets/363514.webp"
           },
           {
             "id": "363512",
@@ -68021,86 +67366,6 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/furniture/assets/370726.webp"
           },
           {
-            "id": "363428",
-            "name": "Face - Angry",
-            "description": null,
-            "rarity": 4,
-            "category": "Landscape",
-            "types": [
-              "Landscape"
-            ],
-            "subtypes": [
-              "tes Katheryne component"
-            ],
-            "comfort": 0,
-            "cost": 0,
-            "source": [
-              "Obtained from Limited-Time Event"
-            ],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/363428.webp"
-          },
-          {
-            "id": "363425",
-            "name": "Face - Happy",
-            "description": null,
-            "rarity": 4,
-            "category": "Landscape",
-            "types": [
-              "Landscape"
-            ],
-            "subtypes": [
-              "tes Katheryne component"
-            ],
-            "comfort": 0,
-            "cost": 0,
-            "source": [
-              "Obtained from Limited-Time Event"
-            ],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/363425.webp"
-          },
-          {
-            "id": "363427",
-            "name": "Face-Eyewear",
-            "description": null,
-            "rarity": 4,
-            "category": "Landscape",
-            "types": [
-              "Landscape"
-            ],
-            "subtypes": [
-              "tes Katheryne component"
-            ],
-            "comfort": 0,
-            "cost": 0,
-            "source": [
-              "Obtained from Limited-Time Event"
-            ],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/363427.webp"
-          },
-          {
-            "id": "363426",
-            "name": "Face-Sincerity",
-            "description": null,
-            "rarity": 4,
-            "category": "Landscape",
-            "types": [
-              "Landscape"
-            ],
-            "subtypes": [
-              "tes Katheryne component"
-            ],
-            "comfort": 0,
-            "cost": 0,
-            "source": [
-              "Obtained from Limited-Time Event"
-            ],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/363426.webp"
-          },
-          {
             "id": "364223",
             "name": "Factory Broadcast: \"Invigoration\"",
             "description": "A broadcasting device commonly used at the Kuuvahki Experimental Design Bureau. Though it may not look like much, it has the remarkable ability to jolt even the sleepiest of staff members awake through sheer force of volume. In fact, it's so loud that someone once remarked: \"If it were any more powerful, we might be able to repurpose it as a sonic weapon...\"",
@@ -71917,6 +71182,26 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/furniture/assets/369186.webp"
           },
           {
+            "id": "369232",
+            "name": "Fluffahog",
+            "description": "A creature whose body is entirely covered in spines, save for a distinctly soft belly.\\nFluffahogs are gentle in temperament and love their sleep. They excel at building hidden nests from grass and branches, so they can enjoy warm, cozy dreams through the bitter cold. Since coming to the Serenitea Pot they no longer encounter the cold, but their nest-building habits remain unchanged all the same. Perhaps that habit is what gives them their sense of safety.",
+            "rarity": 3,
+            "category": "Animal",
+            "types": [
+              "Animal"
+            ],
+            "subtypes": [
+              "Outdoor Creature"
+            ],
+            "comfort": 100,
+            "cost": 320,
+            "source": [
+              "Obtained through capture"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/369232.webp"
+          },
+          {
             "id": "373909",
             "name": "Fluffy Alpaca Sheriff",
             "description": "A cardboard figure modeled after the gentle and shy Alpaca, so lifelike that when placed among a herd of the real, sedentary creatures, it could almost pass for one of them.\\n\"Fluffy Alpaca Sheriff\" is known for its amiable temperament, as soft as its fleece \u2014 towards most humans, that is. Should you happen to be a villain, however, beware: its flying kick is not to be taken lightly!",
@@ -73425,6 +72710,26 @@ var NYX_DB = {
             "source": [],
             "recipe": null,
             "art": null
+          },
+          {
+            "id": "369237",
+            "name": "Fuzzbadger",
+            "description": "An animal living in the interior of Snezhnaya, a close relative of the Chic Badger.\\nDespite their fluffy appearance, Fuzzbadgers are quite tough in personality, and never intimidated even by opponents much larger than themselves. Since coming to the Serenitea Pot, thanks to Tubby's proper management, Fuzzbadgers rarely fight other animals, mostly showing their gentle, friendly side.",
+            "rarity": 3,
+            "category": "Animal",
+            "types": [
+              "Animal"
+            ],
+            "subtypes": [
+              "Outdoor Creature"
+            ],
+            "comfort": 100,
+            "cost": 310,
+            "source": [
+              "Obtained through capture"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/369237.webp"
           },
           {
             "id": "368178",
@@ -75194,6 +74499,26 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/furniture/assets/363364.webp"
           },
           {
+            "id": "363425",
+            "name": "Happy Smile",
+            "description": "\"Katheryne's smile is always so steady and reassuring...\"",
+            "rarity": 4,
+            "category": "Landscape",
+            "types": [
+              "Landscape"
+            ],
+            "subtypes": [
+              "Tes Katheryne Parts"
+            ],
+            "comfort": 0,
+            "cost": 0,
+            "source": [
+              "Obtained from Limited-Time Event"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/363425.webp"
+          },
+          {
             "id": "363365",
             "name": "Hardcover Storybook: \"Simulanka\"",
             "description": "A gift from Alice, this hardcover storybook features an exquisitely carved cover. With the guidance of this book, you arrived in a world called \"Simulanka\" and experienced an adventure of heroes and dragons.\\nAll adventures have their end, and all stories have their conclusion. Or perhaps this adventure itself was but a beautiful \"illusion,\" while the memories of your adventures together with your friends is an incomparably vivid \"reality,\" one that will live on forever in your hearts.",
@@ -75413,66 +74738,6 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/furniture/assets/362131.webp"
           },
           {
-            "id": "363429",
-            "name": "Head - Black Hairband",
-            "description": null,
-            "rarity": 4,
-            "category": "Landscape",
-            "types": [
-              "Landscape"
-            ],
-            "subtypes": [
-              "tes Katheryne component"
-            ],
-            "comfort": 0,
-            "cost": 0,
-            "source": [
-              "Obtained from Limited-Time Event"
-            ],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/363429.webp"
-          },
-          {
-            "id": "363430",
-            "name": "Head - Blue Hair Ribbon",
-            "description": null,
-            "rarity": 4,
-            "category": "Landscape",
-            "types": [
-              "Landscape"
-            ],
-            "subtypes": [
-              "tes Katheryne component"
-            ],
-            "comfort": 0,
-            "cost": 0,
-            "source": [
-              "Obtained from Limited-Time Event"
-            ],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/363430.webp"
-          },
-          {
-            "id": "363432",
-            "name": "Head - Blue Sleeping Cap",
-            "description": null,
-            "rarity": 4,
-            "category": "Landscape",
-            "types": [
-              "Landscape"
-            ],
-            "subtypes": [
-              "tes Katheryne component"
-            ],
-            "comfort": 0,
-            "cost": 0,
-            "source": [
-              "Obtained from Limited-Time Event"
-            ],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/363432.webp"
-          },
-          {
             "id": "373126",
             "name": "Headquarters Alarm: Sound of Thunder",
             "description": "An alarm bell that can often be found in military camps and police stations. When this sort of bell was first made, the samurai manning it would ring it when they encountered the enemy or other emergencies, and the resounding noise would travel instantly to every corner of the camp like a peal of thunder.\\nAs the samurai improved their methods of guarding and dispatching personnel, these alarm bells would fall out of common use, but would become a sort of symbol instead.",
@@ -75508,26 +74773,6 @@ var NYX_DB = {
               ]
             },
             "art": "../../Database/GameData/gi/furniture/assets/373126.webp"
-          },
-          {
-            "id": "363431",
-            "name": "Headwear - Black Hair Nightcap",
-            "description": null,
-            "rarity": 4,
-            "category": "Landscape",
-            "types": [
-              "Landscape"
-            ],
-            "subtypes": [
-              "tes Katheryne component"
-            ],
-            "comfort": 0,
-            "cost": 0,
-            "source": [
-              "Obtained from Limited-Time Event"
-            ],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/363431.webp"
           },
           {
             "id": "364507",
@@ -76181,6 +75426,46 @@ var NYX_DB = {
               ]
             },
             "art": "../../Database/GameData/gi/furniture/assets/374104.webp"
+          },
+          {
+            "id": "363418",
+            "name": "Honey Blossom Hut",
+            "description": "An Adventurers' Guild counter decorated with honey-colored little flowers. Honey can give an adventurer plenty of energy!",
+            "rarity": 4,
+            "category": "Landscape",
+            "types": [
+              "Landscape"
+            ],
+            "subtypes": [
+              "Curio"
+            ],
+            "comfort": 30,
+            "cost": 720,
+            "source": [
+              "Obtained from Limited-Time Event"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/363418.webp"
+          },
+          {
+            "id": "363420",
+            "name": "Honey Blossom Ice Hut",
+            "description": "An Adventurers' Guild counter decorated with honey-colored little flowers. Honey can give an adventurer plenty of energy!",
+            "rarity": 4,
+            "category": "Landscape",
+            "types": [
+              "Landscape"
+            ],
+            "subtypes": [
+              "Curio"
+            ],
+            "comfort": 30,
+            "cost": 720,
+            "source": [
+              "Obtained from Limited-Time Event"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/363420.webp"
           },
           {
             "id": "363354",
@@ -78509,6 +77794,43 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/furniture/assets/361121.webp"
           },
           {
+            "id": "362325",
+            "name": "Indoor Rug: \"Frostbloom Beneath the Ice\"",
+            "description": "A dark-toned rectangular rug seen in the Snegurochka's Demesne, its edges trimmed with tassels. The central pattern is a radial, elaborate geometric structure, like a frostbloom crystallized beneath a sheet of ice. Restrained rather than showy, yet lending some brightness to its deep, sombre ground color.",
+            "rarity": 3,
+            "category": "Small Furnishing",
+            "types": [
+              "Small Furnishing"
+            ],
+            "subtypes": [
+              "Carpet"
+            ],
+            "comfort": 60,
+            "cost": 85,
+            "source": [
+              "Snezhnaya Remarkable Chest Reward"
+            ],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101401",
+                  "name": "Fabric",
+                  "count": 8,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101401.webp"
+                },
+                {
+                  "id": "101404",
+                  "name": "Blue Dye",
+                  "count": 4,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101404.webp"
+                }
+              ]
+            },
+            "art": "../../Database/GameData/gi/furniture/assets/362325.webp"
+          },
+          {
             "id": "362320",
             "name": "Indoor Rug: \"Soft & Plush\"",
             "description": "A richly patterned, brown square rug that can be found at the Curatorium of Secrets in Nasha Town. Its perfect symmetry is highly pleasing to the eye.\\nIt is said that this soft rug is woven from the long fur of Natlan's alpacas. Its plush, cushiony feel is an effective remedy to soothe tired feet.",
@@ -78581,6 +77903,154 @@ var NYX_DB = {
               ]
             },
             "art": "../../Database/GameData/gi/furniture/assets/362321.webp"
+          },
+          {
+            "id": "362326",
+            "name": "Indoor Rug: \"Warmth\"",
+            "description": "A deep red circular rug that can be seen indoors in Snezhnograd, adorned with symmetrical light-colored patterns, thick and warm to the touch.\\n\"Just looking at it, you feel like you're warming yourself by a fire...\" Indeed, many who've placed one in their homes speak highly of this particular splash of color that drives away the cold.",
+            "rarity": 3,
+            "category": "Small Furnishing",
+            "types": [
+              "Small Furnishing"
+            ],
+            "subtypes": [
+              "Carpet"
+            ],
+            "comfort": 60,
+            "cost": 85,
+            "source": [
+              "Snezhnaya Remarkable Chest Reward"
+            ],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101401",
+                  "name": "Fabric",
+                  "count": 8,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101401.webp"
+                },
+                {
+                  "id": "101402",
+                  "name": "Red Dye",
+                  "count": 4,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101402.webp"
+                }
+              ]
+            },
+            "art": "../../Database/GameData/gi/furniture/assets/362326.webp"
+          },
+          {
+            "id": "362137",
+            "name": "Indoor Seat: \"Clashing Colors\"",
+            "description": "A high-backed seat commonly seen in the Snezhnograd Veche. The cushion is soft and comfortable, adorned with exquisite patterns.\\n\"You have to make them feel the two colors picking a fight... otherwise everyone would just fall asleep!\" That was how a designer well-versed in the art of clashing colors put it.",
+            "rarity": 3,
+            "category": "Small Furnishing",
+            "types": [
+              "Small Furnishing"
+            ],
+            "subtypes": [
+              "Seating"
+            ],
+            "comfort": 60,
+            "cost": 85,
+            "source": [
+              "Snezhnaya Remarkable Chest Reward"
+            ],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101332",
+                  "name": "101332",
+                  "count": 4,
+                  "icon": null
+                },
+                {
+                  "id": "101402",
+                  "name": "Red Dye",
+                  "count": 2,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101402.webp"
+                },
+                {
+                  "id": "101404",
+                  "name": "Blue Dye",
+                  "count": 2,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101404.webp"
+                }
+              ]
+            },
+            "art": "../../Database/GameData/gi/furniture/assets/362137.webp"
+          },
+          {
+            "id": "361127",
+            "name": "Indoor Standing Cabinet: \"The Steepled Little House\"",
+            "description": "A wooden standing cabinet commonly seen in the Snegurochka's Demesne, with generous capacity, a substantial body, and considerable symmetrical beauty.\\n\"That time,\" said the maker of this cabinet when asked about the source of the design, \"I saw a building whose roof was so steeply-pitched that not one snowflake could rest atop it...\"",
+            "rarity": 3,
+            "category": "Large Furnishing",
+            "types": [
+              "Large Furnishing"
+            ],
+            "subtypes": [
+              "Cabinet"
+            ],
+            "comfort": 60,
+            "cost": 845,
+            "source": [
+              "Snezhnaya Remarkable Chest Reward"
+            ],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101332",
+                  "name": "101332",
+                  "count": 12,
+                  "icon": null
+                }
+              ]
+            },
+            "art": "../../Database/GameData/gi/furniture/assets/361127.webp"
+          },
+          {
+            "id": "363122",
+            "name": "Indoor Table Lamp: \"Soft Light\"",
+            "description": "A small table lamp that can be found indoors in Snezhnograd, with an umbrella-shaped shade and decorative pendants.\\nDay or night, it gives off a gentle light, quietly lighting a small patch of the world for each passerby.",
+            "rarity": 3,
+            "category": "Ornaments",
+            "types": [
+              "Ornaments"
+            ],
+            "subtypes": [
+              "Lighting"
+            ],
+            "comfort": 60,
+            "cost": 220,
+            "source": [
+              "Snezhnaya Remarkable Chest Reward"
+            ],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 4,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 4,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/GameData/gi/furniture/assets/363122.webp"
           },
           {
             "id": "368202",
@@ -80285,6 +79755,43 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/furniture/assets/374305.webp"
           },
           {
+            "id": "371050",
+            "name": "Large Winch-and-Axle Crane",
+            "description": "A basic crane device that stands in Morepesok. Metal axles of varying sizes are mounted on a dark-brown wooden frame, typically used for hauling and hoisting heavy materials.",
+            "rarity": 3,
+            "category": "Building",
+            "types": [
+              "Building"
+            ],
+            "subtypes": [
+              "Snezhnayan Style"
+            ],
+            "comfort": 60,
+            "cost": 240,
+            "source": [
+              "Snezhnaya Remarkable Chest Reward"
+            ],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101332",
+                  "name": "101332",
+                  "count": 8,
+                  "icon": null
+                },
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 4,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
+                }
+              ]
+            },
+            "art": "../../Database/GameData/gi/furniture/assets/371050.webp"
+          },
+          {
             "id": "372706",
             "name": "Last Resort",
             "description": "A plant commonly found in the wilds of Natlan, characterized by its vividly colored, fleshy leaves.\\nIt is said that the leaves of this plant are repositories of water and nutrients, making them a potential source of emergency food. However, besides the fact that they taste extremely bitter, they also contain allergens, meaning that even cooking the plant will not guarantee its safety for consumption. Consequently, courier survival guides only recommend eating it in the most dire of situations \u2014 in other words, as a last resort.",
@@ -80341,6 +79848,26 @@ var NYX_DB = {
             "source": [],
             "recipe": null,
             "art": null
+          },
+          {
+            "id": "363428",
+            "name": "Legendary Fury",
+            "description": "\"Best not to make Katheryne enter this legendary state of rage...\"",
+            "rarity": 4,
+            "category": "Landscape",
+            "types": [
+              "Landscape"
+            ],
+            "subtypes": [
+              "Tes Katheryne Parts"
+            ],
+            "comfort": 0,
+            "cost": 0,
+            "source": [
+              "Obtained from Limited-Time Event"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/363428.webp"
           },
           {
             "id": "373158",
@@ -81277,166 +80804,6 @@ var NYX_DB = {
               ]
             },
             "art": "../../Database/GameData/gi/furniture/assets/363111.webp"
-          },
-          {
-            "id": "363433",
-            "name": "Little Adventurer 1",
-            "description": null,
-            "rarity": 4,
-            "category": "Landscape",
-            "types": [
-              "Landscape"
-            ],
-            "subtypes": [
-              "tes Katheryne component"
-            ],
-            "comfort": 0,
-            "cost": 0,
-            "source": [
-              "Obtained from Limited-Time Event"
-            ],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/363433.webp"
-          },
-          {
-            "id": "363434",
-            "name": "Little Adventurer 2",
-            "description": null,
-            "rarity": 4,
-            "category": "Landscape",
-            "types": [
-              "Landscape"
-            ],
-            "subtypes": [
-              "tes Katheryne component"
-            ],
-            "comfort": 0,
-            "cost": 0,
-            "source": [
-              "Obtained from Limited-Time Event"
-            ],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/363434.webp"
-          },
-          {
-            "id": "363435",
-            "name": "Little Adventurer 3",
-            "description": null,
-            "rarity": 4,
-            "category": "Landscape",
-            "types": [
-              "Landscape"
-            ],
-            "subtypes": [
-              "tes Katheryne component"
-            ],
-            "comfort": 0,
-            "cost": 0,
-            "source": [
-              "Obtained from Limited-Time Event"
-            ],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/363435.webp"
-          },
-          {
-            "id": "363436",
-            "name": "Little Adventurer 4",
-            "description": null,
-            "rarity": 4,
-            "category": "Landscape",
-            "types": [
-              "Landscape"
-            ],
-            "subtypes": [
-              "tes Katheryne component"
-            ],
-            "comfort": 0,
-            "cost": 0,
-            "source": [
-              "Obtained from Limited-Time Event"
-            ],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/363436.webp"
-          },
-          {
-            "id": "363437",
-            "name": "Little Adventurer 5",
-            "description": null,
-            "rarity": 4,
-            "category": "Landscape",
-            "types": [
-              "Landscape"
-            ],
-            "subtypes": [
-              "tes Katheryne component"
-            ],
-            "comfort": 0,
-            "cost": 0,
-            "source": [
-              "Obtained from Limited-Time Event"
-            ],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/363437.webp"
-          },
-          {
-            "id": "363438",
-            "name": "Little Adventurer 6",
-            "description": null,
-            "rarity": 4,
-            "category": "Landscape",
-            "types": [
-              "Landscape"
-            ],
-            "subtypes": [
-              "tes Katheryne component"
-            ],
-            "comfort": 0,
-            "cost": 0,
-            "source": [
-              "Obtained from Limited-Time Event"
-            ],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/363438.webp"
-          },
-          {
-            "id": "363439",
-            "name": "Little Adventurer 7",
-            "description": null,
-            "rarity": 4,
-            "category": "Landscape",
-            "types": [
-              "Landscape"
-            ],
-            "subtypes": [
-              "tes Katheryne component"
-            ],
-            "comfort": 0,
-            "cost": 0,
-            "source": [
-              "Obtained from Limited-Time Event"
-            ],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/363439.webp"
-          },
-          {
-            "id": "363440",
-            "name": "Little Adventurer 8",
-            "description": null,
-            "rarity": 4,
-            "category": "Landscape",
-            "types": [
-              "Landscape"
-            ],
-            "subtypes": [
-              "tes Katheryne component"
-            ],
-            "comfort": 0,
-            "cost": 0,
-            "source": [
-              "Obtained from Limited-Time Event"
-            ],
-            "recipe": null,
-            "art": "../../Database/GameData/gi/furniture/assets/363440.webp"
           },
           {
             "id": "373494",
@@ -85836,6 +85203,26 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/furniture/assets/373517.webp"
           },
           {
+            "id": "369234",
+            "name": "Morozhound",
+            "description": "Man's best friend!\\nMorozhounds are astonishingly enduring and gentle by nature, beloved not only by humans but by all manner of small animals. Since coming to the Serenitea Pot they've found many new friends. Though, admittedly, they do occasionally cause a bit of damage to their surroundings...",
+            "rarity": 3,
+            "category": "Animal",
+            "types": [
+              "Animal"
+            ],
+            "subtypes": [
+              "Outdoor Creature"
+            ],
+            "comfort": 100,
+            "cost": 360,
+            "source": [
+              "Obtained through capture"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/369234.webp"
+          },
+          {
             "id": "372216",
             "name": "Moss-Covered Stone",
             "description": "An entirely unremarkable-looking stone, except for one feature: The fine grooves on its surface trap rainwater and make it moist, which leads to moss growing there over time. Hence, it is called the \"Moss-Covered Stone.\"",
@@ -86077,6 +85464,26 @@ var NYX_DB = {
               ]
             },
             "art": "../../Database/GameData/gi/furniture/assets/360482.webp"
+          },
+          {
+            "id": "363426",
+            "name": "Moved Gaze",
+            "description": "\"Legend says Katheryne has never shown this expression. Only the 'King of Adventurers' would ever get the chance to see it...\"",
+            "rarity": 4,
+            "category": "Landscape",
+            "types": [
+              "Landscape"
+            ],
+            "subtypes": [
+              "Tes Katheryne Parts"
+            ],
+            "comfort": 0,
+            "cost": 0,
+            "source": [
+              "Obtained from Limited-Time Event"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/363426.webp"
           },
           {
             "id": "373342",
@@ -87395,6 +86802,26 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/furniture/assets/372468.webp"
           },
           {
+            "id": "369233",
+            "name": "Nochhornowl",
+            "description": "A bird native to Snezhnaya, its body covered in snow-white feathers, named for the fact that it usually hunts after sunset.\\nAs the sharpest hunter above the snowfields, the Nochhornowl excels at camouflage, observation, and swift attacks. Since coming to the Serenitea Pot they no longer need to chase after food, so they spend most of their time perched quietly in a corner, watching the world around them.",
+            "rarity": 3,
+            "category": "Animal",
+            "types": [
+              "Animal"
+            ],
+            "subtypes": [
+              "Outdoor Creature"
+            ],
+            "comfort": 100,
+            "cost": 290,
+            "source": [
+              "Obtained through capture"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/369233.webp"
+          },
+          {
             "id": "368122",
             "name": "Noelle",
             "description": "Character In-Residence",
@@ -87582,7 +87009,7 @@ var NYX_DB = {
               "Companion"
             ],
             "comfort": 300,
-            "cost": 1600,
+            "cost": 1750,
             "source": [],
             "recipe": null,
             "art": null
@@ -91355,6 +90782,46 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/furniture/assets/370207.webp"
           },
           {
+            "id": "363421",
+            "name": "Polite Stance",
+            "description": "\"Ad astra abyssosque. Welcome to the Adventurers' Guild!\"",
+            "rarity": 4,
+            "category": "Landscape",
+            "types": [
+              "Landscape"
+            ],
+            "subtypes": [
+              "Tes Katheryne Parts"
+            ],
+            "comfort": 0,
+            "cost": 0,
+            "source": [
+              "Obtained from Limited-Time Event"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/363421.webp"
+          },
+          {
+            "id": "369231",
+            "name": "Polyarbear",
+            "description": "An animal that can survive even in the most extreme cold, with a massive frame and thick, heavy fur.\\nCombat-skilled Polyarbears are never tame, and never yield easily to other animals or humans. Naturally, since coming to the Serenitea Pot, in the interest of maintaining the peace, Tubby has issued a firm order that they must not attack other animals unprovoked.",
+            "rarity": 3,
+            "category": "Animal",
+            "types": [
+              "Animal"
+            ],
+            "subtypes": [
+              "Outdoor Creature"
+            ],
+            "comfort": 100,
+            "cost": 490,
+            "source": [
+              "Obtained through capture"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/369231.webp"
+          },
+          {
             "id": "373601",
             "name": "Pool of Sapphire Grace",
             "description": "A large pond for rearing fish.\\nThis pond is common in garden landscapes in the outside world, but it has been imbued with some mysterious properties inside The Realm Within by the arts of Sub-Space Creation. Its waters are clear and warm all year round, contains a subtle balance of nutrients, and the ornamental fish within grow slowly but maintain their original vitality without the need for the owner to take too much care of it. However, it would be unwise to raise too many ornamental fish in one pond if you wish for them to have enough room.\\nOrnamental Fish caught via Fishing can be raised in this sort of pond.",
@@ -91577,6 +91044,43 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/furniture/assets/362271.webp"
           },
           {
+            "id": "374664",
+            "name": "Portable Small Heating Device",
+            "description": "A portable small-scale heating device, originally designed to provide a steady, continuous mobile heat source in severely cold environments. The heater body uses a double-layered, thickened metal structure, with rust-resistant treatment applied to the outer layer.\\nA small viewing window has also been fitted to the device, through which you can see the flickering flames inside, letting travelers enjoy a reassuring warmth wherever their journey takes them.",
+            "rarity": 3,
+            "category": "Landscape",
+            "types": [
+              "Landscape"
+            ],
+            "subtypes": [
+              "Large Object"
+            ],
+            "comfort": 60,
+            "cost": 80,
+            "source": [
+              "Snezhnaya Remarkable Chest Reward"
+            ],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 6,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 6,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/GameData/gi/furniture/assets/374664.webp"
+          },
+          {
             "id": "361305",
             "name": "Portable Stove",
             "description": "A light and convenient little stove that is often used by business people at Chihu Rock.\\nIt's just a shame that the amount of food that can be placed on it at once is quite small, leaving it with little hope of feeding Paimon in time.",
@@ -91637,6 +91141,43 @@ var NYX_DB = {
               ]
             },
             "art": "../../Database/GameData/gi/furniture/assets/373483.webp"
+          },
+          {
+            "id": "363513",
+            "name": "Potted Bouquet: \"Elegant Blackthorn\"",
+            "description": "A potted floral arrangement often used to decorate Snezhnayan interiors, its body brightly colored and delicately patterned, making it a work of considerable beauty.\\nThe purple blooms in the vase carry both an air of understated elegance and lend the room a burst of vibrant life.",
+            "rarity": 3,
+            "category": "Ornaments",
+            "types": [
+              "Ornaments"
+            ],
+            "subtypes": [
+              "Potted Plant"
+            ],
+            "comfort": 60,
+            "cost": 169,
+            "source": [
+              "Snezhnaya Remarkable Chest Reward"
+            ],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 4,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 4,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/GameData/gi/furniture/assets/363513.webp"
           },
           {
             "id": "363204",
@@ -91836,6 +91377,83 @@ var NYX_DB = {
             ],
             "recipe": null,
             "art": "../../Database/GameData/gi/furniture/assets/372512.webp"
+          },
+          {
+            "id": "363427",
+            "name": "Precise Calculation",
+            "description": "\"Since she hands out rewards to so many adventurers every day, Katheryne must be very good at math, don't ya think?\"",
+            "rarity": 4,
+            "category": "Landscape",
+            "types": [
+              "Landscape"
+            ],
+            "subtypes": [
+              "Tes Katheryne Parts"
+            ],
+            "comfort": 0,
+            "cost": 0,
+            "source": [
+              "Obtained from Limited-Time Event"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/363427.webp"
+          },
+          {
+            "id": "363424",
+            "name": "Presenting the Reward",
+            "description": "\"Thank you for completing today's commissions. Here is your reward.\"",
+            "rarity": 4,
+            "category": "Landscape",
+            "types": [
+              "Landscape"
+            ],
+            "subtypes": [
+              "Tes Katheryne Parts"
+            ],
+            "comfort": 0,
+            "cost": 0,
+            "source": [
+              "Obtained from Limited-Time Event"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/363424.webp"
+          },
+          {
+            "id": "374665",
+            "name": "Prime Ice Ore: \"Neatly Arrayed\"",
+            "description": "Prime Ice ore that has been cut and processed, neatly arranged on a platform, and secured with sturdy fastening straps.\\nThese blocks of Prime Ice ore are both a testament to the extreme cold of the environment and an indispensable cornerstone of Snezhnayan construction.",
+            "rarity": 3,
+            "category": "Landscape",
+            "types": [
+              "Landscape"
+            ],
+            "subtypes": [
+              "Large Object"
+            ],
+            "comfort": 60,
+            "cost": 65,
+            "source": [
+              "Snezhnaya Remarkable Chest Reward"
+            ],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 4,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 8,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/GameData/gi/furniture/assets/374665.webp"
           },
           {
             "id": "374117",
@@ -93493,6 +93111,26 @@ var NYX_DB = {
             ],
             "recipe": null,
             "art": "../../Database/GameData/gi/furniture/assets/369160.webp"
+          },
+          {
+            "id": "369235",
+            "name": "Red-Bellied Plover",
+            "description": "A small Snezhnayan flying bird, named for its coloration.\\nRed-Bellied Plovers call now and then, their song slow, soft, and touched with quiet melancholy. Since coming to the Serenitea Pot, these Plovers no longer worry about finding food, and now their calls seem to carry an extra note of cheer...",
+            "rarity": 3,
+            "category": "Animal",
+            "types": [
+              "Animal"
+            ],
+            "subtypes": [
+              "Outdoor Creature"
+            ],
+            "comfort": 100,
+            "cost": 150,
+            "source": [
+              "Obtained through capture"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/369235.webp"
           },
           {
             "id": "369143",
@@ -95227,6 +94865,26 @@ var NYX_DB = {
             "art": null
           },
           {
+            "id": "369236",
+            "name": "Severelk",
+            "description": "A tall, gentle-natured animal with eyes that seem to see through all things.\\nSeverelk living on the snowfields have thick fur and mighty antlers, and they move with a swift step and a keen sense of smell. Since coming to the Serenitea Pot, they have become greatly beloved by many smaller birds, who often perch on the elk's branch-like antlers.",
+            "rarity": 3,
+            "category": "Animal",
+            "types": [
+              "Animal"
+            ],
+            "subtypes": [
+              "Outdoor Creature"
+            ],
+            "comfort": 100,
+            "cost": 440,
+            "source": [
+              "Obtained through capture"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/369236.webp"
+          },
+          {
             "id": "370723",
             "name": "Shade in the Tranquil Court",
             "description": "A spacious building with a unique, dome-shaped ceiling and the same appearance and construction as the pavilions near Pardis Dhyai. According to Kshahrewar researchers, not only can this design create shade, it can also support airflow in adjacent areas, possibly improving the entire region's climate. Doubting this, Amurta researchers conducted experiments, only to find that the Kshahrewar researchers were correct. Unfortunately, the extent of the influence cannot even be sensed by the human body, much less Pardis Dhyai's plants...",
@@ -96593,6 +96251,26 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/furniture/assets/363362.webp"
           },
           {
+            "id": "363423",
+            "name": "Sincere Blessing",
+            "description": "\"Thank you for supporting the Adventurers' Guild, Adventurer.\"",
+            "rarity": 4,
+            "category": "Landscape",
+            "types": [
+              "Landscape"
+            ],
+            "subtypes": [
+              "Tes Katheryne Parts"
+            ],
+            "comfort": 0,
+            "cost": 0,
+            "source": [
+              "Obtained from Limited-Time Event"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/363423.webp"
+          },
+          {
             "id": "370736",
             "name": "Singing in the Tranquil Court",
             "description": "An open, broad structure that combines a blue-toned glass dome and a golden frame for an elegant and bright look. The green tiles and the gray-white stones below give the common folk of Sumeru a genial impression, such that some researchers have called the two structural features the symbols of a \"noble soul\" and a \"humble form\" respectively. Though the original intent of such structures is unknown, researchers very much enjoy resting within them to calm themselves and ponder questions.",
@@ -96912,6 +96590,43 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/furniture/assets/363391.webp"
           },
           {
+            "id": "374666",
+            "name": "Small \"Gauge-Panel\" Control Console",
+            "description": "A small control console commonly seen in Svetloledovka, its casing a reddish-brown hue. A round gauge panel is set into the front, its needle resting still on the graduated dial. The base of the console is supported by a dark-grey metal foundation, giving the whole a sturdy structure suited for placement in any area that needs practical equipment.",
+            "rarity": 3,
+            "category": "Landscape",
+            "types": [
+              "Landscape"
+            ],
+            "subtypes": [
+              "Large Object"
+            ],
+            "comfort": 60,
+            "cost": 95,
+            "source": [
+              "Snezhnaya Remarkable Chest Reward"
+            ],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 8,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 4,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/GameData/gi/furniture/assets/374666.webp"
+          },
+          {
             "id": "373938",
             "name": "Small Cargo Container: Safe Stowage",
             "description": "A small cargo container commonly found in the Kuuvahki Experimental Design Bureau. It has recessed handles on both sides for ease of short-range transport.\\nFragile but valuable small items are often shipped in such containers, with the empty spaces carefully padded for full protection.",
@@ -97046,6 +96761,100 @@ var NYX_DB = {
               ]
             },
             "art": "../../Database/GameData/gi/furniture/assets/374201.webp"
+          },
+          {
+            "id": "371056",
+            "name": "Snezhnayan Dwelling: \"Elegant Carvings\"",
+            "description": "A dwelling commonly seen throughout Snezhnograd, with a steeply-pitched roof that prevents snow from accumulating. The exterior of the building is decorated in many places with elaborate carvings, intricate and elegant in equal measure.\\n\"Fine carvings do nothing to make a house sturdier,\" so local builders always instruct their young apprentices, \"but they do add color to a life.\"",
+            "rarity": 3,
+            "category": "Building",
+            "types": [
+              "Building"
+            ],
+            "subtypes": [
+              "Snezhnayan Style"
+            ],
+            "comfort": 60,
+            "cost": 535,
+            "source": [
+              "Snezhnaya Remarkable Chest Reward"
+            ],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 8,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 4,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/GameData/gi/furniture/assets/371056.webp"
+          },
+          {
+            "id": "371054",
+            "name": "Snezhnayan Dwelling: \"Warm-Toned Portico\"",
+            "description": "A dwelling commonly seen throughout Snezhnograd, its warm-toned walls set against cool grey stone window frames, and featuring the signature pointed-arch windows of the region.\\nNo matter how cold it grows outside, so long as a traveler hurrying along the road sees that touch of warm red on the portico from afar, they know that home lies just ahead.",
+            "rarity": 3,
+            "category": "Building",
+            "types": [
+              "Building"
+            ],
+            "subtypes": [
+              "Snezhnayan Style"
+            ],
+            "comfort": 60,
+            "cost": 535,
+            "source": [
+              "Snezhnaya Remarkable Chest Reward"
+            ],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 12,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 4,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/GameData/gi/furniture/assets/371054.webp"
+          },
+          {
+            "id": "363430",
+            "name": "Snezhnayan Ice-Blue",
+            "description": "A hair color unique to Snezhnaya, adding a touch of crisp coolness.",
+            "rarity": 4,
+            "category": "Landscape",
+            "types": [
+              "Landscape"
+            ],
+            "subtypes": [
+              "Tes Katheryne Parts"
+            ],
+            "comfort": 0,
+            "cost": 0,
+            "source": [
+              "Obtained from Limited-Time Event"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/363430.webp"
           },
           {
             "id": "371144",
@@ -99063,6 +98872,43 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/furniture/assets/363342.webp"
           },
           {
+            "id": "374224",
+            "name": "Station Bench: \"Reading Between Trains\"",
+            "description": "A wooden bench commonly seen at Snezhnayan train stations, with a comfortable backrest and soft, thickly-padded seat.\\nDuring the wait between trains, passengers about to set off often pick up a paper from the nearby newspaper rack, using the long minutes of waiting time to catch up on the news...",
+            "rarity": 4,
+            "category": "Outdoor Furnishing",
+            "types": [
+              "Outdoor Furnishing"
+            ],
+            "subtypes": [
+              "Seating"
+            ],
+            "comfort": 90,
+            "cost": 35,
+            "source": [
+              "Snezhnaya Remarkable Chest Reward"
+            ],
+            "recipe": {
+              "time": 57600,
+              "exp": 90,
+              "materials": [
+                {
+                  "id": "101332",
+                  "name": "101332",
+                  "count": 10,
+                  "icon": null
+                },
+                {
+                  "id": "101401",
+                  "name": "Fabric",
+                  "count": 6,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101401.webp"
+                }
+              ]
+            },
+            "art": "../../Database/GameData/gi/furniture/assets/374224.webp"
+          },
+          {
             "id": "373341",
             "name": "Statue of Her Excellency, the Almighty Narukami Ogosho, God of Thunder",
             "description": "A lacquerware statue first released for sale at the Magnificent Irodori Festival. It is based on Inazuma's most distinguished Almighty Shogun, and is designed by Yae Publishing House's top artist and handcrafted by the most skilled lacquerware master in Inazuma City, with excellent workmanship. When one considers this in addition to the mere 300 available at first launch, and the limit on purchases to one per customer, it seems little surprise that there would be a mad rush to purchase one. This one in particular was a gift from General Kujou Sara herself, so it is of particular importance and should be treasured dearly.",
@@ -100991,6 +100837,46 @@ var NYX_DB = {
             ],
             "recipe": null,
             "art": "../../Database/GameData/gi/furniture/assets/373835.webp"
+          },
+          {
+            "id": "363417",
+            "name": "Sweet Berry Blossom Hut",
+            "description": "An Adventurers' Guild counter decorated with Valberry-colored little flowers. Berries can bring an adventurer rich nutrition!",
+            "rarity": 4,
+            "category": "Landscape",
+            "types": [
+              "Landscape"
+            ],
+            "subtypes": [
+              "Curio"
+            ],
+            "comfort": 30,
+            "cost": 720,
+            "source": [
+              "Obtained from Limited-Time Event"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/363417.webp"
+          },
+          {
+            "id": "363419",
+            "name": "Sweet Berry Blossom Ice Hut",
+            "description": "An ice-colored counter decorated with Valberry-colored little flowers. Berries can bring an adventurer rich nutrition!",
+            "rarity": 4,
+            "category": "Landscape",
+            "types": [
+              "Landscape"
+            ],
+            "subtypes": [
+              "Curio"
+            ],
+            "comfort": 30,
+            "cost": 720,
+            "source": [
+              "Obtained from Limited-Time Event"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/363419.webp"
           },
           {
             "id": "373218",
@@ -104360,6 +104246,26 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/furniture/assets/360101.webp"
           },
           {
+            "id": "363431",
+            "name": "Time to Rest",
+            "description": "\"No one's ever seen Katheryne resting, but she'd probably like this nightcap...\"",
+            "rarity": 4,
+            "category": "Landscape",
+            "types": [
+              "Landscape"
+            ],
+            "subtypes": [
+              "Tes Katheryne Parts"
+            ],
+            "comfort": 0,
+            "cost": 0,
+            "source": [
+              "Obtained from Limited-Time Event"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/363431.webp"
+          },
+          {
             "id": "360468",
             "name": "Timeless Shine",
             "description": "A crescent-shaped lamp made from tinplate. It gives off a soft, quiet glow at all hours, day or night.",
@@ -104532,6 +104438,37 @@ var NYX_DB = {
               ]
             },
             "art": "../../Database/GameData/gi/furniture/assets/361124.webp"
+          },
+          {
+            "id": "371051",
+            "name": "Town Dwelling: \"Cozy Warmth\"",
+            "description": "A Snezhnayan-style wooden dwelling commonly seen in Morepesok, built in the same form as a certain famous local resident's home. Constructed from local timber and given a special waterproof treatment, this type of house keeps meltwater from seeping inside, thereby preserving the interior warmth.\\nThe thick roof is capped year-round with a layer of white snow, while warm lamplight glows through the shuttered windowpanes. Inside, people gather around the fireplace, all thinking of family far from home.",
+            "rarity": 4,
+            "category": "Building",
+            "types": [
+              "Building"
+            ],
+            "subtypes": [
+              "Snezhnayan Style"
+            ],
+            "comfort": 90,
+            "cost": 460,
+            "source": [
+              "Snezhnaya Remarkable Chest Reward"
+            ],
+            "recipe": {
+              "time": 57600,
+              "exp": 90,
+              "materials": [
+                {
+                  "id": "101334",
+                  "name": "101334",
+                  "count": 16,
+                  "icon": null
+                }
+              ]
+            },
+            "art": "../../Database/GameData/gi/furniture/assets/371051.webp"
           },
           {
             "id": "374649",
@@ -107628,6 +107565,43 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/furniture/assets/372226.webp"
           },
           {
+            "id": "371053",
+            "name": "Waiting Platform: \"Quiet Anticipation\"",
+            "description": "A waiting platform commonly seen at Snezhnayan train stations, with a rather generous canopy overhead.\\nTravelers pause here, some preparing to set out for distant places, others quietly waiting for the reunion of long-parted loved ones. And before the train pulls in, everyone sets down their busy affairs and gazes silently down the platform, hopeful for its arrival...",
+            "rarity": 3,
+            "category": "Building",
+            "types": [
+              "Building"
+            ],
+            "subtypes": [
+              "Snezhnayan Style"
+            ],
+            "comfort": 60,
+            "cost": 135,
+            "source": [
+              "Snezhnaya Remarkable Chest Reward"
+            ],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 8,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 4,
+                  "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/GameData/gi/furniture/assets/371053.webp"
+          },
+          {
             "id": "371207",
             "name": "Wall Corner: Fragrant Nook",
             "description": "The corner of an estate's outer wall.\\nIn Liyue, it is customary to plant plum trees in the corner of the wall to create a pleasant fragrance for residents inside the courtyard and guests approaching from beyond.",
@@ -108085,6 +108059,86 @@ var NYX_DB = {
               ]
             },
             "art": "../../Database/GameData/gi/furniture/assets/374101.webp"
+          },
+          {
+            "id": "363433",
+            "name": "Wee Adventurer - Cheer",
+            "description": "\"Cheer\" is one of the important treasures gathered during one's adventures!",
+            "rarity": 4,
+            "category": "Landscape",
+            "types": [
+              "Landscape"
+            ],
+            "subtypes": [
+              "Tes Katheryne Parts"
+            ],
+            "comfort": 0,
+            "cost": 0,
+            "source": [
+              "Obtained from Limited-Time Event"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/363433.webp"
+          },
+          {
+            "id": "363434",
+            "name": "Wee Adventurer - Diligence",
+            "description": "\"Diligence\" is the state of steady, careful progress as one adventures!",
+            "rarity": 4,
+            "category": "Landscape",
+            "types": [
+              "Landscape"
+            ],
+            "subtypes": [
+              "Tes Katheryne Parts"
+            ],
+            "comfort": 0,
+            "cost": 0,
+            "source": [
+              "Obtained from Limited-Time Event"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/363434.webp"
+          },
+          {
+            "id": "363436",
+            "name": "Wee Adventurer - Fighting Spirit",
+            "description": "\"Fighting Spirit\" is the resolve no adventurer ever lets slip!",
+            "rarity": 4,
+            "category": "Landscape",
+            "types": [
+              "Landscape"
+            ],
+            "subtypes": [
+              "Tes Katheryne Parts"
+            ],
+            "comfort": 0,
+            "cost": 0,
+            "source": [
+              "Obtained from Limited-Time Event"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/363436.webp"
+          },
+          {
+            "id": "363435",
+            "name": "Wee Adventurer - Joy",
+            "description": "\"Joy\" is a feeling you should hold dear during any adventure!",
+            "rarity": 4,
+            "category": "Landscape",
+            "types": [
+              "Landscape"
+            ],
+            "subtypes": [
+              "Tes Katheryne Parts"
+            ],
+            "comfort": 0,
+            "cost": 0,
+            "source": [
+              "Obtained from Limited-Time Event"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/363435.webp"
           },
           {
             "id": "372222",
@@ -108938,6 +108992,26 @@ var NYX_DB = {
             ],
             "recipe": null,
             "art": "../../Database/GameData/gi/furniture/assets/363396.webp"
+          },
+          {
+            "id": "363432",
+            "name": "Winter Drowsiness",
+            "description": "\"On a cold Snezhnayan night, with the fireplace lit, sleep comes all the sweeter...\"",
+            "rarity": 4,
+            "category": "Landscape",
+            "types": [
+              "Landscape"
+            ],
+            "subtypes": [
+              "Tes Katheryne Parts"
+            ],
+            "comfort": 0,
+            "cost": 0,
+            "source": [
+              "Obtained from Limited-Time Event"
+            ],
+            "recipe": null,
+            "art": "../../Database/GameData/gi/furniture/assets/363432.webp"
           },
           {
             "id": "363334",
@@ -110914,7 +110988,7 @@ var NYX_DB = {
         ]
       },
       "wonderland": {
-        "updated": "2026-07-22T09:24:00.554Z",
+        "updated": "2026-07-23T09:23:41.069Z",
         "version": "6.7.53",
         "langMap": {
           "slot": {

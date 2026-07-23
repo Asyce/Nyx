@@ -49,7 +49,7 @@ const CM_BETA_FILES = {
 };
 const CM_BETA_META = {
   "gi": {
-    "version": "6.7.53",
+    "version": "6.7.54",
     "liveVersion": "6.7",
     "newCount": 2,
     "changedCount": 14

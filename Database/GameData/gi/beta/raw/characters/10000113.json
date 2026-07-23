@@ -3140,7 +3140,7 @@
     {
       "id": 1132101,
       "name": "Field Medic's Vision",
-      "desc": "When Ifa is in the Nightsoul's Blessing state, every 1 Nightsoul point out of the total in his entire party will grant him 1 {LINK#N11130002}<color=#FFD780FF>Rescue Essentials</color>{/LINK} point. Rescue Essentials will increase the Swirl, Stellar Swirl, Electro-Charged, and Lunar-Charged reaction DMG dealt by nearby party members.",
+      "desc": "When Ifa is in the Nightsoul's Blessing state, every 1 Nightsoul point out of the current total in his entire party will grant him 1 {LINK#N11130002}<color=#FFD780FF>Rescue Essentials</color>{/LINK} point. Rescue Essentials will increase the Swirl, Stellar Swirl, Electro-Charged, and Lunar-Charged reaction DMG dealt by nearby party members.",
       "icon": "UI_Talent_S_Ifa_05",
       "unlock": 1,
       "param_list": [

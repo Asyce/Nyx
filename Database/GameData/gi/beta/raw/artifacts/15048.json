@@ -79,7 +79,7 @@
     "equip_ring": {
       "icon": "UI_RelicIcon_15048_1",
       "name": "Foundryman's Magnanimity",
-      "desc": "",
+      "desc": "He knew that, unlike the flame at the heart of the furnace, which would continue burning indefinitely so long as it is supplied with fuel, friendship was far more fleeting.",
       "story": {
         "285481": {
           "zh": "ART/UI/Readable/CHS/Relic15048_1",
@@ -92,7 +92,7 @@
     "equip_necklace": {
       "icon": "UI_RelicIcon_15048_2",
       "name": "Foundryman's Observation",
-      "desc": "",
+      "desc": "He knew that, unlike the colors at the heart of the furnace, the outcome of various worldly affairs could not be predicted simply through close observation.",
       "story": {
         "285482": {
           "zh": "ART/UI/Readable/CHS/Relic15048_2",
@@ -105,7 +105,7 @@
     "equip_dress": {
       "icon": "UI_RelicIcon_15048_3",
       "name": "Foundryman's Legacy",
-      "desc": "",
+      "desc": "He knew that, unlike the flame at the heart of the furnace, the resolve to pursue a dream could never be simply passed on to those to come after.",
       "story": {
         "285483": {
           "zh": "ART/UI/Readable/CHS/Relic15048_3",
@@ -118,7 +118,7 @@
     "equip_bracer": {
       "icon": "UI_RelicIcon_15048_4",
       "name": "Foundryman's Conjecture",
-      "desc": "",
+      "desc": "He knew that, unlike the temperature at the heart of the furnace, just how warm or cold a human heart is towards another cannot be clearly measured in degrees.",
       "story": {
         "285484": {
           "zh": "ART/UI/Readable/CHS/Relic15048_4",
@@ -131,7 +131,7 @@
     "equip_shoes": {
       "icon": "UI_RelicIcon_15048_5",
       "name": "Foundryman's Calculus",
-      "desc": "",
+      "desc": "He knew that, unlike the heat at the heart of the furnace, the workings of power could not be controlled by the simple pull of a lever or the press of a button.",
       "story": {
         "285485": {
           "zh": "ART/UI/Readable/CHS/Relic15048_5",

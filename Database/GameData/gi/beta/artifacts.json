@@ -9682,7 +9682,7 @@
         "id": "2150471",
         "pieces": 4,
         "name": "Scarlet Proof",
-        "description": "Increases the equipping character's CRIT Rate by 16%, and their Stellar Swirl reaction dealt by 40%, for 10s when they trigger a Stellar Swirl reaction or deal Stellar Swirl reaction DMG.",
+        "description": "Increases the equipping character's CRIT Rate by 16%, and their Stellar Swirl reaction dealt by 40%, for 10s after they trigger a Stellar Swirl reaction.",
         "params": [
           0.16,
           0.4,
@@ -9713,6 +9713,7 @@
       {
         "slot": "equip_bracer",
         "name": "Honor to Your Devotion",
+        "description": "A bright red flower ornament that symbolizes blazing glory.",
         "story": {
           "285474": {
             "zh": "ART/UI/Readable/CHS/Relic15047_4",
@@ -9728,6 +9729,7 @@
       {
         "slot": "equip_dress",
         "name": "Testament to Your Faith",
+        "description": "A bright red helmet. Hopefully it has, once upon a time, protected someone.",
         "story": {
           "285473": {
             "zh": "ART/UI/Readable/CHS/Relic15047_3",
@@ -9743,6 +9745,7 @@
       {
         "slot": "equip_necklace",
         "name": "Glory to Your Legacy",
+        "description": "A bright red quill pen, granted to the youngest blood.",
         "story": {
           "285472": {
             "zh": "ART/UI/Readable/CHS/Relic15047_2",
@@ -9758,6 +9761,7 @@
       {
         "slot": "equip_ring",
         "name": "Chalice of Your Blood and Sorrow",
+        "description": "A bright red wine bottle. May you never learn what's been in it.",
         "story": {
           "285471": {
             "zh": "ART/UI/Readable/CHS/Relic15047_1",
@@ -9773,6 +9777,7 @@
       {
         "slot": "equip_shoes",
         "name": "Time Gifted Unto You",
+        "description": "A bright red pocket watch marking the time allotted for a conversation.",
         "story": {
           "285475": {
             "zh": "ART/UI/Readable/CHS/Relic15047_5",
@@ -9787,7 +9792,7 @@
       }
     ],
     "liveComparison": {
-      "currentHash": "a1f2ff490a926194f74768afdba4c96bd958fa457c95abbc446c62a675532377"
+      "currentHash": "965b7a382b3b410520587c8c655683ba2c759586c24f3a2bc366c7aa519bff2b"
     }
   },
   {
@@ -9868,6 +9873,7 @@
       {
         "slot": "equip_bracer",
         "name": "Foundryman's Conjecture",
+        "description": "He knew that, unlike the temperature at the heart of the furnace, just how warm or cold a human heart is towards another cannot be clearly measured in degrees.",
         "story": {
           "285484": {
             "zh": "ART/UI/Readable/CHS/Relic15048_4",
@@ -9883,6 +9889,7 @@
       {
         "slot": "equip_dress",
         "name": "Foundryman's Legacy",
+        "description": "He knew that, unlike the flame at the heart of the furnace, the resolve to pursue a dream could never be simply passed on to those to come after.",
         "story": {
           "285483": {
             "zh": "ART/UI/Readable/CHS/Relic15048_3",
@@ -9898,6 +9905,7 @@
       {
         "slot": "equip_necklace",
         "name": "Foundryman's Observation",
+        "description": "He knew that, unlike the colors at the heart of the furnace, the outcome of various worldly affairs could not be predicted simply through close observation.",
         "story": {
           "285482": {
             "zh": "ART/UI/Readable/CHS/Relic15048_2",
@@ -9913,6 +9921,7 @@
       {
         "slot": "equip_ring",
         "name": "Foundryman's Magnanimity",
+        "description": "He knew that, unlike the flame at the heart of the furnace, which would continue burning indefinitely so long as it is supplied with fuel, friendship was far more fleeting.",
         "story": {
           "285481": {
             "zh": "ART/UI/Readable/CHS/Relic15048_1",
@@ -9928,6 +9937,7 @@
       {
         "slot": "equip_shoes",
         "name": "Foundryman's Calculus",
+        "description": "He knew that, unlike the heat at the heart of the furnace, the workings of power could not be controlled by the simple pull of a lever or the press of a button.",
         "story": {
           "285485": {
             "zh": "ART/UI/Readable/CHS/Relic15048_5",
@@ -9942,7 +9952,7 @@
       }
     ],
     "liveComparison": {
-      "currentHash": "4c49ba47ebb376c21f674c6da917f97857e1025802ae85694de1fa244f7a43f0"
+      "currentHash": "33c54dfe2dc67e9945ee867720bcf66336e99e57610cf71e9209903ea1cd1b7f"
     }
   }
 ]

@@ -4367,8 +4367,8 @@
     },
     {
       "id": 82301,
-      "name": "Illusory Frostmirror",
-      "desc": "The Traveler will enter the <color=#FFD780FF>Radiance: Stellar-Conduct</color> or <color=#FFD780FF>Radiance: Stellar Swirl</color> state for 8s when they are inside a <color=#FFD780FF>Polestar Field</color> or when a party member triggers a Stellar Swirl reaction respectively.\\nWhen a party member triggers a Superconduct or Cryo Swirl reaction, it becomes a Stellar-Conduct or Stellar Swirl reaction instead, and the Base DMG of said reaction is also increased by 0.35% for every 100 points of the Traveler's ATK. A maximum 7% increase can be obtained in this way.",
+      "name": "Stellar Jubilee: Illusory Frostmirror",
+      "desc": "The Traveler will enter the <color=#FFD780FF>Radiance: Stellar-Conduct</color> state when inside a <color=#FFD780FF>Polestar Field</color>, or the <color=#FFD780FF>Radiance: Stellar Swirl</color> state for 8s after a nearby party member triggers a Stellar Swirl reaction.\\nWhen a party member triggers a Superconduct or Cryo Swirl reaction, it becomes a Stellar-Conduct or Stellar Swirl reaction instead, and the Base DMG of said reaction is also increased by 0.35% for every 100 points of the Traveler's ATK. A maximum 7% increase can be obtained in this way.",
       "icon": "UI_Talent_S_PlayerIce_07",
       "unlock": 0,
       "param_list": [
@@ -4431,7 +4431,7 @@
     {
       "id": 83,
       "name": "Glacial Shard",
-      "desc": "Increases the Level of <color=#FFD780FF>{LINK#S10128}Frostbound Javelin{/LINK}</color> by 3.\\nMaximum upgrade level is 15.",
+      "desc": "Increases the Level of the Elemental Burst <color=#FFD780FF>{LINK#S10128}Frostbound Javelin{/LINK}</color> by 3.\\nMaximum upgrade level is 15.",
       "icon": "UI_Talent_U_PlayerIce_01",
       "param_list": [
         0,
@@ -4447,7 +4447,7 @@
     {
       "id": 84,
       "name": "Enduring Ice",
-      "desc": "The duration of the <color=#FFD780FF>Frostpierce Star</color> created by <color=#FFD780FF>{LINK#S10127}Ice Fog Piercer{/LINK}</color> is increased by 25%.",
+      "desc": "The duration of the <color=#FFD780FF>Frostpierce Star</color> created by the Elemental Skill <color=#FFD780FF>{LINK#S10127}Ice Fog Piercer{/LINK}</color> is increased by 25%.",
       "icon": "UI_Talent_S_PlayerIce_03",
       "param_list": [
         0.25,
@@ -4463,7 +4463,7 @@
     {
       "id": 85,
       "name": "Bittercold Fog",
-      "desc": "Increases the Level of <color=#FFD780FF>{LINK#S10127}Ice Fog Piercer{/LINK}</color> by 3.\\nMaximum upgrade level is 15.",
+      "desc": "Increases the Level of the Elemental Skill <color=#FFD780FF>{LINK#S10127}Ice Fog Piercer{/LINK}</color> by 3.\\nMaximum upgrade level is 15.",
       "icon": "UI_Talent_U_PlayerIce_02",
       "param_list": [
         0,
@@ -4730,7 +4730,7 @@
               "rank": 4
             },
             {
-              "name": "Genesis Chimeric Nexus",
+              "name": "Prime Chimeric Nexus",
               "id": 112151,
               "count": 4,
               "rank": 3
@@ -4753,7 +4753,7 @@
               "rank": 4
             },
             {
-              "name": "Genesis Chimeric Nexus",
+              "name": "Prime Chimeric Nexus",
               "id": 112151,
               "count": 6,
               "rank": 3
@@ -4776,7 +4776,7 @@
               "rank": 4
             },
             {
-              "name": "Genesis Chimeric Nexus",
+              "name": "Prime Chimeric Nexus",
               "id": 112151,
               "count": 9,
               "rank": 3
@@ -4799,7 +4799,7 @@
               "rank": 4
             },
             {
-              "name": "Genesis Chimeric Nexus",
+              "name": "Prime Chimeric Nexus",
               "id": 112151,
               "count": 12,
               "rank": 3
@@ -4915,7 +4915,7 @@
               "rank": 4
             },
             {
-              "name": "Genesis Chimeric Nexus",
+              "name": "Prime Chimeric Nexus",
               "id": 112151,
               "count": 4,
               "rank": 3
@@ -4938,7 +4938,7 @@
               "rank": 4
             },
             {
-              "name": "Genesis Chimeric Nexus",
+              "name": "Prime Chimeric Nexus",
               "id": 112151,
               "count": 6,
               "rank": 3
@@ -4961,7 +4961,7 @@
               "rank": 4
             },
             {
-              "name": "Genesis Chimeric Nexus",
+              "name": "Prime Chimeric Nexus",
               "id": 112151,
               "count": 9,
               "rank": 3
@@ -4984,7 +4984,7 @@
               "rank": 4
             },
             {
-              "name": "Genesis Chimeric Nexus",
+              "name": "Prime Chimeric Nexus",
               "id": 112151,
               "count": 12,
               "rank": 3
@@ -5100,7 +5100,7 @@
               "rank": 4
             },
             {
-              "name": "Genesis Chimeric Nexus",
+              "name": "Prime Chimeric Nexus",
               "id": 112151,
               "count": 4,
               "rank": 3
@@ -5123,7 +5123,7 @@
               "rank": 4
             },
             {
-              "name": "Genesis Chimeric Nexus",
+              "name": "Prime Chimeric Nexus",
               "id": 112151,
               "count": 6,
               "rank": 3
@@ -5146,7 +5146,7 @@
               "rank": 4
             },
             {
-              "name": "Genesis Chimeric Nexus",
+              "name": "Prime Chimeric Nexus",
               "id": 112151,
               "count": 9,
               "rank": 3
@@ -5169,7 +5169,7 @@
               "rank": 4
             },
             {
-              "name": "Genesis Chimeric Nexus",
+              "name": "Prime Chimeric Nexus",
               "id": 112151,
               "count": 12,
               "rank": 3

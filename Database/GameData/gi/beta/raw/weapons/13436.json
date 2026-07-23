@@ -342,7 +342,7 @@
   },
   "refinement": {
     "1": {
-      "name": "",
+      "name": "Cadence of Days Gone By",
       "desc": "Triggering an Elemental Reaction regenerates <color=#99FFFFFF>4</color> Elemental Energy for the equipping character. This effect can trigger once every 9s. On the other hand, triggering a Stellar Glimmer reaction increases their ATK by <color=#99FFFFFF>20%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
       "param_list": [
         4,
@@ -356,7 +356,7 @@
       ]
     },
     "2": {
-      "name": "",
+      "name": "Cadence of Days Gone By",
       "desc": "Triggering an Elemental Reaction regenerates <color=#99FFFFFF>5</color> Elemental Energy for the equipping character. This effect can trigger once every 9s. On the other hand, triggering a Stellar Glimmer reaction increases their ATK by <color=#99FFFFFF>25%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
       "param_list": [
         5,
@@ -370,7 +370,7 @@
       ]
     },
     "3": {
-      "name": "",
+      "name": "Cadence of Days Gone By",
       "desc": "Triggering an Elemental Reaction regenerates <color=#99FFFFFF>6</color> Elemental Energy for the equipping character. This effect can trigger once every 9s. On the other hand, triggering a Stellar Glimmer reaction increases their ATK by <color=#99FFFFFF>30%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
       "param_list": [
         6,
@@ -384,7 +384,7 @@
       ]
     },
     "4": {
-      "name": "",
+      "name": "Cadence of Days Gone By",
       "desc": "Triggering an Elemental Reaction regenerates <color=#99FFFFFF>7</color> Elemental Energy for the equipping character. This effect can trigger once every 9s. On the other hand, triggering a Stellar Glimmer reaction increases their ATK by <color=#99FFFFFF>35%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
       "param_list": [
         7,
@@ -398,7 +398,7 @@
       ]
     },
     "5": {
-      "name": "",
+      "name": "Cadence of Days Gone By",
       "desc": "Triggering an Elemental Reaction regenerates <color=#99FFFFFF>8</color> Elemental Energy for the equipping character. This effect can trigger once every 9s. On the other hand, triggering a Stellar Glimmer reaction increases their ATK by <color=#99FFFFFF>40%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
       "param_list": [
         8,

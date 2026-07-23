@@ -6009,11 +6009,12 @@
     "name": "Alyosha",
     "rarity": 4,
     "type": "Unlocks the associated character",
+    "description": "A \"professional hunter\" and master of the Snezhnayan snowfields. A fierce, distinct \"idealism\" burns beneath his calm demeanor.",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_AvatarIcon_Alyosha_Card.webp"
     },
     "liveComparison": {
-      "currentHash": "27040d6be30e9d8cb8b470464f4b08bc1f9941af310a95d50d5118dcb726782c"
+      "currentHash": "5057646bee442fa81c923f47530546c6bec738fd60d3e75d37d81efc18888e5f"
     }
   },
   {
@@ -6022,11 +6023,12 @@
     "name": "Odette",
     "rarity": 5,
     "type": "Unlocks the associated character",
+    "description": "A famed Snezhnayan ballerina who blossoms against the frozen landscape with a beauty as sharp as frost.",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_AvatarIcon_Odette_Card.webp"
     },
     "liveComparison": {
-      "currentHash": "79b3a5bfcedf882316ee2644ecf4172f435945f6c470fb4adc447c507a2ae514"
+      "currentHash": "618e990169d35a5f17409b42f70eb9b3eeb118e6b04670d90380a93488ddd11f"
     }
   },
   {
@@ -23716,12 +23718,12 @@
     "name": "Bluebeech Wood",
     "rarity": 1,
     "type": "Material",
-    "description": "Wood from Bluebeeches with even grain patterns and can better withstand wear and tear. In Snezhnaya, it is often used in layered panels involved in structures and implements for long-term use.",
+    "description": "Wood from Bluebeeches with even grain patterns that can better withstand wear and tear. In Snezhnaya, it is often used in layered panels involved in structures and implements for long-term use.",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_101333.webp"
     },
     "liveComparison": {
-      "currentHash": "b26f020a5d6509b63cf9f336d36f7546274882bdb7ed9e720321c28e0ad8840c"
+      "currentHash": "3e77bc43d7e13bb4f308b1b8349290c7c27bb0232824ea3a34b762fd4941fbb1"
     }
   },
   {
@@ -56549,7 +56551,7 @@
   {
     "id": "112151",
     "contentStatus": "beta",
-    "name": "Genesis Chimeric Nexus",
+    "name": "Prime Chimeric Nexus",
     "rarity": 3,
     "type": "Character and Weapon Enhancement Material",
     "description": "The internal core harvested from aberrant man-made monsters.\\nThe most complex core a man-made monster can possibly sustain, serving as an artificially engineered yet flawless seed of life. Whoever brought this creation into life has surely unlocked the very secrets of how life itself is shaped.",
@@ -56557,7 +56559,7 @@
       "icon": "GameData/gi/assets/items/UI_ItemIcon_112151.webp"
     },
     "liveComparison": {
-      "currentHash": "cf616c9ba7996eeb99d9301bbc4ab66b6df146ad8d26157385361bc9e1cc9e4d"
+      "currentHash": "f25f6fb9247d2be3746ff6ec49c21f88146f7eaed063eebcf6516a2c700febb8"
     }
   },
   {
@@ -57985,12 +57987,12 @@
     "name": "Unscorched Blossom Branch",
     "rarity": 4,
     "type": "Character Level-Up Material",
-    "description": "A blossom branch taken from a monster created by someone to serve their selfish desires. It won't wither or burn in flame.\\nBefore the gloomy alchemist found a way to grant life eternity and put it into practice, he once ran his hand gently over the body of his creation — a monster whose leaves resembled crimson feathers. He imagined the undying creature greeting the friend he had awaited for so long from within the flames. Perhaps he should pluck a flower from his creation's body as a gift to mark that friend's escape from the realm of shadows.",
+    "description": "A blossom branch taken from a monster created by someone to serve their selfish desires. It won't wither or burn in flame.\\nBefore the gloomy alchemist found a way to grant life eternity and put it into practice, he once ran his hand gently over the body of his creation — a monster whose leaves resembled crimson feathers. He imagined the day the undying creature greeting the friend he had awaited for so long from within the flames. And by then... perhaps he should pluck a flower from his creation's body as a gift to mark that friend's escape from the realm of shadows.",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_113090.webp"
     },
     "liveComparison": {
-      "currentHash": "563530dfd2c970f962507268dc7a2f33ddc2e2ade7db8f5d8e23d8d0a47b2778"
+      "currentHash": "3277c576057997302304be884d5d9455a36a8011fadb8fb362dc58e57bc2642c"
     }
   },
   {
@@ -81779,66 +81781,71 @@
   {
     "id": "121442",
     "contentStatus": "beta",
-    "name": "赤钥匙卡",
+    "name": "Red Key Card",
     "rarity": 0,
     "type": "Quest Item",
+    "description": "One of three key cards required to open the sewer control room door. This one is red.",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_121442.webp"
     },
     "liveComparison": {
-      "currentHash": "ae1381ecab222afc37c227cff5d252b0f6c33db799659587b18513178ebc67b3"
+      "currentHash": "8600065deb6e4531a74049bbe96d488103ef16d076a31c25d69702ffecd05da5"
     }
   },
   {
     "id": "121443",
     "contentStatus": "beta",
-    "name": "白钥匙卡",
+    "name": "White Key Card",
     "rarity": 0,
     "type": "Quest Item",
+    "description": "One of three key cards required to open the sewer control room door. This one is white.",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_121443.webp"
     },
     "liveComparison": {
-      "currentHash": "c7b9752f73b5758bb2c4090ff82896bba954a55d518b3042898c582b450f72ee"
+      "currentHash": "5dfac36c7bf2fca922aa4d40336a9d3b7a5ba8e5ed2da86d44e5294e5ddb02a1"
     }
   },
   {
     "id": "121444",
     "contentStatus": "beta",
-    "name": "蓝钥匙卡",
+    "name": "Blue Key Card",
     "rarity": 0,
     "type": "Quest Item",
+    "description": "One of three key cards required to open the sewer control room door. This one is blue.",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_121444.webp"
     },
     "liveComparison": {
-      "currentHash": "dcf7ac11ac20b6bf7ada2e60e51a0b54bac64bda213035cfd84aa6b7ac4c6892"
+      "currentHash": "98a4c62610dab183fff284c1b0708b986e8ea9f999c0f8ccdce6d38d6aeaf6e8"
     }
   },
   {
     "id": "121445",
     "contentStatus": "beta",
-    "name": "「仪式」观礼请柬",
+    "name": "Invitation to the \"Ritual\"",
     "rarity": 0,
     "type": "Quest Item",
+    "description": "A wondrous invitation that always seems to find its way into the hands of its rightful recipient.\\nWith this invitation, one may journey to the House of Hesperides atop the icy peaks of Snezhnaya, to attend the wedding of Pavlina, the princess of the Snegurochka.",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_121445.webp"
     },
     "liveComparison": {
-      "currentHash": "61825753e76e1dfe565d9955d1fe5eb9b5c9e3304529035e72f89af43f808844"
+      "currentHash": "46fc5816fa4f6814b589871e7b4ea341f7a88ae976ae8849ff61a4d1ee571f34"
     }
   },
   {
     "id": "121446",
     "contentStatus": "beta",
-    "name": "被分离的伊科尔的碎片",
+    "name": "Severed Fragment of Ikor",
     "rarity": 0,
     "type": "Quest Item",
+    "description": "A fragment of Ikor's power, split off by Aksinya when the \"ritual\" was interrupted.\\nFor some reason, it has taken the form of a glowing doll. Perhaps the desire to \"fulfill the wishes of others\" became the strings that controlled him long ago, and now he is nothing more than a puppet carrying a form of transcendent power.",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_121446.webp"
     },
     "liveComparison": {
-      "currentHash": "b405ca8489a66b062fe15b56af9e9a3bc4dd16a4ccb0f6af3a8cd24c41fdfc81"
+      "currentHash": "f5dddc278fe75319073dab94aeeaa629e629447719dcde9fd57954655baba430"
     }
   },
   {
@@ -83127,27 +83134,29 @@
   {
     "id": "121541",
     "contentStatus": "beta",
-    "name": "冰结如心的卵石",
+    "name": "Pebble of Freezing Heart",
     "rarity": 0,
     "type": "Quest Item",
+    "description": "An egg-shaped stone infused with the power required for the Eye of Graeae to reclaim his physical form.\\nOnce used by the fae lord Pavlina to remedy the inherent flaws of the fae.\\nHidden within it may lie the aspiration of how a mere mortal might ascend to a higher status through rebirth.",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_121541.webp"
     },
     "liveComparison": {
-      "currentHash": "0d5c92f8a959e184eb4e6885e3778ffb906c1f3ab5b3910acc1d9b129563d42e"
+      "currentHash": "801fcacbbc0996132bd05a1f638841451c9957e126eeb349abdfa9fc2b3a6824"
     }
   },
   {
     "id": "121542",
     "contentStatus": "beta",
-    "name": "藻如蛇影的卵石",
+    "name": "Pebble of Serpentine Algae",
     "rarity": 0,
     "type": "Quest Item",
+    "description": "An egg-shaped stone infused with the power required for the Eye of Graeae to reclaim his physical form.\\nOnce used by the alchemist named Koshchei to create life in pursuit of eternity.\\nHidden within it may lie the revelation of how a mere mortal might forge immortality through rebirth.",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_121542.webp"
     },
     "liveComparison": {
-      "currentHash": "df7baf97806b338677e463e74abfb9a59ee6ae447ab01592f4c066cda9ae601d"
+      "currentHash": "c07dabbddddcf44c0280ce752a929dc4212d8aff04b21fa60f0bb56332bda7cb"
     }
   },
   {
@@ -83822,40 +83831,43 @@
   {
     "id": "121597",
     "contentStatus": "beta",
-    "name": "Control Wheel",
+    "name": "Metal Control Wheel",
     "rarity": 0,
     "type": "Quest Item",
+    "description": "A metal control wheel used to open a certain gate in the sewers.",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_121597.webp"
     },
     "liveComparison": {
-      "currentHash": "402f41770f4b6d2e2378fad022209f786e39fdd09930ce082ffadcb7d4b139bd"
+      "currentHash": "083e876b8f795c70b47dce77d6a60996f44a30a567c6cd84446d6f6aa6c2cca0"
     }
   },
   {
     "id": "121598",
     "contentStatus": "beta",
-    "name": "Control Wheel",
+    "name": "Sewer Lift Control Wheel",
     "rarity": 0,
     "type": "Quest Item",
+    "description": "A control wheel used to operate the sewer lift.",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_121597.webp"
     },
     "liveComparison": {
-      "currentHash": "b464896142304d2ffdbf4211b002776dbedcd3085ceeff63f7f47622c0899b28"
+      "currentHash": "b07d67c59a0fab4db3bfd4c89bc88d17b09a6a22ad44ce1cd40b61624ff29b0e"
     }
   },
   {
     "id": "121599",
     "contentStatus": "beta",
-    "name": "Control Wheel",
+    "name": "Lift Control Wheel",
     "rarity": 0,
     "type": "Quest Item",
+    "description": "A control wheel used to operate the lift leading to the assembly hall.",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_121597.webp"
     },
     "liveComparison": {
-      "currentHash": "b8a72df4c10da036d21db520d30a21f3568256195d52ad66ddb3b1311f25fa0d"
+      "currentHash": "4a4b8c97fc10447ab4bc0f6e6afd8d7a69454f7797549220fc3bbd3705ee4b98"
     }
   },
   {
@@ -83979,14 +83991,15 @@
   {
     "id": "121610",
     "contentStatus": "beta",
-    "name": "造型奇特的徽记",
+    "name": "Oddly-Shaped Emblem",
     "rarity": 0,
     "type": "Quest Item",
+    "description": "An emblem of peculiar design found by Nastya in a strange room. It seems capable of disabling traps...",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_121610.webp"
     },
     "liveComparison": {
-      "currentHash": "9705174c4994f877d5d2b69e0945c10f4938e962eb3c1cf767e6e43fef11bab1"
+      "currentHash": "09db0a60dc4fe53aa35227fd716d14f9749be6deb4e4b48d0f2d3c72dc0ef5bb"
     }
   },
   {
@@ -84030,12 +84043,13 @@
   {
     "id": "121614",
     "contentStatus": "beta",
-    "name": "《下水道出入指南》",
+    "name": "Sewer Entrance/Exit Guide",
     "rarity": 0,
     "type": "Quest Item",
+    "description": "A guide found inside the control room, detailing how to open the sewer control room door.",
     "assets": {},
     "liveComparison": {
-      "currentHash": "ad93d60572a69adcbf3de35724487adf46ac738384a0821099e5fddf0473583c"
+      "currentHash": "04695938e3d1cb2c35251648be28f6d7c6c62c3693e8cc6ef42e744661113362"
     }
   },
   {
@@ -84197,14 +84211,14 @@
   {
     "id": "121628",
     "contentStatus": "beta",
-    "name": "（test）至冬报纸1",
+    "name": "至冬先驱报",
     "rarity": 0,
     "type": "Quest Item",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_121625.webp"
     },
     "liveComparison": {
-      "currentHash": "3eea46f69168269b35327a2ffc93107f65e0b15e4d5a901bc178a9a535c1294d"
+      "currentHash": "5474adeed7798f135cf28edb553cca1c7cae32645ba587aadf0a44dd92d5f3f7"
     }
   },
   {
@@ -84238,14 +84252,15 @@
   {
     "id": "121632",
     "contentStatus": "beta",
-    "name": "雷殛细枝",
+    "name": "Rumbletwig",
     "rarity": 0,
     "type": "Quest Item",
+    "description": "A sprig sprouting from the Rumblebranch.\\nPlacing it on the Rumblebranch can summon lightning.",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_121632.webp"
     },
     "liveComparison": {
-      "currentHash": "524cc1fc0ace7ec8e3c941c425605408dc3a6d555e5129ee1d5635339adc8a24"
+      "currentHash": "09ecf0ee767f2868d99af864a32cd6f42137575f8ee6db013c194cb1b402bad0"
     }
   },
   {
@@ -84399,14 +84414,15 @@
   {
     "id": "121644",
     "contentStatus": "beta",
-    "name": "形制古老的钥匙",
+    "name": "Key of Ancient Design",
     "rarity": 0,
     "type": "Quest Item",
+    "description": "A key of distinctly ancient design. It appears capable of unlocking a door somewhere within the House of Hesperides.",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_121644.webp"
     },
     "liveComparison": {
-      "currentHash": "6bf76c18fec3414d9cb141107410930f37cb62eb84e19d9e733c3a02de68c299"
+      "currentHash": "3b0089e5b5edcf9b0b3a6c9251affe018ab7d4cb93bdabcf6b86fa36de4b9678"
     }
   },
   {
@@ -84566,12 +84582,12 @@
     "name": "Remnant Incense Guide - Snowgrave",
     "rarity": 4,
     "type": "Adventure Item",
-    "description": "Gathering three pieces of the Remnant Incense Guide - Snowgrave allows you to unseal the vault of Shadow Realm at the White Birch Snowgrave.\\nLegend has it that early squads exploring the Shadow Realm would occasionally find themselves unable to retrieve the treasures they discovered. In such cases, they would leave a specific \"scent trail\" behind. Only by piecing together the incense trail can one track down the locations of these long-lost relics.",
+    "description": "Gathering three pieces of the Remnant Incense Guide - Snowgrave allows you to unseal the vault of Shadow Realm at the Snowgrave.\\nLegend has it that early squads exploring the Shadow Realm would occasionally find themselves unable to retrieve the treasures they discovered. In such cases, they would leave a specific \"scent trail\" behind. Only by piecing together the incense trail can one track down the locations of these long-lost relics.",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_121659.webp"
     },
     "liveComparison": {
-      "currentHash": "a3fb661b490a8b8be6602ae9c63f751ab9e0af2e790947527cc5dc711cb8a7c9"
+      "currentHash": "6e6a51075944afc069ea3981263c7dc902d5e2491c9f833216d65d4953f7ad2f"
     }
   },
   {
@@ -84619,40 +84635,43 @@
   {
     "id": "121664",
     "contentStatus": "beta",
-    "name": "娜斯佳头顶的枝叶",
+    "name": "Branches of Nastya's Head",
     "rarity": 0,
     "type": "Quest Item",
+    "description": "A part of Nastya's body. It is a key item for opening the door leading to \"home\".",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_121664.webp"
     },
     "liveComparison": {
-      "currentHash": "4ea05996791d4734702cf936b7cebce549e6b219697b3c71a551cc67dfe6fd4b"
+      "currentHash": "09ae01c1bd8198fb636e3b75b202452e4222cf10027283c71e11052f5e5a0c6b"
     }
   },
   {
     "id": "121665",
     "contentStatus": "beta",
-    "name": "娜斯佳手绘的示意图",
+    "name": "Nastya's Hand-Drawn Diagram",
     "rarity": 0,
     "type": "Quest Item",
+    "description": "A hand-drawn diagram by Nastya showing how to open the door leading to \"home\".",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_100003.webp"
     },
     "liveComparison": {
-      "currentHash": "e2ca99559b4f1d5f1927bfe751a3d88e9fcf701300f0b09ceb772e3651ae27d9"
+      "currentHash": "6e784384cc8bb8eb1a832a69f86d6d9cd25d72a181901c5750876cd915fe16dd"
     }
   },
   {
     "id": "121666",
     "contentStatus": "beta",
-    "name": "《下水道出入指南》",
+    "name": "Sewer Entrance/Exit Guide",
     "rarity": 0,
     "type": "Quest Item",
+    "description": "A guide found inside the control room, detailing how to open the sewer control room door.",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_100003.webp"
     },
     "liveComparison": {
-      "currentHash": "662af4110d0e982ee2b59be223f8311b37cc442ce2b59b4e2870f9f8e2eeda22"
+      "currentHash": "2292a47c10505ce58e1c08ba2e1bc3500ceff5a14095e19934f8c1d70d1566e6"
     }
   },
   {
@@ -84671,23 +84690,25 @@
   {
     "id": "121668",
     "contentStatus": "beta",
-    "name": "地下室某房间入口门的操纵杆",
+    "name": "Entrance Door Lever for a Certain Basement Room",
     "rarity": 0,
     "type": "Quest Item",
+    "description": "A lever used to open the entrance door to a certain basement room.",
     "assets": {},
     "liveComparison": {
-      "currentHash": "42653e5b71fc2887e68d392adf2900ef8fc24f669c28606dfcf0f064ee4bb1e4"
+      "currentHash": "e321ec5804384f50b137827f2529e96d515a4b297938b639ed518390ff91279d"
     }
   },
   {
     "id": "121669",
     "contentStatus": "beta",
-    "name": "地下室某房间出口门的操纵杆",
+    "name": "Exit Door Lever for a Certain Basement Room",
     "rarity": 0,
     "type": "Quest Item",
+    "description": "A lever used to open the exit door to a certain basement room.",
     "assets": {},
     "liveComparison": {
-      "currentHash": "47cd583ed96d382b140a48dec080f34207d3998fc295cd5a131d51efae3458dd"
+      "currentHash": "87c34dd3c9cb39cf4700df6e10cf412d16a2f9e907b2392eaa2f5af217924400"
     }
   },
   {
@@ -84735,61 +84756,61 @@
   {
     "id": "121675",
     "contentStatus": "beta",
-    "name": "Polestar Dance Collection (I)",
+    "name": "Polestar Ballet Anthology (I)",
     "rarity": 4,
     "type": "Quest Item",
     "description": "???",
     "assets": {},
     "liveComparison": {
-      "currentHash": "cb5083b242b2cf9efff5a9e28d014d56b41feef08f8a32b2f6738f74f903e6bb"
+      "currentHash": "ddd2d66caa68fe3d938ce67ead5e3166105c6e160b8c126f5eb8250f581e8d46"
     }
   },
   {
     "id": "121676",
     "contentStatus": "beta",
-    "name": "Polestar Dance Collection (II)",
+    "name": "Polestar Ballet Anthology (II)",
     "rarity": 4,
     "type": "Quest Item",
     "description": "???",
     "assets": {},
     "liveComparison": {
-      "currentHash": "4997b1b17964997fe038975095845fb5560365dc8ee10a643f3dd8a9dade7a8a"
+      "currentHash": "0e5babee93302466dbf6b398660a1c34259a68c2ef39f9bce2b14f4db6af2271"
     }
   },
   {
     "id": "121677",
     "contentStatus": "beta",
-    "name": "Polestar Dance Collection (III)",
+    "name": "Polestar Ballet Anthology (III)",
     "rarity": 4,
     "type": "Quest Item",
     "description": "???",
     "assets": {},
     "liveComparison": {
-      "currentHash": "f2f340f9b027ddc2fe2757dc397603b03bc73ae6a3f19aa96eb3c0750704b758"
+      "currentHash": "9b2fd457d0f360698bfaf504f145d08b5ced5de116137b43047841eb23134d14"
     }
   },
   {
     "id": "121678",
     "contentStatus": "beta",
-    "name": "Polestar Dance Collection (IV)",
+    "name": "Polestar Ballet Anthology (IV)",
     "rarity": 4,
     "type": "Quest Item",
     "description": "???",
     "assets": {},
     "liveComparison": {
-      "currentHash": "7604a73dc022ece5c86a01f01060a489141c789a61513d4692a99b72030abe18"
+      "currentHash": "3339b0399e422d985694f0db1a7a2542598c59fe3538d69543a5f1dd3935a12c"
     }
   },
   {
     "id": "121679",
     "contentStatus": "beta",
     "name": "Heart of the Abyssal Beast",
-    "rarity": 4,
+    "rarity": 3,
     "type": "Quest Item",
     "description": "???",
     "assets": {},
     "liveComparison": {
-      "currentHash": "e5c8b6e5be5b8f5ef99d2021fb100abbef7e9b4ed165d12377f0922fec1f4be1"
+      "currentHash": "90ffdbc81dc9066c15e42df14621bbbba9fd7c0248bccb67aba39c5778528929"
     }
   },
   {
@@ -84849,209 +84870,241 @@
   {
     "id": "121685",
     "contentStatus": "beta",
-    "name": "娜斯佳与妈妈的合照",
+    "name": "Picture of Nastya With Her Mom",
     "rarity": 0,
-    "type": "任务道具",
+    "type": "Quest Item",
+    "description": "An old, slightly worn photo that captures a warm moment between Nastya and her mother.",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_121664.webp"
     },
     "liveComparison": {
-      "currentHash": "4ea2a41b807b05b443b594f246132b0095002d52d7f98b239119958cf4bb4115"
+      "currentHash": "ceb4014e4eec8b3ea73ad020df0ad9267df60abab50e28b556686d7ae559e5de"
     }
   },
   {
     "id": "121686",
     "contentStatus": "beta",
-    "name": "执行命令者的记录",
+    "name": "Records of the Orderbearer",
     "rarity": 0,
-    "type": "任务道具",
+    "type": "Quest Item",
+    "description": "Records of the Orderbearer",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_101633.webp"
     },
     "liveComparison": {
-      "currentHash": "945a4620a8778b5e746719c50e58fab1816fbbc0ca2909f082a6e871f655e1e0"
+      "currentHash": "c4c24c6d62c9dea2b3a7e5b7dd7bc245786c803320454499e50e0790f504cf91"
     }
   },
   {
     "id": "121687",
     "contentStatus": "beta",
-    "name": "调查手记",
+    "name": "Investigation Notes",
     "rarity": 0,
-    "type": "任务道具",
+    "type": "Quest Item",
+    "description": "Investigation Notes",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_101633.webp"
     },
     "liveComparison": {
-      "currentHash": "7923c93f764b123a80b4dd1a282166cb10aa83ce2a63e067acc24887a72c7b01"
+      "currentHash": "985aeb7919fdf9799d8d5bb3475d0220f808f99357e0921f6cc7f5c9527caf19"
     }
   },
   {
     "id": "121688",
     "contentStatus": "beta",
-    "name": "炼金术士的手记·其一",
+    "name": "The Alchemist's Notes (I)",
     "rarity": 0,
-    "type": "任务道具",
+    "type": "Quest Item",
+    "description": "The Alchemist's Notes (I)",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_101633.webp"
     },
     "liveComparison": {
-      "currentHash": "76b9c9b83cebac383f946a78b22bf2680f86d04ecca9d82bcf1e943aaefae87b"
+      "currentHash": "c48bb2d13d791de559a133e223d1c500e885886212b94f443e2ff6f435328c1f"
     }
   },
   {
     "id": "121689",
     "contentStatus": "beta",
-    "name": "炼金术士的手记·其二",
+    "name": "The Alchemist's Notes (II)",
     "rarity": 0,
-    "type": "任务道具",
+    "type": "Quest Item",
+    "description": "The Alchemist's Notes (II)",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_101633.webp"
     },
     "liveComparison": {
-      "currentHash": "ee6ed2fd4808baedc722632213b19b24727ee85687fe4895baec7c398ba8fd53"
+      "currentHash": "8d9a5723a674392635b97f0a87cffbc2b42af515d992aa180be2730bbd5dc5f0"
     }
   },
   {
     "id": "121690",
     "contentStatus": "beta",
-    "name": "矮灵王公的手记",
+    "name": "Grand Duke Alvis's Notes",
+    "rarity": 0,
+    "type": "Quest Item",
+    "description": "Grand Duke Alvis's Notes",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_101633.webp"
+    },
+    "liveComparison": {
+      "currentHash": "8b9579ee4557b4a31eeb488c8c893eb805e8ac2f0a82c7ddc578dd399d5b4a6a"
+    }
+  },
+  {
+    "id": "121691",
+    "contentStatus": "beta",
+    "name": "至冬先驱报",
+    "rarity": 0,
+    "type": "Quest Item",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_121625.webp"
+    },
+    "liveComparison": {
+      "currentHash": "b3345101da26f303f3caa4e164df422f4cb406a8d551fd4be2cf88acce5e938e"
+    }
+  },
+  {
+    "id": "121692",
+    "contentStatus": "beta",
+    "name": "至冬先驱报",
+    "rarity": 0,
+    "type": "Quest Item",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_121625.webp"
+    },
+    "liveComparison": {
+      "currentHash": "5ff24677eddca3836679e8f31d10cc9ff42ad50dd7d83c2ff2c2ab08d6d58c4c"
+    }
+  },
+  {
+    "id": "121693",
+    "contentStatus": "beta",
+    "name": "至冬先驱报",
+    "rarity": 0,
+    "type": "Quest Item",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_121625.webp"
+    },
+    "liveComparison": {
+      "currentHash": "914eaf63578fc63acf8d7b609367130c8ffaf2fd51ff569b65facb72196c454c"
+    }
+  },
+  {
+    "id": "121694",
+    "contentStatus": "beta",
+    "name": "至冬先驱报",
+    "rarity": 0,
+    "type": "Quest Item",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_121625.webp"
+    },
+    "liveComparison": {
+      "currentHash": "3d853fbe02180993671c898f71d49f7092105504677400b95acd5ab75c7ed117"
+    }
+  },
+  {
+    "id": "121695",
+    "contentStatus": "beta",
+    "name": "至冬先驱报",
+    "rarity": 0,
+    "type": "Quest Item",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_121625.webp"
+    },
+    "liveComparison": {
+      "currentHash": "5318c3bdee7a5c7626d63844e1af7021e0aae42831a995994357e0e34caed6ae"
+    }
+  },
+  {
+    "id": "121696",
+    "contentStatus": "beta",
+    "name": "至冬先驱报",
+    "rarity": 0,
+    "type": "Quest Item",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_121625.webp"
+    },
+    "liveComparison": {
+      "currentHash": "7848da9a6f11712a32295e7c2ea39d3c5faa49de5a4933e6eba22174b4e53ec0"
+    }
+  },
+  {
+    "id": "121697",
+    "contentStatus": "beta",
+    "name": "至冬先驱报",
+    "rarity": 0,
+    "type": "Quest Item",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_121625.webp"
+    },
+    "liveComparison": {
+      "currentHash": "ccd07269465e316ceba84b0d4005b166dfb66310728575be0cf7e81fbad4de14"
+    }
+  },
+  {
+    "id": "121698",
+    "contentStatus": "beta",
+    "name": "至冬先驱报",
+    "rarity": 0,
+    "type": "Quest Item",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_121625.webp"
+    },
+    "liveComparison": {
+      "currentHash": "dff826d57722450a1591f52fd3dbdb174f9de2762f5f2feabd7e9793c8b70973"
+    }
+  },
+  {
+    "id": "121699",
+    "contentStatus": "beta",
+    "name": "至冬先驱报",
+    "rarity": 0,
+    "type": "Quest Item",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_121625.webp"
+    },
+    "liveComparison": {
+      "currentHash": "141e74018d3ecbc26ff12ffe670473e4417a0f7604b0e33b7868985046a7b37b"
+    }
+  },
+  {
+    "id": "121700",
+    "contentStatus": "beta",
+    "name": "至冬先驱报",
+    "rarity": 0,
+    "type": "Quest Item",
+    "assets": {
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_121625.webp"
+    },
+    "liveComparison": {
+      "currentHash": "d2ab0b449d1c97b729687d637f504bc3050faf8065d523ed2b9ebf516709d7ab"
+    }
+  },
+  {
+    "id": "121701",
+    "contentStatus": "beta",
+    "name": "蒙灰旅人的记录",
     "rarity": 0,
     "type": "任务道具",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_101633.webp"
     },
     "liveComparison": {
-      "currentHash": "097c937d466bc2dc15444fece241eae14947dbb0f380ad5d3cdd2e6f07e6105f"
+      "currentHash": "0678e1af8d6a4e19276a15466fe8aafa50399c2d70bff36c75b6a91af42b0fba"
     }
   },
   {
-    "id": "121691",
+    "id": "121702",
     "contentStatus": "beta",
-    "name": "（test）至冬报纸2",
+    "name": "纸页泛黄的文件",
     "rarity": 0,
     "type": "任务道具",
     "assets": {
-      "icon": "GameData/gi/assets/items/UI_ItemIcon_121625.webp"
+      "icon": "GameData/gi/assets/items/UI_ItemIcon_101633.webp"
     },
     "liveComparison": {
-      "currentHash": "9f1afe48b99b2ee12a0e64c8be1925df435972268d523a6b14e739443035ff59"
-    }
-  },
-  {
-    "id": "121692",
-    "contentStatus": "beta",
-    "name": "（test）至冬报纸3",
-    "rarity": 0,
-    "type": "任务道具",
-    "assets": {
-      "icon": "GameData/gi/assets/items/UI_ItemIcon_121625.webp"
-    },
-    "liveComparison": {
-      "currentHash": "21c87435ae6c7c595e00e00935dafef1e4869da41ab896897f6e47f5681f9f99"
-    }
-  },
-  {
-    "id": "121693",
-    "contentStatus": "beta",
-    "name": "（test）至冬报纸4",
-    "rarity": 0,
-    "type": "任务道具",
-    "assets": {
-      "icon": "GameData/gi/assets/items/UI_ItemIcon_121625.webp"
-    },
-    "liveComparison": {
-      "currentHash": "3fda2e367e3e821885e526c590659c74020be3695ff80f908a5829939f9eb760"
-    }
-  },
-  {
-    "id": "121694",
-    "contentStatus": "beta",
-    "name": "（test）至冬报纸5",
-    "rarity": 0,
-    "type": "任务道具",
-    "assets": {
-      "icon": "GameData/gi/assets/items/UI_ItemIcon_121625.webp"
-    },
-    "liveComparison": {
-      "currentHash": "6f124a25a40a977a29e8d3fc1ceb9276051559d89e0f2fdccc354956777eff05"
-    }
-  },
-  {
-    "id": "121695",
-    "contentStatus": "beta",
-    "name": "（test）至冬报纸6",
-    "rarity": 0,
-    "type": "任务道具",
-    "assets": {
-      "icon": "GameData/gi/assets/items/UI_ItemIcon_121625.webp"
-    },
-    "liveComparison": {
-      "currentHash": "a94550945ce6032c04844a29d03ce1c52d422bb6ed92846dd7f07b87004108b8"
-    }
-  },
-  {
-    "id": "121696",
-    "contentStatus": "beta",
-    "name": "（test）至冬报纸7",
-    "rarity": 0,
-    "type": "任务道具",
-    "assets": {
-      "icon": "GameData/gi/assets/items/UI_ItemIcon_121625.webp"
-    },
-    "liveComparison": {
-      "currentHash": "95db4b72dac85aa6e311c583c1eaef6ee4f60fc27db267a3e7887f04fef9ac07"
-    }
-  },
-  {
-    "id": "121697",
-    "contentStatus": "beta",
-    "name": "（test）至冬报纸8",
-    "rarity": 0,
-    "type": "任务道具",
-    "assets": {
-      "icon": "GameData/gi/assets/items/UI_ItemIcon_121625.webp"
-    },
-    "liveComparison": {
-      "currentHash": "05244fa16953ce5c76db32702b41fa8e4d3fa27d8bd0032fe190c3330901ff84"
-    }
-  },
-  {
-    "id": "121698",
-    "contentStatus": "beta",
-    "name": "（test）至冬报纸9",
-    "rarity": 0,
-    "type": "任务道具",
-    "assets": {
-      "icon": "GameData/gi/assets/items/UI_ItemIcon_121625.webp"
-    },
-    "liveComparison": {
-      "currentHash": "3dfb73c36766d800cc0041b92ed57e6274bfe24825ace9be8daf2e2e7461f245"
-    }
-  },
-  {
-    "id": "121699",
-    "contentStatus": "beta",
-    "name": "（test）至冬报纸10",
-    "rarity": 0,
-    "type": "任务道具",
-    "assets": {
-      "icon": "GameData/gi/assets/items/UI_ItemIcon_121625.webp"
-    },
-    "liveComparison": {
-      "currentHash": "d04e9003da318439e326829a600e47804c126a58990eb268fd4d469b4167d02c"
-    }
-  },
-  {
-    "id": "121700",
-    "contentStatus": "beta",
-    "name": "（test）至冬报纸11",
-    "rarity": 0,
-    "type": "任务道具",
-    "assets": {
-      "icon": "GameData/gi/assets/items/UI_ItemIcon_121625.webp"
-    },
-    "liveComparison": {
-      "currentHash": "3145292c46dcafa3e0f47c8cf2120bc5da0358b404a672e31f769efd2ca732ad"
+      "currentHash": "54c0161b75c1fcb03c7f4de4d9d6ddf154a2889073ec5fac2bab340070ad6326"
     }
   },
   {
@@ -96302,7 +96355,7 @@
   {
     "id": "210292",
     "contentStatus": "beta",
-    "name": "Achievement: Fleeting Glimpses",
+    "name": "Snezhnaya: Fleeting Glimpses",
     "rarity": 4,
     "type": "ITEM_MATERIAL",
     "description": "Namecard style.\\nCountless people wander through narratives without beginning or end. Surpass them, for your will to see the ending is stronger than that of anyone else.",
@@ -96310,7 +96363,7 @@
       "icon": "GameData/gi/assets/items/UI_NameCardIcon_Tps1.webp"
     },
     "liveComparison": {
-      "currentHash": "2ad83d9d5793ee01cae08daaf62d9d1e06bb3ab9a3894557a3910929deed8b25"
+      "currentHash": "f4adb52e07c2b9530cd2790fd0317160e2f60be3758d08439c164ad5e9703e43"
     }
   },
   {
@@ -98754,12 +98807,12 @@
     "name": "Eye of Graeae",
     "rarity": 4,
     "type": "Gadget",
-    "description": "A strange mechanism you encountered in an abandoned station. It often appears in the form of a monocle.\\nIt offers many convenient functions, such as recording blueprints for Prime Ice constructs, creating Prime Ice, calling trains...\\nPerhaps it was built for the very purpose of providing all these conveniences.",
+    "description": "A strange mechanism you encountered in an abandoned station. It often appears in the form of a monocle.\\nIt seems to have many convenient functions...",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_220133.webp"
     },
     "liveComparison": {
-      "currentHash": "9159a824c2e78228c39252cab0e633bc32faf3953097526791e8dcf4bd4104d4"
+      "currentHash": "86cedf477b088fc56dc9c5f86e03d8585b6df8e9a36b8f14350dabd6dc733bc4"
     }
   },
   {
@@ -100320,12 +100373,12 @@
     "name": "Construct Appearance: Polyarbear",
     "rarity": 3,
     "type": "Prime Ice Construct Appearance",
-    "description": "Appearance of the Prime Ice Construct: Storage Device.\\nThere is an old saying among hunters that goes: \"If a bear holds it close, you know it's a treasure.\"\\nWhile the idea of wresting anything away from a real Polyarbear sounds terrifying, a mere storage unit modeled after one shouldn't pose much of a threat... right?",
+    "description": "Appearance of the \"Prime Ice Construct: Storage Device.\"\\nThere is an old saying among hunters that goes: \"If a bear holds it close, you know it's a treasure.\"\\nWhile the idea of wresting anything away from a real Polyarbear sounds terrifying, a mere storage unit modeled after one shouldn't pose much of a threat... right?",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_223302.webp"
     },
     "liveComparison": {
-      "currentHash": "8caa774ab2f8dafe121e44e89144d1e8d1c6259d56dfcffc8a696691db1ba8f6"
+      "currentHash": "9570c17119cfac6e2d12738b8f0b3fedc7f13ce839f21792185ba73a4e78b8a6"
     }
   },
   {

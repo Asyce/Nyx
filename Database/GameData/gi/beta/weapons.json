@@ -22853,6 +22853,7 @@
     "name": "Heretic's Molten Blade",
     "rarity": 4,
     "type": "WEAPON_SWORD_ONE_HAND",
+    "description": "He drew this weapon once more when he first met that God of Flame, revered by all, but it had been too long since he had last used it.",
     "attack": 510,
     "subStat": "FIGHT_PROP_CRITICAL",
     "assets": {
@@ -23198,7 +23199,7 @@
     "refinements": {
       "1": {
         "name": "Lone Light's Blessing",
-        "desc": "When the equipping character unleashes their Elemental Skill, they gain \"Gleam of First Light,\" which increases said character's ATK by between <color=#99FFFFFF>18%</color> and <color=#99FFFFFF>36%</color> depending on how much they have traveled over the last 1s while the effect is active. This effect, which lasts 14s, can trigger once every 14s. It is removed when the equipping character leaves the field.",
+        "desc": "When the equipping character unleashes their Elemental Skill, they gain \"Gleam of First Light\": Every second, increases said character's ATK by between <color=#99FFFFFF>18%</color> and <color=#99FFFFFF>36%</color> depending on how much they have traveled over the last 1s while the effect is active. This effect, which lasts 14s, can trigger once every 14s. It is removed when the equipping character leaves the field.",
         "param_list": [
           14,
           14,
@@ -23212,7 +23213,7 @@
       },
       "2": {
         "name": "Lone Light's Blessing",
-        "desc": "When the equipping character unleashes their Elemental Skill, they gain \"Gleam of First Light,\" which increases said character's ATK by between <color=#99FFFFFF>22.5%</color> and <color=#99FFFFFF>45%</color> depending on how much they have traveled over the last 1s while the effect is active. This effect, which lasts 14s, can trigger once every 14s. It is removed when the equipping character leaves the field.",
+        "desc": "When the equipping character unleashes their Elemental Skill, they gain \"Gleam of First Light\": Every second, increases said character's ATK by between <color=#99FFFFFF>22.5%</color> and <color=#99FFFFFF>45%</color> depending on how much they have traveled over the last 1s while the effect is active. This effect, which lasts 14s, can trigger once every 14s. It is removed when the equipping character leaves the field.",
         "param_list": [
           14,
           14,
@@ -23226,7 +23227,7 @@
       },
       "3": {
         "name": "Lone Light's Blessing",
-        "desc": "When the equipping character unleashes their Elemental Skill, they gain \"Gleam of First Light,\" which increases said character's ATK by between <color=#99FFFFFF>27%</color> and <color=#99FFFFFF>54%</color> depending on how much they have traveled over the last 1s while the effect is active. This effect, which lasts 14s, can trigger once every 14s. It is removed when the equipping character leaves the field.",
+        "desc": "When the equipping character unleashes their Elemental Skill, they gain \"Gleam of First Light\": Every second, increases said character's ATK by between <color=#99FFFFFF>27%</color> and <color=#99FFFFFF>54%</color> depending on how much they have traveled over the last 1s while the effect is active. This effect, which lasts 14s, can trigger once every 14s. It is removed when the equipping character leaves the field.",
         "param_list": [
           14,
           14,
@@ -23240,7 +23241,7 @@
       },
       "4": {
         "name": "Lone Light's Blessing",
-        "desc": "When the equipping character unleashes their Elemental Skill, they gain \"Gleam of First Light,\" which increases said character's ATK by between <color=#99FFFFFF>31.5%</color> and <color=#99FFFFFF>63%</color> depending on how much they have traveled over the last 1s while the effect is active. This effect, which lasts 14s, can trigger once every 14s. It is removed when the equipping character leaves the field.<color=#99FFFFFF></color>",
+        "desc": "When the equipping character unleashes their Elemental Skill, they gain \"Gleam of First Light\": Every second, increases said character's ATK by between <color=#99FFFFFF>31.5%</color> and <color=#99FFFFFF>63%</color> depending on how much they have traveled over the last 1s while the effect is active. This effect, which lasts 14s, can trigger once every 14s. It is removed when the equipping character leaves the field.<color=#99FFFFFF></color>",
         "param_list": [
           14,
           14,
@@ -23254,7 +23255,7 @@
       },
       "5": {
         "name": "Lone Light's Blessing",
-        "desc": "When the equipping character unleashes their Elemental Skill, they gain \"Gleam of First Light,\" which increases said character's ATK by between <color=#99FFFFFF>36%</color> and <color=#99FFFFFF>72%</color> depending on how mu<color=#99FFFFFF></color>ch they have traveled over the last 1s while the effect is active. This effect, which lasts 14s, can trigger once every 14s. It is removed when the equipping character leaves the field.<color=#99FFFFFF></color>",
+        "desc": "When the equipping character unleashes their Elemental Skill, they gain \"Gleam of First Light\": Every second, increases said character's ATK by between <color=#99FFFFFF>36%</color> and <color=#99FFFFFF>72%</color> depending on how mu<color=#99FFFFFF></color>ch they have traveled over the last 1s while the effect is active. This effect, which lasts 14s, can trigger once every 14s. It is removed when the equipping character leaves the field.<color=#99FFFFFF></color>",
         "param_list": [
           14,
           14,
@@ -23488,7 +23489,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "9028d81b447458c491ef11f35e52a43a48fdbb76718248530b0d320f1bdbdaa3"
+      "currentHash": "38d61e0348a0c0149b006ce6aa8e729100bfcb2842292426af3c0f1e60355e71"
     }
   },
   {
@@ -23842,8 +23843,8 @@
     },
     "refinements": {
       "1": {
-        "name": "",
-        "desc": "Triggering an Elemental Reaction increases the equipping character's ATK by <color=#99FFFFFF>16%</color> for the next 12s, while triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by <color=#99FFFFFF>16%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
+        "name": "Starfire Upon the Snowplains",
+        "desc": "Triggering an Elemental Reaction increases the equipping character's ATK by <color=#99FFFFFF>16%</color> for 12s. Triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by <color=#99FFFFFF>16%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
         "param_list": [
           0.16,
           12,
@@ -23856,8 +23857,8 @@
         ]
       },
       "2": {
-        "name": "",
-        "desc": "Triggering an Elemental Reaction increases the equipping character's ATK by <color=#99FFFFFF>20%</color> for the next 12s, while triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by <color=#99FFFFFF>20%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
+        "name": "Starfire Upon the Snowplains",
+        "desc": "Triggering an Elemental Reaction increases the equipping character's ATK by <color=#99FFFFFF>20%</color> for 12s. Triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by <color=#99FFFFFF>20%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
         "param_list": [
           0.2,
           12,
@@ -23870,8 +23871,8 @@
         ]
       },
       "3": {
-        "name": "",
-        "desc": "Triggering an Elemental Reaction increases the equipping character's ATK by <color=#99FFFFFF>24%</color> for the next 12s, while triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by <color=#99FFFFFF>24%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
+        "name": "Starfire Upon the Snowplains",
+        "desc": "Triggering an Elemental Reaction increases the equipping character's ATK by <color=#99FFFFFF>24%</color> for 12s. Triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by <color=#99FFFFFF>24%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
         "param_list": [
           0.24,
           12,
@@ -23884,8 +23885,8 @@
         ]
       },
       "4": {
-        "name": "",
-        "desc": "Triggering an Elemental Reaction increases the equipping character's ATK by <color=#99FFFFFF>28%</color> for the next 12s, while triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by <color=#99FFFFFF>28%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
+        "name": "Starfire Upon the Snowplains",
+        "desc": "Triggering an Elemental Reaction increases the equipping character's ATK by <color=#99FFFFFF>28%</color> for 12s. Triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by <color=#99FFFFFF>28%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
         "param_list": [
           0.28,
           12,
@@ -23898,8 +23899,8 @@
         ]
       },
       "5": {
-        "name": "",
-        "desc": "Triggering an Elemental Reaction increases the equipping character's ATK by <color=#99FFFFFF>32%</color> for the next 12s, while triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by <color=#99FFFFFF>32%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
+        "name": "Starfire Upon the Snowplains",
+        "desc": "Triggering an Elemental Reaction increases the equipping character's ATK by <color=#99FFFFFF>32%</color> for 12s. Triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by <color=#99FFFFFF>32%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
         "param_list": [
           0.32,
           12,
@@ -24133,7 +24134,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "2e50980eb5be098caad8e36b1cc2664933507c2fa71a48d01be32a969c5ccaea"
+      "currentHash": "d61207e0cc480dc3d5fdbd38924c9eaa3fd260f7d13b264fe46daf9c5a034b88"
     }
   },
   {
@@ -34484,6 +34485,7 @@
     "name": "Whitelake Frostfeather",
     "rarity": 5,
     "type": "WEAPON_SWORD_ONE_HAND",
+    "description": "A longsword light as the feathers of a snow swan, and which stays pure and untainted at all times.",
     "attack": 674,
     "subStat": "FIGHT_PROP_CRITICAL",
     "assets": {
@@ -34829,7 +34831,7 @@
     "refinements": {
       "1": {
         "name": "Snow Swan's Finale",
-        "desc": "When the equipping character hits an opponent with their Elemental Skill, they gain \"Lake-Hued Lament\": ATK increases by <color=#99FFFFFF>8%</color> for 8s. This effect can trigger once every 0.1s. Max 3 stacks, and each stack's duration is independent. At 3 stacks, the CRIT DMG of any Stellar Glimmer reaction DMG caused by the equipping character is increased by <color=#99FFFFFF>40%</color>, and triggering Stellar Glimmer reactions or Stellar Glimmer reaction DMG will also restore <color=#99FFFFFF>4</color> Elemental Energy to the character. This Energy recovery effect can trigger once every 3.5s. Can be triggered even when the equipping character is off-field.",
+        "desc": "When the equipping character hits an opponent with their Elemental Skill, they gain \"Lake-Hued Lament\": ATK increases by <color=#99FFFFFF>8%</color> for 8s. This effect can trigger once every 0.1s. Max 3 stacks, and each stack's duration is independent. At 3 stacks, the CRIT DMG of any Stellar Glimmer reaction DMG caused by the equipping character is increased by <color=#99FFFFFF>50%</color>, and triggering Stellar Glimmer reactions or Stellar Glimmer reaction DMG will also restore <color=#99FFFFFF>4</color> Elemental Energy to the character. This Energy recovery effect can trigger once every 3.5s. Can be triggered even when the equipping character is off-field.",
         "param_list": [
           4,
           0.08,
@@ -34843,7 +34845,7 @@
       },
       "2": {
         "name": "Snow Swan's Finale",
-        "desc": "When the equipping character hits an opponent with their Elemental Skill, they gain \"Lake-Hued Lament\": ATK increases by <color=#99FFFFFF>10%</color> for 8s. This effect can trigger once every 0.1s. Max 3 stacks, and each stack's duration is independent. At 3 stacks, the CRIT DMG of any Stellar Glimmer reaction DMG caused by the equipping character is increased by <color=#99FFFFFF>52%</color>, and triggering Stellar Glimmer reactions or Stellar Glimmer reaction DMG will also restore <color=#99FFFFFF>4.5</color> Elemental Energy to the character. This Energy recovery effect can trigger once every 3.5s. Can be triggered even when the equipping character is off-field.",
+        "desc": "When the equipping character hits an opponent with their Elemental Skill, they gain \"Lake-Hued Lament\": ATK increases by <color=#99FFFFFF>10%</color> for 8s. This effect can trigger once every 0.1s. Max 3 stacks, and each stack's duration is independent. At 3 stacks, the CRIT DMG of any Stellar Glimmer reaction DMG caused by the equipping character is increased by <color=#99FFFFFF>65%</color>, and triggering Stellar Glimmer reactions or Stellar Glimmer reaction DMG will also restore <color=#99FFFFFF>4.5</color> Elemental Energy to the character. This Energy recovery effect can trigger once every 3.5s. Can be triggered even when the equipping character is off-field.",
         "param_list": [
           4.5,
           0.1,
@@ -34857,7 +34859,7 @@
       },
       "3": {
         "name": "Snow Swan's Finale",
-        "desc": "When the equipping character hits an opponent with their Elemental Skill, they gain \"Lake-Hued Lament\": ATK increases by <color=#99FFFFFF>12%</color> for 8s. This effect can trigger once every 0.1s. Max 3 stacks, and each stack's duration is independent. At 3 stacks, the CRIT DMG of any Stellar Glimmer reaction DMG caused by the equipping character is increased by <color=#99FFFFFF>64%</color>, and triggering Stellar Glimmer reactions or Stellar Glimmer reaction DMG will also restore <color=#99FFFFFF>5</color> Elemental Energy to the character. This Energy recovery effect can trigger once every 3.5s. Can be triggered even when the equipping character is off-field.",
+        "desc": "When the equipping character hits an opponent with their Elemental Skill, they gain \"Lake-Hued Lament\": ATK increases by <color=#99FFFFFF>12%</color> for 8s. This effect can trigger once every 0.1s. Max 3 stacks, and each stack's duration is independent. At 3 stacks, the CRIT DMG of any Stellar Glimmer reaction DMG caused by the equipping character is increased by <color=#99FFFFFF>80%</color>, and triggering Stellar Glimmer reactions or Stellar Glimmer reaction DMG will also restore <color=#99FFFFFF>5</color> Elemental Energy to the character. This Energy recovery effect can trigger once every 3.5s. Can be triggered even when the equipping character is off-field.",
         "param_list": [
           5,
           0.12,
@@ -34871,7 +34873,7 @@
       },
       "4": {
         "name": "Snow Swan's Finale",
-        "desc": "When the equipping character hits an opponent with their Elemental Skill, they gain \"Lake-Hued Lament\": ATK increases by <color=#99FFFFFF>14%</color> for 8s. This effect can trigger once every 0.1s. Max 3 stacks, and each stack's duration is independent. At 3 stacks, the CRIT DMG of any Stellar Glimmer reaction DMG caused by the equipping character is increased by <color=#99FFFFFF>76%</color>, and triggering Stellar Glimmer reactions or Stellar Glimmer reaction DMG will also restore <color=#99FFFFFF>5.5</color> Elemental Energy to the character. This Energy recovery effect can trigger once every 3.5s. Can be triggered even when the equipping character is off-field.",
+        "desc": "When the equipping character hits an opponent with their Elemental Skill, they gain \"Lake-Hued Lament\": ATK increases by <color=#99FFFFFF>14%</color> for 8s. This effect can trigger once every 0.1s. Max 3 stacks, and each stack's duration is independent. At 3 stacks, the CRIT DMG of any Stellar Glimmer reaction DMG caused by the equipping character is increased by <color=#99FFFFFF>95%</color>, and triggering Stellar Glimmer reactions or Stellar Glimmer reaction DMG will also restore <color=#99FFFFFF>5.5</color> Elemental Energy to the character. This Energy recovery effect can trigger once every 3.5s. Can be triggered even when the equipping character is off-field.",
         "param_list": [
           5.5,
           0.14,
@@ -34885,7 +34887,7 @@
       },
       "5": {
         "name": "Snow Swan's Finale",
-        "desc": "When the equipping character hits an opponent with their Elemental Skill, they gain \"Lake-Hued Lament\": ATK increases by <color=#99FFFFFF>16%</color> for 8s. This effect can trigger once every 0.1s. Max 3 stacks, and each stack's duration is independent. At 3 stacks, the CRIT DMG of any Stellar Glimmer reaction DMG caused by the equipping character is increased by <color=#99FFFFFF>88%</color>, and triggering Stellar Glimmer reactions or Stellar Glimmer reaction DMG will also restore <color=#99FFFFFF>6</color> Elemental Energy to the character. This Energy recovery effect can trigger once every 3.5s. Can be triggered even when the equipping character is off-field.",
+        "desc": "When the equipping character hits an opponent with their Elemental Skill, they gain \"Lake-Hued Lament\": ATK increases by <color=#99FFFFFF>16%</color> for 8s. This effect can trigger once every 0.1s. Max 3 stacks, and each stack's duration is independent. At 3 stacks, the CRIT DMG of any Stellar Glimmer reaction DMG caused by the equipping character is increased by <color=#99FFFFFF>110%</color>, and triggering Stellar Glimmer reactions or Stellar Glimmer reaction DMG will also restore <color=#99FFFFFF>6</color> Elemental Energy to the character. This Energy recovery effect can trigger once every 3.5s. Can be triggered even when the equipping character is off-field.",
         "param_list": [
           6,
           0.16,
@@ -35065,7 +35067,7 @@
           {
             "itemId": "112151",
             "quantity": 9,
-            "name": "Genesis Chimeric Nexus",
+            "name": "Prime Chimeric Nexus",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -35100,7 +35102,7 @@
           {
             "itemId": "112151",
             "quantity": 18,
-            "name": "Genesis Chimeric Nexus",
+            "name": "Prime Chimeric Nexus",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -35111,15 +35113,21 @@
       }
     },
     "story": {
+      "291006": {
+        "zh": "ART/UI/Readable/CHS/Weapon11520_2",
+        "en": "ART/UI/Readable/EN/Weapon11520_2_EN",
+        "ja": "ART/UI/Readable/JP/Weapon11520_2_JP",
+        "ko": "ART/UI/Readable/KR/Weapon11520_2_KR"
+      },
       "291520": {
-        "zh": "ART/UI/Readable/CHS/Weapon11520",
-        "en": "ART/UI/Readable/EN/Weapon11520_EN",
-        "ja": "ART/UI/Readable/JP/Weapon11520_JP",
-        "ko": "ART/UI/Readable/KR/Weapon11520_KR"
+        "zh": "ART/UI/Readable/CHS/Weapon11520_1",
+        "en": "ART/UI/Readable/EN/Weapon11520_1_EN",
+        "ja": "ART/UI/Readable/JP/Weapon11520_1_JP",
+        "ko": "ART/UI/Readable/KR/Weapon11520_1_KR"
       }
     },
     "liveComparison": {
-      "currentHash": "f8cdd813de14c7890dcf2a61c3288574b478077f56f45edffd6b31f0e9529b76"
+      "currentHash": "404c44dba4185a35d3ebc1b9aa964af28e86190449dd2d94d53382430e698092"
     }
   },
   {
@@ -35128,6 +35136,7 @@
     "name": "Exaiphanes Blade",
     "rarity": 5,
     "type": "WEAPON_SWORD_ONE_HAND",
+    "description": "A longsword that once shone with the light of the very stars. In the voyager's hand, it becomes a brand-new light that has nothing to do with any past era.",
     "attack": 608,
     "subStat": "FIGHT_PROP_CRITICAL",
     "assets": {
@@ -35473,7 +35482,7 @@
     "refinements": {
       "1": {
         "name": "Traveler's Path",
-        "desc": "When the Traveler equips this, their ATK will increase by <color=#99FFFFFF>16%</color> for <color=#99FFFFFF>8</color>s when they hit an opponent. At the same time, they will also regenerate <color=#99FFFFFF>3</color> Elemental Energy. This effect can trigger once every <color=#99FFFFFF>5</color>s.",
+        "desc": "When the Traveler equips this, their ATK will increase by <color=#99FFFFFF>16%</color> for <color=#99FFFFFF>8</color>s after they hit an opponent. At the same time, they will also regenerate <color=#99FFFFFF>3</color> Elemental Energy. This effect can trigger once every <color=#99FFFFFF>5</color>s. This can be triggered even when the character is not on the field.",
         "param_list": [
           0.16,
           8,
@@ -35487,7 +35496,7 @@
       },
       "2": {
         "name": "Traveler's Path",
-        "desc": "When the Traveler equips this, their CRIT DMG increases by 6% for every Element they have resonated with. Additionally, the Traveler's ATK will also increase by <color=#99FFFFFF>20%</color> for 8s, and regenerate <color=#99FFFFFF>3</color> Elemental Energy, when they attack and hit an opponent. This effect can trigger once every 5s.",
+        "desc": "When the Traveler equips this, their CRIT DMG increases by 6% for every Element they have resonated with. Additionally, the Traveler's ATK will also increase by <color=#99FFFFFF>20%</color> for 8s, and regenerate <color=#99FFFFFF>3</color> Elemental Energy, after they attack and hit an opponent. This effect can trigger once every 5s. This can be triggered even when the character is not on the field.",
         "param_list": [
           0.2,
           8,
@@ -35501,7 +35510,7 @@
       },
       "3": {
         "name": "Traveler's Path",
-        "desc": "When the Traveler equips this, their CRIT DMG increases by 6% for every Element they have resonated with. Additionally, the Traveler's ATK will also increase by <color=#99FFFFFF>24%</color> for 8s, and regenerate <color=#99FFFFFF>5</color> Elemental Energy, when they attack and hit an opponent. This effect can trigger once every 5s.",
+        "desc": "When the Traveler equips this, their CRIT DMG increases by 6% for every Element they have resonated with. Additionally, the Traveler's ATK will also increase by <color=#99FFFFFF>24%</color> for 8s, and regenerate <color=#99FFFFFF>5</color> Elemental Energy, after they attack and hit an opponent. This effect can trigger once every 5s. This can be triggered even when the character is not on the field.",
         "param_list": [
           0.24,
           8,
@@ -35515,7 +35524,7 @@
       },
       "4": {
         "name": "Traveler's Path",
-        "desc": "When the Traveler equips this, their CRIT DMG increases by 6% for every Element they have resonated with. Additionally, the Traveler's ATK will also increase by <color=#99FFFFFF>32%</color> for 8s, and regenerate <color=#99FFFFFF>5</color> Elemental Energy, when they attack and hit an opponent. This effect can trigger once every 5s.",
+        "desc": "When the Traveler equips this, their CRIT DMG increases by 6% for every Element they have resonated with. Additionally, the Traveler's ATK will also increase by <color=#99FFFFFF>32%</color> for 8s, and regenerate <color=#99FFFFFF>5</color> Elemental Energy, after they attack and hit an opponent. This effect can trigger once every 5s. This can be triggered even when the character is not on the field.",
         "param_list": [
           0.32,
           8,
@@ -35529,7 +35538,7 @@
       },
       "5": {
         "name": "Traveler's Path",
-        "desc": "When the Traveler equips this, their CRIT DMG increases by 6% for every Element they have resonated with. Additionally, the Traveler's ATK will also increase by <color=#99FFFFFF>40%</color> for 8s, and regenerate <color=#99FFFFFF>5</color> Elemental Energy, when they attack and hit an opponent. This effect can trigger once every 5s.",
+        "desc": "When the Traveler equips this, their CRIT DMG increases by 6% for every Element they have resonated with. Additionally, the Traveler's ATK will also increase by <color=#99FFFFFF>40%</color> for 8s, and regenerate <color=#99FFFFFF>5</color> Elemental Energy, after they attack and hit an opponent. This effect can trigger once every 5s. This can be triggered even when the character is not on the field.",
         "param_list": [
           0.4,
           8,
@@ -35763,7 +35772,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "921744f4704cb1ed7521bfa128bc5d85d6f9af57342860f0b3fba0fb21d1146d"
+      "currentHash": "468ae1436c13ec01d43e990bb9e856d4547a3abbe2fde4c342d022bae5dd2567"
     }
   },
   {
@@ -56145,9 +56154,10 @@
   {
     "id": "12435",
     "contentStatus": "beta",
-    "name": "Forged by the Golden Law",
+    "name": "Forged by the Golden Melody",
     "rarity": 4,
     "type": "WEAPON_CLAYMORE",
+    "description": "A greatsword decorated in gold. Legend has it that it was the favored weapon of a certain exalted Harmost back in the distant past.",
     "attack": 510,
     "subStat": "FIGHT_PROP_CRITICAL",
     "assets": {
@@ -56783,7 +56793,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "a0b7637c4e2607cfe8d0fd58839bd446c5252fc8a4d04a4e4f762391ebfc6611"
+      "currentHash": "7976d81e87536638cbd1454760305baa253869299df42efc106ea49ae915d3f6"
     }
   },
   {
@@ -57137,8 +57147,8 @@
     },
     "refinements": {
       "1": {
-        "name": "",
-        "desc": "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by <color=#99FFFFFF>64</color> for the next 12s, while triggering a Stellar Glimmer reaction increases their ATK by <color=#99FFFFFF>16%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
+        "name": "Repentance and Redemption",
+        "desc": "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by <color=#99FFFFFF>64</color> for 12s, while triggering a Stellar Glimmer reaction increases their ATK by <color=#99FFFFFF>16%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
         "param_list": [
           64,
           12,
@@ -57151,8 +57161,8 @@
         ]
       },
       "2": {
-        "name": "",
-        "desc": "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by <color=#99FFFFFF>80</color> for the next 12s, while triggering a Stellar Glimmer reaction increases their ATK by <color=#99FFFFFF>20%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
+        "name": "Repentance and Redemption",
+        "desc": "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by <color=#99FFFFFF>80</color> for 12s, while triggering a Stellar Glimmer reaction increases their ATK by <color=#99FFFFFF>20%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
         "param_list": [
           80,
           12,
@@ -57165,8 +57175,8 @@
         ]
       },
       "3": {
-        "name": "",
-        "desc": "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by <color=#99FFFFFF>96</color> for the next 12s, while triggering a Stellar Glimmer reaction increases their ATK by <color=#99FFFFFF>24%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
+        "name": "Repentance and Redemption",
+        "desc": "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by <color=#99FFFFFF>96</color> for 12s, while triggering a Stellar Glimmer reaction increases their ATK by <color=#99FFFFFF>24%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
         "param_list": [
           96,
           12,
@@ -57179,8 +57189,8 @@
         ]
       },
       "4": {
-        "name": "",
-        "desc": "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by <color=#99FFFFFF>112</color> for the next 12s, while triggering a Stellar Glimmer reaction increases their ATK by <color=#99FFFFFF>28%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
+        "name": "Repentance and Redemption",
+        "desc": "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by <color=#99FFFFFF>112</color> for 12s, while triggering a Stellar Glimmer reaction increases their ATK by <color=#99FFFFFF>28%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
         "param_list": [
           112,
           12,
@@ -57193,8 +57203,8 @@
         ]
       },
       "5": {
-        "name": "",
-        "desc": "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by <color=#99FFFFFF>128</color> for the next 12s, while triggering a Stellar Glimmer reaction increases their ATK by <color=#99FFFFFF>32%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
+        "name": "Repentance and Redemption",
+        "desc": "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by <color=#99FFFFFF>128</color> for 12s, while triggering a Stellar Glimmer reaction increases their ATK by <color=#99FFFFFF>32%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
         "param_list": [
           128,
           12,
@@ -57374,7 +57384,7 @@
           {
             "itemId": "112151",
             "quantity": 6,
-            "name": "Genesis Chimeric Nexus",
+            "name": "Prime Chimeric Nexus",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -57409,7 +57419,7 @@
           {
             "itemId": "112151",
             "quantity": 12,
-            "name": "Genesis Chimeric Nexus",
+            "name": "Prime Chimeric Nexus",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -57428,7 +57438,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "cbeb4ad93088aed70d4b4d74006409193f919247769c2ffa75d5262d2990d8fe"
+      "currentHash": "d4a9073fc636339c4a5249069d4cfb871d563e5f42d0c6765ab559f62baaa50f"
     }
   },
   {
@@ -82335,6 +82345,7 @@
     "name": "Frostbreath",
     "rarity": 4,
     "type": "WEAPON_POLE",
+    "description": "A spear of solid ice imbued with an icy chill. It is said that it once belonged to the Belyi Tsar who ruled Snezhnaya in the distant past.",
     "attack": 510,
     "subStat": "FIGHT_PROP_CHARGE_EFFICIENCY",
     "assets": {
@@ -82694,7 +82705,7 @@
       },
       "2": {
         "name": "A Cast Real Far",
-        "desc": "Triggering a Cryo or Hydro-related elemental reaction increases the equipping character's ATK by <color=#99FFFFFF>25%</color> as well as regenerates <color=#99FFFFFF>7.5</color> Elemental Energy for other members of their party. This effect can trigger once every 16s.",
+        "desc": "Triggering a Cryo or Hydro-related elemental reaction increases the equipping character's ATK by <color=#99FFFFFF>25%</color> for the next 15s, as well as regenerates <color=#99FFFFFF>7.5</color> Elemental Energy for other members of their party. This effect can trigger once every 16s.",
         "param_list": [
           0.25,
           15,
@@ -82708,7 +82719,7 @@
       },
       "3": {
         "name": "A Cast Real Far",
-        "desc": "Triggering a Cryo or Hydro-related elemental reaction increases the equipping character's ATK by <color=#99FFFFFF>30%</color> as well as regenerates <color=#99FFFFFF>9</color> Elemental Energy for other members of their party. This effect can trigger once every 16s.",
+        "desc": "Triggering a Cryo or Hydro-related elemental reaction increases the equipping character's ATK by <color=#99FFFFFF>30%</color> for the next 15s, as well as regenerates <color=#99FFFFFF>9</color> Elemental Energy for other members of their party. This effect can trigger once every 16s.",
         "param_list": [
           0.3,
           15,
@@ -82722,7 +82733,7 @@
       },
       "4": {
         "name": "A Cast Real Far",
-        "desc": "Triggering a Cryo or Hydro-related elemental reaction increases the equipping character's ATK by <color=#99FFFFFF>35%</color> as well as regenerates <color=#99FFFFFF>10.5</color> Elemental Energy for other members of their party. This effect can trigger once every 16s.",
+        "desc": "Triggering a Cryo or Hydro-related elemental reaction increases the equipping character's ATK by <color=#99FFFFFF>35%</color> for the next 15s, as well as regenerates <color=#99FFFFFF>10.5</color> Elemental Energy for other members of their party. This effect can trigger once every 16s.",
         "param_list": [
           0.35,
           15,
@@ -82736,7 +82747,7 @@
       },
       "5": {
         "name": "A Cast Real Far",
-        "desc": "Triggering a Cryo or Hydro-related elemental reaction increases the equipping character's ATK by <color=#99FFFFFF>40%</color> as well as regenerates <color=#99FFFFFF>12</color> Elemental Energy for other members of their party. This effect can trigger once every 16s.",
+        "desc": "Triggering a Cryo or Hydro-related elemental reaction increases the equipping character's ATK by <color=#99FFFFFF>40%</color> for the next 15s, as well as regenerates <color=#99FFFFFF>12</color> Elemental Energy for other members of their party. This effect can trigger once every 16s.",
         "param_list": [
           0.4,
           15,
@@ -82916,7 +82927,7 @@
           {
             "itemId": "112151",
             "quantity": 6,
-            "name": "Genesis Chimeric Nexus",
+            "name": "Prime Chimeric Nexus",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -82951,7 +82962,7 @@
           {
             "itemId": "112151",
             "quantity": 12,
-            "name": "Genesis Chimeric Nexus",
+            "name": "Prime Chimeric Nexus",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -82970,7 +82981,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "0a616f4a5bf8663009557716fecbfe5090c40016cbdc93bd4d9d6771359a1d5f"
+      "currentHash": "65a8d39cadf6b8241b85acbf9acb5728ac247baeeb508fa0867736013fbcafda"
     }
   },
   {
@@ -83324,7 +83335,7 @@
     },
     "refinements": {
       "1": {
-        "name": "",
+        "name": "Cadence of Days Gone By",
         "desc": "Triggering an Elemental Reaction regenerates <color=#99FFFFFF>4</color> Elemental Energy for the equipping character. This effect can trigger once every 9s. On the other hand, triggering a Stellar Glimmer reaction increases their ATK by <color=#99FFFFFF>20%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
         "param_list": [
           4,
@@ -83338,7 +83349,7 @@
         ]
       },
       "2": {
-        "name": "",
+        "name": "Cadence of Days Gone By",
         "desc": "Triggering an Elemental Reaction regenerates <color=#99FFFFFF>5</color> Elemental Energy for the equipping character. This effect can trigger once every 9s. On the other hand, triggering a Stellar Glimmer reaction increases their ATK by <color=#99FFFFFF>25%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
         "param_list": [
           5,
@@ -83352,7 +83363,7 @@
         ]
       },
       "3": {
-        "name": "",
+        "name": "Cadence of Days Gone By",
         "desc": "Triggering an Elemental Reaction regenerates <color=#99FFFFFF>6</color> Elemental Energy for the equipping character. This effect can trigger once every 9s. On the other hand, triggering a Stellar Glimmer reaction increases their ATK by <color=#99FFFFFF>30%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
         "param_list": [
           6,
@@ -83366,7 +83377,7 @@
         ]
       },
       "4": {
-        "name": "",
+        "name": "Cadence of Days Gone By",
         "desc": "Triggering an Elemental Reaction regenerates <color=#99FFFFFF>7</color> Elemental Energy for the equipping character. This effect can trigger once every 9s. On the other hand, triggering a Stellar Glimmer reaction increases their ATK by <color=#99FFFFFF>35%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
         "param_list": [
           7,
@@ -83380,7 +83391,7 @@
         ]
       },
       "5": {
-        "name": "",
+        "name": "Cadence of Days Gone By",
         "desc": "Triggering an Elemental Reaction regenerates <color=#99FFFFFF>8</color> Elemental Energy for the equipping character. This effect can trigger once every 9s. On the other hand, triggering a Stellar Glimmer reaction increases their ATK by <color=#99FFFFFF>40%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
         "param_list": [
           8,
@@ -83615,7 +83626,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "ab53323926de74caaf4312fd268ea49a38f3b91472d817771620d9564d4b6576"
+      "currentHash": "4e65d5dc3c08ab95bcadec3d1284b96821210202a339bd6f7c8b923fb42a7338"
     }
   },
   {
@@ -112398,6 +112409,7 @@
     "name": "Clash of Kings",
     "rarity": 4,
     "type": "WEAPON_CATALYST",
+    "description": "A golden box lavishly inlaid with precious jewels. It houses a game much beloved by the kings of the sands.",
     "attack": 510,
     "subStat": "FIGHT_PROP_CRITICAL",
     "assets": {
@@ -113033,7 +113045,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "afd910ed39ce12a6cbf668bb3648cf05319cab7ee3f1d55a358409dc86c3845a"
+      "currentHash": "0e55d9b3368a778a219e50f57681e8e56f54f0f9e2f05934c97e69e24003bc59"
     }
   },
   {
@@ -113387,8 +113399,8 @@
     },
     "refinements": {
       "1": {
-        "name": "",
-        "desc": "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by <color=#99FFFFFF>60</color> for the next 12s, while triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by <color=#99FFFFFF>16%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
+        "name": "Echo of a Vow",
+        "desc": "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by <color=#99FFFFFF>60</color> for 12s, while triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by <color=#99FFFFFF>16%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
         "param_list": [
           60,
           0.16,
@@ -113401,8 +113413,8 @@
         ]
       },
       "2": {
-        "name": "",
-        "desc": "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by <color=#99FFFFFF>75</color> for the next 12s, while triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by <color=#99FFFFFF>20%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
+        "name": "Echo of a Vow",
+        "desc": "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by <color=#99FFFFFF>75</color> for 12s, while triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by <color=#99FFFFFF>20%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
         "param_list": [
           75,
           0.2,
@@ -113415,8 +113427,8 @@
         ]
       },
       "3": {
-        "name": "",
-        "desc": "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by <color=#99FFFFFF>90</color> for the next 12s, while triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by <color=#99FFFFFF>24%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
+        "name": "Echo of a Vow",
+        "desc": "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by <color=#99FFFFFF>90</color> for 12s, while triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by <color=#99FFFFFF>24%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
         "param_list": [
           90,
           0.24,
@@ -113429,8 +113441,8 @@
         ]
       },
       "4": {
-        "name": "",
-        "desc": "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by <color=#99FFFFFF>105</color> for the next 12s, while triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by <color=#99FFFFFF>28%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
+        "name": "Echo of a Vow",
+        "desc": "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by <color=#99FFFFFF>105</color> for 12s, while triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by <color=#99FFFFFF>28%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
         "param_list": [
           105,
           0.28,
@@ -113443,8 +113455,8 @@
         ]
       },
       "5": {
-        "name": "",
-        "desc": "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by <color=#99FFFFFF>120</color> for the next 12s, while triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by <color=#99FFFFFF>32%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
+        "name": "Echo of a Vow",
+        "desc": "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by <color=#99FFFFFF>120</color> for 12s, while triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by <color=#99FFFFFF>32%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
         "param_list": [
           120,
           0.32,
@@ -113678,7 +113690,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "60a54315ae33a8db66e33d0f0a4e2e35c120282e63d4758bfad2b0259c5c0aeb"
+      "currentHash": "afc5ec52435f58f55ee08274f7f7cce809530ef4b1d1540d36490a7a20710d4f"
     }
   },
   {
@@ -148216,9 +148228,10 @@
   {
     "id": "15435",
     "contentStatus": "beta",
-    "name": "Primordial Jade Vista",
+    "name": "Jade Vista",
     "rarity": 4,
     "type": "WEAPON_BOW",
+    "description": "A longbow of immense strength. It shines with the radiance of dreams even in the darkest of nights.",
     "attack": 510,
     "subStat": "FIGHT_PROP_CRITICAL",
     "assets": {
@@ -148564,7 +148577,7 @@
     "refinements": {
       "1": {
         "name": "A Candle Woven From the Night",
-        "desc": "Party members other than the equipping character will provide the equipping character with buffs based on whether their Elemental Type is the same as the latter or not. If their Elemental Types are the same, the equipping character gets a <color=#99FFFFFF>64</color>-point Elemental Mastery boost. If not, the equipping character's ATK is increased by <color=#99FFFFFF>12%</color> instead. The equipping character can enjoy up to 3 instances of the aforementioned buffs, with Elemental Mastery buffs counted first.",
+        "desc": "For every party member other than the equipping character:\\n· Who is of the same Elemental Type as the equipper: The equipping character's Elemental Mastery is increased by <color=#99FFFFFF>64</color>;\\n· Who is not of the same Elemental Type as the equipper: The equipping character's ATK increases by <color=#99FFFFFF>12%</color>.\\nThe two effects described above can stack up to 3 times in total, with Elemental Mastery buffs applied first.",
         "param_list": [
           0.12,
           64,
@@ -148578,7 +148591,7 @@
       },
       "2": {
         "name": "A Candle Woven From the Night",
-        "desc": "Party members other than the equipping character will provide the equipping character with buffs based on whether their Elemental Type is the same as the latter or not. If their Elemental Types are the same, the equipping character gets a <color=#99FFFFFF>80</color>-point Elemental Mastery boost. If not, the equipping character's ATK is increased by <color=#99FFFFFF>15%</color> instead. The equipping character can enjoy up to 3 instances of the aforementioned buffs, with Elemental Mastery buffs counted first.",
+        "desc": "For every party member other than the equipping character:\\n· Who is of the same Elemental Type as the equipper: The equipping character's Elemental Mastery is increased by <color=#99FFFFFF>80</color>;\\n· Who is not of the same Elemental Type as the equipper: The equipping character's ATK increases by <color=#99FFFFFF>15%</color>.\\nThe two effects described above can stack up to 3 times in total, with Elemental Mastery buffs applied first.",
         "param_list": [
           0.15,
           80,
@@ -148592,7 +148605,7 @@
       },
       "3": {
         "name": "A Candle Woven From the Night",
-        "desc": "Party members other than the equipping character will provide the equipping character with buffs based on whether their Elemental Type is the same as the latter or not. If their Elemental Types are the same, the equipping character gets a <color=#99FFFFFF>96</color>-point Elemental Mastery boost. If not, the equipping character's ATK is increased by <color=#99FFFFFF>18%</color> instead. The equipping character can enjoy up to 3 instances of the aforementioned buffs, with Elemental Mastery buffs counted first.",
+        "desc": "For every party member other than the equipping character:\\n· Who is of the same Elemental Type as the equipper: The equipping character's Elemental Mastery is increased by <color=#99FFFFFF>96</color>;\\n· Who is not of the same Elemental Type as the equipper: The equipping character's ATK increases by <color=#99FFFFFF>18%</color>.\\nThe two effects described above can stack up to 3 times in total, with Elemental Mastery buffs applied first.",
         "param_list": [
           0.18,
           96,
@@ -148606,7 +148619,7 @@
       },
       "4": {
         "name": "A Candle Woven From the Night",
-        "desc": "Party members other than the equipping character will provide the equipping character with buffs based on whether their Elemental Type is the same as the latter or not. If their Elemental Types are the same, the equipping character gets a <color=#99FFFFFF>112</color>-point Elemental Mastery boost. If not, the equipping character's ATK is increased by <color=#99FFFFFF>21%</color> instead. The equipping character can enjoy up to 3 instances of the aforementioned buffs, with Elemental Mastery buffs counted first.",
+        "desc": "For every party member other than the equipping character:\\n· Who is of the same Elemental Type as the equipper: The equipping character's Elemental Mastery is increased by <color=#99FFFFFF>112</color>;\\n· Who is not of the same Elemental Type as the equipper: The equipping character's ATK increases by <color=#99FFFFFF>21%</color>.\\nThe two effects described above can stack up to 3 times in total, with Elemental Mastery buffs applied first.",
         "param_list": [
           0.21,
           112,
@@ -148620,7 +148633,7 @@
       },
       "5": {
         "name": "A Candle Woven From the Night",
-        "desc": "Party members other than the equipping character will provide the equipping character with buffs based on whether they have the same Elemental Type. If their Elemental Type is the same as the equipping character's, the character gets a <color=#99FFFFFF>128</color>-point Elemental Mastery boost. If not, their ATK is increased by <color=#99FFFFFF>24%</color> instead. This effect can stack up to 3 times for the equipping character, with Elemental Mastery buffs counted first.",
+        "desc": "For every party member other than the equipping character:\\n· Who is of the same Elemental Type as the equipper: The equipping character's Elemental Mastery is increased by <color=#99FFFFFF>128</color>;\\n· Who is not of the same Elemental Type as the equipper: The equipping character's ATK increases by <color=#99FFFFFF>24%</color>.\\nThe two effects described above can stack up to 3 times in total, with Elemental Mastery buffs applied first.",
         "param_list": [
           0.24,
           128,
@@ -148854,7 +148867,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "fc216871d694d07638e00b2703f3ecc28566e4a536cadfbb7d77e6488edd08b6"
+      "currentHash": "4fb8fb3b27ce2d3c53d66bca0e038348d68141a935f3a01eec33c96397cd035b"
     }
   },
   {
@@ -149208,7 +149221,7 @@
     },
     "refinements": {
       "1": {
-        "name": "",
+        "name": "The Law's Equilibrium",
         "desc": "For 12s after the equipping character uses an Elemental Skill, their Elemental Mastery is increased by <color=#99FFFFFF>120</color>.",
         "param_list": [
           120,
@@ -149222,7 +149235,7 @@
         ]
       },
       "2": {
-        "name": "",
+        "name": "The Law's Equilibrium",
         "desc": "For 12s after the equipping character uses an Elemental Skill, their Elemental Mastery is increased by <color=#99FFFFFF>150</color>.",
         "param_list": [
           150,
@@ -149236,7 +149249,7 @@
         ]
       },
       "3": {
-        "name": "",
+        "name": "The Law's Equilibrium",
         "desc": "For 12s after the equipping character uses an Elemental Skill, their Elemental Mastery is increased by <color=#99FFFFFF>180</color>.",
         "param_list": [
           180,
@@ -149250,7 +149263,7 @@
         ]
       },
       "4": {
-        "name": "",
+        "name": "The Law's Equilibrium",
         "desc": "For 12s after the equipping character uses an Elemental Skill, their Elemental Mastery is increased by <color=#99FFFFFF>210</color>.",
         "param_list": [
           210,
@@ -149264,7 +149277,7 @@
         ]
       },
       "5": {
-        "name": "",
+        "name": "The Law's Equilibrium",
         "desc": "For 12s after the equipping character uses an Elemental Skill, their Elemental Mastery is increased by <color=#99FFFFFF>240</color>.",
         "param_list": [
           240,
@@ -149445,7 +149458,7 @@
           {
             "itemId": "112151",
             "quantity": 6,
-            "name": "Genesis Chimeric Nexus",
+            "name": "Prime Chimeric Nexus",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -149480,7 +149493,7 @@
           {
             "itemId": "112151",
             "quantity": 12,
-            "name": "Genesis Chimeric Nexus",
+            "name": "Prime Chimeric Nexus",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -149499,7 +149512,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "24bb1a36d47f6e7bd75d98b47fe9bdcdac9b2acc257bbdd23965f8efe2229918"
+      "currentHash": "e04fdd5aa8f94bb52e24e75f023c73cdb9f3966fa76ca4e89a7a23f66ca3cf46"
     }
   },
   {
@@ -157275,13 +157288,13 @@
     "name": "Ashamez's Thunder",
     "rarity": 4,
     "type": "ITEM_TPS_WEAPON",
-    "description": "A grenade launcher that can switch between firing off Pyro, Hydro, and Cryo rounds in that order.",
+    "description": "An assault rifle that can switch Normal ATKs to Chain Lightning mode, allowing you to lock onto and track targets.",
     "assets": {
       "icon": "GameData/gi/assets/weapons/icons/UI_EquipIcon_AssaultRifle_Fulmen.webp"
     },
     "properties": [],
     "liveComparison": {
-      "currentHash": "f5af3ab84868e9f7b7d0cfc06dbe6cef51c8885c51425dbb2cb936da9a9098b9"
+      "currentHash": "3cc0f85713d74531019f2007d5de45d3f41f56af32876d81432083a6b179b78a"
     }
   },
   {
@@ -157354,13 +157367,14 @@
   {
     "id": "224008",
     "contentStatus": "beta",
-    "name": "(test) Shadow Realm Grenade",
+    "name": "Specialized Frag Crystals within the Shadow Realm",
     "rarity": 4,
     "type": "ITEM_TPS_WEAPON",
+    "description": "Tactical throwable that can deal massive damage to Shadow Realm constructs",
     "assets": {},
     "properties": [],
     "liveComparison": {
-      "currentHash": "48271b325a33a97af40a11418fe42eb19a6fbb9682f25f02025f001ab95c3873"
+      "currentHash": "79d92690bdf7bfc14b50b0dde9906f3b0daa705c3e7974f03843476f9042524b"
     }
   },
   {

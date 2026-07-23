@@ -342,8 +342,8 @@
   },
   "refinement": {
     "1": {
-      "name": "",
-      "desc": "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by <color=#99FFFFFF>60</color> for the next 12s, while triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by <color=#99FFFFFF>16%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
+      "name": "Echo of a Vow",
+      "desc": "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by <color=#99FFFFFF>60</color> for 12s, while triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by <color=#99FFFFFF>16%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
       "param_list": [
         60,
         0.16,
@@ -356,8 +356,8 @@
       ]
     },
     "2": {
-      "name": "",
-      "desc": "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by <color=#99FFFFFF>75</color> for the next 12s, while triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by <color=#99FFFFFF>20%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
+      "name": "Echo of a Vow",
+      "desc": "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by <color=#99FFFFFF>75</color> for 12s, while triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by <color=#99FFFFFF>20%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
       "param_list": [
         75,
         0.2,
@@ -370,8 +370,8 @@
       ]
     },
     "3": {
-      "name": "",
-      "desc": "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by <color=#99FFFFFF>90</color> for the next 12s, while triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by <color=#99FFFFFF>24%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
+      "name": "Echo of a Vow",
+      "desc": "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by <color=#99FFFFFF>90</color> for 12s, while triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by <color=#99FFFFFF>24%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
       "param_list": [
         90,
         0.24,
@@ -384,8 +384,8 @@
       ]
     },
     "4": {
-      "name": "",
-      "desc": "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by <color=#99FFFFFF>105</color> for the next 12s, while triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by <color=#99FFFFFF>28%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
+      "name": "Echo of a Vow",
+      "desc": "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by <color=#99FFFFFF>105</color> for 12s, while triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by <color=#99FFFFFF>28%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
       "param_list": [
         105,
         0.28,
@@ -398,8 +398,8 @@
       ]
     },
     "5": {
-      "name": "",
-      "desc": "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by <color=#99FFFFFF>120</color> for the next 12s, while triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by <color=#99FFFFFF>32%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
+      "name": "Echo of a Vow",
+      "desc": "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by <color=#99FFFFFF>120</color> for 12s, while triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by <color=#99FFFFFF>32%</color> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
       "param_list": [
         120,
         0.32,

@@ -342,7 +342,7 @@
   },
   "refinement": {
     "1": {
-      "name": "",
+      "name": "The Law's Equilibrium",
       "desc": "For 12s after the equipping character uses an Elemental Skill, their Elemental Mastery is increased by <color=#99FFFFFF>120</color>.",
       "param_list": [
         120,
@@ -356,7 +356,7 @@
       ]
     },
     "2": {
-      "name": "",
+      "name": "The Law's Equilibrium",
       "desc": "For 12s after the equipping character uses an Elemental Skill, their Elemental Mastery is increased by <color=#99FFFFFF>150</color>.",
       "param_list": [
         150,
@@ -370,7 +370,7 @@
       ]
     },
     "3": {
-      "name": "",
+      "name": "The Law's Equilibrium",
       "desc": "For 12s after the equipping character uses an Elemental Skill, their Elemental Mastery is increased by <color=#99FFFFFF>180</color>.",
       "param_list": [
         180,
@@ -384,7 +384,7 @@
       ]
     },
     "4": {
-      "name": "",
+      "name": "The Law's Equilibrium",
       "desc": "For 12s after the equipping character uses an Elemental Skill, their Elemental Mastery is increased by <color=#99FFFFFF>210</color>.",
       "param_list": [
         210,
@@ -398,7 +398,7 @@
       ]
     },
     "5": {
-      "name": "",
+      "name": "The Law's Equilibrium",
       "desc": "For 12s after the equipping character uses an Elemental Skill, their Elemental Mastery is increased by <color=#99FFFFFF>240</color>.",
       "param_list": [
         240,
@@ -520,7 +520,7 @@
           "rank": 4
         },
         {
-          "name": "Genesis Chimeric Nexus",
+          "name": "Prime Chimeric Nexus",
           "id": 112151,
           "count": 6,
           "rank": 3
@@ -543,7 +543,7 @@
           "rank": 4
         },
         {
-          "name": "Genesis Chimeric Nexus",
+          "name": "Prime Chimeric Nexus",
           "id": 112151,
           "count": 12,
           "rank": 3

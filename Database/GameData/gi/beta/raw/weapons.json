@@ -438,7 +438,7 @@
     "en": "Heretic's Molten Blade",
     "atk": 510,
     "sub": "FIGHT_PROP_CRITICAL",
-    "desc": "",
+    "desc": "He drew this weapon once more when he first met that God of Flame, revered by all, but it had been too long since he had last used it.",
     "ko": "이단을 가르는 불꽃",
     "zh": "熔猎异端之刃",
     "ja": "異端を狩る熔刃"
@@ -654,7 +654,7 @@
     "en": "Whitelake Frostfeather",
     "atk": 674,
     "sub": "FIGHT_PROP_CRITICAL",
-    "desc": "",
+    "desc": "A longsword light as the feathers of a snow swan, and which stays pure and untainted at all times.",
     "ko": "백조의 호수",
     "zh": "白湖冬羽",
     "ja": "白銀の湖を舞う翼"
@@ -666,7 +666,7 @@
     "en": "Exaiphanes Blade",
     "atk": 608,
     "sub": "FIGHT_PROP_CRITICAL",
-    "desc": "",
+    "desc": "A longsword that once shone with the light of the very stars. In the voyager's hand, it becomes a brand-new light that has nothing to do with any past era.",
     "ko": "별빛검",
     "zh": "星锋剑",
     "ja": "星鋒の剣"
@@ -1059,10 +1059,10 @@
     "icon": "UI_EquipIcon_Claymore_EscapeWheel",
     "rank": 4,
     "type": "WEAPON_CLAYMORE",
-    "en": "Forged by the Golden Law",
+    "en": "Forged by the Golden Melody",
     "atk": 510,
     "sub": "FIGHT_PROP_CRITICAL",
-    "desc": "",
+    "desc": "A greatsword decorated in gold. Legend has it that it was the favored weapon of a certain exalted Harmost back in the distant past.",
     "ko": "황금빛 선율",
     "zh": "金律铸影",
     "ja": "シンフォニーの鋳影"
@@ -1554,7 +1554,7 @@
     "en": "Frostbreath",
     "atk": 510,
     "sub": "FIGHT_PROP_CHARGE_EFFICIENCY",
-    "desc": "",
+    "desc": "A spear of solid ice imbued with an icy chill. It is said that it once belonged to the Belyi Tsar who ruled Snezhnaya in the distant past.",
     "ko": "서리 숨결",
     "zh": "寒息",
     "ja": "氷の吐息"
@@ -2118,7 +2118,7 @@
     "en": "Clash of Kings",
     "atk": 510,
     "sub": "FIGHT_PROP_CRITICAL",
-    "desc": "",
+    "desc": "A golden box lavishly inlaid with precious jewels. It houses a game much beloved by the kings of the sands.",
     "ko": "왕들의 대국",
     "zh": "群王局戏",
     "ja": "諸王の対局"
@@ -2787,10 +2787,10 @@
     "icon": "UI_EquipIcon_Bow_ShatteredMirror",
     "rank": 4,
     "type": "WEAPON_BOW",
-    "en": "Primordial Jade Vista",
+    "en": "Jade Vista",
     "atk": 510,
     "sub": "FIGHT_PROP_CRITICAL",
-    "desc": "",
+    "desc": "A longbow of immense strength. It shines with the radiance of dreams even in the darkest of nights.",
     "ko": "옥빛 장궁",
     "zh": "悬黎千钧",
     "ja": "懸黎千鈞"
@@ -2966,7 +2966,7 @@
     "rank": 4,
     "type": "ITEM_TPS_WEAPON",
     "en": "Ashamez's Thunder",
-    "desc": "A grenade launcher that can switch between firing off Pyro, Hydro, and Cryo rounds in that order.",
+    "desc": "An assault rifle that can switch Normal ATKs to Chain Lightning mode, allowing you to lock onto and track targets.",
     "ko": "아샤메즈의 천광",
     "zh": "阿夏梅兹的千光",
     "ja": "アシャメズの千光JP0B"
@@ -3025,9 +3025,9 @@
     "icon": "Sword_Template",
     "rank": 4,
     "type": "ITEM_TPS_WEAPON",
-    "en": "(test) Shadow Realm Grenade",
-    "desc": "",
-    "ko": "(test)  그림자 영역 번개",
+    "en": "Specialized Frag Crystals within the Shadow Realm",
+    "desc": "Tactical throwable that can deal massive damage to Shadow Realm constructs",
+    "ko": "그림자 영역 특화 결정 수류탄",
     "zh": "影域特化榴晶",
     "ja": "(test)  闇域グレネードJP0F"
   },
@@ -3183,9 +3183,9 @@
     "skin": true,
     "tag": "TAG_TYPE_NONE",
     "desc": "A small gift from the Jack Frosts to their good friends! It looks wildly tasty and seems berry jam-flavored. One bite, and a refreshing chill and delightful sweetness would surely dance together across your tongue... if only this were actually edible. It looks super delicious, though.",
-    "ko": "한여름의 서리!",
+    "ko": "아이스바!",
     "zh": "炎夏轻霜！",
-    "ja": ""
+    "ja": "真夏のアイスポップ！"
   },
   "390001": {
     "icon": "UI_EquipIcon_Claymore_VarkaTunkeldegen",

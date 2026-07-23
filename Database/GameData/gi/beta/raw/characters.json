@@ -1892,7 +1892,7 @@
     "weapon": "WEAPON_POLE",
     "element": "Electro",
     "en": "Alyosha",
-    "desc": "",
+    "desc": "A \"professional hunter\" and master of the Snezhnayan snowfields. A fierce, distinct \"idealism\" burns beneath his calm demeanor.",
     "ko": "알료샤",
     "zh": "阿罗夏",
     "ja": "アリョーシャ"
@@ -1908,7 +1908,7 @@
     "weapon": "WEAPON_SWORD_ONE_HAND",
     "element": "Cryo",
     "en": "Odette",
-    "desc": "",
+    "desc": "A famed Snezhnayan ballerina who blossoms against the frozen landscape with a beauty as sharp as frost.",
     "ko": "오데트",
     "zh": "奥黛塔",
     "ja": "オデット"

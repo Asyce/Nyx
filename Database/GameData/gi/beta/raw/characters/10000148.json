@@ -1,6 +1,6 @@
 {
   "name": "Alyosha",
-  "desc": "",
+  "desc": "A \"professional hunter\" and master of the Snezhnayan snowfields. A fierce, distinct \"idealism\" burns beneath his calm demeanor.",
   "chara_info": {
     "release_date": "1970-01-01 00:00:00",
     "birth": [
@@ -14,7 +14,7 @@
     "region": "ASSOC_TYPE_SNEZHNAYA",
     "title": "Swift-Striding Hound",
     "native": "Snezhnaya",
-    "detail": "A \"professional hunter\" mastering the Snezhnayan snowfields. Beneath his calm demeanor, a fiercely distinct \"ideal\" seems to burn.",
+    "detail": "A \"professional hunter\" and master of the Snezhnayan snowfields. A fierce, distinct \"idealism\" burns beneath his calm demeanor.",
     "va": {
       "chinese": "???",
       "japanese": "???",
@@ -907,7 +907,7 @@
     {
       "id": 11481,
       "name": "Skirmishing Spear",
-      "desc": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 4 consecutive spear strikes, and applies the {LINK#N11500004}<color=#FFD780FF>Hunter's Mark</color>{/LINK} to the opponent hit by the final strike.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to deal damage to opponents in his path.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "desc": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 4 consecutive spear strikes and applies the {LINK#N11480001}<color=#FFD780FF>Hunter's {LINK#N11480001}{/LINK}Mark</color>{/LINK} to the opponent hit by the final strike.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents in his path.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
       "promote": {
         "0": {
           "level": 1,
@@ -1634,7 +1634,7 @@
     {
       "id": 11482,
       "name": "Thunderbolt Strike",
-      "desc": "Follows his hunter's instincts. Tap or hold to produce different effects as well as apply to the opponent the {LINK#N11500004}<color=#FFD780FF>Hunter's Mark</color>{/LINK} effect.\\n\\n<color=#FFD780FF>Tapping</color>\\nFires at opponents in front of him, dealing <color=#FFACFFFF>AoE Electro DMG</color>.\\n\\n<color=#FFD780FF>Holding</color>\\nGoes into aiming mode, then targets opponents within a certain area in front of him. Alyosha's Interruption RES is enhanced when in this mode.\\nAt the end of the button hold, he deals <color=#FFACFFFF>Electro DMG</color> to the targeted opponents.\\n\\n<i>The reckless hunter once reached for the spear's edge, and it was only after they survived a lesson paid in blood that they came to understand the harsh truths of survival on the frozen plains.</i>",
+      "desc": "Follows his hunter's instincts. Tap or hold to produce different effects as well as apply the {LINK#N11480001}<color=#FFD780FF>Hunter's Mark</color>{/LINK} effect to the hit opponents.\\n\\n<color=#FFD780FF>Tapping</color>\\nFires at opponents in front of him, dealing <color=#FFACFFFF>AoE Electro DMG</color>.\\n\\n<color=#FFD780FF>Holding</color>\\nGoes into aiming mode, then targets opponents within a certain area in front of him. Alyosha's Interruption RES is enhanced when in this mode.\\nAt the end of the button hold, he deals <color=#FFACFFFF>Electro DMG</color> to the targeted opponents.\\n\\n<i>The reckless hunter once reached for the spear's edge, and it was only after they survived a lesson paid in blood that they came to understand the harsh truths of survival on the frozen plains.</i>",
       "promote": {
         "0": {
           "level": 1,
@@ -2361,7 +2361,7 @@
     {
       "id": 11485,
       "name": "Hunter's Advance",
-      "desc": "Summons his trusted companion <color=#FFD780FF>Tugarin</color> to fight alongside him on the field. This also turns an area in front of him into a <color=#FFD780FF>Fulgurite Hunting Field</color> for a short time.\\n\\n<color=#FFD780FF>Fulgurite Hunting Field</color>\\n· Continuously taunts nearby opponents to incite them to attack.\\n· Every 2s, deals an instance of <color=#FFACFFFF>AoE Electro DMG</color> to any opponent that has wandered into the field.\\n\\n<color=#FFD780FF>Tugarin</color>\\n· If there are any opponents nearby, every 2s Tugarin will quickly move close to an opponent and maul them, dealing <color=#FFD780FF>Electro DMG</color>.\\n· If an opponent affected by the <color=#FFD780FF>Hunter's Mark</color> effect is hit, the <color=#FFD780FF>Hunter's Mark</color> will also be activated.\\n· Where there are multiple opponents, Tugarin will attack those affected by the <color=#FFD780FF>Hunter's Mark</color> effect first.\\n\\n<i>Wait. Keep waiting until the impatience fades. That's when the red-bellied plover shall sweep across the birch grove and present itself before one's arrow.</i>",
+      "desc": "Summons his trusted companion <color=#FFD780FF>Tugarin</color> to fight alongside him on the field. This also turns an area in front of him into a <color=#FFD780FF>Fulgurite Hunting Field</color> for a short time.\\n\\n<color=#FFD780FF>Fulgurite Hunting Field</color>\\n· Continuously taunts nearby opponents to incite them to attack.\\n· Every 2s, deals an instance of <color=#FFACFFFF>AoE Electro DMG</color> to any opponent that has wandered into the field.\\n\\n<color=#FFD780FF>Tugarin</color>\\n· If there are any opponents nearby, Tugarin will quickly move close to an opponent and maul them every 2s, dealing <color=#FFD780FF>Electro DMG</color>.\\n· If an opponent affected by the <color=#FFD780FF>Hunter's Mark</color> effect is hit, the <color=#FFD780FF>Hunter's Mark</color> will also be activated.\\n· Where there are multiple opponents, Tugarin will attack those affected by the <color=#FFD780FF>Hunter's Mark</color> effect first.\\n\\n<i>Wait. Keep waiting until the impatience fades. That's when the red-bellied plover shall sweep across the birch grove and present itself before one's arrow.</i>",
       "promote": {
         "0": {
           "level": 1,
@@ -3090,7 +3090,7 @@
     {
       "id": 1482101,
       "name": "Awakened by the Baying Hounds",
-      "desc": "When {LINK#N11480002}<color=#FFD780FF>Tugarin</color>{/LINK} attacks, it will also restore HP to nearby party members at 120% of Alyosha's ATK.",
+      "desc": "When {LINK#N11480002}<color=#FFD780FF>Tugarin</color>{/LINK} attacks, it will also restore HP to nearby active characters at 120% of Alyosha's ATK.",
       "icon": "UI_Talent_S_Alyosha_05",
       "unlock": 1,
       "param_list": [
@@ -3148,7 +3148,7 @@
     {
       "id": 1482301,
       "name": "Into the Fray",
-      "desc": "Alyosha will enter the <color=#FFD780FF>Radiance: Stellar-Conduct</color> state when inside a {LINK#N11330003}<color=#FFD780FF>Polestar Field</color>{/LINK}.\\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: The <color=#FFD780FF>Hunter's Precision</color> effect obtained when the {LINK#N11480001}<color=#FFD780FF>Hunter's Mark</color>{/LINK} is activated will also increase Stellar-Conduct DMG dealt by all nearby party members by 20%.",
+      "desc": "Alyosha will enter the <color=#FFD780FF>Radiance: Stellar-Conduct</color> state when inside a {LINK#N11330003}<color=#FFD780FF>Polestar Field</color>{/LINK}.\\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: The <color=#FFD780FF>Hunter's Precision</color> effect obtained when the {LINK#N11480001}<color=#FFD780FF>Hunter's Mark</color>{/LINK} is activated will also increase Stellar-Conduct DMG dealt by all currently active party members by 20%.",
       "icon": "UI_Talent_S_Alyosha_07",
       "unlock": 0,
       "param_list": [
@@ -3224,7 +3224,7 @@
     {
       "id": 1482,
       "name": "Howl From Afar",
-      "desc": "The duration of the Elemental Burst <color=#FFD780FF>Hunter's Advance</color> is extended by 6s.\\nAdditionally, each time {LINK#N11480002}<color=#FFD780FF>Tugarin</color>{/LINK} attacks the opponent, it will first apply the {LINK#N11480001}<color=#FFD780FF>Hunter's Mark</color>{/LINK}. This effect does not activate existing <color=#FFD780FF>Hunter's Marks</color>.",
+      "desc": "The duration of the Elemental Burst <color=#FFD780FF>Hunter's Advance</color> is extended by 6s.\\nAdditionally, each time {LINK#N11480002}<color=#FFD780FF>Tugarin</color>{/LINK} attacks the opponent, he will also apply the {LINK#N11480001}<color=#FFD780FF>Hunter's Mark</color>{/LINK} to a target. This effect does not activate existing <color=#FFD780FF>Hunter's Marks</color>.",
       "icon": "UI_Talent_S_Alyosha_02",
       "param_list": [
         6,
@@ -3256,7 +3256,7 @@
     {
       "id": 1484,
       "name": "Harvest the Spoils",
-      "desc": "When {LINK#N11480002}<color=#FFD780FF>Tugarin</color>{/LINK} attacks, it will also restore 60% of Alyosha's ATK as HP to the nearby party member with the lowest HP by percentage.",
+      "desc": "When {LINK#N11480002}<color=#FFD780FF>Tugarin</color>{/LINK} attacks, he will also restore 60% of Alyosha's ATK as HP to the nearby party member with the lowest HP by percentage.",
       "icon": "UI_Talent_S_Alyosha_03",
       "param_list": [
         0.6,
@@ -3288,7 +3288,7 @@
     {
       "id": 1486,
       "name": "Standard Reclaimed",
-      "desc": "The <color=#FFD780FF>Hunter's Precision</color> effect obtained from activating a {LINK#N11480001}<color=#FFD780FF>Hunter's Mark</color>{/LINK} can now stack, max 2 stacks. When the stack count reaches 2, characters affected by <color=#FFD780FF>Hunter's Precision</color> will also have their Elemental Mastery increased by 100.",
+      "desc": "The <color=#FFD780FF>Hunter's Precision</color> effect obtained from activating a {LINK#N11480001}<color=#FFD780FF>Hunter's Mark</color>{/LINK} can now stack, max 2 stacks. When the stack count reaches 2, currently active party members will also have their Elemental Mastery increased by 100.",
       "icon": "UI_Talent_S_Alyosha_04",
       "param_list": [
         100,
@@ -3435,7 +3435,7 @@
             "rank": 0
           },
           {
-            "name": "Genesis Chimeric Nexus",
+            "name": "Prime Chimeric Nexus",
             "id": 112151,
             "count": 12,
             "rank": 3
@@ -3464,7 +3464,7 @@
             "rank": 0
           },
           {
-            "name": "Genesis Chimeric Nexus",
+            "name": "Prime Chimeric Nexus",
             "id": 112151,
             "count": 24,
             "rank": 3
@@ -3569,7 +3569,7 @@
               "rank": 4
             },
             {
-              "name": "Genesis Chimeric Nexus",
+              "name": "Prime Chimeric Nexus",
               "id": 112151,
               "count": 4,
               "rank": 3
@@ -3592,7 +3592,7 @@
               "rank": 4
             },
             {
-              "name": "Genesis Chimeric Nexus",
+              "name": "Prime Chimeric Nexus",
               "id": 112151,
               "count": 6,
               "rank": 3
@@ -3615,7 +3615,7 @@
               "rank": 4
             },
             {
-              "name": "Genesis Chimeric Nexus",
+              "name": "Prime Chimeric Nexus",
               "id": 112151,
               "count": 9,
               "rank": 3
@@ -3638,7 +3638,7 @@
               "rank": 4
             },
             {
-              "name": "Genesis Chimeric Nexus",
+              "name": "Prime Chimeric Nexus",
               "id": 112151,
               "count": 12,
               "rank": 3
@@ -3754,7 +3754,7 @@
               "rank": 4
             },
             {
-              "name": "Genesis Chimeric Nexus",
+              "name": "Prime Chimeric Nexus",
               "id": 112151,
               "count": 4,
               "rank": 3
@@ -3777,7 +3777,7 @@
               "rank": 4
             },
             {
-              "name": "Genesis Chimeric Nexus",
+              "name": "Prime Chimeric Nexus",
               "id": 112151,
               "count": 6,
               "rank": 3
@@ -3800,7 +3800,7 @@
               "rank": 4
             },
             {
-              "name": "Genesis Chimeric Nexus",
+              "name": "Prime Chimeric Nexus",
               "id": 112151,
               "count": 9,
               "rank": 3
@@ -3823,7 +3823,7 @@
               "rank": 4
             },
             {
-              "name": "Genesis Chimeric Nexus",
+              "name": "Prime Chimeric Nexus",
               "id": 112151,
               "count": 12,
               "rank": 3
@@ -3939,7 +3939,7 @@
               "rank": 4
             },
             {
-              "name": "Genesis Chimeric Nexus",
+              "name": "Prime Chimeric Nexus",
               "id": 112151,
               "count": 4,
               "rank": 3
@@ -3962,7 +3962,7 @@
               "rank": 4
             },
             {
-              "name": "Genesis Chimeric Nexus",
+              "name": "Prime Chimeric Nexus",
               "id": 112151,
               "count": 6,
               "rank": 3
@@ -3985,7 +3985,7 @@
               "rank": 4
             },
             {
-              "name": "Genesis Chimeric Nexus",
+              "name": "Prime Chimeric Nexus",
               "id": 112151,
               "count": 9,
               "rank": 3
@@ -4008,7 +4008,7 @@
               "rank": 4
             },
             {
-              "name": "Genesis Chimeric Nexus",
+              "name": "Prime Chimeric Nexus",
               "id": 112151,
               "count": 12,
               "rank": 3

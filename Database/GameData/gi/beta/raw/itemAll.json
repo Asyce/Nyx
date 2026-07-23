@@ -6420,7 +6420,7 @@
   },
   "4148": {
     "name": "Alyosha",
-    "desc": "",
+    "desc": "A \"professional hunter\" and master of the Snezhnayan snowfields. A fierce, distinct \"idealism\" burns beneath his calm demeanor.",
     "rank": 4,
     "icon": "UI_AvatarIcon_Alyosha_Card",
     "item_type": "ITEM_MATERIAL",
@@ -6436,7 +6436,7 @@
   },
   "4150": {
     "name": "Odette",
-    "desc": "",
+    "desc": "A famed Snezhnayan ballerina who blossoms against the frozen landscape with a beauty as sharp as frost.",
     "rank": 5,
     "icon": "UI_AvatarIcon_Odette_Card",
     "item_type": "ITEM_MATERIAL",
@@ -24208,7 +24208,7 @@
   },
   "101333": {
     "name": "Bluebeech Wood",
-    "desc": "Wood from Bluebeeches with even grain patterns and can better withstand wear and tear. In Snezhnaya, it is often used in layered panels involved in structures and implements for long-term use.",
+    "desc": "Wood from Bluebeeches with even grain patterns that can better withstand wear and tear. In Snezhnaya, it is often used in layered panels involved in structures and implements for long-term use.",
     "rank": 1,
     "icon": "UI_ItemIcon_101333",
     "item_type": "ITEM_MATERIAL",
@@ -57947,7 +57947,7 @@
     "type": "Character and Weapon Enhancement Material"
   },
   "112151": {
-    "name": "Genesis Chimeric Nexus",
+    "name": "Prime Chimeric Nexus",
     "desc": "The internal core harvested from aberrant man-made monsters.\\nThe most complex core a man-made monster can possibly sustain, serving as an artificially engineered yet flawless seed of life. Whoever brought this creation into life has surely unlocked the very secrets of how life itself is shaped.",
     "rank": 3,
     "icon": "UI_ItemIcon_112151",
@@ -59538,7 +59538,7 @@
   },
   "113090": {
     "name": "Unscorched Blossom Branch",
-    "desc": "A blossom branch taken from a monster created by someone to serve their selfish desires. It won't wither or burn in flame.\\nBefore the gloomy alchemist found a way to grant life eternity and put it into practice, he once ran his hand gently over the body of his creation — a monster whose leaves resembled crimson feathers. He imagined the undying creature greeting the friend he had awaited for so long from within the flames. Perhaps he should pluck a flower from his creation's body as a gift to mark that friend's escape from the realm of shadows.",
+    "desc": "A blossom branch taken from a monster created by someone to serve their selfish desires. It won't wither or burn in flame.\\nBefore the gloomy alchemist found a way to grant life eternity and put it into practice, he once ran his hand gently over the body of his creation — a monster whose leaves resembled crimson feathers. He imagined the day the undying creature greeting the friend he had awaited for so long from within the flames. And by then... perhaps he should pluck a flower from his creation's body as a gift to mark that friend's escape from the realm of shadows.",
     "rank": 4,
     "icon": "UI_ItemIcon_113090",
     "item_type": "ITEM_MATERIAL",
@@ -82681,8 +82681,8 @@
     "type": "Consumable"
   },
   "121442": {
-    "name": "赤钥匙卡",
-    "desc": "",
+    "name": "Red Key Card",
+    "desc": "One of three key cards required to open the sewer control room door. This one is red.",
     "rank": 0,
     "icon": "UI_ItemIcon_121442",
     "item_type": "ITEM_MATERIAL",
@@ -82695,8 +82695,8 @@
     "type": "Quest Item"
   },
   "121443": {
-    "name": "白钥匙卡",
-    "desc": "",
+    "name": "White Key Card",
+    "desc": "One of three key cards required to open the sewer control room door. This one is white.",
     "rank": 0,
     "icon": "UI_ItemIcon_121443",
     "item_type": "ITEM_MATERIAL",
@@ -82709,8 +82709,8 @@
     "type": "Quest Item"
   },
   "121444": {
-    "name": "蓝钥匙卡",
-    "desc": "",
+    "name": "Blue Key Card",
+    "desc": "One of three key cards required to open the sewer control room door. This one is blue.",
     "rank": 0,
     "icon": "UI_ItemIcon_121444",
     "item_type": "ITEM_MATERIAL",
@@ -82723,8 +82723,8 @@
     "type": "Quest Item"
   },
   "121445": {
-    "name": "「仪式」观礼请柬",
-    "desc": "",
+    "name": "Invitation to the \"Ritual\"",
+    "desc": "A wondrous invitation that always seems to find its way into the hands of its rightful recipient.\\nWith this invitation, one may journey to the House of Hesperides atop the icy peaks of Snezhnaya, to attend the wedding of Pavlina, the princess of the Snegurochka.",
     "rank": 0,
     "icon": "UI_ItemIcon_121445",
     "item_type": "ITEM_MATERIAL",
@@ -82737,8 +82737,8 @@
     "type": "Quest Item"
   },
   "121446": {
-    "name": "被分离的伊科尔的碎片",
-    "desc": "",
+    "name": "Severed Fragment of Ikor",
+    "desc": "A fragment of Ikor's power, split off by Aksinya when the \"ritual\" was interrupted.\\nFor some reason, it has taken the form of a glowing doll. Perhaps the desire to \"fulfill the wishes of others\" became the strings that controlled him long ago, and now he is nothing more than a puppet carrying a form of transcendent power.",
     "rank": 0,
     "icon": "UI_ItemIcon_121446",
     "item_type": "ITEM_MATERIAL",
@@ -84073,8 +84073,8 @@
     "type": "Quest Item"
   },
   "121541": {
-    "name": "冰结如心的卵石",
-    "desc": "",
+    "name": "Pebble of Freezing Heart",
+    "desc": "An egg-shaped stone infused with the power required for the Eye of Graeae to reclaim his physical form.\\nOnce used by the fae lord Pavlina to remedy the inherent flaws of the fae.\\nHidden within it may lie the aspiration of how a mere mortal might ascend to a higher status through rebirth.",
     "rank": 0,
     "icon": "UI_ItemIcon_121541",
     "item_type": "ITEM_MATERIAL",
@@ -84087,8 +84087,8 @@
     "type": "Quest Item"
   },
   "121542": {
-    "name": "藻如蛇影的卵石",
-    "desc": "",
+    "name": "Pebble of Serpentine Algae",
+    "desc": "An egg-shaped stone infused with the power required for the Eye of Graeae to reclaim his physical form.\\nOnce used by the alchemist named Koshchei to create life in pursuit of eternity.\\nHidden within it may lie the revelation of how a mere mortal might forge immortality through rebirth.",
     "rank": 0,
     "icon": "UI_ItemIcon_121542",
     "item_type": "ITEM_MATERIAL",
@@ -84787,8 +84787,8 @@
     "type": "Quest Item"
   },
   "121597": {
-    "name": "Control Wheel",
-    "desc": "",
+    "name": "Metal Control Wheel",
+    "desc": "A metal control wheel used to open a certain gate in the sewers.",
     "rank": 0,
     "icon": "UI_ItemIcon_121597",
     "item_type": "ITEM_MATERIAL",
@@ -84801,8 +84801,8 @@
     "type": "Quest Item"
   },
   "121598": {
-    "name": "Control Wheel",
-    "desc": "",
+    "name": "Sewer Lift Control Wheel",
+    "desc": "A control wheel used to operate the sewer lift.",
     "rank": 0,
     "icon": "UI_ItemIcon_121597",
     "item_type": "ITEM_MATERIAL",
@@ -84815,8 +84815,8 @@
     "type": "Quest Item"
   },
   "121599": {
-    "name": "Control Wheel",
-    "desc": "",
+    "name": "Lift Control Wheel",
+    "desc": "A control wheel used to operate the lift leading to the assembly hall.",
     "rank": 0,
     "icon": "UI_ItemIcon_121597",
     "item_type": "ITEM_MATERIAL",
@@ -84949,8 +84949,8 @@
     "type": "Quest Item"
   },
   "121610": {
-    "name": "造型奇特的徽记",
-    "desc": "",
+    "name": "Oddly-Shaped Emblem",
+    "desc": "An emblem of peculiar design found by Nastya in a strange room. It seems capable of disabling traps...",
     "rank": 0,
     "icon": "UI_ItemIcon_121610",
     "item_type": "ITEM_MATERIAL",
@@ -85005,8 +85005,8 @@
     "type": "Quest Item"
   },
   "121614": {
-    "name": "《下水道出入指南》",
-    "desc": "",
+    "name": "Sewer Entrance/Exit Guide",
+    "desc": "A guide found inside the control room, detailing how to open the sewer control room door.",
     "rank": 0,
     "icon": "UI_ItemIcon_121614",
     "item_type": "ITEM_MATERIAL",
@@ -85173,7 +85173,7 @@
     "type": "Quest Item"
   },
   "121628": {
-    "name": "（test）至冬报纸1",
+    "name": "至冬先驱报",
     "desc": "",
     "rank": 0,
     "icon": "UI_ItemIcon_121625",
@@ -85215,8 +85215,8 @@
     "type": "Quest Item"
   },
   "121632": {
-    "name": "雷殛细枝",
-    "desc": "",
+    "name": "Rumbletwig",
+    "desc": "A sprig sprouting from the Rumblebranch.\\nPlacing it on the Rumblebranch can summon lightning.",
     "rank": 0,
     "icon": "UI_ItemIcon_121632",
     "item_type": "ITEM_MATERIAL",
@@ -85383,8 +85383,8 @@
     "type": "Quest Item"
   },
   "121644": {
-    "name": "形制古老的钥匙",
-    "desc": "",
+    "name": "Key of Ancient Design",
+    "desc": "A key of distinctly ancient design. It appears capable of unlocking a door somewhere within the House of Hesperides.",
     "rank": 0,
     "icon": "UI_ItemIcon_121644",
     "item_type": "ITEM_MATERIAL",
@@ -85582,7 +85582,7 @@
   },
   "121659": {
     "name": "Remnant Incense Guide - Snowgrave",
-    "desc": "Gathering three pieces of the Remnant Incense Guide - Snowgrave allows you to unseal the vault of Shadow Realm at the White Birch Snowgrave.\\nLegend has it that early squads exploring the Shadow Realm would occasionally find themselves unable to retrieve the treasures they discovered. In such cases, they would leave a specific \"scent trail\" behind. Only by piecing together the incense trail can one track down the locations of these long-lost relics.",
+    "desc": "Gathering three pieces of the Remnant Incense Guide - Snowgrave allows you to unseal the vault of Shadow Realm at the Snowgrave.\\nLegend has it that early squads exploring the Shadow Realm would occasionally find themselves unable to retrieve the treasures they discovered. In such cases, they would leave a specific \"scent trail\" behind. Only by piecing together the incense trail can one track down the locations of these long-lost relics.",
     "rank": 4,
     "icon": "UI_ItemIcon_121659",
     "item_type": "ITEM_MATERIAL",
@@ -85605,7 +85605,7 @@
     "material_type": "MATERIAL_CONSUME",
     "jump_descs": [],
     "source_list": [
-      "Fellfrost Peak Exploration Reward"
+      "Fellfrost Peak and Volkodlak Tundra Exploration Reward"
     ],
     "title": "",
     "effect": "",
@@ -85621,7 +85621,7 @@
     "material_type": "MATERIAL_CONSUME",
     "jump_descs": [],
     "source_list": [
-      "Everfrozen Earth Exploration Reward"
+      "Everfrozen Earth and Flamefeather Valley Exploration Reward"
     ],
     "title": "",
     "effect": "",
@@ -85643,8 +85643,8 @@
     "type": "Quest Item"
   },
   "121664": {
-    "name": "娜斯佳头顶的枝叶",
-    "desc": "",
+    "name": "Branches of Nastya's Head",
+    "desc": "A part of Nastya's body. It is a key item for opening the door leading to \"home\".",
     "rank": 0,
     "icon": "UI_ItemIcon_121664",
     "item_type": "ITEM_MATERIAL",
@@ -85657,8 +85657,8 @@
     "type": "Quest Item"
   },
   "121665": {
-    "name": "娜斯佳手绘的示意图",
-    "desc": "",
+    "name": "Nastya's Hand-Drawn Diagram",
+    "desc": "A hand-drawn diagram by Nastya showing how to open the door leading to \"home\".",
     "rank": 0,
     "icon": "UI_ItemIcon_100003",
     "item_type": "ITEM_MATERIAL",
@@ -85671,8 +85671,8 @@
     "type": "Quest Item"
   },
   "121666": {
-    "name": "《下水道出入指南》",
-    "desc": "",
+    "name": "Sewer Entrance/Exit Guide",
+    "desc": "A guide found inside the control room, detailing how to open the sewer control room door.",
     "rank": 0,
     "icon": "UI_ItemIcon_100003",
     "item_type": "ITEM_MATERIAL",
@@ -85699,8 +85699,8 @@
     "type": "Quest Item"
   },
   "121668": {
-    "name": "地下室某房间入口门的操纵杆",
-    "desc": "",
+    "name": "Entrance Door Lever for a Certain Basement Room",
+    "desc": "A lever used to open the entrance door to a certain basement room.",
     "rank": 0,
     "icon": "UI_ItemIcon_121360",
     "item_type": "ITEM_MATERIAL",
@@ -85713,8 +85713,8 @@
     "type": "Quest Item"
   },
   "121669": {
-    "name": "地下室某房间出口门的操纵杆",
-    "desc": "",
+    "name": "Exit Door Lever for a Certain Basement Room",
+    "desc": "A lever used to open the exit door to a certain basement room.",
     "rank": 0,
     "icon": "UI_ItemIcon_121360",
     "item_type": "ITEM_MATERIAL",
@@ -85772,7 +85772,7 @@
     "type": "Very Special Item"
   },
   "121675": {
-    "name": "Polestar Dance Collection (I)",
+    "name": "Polestar Ballet Anthology (I)",
     "desc": "???",
     "rank": 4,
     "icon": "UI_ItemIcon_121675",
@@ -85786,7 +85786,7 @@
     "type": "Quest Item"
   },
   "121676": {
-    "name": "Polestar Dance Collection (II)",
+    "name": "Polestar Ballet Anthology (II)",
     "desc": "???",
     "rank": 4,
     "icon": "UI_ItemIcon_121675",
@@ -85800,7 +85800,7 @@
     "type": "Quest Item"
   },
   "121677": {
-    "name": "Polestar Dance Collection (III)",
+    "name": "Polestar Ballet Anthology (III)",
     "desc": "???",
     "rank": 4,
     "icon": "UI_ItemIcon_121675",
@@ -85814,7 +85814,7 @@
     "type": "Quest Item"
   },
   "121678": {
-    "name": "Polestar Dance Collection (IV)",
+    "name": "Polestar Ballet Anthology (IV)",
     "desc": "???",
     "rank": 4,
     "icon": "UI_ItemIcon_121675",
@@ -85830,8 +85830,8 @@
   "121679": {
     "name": "Heart of the Abyssal Beast",
     "desc": "???",
-    "rank": 4,
-    "icon": "UI_ItemIcon_121679",
+    "rank": 3,
+    "icon": "UI_ItemIcon_121680",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_QUEST",
     "jump_descs": [],
@@ -85898,8 +85898,8 @@
     "type": "Consumable"
   },
   "121685": {
-    "name": "娜斯佳与妈妈的合照",
-    "desc": "",
+    "name": "Picture of Nastya With Her Mom",
+    "desc": "An old, slightly worn photo that captures a warm moment between Nastya and her mother.",
     "rank": 0,
     "icon": "UI_ItemIcon_121664",
     "item_type": "ITEM_MATERIAL",
@@ -85909,11 +85909,11 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "任务道具"
+    "type": "Quest Item"
   },
   "121686": {
-    "name": "执行命令者的记录",
-    "desc": "",
+    "name": "Records of the Orderbearer",
+    "desc": "Records of the Orderbearer",
     "rank": 0,
     "icon": "UI_ItemIcon_101633",
     "item_type": "ITEM_MATERIAL",
@@ -85923,11 +85923,11 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "任务道具"
+    "type": "Quest Item"
   },
   "121687": {
-    "name": "调查手记",
-    "desc": "",
+    "name": "Investigation Notes",
+    "desc": "Investigation Notes",
     "rank": 0,
     "icon": "UI_ItemIcon_101633",
     "item_type": "ITEM_MATERIAL",
@@ -85937,11 +85937,11 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "任务道具"
+    "type": "Quest Item"
   },
   "121688": {
-    "name": "炼金术士的手记·其一",
-    "desc": "",
+    "name": "The Alchemist's Notes (I)",
+    "desc": "The Alchemist's Notes (I)",
     "rank": 0,
     "icon": "UI_ItemIcon_101633",
     "item_type": "ITEM_MATERIAL",
@@ -85951,11 +85951,11 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "任务道具"
+    "type": "Quest Item"
   },
   "121689": {
-    "name": "炼金术士的手记·其二",
-    "desc": "",
+    "name": "The Alchemist's Notes (II)",
+    "desc": "The Alchemist's Notes (II)",
     "rank": 0,
     "icon": "UI_ItemIcon_101633",
     "item_type": "ITEM_MATERIAL",
@@ -85965,10 +85965,164 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "任务道具"
+    "type": "Quest Item"
   },
   "121690": {
-    "name": "矮灵王公的手记",
+    "name": "Grand Duke Alvis's Notes",
+    "desc": "Grand Duke Alvis's Notes",
+    "rank": 0,
+    "icon": "UI_ItemIcon_101633",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_QUEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Quest Item"
+  },
+  "121691": {
+    "name": "至冬先驱报",
+    "desc": "",
+    "rank": 0,
+    "icon": "UI_ItemIcon_121625",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_QUEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Quest Item"
+  },
+  "121692": {
+    "name": "至冬先驱报",
+    "desc": "",
+    "rank": 0,
+    "icon": "UI_ItemIcon_121625",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_QUEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Quest Item"
+  },
+  "121693": {
+    "name": "至冬先驱报",
+    "desc": "",
+    "rank": 0,
+    "icon": "UI_ItemIcon_121625",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_QUEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Quest Item"
+  },
+  "121694": {
+    "name": "至冬先驱报",
+    "desc": "",
+    "rank": 0,
+    "icon": "UI_ItemIcon_121625",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_QUEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Quest Item"
+  },
+  "121695": {
+    "name": "至冬先驱报",
+    "desc": "",
+    "rank": 0,
+    "icon": "UI_ItemIcon_121625",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_QUEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Quest Item"
+  },
+  "121696": {
+    "name": "至冬先驱报",
+    "desc": "",
+    "rank": 0,
+    "icon": "UI_ItemIcon_121625",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_QUEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Quest Item"
+  },
+  "121697": {
+    "name": "至冬先驱报",
+    "desc": "",
+    "rank": 0,
+    "icon": "UI_ItemIcon_121625",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_QUEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Quest Item"
+  },
+  "121698": {
+    "name": "至冬先驱报",
+    "desc": "",
+    "rank": 0,
+    "icon": "UI_ItemIcon_121625",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_QUEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Quest Item"
+  },
+  "121699": {
+    "name": "至冬先驱报",
+    "desc": "",
+    "rank": 0,
+    "icon": "UI_ItemIcon_121625",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_QUEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Quest Item"
+  },
+  "121700": {
+    "name": "至冬先驱报",
+    "desc": "",
+    "rank": 0,
+    "icon": "UI_ItemIcon_121625",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_QUEST",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Quest Item"
+  },
+  "121701": {
+    "name": "蒙灰旅人的记录",
     "desc": "",
     "rank": 0,
     "icon": "UI_ItemIcon_101633",
@@ -85981,137 +86135,11 @@
     "special": "",
     "type": "任务道具"
   },
-  "121691": {
-    "name": "（test）至冬报纸2",
+  "121702": {
+    "name": "纸页泛黄的文件",
     "desc": "",
     "rank": 0,
-    "icon": "UI_ItemIcon_121625",
-    "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_QUEST",
-    "jump_descs": [],
-    "source_list": [],
-    "title": "",
-    "effect": "",
-    "special": "",
-    "type": "任务道具"
-  },
-  "121692": {
-    "name": "（test）至冬报纸3",
-    "desc": "",
-    "rank": 0,
-    "icon": "UI_ItemIcon_121625",
-    "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_QUEST",
-    "jump_descs": [],
-    "source_list": [],
-    "title": "",
-    "effect": "",
-    "special": "",
-    "type": "任务道具"
-  },
-  "121693": {
-    "name": "（test）至冬报纸4",
-    "desc": "",
-    "rank": 0,
-    "icon": "UI_ItemIcon_121625",
-    "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_QUEST",
-    "jump_descs": [],
-    "source_list": [],
-    "title": "",
-    "effect": "",
-    "special": "",
-    "type": "任务道具"
-  },
-  "121694": {
-    "name": "（test）至冬报纸5",
-    "desc": "",
-    "rank": 0,
-    "icon": "UI_ItemIcon_121625",
-    "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_QUEST",
-    "jump_descs": [],
-    "source_list": [],
-    "title": "",
-    "effect": "",
-    "special": "",
-    "type": "任务道具"
-  },
-  "121695": {
-    "name": "（test）至冬报纸6",
-    "desc": "",
-    "rank": 0,
-    "icon": "UI_ItemIcon_121625",
-    "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_QUEST",
-    "jump_descs": [],
-    "source_list": [],
-    "title": "",
-    "effect": "",
-    "special": "",
-    "type": "任务道具"
-  },
-  "121696": {
-    "name": "（test）至冬报纸7",
-    "desc": "",
-    "rank": 0,
-    "icon": "UI_ItemIcon_121625",
-    "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_QUEST",
-    "jump_descs": [],
-    "source_list": [],
-    "title": "",
-    "effect": "",
-    "special": "",
-    "type": "任务道具"
-  },
-  "121697": {
-    "name": "（test）至冬报纸8",
-    "desc": "",
-    "rank": 0,
-    "icon": "UI_ItemIcon_121625",
-    "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_QUEST",
-    "jump_descs": [],
-    "source_list": [],
-    "title": "",
-    "effect": "",
-    "special": "",
-    "type": "任务道具"
-  },
-  "121698": {
-    "name": "（test）至冬报纸9",
-    "desc": "",
-    "rank": 0,
-    "icon": "UI_ItemIcon_121625",
-    "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_QUEST",
-    "jump_descs": [],
-    "source_list": [],
-    "title": "",
-    "effect": "",
-    "special": "",
-    "type": "任务道具"
-  },
-  "121699": {
-    "name": "（test）至冬报纸10",
-    "desc": "",
-    "rank": 0,
-    "icon": "UI_ItemIcon_121625",
-    "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_QUEST",
-    "jump_descs": [],
-    "source_list": [],
-    "title": "",
-    "effect": "",
-    "special": "",
-    "type": "任务道具"
-  },
-  "121700": {
-    "name": "（test）至冬报纸11",
-    "desc": "",
-    "rank": 0,
-    "icon": "UI_ItemIcon_121625",
+    "icon": "UI_ItemIcon_101633",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_QUEST",
     "jump_descs": [],
@@ -97709,7 +97737,7 @@
     "type": ""
   },
   "210292": {
-    "name": "Achievement: Fleeting Glimpses",
+    "name": "Snezhnaya: Fleeting Glimpses",
     "desc": "Namecard style.\\nCountless people wander through narratives without beginning or end. Surpass them, for your will to see the ending is stronger than that of anyone else.",
     "rank": 4,
     "icon": "UI_NameCardIcon_Tps1",
@@ -100130,7 +100158,7 @@
   },
   "220133": {
     "name": "Eye of Graeae",
-    "desc": "A strange mechanism you encountered in an abandoned station. It often appears in the form of a monocle.\\nIt offers many convenient functions, such as recording blueprints for Prime Ice constructs, creating Prime Ice, calling trains...\\nPerhaps it was built for the very purpose of providing all these conveniences.",
+    "desc": "A strange mechanism you encountered in an abandoned station. It often appears in the form of a monocle.\\nIt seems to have many convenient functions...",
     "rank": 4,
     "icon": "UI_ItemIcon_220133",
     "item_type": "ITEM_MATERIAL",
@@ -101648,7 +101676,7 @@
   },
   "223302": {
     "name": "Construct Appearance: Polyarbear",
-    "desc": "Appearance of the Prime Ice Construct: Storage Device.\\nThere is an old saying among hunters that goes: \"If a bear holds it close, you know it's a treasure.\"\\nWhile the idea of wresting anything away from a real Polyarbear sounds terrifying, a mere storage unit modeled after one shouldn't pose much of a threat... right?",
+    "desc": "Appearance of the \"Prime Ice Construct: Storage Device.\"\\nThere is an old saying among hunters that goes: \"If a bear holds it close, you know it's a treasure.\"\\nWhile the idea of wresting anything away from a real Polyarbear sounds terrifying, a mere storage unit modeled after one shouldn't pose much of a threat... right?",
     "rank": 3,
     "icon": "UI_ItemIcon_223302",
     "item_type": "ITEM_MATERIAL",

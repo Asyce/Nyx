@@ -7,18 +7,11 @@
   "liveVersion": "4.4",
   "betaVersion": "4.4.52",
   "availableVersions": [
-    "4.3",
-    "4.3.51",
-    "4.3.52",
-    "4.3.53",
-    "4.3.54",
-    "4.3.55",
-    "4.3.56",
     "4.4",
     "4.4.51",
     "4.4.52"
   ],
-  "scrapedAt": "2026-07-21T04:30:52.692Z",
+  "scrapedAt": "2026-07-23T05:42:06.089Z",
   "counts": {
     "characters": 97,
     "lightcones": 169,
@@ -97,8 +90,8 @@
   "contentStatus": "Beta records are compared to Live and marked live, beta, or beta_changed.",
   "assets": {
     "requested": 2910,
-    "downloaded": 2,
-    "cached": 2905,
+    "downloaded": 0,
+    "cached": 2907,
     "missing": 3,
     "missingAssets": [
       {

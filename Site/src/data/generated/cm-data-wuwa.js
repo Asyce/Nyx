@@ -39659,7 +39659,7 @@
       "sourceOrder": 1508,
       "voiceActors": {
         "japanese": "Hisako Kanemoto|Kanemoto Hisako (ja=\u91d1\u5143\u5bff\u5b50)",
-        "chinese": "Zhao Lingze (zh=\u8d75\u7075\u6cfd)",
+        "chinese": "https://zh.moegirl.org.cn/%E8%B5%B5%E7%81%B5%E6%B3%BD|Zhao Lingze (zh=\u8d75\u7075\u6cfd)",
         "korean": "ko:\uc774\uc8fc\uc740_(\uc131\uc6b0)|Lee Joo-eun (ko=\uc774\uc8fc\uc740)"
       },
       "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_57_UI.webp",
@@ -91234,7 +91234,7 @@
         "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorMagic.webp",
         "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiB1.webp",
         "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiC1.webp",
-        null,
+        "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiY.webp",
         "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiQTE.webp"
       ],
       "kit": {
@@ -91779,6 +91779,7 @@
                 "name": "Lambent Gold",
                 "type": "Forte Circuit",
                 "desc": "Zephyr Stance\nSuisui is in Zephyr Stance by default. When in Zephyr Stance, Suisui can obtain Cloud Breath through certain skills.\n\nDrizzle Stance\nEntering Drizzle Stance clears all Floral Epistle.\nDuring Drizzle Stance:\n- Suisui unlocks new combat moves and restores Floral Epistle through certain skills.\n-Suisui gains increased resistance to interruption.\n- Normal Attack within a certain time after triggering a successful Dodge via Dodge skills to cast Basic Attack - Drizzle Stance Stage 1.\nAfter entering Drizzle Stance for 15s, Suisui ends Drizzle Stance and clears all Floral Epistle upon exiting the state.\n\nDodge - Parting Mist\nWhile performing attacks on the ground, Dodge to cast Dodge - Parting Mist at the cost of STA.\nWhen in Zephyr Stance, triggering a successful Dodge while casting Dodge - Parting Mist restores Cloud Breath. Normal Attack shortly after triggering the Dodge to cast Dodge Counter - Zephyr Stance.\n- When in Drizzle Stance, triggering a successful Dodge while casting Dodge - Parting Mist restores Floral Epistle, and does not reset the cycle of Basic Attack - Drizzle Stance within a certain period.\n\nBasic Attack - Drizzle Stance\nWhen in Drizzle Stance, Basic Attack - Zephyr Stance is replaced with Basic Attack - Drizzle Stance.\n Normal Attack repeatedly to perform up to 4 consequtive attacks, dealing Glacio DMG and restoring Floral Epistle on hit.\nWhen casting Basic Attack - Drizzle Stance Stage 3, continuously pull in nearby targets.\nBasic Attack - Drizzle Stance Stage 4 inflicts Glacio Chafe 1 time on the target on hit.\n\nHeavy Attack - Drizzle Stance\nConsume STA to attack the target, dealing Glacio DMG and restoring Floral Epistle on hit.\n\nIlluminating Dew\nWhen in Drizzle Stance, keep holding Normal Attack after casting Heavy Attack - Drizzle Stance to cast this skill.\nConsume STA to perform Plunging Attack, dealing Glacio DMG.\n\nSwallow's Cut\nWhen in Drizzle Stance, cast this skill in one of the following ways:\n- Release the Normal Attack button while casting Heavy Attack - Drizzle Stance.\n- Normal Attack while Suisui is mid-air.\nConsume STA to perform Plunging Attack, dealing Glacio DMG.\n\nCloud Breath\nMax {0} points.\nWhen in Zephyr Stance:\n- Basic Attack - Zephyr Stance and Dodge Counter - Zephyr Stance restore Cloud Breath on hit.\n- Casting Resonance Skill - Zephyr Stance restores {1} {Cus:Sap,S=point P=points SapTag=1} of Cloud Breath when Suisui is the active Resonator in the team.\n- Triggering a successful Dodge while casting Dodge - Parting Mist restores {2} {Cus:Sap,S=point P=points SapTag=2} of Cloud Breath.\n\nFloral Epistle\n",
+                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiY.webp",
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -104315,7 +104316,7 @@
     {
       "id": "ww-hsin",
       "n": "Hsin",
-      "title": "The Fox",
+      "title": "The Moon Fox",
       "slug": "hsin",
       "updated": 1781481600000,
       "sourceOrder": 0,
@@ -104331,7 +104332,7 @@
       "w": "Unknown",
       "baseStats": {},
       "facts": {
-        "title": "The Fox"
+        "title": "The Moon Fox"
       },
       "upcoming": true,
       "reliableData": false,

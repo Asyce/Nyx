@@ -289107,10 +289107,11 @@
         "../../Database/GenshinWiki/birthday-art/tartaglia/03-Tartaglia Birthday 2023.png",
         "../../Database/GenshinWiki/birthday-art/tartaglia/04-Tartaglia Birthday 2024.png",
         "../../Database/GenshinWiki/birthday-art/tartaglia/05-Tartaglia Birthday 2025.png",
-        "../../Database/GenshinWiki/birthday-art/tartaglia/06-Tartaglia TPRGT 2022 - Aether.png",
-        "../../Database/GenshinWiki/birthday-art/tartaglia/07-Tartaglia TPRGT 2022 - Lumine.png",
-        "../../Database/GenshinWiki/birthday-art/tartaglia/08-Tartaglia TPRGT 2023 - Aether.png",
-        "../../Database/GenshinWiki/birthday-art/tartaglia/09-Tartaglia TPRGT 2023 - Lumine.png"
+        "../../Database/GenshinWiki/birthday-art/tartaglia/06-Tartaglia Birthday 2026.png",
+        "../../Database/GenshinWiki/birthday-art/tartaglia/07-Tartaglia TPRGT 2022 - Aether.png",
+        "../../Database/GenshinWiki/birthday-art/tartaglia/08-Tartaglia TPRGT 2022 - Lumine.png",
+        "../../Database/GenshinWiki/birthday-art/tartaglia/09-Tartaglia TPRGT 2023 - Aether.png",
+        "../../Database/GenshinWiki/birthday-art/tartaglia/10-Tartaglia TPRGT 2023 - Lumine.png"
       ],
       "namecard": "../../Database/GenshinWiki/namecards/Tartaglia.png",
       "skillIcons": [

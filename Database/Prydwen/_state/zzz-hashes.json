@@ -1,12 +1,12 @@
 {
   "game": "zzz",
-  "updatedAt": "2026-07-22T07:46:01.326Z",
+  "updatedAt": "2026-07-23T07:55:42.746Z",
   "hashes": {
     "records": {
       "characters:alice": "bc505fb93e905944212a9d3994b8f78d0038c926ca446233fa65d56c7b40766a",
       "characters:anby-demara": "e41b55e5fb3047124328625dd806a0e4411a4a75c34a25e3efdb5d0779bc0431",
       "characters:anby-demara-soldier-0": "9a6f19401c00a451a82032566ce9e58759e42488f7ad3af0c0af5b562a3a9e5b",
-      "characters:anton": "fce9dbd6bbee3a7f5bd56a8d2fd9f3643be2c23e44c2aeb8ffc22f67b6e22c8d",
+      "characters:anton": "e30c4d2776e4a228f392bde5aee5913b926ba0e7d2ad4023ec7ee3e9d9e2324d",
       "characters:aria": "1f7b37536264cb9e302ab8c3f7ac110024aec44a9ef1089b8138471ab6d74117",
       "characters:astra-yao": "7e02f4abfd058ad5701daee8132d88ee5c0763dc976349f515c4029a85bd49af",
       "characters:banyue": "64530fb4dbb3ecf9a2b282867e3dc518d1c6fd93993fb4a541cc0b616ba1d789",
@@ -39,7 +39,7 @@
       "characters:norma": "e6180f3a5cba7fe4122050884032eaea31e47ee28aa20244ffaeca9f375990bf",
       "characters:orphie-and-magus": "d98af193936a7e5a3c27b319e2b9bab925b206ef0610f4afa70fc1294bbc3302",
       "characters:pan-yinhu": "8f34deb58de097f62a5ee83577c08f91d48c8f7de1f67aeccd4bbd920241b024",
-      "characters:phoenix": "6e894d246a4c2cb3138425aa2d69a6c576a6eb8baab19705cadf7db5741f7b84",
+      "characters:phoenix": "f59c7ef9a6da50da12aa8f8c86e320866b1de95c11ad121a65e1efbd128bb268",
       "characters:piper": "96161a418f48015958bd80107bcc149e5a0bd9597d3eac1b4f0d37b47e689340",
       "characters:promeia": "32de60141c7e5aa5ee7413e5948037282b7c9554ae7a7d5d143059f29988d290",
       "characters:pulchra": "42d0d57fc4ca0569605ed003987da07edd14bf0786995a54de42986a79a30963",
@@ -50,7 +50,7 @@
       "characters:roxy": "dea248d76ee4dccbc1aa2ea4830a9fe135d54ffda4b104023c01838766ee900f",
       "characters:seed": "cb31d00589b16fd93e92d2bb85602aa9a7290088db0effe405d73480fa98cf43",
       "characters:seth": "a9c57f1c3d5a2548c8d8b40ec8a938aa4a003dae76e37621bbd08bca9bf385db",
-      "characters:severian": "d94c44a80a1b651d58a111331b90e2accfefc65a7a63e3000941f42adabf7a19",
+      "characters:severian": "b11be6a5b25910b7250e7563c2865fef8e5342fd01f7a2f67349f85f39932541",
       "characters:sigrid": "719b74c7f7f7690b794e2b62263ed0f7c2e57daa5b51d63844fe00110ebec5c0",
       "characters:soldier-11": "733ac84dd3d6cb23f483af8c0fdacc9f33d7361f3d1a72945363b3d6511143e1",
       "characters:soukaku": "28c38a1ff6cf605b11ae9e7babb64e701188755097cf53f17c1dac848b3dbc3d",

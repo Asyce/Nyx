@@ -1,7 +1,7 @@
 {
   "provider": "Prydwen",
   "game": "hsr",
-  "generatedAt": "2026-07-22T07:46:01.326Z",
+  "generatedAt": "2026-07-23T07:55:42.746Z",
   "summary": {
     "records": {
       "added": 0,
@@ -16,10 +16,10 @@
       "removed": [],
       "changed": [
         {
-          "id": "characters:qingque",
-          "name": "Qingque",
-          "previousHash": "534bd3a9def0379605d7fcf6d8ac67b3bf64f06b8437dbc39d33374fdfc53328",
-          "currentHash": "3c6adba2dcff6a7f3f2f84d97044199215a495cfdb568ef918d826c8d3dd51b9"
+          "id": "characters:himeko",
+          "name": "Himeko",
+          "previousHash": "ba53c369d33aed1700eff36fbbaace010e7341193d890e3b8f4af43ad4556835",
+          "currentHash": "4bc4f685aba88cf7afcfe2f9a2cddafbed2105d3e66c538110ba79253e43478a"
         }
       ],
       "unchanged": 94,

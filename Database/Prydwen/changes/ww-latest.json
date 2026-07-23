@@ -1,7 +1,7 @@
 {
   "provider": "Prydwen",
   "game": "ww",
-  "generatedAt": "2026-07-22T07:46:01.326Z",
+  "generatedAt": "2026-07-23T07:55:42.746Z",
   "summary": {
     "records": {
       "added": 0,
@@ -16,16 +16,16 @@
       "removed": [],
       "changed": [
         {
-          "id": "characters:cantarella",
-          "name": "Cantarella",
-          "previousHash": "a82d789d35d263ba926de34568878508864f2e680c07c305fcf1906ac19e9af7",
-          "currentHash": "cbcf5d9fcf3c8f9fffd3eadf6331f1320326ae60840ad4039fe17ace34f793a8"
+          "id": "characters:baizhi",
+          "name": "Baizhi",
+          "previousHash": "555d28bcd7e122b2d1b1e175f6c6d6e8d712edf056ce85b13ad446a280a995bb",
+          "currentHash": "d5c0e238edfc793ccac0a096c15deb81741ac58deb827aa0d58ec0e7c1aaadb0"
         },
         {
           "id": "characters:rebecca",
           "name": "Rebecca",
-          "previousHash": "90df21b183c638f301854a518ee83c00f40944e207f267e207a9fc4cd9c2d2b7",
-          "currentHash": "ffda563b89da73a9a83c236df318e7600b102e32481d2a66645b417e7f9649fb"
+          "previousHash": "ffda563b89da73a9a83c236df318e7600b102e32481d2a66645b417e7f9649fb",
+          "currentHash": "90df21b183c638f301854a518ee83c00f40944e207f267e207a9fc4cd9c2d2b7"
         }
       ],
       "unchanged": 61,

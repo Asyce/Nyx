@@ -1,13 +1,13 @@
 {
   "provider": "Prydwen",
   "game": "endfield",
-  "generatedAt": "2026-07-22T07:46:01.326Z",
+  "generatedAt": "2026-07-23T07:55:42.746Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 2,
-      "unchanged": 32
+      "changed": 3,
+      "unchanged": 31
     }
   },
   "sections": {
@@ -18,17 +18,23 @@
         {
           "id": "characters:arcane",
           "name": "Arcane",
-          "previousHash": "3f16cd1530e7d938ef04663f7ae889d1d745ef5668dea1a4479f9c790518e7e9",
-          "currentHash": "01e5e7990f9e1195bc5cd78709158005c5105e17278e7a51f79bc014b7a65b0d"
+          "previousHash": "01e5e7990f9e1195bc5cd78709158005c5105e17278e7a51f79bc014b7a65b0d",
+          "currentHash": "cdc556e4ef61fcb5454b73ec2f5ba67bfbbfd080ccf56708e5cea197cb267995"
+        },
+        {
+          "id": "characters:last-rite",
+          "name": "Last Rite",
+          "previousHash": "688a5686db7a9af84438ad49e801c74b23483e96cb4ad3763074d757d3f42906",
+          "currentHash": "e81cbf5b952170eb3310cd9db86ef7a393ee69a40810770080a41c097a1e55f4"
         },
         {
           "id": "collection:characters",
           "name": "Arknights: Endfield Characters Build Guides",
-          "previousHash": "44bfd576498064111dac849d2428e22ee1a21f08c63b6f7294d94b2cbf07ebb7",
-          "currentHash": "7582013202468f64ba7d75255159277dfc88b3b6e9b0787de68485d7c5d950e5"
+          "previousHash": "7582013202468f64ba7d75255159277dfc88b3b6e9b0787de68485d7c5d950e5",
+          "currentHash": "c3b437847d99fe2021eede861d1e41c98ca593ee2ce6042a79b8d7d6d9d60f15"
         }
       ],
-      "unchanged": 32,
+      "unchanged": 31,
       "totals": {
         "previous": 34,
         "current": 34

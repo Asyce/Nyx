@@ -1,13 +1,13 @@
 {
   "provider": "Prydwen",
   "game": "zzz",
-  "generatedAt": "2026-07-22T07:46:01.326Z",
+  "generatedAt": "2026-07-23T07:55:42.746Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 2,
-      "unchanged": 66
+      "changed": 3,
+      "unchanged": 65
     }
   },
   "sections": {
@@ -18,17 +18,23 @@
         {
           "id": "characters:anton",
           "name": "Anton",
-          "previousHash": "e30c4d2776e4a228f392bde5aee5913b926ba0e7d2ad4023ec7ee3e9d9e2324d",
-          "currentHash": "fce9dbd6bbee3a7f5bd56a8d2fd9f3643be2c23e44c2aeb8ffc22f67b6e22c8d"
+          "previousHash": "fce9dbd6bbee3a7f5bd56a8d2fd9f3643be2c23e44c2aeb8ffc22f67b6e22c8d",
+          "currentHash": "e30c4d2776e4a228f392bde5aee5913b926ba0e7d2ad4023ec7ee3e9d9e2324d"
+        },
+        {
+          "id": "characters:phoenix",
+          "name": "Phoenix",
+          "previousHash": "6e894d246a4c2cb3138425aa2d69a6c576a6eb8baab19705cadf7db5741f7b84",
+          "currentHash": "f59c7ef9a6da50da12aa8f8c86e320866b1de95c11ad121a65e1efbd128bb268"
         },
         {
           "id": "characters:severian",
           "name": "Severian",
-          "previousHash": "b11be6a5b25910b7250e7563c2865fef8e5342fd01f7a2f67349f85f39932541",
-          "currentHash": "d94c44a80a1b651d58a111331b90e2accfefc65a7a63e3000941f42adabf7a19"
+          "previousHash": "d94c44a80a1b651d58a111331b90e2accfefc65a7a63e3000941f42adabf7a19",
+          "currentHash": "b11be6a5b25910b7250e7563c2865fef8e5342fd01f7a2f67349f85f39932541"
         }
       ],
-      "unchanged": 66,
+      "unchanged": 65,
       "totals": {
         "previous": 68,
         "current": 68

@@ -15802,7 +15802,8 @@
       }
     },
     "assets": {
-      "icon": "GameData/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31092_UI.webp"
+      "icon": "GameData/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31092_UI.webp",
+      "skill": "GameData/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_31092_UI.webp"
     },
     "skill": {
       "desc": "Use Echo Skill to summon a Stone Picket, dealing {0} Aero DMG.\n\nCD: {1}s",

@@ -27614,7 +27614,9 @@
             "100",
             "102"
           ],
-          "assets": {},
+          "assets": {
+            "icon": "GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiY.webp"
+          },
           "levels": [
             {
               "key": "1",

@@ -32,10 +32,6 @@
     "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodySuiSui.webp"
   },
   {
-    "path": "GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiY.webp",
-    "gamedataAssetPath": "UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiY.webp"
-  },
-  {
     "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyZhixia.webp",
     "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyZhixia.webp"
   },
@@ -192,10 +188,6 @@
     "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyXuanLing.webp"
   },
   {
-    "path": "GameData/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_31092_UI.webp",
-    "gamedataAssetPath": "UIResources/Common/Image/MstSkill/T_MstSkil_31092_UI.webp"
-  },
-  {
     "path": "GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_SG_33022_UI.webp",
     "gamedataAssetPath": "UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_SG_33022_UI.webp"
   },
@@ -238,9 +230,5 @@
   {
     "path": "GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_shlb_39_UI.webp",
     "gamedataAssetPath": "UIResources/Common/Image/IconA/T_IconA_shlb_39_UI.webp"
-  },
-  {
-    "path": "GameData/ww/assets/items/UIResources/Common/Image/IconCook/T_IconCook_105_UI.webp",
-    "gamedataAssetPath": "UIResources/Common/Image/IconCook/T_IconCook_105_UI.webp"
   }
 ]

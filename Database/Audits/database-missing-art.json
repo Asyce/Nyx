@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T05:43:16.112Z",
+  "generatedAt": "2026-07-23T08:03:15.567Z",
   "policy": "Every generated Database row is counted. Released rows remain visible when art or description is missing; only rows with no usable localized display name or proven internal/test provenance are quarantined.",
   "coverage": {
     "before": {
@@ -9,7 +9,7 @@
         "special"
       ],
       "summaryCount": 25,
-      "missingArtCount": 2186,
+      "missingArtCount": 2185,
       "quarantinedCount": 565
     },
     "after": {
@@ -19,7 +19,7 @@
         "special"
       ],
       "summaryCount": 25,
-      "missingArtCount": 2186,
+      "missingArtCount": 2185,
       "quarantinedCount": 565
     }
   },
@@ -109,8 +109,8 @@
       "quarantinedCount": 18,
       "approvedSourceCount": 2285,
       "generatedCount": 2285,
-      "localArtCount": 2275,
-      "missingArtCount": 10
+      "localArtCount": 2276,
+      "missingArtCount": 9
     },
     {
       "scope": "inline",
@@ -317,7 +317,7 @@
       "missingArtCount": 74
     }
   ],
-  "missingArtCount": 2186,
+  "missingArtCount": 2185,
   "records": [
     {
       "scope": "inline",
@@ -28713,21 +28713,6 @@
       },
       "sourceUrl": "https://static.nanoka.cc/assets/ww/UIResources/Common/Image/IconA/T_IconA_shlb_39_UI.webp",
       "localDestination": "GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_shlb_39_UI.webp",
-      "result": "unavailable",
-      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
-    },
-    {
-      "game": "wuwa",
-      "collection": "items",
-      "recordId": "80000096",
-      "name": "Jade Broth Noodles",
-      "releaseStatus": "live",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_105_UI.T_IconCook_105_UI"
-      },
-      "sourceUrl": "https://static.nanoka.cc/assets/ww/UIResources/Common/Image/IconCook/T_IconCook_105_UI.webp",
-      "localDestination": "GameData/ww/assets/items/UIResources/Common/Image/IconCook/T_IconCook_105_UI.webp",
       "result": "unavailable",
       "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
     },

@@ -7,17 +7,9 @@
   "liveVersion": "3.5",
   "betaVersion": "3.5",
   "availableVersions": [
-    "3.4",
-    "3.5",
-    "3.5.0",
-    "3.5.1",
-    "3.5.2",
-    "3.5.3",
-    "3.5.4",
-    "3.5.5",
-    "3.5.6"
+    "3.5"
   ],
-  "scrapedAt": "2026-07-10T17:08:16.837Z",
+  "scrapedAt": "2026-07-23T08:02:07.581Z",
   "counts": {
     "characters": 60,
     "weapons": 128,
@@ -248,9 +240,9 @@
   "contentStatus": "All records are Live records from the GameData live manifest version.",
   "assets": {
     "requested": 2962,
-    "downloaded": 55,
-    "cached": 2846,
-    "missing": 61,
+    "downloaded": 0,
+    "cached": 2904,
+    "missing": 58,
     "missingAssets": [
       {
         "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodySanhua.webp",
@@ -283,10 +275,6 @@
       {
         "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodySuiSui.webp",
         "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodySuiSui.webp"
-      },
-      {
-        "path": "GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiY.webp",
-        "gamedataAssetPath": "UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiY.webp"
       },
       {
         "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyZhixia.webp",
@@ -445,10 +433,6 @@
         "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyXuanLing.webp"
       },
       {
-        "path": "GameData/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_31092_UI.webp",
-        "gamedataAssetPath": "UIResources/Common/Image/MstSkill/T_MstSkil_31092_UI.webp"
-      },
-      {
         "path": "GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_SG_33022_UI.webp",
         "gamedataAssetPath": "UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_SG_33022_UI.webp"
       },
@@ -491,10 +475,6 @@
       {
         "path": "GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_shlb_39_UI.webp",
         "gamedataAssetPath": "UIResources/Common/Image/IconA/T_IconA_shlb_39_UI.webp"
-      },
-      {
-        "path": "GameData/ww/assets/items/UIResources/Common/Image/IconCook/T_IconCook_105_UI.webp",
-        "gamedataAssetPath": "UIResources/Common/Image/IconCook/T_IconCook_105_UI.webp"
       }
     ]
   },

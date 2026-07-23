@@ -21099,7 +21099,7 @@
           "id": "ww-item-80000096",
           "name": "Jade Broth Noodles",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconCook/T_IconCook_105_UI.webp",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Dish"

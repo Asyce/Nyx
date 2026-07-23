@@ -28297,7 +28297,9 @@
     "source": [
       "Cooking"
     ],
-    "assets": {}
+    "assets": {
+      "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconCook/T_IconCook_105_UI.webp"
+    }
   },
   {
     "id": "80000097",

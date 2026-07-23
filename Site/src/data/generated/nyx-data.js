@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-07-23T10:38:09.292Z",
+  "generatedAt": "2026-07-23T19:37:20.345Z",
   "codes": {
-    "updated": "2026-07-23T07:58:07.436Z",
+    "updated": "2026-07-23T19:37:01.713Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -211,6 +211,20 @@ var NYX_DB = {
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT"
         },
         {
+          "code": "ZZZ2YEAR",
+          "reward": "50 Polychrome",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Polychrome",
+            "needle": "polychrome",
+            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
+          },
+          "added": "2026-07-23",
+          "firstSeen": "2026-07-18T06:12:26.512Z",
+          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ2YEAR",
+          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ2YEAR"
+        },
+        {
           "code": "ZZZ30BANGBOO",
           "reward": "Polychrome x 60, Denny x 6,666",
           "premium": true,
@@ -223,6 +237,20 @@ var NYX_DB = {
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO"
+        },
+        {
+          "code": "ZZZ31REMIELLE",
+          "reward": "60 Polychrome and 6,666 Denny",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Polychrome",
+            "needle": "polychrome",
+            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
+          },
+          "added": "2026-07-23",
+          "firstSeen": "2026-07-17T15:01:00.612Z",
+          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ31REMIELLE",
+          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ31REMIELLE"
         },
         {
           "code": "ZZZDREAMLAND",
@@ -265,34 +293,6 @@ var NYX_DB = {
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM"
-        },
-        {
-          "code": "ZZZ2YEAR",
-          "reward": "50 Polychrome",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Polychrome",
-            "needle": "polychrome",
-            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
-          },
-          "added": "2026-07-18",
-          "firstSeen": "2026-07-18T06:12:26.512Z",
-          "sourceUrl": "https://www.crimsonwitch.com/codes/Zenless_Zone_Zero",
-          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ2YEAR"
-        },
-        {
-          "code": "ZZZ31REMIELLE",
-          "reward": "60 Polychrome, 6666 Denny",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Polychrome",
-            "needle": "polychrome",
-            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
-          },
-          "added": "2026-07-18",
-          "firstSeen": "2026-07-17T15:01:00.612Z",
-          "sourceUrl": "https://www.crimsonwitch.com/codes/Zenless_Zone_Zero",
-          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ31REMIELLE"
         }
       ],
       "wuwa": [],
@@ -155937,6 +155937,20 @@ var NYX_DB = {
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT"
         },
         {
+          "code": "ZZZ2YEAR",
+          "reward": "50 Polychrome",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Polychrome",
+            "needle": "polychrome",
+            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
+          },
+          "added": "2026-07-23",
+          "firstSeen": "2026-07-18T06:12:26.512Z",
+          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ2YEAR",
+          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ2YEAR"
+        },
+        {
           "code": "ZZZ30BANGBOO",
           "reward": "Polychrome x 60, Denny x 6,666",
           "premium": true,
@@ -155949,6 +155963,20 @@ var NYX_DB = {
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO"
+        },
+        {
+          "code": "ZZZ31REMIELLE",
+          "reward": "60 Polychrome and 6,666 Denny",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Polychrome",
+            "needle": "polychrome",
+            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
+          },
+          "added": "2026-07-23",
+          "firstSeen": "2026-07-17T15:01:00.612Z",
+          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ31REMIELLE",
+          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ31REMIELLE"
         },
         {
           "code": "ZZZDREAMLAND",
@@ -155991,34 +156019,6 @@ var NYX_DB = {
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM"
-        },
-        {
-          "code": "ZZZ2YEAR",
-          "reward": "50 Polychrome",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Polychrome",
-            "needle": "polychrome",
-            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
-          },
-          "added": "2026-07-18",
-          "firstSeen": "2026-07-18T06:12:26.512Z",
-          "sourceUrl": "https://www.crimsonwitch.com/codes/Zenless_Zone_Zero",
-          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ2YEAR"
-        },
-        {
-          "code": "ZZZ31REMIELLE",
-          "reward": "60 Polychrome, 6666 Denny",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Polychrome",
-            "needle": "polychrome",
-            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
-          },
-          "added": "2026-07-18",
-          "firstSeen": "2026-07-17T15:01:00.612Z",
-          "sourceUrl": "https://www.crimsonwitch.com/codes/Zenless_Zone_Zero",
-          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ31REMIELLE"
         }
       ],
       "banners": {

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "16fbb74f1acf1932afff4eac737175c194b3d0e58551cf4b79a14cfeda1e7a92",
-  "generatedAt": "2026-07-23T10:38:11.006Z",
+  "revision": "80d553e989aba080603aeb1ba83e8ee86917822c532830c4b5485012795b054c",
+  "generatedAt": "2026-07-23T19:37:22.107Z",
   "health": {
     "status": "ok",
     "games": {
@@ -43,7 +43,7 @@
         "remaining": {
           "startsAt": "2026-07-21T17:00:00.000Z",
           "endsAt": "2026-08-11T13:59:00.000Z",
-          "durationSeconds": 1653648
+          "durationSeconds": 1621297
         },
         "characters": [
           {
@@ -365,7 +365,7 @@
         "remaining": {
           "startsAt": "2026-07-15T03:00:00.000Z",
           "endsAt": "2026-08-05T03:59:00.000Z",
-          "durationSeconds": 1099248
+          "durationSeconds": 1066897
         },
         "characters": [
           {
@@ -823,7 +823,7 @@
         "remaining": {
           "startsAt": "2026-07-08T11:00:00.000Z",
           "endsAt": "2026-07-28T13:59:59.000Z",
-          "durationSeconds": 444107
+          "durationSeconds": 411756
         },
         "characters": [
           {
@@ -1128,6 +1128,18 @@
       ],
       "codes": [
         {
+          "code": "ZZZ2YEAR",
+          "added": "2026-07-23",
+          "amount": 50,
+          "currency": "Polychrome"
+        },
+        {
+          "code": "ZZZ31REMIELLE",
+          "added": "2026-07-23",
+          "amount": 60,
+          "currency": "Polychrome"
+        },
+        {
           "code": "ZZZDREAMLAND",
           "added": "2026-07-23",
           "amount": 30,
@@ -1144,18 +1156,6 @@
           "added": "2026-07-23",
           "amount": 50,
           "currency": "Polychrome"
-        },
-        {
-          "code": "ZZZ30BANGBOO",
-          "added": "2026-07-23",
-          "amount": 60,
-          "currency": "Polychrome"
-        },
-        {
-          "code": "ZZZSEASON3",
-          "added": "2026-07-23",
-          "amount": 50,
-          "currency": "Polychrome"
         }
       ]
     },
@@ -1169,7 +1169,7 @@
         "remaining": {
           "startsAt": "2026-07-10T08:10:00.000Z",
           "endsAt": "2026-07-30T08:59:00.000Z",
-          "durationSeconds": 598848
+          "durationSeconds": 566497
         },
         "characters": [
           {
@@ -1568,7 +1568,7 @@
         "remaining": {
           "startsAt": "2026-07-16T04:00:00.000Z",
           "endsAt": "2026-08-09T03:59:59.000Z",
-          "durationSeconds": 1444907
+          "durationSeconds": 1412556
         },
         "characters": [
           {

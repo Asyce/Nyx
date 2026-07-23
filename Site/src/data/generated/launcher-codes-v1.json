@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-23T07:58:07.436Z",
+  "generatedAt": "2026-07-23T19:37:01.713Z",
   "games": {
     "gi": [
       {
@@ -44,6 +44,18 @@
     ],
     "zzz": [
       {
+        "code": "ZZZ2YEAR",
+        "added": "2026-07-23",
+        "amount": 50,
+        "currency": "Polychrome"
+      },
+      {
+        "code": "ZZZ31REMIELLE",
+        "added": "2026-07-23",
+        "amount": 60,
+        "currency": "Polychrome"
+      },
+      {
         "code": "ZZZDREAMLAND",
         "added": "2026-07-23",
         "amount": 30,
@@ -60,18 +72,6 @@
         "added": "2026-07-23",
         "amount": 50,
         "currency": "Polychrome"
-      },
-      {
-        "code": "ZZZ30BANGBOO",
-        "added": "2026-07-23",
-        "amount": 60,
-        "currency": "Polychrome"
-      },
-      {
-        "code": "ZZZSEASON3",
-        "added": "2026-07-23",
-        "amount": 50,
-        "currency": "Polychrome"
       }
     ],
     "wuwa": [],
@@ -84,5 +84,5 @@
       }
     ]
   },
-  "revision": "eaadf3fe7f5e6f334c7c57348d77b42061a2849e06b7204a6d8bf9411f371075"
+  "revision": "0a7bd8f8360e06c387f02c602ac39296eb721ac9cdcbd0ea09b84ad75f84519f"
 }

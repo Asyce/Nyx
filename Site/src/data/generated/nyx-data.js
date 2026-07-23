@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-07-23T00:08:32.096Z",
+  "generatedAt": "2026-07-23T03:43:11.863Z",
   "codes": {
-    "updated": "2026-07-23T00:08:14.624Z",
+    "updated": "2026-07-23T03:42:23.304Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -370,13 +370,13 @@ var NYX_DB = {
   },
   "banners": {
     "updated": "2026-07-21T16:13:51.549Z",
-    "checkedAt": "2026-07-22T19:45:24.330Z",
+    "checkedAt": "2026-07-23T03:42:10.226Z",
     "games": {
       "hsr": {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-22T19:45:24.330Z",
+          "checkedAt": "2026-07-23T03:42:10.226Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -415,7 +415,7 @@ var NYX_DB = {
         "name": "Genshin Impact",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-22T19:45:24.330Z",
+          "checkedAt": "2026-07-23T03:42:10.226Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -445,7 +445,7 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-22T19:45:24.330Z",
+          "checkedAt": "2026-07-23T03:42:10.226Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -527,7 +527,7 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-22T19:45:24.330Z",
+          "checkedAt": "2026-07-23T03:42:10.226Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -644,7 +644,7 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-22T19:45:24.330Z",
+          "checkedAt": "2026-07-23T03:42:10.226Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -4403,7 +4403,7 @@ var NYX_DB = {
         "name": "Genshin Impact",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-22T19:45:24.330Z",
+          "checkedAt": "2026-07-23T03:42:10.226Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -150421,7 +150421,7 @@ var NYX_DB = {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-22T19:45:24.330Z",
+          "checkedAt": "2026-07-23T03:42:10.226Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -155951,7 +155951,7 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-22T19:45:24.330Z",
+          "checkedAt": "2026-07-23T03:42:10.226Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -160784,7 +160784,7 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-22T19:45:24.330Z",
+          "checkedAt": "2026-07-23T03:42:10.226Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -165810,7 +165810,7 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-22T19:45:24.330Z",
+          "checkedAt": "2026-07-23T03:42:10.226Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",

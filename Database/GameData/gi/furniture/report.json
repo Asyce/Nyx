@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-18T08:35:00.621Z",
+  "generatedAt": "2026-07-23T09:23:40.318Z",
   "sourceUrl": "https://gi.nanoka.cc/furniture/",
-  "version": "6.7.52",
-  "staticBase": "https://static.nanoka.cc/gi/6.7.52",
+  "version": "6.7.53",
+  "staticBase": "https://static.nanoka.cc/gi/6.7.53",
   "counts": {
     "furnishings": 2351,
     "withDetail": 2351,
@@ -23,10 +23,9 @@
     "Wall Decor": 64,
     "Companion": 119,
     "Animal": 140,
-    "Building": 272,
+    "Building": 281,
     "Courtyard": 124,
     "Outdoor Furnishing": 124,
-    "Other": 9,
     "Landform": 247,
     "Main Building": 7
   }

@@ -3079,8 +3079,8 @@
     }
   },
   "360484": {
-    "name": "",
-    "desc": "",
+    "name": "\"Chirping About As Birds Do\"",
+    "desc": "A tall streetlamp commonly seen in Snezhnograd, its dark-blue post standing tall and straight, its body adorned with golden geometric patterns. At the top, two elegantly arched brackets extend outward, each holding a lamp.\\nThis streetlamp not only illuminates the street; from time to time, it also becomes a \"social hub\" for the neighborhood's little birds. Two flocks each claim one of the brackets, chirping back and forth across the lamppost, bringing a fair bit of life to the quiet street...",
     "icon": "UI_Homeworld_Exterior_Zd_Lamp_Light_ZCludeng_01_Lod0",
     "rank": 3,
     "type": [
@@ -3089,9 +3089,11 @@
     "type2": [
       "Lighting"
     ],
-    "cost": 85,
-    "comfort": 30,
-    "source": [],
+    "cost": 105,
+    "comfort": 60,
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
       "exp": 60,
       "time": 50400,
@@ -3963,8 +3965,8 @@
     }
   },
   "361126": {
-    "name": "",
-    "desc": "",
+    "name": "\"Opening Business Hours\"",
+    "desc": "A dark-toned storage cabinet, quiet and steady in style, with two banks of drawers on each side and a pair of double doors in the middle for holding a large quantity of odds and ends.\\nEach morning, the staff open the cabinet doors and the day's business begins. And deep in the evening, when every last item has been put back in its place, and the doors are closed, that day's work is fittingly done.",
     "icon": "UI_Homeworld_Interior_Zd_Cabinet_Prop_CTguizi_01_Vo",
     "rank": 3,
     "type": [
@@ -3973,27 +3975,25 @@
     "type2": [
       "Cabinet"
     ],
-    "cost": 254,
+    "cost": 85,
     "comfort": 60,
-    "source": [],
+    "source": [
+      "Learned from Realm Depot Furnishing Blueprint"
+    ],
     "recipe": {
       "exp": 60,
       "time": 50400,
       "items": [
         {
-          "count": 6,
-          "id": 101001
-        },
-        {
-          "count": 6,
-          "id": 101002
+          "count": 12,
+          "id": 101333
         }
       ]
     }
   },
   "361127": {
-    "name": "",
-    "desc": "",
+    "name": "Indoor Standing Cabinet: \"The Steepled Little House\"",
+    "desc": "A wooden standing cabinet commonly seen in the Snegurochka's Demesne, with generous capacity, a substantial body, and considerable symmetrical beauty.\\n\"That time,\" said the maker of this cabinet when asked about the source of the design, \"I saw a building whose roof was so steeply-pitched that not one snowflake could rest atop it...\"",
     "icon": "UI_Homeworld_Interior_Zd_Cabinet_Prop_XNGcwg_01_01_Lods",
     "rank": 3,
     "type": [
@@ -4002,20 +4002,18 @@
     "type2": [
       "Cabinet"
     ],
-    "cost": 254,
+    "cost": 845,
     "comfort": 60,
-    "source": [],
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
       "exp": 60,
       "time": 50400,
       "items": [
         {
-          "count": 2,
-          "id": 101001
-        },
-        {
-          "count": 6,
-          "id": 101002
+          "count": 12,
+          "id": 101332
         }
       ]
     }
@@ -6008,8 +6006,8 @@
     "recipe": {}
   },
   "361350": {
-    "name": "",
-    "desc": "",
+    "name": "\"Candle Perch\" Tall Square Table",
+    "desc": "A dark-toned tall square table, adorned with elegant gold-outlined patterns, commonly used to hold candlesticks for lighting.\\nAmple clearance beneath the tabletop makes daily cleaning much easier.",
     "icon": "UI_Homeworld_Interior_Zd_Cabinet_Prop_CTguizi_02_Vo",
     "rank": 3,
     "type": [
@@ -6018,20 +6016,18 @@
     "type2": [
       "Table"
     ],
-    "cost": 592,
+    "cost": 85,
     "comfort": 60,
-    "source": [],
+    "source": [
+      "Learned from Realm Depot Furnishing Blueprint"
+    ],
     "recipe": {
       "exp": 60,
       "time": 50400,
       "items": [
         {
-          "count": 6,
-          "id": 101001
-        },
-        {
-          "count": 6,
-          "id": 101002
+          "count": 8,
+          "id": 101333
         }
       ]
     }
@@ -6499,30 +6495,32 @@
     }
   },
   "361415": {
-    "name": "",
-    "desc": "",
+    "name": "\"Sweet, Untroubled Slumber\"",
+    "desc": "A bed that can be found in the Snegurochka's Demesne, dressed with lavish draped canopies and adorned along the frame with exquisite patterns.\\nIt is said that no matter how tired you may be from the day, once you lie down here for a while, the weariness and worry slowly fade, leaving nothing but the purest, deepest sleep.",
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_XNGchuang_01_Lod0",
-    "rank": 3,
+    "rank": 4,
     "type": [
       "Large Furnishing"
     ],
     "type2": [
       "Bed"
     ],
-    "cost": 85,
-    "comfort": 60,
-    "source": [],
+    "cost": 665,
+    "comfort": 90,
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
-      "exp": 60,
-      "time": 50400,
+      "exp": 90,
+      "time": 57600,
       "items": [
         {
-          "count": 8,
-          "id": 101001
+          "count": 6,
+          "id": 101404
         },
         {
-          "count": 4,
-          "id": 101002
+          "count": 12,
+          "id": 101332
         }
       ]
     }
@@ -7897,8 +7895,8 @@
     }
   },
   "362136": {
-    "name": "",
-    "desc": "",
+    "name": "\"A Quiet Sigh on a Snowbound Night\"",
+    "desc": "A dark-toned long bench that can be seen in the Snegurochka's Demesne. The central back is decorated with golden geometric patterns, and the whole piece has a solemn, elegant profile.\\n\"Every passerby like unto a ghost,\" a traveler once sighed, seated alone on this bench, gazing at the wind and snow through the window. \"Every house was like a palace of ice and snow...\"",
     "icon": "UI_Homeworld_Interior_Zd_Chair_Prop_XNGyizi_01_Lod0",
     "rank": 3,
     "type": [
@@ -7909,25 +7907,27 @@
     ],
     "cost": 85,
     "comfort": 60,
-    "source": [],
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
       "exp": 60,
       "time": 50400,
       "items": [
         {
-          "count": 2,
-          "id": 101001
+          "count": 8,
+          "id": 101334
         },
         {
-          "count": 6,
-          "id": 101002
+          "count": 4,
+          "id": 101001
         }
       ]
     }
   },
   "362137": {
-    "name": "",
-    "desc": "",
+    "name": "Indoor Seat: \"Clashing Colors\"",
+    "desc": "A high-backed seat commonly seen in the Snezhnograd Veche. The cushion is soft and comfortable, adorned with exquisite patterns.\\n\"You have to make them feel the two colors picking a fight... otherwise everyone would just fall asleep!\" That was how a designer well-versed in the art of clashing colors put it.",
     "icon": "UI_Homeworld_Interior_Zd_Chair_Prop_YHyizi_01_Vo",
     "rank": 3,
     "type": [
@@ -7938,14 +7938,24 @@
     ],
     "cost": 85,
     "comfort": 60,
-    "source": [],
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
       "exp": 60,
       "time": 50400,
       "items": [
         {
-          "count": 8,
-          "id": 101329
+          "count": 4,
+          "id": 101332
+        },
+        {
+          "count": 2,
+          "id": 101402
+        },
+        {
+          "count": 2,
+          "id": 101404
         }
       ]
     }
@@ -11002,8 +11012,8 @@
     }
   },
   "362325": {
-    "name": "",
-    "desc": "",
+    "name": "Indoor Rug: \"Frostbloom Beneath the Ice\"",
+    "desc": "A dark-toned rectangular rug seen in the Snegurochka's Demesne, its edges trimmed with tassels. The central pattern is a radial, elaborate geometric structure, like a frostbloom crystallized beneath a sheet of ice. Restrained rather than showy, yet lending some brightness to its deep, sombre ground color.",
     "icon": "UI_Homeworld_Interior_Zd_Carpet_Prop_XNGditan_01_Vo",
     "rank": 3,
     "type": [
@@ -11014,25 +11024,27 @@
     ],
     "cost": 85,
     "comfort": 60,
-    "source": [],
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
       "exp": 60,
       "time": 50400,
       "items": [
         {
-          "count": 4,
+          "count": 8,
           "id": 101401
         },
         {
           "count": 4,
-          "id": 101403
+          "id": 101404
         }
       ]
     }
   },
   "362326": {
-    "name": "",
-    "desc": "",
+    "name": "Indoor Rug: \"Warmth\"",
+    "desc": "A deep red circular rug that can be seen indoors in Snezhnograd, adorned with symmetrical light-colored patterns, thick and warm to the touch.\\n\"Just looking at it, you feel like you're warming yourself by a fire...\" Indeed, many who've placed one in their homes speak highly of this particular splash of color that drives away the cold.",
     "icon": "UI_Homeworld_Interior_Zd_Carpet_Prop_YHditan_01_Vo",
     "rank": 3,
     "type": [
@@ -11043,18 +11055,20 @@
     ],
     "cost": 85,
     "comfort": 60,
-    "source": [],
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
-      "exp": 90,
-      "time": 57600,
+      "exp": 60,
+      "time": 50400,
       "items": [
         {
-          "count": 12,
-          "id": 101001
+          "count": 8,
+          "id": 101401
         },
         {
-          "count": 18,
-          "id": 101002
+          "count": 4,
+          "id": 101402
         }
       ]
     }
@@ -11256,8 +11270,8 @@
     "recipe": {}
   },
   "362408": {
-    "name": "",
-    "desc": "",
+    "name": "\"Tall-Capped Sentinel\"",
+    "desc": "A soldier figurine given as a gift by a certain shy girl, wearing a tall military cap adorned with golden trim, dressed in a deep blue uniform with golden buttons and epaulets.\\nThough its slightly upturned mustache lends it a hint of endearing charm, its expression is still solemn and its fists tightly clenched, as if it were standing guard over the peace and warmth around it.",
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_HTJZ_01_Lod0",
     "rank": 3,
     "type": [
@@ -11266,19 +11280,21 @@
     "type2": [
       "Craftwork"
     ],
-    "cost": 190,
+    "cost": 157,
     "comfort": 60,
-    "source": [],
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
       "exp": 60,
       "time": 50400,
       "items": [
         {
-          "count": 8,
+          "count": 6,
           "id": 101001
         },
         {
-          "count": 4,
+          "count": 6,
           "id": 101002
         }
       ]
@@ -11843,8 +11859,8 @@
     }
   },
   "363121": {
-    "name": "",
-    "desc": "",
+    "name": "\"For Whom It Shines\"",
+    "desc": "A common Snezhnayan-style lighting fixture with a heavy, stable dark base supporting a uniquely designed conical shade.\\nAs a reading lamp it is unmatched — its light is just the right brightness, and it lends every reader a warm, quiet atmosphere in which to lose themselves in a book.",
     "icon": "UI_Homeworld_Interior_Zd_Lamp_Light_YHtaideng_01_Vo",
     "rank": 3,
     "type": [
@@ -11853,9 +11869,11 @@
     "type2": [
       "Lighting"
     ],
-    "cost": 305,
+    "cost": 220,
     "comfort": 60,
-    "source": [],
+    "source": [
+      "Learned from Realm Depot Furnishing Blueprint"
+    ],
     "recipe": {
       "exp": 60,
       "time": 50400,
@@ -11865,15 +11883,15 @@
           "id": 101001
         },
         {
-          "count": 6,
+          "count": 2,
           "id": 101002
         }
       ]
     }
   },
   "363122": {
-    "name": "",
-    "desc": "",
+    "name": "Indoor Table Lamp: \"Soft Light\"",
+    "desc": "A small table lamp that can be found indoors in Snezhnograd, with an umbrella-shaped shade and decorative pendants.\\nDay or night, it gives off a gentle light, quietly lighting a small patch of the world for each passerby.",
     "icon": "UI_Homeworld_Interior_Zd_Lamp_Light_YHtaideng_02_Vo",
     "rank": 3,
     "type": [
@@ -11882,19 +11900,21 @@
     "type2": [
       "Lighting"
     ],
-    "cost": 305,
+    "cost": 220,
     "comfort": 60,
-    "source": [],
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
       "exp": 60,
       "time": 50400,
       "items": [
         {
-          "count": 6,
+          "count": 4,
           "id": 101001
         },
         {
-          "count": 6,
+          "count": 4,
           "id": 101002
         }
       ]
@@ -14495,8 +14515,8 @@
     "recipe": {}
   },
   "363399": {
-    "name": "",
-    "desc": "",
+    "name": "\"Round and Round, the Little Fish Go\"",
+    "desc": "A whimsically-shaped fan, designed with the Iridescent Starbloom Fish as its inspiration; as the blades turn, they bring a bit of coolness to their surroundings.\\n\"The fish spins round and round, the wind blows on and on...\" Fishing enthusiasts feel the cool breeze from the fan on their faces, hum a soft tune, and wait patiently for the fish to bite...",
     "icon": "UI_Homeworld_Ani_Interior_Zd_Decoration_Prop_XHYFS_01",
     "rank": 4,
     "type": [
@@ -14505,19 +14525,21 @@
     "type2": [
       "Memento"
     ],
-    "cost": 1300,
-    "comfort": 60,
-    "source": [],
+    "cost": 300,
+    "comfort": 90,
+    "source": [
+      "Purchase at the Snezhnaya Fishing Association"
+    ],
     "recipe": {
-      "exp": 60,
-      "time": 50400,
+      "exp": 90,
+      "time": 57600,
       "items": [
         {
           "count": 4,
           "id": 101001
         },
         {
-          "count": 4,
+          "count": 8,
           "id": 101002
         }
       ]
@@ -14527,26 +14549,28 @@
     "name": "???",
     "desc": "???",
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_HCCM_01_Vo",
-    "rank": 3,
+    "rank": 4,
     "type": [
       "Ornaments"
     ],
     "type2": [
       "Memento"
     ],
-    "cost": 1300,
-    "comfort": 60,
-    "source": [],
+    "cost": 96,
+    "comfort": 90,
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
-      "exp": 60,
-      "time": 50400,
+      "exp": 90,
+      "time": 57600,
       "items": [
         {
-          "count": 2,
+          "count": 8,
           "id": 101001
         },
         {
-          "count": 6,
+          "count": 4,
           "id": 101002
         }
       ]
@@ -15049,8 +15073,8 @@
     }
   },
   "363417": {
-    "name": "Booth 1",
-    "desc": "",
+    "name": "Sweet Berry Blossom Hut",
+    "desc": "An Adventurers' Guild counter decorated with Valberry-colored little flowers. Berries can bring an adventurer rich nutrition!",
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLdizuo_01_Vo",
     "rank": 4,
     "type": [
@@ -15059,7 +15083,7 @@
     "type2": [
       "Curio"
     ],
-    "cost": 30,
+    "cost": 720,
     "comfort": 30,
     "source": [
       "Obtained from Limited-Time Event"
@@ -15067,8 +15091,8 @@
     "recipe": {}
   },
   "363418": {
-    "name": "Booth 2",
-    "desc": "",
+    "name": "Honey Blossom Hut",
+    "desc": "An Adventurers' Guild counter decorated with honey-colored little flowers. Honey can give an adventurer plenty of energy!",
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLdizuo_02_Vo",
     "rank": 4,
     "type": [
@@ -15077,7 +15101,7 @@
     "type2": [
       "Curio"
     ],
-    "cost": 30,
+    "cost": 720,
     "comfort": 30,
     "source": [
       "Obtained from Limited-Time Event"
@@ -15085,8 +15109,8 @@
     "recipe": {}
   },
   "363419": {
-    "name": "Booth 3",
-    "desc": "",
+    "name": "Sweet Berry Blossom Ice Hut",
+    "desc": "An ice-colored counter decorated with Valberry-colored little flowers. Berries can bring an adventurer rich nutrition!",
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLdizuo_03_Vo",
     "rank": 4,
     "type": [
@@ -15095,7 +15119,7 @@
     "type2": [
       "Curio"
     ],
-    "cost": 30,
+    "cost": 720,
     "comfort": 30,
     "source": [
       "Obtained from Limited-Time Event"
@@ -15103,8 +15127,8 @@
     "recipe": {}
   },
   "363420": {
-    "name": "Booth 4",
-    "desc": "",
+    "name": "Honey Blossom Ice Hut",
+    "desc": "An Adventurers' Guild counter decorated with honey-colored little flowers. Honey can give an adventurer plenty of energy!",
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLdizuo_04_Vo",
     "rank": 4,
     "type": [
@@ -15113,7 +15137,7 @@
     "type2": [
       "Curio"
     ],
-    "cost": 30,
+    "cost": 720,
     "comfort": 30,
     "source": [
       "Obtained from Limited-Time Event"
@@ -15121,15 +15145,15 @@
     "recipe": {}
   },
   "363421": {
-    "name": "Body - Stance",
-    "desc": "",
+    "name": "Polite Stance",
+    "desc": "\"Ad astra abyssosque. Welcome to the Adventurers' Guild!\"",
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLshenti_01_Vo",
     "rank": 4,
     "type": [
       "Landscape"
     ],
     "type2": [
-      "tes Katheryne component"
+      "Tes Katheryne Parts"
     ],
     "cost": 0,
     "comfort": 0,
@@ -15139,15 +15163,15 @@
     "recipe": {}
   },
   "363422": {
-    "name": "Body - Hands on Hips",
-    "desc": "",
+    "name": "Cross Mood",
+    "desc": "\"A proper adventurer shouldn't be reckless!\"",
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLshenti_02_Vo",
     "rank": 4,
     "type": [
       "Landscape"
     ],
     "type2": [
-      "tes Katheryne component"
+      "Tes Katheryne Parts"
     ],
     "cost": 0,
     "comfort": 0,
@@ -15157,15 +15181,15 @@
     "recipe": {}
   },
   "363423": {
-    "name": "Body - Bouquet",
-    "desc": "",
+    "name": "Sincere Blessing",
+    "desc": "\"Thank you for supporting the Adventurers' Guild, Adventurer.\"",
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLshenti_03_Vo",
     "rank": 4,
     "type": [
       "Landscape"
     ],
     "type2": [
-      "tes Katheryne component"
+      "Tes Katheryne Parts"
     ],
     "cost": 0,
     "comfort": 0,
@@ -15175,15 +15199,15 @@
     "recipe": {}
   },
   "363424": {
-    "name": "Body - Gift",
-    "desc": "",
+    "name": "Presenting the Reward",
+    "desc": "\"Thank you for completing today's commissions. Here is your reward.\"",
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLshenti_04_Vo",
     "rank": 4,
     "type": [
       "Landscape"
     ],
     "type2": [
-      "tes Katheryne component"
+      "Tes Katheryne Parts"
     ],
     "cost": 0,
     "comfort": 0,
@@ -15193,15 +15217,15 @@
     "recipe": {}
   },
   "363425": {
-    "name": "Face - Happy",
-    "desc": "",
+    "name": "Happy Smile",
+    "desc": "\"Katheryne's smile is always so steady and reassuring...\"",
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLlianbu_01_Vo",
     "rank": 4,
     "type": [
       "Landscape"
     ],
     "type2": [
-      "tes Katheryne component"
+      "Tes Katheryne Parts"
     ],
     "cost": 0,
     "comfort": 0,
@@ -15211,15 +15235,15 @@
     "recipe": {}
   },
   "363426": {
-    "name": "Face-Sincerity",
-    "desc": "",
+    "name": "Moved Gaze",
+    "desc": "\"Legend says Katheryne has never shown this expression. Only the 'King of Adventurers' would ever get the chance to see it...\"",
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLlianbu_02_Vo",
     "rank": 4,
     "type": [
       "Landscape"
     ],
     "type2": [
-      "tes Katheryne component"
+      "Tes Katheryne Parts"
     ],
     "cost": 0,
     "comfort": 0,
@@ -15229,15 +15253,15 @@
     "recipe": {}
   },
   "363427": {
-    "name": "Face-Eyewear",
-    "desc": "",
+    "name": "Precise Calculation",
+    "desc": "\"Since she hands out rewards to so many adventurers every day, Katheryne must be very good at math, don't ya think?\"",
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLlianbu_03_Vo",
     "rank": 4,
     "type": [
       "Landscape"
     ],
     "type2": [
-      "tes Katheryne component"
+      "Tes Katheryne Parts"
     ],
     "cost": 0,
     "comfort": 0,
@@ -15247,15 +15271,15 @@
     "recipe": {}
   },
   "363428": {
-    "name": "Face - Angry",
-    "desc": "",
+    "name": "Legendary Fury",
+    "desc": "\"Best not to make Katheryne enter this legendary state of rage...\"",
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLlianbu_04_Vo",
     "rank": 4,
     "type": [
       "Landscape"
     ],
     "type2": [
-      "tes Katheryne component"
+      "Tes Katheryne Parts"
     ],
     "cost": 0,
     "comfort": 0,
@@ -15265,15 +15289,15 @@
     "recipe": {}
   },
   "363429": {
-    "name": "Head - Black Hairband",
-    "desc": "",
+    "name": "Classic Hairstyle",
+    "desc": "The elegant hairstyle that forms Katheryne's signature look.",
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLtoubu_01_Vo",
     "rank": 4,
     "type": [
       "Landscape"
     ],
     "type2": [
-      "tes Katheryne component"
+      "Tes Katheryne Parts"
     ],
     "cost": 0,
     "comfort": 0,
@@ -15283,15 +15307,15 @@
     "recipe": {}
   },
   "363430": {
-    "name": "Head - Blue Hair Ribbon",
-    "desc": "",
+    "name": "Snezhnayan Ice-Blue",
+    "desc": "A hair color unique to Snezhnaya, adding a touch of crisp coolness.",
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLtoubu_02_Vo",
     "rank": 4,
     "type": [
       "Landscape"
     ],
     "type2": [
-      "tes Katheryne component"
+      "Tes Katheryne Parts"
     ],
     "cost": 0,
     "comfort": 0,
@@ -15301,15 +15325,15 @@
     "recipe": {}
   },
   "363431": {
-    "name": "Headwear - Black Hair Nightcap",
-    "desc": "",
+    "name": "Time to Rest",
+    "desc": "\"No one's ever seen Katheryne resting, but she'd probably like this nightcap...\"",
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLtoubu_03_Vo",
     "rank": 4,
     "type": [
       "Landscape"
     ],
     "type2": [
-      "tes Katheryne component"
+      "Tes Katheryne Parts"
     ],
     "cost": 0,
     "comfort": 0,
@@ -15319,15 +15343,15 @@
     "recipe": {}
   },
   "363432": {
-    "name": "Head - Blue Sleeping Cap",
-    "desc": "",
+    "name": "Winter Drowsiness",
+    "desc": "\"On a cold Snezhnayan night, with the fireplace lit, sleep comes all the sweeter...\"",
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLtoubu_04_Vo",
     "rank": 4,
     "type": [
       "Landscape"
     ],
     "type2": [
-      "tes Katheryne component"
+      "Tes Katheryne Parts"
     ],
     "cost": 0,
     "comfort": 0,
@@ -15337,15 +15361,15 @@
     "recipe": {}
   },
   "363433": {
-    "name": "Little Adventurer 1",
-    "desc": "",
+    "name": "Wee Adventurer - Cheer",
+    "desc": "\"Cheer\" is one of the important treasures gathered during one's adventures!",
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLmxj_01_Vo",
     "rank": 4,
     "type": [
       "Landscape"
     ],
     "type2": [
-      "tes Katheryne component"
+      "Tes Katheryne Parts"
     ],
     "cost": 0,
     "comfort": 0,
@@ -15355,15 +15379,15 @@
     "recipe": {}
   },
   "363434": {
-    "name": "Little Adventurer 2",
-    "desc": "",
+    "name": "Wee Adventurer - Diligence",
+    "desc": "\"Diligence\" is the state of steady, careful progress as one adventures!",
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLmxj_02_Vo",
     "rank": 4,
     "type": [
       "Landscape"
     ],
     "type2": [
-      "tes Katheryne component"
+      "Tes Katheryne Parts"
     ],
     "cost": 0,
     "comfort": 0,
@@ -15373,15 +15397,15 @@
     "recipe": {}
   },
   "363435": {
-    "name": "Little Adventurer 3",
-    "desc": "",
+    "name": "Wee Adventurer - Joy",
+    "desc": "\"Joy\" is a feeling you should hold dear during any adventure!",
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLmxj_03_Vo",
     "rank": 4,
     "type": [
       "Landscape"
     ],
     "type2": [
-      "tes Katheryne component"
+      "Tes Katheryne Parts"
     ],
     "cost": 0,
     "comfort": 0,
@@ -15391,15 +15415,15 @@
     "recipe": {}
   },
   "363436": {
-    "name": "Little Adventurer 4",
-    "desc": "",
+    "name": "Wee Adventurer - Fighting Spirit",
+    "desc": "\"Fighting Spirit\" is the resolve no adventurer ever lets slip!",
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLmxj_04_Vo",
     "rank": 4,
     "type": [
       "Landscape"
     ],
     "type2": [
-      "tes Katheryne component"
+      "Tes Katheryne Parts"
     ],
     "cost": 0,
     "comfort": 0,
@@ -15409,15 +15433,15 @@
     "recipe": {}
   },
   "363437": {
-    "name": "Little Adventurer 5",
-    "desc": "",
+    "name": "Big Adventurer - Cheer",
+    "desc": "\"Cheer\" is one of the important treasures gathered during one's adventures!",
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLmxj_05_Vo",
     "rank": 4,
     "type": [
       "Landscape"
     ],
     "type2": [
-      "tes Katheryne component"
+      "Tes Katheryne Parts"
     ],
     "cost": 0,
     "comfort": 0,
@@ -15427,15 +15451,15 @@
     "recipe": {}
   },
   "363438": {
-    "name": "Little Adventurer 6",
-    "desc": "",
+    "name": "Big Adventurer - Diligence",
+    "desc": "\"Diligence\" is the state of steady, careful progress as one adventures!",
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLmxj_06_Vo",
     "rank": 4,
     "type": [
       "Landscape"
     ],
     "type2": [
-      "tes Katheryne component"
+      "Tes Katheryne Parts"
     ],
     "cost": 0,
     "comfort": 0,
@@ -15445,15 +15469,15 @@
     "recipe": {}
   },
   "363439": {
-    "name": "Little Adventurer 7",
-    "desc": "",
+    "name": "Big Adventurer - Joy",
+    "desc": "\"Joy\" is a feeling you should hold dear during any adventure!",
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLmxj_07_Vo",
     "rank": 4,
     "type": [
       "Landscape"
     ],
     "type2": [
-      "tes Katheryne component"
+      "Tes Katheryne Parts"
     ],
     "cost": 0,
     "comfort": 0,
@@ -15463,15 +15487,15 @@
     "recipe": {}
   },
   "363440": {
-    "name": "Little Adventurer 8",
-    "desc": "",
+    "name": "Big Adventurer - Fighting Spirit",
+    "desc": "\"Fighting Spirit\" is the resolve no adventurer ever lets slip!",
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLmxj_08_Vo",
     "rank": 4,
     "type": [
       "Landscape"
     ],
     "type2": [
-      "tes Katheryne component"
+      "Tes Katheryne Parts"
     ],
     "cost": 0,
     "comfort": 0,
@@ -15481,8 +15505,8 @@
     "recipe": {}
   },
   "363441": {
-    "name": "",
-    "desc": "",
+    "name": "\"Tea-Time Etiquette\"",
+    "desc": "A teacup commonly seen in the Snezhnograd Veche, its body has a base blue hue, with the rim and handle inlaid with delicate golden edging that shifts with a warm, mellow gleam in the light. The matching saucer is painted with symmetrical geometric petal patterns, elegant and unforced.\\nIn Snezhnayan social settings, ladies and gentlemen often patiently stir the tea with a spoon, wait for the heat to ease, and then take a leisurely sip, showing in the conversation flow a bearing that is neither hurried nor irritable...",
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_YHchabei_01_Vo",
     "rank": 3,
     "type": [
@@ -15491,9 +15515,11 @@
     "type2": [
       "Utensil"
     ],
-    "cost": 676,
+    "cost": 85,
     "comfort": 60,
-    "source": [],
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
       "exp": 60,
       "time": 50400,
@@ -15510,8 +15536,8 @@
     }
   },
   "363442": {
-    "name": "",
-    "desc": "",
+    "name": "\"Balanced Boughs\"",
+    "desc": "A candelabrum on a sturdy base, with symmetrical branch-like arms upon which two candles burn with warm yellow flame. Elegant in overall form, it lends a touch of warmth to the room in the flicker of candlelight and shadow.",
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_CTzhutai_02_Vo",
     "rank": 3,
     "type": [
@@ -15520,27 +15546,29 @@
     "type2": [
       "Utensil"
     ],
-    "cost": 676,
+    "cost": 305,
     "comfort": 60,
-    "source": [],
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
       "exp": 60,
       "time": 50400,
       "items": [
         {
-          "count": 4,
+          "count": 6,
           "id": 101001
         },
         {
-          "count": 4,
+          "count": 2,
           "id": 101002
         }
       ]
     }
   },
   "363443": {
-    "name": "",
-    "desc": "",
+    "name": "\"Steady Companion Through Dreams\"",
+    "desc": "An intricately designed standing candelabrum commonly seen in the Snegurochka's Demesne. Its candle arms have an elegant curve, and the candles they hold always give off a soft, tender light.\\nOn every quiet night, the faint crackle of the wicks brings a warm atmosphere to the room, easing those inside gently into their dreams...",
     "icon": "UI_Homeworld_Interior_Zd_Lamp_Light_XNGlatai_01_Lod0",
     "rank": 3,
     "type": [
@@ -15549,19 +15577,21 @@
     "type2": [
       "Utensil"
     ],
-    "cost": 676,
+    "cost": 587,
     "comfort": 60,
-    "source": [],
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
-      "exp": 90,
-      "time": 57600,
+      "exp": 60,
+      "time": 50400,
       "items": [
         {
           "count": 6,
           "id": 101001
         },
         {
-          "count": 12,
+          "count": 2,
           "id": 101002
         }
       ]
@@ -15897,8 +15927,8 @@
     }
   },
   "363513": {
-    "name": "",
-    "desc": "",
+    "name": "Potted Bouquet: \"Elegant Blackthorn\"",
+    "desc": "A potted floral arrangement often used to decorate Snezhnayan interiors, its body brightly colored and delicately patterned, making it a work of considerable beauty.\\nThe purple blooms in the vase carry both an air of understated elegance and lend the room a burst of vibrant life.",
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_ZDhuaping_01_01_Lods",
     "rank": 3,
     "type": [
@@ -15907,15 +15937,17 @@
     "type2": [
       "Potted Plant"
     ],
-    "cost": 180,
+    "cost": 169,
     "comfort": 60,
-    "source": [],
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
       "exp": 60,
       "time": 50400,
       "items": [
         {
-          "count": 8,
+          "count": 4,
           "id": 101001
         },
         {
@@ -15926,8 +15958,8 @@
     }
   },
   "363514": {
-    "name": "",
-    "desc": "",
+    "name": "Decorative Flowerbed: \"Brightcore Blossoms\"",
+    "desc": "A decorative flowerbed commonly seen in the Snezhnograd Veche, elegant in form and reserved in style.\\nThe flowers bear clean, unadorned white petals, yet their pistils carry bright, vivid colors, conveying a special kind of brightness to every viewer who pauses to look...",
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_YHhuapen_01_01_Lods",
     "rank": 3,
     "type": [
@@ -15936,9 +15968,11 @@
     "type2": [
       "Potted Plant"
     ],
-    "cost": 180,
+    "cost": 169,
     "comfort": 60,
-    "source": [],
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
       "exp": 60,
       "time": 50400,
@@ -17857,10 +17891,10 @@
     "recipe": {}
   },
   "364524": {
-    "name": "",
-    "desc": "",
+    "name": "\"A Golden Winter\"",
+    "desc": "A Snezhnayan-style wall painting depicting a corner of a birch grove on the snowfields. The brilliant golden-yellow canopy shows especially bright against the white snow, and the painter has used a spare color vocabulary to record the distinctive warmth of the deep winter.\\n\"When I finally pulled myself together and looked out the window,\" the painter of this work has said, \"I happened to catch sight of a golden winter.\"",
     "icon": "UI_Homeworld_Interior_Zd_Walldecoration_Prop_CTbihua_01_Vo",
-    "rank": 3,
+    "rank": 4,
     "type": [
       "Wall Decor"
     ],
@@ -17868,14 +17902,16 @@
       "Picture Frame"
     ],
     "cost": 169,
-    "comfort": 60,
-    "source": [],
+    "comfort": 90,
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
-      "exp": 60,
-      "time": 50400,
+      "exp": 90,
+      "time": 57600,
       "items": [
         {
-          "count": 4,
+          "count": 8,
           "id": 101001
         },
         {
@@ -17889,26 +17925,28 @@
     "name": "???",
     "desc": "???",
     "icon": "UI_Homeworld_Interior_Zd_Walldecoration_Prop_XNGguahua_01_Vo",
-    "rank": 3,
+    "rank": 4,
     "type": [
       "Wall Decor"
     ],
     "type2": [
       "Picture Frame"
     ],
-    "cost": 169,
-    "comfort": 60,
-    "source": [],
+    "cost": 254,
+    "comfort": 90,
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
-      "exp": 60,
-      "time": 50400,
+      "exp": 90,
+      "time": 57600,
       "items": [
         {
           "count": 6,
           "id": 101001
         },
         {
-          "count": 2,
+          "count": 10,
           "id": 101002
         }
       ]
@@ -20275,7 +20313,7 @@
       "Companion",
       "Companion"
     ],
-    "cost": 1600,
+    "cost": 1750,
     "comfort": 300,
     "source": [],
     "recipe": {}
@@ -20292,7 +20330,7 @@
       "Companion",
       "Companion"
     ],
-    "cost": 1600,
+    "cost": 1750,
     "comfort": 300,
     "source": [],
     "recipe": {}
@@ -22689,8 +22727,8 @@
     "recipe": {}
   },
   "369231": {
-    "name": "",
-    "desc": "",
+    "name": "Polyarbear",
+    "desc": "An animal that can survive even in the most extreme cold, with a massive frame and thick, heavy fur.\\nCombat-skilled Polyarbears are never tame, and never yield easily to other animals or humans. Naturally, since coming to the Serenitea Pot, in the interest of maintaining the peace, Tubby has issued a firm order that they must not attack other animals unprovoked.",
     "icon": "UI_AnimalIcon_Bear_01",
     "rank": 3,
     "type": [
@@ -22699,7 +22737,7 @@
     "type2": [
       "Outdoor Creature"
     ],
-    "cost": 620,
+    "cost": 490,
     "comfort": 100,
     "source": [
       "Obtained through capture"
@@ -22707,8 +22745,8 @@
     "recipe": {}
   },
   "369232": {
-    "name": "",
-    "desc": "",
+    "name": "Fluffahog",
+    "desc": "A creature whose body is entirely covered in spines, save for a distinctly soft belly.\\nFluffahogs are gentle in temperament and love their sleep. They excel at building hidden nests from grass and branches, so they can enjoy warm, cozy dreams through the bitter cold. Since coming to the Serenitea Pot they no longer encounter the cold, but their nest-building habits remain unchanged all the same. Perhaps that habit is what gives them their sense of safety.",
     "icon": "UI_AnimalIcon_Hedgehog_01",
     "rank": 3,
     "type": [
@@ -22717,7 +22755,7 @@
     "type2": [
       "Outdoor Creature"
     ],
-    "cost": 620,
+    "cost": 320,
     "comfort": 100,
     "source": [
       "Obtained through capture"
@@ -22725,8 +22763,8 @@
     "recipe": {}
   },
   "369233": {
-    "name": "",
-    "desc": "",
+    "name": "Nochhornowl",
+    "desc": "A bird native to Snezhnaya, its body covered in snow-white feathers, named for the fact that it usually hunts after sunset.\\nAs the sharpest hunter above the snowfields, the Nochhornowl excels at camouflage, observation, and swift attacks. Since coming to the Serenitea Pot they no longer need to chase after food, so they spend most of their time perched quietly in a corner, watching the world around them.",
     "icon": "UI_AnimalIcon_Owl_01",
     "rank": 3,
     "type": [
@@ -22735,7 +22773,7 @@
     "type2": [
       "Outdoor Creature"
     ],
-    "cost": 625,
+    "cost": 290,
     "comfort": 100,
     "source": [
       "Obtained through capture"
@@ -22743,8 +22781,8 @@
     "recipe": {}
   },
   "369234": {
-    "name": "",
-    "desc": "",
+    "name": "Morozhound",
+    "desc": "Man's best friend!\\nMorozhounds are astonishingly enduring and gentle by nature, beloved not only by humans but by all manner of small animals. Since coming to the Serenitea Pot they've found many new friends. Though, admittedly, they do occasionally cause a bit of damage to their surroundings...",
     "icon": "UI_AnimalIcon_SledDog_01",
     "rank": 3,
     "type": [
@@ -22753,7 +22791,7 @@
     "type2": [
       "Outdoor Creature"
     ],
-    "cost": 625,
+    "cost": 360,
     "comfort": 100,
     "source": [
       "Obtained through capture"
@@ -22761,8 +22799,8 @@
     "recipe": {}
   },
   "369235": {
-    "name": "",
-    "desc": "",
+    "name": "Red-Bellied Plover",
+    "desc": "A small Snezhnayan flying bird, named for its coloration.\\nRed-Bellied Plovers call now and then, their song slow, soft, and touched with quiet melancholy. Since coming to the Serenitea Pot, these Plovers no longer worry about finding food, and now their calls seem to carry an extra note of cheer...",
     "icon": "UI_AnimalIcon_Bird_Small_Snezhnaya_01",
     "rank": 3,
     "type": [
@@ -22771,7 +22809,7 @@
     "type2": [
       "Outdoor Creature"
     ],
-    "cost": 620,
+    "cost": 150,
     "comfort": 100,
     "source": [
       "Obtained through capture"
@@ -22779,8 +22817,8 @@
     "recipe": {}
   },
   "369236": {
-    "name": "",
-    "desc": "",
+    "name": "Severelk",
+    "desc": "A tall, gentle-natured animal with eyes that seem to see through all things.\\nSeverelk living on the snowfields have thick fur and mighty antlers, and they move with a swift step and a keen sense of smell. Since coming to the Serenitea Pot, they have become greatly beloved by many smaller birds, who often perch on the elk's branch-like antlers.",
     "icon": "UI_AnimalIcon_Reindeer_03",
     "rank": 3,
     "type": [
@@ -22789,7 +22827,7 @@
     "type2": [
       "Outdoor Creature"
     ],
-    "cost": 625,
+    "cost": 440,
     "comfort": 100,
     "source": [
       "Obtained through capture"
@@ -22797,8 +22835,8 @@
     "recipe": {}
   },
   "369237": {
-    "name": "",
-    "desc": "",
+    "name": "Fuzzbadger",
+    "desc": "An animal living in the interior of Snezhnaya, a close relative of the Chic Badger.\\nDespite their fluffy appearance, Fuzzbadgers are quite tough in personality, and never intimidated even by opponents much larger than themselves. Since coming to the Serenitea Pot, thanks to Tubby's proper management, Fuzzbadgers rarely fight other animals, mostly showing their gentle, friendly side.",
     "icon": "UI_AnimalIcon_Wolverine_04",
     "rank": 3,
     "type": [
@@ -22807,7 +22845,7 @@
     "type2": [
       "Outdoor Creature"
     ],
-    "cost": 625,
+    "cost": 310,
     "comfort": 100,
     "source": [
       "Obtained through capture"
@@ -31456,77 +31494,79 @@
     }
   },
   "371050": {
-    "name": "",
-    "desc": "",
+    "name": "Large Winch-and-Axle Crane",
+    "desc": "A basic crane device that stands in Morepesok. Metal axles of varying sizes are mounted on a dark-brown wooden frame, typically used for hauling and hoisting heavy materials.",
     "icon": "UI_Homeworld_Exterior_Zd_Build_WZtadiao_01_01_Lods",
     "rank": 3,
     "type": [
-      ""
+      "Building"
     ],
     "type2": [
-      ""
+      "Snezhnayan Style"
     ],
-    "cost": 65,
+    "cost": 240,
     "comfort": 60,
-    "source": [],
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
       "exp": 60,
       "time": 50400,
       "items": [
         {
-          "count": 2,
-          "id": 101001
+          "count": 8,
+          "id": 101332
         },
         {
-          "count": 6,
-          "id": 101002
+          "count": 4,
+          "id": 101001
         }
       ]
     }
   },
   "371051": {
-    "name": "",
-    "desc": "",
+    "name": "Town Dwelling: \"Cozy Warmth\"",
+    "desc": "A Snezhnayan-style wooden dwelling commonly seen in Morepesok, built in the same form as a certain famous local resident's home. Constructed from local timber and given a special waterproof treatment, this type of house keeps meltwater from seeping inside, thereby preserving the interior warmth.\\nThe thick roof is capped year-round with a layer of white snow, while warm lamplight glows through the shuttered windowpanes. Inside, people gather around the fireplace, all thinking of family far from home.",
     "icon": "UI_Homeworld_Exterior_Zd_Build_WZxiaowu_01_01_Lods",
-    "rank": 3,
+    "rank": 4,
     "type": [
-      ""
+      "Building"
     ],
     "type2": [
-      ""
+      "Snezhnayan Style"
     ],
-    "cost": 65,
-    "comfort": 60,
-    "source": [],
+    "cost": 460,
+    "comfort": 90,
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
-      "exp": 60,
-      "time": 50400,
+      "exp": 90,
+      "time": 57600,
       "items": [
         {
-          "count": 6,
-          "id": 101001
-        },
-        {
-          "count": 6,
-          "id": 101002
+          "count": 16,
+          "id": 101334
         }
       ]
     }
   },
   "371052": {
-    "name": "",
-    "desc": "",
+    "name": "\"The Round Snowball\"",
+    "desc": "A hemispherical hut built of white ice bricks, shaped like a round little snowball, complete with a light-blue arched doorway and matching windows.\\nDespite being built entirely of ice bricks, the interior is remarkably warm...\\nIf you'd like to step inside this hut and take a look around, you'll probably need to put in a bit of thought to get the owner's consent...",
     "icon": "UI_Homeworld_Exterior_Zd_Build_SJfangwu_01_01_Lods",
     "rank": 3,
     "type": [
-      ""
+      "Building"
     ],
     "type2": [
-      ""
+      "Snezhnayan Style"
     ],
-    "cost": 65,
+    "cost": 210,
     "comfort": 60,
-    "source": [],
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
       "exp": 60,
       "time": 50400,
@@ -31536,32 +31576,96 @@
           "id": 101001
         },
         {
-          "count": 6,
+          "count": 10,
           "id": 101002
         }
       ]
     }
   },
   "371053": {
-    "name": "",
-    "desc": "",
+    "name": "Waiting Platform: \"Quiet Anticipation\"",
+    "desc": "A waiting platform commonly seen at Snezhnayan train stations, with a rather generous canopy overhead.\\nTravelers pause here, some preparing to set out for distant places, others quietly waiting for the reunion of long-parted loved ones. And before the train pulls in, everyone sets down their busy affairs and gazes silently down the platform, hopeful for its arrival...",
     "icon": "UI_Homeworld_Exterior_Zd_Build_QCCZdct_01_01_Lods",
     "rank": 3,
     "type": [
-      ""
+      "Building"
     ],
     "type2": [
-      ""
+      "Snezhnayan Style"
     ],
-    "cost": 65,
+    "cost": 135,
     "comfort": 60,
-    "source": [],
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
-      "exp": 90,
-      "time": 57600,
+      "exp": 60,
+      "time": 50400,
       "items": [
         {
-          "count": 10,
+          "count": 8,
+          "id": 101001
+        },
+        {
+          "count": 4,
+          "id": 101002
+        }
+      ]
+    }
+  },
+  "371054": {
+    "name": "Snezhnayan Dwelling: \"Warm-Toned Portico\"",
+    "desc": "A dwelling commonly seen throughout Snezhnograd, its warm-toned walls set against cool grey stone window frames, and featuring the signature pointed-arch windows of the region.\\nNo matter how cold it grows outside, so long as a traveler hurrying along the road sees that touch of warm red on the portico from afar, they know that home lies just ahead.",
+    "icon": "UI_Homeworld_Exterior_Zd_Build_ZCminju_01_01_Lods",
+    "rank": 3,
+    "type": [
+      "Building"
+    ],
+    "type2": [
+      "Snezhnayan Style"
+    ],
+    "cost": 535,
+    "comfort": 60,
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "count": 12,
+          "id": 101001
+        },
+        {
+          "count": 4,
+          "id": 101002
+        }
+      ]
+    }
+  },
+  "371055": {
+    "name": "\"The Round Onion\"",
+    "desc": "An architectural fixture commonly seen throughout Snezhnograd, notable for its distinctive onion-shaped dome.\\n\"But it looks less like an onion and more like ice cream, doesn't it?\" A passing child once pointed at this fixture and put this puzzled question to their mother, and the answer came unexpectedly: \"Why can't it be onion-flavored ice cream?\"",
+    "icon": "UI_Homeworld_Exterior_Zd_Build_ZCtalou_01_01_Lods",
+    "rank": 3,
+    "type": [
+      "Building"
+    ],
+    "type2": [
+      "Snezhnayan Style"
+    ],
+    "cost": 220,
+    "comfort": 60,
+    "source": [
+      "Learned from Realm Depot Furnishing Blueprint"
+    ],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "count": 4,
           "id": 101001
         },
         {
@@ -31571,88 +31675,32 @@
       ]
     }
   },
-  "371054": {
-    "name": "",
-    "desc": "",
-    "icon": "UI_Homeworld_Exterior_Zd_Build_ZCminju_01_01_Lods",
-    "rank": 3,
-    "type": [
-      ""
-    ],
-    "type2": [
-      ""
-    ],
-    "cost": 65,
-    "comfort": 60,
-    "source": [],
-    "recipe": {
-      "exp": 60,
-      "time": 50400,
-      "items": [
-        {
-          "count": 2,
-          "id": 101001
-        },
-        {
-          "count": 6,
-          "id": 101002
-        }
-      ]
-    }
-  },
-  "371055": {
-    "name": "",
-    "desc": "",
-    "icon": "UI_Homeworld_Exterior_Zd_Build_ZCtalou_01_01_Lods",
-    "rank": 3,
-    "type": [
-      ""
-    ],
-    "type2": [
-      ""
-    ],
-    "cost": 65,
-    "comfort": 60,
-    "source": [],
-    "recipe": {
-      "exp": 60,
-      "time": 50400,
-      "items": [
-        {
-          "count": 6,
-          "id": 101301
-        },
-        {
-          "count": 2,
-          "id": 101002
-        }
-      ]
-    }
-  },
   "371056": {
-    "name": "",
-    "desc": "",
+    "name": "Snezhnayan Dwelling: \"Elegant Carvings\"",
+    "desc": "A dwelling commonly seen throughout Snezhnograd, with a steeply-pitched roof that prevents snow from accumulating. The exterior of the building is decorated in many places with elaborate carvings, intricate and elegant in equal measure.\\n\"Fine carvings do nothing to make a house sturdier,\" so local builders always instruct their young apprentices, \"but they do add color to a life.\"",
     "icon": "UI_Homeworld_Exterior_Zd_Build_ZCminju_02_01_Lods",
     "rank": 3,
     "type": [
-      ""
+      "Building"
     ],
     "type2": [
-      ""
+      "Snezhnayan Style"
     ],
-    "cost": 65,
+    "cost": 535,
     "comfort": 60,
-    "source": [],
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
       "exp": 60,
       "time": 50400,
       "items": [
         {
-          "count": 2,
+          "count": 8,
           "id": 101001
         },
         {
-          "count": 6,
+          "count": 4,
           "id": 101002
         }
       ]
@@ -31664,14 +31712,16 @@
     "icon": "UI_Homeworld_Exterior_Zd_Build_ZJCdwt_01_01_Lods",
     "rank": 4,
     "type": [
-      ""
+      "Building"
     ],
     "type2": [
-      ""
+      "Snezhnayan Style"
     ],
-    "cost": 65,
-    "comfort": 60,
-    "source": [],
+    "cost": 500,
+    "comfort": 90,
+    "source": [
+      "Joint Meeting Point Construction: Meeting Point Level Reward"
+    ],
     "recipe": {}
   },
   "371058": {
@@ -31680,14 +31730,16 @@
     "icon": "UI_Homeworld_Ani_Exterior_Zd_Build_ZJCdadeng_01",
     "rank": 4,
     "type": [
-      ""
+      "Building"
     ],
     "type2": [
-      ""
+      "Snezhnayan Style"
     ],
-    "cost": 65,
-    "comfort": 60,
-    "source": [],
+    "cost": 1250,
+    "comfort": 90,
+    "source": [
+      "Joint Meeting Point Construction: Meeting Point Level Reward"
+    ],
     "recipe": {}
   },
   "371101": {
@@ -37428,8 +37480,8 @@
     "recipe": {}
   },
   "372363": {
-    "name": "",
-    "desc": "",
+    "name": "\"Wildfire in the Wind\"",
+    "desc": "A tree commonly seen in Okurov, with a thick, twisted trunk and coiling, tangled branches. The rich orange-red foliage of its canopy is often mistaken from a distance for wildfire flickering in the wind.\\n\"I once saw it from far away and thought a fire had broken out,\" so an adventurer looking out over Okurov lamented, \"but after a moment's careful observation, I realized it was just a few trees.\"",
     "icon": "UI_Homeworld_Exterior_Zd_Plant_Tree_HNHshu_01_Lod0",
     "rank": 3,
     "type": [
@@ -37439,8 +37491,10 @@
       "Tree"
     ],
     "cost": 65,
-    "comfort": 30,
-    "source": [],
+    "comfort": 20,
+    "source": [
+      "Purchased from Realm Depot: Furnishings"
+    ],
     "recipe": {}
   },
   "372401": {
@@ -39310,7 +39364,7 @@
   },
   "372501": {
     "name": "A Path of Value: Jade Field",
-    "desc": "An orderly field that is saturated with Sub-Space Creation energy. The fertile soil has almost unlimited nutrition, and thus seeds planted here will grow into excellent crops in time without much need for intensive care. However, crops placed here will tend to put long roots down, so you cannot put too many crops in here if you wish to give them all sufficient room to grow.\\nThe following seeds, spores, and samples obtained from the Seed Dispensary may be planted here: Valberry, Sweet Flower, Small Lamp Grass, Jueyun Chili, Carrot, Radish, Mint, Mushroom, Harra Fruit, Zaytun Peach, Marcotte, Grainfruit, Cacahuatl, Saurian Claw Succulent, Quenepa Berry, Glowing Hornshroom, Lakkaberry, Midsommar Berry, Pine Amber, Golden Fern, Red Beets, Cryo-Currant.",
+    "desc": "An orderly field that is saturated with Sub-Space Creation energy. The fertile soil has almost unlimited nutrition, and thus seeds planted here will grow into excellent crops in time without much need for intensive care. However, crops placed here will tend to put long roots down, so you cannot put too many crops in here if you wish to give them all sufficient room to grow.\\nThe following seeds, spores, and samples obtained from the Seed Dispensary may be planted here: Valberry, Sweet Flower, Small Lamp Grass, Jueyun Chili, Carrot, Radish, Mint, Mushroom, Harra Fruit, Zaytun Peach, Marcotte, Grainfruit, Cacahuatl, Saurian Claw Succulent, Quenepa Berry, Glowing Hornshroom, Lakkaberry, Midsommar Berry, Pine Amber, Golden Fern, Red Beet, Rimecurrant.",
     "icon": "UI_Homeworld_Exterior_Common_Thing_FieldBase_02_Lod0",
     "rank": 4,
     "type": [
@@ -39328,7 +39382,7 @@
   },
   "372502": {
     "name": "A Path of Value: Luxuriant Glebe",
-    "desc": "An orderly field saturated with Sub-Space Creation energy. The fertile soil boasts almost unlimited nutrition, and thus seeds planted here will grow into excellent flowers in time without much need for intensive care. However, flowers planted here tend to put down long roots, so you cannot place too many of them in here if you wish to give them all sufficient room to grow.\\nThe following seeds, spores, and samples obtained from the Seed Dispensary may be planted here: Silk Flower, Cecilia, Glaze Lily, Windwheel Aster, Qingxin, Violetgrass, Naku Weed, Sumeru Rose, Lumidouce Bell, Rainbow Rose, Brilliant Chrysanthemum, Skysplit Gembloom, Frostlamp Flower, Winter Icelea, Frostflower, Flockbloom, Snow-Eared Flower.",
+    "desc": "An orderly field saturated with Sub-Space Creation energy. The fertile soil boasts almost unlimited nutrition, and thus seeds planted here will grow into excellent flowers in time without much need for intensive care. However, flowers planted here tend to put down long roots, so you cannot place too many of them in here if you wish to give them all sufficient room to grow.\\nThe following seeds, spores, and samples obtained from the Seed Dispensary may be planted here: Silk Flower, Cecilia, Glaze Lily, Windwheel Aster, Qingxin, Violetgrass, Naku Weed, Sumeru Rose, Lumidouce Bell, Rainbow Rose, Brilliant Chrysanthemum, Skysplit Gembloom, Frostlamp Flower, Winter Icelea, Frostfairy Flower, Flockingweed, Snowball Flower.",
     "icon": "UI_Homeworld_Exterior_Common_Thing_FieldBase_01_Lod0",
     "rank": 4,
     "type": [
@@ -39579,8 +39633,8 @@
     "recipe": {}
   },
   "372525": {
-    "name": "",
-    "desc": "",
+    "name": "\"A Silent Longing\"",
+    "desc": "A tall shrub found within Okurov, with slender branches, spreading leaves, and colors as mysterious as the night.\\nSnowmelt silently nourishes the earth, from which these beautiful shrubs are born. They stand quiet and still, as if voicing a silent longing for the days to come.",
     "icon": "UI_Homeworld_Exterior_Zd_Plant_Grass_HNHguanmu_01_Lod0",
     "rank": 3,
     "type": [
@@ -39589,14 +39643,16 @@
     "type2": [
       "Small Shrub"
     ],
-    "cost": 35,
-    "comfort": 30,
-    "source": [],
+    "cost": 65,
+    "comfort": 20,
+    "source": [
+      "Purchased from Realm Depot: Furnishings"
+    ],
     "recipe": {}
   },
   "372526": {
-    "name": "",
-    "desc": "",
+    "name": "\"Layer Upon Layer of Leaves\"",
+    "desc": "A low shrub commonly seen in Okurov, bearing tiered fan-shaped leaves and resembling a giant flower in glorious bloom.\\nWhen morning comes, every leaf of the shrub is beaded with crystalline dewdrops, refracting dazzling colors under the sunlight. The brief and wondrous sight draws small woodland creatures who come to admire it.",
     "icon": "UI_Homeworld_Exterior_Zd_Plant_Grass_HNHguanmu_02_Lod0",
     "rank": 3,
     "type": [
@@ -39605,9 +39661,11 @@
     "type2": [
       "Small Shrub"
     ],
-    "cost": 35,
-    "comfort": 30,
-    "source": [],
+    "cost": 65,
+    "comfort": 20,
+    "source": [
+      "Purchased from Realm Depot: Furnishings"
+    ],
     "recipe": {}
   },
   "372600": {
@@ -50945,37 +51003,39 @@
     }
   },
   "373942": {
-    "name": "",
-    "desc": "",
+    "name": "\"Cherish the Present\"",
+    "desc": "A mechanical device commonly seen in Svetloledovka, often used to dig downward through stubborn, hardened layers of ice.\\n\"You lot should be grateful for today's working conditions,\" so an experienced old worker once said to some newly-arrived recruits while deep in his cups. \"Back in my day, we used our fists! One blow, one blow at a time, forcing our way through this ice sheet...\"",
     "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_CBZzuantou_01_Lod0",
-    "rank": 3,
+    "rank": 2,
     "type": [
       "Landscape"
     ],
     "type2": [
       "Small Object"
     ],
-    "cost": 35,
+    "cost": 65,
     "comfort": 30,
-    "source": [],
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
-      "exp": 60,
-      "time": 50400,
+      "exp": 30,
+      "time": 43200,
       "items": [
         {
           "count": 2,
-          "id": 101320
+          "id": 101001
         },
         {
-          "count": 4,
-          "id": 101401
+          "count": 2,
+          "id": 101002
         }
       ]
     }
   },
   "373943": {
-    "name": "",
-    "desc": "",
+    "name": "\"An Unmelted Home\"",
+    "desc": "An icebox whose body has been carved from a block of ice, its form plain and natural.\\nThese iceboxes have no fixed shape, and their form shifts and multiplies with temperature changes. But so it could be properly displayed in the Serenitea Pot, Tubby used a touch of adeptal power to freeze it in its most pleasing form...",
     "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_SJguizi_01_Vo",
     "rank": 3,
     "type": [
@@ -50985,26 +51045,28 @@
       "Small Object"
     ],
     "cost": 35,
-    "comfort": 30,
-    "source": [],
+    "comfort": 60,
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
       "exp": 60,
       "time": 50400,
       "items": [
         {
-          "count": 8,
-          "id": 101401
+          "count": 2,
+          "id": 101001
         },
         {
-          "count": 4,
-          "id": 101402
+          "count": 6,
+          "id": 101002
         }
       ]
     }
   },
   "373944": {
-    "name": "",
-    "desc": "",
+    "name": "\"Open Wide!\"",
+    "desc": "A figurine modeled on a wide-mouthed Jack Frost, its form endearingly plump and simple.\\n\"Wait a minute — there seems to be... another Jack Frost inside its mouth? Yikes,\" many who've caught sight of this figurine have exclaimed, \"it's a Cannibal Frost!\"",
     "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_SJxuren_01_Lod0",
     "rank": 3,
     "type": [
@@ -51013,20 +51075,22 @@
     "type2": [
       "Small Object"
     ],
-    "cost": 35,
-    "comfort": 30,
-    "source": [],
+    "cost": 65,
+    "comfort": 60,
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
       "exp": 60,
       "time": 50400,
       "items": [
         {
-          "count": 4,
+          "count": 2,
           "id": 101001
         },
         {
-          "count": 4,
-          "id": 101401
+          "count": 6,
+          "id": 101002
         }
       ]
     }
@@ -53717,10 +53781,10 @@
     }
   },
   "374224": {
-    "name": "",
-    "desc": "",
+    "name": "Station Bench: \"Reading Between Trains\"",
+    "desc": "A wooden bench commonly seen at Snezhnayan train stations, with a comfortable backrest and soft, thickly-padded seat.\\nDuring the wait between trains, passengers about to set off often pick up a paper from the nearby newspaper rack, using the long minutes of waiting time to catch up on the news...",
     "icon": "UI_Homeworld_Exterior_Zd_Chair_Prop_QCCZyizi_01_Vo",
-    "rank": 3,
+    "rank": 4,
     "type": [
       "Outdoor Furnishing"
     ],
@@ -53728,26 +53792,28 @@
       "Seating"
     ],
     "cost": 35,
-    "comfort": 30,
-    "source": [],
+    "comfort": 90,
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
-      "exp": 60,
-      "time": 50400,
+      "exp": 90,
+      "time": 57600,
       "items": [
         {
-          "count": 6,
-          "id": 101001
+          "count": 10,
+          "id": 101332
         },
         {
           "count": 6,
-          "id": 101002
+          "id": 101401
         }
       ]
     }
   },
   "374225": {
-    "name": "",
-    "desc": "",
+    "name": "\"The Lingering Warmth of the Wait\"",
+    "desc": "A dark-toned high-backed chair that can be seen along the streets of Snezhnograd, its backrest featuring an openwork carved design of elegant form.\\nCold as the weather may be, there are always those \"brave souls\" who love their gatherings — cradling hot tea, seated here, waiting for a friend to arrive in the crackling chill...",
     "icon": "UI_Homeworld_Exterior_Zd_Chair_Prop_ZCyizi_01_Vo",
     "rank": 3,
     "type": [
@@ -53757,14 +53823,16 @@
       "Seating"
     ],
     "cost": 35,
-    "comfort": 30,
-    "source": [],
+    "comfort": 60,
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
       "exp": 60,
       "time": 50400,
       "items": [
         {
-          "count": 10,
+          "count": 4,
           "id": 101001
         },
         {
@@ -54728,8 +54796,8 @@
     "recipe": {}
   },
   "374334": {
-    "name": "",
-    "desc": "",
+    "name": "\"Useless Advice\"",
+    "desc": "A dark-toned round table commonly seen along the streets of Snezhnograd, its top adorned with symmetrical and delicate patterns.\\n\"Whatever you do, don't lick the table. Otherwise... wait, how's your tongue already stuck to it!?\" Those stubborn and curious children, always the ones who need to experience things firsthand before they understand what the grown-ups were telling them.",
     "icon": "UI_Homeworld_Exterior_Zd_Table_Prop_ZCzhuozi_01_Vo",
     "rank": 3,
     "type": [
@@ -54738,19 +54806,21 @@
     "type2": [
       "Table"
     ],
-    "cost": 65,
+    "cost": 35,
     "comfort": 60,
-    "source": [],
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
       "exp": 60,
       "time": 50400,
       "items": [
         {
-          "count": 6,
-          "id": 101301
+          "count": 8,
+          "id": 101001
         },
         {
-          "count": 2,
+          "count": 4,
           "id": 101002
         }
       ]
@@ -56746,8 +56816,8 @@
     }
   },
   "374661": {
-    "name": "",
-    "desc": "",
+    "name": "Basic Transport Sled",
+    "desc": "A transport sled built of thick wooden planks and a small amount of metal fittings. The runners curve gently upward at the front to prevent them from digging into the snow during sudden stops, and to reduce forward resistance. The cargo bay carries a large quantity of supplies, covered with a rainproof tarp and secured with fastening straps. Though it has no complex mechanisms, it is an indispensable and reliable companion for hauling supplies across the snowfields.",
     "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_YKZche_01_Lod0",
     "rank": 3,
     "type": [
@@ -56757,55 +56827,63 @@
       "Large Object"
     ],
     "cost": 50,
-    "comfort": 30,
-    "source": [],
+    "comfort": 60,
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
       "exp": 60,
       "time": 50400,
       "items": [
         {
           "count": 4,
+          "id": 101332
+        },
+        {
+          "count": 2,
           "id": 101001
         },
         {
-          "count": 4,
+          "count": 2,
           "id": 101002
         }
       ]
     }
   },
   "374662": {
-    "name": "",
-    "desc": "",
+    "name": "Basic Tent: \"A Nap Beneath the Snow\"",
+    "desc": "A basic tent commonly seen in Morepesok, its roof made of dark-red waterproof cloth and its four corners supported by sturdy wooden posts.\\nThe tent is mainly meant to shield those beneath it from snow falling vertically, providing a short-stay shelter for those passing through. Due to its low structural strength, however, the snow that accumulates overhead during heavy snowstorms can become heavy enough to bring the whole thing down...",
     "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_WZzhangpeng_01_Vo",
-    "rank": 3,
+    "rank": 2,
     "type": [
       "Landscape"
     ],
     "type2": [
       "Large Object"
     ],
-    "cost": 50,
+    "cost": 65,
     "comfort": 30,
-    "source": [],
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
-      "exp": 60,
-      "time": 50400,
+      "exp": 30,
+      "time": 43200,
       "items": [
         {
-          "count": 2,
-          "id": 101001
+          "count": 4,
+          "id": 101401
         },
         {
-          "count": 6,
-          "id": 101002
+          "count": 4,
+          "id": 101402
         }
       ]
     }
   },
   "374663": {
-    "name": "",
-    "desc": "",
+    "name": "\"Sturdy as Solid Ice\"",
+    "desc": "A large-capacity transport vehicle, its body assembled from heavy metal plates for a highly stable overall structure. In addition, the transport has six wide wheels of uniform size, paired with specially-textured non-slip treads on the hubs, ensuring the vehicle can move freely across slippery snow and ice.\\n\"Do remember not to overload the transport. Otherwise...\" — advice from a worker in charge of loading and unloading cargo.",
     "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_YKZkuangche_01_Lod0",
     "rank": 3,
     "type": [
@@ -56814,27 +56892,29 @@
     "type2": [
       "Large Object"
     ],
-    "cost": 50,
-    "comfort": 30,
-    "source": [],
+    "cost": 95,
+    "comfort": 60,
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
       "exp": 60,
       "time": 50400,
       "items": [
         {
-          "count": 2,
+          "count": 8,
           "id": 101001
         },
         {
-          "count": 6,
+          "count": 4,
           "id": 101002
         }
       ]
     }
   },
   "374664": {
-    "name": "",
-    "desc": "",
+    "name": "Portable Small Heating Device",
+    "desc": "A portable small-scale heating device, originally designed to provide a steady, continuous mobile heat source in severely cold environments. The heater body uses a double-layered, thickened metal structure, with rust-resistant treatment applied to the outer layer.\\nA small viewing window has also been fitted to the device, through which you can see the flickering flames inside, letting travelers enjoy a reassuring warmth wherever their journey takes them.",
     "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_YKZnuanlu_01_Lod0",
     "rank": 3,
     "type": [
@@ -56843,27 +56923,29 @@
     "type2": [
       "Large Object"
     ],
-    "cost": 50,
-    "comfort": 30,
-    "source": [],
+    "cost": 80,
+    "comfort": 60,
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
-      "exp": 90,
-      "time": 57600,
+      "exp": 60,
+      "time": 50400,
       "items": [
         {
           "count": 6,
           "id": 101001
         },
         {
-          "count": 12,
+          "count": 6,
           "id": 101002
         }
       ]
     }
   },
   "374665": {
-    "name": "",
-    "desc": "",
+    "name": "Prime Ice Ore: \"Neatly Arrayed\"",
+    "desc": "Prime Ice ore that has been cut and processed, neatly arranged on a platform, and secured with sturdy fastening straps.\\nThese blocks of Prime Ice ore are both a testament to the extreme cold of the environment and an indispensable cornerstone of Snezhnayan construction.",
     "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_CBZbingkuai_01_Vo",
     "rank": 3,
     "type": [
@@ -56872,27 +56954,29 @@
     "type2": [
       "Large Object"
     ],
-    "cost": 50,
-    "comfort": 30,
-    "source": [],
+    "cost": 65,
+    "comfort": 60,
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
-      "exp": 90,
-      "time": 57600,
+      "exp": 60,
+      "time": 50400,
       "items": [
-        {
-          "count": 8,
-          "id": 101320
-        },
         {
           "count": 4,
           "id": 101001
+        },
+        {
+          "count": 8,
+          "id": 101002
         }
       ]
     }
   },
   "374666": {
-    "name": "",
-    "desc": "",
+    "name": "Small \"Gauge-Panel\" Control Console",
+    "desc": "A small control console commonly seen in Svetloledovka, its casing a reddish-brown hue. A round gauge panel is set into the front, its needle resting still on the graduated dial. The base of the console is supported by a dark-grey metal foundation, giving the whole a sturdy structure suited for placement in any area that needs practical equipment.",
     "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_CBZkzt_01_Lod0",
     "rank": 3,
     "type": [
@@ -56901,19 +56985,21 @@
     "type2": [
       "Large Object"
     ],
-    "cost": 50,
-    "comfort": 30,
-    "source": [],
+    "cost": 95,
+    "comfort": 60,
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
       "exp": 60,
       "time": 50400,
       "items": [
         {
-          "count": 2,
+          "count": 8,
           "id": 101001
         },
         {
-          "count": 6,
+          "count": 4,
           "id": 101002
         }
       ]
@@ -59079,7 +59165,7 @@
     "type2": [
       "Special Object"
     ],
-    "cost": 95,
+    "cost": 185,
     "comfort": 30,
     "source": [],
     "recipe": {}
@@ -59088,15 +59174,15 @@
     "name": "???",
     "desc": "???",
     "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_JSTW_01_Vo",
-    "rank": 3,
+    "rank": 4,
     "type": [
       "Landscape"
     ],
     "type2": [
       "Special Object"
     ],
-    "cost": 95,
-    "comfort": 30,
+    "cost": 35,
+    "comfort": 90,
     "source": [
       "???"
     ],
@@ -59106,15 +59192,15 @@
     "name": "???",
     "desc": "???",
     "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_JSTW_02_Vo",
-    "rank": 3,
+    "rank": 4,
     "type": [
       "Landscape"
     ],
     "type2": [
       "Special Object"
     ],
-    "cost": 95,
-    "comfort": 30,
+    "cost": 35,
+    "comfort": 90,
     "source": [
       "???"
     ],
@@ -59133,16 +59219,22 @@
       "Special Object",
       "Craftwork"
     ],
-    "cost": 95,
-    "comfort": 30,
-    "source": [],
+    "cost": 260,
+    "comfort": 90,
+    "source": [
+      "Purchased from Battle Pass: Gnostic Chorus"
+    ],
     "recipe": {
-      "exp": 60,
-      "time": 50400,
+      "exp": 90,
+      "time": 57600,
       "items": [
         {
+          "count": 4,
+          "id": 101001
+        },
+        {
           "count": 12,
-          "id": 101329
+          "id": 101002
         }
       ]
     }
@@ -59158,25 +59250,29 @@
     "type2": [
       "Memento"
     ],
-    "cost": 95,
-    "comfort": 30,
-    "source": [],
+    "cost": 630,
+    "comfort": 90,
+    "source": [
+      "Joint Meeting Point Construction: Meeting Point Level Reward"
+    ],
     "recipe": {}
   },
   "374849": {
-    "name": "",
-    "desc": "",
+    "name": "\"Rattle-Bell Finchball: Rusalka\"",
+    "desc": "A Finchball crafted to resemble a certain Prima Donna. Someone once tried to install a sound device inside it, so that the Finchball might sing \"in an elegant voice\" at every bump. But for various reasons, it never quite worked out, which is a great pity...?",
     "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_ZDqqq_01_Vo",
-    "rank": 3,
+    "rank": 4,
     "type": [
       "Landscape"
     ],
     "type2": [
       "Special Object"
     ],
-    "cost": 95,
+    "cost": 35,
     "comfort": 30,
-    "source": [],
+    "source": [
+      "Purchased from Rankova Zorya Shop - Knyazev"
+    ],
     "recipe": {}
   },
   "375101": {

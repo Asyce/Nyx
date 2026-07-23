@@ -3956,8 +3956,8 @@
   },
   {
     "id": "360484",
-    "name": "360484",
-    "description": null,
+    "name": "\"Chirping About As Birds Do\"",
+    "description": "A tall streetlamp commonly seen in Snezhnograd, its dark-blue post standing tall and straight, its body adorned with golden geometric patterns. At the top, two elegantly arched brackets extend outward, each holding a lamp.\\nThis streetlamp not only illuminates the street; from time to time, it also becomes a \"social hub\" for the neighborhood's little birds. Two flocks each claim one of the brackets, chirping back and forth across the lamppost, bringing a fair bit of life to the quiet street...",
     "rank": 3,
     "type": [
       "Landscape"
@@ -3965,9 +3965,11 @@
     "type2": [
       "Lighting"
     ],
-    "cost": 85,
-    "comfort": 30,
-    "source": [],
+    "cost": 105,
+    "comfort": 60,
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
       "exp": 60,
       "time": 50400,
@@ -3984,7 +3986,10 @@
     },
     "icon": "UI_Homeworld_Exterior_Zd_Lamp_Light_ZCludeng_01_Lod0",
     "localizedNames": {
-      "zh": "「如鸟雀般对鸣」"
+      "en": "\"Chirping About As Birds Do\"",
+      "zh": "「如鸟雀般对鸣」",
+      "ja": "「小鳥が鳴き交わすように」JP3A",
+      "ko": "「마주 지저귀는 새들처럼」"
     },
     "localAsset": "GameData/gi/furniture/assets/360484.webp"
   },
@@ -5077,8 +5082,8 @@
   },
   {
     "id": "361126",
-    "name": "361126",
-    "description": null,
+    "name": "\"Opening Business Hours\"",
+    "description": "A dark-toned storage cabinet, quiet and steady in style, with two banks of drawers on each side and a pair of double doors in the middle for holding a large quantity of odds and ends.\\nEach morning, the staff open the cabinet doors and the day's business begins. And deep in the evening, when every last item has been put back in its place, and the doors are closed, that day's work is fittingly done.",
     "rank": 3,
     "type": [
       "Large Furnishing"
@@ -5086,33 +5091,34 @@
     "type2": [
       "Cabinet"
     ],
-    "cost": 254,
+    "cost": 85,
     "comfort": 60,
-    "source": [],
+    "source": [
+      "Learned from Realm Depot Furnishing Blueprint"
+    ],
     "recipe": {
       "exp": 60,
       "time": 50400,
       "items": [
         {
-          "id": "101001",
-          "count": 6
-        },
-        {
-          "id": "101002",
-          "count": 6
+          "id": "101333",
+          "count": 12
         }
       ]
     },
     "icon": "UI_Homeworld_Interior_Zd_Cabinet_Prop_CTguizi_01_Vo",
     "localizedNames": {
-      "zh": "「开启营业日」"
+      "en": "\"Opening Business Hours\"",
+      "zh": "「开启营业日」",
+      "ja": "「営業日開始」JP3A",
+      "ko": "「영업 개시일」"
     },
     "localAsset": "GameData/gi/furniture/assets/361126.webp"
   },
   {
     "id": "361127",
-    "name": "361127",
-    "description": null,
+    "name": "Indoor Standing Cabinet: \"The Steepled Little House\"",
+    "description": "A wooden standing cabinet commonly seen in the Snegurochka's Demesne, with generous capacity, a substantial body, and considerable symmetrical beauty.\\n\"That time,\" said the maker of this cabinet when asked about the source of the design, \"I saw a building whose roof was so steeply-pitched that not one snowflake could rest atop it...\"",
     "rank": 3,
     "type": [
       "Large Furnishing"
@@ -5120,26 +5126,27 @@
     "type2": [
       "Cabinet"
     ],
-    "cost": 254,
+    "cost": 845,
     "comfort": 60,
-    "source": [],
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
       "exp": 60,
       "time": 50400,
       "items": [
         {
-          "id": "101001",
-          "count": 2
-        },
-        {
-          "id": "101002",
-          "count": 6
+          "id": "101332",
+          "count": 12
         }
       ]
     },
     "icon": "UI_Homeworld_Interior_Zd_Cabinet_Prop_XNGcwg_01_01_Lods",
     "localizedNames": {
-      "zh": "室内立柜-「尖顶小楼」"
+      "en": "Indoor Standing Cabinet: \"The Steepled Little House\"",
+      "zh": "室内立柜-「尖顶小楼」",
+      "ja": "屋内用棚-「尖った屋根の小楼」JP3A",
+      "ko": "실내용 수납장-「뾰족 지붕 오두막」"
     },
     "localAsset": "GameData/gi/furniture/assets/361127.webp"
   },
@@ -7688,8 +7695,8 @@
   },
   {
     "id": "361350",
-    "name": "361350",
-    "description": null,
+    "name": "\"Candle Perch\" Tall Square Table",
+    "description": "A dark-toned tall square table, adorned with elegant gold-outlined patterns, commonly used to hold candlesticks for lighting.\\nAmple clearance beneath the tabletop makes daily cleaning much easier.",
     "rank": 3,
     "type": [
       "Large Furnishing"
@@ -7697,26 +7704,27 @@
     "type2": [
       "Table"
     ],
-    "cost": 592,
+    "cost": 85,
     "comfort": 60,
-    "source": [],
+    "source": [
+      "Learned from Realm Depot Furnishing Blueprint"
+    ],
     "recipe": {
       "exp": 60,
       "time": 50400,
       "items": [
         {
-          "id": "101001",
-          "count": 6
-        },
-        {
-          "id": "101002",
-          "count": 6
+          "id": "101333",
+          "count": 8
         }
       ]
     },
     "icon": "UI_Homeworld_Interior_Zd_Cabinet_Prop_CTguizi_02_Vo",
     "localizedNames": {
-      "zh": "高脚「置烛」方几"
+      "en": "\"Candle Perch\" Tall Square Table",
+      "zh": "高脚「置烛」方几",
+      "ja": "脚長「燭台置き」スクエアテーブルJP3A",
+      "ko": "긴 다리 「촛대 받침」 사각 탁자"
     },
     "localAsset": "GameData/gi/furniture/assets/361350.webp"
   },
@@ -8296,35 +8304,40 @@
   },
   {
     "id": "361415",
-    "name": "361415",
-    "description": null,
-    "rank": 3,
+    "name": "\"Sweet, Untroubled Slumber\"",
+    "description": "A bed that can be found in the Snegurochka's Demesne, dressed with lavish draped canopies and adorned along the frame with exquisite patterns.\\nIt is said that no matter how tired you may be from the day, once you lie down here for a while, the weariness and worry slowly fade, leaving nothing but the purest, deepest sleep.",
+    "rank": 4,
     "type": [
       "Large Furnishing"
     ],
     "type2": [
       "Bed"
     ],
-    "cost": 85,
-    "comfort": 60,
-    "source": [],
+    "cost": 665,
+    "comfort": 90,
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
-      "exp": 60,
-      "time": 50400,
+      "exp": 90,
+      "time": 57600,
       "items": [
         {
-          "id": "101001",
-          "count": 8
+          "id": "101404",
+          "count": 6
         },
         {
-          "id": "101002",
-          "count": 4
+          "id": "101332",
+          "count": 12
         }
       ]
     },
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_XNGchuang_01_Lod0",
     "localizedNames": {
-      "zh": "「无忧甘瞑」"
+      "en": "\"Sweet, Untroubled Slumber\"",
+      "zh": "「无忧甘瞑」",
+      "ja": "「無憂甘瞑」JP3A",
+      "ko": "「근심 없는 단잠」"
     },
     "localAsset": "GameData/gi/furniture/assets/361415.webp"
   },
@@ -10067,8 +10080,8 @@
   },
   {
     "id": "362136",
-    "name": "362136",
-    "description": null,
+    "name": "\"A Quiet Sigh on a Snowbound Night\"",
+    "description": "A dark-toned long bench that can be seen in the Snegurochka's Demesne. The central back is decorated with golden geometric patterns, and the whole piece has a solemn, elegant profile.\\n\"Every passerby like unto a ghost,\" a traveler once sighed, seated alone on this bench, gazing at the wind and snow through the window. \"Every house was like a palace of ice and snow...\"",
     "rank": 3,
     "type": [
       "Small Furnishing"
@@ -10078,31 +10091,36 @@
     ],
     "cost": 85,
     "comfort": 60,
-    "source": [],
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
       "exp": 60,
       "time": 50400,
       "items": [
         {
-          "id": "101001",
-          "count": 2
+          "id": "101334",
+          "count": 8
         },
         {
-          "id": "101002",
-          "count": 6
+          "id": "101001",
+          "count": 4
         }
       ]
     },
     "icon": "UI_Homeworld_Interior_Zd_Chair_Prop_XNGyizi_01_Lod0",
     "localizedNames": {
-      "zh": "「静叹于风雪夜」"
+      "en": "\"A Quiet Sigh on a Snowbound Night\"",
+      "zh": "「静叹于风雪夜」",
+      "ja": "「風雪の夜の静かな嘆き」JP3A",
+      "ko": "「눈보라 치는 밤의 고요한 탄식」"
     },
     "localAsset": "GameData/gi/furniture/assets/362136.webp"
   },
   {
     "id": "362137",
-    "name": "362137",
-    "description": null,
+    "name": "Indoor Seat: \"Clashing Colors\"",
+    "description": "A high-backed seat commonly seen in the Snezhnograd Veche. The cushion is soft and comfortable, adorned with exquisite patterns.\\n\"You have to make them feel the two colors picking a fight... otherwise everyone would just fall asleep!\" That was how a designer well-versed in the art of clashing colors put it.",
     "rank": 3,
     "type": [
       "Small Furnishing"
@@ -10112,20 +10130,33 @@
     ],
     "cost": 85,
     "comfort": 60,
-    "source": [],
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
       "exp": 60,
       "time": 50400,
       "items": [
         {
-          "id": "101329",
-          "count": 8
+          "id": "101332",
+          "count": 4
+        },
+        {
+          "id": "101402",
+          "count": 2
+        },
+        {
+          "id": "101404",
+          "count": 2
         }
       ]
     },
     "icon": "UI_Homeworld_Interior_Zd_Chair_Prop_YHyizi_01_Vo",
     "localizedNames": {
-      "zh": "室内座椅-「撞色艺术」"
+      "en": "Indoor Seat: \"Clashing Colors\"",
+      "zh": "室内座椅-「撞色艺术」",
+      "ja": "屋内用椅子-「コントラストの芸術」JP3A",
+      "ko": "실내 의자-「충돌색의 예술」"
     },
     "localAsset": "GameData/gi/furniture/assets/362137.webp"
   },
@@ -14018,8 +14049,8 @@
   },
   {
     "id": "362325",
-    "name": "362325",
-    "description": null,
+    "name": "Indoor Rug: \"Frostbloom Beneath the Ice\"",
+    "description": "A dark-toned rectangular rug seen in the Snegurochka's Demesne, its edges trimmed with tassels. The central pattern is a radial, elaborate geometric structure, like a frostbloom crystallized beneath a sheet of ice. Restrained rather than showy, yet lending some brightness to its deep, sombre ground color.",
     "rank": 3,
     "type": [
       "Small Furnishing"
@@ -14029,31 +14060,36 @@
     ],
     "cost": 85,
     "comfort": 60,
-    "source": [],
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
       "exp": 60,
       "time": 50400,
       "items": [
         {
           "id": "101401",
-          "count": 4
+          "count": 8
         },
         {
-          "id": "101403",
+          "id": "101404",
           "count": 4
         }
       ]
     },
     "icon": "UI_Homeworld_Interior_Zd_Carpet_Prop_XNGditan_01_Vo",
     "localizedNames": {
-      "zh": "室内地毯-「冰下霜花」"
+      "en": "Indoor Rug: \"Frostbloom Beneath the Ice\"",
+      "zh": "室内地毯-「冰下霜花」",
+      "ja": "絨毯-「氷下の霜花」JP3A",
+      "ko": "실내 카펫-「얼음 아래 서리꽃」"
     },
     "localAsset": "GameData/gi/furniture/assets/362325.webp"
   },
   {
     "id": "362326",
-    "name": "362326",
-    "description": null,
+    "name": "Indoor Rug: \"Warmth\"",
+    "description": "A deep red circular rug that can be seen indoors in Snezhnograd, adorned with symmetrical light-colored patterns, thick and warm to the touch.\\n\"Just looking at it, you feel like you're warming yourself by a fire...\" Indeed, many who've placed one in their homes speak highly of this particular splash of color that drives away the cold.",
     "rank": 3,
     "type": [
       "Small Furnishing"
@@ -14063,24 +14099,29 @@
     ],
     "cost": 85,
     "comfort": 60,
-    "source": [],
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
-      "exp": 90,
-      "time": 57600,
+      "exp": 60,
+      "time": 50400,
       "items": [
         {
-          "id": "101001",
-          "count": 12
+          "id": "101401",
+          "count": 8
         },
         {
-          "id": "101002",
-          "count": 18
+          "id": "101402",
+          "count": 4
         }
       ]
     },
     "icon": "UI_Homeworld_Interior_Zd_Carpet_Prop_YHditan_01_Vo",
     "localizedNames": {
-      "zh": "室内地毯-「暖色」"
+      "en": "Indoor Rug: \"Warmth\"",
+      "zh": "室内地毯-「暖色」",
+      "ja": "絨毯-「暖色」JP3A",
+      "ko": "실내 카펫-「따스한 색조」"
     },
     "localAsset": "GameData/gi/furniture/assets/362326.webp"
   },
@@ -14342,8 +14383,8 @@
   },
   {
     "id": "362408",
-    "name": "362408",
-    "description": null,
+    "name": "\"Tall-Capped Sentinel\"",
+    "description": "A soldier figurine given as a gift by a certain shy girl, wearing a tall military cap adorned with golden trim, dressed in a deep blue uniform with golden buttons and epaulets.\\nThough its slightly upturned mustache lends it a hint of endearing charm, its expression is still solemn and its fists tightly clenched, as if it were standing guard over the peace and warmth around it.",
     "rank": 3,
     "type": [
       "Small Furnishing"
@@ -14351,26 +14392,31 @@
     "type2": [
       "Craftwork"
     ],
-    "cost": 190,
+    "cost": 157,
     "comfort": 60,
-    "source": [],
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
       "exp": 60,
       "time": 50400,
       "items": [
         {
           "id": "101001",
-          "count": 8
+          "count": 6
         },
         {
           "id": "101002",
-          "count": 4
+          "count": 6
         }
       ]
     },
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_HTJZ_01_Lod0",
     "localizedNames": {
-      "zh": "「高筒帽兵士」"
+      "en": "\"Tall-Capped Sentinel\"",
+      "zh": "「高筒帽兵士」",
+      "ja": "「高帽子の兵士」JP3A",
+      "ko": "「높은 모자를 쓴 병사」"
     },
     "localAsset": "GameData/gi/furniture/assets/362408.webp"
   },
@@ -15090,8 +15136,8 @@
   },
   {
     "id": "363121",
-    "name": "363121",
-    "description": null,
+    "name": "\"For Whom It Shines\"",
+    "description": "A common Snezhnayan-style lighting fixture with a heavy, stable dark base supporting a uniquely designed conical shade.\\nAs a reading lamp it is unmatched — its light is just the right brightness, and it lends every reader a warm, quiet atmosphere in which to lose themselves in a book.",
     "rank": 3,
     "type": [
       "Ornaments"
@@ -15099,9 +15145,11 @@
     "type2": [
       "Lighting"
     ],
-    "cost": 305,
+    "cost": 220,
     "comfort": 60,
-    "source": [],
+    "source": [
+      "Learned from Realm Depot Furnishing Blueprint"
+    ],
     "recipe": {
       "exp": 60,
       "time": 50400,
@@ -15112,20 +15160,23 @@
         },
         {
           "id": "101002",
-          "count": 6
+          "count": 2
         }
       ]
     },
     "icon": "UI_Homeworld_Interior_Zd_Lamp_Light_YHtaideng_01_Vo",
     "localizedNames": {
-      "zh": "「为谁而闪亮的」"
+      "en": "\"For Whom It Shines\"",
+      "zh": "「为谁而闪亮的」",
+      "ja": "「誰のために輝く」JP3A",
+      "ko": "「누구를 위해 빛나는가」"
     },
     "localAsset": "GameData/gi/furniture/assets/363121.webp"
   },
   {
     "id": "363122",
-    "name": "363122",
-    "description": null,
+    "name": "Indoor Table Lamp: \"Soft Light\"",
+    "description": "A small table lamp that can be found indoors in Snezhnograd, with an umbrella-shaped shade and decorative pendants.\\nDay or night, it gives off a gentle light, quietly lighting a small patch of the world for each passerby.",
     "rank": 3,
     "type": [
       "Ornaments"
@@ -15133,26 +15184,31 @@
     "type2": [
       "Lighting"
     ],
-    "cost": 305,
+    "cost": 220,
     "comfort": 60,
-    "source": [],
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
       "exp": 60,
       "time": 50400,
       "items": [
         {
           "id": "101001",
-          "count": 6
+          "count": 4
         },
         {
           "id": "101002",
-          "count": 6
+          "count": 4
         }
       ]
     },
     "icon": "UI_Homeworld_Interior_Zd_Lamp_Light_YHtaideng_02_Vo",
     "localizedNames": {
-      "zh": "室内台灯-「柔光」"
+      "en": "Indoor Table Lamp: \"Soft Light\"",
+      "zh": "室内台灯-「柔光」",
+      "ja": "室内用卓上ランプ-「柔光」JP3A",
+      "ko": "실내 스탠드-「부드러운 빛」"
     },
     "localAsset": "GameData/gi/furniture/assets/363122.webp"
   },
@@ -18788,8 +18844,8 @@
   },
   {
     "id": "363399",
-    "name": "363399",
-    "description": null,
+    "name": "\"Round and Round, the Little Fish Go\"",
+    "description": "A whimsically-shaped fan, designed with the Iridescent Starbloom Fish as its inspiration; as the blades turn, they bring a bit of coolness to their surroundings.\\n\"The fish spins round and round, the wind blows on and on...\" Fishing enthusiasts feel the cool breeze from the fan on their faces, hum a soft tune, and wait patiently for the fish to bite...",
     "rank": 4,
     "type": [
       "Ornaments"
@@ -18797,12 +18853,14 @@
     "type2": [
       "Memento"
     ],
-    "cost": 1300,
-    "comfort": 60,
-    "source": [],
+    "cost": 300,
+    "comfort": 90,
+    "source": [
+      "Purchase at the Snezhnaya Fishing Association"
+    ],
     "recipe": {
-      "exp": 60,
-      "time": 50400,
+      "exp": 90,
+      "time": 57600,
       "items": [
         {
           "id": "101001",
@@ -18810,13 +18868,16 @@
         },
         {
           "id": "101002",
-          "count": 4
+          "count": 8
         }
       ]
     },
     "icon": "UI_Homeworld_Ani_Interior_Zd_Decoration_Prop_XHYFS_01",
     "localizedNames": {
-      "zh": "「鱼儿转呀转」"
+      "en": "\"Round and Round, the Little Fish Go\"",
+      "zh": "「鱼儿转呀转」",
+      "ja": "「お魚くるくる回転」JP3A",
+      "ko": "「물고기가 빙글빙글」"
     },
     "localAsset": "GameData/gi/furniture/assets/363399.webp"
   },
@@ -18824,27 +18885,29 @@
     "id": "363400",
     "name": "???",
     "description": "???",
-    "rank": 3,
+    "rank": 4,
     "type": [
       "Ornaments"
     ],
     "type2": [
       "Memento"
     ],
-    "cost": 1300,
-    "comfort": 60,
-    "source": [],
+    "cost": 96,
+    "comfort": 90,
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
-      "exp": 60,
-      "time": 50400,
+      "exp": 90,
+      "time": 57600,
       "items": [
         {
           "id": "101001",
-          "count": 2
+          "count": 8
         },
         {
           "id": "101002",
-          "count": 6
+          "count": 4
         }
       ]
     },
@@ -19483,8 +19546,8 @@
   },
   {
     "id": "363417",
-    "name": "Booth 1",
-    "description": null,
+    "name": "Sweet Berry Blossom Hut",
+    "description": "An Adventurers' Guild counter decorated with Valberry-colored little flowers. Berries can bring an adventurer rich nutrition!",
     "rank": 4,
     "type": [
       "Landscape"
@@ -19492,7 +19555,7 @@
     "type2": [
       "Curio"
     ],
-    "cost": 30,
+    "cost": 720,
     "comfort": 30,
     "source": [
       "Obtained from Limited-Time Event"
@@ -19504,15 +19567,17 @@
     },
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLdizuo_01_Vo",
     "localizedNames": {
-      "en": "Booth 1",
-      "zh": "展台1"
+      "en": "Sweet Berry Blossom Hut",
+      "zh": "甜莓花花小屋",
+      "ja": "甘ベリーのお花小屋JP3A",
+      "ko": "달콤 베리꽃 오두막"
     },
     "localAsset": "GameData/gi/furniture/assets/363417.webp"
   },
   {
     "id": "363418",
-    "name": "Booth 2",
-    "description": null,
+    "name": "Honey Blossom Hut",
+    "description": "An Adventurers' Guild counter decorated with honey-colored little flowers. Honey can give an adventurer plenty of energy!",
     "rank": 4,
     "type": [
       "Landscape"
@@ -19520,7 +19585,7 @@
     "type2": [
       "Curio"
     ],
-    "cost": 30,
+    "cost": 720,
     "comfort": 30,
     "source": [
       "Obtained from Limited-Time Event"
@@ -19532,15 +19597,17 @@
     },
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLdizuo_02_Vo",
     "localizedNames": {
-      "en": "Booth 2",
-      "zh": "展台2"
+      "en": "Honey Blossom Hut",
+      "zh": "蜂蜜花花小屋",
+      "ja": "蜂蜜のお花小屋JP3A",
+      "ko": "꿀꽃 오두막"
     },
     "localAsset": "GameData/gi/furniture/assets/363418.webp"
   },
   {
     "id": "363419",
-    "name": "Booth 3",
-    "description": null,
+    "name": "Sweet Berry Blossom Ice Hut",
+    "description": "An ice-colored counter decorated with Valberry-colored little flowers. Berries can bring an adventurer rich nutrition!",
     "rank": 4,
     "type": [
       "Landscape"
@@ -19548,7 +19615,7 @@
     "type2": [
       "Curio"
     ],
-    "cost": 30,
+    "cost": 720,
     "comfort": 30,
     "source": [
       "Obtained from Limited-Time Event"
@@ -19560,15 +19627,17 @@
     },
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLdizuo_03_Vo",
     "localizedNames": {
-      "en": "Booth 3",
-      "zh": "展台3"
+      "en": "Sweet Berry Blossom Ice Hut",
+      "zh": "甜莓花花冰屋",
+      "ja": "甘ベリーのお花氷小屋JP3A",
+      "ko": "달콤 베리꽃 꽁꽁 오두막"
     },
     "localAsset": "GameData/gi/furniture/assets/363419.webp"
   },
   {
     "id": "363420",
-    "name": "Booth 4",
-    "description": null,
+    "name": "Honey Blossom Ice Hut",
+    "description": "An Adventurers' Guild counter decorated with honey-colored little flowers. Honey can give an adventurer plenty of energy!",
     "rank": 4,
     "type": [
       "Landscape"
@@ -19576,7 +19645,7 @@
     "type2": [
       "Curio"
     ],
-    "cost": 30,
+    "cost": 720,
     "comfort": 30,
     "source": [
       "Obtained from Limited-Time Event"
@@ -19588,21 +19657,23 @@
     },
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLdizuo_04_Vo",
     "localizedNames": {
-      "en": "Booth 4",
-      "zh": "展台4"
+      "en": "Honey Blossom Ice Hut",
+      "zh": "蜂蜜花花冰屋",
+      "ja": "蜂蜜のお花氷小屋JP3A",
+      "ko": "꿀꽃 꽁꽁 오두막"
     },
     "localAsset": "GameData/gi/furniture/assets/363420.webp"
   },
   {
     "id": "363421",
-    "name": "Body - Stance",
-    "description": null,
+    "name": "Polite Stance",
+    "description": "\"Ad astra abyssosque. Welcome to the Adventurers' Guild!\"",
     "rank": 4,
     "type": [
       "Landscape"
     ],
     "type2": [
-      "tes Katheryne component"
+      "Tes Katheryne Parts"
     ],
     "cost": 0,
     "comfort": 0,
@@ -19616,21 +19687,23 @@
     },
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLshenti_01_Vo",
     "localizedNames": {
-      "en": "Body - Stance",
-      "zh": "身体-站姿"
+      "en": "Polite Stance",
+      "zh": "礼貌站姿",
+      "ja": "丁寧な立ちポーズJP3A",
+      "ko": "공손한 자세"
     },
     "localAsset": "GameData/gi/furniture/assets/363421.webp"
   },
   {
     "id": "363422",
-    "name": "Body - Hands on Hips",
-    "description": null,
+    "name": "Cross Mood",
+    "description": "\"A proper adventurer shouldn't be reckless!\"",
     "rank": 4,
     "type": [
       "Landscape"
     ],
     "type2": [
-      "tes Katheryne component"
+      "Tes Katheryne Parts"
     ],
     "cost": 0,
     "comfort": 0,
@@ -19644,21 +19717,23 @@
     },
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLshenti_02_Vo",
     "localizedNames": {
-      "en": "Body - Hands on Hips",
-      "zh": "身体-叉腰"
+      "en": "Cross Mood",
+      "zh": "气气状态",
+      "ja": "プンプン状態JP3A",
+      "ko": "화난 상태"
     },
     "localAsset": "GameData/gi/furniture/assets/363422.webp"
   },
   {
     "id": "363423",
-    "name": "Body - Bouquet",
-    "description": null,
+    "name": "Sincere Blessing",
+    "description": "\"Thank you for supporting the Adventurers' Guild, Adventurer.\"",
     "rank": 4,
     "type": [
       "Landscape"
     ],
     "type2": [
-      "tes Katheryne component"
+      "Tes Katheryne Parts"
     ],
     "cost": 0,
     "comfort": 0,
@@ -19672,21 +19747,23 @@
     },
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLshenti_03_Vo",
     "localizedNames": {
-      "en": "Body - Bouquet",
-      "zh": "身体-捧花"
+      "en": "Sincere Blessing",
+      "zh": "真诚祝福",
+      "ja": "真心の祝福JP3A",
+      "ko": "진심 어린 축복"
     },
     "localAsset": "GameData/gi/furniture/assets/363423.webp"
   },
   {
     "id": "363424",
-    "name": "Body - Gift",
-    "description": null,
+    "name": "Presenting the Reward",
+    "description": "\"Thank you for completing today's commissions. Here is your reward.\"",
     "rank": 4,
     "type": [
       "Landscape"
     ],
     "type2": [
-      "tes Katheryne component"
+      "Tes Katheryne Parts"
     ],
     "cost": 0,
     "comfort": 0,
@@ -19700,21 +19777,23 @@
     },
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLshenti_04_Vo",
     "localizedNames": {
-      "en": "Body - Gift",
-      "zh": "身体-礼物"
+      "en": "Presenting the Reward",
+      "zh": "献上奖励",
+      "ja": "報酬の献上JP3A",
+      "ko": "보상 증정"
     },
     "localAsset": "GameData/gi/furniture/assets/363424.webp"
   },
   {
     "id": "363425",
-    "name": "Face - Happy",
-    "description": null,
+    "name": "Happy Smile",
+    "description": "\"Katheryne's smile is always so steady and reassuring...\"",
     "rank": 4,
     "type": [
       "Landscape"
     ],
     "type2": [
-      "tes Katheryne component"
+      "Tes Katheryne Parts"
     ],
     "cost": 0,
     "comfort": 0,
@@ -19728,21 +19807,23 @@
     },
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLlianbu_01_Vo",
     "localizedNames": {
-      "en": "Face - Happy",
-      "zh": "脸部-开心"
+      "en": "Happy Smile",
+      "zh": "开心微笑",
+      "ja": "ハッピーな微笑みJP3A",
+      "ko": "행복한 미소"
     },
     "localAsset": "GameData/gi/furniture/assets/363425.webp"
   },
   {
     "id": "363426",
-    "name": "Face-Sincerity",
-    "description": null,
+    "name": "Moved Gaze",
+    "description": "\"Legend says Katheryne has never shown this expression. Only the 'King of Adventurers' would ever get the chance to see it...\"",
     "rank": 4,
     "type": [
       "Landscape"
     ],
     "type2": [
-      "tes Katheryne component"
+      "Tes Katheryne Parts"
     ],
     "cost": 0,
     "comfort": 0,
@@ -19756,21 +19837,23 @@
     },
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLlianbu_02_Vo",
     "localizedNames": {
-      "en": "Face-Sincerity",
-      "zh": "脸部-真诚"
+      "en": "Moved Gaze",
+      "zh": "感动目光",
+      "ja": "感動の眼差しJP3A",
+      "ko": "감동의 눈빛"
     },
     "localAsset": "GameData/gi/furniture/assets/363426.webp"
   },
   {
     "id": "363427",
-    "name": "Face-Eyewear",
-    "description": null,
+    "name": "Precise Calculation",
+    "description": "\"Since she hands out rewards to so many adventurers every day, Katheryne must be very good at math, don't ya think?\"",
     "rank": 4,
     "type": [
       "Landscape"
     ],
     "type2": [
-      "tes Katheryne component"
+      "Tes Katheryne Parts"
     ],
     "cost": 0,
     "comfort": 0,
@@ -19784,21 +19867,23 @@
     },
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLlianbu_03_Vo",
     "localizedNames": {
-      "en": "Face-Eyewear",
-      "zh": "脸部-眼镜"
+      "en": "Precise Calculation",
+      "zh": "精准计算",
+      "ja": "精密計算JP3A",
+      "ko": "정확한 계산"
     },
     "localAsset": "GameData/gi/furniture/assets/363427.webp"
   },
   {
     "id": "363428",
-    "name": "Face - Angry",
-    "description": null,
+    "name": "Legendary Fury",
+    "description": "\"Best not to make Katheryne enter this legendary state of rage...\"",
     "rank": 4,
     "type": [
       "Landscape"
     ],
     "type2": [
-      "tes Katheryne component"
+      "Tes Katheryne Parts"
     ],
     "cost": 0,
     "comfort": 0,
@@ -19812,21 +19897,23 @@
     },
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLlianbu_04_Vo",
     "localizedNames": {
-      "en": "Face - Angry",
-      "zh": "脸部-发怒"
+      "en": "Legendary Fury",
+      "zh": "传说怒意",
+      "ja": "伝説の怒りJP3A",
+      "ko": "전설적인 분노"
     },
     "localAsset": "GameData/gi/furniture/assets/363428.webp"
   },
   {
     "id": "363429",
-    "name": "Head - Black Hairband",
-    "description": null,
+    "name": "Classic Hairstyle",
+    "description": "The elegant hairstyle that forms Katheryne's signature look.",
     "rank": 4,
     "type": [
       "Landscape"
     ],
     "type2": [
-      "tes Katheryne component"
+      "Tes Katheryne Parts"
     ],
     "cost": 0,
     "comfort": 0,
@@ -19840,21 +19927,23 @@
     },
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLtoubu_01_Vo",
     "localizedNames": {
-      "en": "Head - Black Hairband",
-      "zh": "头部-黑发发带"
+      "en": "Classic Hairstyle",
+      "zh": "经典发型",
+      "ja": "クラシックな髪型JP3A",
+      "ko": "클래식 헤어"
     },
     "localAsset": "GameData/gi/furniture/assets/363429.webp"
   },
   {
     "id": "363430",
-    "name": "Head - Blue Hair Ribbon",
-    "description": null,
+    "name": "Snezhnayan Ice-Blue",
+    "description": "A hair color unique to Snezhnaya, adding a touch of crisp coolness.",
     "rank": 4,
     "type": [
       "Landscape"
     ],
     "type2": [
-      "tes Katheryne component"
+      "Tes Katheryne Parts"
     ],
     "cost": 0,
     "comfort": 0,
@@ -19868,21 +19957,23 @@
     },
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLtoubu_02_Vo",
     "localizedNames": {
-      "en": "Head - Blue Hair Ribbon",
-      "zh": "头部-蓝发发带"
+      "en": "Snezhnayan Ice-Blue",
+      "zh": "至冬冰蓝",
+      "ja": "スネージナヤ氷藍JP3A",
+      "ko": "스네즈나야의 아이시 블루"
     },
     "localAsset": "GameData/gi/furniture/assets/363430.webp"
   },
   {
     "id": "363431",
-    "name": "Headwear - Black Hair Nightcap",
-    "description": null,
+    "name": "Time to Rest",
+    "description": "\"No one's ever seen Katheryne resting, but she'd probably like this nightcap...\"",
     "rank": 4,
     "type": [
       "Landscape"
     ],
     "type2": [
-      "tes Katheryne component"
+      "Tes Katheryne Parts"
     ],
     "cost": 0,
     "comfort": 0,
@@ -19896,21 +19987,23 @@
     },
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLtoubu_03_Vo",
     "localizedNames": {
-      "en": "Headwear - Black Hair Nightcap",
-      "zh": "头部-黑发睡帽"
+      "en": "Time to Rest",
+      "zh": "休息时间",
+      "ja": "休憩時間JP3A",
+      "ko": "휴식 시간"
     },
     "localAsset": "GameData/gi/furniture/assets/363431.webp"
   },
   {
     "id": "363432",
-    "name": "Head - Blue Sleeping Cap",
-    "description": null,
+    "name": "Winter Drowsiness",
+    "description": "\"On a cold Snezhnayan night, with the fireplace lit, sleep comes all the sweeter...\"",
     "rank": 4,
     "type": [
       "Landscape"
     ],
     "type2": [
-      "tes Katheryne component"
+      "Tes Katheryne Parts"
     ],
     "cost": 0,
     "comfort": 0,
@@ -19924,21 +20017,23 @@
     },
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLtoubu_04_Vo",
     "localizedNames": {
-      "en": "Head - Blue Sleeping Cap",
-      "zh": "头部-蓝发睡帽"
+      "en": "Winter Drowsiness",
+      "zh": "冬日睡意",
+      "ja": "冬のまどろみJP3A",
+      "ko": "겨울날의 잠기운"
     },
     "localAsset": "GameData/gi/furniture/assets/363432.webp"
   },
   {
     "id": "363433",
-    "name": "Little Adventurer 1",
-    "description": null,
+    "name": "Wee Adventurer - Cheer",
+    "description": "\"Cheer\" is one of the important treasures gathered during one's adventures!",
     "rank": 4,
     "type": [
       "Landscape"
     ],
     "type2": [
-      "tes Katheryne component"
+      "Tes Katheryne Parts"
     ],
     "cost": 0,
     "comfort": 0,
@@ -19952,21 +20047,23 @@
     },
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLmxj_01_Vo",
     "localizedNames": {
-      "en": "Little Adventurer 1",
-      "zh": "小冒险家1"
+      "en": "Wee Adventurer - Cheer",
+      "zh": "小小冒险家·开心",
+      "ja": "小さな冒険者・ハッピーJP3A",
+      "ko": "꼬마 모험가·즐거움"
     },
     "localAsset": "GameData/gi/furniture/assets/363433.webp"
   },
   {
     "id": "363434",
-    "name": "Little Adventurer 2",
-    "description": null,
+    "name": "Wee Adventurer - Diligence",
+    "description": "\"Diligence\" is the state of steady, careful progress as one adventures!",
     "rank": 4,
     "type": [
       "Landscape"
     ],
     "type2": [
-      "tes Katheryne component"
+      "Tes Katheryne Parts"
     ],
     "cost": 0,
     "comfort": 0,
@@ -19980,21 +20077,23 @@
     },
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLmxj_02_Vo",
     "localizedNames": {
-      "en": "Little Adventurer 2",
-      "zh": "小冒险家2"
+      "en": "Wee Adventurer - Diligence",
+      "zh": "小小冒险家·勤奋",
+      "ja": "小さな冒険者・勤勉JP3A",
+      "ko": "꼬마 모험가·꾸준함"
     },
     "localAsset": "GameData/gi/furniture/assets/363434.webp"
   },
   {
     "id": "363435",
-    "name": "Little Adventurer 3",
-    "description": null,
+    "name": "Wee Adventurer - Joy",
+    "description": "\"Joy\" is a feeling you should hold dear during any adventure!",
     "rank": 4,
     "type": [
       "Landscape"
     ],
     "type2": [
-      "tes Katheryne component"
+      "Tes Katheryne Parts"
     ],
     "cost": 0,
     "comfort": 0,
@@ -20008,21 +20107,23 @@
     },
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLmxj_03_Vo",
     "localizedNames": {
-      "en": "Little Adventurer 3",
-      "zh": "小冒险家3"
+      "en": "Wee Adventurer - Joy",
+      "zh": "小小冒险家·快乐",
+      "ja": "小さな冒険者・楽しさJP3A",
+      "ko": "꼬마 모험가·기쁨"
     },
     "localAsset": "GameData/gi/furniture/assets/363435.webp"
   },
   {
     "id": "363436",
-    "name": "Little Adventurer 4",
-    "description": null,
+    "name": "Wee Adventurer - Fighting Spirit",
+    "description": "\"Fighting Spirit\" is the resolve no adventurer ever lets slip!",
     "rank": 4,
     "type": [
       "Landscape"
     ],
     "type2": [
-      "tes Katheryne component"
+      "Tes Katheryne Parts"
     ],
     "cost": 0,
     "comfort": 0,
@@ -20036,21 +20137,23 @@
     },
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLmxj_04_Vo",
     "localizedNames": {
-      "en": "Little Adventurer 4",
-      "zh": "小冒险家4"
+      "en": "Wee Adventurer - Fighting Spirit",
+      "zh": "小小冒险家·斗志",
+      "ja": "小さな冒険者・闘志JP3A",
+      "ko": "꼬마 모험가·투지"
     },
     "localAsset": "GameData/gi/furniture/assets/363436.webp"
   },
   {
     "id": "363437",
-    "name": "Little Adventurer 5",
-    "description": null,
+    "name": "Big Adventurer - Cheer",
+    "description": "\"Cheer\" is one of the important treasures gathered during one's adventures!",
     "rank": 4,
     "type": [
       "Landscape"
     ],
     "type2": [
-      "tes Katheryne component"
+      "Tes Katheryne Parts"
     ],
     "cost": 0,
     "comfort": 0,
@@ -20064,21 +20167,23 @@
     },
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLmxj_05_Vo",
     "localizedNames": {
-      "en": "Little Adventurer 5",
-      "zh": "小冒险家5"
+      "en": "Big Adventurer - Cheer",
+      "zh": "大大冒险家·开心",
+      "ja": "大きな冒険者・ハッピーJP3A",
+      "ko": "커다란 모험가·즐거움"
     },
     "localAsset": "GameData/gi/furniture/assets/363437.webp"
   },
   {
     "id": "363438",
-    "name": "Little Adventurer 6",
-    "description": null,
+    "name": "Big Adventurer - Diligence",
+    "description": "\"Diligence\" is the state of steady, careful progress as one adventures!",
     "rank": 4,
     "type": [
       "Landscape"
     ],
     "type2": [
-      "tes Katheryne component"
+      "Tes Katheryne Parts"
     ],
     "cost": 0,
     "comfort": 0,
@@ -20092,21 +20197,23 @@
     },
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLmxj_06_Vo",
     "localizedNames": {
-      "en": "Little Adventurer 6",
-      "zh": "小冒险家6"
+      "en": "Big Adventurer - Diligence",
+      "zh": "大大冒险家·勤奋",
+      "ja": "大きな冒険者・勤勉JP3A",
+      "ko": "커다란 모험가·꾸준함"
     },
     "localAsset": "GameData/gi/furniture/assets/363438.webp"
   },
   {
     "id": "363439",
-    "name": "Little Adventurer 7",
-    "description": null,
+    "name": "Big Adventurer - Joy",
+    "description": "\"Joy\" is a feeling you should hold dear during any adventure!",
     "rank": 4,
     "type": [
       "Landscape"
     ],
     "type2": [
-      "tes Katheryne component"
+      "Tes Katheryne Parts"
     ],
     "cost": 0,
     "comfort": 0,
@@ -20120,21 +20227,23 @@
     },
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLmxj_07_Vo",
     "localizedNames": {
-      "en": "Little Adventurer 7",
-      "zh": "小冒险家7"
+      "en": "Big Adventurer - Joy",
+      "zh": "大大冒险家·快乐",
+      "ja": "大きな冒険者・楽しさJP3A",
+      "ko": "커다란 모험가·기쁨"
     },
     "localAsset": "GameData/gi/furniture/assets/363439.webp"
   },
   {
     "id": "363440",
-    "name": "Little Adventurer 8",
-    "description": null,
+    "name": "Big Adventurer - Fighting Spirit",
+    "description": "\"Fighting Spirit\" is the resolve no adventurer ever lets slip!",
     "rank": 4,
     "type": [
       "Landscape"
     ],
     "type2": [
-      "tes Katheryne component"
+      "Tes Katheryne Parts"
     ],
     "cost": 0,
     "comfort": 0,
@@ -20148,15 +20257,17 @@
     },
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLmxj_08_Vo",
     "localizedNames": {
-      "en": "Little Adventurer 8",
-      "zh": "小冒险家8"
+      "en": "Big Adventurer - Fighting Spirit",
+      "zh": "大大冒险家·斗志",
+      "ja": "大きな冒険者・闘志JP3A",
+      "ko": "커다란 모험가·투지"
     },
     "localAsset": "GameData/gi/furniture/assets/363440.webp"
   },
   {
     "id": "363441",
-    "name": "363441",
-    "description": null,
+    "name": "\"Tea-Time Etiquette\"",
+    "description": "A teacup commonly seen in the Snezhnograd Veche, its body has a base blue hue, with the rim and handle inlaid with delicate golden edging that shifts with a warm, mellow gleam in the light. The matching saucer is painted with symmetrical geometric petal patterns, elegant and unforced.\\nIn Snezhnayan social settings, ladies and gentlemen often patiently stir the tea with a spoon, wait for the heat to ease, and then take a leisurely sip, showing in the conversation flow a bearing that is neither hurried nor irritable...",
     "rank": 3,
     "type": [
       "Ornaments"
@@ -20164,9 +20275,11 @@
     "type2": [
       "Utensil"
     ],
-    "cost": 676,
+    "cost": 85,
     "comfort": 60,
-    "source": [],
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
       "exp": 60,
       "time": 50400,
@@ -20183,14 +20296,17 @@
     },
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_YHchabei_01_Vo",
     "localizedNames": {
-      "zh": "「品茶的礼仪」"
+      "en": "\"Tea-Time Etiquette\"",
+      "zh": "「品茶的礼仪」",
+      "ja": "「お茶の作法」JP3A",
+      "ko": "「티타임 에티켓」"
     },
     "localAsset": "GameData/gi/furniture/assets/363441.webp"
   },
   {
     "id": "363442",
-    "name": "363442",
-    "description": null,
+    "name": "\"Balanced Boughs\"",
+    "description": "A candelabrum on a sturdy base, with symmetrical branch-like arms upon which two candles burn with warm yellow flame. Elegant in overall form, it lends a touch of warmth to the room in the flicker of candlelight and shadow.",
     "rank": 3,
     "type": [
       "Ornaments"
@@ -20198,46 +20314,14 @@
     "type2": [
       "Utensil"
     ],
-    "cost": 676,
+    "cost": 305,
     "comfort": 60,
-    "source": [],
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
       "exp": 60,
       "time": 50400,
-      "items": [
-        {
-          "id": "101001",
-          "count": 4
-        },
-        {
-          "id": "101002",
-          "count": 4
-        }
-      ]
-    },
-    "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_CTzhutai_02_Vo",
-    "localizedNames": {
-      "zh": "「平衡的枝叶」"
-    },
-    "localAsset": "GameData/gi/furniture/assets/363442.webp"
-  },
-  {
-    "id": "363443",
-    "name": "363443",
-    "description": null,
-    "rank": 3,
-    "type": [
-      "Ornaments"
-    ],
-    "type2": [
-      "Utensil"
-    ],
-    "cost": 676,
-    "comfort": 60,
-    "source": [],
-    "recipe": {
-      "exp": 90,
-      "time": 57600,
       "items": [
         {
           "id": "101001",
@@ -20245,13 +20329,55 @@
         },
         {
           "id": "101002",
-          "count": 12
+          "count": 2
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_CTzhutai_02_Vo",
+    "localizedNames": {
+      "en": "\"Balanced Boughs\"",
+      "zh": "「平衡的枝叶」",
+      "ja": "「平衡の枝葉」JP3A",
+      "ko": "「균형 잡힌 가지」"
+    },
+    "localAsset": "GameData/gi/furniture/assets/363442.webp"
+  },
+  {
+    "id": "363443",
+    "name": "\"Steady Companion Through Dreams\"",
+    "description": "An intricately designed standing candelabrum commonly seen in the Snegurochka's Demesne. Its candle arms have an elegant curve, and the candles they hold always give off a soft, tender light.\\nOn every quiet night, the faint crackle of the wicks brings a warm atmosphere to the room, easing those inside gently into their dreams...",
+    "rank": 3,
+    "type": [
+      "Ornaments"
+    ],
+    "type2": [
+      "Utensil"
+    ],
+    "cost": 587,
+    "comfort": 60,
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "id": "101001",
+          "count": 6
+        },
+        {
+          "id": "101002",
+          "count": 2
         }
       ]
     },
     "icon": "UI_Homeworld_Interior_Zd_Lamp_Light_XNGlatai_01_Lod0",
     "localizedNames": {
-      "zh": "「常伴梦乡」"
+      "en": "\"Steady Companion Through Dreams\"",
+      "zh": "「常伴梦乡」",
+      "ja": "「夢路のお供」JP3A",
+      "ko": "「늘 꿈결과 함께」"
     },
     "localAsset": "GameData/gi/furniture/assets/363443.webp"
   },
@@ -20674,8 +20800,8 @@
   },
   {
     "id": "363513",
-    "name": "363513",
-    "description": null,
+    "name": "Potted Bouquet: \"Elegant Blackthorn\"",
+    "description": "A potted floral arrangement often used to decorate Snezhnayan interiors, its body brightly colored and delicately patterned, making it a work of considerable beauty.\\nThe purple blooms in the vase carry both an air of understated elegance and lend the room a burst of vibrant life.",
     "rank": 3,
     "type": [
       "Ornaments"
@@ -20683,16 +20809,18 @@
     "type2": [
       "Potted Plant"
     ],
-    "cost": 180,
+    "cost": 169,
     "comfort": 60,
-    "source": [],
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
       "exp": 60,
       "time": 50400,
       "items": [
         {
           "id": "101001",
-          "count": 8
+          "count": 4
         },
         {
           "id": "101002",
@@ -20702,14 +20830,17 @@
     },
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_ZDhuaping_01_01_Lods",
     "localizedNames": {
-      "zh": "瓶栽插花-「典雅黛色」"
+      "en": "Potted Bouquet: \"Elegant Blackthorn\"",
+      "zh": "瓶栽插花-「典雅黛色」",
+      "ja": "花瓶の生花-「典雅黛色」JP3A",
+      "ko": "병 꽃꽂이-「단아한 먹빛」"
     },
     "localAsset": "GameData/gi/furniture/assets/363513.webp"
   },
   {
     "id": "363514",
-    "name": "363514",
-    "description": null,
+    "name": "Decorative Flowerbed: \"Brightcore Blossoms\"",
+    "description": "A decorative flowerbed commonly seen in the Snezhnograd Veche, elegant in form and reserved in style.\\nThe flowers bear clean, unadorned white petals, yet their pistils carry bright, vivid colors, conveying a special kind of brightness to every viewer who pauses to look...",
     "rank": 3,
     "type": [
       "Ornaments"
@@ -20717,9 +20848,11 @@
     "type2": [
       "Potted Plant"
     ],
-    "cost": 180,
+    "cost": 169,
     "comfort": 60,
-    "source": [],
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
       "exp": 60,
       "time": 50400,
@@ -20736,7 +20869,10 @@
     },
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_YHhuapen_01_01_Lods",
     "localizedNames": {
-      "zh": "装饰花坛-「蕊色流缇」"
+      "en": "Decorative Flowerbed: \"Brightcore Blossoms\"",
+      "zh": "装饰花坛-「蕊色流缇」",
+      "ja": "装飾花壇-「蕊色流緹」JP3A",
+      "ko": "장식용 화단-「비단 꽃술」"
     },
     "localAsset": "GameData/gi/furniture/assets/363514.webp"
   },
@@ -23404,9 +23540,9 @@
   },
   {
     "id": "364524",
-    "name": "364524",
-    "description": null,
-    "rank": 3,
+    "name": "\"A Golden Winter\"",
+    "description": "A Snezhnayan-style wall painting depicting a corner of a birch grove on the snowfields. The brilliant golden-yellow canopy shows especially bright against the white snow, and the painter has used a spare color vocabulary to record the distinctive warmth of the deep winter.\\n\"When I finally pulled myself together and looked out the window,\" the painter of this work has said, \"I happened to catch sight of a golden winter.\"",
+    "rank": 4,
     "type": [
       "Wall Decor"
     ],
@@ -23414,15 +23550,17 @@
       "Picture Frame"
     ],
     "cost": 169,
-    "comfort": 60,
-    "source": [],
+    "comfort": 90,
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
-      "exp": 60,
-      "time": 50400,
+      "exp": 90,
+      "time": 57600,
       "items": [
         {
           "id": "101001",
-          "count": 4
+          "count": 8
         },
         {
           "id": "101002",
@@ -23432,7 +23570,10 @@
     },
     "icon": "UI_Homeworld_Interior_Zd_Walldecoration_Prop_CTbihua_01_Vo",
     "localizedNames": {
-      "zh": "「金色的冬天」"
+      "en": "\"A Golden Winter\"",
+      "zh": "「金色的冬天」",
+      "ja": "「金色的冬」JP3A",
+      "ko": "「황금빛 겨울」"
     },
     "localAsset": "GameData/gi/furniture/assets/364524.webp"
   },
@@ -23440,19 +23581,21 @@
     "id": "364525",
     "name": "???",
     "description": "???",
-    "rank": 3,
+    "rank": 4,
     "type": [
       "Wall Decor"
     ],
     "type2": [
       "Picture Frame"
     ],
-    "cost": 169,
-    "comfort": 60,
-    "source": [],
+    "cost": 254,
+    "comfort": 90,
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
-      "exp": 60,
-      "time": 50400,
+      "exp": 90,
+      "time": 57600,
       "items": [
         {
           "id": "101001",
@@ -23460,7 +23603,7 @@
         },
         {
           "id": "101002",
-          "count": 2
+          "count": 10
         }
       ]
     },
@@ -27478,7 +27621,7 @@
       "Companion",
       "Companion"
     ],
-    "cost": 1600,
+    "cost": 1750,
     "comfort": 300,
     "source": [],
     "recipe": {
@@ -27507,7 +27650,7 @@
       "Companion",
       "Companion"
     ],
-    "cost": 1600,
+    "cost": 1750,
     "comfort": 300,
     "source": [],
     "recipe": {
@@ -31461,8 +31604,8 @@
   },
   {
     "id": "369231",
-    "name": "369231",
-    "description": null,
+    "name": "Polyarbear",
+    "description": "An animal that can survive even in the most extreme cold, with a massive frame and thick, heavy fur.\\nCombat-skilled Polyarbears are never tame, and never yield easily to other animals or humans. Naturally, since coming to the Serenitea Pot, in the interest of maintaining the peace, Tubby has issued a firm order that they must not attack other animals unprovoked.",
     "rank": 3,
     "type": [
       "Animal"
@@ -31470,7 +31613,7 @@
     "type2": [
       "Outdoor Creature"
     ],
-    "cost": 620,
+    "cost": 490,
     "comfort": 100,
     "source": [
       "Obtained through capture"
@@ -31482,14 +31625,17 @@
     },
     "icon": "UI_AnimalIcon_Bear_01",
     "localizedNames": {
-      "zh": "极地熊"
+      "en": "Polyarbear",
+      "zh": "极地熊",
+      "ja": "ポーラーベアJP0D",
+      "ko": "극지곰"
     },
     "localAsset": "GameData/gi/furniture/assets/369231.webp"
   },
   {
     "id": "369232",
-    "name": "369232",
-    "description": null,
+    "name": "Fluffahog",
+    "description": "A creature whose body is entirely covered in spines, save for a distinctly soft belly.\\nFluffahogs are gentle in temperament and love their sleep. They excel at building hidden nests from grass and branches, so they can enjoy warm, cozy dreams through the bitter cold. Since coming to the Serenitea Pot they no longer encounter the cold, but their nest-building habits remain unchanged all the same. Perhaps that habit is what gives them their sense of safety.",
     "rank": 3,
     "type": [
       "Animal"
@@ -31497,7 +31643,7 @@
     "type2": [
       "Outdoor Creature"
     ],
-    "cost": 620,
+    "cost": 320,
     "comfort": 100,
     "source": [
       "Obtained through capture"
@@ -31509,14 +31655,17 @@
     },
     "icon": "UI_AnimalIcon_Hedgehog_01",
     "localizedNames": {
-      "zh": "软猬兽"
+      "en": "Fluffahog",
+      "zh": "软猬兽",
+      "ja": "やわらかねずみJP0D",
+      "ko": "말랑 고슴도치"
     },
     "localAsset": "GameData/gi/furniture/assets/369232.webp"
   },
   {
     "id": "369233",
-    "name": "369233",
-    "description": null,
+    "name": "Nochhornowl",
+    "description": "A bird native to Snezhnaya, its body covered in snow-white feathers, named for the fact that it usually hunts after sunset.\\nAs the sharpest hunter above the snowfields, the Nochhornowl excels at camouflage, observation, and swift attacks. Since coming to the Serenitea Pot they no longer need to chase after food, so they spend most of their time perched quietly in a corner, watching the world around them.",
     "rank": 3,
     "type": [
       "Animal"
@@ -31524,7 +31673,7 @@
     "type2": [
       "Outdoor Creature"
     ],
-    "cost": 625,
+    "cost": 290,
     "comfort": 100,
     "source": [
       "Obtained through capture"
@@ -31536,14 +31685,17 @@
     },
     "icon": "UI_AnimalIcon_Owl_01",
     "localizedNames": {
-      "zh": "夜角鸮"
+      "en": "Nochhornowl",
+      "zh": "夜角鸮",
+      "ja": "ヨルミミズクJP0D",
+      "ko": "밤소쩍새"
     },
     "localAsset": "GameData/gi/furniture/assets/369233.webp"
   },
   {
     "id": "369234",
-    "name": "369234",
-    "description": null,
+    "name": "Morozhound",
+    "description": "Man's best friend!\\nMorozhounds are astonishingly enduring and gentle by nature, beloved not only by humans but by all manner of small animals. Since coming to the Serenitea Pot they've found many new friends. Though, admittedly, they do occasionally cause a bit of damage to their surroundings...",
     "rank": 3,
     "type": [
       "Animal"
@@ -31551,7 +31703,7 @@
     "type2": [
       "Outdoor Creature"
     ],
-    "cost": 625,
+    "cost": 360,
     "comfort": 100,
     "source": [
       "Obtained through capture"
@@ -31563,14 +31715,17 @@
     },
     "icon": "UI_AnimalIcon_SledDog_01",
     "localizedNames": {
-      "zh": "雪地犬"
+      "en": "Morozhound",
+      "zh": "雪地犬",
+      "ja": "スノウウルフJP0D",
+      "ko": "썰매견"
     },
     "localAsset": "GameData/gi/furniture/assets/369234.webp"
   },
   {
     "id": "369235",
-    "name": "369235",
-    "description": null,
+    "name": "Red-Bellied Plover",
+    "description": "A small Snezhnayan flying bird, named for its coloration.\\nRed-Bellied Plovers call now and then, their song slow, soft, and touched with quiet melancholy. Since coming to the Serenitea Pot, these Plovers no longer worry about finding food, and now their calls seem to carry an extra note of cheer...",
     "rank": 3,
     "type": [
       "Animal"
@@ -31578,7 +31733,7 @@
     "type2": [
       "Outdoor Creature"
     ],
-    "cost": 620,
+    "cost": 150,
     "comfort": 100,
     "source": [
       "Obtained through capture"
@@ -31590,14 +31745,17 @@
     },
     "icon": "UI_AnimalIcon_Bird_Small_Snezhnaya_01",
     "localizedNames": {
-      "zh": "赤腹兰鸻"
+      "en": "Red-Bellied Plover",
+      "zh": "赤腹兰鸻",
+      "ja": "赤腹のチドリJP0D",
+      "ko": "붉은배물떼새"
     },
     "localAsset": "GameData/gi/furniture/assets/369235.webp"
   },
   {
     "id": "369236",
-    "name": "369236",
-    "description": null,
+    "name": "Severelk",
+    "description": "A tall, gentle-natured animal with eyes that seem to see through all things.\\nSeverelk living on the snowfields have thick fur and mighty antlers, and they move with a swift step and a keen sense of smell. Since coming to the Serenitea Pot, they have become greatly beloved by many smaller birds, who often perch on the elk's branch-like antlers.",
     "rank": 3,
     "type": [
       "Animal"
@@ -31605,7 +31763,7 @@
     "type2": [
       "Outdoor Creature"
     ],
-    "cost": 625,
+    "cost": 440,
     "comfort": 100,
     "source": [
       "Obtained through capture"
@@ -31617,14 +31775,17 @@
     },
     "icon": "UI_AnimalIcon_Reindeer_03",
     "localizedNames": {
-      "zh": "雪驼鹿"
+      "en": "Severelk",
+      "zh": "雪驼鹿",
+      "ja": "雪ヘラジカJP0D",
+      "ko": "주걱뿔 사슴"
     },
     "localAsset": "GameData/gi/furniture/assets/369236.webp"
   },
   {
     "id": "369237",
-    "name": "369237",
-    "description": null,
+    "name": "Fuzzbadger",
+    "description": "An animal living in the interior of Snezhnaya, a close relative of the Chic Badger.\\nDespite their fluffy appearance, Fuzzbadgers are quite tough in personality, and never intimidated even by opponents much larger than themselves. Since coming to the Serenitea Pot, thanks to Tubby's proper management, Fuzzbadgers rarely fight other animals, mostly showing their gentle, friendly side.",
     "rank": 3,
     "type": [
       "Animal"
@@ -31632,7 +31793,7 @@
     "type2": [
       "Outdoor Creature"
     ],
-    "cost": 625,
+    "cost": 310,
     "comfort": 100,
     "source": [
       "Obtained through capture"
@@ -31644,7 +31805,10 @@
     },
     "icon": "UI_AnimalIcon_Wolverine_04",
     "localizedNames": {
-      "zh": "茸茸獾"
+      "en": "Fuzzbadger",
+      "zh": "茸茸獾",
+      "ja": "モフモフアナグマJP0D",
+      "ko": "복슬 오소리"
     },
     "localAsset": "GameData/gi/furniture/assets/369237.webp"
   },
@@ -42599,86 +42763,94 @@
   },
   {
     "id": "371050",
-    "name": "371050",
-    "description": null,
+    "name": "Large Winch-and-Axle Crane",
+    "description": "A basic crane device that stands in Morepesok. Metal axles of varying sizes are mounted on a dark-brown wooden frame, typically used for hauling and hoisting heavy materials.",
     "rank": 3,
     "type": [
-      ""
+      "Building"
     ],
     "type2": [
-      ""
+      "Snezhnayan Style"
     ],
-    "cost": 65,
+    "cost": 240,
     "comfort": 60,
-    "source": [],
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
       "exp": 60,
       "time": 50400,
       "items": [
         {
-          "id": "101001",
-          "count": 2
+          "id": "101332",
+          "count": 8
         },
         {
-          "id": "101002",
-          "count": 6
+          "id": "101001",
+          "count": 4
         }
       ]
     },
     "icon": "UI_Homeworld_Exterior_Zd_Build_WZtadiao_01_01_Lods",
     "localizedNames": {
-      "zh": "大型轮轴起重装置"
+      "en": "Large Winch-and-Axle Crane",
+      "zh": "大型轮轴起重装置",
+      "ja": "大型輪軸起重装置JP3A",
+      "ko": "대형 도르래 기중 장치"
     },
     "localAsset": "GameData/gi/furniture/assets/371050.webp"
   },
   {
     "id": "371051",
-    "name": "371051",
-    "description": null,
-    "rank": 3,
+    "name": "Town Dwelling: \"Cozy Warmth\"",
+    "description": "A Snezhnayan-style wooden dwelling commonly seen in Morepesok, built in the same form as a certain famous local resident's home. Constructed from local timber and given a special waterproof treatment, this type of house keeps meltwater from seeping inside, thereby preserving the interior warmth.\\nThe thick roof is capped year-round with a layer of white snow, while warm lamplight glows through the shuttered windowpanes. Inside, people gather around the fireplace, all thinking of family far from home.",
+    "rank": 4,
     "type": [
-      ""
+      "Building"
     ],
     "type2": [
-      ""
+      "Snezhnayan Style"
     ],
-    "cost": 65,
-    "comfort": 60,
-    "source": [],
+    "cost": 460,
+    "comfort": 90,
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
-      "exp": 60,
-      "time": 50400,
+      "exp": 90,
+      "time": 57600,
       "items": [
         {
-          "id": "101001",
-          "count": 6
-        },
-        {
-          "id": "101002",
-          "count": 6
+          "id": "101334",
+          "count": 16
         }
       ]
     },
     "icon": "UI_Homeworld_Exterior_Zd_Build_WZxiaowu_01_01_Lods",
     "localizedNames": {
-      "zh": "城镇民居-「融融暖居」"
+      "en": "Town Dwelling: \"Cozy Warmth\"",
+      "zh": "城镇民居-「融融暖居」",
+      "ja": "町の民家-「ぬくもりの家」JP3A",
+      "ko": "마을 민가-「따스한 보금자리」"
     },
     "localAsset": "GameData/gi/furniture/assets/371051.webp"
   },
   {
     "id": "371052",
-    "name": "371052",
-    "description": null,
+    "name": "\"The Round Snowball\"",
+    "description": "A hemispherical hut built of white ice bricks, shaped like a round little snowball, complete with a light-blue arched doorway and matching windows.\\nDespite being built entirely of ice bricks, the interior is remarkably warm...\\nIf you'd like to step inside this hut and take a look around, you'll probably need to put in a bit of thought to get the owner's consent...",
     "rank": 3,
     "type": [
-      ""
+      "Building"
     ],
     "type2": [
-      ""
+      "Snezhnayan Style"
     ],
-    "cost": 65,
+    "cost": 210,
     "comfort": 60,
-    "source": [],
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
       "exp": 60,
       "time": 50400,
@@ -42689,37 +42861,120 @@
         },
         {
           "id": "101002",
-          "count": 6
+          "count": 10
         }
       ]
     },
     "icon": "UI_Homeworld_Exterior_Zd_Build_SJfangwu_01_01_Lods",
     "localizedNames": {
-      "zh": "「圆圆雪球」"
+      "en": "\"The Round Snowball\"",
+      "zh": "「圆圆雪球」",
+      "ja": "「まん丸雪玉」JP3A",
+      "ko": "「동글동글 눈덩이」"
     },
     "localAsset": "GameData/gi/furniture/assets/371052.webp"
   },
   {
     "id": "371053",
-    "name": "371053",
-    "description": null,
+    "name": "Waiting Platform: \"Quiet Anticipation\"",
+    "description": "A waiting platform commonly seen at Snezhnayan train stations, with a rather generous canopy overhead.\\nTravelers pause here, some preparing to set out for distant places, others quietly waiting for the reunion of long-parted loved ones. And before the train pulls in, everyone sets down their busy affairs and gazes silently down the platform, hopeful for its arrival...",
     "rank": 3,
     "type": [
-      ""
+      "Building"
     ],
     "type2": [
-      ""
+      "Snezhnayan Style"
     ],
-    "cost": 65,
+    "cost": 135,
     "comfort": 60,
-    "source": [],
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
-      "exp": 90,
-      "time": 57600,
+      "exp": 60,
+      "time": 50400,
       "items": [
         {
           "id": "101001",
-          "count": 10
+          "count": 8
+        },
+        {
+          "id": "101002",
+          "count": 4
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Exterior_Zd_Build_QCCZdct_01_01_Lods",
+    "localizedNames": {
+      "en": "Waiting Platform: \"Quiet Anticipation\"",
+      "zh": "候车站台-「静谧等待」",
+      "ja": "待合ポート-「静かな待ち時間」JP3A",
+      "ko": "정거장 플랫폼-「고요한 기다림」"
+    },
+    "localAsset": "GameData/gi/furniture/assets/371053.webp"
+  },
+  {
+    "id": "371054",
+    "name": "Snezhnayan Dwelling: \"Warm-Toned Portico\"",
+    "description": "A dwelling commonly seen throughout Snezhnograd, its warm-toned walls set against cool grey stone window frames, and featuring the signature pointed-arch windows of the region.\\nNo matter how cold it grows outside, so long as a traveler hurrying along the road sees that touch of warm red on the portico from afar, they know that home lies just ahead.",
+    "rank": 3,
+    "type": [
+      "Building"
+    ],
+    "type2": [
+      "Snezhnayan Style"
+    ],
+    "cost": 535,
+    "comfort": 60,
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "id": "101001",
+          "count": 12
+        },
+        {
+          "id": "101002",
+          "count": 4
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Exterior_Zd_Build_ZCminju_01_01_Lods",
+    "localizedNames": {
+      "en": "Snezhnayan Dwelling: \"Warm-Toned Portico\"",
+      "zh": "至冬民居-「暖色门廊」",
+      "ja": "スネージナヤの民家-「暖色のポーチ」JP3A",
+      "ko": "스네즈나야 민가-「따스한 색조의 현관」"
+    },
+    "localAsset": "GameData/gi/furniture/assets/371054.webp"
+  },
+  {
+    "id": "371055",
+    "name": "\"The Round Onion\"",
+    "description": "An architectural fixture commonly seen throughout Snezhnograd, notable for its distinctive onion-shaped dome.\\n\"But it looks less like an onion and more like ice cream, doesn't it?\" A passing child once pointed at this fixture and put this puzzled question to their mother, and the answer came unexpectedly: \"Why can't it be onion-flavored ice cream?\"",
+    "rank": 3,
+    "type": [
+      "Building"
+    ],
+    "type2": [
+      "Snezhnayan Style"
+    ],
+    "cost": 220,
+    "comfort": 60,
+    "source": [
+      "Learned from Realm Depot Furnishing Blueprint"
+    ],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "id": "101001",
+          "count": 4
         },
         {
           "id": "101002",
@@ -42727,111 +42982,51 @@
         }
       ]
     },
-    "icon": "UI_Homeworld_Exterior_Zd_Build_QCCZdct_01_01_Lods",
-    "localizedNames": {
-      "zh": "候车站台-「静谧等待」"
-    },
-    "localAsset": "GameData/gi/furniture/assets/371053.webp"
-  },
-  {
-    "id": "371054",
-    "name": "371054",
-    "description": null,
-    "rank": 3,
-    "type": [
-      ""
-    ],
-    "type2": [
-      ""
-    ],
-    "cost": 65,
-    "comfort": 60,
-    "source": [],
-    "recipe": {
-      "exp": 60,
-      "time": 50400,
-      "items": [
-        {
-          "id": "101001",
-          "count": 2
-        },
-        {
-          "id": "101002",
-          "count": 6
-        }
-      ]
-    },
-    "icon": "UI_Homeworld_Exterior_Zd_Build_ZCminju_01_01_Lods",
-    "localizedNames": {
-      "zh": "至冬民居-「暖色门廊」"
-    },
-    "localAsset": "GameData/gi/furniture/assets/371054.webp"
-  },
-  {
-    "id": "371055",
-    "name": "371055",
-    "description": null,
-    "rank": 3,
-    "type": [
-      ""
-    ],
-    "type2": [
-      ""
-    ],
-    "cost": 65,
-    "comfort": 60,
-    "source": [],
-    "recipe": {
-      "exp": 60,
-      "time": 50400,
-      "items": [
-        {
-          "id": "101301",
-          "count": 6
-        },
-        {
-          "id": "101002",
-          "count": 2
-        }
-      ]
-    },
     "icon": "UI_Homeworld_Exterior_Zd_Build_ZCtalou_01_01_Lods",
     "localizedNames": {
-      "zh": "「圆圆洋葱」"
+      "en": "\"The Round Onion\"",
+      "zh": "「圆圆洋葱」",
+      "ja": "「まん丸玉ねぎ」JP3A",
+      "ko": "「동글동글 양파」"
     },
     "localAsset": "GameData/gi/furniture/assets/371055.webp"
   },
   {
     "id": "371056",
-    "name": "371056",
-    "description": null,
+    "name": "Snezhnayan Dwelling: \"Elegant Carvings\"",
+    "description": "A dwelling commonly seen throughout Snezhnograd, with a steeply-pitched roof that prevents snow from accumulating. The exterior of the building is decorated in many places with elaborate carvings, intricate and elegant in equal measure.\\n\"Fine carvings do nothing to make a house sturdier,\" so local builders always instruct their young apprentices, \"but they do add color to a life.\"",
     "rank": 3,
     "type": [
-      ""
+      "Building"
     ],
     "type2": [
-      ""
+      "Snezhnayan Style"
     ],
-    "cost": 65,
+    "cost": 535,
     "comfort": 60,
-    "source": [],
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
       "exp": 60,
       "time": 50400,
       "items": [
         {
           "id": "101001",
-          "count": 2
+          "count": 8
         },
         {
           "id": "101002",
-          "count": 6
+          "count": 4
         }
       ]
     },
     "icon": "UI_Homeworld_Exterior_Zd_Build_ZCminju_02_01_Lods",
     "localizedNames": {
-      "zh": "至冬民居-「典雅雕花」"
+      "en": "Snezhnayan Dwelling: \"Elegant Carvings\"",
+      "zh": "至冬民居-「典雅雕花」",
+      "ja": "スネージナヤの民家-「典雅な彫花」JP3A",
+      "ko": "스네즈나야 민가-「우아한 조각문양」"
     },
     "localAsset": "GameData/gi/furniture/assets/371056.webp"
   },
@@ -42841,14 +43036,16 @@
     "description": "???",
     "rank": 4,
     "type": [
-      ""
+      "Building"
     ],
     "type2": [
-      ""
+      "Snezhnayan Style"
     ],
-    "cost": 65,
-    "comfort": 60,
-    "source": [],
+    "cost": 500,
+    "comfort": 90,
+    "source": [
+      "Joint Meeting Point Construction: Meeting Point Level Reward"
+    ],
     "recipe": {
       "exp": null,
       "time": null,
@@ -42869,14 +43066,16 @@
     "description": "???",
     "rank": 4,
     "type": [
-      ""
+      "Building"
     ],
     "type2": [
-      ""
+      "Snezhnayan Style"
     ],
-    "cost": 65,
-    "comfort": 60,
-    "source": [],
+    "cost": 1250,
+    "comfort": 90,
+    "source": [
+      "Joint Meeting Point Construction: Meeting Point Level Reward"
+    ],
     "recipe": {
       "exp": null,
       "time": null,
@@ -50938,8 +51137,8 @@
   },
   {
     "id": "372363",
-    "name": "372363",
-    "description": null,
+    "name": "\"Wildfire in the Wind\"",
+    "description": "A tree commonly seen in Okurov, with a thick, twisted trunk and coiling, tangled branches. The rich orange-red foliage of its canopy is often mistaken from a distance for wildfire flickering in the wind.\\n\"I once saw it from far away and thought a fire had broken out,\" so an adventurer looking out over Okurov lamented, \"but after a moment's careful observation, I realized it was just a few trees.\"",
     "rank": 3,
     "type": [
       "Landform"
@@ -50948,8 +51147,10 @@
       "Tree"
     ],
     "cost": 65,
-    "comfort": 30,
-    "source": [],
+    "comfort": 20,
+    "source": [
+      "Purchased from Realm Depot: Furnishings"
+    ],
     "recipe": {
       "exp": null,
       "time": null,
@@ -50957,7 +51158,10 @@
     },
     "icon": "UI_Homeworld_Exterior_Zd_Plant_Tree_HNHshu_01_Lod0",
     "localizedNames": {
-      "zh": "「野火飘摇」"
+      "en": "\"Wildfire in the Wind\"",
+      "zh": "「野火飘摇」",
+      "ja": "「揺らめく野火」JP3A",
+      "ko": "「일렁이는 들불」"
     },
     "localAsset": "GameData/gi/furniture/assets/372363.webp"
   },
@@ -53981,7 +54185,7 @@
   {
     "id": "372501",
     "name": "A Path of Value: Jade Field",
-    "description": "An orderly field that is saturated with Sub-Space Creation energy. The fertile soil has almost unlimited nutrition, and thus seeds planted here will grow into excellent crops in time without much need for intensive care. However, crops placed here will tend to put long roots down, so you cannot put too many crops in here if you wish to give them all sufficient room to grow.\\nThe following seeds, spores, and samples obtained from the Seed Dispensary may be planted here: Valberry, Sweet Flower, Small Lamp Grass, Jueyun Chili, Carrot, Radish, Mint, Mushroom, Harra Fruit, Zaytun Peach, Marcotte, Grainfruit, Cacahuatl, Saurian Claw Succulent, Quenepa Berry, Glowing Hornshroom, Lakkaberry, Midsommar Berry, Pine Amber, Golden Fern, Red Beets, Cryo-Currant.",
+    "description": "An orderly field that is saturated with Sub-Space Creation energy. The fertile soil has almost unlimited nutrition, and thus seeds planted here will grow into excellent crops in time without much need for intensive care. However, crops placed here will tend to put long roots down, so you cannot put too many crops in here if you wish to give them all sufficient room to grow.\\nThe following seeds, spores, and samples obtained from the Seed Dispensary may be planted here: Valberry, Sweet Flower, Small Lamp Grass, Jueyun Chili, Carrot, Radish, Mint, Mushroom, Harra Fruit, Zaytun Peach, Marcotte, Grainfruit, Cacahuatl, Saurian Claw Succulent, Quenepa Berry, Glowing Hornshroom, Lakkaberry, Midsommar Berry, Pine Amber, Golden Fern, Red Beet, Rimecurrant.",
     "rank": 4,
     "type": [
       "Landform"
@@ -54011,7 +54215,7 @@
   {
     "id": "372502",
     "name": "A Path of Value: Luxuriant Glebe",
-    "description": "An orderly field saturated with Sub-Space Creation energy. The fertile soil boasts almost unlimited nutrition, and thus seeds planted here will grow into excellent flowers in time without much need for intensive care. However, flowers planted here tend to put down long roots, so you cannot place too many of them in here if you wish to give them all sufficient room to grow.\\nThe following seeds, spores, and samples obtained from the Seed Dispensary may be planted here: Silk Flower, Cecilia, Glaze Lily, Windwheel Aster, Qingxin, Violetgrass, Naku Weed, Sumeru Rose, Lumidouce Bell, Rainbow Rose, Brilliant Chrysanthemum, Skysplit Gembloom, Frostlamp Flower, Winter Icelea, Frostflower, Flockbloom, Snow-Eared Flower.",
+    "description": "An orderly field saturated with Sub-Space Creation energy. The fertile soil boasts almost unlimited nutrition, and thus seeds planted here will grow into excellent flowers in time without much need for intensive care. However, flowers planted here tend to put down long roots, so you cannot place too many of them in here if you wish to give them all sufficient room to grow.\\nThe following seeds, spores, and samples obtained from the Seed Dispensary may be planted here: Silk Flower, Cecilia, Glaze Lily, Windwheel Aster, Qingxin, Violetgrass, Naku Weed, Sumeru Rose, Lumidouce Bell, Rainbow Rose, Brilliant Chrysanthemum, Skysplit Gembloom, Frostlamp Flower, Winter Icelea, Frostfairy Flower, Flockingweed, Snowball Flower.",
     "rank": 4,
     "type": [
       "Landform"
@@ -54430,8 +54634,8 @@
   },
   {
     "id": "372525",
-    "name": "372525",
-    "description": null,
+    "name": "\"A Silent Longing\"",
+    "description": "A tall shrub found within Okurov, with slender branches, spreading leaves, and colors as mysterious as the night.\\nSnowmelt silently nourishes the earth, from which these beautiful shrubs are born. They stand quiet and still, as if voicing a silent longing for the days to come.",
     "rank": 3,
     "type": [
       "Landform"
@@ -54439,9 +54643,11 @@
     "type2": [
       "Small Shrub"
     ],
-    "cost": 35,
-    "comfort": 30,
-    "source": [],
+    "cost": 65,
+    "comfort": 20,
+    "source": [
+      "Purchased from Realm Depot: Furnishings"
+    ],
     "recipe": {
       "exp": null,
       "time": null,
@@ -54449,14 +54655,17 @@
     },
     "icon": "UI_Homeworld_Exterior_Zd_Plant_Grass_HNHguanmu_01_Lod0",
     "localizedNames": {
-      "zh": "「无声的期盼」"
+      "en": "\"A Silent Longing\"",
+      "zh": "「无声的期盼」",
+      "ja": "「声なき期待」JP3A",
+      "ko": "「소리 없는 기대감」"
     },
     "localAsset": "GameData/gi/furniture/assets/372525.webp"
   },
   {
     "id": "372526",
-    "name": "372526",
-    "description": null,
+    "name": "\"Layer Upon Layer of Leaves\"",
+    "description": "A low shrub commonly seen in Okurov, bearing tiered fan-shaped leaves and resembling a giant flower in glorious bloom.\\nWhen morning comes, every leaf of the shrub is beaded with crystalline dewdrops, refracting dazzling colors under the sunlight. The brief and wondrous sight draws small woodland creatures who come to admire it.",
     "rank": 3,
     "type": [
       "Landform"
@@ -54464,9 +54673,11 @@
     "type2": [
       "Small Shrub"
     ],
-    "cost": 35,
-    "comfort": 30,
-    "source": [],
+    "cost": 65,
+    "comfort": 20,
+    "source": [
+      "Purchased from Realm Depot: Furnishings"
+    ],
     "recipe": {
       "exp": null,
       "time": null,
@@ -54474,7 +54685,10 @@
     },
     "icon": "UI_Homeworld_Exterior_Zd_Plant_Grass_HNHguanmu_02_Lod0",
     "localizedNames": {
-      "zh": "「层层叠叠之叶」"
+      "en": "\"Layer Upon Layer of Leaves\"",
+      "zh": "「层层叠叠之叶」",
+      "ja": "「幾重にも重なる葉」JP3A",
+      "ko": "「겹겹이 포개진 잎사귀」"
     },
     "localAsset": "GameData/gi/furniture/assets/372526.webp"
   },
@@ -69730,42 +69944,47 @@
   },
   {
     "id": "373942",
-    "name": "373942",
-    "description": null,
-    "rank": 3,
+    "name": "\"Cherish the Present\"",
+    "description": "A mechanical device commonly seen in Svetloledovka, often used to dig downward through stubborn, hardened layers of ice.\\n\"You lot should be grateful for today's working conditions,\" so an experienced old worker once said to some newly-arrived recruits while deep in his cups. \"Back in my day, we used our fists! One blow, one blow at a time, forcing our way through this ice sheet...\"",
+    "rank": 2,
     "type": [
       "Landscape"
     ],
     "type2": [
       "Small Object"
     ],
-    "cost": 35,
+    "cost": 65,
     "comfort": 30,
-    "source": [],
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
-      "exp": 60,
-      "time": 50400,
+      "exp": 30,
+      "time": 43200,
       "items": [
         {
-          "id": "101320",
+          "id": "101001",
           "count": 2
         },
         {
-          "id": "101401",
-          "count": 4
+          "id": "101002",
+          "count": 2
         }
       ]
     },
     "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_CBZzuantou_01_Lod0",
     "localizedNames": {
-      "zh": "「珍惜当下」"
+      "en": "\"Cherish the Present\"",
+      "zh": "「珍惜当下」",
+      "ja": "「今を大切に」JP3A",
+      "ko": "「현재를 소중히」"
     },
     "localAsset": "GameData/gi/furniture/assets/373942.webp"
   },
   {
     "id": "373943",
-    "name": "373943",
-    "description": null,
+    "name": "\"An Unmelted Home\"",
+    "description": "An icebox whose body has been carved from a block of ice, its form plain and natural.\\nThese iceboxes have no fixed shape, and their form shifts and multiplies with temperature changes. But so it could be properly displayed in the Serenitea Pot, Tubby used a touch of adeptal power to freeze it in its most pleasing form...",
     "rank": 3,
     "type": [
       "Landscape"
@@ -69774,59 +69993,69 @@
       "Small Object"
     ],
     "cost": 35,
-    "comfort": 30,
-    "source": [],
-    "recipe": {
-      "exp": 60,
-      "time": 50400,
-      "items": [
-        {
-          "id": "101401",
-          "count": 8
-        },
-        {
-          "id": "101402",
-          "count": 4
-        }
-      ]
-    },
-    "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_SJguizi_01_Vo",
-    "localizedNames": {
-      "zh": "「未融的居所」"
-    },
-    "localAsset": "GameData/gi/furniture/assets/373943.webp"
-  },
-  {
-    "id": "373944",
-    "name": "373944",
-    "description": null,
-    "rank": 3,
-    "type": [
-      "Landscape"
+    "comfort": 60,
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
     ],
-    "type2": [
-      "Small Object"
-    ],
-    "cost": 35,
-    "comfort": 30,
-    "source": [],
     "recipe": {
       "exp": 60,
       "time": 50400,
       "items": [
         {
           "id": "101001",
-          "count": 4
+          "count": 2
         },
         {
-          "id": "101401",
-          "count": 4
+          "id": "101002",
+          "count": 6
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_SJguizi_01_Vo",
+    "localizedNames": {
+      "en": "\"An Unmelted Home\"",
+      "zh": "「未融的居所」",
+      "ja": "「溶けざる居所」JP3A",
+      "ko": "「녹지 않은 거처」"
+    },
+    "localAsset": "GameData/gi/furniture/assets/373943.webp"
+  },
+  {
+    "id": "373944",
+    "name": "\"Open Wide!\"",
+    "description": "A figurine modeled on a wide-mouthed Jack Frost, its form endearingly plump and simple.\\n\"Wait a minute — there seems to be... another Jack Frost inside its mouth? Yikes,\" many who've caught sight of this figurine have exclaimed, \"it's a Cannibal Frost!\"",
+    "rank": 3,
+    "type": [
+      "Landscape"
+    ],
+    "type2": [
+      "Small Object"
+    ],
+    "cost": 65,
+    "comfort": 60,
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "id": "101001",
+          "count": 2
+        },
+        {
+          "id": "101002",
+          "count": 6
         }
       ]
     },
     "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_SJxuren_01_Lod0",
     "localizedNames": {
-      "zh": "「张大嘴巴！」"
+      "en": "\"Open Wide!\"",
+      "zh": "「张大嘴巴！」",
+      "ja": "「口を大きく開けて！」JP3A",
+      "ko": "「입 크게 벌려!」"
     },
     "localAsset": "GameData/gi/furniture/assets/373944.webp"
   },
@@ -73721,9 +73950,9 @@
   },
   {
     "id": "374224",
-    "name": "374224",
-    "description": null,
-    "rank": 3,
+    "name": "Station Bench: \"Reading Between Trains\"",
+    "description": "A wooden bench commonly seen at Snezhnayan train stations, with a comfortable backrest and soft, thickly-padded seat.\\nDuring the wait between trains, passengers about to set off often pick up a paper from the nearby newspaper rack, using the long minutes of waiting time to catch up on the news...",
+    "rank": 4,
     "type": [
       "Outdoor Furnishing"
     ],
@@ -73731,32 +73960,37 @@
       "Seating"
     ],
     "cost": 35,
-    "comfort": 30,
-    "source": [],
+    "comfort": 90,
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
-      "exp": 60,
-      "time": 50400,
+      "exp": 90,
+      "time": 57600,
       "items": [
         {
-          "id": "101001",
-          "count": 6
+          "id": "101332",
+          "count": 10
         },
         {
-          "id": "101002",
+          "id": "101401",
           "count": 6
         }
       ]
     },
     "icon": "UI_Homeworld_Exterior_Zd_Chair_Prop_QCCZyizi_01_Vo",
     "localizedNames": {
-      "zh": "车站长椅-「隙间读报」"
+      "en": "Station Bench: \"Reading Between Trains\"",
+      "zh": "车站长椅-「隙间读报」",
+      "ja": "駅のベンチ-「合間の新聞読み」JP3A",
+      "ko": "열차역 벤치-「막간의 신문 읽기」"
     },
     "localAsset": "GameData/gi/furniture/assets/374224.webp"
   },
   {
     "id": "374225",
-    "name": "374225",
-    "description": null,
+    "name": "\"The Lingering Warmth of the Wait\"",
+    "description": "A dark-toned high-backed chair that can be seen along the streets of Snezhnograd, its backrest featuring an openwork carved design of elegant form.\\nCold as the weather may be, there are always those \"brave souls\" who love their gatherings — cradling hot tea, seated here, waiting for a friend to arrive in the crackling chill...",
     "rank": 3,
     "type": [
       "Outdoor Furnishing"
@@ -73765,15 +73999,17 @@
       "Seating"
     ],
     "cost": 35,
-    "comfort": 30,
-    "source": [],
+    "comfort": 60,
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
       "exp": 60,
       "time": 50400,
       "items": [
         {
           "id": "101001",
-          "count": 10
+          "count": 4
         },
         {
           "id": "101002",
@@ -73783,7 +74019,10 @@
     },
     "icon": "UI_Homeworld_Exterior_Zd_Chair_Prop_ZCyizi_01_Vo",
     "localizedNames": {
-      "zh": "「等待的余温」"
+      "en": "\"The Lingering Warmth of the Wait\"",
+      "zh": "「等待的余温」",
+      "ja": "「待つ温もりの名残」JP3A",
+      "ko": "「기다림의 남은 온기」"
     },
     "localAsset": "GameData/gi/furniture/assets/374225.webp"
   },
@@ -75014,8 +75253,8 @@
   },
   {
     "id": "374334",
-    "name": "374334",
-    "description": null,
+    "name": "\"Useless Advice\"",
+    "description": "A dark-toned round table commonly seen along the streets of Snezhnograd, its top adorned with symmetrical and delicate patterns.\\n\"Whatever you do, don't lick the table. Otherwise... wait, how's your tongue already stuck to it!?\" Those stubborn and curious children, always the ones who need to experience things firsthand before they understand what the grown-ups were telling them.",
     "rank": 3,
     "type": [
       "Outdoor Furnishing"
@@ -75023,26 +75262,31 @@
     "type2": [
       "Table"
     ],
-    "cost": 65,
+    "cost": 35,
     "comfort": 60,
-    "source": [],
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
       "exp": 60,
       "time": 50400,
       "items": [
         {
-          "id": "101301",
-          "count": 6
+          "id": "101001",
+          "count": 8
         },
         {
           "id": "101002",
-          "count": 2
+          "count": 4
         }
       ]
     },
     "icon": "UI_Homeworld_Exterior_Zd_Table_Prop_ZCzhuozi_01_Vo",
     "localizedNames": {
-      "zh": "「无用的忠告」"
+      "en": "\"Useless Advice\"",
+      "zh": "「无用的忠告」",
+      "ja": "「無用な忠告」JP3A",
+      "ko": "「쓸모없는 충고」"
     },
     "localAsset": "GameData/gi/furniture/assets/374334.webp"
   },
@@ -77621,8 +77865,8 @@
   },
   {
     "id": "374661",
-    "name": "374661",
-    "description": null,
+    "name": "Basic Transport Sled",
+    "description": "A transport sled built of thick wooden planks and a small amount of metal fittings. The runners curve gently upward at the front to prevent them from digging into the snow during sudden stops, and to reduce forward resistance. The cargo bay carries a large quantity of supplies, covered with a rainproof tarp and secured with fastening straps. Though it has no complex mechanisms, it is an indispensable and reliable companion for hauling supplies across the snowfields.",
     "rank": 3,
     "type": [
       "Landscape"
@@ -77631,66 +77875,80 @@
       "Large Object"
     ],
     "cost": 50,
-    "comfort": 30,
-    "source": [],
+    "comfort": 60,
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
       "exp": 60,
       "time": 50400,
       "items": [
         {
-          "id": "101001",
+          "id": "101332",
           "count": 4
         },
         {
+          "id": "101001",
+          "count": 2
+        },
+        {
           "id": "101002",
-          "count": 4
+          "count": 2
         }
       ]
     },
     "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_YKZche_01_Lod0",
     "localizedNames": {
-      "zh": "简易运输用雪橇"
+      "en": "Basic Transport Sled",
+      "zh": "简易运输用雪橇",
+      "ja": "簡易輸送用ソリJP3A",
+      "ko": "간이 운송용 썰매"
     },
     "localAsset": "GameData/gi/furniture/assets/374661.webp"
   },
   {
     "id": "374662",
-    "name": "374662",
-    "description": null,
-    "rank": 3,
+    "name": "Basic Tent: \"A Nap Beneath the Snow\"",
+    "description": "A basic tent commonly seen in Morepesok, its roof made of dark-red waterproof cloth and its four corners supported by sturdy wooden posts.\\nThe tent is mainly meant to shield those beneath it from snow falling vertically, providing a short-stay shelter for those passing through. Due to its low structural strength, however, the snow that accumulates overhead during heavy snowstorms can become heavy enough to bring the whole thing down...",
+    "rank": 2,
     "type": [
       "Landscape"
     ],
     "type2": [
       "Large Object"
     ],
-    "cost": 50,
+    "cost": 65,
     "comfort": 30,
-    "source": [],
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
-      "exp": 60,
-      "time": 50400,
+      "exp": 30,
+      "time": 43200,
       "items": [
         {
-          "id": "101001",
-          "count": 2
+          "id": "101401",
+          "count": 4
         },
         {
-          "id": "101002",
-          "count": 6
+          "id": "101402",
+          "count": 4
         }
       ]
     },
     "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_WZzhangpeng_01_Vo",
     "localizedNames": {
-      "zh": "简易帐篷-「雪下小憩」"
+      "en": "Basic Tent: \"A Nap Beneath the Snow\"",
+      "zh": "简易帐篷-「雪下小憩」",
+      "ja": "簡易テント-「雪下の小休憩」JP3A",
+      "ko": "간이 텐트-「눈 속의 휴식」"
     },
     "localAsset": "GameData/gi/furniture/assets/374662.webp"
   },
   {
     "id": "374663",
-    "name": "374663",
-    "description": null,
+    "name": "\"Sturdy as Solid Ice\"",
+    "description": "A large-capacity transport vehicle, its body assembled from heavy metal plates for a highly stable overall structure. In addition, the transport has six wide wheels of uniform size, paired with specially-textured non-slip treads on the hubs, ensuring the vehicle can move freely across slippery snow and ice.\\n\"Do remember not to overload the transport. Otherwise...\" — advice from a worker in charge of loading and unloading cargo.",
     "rank": 3,
     "type": [
       "Landscape"
@@ -77698,33 +77956,38 @@
     "type2": [
       "Large Object"
     ],
-    "cost": 50,
-    "comfort": 30,
-    "source": [],
+    "cost": 95,
+    "comfort": 60,
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
     "recipe": {
       "exp": 60,
       "time": 50400,
       "items": [
         {
           "id": "101001",
-          "count": 2
+          "count": 8
         },
         {
           "id": "101002",
-          "count": 6
+          "count": 4
         }
       ]
     },
     "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_YKZkuangche_01_Lod0",
     "localizedNames": {
-      "zh": "「如坚冰般稳固」"
+      "en": "\"Sturdy as Solid Ice\"",
+      "zh": "「如坚冰般稳固」",
+      "ja": "「堅氷の如く強固」JP3A",
+      "ko": "「단단한 얼음 같은 견고함」"
     },
     "localAsset": "GameData/gi/furniture/assets/374663.webp"
   },
   {
     "id": "374664",
-    "name": "374664",
-    "description": null,
+    "name": "Portable Small Heating Device",
+    "description": "A portable small-scale heating device, originally designed to provide a steady, continuous mobile heat source in severely cold environments. The heater body uses a double-layered, thickened metal structure, with rust-resistant treatment applied to the outer layer.\\nA small viewing window has also been fitted to the device, through which you can see the flickering flames inside, letting travelers enjoy a reassuring warmth wherever their journey takes them.",
     "rank": 3,
     "type": [
       "Landscape"
@@ -77732,84 +77995,18 @@
     "type2": [
       "Large Object"
     ],
-    "cost": 50,
-    "comfort": 30,
-    "source": [],
-    "recipe": {
-      "exp": 90,
-      "time": 57600,
-      "items": [
-        {
-          "id": "101001",
-          "count": 6
-        },
-        {
-          "id": "101002",
-          "count": 12
-        }
-      ]
-    },
-    "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_YKZnuanlu_01_Lod0",
-    "localizedNames": {
-      "zh": "便携小型供暖装置"
-    },
-    "localAsset": "GameData/gi/furniture/assets/374664.webp"
-  },
-  {
-    "id": "374665",
-    "name": "374665",
-    "description": null,
-    "rank": 3,
-    "type": [
-      "Landscape"
+    "cost": 80,
+    "comfort": 60,
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
     ],
-    "type2": [
-      "Large Object"
-    ],
-    "cost": 50,
-    "comfort": 30,
-    "source": [],
-    "recipe": {
-      "exp": 90,
-      "time": 57600,
-      "items": [
-        {
-          "id": "101320",
-          "count": 8
-        },
-        {
-          "id": "101001",
-          "count": 4
-        }
-      ]
-    },
-    "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_CBZbingkuai_01_Vo",
-    "localizedNames": {
-      "zh": "臻冰矿材-「陈列规整」"
-    },
-    "localAsset": "GameData/gi/furniture/assets/374665.webp"
-  },
-  {
-    "id": "374666",
-    "name": "374666",
-    "description": null,
-    "rank": 3,
-    "type": [
-      "Landscape"
-    ],
-    "type2": [
-      "Large Object"
-    ],
-    "cost": 50,
-    "comfort": 30,
-    "source": [],
     "recipe": {
       "exp": 60,
       "time": 50400,
       "items": [
         {
           "id": "101001",
-          "count": 2
+          "count": 6
         },
         {
           "id": "101002",
@@ -77817,9 +78014,90 @@
         }
       ]
     },
+    "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_YKZnuanlu_01_Lod0",
+    "localizedNames": {
+      "en": "Portable Small Heating Device",
+      "zh": "便携小型供暖装置",
+      "ja": "携帯小型暖房装置JP3A",
+      "ko": "휴대용 소형 난방 장치"
+    },
+    "localAsset": "GameData/gi/furniture/assets/374664.webp"
+  },
+  {
+    "id": "374665",
+    "name": "Prime Ice Ore: \"Neatly Arrayed\"",
+    "description": "Prime Ice ore that has been cut and processed, neatly arranged on a platform, and secured with sturdy fastening straps.\\nThese blocks of Prime Ice ore are both a testament to the extreme cold of the environment and an indispensable cornerstone of Snezhnayan construction.",
+    "rank": 3,
+    "type": [
+      "Landscape"
+    ],
+    "type2": [
+      "Large Object"
+    ],
+    "cost": 65,
+    "comfort": 60,
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "id": "101001",
+          "count": 4
+        },
+        {
+          "id": "101002",
+          "count": 8
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_CBZbingkuai_01_Vo",
+    "localizedNames": {
+      "en": "Prime Ice Ore: \"Neatly Arrayed\"",
+      "zh": "臻冰矿材-「陈列规整」",
+      "ja": "真氷鉱材-「整然とした陳列」JP3A",
+      "ko": "순얼음 광석-「가지런한 진열」"
+    },
+    "localAsset": "GameData/gi/furniture/assets/374665.webp"
+  },
+  {
+    "id": "374666",
+    "name": "Small \"Gauge-Panel\" Control Console",
+    "description": "A small control console commonly seen in Svetloledovka, its casing a reddish-brown hue. A round gauge panel is set into the front, its needle resting still on the graduated dial. The base of the console is supported by a dark-grey metal foundation, giving the whole a sturdy structure suited for placement in any area that needs practical equipment.",
+    "rank": 3,
+    "type": [
+      "Landscape"
+    ],
+    "type2": [
+      "Large Object"
+    ],
+    "cost": 95,
+    "comfort": 60,
+    "source": [
+      "Snezhnaya Remarkable Chest Reward"
+    ],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "id": "101001",
+          "count": 8
+        },
+        {
+          "id": "101002",
+          "count": 4
+        }
+      ]
+    },
     "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_CBZkzt_01_Lod0",
     "localizedNames": {
-      "zh": "小型「仪盘」控制台"
+      "en": "Small \"Gauge-Panel\" Control Console",
+      "zh": "小型「仪盘」控制台",
+      "ja": "小型「計器」操作台JP3A",
+      "ko": "소형 「계기판」 제어대"
     },
     "localAsset": "GameData/gi/furniture/assets/374666.webp"
   },
@@ -81239,7 +81517,7 @@
     "type2": [
       "Special Object"
     ],
-    "cost": 95,
+    "cost": 185,
     "comfort": 30,
     "source": [],
     "recipe": {
@@ -81260,15 +81538,15 @@
     "id": "374845",
     "name": "???",
     "description": "???",
-    "rank": 3,
+    "rank": 4,
     "type": [
       "Landscape"
     ],
     "type2": [
       "Special Object"
     ],
-    "cost": 95,
-    "comfort": 30,
+    "cost": 35,
+    "comfort": 90,
     "source": [
       "???"
     ],
@@ -81290,15 +81568,15 @@
     "id": "374846",
     "name": "???",
     "description": "???",
-    "rank": 3,
+    "rank": 4,
     "type": [
       "Landscape"
     ],
     "type2": [
       "Special Object"
     ],
-    "cost": 95,
-    "comfort": 30,
+    "cost": 35,
+    "comfort": 90,
     "source": [
       "???"
     ],
@@ -81329,15 +81607,21 @@
       "Special Object",
       "Craftwork"
     ],
-    "cost": 95,
-    "comfort": 30,
-    "source": [],
+    "cost": 260,
+    "comfort": 90,
+    "source": [
+      "Purchased from Battle Pass: Gnostic Chorus"
+    ],
     "recipe": {
-      "exp": 60,
-      "time": 50400,
+      "exp": 90,
+      "time": 57600,
       "items": [
         {
-          "id": "101329",
+          "id": "101001",
+          "count": 4
+        },
+        {
+          "id": "101002",
           "count": 12
         }
       ]
@@ -81362,9 +81646,11 @@
     "type2": [
       "Memento"
     ],
-    "cost": 95,
-    "comfort": 30,
-    "source": [],
+    "cost": 630,
+    "comfort": 90,
+    "source": [
+      "Joint Meeting Point Construction: Meeting Point Level Reward"
+    ],
     "recipe": {
       "exp": null,
       "time": null,
@@ -81381,18 +81667,20 @@
   },
   {
     "id": "374849",
-    "name": "374849",
-    "description": null,
-    "rank": 3,
+    "name": "\"Rattle-Bell Finchball: Rusalka\"",
+    "description": "A Finchball crafted to resemble a certain Prima Donna. Someone once tried to install a sound device inside it, so that the Finchball might sing \"in an elegant voice\" at every bump. But for various reasons, it never quite worked out, which is a great pity...?",
+    "rank": 4,
     "type": [
       "Landscape"
     ],
     "type2": [
       "Special Object"
     ],
-    "cost": 95,
+    "cost": 35,
     "comfort": 30,
-    "source": [],
+    "source": [
+      "Purchased from Rankova Zorya Shop - Knyazev"
+    ],
     "recipe": {
       "exp": null,
       "time": null,
@@ -81400,7 +81688,10 @@
     },
     "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_ZDqqq_01_Vo",
     "localizedNames": {
-      "zh": "「哐哐当当雀雀球·水妖」"
+      "en": "\"Rattle-Bell Finchball: Rusalka\"",
+      "zh": "「哐哐当当雀雀球·水妖」",
+      "ja": "「カラコロ！チュンボール・水の精」JP3A",
+      "ko": "「우당탕탕 짹짹볼·물 님프」"
     },
     "localAsset": "GameData/gi/furniture/assets/374849.webp"
   },

@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-07-24T09:09:55.540Z",
+  "generatedAt": "2026-07-24T11:48:25.932Z",
   "codes": {
-    "updated": "2026-07-24T07:47:34.939Z",
+    "updated": "2026-07-24T11:48:06.668Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -137,6 +137,20 @@ var NYX_DB = {
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA"
+        },
+        {
+          "code": "STARRAILFATE2026",
+          "reward": "2 The Fluffy Multi-Functional Fan Glowstick, 3 Traveler's Guide",
+          "premium": false,
+          "premiumCurrency": {
+            "name": "Stellar Jade",
+            "needle": "stellar jade",
+            "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
+          },
+          "added": "2026-07-24",
+          "firstSeen": "2026-07-24T11:48:06.656Z",
+          "sourceUrl": "https://www.crimsonwitch.com/codes/Honkai_Star_Rail",
+          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILFATE2026"
         },
         {
           "code": "STARRAILGIFT",
@@ -4430,7 +4444,7 @@ var NYX_DB = {
         "upcoming": []
       },
       "tcg": {
-        "updated": "2026-07-24T07:47:41.825Z",
+        "updated": "2026-07-24T09:17:16.959Z",
         "counts": {
           "characterCards": 106,
           "otherCards": 513
@@ -110984,8 +110998,8 @@ var NYX_DB = {
         ]
       },
       "wonderland": {
-        "updated": "2026-07-23T09:23:41.069Z",
-        "version": "6.7.53",
+        "updated": "2026-07-24T09:17:20.788Z",
+        "version": "6.7.54",
         "langMap": {
           "slot": {
             "none": "Voice-Overs",
@@ -150455,6 +150469,20 @@ var NYX_DB = {
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA"
+        },
+        {
+          "code": "STARRAILFATE2026",
+          "reward": "2 The Fluffy Multi-Functional Fan Glowstick, 3 Traveler's Guide",
+          "premium": false,
+          "premiumCurrency": {
+            "name": "Stellar Jade",
+            "needle": "stellar jade",
+            "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
+          },
+          "added": "2026-07-24",
+          "firstSeen": "2026-07-24T11:48:06.656Z",
+          "sourceUrl": "https://www.crimsonwitch.com/codes/Honkai_Star_Rail",
+          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILFATE2026"
         },
         {
           "code": "STARRAILGIFT",

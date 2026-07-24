@@ -125,7 +125,7 @@
       "traces-priority",
       "synergy"
     ],
-    "assetCount": 45
+    "assetCount": 47
   },
   {
     "id": "argenti",
@@ -960,11 +960,11 @@
     "name": "Gilgamesh",
     "slug": "gilgamesh",
     "sourcePath": "/star-rail/characters/gilgamesh",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "statusLabels": [
-      "4.4"
+      "New"
     ],
-    "updatedText": "07/June/2026",
+    "updatedText": "24/July/2026",
     "facts": {
       "rarity": 5,
       "element": "Lightning",
@@ -972,13 +972,21 @@
     },
     "art": {
       "card": "Prydwen/hsr/assets/characters/gilgamesh-8b85b84d2d9d.webp",
-      "full": "Prydwen/hsr/assets/characters/gilgamesh-7eb51f1144e6.webp"
+      "full": "Prydwen/hsr/assets/characters/gilgamesh-7eb51f1144e6.webp",
+      "icon": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp"
     },
     "pageFile": "Prydwen/hsr/pages/characters/gilgamesh.json",
     "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy",
       "teams"
     ],
-    "assetCount": 2
+    "assetCount": 32
   },
   {
     "id": "guinaifen",
@@ -1116,10 +1124,8 @@
     "slug": "himeko-nova",
     "sourcePath": "/star-rail/characters/himeko-nova",
     "contentStatus": "live",
-    "statusLabels": [
-      "New"
-    ],
-    "updatedText": "15/July/2026",
+    "statusLabels": [],
+    "updatedText": "24/July/2026",
     "facts": {
       "rarity": 5,
       "element": "Fire",
@@ -1951,11 +1957,11 @@
     "name": "Rin Tohsaka",
     "slug": "rin-tohsaka",
     "sourcePath": "/star-rail/characters/rin-tohsaka",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "statusLabels": [
-      "4.4"
+      "New"
     ],
-    "updatedText": "31/May/2026",
+    "updatedText": "24/July/2026",
     "facts": {
       "rarity": 5,
       "element": "Quantum",
@@ -1963,13 +1969,21 @@
     },
     "art": {
       "card": "Prydwen/hsr/assets/characters/rin-tohsaka-0ac7ee84c320.webp",
-      "full": "Prydwen/hsr/assets/characters/rin-tohsaka-ac78bcd23e3e.webp"
+      "full": "Prydwen/hsr/assets/characters/rin-tohsaka-ac78bcd23e3e.webp",
+      "icon": "Prydwen/hsr/assets/characters/trailblazer-remembrance-d3e344772d55.webp"
     },
     "pageFile": "Prydwen/hsr/pages/characters/rin-tohsaka.json",
     "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy",
       "teams"
     ],
-    "assetCount": 2
+    "assetCount": 31
   },
   {
     "id": "robin",
@@ -2091,7 +2105,7 @@
       "traces-priority",
       "synergy"
     ],
-    "assetCount": 48
+    "assetCount": 50
   },
   {
     "id": "sampo",

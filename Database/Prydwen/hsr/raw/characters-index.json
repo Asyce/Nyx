@@ -3,7 +3,7 @@
   "game": "hsr",
   "collection": "characters",
   "sourcePath": "/star-rail/characters",
-  "scrapedAt": "2026-07-23T07:55:42.746Z",
+  "scrapedAt": "2026-07-24T07:45:10.137Z",
   "detailPagesTotal": 92,
   "detailPagesScraped": 92,
   "staleDetailPagesRemoved": 0,
@@ -253,11 +253,11 @@
     {
       "id": "gilgamesh",
       "slug": "gilgamesh",
-      "name": "Gilgamesh 4.4",
+      "name": "Gilgamesh New",
       "sourcePath": "/star-rail/characters/gilgamesh",
-      "contentStatus": "beta",
+      "contentStatus": "live",
       "statusLabels": [
-        "4.4"
+        "New"
       ]
     },
     {
@@ -295,12 +295,10 @@
     {
       "id": "himeko-nova",
       "slug": "himeko-nova",
-      "name": "Himeko Nova New",
+      "name": "Himeko Nova",
       "sourcePath": "/star-rail/characters/himeko-nova",
       "contentStatus": "live",
-      "statusLabels": [
-        "New"
-      ]
+      "statusLabels": []
     },
     {
       "id": "hook",
@@ -505,11 +503,11 @@
     {
       "id": "rin-tohsaka",
       "slug": "rin-tohsaka",
-      "name": "Rin Tohsaka 4.4",
+      "name": "Rin Tohsaka New",
       "sourcePath": "/star-rail/characters/rin-tohsaka",
-      "contentStatus": "beta",
+      "contentStatus": "live",
       "statusLabels": [
-        "4.4"
+        "New"
       ]
     },
     {

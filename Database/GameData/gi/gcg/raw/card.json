@@ -1306,7 +1306,7 @@
   },
   "113175": {
     "name": "Essential Transmutation",
-    "desc": "<color=#FFFFFFFF>When the attached character uses a Normal Attack:</color> Deals 2 $[K103].\\n<color=#FFFFFFFF>When the attached character uses an Elemental Skill:</color> Generate 1 stack of <color=#FFFFFFFF>$[C169]</color>.\\n<color=#FFFFFFFF>$[K3]: 3</color> (Can stack)",
+    "desc": "<color=#FFFFFFFF>When the attached character uses a Normal Attack:</color> Deals 2 $[K103].\\n<color=#FFFFFFFF>When the attached character uses an Elemental Skill:</color> Generate 1 stack of <color=#FFFFFFFF>$[C169]</color>.",
     "icon": ""
   },
   "114011": {
@@ -2366,7 +2366,7 @@
   },
   "121059": {
     "name": "Radiant Hues: Swift Shadow",
-    "desc": "<color=#FFFFFFFF>When you play $[C121051]:</color> Grant <color=#FFFFFFFF>$[C117121]</color> to a random highest-cost card in your Hand. (Each time this is selected again, the additional stack increases by 1.)",
+    "desc": "<color=#FFFFFFFF>When you play $[C121051]:</color> Grant <color=#FFFFFFFF>$[C202]</color> to a random highest-cost card in your Hand. (Each time this is selected again, the additional stack increases by 1.)",
     "icon": "Gcg_CardFace_Summon_Udugan"
   },
   "122010": {
@@ -4776,7 +4776,7 @@
   },
   "221057": {
     "name": "Radiant Hues: Swift Shadow",
-    "desc": "<color=#FFFFFFFF>When you play $[C121051]:</color> Grant  a random highest-cost card in your Hand <color=#FFFFFFFF>$[C117121]</color> equal to the number of stacks of this status.",
+    "desc": "<color=#FFFFFFFF>When you play $[C121051]:</color> Grant  a random highest-cost card in your Hand <color=#FFFFFFFF>$[C202]</color> equal to the number of stacks of this status.",
     "icon": ""
   },
   "222011": {

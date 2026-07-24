@@ -3,7 +3,7 @@
   "label": "Genshin Impact",
   "source": "GachaBase beta changelog",
   "sourceUrl": "https://gi.gachabase.net/changelog/beta?lang=en",
-  "scrapedAt": "2026-07-23T07:57:39.407Z",
+  "scrapedAt": "2026-07-24T07:47:09.440Z",
   "title": "Changelog - v6.7.5X | Genshin Impact | Gachabase",
   "categoryLinks": [
     {
@@ -127,23 +127,206 @@
       "text": "Other"
     },
     {
+      "type": "characters",
+      "href": "https://gi.gachabase.net/characters/10000005/aether-pyro/beta?lang=en",
+      "text": "Traveler"
+    },
+    {
+      "type": "characters",
+      "href": "https://gi.gachabase.net/characters/10000005/aether-hydro/beta?lang=en",
+      "text": "Traveler"
+    },
+    {
+      "type": "characters",
+      "href": "https://gi.gachabase.net/characters/10000005/aether-anemo/beta?lang=en",
+      "text": "Traveler"
+    },
+    {
+      "type": "characters",
+      "href": "https://gi.gachabase.net/characters/10000005/aether-cryo/beta?lang=en",
+      "text": "Traveler"
+    },
+    {
+      "type": "characters",
+      "href": "https://gi.gachabase.net/characters/10000005/aether-geo/beta?lang=en",
+      "text": "Traveler"
+    },
+    {
+      "type": "characters",
+      "href": "https://gi.gachabase.net/characters/10000005/aether-electro/beta?lang=en",
+      "text": "Traveler"
+    },
+    {
+      "type": "characters",
+      "href": "https://gi.gachabase.net/characters/10000005/aether-dendro/beta?lang=en",
+      "text": "Traveler"
+    },
+    {
+      "type": "characters",
+      "href": "https://gi.gachabase.net/characters/10000007/lumine-pyro/beta?lang=en",
+      "text": "Traveler"
+    },
+    {
+      "type": "characters",
+      "href": "https://gi.gachabase.net/characters/10000007/lumine-hydro/beta?lang=en",
+      "text": "Traveler"
+    },
+    {
+      "type": "characters",
+      "href": "https://gi.gachabase.net/characters/10000007/lumine-anemo/beta?lang=en",
+      "text": "Traveler"
+    },
+    {
+      "type": "characters",
+      "href": "https://gi.gachabase.net/characters/10000007/lumine-cryo/beta?lang=en",
+      "text": "Traveler"
+    },
+    {
+      "type": "characters",
+      "href": "https://gi.gachabase.net/characters/10000007/lumine-geo/beta?lang=en",
+      "text": "Traveler"
+    },
+    {
+      "type": "characters",
+      "href": "https://gi.gachabase.net/characters/10000007/lumine-electro/beta?lang=en",
+      "text": "Traveler"
+    },
+    {
+      "type": "characters",
+      "href": "https://gi.gachabase.net/characters/10000007/lumine-dendro/beta?lang=en",
+      "text": "Traveler"
+    },
+    {
+      "type": "characters",
+      "href": "https://gi.gachabase.net/characters/10000035/qiqi/beta?lang=en",
+      "text": "Qiqi"
+    },
+    {
+      "type": "characters",
+      "href": "https://gi.gachabase.net/characters/10000109/yumemizuki-mizuki/beta?lang=en",
+      "text": "Yumemizuki Mizuki"
+    },
+    {
+      "type": "characters",
+      "href": "https://gi.gachabase.net/characters/10000133/sandrone/beta?lang=en",
+      "text": "Sandrone"
+    },
+    {
+      "type": "characters",
+      "href": "https://gi.gachabase.net/characters/10000150/odette/beta?lang=en",
+      "text": "Odette"
+    },
+    {
+      "type": "characters",
+      "href": "https://gi.gachabase.net/characters/10000039/diona/beta?lang=en",
+      "text": "Diona"
+    },
+    {
+      "type": "characters",
+      "href": "https://gi.gachabase.net/characters/10000113/ifa/beta?lang=en",
+      "text": "Ifa"
+    },
+    {
+      "type": "characters",
+      "href": "https://gi.gachabase.net/characters/10000148/alyosha/beta?lang=en",
+      "text": "Alyosha"
+    },
+    {
       "type": "weapons",
       "href": "https://gi.gachabase.net/weapons/11520/whitelake-frostfeather/beta?lang=en",
       "text": "Whitelake Frostfeather"
+    },
+    {
+      "type": "weapons",
+      "href": "https://gi.gachabase.net/weapons/11521/exaiphanes-blade/beta?lang=en",
+      "text": "Exaiphanes Blade"
+    },
+    {
+      "type": "weapons",
+      "href": "https://gi.gachabase.net/weapons/11435/heretics-molten-blade/beta?lang=en",
+      "text": "Heretic's Molten Blade"
+    },
+    {
+      "type": "weapons",
+      "href": "https://gi.gachabase.net/weapons/11436/emberwell/beta?lang=en",
+      "text": "Emberwell"
+    },
+    {
+      "type": "weapons",
+      "href": "https://gi.gachabase.net/weapons/12435/forged-by-the-golden-melody/beta?lang=en",
+      "text": "Forged by the Golden Melody"
+    },
+    {
+      "type": "weapons",
+      "href": "https://gi.gachabase.net/weapons/12436/blade-of-atonement/beta?lang=en",
+      "text": "Blade of Atonement"
+    },
+    {
+      "type": "weapons",
+      "href": "https://gi.gachabase.net/weapons/13435/frostbreath/beta?lang=en",
+      "text": "Frostbreath"
+    },
+    {
+      "type": "weapons",
+      "href": "https://gi.gachabase.net/weapons/13436/song-of-the-vigil/beta?lang=en",
+      "text": "Song of the Vigil"
+    },
+    {
+      "type": "weapons",
+      "href": "https://gi.gachabase.net/weapons/14435/clash-of-kings/beta?lang=en",
+      "text": "Clash of Kings"
+    },
+    {
+      "type": "weapons",
+      "href": "https://gi.gachabase.net/weapons/14436/echoes-of-the-heart/beta?lang=en",
+      "text": "Echoes of the Heart"
+    },
+    {
+      "type": "weapons",
+      "href": "https://gi.gachabase.net/weapons/15435/jade-vista/beta?lang=en",
+      "text": "Jade Vista"
+    },
+    {
+      "type": "weapons",
+      "href": "https://gi.gachabase.net/weapons/15436/covenant-of-frost-and-snow/beta?lang=en",
+      "text": "Covenant of Frost and Snow"
+    },
+    {
+      "type": "artifacts",
+      "href": "https://gi.gachabase.net/artifacts/15047/scarlet-proof/beta?lang=en",
+      "text": "Scarlet Proof"
+    },
+    {
+      "type": "artifacts",
+      "href": "https://gi.gachabase.net/artifacts/15048/heart-of-the-furnace/beta?lang=en",
+      "text": "Heart of the Furnace"
     }
   ],
   "counts": {
-    "entries": 50,
+    "entries": 51,
     "byType": {
-      "weapons": 41,
+      "weapons": 42,
       "artifacts": 9
     },
     "byStatus": {
-      "updated": 37,
+      "updated": 38,
       "new": 13
     }
   },
   "entries": [
+    {
+      "game": "gi",
+      "type": "weapons",
+      "id": "11520",
+      "rarity": 5,
+      "name": "Whitelake Frostfeather",
+      "iconHash": "a10b7853cb47513dafe98bbc3c068057",
+      "status": "updated",
+      "href": "https://gi.gachabase.net/weapons/11520/whitelake-frostfeather/beta/6.7.53/46878721",
+      "diff": "https://gi.gachabase.net/diff/weapons/11520/whitelake-frostfeather?prev=beta_6.7.53_46792811&cur=beta_6.7.53_46878721",
+      "betaVersion": "6.7.53",
+      "revision": "46878721"
+    },
     {
       "game": "gi",
       "type": "weapons",

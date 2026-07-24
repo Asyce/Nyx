@@ -3799,7 +3799,7 @@
     "cost": [
       {
         "cost_type": "GCG_COST_DICE_PYRO",
-        "count": 3
+        "count": 4
       },
       {
         "cost_type": "GCG_COST_ENERGY",

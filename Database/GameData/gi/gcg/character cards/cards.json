@@ -5548,7 +5548,7 @@
             "d_key_element": "GCG_ELEMENT_PYRO",
             "c113175": {
               "name": "Essential Transmutation",
-              "desc": "<color=#FFFFFFFF>When the attached character uses a Normal Attack:</color> Deals 2 $[K103].\\n<color=#FFFFFFFF>When the attached character uses an Elemental Skill:</color> Generate 1 stack of <color=#FFFFFFFF>$[C169]</color>.\\n<color=#FFFFFFFF>$[K3]: 3</color> (Can stack)",
+              "desc": "<color=#FFFFFFFF>When the attached character uses a Normal Attack:</color> Deals 2 $[K103].\\n<color=#FFFFFFFF>When the attached character uses an Elemental Skill:</color> Generate 1 stack of <color=#FFFFFFFF>$[C169]</color>.",
               "child": {
                 "k103": {
                   "name": "{SPRITE_PRESET#2103}<color=#FF9999FF>Pyro DMG</color>",
@@ -5558,10 +5558,6 @@
                   "name": "Efficient Switch",
                   "desc": "<color=#FFFFFFFF>The next time you perform \"Switch Character\":</color> Spend 1 fewer Elemental Die. (Can stack, no stack limit)",
                   "child": {}
-                },
-                "k3": {
-                  "name": "<color=#FFFFFFFF>Usage(s)</color>",
-                  "desc": "After this card's effect is triggered, 1 <color=#FFFFFFFF>Usage</color> of it will be consumed.\\nThis card will be discarded immediately once it has 0 <color=#FFFFFFFF>Usages</color> remaining."
                 }
               }
             }

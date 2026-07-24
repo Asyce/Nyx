@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-07-24T04:32:58.263Z",
+  "generatedAt": "2026-07-24T07:47:55.027Z",
   "codes": {
-    "updated": "2026-07-24T00:07:19.009Z",
+    "updated": "2026-07-24T07:47:34.939Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -370,13 +370,13 @@ var NYX_DB = {
   },
   "banners": {
     "updated": "2026-07-21T16:13:51.549Z",
-    "checkedAt": "2026-07-23T07:57:51.266Z",
+    "checkedAt": "2026-07-24T07:47:21.650Z",
     "games": {
       "hsr": {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-07-23T07:57:51.266Z",
+          "checkedAt": "2026-07-24T07:47:21.650Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -415,7 +415,7 @@ var NYX_DB = {
         "name": "Genshin Impact",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-07-23T07:57:51.266Z",
+          "checkedAt": "2026-07-24T07:47:21.650Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -445,7 +445,7 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-07-23T07:57:51.266Z",
+          "checkedAt": "2026-07-24T07:47:21.650Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -527,7 +527,7 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-07-23T07:57:51.266Z",
+          "checkedAt": "2026-07-24T07:47:21.650Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -644,7 +644,7 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-07-23T07:57:51.266Z",
+          "checkedAt": "2026-07-24T07:47:21.650Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -4403,7 +4403,7 @@ var NYX_DB = {
         "name": "Genshin Impact",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-07-23T07:57:51.266Z",
+          "checkedAt": "2026-07-24T07:47:21.650Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -4430,7 +4430,7 @@ var NYX_DB = {
         "upcoming": []
       },
       "tcg": {
-        "updated": "2026-07-23T09:23:17.508Z",
+        "updated": "2026-07-24T07:47:41.825Z",
         "counts": {
           "characterCards": 106,
           "otherCards": 513
@@ -9742,7 +9742,7 @@ var NYX_DB = {
                   "d_key_element": "GCG_ELEMENT_PYRO",
                   "c113175": {
                     "name": "Essential Transmutation",
-                    "desc": "<color=#FFFFFFFF>When the attached character uses a Normal Attack:</color> Deals 2 $[K103].\\n<color=#FFFFFFFF>When the attached character uses an Elemental Skill:</color> Generate 1 stack of <color=#FFFFFFFF>$[C169]</color>.\\n<color=#FFFFFFFF>$[K3]: 3</color> (Can stack)",
+                    "desc": "<color=#FFFFFFFF>When the attached character uses a Normal Attack:</color> Deals 2 $[K103].\\n<color=#FFFFFFFF>When the attached character uses an Elemental Skill:</color> Generate 1 stack of <color=#FFFFFFFF>$[C169]</color>.",
                     "child": {
                       "k103": {
                         "name": "{SPRITE_PRESET#2103}<color=#FF9999FF>Pyro DMG</color>",
@@ -9752,10 +9752,6 @@ var NYX_DB = {
                         "name": "Efficient Switch",
                         "desc": "<color=#FFFFFFFF>The next time you perform \"Switch Character\":</color> Spend 1 fewer Elemental Die. (Can stack, no stack limit)",
                         "child": {}
-                      },
-                      "k3": {
-                        "name": "<color=#FFFFFFFF>Usage(s)</color>",
-                        "desc": "After this card's effect is triggered, 1 <color=#FFFFFFFF>Usage</color> of it will be consumed.\\nThis card will be discarded immediately once it has 0 <color=#FFFFFFFF>Usages</color> remaining."
                       }
                     }
                   }
@@ -17649,7 +17645,7 @@ var NYX_DB = {
             "cost": [
               {
                 "cost_type": "GCG_COST_DICE_PYRO",
-                "count": 3
+                "count": 4
               },
               {
                 "cost_type": "GCG_COST_ENERGY",
@@ -147230,9 +147226,9 @@ var NYX_DB = {
         {
           "key": "light-cones",
           "title": "Light Cones",
-          "updatedText": "08/July/2026",
+          "updatedText": "24/July/2026",
           "source": "Prydwen",
-          "count": 168,
+          "count": 169,
           "items": [
             {
               "id": "a-dream-scented-in-wheat",
@@ -147277,26 +147273,14 @@ var NYX_DB = {
               "id": "a-star-that-lights-the-night",
               "name": "A Star That Lights the Night",
               "kind": "light-cones",
-              "art": "../../Database/Prydwen/hsr/assets/light-cones/a-star-that-lights-the-night-e5ff09788002.webp",
-              "fields": {},
-              "text": "",
-              "status": "live",
-              "labels": []
-            },
-            {
-              "id": "a-star-that-lights-the-night-new",
-              "name": "A Star That Lights the Night New",
-              "kind": "light-cones",
-              "art": "../../Database/Prydwen/hsr/assets/light-cones/a-star-that-lights-the-night-e5ff09788002.webp",
+              "art": "../../Database/Prydwen/hsr/assets/light-cones/a-star-that-lights-the-night-66fd5814f35f.webp",
               "fields": {
                 "rarity": "5 \u2605",
                 "path": "Erudition"
               },
-              "text": "A Star That Lights the Night New\nRarity: 5 \u2605\nPath: Erudition\nThe wearer ignores 32/36/40/44/48% of the target's DEF when dealing DMG. When the wearer uses an Assist Skill, they regenerate 6 Energy and gain \"Sail,\" lasting for 2 turns and stacking up to 3 time(s). Each stack of \"Sail\" increases Assist Skill DMG by 20/25/30/35/40% . When \"Sail\" reaches 3 stacks, each stack of \"Sail\" increases Ultimate DMG by 20/25/30/35/40% .\nHP\n+ 847\nATK\n+ 635\nDEF\n+ 529",
+              "text": "A Star That Lights the Night\nRarity: 5 \u2605\nPath: Erudition\nThe wearer ignores 32/36/40/44/48% of the target's DEF when dealing DMG. When the wearer uses an Assist Skill, they regenerate 6 Energy and gain \"Sail,\" lasting for 2 turns and stacking up to 3 time(s). Each stack of \"Sail\" increases Assist Skill DMG by 20/25/30/35/40% . When \"Sail\" reaches 3 stacks, each stack of \"Sail\" increases Ultimate DMG by 20/25/30/35/40% .\nHP\n+ 847\nATK\n+ 635\nDEF\n+ 529",
               "status": "live",
-              "labels": [
-                "New"
-              ]
+              "labels": []
             },
             {
               "id": "a-thankless-coronation",
@@ -147837,14 +147821,26 @@ var NYX_DB = {
               "id": "flickering-stars",
               "name": "Flickering Stars",
               "kind": "light-cones",
-              "art": "../../Database/Prydwen/hsr/assets/light-cones/flickering-stars-389219b0b677.webp",
+              "art": "../../Database/Prydwen/hsr/assets/light-cones/flickering-stars-3be8987ad248.webp",
+              "fields": {},
+              "text": "",
+              "status": "live",
+              "labels": []
+            },
+            {
+              "id": "flickering-stars-new",
+              "name": "Flickering Stars New",
+              "kind": "light-cones",
+              "art": "../../Database/Prydwen/hsr/assets/light-cones/flickering-stars-3be8987ad248.webp",
               "fields": {
                 "rarity": "5 \u2605",
                 "path": "Erudition"
               },
-              "text": "Flickering Stars\nRarity: 5 \u2605\nPath: Erudition\nUnknown\nStats for this Light Cone aren't available yet.",
+              "text": "Flickering Stars New\nRarity: 5 \u2605\nPath: Erudition\nIncreases the wearer's CRIT Rate by 18/21/24/27/30% . When any ally character consumes a total of 4 or more Skill Points in a single turn, the wearer gains \"Radiant Crown,\" lasting for 3 turn(s). While the wearer holds \"Radiant Crown,\" all allies' DMG dealt ignores 20/23/26/29/32% of the target's DEF, and the Skill DMG dealt by the wearer increases by 72/84/96/108/120% . Effects of the same type cannot stack.\nHP\n+ 847\nATK\n+ 635\nDEF\n+ 529",
               "status": "live",
-              "labels": []
+              "labels": [
+                "New"
+              ]
             },
             {
               "id": "flowing-nightglow",
@@ -147967,14 +147963,26 @@ var NYX_DB = {
               "id": "i-am-as-you-behold",
               "name": "I Am As You Behold",
               "kind": "light-cones",
-              "art": "../../Database/Prydwen/hsr/assets/light-cones/i-am-as-you-behold-26e9cb2ae8d4.webp",
+              "art": "../../Database/Prydwen/hsr/assets/light-cones/i-am-as-you-behold-693a002f0b65.webp",
+              "fields": {},
+              "text": "",
+              "status": "live",
+              "labels": []
+            },
+            {
+              "id": "i-am-as-you-behold-new",
+              "name": "I Am As You Behold New",
+              "kind": "light-cones",
+              "art": "../../Database/Prydwen/hsr/assets/light-cones/i-am-as-you-behold-693a002f0b65.webp",
               "fields": {
                 "rarity": "5 \u2605",
                 "path": "Destruction"
               },
-              "text": "I Am As You Behold\nRarity: 5 \u2605\nPath: Destruction\nUnknown\nStats for this Light Cone aren't available yet.",
+              "text": "I Am As You Behold New\nRarity: 5 \u2605\nPath: Destruction\nIncreases the wearer's ATK by 18/21/24/27/30% and Energy Regeneration Rate by 10/12.5/15/17.5/20% . When the wearer uses Ultimate, for every 1 Energy consumed, increases the Ultimate DMG dealt this time by 0.2/0.25/0.3/0.35/0.4% , up to a max increase of 72/90/108/126/144% . When the wearer enters combat or uses Ultimate, the wearer gains \"King's Entertainment,\" lasting for 3 turn(s). While the wearer holds \"King's Entertainment,\" increases all allies' CRIT DMG by 24/30/36/42/48% . Effects of the same type cannot stack.\nHP\n+ 953\nATK\n+ 635\nDEF\n+ 463",
               "status": "live",
-              "labels": []
+              "labels": [
+                "New"
+              ]
             },
             {
               "id": "i-shall-be-my-own-sword",
@@ -150495,7 +150503,7 @@ var NYX_DB = {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-07-23T07:57:51.266Z",
+          "checkedAt": "2026-07-24T07:47:21.650Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -150532,6 +150540,25 @@ var NYX_DB = {
       },
       "roster": [
         {
+          "id": "hsr-gilgamesh",
+          "name": "Gilgamesh",
+          "aliases": [],
+          "title": "I Am As You Behold",
+          "rarity": 5,
+          "element": "Lightning",
+          "role": "Destruction",
+          "icon": "../../Database/GameData/hsr/assets/characters/round/1509.webp",
+          "art": "../../Database/GameData/hsr/assets/characters/draw-card/1509.webp",
+          "facts": {
+            "title": "I Am As You Behold"
+          },
+          "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23062.webp",
+          "overviewArtPool": [
+            "../../Database/GameData/hsr/assets/lightcones/full/23062.webp"
+          ],
+          "forms": []
+        },
+        {
           "id": "hsr-himeko-nova",
           "name": "Himeko Nova",
           "aliases": [],
@@ -150547,6 +150574,25 @@ var NYX_DB = {
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23060.webp",
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23060.webp"
+          ],
+          "forms": []
+        },
+        {
+          "id": "hsr-rin-tohsaka",
+          "name": "Rin Tohsaka",
+          "aliases": [],
+          "title": "The Gem Coursing in Red",
+          "rarity": 5,
+          "element": "Quantum",
+          "role": "Erudition",
+          "icon": "../../Database/GameData/hsr/assets/characters/round/1508.webp",
+          "art": "../../Database/GameData/hsr/assets/characters/draw-card/1508.webp",
+          "facts": {
+            "title": "The Gem Coursing in Red"
+          },
+          "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23061.webp",
+          "overviewArtPool": [
+            "../../Database/GameData/hsr/assets/lightcones/full/23061.webp"
           ],
           "forms": []
         },
@@ -150628,25 +150674,6 @@ var NYX_DB = {
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23054.webp",
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23054.webp"
-          ],
-          "forms": []
-        },
-        {
-          "id": "hsr-gilgamesh",
-          "name": "Gilgamesh",
-          "aliases": [],
-          "title": "I Am As You Behold",
-          "rarity": 5,
-          "element": "Lightning",
-          "role": "Destruction",
-          "icon": "../../Database/GameData/hsr/assets/characters/round/1509.webp",
-          "art": "../../Database/GameData/hsr/assets/characters/draw-card/1509.webp",
-          "facts": {
-            "title": "I Am As You Behold"
-          },
-          "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23062.webp",
-          "overviewArtPool": [
-            "../../Database/GameData/hsr/assets/lightcones/full/23062.webp"
           ],
           "forms": []
         },
@@ -151406,25 +151433,6 @@ var NYX_DB = {
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23033.webp",
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23033.webp"
-          ],
-          "forms": []
-        },
-        {
-          "id": "hsr-rin-tohsaka",
-          "name": "Rin Tohsaka",
-          "aliases": [],
-          "title": "The Gem Coursing in Red",
-          "rarity": 5,
-          "element": "Quantum",
-          "role": "Erudition",
-          "icon": "../../Database/GameData/hsr/assets/characters/round/1508.webp",
-          "art": "../../Database/GameData/hsr/assets/characters/draw-card/1508.webp",
-          "facts": {
-            "title": "The Gem Coursing in Red"
-          },
-          "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23061.webp",
-          "overviewArtPool": [
-            "../../Database/GameData/hsr/assets/lightcones/full/23061.webp"
           ],
           "forms": []
         },
@@ -156025,7 +156033,7 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-07-23T07:57:51.266Z",
+          "checkedAt": "2026-07-24T07:47:21.650Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -160858,7 +160866,7 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-07-23T07:57:51.266Z",
+          "checkedAt": "2026-07-24T07:47:21.650Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -165884,7 +165892,7 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-07-23T07:57:51.266Z",
+          "checkedAt": "2026-07-24T07:47:21.650Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",

@@ -3,7 +3,7 @@
   "game": "hsr",
   "collection": "light-cones",
   "sourcePath": "/star-rail/light-cones",
-  "scrapedAt": "2026-07-23T07:55:42.746Z",
+  "scrapedAt": "2026-07-24T07:45:10.137Z",
   "detailPagesTotal": 0,
   "detailPagesScraped": 0,
   "staleDetailPagesRemoved": 0,
@@ -54,25 +54,15 @@
       "id": "a-star-that-lights-the-night",
       "name": "A Star That Lights the Night",
       "kind": "light-cones",
-      "art": "Prydwen/hsr/assets/light-cones/a-star-that-lights-the-night-e5ff09788002.webp",
-      "assetId": "e5ff09788002",
-      "contentStatus": "live"
-    },
-    {
-      "id": "a-star-that-lights-the-night-new",
-      "name": "A Star That Lights the Night New",
-      "kind": "light-cones",
       "contentStatus": "live",
-      "statusLabels": [
-        "New"
-      ],
-      "art": "Prydwen/hsr/assets/light-cones/a-star-that-lights-the-night-e5ff09788002.webp",
-      "assetId": "e5ff09788002",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/a-star-that-lights-the-night-66fd5814f35f.webp",
+      "assetId": "66fd5814f35f",
       "fields": {
         "rarity": "5 ★",
         "path": "Erudition"
       },
-      "text": "A Star That Lights the Night New\nRarity: 5 ★\nPath: Erudition\nThe wearer ignores 32/36/40/44/48% of the target's DEF when dealing DMG. When the wearer uses an Assist Skill, they regenerate 6 Energy and gain \"Sail,\" lasting for 2 turns and stacking up to 3 time(s). Each stack of \"Sail\" increases Assist Skill DMG by 20/25/30/35/40% . When \"Sail\" reaches 3 stacks, each stack of \"Sail\" increases Ultimate DMG by 20/25/30/35/40% .\nHP\n+ 847\nATK\n+ 635\nDEF\n+ 529"
+      "text": "A Star That Lights the Night\nRarity: 5 ★\nPath: Erudition\nThe wearer ignores 32/36/40/44/48% of the target's DEF when dealing DMG. When the wearer uses an Assist Skill, they regenerate 6 Energy and gain \"Sail,\" lasting for 2 turns and stacking up to 3 time(s). Each stack of \"Sail\" increases Assist Skill DMG by 20/25/30/35/40% . When \"Sail\" reaches 3 stacks, each stack of \"Sail\" increases Ultimate DMG by 20/25/30/35/40% .\nHP\n+ 847\nATK\n+ 635\nDEF\n+ 529"
     },
     {
       "id": "a-thankless-coronation",
@@ -654,15 +644,25 @@
       "id": "flickering-stars",
       "name": "Flickering Stars",
       "kind": "light-cones",
+      "art": "Prydwen/hsr/assets/light-cones/flickering-stars-3be8987ad248.webp",
+      "assetId": "3be8987ad248",
+      "contentStatus": "live"
+    },
+    {
+      "id": "flickering-stars-new",
+      "name": "Flickering Stars New",
+      "kind": "light-cones",
       "contentStatus": "live",
-      "statusLabels": [],
-      "art": "Prydwen/hsr/assets/light-cones/flickering-stars-389219b0b677.webp",
-      "assetId": "389219b0b677",
+      "statusLabels": [
+        "New"
+      ],
+      "art": "Prydwen/hsr/assets/light-cones/flickering-stars-3be8987ad248.webp",
+      "assetId": "3be8987ad248",
       "fields": {
         "rarity": "5 ★",
         "path": "Erudition"
       },
-      "text": "Flickering Stars\nRarity: 5 ★\nPath: Erudition\nUnknown\nStats for this Light Cone aren't available yet."
+      "text": "Flickering Stars New\nRarity: 5 ★\nPath: Erudition\nIncreases the wearer's CRIT Rate by 18/21/24/27/30% . When any ally character consumes a total of 4 or more Skill Points in a single turn, the wearer gains \"Radiant Crown,\" lasting for 3 turn(s). While the wearer holds \"Radiant Crown,\" all allies' DMG dealt ignores 20/23/26/29/32% of the target's DEF, and the Skill DMG dealt by the wearer increases by 72/84/96/108/120% . Effects of the same type cannot stack.\nHP\n+ 847\nATK\n+ 635\nDEF\n+ 529"
     },
     {
       "id": "flowing-nightglow",
@@ -794,15 +794,25 @@
       "id": "i-am-as-you-behold",
       "name": "I Am As You Behold",
       "kind": "light-cones",
+      "art": "Prydwen/hsr/assets/light-cones/i-am-as-you-behold-693a002f0b65.webp",
+      "assetId": "693a002f0b65",
+      "contentStatus": "live"
+    },
+    {
+      "id": "i-am-as-you-behold-new",
+      "name": "I Am As You Behold New",
+      "kind": "light-cones",
       "contentStatus": "live",
-      "statusLabels": [],
-      "art": "Prydwen/hsr/assets/light-cones/i-am-as-you-behold-26e9cb2ae8d4.webp",
-      "assetId": "26e9cb2ae8d4",
+      "statusLabels": [
+        "New"
+      ],
+      "art": "Prydwen/hsr/assets/light-cones/i-am-as-you-behold-693a002f0b65.webp",
+      "assetId": "693a002f0b65",
       "fields": {
         "rarity": "5 ★",
         "path": "Destruction"
       },
-      "text": "I Am As You Behold\nRarity: 5 ★\nPath: Destruction\nUnknown\nStats for this Light Cone aren't available yet."
+      "text": "I Am As You Behold New\nRarity: 5 ★\nPath: Destruction\nIncreases the wearer's ATK by 18/21/24/27/30% and Energy Regeneration Rate by 10/12.5/15/17.5/20% . When the wearer uses Ultimate, for every 1 Energy consumed, increases the Ultimate DMG dealt this time by 0.2/0.25/0.3/0.35/0.4% , up to a max increase of 72/90/108/126/144% . When the wearer enters combat or uses Ultimate, the wearer gains \"King's Entertainment,\" lasting for 3 turn(s). While the wearer holds \"King's Entertainment,\" increases all allies' CRIT DMG by 24/30/36/42/48% . Effects of the same type cannot stack.\nHP\n+ 953\nATK\n+ 635\nDEF\n+ 463"
     },
     {
       "id": "i-shall-be-my-own-sword",

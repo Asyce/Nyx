@@ -4,12 +4,26 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-07-23T19:37:20.345Z",
+  "generatedAt": "2026-07-24T00:07:32.982Z",
   "codes": {
-    "updated": "2026-07-23T19:37:01.713Z",
+    "updated": "2026-07-24T00:07:19.009Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
+        {
+          "code": "LEGEDILJKSGM",
+          "reward": "Primogem x 60, Adventurer's Experience x 5",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-07-24",
+          "firstSeen": "2026-07-05T17:19:20.440Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM"
+        },
         {
           "code": "UIVI13C8X156",
           "reward": "10000 Mora, 10 Adventurer's Experience, 5 Fine Enhancement Ore, 5 Jueyun Chili Chicken, 5 Stir-Fried Fish Noodles",
@@ -37,20 +51,6 @@ var NYX_DB = {
           "firstSeen": "2026-07-21T19:50:38.169Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=EZSB8889C2BZ",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=EZSB8889C2BZ"
-        },
-        {
-          "code": "LEGEDILJKSGM",
-          "reward": "60 Primogems and Five Adventurer S Experience",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-06-25",
-          "firstSeen": "2026-07-05T17:19:20.440Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM"
         }
       ],
       "hsr": [
@@ -63,7 +63,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-23",
+          "added": "2026-07-24",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK"
@@ -77,7 +77,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-23",
+          "added": "2026-07-24",
           "firstSeen": "2026-07-15T09:16:06.610Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB"
@@ -91,7 +91,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-23",
+          "added": "2026-07-24",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH"
@@ -105,7 +105,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-23",
+          "added": "2026-07-24",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL"
@@ -119,7 +119,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-23",
+          "added": "2026-07-24",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS"
@@ -133,7 +133,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-23",
+          "added": "2026-07-24",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA"
@@ -147,7 +147,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-23",
+          "added": "2026-07-24",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT"
@@ -191,7 +191,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-23",
+          "added": "2026-07-24",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ROSCAELIFER0617",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ROSCAELIFER0617"
@@ -205,10 +205,66 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-23",
+          "added": "2026-07-24",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT"
+        },
+        {
+          "code": "ZZZ30BANGBOO",
+          "reward": "Polychrome x 60, Denny x 6,666",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Polychrome",
+            "needle": "polychrome",
+            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
+          },
+          "added": "2026-07-24",
+          "firstSeen": "2026-07-05T17:19:07.479Z",
+          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO",
+          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO"
+        },
+        {
+          "code": "ZZZDREAMLAND",
+          "reward": "Polychrome x 30, Denny x 6,666",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Polychrome",
+            "needle": "polychrome",
+            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
+          },
+          "added": "2026-07-24",
+          "firstSeen": "2026-07-17T15:01:00.612Z",
+          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZDREAMLAND",
+          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZDREAMLAND"
+        },
+        {
+          "code": "ZZZSEASON3",
+          "reward": "Polychrome x 50",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Polychrome",
+            "needle": "polychrome",
+            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
+          },
+          "added": "2026-07-24",
+          "firstSeen": "2026-07-05T17:19:07.479Z",
+          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSEASON3",
+          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSEASON3"
+        },
+        {
+          "code": "ZZZSTEAM",
+          "reward": "60 polychrome, two w",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Polychrome",
+            "needle": "polychrome",
+            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
+          },
+          "added": "2026-07-24",
+          "firstSeen": "2026-07-05T17:19:07.479Z",
+          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM",
+          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM"
         },
         {
           "code": "ZZZ2YEAR",
@@ -225,20 +281,6 @@ var NYX_DB = {
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ2YEAR"
         },
         {
-          "code": "ZZZ30BANGBOO",
-          "reward": "Polychrome x 60, Denny x 6,666",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Polychrome",
-            "needle": "polychrome",
-            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
-          },
-          "added": "2026-07-23",
-          "firstSeen": "2026-07-05T17:19:07.479Z",
-          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO",
-          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO"
-        },
-        {
           "code": "ZZZ31REMIELLE",
           "reward": "60 Polychrome and 6,666 Denny",
           "premium": true,
@@ -251,48 +293,6 @@ var NYX_DB = {
           "firstSeen": "2026-07-17T15:01:00.612Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ31REMIELLE",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ31REMIELLE"
-        },
-        {
-          "code": "ZZZDREAMLAND",
-          "reward": "Polychrome x 30, Denny x 6,666",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Polychrome",
-            "needle": "polychrome",
-            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
-          },
-          "added": "2026-07-23",
-          "firstSeen": "2026-07-17T15:01:00.612Z",
-          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZDREAMLAND",
-          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZDREAMLAND"
-        },
-        {
-          "code": "ZZZSEASON3",
-          "reward": "Polychrome x 50",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Polychrome",
-            "needle": "polychrome",
-            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
-          },
-          "added": "2026-07-23",
-          "firstSeen": "2026-07-05T17:19:07.479Z",
-          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSEASON3",
-          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSEASON3"
-        },
-        {
-          "code": "ZZZSTEAM",
-          "reward": "60 polychrome, two w",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Polychrome",
-            "needle": "polychrome",
-            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
-          },
-          "added": "2026-07-23",
-          "firstSeen": "2026-07-05T17:19:07.479Z",
-          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM",
-          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM"
         }
       ],
       "wuwa": [],
@@ -4357,6 +4357,20 @@ var NYX_DB = {
       ],
       "codes": [
         {
+          "code": "LEGEDILJKSGM",
+          "reward": "Primogem x 60, Adventurer's Experience x 5",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-07-24",
+          "firstSeen": "2026-07-05T17:19:20.440Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM"
+        },
+        {
           "code": "UIVI13C8X156",
           "reward": "10000 Mora, 10 Adventurer's Experience, 5 Fine Enhancement Ore, 5 Jueyun Chili Chicken, 5 Stir-Fried Fish Noodles",
           "premium": false,
@@ -4383,20 +4397,6 @@ var NYX_DB = {
           "firstSeen": "2026-07-21T19:50:38.169Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=EZSB8889C2BZ",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=EZSB8889C2BZ"
-        },
-        {
-          "code": "LEGEDILJKSGM",
-          "reward": "60 Primogems and Five Adventurer S Experience",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-06-25",
-          "firstSeen": "2026-07-05T17:19:20.440Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM"
         }
       ],
       "banners": {
@@ -150373,7 +150373,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-23",
+          "added": "2026-07-24",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK"
@@ -150387,7 +150387,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-23",
+          "added": "2026-07-24",
           "firstSeen": "2026-07-15T09:16:06.610Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB"
@@ -150401,7 +150401,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-23",
+          "added": "2026-07-24",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH"
@@ -150415,7 +150415,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-23",
+          "added": "2026-07-24",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL"
@@ -150429,7 +150429,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-23",
+          "added": "2026-07-24",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS"
@@ -150443,7 +150443,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-23",
+          "added": "2026-07-24",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA"
@@ -150457,7 +150457,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-23",
+          "added": "2026-07-24",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT"
@@ -155917,7 +155917,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-23",
+          "added": "2026-07-24",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ROSCAELIFER0617",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ROSCAELIFER0617"
@@ -155931,10 +155931,66 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-23",
+          "added": "2026-07-24",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT"
+        },
+        {
+          "code": "ZZZ30BANGBOO",
+          "reward": "Polychrome x 60, Denny x 6,666",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Polychrome",
+            "needle": "polychrome",
+            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
+          },
+          "added": "2026-07-24",
+          "firstSeen": "2026-07-05T17:19:07.479Z",
+          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO",
+          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO"
+        },
+        {
+          "code": "ZZZDREAMLAND",
+          "reward": "Polychrome x 30, Denny x 6,666",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Polychrome",
+            "needle": "polychrome",
+            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
+          },
+          "added": "2026-07-24",
+          "firstSeen": "2026-07-17T15:01:00.612Z",
+          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZDREAMLAND",
+          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZDREAMLAND"
+        },
+        {
+          "code": "ZZZSEASON3",
+          "reward": "Polychrome x 50",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Polychrome",
+            "needle": "polychrome",
+            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
+          },
+          "added": "2026-07-24",
+          "firstSeen": "2026-07-05T17:19:07.479Z",
+          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSEASON3",
+          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSEASON3"
+        },
+        {
+          "code": "ZZZSTEAM",
+          "reward": "60 polychrome, two w",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Polychrome",
+            "needle": "polychrome",
+            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
+          },
+          "added": "2026-07-24",
+          "firstSeen": "2026-07-05T17:19:07.479Z",
+          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM",
+          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM"
         },
         {
           "code": "ZZZ2YEAR",
@@ -155951,20 +156007,6 @@ var NYX_DB = {
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ2YEAR"
         },
         {
-          "code": "ZZZ30BANGBOO",
-          "reward": "Polychrome x 60, Denny x 6,666",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Polychrome",
-            "needle": "polychrome",
-            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
-          },
-          "added": "2026-07-23",
-          "firstSeen": "2026-07-05T17:19:07.479Z",
-          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO",
-          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO"
-        },
-        {
           "code": "ZZZ31REMIELLE",
           "reward": "60 Polychrome and 6,666 Denny",
           "premium": true,
@@ -155977,48 +156019,6 @@ var NYX_DB = {
           "firstSeen": "2026-07-17T15:01:00.612Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ31REMIELLE",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ31REMIELLE"
-        },
-        {
-          "code": "ZZZDREAMLAND",
-          "reward": "Polychrome x 30, Denny x 6,666",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Polychrome",
-            "needle": "polychrome",
-            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
-          },
-          "added": "2026-07-23",
-          "firstSeen": "2026-07-17T15:01:00.612Z",
-          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZDREAMLAND",
-          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZDREAMLAND"
-        },
-        {
-          "code": "ZZZSEASON3",
-          "reward": "Polychrome x 50",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Polychrome",
-            "needle": "polychrome",
-            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
-          },
-          "added": "2026-07-23",
-          "firstSeen": "2026-07-05T17:19:07.479Z",
-          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSEASON3",
-          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSEASON3"
-        },
-        {
-          "code": "ZZZSTEAM",
-          "reward": "60 polychrome, two w",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Polychrome",
-            "needle": "polychrome",
-            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
-          },
-          "added": "2026-07-23",
-          "firstSeen": "2026-07-05T17:19:07.479Z",
-          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM",
-          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM"
         }
       ],
       "banners": {

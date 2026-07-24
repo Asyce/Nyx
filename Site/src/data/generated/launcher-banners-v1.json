@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "80d553e989aba080603aeb1ba83e8ee86917822c532830c4b5485012795b054c",
-  "generatedAt": "2026-07-23T19:37:22.107Z",
+  "revision": "6623e04ae34f6d29797e956abb1b586accc5f037632be920d21d60b01f4eb81a",
+  "generatedAt": "2026-07-24T00:07:34.535Z",
   "health": {
     "status": "ok",
     "games": {
@@ -43,7 +43,7 @@
         "remaining": {
           "startsAt": "2026-07-21T17:00:00.000Z",
           "endsAt": "2026-08-11T13:59:00.000Z",
-          "durationSeconds": 1621297
+          "durationSeconds": 1605085
         },
         "characters": [
           {
@@ -349,7 +349,7 @@
       "codes": [
         {
           "code": "LEGEDILJKSGM",
-          "added": "2026-06-25",
+          "added": "2026-07-24",
           "amount": 60,
           "currency": "Primogems"
         }
@@ -365,7 +365,7 @@
         "remaining": {
           "startsAt": "2026-07-15T03:00:00.000Z",
           "endsAt": "2026-08-05T03:59:00.000Z",
-          "durationSeconds": 1066897
+          "durationSeconds": 1050685
         },
         "characters": [
           {
@@ -783,31 +783,31 @@
       "codes": [
         {
           "code": "5S6ZHRWTDNJB",
-          "added": "2026-07-23",
+          "added": "2026-07-24",
           "amount": 60,
           "currency": "Stellar Jade"
         },
         {
           "code": "4TKSX77Y58QK",
-          "added": "2026-07-23",
+          "added": "2026-07-24",
           "amount": 30,
           "currency": "Stellar Jade"
         },
         {
           "code": "CREATIONNYMPH",
-          "added": "2026-07-23",
+          "added": "2026-07-24",
           "amount": 60,
           "currency": "Stellar Jade"
         },
         {
           "code": "FAREWELL",
-          "added": "2026-07-23",
+          "added": "2026-07-24",
           "amount": 60,
           "currency": "Stellar Jade"
         },
         {
           "code": "IFYOUAREREADINGTHIS",
-          "added": "2026-07-23",
+          "added": "2026-07-24",
           "amount": 60,
           "currency": "Stellar Jade"
         }
@@ -823,7 +823,7 @@
         "remaining": {
           "startsAt": "2026-07-08T11:00:00.000Z",
           "endsAt": "2026-07-28T13:59:59.000Z",
-          "durationSeconds": 411756
+          "durationSeconds": 395544
         },
         "characters": [
           {
@@ -1128,32 +1128,32 @@
       ],
       "codes": [
         {
-          "code": "ZZZ2YEAR",
-          "added": "2026-07-23",
-          "amount": 50,
-          "currency": "Polychrome"
-        },
-        {
-          "code": "ZZZ31REMIELLE",
-          "added": "2026-07-23",
-          "amount": 60,
-          "currency": "Polychrome"
-        },
-        {
           "code": "ZZZDREAMLAND",
-          "added": "2026-07-23",
+          "added": "2026-07-24",
           "amount": 30,
           "currency": "Polychrome"
         },
         {
           "code": "ROSCAELIFER0617",
-          "added": "2026-07-23",
+          "added": "2026-07-24",
           "amount": 30,
           "currency": "Polychrome"
         },
         {
           "code": "ZENLESSGIFT",
-          "added": "2026-07-23",
+          "added": "2026-07-24",
+          "amount": 50,
+          "currency": "Polychrome"
+        },
+        {
+          "code": "ZZZ30BANGBOO",
+          "added": "2026-07-24",
+          "amount": 60,
+          "currency": "Polychrome"
+        },
+        {
+          "code": "ZZZSEASON3",
+          "added": "2026-07-24",
           "amount": 50,
           "currency": "Polychrome"
         }
@@ -1169,7 +1169,7 @@
         "remaining": {
           "startsAt": "2026-07-10T08:10:00.000Z",
           "endsAt": "2026-07-30T08:59:00.000Z",
-          "durationSeconds": 566497
+          "durationSeconds": 550285
         },
         "characters": [
           {
@@ -1568,7 +1568,7 @@
         "remaining": {
           "startsAt": "2026-07-16T04:00:00.000Z",
           "endsAt": "2026-08-09T03:59:59.000Z",
-          "durationSeconds": 1412556
+          "durationSeconds": 1396344
         },
         "characters": [
           {

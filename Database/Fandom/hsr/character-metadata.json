@@ -620,7 +620,7 @@
       "gilgamesh"
     ],
     "releaseDate": "2026-07-24",
-    "releasePatch": "4.2",
+    "releasePatch": "4.4",
     "voiceActors": {
       "english": "|vaCN = https://zh.moegirl.org.cn/藤新|Teng Xin (藤新)",
       "chinese": "https://zh.moegirl.org.cn/藤新|Teng Xin (藤新)",
@@ -628,7 +628,9 @@
       "korean": "https://namu.wiki/w/김종엽|Kim Jong-yeop (김종엽)"
     },
     "categories": [
-      "Category:Introduced in Version 4.2"
+      "Category:Introduced in Version 4.2",
+      "Category:Released in Version 4.4",
+      "Category:Version"
     ]
   },
   {
@@ -1209,7 +1211,7 @@
       "rin-tohsaka"
     ],
     "releaseDate": "2026-07-24",
-    "releasePatch": "4.2",
+    "releasePatch": "4.4",
     "voiceActors": {
       "english": "|vaCN = https://zh.moegirl.org.cn/朔小兔|Shuo Xiaotu (朔小兔)",
       "chinese": "https://zh.moegirl.org.cn/朔小兔|Shuo Xiaotu (朔小兔)",
@@ -1217,7 +1219,9 @@
       "korean": "https://namu.wiki/w/김보민(성우)|Kim Bo-min (김보민)"
     },
     "categories": [
-      "Category:Introduced in Version 4.2"
+      "Category:Introduced in Version 4.2",
+      "Category:Released in Version 4.4",
+      "Category:Version"
     ]
   },
   {

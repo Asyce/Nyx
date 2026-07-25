@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T11:48:06.668Z",
+  "generatedAt": "2026-07-25T03:26:46.721Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,12 +9,12 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-07-24T11:48:06.668Z",
+      "lastSuccessfulFetch": "2026-07-25T03:26:46.682Z",
       "codes": [
         {
           "code": "LEGEDILJKSGM",
           "rewards": "Primogem x 60, Adventurer's Experience x 5",
-          "added": "2026-07-24",
+          "added": "2026-07-25",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM",
           "hoyoVerified": true,
           "premium": true,
@@ -54,12 +54,12 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-07-24T11:48:06.656Z",
+      "lastSuccessfulFetch": "2026-07-25T03:26:46.721Z",
       "codes": [
         {
           "code": "4TKSX77Y58QK",
           "rewards": "30 stellar jade, three traveler's guides, five condensed aether, four lost gold fragments, and 20k credits",
-          "added": "2026-07-24",
+          "added": "2026-07-25",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK",
           "hoyoVerified": true,
           "premium": true,
@@ -70,7 +70,7 @@
         {
           "code": "5S6ZHRWTDNJB",
           "rewards": "60 stellar jade",
-          "added": "2026-07-24",
+          "added": "2026-07-25",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB",
           "hoyoVerified": true,
           "premium": true,
@@ -81,7 +81,7 @@
         {
           "code": "CREATIONNYMPH",
           "rewards": "60 stellar jade and one fuel",
-          "added": "2026-07-24",
+          "added": "2026-07-25",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH",
           "hoyoVerified": true,
           "premium": true,
@@ -92,7 +92,7 @@
         {
           "code": "CTK5DRQVT48F",
           "rewards": "",
-          "added": "2026-07-24",
+          "added": "2026-07-25",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=CTK5DRQVT48F",
           "hoyoVerified": true,
           "premium": false,
@@ -103,7 +103,7 @@
         {
           "code": "FAREWELL",
           "rewards": "60 stellar jade and one fuel",
-          "added": "2026-07-24",
+          "added": "2026-07-25",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL",
           "hoyoVerified": true,
           "premium": true,
@@ -114,7 +114,7 @@
         {
           "code": "IFYOUAREREADINGTHIS",
           "rewards": "60 stellar jade and one fuel",
-          "added": "2026-07-24",
+          "added": "2026-07-25",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS",
           "hoyoVerified": true,
           "premium": true,
@@ -125,8 +125,19 @@
         {
           "code": "OMEGA",
           "rewards": "60 stellar jade and one fuel",
-          "added": "2026-07-24",
+          "added": "2026-07-25",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA",
+          "hoyoVerified": true,
+          "premium": true,
+          "premium100": false,
+          "cwSeen": true,
+          "firstSeen": "2026-07-05T17:19:05.883Z"
+        },
+        {
+          "code": "STARRAILGIFT",
+          "rewards": "50 stellar jade, 10k credits, two traveler's guides, and five bottled soda",
+          "added": "2026-07-25",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT",
           "hoyoVerified": true,
           "premium": true,
           "premium100": false,
@@ -145,17 +156,6 @@
           "premium100": false,
           "cwSeen": true,
           "firstSeen": "2026-07-24T11:48:06.656Z"
-        },
-        {
-          "code": "STARRAILGIFT",
-          "rewards": "50 stellar jade, 10k credits, two traveler's guides, and five bottled soda",
-          "added": "2026-07-24",
-          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT",
-          "hoyoVerified": true,
-          "premium": true,
-          "premium100": false,
-          "cwSeen": true,
-          "firstSeen": "2026-07-05T17:19:05.883Z"
         },
         {
           "code": "BESTCOFFEEEVER",
@@ -186,12 +186,12 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-07-24T11:48:06.652Z",
+      "lastSuccessfulFetch": "2026-07-25T03:26:46.712Z",
       "codes": [
         {
           "code": "ROSCAELIFER0617",
           "rewards": "Polychrome x 30",
-          "added": "2026-07-24",
+          "added": "2026-07-25",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ROSCAELIFER0617",
           "hoyoVerified": true,
           "premium": true,
@@ -202,7 +202,7 @@
         {
           "code": "ZENLESSGIFT",
           "rewards": "50 polychrome, two official investigator logs, three w-engine power supplies, and one bangboo algorithm module",
-          "added": "2026-07-24",
+          "added": "2026-07-25",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT",
           "hoyoVerified": true,
           "premium": true,
@@ -213,8 +213,30 @@
         {
           "code": "ZZZ30BANGBOO",
           "rewards": "Polychrome x 60, Denny x 6,666",
-          "added": "2026-07-24",
+          "added": "2026-07-25",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO",
+          "hoyoVerified": true,
+          "premium": true,
+          "premium100": false,
+          "cwSeen": true,
+          "firstSeen": "2026-07-05T17:19:07.479Z"
+        },
+        {
+          "code": "ZZZSEASON3",
+          "rewards": "Polychrome x 50",
+          "added": "2026-07-25",
+          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSEASON3",
+          "hoyoVerified": true,
+          "premium": true,
+          "premium100": false,
+          "cwSeen": true,
+          "firstSeen": "2026-07-05T17:19:07.479Z"
+        },
+        {
+          "code": "ZZZSTEAM",
+          "rewards": "60 polychrome, two w",
+          "added": "2026-07-25",
+          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM",
           "hoyoVerified": true,
           "premium": true,
           "premium100": false,
@@ -231,28 +253,6 @@
           "premium100": false,
           "cwSeen": false,
           "firstSeen": "2026-07-17T15:01:00.612Z"
-        },
-        {
-          "code": "ZZZSEASON3",
-          "rewards": "Polychrome x 50",
-          "added": "2026-07-24",
-          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSEASON3",
-          "hoyoVerified": true,
-          "premium": true,
-          "premium100": false,
-          "cwSeen": true,
-          "firstSeen": "2026-07-05T17:19:07.479Z"
-        },
-        {
-          "code": "ZZZSTEAM",
-          "rewards": "60 polychrome, two w",
-          "added": "2026-07-24",
-          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM",
-          "hoyoVerified": true,
-          "premium": true,
-          "premium100": false,
-          "cwSeen": true,
-          "firstSeen": "2026-07-05T17:19:07.479Z"
         },
         {
           "code": "ZZZ2YEAR",
@@ -283,7 +283,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-07-24T11:48:06.622Z",
+      "lastSuccessfulFetch": "2026-07-25T03:26:46.710Z",
       "codes": [
         {
           "code": "F5F4D3B2A2",
@@ -304,7 +304,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-07-24T11:48:06.602Z",
+      "lastSuccessfulFetch": "2026-07-25T03:26:46.703Z",
       "codes": [
         {
           "code": "ENDFIELDRENEW",

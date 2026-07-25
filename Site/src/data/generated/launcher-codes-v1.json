@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-24T11:48:06.668Z",
+  "generatedAt": "2026-07-25T03:26:46.721Z",
   "games": {
     "gi": [
       {
         "code": "LEGEDILJKSGM",
-        "added": "2026-07-24",
+        "added": "2026-07-25",
         "amount": 60,
         "currency": "Primogems"
       }
@@ -13,64 +13,64 @@
     "hsr": [
       {
         "code": "5S6ZHRWTDNJB",
-        "added": "2026-07-24",
+        "added": "2026-07-25",
         "amount": 60,
         "currency": "Stellar Jade"
       },
       {
         "code": "4TKSX77Y58QK",
-        "added": "2026-07-24",
+        "added": "2026-07-25",
         "amount": 30,
         "currency": "Stellar Jade"
       },
       {
         "code": "CREATIONNYMPH",
-        "added": "2026-07-24",
+        "added": "2026-07-25",
         "amount": 60,
         "currency": "Stellar Jade"
       },
       {
         "code": "FAREWELL",
-        "added": "2026-07-24",
+        "added": "2026-07-25",
         "amount": 60,
         "currency": "Stellar Jade"
       },
       {
         "code": "IFYOUAREREADINGTHIS",
-        "added": "2026-07-24",
+        "added": "2026-07-25",
         "amount": 60,
         "currency": "Stellar Jade"
       }
     ],
     "zzz": [
       {
-        "code": "ZZZDREAMLAND",
-        "added": "2026-07-24",
-        "amount": 30,
-        "currency": "Polychrome"
-      },
-      {
         "code": "ROSCAELIFER0617",
-        "added": "2026-07-24",
+        "added": "2026-07-25",
         "amount": 30,
         "currency": "Polychrome"
       },
       {
         "code": "ZENLESSGIFT",
-        "added": "2026-07-24",
+        "added": "2026-07-25",
         "amount": 50,
         "currency": "Polychrome"
       },
       {
         "code": "ZZZ30BANGBOO",
-        "added": "2026-07-24",
+        "added": "2026-07-25",
         "amount": 60,
         "currency": "Polychrome"
       },
       {
         "code": "ZZZSEASON3",
-        "added": "2026-07-24",
+        "added": "2026-07-25",
         "amount": 50,
+        "currency": "Polychrome"
+      },
+      {
+        "code": "ZZZSTEAM",
+        "added": "2026-07-25",
+        "amount": 60,
         "currency": "Polychrome"
       }
     ],
@@ -84,5 +84,5 @@
       }
     ]
   },
-  "revision": "6ace3a5ae6df669b5bbf6af515cfb289b3734edec00efa3a800aa12a7bf60de3"
+  "revision": "290e02a2a7bf2b37336cfe2c42252d48e2872110c38ffa3e9d62b2a85023657a"
 }

@@ -1,13 +1,13 @@
 {
   "provider": "Prydwen",
   "game": "hsr",
-  "generatedAt": "2026-07-24T07:45:10.137Z",
+  "generatedAt": "2026-07-25T07:31:46.218Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 11,
-      "unchanged": 84
+      "changed": 3,
+      "unchanged": 92
     }
   },
   "sections": {
@@ -16,73 +16,25 @@
       "removed": [],
       "changed": [
         {
-          "id": "characters:anaxa",
-          "name": "Anaxa",
-          "previousHash": "c4dd3d927450ef7d3eb61107c5a5043ac508dd6a966927a2dbf0abdad17a4783",
-          "currentHash": "43b713c01120ef91d5ab280442dfabc41382f158e59e5fbcb61c54d994fa66ef"
-        },
-        {
-          "id": "characters:archer",
-          "name": "Archer",
-          "previousHash": "012d913b0c2d3c7a0bf8b36d173199b40f7ef12bcf83a95f9bd6b393e4ad755c",
-          "currentHash": "934c99acf0c941a9a696d680a3638f09602c895faa7b7369e02ea7d24871d0d9"
-        },
-        {
-          "id": "characters:gilgamesh",
-          "name": "Gilgamesh",
-          "previousHash": "256e51eba63d993916e016300968fa181095145132d6b27807cfe2dc1dcf48c4",
-          "currentHash": "f8cb81b15f6b1d03be87f61aff3c5c93930ca039b999e5590343c61450d6e44a"
-        },
-        {
-          "id": "characters:himeko",
-          "name": "Himeko",
-          "previousHash": "4bc4f685aba88cf7afcfe2f9a2cddafbed2105d3e66c538110ba79253e43478a",
-          "currentHash": "ba53c369d33aed1700eff36fbbaace010e7341193d890e3b8f4af43ad4556835"
-        },
-        {
-          "id": "characters:himeko-nova",
-          "name": "Himeko Nova",
-          "previousHash": "eab1e1d9c6ce35cd98062c8d957452f246202308ca1c2be4c11596e19faec452",
-          "currentHash": "e0e9717fa1e26a2c0aae0c21ff56ccfbc6758e6fc676637f59a3f0f1b085537e"
-        },
-        {
           "id": "characters:lynx",
           "name": "Lynx",
-          "previousHash": "40f3a9308dac2f30066e3cba936c78942cccaaee276db2375459ec8fce481c98",
-          "currentHash": "00f931b4796c8599588c1bf55d7d70715e29cc4e9fcfa384fd4d7af753460d86"
+          "previousHash": "00f931b4796c8599588c1bf55d7d70715e29cc4e9fcfa384fd4d7af753460d86",
+          "currentHash": "40f3a9308dac2f30066e3cba936c78942cccaaee276db2375459ec8fce481c98"
         },
         {
           "id": "characters:mydei",
           "name": "Mydei",
-          "previousHash": "bc3c157db492136a5f0efe23121d8bb98f9d5b2b5342b0a9332afe0de7d55cc3",
-          "currentHash": "ae03d2c8943020c7751596666f8aba466c4e896f1fc8ece5809b088fd191d56c"
-        },
-        {
-          "id": "characters:rin-tohsaka",
-          "name": "Rin Tohsaka",
-          "previousHash": "08e4a50893f19116b5ab805207630f16a865c0fd4d6e2e79d421d1b01c43f000",
-          "currentHash": "51fff50906e790d4c63993a7e407265f48109204edb298c17a8470f150c853a4"
+          "previousHash": "ae03d2c8943020c7751596666f8aba466c4e896f1fc8ece5809b088fd191d56c",
+          "currentHash": "bc3c157db492136a5f0efe23121d8bb98f9d5b2b5342b0a9332afe0de7d55cc3"
         },
         {
           "id": "characters:saber",
           "name": "Saber",
-          "previousHash": "b01ec9271ee59a55a1388972c32b55c01e52eed4b956d47ca97d1c3d52dab033",
-          "currentHash": "d2044cf2f91f2d89ae770a41af9383a8aa92e77877bcfecf4cebc20601a9fc57"
-        },
-        {
-          "id": "collection:characters",
-          "name": "Honkai Star Rail Characters & Build Guides",
-          "previousHash": "1d2550f881a463b15b682add803eadc4477a0a17306277ce6137b4a640ed44fd",
-          "currentHash": "eb38867b9e8b4c56a80371897fea319a3ce54e50d86b23addefb380eefc2ee86"
-        },
-        {
-          "id": "collection:light-cones",
-          "name": "Honkai: Star Rail Light Cones",
-          "previousHash": "c0bc38e2a734cb7bdb950590a268085db785e333e7022ae39ba7dc1ed8ccd263",
-          "currentHash": "7e1d1182a41bfab5d1cda9c45ac2490c509ddda35c638a26db4cea6358936222"
+          "previousHash": "d2044cf2f91f2d89ae770a41af9383a8aa92e77877bcfecf4cebc20601a9fc57",
+          "currentHash": "85678bfcfc7b0411876c80e0150b4361e45ddc579f15ec3b91bc2a0665476e66"
         }
       ],
-      "unchanged": 84,
+      "unchanged": 92,
       "totals": {
         "previous": 95,
         "current": 95

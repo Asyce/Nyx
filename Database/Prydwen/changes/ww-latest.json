@@ -1,28 +1,21 @@
 {
   "provider": "Prydwen",
   "game": "ww",
-  "generatedAt": "2026-07-24T07:45:10.137Z",
+  "generatedAt": "2026-07-25T07:31:46.218Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 1,
-      "unchanged": 62
+      "changed": 0,
+      "unchanged": 63
     }
   },
   "sections": {
     "records": {
       "added": [],
       "removed": [],
-      "changed": [
-        {
-          "id": "characters:baizhi",
-          "name": "Baizhi",
-          "previousHash": "d5c0e238edfc793ccac0a096c15deb81741ac58deb827aa0d58ec0e7c1aaadb0",
-          "currentHash": "555d28bcd7e122b2d1b1e175f6c6d6e8d712edf056ce85b13ad446a280a995bb"
-        }
-      ],
-      "unchanged": 62,
+      "changed": [],
+      "unchanged": 63,
       "totals": {
         "previous": 63,
         "current": 63

@@ -1,11 +1,11 @@
 {
   "game": "endfield",
-  "updatedAt": "2026-07-24T07:47:09.626Z",
+  "updatedAt": "2026-07-25T07:33:50.870Z",
   "hashes": {
     "characters": {
-      "arcane": "8ccf12b7047c11d1862ca62bec8cab27727c38bd46954e7e685c65cfd70c5aa4",
+      "arcane": "4cfcc844154f3797cca40888e1a120426ba44cb69bf5645c0335b9c0c3023f52",
       "ardelia": "2aa989145867d020463aefeb738f07b94af727c991660d14d715964b115fc8a3",
-      "camille": "bd8b921c4d17eb209af81a56f08fea7899f80a435149ccfa90696cc3f1437546",
+      "camille": "69ba60e907476c3484f745ecfaff4749f69302216f10f3ad0f8f9d5894005e08",
       "ember": "a03bfcf7b4faecaa2c8f3c09c8d5c66f6a695bd6baae43ca6c1f3051835eed9d",
       "endministrator-male": "b9dfe0f67e81750d4bb04b417377c220018daa8860dfe09fcf6a03364dca92f9",
       "endministrator-female": "c2d1834304254e9adb997392fe655d933f258fcc47522f15952904765556147d",

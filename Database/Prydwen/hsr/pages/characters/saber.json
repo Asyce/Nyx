@@ -11,7 +11,7 @@
   "sourcePath": "/star-rail/characters/saber",
   "contentStatus": "live",
   "statusLabels": [],
-  "scrapedAt": "2026-07-24T07:45:10.137Z",
+  "scrapedAt": "2026-07-25T07:31:46.218Z",
   "updatedText": "31/May/2026",
   "meta": {
     "title": "Saber Best Build Guide | Honkai: Star Rail",
@@ -214,16 +214,6 @@
       "height": 52
     },
     {
-      "id": "0edbfbfc2eca",
-      "sourceHash": "0edbfbfc2eca",
-      "kind": "relics",
-      "name": "The Ashblazing Grand Duke",
-      "fileStem": "the-ashblazing-grand-duke",
-      "path": "Prydwen/hsr/assets/relics/the-ashblazing-grand-duke-0edbfbfc2eca.webp",
-      "width": 55,
-      "height": 55
-    },
-    {
       "id": "093d3932e1af",
       "sourceHash": "093d3932e1af",
       "kind": "relics",
@@ -304,62 +294,22 @@
       "height": 25
     },
     {
+      "id": "f70d7668d425",
+      "sourceHash": "f70d7668d425",
+      "kind": "characters",
+      "name": "Gilgamesh",
+      "fileStem": "gilgamesh-icon",
+      "path": "Prydwen/hsr/assets/characters/gilgamesh-f70d7668d425.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
       "id": "c4a9c00e98ef",
       "sourceHash": "c4a9c00e98ef",
       "kind": "characters",
       "name": "Huohuo",
       "fileStem": "huohuo-icon",
       "path": "Prydwen/hsr/assets/characters/huohuo-c4a9c00e98ef.webp",
-      "width": 45,
-      "height": 45
-    },
-    {
-      "id": "714348f14d48",
-      "sourceHash": "714348f14d48",
-      "kind": "characters",
-      "name": "Dan Heng • Permansor Terrae",
-      "fileStem": "dan-heng-permansor-terrae-icon",
-      "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
-      "width": 45,
-      "height": 45
-    },
-    {
-      "id": "3d568cb7f29d",
-      "sourceHash": "3d568cb7f29d",
-      "kind": "characters",
-      "name": "Sunday",
-      "fileStem": "sunday-icon",
-      "path": "Prydwen/hsr/assets/characters/sunday-3d568cb7f29d.webp",
-      "width": 45,
-      "height": 45
-    },
-    {
-      "id": "239e290d80b6",
-      "sourceHash": "239e290d80b6",
-      "kind": "characters",
-      "name": "Bronya",
-      "fileStem": "bronya-icon",
-      "path": "Prydwen/hsr/assets/characters/bronya-239e290d80b6.webp",
-      "width": 45,
-      "height": 45
-    },
-    {
-      "id": "b77207bce6c8",
-      "sourceHash": "b77207bce6c8",
-      "kind": "characters",
-      "name": "Ruan Mei",
-      "fileStem": "ruan-mei-icon",
-      "path": "Prydwen/hsr/assets/characters/ruan-mei-b77207bce6c8.webp",
-      "width": 45,
-      "height": 45
-    },
-    {
-      "id": "7eec89c1a7e2",
-      "sourceHash": "7eec89c1a7e2",
-      "kind": "characters",
-      "name": "Silver Wolf",
-      "fileStem": "silver-wolf-icon",
-      "path": "Prydwen/hsr/assets/characters/silver-wolf-7eec89c1a7e2.webp",
       "width": 45,
       "height": 45
     },
@@ -384,26 +334,6 @@
       "height": 45
     },
     {
-      "id": "e985c6a49a99",
-      "sourceHash": "e985c6a49a99",
-      "kind": "characters",
-      "name": "Robin",
-      "fileStem": "robin-icon",
-      "path": "Prydwen/hsr/assets/characters/robin-e985c6a49a99.webp",
-      "width": 45,
-      "height": 45
-    },
-    {
-      "id": "f70d7668d425",
-      "sourceHash": "f70d7668d425",
-      "kind": "characters",
-      "name": "Gilgamesh",
-      "fileStem": "gilgamesh-icon",
-      "path": "Prydwen/hsr/assets/characters/gilgamesh-f70d7668d425.webp",
-      "width": 45,
-      "height": 45
-    },
-    {
       "id": "5dc434858594",
       "sourceHash": "5dc434858594",
       "kind": "characters",
@@ -422,6 +352,16 @@
       "path": "Prydwen/hsr/assets/icons/wind-ee11bd390c9a.webp",
       "width": 22,
       "height": 22
+    },
+    {
+      "id": "3d568cb7f29d",
+      "sourceHash": "3d568cb7f29d",
+      "kind": "characters",
+      "name": "Sunday",
+      "fileStem": "sunday-icon",
+      "path": "Prydwen/hsr/assets/characters/sunday-3d568cb7f29d.webp",
+      "width": 60,
+      "height": 60
     },
     {
       "id": "913ff64407f2",
@@ -444,6 +384,16 @@
       "height": 22
     },
     {
+      "id": "714348f14d48",
+      "sourceHash": "714348f14d48",
+      "kind": "characters",
+      "name": "Dan Heng • Permansor Terrae",
+      "fileStem": "dan-heng-permansor-terrae-icon",
+      "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
       "id": "e0db16ed6c66",
       "sourceHash": "e0db16ed6c66",
       "kind": "icons",
@@ -454,12 +404,32 @@
       "height": 22
     },
     {
+      "id": "e985c6a49a99",
+      "sourceHash": "e985c6a49a99",
+      "kind": "characters",
+      "name": "Robin",
+      "fileStem": "robin-icon",
+      "path": "Prydwen/hsr/assets/characters/robin-e985c6a49a99.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
       "id": "da99d2d9a505",
       "sourceHash": "da99d2d9a505",
       "kind": "characters",
       "name": "Sparkle",
       "fileStem": "sparkle-icon",
       "path": "Prydwen/hsr/assets/characters/sparkle-da99d2d9a505.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "7eec89c1a7e2",
+      "sourceHash": "7eec89c1a7e2",
+      "kind": "characters",
+      "name": "Silver Wolf",
+      "fileStem": "silver-wolf-icon",
+      "path": "Prydwen/hsr/assets/characters/silver-wolf-7eec89c1a7e2.webp",
       "width": 60,
       "height": 60
     },
@@ -875,18 +845,8 @@
       "id": "best-relic-sets-27",
       "level": 2,
       "heading": "Best Relic Sets",
-      "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n The Ashblazing Grand Duke ( 4 -PC)\n\n 104.92%\n\n Wavestrider Captain ( 4 -PC)\n\n Saber is often played in Hyper Carry style teams alongside one - or multiple - characters capable of targetting her with abilities, ensuring the 4P of this set is usually always in play every Ultimate. The more frequently Saber is able to Ultimate, the better the uptime of this set and the better its performance - the opposite is also true, however.\n Usage: 74.69 %\n MoC: -\n PF: 24580\n AS: 3189\n\n 100%\n\n Scholar Lost in Erudition ( 4 -PC)\n\n If you don't have 4P Wavestrider or have a better set of 4P Scholar Lost, it can be used as a viable and more consistent alternative. It only falls slightly behind in most cases - this is especially true if you have an abundance of ATK from other sources.\n Usage: 19.95 %\n MoC: -\n PF: 23180\n AS: 3209\n\n 97.10%\n\n Scholar Lost in Erudition ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Wavestrider Captain\n\n Eagle of Twilight Line\n\n The Wind-Soaring Valorous\n\n Usage: 0.79 %\n MoC: -\n PF: 0\n AS: 0",
+      "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 104.92%\n\n Wavestrider Captain ( 4 -PC)\n\n Wavestrider is best on Saber with teammates that can target her such as with Remembrance Trailblazer and Huohuo on a Skill-spam rotation. Otherwise, it may be difficult to activate. Aim to use her Ultimate during her turn to 'extend' the buff duration by another turn.\n Usage: 74.69 %\n MoC: -\n PF: 24580\n AS: 3189\n\n 100%\n\n Scholar Lost in Erudition ( 4 -PC)\n\n If you don't have 4P Wavestrider or have a better set of 4P Scholar Lost, it can be used as a viable and more consistent alternative. It only falls slightly behind in most cases - this is especially true if you have an abundance of ATK from other sources.\n Usage: 19.95 %\n MoC: -\n PF: 23180\n AS: 3209\n\n 97.10%\n\n Scholar Lost in Erudition ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Wavestrider Captain\n\n Eagle of Twilight Line\n\n The Wind-Soaring Valorous\n\n Usage: 0.79 %\n MoC: -\n PF: 0\n AS: 0",
       "assets": [
-        {
-          "id": "0edbfbfc2eca",
-          "sourceHash": "0edbfbfc2eca",
-          "kind": "relics",
-          "name": "The Ashblazing Grand Duke",
-          "fileStem": "the-ashblazing-grand-duke",
-          "path": "Prydwen/hsr/assets/relics/the-ashblazing-grand-duke-0edbfbfc2eca.webp",
-          "width": 55,
-          "height": 55
-        },
         {
           "id": "093d3932e1af",
           "sourceHash": "093d3932e1af",
@@ -1043,8 +1003,18 @@
       "id": "synergy-33",
       "level": 2,
       "heading": "Synergy",
-      "text": "Huohuo - Saber, being the energy hungry sponge she is, naturally would love Huohuo on the team thanks to her 20% energy regenerating ultimate, which grants Saber a whopping 72 energy, while also accelerating other teammates ultimates, meaning faster Core Resonance for Saber. Huohuo's buffs are also solid for a sustain, but she does come with the downside of being somewhat SP hungry at the start of fights - the same time Saber is.\n Dan Heng • Permansor Terrae - Go-to sustain option for ATK-scaling teams. Permansor Terrae can provide strong Shields to the entire team, with an ATK buff for a single teammate and extra ATK multipliers. Notably with Sunday, his Souldragon will enable to the target to receive the full 80% DMG Bonus from Sunday's Skill and Souldragon will be Advanced along with the target to repeatedly refresh Shields on the team.\n Sunday - The best choice for this role is Sunday, thanks to his exceptional buffs and potent energy regeneration, allowing Saber to reach her action advancement and ultimate much much sooner.\n Bronya - Bronya is a more accessible alternative to Sunday but with worse uptime buffs (a big issue with Saber's advancement), far worse SP economy and no energy regeneration. All this makes her quite the downgrade, but still servicable.\n Ruan Mei - Offers modest amplification for Saber, but improves her toughness damage which can be tremendous in endgame modes like Apocalyptic Shadow.\n Silver Wolf - Brings a tonne of DEF SHRED and RES PEN to the table while also bringing the potential to implant WIND weakness into enemies, boosting Saber's damage and allowing her to play off element if needed.\n Tribbie - Offer unconditional almost always present damage amplification for Saber while also outputting excellent AoE damage.\n Trailblazer • Remembrance - Offers another semi-consistant advancement but also grants a tremendous amount of TRUE DMG% - a multiplier Saber usually doesn't have access to.\n Robin - Grants Saber great buffs while offering the whole team a full action advancement when ulting, allowing for incredibly powerful cycle breakpoints in cycle based modes while also being strong across the board in others.\n Gilgamesh - Gilgamesh offers massive performance boost to Saber through a unique Joint Follow-up ATK with Saber, and from his Trace buff which is more effective on allies with high Energy pool. The Joint Follow-up ATK has a combined DMG multiplier of 1000% to all enemy targets, regenerates 120 Energy for Saber while her next Ultimate will gain a 2x independent damage multiplier increase. Gilgamesh's Talent will also increase his and Saber's ATK and CRIT DMG by 120%, while Saber's high Energy cost Ultimate can regenerate decent amounts of fixed Energy for Gilgamesh.",
+      "text": "Gilgamesh - Gilgamesh offers massive performance boost to Saber through a unique Joint Follow-up ATK with her, while he has a Trace buff that becomes more effective on allies with high Energy pool. The Joint Follow-up ATK has a combined DMG multiplier of 1000% to all enemy targets, regenerates 120 Energy for Saber while her next Ultimate will gain a 2x independent damage multiplier increase. Gilgamesh's Talent will also increase his and Saber's ATK and CRIT DMG by 120%, while Saber's high Energy cost Ultimate can regenerate decent amounts of fixed Energy for Gilgamesh.\n Huohuo - Saber, being the energy hungry sponge she is, naturally would love Huohuo on the team thanks to her 20% energy regenerating ultimate, which grants Saber a whopping 72 energy, while also accelerating other teammates ultimates, meaning faster Core Resonance for Saber. Huohuo's buffs are also solid for a sustain able to provide 64% ATK to her.\n Tribbie - Offer unconditional almost always present damage amplification for Saber while also outputting excellent AoE damage, can generate Core Resonance with her fast Ultimate rotation.\n Trailblazer • Remembrance - Offers another semi-consistant advancement but also grants a tremendous amount of TRUE DMG% - a multiplier Saber usually doesn't have access to.",
       "assets": [
+        {
+          "id": "f70d7668d425",
+          "sourceHash": "f70d7668d425",
+          "kind": "characters",
+          "name": "Gilgamesh",
+          "fileStem": "gilgamesh-icon",
+          "path": "Prydwen/hsr/assets/characters/gilgamesh-f70d7668d425.webp",
+          "width": 45,
+          "height": 45
+        },
         {
           "id": "c4a9c00e98ef",
           "sourceHash": "c4a9c00e98ef",
@@ -1052,56 +1022,6 @@
           "name": "Huohuo",
           "fileStem": "huohuo-icon",
           "path": "Prydwen/hsr/assets/characters/huohuo-c4a9c00e98ef.webp",
-          "width": 45,
-          "height": 45
-        },
-        {
-          "id": "714348f14d48",
-          "sourceHash": "714348f14d48",
-          "kind": "characters",
-          "name": "Dan Heng • Permansor Terrae",
-          "fileStem": "dan-heng-permansor-terrae-icon",
-          "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
-          "width": 45,
-          "height": 45
-        },
-        {
-          "id": "3d568cb7f29d",
-          "sourceHash": "3d568cb7f29d",
-          "kind": "characters",
-          "name": "Sunday",
-          "fileStem": "sunday-icon",
-          "path": "Prydwen/hsr/assets/characters/sunday-3d568cb7f29d.webp",
-          "width": 45,
-          "height": 45
-        },
-        {
-          "id": "239e290d80b6",
-          "sourceHash": "239e290d80b6",
-          "kind": "characters",
-          "name": "Bronya",
-          "fileStem": "bronya-icon",
-          "path": "Prydwen/hsr/assets/characters/bronya-239e290d80b6.webp",
-          "width": 45,
-          "height": 45
-        },
-        {
-          "id": "b77207bce6c8",
-          "sourceHash": "b77207bce6c8",
-          "kind": "characters",
-          "name": "Ruan Mei",
-          "fileStem": "ruan-mei-icon",
-          "path": "Prydwen/hsr/assets/characters/ruan-mei-b77207bce6c8.webp",
-          "width": 45,
-          "height": 45
-        },
-        {
-          "id": "7eec89c1a7e2",
-          "sourceHash": "7eec89c1a7e2",
-          "kind": "characters",
-          "name": "Silver Wolf",
-          "fileStem": "silver-wolf-icon",
-          "path": "Prydwen/hsr/assets/characters/silver-wolf-7eec89c1a7e2.webp",
           "width": 45,
           "height": 45
         },
@@ -1122,26 +1042,6 @@
           "name": "Trailblazer • Remembrance",
           "fileStem": "trailblazer-remembrance-icon",
           "path": "Prydwen/hsr/assets/characters/trailblazer-remembrance-d3e344772d55.webp",
-          "width": 45,
-          "height": 45
-        },
-        {
-          "id": "e985c6a49a99",
-          "sourceHash": "e985c6a49a99",
-          "kind": "characters",
-          "name": "Robin",
-          "fileStem": "robin-icon",
-          "path": "Prydwen/hsr/assets/characters/robin-e985c6a49a99.webp",
-          "width": 45,
-          "height": 45
-        },
-        {
-          "id": "f70d7668d425",
-          "sourceHash": "f70d7668d425",
-          "kind": "characters",
-          "name": "Gilgamesh",
-          "fileStem": "gilgamesh-icon",
-          "path": "Prydwen/hsr/assets/characters/gilgamesh-f70d7668d425.webp",
           "width": 45,
           "height": 45
         }
@@ -1430,18 +1330,8 @@
       "sections": [
         {
           "heading": "Best Relic Sets",
-          "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n The Ashblazing Grand Duke ( 4 -PC)\n\n 104.92%\n\n Wavestrider Captain ( 4 -PC)\n\n Saber is often played in Hyper Carry style teams alongside one - or multiple - characters capable of targetting her with abilities, ensuring the 4P of this set is usually always in play every Ultimate. The more frequently Saber is able to Ultimate, the better the uptime of this set and the better its performance - the opposite is also true, however.\n Usage: 74.69 %\n MoC: -\n PF: 24580\n AS: 3189\n\n 100%\n\n Scholar Lost in Erudition ( 4 -PC)\n\n If you don't have 4P Wavestrider or have a better set of 4P Scholar Lost, it can be used as a viable and more consistent alternative. It only falls slightly behind in most cases - this is especially true if you have an abundance of ATK from other sources.\n Usage: 19.95 %\n MoC: -\n PF: 23180\n AS: 3209\n\n 97.10%\n\n Scholar Lost in Erudition ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Wavestrider Captain\n\n Eagle of Twilight Line\n\n The Wind-Soaring Valorous\n\n Usage: 0.79 %\n MoC: -\n PF: 0\n AS: 0",
+          "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 104.92%\n\n Wavestrider Captain ( 4 -PC)\n\n Wavestrider is best on Saber with teammates that can target her such as with Remembrance Trailblazer and Huohuo on a Skill-spam rotation. Otherwise, it may be difficult to activate. Aim to use her Ultimate during her turn to 'extend' the buff duration by another turn.\n Usage: 74.69 %\n MoC: -\n PF: 24580\n AS: 3189\n\n 100%\n\n Scholar Lost in Erudition ( 4 -PC)\n\n If you don't have 4P Wavestrider or have a better set of 4P Scholar Lost, it can be used as a viable and more consistent alternative. It only falls slightly behind in most cases - this is especially true if you have an abundance of ATK from other sources.\n Usage: 19.95 %\n MoC: -\n PF: 23180\n AS: 3209\n\n 97.10%\n\n Scholar Lost in Erudition ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Wavestrider Captain\n\n Eagle of Twilight Line\n\n The Wind-Soaring Valorous\n\n Usage: 0.79 %\n MoC: -\n PF: 0\n AS: 0",
           "assets": [
-            {
-              "id": "0edbfbfc2eca",
-              "sourceHash": "0edbfbfc2eca",
-              "kind": "relics",
-              "name": "The Ashblazing Grand Duke",
-              "fileStem": "the-ashblazing-grand-duke",
-              "path": "Prydwen/hsr/assets/relics/the-ashblazing-grand-duke-0edbfbfc2eca.webp",
-              "width": 55,
-              "height": 55
-            },
             {
               "id": "093d3932e1af",
               "sourceHash": "093d3932e1af",
@@ -1613,8 +1503,18 @@
       "sections": [
         {
           "heading": "Synergy",
-          "text": "Huohuo - Saber, being the energy hungry sponge she is, naturally would love Huohuo on the team thanks to her 20% energy regenerating ultimate, which grants Saber a whopping 72 energy, while also accelerating other teammates ultimates, meaning faster Core Resonance for Saber. Huohuo's buffs are also solid for a sustain, but she does come with the downside of being somewhat SP hungry at the start of fights - the same time Saber is.\n Dan Heng • Permansor Terrae - Go-to sustain option for ATK-scaling teams. Permansor Terrae can provide strong Shields to the entire team, with an ATK buff for a single teammate and extra ATK multipliers. Notably with Sunday, his Souldragon will enable to the target to receive the full 80% DMG Bonus from Sunday's Skill and Souldragon will be Advanced along with the target to repeatedly refresh Shields on the team.\n Sunday - The best choice for this role is Sunday, thanks to his exceptional buffs and potent energy regeneration, allowing Saber to reach her action advancement and ultimate much much sooner.\n Bronya - Bronya is a more accessible alternative to Sunday but with worse uptime buffs (a big issue with Saber's advancement), far worse SP economy and no energy regeneration. All this makes her quite the downgrade, but still servicable.\n Ruan Mei - Offers modest amplification for Saber, but improves her toughness damage which can be tremendous in endgame modes like Apocalyptic Shadow.\n Silver Wolf - Brings a tonne of DEF SHRED and RES PEN to the table while also bringing the potential to implant WIND weakness into enemies, boosting Saber's damage and allowing her to play off element if needed.\n Tribbie - Offer unconditional almost always present damage amplification for Saber while also outputting excellent AoE damage.\n Trailblazer • Remembrance - Offers another semi-consistant advancement but also grants a tremendous amount of TRUE DMG% - a multiplier Saber usually doesn't have access to.\n Robin - Grants Saber great buffs while offering the whole team a full action advancement when ulting, allowing for incredibly powerful cycle breakpoints in cycle based modes while also being strong across the board in others.\n Gilgamesh - Gilgamesh offers massive performance boost to Saber through a unique Joint Follow-up ATK with Saber, and from his Trace buff which is more effective on allies with high Energy pool. The Joint Follow-up ATK has a combined DMG multiplier of 1000% to all enemy targets, regenerates 120 Energy for Saber while her next Ultimate will gain a 2x independent damage multiplier increase. Gilgamesh's Talent will also increase his and Saber's ATK and CRIT DMG by 120%, while Saber's high Energy cost Ultimate can regenerate decent amounts of fixed Energy for Gilgamesh.",
+          "text": "Gilgamesh - Gilgamesh offers massive performance boost to Saber through a unique Joint Follow-up ATK with her, while he has a Trace buff that becomes more effective on allies with high Energy pool. The Joint Follow-up ATK has a combined DMG multiplier of 1000% to all enemy targets, regenerates 120 Energy for Saber while her next Ultimate will gain a 2x independent damage multiplier increase. Gilgamesh's Talent will also increase his and Saber's ATK and CRIT DMG by 120%, while Saber's high Energy cost Ultimate can regenerate decent amounts of fixed Energy for Gilgamesh.\n Huohuo - Saber, being the energy hungry sponge she is, naturally would love Huohuo on the team thanks to her 20% energy regenerating ultimate, which grants Saber a whopping 72 energy, while also accelerating other teammates ultimates, meaning faster Core Resonance for Saber. Huohuo's buffs are also solid for a sustain able to provide 64% ATK to her.\n Tribbie - Offer unconditional almost always present damage amplification for Saber while also outputting excellent AoE damage, can generate Core Resonance with her fast Ultimate rotation.\n Trailblazer • Remembrance - Offers another semi-consistant advancement but also grants a tremendous amount of TRUE DMG% - a multiplier Saber usually doesn't have access to.",
           "assets": [
+            {
+              "id": "f70d7668d425",
+              "sourceHash": "f70d7668d425",
+              "kind": "characters",
+              "name": "Gilgamesh",
+              "fileStem": "gilgamesh-icon",
+              "path": "Prydwen/hsr/assets/characters/gilgamesh-f70d7668d425.webp",
+              "width": 45,
+              "height": 45
+            },
             {
               "id": "c4a9c00e98ef",
               "sourceHash": "c4a9c00e98ef",
@@ -1622,56 +1522,6 @@
               "name": "Huohuo",
               "fileStem": "huohuo-icon",
               "path": "Prydwen/hsr/assets/characters/huohuo-c4a9c00e98ef.webp",
-              "width": 45,
-              "height": 45
-            },
-            {
-              "id": "714348f14d48",
-              "sourceHash": "714348f14d48",
-              "kind": "characters",
-              "name": "Dan Heng • Permansor Terrae",
-              "fileStem": "dan-heng-permansor-terrae-icon",
-              "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
-              "width": 45,
-              "height": 45
-            },
-            {
-              "id": "3d568cb7f29d",
-              "sourceHash": "3d568cb7f29d",
-              "kind": "characters",
-              "name": "Sunday",
-              "fileStem": "sunday-icon",
-              "path": "Prydwen/hsr/assets/characters/sunday-3d568cb7f29d.webp",
-              "width": 45,
-              "height": 45
-            },
-            {
-              "id": "239e290d80b6",
-              "sourceHash": "239e290d80b6",
-              "kind": "characters",
-              "name": "Bronya",
-              "fileStem": "bronya-icon",
-              "path": "Prydwen/hsr/assets/characters/bronya-239e290d80b6.webp",
-              "width": 45,
-              "height": 45
-            },
-            {
-              "id": "b77207bce6c8",
-              "sourceHash": "b77207bce6c8",
-              "kind": "characters",
-              "name": "Ruan Mei",
-              "fileStem": "ruan-mei-icon",
-              "path": "Prydwen/hsr/assets/characters/ruan-mei-b77207bce6c8.webp",
-              "width": 45,
-              "height": 45
-            },
-            {
-              "id": "7eec89c1a7e2",
-              "sourceHash": "7eec89c1a7e2",
-              "kind": "characters",
-              "name": "Silver Wolf",
-              "fileStem": "silver-wolf-icon",
-              "path": "Prydwen/hsr/assets/characters/silver-wolf-7eec89c1a7e2.webp",
               "width": 45,
               "height": 45
             },
@@ -1694,26 +1544,6 @@
               "path": "Prydwen/hsr/assets/characters/trailblazer-remembrance-d3e344772d55.webp",
               "width": 45,
               "height": 45
-            },
-            {
-              "id": "e985c6a49a99",
-              "sourceHash": "e985c6a49a99",
-              "kind": "characters",
-              "name": "Robin",
-              "fileStem": "robin-icon",
-              "path": "Prydwen/hsr/assets/characters/robin-e985c6a49a99.webp",
-              "width": 45,
-              "height": 45
-            },
-            {
-              "id": "f70d7668d425",
-              "sourceHash": "f70d7668d425",
-              "kind": "characters",
-              "name": "Gilgamesh",
-              "fileStem": "gilgamesh-icon",
-              "path": "Prydwen/hsr/assets/characters/gilgamesh-f70d7668d425.webp",
-              "width": 45,
-              "height": 45
             }
           ]
         }
@@ -1721,5 +1551,5 @@
     }
   },
   "tables": [],
-  "text": "Saber Best Build Guide | Honkai: Star Rail\n \n\n Honkai: Star Rail\n Home Database Characters Light Cones Relic Sets Banners\n Tier Lists Tier List\n Endgame Memory of Chaos Pure Fiction Apocalyptic Shadow Anomaly Arbitration\n Tools Patch Timeline\n Guides Guides\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Honkai: Star Rail\n /\n Characters\n /\n Saber\n Saber Best Build Guide\n Last updated: 31/May/2026\n\n Introduction\n Best guide and build for Saber from HSR (Honkai: Star Rail). Saber is a 5 ★ character from the Wind element who follows the Path of Destruction .\n The solitary Heroic Spirit traverses the long night of fate. The banner of the round table remains unfurled in a dream. Alas, the knight-king of Camelot has yet to reach that ever distant utopia. Though still a young maiden, she has heeded the call for this most unique iteration of the Holy Grail War. With the Sword in the Stone offering its choice once more, how shall she shatter the illusions of the past? \"The wishes I did not fulfil will end here.\"\n\n To learn more about Saber check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Video guide\n Saber has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 3.4\n\n Last major build/calcs update\n Patch 3.4\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Saber check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Kit\n\n Review\n\n Build and teams\n\n MoC/PF/AS Statistics\n\n Calculations\n\n Profile\n\n Skills\n Basic ATK\n Invisible Air: Barrier of the Wind King\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Wind DMG equal to #1[i]% of Saber's ATK to one designated enemy.\n Basic ATK (Enhanced)\n Release, the Golden Scepter\n AoE\n\n Lv. 1\n\n Energy gain: 30\n Break: 20\n\n Gains 2 \"Core Resonance\" and deals Wind DMG equal to #1[i]% of Saber's ATK to all enemies. If the number of enemies is 2/1 when this ability is used, additionally deals Wind DMG equal to #1[i]%/#2[i]% of Saber's ATK to all enemies.\n\n Skill\n Strike Air: Hammer of the Wind King\n Blast\n\n Lv. 1\n\n Energy gain: 30\n Break: 20 + 10 adjacent\n\n Deals Wind DMG equal to #1[i]% of Saber's ATK to one designated enemy, and deals Wind DMG equal to #2[i]% of Saber's ATK to adjacent targets. If Saber currently possesses \"Core Resonance\" and her Energy can be regenerated to full by consuming \"Core Resonance\" after this instance of Skill attack, then increase the DMG multiplier for this instance of Skill use by #3[i]% for each stack of \"Core Resonance,\" and consume all \"Core Resonance\" to regenerate Energy for Saber after attacking. Otherwise, immediately gains 3 point(s) of \"Core Resonance.\"\n\n Ultimate\n Excalibur\n AoE | 360 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: 20 + 40 adjacent\n\n Deals Wind DMG equal to #1[i]% of Saber's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance being Wind DMG equal to #2[i]% of Saber's ATK dealt to one random enemy. After using Ultimate, the next Basic ATK switches to \"Release, the Golden Scepter,\" and only \"Release, the Golden Scepter\" can be used.\n\n Talent\n Dragon Reactor Core\n Enhance\n\n Lv. 1\n\n Energy gain: 5\n Break: -\n\n Obtains 1 \"Core Resonance\" point(s) when entering battle. When any ally target uses an Ultimate, increases DMG dealt by Saber by #1[i]% for 2 turn(s) and obtains 3 \"Core Resonance\" point(s). Consuming 1 \"Core Resonance\" point will regenerate a fixed 8 Energy for Saber.\n\n Technique\n Behold, the King of Knights\n Enhance\n\n Energy gain: 0\n Break: -\n\n After using Technique, increases Saber's ATK by 35% for 2 turn(s) at the start of the next battle and gains 2 \"Core Resonance\".\n\n Major Traces\n A2 Major trace\n Knight of the Dragon\n\n Increases Saber's CRIT Rate by 20% . When entering battle and when using her Enhanced Basic ATK, obtains the 'Mana Burst' effect. Under the effect, if Saber has 'Core Resonance' and her Energy can be fully regenerated by using her Skill and consuming 'Core Resonance,' consumes 'Mana Burst' to recover 1 Skill Point for allies, and Saber immediately takes action.\n\n A4 Major trace\n Blessing of the Lake\n\n Saber can accumulate up to 120 excess Energy. After using Ultimate, the excess Energy is cleared and a corresponding amount is regenerated. When the battle starts, if Energy is below 60% , it is regenerated to 60% .\n\n A6 Major trace\n Crown of the Star\n\n When using Skill, increases Saber's CRIT DMG by 50% for 2 turns. During this battle, for each point of 'Core Resonance' gained, increases Saber's CRIT DMG by 4% , stacking up to 8 time(s).\n\n Minor Traces (total)\n Wind DMG\n + 22.4%\n\n CRIT Rate\n + 12%\n\n HP\n + 10%\n\n Eidolons\n E 1\n The Lost White Walls\n Eidolon 1\n\n Increases Ultimate DMG dealt by Saber by 60% . After Saber uses a Basic ATK or Skill, gains 1 \"Core Resonance.\"\n\n E 2\n The Lost Oath of the Round Table\n Eidolon 2\n\n For each point of \"Core Resonance\" gained in this battle, Saber's DMG dealt ignores 1% of the target's DEF. This effect can stack up to 15 time(s). When triggering the \"Core Resonance's\" Skill multiplier effect, each point of \"Core Resonance\" additionally increases the DMG multiplier for this instance of Skill by 7% .\n\n E 3\n A Wish Across Fifteen Centuries\n Eidolon 3\n\n Ultimate Lv. + 2 , up to a maximum of Lv. 15 . Basic ATK Lv. + 1 , up to a maximum of Lv. 10 .\n\n E 4\n The Saga of Sixteen Winter Days\n Eidolon 4\n\n Increases Saber's Wind RES PEN by 8% . After using Ultimate, increases Saber's Wind RES PEN by 4% . This effect can stack up to 3 time(s).\n\n E 5\n The Dreamed Utopian Dawn\n Eidolon 5\n\n Skill Lv. + 2 , up to a maximum of Lv. 15 . Talent Lv. + 2 , up to a maximum of Lv. 15 .\n\n E 6\n The Long Fated Night\n Eidolon 6\n\n Wind RES PEN of Ultimate DMG dealt by Saber increases by 20% , and the Overflow Energy that can be accumulated by the Trace \"Blessing of the Lake\" increases to 200 . When using Ultimate for the first time after entering battle, regenerates a fixed 300 Energy for Saber. This effect can be triggered 1 time after every 3 Ultimate use(s).\n\n Stats and materials\n\nEnable Ascension\n\n Level 80 stats\n HP\n\n 1241\n\n ATK\n\n 601\n\n DEF\n\n 654\n\n Speed\n\n 101\n\n Level 1 → 80 Ascension Materials\n\n Credit\n\n x 308000\n\n Thief's Instinct\n\n x 15\n\n Usurper's Scheme\n\n x 15\n\n A Glass of the Besotted Era\n\n x 65\n\n Conqueror's Will\n\n x 15\n\n CV\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Pros & Cons\n Pros\n Competitive damage in all gamemodes,\n\n Very strong burst damage Ultimate,\n\n Lots of free CRIT stats,\n\n Can accumulate excess Energy, allowing for flexibility in combat,\n\n Lots of good support options for her,\n\n Has a personal Action Advance and strong Energy restoration,\n\n Destruction character that has two fully AoE attacks,\n\n Rather high Toughness damage for a non-Break unit,\n\n She says the thing™ when she Ults.\n\n Cons\n One of the more challenging units to pilot well - autoplay struggles to use her potential,\n\n Best performing team is quite expensive,\n\n Struggles more in fully AoE settings where the Ultimate's Bounces are wasted on chaff,\n\n SP can become a real issue in some teams,\n\n Once her banner's gone, it's gone for good.\n\n Review (By Sushou)\n Saber is a true limited character as part of the Fate collab. She is a Wind Destruction character with an excess Energy mechanic, and is very Ultimate focused. She gains a damage bonus whenever allies use their Ultimates and will start gaining a unique resource called Core Resonance. Each point of Core Resonance will grant a fixed amount of Energy to Saber when consumed by her Skill, visible on the Energy bar as white Energy. She is a potent DPS character, but is very reliant on the player's skill to fully maximise.\n The Fate collab brings with it Saber and Archer, two very well known and beloved characters from that franchise. Saber, much like the name implies, is a swordplay focused individual. Compared to Archer, Saber is relatively more complex; her actual kit itself isn't really that complicated, but making the most of it is something that may prove to be quite difficult for the average player.\n Please remember that she is a true limited character; once she's gone, she's gone for good.\n Saber's Talent will grant 1 point of Core Resonance when entering battle. This is the cornerstone of her kit, and is referenced elsewhere very often. Whenever allies (including herself) use an Ultimate ability, Saber will gain 60% increased DMG for 2 turns, as well as 3 points of Core Resonance. Each point of Core Resonance will grant a fixed 8 Energy for Saber when consumed.\n This is quite an important detail, as Saber's Ultimate has a laughably huge Energy cost of 360, overtaking even the previous highest of 350 belonging to Aglaea, so you're going to need every bit of Energy you can get.\n Saber's Skill is a Blast AoE that deals up to 150% ATK to a target enemy and 75% ATK to adjacent foes. Using this Skill will also grant 3 points of Core Resonance.\n When Saber has Core Resonance, you'll see a secondary part of the Ultimate gauge glow white. This signifies how much Energy you have stocked in the form of Core Resonance points. If the entire remainder of the Ult gauge is white, this means you have enough Core Resonance points to fully refill your Energy. In this case, using Saber's Skill will add 14% to the ATK multiplier of the Skill for each point of Core Resonance, then consume all Core Resonance to restore Energy for Saber after she attacks.\n This can result in you seeing extreme Energy gains off of just a single Skill use when you have a lot of Core Resonance points, not to mention that the ability multiplier can get very out of hand very quickly, especially since there's no upper limit on the amount of Core Resonance that is considered. This also helps to keep up with the otherwise exorbitant Energy requirement of her Ultimate. After playing her for a little while, you’ll start to consider the white part of the Energy gauge as Energy you already have, and this should make it easier to think about.\n Speaking of her Ultimate, Saber will unsheathe Excalibur, bringing its full might down on her enemies. She will deal 280% ATK to all enemies on the field, and then deal an additional 10 instances of damage, each being equal to 110% ATK, Bouncing between enemies. This means if a single enemy is the recipient, this Ultimate will deal a colossal 1380% ATK, not to mention the rather absurd Toughness damage that also comes with so many Bounces.\n After using the Ultimate, Saber's next Basic ATK will be Enhanced and will lock her out of using her Skill. This Enhanced Basic ATK will be a fully AoE ability, hitting all enemies on the field for 150% ATK, and granting 2 points of Core Resonance. If there are only 2 enemies on the field, the Enhanced Basic deals an extra 150% ATK to both enemies, for a total of 300% ATK. If there is only one foe on the field, the additional damage is increased to 220%, for a total of 370% ATK. This Enhanced Basic restores 30 Energy.\n So far, nothing too overly complicated. You get Energy from just doing what you'd be doing anyway, using the team's Ultimates and using Saber's actions, all getting ready for a super powerful Ultimate hit that then gives an Enhanced Basic to kick start the cycle again.\n Onto the Bonus Traces. A2 will passively increase Saber's CRIT Rate by 20%. Additionally, when entering battle, and also after using her Enhanced Basic ATK, Saber will gain the Mana Burst effect. While under this effect, if Saber has Core Resonance and her Energy can be fully restored by using her Skill and consuming the Core Resonance, Mana Burst will be consumed in order to restore 1 Skill Point for the team and also immediately take action again.\n This is a 100% Action Advance for her, so buffs will tick down from this. What this means is that if Saber uses an action that restores her Energy, and it puts her Energy into the threshold to be refilled by her next Skill use, she gets to do that immediately instead of waiting for her next natural turn.\n Saber's A4 will allow her to accumulate up to 120 excess Energy, shown on the buff bar as a numeric value. After she uses her Ultimate, the excess Energy is cleared and returned as Energy. Additionally, when entering a battle, if Saber's Energy is below 60%, it will be set to 60%.\n This is immensely useful for not wasting precious Energy, especially from consuming a large amount of Core Resonance all at once. Without this Trace, a significant portion of that Energy would be lost, but getting to keep up to 120 in excess means you can actually also hold off on using her Ultimate without losing out (up to a point) if it'd be more beneficial to wait in the battle.\n Lastly, her A6 will grant Saber passive stat benefits. When using her Skill, she will gain 50% CRIT DMG for 2 turns. In addition to this, each point of Core Resonance that Saber gains will increase her CRIT DMG by 4%, stacking up to 8 times. This benefit lasts for the duration of the battle, and the total CRIT DMG provided by this Trace is 82% after gaining 8 points of Core Resonance.\n These are really impactful Bonus Traces, but the A2 in particular can create quite the headache to play around. Having the ability to Action Advance yourself means you get to put out more damage, and since it also refunds a Skill Point, you're not at too much risk by doing so, but actually getting to make use of it consistently is quite challenging and is not something that is easily controllable once you factor in enemy actions and RNG sources of Energy.\n It's not too big of a deal generally speaking, but the A2 can also be triggered off of a Basic ATK, so you can do some really funky optimisation with it if you're paying attention to how close you are to the Core Resonance Energy threshold. By far the most impactful thing is the excess Energy you can store now, and this comes into why Saber can be really challenging to pilot, and how quite a lot of her power can be wasted by poor play (or Auto).\n Due to her extreme Energy cost, and even with all these methods of accelerating her Energy gains, Saber is very reliant on good Ultimates to put out competitive damage; wasting Ultimates as soon as you get them without any regard for what's happening on-screen or for what buffs you have on you will result in you losing a potentially a colossal amount of damage.\n Careful consideration of when you should use the Ultimate can have big performance swings. It creates quite a rewarding gameplay loop, but it's definitely not for everyone, especially compared to the rather simple plug-and-play style of many of our existing top tier DPS. When piloted well, the performance is rather comparable, and definitely competitive, but Saber's difficulty is more akin to that of Yunli, Boothill, and Cipher — units you wouldn't dream of playing on Auto.\n When considering supports, Saber's absurd Energy cost means that everyone's favourite Chicken-boy is impossible to ignore. Sunday's percentage based Energy restore on his Ultimate means that he is pretty much the number 1 support option for Saber by default, restoring an astounding 72 Energy when he uses it. He gives her all the stats she'd want, with plenty of damage boosts on top of everything, and even high SP efficiency due to how his own Ultimate works, refunding SP whenever he uses his Skill on whoever he Beatifies.\n Pair this with his 100% Action Advance resulting in even more actions and Energy for Saber, and it's pretty inarguable that this is someone you should absolutely seek to use with Saber. Sunday really gets no breaks at all in the current meta as almost everyone either wants him outright or can make great use of him. Saber is no exception, and in a -1 SPD setup, Sunday is virtually uncontested as Saber's best support.\n Do note, however, that the 100% Action Advance from Saber's A2 can come at inopportune times due to it forcefully activating when the criteria is reached. Ordinarily you'd want to use Sunday's Ultimate on his turn to maximise the buff uptime, but there are cases where doing so would automatically push Saber up to 0 AV due to the Energy restoration from Sunday's Ultimate activating Saber's A2, meaning the 100% Action Advance from the subsequent Sunday Skill is wasted.\n The flipside is also true, however, and it's possible to trigger Saber's A2 Advance with Sunday's Ultimate outside of either character's turn; you can use Sunday's Skill to Advance Saber, have her attack with a Basic ATK for example (in the case that using the Skill would trigger the A2), and then Ult her with Sunday, restoring enough Energy to trigger Saber's A2 and giving her another action immediately. This way you can avoid losing out on Energy and Action Advances (do you see why this Trace is a headache yet).\n In much the same vein only from the sustain slot instead, Huohuo is also an excellent pick that should be considered due to her also having a percent Energy restore on her Ultimate. Huohuo's actual sustaining capabilities are maybe struggling a little bit against certain enemies, but her supportive buffs are often enough to offset that, especially as her Energy restore is teamwide, meaning the other two supports you have in Saber's team can also benefit from this, and due to Saber's Talent, more Ultimates for the team mean more Ultimates for Saber. Plus she can use Quid Pro Quo to great effect.\n Tingyun is an acceptable and accessible alternative when it comes to Energy restoration. A flat 50 (60 at E6 Tingyun) from her Ultimate is still very much appreciated, and the bonuses from her Skill buff and the DMG boost from the Ultimate itself are also both good. Definitely a fantastic F2P Energy funnel for Saber, and as always an excellent holder for Dance Dance Dance.\n For Action Advancers, Bronya is as always still incredibly strong for any character that wants more turns, but is lesser than Sunday in this instance, again due to Saber's inherent personal Action Advance. Bronya's Skill buff always only lasts for a single turn by default, so having it be on Saber when you want the damage buff is very tricky, and having the buff affect Saber on her Mana Burst turn is literally impossible without E6 Bronya. Couple that with a longer time to regenerate her Ultimate and much more SP negativity than Sunday, and Bronya can be very difficult to use with Saber, however strong the pairing is.\n Even still, putting a -1 SPD Bronya with Saber is still very powerful, and should absolutely be the go-to pick if you do not have Sunday available for her instead. The listed downsides still need to be played around, but they do not detract from the power of the setup.\n The Remembrance Trailblazer is actually also pretty good. The rate of Action Advances is a lot lower compared to either Sunday or Bronya, but the extra True DMG from Mem's Support is extremely strong and is actually easily fully maxed out due to Saber's crazy Max Energy, making this a very impactful damage buff. Additionally, precisely because of Saber's Energy cost, Saber has a pretty good time fuelling Mem's Ultimate, meaning you'll hopefully be getting enough Mem's Support opportunities to offset the sketchy buff uptime from Saber's Mana Burst turn.\n Last out of the Action Advancers is of course the other half of the Charmony duo, Robin. A teamwide Action Advance means vastly more Energy and Ultimates get to be thrown out, and though it can be tricky to work around a Mana Burst turn when trying to use Robin's Ultimate, and Robin won’t be using her Ultimate as much as other supports so won’t generate as much Core Resonance, her overall damage buffs and contribution mean that she's also a fantastic go-to option for Saber.\n Lastly, the generic great support options of Tribbie, Silver Wolf (for off-element), and... not Cipher? It’s complicated. Cipher is a rare case of a character that doesn't really want to be using their Ultimate as soon as it's available, and without any other way to contribute to Core Resonance generation, Cipher's damage amplification, while still very good, is usually better spent elsewhere.\n However, due to Cipher’s extreme SP positivity, if you are willing to spam Cipher’s Ultimate much more frequently to take advantage of the vast Core Resonance it can generate, she becomes a more compelling support option (even though you are still wasting the purpose of Cipher’s damage accumulating Ultimate nuke).\n Tribbie on the other hand is perfect. Her frequent Ultimates means she's constantly generating Core Resonance for Saber, and all of Tribbie's buffs are tied to her own turns, so it's impossible for Saber to out-speed the benefits Tribbie can provide. Throw in a Dance Dance Dance in there and you are positively schmooving, friends.\n If you are able to predict and play around Saber's Mana Burst turn, you can do some absolutely insane damage and wreak havoc, but Saber's gameplay and making the most of her kit is most certainly not for the faint of heart.\n Very fitting, for only they who are worthy may unsheathe the Sword from the Stone. Are you up to the challenge?\n\n Ratings\n Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Character at 5★ are rated at their Eidolon 0 with level 80 best in slot 4★ or 5★ Light Cone (including limited Light Cones, but at S1).\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.\n\n Damage dealer\n T0.5\n MoC\n\n T0.5\n PF\n\n T0.5\n AS\n\n Build and teams\n\n Best Light Cones\n\n 116.31%\n\n A Thankless Coronation (S 1 )\n\n Saber's Signature and definite best Cone choice. This Cone's stats alone make it Saber's best option, but with its energy regeneration included and the fact that it may allow her to reach her Ultimate and advancement one action faster, it pulls significantly ahead. In our calculations, we have not included any additional energy breakpoints for this Cone - the difference is based on stats only. If you're able to gain faster ultimate, its performance increases significantly compared to what is shown.\n Usage: 97.13 %\n MoC: -\n PF: 24265\n AS: 3189\n\n 109.85%\n\n I Am As You Behold (S 1 )\n\n While not as good as her signature, Gilgamesh's can also increase the team's CRIT DMG by 24% while Saber gets 18% ATK and 72% Ultimate DMG.\n\n 100%\n\n On the Fall of an Aeon (S 5 )\n\n A reasonable and completely free alternative to Saber's signature when comparing them on a stat vs stat basis, but can fall further behind if Saber is able to use or needs the energy from her signature in your chosen team. Assumes 50% uptime on break DMG% and 100% uptime on ATK% stacks.\n Usage: 2.05 %\n MoC: -\n PF: 0\n AS: 3209\n\n 99.75%\n\n Thus Burns the Dawn (S 1 )\n\n Base SPD, high Base ATK, permanent 18% DEF Ignore on all attacks\n\n 95.42%\n\n A Trail of Bygone Blood (S 5 )\n\n Saber already gains a strong amount of CRIT RATE from her own kit and best teammates, while also gaining a large amount of free DMG% as well, making this Cone not quite as good as the massive quantity of stats Fall of an Aeon provides.\n Usage: 0.4 %\n MoC: -\n PF: 0\n AS: 0\n\n 84.33%\n\n A Secret Vow (S 5 )\n\n Saber isn't able to easily take advantage of this Cone's bonus effect, making it a lacklustre choice for her.\n\n Best Relic Sets\n\n The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n The Ashblazing Grand Duke ( 4 -PC)\n\n 104.92%\n\n Wavestrider Captain ( 4 -PC)\n\n Saber is often played in Hyper Carry style teams alongside one - or multiple - characters capable of targetting her with abilities, ensuring the 4P of this set is usually always in play every Ultimate. The more frequently Saber is able to Ultimate, the better the uptime of this set and the better its performance - the opposite is also true, however.\n Usage: 74.69 %\n MoC: -\n PF: 24580\n AS: 3189\n\n 100%\n\n Scholar Lost in Erudition ( 4 -PC)\n\n If you don't have 4P Wavestrider or have a better set of 4P Scholar Lost, it can be used as a viable and more consistent alternative. It only falls slightly behind in most cases - this is especially true if you have an abundance of ATK from other sources.\n Usage: 19.95 %\n MoC: -\n PF: 23180\n AS: 3209\n\n 97.10%\n\n Scholar Lost in Erudition ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Wavestrider Captain\n\n Eagle of Twilight Line\n\n The Wind-Soaring Valorous\n\n Usage: 0.79 %\n MoC: -\n PF: 0\n AS: 0\n\n Best Planetary Sets\n 103.18%\n\n Cosmic Life Sciences Institute ( 2 -PC)\n\n 102.66%\n\n Izumo Gensei and Takama Divine Realm ( 2 -PC)\n\n ONLY with Gilgamesh\n 100.00%\n\n Inert Salsotto ( 2 -PC)\n\n Usage: 65.34 %\n MoC: -\n PF: 24524\n AS: 3216\n\n Best Stats\n\n Body\n CRIT DMG\n > CRIT Rate\n\n Feet\n Speed\n >= ATK%\n\n Planar Sphere\n Wind DMG\n = ATK%\n\n Link Rope\n ATK%\n\n Substats: SPD (Until Desired Breakpoint) > CRIT Rate = CRIT DMG > ATK%\n\n Recommended endgame stats\n HP: 3300+\n\n DEF: 1000+\n\n ATK: 2600 - 3000+\n\n CRIT RATE: 100% (In combat with 20% Talent and buffs)\n\n CRIT DMG: 150 - 180%+\n\n SPD: 135 Base SPD (Or 1 SPD faster than your booster)\n\n Traces priority\n Skills priority: Ultimate > Skill > Basic = Talent\n\n Major Traces priority: Knight of the Dragon (A2) > Blessing of the Lake (A4) > Crown of the Star (A6)\n\n Synergy\n Huohuo - Saber, being the energy hungry sponge she is, naturally would love Huohuo on the team thanks to her 20% energy regenerating ultimate, which grants Saber a whopping 72 energy, while also accelerating other teammates ultimates, meaning faster Core Resonance for Saber. Huohuo's buffs are also solid for a sustain, but she does come with the downside of being somewhat SP hungry at the start of fights - the same time Saber is.\n Dan Heng • Permansor Terrae - Go-to sustain option for ATK-scaling teams. Permansor Terrae can provide strong Shields to the entire team, with an ATK buff for a single teammate and extra ATK multipliers. Notably with Sunday, his Souldragon will enable to the target to receive the full 80% DMG Bonus from Sunday's Skill and Souldragon will be Advanced along with the target to repeatedly refresh Shields on the team.\n Sunday - The best choice for this role is Sunday, thanks to his exceptional buffs and potent energy regeneration, allowing Saber to reach her action advancement and ultimate much much sooner.\n Bronya - Bronya is a more accessible alternative to Sunday but with worse uptime buffs (a big issue with Saber's advancement), far worse SP economy and no energy regeneration. All this makes her quite the downgrade, but still servicable.\n Ruan Mei - Offers modest amplification for Saber, but improves her toughness damage which can be tremendous in endgame modes like Apocalyptic Shadow.\n Silver Wolf - Brings a tonne of DEF SHRED and RES PEN to the table while also bringing the potential to implant WIND weakness into enemies, boosting Saber's damage and allowing her to play off element if needed.\n Tribbie - Offer unconditional almost always present damage amplification for Saber while also outputting excellent AoE damage.\n Trailblazer • Remembrance - Offers another semi-consistant advancement but also grants a tremendous amount of TRUE DMG% - a multiplier Saber usually doesn't have access to.\n Robin - Grants Saber great buffs while offering the whole team a full action advancement when ulting, allowing for incredibly powerful cycle breakpoints in cycle based modes while also being strong across the board in others.\n Gilgamesh - Gilgamesh offers massive performance boost to Saber through a unique Joint Follow-up ATK with Saber, and from his Trace buff which is more effective on allies with high Energy pool. The Joint Follow-up ATK has a combined DMG multiplier of 1000% to all enemy targets, regenerates 120 Energy for Saber while her next Ultimate will gain a 2x independent damage multiplier increase. Gilgamesh's Talent will also increase his and Saber's ATK and CRIT DMG by 120%, while Saber's high Energy cost Ultimate can regenerate decent amounts of fixed Energy for Gilgamesh.\n Teams\n Memory of Chaos\n\n Pure Fiction\n\n Apocalyptic Shadow\n\n Anomaly Arbitration\n\n Rank 258\n App. rate: 0.04 %\n Avg. cycles : -\n Avg. cycles (E1+): 8\n\n Rank 313\n App. rate: 0.03 %\n Avg. cycles : -\n Avg. cycles (E1+): 7.6\n\n Rank 313\n App. rate: 0.03 %\n Avg. cycles : -\n Avg. cycles (E1+): 8.6\n\n Rank 515\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 9\n\n Rank 515\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 7\n\n Rank 515\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 9\n\n Rank 515\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 4\n\n Rank 515\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 8\n\n Rank 515\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 5\n\n Rank 515\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 6.5\n\n Video guides\n\n MoC/PF/AS Statistics\n\n MoC/PF/AS Statistics"
+  "text": "Saber Best Build Guide | Honkai: Star Rail\n \n\n Honkai: Star Rail\n Home Database Characters Light Cones Relic Sets Banners\n Tier Lists Tier List\n Endgame Memory of Chaos Pure Fiction Apocalyptic Shadow Anomaly Arbitration\n Tools Patch Timeline\n Guides Guides\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Honkai: Star Rail\n /\n Characters\n /\n Saber\n Saber Best Build Guide\n Last updated: 31/May/2026\n\n Introduction\n Best guide and build for Saber from HSR (Honkai: Star Rail). Saber is a 5 ★ character from the Wind element who follows the Path of Destruction .\n The solitary Heroic Spirit traverses the long night of fate. The banner of the round table remains unfurled in a dream. Alas, the knight-king of Camelot has yet to reach that ever distant utopia. Though still a young maiden, she has heeded the call for this most unique iteration of the Holy Grail War. With the Sword in the Stone offering its choice once more, how shall she shatter the illusions of the past? \"The wishes I did not fulfil will end here.\"\n\n To learn more about Saber check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Video guide\n Saber has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 3.4\n\n Last major build/calcs update\n Patch 3.4\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Saber check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Kit\n\n Review\n\n Build and teams\n\n MoC/PF/AS Statistics\n\n Calculations\n\n Profile\n\n Skills\n Basic ATK\n Invisible Air: Barrier of the Wind King\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Wind DMG equal to #1[i]% of Saber's ATK to one designated enemy.\n Basic ATK (Enhanced)\n Release, the Golden Scepter\n AoE\n\n Lv. 1\n\n Energy gain: 30\n Break: 20\n\n Gains 2 \"Core Resonance\" and deals Wind DMG equal to #1[i]% of Saber's ATK to all enemies. If the number of enemies is 2/1 when this ability is used, additionally deals Wind DMG equal to #1[i]%/#2[i]% of Saber's ATK to all enemies.\n\n Skill\n Strike Air: Hammer of the Wind King\n Blast\n\n Lv. 1\n\n Energy gain: 30\n Break: 20 + 10 adjacent\n\n Deals Wind DMG equal to #1[i]% of Saber's ATK to one designated enemy, and deals Wind DMG equal to #2[i]% of Saber's ATK to adjacent targets. If Saber currently possesses \"Core Resonance\" and her Energy can be regenerated to full by consuming \"Core Resonance\" after this instance of Skill attack, then increase the DMG multiplier for this instance of Skill use by #3[i]% for each stack of \"Core Resonance,\" and consume all \"Core Resonance\" to regenerate Energy for Saber after attacking. Otherwise, immediately gains 3 point(s) of \"Core Resonance.\"\n\n Ultimate\n Excalibur\n AoE | 360 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: 20 + 40 adjacent\n\n Deals Wind DMG equal to #1[i]% of Saber's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance being Wind DMG equal to #2[i]% of Saber's ATK dealt to one random enemy. After using Ultimate, the next Basic ATK switches to \"Release, the Golden Scepter,\" and only \"Release, the Golden Scepter\" can be used.\n\n Talent\n Dragon Reactor Core\n Enhance\n\n Lv. 1\n\n Energy gain: 5\n Break: -\n\n Obtains 1 \"Core Resonance\" point(s) when entering battle. When any ally target uses an Ultimate, increases DMG dealt by Saber by #1[i]% for 2 turn(s) and obtains 3 \"Core Resonance\" point(s). Consuming 1 \"Core Resonance\" point will regenerate a fixed 8 Energy for Saber.\n\n Technique\n Behold, the King of Knights\n Enhance\n\n Energy gain: 0\n Break: -\n\n After using Technique, increases Saber's ATK by 35% for 2 turn(s) at the start of the next battle and gains 2 \"Core Resonance\".\n\n Major Traces\n A2 Major trace\n Knight of the Dragon\n\n Increases Saber's CRIT Rate by 20% . When entering battle and when using her Enhanced Basic ATK, obtains the 'Mana Burst' effect. Under the effect, if Saber has 'Core Resonance' and her Energy can be fully regenerated by using her Skill and consuming 'Core Resonance,' consumes 'Mana Burst' to recover 1 Skill Point for allies, and Saber immediately takes action.\n\n A4 Major trace\n Blessing of the Lake\n\n Saber can accumulate up to 120 excess Energy. After using Ultimate, the excess Energy is cleared and a corresponding amount is regenerated. When the battle starts, if Energy is below 60% , it is regenerated to 60% .\n\n A6 Major trace\n Crown of the Star\n\n When using Skill, increases Saber's CRIT DMG by 50% for 2 turns. During this battle, for each point of 'Core Resonance' gained, increases Saber's CRIT DMG by 4% , stacking up to 8 time(s).\n\n Minor Traces (total)\n Wind DMG\n + 22.4%\n\n CRIT Rate\n + 12%\n\n HP\n + 10%\n\n Eidolons\n E 1\n The Lost White Walls\n Eidolon 1\n\n Increases Ultimate DMG dealt by Saber by 60% . After Saber uses a Basic ATK or Skill, gains 1 \"Core Resonance.\"\n\n E 2\n The Lost Oath of the Round Table\n Eidolon 2\n\n For each point of \"Core Resonance\" gained in this battle, Saber's DMG dealt ignores 1% of the target's DEF. This effect can stack up to 15 time(s). When triggering the \"Core Resonance's\" Skill multiplier effect, each point of \"Core Resonance\" additionally increases the DMG multiplier for this instance of Skill by 7% .\n\n E 3\n A Wish Across Fifteen Centuries\n Eidolon 3\n\n Ultimate Lv. + 2 , up to a maximum of Lv. 15 . Basic ATK Lv. + 1 , up to a maximum of Lv. 10 .\n\n E 4\n The Saga of Sixteen Winter Days\n Eidolon 4\n\n Increases Saber's Wind RES PEN by 8% . After using Ultimate, increases Saber's Wind RES PEN by 4% . This effect can stack up to 3 time(s).\n\n E 5\n The Dreamed Utopian Dawn\n Eidolon 5\n\n Skill Lv. + 2 , up to a maximum of Lv. 15 . Talent Lv. + 2 , up to a maximum of Lv. 15 .\n\n E 6\n The Long Fated Night\n Eidolon 6\n\n Wind RES PEN of Ultimate DMG dealt by Saber increases by 20% , and the Overflow Energy that can be accumulated by the Trace \"Blessing of the Lake\" increases to 200 . When using Ultimate for the first time after entering battle, regenerates a fixed 300 Energy for Saber. This effect can be triggered 1 time after every 3 Ultimate use(s).\n\n Stats and materials\n\nEnable Ascension\n\n Level 80 stats\n HP\n\n 1241\n\n ATK\n\n 601\n\n DEF\n\n 654\n\n Speed\n\n 101\n\n Level 1 → 80 Ascension Materials\n\n Credit\n\n x 308000\n\n Thief's Instinct\n\n x 15\n\n Usurper's Scheme\n\n x 15\n\n A Glass of the Besotted Era\n\n x 65\n\n Conqueror's Will\n\n x 15\n\n CV\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Pros & Cons\n Pros\n Competitive damage in all gamemodes,\n\n Very strong burst damage Ultimate,\n\n Lots of free CRIT stats,\n\n Can accumulate excess Energy, allowing for flexibility in combat,\n\n Lots of good support options for her,\n\n Has a personal Action Advance and strong Energy restoration,\n\n Destruction character that has two fully AoE attacks,\n\n Rather high Toughness damage for a non-Break unit,\n\n She says the thing™ when she Ults.\n\n Cons\n One of the more challenging units to pilot well - autoplay struggles to use her potential,\n\n Best performing team is quite expensive,\n\n Struggles more in fully AoE settings where the Ultimate's Bounces are wasted on chaff,\n\n SP can become a real issue in some teams,\n\n Once her banner's gone, it's gone for good.\n\n Review (By Sushou)\n Saber is a true limited character as part of the Fate collab. She is a Wind Destruction character with an excess Energy mechanic, and is very Ultimate focused. She gains a damage bonus whenever allies use their Ultimates and will start gaining a unique resource called Core Resonance. Each point of Core Resonance will grant a fixed amount of Energy to Saber when consumed by her Skill, visible on the Energy bar as white Energy. She is a potent DPS character, but is very reliant on the player's skill to fully maximise.\n The Fate collab brings with it Saber and Archer, two very well known and beloved characters from that franchise. Saber, much like the name implies, is a swordplay focused individual. Compared to Archer, Saber is relatively more complex; her actual kit itself isn't really that complicated, but making the most of it is something that may prove to be quite difficult for the average player.\n Please remember that she is a true limited character; once she's gone, she's gone for good.\n Saber's Talent will grant 1 point of Core Resonance when entering battle. This is the cornerstone of her kit, and is referenced elsewhere very often. Whenever allies (including herself) use an Ultimate ability, Saber will gain 60% increased DMG for 2 turns, as well as 3 points of Core Resonance. Each point of Core Resonance will grant a fixed 8 Energy for Saber when consumed.\n This is quite an important detail, as Saber's Ultimate has a laughably huge Energy cost of 360, overtaking even the previous highest of 350 belonging to Aglaea, so you're going to need every bit of Energy you can get.\n Saber's Skill is a Blast AoE that deals up to 150% ATK to a target enemy and 75% ATK to adjacent foes. Using this Skill will also grant 3 points of Core Resonance.\n When Saber has Core Resonance, you'll see a secondary part of the Ultimate gauge glow white. This signifies how much Energy you have stocked in the form of Core Resonance points. If the entire remainder of the Ult gauge is white, this means you have enough Core Resonance points to fully refill your Energy. In this case, using Saber's Skill will add 14% to the ATK multiplier of the Skill for each point of Core Resonance, then consume all Core Resonance to restore Energy for Saber after she attacks.\n This can result in you seeing extreme Energy gains off of just a single Skill use when you have a lot of Core Resonance points, not to mention that the ability multiplier can get very out of hand very quickly, especially since there's no upper limit on the amount of Core Resonance that is considered. This also helps to keep up with the otherwise exorbitant Energy requirement of her Ultimate. After playing her for a little while, you’ll start to consider the white part of the Energy gauge as Energy you already have, and this should make it easier to think about.\n Speaking of her Ultimate, Saber will unsheathe Excalibur, bringing its full might down on her enemies. She will deal 280% ATK to all enemies on the field, and then deal an additional 10 instances of damage, each being equal to 110% ATK, Bouncing between enemies. This means if a single enemy is the recipient, this Ultimate will deal a colossal 1380% ATK, not to mention the rather absurd Toughness damage that also comes with so many Bounces.\n After using the Ultimate, Saber's next Basic ATK will be Enhanced and will lock her out of using her Skill. This Enhanced Basic ATK will be a fully AoE ability, hitting all enemies on the field for 150% ATK, and granting 2 points of Core Resonance. If there are only 2 enemies on the field, the Enhanced Basic deals an extra 150% ATK to both enemies, for a total of 300% ATK. If there is only one foe on the field, the additional damage is increased to 220%, for a total of 370% ATK. This Enhanced Basic restores 30 Energy.\n So far, nothing too overly complicated. You get Energy from just doing what you'd be doing anyway, using the team's Ultimates and using Saber's actions, all getting ready for a super powerful Ultimate hit that then gives an Enhanced Basic to kick start the cycle again.\n Onto the Bonus Traces. A2 will passively increase Saber's CRIT Rate by 20%. Additionally, when entering battle, and also after using her Enhanced Basic ATK, Saber will gain the Mana Burst effect. While under this effect, if Saber has Core Resonance and her Energy can be fully restored by using her Skill and consuming the Core Resonance, Mana Burst will be consumed in order to restore 1 Skill Point for the team and also immediately take action again.\n This is a 100% Action Advance for her, so buffs will tick down from this. What this means is that if Saber uses an action that restores her Energy, and it puts her Energy into the threshold to be refilled by her next Skill use, she gets to do that immediately instead of waiting for her next natural turn.\n Saber's A4 will allow her to accumulate up to 120 excess Energy, shown on the buff bar as a numeric value. After she uses her Ultimate, the excess Energy is cleared and returned as Energy. Additionally, when entering a battle, if Saber's Energy is below 60%, it will be set to 60%.\n This is immensely useful for not wasting precious Energy, especially from consuming a large amount of Core Resonance all at once. Without this Trace, a significant portion of that Energy would be lost, but getting to keep up to 120 in excess means you can actually also hold off on using her Ultimate without losing out (up to a point) if it'd be more beneficial to wait in the battle.\n Lastly, her A6 will grant Saber passive stat benefits. When using her Skill, she will gain 50% CRIT DMG for 2 turns. In addition to this, each point of Core Resonance that Saber gains will increase her CRIT DMG by 4%, stacking up to 8 times. This benefit lasts for the duration of the battle, and the total CRIT DMG provided by this Trace is 82% after gaining 8 points of Core Resonance.\n These are really impactful Bonus Traces, but the A2 in particular can create quite the headache to play around. Having the ability to Action Advance yourself means you get to put out more damage, and since it also refunds a Skill Point, you're not at too much risk by doing so, but actually getting to make use of it consistently is quite challenging and is not something that is easily controllable once you factor in enemy actions and RNG sources of Energy.\n It's not too big of a deal generally speaking, but the A2 can also be triggered off of a Basic ATK, so you can do some really funky optimisation with it if you're paying attention to how close you are to the Core Resonance Energy threshold. By far the most impactful thing is the excess Energy you can store now, and this comes into why Saber can be really challenging to pilot, and how quite a lot of her power can be wasted by poor play (or Auto).\n Due to her extreme Energy cost, and even with all these methods of accelerating her Energy gains, Saber is very reliant on good Ultimates to put out competitive damage; wasting Ultimates as soon as you get them without any regard for what's happening on-screen or for what buffs you have on you will result in you losing a potentially a colossal amount of damage.\n Careful consideration of when you should use the Ultimate can have big performance swings. It creates quite a rewarding gameplay loop, but it's definitely not for everyone, especially compared to the rather simple plug-and-play style of many of our existing top tier DPS. When piloted well, the performance is rather comparable, and definitely competitive, but Saber's difficulty is more akin to that of Yunli, Boothill, and Cipher — units you wouldn't dream of playing on Auto.\n When considering supports, Saber's absurd Energy cost means that everyone's favourite Chicken-boy is impossible to ignore. Sunday's percentage based Energy restore on his Ultimate means that he is pretty much the number 1 support option for Saber by default, restoring an astounding 72 Energy when he uses it. He gives her all the stats she'd want, with plenty of damage boosts on top of everything, and even high SP efficiency due to how his own Ultimate works, refunding SP whenever he uses his Skill on whoever he Beatifies.\n Pair this with his 100% Action Advance resulting in even more actions and Energy for Saber, and it's pretty inarguable that this is someone you should absolutely seek to use with Saber. Sunday really gets no breaks at all in the current meta as almost everyone either wants him outright or can make great use of him. Saber is no exception, and in a -1 SPD setup, Sunday is virtually uncontested as Saber's best support.\n Do note, however, that the 100% Action Advance from Saber's A2 can come at inopportune times due to it forcefully activating when the criteria is reached. Ordinarily you'd want to use Sunday's Ultimate on his turn to maximise the buff uptime, but there are cases where doing so would automatically push Saber up to 0 AV due to the Energy restoration from Sunday's Ultimate activating Saber's A2, meaning the 100% Action Advance from the subsequent Sunday Skill is wasted.\n The flipside is also true, however, and it's possible to trigger Saber's A2 Advance with Sunday's Ultimate outside of either character's turn; you can use Sunday's Skill to Advance Saber, have her attack with a Basic ATK for example (in the case that using the Skill would trigger the A2), and then Ult her with Sunday, restoring enough Energy to trigger Saber's A2 and giving her another action immediately. This way you can avoid losing out on Energy and Action Advances (do you see why this Trace is a headache yet).\n In much the same vein only from the sustain slot instead, Huohuo is also an excellent pick that should be considered due to her also having a percent Energy restore on her Ultimate. Huohuo's actual sustaining capabilities are maybe struggling a little bit against certain enemies, but her supportive buffs are often enough to offset that, especially as her Energy restore is teamwide, meaning the other two supports you have in Saber's team can also benefit from this, and due to Saber's Talent, more Ultimates for the team mean more Ultimates for Saber. Plus she can use Quid Pro Quo to great effect.\n Tingyun is an acceptable and accessible alternative when it comes to Energy restoration. A flat 50 (60 at E6 Tingyun) from her Ultimate is still very much appreciated, and the bonuses from her Skill buff and the DMG boost from the Ultimate itself are also both good. Definitely a fantastic F2P Energy funnel for Saber, and as always an excellent holder for Dance Dance Dance.\n For Action Advancers, Bronya is as always still incredibly strong for any character that wants more turns, but is lesser than Sunday in this instance, again due to Saber's inherent personal Action Advance. Bronya's Skill buff always only lasts for a single turn by default, so having it be on Saber when you want the damage buff is very tricky, and having the buff affect Saber on her Mana Burst turn is literally impossible without E6 Bronya. Couple that with a longer time to regenerate her Ultimate and much more SP negativity than Sunday, and Bronya can be very difficult to use with Saber, however strong the pairing is.\n Even still, putting a -1 SPD Bronya with Saber is still very powerful, and should absolutely be the go-to pick if you do not have Sunday available for her instead. The listed downsides still need to be played around, but they do not detract from the power of the setup.\n The Remembrance Trailblazer is actually also pretty good. The rate of Action Advances is a lot lower compared to either Sunday or Bronya, but the extra True DMG from Mem's Support is extremely strong and is actually easily fully maxed out due to Saber's crazy Max Energy, making this a very impactful damage buff. Additionally, precisely because of Saber's Energy cost, Saber has a pretty good time fuelling Mem's Ultimate, meaning you'll hopefully be getting enough Mem's Support opportunities to offset the sketchy buff uptime from Saber's Mana Burst turn.\n Last out of the Action Advancers is of course the other half of the Charmony duo, Robin. A teamwide Action Advance means vastly more Energy and Ultimates get to be thrown out, and though it can be tricky to work around a Mana Burst turn when trying to use Robin's Ultimate, and Robin won’t be using her Ultimate as much as other supports so won’t generate as much Core Resonance, her overall damage buffs and contribution mean that she's also a fantastic go-to option for Saber.\n Lastly, the generic great support options of Tribbie, Silver Wolf (for off-element), and... not Cipher? It’s complicated. Cipher is a rare case of a character that doesn't really want to be using their Ultimate as soon as it's available, and without any other way to contribute to Core Resonance generation, Cipher's damage amplification, while still very good, is usually better spent elsewhere.\n However, due to Cipher’s extreme SP positivity, if you are willing to spam Cipher’s Ultimate much more frequently to take advantage of the vast Core Resonance it can generate, she becomes a more compelling support option (even though you are still wasting the purpose of Cipher’s damage accumulating Ultimate nuke).\n Tribbie on the other hand is perfect. Her frequent Ultimates means she's constantly generating Core Resonance for Saber, and all of Tribbie's buffs are tied to her own turns, so it's impossible for Saber to out-speed the benefits Tribbie can provide. Throw in a Dance Dance Dance in there and you are positively schmooving, friends.\n If you are able to predict and play around Saber's Mana Burst turn, you can do some absolutely insane damage and wreak havoc, but Saber's gameplay and making the most of her kit is most certainly not for the faint of heart.\n Very fitting, for only they who are worthy may unsheathe the Sword from the Stone. Are you up to the challenge?\n\n Ratings\n Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Character at 5★ are rated at their Eidolon 0 with level 80 best in slot 4★ or 5★ Light Cone (including limited Light Cones, but at S1).\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.\n\n Damage dealer\n T0.5\n MoC\n\n T0.5\n PF\n\n T0.5\n AS\n\n Build and teams\n\n Best Light Cones\n\n 116.31%\n\n A Thankless Coronation (S 1 )\n\n Saber's Signature and definite best Cone choice. This Cone's stats alone make it Saber's best option, but with its energy regeneration included and the fact that it may allow her to reach her Ultimate and advancement one action faster, it pulls significantly ahead. In our calculations, we have not included any additional energy breakpoints for this Cone - the difference is based on stats only. If you're able to gain faster ultimate, its performance increases significantly compared to what is shown.\n Usage: 97.13 %\n MoC: -\n PF: 24265\n AS: 3189\n\n 109.85%\n\n I Am As You Behold (S 1 )\n\n While not as good as her signature, Gilgamesh's can also increase the team's CRIT DMG by 24% while Saber gets 18% ATK and 72% Ultimate DMG.\n\n 100%\n\n On the Fall of an Aeon (S 5 )\n\n A reasonable and completely free alternative to Saber's signature when comparing them on a stat vs stat basis, but can fall further behind if Saber is able to use or needs the energy from her signature in your chosen team. Assumes 50% uptime on break DMG% and 100% uptime on ATK% stacks.\n Usage: 2.05 %\n MoC: -\n PF: 0\n AS: 3209\n\n 99.75%\n\n Thus Burns the Dawn (S 1 )\n\n Base SPD, high Base ATK, permanent 18% DEF Ignore on all attacks\n\n 95.42%\n\n A Trail of Bygone Blood (S 5 )\n\n Saber already gains a strong amount of CRIT RATE from her own kit and best teammates, while also gaining a large amount of free DMG% as well, making this Cone not quite as good as the massive quantity of stats Fall of an Aeon provides.\n Usage: 0.4 %\n MoC: -\n PF: 0\n AS: 0\n\n 84.33%\n\n A Secret Vow (S 5 )\n\n Saber isn't able to easily take advantage of this Cone's bonus effect, making it a lacklustre choice for her.\n\n Best Relic Sets\n\n The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 104.92%\n\n Wavestrider Captain ( 4 -PC)\n\n Wavestrider is best on Saber with teammates that can target her such as with Remembrance Trailblazer and Huohuo on a Skill-spam rotation. Otherwise, it may be difficult to activate. Aim to use her Ultimate during her turn to 'extend' the buff duration by another turn.\n Usage: 74.69 %\n MoC: -\n PF: 24580\n AS: 3189\n\n 100%\n\n Scholar Lost in Erudition ( 4 -PC)\n\n If you don't have 4P Wavestrider or have a better set of 4P Scholar Lost, it can be used as a viable and more consistent alternative. It only falls slightly behind in most cases - this is especially true if you have an abundance of ATK from other sources.\n Usage: 19.95 %\n MoC: -\n PF: 23180\n AS: 3209\n\n 97.10%\n\n Scholar Lost in Erudition ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Wavestrider Captain\n\n Eagle of Twilight Line\n\n The Wind-Soaring Valorous\n\n Usage: 0.79 %\n MoC: -\n PF: 0\n AS: 0\n\n Best Planetary Sets\n 103.18%\n\n Cosmic Life Sciences Institute ( 2 -PC)\n\n 102.66%\n\n Izumo Gensei and Takama Divine Realm ( 2 -PC)\n\n ONLY with Gilgamesh\n 100.00%\n\n Inert Salsotto ( 2 -PC)\n\n Usage: 65.34 %\n MoC: -\n PF: 24524\n AS: 3216\n\n Best Stats\n\n Body\n CRIT DMG\n > CRIT Rate\n\n Feet\n Speed\n >= ATK%\n\n Planar Sphere\n Wind DMG\n = ATK%\n\n Link Rope\n ATK%\n\n Substats: SPD (Until Desired Breakpoint) > CRIT Rate = CRIT DMG > ATK%\n\n Recommended endgame stats\n HP: 3300+\n\n DEF: 1000+\n\n ATK: 2600 - 3000+\n\n CRIT RATE: 100% (In combat with 20% Talent and buffs)\n\n CRIT DMG: 150 - 180%+\n\n SPD: 135 Base SPD (Or 1 SPD faster than your booster)\n\n Traces priority\n Skills priority: Ultimate > Skill > Basic = Talent\n\n Major Traces priority: Knight of the Dragon (A2) > Blessing of the Lake (A4) > Crown of the Star (A6)\n\n Synergy\n Gilgamesh - Gilgamesh offers massive performance boost to Saber through a unique Joint Follow-up ATK with her, while he has a Trace buff that becomes more effective on allies with high Energy pool. The Joint Follow-up ATK has a combined DMG multiplier of 1000% to all enemy targets, regenerates 120 Energy for Saber while her next Ultimate will gain a 2x independent damage multiplier increase. Gilgamesh's Talent will also increase his and Saber's ATK and CRIT DMG by 120%, while Saber's high Energy cost Ultimate can regenerate decent amounts of fixed Energy for Gilgamesh.\n Huohuo - Saber, being the energy hungry sponge she is, naturally would love Huohuo on the team thanks to her 20% energy regenerating ultimate, which grants Saber a whopping 72 energy, while also accelerating other teammates ultimates, meaning faster Core Resonance for Saber. Huohuo's buffs are also solid for a sustain able to provide 64% ATK to her.\n Tribbie - Offer unconditional almost always present damage amplification for Saber while also outputting excellent AoE damage, can generate Core Resonance with her fast Ultimate rotation.\n Trailblazer • Remembrance - Offers another semi-consistant advancement but also grants a tremendous amount of TRUE DMG% - a multiplier Saber usually doesn't have access to.\n Teams\n Memory of Chaos\n\n Pure Fiction\n\n Apocalyptic Shadow\n\n Anomaly Arbitration\n\n Rank 258\n App. rate: 0.04 %\n Avg. cycles : -\n Avg. cycles (E1+): 8\n\n Rank 313\n App. rate: 0.03 %\n Avg. cycles : -\n Avg. cycles (E1+): 7.6\n\n Rank 313\n App. rate: 0.03 %\n Avg. cycles : -\n Avg. cycles (E1+): 8.6\n\n Rank 515\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 9\n\n Rank 515\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 7\n\n Rank 515\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 9\n\n Rank 515\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 4\n\n Rank 515\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 8\n\n Rank 515\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 5\n\n Rank 515\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 6.5\n\n Video guides\n\n MoC/PF/AS Statistics\n\n MoC/PF/AS Statistics"
 }

@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-07-25T03:54:53.391Z",
+  "generatedAt": "2026-07-25T07:34:41.513Z",
   "codes": {
-    "updated": "2026-07-25T03:26:46.721Z",
+    "updated": "2026-07-25T07:34:16.363Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -267,20 +267,6 @@ var NYX_DB = {
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM"
         },
         {
-          "code": "ZZZDREAMLAND",
-          "reward": "Polychrome x 30, Denny x 6,666",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Polychrome",
-            "needle": "polychrome",
-            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
-          },
-          "added": "2026-07-24",
-          "firstSeen": "2026-07-17T15:01:00.612Z",
-          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZDREAMLAND",
-          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZDREAMLAND"
-        },
-        {
           "code": "ZZZ2YEAR",
           "reward": "50 Polychrome",
           "premium": true,
@@ -384,13 +370,13 @@ var NYX_DB = {
   },
   "banners": {
     "updated": "2026-07-21T16:13:51.549Z",
-    "checkedAt": "2026-07-24T07:47:21.650Z",
+    "checkedAt": "2026-07-25T07:34:03.107Z",
     "games": {
       "hsr": {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-07-24T07:47:21.650Z",
+          "checkedAt": "2026-07-25T07:34:03.107Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -429,7 +415,7 @@ var NYX_DB = {
         "name": "Genshin Impact",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-07-24T07:47:21.650Z",
+          "checkedAt": "2026-07-25T07:34:03.107Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -459,7 +445,7 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-07-24T07:47:21.650Z",
+          "checkedAt": "2026-07-25T07:34:03.107Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -541,7 +527,7 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-07-24T07:47:21.650Z",
+          "checkedAt": "2026-07-25T07:34:03.107Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -658,7 +644,7 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-07-24T07:47:21.650Z",
+          "checkedAt": "2026-07-25T07:34:03.107Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -4417,7 +4403,7 @@ var NYX_DB = {
         "name": "Genshin Impact",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-07-24T07:47:21.650Z",
+          "checkedAt": "2026-07-25T07:34:03.107Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -4444,7 +4430,7 @@ var NYX_DB = {
         "upcoming": []
       },
       "tcg": {
-        "updated": "2026-07-24T09:17:16.959Z",
+        "updated": "2026-07-25T07:34:22.848Z",
         "counts": {
           "characterCards": 106,
           "otherCards": 513
@@ -150531,7 +150517,7 @@ var NYX_DB = {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-07-24T07:47:21.650Z",
+          "checkedAt": "2026-07-25T07:34:03.107Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -156015,20 +156001,6 @@ var NYX_DB = {
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM"
         },
         {
-          "code": "ZZZDREAMLAND",
-          "reward": "Polychrome x 30, Denny x 6,666",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Polychrome",
-            "needle": "polychrome",
-            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
-          },
-          "added": "2026-07-24",
-          "firstSeen": "2026-07-17T15:01:00.612Z",
-          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZDREAMLAND",
-          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZDREAMLAND"
-        },
-        {
           "code": "ZZZ2YEAR",
           "reward": "50 Polychrome",
           "premium": true,
@@ -156061,7 +156033,7 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-07-24T07:47:21.650Z",
+          "checkedAt": "2026-07-25T07:34:03.107Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -160894,7 +160866,7 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-07-24T07:47:21.650Z",
+          "checkedAt": "2026-07-25T07:34:03.107Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -165920,7 +165892,7 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-07-24T07:47:21.650Z",
+          "checkedAt": "2026-07-25T07:34:03.107Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",

@@ -1,7 +1,7 @@
 {
   "provider": "Prydwen",
   "game": "endfield",
-  "generatedAt": "2026-07-24T07:45:10.137Z",
+  "generatedAt": "2026-07-25T07:31:46.218Z",
   "summary": {
     "records": {
       "added": 0,
@@ -16,10 +16,10 @@
       "removed": [],
       "changed": [
         {
-          "id": "characters:last-rite",
-          "name": "Last Rite",
-          "previousHash": "e81cbf5b952170eb3310cd9db86ef7a393ee69a40810770080a41c097a1e55f4",
-          "currentHash": "688a5686db7a9af84438ad49e801c74b23483e96cb4ad3763074d757d3f42906"
+          "id": "characters:avywenna",
+          "name": "Avywenna",
+          "previousHash": "b23b0481b26fb147d75aaebbc17c7998b39d47301491c5352dec92ff8fd3d05a",
+          "currentHash": "376477c27b7293576a695108e047af32185a7d183e26bd3be3d5ecc9988c0934"
         }
       ],
       "unchanged": 33,

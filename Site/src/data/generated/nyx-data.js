@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-07-26T09:01:15.830Z",
+  "generatedAt": "2026-07-26T13:45:23.706Z",
   "codes": {
-    "updated": "2026-07-26T07:57:00.936Z",
+    "updated": "2026-07-26T13:45:05.871Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -237,6 +237,20 @@ var NYX_DB = {
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO"
+        },
+        {
+          "code": "ZZZMEIJI",
+          "reward": "3 Senior Investigator Log, 3 W-Engine Energy Module, 30000 Denny",
+          "premium": false,
+          "premiumCurrency": {
+            "name": "Polychrome",
+            "needle": "polychrome",
+            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
+          },
+          "added": "2026-07-26",
+          "firstSeen": "2026-07-26T13:45:05.829Z",
+          "sourceUrl": "https://www.crimsonwitch.com/codes/Zenless_Zone_Zero",
+          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZMEIJI"
         },
         {
           "code": "ZZZSEASON3",
@@ -4430,7 +4444,7 @@ var NYX_DB = {
         "upcoming": []
       },
       "tcg": {
-        "updated": "2026-07-26T07:57:06.815Z",
+        "updated": "2026-07-26T09:09:48.997Z",
         "counts": {
           "characterCards": 106,
           "otherCards": 513
@@ -41578,8 +41592,8 @@ var NYX_DB = {
         ]
       },
       "furniture": {
-        "updated": "2026-07-23T09:23:40.318Z",
-        "version": "6.7.53",
+        "updated": "2026-07-26T09:10:17.837Z",
+        "version": "6.7.54",
         "counts": {
           "items": 2342,
           "craftable": 1386
@@ -56092,7 +56106,7 @@ var NYX_DB = {
               "Landscape"
             ],
             "subtypes": [
-              "Tes Katheryne Parts"
+              "\"Lady Katheryne Statue\" Component"
             ],
             "comfort": 0,
             "cost": 0,
@@ -56112,7 +56126,7 @@ var NYX_DB = {
               "Landscape"
             ],
             "subtypes": [
-              "Tes Katheryne Parts"
+              "\"Lady Katheryne Statue\" Component"
             ],
             "comfort": 0,
             "cost": 0,
@@ -56132,7 +56146,7 @@ var NYX_DB = {
               "Landscape"
             ],
             "subtypes": [
-              "Tes Katheryne Parts"
+              "\"Lady Katheryne Statue\" Component"
             ],
             "comfort": 0,
             "cost": 0,
@@ -56152,7 +56166,7 @@ var NYX_DB = {
               "Landscape"
             ],
             "subtypes": [
-              "Tes Katheryne Parts"
+              "\"Lady Katheryne Statue\" Component"
             ],
             "comfort": 0,
             "cost": 0,
@@ -59617,7 +59631,7 @@ var NYX_DB = {
               "Landscape"
             ],
             "subtypes": [
-              "Tes Katheryne Parts"
+              "\"Lady Katheryne Statue\" Component"
             ],
             "comfort": 0,
             "cost": 0,
@@ -62126,7 +62140,7 @@ var NYX_DB = {
               "Landscape"
             ],
             "subtypes": [
-              "Tes Katheryne Parts"
+              "\"Lady Katheryne Statue\" Component"
             ],
             "comfort": 0,
             "cost": 0,
@@ -74504,7 +74518,7 @@ var NYX_DB = {
               "Landscape"
             ],
             "subtypes": [
-              "Tes Katheryne Parts"
+              "\"Lady Katheryne Statue\" Component"
             ],
             "comfort": 0,
             "cost": 0,
@@ -79855,7 +79869,7 @@ var NYX_DB = {
               "Landscape"
             ],
             "subtypes": [
-              "Tes Katheryne Parts"
+              "\"Lady Katheryne Statue\" Component"
             ],
             "comfort": 0,
             "cost": 0,
@@ -85471,7 +85485,7 @@ var NYX_DB = {
               "Landscape"
             ],
             "subtypes": [
-              "Tes Katheryne Parts"
+              "\"Lady Katheryne Statue\" Component"
             ],
             "comfort": 0,
             "cost": 0,
@@ -90787,7 +90801,7 @@ var NYX_DB = {
               "Landscape"
             ],
             "subtypes": [
-              "Tes Katheryne Parts"
+              "\"Lady Katheryne Statue\" Component"
             ],
             "comfort": 0,
             "cost": 0,
@@ -91384,7 +91398,7 @@ var NYX_DB = {
               "Landscape"
             ],
             "subtypes": [
-              "Tes Katheryne Parts"
+              "\"Lady Katheryne Statue\" Component"
             ],
             "comfort": 0,
             "cost": 0,
@@ -91404,7 +91418,7 @@ var NYX_DB = {
               "Landscape"
             ],
             "subtypes": [
-              "Tes Katheryne Parts"
+              "\"Lady Katheryne Statue\" Component"
             ],
             "comfort": 0,
             "cost": 0,
@@ -96256,7 +96270,7 @@ var NYX_DB = {
               "Landscape"
             ],
             "subtypes": [
-              "Tes Katheryne Parts"
+              "\"Lady Katheryne Statue\" Component"
             ],
             "comfort": 0,
             "cost": 0,
@@ -96842,7 +96856,7 @@ var NYX_DB = {
               "Landscape"
             ],
             "subtypes": [
-              "Tes Katheryne Parts"
+              "\"Lady Katheryne Statue\" Component"
             ],
             "comfort": 0,
             "cost": 0,
@@ -104251,7 +104265,7 @@ var NYX_DB = {
               "Landscape"
             ],
             "subtypes": [
-              "Tes Katheryne Parts"
+              "\"Lady Katheryne Statue\" Component"
             ],
             "comfort": 0,
             "cost": 0,
@@ -108066,7 +108080,7 @@ var NYX_DB = {
               "Landscape"
             ],
             "subtypes": [
-              "Tes Katheryne Parts"
+              "\"Lady Katheryne Statue\" Component"
             ],
             "comfort": 0,
             "cost": 0,
@@ -108086,7 +108100,7 @@ var NYX_DB = {
               "Landscape"
             ],
             "subtypes": [
-              "Tes Katheryne Parts"
+              "\"Lady Katheryne Statue\" Component"
             ],
             "comfort": 0,
             "cost": 0,
@@ -108106,7 +108120,7 @@ var NYX_DB = {
               "Landscape"
             ],
             "subtypes": [
-              "Tes Katheryne Parts"
+              "\"Lady Katheryne Statue\" Component"
             ],
             "comfort": 0,
             "cost": 0,
@@ -108126,7 +108140,7 @@ var NYX_DB = {
               "Landscape"
             ],
             "subtypes": [
-              "Tes Katheryne Parts"
+              "\"Lady Katheryne Statue\" Component"
             ],
             "comfort": 0,
             "cost": 0,
@@ -108999,7 +109013,7 @@ var NYX_DB = {
               "Landscape"
             ],
             "subtypes": [
-              "Tes Katheryne Parts"
+              "\"Lady Katheryne Statue\" Component"
             ],
             "comfort": 0,
             "cost": 0,
@@ -110984,7 +110998,7 @@ var NYX_DB = {
         ]
       },
       "wonderland": {
-        "updated": "2026-07-25T08:56:07.802Z",
+        "updated": "2026-07-26T09:10:18.737Z",
         "version": "6.7.54",
         "langMap": {
           "slot": {
@@ -155971,6 +155985,20 @@ var NYX_DB = {
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO"
+        },
+        {
+          "code": "ZZZMEIJI",
+          "reward": "3 Senior Investigator Log, 3 W-Engine Energy Module, 30000 Denny",
+          "premium": false,
+          "premiumCurrency": {
+            "name": "Polychrome",
+            "needle": "polychrome",
+            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
+          },
+          "added": "2026-07-26",
+          "firstSeen": "2026-07-26T13:45:05.829Z",
+          "sourceUrl": "https://www.crimsonwitch.com/codes/Zenless_Zone_Zero",
+          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZMEIJI"
         },
         {
           "code": "ZZZSEASON3",

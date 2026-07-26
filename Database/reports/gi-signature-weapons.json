@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-25T08:54:49.987Z",
-  "startedAt": "2026-07-25T08:54:21.358Z",
+  "generatedAt": "2026-07-26T09:08:25.461Z",
+  "startedAt": "2026-07-26T09:07:53.697Z",
   "dryRun": false,
   "source": "GameWith character build pages + web consensus fallback",
   "sourcePage": "https://gamewith.net/genshin-impact/article/show/22357",
@@ -129,6 +129,14 @@
           "title": "Alyosha Guide, Profile, Talents and Constellations",
           "url": "https://www.icy-veins.com/genshin-impact/alyosha-profile-talents-constellations",
           "domain": "icy-veins.com",
+          "query": "Alyosha Genshin Impact signature weapon",
+          "searchProvider": "bing-rss",
+          "status": "no-match"
+        },
+        {
+          "title": "Genshin Impact | Alyosha Release Date & Known Information",
+          "url": "https://gamewith.net/genshin-impact/article/show/76471",
+          "domain": "gamewith.net",
           "query": "Alyosha Genshin Impact signature weapon",
           "searchProvider": "bing-rss",
           "status": "no-match"

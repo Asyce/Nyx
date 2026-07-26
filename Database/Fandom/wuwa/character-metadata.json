@@ -844,10 +844,10 @@
     "releaseDate": "2026-07-30",
     "releasePatch": "3.5",
     "voiceActors": {
-      "english": "|voiceCN =",
-      "chinese": "|voiceJP = Misato Fukuen|Fukuen Misato (ja=福圓 美里)",
+      "english": "imdb:nm5069067|Emily Piggford",
+      "chinese": "https://zh.moegirl.org.cn/孙艳琦|Sun Yanqi (zh=孙艳琦)",
       "japanese": "Misato Fukuen|Fukuen Misato (ja=福圓 美里)",
-      "korean": "}}"
+      "korean": "https://namu.wiki/w/박지윤(성우)|Park Ji-yoon (ko=박지윤)"
     },
     "categories": [
       "Category:Introduced in Version 1.0",

@@ -685,7 +685,7 @@
     ],
     "ko": "찻집 촛대-「덧없는 불」",
     "zh": "茶室烛台-「无味火」",
-    "ja": "茶屋燭台-「無臭の炎」"
+    "ja": ""
   },
   "360408": {
     "en": "Teahouse Lamp: Light Concealed",
@@ -933,7 +933,7 @@
     ],
     "ko": "「달을 밝히는 수많은 등불」",
     "zh": "「万家华灯照朗月」",
-    "ja": "「煌々たる灯りは月を照らす」"
+    "ja": ""
   },
   "360418": {
     "en": "Stoneworks Lamp: Deeping-Gloom Candle",
@@ -2265,7 +2265,7 @@
     "rank": 4,
     "ko": "빛나는 소등-「소원성취」",
     "zh": "明彩霄灯-「所愿皆成」",
-    "ja": "明彩霄灯-「成就される願い」"
+    "ja": ""
   },
   "360479": {
     "en": "White Horse Galloping",
@@ -2325,7 +2325,7 @@
         "id": 101002
       }
     ],
-    "ko": "마을 가로등-「낮은 조명」",
+    "ko": "",
     "zh": "城镇路灯-「低空照明」",
     "ja": "町の街灯-「低空照明」"
   },
@@ -2397,7 +2397,7 @@
         "id": 101002
       }
     ],
-    "ko": "「마주 지저귀는 새들처럼」",
+    "ko": "「마주 지저귀는 새」",
     "zh": "「如鸟雀般对鸣」",
     "ja": "「小鳥が鳴き交わすように」JP3A"
   },
@@ -3089,7 +3089,7 @@
         "id": 101332
       }
     ],
-    "ko": "실내용 수납장-「뾰족 지붕 오두막」",
+    "ko": "실내용 수납장-「뾰족 지붕」",
     "zh": "室内立柜-「尖顶小楼」",
     "ja": "屋内用棚-「尖った屋根の小楼」JP3A"
   },
@@ -3605,7 +3605,7 @@
     ],
     "ko": "기사단 회의용 책상",
     "zh": "骑士团的会议桌",
-    "ja": "騎士団のミーティングデスク"
+    "ja": ""
   },
   "361304": {
     "en": "Wide Stone Stove",
@@ -3957,7 +3957,7 @@
     ],
     "ko": "「호방한 연회」",
     "zh": "「大快朵颐的豪情」",
-    "ja": "「頬張る豪快さ」"
+    "ja": ""
   },
   "361321": {
     "en": "A Table for Two",
@@ -4611,7 +4611,7 @@
     ],
     "icon": "UI_Homeworld_Interior_Ndkl_Table_Prop_MOchazhuo_01_Vo",
     "rank": 4,
-    "ko": "「여유로운 티타임」",
+    "ko": "",
     "zh": "「暇间茶叙」",
     "ja": "「閑暇のティータイム」"
   },
@@ -4631,7 +4631,7 @@
         "id": 101333
       }
     ],
-    "ko": "긴 다리 「촛대 받침」 사각 탁자",
+    "ko": "긴 다리 「촛대」 사각 탁자",
     "zh": "高脚「置烛」方几",
     "ja": "脚長「燭台置き」スクエアテーブルJP3A"
   },
@@ -4781,7 +4781,7 @@
     ],
     "ko": "아디가마 나무 「연회」 의자",
     "zh": "证悟木「招宴」坐榻",
-    "ja": "証悟の「招宴」座席"
+    "ja": ""
   },
   "361407": {
     "en": "Linden Wood \"Sturdy\" Bunk",
@@ -4997,7 +4997,7 @@
     ],
     "ko": "서리달 돌침대-「스며드는 한기」",
     "zh": "霜月石床-「沁人凉意」",
-    "ja": "霜月の石の寝台-「身に沁みる涼」"
+    "ja": ""
   },
   "361415": {
     "en": "\"Sweet, Untroubled Slumber\"",
@@ -5601,7 +5601,7 @@
     ],
     "ko": "술집 의자-「미각 증진」",
     "zh": "酒馆餐椅-「味觉倍增」",
-    "ja": "酒場椅子-「味覚倍増」"
+    "ja": ""
   },
   "362117": {
     "en": "Tavern Dining Chair - \"Accelerated Sobriety\"",
@@ -6103,7 +6103,7 @@
         "id": 101001
       }
     ],
-    "ko": "「눈보라 치는 밤의 고요한 탄식」",
+    "ko": "「눈보라 치는 밤의 탄식」",
     "zh": "「静叹于风雪夜」",
     "ja": "「風雪の夜の静かな嘆き」JP3A"
   },
@@ -6131,7 +6131,7 @@
         "id": 101404
       }
     ],
-    "ko": "실내 의자-「충돌색의 예술」",
+    "ko": "실내 의자-「충돌색」",
     "zh": "室内座椅-「撞色艺术」",
     "ja": "屋内用椅子-「コントラストの芸術」JP3A"
   },
@@ -7299,7 +7299,7 @@
     "rank": 4,
     "ko": "「황야가 숲이 되기를」",
     "zh": "「若荒漠化为林野」",
-    "ja": "「砂漠が森になれたら」"
+    "ja": ""
   },
   "362251": {
     "en": "\"Wisdom of the Forbidden Fortress\"",
@@ -7635,7 +7635,7 @@
     ],
     "ko": "호텔 울타리-「새잎 민트」",
     "zh": "饭店护栏-「薄荷新叶」",
-    "ja": "ホテルの欄干-「ミントの新芽」"
+    "ja": ""
   },
   "362266": {
     "en": "Hotel Railing: \"Perfect Viewing Arc\"",
@@ -8553,7 +8553,7 @@
         "id": 101402
       }
     ],
-    "ko": "실내 카펫-「따스한 색조」",
+    "ko": "실내 카펫-「따뜻한 색상」",
     "zh": "室内地毯-「暖色」",
     "ja": "絨毯-「暖色」JP3A"
   },
@@ -8727,7 +8727,7 @@
         "id": 101002
       }
     ],
-    "ko": "「높은 모자를 쓴 병사」",
+    "ko": "「높은 모자 병사」",
     "zh": "「高筒帽兵士」",
     "ja": "「高帽子の兵士」JP3A"
   },
@@ -9065,7 +9065,7 @@
         "id": 101002
       }
     ],
-    "ko": "열소 바닥 조명-「간편」",
+    "ko": "",
     "zh": "燃素地灯-「廉便」",
     "ja": "燃素フロアランプ-「コスパ良し」"
   },
@@ -9677,7 +9677,7 @@
     ],
     "ko": "찻집 기물-「쇠향롱」",
     "zh": "茶室器物-「锁香笼」",
-    "ja": "茶屋器物-「鎖香籠」"
+    "ja": ""
   },
   "363314": {
     "en": "Calligraphy Set: Proper Penmanship",
@@ -9829,7 +9829,7 @@
     ],
     "icon": "UI_Homeworld_Interior_Ly_Decoration_Prop_Vase_01_Vo",
     "rank": 4,
-    "ko": "「고귀한 손님」",
+    "ko": "",
     "zh": "「清客扬芳」",
     "ja": "「名残の清客」"
   },
@@ -10425,7 +10425,7 @@
     "rank": 4,
     "ko": "친절한 아란나라 목각",
     "zh": "亲切的兰那罗木刻",
-    "ja": "親切なアランナラ木彫り"
+    "ja": ""
   },
   "363350": {
     "en": "Desk Combo - Middlelake Isle",
@@ -10495,7 +10495,7 @@
         "id": 101404
       }
     ],
-    "ko": "「왕자님의 우는 물고기」",
+    "ko": "",
     "zh": "「小王子的大哭鱼」",
     "ja": "「リトルプリンスの泣き魚」"
   },
@@ -11105,7 +11105,7 @@
     "rank": 4,
     "ko": "「물보라 검무곡」",
     "zh": "「浪花剑锋曲」",
-    "ja": "「波花の剣舞曲」"
+    "ja": ""
   },
   "363391": {
     "en": "Slumbering Rose",
@@ -11235,7 +11235,7 @@
         "id": 101002
       }
     ],
-    "ko": "「물고기가 빙글빙글」",
+    "ko": "「빙글빙글 물고기」",
     "zh": "「鱼儿转呀转」",
     "ja": "「お魚くるくる回転」JP3A"
   },
@@ -11553,7 +11553,7 @@
     ],
     "ko": "「행운의 룰렛」",
     "zh": "「好运速转」",
-    "ja": "「ラッキールーレット」"
+    "ja": ""
   },
   "363413": {
     "en": "Burst of Appetite",
@@ -11657,9 +11657,9 @@
     ],
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLdizuo_01_Vo",
     "rank": 4,
-    "ko": "달콤 베리꽃 오두막",
+    "ko": "낙락베리 오두막",
     "zh": "甜莓花花小屋",
-    "ja": "甘ベリーのお花小屋JP3A"
+    "ja": "スイートベリーのお花小屋"
   },
   "363418": {
     "en": "Honey Blossom Hut",
@@ -11671,9 +11671,9 @@
     ],
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLdizuo_02_Vo",
     "rank": 4,
-    "ko": "꿀꽃 오두막",
+    "ko": "벌꿀 오두막",
     "zh": "蜂蜜花花小屋",
-    "ja": "蜂蜜のお花小屋JP3A"
+    "ja": "蜂蜜と花の小屋"
   },
   "363419": {
     "en": "Sweet Berry Blossom Ice Hut",
@@ -11685,7 +11685,7 @@
     ],
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLdizuo_03_Vo",
     "rank": 4,
-    "ko": "달콤 베리꽃 꽁꽁 오두막",
+    "ko": "얼음 오두막",
     "zh": "甜莓花花冰屋",
     "ja": "甘ベリーのお花氷小屋JP3A"
   },
@@ -11709,13 +11709,13 @@
       "Landscape"
     ],
     "type2": [
-      "Tes Katheryne Parts"
+      "\"Lady Katheryne Statue\" Component"
     ],
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLshenti_01_Vo",
     "rank": 4,
     "ko": "공손한 자세",
     "zh": "礼貌站姿",
-    "ja": "丁寧な立ちポーズJP3A"
+    "ja": "丁寧な立ちポーズ"
   },
   "363422": {
     "en": "Cross Mood",
@@ -11723,11 +11723,11 @@
       "Landscape"
     ],
     "type2": [
-      "Tes Katheryne Parts"
+      "\"Lady Katheryne Statue\" Component"
     ],
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLshenti_02_Vo",
     "rank": 4,
-    "ko": "화난 상태",
+    "ko": "",
     "zh": "气气状态",
     "ja": "プンプン状態JP3A"
   },
@@ -11737,7 +11737,7 @@
       "Landscape"
     ],
     "type2": [
-      "Tes Katheryne Parts"
+      "\"Lady Katheryne Statue\" Component"
     ],
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLshenti_03_Vo",
     "rank": 4,
@@ -11751,7 +11751,7 @@
       "Landscape"
     ],
     "type2": [
-      "Tes Katheryne Parts"
+      "\"Lady Katheryne Statue\" Component"
     ],
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLshenti_04_Vo",
     "rank": 4,
@@ -11765,7 +11765,7 @@
       "Landscape"
     ],
     "type2": [
-      "Tes Katheryne Parts"
+      "\"Lady Katheryne Statue\" Component"
     ],
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLlianbu_01_Vo",
     "rank": 4,
@@ -11779,13 +11779,13 @@
       "Landscape"
     ],
     "type2": [
-      "Tes Katheryne Parts"
+      "\"Lady Katheryne Statue\" Component"
     ],
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLlianbu_02_Vo",
     "rank": 4,
     "ko": "감동의 눈빛",
     "zh": "感动目光",
-    "ja": "感動の眼差しJP3A"
+    "ja": "感動の眼差し"
   },
   "363427": {
     "en": "Precise Calculation",
@@ -11793,7 +11793,7 @@
       "Landscape"
     ],
     "type2": [
-      "Tes Katheryne Parts"
+      "\"Lady Katheryne Statue\" Component"
     ],
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLlianbu_03_Vo",
     "rank": 4,
@@ -11807,7 +11807,7 @@
       "Landscape"
     ],
     "type2": [
-      "Tes Katheryne Parts"
+      "\"Lady Katheryne Statue\" Component"
     ],
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLlianbu_04_Vo",
     "rank": 4,
@@ -11821,7 +11821,7 @@
       "Landscape"
     ],
     "type2": [
-      "Tes Katheryne Parts"
+      "\"Lady Katheryne Statue\" Component"
     ],
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLtoubu_01_Vo",
     "rank": 4,
@@ -11835,11 +11835,11 @@
       "Landscape"
     ],
     "type2": [
-      "Tes Katheryne Parts"
+      "\"Lady Katheryne Statue\" Component"
     ],
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLtoubu_02_Vo",
     "rank": 4,
-    "ko": "스네즈나야의 아이시 블루",
+    "ko": "얼음 호수",
     "zh": "至冬冰蓝",
     "ja": "スネージナヤ氷藍JP3A"
   },
@@ -11849,7 +11849,7 @@
       "Landscape"
     ],
     "type2": [
-      "Tes Katheryne Parts"
+      "\"Lady Katheryne Statue\" Component"
     ],
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLtoubu_03_Vo",
     "rank": 4,
@@ -11863,11 +11863,11 @@
       "Landscape"
     ],
     "type2": [
-      "Tes Katheryne Parts"
+      "\"Lady Katheryne Statue\" Component"
     ],
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLtoubu_04_Vo",
     "rank": 4,
-    "ko": "겨울날의 잠기운",
+    "ko": "겨울의 잠기운",
     "zh": "冬日睡意",
     "ja": "冬のまどろみJP3A"
   },
@@ -11877,11 +11877,11 @@
       "Landscape"
     ],
     "type2": [
-      "Tes Katheryne Parts"
+      "\"Lady Katheryne Statue\" Component"
     ],
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLmxj_01_Vo",
     "rank": 4,
-    "ko": "꼬마 모험가·즐거움",
+    "ko": "작은 모험가·행복",
     "zh": "小小冒险家·开心",
     "ja": "小さな冒険者・ハッピーJP3A"
   },
@@ -11891,11 +11891,11 @@
       "Landscape"
     ],
     "type2": [
-      "Tes Katheryne Parts"
+      "\"Lady Katheryne Statue\" Component"
     ],
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLmxj_02_Vo",
     "rank": 4,
-    "ko": "꼬마 모험가·꾸준함",
+    "ko": "작은 모험가·근면",
     "zh": "小小冒险家·勤奋",
     "ja": "小さな冒険者・勤勉JP3A"
   },
@@ -11905,11 +11905,11 @@
       "Landscape"
     ],
     "type2": [
-      "Tes Katheryne Parts"
+      "\"Lady Katheryne Statue\" Component"
     ],
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLmxj_03_Vo",
     "rank": 4,
-    "ko": "꼬마 모험가·기쁨",
+    "ko": "작은 모험가·기쁨",
     "zh": "小小冒险家·快乐",
     "ja": "小さな冒険者・楽しさJP3A"
   },
@@ -11919,11 +11919,11 @@
       "Landscape"
     ],
     "type2": [
-      "Tes Katheryne Parts"
+      "\"Lady Katheryne Statue\" Component"
     ],
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLmxj_04_Vo",
     "rank": 4,
-    "ko": "꼬마 모험가·투지",
+    "ko": "작은 모험가·투지",
     "zh": "小小冒险家·斗志",
     "ja": "小さな冒険者・闘志JP3A"
   },
@@ -11933,11 +11933,11 @@
       "Landscape"
     ],
     "type2": [
-      "Tes Katheryne Parts"
+      "\"Lady Katheryne Statue\" Component"
     ],
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLmxj_05_Vo",
     "rank": 4,
-    "ko": "커다란 모험가·즐거움",
+    "ko": "큰 모험가·행복",
     "zh": "大大冒险家·开心",
     "ja": "大きな冒険者・ハッピーJP3A"
   },
@@ -11947,11 +11947,11 @@
       "Landscape"
     ],
     "type2": [
-      "Tes Katheryne Parts"
+      "\"Lady Katheryne Statue\" Component"
     ],
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLmxj_06_Vo",
     "rank": 4,
-    "ko": "커다란 모험가·꾸준함",
+    "ko": "큰 모험가·근면",
     "zh": "大大冒险家·勤奋",
     "ja": "大きな冒険者・勤勉JP3A"
   },
@@ -11961,11 +11961,11 @@
       "Landscape"
     ],
     "type2": [
-      "Tes Katheryne Parts"
+      "\"Lady Katheryne Statue\" Component"
     ],
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLmxj_07_Vo",
     "rank": 4,
-    "ko": "커다란 모험가·기쁨",
+    "ko": "큰 모험가·기쁨",
     "zh": "大大冒险家·快乐",
     "ja": "大きな冒険者・楽しさJP3A"
   },
@@ -11975,11 +11975,11 @@
       "Landscape"
     ],
     "type2": [
-      "Tes Katheryne Parts"
+      "\"Lady Katheryne Statue\" Component"
     ],
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_KSLmxj_08_Vo",
     "rank": 4,
-    "ko": "커다란 모험가·투지",
+    "ko": "큰 모험가·투지",
     "zh": "大大冒险家·斗志",
     "ja": "大きな冒険者・闘志JP3A"
   },
@@ -12051,7 +12051,7 @@
         "id": 101002
       }
     ],
-    "ko": "「늘 꿈결과 함께」",
+    "ko": "「꿈의 동반자」",
     "zh": "「常伴梦乡」",
     "ja": "「夢路のお供」JP3A"
   },
@@ -12327,7 +12327,7 @@
         "id": 101002
       }
     ],
-    "ko": "병 꽃꽂이-「단아한 먹빛」",
+    "ko": "병 꽃꽂이-「단아한 보랏빛」",
     "zh": "瓶栽插花-「典雅黛色」",
     "ja": "花瓶の生花-「典雅黛色」JP3A"
   },
@@ -12683,7 +12683,7 @@
         "id": 101001
       }
     ],
-    "ko": "낡은 원형 방패",
+    "ko": "",
     "zh": "半旧的圆盾",
     "ja": "古びた円盾"
   },
@@ -13043,7 +13043,7 @@
     ],
     "ko": "실내 조명-「해 질 녘의 바다 풍경」",
     "zh": "室内挂灯-「昏黄海景」",
-    "ja": "ルームライト-「黄昏の海の眺め」"
+    "ja": ""
   },
   "364219": {
     "en": "Meka Luminaire: \"Silent Night's Contemplation\"",
@@ -13859,7 +13859,7 @@
     ],
     "icon": "UI_Homeworld_Interior_Fd_Walldecoration_Prop_SZGqizi_01_Vo",
     "rank": 3,
-    "ko": "「윙갈레트의 깃발」",
+    "ko": "",
     "zh": "「维恩歌莱之帜」",
     "ja": "「ウィンガレットの旗」"
   },
@@ -13883,7 +13883,7 @@
         "id": 101002
       }
     ],
-    "ko": "「황금빛 겨울」",
+    "ko": "「금빛 겨울」",
     "zh": "「金色的冬天」",
     "ja": "「金色的冬」JP3A"
   },
@@ -13963,7 +13963,7 @@
     ],
     "icon": "UI_Homeworld_Ani_General_Common_Decoration_Prop_RandomRobot_03_01",
     "rank": 3,
-    "ko": "뇌정의 소쩍새호·회전",
+    "ko": "",
     "zh": "霆雷角鸮号·转",
     "ja": "雷霆コノハズク·転"
   },
@@ -14354,7 +14354,7 @@
     "rank": 1,
     "ko": "벤티",
     "zh": "温迪",
-    "ja": "ウェンティ"
+    "ja": ""
   },
   "368112": {
     "en": "Xiangling",
@@ -15194,7 +15194,7 @@
     "rank": 1,
     "ko": "백출",
     "zh": "白术",
-    "ja": "白朮"
+    "ja": ""
   },
   "368168": {
     "en": "Kirara",
@@ -15224,7 +15224,7 @@
     "rank": 1,
     "ko": "리넷",
     "zh": "琳妮特",
-    "ja": "リネット"
+    "ja": ""
   },
   "368170": {
     "en": "Lyney",
@@ -15644,7 +15644,7 @@
     "rank": 1,
     "ko": "바레사",
     "zh": "瓦雷莎",
-    "ja": "ヴァレサ"
+    "ja": ""
   },
   "368198": {
     "en": "Escoffier",
@@ -15957,7 +15957,7 @@
     ],
     "icon": "",
     "rank": 1,
-    "ko": "오데트",
+    "ko": "",
     "zh": "奥黛塔",
     "ja": "オデット"
   },
@@ -16146,7 +16146,7 @@
     "rank": 3,
     "ko": "경장묘",
     "zh": "警长猫",
-    "ja": "タキシード"
+    "ja": ""
   },
   "369111": {
     "en": "Kageroumaru",
@@ -17132,7 +17132,7 @@
     "rank": 3,
     "ko": "푸른 왕관새",
     "zh": "青冠雀",
-    "ja": "青カンムリガラ"
+    "ja": ""
   },
   "369181": {
     "en": "Snow-Winged Goose",
@@ -17301,7 +17301,7 @@
     "rank": 3,
     "ko": "알파카·얼음 우유",
     "zh": "绵驮兽·冰牛奶",
-    "ja": "モコモコ駄獣·アイスミルク"
+    "ja": ""
   },
   "369193": {
     "en": "Alpaca: Chocolate",
@@ -17789,7 +17789,7 @@
     ],
     "icon": "UI_AnimalIcon_Wolverine_01_Alter",
     "rank": 3,
-    "ko": "특별한 갈기 오소리",
+    "ko": "",
     "zh": "特别的帔髦獾",
     "ja": "特別なモサモサアナグマ"
   },
@@ -18055,7 +18055,7 @@
     ],
     "ko": "리월풍 역참-「옛스러운 차향」",
     "zh": "璃月驿站-「古道茶香」",
-    "ja": "璃月宿場-「古道茶香」"
+    "ja": ""
   },
   "370106": {
     "en": "Liyue House: Moon-Crested Eaves",
@@ -20085,7 +20085,7 @@
     ],
     "ko": "오토기나무 모둠 어묵탕 포장마차",
     "zh": "御伽木市井杂煮屋台",
-    "ja": "御伽の市井おでん屋台"
+    "ja": ""
   },
   "370507": {
     "en": "Otogi Wood Granary Cart",
@@ -21027,7 +21027,7 @@
     ],
     "ko": "이나즈마 관저-「변함없는 위엄」",
     "zh": "稻妻官邸-「举目威仪」",
-    "ja": "稲妻官邸-「挙目威儀」"
+    "ja": ""
   },
   "370616": {
     "en": "Inazuman Official Residence: Strict Adherence",
@@ -21505,7 +21505,7 @@
     ],
     "ko": "사막 집-「일상」",
     "zh": "沙域平屋-「端居」",
-    "ja": "砂域の家屋-「日常」"
+    "ja": ""
   },
   "370706": {
     "en": "Desert House: Spices Abound",
@@ -23575,7 +23575,7 @@
         "id": 101401
       }
     ],
-    "ko": "꽃깃 오두막-「예비 수단」",
+    "ko": "",
     "zh": "花羽简舍-「后备手段」",
     "ja": "花翼の簡舎-「代替手段」"
   },
@@ -24311,7 +24311,7 @@
     ],
     "ko": "「안전한 파수의 성」",
     "zh": "「守望之城的庇托」",
-    "ja": "「守護の都の庇護」"
+    "ja": ""
   },
   "371017": {
     "en": "\"A Corner of One's Own\"",
@@ -24339,7 +24339,7 @@
     ],
     "ko": "「한 칸 공간」",
     "zh": "「一隅之间」",
-    "ja": "「片隅の間」"
+    "ja": ""
   },
   "371018": {
     "en": "\"Care in the City of the Ever-Watchful\"",
@@ -24659,7 +24659,7 @@
         "id": 101334
       }
     ],
-    "ko": "마을 민가-「따스한 보금자리」",
+    "ko": "",
     "zh": "城镇民居-「融融暖居」",
     "ja": "町の民家-「ぬくもりの家」JP3A"
   },
@@ -24707,7 +24707,7 @@
         "id": 101002
       }
     ],
-    "ko": "정거장 플랫폼-「고요한 기다림」",
+    "ko": "열차 승강장-「고요한 기다림」",
     "zh": "候车站台-「静谧等待」",
     "ja": "待合ポート-「静かな待ち時間」JP3A"
   },
@@ -24731,7 +24731,7 @@
         "id": 101002
       }
     ],
-    "ko": "스네즈나야 민가-「따스한 색조의 현관」",
+    "ko": "스네즈나야 민가-「따뜻한 색」",
     "zh": "至冬民居-「暖色门廊」",
     "ja": "スネージナヤの民家-「暖色のポーチ」JP3A"
   },
@@ -24779,7 +24779,7 @@
         "id": 101002
       }
     ],
-    "ko": "스네즈나야 민가-「우아한 조각문양」",
+    "ko": "스네즈나야 민가-「우아한 조각」",
     "zh": "至冬民居-「典雅雕花」",
     "ja": "スネージナヤの民家-「典雅な彫花」JP3A"
   },
@@ -24895,7 +24895,7 @@
         "id": 101002
       }
     ],
-    "ko": "「목가와 풍차」",
+    "ko": "",
     "zh": "「牧歌与风车」",
     "ja": "「牧歌と風車」"
   },
@@ -24963,7 +24963,7 @@
         "id": 101402
       }
     ],
-    "ko": "주홍 도리이-「고요의 문」",
+    "ko": "",
     "zh": "朱木鸟居-「真静之扉」",
     "ja": "赤鳥居-「真静の扉」"
   },
@@ -25061,7 +25061,7 @@
     ],
     "ko": "담장집 정원의 일각-「적절한 조화」",
     "zh": "垣屋庭角-「安节谦洽」",
-    "ja": "垣屋庭角-「安節謙洽」"
+    "ja": ""
   },
   "371116": {
     "en": "Whitestone Hot Spring: Diffusing Warmth",
@@ -25081,7 +25081,7 @@
     ],
     "ko": "백석 온천-「온화」",
     "zh": "白石温泉-「暖漫」",
-    "ja": "白石温泉-「暖漫」"
+    "ja": ""
   },
   "371117": {
     "en": "Of Fields Green: Clear Spring Fountain",
@@ -26009,7 +26009,7 @@
     ],
     "ko": "조각문양 정원 담장",
     "zh": "雕花庭院围墙",
-    "ja": "模様が彫られた庭園の壁"
+    "ja": ""
   },
   "371205": {
     "en": "Scenic Corridor: Sylvan Stroll",
@@ -26415,7 +26415,7 @@
         "id": 101402
       }
     ],
-    "ko": "신사 회랑-「주홍빛의 응시」",
+    "ko": "",
     "zh": "神社回廊-「浅赤凝望」",
     "ja": "神社回廊-「浅赤凝望」"
   },
@@ -26439,7 +26439,7 @@
         "id": 101002
       }
     ],
-    "ko": "담장집 담장-「철벽방어」",
+    "ko": "",
     "zh": "垣屋院墙-「崩石之御」",
     "ja": "垣屋院墻-「崩石の御」"
   },
@@ -26807,7 +26807,7 @@
         "id": 101313
       }
     ],
-    "ko": "나무집 담장-「새들의 제창」",
+    "ko": "",
     "zh": "穹居院墙-「百鸟齐唱」",
     "ja": "住居の院墻-「百鳥の合唱」"
   },
@@ -27427,7 +27427,7 @@
         "id": 101002
       }
     ],
-    "ko": "경기장의 「단련」 돌계단",
+    "ko": "",
     "zh": "竞技场「百炼」石阶",
     "ja": "競技場「百錬」の石段"
   },
@@ -27525,7 +27525,7 @@
     ],
     "ko": "수호의 바위 기둥-「영웅들」",
     "zh": "守护岩柱-「诸英杰」",
-    "ja": "守護の岩柱-「諸英傑」"
+    "ja": ""
   },
   "371273": {
     "en": "Ashen Aratiku Wood \"Minimalist\" Staircase",
@@ -27563,7 +27563,7 @@
         "id": 101303
       }
     ],
-    "ko": "외경 반석-「산악」",
+    "ko": "",
     "zh": "外景磐石-「却笠」",
     "ja": "外景盤石-「却笠」"
   },
@@ -27983,7 +27983,7 @@
     "rank": 3,
     "ko": "노회석",
     "zh": "炉灰石",
-    "ja": "炉灰石"
+    "ja": ""
   },
   "372215": {
     "en": "Sartorial Stone",
@@ -30593,7 +30593,7 @@
     ],
     "icon": "UI_Homeworld_Exterior_Fd_Plant_Grass_Fenlaba_01_Lod0",
     "rank": 3,
-    "ko": "「하늘빛 사파이어」",
+    "ko": "",
     "zh": "「天蓝宝石」",
     "ja": "「コバルト宝石」"
   },
@@ -30861,7 +30861,7 @@
     "rank": 3,
     "ko": "「살랑살랑 반짝반짝」",
     "zh": "「摇摇闪闪亮亮摆」",
-    "ja": "「ピカピカユラユラ」"
+    "ja": ""
   },
   "372523": {
     "en": "Fluffy Fuzzball",
@@ -30901,7 +30901,7 @@
     ],
     "icon": "UI_Homeworld_Exterior_Zd_Plant_Grass_HNHguanmu_01_Lod0",
     "rank": 3,
-    "ko": "「소리 없는 기대감」",
+    "ko": "「소리 없는 기대」",
     "zh": "「无声的期盼」",
     "ja": "「声なき期待」JP3A"
   },
@@ -30915,7 +30915,7 @@
     ],
     "icon": "UI_Homeworld_Exterior_Zd_Plant_Grass_HNHguanmu_02_Lod0",
     "rank": 3,
-    "ko": "「겹겹이 포개진 잎사귀」",
+    "ko": "「겹겹이 포개진 잎」",
     "zh": "「层层叠叠之叶」",
     "ja": "「幾重にも重なる葉」JP3A"
   },
@@ -31949,7 +31949,7 @@
     ],
     "icon": "UI_Homeworld_Exterior_Dq_Thing_Prop_Fireworks_01_Vo",
     "rank": 4,
-    "ko": "「안식의 불꽃」",
+    "ko": "",
     "zh": "「悠眠花火」",
     "ja": "「悠眠花火」"
   },
@@ -32343,7 +32343,7 @@
     ],
     "ko": "「숲에서 먹이를 찾는 법」",
     "zh": "「林中觅食的巧方」",
-    "ja": "「森の食探しの妙案」"
+    "ja": ""
   },
   "373155": {
     "en": "\"It Just Might Work!\"",
@@ -32361,7 +32361,7 @@
         "id": 101315
       }
     ],
-    "ko": "「성공할 수도!」",
+    "ko": "",
     "zh": "「说不定就成功了！」",
     "ja": "「うまくいくかもしれない！」"
   },
@@ -32729,7 +32729,7 @@
     ],
     "ko": "유지 보수 장치·기술 시범 타입",
     "zh": "维护机关·技术演示型",
-    "ja": "メンテマシナリー·技術デモ型"
+    "ja": ""
   },
   "373173": {
     "en": "Toy Adventurers: Beatdance",
@@ -32741,7 +32741,7 @@
     ],
     "icon": "UI_Homeworld_Ani_Exterior_Fd_Thing_Prop_Jiqir_01",
     "rank": 4,
-    "ko": "모험가 장난감-「리듬 펀치」",
+    "ko": "",
     "zh": "冒险家玩具-「跃动节拍」",
     "ja": "冒険者のおもちゃ-「躍動するリズム」"
   },
@@ -34047,7 +34047,7 @@
         "id": 101002
       }
     ],
-    "ko": "돌사자-「백해」",
+    "ko": "",
     "zh": "石狮子像-「百解」",
     "ja": "石獅子像-「百解」"
   },
@@ -34745,7 +34745,7 @@
     ],
     "icon": "UI_Homeworld_Exterior_Dq_Thing_Prop_ColorFoxDoll_01_Vo",
     "rank": 4,
-    "ko": "요고우산 야행 불여우 인형",
+    "ko": "",
     "zh": "影向山夜行赤狐玩偶",
     "ja": "影向山夜行赤狐のぬいぐるみ"
   },
@@ -34775,7 +34775,7 @@
     ],
     "ko": "너구리 포옹 포토 스팟",
     "zh": "狸猫抱抱合影板",
-    "ja": "狸の顔出し看板"
+    "ja": ""
   },
   "373344": {
     "en": "\"Kitsune Guuji\" Exclusive Painted Flag Banner",
@@ -35121,7 +35121,7 @@
     ],
     "ko": "「정벌 구상」",
     "zh": "「攻伐的具象」",
-    "ja": "「攻伐の具象」"
+    "ja": ""
   },
   "373359": {
     "en": "Steel Stopper",
@@ -35621,7 +35621,7 @@
         "id": 101001
       }
     ],
-    "ko": "「여단의 기세」",
+    "ko": "",
     "zh": "「旅团的盛气」",
     "ja": "「旅団の勢い」"
   },
@@ -37139,7 +37139,7 @@
         "id": 101002
       }
     ],
-    "ko": "「악률의 기원」",
+    "ko": "",
     "zh": "「乐律的源始」",
     "ja": "「メロディーの始まり」"
   },
@@ -37337,7 +37337,7 @@
     ],
     "ko": "「멈추지 않는 투쟁」",
     "zh": "「不息的争流」",
-    "ja": "「絶え間ない流れ」"
+    "ja": ""
   },
   "373463": {
     "en": "\"Flag of Huitztlan\"",
@@ -37717,7 +37717,7 @@
         "id": 101325
       }
     ],
-    "ko": "「열정과 힘이 담긴 그림」",
+    "ko": "",
     "zh": "「诚勇伟力之绘」",
     "ja": "「勇ましく屈強な絵画」"
   },
@@ -38081,7 +38081,7 @@
         "id": 101404
       }
     ],
-    "ko": "출판물 진열대-「초점 효과」",
+    "ko": "",
     "zh": "书报架-「聚焦效应」",
     "ja": "ブックラック-「フォーカス効果」"
   },
@@ -38405,7 +38405,7 @@
     ],
     "icon": "UI_Homeworld_Exterior_Common_Prop_Flower_FloralDesign_02_Vo",
     "rank": 3,
-    "ko": "히비스커스·가을 귤",
+    "ko": "",
     "zh": "星槿·秋橘",
     "ja": "ホシムクゲ·秋橘"
   },
@@ -39639,7 +39639,7 @@
     ],
     "ko": "「활용할 수 없는 유물」",
     "zh": "「无可应用的遗留」",
-    "ja": "「使い道のない遺留品」"
+    "ja": ""
   },
   "373942": {
     "en": "\"Cherish the Present\"",
@@ -39661,7 +39661,7 @@
         "id": 101002
       }
     ],
-    "ko": "「현재를 소중히」",
+    "ko": "「기술의 소중함」",
     "zh": "「珍惜当下」",
     "ja": "「今を大切に」JP3A"
   },
@@ -39685,7 +39685,7 @@
         "id": 101002
       }
     ],
-    "ko": "「녹지 않은 거처」",
+    "ko": "「녹지 않은 수납장」",
     "zh": "「未融的居所」",
     "ja": "「溶けざる居所」JP3A"
   },
@@ -39879,7 +39879,7 @@
     "rank": 3,
     "ko": "눈사람 손-「즐거운 눈 몬스터」",
     "zh": "雪人双手-「欢乐雪怪」",
-    "ja": "雪だるまの両手-「ハッピー雪モンスター」"
+    "ja": ""
   },
   "374013": {
     "en": "Snowman Hat: Ironhelm Guard",
@@ -40951,7 +40951,7 @@
     ],
     "ko": "「우거진 숲의 자연미」",
     "zh": "「丛林的原生之美」",
-    "ja": "「森に光る自然の美」"
+    "ja": ""
   },
   "374118": {
     "en": "Window to Prophecy",
@@ -41791,7 +41791,7 @@
         "id": 101401
       }
     ],
-    "ko": "열차역 벤치-「막간의 신문 읽기」",
+    "ko": "열차역 벤치-「막간의 신문」",
     "zh": "车站长椅-「隙间读报」",
     "ja": "駅のベンチ-「合間の新聞読み」JP3A"
   },
@@ -41815,7 +41815,7 @@
         "id": 101002
       }
     ],
-    "ko": "「기다림의 남은 온기」",
+    "ko": "「기다림의 온기」",
     "zh": "「等待的余温」",
     "ja": "「待つ温もりの名残」JP3A"
   },
@@ -43001,7 +43001,7 @@
     ],
     "ko": "「전달꾼의 직접 선택」",
     "zh": "「讯使的各取所需」",
-    "ja": "「伝達使に必要なもの」"
+    "ja": ""
   },
   "374609": {
     "en": "\"Way to the Extreme\"",
@@ -43391,7 +43391,7 @@
         "id": 101325
       }
     ],
-    "ko": "「저장의 규칙」",
+    "ko": "",
     "zh": "「存储的规则」",
     "ja": "「保管ルール」"
   },
@@ -44127,7 +44127,7 @@
         "id": 101002
       }
     ],
-    "ko": "간이 운송용 썰매",
+    "ko": "간이 짐썰매",
     "zh": "简易运输用雪橇",
     "ja": "簡易輸送用ソリJP3A"
   },
@@ -44175,7 +44175,7 @@
         "id": 101002
       }
     ],
-    "ko": "「단단한 얼음 같은 견고함」",
+    "ko": "「빙하를 누비는 광차」",
     "zh": "「如坚冰般稳固」",
     "ja": "「堅氷の如く強固」JP3A"
   },
@@ -44223,7 +44223,7 @@
         "id": 101002
       }
     ],
-    "ko": "순얼음 광석-「가지런한 진열」",
+    "ko": "순얼음 광석-「진열」",
     "zh": "臻冰矿材-「陈列规整」",
     "ja": "真氷鉱材-「整然とした陳列」JP3A"
   },
@@ -44529,7 +44529,7 @@
     "rank": 4,
     "ko": "「어머, 꼬마야…」",
     "zh": "「哎呀，小家伙…」",
-    "ja": "「ほう、童ではないか…」"
+    "ja": ""
   },
   "374724": {
     "en": "\"Be Quick, Would You?\"",
@@ -45115,7 +45115,7 @@
     ],
     "icon": "UI_Homeworld_Exterior_Common_Prop_Thing_FairyTalesCapsuleToys_36",
     "rank": 3,
-    "ko": "동화 모형-「안전 운행」",
+    "ko": "",
     "zh": "童话巧像-「平稳驾驶」",
     "ja": "童話の模型-「安全運転」"
   },
@@ -45533,7 +45533,7 @@
     ],
     "icon": "UI_Homeworld_Ani_Exterior_Ly_Decoration_Prop_HDJJubaopen_01_Vo",
     "rank": 4,
-    "ko": "「황금 나무」",
+    "ko": "",
     "zh": "「吉事宝树」",
     "ja": "「吉兆の宝樹」"
   },
@@ -45739,7 +45739,7 @@
     "rank": 4,
     "ko": "상상 친구-「순둥구리」",
     "zh": "幻想朋友-「大礼貉」",
-    "ja": "空想の友達-「利大貉」"
+    "ja": ""
   },
   "374833": {
     "en": "Imaginary Friend: Dodoco",

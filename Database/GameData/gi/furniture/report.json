@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-23T09:23:40.318Z",
+  "generatedAt": "2026-07-26T09:10:17.837Z",
   "sourceUrl": "https://gi.nanoka.cc/furniture/",
-  "version": "6.7.53",
-  "staticBase": "https://static.nanoka.cc/gi/6.7.53",
+  "version": "6.7.54",
+  "staticBase": "https://static.nanoka.cc/gi/6.7.54",
   "counts": {
     "furnishings": 2351,
     "withDetail": 2351,

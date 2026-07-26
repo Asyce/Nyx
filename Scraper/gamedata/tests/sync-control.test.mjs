@@ -5,6 +5,7 @@ import path from 'node:path';
 import test from 'node:test';
 
 import { detectManifestChanges } from '../check-upstream.mjs';
+import { stripMissingAssetReferences } from '../lib/gamedata-game.mjs';
 import { validateGameDataOutput } from '../validate-output.mjs';
 
 test('manifest detection reports only supported games whose live or beta data changed', () => {
@@ -113,4 +114,104 @@ test('GameData-only validation identifies records that have no portrait source',
     validateGameDataOutput(databaseDir, ['zzz']),
     /without a local portrait reference: Avatar_Female_Size02_Remielle \(1581\)/,
   );
+});
+
+test('beta character and agent records that end with no local art are omitted after stripping', () => {
+  const missing = [
+    'GameData/ww/assets/characters/icons/1212.webp',
+    'GameData/ww/assets/characters/portraits/1212.webp',
+    'GameData/ww/assets/characters/portraits/1213.webp',
+    'GameData/zzz/assets/agents/icons/1413.webp',
+    'GameData/zzz/assets/agents/partner-icons/1413.webp'
+  ].map((path) => ({ path }));
+  const collections = {
+    characters: [
+      {
+        id: '1212',
+        name: 'Stay tuned',
+        assets: {
+          icon: 'GameData/ww/assets/characters/icons/1212.webp',
+          portrait: 'GameData/ww/assets/characters/portraits/1212.webp'
+        }
+      },
+      {
+        id: '1213',
+        name: 'Partial art',
+        assets: {
+          icon: 'GameData/ww/assets/characters/icons/1213.webp',
+          portrait: 'GameData/ww/assets/characters/portraits/1213.webp'
+        }
+      },
+      { id: '1214', name: 'No art reference', assets: {} }
+    ],
+    agents: [{
+      id: '1413',
+      name: 'Qingxiao',
+      assets: {
+        icon: 'GameData/zzz/assets/agents/icons/1413.webp',
+        partnerIcon: 'GameData/zzz/assets/agents/partner-icons/1413.webp'
+      }
+    }]
+  };
+
+  const omissions = stripMissingAssetReferences(collections, missing, {
+    omitBetaCharacterRecords: true
+  });
+
+  assert.deepEqual(omissions, [
+    {
+      section: 'characters',
+      id: '1212',
+      name: 'Stay tuned',
+      missingAssets: [
+        'GameData/ww/assets/characters/icons/1212.webp',
+        'GameData/ww/assets/characters/portraits/1212.webp'
+      ]
+    },
+    {
+      section: 'characters',
+      id: '1214',
+      name: 'No art reference',
+      missingAssets: []
+    },
+    {
+      section: 'agents',
+      id: '1413',
+      name: 'Qingxiao',
+      missingAssets: [
+        'GameData/zzz/assets/agents/icons/1413.webp',
+        'GameData/zzz/assets/agents/partner-icons/1413.webp'
+      ]
+    }
+  ]);
+  assert.deepEqual(collections.characters.map(({ id }) => id), ['1213']);
+  assert.deepEqual(collections.characters[0].assets, {
+    icon: 'GameData/ww/assets/characters/icons/1213.webp'
+  });
+  assert.deepEqual(collections.agents, []);
+});
+
+test('beta records with no upstream art source are omitted even when no downloads fail', () => {
+  const collections = {
+    characters: [
+      { id: '1201', name: 'No source', assets: {} },
+      {
+        id: '1202',
+        name: 'Has source',
+        assets: { icon: 'GameData/ww/assets/characters/icons/1202.webp' }
+      }
+    ]
+  };
+
+  const omissions = stripMissingAssetReferences(collections, [], {
+    omitBetaCharacterRecords: true
+  });
+
+  assert.deepEqual(collections.characters.map(({ id }) => id), ['1202']);
+  assert.deepEqual(omissions, [{
+    section: 'characters',
+    id: '1201',
+    name: 'No source',
+    missingAssets: []
+  }]);
 });

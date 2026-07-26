@@ -60,14 +60,29 @@ const FETCH_HEADERS = {
 };
 const FETCH_TIMEOUT_MS = 20_000;
 
+class SourceUnavailableError extends Error {
+  constructor(message, options) {
+    super(message, options);
+    this.name = 'SourceUnavailableError';
+  }
+}
+
 // ---------------------------------------------------------------------------
 // Helpers
 // ---------------------------------------------------------------------------
 
 async function fetchHtml(url) {
-  const res = await fetch(url, { headers: FETCH_HEADERS, signal: AbortSignal.timeout(FETCH_TIMEOUT_MS) });
-  if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
-  return res.text();
+  try {
+    const res = await fetch(url, { headers: FETCH_HEADERS, signal: AbortSignal.timeout(FETCH_TIMEOUT_MS) });
+    if (!res.ok) throw new SourceUnavailableError(`HTTP ${res.status} for ${url}`);
+    return await res.text();
+  } catch (err) {
+    if (err instanceof SourceUnavailableError) throw err;
+    if (err?.name === 'AbortError' || err?.name === 'TimeoutError' || err instanceof TypeError) {
+      throw new SourceUnavailableError(`Fetch failed for ${url}: ${err.message}`, { cause: err });
+    }
+    throw err;
+  }
 }
 
 function normalizeText(text = '') {
@@ -1071,6 +1086,7 @@ async function tryGame8(game) {
     }
     console.warn(`[${game.id}] game8 parse yielded no dates`);
   } catch (err) {
+    if (!(err instanceof SourceUnavailableError)) throw err;
     console.warn(`[${game.id}] game8 error: ${err.message}`);
   }
   return null;
@@ -1088,6 +1104,7 @@ async function tryPrydwen(game) {
     }
     console.warn(`[${game.id}] prydwen parse yielded no dates`);
   } catch (err) {
+    if (!(err instanceof SourceUnavailableError)) throw err;
     console.warn(`[${game.id}] prydwen error: ${err.message}`);
   }
   return null;
@@ -1099,6 +1116,12 @@ async function scrapeGame(game) {
     return (await tryPrydwen(game)) ?? (await tryGame8(game));
   }
   return (await tryGame8(game)) ?? (await tryPrydwen(game));
+}
+
+function requiredCurrentSourceFailures(gameIds, currentSourceSuccesses, optionalGames = ['endfield']) {
+  const succeeded = new Set(currentSourceSuccesses);
+  const optional = new Set(optionalGames);
+  return gameIds.filter((id) => !optional.has(id) && !succeeded.has(id));
 }
 
 async function main() {
@@ -1115,6 +1138,7 @@ async function main() {
 
   const existingById = Object.fromEntries((existing.games ?? []).map(g => [g.id, g]));
   const updatedGames = [];
+  const currentSourceSuccesses = new Set();
 
   for (const game of GAMES) {
     const scraped = await scrapeGame(game);
@@ -1145,6 +1169,7 @@ async function main() {
     }
 
     const { result, source } = scraped;
+    currentSourceSuccesses.add(game.id);
 
     // Merge: use scraped character lists as-is (empty = "unknown", render as "?").
     // Only dates fall back to old values so countdowns don't disappear on one bad scrape.
@@ -1262,13 +1287,42 @@ async function main() {
   // timeline and its honest successful-fetch timestamp.
   if (process.argv.includes('--require-fresh')) {
     const failures = requiredBannerFreshnessFailures(payload.games, freshNow);
-    if (failures.length) {
-      throw new Error(`Required banner data is not fresh: ${failures.map(({ id, status }) => `${id}=${status}`).join(', ')}`);
+    const missingCurrentSources = requiredCurrentSourceFailures(
+      GAMES.map(({ id }) => id),
+      currentSourceSuccesses
+    );
+    if (missingCurrentSources.length || failures.length) {
+      const details = [
+        ...(missingCurrentSources.length
+          ? [`no current-run source for ${missingCurrentSources.join(', ')}`]
+          : []),
+        ...(failures.length
+          ? [`freshness ${failures.map(({ id, status }) => `${id}=${status}`).join(', ')}`]
+          : [])
+      ];
+      throw new SourceUnavailableError(`Required banner data is unavailable: ${details.join('; ')}`);
     }
   }
 }
 
-main().catch(err => {
-  console.error(err);
-  process.exit(1);
-});
+async function runCli(task = main, logger = console) {
+  try {
+    await task();
+    return 0;
+  } catch (err) {
+    logger.error(err);
+    return err instanceof SourceUnavailableError ? 2 : 1;
+  }
+}
+
+if (require.main === module) {
+  runCli().then((exitCode) => {
+    process.exitCode = exitCode;
+  });
+}
+
+module.exports = {
+  requiredCurrentSourceFailures,
+  SourceUnavailableError,
+  runCli
+};

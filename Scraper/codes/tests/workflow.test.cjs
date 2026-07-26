@@ -108,6 +108,32 @@ test('only the current-banner owner requires live scraper freshness and retries 
   }
 });
 
+test('data refresh treats an exhausted banner outage as a warned no-op', () => {
+  const source = fs.readFileSync(path.join(root, '.github/workflows/data-refresh.yml'), 'utf8');
+  const scrape = source.indexOf('- name: Scrape banners + codes');
+  const events = source.indexOf('- name: Scrape in-game events');
+  const validate = source.indexOf('- name: Validate scraped data');
+  const commit = source.indexOf('- name: Commit refreshed data');
+  const build = source.indexOf('- name: Build site');
+  const deploy = source.indexOf('- name: Deploy to Cloudflare');
+
+  assert(scrape >= 0 && scrape < events && events < validate && validate < commit);
+  assert.match(source.slice(scrape, events), /id: banner_refresh/);
+  assert.match(source.slice(scrape, events), /banner_status=\$\?/);
+  assert.match(source.slice(scrape, events), /"\$banner_status" -eq 0/);
+  assert.match(source.slice(scrape, events), /"\$banner_status" -ne 2/);
+  assert.match(source.slice(scrape, events), /exit "\$banner_status"/);
+  assert.match(source.slice(scrape, events), /echo "fresh=false"/);
+  assert.match(source.slice(scrape, events), /warning::required banner sources stayed unavailable after 3 attempts/);
+
+  const freshCondition = "steps.banner_refresh.outputs.fresh == 'true'";
+  for (const start of [events, validate, commit, build, deploy]) {
+    const next = source.indexOf('\n      - name:', start + 1);
+    const condition = source.indexOf(freshCondition, start);
+    assert(condition > start && (next < 0 || condition < next), 'publishing path must require a fresh banner result');
+  }
+});
+
 test('every production deploy requires a freshly committed launcher snapshot', () => {
   const workflowDir = path.join(root, '.github/workflows');
   const workflows = fs.readdirSync(workflowDir)

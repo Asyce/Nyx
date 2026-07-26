@@ -114,7 +114,11 @@ async function scrapeChannel(context) {
     ? { skipped: assetBag.downloads.size, downloaded: 0, cached: 0, missing: 0, missingAssets: [] }
     : await downloadAssets(assetBag, { concurrency, forceAssets });
 
-  stripMissingAssetReferences(collections, assetSummary.missingAssets || []);
+  const betaOmissions = channel.name === 'beta'
+    ? stripMissingAssetReferences(collections, assetSummary.missingAssets || [], {
+      omitBetaCharacterRecords: true
+    })
+    : (stripMissingAssetReferences(collections, assetSummary.missingAssets || []), []);
 
   const hashes = Object.fromEntries(
     Object.entries(collections).map(([name, records]) => [name, collectionHashes(records)])
@@ -144,7 +148,8 @@ async function scrapeChannel(context) {
     sample,
     lists,
     collections,
-    assetCount: assetBag.downloads.size
+    assetCount: assetBag.downloads.size,
+    betaOmissions
   });
 
   await writeJson(path.join(channelDir, 'overview.json'), overview);
@@ -186,6 +191,7 @@ async function scrapeChannel(context) {
       output: `${config.outputRoot}/${channel.name}`,
       counts: overview.counts,
       assets: summarizeAssets(assetSummary),
+      betaOmissions: summarizeBetaOmissions(betaOmissions),
       changes: changes.summary
     },
     comparison: {
@@ -203,15 +209,92 @@ function summarizeAssets(assetSummary) {
   return summary;
 }
 
-function stripMissingAssetReferences(collections, missingAssets) {
-  if (!missingAssets.length) {
-    return;
+export function stripMissingAssetReferences(collections, missingAssets, options = {}) {
+  if (!missingAssets.length && !options.omitBetaCharacterRecords) {
+    return [];
   }
 
   const missingPaths = new Set(missingAssets.map((asset) => asset.path));
-  for (const [key, records] of Object.entries(collections)) {
-    collections[key] = stripMissingValue(records, missingPaths);
+  const characterAssetReferences = options.omitBetaCharacterRecords
+    ? captureCharacterAssetReferences(collections)
+    : null;
+  if (missingPaths.size) {
+    for (const [key, records] of Object.entries(collections)) {
+      collections[key] = stripMissingValue(records, missingPaths);
+    }
   }
+
+  if (!options.omitBetaCharacterRecords) {
+    return [];
+  }
+
+  return omitBetaCharacterRecordsWithMissingArt(collections, characterAssetReferences, missingPaths);
+}
+
+const CHARACTER_SECTIONS = new Set(['characters', 'agents']);
+
+function captureCharacterAssetReferences(collections) {
+  const references = new Map();
+  for (const [section, records] of Object.entries(collections)) {
+    if (!CHARACTER_SECTIONS.has(section)) {
+      continue;
+    }
+
+    for (const record of records) {
+      const key = `${section}:${String(record?.id ?? '')}`;
+      references.set(key, collectLocalAssetReferences(record?.assets));
+    }
+  }
+  return references;
+}
+
+function collectLocalAssetReferences(value, found = []) {
+  if (typeof value === 'string' && /^GameData\/[a-z]+\/assets\//.test(value)) {
+    found.push(value);
+  } else if (Array.isArray(value)) {
+    value.forEach((child) => collectLocalAssetReferences(child, found));
+  } else if (value && typeof value === 'object') {
+    Object.values(value).forEach((child) => collectLocalAssetReferences(child, found));
+  }
+  return [...new Set(found)];
+}
+
+function omitBetaCharacterRecordsWithMissingArt(collections, referencesByRecord, missingPaths) {
+  const omitted = [];
+
+  for (const section of CHARACTER_SECTIONS) {
+    if (!collections[section]) {
+      continue;
+    }
+
+    collections[section] = collections[section].filter((record) => {
+      const key = `${section}:${String(record?.id ?? '')}`;
+      const references = referencesByRecord.get(key) || [];
+      const remainingReferences = collectLocalAssetReferences(record?.assets);
+      const allArtMissing = remainingReferences.length === 0;
+
+      if (!allArtMissing) {
+        return true;
+      }
+
+      omitted.push({
+        section,
+        id: String(record?.id ?? ''),
+        name: record?.name || null,
+        missingAssets: references
+      });
+      return false;
+    });
+  }
+
+  return omitted;
+}
+
+function summarizeBetaOmissions(omissions) {
+  return {
+    count: omissions.length,
+    records: omissions
+  };
 }
 
 function stripMissingValue(value, missingPaths) {
@@ -294,7 +377,7 @@ async function downloadAssets(assetBag, options) {
   };
 }
 
-function buildOverview({ config, manifest, channel, sample, lists, collections, assetCount }) {
+function buildOverview({ config, manifest, channel, sample, lists, collections, assetCount, betaOmissions = [] }) {
   const now = new Date().toISOString();
   const counts = Object.fromEntries(
     Object.entries(collections).map(([name, records]) => [name, records.length])
@@ -327,6 +410,7 @@ function buildOverview({ config, manifest, channel, sample, lists, collections, 
     newInManifest: manifest.new || {},
     files,
     assetsPlanned: assetCount,
+    betaOmissions: summarizeBetaOmissions(betaOmissions),
     contentStatus: channel.name === 'live'
       ? 'All records are Live records from the GameData live manifest version.'
       : 'Beta records are compared to Live and marked live, beta, or beta_changed.'

@@ -74,6 +74,26 @@ if (codes) {
 }
 
 // ---- EndfieldWiki operator/weapon materials ----
+// An unfinished wiki page is not a parser failure. Only fail when a record that
+// previously had material data loses it; keep never-filled new records visible
+// and report them as diagnostics until the upstream page is completed.
+function committedEndfieldFile(rel) {
+  try {
+    return JSON.parse(require('child_process').execFileSync(
+      'git',
+      ['show', `HEAD:Database/${rel}`],
+      {
+        cwd: root,
+        encoding: 'utf8',
+        stdio: ['ignore', 'pipe', 'ignore'],
+        maxBuffer: 64 * 1024 * 1024,
+      }
+    ));
+  } catch {
+    return null;
+  }
+}
+
 const endfieldCharacters = load('EndfieldWiki/endfield/characters.json');
 const endfieldItemsPayload = load('EndfieldWiki/endfield/items.json');
 const endfieldWeaponsPayload = load('EndfieldWiki/endfield/weapons.json');
@@ -83,7 +103,18 @@ if (endfieldCharacters) {
   } else {
     const missingMats = endfieldCharacters.filter((ch) => !ch?.materials?.ascension?.length || !ch?.materials?.skill?.length);
     if (missingMats.length) {
-      errors.push(`endfield materials: ${missingMats.length} operator(s) missing ascension or skill materials: ${missingMats.slice(0, 8).map((ch) => ch.name || ch.id).join(', ')}`);
+      const previous = committedEndfieldFile('EndfieldWiki/endfield/characters.json');
+      const hadMats = new Set((Array.isArray(previous) ? previous : [])
+        .filter((ch) => ch?.materials?.ascension?.length && ch?.materials?.skill?.length)
+        .map((ch) => String(ch.id || ch.name)));
+      const regressed = missingMats.filter((ch) => hadMats.has(String(ch.id || ch.name)));
+      const unfilled = missingMats.filter((ch) => !hadMats.has(String(ch.id || ch.name)));
+      if (regressed.length) {
+        errors.push(`endfield materials: ${regressed.length} operator(s) LOST ascension or skill materials: ${regressed.slice(0, 8).map((ch) => ch.name || ch.id).join(', ')}`);
+      }
+      if (unfilled.length) {
+        diagnostics.push(`endfld incomplete wiki page(s), shipped without materials: ${unfilled.map((ch) => ch.name || ch.id).join(', ')}`);
+      }
     }
     diagnostics.push(`endfld operators ${endfieldCharacters.length} (${endfieldCharacters.length - missingMats.length} with material tables)`);
   }
@@ -110,7 +141,20 @@ if (endfieldWeaponsPayload) {
   const weapons = endfieldWeaponsPayload.weapons || [];
   const missingTuning = weapons.filter((weapon) => !weapon?.materials?.length || !weapon?.tuningStages?.length);
   if (!weapons.length) errors.push('EndfieldWiki/endfield/weapons.json has zero weapons');
-  if (missingTuning.length) errors.push(`endfield weapons: ${missingTuning.length} weapon(s) missing tuning materials`);
+  if (missingTuning.length) {
+    const previous = committedEndfieldFile('EndfieldWiki/endfield/weapons.json');
+    const hadTuning = new Set(((previous && previous.weapons) || [])
+      .filter((weapon) => weapon?.materials?.length && weapon?.tuningStages?.length)
+      .map((weapon) => String(weapon.id || weapon.name)));
+    const regressed = missingTuning.filter((weapon) => hadTuning.has(String(weapon.id || weapon.name)));
+    const unfilled = missingTuning.filter((weapon) => !hadTuning.has(String(weapon.id || weapon.name)));
+    if (regressed.length) {
+      errors.push(`endfield weapons: ${regressed.length} weapon(s) LOST tuning materials: ${regressed.slice(0, 8).map((weapon) => weapon.name || weapon.id).join(', ')}`);
+    }
+    if (unfilled.length) {
+      diagnostics.push(`endfld weapon(s) shipped without tuning tables (unfilled wiki): ${unfilled.map((weapon) => weapon.name || weapon.id).join(', ')}`);
+    }
+  }
   diagnostics.push(`endfld weapons   ${weapons.length} (${weapons.length - missingTuning.length} with tuning tables)`);
 }
 

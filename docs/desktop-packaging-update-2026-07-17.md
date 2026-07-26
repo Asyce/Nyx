@@ -2,7 +2,7 @@
 
 Date: 2026-07-17
 
-Status: local unsigned development distribution implemented; public signing and publishing not authorized
+Status: local unsigned development distribution implemented and verified; public signing and publishing not authorized
 
 ## Result
 
@@ -36,6 +36,20 @@ dotnet test Desktop\Nyx.Desktop.slnx -c Release
 ```
 
 The normal package invocation restores dependencies before publishing, so it works from ordinary repository state even after tests rewrite RID assets. `-NoRestore` is an explicit opt-out for callers who have already restored the exact projects and intentionally want to reuse those assets. The package build itself invokes `Nyx.Desktop.Update.exe verify` against the generated manifest and payload before creating the outer ZIP. A failed forced rebuild leaves the last completed artifact in place; replacement happens only after the new artifact and sidecars are complete. Building twice from the same restored source/output inputs must produce the same outer SHA-256.
+
+## Verified development artifact
+
+The completed local release audit built version `1.0.0.116` twice from the same
+committed source. Both builds produced the identical outer ZIP:
+
+- File: `Nyx-Desktop-1.0.0.116-development-win-x64.zip`
+- Size: `137,402,667` bytes
+- SHA-256:
+  `9a0e8d05cfd42d8753f60267d717c2eed8a81e2f10f63957d2155f1aad6205ba`
+- Payload: 499 files, including 24 current launcher-art assets, the desktop app,
+  updater, and verified achievement helper
+- Exclusions confirmed: no PDB files and no removed `LatestContent`, Google
+  portrait, or legacy launcher-content assets
 
 ## External blocker
 

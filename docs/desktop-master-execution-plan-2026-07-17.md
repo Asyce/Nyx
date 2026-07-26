@@ -1,6 +1,6 @@
 # Nyx Desktop — master execution specification
 
-Status: approved for local implementation and testing. This document is the single source of truth for the desktop work. It supersedes earlier launcher plans where they conflict.
+Status: implemented and locally verified on 2026-07-26. This document is the single source of truth for the desktop work. It supersedes earlier launcher plans where they conflict.
 
 Finalised 2026-07-21. This revision folds in the two later account handoffs
 (`docs/desktop-energy-status-integration-handoff-2026-07-20.md`,
@@ -292,34 +292,70 @@ The repository must end with a reproducible unsigned or development-signed distr
 - Independent test-runner and reviewer report no unresolved blocker.
 - No production deployment happens without an explicit user go-ahead; the only pre-approved production changes are the launcher code/banner/art feeds and the pengo.gg Endfield Oroberyl premium icon, each still gated on that go-ahead and the pre-deploy gate.
 
-## Completion status and remaining work (finalised 2026-07-21)
+## Completion status (verified 2026-07-26)
 
-This is the current authoritative status. It supersedes earlier "in progress" wording in older docs. It was reconciled against the working tree and the final independent review after the executing Codex session stopped on its usage limit mid-fix.
+The approved launcher scope is implemented in commit `0bac1a794` and has completed
+its local release audit.
 
-### Done and committed
-- Launcher v1 foundation and shell are committed (`feat(desktop): complete Nyx launcher v1`): frameless UI, all five games discover/launch/detect running-and-closed/relaunch/run concurrently, the banner and character-art feed, GI/HSR export arming, and packaging scaffolding.
-- As reported by the build/test gates: the full x64 solution builds with zero warnings and zero errors; the desktop suite passes 1,260/1,260; the Rust achievement library, launcher-process integration, and security-static suites pass.
-- The WuWa account-status vertical slice exists behind an opt-in, default-off flag.
+### Delivered
 
-### In-flight, interrupted, and unverified
-Both remaining fix agents errored on the Codex usage limit (resets on or after 2026-07-28), so the following are partially landed and not confirmed:
-- HoYoLAB and SKPORT consent flags now exist and default off, but the UI gating that hides/blocks their account buttons behind those flags is not confirmed complete (final-review High finding).
-- A `PublisherRoleChoice` contract exists, but the masked-UID/region multi-account picker UI is not finished (Medium finding).
-- The banner parser now rejects a manifest whose health is not `ok`; the overlapping/uncertain current-vs-upcoming phase rejection still needs confirming against the live manifest (Medium finding).
+- The frameless launcher supports Genshin Impact, Honkai: Star Rail, Zenless Zone
+  Zero, Wuthering Waves, and Arknights: Endfield, including discovery, manual client
+  selection, direct launch, concurrent different-game launches, running/closed
+  detection, and relaunch.
+- The final shell matches the approved vertical banner-cycle layout. All five game
+  views, settings tabs, and Add Game were visually inspected without launching a
+  game. Current selections are Columbina, Himeko Nova, Norma Hollowell,
+  Yangyang: Xuanling, and Arcane.
+- Current and next banners, rotating character art, five newest premium codes,
+  currency amounts/icons, Endfield Oroberyl, official/local state, Pull Tracker,
+  Achievements, official-launcher access, custom games, game reordering, per-game
+  appearance settings, and movable settings are integrated.
+- GI/HSR export arming is implemented. ZZZ/WuWa keep deliberate insertion points
+  for the later extraction scripts.
+- Publisher resource cards, explicit role choice, disconnect/clear behavior, and
+  one-button daily check-in are implemented behind independent opt-in flags that
+  default off. No live publisher login was used during release verification.
+- The banner/code/art pipeline publishes only verified committed bytes. The final
+  launcher bundle contains 24 unique current art files (8,165,920 bytes), and the
+  deployment smoke selected the five expected current characters.
 
-### Remaining work to done (ordered)
-1. Finish and verify the three review fixes above.
-2. Remove or gitignore the ~868 MB untracked `Desktop/packaging/.audit/` directory before any staging (final-review Medium finding).
-3. Regenerate and commit the launcher-banners and launcher-codes feeds so the freshness gate passes; the prior failure was a >15-minute-stale manifest plus CRLF drift plus one missing generator file (`Site/tools/generate-launcher-codes.mjs`, since restored).
-4. Build the folded features that are still specification-only: the shared publisher account resource cards and the one-button daily check-in (per the two account handoffs), and premium-currency amounts/icons in the codes deck including Endfield Oroberyl. Update `docs/desktop-boundary.md` and `docs/v1-support-matrix.md` first.
-5. Commit and push the desktop v1 working tree (currently roughly 150 uncommitted changes).
-6. Run every remaining gate green: packaging/installer and uninstall, migration, accessibility, reduced motion, responsive, security/secret scan, offline, and cache.
-7. Obtain one clean independent test and code review with zero unresolved blockers.
-8. Only on explicit user approval: merge `codex/oroberyl-launcher-codes` and deploy the pengo.gg Endfield premium-icon change, following the pre-deploy gate.
+### Verification evidence
 
-### Out of scope for this build
+- Desktop tests: 1,305/1,305 passed.
+- Focused launcher-shell/UI tests: 73/73 passed.
+- Packaging/updater/installer/migration tests: 65/65 passed in isolation.
+- Rust achievement helper: 50 tests passed (38 unit, 3 process integration, 9
+  security); `cargo check` and `cargo clippy` passed.
+- Scraper tests: 160/160 passed.
+- Launcher source/build/deploy contract tests: 40/40 passed.
+- Full Release solution and x64 app builds completed with zero warnings and zero
+  errors.
+- Site production build and deploy smoke passed across all routes, 970 runtime data
+  files, and the committed launcher feed.
+- The `1.0.0.116` development package passed PE hardening and updater verification,
+  contains 499 payload files and no PDB or removed legacy content, and reproduced
+  the same outer ZIP byte-for-byte on two builds:
+  `9a0e8d05cfd42d8753f60267d717c2eed8a81e2f10f63957d2155f1aad6205ba`
+  (137,402,667 bytes).
+
+### External release boundaries
+
+- The development ZIP is intentionally unsigned. Public Windows distribution still
+  needs a protected signing certificate, timestamping, and production update route.
+- Account features remain default off until a real-user pilot is completed with
+  ordinary test accounts.
+- Endfield's upstream wiki currently lists Liino without sourced growth or
+  progression material tables. Strict validation reports that missing source instead
+  of inventing values; it does not block the launcher or package.
+
+### Post-v1
+
 Everything in `docs/desktop-post-v1-roadmap-2026-07-21.md` — code signing and release channel, performance and payload budgets, local notifications, taskbar quick-launch, local play history, the migration assistant, and MSIX/differential distribution. None of it is required for completion of this specification.
 
-### Standing constraints
-- No commit, push, package publication, or production deployment without explicit approval, except the two pre-approved production changes named in the completion gates, which still wait for a go-ahead.
-- Account resource cards and daily check-in stay opt-in, default off, and local-only, with no public distribution until a recorded policy and security review.
+### Distribution constraint
+
+- Source push and the explicitly requested pengo.gg launcher-feed/Oroberyl production
+  update are authorized for this execution.
+- Account resource cards and daily check-in stay opt-in, default off, and local-only,
+  with no public distribution until a recorded policy and security review.

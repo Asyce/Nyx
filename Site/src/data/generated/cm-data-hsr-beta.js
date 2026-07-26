@@ -23,7 +23,7 @@
       },
       "title": "Ad Astra Nova",
       "slug": "himeko-nova",
-      "updated": 1784073600000,
+      "updated": 1784851200000,
       "sourceOrder": 0,
       "icon": "../../Database/GameData/hsr/assets/characters/round/1510.webp",
       "art": "../../Database/GameData/hsr/assets/characters/draw-card/1510.webp",
@@ -48,9 +48,7 @@
         "../../Database/GameData/hsr/assets/lightcones/full/23060.webp"
       ],
       "status": "beta_changed",
-      "labels": [
-        "New"
-      ],
+      "labels": [],
       "r": 5,
       "el": "Fire",
       "path": "Erudition",
@@ -7536,7 +7534,6 @@
           "cost": 385000
         }
       },
-      "recent": 1,
       "betaStatus": "changed"
     },
     {

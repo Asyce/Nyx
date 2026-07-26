@@ -246,6 +246,19 @@
     "zh": "达妮娅",
     "ja": "ダーニャ"
   },
+  "1212": {
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_74_UI.T_IconRoleHead256_74_UI",
+    "background": "/Game/Aki/UI/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Jingran_UI.T_IconRole_Pile_Jingran_UI",
+    "rank": 5,
+    "weapon": 1,
+    "element": 2,
+    "en": "Stay tuned",
+    "nickname": "",
+    "desc": "",
+    "ko": "경연",
+    "zh": "景燃",
+    "ja": "Stay tuned"
+  },
   "1301": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_18_UI.T_IconRoleHead256_18_UI",
     "background": "/Game/Aki/UI/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_kakaluo_UI.T_IconRole_Pile_kakaluo_UI",
@@ -518,6 +531,19 @@
     "ko": "시그리카",
     "zh": "西格莉卡",
     "ja": "シグリカ"
+  },
+  "1413": {
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_73_UI.T_IconRoleHead256_73_UI",
+    "background": "/Game/Aki/UI/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Qingxiao_UI.T_IconRole_Pile_Qingxiao_UI",
+    "rank": 5,
+    "weapon": 2,
+    "element": 4,
+    "en": "Qingxiao",
+    "nickname": "Lumi",
+    "desc": "Navigator at <te href=850090>Lollo Logistics</te> and leader of a transport squad.\nBorn in a mountain village in Yuezhou, Lumi's sincere and caring nature brings warmth to everyone around her.",
+    "ko": "청초",
+    "zh": "清宵",
+    "ja": "清宵"
   },
   "1501": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_4_UI.T_IconRoleHead256_4_UI",

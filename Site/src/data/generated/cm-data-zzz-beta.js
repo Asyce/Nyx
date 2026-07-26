@@ -22,7 +22,7 @@
         "ko": "\ub808\ubbf8\uc5d8"
       },
       "slug": "remielle",
-      "updated": 1784246400000,
+      "updated": 1784851200000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "Amber Lee Connors",
@@ -8102,7 +8102,6 @@
           "cost": 400000
         }
       },
-      "recent": 1,
       "betaStatus": "changed"
     },
     {
@@ -10760,7 +10759,6 @@
           "cost": 400000
         }
       },
-      "recent": 1,
       "betaStatus": "changed"
     },
     {

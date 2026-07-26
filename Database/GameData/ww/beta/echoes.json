@@ -112,7 +112,7 @@
   },
   {
     "id": "6000039",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Tempest Mephis",
     "code": "W75-",
     "rarity": [
@@ -152,7 +152,7 @@
       "skill": "GameData/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_Z_B3_UI.webp"
     },
     "skill": {
-      "desc": "Transform into Tempest Mephis to perform tail swing attacks followed by a claw attack. The lightning strike summoned by the tail swing deals {0} Electro DMG each time, while the claw attack deals {1} Electro DMG.\r\n\r\nAfter the claw hit, increase the current character's Electro DMG by {2} and Heavy Attack DMG by {3} for {4}s.\r\n\r\nCD: {5}s",
+      "desc": "Transform into Tempest Mephis to perform tail swing attacks followed by a claw attack. The lightning strike summoned by the tail swing deals {0} Electro DMG each time, while the claw attack deals {1} Electro DMG.\n\nAfter the claw hit, increase the current character's Electro DMG by {2} and Heavy Attack DMG by {3} for {4}s.\n\nCD: {5}s",
       "simple_desc": "Transform into Tempest Mephis to continuously attack enemies, dealing Electro damage. Increase current character's Electro DMG & Heavy Attack DMG.",
       "param": [
         [
@@ -237,7 +237,7 @@
     "monsterInfo": 330000010,
     "liveComparison": {
       "liveHash": "addfcb33c16aacd0609526a8ae73b05d8ef477d639ecf35422ed92933967d23b",
-      "currentHash": "addfcb33c16aacd0609526a8ae73b05d8ef477d639ecf35422ed92933967d23b"
+      "currentHash": "7a0bc79c84b5e646ed16dcf377dced2d2768cdda0a7e7034a6b55bf5a3fc97fb"
     }
   },
   {
@@ -620,7 +620,7 @@
   },
   {
     "id": "6000043",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Feilian Beringal",
     "code": "H71-",
     "rarity": [
@@ -659,7 +659,7 @@
       "skill": "GameData/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_Mstskil_996_UI.webp"
     },
     "skill": {
-      "desc": "Transform into Feilian Beringal to perform a powerful kick. If the kick lands on an enemy, immediately perform a follow-up strike. The kick deals {0} Aero DMG, and the follow-up strike deals {1} Aero DMG.\r\n\r\nAfter the follow-up strike hits, the current character's Aero DMG increases by {2}, and the Heavy Attack DMG increases by {3} for {4}s\r\n\r\nCD: {5}s",
+      "desc": "Transform into Feilian Beringal to perform a powerful kick. If the kick lands on an enemy, immediately perform a follow-up strike. The kick deals {0} Aero DMG, and the follow-up strike deals {1} Aero DMG.\n\nAfter the follow-up strike hits, the current character's Aero DMG increases by {2}, and the Heavy Attack DMG increases by {3} for {4}s\n\nCD: {5}s",
       "simple_desc": "Transform into Feilian Beringal to continuously attack enemies, dealing Aero DMG. Increase current character's Aero DMG and Heavy Attack DMG.",
       "param": [
         [
@@ -744,7 +744,7 @@
     "monsterInfo": 330000050,
     "liveComparison": {
       "liveHash": "def4bc4891ea9b81633ce473558d072f16d7016f23df29d04043611c768dac3f",
-      "currentHash": "def4bc4891ea9b81633ce473558d072f16d7016f23df29d04043611c768dac3f"
+      "currentHash": "4dc7721931280a7544a5344f437c9cdad47ccaf0fbbac1bd1db7a466ff115473"
     }
   },
   {
@@ -1165,7 +1165,7 @@
   },
   {
     "id": "6000047",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Chirpuff",
     "code": "H02-",
     "rarity": [
@@ -1226,7 +1226,7 @@
       "skill": "GameData/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_971_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Chirpuff that self-inflates and blasts a powerful gust of wind forward {0} times. Each blast inflicts {1} Aero DMG and pushes enemies backwards.\r\n\r\nCD: {2}s",
+      "desc": "Summon a Chirpuff that self-inflates and blasts a powerful gust of wind forward {0} times. Each blast inflicts {1} Aero DMG and pushes enemies backwards.\n\nCD: {2}s",
       "simple_desc": "Summon a Chirpuff to blast a powerful gust of wind. Deals Aero DMG and knocks enemies back.",
       "param": [
         [
@@ -1279,7 +1279,7 @@
     "monsterInfo": 310000130,
     "liveComparison": {
       "liveHash": "6b00ff8ebb2a644da4fab1775dea46395c1062373906b063c5c5f92851b98829",
-      "currentHash": "6b00ff8ebb2a644da4fab1775dea46395c1062373906b063c5c5f92851b98829"
+      "currentHash": "3695fc300db9601fce813e7cd5ee7d01d38f135e854483d509a22909dae24aa3"
     }
   },
   {
@@ -1431,7 +1431,7 @@
   },
   {
     "id": "6000049",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Autopuppet Scout",
     "code": "X53-",
     "rarity": [
@@ -1489,7 +1489,7 @@
       "skill": "GameData/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_1000_UI.webp"
     },
     "skill": {
-      "desc": "Transform into Autopuppet Scout, dealing {0} Glacio DMG to the surroundings, and generate up to 3 Ice Walls to block off the enemies.\r\n\r\nCD: {1}s",
+      "desc": "Transform into Autopuppet Scout, dealing {0} Glacio DMG to the surroundings, and generate up to 3 Ice Walls to block off the enemies.\n\nCD: {1}s",
       "simple_desc": "Transform into Autopuppet Scout to Glacio DMG to enemies nearby and generate Ice Walls.",
       "param": [
         [
@@ -1537,12 +1537,12 @@
     "monsterInfo": 320000180,
     "liveComparison": {
       "liveHash": "33c8538f4d83a4b63706b25ee9a7adbf3aabb540caf50c5dbf6b50147be148d0",
-      "currentHash": "33c8538f4d83a4b63706b25ee9a7adbf3aabb540caf50c5dbf6b50147be148d0"
+      "currentHash": "93032fa96d6b616f40c4d8d6fc18e795a2a8359b7ebdd0e60a9ff7508008f0c4"
     }
   },
   {
     "id": "6000050",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Traffic Illuminator",
     "code": "X54-",
     "rarity": [
@@ -1619,7 +1619,7 @@
       "skill": "GameData/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_999_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Traffic Illuminator, immobilizing enemies for up to {0}s. The immobilization will be lifted once the enemy is hit.\r\n\r\nCD: {1}s",
+      "desc": "Summon a Traffic Illuminator, immobilizing enemies for up to {0}s. The immobilization will be lifted once the enemy is hit.\n\nCD: {1}s",
       "simple_desc": "Summon a Traffic Illuminator to immobilize the enemies.",
       "param": [
         [
@@ -1649,7 +1649,7 @@
     "monsterInfo": 310000330,
     "liveComparison": {
       "liveHash": "461ee06494612f665c953ca97129a55a6a8d2622dc08764c2137a2d0eb267e62",
-      "currentHash": "461ee06494612f665c953ca97129a55a6a8d2622dc08764c2137a2d0eb267e62"
+      "currentHash": "8b23951c8a056ca5f729bf8da5830dfcb296804760964d42b288b15d0f73f898"
     }
   },
   {
@@ -10989,7 +10989,7 @@
   },
   {
     "id": "6000163",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Nightmare: Electro Predator",
     "code": "W25-",
     "rarity": [
@@ -11023,7 +11023,7 @@
       "skill": "GameData/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_Z_Z1_UI.webp"
     },
     "skill": {
-      "desc": "Summon an Electro Predator to shoot the enemy 5 times. The first 4 shots deals {0} Electro DMG, and the last deals {1} Electro DMG.\r\n\r\nCD: {2}s",
+      "desc": "Summon an Electro Predator to shoot the enemy 5 times. The first 4 shots deals {0} Electro DMG, and the last deals {1} Electro DMG.\n\nCD: {2}s",
       "simple_desc": "Summon an Electro Predator to fire a rain of arrows, dealing Electro DMG.",
       "param": [
         [
@@ -11093,7 +11093,7 @@
     "monsterInfo": 310000650,
     "liveComparison": {
       "liveHash": "fc9e0a305d29eb48aa6b6a2539fc8f688d021270d5441a4b9d737a871ce91d94",
-      "currentHash": "fc9e0a305d29eb48aa6b6a2539fc8f688d021270d5441a4b9d737a871ce91d94"
+      "currentHash": "5654b782e94b7a14f12018402e6c4f956abf1f8c03ca747cf07948c64bbfd223"
     }
   },
   {
@@ -11185,7 +11185,7 @@
   },
   {
     "id": "6000165",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Nightmare: Gulpuff",
     "code": "H01-",
     "rarity": [
@@ -11219,7 +11219,7 @@
       "skill": "GameData/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_115_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Gulpuff that blows bubbles {0} times, each time dealing {1} Glacio DMG.\r\n\r\nCD: {2}s",
+      "desc": "Summon a Gulpuff that blows bubbles {0} times, each time dealing {1} Glacio DMG.\n\nCD: {2}s",
       "simple_desc": "Summon a Gulpuff to blow bubbles and deal Glacio DMG.",
       "param": [
         [
@@ -11272,12 +11272,12 @@
     "monsterInfo": 310000670,
     "liveComparison": {
       "liveHash": "8f72b0fed0f88986117acd8bf148140431cf20b34f4f2956e2805d345fb8de54",
-      "currentHash": "8f72b0fed0f88986117acd8bf148140431cf20b34f4f2956e2805d345fb8de54"
+      "currentHash": "03f965168814400acb39b2b355c6e02c9215bf9d7d1b5ae36f002fdac9af74bd"
     }
   },
   {
     "id": "6000166",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Nightmare: Chirpuff",
     "code": "H02-",
     "rarity": [
@@ -11311,7 +11311,7 @@
       "skill": "GameData/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_971_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Chirpuff that self-inflates and blasts a powerful gust of wind forward {0} times. Each blast inflicts {1} Aero DMG and pushes enemies backwards.\r\n\r\nCD: {2}s",
+      "desc": "Summon a Chirpuff that self-inflates and blasts a powerful gust of wind forward {0} times. Each blast inflicts {1} Aero DMG and pushes enemies backwards.\n\nCD: {2}s",
       "simple_desc": "Summon a Chirpuff to blast a powerful gust of wind. Deals Aero DMG and knocks enemies back.",
       "param": [
         [
@@ -11364,7 +11364,7 @@
     "monsterInfo": 310000680,
     "liveComparison": {
       "liveHash": "d4e3568b90a7899afda46d3ef20150fbbb824c05902fd9cebce0878c1e6cba7a",
-      "currentHash": "d4e3568b90a7899afda46d3ef20150fbbb824c05902fd9cebce0878c1e6cba7a"
+      "currentHash": "975dc3bbd7a844824588e3ba14f2a9ddd401cd06e3b263ccb89608bdb901805e"
     }
   },
   {
@@ -11508,7 +11508,7 @@
   },
   {
     "id": "6000168",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Nightmare: Viridblaze Saurian",
     "code": "H46-",
     "rarity": [
@@ -11543,7 +11543,7 @@
       "skill": "GameData/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_295_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Viridblaze Saurian to continuously spit fire, dealing {0} Fusion DMG 10 times.\r\n\r\nCD: {1}s",
+      "desc": "Summon a Viridblaze Saurian to continuously spit fire, dealing {0} Fusion DMG 10 times.\n\nCD: {1}s",
       "simple_desc": "Summon a Viridblaze Saurian to continuously spit fire, dealing Fusion DMG.",
       "param": [
         [
@@ -11591,7 +11591,7 @@
     "monsterInfo": 320000470,
     "liveComparison": {
       "liveHash": "42a6b4b6d5ccbe17efb4d2ed21bd827bbc2b62769c97756ece069381ea9ee8d9",
-      "currentHash": "42a6b4b6d5ccbe17efb4d2ed21bd827bbc2b62769c97756ece069381ea9ee8d9"
+      "currentHash": "e3e45035ae3aa93978145b70814362af18703c24b304e301503b927cf9408d60"
     }
   },
   {
@@ -11757,7 +11757,7 @@
   },
   {
     "id": "6000171",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Nightmare: Tick Tack",
     "code": "G04-",
     "rarity": [
@@ -11789,7 +11789,7 @@
       "skill": "GameData/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_Mstskil_095_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Tick Tack that charges and bites the enemy. The charge from Tick Tack will deal {0} Havoc DMG to the enemy, and the bite will deal {1} Havoc DMG to the enemy. Reduces enemy Vibration Strength by up to {3} during {2}s.\r\n\r\nCD: {4}s",
+      "desc": "Summon a Tick Tack that charges and bites the enemy. The charge from Tick Tack will deal {0} Havoc DMG to the enemy, and the bite will deal {1} Havoc DMG to the enemy. Reduces enemy Vibration Strength by up to {3} during {2}s.\n\nCD: {4}s",
       "simple_desc": "Summon a Tick Tack that deals Havoc DMG and reduces enemy Vibration Strength.",
       "param": [
         [
@@ -11869,7 +11869,7 @@
     "monsterInfo": 310000750,
     "liveComparison": {
       "liveHash": "26bee3f8faeb9b69f200bd154a5052ebbdda0b4ddf7ed758f5b21583ce9d9d04",
-      "currentHash": "26bee3f8faeb9b69f200bd154a5052ebbdda0b4ddf7ed758f5b21583ce9d9d04"
+      "currentHash": "8ef977f5de5dd2c1cc5f947960296c6cad4b4b8ebd29e99a3d52b410fe472606"
     }
   },
   {
@@ -17809,7 +17809,7 @@
   },
   {
     "id": "6000218",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Thousand-Puppet Pavilion",
     "code": "N91-",
     "rarity": [
@@ -17852,8 +17852,8 @@
       "skill": "GameData/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_34031_UI.webp"
     },
     "skill": {
-      "desc": "Use Echo Skill to attack nearby enemies, dealing {1} Havoc DMG and summoning 4 Blades of Thousand Memories that last {5}s.\n\nWhile Blades of Thousand Memories last, when the Resonator inflicts Havoc Bane, consume 1 Blade of Thousand Memories to deal {0} Havoc DMG once to the target. This effect can be triggered once every {6}s.\n\nResonators with this Echo equipped in the main slot gain {2} Havoc DMG and {3} Heavy Attack DMG.\n\nCD: {4}s",
-      "simple_desc": "Deal Havoc DMG to nearby targets and summon Blades of Thousand Memories. When inflicting Havoc Bane, consume a Blade of Thousand Memories to deal Havoc DMG.",
+      "desc": "Use Echo Skill to attack nearby enemies, dealing {1} Havoc DMG and summoning 4 Blades of Thousand Memories that last {5}s.\n\nWhile Blades of Thousand Memories last, when the Resonator inflicts Havoc Bane, consume 1 Blade of Thousand Memories to deal {0} Havoc DMG once to the target. This effect can be triggered once every {6}s.\n\nResonators with this Echo equipped in the main slot gain {2} Havoc DMG and {3} Heavy Attack DMG bonuses.\n\nCD: {4}s",
+      "simple_desc": "Deal Havoc DMG to nearby targets and summon Blades of Thousand Memories. When inflicting Havoc Bane, consume a Blade of Thousand Memories to deal Havoc DMG.\nResonators with this Echo equipped in the main slot deal higher Havoc and Heavy Attack DMG.",
       "param": [
         [
           "22.80%",
@@ -17942,12 +17942,331 @@
     "monsterInfo": 340000310,
     "liveComparison": {
       "liveHash": "2d9748f19470ea06e6b4152ce3540a3a658b928fa80b9188f50c8d0e35b26ebb",
-      "currentHash": "2d9748f19470ea06e6b4152ce3540a3a658b928fa80b9188f50c8d0e35b26ebb"
+      "currentHash": "d7b64e27be19f9421f7d9292c0006494980626234fc5b020a0602819a4b4ad5d"
+    }
+  },
+  {
+    "id": "6000219",
+    "contentStatus": "beta",
+    "name": "Stay tuned",
+    "code": "T1-",
+    "rarity": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "group": {
+      "33": {
+        "id": 33,
+        "name": "Song of Feathered Trace",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriYangyang.T_IconElementAttriYangyang",
+        "color": "FFFFFF00",
+        "set": {
+          "2": {
+            "desc": "Energy Regen + {0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "Upon inflicting Havoc Bane, gain Xuanling's Feather, which grants a {0} increase in Crit. Rate and {1} increase in Heavy Attack DMG Bonus to the Resonator, lasting {2}s.\nUpon inflicting Glacio Chafe, gain Chongming's Feather, which grants a {4} increase in ATK to Resonators in the team for every {3} of the Resonator's Energy Regen, up to {5}, lasting {6}s.",
+            "param": [
+              "20%",
+              "35%",
+              "15",
+              "1%",
+              "0.1%",
+              "25%",
+              "10"
+            ]
+          }
+        }
+      }
+    },
+    "assets": {
+      "skill": "GameData/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.webp"
+    },
+    "skill": {
+      "desc": "Summon a Jade Nether Serpent that bombards the target with fireballs, dealing {0} Fusion DMG 5 times, then {1} Fusion DMG once.\nCD: {2}s",
+      "simple_desc": "Summon a Jade Nether Serpent to deal Fusion DMG to the target.",
+      "param": [
+        [
+          "7.20%",
+          "36.00%",
+          "8"
+        ],
+        [
+          "8.64%",
+          "43.20%",
+          "8"
+        ],
+        [
+          "10.08%",
+          "50.40%",
+          "8"
+        ],
+        [
+          "11.52%",
+          "57.60%",
+          "8"
+        ],
+        [
+          "12.96%",
+          "64.80%",
+          "8"
+        ]
+      ],
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.T_MstSkil_34020_UI",
+      "damage": {
+        "20015001": {
+          "element": 2,
+          "related_property": "ATK",
+          "type": 5,
+          "rate_lv": [
+            720,
+            864,
+            1008,
+            1152,
+            1296
+          ],
+          "energy": 18,
+          "element_power": 0,
+          "hardness_lv": 10000,
+          "tough_lv": 720,
+          "weakness_lvl": 0
+        },
+        "20015002": {
+          "element": 2,
+          "related_property": "ATK",
+          "type": 5,
+          "rate_lv": [
+            3600,
+            4320,
+            5040,
+            5760,
+            6480
+          ],
+          "energy": 90,
+          "element_power": 0,
+          "hardness_lv": 10000,
+          "tough_lv": 3600,
+          "weakness_lvl": 0
+        }
+      }
+    },
+    "monsterInfo": 310001030,
+    "liveComparison": {
+      "currentHash": "ebae459b5e0d579fcee7b578e1f2cc2f36af9c40177b6d453e6b75dd4cd36696"
+    }
+  },
+  {
+    "id": "6000220",
+    "contentStatus": "beta",
+    "name": "Stay tuned",
+    "code": "T1-",
+    "rarity": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "intensity": 1,
+    "group": {
+      "33": {
+        "id": 33,
+        "name": "Song of Feathered Trace",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriYangyang.T_IconElementAttriYangyang",
+        "color": "FFFFFF00",
+        "set": {
+          "2": {
+            "desc": "Energy Regen + {0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "Upon inflicting Havoc Bane, gain Xuanling's Feather, which grants a {0} increase in Crit. Rate and {1} increase in Heavy Attack DMG Bonus to the Resonator, lasting {2}s.\nUpon inflicting Glacio Chafe, gain Chongming's Feather, which grants a {4} increase in ATK to Resonators in the team for every {3} of the Resonator's Energy Regen, up to {5}, lasting {6}s.",
+            "param": [
+              "20%",
+              "35%",
+              "15",
+              "1%",
+              "0.1%",
+              "25%",
+              "10"
+            ]
+          }
+        }
+      }
+    },
+    "assets": {
+      "skill": "GameData/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.webp"
+    },
+    "skill": {
+      "desc": "Summon a Skywatch Gunner to attack the target, dealing {0} Havoc DMG 6 times.\nCD: {1}s",
+      "simple_desc": "Summon a Skywatch Gunner to deal Havoc DMG to the target.",
+      "param": [
+        [
+          "17.83%",
+          "15"
+        ],
+        [
+          "21.39%",
+          "15"
+        ],
+        [
+          "24.96%",
+          "15"
+        ],
+        [
+          "28.52%",
+          "15"
+        ],
+        [
+          "32.09%",
+          "15"
+        ]
+      ],
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.T_MstSkil_34020_UI",
+      "damage": {
+        "20015101": {
+          "element": 6,
+          "related_property": "ATK",
+          "type": 5,
+          "rate_lv": [
+            1783,
+            2139,
+            2496,
+            2852,
+            3209
+          ],
+          "energy": 44,
+          "element_power": 0,
+          "hardness_lv": 10000,
+          "tough_lv": 1783,
+          "weakness_lvl": 0
+        }
+      }
+    },
+    "monsterInfo": 320000690,
+    "liveComparison": {
+      "currentHash": "2d83e8576e5a3ecdbbc1c5d7086e1d5c50be66b79539e8ebd91756402b6e1433"
+    }
+  },
+  {
+    "id": "6000221",
+    "contentStatus": "beta",
+    "name": "Stay tuned",
+    "code": "T1-",
+    "rarity": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "intensity": 2,
+    "group": {
+      "34": {
+        "id": 34,
+        "name": "Heart of Evil's Purge",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriQingxiao.T_IconElementAttriQingxiao",
+        "color": "FFFFFF00",
+        "set": {
+          "2": {
+            "desc": "Aero DMG + {0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "Inflicting Tune Strain - Shifting increases Crit. DMG by {0} and Aero DMG Bonus {1} for {2}s.",
+            "param": [
+              "20%",
+              "30%",
+              "15"
+            ]
+          }
+        }
+      }
+    },
+    "assets": {
+      "skill": "GameData/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.webp"
+    },
+    "skill": {
+      "desc": "Transform into Calamity Effigy to deal {0} Aero DMG.\nThe Resonator with this Echo equipped in the main slot gains {1} Aero DMG Bonus, and additionally gains {2} Aero DMG Bonus for {3}s when inflicting Tune Strain - Shifting on the target.\nCD: {4}s",
+      "simple_desc": "Transform into Calamity Effigy to deal Aero DMG.\nResonators with this Echo equipped in the main slot gain Aero DMG Bonus, and an additional Aero DMG Bonus upon inflicting Tune Strain - Shifting on the target.",
+      "param": [
+        [
+          "45.00%",
+          "135.00%",
+          "10.00%",
+          "10.00%",
+          "15",
+          "25"
+        ],
+        [
+          "54.00%",
+          "162.00%",
+          "10.00%",
+          "10.00%",
+          "15",
+          "25"
+        ],
+        [
+          "63.00%",
+          "189.00%",
+          "10.00%",
+          "10.00%",
+          "15",
+          "25"
+        ],
+        [
+          "72.00%",
+          "216.00%",
+          "10.00%",
+          "10.00%",
+          "15",
+          "25"
+        ],
+        [
+          "81.00%",
+          "243.00%",
+          "10.00%",
+          "10.00%",
+          "15",
+          "25"
+        ]
+      ],
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.T_MstSkil_34020_UI",
+      "damage": {
+        "28004401": {
+          "element": 4,
+          "related_property": "ATK",
+          "type": 5,
+          "rate_lv": [
+            22500,
+            27000,
+            31500,
+            36000,
+            40500
+          ],
+          "energy": 562,
+          "element_power": 0,
+          "hardness_lv": 10000,
+          "tough_lv": 22500,
+          "weakness_lvl": 0
+        }
+      }
+    },
+    "monsterInfo": 340000320,
+    "liveComparison": {
+      "currentHash": "38fb85b8aeb8df4b28699f3009000782b0a29556039defb6ff90ff07734802c9"
     }
   },
   {
     "id": "390070051",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Vanguard Junrock",
     "code": "S08-",
     "rarity": [
@@ -18031,7 +18350,7 @@
       "skill": "GameData/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_Z_Z2_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Vanguard Junrock that charges forward, dealing {0} Physical DMG to enemies in its path.\r\n\r\nCD: {1}s",
+      "desc": "Summon a Vanguard Junrock that charges forward, dealing {0} Physical DMG to enemies in its path.\n\nCD: {1}s",
       "simple_desc": "Summon a Vanguard Junrock that charges forward, dealing Physical DMG to enemies in its path.",
       "param": [
         [
@@ -18075,7 +18394,7 @@
     "monsterInfo": 310000010,
     "liveComparison": {
       "liveHash": "5c1263da37184557643b405e698bb1ebbaf6feae3bb6b030b1a720b455ef3aa1",
-      "currentHash": "5c1263da37184557643b405e698bb1ebbaf6feae3bb6b030b1a720b455ef3aa1"
+      "currentHash": "4fbf06fcef6644d5ebc86c4fc7f99a352614c9ec0f1f5de1961e7fb6361b64bd"
     }
   },
   {
@@ -18211,7 +18530,7 @@
   },
   {
     "id": "390070053",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Electro Predator",
     "code": "W25-",
     "rarity": [
@@ -18271,7 +18590,7 @@
       "skill": "GameData/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_Z_Z1_UI.webp"
     },
     "skill": {
-      "desc": "Summon an Electro Predator to shoot the enemy 5 times. The first 4 shots deals {0} Electro DMG, and the last deals {1} Electro DMG.\r\n\r\nCD: {2}s",
+      "desc": "Summon an Electro Predator to shoot the enemy 5 times. The first 4 shots deals {0} Electro DMG, and the last deals {1} Electro DMG.\n\nCD: {2}s",
       "simple_desc": "Summon an Electro Predator to fire a rain of arrows, dealing Electro DMG.",
       "param": [
         [
@@ -18341,7 +18660,7 @@
     "monsterInfo": 310000030,
     "liveComparison": {
       "liveHash": "16d33e8fdd4f0e7cbe23e833e4d7a5f2fd798d906d90f4c9f78a75799143e7ad",
-      "currentHash": "16d33e8fdd4f0e7cbe23e833e4d7a5f2fd798d906d90f4c9f78a75799143e7ad"
+      "currentHash": "68cd10cc3e39303cf33663fb16e27478a413d460dfc42433ddf6350b486c18bc"
     }
   },
   {
@@ -18632,7 +18951,7 @@
   },
   {
     "id": "390070066",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Snip Snap",
     "code": "G02-",
     "rarity": [
@@ -18715,7 +19034,7 @@
       "skill": "GameData/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_Z_Z11_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Snip Snap that throws fireballs at the enemy, dealing {0} Fusion DMG on-hit.\r\n\r\nCD: {1}s",
+      "desc": "Summon a Snip Snap that throws fireballs at the enemy, dealing {0} Fusion DMG on-hit.\n\nCD: {1}s",
       "simple_desc": "Summon a Snip Snap that throws fireballs, dealing Fusion DMG.",
       "param": [
         [
@@ -18759,7 +19078,7 @@
     "monsterInfo": 310000080,
     "liveComparison": {
       "liveHash": "5059dfe1b8f847cb76c393cb1cc538c01fd4fa2d6d0b1a5f54b48ed11545bd39",
-      "currentHash": "5059dfe1b8f847cb76c393cb1cc538c01fd4fa2d6d0b1a5f54b48ed11545bd39"
+      "currentHash": "978ceebe92a233f644858055506dc93c09fca1da9dfb5b8d0b63e4e47753e6d7"
     }
   },
   {
@@ -18896,7 +19215,7 @@
   },
   {
     "id": "390070068",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Whiff Whaff",
     "code": "G01-",
     "rarity": [
@@ -18977,7 +19296,7 @@
       "skill": "GameData/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_Z_Z12_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Whiff Whaff that triggers an air explosion, dealing {0} Aero DMG and produce a Low-pressure Zone. The Low-pressure Zone continuously pulls enemies nearby towards the center for {1}s, dealing {2} Aero DMG up to 6 times.\r\n\r\nCD: {3}s",
+      "desc": "Summon a Whiff Whaff that triggers an air explosion, dealing {0} Aero DMG and produce a Low-pressure Zone. The Low-pressure Zone continuously pulls enemies nearby towards the center for {1}s, dealing {2} Aero DMG up to 6 times.\n\nCD: {3}s",
       "simple_desc": "Summon a Whiff Whaff that deals Aero DMG and produces a Low-pressure Zone.",
       "param": [
         [
@@ -19052,12 +19371,12 @@
     "monsterInfo": 310000100,
     "liveComparison": {
       "liveHash": "2b5c5e3f33ba5cac24a7c3cccabf94d1a8be91947b8a5737e9f3a4a79ed852f5",
-      "currentHash": "2b5c5e3f33ba5cac24a7c3cccabf94d1a8be91947b8a5737e9f3a4a79ed852f5"
+      "currentHash": "7bd9ad78e1fa3ca8d93b5bcb622cd69ae60451a99a47955237e8483026652873"
     }
   },
   {
     "id": "390070069",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Tick Tack",
     "code": "G04-",
     "rarity": [
@@ -19142,7 +19461,7 @@
       "skill": "GameData/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_Mstskil_095_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Tick Tack that charges and bites the enemy. The charge from Tick Tack will deal {0} Havoc DMG to the enemy, and the bite will deal {1} Havoc DMG to the enemy. Reduces enemy Vibration Strength by up to {3} during {2}s.\r\n\r\nCD: {4}s",
+      "desc": "Summon a Tick Tack that charges and bites the enemy. The charge from Tick Tack will deal {0} Havoc DMG to the enemy, and the bite will deal {1} Havoc DMG to the enemy. Reduces enemy Vibration Strength by up to {3} during {2}s.\n\nCD: {4}s",
       "simple_desc": "Summon a Tick Tack that deals Havoc DMG and reduces enemy Vibration Strength.",
       "param": [
         [
@@ -19222,7 +19541,7 @@
     "monsterInfo": 310000110,
     "liveComparison": {
       "liveHash": "987fff1afe40a4f2854814b216f837e4cabcf3d163bb183adad29719dd9eff84",
-      "currentHash": "987fff1afe40a4f2854814b216f837e4cabcf3d163bb183adad29719dd9eff84"
+      "currentHash": "63636e3bf7aee43b48f5f066f91d1edd31b550c35b95258714a638551650e9fb"
     }
   },
   {
@@ -19497,7 +19816,7 @@
   },
   {
     "id": "390070074",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Cruisewing",
     "code": "H12-",
     "rarity": [
@@ -19578,7 +19897,7 @@
       "skill": "GameData/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_255_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Cruisewing that restores HP for all current team characters by {0} of their Max HPs plus an additional {1} points of HP, up to 4 times.\r\n\r\nCD: {2}s",
+      "desc": "Summon a Cruisewing that restores HP for all current team characters by {0} of their Max HPs plus an additional {1} points of HP, up to 4 times.\n\nCD: {2}s",
       "simple_desc": "Summon a Cruisewing to heal friendly units.",
       "param": [
         [
@@ -19631,12 +19950,12 @@
     "monsterInfo": 310000180,
     "liveComparison": {
       "liveHash": "19aa891f7c4a048b983d370471e07d0307b190f638bd60e383c2da62fef3dbc0",
-      "currentHash": "19aa891f7c4a048b983d370471e07d0307b190f638bd60e383c2da62fef3dbc0"
+      "currentHash": "80bfd6ab4eccc450d5d5aca4b94c07ed086235a16713f3f23245938b3248411b"
     }
   },
   {
     "id": "390070075",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Sabyr Boar",
     "code": "H08-",
     "rarity": [
@@ -19717,7 +20036,7 @@
       "skill": "GameData/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_265_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Sabyr Boar to headbutt the enemy into the air, dealing {0} Physical DMG.\r\n\r\nCD: {1}s",
+      "desc": "Summon a Sabyr Boar to headbutt the enemy into the air, dealing {0} Physical DMG.\n\nCD: {1}s",
       "simple_desc": "Summon a Sabyr Boar to charge and deal Physical DMG.",
       "param": [
         [
@@ -19761,12 +20080,12 @@
     "monsterInfo": 310000190,
     "liveComparison": {
       "liveHash": "cbedfe3eb53af38cfd5ff3408564cea957457101069a70ee0c019b48c23aae9e",
-      "currentHash": "cbedfe3eb53af38cfd5ff3408564cea957457101069a70ee0c019b48c23aae9e"
+      "currentHash": "ac2ebce12e563f2c4637d4596798aab09dd6bd332bd2e40c2222706fde5a269e"
     }
   },
   {
     "id": "390070076",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Gulpuff",
     "code": "H01-",
     "rarity": [
@@ -19826,7 +20145,7 @@
       "skill": "GameData/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_115_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Gulpuff that blows bubbles {0} times, each time dealing {1} Glacio DMG.\r\n\r\nCD: {2}s",
+      "desc": "Summon a Gulpuff that blows bubbles {0} times, each time dealing {1} Glacio DMG.\n\nCD: {2}s",
       "simple_desc": "Summon a Gulpuff to blow bubbles and deal Glacio DMG.",
       "param": [
         [
@@ -19879,7 +20198,7 @@
     "monsterInfo": 310000120,
     "liveComparison": {
       "liveHash": "397b718a070d685b1091268a811a08442463c90254e4846bf7b591effe946437",
-      "currentHash": "397b718a070d685b1091268a811a08442463c90254e4846bf7b591effe946437"
+      "currentHash": "0e90f6b607bd3af3bf7b41ccddd0d91d21dba398c125bd8709433e622151997f"
     }
   },
   {
@@ -20213,7 +20532,7 @@
   },
   {
     "id": "390070100",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Fusion Dreadmane",
     "code": "H09-",
     "rarity": [
@@ -20273,7 +20592,7 @@
       "skill": "GameData/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_980_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Fusion Dreadmane that fiercely strikes the enemy, dealing {0} Fusion DMG.\r\n\r\nCD: {1}s",
+      "desc": "Summon a Fusion Dreadmane that fiercely strikes the enemy, dealing {0} Fusion DMG.\n\nCD: {1}s",
       "simple_desc": "Summon a Fusion Dreadmane to fiercely strike the enemies, dealing Fusion DMG.",
       "param": [
         [
@@ -20317,7 +20636,7 @@
     "monsterInfo": 310000280,
     "liveComparison": {
       "liveHash": "dd01093d61fa0fce6758a9e905d703e2691e15dd78b2ef235f5b0b008d73756f",
-      "currentHash": "dd01093d61fa0fce6758a9e905d703e2691e15dd78b2ef235f5b0b008d73756f"
+      "currentHash": "c16aa1619bf16edcc790cbff51f57bd17dcf271c950f0f79922892f95d8d87fe"
     }
   },
   {
@@ -20642,7 +20961,7 @@
   },
   {
     "id": "390077012",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Fusion Prism",
     "code": "N12-",
     "rarity": [
@@ -20725,7 +21044,7 @@
       "skill": "GameData/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_Z_Z6_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Fusion Prism to fire a crystal shard, dealing {0} Fusion DMG.\r\n\r\nCD: {1}s",
+      "desc": "Summon a Fusion Prism to fire a crystal shard, dealing {0} Fusion DMG.\n\nCD: {1}s",
       "simple_desc": "Summon a Fusion Prism that deals Fusion DMG with crystal shards.",
       "param": [
         [
@@ -20769,7 +21088,7 @@
     "monsterInfo": 310000150,
     "liveComparison": {
       "liveHash": "daaf99604be48f54988186807fa5189acee70899dddf9621a37c24ba881ad406",
-      "currentHash": "daaf99604be48f54988186807fa5189acee70899dddf9621a37c24ba881ad406"
+      "currentHash": "c24ad27390d387b4e09b66de5cac55feb007d7a0de9cf435e9bf1f48aae3067d"
     }
   },
   {
@@ -20910,7 +21229,7 @@
   },
   {
     "id": "390077016",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Spectro Prism",
     "code": "N14-",
     "rarity": [
@@ -20990,7 +21309,7 @@
       "skill": "GameData/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_Z_Z7_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Spectro Prism to emit a laser that hits the enemy up to {0} times, dealing {1} Spectro DMG each time.\r\n\r\nCD: {2}s",
+      "desc": "Summon a Spectro Prism to emit a laser that hits the enemy up to {0} times, dealing {1} Spectro DMG each time.\n\nCD: {2}s",
       "simple_desc": "Summon a Spectro Prism that deals Spectro DMG with laser.",
       "param": [
         [
@@ -21043,12 +21362,12 @@
     "monsterInfo": 310000160,
     "liveComparison": {
       "liveHash": "976b471d7435d5f56ace4e272bd73fafff312c1f1c3bd8e1f65491f052610e71",
-      "currentHash": "976b471d7435d5f56ace4e272bd73fafff312c1f1c3bd8e1f65491f052610e71"
+      "currentHash": "0042acc699cf23492f87fffd83046e8fb72dfc653c5b5588e99e26f054116a69"
     }
   },
   {
     "id": "390077017",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Havoc Prism",
     "code": "N13-",
     "rarity": [
@@ -21130,7 +21449,7 @@
       "skill": "GameData/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_Z_Z4_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Havoc Prism to fire five crystal shards, each dealing {0} Havoc DMG.\r\n\r\nCD: {1}s",
+      "desc": "Summon a Havoc Prism to fire five crystal shards, each dealing {0} Havoc DMG.\n\nCD: {1}s",
       "simple_desc": "Summon a Havoc Prism that deals Havoc DMG with crystal shards.",
       "param": [
         [
@@ -21178,7 +21497,7 @@
     "monsterInfo": 310000170,
     "liveComparison": {
       "liveHash": "af97e4c0462bc9440ef44d8dba75d09c32a11e020f245fdf34c9ee31a30df54b",
-      "currentHash": "af97e4c0462bc9440ef44d8dba75d09c32a11e020f245fdf34c9ee31a30df54b"
+      "currentHash": "bc40fb811cbbe48563e59480b397635ba01cc6835a0880d33665de241a3ef546"
     }
   },
   {
@@ -21329,7 +21648,7 @@
   },
   {
     "id": "390077022",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Flautist",
     "code": "W61-",
     "rarity": [
@@ -21392,7 +21711,7 @@
       "skill": "GameData/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_Z_B6_UI.webp"
     },
     "skill": {
-      "desc": "Transform into Flautist, continuously emitting Electro lasers, dealing {0} Electro DMG for a total of 10 times. Gain {1} Concerto Energy every time a hit lands.\r\n\r\nCD: {2}s",
+      "desc": "Transform into Flautist, continuously emitting Electro lasers, dealing {0} Electro DMG for a total of 10 times. Gain {1} Concerto Energy every time a hit lands.\n\nCD: {2}s",
       "simple_desc": "Transform into Flautist to deal Electro DMG and recover Concerto Energy on hit.",
       "param": [
         [
@@ -21445,7 +21764,7 @@
     "monsterInfo": 320000040,
     "liveComparison": {
       "liveHash": "b95c186d1e26aeecbcf4fec719e6031a24869fa92e587f26bcae7ca5b998b8c0",
-      "currentHash": "b95c186d1e26aeecbcf4fec719e6031a24869fa92e587f26bcae7ca5b998b8c0"
+      "currentHash": "089aa546912dfddce87799b42b74ebc571f306c41f76b5a4a32f169712a090b6"
     }
   },
   {
@@ -21739,7 +22058,7 @@
   },
   {
     "id": "390077025",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Chasm Guardian",
     "code": "W62-",
     "rarity": [
@@ -21802,7 +22121,7 @@
       "skill": "GameData/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_Z_B9_UI.webp"
     },
     "skill": {
-      "desc": "Transform into Chasm Guardian to perform a Leap Strike that deals {0} Havoc DMG on hit. Current character loses {1} HP after the hit lands. Periodically restore current character's HP after {2}s for up to {3} of their Max HP.\r\n\r\nCD: {4}s",
+      "desc": "Transform into Chasm Guardian to perform a Leap Strike that deals {0} Havoc DMG on hit. Current character loses {1} HP after the hit lands. Periodically restore current character's HP after {2}s for up to {3} of their Max HP.\n\nCD: {4}s",
       "simple_desc": "Transform into Chasm Guardian to perform a powerful strike that deals Havoc DMG. Lose some HP on hit and then recover HP over time.",
       "param": [
         [
@@ -21891,12 +22210,12 @@
     "monsterInfo": 320000070,
     "liveComparison": {
       "liveHash": "e3fc1f4504d919668404baf3adee651e8d8542e9f88df0d4a71db4f1b1da95c6",
-      "currentHash": "e3fc1f4504d919668404baf3adee651e8d8542e9f88df0d4a71db4f1b1da95c6"
+      "currentHash": "dbbdc31605ef6cc886d4dde241222d00be6a45f4e58f7fe22a132bb151aff923"
     }
   },
   {
     "id": "390077028",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Viridblaze Saurian",
     "code": "H46-",
     "rarity": [
@@ -21956,7 +22275,7 @@
       "skill": "GameData/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_295_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Viridblaze Saurian to continuously spit fire, dealing {0} Fusion DMG 10 times.\r\n\r\nCD: {1}s",
+      "desc": "Summon a Viridblaze Saurian to continuously spit fire, dealing {0} Fusion DMG 10 times.\n\nCD: {1}s",
       "simple_desc": "Summon a Viridblaze Saurian to continuously spit fire, dealing Fusion DMG.",
       "param": [
         [
@@ -22004,7 +22323,7 @@
     "monsterInfo": 320000080,
     "liveComparison": {
       "liveHash": "415ae06d36746ebf7a802f20cbffb41347b1a0b0f351b98d1a25faa2c007c756",
-      "currentHash": "415ae06d36746ebf7a802f20cbffb41347b1a0b0f351b98d1a25faa2c007c756"
+      "currentHash": "fab37d78e00a68e1af7d752318945fd592cec5720b8e7465b426a44e031680d0"
     }
   },
   {
@@ -22299,7 +22618,7 @@
   },
   {
     "id": "390077038",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Spearback",
     "code": "H48-",
     "rarity": [
@@ -22362,7 +22681,7 @@
       "skill": "GameData/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_986_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Spearback to perform 5 consecutive attacks. The first 4 attacks deal {0} Physical DMG, and the last deals {1} Physical DMG.\r\n\r\nCD: {2}s",
+      "desc": "Summon a Spearback to perform 5 consecutive attacks. The first 4 attacks deal {0} Physical DMG, and the last deals {1} Physical DMG.\n\nCD: {2}s",
       "simple_desc": "Summon a Spearback to perform continuous claw strikes, dealing Physical DMG.",
       "param": [
         [
@@ -22432,7 +22751,7 @@
     "monsterInfo": 320000120,
     "liveComparison": {
       "liveHash": "53dcf958ee2a4d21f3c0e9b9da9566e82062f2e82628fbe477ee1acc74c68a95",
-      "currentHash": "53dcf958ee2a4d21f3c0e9b9da9566e82062f2e82628fbe477ee1acc74c68a95"
+      "currentHash": "1a68671ed43bc01ddd407a4764738aacb3779a7df3fa4c3f43ac392c0f6469ea"
     }
   },
   {

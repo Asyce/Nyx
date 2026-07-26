@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T04:32:58.041Z",
+  "generatedAt": "2026-07-26T04:45:53.932Z",
   "note": "Generic shops, crafting, exchanges, and event rewards are intentionally filtered. Rows here need scraper/wiki-specific source data.",
   "count": 214,
   "missing": [
@@ -621,7 +621,7 @@
     },
     {
       "game": "hsr",
-      "context": "Dr. Ratio ascension",
+      "context": "Rin Tohsaka ascension",
       "id": "111013",
       "name": "Conqueror's Will",
       "kind": "mob"
@@ -677,7 +677,7 @@
     },
     {
       "game": "hsr",
-      "context": "Himeko talents",
+      "context": "Rin Tohsaka talents",
       "id": "110501",
       "name": "Destroyer's Final Road",
       "kind": "weekly"
@@ -1314,7 +1314,7 @@
     },
     {
       "game": "hsr",
-      "context": "Dr. Ratio ascension",
+      "context": "Rin Tohsaka ascension",
       "id": "111011",
       "name": "Thief's Instinct",
       "kind": "mob"
@@ -1328,14 +1328,14 @@
     },
     {
       "game": "hsr",
-      "context": "Himeko Nova talents",
+      "context": "Gilgamesh talents",
       "id": "241",
       "name": "Tracks of Destiny",
       "kind": "mob"
     },
     {
       "game": "hsr",
-      "context": "Dr. Ratio ascension",
+      "context": "Rin Tohsaka ascension",
       "id": "111012",
       "name": "Usurper's Scheme",
       "kind": "mob"

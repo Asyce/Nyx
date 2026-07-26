@@ -1,0 +1,15 @@
+{
+  "id": 350000440,
+  "name": "Stay tuned",
+  "desc": "A Tacet Discord that attacks targets at range within the Tacet Field.",
+  "desc_open": "This enemy has a <color=HighlightB>higher RES</color> to <color=Fire>Fusion DMG</color>. \n\nSmolders are Tacet Discords that attack targets at range from the outer perimeter of the Tacet Field. They always take their time preparing for their attacks, as in the eyes of these hunters by nature, their prey are nothing more than playthings waiting to be ignited at any given time.",
+  "rarity": 1,
+  "element": 2,
+  "element_array": [
+    2
+  ],
+  "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_SG_31102_UI.T_IconMonsterHead_SG_31102_UI",
+  "echo": 6010214,
+  "base_stats": {},
+  "stats": {}
+}

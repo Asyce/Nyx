@@ -19534,7 +19534,7 @@
               {
                 "name": "Artillery Interdiction",
                 "type": "Combat Skill",
-                "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Nature DMG. As the controlled operator, Final Strike also deals 0 Stagger.\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Nature DMG to nearby enemies.\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Nature DMG and recovers some SP.",
+                "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Nature DMG. As the controlled operator, Final Strike also deals 17 Stagger.\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Nature DMG to nearby enemies.\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Nature DMG and recovers some SP.",
                 "stats": [
                   {
                     "label": "BATK SEQ 1 Multiplier",
@@ -19678,7 +19678,7 @@
               {
                 "name": "Artillery Interdiction",
                 "type": "Combat Skill",
-                "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Nature DMG. As the controlled operator, Final Strike also deals 0 Stagger.\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Nature DMG to nearby enemies.\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Nature DMG and recovers some SP.",
+                "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Nature DMG. As the controlled operator, Final Strike also deals 17 Stagger.\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Nature DMG to nearby enemies.\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Nature DMG and recovers some SP.",
                 "stats": [
                   {
                     "label": "BATK SEQ 1 Multiplier",

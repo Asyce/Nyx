@@ -239,6 +239,18 @@
     "zh": "纹秋",
     "ja": "秋の名残"
   },
+  "21010076": {
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon21010076_UI.T_IconWeapon21010076_UI",
+    "rank": 5,
+    "type": 1,
+    "en": "Thousandfold Deliverance",
+    "desc": "Endless stretches the Netherworld, the long night lasts forever Myriad souls lie hushed, all sounds fade together\nWhen the chilling, golden rays illuminate the Nether gate, the sunken dreams of old shall finally reveal in the light.",
+    "atk": 412,
+    "sub": "HP",
+    "ko": "수많은 인도",
+    "zh": "千般渡",
+    "ja": "幾千の導き"
+  },
   "21010084": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon21010084_UI.T_IconWeapon21010084_UI",
     "rank": 4,
@@ -586,6 +598,18 @@
     "ko": "예리한 날개깃",
     "zh": "翼锋",
     "ja": "鋭利な翼"
+  },
+  "21020106": {
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon21020106_UI.T_IconWeapon21020106_UI",
+    "rank": 5,
+    "type": 2,
+    "en": "Cloud Jasper",
+    "desc": "Mist drifts through the clouds, still water blue as the sky above; thin shadows slant across, and petals scatter down.\nMay I carry this jade blade into the dust of the world, cleanse this tarnished age, and cut down every evil.",
+    "atk": 500,
+    "sub": "Crit. Rate",
+    "ko": "옥빛 구름",
+    "zh": "云琅",
+    "ja": "雲琅"
   },
   "21030011": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon21030011_UI.T_IconWeapon21030011_UI",
@@ -1518,5 +1542,15 @@
     "ko": "투영 · 바다의 선물",
     "zh": "投影·大海的馈赠",
     "ja": "投影・海の恩恵"
+  },
+  "80080009": {
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon80080009_UI.T_IconWeapon80080009_UI",
+    "rank": 5,
+    "type": 2,
+    "en": "",
+    "desc": "",
+    "ko": "",
+    "zh": "",
+    "ja": ""
   }
 }

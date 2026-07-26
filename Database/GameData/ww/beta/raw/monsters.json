@@ -1129,6 +1129,16 @@
     "zh": "不熄猎手",
     "ja": "熄えぬ狩人"
   },
+  "310001030": {
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31103_UI.T_IconMonsterHead_31103_UI",
+    "rank": 1,
+    "element": 2,
+    "echo": 6000219,
+    "en": "Stay tuned",
+    "ko": "Stay tuned",
+    "zh": "敬请期待",
+    "ja": "Stay tuned"
+  },
   "320000010": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_185_UI.T_IconMonsterHead_185_UI",
     "rank": 2,
@@ -1829,6 +1839,16 @@
     "zh": "封庭械囿",
     "ja": "封庭の械囿"
   },
+  "320000690": {
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32069_UI.T_IconMonsterHead_32069_UI",
+    "rank": 2,
+    "element": 2,
+    "echo": 6000220,
+    "en": "Stay tuned",
+    "ko": "Stay tuned",
+    "zh": "敬请期待",
+    "ja": "Stay tuned"
+  },
   "330000010": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_225_UI.T_IconMonsterHead_225_UI",
     "rank": 3,
@@ -2469,6 +2489,16 @@
     "zh": "千傀重楼",
     "ja": "千傀の重楼"
   },
+  "340000320": {
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34032_UI.T_IconMonsterHead_34032_UI",
+    "rank": 3,
+    "element": 4,
+    "echo": 6000221,
+    "en": "Stay tuned",
+    "ko": "Stay tuned",
+    "zh": "敬请期待",
+    "ja": "Stay tuned"
+  },
   "350000010": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1006_UI.T_IconMonsterHead_1006_UI",
     "rank": 3,
@@ -2878,5 +2908,25 @@
     "ko": "이상 · 분해된 전사",
     "zh": "异相·融躯战士",
     "ja": "異相・融躯の戦士"
+  },
+  "350000430": {
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_SG_34030_UI.T_IconMonsterHead_SG_34030_UI",
+    "rank": 3,
+    "element": 2,
+    "echo": 6010217,
+    "en": "Stay tuned",
+    "ko": "Stay tuned",
+    "zh": "敬请期待",
+    "ja": "Stay tuned"
+  },
+  "350000440": {
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_SG_31102_UI.T_IconMonsterHead_SG_31102_UI",
+    "rank": 1,
+    "element": 2,
+    "echo": 6010214,
+    "en": "Stay tuned",
+    "ko": "Stay tuned",
+    "zh": "敬请期待",
+    "ja": "Stay tuned"
   }
 }

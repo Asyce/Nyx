@@ -221471,10 +221471,11 @@
         "../../Database/GenshinWiki/birthday-art/shikanoinheizou/02-Shikanoin Heizou Birthday 2023.png",
         "../../Database/GenshinWiki/birthday-art/shikanoinheizou/03-Shikanoin Heizou Birthday 2024.png",
         "../../Database/GenshinWiki/birthday-art/shikanoinheizou/04-Shikanoin Heizou Birthday 2025.png",
-        "../../Database/GenshinWiki/birthday-art/shikanoinheizou/05-Shikanoin Heizou TPRGT 2022 - Aether.png",
-        "../../Database/GenshinWiki/birthday-art/shikanoinheizou/06-Shikanoin Heizou TPRGT 2022 - Lumine.png",
-        "../../Database/GenshinWiki/birthday-art/shikanoinheizou/07-Shikanoin Heizou TPRGT 2023 - Aether.png",
-        "../../Database/GenshinWiki/birthday-art/shikanoinheizou/08-Shikanoin Heizou TPRGT 2023 - Lumine.png"
+        "../../Database/GenshinWiki/birthday-art/shikanoinheizou/05-Shikanoin Heizou Birthday 2026.png",
+        "../../Database/GenshinWiki/birthday-art/shikanoinheizou/06-Shikanoin Heizou TPRGT 2022 - Aether.png",
+        "../../Database/GenshinWiki/birthday-art/shikanoinheizou/07-Shikanoin Heizou TPRGT 2022 - Lumine.png",
+        "../../Database/GenshinWiki/birthday-art/shikanoinheizou/08-Shikanoin Heizou TPRGT 2023 - Aether.png",
+        "../../Database/GenshinWiki/birthday-art/shikanoinheizou/09-Shikanoin Heizou TPRGT 2023 - Lumine.png"
       ],
       "namecard": "../../Database/GenshinWiki/namecards/Heizo.png",
       "skillIcons": [

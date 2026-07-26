@@ -1,0 +1,91 @@
+{
+  "id": 6000220,
+  "code": "T1-",
+  "name": "Stay tuned",
+  "type": "",
+  "intensity": "",
+  "place": "",
+  "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32069_UI.T_IconMonsterHead_32069_UI",
+  "skill": {
+    "desc": "Summon a Skywatch Gunner to attack the target, dealing {0} Havoc DMG 6 times.\nCD: {1}s",
+    "simple_desc": "Summon a Skywatch Gunner to deal Havoc DMG to the target.",
+    "param": [
+      [
+        "17.83%",
+        "15"
+      ],
+      [
+        "21.39%",
+        "15"
+      ],
+      [
+        "24.96%",
+        "15"
+      ],
+      [
+        "28.52%",
+        "15"
+      ],
+      [
+        "32.09%",
+        "15"
+      ]
+    ],
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.T_MstSkil_34020_UI",
+    "damage": {
+      "20015101": {
+        "element": 6,
+        "related_property": "ATK",
+        "type": 5,
+        "rate_lv": [
+          1783,
+          2139,
+          2496,
+          2852,
+          3209
+        ],
+        "energy": 44,
+        "element_power": 0,
+        "hardness_lv": 10000,
+        "tough_lv": 1783,
+        "weakness_lvl": 0
+      }
+    }
+  },
+  "group": {
+    "33": {
+      "id": 33,
+      "name": "Song of Feathered Trace",
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriYangyang.T_IconElementAttriYangyang",
+      "color": "FFFFFF00",
+      "set": {
+        "2": {
+          "desc": "Energy Regen + {0}",
+          "param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "desc": "Upon inflicting Havoc Bane, gain Xuanling's Feather, which grants a {0} increase in Crit. Rate and {1} increase in Heavy Attack DMG Bonus to the Resonator, lasting {2}s.\nUpon inflicting Glacio Chafe, gain Chongming's Feather, which grants a {4} increase in ATK to Resonators in the team for every {3} of the Resonator's Energy Regen, up to {5}, lasting {6}s.",
+          "param": [
+            "20%",
+            "35%",
+            "15",
+            "1%",
+            "0.1%",
+            "25%",
+            "10"
+          ]
+        }
+      }
+    }
+  },
+  "rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "intensity_code": 1,
+  "monster_info": 320000690
+}

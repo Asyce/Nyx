@@ -1,0 +1,10 @@
+{
+  "id": 80080009,
+  "rarity": 5,
+  "type": 2,
+  "name": "",
+  "desc": "",
+  "icon": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon80080009_UI.T_IconWeapon80080009_UI",
+  "model": "/Game/Aki/Character/Weapon/Sword/R5Sword511/R5Sword511Md20001/Model/R5Sword511Md20001.R5Sword511Md20001",
+  "skin": true
+}

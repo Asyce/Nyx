@@ -1,13 +1,13 @@
 {
   "provider": "EndfieldWiki",
   "game": "endfield",
-  "generatedAt": "2026-07-25T07:33:50.870Z",
+  "generatedAt": "2026-07-26T07:56:37.063Z",
   "summary": {
     "characters": {
       "added": 0,
       "removed": 0,
-      "changed": 2,
-      "unchanged": 29
+      "changed": 0,
+      "unchanged": 31
     },
     "weapons": {
       "added": 0,
@@ -26,21 +26,8 @@
     "characters": {
       "added": [],
       "removed": [],
-      "changed": [
-        {
-          "id": "arcane",
-          "name": "Arcane",
-          "previousHash": "8ccf12b7047c11d1862ca62bec8cab27727c38bd46954e7e685c65cfd70c5aa4",
-          "currentHash": "4cfcc844154f3797cca40888e1a120426ba44cb69bf5645c0335b9c0c3023f52"
-        },
-        {
-          "id": "camille",
-          "name": "Camille",
-          "previousHash": "bd8b921c4d17eb209af81a56f08fea7899f80a435149ccfa90696cc3f1437546",
-          "currentHash": "69ba60e907476c3484f745ecfaff4749f69302216f10f3ad0f8f9d5894005e08"
-        }
-      ],
-      "unchanged": 29,
+      "changed": [],
+      "unchanged": 31,
       "totals": {
         "previous": 31,
         "current": 31

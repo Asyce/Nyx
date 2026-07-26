@@ -1,6 +1,6 @@
 {
   "game": "ww",
-  "updatedAt": "2026-07-25T07:31:46.218Z",
+  "updatedAt": "2026-07-26T07:54:40.506Z",
   "hashes": {
     "records": {
       "characters:aalto": "9015cce5588d22ad992c952b99a786724640bc12b511612714e6449bfbf9cac8",
@@ -42,7 +42,7 @@
       "characters:phrolova": "b0f3bd482895b5f769efa27af88a60f995318edb89f8a954f9165b7641d3dd7b",
       "characters:qingxiao": "aad9c2d55bd923fedd75256bf487f9c08f6cf82f5213eb6d21c2f13c1184d758",
       "characters:qiuyuan": "c8df03b370015c3b7a00a0c08da71d543ded0f108069cd560ab62a782bd4e703",
-      "characters:rebecca": "90df21b183c638f301854a518ee83c00f40944e207f267e207a9fc4cd9c2d2b7",
+      "characters:rebecca": "1f16ddcb6f60996fb01471a4cdf7d0240cf2f50e17f8582ba98a0cd4bba18652",
       "characters:roccia": "43913bf2c1ba5c84eb2ca344e43b86b506a227223492e286690f4d71a3e5c443",
       "characters:rover-aero": "fda713118bf4f17469d93b6a10d14a3d4efadd60e7ca6cdfa0ce79b2db3c936a",
       "characters:rover-electro": "fc1bd619ec2c823d455d750ed977fc13fb35647db5957578d1d8353afb38b74e",
@@ -63,7 +63,7 @@
       "characters:yuanwu": "a6563d57b9148123e30724a3ac047a0b4696464150122e667f7eb56bdf540010",
       "characters:zani": "abf56940d2629fdc8e869637f3f438a17265e5526d7d0f9d3071c59ff7cba396",
       "characters:zhezhi": "6181b9994aebcae61d34fac61711d998baf10aff096bb20a62569d11fc41bf11",
-      "collection:characters": "551648f32fc4b0227c4435df733f278ebaaf4d0c446f81600a074460a1d4e82b",
+      "collection:characters": "7bf8c3c93cbb3526570fb11d7d2b406e14d747f016b5c57e8e34ddfc5cce8221",
       "collection:echoes": "2bbc841003cd905d189e8ba303fcc566b43d9d60c27861f7504e422d1a38a33d",
       "collection:weapons": "b68e4850d487469947d76cf1f0dc632f89bfa600675b30752e4030c0a38e65a5"
     }

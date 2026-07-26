@@ -1,21 +1,34 @@
 {
   "provider": "Prydwen",
   "game": "ww",
-  "generatedAt": "2026-07-25T07:31:46.218Z",
+  "generatedAt": "2026-07-26T07:54:40.506Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 0,
-      "unchanged": 63
+      "changed": 2,
+      "unchanged": 61
     }
   },
   "sections": {
     "records": {
       "added": [],
       "removed": [],
-      "changed": [],
-      "unchanged": 63,
+      "changed": [
+        {
+          "id": "characters:rebecca",
+          "name": "Rebecca",
+          "previousHash": "90df21b183c638f301854a518ee83c00f40944e207f267e207a9fc4cd9c2d2b7",
+          "currentHash": "1f16ddcb6f60996fb01471a4cdf7d0240cf2f50e17f8582ba98a0cd4bba18652"
+        },
+        {
+          "id": "collection:characters",
+          "name": "Wuthering Waves Characters Build Guides",
+          "previousHash": "551648f32fc4b0227c4435df733f278ebaaf4d0c446f81600a074460a1d4e82b",
+          "currentHash": "7bf8c3c93cbb3526570fb11d7d2b406e14d747f016b5c57e8e34ddfc5cce8221"
+        }
+      ],
+      "unchanged": 61,
       "totals": {
         "previous": 63,
         "current": 63

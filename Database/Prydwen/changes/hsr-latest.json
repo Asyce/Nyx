@@ -1,40 +1,21 @@
 {
   "provider": "Prydwen",
   "game": "hsr",
-  "generatedAt": "2026-07-25T07:31:46.218Z",
+  "generatedAt": "2026-07-26T07:54:40.506Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 3,
-      "unchanged": 92
+      "changed": 0,
+      "unchanged": 95
     }
   },
   "sections": {
     "records": {
       "added": [],
       "removed": [],
-      "changed": [
-        {
-          "id": "characters:lynx",
-          "name": "Lynx",
-          "previousHash": "00f931b4796c8599588c1bf55d7d70715e29cc4e9fcfa384fd4d7af753460d86",
-          "currentHash": "40f3a9308dac2f30066e3cba936c78942cccaaee276db2375459ec8fce481c98"
-        },
-        {
-          "id": "characters:mydei",
-          "name": "Mydei",
-          "previousHash": "ae03d2c8943020c7751596666f8aba466c4e896f1fc8ece5809b088fd191d56c",
-          "currentHash": "bc3c157db492136a5f0efe23121d8bb98f9d5b2b5342b0a9332afe0de7d55cc3"
-        },
-        {
-          "id": "characters:saber",
-          "name": "Saber",
-          "previousHash": "d2044cf2f91f2d89ae770a41af9383a8aa92e77877bcfecf4cebc20601a9fc57",
-          "currentHash": "85678bfcfc7b0411876c80e0150b4361e45ddc579f15ec3b91bc2a0665476e66"
-        }
-      ],
-      "unchanged": 92,
+      "changed": [],
+      "unchanged": 95,
       "totals": {
         "previous": 95,
         "current": 95

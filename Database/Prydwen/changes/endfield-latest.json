@@ -1,28 +1,21 @@
 {
   "provider": "Prydwen",
   "game": "endfield",
-  "generatedAt": "2026-07-25T07:31:46.218Z",
+  "generatedAt": "2026-07-26T07:54:40.506Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 1,
-      "unchanged": 33
+      "changed": 0,
+      "unchanged": 34
     }
   },
   "sections": {
     "records": {
       "added": [],
       "removed": [],
-      "changed": [
-        {
-          "id": "characters:avywenna",
-          "name": "Avywenna",
-          "previousHash": "b23b0481b26fb147d75aaebbc17c7998b39d47301491c5352dec92ff8fd3d05a",
-          "currentHash": "376477c27b7293576a695108e047af32185a7d183e26bd3be3d5ecc9988c0934"
-        }
-      ],
-      "unchanged": 33,
+      "changed": [],
+      "unchanged": 34,
       "totals": {
         "previous": 34,
         "current": 34

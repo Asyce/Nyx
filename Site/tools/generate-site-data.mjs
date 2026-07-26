@@ -39,40 +39,6 @@ const dbDir = path.resolve(root, 'Database');
 const readJson = (rel) => JSON.parse(fs.readFileSync(path.resolve(dbDir, rel), 'utf8'));
 const exists = (rel) => fs.existsSync(path.resolve(dbDir, rel));
 
-const launcherContentOnly = process.argv.includes('--launcher-content-only');
-if (launcherContentOnly) {
-  const inputArg = process.argv.find((arg) => arg.startsWith('--launcher-content-input='));
-  const atArg = process.argv.find((arg) => arg.startsWith('--launcher-content-at='));
-  const inputPath = inputArg
-    ? path.resolve(inputArg.slice('--launcher-content-input='.length))
-    : path.resolve(dbDir, 'Banners', 'banners.json');
-  const at = atArg ? Date.parse(atArg.slice('--launcher-content-at='.length)) : Date.now();
-  if (!Number.isFinite(at)) throw new Error('Invalid launcher content generation time.');
-  const source = JSON.parse(fs.readFileSync(inputPath, 'utf8'));
-  const inspectArg = process.argv.find((arg) => arg.startsWith('--launcher-content-inspect='));
-  if (inspectArg) {
-    const inspected = inspectLauncherPhase(
-      source,
-      inspectArg.slice('--launcher-content-inspect='.length),
-      at,
-    );
-    process.stdout.write(JSON.stringify(inspected));
-    process.exit(0);
-  }
-  const output = buildLauncherContentSnapshot(source, at);
-  if (process.argv.includes('--launcher-content-stdout')) {
-    process.stdout.write(JSON.stringify(output));
-  } else {
-    fs.mkdirSync(generatedDataDir, { recursive: true });
-    fs.writeFileSync(
-      path.resolve(generatedDataDir, 'launcher-content-v1.json'),
-      JSON.stringify(output, null, 2) + '\n',
-      'utf8',
-    );
-  }
-  process.exit(0);
-}
-
 // Active GameData channel for character/material reads. 'live' by default; flipped to
 // 'beta' while building the beta delta. Item/avatar caches are keyed by channel so the
 // two passes never cross-contaminate. Assets live in a shared (channel-less) dir.
@@ -479,6 +445,10 @@ function gamedataCharacterAliases(game, ch) {
   }
 
   if (key === 'ww' && name && !/^the\s+/i.test(name)) aliases.push(`The ${name}`);
+
+  // GameData names agent 1261 "Jane"; Prydwen (and the game's UI) use "Jane Doe".
+  if (key === 'zzz' && id === '1261') aliases.push('Jane Doe');
+
   return uniq(aliases.map((alias) => cleanText(alias, 120)).filter(Boolean));
 }
 
@@ -1116,6 +1086,31 @@ function endfieldReqFromMaterials(materials) {
     talentCost: 0,
     currency: 0,
   };
+}
+
+// Fallback only. Current EndfieldWiki scraper runs emit exact per-character
+// material tables; this shared schedule is used only for older or partial data.
+function endfieldSharedReq() {
+  const ascension = [
+    endfieldMaterial('Credits', 500000, 'currency'),
+    endfieldMaterial('Protohedron', 46, 'gem'),
+    endfieldMaterial('Protoprism', 46, 'gem'),
+    endfieldMaterial('Heavy Cast Die', 36, 'mob'),
+    endfieldMaterial('Cast Die', 96, 'mob'),
+    endfieldMaterial('Arms Inspector', 168, 'mob'),
+    endfieldMaterial('Mark of Perseverance', 12, 'boss'),
+  ];
+  const talents = [
+    endfieldMaterial('Credits', 700000, 'currency'),
+    endfieldMaterial('Advanced Combat Record', 12, 'book'),
+    endfieldMaterial('Intermediate Combat Record', 21, 'book'),
+    endfieldMaterial('Elementary Combat Record', 9, 'book'),
+    endfieldMaterial('Elementary Cognitive Carrier', 18, 'specialty'),
+    endfieldMaterial('Heavy Cast Die', 24, 'mob'),
+    endfieldMaterial('Cast Die', 18, 'mob'),
+    endfieldMaterial('D96 Steel Sample 4', 12, 'weekly'),
+  ];
+  return { ascension, talents, ascCost: 0, talentCost: 0, currency: 0 };
 }
 
 // G37/ZZZ: the 5 skill-type icons are SHARED across all agents (Basic / Dodge /
@@ -3220,7 +3215,8 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
     if (game === 'zzz' && local) {
       if (local.el && (!mapped.el || mapped.el === 'Unknown')) mapped.el = local.el;
       if (local.spec && (!mapped.spec || mapped.spec === 'Unknown')) mapped.spec = local.spec;
-      if (local.rarity && (!mapped.r || mapped.r === 'Unknown')) mapped.r = Number(local.rarity) >= 5 ? 'S' : 'A';
+      // ZZZ's rarity enum is 4 = S-rank, 3 = A-rank (not the 5/4-star scale).
+      if (local.rarity && (!mapped.r || mapped.r === 'Unknown')) mapped.r = Number(local.rarity) >= 4 ? 'S' : 'A';
     }
     const meta = fandom.get(normKey(ch.name));
     const officialPortrait = game === 'zzz' ? ZZZ_OFFICIAL_CHARACTER_PORTRAITS.get(normKey(ch.name)) : null;
@@ -3405,7 +3401,11 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
     for (const ag of readJson(`GameData/zzz/${nch()}/agents.json`)) {
       if (!/^beta/.test(String(ag.contentStatus || '').toLowerCase())) continue;
       const display = cleanText(resolvedCharacterName(ag), 120);
-      if (!display || have.has(normKey(display))) continue;
+      // Match against every known alias, not just the display name — GameData's
+      // "Jane" is Prydwen's "Jane Doe", and a display-only check would resurface
+      // a released agent here as a duplicate "new beta" entry.
+      const aliasKeys = gamedataCharacterAliases('zzz', ag).map(normKey);
+      if (!display || have.has(normKey(display)) || aliasKeys.some((alias) => have.has(alias))) continue;
       have.add(normKey(display));
       const req = reqByName?.get(String(ag.name || '').toLowerCase()) || reqByName?.get(normKey(ag.name)) || null;
       const kit = kitByName?.get(String(ag.name || '').toLowerCase()) || kitByName?.get(normKey(ag.name)) || null;
@@ -3420,7 +3420,7 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
         icon,
         art,
         card: icon || art,
-        r: Number(ag.rarity) >= 5 ? 'S' : 'A',
+        r: Number(ag.rarity) >= 4 ? 'S' : 'A', // ZZZ rarity enum: 4 = S, 3 = A
         el: firstVal(ag.element) || 'Unknown',
         spec: firstVal(ag.specialty) || undefined,
         status: 'beta',
@@ -3696,13 +3696,14 @@ function endfieldExplicitMaterialView(roster, { label, names, reqFields, source 
   groups.forEach((group) => group.chars.sort((a, b) => a.localeCompare(b)));
 
   const generatedCharacters = new Set(groups.flatMap((group) => group.chars));
-  const pendingSourceCharacters = (roster || [])
-    .filter((ch) => ch.materialSourceStatus === 'pending-source')
-    .map((ch) => ch.n)
-    .sort();
-  const rosterCharacters = new Set((roster || [])
-    .filter((ch) => ch.materialSourceStatus !== 'pending-source')
-    .map((ch) => ch.n));
+  // A freshly released operator whose wiki page has no materials yet (e.g. Liino,
+  // 2026-07) ships with an empty req — exempt it from the sourced-requirement
+  // check instead of failing the whole generation and keeping every complete
+  // operator off the site. Operators that DO carry requirements in these fields
+  // must still classify into a group.
+  const unfilled = (roster || []).filter((ch) => !reqFields.some((field) => (ch.req?.[field] || []).length)).map((ch) => ch.n);
+  if (unfilled.length) console.warn(`[endfield] ${label}: operator(s) without any sourced requirements (unfilled wiki page): ${unfilled.join(', ')}`);
+  const rosterCharacters = new Set((roster || []).filter((ch) => !unfilled.includes(ch.n)).map((ch) => ch.n));
   const missing = [...sourceCharacters].filter((name) => !generatedCharacters.has(name)).sort();
   const extra = [...generatedCharacters].filter((name) => !sourceCharacters.has(name)).sort();
   const withoutSourceRequirement = [...rosterCharacters].filter((name) => !sourceCharacters.has(name)).sort();
@@ -3720,7 +3721,6 @@ function endfieldExplicitMaterialView(roster, { label, names, reqFields, source 
       requirementFields:reqFields.slice(),
       sourceCharacters:[...sourceCharacters].sort(),
       generatedCharacters:[...generatedCharacters].sort(),
-      pendingSourceCharacters,
       missing,
       extra,
       source:{ ...source },
@@ -3802,7 +3802,8 @@ function buildEndfieldWeaponRoster() {
 }
 
 function buildEndfieldRoster() {
-  const src = exists('EndfieldWiki/endfield/characters.json')
+  const usingWiki = exists('EndfieldWiki/endfield/characters.json');
+  const src = usingWiki
     ? readJson('EndfieldWiki/endfield/characters.json')
     : readJson('Prydwen/endfield/characters.json');
   const wikiWeaponsByName = new Map(buildEndfieldWeaponRoster().map((weapon) => [normKey(weapon.name), weapon]));
@@ -3813,7 +3814,13 @@ function buildEndfieldRoster() {
     const skillItems = recommendedGear.length ? recommendedGear : endfieldItemsFromCharacter(ch, 'matskill', 'gear');
     const statItems = endfieldItemsFromCharacter(ch, 'matstats', 'gear');
     const signatureWeapon = endfieldSignatureWeapon(ch, recommendedWeapons, wikiWeaponsByName);
-    const reqBase = endfieldReqFromMaterials(ch.materials);
+    // With the wiki source, an operator without scraped materials is a freshly
+    // released unit whose wiki page hasn't been filled in yet (e.g. Liino,
+    // 2026-07). Ship it with NO requirement — the estimated shared fallback
+    // would show invented numbers and fail the growth/progression material-view
+    // classification. The Prydwen fallback source has no materials at all, so it
+    // keeps the shared estimate.
+    const reqBase = endfieldReqFromMaterials(ch.materials) || (usingWiki ? null : endfieldSharedReq());
     const req = signatureWeapon ? {
       ...(reqBase || {}),
       weapon: {
@@ -3858,8 +3865,10 @@ function buildEndfieldRoster() {
         signatureWeaponId: signatureWeapon.id,
         signatureWeaponName: signatureWeapon.name,
       } : {}),
-      materialSourceStatus: reqBase ? 'sourced' : 'pending-source',
       req,
+      // No requirement at all (unfilled wiki page): surface the roster's
+      // "no reliable material data" treatment instead of an empty ledger.
+      ...(reqBase ? {} : { reliableData: false }),
       aePreferredItems: preferredWeapons,
       aeSkillItems: skillItems.length ? skillItems : preferredWeapons,
       aeStatItems: statItems,
@@ -5008,7 +5017,7 @@ const premiumCurrencyMeta = {
   hsr: { name: 'Stellar Jade', needle: 'stellar jade', icon: dbAsset('GameData/hsr/assets/items/900001.webp') },
   zzz: { name: 'Polychrome', needle: 'polychrome', icon: dbAsset('GameData/zzz/assets/items/IconCurrency.webp') },
   wuwa: { name: 'Astrite', needle: 'astrite', icon: dbAsset('GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_zcpq_UI.webp') },
-  ae: { name: 'Oroberyl', needle: 'oroberyl', aliases: ['originium'], icon: null },
+  ae: { name: 'Oroberyl', needle: 'oroberyl', aliases: ['originium'], icon: dbAsset('EndfieldWiki/endfield/material-icons/Oroberyl.png') },
 };
 
 function codeHasPremiumCurrency(key, reward) {
@@ -5135,111 +5144,6 @@ function buildBannersData(rosters) {
     games[key] = reflowBannerGroup(normalized, now);
   }
   return { updated: src.updated || src.generatedAt || null, checkedAt: src.checkedAt || null, games };
-}
-
-function launcherIso(value) {
-  if (!value || typeof value !== 'string') return null;
-  const timestamp = Date.parse(value);
-  return Number.isFinite(timestamp) && new Date(timestamp).toISOString() === value
-    ? { value, timestamp }
-    : null;
-}
-
-function launcherText(value, maximumLength) {
-  const text = String(value || '')
-    .replace(/<[^>]*>/g, '')
-    .replace(/[\u0000-\u001f\u007f]/g, ' ')
-    .replace(/\s+/g, ' ')
-    .trim();
-  return text ? text.slice(0, maximumLength) : '';
-}
-
-function launcherPhases(group) {
-  return [group?.current, group?.next, ...(Array.isArray(group?.upcoming) ? group.upcoming : [])]
-    .filter(Boolean)
-    .map((phase, index) => {
-      const start = launcherIso(phase.start);
-      const end = launcherIso(phase.end);
-      if (!end) return null;
-      return {
-        phase: launcherText(phase.phase, 48),
-        start: start?.timestamp ?? (index === 0 ? Number.NEGATIVE_INFINITY : null),
-        end: end.timestamp,
-        endIso: end.value,
-        names: (Array.isArray(phase.characters) ? phase.characters : [])
-          .map((character) => launcherText(character?.name ?? character, 48))
-          .filter(Boolean)
-          .slice(0, 3),
-      };
-    })
-    .filter((phase) => phase && phase.start !== null && phase.start < phase.end);
-}
-
-function selectLauncherPhase(group, now) {
-  const phases = launcherPhases(group);
-  const active = phases.filter((phase) => phase.start <= now && now < phase.end);
-  if (active.length > 1) return null;
-  if (active.length === 1) return active[0];
-  return phases
-    .filter((phase) => phase.start > now)
-    .sort((left, right) => left.start - right.start)[0] || null;
-}
-
-function inspectLauncherPhase(source, requestedId, now) {
-  const wanted = String(requestedId || '').toLowerCase().replace(/[^a-z0-9]+/g, '');
-  const group = (Array.isArray(source?.games) ? source.games : []).find((entry) =>
-    String(entry?.id || entry?.slug || entry?.name || '')
-      .toLowerCase()
-      .replace(/[^a-z0-9]+/g, '') === wanted);
-  const phase = selectLauncherPhase(group, now);
-  return phase ? {
-    phase: phase.phase,
-    names: phase.names,
-    date: phase.endIso,
-  } : null;
-}
-
-function buildLauncherContentSnapshot(source, now = Date.now()) {
-  const canonical = new Map([
-    ['wuwa', 'wuwa'],
-    ['wutheringwaves', 'wuwa'],
-    ['endfield', 'ae'],
-    ['arknightsendfield', 'ae'],
-  ]);
-  const groups = new Map();
-  for (const group of Array.isArray(source?.games) ? source.games : []) {
-    const raw = String(group?.id || group?.slug || group?.name || '')
-      .toLowerCase()
-      .replace(/[^a-z0-9]+/g, '');
-    const gameId = canonical.get(raw);
-    if (!gameId || groups.has(gameId)) continue;
-    groups.set(gameId, group);
-  }
-
-  const games = {};
-  for (const gameId of ['wuwa', 'ae']) {
-    const phase = selectLauncherPhase(groups.get(gameId), now);
-    const cards = [];
-    if (phase && phase.names.length) {
-      const label = phase.phase ? `${phase.phase}: ` : '';
-      cards.push({
-        id: `${gameId}-banner-${phase.endIso.slice(0, 10)}`,
-        type: 'banner',
-        title: launcherText(`${label}${phase.names.join(', ')}`, 120),
-        date: phase.endIso,
-      });
-    }
-    games[gameId] = {
-      source: 'Nyx banner snapshot',
-      cards,
-    };
-  }
-
-  return {
-    schemaVersion: 1,
-    generatedAt: new Date(now).toISOString(),
-    games,
-  };
 }
 
 function sourceMeta() {
@@ -5451,7 +5355,14 @@ const cmBetaDeltas = (() => {
     const liveWeaponsById = new Map((cmCfg[key]?.weapons || []).map((weapon) => [weapon.id, weapon]));
     const delta = (betaCfg[key]?.roster || [])
       .filter((bc) => { const lc = liveById.get(bc.id); return !lc || charSig(bc) !== charSig(lc); })
-      .map((bc) => ({ ...bc, betaStatus: liveById.has(bc.id) ? 'changed' : 'new' }));
+      .map((bc) => {
+        // A live row that is itself an unreleased stub (beta status / upcoming / no
+        // reliable data) is not released content: its beta replacement is NEW beta
+        // material and should carry the Beta flair, not a silent "changed".
+        const lc = liveById.get(bc.id);
+        const released = lc && !(lc.upcoming || lc.reliableData === false || (lc.status && lc.status !== 'live'));
+        return { ...bc, betaStatus: released ? 'changed' : 'new' };
+      });
     const weaponDelta = (betaCfg[key]?.weapons || [])
       .filter((bw) => {
         const lw = liveWeaponsById.get(bw.id);
@@ -5486,18 +5397,12 @@ fs.writeFileSync(
 const collections = buildCollections();
 const codes = buildCodesData();
 const banners = buildBannersData(rosters);
-const launcherContent = buildLauncherContentSnapshot(readJson('Banners/banners.json'), Date.now());
 const genshinTcgCards = buildGenshinTcgCards();
 const genshinFurniture = buildGenshinFurniture();
 const genshinWonderland = buildGenshinWonderland();
 const meta = sourceMeta();
 
 fs.mkdirSync(generatedDataDir, { recursive: true });
-fs.writeFileSync(
-  path.resolve(generatedDataDir, 'launcher-content-v1.json'),
-  JSON.stringify(launcherContent, null, 2) + '\n',
-  'utf8',
-);
 
 const cmHeader = `// ============================================================\n// Nyx - generated Character Materials data\n// Source: Database/Prydwen, Database/GameData, Database/EndfieldWiki\n// Generated by Site/tools/generate-site-data.mjs\n// ============================================================\n\n`;
 

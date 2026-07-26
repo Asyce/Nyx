@@ -42,10 +42,49 @@ public static class LauncherBannersManifestParser
         foreach (var game in Games)
         {
             if (!gameElement.TryGetProperty(game, out var value)) throw new InvalidDataException("Launcher manifest is missing a game.");
-            games.Add(game, ParseGame(game, value, observed));
+            games.Add(game, ParseGame(game, value, generatedAt));
         }
         if (gameElement.EnumerateObject().Any(entry => !Games.Contains(entry.Name, StringComparer.Ordinal))) throw new InvalidDataException("Launcher manifest has an unknown game.");
-        return new LauncherBannersManifest(version, revision.ToLowerInvariant(), generatedAt, health, new ReadOnlyDictionary<string, LauncherBannersGame>(games));
+        foreach (var game in Games)
+        {
+            if (health.Games[game].NewsCount != games[game].News.Count)
+                throw new InvalidDataException("Launcher health news count does not match the game content.");
+        }
+        var manifest = new LauncherBannersManifest(version, revision.ToLowerInvariant(), generatedAt, health, new ReadOnlyDictionary<string, LauncherBannersGame>(games));
+        if (fallback) return manifest.ForDisplayAt(observed);
+        if (health.Status != "ok" || health.Games.Values.Any(game => game.Status != "ok")) throw new InvalidDataException("Launcher manifest health is not safe for promotion.");
+        foreach (var game in manifest.Games.Values)
+        {
+            if (game.Current is { } current && !(current.Start <= observed && observed < current.End)) throw new InvalidDataException("Launcher current phase is not current.");
+            if (game.Upcoming.Any(phase => phase.Start <= observed)) throw new InvalidDataException("Launcher upcoming phase is not in the future.");
+        }
+        return manifest;
+    }
+
+    public static LauncherCodesManifest ParseCodes(byte[] payload, bool fallback = false, DateTimeOffset? observedAt = null)
+    {
+        using var document = ParseJson(payload);
+        var root = document.RootElement;
+        RequireProperties(root, "schemaVersion", "revision", "generatedAt", "games");
+        var version = RequiredInt(root, "schemaVersion");
+        if (version != 1) throw new InvalidDataException("Unsupported launcher codes schema.");
+        var revision = RequiredText(root, "revision", 64);
+        if (revision.Length != 64 || revision.Any(c => !Uri.IsHexDigit(c))) throw new InvalidDataException("Invalid launcher codes revision.");
+        var generatedAt = RequiredDate(root, "generatedAt");
+        var observed = observedAt ?? DateTimeOffset.UtcNow;
+        if (!fallback && (generatedAt < observed - MaximumRemoteAge || generatedAt > observed + MaximumFutureSkew))
+            throw new InvalidDataException("Launcher codes are outside the freshness window.");
+        var gamesElement = root.GetProperty("games");
+        if (gamesElement.ValueKind is not JsonValueKind.Object) throw new InvalidDataException("Launcher codes games must be an object.");
+        var games = new Dictionary<string, IReadOnlyList<LauncherRedemptionCode>>(StringComparer.Ordinal);
+        foreach (var game in Games)
+        {
+            if (!gamesElement.TryGetProperty(game, out var codesElement)) throw new InvalidDataException("Launcher codes are missing a game.");
+            games.Add(game, ParseCodes(codesElement));
+        }
+        if (gamesElement.EnumerateObject().Any(entry => !Games.Contains(entry.Name, StringComparer.Ordinal)))
+            throw new InvalidDataException("Launcher codes contain an unknown game.");
+        return new LauncherCodesManifest(version, revision.ToLowerInvariant(), generatedAt, new ReadOnlyDictionary<string, IReadOnlyList<LauncherRedemptionCode>>(games));
     }
 
     private static LauncherBannersHealth ParseHealth(JsonElement element)
@@ -61,6 +100,7 @@ public static class LauncherBannersManifestParser
             if (!Games.Contains(game.Name, StringComparer.Ordinal)) throw new InvalidDataException("Unknown launcher health game.");
             RequireProperties(game.Value, "status", "reason", "newsCount");
             var gameStatus = RequiredText(game.Value, "status", 16);
+            if (gameStatus is not ("ok" or "degraded" or "missing")) throw new InvalidDataException("Invalid launcher game health status.");
             var reason = NullableText(game.Value, "reason", 64);
             var count = RequiredInt(game.Value, "newsCount");
             games.Add(game.Name, new LauncherBannersGameHealth(gameStatus, reason, count));
@@ -69,17 +109,16 @@ public static class LauncherBannersManifestParser
         return new LauncherBannersHealth(status, games);
     }
 
-    private static LauncherBannersGame ParseGame(string game, JsonElement element, DateTimeOffset observedAt)
+    private static LauncherBannersGame ParseGame(string game, JsonElement element, DateTimeOffset generatedAt)
     {
-        RequireProperties(element, "game", "region", "current", "news");
+        RequireProperties(element, "game", "region", "current", "upcoming", "news", "codes");
         var region = RequiredText(element, "region", 16);
         if (RequiredText(element, "game", 8) != game || !Regions.Contains(region, StringComparer.Ordinal)) throw new InvalidDataException("Launcher game identity mismatch.");
         LauncherBannersCurrentPhase? current = null;
         var currentElement = element.GetProperty("current");
         if (currentElement.ValueKind is JsonValueKind.Object)
         {
-            var parsed = ParseCurrent(game, currentElement);
-            current = parsed.Start <= observedAt && observedAt < parsed.End ? parsed : null;
+            current = ParseCurrent(game, currentElement, generatedAt);
         }
         else if (currentElement.ValueKind is not JsonValueKind.Null) throw new InvalidDataException("Invalid launcher current phase.");
         var newsElement = element.GetProperty("news");
@@ -100,10 +139,64 @@ public static class LauncherBannersManifestParser
             var approved = rawUrl is null ? null : TryOfficialUrl(rawUrl, game);
             news.Add(new LauncherBannersNewsItem(id, title, type, start, end, rawUrl, approved, approved is not null));
         }
-        return new LauncherBannersGame(game, region, current, news);
+        var upcoming = new List<LauncherBannersUpcomingPhase>();
+        if (element.TryGetProperty("upcoming", out var upcomingElement))
+        {
+            if (upcomingElement.ValueKind is not JsonValueKind.Array || upcomingElement.GetArrayLength() > 5)
+                throw new InvalidDataException("Invalid launcher upcoming phases.");
+            foreach (var phaseElement in upcomingElement.EnumerateArray())
+            {
+                RequireProperties(phaseElement, "phase", "start", "end", "characters");
+                var phaseStart = RequiredDate(phaseElement, "start");
+                var phaseEnd = RequiredDate(phaseElement, "end");
+                if (phaseEnd <= phaseStart) throw new InvalidDataException("Invalid launcher upcoming window.");
+                var charactersElement = phaseElement.GetProperty("characters");
+                if (charactersElement.ValueKind is not JsonValueKind.Array || charactersElement.GetArrayLength() > 20)
+                    throw new InvalidDataException("Invalid launcher upcoming characters.");
+                upcoming.Add(new LauncherBannersUpcomingPhase(
+                    NullableText(phaseElement, "phase", 48),
+                    phaseStart,
+                    phaseEnd,
+                    charactersElement.EnumerateArray().Select(character => ParseCharacter(game, character)).ToArray()));
+            }
+        }
+        IReadOnlyList<LauncherRedemptionCode> codes = [];
+        if (element.TryGetProperty("codes", out var codesElement))
+        {
+            codes = ParseCodes(codesElement);
+        }
+        return new LauncherBannersGame(game, region, current, news, upcoming, codes);
     }
 
-    private static LauncherBannersCurrentPhase ParseCurrent(string game, JsonElement element)
+    private static IReadOnlyList<LauncherRedemptionCode> ParseCodes(JsonElement codesElement)
+    {
+        if (codesElement.ValueKind is not JsonValueKind.Array || codesElement.GetArrayLength() > 5)
+            throw new InvalidDataException("Invalid launcher redemption codes.");
+        var codes = new List<LauncherRedemptionCode>();
+        var codeValues = new HashSet<string>(StringComparer.Ordinal);
+        foreach (var codeElement in codesElement.EnumerateArray())
+        {
+            RequireProperties(codeElement, "code", "added", "amount", "currency");
+            var code = RequiredText(codeElement, "code", 64);
+            if (code.Any(character => !char.IsAsciiLetterOrDigit(character) && character is not '-' and not '_')
+                || !codeValues.Add(code))
+                throw new InvalidDataException("Invalid launcher redemption code.");
+            var addedText = RequiredText(codeElement, "added", 10);
+            if (!DateOnly.TryParseExact(addedText, "yyyy-MM-dd", CultureInfo.InvariantCulture, DateTimeStyles.None, out var added))
+                throw new InvalidDataException("Invalid launcher redemption code date.");
+            var amount = codeElement.TryGetProperty("amount", out _) ? RequiredInt(codeElement, "amount") : 0;
+            if (amount is < 0 or > 100000) throw new InvalidDataException("Invalid premium currency amount.");
+            var currency = codeElement.TryGetProperty("currency", out _)
+                ? RequiredText(codeElement, "currency", 32)
+                : string.Empty;
+            if ((amount == 0) != string.IsNullOrEmpty(currency))
+                throw new InvalidDataException("Incomplete premium currency metadata.");
+            codes.Add(new LauncherRedemptionCode(code, added, amount, currency));
+        }
+        return codes;
+    }
+
+    private static LauncherBannersCurrentPhase ParseCurrent(string game, JsonElement element, DateTimeOffset generatedAt)
     {
         RequireProperties(element, "phase", "start", "end", "remaining", "characters", "selectedCharacter", "selectedCharacterId", "selectionReason", "variants");
         var phase = NullableText(element, "phase", 48);
@@ -114,12 +207,15 @@ public static class LauncherBannersManifestParser
         if (RequiredDate(remaining, "startsAt") != start || RequiredDate(remaining, "endsAt") != end) throw new InvalidDataException("Launcher remaining bounds mismatch.");
         var remainingSeconds = RequiredLong(remaining, "durationSeconds");
         if (end <= start || remainingSeconds < 0) throw new InvalidDataException("Invalid launcher current window.");
+        var expectedRemainingSeconds = Math.Max(0, (long)Math.Floor((end - generatedAt).TotalSeconds));
+        if (remainingSeconds != expectedRemainingSeconds) throw new InvalidDataException("Launcher remaining countdown mismatch.");
         var charsElement = element.GetProperty("characters");
         if (charsElement.ValueKind is not JsonValueKind.Array || charsElement.GetArrayLength() > 20) throw new InvalidDataException("Invalid launcher characters.");
         var characters = charsElement.EnumerateArray().Select(character => ParseCharacter(game, character)).ToArray();
         var selectedId = NullableText(element, "selectedCharacterId", 96);
         var selectedElement = element.GetProperty("selectedCharacter");
         if (selectedElement.ValueKind is not JsonValueKind.Null and not JsonValueKind.Object) throw new InvalidDataException("Invalid selected launcher character.");
+        if ((selectedElement.ValueKind is JsonValueKind.Null) != (selectedId is null)) throw new InvalidDataException("Selected launcher character mismatch.");
         if (selectedElement.ValueKind is JsonValueKind.Object && ParseCharacter(game, selectedElement).Id != selectedId) throw new InvalidDataException("Selected launcher character mismatch.");
         var selectionReason = NullableText(element, "selectionReason", 64);
         var variants = ParseAssets(game, element.GetProperty("variants"));
@@ -128,12 +224,25 @@ public static class LauncherBannersManifestParser
 
     private static LauncherBannersCharacter ParseCharacter(string game, JsonElement element)
     {
-        RequireProperties(element, "id", "name", "rarity", "limited", "debut", "variants");
+        RequireProperties(element, "id", "name", "rarity", "limited", "debut", "icon", "variants");
         var rarity = NullableInt(element, "rarity");
         if (rarity is < 1 or > 6) throw new InvalidDataException("Invalid launcher character rarity.");
         var limited = NullableBool(element, "limited");
         var debut = NullableDate(element, "debut");
-        return new LauncherBannersCharacter(RequiredText(element, "id", 96), RequiredText(element, "name", 80), rarity, limited, debut, ParseAssets(game, element.GetProperty("variants")));
+        LauncherBannersAsset? icon = null;
+        if (element.TryGetProperty("icon", out var iconElement)
+            && iconElement.ValueKind is not JsonValueKind.Null)
+        {
+            icon = ParseAsset(game, iconElement);
+        }
+        return new LauncherBannersCharacter(
+            RequiredText(element, "id", 96),
+            RequiredText(element, "name", 80),
+            rarity,
+            limited,
+            debut,
+            ParseAssets(game, element.GetProperty("variants")),
+            icon);
     }
 
     private static IReadOnlyList<LauncherBannersAsset> ParseAssets(string game, JsonElement element)
@@ -143,26 +252,37 @@ public static class LauncherBannersManifestParser
         var ids = new HashSet<string>(StringComparer.Ordinal);
         foreach (var item in element.EnumerateArray())
         {
-            RequireProperties(item, "id", "source", "path", "url", "mime", "size", "dimensions", "sha256", "transparentBounds", "placement");
-            var id = RequiredText(item, "id", 128);
+            var asset = ParseAsset(game, item);
+            var id = asset.Id;
             if (!ids.Add(id)) throw new InvalidDataException("Duplicate launcher asset id.");
-            var path = RequiredText(item, "path", 512);
-            if (!path.StartsWith('/') || path.Contains('\\') || path[1..].Split('/').Any(part => part is "" or "." or "..")) throw new InvalidDataException("Unsafe launcher asset path.");
-            var rawUrl = NullableText(item, "url", 2048);
-            Uri? url = null;
-            if (rawUrl is not null)
-            {
-                if (!Uri.TryCreate(rawUrl, UriKind.Absolute, out var parsed) || parsed.Scheme != Uri.UriSchemeHttps || !string.IsNullOrEmpty(parsed.UserInfo) || !parsed.IsDefaultPort || !parsed.Host.Equals("pengo.gg", StringComparison.OrdinalIgnoreCase)) throw new InvalidDataException("Unsafe launcher asset URL.");
-                url = parsed;
-            }
-            var dimensions = ParseDimensions(item.GetProperty("dimensions"));
-            var bounds = ParseBounds(item.GetProperty("transparentBounds"), dimensions);
-            var placement = ParsePlacement(item.GetProperty("placement"));
-            var size = RequiredLong(item, "size");
-            if (size is <= 0 or > LauncherBannersTransport.MaximumAssetBytes) throw new InvalidDataException("Invalid launcher asset size.");
-            assets.Add(new LauncherBannersAsset(id, RequiredText(item, "source", 64), path, url, RequiredText(item, "mime", 16), size, dimensions, RequiredText(item, "sha256", 64), bounds, placement));
+            assets.Add(asset);
         }
         return assets;
+    }
+
+    private static LauncherBannersAsset ParseAsset(string game, JsonElement item)
+    {
+        RequireProperties(item, "id", "source", "path", "url", "mime", "size", "dimensions", "sha256", "transparentBounds", "placement");
+        var id = RequiredText(item, "id", 128);
+        var path = RequiredText(item, "path", 512);
+        if (!path.StartsWith('/') || path.Contains('\\') || path[1..].Split('/').Any(part => part is "" or "." or "..")) throw new InvalidDataException("Unsafe launcher asset path.");
+        var rawUrl = NullableText(item, "url", 2048);
+        Uri? url = null;
+        if (rawUrl is not null)
+        {
+            if (!Uri.TryCreate(rawUrl, UriKind.Absolute, out var parsed) || parsed.Scheme != Uri.UriSchemeHttps || !string.IsNullOrEmpty(parsed.UserInfo) || !parsed.IsDefaultPort || !parsed.Host.Equals("pengo.gg", StringComparison.OrdinalIgnoreCase)) throw new InvalidDataException("Unsafe launcher asset URL.");
+            url = parsed;
+        }
+        var dimensions = ParseDimensions(item.GetProperty("dimensions"));
+        var bounds = ParseBounds(item.GetProperty("transparentBounds"), dimensions);
+        var placement = ParsePlacement(item.GetProperty("placement"));
+        var size = RequiredLong(item, "size");
+        if (size is <= 0 or > LauncherBannersTransport.MaximumAssetBytes) throw new InvalidDataException("Invalid launcher asset size.");
+        var mime = RequiredText(item, "mime", 16);
+        if (mime is not ("image/webp" or "image/png")) throw new InvalidDataException("Invalid launcher asset MIME.");
+        var sha256 = RequiredText(item, "sha256", 64);
+        if (sha256.Length != 64 || sha256.Any(character => !Uri.IsHexDigit(character))) throw new InvalidDataException("Invalid launcher asset hash.");
+        return new LauncherBannersAsset(id, RequiredText(item, "source", 64), path, url, mime, size, dimensions, sha256, bounds, placement);
     }
 
     private static LauncherBannersDimensions ParseDimensions(JsonElement element)

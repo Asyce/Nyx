@@ -11,10 +11,12 @@ public sealed class LauncherBannersContentService : IAsyncDisposable
     private readonly byte[] bundledPayload;
     private readonly string bundledAssetsDirectory;
     private readonly Uri endpoint;
+    private readonly Uri codesEndpoint;
     private readonly Func<DateTimeOffset> clock;
     private readonly TimeSpan interval;
     private readonly CancellationTokenSource shutdown = new();
     private LauncherBannersManifest current;
+    private LauncherCodesManifest? currentCodes;
     private Task? refresh;
     private Task? pump;
     private bool automaticRefreshEnabled;
@@ -27,7 +29,8 @@ public sealed class LauncherBannersContentService : IAsyncDisposable
         ILauncherBannersTransport? transport = null,
         Func<DateTimeOffset>? clock = null,
         TimeSpan? interval = null,
-        string? bundledAssetsDirectory = null)
+        string? bundledAssetsDirectory = null,
+        Uri? codesEndpoint = null)
         : this(
             bundledPayload,
             new LauncherBannersCache(cacheDirectory),
@@ -35,7 +38,8 @@ public sealed class LauncherBannersContentService : IAsyncDisposable
             transport,
             clock,
             interval,
-            bundledAssetsDirectory)
+            bundledAssetsDirectory,
+            codesEndpoint)
     {
     }
 
@@ -46,23 +50,33 @@ public sealed class LauncherBannersContentService : IAsyncDisposable
         ILauncherBannersTransport? transport,
         Func<DateTimeOffset>? clock,
         TimeSpan? interval,
-        string? bundledAssetsDirectory)
+        string? bundledAssetsDirectory,
+        Uri? codesEndpoint = null)
     {
         this.bundledPayload = bundledPayload?.ToArray() ?? throw new ArgumentNullException(nameof(bundledPayload));
         this.cache = cache ?? throw new ArgumentNullException(nameof(cache));
         this.bundledAssetsDirectory = Path.GetFullPath(bundledAssetsDirectory ?? Path.Combine(AppContext.BaseDirectory, "Assets", "Content", "launcher-art"));
         this.endpoint = endpoint ?? new Uri(LauncherBannersTransport.ProductionEndpoint);
         LauncherBannersTransport.ValidateEndpoint(this.endpoint, allowConfigured: true, requireJson: true);
+        this.codesEndpoint = codesEndpoint ?? new Uri(LauncherBannersTransport.ProductionCodesEndpoint);
+        LauncherBannersTransport.ValidateEndpoint(this.codesEndpoint, allowConfigured: true, requireJson: true);
         this.transport = transport ?? new LauncherBannersTransport();
         this.clock = clock ?? (() => DateTimeOffset.UtcNow);
         this.interval = interval ?? TimeSpan.FromHours(6);
         if (this.interval < TimeSpan.FromMinutes(15)) throw new ArgumentOutOfRangeException(nameof(interval));
         current = cache.TryLoadLastKnownGood(this.clock()) ?? LauncherBannersManifestParser.Parse(this.bundledPayload, fallback: true, this.clock());
+        currentCodes = cache.TryLoadLastKnownGoodCodes(this.clock());
+        if (currentCodes is not null) current = ApplyCodes(current, currentCodes);
     }
 
     public LauncherBannersManifest Current
     {
-        get { lock (sync) return current; }
+        get
+        {
+            LauncherBannersManifest snapshot;
+            lock (sync) snapshot = current;
+            return snapshot.ForDisplayAt(clock());
+        }
     }
 
     public event EventHandler? Updated;
@@ -108,24 +122,73 @@ public sealed class LauncherBannersContentService : IAsyncDisposable
 
     private async Task RunRefreshAsync()
     {
+        var changed = false;
         try
         {
             var payload = await transport.GetManifestAsync(endpoint, LauncherBannersTransport.MaximumManifestBytes, shutdown.Token).ConfigureAwait(false);
             var manifest = LauncherBannersManifestParser.Parse(payload, fallback: false, clock());
             await cache.PromoteAsync(manifest, payload, transport, bundledAssetsDirectory, shutdown.Token).ConfigureAwait(false);
-            if (shutdown.IsCancellationRequested) return;
-            lock (sync) current = manifest;
-            Updated?.Invoke(this, EventArgs.Empty);
+            if (!shutdown.IsCancellationRequested)
+            {
+                lock (sync) current = currentCodes is null ? manifest : ApplyCodes(manifest, currentCodes);
+                changed = true;
+            }
         }
         catch (Exception exception) when (exception is not OperationCanceledException || !shutdown.IsCancellationRequested)
         {
             // Keep the current snapshot. If startup loaded a corrupt cache, the
             // bundled parser already supplied the complete last-resort payload.
         }
+        try
+        {
+            var payload = await transport.GetManifestAsync(codesEndpoint, LauncherBannersTransport.MaximumManifestBytes, shutdown.Token).ConfigureAwait(false);
+            var codes = LauncherBannersManifestParser.ParseCodes(payload, fallback: false, clock());
+            if (shutdown.IsCancellationRequested) return;
+            lock (sync)
+            {
+                if (currentCodes is not null && codes.GeneratedAt <= currentCodes.GeneratedAt)
+                    throw new InvalidDataException("Launcher codes generation did not advance.");
+            }
+            await cache.PromoteCodesAsync(codes, payload, shutdown.Token).ConfigureAwait(false);
+            if (shutdown.IsCancellationRequested) return;
+            lock (sync)
+            {
+                if (currentCodes is not null && codes.GeneratedAt <= currentCodes.GeneratedAt)
+                    throw new InvalidDataException("Launcher codes generation did not advance.");
+                currentCodes = codes;
+                current = ApplyCodes(current, codes);
+            }
+            changed = true;
+        }
+        catch (Exception exception) when (exception is not OperationCanceledException || !shutdown.IsCancellationRequested)
+        {
+            // Keep the bundled or last successfully refreshed codes.
+        }
         finally
         {
+            if (changed) Updated?.Invoke(this, EventArgs.Empty);
             lock (sync) refresh = null;
         }
+    }
+
+    private static LauncherBannersManifest ApplyCodes(LauncherBannersManifest bannerManifest, LauncherCodesManifest codesManifest)
+    {
+        var games = bannerManifest.Games.ToDictionary(
+            pair => pair.Key,
+            pair => new LauncherBannersGame(
+                pair.Value.GameId,
+                pair.Value.Region,
+                pair.Value.Current,
+                pair.Value.News,
+                pair.Value.Upcoming,
+                codesManifest.Games[pair.Key]),
+            StringComparer.Ordinal);
+        return new LauncherBannersManifest(
+            bannerManifest.SchemaVersion,
+            bannerManifest.Revision,
+            bannerManifest.GeneratedAt,
+            bannerManifest.Health,
+            games);
     }
 
     private async Task PumpAsync()

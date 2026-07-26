@@ -5,6 +5,7 @@ public static class PullExportErrorCodes
 {
     public const string UnsupportedGame = "pulls-unsupported";
     public const string HistoryNotFound = "pulls-history-not-found";
+    public const string HistoryNotUpdated = "pulls-history-not-updated";
     public const string CacheTooLarge = "pulls-cache-too-large";
     public const string InvalidHistoryLink = "pulls-history-link-invalid";
     public const string UpstreamRejected = "pulls-upstream-rejected";
@@ -30,6 +31,7 @@ public sealed class PullExportException : Exception
     private static bool IsKnown(string value) => value is
         PullExportErrorCodes.UnsupportedGame or
         PullExportErrorCodes.HistoryNotFound or
+        PullExportErrorCodes.HistoryNotUpdated or
         PullExportErrorCodes.CacheTooLarge or
         PullExportErrorCodes.InvalidHistoryLink or
         PullExportErrorCodes.UpstreamRejected or

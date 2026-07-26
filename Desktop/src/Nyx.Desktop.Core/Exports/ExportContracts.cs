@@ -55,9 +55,9 @@ public static class ExportProviderCatalog
         var enabled = gameId switch
         {
             "gi" => (flags.GiPulls ? ExportKind.Pulls : ExportKind.None)
-                | (flags.GiAchievements ? ExportKind.Achievements : ExportKind.None),
+                | (flags.GiAchievements && flags.AchievementHelperReady ? ExportKind.Achievements : ExportKind.None),
             "hsr" => (flags.HsrPulls ? ExportKind.Pulls : ExportKind.None)
-                | (flags.HsrAchievements ? ExportKind.Achievements : ExportKind.None),
+                | (flags.HsrAchievements && flags.AchievementHelperReady ? ExportKind.Achievements : ExportKind.None),
             "zzz" => (flags.ZzzPulls ? ExportKind.Pulls : ExportKind.None)
                 | (flags.ZzzAchievements ? ExportKind.Achievements : ExportKind.None),
             "wuwa" => (flags.WuWaPulls ? ExportKind.Pulls : ExportKind.None)
@@ -100,8 +100,6 @@ public sealed record ExportArmSnapshot(
 public enum ExportTaskState
 {
     NotRequested,
-    WaitingForWorld,
-    WaitingForHistory,
     Preparing,
     Running,
     Succeeded,
@@ -162,102 +160,16 @@ public sealed record ExportLaunchResult(
     Guid JobId,
     ExportJobSnapshot Snapshot);
 
-public interface IExportSignalWaiter
-{
-    ValueTask WaitForHistoryAsync(string gameId, CancellationToken cancellationToken);
-    ValueTask WaitForWorldReadyAsync(string gameId, CancellationToken cancellationToken);
-}
-
-public sealed class ImmediateExportSignalWaiter : IExportSignalWaiter
-{
-    public ValueTask WaitForHistoryAsync(string gameId, CancellationToken cancellationToken) => ValueTask.CompletedTask;
-    public ValueTask WaitForWorldReadyAsync(string gameId, CancellationToken cancellationToken) => ValueTask.CompletedTask;
-}
-
-/// <summary>
-/// User confirmations are one-shot and release only work that is already waiting.
-/// A click can never arm a later export or start provider work by itself.
-/// </summary>
-public sealed class UserConfirmedExportSignalWaiter : IExportSignalWaiter
-{
-    private readonly ConcurrentDictionary<(string GameId, ExportSignalKind Kind), SignalGate> gates = new();
-
-    public ValueTask WaitForHistoryAsync(string gameId, CancellationToken cancellationToken) =>
-        GetGate(gameId, ExportSignalKind.History).WaitAsync(cancellationToken);
-
-    public ValueTask WaitForWorldReadyAsync(string gameId, CancellationToken cancellationToken) =>
-        GetGate(gameId, ExportSignalKind.World).WaitAsync(cancellationToken);
-
-    public bool ConfirmHistory(string gameId) => GetGate(gameId, ExportSignalKind.History).TrySignal();
-
-    public bool ConfirmWorldReady(string gameId) => GetGate(gameId, ExportSignalKind.World).TrySignal();
-
-    private SignalGate GetGate(string gameId, ExportSignalKind kind)
-    {
-        ArgumentException.ThrowIfNullOrWhiteSpace(gameId);
-        return gates.GetOrAdd((gameId, kind), static _ => new SignalGate());
-    }
-
-    private enum ExportSignalKind { World, History }
-
-    private sealed class SignalGate
-    {
-        private readonly object sync = new();
-        private readonly LinkedList<Waiter> waiters = new();
-
-        public async ValueTask WaitAsync(CancellationToken cancellationToken)
-        {
-            cancellationToken.ThrowIfCancellationRequested();
-            var waiter = new Waiter(cancellationToken);
-            lock (sync) waiter.Node = waiters.AddLast(waiter);
-            using var registration = cancellationToken.Register(static state =>
-            {
-                var (gate, pending) = ((SignalGate Gate, Waiter Waiter))state!;
-                gate.Cancel(pending);
-            }, (this, waiter));
-            await waiter.Completion.Task.ConfigureAwait(false);
-        }
-
-        public bool TrySignal()
-        {
-            lock (sync)
-            {
-                while (waiters.First is { } node)
-                {
-                    waiters.RemoveFirst();
-                    node.Value.Node = null;
-                    if (node.Value.Completion.TrySetResult()) return true;
-                }
-            }
-            return false;
-        }
-
-        private void Cancel(Waiter waiter)
-        {
-            lock (sync)
-            {
-                if (waiter.Node?.List == waiters) waiters.Remove(waiter.Node);
-                waiter.Node = null;
-            }
-            waiter.Completion.TrySetCanceled(waiter.CancellationToken);
-        }
-
-        private sealed class Waiter(CancellationToken cancellationToken)
-        {
-            public CancellationToken CancellationToken { get; } = cancellationToken;
-            public TaskCompletionSource Completion { get; } =
-                new(TaskCreationOptions.RunContinuationsAsynchronously);
-            public LinkedListNode<Waiter>? Node { get; set; }
-        }
-    }
-}
-
 public interface IPullExportProvider
 {
-    ValueTask<ExportArtifactMetadata> SnapshotAsync(
+    ValueTask<IPullExportSession> PrepareAsync(
         string gameId,
-        IExportSignalWaiter signals,
         CancellationToken cancellationToken);
+}
+
+public interface IPullExportSession : IAsyncDisposable
+{
+    ValueTask<ExportArtifactMetadata> ExportAsync(CancellationToken cancellationToken);
 }
 
 public interface IAchievementExportProvider
@@ -265,7 +177,6 @@ public interface IAchievementExportProvider
     ValueTask<IAchievementExportSession> StartAsync(
         string gameId,
         string? outputPath,
-        IExportSignalWaiter signals,
         CancellationToken cancellationToken);
 }
 
@@ -319,22 +230,21 @@ public sealed class ExportCoordinator : IAsyncDisposable
 {
     private readonly IPullExportProvider pulls;
     private readonly IAchievementExportProvider achievements;
-    private readonly IExportSignalWaiter signals;
     private readonly IExportStatusSink statusSink;
     private readonly TimeSpan achievementPrepareTimeout;
     private readonly ConcurrentDictionary<Guid, JobEntry> jobs = new();
+    private readonly object lifetimeSync = new();
+    private readonly TaskCompletionSource shutdownCompleted = new(TaskCreationOptions.RunContinuationsAsynchronously);
     private int closed;
 
     public ExportCoordinator(
         IPullExportProvider pulls,
         IAchievementExportProvider achievements,
-        IExportSignalWaiter? signals = null,
         IExportStatusSink? statusSink = null,
         TimeSpan? achievementPrepareTimeout = null)
     {
         this.pulls = pulls ?? throw new ArgumentNullException(nameof(pulls));
         this.achievements = achievements ?? throw new ArgumentNullException(nameof(achievements));
-        this.signals = signals ?? new ImmediateExportSignalWaiter();
         this.statusSink = statusSink ?? new NullExportStatusSink();
         this.achievementPrepareTimeout = achievementPrepareTimeout ?? TimeSpan.FromSeconds(20);
         if (this.achievementPrepareTimeout <= TimeSpan.Zero) throw new ArgumentOutOfRangeException(nameof(achievementPrepareTimeout));
@@ -355,11 +265,34 @@ public sealed class ExportCoordinator : IAsyncDisposable
         var requested = arm.RequestedKinds & capability.SupportedKinds;
         var unsupported = arm.RequestedKinds & ~capability.SupportedKinds;
         var entry = new JobEntry(Guid.NewGuid(), arm.GameId, arm, requested, unsupported);
-        jobs[entry.Snapshot.JobId] = entry;
+        lock (lifetimeSync)
+        {
+            ObjectDisposedException.ThrowIf(closed != 0, this);
+            jobs[entry.Snapshot.JobId] = entry;
+        }
         await PublishAsync(entry, "job", ExportJobState.PendingLaunch.ToString(), null, cancellationToken).ConfigureAwait(false);
 
-        // Achievement preparation is a bounded preflight. It is deliberately
-        // independent from pulls, and its failure/timeout never vetoes launch.
+        // Pull baseline and achievement preparation are independent preflights.
+        // Neither can veto launch or the other export lane.
+        IPullExportSession? pullSession = null;
+        if ((requested & ExportKind.Pulls) != 0)
+        {
+            entry.BeginWorkers();
+            entry.SetPulls(ExportTaskState.Preparing);
+            await PublishAsync(entry, "pulls", ExportTaskState.Preparing.ToString(), null, CancellationToken.None).ConfigureAwait(false);
+            try
+            {
+                pullSession = await pulls.PrepareAsync(entry.GameId, entry.Token).ConfigureAwait(false);
+            }
+            catch (Exception exception)
+            {
+                var code = ExportErrorSanitizer.Code(exception);
+                entry.SetPulls(code == "canceled" ? ExportTaskState.Canceled : ExportTaskState.Failed, errorCode: code);
+                entry.TryComplete();
+                await PublishAsync(entry, "pulls", entry.Snapshot.Pulls.State.ToString(), code, CancellationToken.None).ConfigureAwait(false);
+            }
+        }
+
         IAchievementExportSession? achievementSession = null;
         if ((requested & ExportKind.Achievements) != 0)
         {
@@ -373,7 +306,6 @@ public sealed class ExportCoordinator : IAsyncDisposable
                 achievementSession = await achievements.StartAsync(
                     entry.GameId,
                     null,
-                    signals,
                     entry.Token).ConfigureAwait(false);
                 await achievementSession.Ready.WaitAsync(timeout.Token).ConfigureAwait(false);
                 entry.SetAchievements(ExportTaskState.Running);
@@ -401,6 +333,7 @@ public sealed class ExportCoordinator : IAsyncDisposable
         catch (Exception) { admitted = false; }
         if (!admitted)
         {
+            if (pullSession is not null) await pullSession.DisposeAsync().ConfigureAwait(false);
             if (achievementSession is not null) await achievementSession.DisposeAsync().ConfigureAwait(false);
             entry.Cancel(forceComplete: true);
             await PublishAsync(entry, "job", ExportJobState.Canceled.ToString(), "launch-not-admitted", CancellationToken.None).ConfigureAwait(false);
@@ -418,11 +351,7 @@ public sealed class ExportCoordinator : IAsyncDisposable
             return new(true, entry.Snapshot.JobId, entry.Snapshot);
         }
 
-        if ((requested & ExportKind.Pulls) != 0)
-        {
-            entry.BeginWorkers();
-            _ = Task.Run(() => RunPullsAsync(entry));
-        }
+        if (pullSession is not null) _ = Task.Run(() => RunPullsAsync(entry, pullSession));
         return new(true, entry.Snapshot.JobId, entry.Snapshot);
     }
 
@@ -435,22 +364,36 @@ public sealed class ExportCoordinator : IAsyncDisposable
 
     public async ValueTask DisposeAsync()
     {
-        if (Interlocked.Exchange(ref closed, 1) != 0) return;
-        foreach (var entry in jobs.Values.Where(static entry => !entry.Snapshot.IsFinished)) entry.Cancel();
-        var pending = jobs.Values.Select(static entry => entry.Completion).ToArray();
-        if (pending.Length != 0) await Task.WhenAll(pending).ConfigureAwait(false);
-    }
-
-    private async Task RunPullsAsync(JobEntry entry)
-    {
-        entry.SetPulls(ExportTaskState.WaitingForHistory);
-        await PublishAsync(entry, "pulls", ExportTaskState.WaitingForHistory.ToString(), null, CancellationToken.None).ConfigureAwait(false);
+        JobEntry[]? entries = null;
+        lock (lifetimeSync)
+        {
+            if (closed == 0)
+            {
+                closed = 1;
+                entries = jobs.Values.ToArray();
+            }
+        }
+        if (entries is null)
+        {
+            await shutdownCompleted.Task.ConfigureAwait(false);
+            return;
+        }
         try
         {
-            await signals.WaitForHistoryAsync(entry.GameId, entry.Token).ConfigureAwait(false);
+            foreach (var entry in entries.Where(static entry => !entry.Snapshot.IsFinished)) entry.Cancel();
+            var pending = entries.Select(static entry => entry.Completion).ToArray();
+            if (pending.Length != 0) await Task.WhenAll(pending).ConfigureAwait(false);
+        }
+        finally { shutdownCompleted.TrySetResult(); }
+    }
+
+    private async Task RunPullsAsync(JobEntry entry, IPullExportSession session)
+    {
+        try
+        {
             entry.SetPulls(ExportTaskState.Running);
             await PublishAsync(entry, "pulls", ExportTaskState.Running.ToString(), null, CancellationToken.None).ConfigureAwait(false);
-            var artifact = await pulls.SnapshotAsync(entry.GameId, signals, entry.Token).ConfigureAwait(false);
+            var artifact = await session.ExportAsync(entry.Token).ConfigureAwait(false);
             entry.SetPulls(ExportTaskState.Succeeded, artifact);
             await PublishAsync(entry, "pulls", ExportTaskState.Succeeded.ToString(), null, CancellationToken.None).ConfigureAwait(false);
         }
@@ -460,18 +403,17 @@ public sealed class ExportCoordinator : IAsyncDisposable
             entry.SetPulls(code == "canceled" ? ExportTaskState.Canceled : ExportTaskState.Failed, errorCode: code);
             await PublishAsync(entry, "pulls", entry.Snapshot.Pulls.State.ToString(), code, CancellationToken.None).ConfigureAwait(false);
         }
-        finally { entry.TryComplete(); }
+        finally
+        {
+            try { await session.DisposeAsync().ConfigureAwait(false); }
+            finally { entry.TryComplete(); }
+        }
     }
 
     private async Task CompleteAchievementsAsync(JobEntry entry, IAchievementExportSession session)
     {
         try
         {
-            entry.SetAchievements(ExportTaskState.WaitingForWorld);
-            await PublishAsync(entry, "achievements", ExportTaskState.WaitingForWorld.ToString(), null, CancellationToken.None).ConfigureAwait(false);
-            await signals.WaitForWorldReadyAsync(entry.GameId, entry.Token).ConfigureAwait(false);
-            entry.SetAchievements(ExportTaskState.Running);
-            await PublishAsync(entry, "achievements", ExportTaskState.Running.ToString(), null, CancellationToken.None).ConfigureAwait(false);
             var artifact = await session.Completion.ConfigureAwait(false);
             entry.SetAchievements(ExportTaskState.Succeeded, artifact);
             await PublishAsync(entry, "achievements", ExportTaskState.Succeeded.ToString(), null, CancellationToken.None).ConfigureAwait(false);
@@ -484,8 +426,8 @@ public sealed class ExportCoordinator : IAsyncDisposable
         }
         finally
         {
-            await session.DisposeAsync().ConfigureAwait(false);
-            entry.TryComplete();
+            try { await session.DisposeAsync().ConfigureAwait(false); }
+            finally { entry.TryComplete(); }
         }
     }
 

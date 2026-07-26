@@ -69,6 +69,7 @@ async function compileJsxBundle(files, outFile, prelude = '') {
 await ensureDir(distDir);
 await fs.rm(vendorDir, { recursive: true, force: true });
 await fs.rm(path.resolve(distDir, 'artwork-webp-manifest.js'), { force: true });
+await fs.rm(path.resolve(distDir, 'launcher-art'), { recursive: true, force: true });
 
 await copyFile(path.resolve(generatedDataDir, 'cm-data.js'), path.resolve(distDir, 'cm-data.js'));
 for (const entry of await fs.readdir(generatedDataDir)) {
@@ -78,14 +79,13 @@ for (const entry of await fs.readdir(generatedDataDir)) {
 }
 await copyFile(path.resolve(generatedDataDir, 'nyx-data.js'), path.resolve(distDir, 'nyx-data.js'));
 await copyFile(
-  path.resolve(generatedDataDir, 'launcher-content-v1.json'),
-  path.resolve(distDir, 'launcher-content-v1.json'),
+  path.resolve(generatedDataDir, 'launcher-codes-v1.json'),
+  path.resolve(distDir, 'launcher-codes-v1.json'),
 );
 await copyFile(
   path.resolve(generatedDataDir, 'launcher-banners-v1.json'),
   path.resolve(distDir, 'launcher-banners-v1.json'),
 );
-await fs.rm(path.resolve(distDir, 'launcher-art'), { recursive: true, force: true });
 await fs.cp(
   path.resolve(generatedDataDir, 'launcher-art'),
   path.resolve(distDir, 'launcher-art'),

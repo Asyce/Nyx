@@ -59,15 +59,15 @@ public sealed class WuWaMaintenanceUiTests
     }
 
     [Fact]
-    public void Open_official_is_visible_only_for_ready_or_exact_running_WuWa_state()
+    public void Open_official_stays_visible_but_is_enabled_only_for_ready_or_exact_running_WuWa_state()
     {
         var page = ReadAppFile("MainPage.xaml.cs");
         var renderStart = page.IndexOf("private void RenderWuWa", StringComparison.Ordinal);
         var renderEnd = page.IndexOf("private void RenderLaunchFailure", renderStart, StringComparison.Ordinal);
         var render = page[renderStart..renderEnd];
 
-        Assert.Contains("OpenUpdaterButton.Visibility = Visibility.Collapsed", render, StringComparison.Ordinal);
-        Assert.Equal(2, Count(render, "OpenUpdaterButton.Visibility = Visibility.Visible"));
+        Assert.DoesNotContain("OpenUpdaterButton.Visibility = Visibility.Collapsed", render, StringComparison.Ordinal);
+        Assert.Equal(3, Count(render, "OpenUpdaterButton.Visibility = Visibility.Visible"));
         Assert.Contains("case WuWaOfficialMaintenanceStatus.Ready", render, StringComparison.Ordinal);
         Assert.Contains("case WuWaOfficialMaintenanceStatus.Running", render, StringComparison.Ordinal);
         Assert.Contains("case WuWaOfficialMaintenanceStatus.Opened", render, StringComparison.Ordinal);
@@ -169,7 +169,8 @@ public sealed class WuWaMaintenanceUiTests
 
         Assert.Contains("if (selected.Id == \"wuwa\")", page, StringComparison.Ordinal);
         Assert.Contains("RenderEndfield(selected)", page, StringComparison.Ordinal);
-        Assert.Contains("ChooseGameFolderButton.Visibility = Visibility.Visible", page, StringComparison.Ordinal);
+        Assert.Contains("gameSnapshot?.Readiness is LocalReadinessEvidence.NotFound or LocalReadinessEvidence.NeedsReview", page, StringComparison.Ordinal);
+        Assert.Contains("\"FIND GAME CLIENT\"", page, StringComparison.Ordinal);
         Assert.Contains("OpenUpdaterButton.Visibility = Visibility.Visible", page, StringComparison.Ordinal);
         Assert.Contains("OpenEndfieldMaintenanceAsync", page, StringComparison.Ordinal);
         var officialStart = page.IndexOf("private async void OpenUpdaterButton_Click", StringComparison.Ordinal);

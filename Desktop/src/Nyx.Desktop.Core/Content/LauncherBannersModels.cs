@@ -4,6 +4,8 @@ namespace Nyx.Desktop.Core.Content;
 
 public sealed record LauncherBannersManifest
 {
+    private static readonly string[] CanonicalGames = ["gi", "hsr", "zzz", "wuwa", "ae"];
+
     public LauncherBannersManifest(
         int schemaVersion,
         string revision,
@@ -20,10 +22,11 @@ public sealed record LauncherBannersManifest
         var copy = new Dictionary<string, LauncherBannersGame>(StringComparer.Ordinal);
         foreach (var game in games ?? throw new ArgumentNullException(nameof(games)))
         {
-            if (game.Key is not ("gi" or "hsr" or "zzz" or "wuwa" or "ae") || game.Value is null) throw new InvalidDataException("Launcher manifest must use the canonical five games.");
+            if (!CanonicalGames.Contains(game.Key, StringComparer.Ordinal) || game.Value is null || game.Value.GameId != game.Key) throw new InvalidDataException("Launcher manifest must use the canonical five games.");
             copy.Add(game.Key, game.Value);
         }
         if (copy.Count != 5) throw new InvalidDataException("Launcher manifest must cover all five games.");
+        if (CanonicalGames.Any(game => !Health.Games.ContainsKey(game))) throw new InvalidDataException("Launcher health must match the canonical five games.");
         Games = new ReadOnlyDictionary<string, LauncherBannersGame>(copy);
     }
 
@@ -32,15 +35,50 @@ public sealed record LauncherBannersManifest
     public DateTimeOffset GeneratedAt { get; }
     public LauncherBannersHealth Health { get; }
     public IReadOnlyDictionary<string, LauncherBannersGame> Games { get; }
+
+    public LauncherBannersManifest ForDisplayAt(DateTimeOffset observedAt)
+    {
+        var overallHealthy = Health.Status == "ok";
+        var visibleGames = Games.ToDictionary(
+            pair => pair.Key,
+            pair =>
+            {
+                var game = pair.Value;
+                var healthy = overallHealthy
+                    && Health.Games.TryGetValue(pair.Key, out var gameHealth)
+                    && gameHealth.Status == "ok";
+                var current = healthy
+                    && game.Current is { } phase
+                    && phase.Start <= observedAt
+                    && observedAt < phase.End
+                        ? phase
+                        : null;
+                var upcoming = healthy
+                    ? game.Upcoming.Where(phase => phase.Start > observedAt).ToArray()
+                    : [];
+                return new LauncherBannersGame(game.GameId, game.Region, current, game.News, upcoming, game.Codes);
+            },
+            StringComparer.Ordinal);
+        return new LauncherBannersManifest(SchemaVersion, Revision, GeneratedAt, Health, visibleGames);
+    }
 }
 
 public sealed record LauncherBannersHealth
 {
+    private static readonly string[] CanonicalGames = ["gi", "hsr", "zzz", "wuwa", "ae"];
+
     public LauncherBannersHealth(string status, IReadOnlyDictionary<string, LauncherBannersGameHealth> games)
     {
         if (status is not ("ok" or "degraded" or "unavailable")) throw new ArgumentOutOfRangeException(nameof(status));
         Status = status;
-        Games = new ReadOnlyDictionary<string, LauncherBannersGameHealth>((games ?? throw new ArgumentNullException(nameof(games))).ToDictionary(pair => pair.Key, pair => pair.Value, StringComparer.Ordinal));
+        var copy = new Dictionary<string, LauncherBannersGameHealth>(StringComparer.Ordinal);
+        foreach (var game in games ?? throw new ArgumentNullException(nameof(games)))
+        {
+            if (!CanonicalGames.Contains(game.Key, StringComparer.Ordinal) || game.Value is null) throw new InvalidDataException("Launcher health must use the canonical five games.");
+            copy.Add(game.Key, game.Value);
+        }
+        if (copy.Count != CanonicalGames.Length) throw new InvalidDataException("Launcher health must cover all five games.");
+        Games = new ReadOnlyDictionary<string, LauncherBannersGameHealth>(copy);
     }
 
     public string Status { get; }
@@ -65,7 +103,13 @@ public sealed record LauncherBannersGameHealth
 
 public sealed record LauncherBannersGame
 {
-    public LauncherBannersGame(string gameId, string region, LauncherBannersCurrentPhase? current, IReadOnlyList<LauncherBannersNewsItem> news)
+    public LauncherBannersGame(
+        string gameId,
+        string region,
+        LauncherBannersCurrentPhase? current,
+        IReadOnlyList<LauncherBannersNewsItem> news,
+        IReadOnlyList<LauncherBannersUpcomingPhase>? upcoming = null,
+        IReadOnlyList<LauncherRedemptionCode>? codes = null)
     {
         if (gameId is not ("gi" or "hsr" or "zzz" or "wuwa" or "ae")) throw new ArgumentOutOfRangeException(nameof(gameId));
         if (region is not ("global" or "america" or "europe" or "asia")) throw new ArgumentOutOfRangeException(nameof(region));
@@ -73,12 +117,69 @@ public sealed record LauncherBannersGame
         Region = region;
         Current = current;
         News = new ReadOnlyCollection<LauncherBannersNewsItem>((news ?? throw new ArgumentNullException(nameof(news))).ToArray());
+        var future = (upcoming ?? []).ToArray();
+        if (future.Any(phase => phase is null)) throw new InvalidDataException("Launcher upcoming phases cannot contain null entries.");
+        var windows = future
+            .Select(phase => (phase.Start, phase.End))
+            .Concat(current is null ? [] : [(current.Start, current.End)])
+            .OrderBy(window => window.Start)
+            .ThenBy(window => window.End)
+            .ToArray();
+        for (var index = 1; index < windows.Length; index++)
+        {
+            if (windows[index].Start < windows[index - 1].End) throw new InvalidDataException("Launcher banner phase windows overlap.");
+        }
+        Upcoming = new ReadOnlyCollection<LauncherBannersUpcomingPhase>(future);
+        Codes = new ReadOnlyCollection<LauncherRedemptionCode>((codes ?? []).ToArray());
     }
 
     public string GameId { get; }
     public string Region { get; }
     public LauncherBannersCurrentPhase? Current { get; }
     public IReadOnlyList<LauncherBannersNewsItem> News { get; }
+    public IReadOnlyList<LauncherBannersUpcomingPhase> Upcoming { get; }
+    public IReadOnlyList<LauncherRedemptionCode> Codes { get; }
+}
+
+public sealed record LauncherRedemptionCode(
+    string Code,
+    DateOnly Added,
+    int CurrencyAmount,
+    string CurrencyName)
+{
+    public LauncherRedemptionCode(string code, DateOnly added)
+        : this(code, added, 0, string.Empty)
+    {
+    }
+}
+
+public sealed record LauncherCodesManifest(
+    int SchemaVersion,
+    string Revision,
+    DateTimeOffset GeneratedAt,
+    IReadOnlyDictionary<string, IReadOnlyList<LauncherRedemptionCode>> Games);
+
+public sealed record LauncherBannersUpcomingPhase
+{
+    public LauncherBannersUpcomingPhase(
+        string? phase,
+        DateTimeOffset start,
+        DateTimeOffset end,
+        IReadOnlyList<LauncherBannersCharacter> characters)
+    {
+        if (end <= start) throw new ArgumentOutOfRangeException(nameof(end));
+        var copy = (characters ?? throw new ArgumentNullException(nameof(characters))).ToArray();
+        if (copy.Any(character => character is null) || copy.Select(character => character.Id).Distinct(StringComparer.Ordinal).Count() != copy.Length) throw new InvalidDataException("Launcher phase characters must be unique.");
+        Phase = phase;
+        Start = start;
+        End = end;
+        Characters = new ReadOnlyCollection<LauncherBannersCharacter>(copy);
+    }
+
+    public string? Phase { get; }
+    public DateTimeOffset Start { get; }
+    public DateTimeOffset End { get; }
+    public IReadOnlyList<LauncherBannersCharacter> Characters { get; }
 }
 
 public sealed record LauncherBannersCurrentPhase
@@ -95,11 +196,13 @@ public sealed record LauncherBannersCurrentPhase
     {
         if (end <= start) throw new ArgumentOutOfRangeException(nameof(end));
         if (remainingSeconds < 0) throw new ArgumentOutOfRangeException(nameof(remainingSeconds));
+        var characterCopy = (characters ?? throw new ArgumentNullException(nameof(characters))).ToArray();
+        if (characterCopy.Any(character => character is null) || characterCopy.Select(character => character.Id).Distinct(StringComparer.Ordinal).Count() != characterCopy.Length) throw new InvalidDataException("Launcher phase characters must be unique.");
         Phase = phase;
         Start = start;
         End = end;
         RemainingSeconds = remainingSeconds;
-        Characters = new ReadOnlyCollection<LauncherBannersCharacter>((characters ?? throw new ArgumentNullException(nameof(characters))).ToArray());
+        Characters = new ReadOnlyCollection<LauncherBannersCharacter>(characterCopy);
         SelectedCharacterId = selectedCharacterId;
         SelectionReason = selectionReason;
         Variants = new ReadOnlyCollection<LauncherBannersAsset>((variants ?? throw new ArgumentNullException(nameof(variants))).ToArray());
@@ -118,12 +221,19 @@ public sealed record LauncherBannersCurrentPhase
 
 public sealed record LauncherBannersCharacter
 {
-    public LauncherBannersCharacter(string id, string name, int? rarity, bool? limited, DateTimeOffset? debut, IReadOnlyList<LauncherBannersAsset> variants)
+    public LauncherBannersCharacter(
+        string id,
+        string name,
+        int? rarity,
+        bool? limited,
+        DateTimeOffset? debut,
+        IReadOnlyList<LauncherBannersAsset> variants,
+        LauncherBannersAsset? icon = null)
     {
         if (string.IsNullOrWhiteSpace(id) || id.Length > 96 || id.Any(char.IsControl)) throw new ArgumentOutOfRangeException(nameof(id));
         if (string.IsNullOrWhiteSpace(name) || name.Length > 80 || name.Any(char.IsControl)) throw new ArgumentOutOfRangeException(nameof(name));
         if (rarity is < 1 or > 6) throw new ArgumentOutOfRangeException(nameof(rarity));
-        Id = id; Name = name; Rarity = rarity; Limited = limited; Debut = debut;
+        Id = id; Name = name; Rarity = rarity; Limited = limited; Debut = debut; Icon = icon;
         Variants = new ReadOnlyCollection<LauncherBannersAsset>((variants ?? throw new ArgumentNullException(nameof(variants))).ToArray());
     }
 
@@ -132,6 +242,7 @@ public sealed record LauncherBannersCharacter
     public int? Rarity { get; }
     public bool? Limited { get; }
     public DateTimeOffset? Debut { get; }
+    public LauncherBannersAsset? Icon { get; }
     public IReadOnlyList<LauncherBannersAsset> Variants { get; }
 }
 

@@ -3,6 +3,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
+import { cacheStampForCommit, selectDeployCommit } from './deploy-commit.mjs';
 import { publishRuntimeData } from './publish-runtime-data.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -107,8 +108,8 @@ async function copyReferencedDatabaseAssets() {
 }
 
 async function writeVersionFile() {
-  const commit = process.env.PENGO_DEPLOY_COMMIT || process.env.GITHUB_SHA || await gitValue(['rev-parse', 'HEAD']);
-  const shortCommit = commit ? commit.slice(0, 8) : await gitValue(['rev-parse', '--short', 'HEAD']);
+  const commit = deployCommit;
+  const shortCommit = commit.slice(0, 8);
   const branch = process.env.PENGO_DEPLOY_BRANCH || process.env.GITHUB_REF_NAME || await gitValue(['branch', '--show-current']);
   const version = {
     app: 'pengo-nyx',
@@ -119,6 +120,12 @@ async function writeVersionFile() {
   };
   await fs.writeFile(path.resolve(deployDir, 'version.json'), JSON.stringify(version, null, 2) + '\n');
 }
+
+const deployCommit = selectDeployCommit({
+  explicitCommit: process.env.PENGO_DEPLOY_COMMIT,
+  gitHead: await gitValue(['rev-parse', 'HEAD']),
+  githubSha: process.env.GITHUB_SHA,
+});
 
 try {
   await fs.rm(deployDir, { recursive: true, force: true });
@@ -136,8 +143,7 @@ await ensureDir(deployDir);
 // Pages carry a hand-maintained `?v=` cache-buster on script/style URLs; browsers
 // keep the old bundle when it isn't bumped. The deploy copy stamps it with the
 // commit so every deploy invalidates caches; source pages stay untouched for dev.
-const stampCommit = process.env.PENGO_DEPLOY_COMMIT || process.env.GITHUB_SHA || await gitValue(['rev-parse', 'HEAD']);
-const cacheStamp = (stampCommit || String(Date.now())).slice(0, 12);
+const cacheStamp = cacheStampForCommit(deployCommit);
 for (const page of await fs.readdir(path.resolve(siteDir, 'pages'))) {
   if (page.endsWith('.html')) {
     const html = await fs.readFile(path.resolve(siteDir, 'pages', page), 'utf8');

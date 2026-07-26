@@ -23,13 +23,21 @@ public sealed class GenshinGameSessionAdapter : IGameSessionAdapter
     public GenshinGameSessionAdapter(
         WindowsGenshinCandidateDiscovery discovery,
         GenshinInspectionAdapter inspectionAdapter,
-        GenshinLaunchService launchService)
+        GenshinLaunchService launchService,
+        Func<string?>? locateManualRoot = null)
     {
         ArgumentNullException.ThrowIfNull(discovery);
         ArgumentNullException.ThrowIfNull(inspectionAdapter);
         ArgumentNullException.ThrowIfNull(launchService);
 
-        discover = discovery.Discover;
+        discover = () =>
+        {
+            var automatic = discovery.Discover();
+            var manual = locateManualRoot?.Invoke();
+            return string.IsNullOrWhiteSpace(manual)
+                ? automatic
+                : new GenshinDiscoveryResult(manual, automatic.UpdaterRoot);
+        };
         inspect = root => inspectionAdapter.InspectGame(root, GenshinPathOrigin.PreviouslySaved);
         check = launchService.CheckGame;
         launch = launchService.LaunchGame;

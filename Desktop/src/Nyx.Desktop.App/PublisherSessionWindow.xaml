@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="Nyx_Desktop_App.PublisherSessionWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid Background="#F40B0815">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="48" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="42" />
+        </Grid.RowDefinitions>
+
+        <Grid x:Name="TitleBarDrag" Padding="18,0,12,0" Background="#CC120D22">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <Image Width="34" Height="34" Source="ms-appx:///Assets/Iris/nyx-logo.png" Stretch="Uniform" />
+            <StackPanel Grid.Column="1" Margin="12,0,0,0" VerticalAlignment="Center" Orientation="Horizontal" Spacing="8">
+                <TextBlock FontFamily="Segoe UI Variable Display" FontSize="15" FontWeight="SemiBold" Foreground="#FFF8F5FF" Text="NYX" />
+                <TextBlock x:Name="WindowHeading" FontFamily="Segoe UI Variable Text" FontSize="14" Foreground="#FFC9C1D9" Text="Publisher connection" />
+            </StackPanel>
+            <Button
+                Grid.Column="2"
+                Width="34"
+                Height="30"
+                AutomationProperties.Name="Close publisher connection"
+                Click="CloseButton_Click"
+                Content="&#xE8BB;"
+                FontFamily="Segoe Fluent Icons"
+                Style="{StaticResource NyxQuietActionStyle}" />
+        </Grid>
+
+        <WebView2 x:Name="Browser" Grid.Row="1" DefaultBackgroundColor="#0B0815" />
+
+        <Grid Grid.Row="2" Padding="16,0" Background="#E8120D22">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <TextBlock
+                x:Name="StatusText"
+                VerticalAlignment="Center"
+                FontFamily="Segoe UI Variable Text"
+                FontSize="12"
+                Foreground="#FFC9C1D9"
+                Text="Use the official page. Nyx never sees your password." />
+            <Button
+                x:Name="DoneButton"
+                Grid.Column="1"
+                MinWidth="112"
+                Height="30"
+                Click="CloseButton_Click"
+                Content="DONE"
+                Style="{StaticResource NyxOfficialLauncherStyle}" />
+        </Grid>
+    </Grid>
+</Window>

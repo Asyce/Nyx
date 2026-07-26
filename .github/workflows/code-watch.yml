@@ -4,8 +4,8 @@ name: Code Watch Deploy
 # Normal cadence: hourly at :07.
 # Livestream window cadence: also runs at :37, using deep mode.
 # Windows are refreshed from official YouTube feeds before each mode decision.
-# Build/deploy/commit happen only when Database/Codes/codes.json has a semantic
-# code diff; timestamp-only checks leave the file untouched and exit cleanly.
+# Every automated commit is verified by a site build and smoke test before it
+# is pushed. Deploys still happen only for semantic code changes.
 
 on:
   workflow_dispatch:
@@ -44,17 +44,19 @@ jobs:
         run: node ./codes/detect-livestream-windows.cjs
 
       - name: Commit livestream windows
+        id: livestream_commit
         if: ${{ steps.livestream.outputs.changed == 'true' }}
         run: |
           git config user.name "pengo-bot"
           git config user.email "bot@pengo.gg"
           git add Scraper/codes/livestream-windows.json
           if git diff --cached --quiet; then
+            echo "committed=false" >> "$GITHUB_OUTPUT"
             echo "No livestream window changes to commit."
           else
             git commit -m "chore(codes): update livestream windows [skip ci]"
             git pull --rebase origin main
-            git push
+            echo "committed=true" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Decide watch mode
@@ -85,6 +87,7 @@ jobs:
         id: changes
         run: |
           if git diff --quiet -- Database/Codes/codes.json; then
+            echo "source_changed=false" >> "$GITHUB_OUTPUT"
             if [ "${{ inputs.force_deploy || false }}" = "true" ]; then
               echo "changed=true" >> "$GITHUB_OUTPUT"
               echo "No semantic code changes, but force_deploy=true; continuing to build/deploy."
@@ -94,6 +97,7 @@ jobs:
             fi
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "source_changed=true" >> "$GITHUB_OUTPUT"
             git diff --stat -- Database/Codes/codes.json
           fi
 
@@ -103,7 +107,7 @@ jobs:
         run: npm run validate
 
       - name: Ensure LFS objects resolved
-        if: ${{ steps.changes.outputs.changed == 'true' }}
+        if: ${{ steps.livestream_commit.outputs.committed == 'true' || steps.changes.outputs.changed == 'true' }}
         run: |
           for i in 1 2 3; do
             git lfs pull && break
@@ -116,36 +120,72 @@ jobs:
           done
 
       - name: Commit refreshed codes
-        if: ${{ steps.changes.outputs.changed == 'true' }}
+        id: codes_commit
+        if: ${{ steps.changes.outputs.source_changed == 'true' }}
         run: |
           git config user.name "pengo-bot"
           git config user.email "bot@pengo.gg"
           git add Database/Codes/codes.json
           if git diff --cached --quiet; then
+            echo "committed=false" >> "$GITHUB_OUTPUT"
             echo "No code changes to commit."
           else
             git commit -m "chore(data): codes watch refresh [skip ci]"
             git pull --rebase origin main
-            git push
+            echo "committed=true" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Install site deps
-        if: ${{ steps.changes.outputs.changed == 'true' }}
+        if: ${{ steps.livestream_commit.outputs.committed == 'true' || steps.changes.outputs.changed == 'true' }}
         working-directory: Site
         run: npm ci --no-audit --no-fund
 
-      - name: Build site
-        if: ${{ steps.changes.outputs.changed == 'true' }}
+      - name: Rebase before launcher snapshot
+        if: ${{ steps.livestream_commit.outputs.committed == 'true' || steps.changes.outputs.changed == 'true' }}
+        run: git pull --rebase origin main
+
+      - name: Refresh committed launcher snapshot
+        if: ${{ steps.livestream_commit.outputs.committed == 'true' || steps.changes.outputs.changed == 'true' }}
         working-directory: Site
+        run: npm run generate:data && npm run refresh:launcher
+
+      - name: Commit refreshed launcher snapshot
+        id: launcher_snapshot
+        if: ${{ steps.livestream_commit.outputs.committed == 'true' || steps.changes.outputs.changed == 'true' }}
+        run: |
+          git config user.name "pengo-bot"
+          git config user.email "bot@pengo.gg"
+          git add Site/src/data/generated/nyx-data.js Site/src/data/generated/launcher-codes-v1.json Site/src/data/generated/launcher-banners-v1.json
+          git add -A Site/src/data/generated/launcher-art
+          if git diff --cached --quiet; then
+            echo "::error::Launcher refresh produced no committed snapshot bytes."
+            exit 1
+          elif [ "${{ steps.livestream_commit.outputs.committed }}" = "true" ] || [ "${{ steps.codes_commit.outputs.committed }}" = "true" ]; then
+            git commit --amend --no-edit
+          else
+            git commit -m "chore(data): refresh launcher snapshot [skip ci]"
+          fi
+          echo "fresh=true" >> "$GITHUB_OUTPUT"
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: Build site
+        if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' }}
+        working-directory: Site
+        env:
+          PENGO_DEPLOY_COMMIT: ${{ steps.launcher_snapshot.outputs.sha }}
         run: npm run build:deploy
 
       - name: Smoke deploy artifact
-        if: ${{ steps.changes.outputs.changed == 'true' }}
+        if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' }}
         working-directory: Site
         run: npm run smoke:deploy
 
+      - name: Push verified changes
+        if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' }}
+        run: git push
+
       - name: Deploy to Cloudflare
-        if: ${{ steps.changes.outputs.changed == 'true' && env.CF_API_TOKEN != '' }}
+        if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' && steps.changes.outputs.changed == 'true' && env.CF_API_TOKEN != '' }}
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: npx --yes wrangler deploy

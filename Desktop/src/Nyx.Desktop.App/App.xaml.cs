@@ -1,4 +1,6 @@
+using Microsoft.UI.Windowing;
 using Microsoft.UI.Xaml;
+using Nyx.Desktop.Core.AccountStatus;
 using Nyx.Desktop.Core.Content;
 using Nyx.Desktop.Core.Recovery;
 using Nyx.Desktop.Core.Exports;
@@ -18,6 +20,7 @@ using Nyx.Desktop.Infrastructure.PublisherGames;
 using Nyx.Desktop.Infrastructure.Sessions;
 using Nyx.Desktop.Infrastructure.Recovery;
 using Nyx.Desktop.Infrastructure.State;
+using Nyx.Desktop.Infrastructure.AccountStatus;
 
 namespace Nyx_Desktop_App;
 
@@ -26,14 +29,16 @@ public partial class App : Application
     private Window? _window;
     private GameSessionCoordinator? _sessions;
     private GameSessionRefreshPump? _sessionRefresh;
-    private LatestContentService? _latestContent;
     private LauncherBannersContentService? _launcherBanners;
     private LauncherCacheService? _cache;
     private LauncherRecoveryService? _recovery;
     private ExportCoordinator? _exports;
-    private UserConfirmedExportSignalWaiter? _exportSignals;
     private HoyoPullExportProvider? _pullExports;
     private HoyoPublisherStatusSource? _hoyoPublisherStatus;
+    private WuWaAccountStatusService? _wuwaAccountStatus;
+    private PublisherAccountService? _publisherAccounts;
+    private bool _accountShutdownStarted;
+    private bool _accountShutdownComplete;
     private CancellationTokenSource? _endfieldDiscoveryCancellation;
     private string? _diagnosticsRoot;
     private string _launchStage = "app-construction";
@@ -107,7 +112,8 @@ public partial class App : Application
         GenshinSession = new GenshinGameSessionAdapter(
             GenshinDiscovery,
             GenshinInspection,
-            GenshinLaunchService);
+            GenshinLaunchService,
+            () => GetManualInstallRoot("gi"));
 
         var hoyoIdentity = new HoyoGameIdentityAdapter();
         var hoyoDiscovery = new HoyoCurrentUserDiscovery();
@@ -117,8 +123,8 @@ public partial class App : Application
             new DotNetLaunchProcessStarter());
         HoyoSessions = new Dictionary<string, HoyoGameSessionAdapter>(StringComparer.Ordinal)
         {
-            ["hsr"] = new("hsr", hoyoDiscovery, hoyoLaunchService),
-            ["zzz"] = new("zzz", hoyoDiscovery, hoyoLaunchService),
+            ["hsr"] = new("hsr", hoyoDiscovery, hoyoLaunchService, () => GetManualInstallRoot("hsr"), hoyoIdentity),
+            ["zzz"] = new("zzz", hoyoDiscovery, hoyoLaunchService, () => GetManualInstallRoot("zzz"), hoyoIdentity),
         };
         HoyoPlayExecutor = new HoyoPlayHandoffExecutor();
         WuWaMaintenance = new WuWaMaintenanceService();
@@ -153,11 +159,11 @@ public partial class App : Application
         {
             ["wuwa"] = new(
                 "wuwa",
-                wuwaRootLocator.LocateRoot,
+                () => GetManualInstallRoot("wuwa") ?? wuwaRootLocator.LocateRoot(),
                 PublisherGameLaunchService),
             ["ae"] = new(
                 "ae",
-                EndfieldRootStore.Load,
+                () => GetManualInstallRoot("ae") ?? EndfieldRootStore.Load(),
                 PublisherGameLaunchService),
         };
 
@@ -178,14 +184,13 @@ public partial class App : Application
         var adapters = officialAdapters.Concat(customAdapters);
         _sessions = new GameSessionCoordinator(adapters);
         _sessionRefresh = new GameSessionRefreshPump(_sessions);
-        _latestContent = new LatestContentService(File.ReadAllBytes(Path.Combine(
-            AppContext.BaseDirectory,
-            "Assets",
-            "Content",
-            "launcher-content-bundled-v1.json")));
         var configuredManifest = Environment.GetEnvironmentVariable("PENGO_NYX_LAUNCHER_MANIFEST_URL");
         var manifestEndpoint = Uri.TryCreate(configuredManifest, UriKind.Absolute, out var configuredEndpoint)
             ? configuredEndpoint
+            : null;
+        var configuredCodes = Environment.GetEnvironmentVariable("PENGO_NYX_LAUNCHER_CODES_URL");
+        var codesEndpoint = Uri.TryCreate(configuredCodes, UriKind.Absolute, out var configuredCodesEndpoint)
+            ? configuredCodesEndpoint
             : null;
         _launcherBanners = new LauncherBannersContentService(
             File.ReadAllBytes(Path.Combine(
@@ -194,14 +199,14 @@ public partial class App : Application
                 "Content",
                 "launcher-banners-v1.json")),
             Path.Combine(LauncherState.DataDirectory, "ContentCache"),
-            manifestEndpoint);
+            manifestEndpoint,
+            codesEndpoint: codesEndpoint);
         _pullExports = new HoyoPullExportProvider();
         var achievementHelperPath = Path.Combine(
             AppContext.BaseDirectory,
             "Assets",
             "Tools",
             VerifiedAchievementHelperBoundary.ExpectedHelperFileName);
-        _exportSignals = new UserConfirmedExportSignalWaiter();
         _exports = new ExportCoordinator(
             _pullExports,
             new AchievementHelperExportProvider(
@@ -209,27 +214,32 @@ public partial class App : Application
                     achievementHelperPath,
                     AchievementHelperPackageIdentity.Sha256,
                     new ProcessAchievementHelperRunner())),
-            signals: _exportSignals,
             achievementPrepareTimeout: TimeSpan.FromSeconds(30));
         _hoyoPublisherStatus = new HoyoPublisherStatusSource(() => new HoyoLocalVersions(
             GenshinSession.Version,
             HoyoSessions["hsr"].Version,
             HoyoSessions["zzz"].Version));
+        _wuwaAccountStatus = new WuWaAccountStatusService();
+        var accountFlags = LauncherState.Snapshot.Preferences.FeatureFlags;
+        _publisherAccounts = new PublisherAccountService(
+            Path.Combine(LauncherState.DataDirectory, "PublisherProfiles"),
+            accountFlags.HoyoLabAccountAccess,
+            accountFlags.SkportAccountAccess,
+            accountFlags.HoyoLabAccountCleanupPending,
+            accountFlags.SkportAccountCleanupPending);
+        LauncherState.Changed += LauncherState_Changed;
+        _ = RecoverPendingPublisherRevocationsAsync();
 
         _launchStage = "main-window-construction";
         _window = new MainWindow();
         _launchStage = "main-window-event-wiring";
         _window.Activated += Window_Activated;
         _window.Closed += Window_Closed;
+        _window.AppWindow.Closing += AppWindow_Closing;
         _launchStage = "main-window-activation";
         _window.Activate();
         _launchStage = "background-services";
         _sessionRefresh.Start();
-        if (LauncherState.Snapshot.Preferences.RefreshContentOnStartup
-            && LauncherState.Snapshot.Preferences.FeatureFlags.OfficialNews)
-        {
-            _latestContent.Start();
-        }
         if (LauncherState.Snapshot.Preferences.RefreshContentOnStartup
             && LauncherState.Snapshot.Preferences.FeatureFlags.RemoteBannerManifest)
         {
@@ -339,9 +349,6 @@ public partial class App : Application
 
     internal SessionUiLifetime SessionUiLifetime { get; } = new();
 
-    internal ILatestContentSource LatestContent =>
-        _latestContent ?? throw new InvalidOperationException("Latest content is not initialized.");
-
     internal LauncherBannersContentService LauncherBanners =>
         _launcherBanners ?? throw new InvalidOperationException("Launcher banners are not initialized.");
 
@@ -354,11 +361,14 @@ public partial class App : Application
     internal ExportCoordinator Exports =>
         _exports ?? throw new InvalidOperationException("Export coordinator is not initialized.");
 
-    internal UserConfirmedExportSignalWaiter ExportSignals =>
-        _exportSignals ?? throw new InvalidOperationException("Export signals are not initialized.");
-
     internal HoyoPublisherStatusSource HoyoPublisherStatus =>
         _hoyoPublisherStatus ?? throw new InvalidOperationException("Publisher status is not initialized.");
+
+    internal WuWaAccountStatusService WuWaAccountStatus =>
+        _wuwaAccountStatus ?? throw new InvalidOperationException("Wuthering Waves account status is not initialized.");
+
+    internal PublisherAccountService PublisherAccounts =>
+        _publisherAccounts ?? throw new InvalidOperationException("Publisher account service is not initialized.");
 
     internal GenshinGameSessionAdapter GenshinSession { get; private set; } = null!;
 
@@ -392,6 +402,11 @@ public partial class App : Application
         if (_window is MainWindow mainWindow) mainWindow.Minimize();
     }
 
+    internal void BeginWindowDrag()
+    {
+        if (_window is MainWindow mainWindow) mainWindow.BeginDrag();
+    }
+
     internal async ValueTask<bool> RediscoverInstallsAsync(CancellationToken cancellationToken = default)
     {
         if (_sessionRefresh is null) return false;
@@ -401,12 +416,8 @@ public partial class App : Application
 
     internal async ValueTask<bool> RefreshContentAsync(CancellationToken cancellationToken = default)
     {
-        if (_latestContent is null || _launcherBanners is null) return false;
+        if (_launcherBanners is null) return false;
         var flags = LauncherState.Snapshot.Preferences.FeatureFlags;
-        if (flags.OfficialNews)
-        {
-            await _latestContent.RefreshAsync(cancellationToken);
-        }
         if (flags.RemoteBannerManifest)
         {
             await _launcherBanners.RefreshManualAsync(cancellationToken);
@@ -421,10 +432,8 @@ public partial class App : Application
 
     internal void ApplyContentRefreshPreferences()
     {
-        if (_latestContent is null || _launcherBanners is null) return;
+        if (_launcherBanners is null) return;
         var preferences = LauncherState.Snapshot.Preferences;
-        _latestContent.SetAutomaticRefreshEnabled(
-            preferences.RefreshContentOnStartup && preferences.FeatureFlags.OfficialNews);
         _launcherBanners.SetAutomaticRefreshEnabled(
             preferences.RefreshContentOnStartup && preferences.FeatureFlags.RemoteBannerManifest);
     }
@@ -439,6 +448,11 @@ public partial class App : Application
 
     internal event EventHandler? EndfieldRootAutoDiscovered;
 
+    private string? GetManualInstallRoot(string gameId) =>
+        LauncherState.Snapshot.Preferences.ManualInstallRoots.TryGetValue(gameId, out var root)
+            ? root
+            : null;
+
     private void Window_Activated(object sender, WindowActivatedEventArgs args)
     {
         if (args.WindowActivationState is not WindowActivationState.Deactivated)
@@ -447,8 +461,102 @@ public partial class App : Application
         }
     }
 
+    private void LauncherState_Changed(object? sender, EventArgs e)
+    {
+        var flags = LauncherState.Snapshot.Preferences.FeatureFlags;
+        _publisherAccounts?.ApplyConsentSnapshot(
+            flags.HoyoLabAccountAccess,
+            flags.SkportAccountAccess,
+            flags.HoyoLabAccountCleanupPending,
+            flags.SkportAccountCleanupPending);
+    }
+
+    private async Task RecoverPendingPublisherRevocationsAsync()
+    {
+        var accounts = _publisherAccounts;
+        if (accounts is null) return;
+        foreach (var provider in new[] { "HoYoLAB", "SKPORT" })
+        {
+            try
+            {
+                if (!accounts.HasPendingConsentRevocation(provider)) continue;
+                if (!TryPersistPublisherConsent(provider, enabled: false, cleanupPending: true))
+                    continue;
+                var result = await accounts.RetryPendingConsentRevocationAsync(provider);
+                if (result != PublisherConnectionState.NotConnected) continue;
+                if (!accounts.CompleteConsentRevocation(provider)) continue;
+                TryPersistPublisherConsent(provider, enabled: false, cleanupPending: false);
+            }
+            catch (OperationCanceledException)
+            {
+            }
+            catch (ObjectDisposedException)
+            {
+            }
+        }
+    }
+
+    private bool TryPersistPublisherConsent(
+        string provider,
+        bool enabled,
+        bool cleanupPending) =>
+        LauncherState.TryUpdate(state => state with
+        {
+            Preferences = state.Preferences with
+            {
+                FeatureFlags = provider switch
+                {
+                    "HoYoLAB" => state.Preferences.FeatureFlags with
+                    {
+                        HoyoLabAccountAccess = enabled,
+                        HoyoLabAccountCleanupPending = cleanupPending,
+                    },
+                    "SKPORT" => state.Preferences.FeatureFlags with
+                    {
+                        SkportAccountAccess = enabled,
+                        SkportAccountCleanupPending = cleanupPending,
+                    },
+                    _ => state.Preferences.FeatureFlags,
+                },
+            },
+        });
+
+    private void AppWindow_Closing(AppWindow sender, AppWindowClosingEventArgs args)
+    {
+        if (_accountShutdownComplete) return;
+        args.Cancel = true;
+        if (_accountShutdownStarted) return;
+        _accountShutdownStarted = true;
+        sender.Hide();
+        SessionUiLifetime.Terminate();
+        Interlocked.Exchange(ref _endfieldDiscoveryCancellation, null)?.Cancel();
+        _sessionRefresh?.Stop();
+        _sessions?.Shutdown();
+        _ = ShutDownAccountsAndCloseAsync();
+    }
+
+    private async Task ShutDownAccountsAndCloseAsync()
+    {
+        var wuwaAccountShutdown = _wuwaAccountStatus is null
+            ? Task.CompletedTask
+            : DisposeWuWaAccountStatusAsync(_wuwaAccountStatus);
+        var publisherAccountShutdown = _publisherAccounts is null
+            ? Task.CompletedTask
+            : DisposePublisherAccountsAsync(_publisherAccounts);
+        var exportShutdown = _exports is null
+            ? Task.CompletedTask
+            : DisposeExportsAsync(_exports, _pullExports);
+        await Task.WhenAll(wuwaAccountShutdown, publisherAccountShutdown);
+        await exportShutdown;
+        _exports = null;
+        _pullExports = null;
+        _accountShutdownComplete = true;
+        _window?.Close();
+    }
+
     private void Window_Closed(object sender, WindowEventArgs args)
     {
+        LauncherState.Changed -= LauncherState_Changed;
         SessionUiLifetime.Terminate();
         Interlocked.Exchange(ref _endfieldDiscoveryCancellation, null)?.Cancel();
 
@@ -456,6 +564,7 @@ public partial class App : Application
         {
             _window.Activated -= Window_Activated;
             _window.Closed -= Window_Closed;
+            _window.AppWindow.Closing -= AppWindow_Closing;
         }
 
         _sessionRefresh?.Stop();
@@ -465,25 +574,16 @@ public partial class App : Application
             _ = DisposeRefreshAsync(_sessionRefresh);
         }
 
-        if (_latestContent is not null)
-        {
-            _ = DisposeLatestContentAsync(_latestContent);
-        }
-
         if (_launcherBanners is not null)
         {
             _ = DisposeLauncherBannersAsync(_launcherBanners);
-        }
-
-        if (_exports is not null)
-        {
-            _ = DisposeExportsAsync(_exports, _pullExports);
         }
 
         if (_hoyoPublisherStatus is not null)
         {
             _ = DisposePublisherStatusAsync(_hoyoPublisherStatus);
         }
+
     }
 
     private async Task RefreshAfterActivationAsync()
@@ -515,18 +615,6 @@ public partial class App : Application
         }
     }
 
-    private static async Task DisposeLatestContentAsync(LatestContentService latestContent)
-    {
-        try
-        {
-            await latestContent.DisposeAsync();
-        }
-        catch (Exception)
-        {
-            // Content is optional and owns no launch or maintenance state.
-        }
-    }
-
     private static async Task DisposeLauncherBannersAsync(LauncherBannersContentService launcherBanners)
     {
         try
@@ -535,7 +623,7 @@ public partial class App : Application
         }
         catch (Exception)
         {
-            // Remote art and news are optional and own no launch state.
+            // Remote banners, codes, and art are optional and own no launch state.
         }
     }
 
@@ -548,6 +636,30 @@ public partial class App : Application
         catch (Exception)
         {
             // Publisher status is advisory and cannot keep the app alive.
+        }
+    }
+
+    private static async Task DisposeWuWaAccountStatusAsync(WuWaAccountStatusService accountStatus)
+    {
+        try
+        {
+            await accountStatus.DisposeAsync();
+        }
+        catch (Exception)
+        {
+            // Account status is optional and never owns launch state.
+        }
+    }
+
+    private static async Task DisposePublisherAccountsAsync(PublisherAccountService publisherAccounts)
+    {
+        try
+        {
+            await publisherAccounts.DisposeAsync();
+        }
+        catch (Exception)
+        {
+            // Publisher browser sessions are optional and never own launch state.
         }
     }
 

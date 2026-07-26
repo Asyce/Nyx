@@ -26,6 +26,13 @@ impl Game {
         }
     }
 
+    pub const fn output_folder(self) -> &'static str {
+        match self {
+            Self::Gi => "Genshin Impact",
+            Self::Hsr => "Honkai Star Rail",
+        }
+    }
+
     pub const fn ports(self) -> [u16; 2] {
         match self {
             Self::Gi => [22101, 22102],

@@ -40,7 +40,7 @@ public sealed class EndfieldMaintenanceUiTests
     }
 
     [Fact]
-    public void Folder_and_maintenance_handlers_have_reciprocal_guards_and_disable_each_other_immediately()
+    public void Manual_folder_picker_validates_before_saving_and_maintenance_remains_separate()
     {
         var page = ReadAppFile("MainPage.xaml.cs");
         var folder = Slice(
@@ -52,11 +52,10 @@ public sealed class EndfieldMaintenanceUiTests
             "private async Task OpenEndfieldMaintenanceAsync",
             "private async Task OpenWuWaMaintenanceAsync");
 
-        Assert.Contains("endfieldMaintenanceActionInFlight", folder, StringComparison.Ordinal);
-        Assert.Contains("EndfieldUiActionKind.ChooseFolder", folder, StringComparison.Ordinal);
-        Assert.True(
-            folder.IndexOf("OpenUpdaterButton.IsEnabled = false", StringComparison.Ordinal)
-            < folder.IndexOf("PickSingleFolderAsync", StringComparison.Ordinal));
+        Assert.Contains("IsValidManualInstallRoot", folder, StringComparison.Ordinal);
+        Assert.Contains("ManualInstallRoots", folder, StringComparison.Ordinal);
+        Assert.Contains("sessionRefresh.RefreshNowAsync", folder, StringComparison.Ordinal);
+        Assert.DoesNotContain("OpenUpdaterButton.IsEnabled = false", folder, StringComparison.Ordinal);
         Assert.DoesNotContain("SetLaunchControls", folder, StringComparison.Ordinal);
         Assert.Contains("endfieldFolderActionInFlight", maintenance, StringComparison.Ordinal);
         Assert.Contains("EndfieldUiActionKind.OpenMaintenance", maintenance, StringComparison.Ordinal);
@@ -117,7 +116,7 @@ public sealed class EndfieldMaintenanceUiTests
         var page = ReadAppFile("MainPage.xaml.cs");
         var render = Slice(page, "private void RenderEndfield", "private void RenderWuWa");
 
-        Assert.Contains("OPEN GRYPHLINK", render, StringComparison.Ordinal);
+        Assert.Contains("Official Launcher", render, StringComparison.Ordinal);
         Assert.Contains("updates, pre-downloads, verification and repairs", render, StringComparison.Ordinal);
         Assert.Contains("version status unavailable", render, StringComparison.Ordinal);
         Assert.DoesNotContain("Nyx updates", render, StringComparison.OrdinalIgnoreCase);

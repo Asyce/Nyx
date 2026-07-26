@@ -9,6 +9,7 @@ internal sealed class WuWaPublicEvidenceParser
     internal const int MaximumConfigBytes = 4 * 1024;
     internal const int MaximumResourceBytes = 1024 * 1024;
     internal const int MaximumResourceEntries = 10_000;
+    internal const long MaximumRuntimeBytes = 256L * 1024 * 1024;
     internal const string ExpectedRuntimeDestination =
         "Client/Binaries/Win64/Client-Win64-Shipping.exe";
 
@@ -91,7 +92,7 @@ internal sealed class WuWaPublicEvidenceParser
                 return new(PublisherGameInspectionReason.ResourceEvidenceMalformed);
             }
 
-            string? runtimeVersion = null;
+            WuWaResourceEvidence? runtimeEvidence = null;
             var runtimeMatches = 0;
             foreach (var entry in resources.EnumerateArray())
             {
@@ -113,21 +114,41 @@ internal sealed class WuWaPublicEvidenceParser
 
                 runtimeMatches++;
                 if (runtimeMatches > 1
-                    || fromFolder.ValueKind is not JsonValueKind.String
-                    || !TryExtractSingleVersionSegment(fromFolder.GetString(), out runtimeVersion))
+                    || !TryGetExactUnique(entry, "size", out var size)
+                    || size.ValueKind is not JsonValueKind.Number
+                    || !size.TryGetInt64(out var runtimeSize)
+                    || runtimeSize <= 0
+                    || runtimeSize > MaximumRuntimeBytes
+                    || !TryGetExactUnique(entry, "md5", out var md5)
+                    || md5.ValueKind is not JsonValueKind.String
+                    || !TryParseLowerHexDigest(md5.GetString(), 16, out var runtimeMd5))
                 {
                     return new(PublisherGameInspectionReason.ResourceEvidenceMalformed);
                 }
+
+                string? runtimeVersion = null;
+                if (fromFolder.ValueKind is JsonValueKind.String
+                    && !TryExtractSingleVersionSegment(fromFolder.GetString(), out runtimeVersion))
+                {
+                    return new(PublisherGameInspectionReason.ResourceEvidenceMalformed);
+                }
+                if (fromFolder.ValueKind is not JsonValueKind.String
+                    and not JsonValueKind.Null)
+                {
+                    return new(PublisherGameInspectionReason.ResourceEvidenceMalformed);
+                }
+
+                runtimeEvidence = new(runtimeVersion, runtimeSize, runtimeMd5);
             }
 
-            if (runtimeMatches != 1 || runtimeVersion is null)
+            if (runtimeMatches != 1 || runtimeEvidence is null)
             {
                 return new(PublisherGameInspectionReason.ResourceEvidenceMissing);
             }
 
             return new(
                 PublisherGameInspectionReason.None,
-                new(runtimeVersion),
+                runtimeEvidence,
                 bounded.Fingerprint,
                 bounded.Snapshot);
         }
@@ -253,6 +274,25 @@ internal sealed class WuWaPublicEvidenceParser
         return matchCount == 1;
     }
 
+    private static bool TryParseLowerHexDigest(
+        string? value,
+        int expectedBytes,
+        out byte[] digest)
+    {
+        digest = [];
+        if (value is null
+            || value.Length != expectedBytes * 2
+            || value.Any(character =>
+                !char.IsAsciiDigit(character)
+                && character is not (>= 'a' and <= 'f')))
+        {
+            return false;
+        }
+
+        digest = Convert.FromHexString(value);
+        return digest.Length == expectedBytes;
+    }
+
     private sealed record BoundedEvidence(
         PublisherGameInspectionReason Reason,
         ReadOnlyMemory<byte> Bytes = default,
@@ -262,7 +302,10 @@ internal sealed class WuWaPublicEvidenceParser
 
 internal sealed record WuWaDownloadConfig(string Version, bool IsPreDownload, string AppId);
 
-internal sealed record WuWaResourceEvidence(string Version);
+internal sealed record WuWaResourceEvidence(
+    string? Version,
+    long RuntimeSize,
+    byte[] RuntimeMd5);
 
 internal sealed record EvidenceReadResult<T>(
     PublisherGameInspectionReason Reason,

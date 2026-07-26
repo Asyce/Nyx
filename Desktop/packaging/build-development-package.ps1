@@ -4,7 +4,7 @@
 param(
     [ValidatePattern('^(0|[1-9][0-9]{0,4})\.(0|[1-9][0-9]{0,4})\.(0|[1-9][0-9]{0,4})\.(0|[1-9][0-9]{0,4})$')]
     [string] $Version = '1.0.0.0',
-    [switch] $Restore,
+    [switch] $NoRestore,
     [switch] $Force
 )
 
@@ -204,7 +204,7 @@ try {
     $helperSha256 = (Get-FileHash -LiteralPath $builtHelper -Algorithm SHA256).Hash.ToLowerInvariant()
 
     $dotnet = (Get-Command dotnet -ErrorAction Stop).Source
-    $restoreArgument = if ($Restore) { @() } else { @('--no-restore') }
+    $restoreArgument = if ($NoRestore) { @('--no-restore') } else { @() }
     $appProject = Join-Path $desktopRoot 'src\Nyx.Desktop.App\Nyx.Desktop.App.csproj'
     $appArguments = @(
         'publish', $appProject,

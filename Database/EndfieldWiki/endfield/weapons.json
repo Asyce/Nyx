@@ -2,7 +2,7 @@
   "provider": "EndfieldWiki",
   "game": "endfield",
   "gameName": "Arknights: Endfield",
-  "scrapedAt": "2026-07-17T03:24:13.350Z",
+  "scrapedAt": "2026-07-26T05:37:53.129Z",
   "source": {
     "site": "endfield.wiki.gg",
     "api": "MediaWiki API rendered Weapon pages",
@@ -1328,7 +1328,7 @@
       "source": "Reward: Events",
       "icon": {
         "path": "EndfieldWiki/endfield/assets/weapons/farsight/icon.png",
-        "url": "https://endfield.wiki.gg/images/Eminent_Repute_icon.png?4a08f8"
+        "url": "https://endfield.wiki.gg/images/Farsight_icon.png?73ffe7"
       },
       "materials": [
         {
@@ -1358,6 +1358,10 @@
         {
           "id": "Tachyon_Screening_Lattice",
           "count": 16
+        },
+        {
+          "id": "Protocolith",
+          "count": 8
         }
       ],
       "tuningStages": [
@@ -1411,6 +1415,10 @@
           {
             "id": "Tachyon_Screening_Lattice",
             "count": 16
+          },
+          {
+            "id": "Protocolith",
+            "count": 8
           },
           {
             "id": "T-Creds",
@@ -1865,7 +1873,7 @@
       "source": "Reward: Protocol Pass",
       "icon": {
         "path": "EndfieldWiki/endfield/assets/weapons/golden-age/icon.png",
-        "url": "https://endfield.wiki.gg/images/Eminent_Repute_icon.png?4a08f8"
+        "url": "https://endfield.wiki.gg/images/Golden_Age_icon.png?2182c0"
       },
       "materials": [
         {
@@ -2301,7 +2309,7 @@
       "source": "Reward: Protocol Pass",
       "icon": {
         "path": "EndfieldWiki/endfield/assets/weapons/junction-point/icon.png",
-        "url": "https://endfield.wiki.gg/images/Arts_Susceptibility_icon.png?d8a50e"
+        "url": "https://endfield.wiki.gg/images/Junction_Point_icon.png?ae6679"
       },
       "materials": [
         {

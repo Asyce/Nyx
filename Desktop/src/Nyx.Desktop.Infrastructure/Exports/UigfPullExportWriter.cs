@@ -17,6 +17,7 @@ internal sealed class UigfPullExportWriter(
         CancellationToken cancellationToken)
     {
         cancellationToken.ThrowIfCancellationRequested();
+        var usesContractName = string.IsNullOrWhiteSpace(requestedPath);
         var basePath = ResolveBasePath(archive.Game, requestedPath);
         var directory = Path.GetDirectoryName(basePath);
         if (string.IsNullOrWhiteSpace(directory))
@@ -41,7 +42,11 @@ internal sealed class UigfPullExportWriter(
             cancellationToken.ThrowIfCancellationRequested();
             for (var suffix = 0; suffix < 100; suffix++)
             {
-                var target = suffix == 0 ? basePath : WithSuffix(basePath, suffix);
+                var target = suffix == 0
+                    ? basePath
+                    : usesContractName
+                        ? ResolveContractBasePath(archive.Game)
+                        : WithSuffix(basePath, suffix);
                 try
                 {
                     File.Move(temporaryPath, target, overwrite: false);
@@ -131,8 +136,20 @@ internal sealed class UigfPullExportWriter(
             catch (Exception) { throw new PullExportException(PullExportErrorCodes.OutputFailed); }
         }
 
-        var stamp = timeProvider.GetUtcNow().ToString("yyyyMMdd-HHmmss", System.Globalization.CultureInfo.InvariantCulture);
-        return Path.Combine(downloadsDirectory, "Pengo Exports", game.OutputFolder, $"Pengo-Nyx-Pulls-{stamp}.json");
+        return ResolveContractBasePath(game);
+    }
+
+    private string ResolveContractBasePath(HoyoPullGameConfiguration game)
+    {
+        var stamp = timeProvider.GetUtcNow().ToString(
+            "yyyyMMdd'T'HHmmss'Z'",
+            System.Globalization.CultureInfo.InvariantCulture);
+        var nonce = Guid.NewGuid().ToString("N");
+        return Path.Combine(
+            downloadsDirectory,
+            "Pengo Exports",
+            game.OutputFolder,
+            $"{stamp}-{nonce}.uigf.json");
     }
 
     private void EnsureSafeDestination(string directory)

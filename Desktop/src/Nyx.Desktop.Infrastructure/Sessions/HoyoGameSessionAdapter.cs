@@ -2,6 +2,7 @@ using Nyx.Desktop.Core.Hoyo;
 using Nyx.Desktop.Core.Launching;
 using Nyx.Desktop.Core.Sessions;
 using Nyx.Desktop.Infrastructure.Hoyo;
+using System.Runtime.Versioning;
 
 namespace Nyx.Desktop.Infrastructure.Sessions;
 
@@ -20,19 +21,38 @@ public sealed class HoyoGameSessionAdapter : IGameSessionAdapter
     private string? pendingRoot;
     private string? version;
 
+    [SupportedOSPlatform("windows")]
     public HoyoGameSessionAdapter(
         string gameId,
         HoyoCurrentUserDiscovery discovery,
         HoyoGameLaunchService launchService)
+        : this(gameId, discovery, launchService, null, null)
+    {
+    }
+
+    [SupportedOSPlatform("windows")]
+    public HoyoGameSessionAdapter(
+        string gameId,
+        HoyoCurrentUserDiscovery discovery,
+        HoyoGameLaunchService launchService,
+        Func<string?>? locateManualRoot,
+        HoyoGameIdentityAdapter? identityAdapter)
     {
         ArgumentNullException.ThrowIfNull(discovery);
         ArgumentNullException.ThrowIfNull(launchService);
+        if (locateManualRoot is not null) ArgumentNullException.ThrowIfNull(identityAdapter);
 
         GameId = RequireSupportedGame(gameId);
         var record = GameId == "hsr"
             ? HoyoCurrentGameRecord.HsrGlobal
             : HoyoCurrentGameRecord.ZzzGlobal;
-        discover = () => discovery.Discover(record);
+        discover = () =>
+        {
+            var manual = locateManualRoot?.Invoke();
+            return string.IsNullOrWhiteSpace(manual)
+                ? discovery.Discover(record)
+                : identityAdapter!.Inspect(GameId, manual);
+        };
         check = root => launchService.CheckGame(GameId, root);
         launch = root => launchService.LaunchGame(GameId, root);
     }

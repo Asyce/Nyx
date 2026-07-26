@@ -1,14 +1,18 @@
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Automation;
 using Microsoft.UI.Xaml.Controls;
+using Microsoft.UI.Xaml.Input;
 using Microsoft.UI.Xaml.Media;
+using Microsoft.UI.Xaml.Media.Animation;
 using Microsoft.UI.Xaml.Media.Imaging;
 using Windows.ApplicationModel.DataTransfer;
+using Windows.UI.Text;
 using Windows.Storage.Pickers;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Globalization;
 using Nyx.Desktop.Core.Content;
+using Nyx.Desktop.Core.AccountStatus;
 using Nyx.Desktop.Core.Diagnostics;
 using Nyx.Desktop.Core.Exports;
 using Nyx.Desktop.Core.Features;
@@ -24,16 +28,19 @@ using Nyx.Desktop.Core.State;
 using Nyx.Desktop.Infrastructure.Genshin;
 using Nyx.Desktop.Infrastructure.Games;
 using Nyx.Desktop.Infrastructure.Content;
+using Nyx.Desktop.Infrastructure.AccountStatus;
 using Nyx.Desktop.Infrastructure.Hoyo;
 using Nyx.Desktop.Infrastructure.PublisherMaintenance;
 using Nyx.Desktop.Infrastructure.PublisherGames;
 using Nyx.Desktop.Infrastructure.Sessions;
 using Nyx_Desktop_App.ViewModels;
+using Windows.Networking.Connectivity;
 
 namespace Nyx_Desktop_App;
 
 public sealed partial class MainPage : Page
 {
+    private const double PublisherAccountStatusLayoutHeight = 60d;
     private const int WuWaLaunchObservationCount = 6;
     private const int EndfieldLaunchObservationCount = 6;
     private static readonly TimeSpan WuWaLaunchObservationInterval =
@@ -62,16 +69,11 @@ public sealed partial class MainPage : Page
     private static readonly IReadOnlyDictionary<string, HeroPresentation> HeroPresentations =
         new Dictionary<string, HeroPresentation>(StringComparer.Ordinal)
         {
-            // Portrait art: lower the crop so the two faces stay in view.
-            ["gi"] = new(1.45, 80, 100, 0.30, 0.62),
-            // Square art: a small rightward bias protects both Trailblazers.
-            ["hsr"] = new(1.06, 34, 18, 0.24, 0.54),
-            // Bright square poster: keep the faces right of the copy and fade it earlier.
-            ["zzz"] = new(1.07, 46, 12, 0.32, 0.64),
-            // Wide key art: preserve both faces with only a light rightward bias.
-            ["wuwa"] = new(1.02, 42, 0, 0.22, 0.50),
-            // Wide pale poster: nudge its focal pair right and use a longer dark handoff.
-            ["ae"] = new(1.04, 38, 8, 0.28, 0.58),
+            ["gi"] = new(1, 0, 0, 0.30, 0.62),
+            ["hsr"] = new(1, 0, 0, 0.24, 0.54),
+            ["zzz"] = new(1, 0, 0, 0.32, 0.64),
+            ["wuwa"] = new(1, 0, 0, 0.22, 0.50),
+            ["ae"] = new(1, 0, 0, 0.28, 0.58),
         };
 
     private static readonly IReadOnlyDictionary<string, string> MaintenanceProviders =
@@ -80,7 +82,7 @@ public sealed partial class MainPage : Page
             ["gi"] = "HoYoPlay",
             ["hsr"] = "HoYoPlay",
             ["zzz"] = "HoYoPlay",
-            ["wuwa"] = "Wuthering Waves launcher",
+            ["wuwa"] = "KURO GAMES",
             ["ae"] = "GRYPHLINK",
         };
 
@@ -103,11 +105,11 @@ public sealed partial class MainPage : Page
     private readonly GameSessionCoordinator sessions;
     private readonly GameSessionRefreshPump sessionRefresh;
     private readonly SessionUiLifetime sessionUiLifetime;
-    private readonly ILatestContentSource latestContent;
     private readonly LauncherBannersContentService launcherBanners;
     private readonly ExportCoordinator exports;
-    private readonly UserConfirmedExportSignalWaiter exportSignals;
     private readonly HoyoPublisherStatusSource publisherStatus;
+    private readonly WuWaAccountStatusService wuwaAccountStatus;
+    private readonly PublisherAccountService publisherAccounts;
     private readonly GenshinGameSessionAdapter genshinSession;
     private readonly IReadOnlyDictionary<string, HoyoGameSessionAdapter> hoyoSessions;
     private readonly HoyoPlayHandoffExecutor hoyoPlayExecutor;
@@ -119,6 +121,8 @@ public sealed partial class MainPage : Page
     private readonly LauncherStateController launcherState;
     private readonly UserAssetStore userAssets;
     private readonly WindowsGenshinCandidateDiscovery discovery;
+    private readonly GenshinInspectionAdapter genshinInspection;
+    private readonly HoyoGameIdentityAdapter hoyoIdentity = new();
     private string? updaterRoot;
     private GameSessionSnapshot? gameSnapshot;
     private GenshinLaunchStatus? updaterStatus;
@@ -129,40 +133,74 @@ public sealed partial class MainPage : Page
     private readonly Dictionary<string, Guid> latestExportJobs = new(StringComparer.Ordinal);
     private readonly Dictionary<string, (string Revision, string VariantId)> automaticArtVariants = new(StringComparer.Ordinal);
     private string? lastArtSelectionGameId;
+    private string? displayedHeroSource;
+    private string? displayedBackgroundSource;
     private bool updaterActionInFlight;
     private bool wuwaActionInFlight;
     private bool endfieldFolderActionInFlight;
-    private bool endfieldFolderSelectionNeedsReview;
     private bool endfieldMaintenanceScanFinished;
     private bool endfieldMaintenanceActionInFlight;
+    private bool wuwaAccountStatusActionInFlight;
+    private bool wuwaAccountInitialRefreshRequested;
+    private bool wuwaAccountStatusSessionDisabled;
+    private bool wuwaAccountStatusSaveFailed;
+    private bool publisherAccountActionInFlight;
+    private readonly HashSet<string> publisherConsentSaveFailures = new(StringComparer.Ordinal);
+    private readonly HashSet<string> publisherConsentCleanupFailures = new(StringComparer.Ordinal);
+    private int wuwaAccountStatusUiGeneration;
     private EndfieldOfficialMaintenanceStatus? endfieldMaintenanceStatus;
     private PublisherGameInspectionReason endfieldMaintenanceReason;
     private WuWaOfficialMaintenanceStatus? wuwaMaintenanceStatus;
     private PublisherGameInspectionReason wuwaMaintenanceReason;
     private OfficialMaintenanceHandoffRequest? wuwaMaintenanceRequest;
     private bool refreshSubscribed;
-    private bool latestSubscribed;
     private bool launcherBannersSubscribed;
     private bool publisherStatusSubscribed;
+    private bool publisherAccountsSubscribed;
     private bool selectorSubscribed;
     private bool reactivationSubscribed;
+    private bool networkStatusSubscribed;
     private bool endfieldRootDiscoverySubscribed;
+    private int networkAvailability = -1;
+    private int networkContentRefreshInFlight;
+    private int networkRefreshGeneration;
     private int hoyoRefreshGeneration;
     private readonly LatestGenerationGate wuwaRefreshGeneration = new();
     private readonly LatestGenerationGate endfieldMaintenanceGeneration = new();
     private readonly EndfieldFolderSelectionPolicy endfieldFolderSelections = new();
     private readonly EndfieldUiActionAdmission endfieldUiActions = new();
+    private readonly DispatcherTimer bannerRotationTimer = new() { Interval = TimeSpan.FromSeconds(7) };
+    private readonly DispatcherTimer bannerCountdownTimer = new() { Interval = TimeSpan.FromSeconds(1) };
+    private readonly DispatcherTimer codeCopyResetTimer = new() { Interval = TimeSpan.FromSeconds(2) };
+    private int bannerRotationIndex;
+    private string? bannerRotationContextKey;
+    private DateTimeOffset bannerRotationStartedAt = DateTimeOffset.UtcNow;
+    private DateTimeOffset? bannerRotationPauseStartedAt;
+    private double bannerRotationProgressAtPause;
+    private string? bannerPinnedGameId;
+    private string? bannerPinnedCharacterId;
+    private bool bannerRotationPaused;
+    private double toolLayoutExtraHeight;
+    internal Func<DateTimeOffset> AccountDisplayClock { get; set; } = static () => DateTimeOffset.Now;
+    private double redemptionCodeRowHeight = 17;
+    private bool compactCodeRows;
+    private RedemptionCodeRowItem? copiedCodeRow;
+    private string? copiedCodeValue;
+    private Storyboard? heroCrossfade;
     private SessionUiLease? pageLease;
 
     public ObservableCollection<GameLauncherItem> Games { get; } = new();
 
-    public ObservableCollection<LatestContentCardItem> LatestCards { get; } = new();
+    public ObservableCollection<RedemptionCodeRowItem> RedemptionCodeRows { get; } = new();
 
-    public ObservableCollection<CurrentBannerRowItem> CurrentBannerRows { get; } = new();
+    public ObservableCollection<BannerCharacterRowItem> BannerCharacterRows { get; } = new();
 
     public MainPage()
     {
         InitializeComponent();
+        bannerRotationTimer.Tick += BannerRotationTimer_Tick;
+        bannerCountdownTimer.Tick += BannerCountdownTimer_Tick;
+        codeCopyResetTimer.Tick += CodeCopyResetTimer_Tick;
 
         app = (App)Application.Current;
         launcherState = app.LauncherState;
@@ -171,11 +209,11 @@ public sealed partial class MainPage : Page
         sessions = app.Sessions;
         sessionRefresh = app.SessionRefresh;
         sessionUiLifetime = app.SessionUiLifetime;
-        latestContent = app.LatestContent;
         launcherBanners = app.LauncherBanners;
         exports = app.Exports;
-        exportSignals = app.ExportSignals;
         publisherStatus = app.HoyoPublisherStatus;
+        wuwaAccountStatus = app.WuWaAccountStatus;
+        publisherAccounts = app.PublisherAccounts;
         genshinSession = app.GenshinSession;
         hoyoSessions = app.HoyoSessions;
         hoyoPlayExecutor = app.HoyoPlayExecutor;
@@ -184,6 +222,7 @@ public sealed partial class MainPage : Page
         endfieldRootStore = app.EndfieldRootStore;
         endfieldMaintenance = app.EndfieldMaintenance;
         discovery = app.GenshinDiscovery;
+        genshinInspection = app.GenshinInspection;
 
         Loaded += MainPage_Loaded;
         Unloaded += MainPage_Unloaded;
@@ -270,6 +309,14 @@ public sealed partial class MainPage : Page
         }
 
         ApplyLayout(ActualWidth, ActualHeight);
+        bannerRotationStartedAt = DateTimeOffset.UtcNow;
+        bannerRotationPauseStartedAt = null;
+        if (bannerPinnedCharacterId is not null || bannerRotationPaused)
+        {
+            PauseBannerRotation();
+        }
+        UpdateBannerRotationTimerState();
+        bannerCountdownTimer.Start();
         var lease = sessionUiLifetime.Activate();
         pageLease = lease;
         gameActionsInFlight.Clear();
@@ -284,12 +331,6 @@ public sealed partial class MainPage : Page
             refreshSubscribed = true;
         }
 
-        if (!latestSubscribed)
-        {
-            latestContent.Updated += LatestContent_Updated;
-            latestSubscribed = true;
-        }
-
         if (!launcherBannersSubscribed)
         {
             launcherBanners.Updated += LauncherBanners_Updated;
@@ -302,10 +343,24 @@ public sealed partial class MainPage : Page
             publisherStatusSubscribed = true;
         }
 
+        if (!publisherAccountsSubscribed)
+        {
+            publisherAccounts.Updated += PublisherAccounts_Updated;
+            publisherAccountsSubscribed = true;
+        }
+
         if (!reactivationSubscribed)
         {
             app.WindowReactivated += App_WindowReactivated;
             reactivationSubscribed = true;
+        }
+
+        if (!networkStatusSubscribed)
+        {
+            Interlocked.Increment(ref networkRefreshGeneration);
+            NetworkInformation.NetworkStatusChanged += NetworkInformation_NetworkStatusChanged;
+            networkStatusSubscribed = true;
+            Volatile.Write(ref networkAvailability, HasInternetConnection() ? 1 : 0);
         }
 
         if (!endfieldRootDiscoverySubscribed)
@@ -333,6 +388,10 @@ public sealed partial class MainPage : Page
 
     private void MainPage_Unloaded(object sender, RoutedEventArgs e)
     {
+        bannerRotationTimer.Stop();
+        bannerRotationPauseStartedAt = null;
+        bannerCountdownTimer.Stop();
+        codeCopyResetTimer.Stop();
         if (selectorSubscribed)
         {
             GameSelector.SelectionChanged -= GameSelector_SelectionChanged;
@@ -343,12 +402,6 @@ public sealed partial class MainPage : Page
         {
             sessionRefresh.Refreshed -= SessionRefresh_Refreshed;
             refreshSubscribed = false;
-        }
-
-        if (latestSubscribed)
-        {
-            latestContent.Updated -= LatestContent_Updated;
-            latestSubscribed = false;
         }
 
         if (launcherBannersSubscribed)
@@ -363,10 +416,25 @@ public sealed partial class MainPage : Page
             publisherStatusSubscribed = false;
         }
 
+        if (publisherAccountsSubscribed)
+        {
+            publisherAccounts.Updated -= PublisherAccounts_Updated;
+            publisherAccountsSubscribed = false;
+        }
+
         if (reactivationSubscribed)
         {
             app.WindowReactivated -= App_WindowReactivated;
             reactivationSubscribed = false;
+        }
+
+        if (networkStatusSubscribed)
+        {
+            NetworkInformation.NetworkStatusChanged -= NetworkInformation_NetworkStatusChanged;
+            networkStatusSubscribed = false;
+            Interlocked.Increment(ref networkRefreshGeneration);
+            Volatile.Write(ref networkAvailability, -1);
+            Interlocked.Exchange(ref networkContentRefreshInFlight, 0);
         }
 
         if (endfieldRootDiscoverySubscribed)
@@ -541,11 +609,96 @@ public sealed partial class MainPage : Page
                 _ = RefreshWuWaMaintenanceAsync(lease, useStoredRequest: true);
             }
 
+            if (GameSelector?.SelectedItem is GameLauncherItem { Id: "wuwa" }
+                && IsWuWaAccountStatusEnabled())
+            {
+                _ = RefreshWuWaAccountStatusAsync(lease);
+            }
+
             if (!endfieldMaintenanceActionInFlight)
             {
                 _ = RefreshEndfieldMaintenanceAsync(lease);
             }
         });
+    }
+
+    private void NetworkInformation_NetworkStatusChanged(object sender)
+    {
+        var connected = HasInternetConnection();
+        var previous = Interlocked.Exchange(ref networkAvailability, connected ? 1 : 0);
+        if (!connected || previous != 0)
+        {
+            return;
+        }
+
+        // NetworkInformation raises on a system thread. Queue one refresh on
+        // the page dispatcher; the service itself coalesces any in-flight
+        // manifest/code fetch and the page lease prevents work after unload.
+        if (Interlocked.CompareExchange(ref networkContentRefreshInFlight, 1, 0) != 0)
+        {
+            return;
+        }
+
+        var generation = Volatile.Read(ref networkRefreshGeneration);
+        if (!DispatcherQueue.TryEnqueue(() =>
+            _ = RefreshContentAfterNetworkReactivationAsync(generation)))
+        {
+            Interlocked.Exchange(ref networkContentRefreshInFlight, 0);
+        }
+    }
+
+    private async Task RefreshContentAfterNetworkReactivationAsync(int generation)
+    {
+        try
+        {
+            if (generation != Volatile.Read(ref networkRefreshGeneration))
+            {
+                return;
+            }
+
+            var lease = pageLease;
+            var preferences = launcherState.Snapshot.Preferences;
+            if (lease is null
+                || !preferences.RefreshContentOnStartup
+                || !preferences.FeatureFlags.RemoteBannerManifest)
+            {
+                return;
+            }
+
+            await launcherBanners.RefreshOnReactivationAsync(lease.CancellationToken);
+        }
+        catch (OperationCanceledException)
+        {
+            // Unload/close cancels the page lease; no retry should outlive it.
+        }
+        catch (Exception)
+        {
+            // Keep the last-known-good snapshot. The next network transition
+            // or scheduled refresh can try again without affecting launch.
+        }
+        finally
+        {
+            if (generation == Volatile.Read(ref networkRefreshGeneration))
+            {
+                Interlocked.Exchange(ref networkContentRefreshInFlight, 0);
+            }
+        }
+    }
+
+    private static bool HasInternetConnection()
+    {
+        try
+        {
+            // GetInternetConnectionProfile can raise an uncatchable WinRT
+            // stowed exception in unpackaged WinUI apps on some Windows 11
+            // builds. Link availability is sufficient here: it only decides
+            // whether a transition should retry the already fail-safe feed.
+            return System.Net.NetworkInformation.NetworkInterface.GetIsNetworkAvailable();
+        }
+        catch (Exception)
+        {
+            return false;
+        }
     }
 
     private void App_EndfieldRootAutoDiscovered(object? sender, EventArgs e)
@@ -646,27 +799,391 @@ public sealed partial class MainPage : Page
         }
     }
 
+    private async void WuWaAccountStatusToggle_Click(object sender, RoutedEventArgs e)
+    {
+        if (GameSelector?.SelectedItem is GameLauncherItem selected && selected.Id != "wuwa")
+        {
+            await SetPublisherConsentAsync(
+                selected.Id,
+                WuWaAccountStatusToggle.IsChecked == true);
+            return;
+        }
+        var enable = WuWaAccountStatusToggle.IsChecked == true;
+        wuwaAccountStatusSaveFailed = false;
+        if (!enable)
+        {
+            // Opt-out is a session boundary first. A read-only or failing state
+            // store must never keep credential work or old totals alive.
+            wuwaAccountStatusSessionDisabled = true;
+            wuwaAccountInitialRefreshRequested = false;
+            wuwaAccountStatusUiGeneration++;
+            wuwaAccountStatusActionInFlight = false;
+            wuwaAccountStatus.DisableSession();
+            RenderWuWaAccountStatus();
+        }
+
+        if (enable
+            && launcherState.Snapshot.Preferences.FeatureFlags.WuWaAccountStatus)
+        {
+            wuwaAccountStatusSessionDisabled = false;
+            wuwaAccountInitialRefreshRequested = true;
+            RenderWuWaAccountStatus();
+            if (pageLease is { } existingLease)
+                await RefreshWuWaAccountStatusAsync(existingLease);
+            return;
+        }
+
+        var updated = launcherState.TryUpdate(state => state with
+        {
+            Preferences = state.Preferences with
+            {
+                FeatureFlags = state.Preferences.FeatureFlags with { WuWaAccountStatus = enable },
+            },
+        });
+        if (!updated)
+        {
+            wuwaAccountStatusSaveFailed = !enable;
+            RenderWuWaAccountStatus();
+            return;
+        }
+
+        wuwaAccountStatusSessionDisabled = !enable;
+        wuwaAccountInitialRefreshRequested = enable;
+        RenderWuWaAccountStatus();
+        if (enable && pageLease is { } lease)
+        {
+            await RefreshWuWaAccountStatusAsync(lease);
+        }
+    }
+
+    private async void WuWaAccountStatusRefreshButton_Click(object sender, RoutedEventArgs e)
+    {
+        if (GameSelector?.SelectedItem is GameLauncherItem selected && selected.Id != "wuwa")
+        {
+            if (selected.Id == "ae")
+                await publisherAccounts.OpenOfficialResourcePageAsync("ae");
+            else
+                await RefreshPublisherResourceAsync(selected.Id);
+            return;
+        }
+        // A manual click during the local request floor must leave the actual
+        // publisher result visible instead of briefly replacing it with noise.
+        if (wuwaAccountStatus.IsRefreshCoolingDown)
+        {
+            RenderWuWaAccountStatus();
+            return;
+        }
+
+        if (pageLease is { } lease)
+        {
+            await RefreshWuWaAccountStatusAsync(lease);
+        }
+    }
+
+    private async void PublisherAccountConnectButton_Click(object sender, RoutedEventArgs e)
+    {
+        if (GameSelector?.SelectedItem is not GameLauncherItem selected
+            || selected.Id == "wuwa"
+            || !HasPublisherConsent(selected.Id))
+            return;
+        var entry = PublisherAccountCatalog.Get(selected.Id);
+        var summary = publisherAccounts.Current;
+        var connection = entry.Provider == "HoYoLAB" ? summary.HoyoLab : summary.Skport;
+        if (connection == PublisherConnectionState.Connected)
+            await DisconnectPublisherAccountAsync(selected.Id);
+        else
+            await ConnectPublisherAccountAsync(selected.Id);
+    }
+
+    private async void DailyCheckInButton_Click(object sender, RoutedEventArgs e)
+    {
+        if (publisherAccountActionInFlight
+            || GameSelector?.SelectedItem is not GameLauncherItem selected
+            || selected.Id == "wuwa"
+            || !HasPublisherConsent(selected.Id))
+            return;
+        publisherAccountActionInFlight = true;
+        RenderSelection();
+        try
+        {
+            await publisherAccounts.CheckInAllAsync(pageLease?.CancellationToken ?? CancellationToken.None);
+        }
+        catch (OperationCanceledException)
+        {
+        }
+        finally
+        {
+            publisherAccountActionInFlight = false;
+            RenderSelection();
+        }
+    }
+
+    private async Task SetPublisherConsentAsync(string gameId, bool enabled)
+    {
+        if (publisherAccountActionInFlight) return;
+        var entry = PublisherAccountCatalog.Get(gameId);
+        publisherAccountActionInFlight = true;
+        try
+        {
+            var cleanupResult = PublisherConnectionState.NotConnected;
+            if (!enabled)
+            {
+                // The in-memory service gate closes synchronously at the start
+                // of this call, before cancellation or profile deletion can fail.
+                try
+                {
+                    cleanupResult = await publisherAccounts.RevokeConsentAsync(
+                        gameId,
+                        pageLease?.CancellationToken ?? CancellationToken.None);
+                }
+                catch (OperationCanceledException)
+                {
+                    cleanupResult = PublisherConnectionState.NeedsReview;
+                }
+            }
+            else
+            {
+                bool prepared;
+                try
+                {
+                    prepared = await publisherAccounts.PrepareConsentEnableAsync(
+                        entry.Provider,
+                        pageLease?.CancellationToken ?? CancellationToken.None);
+                }
+                catch (OperationCanceledException)
+                {
+                    prepared = false;
+                }
+                if (!prepared)
+                {
+                    publisherConsentCleanupFailures.Add(entry.Provider);
+                    return;
+                }
+            }
+
+            var updated = launcherState.TryUpdate(state => state with
+            {
+                Preferences = state.Preferences with
+                {
+                    FeatureFlags = entry.Provider switch
+                    {
+                        "HoYoLAB" => state.Preferences.FeatureFlags with
+                        {
+                            HoyoLabAccountAccess = enabled,
+                            HoyoLabAccountCleanupPending = !enabled,
+                        },
+                        "SKPORT" => state.Preferences.FeatureFlags with
+                        {
+                            SkportAccountAccess = enabled,
+                            SkportAccountCleanupPending = !enabled,
+                        },
+                        _ => state.Preferences.FeatureFlags,
+                    },
+                },
+            });
+            if (!updated)
+            {
+                publisherConsentSaveFailures.Add(entry.Provider);
+                return;
+            }
+
+            publisherConsentSaveFailures.Remove(entry.Provider);
+            if (enabled)
+            {
+                publisherConsentCleanupFailures.Remove(entry.Provider);
+                publisherAccounts.EnableConsent(entry.Provider);
+                return;
+            }
+
+            if (cleanupResult != PublisherConnectionState.NotConnected
+                || !publisherAccounts.CompleteConsentRevocation(entry.Provider))
+            {
+                publisherConsentCleanupFailures.Add(entry.Provider);
+                return;
+            }
+
+            var cleanupRecorded = launcherState.TryUpdate(state => state with
+            {
+                Preferences = state.Preferences with
+                {
+                    FeatureFlags = entry.Provider switch
+                    {
+                        "HoYoLAB" => state.Preferences.FeatureFlags with
+                        {
+                            HoyoLabAccountAccess = false,
+                            HoyoLabAccountCleanupPending = false,
+                        },
+                        "SKPORT" => state.Preferences.FeatureFlags with
+                        {
+                            SkportAccountAccess = false,
+                            SkportAccountCleanupPending = false,
+                        },
+                        _ => state.Preferences.FeatureFlags,
+                    },
+                },
+            });
+            if (cleanupRecorded)
+            {
+                publisherConsentCleanupFailures.Remove(entry.Provider);
+            }
+            else
+            {
+                publisherConsentSaveFailures.Add(entry.Provider);
+            }
+        }
+        finally
+        {
+            publisherAccountActionInFlight = false;
+            RenderSelection();
+        }
+    }
+
+    private async Task<PublisherRoleBinding?> ChoosePublisherRoleAsync(
+        IReadOnlyList<PublisherRoleChoice> choices,
+        CancellationToken cancellationToken)
+    {
+        if (choices.Count < 2) return null;
+        var list = new ListView
+        {
+            ItemsSource = choices,
+            SelectionMode = ListViewSelectionMode.Single,
+            IsItemClickEnabled = true,
+            MaxHeight = 280,
+        };
+        AutomationProperties.SetName(list, "Available HoYoLAB roles with masked UIDs");
+        var content = new StackPanel { Spacing = 10 };
+        content.Children.Add(new TextBlock
+        {
+            Text = "Choose the character Nyx may read. Only a masked UID and region are shown.",
+            TextWrapping = TextWrapping.Wrap,
+        });
+        content.Children.Add(list);
+        var dialog = new ContentDialog
+        {
+            XamlRoot = XamlRoot,
+            Title = "Choose HoYoLAB character",
+            Content = content,
+            PrimaryButtonText = "Use this character",
+            CloseButtonText = "Cancel",
+            DefaultButton = ContentDialogButton.None,
+            IsPrimaryButtonEnabled = false,
+        };
+        list.SelectionChanged += (_, _) =>
+            dialog.IsPrimaryButtonEnabled = list.SelectedItem is PublisherRoleChoice;
+        using var cancellationRegistration = cancellationToken.Register(() =>
+            DispatcherQueue.TryEnqueue(dialog.Hide));
+        var result = await dialog.ShowAsync().AsTask(cancellationToken);
+        return result == ContentDialogResult.Primary
+            && list.SelectedItem is PublisherRoleChoice selected
+                ? selected.Binding
+                : null;
+    }
+
+    private async Task ConnectPublisherAccountAsync(string gameId)
+    {
+        if (publisherAccountActionInFlight || !HasPublisherConsent(gameId)) return;
+        publisherAccountActionInFlight = true;
+        RenderSelection();
+        try
+        {
+            await publisherAccounts.ConnectAsync(gameId, pageLease?.CancellationToken ?? CancellationToken.None);
+        }
+        catch (OperationCanceledException)
+        {
+        }
+        finally
+        {
+            publisherAccountActionInFlight = false;
+            RenderSelection();
+        }
+    }
+
+    private async Task RefreshPublisherResourceAsync(string gameId)
+    {
+        if (publisherAccountActionInFlight || !HasPublisherConsent(gameId)) return;
+        publisherAccountActionInFlight = true;
+        RenderSelection();
+        try
+        {
+            await publisherAccounts.RefreshResourceAsync(
+                gameId,
+                ChoosePublisherRoleAsync,
+                pageLease?.CancellationToken ?? CancellationToken.None);
+        }
+        catch (OperationCanceledException)
+        {
+        }
+        finally
+        {
+            publisherAccountActionInFlight = false;
+            RenderSelection();
+        }
+    }
+
+    private async Task DisconnectPublisherAccountAsync(string gameId)
+    {
+        if (publisherAccountActionInFlight || !HasPublisherConsent(gameId)) return;
+        publisherAccountActionInFlight = true;
+        RenderSelection();
+        try
+        {
+            await publisherAccounts.DisconnectAsync(gameId, pageLease?.CancellationToken ?? CancellationToken.None);
+        }
+        catch (OperationCanceledException)
+        {
+        }
+        finally
+        {
+            publisherAccountActionInFlight = false;
+            RenderSelection();
+        }
+    }
+
+    private bool HasPublisherConsent(string gameId)
+    {
+        var entry = PublisherAccountCatalog.Get(gameId);
+        return publisherAccounts.HasConsent(entry.Provider);
+    }
+
+    private async Task RefreshWuWaAccountStatusAsync(SessionUiLease lease)
+    {
+        if (wuwaAccountStatusActionInFlight
+            || !IsWuWaAccountStatusEnabled())
+        {
+            return;
+        }
+
+        var uiGeneration = wuwaAccountStatusUiGeneration;
+        wuwaAccountStatusActionInFlight = true;
+        _ = sessionUiLifetime.TryRun(lease, RenderWuWaAccountStatus);
+        try
+        {
+            await wuwaAccountStatus.RefreshAsync(lease.CancellationToken);
+        }
+        finally
+        {
+            _ = sessionUiLifetime.TryRun(lease, () =>
+            {
+                if (uiGeneration != wuwaAccountStatusUiGeneration) return;
+                wuwaAccountStatusActionInFlight = false;
+                RenderWuWaAccountStatus();
+            });
+        }
+    }
+
     private async void ChooseGameFolderButton_Click(object sender, RoutedEventArgs e)
     {
         var lease = pageLease;
         if (lease is null
             || endfieldFolderActionInFlight
-            || endfieldMaintenanceActionInFlight
-            || GameSelector?.SelectedItem is not GameLauncherItem { Id: "ae" })
-        {
-            return;
-        }
-
-        var actionAdmission = endfieldUiActions.TryEnter(EndfieldUiActionKind.ChooseFolder);
-        if (actionAdmission is null)
+            || GameSelector?.SelectedItem is not GameLauncherItem selected
+            || selected.IsCustom)
         {
             return;
         }
 
         endfieldFolderActionInFlight = true;
-        var selectionAttempt = endfieldFolderSelections.Begin();
         ChooseGameFolderButton.IsEnabled = false;
-        OpenUpdaterButton.IsEnabled = false;
         ChooseGameFolderButton.Content = "CHOOSING…";
         try
         {
@@ -682,65 +1199,64 @@ public sealed partial class MainPage : Page
                 return;
             }
 
-            UpdaterSignalText.Text = "Checking the selected GRYPHLINK folder…";
-            var inspection = await Task.Run(
-                () => publisherGameLaunchService.CheckGame("ae", folder.Path),
+            UpdaterSignalText.Text = $"Checking the selected {selected.DisplayName} folder…";
+            var accepted = await Task.Run(
+                () => IsValidManualInstallRoot(selected.Id, folder.Path),
                 lease.CancellationToken);
-            if (!endfieldFolderSelections.IsCurrent(
-                    selectionAttempt,
-                    lease.CancellationToken))
+            if (!accepted)
             {
+                HeroDescription.Text = "That is not the complete official game folder. Nothing was saved.";
                 return;
             }
 
-            var identityAccepted = inspection.Status is PublisherGameLaunchStatus.Ready
-                or PublisherGameLaunchStatus.Running;
-            var result = await endfieldFolderSelections.CompleteAsync(
-                selectionAttempt,
-                lease.CancellationToken,
-                identityAccepted,
-                folder.Path,
-                endfieldRootStore.TrySave,
-                endfieldRootStore.Clear,
-                async token =>
-                {
-                    await sessionRefresh.RefreshNowAsync(token);
-                });
-            if (result.Status is not EndfieldFolderSelectionStatus.Stale)
+            var canonical = Path.TrimEndingDirectorySeparator(Path.GetFullPath(folder.Path));
+            launcherState.TryUpdate(state =>
             {
-                _ = sessionUiLifetime.TryRun(lease, () =>
+                var roots = new Dictionary<string, string>(state.Preferences.ManualInstallRoots, StringComparer.Ordinal)
                 {
-                    endfieldFolderSelectionNeedsReview = result.NeedsReview;
-                    RenderSelection();
-                });
-                await RefreshEndfieldMaintenanceAsync(lease);
-            }
+                    [selected.Id] = canonical,
+                };
+                return state with
+                {
+                    Preferences = state.Preferences with
+                    {
+                        ManualInstallRoots = new ReadOnlyDictionary<string, string>(roots),
+                        EndfieldInstallRoot = selected.Id == "ae"
+                            ? canonical
+                            : state.Preferences.EndfieldInstallRoot,
+                    },
+                };
+            });
+            await sessionRefresh.RefreshNowAsync(lease.CancellationToken);
+            if (selected.Id == "ae") await RefreshEndfieldMaintenanceAsync(lease);
+            if (selected.Id == "wuwa") await RefreshWuWaMaintenanceAsync(lease, useStoredRequest: false);
         }
         catch (OperationCanceledException) when (lease.CancellationToken.IsCancellationRequested)
         {
         }
         catch (Exception)
         {
-            if (endfieldFolderSelections.IsCurrent(selectionAttempt, lease.CancellationToken))
-            {
-                _ = sessionUiLifetime.TryRun(
-                    lease,
-                    () => endfieldFolderSelectionNeedsReview = true);
-            }
+            HeroDescription.Text = "Nyx could not check that folder.";
         }
         finally
         {
-            actionAdmission.Dispose();
-            if (endfieldFolderSelections.IsCurrent(selectionAttempt, lease.CancellationToken))
+            _ = sessionUiLifetime.TryRun(lease, () =>
             {
-                _ = sessionUiLifetime.TryRun(lease, () =>
-                {
-                    endfieldFolderActionInFlight = false;
-                    RenderSelection();
-                });
-            }
+                endfieldFolderActionInFlight = false;
+                RenderSelection();
+            });
         }
     }
+
+    private bool IsValidManualInstallRoot(string gameId, string root) => gameId switch
+    {
+        "gi" => genshinInspection.InspectGame(root, GenshinPathOrigin.PreviouslySaved).Status
+            is GenshinInspectionStatus.Ready,
+        "hsr" or "zzz" => hoyoIdentity.Inspect(gameId, root).Status is HoyoInspectionStatus.Ready,
+        "wuwa" or "ae" => publisherGameLaunchService.CheckGame(gameId, root).Status
+            is PublisherGameLaunchStatus.Ready or PublisherGameLaunchStatus.Running,
+        _ => false,
+    };
 
     private async void OpenUpdaterButton_Click(object sender, RoutedEventArgs e)
     {
@@ -771,7 +1287,7 @@ public sealed partial class MainPage : Page
 
         updaterActionInFlight = true;
         OpenUpdaterButton.IsEnabled = false;
-        OpenUpdaterButton.Content = "OPENING…";
+        OpenUpdaterButton.Content = "Opening…";
         UpdaterSignalText.Text = "Opening…";
 
         try
@@ -822,7 +1338,7 @@ public sealed partial class MainPage : Page
         endfieldMaintenanceActionInFlight = true;
         OpenUpdaterButton.IsEnabled = false;
         ChooseGameFolderButton.IsEnabled = false;
-        OpenUpdaterButton.Content = "OPENING…";
+        OpenUpdaterButton.Content = "Opening…";
         UpdaterSignalText.Text = "Opening GRYPHLINK…";
 
         try
@@ -895,7 +1411,7 @@ public sealed partial class MainPage : Page
         var generation = wuwaRefreshGeneration.Next();
         wuwaActionInFlight = true;
         OpenUpdaterButton.IsEnabled = false;
-        OpenUpdaterButton.Content = "OPENING…";
+        OpenUpdaterButton.Content = "Opening…";
         UpdaterSignalText.Text = "Opening the official launcher…";
 
         try
@@ -960,39 +1476,71 @@ public sealed partial class MainPage : Page
     private async void BrandLockup_Click(object sender, RoutedEventArgs e) =>
         await OpenFixedDestinationAsync(new Uri("https://pengo.gg"), "the Nyx website");
 
-    private async void LatestCard_Click(object sender, RoutedEventArgs e)
+    private void RailSurface_PointerEntered(object sender, Microsoft.UI.Xaml.Input.PointerRoutedEventArgs e) =>
+        AddGameButton.Opacity = 0.9;
+
+    private void RailSurface_PointerExited(object sender, Microsoft.UI.Xaml.Input.PointerRoutedEventArgs e)
     {
-        if (sender is not Button { CommandParameter: string destination }
-            || GameSelector?.SelectedItem is not GameLauncherItem selected
-            || !launcherState.Snapshot.Preferences.FeatureFlags.OfficialNews
-            || !Uri.TryCreate(destination, UriKind.Absolute, out var uri)
-            || !IsApprovedNewsUri(selected.Id, uri))
+        if (!ReferenceEquals(FocusManager.GetFocusedElement(XamlRoot), AddGameButton))
         {
-            return;
+            AddGameButton.Opacity = 0.56;
         }
-        await OpenFixedDestinationAsync(uri, "the official news item");
     }
 
-    private static bool IsApprovedNewsUri(string gameId, Uri uri)
+    private void AddGameButton_GotFocus(object sender, RoutedEventArgs e) =>
+        AddGameButton.Opacity = 0.9;
+
+    private void AddGameButton_LostFocus(object sender, RoutedEventArgs e) =>
+        AddGameButton.Opacity = 0.56;
+
+    private void RedemptionCode_Click(object sender, RoutedEventArgs e)
     {
-        if (uri.Scheme != Uri.UriSchemeHttps || uri.UserInfo.Length != 0 || !uri.IsDefaultPort)
-        {
-            return false;
-        }
-        var host = uri.IdnHost;
-        return gameId switch
-        {
-            "gi" => IsHost(host, "genshin.hoyoverse.com", "sg-hk4e-api.hoyoverse.com", "sg-hk4e-api.hoyolab.com"),
-            "hsr" => IsHost(host, "honkai-star-rail.hoyoverse.com", "sg-hkrpg-api.hoyoverse.com", "sg-hkrpg-api.hoyolab.com"),
-            "zzz" => IsHost(host, "zenless.hoyoverse.com", "sg-announcement-api.hoyoverse.com"),
-            "wuwa" => IsHost(host, "wutheringwaves.kurogames.com"),
-            "ae" => IsHost(host, "endfield.gryphline.com"),
-            _ => false,
-        };
+        if (sender is not Button { CommandParameter: string code }
+            || string.IsNullOrWhiteSpace(code)
+            || GameSelector?.SelectedItem is not GameLauncherItem { IsCustom: false } selected) return;
+        var data = new DataPackage();
+        data.SetText(code);
+        Clipboard.SetContent(data);
+        copiedCodeRow?.ResetCopyState();
+        copiedCodeRow = RedemptionCodeRows.FirstOrDefault(row => string.Equals(row.Code, code, StringComparison.Ordinal));
+        copiedCodeRow?.MarkPreviouslyCopied();
+        copiedCodeRow?.MarkCopied();
+        PersistCopiedRedemptionCode(selected.Id, code);
+        codeCopyResetTimer.Stop();
+        copiedCodeValue = code;
+        codeCopyResetTimer.Start();
+        NyxToolsStatusText.Text = $"Copied {code}.";
     }
 
-    private static bool IsHost(string host, params string[] allowed) =>
-        allowed.Any(candidate => host.Equals(candidate, StringComparison.OrdinalIgnoreCase));
+    private void PersistCopiedRedemptionCode(string gameId, string code)
+    {
+        _ = launcherState.TryUpdate(state =>
+        {
+            var values = state.Preferences.CopiedRedemptionCodes.ToDictionary(
+                static pair => pair.Key,
+                static pair => (IReadOnlyList<string>)pair.Value.ToArray(),
+                StringComparer.Ordinal);
+            var gameCodes = values.TryGetValue(gameId, out var existing)
+                ? existing.ToList()
+                : [];
+            gameCodes.RemoveAll(value => string.Equals(value, code, StringComparison.Ordinal));
+            gameCodes.Insert(0, code);
+            if (gameCodes.Count > 100) gameCodes.RemoveRange(100, gameCodes.Count - 100);
+            values[gameId] = gameCodes.AsReadOnly();
+            return state with
+            {
+                Preferences = state.Preferences with { CopiedRedemptionCodes = values },
+            };
+        });
+    }
+
+    private void CodeCopyResetTimer_Tick(object? sender, object e)
+    {
+        codeCopyResetTimer.Stop();
+        copiedCodeValue = null;
+        copiedCodeRow?.ResetCopyState();
+        copiedCodeRow = null;
+    }
 
     private async void KofiButton_Click(object sender, RoutedEventArgs e) =>
         await OpenFixedDestinationAsync(new Uri("https://ko-fi.com/asyce"), "Ko-fi");
@@ -1218,6 +1766,7 @@ public sealed partial class MainPage : Page
         var hadAutomaticVariant = automaticArtVariants.TryGetValue(selected.Id, out var automaticVariantBefore);
         string? chosenArtVariant = savedAppearance.ArtVariant
             ?? (hadAutomaticVariant ? automaticVariantBefore.VariantId : null);
+        var chosenArtFit = HeroArtFitGeometry.Normalize(savedAppearance.ArtFit);
         var openedAppearance = savedAppearance with
         {
             IconPath = savedAppearance.IconPath ?? selected.IconPath,
@@ -1232,11 +1781,19 @@ public sealed partial class MainPage : Page
         };
         var artScale = new Slider
         {
-            Minimum = 50,
-            Maximum = 250,
+            Minimum = 25,
+            Maximum = 500,
             Value = savedAppearance.ArtScale,
             StepFrequency = 1,
             Header = "Character art scale",
+        };
+        var artScaleNumber = new NumberBox
+        {
+            Header = "Scale %",
+            Minimum = 25,
+            Maximum = 500,
+            Value = savedAppearance.ArtScale,
+            SpinButtonPlacementMode = NumberBoxSpinButtonPlacementMode.Compact,
         };
         var artX = new NumberBox
         {
@@ -1246,6 +1803,14 @@ public sealed partial class MainPage : Page
             Value = savedAppearance.ArtX,
             SpinButtonPlacementMode = NumberBoxSpinButtonPlacementMode.Compact,
         };
+        var artXSlider = new Slider
+        {
+            Header = "Horizontal position",
+            Minimum = -1000,
+            Maximum = 1000,
+            Value = savedAppearance.ArtX,
+            StepFrequency = 1,
+        };
         var artY = new NumberBox
         {
             Header = "Vertical position",
@@ -1254,10 +1819,20 @@ public sealed partial class MainPage : Page
             Value = savedAppearance.ArtY,
             SpinButtonPlacementMode = NumberBoxSpinButtonPlacementMode.Compact,
         };
+        var artYSlider = new Slider
+        {
+            Header = "Vertical position",
+            Minimum = -1000,
+            Maximum = 1000,
+            Value = savedAppearance.ArtY,
+            StepFrequency = 1,
+        };
         var keepArt = new ToggleSwitch
         {
-            Header = "Keep this character-art variant",
+            Header = "Freeze this artwork",
             IsOn = savedAppearance.ArtPinned,
+            OnContent = "Keep this exact splash art",
+            OffContent = "Follow current banners",
         };
         var iconPath = new TextBox
         {
@@ -1281,7 +1856,7 @@ public sealed partial class MainPage : Page
         };
         var refreshOnStartup = new ToggleSwitch
         {
-            Header = "Refresh news and banner art when Nyx opens",
+            Header = "Refresh banners, codes, and artwork when Nyx opens",
             IsOn = before.Preferences.RefreshContentOnStartup,
         };
         var safeNotifications = new ToggleSwitch
@@ -1298,19 +1873,22 @@ public sealed partial class MainPage : Page
             OnContent = "On",
             OffContent = "Off",
         };
-        var officialNews = new ToggleSwitch
-        {
-            Header = "Use official news feed",
-            IsOn = before.Preferences.FeatureFlags.OfficialNews,
-            OnContent = "On",
-            OffContent = "Off",
-        };
         var remoteManifest = new ToggleSwitch
         {
             Header = "Allow remote banner manifest refresh",
             IsOn = before.Preferences.FeatureFlags.RemoteBannerManifest,
             OnContent = "On",
             OffContent = "Off",
+        };
+        var resetOrder = new Button
+        {
+            Content = "RESET GAME ORDER",
+            Style = (Style)Application.Current.Resources["NyxQuietActionStyle"],
+        };
+        var resetLauncherState = new Button
+        {
+            Content = "RESET LAUNCHER STATE",
+            Style = (Style)Application.Current.Resources["NyxQuietActionStyle"],
         };
         var cacheSummary = new TextBlock
         {
@@ -1392,7 +1970,7 @@ public sealed partial class MainPage : Page
             if (path is not null)
             {
                 backgroundPath.Text = path;
-                BackgroundArtwork.Source = new BitmapImage(new Uri(path));
+                SetBackgroundSource(path);
             }
         };
         browseExecutable.Click += async (_, _) =>
@@ -1409,11 +1987,11 @@ public sealed partial class MainPage : Page
         refreshContent.Click += async (_, _) =>
         {
             refreshContent.IsEnabled = false;
-            message.Text = "Refreshing official news and banner art...";
+            message.Text = "Refreshing banners, codes, and artwork...";
             try
             {
                 await app.RefreshContentManualAsync();
-                message.Text = "Official content refreshed."
+                message.Text = "Launcher content refreshed."
                     + (launcherBanners.Current.Health.Status is "ok" ? string.Empty : " Nyx kept the last safe copy.");
                 RenderSelection();
             }
@@ -1509,17 +2087,66 @@ public sealed partial class MainPage : Page
 
         void PreviewArt()
         {
-            if (HeroArtwork.RenderTransform is CompositeTransform transform)
+            var previewAppearance = savedAppearance with
             {
-                transform.ScaleX = artScale.Value / 100d;
-                transform.ScaleY = artScale.Value / 100d;
-                transform.TranslateX = double.IsNaN(artX.Value) ? 0 : artX.Value;
-                transform.TranslateY = double.IsNaN(artY.Value) ? 0 : artY.Value;
+                ArtScale = double.IsNaN(artScale.Value) ? 100 : (int)Math.Round(artScale.Value),
+                ArtX = double.IsNaN(artX.Value) ? 0 : (int)Math.Round(artX.Value),
+                ArtY = double.IsNaN(artY.Value) ? 0 : (int)Math.Round(artY.Value),
+            };
+            var previewAsset = !keepArt.IsOn && automaticArt.IsOn && chosenArtVariant is not null
+                && launcherBanners.Current.Games.TryGetValue(selected.Id, out var previewGame)
+                && previewGame.Current is { } previewCurrent
+                ? previewCurrent.Characters
+                    .SelectMany(character => character.Variants)
+                    .Concat(previewCurrent.Variants)
+                    .FirstOrDefault(asset => asset.Id == chosenArtVariant)
+                : null;
+            if (previewAsset is not null)
+            {
+                var path = launcherBanners.TryResolveManagedAsset(previewAsset);
+                if (path is not null)
+                {
+                    chosenArtFit = HeroArtFitGeometry.Normalize(previewAsset.Placement.Fit);
+                    var presentation = HeroArtFitGeometry.ManagedPresentation(
+                        selected.Id,
+                        previewAsset.Placement.Fit,
+                        previewAsset.Dimensions.Width,
+                        previewAsset.Dimensions.Height);
+                    SetHeroSource(path, BannerAssetStretch(previewAsset.Placement.Fit));
+                    ApplyManagedHeroLayout(
+                        presentation,
+                        previewAsset.Dimensions.Width,
+                        previewAsset.Dimensions.Height);
+                    ApplyHeroTransform(
+                        previewAppearance,
+                        presentation.UsesCenteredCoverGeometry
+                            ? 0
+                            : (previewAsset.Placement.X - 0.5) * HeroStage.ActualWidth,
+                        (previewAsset.Placement.Y - 0.5) * HeroStage.ActualHeight);
+                    return;
+                }
             }
+
+            // Saved and pinned art use the exact same transform as this preview;
+            // only automatic banner placement adds a manifest focal offset.
+            ApplyHeroTransform(previewAppearance);
         }
-        artScale.ValueChanged += (_, _) => PreviewArt();
-        artX.ValueChanged += (_, _) => PreviewArt();
-        artY.ValueChanged += (_, _) => PreviewArt();
+        var syncingArtControls = false;
+        void SyncPair(Slider slider, NumberBox number, double value)
+        {
+            if (syncingArtControls) return;
+            syncingArtControls = true;
+            slider.Value = value;
+            number.Value = value;
+            syncingArtControls = false;
+            PreviewArt();
+        }
+        artScale.ValueChanged += (_, args) => SyncPair(artScale, artScaleNumber, args.NewValue);
+        artScaleNumber.ValueChanged += (_, args) => SyncPair(artScale, artScaleNumber, double.IsNaN(args.NewValue) ? 100 : args.NewValue);
+        artXSlider.ValueChanged += (_, args) => SyncPair(artXSlider, artX, args.NewValue);
+        artX.ValueChanged += (_, args) => SyncPair(artXSlider, artX, double.IsNaN(args.NewValue) ? 0 : args.NewValue);
+        artYSlider.ValueChanged += (_, args) => SyncPair(artYSlider, artY, args.NewValue);
+        artY.ValueChanged += (_, args) => SyncPair(artYSlider, artY, double.IsNaN(args.NewValue) ? 0 : args.NewValue);
         resetAppearance.Click += (_, _) =>
         {
             automaticArt.IsOn = true;
@@ -1531,7 +2158,7 @@ public sealed partial class MainPage : Page
             automaticArtVariants.Remove(selected.Id);
             iconPath.Text = selected.IsCustom ? custom?.IconPath ?? selected.IconPath : IconPaths[selected.Id];
             backgroundPath.Text = string.Empty;
-            BackgroundArtwork.Source = new BitmapImage(new Uri("ms-appx:///Assets/backgroundnyx.png"));
+            SetBackgroundSource("ms-appx:///Assets/backgroundnyx.png");
             PreviewArt();
         };
         tryAnother.Click += (_, _) =>
@@ -1550,141 +2177,185 @@ public sealed partial class MainPage : Page
                 : variants.ToList().FindIndex(asset => asset.Id == chosenArtVariant);
             var next = variants[(currentIndex + 1) % variants.Count];
             chosenArtVariant = next.Id;
+            chosenArtFit = HeroArtFitGeometry.Normalize(next.Placement.Fit);
             automaticArtVariants[selected.Id] = (launcherBanners.Current.Revision, next.Id);
             keepArt.IsOn = false;
             var path = launcherBanners.TryResolveManagedAsset(next);
             if (path is not null)
             {
-                HeroArtwork.Source = new BitmapImage(new Uri(path));
-                HeroArtwork.Stretch = next.Placement.Fit == "contain" ? Stretch.Uniform : Stretch.UniformToFill;
+                SetHeroSource(path, BannerAssetStretch(next.Placement.Fit));
                 PreviewArt();
             }
         };
 
-        var order = new ObservableCollection<GameOrderItem>(before.RailOrder.Select(id =>
-            new GameOrderItem(id, Games.FirstOrDefault(game => game.Id == id)?.DisplayName ?? id)));
-        var orderList = new ListView
+        Grid SliderRow(Slider slider, NumberBox number)
         {
-            Height = 180,
-            ItemsSource = order,
-            DisplayMemberPath = nameof(GameOrderItem.DisplayName),
-            SelectionMode = ListViewSelectionMode.Single,
-        };
-        var moveUp = new Button { Content = "MOVE UP", Style = (Style)Application.Current.Resources["NyxQuietActionStyle"] };
-        var moveDown = new Button { Content = "MOVE DOWN", Style = (Style)Application.Current.Resources["NyxQuietActionStyle"] };
-        var resetOrder = new Button { Content = "RESET ORDER", Style = (Style)Application.Current.Resources["NyxQuietActionStyle"] };
-        moveUp.Click += (_, _) => MoveOrderItem(orderList, order, -1);
-        moveDown.Click += (_, _) => MoveOrderItem(orderList, order, 1);
-        resetOrder.Click += (_, _) =>
-        {
-            order.Clear();
-            foreach (var game in GameCatalog.All) order.Add(new(game.Id, game.DisplayName));
-            foreach (var game in before.CustomGames.OrderBy(game => game.CreationOrder)) order.Add(new(game.Id, game.Name));
-        };
+            var row = new Grid { ColumnSpacing = 12 };
+            row.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
+            row.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(140) });
+            row.Children.Add(slider);
+            Grid.SetColumn(number, 1);
+            row.Children.Add(number);
+            return row;
+        }
 
-        var content = new StackPanel { Width = 560, Spacing = 14 };
-        ApplyNyxAccentResources(content.Resources);
-        content.Children.Add(new TextBlock
+        var appearancePanel = new StackPanel { Spacing = 10 };
+        appearancePanel.Children.Add(automaticArt);
+        appearancePanel.Children.Add(SliderRow(artScale, artScaleNumber));
+        appearancePanel.Children.Add(SliderRow(artXSlider, artX));
+        appearancePanel.Children.Add(SliderRow(artYSlider, artY));
+        appearancePanel.Children.Add(keepArt);
+        appearancePanel.Children.Add(new TextBlock
         {
-            Text = selected.DisplayName,
-            FontFamily = (FontFamily)Application.Current.Resources["NyxDisplayFont"],
-            FontSize = 30,
-            Foreground = (Brush)Application.Current.Resources["MoonBrush"],
+            Text = "Freeze keeps the exact splash art you see now. Leave it off to switch automatically when banners change.",
+            Foreground = (Brush)Application.Current.Resources["MistBrush"],
+            FontSize = 11,
+            TextWrapping = TextWrapping.Wrap,
         });
-        content.Children.Add(new TextBlock
-        {
-            Text = "Appearance",
-            Style = (Style)Application.Current.Resources["NyxEyebrowTextStyle"],
-        });
-        content.Children.Add(automaticArt);
-        content.Children.Add(artScale);
-        var position = new Grid { ColumnSpacing = 10 };
-        position.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
-        position.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
-        position.Children.Add(artX);
-        Grid.SetColumn(artY, 1);
-        position.Children.Add(artY);
-        content.Children.Add(position);
-        content.Children.Add(keepArt);
-        content.Children.Add(iconPath);
-        content.Children.Add(backgroundPath);
-        content.Children.Add(new StackPanel
+        appearancePanel.Children.Add(iconPath);
+        appearancePanel.Children.Add(backgroundPath);
+        appearancePanel.Children.Add(new StackPanel
         {
             Orientation = Orientation.Horizontal,
             Spacing = 8,
             Children = { browseIcon, browseBackground, tryAnother, resetAppearance },
         });
+
+        var launcherPanel = new StackPanel { Spacing = 10 };
+        launcherPanel.Children.Add(stayVisible);
+        launcherPanel.Children.Add(refreshOnStartup);
+        launcherPanel.Children.Add(safeNotifications);
+        launcherPanel.Children.Add(globalAutomaticArt);
+        launcherPanel.Children.Add(remoteManifest);
+        launcherPanel.Children.Add(new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 8,
+            Children = { resetOrder, resetLauncherState },
+        });
+        launcherPanel.Children.Add(new TextBlock
+        {
+            Text = "To reorder games, close Settings and drag their icons directly on the launcher rail.",
+            Foreground = (Brush)Application.Current.Resources["MistBrush"],
+            TextWrapping = TextWrapping.Wrap,
+        });
+
+        var recoveryPanel = new StackPanel { Spacing = 12 };
+        recoveryPanel.Children.Add(cacheSummary);
+        recoveryPanel.Children.Add(new StackPanel { Orientation = Orientation.Horizontal, Spacing = 8, Children = { refreshContent, clearCache } });
+        recoveryPanel.Children.Add(new StackPanel { Orientation = Orientation.Horizontal, Spacing = 8, Children = { openData, openExports } });
+        recoveryPanel.Children.Add(new StackPanel { Orientation = Orientation.Horizontal, Spacing = 8, Children = { copyDiagnostics, rediscover } });
+        recoveryPanel.Children.Add(new StackPanel { Orientation = Orientation.Horizontal, Spacing = 8, Children = { resetSavedAppearance, restoreSettings } });
+
+        var customPanel = new StackPanel { Spacing = 10 };
+        customPanel.Children.Add(customName);
+        customPanel.Children.Add(customExecutable);
+        customPanel.Children.Add(browseExecutable);
+        customPanel.Children.Add(customRuntime);
+        customPanel.Children.Add(browseRuntime);
+        customPanel.Children.Add(customArguments);
+        customPanel.Children.Add(customAdmin);
+
+        var panels = new List<FrameworkElement> { appearancePanel, launcherPanel, recoveryPanel };
+        var tabNames = new List<string> { "Appearance", "Launcher", "Recovery" };
         if (selected.IsCustom)
         {
-            content.Children.Add(new TextBlock { Text = "CUSTOM GAME", Style = (Style)Application.Current.Resources["NyxEyebrowTextStyle"] });
-            content.Children.Add(customName);
-            content.Children.Add(customExecutable);
-            content.Children.Add(browseExecutable);
-            content.Children.Add(customRuntime);
-            content.Children.Add(browseRuntime);
-            content.Children.Add(customArguments);
-            content.Children.Add(customAdmin);
+            panels.Add(customPanel);
+            tabNames.Add("Custom game");
         }
-        content.Children.Add(new TextBlock { Text = "GAME ORDER", Style = (Style)Application.Current.Resources["NyxEyebrowTextStyle"] });
-        content.Children.Add(orderList);
-        content.Children.Add(new StackPanel { Orientation = Orientation.Horizontal, Spacing = 8, Children = { moveUp, moveDown, resetOrder } });
-        content.Children.Add(new TextBlock
+        var panelHost = new Grid();
+        foreach (var panel in panels)
         {
-            Text = "Launcher",
-            Style = (Style)Application.Current.Resources["NyxEyebrowTextStyle"],
-        });
-        content.Children.Add(stayVisible);
-        content.Children.Add(refreshOnStartup);
-        content.Children.Add(safeNotifications);
-        content.Children.Add(globalAutomaticArt);
-        content.Children.Add(officialNews);
-        content.Children.Add(remoteManifest);
-        content.Children.Add(new TextBlock
+            panelHost.Children.Add(new ScrollViewer
+            {
+                VerticalScrollBarVisibility = ScrollBarVisibility.Auto,
+                Content = panel,
+                Visibility = Visibility.Collapsed,
+            });
+        }
+        ((ScrollViewer)panelHost.Children[0]).Visibility = Visibility.Visible;
+        var tabs = new ListView
         {
-            Text = "Recovery & diagnostics",
-            Style = (Style)Application.Current.Resources["NyxEyebrowTextStyle"],
-        });
-        content.Children.Add(cacheSummary);
-        content.Children.Add(new StackPanel
+            Width = 150,
+            ItemsSource = tabNames,
+            SelectedIndex = 0,
+            SelectionMode = ListViewSelectionMode.Single,
+        };
+        tabs.SelectionChanged += (_, _) =>
         {
-            Orientation = Orientation.Horizontal,
-            Spacing = 8,
-            Children = { refreshContent, clearCache },
-        });
-        content.Children.Add(new StackPanel
+            for (var index = 0; index < panelHost.Children.Count; index++)
+                panelHost.Children[index].Visibility = index == tabs.SelectedIndex ? Visibility.Visible : Visibility.Collapsed;
+        };
+
+        // ContentDialog is centered by WinUI, so keep a small edge allowance
+        // instead of forcing a desktop-sized dialog onto narrow windows.
+        var settingsWidth = Math.Clamp(ActualWidth - 32, 320, 1180);
+        var settingsHeight = Math.Clamp(ActualHeight - 154, 440, 650);
+        var settingsInset = settingsWidth < 720 ? 40 : 64;
+        var settingsTabWidth = settingsWidth < 720 ? 112 : 160;
+        var settingsColumnGap = settingsWidth < 720 ? 12 : 24;
+        var content = new Grid
         {
-            Orientation = Orientation.Horizontal,
-            Spacing = 8,
-            Children = { openData, openExports },
-        });
-        content.Children.Add(new StackPanel
-        {
-            Orientation = Orientation.Horizontal,
-            Spacing = 8,
-            Children = { copyDiagnostics, rediscover },
-        });
-        content.Children.Add(new StackPanel
-        {
-            Orientation = Orientation.Horizontal,
-            Spacing = 8,
-            Children = { resetSavedAppearance, restoreSettings },
-        });
+            Width = Math.Max(248, settingsWidth - settingsInset),
+            Height = settingsHeight,
+            ColumnSpacing = settingsColumnGap,
+        };
+        ApplyNyxAccentResources(content.Resources);
+        content.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(settingsTabWidth) });
+        content.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
+        content.RowDefinitions.Add(new RowDefinition { Height = new GridLength(1, GridUnitType.Star) });
+        content.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto });
+        Grid.SetRow(tabs, 0);
+        content.Children.Add(tabs);
+        Grid.SetRow(panelHost, 0);
+        Grid.SetColumn(panelHost, 1);
+        content.Children.Add(panelHost);
+        Grid.SetRow(message, 1);
+        Grid.SetColumn(message, 1);
+        message.Margin = new Thickness(0, 8, 0, 0);
         content.Children.Add(message);
+
+        var settingsTitle = new Grid
+        {
+            Height = 36,
+            Background = new SolidColorBrush(Microsoft.UI.Colors.Transparent),
+        };
+        var settingsTitleText = new TextBlock
+        {
+            Text = $"Settings - {selected.DisplayName}",
+            VerticalAlignment = VerticalAlignment.Center,
+            FontFamily = (FontFamily)Application.Current.Resources["NyxBodyFont"],
+            FontSize = 16,
+            FontWeight = Microsoft.UI.Text.FontWeights.SemiBold,
+            Foreground = (Brush)Application.Current.Resources["MoonBrush"],
+        };
+        settingsTitle.Children.Add(settingsTitleText);
+        AutomationProperties.SetName(settingsTitle, "Drag the Settings window");
+        settingsTitle.PointerPressed += (_, args) =>
+        {
+            if (!args.GetCurrentPoint(settingsTitle).Properties.IsLeftButtonPressed)
+            {
+                return;
+            }
+
+            if (Application.Current is App currentApp)
+            {
+                currentApp.BeginWindowDrag();
+                args.Handled = true;
+            }
+        };
 
         var dialog = new ContentDialog
         {
             XamlRoot = XamlRoot,
-            Title = "Settings",
-            Background = (Brush)Application.Current.Resources["GlassDeckBrush"],
+            Title = settingsTitle,
+            Background = (Brush)Application.Current.Resources["SettingsSurfaceBrush"],
             BorderBrush = (Brush)Application.Current.Resources["DeckBorderBrush"],
             BorderThickness = new Thickness(1),
             CornerRadius = new CornerRadius(14),
-            Content = new ScrollViewer
-            {
-                MaxHeight = 620,
-                VerticalScrollBarVisibility = ScrollBarVisibility.Auto,
-                Content = content,
-            },
+            MinWidth = settingsWidth,
+            MaxWidth = settingsWidth,
+            Content = content,
             PrimaryButtonText = "Save",
             SecondaryButtonText = selected.IsCustom ? "Delete Game" : string.Empty,
             CloseButtonText = "Cancel",
@@ -1694,6 +2365,52 @@ public sealed partial class MainPage : Page
             CloseButtonStyle = (Style)Application.Current.Resources["NyxDialogQuietStyle"],
         };
         ApplyNyxAccentResources(dialog.Resources);
+        dialog.Resources["ContentDialogMinWidth"] = settingsWidth;
+        dialog.Resources["ContentDialogMaxWidth"] = settingsWidth;
+        var resetOrderConfirmationArmed = false;
+        var resetLauncherConfirmationArmed = false;
+        resetOrder.Click += (_, _) =>
+        {
+            if (!resetOrderConfirmationArmed)
+            {
+                resetOrderConfirmationArmed = true;
+                resetOrder.Content = "CONFIRM RESET ORDER";
+                message.Text = "Press Confirm reset order to restore GI, HSR, ZZZ, WuWa, Endfield, then custom games. No game is deleted.";
+                return;
+            }
+
+            if (launcherState.TryUpdate(LauncherSettingsStateMerge.ResetRailOrder))
+            {
+                resetOrderConfirmationArmed = false;
+                resetOrder.Content = "RESET GAME ORDER";
+                RebuildAfterStateRecovery();
+                message.Text = "Game order reset. Games and settings were kept.";
+            }
+            else
+            {
+                message.Text = "Nyx could not save the new order. Your previous order is still safe.";
+            }
+        };
+        resetLauncherState.Click += (_, _) =>
+        {
+            if (!resetLauncherConfirmationArmed)
+            {
+                resetLauncherConfirmationArmed = true;
+                resetLauncherState.Content = "CONFIRM RESET STATE";
+                message.Text = "Press Confirm reset state to restore launcher settings only. Accounts, cache, downloads, exports, and files stay untouched.";
+                return;
+            }
+
+            if (launcherState.TryReset())
+            {
+                dialog.Hide();
+                RebuildAfterStateRecovery();
+            }
+            else
+            {
+                message.Text = "Nyx could not reset launcher settings. Your previous settings are still safe.";
+            }
+        };
         var saveSucceeded = false;
         string? newlyPinnedArtFile = null;
         dialog.PrimaryButtonClick += (_sender, args) =>
@@ -1754,6 +2471,7 @@ public sealed partial class MainPage : Page
                     if (chosenAsset is not null
                         && (!savedPinIsUsable || !string.Equals(chosenArtVariant, savedAppearance.ArtVariant, StringComparison.Ordinal)))
                     {
+                        chosenArtFit = HeroArtFitGeometry.Normalize(chosenAsset.Placement.Fit);
                         newlyPinnedArtFile = launcherBanners.PinUserArt(selected.Id, chosenAsset);
                         pinnedArtFile = newlyPinnedArtFile;
                     }
@@ -1782,16 +2500,16 @@ public sealed partial class MainPage : Page
                         ArtX = double.IsNaN(artX.Value) ? 0 : (int)Math.Round(artX.Value),
                         ArtY = double.IsNaN(artY.Value) ? 0 : (int)Math.Round(artY.Value),
                         ArtVariant = chosenArtVariant,
+                        ArtFit = chosenArtFit,
                         ArtPinned = keepArt.IsOn,
                         PinnedArtFile = pinnedArtFile,
                     },
                     CustomGame = updatedCustom,
-                    RailOrder = order.Select(item => item.Id).ToArray(),
+                    RailOrder = launcherState.Snapshot.RailOrder,
                     StayVisibleAfterLaunch = stayVisible.IsOn,
                     RefreshContentOnStartup = refreshOnStartup.IsOn,
                     SafeNotifications = safeNotifications.IsOn,
                     AutomaticArt = globalAutomaticArt.IsOn,
-                    OfficialNews = officialNews.IsOn,
                     RemoteBannerManifest = remoteManifest.IsOn,
                 };
                 saveSucceeded = launcherState.TryUpdate(
@@ -1820,7 +2538,6 @@ public sealed partial class MainPage : Page
                 }
 
                 if ((globalAutomaticArt.IsOn && !before.Preferences.FeatureFlags.AutomaticArt)
-                    || (officialNews.IsOn && !before.Preferences.FeatureFlags.OfficialNews)
                     || (remoteManifest.IsOn && !before.Preferences.FeatureFlags.RemoteBannerManifest))
                 {
                     _ = app.RefreshContentManualAsync();
@@ -1882,25 +2599,6 @@ public sealed partial class MainPage : Page
         }
     }
 
-    private static void MoveOrderItem(
-        ListView list,
-        ObservableCollection<GameOrderItem> order,
-        int offset)
-    {
-        if (list.SelectedItem is not GameOrderItem selected)
-        {
-            return;
-        }
-        var index = order.IndexOf(selected);
-        var target = index + offset;
-        if (index < 0 || target < 0 || target >= order.Count)
-        {
-            return;
-        }
-        order.Move(index, target);
-        list.SelectedItem = selected;
-    }
-
     private async Task ShowAddGameDialogAsync()
     {
         if (XamlRoot is null)
@@ -1959,9 +2657,10 @@ public sealed partial class MainPage : Page
             return row;
         }
 
+        var addGameWidth = Math.Clamp(ActualWidth - 32, 320, 744);
         var content = new StackPanel
         {
-            Width = 500,
+            Width = Math.Max(248, addGameWidth - 48),
             Spacing = 12,
             Children = { message, name, PickerRow(executable, chooseExecutable), PickerRow(icon, chooseIcon) },
         };
@@ -1969,11 +2668,22 @@ public sealed partial class MainPage : Page
         {
             XamlRoot = XamlRoot,
             Title = "Add Game",
+            Background = (Brush)Application.Current.Resources["SettingsSurfaceBrush"],
+            BorderBrush = (Brush)Application.Current.Resources["DeckBorderBrush"],
+            BorderThickness = new Thickness(1),
+            CornerRadius = new CornerRadius(14),
+            MinWidth = addGameWidth,
+            MaxWidth = addGameWidth,
             Content = content,
             PrimaryButtonText = "Add Game",
             CloseButtonText = "Cancel",
             DefaultButton = ContentDialogButton.Primary,
+            PrimaryButtonStyle = (Style)Application.Current.Resources["NyxDialogPrimaryStyle"],
+            CloseButtonStyle = (Style)Application.Current.Resources["NyxDialogQuietStyle"],
         };
+        ApplyNyxAccentResources(dialog.Resources);
+        dialog.Resources["ContentDialogMinWidth"] = addGameWidth;
+        dialog.Resources["ContentDialogMaxWidth"] = addGameWidth;
         CustomGameDefinition? addedGame = null;
         dialog.PrimaryButtonClick += (_, args) =>
         {
@@ -2100,20 +2810,6 @@ public sealed partial class MainPage : Page
             NyxToolsStatusText.Text = "Canceling this export safely…";
     }
 
-    private void ConfirmWorldButton_Click(object sender, RoutedEventArgs e)
-    {
-        if (GameSelector?.SelectedItem is GameLauncherItem selected
-            && exportSignals.ConfirmWorldReady(selected.Id))
-            NyxToolsStatusText.Text = "Achievements: collecting the complete list...";
-    }
-
-    private void ConfirmHistoryButton_Click(object sender, RoutedEventArgs e)
-    {
-        if (GameSelector?.SelectedItem is GameLauncherItem selected
-            && exportSignals.ConfirmHistory(selected.Id))
-            NyxToolsStatusText.Text = "Pulls: collecting history...";
-    }
-
     private async Task TrackExportJobAsync(string gameId, Guid jobId, SessionUiLease lease)
     {
         while (!lease.CancellationToken.IsCancellationRequested)
@@ -2156,18 +2852,6 @@ public sealed partial class MainPage : Page
             }));
     }
 
-    private void LatestContent_Updated(object? sender, EventArgs e)
-    {
-        var lease = pageLease;
-        if (lease is null)
-        {
-            return;
-        }
-
-        _ = DispatcherQueue.TryEnqueue(() =>
-            sessionUiLifetime.TryRun(lease, RenderLatestContent));
-    }
-
     private void LauncherBanners_Updated(object? sender, EventArgs e)
     {
         var lease = pageLease;
@@ -2177,7 +2861,16 @@ public sealed partial class MainPage : Page
         }
 
         _ = DispatcherQueue.TryEnqueue(() =>
-            sessionUiLifetime.TryRun(lease, RenderSelection));
+            sessionUiLifetime.TryRun(lease, () =>
+            {
+                if (GameSelector?.SelectedItem is GameLauncherItem selected)
+                {
+                    bannerRotationIndex = GetPreferredBannerStartIndex(selected.Id);
+                    bannerRotationStartedAt = DateTimeOffset.UtcNow;
+                }
+
+                RenderSelection();
+            }));
     }
 
     private void PublisherStatus_Updated(object? sender, EventArgs e)
@@ -2192,15 +2885,48 @@ public sealed partial class MainPage : Page
             sessionUiLifetime.TryRun(lease, RenderSelection));
     }
 
+    private void PublisherAccounts_Updated(object? sender, EventArgs e)
+    {
+        var lease = pageLease;
+        if (lease is null) return;
+        _ = DispatcherQueue.TryEnqueue(() => sessionUiLifetime.TryRun(lease, RenderSelection));
+    }
+
     private void GameSelector_SelectionChanged(object sender, SelectionChangedEventArgs e)
     {
+        bannerRotationIndex = GameSelector?.SelectedItem is GameLauncherItem selectedForRotation
+            ? GetPreferredBannerStartIndex(selectedForRotation.Id)
+            : 0;
+        bannerRotationStartedAt = DateTimeOffset.UtcNow;
+        bannerRotationPauseStartedAt = null;
+        bannerRotationProgressAtPause = 0;
+        bannerPinnedGameId = null;
+        bannerPinnedCharacterId = null;
         if (GameSelector?.SelectedItem is GameLauncherItem selected
             && !string.Equals(lastArtSelectionGameId, selected.Id, StringComparison.Ordinal))
         {
             lastArtSelectionGameId = selected.Id;
             automaticArtVariants.Remove(selected.Id);
+            if (selected.Id == "wuwa" && IsWuWaAccountStatusEnabled())
+                wuwaAccountInitialRefreshRequested = false;
         }
+        if (bannerRotationPaused)
+        {
+            PauseBannerRotation();
+        }
+        UpdateBannerRotationTimerState();
         RenderSelection();
+    }
+
+    private void GameSelector_DragItemsCompleted(ListViewBase sender, DragItemsCompletedEventArgs args)
+    {
+        var selectedId = (GameSelector.SelectedItem as GameLauncherItem)?.Id;
+        var reordered = Games.Select(static game => game.Id).ToArray();
+        if (!launcherState.TryUpdate(state => state with { RailOrder = reordered }))
+        {
+            RebuildGameRail(launcherState.Snapshot);
+        }
+        GameSelector.SelectedItem = Games.FirstOrDefault(game => game.Id == selectedId) ?? Games.FirstOrDefault();
     }
 
     private void GameSelector_Loaded(object sender, RoutedEventArgs e) =>
@@ -2218,33 +2944,28 @@ public sealed partial class MainPage : Page
 
         var profile = LauncherLayoutStateSelector.CreateProfile(width, height);
         var horizontal = profile.UsesHorizontalRail;
+        var accountStatusExtra = WuWaAccountStatusStrip.Visibility is Visibility.Visible ? PublisherAccountStatusLayoutHeight : 0d;
 
         foreach (var game in Games)
         {
             game.ApplyLayout(profile);
         }
 
-        HeroTitle.FontSize = profile.TitleSize;
         ContentPanel.MaxWidth = profile.ContentWidth;
         ContentScroll.MaxWidth = profile.ContentWidth;
         HeroStage.Width = profile.UsesHorizontalRail
             ? profile.HeroWidth
-            : Math.Max(profile.HeroWidth, width + 70);
-        HeroArtwork.Opacity = profile.State switch
-        {
-            LauncherLayoutState.Compact => 0.34,
-            LauncherLayoutState.Horizontal => 0.58,
-            LauncherLayoutState.Wide => 0.68,
-            _ => 0.78,
-        };
-        CommandDeck.Height = profile.DeckHeight;
+            : profile.HeroWidth;
+        HeroArtwork.Opacity = 1;
+        CommandDeck.Height = profile.DeckHeight + accountStatusExtra;
+        LaunchStack.Width = profile.LaunchWidth;
         LaunchButton.Width = profile.LaunchWidth;
         LaunchButton.Height = profile.State switch
         {
             LauncherLayoutState.Compact => 72,
             LauncherLayoutState.Horizontal => 62,
-            LauncherLayoutState.Wide => 96,
-            _ => 104,
+            LauncherLayoutState.Wide => 110,
+            _ => 92,
         };
         ApplyVerticalDensity(profile, height);
         ApplyMaintenanceLayout(profile.State);
@@ -2281,17 +3002,18 @@ public sealed partial class MainPage : Page
             Grid.SetRow(BrandLockup, 0);
             Grid.SetRowSpan(BrandLockup, 1);
             BrandLockup.Width = profile.State is LauncherLayoutState.Compact ? 92 : 116;
-            BrandLockup.Margin = new Thickness(12, 48, 0, 6);
+            BrandLockup.Margin = new Thickness(10, 32, 0, 4);
             BrandLockup.HorizontalAlignment = HorizontalAlignment.Left;
             BrandLockup.VerticalAlignment = VerticalAlignment.Center;
+            BrandLogo.Width = profile.State is LauncherLayoutState.Compact ? 84 : 106;
+            BrandLogo.Height = profile.State is LauncherLayoutState.Compact ? 72 : 88;
+            BrandLogo.Margin = new Thickness(0);
             AddGameButton.Visibility = Visibility.Visible;
-            AddGameButton.Width = 52;
-            AddGameButton.Margin = new Thickness(0, 52, 12, 0);
+            AddGameButton.Width = profile.IconSize;
+            AddGameButton.Height = profile.IconSize;
+            AddGameButton.Margin = new Thickness(0, 0, 8, 0);
             AddGameButton.HorizontalAlignment = HorizontalAlignment.Right;
             AddGameButton.VerticalAlignment = VerticalAlignment.Center;
-            AddGameLabel.Visibility = Visibility.Collapsed;
-            Grid.SetRow(AddGameButton, 0);
-            Grid.SetRowSpan(AddGameButton, 1);
             KofiButton.Visibility = Visibility.Collapsed;
 
             Grid.SetRow(GameSelector, 0);
@@ -2323,17 +3045,13 @@ public sealed partial class MainPage : Page
                 profile.OuterPadding,
                 18,
                 profile.OuterPadding,
-                profile.DeckHeight + 22);
+                profile.DeckHeight + toolLayoutExtraHeight + (WuWaAccountStatusStrip.Visibility is Visibility.Visible ? PublisherAccountStatusLayoutHeight : 0d) + 22);
 
             Grid.SetRow(CommandDeck, 1);
             Grid.SetRowSpan(CommandDeck, 1);
             Grid.SetColumn(CommandDeck, 0);
             Grid.SetColumnSpan(CommandDeck, 3);
-            CommandDeck.Margin = new Thickness(
-                profile.OuterPadding,
-                0,
-                profile.OuterPadding,
-                18);
+            CommandDeck.Margin = new Thickness(0);
             return;
         }
 
@@ -2351,26 +3069,30 @@ public sealed partial class MainPage : Page
         RailSurface.VerticalAlignment = VerticalAlignment.Stretch;
         RailSurface.BorderThickness = new Thickness(0, 0, 1, 0);
 
-        RailBrandRow.Height = new GridLength(105);
+        RailBrandRow.Height = new GridLength(
+            profile.State is LauncherLayoutState.Expanded ? 104 : 90);
         RailContentRow.Height = new GridLength(1, GridUnitType.Star);
         RailAddRow.Height = GridLength.Auto;
         RailSpacerRow.Height = new GridLength(0);
         RailFooterRow.Height = new GridLength(54);
         Grid.SetRow(BrandLockup, 0);
         Grid.SetRowSpan(BrandLockup, 1);
-        BrandLockup.Width = double.NaN;
-        BrandLockup.Margin = new Thickness(8, 42, 8, 0);
+        BrandLockup.Width = profile.RailExtent - 4;
+        BrandLockup.Height = profile.State is LauncherLayoutState.Expanded ? 104 : 90;
+        BrandLockup.Margin = new Thickness(2, 0, 2, 0);
         BrandLockup.HorizontalAlignment = HorizontalAlignment.Center;
         BrandLockup.VerticalAlignment = VerticalAlignment.Top;
+        BrandLogo.Width = profile.RailExtent - 10;
+        BrandLogo.Height = profile.State is LauncherLayoutState.Expanded ? 92 : 80;
+        BrandLogo.Margin = new Thickness(0, 7, 0, 0);
         AddGameButton.Visibility = Visibility.Visible;
-        AddGameButton.Width = Math.Max(72, profile.RailExtent - 24);
-        AddGameButton.Margin = new Thickness(12, 8, 12, 8);
+        AddGameButton.Width = profile.IconSize;
+        AddGameButton.Height = profile.IconSize;
+        AddGameButton.Margin = new Thickness(0);
         AddGameButton.HorizontalAlignment = HorizontalAlignment.Center;
         AddGameButton.VerticalAlignment = VerticalAlignment.Center;
-        AddGameLabel.Visibility = Visibility.Visible;
-        Grid.SetRow(AddGameButton, 2);
-        Grid.SetRowSpan(AddGameButton, 1);
         KofiButton.Visibility = Visibility.Visible;
+        KofiButton.Width = Math.Max(78, profile.RailExtent - 10);
         Grid.SetRow(KofiButton, 4);
 
         Grid.SetRow(GameSelector, 1);
@@ -2381,7 +3103,7 @@ public sealed partial class MainPage : Page
         GameSelector.Height = double.NaN;
         GameSelector.Margin = new Thickness(0);
         GameSelector.HorizontalAlignment = HorizontalAlignment.Left;
-        GameSelector.VerticalAlignment = VerticalAlignment.Center;
+        GameSelector.VerticalAlignment = VerticalAlignment.Top;
         ScrollViewer.SetHorizontalScrollMode(GameSelector, ScrollMode.Disabled);
         ScrollViewer.SetHorizontalScrollBarVisibility(GameSelector, ScrollBarVisibility.Hidden);
         ScrollViewer.SetVerticalScrollMode(GameSelector, ScrollMode.Enabled);
@@ -2394,118 +3116,265 @@ public sealed partial class MainPage : Page
         ContentScroll.Width = profile.ContentWidth;
         ContentScroll.HorizontalAlignment = HorizontalAlignment.Left;
         ContentScroll.VerticalAlignment = VerticalAlignment.Stretch;
-        ContentScroll.Margin = new Thickness(
-            52,
-            76,
-            24,
-            profile.DeckHeight + 42);
+        ContentScroll.Margin = profile.State is LauncherLayoutState.Wide
+            ? new Thickness(
+                30,
+                38,
+                18,
+                profile.DeckHeight + toolLayoutExtraHeight
+                + (WuWaAccountStatusStrip.Visibility is Visibility.Visible ? PublisherAccountStatusLayoutHeight : 0d)
+                + 11)
+            : new Thickness(
+                30,
+                20,
+                18,
+                profile.DeckHeight + toolLayoutExtraHeight
+                + (WuWaAccountStatusStrip.Visibility is Visibility.Visible ? PublisherAccountStatusLayoutHeight : 0d)
+                + 42);
 
         Grid.SetRow(CommandDeck, 0);
         Grid.SetRowSpan(CommandDeck, 2);
         Grid.SetColumn(CommandDeck, 1);
         Grid.SetColumnSpan(CommandDeck, 2);
-        CommandDeck.Margin = new Thickness(
-            26,
-            0,
-            profile.OuterPadding,
-            22);
+        CommandDeck.Margin = new Thickness(0);
     }
 
     private void ApplyCommandDeckLayout(LauncherLayoutProfile profile, double width)
     {
         var compact = profile.State is LauncherLayoutState.Compact;
         var horizontal = profile.State is LauncherLayoutState.Horizontal;
+        compactCodeRows = compact;
+        var accountStatusExtra = WuWaAccountStatusStrip.Visibility is Visibility.Visible ? PublisherAccountStatusLayoutHeight : 0d;
         var horizontalDeck = horizontal
             || (profile.State is LauncherLayoutState.Wide
                 && width < LauncherViewportGeometry.NarrowWideDeckWidth);
+        toolLayoutExtraHeight = 0;
+        CommandDeck.Height = profile.DeckHeight + accountStatusExtra;
 
         CommandDeck.Padding = compact
             ? new Thickness(12, 12, 12, 12)
             : horizontalDeck
                 ? new Thickness(14, 9, 14, 9)
-                : new Thickness(26, 20, 26, 20);
-        CommandDeckGrid.ColumnSpacing = compact ? 0 : horizontalDeck ? 12 : 20;
-        CommandDeckGrid.RowSpacing = compact ? 8 : 0;
+                : profile.State is LauncherLayoutState.Wide
+                    ? new Thickness(26, 8, 26, 8)
+                    : new Thickness(26, 8, 26, 8);
+        CommandDeckGrid.ColumnSpacing = compact
+            ? 0
+            : horizontalDeck ? 12 : profile.State is LauncherLayoutState.Wide ? 16 : 20;
+        CommandDeckGrid.RowSpacing = compact || horizontalDeck ? 8 : 6;
 
         SignalPanel.MinWidth = 0;
-        MaintenanceResponsibilityText.Visibility = horizontalDeck || compact
-            ? Visibility.Collapsed
-            : Visibility.Visible;
-        PengoToolsLabel.Visibility = horizontalDeck || compact
-            ? Visibility.Collapsed
-            : Visibility.Visible;
-        PengoToolButtons.Margin = horizontalDeck || compact
-            ? new Thickness(0, 0, 0, 0)
-            : new Thickness(0, 8, 0, 0);
+        ApplyCombinedStatusLayout(compact, horizontalDeck, profile.State);
+        CombinedStatusGrid.ColumnSpacing = compact ? 12 : 16;
+        CombinedStatusGrid.RowSpacing = compact ? 2 : 8;
+        PengoToolsLabel.Visibility = Visibility.Collapsed;
+        PengoToolButtons.Margin = new Thickness(0);
         UpdaterSignalRow.Margin = compact
             ? new Thickness(LauncherViewportGeometry.CompactOfficialInset, 0, 0, 0)
             : new Thickness(0, 0, 0, 0);
         NyxToolsPanel.Margin = new Thickness(0);
-        SignalStack.Visibility = horizontalDeck ? Visibility.Collapsed : Visibility.Visible;
-        LaunchButton.Margin = horizontalDeck
+        PullExportToggle.Width = 100;
+        AchievementExportToggle.Width = 122;
+        OpenUpdaterButton.Width = 152;
+        NyxToolsStatusText.Visibility = Visibility.Visible;
+        SetRedemptionCodeMetadataVisibility();
+        LaunchStack.VerticalAlignment = VerticalAlignment.Center;
+        CombinedStatusPanel.VerticalAlignment = VerticalAlignment.Top;
+        SignalStack.Visibility = Visibility.Visible;
+        LaunchStack.Margin = horizontalDeck
             ? new Thickness(0, LauncherViewportGeometry.TwoRowGap, 0, 0)
-            : new Thickness(0, 0, 0, 0);
+            : profile.State is LauncherLayoutState.Wide
+                ? new Thickness(0, 5, 0, 0)
+                : new Thickness(0, 10, 0, 0);
+        LaunchButton.Margin = new Thickness(0);
+        CombinedStatusPanel.Height = double.NaN;
+        SetRedemptionCodeRowHeight(compact || horizontalDeck ? 17 : 24);
 
         if (compact)
         {
+            LaunchStack.Width = double.NaN;
+            LaunchStack.Height = LauncherViewportGeometry.CompactCtaHeight + accountStatusExtra;
             LaunchButton.Width = double.NaN;
+            LaunchButton.Height = LauncherViewportGeometry.CompactCtaHeight;
             DeckRow0.Height = new GridLength(LauncherViewportGeometry.CompactStatusHeight);
-            DeckRow1.Height = new GridLength(LauncherViewportGeometry.CompactToolsHeight);
-            DeckRow2.Height = new GridLength(LauncherViewportGeometry.CompactCtaHeight);
+            DeckRow1.Height = new GridLength(LauncherViewportGeometry.CompactCtaHeight + accountStatusExtra);
+            DeckRow2.Height = new GridLength(LauncherViewportGeometry.CompactToolsHeight);
             DeckColumn0.Width = new GridLength(LauncherViewportGeometry.CompactLocalWidth);
             DeckColumn1.Width = new GridLength(1, GridUnitType.Star);
             DeckColumn2.Width = new GridLength(0);
             DeckColumn3.Width = new GridLength(0);
 
-            PlaceDeckItem(SignalPanel, 0, 0, 1, 1);
-            PlaceDeckItem(UpdaterSignalRow, 0, 1, 1, 1);
-            PlaceDeckItem(NyxToolsPanel, 1, 0, 1, 2);
-            PlaceDeckItem(LaunchButton, 2, 0, 1, 2);
-            LaunchButton.HorizontalAlignment = HorizontalAlignment.Stretch;
+            PlaceDeckItem(CombinedStatusPanel, 0, 0, 1, 2);
+            PlaceDeckItem(LaunchStack, 1, 0, 1, 2);
+            PlaceDeckItem(NyxToolsPanel, 2, 0, 1, 2);
+            LaunchStack.HorizontalAlignment = HorizontalAlignment.Stretch;
+            ApplyToolButtonLayout(width - 24, forceStacked: true);
             return;
         }
 
         if (horizontalDeck)
         {
+            LaunchStack.Width = double.NaN;
+            LaunchStack.Height = LauncherViewportGeometry.TwoRowActionHeight + accountStatusExtra;
             LaunchButton.Width = double.NaN;
-            LaunchButton.Height = 62;
+            LaunchButton.Height = LauncherViewportGeometry.TwoRowActionHeight;
             DeckRow0.Height = new GridLength(
                 profile.State is LauncherLayoutState.Wide
                     ? LauncherViewportGeometry.WideTwoRowStatusHeight
-                    : LauncherViewportGeometry.TwoRowHeight);
-            DeckRow1.Height = new GridLength(
-                LauncherViewportGeometry.TwoRowHeight
-                + LauncherViewportGeometry.TwoRowGap);
-            DeckRow2.Height = new GridLength(0);
+                    : LauncherViewportGeometry.TwoRowStatusHeight);
+            DeckRow1.Height = new GridLength(62 + accountStatusExtra);
+            DeckRow2.Height = new GridLength(40);
             DeckColumn0.Width = new GridLength(1, GridUnitType.Star);
             DeckColumn1.Width = new GridLength(1, GridUnitType.Star);
             DeckColumn2.Width = new GridLength(profile.LaunchWidth / 2);
             DeckColumn3.Width = new GridLength(profile.LaunchWidth / 2);
 
-            PlaceDeckItem(SignalPanel, 0, 0, 1, 1);
-            PlaceDeckItem(UpdaterSignalRow, 0, 1, 1, 3);
-            PlaceDeckItem(NyxToolsPanel, 1, 0, 1, 2);
-            PlaceDeckItem(LaunchButton, 1, 2, 1, 2);
-            LaunchButton.HorizontalAlignment = HorizontalAlignment.Stretch;
+            PlaceDeckItem(CombinedStatusPanel, 0, 0, 1, 4);
+            PlaceDeckItem(LaunchStack, 1, 0, 1, 4);
+            PlaceDeckItem(NyxToolsPanel, 2, 0, 1, 4);
+            LaunchStack.HorizontalAlignment = HorizontalAlignment.Stretch;
+            ApplyToolButtonLayout(width - 28, forceStacked: false);
             return;
         }
 
-        DeckRow0.Height = new GridLength(1, GridUnitType.Star);
-        DeckRow1.Height = new GridLength(0);
+        DeckRow0.Height = new GridLength(
+            (profile.State is LauncherLayoutState.Wide ? 110 : 166) + accountStatusExtra);
+        var toolLayoutHeight = ApplyToolButtonLayout(profile.LaunchWidth, forceStacked: false);
+        toolLayoutExtraHeight = Math.Max(0, toolLayoutHeight - 40);
+        CommandDeck.Height = profile.DeckHeight + accountStatusExtra + toolLayoutExtraHeight;
+        DeckRow1.Height = new GridLength(toolLayoutHeight);
         DeckRow2.Height = new GridLength(0);
         DeckColumn0.Width = new GridLength(
-            profile.State is LauncherLayoutState.Wide ? 200 : 190);
+            profile.State is LauncherLayoutState.Wide ? 220 : 210);
         DeckColumn1.Width = new GridLength(1, GridUnitType.Star);
         DeckColumn2.Width = new GridLength(
-            profile.State is LauncherLayoutState.Wide ? 232 : 230);
+            0);
         DeckColumn3.Width = new GridLength(profile.LaunchWidth);
+        LaunchStack.Width = profile.LaunchWidth;
         LaunchButton.Width = profile.LaunchWidth;
 
-        PlaceDeckItem(SignalPanel, 0, 0, 1, 1);
-        PlaceDeckItem(UpdaterSignalRow, 0, 1, 1, 1);
-        PlaceDeckItem(NyxToolsPanel, 0, 2, 1, 1);
-        PlaceDeckItem(LaunchButton, 0, 3, 1, 1);
-        LaunchButton.HorizontalAlignment = HorizontalAlignment.Stretch;
+        PlaceDeckItem(
+            CombinedStatusPanel,
+            0,
+            0,
+            profile.State is LauncherLayoutState.Wide or LauncherLayoutState.Expanded ? 2 : 1,
+            3);
+        PlaceDeckItem(NyxToolsPanel, 1, 3, 1, 1);
+        PlaceDeckItem(LaunchStack, 0, 3, 1, 1);
+        LaunchButton.Height = profile.State is LauncherLayoutState.Wide ? 110 : 166;
+        LaunchStack.Height = LaunchButton.Height + accountStatusExtra;
+        LaunchStack.VerticalAlignment = VerticalAlignment.Top;
+        LaunchStack.Margin = profile.State is LauncherLayoutState.Wide
+            ? new Thickness(0, 5, 0, 0)
+            : new Thickness(0);
+        CombinedStatusPanel.Height = double.NaN;
+        CombinedStatusPanel.Margin = new Thickness(0);
+        CombinedStatusPanel.VerticalAlignment = VerticalAlignment.Stretch;
+        CombinedStatusPanel.CornerRadius = profile.State is LauncherLayoutState.Wide or LauncherLayoutState.Expanded
+            ? new CornerRadius(10, 10, 0, 0)
+            : new CornerRadius(10);
+        NyxToolsPanel.Margin = new Thickness(0);
+        NyxToolsPanel.VerticalAlignment = VerticalAlignment.Top;
+        NyxToolsStatusText.Visibility = Visibility.Collapsed;
+        LaunchStack.HorizontalAlignment = HorizontalAlignment.Stretch;
+    }
+
+    private void ApplyCombinedStatusLayout(
+        bool compact,
+        bool horizontalDeck,
+        LauncherLayoutState state)
+    {
+        CombinedStatusGrid.RowDefinitions.Clear();
+        CombinedStatusGrid.ColumnDefinitions.Clear();
+        if (compact)
+        {
+            CombinedStatusGrid.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto });
+            CombinedStatusGrid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(90) });
+            CombinedStatusGrid.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto });
+            CombinedStatusGrid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(1, GridUnitType.Star) });
+            CombinedStatusGrid.ColumnDefinitions.Add(CombinedBannerColumn);
+            CombinedStatusGrid.ColumnDefinitions.Add(CombinedOfficialColumn);
+            CombinedStatusGrid.ColumnDefinitions.Add(CombinedLocalColumn);
+            CombinedBannerColumn.Width = new GridLength(1, GridUnitType.Star);
+            CombinedOfficialColumn.Width = new GridLength(1, GridUnitType.Star);
+            CombinedLocalColumn.Width = new GridLength(0);
+            PlaceDeckItem(PremiumCodesLabel, 0, 0, 1, 2);
+            PlaceDeckItem(SignalPanel, 1, 0, 1, 2);
+            PlaceDeckItem(OfficialStatusLabel, 2, 0, 1, 1);
+            PlaceDeckItem(LocalStatusLabel, 2, 1, 1, 1);
+            PlaceDeckItem(UpdaterSignalRow, 3, 0, 1, 1);
+            PlaceDeckItem(LocalSignalPanel, 3, 1, 1, 1);
+            return;
+        }
+
+        CombinedStatusGrid.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto });
+        CombinedStatusGrid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(1, GridUnitType.Star) });
+        CombinedStatusGrid.ColumnDefinitions.Add(CombinedBannerColumn);
+        CombinedStatusGrid.ColumnDefinitions.Add(CombinedOfficialColumn);
+        CombinedStatusGrid.ColumnDefinitions.Add(CombinedLocalColumn);
+        CombinedBannerColumn.Width = new GridLength(horizontalDeck ? 220 : state is LauncherLayoutState.Wide ? 330 : 300);
+        CombinedOfficialColumn.Width = new GridLength(1, GridUnitType.Star);
+        CombinedLocalColumn.Width = new GridLength(horizontalDeck ? 124 : 116);
+        PlaceDeckItem(PremiumCodesLabel, 0, 0, 1, 1);
+        PlaceDeckItem(OfficialStatusLabel, 0, 1, 1, 1);
+        PlaceDeckItem(LocalStatusLabel, 0, 2, 1, 1);
+        PlaceDeckItem(SignalPanel, 1, 0, 1, 1);
+        PlaceDeckItem(UpdaterSignalRow, 1, 1, 1, 1);
+        PlaceDeckItem(LocalSignalPanel, 1, 2, 1, 1);
+    }
+
+    private double ApplyToolButtonLayout(double availableWidth, bool forceStacked)
+    {
+        var visibleButtonCount = new FrameworkElement[]
+        {
+            PullExportToggle,
+            AchievementExportToggle,
+            OpenUpdaterButton,
+            CancelExportButton,
+            OpenExportsButton,
+        }.Count(button => button.Visibility is Visibility.Visible);
+        var requiredWidth = 100 + 120 + 146 + Math.Max(0, visibleButtonCount - 1) * 6;
+        if (CancelExportButton.Visibility is Visibility.Visible) requiredWidth += 86;
+        if (OpenExportsButton.Visibility is Visibility.Visible) requiredWidth += 98;
+        var stacked = forceStacked || requiredWidth > availableWidth;
+        PengoToolButtons.Orientation = stacked ? Orientation.Vertical : Orientation.Horizontal;
+        PengoToolButtons.HorizontalAlignment = HorizontalAlignment.Stretch;
+        foreach (var button in new FrameworkElement[]
+        {
+            PullExportToggle,
+            AchievementExportToggle,
+            OpenUpdaterButton,
+            CancelExportButton,
+            OpenExportsButton,
+        })
+        {
+            button.HorizontalAlignment = HorizontalAlignment.Stretch;
+            button.Width = stacked ? double.NaN : button switch
+            {
+                _ when ReferenceEquals(button, PullExportToggle) => 100,
+                _ when ReferenceEquals(button, AchievementExportToggle) => 120,
+                _ when ReferenceEquals(button, OpenUpdaterButton) => 146,
+                _ => double.NaN,
+            };
+        }
+        return stacked ? (visibleButtonCount * 42) + (Math.Max(0, visibleButtonCount - 1) * 6) : 42;
+    }
+
+    private void SetRedemptionCodeRowHeight(double height)
+    {
+        redemptionCodeRowHeight = height;
+        foreach (var row in RedemptionCodeRows)
+        {
+            row.SetRowHeight(height);
+        }
+    }
+
+    private void SetRedemptionCodeMetadataVisibility()
+    {
+        foreach (var row in RedemptionCodeRows)
+        {
+            row.SetMetadataVisibility(!compactCodeRows);
+        }
     }
 
     private static void PlaceDeckItem(
@@ -2538,33 +3407,32 @@ public sealed partial class MainPage : Page
             UpdaterSignalLayout.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Auto });
         }
 
-        UpdaterSignalRow.Spacing = compact ? 2 : 7;
+        UpdaterSignalStack.Spacing = compact ? 2 : 7;
+        HeroDescription.Visibility = compact ? Visibility.Collapsed : Visibility.Visible;
+        MaintenanceOwnershipText.Visibility = Visibility.Collapsed;
         UpdaterSignalLayout.RowSpacing = compact ? 2 : stackedActions ? 6 : 0;
         Grid.SetRow(MaintenanceProviderText, 0);
         Grid.SetColumn(MaintenanceProviderText, 0);
-        Grid.SetRow(UpdaterSignalText, 0);
-        Grid.SetColumn(UpdaterSignalText, 1);
+        Grid.SetRow(UpdaterSignalText, stackedActions ? 1 : 0);
+        Grid.SetColumn(UpdaterSignalText, stackedActions ? 0 : 1);
+        Grid.SetColumnSpan(UpdaterSignalText, stackedActions ? 2 : 1);
 
-        Grid.SetRow(ChooseGameFolderButton, stackedActions ? 1 : 0);
-        Grid.SetColumn(ChooseGameFolderButton, stackedActions ? 0 : 2);
+        Grid.SetRow(ChooseGameFolderButton, 0);
+        Grid.SetColumn(ChooseGameFolderButton, 0);
         ChooseGameFolderButton.HorizontalAlignment = HorizontalAlignment.Left;
-
-        Grid.SetRow(OpenUpdaterButton, stackedActions ? 1 : 0);
-        Grid.SetColumn(OpenUpdaterButton, stackedActions ? 1 : 3);
-        OpenUpdaterButton.HorizontalAlignment = stackedActions
-            ? HorizontalAlignment.Right
-            : HorizontalAlignment.Left;
     }
 
     private void ApplyVerticalDensity(LauncherLayoutProfile profile, double height)
     {
         var dense = height < LauncherLayoutStateSelector.ExpandedHeight;
-
-        HeroTitle.FontSize = dense
-            ? Math.Max(42, profile.TitleSize - 4)
-            : profile.TitleSize;
-        LatestStrip.Margin = new Thickness(0, dense ? 22 : 30, 0, 0);
-        LatestContentStack.Spacing = dense ? 6 : 9;
+        LatestStrip.Margin = new Thickness(0);
+        LatestStrip.MinHeight = profile.State switch
+        {
+            LauncherLayoutState.Compact => 320,
+            LauncherLayoutState.Horizontal => 320,
+            LauncherLayoutState.Wide => 493,
+            _ => 460,
+        };
     }
 
     private void RenderSelection()
@@ -2581,20 +3449,31 @@ public sealed partial class MainPage : Page
         gameSnapshot = sessions.TryGetSnapshot(selected.Id, out var selectedSnapshot)
             ? selectedSnapshot
             : null;
-        LatestStrip.Visibility = launcherState.Snapshot.Preferences.FeatureFlags.OfficialNews
-            ? Visibility.Visible
-            : Visibility.Collapsed;
-        CurrentBannerList.Visibility = Visibility.Visible;
-        var layout = LauncherLayoutStateSelector.CreateProfile(ActualWidth, ActualHeight);
-        MaintenanceResponsibilityText.Visibility = layout.State is LauncherLayoutState.Horizontal or LauncherLayoutState.Compact
-            || (layout.State is LauncherLayoutState.Wide && ActualWidth < LauncherViewportGeometry.NarrowWideDeckWidth)
+        ChooseGameFolderButton.Visibility = !selected.IsCustom
+            && gameSnapshot?.Readiness is LocalReadinessEvidence.NotFound or LocalReadinessEvidence.NeedsReview
+                ? Visibility.Visible
+                : Visibility.Collapsed;
+        ChooseGameFolderButton.Content = endfieldFolderActionInFlight ? "CHOOSING…" : "FIND GAME CLIENT";
+        ChooseGameFolderButton.IsEnabled = !endfieldFolderActionInFlight;
+        LatestStrip.Visibility = !selected.IsCustom
+            && launcherState.Snapshot.Preferences.FeatureFlags.RemoteBannerManifest
+                ? Visibility.Visible
+                : Visibility.Collapsed;
+        CombinedStatusPanel.Visibility = selected.IsCustom
             ? Visibility.Collapsed
             : Visibility.Visible;
+        WuWaAccountStatusStrip.Visibility = !selected.IsCustom
+            ? Visibility.Visible
+            : Visibility.Collapsed;
+        if (selected.Id == "wuwa") RenderWuWaAccountStatus();
+        else RenderPublisherAccountStatus(selected.Id);
+        RedemptionCodeList.Visibility = Visibility.Visible;
+        if (ActualWidth > 0 && ActualHeight > 0) ApplyLayout(ActualWidth, ActualHeight);
         if (launcherState.Snapshot.SelectedGameId != selected.Id)
         {
             _ = launcherState.TryUpdate(state => state with { SelectedGameId = selected.Id });
         }
-        RenderLatestContent();
+        RenderBannerCycle();
         RenderExportTools(selected);
 
         if (selected.IsCustom)
@@ -2630,23 +3509,174 @@ public sealed partial class MainPage : Page
         var appearance = state.Appearance.TryGetValue(gameId, out var savedAppearance)
             ? savedAppearance
             : new Nyx.Desktop.Core.State.GameAppearanceState();
-        if (GameSelector?.SelectedItem is GameLauncherItem selected
-            && string.Equals(selected.Id, gameId, StringComparison.Ordinal)
-            && Uri.TryCreate(selected.HeroArtPath, UriKind.Absolute, out var heroUri))
+        var pinned = TryApplyPinnedArt(appearance);
+        var automaticBannerExpected = !pinned
+            && appearance.AutomaticArt
+            && state.Preferences.FeatureFlags.AutomaticArt
+            && launcherBanners.Current.Games.TryGetValue(gameId, out var bannerGame)
+            && bannerGame.Current is { } current
+            && (current.Variants.Count > 0 || current.Characters.Any(character => character.Variants.Count > 0));
+        if (!pinned
+            && !automaticBannerExpected
+            && GameSelector?.SelectedItem is GameLauncherItem selected
+            && string.Equals(selected.Id, gameId, StringComparison.Ordinal))
         {
-            HeroArtwork.Source = new BitmapImage(heroUri);
-            HeroArtwork.Stretch = Stretch.UniformToFill;
+            SetHeroSource(selected.HeroArtPath, Stretch.UniformToFill);
+            ApplyHeroTransform(appearance);
         }
-        _ = TryApplyPinnedArt(appearance);
         var path = appearance.BackgroundPath;
         if (!string.IsNullOrWhiteSpace(path) && File.Exists(path))
         {
-            BackgroundArtwork.Source = new BitmapImage(new Uri(path));
+            SetBackgroundSource(path);
         }
         else
         {
-            BackgroundArtwork.Source = new BitmapImage(new Uri("ms-appx:///Assets/backgroundnyx.png"));
+            SetBackgroundSource("ms-appx:///Assets/backgroundnyx.png");
         }
+    }
+
+    private void SetHeroSource(string source, Stretch stretch)
+    {
+        if (string.Equals(displayedHeroSource, source, StringComparison.OrdinalIgnoreCase))
+        {
+            if (heroCrossfade is null)
+            {
+                HeroArtwork.Stretch = stretch;
+            }
+            else
+            {
+                HeroArtworkNext.Stretch = stretch;
+            }
+
+            return;
+        }
+        heroCrossfade?.Stop();
+        if (HeroArtworkNext.Opacity > 0 && HeroArtworkNext.Source is not null)
+        {
+            HeroArtwork.Source = HeroArtworkNext.Source;
+            HeroArtwork.Stretch = HeroArtworkNext.Stretch;
+            CopyHeroTransform(HeroArtworkNext, HeroArtwork);
+            HeroArtwork.Opacity = 1;
+        }
+
+        HeroArtworkNext.Stretch = stretch;
+        HeroArtworkNext.Source = new BitmapImage(new Uri(source));
+        HeroArtworkNext.Opacity = 0;
+        CopyHeroTransform(HeroArtwork, HeroArtworkNext);
+        displayedHeroSource = source;
+        var fade = new Storyboard();
+        var outgoing = new DoubleAnimation
+        {
+            From = 1,
+            To = 0,
+            Duration = new Duration(TimeSpan.FromMilliseconds(400)),
+        };
+        var incoming = new DoubleAnimation
+        {
+            From = 0,
+            To = 1,
+            Duration = new Duration(TimeSpan.FromMilliseconds(400)),
+        };
+        Storyboard.SetTarget(outgoing, HeroArtwork);
+        Storyboard.SetTargetProperty(outgoing, "Opacity");
+        Storyboard.SetTarget(incoming, HeroArtworkNext);
+        Storyboard.SetTargetProperty(incoming, "Opacity");
+        fade.Children.Add(outgoing);
+        fade.Children.Add(incoming);
+        fade.Completed += (_, _) =>
+        {
+            HeroArtwork.Source = HeroArtworkNext.Source;
+            HeroArtwork.Stretch = HeroArtworkNext.Stretch;
+            CopyHeroTransform(HeroArtworkNext, HeroArtwork);
+            HeroArtwork.Opacity = 1;
+            HeroArtworkNext.Opacity = 0;
+            heroCrossfade = null;
+        };
+        heroCrossfade = fade;
+        fade.Begin();
+    }
+
+    private static void CopyHeroTransform(Image source, Image destination)
+    {
+        if (source.RenderTransform is CompositeTransform sourceTransform
+            && destination.RenderTransform is CompositeTransform destinationTransform)
+        {
+            destinationTransform.ScaleX = sourceTransform.ScaleX;
+            destinationTransform.ScaleY = sourceTransform.ScaleY;
+            destinationTransform.TranslateX = sourceTransform.TranslateX;
+            destinationTransform.TranslateY = sourceTransform.TranslateY;
+            destination.Width = source.Width;
+            destination.Height = source.Height;
+            destination.Margin = source.Margin;
+            destination.HorizontalAlignment = source.HorizontalAlignment;
+            destination.VerticalAlignment = source.VerticalAlignment;
+        }
+    }
+
+    private void ApplyManagedHeroLayout(
+        HeroArtFitGeometry.AutomaticPresentation presentation,
+        int imageWidth,
+        int imageHeight)
+    {
+        var targetArtwork = heroCrossfade is null ? HeroArtwork : HeroArtworkNext;
+        if (!presentation.UsesCenteredCoverGeometry
+            || HeroStage.ActualWidth <= 0
+            || HeroStage.ActualHeight <= 0
+            || imageWidth <= 0
+            || imageHeight <= 0)
+        {
+            targetArtwork.Width = double.NaN;
+            targetArtwork.Height = double.NaN;
+            targetArtwork.Margin = new Thickness(0);
+            targetArtwork.HorizontalAlignment = HorizontalAlignment.Stretch;
+            targetArtwork.VerticalAlignment = VerticalAlignment.Stretch;
+            return;
+        }
+
+        var cover = HeroArtFitGeometry.CalculateFittedBounds(
+            HeroStage.ActualWidth,
+            HeroStage.ActualHeight,
+            imageWidth,
+            imageHeight,
+            "cover");
+        targetArtwork.Width = cover.Width;
+        targetArtwork.Height = cover.Height;
+        targetArtwork.Margin = new Thickness(cover.X, cover.Y, 0, 0);
+        targetArtwork.HorizontalAlignment = HorizontalAlignment.Left;
+        targetArtwork.VerticalAlignment = VerticalAlignment.Top;
+        targetArtwork.Stretch = Stretch.Fill;
+    }
+
+    private void ApplyHeroTransform(
+        Nyx.Desktop.Core.State.GameAppearanceState appearance,
+        double automaticAnchorOffsetX = 0,
+        double automaticAnchorOffsetY = 0)
+    {
+        var targetArtwork = heroCrossfade is null ? HeroArtwork : HeroArtworkNext;
+        if (targetArtwork.RenderTransform is not CompositeTransform transform)
+        {
+            return;
+        }
+
+        var profile = LauncherLayoutStateSelector.CreateProfile(ActualWidth, ActualHeight);
+        var presentationScale = profile.State switch
+        {
+            LauncherLayoutState.Wide => 1.05d,
+            LauncherLayoutState.Expanded => 1.15d,
+            _ => 1d,
+        };
+        var automaticOffsetScale = profile.State is LauncherLayoutState.Wide ? 0.24d : 1d;
+        transform.ScaleX = (appearance.ArtScale / 100d) * presentationScale;
+        transform.ScaleY = (appearance.ArtScale / 100d) * presentationScale;
+        transform.TranslateX = appearance.ArtX + (automaticAnchorOffsetX * automaticOffsetScale);
+        transform.TranslateY = appearance.ArtY + automaticAnchorOffsetY;
+    }
+
+    private void SetBackgroundSource(string source)
+    {
+        if (string.Equals(displayedBackgroundSource, source, StringComparison.OrdinalIgnoreCase)) return;
+        BackgroundArtwork.Source = new BitmapImage(new Uri(source));
+        displayedBackgroundSource = source;
     }
 
     private void RenderCustomGame(GameLauncherItem selected)
@@ -2654,8 +3684,7 @@ public sealed partial class MainPage : Page
         LatestStrip.Visibility = Visibility.Collapsed;
         UpdaterSignalRow.Visibility = Visibility.Collapsed;
         NyxToolsPanel.Visibility = Visibility.Collapsed;
-        CurrentBannerList.Visibility = Visibility.Collapsed;
-        MaintenanceResponsibilityText.Visibility = Visibility.Collapsed;
+        RedemptionCodeList.Visibility = Visibility.Collapsed;
 
         var snapshot = gameSnapshot;
         if (snapshot is null || snapshot.Readiness is LocalReadinessEvidence.Unknown)
@@ -2708,17 +3737,15 @@ public sealed partial class MainPage : Page
             launcherState.Snapshot.Preferences.FeatureFlags);
         var pullsAvailable = capability.Supports(ExportKind.Pulls);
         var achievementsAvailable = capability.Supports(ExportKind.Achievements);
-        NyxToolsPanel.Visibility = pullsAvailable || achievementsAvailable
-            ? Visibility.Visible
-            : Visibility.Collapsed;
-        if (!pullsAvailable && !achievementsAvailable) return;
+        NyxToolsPanel.Visibility = selected.IsCustom ? Visibility.Collapsed : Visibility.Visible;
+        if (selected.IsCustom) return;
         var armed = launcherState.Snapshot.Export.Games.TryGetValue(selected.Id, out var saved)
             ? saved
             : new Nyx.Desktop.Core.State.ExportGameArming();
         PullExportToggle.IsChecked = pullsAvailable && armed.PullsArmed;
         AchievementExportToggle.IsChecked = achievementsAvailable && armed.AchievementsArmed;
-        PullExportToggle.Visibility = pullsAvailable ? Visibility.Visible : Visibility.Collapsed;
-        AchievementExportToggle.Visibility = achievementsAvailable ? Visibility.Visible : Visibility.Collapsed;
+        PullExportToggle.Visibility = Visibility.Visible;
+        AchievementExportToggle.Visibility = Visibility.Visible;
         PullExportToggle.IsEnabled = pullsAvailable;
         AchievementExportToggle.IsEnabled = achievementsAvailable;
         AutomationProperties.SetName(PullExportToggle, pullsAvailable
@@ -2730,19 +3757,11 @@ public sealed partial class MainPage : Page
 
         CancelExportButton.Visibility = Visibility.Collapsed;
         OpenExportsButton.Visibility = Visibility.Collapsed;
-        ConfirmWorldButton.Visibility = Visibility.Collapsed;
-        ConfirmHistoryButton.Visibility = Visibility.Collapsed;
         if (latestExportJobs.TryGetValue(selected.Id, out var jobId))
         {
             var job = exports.GetSnapshot(jobId);
             CancelExportButton.Visibility = job.IsFinished ? Visibility.Collapsed : Visibility.Visible;
             OpenExportsButton.Visibility = job.IsFinished ? Visibility.Visible : Visibility.Collapsed;
-            ConfirmWorldButton.Visibility = job.Achievements.State is ExportTaskState.WaitingForWorld
-                ? Visibility.Visible
-                : Visibility.Collapsed;
-            ConfirmHistoryButton.Visibility = job.Pulls.State is ExportTaskState.WaitingForHistory
-                ? Visibility.Visible
-                : Visibility.Collapsed;
             NyxToolsStatusText.Text = FormatExportStatus(job);
         }
         else
@@ -2757,6 +3776,10 @@ public sealed partial class MainPage : Page
             NyxToolsStatusText.Text = kinds;
         }
         AutomationProperties.SetName(NyxToolsPanel, $"Nyx exports for {selected.DisplayName}");
+        if (ActualWidth > 0 && ActualHeight > 0)
+        {
+            ApplyLayout(ActualWidth, ActualHeight);
+        }
     }
 
     private static string FormatExportStatus(ExportJobSnapshot job)
@@ -2765,26 +3788,48 @@ public sealed partial class MainPage : Page
         {
             if (job.Achievements.State is ExportTaskState.Preparing)
                 return "Achievements: preparing capture before launch...";
-            if (job.Achievements.State is ExportTaskState.WaitingForWorld)
-                return "Achievements: enter the world, then confirm.";
-            if (job.Pulls.State is ExportTaskState.WaitingForHistory)
-                return "Pulls: open Wish or Warp History, then confirm.";
+            if (job.Pulls.State is ExportTaskState.Preparing)
+                return "Pulls: safely checking the pre-launch cache...";
+            if (job.Pulls.State is ExportTaskState.Running
+                && job.Achievements.State is ExportTaskState.Running)
+                return "Enter the world and open Wish or Warp History. Nyx continues automatically.";
+            if (job.Pulls.State is ExportTaskState.Running)
+                return "Open Wish or Warp History. Nyx continues automatically.";
+            if (job.Achievements.State is ExportTaskState.Running)
+                return "Return to the title, then enter the world. Nyx continues automatically.";
             return "Export is running. Keep the game open.";
         }
         if (job.State == ExportJobState.Completed) return "Export complete. The files are in Pengo Exports.";
         if (job.State == ExportJobState.Canceled) return "Export canceled. No unfinished file was kept.";
         if (job.State == ExportJobState.Unsupported) return "This game’s export provider is coming later.";
-        var code = job.Pulls.ErrorCode ?? job.Achievements.ErrorCode;
-        return code switch
-        {
-            "approval-canceled" => "Administrator approval was canceled, so achievements were not exported.",
-            "administrator_required" => "Achievement export needs administrator approval for this game.",
-            "normal_user_required" => "Genshin achievement export must run without administrator rights.",
-            "capture_timeout" or "timed-out" => "Export timed out. Launch again and enter the game promptly.",
-            "output-missing" or "output_write_failed" => "Nyx could not create the export file.",
-            _ => "The export did not finish, but the game launch was not blocked.",
-        };
+        var failures = new List<string>(2);
+        if (job.Pulls.State is ExportTaskState.Failed)
+            failures.Add(FormatPullFailure(job.Pulls.ErrorCode));
+        if (job.Achievements.State is ExportTaskState.Failed)
+            failures.Add(FormatAchievementFailure(job.Achievements.ErrorCode));
+        return failures.Count == 0
+            ? "The export did not finish, but the game launch was not blocked."
+            : string.Join(" ", failures);
     }
+
+    private static string FormatPullFailure(string? code) => code switch
+    {
+        PullExportErrorCodes.HistoryNotUpdated or PullExportErrorCodes.HistoryNotFound =>
+            "Pulls: no fresh History update. Open Wish or Warp History, then try Export again.",
+        PullExportErrorCodes.OutputFailed => "Pulls: Nyx could not create the export file.",
+        _ => "Pulls: export failed without blocking the game.",
+    };
+
+    private static string FormatAchievementFailure(string? code) => code switch
+    {
+        "capture_timeout" or "capture_closed" or "timed-out" =>
+            "Achievements: return to the title, enter the world, then try Export again.",
+        "approval-canceled" => "Achievements: administrator approval was canceled.",
+        "administrator_required" => "Achievements: Star Rail needs administrator approval.",
+        "normal_user_required" => "Achievements: Genshin must run without administrator rights.",
+        "output-missing" or "output_write_failed" => "Achievements: Nyx could not create the export file.",
+        _ => "Achievements: export failed without blocking the game.",
+    };
 
     private void RefreshGameRailSignals()
     {
@@ -2804,88 +3849,464 @@ public sealed partial class MainPage : Page
         }
     }
 
-    private void RenderLatestContent()
+    private void RenderBannerCycle()
     {
-        if (LatestSourceText is null || GameSelector?.SelectedItem is not GameLauncherItem selected)
+        if (GameSelector?.SelectedItem is not GameLauncherItem selected)
         {
             return;
         }
 
-        LatestCards.Clear();
-        CurrentBannerRows.Clear();
-        var officialNewsEnabled = launcherState.Snapshot.Preferences.FeatureFlags.OfficialNews;
-        LatestStrip.Visibility = officialNewsEnabled ? Visibility.Visible : Visibility.Collapsed;
+        LatestStrip.Visibility = !selected.IsCustom
+            && launcherState.Snapshot.Preferences.FeatureFlags.RemoteBannerManifest
+                ? Visibility.Visible
+                : Visibility.Collapsed;
         if (!selected.IsCustom
             && launcherBanners.Current.Games.TryGetValue(selected.Id, out var launcherGame))
         {
             var health = launcherBanners.Current.Health.Games.TryGetValue(selected.Id, out var gameHealth)
                 ? gameHealth.Status
                 : launcherBanners.Current.Health.Status;
-            LatestSourceText.Text = "OFFICIAL";
-            LatestFreshnessText.Text = health.ToUpperInvariant();
-            AutomationProperties.SetName(LatestSourceText, "Source: official publisher feeds cached by Nyx");
-            AutomationProperties.SetName(LatestFreshnessText, $"Freshness: {health}");
-            var index = 0;
-            foreach (var item in officialNewsEnabled ? launcherGame.News.Take(3) : [])
-            {
-                LatestCards.Add(LatestContentCardItem.From(
-                    new LatestContentCard(
-                        item.Id,
-                        item.Type,
-                        item.Title,
-                        item.Start,
-                        item.ApprovedUrl?.AbsoluteUri),
-                    index++));
-            }
-
-            var now = DateTimeOffset.UtcNow;
-            if (launcherGame.Current is { } current && current.Start <= now && now < current.End)
-            {
-                foreach (var character in current.Characters.Take(2))
-                {
-                    CurrentBannerRows.Add(new CurrentBannerRowItem(
-                        character.Name,
-                        CurrentBannerRowItem.FormatRemainingForDisplay(current.End - DateTimeOffset.UtcNow)));
-                }
-                ApplyLauncherBannerArt(selected.Id, current);
-            }
-            return;
-        }
-
-        if (!officialNewsEnabled) return;
-
-        if (!latestContent.Current.TryGetValue(selected.Id, out var snapshot))
-        {
-            LatestSourceText.Text = "LOCAL SNAPSHOT";
-            LatestFreshnessText.Text = "N/A";
-            AutomationProperties.SetName(LatestSourceText, "Source: local snapshot");
-            AutomationProperties.SetName(LatestFreshnessText, "Freshness: unavailable");
             AutomationProperties.SetName(
                 LatestStrip,
-                $"Latest for {selected.DisplayName}. Content is unavailable.");
+                $"Current and next banners for {selected.DisplayName}. Nyx feed status: {health}.");
+
+            SyncRedemptionCodeRows(selected.Id, launcherGame.Codes);
+
+            var now = DateTimeOffset.UtcNow;
+            var current = launcherGame.Current is { } live && live.Start <= now && now < live.End
+                ? live
+                : null;
+            var next = launcherGame.Upcoming
+                .Where(phase => phase.Start > now)
+                .OrderBy(phase => phase.Start)
+                .FirstOrDefault();
+            var rotationContextKey = current is null
+                ? $"{selected.Id}:none"
+                : $"{selected.Id}:{current.Start:O}:{current.SelectedCharacterId}";
+            if (!string.Equals(bannerRotationContextKey, rotationContextKey, StringComparison.Ordinal))
+            {
+                bannerRotationContextKey = rotationContextKey;
+                bannerRotationIndex = GetPreferredBannerStartIndex(selected.Id);
+                bannerRotationStartedAt = now;
+                bannerRotationPauseStartedAt = null;
+                bannerRotationProgressAtPause = 0;
+            }
+            ClearStaleBannerPin(selected.Id, current);
+            RenderBannerRows(selected.Id, current, now);
+            SetBannerCard(
+                CurrentBannerCard,
+                CurrentBannerImage,
+                null,
+                BannerCyclePhase,
+                BannerCycleTiming,
+                current?.Phase,
+                current?.Characters ?? [],
+                current is null ? "Banner unavailable" : "Character not announced",
+                current is null ? string.Empty : $"Ends in {BannerTimingFormatter.FormatRemaining(current.End - now)}");
+            SetBannerCard(
+                NextBannerCard,
+                NextBannerImage,
+                NextBannerName,
+                NextBannerPhase,
+                NextBannerTiming,
+                next?.Phase,
+                next?.Characters ?? [],
+                "Not announced",
+                next is null ? string.Empty : $"Starts in {BannerTimingFormatter.FormatRemaining(next.Start - now)}");
+            var hasUpcoming = next is not null && next.Characters.Count > 0;
+            NextBannerCard.Visibility = hasUpcoming ? Visibility.Visible : Visibility.Collapsed;
+            if (current is not null) ApplyLauncherBannerArt(selected.Id, current);
             return;
         }
 
-        LatestSourceText.Text = snapshot.SourceLabel.ToUpperInvariant();
-        LatestFreshnessText.Text = snapshot.IsFallback ? "LOCAL" : "FRESH";
-        AutomationProperties.SetName(LatestSourceText, $"Source: {snapshot.SourceLabel}");
-        AutomationProperties.SetName(LatestFreshnessText, $"Freshness: {snapshot.FreshnessLabel}");
-        AutomationProperties.SetName(
-            LatestStrip,
-            $"Latest for {selected.DisplayName}. Source: {snapshot.SourceLabel}. Freshness: {snapshot.FreshnessLabel}.");
+        BannerCharacterRows.Clear();
+        bannerPinnedGameId = null;
+        bannerPinnedCharacterId = null;
+        ResumeBannerRotation();
+        NextBannerCard.Visibility = Visibility.Collapsed;
+        SyncRedemptionCodeRows(selected.Id, []);
+    }
 
-        var cardIndex = 0;
-        foreach (var card in snapshot.Cards.Take(3))
+    private void SyncRedemptionCodeRows(string gameId, IReadOnlyList<LauncherRedemptionCode> codes)
+    {
+        var visible = codes
+            .OrderByDescending(static code => code.Added)
+            .ThenBy(static code => code.Code, StringComparer.Ordinal)
+            .Take(5)
+            .ToArray();
+        if (visible.Length == 0)
         {
-            LatestCards.Add(LatestContentCardItem.From(card, cardIndex++));
+            if (RedemptionCodeRows.Count != 1 || RedemptionCodeRows[0].IsCopyable)
+            {
+                RedemptionCodeRows.Clear();
+                RedemptionCodeRows.Add(RedemptionCodeRowItem.Empty);
+            }
+
+            SetRedemptionCodeMetadataVisibility();
+            return;
         }
 
-        foreach (var card in snapshot.Cards
-                     .Where(static card => string.Equals(card.Type, "banner", StringComparison.OrdinalIgnoreCase))
-                     .Take(2))
+        for (var index = 0; index < visible.Length; index++)
         {
-            CurrentBannerRows.Add(CurrentBannerRowItem.From(card, DateTimeOffset.Now));
+            var code = visible[index];
+            var existing = index < RedemptionCodeRows.Count ? RedemptionCodeRows[index] : null;
+            if (existing is not null
+                && existing.IsCopyable
+                && string.Equals(existing.Code, code.Code, StringComparison.Ordinal))
+            {
+                continue;
+            }
+
+            var row = new RedemptionCodeRowItem(
+                code.Code,
+                code.Added,
+                code.CurrencyAmount,
+                code.CurrencyName,
+                CurrencyIconFor(gameId),
+                true,
+                redemptionCodeRowHeight);
+            if (launcherState.Snapshot.Preferences.CopiedRedemptionCodes.TryGetValue(gameId, out var copied)
+                && copied.Contains(row.Code, StringComparer.Ordinal))
+            {
+                row.MarkPreviouslyCopied();
+            }
+            if (string.Equals(copiedCodeValue, row.Code, StringComparison.Ordinal))
+            {
+                row.MarkCopied();
+                copiedCodeRow = row;
+            }
+
+            if (index < RedemptionCodeRows.Count)
+            {
+                RedemptionCodeRows[index] = row;
+            }
+            else
+            {
+                RedemptionCodeRows.Add(row);
+            }
         }
+
+        while (RedemptionCodeRows.Count > visible.Length)
+        {
+            RedemptionCodeRows.RemoveAt(RedemptionCodeRows.Count - 1);
+        }
+        SetRedemptionCodeMetadataVisibility();
+    }
+
+    private static string CurrencyIconFor(string gameId) => gameId switch
+    {
+        "ae" => "ms-appx:///Assets/Currency/ae.png",
+        "gi" or "hsr" or "zzz" or "wuwa" => $"ms-appx:///Assets/Currency/{gameId}.webp",
+        _ => string.Empty,
+    };
+
+    private void BannerRotationTimer_Tick(object? sender, object e)
+    {
+        if (bannerRotationPaused || bannerPinnedCharacterId is not null)
+        {
+            return;
+        }
+
+        var now = DateTimeOffset.UtcNow;
+        var progress = GetBannerRotationProgress(now);
+        if (progress < 100)
+        {
+            bannerRotationTimer.Stop();
+            bannerRotationTimer.Interval = BannerRotationSchedule.Remaining(progress);
+            bannerRotationTimer.Start();
+            return;
+        }
+
+        bannerRotationIndex++;
+        bannerRotationStartedAt = now;
+        bannerRotationTimer.Interval = BannerRotationSchedule.Duration;
+        RenderBannerCycle();
+    }
+
+    private void BannerCountdownTimer_Tick(object? sender, object e)
+    {
+        if (GameSelector?.SelectedItem is GameLauncherItem { IsCustom: false })
+        {
+            RenderBannerCycle();
+        }
+
+        RenderLocalAccountTimeTick();
+    }
+
+    private void RenderLocalAccountTimeTick()
+    {
+        if (WuWaAccountStatusStrip.Visibility is not Visibility.Visible
+            || GameSelector?.SelectedItem is not GameLauncherItem selected
+            || selected.Id == "wuwa")
+            return;
+
+        // This is a local projection of the last snapshot. It never refreshes,
+        // connects, checks in, or performs any account/network operation.
+        RenderPublisherAccountStatus(selected.Id);
+    }
+
+    private void BannerPanel_PointerEntered(object sender, PointerRoutedEventArgs e)
+    {
+        bannerRotationPaused = true;
+        PauseBannerRotation();
+        UpdateBannerRotationTimerState();
+    }
+
+    private void BannerPanel_PointerExited(object sender, PointerRoutedEventArgs e)
+    {
+        bannerRotationPaused = false;
+        ResumeBannerRotation();
+        UpdateBannerRotationTimerState();
+    }
+
+    private void BannerCharacterRow_Click(object sender, RoutedEventArgs e)
+    {
+        if (GameSelector?.SelectedItem is not GameLauncherItem selected
+            || sender is not Button { CommandParameter: string characterId }
+            || string.IsNullOrWhiteSpace(characterId))
+        {
+            return;
+        }
+
+        if (IsBannerPinned(selected.Id) && string.Equals(bannerPinnedCharacterId, characterId, StringComparison.Ordinal))
+        {
+            bannerPinnedGameId = null;
+            bannerPinnedCharacterId = null;
+            ResumeBannerRotation();
+        }
+        else
+        {
+            bannerPinnedGameId = selected.Id;
+            bannerPinnedCharacterId = characterId;
+            PauseBannerRotation();
+        }
+
+        RenderBannerCycle();
+        UpdateBannerRotationTimerState();
+    }
+
+    private void UpdateBannerRotationTimerState()
+    {
+        if (bannerRotationPaused || bannerPinnedCharacterId is not null || !IsLoaded)
+        {
+            bannerRotationTimer.Stop();
+            return;
+        }
+
+        bannerRotationTimer.Stop();
+        bannerRotationTimer.Interval = BannerRotationSchedule.Remaining(
+            GetBannerRotationProgress(DateTimeOffset.UtcNow));
+        bannerRotationTimer.Start();
+    }
+
+    private void PauseBannerRotation()
+    {
+        if (bannerRotationPauseStartedAt is not null)
+        {
+            return;
+        }
+
+        bannerRotationProgressAtPause = GetBannerRotationProgress(DateTimeOffset.UtcNow);
+        bannerRotationPauseStartedAt = DateTimeOffset.UtcNow;
+    }
+
+    private void ResumeBannerRotation()
+    {
+        if (bannerRotationPaused || bannerPinnedCharacterId is not null)
+        {
+            return;
+        }
+
+        if (bannerRotationPauseStartedAt is null)
+        {
+            return;
+        }
+
+        var now = DateTimeOffset.UtcNow;
+        bannerRotationStartedAt = now - BannerRotationSchedule.ElapsedFromProgress(bannerRotationProgressAtPause);
+        bannerRotationTimer.Interval = BannerRotationSchedule.Remaining(bannerRotationProgressAtPause);
+        bannerRotationPauseStartedAt = null;
+    }
+
+    private double GetBannerRotationProgress(DateTimeOffset now)
+    {
+        if (bannerRotationPauseStartedAt is not null)
+        {
+            return bannerRotationProgressAtPause;
+        }
+
+        return BannerRotationSchedule.Progress(bannerRotationStartedAt, now);
+    }
+
+    private bool IsBannerPinned(string gameId) =>
+        string.Equals(bannerPinnedGameId, gameId, StringComparison.Ordinal)
+        && !string.IsNullOrWhiteSpace(bannerPinnedCharacterId);
+
+    private void ClearStaleBannerPin(string gameId, LauncherBannersCurrentPhase? current)
+    {
+        var valid = current is not null
+            && string.Equals(bannerPinnedGameId, gameId, StringComparison.Ordinal)
+            && current.Characters
+                .Take(5)
+                .Any(character => string.Equals(character.Id, bannerPinnedCharacterId, StringComparison.Ordinal));
+        if (valid || bannerPinnedCharacterId is null)
+        {
+            return;
+        }
+
+        bannerPinnedGameId = null;
+        bannerPinnedCharacterId = null;
+        ResumeBannerRotation();
+        UpdateBannerRotationTimerState();
+    }
+
+    private int GetActiveBannerIndex(IReadOnlyList<LauncherBannersCharacter> characters)
+    {
+        var visibleCount = Math.Min(5, characters.Count);
+        if (visibleCount == 0)
+        {
+            return -1;
+        }
+
+        if (!string.IsNullOrWhiteSpace(bannerPinnedCharacterId))
+        {
+            var pinnedIndex = characters
+                .Take(visibleCount)
+                .Select((character, index) => (character, index))
+                .FirstOrDefault(item => string.Equals(item.character.Id, bannerPinnedCharacterId, StringComparison.Ordinal));
+            if (pinnedIndex.character is not null)
+            {
+                return pinnedIndex.index;
+            }
+        }
+
+        return bannerRotationIndex % visibleCount;
+    }
+
+    private LauncherBannersCharacter? GetActiveBannerCharacter(IReadOnlyList<LauncherBannersCharacter> characters)
+    {
+        var activeIndex = GetActiveBannerIndex(characters);
+        return activeIndex < 0 ? null : characters[activeIndex];
+    }
+
+    private int GetPreferredBannerStartIndex(string gameId)
+    {
+        if (!launcherBanners.Current.Games.TryGetValue(gameId, out var game)
+            || game.Current is not { } current
+            || string.IsNullOrWhiteSpace(current.SelectedCharacterId))
+        {
+            return 0;
+        }
+
+        var preferredIndex = current.Characters
+            .Take(5)
+            .Select((character, index) => (character, index))
+            .FirstOrDefault(item => string.Equals(
+                item.character.Id,
+                current.SelectedCharacterId,
+                StringComparison.Ordinal));
+        return preferredIndex.character is null ? 0 : preferredIndex.index;
+    }
+
+    private void RenderBannerRows(string gameId, LauncherBannersCurrentPhase? current, DateTimeOffset now)
+    {
+        if (current is null)
+        {
+            BannerCharacterRows.Clear();
+            return;
+        }
+
+        var characters = current.Characters.Take(5).ToArray();
+        var activeIndex = GetActiveBannerIndex(characters);
+        var progress = GetBannerRotationProgress(now);
+        var timing = $"Ends in {BannerTimingFormatter.FormatRemaining(current.End - now)}";
+        for (var index = 0; index < characters.Length; index++)
+        {
+            var character = characters[index];
+            var portrait = character.Icon is null
+                ? null
+                : launcherBanners.TryResolveManagedAsset(character.Icon);
+            portrait ??= character.Variants
+                .Select(launcherBanners.TryResolveManagedAsset)
+                .FirstOrDefault(path => path is not null);
+            var isActive = index == activeIndex;
+            var isPinned = IsBannerPinned(gameId)
+                && string.Equals(character.Id, bannerPinnedCharacterId, StringComparison.Ordinal);
+            var existing = index < BannerCharacterRows.Count ? BannerCharacterRows[index] : null;
+            if (existing is null || !string.Equals(existing.CharacterId, character.Id, StringComparison.Ordinal))
+            {
+                if (index < BannerCharacterRows.Count)
+                {
+                    BannerCharacterRows[index] = new BannerCharacterRowItem(
+                        character,
+                        portrait,
+                        timing,
+                        isActive,
+                        isPinned,
+                        isActive ? progress : 0);
+                }
+                else
+                {
+                    BannerCharacterRows.Add(new BannerCharacterRowItem(
+                        character,
+                        portrait,
+                        timing,
+                        isActive,
+                        isPinned,
+                        isActive ? progress : 0));
+                }
+            }
+            else
+            {
+                existing.Update(portrait, timing, isActive, isPinned, isActive ? progress : 0);
+            }
+        }
+
+        while (BannerCharacterRows.Count > characters.Length)
+        {
+            BannerCharacterRows.RemoveAt(BannerCharacterRows.Count - 1);
+        }
+    }
+
+    private void SetBannerCard(
+        Border card,
+        Image image,
+        TextBlock? nameText,
+        TextBlock phaseText,
+        TextBlock timingText,
+        string? phase,
+        IReadOnlyList<LauncherBannersCharacter> characters,
+        string emptyName,
+        string timing)
+    {
+        var character = characters.Count == 0
+            ? null
+            : GetActiveBannerCharacter(characters)
+                ?? characters[bannerRotationIndex % characters.Count];
+        var variants = character?.Variants ?? [];
+        var asset = ReferenceEquals(image, NextBannerImage)
+            ? character?.Icon
+            : variants.Count == 0
+                ? null
+                : variants[bannerRotationIndex % variants.Count];
+        asset ??= variants.Count == 0
+            ? null
+            : variants[bannerRotationIndex % variants.Count];
+        var path = asset is null ? null : launcherBanners.TryResolveManagedAsset(asset);
+        image.Source = path is null ? null : new BitmapImage(new Uri(path));
+        image.Visibility = path is null ? Visibility.Collapsed : Visibility.Visible;
+        phaseText.Text = string.IsNullOrWhiteSpace(phase)
+            ? "VERSION —"
+            : $"VERSION {phase.ToUpperInvariant()}";
+        var bannerName = ReferenceEquals(image, NextBannerImage) && characters.Count > 1
+            ? string.Join(" + ", characters.Take(5).Select(entry => entry.Name))
+            : character?.Name ?? emptyName;
+        if (nameText is not null)
+        {
+            nameText.Text = bannerName;
+        }
+        timingText.Text = timing;
+        AutomationProperties.SetName(card, $"{bannerName}. {timing}".Trim());
     }
 
     private void ApplyLauncherBannerArt(string gameId, LauncherBannersCurrentPhase current)
@@ -2901,8 +4322,10 @@ public sealed partial class MainPage : Page
 
         if (TryApplyPinnedArt(appearance)) return;
 
-        var selectedCharacter = current.Characters.FirstOrDefault(character => character.Id == current.SelectedCharacterId)
+        var selectedCharacter = GetActiveBannerCharacter(current.Characters)
+            ?? current.Characters.FirstOrDefault(character => character.Id == current.SelectedCharacterId)
             ?? current.Characters.FirstOrDefault();
+        var artKey = selectedCharacter is null ? gameId : $"{gameId}:{selectedCharacter.Id}";
         var variants = selectedCharacter?.Variants.Count > 0
             ? selectedCharacter.Variants
             : current.Variants;
@@ -2916,8 +4339,14 @@ public sealed partial class MainPage : Page
             protectedFileValid: false,
             allCurrentVariants.Select(asset => asset.Id));
         LauncherBannersAsset? variant = null;
-        if (pinMigration is LauncherPinnedArtMigrationStatus.AvailableForProtection)
+        if (!string.IsNullOrWhiteSpace(appearance.ArtVariant)
+            && (!appearance.ArtPinned
+                || pinMigration is LauncherPinnedArtMigrationStatus.AvailableForProtection))
+        {
+            // A saved choice is authoritative regardless of which character
+            // happens to be active when the seven-second cycle is repainted.
             variant = allCurrentVariants.FirstOrDefault(asset => asset.Id == appearance.ArtVariant);
+        }
         if (appearance.ArtPinned
             && launcherBanners.TryResolveUserArt(appearance.PinnedArtFile) is null
             && variant is not null)
@@ -2949,14 +4378,22 @@ public sealed partial class MainPage : Page
                         currentState.Appearance,
                         StringComparer.Ordinal)
                     {
-                        [gameId] = currentAppearance with { PinnedArtFile = pinToSave },
+                        [gameId] = currentAppearance with
+                        {
+                            PinnedArtFile = pinToSave,
+                            ArtFit = HeroArtFitGeometry.Normalize(variant.Placement.Fit),
+                        },
                     };
                     pinWasSaved = true;
                     return currentState with { Appearance = appearances };
                 });
                 if (migrated && pinWasSaved)
                 {
-                    appearance = appearance with { PinnedArtFile = migratedPin };
+                    appearance = appearance with
+                    {
+                        PinnedArtFile = migratedPin,
+                        ArtFit = HeroArtFitGeometry.Normalize(variant.Placement.Fit),
+                    };
                     if (TryApplyPinnedArt(appearance)) return;
                 }
                 else
@@ -2970,13 +4407,19 @@ public sealed partial class MainPage : Page
             }
         }
         if (variant is null
-            && automaticArtVariants.TryGetValue(gameId, out var remembered)
+            && automaticArtVariants.TryGetValue(artKey, out var remembered)
             && remembered.Revision == launcherBanners.Current.Revision)
             variant = variants.FirstOrDefault(asset => asset.Id == remembered.VariantId);
+        if (variant is null
+            && automaticArtVariants.TryGetValue(gameId, out remembered)
+            && remembered.Revision == launcherBanners.Current.Revision)
+        {
+            variant = allCurrentVariants.FirstOrDefault(asset => asset.Id == remembered.VariantId);
+        }
         if (variant is null && variants.Count > 0)
         {
             variant = variants[Random.Shared.Next(variants.Count)];
-            automaticArtVariants[gameId] = (launcherBanners.Current.Revision, variant.Id);
+            automaticArtVariants[artKey] = (launcherBanners.Current.Revision, variant.Id);
         }
         if (variant is null)
         {
@@ -2988,29 +4431,39 @@ public sealed partial class MainPage : Page
             return;
         }
 
-        HeroArtwork.Source = new BitmapImage(new Uri(path));
-        HeroArtwork.Stretch = variant.Placement.Fit == "contain" ? Stretch.Uniform : Stretch.UniformToFill;
-        if (HeroArtwork.RenderTransform is CompositeTransform transform)
-        {
-            transform.ScaleX = appearance.ArtScale / 100d;
-            transform.ScaleY = appearance.ArtScale / 100d;
-            transform.TranslateX = appearance.ArtX + ((variant.Placement.X - 0.5) * HeroStage.ActualWidth);
-            transform.TranslateY = appearance.ArtY + ((variant.Placement.Y - 0.5) * HeroStage.ActualHeight);
-        }
+        SetHeroSource(path, BannerAssetStretch(variant.Placement.Fit));
+        var presentation = HeroArtFitGeometry.ManagedPresentation(
+            gameId,
+            variant.Placement.Fit,
+            variant.Dimensions.Width,
+            variant.Dimensions.Height);
+        ApplyManagedHeroLayout(
+            presentation,
+            variant.Dimensions.Width,
+            variant.Dimensions.Height);
+        ApplyHeroTransform(
+            appearance,
+            presentation.UsesCenteredCoverGeometry
+                ? 0
+                : (variant.Placement.X - 0.5) * HeroStage.ActualWidth,
+            (variant.Placement.Y - 0.5) * HeroStage.ActualHeight);
     }
+
+    private static Stretch BannerAssetStretch(string? fit) =>
+        HeroArtFitGeometry.Parse(fit) switch
+        {
+            HeroArtFit.Cover => Stretch.UniformToFill,
+            HeroArtFit.Fill => Stretch.Fill,
+            _ => Stretch.Uniform,
+        };
 
     private bool TryApplyPinnedArt(Nyx.Desktop.Core.State.GameAppearanceState appearance)
     {
         if (!appearance.ArtPinned || launcherBanners.TryResolveUserArt(appearance.PinnedArtFile) is not { } path) return false;
-        HeroArtwork.Source = new BitmapImage(new Uri(path));
-        HeroArtwork.Stretch = Stretch.Uniform;
-        if (HeroArtwork.RenderTransform is CompositeTransform transform)
-        {
-            transform.ScaleX = appearance.ArtScale / 100d;
-            transform.ScaleY = appearance.ArtScale / 100d;
-            transform.TranslateX = appearance.ArtX + (0.22 * HeroStage.ActualWidth);
-            transform.TranslateY = appearance.ArtY;
-        }
+        SetHeroSource(path, BannerAssetStretch(appearance.ArtFit));
+        // A pinned file is already the user's chosen composition. Do not apply
+        // a banner focal offset that belongs only to manifest-managed artwork.
+        ApplyHeroTransform(appearance);
         return true;
     }
 
@@ -3179,30 +4632,13 @@ public sealed partial class MainPage : Page
     {
         UpdaterSignalRow.Visibility = Visibility.Visible;
         OpenUpdaterButton.Visibility = Visibility.Visible;
-        OpenUpdaterButton.IsEnabled = false;
-        OpenUpdaterButton.Content = "OPEN GRYPHLINK";
-        ChooseGameFolderButton.Visibility = Visibility.Visible;
-        ChooseGameFolderButton.IsEnabled = !endfieldFolderActionInFlight
-            && !endfieldMaintenanceActionInFlight;
-        var hasRoot = endfieldRootStore.Load() is not null;
-        ChooseGameFolderButton.Content = endfieldFolderActionInFlight
-            ? "CHOOSING…"
-            : hasRoot ? "CHANGE FOLDER" : "CHOOSE FOLDER";
-        AutomationProperties.SetName(
-            ChooseGameFolderButton,
-            hasRoot
-                ? "Change the Arknights Endfield game folder"
-                : "Choose the Arknights Endfield game folder");
+        OpenUpdaterButton.IsEnabled = WuWaMaintenanceInteractionPolicy.AllowsOpenOfficial(
+            maintenanceReady: false,
+            wuwaActionInFlight,
+            hasRequest: wuwaMaintenanceRequest is not null);
+        OpenUpdaterButton.Content = "Official Launcher";
         MaintenanceProviderText.Text = "GRYPHLINK";
         RenderEndfieldMaintenance();
-
-        if (endfieldFolderSelectionNeedsReview)
-        {
-            SetGameSignal("Needs review", "LavenderBrush");
-            HeroDescription.Text = "That folder was not the complete official GRYPHLINK install. Nothing was saved or started.";
-            SetLaunchControls(false, "LOCKED", "Choose the GRYPHLINK folder", "Endfield folder needs review");
-            return;
-        }
 
         RenderPublisherSession(selected);
     }
@@ -3241,7 +4677,7 @@ public sealed partial class MainPage : Page
                 break;
             case EndfieldOfficialMaintenanceStatus.Failed:
                 UpdaterSignalText.Text = "GRYPHLINK failed to open";
-                OpenUpdaterButton.Content = "TRY AGAIN";
+                OpenUpdaterButton.Content = "Try Again";
                 OpenUpdaterButton.IsEnabled = !endfieldMaintenanceActionInFlight
                     && !endfieldFolderActionInFlight;
                 AutomationProperties.SetName(OpenUpdaterButton, "Try opening GRYPHLINK again");
@@ -3268,11 +4704,19 @@ public sealed partial class MainPage : Page
     private void RenderWuWa(GameLauncherItem selected)
     {
         UpdaterSignalRow.Visibility = Visibility.Visible;
-        OpenUpdaterButton.Visibility = Visibility.Collapsed;
+        OpenUpdaterButton.Visibility = Visibility.Visible;
         OpenUpdaterButton.IsEnabled = false;
-        OpenUpdaterButton.Content = "OPEN OFFICIAL";
-        MaintenanceProviderText.Text = "Wuthering Waves launcher";
+        OpenUpdaterButton.Content = "Official Launcher";
+        MaintenanceProviderText.Text = "KURO GAMES";
         RenderPublisherSession(selected);
+
+        if (IsWuWaAccountStatusEnabled()
+            && !wuwaAccountInitialRefreshRequested
+            && pageLease is { } lease)
+        {
+            wuwaAccountInitialRefreshRequested = true;
+            _ = RefreshWuWaAccountStatusAsync(lease);
+        }
 
         if (!wuwaScanFinished || wuwaMaintenanceStatus is null)
         {
@@ -3307,10 +4751,18 @@ public sealed partial class MainPage : Page
                 break;
             case WuWaOfficialMaintenanceStatus.Opened:
                 UpdaterSignalText.Text = "Official launcher start requested";
+                OpenUpdaterButton.IsEnabled = WuWaMaintenanceInteractionPolicy.AllowsOpenOfficial(
+                    maintenanceReady: false,
+                    wuwaActionInFlight,
+                    hasRequest: wuwaMaintenanceRequest is not null);
                 AutomationProperties.SetName(OpenUpdaterButton, "Wuthering Waves launcher start requested");
                 break;
             case WuWaOfficialMaintenanceStatus.Failed:
                 UpdaterSignalText.Text = "Official launcher failed to open";
+                OpenUpdaterButton.IsEnabled = WuWaMaintenanceInteractionPolicy.AllowsOpenOfficial(
+                    maintenanceReady: false,
+                    wuwaActionInFlight,
+                    hasRequest: wuwaMaintenanceRequest is not null);
                 AutomationProperties.SetName(OpenUpdaterButton, "Wuthering Waves launcher failed to open");
                 break;
             case WuWaOfficialMaintenanceStatus.NotFound:
@@ -3319,9 +4771,211 @@ public sealed partial class MainPage : Page
                 break;
             default:
                 UpdaterSignalText.Text = "Official maintenance needs review";
+                OpenUpdaterButton.IsEnabled = WuWaMaintenanceInteractionPolicy.AllowsOpenOfficial(
+                    maintenanceReady: false,
+                    wuwaActionInFlight,
+                    hasRequest: wuwaMaintenanceRequest is not null);
                 AutomationProperties.SetName(OpenUpdaterButton, "Wuthering Waves maintenance needs review");
                 break;
         }
+    }
+
+    private void RenderWuWaAccountStatus()
+    {
+        AccountProviderText.Text = "ROVER";
+        AccountConnectionWarningText.Text = "Unofficial local connection · may stop working.";
+        AutomationProperties.SetHelpText(
+            WuWaAccountStatusStrip,
+            AccountConnectionWarningText.Text);
+        PublisherAccountConnectButton.Visibility = Visibility.Collapsed;
+        DailyCheckInButton.Visibility = Visibility.Collapsed;
+        AutomationProperties.SetName(WuWaAccountStatusStrip, "Wuthering Waves Rover status");
+        AutomationProperties.SetName(WuWaAccountStatusToggle, "Enable or disable local Wuthering Waves Rover status");
+        var enabled = IsWuWaAccountStatusEnabled();
+        WuWaAccountStatusToggle.IsChecked = enabled;
+        WuWaAccountStatusToggle.Content = enabled ? "ON" : "START";
+        WuWaAccountStatusToggle.IsEnabled = !wuwaAccountStatusActionInFlight;
+        WuWaAccountStatusRefreshButton.Visibility = enabled ? Visibility.Visible : Visibility.Collapsed;
+        WuWaAccountStatusRefreshButton.IsEnabled = !wuwaAccountStatusActionInFlight;
+
+        if (!enabled)
+        {
+            WuWaAccountMetricsText.Text = "ENERGY + DAILIES";
+            WuWaAccountFreshnessText.Text = wuwaAccountStatusSaveFailed
+                ? "OFF · SETTING NOT SAVED"
+                : "OPT IN";
+            return;
+        }
+
+        if (wuwaAccountStatusActionInFlight)
+        {
+            // Do not show an earlier account while the cache identity is being
+            // re-established for this request.
+            WuWaAccountMetricsText.Text = "Checking official account status";
+            WuWaAccountFreshnessText.Text = "CHECKING";
+            return;
+        }
+
+        var result = wuwaAccountStatus.Current;
+        if (result?.Snapshot is { } snapshot)
+        {
+            WuWaAccountMetricsText.Text =
+                $"WP {snapshot.Energy}/{snapshot.MaxEnergy}  ·  RES {snapshot.StoreEnergy}  ·  DAILY {snapshot.Liveness}/{snapshot.LivenessMaxCount}";
+        }
+        else
+        {
+            WuWaAccountMetricsText.Text = "Waiting for official account status";
+        }
+
+        if (wuwaAccountStatusActionInFlight || result is null) return;
+        var age = result.SuccessfulAt is { } successfulAt
+            ? FormatAccountStatusAge(DateTimeOffset.UtcNow - successfulAt)
+            : null;
+        if (result.Failure is WuWaAccountStatusFailure.None)
+        {
+            WuWaAccountFreshnessText.Text = $"UPDATED {age ?? "NOW"}";
+            return;
+        }
+
+        var failure = result.Failure switch
+        {
+            WuWaAccountStatusFailure.CacheNotFound => "OPEN KURO LAUNCHER",
+            WuWaAccountStatusFailure.CacheMalformed => "CACHE UNREADABLE",
+            WuWaAccountStatusFailure.MultipleAccounts => "CHOOSE ACCOUNT IN KURO",
+            WuWaAccountStatusFailure.PlayerInfoRejected or WuWaAccountStatusFailure.RoleRejected => "SIGN IN AGAIN",
+            WuWaAccountStatusFailure.Timeout => "TIMED OUT",
+            WuWaAccountStatusFailure.RateLimited => age is null ? "TRY AGAIN SOON" : $"UPDATED {age}",
+            WuWaAccountStatusFailure.Canceled => "CANCELED",
+            _ => "STATUS UNAVAILABLE",
+        };
+        WuWaAccountFreshnessText.Text = result.IsStale && age is not null
+            ? $"STALE {age} · {failure}"
+            : failure;
+    }
+
+    private void RenderPublisherAccountStatus(string gameId)
+    {
+        var entry = PublisherAccountCatalog.Get(gameId);
+        var summary = publisherAccounts.Current;
+        var connection = entry.Provider == "HoYoLAB" ? summary.HoyoLab : summary.Skport;
+        var consentEnabled = publisherAccounts.HasConsent(entry.Provider);
+        AccountProviderText.Text = entry.Provider == "HoYoLAB" ? "HOYOLAB" : "SKPORT";
+        if (gameId == "ae") AccountProviderText.Text = "GRYPHLINE";
+        AccountConnectionWarningText.Text = consentEnabled
+            ? "Nyx-only private browser · disconnect deletes its profile."
+            : "Off by default · allow before Nyx opens publisher account pages.";
+        AutomationProperties.SetHelpText(
+            WuWaAccountStatusStrip,
+            AccountConnectionWarningText.Text);
+        AutomationProperties.SetName(WuWaAccountStatusStrip, $"{entry.Provider} account tools for {gameId}");
+        AutomationProperties.SetName(
+            WuWaAccountStatusToggle,
+            consentEnabled
+                ? $"Turn off {entry.Provider} account access and delete its Nyx profile"
+                : $"Allow {entry.Provider} account access");
+
+        var now = AccountDisplayClock();
+        var resource = summary.Resources.TryGetValue(gameId, out var value) ? value : null;
+        WuWaAccountMetricsText.Text = resource is not null
+            ? FormatPublisherResource(resource, now)
+            : gameId == "ae"
+                ? "OFFICIAL PROTOCOL TERMINAL"
+                : $"{entry.ResourceName.ToUpperInvariant()}  —";
+
+        var checkIn = summary.CheckIns.TryGetValue(gameId, out var result) ? result : null;
+        var currentCheckIn = checkIn is not null
+            && PublisherAccountPresentation.IsCurrentDayCheckIn(checkIn, now)
+                ? checkIn
+                : null;
+        WuWaAccountFreshnessText.Text = publisherAccountActionInFlight
+            ? "WORKING"
+            : !consentEnabled
+                ? publisherConsentSaveFailures.Contains(entry.Provider)
+                    ? "OFF · SETTING NOT SAVED"
+                    : publisherConsentCleanupFailures.Contains(entry.Provider)
+                        || publisherAccounts.HasPendingConsentRevocation(entry.Provider)
+                        ? "OFF · CLEANUP PENDING"
+                        : "ACCESS OFF"
+            : currentCheckIn is not null
+                ? currentCheckIn.State switch
+                {
+                    DailyCheckInState.Claimed => "CLAIMED TODAY",
+                    DailyCheckInState.AlreadyClaimed => "DONE TODAY",
+                    DailyCheckInState.LoginNeeded => "LOGIN NEEDED",
+                    DailyCheckInState.CouldNotCheck => "TRY AGAIN",
+                    _ => connection.ToString().ToUpperInvariant(),
+                }
+                : checkIn is not null
+                    ? $"DAY EXPIRED · {connection.ToString().ToUpperInvariant()}"
+                    : connection switch
+                {
+                    PublisherConnectionState.Connected => "CONNECTED",
+                    PublisherConnectionState.Connecting => "CONNECTING",
+                    PublisherConnectionState.LoginRequired => "LOGIN NEEDED",
+                    PublisherConnectionState.NeedsReview => "NEEDS REVIEW",
+                    _ => "PRIVATE SESSION",
+                };
+
+        WuWaAccountStatusToggle.IsChecked = consentEnabled;
+        WuWaAccountStatusToggle.Content = consentEnabled ? "ON" : "ALLOW";
+        WuWaAccountStatusToggle.IsEnabled = !publisherAccountActionInFlight;
+        PublisherAccountConnectButton.Visibility = consentEnabled
+            ? Visibility.Visible
+            : Visibility.Collapsed;
+        PublisherAccountConnectButton.Content = connection switch
+        {
+            PublisherConnectionState.Connected => "DELETE",
+            PublisherConnectionState.Connecting => "WAIT",
+            PublisherConnectionState.LoginRequired => "SIGN IN",
+            PublisherConnectionState.NeedsReview => "REVIEW",
+            _ => "CONNECT",
+        };
+        AutomationProperties.SetName(
+            PublisherAccountConnectButton,
+            connection == PublisherConnectionState.Connected
+                ? $"Disconnect {entry.Provider} and delete its Nyx browser profile"
+                : $"Connect {entry.Provider} in a Nyx-only private browser");
+        PublisherAccountConnectButton.IsEnabled = consentEnabled
+            && !publisherAccountActionInFlight
+            && connection != PublisherConnectionState.Connecting;
+        WuWaAccountStatusRefreshButton.Visibility = consentEnabled
+            && (gameId == "ae"
+                || (entry.SupportsNumericResource && connection == PublisherConnectionState.Connected))
+                ? Visibility.Visible
+                : Visibility.Collapsed;
+        AutomationProperties.SetName(
+            WuWaAccountStatusRefreshButton,
+            gameId == "ae"
+                ? "Open the official Arknights Endfield Protocol Terminal"
+                : $"Refresh {entry.ResourceName}");
+        WuWaAccountStatusRefreshButton.IsEnabled = consentEnabled && !publisherAccountActionInFlight;
+        DailyCheckInButton.Visibility = consentEnabled ? Visibility.Visible : Visibility.Collapsed;
+        DailyCheckInButton.IsEnabled = consentEnabled && !publisherAccountActionInFlight;
+    }
+
+    public static string FormatPublisherResource(PublisherResourceSnapshot resource, DateTimeOffset now)
+        => PublisherAccountDisplayProjection.FormatResource(resource, now);
+
+    public static int RemainingRecoverySeconds(PublisherResourceSnapshot resource, DateTimeOffset now)
+        => PublisherAccountDisplayProjection.RemainingRecoverySeconds(resource, now);
+
+    private static string FormatRecoveryDuration(int seconds)
+    {
+        var duration = TimeSpan.FromSeconds(seconds);
+        return duration.TotalHours >= 1
+            ? $"{(int)duration.TotalHours}H {duration.Minutes}M"
+            : $"{Math.Max(1, duration.Minutes)}M";
+    }
+
+    private bool IsWuWaAccountStatusEnabled() =>
+        launcherState.Snapshot.Preferences.FeatureFlags.WuWaAccountStatus
+        && !wuwaAccountStatusSessionDisabled;
+
+    private static string FormatAccountStatusAge(TimeSpan age)
+    {
+        if (age < TimeSpan.FromMinutes(1)) return "NOW";
+        if (age < TimeSpan.FromHours(1)) return $"{Math.Max(1, (int)age.TotalMinutes)}M AGO";
+        return $"{Math.Max(1, (int)age.TotalHours)}H AGO";
     }
 
     private void ApplyWuWaMaintenanceResult(WuWaOfficialMaintenanceResult result)
@@ -3365,7 +5019,7 @@ public sealed partial class MainPage : Page
             return;
         }
 
-        OpenUpdaterButton.Content = "OPEN OFFICIAL";
+        OpenUpdaterButton.Content = "Official Launcher";
 
         if (!updaterScanFinished)
         {
@@ -3389,7 +5043,7 @@ public sealed partial class MainPage : Page
                 break;
             case GenshinLaunchStatus.LaunchFailed:
                 UpdaterSignalText.Text = "Launch failed";
-                OpenUpdaterButton.Content = "TRY AGAIN";
+                OpenUpdaterButton.Content = "Try Again";
                 OpenUpdaterButton.IsEnabled = !updaterActionInFlight;
                 AutomationProperties.SetName(OpenUpdaterButton, "Try opening HoYoPlay again");
                 break;
@@ -3494,70 +5148,104 @@ public sealed partial class MainPage : Page
         double FadeMid);
 }
 
-public sealed class LatestContentCardItem
+public sealed class BannerCharacterRowItem : INotifyPropertyChanged
 {
-    public string TypeLabel { get; set; } = string.Empty;
-
-    public string Title { get; set; } = string.Empty;
-
-    public string DateLabel { get; set; } = string.Empty;
-
-    public double TitleSize { get; set; } = 13;
-
-    public double ItemOpacity { get; set; } = 0.78;
-
-    public string? ApprovedLink { get; set; }
-
-    public bool IsLinkSafe { get; set; }
-
-    public string AccessibilityName { get; set; } = string.Empty;
-
-    public static LatestContentCardItem From(LatestContentCard card, int index = 0) => new()
+    public BannerCharacterRowItem(
+        LauncherBannersCharacter character,
+        string? portraitSource,
+        string timing,
+        bool isActive,
+        bool isPinned,
+        double progress)
     {
-        TypeLabel = FormatType(card.Type),
-        Title = card.Title,
-        DateLabel = card.PublisherDateLabel
-            ?? card.PublishedAt?.ToUniversalTime().ToString("yyyy.MM.dd", CultureInfo.InvariantCulture)
-            ?? "CURRENT",
-        TitleSize = index == 0 ? 15 : 13,
-        ItemOpacity = index == 0 ? 1 : 0.78,
-        ApprovedLink = card.ApprovedLink,
-        IsLinkSafe = !string.IsNullOrWhiteSpace(card.ApprovedLink),
-        AccessibilityName = string.IsNullOrWhiteSpace(card.ApprovedLink)
-            ? $"News: {card.Title}"
-            : $"Open official news: {card.Title}",
-    };
+        CharacterId = character.Id;
+        Name = character.Name;
+        Detail = timing;
+        Update(portraitSource, timing, isActive, isPinned, progress);
+    }
 
-    private static string FormatType(string type) => type switch
+    public event PropertyChangedEventHandler? PropertyChanged;
+
+    public string CharacterId { get; }
+
+    public string Name { get; }
+
+    public string Detail { get; private set; }
+
+    public string? PortraitSource { get; private set; }
+
+    public bool IsActive { get; private set; }
+
+    public bool IsPinned { get; private set; }
+
+    public double Progress { get; private set; }
+
+    public double RowOpacity => IsActive ? 1 : 0.9;
+
+    public Visibility ActiveVisibility => IsActive ? Visibility.Visible : Visibility.Collapsed;
+
+    public Visibility SeparatorVisibility => IsActive ? Visibility.Collapsed : Visibility.Visible;
+
+    public string ActiveLabel => IsPinned ? "PINNED" : IsActive ? "ACTIVE" : string.Empty;
+
+    public string ProgressLabel => IsActive ? $"{Math.Round(Progress):0}%" : string.Empty;
+
+    public string PinLabel => IsPinned ? "UNPIN" : "PIN";
+
+    public string AccessibilityName => IsPinned
+        ? $"{Name}. Pinned banner character. Click to resume rotation."
+        : IsActive
+            ? $"{Name}. Active banner character. Click to pin this character."
+            : $"{Name}. Click to pin this character.";
+
+    public void Update(string? portraitSource, string timing, bool isActive, bool isPinned, double progress)
     {
-        "POST_TYPE_ACTIVITY" => "ACTIVITY",
-        "POST_TYPE_ANNOUNCE" => "NOTICE",
-        "POST_TYPE_NEWS" => "NEWS",
-        _ => type.ToUpperInvariant(),
-    };
+        var nextProgress = Math.Clamp(progress, 0, 100);
+        var portraitChanged = !string.Equals(PortraitSource, portraitSource, StringComparison.OrdinalIgnoreCase);
+        var timingChanged = !string.Equals(Detail, timing, StringComparison.Ordinal);
+        var activeChanged = IsActive != isActive;
+        var pinnedChanged = IsPinned != isPinned;
+        var progressChanged = Math.Abs(Progress - nextProgress) >= 0.01;
+
+        PortraitSource = portraitSource;
+        Detail = timing;
+        IsActive = isActive;
+        IsPinned = isPinned;
+        Progress = nextProgress;
+
+        if (portraitChanged) Notify(nameof(PortraitSource));
+        if (timingChanged) Notify(nameof(Detail));
+        if (progressChanged)
+        {
+            Notify(nameof(Progress));
+            Notify(nameof(ProgressLabel));
+        }
+        if (activeChanged)
+        {
+            Notify(nameof(RowOpacity));
+            Notify(nameof(ActiveVisibility));
+            Notify(nameof(SeparatorVisibility));
+            Notify(nameof(ActiveLabel));
+            Notify(nameof(ProgressLabel));
+            Notify(nameof(PinLabel));
+            Notify(nameof(AccessibilityName));
+        }
+        if (pinnedChanged)
+        {
+            Notify(nameof(ActiveLabel));
+            Notify(nameof(PinLabel));
+            Notify(nameof(AccessibilityName));
+        }
+    }
+
+    private void Notify(string propertyName) =>
+        PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+
 }
 
-public sealed class CurrentBannerRowItem
+public static class BannerTimingFormatter
 {
-    public CurrentBannerRowItem(string title, string remaining)
-    {
-        Title = title;
-        Remaining = remaining;
-    }
-
-    public string Title { get; set; }
-
-    public string Remaining { get; set; }
-
-    public static CurrentBannerRowItem From(LatestContentCard card, DateTimeOffset now)
-    {
-        var remaining = card.PublishedAt is not { } end || end <= now
-            ? "LIVE"
-            : FormatRemainingForDisplay(end - now);
-        return new(card.Title, remaining);
-    }
-
-    public static string FormatRemainingForDisplay(TimeSpan duration)
+    public static string FormatRemaining(TimeSpan duration)
     {
         if (duration.TotalDays >= 1)
         {
@@ -3570,7 +5258,111 @@ public sealed class CurrentBannerRowItem
     }
 }
 
-public sealed record GameOrderItem(string Id, string DisplayName);
+public sealed class RedemptionCodeRowItem : INotifyPropertyChanged
+{
+    public RedemptionCodeRowItem(
+        string code,
+        DateOnly added,
+        int currencyAmount,
+        string currencyName,
+        string currencyIconSource,
+        bool isCopyable,
+        double rowHeight = 17)
+    {
+        Code = code;
+        AddedLabel = isCopyable
+            ? added.ToString("MMM d", CultureInfo.InvariantCulture).ToUpperInvariant()
+            : string.Empty;
+        IsCopyable = isCopyable;
+        CurrencyAmount = currencyAmount;
+        CurrencyName = currencyName;
+        CurrencyIconSource = currencyIconSource;
+        CurrencyAmountLabel = currencyAmount > 0 ? currencyAmount.ToString(CultureInfo.InvariantCulture) : string.Empty;
+        CurrencyVisibility = currencyAmount > 0 ? Visibility.Visible : Visibility.Collapsed;
+        FontSize = code.Length > 16 ? 9 : 11;
+        AccessibilityName = isCopyable
+            ? $"Copy redemption code {code}, {currencyAmount} {currencyName}, added {added:yyyy-MM-dd}"
+            : code;
+        CopyStatus = isCopyable ? "COPY" : string.Empty;
+        RowHeight = rowHeight;
+    }
+
+    public event PropertyChangedEventHandler? PropertyChanged;
+
+    public static RedemptionCodeRowItem Empty { get; } = new(
+        "No premium codes available", default, 0, string.Empty, string.Empty, false);
+
+    public string Code { get; }
+
+    public string AddedLabel { get; }
+
+    public bool IsCopyable { get; }
+
+    public int CurrencyAmount { get; }
+
+    public string CurrencyName { get; }
+
+    public string CurrencyIconSource { get; }
+
+    public string CurrencyAmountLabel { get; }
+
+    public Visibility CurrencyVisibility { get; private set; }
+
+    public double FontSize { get; }
+
+    public string AccessibilityName { get; }
+
+    public string CopyStatus { get; private set; }
+
+    public double RowHeight { get; private set; }
+
+    public Visibility MetadataVisibility { get; private set; } = Visibility.Visible;
+
+    public TextDecorations CodeDecoration { get; private set; }
+
+    public double CodeOpacity { get; private set; } = 1;
+
+    public void MarkPreviouslyCopied()
+    {
+        if (CodeDecoration == TextDecorations.Strikethrough) return;
+        CodeDecoration = TextDecorations.Strikethrough;
+        CodeOpacity = 0.58;
+        PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(CodeDecoration)));
+        PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(CodeOpacity)));
+    }
+
+    public void SetRowHeight(double height)
+    {
+        if (Math.Abs(RowHeight - height) < 0.01) return;
+        RowHeight = height;
+        PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(RowHeight)));
+    }
+
+    public void SetMetadataVisibility(bool isVisible)
+    {
+        var next = isVisible ? Visibility.Visible : Visibility.Collapsed;
+        var currencyNext = isVisible && CurrencyAmount > 0 ? Visibility.Visible : Visibility.Collapsed;
+        if (MetadataVisibility == next && CurrencyVisibility == currencyNext) return;
+        MetadataVisibility = next;
+        CurrencyVisibility = currencyNext;
+        PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(MetadataVisibility)));
+        PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(CurrencyVisibility)));
+    }
+
+    public void MarkCopied()
+    {
+        if (CopyStatus == "COPIED") return;
+        CopyStatus = "COPIED";
+        PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(CopyStatus)));
+    }
+
+    public void ResetCopyState()
+    {
+        if (CopyStatus == "COPY") return;
+        CopyStatus = "COPY";
+        PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(CopyStatus)));
+    }
+}
 
 public sealed class GameLauncherItem : INotifyPropertyChanged
 {

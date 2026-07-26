@@ -4,14 +4,14 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-07-17T07:37:35.473Z",
+  "generatedAt": "2026-07-26T05:39:34.836Z",
   "codes": {
-    "updated": "2026-07-17T00:07:09.260Z",
+    "updated": "2026-07-26T00:07:02.250Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
         {
-          "code": "PFY1S40I88T9",
+          "code": "LEGEDILJKSGM",
           "reward": "Primogem x 60, Adventurer's Experience x 5",
           "premium": true,
           "premiumCurrency": {
@@ -19,10 +19,24 @@ var NYX_DB = {
             "needle": "primogem",
             "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-26",
           "firstSeen": "2026-07-05T17:19:20.440Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=PFY1S40I88T9",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=PFY1S40I88T9"
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM"
+        },
+        {
+          "code": "UIVI13C8X156",
+          "reward": "10000 Mora, 10 Adventurer's Experience, 5 Fine Enhancement Ore, 5 Jueyun Chili Chicken, 5 Stir-Fried Fish Noodles",
+          "premium": false,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-07-22",
+          "firstSeen": "2026-07-22T18:21:43.993Z",
+          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=UIVI13C8X156"
         },
         {
           "code": "EZSB8889C2BZ",
@@ -34,23 +48,9 @@ var NYX_DB = {
             "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
           },
           "added": "2026-07-03",
-          "firstSeen": "2026-07-05T17:19:20.440Z",
+          "firstSeen": "2026-07-21T19:50:38.169Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=EZSB8889C2BZ",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=EZSB8889C2BZ"
-        },
-        {
-          "code": "LEGEDILJKSGM",
-          "reward": "60 Primogems and Five Adventurer S Experience",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-06-25",
-          "firstSeen": "2026-07-05T17:19:20.440Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM"
         }
       ],
       "hsr": [
@@ -63,7 +63,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-26",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK"
@@ -77,7 +77,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-26",
           "firstSeen": "2026-07-15T09:16:06.610Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB"
@@ -91,7 +91,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-26",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH"
@@ -105,7 +105,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-26",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL"
@@ -119,7 +119,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-26",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS"
@@ -133,7 +133,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-26",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA"
@@ -147,37 +147,51 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-26",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT"
         },
         {
-          "code": "BESTCOFFEEEVER",
-          "reward": "3 Traveler's Guide, 2 Express Special Blend: Rustic Infusion",
+          "code": "STARRAILFATE2026",
+          "reward": "2 The Fluffy Multi-Functional Fan Glowstick, 3 Traveler's Guide",
           "premium": false,
           "premiumCurrency": {
             "name": "Stellar Jade",
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-15",
-          "firstSeen": "2026-07-15T06:22:38.686Z",
+          "added": "2026-07-24",
+          "firstSeen": "2026-07-24T11:48:06.656Z",
           "sourceUrl": "https://www.crimsonwitch.com/codes/Honkai_Star_Rail",
+          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILFATE2026"
+        },
+        {
+          "code": "BESTCOFFEEEVER",
+          "reward": "Three Traveler S Guides and Two Express Special Blend Rustic Infusion",
+          "premium": false,
+          "premiumCurrency": {
+            "name": "Stellar Jade",
+            "needle": "stellar jade",
+            "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
+          },
+          "added": "2026-07-20",
+          "firstSeen": "2026-07-15T06:22:38.686Z",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=BESTCOFFEEEVER",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=BESTCOFFEEEVER"
         },
         {
           "code": "PSJQKBQPYGMT",
-          "reward": "50 Stellar Jade, 10000 Credit",
+          "reward": "50 Stellar Jade and 10k Credits",
           "premium": true,
           "premiumCurrency": {
             "name": "Stellar Jade",
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-15",
+          "added": "2026-07-20",
           "firstSeen": "2026-07-15T06:22:38.686Z",
-          "sourceUrl": "https://www.crimsonwitch.com/codes/Honkai_Star_Rail",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=PSJQKBQPYGMT",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=PSJQKBQPYGMT"
         }
       ],
@@ -191,7 +205,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-26",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ROSCAELIFER0617",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ROSCAELIFER0617"
@@ -205,7 +219,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-26",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT"
@@ -219,7 +233,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-26",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO"
@@ -233,7 +247,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-26",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSEASON3",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSEASON3"
@@ -247,27 +261,124 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-26",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM"
+        },
+        {
+          "code": "ZZZ2YEAR",
+          "reward": "50 Polychrome",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Polychrome",
+            "needle": "polychrome",
+            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
+          },
+          "added": "2026-07-23",
+          "firstSeen": "2026-07-18T06:12:26.512Z",
+          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ2YEAR",
+          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ2YEAR"
+        },
+        {
+          "code": "ZZZ31REMIELLE",
+          "reward": "60 Polychrome and 6,666 Denny",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Polychrome",
+            "needle": "polychrome",
+            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
+          },
+          "added": "2026-07-23",
+          "firstSeen": "2026-07-17T15:01:00.612Z",
+          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ31REMIELLE",
+          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ31REMIELLE"
         }
       ],
       "wuwa": [],
-      "ae": []
+      "ae": [
+        {
+          "code": "ENDFIELDRENEW",
+          "reward": "One Safety Helmet Sticker and 71,600 T Creds",
+          "premium": false,
+          "premiumCurrency": {
+            "name": "Oroberyl",
+            "needle": "oroberyl",
+            "aliases": [
+              "originium"
+            ],
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Oroberyl.png"
+          },
+          "added": "2026-07-14",
+          "firstSeen": "2026-07-16T11:46:47.991Z",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=ENDFIELDRENEW",
+          "redeemUrl": null
+        },
+        {
+          "code": "ZAU2SYXHWX5L4ZH",
+          "reward": "5k T Creds and Ten Arms Insp Kits",
+          "premium": false,
+          "premiumCurrency": {
+            "name": "Oroberyl",
+            "needle": "oroberyl",
+            "aliases": [
+              "originium"
+            ],
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Oroberyl.png"
+          },
+          "added": "2026-05-05",
+          "firstSeen": "2026-07-16T11:46:47.991Z",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=ZAU2SYXHWX5L4ZH",
+          "redeemUrl": null
+        },
+        {
+          "code": "ENDFIELD4PC",
+          "reward": "Two Advanced Combat Records, Two Arms Insp Kits, and 13k T Creds Pc Only",
+          "premium": false,
+          "premiumCurrency": {
+            "name": "Oroberyl",
+            "needle": "oroberyl",
+            "aliases": [
+              "originium"
+            ],
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Oroberyl.png"
+          },
+          "added": "2026-05-03",
+          "firstSeen": "2026-07-16T11:46:47.991Z",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=ENDFIELD4PC",
+          "redeemUrl": null
+        },
+        {
+          "code": "ENDFIELDGIFT",
+          "reward": "150 Oroberyl, 20 Intermediate Combat Records, 20 Arms Insp Kits, and 10k T Creds",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Oroberyl",
+            "needle": "oroberyl",
+            "aliases": [
+              "originium"
+            ],
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Oroberyl.png"
+          },
+          "added": "2026-05-03",
+          "firstSeen": "2026-07-16T11:46:47.991Z",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=ENDFIELDGIFT",
+          "redeemUrl": null
+        }
+      ]
     }
   },
   "banners": {
-    "updated": "2026-07-17T02:59:47.056Z",
-    "checkedAt": "2026-07-17T02:59:47.056Z",
+    "updated": "2026-07-26T05:37:17.784Z",
+    "checkedAt": "2026-07-26T05:37:17.784Z",
     "games": {
       "hsr": {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-17T02:59:47.056Z",
-          "lastSuccessfulFetch": "2026-07-17T02:59:47.056Z",
-          "lastValidUpdate": "2026-07-17T02:59:47.056Z",
+          "checkedAt": "2026-07-26T05:37:17.784Z",
+          "lastSuccessfulFetch": "2026-07-26T05:37:17.784Z",
+          "lastValidUpdate": "2026-07-26T05:37:17.784Z",
           "source": "game8"
         },
         "current": {
@@ -292,49 +403,93 @@ var NYX_DB = {
               "art": "../../Database/GameData/hsr/assets/characters/draw-card/1413.webp",
               "namecard": null,
               "rarity": 5
-            }
-          ],
-          "subBanners": []
-        },
-        "next": null,
-        "upcoming": []
-      },
-      "gi": {
-        "name": "Genshin Impact",
-        "freshness": {
-          "status": "fresh",
-          "checkedAt": "2026-07-17T02:59:47.056Z",
-          "lastSuccessfulFetch": "2026-07-17T02:59:47.056Z",
-          "lastValidUpdate": "2026-07-17T02:59:47.056Z",
-          "source": "game8"
-        },
-        "current": {
-          "phase": "6.7 Phase 1",
-          "start": null,
-          "end": "2026-07-21T10:00:00.000Z",
-          "characters": [
+            },
             {
-              "name": "Sandrone",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_MarionetteNew_Circle.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_MarionetteNew.webp",
-              "iconZoom": true,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MarionetteNew.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/MarionetteNew.png",
+              "name": "Gilgamesh",
+              "icon": "../../Database/GameData/hsr/assets/characters/round/1509.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1509.webp",
+              "iconZoom": false,
+              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1509.webp",
+              "namecard": null,
               "rarity": 5
             },
             {
-              "name": "Citlali",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Citlali_Circle.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Citlali.webp",
-              "iconZoom": true,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Citlali.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/Citlali.png",
+              "name": "Rin Tohsaka",
+              "icon": "../../Database/GameData/hsr/assets/characters/round/1508.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1508.webp",
+              "iconZoom": false,
+              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1508.webp",
+              "namecard": null,
+              "rarity": 5
+            },
+            {
+              "name": "Archer",
+              "icon": "../../Database/GameData/hsr/assets/characters/round/1015.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1015.webp",
+              "iconZoom": false,
+              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1015.webp",
+              "namecard": null,
+              "rarity": 5
+            },
+            {
+              "name": "Saber",
+              "icon": "../../Database/GameData/hsr/assets/characters/round/1014.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1014.webp",
+              "iconZoom": false,
+              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1014.webp",
+              "namecard": null,
               "rarity": 5
             }
           ],
           "subBanners": []
         },
         "next": {
+          "phase": "4.4 Phase 2",
+          "start": "2026-08-05T16:00:00.000Z",
+          "end": "2026-08-25T16:00:00.000Z",
+          "characters": [
+            {
+              "name": "Cerydra",
+              "icon": "../../Database/GameData/hsr/assets/characters/round/1412.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1412.webp",
+              "iconZoom": false,
+              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1412.webp",
+              "namecard": null,
+              "rarity": 5
+            },
+            {
+              "name": "Anaxa",
+              "icon": "../../Database/GameData/hsr/assets/characters/round/1405.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1405.webp",
+              "iconZoom": false,
+              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1405.webp",
+              "namecard": null,
+              "rarity": 5
+            },
+            {
+              "name": "Aventurine",
+              "icon": "../../Database/GameData/hsr/assets/characters/round/1304.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1304.webp",
+              "iconZoom": false,
+              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1304.webp",
+              "namecard": null,
+              "rarity": 5
+            }
+          ],
+          "subBanners": []
+        },
+        "upcoming": []
+      },
+      "gi": {
+        "name": "Genshin Impact",
+        "freshness": {
+          "status": "fresh",
+          "checkedAt": "2026-07-26T05:37:17.784Z",
+          "lastSuccessfulFetch": "2026-07-26T05:37:17.784Z",
+          "lastValidUpdate": "2026-07-26T05:37:17.784Z",
+          "source": "game8"
+        },
+        "current": {
           "phase": "6.7 Phase 2",
           "start": "2026-07-21T10:00:00.000Z",
           "end": "2026-08-11T10:00:00.000Z",
@@ -351,15 +506,16 @@ var NYX_DB = {
           ],
           "subBanners": []
         },
+        "next": null,
         "upcoming": []
       },
       "wuwa": {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-17T02:59:47.056Z",
-          "lastSuccessfulFetch": "2026-07-17T02:59:47.056Z",
-          "lastValidUpdate": "2026-07-17T02:59:47.056Z",
+          "checkedAt": "2026-07-26T05:37:17.784Z",
+          "lastSuccessfulFetch": "2026-07-26T05:37:17.784Z",
+          "lastValidUpdate": "2026-07-26T05:37:17.784Z",
           "source": "game8"
         },
         "current": {
@@ -438,9 +594,9 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-17T02:59:47.056Z",
-          "lastSuccessfulFetch": "2026-07-17T02:59:47.056Z",
-          "lastValidUpdate": "2026-07-17T02:59:47.056Z",
+          "checkedAt": "2026-07-26T05:37:17.784Z",
+          "lastSuccessfulFetch": "2026-07-26T05:37:17.784Z",
+          "lastValidUpdate": "2026-07-26T05:37:17.784Z",
           "source": "game8"
         },
         "current": {
@@ -469,16 +625,94 @@ var NYX_DB = {
           ],
           "subBanners": []
         },
-        "next": null,
-        "upcoming": []
+        "next": {
+          "phase": null,
+          "start": "2026-07-29T10:00:00.000Z",
+          "end": "2026-09-08T10:00:00.000Z",
+          "characters": [
+            {
+              "name": "Remielle",
+              "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle67.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect67.webp",
+              "iconZoom": true,
+              "art": "../../Database/Prydwen/zzz/assets/characters/remielle-e8b52d52cf40.webp",
+              "namecard": null,
+              "rarity": "S"
+            }
+          ],
+          "subBanners": []
+        },
+        "upcoming": [
+          {
+            "phase": null,
+            "start": "2026-07-29T10:00:00.000Z",
+            "end": "2026-08-19T10:00:00.000Z",
+            "characters": [
+              {
+                "name": "Aria",
+                "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle57.webp",
+                "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect57.webp",
+                "iconZoom": true,
+                "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole57.webp",
+                "namecard": null,
+                "rarity": "S"
+              }
+            ],
+            "subBanners": []
+          },
+          {
+            "phase": null,
+            "start": "2026-08-19T10:00:00.000Z",
+            "end": "2026-09-08T10:00:00.000Z",
+            "characters": [
+              {
+                "name": "Sigrid",
+                "icon": "https://static.nanoka.cc/assets/zzz/IconRoleCircle66.webp",
+                "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect66.webp",
+                "iconZoom": true,
+                "art": "https://static.nanoka.cc/assets/zzz/IconRoleCircle66.webp",
+                "namecard": null,
+                "rarity": 4
+              },
+              {
+                "name": "Dialyn",
+                "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle54.webp",
+                "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect54.webp",
+                "iconZoom": true,
+                "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole54.webp",
+                "namecard": null,
+                "rarity": "S"
+              },
+              {
+                "name": "Yuzuha",
+                "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle47.webp",
+                "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect47.webp",
+                "iconZoom": true,
+                "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole47.webp",
+                "namecard": null,
+                "rarity": "S"
+              },
+              {
+                "name": "Harumasa",
+                "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle35.webp",
+                "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect35.webp",
+                "iconZoom": true,
+                "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole35.webp",
+                "namecard": null,
+                "rarity": "S"
+              }
+            ],
+            "subBanners": []
+          }
+        ]
       },
       "ae": {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-17T02:59:47.056Z",
-          "lastSuccessfulFetch": "2026-07-17T02:59:47.056Z",
-          "lastValidUpdate": "2026-07-17T02:59:47.056Z",
+          "checkedAt": "2026-07-26T05:37:17.784Z",
+          "lastSuccessfulFetch": "2026-07-26T05:37:17.784Z",
+          "lastValidUpdate": "2026-07-26T05:37:17.784Z",
           "source": "game8"
         },
         "current": {
@@ -4188,7 +4422,7 @@ var NYX_DB = {
       ],
       "codes": [
         {
-          "code": "PFY1S40I88T9",
+          "code": "LEGEDILJKSGM",
           "reward": "Primogem x 60, Adventurer's Experience x 5",
           "premium": true,
           "premiumCurrency": {
@@ -4196,10 +4430,24 @@ var NYX_DB = {
             "needle": "primogem",
             "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-26",
           "firstSeen": "2026-07-05T17:19:20.440Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=PFY1S40I88T9",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=PFY1S40I88T9"
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM"
+        },
+        {
+          "code": "UIVI13C8X156",
+          "reward": "10000 Mora, 10 Adventurer's Experience, 5 Fine Enhancement Ore, 5 Jueyun Chili Chicken, 5 Stir-Fried Fish Noodles",
+          "premium": false,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-07-22",
+          "firstSeen": "2026-07-22T18:21:43.993Z",
+          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=UIVI13C8X156"
         },
         {
           "code": "EZSB8889C2BZ",
@@ -4211,61 +4459,21 @@ var NYX_DB = {
             "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
           },
           "added": "2026-07-03",
-          "firstSeen": "2026-07-05T17:19:20.440Z",
+          "firstSeen": "2026-07-21T19:50:38.169Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=EZSB8889C2BZ",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=EZSB8889C2BZ"
-        },
-        {
-          "code": "LEGEDILJKSGM",
-          "reward": "60 Primogems and Five Adventurer S Experience",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-06-25",
-          "firstSeen": "2026-07-05T17:19:20.440Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM"
         }
       ],
       "banners": {
         "name": "Genshin Impact",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-17T02:59:47.056Z",
-          "lastSuccessfulFetch": "2026-07-17T02:59:47.056Z",
-          "lastValidUpdate": "2026-07-17T02:59:47.056Z",
+          "checkedAt": "2026-07-26T05:37:17.784Z",
+          "lastSuccessfulFetch": "2026-07-26T05:37:17.784Z",
+          "lastValidUpdate": "2026-07-26T05:37:17.784Z",
           "source": "game8"
         },
         "current": {
-          "phase": "6.7 Phase 1",
-          "start": null,
-          "end": "2026-07-21T10:00:00.000Z",
-          "characters": [
-            {
-              "name": "Sandrone",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_MarionetteNew_Circle.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_MarionetteNew.webp",
-              "iconZoom": true,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MarionetteNew.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/MarionetteNew.png",
-              "rarity": 5
-            },
-            {
-              "name": "Citlali",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Citlali_Circle.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Citlali.webp",
-              "iconZoom": true,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Citlali.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/Citlali.png",
-              "rarity": 5
-            }
-          ],
-          "subBanners": []
-        },
-        "next": {
           "phase": "6.7 Phase 2",
           "start": "2026-07-21T10:00:00.000Z",
           "end": "2026-08-11T10:00:00.000Z",
@@ -4282,6 +4490,7 @@ var NYX_DB = {
           ],
           "subBanners": []
         },
+        "next": null,
         "upcoming": []
       },
       "tcg": {
@@ -150139,7 +150348,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-26",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK"
@@ -150153,7 +150362,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-26",
           "firstSeen": "2026-07-15T09:16:06.610Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB"
@@ -150167,7 +150376,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-26",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH"
@@ -150181,7 +150390,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-26",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL"
@@ -150195,7 +150404,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-26",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS"
@@ -150209,7 +150418,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-26",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA"
@@ -150223,37 +150432,51 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-26",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT"
         },
         {
-          "code": "BESTCOFFEEEVER",
-          "reward": "3 Traveler's Guide, 2 Express Special Blend: Rustic Infusion",
+          "code": "STARRAILFATE2026",
+          "reward": "2 The Fluffy Multi-Functional Fan Glowstick, 3 Traveler's Guide",
           "premium": false,
           "premiumCurrency": {
             "name": "Stellar Jade",
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-15",
-          "firstSeen": "2026-07-15T06:22:38.686Z",
+          "added": "2026-07-24",
+          "firstSeen": "2026-07-24T11:48:06.656Z",
           "sourceUrl": "https://www.crimsonwitch.com/codes/Honkai_Star_Rail",
+          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILFATE2026"
+        },
+        {
+          "code": "BESTCOFFEEEVER",
+          "reward": "Three Traveler S Guides and Two Express Special Blend Rustic Infusion",
+          "premium": false,
+          "premiumCurrency": {
+            "name": "Stellar Jade",
+            "needle": "stellar jade",
+            "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
+          },
+          "added": "2026-07-20",
+          "firstSeen": "2026-07-15T06:22:38.686Z",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=BESTCOFFEEEVER",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=BESTCOFFEEEVER"
         },
         {
           "code": "PSJQKBQPYGMT",
-          "reward": "50 Stellar Jade, 10000 Credit",
+          "reward": "50 Stellar Jade and 10k Credits",
           "premium": true,
           "premiumCurrency": {
             "name": "Stellar Jade",
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-15",
+          "added": "2026-07-20",
           "firstSeen": "2026-07-15T06:22:38.686Z",
-          "sourceUrl": "https://www.crimsonwitch.com/codes/Honkai_Star_Rail",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=PSJQKBQPYGMT",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=PSJQKBQPYGMT"
         }
       ],
@@ -150261,9 +150484,9 @@ var NYX_DB = {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-17T02:59:47.056Z",
-          "lastSuccessfulFetch": "2026-07-17T02:59:47.056Z",
-          "lastValidUpdate": "2026-07-17T02:59:47.056Z",
+          "checkedAt": "2026-07-26T05:37:17.784Z",
+          "lastSuccessfulFetch": "2026-07-26T05:37:17.784Z",
+          "lastValidUpdate": "2026-07-26T05:37:17.784Z",
           "source": "game8"
         },
         "current": {
@@ -150288,11 +150511,81 @@ var NYX_DB = {
               "art": "../../Database/GameData/hsr/assets/characters/draw-card/1413.webp",
               "namecard": null,
               "rarity": 5
+            },
+            {
+              "name": "Gilgamesh",
+              "icon": "../../Database/GameData/hsr/assets/characters/round/1509.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1509.webp",
+              "iconZoom": false,
+              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1509.webp",
+              "namecard": null,
+              "rarity": 5
+            },
+            {
+              "name": "Rin Tohsaka",
+              "icon": "../../Database/GameData/hsr/assets/characters/round/1508.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1508.webp",
+              "iconZoom": false,
+              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1508.webp",
+              "namecard": null,
+              "rarity": 5
+            },
+            {
+              "name": "Archer",
+              "icon": "../../Database/GameData/hsr/assets/characters/round/1015.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1015.webp",
+              "iconZoom": false,
+              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1015.webp",
+              "namecard": null,
+              "rarity": 5
+            },
+            {
+              "name": "Saber",
+              "icon": "../../Database/GameData/hsr/assets/characters/round/1014.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1014.webp",
+              "iconZoom": false,
+              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1014.webp",
+              "namecard": null,
+              "rarity": 5
             }
           ],
           "subBanners": []
         },
-        "next": null,
+        "next": {
+          "phase": "4.4 Phase 2",
+          "start": "2026-08-05T16:00:00.000Z",
+          "end": "2026-08-25T16:00:00.000Z",
+          "characters": [
+            {
+              "name": "Cerydra",
+              "icon": "../../Database/GameData/hsr/assets/characters/round/1412.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1412.webp",
+              "iconZoom": false,
+              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1412.webp",
+              "namecard": null,
+              "rarity": 5
+            },
+            {
+              "name": "Anaxa",
+              "icon": "../../Database/GameData/hsr/assets/characters/round/1405.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1405.webp",
+              "iconZoom": false,
+              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1405.webp",
+              "namecard": null,
+              "rarity": 5
+            },
+            {
+              "name": "Aventurine",
+              "icon": "../../Database/GameData/hsr/assets/characters/round/1304.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1304.webp",
+              "iconZoom": false,
+              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1304.webp",
+              "namecard": null,
+              "rarity": 5
+            }
+          ],
+          "subBanners": []
+        },
         "upcoming": []
       },
       "roster": [
@@ -152071,7 +152364,7 @@ var NYX_DB = {
     "zzz": {
       "name": "Zenless Zone Zero",
       "icon": "../assets/icon/zzzicon.png",
-      "rosterCount": 54,
+      "rosterCount": 55,
       "collections": [
         {
           "key": "w-engines",
@@ -155640,7 +155933,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-26",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ROSCAELIFER0617",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ROSCAELIFER0617"
@@ -155654,7 +155947,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-26",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT"
@@ -155668,7 +155961,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-26",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO"
@@ -155682,7 +155975,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-26",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSEASON3",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSEASON3"
@@ -155696,19 +155989,47 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-17",
+          "added": "2026-07-26",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM"
+        },
+        {
+          "code": "ZZZ2YEAR",
+          "reward": "50 Polychrome",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Polychrome",
+            "needle": "polychrome",
+            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
+          },
+          "added": "2026-07-23",
+          "firstSeen": "2026-07-18T06:12:26.512Z",
+          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ2YEAR",
+          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ2YEAR"
+        },
+        {
+          "code": "ZZZ31REMIELLE",
+          "reward": "60 Polychrome and 6,666 Denny",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Polychrome",
+            "needle": "polychrome",
+            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
+          },
+          "added": "2026-07-23",
+          "firstSeen": "2026-07-17T15:01:00.612Z",
+          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ31REMIELLE",
+          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ31REMIELLE"
         }
       ],
       "banners": {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-17T02:59:47.056Z",
-          "lastSuccessfulFetch": "2026-07-17T02:59:47.056Z",
-          "lastValidUpdate": "2026-07-17T02:59:47.056Z",
+          "checkedAt": "2026-07-26T05:37:17.784Z",
+          "lastSuccessfulFetch": "2026-07-26T05:37:17.784Z",
+          "lastValidUpdate": "2026-07-26T05:37:17.784Z",
           "source": "game8"
         },
         "current": {
@@ -155737,8 +156058,86 @@ var NYX_DB = {
           ],
           "subBanners": []
         },
-        "next": null,
-        "upcoming": []
+        "next": {
+          "phase": null,
+          "start": "2026-07-29T10:00:00.000Z",
+          "end": "2026-09-08T10:00:00.000Z",
+          "characters": [
+            {
+              "name": "Remielle",
+              "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle67.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect67.webp",
+              "iconZoom": true,
+              "art": "../../Database/Prydwen/zzz/assets/characters/remielle-e8b52d52cf40.webp",
+              "namecard": null,
+              "rarity": "S"
+            }
+          ],
+          "subBanners": []
+        },
+        "upcoming": [
+          {
+            "phase": null,
+            "start": "2026-07-29T10:00:00.000Z",
+            "end": "2026-08-19T10:00:00.000Z",
+            "characters": [
+              {
+                "name": "Aria",
+                "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle57.webp",
+                "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect57.webp",
+                "iconZoom": true,
+                "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole57.webp",
+                "namecard": null,
+                "rarity": "S"
+              }
+            ],
+            "subBanners": []
+          },
+          {
+            "phase": null,
+            "start": "2026-08-19T10:00:00.000Z",
+            "end": "2026-09-08T10:00:00.000Z",
+            "characters": [
+              {
+                "name": "Sigrid",
+                "icon": "https://static.nanoka.cc/assets/zzz/IconRoleCircle66.webp",
+                "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect66.webp",
+                "iconZoom": true,
+                "art": "https://static.nanoka.cc/assets/zzz/IconRoleCircle66.webp",
+                "namecard": null,
+                "rarity": 4
+              },
+              {
+                "name": "Dialyn",
+                "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle54.webp",
+                "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect54.webp",
+                "iconZoom": true,
+                "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole54.webp",
+                "namecard": null,
+                "rarity": "S"
+              },
+              {
+                "name": "Yuzuha",
+                "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle47.webp",
+                "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect47.webp",
+                "iconZoom": true,
+                "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole47.webp",
+                "namecard": null,
+                "rarity": "S"
+              },
+              {
+                "name": "Harumasa",
+                "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle35.webp",
+                "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect35.webp",
+                "iconZoom": true,
+                "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole35.webp",
+                "namecard": null,
+                "rarity": "S"
+              }
+            ],
+            "subBanners": []
+          }
+        ]
       },
       "roster": [
         {
@@ -156094,6 +156493,24 @@ var NYX_DB = {
             "faction": "Mockingbird",
             "birthday": "August 20",
             "title": "Conspirator"
+          },
+          "forms": []
+        },
+        {
+          "id": "zzz-jane-doe",
+          "name": "Jane Doe",
+          "aliases": [],
+          "title": "Anonymity",
+          "rarity": "S",
+          "element": "Physical",
+          "role": "Anomaly",
+          "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle24.webp",
+          "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole24.webp",
+          "facts": {
+            "fullName": "Jane Doe",
+            "faction": "New Eridu Public Security",
+            "birthday": "February 16",
+            "title": "Anonymity"
           },
           "forms": []
         },
@@ -156695,7 +157112,7 @@ var NYX_DB = {
           "id": "zzz-remielle",
           "name": "Remielle",
           "aliases": [],
-          "rarity": "A",
+          "rarity": "S",
           "element": "Lumiflux",
           "role": "Anomaly",
           "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle67.webp",
@@ -160456,9 +160873,9 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-17T02:59:47.056Z",
-          "lastSuccessfulFetch": "2026-07-17T02:59:47.056Z",
-          "lastValidUpdate": "2026-07-17T02:59:47.056Z",
+          "checkedAt": "2026-07-26T05:37:17.784Z",
+          "lastSuccessfulFetch": "2026-07-26T05:37:17.784Z",
+          "lastValidUpdate": "2026-07-26T05:37:17.784Z",
           "source": "game8"
         },
         "current": {
@@ -164971,14 +165388,83 @@ var NYX_DB = {
           ]
         }
       ],
-      "codes": [],
+      "codes": [
+        {
+          "code": "ENDFIELDRENEW",
+          "reward": "One Safety Helmet Sticker and 71,600 T Creds",
+          "premium": false,
+          "premiumCurrency": {
+            "name": "Oroberyl",
+            "needle": "oroberyl",
+            "aliases": [
+              "originium"
+            ],
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Oroberyl.png"
+          },
+          "added": "2026-07-14",
+          "firstSeen": "2026-07-16T11:46:47.991Z",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=ENDFIELDRENEW",
+          "redeemUrl": null
+        },
+        {
+          "code": "ZAU2SYXHWX5L4ZH",
+          "reward": "5k T Creds and Ten Arms Insp Kits",
+          "premium": false,
+          "premiumCurrency": {
+            "name": "Oroberyl",
+            "needle": "oroberyl",
+            "aliases": [
+              "originium"
+            ],
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Oroberyl.png"
+          },
+          "added": "2026-05-05",
+          "firstSeen": "2026-07-16T11:46:47.991Z",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=ZAU2SYXHWX5L4ZH",
+          "redeemUrl": null
+        },
+        {
+          "code": "ENDFIELD4PC",
+          "reward": "Two Advanced Combat Records, Two Arms Insp Kits, and 13k T Creds Pc Only",
+          "premium": false,
+          "premiumCurrency": {
+            "name": "Oroberyl",
+            "needle": "oroberyl",
+            "aliases": [
+              "originium"
+            ],
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Oroberyl.png"
+          },
+          "added": "2026-05-03",
+          "firstSeen": "2026-07-16T11:46:47.991Z",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=ENDFIELD4PC",
+          "redeemUrl": null
+        },
+        {
+          "code": "ENDFIELDGIFT",
+          "reward": "150 Oroberyl, 20 Intermediate Combat Records, 20 Arms Insp Kits, and 10k T Creds",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Oroberyl",
+            "needle": "oroberyl",
+            "aliases": [
+              "originium"
+            ],
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Oroberyl.png"
+          },
+          "added": "2026-05-03",
+          "firstSeen": "2026-07-16T11:46:47.991Z",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=ENDFIELDGIFT",
+          "redeemUrl": null
+        }
+      ],
       "banners": {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-17T02:59:47.056Z",
-          "lastSuccessfulFetch": "2026-07-17T02:59:47.056Z",
-          "lastValidUpdate": "2026-07-17T02:59:47.056Z",
+          "checkedAt": "2026-07-26T05:37:17.784Z",
+          "lastSuccessfulFetch": "2026-07-26T05:37:17.784Z",
+          "lastValidUpdate": "2026-07-26T05:37:17.784Z",
           "source": "game8"
         },
         "current": {

@@ -10,7 +10,7 @@ Run from `Desktop` in normal, non-administrator PowerShell:
 & .\packaging\build-development-package.ps1 -Version 1.0.0.0
 ```
 
-Use `-Restore` only when the checked-in projects do not already have restore assets. The build is fixed to Release, `win-x64`, self-contained Windows App SDK output, a fixed ZIP timestamp, sorted entries, and no PDB files. Output goes only to `packaging\artifacts`. `-Force` keeps the last artifact in place while the replacement builds and verifies, then replaces only generated files in that folder.
+The normal invocation restores dependencies before publishing, so it also works after tests or other commands have rewritten local RID restore assets. Use `-NoRestore` only when the exact projects have already been restored and you intentionally want to reuse those assets. The build is fixed to Release, `win-x64`, self-contained Windows App SDK output, a fixed ZIP timestamp, sorted entries, and no PDB files. Output goes only to `packaging\artifacts`. `-Force` keeps the last artifact in place while the replacement builds and verifies, then replaces only generated files in that folder.
 
 The package build always compiles `pengo-achievements-launcher.exe` from the locked Rust source into its fresh private work directory. It applies the helper's checked-in Windows hardening config, runs the PE release verifier, computes SHA-256, embeds that exact hash in Nyx, and includes that exact file. It never reads `Extractor\Achievements\target`, so an old local helper cannot slip into a package. The runtime rechecks the embedded hash, binds every non-reparse ancestor directory plus the exact helper file identity, and holds those Windows handles until normal `Process.Start` or elevated `ShellExecute` has resolved the path.
 

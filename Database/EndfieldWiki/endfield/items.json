@@ -2,7 +2,7 @@
   "provider": "EndfieldWiki",
   "game": "endfield",
   "gameName": "Arknights: Endfield",
-  "scrapedAt": "2026-07-17T03:24:13.350Z",
+  "scrapedAt": "2026-07-26T05:37:53.129Z",
   "source": {
     "site": "endfield.wiki.gg",
     "api": "MediaWiki API rendered item boxes"
@@ -85,6 +85,19 @@
       "icon": {
         "path": "EndfieldWiki/endfield/assets/items/cosmagaric.png",
         "url": "https://endfield.wiki.gg/images/Cosmagaric.png?59f89c"
+      }
+    },
+    "Crimson_Spearleaf": {
+      "id": "Crimson_Spearleaf",
+      "name": "Crimson Spearleaf",
+      "pageName": "Crimson_Spearleaf",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Crimson_Spearleaf",
+      "rarity": 5,
+      "kind": "specialty",
+      "source": "Rare Gathering Sites, Dijiang Production: Growth Chamber, North Wuling Exclusion Zone",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/items/crimson-spearleaf.png",
+        "url": "https://endfield.wiki.gg/images/Crimson_Spearleaf.png?8fe199"
       }
     },
     "D96_Steel_Sample_4": {
@@ -204,6 +217,19 @@
         "url": "https://endfield.wiki.gg/images/Pink_Bolete.png?f108ca"
       }
     },
+    "Protocolith": {
+      "id": "Protocolith",
+      "name": "Protocolith",
+      "pageName": "Protocolith",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Protocolith",
+      "rarity": 5,
+      "kind": "specialty",
+      "source": "Rare Mining Sites, Dijiang Production: Growth Chamber, North Wuling Exclusion Zone",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/items/protocolith.png",
+        "url": "https://endfield.wiki.gg/images/Protocolith.png?506ad3"
+      }
+    },
     "Protodisk": {
       "id": "Protodisk",
       "name": "Protodisk",
@@ -319,6 +345,19 @@
       "icon": {
         "path": "EndfieldWiki/endfield/assets/items/tachyon-screening-lattice.png",
         "url": "https://endfield.wiki.gg/images/Tachyon_Screening_Lattice.png?8da567"
+      }
+    },
+    "Talos_Cap": {
+      "id": "Talos_Cap",
+      "name": "Talos Cap",
+      "pageName": "Talos_Cap",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Talos_Cap",
+      "rarity": 5,
+      "kind": "specialty",
+      "source": "Rare Gathering Sites, Dijiang Production: Growth Chamber, Yinglung Pass",
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/items/talos-cap.png",
+        "url": "https://endfield.wiki.gg/images/Talos_Cap.png?8bde3c"
       }
     },
     "Triphasic_Nanoflake": {

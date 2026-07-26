@@ -1,4 +1,3 @@
 /.work/
-/artifacts/*.zip
-/artifacts/*.sha256
-/artifacts/*.release.json
+/.audit/
+/artifacts/

@@ -220,26 +220,26 @@ pub fn prepare_launcher_output(
             path.clone()
         }
     };
-    let game_directory = base.join(game.key());
+    let game_directory = base.join(game.output_folder());
     ensure_plain_directory(&game_directory)?;
     let held = hold_directory(&game_directory)?;
     scavenge_stale_launcher_temps(&game_directory, SystemTime::now())?;
     Ok(LauncherOutput {
         directory: game_directory,
-        relative_directory: game.key(),
+        relative_directory: game.output_folder(),
         _held_directory: held,
     })
 }
 
 fn strict_launcher_temp_name(name: &str) -> bool {
-    const PREFIX: &str = ".pengo-achievements-";
     const SUFFIX: &str = ".tmp";
     let Some(body) = name
-        .strip_prefix(PREFIX)
+        .strip_prefix('.')
         .and_then(|value| value.strip_suffix(SUFFIX))
     else {
         return false;
     };
+    let body = body.strip_prefix("pengo-achievements-").unwrap_or(body);
     if body.len() != 23 || !body.is_ascii() {
         return false;
     }
@@ -346,7 +346,7 @@ pub fn write_launcher_export(
     if cancelled.is_cancelled() {
         return Err(OutputError::Cancelled);
     }
-    let prefix = format!(".pengo-achievements-{}-", utc_timestamp());
+    let prefix = format!(".{}-", utc_timestamp());
     let mut temporary = tempfile::Builder::new()
         .prefix(&prefix)
         .suffix(".tmp")
@@ -366,7 +366,7 @@ pub fn write_launcher_export(
         .and_then(OsStr::to_str)
         .ok_or(OutputError::UnsafeLocation)?;
     let stem = temporary_name
-        .strip_prefix(".pengo-achievements-")
+        .strip_prefix('.')
         .and_then(|value| value.strip_suffix(".tmp"))
         .ok_or(OutputError::UnsafeLocation)?;
     let final_name = format!("{stem}.json");
@@ -407,6 +407,10 @@ mod tests {
         assert_eq!(
             export_bytes(Game::Gi, &[10, 20]),
             b"{\"gi_achievements\":[10,20]}\n"
+        );
+        assert_eq!(
+            export_bytes(Game::Hsr, &[30, 40]),
+            b"{\"hsr_achievements\":[30,40]}\n"
         );
     }
 
@@ -504,7 +508,15 @@ mod tests {
             write_launcher_export(&prepared, Game::Hsr, &[50], &cancel).unwrap();
         assert_ne!(first, second);
         assert_ne!(first_relative, second_relative);
-        assert!(first_relative.starts_with("hsr/"));
+        assert!(first_relative.starts_with("Honkai Star Rail/"));
+        for relative in [&first_relative, &second_relative] {
+            let file_name = Path::new(relative)
+                .file_name()
+                .and_then(OsStr::to_str)
+                .unwrap();
+            let stem = file_name.strip_suffix(".json").unwrap();
+            assert!(strict_launcher_temp_name(&format!(".{stem}.tmp")));
+        }
         assert_eq!(
             std::fs::read(first).unwrap(),
             export_bytes(Game::Hsr, &[30, 40])
@@ -514,7 +526,7 @@ mod tests {
             export_bytes(Game::Hsr, &[50])
         );
         assert!(
-            std::fs::read_dir(root.path().join("hsr"))
+            std::fs::read_dir(root.path().join("Honkai Star Rail"))
                 .unwrap()
                 .all(|entry| !entry
                     .unwrap()
@@ -538,7 +550,9 @@ mod tests {
         );
         assert!(matches!(result, Err(OutputError::Cancelled)));
         assert_eq!(
-            std::fs::read_dir(root.path().join("gi")).unwrap().count(),
+            std::fs::read_dir(root.path().join("Genshin Impact"))
+                .unwrap()
+                .count(),
             0
         );
     }

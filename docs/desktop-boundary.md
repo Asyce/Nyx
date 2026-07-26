@@ -1,8 +1,8 @@
 # Nyx Desktop boundary
 
-Date: 2026-07-14
+Date: 2026-07-21
 
-Status: revised multi-game contract
+Status: revised multi-game, export, and publisher-account contract
 
 ## Product promise
 
@@ -33,7 +33,7 @@ per game remain outside the boundary.
 
 | Owner | Owns | Does not own |
 |---|---|---|
-| Nyx Desktop | Read-only discovery, local validation, explicit direct launch, session observation, publisher-offer display, explicit official-launcher handoff, and explicit fixed Pengo website handoff | Game maintenance, publisher sign-in, credentials, publisher UI automation, or native pull/achievement extraction |
+| Nyx Desktop | Read-only discovery, local validation, explicit direct launch, session observation, publisher-offer display, official-launcher handoff, GI/HSR export jobs, app-owned isolated publisher sessions, explicit daily check-in, and selected-game resource display | Game maintenance, unattended check-in, generic browser automation, external-browser profiles, publisher passwords, or remote secret handling |
 | Official launcher | Install, update, pre-download, verify, repair, login, and publisher preparation | Nyx settings or Nyx website data |
 | Nyx website and Worker | Existing browser tools, pull history, and browser-facing services | Local process control or desktop-launcher authentication |
 
@@ -156,16 +156,18 @@ Allowed game-side reads are limited to installation records, existence and small
 identity metadata, adapter-owned exact process identity, version records, and a
 folder the user explicitly selects.
 
-Nyx may write only its own settings, redacted diagnostics, chosen diagnostic
-exports, and its own package files. It must not write game files, official-launcher
-files or settings, browser storage, website data, Worker configuration, or
-production data.
+Nyx may write only its own settings, redacted diagnostics, validated pull and
+achievement exports, generated content/cache files, its own package files, and
+publisher-managed browser data inside Nyx-owned isolated WebView2 profiles. It
+must not write game files, official-launcher files/settings, external browser
+profiles, website account data, or Worker account data.
 
-An explicit user click may open one of the fixed Pengo pull or achievement pages
-for the selected canonical game in the default browser. The internal catalog is
-closed: callers cannot provide a URL, route, query, fragment, port, credentials,
-path, command, script, shell, or arguments. Unsupported game/tool pairs fail
-closed, and a browser handoff never changes game or maintenance readiness.
+GI and HSR expose independent, persistent **Pull Tracker** and **Achievements**
+arming controls. An armed job starts only after the user's Launch click. The
+launcher uses fixed bundled providers, fixed Downloads subfolders, atomic output,
+bounded in-memory capture, and redacted status events. ZZZ and WuWa retain sealed
+provider slots but expose no working export action until their reviewed providers
+are supplied. Export failure never changes launch or maintenance readiness.
 
 Core session code has no Windows process, network, filesystem, updater, UI
 automation, or elevation implementation. Real adapters remain separate and must
@@ -180,31 +182,60 @@ elevation and are unavailable to official launchers and every other executable.
 
 ## Network and privacy
 
-Desktop Core makes no network request. A later publisher-monitoring adapter may
-read only a reviewed public publisher version signal. It must use bounded timeouts,
-reject malformed, conflicting, older, or stale data, store no account material,
-and degrade to `CouldNotCheck` or `CheckInOfficialLauncher`.
+Desktop Core makes no network request. Infrastructure may use only fixed reviewed
+publisher endpoints for maintenance signals, pull retrieval, WuWa resource status,
+and app-owned publisher sessions. Transports use bounded timeouts and response
+sizes, reject redirects and malformed data, and fail closed.
 
 Desktop still makes no call to `/api/gacha/*` or `/api/account/sync/*`, does not
 fake a browser `Origin`, and does not weaken the Worker allowlist.
 
-Opening a fixed Pengo page is a visible website handoff, not a Desktop network
-client. Nyx Desktop does not embed a WebView, inspect or synchronize browser
-storage, download or run an extractor, or pass local/account data in the URL.
+Nyx embeds WebView2 only for a narrow publisher-account exception. HoYoLAB and
+SKPORT use separate Nyx-owned profiles under the current user's Nyx data folder.
+Each publisher is independently off by default. Ordinary launcher state stores
+only its `true`/`false` consent bit and a non-sensitive cleanup-pending bit;
+every connect, refresh, daily, disconnect, and official account-page action is
+also checked inside the account service.
+The user completes login, CAPTCHA, and account choice on the official page. Nyx
+never attaches to Chrome/Edge profiles, asks for a password/cookie/token, or sends
+publisher secrets to Pengo. Disconnect deletes only the selected publisher's Nyx
+profile. Turning access off closes the in-memory gate first. Nyx then saves a
+zero-byte, provider-only revocation marker before cleanup. The marker remains
+until profile cleanup succeeds and the off state is durably saved, so a failed
+settings write, interrupted deletion, or restart cannot silently reopen access.
+Startup and a later opt-in retry pending cleanup before enabling the account
+lane. A named cross-process lease prevents two Nyx processes from sharing or
+deleting the same profile.
 
-Nyx does not collect publisher usernames, passwords, cookies, auth keys, tokens,
-sync phrases, unrelated process command lines, pull-history URLs, web caches, or
-game logs. It sends no automatic telemetry or diagnostics.
+When one HoYo game exposes several roles, Nyx does not choose one. It opens a
+transient picker with only a masked UID and plain region label, with no choice
+preselected. The confirmed game/UID/server binding is stored only as
+current-Windows-user DPAPI ciphertext under Nyx's publisher-profile root. It is
+not written to launcher settings or logs, and it is cleared on reconnect,
+profile/account replacement, disconnect, or account-access deletion.
+
+The explicit **Daily** action may drive only the four compiled official check-in
+pages for GI, HSR, ZZZ, and Endfield. WuWa has no guessed route. No scheduled or
+startup check-in exists. Hidden page work is bounded, cancelable, publisher-gated,
+and reports only honest claimed/already-claimed/login-needed/unavailable/failure
+states. Resource cards are advisory and never alter local game readiness.
+
+Nyx keeps pull authentication material, publisher cookies, and WuWa launcher
+session material only in bounded memory while the fixed operation needs it. It
+does not log, copy to clipboard, synchronize, or persist those values outside the
+publisher-managed profile exception. It sends no automatic telemetry.
 
 ## Explicitly deferred
 
 - Nyx-owned game download, patch, verification, repair, rollback, install, or uninstall
-- Headless or hidden publisher UI automation
+- Generic or caller-directed hidden publisher UI automation
 - `Update All`
 - Automatic game restart
 - Background service or start-with-Windows behavior
-- Publisher login or account switching
-- Native pull-history/achievement extraction or Desktop cloud sync
+- Scheduled/background daily check-in or automatic account switching
+- WuWa daily check-in or Endfield numeric resource scraping
+- ZZZ/WuWa/Endfield export providers until their reviewed slots are filled
+- Desktop cloud sync of publisher sessions or secrets
 - Public plugins, additional stores, regions, or installations
 - Generic administrator or privileged-helper capability
 - Production deployment
@@ -230,3 +261,8 @@ Before integration can be called complete, tests must prove:
    elevation dependency.
 9. Real adapters pass independent evidence and real-install gates one game at a time.
 10. Website, Worker, legacy prototype, and production files remain unchanged.
+11. GI/HSR export combinations are independent, atomic, importable, and secret-free.
+12. Publisher profiles are isolated, single-process owned, publisher-scoped on clear,
+    and cannot change Launch or maintenance state.
+13. Daily check-in admits only the compiled exact-page catalog and repeated clicks
+    create one bounded operation.

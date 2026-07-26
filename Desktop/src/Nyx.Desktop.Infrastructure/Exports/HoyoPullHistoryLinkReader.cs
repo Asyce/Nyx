@@ -1,4 +1,6 @@
 using System.Text;
+using System.Runtime.InteropServices;
+using Microsoft.Win32.SafeHandles;
 using Nyx.Desktop.Core.Exports;
 
 namespace Nyx.Desktop.Infrastructure.Exports;
@@ -33,8 +35,28 @@ internal sealed record HoyoAuthQuery(IReadOnlyList<KeyValuePair<string, string>>
 
 internal interface IHoyoPullHistoryLinkReader
 {
-    IReadOnlyList<HoyoAuthQuery> ReadNewest(string cachePath, HoyoPullGameConfiguration game, CancellationToken cancellationToken);
+    HoyoPullCacheObservation Read(string cachePath, HoyoPullGameConfiguration game, CancellationToken cancellationToken);
 }
+
+internal sealed record HoyoPullHistoryCandidate(HoyoAuthQuery Query, long StartOffset, long EndOffset);
+
+internal sealed record HoyoPullCacheStamp(
+    ulong VolumeSerialNumber,
+    ulong FileIndex,
+    long CreationTimeUtcTicks,
+    long LastWriteTimeUtcTicks,
+    long Length)
+{
+    public bool SameFileAs(HoyoPullCacheStamp other) =>
+        VolumeSerialNumber != 0 && FileIndex != 0
+            ? VolumeSerialNumber == other.VolumeSerialNumber && FileIndex == other.FileIndex
+            : CreationTimeUtcTicks == other.CreationTimeUtcTicks;
+}
+
+internal sealed record HoyoPullCacheObservation(
+    string Path,
+    HoyoPullCacheStamp Stamp,
+    IReadOnlyList<HoyoPullHistoryCandidate> Candidates);
 
 internal sealed class HoyoPullHistoryLinkReader(PullExportSafetyLimits limits) : IHoyoPullHistoryLinkReader
 {
@@ -49,18 +71,31 @@ internal sealed class HoyoPullHistoryLinkReader(PullExportSafetyLimits limits) :
         "gacha_type", "real_gacha_type", "size", "end_id", "page",
     };
 
-    public IReadOnlyList<HoyoAuthQuery> ReadNewest(
+    internal IReadOnlyList<HoyoAuthQuery> ReadNewest(
+        string cachePath,
+        HoyoPullGameConfiguration game,
+        CancellationToken cancellationToken)
+    {
+        var candidates = Read(cachePath, game, cancellationToken)
+            .Candidates.Select(static candidate => candidate.Query).ToArray();
+        if (candidates.Length == 0)
+            throw new PullExportException(PullExportErrorCodes.InvalidHistoryLink);
+        return candidates;
+    }
+
+    public HoyoPullCacheObservation Read(
         string cachePath,
         HoyoPullGameConfiguration game,
         CancellationToken cancellationToken)
     {
         try
         {
-            var bytes = ReadSharedBounded(cachePath, cancellationToken);
+            var (bytes, count, stamp) = ReadSharedBounded(cachePath, cancellationToken);
             try
             {
-                var text = Encoding.ASCII.GetString(bytes);
-                return ExtractNewest(text, game, limits.MaximumCandidateUrls, limits.MaximumQueryBytes);
+                var text = Encoding.ASCII.GetString(bytes, 0, count);
+                return new(cachePath, stamp, ExtractNewestWithOffsets(
+                    text, game, limits.MaximumCandidateUrls, limits.MaximumQueryBytes));
             }
             finally { Array.Clear(bytes); }
         }
@@ -78,7 +113,21 @@ internal sealed class HoyoPullHistoryLinkReader(PullExportSafetyLimits limits) :
         int maximumCandidates,
         int maximumQueryBytes)
     {
-        var candidates = new Queue<HoyoAuthQuery>(maximumCandidates);
+        var candidates = ExtractNewestWithOffsets(text, game, maximumCandidates, maximumQueryBytes)
+            .Select(static candidate => candidate.Query)
+            .ToArray();
+        if (candidates.Length == 0)
+            throw new PullExportException(PullExportErrorCodes.InvalidHistoryLink);
+        return candidates;
+    }
+
+    internal static IReadOnlyList<HoyoPullHistoryCandidate> ExtractNewestWithOffsets(
+        string text,
+        HoyoPullGameConfiguration game,
+        int maximumCandidates,
+        int maximumQueryBytes)
+    {
+        var candidates = new Queue<HoyoPullHistoryCandidate>(maximumCandidates);
         var cursor = 0;
         while (cursor < text.Length)
         {
@@ -91,11 +140,9 @@ internal sealed class HoyoPullHistoryLinkReader(PullExportSafetyLimits limits) :
             if ((end == hardEnd && hardEnd < text.Length) || end <= start) continue;
             if (!TryParseCandidate(text[start..end], game, maximumQueryBytes, out var query)) continue;
             if (candidates.Count == maximumCandidates) candidates.Dequeue();
-            candidates.Enqueue(query!);
+            candidates.Enqueue(new(query!, start, end));
         }
 
-        if (candidates.Count == 0)
-            throw new PullExportException(PullExportErrorCodes.InvalidHistoryLink);
         return candidates.Reverse().ToArray();
     }
 
@@ -147,7 +194,9 @@ internal sealed class HoyoPullHistoryLinkReader(PullExportSafetyLimits limits) :
         return true;
     }
 
-    private byte[] ReadSharedBounded(string sourcePath, CancellationToken cancellationToken)
+    private (byte[] Bytes, int Count, HoyoPullCacheStamp Stamp) ReadSharedBounded(
+        string sourcePath,
+        CancellationToken cancellationToken)
     {
         byte[]? bytes = null;
         try
@@ -157,27 +206,93 @@ internal sealed class HoyoPullHistoryLinkReader(PullExportSafetyLimits limits) :
             var initialLength = source.Length;
             if (initialLength > limits.MaximumCacheBytes || initialLength > int.MaxValue)
                 throw new PullExportException(PullExportErrorCodes.CacheTooLarge);
-            bytes = new byte[checked((int)initialLength)];
+            var capacity = checked((int)Math.Min(
+                limits.MaximumCacheBytes,
+                Math.Max(initialLength, 4 * 1024)));
+            bytes = new byte[capacity];
             var offset = 0;
-            while (offset < bytes.Length)
+            while (true)
             {
                 cancellationToken.ThrowIfCancellationRequested();
+                if (offset == bytes.Length)
+                {
+                    var next = source.ReadByte();
+                    if (next == -1) break;
+                    if (offset >= limits.MaximumCacheBytes)
+                        throw new PullExportException(PullExportErrorCodes.CacheTooLarge);
+                    var expanded = new byte[checked((int)Math.Min(
+                        limits.MaximumCacheBytes,
+                        Math.Max((long)bytes.Length * 2, bytes.Length + 1L)))];
+                    Buffer.BlockCopy(bytes, 0, expanded, 0, offset);
+                    Array.Clear(bytes);
+                    bytes = expanded;
+                    bytes[offset++] = (byte)next;
+                }
                 var count = source.Read(bytes, offset, bytes.Length - offset);
                 if (count == 0) break;
                 offset += count;
             }
             cancellationToken.ThrowIfCancellationRequested();
-            if (offset == bytes.Length && source.ReadByte() != -1)
-                throw new PullExportException(PullExportErrorCodes.CacheTooLarge);
-            if (offset != bytes.Length) Array.Resize(ref bytes, offset);
+            var stamp = ReadStamp(source.SafeFileHandle, sourcePath, offset);
             var result = bytes;
             bytes = null;
-            return result;
+            return (result, offset, stamp);
         }
         finally
         {
             if (bytes is not null) Array.Clear(bytes);
         }
+    }
+
+    private static HoyoPullCacheStamp ReadStamp(SafeFileHandle handle, string path, long length)
+    {
+        if (OperatingSystem.IsWindows() && GetFileInformationByHandle(handle, out var information))
+        {
+            return new(
+                information.VolumeSerialNumber,
+                ((ulong)information.FileIndexHigh << 32) | information.FileIndexLow,
+                File.GetCreationTimeUtc(path).Ticks,
+                FileTimeTicks(information.LastWriteTime),
+                length);
+        }
+
+        return new(
+            0,
+            0,
+            File.GetCreationTimeUtc(path).Ticks,
+            File.GetLastWriteTimeUtc(path).Ticks,
+            length);
+    }
+
+    private static long FileTimeTicks(NativeFileTime value) =>
+        ((long)value.High << 32) | value.Low;
+
+    [DllImport("kernel32.dll", SetLastError = true)]
+    [return: MarshalAs(UnmanagedType.Bool)]
+    private static extern bool GetFileInformationByHandle(
+        SafeFileHandle handle,
+        out ByHandleFileInformation information);
+
+    [StructLayout(LayoutKind.Sequential)]
+    private struct NativeFileTime
+    {
+        public uint Low;
+        public uint High;
+    }
+
+    [StructLayout(LayoutKind.Sequential)]
+    private struct ByHandleFileInformation
+    {
+        public uint FileAttributes;
+        public NativeFileTime CreationTime;
+        public NativeFileTime LastAccessTime;
+        public NativeFileTime LastWriteTime;
+        public uint VolumeSerialNumber;
+        public uint FileSizeHigh;
+        public uint FileSizeLow;
+        public uint NumberOfLinks;
+        public uint FileIndexHigh;
+        public uint FileIndexLow;
     }
 
     private static bool TryDecodedValue(IReadOnlyList<KeyValuePair<string, string>> pairs, string key, out string value)

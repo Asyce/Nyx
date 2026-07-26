@@ -90,20 +90,42 @@ jobs:
           git config user.email "bot@pengo.gg"
           git commit -m "chore(data): scheduled GameData asset sync [skip ci]"
           git pull --rebase origin main
-          git push
 
-      - name: Build site
+      - name: Refresh committed launcher snapshot
         if: ${{ steps.assets.outputs.changed == 'true' }}
         working-directory: Site
+        run: npm run refresh:launcher
+
+      - name: Commit refreshed launcher snapshot
+        id: launcher_snapshot
+        if: ${{ steps.assets.outputs.changed == 'true' }}
+        run: |
+          git add Site/src/data/generated/launcher-codes-v1.json Site/src/data/generated/launcher-banners-v1.json
+          git add -A Site/src/data/generated/launcher-art
+          if ! git diff --cached --quiet; then
+            git commit --amend --no-edit
+          fi
+          echo "fresh=true" >> "$GITHUB_OUTPUT"
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: Build site
+        if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' }}
+        working-directory: Site
+        env:
+          PENGO_DEPLOY_COMMIT: ${{ steps.launcher_snapshot.outputs.sha }}
         run: npm run build:deploy
 
       - name: Smoke deploy artifact
-        if: ${{ steps.assets.outputs.changed == 'true' }}
+        if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' }}
         working-directory: Site
         run: npm run smoke:deploy
 
+      - name: Push verified assets
+        if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' }}
+        run: git push
+
       - name: Deploy to Cloudflare
-        if: ${{ steps.assets.outputs.changed == 'true' && env.CF_API_TOKEN != '' }}
+        if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' && env.CF_API_TOKEN != '' }}
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: npx --yes wrangler deploy

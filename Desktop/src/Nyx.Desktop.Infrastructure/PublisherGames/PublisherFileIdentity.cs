@@ -14,10 +14,16 @@ internal static class PublisherFileIdentity
         CryptographicOperations.FixedTimeEquals(left, right);
 
     internal static byte[] GetSha256(FileStream stream)
+        => GetHash(stream, HashAlgorithmName.SHA256);
+
+    internal static byte[] GetMd5(FileStream stream)
+        => GetHash(stream, HashAlgorithmName.MD5);
+
+    private static byte[] GetHash(FileStream stream, HashAlgorithmName algorithm)
     {
         ArgumentNullException.ThrowIfNull(stream);
         stream.Position = 0;
-        using var hash = IncrementalHash.CreateHash(HashAlgorithmName.SHA256);
+        using var hash = IncrementalHash.CreateHash(algorithm);
         var buffer = ArrayPool<byte>.Shared.Rent(64 * 1024);
         try
         {
@@ -302,7 +308,8 @@ internal sealed class ProtectedPublisherExecutableObservation : IDisposable
         PublisherNtfsFileIdentity fileIdentity,
         PublisherExecutableMetadata metadata,
         PublisherFileSnapshot snapshot,
-        byte[] digest)
+        byte[] digest,
+        byte[] md5Digest)
     {
         Path = path;
         this.stream = stream;
@@ -312,6 +319,7 @@ internal sealed class ProtectedPublisherExecutableObservation : IDisposable
         Metadata = metadata;
         Snapshot = snapshot;
         Digest = digest;
+        Md5Digest = md5Digest;
     }
 
     public string Path { get; }
@@ -323,6 +331,8 @@ internal sealed class ProtectedPublisherExecutableObservation : IDisposable
     public PublisherFileSnapshot Snapshot { get; }
 
     public byte[] Digest { get; }
+
+    public byte[] Md5Digest { get; }
 
     public static ProtectedPublisherExecutableObservation Open(
         string path,
@@ -361,6 +371,7 @@ internal sealed class ProtectedPublisherExecutableObservation : IDisposable
             }
 
             var digest = PublisherFileIdentity.GetSha256(stream);
+            var md5Digest = PublisherFileIdentity.GetMd5(stream);
             var metadata = metadataReader.Read(path, fileIdentity, identityReader);
             PublisherPathIdentity.EnsurePathMatches(path, fileIdentity, identityReader);
             var digestAfterMetadata = PublisherFileIdentity.GetSha256(stream);
@@ -380,7 +391,8 @@ internal sealed class ProtectedPublisherExecutableObservation : IDisposable
                 fileIdentity,
                 metadata,
                 after,
-                digest);
+                digest,
+                md5Digest);
         }
         catch
         {

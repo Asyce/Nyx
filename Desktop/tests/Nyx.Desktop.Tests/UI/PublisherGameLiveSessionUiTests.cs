@@ -22,7 +22,7 @@ public sealed class PublisherGameLiveSessionUiTests
     }
 
     [Fact]
-    public void Endfield_picker_is_window_owned_and_saves_only_after_sealed_identity_proof()
+    public void Manual_picker_is_window_owned_and_saves_only_after_game_specific_identity_proof()
     {
         var page = ReadAppFile("MainPage.xaml.cs");
         var start = page.IndexOf("private async void ChooseGameFolderButton_Click", StringComparison.Ordinal);
@@ -32,15 +32,12 @@ public sealed class PublisherGameLiveSessionUiTests
         Assert.Contains("new FolderPicker", picker, StringComparison.Ordinal);
         Assert.Contains("InitializeWithWindow.Initialize(picker, app.WindowHandle)", picker, StringComparison.Ordinal);
         Assert.Contains("picker.PickSingleFolderAsync()", picker, StringComparison.Ordinal);
-        Assert.Contains("publisherGameLaunchService.CheckGame(\"ae\", folder.Path)", picker, StringComparison.Ordinal);
-        Assert.Contains("endfieldFolderSelections.IsCurrent(", picker, StringComparison.Ordinal);
-        Assert.Contains("selectionAttempt", picker, StringComparison.Ordinal);
+        Assert.Contains("IsValidManualInstallRoot(selected.Id, folder.Path)", picker, StringComparison.Ordinal);
         Assert.True(
-            picker.IndexOf("CheckGame(\"ae\", folder.Path)", StringComparison.Ordinal)
-            < picker.IndexOf("endfieldFolderSelections.CompleteAsync", StringComparison.Ordinal));
-        Assert.Contains("endfieldRootStore.TrySave", picker, StringComparison.Ordinal);
-        Assert.Contains("endfieldRootStore.Clear", picker, StringComparison.Ordinal);
-        Assert.Contains("result.NeedsReview", picker, StringComparison.Ordinal);
+            picker.IndexOf("IsValidManualInstallRoot(selected.Id, folder.Path)", StringComparison.Ordinal)
+            < picker.IndexOf("ManualInstallRoots =", StringComparison.Ordinal));
+        Assert.Contains("ManualInstallRoots", picker, StringComparison.Ordinal);
+        Assert.Contains("EndfieldInstallRoot = selected.Id == \"ae\"", picker, StringComparison.Ordinal);
         Assert.Contains("sessionRefresh.RefreshNowAsync", picker, StringComparison.Ordinal);
         Assert.DoesNotContain("LaunchGame", picker, StringComparison.Ordinal);
         Assert.DoesNotContain("Process.Start", picker, StringComparison.Ordinal);
@@ -92,7 +89,7 @@ public sealed class PublisherGameLiveSessionUiTests
 
         Assert.Contains("GRYPHLINK", render, StringComparison.Ordinal);
         Assert.Contains("OpenUpdaterButton.Visibility = Visibility.Visible", render, StringComparison.Ordinal);
-        Assert.Contains("OPEN GRYPHLINK", render, StringComparison.Ordinal);
+        Assert.Contains("Official Launcher", render, StringComparison.Ordinal);
         Assert.Contains("updates, pre-downloads, verification and repairs", render, StringComparison.Ordinal);
         Assert.Contains("OpenEndfieldMaintenanceAsync", page, StringComparison.Ordinal);
         Assert.Contains("endfieldMaintenance.OpenOrObserveCurrentAsync", page, StringComparison.Ordinal);

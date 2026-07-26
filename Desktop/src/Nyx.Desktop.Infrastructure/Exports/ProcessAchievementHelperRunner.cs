@@ -305,10 +305,11 @@ public sealed class ProcessAchievementHelperRunner : IVerifiedAchievementHelperR
             || final.ItemCount <= 0 || string.IsNullOrWhiteSpace(final.OutputFile))
             throw new ExportProviderException(exitCode == 0 ? "output-missing" : "provider-failed");
 
+        var gameDirectoryName = AchievementGameDirectory(invocation.GameId);
         var parts = final.OutputFile.Split('/');
-        if (parts.Length != 2 || parts[0] != invocation.GameId || !IsExportFileName(parts[1]))
+        if (parts.Length != 2 || parts[0] != gameDirectoryName || !IsExportFileName(parts[1]))
             throw new ExportProviderException("output-unsafe");
-        var gameRoot = Path.GetFullPath(Path.Combine(invocation.OutputRoot, invocation.GameId));
+        var gameRoot = Path.GetFullPath(Path.Combine(invocation.OutputRoot, gameDirectoryName));
         var outputFile = Path.GetFullPath(Path.Combine(gameRoot, parts[1]));
         if (!string.Equals(Path.GetDirectoryName(outputFile), gameRoot, StringComparison.OrdinalIgnoreCase))
             throw new ExportProviderException("output-unsafe");
@@ -356,14 +357,19 @@ public sealed class ProcessAchievementHelperRunner : IVerifiedAchievementHelperR
 
     private static bool IsExportFileName(string name)
     {
-        const string prefix = "pengo-achievements-";
         const string suffix = ".json";
-        if (!name.StartsWith(prefix, StringComparison.Ordinal)
-            || !name.EndsWith(suffix, StringComparison.Ordinal)
-            || name.Length <= prefix.Length + suffix.Length)
+        if (!name.EndsWith(suffix, StringComparison.Ordinal)
+            || name.Length <= suffix.Length)
             return false;
-        var body = name.AsSpan(prefix.Length, name.Length - prefix.Length - suffix.Length);
+        var body = name.AsSpan(0, name.Length - suffix.Length);
         return body.Length == 23
+            && DateTimeOffset.TryParseExact(
+                body[..16],
+                "yyyyMMdd'T'HHmmss'Z'",
+                System.Globalization.CultureInfo.InvariantCulture,
+                System.Globalization.DateTimeStyles.AssumeUniversal |
+                    System.Globalization.DateTimeStyles.AdjustToUniversal,
+                out _)
             && body[..8].ContainsOnlyAsciiDigits()
             && body[8] == 'T'
             && body[9..15].ContainsOnlyAsciiDigits()
@@ -371,6 +377,13 @@ public sealed class ProcessAchievementHelperRunner : IVerifiedAchievementHelperR
             && body[16] == '-'
             && body[17..].ContainsOnlyAsciiLettersOrDigits();
     }
+
+    private static string AchievementGameDirectory(string gameId) => gameId switch
+    {
+        "gi" => "Genshin Impact",
+        "hsr" => "Honkai Star Rail",
+        _ => throw new ExportProviderException("output-unsafe"),
+    };
 
     private static void ValidateInvocation(AchievementHelperInvocation invocation)
     {

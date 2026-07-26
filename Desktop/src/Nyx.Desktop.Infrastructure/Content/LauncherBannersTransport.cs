@@ -12,6 +12,7 @@ public interface ILauncherBannersTransport
 public sealed class LauncherBannersTransport : ILauncherBannersTransport, IDisposable
 {
     public const string ProductionEndpoint = "https://pengo.gg/dist/launcher-banners-v1.json";
+    public const string ProductionCodesEndpoint = "https://pengo.gg/dist/launcher-codes-v1.json";
     public const int MaximumManifestBytes = 2 * 1024 * 1024;
     public const int MaximumAssetBytes = 8 * 1024 * 1024;
     private readonly HttpClient client;

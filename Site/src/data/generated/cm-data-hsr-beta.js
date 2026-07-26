@@ -9,8 +9,8 @@
   window.CM_CFG_BETA["hsr"] = {
   "version": "4.4.51",
   "liveVersion": "4.4",
-  "newCount": 0,
-  "changedCount": 19,
+  "newCount": 2,
+  "changedCount": 17,
   "roster": [
     {
       "id": "hsr-himeko-nova",
@@ -3227,7 +3227,7 @@
         }
       },
       "recent": 1,
-      "betaStatus": "changed"
+      "betaStatus": "new"
     },
     {
       "id": "hsr-robin-summeretto",
@@ -4596,7 +4596,7 @@
         }
       },
       "recent": 1,
-      "betaStatus": "changed"
+      "betaStatus": "new"
     },
     {
       "id": "hsr-evanescia",

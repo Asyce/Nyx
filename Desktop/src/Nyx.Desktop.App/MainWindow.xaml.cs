@@ -1,12 +1,22 @@
 using Microsoft.UI.Windowing;
 using Microsoft.UI.Xaml;
+using System.Runtime.InteropServices;
 using Windows.Graphics;
 
 namespace Nyx_Desktop_App;
 
 public sealed partial class MainWindow : Window
 {
+    private const uint WindowMessageNonClientLeftButtonDown = 0x00A1;
+    private const int HitTestCaption = 2;
     private AppWindowTitleBar? _nativeTitleBar;
+
+    [DllImport("user32.dll")]
+    [return: MarshalAs(UnmanagedType.Bool)]
+    private static extern bool ReleaseCapture();
+
+    [DllImport("user32.dll", EntryPoint = "SendMessageW")]
+    private static extern nint SendMessage(nint window, uint message, nint wParam, nint lParam);
 
     public MainWindow()
     {
@@ -81,5 +91,15 @@ public sealed partial class MainWindow : Window
     {
         if (AppWindow.Presenter is OverlappedPresenter presenter)
             presenter.Minimize();
+    }
+
+    internal void BeginDrag()
+    {
+        ReleaseCapture();
+        _ = SendMessage(
+            WinRT.Interop.WindowNative.GetWindowHandle(this),
+            WindowMessageNonClientLeftButtonDown,
+            HitTestCaption,
+            0);
     }
 }

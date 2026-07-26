@@ -119,13 +119,13 @@ public sealed class PublisherGameDirectLaunchServiceTests
             Result("wuwa", WuWaRoot, PublisherGameInspectionReason.VersionConflict, PublisherGameVersionState.Conflict, maintenance: false),
             Result("ae", EndfieldRoot, PublisherGameInspectionReason.VersionConflict, PublisherGameVersionState.Conflict),
             new PublisherGameInspectionResult(
-                "wuwa",
+                "ae",
                 PublisherGameInspectionStatus.Ready,
                 PublisherGameInspectionReason.None,
                 PublisherGameVersionState.Available,
-                WuWaRoot,
-                "3.5.0",
-                new("wuwa", WuWaRoot, Path.Combine(WuWaRoot, "launcher.exe"), "2.6.3.0")),
+                EndfieldRoot,
+                "1.0.0",
+                new("ae", EndfieldRoot, Path.Combine(EndfieldRoot, "Launcher.exe"), "1.5.0.1507")),
         };
 
         foreach (var result in cases)
@@ -140,6 +140,29 @@ public sealed class PublisherGameDirectLaunchServiceTests
             Assert.Empty(process.Checks);
             Assert.Empty(starter.Starts);
         }
+    }
+
+    [Fact]
+    public void Current_wuwa_versioned_ready_proof_is_admitted_without_weakening_endfield()
+    {
+        var result = new PublisherGameInspectionResult(
+            "wuwa",
+            PublisherGameInspectionStatus.Ready,
+            PublisherGameInspectionReason.None,
+            PublisherGameVersionState.Available,
+            WuWaRoot,
+            "3.5.3",
+            new("wuwa", WuWaRoot, Path.Combine(WuWaRoot, "launcher.exe"), "2.6.3.0"));
+        var validator = new FakeValidator(() => new FakeInspection(result));
+        var process = new FakeProcessInspector();
+        var starter = new FakeStarter();
+        var service = new PublisherGameDirectLaunchService(validator, process, starter);
+
+        var observed = service.CheckGame("wuwa", WuWaRoot);
+
+        Assert.Equal(PublisherGameLaunchStatus.Ready, observed.Status);
+        Assert.Equal(PublisherGameInspectionReason.None, observed.InspectionReason);
+        Assert.Empty(starter.Starts);
     }
 
     [Fact]

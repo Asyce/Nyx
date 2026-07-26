@@ -1,14 +1,14 @@
 {
-  "checkedAt": "2026-07-17T02:59:47.056Z",
-  "updated": "2026-07-17T02:59:47.056Z",
+  "checkedAt": "2026-07-26T05:37:17.784Z",
+  "updated": "2026-07-26T05:37:17.784Z",
   "games": [
     {
       "id": "hsr",
       "name": "Honkai: Star Rail",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-07-17T02:59:47.056Z",
-        "lastSuccessfulFetch": "2026-07-17T02:59:47.056Z",
+        "checkedAt": "2026-07-26T05:37:17.784Z",
+        "lastSuccessfulFetch": "2026-07-26T05:37:17.784Z",
         "source": "game8"
       },
       "current": {
@@ -23,55 +23,63 @@
             "name": "Evernight",
             "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1413.webp",
             "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1413.webp"
-          }
-        ],
-        "end": "2026-08-25T16:00:00.000Z",
-        "source": "game8"
-      },
-      "next": {
-        "phase": "4.4",
-        "characters": [
+          },
+          {
+            "name": "Gilgamesh",
+            "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1509.webp",
+            "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1509.webp"
+          },
           {
             "name": "Rin Tohsaka",
             "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1508.webp",
             "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1508.webp"
           },
           {
-            "name": "Gilgamesh",
-            "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1509.webp",
-            "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1509.webp"
+            "name": "Archer",
+            "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1015.webp",
+            "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1015.webp"
+          },
+          {
+            "name": "Saber",
+            "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1014.webp",
+            "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1014.webp"
           }
         ],
-        "start": "2026-07-14T16:00:00.000Z",
-        "end": "2026-07-24T16:00:00.000Z",
+        "end": "2026-08-25T16:00:00.000Z",
         "source": "game8"
       },
-      "upcoming": [
-        {
-          "characters": [
-            {
-              "name": "Rin Tohsaka",
-              "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1508.webp",
-              "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1508.webp"
-            },
-            {
-              "name": "Gilgamesh",
-              "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1509.webp",
-              "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1509.webp"
-            }
-          ],
-          "start": null,
-          "end": "2026-07-24T16:00:00.000Z"
-        }
-      ]
+      "next": {
+        "phase": "4.4 Phase 2",
+        "characters": [
+          {
+            "name": "Cerydra",
+            "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1412.webp",
+            "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1412.webp"
+          },
+          {
+            "name": "Anaxa",
+            "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1405.webp",
+            "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1405.webp"
+          },
+          {
+            "name": "Aventurine",
+            "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1304.webp",
+            "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1304.webp"
+          }
+        ],
+        "start": "2026-08-05T16:00:00.000Z",
+        "end": "2026-08-25T16:00:00.000Z",
+        "source": "game8"
+      },
+      "upcoming": []
     },
     {
       "id": "genshin",
       "name": "Genshin Impact",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-07-17T02:59:47.056Z",
-        "lastSuccessfulFetch": "2026-07-17T02:59:47.056Z",
+        "checkedAt": "2026-07-26T05:37:17.784Z",
+        "lastSuccessfulFetch": "2026-07-26T05:37:17.784Z",
         "source": "game8"
       },
       "current": {
@@ -114,8 +122,8 @@
       "name": "Wuthering Waves",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-07-17T02:59:47.056Z",
-        "lastSuccessfulFetch": "2026-07-17T02:59:47.056Z",
+        "checkedAt": "2026-07-26T05:37:17.784Z",
+        "lastSuccessfulFetch": "2026-07-26T05:37:17.784Z",
         "source": "game8"
       },
       "current": {
@@ -170,8 +178,8 @@
       "name": "Zenless Zone Zero",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-07-17T02:59:47.056Z",
-        "lastSuccessfulFetch": "2026-07-17T02:59:47.056Z",
+        "checkedAt": "2026-07-26T05:37:17.784Z",
+        "lastSuccessfulFetch": "2026-07-26T05:37:17.784Z",
         "source": "game8"
       },
       "current": {
@@ -196,7 +204,7 @@
         "source": "game8"
       },
       "next": {
-        "phase": "3.1",
+        "phase": null,
         "characters": [
           {
             "name": "Remielle",
@@ -206,19 +214,73 @@
             "rarity": 4
           }
         ],
-        "start": "2026-07-08T10:00:00.000Z",
-        "end": "2026-07-29T10:00:00.000Z",
+        "start": "2026-07-29T10:00:00.000Z",
+        "end": "2026-09-08T10:00:00.000Z",
         "source": "game8"
       },
-      "upcoming": []
+      "upcoming": [
+        {
+          "characters": [
+            {
+              "name": "Aria",
+              "image": "https://static.nanoka.cc/assets/zzz/IconRoleCircle57.webp",
+              "imageFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect57.webp",
+              "imageFallbackZoom": true,
+              "rarity": 4
+            }
+          ],
+          "start": "2026-07-29T10:00:00.000Z",
+          "end": "2026-08-19T10:00:00.000Z"
+        },
+        {
+          "characters": [
+            {
+              "name": "Sigrid",
+              "image": "https://static.nanoka.cc/assets/zzz/IconRoleCircle66.webp",
+              "imageFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect66.webp",
+              "imageFallbackZoom": true,
+              "rarity": 4
+            }
+          ],
+          "start": "2026-08-19T10:00:00.000Z",
+          "end": "2026-09-08T10:00:00.000Z"
+        },
+        {
+          "characters": [
+            {
+              "name": "Dialyn",
+              "image": "https://static.nanoka.cc/assets/zzz/IconRoleCircle54.webp",
+              "imageFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect54.webp",
+              "imageFallbackZoom": true,
+              "rarity": 4
+            },
+            {
+              "name": "Yuzuha",
+              "image": "https://static.nanoka.cc/assets/zzz/IconRoleCircle47.webp",
+              "imageFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect47.webp",
+              "imageFallbackZoom": true,
+              "rarity": 4
+            },
+            {
+              "name": "Harumasa",
+              "image": "https://static.nanoka.cc/assets/zzz/IconRoleCircle35.webp",
+              "imageFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect35.webp",
+              "imageFallbackZoom": true,
+              "rarity": 4
+            }
+          ],
+          "start": "2026-08-19T10:00:00.000Z",
+          "end": "2026-09-08T10:00:00.000Z"
+        }
+      ]
     },
     {
       "id": "endfield",
       "name": "Arknights: Endfield",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-07-17T02:59:47.056Z",
-        "lastSuccessfulFetch": "2026-07-17T02:59:47.056Z",
+        "checkedAt": "2026-07-26T05:37:17.784Z",
+        "lastSuccessfulFetch": "2026-07-26T05:37:17.784Z",
         "source": "game8"
       },
       "current": {

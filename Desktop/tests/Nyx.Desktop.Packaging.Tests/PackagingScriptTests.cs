@@ -50,6 +50,48 @@ public sealed class PackagingScriptTests
 
         Assert.Contains("tests/Nyx.Desktop.Packaging.Tests/Nyx.Desktop.Packaging.Tests.csproj", solution);
         Assert.Contains("tools/Nyx.Desktop.Update/Nyx.Desktop.Update.csproj", solution);
+        Assert.Contains("<Platform Project=\"x64\" />", solution, StringComparison.Ordinal);
+        Assert.DoesNotContain("<Platform Project=\"x86\" />", solution, StringComparison.Ordinal);
+    }
+
+    [Fact]
+    public void Development_package_verifies_and_stamps_the_exact_embedded_achievement_helper()
+    {
+        var build = File.ReadAllText(Path.Combine(PackagingRoot, "build-development-package.ps1"));
+        var project = File.ReadAllText(Path.Combine(
+            DesktopRoot,
+            "src",
+            "Nyx.Desktop.App",
+            "Nyx.Desktop.App.csproj"));
+
+        Assert.Contains("verify_release.py", build, StringComparison.Ordinal);
+        Assert.Contains("Get-FileHash -LiteralPath $builtHelper -Algorithm SHA256", build, StringComparison.Ordinal);
+        Assert.Contains("-p:AchievementHelperSource=$builtHelper", build, StringComparison.Ordinal);
+        Assert.Contains("-p:AchievementHelperSha256=$helperSha256", build, StringComparison.Ordinal);
+        Assert.True(
+            build.IndexOf("verify_release.py", StringComparison.Ordinal) <
+            build.IndexOf("Get-FileHash -LiteralPath $builtHelper", StringComparison.Ordinal));
+        Assert.Contains("PengoAchievementHelperSha256", project, StringComparison.Ordinal);
+        Assert.Contains("Assets\\Tools\\pengo-achievements-launcher.exe", project, StringComparison.Ordinal);
+    }
+
+    [Fact]
+    public void Development_package_restores_by_default_with_an_explicit_no_restore_opt_out()
+    {
+        var build = File.ReadAllText(Path.Combine(PackagingRoot, "build-development-package.ps1"));
+        var readme = File.ReadAllText(Path.Combine(PackagingRoot, "README.md"));
+        var updateDoc = File.ReadAllText(Path.Combine(
+            DesktopRoot,
+            "..",
+            "docs",
+            "desktop-packaging-update-2026-07-17.md"));
+
+        Assert.Contains("[switch] $NoRestore", build, StringComparison.Ordinal);
+        Assert.Contains("$restoreArgument = if ($NoRestore) { @('--no-restore') } else { @() }", build, StringComparison.Ordinal);
+        Assert.DoesNotContain("[switch] $Restore", build, StringComparison.Ordinal);
+        Assert.Contains("build-development-package.ps1 -Version 1.0.0.0", readme, StringComparison.Ordinal);
+        Assert.Contains("Use `-NoRestore` only", readme, StringComparison.Ordinal);
+        Assert.Contains("`-NoRestore` is an explicit opt-out", updateDoc, StringComparison.Ordinal);
     }
 
     private static (int ExitCode, string Output) RunPowerShell(string command)

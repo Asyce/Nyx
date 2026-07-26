@@ -7583,6 +7583,17 @@
           "sourceUrl": "https://endfield.wiki.gg/wiki/Kalkonyx"
         },
         {
+          "id": "ae:Protocolith",
+          "name": "Protocolith",
+          "n": "Protocolith",
+          "qty": 8,
+          "rar": 5,
+          "kind": "specialty",
+          "icon": "../../Database/EndfieldWiki/endfield/assets/items/protocolith.png",
+          "source": "Rare Mining Sites, Dijiang Production: Growth Chamber, North Wuling Exclusion Zone",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Protocolith"
+        },
+        {
           "id": "ae:Umbronyx",
           "name": "Umbronyx",
           "n": "Umbronyx",
@@ -7743,6 +7754,17 @@
               "icon": "../../Database/EndfieldWiki/endfield/assets/items/heavy-cast-die.png",
               "source": "Protocol Space: Weapon Tune, Acquisition Center: AIC Trading, Exploring and Gathering",
               "sourceUrl": "https://endfield.wiki.gg/wiki/Heavy_Cast_Die"
+            },
+            {
+              "id": "ae:Protocolith",
+              "name": "Protocolith",
+              "n": "Protocolith",
+              "qty": 8,
+              "rar": 5,
+              "kind": "specialty",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/items/protocolith.png",
+              "source": "Rare Mining Sites, Dijiang Production: Growth Chamber, North Wuling Exclusion Zone",
+              "sourceUrl": "https://endfield.wiki.gg/wiki/Protocolith"
             },
             {
               "id": "ae:T-Creds",
@@ -19506,7 +19528,7 @@
               {
                 "name": "Artillery Interdiction",
                 "type": "Combat Skill",
-                "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Nature DMG. As the controlled operator, Final Strike also deals 0 Stagger.\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Nature DMG to nearby enemies.\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Nature DMG and recovers some SP.",
+                "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Nature DMG. As the controlled operator, Final Strike also deals 17 Stagger.\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Nature DMG to nearby enemies.\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Nature DMG and recovers some SP.",
                 "stats": [
                   {
                     "label": "BATK SEQ 1 Multiplier",
@@ -19650,7 +19672,7 @@
               {
                 "name": "Artillery Interdiction",
                 "type": "Combat Skill",
-                "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Nature DMG. As the controlled operator, Final Strike also deals 0 Stagger.\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Nature DMG to nearby enemies.\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Nature DMG and recovers some SP.",
+                "desc": "BASIC ATTACK:\nAn attack with up to 5 sequences that deals Nature DMG. As the controlled operator, Final Strike also deals 17 Stagger.\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Nature DMG to nearby enemies.\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Nature DMG and recovers some SP.",
                 "stats": [
                   {
                     "label": "BATK SEQ 1 Multiplier",
@@ -19787,7 +19809,6 @@
           }
         ]
       },
-      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -19857,6 +19878,17 @@
             "sourceUrl": "https://endfield.wiki.gg/wiki/Ruby_Bolete"
           },
           {
+            "id": "ae:Talos_Cap",
+            "name": "Talos Cap",
+            "n": "Talos Cap",
+            "qty": 8,
+            "rar": 5,
+            "kind": "specialty",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/talos-cap.png",
+            "source": "Rare Gathering Sites, Dijiang Production: Growth Chamber, Yinglung Pass",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Talos_Cap"
+          },
+          {
             "id": "ae:T-Creds",
             "name": "T-Creds",
             "n": "T-Creds",
@@ -19890,6 +19922,17 @@
             "icon": "../../Database/EndfieldWiki/endfield/assets/items/chrysodendra.png",
             "source": "Area found: Originium Science Park, Rare Gathering Sites, Dijiang Production: Growth Chamber, Origin Lodespring",
             "sourceUrl": "https://endfield.wiki.gg/wiki/Chrysodendra"
+          },
+          {
+            "id": "ae:Crimson_Spearleaf",
+            "name": "Crimson Spearleaf",
+            "n": "Crimson Spearleaf",
+            "qty": 84,
+            "rar": 5,
+            "kind": "specialty",
+            "icon": "../../Database/EndfieldWiki/endfield/assets/items/crimson-spearleaf.png",
+            "source": "Rare Gathering Sites, Dijiang Production: Growth Chamber, North Wuling Exclusion Zone",
+            "sourceUrl": "https://endfield.wiki.gg/wiki/Crimson_Spearleaf"
           },
           {
             "id": "ae:Kalkodendra",
@@ -20107,6 +20150,17 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
                 "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+              },
+              {
+                "id": "ae:Talos_Cap",
+                "name": "Talos Cap",
+                "n": "Talos Cap",
+                "qty": 8,
+                "rar": 5,
+                "kind": "specialty",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/talos-cap.png",
+                "source": "Rare Gathering Sites, Dijiang Production: Growth Chamber, Yinglung Pass",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Talos_Cap"
               },
               {
                 "id": "ae:T-Creds",
@@ -20444,6 +20498,17 @@
                 "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               },
               {
+                "id": "ae:Crimson_Spearleaf",
+                "name": "Crimson Spearleaf",
+                "n": "Crimson Spearleaf",
+                "qty": 12,
+                "rar": 5,
+                "kind": "specialty",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/crimson-spearleaf.png",
+                "source": "Rare Gathering Sites, Dijiang Production: Growth Chamber, North Wuling Exclusion Zone",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Crimson_Spearleaf"
+              },
+              {
                 "id": "ae:Protohedron",
                 "name": "Protohedron",
                 "n": "Protohedron",
@@ -20504,6 +20569,17 @@
                 "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
               },
               {
+                "id": "ae:Crimson_Spearleaf",
+                "name": "Crimson Spearleaf",
+                "n": "Crimson Spearleaf",
+                "qty": 24,
+                "rar": 5,
+                "kind": "specialty",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/crimson-spearleaf.png",
+                "source": "Rare Gathering Sites, Dijiang Production: Growth Chamber, North Wuling Exclusion Zone",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Crimson_Spearleaf"
+              },
+              {
                 "id": "ae:Protohedron",
                 "name": "Protohedron",
                 "n": "Protohedron",
@@ -20562,6 +20638,17 @@
                 "icon": "../../Database/EndfieldWiki/endfield/assets/items/triphasic-nanoflake.png",
                 "source": "Protocol Space: Hazardous Material Containment Vault, Acquisition Center: AIC Trading, Chance Drop: Certain Protocol Space: Crisis Drills, Chance Drop: Certain Protocol Space: RE-Crisis (Deep Dive)",
                 "sourceUrl": "https://endfield.wiki.gg/wiki/Triphasic_Nanoflake"
+              },
+              {
+                "id": "ae:Crimson_Spearleaf",
+                "name": "Crimson Spearleaf",
+                "n": "Crimson Spearleaf",
+                "qty": 48,
+                "rar": 5,
+                "kind": "specialty",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/items/crimson-spearleaf.png",
+                "source": "Rare Gathering Sites, Dijiang Production: Growth Chamber, North Wuling Exclusion Zone",
+                "sourceUrl": "https://endfield.wiki.gg/wiki/Crimson_Spearleaf"
               },
               {
                 "id": "ae:Protohedron",
@@ -20830,7 +20917,6 @@
       },
       "signatureWeaponId": "Dreams_of_the_Starry_Beach",
       "signatureWeaponName": "Dreams of the Starry Beach",
-      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -21969,7 +22055,7 @@
               },
               {
                 "name": "Blazing Exorcism",
-                "type": "The Explosion DMG part of this skill is not affected by Link bonuses.",
+                "type": "This skill's Explosion DMG and its propagations are considered different actions",
                 "desc": "SKILL DESCRIPTION: Camille summons Firefang Vesperwings that fly towards the enemy to deal Heat DMG and apply Heat Infliction on enemies in a small area of effect. The Firefang Vesperwings then temporarily hover around the target and apply Weaken and Heat Susceptibility to the said target for the duration of the hovering. When the target is defeated, the Firefang Vesperwings fly to another nearby enemy, deal Heat DMG, and apply Heat Infliction, Weaken, and Heat Susceptibility to the new target.\nHitting an enemy with hovering Firefang Vesperwings with Camille's combo skill sets off an explosion after a short delay. This explosion deals additional Heat DMG.",
                 "stats": [
                   {
@@ -22081,7 +22167,6 @@
       },
       "signatureWeaponId": "Blessing_of_Lustrous_Carmine",
       "signatureWeaponName": "Blessing of Lustrous Carmine",
-      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -23308,7 +23393,6 @@
       },
       "signatureWeaponId": "Thunderberge",
       "signatureWeaponName": "Thunderberge",
-      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -24573,7 +24657,6 @@
       },
       "signatureWeaponId": "Grand_Vision",
       "signatureWeaponName": "Grand Vision",
-      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -25847,7 +25930,6 @@
           },
           "signatureWeaponId": "Grand_Vision",
           "signatureWeaponName": "Grand Vision",
-          "materialSourceStatus": "sourced",
           "req": {
             "ascension": [
               {
@@ -27120,7 +27202,6 @@
           },
           "signatureWeaponId": "Grand_Vision",
           "signatureWeaponName": "Grand Vision",
-          "materialSourceStatus": "sourced",
           "req": {
             "ascension": [
               {
@@ -28390,7 +28471,6 @@
       },
       "signatureWeaponId": "Delivery_Guaranteed",
       "signatureWeaponName": "Delivery Guaranteed",
-      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -29690,7 +29770,6 @@
       },
       "signatureWeaponId": "Forgeborn_Scathe",
       "signatureWeaponName": "Forgeborn Scathe",
-      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -30955,7 +31034,6 @@
       },
       "signatureWeaponId": "Khravengger",
       "signatureWeaponName": "Khravengger",
-      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -32235,7 +32313,6 @@
       },
       "signatureWeaponId": "Mountain_Bearer",
       "signatureWeaponName": "Mountain Bearer",
-      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -33331,8 +33408,8 @@
       "facts": {
         "faction": "Talos-II General Chamber of Commerce"
       },
-      "materialSourceStatus": "pending-source",
       "req": null,
+      "reliableData": false,
       "aePreferredItems": [],
       "aeSkillItems": [],
       "aeStatItems": []
@@ -33493,7 +33570,6 @@
       },
       "signatureWeaponId": "Amaranthine_Tassel",
       "signatureWeaponName": "Amaranthine Tassel",
-      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -34801,7 +34877,6 @@
       },
       "signatureWeaponId": "Thermite_Cutter",
       "signatureWeaponName": "Thermite Cutter",
-      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -36076,7 +36151,6 @@
       },
       "signatureWeaponId": "Lupine_Scarlet",
       "signatureWeaponName": "Lupine Scarlet",
-      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -37362,7 +37436,6 @@
       },
       "signatureWeaponId": "Brigand's_Calling",
       "signatureWeaponName": "Brigand's Calling",
-      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -38638,7 +38711,6 @@
       },
       "signatureWeaponId": "Artzy_Tyrannical",
       "signatureWeaponName": "Artzy Tyrannical",
-      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -39931,7 +40003,6 @@
       },
       "signatureWeaponId": "Lone_Barge",
       "signatureWeaponName": "Lone Barge",
-      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -41195,7 +41266,6 @@
       },
       "signatureWeaponId": "Thermite_Cutter",
       "signatureWeaponName": "Thermite Cutter",
-      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -42432,7 +42502,6 @@
       },
       "signatureWeaponId": "Thermite_Cutter",
       "signatureWeaponName": "Thermite Cutter",
-      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -43709,7 +43778,6 @@
       },
       "signatureWeaponId": "JET",
       "signatureWeaponName": "JET",
-      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -44937,7 +45005,6 @@
       },
       "signatureWeaponId": "Sundering_Steel",
       "signatureWeaponName": "Sundering Steel",
-      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -46194,7 +46261,6 @@
       },
       "signatureWeaponId": "Amaranthine_Tassel",
       "signatureWeaponName": "Amaranthine Tassel",
-      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -47447,7 +47513,6 @@
       },
       "signatureWeaponId": "Stanza_of_Memorials",
       "signatureWeaponName": "Stanza of Memorials",
-      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -48695,7 +48760,6 @@
       },
       "signatureWeaponId": "Finishing_Call",
       "signatureWeaponName": "Finishing Call",
-      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -49941,7 +50005,6 @@
       },
       "signatureWeaponId": "Clannibal",
       "signatureWeaponName": "Clannibal",
-      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -51229,7 +51292,6 @@
       },
       "signatureWeaponId": "Detonation_Unit",
       "signatureWeaponName": "Detonation Unit",
-      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -52445,7 +52507,6 @@
       },
       "signatureWeaponId": "Thermite_Cutter",
       "signatureWeaponName": "Thermite Cutter",
-      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -53673,7 +53734,6 @@
       },
       "signatureWeaponId": "Detonation_Unit",
       "signatureWeaponName": "Detonation Unit",
-      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -54937,7 +54997,6 @@
       },
       "signatureWeaponId": "OBJ_Heavy_Burden",
       "signatureWeaponName": "OBJ Heavy Burden",
-      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -56187,7 +56246,6 @@
       },
       "signatureWeaponId": "JET",
       "signatureWeaponName": "JET",
-      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -57449,7 +57507,6 @@
       },
       "signatureWeaponId": "OBJ_Velocitous",
       "signatureWeaponName": "OBJ Velocitous",
-      "materialSourceStatus": "sourced",
       "req": {
         "ascension": [
           {
@@ -59047,9 +59104,6 @@
         "Yvonne",
         "Zhuang Fangyi"
       ],
-      "pendingSourceCharacters": [
-        "Liino"
-      ],
       "missing": [],
       "extra": [],
       "source": {
@@ -59133,9 +59187,6 @@
         "Yvonne",
         "Zhuang Fangyi"
       ],
-      "pendingSourceCharacters": [
-        "Liino"
-      ],
       "missing": [],
       "extra": [],
       "source": {
@@ -59187,6 +59238,15 @@
           "Rossi",
           "Wulfgard",
           "Zhuang Fangyi"
+        ]
+      },
+      {
+        "name": "Crimson Spearleaf",
+        "requirementFields": [
+          "talents"
+        ],
+        "characters": [
+          "Arcane"
         ]
       },
       {
@@ -59483,6 +59543,15 @@
           "Xaihi",
           "Yvonne",
           "Zhuang Fangyi"
+        ]
+      },
+      {
+        "name": "Talos Cap",
+        "requirementFields": [
+          "ascension"
+        ],
+        "characters": [
+          "Arcane"
         ]
       }
     ]

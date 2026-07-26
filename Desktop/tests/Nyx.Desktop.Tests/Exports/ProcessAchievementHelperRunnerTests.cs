@@ -22,7 +22,7 @@ public sealed class ProcessAchievementHelperRunnerTests
         sequence.Accept(Status("ready"));
         Assert.True(ready.Task.IsCompletedSuccessfully);
         sequence.Accept(Status("waiting_for_game"));
-        sequence.Accept(Status("exported", itemCount: 2, outputFile: "hsr/pengo-achievements-20260717T120000Z-abc123.json"));
+        sequence.Accept(Status("exported", itemCount: 2, outputFile: "Honkai Star Rail/20260717T120000Z-abc123.json"));
         Assert.True(sequence.IsTerminal);
     }
 
@@ -47,7 +47,7 @@ public sealed class ProcessAchievementHelperRunnerTests
     public void Nonzero_exit_cannot_promote_an_unrelated_json_to_success()
     {
         using var temp = new TemporaryDirectory();
-        var gameRoot = temp.Combine("hsr");
+        var gameRoot = temp.Combine("Honkai Star Rail");
         Directory.CreateDirectory(gameRoot);
         File.WriteAllText(Path.Combine(gameRoot, "unrelated.json"), "{\"hsr_achievements\":[1]}");
 
@@ -66,11 +66,11 @@ public sealed class ProcessAchievementHelperRunnerTests
     public void Malformed_or_wrong_shape_export_fails_closed(string json)
     {
         using var temp = new TemporaryDirectory();
-        var gameRoot = temp.Combine("hsr");
+        var gameRoot = temp.Combine("Honkai Star Rail");
         Directory.CreateDirectory(gameRoot);
-        const string fileName = "pengo-achievements-20260717T120000Z-abc123.json";
+        const string fileName = "20260717T120000Z-abc123.json";
         File.WriteAllText(Path.Combine(gameRoot, fileName), json);
-        var final = Status("exported", itemCount: 2, outputFile: "hsr/" + fileName);
+        var final = Status("exported", itemCount: 2, outputFile: "Honkai Star Rail/" + fileName);
 
         var error = Assert.Throws<ExportProviderException>(() =>
             ProcessAchievementHelperRunner.ValidateCompletedOutput(Invocation(temp.Path), 0, final));
@@ -78,19 +78,47 @@ public sealed class ProcessAchievementHelperRunnerTests
         Assert.Equal("output-invalid", error.Code);
     }
 
-    [Fact]
-    public void Exact_authenticated_result_and_shape_are_required_for_success()
+    [Theory]
+    [InlineData("Honkai Star Rail/pengo-achievements-20260717T120000Z-abc123.json")]
+    [InlineData("Honkai Star Rail/20260717T120000Z.json")]
+    [InlineData("Honkai Star Rail/20269999T999999Z-abc123.json")]
+    [InlineData("hsr/20260717T120000Z-abc123.json")]
+    [InlineData("Genshin Impact/20260717T120000Z-abc123.json")]
+    public void Noncontract_name_or_wrong_game_folder_fails_before_file_access(string outputFile)
     {
         using var temp = new TemporaryDirectory();
-        var gameRoot = temp.Combine("hsr");
+
+        var error = Assert.Throws<ExportProviderException>(() =>
+            ProcessAchievementHelperRunner.ValidateCompletedOutput(
+                Invocation(temp.Path),
+                0,
+                Status("exported", itemCount: 1, outputFile: outputFile)));
+
+        Assert.Equal("output-unsafe", error.Code);
+    }
+
+    [Theory]
+    [InlineData("gi", "Genshin Impact", "gi_achievements")]
+    [InlineData("hsr", "Honkai Star Rail", "hsr_achievements")]
+    public void Exact_authenticated_result_name_and_import_shape_are_required_for_success(
+        string gameId,
+        string gameDirectory,
+        string propertyName)
+    {
+        using var temp = new TemporaryDirectory();
+        var gameRoot = temp.Combine(gameDirectory);
         Directory.CreateDirectory(gameRoot);
-        const string fileName = "pengo-achievements-20260717T120000Z-abc123.json";
-        File.WriteAllText(Path.Combine(gameRoot, fileName), "{\"hsr_achievements\":[10,20]}");
+        const string fileName = "20260717T120000Z-abc123.json";
+        File.WriteAllText(Path.Combine(gameRoot, fileName), $"{{\"{propertyName}\":[10,20]}}");
 
         var artifact = ProcessAchievementHelperRunner.ValidateCompletedOutput(
-            Invocation(temp.Path),
+            Invocation(temp.Path, gameId),
             0,
-            Status("exported", itemCount: 2, outputFile: "hsr/" + fileName));
+            Status(
+                "exported",
+                itemCount: 2,
+                outputFile: gameDirectory + "/" + fileName,
+                gameId: gameId));
 
         Assert.Equal(2, artifact.ItemCount);
         Assert.Equal(Path.Combine(gameRoot, fileName), artifact.OutputPath);
@@ -152,6 +180,13 @@ public sealed class ProcessAchievementHelperRunnerTests
         JobId,
         outputRoot);
 
+    private static AchievementHelperInvocation Invocation(string outputRoot, string gameId) => new(
+        Path.Combine(outputRoot, VerifiedAchievementHelperBoundary.ExpectedHelperFileName),
+        [],
+        gameId,
+        JobId,
+        outputRoot);
+
     private static AchievementHelperInvocation Invocation(
         string outputRoot,
         string helperPath,
@@ -166,10 +201,11 @@ public sealed class ProcessAchievementHelperRunnerTests
         string state,
         long? itemCount = null,
         string? outputFile = null,
-        string? errorCode = null) => new(
+        string? errorCode = null,
+        string gameId = "hsr") => new(
             1,
             JobId,
-            "hsr",
+            gameId,
             "achievements",
             state,
             Proof,

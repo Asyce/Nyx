@@ -144,10 +144,11 @@ public static class LauncherStateMigrations
                     IconPath = NullIfWhiteSpace(pair.Value?.IconPath),
                     BackgroundPath = NullIfWhiteSpace(pair.Value?.BackgroundPath),
                     AutomaticArt = pair.Value?.AutomaticArt ?? true,
-                    ArtScale = Math.Clamp(pair.Value?.ArtScale ?? 100, 50, 250),
+                    ArtScale = Math.Clamp(pair.Value?.ArtScale ?? 100, 25, 500),
                     ArtX = pair.Value?.ArtX ?? 0,
                     ArtY = pair.Value?.ArtY ?? 0,
                     ArtVariant = NullIfWhiteSpace(pair.Value?.ArtVariant),
+                    ArtFit = NormalizeArtFit(pair.Value?.ArtFit),
                     ArtPinned = pair.Value?.ArtPinned ?? false,
                     PinnedArtFile = NormalizePinnedArtFile(pair.Value?.PinnedArtFile),
                 };
@@ -202,6 +203,8 @@ public static class LauncherStateMigrations
                 SafeNotifications = dto.Preferences?.SafeNotifications ?? true,
                 DataDirectory = NullIfWhiteSpace(dto.Preferences?.DataDirectory),
                 EndfieldInstallRoot = NormalizeLocalRoot(dto.Preferences?.EndfieldInstallRoot),
+                ManualInstallRoots = NormalizeManualInstallRoots(dto.Preferences?.ManualInstallRoots),
+                CopiedRedemptionCodes = NormalizeCopiedRedemptionCodes(dto.Preferences?.CopiedRedemptionCodes),
                 FeatureFlags = NormalizeFeatureFlags(dto.Preferences?.FeatureFlags),
             },
         };
@@ -235,6 +238,7 @@ public static class LauncherStateMigrations
                 ArtX = pair.Value.ArtX,
                 ArtY = pair.Value.ArtY,
                 ArtVariant = pair.Value.ArtVariant,
+                ArtFit = NormalizeArtFit(pair.Value.ArtFit),
                 ArtPinned = pair.Value.ArtPinned,
                 PinnedArtFile = pair.Value.PinnedArtFile,
             }, StringComparer.Ordinal),
@@ -258,12 +262,19 @@ public static class LauncherStateMigrations
             SafeNotifications = state.Preferences?.SafeNotifications ?? true,
             DataDirectory = state.Preferences?.DataDirectory,
             EndfieldInstallRoot = state.Preferences?.EndfieldInstallRoot,
+            ManualInstallRoots = state.Preferences?.ManualInstallRoots?.ToDictionary(
+                static pair => pair.Key,
+                static pair => (string?)pair.Value,
+                StringComparer.Ordinal),
+            CopiedRedemptionCodes = state.Preferences?.CopiedRedemptionCodes?.ToDictionary(
+                static pair => pair.Key,
+                static pair => pair.Value?.ToArray(),
+                StringComparer.Ordinal),
             FeatureFlags = state.Preferences?.FeatureFlags is null
                 ? null
                 : new FeatureFlagsDto
                 {
                     RemoteBannerManifest = state.Preferences.FeatureFlags.RemoteBannerManifest,
-                    OfficialNews = state.Preferences.FeatureFlags.OfficialNews,
                     AutomaticArt = state.Preferences.FeatureFlags.AutomaticArt,
                     GiPulls = state.Preferences.FeatureFlags.GiPulls,
                     GiAchievements = state.Preferences.FeatureFlags.GiAchievements,
@@ -273,6 +284,11 @@ public static class LauncherStateMigrations
                     ZzzAchievements = state.Preferences.FeatureFlags.ZzzAchievements,
                     WuWaPulls = state.Preferences.FeatureFlags.WuWaPulls,
                     WuWaAchievements = state.Preferences.FeatureFlags.WuWaAchievements,
+                    WuWaAccountStatus = state.Preferences.FeatureFlags.WuWaAccountStatus,
+                    HoyoLabAccountAccess = state.Preferences.FeatureFlags.HoyoLabAccountAccess,
+                    SkportAccountAccess = state.Preferences.FeatureFlags.SkportAccountAccess,
+                    HoyoLabAccountCleanupPending = state.Preferences.FeatureFlags.HoyoLabAccountCleanupPending,
+                    SkportAccountCleanupPending = state.Preferences.FeatureFlags.SkportAccountCleanupPending,
                     EndfieldPulls = state.Preferences.FeatureFlags.EndfieldPulls,
                     EndfieldAchievements = state.Preferences.FeatureFlags.EndfieldAchievements,
                 },
@@ -284,7 +300,6 @@ public static class LauncherStateMigrations
         : new LauncherFeatureFlags
         {
             RemoteBannerManifest = dto.RemoteBannerManifest ?? true,
-            OfficialNews = dto.OfficialNews ?? true,
             AutomaticArt = dto.AutomaticArt ?? true,
             GiPulls = dto.GiPulls ?? true,
             GiAchievements = dto.GiAchievements ?? true,
@@ -294,11 +309,25 @@ public static class LauncherStateMigrations
             ZzzAchievements = dto.ZzzAchievements ?? false,
             WuWaPulls = dto.WuWaPulls ?? false,
             WuWaAchievements = dto.WuWaAchievements ?? false,
+            WuWaAccountStatus = dto.WuWaAccountStatus ?? false,
+            HoyoLabAccountAccess = dto.HoyoLabAccountAccess == true
+                && dto.HoyoLabAccountCleanupPending != true,
+            SkportAccountAccess = dto.SkportAccountAccess == true
+                && dto.SkportAccountCleanupPending != true,
+            HoyoLabAccountCleanupPending = dto.HoyoLabAccountCleanupPending ?? false,
+            SkportAccountCleanupPending = dto.SkportAccountCleanupPending ?? false,
             EndfieldPulls = dto.EndfieldPulls ?? false,
             EndfieldAchievements = dto.EndfieldAchievements ?? false,
         };
 
     private static string? NullIfWhiteSpace(string? value) => string.IsNullOrWhiteSpace(value) ? null : value;
+
+    private static string NormalizeArtFit(string? value) => value?.Trim().ToLowerInvariant() switch
+    {
+        "contain" => "contain",
+        "fill" => "fill",
+        _ => "cover",
+    };
 
     private static string? NormalizeLocalRoot(string? value)
     {
@@ -327,6 +356,37 @@ public static class LauncherStateMigrations
         {
             return null;
         }
+    }
+
+    private static IReadOnlyDictionary<string, string> NormalizeManualInstallRoots(
+        Dictionary<string, string?>? values)
+    {
+        var normalized = new Dictionary<string, string>(StringComparer.Ordinal);
+        foreach (var pair in values ?? [])
+        {
+            if (pair.Key is not ("gi" or "hsr" or "zzz" or "wuwa" or "ae")) continue;
+            if (NormalizeLocalRoot(pair.Value) is { } root) normalized[pair.Key] = root;
+        }
+        return new ReadOnlyDictionary<string, string>(normalized);
+    }
+
+    private static IReadOnlyDictionary<string, IReadOnlyList<string>> NormalizeCopiedRedemptionCodes(
+        Dictionary<string, string[]?>? values)
+    {
+        var normalized = new Dictionary<string, IReadOnlyList<string>>(StringComparer.Ordinal);
+        foreach (var pair in values ?? [])
+        {
+            if (pair.Key is not ("gi" or "hsr" or "zzz" or "wuwa" or "ae")) continue;
+            var codes = (pair.Value ?? [])
+                .Where(static code => !string.IsNullOrWhiteSpace(code)
+                    && code.Length <= 64
+                    && code.All(character => char.IsAsciiLetterOrDigit(character) || character is '-' or '_'))
+                .Distinct(StringComparer.Ordinal)
+                .Take(100)
+                .ToArray();
+            if (codes.Length > 0) normalized[pair.Key] = Array.AsReadOnly(codes);
+        }
+        return new ReadOnlyDictionary<string, IReadOnlyList<string>>(normalized);
     }
 
     private static string? NormalizePinnedArtFile(string? value)
@@ -376,6 +436,7 @@ public static class LauncherStateMigrations
         public int? ArtX { get; set; }
         public int? ArtY { get; set; }
         public string? ArtVariant { get; set; }
+        public string? ArtFit { get; set; }
         public bool? ArtPinned { get; set; }
         public string? PinnedArtFile { get; set; }
     }
@@ -401,12 +462,16 @@ public static class LauncherStateMigrations
         public bool? SafeNotifications { get; set; }
         public string? DataDirectory { get; set; }
         public string? EndfieldInstallRoot { get; set; }
+        public Dictionary<string, string?>? ManualInstallRoots { get; set; }
+        public Dictionary<string, string[]?>? CopiedRedemptionCodes { get; set; }
         public FeatureFlagsDto? FeatureFlags { get; set; }
     }
 
     private sealed class FeatureFlagsDto
     {
         public bool? RemoteBannerManifest { get; set; }
+        // Read and ignore the retired setting so older state files remain valid.
+        [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
         public bool? OfficialNews { get; set; }
         public bool? AutomaticArt { get; set; }
         public bool? GiPulls { get; set; }
@@ -417,6 +482,11 @@ public static class LauncherStateMigrations
         public bool? ZzzAchievements { get; set; }
         public bool? WuWaPulls { get; set; }
         public bool? WuWaAchievements { get; set; }
+        public bool? WuWaAccountStatus { get; set; }
+        public bool? HoyoLabAccountAccess { get; set; }
+        public bool? SkportAccountAccess { get; set; }
+        public bool? HoyoLabAccountCleanupPending { get; set; }
+        public bool? SkportAccountCleanupPending { get; set; }
         public bool? EndfieldPulls { get; set; }
         public bool? EndfieldAchievements { get; set; }
     }

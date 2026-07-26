@@ -3,12 +3,46 @@ import crypto from 'node:crypto';
 import fs from 'node:fs';
 import path from 'node:path';
 import test from 'node:test';
-import { ROOT, applySourcedBannerWindows, buildManifest, mirrorLauncherArt, officialUrl } from '../generate-launcher-manifest.mjs';
+import { ROOT, applySourcedBannerWindows, buildManifest, fetchRemoteLauncherArt, loadManifestInputs, mirrorLauncherArt, officialUrl, reconcileLauncherCodes, validatePackagedManifest } from '../generate-launcher-manifest.mjs';
 
 const NOW = Date.parse('2026-07-17T00:00:00.000Z');
 const phase = (start, end, characters = [{ name: 'Alpha', rarity: 5 }]) => ({ phase: '1.0', start, end, characters });
 const events = Object.fromEntries(['gi', 'hsr', 'zzz', 'wuwa', 'ae'].map((game) => [game, { events: [{ id: `${game}-safe`, title: 'Official update', start: '2026-07-16T00:00:00.000Z', end: '2026-07-20T00:00:00.000Z', source: { url: game === 'wuwa' ? 'https://wutheringwaves.kurogames.com/en/main/news/detail/1' : game === 'ae' ? 'https://endfield.gryphline.com/en-us/news/1' : `https://${game === 'gi' ? 'sg-hk4e-api' : game === 'hsr' ? 'sg-hkrpg-api' : 'sg-announcement-api'}.hoyoverse.com/common/announcement/1` } }, { id: `${game}-unsafe`, title: 'Unsafe', source: { url: 'http://example.invalid/nope' } }] }]));
 const rosters = Object.fromEntries(['gi', 'hsr', 'zzz', 'wuwa', 'ae'].map((game) => [game, [{ id: `${game}-alpha`, name: 'Alpha', rarity: 5, limited: true, release: '2026-01-01T00:00:00.000Z', assets: game === 'gi' ? { gacha: 'GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MarionetteNew.webp' } : undefined }]]));
+
+test('launcher code reconciliation changes only codes and content revision', () => {
+  const manifest = buildManifest({ banners: {}, events: {}, rosters: {}, now: NOW, generatedAt: '2026-07-17T00:00:00.000Z' });
+  const original = structuredClone(manifest);
+  const games = Object.fromEntries(['gi', 'hsr', 'zzz', 'wuwa', 'ae'].map((game) => [game, game === 'gi' ? [{ code: 'SAFE123', added: '2026-07-17', amount: 60, currency: 'Primogems', internal: 'must-not-leak' }] : []]));
+  const reconciled = reconcileLauncherCodes(manifest, { schemaVersion: 1, games });
+
+  assert.deepEqual(manifest, original, 'input manifest must remain unchanged on success');
+  assert.notEqual(reconciled.revision, original.revision);
+  assert.deepEqual(reconciled.games.gi.codes, [{ code: 'SAFE123', added: '2026-07-17', amount: 60, currency: 'Primogems' }]);
+  for (const game of ['gi', 'hsr', 'zzz', 'wuwa', 'ae']) {
+    const before = structuredClone(original.games[game]);
+    const after = structuredClone(reconciled.games[game]);
+    delete before.codes;
+    delete after.codes;
+    assert.deepEqual(after, before, `${game} banner data or art changed`);
+  }
+});
+
+test('launcher code reconciliation rejects malformed or partial feeds without mutation', () => {
+  const manifest = buildManifest({ banners: {}, events: {}, rosters: {}, now: NOW, generatedAt: '2026-07-17T00:00:00.000Z' });
+  const original = structuredClone(manifest);
+  const emptyGames = Object.fromEntries(['gi', 'hsr', 'zzz', 'wuwa', 'ae'].map((game) => [game, []]));
+  const invalidFeeds = [
+    { schemaVersion: 2, games: emptyGames },
+    { schemaVersion: 1, games: { gi: [] } },
+    { schemaVersion: 1, games: { ...emptyGames, gi: [{ code: '../BAD', added: '2026-07-17', amount: 60, currency: 'Primogems' }] } },
+    { schemaVersion: 1, games: { ...emptyGames, gi: [{ code: 'SAFE123', added: 'not-a-date', amount: 60, currency: 'Primogems' }] } },
+    { schemaVersion: 1, games: { ...emptyGames, gi: [{ code: 'SAFE123', added: '2026-07-17', amount: -1, currency: 'Primogems' }] } },
+  ];
+
+  for (const feed of invalidFeeds) assert.throws(() => reconcileLauncherCodes(manifest, feed));
+  assert.deepEqual(manifest, original, 'input manifest must remain unchanged after rejected feeds');
+});
 
 test('strict official links accept only HTTPS publisher hosts', () => {
   assert.equal(officialUrl('https://genshin.hoyoverse.com/en/news/1#unsafe', 'gi'), 'https://genshin.hoyoverse.com/en/news/1');
@@ -50,6 +84,24 @@ test('overlap, including sourced current windows, uncertainty, and stale groups 
   assert.equal(manifest.games.zzz.current, null);
 });
 
+test('a trusted history-backed current window survives a preserved raw-feed warning', () => {
+  const banners = { games: [{
+    id: 'gi',
+    freshness: {
+      status: 'fresh',
+      message: 'This game failed to scrape during the latest banner check; preserved previous data.',
+    },
+    current: {
+      ...phase('2026-07-16T00:00:00.000Z', '2026-07-18T00:00:00.000Z'),
+      _sourcedWindow: true,
+    },
+  }] };
+
+  const manifest = buildManifest({ banners, events, rosters, now: NOW, generatedAt: '2026-07-17T00:00:00.000Z' });
+
+  assert.equal(manifest.games.gi.current?.phase, '1.0');
+});
+
 test('fresh explicit current banner remains unavailable when its official start is missing', () => {
   const banners = { games: [{
     id: 'genshin',
@@ -70,6 +122,16 @@ test('all five canonical games keep unsafe news visible but non-clickable', () =
     assert.equal(manifest.games[game].news.length, 2);
     assert.equal(manifest.games[game].news.filter((item) => item.url === null).length, 1);
     assert.equal(manifest.games[game].news.filter((item) => /^https:\/\//.test(item.url ?? '')).length, 1);
+  }
+});
+
+test('production manifest carries only the five newest premium currency codes', () => {
+  const manifest = buildManifest({ ...loadManifestInputs({ now: NOW }), now: NOW, generatedAt: '2026-07-17T00:00:00.000Z' });
+  for (const game of Object.values(manifest.games)) {
+    assert.ok(game.codes.length <= 5);
+    assert.ok(game.codes.every((entry) => /^[-_A-Za-z0-9]{1,64}$/.test(entry.code)));
+    assert.ok(game.codes.every((entry) => /^\d{4}-\d{2}-\d{2}$/.test(entry.added)));
+    assert.ok(game.codes.every((entry, index) => index === 0 || game.codes[index - 1].added >= entry.added));
   }
 });
 
@@ -110,7 +172,128 @@ test('current local art is normalized into metadata-free bounded WebP package as
   }
 });
 
-test('approved Genshin portrait source wins over the default splash fallback', () => {
+test('failed art generation preserves the last-known-good output and manifest', async () => {
+  const manifest = buildManifest({ banners: { games: [{ id: 'gi', current: phase('2026-07-16T00:00:00.000Z', '2026-07-18T00:00:00.000Z') }] }, events, rosters, now: NOW, generatedAt: '2026-07-17T00:00:00.000Z' });
+  manifest.games.gi.current.variants[0].path = '/Database/does-not-exist.webp';
+  const before = structuredClone(manifest);
+  const outputDir = fs.mkdtempSync(path.join(ROOT, 'Site', 'launcher-art-rollback-test-'));
+  const sentinel = path.join(outputDir, 'last-known-good.webp');
+  fs.writeFileSync(sentinel, 'preserve-me');
+  try {
+    await assert.rejects(mirrorLauncherArt(manifest, { outputDir }), /source is missing/);
+    assert.equal(fs.readFileSync(sentinel, 'utf8'), 'preserve-me');
+    assert.deepEqual(manifest, before);
+    assert.equal(fs.readdirSync(path.dirname(outputDir)).some((entry) => entry.startsWith(`${path.basename(outputDir)}.tmp-`)), false);
+  } finally {
+    fs.rmSync(outputDir, { recursive: true, force: true });
+  }
+});
+
+test('remote launcher art rejects redirects before reading response bytes', async () => {
+  const sourceUrl = 'https://static.nanoka.cc/assets/ww/icons/test.webp';
+  let options;
+  let read = false;
+  const fetchImpl = async (_url, requestOptions) => {
+    options = requestOptions;
+    return {
+      ok: true,
+      status: 200,
+      redirected: true,
+      url: 'https://example.invalid/redirected.webp',
+      headers: { get: (name) => name === 'content-type' ? 'image/webp' : null },
+      body: { getReader() { read = true; throw new Error('redirect body must not be read'); } },
+    };
+  };
+
+  await assert.rejects(fetchRemoteLauncherArt(sourceUrl, { fetchImpl }), /redirected away/);
+  assert.equal(options.redirect, 'error');
+  assert.equal(read, false);
+});
+
+test('remote launcher art stops an unbounded stream as soon as its byte cap is exceeded', async () => {
+  const sourceUrl = 'https://static.nanoka.cc/assets/ww/icons/test.webp';
+  const chunks = [Buffer.alloc(5, 1), Buffer.alloc(5, 2)];
+  let index = 0;
+  let cancelled = false;
+  const fetchImpl = async () => ({
+    ok: true,
+    status: 200,
+    redirected: false,
+    url: sourceUrl,
+    headers: { get: (name) => name === 'content-type' ? 'image/webp' : null },
+    body: { getReader: () => ({
+      async read() { return index < chunks.length ? { done: false, value: chunks[index++] } : { done: true }; },
+      async cancel() { cancelled = true; },
+      releaseLock() {},
+    }) },
+  });
+
+  await assert.rejects(fetchRemoteLauncherArt(sourceUrl, { fetchImpl, maxBytes: 8 }), /exceeds 8 bytes/);
+  assert.equal(cancelled, true);
+  assert.equal(index, 2);
+});
+
+test('packaged manifest validation rejects stale time, expired windows, bad countdowns, and provenance leakage', () => {
+  const sha = '0'.repeat(64);
+  const asset = {
+    path: `/launcher-art/${sha}.webp`,
+    url: `https://pengo.gg/dist/launcher-art/${sha}.webp`,
+    sha256: sha,
+    mime: 'image/webp',
+    size: 1,
+    dimensions: { width: 1, height: 1 },
+  };
+  const games = Object.fromEntries(['gi', 'hsr', 'zzz', 'wuwa', 'ae'].map((game) => [game, {
+    game,
+    current: {
+      start: '2026-07-16T00:00:00.000Z',
+      end: '2026-07-18T00:00:00.000Z',
+      remaining: {
+        startsAt: '2026-07-16T00:00:00.000Z',
+        endsAt: '2026-07-18T00:00:00.000Z',
+        durationSeconds: 86_400,
+      },
+      selectedCharacter: { name: `${game}-current`, variants: [asset] },
+      variants: [asset],
+      characters: [{ name: `${game}-current`, icon: asset, variants: [asset] }],
+    },
+    upcoming: [],
+  }]));
+  const manifest = {
+    schemaVersion: 1,
+    revision: '1'.repeat(64),
+    generatedAt: '2026-07-17T00:00:00.000Z',
+    health: { status: 'ok', games: Object.fromEntries(Object.keys(games).map((game) => [game, { status: 'ok' }])) },
+    games,
+  };
+  assert.deepEqual(validatePackagedManifest(manifest, { now: NOW }), { assets: 15, uniqueAssets: 1 });
+  assert.throws(
+    () => validatePackagedManifest(manifest, { now: NOW + 15 * 60_000 + 1 }),
+    /generatedAt is missing or stale/,
+  );
+
+  const expiredCurrent = structuredClone(manifest);
+  for (const game of Object.values(expiredCurrent.games)) {
+    game.current.end = '2026-07-17T00:01:00.000Z';
+    game.current.remaining.endsAt = game.current.end;
+    game.current.remaining.durationSeconds = 60;
+  }
+  assert.throws(
+    () => validatePackagedManifest(expiredCurrent, { now: NOW + 60_000 }),
+    /current window is not active at deployment time/,
+  );
+
+  const forgedCountdown = structuredClone(manifest);
+  forgedCountdown.games.gi.current.remaining.durationSeconds += 1;
+  assert.throws(
+    () => validatePackagedManifest(forgedCountdown, { now: NOW }),
+    /current countdown does not match the committed snapshot/,
+  );
+  manifest.games.wuwa.current.characters[0].icon = { ...asset, sourceUrl: 'https://static.nanoka.cc/private.webp' };
+  assert.throws(() => validatePackagedManifest(manifest, { now: NOW }), /internal provenance/);
+});
+
+test('Genshin uses the local splash and never the removed portrait source', () => {
   const banners = { games: [{ id: 'gi', current: phase('2026-07-16T00:00:00.000Z', '2026-07-18T00:00:00.000Z', [{ name: 'Citlali' }]) }] };
   const customRosters = { ...rosters, gi: [{
     id: 'citlali',
@@ -120,8 +303,8 @@ test('approved Genshin portrait source wins over the default splash fallback', (
   }] };
   const manifest = buildManifest({ banners, events, rosters: customRosters, now: NOW, generatedAt: '2026-07-17T00:00:00.000Z', db: path.join(ROOT, 'Database') });
   const variant = manifest.games.gi.current.selectedCharacter.variants[0];
-  assert.equal(variant.source, 'portrait');
-  assert.match(variant.path, /Character Portrait_Citlali\.png$/);
+  assert.equal(variant.source, 'splash');
+  assert.match(variant.path, /UI_Gacha_AvatarImg_Citlali\.webp$/);
 });
 
 test('policy winner remains selected when its art is unavailable and current art remains usable as fallback', () => {
@@ -146,6 +329,16 @@ test('selection uses rarity, newer limited debut, then stable identity', () => {
   const manifest = buildManifest({ banners, events, rosters: customRosters, now: NOW, generatedAt: '2026-07-17T00:00:00.000Z' });
   assert.equal(manifest.games.gi.current.selectedCharacter.name, 'Alpha');
   assert.equal(manifest.games.gi.current.selectionReason, 'newer-limited-debut');
+});
+
+test('upcoming phases with unresolved icons are omitted instead of leaking broken art', () => {
+  const banners = { games: [{
+    id: 'gi',
+    current: phase('2026-07-16T00:00:00.000Z', '2026-07-18T00:00:00.000Z'),
+    next: phase('2026-07-18T00:00:00.000Z', '2026-07-20T00:00:00.000Z', [{ name: 'Unknown Future Character' }]),
+  }] };
+  const manifest = buildManifest({ banners, events, rosters, now: NOW, generatedAt: '2026-07-17T00:00:00.000Z' });
+  assert.deepEqual(manifest.games.gi.upcoming, []);
 });
 
 test('production preprocessing admits only independently identified active history channels', () => {
@@ -183,6 +376,83 @@ test('production preprocessing admits only independently identified active histo
     const manifest = buildManifest({ banners: normalized, events, rosters, now: NOW, generatedAt: '2026-07-17T00:00:00.000Z', db });
     assert.equal(manifest.games.gi.region, 'europe');
     assert.deepEqual(manifest.games.gi.current.characters.map((entry) => entry.name), ['Alpha', 'Beta']);
+  } finally {
+    fs.rmSync(db, { recursive: true, force: true });
+  }
+});
+
+test('production preprocessing publishes only complete confirmed future history windows', () => {
+  const db = fs.mkdtempSync(path.join(ROOT, 'Site', 'banner-upcoming-trust-test-'));
+  const source = { url: 'https://genshin-impact.fandom.com/wiki/Wish', kind: 'maintained-wiki', revision: 7 };
+  const record = (id, name, start, end, overrides = {}) => ({
+    id: `gi:character:Character Event:${id}`,
+    game: 'gi', bannerType: 'character', category: 'Character Event', version: '6.7', permanent: false, confirmed: true,
+    windowsByRegion: { europe: { start, end } },
+    featured: [{ name, rarity: 5, primary: true }], source, ...overrides,
+  });
+  try {
+    fs.mkdirSync(path.join(db, 'BannerHistory'));
+    fs.writeFileSync(path.join(db, 'BannerHistory', 'gi.json'), JSON.stringify({ schemaVersion: 1, game: 'gi', records: [
+      record('current', 'Alpha', '2026-07-16T00:00:00Z', '2026-07-18T00:00:00Z'),
+      record('trusted-future', 'Trusted Future', '2026-07-19T00:00:00Z', '2026-07-20T00:00:00Z'),
+      record('unconfirmed-future', 'Unconfirmed Future', '2026-07-21T00:00:00Z', '2026-07-22T00:00:00Z', { confirmed: false }),
+      record('untrusted-future', 'Untrusted Future', '2026-07-23T00:00:00Z', '2026-07-24T00:00:00Z', { source: { ...source, url: 'https://evil.genshin-impact.fandom.com/wiki/Wish' } }),
+      record('incomplete-future', 'Incomplete Future', '2026-07-25T00:00:00Z', null),
+      record('stale', 'Stale Future', '2026-07-14T00:00:00Z', '2026-07-15T00:00:00Z'),
+    ] }));
+    const raw = { games: [{
+      id: 'gi',
+      current: phase('2026-07-16T00:00:00Z', '2026-07-18T00:00:00Z', [{ name: 'Alpha' }]),
+      next: phase('2026-07-19T00:00:00Z', '2026-07-20T00:00:00Z', [{ name: 'Raw Game8 Future' }]),
+      upcoming: [phase('2026-07-21T00:00:00Z', '2026-07-22T00:00:00Z', [{ name: 'Unconfirmed Future' }])],
+    }] };
+
+    const normalized = applySourcedBannerWindows(raw, db, NOW);
+    assert.equal(normalized.games[0].current.characters[0].name, 'Alpha');
+    assert.deepEqual(normalized.games[0]._displayUpcoming.map((entry) => ({
+      start: entry.start,
+      end: entry.end,
+      names: entry.characters.map((character) => character.name),
+    })), [{
+      start: '2026-07-19T00:00:00.000Z',
+      end: '2026-07-20T00:00:00.000Z',
+      names: ['Trusted Future'],
+    }]);
+    const unprocessed = buildManifest({ banners: raw, events, rosters, now: NOW, generatedAt: '2026-07-17T00:00:00.000Z' });
+    assert.deepEqual(unprocessed.games.gi.upcoming, [], 'raw provider future rows must never publish without trusted preprocessing');
+  } finally {
+    fs.rmSync(db, { recursive: true, force: true });
+  }
+});
+
+test('a matching sourced phase label replaces an unhelpful history version', () => {
+  const db = fs.mkdtempSync(path.join(ROOT, 'Site', 'banner-history-display-phase-test-'));
+  try {
+    fs.mkdirSync(path.join(db, 'BannerHistory'));
+    fs.writeFileSync(path.join(db, 'BannerHistory', 'ae.json'), JSON.stringify({
+      schemaVersion: 1,
+      game: 'ae',
+      records: [{
+        id: 'ae:character:Character Event:arcane',
+        game: 'ae',
+        bannerType: 'character',
+        category: 'Character Event',
+        version: '2026',
+        permanent: false,
+        confirmed: true,
+        windowsByRegion: { global: { start: '2026-07-16T00:00:00Z', end: '2026-07-18T00:00:00Z' } },
+        featured: [{ name: 'Arcane', rarity: 6, primary: true }],
+        source: { url: 'https://endfield.wiki.gg/wiki/Headhunting', kind: 'maintained-wiki', revision: 1 },
+      }],
+    }));
+    const raw = { games: [{
+      id: 'ae',
+      current: { phase: '1.4 Phase 1', end: '2026-07-18T00:00:00Z', characters: [{ name: 'Arcane' }] },
+    }] };
+
+    const normalized = applySourcedBannerWindows(raw, db, NOW);
+
+    assert.equal(normalized.games[0].current.phase, '1.4 Phase 1');
   } finally {
     fs.rmSync(db, { recursive: true, force: true });
   }
@@ -302,4 +572,78 @@ test('selection prioritizes a newer debut even when limited metadata is missing'
   const manifest = buildManifest({ banners, events, rosters: customRosters, now: NOW, generatedAt: '2026-07-17T00:00:00.000Z' });
   assert.equal(manifest.games.gi.current.selectedCharacter.name, 'Newer');
   assert.equal(manifest.games.gi.current.selectionReason, 'newer-debut');
+});
+
+test('production snapshot selects the newest splash art and exposes future patch banners', () => {
+  const productionNow = Date.parse('2026-07-17T12:00:00.000Z');
+  const manifest = buildManifest({
+    ...loadManifestInputs({ now: productionNow }),
+    now: productionNow,
+    generatedAt: '2026-07-17T12:00:00.000Z',
+  });
+  assert.equal(manifest.games.gi.current.selectedCharacter.name, 'Sandrone');
+  assert.equal(manifest.games.hsr.current.selectedCharacter.name, 'Himeko • Nova');
+  assert.equal(manifest.games.zzz.current.selectedCharacter.name, 'Norma Hollowell');
+  assert.equal(manifest.games.wuwa.current.selectedCharacter.name, 'Yangyang: Xuanling');
+  assert.equal(manifest.games.ae.current.selectedCharacter.name, 'Arcane');
+  assert.ok(manifest.games.hsr.current.selectedCharacter.variants.every((variant) => variant.source === 'splash'));
+  assert.ok(manifest.games.zzz.current.selectedCharacter.variants.every((variant) => variant.source === 'splash'));
+  assert.ok(manifest.games.wuwa.current.selectedCharacter.variants.every((variant) => variant.source === 'splash'));
+  for (const game of ['gi', 'hsr', 'zzz', 'wuwa', 'ae']) {
+    assert.ok(manifest.games[game].current.characters.every((character) => character.icon?.source === 'character-icon'));
+  }
+  assert.ok(manifest.games.gi.upcoming.some((phase) => phase.characters.some((character) => character.name === 'Columbina')));
+  assert.deepEqual(manifest.games.zzz.upcoming, []);
+  assert.deepEqual(manifest.games.wuwa.upcoming, []);
+  assert.deepEqual(manifest.games.ae.upcoming, []);
+});
+
+test('production source rolls Genshin from Sandrone to Columbina at the trusted boundary', () => {
+  const afterRollover = Date.parse('2026-07-21T19:00:00.000Z');
+  const manifest = buildManifest({
+    ...loadManifestInputs({ now: afterRollover }),
+    now: afterRollover,
+    generatedAt: '2026-07-21T19:00:00.000Z',
+  });
+  assert.equal(manifest.games.gi.current.selectedCharacter.name, 'Columbina');
+  assert.ok(manifest.games.gi.current.characters.every((character) => character.name !== 'Sandrone'));
+  assert.deepEqual(manifest.games.gi.upcoming, []);
+});
+
+test('WuWa banner icon sources stay tied to exact character identity', () => {
+  const productionNow = Date.parse('2026-07-17T12:00:00.000Z');
+  const manifest = buildManifest({
+    ...loadManifestInputs({ now: productionNow }),
+    now: productionNow,
+    generatedAt: '2026-07-17T12:00:00.000Z',
+  });
+  const current = Object.fromEntries(manifest.games.wuwa.current.characters.map((character) => [character.name, character]));
+
+  assert.equal(current['Yangyang: Xuanling'].id, '1610');
+  assert.match(current['Yangyang: Xuanling'].icon.path, /T_IconRoleHead256_70_UI\.webp$/);
+  assert.equal(current['Yangyang: Xuanling'].icon.sourceUrl, undefined);
+  assert.deepEqual(manifest.games.wuwa.upcoming, []);
+});
+
+test('WuWa icon identity beats a Yangyang name-prefix collision', () => {
+  const banners = {
+    games: [{
+      id: 'wuwa',
+      current: phase('2026-07-16T00:00:00.000Z', '2026-07-18T00:00:00.000Z', [{
+        name: 'Yangyang Variant',
+        image: 'https://static.nanoka.cc/assets/ww/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_70_UI.webp',
+      }]),
+    }],
+  };
+  const customRosters = {
+    ...rosters,
+    wuwa: [
+      { id: '1402', name: 'Yangyang', assets: { icon: 'GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_1_UI.webp' } },
+      { id: '1610', name: 'Yangyang: Xuanling', assets: { icon: 'GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_70_UI.webp' } },
+    ],
+  };
+  const manifest = buildManifest({ banners, events, rosters: customRosters, now: NOW, generatedAt: '2026-07-17T00:00:00.000Z' });
+  assert.equal(manifest.games.wuwa.current.selectedCharacter.id, '1610');
+  assert.equal(manifest.games.wuwa.current.selectedCharacter.icon.path.endsWith('T_IconRoleHead256_70_UI.webp'), true);
+  assert.equal(manifest.games.wuwa.current.selectedCharacter.icon.sourceUrl, undefined);
 });

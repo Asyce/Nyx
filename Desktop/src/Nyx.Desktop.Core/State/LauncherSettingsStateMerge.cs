@@ -18,7 +18,6 @@ public sealed record LauncherSettingsEdit
     public required bool RefreshContentOnStartup { get; init; }
     public required bool SafeNotifications { get; init; }
     public required bool AutomaticArt { get; init; }
-    public required bool OfficialNews { get; init; }
     public required bool RemoteBannerManifest { get; init; }
 }
 
@@ -80,10 +79,6 @@ public static class LauncherSettingsStateMerge
                         latest.Preferences.FeatureFlags.AutomaticArt,
                         opened.Preferences.FeatureFlags.AutomaticArt,
                         edit.AutomaticArt),
-                    OfficialNews = MergeValue(
-                        latest.Preferences.FeatureFlags.OfficialNews,
-                        opened.Preferences.FeatureFlags.OfficialNews,
-                        edit.OfficialNews),
                     RemoteBannerManifest = MergeValue(
                         latest.Preferences.FeatureFlags.RemoteBannerManifest,
                         opened.Preferences.FeatureFlags.RemoteBannerManifest,
@@ -182,12 +177,37 @@ public static class LauncherSettingsStateMerge
         ArtX = MergeValue(latest.ArtX, opened.ArtX, edited.ArtX),
         ArtY = MergeValue(latest.ArtY, opened.ArtY, edited.ArtY),
         ArtVariant = MergeValue(latest.ArtVariant, opened.ArtVariant, edited.ArtVariant),
+        ArtFit = MergeValue(latest.ArtFit, opened.ArtFit, edited.ArtFit),
         ArtPinned = MergeValue(latest.ArtPinned, opened.ArtPinned, edited.ArtPinned),
         PinnedArtFile = MergeValue(latest.PinnedArtFile, opened.PinnedArtFile, edited.PinnedArtFile),
     };
 
     private static T MergeValue<T>(T latest, T opened, T edited) =>
         EqualityComparer<T>.Default.Equals(opened, edited) ? latest : edited;
+
+    public static LauncherState ResetRailOrder(LauncherState latest)
+    {
+        ArgumentNullException.ThrowIfNull(latest);
+        var officialIds = GameCatalog.All.Select(static game => game.Id);
+        var customIds = latest.CustomGames
+            .OrderBy(static game => game.CreationOrder)
+            .ThenBy(static game => game.Id, StringComparer.Ordinal)
+            .Select(static game => game.Id);
+        var rail = officialIds.Concat(customIds).ToArray();
+        return latest with
+        {
+            RailOrder = Array.AsReadOnly(rail),
+            SelectedGameId = rail.Contains(latest.SelectedGameId, StringComparer.Ordinal)
+                ? latest.SelectedGameId
+                : rail[0],
+        };
+    }
+
+    public static LauncherState ResetLauncherState(LauncherState current, bool confirmed)
+    {
+        ArgumentNullException.ThrowIfNull(current);
+        return confirmed ? LauncherState.Defaults() : current;
+    }
 
     private static IReadOnlyList<string> MergeRailOrder(
         IReadOnlyList<string> opened,

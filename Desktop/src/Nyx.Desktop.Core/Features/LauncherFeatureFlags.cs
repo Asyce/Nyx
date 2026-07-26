@@ -1,4 +1,6 @@
 using System.Collections.ObjectModel;
+using System.Text.Json.Serialization;
+using Nyx.Desktop.Core.Exports;
 
 namespace Nyx.Desktop.Core.Features;
 
@@ -9,7 +11,6 @@ namespace Nyx.Desktop.Core.Features;
 public enum LauncherFeatureFlag
 {
     RemoteBannerManifest,
-    OfficialNews,
     AutomaticArt,
     GiPulls,
     GiAchievements,
@@ -19,6 +20,9 @@ public enum LauncherFeatureFlag
     ZzzAchievements,
     WuWaPulls,
     WuWaAchievements,
+    WuWaAccountStatus,
+    HoyoLabAccountAccess,
+    SkportAccountAccess,
     EndfieldPulls,
     EndfieldAchievements,
 }
@@ -26,7 +30,6 @@ public enum LauncherFeatureFlag
 public sealed record LauncherFeatureFlags
 {
     public bool RemoteBannerManifest { get; init; } = true;
-    public bool OfficialNews { get; init; } = true;
     public bool AutomaticArt { get; init; } = true;
     public bool GiPulls { get; init; } = true;
     public bool GiAchievements { get; init; } = true;
@@ -36,15 +39,23 @@ public sealed record LauncherFeatureFlags
     public bool ZzzAchievements { get; init; }
     public bool WuWaPulls { get; init; }
     public bool WuWaAchievements { get; init; }
+    public bool WuWaAccountStatus { get; init; }
+    public bool HoyoLabAccountAccess { get; init; }
+    public bool SkportAccountAccess { get; init; }
+    public bool HoyoLabAccountCleanupPending { get; init; }
+    public bool SkportAccountCleanupPending { get; init; }
     public bool EndfieldPulls { get; init; }
     public bool EndfieldAchievements { get; init; }
+
+    [JsonIgnore]
+    public bool AchievementHelperReady { get; init; } =
+        PackagedAchievementHelperReadiness.IsCurrentProcessReady();
 
     public static LauncherFeatureFlags Defaults() => new();
 
     public bool IsEnabled(LauncherFeatureFlag flag) => flag switch
     {
         LauncherFeatureFlag.RemoteBannerManifest => RemoteBannerManifest,
-        LauncherFeatureFlag.OfficialNews => OfficialNews,
         LauncherFeatureFlag.AutomaticArt => AutomaticArt,
         LauncherFeatureFlag.GiPulls => GiPulls,
         LauncherFeatureFlag.GiAchievements => GiAchievements,
@@ -54,6 +65,9 @@ public sealed record LauncherFeatureFlags
         LauncherFeatureFlag.ZzzAchievements => ZzzAchievements,
         LauncherFeatureFlag.WuWaPulls => WuWaPulls,
         LauncherFeatureFlag.WuWaAchievements => WuWaAchievements,
+        LauncherFeatureFlag.WuWaAccountStatus => WuWaAccountStatus,
+        LauncherFeatureFlag.HoyoLabAccountAccess => HoyoLabAccountAccess,
+        LauncherFeatureFlag.SkportAccountAccess => SkportAccountAccess,
         LauncherFeatureFlag.EndfieldPulls => EndfieldPulls,
         LauncherFeatureFlag.EndfieldAchievements => EndfieldAchievements,
         _ => false,
@@ -62,7 +76,6 @@ public sealed record LauncherFeatureFlags
     public LauncherFeatureFlags Set(LauncherFeatureFlag flag, bool enabled) => flag switch
     {
         LauncherFeatureFlag.RemoteBannerManifest => this with { RemoteBannerManifest = enabled },
-        LauncherFeatureFlag.OfficialNews => this with { OfficialNews = enabled },
         LauncherFeatureFlag.AutomaticArt => this with { AutomaticArt = enabled },
         LauncherFeatureFlag.GiPulls => this with { GiPulls = enabled },
         LauncherFeatureFlag.GiAchievements => this with { GiAchievements = enabled },
@@ -72,6 +85,9 @@ public sealed record LauncherFeatureFlags
         LauncherFeatureFlag.ZzzAchievements => this with { ZzzAchievements = enabled },
         LauncherFeatureFlag.WuWaPulls => this with { WuWaPulls = enabled },
         LauncherFeatureFlag.WuWaAchievements => this with { WuWaAchievements = enabled },
+        LauncherFeatureFlag.WuWaAccountStatus => this with { WuWaAccountStatus = enabled },
+        LauncherFeatureFlag.HoyoLabAccountAccess => this with { HoyoLabAccountAccess = enabled },
+        LauncherFeatureFlag.SkportAccountAccess => this with { SkportAccountAccess = enabled },
         LauncherFeatureFlag.EndfieldPulls => this with { EndfieldPulls = enabled },
         LauncherFeatureFlag.EndfieldAchievements => this with { EndfieldAchievements = enabled },
         _ => this,

@@ -35,6 +35,15 @@ const BANNER_HISTORY_HOSTS = {
   ae: 'endfield.wiki.gg',
 };
 const BANNER_REGIONS = ['europe', 'asia', 'america', 'global'];
+const REMOTE_WUWA_ICON_HOST = 'static.nanoka.cc';
+export const MAX_REMOTE_LAUNCHER_ART_BYTES = 2 * 1024 * 1024;
+const PREMIUM_CURRENCY = {
+  gi: { name: 'Primogems', aliases: ['primogem', 'primogems'] },
+  hsr: { name: 'Stellar Jade', aliases: ['stellar jade'] },
+  zzz: { name: 'Polychrome', aliases: ['polychrome'] },
+  wuwa: { name: 'Astrite', aliases: ['astrite'] },
+  ae: { name: 'Oroberyl', aliases: ['oroberyl'] },
+};
 
 const readJson = (file) => JSON.parse(fs.readFileSync(file, 'utf8'));
 const exists = (file) => fs.existsSync(file);
@@ -43,9 +52,55 @@ const cleanText = (value, max = 160) => String(value ?? '').replace(/<[^>]*>/g, 
 const sameCharacterName = (left, right) => left === right
   || (left.length >= 4 && right.startsWith(left))
   || (right.length >= 4 && left.startsWith(right));
+const sameBannerCharacter = (game, left, right) => {
+  const normalizedLeft = norm(left);
+  const normalizedRight = norm(right);
+  return game === 'wuwa' ? normalizedLeft === normalizedRight : sameCharacterName(normalizedLeft, normalizedRight);
+};
 
 function canonicalGame(value) {
   return GAME_ALIASES.get(norm(value)) ?? null;
+}
+
+function premiumAmount(game, reward) {
+  const text = String(reward ?? '').replace(/,/g, ' ');
+  for (const alias of PREMIUM_CURRENCY[game]?.aliases ?? []) {
+    const escaped = alias.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    for (const pattern of [
+      new RegExp(`(\\d{1,6})\\s*${escaped}s?\\b`, 'i'),
+      new RegExp(`${escaped}s?\\s*(?:x|×|:)??\\s*(\\d{1,6})\\b`, 'i'),
+    ]) {
+      const match = text.match(pattern);
+      if (match) return Number(match[1]);
+    }
+  }
+  return 0;
+}
+
+function loadPremiumCodes(db = DATABASE) {
+  const file = path.join(db, 'Codes', 'codes.json');
+  if (!exists(file)) return new Map();
+  const source = readJson(file);
+  const result = new Map();
+  for (const group of Array.isArray(source?.games) ? source.games : []) {
+    const game = canonicalGame(group?.slug ?? group?.name ?? group?.icon);
+    if (!game) continue;
+    const codes = (Array.isArray(group?.codes) ? group.codes : [])
+      .filter((entry) => entry?.premium === true && /^[-_A-Za-z0-9]{1,64}$/.test(entry?.code ?? '') && /^\d{4}-\d{2}-\d{2}$/.test(entry?.added ?? ''))
+      .sort((left, right) => String(right.added).localeCompare(String(left.added)) || String(right.firstSeen ?? '').localeCompare(String(left.firstSeen ?? '')) || String(left.code).localeCompare(String(right.code)))
+      .slice(0, 5)
+      .map((entry) => {
+        const amount = premiumAmount(game, entry.rewards ?? entry.reward);
+        return {
+          code: entry.code,
+          added: entry.added,
+          amount,
+          currency: amount > 0 ? PREMIUM_CURRENCY[game].name : '',
+        };
+      });
+    result.set(game, codes);
+  }
+  return result;
 }
 
 function hasTrustedBannerHistoryIdentity(history, record, game) {
@@ -183,9 +238,105 @@ function inspectAsset(relative, source, variantId, placement = 'contain', db = D
   };
 }
 
-function rosterEntry(rosters, game, name) {
+function remoteWuwaIconUrl(value) {
+  if (typeof value !== 'string' || !value) return null;
+  try {
+    const parsed = new URL(value);
+    if (parsed.protocol !== 'https:'
+      || parsed.hostname.toLowerCase() !== REMOTE_WUWA_ICON_HOST
+      || parsed.username
+      || parsed.password
+      || parsed.port
+      || parsed.search
+      || !/^\/assets\/ww\/.+\.(?:webp|png|jpe?g)$/i.test(parsed.pathname)) return null;
+    parsed.hash = '';
+    return parsed.toString();
+  } catch {
+    return null;
+  }
+}
+
+export async function fetchRemoteLauncherArt(sourceUrl, {
+  fetchImpl = globalThis.fetch,
+  maxBytes = MAX_REMOTE_LAUNCHER_ART_BYTES,
+} = {}) {
+  const approvedUrl = remoteWuwaIconUrl(sourceUrl);
+  if (!approvedUrl || approvedUrl !== sourceUrl) throw new Error(`Launcher art source URL is not approved: ${sourceUrl}`);
+  if (!Number.isSafeInteger(maxBytes) || maxBytes <= 0) throw new TypeError('Launcher art byte limit must be a positive safe integer');
+  const response = await fetchImpl(approvedUrl, {
+    headers: { accept: 'image/webp,image/png,image/jpeg' },
+    redirect: 'error',
+    signal: AbortSignal.timeout(20_000),
+  });
+  if (!response?.ok) throw new Error(`Launcher art source request failed (${response?.status ?? 'unknown'}): ${approvedUrl}`);
+  if (response.redirected === true || response.url !== approvedUrl) {
+    throw new Error(`Launcher art source redirected away from its approved URL: ${approvedUrl}`);
+  }
+  const contentType = String(response.headers?.get?.('content-type') ?? '').split(';', 1)[0].trim().toLowerCase();
+  if (!['image/webp', 'image/png', 'image/jpeg'].includes(contentType)) {
+    throw new Error(`Launcher art source returned an unsupported MIME type: ${contentType || '<missing>'}`);
+  }
+  const declaredLength = Number(response.headers?.get?.('content-length'));
+  if (Number.isFinite(declaredLength) && declaredLength > maxBytes) {
+    throw new Error(`Launcher art source exceeds ${maxBytes} bytes: ${approvedUrl}`);
+  }
+  if (!response.body || typeof response.body.getReader !== 'function') {
+    throw new Error(`Launcher art source did not provide a bounded response stream: ${approvedUrl}`);
+  }
+
+  const reader = response.body.getReader();
+  const chunks = [];
+  let total = 0;
+  try {
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      const chunk = Buffer.from(value);
+      total += chunk.length;
+      if (total > maxBytes) {
+        await reader.cancel('launcher art byte limit exceeded');
+        throw new Error(`Launcher art source exceeds ${maxBytes} bytes: ${approvedUrl}`);
+      }
+      chunks.push(chunk);
+    }
+  } finally {
+    reader.releaseLock?.();
+  }
+  if (!total) throw new Error(`Launcher art source is empty: ${approvedUrl}`);
+  return Buffer.concat(chunks, total);
+}
+
+function remoteCharacterIcon(game, raw, variantId) {
+  if (game !== 'wuwa') return null;
+  const sourceUrl = remoteWuwaIconUrl(raw?.image ?? raw?.icon);
+  if (!sourceUrl) return null;
+  return {
+    id: variantId,
+    source: 'character-icon',
+    sourceUrl,
+    placement: { anchor: 'center', fit: 'cover', x: 0.5, y: 0.5 },
+  };
+}
+
+function iconFileKey(value) {
+  const text = String(value ?? '').replace(/\\/g, '/');
+  const file = text.slice(text.lastIndexOf('/') + 1);
+  return file.replace(/\.[^.]+$/, '').toLowerCase();
+}
+
+function rosterEntry(rosters, game, name, sourceIcon = null) {
   const wanted = norm(name);
-  return (rosters[game] ?? []).find((entry) => norm(entry?.name) === wanted || norm(entry?.displayName) === wanted || norm(entry?.id) === wanted) ?? null;
+  const rows = rosters[game] ?? [];
+  if (game === 'wuwa') {
+    const sourceKey = iconFileKey(sourceIcon);
+    const bySource = sourceKey
+      ? rows.find((entry) => iconFileKey(entry?.assets?.icon) === sourceKey)
+      : null;
+    if (bySource) return bySource;
+  }
+  const exact = rows.find((entry) => norm(entry?.name) === wanted || norm(entry?.displayName) === wanted || norm(entry?.id) === wanted);
+  if (exact || game === 'wuwa') return exact ?? null;
+  return rows.find((entry) => sameCharacterName(norm(entry?.name ?? entry?.displayName), wanted)) ?? null;
 }
 
 function parseRarity(value) {
@@ -230,8 +381,9 @@ function loadBannerDebuts(db = DATABASE) {
 
 function sourcedDebut(debuts, name) {
   const wanted = norm(name);
-  return [...(debuts ?? new Map()).entries()]
-    .filter(([candidate]) => sameCharacterName(candidate, wanted))
+  const rows = [...(debuts ?? new Map()).entries()];
+  const exact = rows.filter(([candidate]) => candidate === wanted);
+  return (exact.length ? exact : rows.filter(([candidate]) => sameCharacterName(candidate, wanted)))
     .map(([, start]) => start)
     .sort()[0] ?? null;
 }
@@ -263,31 +415,6 @@ function loadPrydwen(db = DATABASE) {
   };
 }
 
-function allFiles(dir) {
-  if (!exists(dir)) return [];
-  const out = [];
-  for (const item of fs.readdirSync(dir, { withFileTypes: true })) {
-    const full = path.join(dir, item.name);
-    if (item.isDirectory()) out.push(...allFiles(full));
-    else out.push(full);
-  }
-  return out;
-}
-
-function approvedGenshinPortraits(character, db = DATABASE) {
-  const manifestFile = path.join(db, 'LauncherArt', 'gi', 'portraits.json');
-  if (!exists(manifestFile)) return [];
-  try {
-    const manifest = readJson(manifestFile);
-    const wanted = norm(character?.name ?? character?.displayName ?? character?.id);
-    const entry = Object.entries(manifest?.characters ?? {})
-      .find(([name]) => norm(name) === wanted)?.[1];
-    return Array.isArray(entry?.files) ? entry.files : [];
-  } catch {
-    return [];
-  }
-}
-
 function localVariants(game, character, roster, db = DATABASE, prydwen = {}) {
   const assets = character?.assets ?? {};
   const art = character?.art ?? {};
@@ -298,27 +425,17 @@ function localVariants(game, character, roster, db = DATABASE, prydwen = {}) {
     if (item && !variants.some((existing) => existing.sha256 === item.sha256)) variants.push(item);
   };
   if (game === 'gi') {
-    const portraits = [
-      ...approvedGenshinPortraits(character, db),
-      ...(character?.launcherPortraits ?? character?.portraitVariants ?? []),
-    ];
-    for (const candidate of portraits) add(candidate?.path ?? candidate, 'portrait', `portrait-${variants.length}`, { fit: 'contain', x: 0.7, y: 0.5 });
-    if (!variants.length) add(assets.gacha, 'official-default', 'gacha', { fit: 'contain', x: 0.68, y: 0.5 });
+    add(assets.gacha, 'splash', 'splash', { fit: 'cover', x: 0.68, y: 0.5 });
   } else if (game === 'hsr') {
-    for (const candidate of character?.outfitPortraits ?? character?.portraitVariants ?? []) add(candidate?.path ?? candidate, 'outfit', `outfit-${variants.length}`, { fit: 'contain', x: 0.72, y: 0.5 });
-    if (!variants.length) add(assets.drawCard, 'draw-card', 'draw-card', { fit: 'contain', x: 0.72, y: 0.5 });
-    if (!variants.length) {
-      for (const candidate of [art.card, art.full]) add(candidate, 'local-fallback', `fallback-${variants.length}`, 'contain');
-    }
+    add(prydwen?.art?.full ?? prydwen?.art?.card, 'splash', 'splash', { fit: 'contain', x: 0.72, y: 0.5 });
+    if (!variants.length) add(assets.drawCard, 'splash', 'draw-card', { fit: 'contain', x: 0.72, y: 0.5 });
   } else if (game === 'zzz') {
+    add(prydwen?.art?.full ?? prydwen?.art?.card, 'splash', 'splash', { fit: 'contain', x: 0.74, y: 0.52 });
     const icon = assets.icon ?? assets.partnerIcon ?? assets.roleIcon;
-    const match = String(icon ?? '').match(/IconRole(?:Circle)?(\d+)/i);
-    const files = match ? allFiles(path.join(db, 'GameData/zzz/assets')).filter((file) => !file.includes(`${path.sep}items${path.sep}`) && new RegExp(`^IconRole${match[1]}(?:_[^.]*)?\\.(?:webp|png)$`, 'i').test(path.basename(file))) : [];
-    for (const file of files.sort()) add(path.relative(db, file), 'icon-role', `icon-${variants.length}`, { fit: 'contain', x: 0.74, y: 0.52 });
-    if (!variants.length) add(icon, 'local-fallback', 'icon', 'contain');
+    if (!variants.length) add(icon, 'splash-fallback', 'icon', 'contain');
   } else if (game === 'wuwa') {
-    add(assets.portrait, 'activity-role', 'activity', { fit: 'contain', x: 0.72, y: 0.52 });
-    if (!variants.length) add(assets.icon, 'local-fallback', 'icon', 'contain');
+    add(prydwen?.art?.full ?? prydwen?.art?.card, 'splash', 'splash', { fit: 'contain', x: 0.72, y: 0.52 });
+    if (!variants.length) add(assets.portrait, 'splash-fallback', 'activity', { fit: 'contain', x: 0.72, y: 0.52 });
   } else if (game === 'ae') {
     add(art?.splash?.path ?? art?.splash, 'splash', 'splash', { fit: 'contain', x: 0.72, y: 0.5 });
     if (!variants.length) add(art?.banner?.path ?? art?.banner, 'local-fallback', 'banner', 'contain');
@@ -328,6 +445,22 @@ function localVariants(game, character, roster, db = DATABASE, prydwen = {}) {
   // runtime can retain its last-known-good/user-selected art without shipping
   // provider paths or third-party identifiers.
   return variants;
+}
+
+function localCharacterIcon(game, character, db = DATABASE) {
+  const assets = character?.assets ?? {};
+  const art = character?.art ?? {};
+  const id = String(character?.id ?? norm(character?.name));
+  const relative = game === 'gi'
+    ? assets.circle ?? assets.icon
+    : game === 'hsr'
+      ? assets.roundIcon ?? assets.avatar
+      : game === 'zzz'
+        ? assets.partnerIcon ?? assets.icon
+        : game === 'wuwa'
+          ? assets.icon ?? assets.portrait
+          : art?.icon?.path ?? art?.icon ?? art?.portrait?.path ?? art?.portrait;
+  return inspectAsset(relative, 'character-icon', `${id}-icon`, { fit: 'cover', x: 0.5, y: 0.5 }, db);
 }
 
 function normalizePhase(group, phase, index) {
@@ -348,7 +481,12 @@ function normalizePhase(group, phase, index) {
 
 function chooseCurrent(group, nowMs) {
   const freshnessMessage = String(group?.freshness?.message ?? '');
-  if (!group || (group.freshness && group.freshness.status !== 'fresh') || /stale|failed|preserved|uncertain/i.test(freshnessMessage)) return { phase: null, reason: 'stale' };
+  const hasTrustedSourcedWindow = group?.current?._sourcedWindow === true;
+  if (!group
+    || (!hasTrustedSourcedWindow && group.freshness && group.freshness.status !== 'fresh')
+    || (!hasTrustedSourcedWindow && /stale|failed|preserved|uncertain/i.test(freshnessMessage))) {
+    return { phase: null, reason: 'stale' };
+  }
   const phases = [group.current, group.next, ...(group.upcoming ?? [])].map((phase, index) => normalizePhase(group, phase, index));
   const active = phases.filter((phase) => !phase.uncertain && phase.startMs <= nowMs && nowMs < phase.endMs);
   if (!active.length) return { phase: null, reason: 'expired-or-not-started' };
@@ -367,15 +505,18 @@ function stableCharacterId(game, entry, roster) {
 function buildCharacter(game, raw, rosters, prydwen, db, debuts) {
   const name = cleanText(raw?.name ?? raw, 80);
   if (!name) return null;
-  const roster = rosterEntry(rosters, game, name);
-  const provider = roster ? null : rosterEntry(prydwen, game, name);
+  const roster = rosterEntry(rosters, game, name, raw?.image ?? raw?.icon);
+  const provider = rosterEntry({ [game]: prydwen }, game, name);
   const record = roster ?? provider ?? {};
   const rarity = parseRarity(raw?.rarity ?? record.rarity ?? record.facts?.rarity);
   const debut = parseDebut({ ...record, ...raw }) ?? sourcedDebut(debuts?.[game], name);
   const limited = typeof raw?.limited === 'boolean' ? raw.limited : isLimited(record);
-  const variants = localVariants(game, record, roster, db, provider);
+  const variants = localVariants(game, record, roster, db, provider ?? {});
   const id = stableCharacterId(game, raw, record);
-  return { id, name, rarity, limited, debut, variants };
+  // A local file has already passed identity, path, MIME, and dimension checks.
+  // Use the reviewed remote host only when that exact local asset is absent.
+  const icon = localCharacterIcon(game, record, db) ?? remoteCharacterIcon(game, raw, `${id}-icon`);
+  return { id, name, rarity, limited, debut, icon, variants };
 }
 
 function selectCharacter(characters) {
@@ -388,6 +529,11 @@ function selectCharacter(characters) {
     if (a.limited === true && b.limited !== true) return -1;
     if (b.limited === true && a.limited !== true) return 1;
     if (a.debut && b.debut && a.debut !== b.debut) return b.debut.localeCompare(a.debut);
+    if (a.debut && !b.debut) return 1;
+    if (!a.debut && b.debut) return -1;
+    const aNumeric = Number.parseInt(a.id, 10);
+    const bNumeric = Number.parseInt(b.id, 10);
+    if (Number.isFinite(aNumeric) && Number.isFinite(bNumeric) && aNumeric !== bNumeric) return bNumeric - aNumeric;
     return a.id.localeCompare(b.id);
   });
   const selected = sorted[0].character;
@@ -411,16 +557,17 @@ export function applySourcedBannerWindows(banners, db = DATABASE, nowMs = Date.n
   for (const group of copy.games ?? []) {
     const game = canonicalGame(group?.id ?? group?.slug ?? group?.name);
     if (!game) continue;
-    const historyFile = path.join(db, 'BannerHistory', `${game}.json`);
-    if (!fs.existsSync(historyFile)) continue;
-    const history = JSON.parse(fs.readFileSync(historyFile, 'utf8'));
     const corroboratingGroup = structuredClone(group);
-    // A present history file is the only authority for launcher current-state
-    // decisions. Invalid identity/provenance must not fall back to raw banner
-    // timestamps from another provider.
+    group._displayUpcoming = [];
     group.current = null;
     group.next = null;
     group.upcoming = [];
+    const historyFile = path.join(db, 'BannerHistory', `${game}.json`);
+    if (!fs.existsSync(historyFile)) continue;
+    const history = JSON.parse(fs.readFileSync(historyFile, 'utf8'));
+    // A present history file is the only authority for launcher current-state
+    // decisions. Invalid identity/provenance must not fall back to raw banner
+    // timestamps from another provider.
     const trusted = (history.records ?? []).filter((record) => hasTrustedBannerHistoryIdentity(history, record, game));
     let region = null;
     let active = [];
@@ -451,14 +598,38 @@ export function applySourcedBannerWindows(banners, db = DATABASE, nowMs = Date.n
     const start = new Date(Math.max(...active.map((entry) => timestamp(entry.start)))).toISOString();
     const end = new Date(Math.min(...active.map((entry) => timestamp(entry.end)))).toISOString();
     if (timestamp(end) <= timestamp(start) || !(timestamp(start) <= nowMs && nowMs < timestamp(end))) continue;
+    const sourceImages = new Map();
+    for (const phase of [corroboratingGroup.current, corroboratingGroup.next, ...(corroboratingGroup.upcoming ?? [])]) {
+      for (const entry of phase?.characters ?? []) {
+        const name = norm(entry?.name ?? entry);
+        const image = remoteWuwaIconUrl(entry?.image ?? entry?.icon);
+        if (name && image && !sourceImages.has(name)) sourceImages.set(name, image);
+      }
+    }
     const characters = [];
     for (const channel of active.sort((left, right) => left.recordId.localeCompare(right.recordId))) {
       for (const character of channel.characters) {
-        if (!characters.some((entry) => sameCharacterName(norm(entry.name), norm(character.name)))) characters.push(character);
+        if (!characters.some((entry) => sameBannerCharacter(game, entry.name, character.name))) {
+          const image = sourceImages.get(norm(character.name));
+          characters.push(image ? { ...character, image } : character);
+        }
       }
     }
+    const activeNames = characters.map((entry) => norm(entry.name));
+    const labelledRawPhase = [corroboratingGroup.current, corroboratingGroup.next, ...(corroboratingGroup.upcoming ?? [])]
+      .filter((phase) => typeof phase?.phase === 'string' && /\bphase\b/i.test(phase.phase))
+      .filter((phase) => {
+        const names = (phase.characters ?? []).map((entry) => norm(entry?.name ?? entry));
+        return names.some((name) => activeNames.some((activeName) => sameBannerCharacter(game, name, activeName)));
+      })
+      .sort((left, right) => {
+        const leftEnd = timestamp(iso(left?.end));
+        const rightEnd = timestamp(iso(right?.end));
+        const activeEnd = timestamp(end);
+        return Math.abs((leftEnd ?? 0) - activeEnd) - Math.abs((rightEnd ?? 0) - activeEnd);
+      })[0];
     group.current = {
-      phase: [...versions][0],
+      phase: cleanText(labelledRawPhase?.phase, 48) || [...versions][0],
       start,
       end,
       characters,
@@ -466,9 +637,45 @@ export function applySourcedBannerWindows(banners, db = DATABASE, nowMs = Date.n
       _sourceRegion: region,
       _sourceChannels: active.map((entry) => ({ recordId: entry.recordId, category: entry.category })),
     };
-    // Raw next/upcoming timestamps are not trusted for current-state decisions.
-    // Only independently identified, complete history records above can enter
-    // the current composite.
+    const futureWindows = new Map();
+    for (const record of trusted) {
+      if (record?.confirmed !== true || record?.bannerType !== 'character' || record?.permanent === true || !record?.category) continue;
+      const window = record.windowsByRegion?.[region];
+      const futureStart = iso(window?.start);
+      const futureEnd = iso(window?.end);
+      if (!(timestamp(futureStart) > nowMs) || !(timestamp(futureEnd) > timestamp(futureStart))) continue;
+      const key = `${futureStart}\u0000${futureEnd}`;
+      if (!futureWindows.has(key)) futureWindows.set(key, []);
+      futureWindows.get(key).push(record);
+    }
+    group._displayUpcoming = [...futureWindows.entries()].flatMap(([key, records]) => {
+      const [futureStart, futureEnd] = key.split('\u0000');
+      const futureVersions = new Set(records.map((record) => cleanText(record.version, 48)).filter(Boolean));
+      if (records.some((record) => !cleanText(record.version, 48)) || futureVersions.size !== 1) return [];
+      const futureCharacters = [];
+      for (const record of records.sort((left, right) => left.id.localeCompare(right.id))) {
+        for (const featured of record.featured ?? []) {
+          const futureName = cleanText(featured?.name, 80);
+          if (featured?.primary !== true || !futureName || futureCharacters.some((entry) => sameBannerCharacter(game, entry.name, futureName))) continue;
+          const image = sourceImages.get(norm(futureName));
+          const character = { name: futureName, rarity: parseRarity(featured.rarity), limited: true };
+          futureCharacters.push(image ? { ...character, image } : character);
+        }
+      }
+      if (!futureCharacters.length) return [];
+      return [{
+        phase: [...futureVersions][0],
+        start: futureStart,
+        end: futureEnd,
+        characters: futureCharacters,
+        _sourcedWindow: true,
+        _sourceRegion: region,
+        _sourceChannels: records.map((record) => ({ recordId: record.id, category: record.category })),
+      }];
+    }).sort((left, right) => left.start.localeCompare(right.start));
+    // Raw next/upcoming timestamps never enter the launcher feed. Complete,
+    // confirmed records with the same trusted history identity as current data
+    // are the only future-banner authority.
   }
   return copy;
 }
@@ -481,13 +688,36 @@ function buildNews(game, events) {
   }).filter((event) => event?.id && event.title).sort((a, b) => (b.start ?? '').localeCompare(a.start ?? '') || a.id.localeCompare(b.id)).slice(0, 8);
 }
 
+function buildUpcomingPhases(game, group, rosters, prydwen, db, debuts, nowMs) {
+  const raw = Array.isArray(group?._displayUpcoming)
+    ? group._displayUpcoming
+    : [];
+  return raw
+    .map((phase, index) => normalizePhase(group, phase, index))
+    .filter((phase) => !phase.uncertain && phase.startMs > nowMs)
+    .sort((left, right) => left.startMs - right.startMs)
+    .slice(0, 5)
+    .map((phase) => ({
+      phase: phase.phase,
+      start: phase.start,
+      end: phase.end,
+      characters: phase.characters
+        .map((entry) => buildCharacter(game, entry, rosters ?? {}, prydwen[game] ?? [], db, debuts))
+        .filter(Boolean)
+        .map((character) => ({ ...character, variants: [] })),
+    }))
+    // Upcoming art is optional. Omit an incomplete phase instead of shipping
+    // a broken remote reference or failing the known-good current feed.
+    .filter((phase) => phase.characters.length > 0 && phase.characters.every((character) => character.icon));
+}
+
 function stableStringify(value) {
   if (Array.isArray(value)) return `[${value.map(stableStringify).join(',')}]`;
   if (value && typeof value === 'object') return `{${Object.keys(value).sort().map((key) => `${JSON.stringify(key)}:${stableStringify(value[key])}`).join(',')}}`;
   return JSON.stringify(value);
 }
 
-function manifestRevision(manifest) {
+export function manifestRevision(manifest) {
   const games = structuredClone(manifest.games ?? {});
   for (const game of Object.values(games)) {
     if (game?.current?.remaining) delete game.current.remaining.durationSeconds;
@@ -496,8 +726,37 @@ function manifestRevision(manifest) {
   return crypto.createHash('sha256').update(stableStringify(payload)).digest('hex');
 }
 
+export function reconcileLauncherCodes(manifest, codesFeed) {
+  if (manifest?.schemaVersion !== 1 || codesFeed?.schemaVersion !== 1) {
+    throw new Error('Launcher manifests must use schemaVersion 1');
+  }
+  const manifestGames = Object.keys(manifest?.games ?? {});
+  const codeGames = Object.keys(codesFeed?.games ?? {});
+  if (manifestGames.length !== GAMES.length || codeGames.length !== GAMES.length
+    || GAMES.some((game) => !manifestGames.includes(game) || !codeGames.includes(game))) {
+    throw new Error('Launcher manifests must contain exactly the five canonical games');
+  }
+
+  const reconciled = structuredClone(manifest);
+  for (const game of GAMES) {
+    const codes = codesFeed.games[game];
+    if (!Array.isArray(codes) || codes.length > 5) throw new Error(`${game} launcher codes must be an array of at most five entries`);
+    for (const entry of codes) {
+      if (!entry || !/^[-_A-Za-z0-9]{1,64}$/.test(entry.code ?? '')
+        || !/^\d{4}-\d{2}-\d{2}$/.test(entry.added ?? '')
+        || !Number.isSafeInteger(entry.amount) || entry.amount < 0
+        || typeof entry.currency !== 'string') {
+        throw new Error(`${game} launcher code entry is invalid`);
+      }
+    }
+    reconciled.games[game].codes = codes.map(({ code, added, amount, currency }) => ({ code, added, amount, currency }));
+  }
+  reconciled.revision = manifestRevision(reconciled);
+  return reconciled;
+}
+
 /**
- * Copy only the current-phase assets referenced by a manifest into the small,
+ * Copy current-phase art and the small upcoming character icons referenced by a manifest into the small,
  * packageable launcher-art directory. Files are content-addressed so the
  * shipped manifest never needs to expose a provider/database path.
  */
@@ -505,65 +764,99 @@ export async function mirrorLauncherArt(manifest, {
   outputDir = LAUNCHER_ART,
   sourceRoot = ROOT,
   publicBaseUrl = 'https://pengo.gg/dist/launcher-art',
+  requireDeployable = false,
 } = {}) {
   if (!manifest || typeof manifest !== 'object') throw new TypeError('A launcher manifest is required.');
   const root = path.resolve(sourceRoot);
   const destination = path.resolve(outputDir);
-  fs.rmSync(destination, { recursive: true, force: true });
-  fs.mkdirSync(destination, { recursive: true });
+  const nonce = `${process.pid}-${crypto.randomBytes(6).toString('hex')}`;
+  const staging = `${destination}.tmp-${nonce}`;
+  const backup = `${destination}.bak-${nonce}`;
+  const working = structuredClone(manifest);
+  fs.mkdirSync(staging, { recursive: true });
   const processed = new Map();
   const seenAssets = new Set();
-  for (const game of Object.values(manifest.games ?? {})) {
-    const current = game?.current;
-    if (!current) continue;
-    const assets = [
-      ...(current.variants ?? []),
-      ...(current.characters ?? []).flatMap((character) => character.variants ?? []),
-    ];
-    for (const asset of assets) {
-      if (!asset || seenAssets.has(asset)) continue;
-      seenAssets.add(asset);
-      if (typeof asset.path !== 'string' || !asset.path.startsWith('/Database/')) {
-        throw new Error(`Launcher art source is not a local Database path: ${asset?.path ?? '<missing>'}`);
+  try {
+    for (const game of Object.values(working.games ?? {})) {
+      const current = game?.current;
+      const assets = [
+        ...(current?.variants ?? []),
+        ...(current?.characters ?? []).map((character) => character.icon).filter(Boolean),
+        ...(current?.characters ?? []).flatMap((character) => character.variants ?? []),
+        ...(game?.upcoming ?? []).flatMap((phase) => phase.characters ?? []).map((character) => character.icon).filter(Boolean),
+      ];
+      for (const asset of assets) {
+        if (!asset || seenAssets.has(asset)) continue;
+        seenAssets.add(asset);
+        let source = null;
+        let bytes;
+        if (typeof asset.sourceUrl === 'string') {
+          const sourceUrl = remoteWuwaIconUrl(asset.sourceUrl);
+          if (!sourceUrl) throw new Error(`Launcher art source URL is not an approved WuWa icon: ${asset.sourceUrl}`);
+          bytes = await fetchRemoteLauncherArt(sourceUrl);
+          source = sourceUrl;
+        } else {
+          if (typeof asset.path !== 'string' || !asset.path.startsWith('/Database/')) {
+            throw new Error(`Launcher art source is not a local Database path: ${asset?.path ?? '<missing>'}`);
+          }
+          const relative = asset.path.slice(1).replace(/\//g, path.sep);
+          source = path.resolve(root, relative);
+          if (!source.startsWith(`${root}${path.sep}`) || !exists(source) || !fs.statSync(source).isFile()) {
+            throw new Error(`Launcher art source is missing: ${asset.path}`);
+          }
+          bytes = fs.readFileSync(source);
+          const actual = crypto.createHash('sha256').update(bytes).digest('hex');
+          if (actual !== asset.sha256 || bytes.length !== asset.size) throw new Error(`Launcher art source metadata mismatch: ${asset.path}`);
+        }
+        let output = processed.get(source);
+        if (!output) {
+          const converted = await sharp(bytes, { animated: false, failOn: 'error', limitInputPixels: 4096 * 4096 })
+            .rotate()
+            .trim({ background: { r: 0, g: 0, b: 0, alpha: 0 }, threshold: 2 })
+            .resize({ width: 2048, height: 2048, fit: 'inside', withoutEnlargement: true })
+            .webp({ quality: 92, alphaQuality: 100, effort: 5, smartSubsample: true })
+            .toBuffer({ resolveWithObject: true });
+          if (!converted.info.width || !converted.info.height || converted.data.length <= 0) throw new Error(`Launcher art conversion failed: ${asset.sourceUrl ?? asset.path}`);
+          const hash = crypto.createHash('sha256').update(converted.data).digest('hex');
+          const filename = `${hash}.webp`;
+          fs.writeFileSync(path.join(staging, filename), converted.data);
+          output = { filename, hash, size: converted.data.length, width: converted.info.width, height: converted.info.height };
+          processed.set(source, output);
+        }
+        asset.mime = 'image/webp';
+        asset.size = output.size;
+        asset.dimensions = { width: output.width, height: output.height };
+        asset.sha256 = output.hash;
+        asset.transparentBounds = { left: 0, top: 0, right: output.width, bottom: output.height };
+        const filename = output.filename;
+        asset.path = `/launcher-art/${filename}`;
+        asset.url = `${publicBaseUrl}/${filename}`;
+        delete asset.sourceUrl;
       }
-      const relative = asset.path.slice(1).replace(/\//g, path.sep);
-      const source = path.resolve(root, relative);
-      if (!source.startsWith(`${root}${path.sep}`) || !exists(source) || !fs.statSync(source).isFile()) {
-        throw new Error(`Launcher art source is missing: ${asset.path}`);
-      }
-      const bytes = fs.readFileSync(source);
-      const actual = crypto.createHash('sha256').update(bytes).digest('hex');
-      if (actual !== asset.sha256 || bytes.length !== asset.size) throw new Error(`Launcher art source metadata mismatch: ${asset.path}`);
-      let output = processed.get(source);
-      if (!output) {
-        const converted = await sharp(bytes, { animated: false, failOn: 'error', limitInputPixels: 4096 * 4096 })
-          .rotate()
-          .trim({ background: { r: 0, g: 0, b: 0, alpha: 0 }, threshold: 2 })
-          .resize({ width: 2048, height: 2048, fit: 'inside', withoutEnlargement: true })
-          .webp({ quality: 92, alphaQuality: 100, effort: 5, smartSubsample: true })
-          .toBuffer({ resolveWithObject: true });
-        if (!converted.info.width || !converted.info.height || converted.data.length <= 0) throw new Error(`Launcher art conversion failed: ${asset.path}`);
-        const hash = crypto.createHash('sha256').update(converted.data).digest('hex');
-        const filename = `${hash}.webp`;
-        fs.writeFileSync(path.join(destination, filename), converted.data);
-        output = { filename, hash, size: converted.data.length, width: converted.info.width, height: converted.info.height };
-        processed.set(source, output);
-      }
-      asset.mime = 'image/webp';
-      asset.size = output.size;
-      asset.dimensions = { width: output.width, height: output.height };
-      asset.sha256 = output.hash;
-      asset.transparentBounds = { left: 0, top: 0, right: output.width, bottom: output.height };
-      const filename = output.filename;
-      asset.path = `/launcher-art/${filename}`;
-      asset.url = `${publicBaseUrl}/${filename}`;
     }
+    working.revision = manifestRevision(working);
+    if (requireDeployable) validatePackagedManifest(working, { now: Date.parse(working.generatedAt) });
+    const hadDestination = exists(destination);
+    if (hadDestination) fs.renameSync(destination, backup);
+    try {
+      fs.renameSync(staging, destination);
+    } catch (error) {
+      if (hadDestination && exists(backup) && !exists(destination)) fs.renameSync(backup, destination);
+      throw error;
+    }
+    if (hadDestination) fs.rmSync(backup, { recursive: true, force: true });
+    for (const key of Object.keys(manifest)) delete manifest[key];
+    Object.assign(manifest, working);
+    const unique = new Map([...processed.values()].map((item) => [item.hash, item]));
+    return { manifest, outputDir: destination, count: unique.size, bytes: [...unique.values()].reduce((total, item) => total + item.size, 0) };
+  } catch (error) {
+    fs.rmSync(staging, { recursive: true, force: true });
+    if (exists(backup) && !exists(destination)) fs.renameSync(backup, destination);
+    throw error;
   }
-  manifest.revision = manifestRevision(manifest);
-  return { manifest, outputDir: destination, count: processed.size, bytes: [...processed.values()].reduce((total, item) => total + item.size, 0) };
 }
 
-export function buildManifest({ banners, events, rosters, prydwen = {}, debuts = {}, now = Date.now(), generatedAt = new Date(now).toISOString(), db = DATABASE } = {}) {
+export function buildManifest({ banners, events, rosters, prydwen = {}, debuts = {}, db = DATABASE, codes = loadPremiumCodes(db), now = Date.now(), generatedAt = new Date(now).toISOString() } = {}) {
   const source = banners ?? { games: [] };
   const groups = new Map();
   for (const group of Array.isArray(source.games) ? source.games : []) {
@@ -577,6 +870,7 @@ export function buildManifest({ banners, events, rosters, prydwen = {}, debuts =
     const current = chooseCurrent(group, now);
     const chars = current.phase ? (current.phase.characters.map((entry) => buildCharacter(game, entry, rosters ?? {}, prydwen[game] ?? [], db, debuts)).filter(Boolean)) : [];
     const selected = current.phase ? selectCharacter(chars) : { selected: null, reason: current.reason ?? 'no-current-phase' };
+    const upcoming = buildUpcomingPhases(game, group, rosters, prydwen, db, debuts, now);
     const news = buildNews(game, events?.[game]);
     const healthStatus = group && current.phase && news.length ? 'ok' : group ? 'degraded' : 'missing';
     gameHealth[game] = { status: healthStatus, reason: current.reason ?? null, newsCount: news.length };
@@ -594,7 +888,9 @@ export function buildManifest({ banners, events, rosters, prydwen = {}, debuts =
         selectionReason: selected.reason,
         variants: chars.flatMap((character) => character.variants),
       } : null,
+      upcoming,
       news,
+      codes: codes.get(game) ?? [],
     };
   }
   // Revision is content-addressed and deliberately excludes the clock. A
@@ -607,7 +903,69 @@ export function buildManifest({ banners, events, rosters, prydwen = {}, debuts =
 }
 
 export function loadManifestInputs({ db = DATABASE, bannersFile = path.join(db, 'Banners', 'banners.json'), events = loadEvents(db), rosters = loadRosters(db), prydwen = loadPrydwen(db), debuts = loadBannerDebuts(db), now = Date.now() } = {}) {
-  return { banners: applySourcedBannerWindows(readJson(bannersFile), db, now), events, rosters, prydwen, debuts, db };
+  return { banners: applySourcedBannerWindows(readJson(bannersFile), db, now), events, rosters, prydwen, debuts, codes: loadPremiumCodes(db), db };
+}
+
+export function validatePackagedManifest(manifest, { now = Date.now(), maxAgeMs = 15 * 60_000 } = {}) {
+  const errors = [];
+  const gameKeys = Object.keys(manifest?.games ?? {});
+  if (manifest?.schemaVersion !== 1) errors.push('schemaVersion must be 1');
+  if (!/^[a-f0-9]{64}$/.test(manifest?.revision ?? '')) errors.push('revision must be a SHA-256 hash');
+  const generatedAt = Date.parse(manifest?.generatedAt ?? '');
+  if (!Number.isFinite(generatedAt) || generatedAt > now + 60_000 || now - generatedAt > maxAgeMs) errors.push('generatedAt is missing or stale');
+  if (gameKeys.length !== GAMES.length || GAMES.some((game) => !gameKeys.includes(game))) errors.push('exactly five canonical games are required');
+  if (manifest?.health?.status !== 'ok') errors.push(`manifest health is ${manifest?.health?.status ?? 'missing'}`);
+
+  const assets = [];
+  for (const game of GAMES) {
+    const entry = manifest?.games?.[game];
+    if (entry?.game !== game || manifest?.health?.games?.[game]?.status !== 'ok') errors.push(`${game} identity or health is invalid`);
+    if (!entry?.current?.selectedCharacter?.name) errors.push(`${game} has no current selection`);
+    if (!(entry?.current?.selectedCharacter?.variants?.length > 0)) errors.push(`${game} current selection has no splash art`);
+    const currentStart = Date.parse(entry?.current?.start ?? '');
+    const currentEnd = Date.parse(entry?.current?.end ?? '');
+    const expectedDuration = Number.isFinite(currentEnd) && Number.isFinite(generatedAt)
+      ? Math.max(0, Math.floor((currentEnd - generatedAt) / 1000))
+      : NaN;
+    if (!Number.isFinite(currentStart) || !Number.isFinite(currentEnd) || currentStart > generatedAt || currentEnd <= generatedAt) {
+      errors.push(`${game} current window is invalid at generation time`);
+    } else if (now < currentStart || now >= currentEnd) {
+      errors.push(`${game} current window is not active at deployment time`);
+    }
+    if (entry?.current?.remaining?.startsAt !== entry?.current?.start
+      || entry?.current?.remaining?.endsAt !== entry?.current?.end
+      || entry?.current?.remaining?.durationSeconds !== expectedDuration) {
+      errors.push(`${game} current countdown does not match the committed snapshot`);
+    }
+    for (const character of entry?.current?.characters ?? []) {
+      if (!character?.icon) errors.push(`${game} current character ${character?.name ?? '<unknown>'} has no icon`);
+    }
+    for (const phase of entry?.upcoming ?? []) {
+      for (const character of phase?.characters ?? []) {
+        if (!character?.icon) errors.push(`${game} upcoming character ${character?.name ?? '<unknown>'} has no icon`);
+      }
+    }
+    assets.push(
+      ...(entry?.current?.variants ?? []),
+      ...(entry?.current?.characters ?? []).map((character) => character.icon).filter(Boolean),
+      ...(entry?.current?.characters ?? []).flatMap((character) => character.variants ?? []),
+      ...(entry?.upcoming ?? []).flatMap((phase) => phase.characters ?? []).map((character) => character.icon).filter(Boolean),
+    );
+  }
+  for (const asset of assets) {
+    const match = String(asset?.path ?? '').match(/^\/launcher-art\/([a-f0-9]{64})\.webp$/);
+    if (!match || match[1] !== asset?.sha256) errors.push(`asset path/hash is invalid: ${asset?.path ?? '<missing>'}`);
+    if (asset?.url !== `https://pengo.gg/dist${asset?.path ?? ''}`) errors.push(`asset URL is invalid: ${asset?.url ?? '<missing>'}`);
+    if (asset?.mime !== 'image/webp' || !Number.isSafeInteger(asset?.size) || asset.size <= 0) errors.push(`asset metadata is invalid: ${asset?.path ?? '<missing>'}`);
+    if (!Number.isSafeInteger(asset?.dimensions?.width) || asset.dimensions.width <= 0
+      || !Number.isSafeInteger(asset?.dimensions?.height) || asset.dimensions.height <= 0) errors.push(`asset dimensions are invalid: ${asset?.path ?? '<missing>'}`);
+  }
+  const serialized = JSON.stringify(manifest);
+  if (/nanoka|drive\.google|google drive|sourceUrl|(?:^|[\"/])Database(?:[\/\"]|$)|[a-z]:\\\\|[\\/]Users[\\/]|token/i.test(serialized)) {
+    errors.push('manifest contains internal provenance or secret-like metadata');
+  }
+  if (errors.length) throw new Error(`Launcher manifest is not deployable:\n- ${errors.join('\n- ')}`);
+  return { assets: assets.length, uniqueAssets: new Set(assets.map((asset) => asset.sha256)).size };
 }
 
 async function cli() {
@@ -621,7 +979,8 @@ async function cli() {
   const manifest = buildManifest({ ...loadManifestInputs({ now: at }), now: at, generatedAt });
   const artArg = process.argv.find((arg) => arg.startsWith('--art-output='));
   const artOutput = artArg ? path.resolve(artArg.slice(13)) : LAUNCHER_ART;
-  const mirrored = await mirrorLauncherArt(manifest, { outputDir: artOutput });
+  const mirrored = await mirrorLauncherArt(manifest, { outputDir: artOutput, requireDeployable: true });
+  validatePackagedManifest(manifest, { now: at });
   fs.mkdirSync(path.dirname(output), { recursive: true });
   fs.writeFileSync(output, `${JSON.stringify(manifest, null, 2)}\n`, 'utf8');
   process.stdout.write(`launcher manifest: ${output} (${manifest.revision}); art: ${mirrored.count} files (${mirrored.bytes} bytes)\n`);

@@ -1,6 +1,6 @@
 # Nyx Desktop support matrix
 
-Date: 2026-07-15
+Date: 2026-07-21
 
 Status: private-build capability; each action remains enabled only where its evidence
 gate has passed
@@ -28,6 +28,30 @@ pairs with fakes. That proves isolation and concurrency logic, not a real
 multi-game launch session. The private shell now exposes all five direct-launch
 rows behind their independent local proof gates. WuWa and Endfield now have real
 initial-launch and close-detection proof; explicit second launches were not reported.
+
+## Account, daily, and export capabilities
+
+| ID | Resource/account surface | Daily check-in | Pull export | Achievement export |
+|---|---|---:|---:|---:|
+| `gi` | Isolated HoYoLAB session; Original Resin card | Explicit **Daily** action | Enabled, armed on next Launch | Enabled, armed on next Launch |
+| `hsr` | Shared isolated HoYoLAB session; Trailblaze Power card | Explicit **Daily** action | Enabled, armed on next Launch | Enabled, armed on next Launch |
+| `zzz` | Shared isolated HoYoLAB session; Battery Charge card | Explicit **Daily** action | Provider slot only | Provider slot only |
+| `wuwa` | Opt-in local Kuro launcher session; Waveplates/reserve/dailies | No verified page | Provider slot only | Provider slot only |
+| `ae` | Isolated SKPORT session; official Protocol Terminal handoff | Explicit **Daily** action | Not supported | Not supported |
+
+HoYoLAB and SKPORT profiles are Nyx-owned and separate from every external browser.
+Both publisher account lanes are independently off by default; launcher settings
+store only consent and non-sensitive cleanup-pending booleans. Turning one off
+immediately blocks new work and cancels its in-flight work. A zero-byte,
+provider-only revocation marker keeps it off across a failed settings save or
+restart until only that publisher's Nyx profile is deleted. Startup and later
+opt-in attempts retry unfinished cleanup before enabling access. Daily work is
+user-started only. There are no local manual timers.
+
+If HoYoLAB returns more than one role for the selected game, Nyx requires an
+explicit choice. The picker starts with nothing selected and shows only masked UID
+plus region. The selected binding is current-user DPAPI-protected outside ordinary
+launcher state, and reconnect/disconnect/account or profile replacement clears it.
 
 ## Local status and actions
 
@@ -129,22 +153,25 @@ and admits only the exact visible root GRYPHLINK Launcher.exe with zero argument
 Neither visible-start pilot has run. Local version alone cannot prove either game
 is current.
 
-No adapter may read credentials, account data, private web caches, or publisher
-logs. No publisher check may change local launch readiness.
+Only the sealed account providers may read the minimum session material needed for
+their fixed operation, and only from the reviewed Kuro launcher cache or Nyx-owned
+isolated WebView2 profiles. No adapter reads external browser profiles, asks for a
+password/token, logs account material, or changes local launch readiness.
 
 ## Deliberately unsupported
 
 | Area | Result |
 |---|---|
 | Nyx-owned download, patch, repair, verify, install, uninstall, or rollback | Use official launcher |
-| Hidden/headless official-launcher UI control | Not supported |
+| Hidden/headless official-launcher maintenance UI control | Not supported |
 | Automatic game restart | Not supported |
 | `Update All` | Not supported |
-| Publisher login/account switching | Leave to official launcher |
+| Scheduled/background daily check-in or automatic account switching | Not supported |
 | Steam, Epic, Microsoft Store, China or unofficial editions | Do not guess |
 | Multiple managed installations per game | Ask user to choose one later |
 | Mods, command editing, public plugins | Not supported |
-| Pull history or cloud sync | Website-owned |
+| ZZZ/WuWa/Endfield native export | Provider slots only; not exposed as working |
+| Publisher-session cloud sync | Not supported |
 | Generic administrator actions | Not supported |
 
 The enabled Genshin, HSR, and ZZZ rows have sealed per-game UAC fallbacks for only

@@ -144,7 +144,7 @@ if (-not $hasPinnedSdk) {
 
 try {
     $projectXml = Read-SafeXml -LiteralPath $projectPath
-    $windowsAppSdk = @($projectXml.SelectNodes("/*[local-name()='Project']/*[local-name()='ItemGroup']/*[local-name()='PackageReference' and @Include='Microsoft.WindowsAppSDK']"))
+    $windowsAppSdk = @($projectXml.SelectNodes("/*[local-name()='Project']/*[local-name()='ItemGroup']/*[local-name()='PackageReference' and (@Include='Microsoft.WindowsAppSDK' or @Include='Microsoft.WindowsAppSDK.WinUI')]"))
     $packageTypes = @($projectXml.SelectNodes("/*[local-name()='Project']/*[local-name()='PropertyGroup']/*[local-name()='WindowsPackageType']"))
     $selfContainedValues = @($projectXml.SelectNodes("/*[local-name()='Project']/*[local-name()='PropertyGroup']/*[local-name()='WindowsAppSDKSelfContained']"))
     $trimValues = @($projectXml.SelectNodes("/*[local-name()='Project']/*[local-name()='PropertyGroup']/*[local-name()='PublishTrimmed']"))
@@ -185,7 +185,8 @@ function Test-RunAssets {
         $assets = $assetsText | ConvertFrom-Json
         $libraryNames = @($assets.libraries.PSObject.Properties.Name)
         return @($libraryNames | Where-Object {
-            $_ -like 'Microsoft.WindowsAppSDK/*'
+            $_ -like 'Microsoft.WindowsAppSDK/*' -or
+            $_ -like 'Microsoft.WindowsAppSDK.WinUI/*'
         }).Count -eq 1
     }
     catch {

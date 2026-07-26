@@ -72,7 +72,7 @@ public sealed class LauncherStateTests
         Assert.Equal(["custom-b", "gi", "hsr", "zzz", "wuwa", "ae", "custom-a"], result.State!.RailOrder);
         Assert.Equal("custom-b", result.State.SelectedGameId);
         Assert.Equal(["custom-a", "custom-b"], result.State.CustomGames.Select(static game => game.Id));
-        Assert.Equal(250, result.State.Appearance["gi"].ArtScale);
+        Assert.Equal(500, result.State.Appearance["gi"].ArtScale);
         Assert.True(result.State.Appearance["gi"].ArtPinned);
         Assert.True(result.State.Export.IsArmed);
         Assert.Null(result.State.Export.OutputDirectory);
@@ -193,6 +193,104 @@ public sealed class LauncherStateTests
         Assert.True(result.State.Preferences.FeatureFlags.HsrAchievements);
         Assert.True(result.State.Preferences.FeatureFlags.ZzzPulls);
         Assert.False(result.State.Preferences.FeatureFlags.ZzzAchievements);
+        Assert.False(result.State.Preferences.FeatureFlags.HoyoLabAccountAccess);
+        Assert.False(result.State.Preferences.FeatureFlags.SkportAccountAccess);
+        Assert.False(result.State.Preferences.FeatureFlags.HoyoLabAccountCleanupPending);
+        Assert.False(result.State.Preferences.FeatureFlags.SkportAccountCleanupPending);
+    }
+
+    [Fact]
+    public void Publisher_consent_round_trips_as_booleans_without_account_material()
+    {
+        var enabled = LauncherState.Defaults() with
+        {
+            Preferences = LauncherState.Defaults().Preferences with
+            {
+                FeatureFlags = LauncherFeatureFlags.Defaults() with
+                {
+                    HoyoLabAccountAccess = true,
+                    SkportAccountAccess = false,
+                    SkportAccountCleanupPending = true,
+                },
+            },
+        };
+
+        var json = LauncherStateMigrations.Write(enabled);
+        var read = LauncherStateMigrations.Read(json);
+
+        Assert.True(read.State!.Preferences.FeatureFlags.HoyoLabAccountAccess);
+        Assert.False(read.State.Preferences.FeatureFlags.SkportAccountAccess);
+        Assert.True(read.State.Preferences.FeatureFlags.SkportAccountCleanupPending);
+        Assert.Contains("\"hoyoLabAccountAccess\": true", json, StringComparison.Ordinal);
+        Assert.Contains("\"skportAccountAccess\": false", json, StringComparison.Ordinal);
+        Assert.Contains("\"skportAccountCleanupPending\": true", json, StringComparison.Ordinal);
+        Assert.DoesNotContain("roleId", json, StringComparison.OrdinalIgnoreCase);
+        Assert.DoesNotContain("uid", json, StringComparison.OrdinalIgnoreCase);
+        Assert.DoesNotContain("server", json, StringComparison.OrdinalIgnoreCase);
+    }
+
+    [Fact]
+    public void Pending_publisher_cleanup_forces_consent_off_during_normalization()
+    {
+        var result = LauncherStateMigrations.Read("""
+        {
+          "version": 3,
+          "preferences": {
+            "featureFlags": {
+              "hoyoLabAccountAccess": true,
+              "hoyoLabAccountCleanupPending": true,
+              "skportAccountAccess": true,
+              "skportAccountCleanupPending": false
+            }
+          }
+        }
+        """);
+
+        Assert.Equal(LauncherStateReadStatus.Loaded, result.Status);
+        Assert.False(result.State!.Preferences.FeatureFlags.HoyoLabAccountAccess);
+        Assert.True(result.State.Preferences.FeatureFlags.HoyoLabAccountCleanupPending);
+        Assert.True(result.State.Preferences.FeatureFlags.SkportAccountAccess);
+        Assert.False(result.State.Preferences.FeatureFlags.SkportAccountCleanupPending);
+    }
+
+    [Fact]
+    public void Retired_official_news_flag_is_accepted_but_not_written_again()
+    {
+        var result = LauncherStateMigrations.Read("""
+        {"version":1,"preferences":{"featureFlags":{"officialNews":false,"remoteBannerManifest":true}}}
+        """);
+
+        Assert.Equal(LauncherStateReadStatus.Migrated, result.Status);
+        var state = Assert.IsType<LauncherState>(result.State);
+        var written = LauncherStateMigrations.Write(state);
+        Assert.DoesNotContain("officialNews", written, StringComparison.OrdinalIgnoreCase);
+        Assert.True(state.Preferences.FeatureFlags.RemoteBannerManifest);
+    }
+
+    [Fact]
+    public void Manual_install_roots_round_trip_only_for_supported_games_and_safe_local_paths()
+    {
+        var result = LauncherStateMigrations.Read("""
+        {"version":2,"preferences":{"manualInstallRoots":{
+          "gi":"D:\\Games\\Genshin Impact Game",
+          "wuwa":"D:\\Games\\Wuthering Waves",
+          "evil":"D:\\Games\\Other",
+          "hsr":"\\\\server\\share",
+          "zzz":"..\\relative"
+        }}}
+        """);
+
+        Assert.Equal(LauncherStateReadStatus.Migrated, result.Status);
+        Assert.Equal(@"D:\Games\Genshin Impact Game", result.State!.Preferences.ManualInstallRoots["gi"]);
+        Assert.Equal(@"D:\Games\Wuthering Waves", result.State.Preferences.ManualInstallRoots["wuwa"]);
+        Assert.DoesNotContain("evil", result.State.Preferences.ManualInstallRoots.Keys);
+        Assert.DoesNotContain("hsr", result.State.Preferences.ManualInstallRoots.Keys);
+        Assert.DoesNotContain("zzz", result.State.Preferences.ManualInstallRoots.Keys);
+
+        var written = LauncherStateMigrations.Write(result.State);
+        Assert.Contains("manualInstallRoots", written, StringComparison.Ordinal);
+        Assert.Contains("Genshin Impact Game", written, StringComparison.Ordinal);
+        Assert.DoesNotContain("server", written, StringComparison.OrdinalIgnoreCase);
     }
 
     [Fact]
@@ -696,6 +794,69 @@ public sealed class LauncherStateTests
         return Process.Start(start) ?? throw new InvalidOperationException("Could not start the state worker.");
     }
 
+    [Theory]
+    [InlineData(null, "cover")]
+    [InlineData("COVER", "cover")]
+    [InlineData("contain", "contain")]
+    [InlineData("fill", "fill")]
+    [InlineData("unsafe-fit", "cover")]
+    public void Pinned_art_fit_migrates_and_round_trips_safely(string? savedFit, string expected)
+    {
+        var fitJson = savedFit is null ? string.Empty : $",\"artFit\":\"{savedFit}\"";
+        var result = LauncherStateMigrations.Read(
+            $"{{\"version\":2,\"appearance\":{{\"gi\":{{\"artPinned\":true{fitJson}}}}}}}");
+
+        Assert.Equal(LauncherStateReadStatus.Migrated, result.Status);
+        Assert.Equal(expected, result.State!.Appearance["gi"].ArtFit);
+        var roundTrip = LauncherStateMigrations.Read(LauncherStateMigrations.Write(result.State));
+        Assert.Equal(LauncherStateReadStatus.Loaded, roundTrip.Status);
+        Assert.Equal(expected, roundTrip.State!.Appearance["gi"].ArtFit);
+    }
+
+    [Fact]
+    public void Reset_order_restores_official_then_custom_creation_order_without_deleting_data()
+    {
+        var first = CustomGame("custom-first", 10);
+        var second = CustomGame("custom-second", 20);
+        var state = LauncherState.Defaults() with
+        {
+            SelectedGameId = second.Id,
+            RailOrder = [second.Id, "zzz", "gi", first.Id, "ae", "wuwa", "hsr"],
+            CustomGames = [second, first],
+            Appearance = new Dictionary<string, GameAppearanceState>
+            {
+                [second.Id] = new() { ArtScale = 325 },
+            },
+        };
+
+        var reset = LauncherSettingsStateMerge.ResetRailOrder(state);
+
+        Assert.Equal(["gi", "hsr", "zzz", "wuwa", "ae", first.Id, second.Id], reset.RailOrder);
+        Assert.Equal(second.Id, reset.SelectedGameId);
+        Assert.Equal(state.CustomGames, reset.CustomGames);
+        Assert.Equal(325, reset.Appearance[second.Id].ArtScale);
+    }
+
+    [Fact]
+    public void Reset_launcher_state_requires_confirmation_and_has_default_only_scope()
+    {
+        var custom = CustomGame("custom-safe", 1);
+        var current = LauncherState.Defaults() with
+        {
+            SelectedGameId = custom.Id,
+            RailOrder = LauncherState.Defaults().RailOrder.Append(custom.Id).ToArray(),
+            CustomGames = [custom],
+            Preferences = LauncherState.Defaults().Preferences with { DataDirectory = @"D:\NyxData" },
+        };
+
+        Assert.Same(current, LauncherSettingsStateMerge.ResetLauncherState(current, confirmed: false));
+        var reset = LauncherSettingsStateMerge.ResetLauncherState(current, confirmed: true);
+        Assert.Equal(LauncherState.Defaults().RailOrder, reset.RailOrder);
+        Assert.Empty(reset.CustomGames);
+        Assert.Empty(reset.Appearance);
+        Assert.Contains(reset.SelectedGameId, reset.RailOrder);
+    }
+
     private static CustomGameDefinition CustomGame(
         string id,
         long creationOrder,
@@ -736,7 +897,6 @@ public sealed class LauncherStateTests
         RefreshContentOnStartup = opened.Preferences.RefreshContentOnStartup,
         SafeNotifications = opened.Preferences.SafeNotifications,
         AutomaticArt = opened.Preferences.FeatureFlags.AutomaticArt,
-        OfficialNews = opened.Preferences.FeatureFlags.OfficialNews,
         RemoteBannerManifest = opened.Preferences.FeatureFlags.RemoteBannerManifest,
     };
 

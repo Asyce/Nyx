@@ -35,7 +35,7 @@ dotnet test Desktop\Nyx.Desktop.slnx -c Release
 & .\Desktop\packaging\build-development-package.ps1 -Version 1.0.0.0
 ```
 
-The package build itself invokes `Nyx.Desktop.Update.exe verify` against the generated manifest and payload before creating the outer ZIP. A failed forced rebuild leaves the last completed artifact in place; replacement happens only after the new artifact and sidecars are complete. Building twice from the same restored source/output inputs must produce the same outer SHA-256.
+The normal package invocation restores dependencies before publishing, so it works from ordinary repository state even after tests rewrite RID assets. `-NoRestore` is an explicit opt-out for callers who have already restored the exact projects and intentionally want to reuse those assets. The package build itself invokes `Nyx.Desktop.Update.exe verify` against the generated manifest and payload before creating the outer ZIP. A failed forced rebuild leaves the last completed artifact in place; replacement happens only after the new artifact and sidecars are complete. Building twice from the same restored source/output inputs must produce the same outer SHA-256.
 
 ## External blocker
 

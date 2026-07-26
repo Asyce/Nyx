@@ -21,12 +21,17 @@
     <SolidColorBrush x:Key="QuietSurfaceBrush" Color="#CC181126" />
     <SolidColorBrush x:Key="RailSurfaceBrush" Color="#B8080612" />
     <SolidColorBrush x:Key="GlassDeckBrush" Color="#E0161127" />
+    <SolidColorBrush x:Key="SettingsSurfaceBrush" Color="#B0141024" />
+    <SolidColorBrush x:Key="ReadingSurfaceBrush" Color="#5808060F" />
     <SolidColorBrush x:Key="DeckBorderBrush" Color="#45B8A6FF" />
     <SolidColorBrush x:Key="SelectionBrush" Color="{StaticResource NyxIrisColor}" />
     <SolidColorBrush x:Key="FocusPrimaryBrush" Color="{StaticResource NyxIrisColor}" />
     <SolidColorBrush x:Key="FocusSecondaryBrush" Color="{StaticResource NyxMoonColor}" />
     <SolidColorBrush x:Key="PrimaryActionBackgroundBrush" Color="{StaticResource NyxMoonColor}" />
     <SolidColorBrush x:Key="PrimaryActionForegroundBrush" Color="{StaticResource NyxVoidColor}" />
+    <SolidColorBrush x:Key="LaunchActionBackgroundBrush" Color="#E5160F34" />
+    <SolidColorBrush x:Key="LaunchActionForegroundBrush" Color="#F7F3FF" />
+    <SolidColorBrush x:Key="LaunchActionBorderBrush" Color="#C5A88CFF" />
     <SolidColorBrush x:Key="QuietActionForegroundBrush" Color="#DED6FF" />
     <SolidColorBrush x:Key="HighContrastBackdropBrush" Color="{StaticResource NyxVoidColor}" />
     <SolidColorBrush x:Key="AccentFillColorDefaultBrush" Color="#B8A6FF" />
@@ -56,12 +61,17 @@
             <SolidColorBrush x:Key="QuietSurfaceBrush" Color="{ThemeResource SystemColorWindowColor}" />
             <SolidColorBrush x:Key="RailSurfaceBrush" Color="{ThemeResource SystemColorWindowColor}" />
             <SolidColorBrush x:Key="GlassDeckBrush" Color="{ThemeResource SystemColorWindowColor}" />
+            <SolidColorBrush x:Key="SettingsSurfaceBrush" Color="{ThemeResource SystemColorWindowColor}" />
+            <SolidColorBrush x:Key="ReadingSurfaceBrush" Color="{ThemeResource SystemColorWindowColor}" />
             <SolidColorBrush x:Key="DeckBorderBrush" Color="{ThemeResource SystemColorWindowTextColor}" />
             <SolidColorBrush x:Key="SelectionBrush" Color="{ThemeResource SystemColorHighlightColor}" />
             <SolidColorBrush x:Key="FocusPrimaryBrush" Color="{ThemeResource SystemColorHighlightColor}" />
             <SolidColorBrush x:Key="FocusSecondaryBrush" Color="{ThemeResource SystemColorHighlightTextColor}" />
             <SolidColorBrush x:Key="PrimaryActionBackgroundBrush" Color="{ThemeResource SystemColorHighlightColor}" />
             <SolidColorBrush x:Key="PrimaryActionForegroundBrush" Color="{ThemeResource SystemColorHighlightTextColor}" />
+            <SolidColorBrush x:Key="LaunchActionBackgroundBrush" Color="{ThemeResource SystemColorHighlightColor}" />
+            <SolidColorBrush x:Key="LaunchActionForegroundBrush" Color="{ThemeResource SystemColorHighlightTextColor}" />
+            <SolidColorBrush x:Key="LaunchActionBorderBrush" Color="{ThemeResource SystemColorWindowTextColor}" />
             <SolidColorBrush x:Key="QuietActionForegroundBrush" Color="{ThemeResource SystemColorWindowTextColor}" />
             <SolidColorBrush x:Key="HighContrastBackdropBrush" Color="{ThemeResource SystemColorWindowColor}" />
             <SolidColorBrush x:Key="AccentFillColorDefaultBrush" Color="{ThemeResource SystemColorHighlightColor}" />

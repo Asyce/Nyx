@@ -53,7 +53,7 @@ public sealed class LatestGenerationGateTests
             hasRequest: true));
 
         actionInFlight = false;
-        Assert.False(WuWaMaintenanceInteractionPolicy.AllowsOpenOfficial(
+        Assert.True(WuWaMaintenanceInteractionPolicy.AllowsOpenOfficial(
             maintenanceReady: status == "Ready",
             actionInFlight,
             hasRequest: true));

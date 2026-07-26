@@ -125,6 +125,17 @@ public sealed class WuWaIdentityAdapter
             {
                 return Protected(Review(resource.Reason, root), launcher, bootstrapProof, runtimeProof);
             }
+            if (resource.Value!.RuntimeSize != runtimeProof!.Snapshot.Length
+                || !PublisherFileIdentity.FixedTimeEquals(
+                    resource.Value.RuntimeMd5,
+                    runtimeProof.Md5Digest))
+            {
+                return Protected(
+                    Review(PublisherGameInspectionReason.ResourceEvidenceMalformed, root),
+                    launcher,
+                    bootstrapProof,
+                    runtimeProof);
+            }
 
             var rootSecond = pathGuard.CheckRoot(root);
             if (rootSecond.Status is not PublisherGameInspectionStatus.Ready
@@ -168,9 +179,10 @@ public sealed class WuWaIdentityAdapter
                 root,
                 launcher.LauncherPath!,
                 launcher.LauncherVersion!);
-            if (!string.Equals(
+            if (resource.Value.Version is not null
+                && !string.Equals(
                     rootConfig.Value!.Version,
-                    resource.Value!.Version,
+                    resource.Value.Version,
                     StringComparison.Ordinal))
             {
                 return Protected(new(
@@ -203,7 +215,7 @@ public sealed class WuWaIdentityAdapter
                 PublisherGameInspectionReason.None,
                 PublisherGameVersionState.Available,
                 root,
-                rootConfig.Value.Version,
+                rootConfig.Value!.Version,
                 maintenance),
                 launcher,
                 bootstrapProof,

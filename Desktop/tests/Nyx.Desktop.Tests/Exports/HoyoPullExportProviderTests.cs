@@ -23,6 +23,8 @@ public sealed class HoyoPullExportProviderTests
         Assert.Equal(64L * 1024 * 1024, limits.MaximumOutputBytes);
         Assert.Equal(TimeSpan.FromMinutes(4), limits.EffectiveTotalDuration);
         Assert.Equal(TimeSpan.FromSeconds(15), limits.EffectiveRequestTimeout);
+        Assert.Equal(TimeSpan.FromSeconds(120), limits.EffectiveCacheObservationDuration);
+        Assert.Equal(TimeSpan.FromMilliseconds(750), limits.EffectiveCachePollInterval);
     }
 
     [Fact]
@@ -205,7 +207,9 @@ public sealed class HoyoPullExportProviderTests
         };
         using var provider = new HoyoPullExportProvider(http, profile, downloads, new NoWaitPullRequestPacer());
 
-        await provider.SnapshotAsync("gi", new ImmediateExportSignalWaiter(), default);
+        await using var session = await provider.PrepareAsync("gi", default);
+        File.AppendAllText(cache, "\0" + Link(game, "QUERY_TEST_TOKEN"), Encoding.ASCII);
+        await session.ExportAsync(default);
 
         Assert.NotEmpty(requests);
         Assert.All(requests, request =>
@@ -243,7 +247,7 @@ public sealed class HoyoPullExportProviderTests
         using var temp = new TemporaryDirectory();
         var profile = temp.Combine("profile");
         var game = HoyoPullGameConfiguration.For(gameId);
-        MakeProfileCache(profile, game, Link(game, "UIGF_TEST_TOKEN"));
+        var cache = MakeProfileCache(profile, game, Link(game, "UIGF_TEST_TOKEN"));
         using var http = new HttpClient(new DelegateHandler(request =>
         {
             var type = ParseQuery(request.RequestUri!)["gacha_type"];
@@ -252,13 +256,27 @@ public sealed class HoyoPullExportProviderTests
         {
             Timeout = Timeout.InfiniteTimeSpan,
         };
-        using var provider = new HoyoPullExportProvider(http, profile, temp.Combine("downloads"), new NoWaitPullRequestPacer());
+        var downloads = temp.Combine("downloads");
+        using var provider = new HoyoPullExportProvider(
+            http,
+            profile,
+            downloads,
+            new NoWaitPullRequestPacer(),
+            timeProvider: new FixedTimeProvider(new DateTimeOffset(2026, 7, 21, 12, 34, 56, TimeSpan.Zero)));
 
-        var metadata = await provider.SnapshotAsync(gameId, new ImmediateExportSignalWaiter(), default);
+        await using var session = await provider.PrepareAsync(gameId, default);
+        File.AppendAllText(cache, "\0" + Link(game, "UIGF_TEST_TOKEN"), Encoding.ASCII);
+        var metadata = await session.ExportAsync(default);
 
         Assert.Equal(1, metadata.ItemCount);
         Assert.Equal("UIGF v4.2 JSON", metadata.Format);
         Assert.NotNull(metadata.OutputPath);
+        Assert.Equal(
+            Path.Combine(downloads, "Pengo Exports", game.OutputFolder),
+            Path.GetDirectoryName(metadata.OutputPath));
+        Assert.Matches(
+            "^20260721T123456Z-[0-9a-f]{32}\\.uigf\\.json$",
+            Path.GetFileName(metadata.OutputPath));
         using var document = JsonDocument.Parse(File.ReadAllBytes(metadata.OutputPath));
         var root = document.RootElement;
         Assert.Equal("v4.2", root.GetProperty("info").GetProperty("version").GetString());
@@ -309,16 +327,30 @@ public sealed class HoyoPullExportProviderTests
         Assert.Empty(Directory.GetFiles(temp.Path, "*.tmp"));
     }
 
-    [Fact]
-    public async Task Writer_DefaultsUnderDownloadsPengoExportsAndGameFolder()
+    [Theory]
+    [InlineData("gi", "Genshin Impact")]
+    [InlineData("hsr", "Honkai Star Rail")]
+    public async Task Writer_DefaultsToExactTimestampNonceContractWithoutCollisions(
+        string gameId,
+        string gameFolder)
     {
         using var temp = new TemporaryDirectory();
-        var writer = new UigfPullExportWriter(temp.Path, new PullExportSafetyLimits(), TimeProvider.System);
+        var writer = new UigfPullExportWriter(
+            temp.Path,
+            new PullExportSafetyLimits(),
+            new FixedTimeProvider(new DateTimeOffset(2026, 7, 21, 12, 34, 56, TimeSpan.Zero)));
 
-        var output = await writer.WriteAsync(Archive("hsr"), null, default);
+        var first = await writer.WriteAsync(Archive(gameId), null, default);
+        var second = await writer.WriteAsync(Archive(gameId), null, default);
 
-        Assert.StartsWith(temp.Combine(Path.Combine("Pengo Exports", "Honkai Star Rail")), output.Path, StringComparison.OrdinalIgnoreCase);
-        Assert.True(File.Exists(output.Path));
+        var expectedDirectory = temp.Combine(Path.Combine("Pengo Exports", gameFolder));
+        Assert.Equal(expectedDirectory, Path.GetDirectoryName(first.Path));
+        Assert.Equal(expectedDirectory, Path.GetDirectoryName(second.Path));
+        Assert.Matches("^20260721T123456Z-[0-9a-f]{32}\\.uigf\\.json$", Path.GetFileName(first.Path));
+        Assert.Matches("^20260721T123456Z-[0-9a-f]{32}\\.uigf\\.json$", Path.GetFileName(second.Path));
+        Assert.NotEqual(first.Path, second.Path);
+        Assert.True(File.Exists(first.Path));
+        Assert.True(File.Exists(second.Path));
     }
 
     [Fact]
@@ -350,14 +382,93 @@ public sealed class HoyoPullExportProviderTests
         using var http = new HttpClient(new DelegateHandler(_ => { calls++; return JsonResponse(Page([])); }));
         using var provider = new HoyoPullExportProvider(http, profile, temp.Combine("downloads"), new NoWaitPullRequestPacer());
         var downloads = temp.Combine("downloads");
+        await using var session = await provider.PrepareAsync("gi", default);
         using var cancellation = new CancellationTokenSource();
         cancellation.Cancel();
 
         await Assert.ThrowsAnyAsync<OperationCanceledException>(async () =>
-            await provider.SnapshotAsync("gi", new ImmediateExportSignalWaiter(), cancellation.Token));
+            await session.ExportAsync(cancellation.Token));
 
         Assert.Equal(0, calls);
         Assert.False(Directory.Exists(Path.Combine(downloads, "Pengo Exports")));
+    }
+
+    [Fact]
+    public async Task Provider_UnchangedStaleCacheTimesOutWithoutRequestOrOutput()
+    {
+        using var fixture = new ObservationFixture("STALE_PRIVATE_TOKEN");
+        await using var session = await fixture.Provider.PrepareAsync("gi", default);
+
+        var error = await Assert.ThrowsAsync<PullExportException>(async () =>
+            await session.ExportAsync(default));
+
+        Assert.Equal(PullExportErrorCodes.HistoryNotUpdated, error.ErrorCode);
+        Assert.Equal(0, fixture.Requests);
+        Assert.False(Directory.Exists(Path.Combine(fixture.Downloads, "Pengo Exports")));
+        Assert.DoesNotContain("STALE_PRIVATE_TOKEN", error.ToString(), StringComparison.Ordinal);
+    }
+
+    [Fact]
+    public async Task Provider_SameCandidateNewlyAppendedBeyondBaselineSucceeds()
+    {
+        using var fixture = new ObservationFixture("REEMITTED_PRIVATE_TOKEN");
+        await using var session = await fixture.Provider.PrepareAsync("gi", default);
+
+        File.AppendAllText(fixture.Cache, "\0" + fixture.Link("REEMITTED_PRIVATE_TOKEN"), Encoding.ASCII);
+        var artifact = await session.ExportAsync(default);
+
+        Assert.True(fixture.Requests > 0);
+        Assert.True(File.Exists(artifact.OutputPath));
+        Assert.DoesNotContain("REEMITTED_PRIVATE_TOKEN", File.ReadAllText(artifact.OutputPath!), StringComparison.Ordinal);
+    }
+
+    [Fact]
+    public async Task Provider_NewValidCandidateFingerprintSucceeds()
+    {
+        using var fixture = new ObservationFixture("OLD_PRIVATE_TOKEN");
+        await using var session = await fixture.Provider.PrepareAsync("gi", default);
+
+        File.AppendAllText(fixture.Cache, "\0" + fixture.Link("NEW_PRIVATE_TOKEN"), Encoding.ASCII);
+        var artifact = await session.ExportAsync(default);
+
+        Assert.True(fixture.Requests > 0);
+        Assert.True(File.Exists(artifact.OutputPath));
+        Assert.DoesNotContain("PRIVATE_TOKEN", File.ReadAllText(artifact.OutputPath!), StringComparison.Ordinal);
+    }
+
+    [Theory]
+    [InlineData(false)]
+    [InlineData(true)]
+    public async Task Provider_ReplacementOrTruncationWithNewerValidCandidateSucceeds(bool replace)
+    {
+        using var fixture = new ObservationFixture("REPLACED_PRIVATE_TOKEN", new string('x', 4096));
+        await using var session = await fixture.Provider.PrepareAsync("gi", default);
+        if (replace) File.Delete(fixture.Cache);
+        File.WriteAllText(fixture.Cache, fixture.Link("REPLACED_PRIVATE_TOKEN"), Encoding.ASCII);
+
+        var artifact = await session.ExportAsync(default);
+
+        Assert.True(fixture.Requests > 0);
+        Assert.True(File.Exists(artifact.OutputPath));
+    }
+
+    [Fact]
+    public async Task Provider_UnrelatedInvalidMutationIsNotFreshAndMakesNoRequestOrOutput()
+    {
+        using var fixture = new ObservationFixture("BASELINE_PRIVATE_TOKEN");
+        await using var session = await fixture.Provider.PrepareAsync("gi", default);
+        File.AppendAllText(
+            fixture.Cache,
+            "\0https://attacker.invalid/gacha?authkey=LEAK_PRIVATE_TOKEN\0unrelated",
+            Encoding.ASCII);
+
+        var error = await Assert.ThrowsAsync<PullExportException>(async () =>
+            await session.ExportAsync(default));
+
+        Assert.Equal(PullExportErrorCodes.HistoryNotUpdated, error.ErrorCode);
+        Assert.Equal(0, fixture.Requests);
+        Assert.False(Directory.Exists(Path.Combine(fixture.Downloads, "Pengo Exports")));
+        Assert.DoesNotContain("PRIVATE_TOKEN", error.ToString(), StringComparison.Ordinal);
     }
 
     [Fact]
@@ -477,6 +588,55 @@ public sealed class HoyoPullExportProviderTests
     {
         public int Calls { get; private set; }
         public ValueTask BeforeRequestAsync(CancellationToken cancellationToken) { Calls++; return ValueTask.CompletedTask; }
+    }
+
+    private sealed class FixedTimeProvider(DateTimeOffset utcNow) : TimeProvider
+    {
+        public override DateTimeOffset GetUtcNow() => utcNow;
+    }
+
+    private sealed class ObservationFixture : IDisposable
+    {
+        private readonly TemporaryDirectory temp = new();
+        private readonly HoyoPullGameConfiguration game = HoyoPullGameConfiguration.For("gi");
+        private readonly HttpClient http;
+
+        public ObservationFixture(string token, string prefix = "")
+        {
+            Downloads = temp.Combine("downloads");
+            Cache = MakeProfileCache(
+                temp.Combine("profile"),
+                game,
+                prefix + HoyoPullExportProviderTests.Link(game, token));
+            http = new HttpClient(new DelegateHandler(_ =>
+            {
+                Interlocked.Increment(ref requests);
+                return JsonResponse(Page([]));
+            })) { Timeout = Timeout.InfiniteTimeSpan };
+            Provider = new HoyoPullExportProvider(
+                http,
+                temp.Combine("profile"),
+                Downloads,
+                new NoWaitPullRequestPacer(),
+                new PullExportSafetyLimits(
+                    TotalDuration: TimeSpan.FromSeconds(1),
+                    CacheObservationDuration: TimeSpan.FromMilliseconds(60),
+                    CachePollInterval: TimeSpan.FromMilliseconds(5)));
+        }
+
+        private int requests;
+        public HoyoPullExportProvider Provider { get; }
+        public string Cache { get; }
+        public string Downloads { get; }
+        public int Requests => Volatile.Read(ref requests);
+        public string Link(string token) => HoyoPullExportProviderTests.Link(game, token);
+
+        public void Dispose()
+        {
+            Provider.Dispose();
+            http.Dispose();
+            temp.Dispose();
+        }
     }
 
     private sealed class TemporaryDirectory : IDisposable

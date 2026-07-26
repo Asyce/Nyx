@@ -9,5 +9,5 @@ public static class WuWaMaintenanceInteractionPolicy
         bool maintenanceReady,
         bool actionInFlight,
         bool hasRequest) =>
-        maintenanceReady && !actionInFlight && hasRequest;
+        !actionInFlight && hasRequest;
 }

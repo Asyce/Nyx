@@ -125,6 +125,20 @@ public sealed class DesktopStartReadinessTests
     }
 
     [Fact]
+    public void Fixture_accepts_the_direct_WinUI_component_package()
+    {
+        using var fixture = StartFixture.Create("winui component fixture");
+        fixture.WriteMinimumProject("10.0.100", "Microsoft.WindowsAppSDK.WinUI", "2.2.1");
+        fixture.WriteRunAssets("Microsoft.WindowsAppSDK.WinUI", "2.2.1");
+
+        var result = RunPowerShell(fixture.StartScript, "-CheckOnly");
+
+        Assert.Equal(13, result.ExitCode);
+        Assert.Contains("unpackaged x64 build output is incomplete", result.Output);
+        Assert.DoesNotContain("configuration is missing or ambiguous", result.Output);
+    }
+
+    [Fact]
     public void Start_script_rejects_oversized_project_xml_before_parsing()
     {
         using var fixture = StartFixture.Create("oversized project fixture");
@@ -513,23 +527,28 @@ public sealed class DesktopStartReadinessTests
         public void WriteGlobalJson(string sdk) =>
             File.WriteAllText(Path.Combine(Root, "global.json"), $"{{\"sdk\":{{\"version\":\"{sdk}\"}}}}");
 
-        public void WriteMinimumProject(string sdk)
+        public void WriteMinimumProject(
+            string sdk,
+            string packageName = "Microsoft.WindowsAppSDK",
+            string packageVersion = "2.2.0")
         {
             WriteGlobalJson(sdk);
             var appRoot = Path.Combine(Root, "src", "Nyx.Desktop.App");
             Directory.CreateDirectory(appRoot);
             File.WriteAllText(Path.Combine(appRoot, "Nyx.Desktop.App.csproj"),
-                "<Project Sdk=\"Microsoft.NET.Sdk\"><PropertyGroup><TargetFramework>net10.0-windows10.0.22621.0</TargetFramework><OutputType>WinExe</OutputType><WindowsPackageType>None</WindowsPackageType><WindowsAppSDKSelfContained>true</WindowsAppSDKSelfContained><PublishTrimmed>false</PublishTrimmed></PropertyGroup><ItemGroup><PackageReference Include=\"Microsoft.WindowsAppSDK\" Version=\"2.2.0\" /></ItemGroup></Project>");
+                $"<Project Sdk=\"Microsoft.NET.Sdk\"><PropertyGroup><TargetFramework>net10.0-windows10.0.22621.0</TargetFramework><OutputType>WinExe</OutputType><WindowsPackageType>None</WindowsPackageType><WindowsAppSDKSelfContained>true</WindowsAppSDKSelfContained><PublishTrimmed>false</PublishTrimmed></PropertyGroup><ItemGroup><PackageReference Include=\"{packageName}\" Version=\"{packageVersion}\" /></ItemGroup></Project>");
             File.WriteAllText(Path.Combine(appRoot, "Package.appxmanifest"), "<Package />");
         }
 
-        public void WriteRunAssets()
+        public void WriteRunAssets(
+            string packageName = "Microsoft.WindowsAppSDK",
+            string packageVersion = "2.2.0")
         {
             var objectRoot = Path.Combine(Root, "src", "Nyx.Desktop.App", "obj");
             Directory.CreateDirectory(objectRoot);
             File.WriteAllText(
                 Path.Combine(objectRoot, "project.assets.json"),
-                "{\"libraries\":{\"Microsoft.WindowsAppSDK/2.2.0\":{}}}");
+                $"{{\"libraries\":{{\"{packageName}/{packageVersion}\":{{}}}}}}");
         }
 
         public void WriteOversizedProject(string sdk)

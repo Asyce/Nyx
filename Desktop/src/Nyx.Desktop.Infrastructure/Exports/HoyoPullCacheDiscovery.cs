@@ -46,10 +46,14 @@ internal sealed record PullExportSafetyLimits(
     int MaximumVersionDirectories = 128,
     int MaximumSearchDirectories = 2_048,
     TimeSpan? TotalDuration = null,
-    TimeSpan? RequestTimeout = null)
+    TimeSpan? RequestTimeout = null,
+    TimeSpan? CacheObservationDuration = null,
+    TimeSpan? CachePollInterval = null)
 {
     public TimeSpan EffectiveTotalDuration => TotalDuration ?? TimeSpan.FromMinutes(4);
     public TimeSpan EffectiveRequestTimeout => RequestTimeout ?? TimeSpan.FromSeconds(15);
+    public TimeSpan EffectiveCacheObservationDuration => CacheObservationDuration ?? TimeSpan.FromSeconds(120);
+    public TimeSpan EffectiveCachePollInterval => CachePollInterval ?? TimeSpan.FromMilliseconds(750);
 }
 
 internal interface IHoyoPullCacheLocator

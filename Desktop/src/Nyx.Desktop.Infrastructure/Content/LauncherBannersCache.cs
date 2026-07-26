@@ -25,6 +25,7 @@ public sealed class LauncherBannersCache
     }
 
     public string LastKnownGoodManifestPath => Path.Combine(LastKnownGoodDirectory, "launcher-banners-v1.json");
+    public string LastKnownGoodCodesPath => Path.Combine(LastKnownGoodDirectory, "launcher-codes-v1.json");
 
     public string PinUserArt(string gameId, LauncherBannersAsset asset, string sourcePath)
     {
@@ -106,6 +107,32 @@ public sealed class LauncherBannersCache
         }
     }
 
+    public LauncherCodesManifest? TryLoadLastKnownGoodCodes(DateTimeOffset observedAt)
+    {
+        try
+        {
+            if (!File.Exists(LastKnownGoodCodesPath)) return null;
+            return LauncherBannersManifestParser.ParseCodes(File.ReadAllBytes(LastKnownGoodCodesPath), fallback: true, observedAt);
+        }
+        catch (Exception exception) when (exception is IOException or UnauthorizedAccessException or InvalidDataException or JsonException or ArgumentException)
+        {
+            return null;
+        }
+    }
+
+    public async Task PromoteCodesAsync(
+        LauncherCodesManifest manifest,
+        byte[] payload,
+        CancellationToken cancellationToken = default)
+    {
+        ArgumentNullException.ThrowIfNull(manifest);
+        ArgumentNullException.ThrowIfNull(payload);
+        var existing = TryLoadLastKnownGoodCodes(manifest.GeneratedAt);
+        if (existing is not null && manifest.GeneratedAt <= existing.GeneratedAt)
+            throw new InvalidDataException("Launcher codes generation did not advance.");
+        await AtomicWriteAsync(LastKnownGoodCodesPath, payload, cancellationToken).ConfigureAwait(false);
+    }
+
     public async Task PromoteAsync(
         LauncherBannersManifest manifest,
         byte[] payload,
@@ -118,24 +145,68 @@ public sealed class LauncherBannersCache
         ArgumentNullException.ThrowIfNull(transport);
         Directory.CreateDirectory(ManagedAssetsDirectory);
         Directory.CreateDirectory(LastKnownGoodDirectory);
-        foreach (var asset in manifest.Games.Values.SelectMany(game => game.Current?.Variants ?? []).Concat(manifest.Games.Values.SelectMany(game => game.Current?.Characters.SelectMany(character => character.Variants) ?? [])))
+        var previous = TryLoadLastKnownGood(DateTimeOffset.UtcNow);
+        PruneManagedCache(activeManifest: previous, now: DateTimeOffset.UtcNow);
+        var downloads = AllDisplayAssets(manifest)
+            .DistinctBy(static asset => (asset.Sha256, asset.Mime))
+            .Where(asset => asset.Url is not null)
+            .Where(asset => bundledAssetsDirectory is null || TryResolveBundledAsset(asset, bundledAssetsDirectory) is null)
+            .Where(asset => TryResolveManagedAsset(asset) is null)
+            .ToArray();
+        var existingBytes = ManagedAssetBytes();
+        long requiredBytes;
+        try
         {
-            cancellationToken.ThrowIfCancellationRequested();
-            if (asset.Url is null) continue;
-            if (bundledAssetsDirectory is not null
-                && TryResolveBundledAsset(asset, bundledAssetsDirectory) is not null)
-            {
-                continue;
-            }
-            var bytes = await transport.GetAssetAsync(asset.Url, LauncherBannersTransport.MaximumAssetBytes, cancellationToken).ConfigureAwait(false);
-            ValidateAssetBytes(asset, bytes);
-            var destination = Path.Combine(ManagedAssetsDirectory, asset.Sha256 + Extension(asset.Mime));
-            await AtomicWriteAsync(destination, bytes, cancellationToken).ConfigureAwait(false);
+            requiredBytes = downloads.Aggregate(0L, static (total, asset) => checked(total + asset.Size));
         }
+        catch (OverflowException exception)
+        {
+            throw new InvalidDataException("Launcher assets exceed the managed cache limit.", exception);
+        }
+        if (requiredBytes > MaximumManagedBytes || existingBytes > MaximumManagedBytes - requiredBytes)
+            throw new InvalidDataException("Launcher assets exceed the managed cache limit.");
 
-        await AtomicWriteAsync(Path.Combine(ManagedDirectory, $"{manifest.Revision}.json"), payload, cancellationToken).ConfigureAwait(false);
-        await AtomicWriteAsync(LastKnownGoodManifestPath, payload, cancellationToken).ConfigureAwait(false);
-        PruneManagedCache(activeManifest: manifest, now: DateTimeOffset.UtcNow);
+        var stagingDirectory = Path.Combine(ManagedDirectory, $".{manifest.Revision}.{Guid.NewGuid():N}.staging");
+        var staged = new List<(string Source, string Destination)>();
+        var installed = new List<string>();
+        var revisionPath = Path.Combine(ManagedDirectory, $"{manifest.Revision}.json");
+        var revisionWritten = false;
+        var committed = false;
+        Directory.CreateDirectory(stagingDirectory);
+        try
+        {
+            foreach (var asset in downloads)
+            {
+                cancellationToken.ThrowIfCancellationRequested();
+                var bytes = await transport.GetAssetAsync(asset.Url!, LauncherBannersTransport.MaximumAssetBytes, cancellationToken).ConfigureAwait(false);
+                ValidateAssetBytes(asset, bytes);
+                var fileName = asset.Sha256 + Extension(asset.Mime);
+                var source = Path.Combine(stagingDirectory, fileName);
+                var destination = Path.Combine(ManagedAssetsDirectory, fileName);
+                await AtomicWriteAsync(source, bytes, cancellationToken).ConfigureAwait(false);
+                staged.Add((source, destination));
+            }
+
+            foreach (var asset in staged)
+            {
+                File.Move(asset.Source, asset.Destination, overwrite: true);
+                installed.Add(asset.Destination);
+            }
+            await AtomicWriteAsync(revisionPath, payload, cancellationToken).ConfigureAwait(false);
+            revisionWritten = true;
+            await AtomicWriteAsync(LastKnownGoodManifestPath, payload, cancellationToken).ConfigureAwait(false);
+            committed = true;
+            PruneManagedCache(activeManifest: manifest, now: DateTimeOffset.UtcNow);
+        }
+        finally
+        {
+            CleanupStagingDirectory(stagingDirectory);
+            if (!committed)
+            {
+                foreach (var path in installed) TryDelete(path);
+                if (revisionWritten) TryDelete(revisionPath);
+            }
+        }
     }
 
     public int PruneManagedCache(long maximumBytes = MaximumManagedBytes, LauncherBannersManifest? activeManifest = null, DateTimeOffset? now = null)
@@ -143,12 +214,10 @@ public sealed class LauncherBannersCache
         if (maximumBytes <= 0) throw new ArgumentOutOfRangeException(nameof(maximumBytes));
         if (!Directory.Exists(ManagedDirectory)) return 0;
         foreach (var temporary in Directory.EnumerateFiles(ManagedDirectory, ".*.tmp", SearchOption.AllDirectories)) TryDelete(temporary);
+        foreach (var staging in Directory.EnumerateDirectories(ManagedDirectory, ".*.staging", SearchOption.TopDirectoryOnly)) CleanupStagingDirectory(staging);
         if (activeManifest is not null)
         {
-            var at = now ?? DateTimeOffset.UtcNow;
-            var liveHashes = activeManifest.Games.Values
-                .Where(game => game.Current is not null && game.Current.End > at)
-                .SelectMany(game => game.Current!.Variants.Concat(game.Current.Characters.SelectMany(character => character.Variants)))
+            var liveHashes = AllDisplayAssets(activeManifest)
                 .Select(asset => asset.Sha256)
                 .ToHashSet(StringComparer.OrdinalIgnoreCase);
             foreach (var file in Directory.EnumerateFiles(ManagedAssetsDirectory, "*", SearchOption.TopDirectoryOnly))
@@ -174,6 +243,22 @@ public sealed class LauncherBannersCache
             removed++;
         }
         return removed;
+    }
+
+    private long ManagedAssetBytes()
+    {
+        if (!Directory.Exists(ManagedAssetsDirectory)) return 0;
+        try
+        {
+            return Directory.EnumerateFiles(ManagedAssetsDirectory, "*", SearchOption.TopDirectoryOnly)
+                .Select(path => new FileInfo(path))
+                .Where(file => file.Exists)
+                .Aggregate(0L, static (total, file) => checked(total + file.Length));
+        }
+        catch (OverflowException exception)
+        {
+            throw new InvalidDataException("Launcher managed cache size is invalid.", exception);
+        }
     }
 
     private static string? TryValidateFile(string path, LauncherBannersAsset asset)
@@ -230,6 +315,14 @@ public sealed class LauncherBannersCache
 
     private static string Extension(string mime) => mime == "image/png" ? ".png" : ".webp";
 
+    private static IEnumerable<LauncherBannersAsset> AllDisplayAssets(LauncherBannersManifest manifest) =>
+        manifest.Games.Values.SelectMany(game =>
+            (game.Current?.Variants ?? [])
+            .Concat((game.Current?.Characters ?? []).Select(character => character.Icon).OfType<LauncherBannersAsset>())
+            .Concat(game.Current?.Characters.SelectMany(character => character.Variants) ?? [])
+            .Concat(game.Upcoming.SelectMany(phase => phase.Characters).Select(character => character.Icon).OfType<LauncherBannersAsset>())
+            .Concat(game.Upcoming.SelectMany(phase => phase.Characters).SelectMany(character => character.Variants)));
+
     private static async Task AtomicWriteAsync(string target, byte[] bytes, CancellationToken cancellationToken)
     {
         Directory.CreateDirectory(Path.GetDirectoryName(target)!);
@@ -266,6 +359,18 @@ public sealed class LauncherBannersCache
         {
             TryDelete(temp);
         }
+    }
+
+    private static void CleanupStagingDirectory(string directory)
+    {
+        try
+        {
+            if (!Directory.Exists(directory)) return;
+            foreach (var file in Directory.EnumerateFiles(directory, "*", SearchOption.TopDirectoryOnly)) TryDelete(file);
+            Directory.Delete(directory, recursive: false);
+        }
+        catch (IOException) { }
+        catch (UnauthorizedAccessException) { }
     }
 
     private string? ResolveUserArtPath(string? relative, bool mustExist)

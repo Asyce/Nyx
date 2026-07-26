@@ -14,8 +14,8 @@ public sealed class PengoWebToolsUiTests
 
         Assert.Single(Regex.Matches(xaml, "x:Name=\"PullExportToggle\"").Cast<Match>());
         Assert.Single(Regex.Matches(xaml, "x:Name=\"AchievementExportToggle\"").Cast<Match>());
-        Assert.Contains("Text=\"PULLS\"", xaml, StringComparison.Ordinal);
-        Assert.Contains("Text=\"ACHIEVEMENTS\"", xaml, StringComparison.Ordinal);
+        Assert.Contains("Text=\"Pull Tracker\"", xaml, StringComparison.Ordinal);
+        Assert.Contains("Text=\"Achievements\"", xaml, StringComparison.Ordinal);
         Assert.Contains("ExportToggle_Click", xaml, StringComparison.Ordinal);
         Assert.Contains("state.Export.Games.ToDictionary", code, StringComparison.Ordinal);
         Assert.Contains("launcherState.TryUpdate", code, StringComparison.Ordinal);
@@ -42,22 +42,22 @@ public sealed class PengoWebToolsUiTests
     }
 
     [Fact]
-    public void Feature_flags_gate_each_lane_and_dormant_provider_controls_are_hidden()
+    public void Feature_flags_gate_each_lane_and_dormant_provider_controls_remain_as_disabled_placeholders()
     {
         var code = ReadAppFile("MainPage.xaml.cs");
         var render = Slice(code, "private void RenderExportTools", "private static string FormatExportStatus");
 
         Assert.Contains("ExportProviderCatalog.GetEnabled", render, StringComparison.Ordinal);
-        Assert.Contains("NyxToolsPanel.Visibility = pullsAvailable || achievementsAvailable", render, StringComparison.Ordinal);
-        Assert.Contains("PullExportToggle.Visibility = pullsAvailable", render, StringComparison.Ordinal);
-        Assert.Contains("AchievementExportToggle.Visibility = achievementsAvailable", render, StringComparison.Ordinal);
+        Assert.Contains("NyxToolsPanel.Visibility = selected.IsCustom", render, StringComparison.Ordinal);
+        Assert.Contains("PullExportToggle.Visibility = Visibility.Visible", render, StringComparison.Ordinal);
+        Assert.Contains("AchievementExportToggle.Visibility = Visibility.Visible", render, StringComparison.Ordinal);
         Assert.Contains("PullExportToggle.IsEnabled = pullsAvailable", render, StringComparison.Ordinal);
         Assert.Contains("AchievementExportToggle.IsEnabled = achievementsAvailable", render, StringComparison.Ordinal);
         Assert.DoesNotContain("future provider script", render, StringComparison.Ordinal);
     }
 
     [Fact]
-    public void Export_controls_are_keyboard_sized_report_status_and_allow_safe_cancel()
+    public void Export_controls_are_keyboard_sized_automatic_and_allow_safe_cancel()
     {
         var controls = ReadAppFile("Themes", "NyxControls.xaml");
         var xaml = ReadAppFile("MainPage.xaml");
@@ -72,12 +72,30 @@ public sealed class PengoWebToolsUiTests
         Assert.Contains("AutomationProperties.LiveSetting=\"Polite\"", xaml, StringComparison.Ordinal);
         Assert.Contains("x:Name=\"CancelExportButton\"", xaml, StringComparison.Ordinal);
         Assert.Contains("x:Name=\"OpenExportsButton\"", xaml, StringComparison.Ordinal);
-        Assert.Contains("x:Name=\"ConfirmWorldButton\"", xaml, StringComparison.Ordinal);
-        Assert.Contains("x:Name=\"ConfirmHistoryButton\"", xaml, StringComparison.Ordinal);
-        Assert.Contains("exportSignals.ConfirmWorldReady", code, StringComparison.Ordinal);
-        Assert.Contains("exportSignals.ConfirmHistory", code, StringComparison.Ordinal);
+        Assert.DoesNotContain("ConfirmWorldButton", xaml + code, StringComparison.Ordinal);
+        Assert.DoesNotContain("ConfirmHistoryButton", xaml + code, StringComparison.Ordinal);
+        Assert.DoesNotContain("exportSignals", code, StringComparison.Ordinal);
+        Assert.Contains("Nyx continues automatically", code, StringComparison.Ordinal);
+        Assert.Contains("job.Pulls.ErrorCode", code, StringComparison.Ordinal);
+        Assert.Contains("job.Achievements.ErrorCode", code, StringComparison.Ordinal);
         Assert.Contains("exports.Cancel(jobId)", code, StringComparison.Ordinal);
         Assert.Contains("LaunchFolderPathAsync", code, StringComparison.Ordinal);
+    }
+
+    [Fact]
+    public void Window_close_awaits_export_and_account_cleanup_before_final_close()
+    {
+        var app = ReadAppFile("App.xaml.cs");
+        var shutdown = Slice(app, "private async Task ShutDownAccountsAndCloseAsync", "private void Window_Closed");
+
+        Assert.Contains("DisposeExportsAsync(_exports, _pullExports)", shutdown, StringComparison.Ordinal);
+        Assert.Contains("await Task.WhenAll(wuwaAccountShutdown, publisherAccountShutdown)", shutdown, StringComparison.Ordinal);
+        Assert.Contains("await exportShutdown", shutdown, StringComparison.Ordinal);
+        Assert.True(shutdown.IndexOf("await Task.WhenAll", StringComparison.Ordinal)
+            < shutdown.IndexOf("_window?.Close()", StringComparison.Ordinal));
+        Assert.True(shutdown.IndexOf("await exportShutdown", StringComparison.Ordinal)
+            < shutdown.IndexOf("_window?.Close()", StringComparison.Ordinal));
+        Assert.DoesNotContain("_ = DisposeExportsAsync", app, StringComparison.Ordinal);
     }
 
     [Fact]

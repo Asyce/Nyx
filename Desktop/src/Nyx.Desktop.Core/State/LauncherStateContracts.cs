@@ -8,7 +8,7 @@ namespace Nyx.Desktop.Core.State;
 /// <summary>Versioned, user-owned launcher state. The record contains no process or UI state.</summary>
 public sealed record LauncherState
 {
-    public const int CurrentVersion = 2;
+    public const int CurrentVersion = 3;
 
     public int Version { get; init; } = CurrentVersion;
     public string SelectedGameId { get; init; } = "gi";
@@ -34,11 +34,12 @@ public sealed record GameAppearanceState
     public int ArtX { get; init; }
     public int ArtY { get; init; }
     public string? ArtVariant { get; init; }
+    public string ArtFit { get; init; } = "cover";
     public bool ArtPinned { get; init; }
     public string? PinnedArtFile { get; init; }
 
     public GameAppearanceState Normalize()
-        => this with { ArtScale = Math.Clamp(ArtScale, 50, 250) };
+        => this with { ArtScale = Math.Clamp(ArtScale, 25, 500) };
 }
 
 public sealed record ExportArmingState
@@ -65,6 +66,11 @@ public sealed record LauncherGlobalPreferences
     public bool SafeNotifications { get; init; } = true;
     public string? DataDirectory { get; init; }
     public string? EndfieldInstallRoot { get; init; }
+    public IReadOnlyDictionary<string, string> ManualInstallRoots { get; init; } =
+        new ReadOnlyDictionary<string, string>(new Dictionary<string, string>(StringComparer.Ordinal));
+    public IReadOnlyDictionary<string, IReadOnlyList<string>> CopiedRedemptionCodes { get; init; } =
+        new ReadOnlyDictionary<string, IReadOnlyList<string>>(
+            new Dictionary<string, IReadOnlyList<string>>(StringComparer.Ordinal));
     public LauncherFeatureFlags FeatureFlags { get; init; } = LauncherFeatureFlags.Defaults();
 }
 

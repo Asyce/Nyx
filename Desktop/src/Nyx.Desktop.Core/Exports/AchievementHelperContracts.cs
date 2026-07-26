@@ -30,6 +30,5 @@ public sealed class AchievementHelperExportProvider : IAchievementExportProvider
     public ValueTask<IAchievementExportSession> StartAsync(
         string gameId,
         string? outputPath,
-        IExportSignalWaiter signals,
         CancellationToken cancellationToken) => helper.StartAsync(gameId, outputPath, cancellationToken);
 }

@@ -1,4 +1,5 @@
 using System.Runtime.InteropServices;
+using System.Security.Cryptography;
 using Nyx.Desktop.Core.PublisherGames;
 using Nyx.Desktop.Infrastructure.PublisherGames;
 using Xunit.Sdk;
@@ -32,6 +33,60 @@ public sealed class WuWaIdentityAdapterTests
         Assert.Equal(PublisherGameInspectionStatus.Ready, result.Status);
         Assert.Equal("3.5.0", result.Version);
         Assert.False(result.AllowsDirectGameLaunch);
+    }
+
+    [Fact]
+    public void Current_official_resource_shape_uses_runtime_size_and_checksum_when_from_folder_is_null()
+    {
+        using var fixture = FakePublisherInstall.CreateWuWa(
+            configVersion: "3.5.3",
+            resourceVersion: "3.5.3");
+        var runtimePath = fixture.PathOf(
+            @"Wuthering Waves Game\Client\Binaries\Win64\Client-Win64-Shipping.exe");
+        var runtimeBytes = File.ReadAllBytes(runtimePath);
+        var runtimeMd5 = Convert.ToHexString(MD5.HashData(runtimeBytes)).ToLowerInvariant();
+        File.WriteAllText(
+            fixture.PathOf(@"Wuthering Waves Game\LocalGameResources.json"),
+            $$"""
+            {"resource":[{
+              "dest":"{{WuWaPublicEvidenceParser.ExpectedRuntimeDestination}}",
+              "size":{{runtimeBytes.Length}},
+              "md5":"{{runtimeMd5}}",
+              "fromFolder":null,
+              "chunkInfos":[{"start":0,"end":{{runtimeBytes.Length - 1}},"md5":"{{runtimeMd5}}"}]
+            }]}
+            """);
+
+        var result = fixture.CreateWuWaAdapter().Inspect(fixture.Root);
+
+        Assert.Equal(PublisherGameInspectionStatus.Ready, result.Status);
+        Assert.Equal("3.5.3", result.Version);
+    }
+
+    [Theory]
+    [InlineData(4, "d4cdb8e9b7fb58a7baaba746deee3d03")]
+    [InlineData(3, "00000000000000000000000000000000")]
+    [InlineData(3, "D4CDB8E9B7FB58A7BAABA746DEEE3D03")]
+    public void Current_resource_shape_rejects_runtime_size_or_checksum_mismatch(
+        int size,
+        string md5)
+    {
+        using var fixture = FakePublisherInstall.CreateWuWa(resourceVersion: "3.5.0");
+        File.WriteAllText(
+            fixture.PathOf(@"Wuthering Waves Game\LocalGameResources.json"),
+            $$"""
+            {"resource":[{
+              "dest":"{{WuWaPublicEvidenceParser.ExpectedRuntimeDestination}}",
+              "size":{{size}},
+              "md5":"{{md5}}",
+              "fromFolder":null
+            }]}
+            """);
+
+        var result = fixture.CreateWuWaAdapter().Inspect(fixture.Root);
+
+        Assert.Equal(PublisherGameInspectionReason.ResourceEvidenceMalformed, result.Reason);
+        Assert.False(result.HasFullInstallMaintenanceProof);
     }
 
     [Theory]
@@ -160,12 +215,13 @@ public sealed class WuWaIdentityAdapterTests
     public void Duplicate_runtime_resource_match_is_rejected()
     {
         using var fixture = FakePublisherInstall.CreateWuWa();
+        const string runtimeMd5 = "d4cdb8e9b7fb58a7baaba746deee3d03";
         File.WriteAllText(
             fixture.PathOf(@"Wuthering Waves Game\LocalGameResources.json"),
             $$"""
             {"resource":[
-              {"dest":"{{WuWaPublicEvidenceParser.ExpectedRuntimeDestination}}","fromFolder":"a/3.5.1/b"},
-              {"dest":"{{WuWaPublicEvidenceParser.ExpectedRuntimeDestination}}","fromFolder":"c/3.5.1/d"}
+              {"dest":"{{WuWaPublicEvidenceParser.ExpectedRuntimeDestination}}","size":3,"md5":"{{runtimeMd5}}","fromFolder":"a/3.5.1/b"},
+              {"dest":"{{WuWaPublicEvidenceParser.ExpectedRuntimeDestination}}","size":3,"md5":"{{runtimeMd5}}","fromFolder":"c/3.5.1/d"}
             ]}
             """);
 
@@ -316,7 +372,7 @@ public sealed class WuWaIdentityAdapterTests
         var result = fixture.CreateWuWaAdapter().Inspect(fixture.Root);
 
         Assert.False(result.AllowsDirectGameLaunch);
-        Assert.Equal(PublisherGameInspectionReason.VersionConflict, result.Reason);
+        Assert.Equal(PublisherGameInspectionReason.ResourceEvidenceMalformed, result.Reason);
     }
 
     [Theory]

@@ -33,10 +33,12 @@ internal sealed class FakePublisherInstall : IDisposable
         var versionLauncher = WriteExecutable(root, @"2.6.3.0\launcher.exe", launcherBytes);
         var gameRoot = Directory.CreateDirectory(Path.Combine(root, "Wuthering Waves Game")).FullName;
         var bootstrap = WriteExecutable(gameRoot, "Wuthering Waves.exe", [2, 5, 8]);
+        byte[] runtimeBytes = [3, 6, 9];
         var runtime = WriteExecutable(
             gameRoot,
             @"Client\Binaries\Win64\Client-Win64-Shipping.exe",
-            [3, 6, 9]);
+            runtimeBytes);
+        var runtimeMd5 = Convert.ToHexString(MD5.HashData(runtimeBytes)).ToLowerInvariant();
         WriteConfig(Path.Combine(gameRoot, "launcherDownloadConfig.json"), configVersion);
         WriteConfig(
             Path.Combine(gameRoot, @"launcherDownload\launcherDownloadConfig.json"),
@@ -46,7 +48,7 @@ internal sealed class FakePublisherInstall : IDisposable
             $$"""
             {"resource":[
               {"dest":"unrelated/file.bin","fromFolder":null},
-              {"dest":"{{WuWaPublicEvidenceParser.ExpectedRuntimeDestination}}","fromFolder":"redacted/{{resourceVersion}}/redacted/"}
+              {"dest":"{{WuWaPublicEvidenceParser.ExpectedRuntimeDestination}}","size":{{runtimeBytes.Length}},"md5":"{{runtimeMd5}}","fromFolder":"redacted/{{resourceVersion}}/redacted/"}
             ]}
             """);
 

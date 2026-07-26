@@ -57,14 +57,14 @@ const CM_BETA_META = {
   "hsr": {
     "version": "4.4.51",
     "liveVersion": "4.4",
-    "newCount": 0,
-    "changedCount": 19
+    "newCount": 2,
+    "changedCount": 17
   },
   "zzz": {
     "version": "3.1.5+17516165",
     "liveVersion": "3.0",
-    "newCount": 2,
-    "changedCount": 7
+    "newCount": 1,
+    "changedCount": 8
   }
 };
 const CM_LOADS = window.__NYX_CM_LOADS || {};

@@ -67,12 +67,14 @@ public sealed class PublisherGameDirectLaunchService
                     new("Client-Win64-Shipping", @"Wuthering Waves Game\Client\Binaries\Win64\Client-Win64-Shipping.exe", IsBootstrap: false),
                 ],
                 PublisherGameInspectionReason.VersionConflict,
-                PublisherGameVersionState.Conflict),
+                PublisherGameVersionState.Conflict,
+                AllowsVersionedReady: true),
             ["ae"] = new(
                 @"games\EndField Game\Endfield.exe",
                 [new("Endfield", @"games\EndField Game\Endfield.exe", IsBootstrap: false)],
                 PublisherGameInspectionReason.VersionUnavailable,
-                PublisherGameVersionState.Unavailable),
+                PublisherGameVersionState.Unavailable,
+                AllowsVersionedReady: false),
         };
 
     private readonly IPublisherGameDirectLaunchIdentityValidator validator;
@@ -265,10 +267,15 @@ public sealed class PublisherGameDirectLaunchService
         string? suppliedRoot,
         LaunchProfile profile,
         PublisherGameInspectionResult inspection) =>
-        inspection.Status is PublisherGameInspectionStatus.NeedsReview
-        && inspection.Reason == profile.RequiredReason
-        && inspection.VersionState == profile.RequiredVersionState
-        && inspection.Version is null
+        ((profile.AllowsVersionedReady
+             && inspection.Status is PublisherGameInspectionStatus.Ready
+             && inspection.Reason is PublisherGameInspectionReason.None
+             && inspection.VersionState is PublisherGameVersionState.Available
+             && !string.IsNullOrWhiteSpace(inspection.Version))
+         || (inspection.Status is PublisherGameInspectionStatus.NeedsReview
+             && inspection.Reason == profile.RequiredReason
+             && inspection.VersionState == profile.RequiredVersionState
+             && inspection.Version is null))
         && inspection.HasFullInstallMaintenanceProof
         && string.Equals(inspection.GameId, gameId, StringComparison.Ordinal)
         && !string.IsNullOrWhiteSpace(inspection.CanonicalRoot)
@@ -322,7 +329,8 @@ public sealed class PublisherGameDirectLaunchService
         string ExecutableRelativePath,
         IReadOnlyList<ProcessProfile> Processes,
         PublisherGameInspectionReason RequiredReason,
-        PublisherGameVersionState RequiredVersionState);
+        PublisherGameVersionState RequiredVersionState,
+        bool AllowsVersionedReady);
 
     private sealed record ProcessProfile(
         string ProcessName,

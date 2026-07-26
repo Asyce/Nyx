@@ -2,6 +2,40 @@
 
 Status: approved for local implementation and testing. This document is the single source of truth for the desktop work. It supersedes earlier launcher plans where they conflict.
 
+Finalised 2026-07-21. This revision folds in the two later account handoffs
+(`docs/desktop-energy-status-integration-handoff-2026-07-20.md`,
+`docs/desktop-daily-checkin-handoff-2026-07-20.md`) and the redemption-code
+premium-currency request, and records the authoritative completion status and
+remaining work in the final two sections. Where those sections conflict with older
+progress notes, this document wins.
+
+## Later approved changes
+
+The user's later visual and account decisions supersede these older parts of this
+specification:
+
+- The official-news panel is removed. The left panel is a vertical current/next
+  banner cycle with character icons; premium codes live in the bottom deck.
+- Google Drive portraits and game logos are removed. Banner character presentation
+  uses locally packaged splash art only.
+- No manual resource timers are provided.
+- Explicit, local-only publisher account connections may show supported resources
+  (see **Publisher account resource cards**) and run a user-pressed one-button daily
+  check-in (see **One-button daily check-in**). Both are opt-in, default off, and
+  local-only. The private personal build is the approved product decision. The
+  security boundary and support status live in `docs/desktop-boundary.md` and
+  `docs/v1-support-matrix.md`, which must record the narrow account/check-in
+  exception before either feature is enabled.
+- The redemption-code deck shows the amount of premium currency each code grants
+  and that currency's icon, including Endfield's Oroberyl (see **Redemption codes
+  deck: premium-currency amounts and icons**).
+- The user explicitly approved committing, pushing, and production-deploying the
+  launcher code/banner/art feeds and the related Pengo site icon fixes (including
+  the pengo.gg Endfield Oroberyl premium icon). That narrow approval supersedes
+  older blanket "no production deployment" wording below, but each deploy still
+  waits for an explicit go-ahead and passes the pre-deploy gate in
+  `Nyx/docs/agent-index.md`.
+
 ## Product boundary
 
 Nyx directly discovers, validates, starts, observes, and re-starts games when the user clicks Launch. Different games may run at the same time. Nyx never starts a closed game by itself.
@@ -11,6 +45,8 @@ The official publisher launcher owns installation, downloading, updates, pre-dow
 Required copy: **Nyx launches the game. Updates, repairs and installs happen in the official launcher.**
 
 Nyx remains non-administrator. An exact game executable may show Windows approval when its publisher requires it. A custom game may explicitly opt into Windows approval. Export helpers are split by the least privilege they need; the main launcher never elevates.
+
+One narrow, opt-in exception extends this boundary: with the user's explicit per-publisher consent, Nyx may open a Nyx-owned, isolated official login page to show that publisher's own resource values and to press that publisher's own daily check-in control. This exception never authorizes generic browser automation, background bots, scheduled runs, reading another browser's profile, credential collection, or game automation. Every account feature stays default off and local-only, and public distribution waits for a recorded policy/security review.
 
 ## Visual direction
 
@@ -179,6 +215,37 @@ Privilege split:
 
 The bundled private decoder material is never logged or surfaced. Public distribution requires a separate legal/security/publisher-rule review even though license text is not being treated as authoritative for this local build.
 
+## Publisher account resource cards
+
+Full detail: `docs/desktop-energy-status-integration-handoff-2026-07-20.md`. This section records the approved decision and the completion-relevant contract.
+
+Product decision: the private personal build is approved. Narrowly sealed, local-only account-status providers are permitted behind per-publisher opt-in flags that default off. `docs/desktop-boundary.md` and `docs/v1-support-matrix.md` are updated to record this exception before the feature is enabled.
+
+One shared resource strip sits immediately above the selected game's Launch button and renders only the selected game:
+
+- `gi` Original Resin, `hsr` Trailblaze Power and reserve, `zzz` Battery Charge, `wuwa` Waveplates and reserve — experimental local providers, each labelled **Unofficial local connection · may stop working**;
+- `ae` Endfield Sanity — Phase 1 is an **Open Protocol Terminal** official-page handoff only; no private numeric card, no scraping.
+
+Provider rules: `CONNECT`/`START` is an explicit opt-in; `REFRESH` is manual and never overlaps an in-flight request; `DISCONNECT` cancels work and clears Nyx-owned secrets and cached account data first. GI/HSR/ZZZ share one isolated HoYoLAB WebView2 session but keep one independent result each; Kuro (WuWa) and Gryphline stay separate and cannot block HoYo or each other. When a game has more than one UID/server, the user makes an explicit choice shown as a transient masked UID/region — no first-entry or highest-level fallback. Account, UID, server, or role-list changes clear the old snapshot and require selection again. Countdowns run locally between accepted snapshots. Account state never alters Ready/Running, publisher maintenance, or the Launch action. No cookie, token, UID, or response body enters logs, launcher state JSON, process arguments, clipboard, or crash reports; Nyx-owned secrets use DPAPI/Windows Credential Manager and are deleted on disconnect. Feature flags default off; a remote kill switch may only disable a provider, never add endpoints, signing values, or permissions.
+
+The existing WuWa account-status vertical slice is preserved and audited before migration to the shared contract. Fix its known gaps first: the `WuWaLauncherCredentialReader` `distinct[0]` fallback when several unselected cache accounts exist, the observer-vs-shared-provider cancellation behavior, and the un-awaited shutdown disposal in `App.xaml.cs`.
+
+## One-button daily check-in
+
+Full detail: `docs/desktop-daily-checkin-handoff-2026-07-20.md`.
+
+The launcher provides **Connect HoYoLAB**, **Connect SKPORT**, and **CHECK IN ALL**, producing one honest result per game: `Claimed`, `Already claimed`, `Login needed`, `Unavailable`, or `Could not check`. Supported: `gi`, `hsr`, `zzz` through the shared isolated HoYoLAB WebView2 profile; `ae` through a separate SKPORT profile; `wuwa` has no persistent official web check-in and is skipped until one is proven.
+
+First version: explicit button press only — no scheduling and no start-with-Windows. Initial login, CAPTCHA, two-factor, and character selection happen in the visible official page; automated claiming performs top-level navigation only to the fixed, fully normalized canonical check-in URL per game. One operation lock prevents overlapping clicks; each run owns a generation token and its WebView until all work stops, and a run that cannot be proven stopped quarantines that profile for the session. Credential-free health checks validate each canonical page and reject the known false positives: the stale GI event id, the fake SKPORT shell, the WuWa homepage redirect, and a ZZZ probe missing the `x-rpc-signgame: zzz` header. Publisher-policy risk is recorded — HoYoLAB and Gryphline terms restrict unauthorized automation, so the feature is never described as officially supported, is not enabled by default, and is not publicly distributed without a recorded policy/security decision.
+
+## Redemption codes deck: premium-currency amounts and icons
+
+Each redemption code in the bottom deck shows the amount of premium currency it grants and that currency's icon. Premium currency per game: Genshin Primogems, Honkai: Star Rail Stellar Jade, Zenless Zone Zero Polychrome, Wuthering Waves Astrite, and Arknights: Endfield **Oroberyl** (`Database/EndfieldWiki/endfield/material-icons/Oroberyl.png`).
+
+The launcher codes feed (`Site/tools/generate-launcher-codes.mjs` → `launcher-codes-v1`) carries the parsed premium amount and the icon reference per code; the desktop deck renders both. Codes with no premium reward, or an amount that cannot be parsed with confidence, render without a fabricated number.
+
+The user also approved updating the live pengo.gg site so Endfield uses the Oroberyl premium icon. That change currently lives on branch `codex/oroberyl-launcher-codes`; it is committed, pushed, and production-deployed only on an explicit go-ahead and after the pre-deploy gate in `Nyx/docs/agent-index.md` passes.
+
 ## Diagnostics, recovery, and feature flags
 
 Diagnostics may include launcher version, capability flags, game/export state names, sanitized error codes, manifest revision/health, cache totals, and discovery result categories. They exclude secrets, account identifiers, raw network material, and sensitive full paths.
@@ -204,7 +271,9 @@ The repository must end with a reproducible unsigned or development-signed distr
 7. Convert the Rust achievement helper to launcher mode and add the export coordinator.
 8. Implement safe GI/HSR pull collectors and UIGF serialization; add hidden ZZZ/WuWa provider slots.
 9. Add diagnostics, recovery, notifications, flags, packaging/update scaffolding, and migration/uninstall behavior.
-10. Complete all automated, visual, live-install, privilege, security, import, offline, cache, and packaging gates; obtain independent test and code review; fix every actionable finding.
+10. Add publisher account resource cards and one-button daily check-in per the two account handoffs, both opt-in and default off; update `docs/desktop-boundary.md` and `docs/v1-support-matrix.md` first, and audit/migrate the existing WuWa slice rather than rewriting it.
+11. Add premium-currency amounts and icons to the redemption-code feed and deck, including the Endfield Oroberyl icon.
+12. Complete all automated, visual, live-install, privilege, security, import, offline, cache, and packaging gates; obtain independent test and code review; fix every actionable finding.
 
 ## Completion gates
 
@@ -217,6 +286,40 @@ The repository must end with a reproducible unsigned or development-signed distr
 - Current banners never select expired/overlapping/uncertain phases; art hashes and 150 MB cleanup pass; offline fallback works.
 - Every GI/HSR arming combination passes. Export failure never blocks launch. Outputs import into Pengo. No secret appears in logs, process arguments, clipboard, files, diagnostics, notifications, or crashes.
 - GI Npcap is unelevated; only the narrow HSR helper may request approval; the launcher remains unelevated.
+- Account resource cards and daily check-in are opt-in and default off; every account action (HoYoLAB, SKPORT, WuWa) is gated behind its own default-off consent flag; multi-role accounts require an explicit masked selection; disconnect clears per publisher; account state never changes Launch or maintenance; no secret appears in logs, state JSON, arguments, clipboard, files, or crashes; and the `docs/desktop-boundary.md`/`docs/v1-support-matrix.md` exception is recorded.
+- Each redemption code shows the correct premium-currency amount and icon, and Endfield uses the Oroberyl icon.
 - Desktop, Rust, scraper, site, accessibility, reduced-motion, responsive, packaging, migration, updater, and rollback tests pass.
 - Independent test-runner and reviewer report no unresolved blocker.
-- Nothing is deployed to production.
+- No production deployment happens without an explicit user go-ahead; the only pre-approved production changes are the launcher code/banner/art feeds and the pengo.gg Endfield Oroberyl premium icon, each still gated on that go-ahead and the pre-deploy gate.
+
+## Completion status and remaining work (finalised 2026-07-21)
+
+This is the current authoritative status. It supersedes earlier "in progress" wording in older docs. It was reconciled against the working tree and the final independent review after the executing Codex session stopped on its usage limit mid-fix.
+
+### Done and committed
+- Launcher v1 foundation and shell are committed (`feat(desktop): complete Nyx launcher v1`): frameless UI, all five games discover/launch/detect running-and-closed/relaunch/run concurrently, the banner and character-art feed, GI/HSR export arming, and packaging scaffolding.
+- As reported by the build/test gates: the full x64 solution builds with zero warnings and zero errors; the desktop suite passes 1,260/1,260; the Rust achievement library, launcher-process integration, and security-static suites pass.
+- The WuWa account-status vertical slice exists behind an opt-in, default-off flag.
+
+### In-flight, interrupted, and unverified
+Both remaining fix agents errored on the Codex usage limit (resets on or after 2026-07-28), so the following are partially landed and not confirmed:
+- HoYoLAB and SKPORT consent flags now exist and default off, but the UI gating that hides/blocks their account buttons behind those flags is not confirmed complete (final-review High finding).
+- A `PublisherRoleChoice` contract exists, but the masked-UID/region multi-account picker UI is not finished (Medium finding).
+- The banner parser now rejects a manifest whose health is not `ok`; the overlapping/uncertain current-vs-upcoming phase rejection still needs confirming against the live manifest (Medium finding).
+
+### Remaining work to done (ordered)
+1. Finish and verify the three review fixes above.
+2. Remove or gitignore the ~868 MB untracked `Desktop/packaging/.audit/` directory before any staging (final-review Medium finding).
+3. Regenerate and commit the launcher-banners and launcher-codes feeds so the freshness gate passes; the prior failure was a >15-minute-stale manifest plus CRLF drift plus one missing generator file (`Site/tools/generate-launcher-codes.mjs`, since restored).
+4. Build the folded features that are still specification-only: the shared publisher account resource cards and the one-button daily check-in (per the two account handoffs), and premium-currency amounts/icons in the codes deck including Endfield Oroberyl. Update `docs/desktop-boundary.md` and `docs/v1-support-matrix.md` first.
+5. Commit and push the desktop v1 working tree (currently roughly 150 uncommitted changes).
+6. Run every remaining gate green: packaging/installer and uninstall, migration, accessibility, reduced motion, responsive, security/secret scan, offline, and cache.
+7. Obtain one clean independent test and code review with zero unresolved blockers.
+8. Only on explicit user approval: merge `codex/oroberyl-launcher-codes` and deploy the pengo.gg Endfield premium-icon change, following the pre-deploy gate.
+
+### Out of scope for this build
+Everything in `docs/desktop-post-v1-roadmap-2026-07-21.md` — code signing and release channel, performance and payload budgets, local notifications, taskbar quick-launch, local play history, the migration assistant, and MSIX/differential distribution. None of it is required for completion of this specification.
+
+### Standing constraints
+- No commit, push, package publication, or production deployment without explicit approval, except the two pre-approved production changes named in the completion gates, which still wait for a go-ahead.
+- Account resource cards and daily check-in stay opt-in, default off, and local-only, with no public distribution until a recorded policy and security review.

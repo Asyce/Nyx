@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-26T13:45:05.871Z",
+  "generatedAt": "2026-07-27T03:49:20.072Z",
   "games": {
     "gi": [
       {
         "code": "LEGEDILJKSGM",
-        "added": "2026-07-26",
+        "added": "2026-07-27",
         "amount": 60,
         "currency": "Primogems"
       }
@@ -13,31 +13,31 @@
     "hsr": [
       {
         "code": "5S6ZHRWTDNJB",
-        "added": "2026-07-26",
+        "added": "2026-07-27",
         "amount": 60,
         "currency": "Stellar Jade"
       },
       {
         "code": "4TKSX77Y58QK",
-        "added": "2026-07-26",
+        "added": "2026-07-27",
         "amount": 30,
         "currency": "Stellar Jade"
       },
       {
         "code": "CREATIONNYMPH",
-        "added": "2026-07-26",
+        "added": "2026-07-27",
         "amount": 60,
         "currency": "Stellar Jade"
       },
       {
         "code": "FAREWELL",
-        "added": "2026-07-26",
+        "added": "2026-07-27",
         "amount": 60,
         "currency": "Stellar Jade"
       },
       {
         "code": "IFYOUAREREADINGTHIS",
-        "added": "2026-07-26",
+        "added": "2026-07-27",
         "amount": 60,
         "currency": "Stellar Jade"
       }
@@ -45,31 +45,31 @@
     "zzz": [
       {
         "code": "ROSCAELIFER0617",
-        "added": "2026-07-26",
+        "added": "2026-07-27",
         "amount": 30,
         "currency": "Polychrome"
       },
       {
         "code": "ZENLESSGIFT",
-        "added": "2026-07-26",
+        "added": "2026-07-27",
         "amount": 50,
         "currency": "Polychrome"
       },
       {
         "code": "ZZZ30BANGBOO",
-        "added": "2026-07-26",
+        "added": "2026-07-27",
         "amount": 60,
         "currency": "Polychrome"
       },
       {
         "code": "ZZZSEASON3",
-        "added": "2026-07-26",
+        "added": "2026-07-27",
         "amount": 50,
         "currency": "Polychrome"
       },
       {
         "code": "ZZZSTEAM",
-        "added": "2026-07-26",
+        "added": "2026-07-27",
         "amount": 60,
         "currency": "Polychrome"
       }
@@ -84,5 +84,5 @@
       }
     ]
   },
-  "revision": "d46f6bee1856334fdc8029cdeaf297f964ac8e0267cd9e3e10103131b832efde"
+  "revision": "fe9a8d7e2e354c9436f45af5d54d1e8dfad552f66100780a7a85edf8891b5158"
 }

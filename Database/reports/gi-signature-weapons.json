@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-26T09:08:25.461Z",
-  "startedAt": "2026-07-26T09:07:53.697Z",
+  "generatedAt": "2026-07-27T10:36:36.876Z",
+  "startedAt": "2026-07-27T10:35:56.582Z",
   "dryRun": false,
   "source": "GameWith character build pages + web consensus fallback",
   "sourcePage": "https://gamewith.net/genshin-impact/article/show/22357",
@@ -118,14 +118,6 @@
           "matchedText": "w are Alyosha's best weapons. Alyosha mainly wants Energy Recharge to use his Elemental Burst every rotation, while also benefiting from ATK due to his healing and damage scaling. Engulfing Lightning R1 Timeless Dream: Eternal Stove Base ATK: 608 Energy Recharge: 55.1% ATK increased by 28% / 35% / 42% / 49% / 56% of Energy Recharge over the base 100%. You ca"
         },
         {
-          "title": "Genshin Impact Alyosha materials, kit, and Constellations",
-          "url": "https://www.eurogamer.net/genshin-impact-alyosha-materials-ascension-talent-kit-constellations",
-          "domain": "eurogamer.net",
-          "query": "Alyosha Genshin Impact signature weapon",
-          "searchProvider": "bing-rss",
-          "status": "no-match"
-        },
-        {
           "title": "Alyosha Guide, Profile, Talents and Constellations",
           "url": "https://www.icy-veins.com/genshin-impact/alyosha-profile-talents-constellations",
           "domain": "icy-veins.com",
@@ -134,9 +126,9 @@
           "status": "no-match"
         },
         {
-          "title": "Genshin Impact | Alyosha Release Date & Known Information",
-          "url": "https://gamewith.net/genshin-impact/article/show/76471",
-          "domain": "gamewith.net",
+          "title": "Genshin Impact Alyosha Materials Guide – Complete Prefarm List for ...",
+          "url": "https://www.enjoygm.com/blog/genshin-impact/alyosha-material-guide",
+          "domain": "enjoygm.com",
           "query": "Alyosha Genshin Impact signature weapon",
           "searchProvider": "bing-rss",
           "status": "no-match"

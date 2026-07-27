@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T09:07:43.226Z",
+  "generatedAt": "2026-07-27T10:35:47.498Z",
   "source": "Genshin Impact Wiki / Fandom MediaWiki API",
   "sourceExample": "https://genshin-impact.fandom.com/wiki/Ifa/Gallery",
   "requestedWidth": 1800,
@@ -4245,9 +4245,21 @@
           "mime": "image/png"
         },
         {
+          "file": "Klee Birthday 2026.png",
+          "title": "Klee Birthday 2026.png (1.7 MB)",
+          "localAsset": "GenshinWiki/birthday-art/klee/08-Klee Birthday 2026.png",
+          "sourcePage": "https://genshin-impact.fandom.com/wiki/Klee/Gallery",
+          "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Klee_Birthday_2026.png",
+          "width": 1800,
+          "height": 1800,
+          "originalWidth": 2500,
+          "originalHeight": 2500,
+          "mime": "image/png"
+        },
+        {
           "file": "Klee TPRGT 2022 - Aether.png",
           "title": "Klee TPRGT 2022 - Aether.png (2.27 MB)",
-          "localAsset": "GenshinWiki/birthday-art/klee/08-Klee TPRGT 2022 - Aether.png",
+          "localAsset": "GenshinWiki/birthday-art/klee/09-Klee TPRGT 2022 - Aether.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Klee/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Klee_TPRGT_2022_-_Aether.png",
           "width": 1800,
@@ -4259,7 +4271,7 @@
         {
           "file": "Klee TPRGT 2022 - Lumine.png",
           "title": "Klee TPRGT 2022 - Lumine.png (2.28 MB)",
-          "localAsset": "GenshinWiki/birthday-art/klee/09-Klee TPRGT 2022 - Lumine.png",
+          "localAsset": "GenshinWiki/birthday-art/klee/10-Klee TPRGT 2022 - Lumine.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Klee/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Klee_TPRGT_2022_-_Lumine.png",
           "width": 1800,
@@ -4271,7 +4283,7 @@
         {
           "file": "Klee TPRGT 2023 - Aether.png",
           "title": "Klee TPRGT 2023 - Aether.png (2.61 MB)",
-          "localAsset": "GenshinWiki/birthday-art/klee/10-Klee TPRGT 2023 - Aether.png",
+          "localAsset": "GenshinWiki/birthday-art/klee/11-Klee TPRGT 2023 - Aether.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Klee/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Klee_TPRGT_2023_-_Aether.png",
           "width": 1800,
@@ -4283,7 +4295,7 @@
         {
           "file": "Klee TPRGT 2023 - Lumine.png",
           "title": "Klee TPRGT 2023 - Lumine.png (2.63 MB)",
-          "localAsset": "GenshinWiki/birthday-art/klee/11-Klee TPRGT 2023 - Lumine.png",
+          "localAsset": "GenshinWiki/birthday-art/klee/12-Klee TPRGT 2023 - Lumine.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Klee/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Klee_TPRGT_2023_-_Lumine.png",
           "width": 1800,
@@ -4465,9 +4477,21 @@
           "mime": "image/png"
         },
         {
+          "file": "Kuki Shinobu Birthday 2026.png",
+          "title": "Kuki Shinobu Birthday 2026.png (7.19 MB)",
+          "localAsset": "GenshinWiki/birthday-art/kukishinobu/05-Kuki Shinobu Birthday 2026.png",
+          "sourcePage": "https://genshin-impact.fandom.com/wiki/Kuki%20Shinobu/Gallery",
+          "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Kuki_Shinobu_Birthday_2026.png",
+          "width": 1800,
+          "height": 1800,
+          "originalWidth": 3000,
+          "originalHeight": 3000,
+          "mime": "image/png"
+        },
+        {
           "file": "Kuki Shinobu TPRGT 2022 - Aether.png",
           "title": "Kuki Shinobu TPRGT 2022 - Aether.png (2.46 MB)",
-          "localAsset": "GenshinWiki/birthday-art/kukishinobu/05-Kuki Shinobu TPRGT 2022 - Aether.png",
+          "localAsset": "GenshinWiki/birthday-art/kukishinobu/06-Kuki Shinobu TPRGT 2022 - Aether.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Kuki%20Shinobu/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Kuki_Shinobu_TPRGT_2022_-_Aether.png",
           "width": 1800,
@@ -4479,7 +4503,7 @@
         {
           "file": "Kuki Shinobu TPRGT 2022 - Lumine.png",
           "title": "Kuki Shinobu TPRGT 2022 - Lumine.png (2.49 MB)",
-          "localAsset": "GenshinWiki/birthday-art/kukishinobu/06-Kuki Shinobu TPRGT 2022 - Lumine.png",
+          "localAsset": "GenshinWiki/birthday-art/kukishinobu/07-Kuki Shinobu TPRGT 2022 - Lumine.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Kuki%20Shinobu/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Kuki_Shinobu_TPRGT_2022_-_Lumine.png",
           "width": 1800,
@@ -4491,7 +4515,7 @@
         {
           "file": "Kuki Shinobu TPRGT 2023 - Aether.png",
           "title": "Kuki Shinobu TPRGT 2023 - Aether.png (2.77 MB)",
-          "localAsset": "GenshinWiki/birthday-art/kukishinobu/07-Kuki Shinobu TPRGT 2023 - Aether.png",
+          "localAsset": "GenshinWiki/birthday-art/kukishinobu/08-Kuki Shinobu TPRGT 2023 - Aether.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Kuki%20Shinobu/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Kuki_Shinobu_TPRGT_2023_-_Aether.png",
           "width": 1800,
@@ -4503,7 +4527,7 @@
         {
           "file": "Kuki Shinobu TPRGT 2023 - Lumine.png",
           "title": "Kuki Shinobu TPRGT 2023 - Lumine.png (2.78 MB)",
-          "localAsset": "GenshinWiki/birthday-art/kukishinobu/08-Kuki Shinobu TPRGT 2023 - Lumine.png",
+          "localAsset": "GenshinWiki/birthday-art/kukishinobu/09-Kuki Shinobu TPRGT 2023 - Lumine.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Kuki%20Shinobu/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Kuki_Shinobu_TPRGT_2023_-_Lumine.png",
           "width": 1800,

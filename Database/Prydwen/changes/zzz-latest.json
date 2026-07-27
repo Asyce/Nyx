@@ -1,28 +1,21 @@
 {
   "provider": "Prydwen",
   "game": "zzz",
-  "generatedAt": "2026-07-26T07:54:40.506Z",
+  "generatedAt": "2026-07-27T08:52:49.522Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 1,
-      "unchanged": 67
+      "changed": 0,
+      "unchanged": 68
     }
   },
   "sections": {
     "records": {
       "added": [],
       "removed": [],
-      "changed": [
-        {
-          "id": "characters:qingyi",
-          "name": "Qingyi",
-          "previousHash": "00d1341a24284298a32209033f1e6ec1feff9870221ecfd4a7e57ef3154e2aa9",
-          "currentHash": "97fa13d3413c1160a3cd9931a00cedc829a5e17535bc2dae8beee3e4381eb29a"
-        }
-      ],
-      "unchanged": 67,
+      "changed": [],
+      "unchanged": 68,
       "totals": {
         "previous": 68,
         "current": 68

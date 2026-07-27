@@ -1,13 +1,13 @@
 {
   "provider": "Prydwen",
   "game": "ww",
-  "generatedAt": "2026-07-26T07:54:40.506Z",
+  "generatedAt": "2026-07-27T08:52:49.522Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 2,
-      "unchanged": 61
+      "changed": 1,
+      "unchanged": 62
     }
   },
   "sections": {
@@ -16,19 +16,13 @@
       "removed": [],
       "changed": [
         {
-          "id": "characters:rebecca",
-          "name": "Rebecca",
-          "previousHash": "90df21b183c638f301854a518ee83c00f40944e207f267e207a9fc4cd9c2d2b7",
-          "currentHash": "1f16ddcb6f60996fb01471a4cdf7d0240cf2f50e17f8582ba98a0cd4bba18652"
-        },
-        {
-          "id": "collection:characters",
-          "name": "Wuthering Waves Characters Build Guides",
-          "previousHash": "551648f32fc4b0227c4435df733f278ebaaf4d0c446f81600a074460a1d4e82b",
-          "currentHash": "7bf8c3c93cbb3526570fb11d7d2b406e14d747f016b5c57e8e34ddfc5cce8221"
+          "id": "characters:yangyang",
+          "name": "Yangyang",
+          "previousHash": "c9a82ccac5cbd4da7e17527673a04c0dcd503ca2a665231e01f43b3ce1225289",
+          "currentHash": "a28b00bf0319e08f38b815613730aa80d300e5a0b91facc9756b2a2fe53da699"
         }
       ],
-      "unchanged": 61,
+      "unchanged": 62,
       "totals": {
         "previous": 63,
         "current": 63

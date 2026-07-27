@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-07-27T03:49:36.976Z",
+  "generatedAt": "2026-07-27T08:55:44.317Z",
   "codes": {
-    "updated": "2026-07-27T03:49:20.072Z",
+    "updated": "2026-07-27T08:55:16.674Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -384,13 +384,13 @@ var NYX_DB = {
   },
   "banners": {
     "updated": "2026-07-21T16:13:51.549Z",
-    "checkedAt": "2026-07-26T07:56:47.540Z",
+    "checkedAt": "2026-07-27T08:55:03.424Z",
     "games": {
       "hsr": {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-07-26T07:56:47.540Z",
+          "checkedAt": "2026-07-27T08:55:03.424Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -429,7 +429,7 @@ var NYX_DB = {
         "name": "Genshin Impact",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-07-26T07:56:47.540Z",
+          "checkedAt": "2026-07-27T08:55:03.424Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -459,7 +459,7 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-07-26T07:56:47.540Z",
+          "checkedAt": "2026-07-27T08:55:03.424Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -541,7 +541,7 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-07-26T07:56:47.540Z",
+          "checkedAt": "2026-07-27T08:55:03.424Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -658,7 +658,7 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-07-26T07:56:47.540Z",
+          "checkedAt": "2026-07-27T08:55:03.424Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -4417,7 +4417,7 @@ var NYX_DB = {
         "name": "Genshin Impact",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-07-26T07:56:47.540Z",
+          "checkedAt": "2026-07-27T08:55:03.424Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -4444,7 +4444,7 @@ var NYX_DB = {
         "upcoming": []
       },
       "tcg": {
-        "updated": "2026-07-26T09:09:48.997Z",
+        "updated": "2026-07-27T08:55:24.012Z",
         "counts": {
           "characterCards": 106,
           "otherCards": 513
@@ -150531,7 +150531,7 @@ var NYX_DB = {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-07-26T07:56:47.540Z",
+          "checkedAt": "2026-07-27T08:55:03.424Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -156061,7 +156061,7 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-07-26T07:56:47.540Z",
+          "checkedAt": "2026-07-27T08:55:03.424Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -160894,7 +160894,7 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-07-26T07:56:47.540Z",
+          "checkedAt": "2026-07-27T08:55:03.424Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
@@ -165920,7 +165920,7 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "stale",
-          "checkedAt": "2026-07-26T07:56:47.540Z",
+          "checkedAt": "2026-07-27T08:55:03.424Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
           "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T08:55:16.674Z",
+  "generatedAt": "2026-07-27T22:13:35.395Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,7 +9,7 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-07-27T08:55:16.674Z",
+      "lastSuccessfulFetch": "2026-07-27T22:13:35.363Z",
       "codes": [
         {
           "code": "LEGEDILJKSGM",
@@ -54,7 +54,7 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-07-27T08:55:08.700Z",
+      "lastSuccessfulFetch": "2026-07-27T22:13:35.395Z",
       "codes": [
         {
           "code": "4TKSX77Y58QK",
@@ -134,6 +134,16 @@
           "firstSeen": "2026-07-05T17:19:05.883Z"
         },
         {
+          "code": "STARRAILFATE2026",
+          "rewards": "Three Traveler S Guides and Two the Fluffy Multi Functional Fan Glowsticks",
+          "added": "2026-07-27",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILFATE2026",
+          "premium": false,
+          "premium100": false,
+          "cwSeen": true,
+          "firstSeen": "2026-07-24T11:48:06.656Z"
+        },
+        {
           "code": "STARRAILGIFT",
           "rewards": "50 stellar jade, 10k credits, two traveler's guides, and five bottled soda",
           "added": "2026-07-27",
@@ -143,19 +153,6 @@
           "premium100": false,
           "cwSeen": true,
           "firstSeen": "2026-07-05T17:19:05.883Z"
-        },
-        {
-          "code": "STARRAILFATE2026",
-          "rewards": "2 The Fluffy Multi-Functional Fan Glowstick, 3 Traveler's Guide",
-          "added": "2026-07-24",
-          "sourceUrl": "https://www.crimsonwitch.com/codes/Honkai_Star_Rail",
-          "regionLocked": null,
-          "expires": null,
-          "variants": [],
-          "premium": false,
-          "premium100": false,
-          "cwSeen": true,
-          "firstSeen": "2026-07-24T11:48:06.656Z"
         },
         {
           "code": "BESTCOFFEEEVER",
@@ -186,7 +183,7 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-07-27T08:55:10.289Z",
+      "lastSuccessfulFetch": "2026-07-27T22:13:35.382Z",
       "codes": [
         {
           "code": "ROSCAELIFER0617",
@@ -285,7 +282,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-07-27T08:55:11.088Z",
+      "lastSuccessfulFetch": "2026-07-27T22:13:35.072Z",
       "codes": [
         {
           "code": "F5F4D3B2A2",
@@ -306,7 +303,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-07-27T08:55:12.689Z",
+      "lastSuccessfulFetch": "2026-07-27T22:13:35.157Z",
       "codes": [
         {
           "code": "ENDFIELDRENEW",

@@ -12761,7 +12761,8 @@
       "va": {
         "chinese": "...",
         "japanese": "...",
-        "korean": "..."
+        "korean": "...",
+        "english": "..."
       },
       "stories": {
         "0": "...",
@@ -17062,7 +17063,7 @@
     },
     "liveComparison": {
       "liveHash": "75ead28f58c51dd501d15ba73c55f8dc3a1a8f390d7ea9cc8594261adfc1a59f",
-      "currentHash": "11f389683c58cfab071b939b02a15180589b457f7b49eaccd3ec161e8031e4e3"
+      "currentHash": "85f99ea72cc7f57deafcdd11d7ad5fdad1ee7a48352e8ccbb2f5402a1bfd4a3e"
     }
   },
   {
@@ -334916,13 +334917,15 @@
       "enhance": [],
       "memosprite": {},
       "unique": {},
-      "skin": {},
+      "skin": {
+        "1150101": ""
+      },
       "avatarVoTag": "Sparxie",
       "spNeed": 160
     },
     "liveComparison": {
       "liveHash": "2197497177489e1ecfaf87404723cf51c7533b88c763d0ff14016edce9f33762",
-      "currentHash": "56e4d6def02b07269481d5ee65fe57ee7554a9a391f23c9da577b20aa43d6cdf"
+      "currentHash": "9bfcfb2cec8935fed609d757c85901735d3a105eb46c74df44b1812901b674dd"
     }
   },
   {
@@ -358339,6 +358342,7 @@
     "path": "Mage",
     "element": "Quantum",
     "description": "Hailing from a world beyond our universe where magic and magecraft coexist, this young mage tirelessly hones her skills. She is the Sixth Head of the Tohsaka family, a prestigious lineage of Fuyuki City mages.",
+    "release": 1784883600,
     "assets": {
       "avatar": "GameData/hsr/assets/characters/avatar/1508.webp",
       "roundIcon": "GameData/hsr/assets/characters/round/1508.webp",
@@ -362781,7 +362785,7 @@
     },
     "liveComparison": {
       "liveHash": "1a2fed1c546f4810e4328dbed7d53e6d8d536b79c80f9b46d3bf1ee804c1227e",
-      "currentHash": "acf9743551aac8415a0065af6f29f2264d3ecf379954a66635c34df72c99aa36"
+      "currentHash": "98370232d219a37756c5800665d344d710207ccedeb0485cac3c3d358b21b581"
     }
   },
   {
@@ -362793,6 +362797,7 @@
     "path": "Warrior",
     "element": "Thunder",
     "description": "The King of Heroes from the dawn of human history, hailing from a world beyond the stars.\\nPossessing a nature two-thirds divine and one-third mortal, he claims a natural-born prerogative to rule over all of creation.",
+    "release": 1784883600,
     "assets": {
       "avatar": "GameData/hsr/assets/characters/avatar/1509.webp",
       "roundIcon": "GameData/hsr/assets/characters/round/1509.webp",
@@ -367144,7 +367149,7 @@
     },
     "liveComparison": {
       "liveHash": "4f6d1428ecc65123ae3ed0813b63a9036c88c39d09761d33c1043619e9e563ba",
-      "currentHash": "64e8ccb9df1dcd9ad750a2918b2d4d48affb27c09dc59cd10a7b117e8685aadb"
+      "currentHash": "bc5b789ab6170d5827d5d8da54c778b179e150496b0eacdcb1d6d05c4e159b83"
     }
   },
   {
@@ -367156,6 +367161,7 @@
     "path": "Mage",
     "element": "Fire",
     "description": "Some fight side by side, some keep watch. The Trailblaze is never a lonely voyage.\\nShe paints a trailblazing miracle. The silver rail stretches on, and the Nameless set sail once more, illuminating the galaxy's eternal night.\\nAt the end of the line, she looks back once again. The dream of setting forth has never run aground.",
+    "release": 1784106000,
     "assets": {
       "avatar": "GameData/hsr/assets/characters/avatar/1510.webp",
       "roundIcon": "GameData/hsr/assets/characters/round/1510.webp",
@@ -372342,11 +372348,12 @@
           "team_id": 1,
           "position": 1,
           "member_list": [
+            1512,
             1507,
-            1306,
             1414
           ],
           "backup_list1": [
+            1507,
             1403,
             1415,
             1306,
@@ -372355,18 +372362,18 @@
             8007,
             1406,
             1218,
-            1202,
-            1106
+            1202
           ],
           "backup_list2": [
+            1403,
             1415,
+            1306,
             1313,
             1309,
             8007,
             1406,
             1218,
-            1202,
-            1106
+            1202
           ],
           "backup_list3": [],
           "backup_group_list1": [
@@ -372432,7 +372439,7 @@
     },
     "liveComparison": {
       "liveHash": "fc84a746bd037de945c98cc48a44d6f4f1d3e1b3fd5e20a5087eb391d0ced352",
-      "currentHash": "5622c45e69884df77301d5d8f2332022859967d21f8023cb0660e7d8e09083a5"
+      "currentHash": "3fa06c6421791b8b89067726bd2b7a86551294e989a6f7936aec820a08ef7a18"
     }
   },
   {
@@ -372534,7 +372541,7 @@
         "key": "151202",
         "id": "151202",
         "name": "Midsummer Is the Musician of the Soul",
-        "description": "<u>Summons the memosprite</u> \"Summer Songbirds\" Bessie. If \"Summer Songbirds\" is already on the field, restores its HP by an amount equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of \"Summer Songbirds's\" Max HP, and gains <unbreak>#2[i]</unbreak> Vibes.",
+        "description": "<u>Summons the memosprite</u> \"Summer Songbirds\" Bessie. If any among the \"Summer Songbirds\" is already on the field, restores its HP by an amount equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of \"Summer Songbirds's\" Max HP, and gains <unbreak>#2[i]</unbreak> Vibes.",
         "simpleDescription": "<color=#f29e38ff><u>Summons memosprite</u></color> \"Summer Songbirds\" Bessie. If \"Summer Songbirds\" is already on the field, restores HP for \"Summer Songbirds\" and gains <color=#f29e38ff>Vibes</color>.",
         "type": "BPSkill",
         "typeName": "Skill",
@@ -372660,8 +372667,8 @@
         "key": "151203",
         "id": "151203",
         "name": "Leap into the Ocean Blue Rhapsody",
-        "description": "Advances the action of one designated ally unit (excluding Robin • Summeretto) by <unbreak>#1[i]%</unbreak> and regenerates a fixed amount of Energy equal to <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> of their Max Energy. Then, this character gains the \"Special Guest\" effect. After the character with \"Special Guest\" attacks, Robin additionally gains 1 point of Vibes. This character and her memosprite cannot advance the actions of other targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn.",
-        "simpleDescription": "Advances the action of one designated ally character and regenerates Energy, then grants this character the \"Special Guest\" effect. After this character attacks, additionally grants Robin 1 point of Vibes.",
+        "description": "<u>Advances the action</u> of one designated ally unit (excluding Robin • Summeretto) by <unbreak>#1[i]%</unbreak> and regenerates a fixed amount of Energy equal to <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> of their Max Energy. Then, this character gains the \"Special Guest\" effect. When the character with \"Special Guest\" attacks, Robin additionally gains <unbreak>#2[i]</unbreak> point(s) of Vibes. This character and her summons cannot <u>advance the actions</u> of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn.",
+        "simpleDescription": "<u>Advances the action</u> of one designated ally character and regenerates Energy, then this character gains the \"Special Guest\" effect. When attacking, additionally grants Robin 1 point of Vibes. The character and her summons will not be able to grant other friendly targets the <u>action advance</u> effect.",
         "type": "Ultra",
         "typeName": "Ultimate",
         "tag": "Enhance",
@@ -372672,7 +372679,7 @@
             "level": 1,
             "params": [
               1,
-              0,
+              2,
               0.12,
               0
             ]
@@ -372681,7 +372688,7 @@
             "level": 2,
             "params": [
               1,
-              0,
+              2,
               0.128,
               0
             ]
@@ -372690,7 +372697,7 @@
             "level": 3,
             "params": [
               1,
-              0,
+              2,
               0.136,
               0
             ]
@@ -372699,7 +372706,7 @@
             "level": 4,
             "params": [
               1,
-              0,
+              2,
               0.144,
               0
             ]
@@ -372708,7 +372715,7 @@
             "level": 5,
             "params": [
               1,
-              0,
+              2,
               0.152,
               0
             ]
@@ -372717,7 +372724,7 @@
             "level": 6,
             "params": [
               1,
-              0,
+              2,
               0.16,
               0
             ]
@@ -372726,7 +372733,7 @@
             "level": 7,
             "params": [
               1,
-              0,
+              2,
               0.17,
               0
             ]
@@ -372735,7 +372742,7 @@
             "level": 8,
             "params": [
               1,
-              0,
+              2,
               0.18,
               0
             ]
@@ -372744,7 +372751,7 @@
             "level": 9,
             "params": [
               1,
-              0,
+              2,
               0.19,
               0
             ]
@@ -372753,7 +372760,7 @@
             "level": 10,
             "params": [
               1,
-              0,
+              2,
               0.2,
               0
             ]
@@ -372762,7 +372769,7 @@
             "level": 11,
             "params": [
               1,
-              0,
+              2,
               0.208,
               0
             ]
@@ -372771,7 +372778,7 @@
             "level": 12,
             "params": [
               1,
-              0,
+              2,
               0.216,
               0
             ]
@@ -372780,7 +372787,7 @@
             "level": 13,
             "params": [
               1,
-              0,
+              2,
               0.224,
               0
             ]
@@ -372789,7 +372796,7 @@
             "level": 14,
             "params": [
               1,
-              0,
+              2,
               0.232,
               0
             ]
@@ -372798,7 +372805,7 @@
             "level": 15,
             "params": [
               1,
-              0,
+              2,
               0.24,
               0
             ]
@@ -372816,8 +372823,8 @@
         "key": "151204",
         "id": "151204",
         "name": "Cruising the Boundless Skies",
-        "description": "The memosprite \"Summer Songbirds\" has an initial Max HP equal to <unbreak>#1[i]%</unbreak> of Robin • Summeretto's Max HP and an initial SPD equal to <unbreak>#2[i]%</unbreak> of Robin • Summeretto's SPD. When an ally target uses an attack, or when providing healing effect or Shield for the first time in any target's turn, Robin • Summeretto gains 1 Vibes, up to a max of <unbreak>#5[i]</unbreak>. While \"Summer Songbirds\" Bessie is on the field, if Robin's Vibes is <unbreak>#6[i]</unbreak> or more, immediately summons the \"Summer Songbird\" Drummie, and if Vibes is <unbreak>#7[i]</unbreak> or more, immediately summons the \"Summer Songbird\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all <u>Crowd Control debuffs</u> that Robin • Summeretto and the \"Summer Songbirds\" are under, enter the \"Fever\" state and deploy a Zone. When ally targets deal DMG inside the Zone, they ignore <color=#f29e38ff><unbreak>#8[f1]%</unbreak></color> plus Vibes × <unbreak>#9[f1]%</unbreak> of enemy targets' DEF.\\nWhile in the Fever state, Robin • Summeretto and the \"Summer Songbirds\" are immune to <u>Crowd Control debuffs</u>, and Robin • Summeretto will not enter her turns or take action until the \"Fever\" state ends.",
-        "simpleDescription": "After an ally target uses an attack, provides healing, or provides a Shield, Robin • Summeretto gains Vibes. When all \"Summer Songbirds\" take the stage, Robin • Summeretto and the \"Summer Songbirds\" enter the \"Fever\" state and deploy a Zone. While inside the Zone, when ally targets deal DMG, they ignore the enemy target's DEF.\\nWhile in the \"Fever\" state, Robin • Summeretto and the \"Summer Songbirds\" are immune to <u>Crowd Control debuffs</u>, and Robin • Summeretto will not enter her turn and cannot take action before the \"Fever\" state ends.",
+        "description": "The memosprite \"Summer Songbirds\" has an initial Max HP equal to <unbreak>#1[i]%</unbreak> of Robin • Summeretto's Max HP and an initial SPD equal to <unbreak>#2[i]%</unbreak> of Robin • Summeretto's SPD. When an ally target uses an attack, or when providing healing effect or Shield for the first time in any target's turn, Robin • Summeretto gains 1 Vibes, up to a max of <unbreak>#5[i]</unbreak>. While \"Summer Songbirds\" Bessie is on the field, if Robin's Vibes is <unbreak>#6[i]</unbreak> or more, immediately summons the \"Summer Songbird\" Drummie, and if Vibes is <unbreak>#7[i]</unbreak> or more, immediately summons the \"Summer Songbird\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all <u>Crowd Control debuffs</u> that Robin • Summeretto and the \"Summer Songbirds\" are under, enter the \"Fever\" state and deploy a Zone. When ally targets deal DMG inside the Zone, they ignore <color=#f29e38ff><unbreak>#8[f1]%</unbreak></color> plus Vibes × <unbreak>#9[f1]%</unbreak> of enemy targets' DEF.\\nWhile in the \"Fever\" state, Robin • Summeretto and the \"Summer Songbirds\" are immune to <u>Crowd Control debuffs</u>, and Robin • Summeretto will not enter her turns until the \"Fever\" state ends.",
+        "simpleDescription": "When an ally target uses an attack, provides healing, or provides a Shield, Robin • Summeretto gains Vibes. Once Vibes reaches a certain number of points, summons \"Summer Songbird\" Drummie and \"Summer Songbird\" Paddie respectively. After all \"Summer Songbirds\" take the stage, Robin • Summeretto and the \"Summer Songbirds\" enter the \"Fever\" state and deploy a Zone. While inside the Zone, when ally targets deal DMG, they ignore a portion of the enemy target's DEF.\\nWhile in the \"Fever\" state, Robin • Summeretto and the \"Summer Songbirds\" are immune to <u>Crowd Control debuffs</u>, and Robin • Summeretto will not enter her turn before the \"Fever\" state ends.",
         "typeName": "Talent",
         "tag": "Enhance",
         "bpNeed": -1,
@@ -373082,7 +373089,7 @@
         "key": "1",
         "id": "151201",
         "name": "Stray Birds of Summer",
-        "description": "Robin • Summeretto's Max Vibes increases by <unbreak>#1[i]</unbreak>. The first time an ally target uses a Skill that causes Robin • Summeretto to gain Vibes each turn, she gains an additional <unbreak>#2[i]</unbreak> points.",
+        "description": "Robin • Summeretto's Max Vibes increases by <unbreak>#1[i]</unbreak>. The first time an ally target uses an ability that causes Robin • Summeretto to gain Vibes within any target's turn, she gains an additional <unbreak>#2[i]</unbreak> points.",
         "params": [
           20,
           2
@@ -373095,7 +373102,7 @@
         "key": "2",
         "id": "151202",
         "name": "Heart Like Still Waters",
-        "description": "\"Summer Songbirds\" records <unbreak>#3[i]%</unbreak> of the non-<u>True DMG</u> dealt by ally targets. When using the Memosprite Skill, it additionally deals True DMG equal to <unbreak>#1[i]%</unbreak> of the total DMG plus current Vibes stacks × <unbreak>#2[f1]%</unbreak> to the enemy target with the highest HP, then clears <unbreak>#4[i]%</unbreak> of the recorded value.",
+        "description": "\"Summer Songbirds\" records <unbreak>#3[i]%</unbreak> of the non-<u>True DMG</u> dealt by ally targets. When using the Memosprite Skill, it additionally deals <u>True DMG</u> equal to <unbreak>#1[i]%</unbreak> of the total recorded DMG plus current Vibes points × <unbreak>#2[f1]%</unbreak> to the enemy target with the highest HP, then clears <unbreak>#4[i]%</unbreak> of the recorded value.",
         "params": [
           0.11,
           0.001,
@@ -373144,10 +373151,10 @@
         "key": "6",
         "id": "151206",
         "name": "To Sing an Aria Untitled",
-        "description": "Ally targets' All-Type RES PEN increases by <unbreak>#1[i]%</unbreak>. The Memosprite Skill's DMG multiplier increases by <unbreak>#2[i]%</unbreak> of the original multiplier. When entering the \"Fever\" state, CRIT DMG for Robin • Summeretto and \"Summer Songbirds\" increases by <unbreak>#4[i]%</unbreak>.",
+        "description": "Increases the All-Type <u>RES PEN</u> of ally targets by <unbreak>#1[i]%</unbreak>. Robin • Summeretto's Ultimate can be stored up to 2 times. When entering the \"Fever\" state for the first time or at the start of a \"Fever\" countdown turn in this battle, immediately regenerates <unbreak>#2[i]</unbreak> Energy.",
         "params": [
           0.2,
-          1,
+          140,
           0,
           2
         ],
@@ -375249,7 +375256,7 @@
             "anchor": "Point07",
             "pointId": "1512102",
             "pointName": "Improvised Blues",
-            "pointDescription": "When Robin • Summeretto or \"Summer Songbirds\" receive healing or a Shield provided by teammates, they gain <unbreak>#1[i]</unbreak> stack(s) of \"Groove,\" up to a max of <unbreak>#3[i]</unbreak> stack(s). The first time Robin • Summeretto gains Vibes each turn, if she has \"Groove,\" she consumes 1 stack of \"Groove\" and regenerates a fixed amount of <unbreak>#2[i]</unbreak> Energy.",
+            "pointDescription": "When Robin • Summeretto or \"Summer Songbirds\" receive healing or a Shield provided by teammates, they gain <unbreak>#1[i]</unbreak> stack(s) of \"Groove,\" up to a max of <unbreak>#3[i]</unbreak> stack(s). The first time Robin • Summeretto gains Vibes on any unit's turn, if she has \"Groove,\" she consumes 1 stack of \"Groove\" and regenerates <unbreak>#2[i]</unbreak> Energy.",
             "pointType": 3,
             "triggerKey": 7,
             "defaultUnlock": false,
@@ -376079,7 +376086,7 @@
             "level": 1,
             "anchor": "Point19",
             "pointId": "1512301",
-            "pointName": "Twittering Quartet",
+            "pointName": "Chirrup Quartet",
             "pointType": 4,
             "triggerKey": 19,
             "defaultUnlock": true,
@@ -376099,7 +376106,7 @@
             "level": 2,
             "anchor": "Point19",
             "pointId": "1512301",
-            "pointName": "Twittering Quartet",
+            "pointName": "Chirrup Quartet",
             "pointType": 4,
             "triggerKey": 19,
             "defaultUnlock": false,
@@ -376157,7 +376164,7 @@
             "level": 3,
             "anchor": "Point19",
             "pointId": "1512301",
-            "pointName": "Twittering Quartet",
+            "pointName": "Chirrup Quartet",
             "pointType": 4,
             "triggerKey": 19,
             "defaultUnlock": false,
@@ -376215,7 +376222,7 @@
             "level": 4,
             "anchor": "Point19",
             "pointId": "1512301",
-            "pointName": "Twittering Quartet",
+            "pointName": "Chirrup Quartet",
             "pointType": 4,
             "triggerKey": 19,
             "defaultUnlock": false,
@@ -376273,7 +376280,7 @@
             "level": 5,
             "anchor": "Point19",
             "pointId": "1512301",
-            "pointName": "Twittering Quartet",
+            "pointName": "Chirrup Quartet",
             "pointType": 4,
             "triggerKey": 19,
             "defaultUnlock": false,
@@ -376331,7 +376338,7 @@
             "level": 6,
             "anchor": "Point19",
             "pointId": "1512301",
-            "pointName": "Twittering Quartet",
+            "pointName": "Chirrup Quartet",
             "pointType": 4,
             "triggerKey": 19,
             "defaultUnlock": false,
@@ -376394,7 +376401,7 @@
             "level": 1,
             "anchor": "Point20",
             "pointId": "1512302",
-            "pointName": "Fluttering Harmony",
+            "pointName": "A Warble of Wings",
             "pointType": 4,
             "triggerKey": 20,
             "defaultUnlock": true,
@@ -376416,7 +376423,7 @@
             "level": 2,
             "anchor": "Point20",
             "pointId": "1512302",
-            "pointName": "Fluttering Harmony",
+            "pointName": "A Warble of Wings",
             "pointType": 4,
             "triggerKey": 20,
             "defaultUnlock": false,
@@ -376476,7 +376483,7 @@
             "level": 3,
             "anchor": "Point20",
             "pointId": "1512302",
-            "pointName": "Fluttering Harmony",
+            "pointName": "A Warble of Wings",
             "pointType": 4,
             "triggerKey": 20,
             "defaultUnlock": false,
@@ -376536,7 +376543,7 @@
             "level": 4,
             "anchor": "Point20",
             "pointId": "1512302",
-            "pointName": "Fluttering Harmony",
+            "pointName": "A Warble of Wings",
             "pointType": 4,
             "triggerKey": 20,
             "defaultUnlock": false,
@@ -376596,7 +376603,7 @@
             "level": 5,
             "anchor": "Point20",
             "pointId": "1512302",
-            "pointName": "Fluttering Harmony",
+            "pointName": "A Warble of Wings",
             "pointType": 4,
             "triggerKey": 20,
             "defaultUnlock": false,
@@ -376656,7 +376663,7 @@
             "level": 6,
             "anchor": "Point20",
             "pointId": "1512302",
-            "pointName": "Fluttering Harmony",
+            "pointName": "A Warble of Wings",
             "pointType": 4,
             "triggerKey": 20,
             "defaultUnlock": false,
@@ -377098,7 +377105,125 @@
         23049,
         24005
       ],
-      "teams": []
+      "teams": [
+        {
+          "avatar_id": 1512,
+          "team_id": 1,
+          "position": 1,
+          "member_list": [
+            1510,
+            1507,
+            1414
+          ],
+          "backup_list1": [],
+          "backup_list2": [
+            1403,
+            1415,
+            1306,
+            1313,
+            1309,
+            8007,
+            1406,
+            1218,
+            1202
+          ],
+          "backup_list3": [
+            1409,
+            1217,
+            1222,
+            1304,
+            1208,
+            1203,
+            1301
+          ],
+          "backup_group_list1": [
+            103,
+            102
+          ],
+          "backup_group_list2": [
+            104
+          ],
+          "backup_group_list3": [
+            101
+          ]
+        },
+        {
+          "avatar_id": 1512,
+          "team_id": 2,
+          "position": 1,
+          "member_list": [
+            1407,
+            1415,
+            1409
+          ],
+          "backup_list1": [
+            1415,
+            1413
+          ],
+          "backup_list2": [
+            1413
+          ],
+          "backup_list3": [
+            1217,
+            1414,
+            1222,
+            1304,
+            1208,
+            1203,
+            1301
+          ],
+          "backup_group_list1": [
+            113
+          ],
+          "backup_group_list2": [
+            113
+          ],
+          "backup_group_list3": [
+            101
+          ]
+        },
+        {
+          "avatar_id": 1512,
+          "team_id": 3,
+          "position": 1,
+          "member_list": [
+            1513,
+            1507,
+            1409
+          ],
+          "backup_list1": [],
+          "backup_list2": [
+            1403,
+            1415,
+            1306,
+            1313,
+            1309,
+            8007,
+            1406,
+            1218,
+            1202
+          ],
+          "backup_list3": [
+            1414,
+            1217,
+            1222,
+            1304,
+            1208,
+            1203,
+            1301
+          ],
+          "backup_group_list1": [
+            103,
+            102
+          ],
+          "backup_group_list2": [
+            104
+          ],
+          "backup_group_list3": [
+            101
+          ]
+        }
+      ]
     },
     "extras": {
       "enhance": [],
@@ -377113,9 +377238,9 @@
         "aggro": 100,
         "skills": {
           "1151201": {
-            "name": "Twittering Quartet",
-            "desc": "Deals Wind DMG equal to <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> of Summer Songbirds' Max HP to all enemies.",
-            "simple_desc": "Deals minor Wind DMG to all enemies.",
+            "name": "Chirrup Quartet",
+            "desc": "Deals Wind DMG equal to <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> of \"Summer Songbirds's\" Max HP to all enemies.",
+            "simple_desc": "Deals massive Wind DMG to all enemies.",
             "type": "Servant",
             "type_name": "Memosprite Skill",
             "tag": "AoEAttack",
@@ -377201,8 +377326,8 @@
             }
           },
           "1151203": {
-            "name": "Fluttering Harmony",
-            "desc": "While in the \"Fever\" state, Summer Songbirds and a countdown will appear on the action bar, increasing the DMG dealt by Robin • Summeretto and themselves by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> + Vibes × <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color>. When Summer Songbirds' turn starts, they use the Memosprite Skill. The countdown has an initial SPD of <unbreak>#9[i]</unbreak>. When their turn starts, <unbreak>#10[i]%</unbreak> of current Vibes (a minimum of <unbreak>#6[i]</unbreak> points) gets deducted. When Vibes reach 0, the Summer Songbirds disappear and Robin • Summeretto exits the \"Fever\" state. While Summer Songbirds are on the field, increases the DMG taken by all enemies by <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color>/<color=#f29e38ff><unbreak>#4[f1]%</unbreak></color>/<color=#f29e38ff><unbreak>#5[f1]%</unbreak></color> respectively based on the number of members present.",
+            "name": "A Warble of Wings",
+            "desc": "While in the \"Fever\" state, the \"Summer Songbirds\" and a countdown will appear on the action bar, increasing the DMG dealt by Robin • Summeretto and themselves by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> + Vibes × <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color>. When \"Summer Songbirds's\" turn starts, they use the Memosprite Skill. The countdown has an initial SPD of <unbreak>#9[i]</unbreak>. When their turn starts, <unbreak>#10[i]%</unbreak> of current Vibes (a minimum of <unbreak>#6[i]</unbreak> points) gets deducted. When Vibes reach 0, the \"Summer Songbirds\" disappear and Robin • Summeretto exits the \"Fever\" state. While \"Summer Songbirds\" are on the field, increases the DMG taken by all enemies by <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color>/<color=#f29e38ff><unbreak>#4[f1]%</unbreak></color>/<color=#f29e38ff><unbreak>#5[f1]%</unbreak></color> respectively based on the number of members present.",
             "simple_desc": "While in the \"Fever\" state, DMG dealt by Robin • Summeretto and this unit increases. Summer Songbirds use Memosprite Skill at the start of their turn. When Vibes reach 0, Summer Songbirds disappear, causing Robin • Summeretto to exit the \"Fever\" state. While Summer Songbirds are on the field, increases DMG taken by all enemies based on the number of members.",
             "type_name": "Memosprite Talent",
             "tag": "Support",
@@ -377367,8 +377492,8 @@
             }
           },
           "1151205": {
-            "name": "Nestle in the Heartbeat of the Sea",
-            "desc": "When Summer Songbirds are summoned, regenerates <unbreak>#1[i]</unbreak> Energy for Robin • Summeretto.",
+            "name": "Near the Sea's Heartbeat",
+            "desc": "When the \"Summer Songbirds\" are summoned, regenerates <unbreak>#1[i]</unbreak> Energy for Robin • Summeretto.",
             "simple_desc": "When summoned, regenerates Energy for Robin • Summeretto.",
             "type_name": "Memosprite Talent",
             "tag": "Support",
@@ -377443,8 +377568,8 @@
             }
           },
           "1151206": {
-            "name": "Ride the Summer Night Breeze",
-            "desc": "When Summer Songbirds disappear, Robin • Summeretto's <u>action advances</u> by <unbreak>#1[i]%</unbreak>.",
+            "name": "Astride Summer's Nightwind",
+            "desc": "When the \"Summer Songbirds\" disappear, Robin • Summeretto's <u>action advances</u> by <unbreak>#1[i]%</unbreak>.",
             "simple_desc": "When disappearing, Robin • Summeretto's <u>action advances</u>.",
             "type_name": "Memosprite Talent",
             "tag": "Support",
@@ -377532,7 +377657,7 @@
       "spNeed": 140
     },
     "liveComparison": {
-      "currentHash": "41c63a02c29c4a8452d5f4cd41c941e3525c8324bf6c90df866d3dfbefe82e9d"
+      "currentHash": "ef110122651ee25feee2b478663e9397e5e20b5b17461b53bfb12b091c4a4271"
     }
   },
   {
@@ -377543,7 +377668,7 @@
     "rarityRaw": "CombatPowerAvatarRarityType5",
     "path": "Elation",
     "element": "Quantum",
-    "description": "The festival illuminates the shore, as storms brew within the Euphoria.\\nSecret orders in hand, he steps back into the eye of the storm to shake up this long holiday—\\nWhen the treacherous waves subsume him, how will he become the one that turns the tides?",
+    "description": "The grand festival illuminates the coast, while a storm brews amidst euphoria.\\nSecret orders in hand, he steps back into the eye of the storm to shake up this long holiday—\\nWhen treacherous waves subsume his figure, how will he emerge as the game changer?",
     "assets": {
       "roundIcon": "GameData/hsr/assets/characters/round/1513.webp",
       "shopIcon": "GameData/hsr/assets/characters/shop/1513.webp",
@@ -377774,7 +377899,7 @@
       {
         "key": "151303",
         "id": "151303",
-        "name": "Winning Hand, Over the Tempest",
+        "name": "Grand Slam, Crest That High Tide",
         "description": "Deals Quantum DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Aventurine • Waveflair's ATK to all enemies, and gains <unbreak>#3[i]</unbreak> <u>Punchline</u> and <unbreak>#2[i]</unbreak> point(s) of \"Fervor.\" Increases this unit's SPD by <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> for <unbreak>#5[i]</unbreak> turn(s).",
         "simpleDescription": "Deals massive Quantum DMG to all enemies, gains <u>Punchline</u> and \"Fervor,\" and increases SPD.",
         "type": "Ultra",
@@ -377789,8 +377914,8 @@
               2.4,
               8,
               5,
-              0.1,
-              3
+              0.12,
+              4
             ]
           },
           {
@@ -377799,8 +377924,8 @@
               2.56,
               8,
               5,
-              0.115,
-              3
+              0.138,
+              4
             ]
           },
           {
@@ -377809,8 +377934,8 @@
               2.72,
               8,
               5,
-              0.13,
-              3
+              0.156,
+              4
             ]
           },
           {
@@ -377819,8 +377944,8 @@
               2.88,
               8,
               5,
-              0.145,
-              3
+              0.174,
+              4
             ]
           },
           {
@@ -377829,8 +377954,8 @@
               3.04,
               8,
               5,
-              0.16,
-              3
+              0.192,
+              4
             ]
           },
           {
@@ -377839,8 +377964,8 @@
               3.2,
               8,
               5,
-              0.175,
-              3
+              0.21,
+              4
             ]
           },
           {
@@ -377849,8 +377974,8 @@
               3.4,
               8,
               5,
-              0.19375,
-              3
+              0.2325,
+              4
             ]
           },
           {
@@ -377859,8 +377984,8 @@
               3.6,
               8,
               5,
-              0.2125,
-              3
+              0.255,
+              4
             ]
           },
           {
@@ -377869,8 +377994,8 @@
               3.8,
               8,
               5,
-              0.23125,
-              3
+              0.2775,
+              4
             ]
           },
           {
@@ -377879,8 +378004,8 @@
               4,
               8,
               5,
-              0.25,
-              3
+              0.3,
+              4
             ]
           },
           {
@@ -377889,8 +378014,8 @@
               4.16,
               8,
               5,
-              0.265,
-              3
+              0.318,
+              4
             ]
           },
           {
@@ -377899,8 +378024,8 @@
               4.32,
               8,
               5,
-              0.28,
-              3
+              0.336,
+              4
             ]
           },
           {
@@ -377909,8 +378034,8 @@
               4.48,
               8,
               5,
-              0.295,
-              3
+              0.354,
+              4
             ]
           },
           {
@@ -377919,8 +378044,8 @@
               4.64,
               8,
               5,
-              0.31,
-              3
+              0.372,
+              4
             ]
           },
           {
@@ -377929,8 +378054,8 @@
               4.8,
               8,
               5,
-              0.325,
-              3
+              0.39,
+              4
             ]
           }
         ],
@@ -377946,8 +378071,8 @@
         "key": "151304",
         "id": "151304",
         "name": "Place Your Bets, Hear the Deep",
-        "description": "The duration of Aventurine • Waveflair's \"<u>Certified Banger</u>\" increases by 1 turn. After a teammate uses an attack, Aventurine • Waveflair gains <unbreak>#7[i]</unbreak> point(s) of \"Fervor\" and <unbreak>#6[i]</unbreak> <u>Punchline(s)</u>. The max limit for \"Fervor\" is <unbreak>#4[i]</unbreak> points.\\nWhen \"Fervor\" reaches <unbreak>#1[i]</unbreak> points, Aventurine • Waveflair uses \"Cheers! To the Blazing Summer\" 1 time, which takes a fixed <unbreak>#5[i]</unbreak> <u>Punchline</u>(s) into account. After this use, the Elation Skill used by this unit in the next Aha Instant is enhanced into \"All in! To the Blazing Summer.\"\\nWhile Aventurine • Waveflair has \"<u>Certified Banger</u>,\" his Skill additionally deals <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> Quantum <u>Elation DMG</u> to all enemies, and his Ultimate additionally deals <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> Quantum <u>Elation DMG</u> to all enemies.",
-        "simpleDescription": "The duration of Aventurine • Waveflair's \"<u>Certified Banger</u>\" increases by 1 turn. After a teammate uses an attack, Aventurine • Waveflair gains \"Fervor\" and <u>Punchline</u>.\\nWhen \"Fervor\" reaches a certain value, Aventurine • Waveflair immediately uses \"Cheers! To the Blazing Summer\" 1 time, with a fixed amount of <u>Punchline</u> taken into account, and enhances the Elation Skill used in the next Aha Instant to \"All in! To the Blazing Summer.\"\\nWhen Aventurine • Waveflair has \"<u>Certified Banger</u>,\" his Skill and Ultimate additionally deal Quantum <u>Elation DMG</u> to all enemies.",
+        "description": "The duration of Aventurine • Waveflair's \"<u>Certified Banger</u>\" increases by 1 turn. After a teammate uses an attack, Aventurine • Waveflair gains <unbreak>#7[i]</unbreak> point(s) of \"Fervor\" and <unbreak>#6[i]</unbreak> <u>Punchline(s)</u>. The max limit for \"Fervor\" is <unbreak>#4[i]</unbreak> points.\\nWhen \"Fervor\" reaches <unbreak>#1[i]</unbreak> points, Aventurine • Waveflair uses \"Cheers! To Summer's Blaze\" 1 time, which takes a fixed <unbreak>#5[i]</unbreak> <u>Punchline</u>(s) into account. After this use, the next Elation Skill used by this unit in the Aha Instant is enhanced into \"All In! To Summer's Blaze.\"\\nWhile Aventurine • Waveflair has \"<u>Certified Banger</u>,\" his Skill additionally deals <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> Quantum <u>Elation DMG</u> to all enemies, and his Ultimate additionally deals <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> Quantum <u>Elation DMG</u> to all enemies.",
+        "simpleDescription": "The duration of Aventurine • Waveflair's \"<u>Certified Banger</u>\" increases by 1 turn. After a teammate uses an attack, Aventurine • Waveflair gains \"Fervor\" and <u>Punchline</u>.\\nWhen \"Fervor\" reaches a certain value, Aventurine • Waveflair <color=#f29e38ff>immediately uses \"Cheers! To Summer's Blaze\" 1 time, with a fixed amount of <u>Punchline</u> taken into account</color>, and <color=#f29e38ff>enhances the next Elation Skill used in the Aha Instant to \"All In! To Summer's Blaze.\"</color>\\nWhen Aventurine • Waveflair has \"<u>Certified Banger</u>,\" his Skill and Ultimate additionally deal Quantum <u>Elation DMG</u> to all enemies.",
         "typeName": "Talent",
         "tag": "Enhance",
         "bpNeed": -1,
@@ -378170,8 +378295,8 @@
         "key": "151307",
         "id": "151307",
         "name": "Stirring Waves in Still Waters",
-        "description": "Moves forward rapidly for a set distance, attacking all enemies in contact and blocking all incoming attacks. After entering combat via attacking enemies, Aventurine • Waveflair deals Quantum DMG equal to <unbreak>#1[i]%</unbreak> of his ATK to all enemies, and gains <unbreak>#2[i]</unbreak> point(s) of \"Fervor\" and <unbreak>#3[i]</unbreak> points of \"<u>Certified Banger</u>.\"",
-        "simpleDescription": "Moves forward rapidly for a set distance and attacks enemies in contact. After entering combat by attacking enemies, deals minor Quantum DMG to all enemies and gains \"Fervor\" and \"<u>Certified Banger</u>.\"",
+        "description": "Moves forward rapidly for a set distance, attacking all enemies in contact and blocking all incoming attacks. After entering combat via attacking enemies, Aventurine • Waveflair deals Quantum DMG equal to <unbreak>#1[i]%</unbreak> of his ATK to all enemies, and gains <unbreak>#2[i]</unbreak> point(s) of \"Fervor\" and <unbreak>#3[i]</unbreak> points of \"<u>Certified Banger</u>.\" Technique Points are not consumed if no enemies are hit.",
+        "simpleDescription": "Moves forward rapidly for a set distance and attacks enemies in contact. After entering combat by attacking enemies, deals minor Quantum DMG to all enemies and gains \"Fervor\" and \"<u>Certified Banger</u>.\" Technique Points are not consumed if no enemies are hit.",
         "type": "Maze",
         "typeName": "Technique",
         "tag": "MazeAttack",
@@ -378211,7 +378336,7 @@
             "params": [
               0.3,
               10,
-              0.075
+              0.09
             ]
           },
           {
@@ -378219,7 +378344,7 @@
             "params": [
               0.33,
               10,
-              0.0825
+              0.099
             ]
           },
           {
@@ -378227,7 +378352,7 @@
             "params": [
               0.36,
               10,
-              0.09
+              0.108
             ]
           },
           {
@@ -378235,7 +378360,7 @@
             "params": [
               0.39,
               10,
-              0.0975
+              0.117
             ]
           },
           {
@@ -378243,7 +378368,7 @@
             "params": [
               0.42,
               10,
-              0.105
+              0.126
             ]
           },
           {
@@ -378251,7 +378376,7 @@
             "params": [
               0.45,
               10,
-              0.1125
+              0.135
             ]
           },
           {
@@ -378259,7 +378384,7 @@
             "params": [
               0.4875,
               10,
-              0.121875
+              0.14625
             ]
           },
           {
@@ -378267,7 +378392,7 @@
             "params": [
               0.525,
               10,
-              0.13125
+              0.1575
             ]
           },
           {
@@ -378275,7 +378400,7 @@
             "params": [
               0.5625,
               10,
-              0.140625
+              0.16875
             ]
           },
           {
@@ -378283,7 +378408,7 @@
             "params": [
               0.6,
               10,
-              0.15
+              0.18
             ]
           },
           {
@@ -378291,7 +378416,7 @@
             "params": [
               0.63,
               10,
-              0.1575
+              0.189
             ]
           },
           {
@@ -378299,7 +378424,7 @@
             "params": [
               0.66,
               10,
-              0.165
+              0.198
             ]
           },
           {
@@ -378307,7 +378432,7 @@
             "params": [
               0.69,
               10,
-              0.1725
+              0.207
             ]
           },
           {
@@ -378315,7 +378440,7 @@
             "params": [
               0.72,
               10,
-              0.18
+              0.216
             ]
           },
           {
@@ -378323,7 +378448,7 @@
             "params": [
               0.75,
               10,
-              0.1875
+              0.225
             ]
           }
         ],
@@ -378340,7 +378465,7 @@
         "id": "151321",
         "name": "All in! To the Blazing Summer",
         "description": "Deals <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> Quantum <u>Elation DMG</u> to all enemies, and additionally deals <unbreak>#3[i]</unbreak> instances of DMG, with each instance dealing <color=#f29e38ff><unbreak>#4[f1]%</unbreak></color> Quantum <u>Elation DMG</u> to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> Quantum <u>Elation DMG</u> to one random enemy.",
-        "simpleDescription": "Deals minor Quantum <u>Elation DMG</u> to all enemies, and additionally deals minor Quantum <u>Elation DMG</u> to one random enemy, bouncing a total of <color=#f29e38ff><unbreak>#3[i]</unbreak></color> times. At the same time, consumes all \"Fervor.\" For every 1 point of \"Fervor\" consumed, deals 1 instance of minor Quantum <u>Elation DMG</u> to one random enemy.",
+        "simpleDescription": "Deals minor Quantum <u>Elation DMG</u> to all enemies, and additionally deals minor Quantum <u>Elation DMG</u> to one random enemy, bouncing a total of <color=#f29e38ff><unbreak>#3[i]</unbreak></color> times. At the same time, consumes all \"Fervor.\" <color=#f29e38ff>For every 1 point of \"Fervor\" consumed, deals 1 instance of minor Quantum <u>Elation DMG</u> to one random enemy</color>.",
         "type": "ElationDamage",
         "typeName": "Elation Skill",
         "tag": "AoEAttack",
@@ -378351,135 +378476,135 @@
             "level": 1,
             "params": [
               0.3,
-              0.075,
-              10,
-              0.075
-            ]
-          },
-          {
-            "level": 2,
-            "params": [
-              0.33,
-              0.0825,
-              10,
-              0.0825
-            ]
-          },
-          {
-            "level": 3,
-            "params": [
-              0.36,
               0.09,
               10,
               0.09
             ]
           },
           {
+            "level": 2,
+            "params": [
+              0.33,
+              0.099,
+              10,
+              0.099
+            ]
+          },
+          {
+            "level": 3,
+            "params": [
+              0.36,
+              0.108,
+              10,
+              0.108
+            ]
+          },
+          {
             "level": 4,
             "params": [
               0.39,
-              0.0975,
+              0.117,
               10,
-              0.0975
+              0.117
             ]
           },
           {
             "level": 5,
             "params": [
               0.42,
-              0.105,
+              0.126,
               10,
-              0.105
+              0.126
             ]
           },
           {
             "level": 6,
             "params": [
               0.45,
-              0.1125,
+              0.135,
               10,
-              0.1125
+              0.135
             ]
           },
           {
             "level": 7,
             "params": [
               0.4875,
-              0.121875,
+              0.14625,
               10,
-              0.121875
+              0.14625
             ]
           },
           {
             "level": 8,
             "params": [
               0.525,
-              0.13125,
-              10,
-              0.13125
-            ]
-          },
-          {
-            "level": 9,
-            "params": [
-              0.5625,
-              0.140625,
-              10,
-              0.140625
-            ]
-          },
-          {
-            "level": 10,
-            "params": [
-              0.6,
-              0.15,
-              10,
-              0.15
-            ]
-          },
-          {
-            "level": 11,
-            "params": [
-              0.63,
               0.1575,
               10,
               0.1575
             ]
           },
           {
-            "level": 12,
+            "level": 9,
             "params": [
-              0.66,
-              0.165,
+              0.5625,
+              0.16875,
               10,
-              0.165
+              0.16875
             ]
           },
           {
-            "level": 13,
+            "level": 10,
             "params": [
-              0.69,
-              0.1725,
-              10,
-              0.1725
-            ]
-          },
-          {
-            "level": 14,
-            "params": [
-              0.72,
+              0.6,
               0.18,
               10,
               0.18
             ]
           },
           {
+            "level": 11,
+            "params": [
+              0.63,
+              0.189,
+              10,
+              0.189
+            ]
+          },
+          {
+            "level": 12,
+            "params": [
+              0.66,
+              0.198,
+              10,
+              0.198
+            ]
+          },
+          {
+            "level": 13,
+            "params": [
+              0.69,
+              0.207,
+              10,
+              0.207
+            ]
+          },
+          {
+            "level": 14,
+            "params": [
+              0.72,
+              0.216,
+              10,
+              0.216
+            ]
+          },
+          {
             "level": 15,
             "params": [
               0.75,
-              0.1875,
+              0.225,
               10,
-              0.1875
+              0.225
             ]
           }
         ],
@@ -378497,7 +378622,7 @@
         "key": "1",
         "id": "151301",
         "name": "Vacation At Stake",
-        "description": "Increases <u>All-Type RES PEN</u> by <unbreak>#1[i]%</unbreak>. Every time Aventurine • Waveflair gains <unbreak>10</unbreak> points of \"Fervor,\" he can trigger his Talent to use \"Cheers! To the Blazing Summer.\"",
+        "description": "Increases All-Type <u>RES PEN</u> by <unbreak>#1[i]%</unbreak>.\\nTalent is enhanced: When \"Fervor\" reaches <unbreak>10</unbreak>/<unbreak>20</unbreak>/<unbreak>30</unbreak> points, immediately uses \"Cheers! To Summer's Blaze.\"",
         "params": [
           0.24
         ],
@@ -378509,10 +378634,10 @@
         "key": "2",
         "id": "151302",
         "name": "Tidal Fluctuations of Leisure",
-        "description": "Increases the max limit of \"Fervor\" to <unbreak>#1[i]</unbreak> points, and additionally grants <unbreak>#2[i]</unbreak> point(s) of \"Fervor\" after using Skill, Ultimate, or Elation Skill.",
+        "description": "Increases the max limit of \"Fervor\" to <unbreak>#1[i]</unbreak> points. When \"Fervor\" reaches <unbreak>40</unbreak>/<unbreak>50</unbreak> points, also triggers the Talent to use \"Cheers! To Summer's Blaze.\" After using an Elation Skill, additionally grants <unbreak>#2[i]</unbreak> point(s) of \"Fervor.\"",
         "params": [
           50,
-          2
+          4
         ],
         "assets": {
           "icon": "GameData/hsr/assets/skills/SkillIcon_1513_Rank2.webp"
@@ -378554,7 +378679,7 @@
         "key": "6",
         "id": "151306",
         "name": "Cashing the Past for a Wild Ride",
-        "description": "<u>Elation DMG</u> dealt by Aventurine • Waveflair <u>merrymakes</u> by <unbreak>#2[i]%</unbreak>. After Aventurine • Waveflair uses his Ultimate <unbreak>#1[i]</unbreak> time(s), all subsequent Elation Skills used become \"All in! To the Blazing Summer,\" and when using the Elation Skill \"All in! To the Blazing Summer\" to additionally deal DMG outside of Aha Instant, it no longer consumes \"Fervor.\"",
+        "description": "<u>Elation DMG</u> dealt by Aventurine • Waveflair <u>merrymakes</u> by <unbreak>#2[i]%</unbreak>. After Aventurine • Waveflair uses his Elation Skill <unbreak>#1[i]</unbreak> time(s), all subsequent Elation Skills used become \"All in! To the Blazing Summer,\" and when using the Elation Skill \"All in! To the Blazing Summer\" to additionally deal DMG outside of Aha Instant, it no longer consumes \"Fervor.\"",
         "params": [
           2,
           0.25
@@ -380657,7 +380782,7 @@
             "anchor": "Point07",
             "pointId": "1513102",
             "pointName": "Revel in Surging Waves",
-            "pointDescription": "At the start of the battle, if there are other Elation characters in the team besides Aventurine • Waveflair, Aventurine • Waveflair's Elation increases by <unbreak>#1[i]%</unbreak>.\\nAt the start of the battle, if Aventurine • Waveflair is the only Elation character in the team, after a teammate uses an attack, Aventurine • Waveflair gains <unbreak>#2[i]</unbreak> point(s) of \"<u>Certified Banger</u>\" and <unbreak>#4[i]</unbreak> <u>Punchline(s)</u>, and increases Aha's SPD by <unbreak>#3[i]</unbreak>. The SPD Boost effect lasts until the end of Aha Instant.",
+            "pointDescription": "At the start of the battle, if there are other Elation characters in the team besides Aventurine • Waveflair, Aventurine • Waveflair's Elation increases by <unbreak>#1[i]%</unbreak>.\\nAt the start of the battle, if Aventurine • Waveflair is the only Elation character in the team, when Aventurine • Waveflair deals DMG using his Elation Skill, it is considered as launching a <u>Follow-Up ATK</u>. After a teammate uses an attack, Aventurine • Waveflair gains <unbreak>#2[i]</unbreak> point(s) of \"<u>Certified Banger</u>\" and <unbreak>#4[i]</unbreak> <u>Punchline(s)</u>, and increases Aha's SPD by <unbreak>#3[i]</unbreak>. The SPD Boost effect lasts until the end of Aha Instant.",
             "pointType": 3,
             "triggerKey": 7,
             "defaultUnlock": false,
@@ -381006,7 +381131,7 @@
             "level": 1,
             "anchor": "Point12",
             "pointId": "1513204",
-            "pointName": "DEF Boost",
+            "pointName": "Elation Boost",
             "pointType": 1,
             "triggerKey": 12,
             "defaultUnlock": false,
@@ -381019,9 +381144,9 @@
             "params": [],
             "statusAdds": [
               {
-                "property_type": "DefenceAddedRatio",
-                "value": 0.05,
-                "name": "DEF"
+                "property_type": "ElationDamageAddedRatioBase",
+                "value": 0.04,
+                "name": "Elation"
               }
             ],
             "requirements": [
@@ -381063,7 +381188,7 @@
               }
             ],
             "assets": {
-              "icon": "GameData/hsr/assets/traces/IconDefence.webp"
+              "icon": "GameData/hsr/assets/traces/IconJoy.webp"
             }
           }
         ]
@@ -381282,7 +381407,7 @@
             "level": 1,
             "anchor": "Point16",
             "pointId": "1513208",
-            "pointName": "DEF Boost",
+            "pointName": "Elation Boost",
             "pointType": 1,
             "triggerKey": 16,
             "defaultUnlock": false,
@@ -381295,9 +381420,9 @@
             "params": [],
             "statusAdds": [
               {
-                "property_type": "DefenceAddedRatio",
-                "value": 0.075,
-                "name": "DEF"
+                "property_type": "ElationDamageAddedRatioBase",
+                "value": 0.06,
+                "name": "Elation"
               }
             ],
             "requirements": [
@@ -381339,7 +381464,7 @@
               }
             ],
             "assets": {
-              "icon": "GameData/hsr/assets/traces/IconDefence.webp"
+              "icon": "GameData/hsr/assets/traces/IconJoy.webp"
             }
           }
         ]
@@ -382406,7 +382531,132 @@
         21065,
         21066
       ],
-      "teams": []
+      "teams": [
+        {
+          "avatar_id": 1513,
+          "team_id": 1,
+          "position": 1,
+          "member_list": [
+            1512,
+            1403,
+            1409
+          ],
+          "backup_list1": [
+            1403,
+            1507,
+            1415,
+            1306,
+            1313,
+            1309,
+            8007,
+            1406,
+            1218,
+            1202
+          ],
+          "backup_list2": [
+            1507,
+            1415,
+            1306,
+            1313,
+            1309,
+            8007,
+            1406,
+            1218,
+            1202
+          ],
+          "backup_list3": [
+            1217,
+            1414,
+            1222,
+            1304,
+            1208,
+            1203,
+            1301
+          ],
+          "backup_group_list1": [
+            104
+          ],
+          "backup_group_list2": [
+            104
+          ],
+          "backup_group_list3": [
+            101
+          ]
+        },
+        {
+          "avatar_id": 1513,
+          "team_id": 2,
+          "position": 1,
+          "member_list": [
+            1502,
+            1512,
+            1409
+          ],
+          "backup_list1": [],
+          "backup_list2": [
+            1403,
+            1507,
+            1415,
+            1306,
+            1313,
+            1309,
+            8007,
+            1406,
+            1218,
+            1202
+          ],
+          "backup_list3": [
+            1217,
+            1414,
+            1222,
+            1304,
+            1208,
+            1203,
+            1301
+          ],
+          "backup_group_list1": [
+            119
+          ],
+          "backup_group_list2": [
+            104
+          ],
+          "backup_group_list3": [
+            101
+          ]
+        },
+        {
+          "avatar_id": 1513,
+          "team_id": 3,
+          "position": 1,
+          "member_list": [
+            1507,
+            1504,
+            1409
+          ],
+          "backup_list1": [
+            1504
+          ],
+          "backup_list2": [],
+          "backup_list3": [
+            1217,
+            1414,
+            1222,
+            1304,
+            1208,
+            1203,
+            1301
+          ],
+          "backup_group_list1": [
+            104
+          ],
+          "backup_group_list2": [
+            104
+          ],
+          "backup_group_list3": [
+            101
+          ]
+        }
+      ]
     },
     "extras": {
       "enhance": [],
@@ -382414,10 +382664,10 @@
       "unique": {},
       "skin": {},
       "avatarVoTag": "aventurinewaveflair",
-      "spNeed": 140
+      "spNeed": 130
     },
     "liveComparison": {
-      "currentHash": "19aa1166011c408d30cdac411e627ec225b984a495a5831a5e1d8b59d0f65f8e"
+      "currentHash": "88e66a555b767db751b78e604b243c96b5423ae070c451cb0394102f0c5e8260"
     }
   },
   {

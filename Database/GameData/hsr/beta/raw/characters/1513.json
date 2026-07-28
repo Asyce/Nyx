@@ -1,6 +1,6 @@
 {
   "name": "Aventurine • Waveflair",
-  "desc": "The festival illuminates the shore, as storms brew within the Euphoria.\\nSecret orders in hand, he steps back into the eye of the storm to shake up this long holiday—\\nWhen the treacherous waves subsume him, how will he become the one that turns the tides?",
+  "desc": "The grand festival illuminates the coast, while a storm brews amidst euphoria.\\nSecret orders in hand, he steps back into the eye of the storm to shake up this long holiday—\\nWhen treacherous waves subsume his figure, how will he emerge as the game changer?",
   "chara_info": {
     "va": {},
     "stories": {},
@@ -8,14 +8,14 @@
   },
   "rarity": "CombatPowerAvatarRarityType5",
   "avatar_vo_tag": "aventurinewaveflair",
-  "sp_need": 140,
+  "sp_need": 130,
   "base_type": "Elation",
   "damage_type": "Quantum",
   "ranks": {
     "1": {
       "id": 151301,
       "name": "Vacation At Stake",
-      "desc": "Increases <u>All-Type RES PEN</u> by <unbreak>#1[i]%</unbreak>. Every time Aventurine • Waveflair gains <unbreak>10</unbreak> points of \"Fervor,\" he can trigger his Talent to use \"Cheers! To the Blazing Summer.\"",
+      "desc": "Increases All-Type <u>RES PEN</u> by <unbreak>#1[i]%</unbreak>.\\nTalent is enhanced: When \"Fervor\" reaches <unbreak>10</unbreak>/<unbreak>20</unbreak>/<unbreak>30</unbreak> points, immediately uses \"Cheers! To Summer's Blaze.\"",
       "icon": "SkillIcon_1513_Rank1.png",
       "param_list": [
         0.24
@@ -31,11 +31,11 @@
     "2": {
       "id": 151302,
       "name": "Tidal Fluctuations of Leisure",
-      "desc": "Increases the max limit of \"Fervor\" to <unbreak>#1[i]</unbreak> points, and additionally grants <unbreak>#2[i]</unbreak> point(s) of \"Fervor\" after using Skill, Ultimate, or Elation Skill.",
+      "desc": "Increases the max limit of \"Fervor\" to <unbreak>#1[i]</unbreak> points. When \"Fervor\" reaches <unbreak>40</unbreak>/<unbreak>50</unbreak> points, also triggers the Talent to use \"Cheers! To Summer's Blaze.\" After using an Elation Skill, additionally grants <unbreak>#2[i]</unbreak> point(s) of \"Fervor.\"",
       "icon": "SkillIcon_1513_Rank2.png",
       "param_list": [
         50,
-        2
+        4
       ],
       "extra": {}
     },
@@ -68,7 +68,7 @@
     "6": {
       "id": 151306,
       "name": "Cashing the Past for a Wild Ride",
-      "desc": "<u>Elation DMG</u> dealt by Aventurine • Waveflair <u>merrymakes</u> by <unbreak>#2[i]%</unbreak>. After Aventurine • Waveflair uses his Ultimate <unbreak>#1[i]</unbreak> time(s), all subsequent Elation Skills used become \"All in! To the Blazing Summer,\" and when using the Elation Skill \"All in! To the Blazing Summer\" to additionally deal DMG outside of Aha Instant, it no longer consumes \"Fervor.\"",
+      "desc": "<u>Elation DMG</u> dealt by Aventurine • Waveflair <u>merrymakes</u> by <unbreak>#2[i]%</unbreak>. After Aventurine • Waveflair uses his Elation Skill <unbreak>#1[i]</unbreak> time(s), all subsequent Elation Skills used become \"All in! To the Blazing Summer,\" and when using the Elation Skill \"All in! To the Blazing Summer\" to additionally deal DMG outside of Aha Instant, it no longer consumes \"Fervor.\"",
       "icon": "SkillIcon_1513_Rank6.png",
       "param_list": [
         2,
@@ -316,7 +316,7 @@
     },
     "151303": {
       "id": 151303,
-      "name": "Winning Hand, Over the Tempest",
+      "name": "Grand Slam, Crest That High Tide",
       "desc": "Deals Quantum DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Aventurine • Waveflair's ATK to all enemies, and gains <unbreak>#3[i]</unbreak> <u>Punchline</u> and <unbreak>#2[i]</unbreak> point(s) of \"Fervor.\" Increases this unit's SPD by <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> for <unbreak>#5[i]</unbreak> turn(s).",
       "simple_desc": "Deals massive Quantum DMG to all enemies, gains <u>Punchline</u> and \"Fervor,\" and increases SPD.",
       "type": "Ultra",
@@ -343,8 +343,8 @@
             2.4,
             8,
             5,
-            0.1,
-            3
+            0.12,
+            4
           ]
         },
         "2": {
@@ -353,8 +353,8 @@
             2.56,
             8,
             5,
-            0.115,
-            3
+            0.138,
+            4
           ]
         },
         "3": {
@@ -363,8 +363,8 @@
             2.72,
             8,
             5,
-            0.13,
-            3
+            0.156,
+            4
           ]
         },
         "4": {
@@ -373,8 +373,8 @@
             2.88,
             8,
             5,
-            0.145,
-            3
+            0.174,
+            4
           ]
         },
         "5": {
@@ -383,8 +383,8 @@
             3.04,
             8,
             5,
-            0.16,
-            3
+            0.192,
+            4
           ]
         },
         "6": {
@@ -393,8 +393,8 @@
             3.2,
             8,
             5,
-            0.175,
-            3
+            0.21,
+            4
           ]
         },
         "7": {
@@ -403,8 +403,8 @@
             3.4,
             8,
             5,
-            0.19375,
-            3
+            0.2325,
+            4
           ]
         },
         "8": {
@@ -413,8 +413,8 @@
             3.6,
             8,
             5,
-            0.2125,
-            3
+            0.255,
+            4
           ]
         },
         "9": {
@@ -423,8 +423,8 @@
             3.8,
             8,
             5,
-            0.23125,
-            3
+            0.2775,
+            4
           ]
         },
         "10": {
@@ -433,8 +433,8 @@
             4,
             8,
             5,
-            0.25,
-            3
+            0.3,
+            4
           ]
         },
         "11": {
@@ -443,8 +443,8 @@
             4.16,
             8,
             5,
-            0.265,
-            3
+            0.318,
+            4
           ]
         },
         "12": {
@@ -453,8 +453,8 @@
             4.32,
             8,
             5,
-            0.28,
-            3
+            0.336,
+            4
           ]
         },
         "13": {
@@ -463,8 +463,8 @@
             4.48,
             8,
             5,
-            0.295,
-            3
+            0.354,
+            4
           ]
         },
         "14": {
@@ -473,8 +473,8 @@
             4.64,
             8,
             5,
-            0.31,
-            3
+            0.372,
+            4
           ]
         },
         "15": {
@@ -483,8 +483,8 @@
             4.8,
             8,
             5,
-            0.325,
-            3
+            0.39,
+            4
           ]
         }
       }
@@ -492,8 +492,8 @@
     "151304": {
       "id": 151304,
       "name": "Place Your Bets, Hear the Deep",
-      "desc": "The duration of Aventurine • Waveflair's \"<u>Certified Banger</u>\" increases by 1 turn. After a teammate uses an attack, Aventurine • Waveflair gains <unbreak>#7[i]</unbreak> point(s) of \"Fervor\" and <unbreak>#6[i]</unbreak> <u>Punchline(s)</u>. The max limit for \"Fervor\" is <unbreak>#4[i]</unbreak> points.\\nWhen \"Fervor\" reaches <unbreak>#1[i]</unbreak> points, Aventurine • Waveflair uses \"Cheers! To the Blazing Summer\" 1 time, which takes a fixed <unbreak>#5[i]</unbreak> <u>Punchline</u>(s) into account. After this use, the Elation Skill used by this unit in the next Aha Instant is enhanced into \"All in! To the Blazing Summer.\"\\nWhile Aventurine • Waveflair has \"<u>Certified Banger</u>,\" his Skill additionally deals <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> Quantum <u>Elation DMG</u> to all enemies, and his Ultimate additionally deals <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> Quantum <u>Elation DMG</u> to all enemies.",
-      "simple_desc": "The duration of Aventurine • Waveflair's \"<u>Certified Banger</u>\" increases by 1 turn. After a teammate uses an attack, Aventurine • Waveflair gains \"Fervor\" and <u>Punchline</u>.\\nWhen \"Fervor\" reaches a certain value, Aventurine • Waveflair immediately uses \"Cheers! To the Blazing Summer\" 1 time, with a fixed amount of <u>Punchline</u> taken into account, and enhances the Elation Skill used in the next Aha Instant to \"All in! To the Blazing Summer.\"\\nWhen Aventurine • Waveflair has \"<u>Certified Banger</u>,\" his Skill and Ultimate additionally deal Quantum <u>Elation DMG</u> to all enemies.",
+      "desc": "The duration of Aventurine • Waveflair's \"<u>Certified Banger</u>\" increases by 1 turn. After a teammate uses an attack, Aventurine • Waveflair gains <unbreak>#7[i]</unbreak> point(s) of \"Fervor\" and <unbreak>#6[i]</unbreak> <u>Punchline(s)</u>. The max limit for \"Fervor\" is <unbreak>#4[i]</unbreak> points.\\nWhen \"Fervor\" reaches <unbreak>#1[i]</unbreak> points, Aventurine • Waveflair uses \"Cheers! To Summer's Blaze\" 1 time, which takes a fixed <unbreak>#5[i]</unbreak> <u>Punchline</u>(s) into account. After this use, the next Elation Skill used by this unit in the Aha Instant is enhanced into \"All In! To Summer's Blaze.\"\\nWhile Aventurine • Waveflair has \"<u>Certified Banger</u>,\" his Skill additionally deals <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> Quantum <u>Elation DMG</u> to all enemies, and his Ultimate additionally deals <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> Quantum <u>Elation DMG</u> to all enemies.",
+      "simple_desc": "The duration of Aventurine • Waveflair's \"<u>Certified Banger</u>\" increases by 1 turn. After a teammate uses an attack, Aventurine • Waveflair gains \"Fervor\" and <u>Punchline</u>.\\nWhen \"Fervor\" reaches a certain value, Aventurine • Waveflair <color=#f29e38ff>immediately uses \"Cheers! To Summer's Blaze\" 1 time, with a fixed amount of <u>Punchline</u> taken into account</color>, and <color=#f29e38ff>enhances the next Elation Skill used in the Aha Instant to \"All In! To Summer's Blaze.\"</color>\\nWhen Aventurine • Waveflair has \"<u>Certified Banger</u>,\" his Skill and Ultimate additionally deal Quantum <u>Elation DMG</u> to all enemies.",
       "type_name": "Talent",
       "tag": "Enhance",
       "bp_need": -1,
@@ -725,8 +725,8 @@
     "151307": {
       "id": 151307,
       "name": "Stirring Waves in Still Waters",
-      "desc": "Moves forward rapidly for a set distance, attacking all enemies in contact and blocking all incoming attacks. After entering combat via attacking enemies, Aventurine • Waveflair deals Quantum DMG equal to <unbreak>#1[i]%</unbreak> of his ATK to all enemies, and gains <unbreak>#2[i]</unbreak> point(s) of \"Fervor\" and <unbreak>#3[i]</unbreak> points of \"<u>Certified Banger</u>.\"",
-      "simple_desc": "Moves forward rapidly for a set distance and attacks enemies in contact. After entering combat by attacking enemies, deals minor Quantum DMG to all enemies and gains \"Fervor\" and \"<u>Certified Banger</u>.\"",
+      "desc": "Moves forward rapidly for a set distance, attacking all enemies in contact and blocking all incoming attacks. After entering combat via attacking enemies, Aventurine • Waveflair deals Quantum DMG equal to <unbreak>#1[i]%</unbreak> of his ATK to all enemies, and gains <unbreak>#2[i]</unbreak> point(s) of \"Fervor\" and <unbreak>#3[i]</unbreak> points of \"<u>Certified Banger</u>.\" Technique Points are not consumed if no enemies are hit.",
+      "simple_desc": "Moves forward rapidly for a set distance and attacks enemies in contact. After entering combat by attacking enemies, deals minor Quantum DMG to all enemies and gains \"Fervor\" and \"<u>Certified Banger</u>.\" Technique Points are not consumed if no enemies are hit.",
       "type": "Maze",
       "type_name": "Technique",
       "tag": "MazeAttack",
@@ -782,7 +782,7 @@
           "param_list": [
             0.3,
             10,
-            0.075
+            0.09
           ]
         },
         "2": {
@@ -790,7 +790,7 @@
           "param_list": [
             0.33,
             10,
-            0.0825
+            0.099
           ]
         },
         "3": {
@@ -798,7 +798,7 @@
           "param_list": [
             0.36,
             10,
-            0.09
+            0.108
           ]
         },
         "4": {
@@ -806,7 +806,7 @@
           "param_list": [
             0.39,
             10,
-            0.0975
+            0.117
           ]
         },
         "5": {
@@ -814,7 +814,7 @@
           "param_list": [
             0.42,
             10,
-            0.105
+            0.126
           ]
         },
         "6": {
@@ -822,7 +822,7 @@
           "param_list": [
             0.45,
             10,
-            0.1125
+            0.135
           ]
         },
         "7": {
@@ -830,7 +830,7 @@
           "param_list": [
             0.4875,
             10,
-            0.121875
+            0.14625
           ]
         },
         "8": {
@@ -838,7 +838,7 @@
           "param_list": [
             0.525,
             10,
-            0.13125
+            0.1575
           ]
         },
         "9": {
@@ -846,7 +846,7 @@
           "param_list": [
             0.5625,
             10,
-            0.140625
+            0.16875
           ]
         },
         "10": {
@@ -854,7 +854,7 @@
           "param_list": [
             0.6,
             10,
-            0.15
+            0.18
           ]
         },
         "11": {
@@ -862,7 +862,7 @@
           "param_list": [
             0.63,
             10,
-            0.1575
+            0.189
           ]
         },
         "12": {
@@ -870,7 +870,7 @@
           "param_list": [
             0.66,
             10,
-            0.165
+            0.198
           ]
         },
         "13": {
@@ -878,7 +878,7 @@
           "param_list": [
             0.69,
             10,
-            0.1725
+            0.207
           ]
         },
         "14": {
@@ -886,7 +886,7 @@
           "param_list": [
             0.72,
             10,
-            0.18
+            0.216
           ]
         },
         "15": {
@@ -894,7 +894,7 @@
           "param_list": [
             0.75,
             10,
-            0.1875
+            0.225
           ]
         }
       },
@@ -904,7 +904,7 @@
       "id": 151321,
       "name": "All in! To the Blazing Summer",
       "desc": "Deals <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> Quantum <u>Elation DMG</u> to all enemies, and additionally deals <unbreak>#3[i]</unbreak> instances of DMG, with each instance dealing <color=#f29e38ff><unbreak>#4[f1]%</unbreak></color> Quantum <u>Elation DMG</u> to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> Quantum <u>Elation DMG</u> to one random enemy.",
-      "simple_desc": "Deals minor Quantum <u>Elation DMG</u> to all enemies, and additionally deals minor Quantum <u>Elation DMG</u> to one random enemy, bouncing a total of <color=#f29e38ff><unbreak>#3[i]</unbreak></color> times. At the same time, consumes all \"Fervor.\" For every 1 point of \"Fervor\" consumed, deals 1 instance of minor Quantum <u>Elation DMG</u> to one random enemy.",
+      "simple_desc": "Deals minor Quantum <u>Elation DMG</u> to all enemies, and additionally deals minor Quantum <u>Elation DMG</u> to one random enemy, bouncing a total of <color=#f29e38ff><unbreak>#3[i]</unbreak></color> times. At the same time, consumes all \"Fervor.\" <color=#f29e38ff>For every 1 point of \"Fervor\" consumed, deals 1 instance of minor Quantum <u>Elation DMG</u> to one random enemy</color>.",
       "type": "ElationDamage",
       "type_name": "Elation Skill",
       "tag": "AoEAttack",
@@ -927,135 +927,135 @@
           "level": 1,
           "param_list": [
             0.3,
-            0.075,
+            0.09,
             10,
-            0.075
+            0.09
           ]
         },
         "2": {
           "level": 2,
           "param_list": [
             0.33,
-            0.0825,
+            0.099,
             10,
-            0.0825
+            0.099
           ]
         },
         "3": {
           "level": 3,
           "param_list": [
             0.36,
-            0.09,
+            0.108,
             10,
-            0.09
+            0.108
           ]
         },
         "4": {
           "level": 4,
           "param_list": [
             0.39,
-            0.0975,
+            0.117,
             10,
-            0.0975
+            0.117
           ]
         },
         "5": {
           "level": 5,
           "param_list": [
             0.42,
-            0.105,
+            0.126,
             10,
-            0.105
+            0.126
           ]
         },
         "6": {
           "level": 6,
           "param_list": [
             0.45,
-            0.1125,
+            0.135,
             10,
-            0.1125
+            0.135
           ]
         },
         "7": {
           "level": 7,
           "param_list": [
             0.4875,
-            0.121875,
+            0.14625,
             10,
-            0.121875
+            0.14625
           ]
         },
         "8": {
           "level": 8,
           "param_list": [
             0.525,
-            0.13125,
+            0.1575,
             10,
-            0.13125
+            0.1575
           ]
         },
         "9": {
           "level": 9,
           "param_list": [
             0.5625,
-            0.140625,
+            0.16875,
             10,
-            0.140625
+            0.16875
           ]
         },
         "10": {
           "level": 10,
           "param_list": [
             0.6,
-            0.15,
+            0.18,
             10,
-            0.15
+            0.18
           ]
         },
         "11": {
           "level": 11,
           "param_list": [
             0.63,
-            0.1575,
+            0.189,
             10,
-            0.1575
+            0.189
           ]
         },
         "12": {
           "level": 12,
           "param_list": [
             0.66,
-            0.165,
+            0.198,
             10,
-            0.165
+            0.198
           ]
         },
         "13": {
           "level": 13,
           "param_list": [
             0.69,
-            0.1725,
+            0.207,
             10,
-            0.1725
+            0.207
           ]
         },
         "14": {
           "level": 14,
           "param_list": [
             0.72,
-            0.18,
+            0.216,
             10,
-            0.18
+            0.216
           ]
         },
         "15": {
           "level": 15,
           "param_list": [
             0.75,
-            0.1875,
+            0.225,
             10,
-            0.1875
+            0.225
           ]
         }
       },
@@ -2356,12 +2356,17 @@
         ],
         "point_id": 1513102,
         "point_name": "Revel in Surging Waves",
-        "point_desc": "At the start of the battle, if there are other Elation characters in the team besides Aventurine • Waveflair, Aventurine • Waveflair's Elation increases by <unbreak>#1[i]%</unbreak>.\\nAt the start of the battle, if Aventurine • Waveflair is the only Elation character in the team, after a teammate uses an attack, Aventurine • Waveflair gains <unbreak>#2[i]</unbreak> point(s) of \"<u>Certified Banger</u>\" and <unbreak>#4[i]</unbreak> <u>Punchline(s)</u>, and increases Aha's SPD by <unbreak>#3[i]</unbreak>. The SPD Boost effect lasts until the end of Aha Instant.",
+        "point_desc": "At the start of the battle, if there are other Elation characters in the team besides Aventurine • Waveflair, Aventurine • Waveflair's Elation increases by <unbreak>#1[i]%</unbreak>.\\nAt the start of the battle, if Aventurine • Waveflair is the only Elation character in the team, when Aventurine • Waveflair deals DMG using his Elation Skill, it is considered as launching a <u>Follow-Up ATK</u>. After a teammate uses an attack, Aventurine • Waveflair gains <unbreak>#2[i]</unbreak> point(s) of \"<u>Certified Banger</u>\" and <unbreak>#4[i]</unbreak> <u>Punchline(s)</u>, and increases Aha's SPD by <unbreak>#3[i]</unbreak>. The SPD Boost effect lasts until the end of Aha Instant.",
         "point_trigger_key": 7,
         "point_type": 3,
         "pre_point": [],
         "status_add_list": [],
         "extra": {
+          "10000004": {
+            "name": "Follow-Up ATK",
+            "desc": "Unleashes an extra attack on the target. This effect is triggered automatically when requirements are met.",
+            "param": []
+          },
           "10000027": {
             "name": "Punchline",
             "desc": "Punchline is shared by the whole team. When dealing Elation DMG, the more Punchline taken into account, the higher the Elation DMG.",
@@ -2553,7 +2558,7 @@
         "anchor": "Point12",
         "avatar_promotion_limit": 3,
         "default_unlock": false,
-        "icon": "IconDefence.png",
+        "icon": "IconJoy.png",
         "level_up_skill_id": [],
         "material_list": [
           {
@@ -2575,7 +2580,7 @@
         "max_level": 1,
         "param_list": [],
         "point_id": 1513204,
-        "point_name": "DEF Boost",
+        "point_name": "Elation Boost",
         "point_trigger_key": 12,
         "point_type": 1,
         "pre_point": [
@@ -2583,9 +2588,9 @@
         ],
         "status_add_list": [
           {
-            "property_type": "DefenceAddedRatio",
-            "value": 0.05,
-            "name": "DEF"
+            "property_type": "ElationDamageAddedRatioBase",
+            "value": 0.04,
+            "name": "Elation"
           }
         ],
         "extra": {}
@@ -2725,7 +2730,7 @@
         "anchor": "Point16",
         "avatar_promotion_limit": 6,
         "default_unlock": false,
-        "icon": "IconDefence.png",
+        "icon": "IconJoy.png",
         "level_up_skill_id": [],
         "material_list": [
           {
@@ -2747,7 +2752,7 @@
         "max_level": 1,
         "param_list": [],
         "point_id": 1513208,
-        "point_name": "DEF Boost",
+        "point_name": "Elation Boost",
         "point_trigger_key": 16,
         "point_type": 1,
         "pre_point": [
@@ -2755,9 +2760,9 @@
         ],
         "status_add_list": [
           {
-            "property_type": "DefenceAddedRatio",
-            "value": 0.075,
-            "name": "DEF"
+            "property_type": "ElationDamageAddedRatioBase",
+            "value": 0.06,
+            "name": "Elation"
           }
         ],
         "extra": {}
@@ -3430,6 +3435,131 @@
     21065,
     21066
   ],
-  "teams": [],
+  "teams": [
+    {
+      "avatar_id": 1513,
+      "team_id": 1,
+      "position": 1,
+      "member_list": [
+        1512,
+        1403,
+        1409
+      ],
+      "backup_list1": [
+        1403,
+        1507,
+        1415,
+        1306,
+        1313,
+        1309,
+        8007,
+        1406,
+        1218,
+        1202
+      ],
+      "backup_list2": [
+        1507,
+        1415,
+        1306,
+        1313,
+        1309,
+        8007,
+        1406,
+        1218,
+        1202
+      ],
+      "backup_list3": [
+        1217,
+        1414,
+        1222,
+        1304,
+        1208,
+        1203,
+        1301
+      ],
+      "backup_group_list1": [
+        104
+      ],
+      "backup_group_list2": [
+        104
+      ],
+      "backup_group_list3": [
+        101
+      ]
+    },
+    {
+      "avatar_id": 1513,
+      "team_id": 2,
+      "position": 1,
+      "member_list": [
+        1502,
+        1512,
+        1409
+      ],
+      "backup_list1": [],
+      "backup_list2": [
+        1403,
+        1507,
+        1415,
+        1306,
+        1313,
+        1309,
+        8007,
+        1406,
+        1218,
+        1202
+      ],
+      "backup_list3": [
+        1217,
+        1414,
+        1222,
+        1304,
+        1208,
+        1203,
+        1301
+      ],
+      "backup_group_list1": [
+        119
+      ],
+      "backup_group_list2": [
+        104
+      ],
+      "backup_group_list3": [
+        101
+      ]
+    },
+    {
+      "avatar_id": 1513,
+      "team_id": 3,
+      "position": 1,
+      "member_list": [
+        1507,
+        1504,
+        1409
+      ],
+      "backup_list1": [
+        1504
+      ],
+      "backup_list2": [],
+      "backup_list3": [
+        1217,
+        1414,
+        1222,
+        1304,
+        1208,
+        1203,
+        1301
+      ],
+      "backup_group_list1": [
+        104
+      ],
+      "backup_group_list2": [
+        104
+      ],
+      "backup_group_list3": [
+        101
+      ]
+    }
+  ],
   "skin": {}
 }

@@ -15,7 +15,7 @@
     "1": {
       "id": 151201,
       "name": "Stray Birds of Summer",
-      "desc": "Robin • Summeretto's Max Vibes increases by <unbreak>#1[i]</unbreak>. The first time an ally target uses a Skill that causes Robin • Summeretto to gain Vibes each turn, she gains an additional <unbreak>#2[i]</unbreak> points.",
+      "desc": "Robin • Summeretto's Max Vibes increases by <unbreak>#1[i]</unbreak>. The first time an ally target uses an ability that causes Robin • Summeretto to gain Vibes within any target's turn, she gains an additional <unbreak>#2[i]</unbreak> points.",
       "icon": "SkillIcon_1512_Rank1.png",
       "param_list": [
         20,
@@ -26,7 +26,7 @@
     "2": {
       "id": 151202,
       "name": "Heart Like Still Waters",
-      "desc": "\"Summer Songbirds\" records <unbreak>#3[i]%</unbreak> of the non-<u>True DMG</u> dealt by ally targets. When using the Memosprite Skill, it additionally deals True DMG equal to <unbreak>#1[i]%</unbreak> of the total DMG plus current Vibes stacks × <unbreak>#2[f1]%</unbreak> to the enemy target with the highest HP, then clears <unbreak>#4[i]%</unbreak> of the recorded value.",
+      "desc": "\"Summer Songbirds\" records <unbreak>#3[i]%</unbreak> of the non-<u>True DMG</u> dealt by ally targets. When using the Memosprite Skill, it additionally deals <u>True DMG</u> equal to <unbreak>#1[i]%</unbreak> of the total recorded DMG plus current Vibes points × <unbreak>#2[f1]%</unbreak> to the enemy target with the highest HP, then clears <unbreak>#4[i]%</unbreak> of the recorded value.",
       "icon": "SkillIcon_1512_Rank2.png",
       "param_list": [
         0.11,
@@ -73,11 +73,11 @@
     "6": {
       "id": 151206,
       "name": "To Sing an Aria Untitled",
-      "desc": "Ally targets' All-Type RES PEN increases by <unbreak>#1[i]%</unbreak>. The Memosprite Skill's DMG multiplier increases by <unbreak>#2[i]%</unbreak> of the original multiplier. When entering the \"Fever\" state, CRIT DMG for Robin • Summeretto and \"Summer Songbirds\" increases by <unbreak>#4[i]%</unbreak>.",
+      "desc": "Increases the All-Type <u>RES PEN</u> of ally targets by <unbreak>#1[i]%</unbreak>. Robin • Summeretto's Ultimate can be stored up to 2 times. When entering the \"Fever\" state for the first time or at the start of a \"Fever\" countdown turn in this battle, immediately regenerates <unbreak>#2[i]</unbreak> Energy.",
       "icon": "SkillIcon_1512_Rank6.png",
       "param_list": [
         0.2,
-        1,
+        140,
         0,
         2
       ],
@@ -174,7 +174,7 @@
     "151202": {
       "id": 151202,
       "name": "Midsummer Is the Musician of the Soul",
-      "desc": "<u>Summons the memosprite</u> \"Summer Songbirds\" Bessie. If \"Summer Songbirds\" is already on the field, restores its HP by an amount equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of \"Summer Songbirds's\" Max HP, and gains <unbreak>#2[i]</unbreak> Vibes.",
+      "desc": "<u>Summons the memosprite</u> \"Summer Songbirds\" Bessie. If any among the \"Summer Songbirds\" is already on the field, restores its HP by an amount equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of \"Summer Songbirds's\" Max HP, and gains <unbreak>#2[i]</unbreak> Vibes.",
       "simple_desc": "<color=#f29e38ff><u>Summons memosprite</u></color> \"Summer Songbirds\" Bessie. If \"Summer Songbirds\" is already on the field, restores HP for \"Summer Songbirds\" and gains <color=#f29e38ff>Vibes</color>.",
       "type": "BPSkill",
       "type_name": "Skill",
@@ -304,8 +304,8 @@
     "151203": {
       "id": 151203,
       "name": "Leap into the Ocean Blue Rhapsody",
-      "desc": "Advances the action of one designated ally unit (excluding Robin • Summeretto) by <unbreak>#1[i]%</unbreak> and regenerates a fixed amount of Energy equal to <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> of their Max Energy. Then, this character gains the \"Special Guest\" effect. After the character with \"Special Guest\" attacks, Robin additionally gains 1 point of Vibes. This character and her memosprite cannot advance the actions of other targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn.",
-      "simple_desc": "Advances the action of one designated ally character and regenerates Energy, then grants this character the \"Special Guest\" effect. After this character attacks, additionally grants Robin 1 point of Vibes.",
+      "desc": "<u>Advances the action</u> of one designated ally unit (excluding Robin • Summeretto) by <unbreak>#1[i]%</unbreak> and regenerates a fixed amount of Energy equal to <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> of their Max Energy. Then, this character gains the \"Special Guest\" effect. When the character with \"Special Guest\" attacks, Robin additionally gains <unbreak>#2[i]</unbreak> point(s) of Vibes. This character and her summons cannot <u>advance the actions</u> of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn.",
+      "simple_desc": "<u>Advances the action</u> of one designated ally character and regenerates Energy, then this character gains the \"Special Guest\" effect. When attacking, additionally grants Robin 1 point of Vibes. The character and her summons will not be able to grant other friendly targets the <u>action advance</u> effect.",
       "type": "Ultra",
       "type_name": "Ultimate",
       "tag": "Enhance",
@@ -328,7 +328,7 @@
           "level": 1,
           "param_list": [
             1,
-            0,
+            2,
             0.12,
             0
           ]
@@ -337,7 +337,7 @@
           "level": 2,
           "param_list": [
             1,
-            0,
+            2,
             0.128,
             0
           ]
@@ -346,7 +346,7 @@
           "level": 3,
           "param_list": [
             1,
-            0,
+            2,
             0.136,
             0
           ]
@@ -355,7 +355,7 @@
           "level": 4,
           "param_list": [
             1,
-            0,
+            2,
             0.144,
             0
           ]
@@ -364,7 +364,7 @@
           "level": 5,
           "param_list": [
             1,
-            0,
+            2,
             0.152,
             0
           ]
@@ -373,7 +373,7 @@
           "level": 6,
           "param_list": [
             1,
-            0,
+            2,
             0.16,
             0
           ]
@@ -382,7 +382,7 @@
           "level": 7,
           "param_list": [
             1,
-            0,
+            2,
             0.17,
             0
           ]
@@ -391,7 +391,7 @@
           "level": 8,
           "param_list": [
             1,
-            0,
+            2,
             0.18,
             0
           ]
@@ -400,7 +400,7 @@
           "level": 9,
           "param_list": [
             1,
-            0,
+            2,
             0.19,
             0
           ]
@@ -409,7 +409,7 @@
           "level": 10,
           "param_list": [
             1,
-            0,
+            2,
             0.2,
             0
           ]
@@ -418,7 +418,7 @@
           "level": 11,
           "param_list": [
             1,
-            0,
+            2,
             0.208,
             0
           ]
@@ -427,7 +427,7 @@
           "level": 12,
           "param_list": [
             1,
-            0,
+            2,
             0.216,
             0
           ]
@@ -436,7 +436,7 @@
           "level": 13,
           "param_list": [
             1,
-            0,
+            2,
             0.224,
             0
           ]
@@ -445,7 +445,7 @@
           "level": 14,
           "param_list": [
             1,
-            0,
+            2,
             0.232,
             0
           ]
@@ -454,7 +454,7 @@
           "level": 15,
           "param_list": [
             1,
-            0,
+            2,
             0.24,
             0
           ]
@@ -464,8 +464,8 @@
     "151204": {
       "id": 151204,
       "name": "Cruising the Boundless Skies",
-      "desc": "The memosprite \"Summer Songbirds\" has an initial Max HP equal to <unbreak>#1[i]%</unbreak> of Robin • Summeretto's Max HP and an initial SPD equal to <unbreak>#2[i]%</unbreak> of Robin • Summeretto's SPD. When an ally target uses an attack, or when providing healing effect or Shield for the first time in any target's turn, Robin • Summeretto gains 1 Vibes, up to a max of <unbreak>#5[i]</unbreak>. While \"Summer Songbirds\" Bessie is on the field, if Robin's Vibes is <unbreak>#6[i]</unbreak> or more, immediately summons the \"Summer Songbird\" Drummie, and if Vibes is <unbreak>#7[i]</unbreak> or more, immediately summons the \"Summer Songbird\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all <u>Crowd Control debuffs</u> that Robin • Summeretto and the \"Summer Songbirds\" are under, enter the \"Fever\" state and deploy a Zone. When ally targets deal DMG inside the Zone, they ignore <color=#f29e38ff><unbreak>#8[f1]%</unbreak></color> plus Vibes × <unbreak>#9[f1]%</unbreak> of enemy targets' DEF.\\nWhile in the Fever state, Robin • Summeretto and the \"Summer Songbirds\" are immune to <u>Crowd Control debuffs</u>, and Robin • Summeretto will not enter her turns or take action until the \"Fever\" state ends.",
-      "simple_desc": "After an ally target uses an attack, provides healing, or provides a Shield, Robin • Summeretto gains Vibes. When all \"Summer Songbirds\" take the stage, Robin • Summeretto and the \"Summer Songbirds\" enter the \"Fever\" state and deploy a Zone. While inside the Zone, when ally targets deal DMG, they ignore the enemy target's DEF.\\nWhile in the \"Fever\" state, Robin • Summeretto and the \"Summer Songbirds\" are immune to <u>Crowd Control debuffs</u>, and Robin • Summeretto will not enter her turn and cannot take action before the \"Fever\" state ends.",
+      "desc": "The memosprite \"Summer Songbirds\" has an initial Max HP equal to <unbreak>#1[i]%</unbreak> of Robin • Summeretto's Max HP and an initial SPD equal to <unbreak>#2[i]%</unbreak> of Robin • Summeretto's SPD. When an ally target uses an attack, or when providing healing effect or Shield for the first time in any target's turn, Robin • Summeretto gains 1 Vibes, up to a max of <unbreak>#5[i]</unbreak>. While \"Summer Songbirds\" Bessie is on the field, if Robin's Vibes is <unbreak>#6[i]</unbreak> or more, immediately summons the \"Summer Songbird\" Drummie, and if Vibes is <unbreak>#7[i]</unbreak> or more, immediately summons the \"Summer Songbird\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all <u>Crowd Control debuffs</u> that Robin • Summeretto and the \"Summer Songbirds\" are under, enter the \"Fever\" state and deploy a Zone. When ally targets deal DMG inside the Zone, they ignore <color=#f29e38ff><unbreak>#8[f1]%</unbreak></color> plus Vibes × <unbreak>#9[f1]%</unbreak> of enemy targets' DEF.\\nWhile in the \"Fever\" state, Robin • Summeretto and the \"Summer Songbirds\" are immune to <u>Crowd Control debuffs</u>, and Robin • Summeretto will not enter her turns until the \"Fever\" state ends.",
+      "simple_desc": "When an ally target uses an attack, provides healing, or provides a Shield, Robin • Summeretto gains Vibes. Once Vibes reaches a certain number of points, summons \"Summer Songbird\" Drummie and \"Summer Songbird\" Paddie respectively. After all \"Summer Songbirds\" take the stage, Robin • Summeretto and the \"Summer Songbirds\" enter the \"Fever\" state and deploy a Zone. While inside the Zone, when ally targets deal DMG, they ignore a portion of the enemy target's DEF.\\nWhile in the \"Fever\" state, Robin • Summeretto and the \"Summer Songbirds\" are immune to <u>Crowd Control debuffs</u>, and Robin • Summeretto will not enter her turn before the \"Fever\" state ends.",
       "type_name": "Talent",
       "tag": "Enhance",
       "bp_need": -1,
@@ -2033,7 +2033,7 @@
         ],
         "point_id": 1512102,
         "point_name": "Improvised Blues",
-        "point_desc": "When Robin • Summeretto or \"Summer Songbirds\" receive healing or a Shield provided by teammates, they gain <unbreak>#1[i]</unbreak> stack(s) of \"Groove,\" up to a max of <unbreak>#3[i]</unbreak> stack(s). The first time Robin • Summeretto gains Vibes each turn, if she has \"Groove,\" she consumes 1 stack of \"Groove\" and regenerates a fixed amount of <unbreak>#2[i]</unbreak> Energy.",
+        "point_desc": "When Robin • Summeretto or \"Summer Songbirds\" receive healing or a Shield provided by teammates, they gain <unbreak>#1[i]</unbreak> stack(s) of \"Groove,\" up to a max of <unbreak>#3[i]</unbreak> stack(s). The first time Robin • Summeretto gains Vibes on any unit's turn, if she has \"Groove,\" she consumes 1 stack of \"Groove\" and regenerates <unbreak>#2[i]</unbreak> Energy.",
         "point_trigger_key": 7,
         "point_type": 3,
         "pre_point": [],
@@ -2520,7 +2520,7 @@
         "max_level": 6,
         "param_list": [],
         "point_id": 1512301,
-        "point_name": "Twittering Quartet",
+        "point_name": "Chirrup Quartet",
         "point_trigger_key": 19,
         "point_type": 4,
         "pre_point": [],
@@ -2555,7 +2555,7 @@
         "max_level": 6,
         "param_list": [],
         "point_id": 1512301,
-        "point_name": "Twittering Quartet",
+        "point_name": "Chirrup Quartet",
         "point_trigger_key": 19,
         "point_type": 4,
         "pre_point": [],
@@ -2590,7 +2590,7 @@
         "max_level": 6,
         "param_list": [],
         "point_id": 1512301,
-        "point_name": "Twittering Quartet",
+        "point_name": "Chirrup Quartet",
         "point_trigger_key": 19,
         "point_type": 4,
         "pre_point": [],
@@ -2625,7 +2625,7 @@
         "max_level": 6,
         "param_list": [],
         "point_id": 1512301,
-        "point_name": "Twittering Quartet",
+        "point_name": "Chirrup Quartet",
         "point_trigger_key": 19,
         "point_type": 4,
         "pre_point": [],
@@ -2660,7 +2660,7 @@
         "max_level": 6,
         "param_list": [],
         "point_id": 1512301,
-        "point_name": "Twittering Quartet",
+        "point_name": "Chirrup Quartet",
         "point_trigger_key": 19,
         "point_type": 4,
         "pre_point": [],
@@ -2695,7 +2695,7 @@
         "max_level": 6,
         "param_list": [],
         "point_id": 1512301,
-        "point_name": "Twittering Quartet",
+        "point_name": "Chirrup Quartet",
         "point_trigger_key": 19,
         "point_type": 4,
         "pre_point": [],
@@ -2717,7 +2717,7 @@
         "max_level": 6,
         "param_list": [],
         "point_id": 1512302,
-        "point_name": "Fluttering Harmony",
+        "point_name": "A Warble of Wings",
         "point_trigger_key": 20,
         "point_type": 4,
         "pre_point": [],
@@ -2754,7 +2754,7 @@
         "max_level": 6,
         "param_list": [],
         "point_id": 1512302,
-        "point_name": "Fluttering Harmony",
+        "point_name": "A Warble of Wings",
         "point_trigger_key": 20,
         "point_type": 4,
         "pre_point": [],
@@ -2791,7 +2791,7 @@
         "max_level": 6,
         "param_list": [],
         "point_id": 1512302,
-        "point_name": "Fluttering Harmony",
+        "point_name": "A Warble of Wings",
         "point_trigger_key": 20,
         "point_type": 4,
         "pre_point": [],
@@ -2828,7 +2828,7 @@
         "max_level": 6,
         "param_list": [],
         "point_id": 1512302,
-        "point_name": "Fluttering Harmony",
+        "point_name": "A Warble of Wings",
         "point_trigger_key": 20,
         "point_type": 4,
         "pre_point": [],
@@ -2865,7 +2865,7 @@
         "max_level": 6,
         "param_list": [],
         "point_id": 1512302,
-        "point_name": "Fluttering Harmony",
+        "point_name": "A Warble of Wings",
         "point_trigger_key": 20,
         "point_type": 4,
         "pre_point": [],
@@ -2902,7 +2902,7 @@
         "max_level": 6,
         "param_list": [],
         "point_id": 1512302,
-        "point_name": "Fluttering Harmony",
+        "point_name": "A Warble of Wings",
         "point_trigger_key": 20,
         "point_type": 4,
         "pre_point": [],
@@ -2923,9 +2923,9 @@
     "aggro": 100,
     "skills": {
       "1151201": {
-        "name": "Twittering Quartet",
-        "desc": "Deals Wind DMG equal to <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> of Summer Songbirds' Max HP to all enemies.",
-        "simple_desc": "Deals minor Wind DMG to all enemies.",
+        "name": "Chirrup Quartet",
+        "desc": "Deals Wind DMG equal to <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> of \"Summer Songbirds's\" Max HP to all enemies.",
+        "simple_desc": "Deals massive Wind DMG to all enemies.",
         "type": "Servant",
         "type_name": "Memosprite Skill",
         "tag": "AoEAttack",
@@ -3011,8 +3011,8 @@
         }
       },
       "1151203": {
-        "name": "Fluttering Harmony",
-        "desc": "While in the \"Fever\" state, Summer Songbirds and a countdown will appear on the action bar, increasing the DMG dealt by Robin • Summeretto and themselves by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> + Vibes × <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color>. When Summer Songbirds' turn starts, they use the Memosprite Skill. The countdown has an initial SPD of <unbreak>#9[i]</unbreak>. When their turn starts, <unbreak>#10[i]%</unbreak> of current Vibes (a minimum of <unbreak>#6[i]</unbreak> points) gets deducted. When Vibes reach 0, the Summer Songbirds disappear and Robin • Summeretto exits the \"Fever\" state. While Summer Songbirds are on the field, increases the DMG taken by all enemies by <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color>/<color=#f29e38ff><unbreak>#4[f1]%</unbreak></color>/<color=#f29e38ff><unbreak>#5[f1]%</unbreak></color> respectively based on the number of members present.",
+        "name": "A Warble of Wings",
+        "desc": "While in the \"Fever\" state, the \"Summer Songbirds\" and a countdown will appear on the action bar, increasing the DMG dealt by Robin • Summeretto and themselves by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> + Vibes × <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color>. When \"Summer Songbirds's\" turn starts, they use the Memosprite Skill. The countdown has an initial SPD of <unbreak>#9[i]</unbreak>. When their turn starts, <unbreak>#10[i]%</unbreak> of current Vibes (a minimum of <unbreak>#6[i]</unbreak> points) gets deducted. When Vibes reach 0, the \"Summer Songbirds\" disappear and Robin • Summeretto exits the \"Fever\" state. While \"Summer Songbirds\" are on the field, increases the DMG taken by all enemies by <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color>/<color=#f29e38ff><unbreak>#4[f1]%</unbreak></color>/<color=#f29e38ff><unbreak>#5[f1]%</unbreak></color> respectively based on the number of members present.",
         "simple_desc": "While in the \"Fever\" state, DMG dealt by Robin • Summeretto and this unit increases. Summer Songbirds use Memosprite Skill at the start of their turn. When Vibes reach 0, Summer Songbirds disappear, causing Robin • Summeretto to exit the \"Fever\" state. While Summer Songbirds are on the field, increases DMG taken by all enemies based on the number of members.",
         "type_name": "Memosprite Talent",
         "tag": "Support",
@@ -3177,8 +3177,8 @@
         }
       },
       "1151205": {
-        "name": "Nestle in the Heartbeat of the Sea",
-        "desc": "When Summer Songbirds are summoned, regenerates <unbreak>#1[i]</unbreak> Energy for Robin • Summeretto.",
+        "name": "Near the Sea's Heartbeat",
+        "desc": "When the \"Summer Songbirds\" are summoned, regenerates <unbreak>#1[i]</unbreak> Energy for Robin • Summeretto.",
         "simple_desc": "When summoned, regenerates Energy for Robin • Summeretto.",
         "type_name": "Memosprite Talent",
         "tag": "Support",
@@ -3253,8 +3253,8 @@
         }
       },
       "1151206": {
-        "name": "Ride the Summer Night Breeze",
-        "desc": "When Summer Songbirds disappear, Robin • Summeretto's <u>action advances</u> by <unbreak>#1[i]%</unbreak>.",
+        "name": "Astride Summer's Nightwind",
+        "desc": "When the \"Summer Songbirds\" disappear, Robin • Summeretto's <u>action advances</u> by <unbreak>#1[i]%</unbreak>.",
         "simple_desc": "When disappearing, Robin • Summeretto's <u>action advances</u>.",
         "type_name": "Memosprite Talent",
         "tag": "Support",
@@ -3579,6 +3579,124 @@
     23049,
     24005
   ],
-  "teams": [],
+  "teams": [
+    {
+      "avatar_id": 1512,
+      "team_id": 1,
+      "position": 1,
+      "member_list": [
+        1510,
+        1507,
+        1414
+      ],
+      "backup_list1": [],
+      "backup_list2": [
+        1403,
+        1415,
+        1306,
+        1313,
+        1309,
+        8007,
+        1406,
+        1218,
+        1202
+      ],
+      "backup_list3": [
+        1409,
+        1217,
+        1222,
+        1304,
+        1208,
+        1203,
+        1301
+      ],
+      "backup_group_list1": [
+        103,
+        102
+      ],
+      "backup_group_list2": [
+        104
+      ],
+      "backup_group_list3": [
+        101
+      ]
+    },
+    {
+      "avatar_id": 1512,
+      "team_id": 2,
+      "position": 1,
+      "member_list": [
+        1407,
+        1415,
+        1409
+      ],
+      "backup_list1": [
+        1415,
+        1413
+      ],
+      "backup_list2": [
+        1413
+      ],
+      "backup_list3": [
+        1217,
+        1414,
+        1222,
+        1304,
+        1208,
+        1203,
+        1301
+      ],
+      "backup_group_list1": [
+        113
+      ],
+      "backup_group_list2": [
+        113
+      ],
+      "backup_group_list3": [
+        101
+      ]
+    },
+    {
+      "avatar_id": 1512,
+      "team_id": 3,
+      "position": 1,
+      "member_list": [
+        1513,
+        1507,
+        1409
+      ],
+      "backup_list1": [],
+      "backup_list2": [
+        1403,
+        1415,
+        1306,
+        1313,
+        1309,
+        8007,
+        1406,
+        1218,
+        1202
+      ],
+      "backup_list3": [
+        1414,
+        1217,
+        1222,
+        1304,
+        1208,
+        1203,
+        1301
+      ],
+      "backup_group_list1": [
+        103,
+        102
+      ],
+      "backup_group_list2": [
+        104
+      ],
+      "backup_group_list3": [
+        101
+      ]
+    }
+  ],
   "skin": {}
 }

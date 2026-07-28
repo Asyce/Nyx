@@ -7,7 +7,7 @@
 (function(){
   window.CM_CFG_BETA = window.CM_CFG_BETA || {};
   window.CM_CFG_BETA["hsr"] = {
-  "version": "4.4.52",
+  "version": "4.4.53",
   "liveVersion": "4.4",
   "newCount": 2,
   "changedCount": 17,
@@ -23,6 +23,7 @@
       },
       "title": "Ad Astra Nova",
       "slug": "himeko-nova",
+      "release": 1784106000000,
       "updated": 1784851200000,
       "sourceOrder": 0,
       "icon": "../../Database/GameData/hsr/assets/characters/round/1510.webp",
@@ -83,7 +84,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.52",
+        "version": "4.4.53",
         "sections": [
           {
             "title": "Skills",
@@ -1804,7 +1805,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.52",
+        "version": "4.4.53",
         "sections": [
           {
             "title": "Skills",
@@ -3289,7 +3290,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.52",
+        "version": "4.4.53",
         "sections": [
           {
             "title": "Skills",
@@ -3411,77 +3412,77 @@
                 ]
               },
               {
-                "name": "Winning Hand, Over the Tempest",
+                "name": "Grand Slam, Crest That High Tide",
                 "type": "Ultimate",
-                "desc": "Deals Quantum DMG equal to 480% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 5 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 32.5% for 3 turn(s).",
+                "desc": "Deals Quantum DMG equal to 480% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 5 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 39% for 4 turn(s).",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_Ultra.webp",
                 "levels": [
                   {
                     "label": "Lv. 1",
-                    "text": "Deals Quantum DMG equal to 240% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 5 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 10% for 3 turn(s)."
+                    "text": "Deals Quantum DMG equal to 240% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 5 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 12% for 4 turn(s)."
                   },
                   {
                     "label": "Lv. 2",
-                    "text": "Deals Quantum DMG equal to 256% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 5 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 11.5% for 3 turn(s)."
+                    "text": "Deals Quantum DMG equal to 256% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 5 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 13.8% for 4 turn(s)."
                   },
                   {
                     "label": "Lv. 3",
-                    "text": "Deals Quantum DMG equal to 272% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 5 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 13% for 3 turn(s)."
+                    "text": "Deals Quantum DMG equal to 272% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 5 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 15.6% for 4 turn(s)."
                   },
                   {
                     "label": "Lv. 4",
-                    "text": "Deals Quantum DMG equal to 288% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 5 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 14.5% for 3 turn(s)."
+                    "text": "Deals Quantum DMG equal to 288% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 5 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 17.4% for 4 turn(s)."
                   },
                   {
                     "label": "Lv. 5",
-                    "text": "Deals Quantum DMG equal to 304% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 5 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 16% for 3 turn(s)."
+                    "text": "Deals Quantum DMG equal to 304% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 5 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 19.2% for 4 turn(s)."
                   },
                   {
                     "label": "Lv. 6",
-                    "text": "Deals Quantum DMG equal to 320% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 5 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 17.5% for 3 turn(s)."
+                    "text": "Deals Quantum DMG equal to 320% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 5 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 21% for 4 turn(s)."
                   },
                   {
                     "label": "Lv. 7",
-                    "text": "Deals Quantum DMG equal to 340% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 5 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 19.4% for 3 turn(s)."
+                    "text": "Deals Quantum DMG equal to 340% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 5 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 23.3% for 4 turn(s)."
                   },
                   {
                     "label": "Lv. 8",
-                    "text": "Deals Quantum DMG equal to 360% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 5 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 21.3% for 3 turn(s)."
+                    "text": "Deals Quantum DMG equal to 360% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 5 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 25.5% for 4 turn(s)."
                   },
                   {
                     "label": "Lv. 9",
-                    "text": "Deals Quantum DMG equal to 380% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 5 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 23.1% for 3 turn(s)."
+                    "text": "Deals Quantum DMG equal to 380% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 5 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 27.8% for 4 turn(s)."
                   },
                   {
                     "label": "Lv. 10",
-                    "text": "Deals Quantum DMG equal to 400% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 5 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 25% for 3 turn(s)."
+                    "text": "Deals Quantum DMG equal to 400% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 5 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 30% for 4 turn(s)."
                   },
                   {
                     "label": "Lv. 11",
-                    "text": "Deals Quantum DMG equal to 416% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 5 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 26.5% for 3 turn(s)."
+                    "text": "Deals Quantum DMG equal to 416% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 5 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 31.8% for 4 turn(s)."
                   },
                   {
                     "label": "Lv. 12",
-                    "text": "Deals Quantum DMG equal to 432% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 5 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 28% for 3 turn(s)."
+                    "text": "Deals Quantum DMG equal to 432% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 5 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 33.6% for 4 turn(s)."
                   },
                   {
                     "label": "Lv. 13",
-                    "text": "Deals Quantum DMG equal to 448% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 5 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 29.5% for 3 turn(s)."
+                    "text": "Deals Quantum DMG equal to 448% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 5 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 35.4% for 4 turn(s)."
                   },
                   {
                     "label": "Lv. 14",
-                    "text": "Deals Quantum DMG equal to 464% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 5 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 31% for 3 turn(s)."
+                    "text": "Deals Quantum DMG equal to 464% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 5 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 37.2% for 4 turn(s)."
                   },
                   {
                     "label": "Lv. 15",
-                    "text": "Deals Quantum DMG equal to 480% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 5 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 32.5% for 3 turn(s)."
+                    "text": "Deals Quantum DMG equal to 480% of Aventurine \u2022 Waveflair's ATK to all enemies, and gains 5 Punchline and 8 point(s) of \"Fervor.\" Increases this unit's SPD by 39% for 4 turn(s)."
                   }
                 ]
               },
               {
                 "name": "Stirring Waves in Still Waters",
                 "type": "Technique Attack",
-                "desc": "Moves forward rapidly for a set distance, attacking all enemies in contact and blocking all incoming attacks. After entering combat via attacking enemies, Aventurine \u2022 Waveflair deals Quantum DMG equal to 100% of his ATK to all enemies, and gains 2 point(s) of \"Fervor\" and 20 points of \"Certified Banger.\"",
+                "desc": "Moves forward rapidly for a set distance, attacking all enemies in contact and blocking all incoming attacks. After entering combat via attacking enemies, Aventurine \u2022 Waveflair deals Quantum DMG equal to 100% of his ATK to all enemies, and gains 2 point(s) of \"Fervor\" and 20 points of \"Certified Banger.\" Technique Points are not consumed if no enemies are hit.",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_Maze.webp"
               },
               {
@@ -3492,204 +3493,204 @@
               {
                 "name": "Place Your Bets, Hear the Deep",
                 "type": "Talent",
-                "desc": "The duration of Aventurine \u2022 Waveflair's \"Certified Banger\" increases by 1 turn. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 1 point(s) of \"Fervor\" and 1 Punchline(s). The max limit for \"Fervor\" is 30 points.\\nWhen \"Fervor\" reaches 10 points, Aventurine \u2022 Waveflair uses \"Cheers! To the Blazing Summer\" 1 time, which takes a fixed 20 Punchline(s) into account. After this use, the Elation Skill used by this unit in the next Aha Instant is enhanced into \"All in! To the Blazing Summer.\"\\nWhile Aventurine \u2022 Waveflair has \"Certified Banger,\" his Skill additionally deals 50% Quantum Elation DMG to all enemies, and his Ultimate additionally deals 90% Quantum Elation DMG to all enemies.",
+                "desc": "The duration of Aventurine \u2022 Waveflair's \"Certified Banger\" increases by 1 turn. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 1 point(s) of \"Fervor\" and 1 Punchline(s). The max limit for \"Fervor\" is 30 points.\\nWhen \"Fervor\" reaches 10 points, Aventurine \u2022 Waveflair uses \"Cheers! To Summer's Blaze\" 1 time, which takes a fixed 20 Punchline(s) into account. After this use, the next Elation Skill used by this unit in the Aha Instant is enhanced into \"All In! To Summer's Blaze.\"\\nWhile Aventurine \u2022 Waveflair has \"Certified Banger,\" his Skill additionally deals 50% Quantum Elation DMG to all enemies, and his Ultimate additionally deals 90% Quantum Elation DMG to all enemies.",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_Passive.webp",
                 "levels": [
                   {
                     "label": "Lv. 1",
-                    "text": "The duration of Aventurine \u2022 Waveflair's \"Certified Banger\" increases by 1 turn. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 1 point(s) of \"Fervor\" and 1 Punchline(s). The max limit for \"Fervor\" is 30 points.\\nWhen \"Fervor\" reaches 10 points, Aventurine \u2022 Waveflair uses \"Cheers! To the Blazing Summer\" 1 time, which takes a fixed 20 Punchline(s) into account. After this use, the Elation Skill used by this unit in the next Aha Instant is enhanced into \"All in! To the Blazing Summer.\"\\nWhile Aventurine \u2022 Waveflair has \"Certified Banger,\" his Skill additionally deals 20% Quantum Elation DMG to all enemies, and his Ultimate additionally deals 36% Quantum Elation DMG to all enemies."
+                    "text": "The duration of Aventurine \u2022 Waveflair's \"Certified Banger\" increases by 1 turn. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 1 point(s) of \"Fervor\" and 1 Punchline(s). The max limit for \"Fervor\" is 30 points.\\nWhen \"Fervor\" reaches 10 points, Aventurine \u2022 Waveflair uses \"Cheers! To Summer's Blaze\" 1 time, which takes a fixed 20 Punchline(s) into account. After this use, the next Elation Skill used by this unit in the Aha Instant is enhanced into \"All In! To Summer's Blaze.\"\\nWhile Aventurine \u2022 Waveflair has \"Certified Banger,\" his Skill additionally deals 20% Quantum Elation DMG to all enemies, and his Ultimate additionally deals 36% Quantum Elation DMG to all enemies."
                   },
                   {
                     "label": "Lv. 2",
-                    "text": "The duration of Aventurine \u2022 Waveflair's \"Certified Banger\" increases by 1 turn. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 1 point(s) of \"Fervor\" and 1 Punchline(s). The max limit for \"Fervor\" is 30 points.\\nWhen \"Fervor\" reaches 10 points, Aventurine \u2022 Waveflair uses \"Cheers! To the Blazing Summer\" 1 time, which takes a fixed 20 Punchline(s) into account. After this use, the Elation Skill used by this unit in the next Aha Instant is enhanced into \"All in! To the Blazing Summer.\"\\nWhile Aventurine \u2022 Waveflair has \"Certified Banger,\" his Skill additionally deals 22% Quantum Elation DMG to all enemies, and his Ultimate additionally deals 39.6% Quantum Elation DMG to all enemies."
+                    "text": "The duration of Aventurine \u2022 Waveflair's \"Certified Banger\" increases by 1 turn. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 1 point(s) of \"Fervor\" and 1 Punchline(s). The max limit for \"Fervor\" is 30 points.\\nWhen \"Fervor\" reaches 10 points, Aventurine \u2022 Waveflair uses \"Cheers! To Summer's Blaze\" 1 time, which takes a fixed 20 Punchline(s) into account. After this use, the next Elation Skill used by this unit in the Aha Instant is enhanced into \"All In! To Summer's Blaze.\"\\nWhile Aventurine \u2022 Waveflair has \"Certified Banger,\" his Skill additionally deals 22% Quantum Elation DMG to all enemies, and his Ultimate additionally deals 39.6% Quantum Elation DMG to all enemies."
                   },
                   {
                     "label": "Lv. 3",
-                    "text": "The duration of Aventurine \u2022 Waveflair's \"Certified Banger\" increases by 1 turn. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 1 point(s) of \"Fervor\" and 1 Punchline(s). The max limit for \"Fervor\" is 30 points.\\nWhen \"Fervor\" reaches 10 points, Aventurine \u2022 Waveflair uses \"Cheers! To the Blazing Summer\" 1 time, which takes a fixed 20 Punchline(s) into account. After this use, the Elation Skill used by this unit in the next Aha Instant is enhanced into \"All in! To the Blazing Summer.\"\\nWhile Aventurine \u2022 Waveflair has \"Certified Banger,\" his Skill additionally deals 24% Quantum Elation DMG to all enemies, and his Ultimate additionally deals 43.2% Quantum Elation DMG to all enemies."
+                    "text": "The duration of Aventurine \u2022 Waveflair's \"Certified Banger\" increases by 1 turn. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 1 point(s) of \"Fervor\" and 1 Punchline(s). The max limit for \"Fervor\" is 30 points.\\nWhen \"Fervor\" reaches 10 points, Aventurine \u2022 Waveflair uses \"Cheers! To Summer's Blaze\" 1 time, which takes a fixed 20 Punchline(s) into account. After this use, the next Elation Skill used by this unit in the Aha Instant is enhanced into \"All In! To Summer's Blaze.\"\\nWhile Aventurine \u2022 Waveflair has \"Certified Banger,\" his Skill additionally deals 24% Quantum Elation DMG to all enemies, and his Ultimate additionally deals 43.2% Quantum Elation DMG to all enemies."
                   },
                   {
                     "label": "Lv. 4",
-                    "text": "The duration of Aventurine \u2022 Waveflair's \"Certified Banger\" increases by 1 turn. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 1 point(s) of \"Fervor\" and 1 Punchline(s). The max limit for \"Fervor\" is 30 points.\\nWhen \"Fervor\" reaches 10 points, Aventurine \u2022 Waveflair uses \"Cheers! To the Blazing Summer\" 1 time, which takes a fixed 20 Punchline(s) into account. After this use, the Elation Skill used by this unit in the next Aha Instant is enhanced into \"All in! To the Blazing Summer.\"\\nWhile Aventurine \u2022 Waveflair has \"Certified Banger,\" his Skill additionally deals 26% Quantum Elation DMG to all enemies, and his Ultimate additionally deals 46.8% Quantum Elation DMG to all enemies."
+                    "text": "The duration of Aventurine \u2022 Waveflair's \"Certified Banger\" increases by 1 turn. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 1 point(s) of \"Fervor\" and 1 Punchline(s). The max limit for \"Fervor\" is 30 points.\\nWhen \"Fervor\" reaches 10 points, Aventurine \u2022 Waveflair uses \"Cheers! To Summer's Blaze\" 1 time, which takes a fixed 20 Punchline(s) into account. After this use, the next Elation Skill used by this unit in the Aha Instant is enhanced into \"All In! To Summer's Blaze.\"\\nWhile Aventurine \u2022 Waveflair has \"Certified Banger,\" his Skill additionally deals 26% Quantum Elation DMG to all enemies, and his Ultimate additionally deals 46.8% Quantum Elation DMG to all enemies."
                   },
                   {
                     "label": "Lv. 5",
-                    "text": "The duration of Aventurine \u2022 Waveflair's \"Certified Banger\" increases by 1 turn. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 1 point(s) of \"Fervor\" and 1 Punchline(s). The max limit for \"Fervor\" is 30 points.\\nWhen \"Fervor\" reaches 10 points, Aventurine \u2022 Waveflair uses \"Cheers! To the Blazing Summer\" 1 time, which takes a fixed 20 Punchline(s) into account. After this use, the Elation Skill used by this unit in the next Aha Instant is enhanced into \"All in! To the Blazing Summer.\"\\nWhile Aventurine \u2022 Waveflair has \"Certified Banger,\" his Skill additionally deals 28% Quantum Elation DMG to all enemies, and his Ultimate additionally deals 50.4% Quantum Elation DMG to all enemies."
+                    "text": "The duration of Aventurine \u2022 Waveflair's \"Certified Banger\" increases by 1 turn. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 1 point(s) of \"Fervor\" and 1 Punchline(s). The max limit for \"Fervor\" is 30 points.\\nWhen \"Fervor\" reaches 10 points, Aventurine \u2022 Waveflair uses \"Cheers! To Summer's Blaze\" 1 time, which takes a fixed 20 Punchline(s) into account. After this use, the next Elation Skill used by this unit in the Aha Instant is enhanced into \"All In! To Summer's Blaze.\"\\nWhile Aventurine \u2022 Waveflair has \"Certified Banger,\" his Skill additionally deals 28% Quantum Elation DMG to all enemies, and his Ultimate additionally deals 50.4% Quantum Elation DMG to all enemies."
                   },
                   {
                     "label": "Lv. 6",
-                    "text": "The duration of Aventurine \u2022 Waveflair's \"Certified Banger\" increases by 1 turn. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 1 point(s) of \"Fervor\" and 1 Punchline(s). The max limit for \"Fervor\" is 30 points.\\nWhen \"Fervor\" reaches 10 points, Aventurine \u2022 Waveflair uses \"Cheers! To the Blazing Summer\" 1 time, which takes a fixed 20 Punchline(s) into account. After this use, the Elation Skill used by this unit in the next Aha Instant is enhanced into \"All in! To the Blazing Summer.\"\\nWhile Aventurine \u2022 Waveflair has \"Certified Banger,\" his Skill additionally deals 30% Quantum Elation DMG to all enemies, and his Ultimate additionally deals 54% Quantum Elation DMG to all enemies."
+                    "text": "The duration of Aventurine \u2022 Waveflair's \"Certified Banger\" increases by 1 turn. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 1 point(s) of \"Fervor\" and 1 Punchline(s). The max limit for \"Fervor\" is 30 points.\\nWhen \"Fervor\" reaches 10 points, Aventurine \u2022 Waveflair uses \"Cheers! To Summer's Blaze\" 1 time, which takes a fixed 20 Punchline(s) into account. After this use, the next Elation Skill used by this unit in the Aha Instant is enhanced into \"All In! To Summer's Blaze.\"\\nWhile Aventurine \u2022 Waveflair has \"Certified Banger,\" his Skill additionally deals 30% Quantum Elation DMG to all enemies, and his Ultimate additionally deals 54% Quantum Elation DMG to all enemies."
                   },
                   {
                     "label": "Lv. 7",
-                    "text": "The duration of Aventurine \u2022 Waveflair's \"Certified Banger\" increases by 1 turn. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 1 point(s) of \"Fervor\" and 1 Punchline(s). The max limit for \"Fervor\" is 30 points.\\nWhen \"Fervor\" reaches 10 points, Aventurine \u2022 Waveflair uses \"Cheers! To the Blazing Summer\" 1 time, which takes a fixed 20 Punchline(s) into account. After this use, the Elation Skill used by this unit in the next Aha Instant is enhanced into \"All in! To the Blazing Summer.\"\\nWhile Aventurine \u2022 Waveflair has \"Certified Banger,\" his Skill additionally deals 32.5% Quantum Elation DMG to all enemies, and his Ultimate additionally deals 58.5% Quantum Elation DMG to all enemies."
+                    "text": "The duration of Aventurine \u2022 Waveflair's \"Certified Banger\" increases by 1 turn. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 1 point(s) of \"Fervor\" and 1 Punchline(s). The max limit for \"Fervor\" is 30 points.\\nWhen \"Fervor\" reaches 10 points, Aventurine \u2022 Waveflair uses \"Cheers! To Summer's Blaze\" 1 time, which takes a fixed 20 Punchline(s) into account. After this use, the next Elation Skill used by this unit in the Aha Instant is enhanced into \"All In! To Summer's Blaze.\"\\nWhile Aventurine \u2022 Waveflair has \"Certified Banger,\" his Skill additionally deals 32.5% Quantum Elation DMG to all enemies, and his Ultimate additionally deals 58.5% Quantum Elation DMG to all enemies."
                   },
                   {
                     "label": "Lv. 8",
-                    "text": "The duration of Aventurine \u2022 Waveflair's \"Certified Banger\" increases by 1 turn. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 1 point(s) of \"Fervor\" and 1 Punchline(s). The max limit for \"Fervor\" is 30 points.\\nWhen \"Fervor\" reaches 10 points, Aventurine \u2022 Waveflair uses \"Cheers! To the Blazing Summer\" 1 time, which takes a fixed 20 Punchline(s) into account. After this use, the Elation Skill used by this unit in the next Aha Instant is enhanced into \"All in! To the Blazing Summer.\"\\nWhile Aventurine \u2022 Waveflair has \"Certified Banger,\" his Skill additionally deals 35% Quantum Elation DMG to all enemies, and his Ultimate additionally deals 63% Quantum Elation DMG to all enemies."
+                    "text": "The duration of Aventurine \u2022 Waveflair's \"Certified Banger\" increases by 1 turn. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 1 point(s) of \"Fervor\" and 1 Punchline(s). The max limit for \"Fervor\" is 30 points.\\nWhen \"Fervor\" reaches 10 points, Aventurine \u2022 Waveflair uses \"Cheers! To Summer's Blaze\" 1 time, which takes a fixed 20 Punchline(s) into account. After this use, the next Elation Skill used by this unit in the Aha Instant is enhanced into \"All In! To Summer's Blaze.\"\\nWhile Aventurine \u2022 Waveflair has \"Certified Banger,\" his Skill additionally deals 35% Quantum Elation DMG to all enemies, and his Ultimate additionally deals 63% Quantum Elation DMG to all enemies."
                   },
                   {
                     "label": "Lv. 9",
-                    "text": "The duration of Aventurine \u2022 Waveflair's \"Certified Banger\" increases by 1 turn. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 1 point(s) of \"Fervor\" and 1 Punchline(s). The max limit for \"Fervor\" is 30 points.\\nWhen \"Fervor\" reaches 10 points, Aventurine \u2022 Waveflair uses \"Cheers! To the Blazing Summer\" 1 time, which takes a fixed 20 Punchline(s) into account. After this use, the Elation Skill used by this unit in the next Aha Instant is enhanced into \"All in! To the Blazing Summer.\"\\nWhile Aventurine \u2022 Waveflair has \"Certified Banger,\" his Skill additionally deals 37.5% Quantum Elation DMG to all enemies, and his Ultimate additionally deals 67.5% Quantum Elation DMG to all enemies."
+                    "text": "The duration of Aventurine \u2022 Waveflair's \"Certified Banger\" increases by 1 turn. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 1 point(s) of \"Fervor\" and 1 Punchline(s). The max limit for \"Fervor\" is 30 points.\\nWhen \"Fervor\" reaches 10 points, Aventurine \u2022 Waveflair uses \"Cheers! To Summer's Blaze\" 1 time, which takes a fixed 20 Punchline(s) into account. After this use, the next Elation Skill used by this unit in the Aha Instant is enhanced into \"All In! To Summer's Blaze.\"\\nWhile Aventurine \u2022 Waveflair has \"Certified Banger,\" his Skill additionally deals 37.5% Quantum Elation DMG to all enemies, and his Ultimate additionally deals 67.5% Quantum Elation DMG to all enemies."
                   },
                   {
                     "label": "Lv. 10",
-                    "text": "The duration of Aventurine \u2022 Waveflair's \"Certified Banger\" increases by 1 turn. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 1 point(s) of \"Fervor\" and 1 Punchline(s). The max limit for \"Fervor\" is 30 points.\\nWhen \"Fervor\" reaches 10 points, Aventurine \u2022 Waveflair uses \"Cheers! To the Blazing Summer\" 1 time, which takes a fixed 20 Punchline(s) into account. After this use, the Elation Skill used by this unit in the next Aha Instant is enhanced into \"All in! To the Blazing Summer.\"\\nWhile Aventurine \u2022 Waveflair has \"Certified Banger,\" his Skill additionally deals 40% Quantum Elation DMG to all enemies, and his Ultimate additionally deals 72% Quantum Elation DMG to all enemies."
+                    "text": "The duration of Aventurine \u2022 Waveflair's \"Certified Banger\" increases by 1 turn. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 1 point(s) of \"Fervor\" and 1 Punchline(s). The max limit for \"Fervor\" is 30 points.\\nWhen \"Fervor\" reaches 10 points, Aventurine \u2022 Waveflair uses \"Cheers! To Summer's Blaze\" 1 time, which takes a fixed 20 Punchline(s) into account. After this use, the next Elation Skill used by this unit in the Aha Instant is enhanced into \"All In! To Summer's Blaze.\"\\nWhile Aventurine \u2022 Waveflair has \"Certified Banger,\" his Skill additionally deals 40% Quantum Elation DMG to all enemies, and his Ultimate additionally deals 72% Quantum Elation DMG to all enemies."
                   },
                   {
                     "label": "Lv. 11",
-                    "text": "The duration of Aventurine \u2022 Waveflair's \"Certified Banger\" increases by 1 turn. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 1 point(s) of \"Fervor\" and 1 Punchline(s). The max limit for \"Fervor\" is 30 points.\\nWhen \"Fervor\" reaches 10 points, Aventurine \u2022 Waveflair uses \"Cheers! To the Blazing Summer\" 1 time, which takes a fixed 20 Punchline(s) into account. After this use, the Elation Skill used by this unit in the next Aha Instant is enhanced into \"All in! To the Blazing Summer.\"\\nWhile Aventurine \u2022 Waveflair has \"Certified Banger,\" his Skill additionally deals 42% Quantum Elation DMG to all enemies, and his Ultimate additionally deals 75.6% Quantum Elation DMG to all enemies."
+                    "text": "The duration of Aventurine \u2022 Waveflair's \"Certified Banger\" increases by 1 turn. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 1 point(s) of \"Fervor\" and 1 Punchline(s). The max limit for \"Fervor\" is 30 points.\\nWhen \"Fervor\" reaches 10 points, Aventurine \u2022 Waveflair uses \"Cheers! To Summer's Blaze\" 1 time, which takes a fixed 20 Punchline(s) into account. After this use, the next Elation Skill used by this unit in the Aha Instant is enhanced into \"All In! To Summer's Blaze.\"\\nWhile Aventurine \u2022 Waveflair has \"Certified Banger,\" his Skill additionally deals 42% Quantum Elation DMG to all enemies, and his Ultimate additionally deals 75.6% Quantum Elation DMG to all enemies."
                   },
                   {
                     "label": "Lv. 12",
-                    "text": "The duration of Aventurine \u2022 Waveflair's \"Certified Banger\" increases by 1 turn. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 1 point(s) of \"Fervor\" and 1 Punchline(s). The max limit for \"Fervor\" is 30 points.\\nWhen \"Fervor\" reaches 10 points, Aventurine \u2022 Waveflair uses \"Cheers! To the Blazing Summer\" 1 time, which takes a fixed 20 Punchline(s) into account. After this use, the Elation Skill used by this unit in the next Aha Instant is enhanced into \"All in! To the Blazing Summer.\"\\nWhile Aventurine \u2022 Waveflair has \"Certified Banger,\" his Skill additionally deals 44% Quantum Elation DMG to all enemies, and his Ultimate additionally deals 79.2% Quantum Elation DMG to all enemies."
+                    "text": "The duration of Aventurine \u2022 Waveflair's \"Certified Banger\" increases by 1 turn. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 1 point(s) of \"Fervor\" and 1 Punchline(s). The max limit for \"Fervor\" is 30 points.\\nWhen \"Fervor\" reaches 10 points, Aventurine \u2022 Waveflair uses \"Cheers! To Summer's Blaze\" 1 time, which takes a fixed 20 Punchline(s) into account. After this use, the next Elation Skill used by this unit in the Aha Instant is enhanced into \"All In! To Summer's Blaze.\"\\nWhile Aventurine \u2022 Waveflair has \"Certified Banger,\" his Skill additionally deals 44% Quantum Elation DMG to all enemies, and his Ultimate additionally deals 79.2% Quantum Elation DMG to all enemies."
                   },
                   {
                     "label": "Lv. 13",
-                    "text": "The duration of Aventurine \u2022 Waveflair's \"Certified Banger\" increases by 1 turn. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 1 point(s) of \"Fervor\" and 1 Punchline(s). The max limit for \"Fervor\" is 30 points.\\nWhen \"Fervor\" reaches 10 points, Aventurine \u2022 Waveflair uses \"Cheers! To the Blazing Summer\" 1 time, which takes a fixed 20 Punchline(s) into account. After this use, the Elation Skill used by this unit in the next Aha Instant is enhanced into \"All in! To the Blazing Summer.\"\\nWhile Aventurine \u2022 Waveflair has \"Certified Banger,\" his Skill additionally deals 46% Quantum Elation DMG to all enemies, and his Ultimate additionally deals 82.8% Quantum Elation DMG to all enemies."
+                    "text": "The duration of Aventurine \u2022 Waveflair's \"Certified Banger\" increases by 1 turn. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 1 point(s) of \"Fervor\" and 1 Punchline(s). The max limit for \"Fervor\" is 30 points.\\nWhen \"Fervor\" reaches 10 points, Aventurine \u2022 Waveflair uses \"Cheers! To Summer's Blaze\" 1 time, which takes a fixed 20 Punchline(s) into account. After this use, the next Elation Skill used by this unit in the Aha Instant is enhanced into \"All In! To Summer's Blaze.\"\\nWhile Aventurine \u2022 Waveflair has \"Certified Banger,\" his Skill additionally deals 46% Quantum Elation DMG to all enemies, and his Ultimate additionally deals 82.8% Quantum Elation DMG to all enemies."
                   },
                   {
                     "label": "Lv. 14",
-                    "text": "The duration of Aventurine \u2022 Waveflair's \"Certified Banger\" increases by 1 turn. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 1 point(s) of \"Fervor\" and 1 Punchline(s). The max limit for \"Fervor\" is 30 points.\\nWhen \"Fervor\" reaches 10 points, Aventurine \u2022 Waveflair uses \"Cheers! To the Blazing Summer\" 1 time, which takes a fixed 20 Punchline(s) into account. After this use, the Elation Skill used by this unit in the next Aha Instant is enhanced into \"All in! To the Blazing Summer.\"\\nWhile Aventurine \u2022 Waveflair has \"Certified Banger,\" his Skill additionally deals 48% Quantum Elation DMG to all enemies, and his Ultimate additionally deals 86.4% Quantum Elation DMG to all enemies."
+                    "text": "The duration of Aventurine \u2022 Waveflair's \"Certified Banger\" increases by 1 turn. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 1 point(s) of \"Fervor\" and 1 Punchline(s). The max limit for \"Fervor\" is 30 points.\\nWhen \"Fervor\" reaches 10 points, Aventurine \u2022 Waveflair uses \"Cheers! To Summer's Blaze\" 1 time, which takes a fixed 20 Punchline(s) into account. After this use, the next Elation Skill used by this unit in the Aha Instant is enhanced into \"All In! To Summer's Blaze.\"\\nWhile Aventurine \u2022 Waveflair has \"Certified Banger,\" his Skill additionally deals 48% Quantum Elation DMG to all enemies, and his Ultimate additionally deals 86.4% Quantum Elation DMG to all enemies."
                   },
                   {
                     "label": "Lv. 15",
-                    "text": "The duration of Aventurine \u2022 Waveflair's \"Certified Banger\" increases by 1 turn. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 1 point(s) of \"Fervor\" and 1 Punchline(s). The max limit for \"Fervor\" is 30 points.\\nWhen \"Fervor\" reaches 10 points, Aventurine \u2022 Waveflair uses \"Cheers! To the Blazing Summer\" 1 time, which takes a fixed 20 Punchline(s) into account. After this use, the Elation Skill used by this unit in the next Aha Instant is enhanced into \"All in! To the Blazing Summer.\"\\nWhile Aventurine \u2022 Waveflair has \"Certified Banger,\" his Skill additionally deals 50% Quantum Elation DMG to all enemies, and his Ultimate additionally deals 90% Quantum Elation DMG to all enemies."
+                    "text": "The duration of Aventurine \u2022 Waveflair's \"Certified Banger\" increases by 1 turn. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 1 point(s) of \"Fervor\" and 1 Punchline(s). The max limit for \"Fervor\" is 30 points.\\nWhen \"Fervor\" reaches 10 points, Aventurine \u2022 Waveflair uses \"Cheers! To Summer's Blaze\" 1 time, which takes a fixed 20 Punchline(s) into account. After this use, the next Elation Skill used by this unit in the Aha Instant is enhanced into \"All In! To Summer's Blaze.\"\\nWhile Aventurine \u2022 Waveflair has \"Certified Banger,\" his Skill additionally deals 50% Quantum Elation DMG to all enemies, and his Ultimate additionally deals 90% Quantum Elation DMG to all enemies."
                   }
                 ]
               },
               {
                 "name": "Cheers! To the Blazing Summer",
                 "type": "Elation Skill",
-                "desc": "Deals 75% Quantum Elation DMG to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing 18.8% Quantum Elation DMG to one random enemy.",
+                "desc": "Deals 75% Quantum Elation DMG to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing 22.5% Quantum Elation DMG to one random enemy.",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_Elation.webp",
                 "levels": [
                   {
                     "label": "Lv. 1",
-                    "text": "Deals 30% Quantum Elation DMG to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing 7.5% Quantum Elation DMG to one random enemy."
+                    "text": "Deals 30% Quantum Elation DMG to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing 9% Quantum Elation DMG to one random enemy."
                   },
                   {
                     "label": "Lv. 2",
-                    "text": "Deals 33% Quantum Elation DMG to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing 8.25% Quantum Elation DMG to one random enemy."
+                    "text": "Deals 33% Quantum Elation DMG to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing 9.9% Quantum Elation DMG to one random enemy."
                   },
                   {
                     "label": "Lv. 3",
-                    "text": "Deals 36% Quantum Elation DMG to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing 9% Quantum Elation DMG to one random enemy."
+                    "text": "Deals 36% Quantum Elation DMG to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing 10.8% Quantum Elation DMG to one random enemy."
                   },
                   {
                     "label": "Lv. 4",
-                    "text": "Deals 39% Quantum Elation DMG to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing 9.75% Quantum Elation DMG to one random enemy."
+                    "text": "Deals 39% Quantum Elation DMG to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing 11.7% Quantum Elation DMG to one random enemy."
                   },
                   {
                     "label": "Lv. 5",
-                    "text": "Deals 42% Quantum Elation DMG to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing 10.5% Quantum Elation DMG to one random enemy."
+                    "text": "Deals 42% Quantum Elation DMG to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing 12.6% Quantum Elation DMG to one random enemy."
                   },
                   {
                     "label": "Lv. 6",
-                    "text": "Deals 45% Quantum Elation DMG to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing 11.3% Quantum Elation DMG to one random enemy."
+                    "text": "Deals 45% Quantum Elation DMG to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing 13.5% Quantum Elation DMG to one random enemy."
                   },
                   {
                     "label": "Lv. 7",
-                    "text": "Deals 48.8% Quantum Elation DMG to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing 12.2% Quantum Elation DMG to one random enemy."
+                    "text": "Deals 48.8% Quantum Elation DMG to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing 14.6% Quantum Elation DMG to one random enemy."
                   },
                   {
                     "label": "Lv. 8",
-                    "text": "Deals 52.5% Quantum Elation DMG to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing 13.1% Quantum Elation DMG to one random enemy."
+                    "text": "Deals 52.5% Quantum Elation DMG to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing 15.8% Quantum Elation DMG to one random enemy."
                   },
                   {
                     "label": "Lv. 9",
-                    "text": "Deals 56.3% Quantum Elation DMG to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing 14.1% Quantum Elation DMG to one random enemy."
+                    "text": "Deals 56.3% Quantum Elation DMG to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing 16.9% Quantum Elation DMG to one random enemy."
                   },
                   {
                     "label": "Lv. 10",
-                    "text": "Deals 60% Quantum Elation DMG to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing 15% Quantum Elation DMG to one random enemy."
+                    "text": "Deals 60% Quantum Elation DMG to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing 18% Quantum Elation DMG to one random enemy."
                   },
                   {
                     "label": "Lv. 11",
-                    "text": "Deals 63% Quantum Elation DMG to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing 15.8% Quantum Elation DMG to one random enemy."
+                    "text": "Deals 63% Quantum Elation DMG to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing 18.9% Quantum Elation DMG to one random enemy."
                   },
                   {
                     "label": "Lv. 12",
-                    "text": "Deals 66% Quantum Elation DMG to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing 16.5% Quantum Elation DMG to one random enemy."
+                    "text": "Deals 66% Quantum Elation DMG to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing 19.8% Quantum Elation DMG to one random enemy."
                   },
                   {
                     "label": "Lv. 13",
-                    "text": "Deals 69% Quantum Elation DMG to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing 17.3% Quantum Elation DMG to one random enemy."
+                    "text": "Deals 69% Quantum Elation DMG to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing 20.7% Quantum Elation DMG to one random enemy."
                   },
                   {
                     "label": "Lv. 14",
-                    "text": "Deals 72% Quantum Elation DMG to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing 18% Quantum Elation DMG to one random enemy."
+                    "text": "Deals 72% Quantum Elation DMG to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing 21.6% Quantum Elation DMG to one random enemy."
                   },
                   {
                     "label": "Lv. 15",
-                    "text": "Deals 75% Quantum Elation DMG to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing 18.8% Quantum Elation DMG to one random enemy."
+                    "text": "Deals 75% Quantum Elation DMG to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing 22.5% Quantum Elation DMG to one random enemy."
                   }
                 ]
               },
               {
                 "name": "All in! To the Blazing Summer",
                 "type": "Elation Skill",
-                "desc": "Deals 75% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 18.8% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 18.8% Quantum Elation DMG to one random enemy.",
+                "desc": "Deals 75% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 22.5% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 22.5% Quantum Elation DMG to one random enemy.",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_Elation.webp",
                 "levels": [
                   {
                     "label": "Lv. 1",
-                    "text": "Deals 30% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 7.5% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 7.5% Quantum Elation DMG to one random enemy."
+                    "text": "Deals 30% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 9% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 9% Quantum Elation DMG to one random enemy."
                   },
                   {
                     "label": "Lv. 2",
-                    "text": "Deals 33% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 8.25% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 8.25% Quantum Elation DMG to one random enemy."
+                    "text": "Deals 33% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 9.9% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 9.9% Quantum Elation DMG to one random enemy."
                   },
                   {
                     "label": "Lv. 3",
-                    "text": "Deals 36% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 9% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 9% Quantum Elation DMG to one random enemy."
+                    "text": "Deals 36% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 10.8% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 10.8% Quantum Elation DMG to one random enemy."
                   },
                   {
                     "label": "Lv. 4",
-                    "text": "Deals 39% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 9.75% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 9.75% Quantum Elation DMG to one random enemy."
+                    "text": "Deals 39% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 11.7% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 11.7% Quantum Elation DMG to one random enemy."
                   },
                   {
                     "label": "Lv. 5",
-                    "text": "Deals 42% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 10.5% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 10.5% Quantum Elation DMG to one random enemy."
+                    "text": "Deals 42% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 12.6% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 12.6% Quantum Elation DMG to one random enemy."
                   },
                   {
                     "label": "Lv. 6",
-                    "text": "Deals 45% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 11.3% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 11.3% Quantum Elation DMG to one random enemy."
+                    "text": "Deals 45% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 13.5% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 13.5% Quantum Elation DMG to one random enemy."
                   },
                   {
                     "label": "Lv. 7",
-                    "text": "Deals 48.8% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 12.2% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 12.2% Quantum Elation DMG to one random enemy."
+                    "text": "Deals 48.8% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 14.6% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 14.6% Quantum Elation DMG to one random enemy."
                   },
                   {
                     "label": "Lv. 8",
-                    "text": "Deals 52.5% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 13.1% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 13.1% Quantum Elation DMG to one random enemy."
+                    "text": "Deals 52.5% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 15.8% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 15.8% Quantum Elation DMG to one random enemy."
                   },
                   {
                     "label": "Lv. 9",
-                    "text": "Deals 56.3% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 14.1% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 14.1% Quantum Elation DMG to one random enemy."
+                    "text": "Deals 56.3% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 16.9% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 16.9% Quantum Elation DMG to one random enemy."
                   },
                   {
                     "label": "Lv. 10",
-                    "text": "Deals 60% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 15% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 15% Quantum Elation DMG to one random enemy."
+                    "text": "Deals 60% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 18% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 18% Quantum Elation DMG to one random enemy."
                   },
                   {
                     "label": "Lv. 11",
-                    "text": "Deals 63% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 15.8% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 15.8% Quantum Elation DMG to one random enemy."
+                    "text": "Deals 63% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 18.9% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 18.9% Quantum Elation DMG to one random enemy."
                   },
                   {
                     "label": "Lv. 12",
-                    "text": "Deals 66% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 16.5% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 16.5% Quantum Elation DMG to one random enemy."
+                    "text": "Deals 66% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 19.8% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 19.8% Quantum Elation DMG to one random enemy."
                   },
                   {
                     "label": "Lv. 13",
-                    "text": "Deals 69% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 17.3% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 17.3% Quantum Elation DMG to one random enemy."
+                    "text": "Deals 69% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 20.7% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 20.7% Quantum Elation DMG to one random enemy."
                   },
                   {
                     "label": "Lv. 14",
-                    "text": "Deals 72% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 18% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 18% Quantum Elation DMG to one random enemy."
+                    "text": "Deals 72% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 21.6% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 21.6% Quantum Elation DMG to one random enemy."
                   },
                   {
                     "label": "Lv. 15",
-                    "text": "Deals 75% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 18.8% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 18.8% Quantum Elation DMG to one random enemy."
+                    "text": "Deals 75% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 22.5% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 22.5% Quantum Elation DMG to one random enemy."
                   }
                 ]
               }
@@ -3707,7 +3708,7 @@
               {
                 "name": "Revel in Surging Waves",
                 "type": "Major Trace",
-                "desc": "At the start of the battle, if there are other Elation characters in the team besides Aventurine \u2022 Waveflair, Aventurine \u2022 Waveflair's Elation increases by 100%.\\nAt the start of the battle, if Aventurine \u2022 Waveflair is the only Elation character in the team, after a teammate uses an attack, Aventurine \u2022 Waveflair gains 2 point(s) of \"Certified Banger\" and 1 Punchline(s), and increases Aha's SPD by 25. The SPD Boost effect lasts until the end of Aha Instant.",
+                "desc": "At the start of the battle, if there are other Elation characters in the team besides Aventurine \u2022 Waveflair, Aventurine \u2022 Waveflair's Elation increases by 100%.\\nAt the start of the battle, if Aventurine \u2022 Waveflair is the only Elation character in the team, when Aventurine \u2022 Waveflair deals DMG using his Elation Skill, it is considered as launching a Follow-Up ATK. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 2 point(s) of \"Certified Banger\" and 1 Punchline(s), and increases Aha's SPD by 25. The SPD Boost effect lasts until the end of Aha Instant.",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_SkillTree2.webp"
               },
               {
@@ -3724,13 +3725,13 @@
               {
                 "name": "Vacation At Stake",
                 "type": "Eidolon 1",
-                "desc": "Increases All-Type RES PEN by 24%. Every time Aventurine \u2022 Waveflair gains 10 points of \"Fervor,\" he can trigger his Talent to use \"Cheers! To the Blazing Summer.\"",
+                "desc": "Increases All-Type RES PEN by 24%.\\nTalent is enhanced: When \"Fervor\" reaches 10/20/30 points, immediately uses \"Cheers! To Summer's Blaze.\"",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_Rank1.webp"
               },
               {
                 "name": "Tidal Fluctuations of Leisure",
                 "type": "Eidolon 2",
-                "desc": "Increases the max limit of \"Fervor\" to 50 points, and additionally grants 2 point(s) of \"Fervor\" after using Skill, Ultimate, or Elation Skill.",
+                "desc": "Increases the max limit of \"Fervor\" to 50 points. When \"Fervor\" reaches 40/50 points, also triggers the Talent to use \"Cheers! To Summer's Blaze.\" After using an Elation Skill, additionally grants 4 point(s) of \"Fervor.\"",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_Rank2.webp"
               },
               {
@@ -3754,7 +3755,7 @@
               {
                 "name": "Cashing the Past for a Wild Ride",
                 "type": "Eidolon 6",
-                "desc": "Elation DMG dealt by Aventurine \u2022 Waveflair merrymakes by 25%. After Aventurine \u2022 Waveflair uses his Ultimate 2 time(s), all subsequent Elation Skills used become \"All in! To the Blazing Summer,\" and when using the Elation Skill \"All in! To the Blazing Summer\" to additionally deal DMG outside of Aha Instant, it no longer consumes \"Fervor.\"",
+                "desc": "Elation DMG dealt by Aventurine \u2022 Waveflair merrymakes by 25%. After Aventurine \u2022 Waveflair uses his Elation Skill 2 time(s), all subsequent Elation Skills used become \"All in! To the Blazing Summer,\" and when using the Elation Skill \"All in! To the Blazing Summer\" to additionally deal DMG outside of Aha Instant, it no longer consumes \"Fervor.\"",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_Rank6.webp"
               }
             ]
@@ -4794,7 +4795,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.52",
+        "version": "4.4.53",
         "sections": [
           {
             "title": "Skills",
@@ -4850,136 +4851,136 @@
               {
                 "name": "Midsummer Is the Musician of the Soul",
                 "type": "Skill",
-                "desc": "Summons the memosprite \"Summer Songbirds\" Bessie. If \"Summer Songbirds\" is already on the field, restores its HP by an amount equal to 125% of \"Summer Songbirds's\" Max HP, and gains 6 Vibes.",
+                "desc": "Summons the memosprite \"Summer Songbirds\" Bessie. If any among the \"Summer Songbirds\" is already on the field, restores its HP by an amount equal to 125% of \"Summer Songbirds's\" Max HP, and gains 6 Vibes.",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_BP.webp",
                 "levels": [
                   {
                     "label": "Lv. 1",
-                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If \"Summer Songbirds\" is already on the field, restores its HP by an amount equal to 50% of \"Summer Songbirds's\" Max HP, and gains 6 Vibes."
+                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any among the \"Summer Songbirds\" is already on the field, restores its HP by an amount equal to 50% of \"Summer Songbirds's\" Max HP, and gains 6 Vibes."
                   },
                   {
                     "label": "Lv. 2",
-                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If \"Summer Songbirds\" is already on the field, restores its HP by an amount equal to 55% of \"Summer Songbirds's\" Max HP, and gains 6 Vibes."
+                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any among the \"Summer Songbirds\" is already on the field, restores its HP by an amount equal to 55% of \"Summer Songbirds's\" Max HP, and gains 6 Vibes."
                   },
                   {
                     "label": "Lv. 3",
-                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If \"Summer Songbirds\" is already on the field, restores its HP by an amount equal to 60% of \"Summer Songbirds's\" Max HP, and gains 6 Vibes."
+                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any among the \"Summer Songbirds\" is already on the field, restores its HP by an amount equal to 60% of \"Summer Songbirds's\" Max HP, and gains 6 Vibes."
                   },
                   {
                     "label": "Lv. 4",
-                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If \"Summer Songbirds\" is already on the field, restores its HP by an amount equal to 65% of \"Summer Songbirds's\" Max HP, and gains 6 Vibes."
+                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any among the \"Summer Songbirds\" is already on the field, restores its HP by an amount equal to 65% of \"Summer Songbirds's\" Max HP, and gains 6 Vibes."
                   },
                   {
                     "label": "Lv. 5",
-                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If \"Summer Songbirds\" is already on the field, restores its HP by an amount equal to 70% of \"Summer Songbirds's\" Max HP, and gains 6 Vibes."
+                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any among the \"Summer Songbirds\" is already on the field, restores its HP by an amount equal to 70% of \"Summer Songbirds's\" Max HP, and gains 6 Vibes."
                   },
                   {
                     "label": "Lv. 6",
-                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If \"Summer Songbirds\" is already on the field, restores its HP by an amount equal to 75% of \"Summer Songbirds's\" Max HP, and gains 6 Vibes."
+                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any among the \"Summer Songbirds\" is already on the field, restores its HP by an amount equal to 75% of \"Summer Songbirds's\" Max HP, and gains 6 Vibes."
                   },
                   {
                     "label": "Lv. 7",
-                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If \"Summer Songbirds\" is already on the field, restores its HP by an amount equal to 81.3% of \"Summer Songbirds's\" Max HP, and gains 6 Vibes."
+                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any among the \"Summer Songbirds\" is already on the field, restores its HP by an amount equal to 81.3% of \"Summer Songbirds's\" Max HP, and gains 6 Vibes."
                   },
                   {
                     "label": "Lv. 8",
-                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If \"Summer Songbirds\" is already on the field, restores its HP by an amount equal to 87.5% of \"Summer Songbirds's\" Max HP, and gains 6 Vibes."
+                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any among the \"Summer Songbirds\" is already on the field, restores its HP by an amount equal to 87.5% of \"Summer Songbirds's\" Max HP, and gains 6 Vibes."
                   },
                   {
                     "label": "Lv. 9",
-                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If \"Summer Songbirds\" is already on the field, restores its HP by an amount equal to 93.8% of \"Summer Songbirds's\" Max HP, and gains 6 Vibes."
+                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any among the \"Summer Songbirds\" is already on the field, restores its HP by an amount equal to 93.8% of \"Summer Songbirds's\" Max HP, and gains 6 Vibes."
                   },
                   {
                     "label": "Lv. 10",
-                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If \"Summer Songbirds\" is already on the field, restores its HP by an amount equal to 100% of \"Summer Songbirds's\" Max HP, and gains 6 Vibes."
+                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any among the \"Summer Songbirds\" is already on the field, restores its HP by an amount equal to 100% of \"Summer Songbirds's\" Max HP, and gains 6 Vibes."
                   },
                   {
                     "label": "Lv. 11",
-                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If \"Summer Songbirds\" is already on the field, restores its HP by an amount equal to 105% of \"Summer Songbirds's\" Max HP, and gains 6 Vibes."
+                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any among the \"Summer Songbirds\" is already on the field, restores its HP by an amount equal to 105% of \"Summer Songbirds's\" Max HP, and gains 6 Vibes."
                   },
                   {
                     "label": "Lv. 12",
-                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If \"Summer Songbirds\" is already on the field, restores its HP by an amount equal to 110% of \"Summer Songbirds's\" Max HP, and gains 6 Vibes."
+                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any among the \"Summer Songbirds\" is already on the field, restores its HP by an amount equal to 110% of \"Summer Songbirds's\" Max HP, and gains 6 Vibes."
                   },
                   {
                     "label": "Lv. 13",
-                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If \"Summer Songbirds\" is already on the field, restores its HP by an amount equal to 115% of \"Summer Songbirds's\" Max HP, and gains 6 Vibes."
+                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any among the \"Summer Songbirds\" is already on the field, restores its HP by an amount equal to 115% of \"Summer Songbirds's\" Max HP, and gains 6 Vibes."
                   },
                   {
                     "label": "Lv. 14",
-                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If \"Summer Songbirds\" is already on the field, restores its HP by an amount equal to 120% of \"Summer Songbirds's\" Max HP, and gains 6 Vibes."
+                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any among the \"Summer Songbirds\" is already on the field, restores its HP by an amount equal to 120% of \"Summer Songbirds's\" Max HP, and gains 6 Vibes."
                   },
                   {
                     "label": "Lv. 15",
-                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If \"Summer Songbirds\" is already on the field, restores its HP by an amount equal to 125% of \"Summer Songbirds's\" Max HP, and gains 6 Vibes."
+                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any among the \"Summer Songbirds\" is already on the field, restores its HP by an amount equal to 125% of \"Summer Songbirds's\" Max HP, and gains 6 Vibes."
                   }
                 ]
               },
               {
                 "name": "Leap into the Ocean Blue Rhapsody",
                 "type": "Ultimate",
-                "desc": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 24% of their Max Energy. Then, this character gains the \"Special Guest\" effect. After the character with \"Special Guest\" attacks, Robin additionally gains 1 point of Vibes. This character and her memosprite cannot advance the actions of other targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn.",
+                "desc": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 24% of their Max Energy. Then, this character gains the \"Special Guest\" effect. When the character with \"Special Guest\" attacks, Robin additionally gains 2 point(s) of Vibes. This character and her summons cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn.",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Ultra.webp",
                 "levels": [
                   {
                     "label": "Lv. 1",
-                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 12% of their Max Energy. Then, this character gains the \"Special Guest\" effect. After the character with \"Special Guest\" attacks, Robin additionally gains 1 point of Vibes. This character and her memosprite cannot advance the actions of other targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 12% of their Max Energy. Then, this character gains the \"Special Guest\" effect. When the character with \"Special Guest\" attacks, Robin additionally gains 2 point(s) of Vibes. This character and her summons cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
                   },
                   {
                     "label": "Lv. 2",
-                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 12.8% of their Max Energy. Then, this character gains the \"Special Guest\" effect. After the character with \"Special Guest\" attacks, Robin additionally gains 1 point of Vibes. This character and her memosprite cannot advance the actions of other targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 12.8% of their Max Energy. Then, this character gains the \"Special Guest\" effect. When the character with \"Special Guest\" attacks, Robin additionally gains 2 point(s) of Vibes. This character and her summons cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
                   },
                   {
                     "label": "Lv. 3",
-                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 13.6% of their Max Energy. Then, this character gains the \"Special Guest\" effect. After the character with \"Special Guest\" attacks, Robin additionally gains 1 point of Vibes. This character and her memosprite cannot advance the actions of other targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 13.6% of their Max Energy. Then, this character gains the \"Special Guest\" effect. When the character with \"Special Guest\" attacks, Robin additionally gains 2 point(s) of Vibes. This character and her summons cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
                   },
                   {
                     "label": "Lv. 4",
-                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 14.4% of their Max Energy. Then, this character gains the \"Special Guest\" effect. After the character with \"Special Guest\" attacks, Robin additionally gains 1 point of Vibes. This character and her memosprite cannot advance the actions of other targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 14.4% of their Max Energy. Then, this character gains the \"Special Guest\" effect. When the character with \"Special Guest\" attacks, Robin additionally gains 2 point(s) of Vibes. This character and her summons cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
                   },
                   {
                     "label": "Lv. 5",
-                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 15.2% of their Max Energy. Then, this character gains the \"Special Guest\" effect. After the character with \"Special Guest\" attacks, Robin additionally gains 1 point of Vibes. This character and her memosprite cannot advance the actions of other targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 15.2% of their Max Energy. Then, this character gains the \"Special Guest\" effect. When the character with \"Special Guest\" attacks, Robin additionally gains 2 point(s) of Vibes. This character and her summons cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
                   },
                   {
                     "label": "Lv. 6",
-                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 16% of their Max Energy. Then, this character gains the \"Special Guest\" effect. After the character with \"Special Guest\" attacks, Robin additionally gains 1 point of Vibes. This character and her memosprite cannot advance the actions of other targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 16% of their Max Energy. Then, this character gains the \"Special Guest\" effect. When the character with \"Special Guest\" attacks, Robin additionally gains 2 point(s) of Vibes. This character and her summons cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
                   },
                   {
                     "label": "Lv. 7",
-                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 17% of their Max Energy. Then, this character gains the \"Special Guest\" effect. After the character with \"Special Guest\" attacks, Robin additionally gains 1 point of Vibes. This character and her memosprite cannot advance the actions of other targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 17% of their Max Energy. Then, this character gains the \"Special Guest\" effect. When the character with \"Special Guest\" attacks, Robin additionally gains 2 point(s) of Vibes. This character and her summons cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
                   },
                   {
                     "label": "Lv. 8",
-                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 18% of their Max Energy. Then, this character gains the \"Special Guest\" effect. After the character with \"Special Guest\" attacks, Robin additionally gains 1 point of Vibes. This character and her memosprite cannot advance the actions of other targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 18% of their Max Energy. Then, this character gains the \"Special Guest\" effect. When the character with \"Special Guest\" attacks, Robin additionally gains 2 point(s) of Vibes. This character and her summons cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
                   },
                   {
                     "label": "Lv. 9",
-                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 19% of their Max Energy. Then, this character gains the \"Special Guest\" effect. After the character with \"Special Guest\" attacks, Robin additionally gains 1 point of Vibes. This character and her memosprite cannot advance the actions of other targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 19% of their Max Energy. Then, this character gains the \"Special Guest\" effect. When the character with \"Special Guest\" attacks, Robin additionally gains 2 point(s) of Vibes. This character and her summons cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
                   },
                   {
                     "label": "Lv. 10",
-                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 20% of their Max Energy. Then, this character gains the \"Special Guest\" effect. After the character with \"Special Guest\" attacks, Robin additionally gains 1 point of Vibes. This character and her memosprite cannot advance the actions of other targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 20% of their Max Energy. Then, this character gains the \"Special Guest\" effect. When the character with \"Special Guest\" attacks, Robin additionally gains 2 point(s) of Vibes. This character and her summons cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
                   },
                   {
                     "label": "Lv. 11",
-                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 20.8% of their Max Energy. Then, this character gains the \"Special Guest\" effect. After the character with \"Special Guest\" attacks, Robin additionally gains 1 point of Vibes. This character and her memosprite cannot advance the actions of other targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 20.8% of their Max Energy. Then, this character gains the \"Special Guest\" effect. When the character with \"Special Guest\" attacks, Robin additionally gains 2 point(s) of Vibes. This character and her summons cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
                   },
                   {
                     "label": "Lv. 12",
-                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 21.6% of their Max Energy. Then, this character gains the \"Special Guest\" effect. After the character with \"Special Guest\" attacks, Robin additionally gains 1 point of Vibes. This character and her memosprite cannot advance the actions of other targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 21.6% of their Max Energy. Then, this character gains the \"Special Guest\" effect. When the character with \"Special Guest\" attacks, Robin additionally gains 2 point(s) of Vibes. This character and her summons cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
                   },
                   {
                     "label": "Lv. 13",
-                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 22.4% of their Max Energy. Then, this character gains the \"Special Guest\" effect. After the character with \"Special Guest\" attacks, Robin additionally gains 1 point of Vibes. This character and her memosprite cannot advance the actions of other targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 22.4% of their Max Energy. Then, this character gains the \"Special Guest\" effect. When the character with \"Special Guest\" attacks, Robin additionally gains 2 point(s) of Vibes. This character and her summons cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
                   },
                   {
                     "label": "Lv. 14",
-                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 23.2% of their Max Energy. Then, this character gains the \"Special Guest\" effect. After the character with \"Special Guest\" attacks, Robin additionally gains 1 point of Vibes. This character and her memosprite cannot advance the actions of other targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 23.2% of their Max Energy. Then, this character gains the \"Special Guest\" effect. When the character with \"Special Guest\" attacks, Robin additionally gains 2 point(s) of Vibes. This character and her summons cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
                   },
                   {
                     "label": "Lv. 15",
-                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 24% of their Max Energy. Then, this character gains the \"Special Guest\" effect. After the character with \"Special Guest\" attacks, Robin additionally gains 1 point of Vibes. This character and her memosprite cannot advance the actions of other targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                    "text": "Advances the action of one designated ally unit (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 24% of their Max Energy. Then, this character gains the \"Special Guest\" effect. When the character with \"Special Guest\" attacks, Robin additionally gains 2 point(s) of Vibes. This character and her summons cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
                   }
                 ]
               },
@@ -4997,68 +4998,68 @@
               {
                 "name": "Cruising the Boundless Skies",
                 "type": "Talent",
-                "desc": "The memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when providing healing effect or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains 1 Vibes, up to a max of 50. While \"Summer Songbirds\" Bessie is on the field, if Robin's Vibes is 6 or more, immediately summons the \"Summer Songbird\" Drummie, and if Vibes is 12 or more, immediately summons the \"Summer Songbird\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs that Robin \u2022 Summeretto and the \"Summer Songbirds\" are under, enter the \"Fever\" state and deploy a Zone. When ally targets deal DMG inside the Zone, they ignore 17.5% plus Vibes \u00d7 0.5% of enemy targets' DEF.\\nWhile in the Fever state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs, and Robin \u2022 Summeretto will not enter her turns or take action until the \"Fever\" state ends.",
+                "desc": "The memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when providing healing effect or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains 1 Vibes, up to a max of 50. While \"Summer Songbirds\" Bessie is on the field, if Robin's Vibes is 6 or more, immediately summons the \"Summer Songbird\" Drummie, and if Vibes is 12 or more, immediately summons the \"Summer Songbird\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs that Robin \u2022 Summeretto and the \"Summer Songbirds\" are under, enter the \"Fever\" state and deploy a Zone. When ally targets deal DMG inside the Zone, they ignore 17.5% plus Vibes \u00d7 0.5% of enemy targets' DEF.\\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs, and Robin \u2022 Summeretto will not enter her turns until the \"Fever\" state ends.",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Passive.webp",
                 "levels": [
                   {
                     "label": "Lv. 1",
-                    "text": "The memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when providing healing effect or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains 1 Vibes, up to a max of 50. While \"Summer Songbirds\" Bessie is on the field, if Robin's Vibes is 6 or more, immediately summons the \"Summer Songbird\" Drummie, and if Vibes is 12 or more, immediately summons the \"Summer Songbird\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs that Robin \u2022 Summeretto and the \"Summer Songbirds\" are under, enter the \"Fever\" state and deploy a Zone. When ally targets deal DMG inside the Zone, they ignore 10% plus Vibes \u00d7 0.5% of enemy targets' DEF.\\nWhile in the Fever state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs, and Robin \u2022 Summeretto will not enter her turns or take action until the \"Fever\" state ends."
+                    "text": "The memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when providing healing effect or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains 1 Vibes, up to a max of 50. While \"Summer Songbirds\" Bessie is on the field, if Robin's Vibes is 6 or more, immediately summons the \"Summer Songbird\" Drummie, and if Vibes is 12 or more, immediately summons the \"Summer Songbird\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs that Robin \u2022 Summeretto and the \"Summer Songbirds\" are under, enter the \"Fever\" state and deploy a Zone. When ally targets deal DMG inside the Zone, they ignore 10% plus Vibes \u00d7 0.5% of enemy targets' DEF.\\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs, and Robin \u2022 Summeretto will not enter her turns until the \"Fever\" state ends."
                   },
                   {
                     "label": "Lv. 2",
-                    "text": "The memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when providing healing effect or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains 1 Vibes, up to a max of 50. While \"Summer Songbirds\" Bessie is on the field, if Robin's Vibes is 6 or more, immediately summons the \"Summer Songbird\" Drummie, and if Vibes is 12 or more, immediately summons the \"Summer Songbird\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs that Robin \u2022 Summeretto and the \"Summer Songbirds\" are under, enter the \"Fever\" state and deploy a Zone. When ally targets deal DMG inside the Zone, they ignore 10.5% plus Vibes \u00d7 0.5% of enemy targets' DEF.\\nWhile in the Fever state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs, and Robin \u2022 Summeretto will not enter her turns or take action until the \"Fever\" state ends."
+                    "text": "The memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when providing healing effect or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains 1 Vibes, up to a max of 50. While \"Summer Songbirds\" Bessie is on the field, if Robin's Vibes is 6 or more, immediately summons the \"Summer Songbird\" Drummie, and if Vibes is 12 or more, immediately summons the \"Summer Songbird\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs that Robin \u2022 Summeretto and the \"Summer Songbirds\" are under, enter the \"Fever\" state and deploy a Zone. When ally targets deal DMG inside the Zone, they ignore 10.5% plus Vibes \u00d7 0.5% of enemy targets' DEF.\\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs, and Robin \u2022 Summeretto will not enter her turns until the \"Fever\" state ends."
                   },
                   {
                     "label": "Lv. 3",
-                    "text": "The memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when providing healing effect or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains 1 Vibes, up to a max of 50. While \"Summer Songbirds\" Bessie is on the field, if Robin's Vibes is 6 or more, immediately summons the \"Summer Songbird\" Drummie, and if Vibes is 12 or more, immediately summons the \"Summer Songbird\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs that Robin \u2022 Summeretto and the \"Summer Songbirds\" are under, enter the \"Fever\" state and deploy a Zone. When ally targets deal DMG inside the Zone, they ignore 11% plus Vibes \u00d7 0.5% of enemy targets' DEF.\\nWhile in the Fever state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs, and Robin \u2022 Summeretto will not enter her turns or take action until the \"Fever\" state ends."
+                    "text": "The memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when providing healing effect or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains 1 Vibes, up to a max of 50. While \"Summer Songbirds\" Bessie is on the field, if Robin's Vibes is 6 or more, immediately summons the \"Summer Songbird\" Drummie, and if Vibes is 12 or more, immediately summons the \"Summer Songbird\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs that Robin \u2022 Summeretto and the \"Summer Songbirds\" are under, enter the \"Fever\" state and deploy a Zone. When ally targets deal DMG inside the Zone, they ignore 11% plus Vibes \u00d7 0.5% of enemy targets' DEF.\\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs, and Robin \u2022 Summeretto will not enter her turns until the \"Fever\" state ends."
                   },
                   {
                     "label": "Lv. 4",
-                    "text": "The memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when providing healing effect or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains 1 Vibes, up to a max of 50. While \"Summer Songbirds\" Bessie is on the field, if Robin's Vibes is 6 or more, immediately summons the \"Summer Songbird\" Drummie, and if Vibes is 12 or more, immediately summons the \"Summer Songbird\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs that Robin \u2022 Summeretto and the \"Summer Songbirds\" are under, enter the \"Fever\" state and deploy a Zone. When ally targets deal DMG inside the Zone, they ignore 11.5% plus Vibes \u00d7 0.5% of enemy targets' DEF.\\nWhile in the Fever state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs, and Robin \u2022 Summeretto will not enter her turns or take action until the \"Fever\" state ends."
+                    "text": "The memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when providing healing effect or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains 1 Vibes, up to a max of 50. While \"Summer Songbirds\" Bessie is on the field, if Robin's Vibes is 6 or more, immediately summons the \"Summer Songbird\" Drummie, and if Vibes is 12 or more, immediately summons the \"Summer Songbird\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs that Robin \u2022 Summeretto and the \"Summer Songbirds\" are under, enter the \"Fever\" state and deploy a Zone. When ally targets deal DMG inside the Zone, they ignore 11.5% plus Vibes \u00d7 0.5% of enemy targets' DEF.\\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs, and Robin \u2022 Summeretto will not enter her turns until the \"Fever\" state ends."
                   },
                   {
                     "label": "Lv. 5",
-                    "text": "The memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when providing healing effect or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains 1 Vibes, up to a max of 50. While \"Summer Songbirds\" Bessie is on the field, if Robin's Vibes is 6 or more, immediately summons the \"Summer Songbird\" Drummie, and if Vibes is 12 or more, immediately summons the \"Summer Songbird\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs that Robin \u2022 Summeretto and the \"Summer Songbirds\" are under, enter the \"Fever\" state and deploy a Zone. When ally targets deal DMG inside the Zone, they ignore 12% plus Vibes \u00d7 0.5% of enemy targets' DEF.\\nWhile in the Fever state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs, and Robin \u2022 Summeretto will not enter her turns or take action until the \"Fever\" state ends."
+                    "text": "The memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when providing healing effect or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains 1 Vibes, up to a max of 50. While \"Summer Songbirds\" Bessie is on the field, if Robin's Vibes is 6 or more, immediately summons the \"Summer Songbird\" Drummie, and if Vibes is 12 or more, immediately summons the \"Summer Songbird\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs that Robin \u2022 Summeretto and the \"Summer Songbirds\" are under, enter the \"Fever\" state and deploy a Zone. When ally targets deal DMG inside the Zone, they ignore 12% plus Vibes \u00d7 0.5% of enemy targets' DEF.\\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs, and Robin \u2022 Summeretto will not enter her turns until the \"Fever\" state ends."
                   },
                   {
                     "label": "Lv. 6",
-                    "text": "The memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when providing healing effect or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains 1 Vibes, up to a max of 50. While \"Summer Songbirds\" Bessie is on the field, if Robin's Vibes is 6 or more, immediately summons the \"Summer Songbird\" Drummie, and if Vibes is 12 or more, immediately summons the \"Summer Songbird\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs that Robin \u2022 Summeretto and the \"Summer Songbirds\" are under, enter the \"Fever\" state and deploy a Zone. When ally targets deal DMG inside the Zone, they ignore 12.5% plus Vibes \u00d7 0.5% of enemy targets' DEF.\\nWhile in the Fever state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs, and Robin \u2022 Summeretto will not enter her turns or take action until the \"Fever\" state ends."
+                    "text": "The memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when providing healing effect or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains 1 Vibes, up to a max of 50. While \"Summer Songbirds\" Bessie is on the field, if Robin's Vibes is 6 or more, immediately summons the \"Summer Songbird\" Drummie, and if Vibes is 12 or more, immediately summons the \"Summer Songbird\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs that Robin \u2022 Summeretto and the \"Summer Songbirds\" are under, enter the \"Fever\" state and deploy a Zone. When ally targets deal DMG inside the Zone, they ignore 12.5% plus Vibes \u00d7 0.5% of enemy targets' DEF.\\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs, and Robin \u2022 Summeretto will not enter her turns until the \"Fever\" state ends."
                   },
                   {
                     "label": "Lv. 7",
-                    "text": "The memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when providing healing effect or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains 1 Vibes, up to a max of 50. While \"Summer Songbirds\" Bessie is on the field, if Robin's Vibes is 6 or more, immediately summons the \"Summer Songbird\" Drummie, and if Vibes is 12 or more, immediately summons the \"Summer Songbird\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs that Robin \u2022 Summeretto and the \"Summer Songbirds\" are under, enter the \"Fever\" state and deploy a Zone. When ally targets deal DMG inside the Zone, they ignore 13.1% plus Vibes \u00d7 0.5% of enemy targets' DEF.\\nWhile in the Fever state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs, and Robin \u2022 Summeretto will not enter her turns or take action until the \"Fever\" state ends."
+                    "text": "The memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when providing healing effect or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains 1 Vibes, up to a max of 50. While \"Summer Songbirds\" Bessie is on the field, if Robin's Vibes is 6 or more, immediately summons the \"Summer Songbird\" Drummie, and if Vibes is 12 or more, immediately summons the \"Summer Songbird\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs that Robin \u2022 Summeretto and the \"Summer Songbirds\" are under, enter the \"Fever\" state and deploy a Zone. When ally targets deal DMG inside the Zone, they ignore 13.1% plus Vibes \u00d7 0.5% of enemy targets' DEF.\\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs, and Robin \u2022 Summeretto will not enter her turns until the \"Fever\" state ends."
                   },
                   {
                     "label": "Lv. 8",
-                    "text": "The memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when providing healing effect or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains 1 Vibes, up to a max of 50. While \"Summer Songbirds\" Bessie is on the field, if Robin's Vibes is 6 or more, immediately summons the \"Summer Songbird\" Drummie, and if Vibes is 12 or more, immediately summons the \"Summer Songbird\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs that Robin \u2022 Summeretto and the \"Summer Songbirds\" are under, enter the \"Fever\" state and deploy a Zone. When ally targets deal DMG inside the Zone, they ignore 13.8% plus Vibes \u00d7 0.5% of enemy targets' DEF.\\nWhile in the Fever state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs, and Robin \u2022 Summeretto will not enter her turns or take action until the \"Fever\" state ends."
+                    "text": "The memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when providing healing effect or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains 1 Vibes, up to a max of 50. While \"Summer Songbirds\" Bessie is on the field, if Robin's Vibes is 6 or more, immediately summons the \"Summer Songbird\" Drummie, and if Vibes is 12 or more, immediately summons the \"Summer Songbird\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs that Robin \u2022 Summeretto and the \"Summer Songbirds\" are under, enter the \"Fever\" state and deploy a Zone. When ally targets deal DMG inside the Zone, they ignore 13.8% plus Vibes \u00d7 0.5% of enemy targets' DEF.\\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs, and Robin \u2022 Summeretto will not enter her turns until the \"Fever\" state ends."
                   },
                   {
                     "label": "Lv. 9",
-                    "text": "The memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when providing healing effect or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains 1 Vibes, up to a max of 50. While \"Summer Songbirds\" Bessie is on the field, if Robin's Vibes is 6 or more, immediately summons the \"Summer Songbird\" Drummie, and if Vibes is 12 or more, immediately summons the \"Summer Songbird\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs that Robin \u2022 Summeretto and the \"Summer Songbirds\" are under, enter the \"Fever\" state and deploy a Zone. When ally targets deal DMG inside the Zone, they ignore 14.4% plus Vibes \u00d7 0.5% of enemy targets' DEF.\\nWhile in the Fever state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs, and Robin \u2022 Summeretto will not enter her turns or take action until the \"Fever\" state ends."
+                    "text": "The memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when providing healing effect or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains 1 Vibes, up to a max of 50. While \"Summer Songbirds\" Bessie is on the field, if Robin's Vibes is 6 or more, immediately summons the \"Summer Songbird\" Drummie, and if Vibes is 12 or more, immediately summons the \"Summer Songbird\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs that Robin \u2022 Summeretto and the \"Summer Songbirds\" are under, enter the \"Fever\" state and deploy a Zone. When ally targets deal DMG inside the Zone, they ignore 14.4% plus Vibes \u00d7 0.5% of enemy targets' DEF.\\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs, and Robin \u2022 Summeretto will not enter her turns until the \"Fever\" state ends."
                   },
                   {
                     "label": "Lv. 10",
-                    "text": "The memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when providing healing effect or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains 1 Vibes, up to a max of 50. While \"Summer Songbirds\" Bessie is on the field, if Robin's Vibes is 6 or more, immediately summons the \"Summer Songbird\" Drummie, and if Vibes is 12 or more, immediately summons the \"Summer Songbird\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs that Robin \u2022 Summeretto and the \"Summer Songbirds\" are under, enter the \"Fever\" state and deploy a Zone. When ally targets deal DMG inside the Zone, they ignore 15% plus Vibes \u00d7 0.5% of enemy targets' DEF.\\nWhile in the Fever state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs, and Robin \u2022 Summeretto will not enter her turns or take action until the \"Fever\" state ends."
+                    "text": "The memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when providing healing effect or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains 1 Vibes, up to a max of 50. While \"Summer Songbirds\" Bessie is on the field, if Robin's Vibes is 6 or more, immediately summons the \"Summer Songbird\" Drummie, and if Vibes is 12 or more, immediately summons the \"Summer Songbird\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs that Robin \u2022 Summeretto and the \"Summer Songbirds\" are under, enter the \"Fever\" state and deploy a Zone. When ally targets deal DMG inside the Zone, they ignore 15% plus Vibes \u00d7 0.5% of enemy targets' DEF.\\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs, and Robin \u2022 Summeretto will not enter her turns until the \"Fever\" state ends."
                   },
                   {
                     "label": "Lv. 11",
-                    "text": "The memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when providing healing effect or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains 1 Vibes, up to a max of 50. While \"Summer Songbirds\" Bessie is on the field, if Robin's Vibes is 6 or more, immediately summons the \"Summer Songbird\" Drummie, and if Vibes is 12 or more, immediately summons the \"Summer Songbird\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs that Robin \u2022 Summeretto and the \"Summer Songbirds\" are under, enter the \"Fever\" state and deploy a Zone. When ally targets deal DMG inside the Zone, they ignore 15.5% plus Vibes \u00d7 0.5% of enemy targets' DEF.\\nWhile in the Fever state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs, and Robin \u2022 Summeretto will not enter her turns or take action until the \"Fever\" state ends."
+                    "text": "The memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when providing healing effect or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains 1 Vibes, up to a max of 50. While \"Summer Songbirds\" Bessie is on the field, if Robin's Vibes is 6 or more, immediately summons the \"Summer Songbird\" Drummie, and if Vibes is 12 or more, immediately summons the \"Summer Songbird\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs that Robin \u2022 Summeretto and the \"Summer Songbirds\" are under, enter the \"Fever\" state and deploy a Zone. When ally targets deal DMG inside the Zone, they ignore 15.5% plus Vibes \u00d7 0.5% of enemy targets' DEF.\\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs, and Robin \u2022 Summeretto will not enter her turns until the \"Fever\" state ends."
                   },
                   {
                     "label": "Lv. 12",
-                    "text": "The memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when providing healing effect or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains 1 Vibes, up to a max of 50. While \"Summer Songbirds\" Bessie is on the field, if Robin's Vibes is 6 or more, immediately summons the \"Summer Songbird\" Drummie, and if Vibes is 12 or more, immediately summons the \"Summer Songbird\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs that Robin \u2022 Summeretto and the \"Summer Songbirds\" are under, enter the \"Fever\" state and deploy a Zone. When ally targets deal DMG inside the Zone, they ignore 16% plus Vibes \u00d7 0.5% of enemy targets' DEF.\\nWhile in the Fever state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs, and Robin \u2022 Summeretto will not enter her turns or take action until the \"Fever\" state ends."
+                    "text": "The memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when providing healing effect or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains 1 Vibes, up to a max of 50. While \"Summer Songbirds\" Bessie is on the field, if Robin's Vibes is 6 or more, immediately summons the \"Summer Songbird\" Drummie, and if Vibes is 12 or more, immediately summons the \"Summer Songbird\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs that Robin \u2022 Summeretto and the \"Summer Songbirds\" are under, enter the \"Fever\" state and deploy a Zone. When ally targets deal DMG inside the Zone, they ignore 16% plus Vibes \u00d7 0.5% of enemy targets' DEF.\\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs, and Robin \u2022 Summeretto will not enter her turns until the \"Fever\" state ends."
                   },
                   {
                     "label": "Lv. 13",
-                    "text": "The memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when providing healing effect or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains 1 Vibes, up to a max of 50. While \"Summer Songbirds\" Bessie is on the field, if Robin's Vibes is 6 or more, immediately summons the \"Summer Songbird\" Drummie, and if Vibes is 12 or more, immediately summons the \"Summer Songbird\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs that Robin \u2022 Summeretto and the \"Summer Songbirds\" are under, enter the \"Fever\" state and deploy a Zone. When ally targets deal DMG inside the Zone, they ignore 16.5% plus Vibes \u00d7 0.5% of enemy targets' DEF.\\nWhile in the Fever state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs, and Robin \u2022 Summeretto will not enter her turns or take action until the \"Fever\" state ends."
+                    "text": "The memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when providing healing effect or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains 1 Vibes, up to a max of 50. While \"Summer Songbirds\" Bessie is on the field, if Robin's Vibes is 6 or more, immediately summons the \"Summer Songbird\" Drummie, and if Vibes is 12 or more, immediately summons the \"Summer Songbird\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs that Robin \u2022 Summeretto and the \"Summer Songbirds\" are under, enter the \"Fever\" state and deploy a Zone. When ally targets deal DMG inside the Zone, they ignore 16.5% plus Vibes \u00d7 0.5% of enemy targets' DEF.\\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs, and Robin \u2022 Summeretto will not enter her turns until the \"Fever\" state ends."
                   },
                   {
                     "label": "Lv. 14",
-                    "text": "The memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when providing healing effect or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains 1 Vibes, up to a max of 50. While \"Summer Songbirds\" Bessie is on the field, if Robin's Vibes is 6 or more, immediately summons the \"Summer Songbird\" Drummie, and if Vibes is 12 or more, immediately summons the \"Summer Songbird\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs that Robin \u2022 Summeretto and the \"Summer Songbirds\" are under, enter the \"Fever\" state and deploy a Zone. When ally targets deal DMG inside the Zone, they ignore 17% plus Vibes \u00d7 0.5% of enemy targets' DEF.\\nWhile in the Fever state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs, and Robin \u2022 Summeretto will not enter her turns or take action until the \"Fever\" state ends."
+                    "text": "The memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when providing healing effect or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains 1 Vibes, up to a max of 50. While \"Summer Songbirds\" Bessie is on the field, if Robin's Vibes is 6 or more, immediately summons the \"Summer Songbird\" Drummie, and if Vibes is 12 or more, immediately summons the \"Summer Songbird\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs that Robin \u2022 Summeretto and the \"Summer Songbirds\" are under, enter the \"Fever\" state and deploy a Zone. When ally targets deal DMG inside the Zone, they ignore 17% plus Vibes \u00d7 0.5% of enemy targets' DEF.\\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs, and Robin \u2022 Summeretto will not enter her turns until the \"Fever\" state ends."
                   },
                   {
                     "label": "Lv. 15",
-                    "text": "The memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when providing healing effect or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains 1 Vibes, up to a max of 50. While \"Summer Songbirds\" Bessie is on the field, if Robin's Vibes is 6 or more, immediately summons the \"Summer Songbird\" Drummie, and if Vibes is 12 or more, immediately summons the \"Summer Songbird\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs that Robin \u2022 Summeretto and the \"Summer Songbirds\" are under, enter the \"Fever\" state and deploy a Zone. When ally targets deal DMG inside the Zone, they ignore 17.5% plus Vibes \u00d7 0.5% of enemy targets' DEF.\\nWhile in the Fever state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs, and Robin \u2022 Summeretto will not enter her turns or take action until the \"Fever\" state ends."
+                    "text": "The memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when providing healing effect or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains 1 Vibes, up to a max of 50. While \"Summer Songbirds\" Bessie is on the field, if Robin's Vibes is 6 or more, immediately summons the \"Summer Songbird\" Drummie, and if Vibes is 12 or more, immediately summons the \"Summer Songbird\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs that Robin \u2022 Summeretto and the \"Summer Songbirds\" are under, enter the \"Fever\" state and deploy a Zone. When ally targets deal DMG inside the Zone, they ignore 17.5% plus Vibes \u00d7 0.5% of enemy targets' DEF.\\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs, and Robin \u2022 Summeretto will not enter her turns until the \"Fever\" state ends."
                   }
                 ]
               }
@@ -5076,7 +5077,7 @@
               {
                 "name": "Improvised Blues",
                 "type": "Major Trace",
-                "desc": "When Robin \u2022 Summeretto or \"Summer Songbirds\" receive healing or a Shield provided by teammates, they gain 12 stack(s) of \"Groove,\" up to a max of 12 stack(s). The first time Robin \u2022 Summeretto gains Vibes each turn, if she has \"Groove,\" she consumes 1 stack of \"Groove\" and regenerates a fixed amount of 3 Energy.",
+                "desc": "When Robin \u2022 Summeretto or \"Summer Songbirds\" receive healing or a Shield provided by teammates, they gain 12 stack(s) of \"Groove,\" up to a max of 12 stack(s). The first time Robin \u2022 Summeretto gains Vibes on any unit's turn, if she has \"Groove,\" she consumes 1 stack of \"Groove\" and regenerates 3 Energy.",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_SkillTree2.webp"
               },
               {
@@ -5093,13 +5094,13 @@
               {
                 "name": "Stray Birds of Summer",
                 "type": "Eidolon 1",
-                "desc": "Robin \u2022 Summeretto's Max Vibes increases by 20. The first time an ally target uses a Skill that causes Robin \u2022 Summeretto to gain Vibes each turn, she gains an additional 2 points.",
+                "desc": "Robin \u2022 Summeretto's Max Vibes increases by 20. The first time an ally target uses an ability that causes Robin \u2022 Summeretto to gain Vibes within any target's turn, she gains an additional 2 points.",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Rank1.webp"
               },
               {
                 "name": "Heart Like Still Waters",
                 "type": "Eidolon 2",
-                "desc": "\"Summer Songbirds\" records 100% of the non-True DMG dealt by ally targets. When using the Memosprite Skill, it additionally deals True DMG equal to 11% of the total DMG plus current Vibes stacks \u00d7 0.1% to the enemy target with the highest HP, then clears 50% of the recorded value.",
+                "desc": "\"Summer Songbirds\" records 100% of the non-True DMG dealt by ally targets. When using the Memosprite Skill, it additionally deals True DMG equal to 11% of the total recorded DMG plus current Vibes points \u00d7 0.1% to the enemy target with the highest HP, then clears 50% of the recorded value.",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Rank2.webp"
               },
               {
@@ -5123,7 +5124,7 @@
               {
                 "name": "To Sing an Aria Untitled",
                 "type": "Eidolon 6",
-                "desc": "Ally targets' All-Type RES PEN increases by 20%. The Memosprite Skill's DMG multiplier increases by 100% of the original multiplier. When entering the \"Fever\" state, CRIT DMG for Robin \u2022 Summeretto and \"Summer Songbirds\" increases by 200%.",
+                "desc": "Increases the All-Type RES PEN of ally targets by 20%. Robin \u2022 Summeretto's Ultimate can be stored up to 2 times. When entering the \"Fever\" state for the first time or at the start of a \"Fever\" countdown turn in this battle, immediately regenerates 140 Energy.",
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Rank6.webp"
               }
             ]
@@ -6171,7 +6172,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.52",
+        "version": "4.4.53",
         "sections": [
           {
             "title": "Skills",
@@ -7620,7 +7621,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.52",
+        "version": "4.4.53",
         "sections": [
           {
             "title": "Skills",
@@ -9064,7 +9065,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.52",
+        "version": "4.4.53",
         "sections": [
           {
             "title": "Skills",
@@ -10444,7 +10445,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.52",
+        "version": "4.4.53",
         "sections": [
           {
             "title": "Skills",
@@ -11823,7 +11824,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.52",
+        "version": "4.4.53",
         "sections": [
           {
             "title": "Skills",
@@ -13203,7 +13204,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.52",
+        "version": "4.4.53",
         "sections": [
           {
             "title": "Skills",
@@ -14644,7 +14645,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.52",
+        "version": "4.4.53",
         "sections": [
           {
             "title": "Skills",
@@ -16020,7 +16021,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.52",
+        "version": "4.4.53",
         "sections": [
           {
             "title": "Skills",
@@ -17402,7 +17403,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.52",
+        "version": "4.4.53",
         "sections": [
           {
             "title": "Skills",
@@ -18789,7 +18790,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.52",
+        "version": "4.4.53",
         "sections": [
           {
             "title": "Skills",
@@ -20410,7 +20411,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.52",
+        "version": "4.4.53",
         "sections": [
           {
             "title": "Skills",
@@ -21929,7 +21930,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.52",
+        "version": "4.4.53",
         "sections": [
           {
             "title": "Skills",
@@ -23432,7 +23433,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.52",
+        "version": "4.4.53",
         "sections": [
           {
             "title": "Skills",
@@ -24817,7 +24818,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.52",
+        "version": "4.4.53",
         "sections": [
           {
             "title": "Skills",
@@ -26183,7 +26184,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.4.52",
+        "version": "4.4.53",
         "sections": [
           {
             "title": "Skills",

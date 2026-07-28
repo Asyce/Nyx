@@ -62825,7 +62825,7 @@
       "slug": "rebecca",
       "release": 1780876800000,
       "releasePatch": "3.4",
-      "updated": 1783641600000,
+      "updated": 1784937600000,
       "sourceOrder": 1308,
       "voiceActors": {
         "english": "imdb:nm7858309|Alex Cazares",
@@ -91197,10 +91197,10 @@
       "updated": 1781740800000,
       "sourceOrder": 1110,
       "voiceActors": {
-        "english": "|voiceCN =",
+        "english": "imdb:nm5069067|Emily Piggford",
         "japanese": "Misato Fukuen|Fukuen Misato (ja=\u798f\u5713 \u7f8e\u91cc)",
-        "chinese": "|voiceJP = Misato Fukuen|Fukuen Misato (ja=\u798f\u5713 \u7f8e\u91cc)",
-        "korean": "}}"
+        "chinese": "https://zh.moegirl.org.cn/\u5b59\u8273\u7426|Sun Yanqi (zh=\u5b59\u8273\u7426)",
+        "korean": "https://namu.wiki/w/\ubc15\uc9c0\uc724(\uc131\uc6b0)|Park Ji-yoon (ko=\ubc15\uc9c0\uc724)"
       },
       "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_71_UI.webp",
       "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleSuisui.webp",

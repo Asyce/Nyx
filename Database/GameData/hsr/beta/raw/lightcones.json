@@ -798,7 +798,7 @@
     "atk": 423,
     "ko": "짧은 휴가",
     "zh": "放个短假",
-    "ja": "バカンスのひと時"
+    "ja": "バカンスのひと{RUBY_B#とき}時{RUBY_E#}"
   },
   "22000": {
     "rank": "CombatPowerLightconeRarity4",
@@ -879,7 +879,7 @@
     "atk": 476,
     "ko": "지평선의 끝을 향해",
     "zh": "向着地平线的终点",
-    "ja": "地平線のゴールへ"
+    "ja": "{RUBY_B#ちへいせん}地平線{RUBY_E#}のゴールへ"
   },
   "23000": {
     "rank": "CombatPowerLightconeRarity5",
@@ -1446,7 +1446,7 @@
     "atk": 582,
     "ko": "그대는 나아가 노래하리니",
     "zh": "你将起身歌唱",
-    "ja": "立ち上がり高らかな歌を"
+    "ja": "{RUBY_B#た}立{RUBY_E#}ち{RUBY_B#あ}上{RUBY_E#}がり{RUBY_B#たか}高{RUBY_E#}らかな{RUBY_B#うた}歌{RUBY_E#}を"
   },
   "23064": {
     "rank": "CombatPowerLightconeRarity5",
@@ -1455,7 +1455,7 @@
     "atk": 582,
     "ko": "파도에 내던진 한여름",
     "zh": "向浪花掷下盛夏",
-    "ja": "波しぶきが躍る夏へ"
+    "ja": "{RUBY_B#なみ}波{RUBY_E#}しぶきが{RUBY_B#おど}躍{RUBY_E#}る{RUBY_B#なつ}夏{RUBY_E#}へ"
   },
   "24000": {
     "rank": "CombatPowerLightconeRarity5",

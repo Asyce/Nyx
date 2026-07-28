@@ -1086,6 +1086,7 @@
     "ja": "{RUBY_B#センヤ}千冶{RUBY_E#}・{RUBY_B#ジン}刃{RUBY_E#}"
   },
   "1508": {
+    "release": 1784883600,
     "icon": "tohsakarin",
     "rank": "CombatPowerAvatarRarityType5",
     "baseType": "Mage",
@@ -1098,6 +1099,7 @@
     "ja": "{RUBY_B#とおさかりん}遠坂凛{RUBY_E#}"
   },
   "1509": {
+    "release": 1784883600,
     "icon": "gilgamesh",
     "rank": "CombatPowerAvatarRarityType5",
     "baseType": "Warrior",
@@ -1110,6 +1112,7 @@
     "ja": "ギルガメッシュ"
   },
   "1510": {
+    "release": 1784106000,
     "icon": "himekonova",
     "rank": "CombatPowerAvatarRarityType5",
     "baseType": "Mage",
@@ -1140,7 +1143,7 @@
     "damageType": "Quantum",
     "en": "Aventurine • Waveflair",
     "enhance": [],
-    "desc": "The festival illuminates the shore, as storms brew within the Euphoria.\\nSecret orders in hand, he steps back into the eye of the storm to shake up this long holiday—\\nWhen the treacherous waves subsume him, how will he become the one that turns the tides?",
+    "desc": "The grand festival illuminates the coast, while a storm brews amidst euphoria.\\nSecret orders in hand, he steps back into the eye of the storm to shake up this long holiday—\\nWhen treacherous waves subsume his figure, how will he emerge as the game changer?",
     "ko": "어벤츄린•웨이브",
     "zh": "砂金•戏浪",
     "ja": "アベンチュリン・{RUBY_B#なみ}波{RUBY_E#}と{RUBY_B#たわむ}戯{RUBY_E#}れる{RUBY_B#なつ}夏{RUBY_E#}"

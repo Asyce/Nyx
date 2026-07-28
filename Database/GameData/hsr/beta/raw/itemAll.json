@@ -6043,7 +6043,7 @@
       },
       {
         "id": 4,
-        "desc": "Obtained from Astropolis Exploration"
+        "desc": "Exploring Astropolis"
       }
     ]
   },
@@ -17251,8 +17251,8 @@
     "rarity": "VeryRare",
     "purpose_type": 16,
     "is_visible": true,
-    "item_name": "Speed Star • Grand Champion Trophy",
-    "item_bg_desc": "The trophy of the Overdrive Whirlwind Grand Prix. Starting with this year's race, it will record every champion to come, with each new victor adding their name to the legend. And on its base, the first champion left a motto carved in stone: \\n\\n<i>\"{TEXTJOIN#279}\"</i>",
+    "item_name": "Speed Star: Grand Champion Trophy",
+    "item_bg_desc": "The trophy of the Overdrive: Whirlwind Grand Prix. Starting with this year's race, it will record every champion to come, with each new victor adding their name to the legend. And on its base, the first champion left a motto carved in stone: \\n\\n<i>\"{TEXTJOIN#279}\"</i>",
     "item_icon_path": "SpriteOutput/ItemIcon/140028.png",
     "item_figure_icon_path": "SpriteOutput/ItemFigures/140028.png",
     "item_currency_icon_path": "SpriteOutput/ItemIcon/140028.png",

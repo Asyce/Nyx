@@ -224145,10 +224145,11 @@
         "../../Database/GenshinWiki/birthday-art/kukishinobu/02-Kuki Shinobu Birthday 2023.png",
         "../../Database/GenshinWiki/birthday-art/kukishinobu/03-Kuki Shinobu Birthday 2024.png",
         "../../Database/GenshinWiki/birthday-art/kukishinobu/04-Kuki Shinobu Birthday 2025.png",
-        "../../Database/GenshinWiki/birthday-art/kukishinobu/05-Kuki Shinobu TPRGT 2022 - Aether.png",
-        "../../Database/GenshinWiki/birthday-art/kukishinobu/06-Kuki Shinobu TPRGT 2022 - Lumine.png",
-        "../../Database/GenshinWiki/birthday-art/kukishinobu/07-Kuki Shinobu TPRGT 2023 - Aether.png",
-        "../../Database/GenshinWiki/birthday-art/kukishinobu/08-Kuki Shinobu TPRGT 2023 - Lumine.png"
+        "../../Database/GenshinWiki/birthday-art/kukishinobu/05-Kuki Shinobu Birthday 2026.png",
+        "../../Database/GenshinWiki/birthday-art/kukishinobu/06-Kuki Shinobu TPRGT 2022 - Aether.png",
+        "../../Database/GenshinWiki/birthday-art/kukishinobu/07-Kuki Shinobu TPRGT 2022 - Lumine.png",
+        "../../Database/GenshinWiki/birthday-art/kukishinobu/08-Kuki Shinobu TPRGT 2023 - Aether.png",
+        "../../Database/GenshinWiki/birthday-art/kukishinobu/09-Kuki Shinobu TPRGT 2023 - Lumine.png"
       ],
       "namecard": "../../Database/GenshinWiki/namecards/Shinobu.png",
       "skillIcons": [
@@ -334871,10 +334872,11 @@
         "../../Database/GenshinWiki/birthday-art/klee/05-Klee Birthday 2023.png",
         "../../Database/GenshinWiki/birthday-art/klee/06-Klee Birthday 2024.png",
         "../../Database/GenshinWiki/birthday-art/klee/07-Klee Birthday 2025.png",
-        "../../Database/GenshinWiki/birthday-art/klee/08-Klee TPRGT 2022 - Aether.png",
-        "../../Database/GenshinWiki/birthday-art/klee/09-Klee TPRGT 2022 - Lumine.png",
-        "../../Database/GenshinWiki/birthday-art/klee/10-Klee TPRGT 2023 - Aether.png",
-        "../../Database/GenshinWiki/birthday-art/klee/11-Klee TPRGT 2023 - Lumine.png"
+        "../../Database/GenshinWiki/birthday-art/klee/08-Klee Birthday 2026.png",
+        "../../Database/GenshinWiki/birthday-art/klee/09-Klee TPRGT 2022 - Aether.png",
+        "../../Database/GenshinWiki/birthday-art/klee/10-Klee TPRGT 2022 - Lumine.png",
+        "../../Database/GenshinWiki/birthday-art/klee/11-Klee TPRGT 2023 - Aether.png",
+        "../../Database/GenshinWiki/birthday-art/klee/12-Klee TPRGT 2023 - Lumine.png"
       ],
       "namecard": "../../Database/GenshinWiki/namecards/Klee.png",
       "skillIcons": [

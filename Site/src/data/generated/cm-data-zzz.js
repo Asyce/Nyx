@@ -102747,7 +102747,7 @@
         "english": "imdb:nm8183780|Felicia Valenti",
         "japanese": "Mamiko Noto|Noto Mamiko (\u80fd\u767b \u9ebb\u7f8e\u5b50)",
         "chinese": "https://mzh.moegirl.org.cn/zh-hans/\u5f20\u6631|Zhang Yu (\u5f20\u6631)",
-        "korean": "https://namu.wiki/w/\uc218\ud604(\uc131\uc6b0)|Su-hyeon (\uc218\ud604)"
+        "korean": "https://namu.wiki/w/\uc218\ud604(\uc131\uc6b0)|Soo-hyun (\uc218\ud604)"
       },
       "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle44.webp",
       "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole44.webp",

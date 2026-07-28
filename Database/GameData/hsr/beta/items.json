@@ -12540,17 +12540,17 @@
   {
     "id": "140634",
     "contentStatus": "beta",
-    "name": "Speed Star • Grand Champion Trophy",
+    "name": "Speed Star: Grand Champion Trophy",
     "rarity": "VeryRare",
     "type": "Mission",
     "subType": "Mission",
-    "backgroundDescription": "The trophy of the Overdrive Whirlwind Grand Prix. Starting with this year's race, it will record every champion to come, with each new victor adding their name to the legend. And on its base, the first champion left a motto carved in stone: \\n\\n<i>\"{TEXTJOIN#279}\"</i>",
+    "backgroundDescription": "The trophy of the Overdrive: Whirlwind Grand Prix. Starting with this year's race, it will record every champion to come, with each new victor adding their name to the legend. And on its base, the first champion left a motto carved in stone: \\n\\n<i>\"{TEXTJOIN#279}\"</i>",
     "purposeType": 16,
     "assets": {
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "currentHash": "86b7371d1cb957815bbfa9567efd111267dede422c3fbdffdd5ad8db4add2d5e"
+      "currentHash": "534c7f6e7e6ab2d3f7d377b70100acb6c96d50c823baea6f4cc24164fe7cf8b4"
     }
   },
   {

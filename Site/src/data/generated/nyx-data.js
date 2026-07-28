@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-07-28T09:23:20.849Z",
+  "generatedAt": "2026-07-28T14:27:23.079Z",
   "codes": {
-    "updated": "2026-07-28T08:00:52.809Z",
+    "updated": "2026-07-28T14:27:03.532Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -540,39 +540,14 @@ var NYX_DB = {
       "zzz": {
         "name": "Zenless Zone Zero",
         "freshness": {
-          "status": "stale",
+          "status": "invalid",
           "checkedAt": "2026-07-28T08:00:36.412Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
-          "lastValidUpdate": "2026-07-21T16:13:51.549Z",
+          "lastValidUpdate": null,
           "source": "game8",
           "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
-        "current": {
-          "phase": null,
-          "start": null,
-          "end": "2026-07-28T10:00:00.000Z",
-          "characters": [
-            {
-              "name": "Norma",
-              "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle65.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect65.webp",
-              "iconZoom": true,
-              "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole65.webp",
-              "namecard": null,
-              "rarity": "S"
-            },
-            {
-              "name": "Sunna",
-              "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle58.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect58.webp",
-              "iconZoom": true,
-              "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole58.webp",
-              "namecard": null,
-              "rarity": "S"
-            }
-          ],
-          "subBanners": []
-        },
+        "current": null,
         "next": {
           "phase": null,
           "start": "2026-07-29T10:00:00.000Z",
@@ -4444,7 +4419,7 @@ var NYX_DB = {
         "upcoming": []
       },
       "tcg": {
-        "updated": "2026-07-28T08:01:00.783Z",
+        "updated": "2026-07-28T09:31:05.330Z",
         "counts": {
           "characterCards": 106,
           "otherCards": 513
@@ -110998,7 +110973,7 @@ var NYX_DB = {
         ]
       },
       "wonderland": {
-        "updated": "2026-07-27T10:38:21.884Z",
+        "updated": "2026-07-28T09:31:09.263Z",
         "version": "6.7.54",
         "langMap": {
           "slot": {
@@ -156060,39 +156035,14 @@ var NYX_DB = {
       "banners": {
         "name": "Zenless Zone Zero",
         "freshness": {
-          "status": "stale",
+          "status": "invalid",
           "checkedAt": "2026-07-28T08:00:36.412Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
-          "lastValidUpdate": "2026-07-21T16:13:51.549Z",
+          "lastValidUpdate": null,
           "source": "game8",
           "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
-        "current": {
-          "phase": null,
-          "start": null,
-          "end": "2026-07-28T10:00:00.000Z",
-          "characters": [
-            {
-              "name": "Norma",
-              "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle65.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect65.webp",
-              "iconZoom": true,
-              "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole65.webp",
-              "namecard": null,
-              "rarity": "S"
-            },
-            {
-              "name": "Sunna",
-              "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle58.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect58.webp",
-              "iconZoom": true,
-              "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole58.webp",
-              "namecard": null,
-              "rarity": "S"
-            }
-          ],
-          "subBanners": []
-        },
+        "current": null,
         "next": {
           "phase": null,
           "start": "2026-07-29T10:00:00.000Z",

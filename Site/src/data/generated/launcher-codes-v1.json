@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-28T14:27:03.532Z",
+  "generatedAt": "2026-07-28T16:45:56.188Z",
   "games": {
     "gi": [
       {
@@ -44,6 +44,12 @@
     ],
     "zzz": [
       {
+        "code": "REMIELLE0729",
+        "added": "2026-07-28",
+        "amount": 120,
+        "currency": "Polychrome"
+      },
+      {
         "code": "ROSCAELIFER0617",
         "added": "2026-07-28",
         "amount": 30,
@@ -66,12 +72,6 @@
         "added": "2026-07-28",
         "amount": 50,
         "currency": "Polychrome"
-      },
-      {
-        "code": "ZZZSTEAM",
-        "added": "2026-07-28",
-        "amount": 60,
-        "currency": "Polychrome"
       }
     ],
     "wuwa": [],
@@ -84,5 +84,5 @@
       }
     ]
   },
-  "revision": "9561ce788f59efbeec480691770a110c6c09853f9f03e63c5999434e66f86777"
+  "revision": "68ded7cbf654a687a4dd9869d1662d992a4cc3c85b5661a530e9646480b58f5f"
 }

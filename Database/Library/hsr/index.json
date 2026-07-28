@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "game": "hsr",
-  "generatedAt": "2026-07-27T10:38:21.982Z",
-  "count": 624,
+  "generatedAt": "2026-07-28T09:31:09.357Z",
+  "count": 625,
   "entries": [
     {
       "id": "back-to-era-chrysea-handbook",
@@ -4616,6 +4616,21 @@
       ],
       "volumeKeys": [
         "text"
+      ]
+    },
+    {
+      "id": "magecraft-101-so-simple-even-a-tiger-could-get-it",
+      "name": "Magecraft 101: So Simple Even a Tiger Could Get It",
+      "icon": "icons/f3b2af1c279c1609754f5d5b99361253ce95cddc6231fc1b1df7ab16c976c9af.webp",
+      "file": "magecraft-101-so-simple-even-a-tiger-could-get-it.json",
+      "volumeCount": 2,
+      "volumeLabels": [
+        "(I): The Fifth Holy Grail War",
+        "(II): Root and Origin"
+      ],
+      "volumeKeys": [
+        "i-the-fifth-holy-grail-war",
+        "ii-root-and-origin"
       ]
     },
     {

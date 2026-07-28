@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-27T10:36:36.876Z",
-  "startedAt": "2026-07-27T10:35:56.582Z",
+  "generatedAt": "2026-07-28T09:29:55.223Z",
+  "startedAt": "2026-07-28T09:29:11.290Z",
   "dryRun": false,
   "source": "GameWith character build pages + web consensus fallback",
   "sourcePage": "https://gamewith.net/genshin-impact/article/show/22357",
@@ -118,17 +118,25 @@
           "matchedText": "w are Alyosha's best weapons. Alyosha mainly wants Energy Recharge to use his Elemental Burst every rotation, while also benefiting from ATK due to his healing and damage scaling. Engulfing Lightning R1 Timeless Dream: Eternal Stove Base ATK: 608 Energy Recharge: 55.1% ATK increased by 28% / 35% / 42% / 49% / 56% of Energy Recharge over the base 100%. You ca"
         },
         {
-          "title": "Alyosha Guide, Profile, Talents and Constellations",
-          "url": "https://www.icy-veins.com/genshin-impact/alyosha-profile-talents-constellations",
-          "domain": "icy-veins.com",
+          "title": "Genshin Impact | Alyosha Release Date & Known Information",
+          "url": "https://gamewith.net/genshin-impact/article/show/76471",
+          "domain": "gamewith.net",
           "query": "Alyosha Genshin Impact signature weapon",
           "searchProvider": "bing-rss",
           "status": "no-match"
         },
         {
-          "title": "Genshin Impact Alyosha Materials Guide – Complete Prefarm List for ...",
-          "url": "https://www.enjoygm.com/blog/genshin-impact/alyosha-material-guide",
-          "domain": "enjoygm.com",
+          "title": "Genshin 7.0 Banners: Odette, Alyosha, Reruns & Pull Guide",
+          "url": "https://www.gamsgo.com/blog/genshin-impact-7-0-banners",
+          "domain": "gamsgo.com",
+          "query": "Alyosha Genshin Impact signature weapon",
+          "searchProvider": "bing-rss",
+          "status": "no-match"
+        },
+        {
+          "title": "Genshin Impact Alyosha Leaks: Electro Polearm Kit, Talents, and ...",
+          "url": "https://allthings.how/genshin-impact-alyosha-leaks-electro-polearm-kit-talents-and-constellations/",
+          "domain": "allthings.how",
           "query": "Alyosha Genshin Impact signature weapon",
           "searchProvider": "bing-rss",
           "status": "no-match"

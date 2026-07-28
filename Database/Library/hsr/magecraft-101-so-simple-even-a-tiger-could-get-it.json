@@ -1,0 +1,483 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "magecraft-101-so-simple-even-a-tiger-could-get-it",
+  "name": "Magecraft 101: So Simple Even a Tiger Could Get It",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Magecraft_101:_So_Simple_Even_a_Tiger_Could_Get_It",
+  "scrapedAt": "2026-07-28T09:31:09.357Z",
+  "volumes": [
+    {
+      "id": "1",
+      "volumeKey": "i-the-fifth-holy-grail-war",
+      "label": "(I): The Fifth Holy Grail War",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ],
+            "id": "p-dfc3ab3590c469d6"
+          },
+          {
+            "type": "paragraph",
+            "children": [],
+            "id": "p-882a20e6379eb83a"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Ryuudou Temple, Fuyuki City"
+              }
+            ],
+            "id": "p-671d4ad2c2a3d937"
+          },
+          {
+            "type": "paragraph",
+            "children": [],
+            "id": "p-882a20e6379eb83a-2"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Team Saber"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Master: Shirou Emiya"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "An ordinary high schooler with a straightforward personality. A good-natured guy with a strong sense of justice."
+              }
+            ],
+            "id": "p-516734ea99562fa1"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "A Saber-class Servant. A knight who champions the weak and stands against the mighty, earnest and resolute in all things."
+              }
+            ],
+            "id": "p-069ce7862552f9ae"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Team Archer"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Master: Rin Tohsaka"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "One of the administrators of Fuyuki City, and the current head of the Tohsaka family. That would be me."
+              }
+            ],
+            "id": "p-377e5e09eeb59691"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "An Archer-class Servant. A Servant whose true identity remains a mystery. Cool-headed and pragmatic by nature."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sports gray hair. Though classified as an Archer, he is also an expert in a wide array of other weapons."
+              }
+            ],
+            "id": "p-83c71425fa66e516"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Team Berserker"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Master: Illyasviel von Einzbern"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A petite girl with beautiful long silver-white hair."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Don't let the looks fool you. She's got a surprisingly sharp tongue and a bit of a little devil in her."
+              }
+            ],
+            "id": "p-27742f944c44eeea"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "A Berserker-class Servant. A legendary hero of myth. Blessed with immense life force and an iron will, he stands as one of the most powerful Servants in this Holy Grail War."
+              }
+            ],
+            "id": "p-17bc3bf0300a1788"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Team Caster"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Master: Soichiro Kuzuki"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A teacher of few words with an air of quiet austerity."
+              }
+            ],
+            "id": "p-625933229703992b"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "A Caster-class Servant, she's the wickedly brilliant grand witch of legend, passionate in both love and hate. She is clad in a purple robe that fans out like a bat's wings."
+              }
+            ],
+            "id": "p-3c77adabdea67b32"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Team Assassin"
+                  }
+                ]
+              }
+            ],
+            "id": "p-78b435e7b9121e58"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Servant: Kojirou Sasaki"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A swordmaster Assassin-class Servant. His Master is not one of the seven Masters of this Holy Grail War."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "It can be said that his very existence is a highly anomalous case among the many Holy Grail War rituals."
+              }
+            ],
+            "id": "p-c00cab831707b59c"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Team Rider"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Master: Shinji Matou"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The eldest son of the Matou family, one of the three great mage families based in Fuyuki."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Has plenty of talent, except when it comes to magecraft."
+              }
+            ],
+            "id": "p-3c0dc9ade7f4fdf8"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "A Rider-class Servant. Once worshiped as a goddess in myth, now depicted as a monster incapable of making contact with others."
+              }
+            ],
+            "id": "p-e06144886e0d0e2f"
+          },
+          {
+            "type": "paragraph",
+            "children": [],
+            "id": "p-882a20e6379eb83a-3"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Team Lancer & Overseer"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Master: Kirei Kotomine"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A member of the clergy with a saintly aura. From his position as an Overseer, he should theoretically avoid intervening in the conflict, but..."
+              }
+            ],
+            "id": "p-39a1be44ff31bcf6"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Two Servants are present simultaneously: Lancer and Archer."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Why there are two Archers, you ask? Well, that is another story entirely."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But if it concerns the oldest King of Heroes, the one who holds all the treasures and wisdom in the world, nothing he does should come as a surprise."
+              }
+            ],
+            "id": "p-fd8f9f50121c1abb"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "volumeKey": "ii-root-and-origin",
+      "label": "(II): Root and Origin",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ],
+            "id": "p-dfc3ab3590c469d6"
+          },
+          {
+            "type": "paragraph",
+            "children": [],
+            "id": "p-882a20e6379eb83a"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Like a book, it records the causes, processes, and ends of the infinite things in the universe."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "An empty cosmos, and magecraft included, owes its very existence to this item, hence the name \"Root.\""
+              }
+            ],
+            "id": "p-7ebdd3f7ccc9a62e"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "It's not hard to see that it is both \"infinite knowledge\" and \"the start of an empty cosmos,\" a walking contradiction."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And so, the so-called \"Root\" is really just a concept humans invented to wrap their heads around the idea of infinity."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "After all, if infinity is going to mean anything, you need a boundary to define it. Otherwise, the very distinction between finite and infinite loses all meaning."
+              }
+            ],
+            "id": "p-11e5d13d0409af9a"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "If Root is the primordial \"cause\" of the cosmos itself, then Origin is the individual \"cause\" behind every single thing that exists within the cosmos."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "It's like an arrow, fixing the direction of development the moment something comes into being."
+              }
+            ],
+            "id": "p-eecd59c918ddfdad"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "No living being can defy this directionality. As the saying goes, \"You reap what you sow.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Yet living beings are rarely aware of where their Origin lies. Once awakened, one's consciousness becomes dominated by the Origin, until it becomes the Origin itself."
+              }
+            ],
+            "id": "p-eb7c8bdba731e86b"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
+          }
+        ]
+      }
+    }
+  ]
+}

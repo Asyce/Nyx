@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T10:35:47.498Z",
+  "generatedAt": "2026-07-28T09:29:02.140Z",
   "source": "Genshin Impact Wiki / Fandom MediaWiki API",
   "sourceExample": "https://genshin-impact.fandom.com/wiki/Ifa/Gallery",
   "requestedWidth": 1800,
@@ -8571,9 +8571,21 @@
           "mime": "image/png"
         },
         {
+          "file": "Yanfei Birthday 2026.png",
+          "title": "Yanfei Birthday 2026.png (1.63 MB)",
+          "localAsset": "GenshinWiki/birthday-art/yanfei/06-Yanfei Birthday 2026.png",
+          "sourcePage": "https://genshin-impact.fandom.com/wiki/Yanfei/Gallery",
+          "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Yanfei_Birthday_2026.png",
+          "width": 1800,
+          "height": 1800,
+          "originalWidth": 2500,
+          "originalHeight": 2500,
+          "mime": "image/png"
+        },
+        {
           "file": "Yanfei TPRGT 2022 - Aether.png",
           "title": "Yanfei TPRGT 2022 - Aether.png (2.53 MB)",
-          "localAsset": "GenshinWiki/birthday-art/yanfei/06-Yanfei TPRGT 2022 - Aether.png",
+          "localAsset": "GenshinWiki/birthday-art/yanfei/07-Yanfei TPRGT 2022 - Aether.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Yanfei/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Yanfei_TPRGT_2022_-_Aether.png",
           "width": 1800,
@@ -8585,7 +8597,7 @@
         {
           "file": "Yanfei TPRGT 2022 - Lumine.png",
           "title": "Yanfei TPRGT 2022 - Lumine.png (2.55 MB)",
-          "localAsset": "GenshinWiki/birthday-art/yanfei/07-Yanfei TPRGT 2022 - Lumine.png",
+          "localAsset": "GenshinWiki/birthday-art/yanfei/08-Yanfei TPRGT 2022 - Lumine.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Yanfei/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Yanfei_TPRGT_2022_-_Lumine.png",
           "width": 1800,
@@ -8597,7 +8609,7 @@
         {
           "file": "Yanfei TPRGT 2023 - Aether.png",
           "title": "Yanfei TPRGT 2023 - Aether.png (2.2 MB)",
-          "localAsset": "GenshinWiki/birthday-art/yanfei/08-Yanfei TPRGT 2023 - Aether.png",
+          "localAsset": "GenshinWiki/birthday-art/yanfei/09-Yanfei TPRGT 2023 - Aether.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Yanfei/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Yanfei_TPRGT_2023_-_Aether.png",
           "width": 1800,
@@ -8609,7 +8621,7 @@
         {
           "file": "Yanfei TPRGT 2023 - Lumine.png",
           "title": "Yanfei TPRGT 2023 - Lumine.png (2.22 MB)",
-          "localAsset": "GenshinWiki/birthday-art/yanfei/09-Yanfei TPRGT 2023 - Lumine.png",
+          "localAsset": "GenshinWiki/birthday-art/yanfei/10-Yanfei TPRGT 2023 - Lumine.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Yanfei/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Yanfei_TPRGT_2023_-_Lumine.png",
           "width": 1800,

@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-07-28T16:46:14.881Z",
+  "generatedAt": "2026-07-28T18:20:41.763Z",
   "codes": {
-    "updated": "2026-07-28T16:45:56.188Z",
+    "updated": "2026-07-28T18:20:27.309Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -196,20 +196,6 @@ var NYX_DB = {
         }
       ],
       "zzz": [
-        {
-          "code": "REMIELLE0729",
-          "reward": "Polychrome x 120",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Polychrome",
-            "needle": "polychrome",
-            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
-          },
-          "added": "2026-07-28",
-          "firstSeen": "2026-07-28T14:27:03.143Z",
-          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=REMIELLE0729",
-          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=REMIELLE0729"
-        },
         {
           "code": "ROSCAELIFER0617",
           "reward": "Polychrome x 30",
@@ -155933,20 +155919,6 @@ var NYX_DB = {
         }
       ],
       "codes": [
-        {
-          "code": "REMIELLE0729",
-          "reward": "Polychrome x 120",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Polychrome",
-            "needle": "polychrome",
-            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
-          },
-          "added": "2026-07-28",
-          "firstSeen": "2026-07-28T14:27:03.143Z",
-          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=REMIELLE0729",
-          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=REMIELLE0729"
-        },
         {
           "code": "ROSCAELIFER0617",
           "reward": "Polychrome x 30",

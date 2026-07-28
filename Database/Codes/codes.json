@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T16:45:56.188Z",
+  "generatedAt": "2026-07-28T18:20:27.309Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,7 +9,7 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-07-28T16:45:56.170Z",
+      "lastSuccessfulFetch": "2026-07-28T18:20:26.853Z",
       "codes": [
         {
           "code": "LEGEDILJKSGM",
@@ -54,7 +54,7 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-07-28T16:45:56.180Z",
+      "lastSuccessfulFetch": "2026-07-28T18:20:27.309Z",
       "codes": [
         {
           "code": "4TKSX77Y58QK",
@@ -183,19 +183,8 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-07-28T16:45:56.188Z",
+      "lastSuccessfulFetch": "2026-07-28T18:20:27.244Z",
       "codes": [
-        {
-          "code": "REMIELLE0729",
-          "rewards": "Polychrome x 120",
-          "added": "2026-07-28",
-          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=REMIELLE0729",
-          "hoyoVerified": true,
-          "premium": true,
-          "premium100": false,
-          "cwSeen": false,
-          "firstSeen": "2026-07-28T14:27:03.143Z"
-        },
         {
           "code": "ROSCAELIFER0617",
           "rewards": "Polychrome x 30",
@@ -293,7 +282,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-07-28T16:45:56.139Z",
+      "lastSuccessfulFetch": "2026-07-28T18:20:26.799Z",
       "codes": [
         {
           "code": "F5F4D3B2A2",
@@ -314,7 +303,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-07-28T16:45:56.127Z",
+      "lastSuccessfulFetch": "2026-07-28T18:20:26.844Z",
       "codes": [
         {
           "code": "ENDFIELDRENEW",

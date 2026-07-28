@@ -1,13 +1,13 @@
 {
   "provider": "Prydwen",
   "game": "hsr",
-  "generatedAt": "2026-07-27T08:52:49.522Z",
+  "generatedAt": "2026-07-28T07:58:34.337Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 5,
-      "unchanged": 90
+      "changed": 8,
+      "unchanged": 87
     }
   },
   "sections": {
@@ -16,37 +16,55 @@
       "removed": [],
       "changed": [
         {
+          "id": "characters:dan-heng",
+          "name": "Dan Heng",
+          "previousHash": "91293dcbe1b56b30271e3ea0c15efb147706cc0bb8dba0476fd81ecfb8ba6d80",
+          "currentHash": "c8e1f52d3d675db12c7f92301b37596da5ec73482301f5d6ad2d911f837265c1"
+        },
+        {
           "id": "characters:guinaifen",
           "name": "Guinaifen",
-          "previousHash": "53d6bd7c95ff51efa77a003d82ce373d0b4f522927abeab73343f2442895e99e",
-          "currentHash": "8241a640bdfbda71a0b2dda81ef878e8cc9ce763ae6f1c772485122c3363f62e"
+          "previousHash": "8241a640bdfbda71a0b2dda81ef878e8cc9ce763ae6f1c772485122c3363f62e",
+          "currentHash": "53d6bd7c95ff51efa77a003d82ce373d0b4f522927abeab73343f2442895e99e"
         },
         {
           "id": "characters:jing-yuan",
           "name": "Jing Yuan",
-          "previousHash": "785d04a9b4ab1fa94e44d9f7829f1d1430efddd282c545293913773afe9a8d82",
-          "currentHash": "ff634b897c1885c690cc14d5f158206849e9171ff4e325c6ab3bab6e8607dc6c"
+          "previousHash": "ff634b897c1885c690cc14d5f158206849e9171ff4e325c6ab3bab6e8607dc6c",
+          "currentHash": "785d04a9b4ab1fa94e44d9f7829f1d1430efddd282c545293913773afe9a8d82"
         },
         {
           "id": "characters:luka",
           "name": "Luka",
-          "previousHash": "8412ed48b10e6837a02b95c9cf6ac455679148547e0867a6902768f1f57442b4",
-          "currentHash": "16d128256e539c04a0ae576551b23ba588611243d727f52eb15765266d706717"
+          "previousHash": "16d128256e539c04a0ae576551b23ba588611243d727f52eb15765266d706717",
+          "currentHash": "8412ed48b10e6837a02b95c9cf6ac455679148547e0867a6902768f1f57442b4"
         },
         {
           "id": "characters:misha",
           "name": "Misha",
-          "previousHash": "a3cb1480b444f0fca5e9e01f34fae04ad5770e09c4c4c52b52f86b90572020b0",
-          "currentHash": "4e36f693d3131de0b7cc6bf712cdc22a8d041f39926449f410e66e14feb7e10b"
+          "previousHash": "4e36f693d3131de0b7cc6bf712cdc22a8d041f39926449f410e66e14feb7e10b",
+          "currentHash": "a3cb1480b444f0fca5e9e01f34fae04ad5770e09c4c4c52b52f86b90572020b0"
         },
         {
           "id": "characters:rappa",
           "name": "Rappa",
-          "previousHash": "35b5173e8907e51dab5da833b0bf2e9423a29962b2d5f838e950519ad3cab387",
-          "currentHash": "543af74909d79f2c2d83c60e2c834b845c2fb92ae31f816069410529aaa79162"
+          "previousHash": "543af74909d79f2c2d83c60e2c834b845c2fb92ae31f816069410529aaa79162",
+          "currentHash": "35b5173e8907e51dab5da833b0bf2e9423a29962b2d5f838e950519ad3cab387"
+        },
+        {
+          "id": "characters:sushang",
+          "name": "Sushang",
+          "previousHash": "dc7984a944567b111b9d45adda221c082c9f7c2c7441f422f3c91b90a2c79c23",
+          "currentHash": "3e0af3ea63e5d98ab0158b6fc8579c66826c7c283f23e3d2af865552c5f4577b"
+        },
+        {
+          "id": "characters:topaz",
+          "name": "Topaz & Numby",
+          "previousHash": "99a156c1299296f20967920f976a22eb443a5ca0cbb62217175717d2272b2980",
+          "currentHash": "2a0e53315432d17c7a72bb79745277f63621e13940ed041332bd704d07770ce1"
         }
       ],
-      "unchanged": 90,
+      "unchanged": 87,
       "totals": {
         "previous": 95,
         "current": 95

@@ -1,21 +1,40 @@
 {
   "provider": "Prydwen",
   "game": "zzz",
-  "generatedAt": "2026-07-27T08:52:49.522Z",
+  "generatedAt": "2026-07-28T07:58:34.337Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 0,
-      "unchanged": 68
+      "changed": 3,
+      "unchanged": 65
     }
   },
   "sections": {
     "records": {
       "added": [],
       "removed": [],
-      "changed": [],
-      "unchanged": 68,
+      "changed": [
+        {
+          "id": "characters:lucia",
+          "name": "Lucia",
+          "previousHash": "907d5978b8ff9b855bac1413fd0fc271f646fd8632bf9c2339eebb5b280f4380",
+          "currentHash": "45a732c851de9dea96f07d0d467a3be5cde3c6a33a261828a380fbcd376dacd8"
+        },
+        {
+          "id": "characters:remielle",
+          "name": "Remielle",
+          "previousHash": "40c034a62c54a7642c8fc05a4afad33796ad7f881152b048d1876ae4a321aec1",
+          "currentHash": "0ce66ef44a0d35cc7292d249053f5b13a0ea9b31b7127adcb3f9e887e6f310df"
+        },
+        {
+          "id": "collection:characters",
+          "name": "Zenless Zone Zero (ZZZ) Characters Build Guides",
+          "previousHash": "312e9d494106a848691874a7def84c1bfca0d3ca9206ced0898191790eabd699",
+          "currentHash": "19b8fa5f5e3ec3703a7b86efafbbcf4798bf13b5d0c95c77fb78a31780297d73"
+        }
+      ],
+      "unchanged": 65,
       "totals": {
         "previous": 68,
         "current": 68

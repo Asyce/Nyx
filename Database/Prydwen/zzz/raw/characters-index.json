@@ -3,7 +3,7 @@
   "game": "zzz",
   "collection": "characters",
   "sourcePath": "/zenless/characters",
-  "scrapedAt": "2026-07-27T08:52:49.522Z",
+  "scrapedAt": "2026-07-28T07:58:34.337Z",
   "detailPagesTotal": 64,
   "detailPagesScraped": 64,
   "staleDetailPagesRemoved": 0,
@@ -353,12 +353,10 @@
     {
       "id": "remielle",
       "slug": "remielle",
-      "name": "Remielle 3.x",
+      "name": "Remielle",
       "sourcePath": "/zenless/characters/remielle",
-      "contentStatus": "beta",
-      "statusLabels": [
-        "3.x"
-      ]
+      "contentStatus": "live",
+      "statusLabels": []
     },
     {
       "id": "rina",

@@ -3,7 +3,7 @@
   "label": "Honkai: Star Rail",
   "source": "GachaBase beta changelog",
   "sourceUrl": "https://hsr.gachabase.net/changelog/beta?lang=en",
-  "scrapedAt": "2026-07-27T08:54:51.391Z",
+  "scrapedAt": "2026-07-28T08:00:23.760Z",
   "title": "Changelog - v4.4.5X | Honkai: Star Rail | Gachabase",
   "categoryLinks": [
     {
@@ -147,24 +147,81 @@
       "text": "Himeko • Nova"
     },
     {
-      "type": "lightcones",
-      "href": "https://hsr.gachabase.net/lightcones/23064/summer-rides-the-surf/beta?lang=en",
-      "text": "Summer Rides the Surf"
+      "type": "characters",
+      "href": "https://hsr.gachabase.net/characters/1501/sparxie/beta?lang=en",
+      "text": "Sparxie"
+    },
+    {
+      "type": "characters",
+      "href": "https://hsr.gachabase.net/characters/1004/welt/beta?lang=en",
+      "text": "Welt"
     }
   ],
   "counts": {
-    "entries": 19,
+    "entries": 23,
     "byType": {
-      "characters": 11,
-      "lightcones": 7,
+      "characters": 14,
+      "lightcones": 8,
       "planar-ornaments": 1
     },
     "byStatus": {
-      "updated": 13,
+      "updated": 17,
       "new": 6
     }
   },
   "entries": [
+    {
+      "game": "hsr",
+      "type": "characters",
+      "id": "1510",
+      "rarity": 5,
+      "name": "Himeko • Nova",
+      "iconHash": "a02fa50e1826ff9d666e9a1e9299fd72",
+      "status": "updated",
+      "href": "https://hsr.gachabase.net/characters/1510/himeko-nova/beta/4.4.52/15802789",
+      "diff": "https://hsr.gachabase.net/diff/characters/1510/himeko-nova?prev=beta_4.4.51_15753142&cur=beta_4.4.52_15802789",
+      "betaVersion": "4.4.52",
+      "revision": "15802789"
+    },
+    {
+      "game": "hsr",
+      "type": "characters",
+      "id": "1512",
+      "rarity": 5,
+      "name": "Robin • Summeretto",
+      "iconHash": "98bcc901782bee57cb5907f354f0c2d5",
+      "status": "updated",
+      "href": "https://hsr.gachabase.net/characters/1512/robin-summeretto/beta/4.4.52/15802789",
+      "diff": "https://hsr.gachabase.net/diff/characters/1512/robin-summeretto?prev=beta_4.4.51_15753142&cur=beta_4.4.52_15802789",
+      "betaVersion": "4.4.52",
+      "revision": "15802789"
+    },
+    {
+      "game": "hsr",
+      "type": "characters",
+      "id": "1513",
+      "rarity": 5,
+      "name": "Aventurine • Waveflair",
+      "iconHash": "ee8b70b0f687f57d94af6326219b2ca5",
+      "status": "updated",
+      "href": "https://hsr.gachabase.net/characters/1513/aventurine-waveflair/beta/4.4.52/15802789",
+      "diff": "https://hsr.gachabase.net/diff/characters/1513/aventurine-waveflair?prev=beta_4.4.51_15753142&cur=beta_4.4.52_15802789",
+      "betaVersion": "4.4.52",
+      "revision": "15802789"
+    },
+    {
+      "game": "hsr",
+      "type": "lightcones",
+      "id": "23064",
+      "rarity": 5,
+      "name": "Summer Rides the Surf",
+      "iconHash": "665cfbbe94d6df9985c5ea5f32d62e70",
+      "status": "updated",
+      "href": "https://hsr.gachabase.net/lightcones/23064/summer-rides-the-surf/beta/4.4.52/15802789",
+      "diff": "https://hsr.gachabase.net/diff/lightcones/23064/summer-rides-the-surf?prev=beta_4.4.51_15753142&cur=beta_4.4.52_15802789",
+      "betaVersion": "4.4.52",
+      "revision": "15802789"
+    },
     {
       "game": "hsr",
       "type": "characters",

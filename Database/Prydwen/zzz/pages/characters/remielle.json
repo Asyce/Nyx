@@ -9,12 +9,10 @@
   "name": "Remielle",
   "title": "Remielle Best Build Guide",
   "sourcePath": "/zenless/characters/remielle",
-  "contentStatus": "beta",
-  "statusLabels": [
-    "3.x"
-  ],
-  "scrapedAt": "2026-07-27T08:52:49.522Z",
-  "updatedText": "24/July/2026",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-07-28T07:58:34.337Z",
+  "updatedText": "28/July/2026",
   "meta": {
     "title": "Remielle Best Build Guide | Zenless Zone Zero",
     "description": ""
@@ -55,6 +53,96 @@
       "path": "Prydwen/zzz/assets/icons/anomaly-883cade061c8.webp",
       "width": 30,
       "height": 30
+    },
+    {
+      "id": "880f190c8aa9",
+      "sourceHash": "880f190c8aa9",
+      "kind": "icons",
+      "name": "Core",
+      "fileStem": "icon-core",
+      "path": "Prydwen/zzz/assets/icons/core-880f190c8aa9.webp",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "13fff798e82d",
+      "sourceHash": "13fff798e82d",
+      "kind": "icons",
+      "name": "Basic",
+      "fileStem": "icon-basic",
+      "path": "Prydwen/zzz/assets/icons/basic-13fff798e82d.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "f3bbacf4beb6",
+      "sourceHash": "f3bbacf4beb6",
+      "kind": "icons",
+      "name": "Dodge",
+      "fileStem": "icon-dodge",
+      "path": "Prydwen/zzz/assets/icons/dodge-f3bbacf4beb6.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "de0f0cad1e72",
+      "sourceHash": "de0f0cad1e72",
+      "kind": "icons",
+      "name": "Assist",
+      "fileStem": "icon-assist-m",
+      "path": "Prydwen/zzz/assets/icons/assist-de0f0cad1e72.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "954b8d0b61b7",
+      "sourceHash": "954b8d0b61b7",
+      "kind": "icons",
+      "name": "Special",
+      "fileStem": "icon-special-full",
+      "path": "Prydwen/zzz/assets/icons/special-954b8d0b61b7.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "803b765175bc",
+      "sourceHash": "803b765175bc",
+      "kind": "icons",
+      "name": "qte",
+      "fileStem": "icon-ulti-full",
+      "path": "Prydwen/zzz/assets/icons/qte-803b765175bc.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "9f68a61db8c5",
+      "sourceHash": "9f68a61db8c5",
+      "kind": "icons",
+      "name": "Core",
+      "fileStem": "icon-special",
+      "path": "Prydwen/zzz/assets/icons/core-9f68a61db8c5.webp",
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "d3cae9ba5d45",
+      "sourceHash": "d3cae9ba5d45",
+      "kind": "icons",
+      "name": "Core",
+      "fileStem": "icon-ulti",
+      "path": "Prydwen/zzz/assets/icons/core-d3cae9ba5d45.webp",
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "94a5940d48d5",
+      "sourceHash": "94a5940d48d5",
+      "kind": "icons",
+      "name": "Core",
+      "fileStem": "icon-assist",
+      "path": "Prydwen/zzz/assets/icons/core-94a5940d48d5.webp",
+      "width": 40,
+      "height": 40
     }
   ],
   "sections": [
@@ -62,7 +150,7 @@
       "id": "remielle-best-build-guide-0",
       "level": 1,
       "heading": "Remielle Best Build Guide",
-      "text": "Last updated: 24/July/2026",
+      "text": "Last updated: 28/July/2026",
       "assets": [
         {
           "id": "e8b52d52cf40",
@@ -112,112 +200,239 @@
       "assets": []
     },
     {
-      "id": "calculations-8",
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch -\n\n Last build update\n Patch -\n\n Last teams update\n Patch -\n\n Last profile update*\n 28/July/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.",
+      "assets": []
+    },
+    {
+      "id": "calculations-9",
       "level": 2,
       "heading": "Calculations",
       "text": "To learn more about Remielle check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile",
       "assets": []
     },
     {
-      "id": "core-skills-9",
+      "id": "core-skills-10",
       "level": 2,
       "heading": "Core skills",
-      "text": "Remielle core skills aren't available yet. They will be added once more information about the character are released.",
-      "assets": []
+      "text": "Core Passive Temporal Patterns = Stilled Colors\n\n Lv. 1\n\n Remielle's [Refringe Coefficient] is equal to 0.02% of her Anomaly Proficiency. If there are 3 [Anomaly] characters in the squad, her [Refringe Coefficient] increases by an additional 10% .\n When Remielle triggers a Refringe reaction via a squad member, she generates [Voidflare] based on the Anomaly Effect Strength after it has been enhanced by [Refringe] from the Attribute Anomaly effect. Up to the 3 most recently generated [Voidflare] can be stored.\n If [Assist: Flower & Feather Dance]/[Ultimate: Dazzling Curtain Call]/[Basic Attack: Rainbow's End]/[Basic Attack: Fleeting Grace] hits a target, [Luminize] is triggered after the skill ends:\n Based on the total [Anomaly Effect Strength] of all stored [Voidflare], this deals Attribute Anomaly DMG to the enemy using the corresponding skill's DMG multiplier. This multiplier is further increased by 0.1% of Remielle's Anomaly Proficiency.\n\n All stored [Voidflare] are cleared when Remielle enters the Phase Flow state or after using [Basic Attack: Rainbow's End] or [Basic Attack: Fleeting Grace].\n\n BASE ATK : 0\n\n Additional Ability Invitation to Bloom\n\n When another character in your squad is an [Anomaly] character or shares the same faction:\n When there are 1/2/3 [Anomaly] characters in the squad, upon entering the battlefield, all squad members gain an ATK increase equal to 6%/12%/40% of Remielle's initial ATK, up to a maximum of 1,600 ATK. Additionally, while in the Phase Flow state, Remielle's Daze dealt increases by 6%/12%/35% .\n When Remielle applies [Lumiflux Buildup] to an enemy, they also inflict [Prismatic]: When all squad members attack an enemy affected by [Prismatic], Anomaly Buildup Rate increases by 15% . [Prismatic] is removed when the enemy no longer has [Lumiflux Buildup]. After [Prismatic] is removed, the Anomaly Buildup Rate increase persists for an additional 8s .",
+      "assets": [
+        {
+          "id": "880f190c8aa9",
+          "sourceHash": "880f190c8aa9",
+          "kind": "icons",
+          "name": "Core",
+          "fileStem": "icon-core",
+          "path": "Prydwen/zzz/assets/icons/core-880f190c8aa9.webp",
+          "width": 32,
+          "height": 32
+        }
+      ]
     },
     {
-      "id": "skills-10",
+      "id": "skills-11",
       "level": 2,
       "heading": "Skills",
-      "text": "Remielle skills aren't available yet. They will be added soon!",
-      "assets": []
+      "text": "Basic\n Dodge\n Assist\n Special\n Chain\n\n Basic Attack: Leap\n\n Press to activate:\nPerform up to four attacks ahead, dealing Lumiflux DMG.\nIf the Basic Attack hits the target, gain Floating Radiance after the skill ends.\nAfter the 4th hit of the Basic Attack ends, 1 Lumiflux Buildup is applied to enemies hit.\n Multipliers\n\n Basic Attack: Solo Dance\n\n Hold to activate:\nPerform a slash in an area ahead, dealing Lumiflux DMG.\nIf it hits a target, gain Floating Radiance after the skill ends.\n Multipliers\n\n Basic Attack: Rainbow's End\n\n When Remielle has Voidflare, hold to activate:\nUnleash a powerful large area attack ahead, dealing Lumiflux DMG.\nGrants a large amount of [Floating Radiance] when the skill ends.\nIf the attack hits a target, triggers the Luminize effect after the skill ends with a X% multiplier.\nConsumes all stored [Voidflare] upon use.\n Multipliers\n\n Basic Attack: Fleeting Grace\n\n When Remielle has stored Voidflare and is in the Luminous Reflection state, hold to activate:\nUnleash a powerful large area attack ahead, dealing Lumiflux DMG.\nGrants a large amount of Floating Radiance when the skill ends.\nIf the attack hits a target, it triggers the Luminize effect after the skill ends with a multiplier of X%.\nConsumes all stored Voidflare upon use.\n Multipliers\n\n Dodge: Retreating Light\n\n Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill.\n\n Dash Attack: Keen Light\n\n Press during a dodge to activate:\nLaunch a quick attack ahead, dealing Lumiflux DMG.\n Multipliers\n\n Dodge Counter: Mirrored Shadow\n\n Press during a Perfect Dodge to activate:\nUnleash a powerful slash at the target, dealing Lumiflux DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Special Attack: Sliver of Light\n\n Press to activate:\nLaunch a ranged attack ahead, dealing Lumiflux DMG.\n Multipliers\n\n EX Special Attack: Ode to Dawn\n\n Upon entering the battlefield, if the character has less than 60 Energy, recover Energy to 60. In Investigation Zone Mode, this effect can trigger once every 180s;\nWith enough Energy, press to activate:\nUnleash a powerful attack across a large area ahead, dealing Lumiflux DMG;\nAfter the skill ends, apply 2 [Lumiflux Buildup] to all enemies hit;\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Special Attack: Ode to Dawn - Radiant Turn\n\n When Remielle is in-combat and [Floating Radiance] reaches its maximum of 120, hold after a [Special Attack] or [EX Special Attack] to enter [Stance Shift]. Switching Characters while in [Stance Shift] enters the [Phase Flow] state:\nWhile in the [Phase Flow] state, Remielle acts autonomously to assist in combat. Some attacks also apply [Lumiflux Buildup] to the target. [Floating Radiance] is consumed over time while in the [Phase Flow] state. When [Floating Radiance] is depleted or Remielle leaves the in-combat state, she exits the [Phase Flow] state. Before exiting the [Phase Flow] state, Remielle cannot be switched in except via a [Chain Attack];\nIf Remielle triggers 3 Refringe reactions while in the [Phase Flow] state, or has at least 1 stored Voidflare when [Floating Radiance] is depleted, [Assist: Flower & Feather Dance] is activated, unlocking normal switch-ins and automatically triggering [Assist: Flower & Feather Dance] on Remielle's next normal switch-in;\nUpon entering the [Phase Flow] state, all squad members' DMG dealt is increased by X% for 60s. Repeated triggers reset the duration;\nIf Remielle uses a [Special Attack] or [EX Special Attack] that hits a Stunned enemy and [Floating Radiance] has reached its maximum of 120, switching Characters during the [Special Attack] or [EX Special Attack] also enters the [Phase Flow] state;\nIf no character is switched in after entering [Stance Shift], Remielle uses a downward attack to return to the ground.\n Multipliers\n\n Chain Attack: Interwoven Dance Steps\n\n When a Chain Attack is triggered, select the character to activate:\nLaunch multiple attacks ahead in a large area, dealing Lumiflux DMG.\nEnter the Luminous Reflection state upon activation. The next Basic Attack: Rainbow's End is upgraded to Basic Attack: Fleeting Grace.\nAfter the skill ends, apply 2 Lumiflux Buildup to enemies hit.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Ultimate: Dazzling Curtain Call\n\n When Decibel Rating is at Maximum, press to activate:\nLaunch a attack across a large area in front, dealing Lumiflux DMG.\nIf the skill hits, the Luminize effect can be triggered after the skill ends with a multiplier of X%.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Quick Assist: Featherglow Rebirth\n\n When the active character is launched, press to activate:\nUnleash a slash at the target, dealing Lumiflux DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Defensive Assist: Fleeting Light\n\n When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Assist Follow-Up: Awakening Glimmer\n\n Press after a Defensive Assist to activate:\nUnleashes a series of slashes against the target, dealing Lumiflux DMG.\nCharacter is invulnerable while using this skill.\n Multipliers",
+      "assets": [
+        {
+          "id": "13fff798e82d",
+          "sourceHash": "13fff798e82d",
+          "kind": "icons",
+          "name": "Basic",
+          "fileStem": "icon-basic",
+          "path": "Prydwen/zzz/assets/icons/basic-13fff798e82d.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "f3bbacf4beb6",
+          "sourceHash": "f3bbacf4beb6",
+          "kind": "icons",
+          "name": "Dodge",
+          "fileStem": "icon-dodge",
+          "path": "Prydwen/zzz/assets/icons/dodge-f3bbacf4beb6.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "de0f0cad1e72",
+          "sourceHash": "de0f0cad1e72",
+          "kind": "icons",
+          "name": "Assist",
+          "fileStem": "icon-assist-m",
+          "path": "Prydwen/zzz/assets/icons/assist-de0f0cad1e72.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "954b8d0b61b7",
+          "sourceHash": "954b8d0b61b7",
+          "kind": "icons",
+          "name": "Special",
+          "fileStem": "icon-special-full",
+          "path": "Prydwen/zzz/assets/icons/special-954b8d0b61b7.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "803b765175bc",
+          "sourceHash": "803b765175bc",
+          "kind": "icons",
+          "name": "qte",
+          "fileStem": "icon-ulti-full",
+          "path": "Prydwen/zzz/assets/icons/qte-803b765175bc.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "9f68a61db8c5",
+          "sourceHash": "9f68a61db8c5",
+          "kind": "icons",
+          "name": "Core",
+          "fileStem": "icon-special",
+          "path": "Prydwen/zzz/assets/icons/core-9f68a61db8c5.webp",
+          "width": 40,
+          "height": 40
+        },
+        {
+          "id": "d3cae9ba5d45",
+          "sourceHash": "d3cae9ba5d45",
+          "kind": "icons",
+          "name": "Core",
+          "fileStem": "icon-ulti",
+          "path": "Prydwen/zzz/assets/icons/core-d3cae9ba5d45.webp",
+          "width": 40,
+          "height": 40
+        },
+        {
+          "id": "94a5940d48d5",
+          "sourceHash": "94a5940d48d5",
+          "kind": "icons",
+          "name": "Core",
+          "fileStem": "icon-assist",
+          "path": "Prydwen/zzz/assets/icons/core-94a5940d48d5.webp",
+          "width": 40,
+          "height": 40
+        }
+      ]
     },
     {
-      "id": "mindscapes-11",
+      "id": "mindscapes-12",
       "level": 2,
       "heading": "Mindscapes",
-      "text": "M1\n\n Mindscape 1",
+      "text": "M1\n Naive Oath\n Mindscape 1\n\n Upon entering the battlefield, Remielle gains 3 special Voidflare. In Investigation Zone mode, this effect can trigger once every 180s . When Remielle triggers Luminize to deal DMG, she ignores 50% of the target's All-Attribute RES.\n When using [Assist: Flower & Feather Dance], she gains 200 Decibels. This effect can trigger once every 18s . While Remielle is in the Phase Flow state, other squad members' Attribute Anomaly DMG increases by 10% .\n\n M2\n Fall Into the Noise\n Mindscape 2\n\n Remielle's [Refringe Coefficient] increases by 20% . When an [Anomaly] character in the squad deals Attribute Anomaly DMG to an enemy affected by [Prismatic], the attack ignores 15% of the target's DEF. This effect persists for an additional 8s after [Prismatic] ends. While Remielle is in the Phase Flow state, the frequency at which she automatically launches attacks to apply [Lumiflux Buildup] to enemies increases.\n\n M3\n The Garden of Diverging Time\n Mindscape 3\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M4\n The Long Goodbye\n Mindscape 4\n\n When Remielle triggers Luminize, the DMG multiplier is increased by an additional 12% . After Remielle enters the battlefield and gains 3 special Voidflare, if all [Voidflare] are consumed, she immediately gains the maximum number of special [Voidflare] again. This effect is removed after triggering once or when Remielle enters the Phase Flow state.\n\n M5\n To Drink Forgetfulness\n Mindscape 5\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M6\n Lone Feather's Endless Flight\n Mindscape 6\n\n When Remielle uses [Basic Attack: Rainbow's End] or [Basic Attack: Fleeting Grace], Luminize is triggered twice. If the 4th hit of her [Basic Attack] lands, Remielle gains 3 special Voidflare after the move ends. Special [Voidflare] gained this way deal DMG equal to 25% of the special [Voidflare] gained upon entering the battlefield.",
       "assets": []
     },
     {
-      "id": "stats-level-60-12",
+      "id": "stats-level-60-13",
       "level": 2,
       "heading": "Stats (Level 60)",
-      "text": "Remielle stats aren't available yet. They will be added soon!",
+      "text": "Remielle Stats at level 60 (including Core passive bonuses).",
       "assets": []
     },
     {
-      "id": "voice-actors-13",
+      "id": "voice-actors-14",
       "level": 2,
       "heading": "Voice Actors",
       "text": "ENG\n Amber Lee Connors\n\n JPN\n Onishi Saori\n\n CN\n -\n\n KR\n -",
       "assets": []
     },
     {
-      "id": "gallery-14",
+      "id": "gallery-15",
       "level": 2,
       "heading": "Gallery",
       "text": "Remielle images aren't available yet. They will be added soon!\n\n Review",
       "assets": []
     },
     {
-      "id": "ratings-15",
+      "id": "ratings-16",
       "level": 2,
       "heading": "Ratings",
-      "text": "This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Remielle ratings aren't available yet. They will be added as soon as it is possible.",
+      "text": "This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.",
       "assets": []
     },
     {
-      "id": "pros-cons-16",
+      "id": "pros-cons-17",
       "level": 2,
       "heading": "Pros & Cons",
       "text": "Remielle pros & cons aren't available yet. They will be added when the character is released.",
       "assets": []
     },
     {
-      "id": "review-17",
+      "id": "review-18",
       "level": 2,
       "heading": "Review",
       "text": "Remielle review isn't available yet. It will be added soon!\n\n Build and teams",
       "assets": []
     },
     {
-      "id": "best-build-18",
+      "id": "collaboration-disclaimer-19",
       "level": 2,
-      "heading": "Best Build",
-      "text": "Remielle build information aren't available yet. They will be added soon.",
+      "heading": "Collaboration Disclaimer",
+      "text": "For ZZZ calculations we worked alongside Rivyn Elowen . Any other content such as comments on W-Engines, Disks, etc are our own.",
       "assets": []
     },
     {
-      "id": "skill-priority-19",
+      "id": "best-w-engines-20",
+      "level": 2,
+      "heading": "Best W-Engines",
+      "text": "The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n Remielle best sets are currently missing. We will add them as soon as possible!",
+      "assets": []
+    },
+    {
+      "id": "best-disk-drives-sets-21",
+      "level": 2,
+      "heading": "Best Disk Drives Sets",
+      "text": "Remielle best sets are currently missing. We will add them as soon as possible!",
+      "assets": []
+    },
+    {
+      "id": "best-disk-drives-stats-22",
+      "level": 2,
+      "heading": "Best Disk Drives Stats",
+      "text": "Remielle best sets are currently missing. We will add them as soon as possible!",
+      "assets": []
+    },
+    {
+      "id": "best-endgame-stats-level-60-23",
+      "level": 2,
+      "heading": "Best Endgame Stats (Level 60)",
+      "text": "Remielle endgame stats aren't available yet. They will be added soon.",
+      "assets": []
+    },
+    {
+      "id": "skill-priority-24",
       "level": 2,
       "heading": "Skill priority",
       "text": "Remielle skill priority information aren't available yet. They will be added soon.",
       "assets": []
     },
     {
-      "id": "video-guides-20",
+      "id": "video-guides-25",
       "level": 2,
       "heading": "Video guides",
       "text": "Teams & Synergy",
       "assets": []
     },
     {
-      "id": "synergy-21",
+      "id": "synergy-26",
       "level": 2,
       "heading": "Synergy",
       "text": "Below we list only the most important synergies for Remielle . The character can work with others if you know what to do and how to use them.\n\n Remielle synergy information aren't available yet. They will be added soon.",
       "assets": []
     },
     {
-      "id": "teams-shiyu-defense-22",
+      "id": "teams-shiyu-defense-27",
       "level": 2,
       "heading": "Teams (Shiyu Defense)",
       "text": "This section lists most popular teams featuring Remielle in the current phase of Shiyu Defense.\n There are no teams featuring Remielle who have cleared Shiyu Defense in the current cycle.",
       "assets": []
     },
     {
-      "id": "teams-deadly-assault-23",
+      "id": "teams-deadly-assault-28",
       "level": 2,
       "heading": "Teams (Deadly Assault)",
       "text": "This section lists most popular teams featuring Remielle in the current phase of Deadly Assault.\n There are no teams featuring Remielle who have cleared Deadly Assault in the current cycle.",
@@ -225,6 +440,46 @@
     }
   ],
   "recommendations": {
+    "best-w-engines": {
+      "label": "Best W-Engines",
+      "sections": [
+        {
+          "heading": "Best W-Engines",
+          "text": "The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n Remielle best sets are currently missing. We will add them as soon as possible!",
+          "assets": []
+        }
+      ]
+    },
+    "best-disk-drives-sets": {
+      "label": "Best Disk Drives Sets",
+      "sections": [
+        {
+          "heading": "Best Disk Drives Sets",
+          "text": "Remielle best sets are currently missing. We will add them as soon as possible!",
+          "assets": []
+        }
+      ]
+    },
+    "best-disk-drives-stats": {
+      "label": "Best Disk Drives Stats",
+      "sections": [
+        {
+          "heading": "Best Disk Drives Stats",
+          "text": "Remielle best sets are currently missing. We will add them as soon as possible!",
+          "assets": []
+        }
+      ]
+    },
+    "best-endgame-stats": {
+      "label": "Best Endgame Stats",
+      "sections": [
+        {
+          "heading": "Best Endgame Stats (Level 60)",
+          "text": "Remielle endgame stats aren't available yet. They will be added soon.",
+          "assets": []
+        }
+      ]
+    },
     "skill-priority": {
       "label": "Skill priority",
       "sections": [
@@ -262,5 +517,5 @@
     }
   },
   "tables": [],
-  "text": "Remielle Best Build Guide | Zenless Zone Zero\n \n\n Zenless Zone Zero\n Home Database Agents Bangboo W-Engines Disk Drives Banners\n Tier Lists Tier List\n Endgame Shiyu Defense Deadly Assault\n Resources Guides News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Zenless Zone Zero\n /\n Characters\n /\n Remielle\n Remielle Best Build Guide\n Last updated: 24/July/2026\n\n Introduction\n Best guide and build for Remielle from ZZZ (Zenless Zone Zero). Remielle is an rank character with the Lumiflux attribute who belongs to the Anomaly Specialty and who is part of the Unknown Faction faction.\n\n To learn more about Remielle check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n Remielle has at least one video guide available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Kit\n\n Review\n\n Build\n\n SD/DA Analytics\n\n Teams & Synergy\n\n Calculations\n\n To learn more about Remielle check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile\n\n Core skills\n Remielle core skills aren't available yet. They will be added once more information about the character are released.\n\n Skills\n Remielle skills aren't available yet. They will be added soon!\n\n Mindscapes\n M1\n\n Mindscape 1\n\n Stats (Level 60)\n Remielle stats aren't available yet. They will be added soon!\n\n Voice Actors\n ENG\n Amber Lee Connors\n\n JPN\n Onishi Saori\n\n CN\n -\n\n KR\n -\n\n Gallery\n Remielle images aren't available yet. They will be added soon!\n\n Review\n\n Ratings\n This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Remielle ratings aren't available yet. They will be added as soon as it is possible.\n\n Pros & Cons\n Remielle pros & cons aren't available yet. They will be added when the character is released.\n\n Review\n Remielle review isn't available yet. It will be added soon!\n\n Build and teams\n\n Best Build\n Remielle build information aren't available yet. They will be added soon.\n\n Skill priority\n Remielle skill priority information aren't available yet. They will be added soon.\n\n Video guides\n\n Teams & Synergy\n\n Synergy\n Below we list only the most important synergies for Remielle . The character can work with others if you know what to do and how to use them.\n\n Remielle synergy information aren't available yet. They will be added soon.\n\n Teams (Shiyu Defense)\n This section lists most popular teams featuring Remielle in the current phase of Shiyu Defense.\n There are no teams featuring Remielle who have cleared Shiyu Defense in the current cycle.\n\n Teams (Deadly Assault)\n This section lists most popular teams featuring Remielle in the current phase of Deadly Assault.\n There are no teams featuring Remielle who have cleared Deadly Assault in the current cycle."
+  "text": "Remielle Best Build Guide | Zenless Zone Zero\n \n\n Zenless Zone Zero\n Home Database Agents Bangboo W-Engines Disk Drives Banners\n Tier Lists Tier List\n Endgame Shiyu Defense Deadly Assault\n Resources Guides News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Zenless Zone Zero\n /\n Characters\n /\n Remielle\n Remielle Best Build Guide\n Last updated: 28/July/2026\n\n Introduction\n Best guide and build for Remielle from ZZZ (Zenless Zone Zero). Remielle is an rank character with the Lumiflux attribute who belongs to the Anomaly Specialty and who is part of the Unknown Faction faction.\n\n To learn more about Remielle check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n Remielle has at least one video guide available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch -\n\n Last build update\n Patch -\n\n Last teams update\n Patch -\n\n Last profile update*\n 28/July/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.\n\n Kit\n\n Review\n\n Build\n\n SD/DA Analytics\n\n Teams & Synergy\n\n Calculations\n\n To learn more about Remielle check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile\n\n Core skills\n\n Core Passive Temporal Patterns = Stilled Colors\n\n Lv. 1\n\n Remielle's [Refringe Coefficient] is equal to 0.02% of her Anomaly Proficiency. If there are 3 [Anomaly] characters in the squad, her [Refringe Coefficient] increases by an additional 10% .\n When Remielle triggers a Refringe reaction via a squad member, she generates [Voidflare] based on the Anomaly Effect Strength after it has been enhanced by [Refringe] from the Attribute Anomaly effect. Up to the 3 most recently generated [Voidflare] can be stored.\n If [Assist: Flower & Feather Dance]/[Ultimate: Dazzling Curtain Call]/[Basic Attack: Rainbow's End]/[Basic Attack: Fleeting Grace] hits a target, [Luminize] is triggered after the skill ends:\n Based on the total [Anomaly Effect Strength] of all stored [Voidflare], this deals Attribute Anomaly DMG to the enemy using the corresponding skill's DMG multiplier. This multiplier is further increased by 0.1% of Remielle's Anomaly Proficiency.\n\n All stored [Voidflare] are cleared when Remielle enters the Phase Flow state or after using [Basic Attack: Rainbow's End] or [Basic Attack: Fleeting Grace].\n\n BASE ATK : 0\n\n Additional Ability Invitation to Bloom\n\n When another character in your squad is an [Anomaly] character or shares the same faction:\n When there are 1/2/3 [Anomaly] characters in the squad, upon entering the battlefield, all squad members gain an ATK increase equal to 6%/12%/40% of Remielle's initial ATK, up to a maximum of 1,600 ATK. Additionally, while in the Phase Flow state, Remielle's Daze dealt increases by 6%/12%/35% .\n When Remielle applies [Lumiflux Buildup] to an enemy, they also inflict [Prismatic]: When all squad members attack an enemy affected by [Prismatic], Anomaly Buildup Rate increases by 15% . [Prismatic] is removed when the enemy no longer has [Lumiflux Buildup]. After [Prismatic] is removed, the Anomaly Buildup Rate increase persists for an additional 8s .\n\n Skills\n Basic\n Dodge\n Assist\n Special\n Chain\n\n Basic Attack: Leap\n\n Press to activate:\nPerform up to four attacks ahead, dealing Lumiflux DMG.\nIf the Basic Attack hits the target, gain Floating Radiance after the skill ends.\nAfter the 4th hit of the Basic Attack ends, 1 Lumiflux Buildup is applied to enemies hit.\n Multipliers\n\n Basic Attack: Solo Dance\n\n Hold to activate:\nPerform a slash in an area ahead, dealing Lumiflux DMG.\nIf it hits a target, gain Floating Radiance after the skill ends.\n Multipliers\n\n Basic Attack: Rainbow's End\n\n When Remielle has Voidflare, hold to activate:\nUnleash a powerful large area attack ahead, dealing Lumiflux DMG.\nGrants a large amount of [Floating Radiance] when the skill ends.\nIf the attack hits a target, triggers the Luminize effect after the skill ends with a X% multiplier.\nConsumes all stored [Voidflare] upon use.\n Multipliers\n\n Basic Attack: Fleeting Grace\n\n When Remielle has stored Voidflare and is in the Luminous Reflection state, hold to activate:\nUnleash a powerful large area attack ahead, dealing Lumiflux DMG.\nGrants a large amount of Floating Radiance when the skill ends.\nIf the attack hits a target, it triggers the Luminize effect after the skill ends with a multiplier of X%.\nConsumes all stored Voidflare upon use.\n Multipliers\n\n Dodge: Retreating Light\n\n Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill.\n\n Dash Attack: Keen Light\n\n Press during a dodge to activate:\nLaunch a quick attack ahead, dealing Lumiflux DMG.\n Multipliers\n\n Dodge Counter: Mirrored Shadow\n\n Press during a Perfect Dodge to activate:\nUnleash a powerful slash at the target, dealing Lumiflux DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Special Attack: Sliver of Light\n\n Press to activate:\nLaunch a ranged attack ahead, dealing Lumiflux DMG.\n Multipliers\n\n EX Special Attack: Ode to Dawn\n\n Upon entering the battlefield, if the character has less than 60 Energy, recover Energy to 60. In Investigation Zone Mode, this effect can trigger once every 180s;\nWith enough Energy, press to activate:\nUnleash a powerful attack across a large area ahead, dealing Lumiflux DMG;\nAfter the skill ends, apply 2 [Lumiflux Buildup] to all enemies hit;\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Special Attack: Ode to Dawn - Radiant Turn\n\n When Remielle is in-combat and [Floating Radiance] reaches its maximum of 120, hold after a [Special Attack] or [EX Special Attack] to enter [Stance Shift]. Switching Characters while in [Stance Shift] enters the [Phase Flow] state:\nWhile in the [Phase Flow] state, Remielle acts autonomously to assist in combat. Some attacks also apply [Lumiflux Buildup] to the target. [Floating Radiance] is consumed over time while in the [Phase Flow] state. When [Floating Radiance] is depleted or Remielle leaves the in-combat state, she exits the [Phase Flow] state. Before exiting the [Phase Flow] state, Remielle cannot be switched in except via a [Chain Attack];\nIf Remielle triggers 3 Refringe reactions while in the [Phase Flow] state, or has at least 1 stored Voidflare when [Floating Radiance] is depleted, [Assist: Flower & Feather Dance] is activated, unlocking normal switch-ins and automatically triggering [Assist: Flower & Feather Dance] on Remielle's next normal switch-in;\nUpon entering the [Phase Flow] state, all squad members' DMG dealt is increased by X% for 60s. Repeated triggers reset the duration;\nIf Remielle uses a [Special Attack] or [EX Special Attack] that hits a Stunned enemy and [Floating Radiance] has reached its maximum of 120, switching Characters during the [Special Attack] or [EX Special Attack] also enters the [Phase Flow] state;\nIf no character is switched in after entering [Stance Shift], Remielle uses a downward attack to return to the ground.\n Multipliers\n\n Chain Attack: Interwoven Dance Steps\n\n When a Chain Attack is triggered, select the character to activate:\nLaunch multiple attacks ahead in a large area, dealing Lumiflux DMG.\nEnter the Luminous Reflection state upon activation. The next Basic Attack: Rainbow's End is upgraded to Basic Attack: Fleeting Grace.\nAfter the skill ends, apply 2 Lumiflux Buildup to enemies hit.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Ultimate: Dazzling Curtain Call\n\n When Decibel Rating is at Maximum, press to activate:\nLaunch a attack across a large area in front, dealing Lumiflux DMG.\nIf the skill hits, the Luminize effect can be triggered after the skill ends with a multiplier of X%.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Quick Assist: Featherglow Rebirth\n\n When the active character is launched, press to activate:\nUnleash a slash at the target, dealing Lumiflux DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Defensive Assist: Fleeting Light\n\n When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Assist Follow-Up: Awakening Glimmer\n\n Press after a Defensive Assist to activate:\nUnleashes a series of slashes against the target, dealing Lumiflux DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Mindscapes\n M1\n Naive Oath\n Mindscape 1\n\n Upon entering the battlefield, Remielle gains 3 special Voidflare. In Investigation Zone mode, this effect can trigger once every 180s . When Remielle triggers Luminize to deal DMG, she ignores 50% of the target's All-Attribute RES.\n When using [Assist: Flower & Feather Dance], she gains 200 Decibels. This effect can trigger once every 18s . While Remielle is in the Phase Flow state, other squad members' Attribute Anomaly DMG increases by 10% .\n\n M2\n Fall Into the Noise\n Mindscape 2\n\n Remielle's [Refringe Coefficient] increases by 20% . When an [Anomaly] character in the squad deals Attribute Anomaly DMG to an enemy affected by [Prismatic], the attack ignores 15% of the target's DEF. This effect persists for an additional 8s after [Prismatic] ends. While Remielle is in the Phase Flow state, the frequency at which she automatically launches attacks to apply [Lumiflux Buildup] to enemies increases.\n\n M3\n The Garden of Diverging Time\n Mindscape 3\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M4\n The Long Goodbye\n Mindscape 4\n\n When Remielle triggers Luminize, the DMG multiplier is increased by an additional 12% . After Remielle enters the battlefield and gains 3 special Voidflare, if all [Voidflare] are consumed, she immediately gains the maximum number of special [Voidflare] again. This effect is removed after triggering once or when Remielle enters the Phase Flow state.\n\n M5\n To Drink Forgetfulness\n Mindscape 5\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M6\n Lone Feather's Endless Flight\n Mindscape 6\n\n When Remielle uses [Basic Attack: Rainbow's End] or [Basic Attack: Fleeting Grace], Luminize is triggered twice. If the 4th hit of her [Basic Attack] lands, Remielle gains 3 special Voidflare after the move ends. Special [Voidflare] gained this way deal DMG equal to 25% of the special [Voidflare] gained upon entering the battlefield.\n\n Stats (Level 60)\n Remielle Stats at level 60 (including Core passive bonuses).\n\n Voice Actors\n ENG\n Amber Lee Connors\n\n JPN\n Onishi Saori\n\n CN\n -\n\n KR\n -\n\n Gallery\n Remielle images aren't available yet. They will be added soon!\n\n Review\n\n Ratings\n This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Pros & Cons\n Remielle pros & cons aren't available yet. They will be added when the character is released.\n\n Review\n Remielle review isn't available yet. It will be added soon!\n\n Build and teams\n\n Collaboration Disclaimer\n For ZZZ calculations we worked alongside Rivyn Elowen . Any other content such as comments on W-Engines, Disks, etc are our own.\n\n Best W-Engines\n The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n Remielle best sets are currently missing. We will add them as soon as possible!\n\n Best Disk Drives Sets\n Remielle best sets are currently missing. We will add them as soon as possible!\n\n Best Disk Drives Stats\n Remielle best sets are currently missing. We will add them as soon as possible!\n\n Best Endgame Stats (Level 60)\n Remielle endgame stats aren't available yet. They will be added soon.\n\n Skill priority\n Remielle skill priority information aren't available yet. They will be added soon.\n\n Video guides\n\n Teams & Synergy\n\n Synergy\n Below we list only the most important synergies for Remielle . The character can work with others if you know what to do and how to use them.\n\n Remielle synergy information aren't available yet. They will be added soon.\n\n Teams (Shiyu Defense)\n This section lists most popular teams featuring Remielle in the current phase of Shiyu Defense.\n There are no teams featuring Remielle who have cleared Shiyu Defense in the current cycle.\n\n Teams (Deadly Assault)\n This section lists most popular teams featuring Remielle in the current phase of Deadly Assault.\n There are no teams featuring Remielle who have cleared Deadly Assault in the current cycle."
 }

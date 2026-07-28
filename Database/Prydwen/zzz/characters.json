@@ -1342,11 +1342,9 @@
     "name": "Remielle",
     "slug": "remielle",
     "sourcePath": "/zenless/characters/remielle",
-    "contentStatus": "beta",
-    "statusLabels": [
-      "3.x"
-    ],
-    "updatedText": "24/July/2026",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "28/July/2026",
     "facts": {
       "attribute": "Lumiflux",
       "specialty": "Anomaly",
@@ -1358,11 +1356,15 @@
     },
     "pageFile": "Prydwen/zzz/pages/characters/remielle.json",
     "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
       "skill-priority",
       "synergy",
       "teams"
     ],
-    "assetCount": 3
+    "assetCount": 12
   },
   {
     "id": "rina",

@@ -24,6 +24,7 @@ jobs:
     steps:
       - uses: actions/checkout@v7
         with:
+          ref: main
           lfs: true
 
       - uses: actions/setup-node@v6

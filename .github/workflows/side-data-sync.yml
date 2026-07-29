@@ -25,6 +25,7 @@ jobs:
     steps:
       - uses: actions/checkout@v7
         with:
+          ref: main
           lfs: true
 
       - name: Ensure LFS objects resolved

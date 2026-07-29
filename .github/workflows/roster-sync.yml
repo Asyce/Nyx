@@ -25,6 +25,7 @@ jobs:
     steps:
       - uses: actions/checkout@v7
         with:
+          ref: main
           lfs: true # Database/GameData/*/live/characters.json are LFS-tracked
 
       # actions/checkout's LFS smudge intermittently leaves pointer files behind

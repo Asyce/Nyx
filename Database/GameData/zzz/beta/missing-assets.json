@@ -1,13 +1,5 @@
 [
   {
-    "path": "GameData/zzz/assets/agents/icons/IconRole67.webp",
-    "gamedataAssetPath": "IconRole67.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/agents/role-icons/IconRole67.webp",
-    "gamedataAssetPath": "IconRole67.webp"
-  },
-  {
     "path": "GameData/zzz/assets/monsters/Monster_UVARaven.webp",
     "gamedataAssetPath": "Monster_UVARaven.webp"
   },
@@ -34,6 +26,10 @@
   {
     "path": "GameData/zzz/assets/monsters/Monster_UVARavenPro.webp",
     "gamedataAssetPath": "Monster_UVARavenPro.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/Zenkov_Currency_Season.webp",
+    "gamedataAssetPath": "Zenkov_Currency_Season.webp"
   },
   {
     "path": "GameData/zzz/assets/items/Analeptic.webp",
@@ -92,44 +88,28 @@
     "gamedataAssetPath": "CardDailyUse1651.webp"
   },
   {
-    "path": "GameData/zzz/assets/items/Skin_LucyPrincess.webp",
-    "gamedataAssetPath": "Skin_LucyPrincess.webp"
+    "path": "GameData/zzz/assets/items/PS_PhysicalSKU.webp",
+    "gamedataAssetPath": "PS_PhysicalSKU.webp"
   },
   {
-    "path": "GameData/zzz/assets/items/Skin_RemielleMoonlightWhispers.webp",
-    "gamedataAssetPath": "Skin_RemielleMoonlightWhispers.webp"
+    "path": "GameData/zzz/assets/items/PS_PhysicalSKU_Mark.webp",
+    "gamedataAssetPath": "PS_PhysicalSKU_Mark.webp"
   },
   {
-    "path": "GameData/zzz/assets/items/Skin_RemielleSeashadePasSeul.webp",
-    "gamedataAssetPath": "Skin_RemielleSeashadePasSeul.webp"
+    "path": "GameData/zzz/assets/items/Xbox_PhysicalSKU.webp",
+    "gamedataAssetPath": "Xbox_PhysicalSKU.webp"
   },
   {
-    "path": "GameData/zzz/assets/items/Skin_SigridTraversing.webp",
-    "gamedataAssetPath": "Skin_SigridTraversing.webp"
+    "path": "GameData/zzz/assets/items/Xbox_PhysicalSKU_Mark.webp",
+    "gamedataAssetPath": "Xbox_PhysicalSKU_Mark.webp"
   },
   {
-    "path": "GameData/zzz/assets/items/Callingcard49.webp",
-    "gamedataAssetPath": "Callingcard49.webp"
+    "path": "GameData/zzz/assets/items/ItemProfile2014.webp",
+    "gamedataAssetPath": "ItemProfile2014.webp"
   },
   {
-    "path": "GameData/zzz/assets/items/Callingcard50.webp",
-    "gamedataAssetPath": "Callingcard50.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/items/LiveWallpaper61.webp",
-    "gamedataAssetPath": "LiveWallpaper61.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/items/LiveWallpaper_Remielle_SwimmingSuit.webp",
-    "gamedataAssetPath": "LiveWallpaper_Remielle_SwimmingSuit.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/items/PhotowallDecoration5.webp",
-    "gamedataAssetPath": "PhotowallDecoration5.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/items/AvatarPose01.webp",
-    "gamedataAssetPath": "AvatarPose01.webp"
+    "path": "GameData/zzz/assets/items/DIYBoardDecoration013.webp",
+    "gamedataAssetPath": "DIYBoardDecoration013.webp"
   },
   {
     "path": "GameData/zzz/assets/items/Zenkov_WeaponB_001_Blueprint.webp",
@@ -156,27 +136,35 @@
     "gamedataAssetPath": "Zenkov_WeaponB_006_Blueprint.webp"
   },
   {
-    "path": "GameData/zzz/assets/items/Zenkov_Box_Blueprint.webp",
-    "gamedataAssetPath": "Zenkov_Box_Blueprint.webp"
+    "path": "GameData/zzz/assets/items/Zenkov_Collection_044.webp",
+    "gamedataAssetPath": "Zenkov_Collection_044.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/Zenkov_Collection_043.webp",
+    "gamedataAssetPath": "Zenkov_Collection_043.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/Zenkov_Collection_041.webp",
+    "gamedataAssetPath": "Zenkov_Collection_041.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/Zenkov_Collection_042.webp",
+    "gamedataAssetPath": "Zenkov_Collection_042.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/Zenkov_Collection_045.webp",
+    "gamedataAssetPath": "Zenkov_Collection_045.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/Zenkov_CollectionA_004.webp",
+    "gamedataAssetPath": "Zenkov_CollectionA_004.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/Zenkov_Box_Blueprint_Blueprint.webp",
+    "gamedataAssetPath": "Zenkov_Box_Blueprint_Blueprint.webp"
   },
   {
     "path": "GameData/zzz/assets/items/icon_Wise_Back_WaistOrnament_Default.webp",
     "gamedataAssetPath": "icon_Wise_Back_WaistOrnament_Default.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/items/icon_Wise_Head_Headgear_06.webp",
-    "gamedataAssetPath": "icon_Wise_Head_Headgear_06.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/items/icon_Wise_Head_Glass_06.webp",
-    "gamedataAssetPath": "icon_Wise_Head_Glass_06.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/items/icon_Belle_Head_Headgear_06.webp",
-    "gamedataAssetPath": "icon_Belle_Head_Headgear_06.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/items/icon_Belle_Head_Glass_06.webp",
-    "gamedataAssetPath": "icon_Belle_Head_Glass_06.webp"
   }
 ]

@@ -10,7 +10,7 @@
         "Ether",
         "Large",
         "Boss",
-        ""
+        "MainStoryBoss"
       ],
       "type": "Monster",
       "element": {

@@ -3,30 +3,29 @@
   "game": "zzz",
   "gameName": "Zenless Zone Zero",
   "channel": "live",
-  "version": "3.0",
-  "liveVersion": "3.0",
-  "betaVersion": "3.1.12+17625891",
+  "version": "3.1",
+  "liveVersion": "3.1",
+  "betaVersion": "3.1",
   "availableVersions": [
-    "3.0",
-    "3.1.5+17516165",
-    "3.1.12+17625891"
+    "3.1",
+    "3.2.0+17782873"
   ],
-  "scrapedAt": "2026-07-24T04:31:42.989Z",
+  "scrapedAt": "2026-07-29T10:12:30.930Z",
   "counts": {
-    "agents": 56,
-    "wEngines": 93,
-    "bangboos": 40,
-    "driveDiscs": 28,
-    "monsters": 288,
-    "items": 4957
+    "agents": 58,
+    "wEngines": 95,
+    "bangboos": 42,
+    "driveDiscs": 30,
+    "monsters": 293,
+    "items": 5690
   },
   "sourceCounts": {
-    "agents": 57,
-    "wEngines": 93,
-    "bangboos": 40,
-    "driveDiscs": 28,
-    "monsters": 288,
-    "items": 4957
+    "agents": 58,
+    "wEngines": 95,
+    "bangboos": 42,
+    "driveDiscs": 30,
+    "monsters": 293,
+    "items": 5690
   },
   "newInManifest": {
     "character": [
@@ -648,17 +647,25 @@
     "items": "GameData/zzz/live/items.json",
     "raw": "GameData/zzz/live/raw"
   },
-  "assetsPlanned": 2594,
+  "assetsPlanned": 2981,
+  "betaOmissions": {
+    "count": 0,
+    "records": []
+  },
   "contentStatus": "All records are Live records from the GameData live manifest version.",
   "assets": {
-    "requested": 2594,
-    "downloaded": 0,
-    "cached": 2571,
-    "missing": 23,
+    "requested": 2981,
+    "downloaded": 18,
+    "cached": 2921,
+    "missing": 42,
     "missingAssets": [
       {
         "path": "GameData/zzz/assets/monsters/Monster_UVARaven.webp",
         "gamedataAssetPath": "Monster_UVARaven.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/monsters/Monster_EvolvedBee.webp",
+        "gamedataAssetPath": "Monster_EvolvedBee.webp"
       },
       {
         "path": "GameData/zzz/assets/monsters/Monster_MazingerGoldenBomb.webp",
@@ -679,6 +686,10 @@
       {
         "path": "GameData/zzz/assets/monsters/Monster_UVARavenPro.webp",
         "gamedataAssetPath": "Monster_UVARavenPro.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_Currency_Season.webp",
+        "gamedataAssetPath": "Zenkov_Currency_Season.webp"
       },
       {
         "path": "GameData/zzz/assets/items/Analeptic.webp",
@@ -721,14 +732,6 @@
         "gamedataAssetPath": "HallowBuff02.webp"
       },
       {
-        "path": "GameData/zzz/assets/items/CardDailyUse1601.webp",
-        "gamedataAssetPath": "CardDailyUse1601.webp"
-      },
-      {
-        "path": "GameData/zzz/assets/items/CardDailyUse1611.webp",
-        "gamedataAssetPath": "CardDailyUse1611.webp"
-      },
-      {
         "path": "GameData/zzz/assets/items/CardDailyUse1621.webp",
         "gamedataAssetPath": "CardDailyUse1621.webp"
       },
@@ -743,6 +746,82 @@
       {
         "path": "GameData/zzz/assets/items/CardDailyUse1651.webp",
         "gamedataAssetPath": "CardDailyUse1651.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/PS_PhysicalSKU.webp",
+        "gamedataAssetPath": "PS_PhysicalSKU.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/PS_PhysicalSKU_Mark.webp",
+        "gamedataAssetPath": "PS_PhysicalSKU_Mark.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Xbox_PhysicalSKU.webp",
+        "gamedataAssetPath": "Xbox_PhysicalSKU.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Xbox_PhysicalSKU_Mark.webp",
+        "gamedataAssetPath": "Xbox_PhysicalSKU_Mark.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/ItemProfile2014.webp",
+        "gamedataAssetPath": "ItemProfile2014.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/DIYBoardDecoration013.webp",
+        "gamedataAssetPath": "DIYBoardDecoration013.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_WeaponB_001_Blueprint.webp",
+        "gamedataAssetPath": "Zenkov_WeaponB_001_Blueprint.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_WeaponB_004_Blueprint.webp",
+        "gamedataAssetPath": "Zenkov_WeaponB_004_Blueprint.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_WeaponB_002_Blueprint.webp",
+        "gamedataAssetPath": "Zenkov_WeaponB_002_Blueprint.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_WeaponB_005_Blueprint.webp",
+        "gamedataAssetPath": "Zenkov_WeaponB_005_Blueprint.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_WeaponB_003_Blueprint.webp",
+        "gamedataAssetPath": "Zenkov_WeaponB_003_Blueprint.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_WeaponB_006_Blueprint.webp",
+        "gamedataAssetPath": "Zenkov_WeaponB_006_Blueprint.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_Collection_044.webp",
+        "gamedataAssetPath": "Zenkov_Collection_044.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_Collection_043.webp",
+        "gamedataAssetPath": "Zenkov_Collection_043.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_Collection_041.webp",
+        "gamedataAssetPath": "Zenkov_Collection_041.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_Collection_042.webp",
+        "gamedataAssetPath": "Zenkov_Collection_042.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_Collection_045.webp",
+        "gamedataAssetPath": "Zenkov_Collection_045.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_CollectionA_004.webp",
+        "gamedataAssetPath": "Zenkov_CollectionA_004.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_Box_Blueprint_Blueprint.webp",
+        "gamedataAssetPath": "Zenkov_Box_Blueprint_Blueprint.webp"
       },
       {
         "path": "GameData/zzz/assets/items/icon_Wise_Back_WaistOrnament_Default.webp",

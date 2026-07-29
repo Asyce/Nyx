@@ -4,7 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-07-29T10:03:48.107Z",
+  "generatedAt": "2026-07-29T10:13:37.955Z",
   "codes": {
     "updated": "2026-07-28T18:20:27.309Z",
     "maxAgeDays": 28,
@@ -554,12 +554,12 @@ var NYX_DB = {
           "characters": [
             {
               "name": "Remielle",
-              "icon": "https://static.nanoka.cc/assets/zzz/IconRoleCircle67.webp",
+              "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle67.webp",
               "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect67.webp",
               "iconZoom": true,
-              "art": "https://static.nanoka.cc/assets/zzz/IconRoleCircle67.webp",
+              "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole67.webp",
               "namecard": null,
-              "rarity": 4
+              "rarity": "S"
             }
           ],
           "subBanners": []
@@ -571,12 +571,12 @@ var NYX_DB = {
           "characters": [
             {
               "name": "Sigrid",
-              "icon": "https://static.nanoka.cc/assets/zzz/IconRoleCircle66.webp",
+              "icon": "../../Database/Prydwen/zzz/assets/characters/sigrid-30ecebbe136b.webp",
               "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect66.webp",
               "iconZoom": true,
-              "art": "https://static.nanoka.cc/assets/zzz/IconRoleCircle66.webp",
+              "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole66.webp",
               "namecard": null,
-              "rarity": 4
+              "rarity": "S"
             },
             {
               "name": "Dialyn",
@@ -152298,7 +152298,7 @@ var NYX_DB = {
     "zzz": {
       "name": "Zenless Zone Zero",
       "icon": "../assets/icon/zzzicon.png",
-      "rosterCount": 54,
+      "rosterCount": 56,
       "collections": [
         {
           "key": "w-engines",
@@ -154206,7 +154206,7 @@ var NYX_DB = {
           "key": "bangboos",
           "title": "Bangboo",
           "source": "GameData",
-          "count": 40,
+          "count": 42,
           "items": [
             {
               "id": "zzz-bb-53001",
@@ -155895,6 +155895,64 @@ var NYX_DB = {
                   ]
                 }
               ]
+            },
+            {
+              "id": "zzz-bb-54023",
+              "name": "Ariel",
+              "kind": "bangboo",
+              "art": "../../Database/GameData/zzz/assets/bangboos/BangbooGarageRole48.webp",
+              "fields": {
+                "rarity": "4 \u2605",
+                "codeName": "Ariel"
+              },
+              "text": "You cannot walk alone in the darkness.",
+              "skills": [
+                {
+                  "key": "a",
+                  "name": "Searing Flash",
+                  "type": "Active Skill",
+                  "description": "Flies high into the air, then blinks to the target's vicinity, attacking and pulling in enemies across a large area. After a short time, a Prismatic Cross is generated that deals Ether DMG. Once the pull ends, gain 1/2/3 random buffs based on the number of enemies pulled (the same buff cannot be gained more than once): Buff 1: Restore the Agent's HP. Buff 2: Restore the Agent's Energy. Buff 3: Increase Prismatic Cross DMG.",
+                  "properties": [
+                    "Buff 1: HP Recovery",
+                    "Buff 2: Restore Energy",
+                    "Buff 3: DMG Increase",
+                    "DMG Multiplier",
+                    "Daze Multiplier",
+                    "Cooldown"
+                  ]
+                },
+                {
+                  "key": "b",
+                  "name": "Angel's Protection",
+                  "type": "Additional Ability",
+                  "description": "When Remielle is in the squad: When using an Active Skill, all buffs are guaranteed, and Bangboo Chain Attack DMG increases by 15%.",
+                  "properties": [
+                    "DMG Increase"
+                  ]
+                },
+                {
+                  "key": "c",
+                  "name": "Radiance",
+                  "type": "Bangboo Chain Attack",
+                  "description": "Glides through the air and throws a Dazzling Nebula at the target, dealing massive Ether DMG.",
+                  "properties": [
+                    "DMG Multiplier",
+                    "Daze Multiplier"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zzz-bb-55098",
+              "name": "Eous",
+              "kind": "bangboo",
+              "art": null,
+              "fields": {
+                "rarity": "3 \u2605",
+                "codeName": "Eous"
+              },
+              "text": "Eous",
+              "skills": []
             }
           ]
         }
@@ -156030,12 +156088,12 @@ var NYX_DB = {
           "characters": [
             {
               "name": "Remielle",
-              "icon": "https://static.nanoka.cc/assets/zzz/IconRoleCircle67.webp",
+              "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle67.webp",
               "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect67.webp",
               "iconZoom": true,
-              "art": "https://static.nanoka.cc/assets/zzz/IconRoleCircle67.webp",
+              "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole67.webp",
               "namecard": null,
-              "rarity": 4
+              "rarity": "S"
             }
           ],
           "subBanners": []
@@ -156047,12 +156105,12 @@ var NYX_DB = {
           "characters": [
             {
               "name": "Sigrid",
-              "icon": "https://static.nanoka.cc/assets/zzz/IconRoleCircle66.webp",
+              "icon": "../../Database/Prydwen/zzz/assets/characters/sigrid-30ecebbe136b.webp",
               "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect66.webp",
               "iconZoom": true,
-              "art": "https://static.nanoka.cc/assets/zzz/IconRoleCircle66.webp",
+              "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole66.webp",
               "namecard": null,
-              "rarity": 4
+              "rarity": "S"
             },
             {
               "name": "Dialyn",
@@ -156088,6 +156146,22 @@ var NYX_DB = {
       },
       "roster": [
         {
+          "id": "zzz-remielle",
+          "name": "Remielle",
+          "aliases": [],
+          "rarity": "S",
+          "element": "Lumiflux",
+          "role": "Anomaly",
+          "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle67.webp",
+          "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole67.webp",
+          "facts": {
+            "fullName": "Remielle Dan",
+            "faction": "Covenant of Dayat",
+            "birthday": "March 14"
+          },
+          "forms": []
+        },
+        {
           "id": "zzz-lycaon",
           "name": "Lycaon",
           "aliases": [],
@@ -156117,7 +156191,7 @@ var NYX_DB = {
           "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole65.webp",
           "facts": {
             "fullName": "Norma Hollowell",
-            "faction": "Roscaelifer External Strategy Department",
+            "faction": "Roscaelifer",
             "birthday": "July 26",
             "title": "En-Nah Time"
           },
@@ -156149,7 +156223,7 @@ var NYX_DB = {
           "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole64.webp",
           "facts": {
             "fullName": "Velina Airgid",
-            "faction": "Roscaelifer External Strategy Department",
+            "faction": "Roscaelifer",
             "birthday": "September 22",
             "title": "Beyond Etiquette"
           },
@@ -156242,6 +156316,22 @@ var NYX_DB = {
             "faction": "Mockingbird",
             "birthday": "April 10",
             "title": "Love Like a Bouquet"
+          },
+          "forms": []
+        },
+        {
+          "id": "zzz-sigrid",
+          "name": "Sigrid",
+          "aliases": [],
+          "rarity": "S",
+          "element": "Ice",
+          "role": "Attack",
+          "icon": "../../Database/Prydwen/zzz/assets/characters/sigrid-30ecebbe136b.webp",
+          "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole66.webp",
+          "facts": {
+            "fullName": "Sigrid de L'Azur",
+            "faction": "Roscaelifer",
+            "birthday": "April 23"
           },
           "forms": []
         },

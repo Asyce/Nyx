@@ -23,8 +23,14 @@
     "full_name": "Piper",
     "gender": "Female",
     "icon_path": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle28.png",
+    "inter_knot_icon": "UI/Sprite/A1DynamicLoad/InterKnot/UnPacker/IconInterknotAvatar/IconInterKnotRole0028.png",
     "impression_f": "Sometimes Piper says \"lil ol' me\" instead of \"I\"... Is she trying to be funny...? Or maybe she's shy!",
     "impression_m": "I think it's probably just a catchphrase.\nBy the way, that last part... Is Fairy trying to complain about us...?",
+    "impressions": [
+      "Impressions of Piper:\n · Is her personality like a middle-aged man cause she drives a truck? Or does she drive a truck because her personality is like a middle-aged man?",
+      " · Piper seems to be really lucky... Maybe it'll rub off if we hang out with her more.",
+      " · Someone who says that people have to look forward must have some reason they're unwilling to look back."
+    ],
     "profile_desc": "Piper is a truck driver for the Sons of Calydon. Apart from driving, she's also responsible for vehicle maintenance and other related jobs.\nHer tiny stature, cute voice (though she always seems half-asleep when not driving), and adorably harmless appearance (though she's a shut-in who can't be bothered to take care of her own appearance) make it hard to imagine that she would have such a crazy driving style.\nUsually, by the time she drawls out, \"Hold~ on~ tight~,\" the truck is already barreling down the road.\nRumor has it, Piper is a driver who doesn't need brakes. Though riding with her is a terrifying experience, she will always get you where you need to go safely, and in the shortest time possible. Of course, \"safely\" doesn't include any trauma that may be induced.\n\nPiper has many hobbies that don't seem to match her age, such as reading newspapers, buying lottery tickets, and collecting car magazines.\nPiper's biggest wish is to live each day slowly and leisurely.\nNote: Please keep in mind, Master, that this is also my wish.",
     "role_icon": "IconRole/UnPacker/IconRole28",
     "stature": "151",
@@ -1750,7 +1756,7 @@
         ],
         "desc": [
           "When Piper's <color=#FFFFFF>EX Special Attack: Engine Spin</color> or <color=#FFFFFF>Ultimate</color> hits an enemy, she gains 1 stack of <color=#FFFFFF>Power</color>, up to a maximum of 20 stacks, lasting for 12s. Repeated triggers reset the duration. For every stack of <color=#FFFFFF>Power</color>, Piper's <color=#F0D12B>Physical Anomaly Buildup Rate</color> increases by <color=#2BAD00>2%</color>.",
-          "When another character in your squad shares the same Attribute or Faction:\nWhen Piper has 20 or more stacks of <color=#FFFFFF>Power</color>, all squad members' DMG is increased by 18%."
+          "When another character in your squad is an <color=#FFFFFF>Anomaly</color> character, or shares the same Attribute or Faction:\nWhen Piper has 20 or more stacks of <color=#FFFFFF>Power</color>, all squad members' DMG is increased by 18%."
         ],
         "extra_property": {},
         "potential": []
@@ -1764,7 +1770,7 @@
         ],
         "desc": [
           "When Piper's <color=#FFFFFF>EX Special Attack: Engine Spin</color> or <color=#FFFFFF>Ultimate</color> hits an enemy, she gains 1 stack of <color=#FFFFFF>Power</color>, up to a maximum of 20 stacks, lasting for 12s. Repeated triggers reset the duration. For every stack of <color=#FFFFFF>Power</color>, Piper's <color=#F0D12B>Physical Anomaly Buildup Rate</color> increases by <color=#2BAD00>2.3%</color>.",
-          "When another character in your squad shares the same Attribute or Faction:\nWhen Piper has 20 or more stacks of <color=#FFFFFF>Power</color>, all squad members' DMG is increased by 18%."
+          "When another character in your squad is an <color=#FFFFFF>Anomaly</color> character, or shares the same Attribute or Faction:\nWhen Piper has 20 or more stacks of <color=#FFFFFF>Power</color>, all squad members' DMG is increased by 18%."
         ],
         "extra_property": {},
         "potential": []
@@ -1778,7 +1784,7 @@
         ],
         "desc": [
           "When Piper's <color=#FFFFFF>EX Special Attack: Engine Spin</color> or <color=#FFFFFF>Ultimate</color> hits an enemy, she gains 1 stack of <color=#FFFFFF>Power</color>, up to a maximum of 20 stacks, lasting for 12s. Repeated triggers reset the duration. For every stack of <color=#FFFFFF>Power</color>, Piper's <color=#F0D12B>Physical Anomaly Buildup Rate</color> increases by <color=#2BAD00>2.6%</color>.",
-          "When another character in your squad shares the same Attribute or Faction:\nWhen Piper has 20 or more stacks of <color=#FFFFFF>Power</color>, all squad members' DMG is increased by 18%."
+          "When another character in your squad is an <color=#FFFFFF>Anomaly</color> character, or shares the same Attribute or Faction:\nWhen Piper has 20 or more stacks of <color=#FFFFFF>Power</color>, all squad members' DMG is increased by 18%."
         ],
         "extra_property": {},
         "potential": []
@@ -1792,7 +1798,7 @@
         ],
         "desc": [
           "When Piper's <color=#FFFFFF>EX Special Attack: Engine Spin</color> or <color=#FFFFFF>Ultimate</color> hits an enemy, she gains 1 stack of <color=#FFFFFF>Power</color>, up to a maximum of 20 stacks, lasting for 12s. Repeated triggers reset the duration. For every stack of <color=#FFFFFF>Power</color>, Piper's <color=#F0D12B>Physical Anomaly Buildup Rate</color> increases by <color=#2BAD00>3%</color>.",
-          "When another character in your squad shares the same Attribute or Faction:\nWhen Piper has 20 or more stacks of <color=#FFFFFF>Power</color>, all squad members' DMG is increased by 18%."
+          "When another character in your squad is an <color=#FFFFFF>Anomaly</color> character, or shares the same Attribute or Faction:\nWhen Piper has 20 or more stacks of <color=#FFFFFF>Power</color>, all squad members' DMG is increased by 18%."
         ],
         "extra_property": {},
         "potential": []
@@ -1806,7 +1812,7 @@
         ],
         "desc": [
           "When Piper's <color=#FFFFFF>EX Special Attack: Engine Spin</color> or <color=#FFFFFF>Ultimate</color> hits an enemy, she gains 1 stack of <color=#FFFFFF>Power</color>, up to a maximum of 20 stacks, lasting for 12s. Repeated triggers reset the duration. For every stack of <color=#FFFFFF>Power</color>, Piper's <color=#F0D12B>Physical Anomaly Buildup Rate</color> increases by <color=#2BAD00>3.3%</color>.",
-          "When another character in your squad shares the same Attribute or Faction:\nWhen Piper has 20 or more stacks of <color=#FFFFFF>Power</color>, all squad members' DMG is increased by 18%."
+          "When another character in your squad is an <color=#FFFFFF>Anomaly</color> character, or shares the same Attribute or Faction:\nWhen Piper has 20 or more stacks of <color=#FFFFFF>Power</color>, all squad members' DMG is increased by 18%."
         ],
         "extra_property": {},
         "potential": []
@@ -1820,7 +1826,7 @@
         ],
         "desc": [
           "When Piper's <color=#FFFFFF>EX Special Attack: Engine Spin</color> or <color=#FFFFFF>Ultimate</color> hits an enemy, she gains 1 stack of <color=#FFFFFF>Power</color>, up to a maximum of 20 stacks, lasting for 12s. Repeated triggers reset the duration. For every stack of <color=#FFFFFF>Power</color>, Piper's <color=#F0D12B>Physical Anomaly Buildup Rate</color> increases by <color=#2BAD00>3.6%</color>.",
-          "When another character in your squad shares the same Attribute or Faction:\nWhen Piper has 20 or more stacks of <color=#FFFFFF>Power</color>, all squad members' DMG is increased by 18%."
+          "When another character in your squad is an <color=#FFFFFF>Anomaly</color> character, or shares the same Attribute or Faction:\nWhen Piper has 20 or more stacks of <color=#FFFFFF>Power</color>, all squad members' DMG is increased by 18%."
         ],
         "extra_property": {},
         "potential": []
@@ -1834,7 +1840,7 @@
         ],
         "desc": [
           "When Piper's <color=#FFFFFF>EX Special Attack: Engine Spin</color> or <color=#FFFFFF>Ultimate</color> hits an enemy, she gains 1 stack of <color=#FFFFFF>Power</color>, up to a maximum of 20 stacks, lasting for 12s. Repeated triggers reset the duration. For every stack of <color=#FFFFFF>Power</color>, Piper's <color=#F0D12B>Physical Anomaly Buildup Rate</color> increases by <color=#2BAD00>4%</color>.",
-          "When another character in your squad shares the same Attribute or Faction:\nWhen Piper has 20 or more stacks of <color=#FFFFFF>Power</color>, all squad members' DMG is increased by 18%."
+          "When another character in your squad is an <color=#FFFFFF>Anomaly</color> character, or shares the same Attribute or Faction:\nWhen Piper has 20 or more stacks of <color=#FFFFFF>Power</color>, all squad members' DMG is increased by 18%."
         ],
         "extra_property": {},
         "potential": []
@@ -1911,6 +1917,10 @@
     "slot4": 31300,
     "slot2": 32600,
     "slot_sub": 31600,
+    "part_sub_list": [
+      31203,
+      12102
+    ],
     "part4": {
       "prop": 31203,
       "name": "Anomaly Proficiency",

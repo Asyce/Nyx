@@ -18,7 +18,9 @@
     "15": "Phaethon"
   },
   "gender": 1,
-  "partner_info": {},
+  "partner_info": {
+    "inter_knot_icon": "UI/Sprite/A1DynamicLoad/InterKnot/UnPacker/IconInterknotAvatar/IconInterKnotRole0063.png"
+  },
   "skin": {
     "3115510": {
       "name": "Pyrois: Dawn's Guardian",
@@ -2136,6 +2138,11 @@
     "slot4": 34000,
     "slot2": 31000,
     "slot_sub": 32700,
+    "part_sub_list": [
+      20103,
+      21103,
+      12102
+    ],
     "part4": {
       "prop": 20103,
       "name": "CRIT Rate",
@@ -2163,5 +2170,6 @@
   },
   "strategy": {},
   "potential": [],
-  "potential_detail": {}
+  "potential_detail": {},
+  "live2_d": "UISpine_Pyrois"
 }

@@ -356,8 +356,8 @@
         "image": "IconRole27"
       },
       "3111511": {
-        "name": "...",
-        "desc": "...",
+        "name": "Lucy: Princess on Holiday",
+        "desc": "A baseball bat obviously has no place in beach volleyball, but it can ensure no one disturbs the princess of the wildlands' holiday fun. Grassy, Woody, Bricky — time to enter vacation combat mode!",
         "image": "IconRole27_01"
       }
     },
@@ -1401,33 +1401,33 @@
     "en": "Remielle",
     "skin": {
       "3115810": {
-        "name": "...",
-        "desc": "...",
+        "name": "Remielle: Feathered Murmurs",
+        "desc": "An angel of old fell to the mortal world, their feathers drifting down as they sank into silent slumber.\nAwaken from the pale wasteland, beyond the edge of all sound, and begin the journey anew.",
         "image": "IconRole67"
       },
       "3115811": {
-        "name": "...",
-        "desc": "...",
+        "name": "Remielle: Moonlight Whispers",
+        "desc": "Since the sun has never shown mercy, let us embrace the fall alongside the moonlit night.\nYou say it's difficult to differentiate between jokes and deception?\nThen let's have another round of our Q&A game, my dear partner in crime.",
         "image": "IconRole67_02"
       },
       "3115812": {
-        "name": "...",
-        "desc": "...",
+        "name": "Remielle: Seashade Pas Seul",
+        "desc": "This was originally a solo dance, yet a ray of light has illuminated the secrecy and solitude shrouded in darkness. Now, would you care to join me for a pas de deux, my partner in crime?",
         "image": "IconRole67_01"
       },
       "3115813": {
-        "name": "...",
-        "desc": "...",
+        "name": "Remielle: Moonlight Whispers (Veil)",
+        "desc": "Since the sun has never shown mercy, let us embrace the fall alongside the moonlit night.\nYou say it's difficult to differentiate between jokes and deception?\nThen let's have another round of our Q&A game, my dear partner in crime.",
         "image": "IconRole67_03"
       }
     },
-    "desc": "...",
+    "desc": "Remielle Dan, one of the first-generation Void Hunters, was formerly a Lieutenant Colonel in the Guard of Staves and currently a member of the secret organization known as the Covenant of Dayat.\nRecords describe her as a prodigy from childhood, capable of rapidly acquiring knowledge and mastering skills in nearly any discipline.\nShe was selected to join the Guard of Staves at a remarkably young age, was promoted directly to Lieutenant Colonel, and inherited the Void Hunter weapon, \"Thaumiel.\" Fighting alongside Colonel Vike and the leader of the Falkenhayn Mercenary Troupe, she helped drive back the Dark Wall, rose to fame through that decisive battle, and was formally awarded the title of Void Hunter.\nDuring the classified operation later known as the Day of Silence, Remielle and Colonel Vike were both believed to have been killed in action following an unexpected incident. Yet as she's still alive, then the truth must be something else entirely.\nRemielle comes and goes without a trace, yet always seems to appear at the most unexpected, pivotal moments, steering events in a new direction.\nAround others, Remielle always wears a sweet, effortless smile. Calm under any circumstances and almost disarmingly friendly, she rarely gives people a reason to raise their guard.\nShe excels at closing the distance with lighthearted banter, yet instinctively maintains just the right amount of distance, making her difficult to read.\nNote: Remielle has a habit of playfully teasing those around her. As for you, you seem to receive a particularly generous share of that \"special treatment.\"",
     "ko": "레미엘",
     "zh": "蕾米埃尔",
     "ja": "レミエール"
   },
   "1591": {
-    "code": "Avatar_Female_Size03_Sigrid_En",
+    "code": "Sigrid",
     "rank": 4,
     "type": 1,
     "element": 202,
@@ -1438,17 +1438,17 @@
     "en": "Sigrid",
     "skin": {
       "3115910": {
-        "name": "...",
-        "desc": "...",
+        "name": "Sigrid: Legend of the Sky Island",
+        "desc": "The standard attire of the Airspace Patrol Department's Deputy Administrative Director. It serves as both a symbol of her authority over the department and an iconic figure immortalized in countless stories.",
         "image": "IconRole66"
       },
       "3115911": {
-        "name": "...",
-        "desc": "...",
+        "name": "Sigrid: Majestic Wavechaser",
+        "desc": "A knight accustomed to galloping through the skies must now face a new challenge from the waves and the sun!",
         "image": "IconRole66_01"
       }
     },
-    "desc": "...",
+    "desc": "Sigrid de L'Azur, the current Deputy Administrative Director of the Airspace Patrol Department, trusted adjutant to Lindverne Sunbringer, and heir apparent to House de L'Azur, one of Roscaelifer's most prestigious noble families.\n\nLike all those legendary figures, Sigrid has a long, long string of titles attached to her name. Yet even now, after serving for years as the Airspace Patrol Department's Deputy Administrative Director and earning top annual performance honors time and again, she still finds herself wondering whether she's truly worthy of the legendary hero \"Sigrid\" spoken of throughout the streets of Roscaelifer.\n\nYou can't exactly blame Sigrid for lacking confidence. After all, when the stories claim she can \"stand shoulder to shoulder with a Void Hunter,\" \"smash a building apart with one hand,\" or \"blast straight through a Hollow with a single stab of her spear,\" any honest and sensible warrior would question whether they could truly achieve such feats with the weapon in their hand.\n\nThere is, however, one legend Sigrid has never doubted: \"So long as my spear remains unbroken, the miracle of the skies shall never end.\"",
     "ko": "시그리드",
     "zh": "希格莉德",
     "ja": "シグリッド"

@@ -23,8 +23,14 @@
     "full_name": "Alexandrina Sebastiane",
     "gender": "Female",
     "icon_path": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle22.png",
+    "inter_knot_icon": "UI/Sprite/A1DynamicLoad/InterKnot/UnPacker/IconInterknotAvatar/IconInterKnotRole0022.png",
     "impression_f": "Look here, Wise! Can you believe Fairy wants us to try Rina's dishes? She just keeps getting meaner!",
     "impression_m": "We don't need to take on such a high level of risk at the moment. I suggest Fairy refrain from making such suggestions next time.",
+    "impressions": [
+      "Impressions of Rina:\n · Recently, Rina's been coming to Sixth Street more often. Is it because of us?",
+      " · Rina often stops in front of all kinds of stores. Almost as if she's doing field research to expand her own field of services...",
+      " · It's clear Rina cares deeply about her colleagues at Victoria Housekeeping, as she often mentions them when talking about work and personal stuff."
+    ],
     "profile_desc": "Rina, the head maid of Victoria Housekeeping Co., and the most senior member of the organization.\nShe possesses beauty and grace, appearing immaculate from head to toe, with a noble demeanor and a gentle smile on her face.\nShe places considerable importance on how she is perceived by others.\n\nRina is always accompanied by two Bangboo named Anastella (brown hair) and Drusilla (blonde hair), both of whom have distinct personalities.\nDrusilla has been with Rina for a significant period of time and displays high intelligence, capable of discerning Rina's true emotions and thoughts.\nAnastella, a recent addition, usually responds rather than initiates conversation and is frequently teased by Drusilla.\n\nRina's favorite hobby is cooking, but only a few individuals are capable of enduring the dishes she prepares.\nSuggestion: You may try tasting Rina's dishes as a test to determine if you are the Chosen One.",
     "role_icon": "IconRole/UnPacker/IconRole22",
     "stature": "173",
@@ -347,7 +353,7 @@
         },
         {
           "name": "Basic Attack: Midnight Cleanup",
-          "desc": "When <color=#FFFFFF><Term:1000026></Term></color> reaches 6 stacks, the next <color=#FFFFFF>Basic Attack: Morning Cleanup</color> performed by Drusilla or Anastella consumes all <color=#FFFFFF>Fright</color> stacks and is replaced with <color=#FFFFFF>Basic Attack: Midnight Cleanup</color>, dealing <color=#2EB6FF>Electric DMG</color> After using the skill, Drusilla and Anastella's exit timer resets.",
+          "desc": "When <color=#FFFFFF><Term:1000026></Term></color> reaches 6 stacks, the next <color=#FFFFFF>Basic Attack: Morning Cleanup</color> performed by Drusilla or Anastella consumes all <color=#FFFFFF>Fright</color> stacks and is replaced with <color=#FFFFFF>Basic Attack: Midnight Cleanup</color>, dealing <color=#2EB6FF>Electric DMG</color>. After using the skill, Drusilla and Anastella's exit timer resets.",
           "potential": [
             121100,
             121101,
@@ -1527,7 +1533,7 @@
         },
         {
           "name": "Assist Follow-Up: Quadruple Meter Gavotte",
-          "desc": "Press <IconMap:Icon_Normal> after an <color=#FFFFFF>Evasive Assist</color> to activate:\nCommands Drusilla and Anastella to continuously advance while generating a vortex of electricity, dealing <color=#2EB6FF>Electric DMG</color>.\nWhile using this skill, you can quickly chain into <color=#FFFFFF>EX Special Attack: Dimwit Disappearing Trick</color>.\nCharacter is invulnerable while using this skill.",
+          "desc": "Press <IconMap:Icon_Normal> after an <color=#FFFFFF>Evasive Assist</color> to activate:\nCommands Drusilla and Anastella to continuously advance while generating a vortex of electricity, dealing <color=#2EB6FF>Electric DMG</color>.\nWhile using this skill, Rina can quickly chain into <color=#FFFFFF>EX Special Attack: Dimwit Disappearing Trick</color>.\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
@@ -1948,6 +1954,10 @@
     "slot4": 31300,
     "slot2": 31100,
     "slot_sub": 32400,
+    "part_sub_list": [
+      12102,
+      31203
+    ],
     "part4": {
       "prop": 23103,
       "name": "PEN Ratio",
@@ -2008,7 +2018,7 @@
     "121101": {
       "id": 121101,
       "name": "Awakened Potential: Perfect Service",
-      "desc": "PEN Ratio increases by 1.6%; while the buff gained from <color=#FFFFFF>[Core Passive: Mini Destruction Partner]</color> is active, for every 1% of Rina's PEN Ratio, all squad members gain <color=#2BAD00>3</color> ATK and <color=#2BAD00>2.5</color> DEF, up to a maximum of 576 ATK and 468 DEF.",
+      "desc": "PEN Ratio increases by 1.6%. While the buff gained from <color=#FFFFFF>Core Passive: Mini Destruction Partner</color> is active, for every 1% of Rina's PEN Ratio, all squad members gain <color=#2BAD00>3</color> ATK and <color=#2BAD00>2.5</color> DEF, up to a maximum of 576 ATK and 468 DEF.",
       "image": "Rina",
       "level_show_name": "Big Cleanup II",
       "level": 2,
@@ -2026,7 +2036,7 @@
     "121102": {
       "id": 121102,
       "name": "Awakened Potential: Perfect Service",
-      "desc": "PEN Ratio increases by 1.6%; while the buff gained from <color=#FFFFFF>[Core Passive: Mini Destruction Partner]</color> is active, for every 1% of Rina's PEN Ratio, all squad members gain <color=#2BAD00>4.2</color> ATK and <color=#2BAD00>3.5</color> DEF, up to a maximum of 576 ATK and 468 DEF.",
+      "desc": "PEN Ratio increases by 1.6%. While the buff gained from <color=#FFFFFF>Core Passive: Mini Destruction Partner</color> is active, for every 1% of Rina's PEN Ratio, all squad members gain <color=#2BAD00>4.2</color> ATK and <color=#2BAD00>3.5</color> DEF, up to a maximum of 576 ATK and 468 DEF.",
       "image": "Rina",
       "level_show_name": "Big Cleanup III",
       "level": 3,
@@ -2044,7 +2054,7 @@
     "121103": {
       "id": 121103,
       "name": "Awakened Potential: Perfect Service",
-      "desc": "PEN Ratio increases by 1.6%; while the buff gained from <color=#FFFFFF>[Core Passive: Mini Destruction Partner]</color> is active, for every 1% of Rina's PEN Ratio, all squad members gain <color=#2BAD00>5.5</color> ATK and <color=#2BAD00>4.5</color> DEF, up to a maximum of 576 ATK and 468 DEF.",
+      "desc": "PEN Ratio increases by 1.6%. While the buff gained from <color=#FFFFFF>Core Passive: Mini Destruction Partner</color> is active, for every 1% of Rina's PEN Ratio, all squad members gain <color=#2BAD00>5.5</color> ATK and <color=#2BAD00>4.5</color> DEF, up to a maximum of 576 ATK and 468 DEF.",
       "image": "Rina",
       "level_show_name": "Big Cleanup IV",
       "level": 4,
@@ -2062,7 +2072,7 @@
     "121104": {
       "id": 121104,
       "name": "Awakened Potential: Perfect Service",
-      "desc": "PEN Ratio increases by 1.6%; while the buff gained from <color=#FFFFFF>[Core Passive: Mini Destruction Partner]</color> is active, for every 1% of Rina's PEN Ratio, all squad members gain <color=#2BAD00>6.7</color> ATK and <color=#2BAD00>5.5</color> DEF, up to a maximum of 576 ATK and 468 DEF.",
+      "desc": "PEN Ratio increases by 1.6%. While the buff gained from <color=#FFFFFF>Core Passive: Mini Destruction Partner</color> is active, for every 1% of Rina's PEN Ratio, all squad members gain <color=#2BAD00>6.7</color> ATK and <color=#2BAD00>5.5</color> DEF, up to a maximum of 576 ATK and 468 DEF.",
       "image": "Rina",
       "level_show_name": "Big Cleanup V",
       "level": 5,
@@ -2080,7 +2090,7 @@
     "121105": {
       "id": 121105,
       "name": "Awakened Potential: Perfect Service",
-      "desc": "PEN Ratio increases by 1.6%; while the buff gained from <color=#FFFFFF>[Core Passive: Mini Destruction Partner]</color> is active, for every 1% of Rina's PEN Ratio, all squad members gain <color=#2BAD00>8</color> ATK and <color=#2BAD00>6.5</color> DEF, up to a maximum of 576 ATK and 468 DEF.",
+      "desc": "PEN Ratio increases by 1.6%. While the buff gained from <color=#FFFFFF>Core Passive: Mini Destruction Partner</color> is active, for every 1% of Rina's PEN Ratio, all squad members gain <color=#2BAD00>8</color> ATK and <color=#2BAD00>6.5</color> DEF, up to a maximum of 576 ATK and 468 DEF.",
       "image": "Rina",
       "level_show_name": "Big Cleanup VI",
       "level": 6,

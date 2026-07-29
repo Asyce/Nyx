@@ -23,8 +23,14 @@
     "full_name": "Corin Wickes",
     "gender": "Female",
     "icon_path": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle09.png",
+    "inter_knot_icon": "UI/Sprite/A1DynamicLoad/InterKnot/UnPacker/IconInterknotAvatar/IconInterKnotRole0009.png",
     "impression_f": "Corin is excellent at her work, but why does she lack confidence in herself...?\nIf only I could share half of my confidence with her!",
     "impression_m": "Some people are just introverted and sensitive. Fortunately, Corin's companions have complete faith in her capabilities.\nBelle, let's encourage her whenever we have the opportunity.",
+    "impressions": [
+      "Impressions of Corin:\n · Corin seems to be lacking confidence...? She always panics about everything she does...",
+      " · With enough encouragement, Corin will always spring into action. Of course, a little shock will also do the trick...",
+      " · Corin looks so adorable when she musters up the courage to complete a commission!"
+    ],
     "profile_desc": "Corin is one of the maids working for Victoria Housekeeping Co.\nShe is a highly obedient maid but lacks confidence and often fears being disliked by others. When in a rush, she becomes flustered and stutters.\nCorin is always apologizing no matter what happens.\n\"I... I... I'm so sorry! I'm so incompetent... I'll never get things right...\"\n\nCorin never, however, fails to fulfill her tasks with excellence and is one of the most reliable members of Victoria Housekeeping Co.\nDespite her flawless performance, Corin remains skeptical about her abilities, constantly worrying about being a burden to her colleagues, which can sometimes frustrate Lycaon.\nThoughts: Is Corin's personality innate, shaped by her life experiences?",
     "role_icon": "IconRole/UnPacker/IconRole09",
     "stature": "141",
@@ -1994,6 +2000,11 @@
     "slot4": 32600,
     "slot2": 31000,
     "slot_sub": 31400,
+    "part_sub_list": [
+      12102,
+      20103,
+      21103
+    ],
     "part4": {
       "prop": 20103,
       "name": "CRIT Rate",

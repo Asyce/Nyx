@@ -34,6 +34,7 @@
         "Ice",
         "Electric",
         "Ether",
+        "Lumiflux",
         "Wind"
       ]
     },
@@ -289,6 +290,42 @@
       "type": "Anomaly",
       "icon": "../../Database/GameData/zzz/assets/w-engines/Weapon_S_1561.webp",
       "art": "../../Database/GameData/zzz/assets/w-engines/Weapon_S_1561.webp",
+      "items": [
+        {
+          "id": "101012",
+          "name": "Anomaly Component",
+          "qty": 4,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/GameData/zzz/assets/items/WeaponRankBuff01.webp"
+        },
+        {
+          "id": "101022",
+          "name": "Reinforced Anomaly Component",
+          "qty": 32,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/GameData/zzz/assets/items/WeaponRankBuff02.webp"
+        },
+        {
+          "id": "101032",
+          "name": "Specialized Anomaly Component",
+          "qty": 30,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/GameData/zzz/assets/items/WeaponRankBuff03.webp"
+        }
+      ],
+      "cost": 400000
+    },
+    {
+      "id": "14158",
+      "name": "Ode of Resurrected Wings",
+      "rarity": 4,
+      "weaponType": "Anomaly",
+      "type": "Anomaly",
+      "icon": "../../Database/GameData/zzz/assets/w-engines/Weapon_S_1581.webp",
+      "art": "../../Database/GameData/zzz/assets/w-engines/Weapon_S_1581.webp",
       "items": [
         {
           "id": "101012",
@@ -577,6 +614,42 @@
       "type": "Attack",
       "icon": "../../Database/GameData/zzz/assets/w-engines/Weapon_S_1321.webp",
       "art": "../../Database/GameData/zzz/assets/w-engines/Weapon_S_1321.webp",
+      "items": [
+        {
+          "id": "101010",
+          "name": "Attack Component",
+          "qty": 4,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/GameData/zzz/assets/items/WeaponRankDamage01.webp"
+        },
+        {
+          "id": "101020",
+          "name": "Reinforced Attack Component",
+          "qty": 32,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/GameData/zzz/assets/items/WeaponRankDamage02.webp"
+        },
+        {
+          "id": "101030",
+          "name": "Specialized Attack Component",
+          "qty": 30,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/GameData/zzz/assets/items/WeaponRankDamage03.webp"
+        }
+      ],
+      "cost": 400000
+    },
+    {
+      "id": "14159",
+      "name": "Knight's Extolment",
+      "rarity": 4,
+      "weaponType": "Attack",
+      "type": "Attack",
+      "icon": "../../Database/GameData/zzz/assets/w-engines/Weapon_S_1591.webp",
+      "art": "../../Database/GameData/zzz/assets/w-engines/Weapon_S_1591.webp",
       "items": [
         {
           "id": "101010",
@@ -2876,6 +2949,2628 @@
   ],
   "roster": [
     {
+      "id": "zzz-remielle",
+      "n": "Remielle",
+      "localizedNames": {
+        "en": "Remielle",
+        "zh": "\u857e\u7c73\u57c3\u5c14",
+        "ja": "\u30ec\u30df\u30a8\u30fc\u30eb",
+        "ko": "\ub808\ubbf8\uc5d8"
+      },
+      "slug": "remielle",
+      "updated": 1785196800000,
+      "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Amber Lee Connors",
+        "japanese": "Onishi Saori"
+      },
+      "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle67.webp",
+      "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole67.webp",
+      "card": "../../Database/Prydwen/zzz/assets/characters/remielle-e8b52d52cf40.webp",
+      "status": "live",
+      "labels": [],
+      "r": "S",
+      "el": "Lumiflux",
+      "spec": "Anomaly",
+      "tag": "Unknown",
+      "baseStats": {
+        "level1": {
+          "hp": 602,
+          "atk": 124,
+          "def": 48,
+          "critRate": 0.05,
+          "critDmg": 0.5,
+          "impact": 83,
+          "anomalyProficiency": 115,
+          "anomalyMastery": 116
+        },
+        "max": {
+          "level": 60,
+          "hp": 7482.71,
+          "atk": 748.46,
+          "def": 600.59,
+          "critRate": 0.05,
+          "critDmg": 0.5,
+          "impact": 83,
+          "anomalyProficiency": 115,
+          "anomalyMastery": 116
+        }
+      },
+      "facts": {
+        "fullName": "Remielle Dan",
+        "faction": "Covenant of Dayat",
+        "birthday": "March 14"
+      },
+      "skillIcons": [
+        "../../Database/GameData/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/GameData/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/GameData/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/GameData/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/GameData/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
+      "kit": {
+        "source": "Game data",
+        "channel": "live",
+        "version": "3.1",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Leap",
+                "type": "Basic",
+                "desc": "Press to activate:\nPerforms up to four attacks ahead, dealing Lumiflux DMG.\nIf the Basic Attack hits the target, gains after the skill ends.\nAfter the 4th hit of the Basic Attack ends, 1 Lumiflux Buildup is applied to enemies hit.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "1st-Hit DMG Multiplier",
+                        "values": [
+                          "31.2%",
+                          "34.1%",
+                          "37%",
+                          "39.9%",
+                          "42.8%",
+                          "45.7%",
+                          "48.6%",
+                          "51.5%",
+                          "54.4%",
+                          "57.3%",
+                          "60.2%",
+                          "63.1%"
+                        ]
+                      },
+                      {
+                        "label": "2nd-Hit DMG Multiplier",
+                        "values": [
+                          "54.5%",
+                          "59.5%",
+                          "64.5%",
+                          "69.5%",
+                          "74.5%",
+                          "79.5%",
+                          "84.5%",
+                          "89.5%",
+                          "94.5%",
+                          "99.5%",
+                          "104.5%",
+                          "109.5%"
+                        ]
+                      },
+                      {
+                        "label": "3rd-Hit DMG Multiplier",
+                        "values": [
+                          "84.3%",
+                          "92%",
+                          "99.7%",
+                          "107.4%",
+                          "115.1%",
+                          "122.8%",
+                          "130.5%",
+                          "138.2%",
+                          "145.9%",
+                          "153.6%",
+                          "161.3%",
+                          "169%"
+                        ]
+                      },
+                      {
+                        "label": "4th-Hit DMG Multiplier",
+                        "values": [
+                          "250.8%",
+                          "273.6%",
+                          "296.4%",
+                          "319.2%",
+                          "342%",
+                          "364.8%",
+                          "387.6%",
+                          "410.4%",
+                          "433.2%",
+                          "456%",
+                          "478.8%",
+                          "501.6%"
+                        ]
+                      },
+                      {
+                        "label": "1st-Hit Daze Multiplier",
+                        "values": [
+                          "12.2%",
+                          "12.8%",
+                          "13.4%",
+                          "14%",
+                          "14.6%",
+                          "15.2%",
+                          "15.8%",
+                          "16.4%",
+                          "17%",
+                          "17.6%",
+                          "18.2%",
+                          "18.8%"
+                        ]
+                      },
+                      {
+                        "label": "2nd-Hit Daze Multiplier",
+                        "values": [
+                          "28.2%",
+                          "29.5%",
+                          "30.8%",
+                          "32.1%",
+                          "33.4%",
+                          "34.7%",
+                          "36%",
+                          "37.3%",
+                          "38.6%",
+                          "39.9%",
+                          "41.2%",
+                          "42.5%"
+                        ]
+                      },
+                      {
+                        "label": "3rd-Hit Daze Multiplier",
+                        "values": [
+                          "49.3%",
+                          "51.6%",
+                          "53.9%",
+                          "56.2%",
+                          "58.5%",
+                          "60.8%",
+                          "63.1%",
+                          "65.4%",
+                          "67.7%",
+                          "70%",
+                          "72.3%",
+                          "74.6%"
+                        ]
+                      },
+                      {
+                        "label": "4th-Hit Daze Multiplier",
+                        "values": [
+                          "126.6%",
+                          "132.4%",
+                          "138.2%",
+                          "144%",
+                          "149.8%",
+                          "155.6%",
+                          "161.4%",
+                          "167.2%",
+                          "173%",
+                          "178.8%",
+                          "184.6%",
+                          "190.4%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Basic Attack: Solo Dance",
+                "type": "Basic",
+                "desc": "Hold to activate:\nPerforms a slash in an area ahead, dealing Lumiflux DMG.\nIf it hits a target, gains Floating Radiance after the skill ends.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "96.5%",
+                          "105.3%",
+                          "114.1%",
+                          "122.9%",
+                          "131.7%",
+                          "140.5%",
+                          "149.3%",
+                          "158.1%",
+                          "166.9%",
+                          "175.7%",
+                          "184.5%",
+                          "193.3%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "81.6%",
+                          "85.4%",
+                          "89.2%",
+                          "93%",
+                          "96.8%",
+                          "100.6%",
+                          "104.4%",
+                          "108.2%",
+                          "112%",
+                          "115.8%",
+                          "119.6%",
+                          "123.4%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Basic Attack: Rainbow's End",
+                "type": "Basic",
+                "desc": "When Remielle has stored , hold to activate:\nUnleashes a powerful attack across a large area ahead, dealing Lumiflux DMG.\nGrants a large amount of Floating Radiance when the skill ends.\nIf the attack hits a target, triggers the effect after the skill ends with a {CAL:100+AvatarSkillLevel(0)*5,1,2}% multiplier.\nConsumes all stored Voidflare upon use.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "195%",
+                          "212.8%",
+                          "230.6%",
+                          "248.4%",
+                          "266.2%",
+                          "284%",
+                          "301.8%",
+                          "319.6%",
+                          "337.4%",
+                          "355.2%",
+                          "373%",
+                          "390.8%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "165%",
+                          "172.5%",
+                          "180%",
+                          "187.5%",
+                          "195%",
+                          "202.5%",
+                          "210%",
+                          "217.5%",
+                          "225%",
+                          "232.5%",
+                          "240%",
+                          "247.5%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Basic Attack: Fleeting Grace",
+                "type": "Basic",
+                "desc": "When Remielle has stored Voidflare and is in the Luminous Reflection state, hold to activate:\nUnleashes a powerful attack across a large area ahead, dealing Lumiflux DMG.\nGrants a large amount of Floating Radiance when the skill ends.\nIf the attack hits a target, triggers the Luminize effect after the skill ends with a {CAL:200+AvatarSkillLevel(0)*10,1,2}% multiplier.\nConsumes all stored Voidflare upon use.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "597.2%",
+                          "651.5%",
+                          "705.8%",
+                          "760.1%",
+                          "814.4%",
+                          "868.7%",
+                          "923%",
+                          "977.3%",
+                          "1031.6%",
+                          "1085.9%",
+                          "1140.2%",
+                          "1194.5%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "388.7%",
+                          "406.4%",
+                          "424.1%",
+                          "441.8%",
+                          "459.5%",
+                          "477.2%",
+                          "494.9%",
+                          "512.6%",
+                          "530.3%",
+                          "548%",
+                          "565.7%",
+                          "583.4%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Dodge: Retreating Light",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Keen Light",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nLaunches a quick attack ahead, dealing Lumiflux DMG.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "39%",
+                          "42.6%",
+                          "46.2%",
+                          "49.8%",
+                          "53.4%",
+                          "57%",
+                          "60.6%",
+                          "64.2%",
+                          "67.8%",
+                          "71.4%",
+                          "75%",
+                          "78.6%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "33%",
+                          "34.5%",
+                          "36%",
+                          "37.5%",
+                          "39%",
+                          "40.5%",
+                          "42%",
+                          "43.5%",
+                          "45%",
+                          "46.5%",
+                          "48%",
+                          "49.5%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Dodge Counter: Mirrored Shadow",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nUnleashes a powerful slash at the target, dealing Lumiflux DMG.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "214.5%",
+                          "234%",
+                          "253.5%",
+                          "273%",
+                          "292.5%",
+                          "312%",
+                          "331.5%",
+                          "351%",
+                          "370.5%",
+                          "390%",
+                          "409.5%",
+                          "429%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "165%",
+                          "172.5%",
+                          "180%",
+                          "187.5%",
+                          "195%",
+                          "202.5%",
+                          "210%",
+                          "217.5%",
+                          "225%",
+                          "232.5%",
+                          "240%",
+                          "247.5%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Quick Assist: Featherglow Rebirth",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nUnleashes a slash at the target, dealing Lumiflux DMG.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "32.5%",
+                          "35.5%",
+                          "38.5%",
+                          "41.5%",
+                          "44.5%",
+                          "47.5%",
+                          "50.5%",
+                          "53.5%",
+                          "56.5%",
+                          "59.5%",
+                          "62.5%",
+                          "65.5%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "27.5%",
+                          "28.8%",
+                          "30.1%",
+                          "31.4%",
+                          "32.7%",
+                          "34%",
+                          "35.3%",
+                          "36.6%",
+                          "37.9%",
+                          "39.2%",
+                          "40.5%",
+                          "41.8%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Defensive Assist: Fleeting Light",
+                "type": "Assist",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Light Defensive Daze Multiplier",
+                        "values": [
+                          "271.3%",
+                          "283.7%",
+                          "296.1%",
+                          "308.5%",
+                          "320.9%",
+                          "333.3%",
+                          "345.7%",
+                          "358.1%",
+                          "370.5%",
+                          "382.9%",
+                          "395.3%",
+                          "407.7%"
+                        ]
+                      },
+                      {
+                        "label": "Heavy Defensive Daze Multiplier",
+                        "values": [
+                          "342.8%",
+                          "358.4%",
+                          "374%",
+                          "389.6%",
+                          "405.2%",
+                          "420.8%",
+                          "436.4%",
+                          "452%",
+                          "467.6%",
+                          "483.2%",
+                          "498.8%",
+                          "514.4%"
+                        ]
+                      },
+                      {
+                        "label": "Chain Defensive Daze Multiplier",
+                        "values": [
+                          "166.8%",
+                          "174.4%",
+                          "182%",
+                          "189.6%",
+                          "197.2%",
+                          "204.8%",
+                          "212.4%",
+                          "220%",
+                          "227.6%",
+                          "235.2%",
+                          "242.8%",
+                          "250.4%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Assist Follow-Up: Awakening Glimmer",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nUnleashes a series of slashes against the target, dealing Lumiflux DMG.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "381.1%",
+                          "415.8%",
+                          "450.5%",
+                          "485.2%",
+                          "519.9%",
+                          "554.6%",
+                          "589.3%",
+                          "624%",
+                          "658.7%",
+                          "693.4%",
+                          "728.1%",
+                          "762.8%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "277.6%",
+                          "290.3%",
+                          "303%",
+                          "315.7%",
+                          "328.4%",
+                          "341.1%",
+                          "353.8%",
+                          "366.5%",
+                          "379.2%",
+                          "391.9%",
+                          "404.6%",
+                          "417.3%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Assist: Flower & Feather Dance",
+                "type": "Assist",
+                "desc": "Enters the battlefield and unleashes an attack in a large area, dealing Lumiflux DMG.\nConsumes 40 upon activation. With 90 or fewer Floating Radiance remaining upon activation, this Assist: Flower & Feather Dance does not consume Floating Radiance. Remielle also enters the Luminous Reflection state, and the next Basic Attack: Rainbow's End is upgraded to Basic Attack: Fleeting Grace.\nWhen this skill hits a Stunned enemy, their Stun duration is extended by 3s. Each enemy can be affected by this effect only once per Stun window. This Stun duration increase cannot stack with other effects of the same type.\nIf this skill lands a hit, the effect can be triggered after the skill ends with a multiplier of {CAL:200+AvatarSkillLevel(6)*10,1,2}%.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "453.5%",
+                          "494.8%",
+                          "536.1%",
+                          "577.4%",
+                          "618.7%",
+                          "660%",
+                          "701.3%",
+                          "742.6%",
+                          "783.9%",
+                          "825.2%",
+                          "866.5%",
+                          "907.8%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "295.2%",
+                          "308.7%",
+                          "322.2%",
+                          "335.7%",
+                          "349.2%",
+                          "362.7%",
+                          "376.2%",
+                          "389.7%",
+                          "403.2%",
+                          "416.7%",
+                          "430.2%",
+                          "443.7%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Special Attack: Sliver of Light",
+                "type": "Special",
+                "desc": "Press to activate:\nLaunches a ranged attack ahead, dealing Lumiflux DMG.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "49.9%",
+                          "54.5%",
+                          "59.1%",
+                          "63.7%",
+                          "68.3%",
+                          "72.9%",
+                          "77.5%",
+                          "82.1%",
+                          "86.7%",
+                          "91.3%",
+                          "95.9%",
+                          "100.5%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "42.2%",
+                          "44.2%",
+                          "46.2%",
+                          "48.2%",
+                          "50.2%",
+                          "52.2%",
+                          "54.2%",
+                          "56.2%",
+                          "58.2%",
+                          "60.2%",
+                          "62.2%",
+                          "64.2%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "EX Special Attack: Ode to Dawn",
+                "type": "Special",
+                "desc": "Upon entering the battlefield, if Remielle has less than 60 Energy, her Energy is recovered to 60. In Investigation Zone Mode, this effect can trigger once every 180s.\nWith enough Energy, press to activate:\nUnleashes a powerful attack across a large area ahead, dealing Lumiflux DMG.\nAfter the skill ends, apply 2 Lumiflux Buildup to all enemies hit.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "721.5%",
+                          "787.1%",
+                          "852.7%",
+                          "918.3%",
+                          "983.9%",
+                          "1049.5%",
+                          "1115.1%",
+                          "1180.7%",
+                          "1246.3%",
+                          "1311.9%",
+                          "1377.5%",
+                          "1443.1%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "283.3%",
+                          "296.2%",
+                          "309.1%",
+                          "322%",
+                          "334.9%",
+                          "347.8%",
+                          "360.7%",
+                          "373.6%",
+                          "386.5%",
+                          "399.4%",
+                          "412.3%",
+                          "425.2%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Special Attack: Ode to Dawn - Radiant Turn",
+                "type": "Special",
+                "desc": "When Remielle is in combat and her Floating Radiance reaches its maximum of 120, hold after a Special Attack or EX Special Attack to enter Stance Shift. Switching characters while in Stance Shift causes Remielle to enter the Phase Flow state:\nWhile in the Phase Flow state, Remielle acts autonomously to assist in combat. In this state, Floating Radiance is consumed over time, and some of her attacks apply Lumiflux Buildup to the target. When Floating Radiance is fully depleted or upon leaving combat, Remielle exits the Phase Flow state. Before exiting the Phase Flow state, Remielle cannot be actively switched in except via a Chain Attack.\nIf Remielle triggers 3 reactions in one Phase Flow state, or has at least 1 stored when Floating Radiance is fully depleted, Assist: Flower & Feather Dance becomes available, and her normal switch-in is unlocked. Assist: Flower & Feather Dance is automatically used on Remielle's next normal switch-in.\nUpon entering the Phase Flow state, Remielle increases all squad members's DMG by {CAL:0+AvatarSkillLevel(1)*1.5,1,2}% for 60s. Repeated triggers reset the duration.\nWhen Remielle's Floating Radiance has reached its maximum of 120 and her Special Attack or EX Special Attack hits a Stunned enemy, she can also enter the Phase Flow state by switching characters during the Special Attack or EX Special Attack.\nIf no character is switched in after entering Stance Shift, Remielle uses a downward attack to return to the ground instead.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "164.7%",
+                          "179.7%",
+                          "194.7%",
+                          "209.7%",
+                          "224.7%",
+                          "239.7%",
+                          "254.7%",
+                          "269.7%",
+                          "284.7%",
+                          "299.7%",
+                          "314.7%",
+                          "329.7%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "69.7%",
+                          "72.9%",
+                          "76.1%",
+                          "79.3%",
+                          "82.5%",
+                          "85.7%",
+                          "88.9%",
+                          "92.1%",
+                          "95.3%",
+                          "98.5%",
+                          "101.7%",
+                          "104.9%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Chain Attack: Interwoven Dance Steps",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nLaunches multiple attacks ahead in a large area, dealing Lumiflux DMG.\nEnters the Luminous Reflection state upon activation. The next Basic Attack: Rainbow's End is upgraded to Basic Attack: Fleeting Grace.\nAfter the skill ends, apply 2 Lumiflux Buildup to enemies hit.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "785.2%",
+                          "856.6%",
+                          "928%",
+                          "999.4%",
+                          "1070.8%",
+                          "1142.2%",
+                          "1213.6%",
+                          "1285%",
+                          "1356.4%",
+                          "1427.8%",
+                          "1499.2%",
+                          "1570.6%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "225.5%",
+                          "235.8%",
+                          "246.1%",
+                          "256.4%",
+                          "266.7%",
+                          "277%",
+                          "287.3%",
+                          "297.6%",
+                          "307.9%",
+                          "318.2%",
+                          "328.5%",
+                          "338.8%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Ultimate: Dazzling Curtain Call",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nLaunches an attack across a large area in front, dealing Lumiflux DMG.\nIf the skill hits, the effect can be triggered after the skill ends with a multiplier of {CAL:210+AvatarSkillLevel(3)*10.5,1,2}%.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "2009.7%",
+                          "2192.4%",
+                          "2375.1%",
+                          "2557.8%",
+                          "2740.5%",
+                          "2923.2%",
+                          "3105.9%",
+                          "3288.6%",
+                          "3471.3%",
+                          "3654%",
+                          "3836.7%",
+                          "4019.4%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "260.4%",
+                          "272.3%",
+                          "284.2%",
+                          "296.1%",
+                          "308%",
+                          "319.9%",
+                          "331.8%",
+                          "343.7%",
+                          "355.6%",
+                          "367.5%",
+                          "379.4%",
+                          "391.3%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Temporal Patterns = Stilled Colors",
+                "type": "Core Passive",
+                "desc": "Remielle's Refringe Coefficient is equal to 0.02% of her Anomaly Proficiency. If there are 3 Anomaly characters in the squad, her Refringe Coefficient increases by an additional 10%.\nWhen Remielle triggers a reaction through a teammate, she generates Voidflare based on the enhanced of the current Attribute Anomaly after it has been Refringed. Up to the 3 most recently generated Voidflares can be stored.\nIf Assist: Flower & Feather Dance, Ultimate: Dazzling Curtain Call, Basic Attack: Rainbow's End, or Basic Attack: Fleeting Grace hits a target, Luminize is triggered after the skill ends\uff1a\nBased on the Anomaly Effect Strength of all stored Voidflares, deals Attribute Anomaly DMG to the enemy using the corresponding skill's DMG multiplier. This multiplier is further increased by 0.2% of Remielle's Anomaly Proficiency.\nAll stored Voidflares are cleared when Remielle enters the state or after using Basic Attack: Rainbow's End or Basic Attack: Fleeting Grace.",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Remielle's Refringe Coefficient is equal to 0.02% of her Anomaly Proficiency. If there are 3 Anomaly characters in the squad, her Refringe Coefficient increases by an additional 10%.\nWhen Remielle triggers a reaction through a teammate, she generates Voidflare based on the enhanced of the current Attribute Anomaly after it has been Refringed. Up to the 3 most recently generated Voidflares can be stored.\nIf Assist: Flower & Feather Dance, Ultimate: Dazzling Curtain Call, Basic Attack: Rainbow's End, or Basic Attack: Fleeting Grace hits a target, Luminize is triggered after the skill ends\uff1a\nBased on the Anomaly Effect Strength of all stored Voidflares, deals Attribute Anomaly DMG to the enemy using the corresponding skill's DMG multiplier. This multiplier is further increased by 0.1% of Remielle's Anomaly Proficiency.\nAll stored Voidflares are cleared when Remielle enters the state or after using Basic Attack: Rainbow's End or Basic Attack: Fleeting Grace."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Remielle's Refringe Coefficient is equal to 0.02% of her Anomaly Proficiency. If there are 3 Anomaly characters in the squad, her Refringe Coefficient increases by an additional 10%.\nWhen Remielle triggers a reaction through a teammate, she generates Voidflare based on the enhanced of the current Attribute Anomaly after it has been Refringed. Up to the 3 most recently generated Voidflares can be stored.\nIf Assist: Flower & Feather Dance, Ultimate: Dazzling Curtain Call, Basic Attack: Rainbow's End, or Basic Attack: Fleeting Grace hits a target, Luminize is triggered after the skill ends\uff1a\nBased on the Anomaly Effect Strength of all stored Voidflares, deals Attribute Anomaly DMG to the enemy using the corresponding skill's DMG multiplier. This multiplier is further increased by 0.12% of Remielle's Anomaly Proficiency.\nAll stored Voidflares are cleared when Remielle enters the state or after using Basic Attack: Rainbow's End or Basic Attack: Fleeting Grace."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Remielle's Refringe Coefficient is equal to 0.02% of her Anomaly Proficiency. If there are 3 Anomaly characters in the squad, her Refringe Coefficient increases by an additional 10%.\nWhen Remielle triggers a reaction through a teammate, she generates Voidflare based on the enhanced of the current Attribute Anomaly after it has been Refringed. Up to the 3 most recently generated Voidflares can be stored.\nIf Assist: Flower & Feather Dance, Ultimate: Dazzling Curtain Call, Basic Attack: Rainbow's End, or Basic Attack: Fleeting Grace hits a target, Luminize is triggered after the skill ends\uff1a\nBased on the Anomaly Effect Strength of all stored Voidflares, deals Attribute Anomaly DMG to the enemy using the corresponding skill's DMG multiplier. This multiplier is further increased by 0.14% of Remielle's Anomaly Proficiency.\nAll stored Voidflares are cleared when Remielle enters the state or after using Basic Attack: Rainbow's End or Basic Attack: Fleeting Grace."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Remielle's Refringe Coefficient is equal to 0.02% of her Anomaly Proficiency. If there are 3 Anomaly characters in the squad, her Refringe Coefficient increases by an additional 10%.\nWhen Remielle triggers a reaction through a teammate, she generates Voidflare based on the enhanced of the current Attribute Anomaly after it has been Refringed. Up to the 3 most recently generated Voidflares can be stored.\nIf Assist: Flower & Feather Dance, Ultimate: Dazzling Curtain Call, Basic Attack: Rainbow's End, or Basic Attack: Fleeting Grace hits a target, Luminize is triggered after the skill ends\uff1a\nBased on the Anomaly Effect Strength of all stored Voidflares, deals Attribute Anomaly DMG to the enemy using the corresponding skill's DMG multiplier. This multiplier is further increased by 0.15% of Remielle's Anomaly Proficiency.\nAll stored Voidflares are cleared when Remielle enters the state or after using Basic Attack: Rainbow's End or Basic Attack: Fleeting Grace."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Remielle's Refringe Coefficient is equal to 0.02% of her Anomaly Proficiency. If there are 3 Anomaly characters in the squad, her Refringe Coefficient increases by an additional 10%.\nWhen Remielle triggers a reaction through a teammate, she generates Voidflare based on the enhanced of the current Attribute Anomaly after it has been Refringed. Up to the 3 most recently generated Voidflares can be stored.\nIf Assist: Flower & Feather Dance, Ultimate: Dazzling Curtain Call, Basic Attack: Rainbow's End, or Basic Attack: Fleeting Grace hits a target, Luminize is triggered after the skill ends\uff1a\nBased on the Anomaly Effect Strength of all stored Voidflares, deals Attribute Anomaly DMG to the enemy using the corresponding skill's DMG multiplier. This multiplier is further increased by 0.16% of Remielle's Anomaly Proficiency.\nAll stored Voidflares are cleared when Remielle enters the state or after using Basic Attack: Rainbow's End or Basic Attack: Fleeting Grace."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Remielle's Refringe Coefficient is equal to 0.02% of her Anomaly Proficiency. If there are 3 Anomaly characters in the squad, her Refringe Coefficient increases by an additional 10%.\nWhen Remielle triggers a reaction through a teammate, she generates Voidflare based on the enhanced of the current Attribute Anomaly after it has been Refringed. Up to the 3 most recently generated Voidflares can be stored.\nIf Assist: Flower & Feather Dance, Ultimate: Dazzling Curtain Call, Basic Attack: Rainbow's End, or Basic Attack: Fleeting Grace hits a target, Luminize is triggered after the skill ends\uff1a\nBased on the Anomaly Effect Strength of all stored Voidflares, deals Attribute Anomaly DMG to the enemy using the corresponding skill's DMG multiplier. This multiplier is further increased by 0.18% of Remielle's Anomaly Proficiency.\nAll stored Voidflares are cleared when Remielle enters the state or after using Basic Attack: Rainbow's End or Basic Attack: Fleeting Grace."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Remielle's Refringe Coefficient is equal to 0.02% of her Anomaly Proficiency. If there are 3 Anomaly characters in the squad, her Refringe Coefficient increases by an additional 10%.\nWhen Remielle triggers a reaction through a teammate, she generates Voidflare based on the enhanced of the current Attribute Anomaly after it has been Refringed. Up to the 3 most recently generated Voidflares can be stored.\nIf Assist: Flower & Feather Dance, Ultimate: Dazzling Curtain Call, Basic Attack: Rainbow's End, or Basic Attack: Fleeting Grace hits a target, Luminize is triggered after the skill ends\uff1a\nBased on the Anomaly Effect Strength of all stored Voidflares, deals Attribute Anomaly DMG to the enemy using the corresponding skill's DMG multiplier. This multiplier is further increased by 0.2% of Remielle's Anomaly Proficiency.\nAll stored Voidflares are cleared when Remielle enters the state or after using Basic Attack: Rainbow's End or Basic Attack: Fleeting Grace."
+                  }
+                ]
+              },
+              {
+                "name": "Additional Ability: Invitation to Bloom",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad is an Anomaly character or shares the same faction:\nWhen there are 1/2/3 Anomaly characters in the squad, upon entering the battlefield, all squad members gain an ATK increase equal to 6%/12%/40% of Remielle's initial ATK, up to a maximum increase of 1,600 ATK. Remielle's Daze dealt while in the state increases by 6%/12%/35%.\nWhen applying Lumiflux Buildup to an enemy, Remielle also applies the Prismatic effect: All squad members' attacks against enemies with the Prismatic effect have 15% increased Anomaly Buildup Rate. Prismatic is removed when the enemy no longer has Lumiflux Buildup. After Prismatic is removed, the Anomaly Buildup Rate increase persists for an additional 8s.",
+                "levels": []
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Naive Oath",
+                "type": "Mindscape 1",
+                "desc": "Upon entering the battlefield, Remielle gains 3 special s. In Investigation Zone mode, this effect can trigger once every 180s. When Remielle triggers to deal DMG, she ignores 50% of the target's All-Attribute RES. When using Assist: Flower & Feather Dance, she gains 200 Decibels. This effect can trigger once every 18s. While Remielle is in the state, other squad members' Attribute Anomaly DMG increases by 10%."
+              },
+              {
+                "name": "Fall Into the Noise",
+                "type": "Mindscape 2",
+                "desc": "Remielle's Refringe Coefficient increases by 20%. When an Anomaly character in the squad deals Anomaly DMG to an enemy affected by Prismatic, the attack ignores 15% of the target's DEF. This effect persists for an additional 8s after Prismatic ends. While Remielle is in the state, the frequency at which she automatically attacks to apply Lumiflux Buildup to enemies increases."
+              },
+              {
+                "name": "The Garden of Diverging Time",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "The Long Goodbye",
+                "type": "Mindscape 4",
+                "desc": "When Remielle triggers , the DMG multiplier is increased by an additional 12%. After entering the battlefield and gaining 3 special s, if all Voidflares are consumed, she immediately gains the maximum number of special Voidflares again. This effect to regain special Voidflares is removed after being triggered once or when Remielle enters the state."
+              },
+              {
+                "name": "To Drink Forgetfulness",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Lone Feather's Endless Flight",
+                "type": "Mindscape 6",
+                "desc": "When Remielle uses Basic Attack: Rainbow's End or Basic Attack: Fleeting Grace, is triggered 2 times. If the 4th hit of her Basic Attack lands against a target, Remielle gains 3 special Voidflares after the skill ends. Special s gained this way deal DMG equal to 25% of the special Voidflares gained upon entering the battlefield."
+              }
+            ]
+          }
+        ]
+      },
+      "req": {
+        "ascension": [
+          {
+            "id": "100213",
+            "name": "Basic Anomaly Certification Seal",
+            "qty": 4,
+            "rar": 1,
+            "kind": "gem",
+            "icon": "../../Database/GameData/zzz/assets/items/AvatarRankBuff01.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100223",
+            "name": "Advanced Anomaly Certification Seal",
+            "qty": 32,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/GameData/zzz/assets/items/AvatarRankBuff02.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100233",
+            "name": "Controller Certification Seal",
+            "qty": 30,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/GameData/zzz/assets/items/AvatarRankBuff03.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          }
+        ],
+        "talents": [
+          {
+            "id": "100117",
+            "name": "Basic Lumiflux Chip",
+            "qty": 25,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillLight01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100127",
+            "name": "Advanced Lumiflux Chip",
+            "qty": 75,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillLight02.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100137",
+            "name": "Specialized Lumiflux Chip",
+            "qty": 250,
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100941",
+            "name": "Hamster Cage Pass",
+            "qty": 5,
+            "rar": 5,
+            "kind": "crown",
+            "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
+            "source": "Event / New Eridu City Fund",
+            "sourceDetails": [
+              {
+                "name": "Event / New Eridu City Fund"
+              }
+            ]
+          },
+          {
+            "id": "110010",
+            "name": "Timeworn Husk",
+            "qty": 9,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss010.webp",
+            "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss010.webp",
+            "source": "Girtablullu",
+            "sourceDetails": [
+              {
+                "name": "Girtablullu",
+                "icon": "../../Database/GameData/zzz/assets/monsters/Monster_Girtablu.webp"
+              }
+            ]
+          },
+          {
+            "id": "110515",
+            "name": "Higher Dimensional Data: Deep Erosion Circuit",
+            "qty": 60,
+            "rar": 4,
+            "kind": "boss",
+            "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss015.webp",
+            "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss015.webp",
+            "source": "the Airspace Sentinel / Expert Challenge",
+            "sourceDetails": [
+              {
+                "name": "Airspace Sentinel",
+                "icon": "../../Database/GameData/zzz/assets/monsters/Monster_Sentinel.webp"
+              },
+              {
+                "name": "Expert Challenge"
+              }
+            ]
+          }
+        ],
+        "talentStages": [
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100117",
+                  "name": "Basic Lumiflux Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100117",
+                  "name": "Basic Lumiflux Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100127",
+                  "name": "Advanced Lumiflux Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillLight02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100127",
+                  "name": "Advanced Lumiflux Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillLight02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100127",
+                  "name": "Advanced Lumiflux Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillLight02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100127",
+                  "name": "Advanced Lumiflux Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillLight02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100137",
+                  "name": "Specialized Lumiflux Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100137",
+                  "name": "Specialized Lumiflux Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100137",
+                  "name": "Specialized Lumiflux Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100137",
+                  "name": "Specialized Lumiflux Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100137",
+                  "name": "Specialized Lumiflux Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100117",
+                  "name": "Basic Lumiflux Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100117",
+                  "name": "Basic Lumiflux Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100127",
+                  "name": "Advanced Lumiflux Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillLight02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100127",
+                  "name": "Advanced Lumiflux Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillLight02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100127",
+                  "name": "Advanced Lumiflux Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillLight02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100127",
+                  "name": "Advanced Lumiflux Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillLight02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100137",
+                  "name": "Specialized Lumiflux Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100137",
+                  "name": "Specialized Lumiflux Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100137",
+                  "name": "Specialized Lumiflux Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100137",
+                  "name": "Specialized Lumiflux Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100137",
+                  "name": "Specialized Lumiflux Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100117",
+                  "name": "Basic Lumiflux Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100117",
+                  "name": "Basic Lumiflux Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100127",
+                  "name": "Advanced Lumiflux Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillLight02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100127",
+                  "name": "Advanced Lumiflux Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillLight02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100127",
+                  "name": "Advanced Lumiflux Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillLight02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100127",
+                  "name": "Advanced Lumiflux Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillLight02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100137",
+                  "name": "Specialized Lumiflux Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100137",
+                  "name": "Specialized Lumiflux Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100137",
+                  "name": "Specialized Lumiflux Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100137",
+                  "name": "Specialized Lumiflux Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100137",
+                  "name": "Specialized Lumiflux Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100117",
+                  "name": "Basic Lumiflux Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100117",
+                  "name": "Basic Lumiflux Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100127",
+                  "name": "Advanced Lumiflux Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillLight02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100127",
+                  "name": "Advanced Lumiflux Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillLight02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100127",
+                  "name": "Advanced Lumiflux Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillLight02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100127",
+                  "name": "Advanced Lumiflux Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillLight02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100137",
+                  "name": "Specialized Lumiflux Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100137",
+                  "name": "Specialized Lumiflux Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100137",
+                  "name": "Specialized Lumiflux Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100137",
+                  "name": "Specialized Lumiflux Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100137",
+                  "name": "Specialized Lumiflux Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100117",
+                  "name": "Basic Lumiflux Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100117",
+                  "name": "Basic Lumiflux Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100127",
+                  "name": "Advanced Lumiflux Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillLight02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100127",
+                  "name": "Advanced Lumiflux Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillLight02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100127",
+                  "name": "Advanced Lumiflux Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillLight02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100127",
+                  "name": "Advanced Lumiflux Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillLight02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100137",
+                  "name": "Specialized Lumiflux Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100137",
+                  "name": "Specialized Lumiflux Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100137",
+                  "name": "Specialized Lumiflux Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100137",
+                  "name": "Specialized Lumiflux Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100137",
+                  "name": "Specialized Lumiflux Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 5000,
+              "items": []
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "110515",
+                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
+                  "qty": 2,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss015.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss015.webp",
+                  "source": "the Airspace Sentinel / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Airspace Sentinel",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_Sentinel.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 28000,
+              "items": [
+                {
+                  "id": "110515",
+                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
+                  "qty": 4,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss015.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss015.webp",
+                  "source": "the Airspace Sentinel / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Airspace Sentinel",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_Sentinel.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 60000,
+              "items": [
+                {
+                  "id": "110010",
+                  "name": "Timeworn Husk",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss010.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss010.webp",
+                  "source": "Girtablullu",
+                  "sourceDetails": [
+                    {
+                      "name": "Girtablullu",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_Girtablu.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "110515",
+                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
+                  "qty": 9,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss015.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss015.webp",
+                  "source": "the Airspace Sentinel / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Airspace Sentinel",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_Sentinel.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 100000,
+              "items": [
+                {
+                  "id": "110010",
+                  "name": "Timeworn Husk",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss010.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss010.webp",
+                  "source": "Girtablullu",
+                  "sourceDetails": [
+                    {
+                      "name": "Girtablullu",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_Girtablu.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "110515",
+                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss015.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss015.webp",
+                  "source": "the Airspace Sentinel / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Airspace Sentinel",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_Sentinel.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 200000,
+              "items": [
+                {
+                  "id": "110010",
+                  "name": "Timeworn Husk",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss010.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss010.webp",
+                  "source": "Girtablullu",
+                  "sourceDetails": [
+                    {
+                      "name": "Girtablullu",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_Girtablu.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "110515",
+                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
+                  "qty": 30,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss015.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss015.webp",
+                  "source": "the Airspace Sentinel / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Airspace Sentinel",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_Sentinel.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        ],
+        "ascCost": 800000,
+        "talentCost": 2905000,
+        "currency": 3705000
+      },
+      "recent": 1
+    },
+    {
       "id": "zzz-lycaon",
       "n": "Lycaon",
       "localizedNames": {
@@ -2952,7 +5647,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -5759,7 +8454,7 @@
       },
       "facts": {
         "fullName": "Norma Hollowell",
-        "faction": "Roscaelifer External Strategy Department",
+        "faction": "Roscaelifer",
         "birthday": "July 26",
         "title": "En-Nah Time"
       },
@@ -5773,7 +8468,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -6385,7 +9080,7 @@
               {
                 "name": "EX Special Attack: En-Nah Barrage",
                 "type": "Special",
-                "desc": "With enough Energy, press to activate:\nOperates the turret to fire continuously and launch different types of missiles based on the target's state:\nWhen the primary target is not Stunned, launches an Armor-Piercing Warhead, dealing Fire DMG and inflicting a large amount of Daze.\nWhen the primary target is Stunned, launches a High-Explosive Warhead, dealing greater Fire DMG.\nAfter using this skill, Norma gains 16% and enters the En-Nah Barrage state for 32s. While En-Nah Barrage is active, Norma deploys two En-Nah Turrets to join the battle.\nContinuing to hold extends the firing time by up to 2s, continuously consuming energy. For each 1 point of energy consumed while holding, Norma gains an additional 0.4% Preheated Chamber, and this round of En-Nah Barrage lasts 0.8s longer, up to a maximum additional duration of {CAL:2*20*0.8,1,2}s.\nCharacter is invulnerable while using this skill.",
+                "desc": "With enough Energy, press to activate:\nOperates the turret to fire continuously and launch different types of missiles based on the target's state:\nWhen the primary target is not Stunned, launches an Armor-Piercing Warhead, dealing Fire DMG and inflicting a large amount of Daze.\nWhen the primary target is Stunned, launches a High-Explosive Warhead, dealing greater Fire DMG.\nAfter using this skill, Norma gains 16% Preheated Chamber and enters the En-Nah Barrage state for 32s. While En-Nah Barrage is active, Norma deploys two En-Nah Turrets to join the battle.\nContinuing to hold extends the firing time by up to 2s, continuously consuming energy. For each 1 point of energy consumed while holding, Norma gains an additional 0.4% Preheated Chamber, and this round of En-Nah Barrage lasts 0.8s longer, up to a maximum additional duration of {CAL:2*20*0.8,1,2}s.\nCharacter is invulnerable while using this skill.",
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -6615,7 +9310,7 @@
               {
                 "name": "Special Attack: Target Practice",
                 "type": "Special",
-                "desc": "During battle, automatically attacks enemies, dealing Fire DMG.",
+                "desc": "During battle, En-Nah Turret automatically attacks enemies, dealing Fire DMG.",
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -6675,7 +9370,7 @@
               {
                 "name": "EX Special Attack: Explosive Experiment",
                 "type": "Special",
-                "desc": "When any squad member Stuns an enemy, or when Norma consumes to trigger a Chain Attack, deploys its missile bay for 8s. Repeated triggers reset the duration.\nDuring this time, En-Nah Turrets automatically attack more frequently. When performing automatic attacks, they launch different missiles based on the enemy's state:\nWhen the primary target is not Stunned, launch an Armor-Piercing Warhead, dealing Fire DMG and inflicting a large amount of Daze.\nWhen the primary target is Stunned, launch a High-Explosive Warhead, dealing greater Fire DMG.",
+                "desc": "When any squad member Stuns an enemy, or when Norma consumes Preheated Chamber to trigger a Chain Attack, En-Nah Turret deploys its missile bay for 8s. Repeated triggers reset the duration.\nDuring this time, En-Nah Turrets automatically attack more frequently. When performing automatic attacks, they launch different missiles based on the enemy's state:\nWhen the primary target is not Stunned, launch an Armor-Piercing Warhead, dealing Fire DMG and inflicting a large amount of Daze.\nWhen the primary target is Stunned, launch a High-Explosive Warhead, dealing greater Fire DMG.",
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -6829,7 +9524,7 @@
               {
                 "name": "Ultimate: Doctrine of Superior Firepower",
                 "type": "Chain",
-                "desc": "When Decibel Rating is at Maximum, press to activate:\nCalls in tactical artillery to bombard enemies ahead, dealing massive Fire DMG.\nUpon activation, immediately gains 30% .\nCharacter is invulnerable while using this skill.",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nCalls in tactical artillery to bombard enemies ahead, dealing massive Fire DMG.\nUpon activation, immediately gains 30% Preheated Chamber.\nCharacter is invulnerable while using this skill.",
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -6894,42 +9589,42 @@
               {
                 "name": "Core Passive: Precise Guidance",
                 "type": "Core Passive",
-                "desc": "When initial CRIT Rate exceeds 50%, every additional 1% increases her CRIT DMG by 1.7%, up to a maximum increase of 85%.\nWhen initial CRIT Rate exceeds 50%, every additional 1% increases the Daze dealt by her EX Special Attack, Special Attack, and Ultimate by 0.8% when they hit an enemy, up to a maximum increase of 40%.\nNorma gains additional ATK based on her Sheer Force. Every 1 point of Sheer Force increases her ATK by 1.25, up to a maximum increase of 1,200 ATK.\nUpon entering the battlefield, Norma immediately gains 60% . In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen Preheated Chamber is at least 80%, the next Basic Attack: Hat Trick can trigger a Quick Assist regardless of cooldown, and consumes 80% Preheated Chamber to replace the Quick Assist with a Chain Attack.",
+                "desc": "When initial CRIT Rate exceeds 50%, every additional 1% increases her CRIT DMG by 1.7%, up to a maximum increase of 85%.\nWhen initial CRIT Rate exceeds 50%, every additional 1% increases the Daze dealt by her EX Special Attack, Special Attack, and Ultimate by 0.8% when they hit an enemy, up to a maximum increase of 40%.\nNorma gains additional ATK based on her Sheer Force. Every 1 point of Sheer Force increases her ATK by 1.25, up to a maximum increase of 1,200 ATK.\nUpon entering the battlefield, Norma immediately gains 60% Preheated Chamber. In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen Preheated Chamber is at least 80%, the next Basic Attack: Hat Trick can trigger a Quick Assist regardless of cooldown, and consumes 80% Preheated Chamber to replace the Quick Assist with a Chain Attack.",
                 "levels": [
                   {
                     "label": "Lv. 1",
-                    "text": "When initial CRIT Rate exceeds 50%, every additional 1% increases her CRIT DMG by 0.86%, up to a maximum increase of 43%.\nWhen initial CRIT Rate exceeds 50%, every additional 1% increases the Daze dealt by her EX Special Attack, Special Attack, and Ultimate by 0.44% when they hit an enemy, up to a maximum increase of 22%.\nNorma gains additional ATK based on her Sheer Force. Every 1 point of Sheer Force increases her ATK by 1.25, up to a maximum increase of 1,200 ATK.\nUpon entering the battlefield, Norma immediately gains 60% . In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen Preheated Chamber is at least 80%, the next Basic Attack: Hat Trick can trigger a Quick Assist regardless of cooldown, and consumes 80% Preheated Chamber to replace the Quick Assist with a Chain Attack."
+                    "text": "When initial CRIT Rate exceeds 50%, every additional 1% increases her CRIT DMG by 0.86%, up to a maximum increase of 43%.\nWhen initial CRIT Rate exceeds 50%, every additional 1% increases the Daze dealt by her EX Special Attack, Special Attack, and Ultimate by 0.44% when they hit an enemy, up to a maximum increase of 22%.\nNorma gains additional ATK based on her Sheer Force. Every 1 point of Sheer Force increases her ATK by 1.25, up to a maximum increase of 1,200 ATK.\nUpon entering the battlefield, Norma immediately gains 60% Preheated Chamber. In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen Preheated Chamber is at least 80%, the next Basic Attack: Hat Trick can trigger a Quick Assist regardless of cooldown, and consumes 80% Preheated Chamber to replace the Quick Assist with a Chain Attack."
                   },
                   {
                     "label": "Lv. 2",
-                    "text": "When initial CRIT Rate exceeds 50%, every additional 1% increases her CRIT DMG by 1%, up to a maximum increase of 50%.\nWhen initial CRIT Rate exceeds 50%, every additional 1% increases the Daze dealt by her EX Special Attack, Special Attack, and Ultimate by 0.5% when they hit an enemy, up to a maximum increase of 25%.\nNorma gains additional ATK based on her Sheer Force. Every 1 point of Sheer Force increases her ATK by 1.25, up to a maximum increase of 1,200 ATK.\nUpon entering the battlefield, Norma immediately gains 60% . In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen Preheated Chamber is at least 80%, the next Basic Attack: Hat Trick can trigger a Quick Assist regardless of cooldown, and consumes 80% Preheated Chamber to replace the Quick Assist with a Chain Attack."
+                    "text": "When initial CRIT Rate exceeds 50%, every additional 1% increases her CRIT DMG by 1%, up to a maximum increase of 50%.\nWhen initial CRIT Rate exceeds 50%, every additional 1% increases the Daze dealt by her EX Special Attack, Special Attack, and Ultimate by 0.5% when they hit an enemy, up to a maximum increase of 25%.\nNorma gains additional ATK based on her Sheer Force. Every 1 point of Sheer Force increases her ATK by 1.25, up to a maximum increase of 1,200 ATK.\nUpon entering the battlefield, Norma immediately gains 60% Preheated Chamber. In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen Preheated Chamber is at least 80%, the next Basic Attack: Hat Trick can trigger a Quick Assist regardless of cooldown, and consumes 80% Preheated Chamber to replace the Quick Assist with a Chain Attack."
                   },
                   {
                     "label": "Lv. 3",
-                    "text": "When initial CRIT Rate exceeds 50%, every additional 1% increases her CRIT DMG by 1.14%, up to a maximum increase of 57%.\nWhen initial CRIT Rate exceeds 50%, every additional 1% increases the Daze dealt by her EX Special Attack, Special Attack, and Ultimate by 0.56% when they hit an enemy, up to a maximum increase of 28%.\nNorma gains additional ATK based on her Sheer Force. Every 1 point of Sheer Force increases her ATK by 1.25, up to a maximum increase of 1,200 ATK.\nUpon entering the battlefield, Norma immediately gains 60% . In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen Preheated Chamber is at least 80%, the next Basic Attack: Hat Trick can trigger a Quick Assist regardless of cooldown, and consumes 80% Preheated Chamber to replace the Quick Assist with a Chain Attack."
+                    "text": "When initial CRIT Rate exceeds 50%, every additional 1% increases her CRIT DMG by 1.14%, up to a maximum increase of 57%.\nWhen initial CRIT Rate exceeds 50%, every additional 1% increases the Daze dealt by her EX Special Attack, Special Attack, and Ultimate by 0.56% when they hit an enemy, up to a maximum increase of 28%.\nNorma gains additional ATK based on her Sheer Force. Every 1 point of Sheer Force increases her ATK by 1.25, up to a maximum increase of 1,200 ATK.\nUpon entering the battlefield, Norma immediately gains 60% Preheated Chamber. In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen Preheated Chamber is at least 80%, the next Basic Attack: Hat Trick can trigger a Quick Assist regardless of cooldown, and consumes 80% Preheated Chamber to replace the Quick Assist with a Chain Attack."
                   },
                   {
                     "label": "Lv. 4",
-                    "text": "When initial CRIT Rate exceeds 50%, every additional 1% increases her CRIT DMG by 1.28%, up to a maximum increase of 64%.\nWhen initial CRIT Rate exceeds 50%, every additional 1% increases the Daze dealt by her EX Special Attack, Special Attack, and Ultimate by 0.62% when they hit an enemy, up to a maximum increase of 31%.\nNorma gains additional ATK based on her Sheer Force. Every 1 point of Sheer Force increases her ATK by 1.25, up to a maximum increase of 1,200 ATK.\nUpon entering the battlefield, Norma immediately gains 60% . In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen Preheated Chamber is at least 80%, the next Basic Attack: Hat Trick can trigger a Quick Assist regardless of cooldown, and consumes 80% Preheated Chamber to replace the Quick Assist with a Chain Attack."
+                    "text": "When initial CRIT Rate exceeds 50%, every additional 1% increases her CRIT DMG by 1.28%, up to a maximum increase of 64%.\nWhen initial CRIT Rate exceeds 50%, every additional 1% increases the Daze dealt by her EX Special Attack, Special Attack, and Ultimate by 0.62% when they hit an enemy, up to a maximum increase of 31%.\nNorma gains additional ATK based on her Sheer Force. Every 1 point of Sheer Force increases her ATK by 1.25, up to a maximum increase of 1,200 ATK.\nUpon entering the battlefield, Norma immediately gains 60% Preheated Chamber. In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen Preheated Chamber is at least 80%, the next Basic Attack: Hat Trick can trigger a Quick Assist regardless of cooldown, and consumes 80% Preheated Chamber to replace the Quick Assist with a Chain Attack."
                   },
                   {
                     "label": "Lv. 5",
-                    "text": "When initial CRIT Rate exceeds 50%, every additional 1% increases her CRIT DMG by 1.42%, up to a maximum increase of 71%.\nWhen initial CRIT Rate exceeds 50%, every additional 1% increases the Daze dealt by her EX Special Attack, Special Attack, and Ultimate by 0.68% when they hit an enemy, up to a maximum increase of 34%.\nNorma gains additional ATK based on her Sheer Force. Every 1 point of Sheer Force increases her ATK by 1.25, up to a maximum increase of 1,200 ATK.\nUpon entering the battlefield, Norma immediately gains 60% . In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen Preheated Chamber is at least 80%, the next Basic Attack: Hat Trick can trigger a Quick Assist regardless of cooldown, and consumes 80% Preheated Chamber to replace the Quick Assist with a Chain Attack."
+                    "text": "When initial CRIT Rate exceeds 50%, every additional 1% increases her CRIT DMG by 1.42%, up to a maximum increase of 71%.\nWhen initial CRIT Rate exceeds 50%, every additional 1% increases the Daze dealt by her EX Special Attack, Special Attack, and Ultimate by 0.68% when they hit an enemy, up to a maximum increase of 34%.\nNorma gains additional ATK based on her Sheer Force. Every 1 point of Sheer Force increases her ATK by 1.25, up to a maximum increase of 1,200 ATK.\nUpon entering the battlefield, Norma immediately gains 60% Preheated Chamber. In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen Preheated Chamber is at least 80%, the next Basic Attack: Hat Trick can trigger a Quick Assist regardless of cooldown, and consumes 80% Preheated Chamber to replace the Quick Assist with a Chain Attack."
                   },
                   {
                     "label": "Lv. 6",
-                    "text": "When initial CRIT Rate exceeds 50%, every additional 1% increases her CRIT DMG by 1.56%, up to a maximum increase of 78%.\nWhen initial CRIT Rate exceeds 50%, every additional 1% increases the Daze dealt by her EX Special Attack, Special Attack, and Ultimate by 0.74% when they hit an enemy, up to a maximum increase of 37%.\nNorma gains additional ATK based on her Sheer Force. Every 1 point of Sheer Force increases her ATK by 1.25, up to a maximum increase of 1,200 ATK.\nUpon entering the battlefield, Norma immediately gains 60% . In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen Preheated Chamber is at least 80%, the next Basic Attack: Hat Trick can trigger a Quick Assist regardless of cooldown, and consumes 80% Preheated Chamber to replace the Quick Assist with a Chain Attack."
+                    "text": "When initial CRIT Rate exceeds 50%, every additional 1% increases her CRIT DMG by 1.56%, up to a maximum increase of 78%.\nWhen initial CRIT Rate exceeds 50%, every additional 1% increases the Daze dealt by her EX Special Attack, Special Attack, and Ultimate by 0.74% when they hit an enemy, up to a maximum increase of 37%.\nNorma gains additional ATK based on her Sheer Force. Every 1 point of Sheer Force increases her ATK by 1.25, up to a maximum increase of 1,200 ATK.\nUpon entering the battlefield, Norma immediately gains 60% Preheated Chamber. In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen Preheated Chamber is at least 80%, the next Basic Attack: Hat Trick can trigger a Quick Assist regardless of cooldown, and consumes 80% Preheated Chamber to replace the Quick Assist with a Chain Attack."
                   },
                   {
                     "label": "Lv. 7",
-                    "text": "When initial CRIT Rate exceeds 50%, every additional 1% increases her CRIT DMG by 1.7%, up to a maximum increase of 85%.\nWhen initial CRIT Rate exceeds 50%, every additional 1% increases the Daze dealt by her EX Special Attack, Special Attack, and Ultimate by 0.8% when they hit an enemy, up to a maximum increase of 40%.\nNorma gains additional ATK based on her Sheer Force. Every 1 point of Sheer Force increases her ATK by 1.25, up to a maximum increase of 1,200 ATK.\nUpon entering the battlefield, Norma immediately gains 60% . In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen Preheated Chamber is at least 80%, the next Basic Attack: Hat Trick can trigger a Quick Assist regardless of cooldown, and consumes 80% Preheated Chamber to replace the Quick Assist with a Chain Attack."
+                    "text": "When initial CRIT Rate exceeds 50%, every additional 1% increases her CRIT DMG by 1.7%, up to a maximum increase of 85%.\nWhen initial CRIT Rate exceeds 50%, every additional 1% increases the Daze dealt by her EX Special Attack, Special Attack, and Ultimate by 0.8% when they hit an enemy, up to a maximum increase of 40%.\nNorma gains additional ATK based on her Sheer Force. Every 1 point of Sheer Force increases her ATK by 1.25, up to a maximum increase of 1,200 ATK.\nUpon entering the battlefield, Norma immediately gains 60% Preheated Chamber. In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen Preheated Chamber is at least 80%, the next Basic Attack: Hat Trick can trigger a Quick Assist regardless of cooldown, and consumes 80% Preheated Chamber to replace the Quick Assist with a Chain Attack."
                   }
                 ]
               },
               {
                 "name": "Additional Ability: Advantage in Numbers",
                 "type": "Additional Ability",
-                "desc": "When another character in your squad is an Attack or Rupture character, or shares the same Faction:\nWhen Norma, her creations, or Combat Bangboo hit an enemy, they apply 1 stack of Tech Divide. Each stack of Tech Divide increases the target's Stun DMG Multiplier by 3%, stacking up to 10 times. This effect can stack once every 0.5s.\nEnemies with Tech Divide stacks have their Stun duration increased by 2s upon becoming Stunned. This Stun duration increase cannot stack with similar effects. When an enemy affected by Tech Divide recovers from Stun, the Tech Divide effect ends.\nWhile is active, Norma's ATK increases by 44. This effect scales with character level, increasing by 14 per level, up to a maximum increase of 870.\nWhile En-Nah Barrage is active, DMG dealt by all squad members increases by 20%.",
+                "desc": "When another character in your squad is an Attack or Rupture character, or shares the same Faction:\nWhen Norma, her creations, or Combat Bangboo hit an enemy, they apply 1 stack of Tech Divide. Each stack of Tech Divide increases the target's Stun DMG Multiplier by 3%, stacking up to 10 times. This effect can stack once every 0.5s.\nEnemies with Tech Divide stacks have their Stun duration increased by 2s upon becoming Stunned. This Stun duration increase cannot stack with similar effects. When an enemy affected by Tech Divide recovers from Stun, the Tech Divide effect ends.\nWhile En-Nah Barrage is active, Norma's ATK increases by 44. This effect scales with character level, increasing by 14 per level, up to a maximum increase of 870.\nWhile En-Nah Barrage is active, DMG dealt by all squad members increases by 20%.",
                 "levels": []
               }
             ]
@@ -6940,7 +9635,7 @@
               {
                 "name": "Visionary Extremism",
                 "type": "Mindscape 1",
-                "desc": "The duration of the En-Nah Turret's missile bay deployed by EX Special Attack: Explosive Experiment increases to 12s. When an Armor-Piercing Warhead or High-Explosive Warhead from any skill hits an enemy, the target's All-Attribute RES is reduced by 15% for 15s."
+                "desc": "The duration of the En-Nah Turret's missile bay deployed by EX Special Attack: Explosive Experiment increases to 12s. When an Armor-Piercing Warhead or High-Explosive Warhead from any skill hits an enemy, the target's All-Attribute RES is reduced by 15% for 15s. Repeated triggers reset the duration."
               },
               {
                 "name": "Axiom of Universal Unity",
@@ -8519,7 +11214,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -8655,7 +11350,7 @@
               {
                 "name": "Basic Attack: Celestial Light",
                 "type": "Basic",
-                "desc": "With 30 or more , hold to activate:\nUnleashes up to four attacks forward, dealing massive Ether DMG.\nIf another character is switched in during the 3rd hit, Pyrois automatically performs the 4th hit off-field.\nEach hit consumes a certain amount of Solar Prominence.\nCharacter is invulnerable during the 3rd and 4th hits.",
+                "desc": "With 30 or more Solar Prominence, hold to activate:\nUnleashes up to four attacks forward, dealing massive Ether DMG.\nIf another character is switched in during the 3rd hit, Pyrois automatically performs the 4th hit off-field.\nEach hit consumes a certain amount of Solar Prominence.\nCharacter is invulnerable during the 3rd and 4th hits.",
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -8882,7 +11577,7 @@
               {
                 "name": "Dodge Counter: First Light",
                 "type": "Dodge",
-                "desc": "Press during a Perfect Dodge to activate:\nPerforms a forward spinning slash, dealing Ether DMG.\nAfter using the skill and with 30 or more , hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill.",
+                "desc": "Press during a Perfect Dodge to activate:\nPerforms a forward spinning slash, dealing Ether DMG.\nAfter using the skill and with 30 or more Solar Prominence, hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill.",
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -8942,7 +11637,7 @@
               {
                 "name": "Quick Assist: Duskguard",
                 "type": "Assist",
-                "desc": "When the active character is launched, press to activate:\nLaunches a series of attacks against the target, dealing Ether DMG.\nAfter using the skill and with 30 or more , hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill.",
+                "desc": "When the active character is launched, press to activate:\nLaunches a series of attacks against the target, dealing Ether DMG.\nAfter using the skill and with 30 or more Solar Prominence, hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill.",
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -9079,7 +11774,7 @@
               {
                 "name": "Assist Follow-Up: Return to Daylight",
                 "type": "Assist",
-                "desc": "Press after a Defensive Assist to activate:\nPerforms a forward thrust attack, dealing Ether DMG.\nAfter using the skill and with 30 or more , press or hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill.",
+                "desc": "Press after a Defensive Assist to activate:\nPerforms a forward thrust attack, dealing Ether DMG.\nAfter using the skill and with 30 or more Solar Prominence, press or hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill.",
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -9199,7 +11894,7 @@
               {
                 "name": "EX Special Attack: Sun's Halo",
                 "type": "Special",
-                "desc": "With enough Energy, press to activate:\nQuickly charges forward and performs a series of consecutive attacks, dealing massive Ether DMG.\nIf hit by an enemy attack during the charge, triggers a Perfect Block effect, nullifying the damage and increasing the move's Interrupt Level to that of a Heavy Defensive Assist.\nAfter using the skill and with 30 or more , hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill.",
+                "desc": "With enough Energy, press to activate:\nQuickly charges forward and performs a series of consecutive attacks, dealing massive Ether DMG.\nIf hit by an enemy attack during the charge, triggers a Perfect Block effect, nullifying the damage and increasing the move's Interrupt Level to that of a Heavy Defensive Assist.\nAfter using the skill and with 30 or more Solar Prominence, hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill.",
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -9302,7 +11997,7 @@
               {
                 "name": "Chain Attack: Ceremonial March",
                 "type": "Chain",
-                "desc": "When a Chain Attack is triggered, select the character to activate:\nPerforms a coordinated attack with Phaethon, dealing massive Ether DMG.\nAfter using the skill and with 30 or more , press or hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill.",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nPerforms a coordinated attack with Phaethon, dealing massive Ether DMG.\nAfter using the skill and with 30 or more Solar Prominence, press or hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill.",
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -9362,7 +12057,7 @@
               {
                 "name": "Ultimate: Total Annihilation",
                 "type": "Chain",
-                "desc": "When Decibel Rating is at or above Blasting, press and select the upper branch to activate:\nAfter charging, performs a downward slash, dealing massive Ether DMG.\nAfter using the skill and with 30 or more , press or hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill.",
+                "desc": "When Decibel Rating is at or above Blasting, press and select the upper branch to activate:\nAfter charging, performs a downward slash, dealing massive Ether DMG.\nAfter using the skill and with 30 or more Solar Prominence, press or hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill.",
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -9422,7 +12117,7 @@
               {
                 "name": "Ultimate: Triumphant Return",
                 "type": "Chain",
-                "desc": "When Decibel Rating is at or above Blasting, press and select the lower branch to activate:\nReleases an energy burst in the surrounding area, dealing massive Ether DMG.\nAfter using the skill and with 30 or more , hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill.",
+                "desc": "When Decibel Rating is at or above Blasting, press and select the lower branch to activate:\nReleases an energy burst in the surrounding area, dealing massive Ether DMG.\nAfter using the skill and with 30 or more Solar Prominence, hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill.",
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -9482,7 +12177,7 @@
               {
                 "name": "Ultimate: Unbound Swordstorm",
                 "type": "Chain",
-                "desc": "When Decibel Rating is at or above Blasting, press and select the left branch to activate:\nUnleashes consecutive attacks forward, dealing massive Ether DMG.\nAfter using the skill and with 30 or more , hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill.",
+                "desc": "When Decibel Rating is at or above Blasting, press and select the left branch to activate:\nUnleashes consecutive attacks forward, dealing massive Ether DMG.\nAfter using the skill and with 30 or more Solar Prominence, hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill.",
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -9542,7 +12237,7 @@
               {
                 "name": "Ultimate: Eternal Imprisonment",
                 "type": "Chain",
-                "desc": "When Decibel Rating is at or above Blasting, press and select the right branch to activate:\nGathers energy ahead before unleashing a Finishing Move, dealing massive Ether DMG.\nAfter using the skill and with 30 or more , hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill.",
+                "desc": "When Decibel Rating is at or above Blasting, press and select the right branch to activate:\nGathers energy ahead before unleashing a Finishing Move, dealing massive Ether DMG.\nAfter using the skill and with 30 or more Solar Prominence, hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill.",
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -9607,35 +12302,35 @@
               {
                 "name": "Core Passive: Radiant Chariot",
                 "type": "Core Passive",
-                "desc": "Upon entering battle, Pyrois gains 30 . This effect can trigger once every 180s in Investigation Zone mode. Landing different attacks on enemies grants a certain amount of Solar Prominence, and Pyrois also gains 0.5 Solar Prominence every second while in combat, up to a max of 60.\nWhen Pyrois uses different Ultimates, they gain the following effects:\nUpper Branch - Ultimate: Total Annihilation: Gain 30 Solar Prominence and enter the state. While in the Mirage state, Pyrois' Ultimate deals 40% increased CRIT DMG against Stunned enemies, and with 30 or more Solar Prominence hold during the 4th hit of Basic Attack: Celestial Light to immediately follow up with the 3rd hit of Basic Attack: Celestial Light. This effect lasts 21s. Repeated triggers reset the duration.\nLower Branch - Ultimate: Triumphant Return: Enter the state. While in the Sunflare state, Energy Generation Rate increases by 15%, and DMG dealt increases by 40%, and triggering a Perfect Block with an EX Special Attack grants 10 Solar Prominence. This effect lasts 200s. Repeated triggers reset the duration.\nLeft Branch - Ultimate: Unbound Swordstorm: Heavy attacks that hit enemies in the Contamination state deal 900% of ATK as additional DMG.\nRight Branch - Ultimate: Eternal Imprisonment: Heavy attacks that hit Stunned enemies trigger the effect, dealing 2,250% of ATK as additional DMG. Upon activating this skill, the Stun duration of all currently Stunned enemies is extended by 3s. When the Finishing Move hits, the enemy's Stun state ends.",
+                "desc": "Upon entering battle, Pyrois gains 30 Solar Prominence. This effect can trigger once every 180s in Investigation Zone mode. Landing different attacks on enemies grants a certain amount of Solar Prominence, and Pyrois also gains 0.5 Solar Prominence every second while in-combat, up to a max of 60.\nWhen Pyrois uses different Ultimates, they gain the following effects:\nUpper Branch - Ultimate: Total Annihilation: Gains 30 Solar Prominence and enters the Mirage state. While in the Mirage state, Pyrois' Ultimate deals 40% increased CRIT DMG against Stunned enemies, and with 30 or more Solar Prominence, hold during the 4th hit of Basic Attack: Celestial Light to immediately follow up with the 3rd hit of Basic Attack: Celestial Light. This effect lasts 21s. Repeated triggers reset the duration.\nLower Branch - Ultimate: Triumphant Return: Enters the Sunflare state. While in the Sunflare state, Energy Generation Rate increases by 15%, DMG dealt increases by 40%, and triggering a Perfect Block with an EX Special Attack grants 10 Solar Prominence. This effect lasts 200s. Repeated triggers reset the duration.\nLeft Branch - Ultimate: Unbound Swordstorm: When this skill's heavy attack hits an enemy in the Contamination state, it deals 900% of ATK as additional DMG.\nRight Branch - Ultimate: Eternal Imprisonment: When this skill's heavy attack hits a Stunned enemy, the Totalize effect is triggered, dealing 2,250% of ATK as additional DMG. Upon activating this skill, the Stun duration of all currently Stunned enemies is extended by 3s. After landing the finishing move, the enemy's Stunned state ends.",
                 "levels": [
                   {
                     "label": "Lv. 1",
-                    "text": "Upon entering battle, Pyrois gains 30 . This effect can trigger once every 180s in Investigation Zone mode. Landing different attacks on enemies grants a certain amount of Solar Prominence, and Pyrois also gains 0.5 Solar Prominence every second while in combat, up to a max of 60.\nWhen Pyrois uses different Ultimates, they gain the following effects:\nUpper Branch - Ultimate: Total Annihilation: Gain 30 Solar Prominence and enter the state. While in the Mirage state, Pyrois' Ultimate deals 40% increased CRIT DMG against Stunned enemies, and with 30 or more Solar Prominence hold during the 4th hit of Basic Attack: Celestial Light to immediately follow up with the 3rd hit of Basic Attack: Celestial Light. This effect lasts 21s. Repeated triggers reset the duration.\nLower Branch - Ultimate: Triumphant Return: Enter the state. While in the Sunflare state, Energy Generation Rate increases by 15%, and DMG dealt increases by 20%, and triggering a Perfect Block with an EX Special Attack grants 10 Solar Prominence. This effect lasts 200s. Repeated triggers reset the duration.\nLeft Branch - Ultimate: Unbound Swordstorm: Heavy attacks that hit enemies in the Contamination state deal 450% of ATK as additional DMG.\nRight Branch - Ultimate: Eternal Imprisonment: Heavy attacks that hit Stunned enemies trigger the effect, dealing 1,125% of ATK as additional DMG. Upon activating this skill, the Stun duration of all currently Stunned enemies is extended by 3s. When the Finishing Move hits, the enemy's Stun state ends."
+                    "text": "Upon entering battle, Pyrois gains 30 Solar Prominence. This effect can trigger once every 180s in Investigation Zone mode. Landing different attacks on enemies grants a certain amount of Solar Prominence, and Pyrois also gains 0.5 Solar Prominence every second while in-combat, up to a max of 60.\nWhen Pyrois uses different Ultimates, they gain the following effects:\nUpper Branch - Ultimate: Total Annihilation: Gains 30 Solar Prominence and enters the Mirage state. While in the Mirage state, Pyrois' Ultimate deals 40% increased CRIT DMG against Stunned enemies, and with 30 or more Solar Prominence, hold during the 4th hit of Basic Attack: Celestial Light to immediately follow up with the 3rd hit of Basic Attack: Celestial Light. This effect lasts 21s. Repeated triggers reset the duration.\nLower Branch - Ultimate: Triumphant Return: Enters the Sunflare state. While in the Sunflare state, Energy Generation Rate increases by 15%, DMG dealt increases by 20%, and triggering a Perfect Block with an EX Special Attack grants 10 Solar Prominence. This effect lasts 200s. Repeated triggers reset the duration.\nLeft Branch - Ultimate: Unbound Swordstorm: When this skill's heavy attack hits an enemy in the Contamination state, it deals 450% of ATK as additional DMG.\nRight Branch - Ultimate: Eternal Imprisonment: When this skill's heavy attack hits a Stunned enemy, the Totalize effect is triggered, dealing 1,125% of ATK as additional DMG. Upon activating this skill, the Stun duration of all currently Stunned enemies is extended by 3s. After landing the finishing move, the enemy's Stunned state ends."
                   },
                   {
                     "label": "Lv. 2",
-                    "text": "Upon entering battle, Pyrois gains 30 . This effect can trigger once every 180s in Investigation Zone mode. Landing different attacks on enemies grants a certain amount of Solar Prominence, and Pyrois also gains 0.5 Solar Prominence every second while in combat, up to a max of 60.\nWhen Pyrois uses different Ultimates, they gain the following effects:\nUpper Branch - Ultimate: Total Annihilation: Gain 30 Solar Prominence and enter the state. While in the Mirage state, Pyrois' Ultimate deals 40% increased CRIT DMG against Stunned enemies, and with 30 or more Solar Prominence hold during the 4th hit of Basic Attack: Celestial Light to immediately follow up with the 3rd hit of Basic Attack: Celestial Light. This effect lasts 21s. Repeated triggers reset the duration.\nLower Branch - Ultimate: Triumphant Return: Enter the state. While in the Sunflare state, Energy Generation Rate increases by 15%, and DMG dealt increases by 23.4%, and triggering a Perfect Block with an EX Special Attack grants 10 Solar Prominence. This effect lasts 200s. Repeated triggers reset the duration.\nLeft Branch - Ultimate: Unbound Swordstorm: Heavy attacks that hit enemies in the Contamination state deal 525% of ATK as additional DMG.\nRight Branch - Ultimate: Eternal Imprisonment: Heavy attacks that hit Stunned enemies trigger the effect, dealing 1,312% of ATK as additional DMG. Upon activating this skill, the Stun duration of all currently Stunned enemies is extended by 3s. When the Finishing Move hits, the enemy's Stun state ends."
+                    "text": "Upon entering battle, Pyrois gains 30 Solar Prominence. This effect can trigger once every 180s in Investigation Zone mode. Landing different attacks on enemies grants a certain amount of Solar Prominence, and Pyrois also gains 0.5 Solar Prominence every second while in-combat, up to a max of 60.\nWhen Pyrois uses different Ultimates, they gain the following effects:\nUpper Branch - Ultimate: Total Annihilation: Gains 30 Solar Prominence and enters the Mirage state. While in the Mirage state, Pyrois' Ultimate deals 40% increased CRIT DMG against Stunned enemies, and with 30 or more Solar Prominence, hold during the 4th hit of Basic Attack: Celestial Light to immediately follow up with the 3rd hit of Basic Attack: Celestial Light. This effect lasts 21s. Repeated triggers reset the duration.\nLower Branch - Ultimate: Triumphant Return: Enters the Sunflare state. While in the Sunflare state, Energy Generation Rate increases by 15%, DMG dealt increases by 23.4%, and triggering a Perfect Block with an EX Special Attack grants 10 Solar Prominence. This effect lasts 200s. Repeated triggers reset the duration.\nLeft Branch - Ultimate: Unbound Swordstorm: When this skill's heavy attack hits an enemy in the Contamination state, it deals 525% of ATK as additional DMG.\nRight Branch - Ultimate: Eternal Imprisonment: When this skill's heavy attack hits a Stunned enemy, the Totalize effect is triggered, dealing 1,312% of ATK as additional DMG. Upon activating this skill, the Stun duration of all currently Stunned enemies is extended by 3s. After landing the finishing move, the enemy's Stunned state ends."
                   },
                   {
                     "label": "Lv. 3",
-                    "text": "Upon entering battle, Pyrois gains 30 . This effect can trigger once every 180s in Investigation Zone mode. Landing different attacks on enemies grants a certain amount of Solar Prominence, and Pyrois also gains 0.5 Solar Prominence every second while in combat, up to a max of 60.\nWhen Pyrois uses different Ultimates, they gain the following effects:\nUpper Branch - Ultimate: Total Annihilation: Gain 30 Solar Prominence and enter the state. While in the Mirage state, Pyrois' Ultimate deals 40% increased CRIT DMG against Stunned enemies, and with 30 or more Solar Prominence hold during the 4th hit of Basic Attack: Celestial Light to immediately follow up with the 3rd hit of Basic Attack: Celestial Light. This effect lasts 21s. Repeated triggers reset the duration.\nLower Branch - Ultimate: Triumphant Return: Enter the state. While in the Sunflare state, Energy Generation Rate increases by 15%, and DMG dealt increases by 26.8%, and triggering a Perfect Block with an EX Special Attack grants 10 Solar Prominence. This effect lasts 200s. Repeated triggers reset the duration.\nLeft Branch - Ultimate: Unbound Swordstorm: Heavy attacks that hit enemies in the Contamination state deal 600% of ATK as additional DMG.\nRight Branch - Ultimate: Eternal Imprisonment: Heavy attacks that hit Stunned enemies trigger the effect, dealing 1,499% of ATK as additional DMG. Upon activating this skill, the Stun duration of all currently Stunned enemies is extended by 3s. When the Finishing Move hits, the enemy's Stun state ends."
+                    "text": "Upon entering battle, Pyrois gains 30 Solar Prominence. This effect can trigger once every 180s in Investigation Zone mode. Landing different attacks on enemies grants a certain amount of Solar Prominence, and Pyrois also gains 0.5 Solar Prominence every second while in-combat, up to a max of 60.\nWhen Pyrois uses different Ultimates, they gain the following effects:\nUpper Branch - Ultimate: Total Annihilation: Gains 30 Solar Prominence and enters the Mirage state. While in the Mirage state, Pyrois' Ultimate deals 40% increased CRIT DMG against Stunned enemies, and with 30 or more Solar Prominence, hold during the 4th hit of Basic Attack: Celestial Light to immediately follow up with the 3rd hit of Basic Attack: Celestial Light. This effect lasts 21s. Repeated triggers reset the duration.\nLower Branch - Ultimate: Triumphant Return: Enters the Sunflare state. While in the Sunflare state, Energy Generation Rate increases by 15%, DMG dealt increases by 26.8%, and triggering a Perfect Block with an EX Special Attack grants 10 Solar Prominence. This effect lasts 200s. Repeated triggers reset the duration.\nLeft Branch - Ultimate: Unbound Swordstorm: When this skill's heavy attack hits an enemy in the Contamination state, it deals 600% of ATK as additional DMG.\nRight Branch - Ultimate: Eternal Imprisonment: When this skill's heavy attack hits a Stunned enemy, the Totalize effect is triggered, dealing 1,499% of ATK as additional DMG. Upon activating this skill, the Stun duration of all currently Stunned enemies is extended by 3s. After landing the finishing move, the enemy's Stunned state ends."
                   },
                   {
                     "label": "Lv. 4",
-                    "text": "Upon entering battle, Pyrois gains 30 . This effect can trigger once every 180s in Investigation Zone mode. Landing different attacks on enemies grants a certain amount of Solar Prominence, and Pyrois also gains 0.5 Solar Prominence every second while in combat, up to a max of 60.\nWhen Pyrois uses different Ultimates, they gain the following effects:\nUpper Branch - Ultimate: Total Annihilation: Gain 30 Solar Prominence and enter the state. While in the Mirage state, Pyrois' Ultimate deals 40% increased CRIT DMG against Stunned enemies, and with 30 or more Solar Prominence hold during the 4th hit of Basic Attack: Celestial Light to immediately follow up with the 3rd hit of Basic Attack: Celestial Light. This effect lasts 21s. Repeated triggers reset the duration.\nLower Branch - Ultimate: Triumphant Return: Enter the state. While in the Sunflare state, Energy Generation Rate increases by 15%, and DMG dealt increases by 30.2%, and triggering a Perfect Block with an EX Special Attack grants 10 Solar Prominence. This effect lasts 200s. Repeated triggers reset the duration.\nLeft Branch - Ultimate: Unbound Swordstorm: Heavy attacks that hit enemies in the Contamination state deal 675% of ATK as additional DMG.\nRight Branch - Ultimate: Eternal Imprisonment: Heavy attacks that hit Stunned enemies trigger the effect, dealing 1,686% of ATK as additional DMG. Upon activating this skill, the Stun duration of all currently Stunned enemies is extended by 3s. When the Finishing Move hits, the enemy's Stun state ends."
+                    "text": "Upon entering battle, Pyrois gains 30 Solar Prominence. This effect can trigger once every 180s in Investigation Zone mode. Landing different attacks on enemies grants a certain amount of Solar Prominence, and Pyrois also gains 0.5 Solar Prominence every second while in-combat, up to a max of 60.\nWhen Pyrois uses different Ultimates, they gain the following effects:\nUpper Branch - Ultimate: Total Annihilation: Gains 30 Solar Prominence and enters the Mirage state. While in the Mirage state, Pyrois' Ultimate deals 40% increased CRIT DMG against Stunned enemies, and with 30 or more Solar Prominence, hold during the 4th hit of Basic Attack: Celestial Light to immediately follow up with the 3rd hit of Basic Attack: Celestial Light. This effect lasts 21s. Repeated triggers reset the duration.\nLower Branch - Ultimate: Triumphant Return: Enters the Sunflare state. While in the Sunflare state, Energy Generation Rate increases by 15%, DMG dealt increases by 30.2%, and triggering a Perfect Block with an EX Special Attack grants 10 Solar Prominence. This effect lasts 200s. Repeated triggers reset the duration.\nLeft Branch - Ultimate: Unbound Swordstorm: When this skill's heavy attack hits an enemy in the Contamination state, it deals 675% of ATK as additional DMG.\nRight Branch - Ultimate: Eternal Imprisonment: When this skill's heavy attack hits a Stunned enemy, the Totalize effect is triggered, dealing 1,686% of ATK as additional DMG. Upon activating this skill, the Stun duration of all currently Stunned enemies is extended by 3s. After landing the finishing move, the enemy's Stunned state ends."
                   },
                   {
                     "label": "Lv. 5",
-                    "text": "Upon entering battle, Pyrois gains 30 . This effect can trigger once every 180s in Investigation Zone mode. Landing different attacks on enemies grants a certain amount of Solar Prominence, and Pyrois also gains 0.5 Solar Prominence every second while in combat, up to a max of 60.\nWhen Pyrois uses different Ultimates, they gain the following effects:\nUpper Branch - Ultimate: Total Annihilation: Gain 30 Solar Prominence and enter the state. While in the Mirage state, Pyrois' Ultimate deals 40% increased CRIT DMG against Stunned enemies, and with 30 or more Solar Prominence hold during the 4th hit of Basic Attack: Celestial Light to immediately follow up with the 3rd hit of Basic Attack: Celestial Light. This effect lasts 21s. Repeated triggers reset the duration.\nLower Branch - Ultimate: Triumphant Return: Enter the state. While in the Sunflare state, Energy Generation Rate increases by 15%, and DMG dealt increases by 33.6%, and triggering a Perfect Block with an EX Special Attack grants 10 Solar Prominence. This effect lasts 200s. Repeated triggers reset the duration.\nLeft Branch - Ultimate: Unbound Swordstorm: Heavy attacks that hit enemies in the Contamination state deal 750% of ATK as additional DMG.\nRight Branch - Ultimate: Eternal Imprisonment: Heavy attacks that hit Stunned enemies trigger the effect, dealing 1,873% of ATK as additional DMG. Upon activating this skill, the Stun duration of all currently Stunned enemies is extended by 3s. When the Finishing Move hits, the enemy's Stun state ends."
+                    "text": "Upon entering battle, Pyrois gains 30 Solar Prominence. This effect can trigger once every 180s in Investigation Zone mode. Landing different attacks on enemies grants a certain amount of Solar Prominence, and Pyrois also gains 0.5 Solar Prominence every second while in-combat, up to a max of 60.\nWhen Pyrois uses different Ultimates, they gain the following effects:\nUpper Branch - Ultimate: Total Annihilation: Gains 30 Solar Prominence and enters the Mirage state. While in the Mirage state, Pyrois' Ultimate deals 40% increased CRIT DMG against Stunned enemies, and with 30 or more Solar Prominence, hold during the 4th hit of Basic Attack: Celestial Light to immediately follow up with the 3rd hit of Basic Attack: Celestial Light. This effect lasts 21s. Repeated triggers reset the duration.\nLower Branch - Ultimate: Triumphant Return: Enters the Sunflare state. While in the Sunflare state, Energy Generation Rate increases by 15%, DMG dealt increases by 33.6%, and triggering a Perfect Block with an EX Special Attack grants 10 Solar Prominence. This effect lasts 200s. Repeated triggers reset the duration.\nLeft Branch - Ultimate: Unbound Swordstorm: When this skill's heavy attack hits an enemy in the Contamination state, it deals 750% of ATK as additional DMG.\nRight Branch - Ultimate: Eternal Imprisonment: When this skill's heavy attack hits a Stunned enemy, the Totalize effect is triggered, dealing 1,873% of ATK as additional DMG. Upon activating this skill, the Stun duration of all currently Stunned enemies is extended by 3s. After landing the finishing move, the enemy's Stunned state ends."
                   },
                   {
                     "label": "Lv. 6",
-                    "text": "Upon entering battle, Pyrois gains 30 . This effect can trigger once every 180s in Investigation Zone mode. Landing different attacks on enemies grants a certain amount of Solar Prominence, and Pyrois also gains 0.5 Solar Prominence every second while in combat, up to a max of 60.\nWhen Pyrois uses different Ultimates, they gain the following effects:\nUpper Branch - Ultimate: Total Annihilation: Gain 30 Solar Prominence and enter the state. While in the Mirage state, Pyrois' Ultimate deals 40% increased CRIT DMG against Stunned enemies, and with 30 or more Solar Prominence hold during the 4th hit of Basic Attack: Celestial Light to immediately follow up with the 3rd hit of Basic Attack: Celestial Light. This effect lasts 21s. Repeated triggers reset the duration.\nLower Branch - Ultimate: Triumphant Return: Enter the state. While in the Sunflare state, Energy Generation Rate increases by 15%, and DMG dealt increases by 37%, and triggering a Perfect Block with an EX Special Attack grants 10 Solar Prominence. This effect lasts 200s. Repeated triggers reset the duration.\nLeft Branch - Ultimate: Unbound Swordstorm: Heavy attacks that hit enemies in the Contamination state deal 825% of ATK as additional DMG.\nRight Branch - Ultimate: Eternal Imprisonment: Heavy attacks that hit Stunned enemies trigger the effect, dealing 2,060% of ATK as additional DMG. Upon activating this skill, the Stun duration of all currently Stunned enemies is extended by 3s. When the Finishing Move hits, the enemy's Stun state ends."
+                    "text": "Upon entering battle, Pyrois gains 30 Solar Prominence. This effect can trigger once every 180s in Investigation Zone mode. Landing different attacks on enemies grants a certain amount of Solar Prominence, and Pyrois also gains 0.5 Solar Prominence every second while in-combat, up to a max of 60.\nWhen Pyrois uses different Ultimates, they gain the following effects:\nUpper Branch - Ultimate: Total Annihilation: Gains 30 Solar Prominence and enters the Mirage state. While in the Mirage state, Pyrois' Ultimate deals 40% increased CRIT DMG against Stunned enemies, and with 30 or more Solar Prominence, hold during the 4th hit of Basic Attack: Celestial Light to immediately follow up with the 3rd hit of Basic Attack: Celestial Light. This effect lasts 21s. Repeated triggers reset the duration.\nLower Branch - Ultimate: Triumphant Return: Enters the Sunflare state. While in the Sunflare state, Energy Generation Rate increases by 15%, DMG dealt increases by 37%, and triggering a Perfect Block with an EX Special Attack grants 10 Solar Prominence. This effect lasts 200s. Repeated triggers reset the duration.\nLeft Branch - Ultimate: Unbound Swordstorm: When this skill's heavy attack hits an enemy in the Contamination state, it deals 825% of ATK as additional DMG.\nRight Branch - Ultimate: Eternal Imprisonment: When this skill's heavy attack hits a Stunned enemy, the Totalize effect is triggered, dealing 2,060% of ATK as additional DMG. Upon activating this skill, the Stun duration of all currently Stunned enemies is extended by 3s. After landing the finishing move, the enemy's Stunned state ends."
                   },
                   {
                     "label": "Lv. 7",
-                    "text": "Upon entering battle, Pyrois gains 30 . This effect can trigger once every 180s in Investigation Zone mode. Landing different attacks on enemies grants a certain amount of Solar Prominence, and Pyrois also gains 0.5 Solar Prominence every second while in combat, up to a max of 60.\nWhen Pyrois uses different Ultimates, they gain the following effects:\nUpper Branch - Ultimate: Total Annihilation: Gain 30 Solar Prominence and enter the state. While in the Mirage state, Pyrois' Ultimate deals 40% increased CRIT DMG against Stunned enemies, and with 30 or more Solar Prominence hold during the 4th hit of Basic Attack: Celestial Light to immediately follow up with the 3rd hit of Basic Attack: Celestial Light. This effect lasts 21s. Repeated triggers reset the duration.\nLower Branch - Ultimate: Triumphant Return: Enter the state. While in the Sunflare state, Energy Generation Rate increases by 15%, and DMG dealt increases by 40%, and triggering a Perfect Block with an EX Special Attack grants 10 Solar Prominence. This effect lasts 200s. Repeated triggers reset the duration.\nLeft Branch - Ultimate: Unbound Swordstorm: Heavy attacks that hit enemies in the Contamination state deal 900% of ATK as additional DMG.\nRight Branch - Ultimate: Eternal Imprisonment: Heavy attacks that hit Stunned enemies trigger the effect, dealing 2,250% of ATK as additional DMG. Upon activating this skill, the Stun duration of all currently Stunned enemies is extended by 3s. When the Finishing Move hits, the enemy's Stun state ends."
+                    "text": "Upon entering battle, Pyrois gains 30 Solar Prominence. This effect can trigger once every 180s in Investigation Zone mode. Landing different attacks on enemies grants a certain amount of Solar Prominence, and Pyrois also gains 0.5 Solar Prominence every second while in-combat, up to a max of 60.\nWhen Pyrois uses different Ultimates, they gain the following effects:\nUpper Branch - Ultimate: Total Annihilation: Gains 30 Solar Prominence and enters the Mirage state. While in the Mirage state, Pyrois' Ultimate deals 40% increased CRIT DMG against Stunned enemies, and with 30 or more Solar Prominence, hold during the 4th hit of Basic Attack: Celestial Light to immediately follow up with the 3rd hit of Basic Attack: Celestial Light. This effect lasts 21s. Repeated triggers reset the duration.\nLower Branch - Ultimate: Triumphant Return: Enters the Sunflare state. While in the Sunflare state, Energy Generation Rate increases by 15%, DMG dealt increases by 40%, and triggering a Perfect Block with an EX Special Attack grants 10 Solar Prominence. This effect lasts 200s. Repeated triggers reset the duration.\nLeft Branch - Ultimate: Unbound Swordstorm: When this skill's heavy attack hits an enemy in the Contamination state, it deals 900% of ATK as additional DMG.\nRight Branch - Ultimate: Eternal Imprisonment: When this skill's heavy attack hits a Stunned enemy, the Totalize effect is triggered, dealing 2,250% of ATK as additional DMG. Upon activating this skill, the Stun duration of all currently Stunned enemies is extended by 3s. After landing the finishing move, the enemy's Stunned state ends."
                   }
                 ]
               },
@@ -9668,7 +12363,7 @@
               {
                 "name": "Balefire Horizon",
                 "type": "Mindscape 4",
-                "desc": "Mindscape Effect Hidden"
+                "desc": "When Pyrois triggers a Perfect Block with EX Special Attack: Sun's Halo, immediately gain shield equal to 8% of Max HP, lasting 10s. Repeated triggers reset the duration. Pyrois deals 10% extra Daze while shielded."
               },
               {
                 "name": "Youthful Guardian",
@@ -11158,8 +13853,7 @@
           ],
           "cost": 400000
         }
-      },
-      "recent": 1
+      }
     },
     {
       "id": "zzz-velina",
@@ -11224,7 +13918,7 @@
       },
       "facts": {
         "fullName": "Velina Airgid",
-        "faction": "Roscaelifer External Strategy Department",
+        "faction": "Roscaelifer",
         "birthday": "September 22",
         "title": "Beyond Etiquette"
       },
@@ -11238,7 +13932,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -12264,35 +14958,35 @@
               {
                 "name": "Core Passive: Breeze in Bloom",
                 "type": "Core Passive",
-                "desc": "When Velina's initial Energy Regen exceeds 1.2, every additional 0.01 increases DMG dealt by 0.21%, up to a maximum increase of 35%, and increases Anomaly Mastery by 0.5, up to a maximum increase of 84.\nWhen Velina enters the battlefield, she gains 45 . In Investigation Zone mode, this effect can trigger once every 180s. Using EX Special Attack: Wind Shear - Purifying Rise or EX Special Attack: Wind Shear - Triple Deathblow grants 45 Windbloom, up to a maximum of 135 Windbloom.\nWhen Velina triggers Vortex, she gains 1 point of and summons a , dealing Wind DMG. This effect can trigger once every 3s. When Velina has 2 points of Windbite, the next time she triggers Vortex, 2 points of Windbite are consumed to increase that Vortex's DMG Multiplier by 150%. In addition, a is summoned instead of a Condensed Cyclone, which does not grant Windbite.\nWhen Velina's summoned Sweeping Cyclone hits an enemy suffering Contamination for the first time, it triggers , converting it into a Sweeping Cyclone of the corresponding attribute, dealing the corresponding attribute's DMG. When Sweeping Cyclone hits an enemy, the enemy's Wind Anomaly Buildup RES is reduced by 7% for 35s. Repeated triggers reset the duration. If a Sweeping Cyclone enhanced by Chromatic Tint hits an enemy, the enemy's corresponding Attribute Anomaly Buildup RES is also reduced by 7% for 35s. Repeated triggers reset the duration.\nWhen an enemy affected by Sweeping Cyclone is defeated, the duration of that Sweeping Cyclone is extended by 5s. This effect can only trigger once for the same Sweeping Cyclone, and only one Sweeping Cyclone can exist at a time.\nCondensed Cyclone and Sweeping Cyclone trigger an explosion when they dissipate. If this explosion hits an enemy suffering a Wind Anomaly, it triggers one instance of Abloom DMG against the target: resolves an additional instance of Attribute Anomaly DMG, dealing a fixed 145% and 255% multiplier Wind Anomaly DMG respectively.",
+                "desc": "When Velina's initial Energy Regen exceeds 1.2, every additional 0.01 increases DMG dealt by 0.21%, up to a maximum increase of 35%, and increases Anomaly Mastery by 0.5, up to a maximum increase of 84.\nWhen Velina enters the battlefield, she gains 45 Windbloom. In Investigation Zone mode, this effect can trigger once every 180s. Using EX Special Attack: Wind Shear - Purifying Rise or EX Special Attack: Wind Shear - Triple Deathblow grants 45 Windbloom, up to a maximum of 135 Windbloom.\nWhen Velina triggers Vortex, she gains 1 point of Windbite and summons a Condensed Cyclone, dealing Wind DMG. This effect can trigger once every 3s. When Velina has 2 points of Windbite, the next time she triggers Vortex, 2 points of Windbite are consumed to increase that Vortex's DMG Multiplier by 150%. In addition, a Sweeping Cyclone is summoned instead of a Condensed Cyclone, which does not grant Windbite.\nWhen Velina's summoned Sweeping Cyclone hits an enemy suffering Contamination for the first time, it triggers Chromatic Tint, converting it into a Sweeping Cyclone of the corresponding attribute, dealing the corresponding attribute's DMG. When Sweeping Cyclone hits an enemy, the enemy's Wind Anomaly Buildup RES is reduced by 7% for 35s. Repeated triggers reset the duration. If a Sweeping Cyclone enhanced by Chromatic Tint hits an enemy, the enemy's corresponding Attribute Anomaly Buildup RES is also reduced by 7% for 35s. Repeated triggers reset the duration.\nWhen an enemy affected by Sweeping Cyclone is defeated, the duration of that Sweeping Cyclone is extended by 5s. This effect can only trigger once for the same Sweeping Cyclone, and only one Sweeping Cyclone can exist at a time.\nCondensed Cyclone and Sweeping Cyclone trigger an explosion when they dissipate. If this explosion hits an enemy suffering a Wind Anomaly, it triggers one instance of Abloom DMG against the target: resolves an additional instance of Attribute Anomaly DMG, dealing a fixed 145% and 255% multiplier Wind Anomaly DMG respectively.",
                 "levels": [
                   {
                     "label": "Lv. 1",
-                    "text": "When Velina's initial Energy Regen exceeds 1.2, every additional 0.01 increases DMG dealt by 0.21%, up to a maximum increase of 35%, and increases Anomaly Mastery by 0.5, up to a maximum increase of 84.\nWhen Velina enters the battlefield, she gains 45 . In Investigation Zone mode, this effect can trigger once every 180s. Using EX Special Attack: Wind Shear - Purifying Rise or EX Special Attack: Wind Shear - Triple Deathblow grants 45 Windbloom, up to a maximum of 135 Windbloom.\nWhen Velina triggers Vortex, she gains 1 point of and summons a , dealing Wind DMG. This effect can trigger once every 3s. When Velina has 2 points of Windbite, the next time she triggers Vortex, 2 points of Windbite are consumed to increase that Vortex's DMG Multiplier by 90%. In addition, a is summoned instead of a Condensed Cyclone, which does not grant Windbite.\nWhen Velina's summoned Sweeping Cyclone hits an enemy suffering Contamination for the first time, it triggers , converting it into a Sweeping Cyclone of the corresponding attribute, dealing the corresponding attribute's DMG. When Sweeping Cyclone hits an enemy, the enemy's Wind Anomaly Buildup RES is reduced by 7% for 35s. Repeated triggers reset the duration. If a Sweeping Cyclone enhanced by Chromatic Tint hits an enemy, the enemy's corresponding Attribute Anomaly Buildup RES is also reduced by 7% for 35s. Repeated triggers reset the duration.\nWhen an enemy affected by Sweeping Cyclone is defeated, the duration of that Sweeping Cyclone is extended by 5s. This effect can only trigger once for the same Sweeping Cyclone, and only one Sweeping Cyclone can exist at a time.\nCondensed Cyclone and Sweeping Cyclone trigger an explosion when they dissipate. If this explosion hits an enemy suffering a Wind Anomaly, it triggers one instance of Abloom DMG against the target: resolves an additional instance of Attribute Anomaly DMG, dealing a fixed 85% and 135% multiplier Wind Anomaly DMG respectively."
+                    "text": "When Velina's initial Energy Regen exceeds 1.2, every additional 0.01 increases DMG dealt by 0.21%, up to a maximum increase of 35%, and increases Anomaly Mastery by 0.5, up to a maximum increase of 84.\nWhen Velina enters the battlefield, she gains 45 Windbloom. In Investigation Zone mode, this effect can trigger once every 180s. Using EX Special Attack: Wind Shear - Purifying Rise or EX Special Attack: Wind Shear - Triple Deathblow grants 45 Windbloom, up to a maximum of 135 Windbloom.\nWhen Velina triggers Vortex, she gains 1 point of Windbite and summons a Condensed Cyclone, dealing Wind DMG. This effect can trigger once every 3s. When Velina has 2 points of Windbite, the next time she triggers Vortex, 2 points of Windbite are consumed to increase that Vortex's DMG Multiplier by 90%. In addition, a Sweeping Cyclone is summoned instead of a Condensed Cyclone, which does not grant Windbite.\nWhen Velina's summoned Sweeping Cyclone hits an enemy suffering Contamination for the first time, it triggers Chromatic Tint, converting it into a Sweeping Cyclone of the corresponding attribute, dealing the corresponding attribute's DMG. When Sweeping Cyclone hits an enemy, the enemy's Wind Anomaly Buildup RES is reduced by 7% for 35s. Repeated triggers reset the duration. If a Sweeping Cyclone enhanced by Chromatic Tint hits an enemy, the enemy's corresponding Attribute Anomaly Buildup RES is also reduced by 7% for 35s. Repeated triggers reset the duration.\nWhen an enemy affected by Sweeping Cyclone is defeated, the duration of that Sweeping Cyclone is extended by 5s. This effect can only trigger once for the same Sweeping Cyclone, and only one Sweeping Cyclone can exist at a time.\nCondensed Cyclone and Sweeping Cyclone trigger an explosion when they dissipate. If this explosion hits an enemy suffering a Wind Anomaly, it triggers one instance of Abloom DMG against the target: resolves an additional instance of Attribute Anomaly DMG, dealing a fixed 85% and 135% multiplier Wind Anomaly DMG respectively."
                   },
                   {
                     "label": "Lv. 2",
-                    "text": "When Velina's initial Energy Regen exceeds 1.2, every additional 0.01 increases DMG dealt by 0.21%, up to a maximum increase of 35%, and increases Anomaly Mastery by 0.5, up to a maximum increase of 84.\nWhen Velina enters the battlefield, she gains 45 . In Investigation Zone mode, this effect can trigger once every 180s. Using EX Special Attack: Wind Shear - Purifying Rise or EX Special Attack: Wind Shear - Triple Deathblow grants 45 Windbloom, up to a maximum of 135 Windbloom.\nWhen Velina triggers Vortex, she gains 1 point of and summons a , dealing Wind DMG. This effect can trigger once every 3s. When Velina has 2 points of Windbite, the next time she triggers Vortex, 2 points of Windbite are consumed to increase that Vortex's DMG Multiplier by 100%. In addition, a is summoned instead of a Condensed Cyclone, which does not grant Windbite.\nWhen Velina's summoned Sweeping Cyclone hits an enemy suffering Contamination for the first time, it triggers , converting it into a Sweeping Cyclone of the corresponding attribute, dealing the corresponding attribute's DMG. When Sweeping Cyclone hits an enemy, the enemy's Wind Anomaly Buildup RES is reduced by 7% for 35s. Repeated triggers reset the duration. If a Sweeping Cyclone enhanced by Chromatic Tint hits an enemy, the enemy's corresponding Attribute Anomaly Buildup RES is also reduced by 7% for 35s. Repeated triggers reset the duration.\nWhen an enemy affected by Sweeping Cyclone is defeated, the duration of that Sweeping Cyclone is extended by 5s. This effect can only trigger once for the same Sweeping Cyclone, and only one Sweeping Cyclone can exist at a time.\nCondensed Cyclone and Sweeping Cyclone trigger an explosion when they dissipate. If this explosion hits an enemy suffering a Wind Anomaly, it triggers one instance of Abloom DMG against the target: resolves an additional instance of Attribute Anomaly DMG, dealing a fixed 95% and 155% multiplier Wind Anomaly DMG respectively."
+                    "text": "When Velina's initial Energy Regen exceeds 1.2, every additional 0.01 increases DMG dealt by 0.21%, up to a maximum increase of 35%, and increases Anomaly Mastery by 0.5, up to a maximum increase of 84.\nWhen Velina enters the battlefield, she gains 45 Windbloom. In Investigation Zone mode, this effect can trigger once every 180s. Using EX Special Attack: Wind Shear - Purifying Rise or EX Special Attack: Wind Shear - Triple Deathblow grants 45 Windbloom, up to a maximum of 135 Windbloom.\nWhen Velina triggers Vortex, she gains 1 point of Windbite and summons a Condensed Cyclone, dealing Wind DMG. This effect can trigger once every 3s. When Velina has 2 points of Windbite, the next time she triggers Vortex, 2 points of Windbite are consumed to increase that Vortex's DMG Multiplier by 100%. In addition, a Sweeping Cyclone is summoned instead of a Condensed Cyclone, which does not grant Windbite.\nWhen Velina's summoned Sweeping Cyclone hits an enemy suffering Contamination for the first time, it triggers Chromatic Tint, converting it into a Sweeping Cyclone of the corresponding attribute, dealing the corresponding attribute's DMG. When Sweeping Cyclone hits an enemy, the enemy's Wind Anomaly Buildup RES is reduced by 7% for 35s. Repeated triggers reset the duration. If a Sweeping Cyclone enhanced by Chromatic Tint hits an enemy, the enemy's corresponding Attribute Anomaly Buildup RES is also reduced by 7% for 35s. Repeated triggers reset the duration.\nWhen an enemy affected by Sweeping Cyclone is defeated, the duration of that Sweeping Cyclone is extended by 5s. This effect can only trigger once for the same Sweeping Cyclone, and only one Sweeping Cyclone can exist at a time.\nCondensed Cyclone and Sweeping Cyclone trigger an explosion when they dissipate. If this explosion hits an enemy suffering a Wind Anomaly, it triggers one instance of Abloom DMG against the target: resolves an additional instance of Attribute Anomaly DMG, dealing a fixed 95% and 155% multiplier Wind Anomaly DMG respectively."
                   },
                   {
                     "label": "Lv. 3",
-                    "text": "When Velina's initial Energy Regen exceeds 1.2, every additional 0.01 increases DMG dealt by 0.21%, up to a maximum increase of 35%, and increases Anomaly Mastery by 0.5, up to a maximum increase of 84.\nWhen Velina enters the battlefield, she gains 45 . In Investigation Zone mode, this effect can trigger once every 180s. Using EX Special Attack: Wind Shear - Purifying Rise or EX Special Attack: Wind Shear - Triple Deathblow grants 45 Windbloom, up to a maximum of 135 Windbloom.\nWhen Velina triggers Vortex, she gains 1 point of and summons a , dealing Wind DMG. This effect can trigger once every 3s. When Velina has 2 points of Windbite, the next time she triggers Vortex, 2 points of Windbite are consumed to increase that Vortex's DMG Multiplier by 110%. In addition, a is summoned instead of a Condensed Cyclone, which does not grant Windbite.\nWhen Velina's summoned Sweeping Cyclone hits an enemy suffering Contamination for the first time, it triggers , converting it into a Sweeping Cyclone of the corresponding attribute, dealing the corresponding attribute's DMG. When Sweeping Cyclone hits an enemy, the enemy's Wind Anomaly Buildup RES is reduced by 7% for 35s. Repeated triggers reset the duration. If a Sweeping Cyclone enhanced by Chromatic Tint hits an enemy, the enemy's corresponding Attribute Anomaly Buildup RES is also reduced by 7% for 35s. Repeated triggers reset the duration.\nWhen an enemy affected by Sweeping Cyclone is defeated, the duration of that Sweeping Cyclone is extended by 5s. This effect can only trigger once for the same Sweeping Cyclone, and only one Sweeping Cyclone can exist at a time.\nCondensed Cyclone and Sweeping Cyclone trigger an explosion when they dissipate. If this explosion hits an enemy suffering a Wind Anomaly, it triggers one instance of Abloom DMG against the target: resolves an additional instance of Attribute Anomaly DMG, dealing a fixed 105% and 175% multiplier Wind Anomaly DMG respectively."
+                    "text": "When Velina's initial Energy Regen exceeds 1.2, every additional 0.01 increases DMG dealt by 0.21%, up to a maximum increase of 35%, and increases Anomaly Mastery by 0.5, up to a maximum increase of 84.\nWhen Velina enters the battlefield, she gains 45 Windbloom. In Investigation Zone mode, this effect can trigger once every 180s. Using EX Special Attack: Wind Shear - Purifying Rise or EX Special Attack: Wind Shear - Triple Deathblow grants 45 Windbloom, up to a maximum of 135 Windbloom.\nWhen Velina triggers Vortex, she gains 1 point of Windbite and summons a Condensed Cyclone, dealing Wind DMG. This effect can trigger once every 3s. When Velina has 2 points of Windbite, the next time she triggers Vortex, 2 points of Windbite are consumed to increase that Vortex's DMG Multiplier by 110%. In addition, a Sweeping Cyclone is summoned instead of a Condensed Cyclone, which does not grant Windbite.\nWhen Velina's summoned Sweeping Cyclone hits an enemy suffering Contamination for the first time, it triggers Chromatic Tint, converting it into a Sweeping Cyclone of the corresponding attribute, dealing the corresponding attribute's DMG. When Sweeping Cyclone hits an enemy, the enemy's Wind Anomaly Buildup RES is reduced by 7% for 35s. Repeated triggers reset the duration. If a Sweeping Cyclone enhanced by Chromatic Tint hits an enemy, the enemy's corresponding Attribute Anomaly Buildup RES is also reduced by 7% for 35s. Repeated triggers reset the duration.\nWhen an enemy affected by Sweeping Cyclone is defeated, the duration of that Sweeping Cyclone is extended by 5s. This effect can only trigger once for the same Sweeping Cyclone, and only one Sweeping Cyclone can exist at a time.\nCondensed Cyclone and Sweeping Cyclone trigger an explosion when they dissipate. If this explosion hits an enemy suffering a Wind Anomaly, it triggers one instance of Abloom DMG against the target: resolves an additional instance of Attribute Anomaly DMG, dealing a fixed 105% and 175% multiplier Wind Anomaly DMG respectively."
                   },
                   {
                     "label": "Lv. 4",
-                    "text": "When Velina's initial Energy Regen exceeds 1.2, every additional 0.01 increases DMG dealt by 0.21%, up to a maximum increase of 35%, and increases Anomaly Mastery by 0.5, up to a maximum increase of 84.\nWhen Velina enters the battlefield, she gains 45 . In Investigation Zone mode, this effect can trigger once every 180s. Using EX Special Attack: Wind Shear - Purifying Rise or EX Special Attack: Wind Shear - Triple Deathblow grants 45 Windbloom, up to a maximum of 135 Windbloom.\nWhen Velina triggers Vortex, she gains 1 point of and summons a , dealing Wind DMG. This effect can trigger once every 3s. When Velina has 2 points of Windbite, the next time she triggers Vortex, 2 points of Windbite are consumed to increase that Vortex's DMG Multiplier by 120%. In addition, a is summoned instead of a Condensed Cyclone, which does not grant Windbite.\nWhen Velina's summoned Sweeping Cyclone hits an enemy suffering Contamination for the first time, it triggers , converting it into a Sweeping Cyclone of the corresponding attribute, dealing the corresponding attribute's DMG. When Sweeping Cyclone hits an enemy, the enemy's Wind Anomaly Buildup RES is reduced by 7% for 35s. Repeated triggers reset the duration. If a Sweeping Cyclone enhanced by Chromatic Tint hits an enemy, the enemy's corresponding Attribute Anomaly Buildup RES is also reduced by 7% for 35s. Repeated triggers reset the duration.\nWhen an enemy affected by Sweeping Cyclone is defeated, the duration of that Sweeping Cyclone is extended by 5s. This effect can only trigger once for the same Sweeping Cyclone, and only one Sweeping Cyclone can exist at a time.\nCondensed Cyclone and Sweeping Cyclone trigger an explosion when they dissipate. If this explosion hits an enemy suffering a Wind Anomaly, it triggers one instance of Abloom DMG against the target: resolves an additional instance of Attribute Anomaly DMG, dealing a fixed 115% and 195% multiplier Wind Anomaly DMG respectively."
+                    "text": "When Velina's initial Energy Regen exceeds 1.2, every additional 0.01 increases DMG dealt by 0.21%, up to a maximum increase of 35%, and increases Anomaly Mastery by 0.5, up to a maximum increase of 84.\nWhen Velina enters the battlefield, she gains 45 Windbloom. In Investigation Zone mode, this effect can trigger once every 180s. Using EX Special Attack: Wind Shear - Purifying Rise or EX Special Attack: Wind Shear - Triple Deathblow grants 45 Windbloom, up to a maximum of 135 Windbloom.\nWhen Velina triggers Vortex, she gains 1 point of Windbite and summons a Condensed Cyclone, dealing Wind DMG. This effect can trigger once every 3s. When Velina has 2 points of Windbite, the next time she triggers Vortex, 2 points of Windbite are consumed to increase that Vortex's DMG Multiplier by 120%. In addition, a Sweeping Cyclone is summoned instead of a Condensed Cyclone, which does not grant Windbite.\nWhen Velina's summoned Sweeping Cyclone hits an enemy suffering Contamination for the first time, it triggers Chromatic Tint, converting it into a Sweeping Cyclone of the corresponding attribute, dealing the corresponding attribute's DMG. When Sweeping Cyclone hits an enemy, the enemy's Wind Anomaly Buildup RES is reduced by 7% for 35s. Repeated triggers reset the duration. If a Sweeping Cyclone enhanced by Chromatic Tint hits an enemy, the enemy's corresponding Attribute Anomaly Buildup RES is also reduced by 7% for 35s. Repeated triggers reset the duration.\nWhen an enemy affected by Sweeping Cyclone is defeated, the duration of that Sweeping Cyclone is extended by 5s. This effect can only trigger once for the same Sweeping Cyclone, and only one Sweeping Cyclone can exist at a time.\nCondensed Cyclone and Sweeping Cyclone trigger an explosion when they dissipate. If this explosion hits an enemy suffering a Wind Anomaly, it triggers one instance of Abloom DMG against the target: resolves an additional instance of Attribute Anomaly DMG, dealing a fixed 115% and 195% multiplier Wind Anomaly DMG respectively."
                   },
                   {
                     "label": "Lv. 5",
-                    "text": "When Velina's initial Energy Regen exceeds 1.2, every additional 0.01 increases DMG dealt by 0.21%, up to a maximum increase of 35%, and increases Anomaly Mastery by 0.5, up to a maximum increase of 84.\nWhen Velina enters the battlefield, she gains 45 . In Investigation Zone mode, this effect can trigger once every 180s. Using EX Special Attack: Wind Shear - Purifying Rise or EX Special Attack: Wind Shear - Triple Deathblow grants 45 Windbloom, up to a maximum of 135 Windbloom.\nWhen Velina triggers Vortex, she gains 1 point of and summons a , dealing Wind DMG. This effect can trigger once every 3s. When Velina has 2 points of Windbite, the next time she triggers Vortex, 2 points of Windbite are consumed to increase that Vortex's DMG Multiplier by 130%. In addition, a is summoned instead of a Condensed Cyclone, which does not grant Windbite.\nWhen Velina's summoned Sweeping Cyclone hits an enemy suffering Contamination for the first time, it triggers , converting it into a Sweeping Cyclone of the corresponding attribute, dealing the corresponding attribute's DMG. When Sweeping Cyclone hits an enemy, the enemy's Wind Anomaly Buildup RES is reduced by 7% for 35s. Repeated triggers reset the duration. If a Sweeping Cyclone enhanced by Chromatic Tint hits an enemy, the enemy's corresponding Attribute Anomaly Buildup RES is also reduced by 7% for 35s. Repeated triggers reset the duration.\nWhen an enemy affected by Sweeping Cyclone is defeated, the duration of that Sweeping Cyclone is extended by 5s. This effect can only trigger once for the same Sweeping Cyclone, and only one Sweeping Cyclone can exist at a time.\nCondensed Cyclone and Sweeping Cyclone trigger an explosion when they dissipate. If this explosion hits an enemy suffering a Wind Anomaly, it triggers one instance of Abloom DMG against the target: resolves an additional instance of Attribute Anomaly DMG, dealing a fixed 125% and 215% multiplier Wind Anomaly DMG respectively."
+                    "text": "When Velina's initial Energy Regen exceeds 1.2, every additional 0.01 increases DMG dealt by 0.21%, up to a maximum increase of 35%, and increases Anomaly Mastery by 0.5, up to a maximum increase of 84.\nWhen Velina enters the battlefield, she gains 45 Windbloom. In Investigation Zone mode, this effect can trigger once every 180s. Using EX Special Attack: Wind Shear - Purifying Rise or EX Special Attack: Wind Shear - Triple Deathblow grants 45 Windbloom, up to a maximum of 135 Windbloom.\nWhen Velina triggers Vortex, she gains 1 point of Windbite and summons a Condensed Cyclone, dealing Wind DMG. This effect can trigger once every 3s. When Velina has 2 points of Windbite, the next time she triggers Vortex, 2 points of Windbite are consumed to increase that Vortex's DMG Multiplier by 130%. In addition, a Sweeping Cyclone is summoned instead of a Condensed Cyclone, which does not grant Windbite.\nWhen Velina's summoned Sweeping Cyclone hits an enemy suffering Contamination for the first time, it triggers Chromatic Tint, converting it into a Sweeping Cyclone of the corresponding attribute, dealing the corresponding attribute's DMG. When Sweeping Cyclone hits an enemy, the enemy's Wind Anomaly Buildup RES is reduced by 7% for 35s. Repeated triggers reset the duration. If a Sweeping Cyclone enhanced by Chromatic Tint hits an enemy, the enemy's corresponding Attribute Anomaly Buildup RES is also reduced by 7% for 35s. Repeated triggers reset the duration.\nWhen an enemy affected by Sweeping Cyclone is defeated, the duration of that Sweeping Cyclone is extended by 5s. This effect can only trigger once for the same Sweeping Cyclone, and only one Sweeping Cyclone can exist at a time.\nCondensed Cyclone and Sweeping Cyclone trigger an explosion when they dissipate. If this explosion hits an enemy suffering a Wind Anomaly, it triggers one instance of Abloom DMG against the target: resolves an additional instance of Attribute Anomaly DMG, dealing a fixed 125% and 215% multiplier Wind Anomaly DMG respectively."
                   },
                   {
                     "label": "Lv. 6",
-                    "text": "When Velina's initial Energy Regen exceeds 1.2, every additional 0.01 increases DMG dealt by 0.21%, up to a maximum increase of 35%, and increases Anomaly Mastery by 0.5, up to a maximum increase of 84.\nWhen Velina enters the battlefield, she gains 45 . In Investigation Zone mode, this effect can trigger once every 180s. Using EX Special Attack: Wind Shear - Purifying Rise or EX Special Attack: Wind Shear - Triple Deathblow grants 45 Windbloom, up to a maximum of 135 Windbloom.\nWhen Velina triggers Vortex, she gains 1 point of and summons a , dealing Wind DMG. This effect can trigger once every 3s. When Velina has 2 points of Windbite, the next time she triggers Vortex, 2 points of Windbite are consumed to increase that Vortex's DMG Multiplier by 140%. In addition, a is summoned instead of a Condensed Cyclone, which does not grant Windbite.\nWhen Velina's summoned Sweeping Cyclone hits an enemy suffering Contamination for the first time, it triggers , converting it into a Sweeping Cyclone of the corresponding attribute, dealing the corresponding attribute's DMG. When Sweeping Cyclone hits an enemy, the enemy's Wind Anomaly Buildup RES is reduced by 7% for 35s. Repeated triggers reset the duration. If a Sweeping Cyclone enhanced by Chromatic Tint hits an enemy, the enemy's corresponding Attribute Anomaly Buildup RES is also reduced by 7% for 35s. Repeated triggers reset the duration.\nWhen an enemy affected by Sweeping Cyclone is defeated, the duration of that Sweeping Cyclone is extended by 5s. This effect can only trigger once for the same Sweeping Cyclone, and only one Sweeping Cyclone can exist at a time.\nCondensed Cyclone and Sweeping Cyclone trigger an explosion when they dissipate. If this explosion hits an enemy suffering a Wind Anomaly, it triggers one instance of Abloom DMG against the target: resolves an additional instance of Attribute Anomaly DMG, dealing a fixed 135% and 235% multiplier Wind Anomaly DMG respectively."
+                    "text": "When Velina's initial Energy Regen exceeds 1.2, every additional 0.01 increases DMG dealt by 0.21%, up to a maximum increase of 35%, and increases Anomaly Mastery by 0.5, up to a maximum increase of 84.\nWhen Velina enters the battlefield, she gains 45 Windbloom. In Investigation Zone mode, this effect can trigger once every 180s. Using EX Special Attack: Wind Shear - Purifying Rise or EX Special Attack: Wind Shear - Triple Deathblow grants 45 Windbloom, up to a maximum of 135 Windbloom.\nWhen Velina triggers Vortex, she gains 1 point of Windbite and summons a Condensed Cyclone, dealing Wind DMG. This effect can trigger once every 3s. When Velina has 2 points of Windbite, the next time she triggers Vortex, 2 points of Windbite are consumed to increase that Vortex's DMG Multiplier by 140%. In addition, a Sweeping Cyclone is summoned instead of a Condensed Cyclone, which does not grant Windbite.\nWhen Velina's summoned Sweeping Cyclone hits an enemy suffering Contamination for the first time, it triggers Chromatic Tint, converting it into a Sweeping Cyclone of the corresponding attribute, dealing the corresponding attribute's DMG. When Sweeping Cyclone hits an enemy, the enemy's Wind Anomaly Buildup RES is reduced by 7% for 35s. Repeated triggers reset the duration. If a Sweeping Cyclone enhanced by Chromatic Tint hits an enemy, the enemy's corresponding Attribute Anomaly Buildup RES is also reduced by 7% for 35s. Repeated triggers reset the duration.\nWhen an enemy affected by Sweeping Cyclone is defeated, the duration of that Sweeping Cyclone is extended by 5s. This effect can only trigger once for the same Sweeping Cyclone, and only one Sweeping Cyclone can exist at a time.\nCondensed Cyclone and Sweeping Cyclone trigger an explosion when they dissipate. If this explosion hits an enemy suffering a Wind Anomaly, it triggers one instance of Abloom DMG against the target: resolves an additional instance of Attribute Anomaly DMG, dealing a fixed 135% and 235% multiplier Wind Anomaly DMG respectively."
                   },
                   {
                     "label": "Lv. 7",
-                    "text": "When Velina's initial Energy Regen exceeds 1.2, every additional 0.01 increases DMG dealt by 0.21%, up to a maximum increase of 35%, and increases Anomaly Mastery by 0.5, up to a maximum increase of 84.\nWhen Velina enters the battlefield, she gains 45 . In Investigation Zone mode, this effect can trigger once every 180s. Using EX Special Attack: Wind Shear - Purifying Rise or EX Special Attack: Wind Shear - Triple Deathblow grants 45 Windbloom, up to a maximum of 135 Windbloom.\nWhen Velina triggers Vortex, she gains 1 point of and summons a , dealing Wind DMG. This effect can trigger once every 3s. When Velina has 2 points of Windbite, the next time she triggers Vortex, 2 points of Windbite are consumed to increase that Vortex's DMG Multiplier by 150%. In addition, a is summoned instead of a Condensed Cyclone, which does not grant Windbite.\nWhen Velina's summoned Sweeping Cyclone hits an enemy suffering Contamination for the first time, it triggers , converting it into a Sweeping Cyclone of the corresponding attribute, dealing the corresponding attribute's DMG. When Sweeping Cyclone hits an enemy, the enemy's Wind Anomaly Buildup RES is reduced by 7% for 35s. Repeated triggers reset the duration. If a Sweeping Cyclone enhanced by Chromatic Tint hits an enemy, the enemy's corresponding Attribute Anomaly Buildup RES is also reduced by 7% for 35s. Repeated triggers reset the duration.\nWhen an enemy affected by Sweeping Cyclone is defeated, the duration of that Sweeping Cyclone is extended by 5s. This effect can only trigger once for the same Sweeping Cyclone, and only one Sweeping Cyclone can exist at a time.\nCondensed Cyclone and Sweeping Cyclone trigger an explosion when they dissipate. If this explosion hits an enemy suffering a Wind Anomaly, it triggers one instance of Abloom DMG against the target: resolves an additional instance of Attribute Anomaly DMG, dealing a fixed 145% and 255% multiplier Wind Anomaly DMG respectively."
+                    "text": "When Velina's initial Energy Regen exceeds 1.2, every additional 0.01 increases DMG dealt by 0.21%, up to a maximum increase of 35%, and increases Anomaly Mastery by 0.5, up to a maximum increase of 84.\nWhen Velina enters the battlefield, she gains 45 Windbloom. In Investigation Zone mode, this effect can trigger once every 180s. Using EX Special Attack: Wind Shear - Purifying Rise or EX Special Attack: Wind Shear - Triple Deathblow grants 45 Windbloom, up to a maximum of 135 Windbloom.\nWhen Velina triggers Vortex, she gains 1 point of Windbite and summons a Condensed Cyclone, dealing Wind DMG. This effect can trigger once every 3s. When Velina has 2 points of Windbite, the next time she triggers Vortex, 2 points of Windbite are consumed to increase that Vortex's DMG Multiplier by 150%. In addition, a Sweeping Cyclone is summoned instead of a Condensed Cyclone, which does not grant Windbite.\nWhen Velina's summoned Sweeping Cyclone hits an enemy suffering Contamination for the first time, it triggers Chromatic Tint, converting it into a Sweeping Cyclone of the corresponding attribute, dealing the corresponding attribute's DMG. When Sweeping Cyclone hits an enemy, the enemy's Wind Anomaly Buildup RES is reduced by 7% for 35s. Repeated triggers reset the duration. If a Sweeping Cyclone enhanced by Chromatic Tint hits an enemy, the enemy's corresponding Attribute Anomaly Buildup RES is also reduced by 7% for 35s. Repeated triggers reset the duration.\nWhen an enemy affected by Sweeping Cyclone is defeated, the duration of that Sweeping Cyclone is extended by 5s. This effect can only trigger once for the same Sweeping Cyclone, and only one Sweeping Cyclone can exist at a time.\nCondensed Cyclone and Sweeping Cyclone trigger an explosion when they dissipate. If this explosion hits an enemy suffering a Wind Anomaly, it triggers one instance of Abloom DMG against the target: resolves an additional instance of Attribute Anomaly DMG, dealing a fixed 145% and 255% multiplier Wind Anomaly DMG respectively."
                   }
                 ]
               },
@@ -13815,8 +16509,7 @@
           ],
           "cost": 400000
         }
-      },
-      "recent": 1
+      }
     },
     {
       "id": "zzz-aria",
@@ -13895,7 +16588,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -15017,7 +17710,7 @@
               {
                 "name": "Additional Ability: Collaborative Stage",
                 "type": "Additional Ability",
-                "desc": "When another character in your squad is a Stun or Support character, or shares the same Faction:\nWhen Ether Veil is activated, 4 Fandom Power are generated on the field. This can trigger once every 1s.\nWhen any squad member applies Corruption to an enemy, its duration is extended by 3s.",
+                "desc": "When another character in your squad is a Stun, Support, or Anomaly character, or shares the same Faction:\nWhen Ether Veil is activated, 4 Fandom Power are generated on the field. This can trigger once every 1s.\nWhen any squad member applies Corruption to an enemy, its duration is extended by 3s.",
                 "levels": []
               }
             ]
@@ -16608,7 +19301,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -19325,7 +22018,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -21860,7 +24553,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -24355,7 +27048,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -26831,6 +29524,2575 @@
       }
     },
     {
+      "id": "zzz-sigrid",
+      "n": "Sigrid",
+      "localizedNames": {
+        "en": "Sigrid",
+        "zh": "\u5e0c\u683c\u8389\u5fb7",
+        "ja": "\u30b7\u30b0\u30ea\u30c3\u30c9",
+        "ko": "\uc2dc\uadf8\ub9ac\ub4dc"
+      },
+      "slug": "sigrid",
+      "updated": 1781913600000,
+      "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Dani Chambers",
+        "japanese": "Kaida Yuhko"
+      },
+      "icon": "../../Database/Prydwen/zzz/assets/characters/sigrid-30ecebbe136b.webp",
+      "portraitProvenance": {
+        "status": "announced",
+        "sourceUrl": "https://www.hoyolab.com/article_pre/18014398241023132"
+      },
+      "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole66.webp",
+      "card": "../../Database/Prydwen/zzz/assets/characters/sigrid-30ecebbe136b.webp",
+      "status": "beta",
+      "labels": [
+        "3.1"
+      ],
+      "r": "S",
+      "el": "Ice",
+      "spec": "Attack",
+      "tag": "Unknown",
+      "baseStats": {
+        "level1": {
+          "hp": 626,
+          "atk": 135,
+          "def": 49,
+          "critRate": 0.05,
+          "critDmg": 0.5,
+          "impact": 93,
+          "anomalyProficiency": 92,
+          "anomalyMastery": 90
+        },
+        "max": {
+          "level": 60,
+          "hp": 7788.7,
+          "atk": 863.21,
+          "def": 606.6,
+          "critRate": 0.05,
+          "critDmg": 0.5,
+          "impact": 93,
+          "anomalyProficiency": 92,
+          "anomalyMastery": 90
+        }
+      },
+      "facts": {
+        "fullName": "Sigrid de L'Azur",
+        "faction": "Roscaelifer",
+        "birthday": "April 23"
+      },
+      "skillIcons": [
+        "../../Database/GameData/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/GameData/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/GameData/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/GameData/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/GameData/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
+      "kit": {
+        "source": "Game data",
+        "channel": "beta",
+        "version": "3.1",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Frost-Tipped Spear",
+                "type": "Basic",
+                "desc": "Press to activate:\nLaunches up to four forward slashes, dealing Ice DMG.\nThe 4th hit of Basic Attack: Frost-Tipped Spear is considered an attack.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "1st-Hit DMG Multiplier",
+                        "values": [
+                          "77%",
+                          "84%",
+                          "91%",
+                          "98%",
+                          "105%",
+                          "112%",
+                          "119%",
+                          "126%",
+                          "133%",
+                          "140%",
+                          "147%",
+                          "154%"
+                        ]
+                      },
+                      {
+                        "label": "2nd-Hit DMG Multiplier",
+                        "values": [
+                          "143.8%",
+                          "156.9%",
+                          "170%",
+                          "183.1%",
+                          "196.2%",
+                          "209.3%",
+                          "222.4%",
+                          "235.5%",
+                          "248.6%",
+                          "261.7%",
+                          "274.8%",
+                          "287.9%"
+                        ]
+                      },
+                      {
+                        "label": "3rd-Hit DMG Multiplier",
+                        "values": [
+                          "101.4%",
+                          "110.7%",
+                          "120%",
+                          "129.3%",
+                          "138.6%",
+                          "147.9%",
+                          "157.2%",
+                          "166.5%",
+                          "175.8%",
+                          "185.1%",
+                          "194.4%",
+                          "203.7%"
+                        ]
+                      },
+                      {
+                        "label": "4th-Hit DMG Multiplier",
+                        "values": [
+                          "221%",
+                          "241.1%",
+                          "261.2%",
+                          "281.3%",
+                          "301.4%",
+                          "321.5%",
+                          "341.6%",
+                          "361.7%",
+                          "381.8%",
+                          "401.9%",
+                          "422%",
+                          "442.1%"
+                        ]
+                      },
+                      {
+                        "label": "1st-Hit Daze Multiplier",
+                        "values": [
+                          "45.4%",
+                          "47.5%",
+                          "49.6%",
+                          "51.7%",
+                          "53.8%",
+                          "55.9%",
+                          "58%",
+                          "60.1%",
+                          "62.2%",
+                          "64.3%",
+                          "66.4%",
+                          "68.5%"
+                        ]
+                      },
+                      {
+                        "label": "2nd-Hit Daze Multiplier",
+                        "values": [
+                          "88.7%",
+                          "92.8%",
+                          "96.9%",
+                          "101%",
+                          "105.1%",
+                          "109.2%",
+                          "113.3%",
+                          "117.4%",
+                          "121.5%",
+                          "125.6%",
+                          "129.7%",
+                          "133.8%"
+                        ]
+                      },
+                      {
+                        "label": "3rd-Hit Daze Multiplier",
+                        "values": [
+                          "55.8%",
+                          "58.4%",
+                          "61%",
+                          "63.6%",
+                          "66.2%",
+                          "68.8%",
+                          "71.4%",
+                          "74%",
+                          "76.6%",
+                          "79.2%",
+                          "81.8%",
+                          "84.4%"
+                        ]
+                      },
+                      {
+                        "label": "4th-Hit Daze Multiplier",
+                        "values": [
+                          "138.5%",
+                          "144.8%",
+                          "151.1%",
+                          "157.4%",
+                          "163.7%",
+                          "170%",
+                          "176.3%",
+                          "182.6%",
+                          "188.9%",
+                          "195.2%",
+                          "201.5%",
+                          "207.8%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Basic Attack: Converging Spear",
+                "type": "Basic",
+                "desc": "While in the state and Basic Attack: Converging Spear can be used, hold to activate:\nLaunches the corresponding Basic Attack: Converging Spear based on the current stage, dealing Ice DMG.\nBasic Attack: Converging Spear has three stages. Each use advances it to the next stage. After performing the third stage of Basic Attack: Converging Spear, it resets to the first stage.\nIf Sigrid is attacked while charging the 1st or 2nd stage of Basic Attack: Converging Spear, she blocks with her shield. On a successful block, the attack's DMG is negated, the next Basic Attack: Converging Spear deals 100% more Daze, the state is refreshed, and she gains one use of Basic Attack: Converging Spear. Press after a successful block to perform the corresponding stage of Basic Attack: Converging Spear.\nBasic Attack: Converging Spear performed after Basic Attack: Frost-Tipped Spear retains the current stage of Basic Attack: Frost-Tipped Spear.\nDMG taken is reduced by 60% during this skill.\nAnti-Interrupt level is increased while using this skill.\nCharacter is invulnerable during the third stage of Basic Attack: Converging Spear."
+              },
+              {
+                "name": "Basic Attack: Converging Spear 1st Stage",
+                "type": "Basic",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "358.3%",
+                          "390.9%",
+                          "423.5%",
+                          "456.1%",
+                          "488.7%",
+                          "521.3%",
+                          "553.9%",
+                          "586.5%",
+                          "619.1%",
+                          "651.7%",
+                          "684.3%",
+                          "716.9%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "86.3%",
+                          "90.3%",
+                          "94.3%",
+                          "98.3%",
+                          "102.3%",
+                          "106.3%",
+                          "110.3%",
+                          "114.3%",
+                          "118.3%",
+                          "122.3%",
+                          "126.3%",
+                          "130.3%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Basic Attack: Converging Spear 2nd Stage",
+                "type": "Basic",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "609.1%",
+                          "664.5%",
+                          "719.9%",
+                          "775.3%",
+                          "830.7%",
+                          "886.1%",
+                          "941.5%",
+                          "996.9%",
+                          "1052.3%",
+                          "1107.7%",
+                          "1163.1%",
+                          "1218.5%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "143.1%",
+                          "149.7%",
+                          "156.3%",
+                          "162.9%",
+                          "169.5%",
+                          "176.1%",
+                          "182.7%",
+                          "189.3%",
+                          "195.9%",
+                          "202.5%",
+                          "209.1%",
+                          "215.7%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Basic Attack: Converging Spear 3rd Stage",
+                "type": "Basic",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "814.6%",
+                          "888.7%",
+                          "962.8%",
+                          "1036.9%",
+                          "1111%",
+                          "1185.1%",
+                          "1259.2%",
+                          "1333.3%",
+                          "1407.4%",
+                          "1481.5%",
+                          "1555.6%",
+                          "1629.7%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "196.2%",
+                          "205.2%",
+                          "214.2%",
+                          "223.2%",
+                          "232.2%",
+                          "241.2%",
+                          "250.2%",
+                          "259.2%",
+                          "268.2%",
+                          "277.2%",
+                          "286.2%",
+                          "295.2%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Dodge: Cloudstep",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Windchase",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nPerforms a forward cleaving slash, dealing Physical DMG.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "119%",
+                          "129.9%",
+                          "140.8%",
+                          "151.7%",
+                          "162.6%",
+                          "173.5%",
+                          "184.4%",
+                          "195.3%",
+                          "206.2%",
+                          "217.1%",
+                          "228%",
+                          "238.9%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "46.8%",
+                          "49%",
+                          "51.2%",
+                          "53.4%",
+                          "55.6%",
+                          "57.8%",
+                          "60%",
+                          "62.2%",
+                          "64.4%",
+                          "66.6%",
+                          "68.8%",
+                          "71%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Dodge Counter: Counterthrust",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nCondenses frost around the spearhead before unleashing a powerful counterattack, dealing Ice DMG.\nWhen performed after Basic Attack: Frost-Tipped Spear, Dodge Counter: Counterthrust retains the current stage of Basic Attack: Frost-Tipped Spear.\nThis skill is considered an attack.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "243.1%",
+                          "265.2%",
+                          "287.3%",
+                          "309.4%",
+                          "331.5%",
+                          "353.6%",
+                          "375.7%",
+                          "397.8%",
+                          "419.9%",
+                          "442%",
+                          "464.1%",
+                          "486.2%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "172.3%",
+                          "180.2%",
+                          "188.1%",
+                          "196%",
+                          "203.9%",
+                          "211.8%",
+                          "219.7%",
+                          "227.6%",
+                          "235.5%",
+                          "243.4%",
+                          "251.3%",
+                          "259.2%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Quick Assist: Iron Sentinel",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nCondenses ice before lunging forward, dealing Ice DMG.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "39.7%",
+                          "43.4%",
+                          "47.1%",
+                          "50.8%",
+                          "54.5%",
+                          "58.2%",
+                          "61.9%",
+                          "65.6%",
+                          "69.3%",
+                          "73%",
+                          "76.7%",
+                          "80.4%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "31.2%",
+                          "32.7%",
+                          "34.2%",
+                          "35.7%",
+                          "37.2%",
+                          "38.7%",
+                          "40.2%",
+                          "41.7%",
+                          "43.2%",
+                          "44.7%",
+                          "46.2%",
+                          "47.7%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Defensive Assist: Dauntless Cold",
+                "type": "Assist",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Light Defensive Daze Multiplier",
+                        "values": [
+                          "271.3%",
+                          "283.7%",
+                          "296.1%",
+                          "308.5%",
+                          "320.9%",
+                          "333.3%",
+                          "345.7%",
+                          "358.1%",
+                          "370.5%",
+                          "382.9%",
+                          "395.3%",
+                          "407.7%"
+                        ]
+                      },
+                      {
+                        "label": "Heavy Defensive Daze Multiplier",
+                        "values": [
+                          "342.8%",
+                          "358.4%",
+                          "374%",
+                          "389.6%",
+                          "405.2%",
+                          "420.8%",
+                          "436.4%",
+                          "452%",
+                          "467.6%",
+                          "483.2%",
+                          "498.8%",
+                          "514.4%"
+                        ]
+                      },
+                      {
+                        "label": "Chain Defensive Daze Multiplier",
+                        "values": [
+                          "166.8%",
+                          "174.4%",
+                          "182%",
+                          "189.6%",
+                          "197.2%",
+                          "204.8%",
+                          "212.4%",
+                          "220%",
+                          "227.6%",
+                          "235.2%",
+                          "242.8%",
+                          "250.4%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Assist Follow-Up: Devouring Frost",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nSwings the spear upward before following with a powerful downward attack, dealing massive Ice DMG.\nThis skill is considered an attack.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "514.9%",
+                          "561.8%",
+                          "608.7%",
+                          "655.6%",
+                          "702.5%",
+                          "749.4%",
+                          "796.3%",
+                          "843.2%",
+                          "890.1%",
+                          "937%",
+                          "983.9%",
+                          "1030.8%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "353.8%",
+                          "369.9%",
+                          "386%",
+                          "402.1%",
+                          "418.2%",
+                          "434.3%",
+                          "450.4%",
+                          "466.5%",
+                          "482.6%",
+                          "498.7%",
+                          "514.8%",
+                          "530.9%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Special Attack: Frostflower",
+                "type": "Special",
+                "desc": "Press to activate:\nPerforms three forward thrusts, dealing Ice DMG.\nAnti-Interrupt level is increased while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "53.7%",
+                          "58.6%",
+                          "63.5%",
+                          "68.4%",
+                          "73.3%",
+                          "78.2%",
+                          "83.1%",
+                          "88%",
+                          "92.9%",
+                          "97.8%",
+                          "102.7%",
+                          "107.6%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "42.2%",
+                          "44.2%",
+                          "46.2%",
+                          "48.2%",
+                          "50.2%",
+                          "52.2%",
+                          "54.2%",
+                          "56.2%",
+                          "58.2%",
+                          "60.2%",
+                          "62.2%",
+                          "64.2%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "EX Special Attack: Scattered Jade",
+                "type": "Special",
+                "desc": "With enough Energy and while not in the state, press to activate:\nPerforms a series of powerful stabs ahead, dealing massive Ice DMG.\nThis skill is considered an attack.\nWhen EX Special Attack: Scattered Jade is chained after Basic Attack: Frost-Tipped Spear, Basic Attack: Frost-Tipped Spear's hit count will be retained.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "438.8%",
+                          "478.7%",
+                          "518.6%",
+                          "558.5%",
+                          "598.4%",
+                          "638.3%",
+                          "678.2%",
+                          "718.1%",
+                          "758%",
+                          "797.9%",
+                          "837.8%",
+                          "877.7%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "274.3%",
+                          "286.8%",
+                          "299.3%",
+                          "311.8%",
+                          "324.3%",
+                          "336.8%",
+                          "349.3%",
+                          "361.8%",
+                          "374.3%",
+                          "386.8%",
+                          "399.3%",
+                          "411.8%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "EX Special Attack: Shattered Jade",
+                "type": "Special",
+                "desc": "With enough Energy and while in the state, press to activate:\nPerforms a series of powerful lunging stabs ahead, dealing massive Ice DMG.\nThis skill is considered an attack.\nWhen EX Special Attack: Shattered Jade is chained after Basic Attack: Frost-Tipped Spear, Basic Attack: Frost-Tipped Spear's hit count will be retained.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "1047.8%",
+                          "1143.1%",
+                          "1238.4%",
+                          "1333.7%",
+                          "1429%",
+                          "1524.3%",
+                          "1619.6%",
+                          "1714.9%",
+                          "1810.2%",
+                          "1905.5%",
+                          "2000.8%",
+                          "2096.1%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "362.6%",
+                          "379.1%",
+                          "395.6%",
+                          "412.1%",
+                          "428.6%",
+                          "445.1%",
+                          "461.6%",
+                          "478.1%",
+                          "494.6%",
+                          "511.1%",
+                          "527.6%",
+                          "544.1%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Chain Attack: Encroaching Ice",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nPerforms a powerful piercing attack against enemies ahead, dealing massive Ice DMG.\nUpon activating this skill, gains the Tempered effect, increasing the DMG dealt by subsequent Basic Attack: Converging Spear attacks by 20% for 50s.\nWhen the current skill hits a Stunned elite or boss enemy for the first time, the current stage of Basic Attack: Converging Spear is recorded and then reset before entering the state. While in , 's duration will not be reduced. Hold to continuously activate the 1st through 3rd stage of Basic Attack: Converging Spear. After activating the 3rd stage of Basic Attack: Converging Spear, ends and Basic Attack: Converging Spear's stage is restored to the recorded stage.\n can trigger at most once against the same target before the target recovers from Stun.\nThis skill is considered an attack.\nWhile in the state, Basic Attack: Converging Spear does not trigger the Chain Attack window when hitting Stunned enemies.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "943.7%",
+                          "1029.5%",
+                          "1115.3%",
+                          "1201.1%",
+                          "1286.9%",
+                          "1372.7%",
+                          "1458.5%",
+                          "1544.3%",
+                          "1630.1%",
+                          "1715.9%",
+                          "1801.7%",
+                          "1887.5%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "137.6%",
+                          "143.9%",
+                          "150.2%",
+                          "156.5%",
+                          "162.8%",
+                          "169.1%",
+                          "175.4%",
+                          "181.7%",
+                          "188%",
+                          "194.3%",
+                          "200.6%",
+                          "206.9%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Ultimate: Frozen Heavens",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nGathers the power of extreme cold before unleashing a devastating series of lunging attacks, dealing massive Ice DMG.\nThis skill is considered an attack.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "2189.8%",
+                          "2388.9%",
+                          "2588%",
+                          "2787.1%",
+                          "2986.2%",
+                          "3185.3%",
+                          "3384.4%",
+                          "3583.5%",
+                          "3782.6%",
+                          "3981.7%",
+                          "4180.8%",
+                          "4379.9%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "265.8%",
+                          "277.9%",
+                          "290%",
+                          "302.1%",
+                          "314.2%",
+                          "326.3%",
+                          "338.4%",
+                          "350.5%",
+                          "362.6%",
+                          "374.7%",
+                          "386.8%",
+                          "398.9%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Sky Knight",
+                "type": "Core Passive",
+                "desc": "The 4th hit of Basic Attack: Frost-Tipped Spear, as well as EX Special Attack: Scattered Jade, EX Special Attack: Shattered Jade, Assist Follow-Up: Devouring Frost, Chain Attack: Encroaching Ice, Ultimate: Frozen Heavens, and Dodge Counter: Counterthrust are considered attacks.\nWhenever Sigrid uses and hits an enemy with any while not in the state, she enters the state and gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhile in the state, when Sigrid hits an enemy with an skill, the state is refreshed and she gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhen triggering or refreshing , its duration decreases as the stage of Basic Attack: Converging Spear increases. At stage 1/2/3, its duration is 8/7/6s.\nWhen ends, the stage of Basic Attack: Converging Spear is reduced by one, to a minimum of stage 1.\nActivating or refreshing increases Sigrid's CRIT Rate by 66% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.\nWhen Sigrid hits a Stunned enemy while in , the Stun DMG Multiplier of her DMG dealt to the target is increased by 20%.",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "The 4th hit of Basic Attack: Frost-Tipped Spear, as well as EX Special Attack: Scattered Jade, EX Special Attack: Shattered Jade, Assist Follow-Up: Devouring Frost, Chain Attack: Encroaching Ice, Ultimate: Frozen Heavens, and Dodge Counter: Counterthrust are considered attacks.\nWhenever Sigrid uses and hits an enemy with any while not in the state, she enters the state and gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhile in the state, when Sigrid hits an enemy with an skill, the state is refreshed and she gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhen triggering or refreshing , its duration decreases as the stage of Basic Attack: Converging Spear increases. At stage 1/2/3, its duration is 8/7/6s.\nWhen ends, the stage of Basic Attack: Converging Spear is reduced by one, to a minimum of stage 1.\nActivating or refreshing increases Sigrid's CRIT Rate by 33% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.\nWhen Sigrid hits a Stunned enemy while in , the Stun DMG Multiplier of her DMG dealt to the target is increased by 20%."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "The 4th hit of Basic Attack: Frost-Tipped Spear, as well as EX Special Attack: Scattered Jade, EX Special Attack: Shattered Jade, Assist Follow-Up: Devouring Frost, Chain Attack: Encroaching Ice, Ultimate: Frozen Heavens, and Dodge Counter: Counterthrust are considered attacks.\nWhenever Sigrid uses and hits an enemy with any while not in the state, she enters the state and gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhile in the state, when Sigrid hits an enemy with an skill, the state is refreshed and she gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhen triggering or refreshing , its duration decreases as the stage of Basic Attack: Converging Spear increases. At stage 1/2/3, its duration is 8/7/6s.\nWhen ends, the stage of Basic Attack: Converging Spear is reduced by one, to a minimum of stage 1.\nActivating or refreshing increases Sigrid's CRIT Rate by 39% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.\nWhen Sigrid hits a Stunned enemy while in , the Stun DMG Multiplier of her DMG dealt to the target is increased by 20%."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "The 4th hit of Basic Attack: Frost-Tipped Spear, as well as EX Special Attack: Scattered Jade, EX Special Attack: Shattered Jade, Assist Follow-Up: Devouring Frost, Chain Attack: Encroaching Ice, Ultimate: Frozen Heavens, and Dodge Counter: Counterthrust are considered attacks.\nWhenever Sigrid uses and hits an enemy with any while not in the state, she enters the state and gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhile in the state, when Sigrid hits an enemy with an skill, the state is refreshed and she gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhen triggering or refreshing , its duration decreases as the stage of Basic Attack: Converging Spear increases. At stage 1/2/3, its duration is 8/7/6s.\nWhen ends, the stage of Basic Attack: Converging Spear is reduced by one, to a minimum of stage 1.\nActivating or refreshing increases Sigrid's CRIT Rate by 44% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.\nWhen Sigrid hits a Stunned enemy while in , the Stun DMG Multiplier of her DMG dealt to the target is increased by 20%."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "The 4th hit of Basic Attack: Frost-Tipped Spear, as well as EX Special Attack: Scattered Jade, EX Special Attack: Shattered Jade, Assist Follow-Up: Devouring Frost, Chain Attack: Encroaching Ice, Ultimate: Frozen Heavens, and Dodge Counter: Counterthrust are considered attacks.\nWhenever Sigrid uses and hits an enemy with any while not in the state, she enters the state and gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhile in the state, when Sigrid hits an enemy with an skill, the state is refreshed and she gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhen triggering or refreshing , its duration decreases as the stage of Basic Attack: Converging Spear increases. At stage 1/2/3, its duration is 8/7/6s.\nWhen ends, the stage of Basic Attack: Converging Spear is reduced by one, to a minimum of stage 1.\nActivating or refreshing increases Sigrid's CRIT Rate by 50% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.\nWhen Sigrid hits a Stunned enemy while in , the Stun DMG Multiplier of her DMG dealt to the target is increased by 20%."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "The 4th hit of Basic Attack: Frost-Tipped Spear, as well as EX Special Attack: Scattered Jade, EX Special Attack: Shattered Jade, Assist Follow-Up: Devouring Frost, Chain Attack: Encroaching Ice, Ultimate: Frozen Heavens, and Dodge Counter: Counterthrust are considered attacks.\nWhenever Sigrid uses and hits an enemy with any while not in the state, she enters the state and gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhile in the state, when Sigrid hits an enemy with an skill, the state is refreshed and she gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhen triggering or refreshing , its duration decreases as the stage of Basic Attack: Converging Spear increases. At stage 1/2/3, its duration is 8/7/6s.\nWhen ends, the stage of Basic Attack: Converging Spear is reduced by one, to a minimum of stage 1.\nActivating or refreshing increases Sigrid's CRIT Rate by 55% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.\nWhen Sigrid hits a Stunned enemy while in , the Stun DMG Multiplier of her DMG dealt to the target is increased by 20%."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "The 4th hit of Basic Attack: Frost-Tipped Spear, as well as EX Special Attack: Scattered Jade, EX Special Attack: Shattered Jade, Assist Follow-Up: Devouring Frost, Chain Attack: Encroaching Ice, Ultimate: Frozen Heavens, and Dodge Counter: Counterthrust are considered attacks.\nWhenever Sigrid uses and hits an enemy with any while not in the state, she enters the state and gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhile in the state, when Sigrid hits an enemy with an skill, the state is refreshed and she gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhen triggering or refreshing , its duration decreases as the stage of Basic Attack: Converging Spear increases. At stage 1/2/3, its duration is 8/7/6s.\nWhen ends, the stage of Basic Attack: Converging Spear is reduced by one, to a minimum of stage 1.\nActivating or refreshing increases Sigrid's CRIT Rate by 61% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.\nWhen Sigrid hits a Stunned enemy while in , the Stun DMG Multiplier of her DMG dealt to the target is increased by 20%."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "The 4th hit of Basic Attack: Frost-Tipped Spear, as well as EX Special Attack: Scattered Jade, EX Special Attack: Shattered Jade, Assist Follow-Up: Devouring Frost, Chain Attack: Encroaching Ice, Ultimate: Frozen Heavens, and Dodge Counter: Counterthrust are considered attacks.\nWhenever Sigrid uses and hits an enemy with any while not in the state, she enters the state and gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhile in the state, when Sigrid hits an enemy with an skill, the state is refreshed and she gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhen triggering or refreshing , its duration decreases as the stage of Basic Attack: Converging Spear increases. At stage 1/2/3, its duration is 8/7/6s.\nWhen ends, the stage of Basic Attack: Converging Spear is reduced by one, to a minimum of stage 1.\nActivating or refreshing increases Sigrid's CRIT Rate by 66% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.\nWhen Sigrid hits a Stunned enemy while in , the Stun DMG Multiplier of her DMG dealt to the target is increased by 20%."
+                  }
+                ]
+              },
+              {
+                "name": "Additional Ability: Legion of the Skies",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad is a Support or Stun character:\nSigrid's ATK increases by 120. This effect scales with character level, with each level providing an additional increase of 12, up to a maximum increase of 840.\nDMG increases by 15% when hitting enemies in the Contamination state.",
+                "levels": []
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Long, Long Ago",
+                "type": "Mindscape 1",
+                "desc": "Upon activating the 3rd stage of Basic Attack: Converging Spear, enters the Aerial Patrol Spear and gains 1 additional activation of Basic Attack: Converging Spear. When activations exceed the stored Basic Attack: Converging Spear's activation limit, the next Basic Attack: Converging Spear's final hit deals an additional 100% of ATK as Ice DMG. Sigrid's ATK increases by 25%."
+              },
+              {
+                "name": "Legend's First Act",
+                "type": "Mindscape 2",
+                "desc": "PEN Ratio of Unbridled Spear attacks and Basic Attack: Converging Spear increases by 24%. The duration of Aerial Patrol Spear is extended by 2s. Sigrid's Decibel Generation Rate increases by 10%."
+              },
+              {
+                "name": "Protector of Miracles",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Hero in Training",
+                "type": "Mindscape 4",
+                "desc": "Each time upon gaining Aerial Patrol Spear, DMG dealt increases by 18% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s."
+              },
+              {
+                "name": "Skybound Oath",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Knight of the Skies",
+                "type": "Mindscape 6",
+                "desc": "When Basic Attack: Converging Spear's 1st/2nd/3rd stage's final hit lands, it deals an additional 80%/90%/100% ATK as Ice DMG. There is no more limit on the number of times Sigrid can enter the Formation Breaker state upon hitting a Stunned enemy with Chain Attack: Encroaching Ice. Formation Breaker state's Basic Attack: Converging Spear will activate faster."
+              }
+            ]
+          }
+        ]
+      },
+      "req": {
+        "ascension": [
+          {
+            "id": "100211",
+            "name": "Basic Attack Certification Seal",
+            "qty": 4,
+            "rar": 1,
+            "kind": "gem",
+            "icon": "../../Database/GameData/zzz/assets/items/AvatarRankDamage01.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100221",
+            "name": "Advanced Attack Certification Seal",
+            "qty": 32,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/GameData/zzz/assets/items/AvatarRankDamage02.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100231",
+            "name": "Pioneer's Certification Seal",
+            "qty": 30,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/GameData/zzz/assets/items/AvatarRankDamage03.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          }
+        ],
+        "talents": [
+          {
+            "id": "100112",
+            "name": "Basic Freeze Chip",
+            "qty": 25,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100122",
+            "name": "Advanced Freeze Chip",
+            "qty": 75,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100132",
+            "name": "Specialized Freeze Chip",
+            "qty": 250,
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100941",
+            "name": "Hamster Cage Pass",
+            "qty": 5,
+            "rar": 5,
+            "kind": "crown",
+            "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
+            "source": "Event / New Eridu City Fund",
+            "sourceDetails": [
+              {
+                "name": "Event / New Eridu City Fund"
+              }
+            ]
+          },
+          {
+            "id": "110007",
+            "name": "Crimson Miasma Spike",
+            "qty": 9,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss007.webp",
+            "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss007.webp",
+            "source": "Corrupted Wandering Hunter",
+            "sourceDetails": [
+              {
+                "name": "Wandering Hunter",
+                "icon": "../../Database/GameData/zzz/assets/monsters/Monster_WanderingHunter.webp"
+              }
+            ]
+          },
+          {
+            "id": "110512",
+            "name": "Higher Dimensional Data: Corrupted Dreamsteel",
+            "qty": 60,
+            "rar": 4,
+            "kind": "boss",
+            "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss012.webp",
+            "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss012.webp",
+            "source": "Miasmic Doppelganger - Komano Manato / Expert Challenge",
+            "sourceDetails": [
+              {
+                "name": "Doppelganger Komano Manato",
+                "icon": "../../Database/GameData/zzz/assets/monsters/Monster_NoranoEgo_Slime.webp"
+              },
+              {
+                "name": "Expert Challenge"
+              }
+            ]
+          }
+        ],
+        "talentStages": [
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100112",
+                  "name": "Basic Freeze Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100112",
+                  "name": "Basic Freeze Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100112",
+                  "name": "Basic Freeze Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100112",
+                  "name": "Basic Freeze Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100112",
+                  "name": "Basic Freeze Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100112",
+                  "name": "Basic Freeze Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100112",
+                  "name": "Basic Freeze Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100112",
+                  "name": "Basic Freeze Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100112",
+                  "name": "Basic Freeze Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100112",
+                  "name": "Basic Freeze Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 5000,
+              "items": []
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "110512",
+                  "name": "Higher Dimensional Data: Corrupted Dreamsteel",
+                  "qty": 2,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss012.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss012.webp",
+                  "source": "Miasmic Doppelganger - Komano Manato / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Doppelganger Komano Manato",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_NoranoEgo_Slime.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 28000,
+              "items": [
+                {
+                  "id": "110512",
+                  "name": "Higher Dimensional Data: Corrupted Dreamsteel",
+                  "qty": 4,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss012.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss012.webp",
+                  "source": "Miasmic Doppelganger - Komano Manato / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Doppelganger Komano Manato",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_NoranoEgo_Slime.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 60000,
+              "items": [
+                {
+                  "id": "110007",
+                  "name": "Crimson Miasma Spike",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss007.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss007.webp",
+                  "source": "Corrupted Wandering Hunter",
+                  "sourceDetails": [
+                    {
+                      "name": "Wandering Hunter",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_WanderingHunter.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "110512",
+                  "name": "Higher Dimensional Data: Corrupted Dreamsteel",
+                  "qty": 9,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss012.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss012.webp",
+                  "source": "Miasmic Doppelganger - Komano Manato / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Doppelganger Komano Manato",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_NoranoEgo_Slime.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 100000,
+              "items": [
+                {
+                  "id": "110007",
+                  "name": "Crimson Miasma Spike",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss007.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss007.webp",
+                  "source": "Corrupted Wandering Hunter",
+                  "sourceDetails": [
+                    {
+                      "name": "Wandering Hunter",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_WanderingHunter.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "110512",
+                  "name": "Higher Dimensional Data: Corrupted Dreamsteel",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss012.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss012.webp",
+                  "source": "Miasmic Doppelganger - Komano Manato / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Doppelganger Komano Manato",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_NoranoEgo_Slime.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 200000,
+              "items": [
+                {
+                  "id": "110007",
+                  "name": "Crimson Miasma Spike",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss007.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss007.webp",
+                  "source": "Corrupted Wandering Hunter",
+                  "sourceDetails": [
+                    {
+                      "name": "Wandering Hunter",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_WanderingHunter.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "110512",
+                  "name": "Higher Dimensional Data: Corrupted Dreamsteel",
+                  "qty": 30,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss012.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss012.webp",
+                  "source": "Miasmic Doppelganger - Komano Manato / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Doppelganger Komano Manato",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_NoranoEgo_Slime.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        ],
+        "ascCost": 800000,
+        "talentCost": 2905000,
+        "currency": 3705000
+      }
+    },
+    {
       "id": "zzz-orphie-and-magus",
       "n": "Orphie & Magus",
       "localizedNames": {
@@ -26900,7 +32162,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -29609,7 +34871,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -33026,7 +38288,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -35649,7 +40911,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -38299,7 +43561,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -41366,7 +46628,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -44105,7 +49367,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -46626,7 +51888,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -49335,7 +54597,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -52361,7 +57623,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -55075,7 +60337,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -57974,7 +63236,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -60673,7 +65935,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -60681,7 +65943,7 @@
               {
                 "name": "Basic Attack: Dancing Blades",
                 "type": "Basic",
-                "desc": "Press to activate:\nUnleashes up to 6 attacks in front, dealing Physical DMG.",
+                "desc": "Press to activate:\nUnleashes up to 6 attacks in front, dealing Physical DMG.\n\nPress to activate:\nUnleashes up to six consecutive attacks ahead, dealing Physical DMG.\nThe sixth Basic Attack is also treated as a Dash Attack, and Anti-Interrupt level is increased while using this skill.",
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -60916,7 +66178,7 @@
               {
                 "name": "Basic Attack: Salchow Jump",
                 "type": "Basic",
-                "desc": "Entering the Passion state grants Jane one use of Basic Attack: Salchow Jump.\nWhen available, hold to activate:\nLaunch rapid consecutive attacks forward, followed by a Finishing Move, dealing Physical DMG.\nHold the button during the consecutive attacks to extend the skill duration. Release to trigger the Finishing Move early.\nAnti-Interrupt level is increased during the consecutive attacks, and Jane takes 40% reduced DMG. Jane is invulnerable during the Finishing Move.\nUsing and damaging an enemy with Basic Attack: Salchow Jump while in the Passion state generates Passion Stream.",
+                "desc": "Entering the Passion state grants Jane one use of Basic Attack: Salchow Jump.\nWhen available, hold to activate:\nLaunch rapid consecutive attacks forward, followed by a Finishing Move, dealing Physical DMG.\nHold the button during the consecutive attacks to extend the skill duration. Release to trigger the Finishing Move early.\nAnti-Interrupt level is increased during the consecutive attacks, and Jane takes 40% reduced DMG. Jane is invulnerable during the Finishing Move.\nUsing and damaging an enemy with Basic Attack: Salchow Jump while in the Passion state generates Passion Stream.\n\nEntering the Passion state grants Jane one use of Basic Attack: Salchow Jump.\nWhen available, hold to activate:\nLaunches rapid consecutive attacks forward, followed by a Finishing Move, dealing Physical DMG.\nHold the button during the consecutive attacks to greatly extend the skill duration. Release to trigger the Finishing Move early.\nAnti-Interrupt level is increased during the consecutive attacks, and Jane takes 40% reduced DMG. Jane is invulnerable during the Finishing Move, which can also trigger a Perfect Dodge upon activation.\nIf a Perfect Dodge is triggered, the Finishing Move restores more Passion Stream on hit.\nUsing and damaging an enemy with Basic Attack: Salchow Jump while in the Passion state generates Passion Stream.",
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -60953,6 +66215,23 @@
                         ]
                       },
                       {
+                        "label": "Consecutive Attack DMG Multiplier",
+                        "values": [
+                          "482.1%",
+                          "526%",
+                          "569.9%",
+                          "613.8%",
+                          "657.7%",
+                          "701.6%",
+                          "745.5%",
+                          "789.4%",
+                          "833.3%",
+                          "877.2%",
+                          "921.1%",
+                          "965%"
+                        ]
+                      },
+                      {
                         "label": "Finishing Move DMG Multiplier",
                         "values": [
                           "161.3%",
@@ -60984,6 +66263,23 @@
                           "323.7%",
                           "334.2%",
                           "344.7%"
+                        ]
+                      },
+                      {
+                        "label": "Consecutive Attack Daze Multiplier",
+                        "values": [
+                          "322.7%",
+                          "337.4%",
+                          "352.1%",
+                          "366.8%",
+                          "381.5%",
+                          "396.2%",
+                          "410.9%",
+                          "425.6%",
+                          "440.3%",
+                          "455%",
+                          "469.7%",
+                          "484.4%"
                         ]
                       },
                       {
@@ -61691,6 +66987,66 @@
                           "659.8%",
                           "681.1%",
                           "702.4%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "EX Special Attack: Aerial Sweep - Onslaught",
+                "type": "Special",
+                "desc": "While in the Passion state and with enough Energy, press to activate:\nLeaps into the air to launch multiple consecutive kicks forward, then sweeps across, dealing massive Physical DMG.\nCharacter is invulnerable while using this skill, which also counts as a Dash Attack.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "595.1%",
+                          "649.2%",
+                          "703.3%",
+                          "757.4%",
+                          "811.5%",
+                          "865.6%",
+                          "919.7%",
+                          "973.8%",
+                          "1027.9%",
+                          "1082%",
+                          "1136.1%",
+                          "1190.2%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "487.2%",
+                          "509.4%",
+                          "531.6%",
+                          "553.8%",
+                          "576%",
+                          "598.2%",
+                          "620.4%",
+                          "642.6%",
+                          "664.8%",
+                          "687%",
+                          "709.2%",
+                          "731.4%"
                         ]
                       }
                     ]
@@ -63455,7 +68811,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -66120,7 +71476,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -68759,7 +74115,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -71568,7 +76924,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -74241,7 +79597,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -75209,7 +80565,7 @@
               {
                 "name": "Additional Ability: Bask in Frost",
                 "type": "Additional Ability",
-                "desc": "When another character in your squad is a Support character or shares the same Faction:\nBasic Attack: Shimotsuki DMG increases by 60%. When any squad member triggers Disorder, Hoshimi Miyabi obtains 2 points of Fallen Frost and Basic Attack: Shimotsuki during the next Shimotsuki Stance will ignore 30% of the target's Ice RES.",
+                "desc": "When another character in your squad is a Support or Anomaly character, or shares the same Faction:\nBasic Attack: Shimotsuki DMG increases by 60%. When any squad member triggers Disorder, Hoshimi Miyabi obtains 2 points of Fallen Frost and Basic Attack: Shimotsuki during the next Shimotsuki Stance will ignore 30% of the target's Ice RES.",
                 "levels": []
               }
             ]
@@ -76801,7 +82157,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -76809,7 +82165,7 @@
               {
                 "name": "Basic Attack: Kitty Slash",
                 "type": "Basic",
-                "desc": "Press to activate:\nUnleashes up to 5 slashes, dealing Physical DMG.\nOn the last hit, there is a 33.33% chance to repeat this hit 3 times.",
+                "desc": "Press to activate:\nUnleashes up to 5 slashes, dealing Physical DMG.\nOn the last hit, there is a 33.33% chance to repeat this hit 3 times.\n\nPress to activate:\nUnleashes up to five slashes, dealing Physical DMG.\nWhen the final slash lands on a Stunned enemy, it repeats three additional times.",
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -77005,7 +82361,7 @@
               {
                 "name": "Basic Attack: Crimson Blade",
                 "type": "Basic",
-                "desc": "Hold during the first 3 hits of Nekomata's Basic Attack to activate:\nSlashes enemies in front and passes through them, dealing Physical DMG.\nUpon activation, there is a 33.33% chance to repeat this attack 3 times.",
+                "desc": "Hold during the first 3 hits of Nekomata's Basic Attack to activate:\nSlashes enemies in front and passes through them, dealing Physical DMG.\nUpon activation, there is a 33.33% chance to repeat this attack 3 times.\n\nHold during the first three hits of Nekomata's Basic Attack to activate:\nSlashes enemies in front and passes through them, dealing Physical DMG.\nIf this skill hits a Stunned enemy, it repeats three additional times.",
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -77066,6 +82422,11 @@
                 "name": "Dodge: Can't Touch Me-ow~",
                 "type": "Dodge",
                 "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dodge: Disappearing Tail",
+                "type": "Dodge",
+                "desc": "With at least 40 and after triggering a Perfect Dodge, press and consume 30 Purr Energy to activate:\nNekomata enters Vital View and swiftly moves behind the enemy.\nCharacter is invulnerable while using this skill. This skill does not consume dodge uses."
               },
               {
                 "name": "Dash Attack: Over Here!",
@@ -77181,6 +82542,66 @@
                           "281.4%",
                           "290.5%",
                           "299.6%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Dodge Counter: Fluffy Piercing Claw",
+                "type": "Dodge",
+                "desc": "Press after using Dodge: Disappearing Tail, or hold with at least 40 to activate:\nUnleashes a powerful slash at enemies in a large area ahead, dealing massive Physical DMG.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "1263.9%",
+                          "1378.8%",
+                          "1493.7%",
+                          "1608.6%",
+                          "1723.5%",
+                          "1838.4%",
+                          "1953.3%",
+                          "2068.2%",
+                          "2183.1%",
+                          "2298%",
+                          "2412.9%",
+                          "2527.8%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "164.6%",
+                          "172.1%",
+                          "179.6%",
+                          "187.1%",
+                          "194.6%",
+                          "202.1%",
+                          "209.6%",
+                          "217.1%",
+                          "224.6%",
+                          "232.1%",
+                          "239.6%",
+                          "247.1%"
                         ]
                       }
                     ]
@@ -77447,7 +82868,7 @@
               {
                 "name": "EX Special Attack: Super Surprise Attack!",
                 "type": "Special",
-                "desc": "With enough Energy, press to activate:\nUnleashes a powerful falling slash that deals massive Physical DMG.\nCharacter is invulnerable while using this skill.",
+                "desc": "With enough Energy, press to activate:\nUnleashes a powerful falling slash that deals massive Physical DMG.\nCharacter is invulnerable while using this skill.\n\nWith enough Energy, press to activate:\nUnleashes a powerful falling slash, dealing massive Physical DMG.\nCharacter is invulnerable while using this skill.\nThis skill's pursuit effect is enhanced.",
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -77639,28 +83060,56 @@
                     "text": "When Nekomata's Dodge Counter or Quick Assist hits an enemy, her DMG increases by 30% for 6s."
                   },
                   {
+                    "label": "Lv. 1",
+                    "text": "When Nekomata's Dodge Counter or Quick Assist hits an enemy, her DMG increases by 30% for 40s. Repeated triggers reset the duration.\nNekomata gains 40 upon entering the battlefield. In Investigation Zone mode, this effect can trigger once every 180s.\nWhile Nekomata is in combat, she gains 1 Purr Energy every second, up to a maximum of 60. Different skills restore different amounts of Purr Energy when they hit an enemy.\nWhen Nekomata has at least 40 Purr Energy and after triggering a Perfect Dodge, press to consume 30 Purr Energy and activate Dodge: Disappearing Tail. Then press to perform Dodge Counter: Fluffy Piercing Claw once without consuming Purr Energy.\nWhen Nekomata has at least 40 Purr Energy, hold to consume 40 Purr Energy and activate Dodge Counter: Fluffy Piercing Claw.\nWhen using Dodge Counter: Fluffy Piercing Claw, Nekomata enters the state for 40s. Repeated triggers reset the duration. While Pawpad Ambush is active, all of Nekomata's attacks count as hitting from behind.\nWhile Pawpad Ambush is active, Nekomata's attacks trigger Super Mean Pawprint, dealing an additional instance of Physical DMG equal to 30% of her ATK. This effect can trigger once every 1s.\nNekomata restores 20 additional Purr Energy when using her Ultimate, 10 when using her Chain Attack, and 5 when using her EX Special Attack."
+                  },
+                  {
                     "label": "Lv. 2",
                     "text": "When Nekomata's Dodge Counter or Quick Assist hits an enemy, her DMG increases by 35% for 6s."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "When Nekomata's Dodge Counter or Quick Assist hits an enemy, her DMG increases by 35% for 40s. Repeated triggers reset the duration.\nNekomata gains 40 upon entering the battlefield. In Investigation Zone mode, this effect can trigger once every 180s.\nWhile Nekomata is in combat, she gains 1 Purr Energy every second, up to a maximum of 60. Different skills restore different amounts of Purr Energy when they hit an enemy.\nWhen Nekomata has at least 40 Purr Energy and after triggering a Perfect Dodge, press to consume 30 Purr Energy and activate Dodge: Disappearing Tail. Then press to perform Dodge Counter: Fluffy Piercing Claw once without consuming Purr Energy.\nWhen Nekomata has at least 40 Purr Energy, hold to consume 40 Purr Energy and activate Dodge Counter: Fluffy Piercing Claw.\nWhen using Dodge Counter: Fluffy Piercing Claw, Nekomata enters the state for 40s. Repeated triggers reset the duration. While Pawpad Ambush is active, all of Nekomata's attacks count as hitting from behind.\nWhile Pawpad Ambush is active, Nekomata's attacks trigger Super Mean Pawprint, dealing an additional instance of Physical DMG equal to 30% of her ATK. This effect can trigger once every 1s.\nNekomata restores 20 additional Purr Energy when using her Ultimate, 10 when using her Chain Attack, and 5 when using her EX Special Attack."
                   },
                   {
                     "label": "Lv. 3",
                     "text": "When Nekomata's Dodge Counter or Quick Assist hits an enemy, her DMG increases by 40% for 6s."
                   },
                   {
+                    "label": "Lv. 3",
+                    "text": "When Nekomata's Dodge Counter or Quick Assist hits an enemy, her DMG increases by 40% for 40s. Repeated triggers reset the duration.\nNekomata gains 40 upon entering the battlefield. In Investigation Zone mode, this effect can trigger once every 180s.\nWhile Nekomata is in combat, she gains 1 Purr Energy every second, up to a maximum of 60. Different skills restore different amounts of Purr Energy when they hit an enemy.\nWhen Nekomata has at least 40 Purr Energy and after triggering a Perfect Dodge, press to consume 30 Purr Energy and activate Dodge: Disappearing Tail. Then press to perform Dodge Counter: Fluffy Piercing Claw once without consuming Purr Energy.\nWhen Nekomata has at least 40 Purr Energy, hold to consume 40 Purr Energy and activate Dodge Counter: Fluffy Piercing Claw.\nWhen using Dodge Counter: Fluffy Piercing Claw, Nekomata enters the state for 40s. Repeated triggers reset the duration. While Pawpad Ambush is active, all of Nekomata's attacks count as hitting from behind.\nWhile Pawpad Ambush is active, Nekomata's attacks trigger Super Mean Pawprint, dealing an additional instance of Physical DMG equal to 30% of her ATK. This effect can trigger once every 1s.\nNekomata restores 20 additional Purr Energy when using her Ultimate, 10 when using her Chain Attack, and 5 when using her EX Special Attack."
+                  },
+                  {
                     "label": "Lv. 4",
                     "text": "When Nekomata's Dodge Counter or Quick Assist hits an enemy, her DMG increases by 45% for 6s."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "When Nekomata's Dodge Counter or Quick Assist hits an enemy, her DMG increases by 45% for 40s. Repeated triggers reset the duration.\nNekomata gains 40 upon entering the battlefield. In Investigation Zone mode, this effect can trigger once every 180s.\nWhile Nekomata is in combat, she gains 1 Purr Energy every second, up to a maximum of 60. Different skills restore different amounts of Purr Energy when they hit an enemy.\nWhen Nekomata has at least 40 Purr Energy and after triggering a Perfect Dodge, press to consume 30 Purr Energy and activate Dodge: Disappearing Tail. Then press to perform Dodge Counter: Fluffy Piercing Claw once without consuming Purr Energy.\nWhen Nekomata has at least 40 Purr Energy, hold to consume 40 Purr Energy and activate Dodge Counter: Fluffy Piercing Claw.\nWhen using Dodge Counter: Fluffy Piercing Claw, Nekomata enters the state for 40s. Repeated triggers reset the duration. While Pawpad Ambush is active, all of Nekomata's attacks count as hitting from behind.\nWhile Pawpad Ambush is active, Nekomata's attacks trigger Super Mean Pawprint, dealing an additional instance of Physical DMG equal to 30% of her ATK. This effect can trigger once every 1s.\nNekomata restores 20 additional Purr Energy when using her Ultimate, 10 when using her Chain Attack, and 5 when using her EX Special Attack."
                   },
                   {
                     "label": "Lv. 5",
                     "text": "When Nekomata's Dodge Counter or Quick Assist hits an enemy, her DMG increases by 50% for 6s."
                   },
                   {
+                    "label": "Lv. 5",
+                    "text": "When Nekomata's Dodge Counter or Quick Assist hits an enemy, her DMG increases by 50% for 40s. Repeated triggers reset the duration.\nNekomata gains 40 upon entering the battlefield. In Investigation Zone mode, this effect can trigger once every 180s.\nWhile Nekomata is in combat, she gains 1 Purr Energy every second, up to a maximum of 60. Different skills restore different amounts of Purr Energy when they hit an enemy.\nWhen Nekomata has at least 40 Purr Energy and after triggering a Perfect Dodge, press to consume 30 Purr Energy and activate Dodge: Disappearing Tail. Then press to perform Dodge Counter: Fluffy Piercing Claw once without consuming Purr Energy.\nWhen Nekomata has at least 40 Purr Energy, hold to consume 40 Purr Energy and activate Dodge Counter: Fluffy Piercing Claw.\nWhen using Dodge Counter: Fluffy Piercing Claw, Nekomata enters the state for 40s. Repeated triggers reset the duration. While Pawpad Ambush is active, all of Nekomata's attacks count as hitting from behind.\nWhile Pawpad Ambush is active, Nekomata's attacks trigger Super Mean Pawprint, dealing an additional instance of Physical DMG equal to 30% of her ATK. This effect can trigger once every 1s.\nNekomata restores 20 additional Purr Energy when using her Ultimate, 10 when using her Chain Attack, and 5 when using her EX Special Attack."
+                  },
+                  {
                     "label": "Lv. 6",
                     "text": "When Nekomata's Dodge Counter or Quick Assist hits an enemy, her DMG increases by 55% for 6s."
                   },
                   {
+                    "label": "Lv. 6",
+                    "text": "When Nekomata's Dodge Counter or Quick Assist hits an enemy, her DMG increases by 55% for 40s. Repeated triggers reset the duration.\nNekomata gains 40 upon entering the battlefield. In Investigation Zone mode, this effect can trigger once every 180s.\nWhile Nekomata is in combat, she gains 1 Purr Energy every second, up to a maximum of 60. Different skills restore different amounts of Purr Energy when they hit an enemy.\nWhen Nekomata has at least 40 Purr Energy and after triggering a Perfect Dodge, press to consume 30 Purr Energy and activate Dodge: Disappearing Tail. Then press to perform Dodge Counter: Fluffy Piercing Claw once without consuming Purr Energy.\nWhen Nekomata has at least 40 Purr Energy, hold to consume 40 Purr Energy and activate Dodge Counter: Fluffy Piercing Claw.\nWhen using Dodge Counter: Fluffy Piercing Claw, Nekomata enters the state for 40s. Repeated triggers reset the duration. While Pawpad Ambush is active, all of Nekomata's attacks count as hitting from behind.\nWhile Pawpad Ambush is active, Nekomata's attacks trigger Super Mean Pawprint, dealing an additional instance of Physical DMG equal to 30% of her ATK. This effect can trigger once every 1s.\nNekomata restores 20 additional Purr Energy when using her Ultimate, 10 when using her Chain Attack, and 5 when using her EX Special Attack."
+                  },
+                  {
                     "label": "Lv. 7",
                     "text": "When Nekomata's Dodge Counter or Quick Assist hits an enemy, her DMG increases by 60% for 6s."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "When Nekomata's Dodge Counter or Quick Assist hits an enemy, her DMG increases by 60% for 40s. Repeated triggers reset the duration.\nNekomata gains 40 upon entering the battlefield. In Investigation Zone mode, this effect can trigger once every 180s.\nWhile Nekomata is in combat, she gains 1 Purr Energy every second, up to a maximum of 60. Different skills restore different amounts of Purr Energy when they hit an enemy.\nWhen Nekomata has at least 40 Purr Energy and after triggering a Perfect Dodge, press to consume 30 Purr Energy and activate Dodge: Disappearing Tail. Then press to perform Dodge Counter: Fluffy Piercing Claw once without consuming Purr Energy.\nWhen Nekomata has at least 40 Purr Energy, hold to consume 40 Purr Energy and activate Dodge Counter: Fluffy Piercing Claw.\nWhen using Dodge Counter: Fluffy Piercing Claw, Nekomata enters the state for 40s. Repeated triggers reset the duration. While Pawpad Ambush is active, all of Nekomata's attacks count as hitting from behind.\nWhile Pawpad Ambush is active, Nekomata's attacks trigger Super Mean Pawprint, dealing an additional instance of Physical DMG equal to 30% of her ATK. This effect can trigger once every 1s.\nNekomata restores 20 additional Purr Energy when using her Ultimate, 10 when using her Chain Attack, and 5 when using her EX Special Attack."
                   }
                 ]
               },
@@ -77668,7 +83117,64 @@
                 "name": "Additional Ability: Catwalk",
                 "type": "Additional Ability",
                 "desc": "When another character in your squad shares the same Attribute or Faction:\nAfter any character inflicts Assault, increases the DMG of Nekomata's next EX Special Attack by 35%, stacking up to 2 times.",
-                "levels": []
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "When another character in your squad shares the same Attribute or Faction:\nAfter any character inflicts Assault, increases the DMG of Nekomata's next EX Special Attack by 35%, stacking up to 2 times."
+                  },
+                  {
+                    "label": "Lv. 1",
+                    "text": "When another character in your squad is a Support character, or shares the same attribute or Faction:\nAfter Nekomata uses Dodge: Disappearing Tail, or after any squad member inflicts Assault on an enemy, Nekomata's EX Special Attack and Dodge Counter deal 35% more DMG on hit. This effect stacks up to 2 times and lasts 30s. Repeated triggers reset the duration."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "When another character in your squad shares the same Attribute or Faction:\nAfter any character inflicts Assault, increases the DMG of Nekomata's next EX Special Attack by 35%, stacking up to 2 times."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "When another character in your squad is a Support character, or shares the same attribute or Faction:\nAfter Nekomata uses Dodge: Disappearing Tail, or after any squad member inflicts Assault on an enemy, Nekomata's EX Special Attack and Dodge Counter deal 35% more DMG on hit. This effect stacks up to 2 times and lasts 30s. Repeated triggers reset the duration."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "When another character in your squad shares the same Attribute or Faction:\nAfter any character inflicts Assault, increases the DMG of Nekomata's next EX Special Attack by 35%, stacking up to 2 times."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "When another character in your squad is a Support character, or shares the same attribute or Faction:\nAfter Nekomata uses Dodge: Disappearing Tail, or after any squad member inflicts Assault on an enemy, Nekomata's EX Special Attack and Dodge Counter deal 35% more DMG on hit. This effect stacks up to 2 times and lasts 30s. Repeated triggers reset the duration."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "When another character in your squad shares the same Attribute or Faction:\nAfter any character inflicts Assault, increases the DMG of Nekomata's next EX Special Attack by 35%, stacking up to 2 times."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "When another character in your squad is a Support character, or shares the same attribute or Faction:\nAfter Nekomata uses Dodge: Disappearing Tail, or after any squad member inflicts Assault on an enemy, Nekomata's EX Special Attack and Dodge Counter deal 35% more DMG on hit. This effect stacks up to 2 times and lasts 30s. Repeated triggers reset the duration."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "When another character in your squad shares the same Attribute or Faction:\nAfter any character inflicts Assault, increases the DMG of Nekomata's next EX Special Attack by 35%, stacking up to 2 times."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "When another character in your squad is a Support character, or shares the same attribute or Faction:\nAfter Nekomata uses Dodge: Disappearing Tail, or after any squad member inflicts Assault on an enemy, Nekomata's EX Special Attack and Dodge Counter deal 35% more DMG on hit. This effect stacks up to 2 times and lasts 30s. Repeated triggers reset the duration."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "When another character in your squad shares the same Attribute or Faction:\nAfter any character inflicts Assault, increases the DMG of Nekomata's next EX Special Attack by 35%, stacking up to 2 times."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "When another character in your squad is a Support character, or shares the same attribute or Faction:\nAfter Nekomata uses Dodge: Disappearing Tail, or after any squad member inflicts Assault on an enemy, Nekomata's EX Special Attack and Dodge Counter deal 35% more DMG on hit. This effect stacks up to 2 times and lasts 30s. Repeated triggers reset the duration."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "When another character in your squad shares the same Attribute or Faction:\nAfter any character inflicts Assault, increases the DMG of Nekomata's next EX Special Attack by 35%, stacking up to 2 times."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "When another character in your squad is a Support character, or shares the same attribute or Faction:\nAfter Nekomata uses Dodge: Disappearing Tail, or after any squad member inflicts Assault on an enemy, Nekomata's EX Special Attack and Dodge Counter deal 35% more DMG on hit. This effect stacks up to 2 times and lasts 30s. Repeated triggers reset the duration."
+                  }
+                ]
               }
             ]
           },
@@ -79262,7 +84768,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -81930,7 +87436,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -84524,7 +90030,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -84752,6 +90258,194 @@
                 ]
               },
               {
+                "name": "Basic Attack: Morning Cleanup",
+                "type": "Basic",
+                "desc": "After Rina uses an EX Special Attack, Chain Attack, or Ultimate, she enters the Spotless state for 13s. During this time, Drusilla or Anastella attacks an enemy once every 2.5s, dealing Physical DMG and Electric DMG, and grants 1 stack of Fright, up to a maximum of 6 stacks. After using the skill, Drusilla and Anastella's exit timer resets.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "1st-Hit DMG Multiplier",
+                        "values": [
+                          "52.5%",
+                          "57.3%",
+                          "62.1%",
+                          "66.9%",
+                          "71.7%",
+                          "76.5%",
+                          "81.3%",
+                          "86.1%",
+                          "90.9%",
+                          "95.7%",
+                          "100.5%",
+                          "105.3%"
+                        ]
+                      },
+                      {
+                        "label": "2nd-Hit DMG Multiplier",
+                        "values": [
+                          "52.5%",
+                          "57.3%",
+                          "62.1%",
+                          "66.9%",
+                          "71.7%",
+                          "76.5%",
+                          "81.3%",
+                          "86.1%",
+                          "90.9%",
+                          "95.7%",
+                          "100.5%",
+                          "105.3%"
+                        ]
+                      },
+                      {
+                        "label": "3rd-Hit DMG Multiplier",
+                        "values": [
+                          "52.5%",
+                          "57.3%",
+                          "62.1%",
+                          "66.9%",
+                          "71.7%",
+                          "76.5%",
+                          "81.3%",
+                          "86.1%",
+                          "90.9%",
+                          "95.7%",
+                          "100.5%",
+                          "105.3%"
+                        ]
+                      },
+                      {
+                        "label": "1st-Hit Daze Multiplier",
+                        "values": [
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%"
+                        ]
+                      },
+                      {
+                        "label": "2nd-Hit Daze Multiplier",
+                        "values": [
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%"
+                        ]
+                      },
+                      {
+                        "label": "3rd-Hit Daze Multiplier",
+                        "values": [
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Basic Attack: Midnight Cleanup",
+                "type": "Basic",
+                "desc": "When reaches 6 stacks, the next Basic Attack: Morning Cleanup performed by Drusilla or Anastella consumes all Fright stacks and is replaced with Basic Attack: Midnight Cleanup, dealing Electric DMG. After using the skill, Drusilla and Anastella's exit timer resets.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "210%",
+                          "229.1%",
+                          "248.2%",
+                          "267.3%",
+                          "286.4%",
+                          "305.5%",
+                          "324.6%",
+                          "343.7%",
+                          "362.8%",
+                          "381.9%",
+                          "401%",
+                          "420.1%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%",
+                          "0%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Dodge: Dress Adjustment",
                 "type": "Dodge",
                 "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
@@ -84944,7 +90638,7 @@
               {
                 "name": "Assist Follow-Up: Quadruple Meter Gavotte",
                 "type": "Assist",
-                "desc": "Press after an Evasive Assist to activate:\nOrder Drusilla and Anastella to push forward and generate an electrical vortex, dealing Electric DMG.\nCharacter is invulnerable while using this skill.",
+                "desc": "Press after an Evasive Assist to activate:\nCommands Drusilla and Anastella to continuously advance while generating a vortex of electricity, dealing Electric DMG.\nWhile using this skill, Rina can quickly chain into EX Special Attack: Dimwit Disappearing Trick.\nCharacter is invulnerable while using this skill.",
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -85064,7 +90758,7 @@
               {
                 "name": "EX Special Attack: Dimwit Disappearing Trick",
                 "type": "Special",
-                "desc": "With enough Energy, press to activate:\nOrder Drusilla and Anastella to execute multiple downward smashes, dealing massive Electric DMG.\nCharacter is invulnerable while using this skill.\nA Quick Assist is triggered when this skill hits an enemy.",
+                "desc": "With enough Energy, press to activate:\nCommands Drusilla and Anastella to unleash a continuous downward smash attack, dealing massive Electric DMG.\nCharacter is invulnerable while using this skill.\nAfter using this skill, a Quick Assist is triggered.",
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -85184,7 +90878,7 @@
               {
                 "name": "Ultimate: The Queen's Attendants",
                 "type": "Chain",
-                "desc": "When Decibel Rating is at Maximum, press to activate:\nOrder Drusilla and Anastella to spin forward, dealing massive Electric DMG.\nDuring this skill, Drusilla and Anastella are unable to respond to Basic Attack, Dash Attack, Special Attack, or EX Special Attack commands, but can be recalled to Rina's side through Basic Attack: Shoo the Fool.\nUpon activating this skill, the other squad members recover 10 Energy. The next character to switch in recovers an additional 20 Energy.\nCharacter is invulnerable while using this skill.\nA Quick Assist is triggered when this skill hits an enemy.",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nCommands Drusilla and Anastella to spin forward, dealing massive Electric DMG.\nDuring this skill, Drusilla and Anastella are unable to respond to Basic Attack, Dash Attack, Special Attack, or EX Special Attack commands, but can be recalled to Rina's side through Basic Attack: Shoo the Fool.\nUpon activating this skill, other squad members recover 10 Energy. The next character to switch in recovers an additional 20 Energy.\nCharacter is invulnerable while using this skill.\nAfter using this skill, a Quick Assist is triggered.",
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -86879,7 +92573,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -89489,7 +95183,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -92223,7 +97917,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -94757,7 +100451,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -97406,7 +103100,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -100040,7 +105734,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -102805,7 +108499,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -105673,7 +111367,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -108448,7 +114142,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -110965,7 +116659,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -113618,7 +119312,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -116045,7 +121739,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -118720,7 +124414,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -121189,7 +126883,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -123654,7 +129348,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -126187,7 +131881,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -128849,7 +134543,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -131536,7 +137230,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -134226,7 +139920,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -136721,7 +142415,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -137681,7 +143375,7 @@
               {
                 "name": "Additional Ability: Synced Acceleration",
                 "type": "Additional Ability",
-                "desc": "When another character in your squad shares the same Attribute or Faction:\nWhen Piper has 20 or more stacks of Power, all squad members' DMG is increased by 18%.",
+                "desc": "When another character in your squad is an Anomaly character, or shares the same Attribute or Faction:\nWhen Piper has 20 or more stacks of Power, all squad members' DMG is increased by 18%.",
                 "levels": []
               }
             ]
@@ -139276,7 +144970,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -141691,7 +147385,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -144186,7 +149880,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.0",
+        "version": "3.1",
         "sections": [
           {
             "title": "Skills",
@@ -146915,9 +152609,32 @@
         "Lycaon",
         "Miyabi",
         "Promeia",
+        "Sigrid",
         "Soukaku",
         "Yidhari",
         "Zhao"
+      ]
+    },
+    {
+      "region": "Lumiflux Chips",
+      "mats": [
+        {
+          "id": "100137",
+          "name": "Specialized Lumiflux Chip",
+          "qty": 250,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+          "source": "Combat Simulation - Agent Skills",
+          "sourceDetails": [
+            {
+              "name": "Combat Simulation - Agent Skills"
+            }
+          ]
+        }
+      ],
+      "chars": [
+        "Remielle"
       ]
     },
     {
@@ -147011,7 +152728,7 @@
   ],
   "boss": {
     "title": "Notorious Hunt",
-    "count": 54
+    "count": 56
   },
   "bossGroups": [
     {
@@ -147073,6 +152790,7 @@
             "Banyue",
             "Lucia",
             "Manato",
+            "Sigrid",
             "Yidhari"
           ]
         }
@@ -147081,6 +152799,7 @@
         "Banyue",
         "Lucia",
         "Manato",
+        "Sigrid",
         "Yidhari"
       ]
     },
@@ -147178,6 +152897,7 @@
           "chars": [
             "Norma",
             "Pyrois",
+            "Remielle",
             "Velina"
           ]
         }
@@ -147185,6 +152905,7 @@
       "chars": [
         "Norma",
         "Pyrois",
+        "Remielle",
         "Velina"
       ]
     },
@@ -147424,6 +153145,7 @@
             "Banyue",
             "Lucia",
             "Manato",
+            "Sigrid",
             "Yidhari"
           ]
         }
@@ -147507,6 +153229,7 @@
           "chars": [
             "Norma",
             "Pyrois",
+            "Remielle",
             "Velina"
           ]
         }

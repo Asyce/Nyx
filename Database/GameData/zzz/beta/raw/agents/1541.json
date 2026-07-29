@@ -23,8 +23,14 @@
     "full_name": "Promeia",
     "gender": "Female",
     "icon_path": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle61.png",
+    "inter_knot_icon": "UI/Sprite/A1DynamicLoad/InterKnot/UnPacker/IconInterknotAvatar/IconInterKnotRole0061.png",
     "impression_f": "She doesn't say much, but Promeia gets her point across with surprising clarity... What a remarkable skill!",
     "impression_m": "If you're ever struggling to make a choice, feel free to come to us! Whether it's as your role as a Krampus Judge, or simply as a friend~",
+    "impressions": [
+      "Impressions of Promeia:\n · This expert's kind of cold!",
+      " · A Judge who works hard deserves a reward.",
+      " · A heavy soul, humming softly as it drifts upward."
+    ],
     "profile_desc": "Promeia, a Judge of the Krampus Compliance Authority, is primarily responsible for carrying out \"executions.\"\n\nUnlike the other Judges in Krampus, each with their own strong personalities, Promeia feels more like an iceberg lurking beneath the surface. Quiet and reserved, she seems to have no personal interests or hobbies.\n\nFor the majority within the TOPS Alliance, avoiding any involvement with her is a given. If their misdeeds are exposed and they end up under Krampus scrutiny, the first thing those anxious rulebreakers pray for is that Promeia won't be handling their case.\n\nThere's a rumor that circulates quietly within the company, but no one dares talk about it openly. Before joining the Krampus Compliance Authority, Promeia came from the infamous Sweepers, an Outer Ring group that served Calydon and specialized in eliminating \"unstable elements.\"",
     "role_icon": "IconRole/UnPacker/IconRole61",
     "stature": "174",
@@ -2087,6 +2093,10 @@
     "slot4": 33800,
     "slot2": 33000,
     "slot_sub": 31300,
+    "part_sub_list": [
+      31203,
+      12102
+    ],
     "part4": {
       "prop": 31402,
       "name": "Anomaly Mastery",

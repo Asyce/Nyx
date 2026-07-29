@@ -1005,7 +1005,7 @@
         "DisableAI",
         "ChelonethidSummon",
         "NotCounting",
-        ""
+        "Summoned"
       ],
       "type": "Monster",
       "element": {
@@ -1504,7 +1504,7 @@
         "ChelonethidSummon",
         "NotCounting",
         "Winged",
-        ""
+        "Summoned"
       ],
       "type": "Monster",
       "element": {

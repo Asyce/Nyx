@@ -28,8 +28,14 @@
     "full_name": "Hoshimi Miyabi",
     "gender": "Female",
     "icon_path": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle13.png",
+    "inter_knot_icon": "UI/Sprite/A1DynamicLoad/InterKnot/UnPacker/IconInterknotAvatar/IconInterKnotRole0013.png",
     "impression_f": "Fairy! Find that \"precious visual recording\"! My brother wants to see it!",
     "impression_m": "There's no need to trouble yourself, Fairy. If Belle wants to see it, she'll ask Miss Miyabi herself...",
+    "impressions": [
+      "Impressions of Hoshimi Miyabi:\n · Why in New Eridu does she think Officer Mewmew is a sea otter...?",
+      " · Sometimes, she enters a semi-conscious meditative state after training.",
+      " · The purpose of Miyabi's power is to protect, and she's willing to pay the price for it."
+    ],
     "profile_desc": "Hoshimi Miyabi, the Chief of Hollow Special Operations Section 6.\nMiyabi goes on a lot of field missions and still doesn't know which floor the regular monthly meeting is on.\nEven if you see Miyabi in the office, it's unlikely she's dealing with paperwork, and more likely polishing her sword.\n\nBeing conferred the title of Void Hunter due to her outstanding contributions, she's an elite amongst elites in Section 6.\nShe has great prestige amongst the citizens.\nOnce, Miyabi accidentally wandered into a \"Miyabi Fan Club\" hosted offline event.\nMiyabi was thought to be a fan with godlike impersonation skills, and that event resulted in a precious visual recording.\n\nHoshimi Miyabi is honest and pragmatic. She is not simply a martial artist obsessed with her art and without care for the world around her.\nAnyone who knows her will realize she's always pursued justice in her heart... even if it may eventually cause a revolution.",
     "role_icon": "IconRole/UnPacker/IconRole13",
     "stature": "170 (Ears Included)",
@@ -2100,6 +2106,11 @@
     "slot4": 32700,
     "slot2": 31000,
     "slot_sub": 32500,
+    "part_sub_list": [
+      20103,
+      21103,
+      12102
+    ],
     "part4": {
       "prop": 20103,
       "name": "CRIT Rate",

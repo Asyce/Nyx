@@ -23,8 +23,14 @@
     "full_name": "Soukaku",
     "gender": "Female",
     "icon_path": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle17.png",
+    "inter_knot_icon": "UI/Sprite/A1DynamicLoad/InterKnot/UnPacker/IconInterknotAvatar/IconInterKnotRole0017.png",
     "impression_f": "So many \"avoid doing this\" and \"don't do thats\"... It makes it look like Soukaku's difficult to get along with, but she's a super cute and sweet kid!",
     "impression_m": "That's probably because we've always avoided the things Fairy warns us about... At least, I won't be taking the risk and trying anything.",
+    "impressions": [
+      "Impressions of Soukaku:\n · Do all oni eat that much?! Or is it just Soukaku...?",
+      " · Though she loves food, she doesn't seem bothered as to whether it actually tastes good...",
+      " · She's strong, but she's still just a kid. We should watch out for her."
+    ],
     "profile_desc": "Soukaku is a member of Hollow Special Operations Section 6 and currently under the guardianship of Section 6's Deputy Chief, Tsukishiro Yanagi.\nSoukaku's birth records cannot be found in either the HIA archives or the New Eridu Citizen Verification Profiles. Her records only date back to when she started living with Tsukishiro Yanagi.\nThere are also no records of her schooling. According to supplementary information, Soukaku is currently homeschooled.\n\nSoukaku is naive, innocent, and carefree, but she possesses an uncharacteristic obsession with food. Please be careful not to let Soukaku become too hungry.\nAt the same time, please do not let Soukaku see food being wasted. This is unacceptable behavior to Soukaku. Deduction: Soukaku has experienced famine before.\n\nSoukaku's understanding of city life and human society is limited, and her view of life and death differs from most people.\nUsually, Soukaku is willing to believe anything other people say, but that doesn't mean she can't tell when something is a lie.\nIn fact, prior data shows that unless one has the ability to run and hide on par with Section 6, it would be in one's best interest to avoid lying to Soukaku.",
     "role_icon": "IconRole/UnPacker/IconRole17",
     "stature": "145",
@@ -2161,6 +2167,10 @@
     "slot4": 31400,
     "slot2": 32500,
     "slot_sub": 31600,
+    "part_sub_list": [
+      12102,
+      31203
+    ],
     "part4": {
       "prop": 12102,
       "name": "ATK",

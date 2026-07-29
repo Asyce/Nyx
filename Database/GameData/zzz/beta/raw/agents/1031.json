@@ -23,8 +23,14 @@
     "full_name": "Nicole Demara",
     "gender": "Female",
     "icon_path": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle12.png",
+    "inter_knot_icon": "UI/Sprite/A1DynamicLoad/InterKnot/UnPacker/IconInterknotAvatar/IconInterKnotRole0012.png",
     "impression_f": "Turns out Nicole is more famous in the biz than I thought huh!",
     "impression_m": "Instead of these astute comments, I'm more interested in seeing a comprehensive list of everything Nicole owes us.",
+    "impressions": [
+      "Impressions of Nicole:\n · Nicole's afraid of ghosts... Perhaps because of a guilty conscience?",
+      " · The usually stingy Nicole is generous when treating the orphanage kids.",
+      " · Nicole is a genius when it comes to business. No matter how poor she may be, she is still a genius"
+    ],
     "profile_desc": "Database search: Nicole. Returned results:\n\"Boss of the odd-job agency, the Cunning Hares,\" \"Streetwise,\" \"Orphan, parents unknown.\"\nNicole's agency was originally called Gentle House, but due to her reputation of being cunning, it gained the nickname the Cunning Hares.\n\"She's really into money! I don't know what she's doing with it all though, seems like she's doing nothing.\"\n— The above is a quote from a popular post on Inter-Knot: \"Her odd-job agency is outrageous. I've never encountered a boss who knows how to turn everything into profit!\"\nThe individual involved responded, \"This, this is a false accusation! I, Nicole, have never been skilled at making money — mainly because I don't have any money to begin with!\"\nAccording to reliable sources, the Cunning Hares are constantly in debt, and their \"careful budgeting\" seems to have no effect on the organization.",
     "role_icon": "IconRole/UnPacker/IconRole12",
     "stature": "165",
@@ -2605,6 +2611,10 @@
     "slot4": 32300,
     "slot2": 31600,
     "slot_sub": 31000,
+    "part_sub_list": [
+      12102,
+      31203
+    ],
     "part4": {
       "prop": 20103,
       "name": "CRIT Rate",

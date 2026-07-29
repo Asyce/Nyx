@@ -1121,7 +1121,7 @@
     "type": 3,
     "en": "Ode of Resurrected Wings",
     "atk": 743,
-    "desc": "...",
+    "desc": "Drifting through the cracks of time in search of the light.",
     "sub": "ATK",
     "ko": "돌아온 날개의 시",
     "zh": "空羽复归之诗",
@@ -1131,12 +1131,12 @@
     "icon": "Weapon_S_1591",
     "rank": 4,
     "type": 1,
-    "en": "...",
+    "en": "Knight's Extolment",
     "atk": 713,
-    "desc": "...",
+    "desc": "Across the vast skies and seas of clouds, the extolment for the knights echoes in quiet reverence.",
     "sub": "CRIT DMG",
-    "ko": "...",
-    "zh": "...",
-    "ja": "..."
+    "ko": "기사 예찬",
+    "zh": "骁骑礼赞",
+    "ja": "栄光の騎士道"
   }
 }

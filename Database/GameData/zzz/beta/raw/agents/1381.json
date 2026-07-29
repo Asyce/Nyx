@@ -18,7 +18,9 @@
     "5": "New Eridu Defense Force"
   },
   "gender": 2,
-  "partner_info": {},
+  "partner_info": {
+    "inter_knot_icon": "UI/Sprite/A1DynamicLoad/InterKnot/UnPacker/IconInterknotAvatar/IconInterKnotRole0040.png"
+  },
   "skin": {
     "3113810": {
       "name": "Soldier 0 - Anby: Silver Soldier",
@@ -2355,6 +2357,11 @@
     "slot4": 32900,
     "slot2": 31000,
     "slot_sub": 32400,
+    "part_sub_list": [
+      21103,
+      20103,
+      12102
+    ],
     "part4": {
       "prop": 20103,
       "name": "CRIT Rate",

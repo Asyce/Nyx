@@ -995,7 +995,7 @@
     "31555": {
       "id": 31555,
       "code_name": "Monster_BangbooBattleMecha_Blued_Boss",
-      "icon": "",
+      "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_CorruptedBattleMecha.png",
       "tag": [
         "Mech",
         "Promote",

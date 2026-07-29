@@ -23,8 +23,14 @@
     "full_name": "Nekomiya Mana",
     "gender": "Female",
     "icon_path": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle11.png",
+    "inter_knot_icon": "UI/Sprite/A1DynamicLoad/InterKnot/UnPacker/IconInterknotAvatar/IconInterKnotRole0011.png",
     "impression_f": "Kitty cat! Who doesn't like kitty cats!\nOhhh, I want to touch Nekomata's tails! She's got two, that's double the fun!",
     "impression_m": "Take it easy... She's not some harmless little kitten on the street in New Eridu...\nWhen dealing with Nekomata, the most important thing is keeping an eye on your wallet...",
+    "impressions": [
+      "Impressions of Nekomata:\n · The gratitude of a cat is always so touching... except when they give a dead mouse.",
+      " · Despite leaving the Red Fang Gang for a while, Nekomata still commands respect within the gang",
+      " · The stray cat finally has a place it can come back to, a place to call \"home.\""
+    ],
     "profile_desc": "Nekomiya Mana. Refers to herself as \"Nekomata.\"\nA cat Thiren with feline traits, possessing great dexterity when hunting and an insatiable curiosity about the outside world.\nSometimes mischievous, she engages in harmless pranks. But when she sets her sights on a target, her feline-like agility and focus are enough to leave others in awe.\nShe's most interested in other people's wallets.\nRecommendation: Always keep an eye on your wallet when Nekomata is around.\n\nIn the past, Nekomata was a member of the long-standing Red Fang Gang. Its leader, Miguel Silver, took on a fatherly role in her life. Nonetheless, due to differing beliefs from the gang, she opted to part ways and go it alone.\nFollowing certain encounters involving Nicole and others, she eventually opted to enlist in Gentle House, thus becoming the third employee on the team.",
     "role_icon": "IconRole/UnPacker/IconRole11",
     "stature": "148",
@@ -326,12 +332,40 @@
         {
           "name": "Basic Attack: Kitty Slash",
           "desc": "Press <IconMap:Icon_Normal> to activate:\nUnleashes up to 5 slashes, dealing <color=#F0D12B>Physical DMG</color>.\nOn the last hit, there is a 33.33% chance to repeat this hit 3 times.",
-          "potential": []
+          "potential": [
+            0
+          ]
+        },
+        {
+          "name": "Basic Attack: Kitty Slash",
+          "desc": "Press <IconMap:Icon_Normal> to activate:\nUnleashes up to five slashes, dealing <color=#F0D12B>Physical DMG</color>.\nWhen the final slash lands on a Stunned enemy, it repeats three additional times.",
+          "potential": [
+            102100,
+            102101,
+            102102,
+            102103,
+            102104,
+            102105
+          ]
         },
         {
           "name": "Basic Attack: Crimson Blade",
           "desc": "Hold <IconMap:Icon_Normal> during the first 3 hits of Nekomata's <color=#FFFFFF>Basic Attack</color> to activate:\nSlashes enemies in front and passes through them, dealing <color=#F0D12B>Physical DMG</color>.\nUpon activation, there is a 33.33% chance to repeat this attack 3 times.",
-          "potential": []
+          "potential": [
+            0
+          ]
+        },
+        {
+          "name": "Basic Attack: Crimson Blade",
+          "desc": "Hold <IconMap:Icon_Normal> during the first three hits of Nekomata's <color=#FFFFFF>Basic Attack</color> to activate:\nSlashes enemies in front and passes through them, dealing <color=#F0D12B>Physical DMG</color>.\nIf this skill hits a Stunned enemy, it repeats three additional times.",
+          "potential": [
+            102100,
+            102101,
+            102102,
+            102103,
+            102104,
+            102105
+          ]
         },
         {
           "name": "Basic Attack: Kitty Slash",
@@ -354,7 +388,9 @@
                   "fever_recovery_growth": 0,
                   "attribute_infliction": 1708,
                   "sp_consume": 0,
-                  "attack_data": [],
+                  "attack_data": [
+                    5981
+                  ],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
                   "ether_purify": 1709
@@ -380,7 +416,9 @@
                   "fever_recovery_growth": 0,
                   "attribute_infliction": 3524,
                   "sp_consume": 0,
-                  "attack_data": [],
+                  "attack_data": [
+                    6231
+                  ],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
                   "ether_purify": 3525
@@ -406,7 +444,9 @@
                   "fever_recovery_growth": 0,
                   "attribute_infliction": 4440,
                   "sp_consume": 0,
-                  "attack_data": [],
+                  "attack_data": [
+                    6600
+                  ],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
                   "ether_purify": 4441
@@ -432,7 +472,9 @@
                   "fever_recovery_growth": 0,
                   "attribute_infliction": 9873,
                   "sp_consume": 0,
-                  "attack_data": [],
+                  "attack_data": [
+                    15398
+                  ],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
                   "ether_purify": 9874
@@ -458,7 +500,9 @@
                   "fever_recovery_growth": 0,
                   "attribute_infliction": 5602,
                   "sp_consume": 0,
-                  "attack_data": [],
+                  "attack_data": [
+                    10321
+                  ],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
                   "ether_purify": 5898
@@ -484,7 +528,9 @@
                   "fever_recovery_growth": 0,
                   "attribute_infliction": 1708,
                   "sp_consume": 0,
-                  "attack_data": [],
+                  "attack_data": [
+                    5981
+                  ],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
                   "ether_purify": 1709
@@ -510,7 +556,9 @@
                   "fever_recovery_growth": 0,
                   "attribute_infliction": 3524,
                   "sp_consume": 0,
-                  "attack_data": [],
+                  "attack_data": [
+                    6231
+                  ],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
                   "ether_purify": 3525
@@ -536,7 +584,9 @@
                   "fever_recovery_growth": 0,
                   "attribute_infliction": 4440,
                   "sp_consume": 0,
-                  "attack_data": [],
+                  "attack_data": [
+                    6600
+                  ],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
                   "ether_purify": 4441
@@ -562,7 +612,9 @@
                   "fever_recovery_growth": 0,
                   "attribute_infliction": 9873,
                   "sp_consume": 0,
-                  "attack_data": [],
+                  "attack_data": [
+                    15398
+                  ],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
                   "ether_purify": 9874
@@ -588,7 +640,9 @@
                   "fever_recovery_growth": 0,
                   "attribute_infliction": 5602,
                   "sp_consume": 0,
-                  "attack_data": [],
+                  "attack_data": [
+                    10321
+                  ],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
                   "ether_purify": 5898
@@ -620,7 +674,9 @@
                   "fever_recovery_growth": 0,
                   "attribute_infliction": 5602,
                   "sp_consume": 0,
-                  "attack_data": [],
+                  "attack_data": [
+                    10321
+                  ],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
                   "ether_purify": 5898
@@ -646,7 +702,9 @@
                   "fever_recovery_growth": 0,
                   "attribute_infliction": 5602,
                   "sp_consume": 0,
-                  "attack_data": [],
+                  "attack_data": [
+                    10321
+                  ],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
                   "ether_purify": 5898
@@ -715,6 +773,18 @@
           "potential": []
         },
         {
+          "name": "Dodge: Disappearing Tail",
+          "desc": "With at least 40 <Term:1000024></Term> and after triggering a <color=#FFFFFF>Perfect Dodge</color>, press <IconMap:Icon_Evade> and consume 30 Purr Energy to activate:\nNekomata enters Vital View and swiftly moves behind the enemy.\nCharacter is invulnerable while using this skill. This skill does not consume dodge uses.",
+          "potential": [
+            102100,
+            102101,
+            102102,
+            102103,
+            102104,
+            102105
+          ]
+        },
+        {
           "name": "Dash Attack: Over Here!",
           "desc": "Press <IconMap:Icon_Normal> during a dodge to activate:\nSlashes enemies in front, dealing <color=#F0D12B>Physical DMG</color>.",
           "potential": []
@@ -723,6 +793,18 @@
           "name": "Dodge Counter: Phantom Claws",
           "desc": "Press <IconMap:Icon_Normal> during a <color=#FFFFFF>Perfect Dodge</color> to activate:\nSlashes enemies in front, dealing <color=#F0D12B>Physical DMG</color>.\nCharacter is invulnerable while using this skill.",
           "potential": []
+        },
+        {
+          "name": "Dodge Counter: Fluffy Piercing Claw",
+          "desc": "Press <IconMap:Icon_Normal> after using <color=#FFFFFF>Dodge: Disappearing Tail</color>, or hold <IconMap:Icon_Normal> with at least 40 <Term:1000024></Term> to activate:\nUnleashes a powerful slash at enemies in a large area ahead, dealing massive <color=#F0D12B>Physical DMG</color>.\nCharacter is invulnerable while using this skill.",
+          "potential": [
+            102100,
+            102101,
+            102102,
+            102103,
+            102104,
+            102105
+          ]
         },
         {
           "name": "Dash Attack: Over Here!",
@@ -745,7 +827,9 @@
                   "fever_recovery_growth": 0,
                   "attribute_infliction": 1668,
                   "sp_consume": 0,
-                  "attack_data": [],
+                  "attack_data": [
+                    2920
+                  ],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
                   "ether_purify": 1669
@@ -771,7 +855,9 @@
                   "fever_recovery_growth": 0,
                   "attribute_infliction": 1668,
                   "sp_consume": 0,
-                  "attack_data": [],
+                  "attack_data": [
+                    2920
+                  ],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
                   "ether_purify": 1669
@@ -803,7 +889,9 @@
                   "fever_recovery_growth": 0,
                   "attribute_infliction": 8996,
                   "sp_consume": 0,
-                  "attack_data": [],
+                  "attack_data": [
+                    15745
+                  ],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
                   "ether_purify": 23997
@@ -829,7 +917,9 @@
                   "fever_recovery_growth": 0,
                   "attribute_infliction": 8996,
                   "sp_consume": 0,
-                  "attack_data": [],
+                  "attack_data": [
+                    15745
+                  ],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
                   "ether_purify": 23997
@@ -839,6 +929,101 @@
             }
           ],
           "potential": []
+        },
+        {
+          "name": "Dodge Counter: Fluffy Piercing Claw",
+          "param": [
+            {
+              "name": "DMG Multiplier",
+              "desc": "{Skill:1021019, Prop:1001}",
+              "param": {
+                "1021019": {
+                  "main": 126390,
+                  "growth": 11490,
+                  "format": "%",
+                  "damage_percentage": 126390,
+                  "damage_percentage_growth": 11490,
+                  "stun_ratio": 16460,
+                  "stun_ratio_growth": 750,
+                  "sp_recovery": 26410,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 430925,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 15666,
+                  "sp_consume": 0,
+                  "attack_data": [
+                    0
+                  ],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 15667
+                }
+              },
+              "potential": [
+                102100,
+                102101,
+                102102,
+                102103,
+                102104,
+                102105
+              ]
+            },
+            {
+              "name": "Daze Multiplier",
+              "desc": "{Skill:1021019, Prop:1002}",
+              "param": {
+                "1021019": {
+                  "main": 16460,
+                  "growth": 750,
+                  "format": "%",
+                  "damage_percentage": 126390,
+                  "damage_percentage_growth": 11490,
+                  "stun_ratio": 16460,
+                  "stun_ratio_growth": 750,
+                  "sp_recovery": 26410,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 430925,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 15666,
+                  "sp_consume": 0,
+                  "attack_data": [
+                    0
+                  ],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 15667
+                }
+              },
+              "potential": [
+                102100,
+                102101,
+                102102,
+                102103,
+                102104,
+                102105
+              ]
+            },
+            {
+              "name": "Purr Energy Cost",
+              "desc": "40",
+              "potential": [
+                102100,
+                102101,
+                102102,
+                102103,
+                102104,
+                102105
+              ]
+            }
+          ],
+          "potential": [
+            102100,
+            102101,
+            102102,
+            102103,
+            102104,
+            102105
+          ]
         }
       ],
       "material": {
@@ -895,12 +1080,40 @@
         {
           "name": "Special Attack: Surprise Attack",
           "desc": "Press <IconMap:Icon_Special> to activate:\nUnleashes a downward strike, dealing <color=#F0D12B>Physical DMG</color>.\nAnti-Interrupt level is increased while using this skill.",
-          "potential": []
+          "potential": [
+            0
+          ]
+        },
+        {
+          "name": "Special Attack: Surprise Attack",
+          "desc": "Press <IconMap:Icon_Special> to activate:\nUnleashes a downward strike, dealing <color=#F0D12B>Physical DMG</color>.\nAnti-Interrupt level is increased while using this skill.\nThis skill's pursuit effect is enhanced.",
+          "potential": [
+            102100,
+            102101,
+            102102,
+            102103,
+            102104,
+            102105
+          ]
         },
         {
           "name": "EX Special Attack: Super Surprise Attack!",
           "desc": "With enough Energy, press <IconMap:Icon_SpecialReady> to activate:\nUnleashes a powerful falling slash that deals massive <color=#F0D12B>Physical DMG</color>.\nCharacter is invulnerable while using this skill.",
-          "potential": []
+          "potential": [
+            0
+          ]
+        },
+        {
+          "name": "EX Special Attack: Super Surprise Attack!",
+          "desc": "With enough Energy, press <IconMap:Icon_SpecialReady> to activate:\nUnleashes a powerful falling slash, dealing massive <color=#F0D12B>Physical DMG</color>.\nCharacter is invulnerable while using this skill.\nThis skill's pursuit effect is enhanced.",
+          "potential": [
+            102100,
+            102101,
+            102102,
+            102103,
+            102104,
+            102105
+          ]
         },
         {
           "name": "Special Attack: Surprise Attack",
@@ -923,7 +1136,9 @@
                   "fever_recovery_growth": 0,
                   "attribute_infliction": 4501,
                   "sp_consume": 0,
-                  "attack_data": [],
+                  "attack_data": [
+                    7878
+                  ],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
                   "ether_purify": 4502
@@ -949,7 +1164,9 @@
                   "fever_recovery_growth": 0,
                   "attribute_infliction": 4501,
                   "sp_consume": 0,
-                  "attack_data": [],
+                  "attack_data": [
+                    7878
+                  ],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
                   "ether_purify": 4502
@@ -981,7 +1198,9 @@
                   "fever_recovery_growth": 0,
                   "attribute_infliction": 43073,
                   "sp_consume": 0,
-                  "attack_data": [],
+                  "attack_data": [
+                    0
+                  ],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
                   "ether_purify": 17504
@@ -1007,7 +1226,9 @@
                   "fever_recovery_growth": 0,
                   "attribute_infliction": 43073,
                   "sp_consume": 0,
-                  "attack_data": [],
+                  "attack_data": [
+                    0
+                  ],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
                   "ether_purify": 17504
@@ -1106,7 +1327,9 @@
                   "fever_recovery_growth": 0,
                   "attribute_infliction": 36786,
                   "sp_consume": 0,
-                  "attack_data": [],
+                  "attack_data": [
+                    9465
+                  ],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
                   "ether_purify": 16837
@@ -1132,7 +1355,9 @@
                   "fever_recovery_growth": 0,
                   "attribute_infliction": 36786,
                   "sp_consume": 0,
-                  "attack_data": [],
+                  "attack_data": [
+                    9465
+                  ],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
                   "ether_purify": 16837
@@ -1164,7 +1389,9 @@
                   "fever_recovery_growth": 0,
                   "attribute_infliction": 12496,
                   "sp_consume": 0,
-                  "attack_data": [],
+                  "attack_data": [
+                    0
+                  ],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
                   "ether_purify": 62497
@@ -1190,7 +1417,9 @@
                   "fever_recovery_growth": 0,
                   "attribute_infliction": 12496,
                   "sp_consume": 0,
-                  "attack_data": [],
+                  "attack_data": [
+                    0
+                  ],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
                   "ether_purify": 62497
@@ -1289,7 +1518,9 @@
                   "fever_recovery_growth": 0,
                   "attribute_infliction": 8996,
                   "sp_consume": 0,
-                  "attack_data": [],
+                  "attack_data": [
+                    7873
+                  ],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
                   "ether_purify": 4499
@@ -1315,7 +1546,9 @@
                   "fever_recovery_growth": 0,
                   "attribute_infliction": 8996,
                   "sp_consume": 0,
-                  "attack_data": [],
+                  "attack_data": [
+                    7873
+                  ],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
                   "ether_purify": 4499
@@ -1347,7 +1580,9 @@
                   "fever_recovery_growth": 0,
                   "attribute_infliction": 0,
                   "sp_consume": 0,
-                  "attack_data": [],
+                  "attack_data": [
+                    0
+                  ],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
                   "ether_purify": 36664
@@ -1373,7 +1608,9 @@
                   "fever_recovery_growth": 0,
                   "attribute_infliction": 0,
                   "sp_consume": 0,
-                  "attack_data": [],
+                  "attack_data": [
+                    0
+                  ],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
                   "ether_purify": 41664
@@ -1399,7 +1636,9 @@
                   "fever_recovery_growth": 0,
                   "attribute_infliction": 0,
                   "sp_consume": 0,
-                  "attack_data": [],
+                  "attack_data": [
+                    0
+                  ],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
                   "ether_purify": 11664
@@ -1431,7 +1670,9 @@
                   "fever_recovery_growth": 0,
                   "attribute_infliction": 26592,
                   "sp_consume": 0,
-                  "attack_data": [],
+                  "attack_data": [
+                    21870
+                  ],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
                   "ether_purify": 12497
@@ -1457,7 +1698,9 @@
                   "fever_recovery_growth": 0,
                   "attribute_infliction": 26592,
                   "sp_consume": 0,
-                  "attack_data": [],
+                  "attack_data": [
+                    21870
+                  ],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
                   "ether_purify": 12497
@@ -1596,6 +1839,34 @@
       "element_type": 200,
       "hit_type": 101,
       "potential": []
+    },
+    "1021012": {
+      "name": "Dodge: Disappearing Tail",
+      "desc": "<IconMap:Icon_Evade> (Perfect) ; <IconMap:Icon_Evade>",
+      "element_type": 0,
+      "hit_type": 0,
+      "potential": [
+        102100,
+        102101,
+        102102,
+        102103,
+        102104,
+        102105
+      ]
+    },
+    "1021013": {
+      "name": "Dodge Counter: Fluffy Piercing Claw",
+      "desc": "<IconMap:Icon_Normal> (After activating Dodge: Disappearing Tail) or <IconMap:Icon_Normal> (Hold) (With sufficient Purr Energy)",
+      "element_type": 200,
+      "hit_type": 101,
+      "potential": [
+        102100,
+        102101,
+        102102,
+        102103,
+        102104,
+        102105
+      ]
     }
   },
   "passive": {
@@ -1612,7 +1883,9 @@
           "When another character in your squad shares the same Attribute or Faction:\nAfter any character inflicts <color=#F0D12B>Assault</color>, increases the DMG of Nekomata's next <color=#FFFFFF>EX Special Attack</color> by 35%, stacking up to 2 times."
         ],
         "extra_property": {},
-        "potential": []
+        "potential": [
+          0
+        ]
       },
       "1021502": {
         "level": 2,
@@ -1626,7 +1899,9 @@
           "When another character in your squad shares the same Attribute or Faction:\nAfter any character inflicts <color=#F0D12B>Assault</color>, increases the DMG of Nekomata's next <color=#FFFFFF>EX Special Attack</color> by 35%, stacking up to 2 times."
         ],
         "extra_property": {},
-        "potential": []
+        "potential": [
+          0
+        ]
       },
       "1021503": {
         "level": 3,
@@ -1640,7 +1915,9 @@
           "When another character in your squad shares the same Attribute or Faction:\nAfter any character inflicts <color=#F0D12B>Assault</color>, increases the DMG of Nekomata's next <color=#FFFFFF>EX Special Attack</color> by 35%, stacking up to 2 times."
         ],
         "extra_property": {},
-        "potential": []
+        "potential": [
+          0
+        ]
       },
       "1021504": {
         "level": 4,
@@ -1654,7 +1931,9 @@
           "When another character in your squad shares the same Attribute or Faction:\nAfter any character inflicts <color=#F0D12B>Assault</color>, increases the DMG of Nekomata's next <color=#FFFFFF>EX Special Attack</color> by 35%, stacking up to 2 times."
         ],
         "extra_property": {},
-        "potential": []
+        "potential": [
+          0
+        ]
       },
       "1021505": {
         "level": 5,
@@ -1668,7 +1947,9 @@
           "When another character in your squad shares the same Attribute or Faction:\nAfter any character inflicts <color=#F0D12B>Assault</color>, increases the DMG of Nekomata's next <color=#FFFFFF>EX Special Attack</color> by 35%, stacking up to 2 times."
         ],
         "extra_property": {},
-        "potential": []
+        "potential": [
+          0
+        ]
       },
       "1021506": {
         "level": 6,
@@ -1682,7 +1963,9 @@
           "When another character in your squad shares the same Attribute or Faction:\nAfter any character inflicts <color=#F0D12B>Assault</color>, increases the DMG of Nekomata's next <color=#FFFFFF>EX Special Attack</color> by 35%, stacking up to 2 times."
         ],
         "extra_property": {},
-        "potential": []
+        "potential": [
+          0
+        ]
       },
       "1021507": {
         "level": 7,
@@ -1696,7 +1979,156 @@
           "When another character in your squad shares the same Attribute or Faction:\nAfter any character inflicts <color=#F0D12B>Assault</color>, increases the DMG of Nekomata's next <color=#FFFFFF>EX Special Attack</color> by 35%, stacking up to 2 times."
         ],
         "extra_property": {},
-        "potential": []
+        "potential": [
+          0
+        ]
+      },
+      "1021508": {
+        "level": 1,
+        "id": 1021508,
+        "name": [
+          "Core Passive: Stealthy Paws",
+          "Additional Ability: Catwalk"
+        ],
+        "desc": [
+          "When Nekomata's <color=#FFFFFF>Dodge Counter</color> or <color=#FFFFFF>Quick Assist</color> hits an enemy, her DMG increases by <color=#2BAD00>30%</color> for 40s. Repeated triggers reset the duration.\nNekomata gains 40 <Term:1000024></Term> upon entering the battlefield. In Investigation Zone mode, this effect can trigger once every 180s.\nWhile Nekomata is in combat, she gains 1 Purr Energy every second, up to a maximum of 60. Different skills restore different amounts of Purr Energy when they hit an enemy.\nWhen Nekomata has at least 40 Purr Energy and after triggering a <color=#FFFFFF>Perfect Dodge</color>, press <IconMap:Icon_Evade> to consume 30 Purr Energy and activate Dodge: Disappearing Tail. Then press <IconMap:Icon_Normal> to perform Dodge Counter: Fluffy Piercing Claw once without consuming Purr Energy.\nWhen Nekomata has at least 40 Purr Energy, hold <IconMap:Icon_Normal> to consume 40 Purr Energy and activate Dodge Counter: Fluffy Piercing Claw.\nWhen using Dodge Counter: Fluffy Piercing Claw, Nekomata enters the <Term:1000025></Term> state for 40s. Repeated triggers reset the duration. While Pawpad Ambush is active, all of Nekomata's attacks count as hitting from behind.\nWhile Pawpad Ambush is active, Nekomata's attacks trigger Super Mean Pawprint, dealing an additional instance of <color=#F0D12B>Physical DMG</color> equal to 30% of her ATK. This effect can trigger once every 1s.\nNekomata restores 20 additional Purr Energy when using her Ultimate, 10 when using her Chain Attack, and 5 when using her EX Special Attack.",
+          "When another character in your squad is a Support character, or shares the same attribute or Faction:\nAfter Nekomata uses <color=#FFFFFF>Dodge: Disappearing Tail</color>, or after any squad member inflicts <color=#F0D12B>Assault</color> on an enemy, Nekomata's <color=#FFFFFF>EX Special Attack</color> and <color=#FFFFFF>Dodge Counter</color> deal 35% more DMG on hit. This effect stacks up to 2 times and lasts 30s. Repeated triggers reset the duration."
+        ],
+        "extra_property": {},
+        "potential": [
+          102100,
+          102101,
+          102102,
+          102103,
+          102104,
+          102105
+        ]
+      },
+      "1021509": {
+        "level": 2,
+        "id": 1021509,
+        "name": [
+          "Core Passive: Stealthy Paws",
+          "Additional Ability: Catwalk"
+        ],
+        "desc": [
+          "When Nekomata's <color=#FFFFFF>Dodge Counter</color> or <color=#FFFFFF>Quick Assist</color> hits an enemy, her DMG increases by <color=#2BAD00>35%</color> for 40s. Repeated triggers reset the duration.\nNekomata gains 40 <Term:1000024></Term> upon entering the battlefield. In Investigation Zone mode, this effect can trigger once every 180s.\nWhile Nekomata is in combat, she gains 1 Purr Energy every second, up to a maximum of 60. Different skills restore different amounts of Purr Energy when they hit an enemy.\nWhen Nekomata has at least 40 Purr Energy and after triggering a <color=#FFFFFF>Perfect Dodge</color>, press <IconMap:Icon_Evade> to consume 30 Purr Energy and activate Dodge: Disappearing Tail. Then press <IconMap:Icon_Normal> to perform Dodge Counter: Fluffy Piercing Claw once without consuming Purr Energy.\nWhen Nekomata has at least 40 Purr Energy, hold <IconMap:Icon_Normal> to consume 40 Purr Energy and activate Dodge Counter: Fluffy Piercing Claw.\nWhen using Dodge Counter: Fluffy Piercing Claw, Nekomata enters the <Term:1000025></Term> state for 40s. Repeated triggers reset the duration. While Pawpad Ambush is active, all of Nekomata's attacks count as hitting from behind.\nWhile Pawpad Ambush is active, Nekomata's attacks trigger Super Mean Pawprint, dealing an additional instance of <color=#F0D12B>Physical DMG</color> equal to 30% of her ATK. This effect can trigger once every 1s.\nNekomata restores 20 additional Purr Energy when using her Ultimate, 10 when using her Chain Attack, and 5 when using her EX Special Attack.",
+          "When another character in your squad is a Support character, or shares the same attribute or Faction:\nAfter Nekomata uses <color=#FFFFFF>Dodge: Disappearing Tail</color>, or after any squad member inflicts <color=#F0D12B>Assault</color> on an enemy, Nekomata's <color=#FFFFFF>EX Special Attack</color> and <color=#FFFFFF>Dodge Counter</color> deal 35% more DMG on hit. This effect stacks up to 2 times and lasts 30s. Repeated triggers reset the duration."
+        ],
+        "extra_property": {},
+        "potential": [
+          102100,
+          102101,
+          102102,
+          102103,
+          102104,
+          102105
+        ]
+      },
+      "1021510": {
+        "level": 3,
+        "id": 1021510,
+        "name": [
+          "Core Passive: Stealthy Paws",
+          "Additional Ability: Catwalk"
+        ],
+        "desc": [
+          "When Nekomata's <color=#FFFFFF>Dodge Counter</color> or <color=#FFFFFF>Quick Assist</color> hits an enemy, her DMG increases by <color=#2BAD00>40%</color> for 40s. Repeated triggers reset the duration.\nNekomata gains 40 <Term:1000024></Term> upon entering the battlefield. In Investigation Zone mode, this effect can trigger once every 180s.\nWhile Nekomata is in combat, she gains 1 Purr Energy every second, up to a maximum of 60. Different skills restore different amounts of Purr Energy when they hit an enemy.\nWhen Nekomata has at least 40 Purr Energy and after triggering a <color=#FFFFFF>Perfect Dodge</color>, press <IconMap:Icon_Evade> to consume 30 Purr Energy and activate Dodge: Disappearing Tail. Then press <IconMap:Icon_Normal> to perform Dodge Counter: Fluffy Piercing Claw once without consuming Purr Energy.\nWhen Nekomata has at least 40 Purr Energy, hold <IconMap:Icon_Normal> to consume 40 Purr Energy and activate Dodge Counter: Fluffy Piercing Claw.\nWhen using Dodge Counter: Fluffy Piercing Claw, Nekomata enters the <Term:1000025></Term> state for 40s. Repeated triggers reset the duration. While Pawpad Ambush is active, all of Nekomata's attacks count as hitting from behind.\nWhile Pawpad Ambush is active, Nekomata's attacks trigger Super Mean Pawprint, dealing an additional instance of <color=#F0D12B>Physical DMG</color> equal to 30% of her ATK. This effect can trigger once every 1s.\nNekomata restores 20 additional Purr Energy when using her Ultimate, 10 when using her Chain Attack, and 5 when using her EX Special Attack.",
+          "When another character in your squad is a Support character, or shares the same attribute or Faction:\nAfter Nekomata uses <color=#FFFFFF>Dodge: Disappearing Tail</color>, or after any squad member inflicts <color=#F0D12B>Assault</color> on an enemy, Nekomata's <color=#FFFFFF>EX Special Attack</color> and <color=#FFFFFF>Dodge Counter</color> deal 35% more DMG on hit. This effect stacks up to 2 times and lasts 30s. Repeated triggers reset the duration."
+        ],
+        "extra_property": {},
+        "potential": [
+          102100,
+          102101,
+          102102,
+          102103,
+          102104,
+          102105
+        ]
+      },
+      "1021511": {
+        "level": 4,
+        "id": 1021511,
+        "name": [
+          "Core Passive: Stealthy Paws",
+          "Additional Ability: Catwalk"
+        ],
+        "desc": [
+          "When Nekomata's <color=#FFFFFF>Dodge Counter</color> or <color=#FFFFFF>Quick Assist</color> hits an enemy, her DMG increases by <color=#2BAD00>45%</color> for 40s. Repeated triggers reset the duration.\nNekomata gains 40 <Term:1000024></Term> upon entering the battlefield. In Investigation Zone mode, this effect can trigger once every 180s.\nWhile Nekomata is in combat, she gains 1 Purr Energy every second, up to a maximum of 60. Different skills restore different amounts of Purr Energy when they hit an enemy.\nWhen Nekomata has at least 40 Purr Energy and after triggering a <color=#FFFFFF>Perfect Dodge</color>, press <IconMap:Icon_Evade> to consume 30 Purr Energy and activate Dodge: Disappearing Tail. Then press <IconMap:Icon_Normal> to perform Dodge Counter: Fluffy Piercing Claw once without consuming Purr Energy.\nWhen Nekomata has at least 40 Purr Energy, hold <IconMap:Icon_Normal> to consume 40 Purr Energy and activate Dodge Counter: Fluffy Piercing Claw.\nWhen using Dodge Counter: Fluffy Piercing Claw, Nekomata enters the <Term:1000025></Term> state for 40s. Repeated triggers reset the duration. While Pawpad Ambush is active, all of Nekomata's attacks count as hitting from behind.\nWhile Pawpad Ambush is active, Nekomata's attacks trigger Super Mean Pawprint, dealing an additional instance of <color=#F0D12B>Physical DMG</color> equal to 30% of her ATK. This effect can trigger once every 1s.\nNekomata restores 20 additional Purr Energy when using her Ultimate, 10 when using her Chain Attack, and 5 when using her EX Special Attack.",
+          "When another character in your squad is a Support character, or shares the same attribute or Faction:\nAfter Nekomata uses <color=#FFFFFF>Dodge: Disappearing Tail</color>, or after any squad member inflicts <color=#F0D12B>Assault</color> on an enemy, Nekomata's <color=#FFFFFF>EX Special Attack</color> and <color=#FFFFFF>Dodge Counter</color> deal 35% more DMG on hit. This effect stacks up to 2 times and lasts 30s. Repeated triggers reset the duration."
+        ],
+        "extra_property": {},
+        "potential": [
+          102100,
+          102101,
+          102102,
+          102103,
+          102104,
+          102105
+        ]
+      },
+      "1021512": {
+        "level": 5,
+        "id": 1021512,
+        "name": [
+          "Core Passive: Stealthy Paws",
+          "Additional Ability: Catwalk"
+        ],
+        "desc": [
+          "When Nekomata's <color=#FFFFFF>Dodge Counter</color> or <color=#FFFFFF>Quick Assist</color> hits an enemy, her DMG increases by <color=#2BAD00>50%</color> for 40s. Repeated triggers reset the duration.\nNekomata gains 40 <Term:1000024></Term> upon entering the battlefield. In Investigation Zone mode, this effect can trigger once every 180s.\nWhile Nekomata is in combat, she gains 1 Purr Energy every second, up to a maximum of 60. Different skills restore different amounts of Purr Energy when they hit an enemy.\nWhen Nekomata has at least 40 Purr Energy and after triggering a <color=#FFFFFF>Perfect Dodge</color>, press <IconMap:Icon_Evade> to consume 30 Purr Energy and activate Dodge: Disappearing Tail. Then press <IconMap:Icon_Normal> to perform Dodge Counter: Fluffy Piercing Claw once without consuming Purr Energy.\nWhen Nekomata has at least 40 Purr Energy, hold <IconMap:Icon_Normal> to consume 40 Purr Energy and activate Dodge Counter: Fluffy Piercing Claw.\nWhen using Dodge Counter: Fluffy Piercing Claw, Nekomata enters the <Term:1000025></Term> state for 40s. Repeated triggers reset the duration. While Pawpad Ambush is active, all of Nekomata's attacks count as hitting from behind.\nWhile Pawpad Ambush is active, Nekomata's attacks trigger Super Mean Pawprint, dealing an additional instance of <color=#F0D12B>Physical DMG</color> equal to 30% of her ATK. This effect can trigger once every 1s.\nNekomata restores 20 additional Purr Energy when using her Ultimate, 10 when using her Chain Attack, and 5 when using her EX Special Attack.",
+          "When another character in your squad is a Support character, or shares the same attribute or Faction:\nAfter Nekomata uses <color=#FFFFFF>Dodge: Disappearing Tail</color>, or after any squad member inflicts <color=#F0D12B>Assault</color> on an enemy, Nekomata's <color=#FFFFFF>EX Special Attack</color> and <color=#FFFFFF>Dodge Counter</color> deal 35% more DMG on hit. This effect stacks up to 2 times and lasts 30s. Repeated triggers reset the duration."
+        ],
+        "extra_property": {},
+        "potential": [
+          102100,
+          102101,
+          102102,
+          102103,
+          102104,
+          102105
+        ]
+      },
+      "1021513": {
+        "level": 6,
+        "id": 1021513,
+        "name": [
+          "Core Passive: Stealthy Paws",
+          "Additional Ability: Catwalk"
+        ],
+        "desc": [
+          "When Nekomata's <color=#FFFFFF>Dodge Counter</color> or <color=#FFFFFF>Quick Assist</color> hits an enemy, her DMG increases by <color=#2BAD00>55%</color> for 40s. Repeated triggers reset the duration.\nNekomata gains 40 <Term:1000024></Term> upon entering the battlefield. In Investigation Zone mode, this effect can trigger once every 180s.\nWhile Nekomata is in combat, she gains 1 Purr Energy every second, up to a maximum of 60. Different skills restore different amounts of Purr Energy when they hit an enemy.\nWhen Nekomata has at least 40 Purr Energy and after triggering a <color=#FFFFFF>Perfect Dodge</color>, press <IconMap:Icon_Evade> to consume 30 Purr Energy and activate Dodge: Disappearing Tail. Then press <IconMap:Icon_Normal> to perform Dodge Counter: Fluffy Piercing Claw once without consuming Purr Energy.\nWhen Nekomata has at least 40 Purr Energy, hold <IconMap:Icon_Normal> to consume 40 Purr Energy and activate Dodge Counter: Fluffy Piercing Claw.\nWhen using Dodge Counter: Fluffy Piercing Claw, Nekomata enters the <Term:1000025></Term> state for 40s. Repeated triggers reset the duration. While Pawpad Ambush is active, all of Nekomata's attacks count as hitting from behind.\nWhile Pawpad Ambush is active, Nekomata's attacks trigger Super Mean Pawprint, dealing an additional instance of <color=#F0D12B>Physical DMG</color> equal to 30% of her ATK. This effect can trigger once every 1s.\nNekomata restores 20 additional Purr Energy when using her Ultimate, 10 when using her Chain Attack, and 5 when using her EX Special Attack.",
+          "When another character in your squad is a Support character, or shares the same attribute or Faction:\nAfter Nekomata uses <color=#FFFFFF>Dodge: Disappearing Tail</color>, or after any squad member inflicts <color=#F0D12B>Assault</color> on an enemy, Nekomata's <color=#FFFFFF>EX Special Attack</color> and <color=#FFFFFF>Dodge Counter</color> deal 35% more DMG on hit. This effect stacks up to 2 times and lasts 30s. Repeated triggers reset the duration."
+        ],
+        "extra_property": {},
+        "potential": [
+          102100,
+          102101,
+          102102,
+          102103,
+          102104,
+          102105
+        ]
+      },
+      "1021514": {
+        "level": 7,
+        "id": 1021514,
+        "name": [
+          "Core Passive: Stealthy Paws",
+          "Additional Ability: Catwalk"
+        ],
+        "desc": [
+          "When Nekomata's <color=#FFFFFF>Dodge Counter</color> or <color=#FFFFFF>Quick Assist</color> hits an enemy, her DMG increases by <color=#2BAD00>60%</color> for 40s. Repeated triggers reset the duration.\nNekomata gains 40 <Term:1000024></Term> upon entering the battlefield. In Investigation Zone mode, this effect can trigger once every 180s.\nWhile Nekomata is in combat, she gains 1 Purr Energy every second, up to a maximum of 60. Different skills restore different amounts of Purr Energy when they hit an enemy.\nWhen Nekomata has at least 40 Purr Energy and after triggering a <color=#FFFFFF>Perfect Dodge</color>, press <IconMap:Icon_Evade> to consume 30 Purr Energy and activate Dodge: Disappearing Tail. Then press <IconMap:Icon_Normal> to perform Dodge Counter: Fluffy Piercing Claw once without consuming Purr Energy.\nWhen Nekomata has at least 40 Purr Energy, hold <IconMap:Icon_Normal> to consume 40 Purr Energy and activate Dodge Counter: Fluffy Piercing Claw.\nWhen using Dodge Counter: Fluffy Piercing Claw, Nekomata enters the <Term:1000025></Term> state for 40s. Repeated triggers reset the duration. While Pawpad Ambush is active, all of Nekomata's attacks count as hitting from behind.\nWhile Pawpad Ambush is active, Nekomata's attacks trigger Super Mean Pawprint, dealing an additional instance of <color=#F0D12B>Physical DMG</color> equal to 30% of her ATK. This effect can trigger once every 1s.\nNekomata restores 20 additional Purr Energy when using her Ultimate, 10 when using her Chain Attack, and 5 when using her EX Special Attack.",
+          "When another character in your squad is a Support character, or shares the same attribute or Faction:\nAfter Nekomata uses <color=#FFFFFF>Dodge: Disappearing Tail</color>, or after any squad member inflicts <color=#F0D12B>Assault</color> on an enemy, Nekomata's <color=#FFFFFF>EX Special Attack</color> and <color=#FFFFFF>Dodge Counter</color> deal 35% more DMG on hit. This effect stacks up to 2 times and lasts 30s. Repeated triggers reset the duration."
+        ],
+        "extra_property": {},
+        "potential": [
+          102100,
+          102101,
+          102102,
+          102103,
+          102104,
+          102105
+        ]
       }
     },
     "materials": {
@@ -1770,6 +2202,11 @@
     "slot4": 32600,
     "slot2": 31000,
     "slot_sub": 31100,
+    "part_sub_list": [
+      20103,
+      21103,
+      12102
+    ],
     "part4": {
       "prop": 20103,
       "name": "CRIT Rate",
@@ -1801,6 +2238,133 @@
     "Boosts DMG dealt with Dodge Counter",
     "Nimble with high mobility"
   ],
-  "potential": [],
-  "potential_detail": {}
+  "potential": [
+    102100,
+    102101,
+    102102,
+    102103,
+    102104,
+    102105
+  ],
+  "potential_detail": {
+    "102100": {
+      "id": 102100,
+      "name": "",
+      "desc": "",
+      "image": "Nekomata",
+      "level_show_name": "Cat's Gratitude I",
+      "level": 1,
+      "ability_list": [
+        11021401,
+        11021601,
+        11021701
+      ],
+      "potential_materials": [
+        {
+          "item_id": 20102,
+          "number": 1
+        }
+      ]
+    },
+    "102101": {
+      "id": 102101,
+      "name": "Awakened Potential: Nightborne Instinct",
+      "desc": "While Nekomata is in the Pawpad Ambush state, her CRIT DMG increases by <color=#2BAD00>20%</color>.",
+      "image": "Nekomata",
+      "level_show_name": "Cat's Gratitude II",
+      "level": 2,
+      "ability_list": [
+        11021401,
+        11021501,
+        11021601,
+        11021701
+      ],
+      "potential_materials": [
+        {
+          "item_id": 20102,
+          "number": 1
+        }
+      ]
+    },
+    "102102": {
+      "id": 102102,
+      "name": "Awakened Potential: Nightborne Instinct",
+      "desc": "While Nekomata is in the Pawpad Ambush state, her CRIT DMG increases by <color=#2BAD00>30%</color>.",
+      "image": "Nekomata",
+      "level_show_name": "Cat's Gratitude III",
+      "level": 3,
+      "ability_list": [
+        11021401,
+        11021502,
+        11021601,
+        11021701
+      ],
+      "potential_materials": [
+        {
+          "item_id": 20102,
+          "number": 1
+        }
+      ]
+    },
+    "102103": {
+      "id": 102103,
+      "name": "Awakened Potential: Nightborne Instinct",
+      "desc": "While Nekomata is in the Pawpad Ambush state, her CRIT DMG increases by <color=#2BAD00>40%</color>.",
+      "image": "Nekomata",
+      "level_show_name": "Cat's Gratitude IV",
+      "level": 4,
+      "ability_list": [
+        11021401,
+        11021503,
+        11021601,
+        11021701
+      ],
+      "potential_materials": [
+        {
+          "item_id": 20102,
+          "number": 1
+        }
+      ]
+    },
+    "102104": {
+      "id": 102104,
+      "name": "Awakened Potential: Nightborne Instinct",
+      "desc": "While Nekomata is in the Pawpad Ambush state, her CRIT DMG increases by <color=#2BAD00>50%</color>.",
+      "image": "Nekomata",
+      "level_show_name": "Cat's Gratitude V",
+      "level": 5,
+      "ability_list": [
+        11021401,
+        11021504,
+        11021601,
+        11021701
+      ],
+      "potential_materials": [
+        {
+          "item_id": 20102,
+          "number": 1
+        }
+      ]
+    },
+    "102105": {
+      "id": 102105,
+      "name": "Awakened Potential: Nightborne Instinct",
+      "desc": "While Nekomata is in the Pawpad Ambush state, her CRIT DMG increases by <color=#2BAD00>60%</color>.",
+      "image": "Nekomata",
+      "level_show_name": "Cat's Gratitude VI",
+      "level": 6,
+      "ability_list": [
+        11021401,
+        11021505,
+        11021601,
+        11021701
+      ],
+      "potential_materials": [
+        {
+          "item_id": 20102,
+          "number": 1
+        }
+      ]
+    }
+  }
 }

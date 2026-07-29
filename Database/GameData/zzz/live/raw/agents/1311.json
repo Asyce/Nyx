@@ -23,8 +23,14 @@
     "full_name": "Astra Yao",
     "gender": "Female",
     "icon_path": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle36.png",
+    "inter_knot_icon": "UI/Sprite/A1DynamicLoad/InterKnot/UnPacker/IconInterknotAvatar/IconInterKnotRole0036.png",
     "impression_f": "Astra just sent me another message on Knock Knock! It's a swimsuit photoshoot for \"Jealous\"! Wow, she's got a great body~",
     "impression_m": "What?! Why don't I... Ahem, I think my phone is broken. Belle, can I borrow yours for a moment?",
+    "impressions": [
+      "Impressions of Astra Yao:\n · Completely different from The Queen she is under the spotlight, Astra Yao is more like an ordinary girl in her daily life... Though she has a curiosity that far exceeds that of a typical girl.",
+      " · Astra doesn't seem to care much for things like company rules... She prefers sneaking out to hang out with her fans.",
+      " · The imposing Queen and the bubbly girl — which one is the real Astra Yao? I can't help but feel like there's something inside her that drives her to be the way she is now..."
+    ],
     "profile_desc": "Astra Yao is widely regarded as Ridu's most iconic singer. With her extraordinary voice, stage presence, and songwriting talent, she has led the musical trends of an entire era. \"If music is the resonance of the soul, then Astra Yao is the spark that ignites it all,\" said one famous music critic.\n\nAs brilliant as she is, Astra remains remarkably sincere and pure. On stage, her voice resonates deeply with the audience, which has allowed her to amass a large and loyal fanbase known as her \"Astranauts.\" Of course, Astra's brilliance wouldn't be possible without the careful protection of her manager, Evelyn. Offstage, she appears to be just a cute, hapless girl who depends on Evelyn in her daily life, and on Wise and Belle in the Hollows.\n\n\"If I tickled Eous, would it make you laugh?\" Astra asked curiously while lifting the Proxy, who was linked via the HDD system.\n\nShe seems to have a particular fondness for Eous.\nContemplation: Human emotions are indeed an interesting subject. It's still hard to determine whether Astra likes Eous because of the owner, or whether she likes the owner because of Eous.",
     "role_icon": "IconRole/UnPacker/IconRole36",
     "stature": "176",
@@ -2060,6 +2066,10 @@
     "slot4": 32800,
     "slot2": 31600,
     "slot_sub": 31400,
+    "part_sub_list": [
+      12102,
+      31203
+    ],
     "part4": {
       "prop": 30502,
       "name": "Energy Regen",

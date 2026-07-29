@@ -80419,6 +80419,7 @@
       "updated": 1783641600000,
       "sourceOrder": 1208,
       "voiceActors": {
+        "english": "imdb:nm4959536|Devora Wilde",
         "japanese": "Umeka Sh\u014dji|Sh\u014dji Umeka (ja=\u5e84\u53f8\u5b87\u82bd\u9999)",
         "chinese": "Zhang Wenjie (zh=\u5f20\u6587\u5a55)",
         "korean": "https://namu.wiki/w/\uc774\ub2e4\uc2ac|Lee Da-seul (ko=\uc774\ub2e4\uc2ac)"

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T04:28:46.606Z",
+  "generatedAt": "2026-07-29T10:13:39.031Z",
   "policy": "Every generated Database row is counted. Released rows remain visible when art or description is missing; only rows with no usable localized display name or proven internal/test provenance are quarantined.",
   "coverage": {
     "before": {
@@ -9,8 +9,8 @@
         "special"
       ],
       "summaryCount": 25,
-      "missingArtCount": 2185,
-      "quarantinedCount": 565
+      "missingArtCount": 2214,
+      "quarantinedCount": 574
     },
     "after": {
       "scopes": [
@@ -19,8 +19,8 @@
         "special"
       ],
       "summaryCount": 25,
-      "missingArtCount": 2185,
-      "quarantinedCount": 565
+      "missingArtCount": 2214,
+      "quarantinedCount": 574
     }
   },
   "summary": [
@@ -71,24 +71,24 @@
     {
       "game": "zzz",
       "collection": "monsters",
-      "sourceCount": 288,
-      "normalizedCount": 288,
+      "sourceCount": 293,
+      "normalizedCount": 293,
       "quarantinedCount": 37,
-      "approvedSourceCount": 251,
-      "generatedCount": 251,
-      "localArtCount": 248,
-      "missingArtCount": 3
+      "approvedSourceCount": 256,
+      "generatedCount": 256,
+      "localArtCount": 252,
+      "missingArtCount": 4
     },
     {
       "game": "zzz",
       "collection": "items",
-      "sourceCount": 4957,
-      "normalizedCount": 4957,
-      "quarantinedCount": 210,
-      "approvedSourceCount": 4747,
-      "generatedCount": 4747,
-      "localArtCount": 4495,
-      "missingArtCount": 252
+      "sourceCount": 5690,
+      "normalizedCount": 5690,
+      "quarantinedCount": 219,
+      "approvedSourceCount": 5471,
+      "generatedCount": 5471,
+      "localArtCount": 5192,
+      "missingArtCount": 279
     },
     {
       "game": "wuwa",
@@ -188,13 +188,13 @@
       "scope": "inline",
       "game": "zzz",
       "collection": "bangboos",
-      "sourceCount": 40,
-      "normalizedCount": 40,
+      "sourceCount": 42,
+      "normalizedCount": 42,
       "quarantinedCount": 0,
-      "approvedSourceCount": 40,
-      "generatedCount": 40,
-      "localArtCount": 40,
-      "missingArtCount": 0
+      "approvedSourceCount": 42,
+      "generatedCount": 42,
+      "localArtCount": 41,
+      "missingArtCount": 1
     },
     {
       "scope": "inline",
@@ -317,7 +317,7 @@
       "missingArtCount": 74
     }
   ],
-  "missingArtCount": 2185,
+  "missingArtCount": 2214,
   "records": [
     {
       "scope": "inline",
@@ -28774,6 +28774,34 @@
       "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
     },
     {
+      "scope": "inline",
+      "game": "zzz",
+      "collection": "bangboos",
+      "recordId": "zzz-bb-55098",
+      "name": "Eous",
+      "releaseStatus": "live",
+      "sourceIconField": null,
+      "sourceUrl": null,
+      "localDestination": null,
+      "result": "no-local-art-reference",
+      "reason": "The released generated record has no usable local art reference and no approved source URL or filename was available; the record remains visible with a neutral fallback."
+    },
+    {
+      "game": "zzz",
+      "collection": "items",
+      "recordId": "460",
+      "name": "Season Coins",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon_path",
+        "value": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Currency_Season.png"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/zzz/Zenkov_Currency_Season.webp",
+      "localDestination": "GameData/zzz/assets/items/Zenkov_Currency_Season.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
       "game": "zzz",
       "collection": "items",
       "recordId": "201001",
@@ -30255,6 +30283,66 @@
     {
       "game": "zzz",
       "collection": "items",
+      "recordId": "2090034",
+      "name": "\"PSBoo\" Themed Console",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon_path",
+        "value": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/PS_PhysicalSKU.png"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/zzz/PS_PhysicalSKU.webp",
+      "localDestination": "GameData/zzz/assets/items/PS_PhysicalSKU.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "zzz",
+      "collection": "items",
+      "recordId": "2090035",
+      "name": "\"PSBoo\" Commemorative Console",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon_path",
+        "value": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/PS_PhysicalSKU_Mark.png"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/zzz/PS_PhysicalSKU_Mark.webp",
+      "localDestination": "GameData/zzz/assets/items/PS_PhysicalSKU_Mark.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "zzz",
+      "collection": "items",
+      "recordId": "2090036",
+      "name": "\"XBoo\" Themed Console",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon_path",
+        "value": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/Xbox_PhysicalSKU.png"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/zzz/Xbox_PhysicalSKU.webp",
+      "localDestination": "GameData/zzz/assets/items/Xbox_PhysicalSKU.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "zzz",
+      "collection": "items",
+      "recordId": "2090037",
+      "name": "\"XBoo\" Commemorative Console",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon_path",
+        "value": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/Xbox_PhysicalSKU_Mark.png"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/zzz/Xbox_PhysicalSKU_Mark.webp",
+      "localDestination": "GameData/zzz/assets/items/Xbox_PhysicalSKU_Mark.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "zzz",
+      "collection": "items",
       "recordId": "3031551",
       "name": "Belle and Pyrois' Namecard",
       "releaseStatus": "live",
@@ -30423,6 +30511,18 @@
     {
       "game": "zzz",
       "collection": "items",
+      "recordId": "3115891",
+      "name": "\"Moonlit Shore\" Outfit Set",
+      "releaseStatus": "live",
+      "sourceIconField": null,
+      "sourceUrl": null,
+      "localDestination": null,
+      "result": "no-approved-source-icon",
+      "reason": "The released source record does not name an icon, so no filename or URL was guessed."
+    },
+    {
+      "game": "zzz",
+      "collection": "items",
       "recordId": "3131551",
       "name": "Wise and Pyrois' Namecard",
       "releaseStatus": "live",
@@ -30447,6 +30547,33 @@
     {
       "game": "zzz",
       "collection": "items",
+      "recordId": "3202017",
+      "name": "The Best Gift",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon_path",
+        "value": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/ItemProfile2014.png"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/zzz/ItemProfile2014.webp",
+      "localDestination": "GameData/zzz/assets/items/ItemProfile2014.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "zzz",
+      "collection": "items",
+      "recordId": "3202018",
+      "name": "Tempered Crown",
+      "releaseStatus": "live",
+      "sourceIconField": null,
+      "sourceUrl": null,
+      "localDestination": null,
+      "result": "no-approved-source-icon",
+      "reason": "The released source record does not name an icon, so no filename or URL was guessed."
+    },
+    {
+      "game": "zzz",
+      "collection": "items",
       "recordId": "3300001",
       "name": "Honorary Citizen",
       "releaseStatus": "live",
@@ -30461,6 +30588,18 @@
       "collection": "items",
       "recordId": "3301017",
       "name": "Sān-Z: Undying Spark",
+      "releaseStatus": "live",
+      "sourceIconField": null,
+      "sourceUrl": null,
+      "localDestination": null,
+      "result": "no-approved-source-icon",
+      "reason": "The released source record does not name an icon, so no filename or URL was guessed."
+    },
+    {
+      "game": "zzz",
+      "collection": "items",
+      "recordId": "3301027",
+      "name": "Countless Nychthemerons",
       "releaseStatus": "live",
       "sourceIconField": null,
       "sourceUrl": null,
@@ -31131,6 +31270,30 @@
     {
       "game": "zzz",
       "collection": "items",
+      "recordId": "3311581",
+      "name": "Remielle's Namecard",
+      "releaseStatus": "live",
+      "sourceIconField": null,
+      "sourceUrl": null,
+      "localDestination": null,
+      "result": "no-approved-source-icon",
+      "reason": "The released source record does not name an icon, so no filename or URL was guessed."
+    },
+    {
+      "game": "zzz",
+      "collection": "items",
+      "recordId": "3311591",
+      "name": "Sigrid's Namecard",
+      "releaseStatus": "live",
+      "sourceIconField": null,
+      "sourceUrl": null,
+      "localDestination": null,
+      "result": "no-approved-source-icon",
+      "reason": "The released source record does not name an icon, so no filename or URL was guessed."
+    },
+    {
+      "game": "zzz",
+      "collection": "items",
       "recordId": "3321011",
       "name": "\"Ending Theme\"",
       "releaseStatus": "live",
@@ -31791,6 +31954,45 @@
     {
       "game": "zzz",
       "collection": "items",
+      "recordId": "3321581",
+      "name": "\"Stray Birds\"",
+      "releaseStatus": "live",
+      "sourceIconField": null,
+      "sourceUrl": null,
+      "localDestination": null,
+      "result": "no-approved-source-icon",
+      "reason": "The released source record does not name an icon, so no filename or URL was guessed."
+    },
+    {
+      "game": "zzz",
+      "collection": "items",
+      "recordId": "3321591",
+      "name": "Armor Maintenance",
+      "releaseStatus": "live",
+      "sourceIconField": null,
+      "sourceUrl": null,
+      "localDestination": null,
+      "result": "no-approved-source-icon",
+      "reason": "The released source record does not name an icon, so no filename or URL was guessed."
+    },
+    {
+      "game": "zzz",
+      "collection": "items",
+      "recordId": "3651013",
+      "name": "Special Beach Souvenir",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon_path",
+        "value": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/DIYBoardDecoration013.png"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/zzz/DIYBoardDecoration013.webp",
+      "localDestination": "GameData/zzz/assets/items/DIYBoardDecoration013.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "zzz",
+      "collection": "items",
       "recordId": "3800001",
       "name": "Gear Coins",
       "releaseStatus": "live",
@@ -31811,6 +32013,201 @@
       "localDestination": null,
       "result": "no-approved-source-icon",
       "reason": "The released source record does not name an icon, so no filename or URL was guessed."
+    },
+    {
+      "game": "zzz",
+      "collection": "items",
+      "recordId": "4350181",
+      "name": "[Blueprint] Advanced Gear - Attack - Lv.20",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon_path",
+        "value": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_001_Blueprint.png"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/zzz/Zenkov_WeaponB_001_Blueprint.webp",
+      "localDestination": "GameData/zzz/assets/items/Zenkov_WeaponB_001_Blueprint.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "zzz",
+      "collection": "items",
+      "recordId": "4350182",
+      "name": "[Blueprint] Advanced Gear - Stun - Lv.20",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon_path",
+        "value": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_004_Blueprint.png"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/zzz/Zenkov_WeaponB_004_Blueprint.webp",
+      "localDestination": "GameData/zzz/assets/items/Zenkov_WeaponB_004_Blueprint.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "zzz",
+      "collection": "items",
+      "recordId": "4350183",
+      "name": "[Blueprint] Advanced Gear - Anomaly - Lv.20",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon_path",
+        "value": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_002_Blueprint.png"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/zzz/Zenkov_WeaponB_002_Blueprint.webp",
+      "localDestination": "GameData/zzz/assets/items/Zenkov_WeaponB_002_Blueprint.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "zzz",
+      "collection": "items",
+      "recordId": "4350184",
+      "name": "[Blueprint] Advanced Gear - Support - Lv.20",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon_path",
+        "value": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_005_Blueprint.png"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/zzz/Zenkov_WeaponB_005_Blueprint.webp",
+      "localDestination": "GameData/zzz/assets/items/Zenkov_WeaponB_005_Blueprint.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "zzz",
+      "collection": "items",
+      "recordId": "4350185",
+      "name": "[Blueprint] Advanced Gear - Rupture - Lv.20",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon_path",
+        "value": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_003_Blueprint.png"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/zzz/Zenkov_WeaponB_003_Blueprint.webp",
+      "localDestination": "GameData/zzz/assets/items/Zenkov_WeaponB_003_Blueprint.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "zzz",
+      "collection": "items",
+      "recordId": "4350186",
+      "name": "[Blueprint] Advanced Gear - Defense - Lv.20",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon_path",
+        "value": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_006_Blueprint.png"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/zzz/Zenkov_WeaponB_006_Blueprint.webp",
+      "localDestination": "GameData/zzz/assets/items/Zenkov_WeaponB_006_Blueprint.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "zzz",
+      "collection": "items",
+      "recordId": "4360041",
+      "name": "Ruby Ring",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon_path",
+        "value": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_044.png"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/zzz/Zenkov_Collection_044.webp",
+      "localDestination": "GameData/zzz/assets/items/Zenkov_Collection_044.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "zzz",
+      "collection": "items",
+      "recordId": "4360042",
+      "name": "\"Blood Cicada\" Accessory",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon_path",
+        "value": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_043.png"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/zzz/Zenkov_Collection_043.webp",
+      "localDestination": "GameData/zzz/assets/items/Zenkov_Collection_043.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "zzz",
+      "collection": "items",
+      "recordId": "4360043",
+      "name": "En O'Clock (Icedawn White)",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon_path",
+        "value": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_041.png"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/zzz/Zenkov_Collection_041.webp",
+      "localDestination": "GameData/zzz/assets/items/Zenkov_Collection_041.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "zzz",
+      "collection": "items",
+      "recordId": "4360044",
+      "name": "Boo-rick Phone (Amber Orange)",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon_path",
+        "value": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_042.png"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/zzz/Zenkov_Collection_042.webp",
+      "localDestination": "GameData/zzz/assets/items/Zenkov_Collection_042.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "zzz",
+      "collection": "items",
+      "recordId": "4360045",
+      "name": "CCTV",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon_path",
+        "value": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_045.png"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/zzz/Zenkov_Collection_045.webp",
+      "localDestination": "GameData/zzz/assets/items/Zenkov_Collection_045.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "zzz",
+      "collection": "items",
+      "recordId": "4360088",
+      "name": "[Commission] Treasure Radar",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon_path",
+        "value": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_CollectionA_004.png"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/zzz/Zenkov_CollectionA_004.webp",
+      "localDestination": "GameData/zzz/assets/items/Zenkov_CollectionA_004.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "zzz",
+      "collection": "items",
+      "recordId": "4362001",
+      "name": "Blueprint",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon_path",
+        "value": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Box_Blueprint_Blueprint.png"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/zzz/Zenkov_Box_Blueprint_Blueprint.webp",
+      "localDestination": "GameData/zzz/assets/items/Zenkov_Box_Blueprint_Blueprint.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
     },
     {
       "game": "zzz",
@@ -32136,6 +32533,21 @@
     {
       "game": "zzz",
       "collection": "monsters",
+      "recordId": "10040",
+      "name": "Metamorphosed - Hornet",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "icon",
+        "value": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_EvolvedBee.png"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/zzz/Monster_EvolvedBee.webp",
+      "localDestination": "GameData/zzz/assets/monsters/Monster_EvolvedBee.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "zzz",
+      "collection": "monsters",
       "recordId": "100211",
       "name": "Raven UAV - Activated",
       "releaseStatus": "live",
@@ -32177,7 +32589,7 @@
       "reason": "The released generated record has no usable local art reference and no approved source URL or filename was available; the record remains visible with a neutral fallback."
     }
   ],
-  "quarantinedCount": 565,
+  "quarantinedCount": 574,
   "quarantinedRecords": [
     {
       "game": "gi",
@@ -37126,6 +37538,21 @@
     {
       "game": "zzz",
       "collection": "items",
+      "recordId": "705",
+      "name": "Item_AbyssPoint_Name_705",
+      "releaseStatus": "no-localized-display-name",
+      "sourceIconField": {
+        "field": "icon_path",
+        "value": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/AbyssS2Points.png"
+      },
+      "sourceUrl": null,
+      "localDestination": null,
+      "result": "quarantined",
+      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+    },
+    {
+      "game": "zzz",
+      "collection": "items",
       "recordId": "801",
       "name": "Item_RoarinStore_Name_801",
       "releaseStatus": "no-localized-display-name",
@@ -37201,42 +37628,57 @@
     {
       "game": "zzz",
       "collection": "items",
-      "recordId": "1581",
-      "name": "Avatar_Female_Size02_Remielle",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon_path",
-        "value": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconRolePiece/UnPacker/IconRolePiece50.png"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "zzz",
-      "collection": "items",
-      "recordId": "5581",
-      "name": "Avatar_Female_Size02_Remielle_Piece",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon_path",
-        "value": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconRolePiece/UnPacker/IconRolePiece50.png"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "zzz",
-      "collection": "items",
       "recordId": "201308",
       "name": "Item_HackCollection_01_name",
       "releaseStatus": "no-localized-display-name",
       "sourceIconField": {
         "field": "icon_path",
         "value": "Assets/NapResources/UI/Sprite/ItemIcon/Analeptic.png"
+      },
+      "sourceUrl": null,
+      "localDestination": null,
+      "result": "quarantined",
+      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+    },
+    {
+      "game": "zzz",
+      "collection": "items",
+      "recordId": "201309",
+      "name": "Item_SummerTideTreasure_01_name",
+      "releaseStatus": "no-localized-display-name",
+      "sourceIconField": {
+        "field": "icon_path",
+        "value": "Assets/NapResources/UI/Sprite/ItemIcon/Recovery.png"
+      },
+      "sourceUrl": null,
+      "localDestination": null,
+      "result": "quarantined",
+      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+    },
+    {
+      "game": "zzz",
+      "collection": "items",
+      "recordId": "201310",
+      "name": "Item_SummerTideTreasure_02_name",
+      "releaseStatus": "no-localized-display-name",
+      "sourceIconField": {
+        "field": "icon_path",
+        "value": "Assets/NapResources/UI/Sprite/ItemIcon/Recovery.png"
+      },
+      "sourceUrl": null,
+      "localDestination": null,
+      "result": "quarantined",
+      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+    },
+    {
+      "game": "zzz",
+      "collection": "items",
+      "recordId": "201311",
+      "name": "Item_SummerTideTreasure_03_name",
+      "releaseStatus": "no-localized-display-name",
+      "sourceIconField": {
+        "field": "icon_path",
+        "value": "Assets/NapResources/UI/Sprite/ItemIcon/Recovery.png"
       },
       "sourceUrl": null,
       "localDestination": null,
@@ -37546,6 +37988,18 @@
     {
       "game": "zzz",
       "collection": "items",
+      "recordId": "304073",
+      "name": "Item_Questitem_304073_name",
+      "releaseStatus": "no-localized-display-name",
+      "sourceIconField": null,
+      "sourceUrl": null,
+      "localDestination": null,
+      "result": "quarantined",
+      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+    },
+    {
+      "game": "zzz",
+      "collection": "items",
       "recordId": "306007",
       "name": "Item_ClueItem_Story_07_name",
       "releaseStatus": "no-localized-display-name",
@@ -37632,6 +38086,18 @@
       "localDestination": null,
       "result": "quarantined",
       "reason": "The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance."
+    },
+    {
+      "game": "zzz",
+      "collection": "items",
+      "recordId": "900006",
+      "name": "Item_Weapon_Choose_Show",
+      "releaseStatus": "no-localized-display-name",
+      "sourceIconField": null,
+      "sourceUrl": null,
+      "localDestination": null,
+      "result": "quarantined",
+      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
     },
     {
       "game": "zzz",
@@ -38047,36 +38513,6 @@
       "sourceIconField": {
         "field": "icon_path",
         "value": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/ItemIcon/UnPacker/IconFund.png"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "zzz",
-      "collection": "items",
-      "recordId": "1341073",
-      "name": "Choice_1341073_name",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon_path",
-        "value": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1601.png"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "zzz",
-      "collection": "items",
-      "recordId": "1341074",
-      "name": "Choice_1341074_name",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon_path",
-        "value": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1611.png"
       },
       "sourceUrl": null,
       "localDestination": null,
@@ -38971,8 +39407,20 @@
     {
       "game": "zzz",
       "collection": "items",
-      "recordId": "3115811",
-      "name": "Skin_3115811_name",
+      "recordId": "3115810",
+      "name": "Skin_3115810_name",
+      "releaseStatus": "no-localized-display-name",
+      "sourceIconField": null,
+      "sourceUrl": null,
+      "localDestination": null,
+      "result": "quarantined",
+      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+    },
+    {
+      "game": "zzz",
+      "collection": "items",
+      "recordId": "3115910",
+      "name": "Skin_3115910_name",
       "releaseStatus": "no-localized-display-name",
       "sourceIconField": null,
       "sourceUrl": null,
@@ -39703,6 +40151,51 @@
     {
       "game": "zzz",
       "collection": "items",
+      "recordId": "4000212",
+      "name": "MessageItem_4000212_name",
+      "releaseStatus": "no-localized-display-name",
+      "sourceIconField": {
+        "field": "icon_path",
+        "value": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/PoliceOfficerLetter07.png"
+      },
+      "sourceUrl": null,
+      "localDestination": null,
+      "result": "quarantined",
+      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+    },
+    {
+      "game": "zzz",
+      "collection": "items",
+      "recordId": "4000213",
+      "name": "MessageItem_4000213_name",
+      "releaseStatus": "no-localized-display-name",
+      "sourceIconField": {
+        "field": "icon_path",
+        "value": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/PoliceOfficerLetter07.png"
+      },
+      "sourceUrl": null,
+      "localDestination": null,
+      "result": "quarantined",
+      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+    },
+    {
+      "game": "zzz",
+      "collection": "items",
+      "recordId": "4340100",
+      "name": "ZKItem_4340100_Name",
+      "releaseStatus": "no-localized-display-name",
+      "sourceIconField": {
+        "field": "icon_path",
+        "value": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Key_025.png"
+      },
+      "sourceUrl": null,
+      "localDestination": null,
+      "result": "quarantined",
+      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+    },
+    {
+      "game": "zzz",
+      "collection": "items",
       "recordId": "4361001",
       "name": "BKItem_4361001_Name",
       "releaseStatus": "no-localized-display-name",
@@ -39889,6 +40382,51 @@
       "sourceIconField": {
         "field": "icon_path",
         "value": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Activity/Ver2_8/Bangkov/UnPacker/ItemIconBig/BangkovCoinSpecialBig.png"
+      },
+      "sourceUrl": null,
+      "localDestination": null,
+      "result": "quarantined",
+      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+    },
+    {
+      "game": "zzz",
+      "collection": "items",
+      "recordId": "4370129",
+      "name": "Item_SummerTideTreasure_017",
+      "releaseStatus": "no-localized-display-name",
+      "sourceIconField": {
+        "field": "icon_path",
+        "value": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Activity/Ver3_1/SummerTideTreasure/UnPacker/Drop/SummerTideTreasure_DroopItemIcon_11.png"
+      },
+      "sourceUrl": null,
+      "localDestination": null,
+      "result": "quarantined",
+      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+    },
+    {
+      "game": "zzz",
+      "collection": "items",
+      "recordId": "4370130",
+      "name": "Item_SummerTideTreasure_018",
+      "releaseStatus": "no-localized-display-name",
+      "sourceIconField": {
+        "field": "icon_path",
+        "value": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Activity/Ver3_1/SummerTideTreasure/UnPacker/Drop/SummerTideTreasure_DroopItemIcon_11.png"
+      },
+      "sourceUrl": null,
+      "localDestination": null,
+      "result": "quarantined",
+      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
+    },
+    {
+      "game": "zzz",
+      "collection": "items",
+      "recordId": "4370131",
+      "name": "Item_SummerTideTreasure_019",
+      "releaseStatus": "no-localized-display-name",
+      "sourceIconField": {
+        "field": "icon_path",
+        "value": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Activity/Ver3_1/SummerTideTreasure/UnPacker/Drop/SummerTideTreasure_DroopItemIcon_11.png"
       },
       "sourceUrl": null,
       "localDestination": null,

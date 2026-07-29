@@ -1253,11 +1253,11 @@
     "icon": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_InnerKnight.png",
     "rarity": 3,
     "group": 290,
-    "en": "全新人形boss",
+    "en": "Shining Promise - Billy",
     "desc": "A reliable friend, a seasoned fighter, and the very first mentor on the road to combat.\nLook! The badge of the shining galaxy is resonating!\nListen! A powerful beat is ringing!\nEngines roar, gunfire sparks, and the warm-up is finally over. The Knight hauls in his speaker and joins the battlefield. Are you ready, my friend? It's showtime!\n\"Just as expected of the Manager! Time to get serious!\" \"No way, I'm going up against The Champion? For real?\"",
-    "ko": "全新人形boss",
-    "zh": "全新人形boss",
-    "ja": "全新人形boss"
+    "ko": "빛나는 맹세·빌리",
+    "zh": "闪耀之誓·比利",
+    "ja": "輝ける誓い・ビリー"
   },
   "30048": {
     "icon": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Sentinel.png",
@@ -1293,18 +1293,18 @@
     "icon": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_InnerKnightSlime.png",
     "rarity": 3,
     "group": 201,
-    "en": "全新人形boss",
+    "en": "Doppelganger - Starlight - Billy",
     "desc": "Even among Ionized enemies renowned for their strange and uncanny qualities, Ionized Doppelgangers are exceptionally unique.\nThese entities can coat their bodies with a layer of special active Ether ions, enabling them to accurately replicate their target's form, often to a degree that makes it hard to tell the difference. Both in detail and texture, it is almost impossible to tell apart from the original.\nEven more challenging is their ability to mimic the powerful and intimidating combat techniques of their targets.\nNo one knows where they obtain the information about the subjects they mimic. Some rumors suggest they can read minds, picking out the most suitable challengers from their opponent's memories, and then attack in that form.\n\n\"Nonsense! If it could really read my deepest fears, it would turn into a fierce middle-aged woman wielding a clothes hanger! That's right, I'm most afraid of my mom!\"",
-    "ko": "全新人形boss",
-    "zh": "全新人形boss",
-    "ja": "全新人形boss"
+    "ko": "도플갱어·스타라이트·빌리",
+    "zh": "多佩冈亚·星徽·比利",
+    "ja": "ドッペルゲンガー・スターライト・ビリー"
   },
   "30052": {
     "icon": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_SymbioticEtherealSinner.png",
     "rarity": 3,
     "group": 201,
     "en": "Infernal Revenant",
-    "desc": "An Ethereal returned from the depths of Cinderglow Lake.\nOnce a Dead End Butcher defeated by Overlord Pompey, it plunged into Cinderglow Lake after its fall—yet rather than being incinerated, its body became encased in crystallized byproducts of burning Ether.\nWithin the flames, its shell endlessly melted and shed, only to be coated in fresh crystals. Through infernal, unrelenting torment, it forged an armor-like body and gained the ability to move freely through fire.\nAfter an age of wandering, as though abandoned by time itself, it finally stumbled upon a spatial fissure at the bottom of the Cinder Lake—and slipped through into the Divine Maze: Papago Hollow.\nYet that was merely falling into another inferno.\nIt seems to have suffered a crushing defeat there, and ever since, it has been driven by some force, consumed by an obsession to seize the scattered traces of special Ether hidden throughout the maze.\nBut it can no longer tell whether what that Ether holds is salvation—or sacrilege.\n\n\"Every time that walking bonfire strolls by, the temperature skyrockets. I'm filing for a heat hazard bonus!\"",
+    "desc": "An Ethereal that returned from the Cinderglow Lake.\nOnce a Dead End Butcher defeated by the Overlord Pompey, it was cast into the Cinderglow Lake. Yet instead of being reduced to ash, its body became encased in crystals formed from the burning byproducts of Ether.\nWithin the flames, its outer shell melted away and reformed again, each time gathering new layers of crystal. After enduring an endless torment resembling the depths of hell, it emerged with an armor-like body and gained the ability to move freely through fire.\nAfter a long wandering through a world that seemed to have forgotten it, the creature finally discovered a spatial fissure at the bottom of the fire lake and entered the Divine Maze, Papago Hollow.\nBut that place was nothing more than another hell.\nIt appears to have suffered a crushing defeat. Ever since, it has been driven by an unknown force, obsessively collecting the special Ether scattered throughout the labyrinth.\nYet it can no longer tell whether what lies within is salvation... or blasphemy.\n\n\"Every time that walking bonfire comes through, the temperature goes through the roof. I want hazard pay for this!\"",
     "ko": "연옥을 누비는 자",
     "zh": "熔狱行赭",
     "ja": "炎獄を往く者"
@@ -1314,7 +1314,7 @@
     "rarity": 3,
     "group": 201,
     "en": "Ulidim",
-    "desc": "A notorious Ethereal that prowls the Divine Maze of Papago Hollow.\nIf Papago Hollow's Hallucinogenic Soundscape is the trap that lures prey into the maze, then Ulidim is the hound that hunts down those unfortunate enough to become trapped inside it.\nUlidim's most terrifying ability is its power to emerge from any location or object within the Hollow's illusion, whether from a forgotten corner of the labyrinth or an old keepsake filled with a victim's cherished memories. The shock of its sudden appearance delivers a devastating blow to both body and mind, earning it the nickname \"Hound of Old.\" Its true ability lies in ignoring the illusions woven by the Hallucinogenic Soundscape and moving freely through the Hollow itself.\nBecause of its terrifying nature and appearance, Ulidim is one of the most common and most feared threats encountered during expeditions into Papago Hollow. Among the Bangboo stationed at Papago Outpost, even the mention of its name inspires fear, and frightening legends about Ulidim have spread from one Bangboo to another.\nThere are multiple Ulidim within the Hollow. Their routine task is to patrol designated areas and routes, maintaining the stability of the Hallucinogenic Soundscape. Should they detect an intruder interfering with the Hollow's stable expansion, they will immediately pursue and kill the offender.\n\"Within that labyrinth that has a beginning but no end, perhaps being devoured by the dreadful hound is a mercy in itself.\"",
+    "desc": "A notorious Ethereal that prowls the Divine Maze of Papago Hollow.\nIf Papago Hollow's Hallucinogenic Soundscape is the trap that lures prey into the maze, then Ulidim is the hound that hunts down those unfortunate enough to become trapped inside it.\nUlidim's most terrifying ability is its power to emerge from any location or object within the Hollow's illusion, whether from a forgotten corner of the labyrinth or an old keepsake filled with a victim's cherished memories. The shock of its sudden appearance delivers a devastating blow to both body and mind, earning it the nickname \"Hound of Old.\" Its true ability lies in ignoring the illusions woven by the Hallucinogenic Soundscape and moving freely through the Hollow itself.\nBecause of its terrifying nature and appearance, Ulidim is one of the most common and most feared threats encountered during Exploration Missions into Papago Hollow. Among the Bangboo stationed at Papago Outpost, even the mention of its name inspires fear, and frightening legends about Ulidim have spread from one Bangboo to another.\nThere are multiple Ulidim within the Hollow. Their routine task is to patrol designated areas and routes, maintaining the stability of the Hallucinogenic Soundscape. Should they detect an intruder interfering with the Hollow's stable expansion, they will immediately pursue and kill the offender.\n\"Within that labyrinth that has a beginning but no end, perhaps being devoured by the dreadful hound is a mercy in itself.\"",
     "ko": "우리딤",
     "zh": "乌利迪姆",
     "ja": "ウリディンム"
@@ -1383,21 +1383,21 @@
     "icon": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_Pure.png",
     "rarity": 4,
     "group": 290,
-    "en": "异变能量体",
+    "en": "Phaethon of the Scorched Horizon",
     "desc": "Light descends before the agony.\nUncontrollable Ether erupts like a solar corona. The silhouette of what was once \"human\" is burned, disintegrated, and reshaped into an aberration resembling an Ethereal. Crystalline lenses tremble deep within their vision, spilling excess radiance — too bright, too close, as if someone had embedded the blazing sun into their eye sockets.\nConsciousness wears thin amidst the burning.\nThe swing ends — like a reflex, like a habit, lacking even the concept of a target. There is only a suffocatingly familiar blankness, as if long ago, they had also lost their voice and weight like this, watching everything plummet amidst the light and heat. Those buried fragments surge upward along the residual flames: the cold glare of the lab table, the sudden uncontrollable force, the faces drained of life... The memories are sickeningly vivid, leaving indelible scorch marks on the mind.\n...Who is calling out?\nThat voice pierces the roar of blood rushing in the ears, briefly striking a faded name and granting their consciousness a momentary respite. Before their sanity is completely incinerated, a choice must be made — don't bring about another disaster. Go away. Leave... leave...\n...Where to? With whom? To do what?\n......\n...Ah, I think we did make a deal like that...\n...\"We shall catch the 'sun'.\"\n\n\"To think your original sin would lead me to new heights over a decade later... How ironic, you legacy of 'Helios'.\"",
-    "ko": "异变能量体",
-    "zh": "异变能量体",
-    "ja": "异变能量体"
+    "ko": "태양의 잔불·파에톤",
+    "zh": "焚昼余火·法厄同",
+    "ja": "焦天残火・パエトーン"
   },
   "40005": {
     "icon": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_Mutant.png",
     "rarity": 4,
     "group": 290,
-    "en": "异变能量体",
+    "en": "Phaethon of the Scorched Horizon",
     "desc": "Light descends before the agony.\nUncontrollable Ether erupts like a solar corona. The silhouette of what was once \"human\" is burned, disintegrated, and reshaped into an aberration resembling an Ethereal. Crystalline lenses tremble deep within their vision, spilling excess radiance — too bright, too close, as if someone had embedded the blazing sun into their eye sockets.\nConsciousness wears thin amidst the burning.\nThe swing ends — like a reflex, like a habit, lacking even the concept of a target. There is only a suffocatingly familiar blankness, as if long ago, they had also lost their voice and weight like this, watching everything plummet amidst the light and heat. Those buried fragments surge upward along the residual flames: the cold glare of the lab table, the sudden uncontrollable force, the faces drained of life... The memories are sickeningly vivid, leaving indelible scorch marks on the mind.\n...Who is calling out?\nThat voice pierces the roar of blood rushing in the ears, briefly striking a faded name and granting their consciousness a momentary respite. Before their sanity is completely incinerated, a choice must be made — don't bring about another disaster. Go away. Leave... leave...\n...Where to? With whom? To do what?\n......\n...Ah, I think we did make a deal like that...\n...\"We shall catch the 'sun'.\"\n\n\"To think your original sin would lead me to new heights over a decade later... How ironic, you legacy of 'Helios'.\"",
-    "ko": "异变能量体",
-    "zh": "异变能量体",
-    "ja": "异变能量体"
+    "ko": "태양의 잔불·파에톤",
+    "zh": "焚昼余火·法厄同",
+    "ja": "焦天残火・パエトーン"
   },
   "40006": {
     "icon": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_Girtablu.png",
@@ -1424,7 +1424,7 @@
     "rarity": 4,
     "group": 201,
     "en": "Girtablullu - Stagnant Aberrant",
-    "desc": "...",
+    "desc": "A beast standing at the edge of the abyss, its burning desire laid bare, sought to devour the seed of ultimate evil and ascend as the abyss's chosen Messenger.\n\nThe Enchainer larvae known as \"Girtablullu\" attempted to consume the \"Karma Core\" within Dracaene Sunbringer, but failed to complete its ascension. The \"Stagnant Aberrant\" was the result of that failed transformation. Its Ether-Sculpted body could no longer withstand the power of the \"Karma Core,\" spiraling into uncontrollable mutation. Its grotesque form now lashes out with a malice born from twisted ambition and sheer greed.\n\n\"You can't just eat everything you see. It's not good for you.\"",
     "ko": "기르타블리르·퇴행 변종",
     "zh": "基塔布鲁·滞变畸兽",
     "ja": "歪みし異獣・ギルタブルル"
@@ -1434,7 +1434,7 @@
     "rarity": 4,
     "group": 201,
     "en": "Integrated - Girtablullu",
-    "desc": "High-Risk simulated units mapped from real combat data. Through deep reconstruction and overfitting of prototype combat logic, certain individuals have broken through standard performance thresholds, presenting an extreme level of combat threat.\n\nA High-Risk scorpion-like Ethereal that fights with an ash-gray lance. Its powerful lower body and agile upper torso combine to create a combat machine that is both devastating and highly mobile. By burrowing through \"wormholes,\" it traverses the Scamall Hollow in search of its next victim to fall into the nest. Unlike Ethereals transformed from Corruption-afflicted wildlife or machinery, this creature was spawned by something far more terrifying, carrying an Ether signature unlike any other.\n\n\"There's no Insect Phobia Mode in the Options!\"",
+    "desc": "A High-Risk simulation unit modeled from real combat data. Through deep reconstruction and overfitting of its original combat logic, certain units have surpassed standard performance limits, presenting an extremely high level of combat threat.\n\nA highly dangerous scorpion-like Ethereal that fights with an ash-gray lance. Its powerful lower body and agile upper torso combine to create a combat machine that is both devastating and highly mobile. By burrowing through \"wormholes,\" it traverses the Scamall Hollow in search of its next victim to fall into the nest. Unlike Ethereals transformed from corrupted wildlife or machinery, this creature was spawned by something far more terrifying, carrying an Ether signature unlike any other.\n\n\"There's no Insect Phobia Mode in the settings!\"",
     "ko": "융합·기르타블리르",
     "zh": "异构·基塔布鲁",
     "ja": "異性体・ギルタブルル"

@@ -23,8 +23,14 @@
     "full_name": "Seth Lowell",
     "gender": "Male",
     "icon_path": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle30.png",
+    "inter_knot_icon": "UI/Sprite/A1DynamicLoad/InterKnot/UnPacker/IconInterknotAvatar/IconInterKnotRole0030.png",
     "impression_f": "Seth really is a feline Thiren! He's like a kitty magnet.",
     "impression_m": "I remember seeing him being completely surrounded by stray cats on the street once.\nMust be nice to be so loved by cats.",
+    "impressions": [
+      "Impressions of Seth:\n · Somehow, we became friends? Seth is really easy to understand.",
+      " · How come Seth is always treating people to meals? Do Pub Sec officers make that much?",
+      " · \"I'm very happy to be Seth's friend\"... Until that day arrives."
+    ],
     "profile_desc": "Seth, a rookie officer in the Public Security Criminal Investigation Special Response Team, is a key player in providing fire support during criminal investigations.\nHe graduated at the top of his class in the academy and could have landed a higher position, but he chose the tougher path of the Special Response Team.\nHis impressive profile makes him seem like a genius, but he's actually a hard worker who has had his own struggles. There have been times when he practiced the subjects he wasn't good at until he cried.\nSeth is quite smart, but his personality often leads to him being taken advantage of by cunning criminals, or sometimes, coworkers (?).\nThe subject he's worst at is infiltration. Rumor has it that he holds the academy record for \"fastest to get busted\" in infiltration tasks. Based on the video intel we have, he seems a bit slow to catch on. For instance, when someone is being sarcastic, it takes him a long time to realize it.",
     "role_icon": "IconRole/UnPacker/IconRole30",
     "stature": "174",
@@ -1822,6 +1828,10 @@
     "slot4": 33700,
     "slot2": 31900,
     "slot_sub": 31600,
+    "part_sub_list": [
+      12102,
+      31203
+    ],
     "part4": {
       "prop": 30502,
       "name": "Energy Regen",

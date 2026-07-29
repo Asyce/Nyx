@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "9b113e5a59da73855332832f27c2c51c2391403fab886b36ab75d9820ef57dc4",
-  "generatedAt": "2026-07-29T10:03:49.829Z",
+  "revision": "6740d26a71b1b94a786421d824bff167dfaeb04fe0b1cd619279fa9667583434",
+  "generatedAt": "2026-07-29T10:13:39.762Z",
   "health": {
     "status": "ok",
     "games": {
@@ -43,7 +43,7 @@
         "remaining": {
           "startsAt": "2026-07-21T17:00:00.000Z",
           "endsAt": "2026-08-11T13:59:00.000Z",
-          "durationSeconds": 1137310
+          "durationSeconds": 1136720
         },
         "characters": [
           {
@@ -365,7 +365,7 @@
         "remaining": {
           "startsAt": "2026-07-15T03:00:00.000Z",
           "endsAt": "2026-08-05T03:59:00.000Z",
-          "durationSeconds": 582910
+          "durationSeconds": 582320
         },
         "characters": [
           {
@@ -823,7 +823,7 @@
         "remaining": {
           "startsAt": "2026-07-29T03:00:00.000Z",
           "endsAt": "2026-08-19T03:59:59.000Z",
-          "durationSeconds": 1792569
+          "durationSeconds": 1791979
         },
         "characters": [
           {
@@ -886,28 +886,28 @@
             ]
           },
           {
-            "id": "remielle",
+            "id": "1581",
             "name": "Remielle Dan",
             "rarity": 5,
             "limited": true,
             "debut": "2026-07-29T03:00:00.000Z",
             "icon": {
-              "id": "remielle-icon",
+              "id": "1581-icon",
               "source": "character-icon",
-              "path": "/launcher-art/f40db580f2258b6965742a971a1ecebe84c33bf5fc42e4bddc98b3b97e273243.webp",
-              "url": "https://pengo.gg/dist/launcher-art/f40db580f2258b6965742a971a1ecebe84c33bf5fc42e4bddc98b3b97e273243.webp",
+              "path": "/launcher-art/16e3038786bd9f094cc2bc7ea2b1eefdb71b4255b316203bda9c2d138a2e773b.webp",
+              "url": "https://pengo.gg/dist/launcher-art/16e3038786bd9f094cc2bc7ea2b1eefdb71b4255b316203bda9c2d138a2e773b.webp",
               "mime": "image/webp",
-              "size": 64346,
+              "size": 8596,
               "dimensions": {
-                "width": 374,
-                "height": 443
+                "width": 142,
+                "height": 142
               },
-              "sha256": "f40db580f2258b6965742a971a1ecebe84c33bf5fc42e4bddc98b3b97e273243",
+              "sha256": "16e3038786bd9f094cc2bc7ea2b1eefdb71b4255b316203bda9c2d138a2e773b",
               "transparentBounds": {
                 "left": 0,
                 "top": 0,
-                "right": 374,
-                "bottom": 443
+                "right": 142,
+                "bottom": 142
               },
               "placement": {
                 "anchor": "center",
@@ -918,7 +918,7 @@
             },
             "variants": [
               {
-                "id": "remielle-splash",
+                "id": "1581-splash",
                 "source": "splash",
                 "path": "/launcher-art/f40db580f2258b6965742a971a1ecebe84c33bf5fc42e4bddc98b3b97e273243.webp",
                 "url": "https://pengo.gg/dist/launcher-art/f40db580f2258b6965742a971a1ecebe84c33bf5fc42e4bddc98b3b97e273243.webp",
@@ -946,28 +946,28 @@
           }
         ],
         "selectedCharacter": {
-          "id": "remielle",
+          "id": "1581",
           "name": "Remielle Dan",
           "rarity": 5,
           "limited": true,
           "debut": "2026-07-29T03:00:00.000Z",
           "icon": {
-            "id": "remielle-icon",
+            "id": "1581-icon",
             "source": "character-icon",
-            "path": "/launcher-art/f40db580f2258b6965742a971a1ecebe84c33bf5fc42e4bddc98b3b97e273243.webp",
-            "url": "https://pengo.gg/dist/launcher-art/f40db580f2258b6965742a971a1ecebe84c33bf5fc42e4bddc98b3b97e273243.webp",
+            "path": "/launcher-art/16e3038786bd9f094cc2bc7ea2b1eefdb71b4255b316203bda9c2d138a2e773b.webp",
+            "url": "https://pengo.gg/dist/launcher-art/16e3038786bd9f094cc2bc7ea2b1eefdb71b4255b316203bda9c2d138a2e773b.webp",
             "mime": "image/webp",
-            "size": 64346,
+            "size": 8596,
             "dimensions": {
-              "width": 374,
-              "height": 443
+              "width": 142,
+              "height": 142
             },
-            "sha256": "f40db580f2258b6965742a971a1ecebe84c33bf5fc42e4bddc98b3b97e273243",
+            "sha256": "16e3038786bd9f094cc2bc7ea2b1eefdb71b4255b316203bda9c2d138a2e773b",
             "transparentBounds": {
               "left": 0,
               "top": 0,
-              "right": 374,
-              "bottom": 443
+              "right": 142,
+              "bottom": 142
             },
             "placement": {
               "anchor": "center",
@@ -978,7 +978,7 @@
           },
           "variants": [
             {
-              "id": "remielle-splash",
+              "id": "1581-splash",
               "source": "splash",
               "path": "/launcher-art/f40db580f2258b6965742a971a1ecebe84c33bf5fc42e4bddc98b3b97e273243.webp",
               "url": "https://pengo.gg/dist/launcher-art/f40db580f2258b6965742a971a1ecebe84c33bf5fc42e4bddc98b3b97e273243.webp",
@@ -1004,7 +1004,7 @@
             }
           ]
         },
-        "selectedCharacterId": "remielle",
+        "selectedCharacterId": "1581",
         "selectionReason": "newer-limited-debut",
         "variants": [
           {
@@ -1033,7 +1033,7 @@
             }
           },
           {
-            "id": "remielle-splash",
+            "id": "1581-splash",
             "source": "splash",
             "path": "/launcher-art/f40db580f2258b6965742a971a1ecebe84c33bf5fc42e4bddc98b3b97e273243.webp",
             "url": "https://pengo.gg/dist/launcher-art/f40db580f2258b6965742a971a1ecebe84c33bf5fc42e4bddc98b3b97e273243.webp",
@@ -1169,7 +1169,7 @@
         "remaining": {
           "startsAt": "2026-07-10T08:10:00.000Z",
           "endsAt": "2026-07-30T08:59:00.000Z",
-          "durationSeconds": 82510
+          "durationSeconds": 81920
         },
         "characters": [
           {
@@ -1568,7 +1568,7 @@
         "remaining": {
           "startsAt": "2026-07-16T04:00:00.000Z",
           "endsAt": "2026-08-09T03:59:59.000Z",
-          "durationSeconds": 928569
+          "durationSeconds": 927979
         },
         "characters": [
           {

@@ -642,5 +642,51 @@
       "desc2": "<color=#FE437E>エーテル属性ダメージ</color>+10%。",
       "desc4": "<color=#FE437E>エーテル属性</color>エージェントが装備した時、会心ダメージ+30%。装備者が<color=#FFFFFF>『強化特殊スキル』</color>または<color=#FFFFFF>『終結スキル』</color>を発動した時、自身の攻撃力+10%、継続時間30秒。重複して発動すると継続時間が更新される。"
     }
+  },
+  "34100": {
+    "icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitFeatheredFate.png",
+    "en": {
+      "name": "Feathered Fate",
+      "desc2": "Anomaly Proficiency +30",
+      "desc4": "When the equipper enters the battlefield or is switched in as the active character, they gain the following buff: Anomaly Proficiency increases by 50. If the equipper is a <color=#FFA9DD>Lumiflux</color> character, Attribute Anomaly DMG increases by 15%, lasting 15s.\nThis buff remains active while the equipper is off-field."
+    },
+    "ko": {
+      "name": "깃털에 얽힌 맹세",
+      "desc2": "이상 마스터리+30pt",
+      "desc4": "착용자가 전장에 진입하거나, 현재 조작 중인 캐릭터로 교체될 시, 버프 효과를 획득한다: 이상 마스터리가 50pt 증가하고, 착용자가 <color=#FFA9DD>루멘 속성</color>일 경우, 주는 속성 이상 피해가 15% 증가한다. 지속 시간: 15초, 착용자가 조작 중인 캐릭터가 아닐 때, 해당 버프 효과를 항시 보유한다."
+    },
+    "zh": {
+      "name": "谶羽之誓",
+      "desc2": "异常精通+30点。",
+      "desc4": "装备者进入战场时，或被切换为当前操作中角色时，获得增益效果：异常精通提升50点，若装备者为<color=#FFA9DD>流明属性</color>，造成的属性异常伤害提升15%，持续15秒；\n当装备者为非操作中角色时，则始终持有该增益效果。"
+    },
+    "ja": {
+      "name": "契る翼の運命",
+      "desc2": "異常マスタリー+30Pt。",
+      "desc4": "装備者がフィールドに入場した時、または交代で操作中のメンバーになった時、以下のバフ効果を獲得する。\n異常マスタリー+50Pt。装備者が<color=#FFA9DD>流明属性</color>の場合、与える状態異常ダメージ+15%、継続時間15秒。\n装備者が操作中のメンバーでない時、このバフ効果は常時適用される。"
+    }
+  },
+  "34200": {
+    "icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitThornedRose.png",
+    "en": {
+      "name": "Thorned Rose",
+      "desc2": "DEF +16%",
+      "desc4": "The equipper's DMG increases by 15%. When the equipper's initial DEF is at least 1,000/1,800, CRIT Rate increases by 8/16%."
+    },
+    "ko": {
+      "name": "가시 돋친 장미",
+      "desc2": "방어력+16%",
+      "desc4": "착용자가 주는 피해가 15% 증가한다. 착용자의 초기 방어력이 1000/1800pt 이상일 때, 치명타 확률이 8/16% 증가한다."
+    },
+    "zh": {
+      "name": "荆棘玫瑰",
+      "desc2": "防御力+16%。",
+      "desc4": "装备者造成的伤害提升15%，装备者初始防御力大于等于1000/1800点时，暴击率提升8/16%"
+    },
+    "ja": {
+      "name": "棘まとう薔薇",
+      "desc2": "防御力+16%。",
+      "desc4": "装備者の与ダメージ+15%。装備者の開幕防御力が1000Pt/1800Pt以上の時、会心率+8%/16%。"
+    }
   }
 }

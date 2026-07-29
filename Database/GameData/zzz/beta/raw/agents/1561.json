@@ -23,8 +23,14 @@
     "full_name": "Velina Airgid",
     "gender": "Female",
     "icon_path": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle64.png",
+    "inter_knot_icon": "UI/Sprite/A1DynamicLoad/InterKnot/UnPacker/IconInterknotAvatar/IconInterKnotRole0064.png",
     "impression_f": "Velina deals with all kinds of people every day, yet she still can't get used to Nitro-Fuel... That's really surprising!",
     "impression_m": "Belle... Even if you've figured out her weakness, don't go getting any ideas... Taking her back to the External Strategy Department that night caused a huge scene.",
+    "impressions": [
+      "Impressions of Velina:\n · Black tea and elegance go hand in hand.",
+      " · There are still things even the perfect Administrative Director struggles with.",
+      " · Can a person be both an angel and a witch?"
+    ],
     "profile_desc": "Velina, the Administrative Director of the External Strategy Department, oversees cooperation and diplomacy between Roscaelifer and New Eridu.\n\nAs a descendant of the prestigious Airgid family, Velina inherited a strict and meticulous upbringing. Renowned for her nearly flawless efficiency and exceptional ability to keep any situation under control, she is the dependable adult whom Chief Technician Norma describes as someone capable of \"handling meetings, paperwork, and troublesome people.\"\n\nShe is sharp and efficient in her work, meticulous, and always gentle and composed when dealing with others. Beneath her elegant, effortless smile lies an intensity that is impossible to ignore. No matter how troublesome the diplomatic affair or absurd the disaster may be, Velina can resolve it with ease. However, the price of seeking her help is not always one the requester can afford.\n\nVelina has a particular fondness for all kinds of black tea and often invites friends to tea parties during her spare time.\n\nPlease note: Any tea party invitation sent by Velina in her capacity as Administrative Director should never be taken lightly. They are rarely mere leisure. More often, they serve as the perfect setting for her to negotiate situations and quietly steer events toward her desired outcome.",
     "role_icon": "IconRole/UnPacker/IconRole64",
     "stature": "172",
@@ -1997,6 +2003,10 @@
     "slot4": 33900,
     "slot2": 31600,
     "slot_sub": 31300,
+    "part_sub_list": [
+      31203,
+      12102
+    ],
     "part4": {
       "prop": 30502,
       "name": "Energy Regen",

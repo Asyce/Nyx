@@ -23,8 +23,14 @@
     "full_name": "Dialyn",
     "gender": "Female",
     "icon_path": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle54.png",
+    "inter_knot_icon": "UI/Sprite/A1DynamicLoad/InterKnot/UnPacker/IconInterknotAvatar/IconInterKnotRole0054.png",
     "impression_f": "She might seem to switch back and forth between jokes and sarcasm, but if you have the patience to listen closely, you'll find that deep down, Dialyn is someone with strong principles and real courage!",
     "impression_m": "Dialyn may come across as a little harsh sometimes, but she's the type to always speak up against injustice and be honest with her friends. She's even the one who told me about Belle sneaking out to hang out with our Agents without me.",
+    "impressions": [
+      "Impressions of Dialyn:\n · Hi there! This is your one and only top-rated customer service rep~",
+      " · Every remarkable person ends up getting countless complaints.",
+      " · Calls and regrets from the past — I'll answer them in yesterday's place."
+    ],
     "profile_desc": "Dialyn works as a customer service representative for TOPS' Cross-Department Customer Service Center, though few know her other identity — a Krampus Compliance Authority Judge.\n\nShe calls herself TOPS' top-rated representative, yet she also tops the list for the most complaints in the department. Despite never flaunting her authority as a Judge, she always delivers verdicts that cut closest to the truth.\n\nDialyn was born with the ability to hear the voices of those on the brink of death within the Hollows — a talent that's unmatched. Yet to a young Dialyn, it was a tormenting curse.\n\nBe it gift or curse, she has long turned it into a blade for discerning the truth. Despite the trials and tribulations she's borne, she's come far.",
     "role_icon": "IconRole/UnPacker/IconRole54",
     "stature": "145",
@@ -2094,6 +2100,11 @@
     "slot4": 33200,
     "slot2": 31000,
     "slot_sub": 31200,
+    "part_sub_list": [
+      20103,
+      21103,
+      12102
+    ],
     "part4": {
       "prop": 20103,
       "name": "CRIT Rate",

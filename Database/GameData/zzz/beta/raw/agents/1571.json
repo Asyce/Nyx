@@ -23,8 +23,14 @@
     "full_name": "Norma Hollowell",
     "gender": "Female",
     "icon_path": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle65.png",
+    "inter_knot_icon": "UI/Sprite/A1DynamicLoad/InterKnot/UnPacker/IconInterknotAvatar/IconInterKnotRole0065.png",
     "impression_f": "Now if the Bangboo at home ever come down with some strange malfunction, we'll know where to find a \"doctor\"~!",
     "impression_m": "I think I finally understand how pets feel when they don't want to go to the vet.",
+    "impressions": [
+      "Impressions of Norma:\n · Chief Bangboo Tech Consultant, and also the Chief Troublemaker.",
+      "· Let's just smooth over today's mess with a few \"en-nah\"s.",
+      "· Touching every circuit feels like touching every heartbeat."
+    ],
     "profile_desc": "Norma, Chief Technician of the External Strategy Department and a central figure within Marcel Group's technological center. No matter how long or complicated her titles may sound, the young Miss Norma is without question a titan in the field of Bangboo technology. Even Lady Sunbringer herself may not understand every gear and chip inside a Bangboo body better than Norma does.\n\nShe fits every stereotype people have about genius scientists: her engineering skills are exceptional, while her people skills are inversely proportional. She takes Velina's \"Etiquette Manual\" seriously, and is equally serious about never following it.\n\nA firm believer in performance above all, she was once feared by Bangboo due to her radical Bangboo modification techniques and somewhat less-than-Bangboo-centered approach, earning a reputation as a terrifying scientist who would stop at nothing for her research. ...The safety engineers at the External Strategy Department lab may share a similar view.\n\nIt's less that the title of \"Chief Technician\" crowned Norma in the field of Bangboo technology, and more that Norma herself represents the pinnacle of the Marcel Group's technological achievements.",
     "role_icon": "IconRole/UnPacker/IconRole65",
     "stature": "150",
@@ -2171,6 +2177,11 @@
     "slot4": 33200,
     "slot2": 31000,
     "slot_sub": 31200,
+    "part_sub_list": [
+      20103,
+      21103,
+      12102
+    ],
     "part4": {
       "prop": 20103,
       "name": "CRIT Rate",

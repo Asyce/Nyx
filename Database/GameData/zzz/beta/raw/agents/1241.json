@@ -23,8 +23,14 @@
     "full_name": "Zhu Yuan",
     "gender": "Female",
     "icon_path": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle23.png",
+    "inter_knot_icon": "UI/Sprite/A1DynamicLoad/InterKnot/UnPacker/IconInterknotAvatar/IconInterKnotRole0023.png",
     "impression_f": "An exemplary human. We've been dealing with such an opponent for so long. Aren't we amazing?",
     "impression_m": "That's because it's me + you + Fairy. I wouldn't wanna know the outcome if it was one on one...",
+    "impressions": [
+      "Impressions of Zhu Yuan:\n · Serious, reliable, responsible, dedicated, honest... Any positive word fits Zhu Yuan perfectly.",
+      " · One may think that they could uncover some of Zhu Yuan's flaws over time, but such things simply don't exist...",
+      " · Zhu Yuan's occasional shyness is really... Wait a minute! She's a Public Security Officer! Can't forget that!"
+    ],
     "profile_desc": "Zhu Yuan, an exceptional officer at Public Security, is a highly skilled individual expected to become the next commissioner. She currently leads the Criminal Investigation Special Response Team at the Janus Precinct within the Metropolitan Order Division. Her team members include Qingyi, Seth, and [redacted].\nNote: For documents with higher security levels within the Public Security system, further investigation is required; scheduling priority - low.\n\nZhu Yuan possesses excellent skills in criminal investigation, combat, and self-management (including working overtime). She has no unresolved cases on record.\nSuggestion: Approaching Zhu Yuan is an ill-advised decision that may compromise your cover. Always remember your true identity as a Proxy. Remember your true identity as a Proxy. Remember your true identity as a Proxy.",
     "role_icon": "IconRole/UnPacker/IconRole23",
     "stature": "175",
@@ -2068,6 +2074,11 @@
     "slot4": 32300,
     "slot2": 31000,
     "slot_sub": 31400,
+    "part_sub_list": [
+      20103,
+      21103,
+      12102
+    ],
     "part4": {
       "prop": 20103,
       "name": "CRIT Rate",

@@ -12,7 +12,7 @@
       "key": "monsters",
       "title": "Monsters",
       "source": "GameData",
-      "count": 251,
+      "count": 256,
       "items": [
         {
           "id": "zzz-mon-10000",
@@ -409,6 +409,17 @@
             "type": "Special"
           },
           "text": "A rebel that sheds its old shell in the gloom, emerging anew amidst corruption, forsaking the body that once sank into depravity.\nA standard frontline unit of the Airspace Patrol Bangboo Guard Forces. Blue markings on the chassis indicate assignment to Hollow operations. Its agile mechanical arms and high-powered chainsaw make it highly effective against Ethereals and allow it to assist with the maintenance and repair of heavy machinery, earning praise from both Airspace Patrol personnel and Energy Hub engineers.\nThat versatility comes at a price. Its open cockpit design and limited combat range leave pilots exposed to greater danger on the battlefield, so only the most courageous Bangboo are trusted to operate it. \"Strong left arm, stronger right arm!\""
+        },
+        {
+          "id": "zzz-mon-10040",
+          "name": "Metamorphosed - Hornet",
+          "kind": "monster",
+          "art": null,
+          "fields": {
+            "rarity": "1 \u2605",
+            "type": "Ether Mutants"
+          },
+          "text": "CardDesc_10040"
         },
         {
           "id": "zzz-mon-19999",
@@ -1346,6 +1357,28 @@
           "text": "Even among Ionized enemies renowned for their strange and uncanny qualities, Ionized Doppelgangers are exceptionally unique.\nThese entities can coat their bodies with a layer of special active Ether ions, enabling them to accurately replicate their target's form, often to a degree that makes it hard to tell the difference. Both in detail and texture, it is almost impossible to tell apart from the original.\nEven more challenging is their ability to mimic the powerful and intimidating combat techniques of their targets.\nNo one knows where they obtain the information about the subjects they mimic. Some rumors suggest they can read minds, picking out the most suitable challengers from their opponent's memories, and then attack in that form.\n\n\"Nonsense! If it could really read my deepest fears, it would turn into a fierce middle-aged woman wielding a clothes hanger! That's right, I'm most afraid of my mom!\""
         },
         {
+          "id": "zzz-mon-30052",
+          "name": "Infernal Revenant",
+          "kind": "monster",
+          "art": "../../Database/GameData/zzz/assets/monsters/Monster_SymbioticEtherealSinner.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Ether Mutants"
+          },
+          "text": "An Ethereal that returned from the Cinderglow Lake.\nOnce a Dead End Butcher defeated by the Overlord Pompey, it was cast into the Cinderglow Lake. Yet instead of being reduced to ash, its body became encased in crystals formed from the burning byproducts of Ether.\nWithin the flames, its outer shell melted away and reformed again, each time gathering new layers of crystal. After enduring an endless torment resembling the depths of hell, it emerged with an armor-like body and gained the ability to move freely through fire.\nAfter a long wandering through a world that seemed to have forgotten it, the creature finally discovered a spatial fissure at the bottom of the fire lake and entered the Divine Maze, Papago Hollow.\nBut that place was nothing more than another hell.\nIt appears to have suffered a crushing defeat. Ever since, it has been driven by an unknown force, obsessively collecting the special Ether scattered throughout the labyrinth.\nYet it can no longer tell whether what lies within is salvation... or blasphemy.\n\n\"Every time that walking bonfire comes through, the temperature goes through the roof. I want hazard pay for this!\""
+        },
+        {
+          "id": "zzz-mon-30053",
+          "name": "Ulidim",
+          "kind": "monster",
+          "art": "../../Database/GameData/zzz/assets/monsters/Monster_Stalker.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Ether Mutants"
+          },
+          "text": "A notorious Ethereal that prowls the Divine Maze of Papago Hollow.\nIf Papago Hollow's Hallucinogenic Soundscape is the trap that lures prey into the maze, then Ulidim is the hound that hunts down those unfortunate enough to become trapped inside it.\nUlidim's most terrifying ability is its power to emerge from any location or object within the Hollow's illusion, whether from a forgotten corner of the labyrinth or an old keepsake filled with a victim's cherished memories. The shock of its sudden appearance delivers a devastating blow to both body and mind, earning it the nickname \"Hound of Old.\" Its true ability lies in ignoring the illusions woven by the Hallucinogenic Soundscape and moving freely through the Hollow itself.\nBecause of its terrifying nature and appearance, Ulidim is one of the most common and most feared threats encountered during Exploration Missions into Papago Hollow. Among the Bangboo stationed at Papago Outpost, even the mention of its name inspires fear, and frightening legends about Ulidim have spread from one Bangboo to another.\nThere are multiple Ulidim within the Hollow. Their routine task is to patrol designated areas and routes, maintaining the stability of the Hallucinogenic Soundscape. Should they detect an intruder interfering with the Hollow's stable expansion, they will immediately pursue and kill the offender.\n\"Within that labyrinth that has a beginning but no end, perhaps being devoured by the dreadful hound is a mercy in itself.\""
+        },
+        {
           "id": "zzz-mon-35001",
           "name": "Nineveh",
           "kind": "monster",
@@ -1443,6 +1476,28 @@
             "type": "Special"
           },
           "text": "High-risk simulation units based on live combat data. By deeply reconstructing and overfitting the combat logic of their prototypes, certain individuals have exceeded standard performance limits, posing an exceptionally high combat threat."
+        },
+        {
+          "id": "zzz-mon-40008",
+          "name": "Girtablullu - Stagnant Aberrant",
+          "kind": "monster",
+          "art": "../../Database/GameData/zzz/assets/monsters/Monster_GirReborn.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Ether Mutants"
+          },
+          "text": "A beast standing at the edge of the abyss, its burning desire laid bare, sought to devour the seed of ultimate evil and ascend as the abyss's chosen Messenger.\n\nThe Enchainer larvae known as \"Girtablullu\" attempted to consume the \"Karma Core\" within Dracaene Sunbringer, but failed to complete its ascension. The \"Stagnant Aberrant\" was the result of that failed transformation. Its Ether-Sculpted body could no longer withstand the power of the \"Karma Core,\" spiraling into uncontrollable mutation. Its grotesque form now lashes out with a malice born from twisted ambition and sheer greed.\n\n\"You can't just eat everything you see. It's not good for you.\""
+        },
+        {
+          "id": "zzz-mon-40009",
+          "name": "Integrated - Girtablullu",
+          "kind": "monster",
+          "art": "../../Database/GameData/zzz/assets/monsters/Monster_Girtablu_HC.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Ether Mutants"
+          },
+          "text": "A High-Risk simulation unit modeled from real combat data. Through deep reconstruction and overfitting of its original combat logic, certain units have surpassed standard performance limits, presenting an extremely high level of combat threat.\n\nA highly dangerous scorpion-like Ethereal that fights with an ash-gray lance. Its powerful lower body and agile upper torso combine to create a combat machine that is both devastating and highly mobile. By burrowing through \"wormholes,\" it traverses the Scamall Hollow in search of its next victim to fall into the nest. Unlike Ethereals transformed from corrupted wildlife or machinery, this creature was spawned by something far more terrifying, carrying an Ether signature unlike any other.\n\n\"There's no Insect Phobia Mode in the settings!\""
         },
         {
           "id": "zzz-mon-100001",
@@ -2781,7 +2836,7 @@
       "key": "items",
       "title": "Items",
       "source": "GameData",
-      "count": 4747,
+      "count": 5471,
       "items": [
         {
           "id": "zzz-item-1",
@@ -3100,7 +3155,7 @@
             "rarity": "4 \u2605",
             "type": "Currency"
           },
-          "text": "\"Filmgoer Thank-You Gift\" event item. During the event, obtain through purchasing Monochrome, New Eridu City Fund, Dawn Seeker's Ticket, select Bundles, Inter-Knot Membership, etc."
+          "text": "\"Filmgoer Thank-You Gift\" event item. During the event, obtain through purchasing Monochrome, New Eridu City Fund, select Bundles, Inter-Knot Membership, etc."
         },
         {
           "id": "zzz-item-137",
@@ -3147,6 +3202,28 @@
           "text": "Obtained after consuming any amount of Battery Charge for the first time each day. Visit the Bangboo Merch stall and open a surprise box to receive the corresponding rewards."
         },
         {
+          "id": "zzz-item-141",
+          "name": "Wish Letter",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/MessageLetterEmpty.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Currency"
+          },
+          "text": "Obtained upon your first daily login or after consuming any Battery Charge. Can be used in the \"Ding-Dong! Delivery Training in Progress\" event. Drop it into a mailbox to receive the corresponding rewards."
+        },
+        {
+          "id": "zzz-item-142",
+          "name": "Investigation Certificate",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/ChallengeShopCoin02.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Currency"
+          },
+          "text": "Used for purchasing exclusive actions and other valuable items in Association Supplies - Exclusive Showcase."
+        },
+        {
           "id": "zzz-item-201",
           "name": "Inter-Knot Credit",
           "kind": "item",
@@ -3189,6 +3266,17 @@
             "type": "Currency"
           },
           "text": "An item that can be exchanged for valuable items in the \"Collectible Exchange\" Store under \"W-Engine Exchange.\""
+        },
+        {
+          "id": "zzz-item-217",
+          "name": "Season EXP",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Currency_Experience.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Resource"
+          },
+          "text": "Season EXP to boost your Season Lv. Resets each cycle."
         },
         {
           "id": "zzz-item-221",
@@ -3719,6 +3807,17 @@
           "text": "Upon obtaining, increases exclusive Storage capacity in \"Operation: Save Bootopia\" by +1"
         },
         {
+          "id": "zzz-item-457",
+          "name": "Gear Coin",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/IconFund.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Currency"
+          },
+          "text": "Exclusive currency used inside the Hollow Interior. Spend it to stock up on all kinds of Supplies."
+        },
+        {
           "id": "zzz-item-458",
           "name": "Lucky Bottle Cap",
           "kind": "item",
@@ -3728,6 +3827,39 @@
             "type": "Currency"
           },
           "text": "Collect all the rare bottle caps redeemable with data cards from Roarin' Brekkies and toss them into the Fountain of the Bottle Cap Fairy to make a wish."
+        },
+        {
+          "id": "zzz-item-459",
+          "name": "Souvenir Shop Revenue",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Activity_SummerTideTreasure_SalesIcon.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Currency"
+          },
+          "text": "Obtained in the \"Summer Waves Roll In\" event through \"Seaside Beachcombing\" and \"Treasure Trading\". Earn enough revenue to claim rewards."
+        },
+        {
+          "id": "zzz-item-460",
+          "name": "Season Coins",
+          "kind": "item",
+          "art": null,
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Currency"
+          },
+          "text": "Exclusive currency earned by completing seasonal commissions in Enigma of the Labyrinth. Use it to exchange for various precious Supplies in [Boojee's Store - Season Limited]."
+        },
+        {
+          "id": "zzz-item-461",
+          "name": "Gear Bottle Cap",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/3.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Currency"
+          },
+          "text": "A bottle cap currency used to trade with Bangboo."
         },
         {
           "id": "zzz-item-501",
@@ -4184,7 +4316,7 @@
           "id": "zzz-item-1341",
           "name": "Zhao",
           "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/IconRolePiece55.webp",
+          "art": "../../Database/GameData/zzz/assets/items/IconRolePiece55_New.webp",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Agent"
@@ -4206,7 +4338,7 @@
           "id": "zzz-item-1361",
           "name": "Trigger",
           "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/IconRolePiece20.webp",
+          "art": "../../Database/GameData/zzz/assets/items/IconRolePiece39.webp",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Agent"
@@ -4338,7 +4470,7 @@
           "id": "zzz-item-1481",
           "name": "Dialyn",
           "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/IconRolePiece54.webp",
+          "art": "../../Database/GameData/zzz/assets/items/IconRolePiece54_New.webp",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Agent"
@@ -4449,6 +4581,39 @@
           "name": "Norma",
           "kind": "item",
           "art": "../../Database/GameData/zzz/assets/items/IconRolePiece64.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Agent"
+          },
+          "text": "Use it to obtain the Agent or unlock the Agent's Mindscapes."
+        },
+        {
+          "id": "zzz-item-1581",
+          "name": "Remielle",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/IconRolePiece67.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Agent"
+          },
+          "text": "Use it to obtain the Agent or unlock the Agent's Mindscapes."
+        },
+        {
+          "id": "zzz-item-1582",
+          "name": "Remielle",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/IconRolePiece67.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Agent"
+          },
+          "text": "Use it to obtain the Agent or unlock the Agent's Mindscapes."
+        },
+        {
+          "id": "zzz-item-1591",
+          "name": "Sigrid",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/IconRolePiece66.webp",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Agent"
@@ -4844,7 +5009,7 @@
           "id": "zzz-item-5341",
           "name": "Agent Focus: Zhao",
           "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/IconRolePiece55.webp",
+          "art": "../../Database/GameData/zzz/assets/items/IconRolePiece55_New.webp",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Agent Archive"
@@ -4998,7 +5163,7 @@
           "id": "zzz-item-5481",
           "name": "Agent Focus: Dialyn",
           "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/IconRolePiece54.webp",
+          "art": "../../Database/GameData/zzz/assets/items/IconRolePiece54_New.webp",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Agent Archive"
@@ -5109,6 +5274,39 @@
           "name": "Agent Focus: Norma",
           "kind": "item",
           "art": "../../Database/GameData/zzz/assets/items/IconRolePiece64.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Agent Archive"
+          },
+          "text": "Used to unlock Agent's Mindscape Cinema"
+        },
+        {
+          "id": "zzz-item-5581",
+          "name": "Agent Focus: Remielle",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/IconRolePiece67.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Agent Archive"
+          },
+          "text": "Used to unlock Agent's Mindscape Cinema"
+        },
+        {
+          "id": "zzz-item-5582",
+          "name": "Agent Focus: Remielle",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/IconRolePiece67.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Agent Archive"
+          },
+          "text": "Used to unlock Agent's Mindscape Cinema"
+        },
+        {
+          "id": "zzz-item-5591",
+          "name": "Agent Focus: Sigrid",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/IconRolePiece66.webp",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Agent Archive"
@@ -6172,6 +6370,39 @@
           "text": "Equip to increase Stun Agents' combat capabilities"
         },
         {
+          "id": "zzz-item-14158",
+          "name": "Ode of Resurrected Wings",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Weapon_S_1581.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "W Engine"
+          },
+          "text": "Equip to increase Anomaly Agents' combat capabilities"
+        },
+        {
+          "id": "zzz-item-14159",
+          "name": "Knight's Extolment",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Weapon_S_1591.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "W Engine"
+          },
+          "text": "Equip to increase Attack Agents' combat capabilities"
+        },
+        {
+          "id": "zzz-item-20102",
+          "name": "Potential Silhouette: Nekomata",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/IconRoleAwaken_1021.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Agent Silhouette"
+          },
+          "text": "Used to awaken Nekomata's potential. Can be exchanged in the Potential Archive shop."
+        },
+        {
           "id": "zzz-item-20104",
           "name": "Potential Silhouette: Soldier 11",
           "kind": "item",
@@ -6236,6 +6467,28 @@
             "type": "Agent Silhouette"
           },
           "text": "Used to awaken Asaba Harumasa's potential. Can be exchanged in the Potential Archive store."
+        },
+        {
+          "id": "zzz-item-20121",
+          "name": "Potential Silhouette: Rina",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/IconRoleAwaken_1211.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Agent Silhouette"
+          },
+          "text": "Used to awaken Rina's potential. Can be exchanged in the Potential Archive shop."
+        },
+        {
+          "id": "zzz-item-20126",
+          "name": "Potential Silhouette: Jane",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/IconRoleAwaken_1261.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Agent Silhouette"
+          },
+          "text": "Used to awaken Jane's potential. Can be exchanged in the Potential Archive shop."
         },
         {
           "id": "zzz-item-20138",
@@ -11793,6 +12046,402 @@
           "text": "Equip to increase Agents' combat capabilities"
         },
         {
+          "id": "zzz-item-34121",
+          "name": "Feathered Fate [1]",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/ItemSuitFeatheredFate_B.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Disk"
+          },
+          "text": "Equip to increase Agents' combat capabilities"
+        },
+        {
+          "id": "zzz-item-34122",
+          "name": "Feathered Fate [2]",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/ItemSuitFeatheredFate_B.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Disk"
+          },
+          "text": "Equip to increase Agents' combat capabilities"
+        },
+        {
+          "id": "zzz-item-34123",
+          "name": "Feathered Fate [3]",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/ItemSuitFeatheredFate_B.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Disk"
+          },
+          "text": "Equip to increase Agents' combat capabilities"
+        },
+        {
+          "id": "zzz-item-34124",
+          "name": "Feathered Fate [4]",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/ItemSuitFeatheredFate_B.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Disk"
+          },
+          "text": "Equip to increase Agents' combat capabilities"
+        },
+        {
+          "id": "zzz-item-34125",
+          "name": "Feathered Fate [5]",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/ItemSuitFeatheredFate_B.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Disk"
+          },
+          "text": "Equip to increase Agents' combat capabilities"
+        },
+        {
+          "id": "zzz-item-34126",
+          "name": "Feathered Fate [6]",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/ItemSuitFeatheredFate_B.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Disk"
+          },
+          "text": "Equip to increase Agents' combat capabilities"
+        },
+        {
+          "id": "zzz-item-34131",
+          "name": "Feathered Fate [1]",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/ItemSuitFeatheredFate_A.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Disk"
+          },
+          "text": "Equip to increase Agents' combat capabilities"
+        },
+        {
+          "id": "zzz-item-34132",
+          "name": "Feathered Fate [2]",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/ItemSuitFeatheredFate_A.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Disk"
+          },
+          "text": "Equip to increase Agents' combat capabilities"
+        },
+        {
+          "id": "zzz-item-34133",
+          "name": "Feathered Fate [3]",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/ItemSuitFeatheredFate_A.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Disk"
+          },
+          "text": "Equip to increase Agents' combat capabilities"
+        },
+        {
+          "id": "zzz-item-34134",
+          "name": "Feathered Fate [4]",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/ItemSuitFeatheredFate_A.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Disk"
+          },
+          "text": "Equip to increase Agents' combat capabilities"
+        },
+        {
+          "id": "zzz-item-34135",
+          "name": "Feathered Fate [5]",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/ItemSuitFeatheredFate_A.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Disk"
+          },
+          "text": "Equip to increase Agents' combat capabilities"
+        },
+        {
+          "id": "zzz-item-34136",
+          "name": "Feathered Fate [6]",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/ItemSuitFeatheredFate_A.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Disk"
+          },
+          "text": "Equip to increase Agents' combat capabilities"
+        },
+        {
+          "id": "zzz-item-34141",
+          "name": "Feathered Fate [1]",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/ItemSuitFeatheredFate_S.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Disk"
+          },
+          "text": "Equip to increase Agents' combat capabilities"
+        },
+        {
+          "id": "zzz-item-34142",
+          "name": "Feathered Fate [2]",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/ItemSuitFeatheredFate_S.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Disk"
+          },
+          "text": "Equip to increase Agents' combat capabilities"
+        },
+        {
+          "id": "zzz-item-34143",
+          "name": "Feathered Fate [3]",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/ItemSuitFeatheredFate_S.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Disk"
+          },
+          "text": "Equip to increase Agents' combat capabilities"
+        },
+        {
+          "id": "zzz-item-34144",
+          "name": "Feathered Fate [4]",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/ItemSuitFeatheredFate_S.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Disk"
+          },
+          "text": "Equip to increase Agents' combat capabilities"
+        },
+        {
+          "id": "zzz-item-34145",
+          "name": "Feathered Fate [5]",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/ItemSuitFeatheredFate_S.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Disk"
+          },
+          "text": "Equip to increase Agents' combat capabilities"
+        },
+        {
+          "id": "zzz-item-34146",
+          "name": "Feathered Fate [6]",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/ItemSuitFeatheredFate_S.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Disk"
+          },
+          "text": "Equip to increase Agents' combat capabilities"
+        },
+        {
+          "id": "zzz-item-34221",
+          "name": "Thorned Rose [1]",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/ItemSuitThornedRose_B.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Disk"
+          },
+          "text": "Equip to increase Agents' combat capabilities"
+        },
+        {
+          "id": "zzz-item-34222",
+          "name": "Thorned Rose [2]",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/ItemSuitThornedRose_B.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Disk"
+          },
+          "text": "Equip to increase Agents' combat capabilities"
+        },
+        {
+          "id": "zzz-item-34223",
+          "name": "Thorned Rose [3]",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/ItemSuitThornedRose_B.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Disk"
+          },
+          "text": "Equip to increase Agents' combat capabilities"
+        },
+        {
+          "id": "zzz-item-34224",
+          "name": "Thorned Rose [4]",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/ItemSuitThornedRose_B.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Disk"
+          },
+          "text": "Equip to increase Agents' combat capabilities"
+        },
+        {
+          "id": "zzz-item-34225",
+          "name": "Thorned Rose [5]",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/ItemSuitThornedRose_B.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Disk"
+          },
+          "text": "Equip to increase Agents' combat capabilities"
+        },
+        {
+          "id": "zzz-item-34226",
+          "name": "Thorned Rose [6]",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/ItemSuitThornedRose_B.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Disk"
+          },
+          "text": "Equip to increase Agents' combat capabilities"
+        },
+        {
+          "id": "zzz-item-34231",
+          "name": "Thorned Rose [1]",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/ItemSuitThornedRose_A.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Disk"
+          },
+          "text": "Equip to increase Agents' combat capabilities"
+        },
+        {
+          "id": "zzz-item-34232",
+          "name": "Thorned Rose [2]",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/ItemSuitThornedRose_A.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Disk"
+          },
+          "text": "Equip to increase Agents' combat capabilities"
+        },
+        {
+          "id": "zzz-item-34233",
+          "name": "Thorned Rose [3]",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/ItemSuitThornedRose_A.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Disk"
+          },
+          "text": "Equip to increase Agents' combat capabilities"
+        },
+        {
+          "id": "zzz-item-34234",
+          "name": "Thorned Rose [4]",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/ItemSuitThornedRose_A.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Disk"
+          },
+          "text": "Equip to increase Agents' combat capabilities"
+        },
+        {
+          "id": "zzz-item-34235",
+          "name": "Thorned Rose [5]",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/ItemSuitThornedRose_A.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Disk"
+          },
+          "text": "Equip to increase Agents' combat capabilities"
+        },
+        {
+          "id": "zzz-item-34236",
+          "name": "Thorned Rose [6]",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/ItemSuitThornedRose_A.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Disk"
+          },
+          "text": "Equip to increase Agents' combat capabilities"
+        },
+        {
+          "id": "zzz-item-34241",
+          "name": "Thorned Rose [1]",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/ItemSuitThornedRose_S.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Disk"
+          },
+          "text": "Equip to increase Agents' combat capabilities"
+        },
+        {
+          "id": "zzz-item-34242",
+          "name": "Thorned Rose [2]",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/ItemSuitThornedRose_S.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Disk"
+          },
+          "text": "Equip to increase Agents' combat capabilities"
+        },
+        {
+          "id": "zzz-item-34243",
+          "name": "Thorned Rose [3]",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/ItemSuitThornedRose_S.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Disk"
+          },
+          "text": "Equip to increase Agents' combat capabilities"
+        },
+        {
+          "id": "zzz-item-34244",
+          "name": "Thorned Rose [4]",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/ItemSuitThornedRose_S.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Disk"
+          },
+          "text": "Equip to increase Agents' combat capabilities"
+        },
+        {
+          "id": "zzz-item-34245",
+          "name": "Thorned Rose [5]",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/ItemSuitThornedRose_S.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Disk"
+          },
+          "text": "Equip to increase Agents' combat capabilities"
+        },
+        {
+          "id": "zzz-item-34246",
+          "name": "Thorned Rose [6]",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/ItemSuitThornedRose_S.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Disk"
+          },
+          "text": "Equip to increase Agents' combat capabilities"
+        },
+        {
           "id": "zzz-item-50001",
           "name": "Eous",
           "kind": "item",
@@ -12244,6 +12893,28 @@
           "text": "Obtain this Bangboo model or authorization to perform the Bangboo's core update."
         },
         {
+          "id": "zzz-item-54023",
+          "name": "Ariel",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/IconBangbooPiece43.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Bangboo"
+          },
+          "text": "Obtain this Bangboo model or authorization to perform the Bangboo's core update."
+        },
+        {
+          "id": "zzz-item-57001",
+          "name": "Bangboo_Eous",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/IconBangbooPiece10.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Bangboo"
+          },
+          "text": "Obtain this Bangboo model or authorization to perform the Bangboo's core update."
+        },
+        {
           "id": "zzz-item-100110",
           "name": "Basic Physical Chip",
           "kind": "item",
@@ -12308,6 +12979,17 @@
             "type": "Resource"
           },
           "text": "Upgrades a Wind Agent's skills."
+        },
+        {
+          "id": "zzz-item-100117",
+          "name": "Basic Lumiflux Chip",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/AvatarSkillLight01.webp",
+          "fields": {
+            "rarity": "1 \u2605",
+            "type": "Resource"
+          },
+          "text": "Upgrades a Lumiflux Agent's skills."
         },
         {
           "id": "zzz-item-100120",
@@ -12376,6 +13058,17 @@
           "text": "Upgrades a Wind Agent's skills."
         },
         {
+          "id": "zzz-item-100127",
+          "name": "Advanced Lumiflux Chip",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/AvatarSkillLight02.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Resource"
+          },
+          "text": "Upgrades a Lumiflux Agent's skills."
+        },
+        {
           "id": "zzz-item-100130",
           "name": "Specialized Physical Chip",
           "kind": "item",
@@ -12440,6 +13133,17 @@
             "type": "Resource"
           },
           "text": "Upgrades a Wind Agent's skills."
+        },
+        {
+          "id": "zzz-item-100137",
+          "name": "Specialized Lumiflux Chip",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Resource"
+          },
+          "text": "Upgrades a Lumiflux Agent's skills."
         },
         {
           "id": "zzz-item-100211",
@@ -13669,6 +14373,17 @@
           "art": null,
           "fields": {
             "rarity": "5 \u2605",
+            "type": "Battle Resource"
+          },
+          "text": ""
+        },
+        {
+          "id": "zzz-item-201312",
+          "name": "Item_ZenkovItem",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/IconCurrency.webp",
+          "fields": {
+            "rarity": "4 \u2605",
             "type": "Battle Resource"
           },
           "text": ""
@@ -16666,6 +17381,17 @@
           "text": "Used to upgrade the Boisterous Echoes W-Engine."
         },
         {
+          "id": "zzz-item-307007",
+          "name": "Twilight Afterimage",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/WeaponStar_S_Common_04.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Special W Engine Core"
+          },
+          "text": "Can be used to upgrade the Sol Exuvia W-Engine."
+        },
+        {
           "id": "zzz-item-310104",
           "name": "New Modified W-Engine",
           "kind": "item",
@@ -18459,6 +19185,28 @@
           "text": "Obtain this Bangboo model or authorization to perform the Bangboo's core update."
         },
         {
+          "id": "zzz-item-540230",
+          "name": "Ariel Core",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/IconBangbooPiece43.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Bangboo Core"
+          },
+          "text": "Obtain this Bangboo model or authorization to perform the Bangboo's core update."
+        },
+        {
+          "id": "zzz-item-570010",
+          "name": "\"Eous\" Core",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/IconBangbooPiece10.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Bangboo Core"
+          },
+          "text": "Obtain this Bangboo model or authorization to perform the Bangboo's core update."
+        },
+        {
           "id": "zzz-item-600001",
           "name": "Gear Coins",
           "kind": "item",
@@ -19065,6 +19813,28 @@
         },
         {
           "id": "zzz-item-601541",
+          "name": "Gear Coins",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/IconFund.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Agent Trust"
+          },
+          "text": "Gear Coins"
+        },
+        {
+          "id": "zzz-item-601551",
+          "name": "Gear Coins",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/IconFund.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Agent Trust"
+          },
+          "text": "Gear Coins"
+        },
+        {
+          "id": "zzz-item-601561",
           "name": "Gear Coins",
           "kind": "item",
           "art": "../../Database/GameData/zzz/assets/items/IconFund.webp",
@@ -20437,6 +21207,72 @@
             "type": "Disk"
           },
           "text": "Composed by an unnamed musician of Roscaelifer who witnessed the spectacle of the sky ablaze within the Hollow. The blazing sun rises through the Ether, and the golden flames that scorch the horizon cascade from the sky \u2014 so the composer wrote on the back cover."
+        },
+        {
+          "id": "zzz-item-834120",
+          "name": "Feathered Fate",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/ItemSuitFeatheredFate_B.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Disk"
+          },
+          "text": "An ancient folk song. Some claim it's been sung since the founding of Eridu, though no historical records support that claim."
+        },
+        {
+          "id": "zzz-item-834130",
+          "name": "Feathered Fate",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/ItemSuitFeatheredFate_A.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Disk"
+          },
+          "text": "An ancient folk song. Some claim it's been sung since the founding of Eridu, though no historical records support that claim."
+        },
+        {
+          "id": "zzz-item-834140",
+          "name": "Feathered Fate",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/ItemSuitFeatheredFate_S.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Disk"
+          },
+          "text": "An ancient folk song. Some claim it's been sung since the founding of Eridu, though no historical records support that claim."
+        },
+        {
+          "id": "zzz-item-834220",
+          "name": "Thorned Rose",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/ItemSuitThornedRose_B.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Disk"
+          },
+          "text": "A ballad passed down across Vyrium, born from the many legends and strange tales surrounding Flint. Though time remains silent, people never cease searching for the many mysteries hidden within his bloodline."
+        },
+        {
+          "id": "zzz-item-834230",
+          "name": "Thorned Rose",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/ItemSuitThornedRose_A.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Disk"
+          },
+          "text": "A ballad passed down across Vyrium, born from the many legends and strange tales surrounding Flint. Though time remains silent, people never cease searching for the many mysteries hidden within his bloodline."
+        },
+        {
+          "id": "zzz-item-834240",
+          "name": "Thorned Rose",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/ItemSuitThornedRose_S.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Disk"
+          },
+          "text": "A ballad passed down across Vyrium, born from the many legends and strange tales surrounding Flint. Though time remains silent, people never cease searching for the many mysteries hidden within his bloodline."
         },
         {
           "id": "zzz-item-900000",
@@ -22548,7 +23384,7 @@
             "rarity": "4 \u2605",
             "type": "Medal"
           },
-          "text": "Norma has evoked the Mindscape: [Visionary Extremism].\n[Visionary Extremism]: The duration of the En-Nah Turret's missile bay deployed by EX Special Attack: Explosive Experiment increases to 12s. When an Armor-Piercing Warhead or High-Explosive Warhead from any skill hits an enemy, the target's All-Attribute RES is reduced by 15% for 15s."
+          "text": "Norma has evoked the Mindscape: [Visionary Extremism].\n[Visionary Extremism]: The duration of the En-Nah Turret's missile bay deployed by EX Special Attack: Explosive Experiment increases to 12s. When an Armor-Piercing Warhead or High-Explosive Warhead from any skill hits an enemy, the target's All-Attribute RES is reduced by 15% for 15s. Repeated triggers reset the duration."
         },
         {
           "id": "zzz-item-1000998",
@@ -22559,7 +23395,29 @@
             "rarity": "4 \u2605",
             "type": "Medal"
           },
-          "text": "Norma has evoked the Mindscape: [Visionary Extremism].\n[Visionary Extremism]: The duration of the En-Nah Turret's missile bay deployed by EX Special Attack: Explosive Experiment increases to 12s. When an Armor-Piercing Warhead or High-Explosive Warhead from any skill hits an enemy, the target's All-Attribute RES is reduced by 15% for 15s."
+          "text": "Norma has evoked the Mindscape: [Visionary Extremism].\n[Visionary Extremism]: The duration of the En-Nah Turret's missile bay deployed by EX Special Attack: Explosive Experiment increases to 12s. When an Armor-Piercing Warhead or High-Explosive Warhead from any skill hits an enemy, the target's All-Attribute RES is reduced by 15% for 15s. Repeated triggers reset the duration."
+        },
+        {
+          "id": "zzz-item-1000999",
+          "name": "Hannibull",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/CardDailyUse1581.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Medal"
+          },
+          "text": "Remielle has evoked the Mindscape: Fall Into the Noise.\nFall Into the Noise: Remielle's Refringe Coefficient increases by 20%. When an Anomaly character in the squad deals Anomaly DMG to an enemy affected by Prismatic, the attack ignores 15% of the target's DEF. This effect persists for an additional 8s after Prismatic ends. While Remielle is in the state, the frequency at which she automatically attacks to apply Lumiflux Buildup to enemies increases."
+        },
+        {
+          "id": "zzz-item-1001000",
+          "name": "Legendary Ascent",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/CardDailyUse1591.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Medal"
+          },
+          "text": "Sigrid has evoked the Mindscape: Long, Long Ago.\nLong, Long Ago: Upon activating the 3rd stage of Basic Attack: Converging Spear, enters the Aerial Patrol Spear and gains 1 additional activation of Basic Attack: Converging Spear. When activations exceed the stored Basic Attack: Converging Spear's activation limit, the next Basic Attack: Converging Spear's final hit deals an additional 100% of ATK as Ice DMG. Sigrid's ATK increases by 25%."
         },
         {
           "id": "zzz-item-1001001",
@@ -25301,6 +26159,28 @@
           "text": "In specific areas of Hollow Zero, there's a chance to trigger special events for agents in the squad, activating specific Mindscapes for the Agent for the current round."
         },
         {
+          "id": "zzz-item-1002999",
+          "name": "Hannibull",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/CardDailyUse1581.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Commission Item"
+          },
+          "text": "In specific areas of Hollow Zero, there's a chance to trigger special events for agents in the squad, activating specific Mindscapes for the Agent for the current round."
+        },
+        {
+          "id": "zzz-item-1003000",
+          "name": "Legendary Ascent",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/CardDailyUse1591.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Commission Item"
+          },
+          "text": "In specific areas of Hollow Zero, there's a chance to trigger special events for agents in the squad, activating specific Mindscapes for the Agent for the current round."
+        },
+        {
           "id": "zzz-item-1005001",
           "name": "[General] Tactical War Weapon",
           "kind": "item",
@@ -26179,6 +27059,17 @@
             "type": "Medal"
           },
           "text": "Active Skill: Upon activating this skill, enters a Flying state and continuously fires at the target enemy, dealing Fire DMG and accumulating Fire Anomaly Buildup."
+        },
+        {
+          "id": "zzz-item-1044023",
+          "name": "[Deployed] Ariel",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/CardBangbooAngelboo.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Medal"
+          },
+          "text": "Active Skill: Flies high into the air, then blinks to the target's vicinity, attacking and pulling in enemies across a large area. After a short time, a Prismatic Cross is generated that deals Ether DMG. Once the pull ends, gain 1/2/3 random buffs based on the number of enemies pulled (the same buff cannot be gained more than once): Buff 1: Restore the Agent's HP. Buff 2: Restore the Agent's Energy. Buff 3: Increase Prismatic Cross DMG."
         },
         {
           "id": "zzz-item-1053001",
@@ -32803,6 +33694,26 @@
           "text": "Use Ether Dewdrops on Pyrois"
         },
         {
+          "id": "zzz-item-1341073",
+          "name": "Remielle",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/CardDailyUse1581.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Use Ether Dewdrops on Remielle"
+        },
+        {
+          "id": "zzz-item-1341074",
+          "name": "Sigrid",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/CardDailyUse1591.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Use Ether Dewdrops on Sigrid"
+        },
+        {
           "id": "zzz-item-1342011",
           "name": "\"Heard It!\"",
           "kind": "item",
@@ -33967,7 +34878,7 @@
           "fields": {
             "rarity": "4 \u2605"
           },
-          "text": "EX Special Attack: Aerial Sweep will be enhanced to EX Special Attack: Aerial Sweep - Onslaught. When this skill hits an enemy, it inflicts Wound. This state causes the affected target to take Physical DMG equal to 60% of Jane's ATK every second and accumulate Physical Anomaly Buildup, lasting 15s. Repeated triggers reset the duration."
+          "text": "{AWAKEN_1261#EX Special Attack: Aerial Sweep is upgraded to EX Special Attack: Aerial Sweep - Onslaught, with its DMG Multiplier and Anomaly Buildup greatly increased}{NOAWAKEN_1261#EX Special Attack: Aerial Sweep is upgraded to EX Special Attack: Aerial Sweep - Onslaught}. Hitting an enemy with this attack inflicts Wound on the target. While in this state, the target takes Physical DMG equal to 60% of Jian's ATK and accumulates Physical Anomaly Buildup once per second for 15s. Repeated triggers refresh the duration."
         },
         {
           "id": "zzz-item-1350043",
@@ -34628,6 +35539,66 @@
             "rarity": "4 \u2605"
           },
           "text": "Upon triggering a Perfect Block with an EX Special Attack, Pyrois recovers 10 Energy and 20 Solar Prominence."
+        },
+        {
+          "id": "zzz-item-1350291",
+          "name": "[Remielle] Voidwing Pilgrimage",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Relic102.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When Remielle is in the Phase Flow state, if her Auto-Attack's Finishing Move hits a target afflicted with Ether Attribute Anomaly, Electric Attribute Anomaly, Fire Attribute Anomaly, Physical Attribute Anomaly, Ice Attribute Anomaly, or Wind Attribute Anomaly, she triggers an additional instance of Abloom, dealing a fixed 220% multiplier of the corresponding Attribute Anomaly DMG."
+        },
+        {
+          "id": "zzz-item-1350292",
+          "name": "[Remielle] Blade Radiance",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Relic104.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When Remielle is the active character, she recovers 1.6 Energy per second. When using EX Special Attack, she gains 3 special Voidflares."
+        },
+        {
+          "id": "zzz-item-1350293",
+          "name": "[Remielle] Petals and Silver",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Relic106.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When Remielle uses Basic Attack: Fleeting Grace, she does not consume her stored Voidflare."
+        },
+        {
+          "id": "zzz-item-1350301",
+          "name": "[Sigrid] Invincible Cavalry",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Relic101.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Unlocks Converging Spear: Vanquisher: When there are no remaining uses of Basic Attack: Converging Spear, hold to unleash Converging Spear: Vanquisher, dealing Ice DMG.\nIf the character gets hit at the moment Converging Spear: Vanquisher is activated, block can be triggered. Each successful block trigger negates the incoming attack's DMG, resets Aerial Patrol Spear, increases the Daze dealt by the next Basic Attack: Converging Spear by 100%, and grants one use of Basic Attack: Converging Spear. After a successful block, press to trigger the corresponding stage of Basic Attack: Converging Spear."
+        },
+        {
+          "id": "zzz-item-1350302",
+          "name": "[Sigrid] Frosty Flourish",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Relic103.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When launching Chain Attack, holding will skip the Chain Attack window; Unbridled Spear deals 60% bonus CRIT DMG."
+        },
+        {
+          "id": "zzz-item-1350303",
+          "name": "[Sigrid] Dancing Spearhead",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Relic105.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "While in the Aerial Patrol Spear state, the Energy Cost of EX Special Attack is reduced to 40; when hit by an enemy attack while using EX Special Attack, Sigrid will block with her shield. If the block is successful, the incoming attack DMG is negated, her own attacks ignore 12% of the target's DEF for 30s, the Aerial Patrol Spear state is refreshed, and she gains one use of Basic Attack: Converging Spear; after a successful block, press to trigger the corresponding stage of Basic Attack: Converging Spear;"
         },
         {
           "id": "zzz-item-1351001",
@@ -37901,6 +38872,50 @@
           "text": "\"New Eridu City Fund: Premium Plan\" commemorative pendant. Once obtained, it can be equipped and displayed in the Function Menu."
         },
         {
+          "id": "zzz-item-1359021",
+          "name": "\"Princess on Holiday\" Theme",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/IconWallpaperPiece10.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Theme"
+          },
+          "text": "\"New Eridu City Fund: Premium Plan\" commemorative theme. Once obtained, it can be equipped and displayed in the Function Menu."
+        },
+        {
+          "id": "zzz-item-1359022",
+          "name": "\"Princess on Holiday\" Pendant",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/IconPendantPiece10.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Pendant"
+          },
+          "text": "\"New Eridu City Fund: Premium Plan\" commemorative pendant. Once obtained, it can be equipped and displayed in the Function Menu."
+        },
+        {
+          "id": "zzz-item-1359023",
+          "name": "\"Good Morning, Dear Partner in Crime\" Theme",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/IconWallpaperPiece11.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Theme"
+          },
+          "text": "Limited-time \"Filmgoer Thank-You Gift\" exclusive theme. Once obtained, it can be equipped and displayed in the Function Menu."
+        },
+        {
+          "id": "zzz-item-1359024",
+          "name": "\"Good Morning, Dear Partner in Crime\" Pendant",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/IconPendantPiece11.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Pendant"
+          },
+          "text": "Limited-time \"Filmgoer Thank-You Gift\" exclusive theme. Once obtained, it can be equipped and displayed in the Function Menu."
+        },
+        {
           "id": "zzz-item-1360001",
           "name": "Marcel Coating Voucher",
           "kind": "item",
@@ -38745,7 +39760,7 @@
             "rarity": "2 \u2605",
             "type": "Gift"
           },
-          "text": "The reward bundle includes the following rewards: Polychrome \u00d780, Ether Battery \u00d72, Senior Investigator Log \u00d710, W-Engine Energy Module \u00d715, and Denny \u00d7 75,000"
+          "text": "The reward bundle includes the following rewards: Polychrome \u00d7160, Ether Battery \u00d72, Senior Investigator Log \u00d710, W-Engine Energy Module \u00d715, and Denny \u00d7 75,000"
         },
         {
           "id": "zzz-item-2000034",
@@ -38838,6 +39853,39 @@
         {
           "id": "zzz-item-2000042",
           "name": "Heartfelt Invitation Limited Gift",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Testgift.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Gift"
+          },
+          "text": "Purchase to obtain Denny \u00d7100,000 and Encrypted Master Tape \u00d710."
+        },
+        {
+          "id": "zzz-item-2000043",
+          "name": "Tea Party Invitation Limited Gift",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Testgift.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Gift"
+          },
+          "text": "Purchase to obtain Denny \u00d730,000 and Encrypted Master Tape \u00d74."
+        },
+        {
+          "id": "zzz-item-2000044",
+          "name": "Cloud Garden Invitation Limited Gift",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Testgift.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Gift"
+          },
+          "text": "Purchase to obtain Denny \u00d760,000 and Encrypted Master Tape \u00d76."
+        },
+        {
+          "id": "zzz-item-2000045",
+          "name": "Celestial Nexus Invitation Limited Gift",
           "kind": "item",
           "art": "../../Database/GameData/zzz/assets/items/Testgift.webp",
           "fields": {
@@ -39178,7 +40226,7 @@
         },
         {
           "id": "zzz-item-2090030",
-          "name": "Boss K Cheering Fan",
+          "name": "Streamer K Cheering Fan",
           "kind": "item",
           "art": "../../Database/GameData/zzz/assets/items/3.webp",
           "fields": {
@@ -39189,7 +40237,7 @@
         },
         {
           "id": "zzz-item-2090031",
-          "name": "Boss K Keychain",
+          "name": "Streamer K Keychain",
           "kind": "item",
           "art": "../../Database/GameData/zzz/assets/items/3.webp",
           "fields": {
@@ -39219,6 +40267,50 @@
             "type": "Commission Item"
           },
           "text": "Operation Yum global collab event commemorative reward."
+        },
+        {
+          "id": "zzz-item-2090034",
+          "name": "\"PSBoo\" Themed Console",
+          "kind": "item",
+          "art": null,
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Gift"
+          },
+          "text": "Obtained with the purchase of the PS5 physical game disc"
+        },
+        {
+          "id": "zzz-item-2090035",
+          "name": "\"PSBoo\" Commemorative Console",
+          "kind": "item",
+          "art": null,
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Commission Item"
+          },
+          "text": "Obtained with the purchase of the PS5 physical game disc"
+        },
+        {
+          "id": "zzz-item-2090036",
+          "name": "\"XBoo\" Themed Console",
+          "kind": "item",
+          "art": null,
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Gift"
+          },
+          "text": "Obtained with the purchase of the Xbox physical game disc"
+        },
+        {
+          "id": "zzz-item-2090037",
+          "name": "\"XBoo\" Commemorative Console",
+          "kind": "item",
+          "art": null,
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Commission Item"
+          },
+          "text": "Obtained with the purchase of the Xbox physical game disc"
         },
         {
           "id": "zzz-item-2100001",
@@ -39612,6 +40704,17 @@
           "text": "Hoshimi Miyabi's outfit."
         },
         {
+          "id": "zzz-item-3111511",
+          "name": "Princess on Holiday",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Skin_LucyPrincess.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Dress"
+          },
+          "text": "Lucy's Outfit."
+        },
+        {
           "id": "zzz-item-3111910",
           "name": "Ellen Scissorhands",
           "kind": "item",
@@ -39885,6 +40988,60 @@
             "type": "Dress"
           },
           "text": "Velina's Outfit."
+        },
+        {
+          "id": "zzz-item-3115811",
+          "name": "Moonlight Whispers",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Skin_RemielleMoonlightWhispers.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Dress"
+          },
+          "text": "Remielle's Outfit."
+        },
+        {
+          "id": "zzz-item-3115812",
+          "name": "Seashade Pas Seul",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Skin_RemielleSeashadePasSeul.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Dress"
+          },
+          "text": "Remielle's Outfit."
+        },
+        {
+          "id": "zzz-item-3115813",
+          "name": "Moonlight Whispers (Veil)",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Skin_RemielleMoonlightWhispers.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Dress"
+          },
+          "text": "Remielle's Outfit."
+        },
+        {
+          "id": "zzz-item-3115891",
+          "name": "\"Moonlit Shore\" Outfit Set",
+          "kind": "item",
+          "art": null,
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Purchase to unlock two outfits for Remielle: Moonlight Whispers and Seashade Pas Seul."
+        },
+        {
+          "id": "zzz-item-3115911",
+          "name": "Majestic Wavechaser",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Skin_SigridTraversing.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Dress"
+          },
+          "text": "Sigrid's Outfit."
         },
         {
           "id": "zzz-item-3131551",
@@ -40228,6 +41385,17 @@
           "text": "A commemorative avatar for the New Eridu City Fund: Growth Plan."
         },
         {
+          "id": "zzz-item-3201019",
+          "name": "Berry Party",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/ItemProfile1019.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Profile"
+          },
+          "text": "A commemorative avatar for the New Eridu City Fund: Growth Plan."
+        },
+        {
           "id": "zzz-item-3202001",
           "name": "Fragrant Infusion",
           "kind": "item",
@@ -40391,6 +41559,28 @@
             "type": "Profile"
           },
           "text": "Annihilation Simulacrum commemorative avatar."
+        },
+        {
+          "id": "zzz-item-3202017",
+          "name": "The Best Gift",
+          "kind": "item",
+          "art": null,
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Profile"
+          },
+          "text": "An avatar reward for the limited-time event \"Marcel Anniversary Gift.\"\nLimited-time reward."
+        },
+        {
+          "id": "zzz-item-3202018",
+          "name": "Tempered Crown",
+          "kind": "item",
+          "art": null,
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Profile"
+          },
+          "text": "Earn a 2-Star rating in \"Deadly Assault: Adversity Mode\" to automatically unlock the limited-time avatar reward."
         },
         {
           "id": "zzz-item-3203001",
@@ -40987,6 +42177,28 @@
           "text": ""
         },
         {
+          "id": "zzz-item-3231581",
+          "name": "Agent Avatar: Remielle",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/ItemProfileGeneral.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Profile"
+          },
+          "text": ""
+        },
+        {
+          "id": "zzz-item-3231591",
+          "name": "Agent Avatar: Sigrid",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/ItemProfileGeneral.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Profile"
+          },
+          "text": ""
+        },
+        {
           "id": "zzz-item-3300001",
           "name": "Honorary Citizen",
           "kind": "item",
@@ -41189,6 +42401,17 @@
           "name": "The Truth of the World!",
           "kind": "item",
           "art": "../../Database/GameData/zzz/assets/items/Callingcard44.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Calling Card"
+          },
+          "text": "A commemorative namecard for the New Eridu City Fund: Growth Plan."
+        },
+        {
+          "id": "zzz-item-3300020",
+          "name": "Time for Afternoon Tea",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Callingcard47.webp",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Calling Card"
@@ -41471,6 +42694,72 @@
           "text": "Commemorative namecard for the Operation Yum collab event."
         },
         {
+          "id": "zzz-item-3301027",
+          "name": "Countless Nychthemerons",
+          "kind": "item",
+          "art": null,
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Calling Card"
+          },
+          "text": "Commemorative namecard for the limited-time event \"Filmgoer Thank-You Gift.\""
+        },
+        {
+          "id": "zzz-item-3301028",
+          "name": "Summer Blaze Eternal",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Callingcard49.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Calling Card"
+          },
+          "text": "A namecard reward for the limited-time event \"Summer Waves Roll In.\"\nLimited-time reward."
+        },
+        {
+          "id": "zzz-item-3301029",
+          "name": "Authentic Void Hunter Sketchbook",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Callingcard51.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Calling Card"
+          },
+          "text": "A namecard reward for the limited-time event \"First-Generation Void Hunter Returns.\"\nLimited-time reward."
+        },
+        {
+          "id": "zzz-item-3301030",
+          "name": "Ding! Achievement Unlocked",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/CallingcardActivityCollaboration07.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Calling Card"
+          },
+          "text": "\"Zenless Zone Zero Collector's Edition Physical Gift Box\" commemorative namecard."
+        },
+        {
+          "id": "zzz-item-3301031",
+          "name": "Road to Platinum",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/CallingcardActivityCollaboration08.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Calling Card"
+          },
+          "text": "\"Zenless Zone Zero Collector's Edition Physical Gift Box\" commemorative namecard."
+        },
+        {
+          "id": "zzz-item-3301032",
+          "name": "Miracle Winner",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Callingcard52.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Calling Card"
+          },
+          "text": "A namecard reward for the limited-time event \"Phaethon's Grand Reveal of the Year.\"\nLimited-time reward."
+        },
+        {
           "id": "zzz-item-3302001",
           "name": "Winding Roses",
           "kind": "item",
@@ -41557,6 +42846,17 @@
             "type": "Calling Card"
           },
           "text": "A commemorative namecard obtained by increasing the Central Computing Hub repair progress in \"The Genius and the Miracle Chip!\""
+        },
+        {
+          "id": "zzz-item-3302009",
+          "name": "Starforged Sword Song",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Callingcard50.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Calling Card"
+          },
+          "text": "Earn a 2-Star rating in \"Deadly Assault: Adversity Mode\" to automatically unlock the limited-time namecard reward."
         },
         {
           "id": "zzz-item-3311011",
@@ -42164,6 +43464,28 @@
           "text": "Get by unlocking Norma's Mindscape: Natural-Born Villain Paradox"
         },
         {
+          "id": "zzz-item-3311581",
+          "name": "Remielle's Namecard",
+          "kind": "item",
+          "art": null,
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Calling Card"
+          },
+          "text": "Get by unlocking Remielle's Mindscape: The Garden of Diverging Time"
+        },
+        {
+          "id": "zzz-item-3311591",
+          "name": "Sigrid's Namecard",
+          "kind": "item",
+          "art": null,
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Calling Card"
+          },
+          "text": "Get by unlocking Sigrid's Mindscape: Protector of Miracles"
+        },
+        {
           "id": "zzz-item-3321011",
           "name": "\"Ending Theme\"",
           "kind": "item",
@@ -42767,6 +44089,28 @@
             "type": "Calling Card"
           },
           "text": "Get by unlocking Norma's Mindscape: The Primary Cause of Genius"
+        },
+        {
+          "id": "zzz-item-3321581",
+          "name": "\"Stray Birds\"",
+          "kind": "item",
+          "art": null,
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Calling Card"
+          },
+          "text": "Get by unlocking Remielle's Mindscape: Lone Feather's Endless Flight"
+        },
+        {
+          "id": "zzz-item-3321591",
+          "name": "Armor Maintenance",
+          "kind": "item",
+          "art": null,
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Calling Card"
+          },
+          "text": "Get by unlocking Sigrid's Mindscape: Knight of the Skies"
         },
         {
           "id": "zzz-item-3500000",
@@ -43396,6 +44740,39 @@
           "text": "Dynamic wallpaper that can be displayed or changed in the main menu."
         },
         {
+          "id": "zzz-item-3510055",
+          "name": "Dynamic Wallpaper: {0}",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/LiveWallpaper61.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Livewallpaper"
+          },
+          "text": "Dynamic wallpaper that can be displayed or changed in the main menu."
+        },
+        {
+          "id": "zzz-item-3510056",
+          "name": "Dynamic Wallpaper: Summer of Soda Sea",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/LiveWallpaper_Remielle_SwimmingSuit.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Livewallpaper"
+          },
+          "text": "Dynamic wallpaper that can be displayed or changed in the main menu."
+        },
+        {
+          "id": "zzz-item-3510057",
+          "name": "Dynamic Wallpaper: {0}",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/LiveWallpaper60.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Livewallpaper"
+          },
+          "text": "Dynamic wallpaper that can be displayed or changed in the main menu."
+        },
+        {
           "id": "zzz-item-3550000",
           "name": "Dynamic Wallpaper: Bangboo Angler Club",
           "kind": "item",
@@ -43770,6 +45147,17 @@
           "text": "A special souvenir that can be displayed on the Memory Board."
         },
         {
+          "id": "zzz-item-3651013",
+          "name": "Special Beach Souvenir",
+          "kind": "item",
+          "art": null,
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Photowall Item"
+          },
+          "text": "A special souvenir that can be displayed on the Memory Board."
+        },
+        {
           "id": "zzz-item-3690001",
           "name": "PhotoName_3690001",
           "kind": "item",
@@ -43801,6 +45189,16 @@
             "type": "Photowall Item"
           },
           "text": "A memorable moment worth commemorating. Can be used to decorate your room."
+        },
+        {
+          "id": "zzz-item-3700001",
+          "name": "Graffiti Mark: Final Act",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/PhotoSticker.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Used for taking photos. Can be exchanged in the \"Association Supplies - Exclusive Showcase\" shop."
         },
         {
           "id": "zzz-item-3700106",
@@ -44153,6 +45551,46 @@
             "type": "Collectibles"
           },
           "text": "A unique and interesting collectible that can be displayed in your room."
+        },
+        {
+          "id": "zzz-item-3710001",
+          "name": "Focus View: One-Shot Kill",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/PhotoFrame.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Used for taking photos. Can be exchanged in the \"Association Supplies - Exclusive Showcase\" shop."
+        },
+        {
+          "id": "zzz-item-3720001",
+          "name": "Emoticon: K.O.",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Emoji02.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Used in dialogue. Can be exchanged in the \"Association Supplies - Exclusive Showcase\" shop."
+        },
+        {
+          "id": "zzz-item-3720002",
+          "name": "Emoticon: ACE!",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Emoji01.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Used in dialogue. Can be exchanged in the \"Association Supplies - Exclusive Showcase\" shop."
+        },
+        {
+          "id": "zzz-item-3730001",
+          "name": "Exclusive Action: Fleeting Dream Forever Etched",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/AvatarPose01.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "An exclusive action for Remielle. Once obtained from the \"Association Supplies - Exclusive Showcase\" shop, it can be selected for Remielle in camera - portrait mode."
         },
         {
           "id": "zzz-item-3800001",
@@ -45595,6 +47033,17 @@
           "text": "Inter-Knot title. Obtain to display on your Inter-Knot profile and friend list."
         },
         {
+          "id": "zzz-item-3800231",
+          "name": "Title \"{0}\"",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/TitleIcon.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Title"
+          },
+          "text": "Inter-Knot title. Obtain to display on your Inter-Knot profile and friend list."
+        },
+        {
           "id": "zzz-item-3800232",
           "name": "Title \"{0}\"",
           "kind": "item",
@@ -45673,6 +47122,72 @@
         },
         {
           "id": "zzz-item-3800239",
+          "name": "Title \"{0}\"",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/TitleIcon.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Title"
+          },
+          "text": "Inter-Knot title. Obtain to display on your Inter-Knot profile and friend list."
+        },
+        {
+          "id": "zzz-item-3800240",
+          "name": "Title \"{0}\"",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/TitleIcon.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Title"
+          },
+          "text": "Inter-Knot title. Obtain to display on your Inter-Knot profile and friend list."
+        },
+        {
+          "id": "zzz-item-3800241",
+          "name": "Title \"{0}\"",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/TitleIcon.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Title"
+          },
+          "text": "Inter-Knot title. Obtain to display on your Inter-Knot profile and friend list."
+        },
+        {
+          "id": "zzz-item-3800242",
+          "name": "Title \"{0}\"",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/TitleIcon.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Title"
+          },
+          "text": "Inter-Knot title. Obtain to display on your Inter-Knot profile and friend list."
+        },
+        {
+          "id": "zzz-item-3800243",
+          "name": "Title \"{0}\"",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/TitleIcon.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Title"
+          },
+          "text": "Inter-Knot title. Obtain to display on your Inter-Knot profile and friend list."
+        },
+        {
+          "id": "zzz-item-3800244",
+          "name": "Title \"{0}\"",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/TitleIcon.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Title"
+          },
+          "text": "Inter-Knot title. Obtain to display on your Inter-Knot profile and friend list."
+        },
+        {
+          "id": "zzz-item-3800245",
           "name": "Title \"{0}\"",
           "kind": "item",
           "art": "../../Database/GameData/zzz/assets/items/TitleIcon.webp",
@@ -51683,6 +53198,5568 @@
           "text": "Describes how to obtain, its uses, and other gameplay info"
         },
         {
+          "id": "zzz-item-4300001",
+          "name": "Gear Coins",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/IconFund.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Exclusive currency used inside the Hollow Interior. Spend it to stock up on all kinds of Supplies."
+        },
+        {
+          "id": "zzz-item-4300002",
+          "name": "Ticket",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/EquipTicketIcon.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Zenkov-Ticket"
+        },
+        {
+          "id": "zzz-item-4300003",
+          "name": "Secure Case Expansion Plug-In",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Consumables_011.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Resource"
+          },
+          "text": "An exclusive Plug-In that boosts your safe's capacity \u2014 more space, more security."
+        },
+        {
+          "id": "zzz-item-4300004",
+          "name": "Secure Case Expansion Plug-In",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Consumables_011.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Resource"
+          },
+          "text": "An exclusive Plug-In that boosts your safe's capacity. More space, more security."
+        },
+        {
+          "id": "zzz-item-4300010",
+          "name": "Polychrome",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/IconCurrency.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "While each film captures only one single color, when layered together, they produce vibrant, multicolored images."
+        },
+        {
+          "id": "zzz-item-4300018",
+          "name": "Z-Merits",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/AbyssShopCoin.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "Used for purchasing valuable items in Outpost Logistics"
+        },
+        {
+          "id": "zzz-item-4300099",
+          "name": "Ether Dewdrops",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/ActivePropsSkill40.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Revives and restores a certain amount of HP of an incapacitated Agent after use."
+        },
+        {
+          "id": "zzz-item-4300101",
+          "name": "Base Support",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Material_001.webp",
+          "fields": {
+            "rarity": "1 \u2605"
+          },
+          "text": "Used for Hub and Chamber Upgrades, Blueprint Research, and Team Equipment Crafting"
+        },
+        {
+          "id": "zzz-item-4300111",
+          "name": "Standard Support",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Material_002.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Used for Hub and Chamber Upgrades and Squad Equipment Crafting"
+        },
+        {
+          "id": "zzz-item-4300112",
+          "name": "Standard Connector",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Material_003.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Used for Hub and Chamber Upgrades, Blueprint Research, and Team Equipment Crafting"
+        },
+        {
+          "id": "zzz-item-4300121",
+          "name": "Specialized Support",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Material_004.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Used for scheme R&D and crafting team Equipment"
+        },
+        {
+          "id": "zzz-item-4300122",
+          "name": "Specialized Connector",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Material_005.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Used for Hub and Chamber Upgrades, Blueprint Research, and Team Equipment Crafting"
+        },
+        {
+          "id": "zzz-item-4300201",
+          "name": "Basic Drug Powder",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Material_018.webp",
+          "fields": {
+            "rarity": "1 \u2605"
+          },
+          "text": "Used for hub and cabin upgrades, scheme development, and medicine crafting"
+        },
+        {
+          "id": "zzz-item-4300211",
+          "name": "Unknown Drug Powder",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Material_019.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Used for formula R&D and drug Crafting"
+        },
+        {
+          "id": "zzz-item-4300212",
+          "name": "Corrosion Remover Jr.",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Material_020.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Used for hub and cabin upgrades, scheme development, and medicine crafting"
+        },
+        {
+          "id": "zzz-item-4300221",
+          "name": "Lumite Crystal",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Material_021.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Used for formula R&D and drug Crafting"
+        },
+        {
+          "id": "zzz-item-4300222",
+          "name": "Eerie Powder",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Material_022.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Used for formula R&D and drug Crafting"
+        },
+        {
+          "id": "zzz-item-4300223",
+          "name": "Weak Acid Droplet",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Material_023.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Used for hub and cabin upgrades, scheme development, and medicine crafting"
+        },
+        {
+          "id": "zzz-item-4300301",
+          "name": "Basic Cable Reel",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Material_008.webp",
+          "fields": {
+            "rarity": "1 \u2605"
+          },
+          "text": "Used for Hub and Chamber Upgrades, Blueprint Research, and Team Equipment Crafting"
+        },
+        {
+          "id": "zzz-item-4300311",
+          "name": "Standard Cable Reel",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Material_009.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Used for scheme R&D and crafting team Equipment"
+        },
+        {
+          "id": "zzz-item-4300312",
+          "name": "Standard Cable",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Material_010.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Used for Hub and Chamber Upgrades, Blueprint Research, and Team Equipment Crafting"
+        },
+        {
+          "id": "zzz-item-4300321",
+          "name": "Specialized Cable Reel",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Material_011.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Used for scheme R&D and crafting team Equipment"
+        },
+        {
+          "id": "zzz-item-4300322",
+          "name": "Composite Cable Reel",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Material_012.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Used for team Equipment Crafting"
+        },
+        {
+          "id": "zzz-item-4300323",
+          "name": "Specialized Cable",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Material_013.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Used for Hub and Chamber Upgrades, Blueprint Research, and Team Equipment Crafting"
+        },
+        {
+          "id": "zzz-item-4300401",
+          "name": "Stable Explosive",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Material_028.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Used for Hub and Chamber Upgrades and Squad Equipment Crafting"
+        },
+        {
+          "id": "zzz-item-4300402",
+          "name": "Crude Fiber",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Material_031.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Used for Hub and Cabin Upgrades"
+        },
+        {
+          "id": "zzz-item-4300403",
+          "name": "Sensor Element",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Material_034.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Used for Hub and Cabin Upgrades"
+        },
+        {
+          "id": "zzz-item-4300404",
+          "name": "Ball Bearing",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Material_037.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Can be sold at the warehouse for currency"
+        },
+        {
+          "id": "zzz-item-4300405",
+          "name": "Low-Frequency Transmitter",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Material_040.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Can be sold at the warehouse for currency"
+        },
+        {
+          "id": "zzz-item-4300406",
+          "name": "Single-Sided Circuit Board",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Material_043.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Can be sold at the warehouse for currency"
+        },
+        {
+          "id": "zzz-item-4300421",
+          "name": "High-Energy Explosive",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Material_029.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Used for Hub and Chamber Upgrades, Blueprint Research, and Team Equipment Crafting"
+        },
+        {
+          "id": "zzz-item-4300422",
+          "name": "High-Carbon Fiber",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Material_032.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Used for scheme R&D and crafting team Equipment"
+        },
+        {
+          "id": "zzz-item-4300423",
+          "name": "Sensor Assembly",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Material_035.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Used for scheme R&D and crafting team Equipment"
+        },
+        {
+          "id": "zzz-item-4300424",
+          "name": "High-Speed Bearing",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Material_038.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Used for Hub and Chamber Upgrades, Blueprint Research, and Team Equipment Crafting"
+        },
+        {
+          "id": "zzz-item-4300425",
+          "name": "High-Frequency Transmitter",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Material_041.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Used for Hub and Chamber Upgrades, Blueprint Research, and Team Equipment Crafting"
+        },
+        {
+          "id": "zzz-item-4300426",
+          "name": "Multilayer Circuit Board",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Material_044.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Used for Hub and Chamber Upgrades and Squad Equipment Crafting"
+        },
+        {
+          "id": "zzz-item-4300451",
+          "name": "Volatile Explosive",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Material_030.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Used for scheme R&D and crafting team Equipment"
+        },
+        {
+          "id": "zzz-item-4300452",
+          "name": "Nanofiber",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Material_033.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Used for Hub and Chamber Upgrades, Blueprint Research, and Team Equipment Crafting"
+        },
+        {
+          "id": "zzz-item-4300453",
+          "name": "Sensor Suite",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Material_036.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Used for Hub and Chamber Upgrades, Blueprint Research, and Team Equipment Crafting"
+        },
+        {
+          "id": "zzz-item-4300454",
+          "name": "Fluid Bearing",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Material_039.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Used for Hub and Chamber Upgrades, Blueprint Research, and Team Equipment Crafting"
+        },
+        {
+          "id": "zzz-item-4300455",
+          "name": "Microwave Transmitter",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Material_042.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Used for scheme R&D and crafting team Equipment"
+        },
+        {
+          "id": "zzz-item-4300456",
+          "name": "High-Density Circuit Board",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Material_045.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Used for Hub and Chamber Upgrades, Blueprint Research, and Team Equipment Crafting"
+        },
+        {
+          "id": "zzz-item-4301301",
+          "name": "Inert Crystal",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Material_Monster_1.webp",
+          "fields": {
+            "rarity": "1 \u2605"
+          },
+          "text": "Used for scheme R&D and Gear Crafting"
+        },
+        {
+          "id": "zzz-item-4301302",
+          "name": "Single-Component Fuel",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Material_Monster_4.webp",
+          "fields": {
+            "rarity": "1 \u2605"
+          },
+          "text": "Used for scheme R&D, Gear Crafting, and Etheric Phantom Crafting"
+        },
+        {
+          "id": "zzz-item-4301303",
+          "name": "Battery Cell",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Material_Monster_7.webp",
+          "fields": {
+            "rarity": "1 \u2605"
+          },
+          "text": "Used for scheme R&D, Gear Crafting, and Etheric Phantom Crafting"
+        },
+        {
+          "id": "zzz-item-4301311",
+          "name": "Stable Crystal",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Material_Monster_2.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Used for scheme R&D, Gear Crafting, and Etheric Phantom Crafting"
+        },
+        {
+          "id": "zzz-item-4301312",
+          "name": "Composite Fuel",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Material_Monster_5.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Used for scheme R&D and Gear Crafting"
+        },
+        {
+          "id": "zzz-item-4301313",
+          "name": "Battery Pack",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Material_Monster_8.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Used for scheme R&D and Gear Crafting"
+        },
+        {
+          "id": "zzz-item-4301321",
+          "name": "Reactive Crystal",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Material_Monster_3.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Used for scheme R&D, Gear Crafting, and Etheric Phantom Crafting"
+        },
+        {
+          "id": "zzz-item-4301322",
+          "name": "Linked Fuel",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Material_Monster_6.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Used for scheme R&D and Gear Crafting"
+        },
+        {
+          "id": "zzz-item-4301323",
+          "name": "Battery Array",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Material_Monster_9.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Used for scheme R&D and Gear Crafting"
+        },
+        {
+          "id": "zzz-item-4301401",
+          "name": "Decaying Core",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Material_Monster_10.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Used for Hub and Chamber Upgrades, Gear Crafting, and Etheric Phantom Crafting"
+        },
+        {
+          "id": "zzz-item-4301402",
+          "name": "Mutated Core",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Material_Monster_11.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Used for Hub and Module Upgrades, Blueprint Research, Gear Crafting, and Etheric Phantom Crafting"
+        },
+        {
+          "id": "zzz-item-4301403",
+          "name": "Malignant Core",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Material_Monster_12.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Used for Hub and Module Upgrades, Blueprint Research, Gear Crafting, and Etheric Phantom Crafting"
+        },
+        {
+          "id": "zzz-item-4311000",
+          "name": "Minor Trauma Medicine",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Consumables_001.webp",
+          "fields": {
+            "rarity": "1 \u2605"
+          },
+          "text": "When used, this item restores 15% of the current Agent's Max HP over 20s. Taking a hit interrupts the effect. Reusing this item resets its HP recovery duration."
+        },
+        {
+          "id": "zzz-item-4311001",
+          "name": "Wound-Mending Medicine",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Consumables_002.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "When used, this item restores 25% of the current Agent's Max HP over 15s. Taking a hit interrupts the effect. Reusing this item resets its HP recovery duration."
+        },
+        {
+          "id": "zzz-item-4311002",
+          "name": "Restoration Medicine",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Consumables_003.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "When used, this item restores 35% of the current Agent's Max HP over 10s. Taking a hit interrupts the effect. It also negates one instance of DMG within 30s. Reusing this item resets the HP recovery duration and DMG Immunity duration."
+        },
+        {
+          "id": "zzz-item-4311003",
+          "name": "Revival Medicine",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Consumables_004.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When used, this item restores 50% of the current Agent's Max HP over 3s. Taking a hit interrupts the effect. It also negates one instance of DMG within 60s. Reusing this item resets the HP recovery duration and DMG Immunity duration."
+        },
+        {
+          "id": "zzz-item-4311010",
+          "name": "Corrosion-Inhibiting Medicine",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Consumables_005.webp",
+          "fields": {
+            "rarity": "1 \u2605"
+          },
+          "text": "When used, this item restores 5% of each squad member's lost Max HP over 20s. Taking a hit interrupts the effect. Reusing this item resets its Max HP recovery duration."
+        },
+        {
+          "id": "zzz-item-4311011",
+          "name": "Corrosion Resistance Medicine",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Consumables_006.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "When used, this item restores 10% of each squad member's lost Max HP over 10s. Taking a hit interrupts the effect. Reusing this item resets its Max HP recovery duration."
+        },
+        {
+          "id": "zzz-item-4311012",
+          "name": "Corrosion Purge Medicine",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Consumables_007.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "When used, this item restores 15% of each squad member's lost Max HP over 5s. Taking a hit interrupts the effect. It also grants all squad members immunity to the next Corruption increase caused by a Corruption Ambush within 30s. Reusing this item resets both the HP recovery duration and the Corruption Ambush immunity duration."
+        },
+        {
+          "id": "zzz-item-4311013",
+          "name": "Corrosion Cleanse Medicine",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Consumables_008.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When used, this item restores 20% of each squad member's lost Max HP over 1s. Taking a hit interrupts the effect. It also grants all squad members immunity to the next Corruption increase caused by a Corruption Ambush within 60s. Reusing this item resets both the HP recovery duration and the Corruption Ambush immunity duration."
+        },
+        {
+          "id": "zzz-item-4320100",
+          "name": "[Weakened] Base Gear - General - Lv.5",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponC_001.webp",
+          "fields": {
+            "rarity": "1 \u2605"
+          },
+          "text": "Provides the Base Stats required by Agents."
+        },
+        {
+          "id": "zzz-item-4320101",
+          "name": "[Fragile] Base Gear - General - Lv.5",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponC_001.webp",
+          "fields": {
+            "rarity": "1 \u2605"
+          },
+          "text": "Provides the Base Stats required by Agents."
+        },
+        {
+          "id": "zzz-item-4320102",
+          "name": "[Fragile] Base Gear - General - Lv.10",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponC_001.webp",
+          "fields": {
+            "rarity": "1 \u2605"
+          },
+          "text": "Provides the Base Stats required by Agents."
+        },
+        {
+          "id": "zzz-item-4320103",
+          "name": "[Weakened] Base Gear - General - Lv.20",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponC_001.webp",
+          "fields": {
+            "rarity": "1 \u2605"
+          },
+          "text": "Provides the Base Stats required by Agents."
+        },
+        {
+          "id": "zzz-item-4320104",
+          "name": "[Fragile] Advanced Gear - Attack - Lv.20",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponB_001.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Provides the Advanced Stats needed for Attack Agents."
+        },
+        {
+          "id": "zzz-item-4320105",
+          "name": "[Fragile] Advanced Gear - Stun - Lv.20",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponB_004.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Provides the Advanced Stats needed to Stun Agents."
+        },
+        {
+          "id": "zzz-item-4320106",
+          "name": "[Fragile] Advanced Gear - Anomaly - Lv.20",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponB_002.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Provides the Advanced Stats needed for Anomaly Agents."
+        },
+        {
+          "id": "zzz-item-4320107",
+          "name": "[Fragile] Advanced Gear - Support - Lv.20",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponB_005.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Provides the Advanced Stats needed for Support Agents."
+        },
+        {
+          "id": "zzz-item-4320108",
+          "name": "[Fragile] Advanced Gear - Rupture - Lv.20",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponB_003.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Provides the Advanced Stats required by Rupture Agents."
+        },
+        {
+          "id": "zzz-item-4320109",
+          "name": "[Fragile] Advanced Gear - Defense - Lv.20",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponB_006.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Provides the Advanced Stats needed for Defense Agents."
+        },
+        {
+          "id": "zzz-item-4320111",
+          "name": "[Fragile] Advanced Gear - Attack - Lv.30",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponB_001.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Provides the Advanced Stats needed for Attack Agents."
+        },
+        {
+          "id": "zzz-item-4320112",
+          "name": "[Fragile] Advanced Gear - Stun - Lv.30",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponB_004.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Provides the Advanced Stats needed to Stun Agents."
+        },
+        {
+          "id": "zzz-item-4320113",
+          "name": "[Fragile] Advanced Gear - Anomaly - Lv.30",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponB_002.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Provides the Advanced Stats needed for Anomaly Agents."
+        },
+        {
+          "id": "zzz-item-4320114",
+          "name": "[Fragile] Advanced Gear - Support - Lv.30",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponB_005.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Provides the Advanced Stats needed for Support Agents."
+        },
+        {
+          "id": "zzz-item-4320115",
+          "name": "[Fragile] Advanced Gear - Rupture - Lv.30",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponB_003.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Provides the Advanced Stats required by Rupture Agents."
+        },
+        {
+          "id": "zzz-item-4320116",
+          "name": "[Fragile] Advanced Gear - Defense - Lv.30",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponB_006.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Provides the Advanced Stats needed for Defense Agents."
+        },
+        {
+          "id": "zzz-item-4320120",
+          "name": "[Weakened] Base Gear - General - Lv.30",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponB_007.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Provides the Advanced Stats Agents need."
+        },
+        {
+          "id": "zzz-item-4320121",
+          "name": "[Fragile] Specialized Gear - Attack - Lv.30",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponA_001.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Provides specialized Stats required for Attack Agents."
+        },
+        {
+          "id": "zzz-item-4320122",
+          "name": "[Fragile] Specialized Gear - Stun - Lv.30",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponA_004.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Provides specialized attributes needed to Stun Agents."
+        },
+        {
+          "id": "zzz-item-4320123",
+          "name": "[Fragile] Specialized Gear - Anomaly - Lv.30",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponA_002.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Provides the specialized Stats required by Anomaly Agents."
+        },
+        {
+          "id": "zzz-item-4320124",
+          "name": "[Fragile] Specialized Gear - Support - Lv.30",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponA_005.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Provides the specialized Stats required for Support Agents."
+        },
+        {
+          "id": "zzz-item-4320125",
+          "name": "[Fragile] Specialized Gear - Rupture - Lv.30",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponA_003.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Provides the specialized stats required by Rupture Agents."
+        },
+        {
+          "id": "zzz-item-4320126",
+          "name": "[Fragile] Specialized Gear - Defense - Lv.30",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponA_006.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Provides specialized Stats required for Defense Agents."
+        },
+        {
+          "id": "zzz-item-4320131",
+          "name": "[Fragile] Specialized Gear - Attack - Lv.40",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponA_001.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Provides specialized Stats required for Attack Agents."
+        },
+        {
+          "id": "zzz-item-4320132",
+          "name": "[Fragile] Specialized Gear - Stun - Lv.40",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponA_004.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Provides specialized attributes needed to Stun Agents."
+        },
+        {
+          "id": "zzz-item-4320133",
+          "name": "[Fragile] Specialized Gear - Anomaly - Lv.40",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponA_002.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Provides the specialized Stats required by Anomaly Agents."
+        },
+        {
+          "id": "zzz-item-4320134",
+          "name": "[Fragile] Specialized Gear - Support - Lv.40",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponA_005.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Provides the specialized Stats required for Support Agents."
+        },
+        {
+          "id": "zzz-item-4320135",
+          "name": "[Fragile] Specialized Gear - Rupture - Lv.40",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponA_003.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Provides the specialized stats required by Rupture Agents."
+        },
+        {
+          "id": "zzz-item-4320136",
+          "name": "[Fragile] Specialized Gear - Defense - Lv.40",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponA_006.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Provides specialized Stats required for Defense Agents."
+        },
+        {
+          "id": "zzz-item-4320150",
+          "name": "[Weakened] Specialized Gear - General - Lv.40",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponB_007.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Provides the Advanced Stats Agents need."
+        },
+        {
+          "id": "zzz-item-4320151",
+          "name": "[Fragile] Advanced Gear - Attack - Lv.40",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_001.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "CRIT DMG increases by 30%; When an Agent hits an enemy with a CRIT, their ATK increases by 15% for 5s. Repeated triggers refresh the duration."
+        },
+        {
+          "id": "zzz-item-4320152",
+          "name": "[Fragile] Advanced Gear - Stun - Lv.40",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_006.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Increases Impact by 15%; when an Agent hits an enemy in a Stunned state, the target's Stun DMG Multiplier increases by 20%."
+        },
+        {
+          "id": "zzz-item-4320153",
+          "name": "[Fragile] Advanced Gear - Anomaly - Lv.40",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_003.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Anomaly Buildup Rate increases by 20%; after the Agent inflicts an Attribute Anomaly on an enemy, the Attribute Anomaly DMG they take increases by 30% for 10s. Repeated triggers refresh the duration."
+        },
+        {
+          "id": "zzz-item-4320154",
+          "name": "[Fragile] Advanced Gear - Support - Lv.40",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_007.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Energy or Adrenaline generation efficiency increases by 20%; when using [EX Special Attack], all squad Agents' DMG increases by 30% for 10s, and repeated triggers reset the duration;"
+        },
+        {
+          "id": "zzz-item-4320155",
+          "name": "[Fragile] Advanced Gear - Rupture - Lv.40",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_005.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "HP increases by 20%; when using [EX Special Attack], increases own Sheer DMG by 20% for 10s. Repeated triggers refresh the duration."
+        },
+        {
+          "id": "zzz-item-4320156",
+          "name": "[Fragile] Advanced Gear - Defense - Lv.40",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_009.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Energy acquisition efficiency increased by 100%; When hitting an enemy with an [EX Special Attack], the target's Stun DMG Multiplier increases by 20% for 10s."
+        },
+        {
+          "id": "zzz-item-4320157",
+          "name": "[Fragile] Advanced Gear - Attack - Modified - Lv.40",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_002.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "ATK increases by 20%; When an Agent uses their [EX Special Attack], increases own CRIT DMG by 30% for 10s."
+        },
+        {
+          "id": "zzz-item-4320158",
+          "name": "[Fragile] Advanced Gear - Anomaly - Modified - Lv.40",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_004.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Anomaly Proficiency increases by 30; When an Agent triggers Attribute Anomaly or Disorder DMG, all Agents' Attribute Anomaly and Disorder DMG ignores 5% All-Attribute RES for 10s. This effect can stack up to 3 times, and repeated triggers refresh the duration."
+        },
+        {
+          "id": "zzz-item-4320159",
+          "name": "[Fragile] Advanced Gear - Support - Modified - Lv.40",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_008.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Decibel Generation Rate increased by 15%; when switched on field, the whole squad's DMG increases by 30% for 20s."
+        },
+        {
+          "id": "zzz-item-4320171",
+          "name": "[Fragile] Advanced Gear - Attack - Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_001.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "CRIT DMG increases by 30%; When an Agent hits an enemy with a CRIT, their ATK increases by 15% for 5s. Repeated triggers refresh the duration."
+        },
+        {
+          "id": "zzz-item-4320172",
+          "name": "[Fragile] Advanced Gear - Stun - Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_006.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Increases Impact by 15%; when an Agent hits an enemy in a Stunned state, the target's Stun DMG Multiplier increases by 20%."
+        },
+        {
+          "id": "zzz-item-4320173",
+          "name": "[Fragile] Advanced Gear - Anomaly - Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_003.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Anomaly Buildup Rate increases by 20%; after the Agent inflicts an Attribute Anomaly on an enemy, the Attribute Anomaly DMG they take increases by 30% for 10s. Repeated triggers refresh the duration."
+        },
+        {
+          "id": "zzz-item-4320174",
+          "name": "[Fragile] Advanced Gear - Support - Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_007.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Energy or Adrenaline generation efficiency increases by 20%; when using [EX Special Attack], all squad Agents' DMG increases by 30% for 10s, and repeated triggers reset the duration;"
+        },
+        {
+          "id": "zzz-item-4320175",
+          "name": "[Fragile] Advanced Gear - Rupture - Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_005.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "HP increases by 20%; when using [EX Special Attack], increases own Sheer DMG by 20% for 10s. Repeated triggers refresh the duration."
+        },
+        {
+          "id": "zzz-item-4320176",
+          "name": "[Fragile] Advanced Gear - Defense - Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_009.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Energy acquisition efficiency increased by 100%; When hitting an enemy with an [EX Special Attack], the target's Stun DMG Multiplier increases by 20% for 10s."
+        },
+        {
+          "id": "zzz-item-4320177",
+          "name": "[Fragile] Advanced Gear - Attack - Modified - Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_002.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "ATK increases by 20%; When an Agent uses their [EX Special Attack], increases own CRIT DMG by 30% for 10s."
+        },
+        {
+          "id": "zzz-item-4320178",
+          "name": "[Fragile] Advanced Gear - Anomaly - Modified - Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_004.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Anomaly Proficiency increases by 30; When an Agent triggers Attribute Anomaly or Disorder DMG, all Agents' Attribute Anomaly and Disorder DMG ignores 5% All-Attribute RES for 10s. This effect can stack up to 3 times, and repeated triggers refresh the duration."
+        },
+        {
+          "id": "zzz-item-4320179",
+          "name": "[Fragile] Advanced Gear - Support - Modified - Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_008.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Decibel Generation Rate increased by 15%; when switched on field, the whole squad's DMG increases by 30% for 20s."
+        },
+        {
+          "id": "zzz-item-4320271",
+          "name": "Legendary Gear - Attack - Lv. 60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponZ_001.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "CRIT DMG increases by 40%; when an Agent hits an enemy and scores a CRIT, their ATK increases by 20% and the enemy's DEF decreases by 10% for 5s. Repeated triggers refresh the duration."
+        },
+        {
+          "id": "zzz-item-4320272",
+          "name": "Legendary Gear - Stun - Lv. 60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponZ_006.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "Impact increases by 20%; when an enemy enters the Stunned state, the whole squad recovers 30 Energy or 30 Adrenaline, triggering at most once every 20s; when an Agent hits an enemy in the Stunned state, the target's Stun DMG Multiplier increases by 30%."
+        },
+        {
+          "id": "zzz-item-4320273",
+          "name": "Legendary Gear - Anomaly - Lv. 60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponZ_003.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "Anomaly Buildup Rate increases by 20%; after the Agent inflicts an Attribute Anomaly on an enemy, their DEF decreases by 20% and the Attribute Anomaly DMG they take increases by 20% for 10s. Repeated triggers refresh the duration."
+        },
+        {
+          "id": "zzz-item-4320274",
+          "name": "Legendary Gear - Support - Lv. 60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponZ_007.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "Energy or Adrenaline acquisition efficiency increases by 20%; When using [EX Special Attack], DMG dealt by all Agents in the squad increases by 30%, and [EX Special Attack] ignores 10% of the target's RES. Lasts 15s. Repeated triggers refresh the duration."
+        },
+        {
+          "id": "zzz-item-4320275",
+          "name": "Legendary Gear - Rupture - Lv. 60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponZ_005.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "Sheer DMG increased by 20%; after the Agent uses their [Ultimate], their own CRIT Rate increases by 25% and CRIT DMG increases by 50% for 10s; repeated triggers reset the duration."
+        },
+        {
+          "id": "zzz-item-4320276",
+          "name": "Legendary Gear - Defense - Lv. 60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponZ_009.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "Decibel Generation Rate increased by 20%; when an Agent performs a [Defensive Assist], the whole squad restores 2 Energy, and enemies' DEF is reduced by 20% for 10s. Repeated triggers refresh the duration."
+        },
+        {
+          "id": "zzz-item-4320277",
+          "name": "Legendary Gear - Attack - Modified - Lv. 60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponZ_002.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "DMG dealt to Dazed enemies increases by 40%; after an Agent hits a Dazed enemy, their own CRIT Rate increases by 20% and CRIT DMG increases by 40% for 10s. Repeated triggers refresh the duration."
+        },
+        {
+          "id": "zzz-item-4320278",
+          "name": "Legendary Gear - Anomaly - Modified - Lv. 60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponZ_004.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "Anomaly Proficiency increases by 40. When an Agent triggers Attribute Anomaly or Disorder, all Agents' Attribute Anomaly and Disorder DMG increases by 10% and ignores 5% of All-Attribute RES for 10. This effect can stack up to 3 times, and repeated triggers reset the duration."
+        },
+        {
+          "id": "zzz-item-4320279",
+          "name": "Legendary Gear - Support - Modified - Lv. 60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponZ_008.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "Decibel Generation Rate increased by 20%; when an Agent's attack hits an enemy, the enemy's DEF is reduced by 40% and the Attribute Anomaly DMG they take is increased by 30% for 10s. Repeated triggers refresh the duration."
+        },
+        {
+          "id": "zzz-item-4321001",
+          "name": "[Fragile] Frost-Drawn Blade - Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_008.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "After using Etheric Phantom: Primordial Nightmare, the incoming Agent's Chain Attack is replaced with their Ultimate. After entering Enlightened Mind, the first use of Basic Attack: Enlightened Mind - Sunderlight Maximum grants 3 Qingming Sword Force and ignores 45% of the enemy's Physical RES for 15s."
+        },
+        {
+          "id": "zzz-item-4321002",
+          "name": "[Vulnerable] Frost Inferno-Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_001.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "After Hoshimi Miyabi executes a Powerful Slash on an enemy, she immediately restores 1 Fallen Frost point. Enemies afflicted with Icefire take Frost DMG equal to 260% of Hoshimi Miyabi's ATK per second. Upon triggering Frostburn - Break, Hoshimi Miyabi can bypass the restrictions of Frostburn and immediately reapply Icefire to enemies."
+        },
+        {
+          "id": "zzz-item-4321003",
+          "name": "[Fragile] Xuanling Jin Register-Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_005.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When triggering a Perfect Block, Yixuan immediately recovers 60 Adrenaline. While charging for EX Special Attack: Ink Manifestation, Perfect Block can be triggered, after which additionally restores 15 Technique Points and gains 18% DMG boost that lasts for 15s. Each Perfect Block against an enemy increases the next Ultimate DMG by an additional 20%, stacking up to 3 times."
+        },
+        {
+          "id": "zzz-item-4321004",
+          "name": "[Fragile] Highlight Solo Dance-Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_012.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Nangong Yu's Precise Charging deals 20% more Daze. If your Inventory contains a Valuable, Etheric Phantom: Scorched Horizon increases the Daze DMG Multiplier of enemies it hits by 20%. When Nangong Yu triggers Precise Charging, all squad members recover 4 Energy. Whenever any squad member uses a Chain Attack, all squad members recover 120 Decibels."
+        },
+        {
+          "id": "zzz-item-4321005",
+          "name": "[Fragile] Moxiang Falling Cut - Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_022.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When dealing DMG to enemies using Etheric Phantom, applies a certain amount of Daze. If Positive Reviews drop below 90, immediately restores 60 Positive Reviews and restores squad members' Decibels by 750. This effect can be triggered once every 30s."
+        },
+        {
+          "id": "zzz-item-4321006",
+          "name": "[Fragile] Dream Surge-Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_007.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When using Etheric Phantom, the squad's Corruption value is greatly reduced. When Lucia upgrades a skill or uses an Aftershock, she gains 1 stack of Surge, stacking up to 4 times;\nUpon exiting the Dream state, all Surge stacks will be consumed, where each consumed stack regenerates 10 Energy for herself."
+        },
+        {
+          "id": "zzz-item-4321007",
+          "name": "[Fragile] Bubble Planet-Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_010.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When Etheric Phantom is used, Sunna immediately recovers 60 Energy. When Sunna's Ether Veil: Delusion Reprise is active, all squad members deal 80% more DMG with their Basic Attacks, Dash Attacks, Dodge Counters, Special Attacks, and EX Special Attacks."
+        },
+        {
+          "id": "zzz-item-4321008",
+          "name": "[Fragile] Rainbow Concerto - Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_003.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Medicine takes effect immediately. During the Idyllic Cadenza state, characters with Attack specialty gain 30% increased CRIT DMG, characters with Anomaly specialty gain 60 increased Anomaly Proficiency, and characters with Rupture specialty deal 15% increased Sheer DMG. When the active character hits enemies with an EX Special Attack, Astra Yao will regenerates 4 Energy and perform an additional attack with Tremolo. The Energy Generation effect can be triggered once per second."
+        },
+        {
+          "id": "zzz-item-4321009",
+          "name": "[Fragile] Drifting Wind Crown-Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_016.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Using Etheric Phantom: Unfathomable deals additional Abloom DMG. While Sweeping Cyclone is on the field, all squad members' Energy Generation Rate increases by 40% and Decibel Generation Rate by 30%, and Sweeping Cyclone lasts 3s longer."
+        },
+        {
+          "id": "zzz-item-4321010",
+          "name": "[Fragile] Hollow Wing Pilgrimage-Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_018.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When an Agent in the team receives fatal damage, if there are other Agents available to switch to, they can be revived once (only effective once per match). When Remielle is the active character, she regenerates1.6 Energy per second. When triggering EX Special Attack, gains 3 special Voidflare."
+        },
+        {
+          "id": "zzz-item-4321011",
+          "name": "[Fragile] Chaotic Spearhead-Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_019.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "After all squad members attack Hound -\nUlidim, the latter is dazed for 3s, and the DMG dealt increases by 30%. While in the Aerial Patrol Spear form, the Energy Cost of EX Special Attack decreases."
+        },
+        {
+          "id": "zzz-item-4321012",
+          "name": "[Vulnerable] Grand Finale Precinct-Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_017.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Etheric Phantom: Scorpse deals 50% more DMG. When another squad member uses an Ultimate, Norma immediately gains 100% Preheated Chamber. This can be triggered once every 40s.\nWhen any Agent uses a Chain Attack, that Agent's Decibel Generation Rate increases by 25% for 15s. Repeated triggers reset the duration."
+        },
+        {
+          "id": "zzz-item-4321013",
+          "name": "[Vulnerable] Insight Flame-Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_021.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "The map will mark the locations of some unopened strongboxes. Upon triggering a Perfect Block with an EX Special Attack, Pyrois recovers 10 Energy and 20 Solar Prominence."
+        },
+        {
+          "id": "zzz-item-4321014",
+          "name": "[Vulnerable] Cyclone Condemnation-Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_014.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "While Cacophony Soundscape is active, Promeia's DMG increases by 15%. When Promeia triggers EX Special Attack: Execution - Merciless Judgment, she restores 15 additional Corrosive Chill, and when triggering EX Special Attack: Execution - Shrouded in Shadow, she recovers 15 additional Corrosive Chill. When triggering Abloom, her Abloom DMG increases by 6%, stacking up to 10 times, lasting 60s."
+        },
+        {
+          "id": "zzz-item-4321015",
+          "name": "[Fragile] Ouroboros Circuit-Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_013.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When using Etheric Phantom to enter stealth, stealth duration is extended by 10s. After using EX Special Attack, gains the Viper Strike effect: When any Non-Corrode Bone attack hits an enemy, it triggers a free special Corrode Bone that cannot inflict Daze. This effect can be triggered once every 1s and lasts for 6s."
+        },
+        {
+          "id": "zzz-item-4321016",
+          "name": "[Vulnerable] Delusional Radiance-Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_011.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When Etheric Phantom is used, Aria immediately recovers 800 Decibels. After Aria completes her EX Special Attack, the Fandom Power generated on the field increases by 1, and EX Special Attack: Instantly Hooked does not consume Energy."
+        },
+        {
+          "id": "zzz-item-4321017",
+          "name": "[Fragile] Spirit Witch Ward-Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_009.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When the Etheric Phantom: Sobek effect ends, each squad member recovers HP equal to 10% of their remaining Shield from that effect. When Yuzuha uses her EX Special Attack or Ultimate, her Anomaly Mastery increases by 40 for 30s. Repeated triggers reset the duration. When either attack hits an enemy, it reduces the target's DEF by 18% and All-Attribute RES by 15% for 30s. Repeated triggers reset the duration."
+        },
+        {
+          "id": "zzz-item-4321018",
+          "name": "[Vulnerable] Mountain Lord Break\u715e-Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_006.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "After opening a Strongbox, all squad members gain a Shield equal to 15% of their Max HP for 60s. This effect does not stack, and the same Strongbox cannot trigger it more than once. After Ju Fufu uses Chain Attack: Suppressing Tiger Cauldron, if she is not the active character, she launches one Tag Assist, circling the enemy and performing the fourth hit of her Basic Attack. The skill's DMG is considered Aftershock DMG. DMG dealt increases by 75% and Daze dealt increases by 45%."
+        },
+        {
+          "id": "zzz-item-4321019",
+          "name": "[Fragile] Lethal Etiquette-Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_004.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "After using Phase Dash, Evelyn recovers 1 Burning Tether Point. When any squad member's Aftershock, Quick Assist, or Perfect Assist hits enemies, Evelyn restores Burning Embers. When Evelyn consumes Burning Tether Points to activate Chain Attack: Lunalux - Snare, it will be replaced by Chain Attack: Lunalux - Entanglement, significantly reducing skill duration. When Evelyn's Chain Attack hits enemies, the skill's DMG increases by 80%."
+        },
+        {
+          "id": "zzz-item-4321020",
+          "name": "[Vulnerable] Encircle Prey Time-Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_020.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When Etheric Phantom is used, Jane immediately recovers 100 points of Passion Stream. {AWAKEN_1261#EX Special Attack: Aerial Sweep is upgraded to EX Special Attack: Aerial Sweep - Onslaught, with its DMG Multiplier and Anomaly Buildup greatly increased}{NOAWAKEN_1261#EX Special Attack: Aerial Sweep is upgraded to EX Special Attack: Aerial Sweep - Onslaught}. Hitting an enemy with this skill inflicts Wound on the target. While in this state, the target takes Physical DMG equal to 60% of Jane's ATK and accumulates Physical Anomaly Buildup once per second for 8s. Repeated triggers reset the duration."
+        },
+        {
+          "id": "zzz-item-4321021",
+          "name": "[Fragile] Mist Tide Resurgence-Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_002.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "While Roaming is active, the Cacophony Soundscape's Corruption is reduced to 70% of its original value. When Ellen uses an EX Special Attack, Chain Attack, or Ultimate, she leaves Icy Mist on the ground, dealing continuous Ice DMG for 15s. Agents inside Icy Mist gain increased Anti-Interrupt Level and take 30% less DMG. These effects persist for 5s after leaving Icy Mist. When Ellen hits an enemy inside Icy Mist, Icy Mist deals one additional instance of DMG."
+        },
+        {
+          "id": "zzz-item-4322001",
+          "name": "Sword of Azure Frost-Lv.60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_008.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "After using Etheric Phantom: Primordial Nightmare, the incoming Agent's Chain Attack is replaced with their Ultimate. After entering Enlightened Mind, the first use of Basic Attack: Enlightened Mind - Sunderlight Maximum grants 3 Qingming Sword Force and ignores 45% of the enemy's Physical RES for 15s."
+        },
+        {
+          "id": "zzz-item-4322002",
+          "name": "Frost Inferno-Lv.60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_001.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "After Hoshimi Miyabi executes a Powerful Slash on an enemy, she immediately restores 1 Fallen Frost point. Enemies afflicted with Icefire take Frost DMG equal to 260% of Hoshimi Miyabi's ATK per second. Upon triggering Frostburn - Break, Hoshimi Miyabi can bypass the restrictions of Frostburn and immediately reapply Icefire to enemies."
+        },
+        {
+          "id": "zzz-item-4322003",
+          "name": "Xuanling Jin Register-Lv.60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_005.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "When triggering a Perfect Block, Yixuan immediately recovers 60 Adrenaline. While charging for EX Special Attack: Ink Manifestation, Perfect Block can be triggered, after which additionally restores 15 Technique Points and gains 18% DMG boost that lasts for 15s. Each Perfect Block against an enemy increases the next Ultimate DMG by an additional 20%, stacking up to 3 times."
+        },
+        {
+          "id": "zzz-item-4322004",
+          "name": "Spotlight Solo Dance-Lv.60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_012.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "Nangong Yu's Precise Charging deals 20% more Daze. If your Inventory contains a Valuable, Etheric Phantom: Scorched Horizon increases the Daze DMG Multiplier of enemies it hits by 20%. When Nangong Yu triggers Precise Charging, all squad members recover 4 Energy. Whenever any squad member uses a Chain Attack, all squad members recover 120 Decibels."
+        },
+        {
+          "id": "zzz-item-4322005",
+          "name": "\u6b81\u76f8\u5760\u88c1-Lv.60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_022.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "When dealing DMG to enemies using Etheric Phantom, applies a certain amount of Daze. If Positive Reviews drop below 90, immediately restores 60 Positive Reviews and restores squad members' Decibels by 750. This effect can be triggered once every 30s."
+        },
+        {
+          "id": "zzz-item-4322006",
+          "name": "Dream Surge-Lv.60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_007.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "When using Etheric Phantom, the squad's Corruption value is greatly reduced. When Lucia upgrades a skill or uses an Aftershock, she gains 1 stack of Surge, stacking up to 4 times;\nUpon exiting the Dream state, all Surge stacks will be consumed, where each consumed stack regenerates 10 Energy for herself."
+        },
+        {
+          "id": "zzz-item-4322007",
+          "name": "Bubble Planet-Lv.60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_010.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "When Etheric Phantom is used, Sunna immediately recovers 60 Energy. When Sunna's Ether Veil: Delusion Reprise is active, all squad members deal 80% more DMG with their Basic Attacks, Dash Attacks, Dodge Counters, Special Attacks, and EX Special Attacks."
+        },
+        {
+          "id": "zzz-item-4322008",
+          "name": "Rainbow Concerto-Lv.60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_003.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "Medicine takes effect immediately. During the Idyllic Cadenza state, characters with Attack specialty gain 30% increased CRIT DMG, characters with Anomaly specialty gain 60 increased Anomaly Proficiency, and characters with Rupture specialty deal 15% increased Sheer DMG. When the active character hits enemies with an EX Special Attack, Astra Yao will regenerates 4 Energy and perform an additional attack with Tremolo. The Energy Generation effect can be triggered once per second."
+        },
+        {
+          "id": "zzz-item-4322009",
+          "name": "Huaguan Liufeng-Lv.60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_016.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "Using Etheric Phantom: Unfathomable deals additional Abloom DMG. While Sweeping Cyclone is on the field, all squad members' Energy Generation Rate increases by 40% and Decibel Generation Rate by 30%, and Sweeping Cyclone lasts 3s longer."
+        },
+        {
+          "id": "zzz-item-4322010",
+          "name": "Sky Wing Pilgrimage-Lv.60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_018.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "When an Agent in the team receives fatal damage, if there are other Agents available to switch to, they can be revived once (only effective once per match). When Remielle is the active character, she regenerates1.6 Energy per second. When triggering EX Special Attack, gains 3 special Voidflare."
+        },
+        {
+          "id": "zzz-item-4322011",
+          "name": "Chaotic Spearhead-Lv.60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_019.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "After all squad members attack Hound -\nUlidim, the latter is dazed for 3s, and the DMG dealt increases by 30%. While in the Aerial Patrol Spear form, the Energy Cost of EX Special Attack decreases."
+        },
+        {
+          "id": "zzz-item-4322012",
+          "name": "Grand Finale Precinct-Lv.60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_017.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "Etheric Phantom: Scorpse deals 50% more DMG. When another squad member uses an Ultimate, Norma immediately gains 100% Preheated Chamber. This can be triggered once every 40s.\nWhen any Agent uses a Chain Attack, that Agent's Decibel Generation Rate increases by 25% for 15s. Repeated triggers reset the duration."
+        },
+        {
+          "id": "zzz-item-4322013",
+          "name": "Insight Flame-Lv.60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_021.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "The map will mark the locations of some unopened strongboxes. Upon triggering a Perfect Block with an EX Special Attack, Pyrois recovers 10 Energy and 20 Solar Prominence."
+        },
+        {
+          "id": "zzz-item-4322014",
+          "name": "Whirlwind Conviction-Lv.60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_014.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "While Cacophony Soundscape is active, Promeia's DMG increases by 15%. When Promeia triggers EX Special Attack: Execution - Merciless Judgment, she restores 15 additional Corrosive Chill, and when triggering EX Special Attack: Execution - Shrouded in Shadow, she recovers 15 additional Corrosive Chill. When triggering Abloom, her Abloom DMG increases by 6%, stacking up to 10 times, lasting 60s."
+        },
+        {
+          "id": "zzz-item-4322015",
+          "name": "Ouroboros Circuit-Lv.60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_013.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "When using Etheric Phantom to enter stealth, stealth duration is extended by 10s. After using EX Special Attack, gains the Viper Strike effect: When any Non-Corrode Bone attack hits an enemy, it triggers a free special Corrode Bone that cannot inflict Daze. This effect can be triggered once every 1s and lasts for 6s."
+        },
+        {
+          "id": "zzz-item-4322016",
+          "name": "Delusional Radiance-Lv.60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_011.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "When Etheric Phantom is used, Aria immediately recovers 800 Decibels. After Aria completes her EX Special Attack, the Fandom Power generated on the field increases by 1, and EX Special Attack: Instantly Hooked does not consume Energy."
+        },
+        {
+          "id": "zzz-item-4322017",
+          "name": "Spirit Shaman Ward-Lv.60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_009.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "When the Etheric Phantom: Sobek effect ends, each squad member recovers HP equal to 10% of their remaining Shield from that effect. When Yuzuha uses her EX Special Attack or Ultimate, her Anomaly Mastery increases by 40 for 30s. Repeated triggers reset the duration. When either attack hits an enemy, it reduces the target's DEF by 18% and All-Attribute RES by 15% for 30s. Repeated triggers reset the duration."
+        },
+        {
+          "id": "zzz-item-4322018",
+          "name": "Mountain Lord Break-Lv.60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_006.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "After opening a Strongbox, all squad members gain a Shield equal to 15% of their Max HP for 60s. This effect does not stack, and the same Strongbox cannot trigger it more than once. After Ju Fufu uses Chain Attack: Suppressing Tiger Cauldron, if she is not the active character, she launches one Tag Assist, circling the enemy and performing the fourth hit of her Basic Attack. The skill's DMG is considered Aftershock DMG. DMG dealt increases by 75% and Daze dealt increases by 45%."
+        },
+        {
+          "id": "zzz-item-4322019",
+          "name": "Lethal Etiquette-Lv.60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_004.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "After using Phase Dash, Evelyn recovers 1 Burning Tether Point. When any squad member's Aftershock, Quick Assist, or Perfect Assist hits enemies, Evelyn restores Burning Embers. When Evelyn consumes Burning Tether Points to activate Chain Attack: Lunalux - Snare, it will be replaced by Chain Attack: Lunalux - Entanglement, significantly reducing skill duration. When Evelyn's Chain Attack hits enemies, the skill's DMG increases by 80%."
+        },
+        {
+          "id": "zzz-item-4322020",
+          "name": "Encircle Prey Time-Lv.60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_020.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "When Etheric Phantom is used, Jane immediately recovers 100 points of Passion Stream. {AWAKEN_1261#EX Special Attack: Aerial Sweep is upgraded to EX Special Attack: Aerial Sweep - Onslaught, with its DMG Multiplier and Anomaly Buildup greatly increased}{NOAWAKEN_1261#EX Special Attack: Aerial Sweep is upgraded to EX Special Attack: Aerial Sweep - Onslaught}. Hitting an enemy with this skill inflicts Wound on the target. While in this state, the target takes Physical DMG equal to 60% of Jane's ATK and accumulates Physical Anomaly Buildup once per second for 8s. Repeated triggers reset the duration."
+        },
+        {
+          "id": "zzz-item-4322021",
+          "name": "Mist Tide Resurgence-Lv.60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_002.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "While Roaming is active, the Cacophony Soundscape's Corruption is reduced to 70% of its original value. When Ellen uses an EX Special Attack, Chain Attack, or Ultimate, she leaves Icy Mist on the ground, dealing continuous Ice DMG for 15s. Agents inside Icy Mist gain increased Anti-Interrupt Level and take 30% less DMG. These effects persist for 5s after leaving Icy Mist. When Ellen hits an enemy inside Icy Mist, Icy Mist deals one additional instance of DMG."
+        },
+        {
+          "id": "zzz-item-4323101",
+          "name": "[Fragile] Base Gear \u00b7 General - Lv.15",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponC_001.webp",
+          "fields": {
+            "rarity": "1 \u2605"
+          },
+          "text": "Provides the Base Stats required by Agents."
+        },
+        {
+          "id": "zzz-item-4323102",
+          "name": "Basic Gear - General - Lv.20",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponC_001.webp",
+          "fields": {
+            "rarity": "1 \u2605"
+          },
+          "text": "Provides the Base Stats required by Agents."
+        },
+        {
+          "id": "zzz-item-4323103",
+          "name": "[Weakened] Base Gear - General - Lv.10",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponC_001.webp",
+          "fields": {
+            "rarity": "1 \u2605"
+          },
+          "text": "Provides the Base Stats required by Agents."
+        },
+        {
+          "id": "zzz-item-4323104",
+          "name": "[Fragile] Advanced Gear - Attack - Lv.25",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponB_001.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Provides the Advanced Stats needed for Attack Agents."
+        },
+        {
+          "id": "zzz-item-4323105",
+          "name": "[Fragile] Advanced Gear - Stun - Lv.25",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponB_004.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Provides the Advanced Stats needed to Stun Agents."
+        },
+        {
+          "id": "zzz-item-4323106",
+          "name": "[Fragile] Advanced Gear - Anomaly - Lv.25",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponB_002.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Provides the Advanced Stats needed for Anomaly Agents."
+        },
+        {
+          "id": "zzz-item-4323107",
+          "name": "[Fragile] Advanced Gear - Support - Lv.25",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponB_005.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Provides the Advanced Stats needed for Support Agents."
+        },
+        {
+          "id": "zzz-item-4323108",
+          "name": "[Fragile] Advanced Gear - Rupture - Lv.25",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponB_003.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Provides the Advanced Stats required by Rupture Agents."
+        },
+        {
+          "id": "zzz-item-4323109",
+          "name": "[Fragile] Advanced Gear - Defense - Lv.25",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponB_006.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Provides the Advanced Stats needed for Defense Agents."
+        },
+        {
+          "id": "zzz-item-4323110",
+          "name": "[Weakened] Base Gear \u00b7 General - Lv.15",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponC_001.webp",
+          "fields": {
+            "rarity": "1 \u2605"
+          },
+          "text": "Provides the Base Stats required by Agents."
+        },
+        {
+          "id": "zzz-item-4323121",
+          "name": "[Fragile] Specialized Gear - Attack - Lv.35",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponA_001.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Provides specialized Stats required for Attack Agents."
+        },
+        {
+          "id": "zzz-item-4323122",
+          "name": "[Fragile] Specialized Gear - Stun - Lv.35",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponA_004.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Provides specialized attributes needed to Stun Agents."
+        },
+        {
+          "id": "zzz-item-4323123",
+          "name": "[Fragile] Specialized Gear - Anomaly - Lv.35",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponA_002.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Provides the specialized Stats required by Anomaly Agents."
+        },
+        {
+          "id": "zzz-item-4323124",
+          "name": "[Fragile] Specialized Gear - Support - Lv.35",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponA_005.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Provides the specialized Stats required for Support Agents."
+        },
+        {
+          "id": "zzz-item-4323125",
+          "name": "[Fragile] Specialized Gear - Rupture - Lv.35",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponA_003.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Provides the specialized stats required by Rupture Agents."
+        },
+        {
+          "id": "zzz-item-4323126",
+          "name": "[Fragile] Specialized Gear - Defense - Lv.35",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponA_006.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Provides specialized Stats required for Defense Agents."
+        },
+        {
+          "id": "zzz-item-4323151",
+          "name": "[Fragile] Advanced Gear - Attack - Lv.45",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_001.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "CRIT DMG increases by 30%; When an Agent hits an enemy with a CRIT, their ATK increases by 15% for 5s. Repeated triggers refresh the duration."
+        },
+        {
+          "id": "zzz-item-4323152",
+          "name": "[Fragile] Advanced Gear - Stun - Lv.45",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_006.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Increases Impact by 15%; when an Agent hits an enemy in a Stunned state, the target's Stun DMG Multiplier increases by 20%."
+        },
+        {
+          "id": "zzz-item-4323153",
+          "name": "[Fragile] Advanced Gear - Anomaly - Lv.45",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_003.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Anomaly Buildup Rate increases by 20%; after the Agent inflicts an Attribute Anomaly on an enemy, the Attribute Anomaly DMG they take increases by 30% for 10s. Repeated triggers refresh the duration."
+        },
+        {
+          "id": "zzz-item-4323154",
+          "name": "[Fragile] Advanced Gear - Support - Lv.45",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_007.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Energy or Adrenaline generation efficiency increases by 20%; when using [EX Special Attack], all squad Agents' DMG increases by 30% for 10s, and repeated triggers reset the duration;"
+        },
+        {
+          "id": "zzz-item-4323155",
+          "name": "[Fragile] Advanced Gear - Rupture - Lv.45",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_005.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "HP increases by 20%; when using [EX Special Attack], increases own Sheer DMG by 20% for 10s. Repeated triggers refresh the duration."
+        },
+        {
+          "id": "zzz-item-4323156",
+          "name": "[Fragile] Advanced Gear - Defense - Lv.45",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_009.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Energy acquisition efficiency increased by 100%; When hitting an enemy with an [EX Special Attack], the target's Stun DMG Multiplier increases by 20% for 10s."
+        },
+        {
+          "id": "zzz-item-4323157",
+          "name": "[Fragile] Advanced Gear - Attack - Modified - Lv.45",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_002.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "ATK increases by 20%; When an Agent uses their [EX Special Attack], increases own CRIT DMG by 30% for 10s."
+        },
+        {
+          "id": "zzz-item-4323158",
+          "name": "[Fragile] Advanced Gear - Anomaly - Modified - Lv.45",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_004.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Anomaly Proficiency increases by 30; When an Agent triggers Attribute Anomaly or Disorder DMG, all Agents' Attribute Anomaly and Disorder DMG ignores 5% All-Attribute RES for 10s. This effect can stack up to 3 times, and repeated triggers refresh the duration."
+        },
+        {
+          "id": "zzz-item-4323159",
+          "name": "[Fragile] Advanced Gear - Support - Modified - Lv.45",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_008.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Decibel Generation Rate increased by 15%; when switched on field, the whole squad's DMG increases by 30% for 20s."
+        },
+        {
+          "id": "zzz-item-4325201",
+          "name": "Advanced Gear - Attack - Lv.20",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponB_001.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Provides the Advanced Stats needed for Attack Agents."
+        },
+        {
+          "id": "zzz-item-4325202",
+          "name": "Advanced Gear - Stun - Lv.20",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponB_004.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Provides the Advanced Stats needed to Stun Agents."
+        },
+        {
+          "id": "zzz-item-4325203",
+          "name": "Advanced Gear - Anomaly - Lv.20",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponB_002.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Provides the Advanced Stats needed for Anomaly Agents."
+        },
+        {
+          "id": "zzz-item-4325204",
+          "name": "Advanced Gear - Support - Lv.20",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponB_005.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Provides the Advanced Stats needed for Support Agents."
+        },
+        {
+          "id": "zzz-item-4325205",
+          "name": "Advanced Gear - Rupture - Lv.20",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponB_003.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Provides the Advanced Stats required by Rupture Agents."
+        },
+        {
+          "id": "zzz-item-4325206",
+          "name": "Advanced Gear - Defense - Lv.20",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponB_006.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Provides the Advanced Stats needed for Defense Agents."
+        },
+        {
+          "id": "zzz-item-4325301",
+          "name": "Specialized Gear - Attack - Lv.30",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponA_001.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Provides specialized Stats required for Attack Agents."
+        },
+        {
+          "id": "zzz-item-4325302",
+          "name": "Specialized Gear - Stun - Lv.30",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponA_004.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Provides specialized attributes needed to Stun Agents."
+        },
+        {
+          "id": "zzz-item-4325303",
+          "name": "Specialized Gear - Anomaly - Lv.30",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponA_002.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Provides the specialized Stats required by Anomaly Agents."
+        },
+        {
+          "id": "zzz-item-4325304",
+          "name": "Specialized Gear - Support - Lv.30",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponA_005.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Provides the specialized Stats required for Support Agents."
+        },
+        {
+          "id": "zzz-item-4325305",
+          "name": "Specialized Gear - Rupture - Lv.30",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponA_003.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Provides the specialized stats required by Rupture Agents."
+        },
+        {
+          "id": "zzz-item-4325306",
+          "name": "Specialized Gear - Defense - Lv.30",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponA_006.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Provides specialized Stats required for Defense Agents."
+        },
+        {
+          "id": "zzz-item-4325401",
+          "name": "Advanced Gear - Attack - Lv.40",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_001.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "CRIT DMG increases by 30%; When an Agent hits an enemy with a CRIT, their ATK increases by 15% for 5s. Repeated triggers refresh the duration."
+        },
+        {
+          "id": "zzz-item-4325402",
+          "name": "Advanced Gear - Stun - Lv.40",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_006.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Increases Impact by 15%; when an Agent hits an enemy in a Stunned state, the target's Stun DMG Multiplier increases by 20%."
+        },
+        {
+          "id": "zzz-item-4325403",
+          "name": "Advanced Gear - Anomaly - Lv.40",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_003.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Anomaly Buildup Rate increases by 20%; after the Agent inflicts an Attribute Anomaly on an enemy, the Attribute Anomaly DMG they take increases by 30% for 10s. Repeated triggers refresh the duration."
+        },
+        {
+          "id": "zzz-item-4325404",
+          "name": "Advanced Gear - Support - Lv.40",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_007.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Energy or Adrenaline generation efficiency increases by 20%; when using [EX Special Attack], all squad Agents' DMG increases by 30% for 10s, and repeated triggers reset the duration;"
+        },
+        {
+          "id": "zzz-item-4325405",
+          "name": "Advanced Gear - Rupture - Lv.40",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_005.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "HP increases by 20%; when using [EX Special Attack], increases own Sheer DMG by 20% for 10s. Repeated triggers refresh the duration."
+        },
+        {
+          "id": "zzz-item-4325406",
+          "name": "Advanced Gear - Defense - Lv.40",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_009.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Energy acquisition efficiency increased by 100%; When hitting an enemy with an [EX Special Attack], the target's Stun DMG Multiplier increases by 20% for 10s."
+        },
+        {
+          "id": "zzz-item-4325407",
+          "name": "Advanced Gear - Attack - Modified - Lv.40",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_002.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "ATK increases by 20%; When an Agent uses their [EX Special Attack], increases own CRIT DMG by 30% for 10s."
+        },
+        {
+          "id": "zzz-item-4325408",
+          "name": "Advanced Gear - Anomaly - Modified - Lv.40",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_004.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Anomaly Proficiency increases by 30; When an Agent triggers Attribute Anomaly or Disorder DMG, all Agents' Attribute Anomaly and Disorder DMG ignores 5% All-Attribute RES for 10s. This effect can stack up to 3 times, and repeated triggers refresh the duration."
+        },
+        {
+          "id": "zzz-item-4325409",
+          "name": "Advanced Gear - Support - Modified - Lv.40",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_008.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Decibel Generation Rate increased by 15%; when switched on field, the whole squad's DMG increases by 30% for 20s."
+        },
+        {
+          "id": "zzz-item-4325501",
+          "name": "Advanced Gear - Attack - Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_001.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "CRIT DMG increases by 30%; When an Agent hits an enemy with a CRIT, their ATK increases by 15% for 5s. Repeated triggers refresh the duration."
+        },
+        {
+          "id": "zzz-item-4325502",
+          "name": "Advanced Gear - Stun - Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_006.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Increases Impact by 15%; when an Agent hits an enemy in a Stunned state, the target's Stun DMG Multiplier increases by 20%."
+        },
+        {
+          "id": "zzz-item-4325503",
+          "name": "Advanced Gear - Anomaly - Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_003.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Anomaly Buildup Rate increases by 20%; after the Agent inflicts an Attribute Anomaly on an enemy, the Attribute Anomaly DMG they take increases by 30% for 10s. Repeated triggers refresh the duration."
+        },
+        {
+          "id": "zzz-item-4325504",
+          "name": "Advanced Gear - Support - Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_007.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Energy or Adrenaline generation efficiency increases by 20%; when using [EX Special Attack], all squad Agents' DMG increases by 30% for 10s, and repeated triggers reset the duration;"
+        },
+        {
+          "id": "zzz-item-4325505",
+          "name": "Advanced Gear - Rupture - Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_005.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "HP increases by 20%; when using [EX Special Attack], increases own Sheer DMG by 20% for 10s. Repeated triggers refresh the duration."
+        },
+        {
+          "id": "zzz-item-4325506",
+          "name": "Advanced Gear - Defense - Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_009.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Energy acquisition efficiency increased by 100%; When hitting an enemy with an [EX Special Attack], the target's Stun DMG Multiplier increases by 20% for 10s."
+        },
+        {
+          "id": "zzz-item-4325507",
+          "name": "Advanced Gear - Attack - Modified - Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_002.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "ATK increases by 20%; When an Agent uses their [EX Special Attack], increases own CRIT DMG by 30% for 10s."
+        },
+        {
+          "id": "zzz-item-4325508",
+          "name": "Advanced Gear - Anomaly - Modified - Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_004.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Anomaly Proficiency increases by 30; When an Agent triggers Attribute Anomaly or Disorder DMG, all Agents' Attribute Anomaly and Disorder DMG ignores 5% All-Attribute RES for 10s. This effect can stack up to 3 times, and repeated triggers refresh the duration."
+        },
+        {
+          "id": "zzz-item-4325509",
+          "name": "Advanced Gear - Support - Modified - Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_008.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Decibel Generation Rate increased by 15%; when switched on field, the whole squad's DMG increases by 30% for 20s."
+        },
+        {
+          "id": "zzz-item-4326001",
+          "name": "Frost-Draw Blade-Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_008.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "After using Etheric Phantom: Primordial Nightmare, the incoming Agent's Chain Attack is replaced with their Ultimate. After entering Enlightened Mind, the first use of Basic Attack: Enlightened Mind - Sunderlight Maximum grants 3 Qingming Sword Force and ignores 45% of the enemy's Physical RES for 15s."
+        },
+        {
+          "id": "zzz-item-4326002",
+          "name": "Frost Inferno-Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_001.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "After Hoshimi Miyabi executes a Powerful Slash on an enemy, she immediately restores 1 Fallen Frost point. Enemies afflicted with Icefire take Frost DMG equal to 260% of Hoshimi Miyabi's ATK per second. Upon triggering Frostburn - Break, Hoshimi Miyabi can bypass the restrictions of Frostburn and immediately reapply Icefire to enemies."
+        },
+        {
+          "id": "zzz-item-4326003",
+          "name": "Xuanling Jin Lu-Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_005.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When triggering a Perfect Block, Yixuan immediately recovers 60 Adrenaline. While charging for EX Special Attack: Ink Manifestation, Perfect Block can be triggered, after which additionally restores 15 Technique Points and gains 18% DMG boost that lasts for 15s. Each Perfect Block against an enemy increases the next Ultimate DMG by an additional 20%, stacking up to 3 times."
+        },
+        {
+          "id": "zzz-item-4326004",
+          "name": "Spotlight Solo Dance-Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_012.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Nangong Yu's Precise Charging deals 20% more Daze. If your Inventory contains a Valuable, Etheric Phantom: Scorched Horizon increases the Daze DMG Multiplier of enemies it hits by 20%. When Nangong Yu triggers Precise Charging, all squad members recover 4 Energy. Whenever any squad member uses a Chain Attack, all squad members recover 120 Decibels."
+        },
+        {
+          "id": "zzz-item-4326005",
+          "name": "\u6b81\u76f8\u5760\u88c1-Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_022.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When dealing DMG to enemies using Etheric Phantom, apply a certain amount of Daze. If drop below 90 Positive Reviews, immediately restore 60 Positive Reviews and restore squad members' Decibels by 750. This effect can trigger once every 30s."
+        },
+        {
+          "id": "zzz-item-4326006",
+          "name": "Dream Surge-Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_007.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When using Etheric Phantom, the squad's Corruption value is greatly reduced. When Lucia upgrades a skill or uses an Aftershock, she gains 1 stack of Surge, stacking up to 4 times;\nUpon exiting Dream state, all Surge stack will be consumed, where each consumed stackregenerates 10 Energy for herself."
+        },
+        {
+          "id": "zzz-item-4326007",
+          "name": "Bubble Planet-Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_010.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When Etheric Phantom is used, Sunna immediately recovers 60 Energy. When Sunna's Ether Veil: Delusion Reprise is active, all squad members deal 80% more DMG with their Basic Attacks, Dash Attacks, Dodge Counters, Special Attacks, and EX Special Attacks."
+        },
+        {
+          "id": "zzz-item-4326008",
+          "name": "Rainbow Concerto-Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_003.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Medicine takes effect immediately. During Idyllic Cadenza state, characters with Attack specialty gain 30% increased CRIT DMG, characters with Anomaly specialty gain 60 increased Anomaly Proficiency, and characters with Rupture specialty deal 15% increased Sheer DMG. When the active character hits enemies with an EX Special Attack, Astra Yao will regenerates 4 Energy and perform an additional attack with Tremolo. The Energy Generation effect can trigger once per second."
+        },
+        {
+          "id": "zzz-item-4326009",
+          "name": "Sovereign Windflow-Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_016.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Using Etheric Phantom: Unfathomable deals additional Abloom DMG. While Sweeping Cyclone is on the field, all squad members' Energy Generation Rate increases by 40% and Decibel Generation Rate by 30%, and Sweeping Cyclone lasts 3s longer."
+        },
+        {
+          "id": "zzz-item-4326010",
+          "name": "Sky Wing Pilgrimage-Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_018.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When an Agent in the team receives fatal damage, if there are other Agents available to switch to, they can be revived once (only effective once per match). When Remielle is the active character, she regenerates1.6 Energy per second. When triggering EX Special Attack, gain 3 special Voidflare."
+        },
+        {
+          "id": "zzz-item-4326011",
+          "name": "Chaotic Spearhead-Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_019.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "The duration of the Stunned state inflicted on Hound - Ulidim when any squad member attacks it and causes it to become Stunned is increased by 3s. DMG dealt by all squad members to Hound - Ulidim is increased by 30%. While in the Aerial Patrol Spear state, EX Special Attacks consumes less Energy."
+        },
+        {
+          "id": "zzz-item-4326012",
+          "name": "Grand Finale Precinct-Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_017.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Etheric Phantom: Scorpse deals 50% more DMG. When another squad member uses an Ultimate, Norma immediately gains 100% Preheated Chamber. This can be triggered once every 40s.\nWhen any Agent uses a Chain Attack, that Agent's Decibel Generation Rate increases by 25% for 15s. Repeated triggers reset the duration."
+        },
+        {
+          "id": "zzz-item-4326013",
+          "name": "Insight Flame-Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_021.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "The map will mark the locations of some unopened strongboxes. Upon triggering a Perfect Block with an EX Special Attack, Pyrois recovers 10 Energy and 20 Solar Prominence."
+        },
+        {
+          "id": "zzz-item-4326014",
+          "name": "Whirlwind Conviction-Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_014.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "While Cacophony Soundscape is active, Promeia's DMG increases by 15%. When Promeia triggers EX Special Attack: Execution - Merciless Judgment, she restores 15 additional Corrosive Chill, and when triggering EX Special Attack: Execution - Shrouded in Shadow, she recovers 15 additional Corrosive Chill. When triggering Abloom, her Abloom DMG increases by 6%, stacking up to 10 times, lasting 60s."
+        },
+        {
+          "id": "zzz-item-4326015",
+          "name": "Ouroboros Circuit-Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_013.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When using Etheric Phantom to enter stealth, stealth duration is extended by 10s. After using EX Special Attack, gain the Viper Strike effect: When any Non-Corrode Bone attack hits an enemy, it triggers a free special Corrode Bone that cannot inflict Daze. This effect can trigger once every 1s and lasts for 6s."
+        },
+        {
+          "id": "zzz-item-4326016",
+          "name": "Delusional Radiance-Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_011.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When Etheric Phantom is used, Aria immediately recovers 800 Decibels. After Aria completes her EX Special Attack, the Fandom Power generated on the field increases by 1, and EX Special Attack: Instantly Hooked does not consume Energy."
+        },
+        {
+          "id": "zzz-item-4326017",
+          "name": "Spirit Shaman Ward-Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_009.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When the Etheric Phantom: Sobek effect ends, each squad member recovers HP equal to 10% of their remaining Shield from that effect. When Yuzuha uses her EX Special Attack or Ultimate, her Anomaly Mastery increases by 40 for 30s. Repeated triggers reset the duration. When either attack hits an enemy, it reduces the target's DEF by 18% and All-Attribute RES by 15% for 30s. Repeated triggers reset the duration."
+        },
+        {
+          "id": "zzz-item-4326018",
+          "name": "Mountain Lord Break-Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_006.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "After opening a Strongbox, all squad members gain a Shield equal to 15% of their Max HP for 60s. This effect does not stack, and the same Strongbox cannot trigger it more than once. After Ju Fufu uses Chain Attack: Suppressing Tiger Cauldron, if she is not the active character, she launches one Tag Assist, circling the enemy and performing the fourth hit of her Basic Attack. The skill's DMG is considered Aftershock DMG. DMG dealt increases by 75% and Daze dealt increases by 45%."
+        },
+        {
+          "id": "zzz-item-4326019",
+          "name": "Lethal Etiquette-Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_004.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "After using Phase Dash, Evelyn recovers 1 Burning Tether Point. When any squad member's Aftershock, Quick Assist, or Perfect Assist hits enemies, Evelyn restores Burning Embers. When Evelyn consumes Burning Tether Point to activate Chain Attack: Lunalux - Snare, it will be replaced by Chain Attack: Lunalux - Entanglement, significantly reducing skill duration. When Evelyn's Chain Attack hits enemies, the skill's DMG increases by 80%."
+        },
+        {
+          "id": "zzz-item-4326020",
+          "name": "Encircle Prey Time-Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_020.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When Etheric Phantom is used, Jane immediately recovers 100 points of Passion Stream. {AWAKEN_1261#EX Special Attack: Aerial Sweep is upgraded to EX Special Attack: Aerial Sweep - Onslaught, with its DMG Multiplier and Anomaly Buildup greatly increased}{NOAWAKEN_1261#EX Special Attack: Aerial Sweep is upgraded to EX Special Attack: Aerial Sweep - Onslaught}. Hitting an enemy with this skill inflicts Wound on the target. While in this state, the target takes Physical DMG equal to 60% of Jane's ATK and accumulates Physical Anomaly Buildup once per second for 8s. Repeated triggers reset the duration."
+        },
+        {
+          "id": "zzz-item-4326021",
+          "name": "Mist Tide Resurgence-Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_002.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "While Roaming is active, the Cacophony Soundscape's Corruption is reduced to 70% of its original value. When Ellen uses an EX Special Attack, Chain Attack, or Ultimate, she leaves Icy Mist on the ground, dealing continuous Ice DMG for 15s. Agents inside Icy Mist gain increased Anti-Interrupt Level and take 30% less DMG. These effects persist for 5s after leaving Icy Mist. When Ellen hits an enemy inside Icy Mist, Icy Mist deals one additional instance of DMG."
+        },
+        {
+          "id": "zzz-item-4331001",
+          "name": "[Fragile] Base Corrosion Resistor",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipErosion_001.webp",
+          "fields": {
+            "rarity": "1 \u2605"
+          },
+          "text": "When equipped, this item reduces Corruption gained by the squad by 10% and DMG taken by Agents by 10%."
+        },
+        {
+          "id": "zzz-item-4331002",
+          "name": "[Fragile] Advanced Corrosion Resistor",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipErosion_002.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "When equipped, this item reduces Corruption gained by the squad by 25% and DMG taken by Agents by 20%."
+        },
+        {
+          "id": "zzz-item-4331003",
+          "name": "[Fragile] Blasting Anti-Corrosion Device",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipErosion_003.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "When equipped, this item reduces Corruption gained by the squad by 40% and DMG taken by Agents by 30%."
+        },
+        {
+          "id": "zzz-item-4331004",
+          "name": "[Fragile] Advanced Corrosion Resistor",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipErosion_004.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When equipped, this item reduces Corruption gained by the squad by 55% and DMG taken by Agents by 45%."
+        },
+        {
+          "id": "zzz-item-4331501",
+          "name": "Base Anti-Corrosion Device",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipErosion_001.webp",
+          "fields": {
+            "rarity": "1 \u2605"
+          },
+          "text": "When equipped, this item reduces Corruption gained by the squad by 10% and DMG taken by Agents by 10%."
+        },
+        {
+          "id": "zzz-item-4331502",
+          "name": "Advanced Anti-Corrosion Device",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipErosion_002.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "When equipped, this item reduces Corruption gained by the squad by 25% and DMG taken by Agents by 20%."
+        },
+        {
+          "id": "zzz-item-4331503",
+          "name": "Blasting Anti-Corrosion Device",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipErosion_003.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "When equipped, this item reduces Corruption gained by the squad by 40% and DMG taken by Agents by 30%."
+        },
+        {
+          "id": "zzz-item-4331504",
+          "name": "Advanced Anti-Corrosion Device",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipErosion_004.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When equipped, this item reduces Corruption gained by the squad by 55% and DMG taken by Agents by 45%."
+        },
+        {
+          "id": "zzz-item-4333001",
+          "name": "Basic Inventory",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipBag_001.webp",
+          "fields": {
+            "rarity": "1 \u2605"
+          },
+          "text": "When equipped, increases Inventory capacity by 5 tiles."
+        },
+        {
+          "id": "zzz-item-4333002",
+          "name": "Expanded Inventory",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipBag_002.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "When equipped, increases Inventory capacity by 10 tiles."
+        },
+        {
+          "id": "zzz-item-4333003",
+          "name": "Heavy Inventory",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipBag_003.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "When equipped, increases Inventory capacity by 20 tiles."
+        },
+        {
+          "id": "zzz-item-4333004",
+          "name": "Bangboo Big Inventory",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipBag_004.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When equipped, increases Inventory capacity by 30 tiles."
+        },
+        {
+          "id": "zzz-item-4333011",
+          "name": "[Fragile] Base Blade of the Other\u00b7Block",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipPyrois_001.webp",
+          "fields": {
+            "rarity": "1 \u2605"
+          },
+          "text": "Equipping grants 3 Alter Skills: [Perfect Block], [Phase Dash], and [Strong Slash]. Perfect Block triggers a dodge effect even on failure. DMG dealt by Strong Slash against enemies above Lv. 20 is reduced by 50%."
+        },
+        {
+          "id": "zzz-item-4333012",
+          "name": "[Fragile] Advanced Blade of the Other: Block",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipPyrois_002.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "When equipped, gain three Alter Skills: [Perfect Block], [Phase Dash], and [Power Slash]. Perfect Block triggers a dodge effect even on failed blocks. DMG dealt by Power Slash against enemies above Lv. 40 is reduced by 50%."
+        },
+        {
+          "id": "zzz-item-4333013",
+          "name": "[Fragile] Blasting Blade of the Other: Block",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipPyrois_003.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Equipping grants 3 Alter Skills: [Perfect Block], [Phase Dash], and [Power Slash]. \u3008Perfect Block Enhance\u3009 When Power Slash hits a normal/elite/Boss enemy, reduces the whole squad's Corruption by 1,000/3,000/8,000 and restores the whole squad's HP by 2.5%/3.5%/10%. Perfect Block triggers a dodge effect even if unsuccessful. DMG dealt by Power Slash against enemies above Lv. 60 is reduced by 50%."
+        },
+        {
+          "id": "zzz-item-4333014",
+          "name": "[Fragile] Advanced Blade of the Other: Block",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipPyrois_004.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When equipped, gain three Alter Skills: [Perfect Block], [Phase Dash], and [Power Slash]. \u3008Perfect Block Enhance\u3009 When Power Slash hits a normal/elite/Boss enemy, reduce the whole squad's Corruption by 1,000/3,000/8,000 and restore the whole squad's HP by 5%/7.5%/20%. Perfect Block triggers a dodge effect even if it doesn't succeed."
+        },
+        {
+          "id": "zzz-item-4333022",
+          "name": "[Fragile] Advanced Blade of the Other: Powerful Slash",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipPyrois_005.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Equipping grants the [Perfect Block], [Phase Dash], and [Strong Slash] Alter Skills. Perfect Block increases Daze accumulation against Normal/Elite/Boss enemies by 100%/60%/25% respectively. Using Strong Slash against enemies above Lv. 40 reduces DMG dealt by 50%."
+        },
+        {
+          "id": "zzz-item-4333023",
+          "name": "[Vulnerable] Blasting Blade of the Other: Powerful Slash",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipPyrois_006.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "When equipped, grants 3 Alter Skills: [Perfect Block], [Phase Dash], and [Power Slash]. \u3008Power Slash Enhance\u3009 When using Power Slash against elite or Boss enemies, there is a 35% chance to trigger the Totalize effect even if Backstabber conditions are not met, dealing an additional 50% DMG. Perfect Block increases accumulated Daze against normal/elite/Boss enemies by 100%/60%/25% respectively. DMG dealt by Power Slash against enemies above Lv. 60 is reduced by 50%."
+        },
+        {
+          "id": "zzz-item-4333024",
+          "name": "[Fragile] Advanced Blade of the Other: Powerful Slash",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipPyrois_007.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When equipped, grants the 3 Alter Skills [Perfect Block], [Phase Dash], and [Power Slash]. \u3008Power Slash Enhance\u3009 When performing Power Slash against elite or Boss enemies, there is a 75% chance to trigger the Totalize effect even if the Backstabber condition is not met, dealing an additional 50% DMG. Perfect Block increases the Daze accumulated against normal/elite/Boss enemies by 100%/60%/25% respectively."
+        },
+        {
+          "id": "zzz-item-4333032",
+          "name": "[Fragile] Advanced Blade of the Other: Phase Dash",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipPyrois_008.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "When equipped, gain 3 Alter Skills: [Perfect Block], [Phase Dash], and [Power Slash]. Using Phase Dash has a 50% chance to not consume a use. DMG dealt by Power Slash is reduced by 50% against enemies above Lv. 40."
+        },
+        {
+          "id": "zzz-item-4333033",
+          "name": "[Fragile] Specialized Blade of the Other: Phase Dash",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipPyrois_009.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "When equipped, gain 3 Alter Skills: [Perfect Block], [Phase Dash], and [Strong Slash]. If the target is under Cacophony Shield Enhance, additionally reduce the Cacophony Shield of normal/elite/Boss enemies by 100%/60%/30%. \u3008Phase Dash Enhance\u3009 When launching Strong Slash against normal/elite/Boss enemies not yet in combat, additionally accumulate 60%/30%/15% Daze. When using Phase Dash, there is a 50% chance not to consume uses. DMG dealt by Strong Slash against enemies above Lv. 60 is reduced by 50%."
+        },
+        {
+          "id": "zzz-item-4333034",
+          "name": "[Fragile] Advanced Blade of the Other: Phase Dash",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipPyrois_010.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When equipped, gain 3 Alter Skills: [Perfect Block], [Phase Dash], and [Power Slash]. If the target is in a Cacophony Shield Enhance state, additionally reduce the Cacophony Shield of normal/elite/Boss enemies by 100%/60%/30%. \u3008Phase Dash Enhance\u3009 When executing a Power Slash against normal/elite/Boss enemies not yet in combat, additionally accumulate 80%/50%/30% Daze. Using Phase Dash has a 50% chance to not consume a use."
+        },
+        {
+          "id": "zzz-item-4333511",
+          "name": "Base Blade of the Other: Block",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipPyrois_001.webp",
+          "fields": {
+            "rarity": "1 \u2605"
+          },
+          "text": "Equipping grants 3 Alter Skills: [Perfect Block], [Phase Dash], and [Strong Slash]. Perfect Block triggers a dodge effect even on failure. DMG dealt by Strong Slash against enemies above Lv. 20 is reduced by 50%."
+        },
+        {
+          "id": "zzz-item-4333512",
+          "name": "Advanced Blade of the Other: Block",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipPyrois_002.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "When equipped, gain three Alter Skills: [Perfect Block], [Phase Dash], and [Power Slash]. Perfect Block triggers a dodge effect even on failed blocks. DMG dealt by Power Slash against enemies above Lv. 40 is reduced by 50%."
+        },
+        {
+          "id": "zzz-item-4333513",
+          "name": "Blasting Blade of the Other: Block",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipPyrois_003.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Equipping grants 3 Alter Skills: [Perfect Block], [Phase Dash], and [Power Slash]. \u3008Perfect Block Enhance\u3009 When Power Slash hits a normal/elite/Boss enemy, reduces the whole squad's Corruption by 1,000/3,000/8,000 and restores the whole squad's HP by 2.5%/3.5%/10%. Perfect Block triggers a dodge effect even if unsuccessful. DMG dealt by Power Slash against enemies above Lv. 60 is reduced by 50%."
+        },
+        {
+          "id": "zzz-item-4333514",
+          "name": "Advanced Blade of the Other: Block",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipPyrois_004.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When equipped, gain three Alter Skills: [Perfect Block], [Phase Dash], and [Power Slash]. \u3008Perfect Block Enhance\u3009 When Power Slash hits a normal/elite/Boss enemy, reduce the whole squad's Corruption by 1,000/3,000/8,000 and restore the whole squad's HP by 5%/7.5%/20%. Perfect Block triggers a dodge effect even if it doesn't succeed."
+        },
+        {
+          "id": "zzz-item-4333522",
+          "name": "Advanced Blade of the Other: Powerful Slash",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipPyrois_005.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Equipping grants the [Perfect Block], [Phase Dash], and [Strong Slash] Alter Skills. Perfect Block increases Daze accumulation against Normal/Elite/Boss enemies by 100%/60%/25% respectively. Using Strong Slash against enemies above Lv. 40 reduces DMG dealt by 50%."
+        },
+        {
+          "id": "zzz-item-4333523",
+          "name": "Blasting Blade of the Other: Power Slash",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipPyrois_006.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "When equipped, grants 3 Alter Skills: [Perfect Block], [Phase Dash], and [Power Slash]. \u3008Power Slash Enhance\u3009 When using Power Slash against elite or Boss enemies, there is a 35% chance to trigger the Totalize effect even if Backstabber conditions are not met, dealing an additional 50% DMG. Perfect Block increases accumulated Daze against normal/elite/Boss enemies by 100%/60%/25% respectively. DMG dealt by Power Slash against enemies above Lv. 60 is reduced by 50%."
+        },
+        {
+          "id": "zzz-item-4333524",
+          "name": "Advanced Blade of the Other: Powerful Slash",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipPyrois_007.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When equipped, grants the 3 Alter Skills [Perfect Block], [Phase Dash], and [Power Slash]. \u3008Power Slash Enhance\u3009 When performing Power Slash against elite or Boss enemies, there is a 75% chance to trigger the Totalize effect even if the Backstabber condition is not met, dealing an additional 50% DMG. Perfect Block increases the Daze accumulated against normal/elite/Boss enemies by 100%/60%/25% respectively."
+        },
+        {
+          "id": "zzz-item-4333532",
+          "name": "Advanced Blade of the Other: Phase Dash",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipPyrois_008.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "When equipped, gain 3 Alter Skills: [Perfect Block], [Phase Dash], and [Power Slash]. Using Phase Dash has a 50% chance to not consume a use. DMG dealt by Power Slash is reduced by 50% against enemies above Lv. 40."
+        },
+        {
+          "id": "zzz-item-4333533",
+          "name": "Specialized Blade of the Other: Phase Dash",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipPyrois_009.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "When equipped, gain 3 Alter Skills: [Perfect Block], [Phase Dash], and [Strong Slash]. If the target is under Cacophony Shield Enhance, additionally reduce the Cacophony Shield of normal/elite/Boss enemies by 100%/60%/30%. \u3008Phase Dash Enhance\u3009 When launching Strong Slash against normal/elite/Boss enemies not yet in combat, additionally accumulate 60%/30%/15% Daze. When using Phase Dash, there is a 50% chance not to consume uses. DMG dealt by Strong Slash against enemies above Lv. 60 is reduced by 50%."
+        },
+        {
+          "id": "zzz-item-4333534",
+          "name": "Advanced Blade of the Other: Phase Dash",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipPyrois_010.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When equipped, gain 3 Alter Skills: [Perfect Block], [Phase Dash], and [Power Slash]. If the target is in a Cacophony Shield Enhance state, additionally reduce the Cacophony Shield of normal/elite/Boss enemies by 100%/60%/30%. \u3008Phase Dash Enhance\u3009 When executing a Power Slash against normal/elite/Boss enemies not yet in combat, additionally accumulate 80%/50%/30% Daze. Using Phase Dash has a 50% chance to not consume a use."
+        },
+        {
+          "id": "zzz-item-4334206",
+          "name": "Etheric Phantom: Golden Bangboo",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_MonsterSkill_013_A.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "When used, transform into the phantom of the Golden Bangboo, reducing the time required to Search containers to 30% of the usual time. While transformed, you are immune to Cacophony container Corruption and can skip the [Signal Calibration] and hold [Lockpick] phases of strongboxes."
+        },
+        {
+          "id": "zzz-item-4334207",
+          "name": "Etheric Phantom: Sanguine Sweeper",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_MonsterSkill_010_A.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "When used, summons a phantom of the Sanguine Sweeper to deal DMG to enemies and restore 80 Energy and 80 Adrenaline to all Agents."
+        },
+        {
+          "id": "zzz-item-4334208",
+          "name": "Etheric Phantom: Rampant Brute",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_MonsterSkill_011_A.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Upon use, transforms into the phantom of a Rampant Brute, pulling nearby enemies within a small area toward the center; deals DMG equal to 100%/30%/10% of Max HP to Normal/Elite/Boss enemies respectively. Deals an additional 30% DMG to enemies with HP above 50%. When 3 or more enemies are pulled, Normal and Elite enemies among them are instantly eliminated."
+        },
+        {
+          "id": "zzz-item-4334301",
+          "name": "Etheric Phantom: Heretic Jester",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_MonsterSkill_002_S.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When used, transform into the phantom of the Heretic Jester, entering a brief Stealth state and disengaging from combat. While in Stealth, press \"Basic Attack\" to instantly eliminate any Normal/Elite enemy hit, and deal DMG equal to 20% of Max HP to Boss enemies."
+        },
+        {
+          "id": "zzz-item-4334303",
+          "name": "Etheric Phantom: Scorpse",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_MonsterSkill_004_S.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When used, summons a phantom of Scorpse to deal DMG equal to 100%/50%/20% of Max HP to nearby normal/elite/Boss enemies respectively."
+        },
+        {
+          "id": "zzz-item-4334304",
+          "name": "Etheric Phantom: Thracian",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_MonsterSkill_012_S.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When used, transforms into a phantom of a Thracian, dealing DMG equal to 100%/50%/15% of Max HP to Normal/Elite/Boss enemies respectively, and Breaking 100% of the enemy's Cacophony Shield."
+        },
+        {
+          "id": "zzz-item-4334305",
+          "name": "Etheric Phantom: Mutant Formicarrier",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_MonsterSkill_001_A.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "When used, transforms you into a phantom of the Mutant Formicarrier, entering Stealth for a period of time and disengaging from combat."
+        },
+        {
+          "id": "zzz-item-4334308",
+          "name": "Etheric Phantom: Sobek",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_MonsterSkill_005_S.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When used, summons a phantom of Sobek to create a Wind field that pulls enemies within range; dealing DMG equal to 100%/30%/10% of Max HP to Normal/Elite/Boss enemies respectively. Simultaneously grants all squad Agents a shield equal to 50% of Max HP, lasting 20s. While the shield is active, Anti-Interrupt level is increased."
+        },
+        {
+          "id": "zzz-item-4334309",
+          "name": "Etheric Phantom: Haytor",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_MonsterSkill_006_S.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When used, transform into a phantom of Haytor, dealing DMG equal to 100%/50%/20% of the Max HP of normal/elite/Boss enemies respectively; deals an additional 50% DMG against biological enemies and Doppelgangers."
+        },
+        {
+          "id": "zzz-item-4334311",
+          "name": "Etheric Phantom: Unfathomable",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_MonsterSkill_009_S.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When used, transforms into a phantom of Unfathomable, dealing DMG equal to 100%/50%/20% of Max HP to Normal/Elite/Boss enemies respectively; when hitting an enemy afflicted with any Anomaly status, triggers one instance of [Polarity Disorder], dealing DMG equal to 100% of the original [Disorder] DMG."
+        },
+        {
+          "id": "zzz-item-4334399",
+          "name": "Etheric Phantom: Mutant Formicarrier",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_MonsterSkill_001_A.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "When used, transforms you into a phantom of the Mutant Formicarrier, entering Stealth for a period of time and disengaging from combat."
+        },
+        {
+          "id": "zzz-item-4334403",
+          "name": "Etheric Phantom: Scorched Horizon",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_MonsterSkill_007_Z.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "When used, transform into a phantom of Scorched Horizon, dealing DMG equal to 100%/50%/20% of Max HP to normal/elite/Boss enemies respectively, rapidly building 100% Daze on enemies, and extending Daze duration by 3s."
+        },
+        {
+          "id": "zzz-item-4334404",
+          "name": "Etheric Phantom: Primordial Nightmare",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_MonsterSkill_008_Z.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "When used, transforms into a phantom of the Primordial Nightmare, dealing DMG equal to 100%/100%/35% of Max HP to normal/elite/Boss enemies respectively."
+        },
+        {
+          "id": "zzz-item-4336001",
+          "name": "[Weakened] Base Corrosion Inhibitor",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipErosion_001.webp",
+          "fields": {
+            "rarity": "1 \u2605"
+          },
+          "text": "When equipped, this item reduces Corruption gained by the squad by 10% and DMG taken by Agents by 10%."
+        },
+        {
+          "id": "zzz-item-4336002",
+          "name": "[Weakened] Advanced Corrosion Resistor",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipErosion_002.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "When equipped, this item reduces Corruption gained by the squad by 25% and DMG taken by Agents by 20%."
+        },
+        {
+          "id": "zzz-item-4336003",
+          "name": "[Weakened] Blasting Corrosion Resistor",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipErosion_003.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "When equipped, this item reduces Corruption gained by the squad by 40% and DMG taken by Agents by 30%."
+        },
+        {
+          "id": "zzz-item-4338011",
+          "name": "[Weakened] Base Blade of the Other\u00b7Block",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipPyrois_001.webp",
+          "fields": {
+            "rarity": "1 \u2605"
+          },
+          "text": "Equipping grants 3 Alter Skills: [Perfect Block], [Phase Dash], and [Strong Slash]. Perfect Block triggers a dodge effect even on failure. DMG dealt by Strong Slash against enemies above Lv. 20 is reduced by 50%."
+        },
+        {
+          "id": "zzz-item-4338012",
+          "name": "[Weakened] Advanced Blade of the Other: Block",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipPyrois_002.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "When equipped, gain three Alter Skills: [Perfect Block], [Phase Dash], and [Power Slash]. Perfect Block triggers a dodge effect even on failed blocks. DMG dealt by Power Slash against enemies above Lv. 40 is reduced by 50%."
+        },
+        {
+          "id": "zzz-item-4338013",
+          "name": "[Weakened] Blasting Blade of the Other: Block",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipPyrois_003.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Equipping grants 3 Alter Skills: [Perfect Block], [Phase Dash], and [Power Slash]. \u3008Perfect Block Enhance\u3009 When Power Slash hits a normal/elite/Boss enemy, reduces the whole squad's Corruption by 1,000/3,000/8,000 and restores the whole squad's HP by 2.5%/3.5%/10%. Perfect Block triggers a dodge effect even if unsuccessful. DMG dealt by Power Slash against enemies above Lv. 60 is reduced by 50%."
+        },
+        {
+          "id": "zzz-item-4340101",
+          "name": "Windworn Highway Motel, 1F",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Key_001.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "When used, unlocks the restricted access to Windworn Highway - Motel - Ground Floor Room and grants a large amount of Supplies."
+        },
+        {
+          "id": "zzz-item-4340102",
+          "name": "Windworn Highway Motel, 2F",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Key_002.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When used, unlocks the restricted access to Windworn Highway - Motel - 2nd Floor Room and grants a large amount of Supplies."
+        },
+        {
+          "id": "zzz-item-4340103",
+          "name": "Windworn Highway Gas Station Storage Room",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Key_003.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Once used, unlocks the restricted access to Windworn Highway - Gas Station - West Storage Room and grants a large amount of Supplies."
+        },
+        {
+          "id": "zzz-item-4340104",
+          "name": "Six Dusk Street Warehouse, Side Entrance (1F)",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Key_014.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "After use, unlocks the access control of Six Dusk Street - Warehouse 1F Side Entrance to obtain a large amount of Supplies."
+        },
+        {
+          "id": "zzz-item-4340105",
+          "name": "Six Dusk Street - RandomPlay 2F Room 2",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Key_015.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "After use, unlocks the access restriction to Six Dusk Street - RandomPlay 2F Room 2 and grants a large amount of Supplies."
+        },
+        {
+          "id": "zzz-item-4340106",
+          "name": "Six Dusk Street - RandomPlay 2F Room 1",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Key_016.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "After use, unlocks the restricted access to Six Dusk Street - RandomPlay 2F Room 1 and grants a large amount of Supplies."
+        },
+        {
+          "id": "zzz-item-4340107",
+          "name": "Industrial Park - Phase 1 Base - Gate 2",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Key_018.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "After use, unlocks the access control of Industrial Park - Phase 1 Bottom - Door 2 to obtain a large amount of Supplies."
+        },
+        {
+          "id": "zzz-item-4340108",
+          "name": "Lumina Central, Lounge 2",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Key_020.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "After use, unlocks the restricted access to Lumina Central Lounge 2 and grants a large amount of Supplies."
+        },
+        {
+          "id": "zzz-item-4340109",
+          "name": "Lumina Central, Lounge 3",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Key_021.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "When used, unlocks the restricted access to Lumina Central Lounge 3 and scores you a massive haul of Supplies."
+        },
+        {
+          "id": "zzz-item-4340201",
+          "name": "Cheezburg Bistro, Withered Wildswood",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Key_005.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "After use, unlocks the access control of Bunless Bae Town - Zhibang Bang Restaurant - Storage Room to obtain a large amount of Supplies."
+        },
+        {
+          "id": "zzz-item-4340202",
+          "name": "Windworn Highway Gas Station",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Key_004.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When used, grants access to the Windworn Highway - Gas Station - East Office and yields a large amount of Supplies."
+        },
+        {
+          "id": "zzz-item-4340203",
+          "name": "Withered Wildswood Storage Center, 2F Prefab Building",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Key_006.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When used, grants access through the security door at Bunless Bae Town - Storage Center - Prefab Building 2nd Floor to obtain a large amount of Supplies."
+        },
+        {
+          "id": "zzz-item-4340204",
+          "name": "Phantom Aquarium West Gate, Fantasy Beach",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Key_011.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When used, unlocks the access control of Fantasy Beach - Phantom Aquarium West Gate to obtain a large amount of Supplies."
+        },
+        {
+          "id": "zzz-item-4340205",
+          "name": "Bunless Bae Town - Bae Old Street",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Key_014.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When used, grants access past the restricted zone at Bunless Bae Town - Bae Old Street and scores a massive haul of Supplies."
+        },
+        {
+          "id": "zzz-item-4340206",
+          "name": "Random Play, 1F, Sixth Twilight Street",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Key_017.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "After use, unlocks the access control of Six Dusk Street - video store, 1st floor room to obtain a large amount of Supplies."
+        },
+        {
+          "id": "zzz-item-4340207",
+          "name": "Paloma Construction Site: Phase II, Rooftop",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Key_019.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "After use, unlocks access to the Industrial Park - Phase 2 - Top Floor Room and grants a large amount of Supplies."
+        },
+        {
+          "id": "zzz-item-4340208",
+          "name": "Lumina Central, 2F Reception Room",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Key_022.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When used, unlocks the access control of Lumina Central 2F - Reception Room 1 to obtain a large amount of Supplies."
+        },
+        {
+          "id": "zzz-item-4340209",
+          "name": "Lumina Central, 1F Lounge",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Key_023.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When used, unlocks the access restriction to the Lumina Central 1F - Lounge and grants a large amount of Supplies."
+        },
+        {
+          "id": "zzz-item-4340301",
+          "name": "Bahamut Storage, 2F",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Key_008.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "When used, unlocks the Bahamut Warehouse - 2F Control Room key room to obtain a large amount of Supplies."
+        },
+        {
+          "id": "zzz-item-4340302",
+          "name": "Lumina Central, Rooftop Conference Room",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Key_024.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "When used, grants access through the Lumina Central - Top Floor Conference Room security door and yields a large amount of Supplies."
+        },
+        {
+          "id": "zzz-item-4350001",
+          "name": "[Blueprint] Specialized Anti-Corrosion Device",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipErosion_003_Blueprint.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Blueprints unlock Item crafting recipes at the Smart Workshop. Grab 'em from Boojee's Store under Blueprint Direct Sales."
+        },
+        {
+          "id": "zzz-item-4350002",
+          "name": "[Blueprint] Advanced Anti-Corrosion Device",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipErosion_004_Blueprint.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding items at the Smart Workshop. They can be obtained through investigation and exploration, or purchased directly from Boojee's Store - Blueprints.\n\nItem Effect: When equipped, Corruption received by the squad is reduced by 55%, and DMG received by Agents in the squad is reduced by 45%."
+        },
+        {
+          "id": "zzz-item-4350003",
+          "name": "[Blueprint] Heavy Inventory",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipBag_003_Blueprint.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Blueprints unlock Item crafting recipes at the Smart Workshop. Grab them from Boojee's Store under Blueprint Direct Sales."
+        },
+        {
+          "id": "zzz-item-4350004",
+          "name": "[Blueprint] Bangboo Big Inventory",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipBag_004_Blueprint.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for corresponding items at the Smart Workshop. They can be obtained through exploration or purchased from Boojee's Store - Blueprints.\n\nItem Effect: When equipped, increases Inventory capacity by 30 tiles."
+        },
+        {
+          "id": "zzz-item-4350005",
+          "name": "[Blueprint] Specialized Variant Blade: Block",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipPyrois_003_Blueprint.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding item at the Smart Workshop. Can be purchased from Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: When equipped, grants 3 Alter Skills: [Perfect Block], [Phase Dash], and [Power Slash]. \u3008Perfect Block Enhance\u3009 When Power Slash lands on a Normal/Elite/Boss enemy, reduces the whole squad's Corruption by 1,000/3,000/8,000 and restores the whole squad's HP by 2.5%/3.5%/10%. Perfect Block triggers a dodge effect even if it fails. DMG dealt by Power Slash against enemies above Lv. 60 is reduced by 50%."
+        },
+        {
+          "id": "zzz-item-4350006",
+          "name": "[Blueprint] Advanced Variant Blade: Block",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipPyrois_004_Blueprint.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding items at the Smart Workshop. They can be obtained through exploration or purchased directly from Boojee's Store - Blueprints.\n\nItem Effect: When equipped, grants three Alter Skills: [Perfect Block], [Phase Dash], and [Power Slash]. \u3008Perfect Block Enhance\u3009 When Power Slash hits a normal/elite/Boss enemy, reduces the whole squad's Corruption by 1,000/3,000/8,000 and restores the whole squad's HP by 5%/7.5%/20%. Perfect Block triggers a dodge effect even if it fails."
+        },
+        {
+          "id": "zzz-item-4350007",
+          "name": "[Blueprint] Specialized Variant Blade: Powerful Slash",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipPyrois_003_Blueprint.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding item at the Smart Workshop. Available for purchase at Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: When equipped, grants 3 Alter Skills: [Perfect Block], [Phase Dash], and [Power Slash]. \u3008Power Slash Enhance\u3009 When using Power Slash against elite or Boss enemies, even if Backstabber conditions are not met, there is a 35% chance to trigger a Totalize effect, dealing an additional 50% DMG. Perfect Block increases Daze accumulated against Normal/Elite/Boss enemies by 100%/60%/25% respectively. Using Power Slash against enemies above Lv. 60 reduces DMG dealt by 50%."
+        },
+        {
+          "id": "zzz-item-4350008",
+          "name": "[Blueprint] Advanced Variant Blade: Powerful Slash",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipPyrois_004_Blueprint.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting for the corresponding Item at the Smart Workshop. They can be obtained through investigation and exploration, or purchased directly from Boojee's Store under Blueprints.\n\nItem Effect: When equipped, grants three Alter Skills: [Perfect Block], [Phase Dash], and [Power Slash]. \u3008Power Slash Enhance\u3009 When using Power Slash against an elite or Boss enemy, even if the Backstabber condition is not met, there is a 75% chance to trigger the Totalize effect, dealing an additional 50% DMG. Perfect Block increases the Daze accumulated against Normal/Elite/Boss enemies by 100%/60%/25% respectively."
+        },
+        {
+          "id": "zzz-item-4350009",
+          "name": "[Blueprint] Specialized Variant Blade: Phase Dash",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipPyrois_009_Blueprint.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding Item at the Smart Workshop. Can be purchased via Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: When equipped, grants 3 Alter Skills: [Perfect Block], [Phase Dash], and [Strong Slash]. If the target is in the Cacophony Shield Enhanced state, additionally reduces the Cacophony Shield of normal/elite/Boss enemies by 100%/60%/30%. \u3008Phase Dash Enhanced\u3009 When performing a Strong Slash against normal/elite/Boss enemies not yet in combat, additionally accumulates 60%/30%/15% Daze. Using Phase Dash has a 50% chance to not consume a use. DMG dealt by Strong Slash against enemies above Lv. 60 is reduced by 50%."
+        },
+        {
+          "id": "zzz-item-4350010",
+          "name": "[Blueprint] Advanced Variant Blade: Phase Dash",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipPyrois_010_Blueprint.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding items at the Smart Workshop. They can be obtained through exploration or purchased directly from Boojee's Store - Blueprints.\n\nItem Effect: When equipped, grants the Alter Skills [Perfect Block], [Phase Dash], and [Strong Slash]. If the target is under a Cacophony Shield Enhanced state, additionally reduces the Cacophony Shield of normal/elite/Boss enemies by 100%/60%/30%. \u3008Phase Dash Enhanced\u3009 When triggering Strong Slash against normal/elite/Boss enemies that have not entered combat, additionally accumulates 80%/50%/30% Daze. Using Phase Dash has a 50% chance to not consume a use."
+        },
+        {
+          "id": "zzz-item-4350011",
+          "name": "[Blueprint] Advanced Variant Blade: Block",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipPyrois_002_Blueprint.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding Item at the Smart Workshop. Can be purchased from Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: When equipped, gain three Alter Skills: [Perfect Block], [Phase Dash], and [Strong Slash]. Perfect Block triggers a dodge effect even on failed blocks. DMG dealt to enemies above Lv. 40 using Strong Slash is reduced by 50%."
+        },
+        {
+          "id": "zzz-item-4350012",
+          "name": "[Blueprint] Advanced Variant Blade: Powerful Slash",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipPyrois_002_Blueprint.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding item at the Smart Workshop. Available for purchase at Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: When equipped, grants 3 Alter Skills: [Perfect Block], [Phase Dash], and [Power Slash]. Perfect Block increases the Daze accumulated against normal/elite/Boss enemies by 100%/60%/25% respectively. Using Power Slash against enemies above Lv. 40 reduces DMG dealt by 50%."
+        },
+        {
+          "id": "zzz-item-4350013",
+          "name": "[Blueprint] Advanced Variant Blade: Phase Dash",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipPyrois_002_Blueprint.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding item at the Smart Workshop. Can be purchased from Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: When equipped, grants 3 Alter Skills: [Perfect Block], [Phase Dash], and [Power Slash]. When using Phase Dash, there is a 50% chance it won't consume a use. DMG dealt to enemies above Lv. 40 using Power Slash is reduced by 50%."
+        },
+        {
+          "id": "zzz-item-4350014",
+          "name": "[Blueprint] Advanced Anti-Corrosion Device",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipErosion_002_Blueprint.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Blueprints unlock Item crafting recipes at the Smart Workshop. Grab them from Boojee's Store under Blueprint Direct Sales."
+        },
+        {
+          "id": "zzz-item-4350015",
+          "name": "[Blueprint] Expanded Inventory",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipBag_002_Blueprint.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Blueprints unlock Item crafting recipes at the Smart Workshop. Grab them from Boojee's Store under Blueprint Direct Sales."
+        },
+        {
+          "id": "zzz-item-4350112",
+          "name": "[Blueprint] Etheric Phantom: Golden Bangboo",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_MonsterSkill_013_Blueprint.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Blueprints can be used to unlock the crafting of corresponding items at the Smart Workshop.\n\nItem Effect: After use, transform into the phantom of a Golden Bangboo, reducing the time required to search containers to 30% of the normal duration. While transformed, you are immune to Cacophony container Corruption, and can skip the [Signal Calibration] and hold [Lockpick] phases of strongboxes."
+        },
+        {
+          "id": "zzz-item-4350113",
+          "name": "[Blueprint] Etheric Phantom: Sanguine Sweeper",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_MonsterSkill_010_Blueprint.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Blueprints can be used to unlock the crafting of corresponding Items at the Smart Workshop.\n\nItem Effect: When used, summons a phantom of the Sanguine Sweeper, dealing DMG to enemies and restoring 80 Energy and 80 Adrenaline to all Agents."
+        },
+        {
+          "id": "zzz-item-4350114",
+          "name": "[Blueprint] Etheric Phantom: Rampant Brute",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_MonsterSkill_011_Blueprint.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding Item at the Smart Workshop.\n\nItem Effect: Upon use, transforms you into a phantom of the Rampant Brute, pulling nearby enemies within a small area toward the center; deals DMG equal to 100%/30%/10% of Max HP to normal/elite/Boss enemies respectively. Deals an additional 30% DMG to enemies with HP above 50%. If 3 or more enemies are pulled, normal and Elite enemies among them are instantly eliminated."
+        },
+        {
+          "id": "zzz-item-4350115",
+          "name": "[Blueprint] Etheric Phantom: Heretic Jester",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_MonsterSkill_002_Blueprint.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding Items at the Smart Workshop. Can be obtained through investigation and exploration.\n\nItem Effect: After use, transform into a phantom of the Heretic Jester, entering a brief Stealth state and disengaging from combat. While in Stealth, press \"Basic Attack\" to instantly eliminate any Normal/Elite enemy hit, dealing DMG equal to 20% of a Boss enemy's Max HP."
+        },
+        {
+          "id": "zzz-item-4350117",
+          "name": "[Blueprint] Etheric Phantom: Scorpse",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_MonsterSkill_004_Blueprint.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Blueprints can be used to unlock the crafting of the corresponding Item in the Smart Workshop. Can be obtained through investigation and exploration.\n\nItem Effect: Upon use, summons a phantom of Scorpse that deals DMG equal to 100%/50%/20% of Max HP to nearby Normal/Elite/Boss enemies respectively."
+        },
+        {
+          "id": "zzz-item-4350118",
+          "name": "[Blueprint] Etheric Phantom: Thracian",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_MonsterSkill_012_Blueprint.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding item in the Smart Workshop. Can be obtained through investigation and exploration.\n\nItem Effect: Upon use, transform into a phantom of a Thracian, dealing DMG equal to 100%/50%/15% of Max HP to normal/elite/Boss enemies respectively, and breaking 100% of enemies' Cacophony Shield."
+        },
+        {
+          "id": "zzz-item-4350119",
+          "name": "[Blueprint] Etheric Phantom: Mutant Formicarrier",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_MonsterSkill_001_Blueprint.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding item at the Smart Workshop.\n\nItem Effect: When used, transforms you into the illusion of a Mutant Formicarrier, entering a period of Stealth and exiting combat."
+        },
+        {
+          "id": "zzz-item-4350122",
+          "name": "[Blueprint] Etheric Phantom: Sobek",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_MonsterSkill_005_Blueprint.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding item at the Smart Workshop. Can be obtained through Investigation and Exploration.\n\nItem Effect: When used, summons a phantom of Sobek to create a Wind field that pulls in nearby enemies; deals DMG equal to 100%/30%/10% of their Max HP to Normal/Elite/Boss enemies respectively. Simultaneously grants all squad Agents a shield equal to 50% of their Max HP for 20s. Anti-Interrupt Level is increased while the shield is active."
+        },
+        {
+          "id": "zzz-item-4350123",
+          "name": "[Blueprint] Etheric Phantom: Haytor",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_MonsterSkill_006_Blueprint.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding item at the Smart Workshop. Can be obtained through investigation and exploration.\n\nItem Effect: Upon use, transform into a phantom of Haytor, dealing DMG equal to 100%/50%/20% of Max HP to normal/elite/Boss enemies respectively; deals an additional 50% DMG to biological enemies and Doppelgangers."
+        },
+        {
+          "id": "zzz-item-4350125",
+          "name": "[Blueprint] Etheric Phantom: Unfathomable",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_MonsterSkill_009_Blueprint.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding Items in the Smart Workshop. Can be obtained through investigation and exploration.\n\nItem Effect: When used, transforms into a phantom of Unfathomable, dealing DMG equal to 100%/50%/20% of Max HP to Normal/Elite/Boss enemies respectively; when hitting an enemy afflicted with any Anomaly, triggers one instance of [Polarity Disorder], dealing 100% of the original [Disorder] DMG."
+        },
+        {
+          "id": "zzz-item-4350130",
+          "name": "[Blueprint] Etheric Phantom: Scorched Horizon",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_MonsterSkill_007_Blueprint.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "Blueprints can be used to unlock the crafting of the corresponding Item in the Smart Workshop. Can be obtained through Investigation and Exploration.\n\nItem Effect: After use, transform into a phantom of Scorched Horizon, dealing DMG equal to 100%/50%/20% of Max HP to Normal/Elite/Boss enemies respectively, rapidly accumulating 100% Daze on enemies, and extending Daze duration by 3s."
+        },
+        {
+          "id": "zzz-item-4350131",
+          "name": "[Blueprint] Etheric Phantom: Primordial Nightmare",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_MonsterSkill_008_Blueprint.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding Item at the Smart Workshop. Can be obtained through investigation and exploration.\n\nItem Effect: When used, transform into a phantom of the Primordial Nightmare, dealing DMG equal to 100%/100%/35% of Max HP to Normal/Elite/Boss enemies respectively."
+        },
+        {
+          "id": "zzz-item-4350181",
+          "name": "[Blueprint] Advanced Gear - Attack - Lv.20",
+          "kind": "item",
+          "art": null,
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding Items at the Smart Workshop. They can be purchased from Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: After triggering a Perfect Dodge, all Agents in the squad gain 15% ATK for 15s. Repeated triggers refresh the duration."
+        },
+        {
+          "id": "zzz-item-4350182",
+          "name": "[Blueprint] Advanced Gear - Stun - Lv.20",
+          "kind": "item",
+          "art": null,
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding Items in the Smart Workshop. They can be purchased from Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: Exclusive to Stun Agents, provides attribute bonuses"
+        },
+        {
+          "id": "zzz-item-4350183",
+          "name": "[Blueprint] Advanced Gear - Anomaly - Lv.20",
+          "kind": "item",
+          "art": null,
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding Item at the Smart Workshop. Available for purchase via Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: When accumulating Attribute Anomaly buildup, the whole squad's Anomaly Mastery increases by 20 for 10s. Repeated triggers refresh the duration."
+        },
+        {
+          "id": "zzz-item-4350184",
+          "name": "[Blueprint] Advanced Gear - Support - Lv.20",
+          "kind": "item",
+          "art": null,
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding Items in the Smart Workshop. Can be purchased from Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: Exclusive to Support-type Agents, provides Stat bonuses."
+        },
+        {
+          "id": "zzz-item-4350185",
+          "name": "[Blueprint] Advanced Gear - Rupture - Lv.20",
+          "kind": "item",
+          "art": null,
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding items at the Smart Workshop. Available for purchase at Boojee's Store under Blueprints.\n\nItem Effect: When an attack hits an enemy, increases your own CRIT Rate by 5%, stacking up to 4 times, lasting 10 seconds."
+        },
+        {
+          "id": "zzz-item-4350186",
+          "name": "[Blueprint] Advanced Gear - Defense - Lv.20",
+          "kind": "item",
+          "art": null,
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for corresponding Items in the Smart Workshop. Available for purchase via Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: Exclusive to Defense-type Agents, provides Stats bonuses"
+        },
+        {
+          "id": "zzz-item-4350201",
+          "name": "[Blueprint] Specialized Gear - Attack - Lv. 30",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponA_001_Blueprint.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding Items at the Smart Workshop. They can be purchased from Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: After triggering a Perfect Dodge, all Agents in the squad gain 15% ATK for 15s. Repeated triggers refresh the duration."
+        },
+        {
+          "id": "zzz-item-4350202",
+          "name": "[Blueprint] Specialized Gear - Stun - Lv. 30",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponA_004_Blueprint.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding Items in the Smart Workshop. They can be purchased from Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: Exclusive to Stun Agents, provides attribute bonuses"
+        },
+        {
+          "id": "zzz-item-4350203",
+          "name": "[Blueprint] Specialized Gear - Anomaly - Lv. 30",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponA_002_Blueprint.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding Item at the Smart Workshop. Available for purchase via Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: When accumulating Attribute Anomaly buildup, the whole squad's Anomaly Mastery increases by 20 for 10s. Repeated triggers refresh the duration."
+        },
+        {
+          "id": "zzz-item-4350204",
+          "name": "[Blueprint] Specialized Gear - Support - Lv. 30",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponA_005_Blueprint.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding Items in the Smart Workshop. Can be purchased from Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: Exclusive to Support-type Agents, provides Stat bonuses."
+        },
+        {
+          "id": "zzz-item-4350205",
+          "name": "[Blueprint] Specialized Gear - Rupture - Lv. 30",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponA_003_Blueprint.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding items at the Smart Workshop. Available for purchase at Boojee's Store under Blueprints.\n\nItem Effect: When an attack hits an enemy, increases your own CRIT Rate by 5%, stacking up to 4 times, lasting 10 seconds."
+        },
+        {
+          "id": "zzz-item-4350206",
+          "name": "[Blueprint] Specialized Gear - Defense - Lv. 30",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponA_006_Blueprint.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for corresponding Items in the Smart Workshop. Available for purchase via Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: Exclusive to Defense-type Agents, provides Stats bonuses"
+        },
+        {
+          "id": "zzz-item-4350211",
+          "name": "[Blueprint] Advanced Gear - Attack - Lv. 40",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_001_Blueprint.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding Items at the Smart Workshop. They can be obtained through investigation and exploration, or purchased directly from Boojee's Store - Blueprints.\n\nItem Effect: CRIT DMG increases by 30%; when an Agent hits an enemy and lands a CRIT, their ATK increases by 15% for 5s. Repeated triggers refresh the duration."
+        },
+        {
+          "id": "zzz-item-4350212",
+          "name": "[Blueprint] Advanced Gear - Stun - Lv. 40",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_006_Blueprint.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Blueprints can be used to unlock the crafting of the corresponding item at the Smart Workshop. They can be obtained through investigation and exploration, or purchased from Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: Increases Impact by 15%; when an Agent hits an enemy in a Stunned state, the target's Stun DMG Multiplier increases by 20%."
+        },
+        {
+          "id": "zzz-item-4350213",
+          "name": "[Blueprint] Advanced Gear - Anomaly - Lv. 40",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_003_Blueprint.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Blueprints can be used to unlock the crafting of corresponding items at the Smart Workshop. They can be obtained through Investigation or purchased from Boojee's Store - Blueprints.\n\nItem Effect: Anomaly Buildup Rate increased by 20%; after an Agent inflicts an Attribute Anomaly on an enemy, the Attribute Anomaly DMG they take is increased by 30% for 10s. Repeated triggers reset the duration."
+        },
+        {
+          "id": "zzz-item-4350214",
+          "name": "[Blueprint] Advanced Gear - Support - Lv. 40",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_007_Blueprint.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Blueprints can be used to unlock the crafting of corresponding Items at the Smart Workshop. They can be obtained through Investigation and Exploration or purchased from Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: Energy or Adrenaline acquisition efficiency increased by 20%; When an [EX Special Attack] is used, DMG dealt by all Agents in the squad increases by 30% for 10s. Repeated triggers refresh the duration;"
+        },
+        {
+          "id": "zzz-item-4350215",
+          "name": "[Blueprint] Advanced Gear - Rupture - Lv. 40",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_005_Blueprint.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding Items at the Smart Workshop. They can be obtained through investigation and exploration, or purchased from Boojee's Store - Blueprints.\n\nItem Effect: Increases HP by 20%; when using [EX Special Attack], increases own Sheer DMG by 20% for 10s. Repeated triggers refresh the duration."
+        },
+        {
+          "id": "zzz-item-4350216",
+          "name": "[Blueprint] Advanced Gear - Defense - Lv. 40",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_009_Blueprint.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Blueprints can be used to unlock the crafting of corresponding Items at the Smart Workshop. They can be obtained through Investigation & Exploration or purchased from Boojee's Store - Blueprints.\n\nItem Effect: Increases Energy Regeneration efficiency by 100%; When hitting an enemy with an [EX Special Attack], increases the target's Stun DMG Multiplier by 20% for 10s."
+        },
+        {
+          "id": "zzz-item-4350217",
+          "name": "[Blueprint] Advanced Gear - Attack - Modified - Lv. 40",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_002_Blueprint.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Blueprints can be used to unlock the crafting of corresponding Items at the Smart Workshop. They can be obtained through Investigation or purchased from Boojee's Store - Blueprints.\n\nItem Effect: Increases ATK by 20%; When an Agent uses [EX Special Attack], increases their own CRIT DMG by 30% for 10s."
+        },
+        {
+          "id": "zzz-item-4350218",
+          "name": "[Blueprint] Advanced Gear - Anomaly - Modified - Lv. 40",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_004_Blueprint.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for corresponding items at the Smart Workshop. They can be obtained through investigation and exploration or purchased directly from Boojee's Store - Blueprints.\n\nItem Effect: Anomaly Proficiency increases by 30; when an Agent triggers Attribute Anomaly DMG or Disorder, all Agents' Attribute Anomaly and Disorder DMG ignores 5% All-Attribute RES for 10s. This effect can stack up to 3 times, and repeated triggers refresh the duration."
+        },
+        {
+          "id": "zzz-item-4350219",
+          "name": "[Blueprint] Advanced Gear - Support - Modified - Lv. 40",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_008_Blueprint.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding Items at the Smart Workshop. They can be obtained through investigation and exploration, or purchased directly from Boojee's Store - Blueprints.\n\nItem Effect: Decibel Generation Rate increased by 15%; when switched on field, the whole squad's DMG is boosted by 30% for 20s."
+        },
+        {
+          "id": "zzz-item-4350221",
+          "name": "[Blueprint] Advanced Gear - Attack - Lv. 50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_001_Blueprint.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding Items at the Smart Workshop. They can be obtained through investigation and exploration, or purchased directly from Boojee's Store - Blueprints.\n\nItem Effect: CRIT DMG increases by 30%; when an Agent hits an enemy and lands a CRIT, their ATK increases by 15% for 5s. Repeated triggers refresh the duration."
+        },
+        {
+          "id": "zzz-item-4350222",
+          "name": "[Blueprint] Advanced Gear - Stun - Lv. 50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_006_Blueprint.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Blueprints can be used to unlock the crafting of the corresponding item at the Smart Workshop. They can be obtained through investigation and exploration, or purchased from Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: Increases Impact by 15%; when an Agent hits an enemy in a Stunned state, the target's Stun DMG Multiplier increases by 20%."
+        },
+        {
+          "id": "zzz-item-4350223",
+          "name": "[Blueprint] Advanced Gear - Anomaly - Lv. 50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_003_Blueprint.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Blueprints can be used to unlock the crafting of corresponding items at the Smart Workshop. They can be obtained through Investigation or purchased from Boojee's Store - Blueprints.\n\nItem Effect: Anomaly Buildup Rate increased by 20%; after an Agent inflicts an Attribute Anomaly on an enemy, the Attribute Anomaly DMG they take is increased by 30% for 10s. Repeated triggers reset the duration."
+        },
+        {
+          "id": "zzz-item-4350224",
+          "name": "[Blueprint] Advanced Gear - Support - Lv. 50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_007_Blueprint.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Blueprints can be used to unlock the crafting of corresponding Items at the Smart Workshop. They can be obtained through Investigation and Exploration or purchased from Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: Energy or Adrenaline acquisition efficiency increased by 20%; When an [EX Special Attack] is used, DMG dealt by all Agents in the squad increases by 30% for 10s. Repeated triggers refresh the duration;"
+        },
+        {
+          "id": "zzz-item-4350225",
+          "name": "[Blueprint] Advanced Gear - Rupture - Lv. 50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_005_Blueprint.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding Items at the Smart Workshop. They can be obtained through investigation and exploration, or purchased from Boojee's Store - Blueprints.\n\nItem Effect: Increases HP by 20%; when using [EX Special Attack], increases own Sheer DMG by 20% for 10s. Repeated triggers refresh the duration."
+        },
+        {
+          "id": "zzz-item-4350226",
+          "name": "[Blueprint] Advanced Gear - Defense - Lv. 50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_009_Blueprint.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Blueprints can be used to unlock the crafting of corresponding Items at the Smart Workshop. They can be obtained through Investigation & Exploration or purchased from Boojee's Store - Blueprints.\n\nItem Effect: Increases Energy Regeneration efficiency by 100%; When hitting an enemy with an [EX Special Attack], increases the target's Stun DMG Multiplier by 20% for 10s."
+        },
+        {
+          "id": "zzz-item-4350227",
+          "name": "[Blueprint] Advanced Gear - Attack - Modified - Lv. 50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_002_Blueprint.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Blueprints can be used to unlock the crafting of corresponding Items at the Smart Workshop. They can be obtained through Investigation or purchased from Boojee's Store - Blueprints.\n\nItem Effect: Increases ATK by 20%; When an Agent uses [EX Special Attack], increases their own CRIT DMG by 30% for 10s."
+        },
+        {
+          "id": "zzz-item-4350228",
+          "name": "[Blueprint] Advanced Gear - Anomaly - Modified - Lv. 50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_004_Blueprint.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for corresponding items at the Smart Workshop. They can be obtained through investigation and exploration or purchased directly from Boojee's Store - Blueprints.\n\nItem Effect: Anomaly Proficiency increases by 30; when an Agent triggers Attribute Anomaly DMG or Disorder, all Agents' Attribute Anomaly and Disorder DMG ignores 5% All-Attribute RES for 10s. This effect can stack up to 3 times, and repeated triggers refresh the duration."
+        },
+        {
+          "id": "zzz-item-4350229",
+          "name": "[Blueprint] Advanced Gear - Support - Modified - Lv. 50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponS_008_Blueprint.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding Items at the Smart Workshop. They can be obtained through investigation and exploration, or purchased directly from Boojee's Store - Blueprints.\n\nItem Effect: Decibel Generation Rate increased by 15%; when switched on field, the whole squad's DMG is boosted by 30% for 20s."
+        },
+        {
+          "id": "zzz-item-4350231",
+          "name": "[Blueprint] Legendary Gear - Attack - Lv. 60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponZ_001_Blueprint.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "Blueprints can be used to unlock the crafting of corresponding Items at the Smart Workshop. They can be obtained through investigation and exploration, or purchased directly from Boojee's Store - Blueprints.\n\nItem Effect: CRIT DMG increases by 40%; when an Agent hits an enemy and lands a CRIT, their own ATK increases by 20%, and the enemy's DEF decreases by 10% for 5s. Repeated triggers refresh the duration."
+        },
+        {
+          "id": "zzz-item-4350232",
+          "name": "[Blueprint] Legendary Gear - Stun - Lv. 60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponZ_006_Blueprint.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "Blueprints can be used to unlock the crafting of the corresponding Item at the Smart Workshop. They can be obtained through investigation and exploration, or purchased from Boojee's Store - Blueprints.\n\nItem Effect: Increases Impact by 20%; when an enemy enters the Stunned state, restores 30 Energy or 30 Adrenaline for the whole squad, triggering at most once every 20s; when an Agent hits an enemy in the Stunned state, the target's Stun DMG Multiplier increases by 30%."
+        },
+        {
+          "id": "zzz-item-4350233",
+          "name": "[Blueprint] Legendary Gear - Anomaly - Lv. 60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponZ_003_Blueprint.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding Items at the Smart Workshop. They can be obtained through Investigation or purchased from Boojee's Store - Blueprint Direct Sales.\n\nItem Effect: Anomaly Buildup Rate increased by 20%; after the Agent inflicts an Attribute Anomaly on an enemy, their DEF is reduced by 20% and the Attribute Anomaly DMG they receive is increased by 20% for 10s. Repeated triggers refresh the duration."
+        },
+        {
+          "id": "zzz-item-4350234",
+          "name": "[Blueprint] Legendary Gear - Support - Lv. 60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponZ_007_Blueprint.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding Items at the Smart Workshop. They can be obtained through Investigation and Exploration or purchased from Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: Energy or Adrenaline acquisition efficiency increases by 20%; when an [EX Special Attack] is used, DMG dealt by all Agents in the squad increases by 30%, and the [EX Special Attack] ignores 10% of the target's RES. Lasts 15s. Repeated triggers refresh the duration."
+        },
+        {
+          "id": "zzz-item-4350235",
+          "name": "[Blueprint] Legendary Gear - Rupture - Lv. 60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponZ_005_Blueprint.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "Blueprints can be used to unlock the crafting of corresponding Items at the Smart Workshop. They can be obtained through Investigation & Exploration or purchased from Boojee's Store - Blueprint Direct Sales.\n\nItem Effect: Sheer DMG increases by 20%; after the Agent uses their [Ultimate], CRIT Rate increases by 25% and CRIT DMG increases by 50% for 10s; repeated triggers reset the duration."
+        },
+        {
+          "id": "zzz-item-4350236",
+          "name": "[Blueprint] Legendary Gear - Defense - Lv. 60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponZ_009_Blueprint.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding items at the Smart Workshop. They can be obtained through investigation and exploration, or purchased directly from Boojee's Store - Blueprints.\n\nItem Effect: Decibel Generation Rate increased by 20%; when an Agent triggers a [Defensive Assist], the whole squad restores 2 Energy, and enemy DEF is reduced by 20% for 10 seconds. Repeated triggers refresh the duration."
+        },
+        {
+          "id": "zzz-item-4350237",
+          "name": "[Blueprint] Legendary Gear - Attack - Modified - Lv. 60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponZ_002_Blueprint.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "Blueprints can be used to unlock the crafting of the corresponding Item in the Smart Workshop. They can be obtained through investigation and exploration, or purchased directly from Boojee's Store - Blueprints.\n\nItem Effect: Increases DMG dealt to Dazed enemies by 40%; after an Agent hits a Dazed enemy, the Agent's own CRIT Rate increases by 20% and CRIT DMG increases by 40% for 10s. Repeated triggers refresh the duration."
+        },
+        {
+          "id": "zzz-item-4350238",
+          "name": "[Blueprint] Legendary Gear - Anomaly - Modified - Lv. 60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponZ_004_Blueprint.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "Blueprints can be used to unlock the crafting of corresponding Items at the Smart Workshop. They can be obtained through Investigation and Exploration or purchased from Boojee's Store - Blueprint Direct Sales.\n\nItem Effect: Anomaly Proficiency increases by 40; When an Agent triggers Attribute Anomaly or Disorder, all squad Agents' Attribute Anomaly and Disorder DMG increases by 10%, and ignores 5% All-Attribute RES for 10. This effect can stack up to 3 times, and repeated triggers refresh the duration."
+        },
+        {
+          "id": "zzz-item-4350239",
+          "name": "[Blueprint] Legendary Gear - Support - Modified - Lv. 60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponZ_008_Blueprint.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding Items at the Smart Workshop. They can be obtained through Investigation or purchased from Boojee's Store - Blueprints.\n\nItem Effect: Decibel Generation Rate increased by 20%; when an Agent's attack hits an enemy, the enemy's DEF is reduced by 40%, and the Attribute Anomaly DMG they take is increased by 30%, lasting 10s. Repeated triggers refresh the duration."
+        },
+        {
+          "id": "zzz-item-4350301",
+          "name": "[Blueprint] Frost-Drawn Blade - Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_008_Blueprint.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding Items at the Smart Workshop. They can be obtained through investigation and exploration or purchased directly from Boojee's Store - Blueprints.\n\nItem Effect: After using Etheric Phantom: Primordial Nightmare, the incoming Agent's Chain Attack is replaced with their Ultimate. After entering [Enlightened Mind], the first use of [Basic Attack: Enlightened Mind - Sunderlight Maximum] grants 3 [Qingming Sword Force] and ignores 45% of the enemy's Physical RES for 15s."
+        },
+        {
+          "id": "zzz-item-4350302",
+          "name": "[Blueprint] Frost Inferno-Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_001_Blueprint.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Blueprints can be used to unlock the crafting of the corresponding Item at the Smart Workshop. They can be obtained through investigation and exploration or purchased directly from Boojee's Store - Blueprints.\n\nItem Effect: After Hoshimi Miyabi executes a Powerful Slash on an enemy, she immediately restores 1 Fallen Frost point. Enemies afflicted with [Icefire] take Frost DMG equal to 260% of Hoshimi Miyabi's ATK per second. Upon triggering [Frostburn - Break], Hoshimi Miyabi can bypass the restrictions of [Frostburn] and immediately reapply [Icefire] to enemies."
+        },
+        {
+          "id": "zzz-item-4350303",
+          "name": "[Blueprint] Xuanling Jin Record - Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_005_Blueprint.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Blueprints can be used to unlock the crafting of corresponding items at the Smart Workshop. They can be obtained through investigation and exploration or purchased from Boojee's Store - Blueprints Direct Sale.\n\nItem Effect: When triggering a Perfect Block, Yixuan immediately recovers 60 Adrenaline. [EX Special Attack: Ink Manifestation] Perfect Block can be triggered throughout the charge, after which additionally restores 15 Technique Points and gains 18% DMG boost that lasts for 15s. Each Perfect Block against an enemy increases the next [Ultimate] DMG by an additional 20%, stacking up to 3 times."
+        },
+        {
+          "id": "zzz-item-4350304",
+          "name": "[Blueprint] Highlight Solo Dance - Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_012_Blueprint.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding Items at the Smart Workshop. They can be obtained through investigation and exploration, or purchased from Boojee's Store - Blueprints.\n\nItem Effect: Nangong Yu's precise charging deals 20% more Daze. If your Inventory contains a \"Valuable\", Etheric Phantom: Scorched Horizon increases the Stun DMG Multiplier of enemies it hits by 20%. When Nangong Yu triggers precise charging, all squad members recover 4 Energy. Whenever any squad member uses a [Chain Attack], all squad members recover 120 Decibels."
+        },
+        {
+          "id": "zzz-item-4350305",
+          "name": "[Blueprint] Vanishing Phase Drop-Cut - Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_022_Blueprint.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting of the corresponding Item at the Smart Workshop. They can be obtained through investigation and exploration, or purchased directly from Boojee's Store - Blueprints.\n\nItem Effect: When dealing DMG to enemies using Etheric Phantom, applies a certain amount of Daze. If [Positive Reviews] drop below 90, immediately restores 60 Positive Reviews and restores squad members' Decibels by 750. This effect can be triggered once every 30s."
+        },
+        {
+          "id": "zzz-item-4350306",
+          "name": "[Blueprint] Dream Surge-Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_007_Blueprint.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding Item at the Smart Workshop. They can be obtained through exploration or purchased directly from Boojee's Store - Blueprints.\n\nItem Effect: When using Etheric Phantom, the squad's Corruption value is greatly reduced. When Lucia upgrades a skill or uses an [Aftershock], she gains 1 stack of [Surge], stacking up to 4 times;\nUpon exiting the [Dream] state, all [Surge] stacks will be consumed, where each consumed stack regenerates 10 Energy for herself."
+        },
+        {
+          "id": "zzz-item-4350307",
+          "name": "[Blueprint] Bubble Planet - Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_010_Blueprint.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Blueprints can be used to unlock the crafting of the corresponding Item in the Smart Workshop. They can be obtained through investigation and exploration, or purchased from Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: When \"Etheric Phantom\" is used, Sunna immediately recovers 60 Energy. While Sunna is under [Ether Veil: Delusion Reprise], all squad members' [Basic Attack], [Dash Attack], [Dodge Counter], [Special Attack], and [EX Special Attack] DMG is increased by 80%."
+        },
+        {
+          "id": "zzz-item-4350308",
+          "name": "[Blueprint] Neon Concerto - Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_003_Blueprint.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting of the corresponding Items at the Smart Workshop. They can be obtained through investigation and exploration, or purchased directly from Boojee's Store - Blueprints.\n\nItem Effect: Medicine takes effect immediately. During the [Idyllic Cadenza] state, characters with [Attack] specialty gain 30% increased CRIT DMG, characters with [Anomaly] specialty gain 60 increased Anomaly Proficiency, and characters with [Rupture] specialty deal 15% increased Sheer DMG. When the active character hits enemies with an [EX Special Attack], Astra Yao will regenerate 4 Energy and perform an additional attack with [Tremolo]. The Energy Generation effect can trigger once per second."
+        },
+        {
+          "id": "zzz-item-4350309",
+          "name": "[Blueprint] Hua Guan Flow Wind - Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_016_Blueprint.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding Items at the Smart Workshop. They can be obtained through investigation and exploration, or purchased directly from Boojee's Store - Blueprints.\n\nItem Effect: Using Etheric Phantom: Unfathomable deals additional Abloom DMG to enemies. While [Sweeping Cyclone] is on the field, all squad members' Energy Generation Rate increases by 40% and Decibel Generation Rate by 30%, and [Sweeping Cyclone] lasts 3s longer."
+        },
+        {
+          "id": "zzz-item-4350310",
+          "name": "[Blueprint] Sky Wing Pilgrimage - Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_018_Blueprint.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Blueprints can be used to unlock the crafting of the corresponding Item in the Smart Workshop. They can be obtained through investigation and exploration, or purchased from Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: When an Agent in the team receives fatal damage, if there are other Agents available to switch to, they can be revived once (only effective once per Precinct). When Remielle is the active character, she regenerates 1.6 Energy per second. When triggering [EX Special Attack], gains 3 special [Voidflare]."
+        },
+        {
+          "id": "zzz-item-4350311",
+          "name": "[Blueprint] Chaotic Gunpoint-Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_019_Blueprint.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding items at the Smart Workshop. They can be obtained through investigation and exploration, or purchased directly from Boojee's Store - Blueprints.\n\nItem Effect: Stun duration is extended by 3s after all squad members attack Hound - Ulidim and cause it to become Stunned. DMG dealt by all squad members to Hound - Ulidim is increased by 30%. While in the [Aerial Patrol Spear] state, the Energy Cost of [EX Special Attack] decreases."
+        },
+        {
+          "id": "zzz-item-4350312",
+          "name": "[Blueprint] Grand Finale - Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_017_Blueprint.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Blueprints can be used to unlock Item crafting at the Smart Workshop. They can be obtained through Investigative Exploration or purchased from Boojee's Store - Blueprint Direct Sales.\n\nItem Effect: Etheric Phantom: Scorpse deals 50% more DMG to enemies. When another squad member uses an [Ultimate], Norma immediately gains 100% [Preheated Chamber]. This can be triggered once every 40s.\nWhen any Agent uses a [Chain Attack], that Agent's Decibel Generation Rate increases by 25% for 15s. Repeated triggers reset the duration."
+        },
+        {
+          "id": "zzz-item-4350313",
+          "name": "[Blueprint] Insight Flame - Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_021_Blueprint.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Blueprints can be used to unlock the crafting of corresponding items at the Smart Workshop. They can be obtained through investigation and exploration, or purchased from Boojee's Store - Blueprints.\n\nItem Effect: Marks the locations of some unopened strongboxes on the map. When Pyrois uses an EX Special Attack and triggers a Perfect Block, restore 10 Energy and 20 [Solar Prominence]."
+        },
+        {
+          "id": "zzz-item-4350314",
+          "name": "[Blueprint] Whirlwind Conviction - Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_014_Blueprint.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting of the corresponding Item at the Smart Workshop. They can be obtained through Investigation & Exploration or purchased from Boojee's Store - Blueprint Direct Sales.\n\nItem Effect: While in the Cacophony Soundscape, Promeia's DMG increases by 15%. When Promeia triggers [EX Special Attack: Execution - Merciless Judgment], she restores 15 additional [Corrosive Chill], and when triggering [EX Special Attack: Execution - Shrouded in Shadow], she recovers 15 additional [Corrosive Chill]. When triggering [Abloom], her [Abloom] DMG increases by 6%, stacking up to 10 times, lasting 60s."
+        },
+        {
+          "id": "zzz-item-4350315",
+          "name": "[Blueprint] Ouroboros Circuit-Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_013_Blueprint.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Blueprints can be used to unlock the crafting of corresponding items at the Smart Workshop. They can be obtained through investigation and exploration, or purchased from Boojee's Store - Blueprints.\n\nItem Effect: When using Etheric Phantom to enter stealth, stealth duration is extended by 10s. After using [EX Special Attack], gain the [Viper Strike] effect: When any Non-[Corrode Bone] attack hits an enemy, it triggers a free special [Corrode Bone] that cannot inflict Daze. This effect can trigger once every 1s and lasts for 6s."
+        },
+        {
+          "id": "zzz-item-4350316",
+          "name": "[Blueprint] Delusion Glow - Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_011_Blueprint.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Blueprints can be used to unlock Item crafting recipes in the Smart Workshop. They can be obtained through investigation and exploration, or purchased from Boojee's Store - Blueprints.\n\nItem Effect: When \"Etheric Phantom\" is used, Aria immediately recovers 800 Decibels. After Aria's [EX Special Attack] hits, the number of [Fandom Power] generated on the field increases by 1, and [EX Special Attack: Instantly Hooked] does not consume Energy."
+        },
+        {
+          "id": "zzz-item-4350317",
+          "name": "[Blueprint] Spirit Shaman Ward - Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_009_Blueprint.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Blueprints can be used to unlock item crafting recipes at the Smart Workshop. They can be obtained through investigation and exploration, or purchased directly from Boojee's Store - Blueprints.\n\nItem Effect: When the Etheric Phantom: Sobek effect ends, each squad member recovers HP equal to 10% of their remaining Shield from that effect. When Yuzuha uses her [EX Special Attack] or [Ultimate], her Anomaly Mastery increases by 40 for 30s. Repeated triggers reset the duration. When either attack hits an enemy, it reduces the target's DEF by 18% and All-Attribute RES by 15% for 30s. Repeated triggers reset the duration."
+        },
+        {
+          "id": "zzz-item-4350318",
+          "name": "[Blueprint] Mountain Lord Break-Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_006_Blueprint.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding Items at the Smart Workshop. They can be obtained through exploration or purchased from Boojee's Store - Blueprint Direct Sales.\n\nItem Effect: After opening a Strongbox, all squad members gain a Shield equal to 15% of their Max HP for 60s. This effect does not stack, and the same Strongbox cannot trigger it more than once. After Ju Fufu uses [Chain Attack: Suppressing Tiger Cauldron], if she is not the active character, she launches one [Tag Assist], circling the enemy and performing the fourth hit of her [Basic Attack]. The skill's DMG is considered [Aftershock] DMG. DMG dealt increases by 75% and Daze dealt increases by 45%."
+        },
+        {
+          "id": "zzz-item-4350319",
+          "name": "[Blueprint] Lethal Etiquette-Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_004_Blueprint.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding items at the Smart Workshop. They can be obtained through investigation and exploration, or purchased directly from Boojee's Store - Blueprints.\n\nItem Effect: After using Phase Dash, Evelyn recovers 1 Burning Tether Point. When any squad member's [Aftershock], [Quick Assist], or [Perfect Assist] hits enemies, Evelyn restores [Burning Embers]. When Evelyn consumes [Burning Tether Points] to activate [Chain Attack: Lunalux - Snare], it will be replaced by [Chain Attack: Lunalux - Entanglement], significantly reducing skill duration. When Evelyn's [Chain Attack] hits enemies, the skill's DMG increases by 80%."
+        },
+        {
+          "id": "zzz-item-4350320",
+          "name": "[Blueprint] Encircle Prey Time - Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_020_Blueprint.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Blueprints can be used to unlock the crafting of the corresponding Item in the Smart Workshop. They can be obtained through Investigation or purchased from Boojee's Store - Blueprint Direct Sales.\n\nItem Effect: When using Etheric Phantom, Jane immediately recovers 100 points of [Passion Stream]. {AWAKEN_1261#[EX Special Attack: Aerial Sweep] is upgraded to [EX Special Attack: Aerial Sweep - Onslaught], with its DMG Multiplier and Anomaly Buildup greatly increased}{NOAWAKEN_1261#[EX Special Attack: Aerial Sweep] is upgraded to [EX Special Attack: Aerial Sweep - Onslaught]}. Hitting an enemy with this skill inflicts [Wound] on the target. While in this state, the target takes Physical DMG equal to 60% of Jane's ATK and accumulates Physical Anomaly Buildup once per second for 8s. Repeated triggers reset the duration."
+        },
+        {
+          "id": "zzz-item-4350321",
+          "name": "[Blueprint] Mist Tide Resurgence-Lv.50",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_002_Blueprint.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding Items at the Smart Workshop. They can be obtained through investigation and exploration, or purchased directly from Boojee's Store - Blueprints.\n\nItem Effect: While Roaming is active, the Cacophony Soundscape's Corruption is reduced to 70% of its original value. When Ellen uses an [EX Special Attack], [Chain Attack], or [Ultimate], she leaves Icy Mist on the ground, dealing continuous Ice DMG for 15s. Agents inside [Icy Mist] gain increased Anti-Interrupt Level and take 30% less DMG. These effects persist for 5s after leaving [Icy Mist]. When Ellen hits an enemy inside [Icy Mist], [Icy Mist] deals one additional instance of DMG."
+        },
+        {
+          "id": "zzz-item-4350501",
+          "name": "[Blueprint] Frost-Drawn Blade - Lv.60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_008_Blueprint.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding Item in the Smart Workshop. Can be purchased from Boojee's Store - Season Limited.\n\nItem Effect: After using Etheric Phantom: Primordial Nightmare, the incoming Agent's Chain Attack is replaced with their Ultimate. After entering [Enlightened Mind], the first use of [Basic Attack: Enlightened Mind - Sunderlight Maximum] grants 3 [Qingming Sword Force] and ignores 45% of the enemy's Physical RES for 15s."
+        },
+        {
+          "id": "zzz-item-4350502",
+          "name": "[Blueprint] Frost Inferno-Lv.60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_001_Blueprint.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "Blueprints can be used to unlock the crafting of the corresponding Item in the Smart Workshop. Can be purchased from Boojee's Store - Season Limited.\n\nItem Effect: After Hoshimi Miyabi executes a Powerful Slash on an enemy, she immediately restores 1 Fallen Frost point. Enemies afflicted with [Icefire] take Frost DMG equal to 260% of Hoshimi Miyabi's ATK per second. Upon triggering [Frostburn - Break], Hoshimi Miyabi can bypass the restrictions of [Frostburn] and immediately reapply [Icefire] to enemies."
+        },
+        {
+          "id": "zzz-item-4350503",
+          "name": "[Blueprint] Xuanling Jin Record - Lv.60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_005_Blueprint.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "Blueprints can be used to unlock the crafting of corresponding Items in the Smart Workshop. Can be purchased from Boojee's Store - Season Limited.\n\nItem Effect: When triggering a Perfect Block, Yixuan immediately recovers 60 Adrenaline. While charging for [EX Special Attack: Ink Manifestation], Perfect Block can be triggered, after which additionally restores 15 Technique Points and gains 18% DMG boost that lasts for 15s. Each Perfect Block against an enemy increases the next [Ultimate] DMG by an additional 20%, stacking up to 3 times."
+        },
+        {
+          "id": "zzz-item-4350504",
+          "name": "[Blueprint] Highlight Solo Dance - Lv.60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_012_Blueprint.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting of the corresponding Item at the Smart Workshop. Can be purchased from Boojee's Store - Season Limited.\n\nItem Effect: Nangong Yu's precise charging deals 20% more Daze. If your Inventory contains a Valuable, Etheric Phantom: Scorched Horizon increases the Stun DMG Multiplier of enemies it hits by 20%. When Nangong Yu triggers precise charging, all squad members recover 4 Energy. Whenever any squad member uses a [Chain Attack], all squad members recover 120 Decibels."
+        },
+        {
+          "id": "zzz-item-4350505",
+          "name": "[Blueprint] Death Aspect: Falling Cut - Lv.60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_022_Blueprint.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding Item in the Smart Workshop. Can be purchased from Boojee's Store - Season Limited.\n\nItem Effect: When dealing DMG to enemies using Etheric Phantom, applies a certain amount of Daze. If Positive Reviews drop below 90, immediately restores 60 Positive Reviews and restores squad members' Decibels by 750. This effect can be triggered once every 30s."
+        },
+        {
+          "id": "zzz-item-4350506",
+          "name": "[Blueprint] Dream Surge-Lv.60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_007_Blueprint.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting of the corresponding item in the Smart Workshop. Can be purchased from Boojee's Store - Season Limited.\n\nItem Effect: When using Etheric Phantom, the squad's Corruption value is greatly reduced. When Lucia upgrades a skill or uses an [Aftershock], she gains 1 stack of [Surge], stacking up to 4 times;\nUpon exiting the [Dream] state, all [Surge] stacks will be consumed, where each consumed stack regenerates 10 Energy for herself."
+        },
+        {
+          "id": "zzz-item-4350507",
+          "name": "[Blueprint] Bubble Planet - Lv.60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_010_Blueprint.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting of the corresponding Item in the Smart Workshop. Can be purchased from Boojee's Store - Season Limited.\n\nItem Effect: When Etheric Phantom is used, Sunna immediately recovers 60 Energy. While Sunna is under [Ether Veil: Delusion Reprise], all squad members' [Basic Attack], [Dash Attack], [Dodge Counter], [Special Attack], and [EX Special Attack] DMG increases by 80%."
+        },
+        {
+          "id": "zzz-item-4350508",
+          "name": "[Blueprint] Neon Concerto - Lv.60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_003_Blueprint.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "Blueprints can be used to unlock the crafting of the corresponding Item in the Smart Workshop. Can be purchased from Boojee's Store - Season Limited.\n\nItem Effect: Medicine takes effect immediately. During the [Idyllic Cadenza] state, characters with [Attack] specialty gain 30% increased CRIT DMG, characters with [Anomaly] specialty gain 60 increased Anomaly Proficiency, and characters with Rupture specialty deal 15% increased Sheer DMG. When the active character hits enemies with an [EX Special Attack], Astra Yao will regenerate 4 Energy and perform an additional attack with [Tremolo]. The Energy Generation effect can trigger once per second."
+        },
+        {
+          "id": "zzz-item-4350509",
+          "name": "[Blueprint] Regal Wind Crown - Lv.60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_016_Blueprint.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding items at the Smart Workshop. Can be purchased from Boojee's Store - Season Limited.\n\nItem Effect: Using Etheric Phantom: Unfathomable deals additional Abloom DMG to enemies. While [Sweeping Cyclone] is on the field, all squad members' Energy Generation Rate increases by 40% and Decibel Generation Rate by 30%, and [Sweeping Cyclone] lasts 3s longer."
+        },
+        {
+          "id": "zzz-item-4350510",
+          "name": "[Blueprint] Sky Wing Pilgrimage - Lv.60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_018_Blueprint.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "Blueprints can be used to unlock the crafting of corresponding items in the Smart Workshop. Can be purchased from Boojee's Store - Season Limited.\n\nItem Effect: When an Agent in the team receives fatal damage, if there are other Agents available to switch to, they can be revived once (only effective once per Precinct). When Remielle is the active character, she regenerates 1.6 Energy per second. When triggering [EX Special Attack], gains 3 special [Voidflare]."
+        },
+        {
+          "id": "zzz-item-4350511",
+          "name": "[Blueprint] Chaotic Spearhead - Lv.60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_019_Blueprint.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "Blueprints can be used to unlock the crafting of the corresponding item in the Smart Workshop. Available for purchase via Boojee's Store - Season Limited.\n\nItem Effect: The Stun duration of Hound - Ulidim when attacked by all squad members is extended by 3s, and the DMG dealt by all squad members to Hound - Ulidim is increased by 30%. While in the [Aerial Patrol Spear] state, the Energy Cost of [EX Special Attack] decreases."
+        },
+        {
+          "id": "zzz-item-4350512",
+          "name": "[Blueprint] Grand Finale - Lv.60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_017_Blueprint.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting of the corresponding Item at the Smart Workshop. Can be purchased from Boojee's Store \u2014 Season Limited.\n\nItem Effect: Etheric Phantom: Scorpse deals 50% more DMG to enemies. When another squad member uses an [Ultimate], Norma immediately gains 100% [Preheated Chamber]. This effect can trigger once every 40s.\nWhen any Agent uses a [Chain Attack], that Agent's Decibel Generation Rate increases by 25% for 15s. Repeated triggers reset the duration."
+        },
+        {
+          "id": "zzz-item-4350513",
+          "name": "[Blueprint] Insight Flame - Lv.60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_021_Blueprint.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "Blueprints can be used to unlock the crafting of corresponding Items in the Smart Workshop. Can be purchased via Boojee's Store - Season Limited.\n\nItem Effect: Marks the locations of some unopened \"strongboxes\" on the map. After Pyrois uses an EX Special Attack to trigger a Perfect Block, restore 10 Energy and 20 [Solar Prominence]."
+        },
+        {
+          "id": "zzz-item-4350514",
+          "name": "[Blueprint] Whirlwind Conviction - Lv.60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_014_Blueprint.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting of the corresponding Item in the Smart Workshop. Can be purchased from Boojee's Store - Season Limited.\n\nItem Effect: While Cacophony Soundscape is active, Promeia's DMG increases by 15%. When Promeia triggers [EX Special Attack: Execution - Merciless Judgment], she restores 15 additional [Corrosive Chill], and when triggering [EX Special Attack: Execution - Shrouded in Shadow], she recovers 15 additional [Corrosive Chill]. When triggering [Abloom], her [Abloom] DMG increases by 6%, stacking up to 10 times, lasting 60s."
+        },
+        {
+          "id": "zzz-item-4350515",
+          "name": "[Blueprint] Ouroboros Circuit-Lv.60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_013_Blueprint.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "Blueprints can be used to unlock the crafting of corresponding Items at the Smart Workshop. Can be purchased from Boojee's Store - Season Limited.\n\nItem Effect: When using Etheric Phantom to enter stealth, stealth duration is extended by 10s. After using [EX Special Attack], gain the [Viper Strike] effect: When any Non-[Corrode Bone] attack hits an enemy, it triggers a free special [Corrode Bone] that cannot inflict Daze. This effect can trigger once every 1s and lasts for 6s."
+        },
+        {
+          "id": "zzz-item-4350516",
+          "name": "[Blueprint] Delusional Radiance - Lv.60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_011_Blueprint.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding Item in the Smart Workshop. Can be purchased via Boojee's Store - Season Limited.\n\nItem Effect: When Etheric Phantom is used, Aria immediately recovers 800 Decibels. After Aria completes her EX Special Attack, the Fandom Power generated on the field increases by 1, and EX Special Attack: Instantly Hooked does not consume Energy."
+        },
+        {
+          "id": "zzz-item-4350517",
+          "name": "[Blueprint] Spirit Witch Ward - Lv.60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_009_Blueprint.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting for the corresponding Item at the Smart Workshop. Can be purchased from Boojee's Store - Season Limited.\n\nItem Effect: When the Etheric Phantom: Sobek effect ends, each squad member recovers HP equal to 10% of their remaining Shield from that effect. When Yuzuha uses her [EX Special Attack] or [Ultimate], her Anomaly Mastery increases by 40 for 30s. Repeated triggers reset the duration. When either attack hits an enemy, it reduces the target's DEF by 18% and All-Attribute RES by 15% for 30s. Repeated triggers reset the duration."
+        },
+        {
+          "id": "zzz-item-4350518",
+          "name": "[Blueprint] Mountain Lord's Break\u00b7Lv.60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_006_Blueprint.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding Item at the Smart Workshop. Can be purchased from Boojee's Store - Season Limited.\n\nItem Effect: After opening a Strongbox, all squad members gain a Shield equal to 15% of their Max HP for 60s. This effect does not stack, and the same Strongbox cannot trigger it more than once. After Ju Fufu uses [Chain Attack: Suppressing Tiger Cauldron], if she is not the active character, she launches one [Tag Assist], circling the enemy and performing the fourth hit of her [Basic Attack]. The skill's DMG is considered [Aftershock] DMG. DMG dealt increases by 75% and Daze dealt increases by 45%."
+        },
+        {
+          "id": "zzz-item-4350519",
+          "name": "[Blueprint] Lethal Etiquette-Lv.60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_004_Blueprint.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "Blueprints can be used to unlock the crafting of the corresponding Item in the Smart Workshop. Can be purchased from Boojee's Store - Season Limited.\n\nItem Effect: After using Phase Dash, Evelyn recovers 1 Burning Tether Point. When any squad member's Aftershock, Quick Assist, or Perfect Assist hits enemies, Evelyn restores Burning Embers. When Evelyn consumes Burning Tether Points to activate Chain Attack: Lunalux - Snare, it will be replaced by Chain Attack: Lunalux - Entanglement, significantly reducing skill duration. When Evelyn's Chain Attack hits enemies, the skill's DMG increases by 80%."
+        },
+        {
+          "id": "zzz-item-4350520",
+          "name": "[Blueprint] Encircle Prey Time-Lv.60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_020_Blueprint.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "Blueprints can be used to unlock the crafting of the corresponding Item in the Smart Workshop. Available for purchase in Boojee's Store - Season Limited.\n\nItem Effect: When using Etheric Phantom, Jane immediately recovers 100 points of [Passion Stream]. {AWAKEN_1261#[EX Special Attack: Aerial Sweep] is upgraded to [EX Special Attack: Aerial Sweep - Onslaught], with its DMG Multiplier and Anomaly Buildup greatly increased}{NOAWAKEN_1261#[EX Special Attack: Aerial Sweep] is upgraded to [EX Special Attack: Aerial Sweep - Onslaught]}. Hitting an enemy with this skill inflicts [Wound] on the target. While in this state, the target takes Physical DMG equal to 60% of Jane's ATK and accumulates Physical Anomaly Buildup once per second for 8s. Repeated triggers refresh the duration."
+        },
+        {
+          "id": "zzz-item-4350521",
+          "name": "[Blueprint] Mist Tide Resurgence-Lv.60",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_WeaponAvatar_002_Blueprint.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "Blueprints can be used to unlock the crafting of the corresponding Item at the Smart Workshop. Can be purchased from Boojee's Store - Season Limited.\n\nItem Effect: While Roaming is active, the Cacophony Soundscape's Corruption is reduced to 70% of its original value. When Ellen uses an [EX Special Attack], [Chain Attack], or [Ultimate], she leaves Icy Mist on the ground, dealing continuous Ice DMG for 15s. Agents inside [Icy Mist] gain increased Anti-Interrupt Level and take 30% less DMG. These effects persist for 5s after leaving [Icy Mist]. When Ellen hits an enemy inside [Icy Mist], [Icy Mist] deals one additional instance of DMG."
+        },
+        {
+          "id": "zzz-item-4360001",
+          "name": "Hematite Crystal",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_001.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "A special crystal infused with Ether energy. Its black-and-russet surface resembles hematite. It feels warm to the touch, as though it could explode at any moment..."
+        },
+        {
+          "id": "zzz-item-4360002",
+          "name": "Stable Voltage Divider",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_002.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "A stable voltage divider manufactured by Useful Works. Widely used in civilian and industrial systems, it automatically regulates current to keep output voltage within a safe range."
+        },
+        {
+          "id": "zzz-item-4360003",
+          "name": "Porcelume Rings",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_003.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "A ring made from Porcelume and certified by Buyan as a cultural specialty of the Waifei Peninsula. Rumor has it that wearing ten at once will earn you a special nickname among the locals: \"Moneybags!\""
+        },
+        {
+          "id": "zzz-item-4360004",
+          "name": "Circuit Core",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_004.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "A circuit core produced by the Marcel Group and widely used in Bangboo manufacturing and other devices. Tiny, yet surprisingly durable!"
+        },
+        {
+          "id": "zzz-item-4360005",
+          "name": "Storage Unit",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_005.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "A storage unit produced by the Marcel Group and widely used in Bangboo manufacturing and other devices. Available in multiple capacities, including 128 GB and 256 GB."
+        },
+        {
+          "id": "zzz-item-4360006",
+          "name": "Signal Detector",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_006.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "A specialized HIA detector capable of tuning itself to track different signal types. Its only flaw is that users can never seem to decide whether to look through the eyepiece or at the screen."
+        },
+        {
+          "id": "zzz-item-4360007",
+          "name": "Limit Gauge",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_007.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "HIA's Zenless Limit Meter is an essential device for monitoring Hollow activity. Hollows may have limits, but an investigator's journey never ends!"
+        },
+        {
+          "id": "zzz-item-4360008",
+          "name": "Classified Intel",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_008.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "A classified data terminal recovered from the Hollow. It appears to have belonged to a Defense Force unit. Unauthorized access is prohibited. But if you absolutely must peek, make it quick!"
+        },
+        {
+          "id": "zzz-item-4360009",
+          "name": "Tactical Computer",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_009.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "A tactical computer issued by the Defense Force. Shockproof, waterproof, and dustproof, it is capable of handling all kinds of operations. But whatever you do, do NOT press the red button!"
+        },
+        {
+          "id": "zzz-item-4360010",
+          "name": "Observation Data Orb",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_010.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "HIA's Hollow Observation Data Orb functions much like an Observation Data Pile. It's easier to carry, but its battery drains much faster, so recovering it often requires additional personnel."
+        },
+        {
+          "id": "zzz-item-4360011",
+          "name": "Starlight Knight Collector's Edition",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_011.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "A Starlight Knight Collector's Edition videotape. This commemorative release of Starlight Knight: Origins includes exclusive footage of three Knights battling \"Black Hole,\" along with an expert breakdown of the legendary Starlight Knight flying kick. A must-have for any devoted fan!"
+        },
+        {
+          "id": "zzz-item-4360012",
+          "name": "Mona Dullahana",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_012.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "A one-of-a-kind piece by a mysterious artist. Delicate brushwork recasts Dullahan as an elegant noblewoman, while rich layers of color convey both grace and strength. Anyone who sees it can only wonder: \"What the hell is this?\""
+        },
+        {
+          "id": "zzz-item-4360013",
+          "name": "Heartbreak Ballad",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_013.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "A collection of classic tearjerkers from Fugue Music. Maybe Ether Corruption got to the record, because these songs go beyond sadness. They're chilling enough to leave you craving hotpot just to warm up."
+        },
+        {
+          "id": "zzz-item-4360014",
+          "name": "Chan Accessory",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_014.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "A custom Chan Accessory, certified by Buyan as authentic Waifei Peninsula jewelry. What does the Chan symbolize? Ask around. Traditionalists claim it wards off disaster and evil, while younger buyers prefer the idea of wealth sticking to its wearer."
+        },
+        {
+          "id": "zzz-item-4360015",
+          "name": "Signal Search TV",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_015.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "An old Signal Search TV from an unknown brand. Its signal is highly unstable, but the aging picture tube gives the image a unique texture beloved by many art-loving Bangboos."
+        },
+        {
+          "id": "zzz-item-4360016",
+          "name": "Golden Cartridge Game Console",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_016.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "A home console jointly produced by Godfinger. It supports classics like Bizarre Brigade, Soul Hounds III, and Snake Duel, making it a favorite among the Bangboos at the research station."
+        },
+        {
+          "id": "zzz-item-4360017",
+          "name": "Golden Trinket: Boobrain",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_017.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "A solid-gold figurine by a mysterious artist. The little Bangboo sits with its eyes covered, having abandoned its search for the meaning of boo-life and chosen instead to hide from reality..."
+        },
+        {
+          "id": "zzz-item-4360018",
+          "name": "Golden Trinket: Boorainy",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_018.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "A solid-gold figurine by a mysterious artist. The seated Bangboo begins to ponder the meaning of boo-life, only to find its strength slowly drained by pressure from Dennies, its master, friends, and family..."
+        },
+        {
+          "id": "zzz-item-4360019",
+          "name": "Golden Ice Cream",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_019.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "A solid-gold figurine by a mysterious artist. Beneath its smooth curves lies the boundless lust for gold shared by humans, Bangboos, and all living things. Slurp..."
+        },
+        {
+          "id": "zzz-item-4360020",
+          "name": "Hound Hunting Trophy",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_023.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "Proof of being the strongest hunter in the Divine Maze!"
+        },
+        {
+          "id": "zzz-item-4360021",
+          "name": "Gold Figurine: Lordly Trashcan",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_024.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "A visitor from another world! The Lordly Trashcan!"
+        },
+        {
+          "id": "zzz-item-4360022",
+          "name": "Cabbooge Ornament",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_025.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "A Bangboo figurine from S\u0101n-Z STUDIO. A tiny little cabbage, the palest in the patch and the greenest of the bunch."
+        },
+        {
+          "id": "zzz-item-4360023",
+          "name": "Auboogine Ornament",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_026.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "A Bangboo figurine from S\u0101n-Z STUDIO. Potatoboo and Pepperboo are his eldest and second-eldest brothers."
+        },
+        {
+          "id": "zzz-item-4360024",
+          "name": "Boonip Ornament",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_027.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "A Bangboo figurine from S\u0101n-Z STUDIO. What can this little Boonip do for you?"
+        },
+        {
+          "id": "zzz-item-4360025",
+          "name": "Boonapple Ornament",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_028.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "A Bangboo figurine from S\u0101n-Z STUDIO. You're the one who looks like a durian! Your whole family looks like durians!"
+        },
+        {
+          "id": "zzz-item-4360026",
+          "name": "Booboonut Ornament",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_029.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "A Bangboo figurine from S\u0101n-Z STUDIO. Going coco-loco!"
+        },
+        {
+          "id": "zzz-item-4360027",
+          "name": "Watermel-en Ornament",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_030.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "A Bangboo figurine from S\u0101n-Z STUDIO. This melon comes with a ripeness guarantee."
+        },
+        {
+          "id": "zzz-item-4360028",
+          "name": "Boorocoli Ornament",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_031.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "A Bangboo figurine from S\u0101n-Z STUDIO. Art is all about the broccoli!"
+        },
+        {
+          "id": "zzz-item-4360029",
+          "name": "Boomato Ornament",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_032.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "A Bangboo figurine from S\u0101n-Z STUDIO. Have you seen my good friend, Eggboo?"
+        },
+        {
+          "id": "zzz-item-4360030",
+          "name": "Corn Cobboo Ornament",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_033.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "A Bangboo figurine from S\u0101n-Z STUDIO. Rumor has it that holding it over an open flame might turn it into Popcornboo."
+        },
+        {
+          "id": "zzz-item-4360031",
+          "name": "Nitro-Fuel Soda Ornament",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_034.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "A Bangboo figurine from S\u0101n-Z STUDIO. Fill Nitro-Fuel with fizz, take a sip and feel the zip!"
+        },
+        {
+          "id": "zzz-item-4360032",
+          "name": "Crispy Pan-Fried Dumpling Ornament",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_035.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "A Bangboo figurine from S\u0101n-Z STUDIO. I've got fried dumplings on my head and scallions on my face!"
+        },
+        {
+          "id": "zzz-item-4360033",
+          "name": "Cream Pudding Ornament",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_036.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "A Bangboo figurine from S\u0101n-Z STUDIO. Hot pot makes you hiss and huff; custard pudding cools you off!"
+        },
+        {
+          "id": "zzz-item-4360034",
+          "name": "En O'Clock (Midnight Black)",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_037.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "A desk alarm clock from S\u0101n-Z STUDIO. Its midnight-black finish and the soothing \"Ehn-ne-ne\" white noise make for the perfect end to the day."
+        },
+        {
+          "id": "zzz-item-4360035",
+          "name": "En O'Clock (Daylight Orange)",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_038.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "A desk alarm clock from S\u0101n-Z STUDIO. Its sunrise-orange finish and the cheerful \"Ehn-ne, ehn-ne\" alarm mark the perfect start to the day."
+        },
+        {
+          "id": "zzz-item-4360036",
+          "name": "Boo-rick Phone (Ebony Black)",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_039.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "A long-range radio phone from S\u0101n-Z STUDIO. Making a call? Make it on a Boo-rick Phone! Whether it's gossip, complaints, or whispered secrets, it'll blow you away!"
+        },
+        {
+          "id": "zzz-item-4360037",
+          "name": "Boo-rick Phone (Ivory White)",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_040.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "A long-range radio phone from S\u0101n-Z STUDIO. Making a call? Make it on a Boo-rick Phone! Whether it's gossip, complaints, or whispered secrets, it'll blow you away!"
+        },
+        {
+          "id": "zzz-item-4360038",
+          "name": "Hound Fang",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_CollectionA_001.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "A strange and terrifying fang made into a pendant by an Ethereal-art enthusiast. (Not a bottle opener.)"
+        },
+        {
+          "id": "zzz-item-4360039",
+          "name": "Etheric Phantom Card: Tyrfing",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_CollectionA_002.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "The Tyrfing Card ranks at the bottom in power, but using enough copies at once may produce unexpected results."
+        },
+        {
+          "id": "zzz-item-4360040",
+          "name": "Mystic Conch",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_CollectionA_003.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "Questions about the maze? Ask the Mystic Conch!"
+        },
+        {
+          "id": "zzz-item-4360041",
+          "name": "Ruby Ring",
+          "kind": "item",
+          "art": null,
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "A large ring crafted from ruby. A certified Buyan antique from Eridu. Slip it on your finger, and it's like a neon sign flashes above your head reading \"Old Money\" and \"Aristocrat.\""
+        },
+        {
+          "id": "zzz-item-4360042",
+          "name": "\"Blood Cicada\" Accessory",
+          "kind": "item",
+          "art": null,
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "A custom pendant called \"Blood Cicada,\" certified by Buyan as authentic Waifei Peninsula-style jewelry. Unlike the cicada's traditional symbolism of good fortune, the Blood Cicada carries a cautionary meaning \u2014 a warning to guard what you've built and protect what you call home."
+        },
+        {
+          "id": "zzz-item-4360043",
+          "name": "En O'Clock (Icedawn White)",
+          "kind": "item",
+          "art": null,
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "A desk alarm clock from S\u0101n-Z STUDIO. Early-winter Day Break white, with an \"mm-hmm\" chime on the hour. The perfect way to mark a whole year of hard work."
+        },
+        {
+          "id": "zzz-item-4360044",
+          "name": "Boo-rick Phone (Amber Orange)",
+          "kind": "item",
+          "art": null,
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "A long-range radio phone from S\u0101n-Z STUDIO. Making a call? Make it on a Boo-rick Phone! Whether it's gossip, complaints, or whispered secrets, it'll blow you away!"
+        },
+        {
+          "id": "zzz-item-4360045",
+          "name": "CCTV",
+          "kind": "item",
+          "art": null,
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "A no-name vintage CCTV monitor. The label says it needs a signal cable connected to output video, but no matter how hard you look, there's not a single signal input port anywhere on the thing\u2026"
+        },
+        {
+          "id": "zzz-item-4360085",
+          "name": "[Fragile] Base Blade of the Other\u00b7Block",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipPyrois_001.webp",
+          "fields": {
+            "rarity": "1 \u2605"
+          },
+          "text": "Equipping grants 3 Alter Skills: [Perfect Block], [Phase Dash], and [Strong Slash]. Perfect Block triggers a dodge effect even on failure. DMG dealt by Strong Slash against enemies above Lv. 20 is reduced by 50%."
+        },
+        {
+          "id": "zzz-item-4360086",
+          "name": "[Fragile] Base Blade of the Other\u00b7Block",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_EquipPyrois_001.webp",
+          "fields": {
+            "rarity": "1 \u2605"
+          },
+          "text": "Equipping grants 3 Alter Skills: [Perfect Block], [Phase Dash], and [Strong Slash]. Perfect Block triggers a dodge effect even on failure. DMG dealt by Strong Slash against enemies above Lv. 20 is reduced by 50%."
+        },
+        {
+          "id": "zzz-item-4360087",
+          "name": "[Commission] Complete Hematite Signal Detector",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_006.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "The custom-built detector from HIA has already locked its target onto Ether Signals linked to hematite\u2026"
+        },
+        {
+          "id": "zzz-item-4360088",
+          "name": "[Commission] Treasure Radar",
+          "kind": "item",
+          "art": null,
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "A radar set to a special search frequency that seems to guide you toward high-value areas within the \"Divine Maze\"."
+        },
+        {
+          "id": "zzz-item-4360089",
+          "name": "[Commission] Heartbreak Ballads Anniversary Edition",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_013.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "An anniversary edition of a classic tearjerker ballad, produced by Fugue. Due to Ether interference, it has somehow developed the bizarre ability to lower temperatures. Just a single bar of the melody is enough to cut straight to the bone \u2014 cold enough to send you into a sneezing fit\u2026"
+        },
+        {
+          "id": "zzz-item-4360090",
+          "name": "[Commission] Phantasm TV",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_015.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "A TV set on loop, blasting some seriously creepy audio."
+        },
+        {
+          "id": "zzz-item-4360091",
+          "name": "[Commission] HAND Tactical Computer",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_009.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Besides classified HAND documents, there seems to be some... literary works in there \u2014 the kind that'll make you blush, your heart race, and maybe leave you with a confused look on your face."
+        },
+        {
+          "id": "zzz-item-4360092",
+          "name": "[Commission] Broken Hematite Signal Detector",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_006.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "The custom-built detector from HIA has already locked its target onto Ether Signals linked to hematite\u2026"
+        },
+        {
+          "id": "zzz-item-4360093",
+          "name": "[Commission] Mysterious Access Ka",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Key_025.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "An access card scratched from a scratch card at the illusion newsstand\u2014maybe the restricted area it unlocks is hiding the scratch card's prize?"
+        },
+        {
+          "id": "zzz-item-4360094",
+          "name": "[Commission] Labyrinth Carrot Shard",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_022.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "A shard of Labyrinth Carrot, a special device once carried by Joyous. Rumor has it that this remarkable invention can chart routes through the Papago Hollow without relying on Rosetta Data."
+        },
+        {
+          "id": "zzz-item-4360095",
+          "name": "[Commission] Signal Transmitters",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Material_040.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "A signal transmitter used to pinpoint an Unknown Bangboo's signal. Once activated, it periodically emits scanning signals. Activate multiple transmitters to obtain a precise location fix on the target."
+        },
+        {
+          "id": "zzz-item-4360096",
+          "name": "[Commission] Hematite Crystal Shards",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SuibianProspectingMaterial03.webp",
+          "fields": {
+            "rarity": "2 \u2605"
+          },
+          "text": "\uff08This line seems to have been cut\uff09"
+        },
+        {
+          "id": "zzz-item-4360097",
+          "name": "[Commission] Special Storage Unit",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_005.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "A Blasting storage unit specially made for repairing Boorilliant. Looks identical to any standard storage unit, except the connector is some outdated spec that was retired decades ago\u2026 (For the love of all things holy, just standardize every single connector already!)"
+        },
+        {
+          "id": "zzz-item-4360098",
+          "name": "[Commission] Hematite Core",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_001.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "A specially crafted crystal used to unlock spatial fissures in the lava area. Scorching hot and dangerous \u2014 keep away from children and pets..."
+        },
+        {
+          "id": "zzz-item-4360099",
+          "name": "[Commission] Elevator Access Card",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Key_007.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Activates the large elevator leading to the Lower Level area of Suburbs Illusion. The back of the card also seems to have a reservation number for Savage Town's \"Pig Rush Forward\" logistics company\u2026"
+        },
+        {
+          "id": "zzz-item-4362001",
+          "name": "Blueprint",
+          "kind": "item",
+          "art": null,
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Zenkov-Blueprint"
+        },
+        {
+          "id": "zzz-item-4363501",
+          "name": "Fragile Carrot",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_020.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "A Carrot chip created from Hollow observation data. Without protective encapsulation, exposure to Ether fluctuations \u2014 such as those encountered while passing through long-distance spatial fissures \u2014 may cause packet loss or complete failure."
+        },
+        {
+          "id": "zzz-item-4363502",
+          "name": "Stable Carrot",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Collection_021.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "A fully encapsulated and locked Carrot chip capable of safely leaving the Hollow through a spatial fissure."
+        },
+        {
+          "id": "zzz-item-4363503",
+          "name": "Unknown Valuables",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Box_EquipS.webp",
+          "fields": {
+            "rarity": "5 \u2605"
+          },
+          "text": "According to the research station's logistics records, a valuable item is stored there \u2014 but the details? Completely unverifiable."
+        },
+        {
+          "id": "zzz-item-4364001",
+          "name": "Windworn Highway - Oasis Industrial Park Key",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Key_004.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "After use, opens the gate to Windworn Highway - Oasis Industrial Park."
+        },
+        {
+          "id": "zzz-item-4364002",
+          "name": "Bunless Bae Town - Unloading Zone Key",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Key_009.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Use to unlock the gate to Bunless Bae Town - Unloading Dock."
+        },
+        {
+          "id": "zzz-item-4364003",
+          "name": "Phantom Aquarium East Gate, Fantasy Beach",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Key_012.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "After use, unlocks the Fantasy Beach - Phantom Aquarium East Entrance."
+        },
+        {
+          "id": "zzz-item-4364004",
+          "name": "Fantasy Beach - Fantasy Dock Extraction Point Key",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Key_013.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Can be used to access the extraction point near Fantasy Beach - Fantasy Dock - Speedboat."
+        },
+        {
+          "id": "zzz-item-4364005",
+          "name": "Sixth Twilight Street Warehouse",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Key_016.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "After use, opens the gate to Six Dusk Street - Warehouse."
+        },
+        {
+          "id": "zzz-item-4364006",
+          "name": "Paloma Construction Site: Phase I Access Route",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Key_018.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "After use, opens the gate to Dove Street Construction Site - Phase 1 Construction Passage."
+        },
+        {
+          "id": "zzz-item-4364007",
+          "name": "Guangyin Plaza Key",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Key_024.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "ZKItem_4364007_Desc"
+        },
+        {
+          "id": "zzz-item-4364008",
+          "name": "Phantom Aquarium East Gate, Fantasy Beach",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Zenkov_Key_012.webp",
+          "fields": {
+            "rarity": "3 \u2605"
+          },
+          "text": "After use, unlocks the Fantasy Beach - Phantom Aquarium East Entrance."
+        },
+        {
+          "id": "zzz-item-4370001",
+          "name": "Swimming Crab",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_03.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "They crawl fast, but there's always someone a cut above them."
+        },
+        {
+          "id": "zzz-item-4370002",
+          "name": "Swimming Crab",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_03.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "They crawl fast, but there's always someone a cut above them."
+        },
+        {
+          "id": "zzz-item-4370003",
+          "name": "Swimming Crab",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_03.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "They crawl fast, but there's always someone a cut above them."
+        },
+        {
+          "id": "zzz-item-4370004",
+          "name": "Swimming Crab",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_03.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "They crawl fast, but there's always someone a cut above them."
+        },
+        {
+          "id": "zzz-item-4370005",
+          "name": "Swimming Crab",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_03.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "They crawl fast, but there's always someone a cut above them."
+        },
+        {
+          "id": "zzz-item-4370011",
+          "name": "Hermit Crab",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_01.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When danger strikes, it retreats into the shell on its back \u2014 out of sight, out of danger."
+        },
+        {
+          "id": "zzz-item-4370012",
+          "name": "Hermit Crab",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_01.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When danger strikes, it retreats into the shell on its back \u2014 out of sight, out of danger."
+        },
+        {
+          "id": "zzz-item-4370013",
+          "name": "Hermit Crab",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_01.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When danger strikes, it retreats into the shell on its back \u2014 out of sight, out of danger."
+        },
+        {
+          "id": "zzz-item-4370014",
+          "name": "Hermit Crab",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_01.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When danger strikes, it retreats into the shell on its back \u2014 out of sight, out of danger."
+        },
+        {
+          "id": "zzz-item-4370015",
+          "name": "Hermit Crab",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_01.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "When danger strikes, it retreats into the shell on its back \u2014 out of sight, out of danger."
+        },
+        {
+          "id": "zzz-item-4370021",
+          "name": "Bay Clam",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_04.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "The most common shellfish \u2014 equally at home on the dinner table or as a display piece."
+        },
+        {
+          "id": "zzz-item-4370022",
+          "name": "Bay Clam",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_04.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "The most common shellfish \u2014 equally at home on the dinner table or as a display piece."
+        },
+        {
+          "id": "zzz-item-4370023",
+          "name": "Bay Clam",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_04.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "The most common shellfish \u2014 equally at home on the dinner table or as a display piece."
+        },
+        {
+          "id": "zzz-item-4370024",
+          "name": "Bay Clam",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_04.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "The most common shellfish \u2014 equally at home on the dinner table or as a display piece."
+        },
+        {
+          "id": "zzz-item-4370025",
+          "name": "Bay Clam",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_04.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "The most common shellfish \u2014 equally at home on the dinner table or as a display piece."
+        },
+        {
+          "id": "zzz-item-4370031",
+          "name": "Short-Spined Conch",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_05.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Maxed out DEF... but can't really run."
+        },
+        {
+          "id": "zzz-item-4370032",
+          "name": "Short-Spined Conch",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_05.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Maxed out DEF... but can't really run."
+        },
+        {
+          "id": "zzz-item-4370033",
+          "name": "Short-Spined Conch",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_05.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Maxed out DEF... but can't really run."
+        },
+        {
+          "id": "zzz-item-4370034",
+          "name": "Short-Spined Conch",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_05.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Maxed out DEF... but can't really run."
+        },
+        {
+          "id": "zzz-item-4370035",
+          "name": "Short-Spined Conch",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_05.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Maxed out DEF... but can't really run."
+        },
+        {
+          "id": "zzz-item-4370041",
+          "name": "Ordinary Drift Bottle",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_11.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "No wishes, no blessings inside \u2014 just a plain, ordinary drift bottle."
+        },
+        {
+          "id": "zzz-item-4370042",
+          "name": "Ordinary Drift Bottle",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_11.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "No wishes, no blessings inside \u2014 just a plain, ordinary drift bottle."
+        },
+        {
+          "id": "zzz-item-4370043",
+          "name": "Ordinary Drift Bottle",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_11.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "No wishes, no blessings inside \u2014 just a plain, ordinary drift bottle."
+        },
+        {
+          "id": "zzz-item-4370044",
+          "name": "Ordinary Drift Bottle",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_11.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "No wishes, no blessings inside \u2014 just a plain, ordinary drift bottle."
+        },
+        {
+          "id": "zzz-item-4370045",
+          "name": "Ordinary Drift Bottle",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_11.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "No wishes, no blessings inside \u2014 just a plain, ordinary drift bottle."
+        },
+        {
+          "id": "zzz-item-4370051",
+          "name": "Bamboo Clam",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_08.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Definitely not bamboo that swim!"
+        },
+        {
+          "id": "zzz-item-4370052",
+          "name": "Bamboo Clam",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_08.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Definitely not bamboo that swim!"
+        },
+        {
+          "id": "zzz-item-4370053",
+          "name": "Bamboo Clam",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_08.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Definitely not bamboo that swim!"
+        },
+        {
+          "id": "zzz-item-4370054",
+          "name": "Bamboo Clam",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_08.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Definitely not bamboo that swim!"
+        },
+        {
+          "id": "zzz-item-4370055",
+          "name": "Bamboo Clam",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_08.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Definitely not bamboo that swim!"
+        },
+        {
+          "id": "zzz-item-4370061",
+          "name": "Porcelain Stone",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_13.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "A flat, smooth stone \u2014 perfect for skipping across the water!"
+        },
+        {
+          "id": "zzz-item-4370062",
+          "name": "Porcelain Stone",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_13.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "A flat, smooth stone \u2014 perfect for skipping across the water!"
+        },
+        {
+          "id": "zzz-item-4370063",
+          "name": "Porcelain Stone",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_13.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "A flat, smooth stone \u2014 perfect for skipping across the water!"
+        },
+        {
+          "id": "zzz-item-4370064",
+          "name": "Porcelain Stone",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_13.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "A flat, smooth stone \u2014 perfect for skipping across the water!"
+        },
+        {
+          "id": "zzz-item-4370065",
+          "name": "Porcelain Stone",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_13.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "A flat, smooth stone \u2014 perfect for skipping across the water!"
+        },
+        {
+          "id": "zzz-item-4370071",
+          "name": "Starfish",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_06.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "A familiar pink starfish \u2014 seems like it likes to hang out under rocks."
+        },
+        {
+          "id": "zzz-item-4370072",
+          "name": "Starfish",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_06.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "A familiar pink starfish \u2014 seems like it likes to hang out under rocks."
+        },
+        {
+          "id": "zzz-item-4370073",
+          "name": "Starfish",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_06.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "A familiar pink starfish \u2014 seems like it likes to hang out under rocks."
+        },
+        {
+          "id": "zzz-item-4370074",
+          "name": "Starfish",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_06.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "A familiar pink starfish \u2014 seems like it likes to hang out under rocks."
+        },
+        {
+          "id": "zzz-item-4370075",
+          "name": "Starfish",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_06.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "A familiar pink starfish \u2014 seems like it likes to hang out under rocks."
+        },
+        {
+          "id": "zzz-item-4370081",
+          "name": "Pancake Crab",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_02.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "A chubby little crab... looks absolutely delicious."
+        },
+        {
+          "id": "zzz-item-4370082",
+          "name": "Pancake Crab",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_02.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "A chubby little crab... looks absolutely delicious."
+        },
+        {
+          "id": "zzz-item-4370083",
+          "name": "Pancake Crab",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_02.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "A chubby little crab... looks absolutely delicious."
+        },
+        {
+          "id": "zzz-item-4370084",
+          "name": "Pancake Crab",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_02.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "A chubby little crab... looks absolutely delicious."
+        },
+        {
+          "id": "zzz-item-4370085",
+          "name": "Pancake Crab",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_02.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "A chubby little crab... looks absolutely delicious."
+        },
+        {
+          "id": "zzz-item-4370091",
+          "name": "Slipper With a Story",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_09.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Maybe from brave souls who set out to conquer the sea \u2014 or maybe from the unlucky ones who got conquered by it instead."
+        },
+        {
+          "id": "zzz-item-4370092",
+          "name": "Slipper With a Story",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_09.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Maybe from brave souls who set out to conquer the sea \u2014 or maybe from the unlucky ones who got conquered by it instead."
+        },
+        {
+          "id": "zzz-item-4370093",
+          "name": "Slipper With a Story",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_09.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Maybe from brave souls who set out to conquer the sea \u2014 or maybe from the unlucky ones who got conquered by it instead."
+        },
+        {
+          "id": "zzz-item-4370094",
+          "name": "Slipper With a Story",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_09.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Maybe from brave souls who set out to conquer the sea \u2014 or maybe from the unlucky ones who got conquered by it instead."
+        },
+        {
+          "id": "zzz-item-4370095",
+          "name": "Slipper With a Story",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_09.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Maybe from brave souls who set out to conquer the sea \u2014 or maybe from the unlucky ones who got conquered by it instead."
+        },
+        {
+          "id": "zzz-item-4370101",
+          "name": "Sacabambaspis",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_12.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Always wearing a shocked expression, yet no one knows what's got it so shook."
+        },
+        {
+          "id": "zzz-item-4370102",
+          "name": "Sacabambaspis",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_12.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Always wearing a shocked expression, yet no one knows what's got it so shook."
+        },
+        {
+          "id": "zzz-item-4370103",
+          "name": "Sacabambaspis",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_12.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Always wearing a shocked expression, yet no one knows what's got it so shook."
+        },
+        {
+          "id": "zzz-item-4370104",
+          "name": "Sacabambaspis",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_12.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Always wearing a shocked expression, yet no one knows what's got it so shook."
+        },
+        {
+          "id": "zzz-item-4370105",
+          "name": "Sacabambaspis",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_12.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Always wearing a shocked expression, yet no one knows what's got it so shook."
+        },
+        {
+          "id": "zzz-item-4370111",
+          "name": "Sea Urchin",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_10.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "A pitch-black spiked ball from the ocean \u2014 grab some gloves before you pick this thing up."
+        },
+        {
+          "id": "zzz-item-4370112",
+          "name": "Sea Urchin",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_10.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "A pitch-black spiked ball from the ocean \u2014 grab some gloves before you pick this thing up."
+        },
+        {
+          "id": "zzz-item-4370113",
+          "name": "Sea Urchin",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_10.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "A pitch-black spiked ball from the ocean \u2014 grab some gloves before you pick this thing up."
+        },
+        {
+          "id": "zzz-item-4370114",
+          "name": "Sea Urchin",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_10.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "A pitch-black spiked ball from the ocean \u2014 grab some gloves before you pick this thing up."
+        },
+        {
+          "id": "zzz-item-4370115",
+          "name": "Sea Urchin",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_10.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "A pitch-black spiked ball from the ocean \u2014 grab some gloves before you pick this thing up."
+        },
+        {
+          "id": "zzz-item-4370121",
+          "name": "Mudskipper",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_07.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Life's too short to be spent in the water \u2014 time to hit the shore."
+        },
+        {
+          "id": "zzz-item-4370122",
+          "name": "Mudskipper",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_07.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Life's too short to be spent in the water \u2014 time to hit the shore."
+        },
+        {
+          "id": "zzz-item-4370123",
+          "name": "Mudskipper",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_07.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Life's too short to be spent in the water \u2014 time to hit the shore."
+        },
+        {
+          "id": "zzz-item-4370124",
+          "name": "Mudskipper",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_07.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Life's too short to be spent in the water \u2014 time to hit the shore."
+        },
+        {
+          "id": "zzz-item-4370125",
+          "name": "Mudskipper",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_07.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Life's too short to be spent in the water \u2014 time to hit the shore."
+        },
+        {
+          "id": "zzz-item-4370126",
+          "name": "Mysterious Drift Bottle",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_11.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Inside the bottle sits a yellowed piece of parchment, giving off a mysterious vibe..."
+        },
+        {
+          "id": "zzz-item-4370127",
+          "name": "Precious Drift Bottle",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_11.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "Inside the bottle is a carefully rolled piece of paper \u2014 looks like it's carrying some seriously important info..."
+        },
+        {
+          "id": "zzz-item-4370128",
+          "name": "Featherlight Bottle",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/SummerTideTreasure_DroopItemIcon_11.webp",
+          "fields": {
+            "rarity": "4 \u2605"
+          },
+          "text": "A drift bottle that's supposed to hold paper, yet it feels almost weightless in your hand..."
+        },
+        {
           "id": "zzz-item-10007030",
           "name": "[Duel] Homemade Spiked Mace",
           "kind": "item",
@@ -52143,6 +59220,215 @@
             "type": "Hollow Item"
           },
           "text": "Consumes energy to break through rocky obstacles. Offers further increased destruction speed and destroys extremely hard obstacles."
+        },
+        {
+          "id": "zzz-item-311151101",
+          "name": "Skyline Style",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/icon_Belle_Back_Pendant_Default.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Outfit Accessories"
+          },
+          "text": "A Proxy accessory that can be worn with some of Belle's Proxy outfits."
+        },
+        {
+          "id": "zzz-item-311151102",
+          "name": "Skyline Style",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/icon_Belle_Back_Pendant_Default.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Outfit Accessories"
+          },
+          "text": "A Proxy accessory that can be worn with some of Belle's Proxy outfits."
+        },
+        {
+          "id": "zzz-item-311151103",
+          "name": "Skyline Style",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/icon_Belle_Back_Pendant_Default.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Outfit Accessories"
+          },
+          "text": "A Proxy accessory that can be worn with some of Belle's Proxy outfits."
+        },
+        {
+          "id": "zzz-item-311151104",
+          "name": "Skyline Style",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/icon_Belle_Back_Pendant_Default.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Outfit Accessories"
+          },
+          "text": "A Proxy accessory that can be worn with some of Belle's Proxy outfits."
+        },
+        {
+          "id": "zzz-item-311151105",
+          "name": "Skyline Style",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/icon_Belle_Back_Pendant_Default.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Outfit Accessories"
+          },
+          "text": "A Proxy accessory that can be worn with some of Belle's Proxy outfits."
+        },
+        {
+          "id": "zzz-item-311151106",
+          "name": "Skyline Style",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/icon_Belle_Back_Pendant_Default.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Outfit Accessories"
+          },
+          "text": "A Proxy accessory that can be worn with some of Belle's Proxy outfits."
+        },
+        {
+          "id": "zzz-item-311151107",
+          "name": "Skyline Style",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/icon_Belle_Back_Pendant_Default.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Outfit Accessories"
+          },
+          "text": "A Proxy accessory that can be worn with some of Belle's Proxy outfits."
+        },
+        {
+          "id": "zzz-item-311151108",
+          "name": "Skyline Style",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/icon_Belle_Back_Pendant_Default.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Outfit Accessories"
+          },
+          "text": "A Proxy accessory that can be worn with some of Belle's Proxy outfits."
+        },
+        {
+          "id": "zzz-item-311151109",
+          "name": "Skyline Style",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/icon_Belle_Back_Pendant_Default.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Outfit Accessories"
+          },
+          "text": "A Proxy accessory that can be worn with some of Belle's Proxy outfits."
+        },
+        {
+          "id": "zzz-item-311151110",
+          "name": "Skyline Style",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/icon_Belle_Back_Pendant_Default.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Outfit Accessories"
+          },
+          "text": "A Proxy accessory that can be worn with some of Belle's Proxy outfits."
+        },
+        {
+          "id": "zzz-item-311151111",
+          "name": "Skyline Style",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/icon_Belle_Back_Pendant_Default.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Outfit Accessories"
+          },
+          "text": "A Proxy accessory that can be worn with some of Belle's Proxy outfits."
+        },
+        {
+          "id": "zzz-item-311151112",
+          "name": "Skyline Style",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/icon_Belle_Back_Pendant_Default.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Outfit Accessories"
+          },
+          "text": "A Proxy accessory that can be worn with some of Belle's Proxy outfits."
+        },
+        {
+          "id": "zzz-item-311151113",
+          "name": "Skyline Style",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/icon_Belle_Back_Pendant_Default.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Outfit Accessories"
+          },
+          "text": "A Proxy accessory that can be worn with some of Belle's Proxy outfits."
+        },
+        {
+          "id": "zzz-item-311151114",
+          "name": "Skyline Style",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/icon_Belle_Back_Pendant_Default.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Outfit Accessories"
+          },
+          "text": "A Proxy accessory that can be worn with some of Belle's Proxy outfits."
+        },
+        {
+          "id": "zzz-item-311151115",
+          "name": "Skyline Style",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/icon_Belle_Back_Pendant_Default.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Outfit Accessories"
+          },
+          "text": "A Proxy accessory that can be worn with some of Belle's Proxy outfits."
+        },
+        {
+          "id": "zzz-item-311151116",
+          "name": "Skyline Style",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/icon_Belle_Back_Pendant_Default.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Outfit Accessories"
+          },
+          "text": "A Proxy accessory that can be worn with some of Belle's Proxy outfits."
+        },
+        {
+          "id": "zzz-item-311151117",
+          "name": "Skyline Style",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/icon_Belle_Back_Pendant_Default.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Outfit Accessories"
+          },
+          "text": "A Proxy accessory that can be worn with some of Belle's Proxy outfits."
+        },
+        {
+          "id": "zzz-item-311151118",
+          "name": "Skyline Style",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/icon_Belle_Back_Pendant_Default.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Outfit Accessories"
+          },
+          "text": "A Proxy accessory that can be worn with some of Belle's Proxy outfits."
+        },
+        {
+          "id": "zzz-item-311581301",
+          "name": "Skyline Style",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/icon_Belle_Back_Pendant_Default.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Outfit Accessories"
+          },
+          "text": "A Proxy accessory that can be worn with some of Belle's Proxy outfits."
         },
         {
           "id": "zzz-item-412001001",
@@ -52682,6 +59968,61 @@
             "type": "Outfit Set"
           },
           "text": "Accessoriy_Desc_412001312"
+        },
+        {
+          "id": "zzz-item-412001313",
+          "name": "Accessoriy_412001313",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Skin_EllenOnCampus.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Outfit Set"
+          },
+          "text": "Accessoriy_Desc_412001313"
+        },
+        {
+          "id": "zzz-item-412001314",
+          "name": "Accessoriy_412001314",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Skin_EllenOnCampus.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Outfit Set"
+          },
+          "text": "Accessoriy_Desc_412001314"
+        },
+        {
+          "id": "zzz-item-412001315",
+          "name": "Accessoriy_412001315",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Skin_EllenOnCampus.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Outfit Set"
+          },
+          "text": "Accessoriy_Desc_412001315"
+        },
+        {
+          "id": "zzz-item-412001316",
+          "name": "Accessoriy_412001316",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Skin_EllenOnCampus.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Outfit Set"
+          },
+          "text": "Accessoriy_Desc_412001316"
+        },
+        {
+          "id": "zzz-item-412001317",
+          "name": "Accessoriy_412001317",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/Skin_EllenOnCampus.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Outfit Set"
+          },
+          "text": "Accessoriy_Desc_412001317"
         },
         {
           "id": "zzz-item-412001381",
@@ -53256,6 +60597,61 @@
           "text": "A Proxy accessory that can be worn with some of Wise's Proxy outfits."
         },
         {
+          "id": "zzz-item-412011313",
+          "name": "Dubi-Meow",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/icon_Wise_Head_Headgear_06.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Outfit Accessories"
+          },
+          "text": "A Proxy accessory that can be worn with some of Wise's Proxy outfits."
+        },
+        {
+          "id": "zzz-item-412011314",
+          "name": "Starshine Cross",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/icon_Wise_Head_Hat_05.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Outfit Accessories"
+          },
+          "text": "A Proxy accessory that can be worn with some of Wise's Proxy outfits."
+        },
+        {
+          "id": "zzz-item-412011315",
+          "name": "Delusion Beat K",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/icon_Wise_Chest_WaistOrnament_02.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Outfit Accessories"
+          },
+          "text": "A Proxy accessory that can be worn with some of Wise's Proxy outfits."
+        },
+        {
+          "id": "zzz-item-412011316",
+          "name": "Knightly Journey",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/icon_Wise_Chest_WaistOrnament_03.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Outfit Accessories"
+          },
+          "text": "A Proxy accessory that can be worn with some of Wise's Proxy outfits."
+        },
+        {
+          "id": "zzz-item-412011317",
+          "name": "Magic Shades",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/icon_Wise_Head_Glass_06.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Outfit Accessories"
+          },
+          "text": "A Proxy accessory that can be worn with some of Wise's Proxy outfits."
+        },
+        {
           "id": "zzz-item-412011381",
           "name": "Accessoriy_412011381",
           "kind": "item",
@@ -53281,7 +60677,7 @@
           "id": "zzz-item-412021001",
           "name": "Accessoriy_412021001",
           "kind": "item",
-          "art": "../../Database/GameData/zzz/assets/items/icon_Belle_Head_Earring_Default.webp",
+          "art": "../../Database/GameData/zzz/assets/items/icon_Belle_Back_Pendant_Default.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Outfit Accessories"
@@ -53821,6 +61217,61 @@
           "name": "Afternoon at Three",
           "kind": "item",
           "art": "../../Database/GameData/zzz/assets/items/icon_Belle_Back_NeckPendant_01.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Outfit Accessories"
+          },
+          "text": "A Proxy accessory that can be worn with some of Belle's Proxy outfits."
+        },
+        {
+          "id": "zzz-item-412021313",
+          "name": "Chipi-Meow",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/icon_Belle_Head_Headgear_06.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Outfit Accessories"
+          },
+          "text": "A Proxy accessory that can be worn with some of Belle's Proxy outfits."
+        },
+        {
+          "id": "zzz-item-412021314",
+          "name": "Starshine Cross",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/icon_Belle_Head_Hat_05.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Outfit Accessories"
+          },
+          "text": "A Proxy accessory that can be worn with some of Belle's Proxy outfits."
+        },
+        {
+          "id": "zzz-item-412021315",
+          "name": "Delusion Beat K",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/icon_Belle_Chest_WaistOrnament_02.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Outfit Accessories"
+          },
+          "text": "A Proxy accessory that can be worn with some of Belle's Proxy outfits."
+        },
+        {
+          "id": "zzz-item-412021316",
+          "name": "Knightly Journey",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/icon_Belle_Chest_WaistOrnament_03.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Outfit Accessories"
+          },
+          "text": "A Proxy accessory that can be worn with some of Belle's Proxy outfits."
+        },
+        {
+          "id": "zzz-item-412021317",
+          "name": "Magic Shades",
+          "kind": "item",
+          "art": "../../Database/GameData/zzz/assets/items/icon_Belle_Head_Glass_06.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Outfit Accessories"

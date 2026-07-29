@@ -21830,7 +21830,7 @@
   },
   {
     "id": "54023",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Ariel",
     "codeName": "Ariel",
     "rarity": 4,
@@ -22424,12 +22424,13 @@
       }
     },
     "liveComparison": {
+      "liveHash": "bc954b52064718bc59575bcdf47283647263e1e60526d77c54f4e39a587830d8",
       "currentHash": "bc954b52064718bc59575bcdf47283647263e1e60526d77c54f4e39a587830d8"
     }
   },
   {
     "id": "55098",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Eous",
     "codeName": "Eous",
     "rarity": 3,
@@ -22461,6 +22462,7 @@
       }
     },
     "liveComparison": {
+      "liveHash": "5c82e73c6249d526ad8bef928c51a97e573989c8527a0704eadd7a5f24eb5b31",
       "currentHash": "5c82e73c6249d526ad8bef928c51a97e573989c8527a0704eadd7a5f24eb5b31"
     }
   }

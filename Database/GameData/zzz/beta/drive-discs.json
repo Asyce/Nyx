@@ -729,7 +729,7 @@
   },
   {
     "id": "34100",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Feathered Fate",
     "type": "drive disc set",
     "description": "Anomaly Proficiency +30",
@@ -743,38 +743,40 @@
         "description": "When the equipper enters the battlefield or is switched in as the active character, they gain the following buff: Anomaly Proficiency increases by 50. If the equipper is a <color=#FFA9DD>Lumiflux</color> character, Attribute Anomaly DMG increases by 15%, lasting 15s.\nThis buff remains active while the equipper is off-field."
       }
     ],
-    "story": "...",
+    "story": "An ancient folk song. Some claim it's been sung since the founding of Eridu, though no historical records support that claim.",
     "assets": {
       "icon": "GameData/zzz/assets/drive-discs/SuitFeatheredFate.webp",
       "icon2": "GameData/zzz/assets/drive-discs/SuitFeatheredFate.webp"
     },
     "liveComparison": {
-      "currentHash": "1aede9adaf653119492e0bf3225259bffdaf43e11ced30f522f567be2cd6368e"
+      "liveHash": "184b5e3339f85b8e89c894d41dced35b97893b222f8424b0a6c322803f3fb204",
+      "currentHash": "184b5e3339f85b8e89c894d41dced35b97893b222f8424b0a6c322803f3fb204"
     }
   },
   {
     "id": "34200",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Thorned Rose",
     "type": "drive disc set",
-    "description": "...",
+    "description": "DEF +16%",
     "setEffects": [
       {
         "pieces": 2,
-        "description": "..."
+        "description": "DEF +16%"
       },
       {
         "pieces": 4,
-        "description": "..."
+        "description": "The equipper's DMG increases by 15%. When the equipper's initial DEF is at least 1,000/1,800, CRIT Rate increases by 8/16%."
       }
     ],
-    "story": "...",
+    "story": "A ballad passed down across Vyrium, born from the many legends and strange tales surrounding Flint. Though time remains silent, people never cease searching for the many mysteries hidden within his bloodline.",
     "assets": {
       "icon": "GameData/zzz/assets/drive-discs/SuitThornedRose.webp",
       "icon2": "GameData/zzz/assets/drive-discs/SuitThornedRose.webp"
     },
     "liveComparison": {
-      "currentHash": "f943cc4839ecdb5c788a0b22a2b14d401b2d97fff560ed7d5a8ab2d8dada93f2"
+      "liveHash": "8b412c06b44fd832a109640d556b42d61b28e00f0e09b096c2f9d0c1a437ba54",
+      "currentHash": "8b412c06b44fd832a109640d556b42d61b28e00f0e09b096c2f9d0c1a437ba54"
     }
   }
 ]

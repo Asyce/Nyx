@@ -23,8 +23,14 @@
     "full_name": "Soldier 11",
     "gender": "Female",
     "icon_path": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle05.png",
+    "inter_knot_icon": "UI/Sprite/A1DynamicLoad/InterKnot/UnPacker/IconInterknotAvatar/IconInterKnotRole0005.png",
     "impression_f": "Cats, super spicy noodles, going on missions, and everyone in Obol Squad... These are what make up Soldier 11's current life... I hope we one day hold a place in her heart as well~",
     "impression_m": "I'm sure we will! But really, I just hope Soldier 11 remembers our name someday...",
+    "impressions": [
+      "Impressions of Soldier 11:\n · Soldier 11 still addresses me in the most random ways.",
+      " · For Soldier 11, super-spicy noodles is an essential item.",
+      " · Soldier 11 remains the same ruthless soldier... but perhaps this friendship has changed her a bit."
+    ],
     "profile_desc": "Soldier 11 is a member of the New Eridu Defense Force.\nShe currently serves as a direct attacker in Obol squad, Obsidian Division. Soldier 11 is a code name — she gave up her real name long ago.\n\nSoldier 11 is a fan of spicy food and likes the super-spicy noodles served at Waterfall Soup.\nIt's worth noting she currently calls us by a different name every time she greets us.",
     "role_icon": "IconRole/UnPacker/IconRole05",
     "stature": "160",
@@ -2291,6 +2297,11 @@
     "slot4": 32200,
     "slot2": 31000,
     "slot_sub": 31400,
+    "part_sub_list": [
+      20103,
+      21103,
+      12102
+    ],
     "part4": {
       "prop": 20103,
       "name": "CRIT Rate",

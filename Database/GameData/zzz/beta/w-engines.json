@@ -49570,15 +49570,15 @@
   },
   {
     "id": "14158",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Ode of Resurrected Wings",
     "codeName": "Weapon_S_1581",
     "rarity": 4,
     "type": {
       "3": "Anomaly"
     },
-    "description": "...",
-    "shortDescription": "...",
+    "description": "The wings scorched by the blazing sun once fell to the pale earth, into a lightless chasm.\nThen fall... She will bear it all. The weight, the darkness, those defiant follies, those lives that slipped away...\nIn that long slumber forgotten by time, even sorrow faded away. Pain and despair faded too... As did joy. As did memory. All withered away, for all is vanity.\nA hundred years passed in the blink of an eye. Kingdoms upon the earth fell and rose anew, yet she never awoke.\nBut no matter how much unspeakable darkness lay buried within her heart, a bird cannot pretend not to see the coming of spring.\n\n\"Spring flowers are winter's dream, and autumn clouds remember the summer breeze~\"\n—Beneath the quiet moonlit sky, a pink-haired girl softly hums an ancient nursery rhyme.",
+    "shortDescription": "Drifting through the cracks of time in search of the light.",
     "assets": {
       "icon": "GameData/zzz/assets/w-engines/Weapon_S_1581.webp"
     },
@@ -50077,40 +50077,41 @@
     "talents": {
       "1": {
         "name": "Paradise Lost",
-        "desc": "Increases Anomaly Proficiency by <color=#2BAD00>96</color>. When the equipper triggers a <color=#FFA9DD>[Refringe]</color> reaction, they gain <color=#2BAD00>20%</color> increased Anomaly DMG, and all squad members gain <color=#2BAD00>30%</color> increased DMG dealt. Both effects last 30s. Repeated triggers reset the duration."
+        "desc": "Increases Anomaly Proficiency by <color=#2BAD00>96</color>. When the equipper triggers a <color=#FFA9DD>Refringe</color> reaction, they gain <color=#2BAD00>20%</color> increased Anomaly DMG, and all squad members gain <color=#2BAD00>30%</color> increased DMG dealt. Both effects last 30s. Repeated triggers reset the duration."
       },
       "2": {
         "name": "Paradise Lost",
-        "desc": "Increases Anomaly Proficiency by <color=#2BAD00>105</color>. When the equipper triggers a <color=#FFA9DD>[Refringe]</color> reaction, they gain <color=#2BAD00>23%</color> increased Attribute Anomaly DMG, and all squad members gain <color=#2BAD00>34.5%</color> increased DMG dealt. Both effects last 30s. Repeated triggers reset the duration."
+        "desc": "Increases Anomaly Proficiency by <color=#2BAD00>105</color>. When the equipper triggers a <color=#FFA9DD>Refringe</color> reaction, they gain <color=#2BAD00>23%</color> increased Anomaly DMG, and all squad members gain <color=#2BAD00>34.5%</color> increased DMG dealt. Both effects last 30s. Repeated triggers reset the duration."
       },
       "3": {
         "name": "Paradise Lost",
-        "desc": "Increases Anomaly Proficiency by <color=#2BAD00>115</color>. When the equipper triggers a <color=#FFA9DD>[Refringe]</color> reaction, they gain <color=#2BAD00>26%</color> increased Anomaly DMG, and all squad members gain <color=#2BAD00>39%</color> increased DMG dealt. Both effects last 30s. Repeated triggers reset the duration."
+        "desc": "Increases Anomaly Proficiency by <color=#2BAD00>115</color>. When the equipper triggers a <color=#FFA9DD>Refringe</color> reaction, they gain <color=#2BAD00>26%</color> increased Anomaly DMG, and all squad members gain <color=#2BAD00>39%</color> increased DMG dealt. Both effects last 30s. Repeated triggers reset the duration."
       },
       "4": {
         "name": "Paradise Lost",
-        "desc": "Increases Anomaly Proficiency by <color=#2BAD00>125</color>. When the equipper triggers a <color=#FFA9DD>[Refringe]</color> reaction, they gain <color=#2BAD00>29%</color> increased Anomaly DMG, and all squad members gain <color=#2BAD00>43.5%</color> increased DMG dealt. Both effects last 30s. Repeated triggers reset the duration."
+        "desc": "Increases Anomaly Proficiency by <color=#2BAD00>125</color>. When the equipper triggers a <color=#FFA9DD>Refringe</color> reaction, they gain <color=#2BAD00>29%</color> increased Anomaly DMG, and all squad members gain <color=#2BAD00>43.5%</color> increased DMG dealt. Both effects last 30s. Repeated triggers reset the duration."
       },
       "5": {
         "name": "Paradise Lost",
-        "desc": "Increases Anomaly Proficiency by <color=#2BAD00>135</color>. When the equipper triggers a <color=#FFA9DD>[Refringe]</color> reaction, they gain <color=#2BAD00>32%</color> increased Anomaly DMG, and all squad members gain <color=#2BAD00>48%</color> increased DMG dealt. Both effects last 30s. Repeated triggers reset the duration."
+        "desc": "Increases Anomaly Proficiency by <color=#2BAD00>135</color>. When the equipper triggers a <color=#FFA9DD>Refringe</color> reaction, they gain <color=#2BAD00>32%</color> increased Anomaly DMG, and all squad members gain <color=#2BAD00>48%</color> increased DMG dealt. Both effects last 30s. Repeated triggers reset the duration."
       }
     },
     "liveComparison": {
-      "currentHash": "22e2111f61b96989ff3fbb5646b8d9d6545806778b1501efb3c3f3515d8748ff"
+      "liveHash": "9a03dc15ae169f3b8cc8a6da51d9f0b48fd6e7bac1492714c26dc7db1eb83a4c",
+      "currentHash": "9a03dc15ae169f3b8cc8a6da51d9f0b48fd6e7bac1492714c26dc7db1eb83a4c"
     }
   },
   {
     "id": "14159",
-    "contentStatus": "beta",
-    "name": "...",
+    "contentStatus": "live",
+    "name": "Knight's Extolment",
     "codeName": "Weapon_S_1591",
     "rarity": 4,
     "type": {
       "1": "Attack"
     },
-    "description": "...",
-    "shortDescription": "...",
+    "description": "Every Deputy Administrative Director of the Airspace Patrol Department from House de L'Azur has had a custom W-Engine of their own. The badge and ode of the guardians of the skies are all forged into this elegant white emblem. To the children, the members of the Airspace Patrol Department who protect the City in the Sky are knights from a fairy tale. The peace and tranquility above the clouds are the quiet ode of their extolment.\n\"Every knight in a fairy tale has their own trusty steed. Which reminds me...\"\n—Lady Lindverne Sunbringer eyes her knight with unmistakable mischief.",
+    "shortDescription": "Across the vast skies and seas of clouds, the extolment for the knights echoes in quiet reverence.",
     "assets": {
       "icon": "GameData/zzz/assets/w-engines/Weapon_S_1591.webp"
     },
@@ -50608,28 +50609,29 @@
     ],
     "talents": {
       "1": {
-        "name": "...",
-        "desc": "When the equipper's <color=#FFFFFF>[Basic Attack]</color> or <color=#FFFFFF>[EX Special Attack]</color> heavy attack hits an enemy, they gain 1 stack of <color=#FFFFFF>[Battle Edge]</color>. <color=#FFFFFF>[Battle Edge]</color> can stack up to 2 times, and each skill type can provide up to 1 stack. Each stack increases CRIT DMG by <color=#2BAD00>32%</color> for 25s.\nUsing either of the above skills refreshes the duration of <color=#FFFFFF>[Battle Edge]</color>.\nAt 2 stacks of <color=#FFFFFF>[Battle Edge]</color>, gain <color=#FFFFFF>[Bonechill]</color>: ignores 20% of the target's <color=#98EFF0>Ice RES</color>."
+        "name": "Knight's Rite",
+        "desc": "When the equipper's <color=#FFFFFF>Basic Attack</color> or <color=#FFFFFF>EX Special Attack</color>'s heavy attack hits an enemy, they gain 1 stack of <color=#FFFFFF>Battle Edge</color>, increasing CRIT DMG by <color=#2BAD00>32%</color> for 25s. <color=#FFFFFF>Battle Edge</color> can stack up to 2 times, and each skill type can provide up to 1 stack. Repeated triggers refresh the duration of all <color=#FFFFFF>Battle Edge</color>.\nAt 2 stacks of <color=#FFFFFF>Battle Edge</color>, the equipper gains <color=#FFFFFF>Bonechill</color>: Their DMG ignores <color=#2BAD00>20%</color> of the target's <color=#98EFF0>Ice RES</color>."
       },
       "2": {
-        "name": "...",
-        "desc": "When the equipper's <color=#FFFFFF>[Basic Attack]</color> or <color=#FFFFFF>[EX Special Attack]</color> heavy attack hits an enemy, they gain 1 stack of <color=#FFFFFF>[Battle Edge]</color>. <color=#FFFFFF>[Battle Edge]</color> can stack up to 2 times, and each skill type can provide up to 1 stack. Each stack increases CRIT DMG by <color=#2BAD00>36.8%</color> for 25s.\nUsing either of the above skills refreshes the duration of <color=#FFFFFF>[Battle Edge]</color>.\nAt 2 stacks of <color=#FFFFFF>[Battle Edge]</color>, gain <color=#FFFFFF>[Bonechill]</color>: ignores 23% of the target's <color=#98EFF0>Ice RES</color>."
+        "name": "Knight's Rite",
+        "desc": "When the equipper's <color=#FFFFFF>Basic Attack</color> or <color=#FFFFFF>EX Special Attack</color>'s heavy attack hits an enemy, they gain 1 stack of <color=#FFFFFF>Battle Edge</color>, increasing CRIT DMG by <color=#2BAD00>36.8%</color> for 25s. <color=#FFFFFF>Battle Edge</color> can stack up to 2 times, and each skill type can provide up to 1 stack. Repeated triggers refresh the duration of all <color=#FFFFFF>Battle Edge</color>.\nAt 2 stacks of <color=#FFFFFF>Battle Edge</color>, the equipper gains <color=#FFFFFF>Bonechill</color>: Their DMG ignores <color=#2BAD00>23%</color> of the target's <color=#98EFF0>Ice RES</color>."
       },
       "3": {
-        "name": "...",
-        "desc": "When the equipper's <color=#FFFFFF>[Basic Attack]</color> or <color=#FFFFFF>[EX Special Attack]</color> heavy attack hits an enemy, they gain 1 stack of <color=#FFFFFF>[Battle Edge]</color>. <color=#FFFFFF>[Battle Edge]</color> can stack up to 2 times, and each skill type can provide up to 1 stack. Each stack increases CRIT DMG by <color=#2BAD00>41.6%</color> for 25s.\nUsing either of the above skills refreshes the duration of <color=#FFFFFF>[Battle Edge]</color>.\nAt 2 stacks of <color=#FFFFFF>[Battle Edge]</color>, gain <color=#FFFFFF>[Bonechill]</color>: ignores 26% of the target's <color=#98EFF0>Ice RES</color>."
+        "name": "Knight's Rite",
+        "desc": "When the equipper's <color=#FFFFFF>Basic Attack</color> or <color=#FFFFFF>EX Special Attack</color>'s heavy attack hits an enemy, they gain 1 stack of <color=#FFFFFF>Battle Edge</color>, increasing CRIT DMG by <color=#2BAD00>41.6%</color> for 25s. <color=#FFFFFF>Battle Edge</color> can stack up to 2 times, and each skill type can provide up to 1 stack. Repeated triggers refresh the duration of all <color=#FFFFFF>Battle Edge</color>.\nAt 2 stacks of <color=#FFFFFF>Battle Edge</color>, the equipper gains <color=#FFFFFF>Bonechill</color>: Their DMG ignores <color=#2BAD00>26%</color> of the target's <color=#98EFF0>Ice RES</color>."
       },
       "4": {
-        "name": "...",
-        "desc": "When the equipper's <color=#FFFFFF>[Basic Attack]</color> or <color=#FFFFFF>[EX Special Attack]</color> heavy attack hits an enemy, they gain 1 stack of <color=#FFFFFF>[Battle Edge]</color>. <color=#FFFFFF>[Battle Edge]</color> can stack up to 2 times, and each skill type can provide up to 1 stack. Each stack increases CRIT DMG by <color=#2BAD00>46.4%</color> for 25s.\nUsing either of the above skills refreshes the duration of <color=#FFFFFF>[Battle Edge]</color>.\nAt 2 stacks of <color=#FFFFFF>[Battle Edge]</color>, gain <color=#FFFFFF>[Bonechill]</color>: ignores 29% of the target's <color=#98EFF0>Ice RES</color>."
+        "name": "Knight's Rite",
+        "desc": "When the equipper's <color=#FFFFFF>Basic Attack</color> or <color=#FFFFFF>EX Special Attack</color>'s heavy attack hits an enemy, they gain 1 stack of <color=#FFFFFF>Battle Edge</color>, increasing CRIT DMG by <color=#2BAD00>46.4%</color> for 25s. <color=#FFFFFF>Battle Edge</color> can stack up to 2 times, and each skill type can provide up to 1 stack. Repeated triggers refresh the duration of all <color=#FFFFFF>Battle Edge</color>.\nAt 2 stacks of <color=#FFFFFF>Battle Edge</color>, the equipper gains <color=#FFFFFF>Bonechill</color>: Their DMG ignores <color=#2BAD00>29%</color> of the target's <color=#98EFF0>Ice RES</color>."
       },
       "5": {
-        "name": "...",
-        "desc": "When the equipper's <color=#FFFFFF>[Basic Attack]</color> or <color=#FFFFFF>[EX Special Attack]</color> heavy attack hits an enemy, they gain 1 stack of <color=#FFFFFF>[Battle Edge]</color>. <color=#FFFFFF>[Battle Edge]</color> can stack up to 2 times, and each skill type can provide up to 1 stack. Each stack increases CRIT DMG by <color=#2BAD00>51.2%</color> for 25s.\nUsing either of the above skills refreshes the duration of <color=#FFFFFF>[Battle Edge]</color>.\nAt 2 stacks of <color=#FFFFFF>[Battle Edge]</color>, gain <color=#FFFFFF>[Bonechill]</color>: ignores 32% of the target's <color=#98EFF0>Ice RES</color>."
+        "name": "Knight's Rite",
+        "desc": "When the equipper's <color=#FFFFFF>Basic Attack</color> or <color=#FFFFFF>EX Special Attack</color>'s heavy attack hits an enemy, they gain 1 stack of <color=#FFFFFF>Battle Edge</color>, increasing CRIT DMG by <color=#2BAD00>51.2%</color> for 25s. <color=#FFFFFF>Battle Edge</color> can stack up to 2 times, and each skill type can provide up to 1 stack. Repeated triggers refresh the duration of all <color=#FFFFFF>Battle Edge</color>.\nAt 2 stacks of <color=#FFFFFF>Battle Edge</color>, the equipper gains <color=#FFFFFF>Bonechill</color>: Their DMG ignores <color=#2BAD00>32%</color> of the target's <color=#98EFF0>Ice RES</color>."
       }
     },
     "liveComparison": {
-      "currentHash": "f0f43fb72ce8d1c3308cf0544276714fd4d6a4962e664ad8293aa30413b7b129"
+      "liveHash": "476490665c8911410cfe816a6d6297b6fe08898c5bbef92ee8dbea6eb5e1f662",
+      "currentHash": "476490665c8911410cfe816a6d6297b6fe08898c5bbef92ee8dbea6eb5e1f662"
     }
   }
 ]

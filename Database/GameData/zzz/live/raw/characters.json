@@ -29,7 +29,14 @@
     "hit": 101,
     "camp": 1,
     "icon": "IconRole11",
-    "potential": [],
+    "potential": [
+      102100,
+      102101,
+      102102,
+      102103,
+      102104,
+      102105
+    ],
     "en": "Nekomata",
     "skin": {
       "3110210": {
@@ -347,6 +354,11 @@
         "name": "Lucy: Ironfist Gentlewoman",
         "desc": "Her outfit is considered rather polished by biker standards and said to work wonders in negotiations with outsiders.\nThe runaway princess found her freedom in the Outer Ring, glittering under the starlit night, burning at the edge of dusk, and resting quietly among the grains of sand at her feet.",
         "image": "IconRole27"
+      },
+      "3111511": {
+        "name": "Lucy: Princess on Holiday",
+        "desc": "A baseball bat obviously has no place in beach volleyball, but it can ensure no one disturbs the princess of the wildlands' holiday fun. Grassy, Woody, Bricky — time to enter vacation combat mode!",
+        "image": "IconRole27_01"
       }
     },
     "desc": "Lucy is currently in charge of outgoing business and managing boars for the Sons of Calydon.\nSince her name is far too long and she doesn't want to be involved with her family, she refers to herself as just \"Lucy\" in the Outer Ring.\nHer three boars are called Grassy, Woody, and Bricky, and they're unceasingly loyal to her.\nThough Lucy often speaks with a mixture of rough and elegant language, her actions subtly betray the marks of a proper education.\nLucy's family is incredibly wealthy. She grew up very privileged, with anything she could ever want within grasp... except for freedom.\nAfter her Ether Aptitude test results came back high, Lucy decided she wanted to be a Hollow investigator, but her family disapproved. She was met with harsh words, isolation and confinement, and emotional abuse which led to her deciding to leave to find her own freedom.\n\"Hmph! There's no chance I'll ever go back! If I'm found... then I can say goodbye to the stars and sky and I'll have to inherit the family business instead!\"\nLucy is extremely competitive. She loves to win and hates losing.\nCurrently, the one who has given her the most bitter taste of defeat is Caesar, so Lucy keeps challenging Caesar to duels, losing then challenging again, challenging then losing again.",
@@ -505,7 +517,14 @@
     "hit": 102,
     "camp": 2,
     "icon": "IconRole22",
-    "potential": [],
+    "potential": [
+      121100,
+      121101,
+      121102,
+      121103,
+      121104,
+      121105
+    ],
     "en": "Rina",
     "skin": {
       "3112110": {
@@ -593,7 +612,14 @@
     "hit": 101,
     "camp": 7,
     "icon": "IconRole24",
-    "potential": [],
+    "potential": [
+      126100,
+      126101,
+      126102,
+      126103,
+      126104,
+      126105
+    ],
     "en": "Jane",
     "skin": {
       "3112610": {
@@ -1364,25 +1390,67 @@
     "ja": "ノルムー"
   },
   "1581": {
-    "code": "Avatar_Female_Size02_Remielle_En",
+    "code": "Remielle",
     "rank": 4,
-    "type": 5,
-    "element": 200,
+    "type": 3,
+    "element": 300,
     "hit": 101,
-    "camp": 11,
-    "icon": "",
+    "camp": 17,
+    "icon": "IconRole67",
     "potential": [],
-    "en": "Avatar_Female_Size02_Remielle",
+    "en": "Remielle",
     "skin": {
+      "3115810": {
+        "name": "Remielle: Feathered Murmurs",
+        "desc": "An angel of old fell to the mortal world, their feathers drifting down as they sank into silent slumber.\nAwaken from the pale wasteland, beyond the edge of all sound, and begin the journey anew.",
+        "image": "IconRole67"
+      },
       "3115811": {
-        "name": "AvatarSkin_RemielleOrigin_Name_001",
-        "desc": "AvatarSkin_RemielleOrigin_Desc_001",
-        "image": "IconRole57_01_Form2"
+        "name": "Remielle: Moonlight Whispers",
+        "desc": "Since the sun has never shown mercy, let us embrace the fall alongside the moonlit night.\nYou say it's difficult to differentiate between jokes and deception?\nThen let's have another round of our Q&A game, my dear partner in crime.",
+        "image": "IconRole67_02"
+      },
+      "3115812": {
+        "name": "Remielle: Seashade Pas Seul",
+        "desc": "This was originally a solo dance, yet a ray of light has illuminated the secrecy and solitude shrouded in darkness. Now, would you care to join me for a pas de deux, my partner in crime?",
+        "image": "IconRole67_01"
+      },
+      "3115813": {
+        "name": "Remielle: Moonlight Whispers (Veil)",
+        "desc": "Since the sun has never shown mercy, let us embrace the fall alongside the moonlit night.\nYou say it's difficult to differentiate between jokes and deception?\nThen let's have another round of our Q&A game, my dear partner in crime.",
+        "image": "IconRole67_03"
       }
     },
-    "desc": "",
-    "ko": "Avatar_Female_Size02_Remielle",
+    "desc": "Remielle Dan, one of the first-generation Void Hunters, was formerly a Lieutenant Colonel in the Guard of Staves and currently a member of the secret organization known as the Covenant of Dayat.\nRecords describe her as a prodigy from childhood, capable of rapidly acquiring knowledge and mastering skills in nearly any discipline.\nShe was selected to join the Guard of Staves at a remarkably young age, was promoted directly to Lieutenant Colonel, and inherited the Void Hunter weapon, \"Thaumiel.\" Fighting alongside Colonel Vike and the leader of the Falkenhayn Mercenary Troupe, she helped drive back the Dark Wall, rose to fame through that decisive battle, and was formally awarded the title of Void Hunter.\nDuring the classified operation later known as the Day of Silence, Remielle and Colonel Vike were both believed to have been killed in action following an unexpected incident. Yet as she's still alive, then the truth must be something else entirely.\nRemielle comes and goes without a trace, yet always seems to appear at the most unexpected, pivotal moments, steering events in a new direction.\nAround others, Remielle always wears a sweet, effortless smile. Calm under any circumstances and almost disarmingly friendly, she rarely gives people a reason to raise their guard.\nShe excels at closing the distance with lighthearted banter, yet instinctively maintains just the right amount of distance, making her difficult to read.\nNote: Remielle has a habit of playfully teasing those around her. As for you, you seem to receive a particularly generous share of that \"special treatment.\"",
+    "ko": "레미엘",
     "zh": "蕾米埃尔",
-    "ja": "Avatar_Female_Size02_Remielle"
+    "ja": "レミエール"
+  },
+  "1591": {
+    "code": "Sigrid",
+    "rank": 4,
+    "type": 1,
+    "element": 202,
+    "hit": 103,
+    "camp": 16,
+    "icon": "IconRole66",
+    "potential": [],
+    "en": "Sigrid",
+    "skin": {
+      "3115910": {
+        "name": "Sigrid: Legend of the Sky Island",
+        "desc": "The standard attire of the Airspace Patrol Department's Deputy Administrative Director. It serves as both a symbol of her authority over the department and an iconic figure immortalized in countless stories.",
+        "image": "IconRole66"
+      },
+      "3115911": {
+        "name": "Sigrid: Majestic Wavechaser",
+        "desc": "A knight accustomed to galloping through the skies must now face a new challenge from the waves and the sun!",
+        "image": "IconRole66_01"
+      }
+    },
+    "desc": "Sigrid de L'Azur, the current Deputy Administrative Director of the Airspace Patrol Department, trusted adjutant to Lindverne Sunbringer, and heir apparent to House de L'Azur, one of Roscaelifer's most prestigious noble families.\n\nLike all those legendary figures, Sigrid has a long, long string of titles attached to her name. Yet even now, after serving for years as the Airspace Patrol Department's Deputy Administrative Director and earning top annual performance honors time and again, she still finds herself wondering whether she's truly worthy of the legendary hero \"Sigrid\" spoken of throughout the streets of Roscaelifer.\n\nYou can't exactly blame Sigrid for lacking confidence. After all, when the stories claim she can \"stand shoulder to shoulder with a Void Hunter,\" \"smash a building apart with one hand,\" or \"blast straight through a Hollow with a single stab of her spear,\" any honest and sensible warrior would question whether they could truly achieve such feats with the weapon in their hand.\n\nThere is, however, one legend Sigrid has never doubted: \"So long as my spear remains unbroken, the miracle of the skies shall never end.\"",
+    "ko": "시그리드",
+    "zh": "希格莉德",
+    "ja": "シグリッド"
   }
 }

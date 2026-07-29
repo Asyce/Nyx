@@ -268332,10 +268332,11 @@
         "../../Database/GenshinWiki/birthday-art/yanfei/03-Yanfei Birthday 2023.png",
         "../../Database/GenshinWiki/birthday-art/yanfei/04-Yanfei Birthday 2024.png",
         "../../Database/GenshinWiki/birthday-art/yanfei/05-Yanfei Birthday 2025.png",
-        "../../Database/GenshinWiki/birthday-art/yanfei/06-Yanfei TPRGT 2022 - Aether.png",
-        "../../Database/GenshinWiki/birthday-art/yanfei/07-Yanfei TPRGT 2022 - Lumine.png",
-        "../../Database/GenshinWiki/birthday-art/yanfei/08-Yanfei TPRGT 2023 - Aether.png",
-        "../../Database/GenshinWiki/birthday-art/yanfei/09-Yanfei TPRGT 2023 - Lumine.png"
+        "../../Database/GenshinWiki/birthday-art/yanfei/06-Yanfei Birthday 2026.png",
+        "../../Database/GenshinWiki/birthday-art/yanfei/07-Yanfei TPRGT 2022 - Aether.png",
+        "../../Database/GenshinWiki/birthday-art/yanfei/08-Yanfei TPRGT 2022 - Lumine.png",
+        "../../Database/GenshinWiki/birthday-art/yanfei/09-Yanfei TPRGT 2023 - Aether.png",
+        "../../Database/GenshinWiki/birthday-art/yanfei/10-Yanfei TPRGT 2023 - Lumine.png"
       ],
       "namecard": "../../Database/GenshinWiki/namecards/Feiyan.png",
       "skillIcons": [

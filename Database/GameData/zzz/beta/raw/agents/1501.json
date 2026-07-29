@@ -23,8 +23,14 @@
     "full_name": "Aria",
     "gender": "Female",
     "icon_path": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle57.png",
+    "inter_knot_icon": "UI/Sprite/A1DynamicLoad/InterKnot/UnPacker/IconInterknotAvatar/IconInterKnotRole0057.png",
     "impression_f": "An idol performing on stage with a virtual avatar... Does that count as being a virtual idol?",
     "impression_m": "Uh... That doesn't feel quite right, Belle... but I honestly don't know how to refute it...",
+    "impressions": [
+      "Impressions of Aria:\n · The Three Principles of Idol Constructs, One: No matter when, always stay full of energy!",
+      " · The Three Principles of Idol Constructs, Two: No matter where, always keep your image up!",
+      " · The Three Principles of Idol Constructs, Three: No matter what, always remember to charge up in advance!"
+    ],
     "profile_desc": "Aria is the lead vocalist and center of the Angels of Delusion. Bright and full of energy, she always shines on stage, bringing warmth and strength to all Delulus.\nShe has a near-perfect voice, even though she was never professionally trained. At first, Aria only sang because she loved her idol, the retired songstress Cersea, copying her performances and singing along, until she realized she had a gift for song of her own.\nThough Aria's vocal skills are undeniably professional, she lacks a solid foundation in dance. Even with dedicated practice, she can still get flustered when faced with more complex moves. Still, fans deeply appreciate her attitude of \"even if I can't dance well, I'll still give it everything I've got.\"\n\"Pushing herself to the limit, wrestling with her own limbs to try and keep up with the rhythm... that's our Angels of Delusion lead vocalist!\" —One Delulu sobbing after a show.",
     "role_icon": "IconRole/UnPacker/IconRole57",
     "stature": "150",
@@ -2197,6 +2203,10 @@
     "slot4": 33600,
     "slot2": 33000,
     "slot_sub": 31300,
+    "part_sub_list": [
+      31203,
+      12102
+    ],
     "part4": {
       "prop": 31402,
       "name": "Anomaly Mastery",

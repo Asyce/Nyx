@@ -13,6 +13,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const siteDir = path.resolve(__dirname, '..');
 const root = path.resolve(siteDir, '..');
 const deployDir = path.resolve(root, '.deploy', 'pengo');
+const CLOUDFLARE_ASSET_FILE_LIMIT = 20_000;
 
 const routeFiles = new Map([
   ['/', 'index.html'],
@@ -473,7 +474,9 @@ async function main() {
   }
   if (!wonderland?.version || !wonderland?.langMap?.slot || !wonderland?.langMap?.color) throw new Error('Wonderland version or lang_map filters are missing');
   const deployFileCount = await countFiles(deployDir);
-  if (deployFileCount > 19_990) throw new Error(`deploy has ${deployFileCount} files, above the conservative 19,990-file asset limit`);
+  if (deployFileCount > CLOUDFLARE_ASSET_FILE_LIMIT) {
+    throw new Error(`deploy has ${deployFileCount} files, above Cloudflare's ${CLOUDFLARE_ASSET_FILE_LIMIT}-file asset limit`);
+  }
   for (const page of gamePages) {
     const html = await readDeployText(page);
     deployPages[page] = html;
@@ -493,7 +496,7 @@ async function main() {
   console.log(`  launcher art ${launcherBanners.uniqueAssets} unique/${launcherBanners.occurrences} occurrences ${launcherBanners.artBytes} bytes`);
   console.log(`  launcher selections ${JSON.stringify(launcherBanners.selections)}`);
   console.log(`  commit ${version.shortCommit}`);
-  console.log(`  deploy files ${deployFileCount}/20000`);
+  console.log(`  deploy files ${deployFileCount}/${CLOUDFLARE_ASSET_FILE_LIMIT}`);
 }
 
 main().catch((error) => {

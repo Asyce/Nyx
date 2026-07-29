@@ -22,6 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       CF_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      DATABASE_ASSET_MODE: ${{ vars.DATABASE_ASSET_MODE || 'local' }}
     steps:
       - uses: actions/checkout@v7
         with:
@@ -116,6 +117,7 @@ jobs:
         working-directory: Site
         env:
           PENGO_DEPLOY_COMMIT: ${{ steps.launcher_snapshot.outputs.sha }}
+          PENGO_DATABASE_ASSET_MODE: ${{ vars.DATABASE_ASSET_MODE || 'local' }}
         run: npm run build:deploy
 
       - name: Smoke deploy artifact
@@ -127,8 +129,19 @@ jobs:
         if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' }}
         run: git push
 
+      - name: Additively sync Database assets to R2
+        id: r2_sync
+        if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' && env.DATABASE_ASSET_MODE != 'local' && env.CF_API_TOKEN != '' }}
+        working-directory: Site
+        env:
+          PENGO_DEPLOY_COMMIT: ${{ steps.launcher_snapshot.outputs.sha }}
+          R2_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+        run: npm run sync:database-assets:r2 -- --apply
+
       - name: Deploy to Cloudflare
-        if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' && env.CF_API_TOKEN != '' }}
+        if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' && (env.DATABASE_ASSET_MODE == 'local' || steps.r2_sync.outputs.ready == 'true') && env.CF_API_TOKEN != '' }}
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: npx --yes wrangler deploy

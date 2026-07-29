@@ -1,0 +1,28 @@
+{
+  "rules": [
+    {
+      "id": "pengo-public-read",
+      "allowed": {
+        "origins": [
+          "https://pengo.gg",
+          "https://www.pengo.gg"
+        ],
+        "methods": [
+          "GET",
+          "HEAD"
+        ],
+        "headers": [
+          "Range"
+        ]
+      },
+      "exposeHeaders": [
+        "ETag",
+        "Content-Length",
+        "Content-Type",
+        "Accept-Ranges",
+        "Content-Range"
+      ],
+      "maxAgeSeconds": 86400
+    }
+  ]
+}

@@ -28,6 +28,8 @@
     "build:generated": "npm run generate:data && npm run refresh:launcher && npm run generate:weapons && node ./tools/build-site.mjs",
     "build:deploy": "npm run build && node ./tools/build-deploy.mjs && node ./tools/inject-seo.mjs && npm run verify:launcher:deploy",
     "build:deploy:generated": "npm run build:generated && node ./tools/build-deploy.mjs && node ./tools/inject-seo.mjs",
+    "inventory:database-assets": "node ./tools/generate-database-asset-manifest.mjs",
+    "sync:database-assets:r2": "node ./tools/sync-database-assets-r2.mjs",
     "smoke:deploy": "npm run verify:launcher:deploy && node ./tools/smoke-deploy.mjs",
     "smoke:deploy:generated": "node ./tools/smoke-deploy.mjs",
     "test:favourites": "node ./tools/test-pinned-favourites.mjs",
@@ -37,6 +39,7 @@
     "test:calendar": "node --test ./tools/tests/birthday-calendar.test.mjs",
     "test:characters": "node --test ./tools/tests/characters-nyx.test.mjs",
     "test:database-ui": "node --test ./tools/tests/database-ui.test.mjs",
+    "test:database-assets": "node --test ./tools/tests/database-assets.test.mjs ./tools/tests/live-check-database-assets.test.mjs ./tools/tests/r2-database-sync.test.mjs ./tools/tests/r2-workflow-safety.test.mjs ./tools/tests/worker-database-assets.test.mjs",
     "test:library": "node --test ./tools/tests/library-ui.test.mjs",
     "test:library-annotations": "node --test ./tools/tests/library-annotations.test.mjs",
     "test:achievements": "node --test ./tools/tests/achievement-import-storage.test.mjs ./tools/tests/achievement-view-model.test.mjs",
@@ -49,6 +52,7 @@
     "react-dom": "^19.2.7"
   },
   "devDependencies": {
+    "@aws-sdk/client-s3": "^3.1097.0",
     "esbuild": "^0.28.1",
     "sharp": "0.35.3"
   },

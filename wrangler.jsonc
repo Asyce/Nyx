@@ -13,9 +13,17 @@
     "html_handling": "auto-trailing-slash",
     "not_found_handling": "404-page",
     "run_worker_first": [
-      "/api/*"
+      "/api/*",
+      "/Database/*"
     ]
   },
+  "r2_buckets": [
+    {
+      "binding": "DATABASE_ASSETS",
+      "bucket_name": "nyx-database-assets",
+      "preview_bucket_name": "nyx-database-assets"
+    }
+  ],
   "kv_namespaces": [
     {
       "binding": "PULL_SYNC",

@@ -9,7 +9,11 @@ import {
   DATABASE_ASSET_METADATA,
   buildDatabaseAssetEntry,
 } from '../database-assets.mjs';
-import { R2S3Client, syncDatabaseAssets } from '../r2-database-sync.mjs';
+import {
+  normalizeR2Credentials,
+  R2S3Client,
+  syncDatabaseAssets,
+} from '../r2-database-sync.mjs';
 
 async function png(width = 3, height = 5) {
   return sharp({
@@ -63,6 +67,23 @@ test('official-SDK wrapper refuses every command outside HEAD, GET, and PUT', as
   class DeleteObjectCommand {}
   await assert.rejects(client.send(new DeleteObjectCommand(), 'DELETE', 'unsafe'), /forbidden/);
   assert.deepEqual(client.operations, []);
+});
+
+test('R2 credentials are trimmed and control characters fail before HTTP signing', () => {
+  assert.deepEqual(normalizeR2Credentials({
+    accountId: ' account123 \r\n',
+    accessKeyId: '\tACCESS123\n',
+    secretAccessKey: ' SECRET/+=123 \r\n',
+  }), {
+    accountId: 'account123',
+    accessKeyId: 'ACCESS123',
+    secretAccessKey: 'SECRET/+=123',
+  });
+  assert.throws(() => normalizeR2Credentials({
+    accountId: 'account123',
+    accessKeyId: 'ACCESS\n123',
+    secretAccessKey: 'SECRET123',
+  }), /invalid whitespace or characters/);
 });
 
 test('empty manifests and invalid concurrency fail before any R2 operation', async () => {

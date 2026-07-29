@@ -15,6 +15,23 @@ function sha256(value, encoding = 'hex') {
   return crypto.createHash('sha256').update(value).digest(encoding);
 }
 
+export function normalizeR2Credentials({ accountId, accessKeyId, secretAccessKey }) {
+  const normalized = {
+    accountId: String(accountId || '').trim(),
+    accessKeyId: String(accessKeyId || '').trim(),
+    secretAccessKey: String(secretAccessKey || '').trim(),
+  };
+  if (!normalized.accountId || !normalized.accessKeyId || !normalized.secretAccessKey) {
+    throw new Error('R2 S3 credentials are incomplete');
+  }
+  if (!/^[A-Za-z0-9]+$/.test(normalized.accountId)
+    || !/^[A-Za-z0-9]+$/.test(normalized.accessKeyId)
+    || !/^[\x21-\x7e]+$/.test(normalized.secretAccessKey)) {
+    throw new Error('R2 S3 credentials contain invalid whitespace or characters');
+  }
+  return normalized;
+}
+
 export function assertR2SyncConcurrency(concurrency) {
   if (!Number.isInteger(concurrency) || concurrency < 1 || concurrency > 64) {
     throw new Error(`R2 sync concurrency must be an integer from 1 to 64, got ${concurrency}`);
@@ -30,14 +47,17 @@ export class R2S3Client {
     bucket = 'nyx-database-assets',
     sdkClient,
   }) {
-    if (!accountId || !accessKeyId || !secretAccessKey) throw new Error('R2 S3 credentials are incomplete');
+    const credentials = normalizeR2Credentials({ accountId, accessKeyId, secretAccessKey });
     if (!/^[a-z0-9][a-z0-9-]{1,62}$/i.test(bucket)) throw new Error(`invalid R2 bucket ${JSON.stringify(bucket)}`);
     this.bucket = bucket;
     this.operations = [];
     this.sdk = sdkClient || new S3Client({
       region: 'auto',
-      endpoint: `https://${accountId}.r2.cloudflarestorage.com`,
-      credentials: { accessKeyId, secretAccessKey },
+      endpoint: `https://${credentials.accountId}.r2.cloudflarestorage.com`,
+      credentials: {
+        accessKeyId: credentials.accessKeyId,
+        secretAccessKey: credentials.secretAccessKey,
+      },
     });
   }
 

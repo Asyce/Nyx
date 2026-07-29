@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-28T15:04:46.919Z",
+  "generatedAt": "2026-07-29T10:03:21.175Z",
   "games": {
     "gi": {
       "count": 291,
@@ -671,7 +671,6 @@
         "maintained-wiki:167765",
         "maintained-wiki:168704",
         "maintained-wiki:168705",
-        "maintained-wiki:169376",
         "maintained-wiki:173022",
         "maintained-wiki:173023",
         "maintained-wiki:174553",
@@ -686,6 +685,7 @@
         "maintained-wiki:175908",
         "maintained-wiki:175909",
         "maintained-wiki:175911",
+        "maintained-wiki:176046",
         "maintained-wiki:71004",
         "maintained-wiki:74195",
         "maintained-wiki:74245",
@@ -729,7 +729,7 @@
         "official-latest:45747565",
         "official-latest:46015688"
       ],
-      "contentHash": "7e35431ce79d514aedcc6af0051402b63ebe27ff617db308db2ca6702f06c168"
+      "contentHash": "9a45b32cdaa6f0a1897dbb033f5a1b991771342d317da9b2cdde5316fdf32fc8"
     },
     "wuwa": {
       "count": 166,

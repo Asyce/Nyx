@@ -4,7 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-07-28T18:20:41.763Z",
+  "generatedAt": "2026-07-29T10:03:48.107Z",
   "codes": {
     "updated": "2026-07-28T18:20:27.309Z",
     "maxAgeDays": 28,
@@ -540,15 +540,14 @@ var NYX_DB = {
       "zzz": {
         "name": "Zenless Zone Zero",
         "freshness": {
-          "status": "invalid",
+          "status": "stale",
           "checkedAt": "2026-07-28T08:00:36.412Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
-          "lastValidUpdate": null,
+          "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
           "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
-        "current": null,
-        "next": {
+        "current": {
           "phase": null,
           "start": "2026-07-29T10:00:00.000Z",
           "end": "2026-09-08T10:00:00.000Z",
@@ -565,69 +564,51 @@ var NYX_DB = {
           ],
           "subBanners": []
         },
-        "upcoming": [
-          {
-            "phase": null,
-            "start": "2026-07-29T10:00:00.000Z",
-            "end": "2026-08-19T10:00:00.000Z",
-            "characters": [
-              {
-                "name": "Aria",
-                "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle57.webp",
-                "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect57.webp",
-                "iconZoom": true,
-                "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole57.webp",
-                "namecard": null,
-                "rarity": "S"
-              }
-            ],
-            "subBanners": []
-          },
-          {
-            "phase": null,
-            "start": "2026-08-19T10:00:00.000Z",
-            "end": "2026-09-08T10:00:00.000Z",
-            "characters": [
-              {
-                "name": "Sigrid",
-                "icon": "https://static.nanoka.cc/assets/zzz/IconRoleCircle66.webp",
-                "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect66.webp",
-                "iconZoom": true,
-                "art": "https://static.nanoka.cc/assets/zzz/IconRoleCircle66.webp",
-                "namecard": null,
-                "rarity": 4
-              },
-              {
-                "name": "Dialyn",
-                "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle54.webp",
-                "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect54.webp",
-                "iconZoom": true,
-                "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole54.webp",
-                "namecard": null,
-                "rarity": "S"
-              },
-              {
-                "name": "Yuzuha",
-                "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle47.webp",
-                "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect47.webp",
-                "iconZoom": true,
-                "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole47.webp",
-                "namecard": null,
-                "rarity": "S"
-              },
-              {
-                "name": "Harumasa",
-                "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle35.webp",
-                "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect35.webp",
-                "iconZoom": true,
-                "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole35.webp",
-                "namecard": null,
-                "rarity": "S"
-              }
-            ],
-            "subBanners": []
-          }
-        ]
+        "next": {
+          "phase": null,
+          "start": "2026-08-19T10:00:00.000Z",
+          "end": "2026-09-08T10:00:00.000Z",
+          "characters": [
+            {
+              "name": "Sigrid",
+              "icon": "https://static.nanoka.cc/assets/zzz/IconRoleCircle66.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect66.webp",
+              "iconZoom": true,
+              "art": "https://static.nanoka.cc/assets/zzz/IconRoleCircle66.webp",
+              "namecard": null,
+              "rarity": 4
+            },
+            {
+              "name": "Dialyn",
+              "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle54.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect54.webp",
+              "iconZoom": true,
+              "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole54.webp",
+              "namecard": null,
+              "rarity": "S"
+            },
+            {
+              "name": "Yuzuha",
+              "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle47.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect47.webp",
+              "iconZoom": true,
+              "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole47.webp",
+              "namecard": null,
+              "rarity": "S"
+            },
+            {
+              "name": "Harumasa",
+              "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle35.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect35.webp",
+              "iconZoom": true,
+              "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole35.webp",
+              "namecard": null,
+              "rarity": "S"
+            }
+          ],
+          "subBanners": []
+        },
+        "upcoming": []
       },
       "ae": {
         "name": "Arknights: Endfield",
@@ -156035,15 +156016,14 @@ var NYX_DB = {
       "banners": {
         "name": "Zenless Zone Zero",
         "freshness": {
-          "status": "invalid",
+          "status": "stale",
           "checkedAt": "2026-07-28T08:00:36.412Z",
           "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
-          "lastValidUpdate": null,
+          "lastValidUpdate": "2026-07-21T16:13:51.549Z",
           "source": "game8",
           "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
-        "current": null,
-        "next": {
+        "current": {
           "phase": null,
           "start": "2026-07-29T10:00:00.000Z",
           "end": "2026-09-08T10:00:00.000Z",
@@ -156060,69 +156040,51 @@ var NYX_DB = {
           ],
           "subBanners": []
         },
-        "upcoming": [
-          {
-            "phase": null,
-            "start": "2026-07-29T10:00:00.000Z",
-            "end": "2026-08-19T10:00:00.000Z",
-            "characters": [
-              {
-                "name": "Aria",
-                "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle57.webp",
-                "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect57.webp",
-                "iconZoom": true,
-                "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole57.webp",
-                "namecard": null,
-                "rarity": "S"
-              }
-            ],
-            "subBanners": []
-          },
-          {
-            "phase": null,
-            "start": "2026-08-19T10:00:00.000Z",
-            "end": "2026-09-08T10:00:00.000Z",
-            "characters": [
-              {
-                "name": "Sigrid",
-                "icon": "https://static.nanoka.cc/assets/zzz/IconRoleCircle66.webp",
-                "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect66.webp",
-                "iconZoom": true,
-                "art": "https://static.nanoka.cc/assets/zzz/IconRoleCircle66.webp",
-                "namecard": null,
-                "rarity": 4
-              },
-              {
-                "name": "Dialyn",
-                "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle54.webp",
-                "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect54.webp",
-                "iconZoom": true,
-                "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole54.webp",
-                "namecard": null,
-                "rarity": "S"
-              },
-              {
-                "name": "Yuzuha",
-                "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle47.webp",
-                "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect47.webp",
-                "iconZoom": true,
-                "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole47.webp",
-                "namecard": null,
-                "rarity": "S"
-              },
-              {
-                "name": "Harumasa",
-                "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle35.webp",
-                "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect35.webp",
-                "iconZoom": true,
-                "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole35.webp",
-                "namecard": null,
-                "rarity": "S"
-              }
-            ],
-            "subBanners": []
-          }
-        ]
+        "next": {
+          "phase": null,
+          "start": "2026-08-19T10:00:00.000Z",
+          "end": "2026-09-08T10:00:00.000Z",
+          "characters": [
+            {
+              "name": "Sigrid",
+              "icon": "https://static.nanoka.cc/assets/zzz/IconRoleCircle66.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect66.webp",
+              "iconZoom": true,
+              "art": "https://static.nanoka.cc/assets/zzz/IconRoleCircle66.webp",
+              "namecard": null,
+              "rarity": 4
+            },
+            {
+              "name": "Dialyn",
+              "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle54.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect54.webp",
+              "iconZoom": true,
+              "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole54.webp",
+              "namecard": null,
+              "rarity": "S"
+            },
+            {
+              "name": "Yuzuha",
+              "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle47.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect47.webp",
+              "iconZoom": true,
+              "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole47.webp",
+              "namecard": null,
+              "rarity": "S"
+            },
+            {
+              "name": "Harumasa",
+              "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle35.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect35.webp",
+              "iconZoom": true,
+              "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole35.webp",
+              "namecard": null,
+              "rarity": "S"
+            }
+          ],
+          "subBanners": []
+        },
+        "upcoming": []
       },
       "roster": [
         {

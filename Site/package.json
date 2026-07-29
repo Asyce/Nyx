@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "generate:data": "node ./tools/generate-site-data.mjs",
+    "backfill:database-art": "node ./tools/backfill-database-art.mjs",
     "generate:launcher-codes": "node ./tools/generate-launcher-codes.mjs",
     "reconcile:launcher-codes": "node ./tools/reconcile-launcher-codes.mjs",
     "generate:launcher-manifest": "node ./tools/generate-launcher-manifest.mjs",

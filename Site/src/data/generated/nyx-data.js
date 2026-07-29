@@ -4,7 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-07-29T14:58:19.867Z",
+  "generatedAt": "2026-07-29T21:29:53.335Z",
   "codes": {
     "updated": "2026-07-29T12:07:42.286Z",
     "maxAgeDays": 28,
@@ -894,12 +894,14 @@ var NYX_DB = {
               "id": "gi-art-15004",
               "name": "Glacier and Snowfield",
               "kind": "artifact",
-              "art": null,
+              "art": "../../Database/Shared/database-fallbacks/gi.svg",
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "artifact set"
               },
-              "text": "(2) Cryo DMG Bonus +15%\n\n(4) Increases Superconduct DMG by 100%. Increases Melt DMG by 15%. Using an Elemental Burst increases Cryo DMG Bonus by 30% for 10s."
+              "text": "(2) Cryo DMG Bonus +15%\n\n(4) Increases Superconduct DMG by 100%. Increases Melt DMG by 15%. Using an Elemental Burst increases Cryo DMG Bonus by 30% for 10s.",
+              "artStatus": "intentional-fallback",
+              "artSource": "neutral-database-placeholder"
             },
             {
               "id": "gi-art-15005",
@@ -982,12 +984,14 @@ var NYX_DB = {
               "id": "gi-art-15012",
               "name": "Prayers to the Firmament",
               "kind": "artifact",
-              "art": null,
+              "art": "../../Database/Shared/database-fallbacks/gi.svg",
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "artifact set"
               },
-              "text": "(2) Affected by Anemo for 40% less time."
+              "text": "(2) Affected by Anemo for 40% less time.",
+              "artStatus": "intentional-fallback",
+              "artSource": "neutral-database-placeholder"
             },
             {
               "id": "gi-art-15013",
@@ -4183,111 +4187,131 @@ var NYX_DB = {
               "id": "gi-wpn-310001",
               "name": "Serpent Devourer",
               "kind": "weapon",
-              "art": null,
+              "art": "../../Database/Shared/database-fallbacks/gi.svg",
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Sword"
               },
-              "text": "A glorious, illusory sword that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. Legend has it that this sword once held the name \"Logseims\" when it was wielded by a golden sinner in an ancient land."
+              "text": "A glorious, illusory sword that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. Legend has it that this sword once held the name \"Logseims\" when it was wielded by a golden sinner in an ancient land.",
+              "artStatus": "intentional-fallback",
+              "artSource": "neutral-database-placeholder"
             },
             {
               "id": "gi-wpn-310002",
               "name": "Serpent Devourer - Sublimation",
               "kind": "weapon",
-              "art": null,
+              "art": "../../Database/Shared/database-fallbacks/gi.svg",
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Sword"
               },
-              "text": "A glorious, illusory sword glimmering with the power of \"Life\" that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. Legend has it that this sword once held the name \"Logseims\" when it was wielded by a transcendent sinner in an ancient land."
+              "text": "A glorious, illusory sword glimmering with the power of \"Life\" that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. Legend has it that this sword once held the name \"Logseims\" when it was wielded by a transcendent sinner in an ancient land.",
+              "artStatus": "intentional-fallback",
+              "artSource": "neutral-database-placeholder"
             },
             {
               "id": "gi-wpn-320001",
               "name": "Ardent Storm",
               "kind": "weapon",
-              "art": null,
+              "art": "../../Database/Shared/database-fallbacks/gi.svg",
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Claymore"
               },
-              "text": "A glorious, illusory claymore that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. Legend has it that this claymore once held the name \"Starkuthr\" when it was wielded by an wise sinner in an ancient land."
+              "text": "A glorious, illusory claymore that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. Legend has it that this claymore once held the name \"Starkuthr\" when it was wielded by an wise sinner in an ancient land.",
+              "artStatus": "intentional-fallback",
+              "artSource": "neutral-database-placeholder"
             },
             {
               "id": "gi-wpn-320002",
               "name": "Ardent Storm - Sublimation",
               "kind": "weapon",
-              "art": null,
+              "art": "../../Database/Shared/database-fallbacks/gi.svg",
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Claymore"
               },
-              "text": "A glorious, illusory claymore glimmering with the power of \"Reason\" that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. Legend has it that this claymore once held the name \"Starkuthr\" when it was wielded by a transcendent sinner in an ancient land."
+              "text": "A glorious, illusory claymore glimmering with the power of \"Reason\" that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. Legend has it that this claymore once held the name \"Starkuthr\" when it was wielded by a transcendent sinner in an ancient land.",
+              "artStatus": "intentional-fallback",
+              "artSource": "neutral-database-placeholder"
             },
             {
               "id": "gi-wpn-330001",
               "name": "Shattered Moon",
               "kind": "weapon",
-              "art": null,
+              "art": "../../Database/Shared/database-fallbacks/gi.svg",
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Polearm"
               },
-              "text": "A glorious, illusory polearm that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. Legend has it that this polearm once held the name \"Barnstokkr\" when it was wielded by a moon-hunting sinner in an ancient land."
+              "text": "A glorious, illusory polearm that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. Legend has it that this polearm once held the name \"Barnstokkr\" when it was wielded by a moon-hunting sinner in an ancient land.",
+              "artStatus": "intentional-fallback",
+              "artSource": "neutral-database-placeholder"
             },
             {
               "id": "gi-wpn-330002",
               "name": "Shattered Moon - Sublimation",
               "kind": "weapon",
-              "art": null,
+              "art": "../../Database/Shared/database-fallbacks/gi.svg",
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Polearm"
               },
-              "text": "A glorious, illusory polearm glimmering with the power of \"Death\" that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. Legend has it that this polearm once held the name \"Barnstokkr\" when it was wielded by a transcendent sinner in an ancient land."
+              "text": "A glorious, illusory polearm glimmering with the power of \"Death\" that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. Legend has it that this polearm once held the name \"Barnstokkr\" when it was wielded by a transcendent sinner in an ancient land.",
+              "artStatus": "intentional-fallback",
+              "artSource": "neutral-database-placeholder"
             },
             {
               "id": "gi-wpn-340001",
               "name": "Hallowed Fetters",
               "kind": "weapon",
-              "art": null,
+              "art": "../../Database/Shared/database-fallbacks/gi.svg",
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Catalyst"
               },
-              "text": "A glorious, illusory catalyst that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its user. Legend has it that this catalyst once held the name \"Gleipnir\" when it was used by an oracle-issuing sinner in an ancient land."
+              "text": "A glorious, illusory catalyst that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its user. Legend has it that this catalyst once held the name \"Gleipnir\" when it was used by an oracle-issuing sinner in an ancient land.",
+              "artStatus": "intentional-fallback",
+              "artSource": "neutral-database-placeholder"
             },
             {
               "id": "gi-wpn-340002",
               "name": "Hallowed Fetters - Sublimation",
               "kind": "weapon",
-              "art": null,
+              "art": "../../Database/Shared/database-fallbacks/gi.svg",
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Catalyst"
               },
-              "text": "A glorious, illusory catalyst glimmering with the power of \"Time\" that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its user. Legend has it that this catalyst once held the name \"Gleipnir\" when it was used by a transcendent sinner in an ancient land."
+              "text": "A glorious, illusory catalyst glimmering with the power of \"Time\" that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its user. Legend has it that this catalyst once held the name \"Gleipnir\" when it was used by a transcendent sinner in an ancient land.",
+              "artStatus": "intentional-fallback",
+              "artSource": "neutral-database-placeholder"
             },
             {
               "id": "gi-wpn-350001",
               "name": "Starpiercer",
               "kind": "weapon",
-              "art": null,
+              "art": "../../Database/Shared/database-fallbacks/gi.svg",
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Bow"
               },
-              "text": "A glorious, illusory bow that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. Legend has it that this bow once held the name \"Gusisnautar\" when it was wielded by a foul sinner in an ancient land."
+              "text": "A glorious, illusory bow that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. Legend has it that this bow once held the name \"Gusisnautar\" when it was wielded by a foul sinner in an ancient land.",
+              "artStatus": "intentional-fallback",
+              "artSource": "neutral-database-placeholder"
             },
             {
               "id": "gi-wpn-350002",
               "name": "Starpiercer - Sublimation",
               "kind": "weapon",
-              "art": null,
+              "art": "../../Database/Shared/database-fallbacks/gi.svg",
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Bow"
               },
-              "text": "A glorious, illusory bow glimmering with the power of \"Void\" that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. Legend has it that this bow once held the name \"Gusisnautar\" when it was wielded by a transcendent sinner in an ancient land."
+              "text": "A glorious, illusory bow glimmering with the power of \"Void\" that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. Legend has it that this bow once held the name \"Gusisnautar\" when it was wielded by a transcendent sinner in an ancient land.",
+              "artStatus": "intentional-fallback",
+              "artSource": "neutral-database-placeholder"
             },
             {
               "id": "gi-wpn-380001",
@@ -4304,12 +4328,14 @@ var NYX_DB = {
               "id": "gi-wpn-380002",
               "name": "Super Awesome Magic Key",
               "kind": "weapon",
-              "art": null,
+              "art": "../../Database/Shared/database-fallbacks/gi.svg",
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Claymore"
               },
-              "text": "A gift from the Little Hexenzirkel to a good friend. Due to insufficient available materials, the design has been based on a magical item from the Fontainian text, \"Tales of a Snow-Winged Goose.\"\nYou won't be able to open doors to different realms as one can in fairy tales, but this item is more than durable enough to accompany friends through countless such realms."
+              "text": "A gift from the Little Hexenzirkel to a good friend. Due to insufficient available materials, the design has been based on a magical item from the Fontainian text, \"Tales of a Snow-Winged Goose.\"\nYou won't be able to open doors to different realms as one can in fairy tales, but this item is more than durable enough to accompany friends through countless such realms.",
+              "artStatus": "intentional-fallback",
+              "artSource": "neutral-database-placeholder"
             },
             {
               "id": "gi-wpn-390001",
@@ -52083,7 +52109,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "361319",
@@ -52999,7 +53027,9 @@ var NYX_DB = {
             "cost": 1600,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "370738",
@@ -53038,7 +53068,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "363307",
@@ -53162,7 +53194,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "373141",
@@ -53261,7 +53295,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "369193",
@@ -53340,7 +53376,9 @@ var NYX_DB = {
             "cost": 1750,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "368110",
@@ -53359,7 +53397,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "369171",
@@ -54177,7 +54217,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "372223",
@@ -54290,7 +54332,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "362236",
@@ -55086,7 +55130,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "372474",
@@ -55289,7 +55335,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "374624",
@@ -55948,7 +55996,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "372495",
@@ -55987,7 +56037,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "361413",
@@ -58502,7 +58554,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "369198",
@@ -58970,7 +59024,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "368190",
@@ -58989,7 +59045,9 @@ var NYX_DB = {
             "cost": 1600,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "372212",
@@ -59152,7 +59210,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "369214",
@@ -59231,7 +59291,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "368124",
@@ -59250,7 +59312,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "370520",
@@ -59326,7 +59390,9 @@ var NYX_DB = {
             "cost": 1600,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "360481",
@@ -59896,7 +59962,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "360466",
@@ -60052,7 +60120,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "373156",
@@ -60202,7 +60272,9 @@ var NYX_DB = {
             "cost": 1600,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "370722",
@@ -62349,7 +62421,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "368201",
@@ -62368,7 +62442,9 @@ var NYX_DB = {
             "cost": 1600,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "374629",
@@ -63223,7 +63299,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "370323",
@@ -64271,7 +64349,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "370529",
@@ -64364,7 +64444,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "372228",
@@ -64931,7 +65013,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "372326",
@@ -65124,7 +65208,9 @@ var NYX_DB = {
             "cost": 1600,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "369163",
@@ -66114,7 +66200,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "371219",
@@ -66457,7 +66545,9 @@ var NYX_DB = {
             "cost": 1600,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "371114",
@@ -66847,7 +66937,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "373336",
@@ -68672,7 +68764,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "374700",
@@ -69678,7 +69772,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "373142",
@@ -70380,7 +70476,9 @@ var NYX_DB = {
             "cost": 1600,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "363507",
@@ -72269,7 +72367,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "363349",
@@ -72675,7 +72775,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "369237",
@@ -72714,7 +72816,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "368125",
@@ -72733,7 +72837,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "374120",
@@ -73861,7 +73967,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "374815",
@@ -75898,7 +76006,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "362241",
@@ -76635,7 +76745,9 @@ var NYX_DB = {
             "cost": 1600,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "373937",
@@ -76711,7 +76823,9 @@ var NYX_DB = {
             "cost": 1600,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "368211",
@@ -76730,7 +76844,9 @@ var NYX_DB = {
             "cost": 1600,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "374834",
@@ -78035,7 +78151,9 @@ var NYX_DB = {
             "cost": 1600,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "374842",
@@ -78225,7 +78343,9 @@ var NYX_DB = {
             "cost": 1600,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "363407",
@@ -78301,7 +78421,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "373487",
@@ -78493,7 +78615,9 @@ var NYX_DB = {
             "cost": 1600,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "368101",
@@ -78512,7 +78636,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "368107",
@@ -78531,7 +78657,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "369111",
@@ -78571,7 +78699,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "368148",
@@ -78590,7 +78720,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "374317",
@@ -78813,7 +78945,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "364502",
@@ -78872,7 +79006,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "375107",
@@ -79017,7 +79153,9 @@ var NYX_DB = {
             "cost": 1600,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "368168",
@@ -79036,7 +79174,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "369126",
@@ -79075,7 +79215,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "372238",
@@ -79114,7 +79256,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "368150",
@@ -79133,7 +79277,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "368194",
@@ -79152,7 +79298,9 @@ var NYX_DB = {
             "cost": 1600,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "374127",
@@ -79794,7 +79942,9 @@ var NYX_DB = {
             "cost": 1600,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "368159",
@@ -79813,7 +79963,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "363428",
@@ -80719,7 +80871,9 @@ var NYX_DB = {
             "cost": 1600,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "368105",
@@ -80738,7 +80892,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "363111",
@@ -81492,7 +81648,9 @@ var NYX_DB = {
             "cost": 1600,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "361322",
@@ -81957,7 +82115,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "368170",
@@ -81976,7 +82136,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "370327",
@@ -83510,7 +83672,9 @@ var NYX_DB = {
             "cost": 2000,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "372233",
@@ -84318,7 +84482,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "361323",
@@ -84870,7 +85036,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "370202",
@@ -85488,7 +85656,9 @@ var NYX_DB = {
             "cost": 1600,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "369140",
@@ -85877,7 +86047,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "361338",
@@ -86321,7 +86493,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "363302",
@@ -86408,7 +86582,9 @@ var NYX_DB = {
             "cost": 1600,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "368173",
@@ -86427,7 +86603,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "374106",
@@ -86477,7 +86655,9 @@ var NYX_DB = {
             "cost": 1600,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "370734",
@@ -86726,7 +86906,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "368116",
@@ -86745,7 +86927,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "372468",
@@ -86804,7 +86988,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "373809",
@@ -86978,7 +87164,9 @@ var NYX_DB = {
             "cost": 1750,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "372441",
@@ -87662,7 +87850,9 @@ var NYX_DB = {
             "cost": 1600,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "371216",
@@ -88245,7 +88435,9 @@ var NYX_DB = {
             "cost": 1500,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "372229",
@@ -92017,7 +92209,9 @@ var NYX_DB = {
             "cost": 1600,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "369217",
@@ -92285,7 +92479,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "362403",
@@ -92441,7 +92637,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "373338",
@@ -92780,7 +92978,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "370303",
@@ -93875,7 +94075,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "361325",
@@ -94096,7 +94298,9 @@ var NYX_DB = {
             "cost": 1600,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "372452",
@@ -94135,7 +94339,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "372330",
@@ -94340,7 +94546,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "369166",
@@ -94828,7 +95036,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "369236",
@@ -95009,7 +95219,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "369110",
@@ -95070,7 +95282,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "372522",
@@ -95568,7 +95782,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "374660",
@@ -96405,7 +96621,9 @@ var NYX_DB = {
             "cost": 1600,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "373321",
@@ -100501,7 +100719,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "375104",
@@ -101221,7 +101441,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "360406",
@@ -103763,7 +103985,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "369222",
@@ -104172,7 +104396,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "360101",
@@ -106560,7 +106786,9 @@ var NYX_DB = {
             "cost": 1600,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "368212",
@@ -106579,7 +106807,9 @@ var NYX_DB = {
             "cost": 1600,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "368111",
@@ -106598,7 +106828,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "371212",
@@ -110070,7 +110302,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "373401",
@@ -110208,7 +110442,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "368179",
@@ -110227,7 +110463,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "368115",
@@ -110246,7 +110484,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "368189",
@@ -110265,7 +110505,9 @@ var NYX_DB = {
             "cost": 1600,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "368114",
@@ -110284,7 +110526,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "368131",
@@ -110303,7 +110547,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "361118",
@@ -110359,7 +110605,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "368102",
@@ -110378,7 +110626,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "368162",
@@ -110397,7 +110647,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "368149",
@@ -110416,7 +110668,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "372306",
@@ -110466,7 +110720,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "369195",
@@ -110892,7 +111148,9 @@ var NYX_DB = {
             "cost": 1600,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "368146",
@@ -110911,7 +111169,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "368118",
@@ -110930,7 +111190,9 @@ var NYX_DB = {
             "cost": 1200,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "368210",
@@ -110949,7 +111211,9 @@ var NYX_DB = {
             "cost": 1600,
             "source": [],
             "recipe": null,
-            "art": null
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           }
         ]
       },
@@ -127764,121 +128028,141 @@ var NYX_DB = {
             "id": "274197",
             "name": "Component Catalog - \"Festive Fragrance Earrings\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "274199",
             "name": "Component Catalog - \"Festive Fragrance Earrings\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "274198",
             "name": "Component Catalog - \"Festive Fragrance Gloves\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "274200",
             "name": "Component Catalog - \"Festive Fragrance Gloves\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "270982",
             "name": "Component Catalog - \"Festive Fragrance Pants\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "270235",
             "name": "Component Catalog - \"Festive Fragrance Shirt\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "270236",
             "name": "Component Catalog - \"Festive Fragrance Shirt\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "271755",
             "name": "Component Catalog - \"Festive Fragrance Shoes\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "271756",
             "name": "Component Catalog - \"Festive Fragrance Shoes\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "270981",
             "name": "Component Catalog - \"Festive Fragrance Skirt\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "270060",
@@ -128316,121 +128600,141 @@ var NYX_DB = {
             "id": "274185",
             "name": "Component Catalog - \"Mycologist Earrings\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "274191",
             "name": "Component Catalog - \"Mycologist Earrings\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "274190",
             "name": "Component Catalog - \"Mycologist Gloves\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "274192",
             "name": "Component Catalog - \"Mycologist Gloves\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "270979",
             "name": "Component Catalog - \"Mycologist Pants\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "270231",
             "name": "Component Catalog - \"Mycologist Shirt\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "270232",
             "name": "Component Catalog - \"Mycologist Shirt\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "271751",
             "name": "Component Catalog - \"Mycologist Shoes\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "271752",
             "name": "Component Catalog - \"Mycologist Shoes\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "270977",
             "name": "Component Catalog - \"Mycologist Skirt\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "270045",
@@ -128472,73 +128776,85 @@ var NYX_DB = {
             "id": "271747",
             "name": "Component Catalog - \"Noble Orchid Fabric Shoes\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "271749",
             "name": "Component Catalog - \"Noble Orchid Fabric Shoes\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "270978",
             "name": "Component Catalog - \"Noble Orchid Long Dress\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "270976",
             "name": "Component Catalog - \"Noble Orchid Pants\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "270228",
             "name": "Component Catalog - \"Noble Orchid Simple Garment\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "270230",
             "name": "Component Catalog - \"Noble Orchid Simple Garment\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "273203",
@@ -128964,73 +129280,85 @@ var NYX_DB = {
             "id": "271745",
             "name": "Component Catalog - \"Quiet Orchid Fabric Shoes\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "271746",
             "name": "Component Catalog - \"Quiet Orchid Fabric Shoes\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "270973",
             "name": "Component Catalog - \"Quiet Orchid Long Dress\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "270974",
             "name": "Component Catalog - \"Quiet Orchid Pants\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "270225",
             "name": "Component Catalog - \"Quiet Orchid Simple Garment\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "270226",
             "name": "Component Catalog - \"Quiet Orchid Simple Garment\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "273209",
@@ -129696,241 +130024,281 @@ var NYX_DB = {
             "id": "274175",
             "name": "Component Catalog - \"Soaring Contemplation Gloves\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "274177",
             "name": "Component Catalog - \"Soaring Contemplation Gloves\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "274174",
             "name": "Component Catalog - \"Soaring Contemplation Goggles\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "274176",
             "name": "Component Catalog - \"Soaring Contemplation Goggles\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "271675",
             "name": "Component Catalog - \"Soaring Contemplation Long Boots\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "271676",
             "name": "Component Catalog - \"Soaring Contemplation Long Boots\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "270890",
             "name": "Component Catalog - \"Soaring Contemplation Shorts\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "270889",
             "name": "Component Catalog - \"Soaring Contemplation Skirt\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "270115",
             "name": "Component Catalog - \"Soaring Contemplation Uniform\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "270116",
             "name": "Component Catalog - \"Soaring Contemplation Uniform\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "274173",
             "name": "Component Catalog - \"Soaring Vigor Gloves\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "274184",
             "name": "Component Catalog - \"Soaring Vigor Gloves\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "274172",
             "name": "Component Catalog - \"Soaring Vigor Goggles\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "274183",
             "name": "Component Catalog - \"Soaring Vigor Goggles\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "271673",
             "name": "Component Catalog - \"Soaring Vigor Long Boots\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "271674",
             "name": "Component Catalog - \"Soaring Vigor Long Boots\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "270888",
             "name": "Component Catalog - \"Soaring Vigor Shorts\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "270887",
             "name": "Component Catalog - \"Soaring Vigor Skirt\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "270113",
             "name": "Component Catalog - \"Soaring Vigor Uniform\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "270114",
             "name": "Component Catalog - \"Soaring Vigor Uniform\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "271651",
@@ -130020,109 +130388,127 @@ var NYX_DB = {
             "id": "271753",
             "name": "Component Catalog - \"Sunlit Bloom Geta\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "271754",
             "name": "Component Catalog - \"Sunlit Bloom Geta\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "274195",
             "name": "Component Catalog - \"Sunlit Bloom Hairband\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "274193",
             "name": "Component Catalog - \"Sunlit Bloom Headwear\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "270980",
             "name": "Component Catalog - \"Sunlit Bloom Shorts\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "274194",
             "name": "Component Catalog - \"Sunlit Bloom Socks\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "274196",
             "name": "Component Catalog - \"Sunlit Bloom Socks\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "270233",
             "name": "Component Catalog - \"Sunlit Bloom Top\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "270234",
             "name": "Component Catalog - \"Sunlit Bloom Top\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "272913",
@@ -130188,109 +130574,127 @@ var NYX_DB = {
             "id": "271748",
             "name": "Component Catalog - \"Sweet Citrus Geta\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "271750",
             "name": "Component Catalog - \"Sweet Citrus Geta\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "274186",
             "name": "Component Catalog - \"Sweet Citrus Hair Ornament\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "274188",
             "name": "Component Catalog - \"Sweet Citrus Hairband\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "270975",
             "name": "Component Catalog - \"Sweet Citrus Shorts\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "274187",
             "name": "Component Catalog - \"Sweet Citrus Socks\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "274189",
             "name": "Component Catalog - \"Sweet Citrus Socks\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "270227",
             "name": "Component Catalog - \"Sweet Citrus Top\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "270229",
             "name": "Component Catalog - \"Sweet Citrus Top\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "3",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "274154",
@@ -143208,13 +143612,15 @@ var NYX_DB = {
             "id": "275115",
             "name": "Set Catalog - \"Autumn Veins\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "4",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "275143",
@@ -143256,13 +143662,15 @@ var NYX_DB = {
             "id": "275352",
             "name": "Set Catalog - \"Ink-Tinged Sprout\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "4",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "275016",
@@ -143280,25 +143688,29 @@ var NYX_DB = {
             "id": "275348",
             "name": "Set Catalog - \"Salted Lemon Fizz\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "4",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "275235",
             "name": "Set Catalog - \"Tart Berry Muse\"",
             "kind": "Inventory Item",
-            "art": null,
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "rank": "4",
             "type": "Material Costume Drawing",
             "body": [],
             "color": [],
             "slot": [],
-            "nameMissing": false
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "250474",
@@ -146517,185 +146929,6 @@ var NYX_DB = {
           "forms": []
         },
         {
-          "id": "gi-traveler",
-          "name": "Traveler",
-          "aliases": [
-            "Aether",
-            "Lumine"
-          ],
-          "title": "Descender",
-          "rarity": 5,
-          "element": "Anemo",
-          "role": "Sword",
-          "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-          "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-          "facts": {
-            "constellation": "Viator"
-          },
-          "overviewArt": "../../Database/GameData/gi/gcg/other cards/assets/332001-The Bestest Travel Companion!.webp",
-          "overviewArtPool": [
-            "../../Database/GameData/gi/gcg/other cards/assets/332001-The Bestest Travel Companion!.webp"
-          ],
-          "forms": [
-            {
-              "name": "Traveler",
-              "label": "Anemo",
-              "variant": "Anemo",
-              "gender": "male",
-              "element": "Anemo",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {
-                "constellation": "Viator"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Anemo",
-              "variant": "Anemo",
-              "gender": "female",
-              "element": "Anemo",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {
-                "constellation": "Viatrix"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Geo",
-              "variant": "Geo",
-              "gender": "male",
-              "element": "Geo",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {
-                "constellation": "Viator"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Geo",
-              "variant": "Geo",
-              "gender": "female",
-              "element": "Geo",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {
-                "constellation": "Viatrix"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Electro",
-              "variant": "Electro",
-              "gender": "male",
-              "element": "Electro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {
-                "constellation": "Viator"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Electro",
-              "variant": "Electro",
-              "gender": "female",
-              "element": "Electro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {
-                "constellation": "Viatrix"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Dendro",
-              "variant": "Dendro",
-              "gender": "male",
-              "element": "Dendro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {
-                "constellation": "Viator"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Dendro",
-              "variant": "Dendro",
-              "gender": "female",
-              "element": "Dendro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {
-                "constellation": "Viatrix"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Hydro",
-              "variant": "Hydro",
-              "gender": "male",
-              "element": "Hydro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {
-                "constellation": "Viator"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Hydro",
-              "variant": "Hydro",
-              "gender": "female",
-              "element": "Hydro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {
-                "constellation": "Viatrix"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Pyro",
-              "variant": "Pyro",
-              "gender": "male",
-              "element": "Pyro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-              "facts": {
-                "constellation": "Viator"
-              }
-            },
-            {
-              "name": "Traveler",
-              "label": "Pyro",
-              "variant": "Pyro",
-              "gender": "female",
-              "element": "Pyro",
-              "role": "Sword",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-              "facts": {
-                "constellation": "Viatrix"
-              }
-            }
-          ]
-        },
-        {
           "id": "gi-10000016",
           "name": "Diluc",
           "aliases": [],
@@ -147185,6 +147418,185 @@ var NYX_DB = {
             "../../Database/GameData/gi/gcg/character cards/assets/1202-Xingqiu.webp"
           ],
           "forms": []
+        },
+        {
+          "id": "gi-traveler",
+          "name": "Traveler",
+          "aliases": [
+            "Aether",
+            "Lumine"
+          ],
+          "title": "Descender",
+          "rarity": 5,
+          "element": "Anemo",
+          "role": "Sword",
+          "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+          "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+          "facts": {
+            "constellation": "Viator"
+          },
+          "overviewArt": "../../Database/GameData/gi/gcg/other cards/assets/332001-The Bestest Travel Companion!.webp",
+          "overviewArtPool": [
+            "../../Database/GameData/gi/gcg/other cards/assets/332001-The Bestest Travel Companion!.webp"
+          ],
+          "forms": [
+            {
+              "name": "Traveler",
+              "label": "Anemo",
+              "variant": "Anemo",
+              "gender": "male",
+              "element": "Anemo",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Anemo",
+              "variant": "Anemo",
+              "gender": "female",
+              "element": "Anemo",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Geo",
+              "variant": "Geo",
+              "gender": "male",
+              "element": "Geo",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Geo",
+              "variant": "Geo",
+              "gender": "female",
+              "element": "Geo",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Electro",
+              "variant": "Electro",
+              "gender": "male",
+              "element": "Electro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Electro",
+              "variant": "Electro",
+              "gender": "female",
+              "element": "Electro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Dendro",
+              "variant": "Dendro",
+              "gender": "male",
+              "element": "Dendro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Dendro",
+              "variant": "Dendro",
+              "gender": "female",
+              "element": "Dendro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Hydro",
+              "variant": "Hydro",
+              "gender": "male",
+              "element": "Hydro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Hydro",
+              "variant": "Hydro",
+              "gender": "female",
+              "element": "Hydro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Pyro",
+              "variant": "Pyro",
+              "gender": "male",
+              "element": "Pyro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+              "facts": {
+                "constellation": "Viator"
+              }
+            },
+            {
+              "name": "Traveler",
+              "label": "Pyro",
+              "variant": "Pyro",
+              "gender": "female",
+              "element": "Pyro",
+              "role": "Sword",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+              "facts": {
+                "constellation": "Viatrix"
+              }
+            }
+          ]
         }
       ]
     },
@@ -153001,7 +153413,7 @@ var NYX_DB = {
               "id": "iris-enigma",
               "name": "Iris Enigma",
               "kind": "w-engines",
-              "art": null,
+              "art": "../../Database/Shared/database-fallbacks/zzz.svg",
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Support",
@@ -153010,7 +153422,9 @@ var NYX_DB = {
               },
               "text": "Iris Enigma\nRarity: A | Type: Support\nWhenever a squad member launches their Ultimate, increases the equipper's Energy Regen by 1.2/1.36/1.52/1.68/1.84 per second for 12s .\nBase ATK (Lv 60): 594\nAttack (Lv 60): 25",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "artStatus": "intentional-fallback",
+              "artSource": "neutral-database-placeholder"
             },
             {
               "id": "joyau-dore",
@@ -155946,13 +156360,15 @@ var NYX_DB = {
               "id": "zzz-bb-55098",
               "name": "Eous",
               "kind": "bangboo",
-              "art": null,
+              "art": "../../Database/Shared/database-fallbacks/zzz.svg",
               "fields": {
                 "rarity": "3 \u2605",
                 "codeName": "Eous"
               },
               "text": "Eous",
-              "skills": []
+              "skills": [],
+              "artStatus": "intentional-fallback",
+              "artSource": "neutral-database-placeholder"
             }
           ]
         }
@@ -165490,7 +165906,7 @@ var NYX_DB = {
               "id": "swordmancer-nav-beacon",
               "name": "Swordmancer NAV Beacon",
               "kind": "gear",
-              "art": null,
+              "art": "../../Database/Shared/database-fallbacks/ae.svg",
               "fields": {
                 "level": "70",
                 "type": "Kit",
@@ -165500,13 +165916,15 @@ var NYX_DB = {
               },
               "text": "Swordmancer NAV Beacon\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nStrength :\n+ 41\nArts Intensity :\n+ 41\nGear Set (3-PC)\nSwordmancer\nStagger Efficiency Bonus + 20% . When the wearer applies a Physical Status , the wearer also performs 1 hit that deals 250% ATK of Physical DMG and 10 Stagger. Effect trigger cooldown: 15s .",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "artStatus": "intentional-fallback",
+              "artSource": "neutral-database-placeholder"
             },
             {
               "id": "swordmancer-tac-gauntlets",
               "name": "Swordmancer TAC Gauntlets",
               "kind": "gear",
-              "art": null,
+              "art": "../../Database/Shared/database-fallbacks/ae.svg",
               "fields": {
                 "level": "70",
                 "type": "Gloves",
@@ -165517,13 +165935,15 @@ var NYX_DB = {
               },
               "text": "Swordmancer TAC Gauntlets\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nAgility :\n+ 65\nStrength :\n+ 43\nUltimate DMG :\n+ 43.10%\nGear Set (3-PC)\nSwordmancer\nStagger Efficiency Bonus + 20% . When the wearer applies a Physical Status , the wearer also performs 1 hit that deals 250% ATK of Physical DMG and 10 Stagger. Effect trigger cooldown: 15s .",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "artStatus": "intentional-fallback",
+              "artSource": "neutral-database-placeholder"
             },
             {
               "id": "swordmancer-tac-gauntlets-t1",
               "name": "Swordmancer TAC Gauntlets T1",
               "kind": "gear",
-              "art": null,
+              "art": "../../Database/Shared/database-fallbacks/ae.svg",
               "fields": {
                 "level": "70",
                 "type": "Gloves",
@@ -165534,13 +165954,15 @@ var NYX_DB = {
               },
               "text": "Swordmancer TAC Gauntlets T1\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nStrength :\n+ 65\nWill :\n+ 43\nArts Intensity :\n+ 34\nGear Set (3-PC)\nSwordmancer\nStagger Efficiency Bonus + 20% . When the wearer applies a Physical Status , the wearer also performs 1 hit that deals 250% ATK of Physical DMG and 10 Stagger. Effect trigger cooldown: 15s .",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "artStatus": "intentional-fallback",
+              "artSource": "neutral-database-placeholder"
             },
             {
               "id": "swordmancer-tac-gloves",
               "name": "Swordmancer TAC Gloves",
               "kind": "gear",
-              "art": null,
+              "art": "../../Database/Shared/database-fallbacks/ae.svg",
               "fields": {
                 "level": "70",
                 "type": "Gloves",
@@ -165551,13 +165973,15 @@ var NYX_DB = {
               },
               "text": "Swordmancer TAC Gloves\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nStrength :\n+ 65\nWill :\n+ 43\nPhysical DMG :\n+ 19.20%\nGear Set (3-PC)\nSwordmancer\nStagger Efficiency Bonus + 20% . When the wearer applies a Physical Status , the wearer also performs 1 hit that deals 250% ATK of Physical DMG and 10 Stagger. Effect trigger cooldown: 15s .",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "artStatus": "intentional-fallback",
+              "artSource": "neutral-database-placeholder"
             },
             {
               "id": "tide-fall-light-armor",
               "name": "Tide Fall Light Armor",
               "kind": "gear",
-              "art": null,
+              "art": "../../Database/Shared/database-fallbacks/ae.svg",
               "fields": {
                 "level": "70",
                 "type": "Armor",
@@ -165568,13 +165992,15 @@ var NYX_DB = {
               },
               "text": "Tide Fall Light Armor\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nIntellect :\n+ 87\nStrength :\n+ 58\nUltimate Gain Efficiency :\n+ 12.30%\nGear Set (3-PC)\nTide Surge\nAll Skill DMG + 20% . After the wearer applies 2 or more stacks of Arts Infliction on the enemy, the wearer gains Arts DMG dealt +35% for 15s . This effect cannot stack.",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "artStatus": "intentional-fallback",
+              "artSource": "neutral-database-placeholder"
             },
             {
               "id": "tide-surge-gauntlets",
               "name": "Tide Surge Gauntlets",
               "kind": "gear",
-              "art": null,
+              "art": "../../Database/Shared/database-fallbacks/ae.svg",
               "fields": {
                 "level": "70",
                 "type": "Gloves",
@@ -165586,13 +166012,15 @@ var NYX_DB = {
               },
               "text": "Tide Surge Gauntlets\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nStrength :\n+ 65\nWill :\n+ 43\nCryo DMG :\n+ 19.20%\nElectric DMG :\n+ 19.20%\nGear Set (3-PC)\nTide Surge\nAll Skill DMG + 20% . After the wearer applies 2 or more stacks of Arts Infliction on the enemy, the wearer gains Arts DMG dealt +35% for 15s . This effect cannot stack.",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "artStatus": "intentional-fallback",
+              "artSource": "neutral-database-placeholder"
             },
             {
               "id": "turbid-cutting-torch",
               "name": "Turbid Cutting Torch",
               "kind": "gear",
-              "art": null,
+              "art": "../../Database/Shared/database-fallbacks/ae.svg",
               "fields": {
                 "level": "70",
                 "type": "Kit",
@@ -165603,13 +166031,15 @@ var NYX_DB = {
               },
               "text": "Turbid Cutting Torch\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nIntellect :\n+ 32\nStrength :\n+ 21\nBasic ATK DMG :\n+ 27.60%\nGear Set (3-PC)\nTide Surge\nAll Skill DMG + 20% . After the wearer applies 2 or more stacks of Arts Infliction on the enemy, the wearer gains Arts DMG dealt +35% for 15s . This effect cannot stack.",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "artStatus": "intentional-fallback",
+              "artSource": "neutral-database-placeholder"
             },
             {
               "id": "type-50-yinglung-gloves",
               "name": "Type 50 Yinglung Gloves",
               "kind": "gear",
-              "art": null,
+              "art": "../../Database/Shared/database-fallbacks/ae.svg",
               "fields": {
                 "level": "70",
                 "type": "Gloves",
@@ -165620,13 +166050,15 @@ var NYX_DB = {
               },
               "text": "Type 50 Yinglung Gloves\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nAgility :\n+ 65\nIntellect :\n+ 43\nCombo Skill DMG :\n+ 34.50%\nGear Set (3-PC)\nType 50 Yinglung\nAttack + 15% . When any operator in the team casts a battle skill, the wearer gains 1 stack of Yinglung's Edge that gives DMG +20% to the wearer's next combo skill. Yinglung's Edge can stack 3 time(s).",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "artStatus": "intentional-fallback",
+              "artSource": "neutral-database-placeholder"
             },
             {
               "id": "type-50-yinglung-gloves-t1",
               "name": "Type 50 Yinglung Gloves T1",
               "kind": "gear",
-              "art": null,
+              "art": "../../Database/Shared/database-fallbacks/ae.svg",
               "fields": {
                 "level": "70",
                 "type": "Gloves",
@@ -165637,13 +166069,15 @@ var NYX_DB = {
               },
               "text": "Type 50 Yinglung Gloves T1\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nWill :\n+ 65\nAgility :\n+ 43\nCombo Skill DMG :\n+ 34.50%\nGear Set (3-PC)\nType 50 Yinglung\nAttack + 15% . When any operator in the team casts a battle skill, the wearer gains 1 stack of Yinglung's Edge that gives DMG +20% to the wearer's next combo skill. Yinglung's Edge can stack 3 time(s).",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "artStatus": "intentional-fallback",
+              "artSource": "neutral-database-placeholder"
             },
             {
               "id": "type-50-yinglung-heavy-armor",
               "name": "Type 50 Yinglung Heavy Armor",
               "kind": "gear",
-              "art": null,
+              "art": "../../Database/Shared/database-fallbacks/ae.svg",
               "fields": {
                 "level": "70",
                 "type": "Armor",
@@ -165654,13 +166088,15 @@ var NYX_DB = {
               },
               "text": "Type 50 Yinglung Heavy Armor\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nStrength :\n+ 87\nWill :\n+ 58\nPhysical DMG :\n+ 11.50%\nGear Set (3-PC)\nType 50 Yinglung\nAttack + 15% . When any operator in the team casts a battle skill, the wearer gains 1 stack of Yinglung's Edge that gives DMG +20% to the wearer's next combo skill. Yinglung's Edge can stack 3 time(s).",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "artStatus": "intentional-fallback",
+              "artSource": "neutral-database-placeholder"
             },
             {
               "id": "type-50-yinglung-heavy-armor-t1",
               "name": "Type 50 Yinglung Heavy Armor T1",
               "kind": "gear",
-              "art": null,
+              "art": "../../Database/Shared/database-fallbacks/ae.svg",
               "fields": {
                 "level": "70",
                 "type": "Armor",
@@ -165671,13 +166107,15 @@ var NYX_DB = {
               },
               "text": "Type 50 Yinglung Heavy Armor T1\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nAgility :\n+ 87\nStrength :\n+ 58\nUltimate Gain Efficiency :\n+ 12.30%\nGear Set (3-PC)\nType 50 Yinglung\nAttack + 15% . When any operator in the team casts a battle skill, the wearer gains 1 stack of Yinglung's Edge that gives DMG +20% to the wearer's next combo skill. Yinglung's Edge can stack 3 time(s).",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "artStatus": "intentional-fallback",
+              "artSource": "neutral-database-placeholder"
             },
             {
               "id": "type-50-yinglung-heavy-armor-t2",
               "name": "Type 50 Yinglung Heavy Armor T2",
               "kind": "gear",
-              "art": null,
+              "art": "../../Database/Shared/database-fallbacks/ae.svg",
               "fields": {
                 "level": "70",
                 "type": "Armor",
@@ -165688,13 +166126,15 @@ var NYX_DB = {
               },
               "text": "Type 50 Yinglung Heavy Armor T2\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nAgility :\n+ 87\nIntellect :\n+ 58\nCombo Skill DMG :\n+ 20.70%\nGear Set (3-PC)\nType 50 Yinglung\nAttack + 15% . When any operator in the team casts a battle skill, the wearer gains 1 stack of Yinglung's Edge that gives DMG +20% to the wearer's next combo skill. Yinglung's Edge can stack 3 time(s).",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "artStatus": "intentional-fallback",
+              "artSource": "neutral-database-placeholder"
             },
             {
               "id": "type-50-yinglung-knife",
               "name": "Type 50 Yinglung Knife",
               "kind": "gear",
-              "art": null,
+              "art": "../../Database/Shared/database-fallbacks/ae.svg",
               "fields": {
                 "level": "70",
                 "type": "Kit",
@@ -165705,13 +166145,15 @@ var NYX_DB = {
               },
               "text": "Type 50 Yinglung Knife\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nWill :\n+ 32\nAgility :\n+ 21\nCombo Skill DMG :\n+ 41.40%\nGear Set (3-PC)\nType 50 Yinglung\nAttack + 15% . When any operator in the team casts a battle skill, the wearer gains 1 stack of Yinglung's Edge that gives DMG +20% to the wearer's next combo skill. Yinglung's Edge can stack 3 time(s).",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "artStatus": "intentional-fallback",
+              "artSource": "neutral-database-placeholder"
             },
             {
               "id": "type-50-yinglung-knife-t1",
               "name": "Type 50 Yinglung Knife T1",
               "kind": "gear",
-              "art": null,
+              "art": "../../Database/Shared/database-fallbacks/ae.svg",
               "fields": {
                 "level": "70",
                 "type": "Kit",
@@ -165722,13 +166164,15 @@ var NYX_DB = {
               },
               "text": "Type 50 Yinglung Knife T1\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nIntellect :\n+ 32\nStrength :\n+ 21\nAll Skill DMG :\n+ 27.60%\nGear Set (3-PC)\nType 50 Yinglung\nAttack + 15% . When any operator in the team casts a battle skill, the wearer gains 1 stack of Yinglung's Edge that gives DMG +20% to the wearer's next combo skill. Yinglung's Edge can stack 3 time(s).",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "artStatus": "intentional-fallback",
+              "artSource": "neutral-database-placeholder"
             },
             {
               "id": "type-50-yinglung-light-armor",
               "name": "Type 50 Yinglung Light Armor",
               "kind": "gear",
-              "art": null,
+              "art": "../../Database/Shared/database-fallbacks/ae.svg",
               "fields": {
                 "level": "70",
                 "type": "Armor",
@@ -165739,13 +166183,15 @@ var NYX_DB = {
               },
               "text": "Type 50 Yinglung Light Armor\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nWill :\n+ 87\nStrength :\n+ 58\nAll Skill DMG :\n+ 13.80%\nGear Set (3-PC)\nType 50 Yinglung\nAttack + 15% . When any operator in the team casts a battle skill, the wearer gains 1 stack of Yinglung's Edge that gives DMG +20% to the wearer's next combo skill. Yinglung's Edge can stack 3 time(s).",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "artStatus": "intentional-fallback",
+              "artSource": "neutral-database-placeholder"
             },
             {
               "id": "type-50-yinglung-radar",
               "name": "Type 50 Yinglung Radar",
               "kind": "gear",
-              "art": null,
+              "art": "../../Database/Shared/database-fallbacks/ae.svg",
               "fields": {
                 "level": "70",
                 "type": "Kit",
@@ -165756,13 +166202,15 @@ var NYX_DB = {
               },
               "text": "Type 50 Yinglung Radar\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nStrength :\n+ 32\nWill :\n+ 21\nPhysical DMG :\n+ 23.00%\nGear Set (3-PC)\nType 50 Yinglung\nAttack + 15% . When any operator in the team casts a battle skill, the wearer gains 1 stack of Yinglung's Edge that gives DMG +20% to the wearer's next combo skill. Yinglung's Edge can stack 3 time(s).",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "artStatus": "intentional-fallback",
+              "artSource": "neutral-database-placeholder"
             },
             {
               "id": "type-50-yinglung-radar-t1",
               "name": "Type 50 Yinglung Radar T1",
               "kind": "gear",
-              "art": null,
+              "art": "../../Database/Shared/database-fallbacks/ae.svg",
               "fields": {
                 "level": "70",
                 "type": "Kit",
@@ -165773,13 +166221,15 @@ var NYX_DB = {
               },
               "text": "Type 50 Yinglung Radar T1\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nAgility :\n+ 32\nStrength :\n+ 21\nUltimate DMG :\n+ 51.80%\nGear Set (3-PC)\nType 50 Yinglung\nAttack + 15% . When any operator in the team casts a battle skill, the wearer gains 1 stack of Yinglung's Edge that gives DMG +20% to the wearer's next combo skill. Yinglung's Edge can stack 3 time(s).",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "artStatus": "intentional-fallback",
+              "artSource": "neutral-database-placeholder"
             },
             {
               "id": "type-50-yinglung-radar-t2",
               "name": "Type 50 Yinglung Radar T2",
               "kind": "gear",
-              "art": null,
+              "art": "../../Database/Shared/database-fallbacks/ae.svg",
               "fields": {
                 "level": "70",
                 "type": "Kit",
@@ -165790,13 +166240,15 @@ var NYX_DB = {
               },
               "text": "Type 50 Yinglung Radar T2\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nAgility :\n+ 32\nIntellect :\n+ 21\nCombo Skill DMG :\n+ 41.40%\nGear Set (3-PC)\nType 50 Yinglung\nAttack + 15% . When any operator in the team casts a battle skill, the wearer gains 1 stack of Yinglung's Edge that gives DMG +20% to the wearer's next combo skill. Yinglung's Edge can stack 3 time(s).",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "artStatus": "intentional-fallback",
+              "artSource": "neutral-database-placeholder"
             },
             {
               "id": "xiranflow-baton",
               "name": "Xiranflow Baton",
               "kind": "gear",
-              "art": null,
+              "art": "../../Database/Shared/database-fallbacks/ae.svg",
               "fields": {
                 "level": "70",
                 "type": "Kit",
@@ -165807,13 +166259,15 @@ var NYX_DB = {
               },
               "text": "Xiranflow Baton\nLevel: 70\nType: Kit\nDEF: + 21\nGear Attributes\nWill :\n+ 32\nIntellect :\n+ 21\nBattle Skill DMG :\n+ 41.40%\nGear Set (3-PC)\nXiranflow\nAttack + 15% . Whenever the wearer consumes Electrification or Corrosion , the wearer gains a number of buff stacks equal to the Status Level of the Arts Reaction consumed, with each buff stack giving Electric DMG Dealt and Nature DMG Dealt +15% for 25s . The number of buff stacks maxes out at 3 stacks. Duration of each stack is counted separately.",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "artStatus": "intentional-fallback",
+              "artSource": "neutral-database-placeholder"
             },
             {
               "id": "xiranflow-gloves",
               "name": "Xiranflow Gloves",
               "kind": "gear",
-              "art": null,
+              "art": "../../Database/Shared/database-fallbacks/ae.svg",
               "fields": {
                 "level": "70",
                 "type": "Gloves",
@@ -165825,13 +166279,15 @@ var NYX_DB = {
               },
               "text": "Xiranflow Gloves\nLevel: 70\nType: Gloves\nDEF: + 42\nGear Attributes\nWill :\n+ 65\nIntellect :\n+ 43\nCryo DMG :\n+ 19.20%\nElectric DMG :\n+ 19.20%\nGear Set (3-PC)\nXiranflow\nAttack + 15% . Whenever the wearer consumes Electrification or Corrosion , the wearer gains a number of buff stacks equal to the Status Level of the Arts Reaction consumed, with each buff stack giving Electric DMG Dealt and Nature DMG Dealt +15% for 25s . The number of buff stacks maxes out at 3 stacks. Duration of each stack is counted separately.",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "artStatus": "intentional-fallback",
+              "artSource": "neutral-database-placeholder"
             },
             {
               "id": "xiranflow-light-armor",
               "name": "Xiranflow Light Armor",
               "kind": "gear",
-              "art": null,
+              "art": "../../Database/Shared/database-fallbacks/ae.svg",
               "fields": {
                 "level": "70",
                 "type": "Armor",
@@ -165843,7 +166299,9 @@ var NYX_DB = {
               },
               "text": "Xiranflow Light Armor\nLevel: 70\nType: Armor\nDEF: + 56\nGear Attributes\nWill :\n+ 87\nIntellect :\n+ 58\nCryo DMG :\n+ 11.50%\nElectric DMG :\n+ 11.50%\nGear Set (3-PC)\nXiranflow\nAttack + 15% . Whenever the wearer consumes Electrification or Corrosion , the wearer gains a number of buff stacks equal to the Status Level of the Arts Reaction consumed, with each buff stack giving Electric DMG Dealt and Nature DMG Dealt +15% for 25s . The number of buff stacks maxes out at 3 stacks. Duration of each stack is counted separately.",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "artStatus": "intentional-fallback",
+              "artSource": "neutral-database-placeholder"
             }
           ]
         }

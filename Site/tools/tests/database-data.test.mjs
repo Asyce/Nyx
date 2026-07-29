@@ -267,7 +267,7 @@ test('Unknown rarity gates remain explicit until a trustworthy source exists', (
     giItems:2270,
     hsrMonsters:612,
     hsrRelicSets:60,
-    hsrLightCones:3,
+    hsrLightCones:4,
     zzzDriveDiscs:28,
     wuwaEchoes:180,
     endfieldGear:152,
@@ -277,32 +277,77 @@ test('Unknown rarity gates remain explicit until a trustworthy source exists', (
   assert.equal(tcg.every((row) => databaseRarityLabel(row.rarity) === 'Unknown'), true);
 });
 
-test('missing-art audit accounts for every generated no-art row', () => {
+test('missing-art audit accounts for every intentional neutral fallback', () => {
   const audit = readJson('Database/Audits/database-missing-art.json');
-  const lazyMissing = Object.keys({ gi: 1, hsr: 1, zzz: 1, wuwa: 1 })
+  const lazyRows = Object.keys({ gi: 1, hsr: 1, zzz: 1, wuwa: 1 })
     .flatMap((game) => readGenerated(game).collections)
-    .flatMap((collection) => collection.items.filter((row) => !row.art));
+    .flatMap((collection) => collection.items);
   const nyx = readNyxDatabase();
-  const inlineMissing = Object.values(nyx.games)
+  const inlineRows = Object.values(nyx.games)
     .flatMap((game) => game.collections || [])
-    .flatMap((collection) => collection.items || [])
-    .filter((row) => !row.art);
+    .flatMap((collection) => collection.items || []);
   const gi = nyx.games.gi;
-  const specialMissing = [
+  const specialRows = [
     ...(gi.tcg?.characterCards || []),
     ...(gi.tcg?.otherCards || []),
     ...(gi.furniture?.items || []),
     ...(gi.wonderland?.costumes || []),
     ...(gi.wonderland?.suits || []),
     ...(gi.wonderland?.items || []),
-  ].filter((row) => !row.art);
-  const generatedMissing = [...lazyMissing, ...inlineMissing, ...specialMissing];
-  assert.equal(audit.records.length, generatedMissing.length);
+  ];
+  const generatedRows = [...lazyRows, ...inlineRows, ...specialRows];
+  const fallbacks = generatedRows.filter((row) => row.artStatus === 'intentional-fallback');
+  assert.equal(generatedRows.some((row) => !row.art), false);
+  assert.equal(audit.records.length, fallbacks.length);
   assert.equal(audit.missingArtCount, audit.records.length);
+  assert.equal(audit.intentionalFallbackCount, fallbacks.length);
+  assert.equal(audit.displayArtMissingCount, 0);
+  assert.equal(fallbacks.every((row) => row.artSource === 'neutral-database-placeholder'), true);
+  for (const row of fallbacks) {
+    assert.match(row.art, /^\.\.\/\.\.\/Database\/Shared\/database-fallbacks\/(?:gi|hsr|zzz|wuwa|ae)\.svg$/);
+    assert.equal(fs.existsSync(path.resolve(root, row.art.replace('../../', ''))), true, row.art);
+  }
   assert.deepEqual(audit.coverage.after.scopes, ['inline', 'lazy', 'special']);
   assert.equal(audit.coverage.after.summaryCount, audit.summary.length);
   assert.equal(audit.summary.reduce((count, row) => count + row.missingArtCount, 0), audit.missingArtCount);
   assert.equal(audit.records.some((row) => row.releaseStatus !== 'live'), false);
   assert.equal(audit.records.some((row) => row.sourceUrl && !row.sourceUrl.startsWith('https://static.nanoka.cc/assets/')), false);
   assert.equal(audit.records.some((row) => row.result === 'no-approved-source-icon' && row.sourceUrl), false);
+});
+
+test('Genshin Golden and Platinum TCG item variants reuse their exact trusted base-card art', () => {
+  const audit = readJson('Database/Audits/database-missing-art.json');
+  const items = readGenerated('gi').collections.find((collection) => collection.key === 'items').items;
+  const variants = items.filter((row) => row.artStatus === 'trusted-local-reuse');
+  assert.equal(variants.length, 1214);
+  assert.equal(variants.every((row) => row.artSource === 'genshin-tcg-base-card'), true);
+  assert.equal(variants.every((row) => row.art?.startsWith('../../Database/GameData/gi/gcg/')), true);
+  assert.equal(audit.records.some((row) => /^UI_Gcg_CardFace_.+_(?:Golden|Platinum)$/.test(row.sourceIconField?.value || '')), false);
+});
+
+test('trusted exact-source Genshin art backfill is complete, hashed, and removed from the missing-art audit', () => {
+  const provenance = readJson('Database/Audits/database-art-backfill-provenance.json');
+  const audit = readJson('Database/Audits/database-missing-art.json');
+  const items = readGenerated('gi').collections.find((collection) => collection.key === 'items').items;
+  const backfilled = items.filter((row) => row.artStatus === 'trusted-exact-source-icon');
+  const destinations = new Set();
+  const sourceIcons = new Set();
+
+  assert.equal(provenance.assetCount, provenance.assets.length);
+  assert.equal(provenance.resolvedRecordCount, 235);
+  assert.equal(provenance.assetCount, 221);
+  for (const asset of provenance.assets) {
+    assert.match(asset.localDestination, /^GameData\/gi\/assets\/items\/[^/]+\.webp$/);
+    assert.equal(destinations.has(asset.localDestination), false, asset.localDestination);
+    destinations.add(asset.localDestination);
+    sourceIcons.add(asset.sourceIcon);
+    const bytes = fs.readFileSync(path.resolve(root, 'Database', asset.localDestination));
+    assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'), asset.outputSha256);
+    assert.equal(bytes.length, asset.outputBytes);
+    assert.ok(asset.provider);
+    assert.ok(asset.sourceUrl);
+  }
+  assert.equal(backfilled.length, provenance.resolvedRecordCount);
+  assert.equal(backfilled.every((row) => row.artSource === 'database-art-backfill-provenance'), true);
+  assert.equal(audit.records.some((row) => sourceIcons.has(row.sourceIconField?.value)), false);
 });

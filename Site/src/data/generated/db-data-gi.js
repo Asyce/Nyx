@@ -5551,7 +5551,9 @@
           "id": "gi-item-106",
           "name": "Original Resin",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_106.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Challenge Result Item"
@@ -5936,12 +5938,14 @@
           "id": "gi-item-142",
           "name": "Stratagem Shard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Virtual"
           },
-          "text": "A crystal that contains a deep and subtle power. Much like Cor Lapis, it has a pure Geo-gold hue. Its power can be activated to some extent within this space under The Chasm, thus helping to defeat monsters.\nThis can be used in the \"Realms of Guile and War\" of \"Perilous Trails\" to draw Stratagems or allow characters who have fallen to take to the field once again."
+          "text": "A crystal that contains a deep and subtle power. Much like Cor Lapis, it has a pure Geo-gold hue. Its power can be activated to some extent within this space under The Chasm, thus helping to defeat monsters.\nThis can be used in the \"Realms of Guile and War\" of \"Perilous Trails\" to draw Stratagems or allow characters who have fallen to take to the field once again.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-143",
@@ -5980,12 +5984,14 @@
           "id": "gi-item-146",
           "name": "Player EXP",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Virtual"
           },
-          "text": "Obtained by winning Genius Invokation TCG matches. Every duel you won builds upon the paths to victory, such is the act of earning experience itself. To know how to overcome and subdue the adversary in any situation is the greatest strength that a player can possess."
+          "text": "Obtained by winning Genius Invokation TCG matches. Every duel you won builds upon the paths to victory, such is the act of earning experience itself. To know how to overcome and subdue the adversary in any situation is the greatest strength that a player can possess.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-147",
@@ -6354,7 +6360,9 @@
           "id": "gi-item-182",
           "name": "Smiley Snacks",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_182.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Virtual"
@@ -6376,7 +6384,9 @@
           "id": "gi-item-184",
           "name": "Action Points",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_184.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "Unknown",
             "type": "Item Virtual"
@@ -6387,7 +6397,9 @@
           "id": "gi-item-185",
           "name": "Speculative Records",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_185.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Virtual"
@@ -6398,7 +6410,9 @@
           "id": "gi-item-186",
           "name": "Sunspray Spirit",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_186.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Virtual"
@@ -6409,7 +6423,9 @@
           "id": "gi-item-187",
           "name": "Legion Morale",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_187.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Virtual"
@@ -6420,7 +6436,9 @@
           "id": "gi-item-188",
           "name": "Prep Progress",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_188.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Virtual"
@@ -6453,7 +6471,9 @@
           "id": "gi-item-191",
           "name": "Windscape Splendor",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_191.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Virtual"
@@ -6464,18 +6484,22 @@
           "id": "gi-item-192",
           "name": "Sightseeing Experience",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Virtual"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-193",
           "name": "Treasured Insights",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_193.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Virtual"
@@ -6651,7 +6675,9 @@
           "id": "gi-item-231",
           "name": "Chronal Nexus",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_231.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Item Virtual"
@@ -6662,7 +6688,9 @@
           "id": "gi-item-232",
           "name": "Arcane Keystone",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_232.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Item Virtual"
@@ -6673,7 +6701,9 @@
           "id": "gi-item-233",
           "name": "Geode of Replication",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_233.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Virtual"
@@ -6684,7 +6714,9 @@
           "id": "gi-item-234",
           "name": "Engraved Shard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_234.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Virtual"
@@ -6695,7 +6727,9 @@
           "id": "gi-item-235",
           "name": "Festive Key",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_235.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Virtual"
@@ -6706,7 +6740,9 @@
           "id": "gi-item-236",
           "name": "Luminous Keystone",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_236.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Item Virtual"
@@ -6717,7 +6753,9 @@
           "id": "gi-item-238",
           "name": "Wonderland EXP",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_238.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Wonderland EXP"
@@ -6728,7 +6766,9 @@
           "id": "gi-item-239",
           "name": "Chronicle EXP",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_239.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Material"
@@ -6739,12 +6779,14 @@
           "id": "gi-item-240",
           "name": "Chronicles of the Realms",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Feature Activation Material"
           },
-          "text": "Use this item to unlock Chronicles of the Realms for a single period."
+          "text": "Use this item to unlock Chronicles of the Realms for a single period.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-241",
@@ -6860,7 +6902,9 @@
           "id": "gi-item-308",
           "name": "Luna Sigil",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_308.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Sigil"
@@ -9038,397 +9082,469 @@
           "id": "gi-item-2001",
           "name": "Energy Orb (Pyro)",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Item Material"
           },
-          "text": "Energy Orb (Pyro)"
+          "text": "Energy Orb (Pyro)",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-2002",
           "name": "Energy Orb (Hydro)",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Item Material"
           },
-          "text": "Energy Orb (Hydro)"
+          "text": "Energy Orb (Hydro)",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-2003",
           "name": "Energy Orb (Dendro)",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Item Material"
           },
-          "text": "Energy Orb (Dendro)"
+          "text": "Energy Orb (Dendro)",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-2004",
           "name": "Energy Orb (Electro)",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Item Material"
           },
-          "text": "Energy Orb (Electro)"
+          "text": "Energy Orb (Electro)",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-2005",
           "name": "Energy Orb (Anemo)",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Item Material"
           },
-          "text": "Energy Orb (Anemo)"
+          "text": "Energy Orb (Anemo)",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-2006",
           "name": "Energy Orb (Cryo)",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Item Material"
           },
-          "text": "Energy Orb (Cryo)"
+          "text": "Energy Orb (Cryo)",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-2007",
           "name": "Energy Orb (Geo)",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Item Material"
           },
-          "text": "Energy Orb (Geo)"
+          "text": "Energy Orb (Geo)",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-2008",
           "name": "Energy Orb (Any)",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Item Material"
           },
-          "text": "Energy Orb (Any)"
+          "text": "Energy Orb (Any)",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-2017",
           "name": "Atomic Energy Orb (Pyro)",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Item Material"
           },
-          "text": "Atomic Energy Orb (Pyro)"
+          "text": "Atomic Energy Orb (Pyro)",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-2018",
           "name": "Atomic Energy Orb (Hydro)",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Item Material"
           },
-          "text": "Atomic Energy Orb (Hydro)"
+          "text": "Atomic Energy Orb (Hydro)",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-2019",
           "name": "Atomic Energy Orb (Dendro)",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Item Material"
           },
-          "text": "Atomic Energy Orb (Dendro)"
+          "text": "Atomic Energy Orb (Dendro)",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-2020",
           "name": "Atomic Energy Orb (Electro)",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Item Material"
           },
-          "text": "Atomic Energy Orb (Electro)"
+          "text": "Atomic Energy Orb (Electro)",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-2021",
           "name": "Atomic Energy Orb (Anemo)",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Item Material"
           },
-          "text": "Atomic Energy Orb (Anemo)"
+          "text": "Atomic Energy Orb (Anemo)",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-2022",
           "name": "Atomic Energy Orb (Cryo)",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Item Material"
           },
-          "text": "Atomic Energy Orb (Cryo)"
+          "text": "Atomic Energy Orb (Cryo)",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-2023",
           "name": "Atomic Energy Orb (Geo)",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Item Material"
           },
-          "text": "Atomic Energy Orb (Geo)"
+          "text": "Atomic Energy Orb (Geo)",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-2024",
           "name": "Atomic Energy Orb (All)",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Item Material"
           },
-          "text": "Atomic Energy Orb (All)"
+          "text": "Atomic Energy Orb (All)",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-2025",
           "name": "Quest Use - Overpowered Atomic Energy Orb (All)",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Item Material"
           },
-          "text": "Energy Orb (Any)"
+          "text": "Energy Orb (Any)",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-2026",
           "name": "Time Shard (Minigame item)",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Item Material"
           },
-          "text": "Mysterious time shards that increase the time you can stay in the Fog Maze."
+          "text": "Mysterious time shards that increase the time you can stay in the Fog Maze.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-2027",
           "name": "Time Shard (Minigame item)",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Item Material"
           },
-          "text": "Mysterious time shards that increase the time you can stay in the Fog Maze."
+          "text": "Mysterious time shards that increase the time you can stay in the Fog Maze.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-2028",
           "name": "Quest Use - Atomic Energy Orb Pouch",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Item Material"
           },
-          "text": "Energy Orb (Any)"
+          "text": "Energy Orb (Any)",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-2029",
           "name": "Quest Use - Atomic Energy Orb Pouch",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Item Material"
           },
-          "text": "Energy Orb (Any)"
+          "text": "Energy Orb (Any)",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-2030",
           "name": "Phlogiston Energy Orb",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Item Material"
           },
-          "text": "Phlogiston Energy Orb"
+          "text": "Phlogiston Energy Orb",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-2031",
           "name": "Phlogiston Energy Orb (Separate Drop)",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Item Material"
           },
-          "text": "Phlogiston Energy Orb"
+          "text": "Phlogiston Energy Orb",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-2032",
           "name": "Phlogiston Energy Orb (Close-Range)",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Item Material"
           },
-          "text": "Phlogiston Energy Orb"
+          "text": "Phlogiston Energy Orb",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-2033",
           "name": "Magnetic Energy Orb",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Item Material"
           },
-          "text": "Magnetic Energy Orb"
+          "text": "Magnetic Energy Orb",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-2034",
           "name": "Large Magnetic Energy Orb",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Item Material"
           },
-          "text": "Large Magnetic Energy Orb"
+          "text": "Large Magnetic Energy Orb",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-3003",
           "name": "Character Card Draw",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Chest"
           },
-          "text": "Receive one random Character Card"
+          "text": "Receive one random Character Card",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-3004",
           "name": "Kamisato Ayaka - for CB1",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "Get Lv.15 Kamisato Ayaka"
+          "text": "Get Lv.15 Kamisato Ayaka",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-3005",
           "name": "Xiangling - for CB1",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "Get Lv.15 Xiangling"
+          "text": "Get Lv.15 Xiangling",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-3006",
           "name": "Jean - for CB1",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "Get Lv.15 Jean"
+          "text": "Get Lv.15 Jean",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-3007",
           "name": "Diluc - for CB1",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "Get Lv.15 Diluc"
+          "text": "Get Lv.15 Diluc",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-3008",
           "name": "Venti - for CB1",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "Get Lv.15 Venti"
+          "text": "Get Lv.15 Venti",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-3018",
           "name": "Barbara - for CB1",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "Get Lv.15 Barbara"
+          "text": "Get Lv.15 Barbara",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-3019",
           "name": "Razor - for CB1",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "Get Lv.15 Razor"
+          "text": "Get Lv.15 Razor",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-3021",
           "name": "Kaeya",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "An accomplished swordsman and a strategic thinker in the Knights of Favonius, rumored to hail from beyond Mondstadt."
+          "text": "An accomplished swordsman and a strategic thinker in the Knights of Favonius, rumored to hail from beyond Mondstadt.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-3022",
           "name": "Lisa",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
           },
-          "text": "The languid but knowledgeable Librarian of the Knights of Favonius, deemed by Sumeru Akademiya to be their most distinguished graduate in the past two centuries."
+          "text": "The languid but knowledgeable Librarian of the Knights of Favonius, deemed by Sumeru Akademiya to be their most distinguished graduate in the past two centuries.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-4100",
@@ -9654,7 +9770,9 @@
           "id": "gi-item-4122",
           "name": "Nefer",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_AvatarIcon_Nefer_Card.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
@@ -9665,7 +9783,9 @@
           "id": "gi-item-4123",
           "name": "Durin",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_AvatarIcon_Durin_Card.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
@@ -9676,7 +9796,9 @@
           "id": "gi-item-4124",
           "name": "Jahoda",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_AvatarIcon_Jahoda_Card.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
@@ -9687,7 +9809,9 @@
           "id": "gi-item-4125",
           "name": "Columbina",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_AvatarIcon_Columbina_Card.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
@@ -9698,7 +9822,9 @@
           "id": "gi-item-4126",
           "name": "Zibai",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_AvatarIcon_Zibai_Card.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
@@ -9709,7 +9835,9 @@
           "id": "gi-item-4127",
           "name": "Illuga",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_AvatarIcon_Illuga_Card.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Unlocks the associated character"
@@ -9720,7 +9848,9 @@
           "id": "gi-item-4128",
           "name": "Varka",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_AvatarIcon_Varka_Card.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Unlocks the associated character"
@@ -11469,67 +11599,79 @@
           "id": "gi-item-100004",
           "name": "Stolen Items",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": "Items belonging to the people of Mondstadt that were previously stolen by hilichurls in Drunkard Gorge."
+          "text": "Items belonging to the people of Mondstadt that were previously stolen by hilichurls in Drunkard Gorge.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-100006",
           "name": "Hilichurl Antidote",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": "Made by hilichurl witch doctors. Cures hilichurl poison."
+          "text": "Made by hilichurl witch doctors. Cures hilichurl poison.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-100007",
           "name": "Climbing Finish Line Garland",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": "Marker indicating the finish line of the Climbing Competition."
+          "text": "Marker indicating the finish line of the Climbing Competition.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-100008",
           "name": "Gliding Finish Line Garland",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": "Marker indicating the finish line of the Gliding Competition."
+          "text": "Marker indicating the finish line of the Gliding Competition.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-100009",
           "name": "Gliding Finish Line Garland",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": "Marker indicating the finish line of the Gliding Competition finals."
+          "text": "Marker indicating the finish line of the Gliding Competition finals.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-100010",
           "name": "Gliding Champion Cup",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": "Awarded to the Mondstadt Gliding Competition Champion."
+          "text": "Awarded to the Mondstadt Gliding Competition Champion.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-100011",
@@ -12261,12 +12403,14 @@
           "id": "gi-item-100102",
           "name": "Extreme Escape",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": "Musk's Travel Journal. In the notes regarding Musk Reef is a line that reads: \"Only on a morning sea breeze can one glide here from Lover's Cape...\""
+          "text": "Musk's Travel Journal. In the notes regarding Musk Reef is a line that reads: \"Only on a morning sea breeze can one glide here from Lover's Cape...\"",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-100103",
@@ -12338,12 +12482,14 @@
           "id": "gi-item-100109",
           "name": "Barbara's Treatment",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": "Lisa has asked you to give this to Barbara."
+          "text": "Lisa has asked you to give this to Barbara.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-100110",
@@ -12393,23 +12539,27 @@
           "id": "gi-item-100114",
           "name": "Form Restoration Potion",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": "Can restore those that have been transformed into hilichurls by Abyss Mages back to their human form."
+          "text": "Can restore those that have been transformed into hilichurls by Abyss Mages back to their human form.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-100115",
           "name": "Holy Lyre der Himmel",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": "Can be used for taking down Stormterror."
+          "text": "Can be used for taking down Stormterror.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-100120",
@@ -12492,45 +12642,53 @@
           "id": "gi-item-100131",
           "name": "Random Loot (A)",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": "Items worth little value stolen from some random passer-by. Better return them quickly."
+          "text": "Items worth little value stolen from some random passer-by. Better return them quickly.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-100132",
           "name": "Random Loot (B)",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": "Items worth little value stolen from some random passer-by. Better return them quickly."
+          "text": "Items worth little value stolen from some random passer-by. Better return them quickly.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-100133",
           "name": "Random Loot (A)",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": "Items worth little value stolen from some random passer-by. Better return them quickly."
+          "text": "Items worth little value stolen from some random passer-by. Better return them quickly.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-100134",
           "name": "Random Loot (B)",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": "Items worth little value stolen from some random passer-by. Better return them quickly."
+          "text": "Items worth little value stolen from some random passer-by. Better return them quickly.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-100135",
@@ -12547,133 +12705,157 @@
           "id": "gi-item-100136",
           "name": "Seal Clue 101",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": "Seal Clue"
+          "text": "Seal Clue",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-100137",
           "name": "Seal Clue 102",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": "Seal Clue"
+          "text": "Seal Clue",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-100138",
           "name": "Seal Clue 103",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": "Seal Clue"
+          "text": "Seal Clue",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-100139",
           "name": "Seal Clue 201",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": "Seal Clue"
+          "text": "Seal Clue",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-100140",
           "name": "Seal Clue 202",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": "Seal Clue"
+          "text": "Seal Clue",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-100141",
           "name": "Seal Clue 203",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": "Seal Clue"
+          "text": "Seal Clue",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-100142",
           "name": "Seal Clue 301",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": "Seal Clue"
+          "text": "Seal Clue",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-100143",
           "name": "Seal Clue 302",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": "Seal Clue"
+          "text": "Seal Clue",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-100144",
           "name": "Seal Clue 303",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": "Seal Clue"
+          "text": "Seal Clue",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-100145",
           "name": "Break Seal 1",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": "Break Seal"
+          "text": "Break Seal",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-100146",
           "name": "Break Seal 2",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": "Break Seal"
+          "text": "Break Seal",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-100147",
           "name": "Break Seal 3",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": "Break Seal"
+          "text": "Break Seal",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-100148",
@@ -12690,12 +12872,14 @@
           "id": "gi-item-100149",
           "name": "Break the seal of Stormterror's Lair",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": "Seal of Stormterror's Lair"
+          "text": "Seal of Stormterror's Lair",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-100151",
@@ -13251,34 +13435,40 @@
           "id": "gi-item-100210",
           "name": "Elemental Mark",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": "Overly Clean Cut"
+          "text": "Overly Clean Cut",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-100211",
           "name": "Broken-off Branch",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": "Seems it's been rotten for a long time."
+          "text": "Seems it's been rotten for a long time.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-100212",
           "name": "Fabric Piece",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": "Wonder who left it behind?"
+          "text": "Wonder who left it behind?",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-100213",
@@ -13482,23 +13672,27 @@
           "id": "gi-item-100231",
           "name": "Scattered Page",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": "(TEST) Adventure Journal Page"
+          "text": "(TEST) Adventure Journal Page",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-100232",
           "name": "Intact Tome",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": "(TEST) Adventure Journal"
+          "text": "(TEST) Adventure Journal",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-100233",
@@ -13658,45 +13852,53 @@
           "id": "gi-item-100247",
           "name": "Fischl Dictionary: Die Neuauflage der Prinzessin",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-100248",
           "name": "The Origins of the Experiment",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-100249",
           "name": "Notes on the Experimental Subjects",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-100250",
           "name": "Scribbled Notes",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-100301",
@@ -22843,12 +23045,14 @@
           "id": "gi-item-101590",
           "name": "Scrawled Treasure Map",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": "This is an awful specimen of a treasure map. Its lines are random and its grids scrawled. You could probably sell this for a significant amount of Mora by claiming that it is the work of some stream-of-consciousness artist, though."
+          "text": "This is an awful specimen of a treasure map. Its lines are random and its grids scrawled. You could probably sell this for a significant amount of Mora by claiming that it is the work of some stream-of-consciousness artist, though.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-101591",
@@ -26957,188 +27161,222 @@
           "id": "gi-item-101999",
           "name": "Employer's Orders",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-102001",
           "name": "Pyro Shard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Consumable"
           },
-          "text": "A shard that broke off a larger Pyro Crystal. Gives 50 Pyro Energy when absorbed."
+          "text": "A shard that broke off a larger Pyro Crystal. Gives 50 Pyro Energy when absorbed.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-102002",
           "name": "Hydro Shard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Consumable"
           },
-          "text": "A shard that broke off a larger Hydro Crystal. Gives 50 Hydro Energy when absorbed."
+          "text": "A shard that broke off a larger Hydro Crystal. Gives 50 Hydro Energy when absorbed.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-102003",
           "name": "Dendro Shard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Consumable"
           },
-          "text": "A shard that broke off a larger Dendro Crystal. Gives 50 Dendro Energy when absorbed."
+          "text": "A shard that broke off a larger Dendro Crystal. Gives 50 Dendro Energy when absorbed.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-102004",
           "name": "Electro Shard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Consumable"
           },
-          "text": "A shard that broke off a larger Electro Crystal. Gives 50 Electro Energy when absorbed."
+          "text": "A shard that broke off a larger Electro Crystal. Gives 50 Electro Energy when absorbed.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-102005",
           "name": "Anemo Shard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Consumable"
           },
-          "text": "A shard that broke off a larger Anemo Crystal. Gives 50 Anemo Energy when absorbed."
+          "text": "A shard that broke off a larger Anemo Crystal. Gives 50 Anemo Energy when absorbed.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-102006",
           "name": "Cryo Shard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Consumable"
           },
-          "text": "A shard that broke off a larger Cryo Crystal. Gives 50 Cryo Energy when absorbed."
+          "text": "A shard that broke off a larger Cryo Crystal. Gives 50 Cryo Energy when absorbed.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-102007",
           "name": "Geo Shard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Consumable"
           },
-          "text": "A shard that broke off a larger Geo Crystal. Gives 50 Geo Energy when absorbed."
+          "text": "A shard that broke off a larger Geo Crystal. Gives 50 Geo Energy when absorbed.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-102008",
           "name": "Primordial Elemental Shard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Consumable"
           },
-          "text": "A shard that broke off a larger Elemental Crystal. Gives 50 Elemental Energy when absorbed."
+          "text": "A shard that broke off a larger Elemental Crystal. Gives 50 Elemental Energy when absorbed.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-103001",
           "name": "Pyro Jikaka",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Consumable"
           },
-          "text": "A fruit taken from a Pyro Jikaka tree. Gives 30 Pyro Energy when eaten."
+          "text": "A fruit taken from a Pyro Jikaka tree. Gives 30 Pyro Energy when eaten.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-103002",
           "name": "Hydro Jikaka",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Consumable"
           },
-          "text": "A fruit taken from the Hydro Jikaka tree. Gives 30 Hydro Energy when eaten."
+          "text": "A fruit taken from the Hydro Jikaka tree. Gives 30 Hydro Energy when eaten.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-103003",
           "name": "Dendro Jikaka",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Consumable"
           },
-          "text": "A fruit taken from the Dendro Jikaka tree. Gives 30 Dendro Energy when eaten."
+          "text": "A fruit taken from the Dendro Jikaka tree. Gives 30 Dendro Energy when eaten.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-103004",
           "name": "Electro Jikaka",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Consumable"
           },
-          "text": "A fruit taken from the Electro Jikaka tree. Gives 30 Electro Energy when eaten."
+          "text": "A fruit taken from the Electro Jikaka tree. Gives 30 Electro Energy when eaten.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-103005",
           "name": "Anemo Jikaka",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Consumable"
           },
-          "text": "A fruit taken from the Anemo Jikaka tree. Gives 30 Anemo Energy when eaten."
+          "text": "A fruit taken from the Anemo Jikaka tree. Gives 30 Anemo Energy when eaten.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-103006",
           "name": "Cryo Jikaka",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Consumable"
           },
-          "text": "A fruit taken from the Cryo Jikaka tree. Gives 30 Cryo Energy when eaten."
+          "text": "A fruit taken from the Cryo Jikaka tree. Gives 30 Cryo Energy when eaten.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-103007",
           "name": "Geo Jikaka",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Consumable"
           },
-          "text": "A fruit taken from the Geo Jikaka tree. Gives 30 Geo Energy when eaten."
+          "text": "A fruit taken from the Geo Jikaka tree. Gives 30 Geo Energy when eaten.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-103008",
           "name": "Standard Jikaka",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Consumable"
           },
-          "text": "A fruit taken from a Standard Jikaka tree. Gives 30 Elemental Energy when eaten."
+          "text": "A fruit taken from a Standard Jikaka tree. Gives 30 Elemental Energy when eaten.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-104001",
@@ -27573,7 +27811,9 @@
           "id": "gi-item-104300",
           "name": "Masterless Stella Fortuna",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104300.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Consumable"
@@ -28343,7 +28583,9 @@
           "id": "gi-item-105006",
           "name": "Dust of Enlightenment",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_TrainingIteration.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Consumable"
@@ -28552,34 +28794,40 @@
           "id": "gi-item-107019",
           "name": "Blank Dynamic Card",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Consumables"
           },
-          "text": "A blank card with a painted back. It is said that if you put the name of your desired dynamic card on this blank card, you can get the very skin from the Association agent located at the tavern."
+          "text": "A blank card with a painted back. It is said that if you put the name of your desired dynamic card on this blank card, you can get the very skin from the Association agent located at the tavern.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-107020",
           "name": "Match Invitation Letter",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Consumables"
           },
-          "text": "You can select a player from the Player List via the invitation board, and then entrust The Cat's Tail to send out an invitation using this Invitation Letter. The invited player will head over to the tavern and wait for a duel with you."
+          "text": "You can select a player from the Player List via the invitation board, and then entrust The Cat's Tail to send out an invitation using this Invitation Letter. The invited player will head over to the tavern and wait for a duel with you.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-107021",
           "name": "Lucky Coin",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Consumables"
           },
-          "text": "Currency verified and used by the Genius Invokation TCG Society. Can be used to purchase various items related to Genius Invokation TCG. It is said that these coins were initially named as such in the hopes that they would bring those carrying them luck. However, perhaps it is those who are sufficiently lucky who are able to possess them..."
+          "text": "Currency verified and used by the Genius Invokation TCG Society. Can be used to purchase various items related to Genius Invokation TCG. It is said that these coins were initially named as such in the hopes that they would bring those carrying them luck. However, perhaps it is those who are sufficiently lucky who are able to possess them...",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-107022",
@@ -28607,12 +28855,14 @@
           "id": "gi-item-107024",
           "name": "Voucher Box",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Adventure Item"
           },
-          "text": "Box that contains Joyeux Vouchers. They have a unique flower-like shape and can only be found in the Veluriyam Mirage. They are also important collectibles for guests who wish to win rewards. Using the Flowing Joyspar and Felicitous Joyspar seems to allow one to more effectively find them..."
+          "text": "Box that contains Joyeux Vouchers. They have a unique flower-like shape and can only be found in the Veluriyam Mirage. They are also important collectibles for guests who wish to win rewards. Using the Flowing Joyspar and Felicitous Joyspar seems to allow one to more effectively find them...",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-107025",
@@ -28662,12 +28912,14 @@
           "id": "gi-item-107029",
           "name": "Jubilant Feather",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Adventure Item"
           },
-          "text": "Like a mystical gem crystallized from peals of joyous laughter, it appears as two pages intertwined, or perhaps a feather flying freely. After being touched, \"Excerpts of Bliss\" can be retrieved from it...\nIt seems that their locations can be quickly ascertained using Jocund or Joyous Letters..."
+          "text": "Like a mystical gem crystallized from peals of joyous laughter, it appears as two pages intertwined, or perhaps a feather flying freely. After being touched, \"Excerpts of Bliss\" can be retrieved from it...\nIt seems that their locations can be quickly ascertained using Jocund or Joyous Letters...",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-107030",
@@ -28706,12 +28958,14 @@
           "id": "gi-item-107033",
           "name": "Mnemonic Cluster",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Adventure Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-107034",
@@ -28728,12 +28982,14 @@
           "id": "gi-item-108000",
           "name": "Dish",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Item Material"
           },
-          "text": "Items created by cooking"
+          "text": "Items created by cooking",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-108001",
@@ -42379,12 +42635,14 @@
           "id": "gi-item-110000",
           "name": "Crafted Items",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Cooking Ingredient"
           },
-          "text": "Items produced through the Crafting System."
+          "text": "Items produced through the Crafting System.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-110001",
@@ -46416,12 +46674,14 @@
           "id": "gi-item-115012",
           "name": "Traveler's Supply Bundle",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "Supplies the Guild has prepared for those with lofty ideals. Not one of them is to be missed."
+          "text": "Supplies the Guild has prepared for those with lofty ideals. Not one of them is to be missed.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-115013",
@@ -46438,23 +46698,27 @@
           "id": "gi-item-115014",
           "name": "Character Ascension Bundle (High)",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-115015",
           "name": "Character Ascension Bundle (Very High)",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Item Material"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-115016",
@@ -46482,12 +46746,14 @@
           "id": "gi-item-115018",
           "name": "Talent Materials Bundle (High)",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-115019",
@@ -46570,23 +46836,27 @@
           "id": "gi-item-115026",
           "name": "Weapon Ascension Bundle (High)",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-115027",
           "name": "Weapon Ascension Bundle (Very High)",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Item Material"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-115028",
@@ -46768,7 +47038,9 @@
           "id": "gi-item-115046",
           "name": "Masked Ball Invitation Letter",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_115046.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Material"
@@ -52158,89 +52430,105 @@
           "id": "gi-item-120477",
           "name": "Ancient Log",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-120478",
           "name": "Ancient Log",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-120479",
           "name": "Ancient Log",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-120480",
           "name": "Ancient Log",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-120481",
           "name": "Ancient Log",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-120483",
           "name": "Ancient Investigative Report",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-120484",
           "name": "Ancient Natural History Excerpts",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-120485",
           "name": "Ancient Notes",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-120486",
@@ -52741,12 +53029,14 @@
           "id": "gi-item-120532",
           "name": "Damaged Diary",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": "Damaged Diary"
+          "text": "Damaged Diary",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-120536",
@@ -53291,12 +53581,14 @@
           "id": "gi-item-120592",
           "name": "A Story",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-120593",
@@ -56646,45 +56938,53 @@
           "id": "gi-item-120961",
           "name": "Phlogiston Energy Orb for Gathering",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Gathers Phlogiston"
           },
-          "text": "Phlogiston Energy Orb"
+          "text": "Phlogiston Energy Orb",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-120962",
           "name": "Boundary Marker Inscription",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-120963",
           "name": "Boundary Marker Inscription",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-120964",
           "name": "Boundary Marker Inscription",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-120965",
@@ -57570,12 +57870,14 @@
           "id": "gi-item-121057",
           "name": "Golden Entreaty",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121058",
@@ -58857,23 +59159,27 @@
           "id": "gi-item-121186",
           "name": "Leaderboard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121187",
           "name": "Leaderboard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121188",
@@ -58923,51 +59229,61 @@
           "id": "gi-item-121192",
           "name": "\"Phlogiston Converter\" Experimental Report",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121193",
           "name": "Researcher's Notes",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121194",
           "name": "Unsigned Letter",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121195",
           "name": "Letter for Anna",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121196",
           "name": "Fusion Profusion: DJ Remix Selections",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121196.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Quest Item"
@@ -58978,12 +59294,14 @@
           "id": "gi-item-121197",
           "name": "Photography Records",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121198",
@@ -59099,12 +59417,14 @@
           "id": "gi-item-121208",
           "name": "The Book of Five Springs",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121209",
@@ -59132,194 +59452,230 @@
           "id": "gi-item-121211",
           "name": "Hazard Warning",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121212",
           "name": "Records Regarding \"Creating the Secret Source Servants...\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121213",
           "name": "Records Regarding \"Humans... and Exceptional Individuals Thereof\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121214",
           "name": "Records Regarding \"Corrosion and Physical Conditions\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121215",
           "name": "Records Regarding \"Items That Should Perhaps Be Deleted...\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121216",
           "name": "Iridescent Legacy: Part I",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121217",
           "name": "Iridescent Legacy: Part II",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121218",
           "name": "Iridescent Legacy: Part III",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121219",
           "name": "Iridescent Legacy: Part IV",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121220",
           "name": "Chamber of Deliberation: Sovereign Rulers' Council Records",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121221",
           "name": "Chamber of Deliberation: Sovereign Rulers' Council Records",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121222",
           "name": "Chamber of Deliberation: Sovereign Rulers' Council Records",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121223",
           "name": "Secret Source Dragon Idol Workshop Engraving",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121224",
           "name": "Nest Experiment Log",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121225",
           "name": "Record Left by the \"Flamestealer\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121226",
           "name": "Damaged Letter",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121227",
           "name": "Damaged Bounty",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121228",
           "name": "Chevalmarin Amusement Park Commemorative Map",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121228.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Quest Item"
@@ -59330,7 +59686,9 @@
           "id": "gi-item-121229",
           "name": "Chevalmarin Amusement Park Commemorative Map",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121228.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Quest Item"
@@ -59341,7 +59699,9 @@
           "id": "gi-item-121230",
           "name": "Chevalmarin Amusement Park Commemorative Map",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121228.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Quest Item"
@@ -59385,7 +59745,9 @@
           "id": "gi-item-121234",
           "name": "Wonderland Cosmosphere",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121234.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Quest Item"
@@ -59407,7 +59769,9 @@
           "id": "gi-item-121236",
           "name": "Chevalmarin Amusement Park Commemorative Map",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121228.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Quest Item"
@@ -59418,7 +59782,9 @@
           "id": "gi-item-121237",
           "name": "Chevalmarin Amusement Park Commemorative Map",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121228.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Quest Item"
@@ -59429,7 +59795,9 @@
           "id": "gi-item-121238",
           "name": "Chevalmarin Amusement Park Commemorative Map",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121228.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Quest Item"
@@ -59451,7 +59819,9 @@
           "id": "gi-item-121241",
           "name": "Rantiy's Hat",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121241.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
@@ -59473,7 +59843,9 @@
           "id": "gi-item-121243",
           "name": "Key to the \"Hibernation Chamber\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121243.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Quest Item"
@@ -59583,7 +59955,9 @@
           "id": "gi-item-121254",
           "name": "Invitation Letter For a Ball Now Past",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_115046.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Quest Item"
@@ -59594,7 +59968,9 @@
           "id": "gi-item-121255",
           "name": "Dream-Mirror Remnant",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121255.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Quest Item"
@@ -59605,7 +59981,9 @@
           "id": "gi-item-121256",
           "name": "Training Review",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121256.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Consumable"
@@ -59627,7 +60005,9 @@
           "id": "gi-item-121258",
           "name": "Gift Egg Gifted by Capybara King",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121264.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "2 \u2605",
             "type": "Consumable"
@@ -59638,7 +60018,9 @@
           "id": "gi-item-121259",
           "name": "Gift Egg Gifted by Cacasha",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121263.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "2 \u2605",
             "type": "Consumable"
@@ -59649,7 +60031,9 @@
           "id": "gi-item-121260",
           "name": "Gift Egg: Blood of This Land",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121260.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "1 \u2605",
             "type": "Consumable"
@@ -59660,7 +60044,9 @@
           "id": "gi-item-121261",
           "name": "Gift Egg: Let's Shred, Sharky!",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121261.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "1 \u2605",
             "type": "Consumable"
@@ -59671,7 +60057,9 @@
           "id": "gi-item-121262",
           "name": "Gift Egg: Bow Before Your King!",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121262.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "1 \u2605",
             "type": "Consumable"
@@ -59682,7 +60070,9 @@
           "id": "gi-item-121263",
           "name": "Gift Egg: Light of the Blazing Sun",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121263.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "1 \u2605",
             "type": "Consumable"
@@ -59693,7 +60083,9 @@
           "id": "gi-item-121264",
           "name": "Gift Egg: Where the Drinks Keep Flowing",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121264.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "1 \u2605",
             "type": "Consumable"
@@ -59704,7 +60096,9 @@
           "id": "gi-item-121265",
           "name": "Gift Egg: Fietena",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121265.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "1 \u2605",
             "type": "Consumable"
@@ -59715,7 +60109,9 @@
           "id": "gi-item-121266",
           "name": "Easybreeze Holiday Resort Invitation",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121266.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
@@ -59726,7 +60122,9 @@
           "id": "gi-item-121267",
           "name": "\"Sun\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121267.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Quest Item"
@@ -59737,7 +60135,9 @@
           "id": "gi-item-121268",
           "name": "Miniature \"Sun\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121268.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Quest Item"
@@ -59759,7 +60159,9 @@
           "id": "gi-item-121270",
           "name": "Teyvat Commemorative Album",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121270.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Quest Item"
@@ -59770,7 +60172,9 @@
           "id": "gi-item-121271",
           "name": "Keepsake Photo With Yelan",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121271.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Quest Item"
@@ -59781,7 +60185,9 @@
           "id": "gi-item-121272",
           "name": "Training Review (Read)",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121256.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Quest Item"
@@ -59792,7 +60198,9 @@
           "id": "gi-item-121276",
           "name": "Deciphered Message",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121256.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
@@ -59803,7 +60211,9 @@
           "id": "gi-item-121279",
           "name": "Krumkake Bolt",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121279.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Consumable"
@@ -59891,7 +60301,9 @@
           "id": "gi-item-121287",
           "name": "Pipilpan Idol Competition Brochure",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121287.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
@@ -60023,12 +60435,14 @@
           "id": "gi-item-121299",
           "name": "Yellowed Notes",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121300",
@@ -60045,7 +60459,9 @@
           "id": "gi-item-121301",
           "name": "Easybreeze Badge",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121301.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
@@ -60155,7 +60571,9 @@
           "id": "gi-item-121311",
           "name": "Medicine from the Curatorium of Secrets",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121311.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
@@ -60364,7 +60782,9 @@
           "id": "gi-item-121330",
           "name": "Recorded Intel",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121330.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "2 \u2605",
             "type": "Consumable"
@@ -60617,12 +61037,14 @@
           "id": "gi-item-121358",
           "name": "Kuuvahki Experimental Design Bureau Floor Plan",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "2 \u2605",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121359",
@@ -60639,7 +61061,9 @@
           "id": "gi-item-121360",
           "name": "Lever",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121360.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
@@ -60716,7 +61140,9 @@
           "id": "gi-item-121367",
           "name": "Collated Intel",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121367.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Quest Item"
@@ -60804,7 +61230,9 @@
           "id": "gi-item-121375",
           "name": "Way-Opening Key",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121375.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
@@ -60815,7 +61243,9 @@
           "id": "gi-item-121376",
           "name": "Ragged Notes",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121376.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
@@ -60826,7 +61256,9 @@
           "id": "gi-item-121377",
           "name": "Ordered Notes",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121377.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
@@ -61409,34 +61841,40 @@
           "id": "gi-item-121435",
           "name": "Ancient Incantations",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121436",
           "name": "Ancient Incantations",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121437",
           "name": "Ancient Incantations",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121439",
@@ -61475,34 +61913,40 @@
           "id": "gi-item-121447",
           "name": "Lost Notes (IV)",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121448",
           "name": "Lost Notes (II)",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121449",
           "name": "Lost Notes (I)",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121450",
@@ -61607,23 +62051,27 @@
           "id": "gi-item-121460",
           "name": "Lost Notes (III)",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121461",
           "name": "Prospector's Command",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121462",
@@ -61717,45 +62165,53 @@
           "id": "gi-item-121471",
           "name": "Unknown Person's Abandoned Diary",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121472",
           "name": "Neatly-Written Diary (I)",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121473",
           "name": "Neatly-Written Diary (II)",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121474",
           "name": "Neatly-Written Diary (III)",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121475",
@@ -61948,7 +62404,9 @@
           "id": "gi-item-121493",
           "name": "Event Invitation",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121493.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Quest Item"
@@ -61981,106 +62439,126 @@
           "id": "gi-item-121496",
           "name": "Damaged Logs",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121497",
           "name": "Bloodstained Logs",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121498",
           "name": "Messily-Written Notes",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121499",
           "name": "Communications Log",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121500",
           "name": "Communications Log",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121501",
           "name": "Communications Log",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121502",
           "name": "Communications Log",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121503",
           "name": "Terminal Log",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121504",
           "name": "Note Clipped in a Book",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121505",
           "name": "Dodoco's Enchanted Candy",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121505.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Quest Item"
@@ -62091,73 +62569,87 @@
           "id": "gi-item-121506",
           "name": "A Message From the Legendary Thief Reed Miller",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121507",
           "name": "Brahe's Notes (I)",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121508",
           "name": "Brahe's Notes (II)",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121509",
           "name": "Brahe's Notes (III)",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121510",
           "name": "Brahe's Notes (IV)",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121511",
           "name": "Letter Buried in the Time Capsule",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121512",
           "name": "A Brief History of the Pale Starborn",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121512.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Quest Item"
@@ -62168,7 +62660,9 @@
           "id": "gi-item-121513",
           "name": "Night Murmurs From the Far Border: Varcolac",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121513.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Quest Item"
@@ -62179,7 +62673,9 @@
           "id": "gi-item-121514",
           "name": "Tales Carried by the Northwind",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121514.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Quest Item"
@@ -62190,34 +62686,40 @@
           "id": "gi-item-121515",
           "name": "Ancient Handwriting",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121516",
           "name": "Ancient Handwriting",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121517",
           "name": "Ancient Handwriting",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121518",
@@ -62245,7 +62747,9 @@
           "id": "gi-item-121520",
           "name": "Varka's Invitation Ticket",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121520.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "2 \u2605",
             "type": "Quest Item"
@@ -62256,7 +62760,9 @@
           "id": "gi-item-121521",
           "name": "Varka's Invitation Ticket",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121520.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "2 \u2605",
             "type": "Quest Item"
@@ -62300,34 +62806,40 @@
           "id": "gi-item-121525",
           "name": "\"On Fungi Communities\" Draft Manuscript",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121526",
           "name": "Letter From Yae Publishing House",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121527",
           "name": "Letter From The Akademiya",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121528",
@@ -62454,12 +62966,14 @@
           "id": "gi-item-121540",
           "name": "A Stack of Paper",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": "A Stack of Paper"
+          "text": "A Stack of Paper",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121543",
@@ -62575,23 +63089,27 @@
           "id": "gi-item-121557",
           "name": "Arcadia, the Entombed Capital",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": "Arcadia, the Entombed Capital"
+          "text": "Arcadia, the Entombed Capital",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121558",
           "name": "A Corner of Valivija",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": "A Corner of Valivija"
+          "text": "A Corner of Valivija",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121559",
@@ -62652,18 +63170,22 @@
           "id": "gi-item-121564",
           "name": "Note",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "Unknown",
             "type": "Quest Item"
           },
-          "text": "Note"
+          "text": "Note",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-121565",
           "name": "Photo With the Little Witches and Their Imaginary Friends",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/Ul_Itemlcon_121565.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Quest Item"
@@ -62674,7 +63196,9 @@
           "id": "gi-item-121566",
           "name": "Photo With the Little Witches and Their Imaginary Friends",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/Ul_Itemlcon_121566.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Quest Item"
@@ -62685,7 +63209,9 @@
           "id": "gi-item-121574",
           "name": "Anomalous Tree Marrow I",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121574.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Quest Item"
@@ -62696,7 +63222,9 @@
           "id": "gi-item-121575",
           "name": "Anomalous Tree Marrow II",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121574.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Quest Item"
@@ -62707,7 +63235,9 @@
           "id": "gi-item-121576",
           "name": "Anomalous Tree Marrow III",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121574.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Quest Item"
@@ -62718,7 +63248,9 @@
           "id": "gi-item-121580",
           "name": "Anomalous Tree Marrow",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_121574.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Quest Item"
@@ -62894,7 +63426,9 @@
           "id": "gi-item-129003",
           "name": "Moon-Prayer Blossom From Columbina",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_129003.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Quest Item"
@@ -63972,7 +64506,9 @@
           "id": "gi-item-140001",
           "name": "Wings of First Flight",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_FlycloakIcon_Glider.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -63983,7 +64519,9 @@
           "id": "gi-item-140002",
           "name": "Wings of Companionship",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_FlycloakIcon_Starlit.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -63994,7 +64532,9 @@
           "id": "gi-item-140003",
           "name": "Wings of Descension",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_FlycloakIcon_Psalmus.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -64005,7 +64545,9 @@
           "id": "gi-item-140004",
           "name": "Wings of Azure Wind",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_FlycloakIcon_Gale.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -64016,7 +64558,9 @@
           "id": "gi-item-140005",
           "name": "Wings of Golden Flight",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_FlycloakIcon_Megalith.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -64027,7 +64571,9 @@
           "id": "gi-item-140006",
           "name": "Wings of Concealing Snow",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_FlycloakIcon_Nixavis.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -64038,7 +64584,9 @@
           "id": "gi-item-140007",
           "name": "Wings of Feasting",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_FlycloakIcon_Redcomet.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -64049,7 +64597,9 @@
           "id": "gi-item-140008",
           "name": "Wings of the Stormstrider",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_FlycloakIcon_Thunderclap.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -64060,7 +64610,9 @@
           "id": "gi-item-140009",
           "name": "Wings of Shimmering Galaxy",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_FlycloakIcon_Skald.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -64071,7 +64623,9 @@
           "id": "gi-item-140010",
           "name": "Wings of the Forest",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_FlycloakIcon_Ayus.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -64082,7 +64636,9 @@
           "id": "gi-item-140011",
           "name": "Wings of the Starlit Feast",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_FlycloakIcon_Asterceno.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -64093,7 +64649,9 @@
           "id": "gi-item-140012",
           "name": "Wings of Merciful, Wrathful Waters",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_FlycloakIcon_Iustitia.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -64104,7 +64662,9 @@
           "id": "gi-item-140013",
           "name": "Wings of Transient Dreams",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_FlycloakIcon_Sternlied.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -64115,7 +64675,9 @@
           "id": "gi-item-140014",
           "name": "Wings of Delicacies",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_FlycloakIcon_GrandEntrance.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -64126,7 +64688,9 @@
           "id": "gi-item-140015",
           "name": "Wings of Soaring Flame",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_FlycloakIcon_Firebrand.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -64137,7 +64701,9 @@
           "id": "gi-item-140016",
           "name": "Wings of Fate's Course Intertwined",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_FlycloakIcon_EmeraldFlash.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -64148,7 +64714,9 @@
           "id": "gi-item-140017",
           "name": "Wings of the Silent Moon",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_FlycloakIcon_Nodkrai.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -64159,7 +64727,9 @@
           "id": "gi-item-140018",
           "name": "Wings of Leisurely Moments",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_FlycloakIcon_Bakery.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -68031,7 +68601,9 @@
           "id": "gi-item-210042",
           "name": "Travel Notes: Fading Star",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp2.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -68174,7 +68746,9 @@
           "id": "gi-item-210055",
           "name": "Travel Notes: Chalk",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp3.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -68229,7 +68803,9 @@
           "id": "gi-item-210060",
           "name": "Travel Notes: Mingxiao",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp4.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -68273,7 +68849,9 @@
           "id": "gi-item-210064",
           "name": "Travel Notes: Windblume",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp5.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -68350,7 +68928,9 @@
           "id": "gi-item-210071",
           "name": "Travel Notes: Sub-Space Recreation",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp6.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -68383,7 +68963,9 @@
           "id": "gi-item-210074",
           "name": "Travel Notes: Midsummer",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp7.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -68449,7 +69031,9 @@
           "id": "gi-item-210080",
           "name": "Travel Notes: Grand Narukami Shrine",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp8.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -68625,7 +69209,9 @@
           "id": "gi-item-210096",
           "name": "Travel Notes: Moonchaser",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp9.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -68922,7 +69508,9 @@
           "id": "gi-item-210123",
           "name": "Travel Notes: Azure Main",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp16.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -69549,7 +70137,9 @@
           "id": "gi-item-210180",
           "name": "Furina: Banquet",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Furina.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -69560,7 +70150,9 @@
           "id": "gi-item-210181",
           "name": "Charlotte: Exclusive",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Charlotte.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -69571,7 +70163,9 @@
           "id": "gi-item-210182",
           "name": "Fontaine: Completeness",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_FD3.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -69582,7 +70176,9 @@
           "id": "gi-item-210183",
           "name": "Travel Notes: Whirling Waltz",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp28.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -69593,7 +70189,9 @@
           "id": "gi-item-210184",
           "name": "Navia: Rosula",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Navia.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -69604,7 +70202,9 @@
           "id": "gi-item-210185",
           "name": "Chevreuse: Type II",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Chevreuse.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -69615,7 +70215,9 @@
           "id": "gi-item-210186",
           "name": "Travel Notes: Time Inscribed",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp29.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -69626,7 +70228,9 @@
           "id": "gi-item-210187",
           "name": "Xianyun: White Clouds",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Liuyun.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -69637,7 +70241,9 @@
           "id": "gi-item-210188",
           "name": "Gaming: Man Chai",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Gaming.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -69648,7 +70254,9 @@
           "id": "gi-item-210189",
           "name": "Achievement: Adeptal Valley",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Chenyu1.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -69659,7 +70267,9 @@
           "id": "gi-item-210190",
           "name": "Chenyu: Rainjade Rite",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_OfferingSilong.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -69670,7 +70280,9 @@
           "id": "gi-item-210191",
           "name": "Travel Notes: Vibrant Harriers",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp30.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -69681,7 +70293,9 @@
           "id": "gi-item-210192",
           "name": "Album: The Stellar Moments",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_OST4.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -69692,7 +70306,9 @@
           "id": "gi-item-210193",
           "name": "Chiori: Spectacular Sleeves",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Chiori.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -69703,7 +70319,9 @@
           "id": "gi-item-210194",
           "name": "Travel Notes: Arcane Amassing",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp31.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -69714,7 +70332,9 @@
           "id": "gi-item-210195",
           "name": "Arlecchino: Edict",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Arlecchino.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -69725,7 +70345,9 @@
           "id": "gi-item-210196",
           "name": "Fontaine: Attunement",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Deep.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -69736,7 +70358,9 @@
           "id": "gi-item-210197",
           "name": "Achievement: Whalewrangler",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Tzz9.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -69747,7 +70371,9 @@
           "id": "gi-item-210198",
           "name": "Fontaine: Lucine",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_WishingPond.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -69758,7 +70384,9 @@
           "id": "gi-item-210199",
           "name": "Travel Notes: The Realms Rocked",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_GreatFestivalV2.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -69769,7 +70397,9 @@
           "id": "gi-item-210200",
           "name": "Clorinde: Roleplay",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Clorinde.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -69780,7 +70410,9 @@
           "id": "gi-item-210201",
           "name": "Sigewinne: Treatment",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Sigewinne.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -69791,7 +70423,9 @@
           "id": "gi-item-210202",
           "name": "Sethos: Ba Fragment",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Sethos.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -69802,7 +70436,9 @@
           "id": "gi-item-210203",
           "name": "Achievement: Poetic Pages",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_RoleCombat.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -69813,7 +70449,9 @@
           "id": "gi-item-210204",
           "name": "Travel Notes: Simulnation",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp33.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -69824,7 +70462,9 @@
           "id": "gi-item-210205",
           "name": "Emilie: Base Note",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Emilie.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -69835,7 +70475,9 @@
           "id": "gi-item-210206",
           "name": "Travel Notes: Fanciful Fabrication",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp34.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -69846,7 +70488,9 @@
           "id": "gi-item-210207",
           "name": "Celebration: Feast (II)",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_RedandWhite2.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -69857,7 +70501,9 @@
           "id": "gi-item-210208",
           "name": "Kinich: Ajaw",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Kinich.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -69868,7 +70514,9 @@
           "id": "gi-item-210209",
           "name": "Mualani: Sharky",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Mualani.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -69879,7 +70527,9 @@
           "id": "gi-item-210210",
           "name": "Kachina: Twirly",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Kachina.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -69890,7 +70540,9 @@
           "id": "gi-item-210211",
           "name": "Natlan: Divine Army",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_NatlanSW1.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -69901,7 +70553,9 @@
           "id": "gi-item-210212",
           "name": "Natlan: Fiery Dragon",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_NatlanSW2.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -69912,7 +70566,9 @@
           "id": "gi-item-210213",
           "name": "Achievement: Endpoint",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Ysxf5.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -69923,7 +70579,9 @@
           "id": "gi-item-210214",
           "name": "Achievement: Feline Fortune",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_RoleCombat2.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -69934,7 +70592,9 @@
           "id": "gi-item-210215",
           "name": "Natlan: Return of the Flame",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Natlan1.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -69945,7 +70605,9 @@
           "id": "gi-item-210216",
           "name": "Achievement: Lord of the Night",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Dfcq1.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -69956,7 +70618,9 @@
           "id": "gi-item-210217",
           "name": "Travel Notes: Primal Fire",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp35.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -69967,7 +70631,9 @@
           "id": "gi-item-210218",
           "name": "Celebration: Crispy and Sweet",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Yellow.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -69978,7 +70644,9 @@
           "id": "gi-item-210219",
           "name": "Xilonen: Cue Point",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Xilonen.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -69989,7 +70657,9 @@
           "id": "gi-item-210220",
           "name": "Travel Notes: Sabzeruz",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp36.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70000,7 +70670,9 @@
           "id": "gi-item-210221",
           "name": "Chasca: Fully Loaded",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Chasca.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70022,7 +70694,9 @@
           "id": "gi-item-210223",
           "name": "Natlan: Fleeting Dreams",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Natlan2.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70033,7 +70707,9 @@
           "id": "gi-item-210224",
           "name": "Achievement: Fighting Spirit",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Dfcq2.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70044,7 +70720,9 @@
           "id": "gi-item-210225",
           "name": "Travel Notes: Spiritweaver",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp37.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70055,7 +70733,9 @@
           "id": "gi-item-210226",
           "name": "Mavuika: Sun-Crowned",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Mavuika.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70066,7 +70746,9 @@
           "id": "gi-item-210227",
           "name": "Citlali: Opalstar",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Citlali.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70077,7 +70759,9 @@
           "id": "gi-item-210228",
           "name": "Lan Yan: Silver Swallow",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Lanyan.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70088,7 +70772,9 @@
           "id": "gi-item-210229",
           "name": "Achievement: All-Seeing",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Csxy5.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70099,7 +70785,9 @@
           "id": "gi-item-210230",
           "name": "Achievement: Blaze",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Tzz10.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70110,7 +70798,9 @@
           "id": "gi-item-210231",
           "name": "Achievement: Repertoire",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_MusicGame01.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70121,7 +70811,9 @@
           "id": "gi-item-210232",
           "name": "Travel Notes: The Flame Renewed",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp38.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70132,7 +70824,9 @@
           "id": "gi-item-210233",
           "name": "Yumemizuki Mizuki: Nightmare Devourer",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Mizuki.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70143,7 +70837,9 @@
           "id": "gi-item-210234",
           "name": "Celebration: Scorch",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_TowerChallenge.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70154,7 +70850,9 @@
           "id": "gi-item-210235",
           "name": "Travel Notes: Wondrous Reverie",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp39.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70187,7 +70885,9 @@
           "id": "gi-item-210238",
           "name": "Natlan: Draconic Gaze",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Natlan3.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70198,7 +70898,9 @@
           "id": "gi-item-210239",
           "name": "Achievement: Tranquil Peace",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Dfcq3.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70209,7 +70911,9 @@
           "id": "gi-item-210240",
           "name": "Travel Notes: Blooming Glory",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp40.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70242,7 +70946,9 @@
           "id": "gi-item-210243",
           "name": "Travel Notes: Balletica",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp41.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70253,7 +70959,9 @@
           "id": "gi-item-210244",
           "name": "Skirk: Lone Shadow",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_SkirkNew.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70264,7 +70972,9 @@
           "id": "gi-item-210245",
           "name": "Dahlia: Sacred Duty",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Dahlia.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70275,7 +70985,9 @@
           "id": "gi-item-210246",
           "name": "Celebration: Lavish Gala",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_RedandWhite3.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70286,7 +70998,9 @@
           "id": "gi-item-210247",
           "name": "Travel Notes: Speculation",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp42.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70297,7 +71011,9 @@
           "id": "gi-item-210248",
           "name": "Ineffa: Command",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Ineffa.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70308,7 +71024,9 @@
           "id": "gi-item-210249",
           "name": "Natlan: Wheel of Flame",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_NatlanOffering.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70319,7 +71037,9 @@
           "id": "gi-item-210250",
           "name": "Natlan: Chasing the Wind",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Natlan4.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70330,7 +71050,9 @@
           "id": "gi-item-210251",
           "name": "Travel Notes: Easy Breezy",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp43.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70341,7 +71063,9 @@
           "id": "gi-item-210252",
           "name": "Celebration: Tuna On Rice",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Event58.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70352,7 +71076,9 @@
           "id": "gi-item-210253",
           "name": "Lauma: Branched Antlers",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Lauma.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70363,7 +71089,9 @@
           "id": "gi-item-210254",
           "name": "Flins: Oathkeeper's Lantern",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Flins.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70374,7 +71102,9 @@
           "id": "gi-item-210255",
           "name": "Aino: Whoopsie Ducksie",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Aino.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70385,7 +71115,9 @@
           "id": "gi-item-210256",
           "name": "Nod-Krai: Moonlight",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_NodKraiOffering1.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70396,7 +71128,9 @@
           "id": "gi-item-210257",
           "name": "Nod-Krai: Sacred Realm",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_NodKrai1.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70407,7 +71141,9 @@
           "id": "gi-item-210258",
           "name": "Achievement: Time Apart",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Ysxf6.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70418,7 +71154,9 @@
           "id": "gi-item-210259",
           "name": "Travel Notes: Glacial Moon",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp44.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70429,7 +71167,9 @@
           "id": "gi-item-210260",
           "name": "Celebration: Sublime Flavors",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_YellowV2.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70440,7 +71180,9 @@
           "id": "gi-item-210261",
           "name": "Nefer: Secrets",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Nefer.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70451,7 +71193,9 @@
           "id": "gi-item-210262",
           "name": "Travel Notes: Bygone Ruins",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp45.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70462,7 +71206,9 @@
           "id": "gi-item-210263",
           "name": "Durin: Radiant Heart",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Durin.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70473,7 +71219,9 @@
           "id": "gi-item-210264",
           "name": "Jahoda: Helping Hand",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Jahoda.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70484,7 +71232,9 @@
           "id": "gi-item-210265",
           "name": "Travel Notes: Blazing Snow",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp46.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70495,7 +71245,9 @@
           "id": "gi-item-210266",
           "name": "Celebration: Dream Reader",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Green.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70506,7 +71258,9 @@
           "id": "gi-item-210267",
           "name": "Columbina: Someday",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Columbina.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70517,7 +71271,9 @@
           "id": "gi-item-210268",
           "name": "Zibai: Veiled Vista",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Zibai.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70528,7 +71284,9 @@
           "id": "gi-item-210269",
           "name": "Illuga: Nightmare Songbird",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Illuga.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70539,7 +71297,9 @@
           "id": "gi-item-210270",
           "name": "Achievement: Far-Sighted",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Csxy6.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70550,7 +71310,9 @@
           "id": "gi-item-210271",
           "name": "Nod-Krai: Lantern of Longest Night",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_NodKrai2.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70561,7 +71323,9 @@
           "id": "gi-item-210272",
           "name": "Travel Notes: Lanternlit Ode",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp47.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70572,7 +71336,9 @@
           "id": "gi-item-210273",
           "name": "Varka: Lead Wolf",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Varka.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70583,7 +71349,9 @@
           "id": "gi-item-210274",
           "name": "Travel Notes: Northerly Winds",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp48.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70605,7 +71373,9 @@
           "id": "gi-item-210276",
           "name": "Mondstadt: Watchtower",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Kzsd.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70616,7 +71386,9 @@
           "id": "gi-item-210277",
           "name": "Empty Temple: Overflowing Memories",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_KzsdOffering.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70627,7 +71399,9 @@
           "id": "gi-item-210278",
           "name": "Travel Notes: Homecoming",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp49.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70638,7 +71412,9 @@
           "id": "gi-item-210279",
           "name": "Nicole: Heavenly Stairway",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Nicole.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70649,7 +71425,9 @@
           "id": "gi-item-210280",
           "name": "Lohen: Benevolence",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Lohen.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70660,7 +71438,9 @@
           "id": "gi-item-210281",
           "name": "Prune: Judgment",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Prune.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70671,7 +71451,9 @@
           "id": "gi-item-210283",
           "name": "Travel Notes: Gift of Splendor",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_NameCardIcon_Bp50.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -70946,7 +71728,9 @@
           "id": "gi-item-216001",
           "name": "Faint Glow",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_AvatarFrameIcon_001.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "2 \u2605",
             "type": "Avatar Frame"
@@ -70957,7 +71741,9 @@
           "id": "gi-item-216002",
           "name": "First Light",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_AvatarFrameIcon_002.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Avatar Frame"
@@ -70968,7 +71754,9 @@
           "id": "gi-item-216003",
           "name": "Glimmering Glory",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_AvatarFrameIcon_003.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Avatar Frame"
@@ -70979,7 +71767,9 @@
           "id": "gi-item-216004",
           "name": "Brimming Spiritflow",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_AvatarFrameIcon_004.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Avatar Frame"
@@ -71914,12 +72704,14 @@
           "id": "gi-item-220092",
           "name": "???",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Gadget"
           },
-          "text": "???"
+          "text": "???",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-220093",
@@ -73069,7 +73861,9 @@
           "id": "gi-item-222005",
           "name": "Sphere of Fleeting Shadow",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_222005.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Consumable"
@@ -75346,7 +76140,9 @@
           "id": "gi-item-319001",
           "name": "Fantastical Marvel",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Lyney.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75357,7 +76153,9 @@
           "id": "gi-item-319002",
           "name": "Meditation on Floating Dreams",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Nahida.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75368,7 +76166,9 @@
           "id": "gi-item-319003",
           "name": "Hidden Jade Star",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Zhongli.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75379,7 +76179,9 @@
           "id": "gi-item-319004",
           "name": "Dappled Shadows Reflecting Red",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Hutao.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75390,7 +76192,9 @@
           "id": "gi-item-319005",
           "name": "Oracle of Reason",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Neuvillette.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75401,7 +76205,9 @@
           "id": "gi-item-319006",
           "name": "Lingering Feast",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Furina.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75412,7 +76218,9 @@
           "id": "gi-item-319007",
           "name": "Azure Icefang",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Wriothesley.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75423,7 +76231,9 @@
           "id": "gi-item-319008",
           "name": "Wind and Freedom",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Mengde.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75434,7 +76244,9 @@
           "id": "gi-item-319009",
           "name": "Stone and Contracts",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Liyue.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75445,7 +76257,9 @@
           "id": "gi-item-319010",
           "name": "Thunder and Eternity",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Daoqi.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75456,7 +76270,9 @@
           "id": "gi-item-319011",
           "name": "Nature and Wisdom",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_XuMi.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75467,7 +76283,9 @@
           "id": "gi-item-319012",
           "name": "Water and Justice",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_FengDan.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75478,7 +76296,9 @@
           "id": "gi-item-319013",
           "name": "Fire and War",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Natlan.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75489,7 +76309,9 @@
           "id": "gi-item-319014",
           "name": "Ode to Azure Skies",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Venti.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75500,7 +76322,9 @@
           "id": "gi-item-319015",
           "name": "Blazing Sunfire Scours the Gloom",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Mavuika.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75511,7 +76335,9 @@
           "id": "gi-item-319016",
           "name": "Eternal Dreams of Serenity",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Shougun.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75522,7 +76348,9 @@
           "id": "gi-item-319017",
           "name": "Falcon Wings Ablaze",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Diluc.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75533,18 +76361,22 @@
           "id": "gi-item-319018",
           "name": "Wisdom of Cherried Frost",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-319019",
           "name": "Red-Hot Meter",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Xilonen.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75555,7 +76387,9 @@
           "id": "gi-item-319020",
           "name": "Elysium and the Moon",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Nodkrai.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75566,7 +76400,9 @@
           "id": "gi-item-319021",
           "name": "Frostmoon Prayers",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Lauma.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75577,7 +76413,9 @@
           "id": "gi-item-319022",
           "name": "Mysterious White Star",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Citlali.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75588,29 +76426,35 @@
           "id": "gi-item-319023",
           "name": "Eclipsing Flame",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-319024",
           "name": "Demon-Slaying Gale",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-319025",
           "name": "Dovefeather Moondew",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Columbina.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75621,7 +76465,9 @@
           "id": "gi-item-320002",
           "name": "Vigorous Yapping",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_320002.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Portrait"
@@ -75643,7 +76489,9 @@
           "id": "gi-item-326000",
           "name": "Ganyu",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1101-Ganyu.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75654,7 +76502,9 @@
           "id": "gi-item-326001",
           "name": "Kaeya",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1103-Kaeya.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75665,7 +76515,9 @@
           "id": "gi-item-326002",
           "name": "Chongyun",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1104-Chongyun.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75676,7 +76528,9 @@
           "id": "gi-item-326003",
           "name": "Kamisato Ayaka",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1105-Kamisato Ayaka.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75687,7 +76541,9 @@
           "id": "gi-item-326004",
           "name": "Xingqiu",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1202-Xingqiu.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75698,7 +76554,9 @@
           "id": "gi-item-326005",
           "name": "Mona",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1203-Mona.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75709,7 +76567,9 @@
           "id": "gi-item-326006",
           "name": "Diluc",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1301-Diluc.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75720,7 +76580,9 @@
           "id": "gi-item-326007",
           "name": "Xiangling",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1302-Xiangling.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75731,7 +76593,9 @@
           "id": "gi-item-326008",
           "name": "Bennett",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1303-Bennett.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75742,7 +76606,9 @@
           "id": "gi-item-326009",
           "name": "Amber",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1304-Amber.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75753,7 +76619,9 @@
           "id": "gi-item-326010",
           "name": "Yoimiya",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1305-Yoimiya.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75764,7 +76632,9 @@
           "id": "gi-item-326011",
           "name": "Fischl",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1401-Fischl.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75775,7 +76645,9 @@
           "id": "gi-item-326012",
           "name": "Razor",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1402-Razor.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75786,7 +76658,9 @@
           "id": "gi-item-326013",
           "name": "Keqing",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1403-Keqing.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75797,7 +76671,9 @@
           "id": "gi-item-326014",
           "name": "Sucrose",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1501-Sucrose.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75808,7 +76684,9 @@
           "id": "gi-item-326015",
           "name": "Jean",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1502-Jean.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75819,7 +76697,9 @@
           "id": "gi-item-326016",
           "name": "Ningguang",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1601-Ningguang.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75830,7 +76710,9 @@
           "id": "gi-item-326017",
           "name": "Noelle",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1602-Noelle.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75841,7 +76723,9 @@
           "id": "gi-item-326018",
           "name": "Collei",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1701-Collei.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75852,7 +76736,9 @@
           "id": "gi-item-326019",
           "name": "Rhodeia of Loch",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2201-Rhodeia of Loch.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75863,7 +76749,9 @@
           "id": "gi-item-326020",
           "name": "Fatui Pyro Agent",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2301-Fatui Pyro Agent.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75874,7 +76762,9 @@
           "id": "gi-item-326021",
           "name": "Maguu Kenki",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2501-Maguu Kenki.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75885,7 +76775,9 @@
           "id": "gi-item-326022",
           "name": "Stonehide Lawachurl",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2601-Stonehide Lawachurl.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75896,7 +76788,9 @@
           "id": "gi-item-326023",
           "name": "Diona",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1102-Diona.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75907,7 +76801,9 @@
           "id": "gi-item-326024",
           "name": "Cyno",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1404-Cyno.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75918,7 +76814,9 @@
           "id": "gi-item-326025",
           "name": "Barbara",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1201-Barbara.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75929,7 +76827,9 @@
           "id": "gi-item-326026",
           "name": "Mirror Maiden",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2202-Mirror Maiden.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75940,7 +76840,9 @@
           "id": "gi-item-326027",
           "name": "Jadeplume Terrorshroom",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2701-Jadeplume Terrorshroom.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75951,7 +76853,9 @@
           "id": "gi-item-326028",
           "name": "Beidou",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1405-Beidou.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75962,7 +76866,9 @@
           "id": "gi-item-326029",
           "name": "Klee",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1306-Klee.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75973,7 +76879,9 @@
           "id": "gi-item-326030",
           "name": "Eula",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1106-Eula.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75984,7 +76892,9 @@
           "id": "gi-item-326031",
           "name": "Sangonomiya Kokomi",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1205-Sangonomiya Kokomi.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -75995,7 +76905,9 @@
           "id": "gi-item-326032",
           "name": "Kujou Sara",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1406-Kujou Sara.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76006,7 +76918,9 @@
           "id": "gi-item-326033",
           "name": "Kamisato Ayato",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1206-Kamisato Ayato.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76017,7 +76931,9 @@
           "id": "gi-item-326034",
           "name": "Arataki Itto",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1605-Arataki Itto.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76028,7 +76944,9 @@
           "id": "gi-item-326035",
           "name": "Tighnari",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1702-Tighnari.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76039,7 +76957,9 @@
           "id": "gi-item-326036",
           "name": "Tartaglia",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1204-Tartaglia.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76050,7 +76970,9 @@
           "id": "gi-item-326037",
           "name": "Hu Tao",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1307-Hu Tao.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76061,7 +76983,9 @@
           "id": "gi-item-326038",
           "name": "Raiden Shogun",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1407-Raiden Shogun.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76072,7 +76996,9 @@
           "id": "gi-item-326039",
           "name": "Yae Miko",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1408-Yae Miko.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76083,7 +77009,9 @@
           "id": "gi-item-326040",
           "name": "Venti",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1503-Venti.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76094,7 +77022,9 @@
           "id": "gi-item-326041",
           "name": "Xiao",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1504-Xiao.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76105,7 +77035,9 @@
           "id": "gi-item-326042",
           "name": "Zhongli",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1603-Zhongli.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76116,7 +77048,9 @@
           "id": "gi-item-326043",
           "name": "Albedo",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1604-Albedo.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76127,7 +77061,9 @@
           "id": "gi-item-326044",
           "name": "Nahida",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1703-Nahida.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76138,7 +77074,9 @@
           "id": "gi-item-326045",
           "name": "Fatui Cryo Cicin Mage",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2101-Fatui Cryo Cicin Mage.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76149,7 +77087,9 @@
           "id": "gi-item-326046",
           "name": "Abyss Lector: Fathomless Flames",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2302-Abyss Lector_ Fathomless Flames.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76160,7 +77100,9 @@
           "id": "gi-item-326047",
           "name": "Electro Hypostasis",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2401-Electro Hypostasis.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76171,7 +77113,9 @@
           "id": "gi-item-326048",
           "name": "Shenhe",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1107-Shenhe.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76182,7 +77126,9 @@
           "id": "gi-item-326049",
           "name": "Candace",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1207-Candace.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76193,7 +77139,9 @@
           "id": "gi-item-326050",
           "name": "Yanfei",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1308-Yanfei.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76204,7 +77152,9 @@
           "id": "gi-item-326051",
           "name": "Kaedehara Kazuha",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1505-Kaedehara Kazuha.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76215,7 +77165,9 @@
           "id": "gi-item-326052",
           "name": "Qiqi",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1108-Qiqi.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76226,7 +77178,9 @@
           "id": "gi-item-326053",
           "name": "Lisa",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1409-Lisa.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76237,7 +77191,9 @@
           "id": "gi-item-326054",
           "name": "Dehya",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1309-Dehya.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76248,7 +77204,9 @@
           "id": "gi-item-326055",
           "name": "Wanderer",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1506-Wanderer.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76259,7 +77217,9 @@
           "id": "gi-item-326056",
           "name": "Yaoyao",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1704-Yaoyao.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76270,7 +77230,9 @@
           "id": "gi-item-326057",
           "name": "Nilou",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1208-Nilou.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76281,7 +77243,9 @@
           "id": "gi-item-326058",
           "name": "Dori",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1410-Dori.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76292,7 +77256,9 @@
           "id": "gi-item-326059",
           "name": "Baizhu",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1705-Baizhu.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76303,7 +77269,9 @@
           "id": "gi-item-326060",
           "name": "La Signora",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2102-La Signora.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76314,7 +77282,9 @@
           "id": "gi-item-326061",
           "name": "Azhdaha",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2602-Azhdaha.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76325,7 +77295,9 @@
           "id": "gi-item-326062",
           "name": "Layla",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1109-Layla.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76336,7 +77308,9 @@
           "id": "gi-item-326063",
           "name": "Yelan",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1209-Yelan.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76347,7 +77321,9 @@
           "id": "gi-item-326064",
           "name": "Lyney",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1310-Lyney.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76358,7 +77334,9 @@
           "id": "gi-item-326065",
           "name": "Lynette",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1508-Lynette.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76369,7 +77347,9 @@
           "id": "gi-item-326066",
           "name": "Gorou",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1606-Gorou.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76380,7 +77360,9 @@
           "id": "gi-item-326067",
           "name": "Alhaitham",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1706-Alhaitham.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76391,7 +77373,9 @@
           "id": "gi-item-326068",
           "name": "Eremite Scorching Loremaster",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2303-Eremite Scorching Loremaster.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76402,7 +77386,9 @@
           "id": "gi-item-326069",
           "name": "Thunder Manifestation",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2402-Thunder Manifestation.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76413,7 +77399,9 @@
           "id": "gi-item-326070",
           "name": "Dvalin",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2502-Dvalin.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76424,7 +77412,9 @@
           "id": "gi-item-326071",
           "name": "Thoma",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1311-Thoma.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76435,7 +77425,9 @@
           "id": "gi-item-326072",
           "name": "Sayu",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1507-Sayu.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76446,7 +77438,9 @@
           "id": "gi-item-326073",
           "name": "Cryo Hypostasis",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2103-Cryo Hypostasis.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76457,7 +77451,9 @@
           "id": "gi-item-326074",
           "name": "Millennial Pearl Seahorse",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2403-Millennial Pearl Seahorse.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76468,7 +77464,9 @@
           "id": "gi-item-326075",
           "name": "Charlotte",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1110-Charlotte.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76479,7 +77477,9 @@
           "id": "gi-item-326076",
           "name": "Neuvillette",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1210-Neuvillette.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76490,7 +77490,9 @@
           "id": "gi-item-326077",
           "name": "Kirara",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1707-Kirara.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76501,7 +77503,9 @@
           "id": "gi-item-326078",
           "name": "Fatui Electro Cicin Mage",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2404-Fatui Electro Cicin Mage.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76512,7 +77516,9 @@
           "id": "gi-item-326079",
           "name": "Kuki Shinobu",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1411-Kuki Shinobu.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76523,7 +77529,9 @@
           "id": "gi-item-326080",
           "name": "Faruzan",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1509-Faruzan.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76534,7 +77542,9 @@
           "id": "gi-item-326081",
           "name": "Abyss Herald: Wicked Torrents",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2203-Abyss Herald_ Wicked Torrents.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76545,7 +77555,9 @@
           "id": "gi-item-326082",
           "name": "Emperor of Fire and Iron",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2304-Emperor of Fire and Iron.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76556,7 +77568,9 @@
           "id": "gi-item-326083",
           "name": "Wriothesley",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1111-Wriothesley.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76567,7 +77581,9 @@
           "id": "gi-item-326084",
           "name": "Furina",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1211-Furina.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76578,7 +77594,9 @@
           "id": "gi-item-326085",
           "name": "Xinyan",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1312-Xinyan.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76589,7 +77607,9 @@
           "id": "gi-item-326086",
           "name": "Yun Jin",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1607-Yun Jin.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76600,7 +77620,9 @@
           "id": "gi-item-326087",
           "name": "Kaveh",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1708-Kaveh.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76611,7 +77633,9 @@
           "id": "gi-item-326088",
           "name": "All-Devouring Narwhal",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2204-All-Devouring Narwhal.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76622,7 +77646,9 @@
           "id": "gi-item-326089",
           "name": "Consecrated Scorpion",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2405-Consecrated Scorpion.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76633,7 +77659,9 @@
           "id": "gi-item-326090",
           "name": "Consecrated Flying Serpent",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2503-Consecrated Flying Serpent.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76644,7 +77672,9 @@
           "id": "gi-item-326091",
           "name": "Guardian of Apep's Oasis",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2702-Guardian of Apep's Oasis.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76655,7 +77685,9 @@
           "id": "gi-item-326092",
           "name": "Chevreuse",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1313-Chevreuse.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76666,7 +77698,9 @@
           "id": "gi-item-326093",
           "name": "Navia",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1608-Navia.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76677,7 +77711,9 @@
           "id": "gi-item-326094",
           "name": "Frost Operative",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2104-Frost Operative.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76688,7 +77724,9 @@
           "id": "gi-item-326095",
           "name": "Freminet",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1112-Freminet.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76699,7 +77737,9 @@
           "id": "gi-item-326096",
           "name": "Xianyun",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1510-Xianyun.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76710,7 +77750,9 @@
           "id": "gi-item-326097",
           "name": "Hydro Hilichurl Rogue",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2205-Hydro Hilichurl Rogue.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76721,7 +77763,9 @@
           "id": "gi-item-326098",
           "name": "Chiori",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1609-Chiori.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76732,7 +77776,9 @@
           "id": "gi-item-326099",
           "name": "Abyss Lector: Violet Lightning",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2406-Abyss Lector_ Violet Lightning.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76743,7 +77789,9 @@
           "id": "gi-item-326100",
           "name": "Eremite Floral Ring-Dancer",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2703-Eremite Floral Ring-Dancer.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76754,7 +77802,9 @@
           "id": "gi-item-326101",
           "name": "Rosaria",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1113-Rosaria.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76765,7 +77815,9 @@
           "id": "gi-item-326102",
           "name": "Sigewinne",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1213-Sigewinne.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76776,7 +77828,9 @@
           "id": "gi-item-326103",
           "name": "Golden Wolflord",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2603-Golden Wolflord.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76787,7 +77841,9 @@
           "id": "gi-item-326104",
           "name": "Mualani",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1214-Mualani.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76798,7 +77854,9 @@
           "id": "gi-item-326105",
           "name": "Clorinde",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1412-Clorinde.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76809,7 +77867,9 @@
           "id": "gi-item-326106",
           "name": "Arlecchino",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1314-Arlecchino.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76820,7 +77880,9 @@
           "id": "gi-item-326107",
           "name": "Kinich",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1709-Kinich.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76831,7 +77893,9 @@
           "id": "gi-item-326108",
           "name": "Kachina",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1610-Kachina.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76842,7 +77906,9 @@
           "id": "gi-item-326109",
           "name": "Emilie",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1710-Emilie.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76853,7 +77919,9 @@
           "id": "gi-item-326110",
           "name": "Sethos",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1413-Sethos.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76864,7 +77932,9 @@
           "id": "gi-item-326111",
           "name": "Xilonen",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1611-Xilonen.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76875,7 +77945,9 @@
           "id": "gi-item-326112",
           "name": "Citlali",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1114-Citlali.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76886,7 +77958,9 @@
           "id": "gi-item-326113",
           "name": "Mavuika",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1315-Mavuika.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76897,7 +77971,9 @@
           "id": "gi-item-326114",
           "name": "Chasca",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1511-Chasca.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76908,7 +77984,9 @@
           "id": "gi-item-326115",
           "name": "Lan Yan",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1512-Lan Yan.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76919,7 +77997,9 @@
           "id": "gi-item-326116",
           "name": "Shikanoin Heizou",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1513-Shikanoin Heizou.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76930,7 +78010,9 @@
           "id": "gi-item-326117",
           "name": "Gluttonous Yumkasaur Mountain King",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2704-Gluttonous Yumkasaur Mountain King.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76941,7 +78023,9 @@
           "id": "gi-item-326118",
           "name": "Iansan",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1414-Iansan.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76952,7 +78036,9 @@
           "id": "gi-item-326119",
           "name": "Yumemizuki Mizuki",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1514-Yumemizuki Mizuki.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76963,7 +78049,9 @@
           "id": "gi-item-326120",
           "name": "Lord of Eroded Primal Fire",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2305-Lord of Eroded Primal Fire.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76974,7 +78062,9 @@
           "id": "gi-item-326121",
           "name": "Varesa",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1415-Varesa.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76985,7 +78075,9 @@
           "id": "gi-item-326122",
           "name": "Ifa",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1515-Ifa.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -76996,7 +78088,9 @@
           "id": "gi-item-326123",
           "name": "Hydro Tulpa",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2206-Hydro Tulpa.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77007,7 +78101,9 @@
           "id": "gi-item-326124",
           "name": "Escoffier",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1115-Escoffier.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77018,7 +78114,9 @@
           "id": "gi-item-326125",
           "name": "Gaming",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1316-Gaming.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77029,7 +78127,9 @@
           "id": "gi-item-326126",
           "name": "Black Serpent Knight: Rockbreaker Ax",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2604-Black Serpent Knight_ Rockbreaker Ax.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77040,7 +78140,9 @@
           "id": "gi-item-326127",
           "name": "Skirk",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1116-Skirk.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77051,7 +78153,9 @@
           "id": "gi-item-326128",
           "name": "Ororon",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1416-Ororon.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77062,7 +78166,9 @@
           "id": "gi-item-326129",
           "name": "Consecrated Horned Crocodile",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2207-Consecrated Horned Crocodile.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77073,7 +78179,9 @@
           "id": "gi-item-326130",
           "name": "Mika",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1117-Mika.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77084,7 +78192,9 @@
           "id": "gi-item-326131",
           "name": "Ineffa",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1417-Ineffa.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77095,7 +78205,9 @@
           "id": "gi-item-326132",
           "name": "Goldflame Qucusaur Tyrant",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2306-Goldflame Qucusaur Tyrant.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77106,7 +78218,9 @@
           "id": "gi-item-326133",
           "name": "Dahlia",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1215-Dahlia.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77117,7 +78231,9 @@
           "id": "gi-item-326134",
           "name": "Aino",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1216-Aino.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77128,7 +78244,9 @@
           "id": "gi-item-326135",
           "name": "Consecrated Fanged Beast",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2705-Consecrated Fanged Beast.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77139,7 +78257,9 @@
           "id": "gi-item-326136",
           "name": "Flins",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1418-Flins.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77150,7 +78270,9 @@
           "id": "gi-item-326137",
           "name": "Lauma",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1711-Lauma.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77161,7 +78283,9 @@
           "id": "gi-item-326138",
           "name": "Experimental Field Generator",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2605-Experimental Field Generator.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77172,7 +78296,9 @@
           "id": "gi-item-326139",
           "name": "Nefer",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1712-Nefer.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77183,7 +78309,9 @@
           "id": "gi-item-326140",
           "name": "Wayward Hermetic Spiritspeaker",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2105-Wayward Hermetic Spiritspeaker.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77194,7 +78322,9 @@
           "id": "gi-item-326141",
           "name": "Black Serpent Knight: Windcutter",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2504-Black Serpent Knight_ Windcutter.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77205,7 +78335,9 @@
           "id": "gi-item-326500",
           "name": "Undivided Heart",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/211011-Undivided Heart.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77216,7 +78348,9 @@
           "id": "gi-item-326501",
           "name": "Cold-Blooded Strike",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/211031-Cold-Blooded Strike.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77227,7 +78361,9 @@
           "id": "gi-item-326502",
           "name": "Steady Breathing",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/211041-Steady Breathing.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77238,7 +78374,9 @@
           "id": "gi-item-326503",
           "name": "Kanten Senmyou Blessing",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/211051-Kanten Senmyou Blessing.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77249,7 +78387,9 @@
           "id": "gi-item-326504",
           "name": "The Scent Remained",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/212021-The Scent Remained.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77260,7 +78400,9 @@
           "id": "gi-item-326505",
           "name": "Prophecy of Submersion",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/212031-Prophecy of Submersion.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77271,7 +78413,9 @@
           "id": "gi-item-326506",
           "name": "Flowing Flame",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/213011-Flowing Flame.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77282,7 +78426,9 @@
           "id": "gi-item-326507",
           "name": "Crossfire",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/213021-Crossfire.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77293,7 +78439,9 @@
           "id": "gi-item-326508",
           "name": "Grand Expectation",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/213031-Grand Expectation.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77304,7 +78452,9 @@
           "id": "gi-item-326509",
           "name": "Bunny Triggered",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/213041-Bunny Triggered.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77315,7 +78465,9 @@
           "id": "gi-item-326510",
           "name": "Naganohara Meteor Swarm",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/213051-Naganohara Meteor Swarm.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77326,7 +78478,9 @@
           "id": "gi-item-326511",
           "name": "Stellar Predator",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/214011-Stellar Predator.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77337,7 +78491,9 @@
           "id": "gi-item-326512",
           "name": "Awakening",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/214021-Awakening.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77348,7 +78504,9 @@
           "id": "gi-item-326513",
           "name": "Thundering Penance",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/214031-Thundering Penance.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77359,7 +78517,9 @@
           "id": "gi-item-326514",
           "name": "Chaotic Entropy",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/215011-Chaotic Entropy.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77370,7 +78530,9 @@
           "id": "gi-item-326515",
           "name": "Lands of Dandelion",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/215021-Lands of Dandelion.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77381,7 +78543,9 @@
           "id": "gi-item-326516",
           "name": "Strategic Reserve",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/216011-Strategic Reserve.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77392,7 +78556,9 @@
           "id": "gi-item-326517",
           "name": "I Got Your Back",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/216021-I Got Your Back.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77403,7 +78569,9 @@
           "id": "gi-item-326518",
           "name": "Floral Sidewinder",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/217011-Floral Sidewinder.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77414,7 +78582,9 @@
           "id": "gi-item-326519",
           "name": "Streaming Surge",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/222011-Streaming Surge.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77425,7 +78595,9 @@
           "id": "gi-item-326520",
           "name": "Paid in Full",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/223011-Paid in Full.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77436,7 +78608,9 @@
           "id": "gi-item-326521",
           "name": "Transcendent Automaton",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/225011-Transcendent Automaton.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77447,7 +78621,9 @@
           "id": "gi-item-326522",
           "name": "Stonehide Reforged",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/226011-Stonehide Reforged.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77458,7 +78634,9 @@
           "id": "gi-item-326523",
           "name": "Shaken, Not Purred",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/211021-Shaken_ Not Purred.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77469,7 +78647,9 @@
           "id": "gi-item-326524",
           "name": "Featherfall Judgment",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/214041-Featherfall Judgment.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77480,7 +78660,9 @@
           "id": "gi-item-326525",
           "name": "Glorious Season",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/212011-Glorious Season.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77491,7 +78673,9 @@
           "id": "gi-item-326526",
           "name": "Mirror Cage",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/222021-Mirror Cage.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77502,7 +78686,9 @@
           "id": "gi-item-326527",
           "name": "Proliferating Spores",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/227011-Proliferating Spores.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77513,7 +78699,9 @@
           "id": "gi-item-326528",
           "name": "Lightning Storm",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/214051-Lightning Storm.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77524,7 +78712,9 @@
           "id": "gi-item-326529",
           "name": "Pounding Surprise",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/213061-Pounding Surprise.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77535,7 +78725,9 @@
           "id": "gi-item-326530",
           "name": "Wellspring of War-Lust",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/211061-Wellspring of War-Lust.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77546,7 +78738,9 @@
           "id": "gi-item-326531",
           "name": "Tamakushi Casket",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/212051-Tamakushi Casket.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77557,7 +78751,9 @@
           "id": "gi-item-326532",
           "name": "Sin of Pride",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/214061-Sin of Pride.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77568,7 +78764,9 @@
           "id": "gi-item-326533",
           "name": "Kyouka Fuushi",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/212061-Kyouka Fuushi.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77579,7 +78777,9 @@
           "id": "gi-item-326534",
           "name": "Arataki Ichiban",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/216051-Arataki Ichiban.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77590,7 +78790,9 @@
           "id": "gi-item-326535",
           "name": "Keen Sight",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/217021-Keen Sight.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77601,7 +78803,9 @@
           "id": "gi-item-326536",
           "name": "Embrace of Winds",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/215031-Embrace of Winds.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77612,7 +78816,9 @@
           "id": "gi-item-326537",
           "name": "Conqueror of Evil: Guardian Yaksha",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/215041-Conqueror of Evil_ Guardian Yaksha.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77623,7 +78829,9 @@
           "id": "gi-item-326538",
           "name": "Dominance of Earth",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/216031-Dominance of Earth.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77634,7 +78842,9 @@
           "id": "gi-item-326539",
           "name": "Absorbing Prism",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/224011-Absorbing Prism.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77645,7 +78855,9 @@
           "id": "gi-item-326540",
           "name": "Mystical Abandon",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/211071-Mystical Abandon.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77656,7 +78868,9 @@
           "id": "gi-item-326541",
           "name": "Abyssal Mayhem: Hydrospout",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/212041-Abyssal Mayhem_ Hydrospout.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77667,7 +78881,9 @@
           "id": "gi-item-326542",
           "name": "Sanguine Rouge",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/213071-Sanguine Rouge.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77678,7 +78894,9 @@
           "id": "gi-item-326543",
           "name": "Wishes Unnumbered",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/214071-Wishes Unnumbered.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77689,7 +78907,9 @@
           "id": "gi-item-326544",
           "name": "The Shrine's Sacred Shade",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/214081-The Shrine's Sacred Shade.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77700,7 +78920,9 @@
           "id": "gi-item-326545",
           "name": "Descent of Divinity",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/216041-Descent of Divinity.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77711,7 +78933,9 @@
           "id": "gi-item-326546",
           "name": "The Seed of Stored Knowledge",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/217031-The Seed of Stored Knowledge.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77722,7 +78946,9 @@
           "id": "gi-item-326547",
           "name": "Cicin's Cold Glare",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/221011-Cicin's Cold Glare.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77733,7 +78959,9 @@
           "id": "gi-item-326548",
           "name": "Embers Rekindled",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/223021-Embers Rekindled.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77744,7 +78972,9 @@
           "id": "gi-item-326549",
           "name": "The Overflow",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/212071-The Overflow.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77755,7 +78985,9 @@
           "id": "gi-item-326550",
           "name": "Right of Final Interpretation",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/213081-Right of Final Interpretation.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77766,7 +78998,9 @@
           "id": "gi-item-326551",
           "name": "Poetics of Fuubutsu",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/215051-Poetics of Fuubutsu.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77777,7 +79011,9 @@
           "id": "gi-item-326552",
           "name": "Rite of Resurrection",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/211081-Rite of Resurrection.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77788,7 +79024,9 @@
           "id": "gi-item-326553",
           "name": "Pulsating Witch",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/214091-Pulsating Witch.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77799,7 +79037,9 @@
           "id": "gi-item-326554",
           "name": "Stalwart and True",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/213091-Stalwart and True.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77810,7 +79050,9 @@
           "id": "gi-item-326555",
           "name": "Gales of Reverie",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/215061-Gales of Reverie.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77821,7 +79063,9 @@
           "id": "gi-item-326556",
           "name": "Beneficent",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/217041-Beneficent.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77832,7 +79076,9 @@
           "id": "gi-item-326557",
           "name": "The Starry Skies Their Flowers Rain",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/212081-The Starry Skies Their Flowers Rain.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77843,7 +79089,9 @@
           "id": "gi-item-326558",
           "name": "Discretionary Supplement",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/214101-Discretionary Supplement.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77854,7 +79102,9 @@
           "id": "gi-item-326559",
           "name": "All Things Are of the Earth",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/217051-All Things Are of the Earth.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77865,7 +79115,9 @@
           "id": "gi-item-326560",
           "name": "Light's Remit",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/211091-Light's Remit.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77876,7 +79128,9 @@
           "id": "gi-item-326561",
           "name": "Turn Control",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/212091-Turn Control.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77887,7 +79141,9 @@
           "id": "gi-item-326562",
           "name": "Conclusive Ovation",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/213101-Conclusive Ovation.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77898,7 +79154,9 @@
           "id": "gi-item-326563",
           "name": "A Cold Blade Like a Shadow",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/215081-A Cold Blade Like a Shadow.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77909,7 +79167,9 @@
           "id": "gi-item-326564",
           "name": "Rushing Hound: Swift as the Wind",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/216061-Rushing Hound_ Swift as the Wind.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77920,7 +79180,9 @@
           "id": "gi-item-326565",
           "name": "Structuration",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/217061-Structuration.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77931,7 +79193,9 @@
           "id": "gi-item-326566",
           "name": "Pain for Pain",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/221021-Pain for Pain.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77942,7 +79206,9 @@
           "id": "gi-item-326567",
           "name": "Scorpocalypse",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/223031-Scorpocalypse.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77953,7 +79219,9 @@
           "id": "gi-item-326568",
           "name": "Grieving Echo",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/224021-Grieving Echo.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77964,7 +79232,9 @@
           "id": "gi-item-326569",
           "name": "Rending Vortex",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/225021-Rending Vortex.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77975,7 +79245,9 @@
           "id": "gi-item-326570",
           "name": "Lunar Cycles Unending",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/226022-Lunar Cycles Unending.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77986,7 +79258,9 @@
           "id": "gi-item-326571",
           "name": "A Subordinate's Skills",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/213111-A Subordinate's Skills.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -77997,7 +79271,9 @@
           "id": "gi-item-326572",
           "name": "Skiving: New and Improved",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/215071-Skiving_ New and Improved.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78008,7 +79284,9 @@
           "id": "gi-item-326573",
           "name": "Sternfrost Prism",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/221031-Sternfrost Prism.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78019,7 +79297,9 @@
           "id": "gi-item-326574",
           "name": "Pearl Solidification",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/224031-Pearl Solidification.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78030,7 +79310,9 @@
           "id": "gi-item-326575",
           "name": "A Summation of Interest",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/211101-A Summation of Interest.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78041,7 +79323,9 @@
           "id": "gi-item-326576",
           "name": "Heir to the Ancient Sea's Authority",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/212101-Heir to the Ancient Sea's Authority.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78052,7 +79336,9 @@
           "id": "gi-item-326577",
           "name": "Countless Sights to See",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/217071-Countless Sights to See.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78063,7 +79349,9 @@
           "id": "gi-item-326578",
           "name": "Electro Cicin's Gleam",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/224041-Electro Cicin's Gleam.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78074,7 +79362,9 @@
           "id": "gi-item-326579",
           "name": "To Ward Weakness",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/214111-To Ward Weakness.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78085,7 +79375,9 @@
           "id": "gi-item-326580",
           "name": "The Wondrous Path of Truth",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/215091-The Wondrous Path of Truth.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78096,7 +79388,9 @@
           "id": "gi-item-326581",
           "name": "Surging Undercurrent",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/222031-Surging Undercurrent.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78107,7 +79401,9 @@
           "id": "gi-item-326582",
           "name": "Molten Mail",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/223041-Molten Mail.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78118,7 +79414,9 @@
           "id": "gi-item-326583",
           "name": "Terror for the Evildoers",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/211111-Terror for the Evildoers.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78129,7 +79427,9 @@
           "id": "gi-item-326584",
           "name": "\"Hear Me \u2014 Let Us Raise the Chalice of Love!\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/212111-_Hear Me \u2014 Let Us Raise the Chalice of Love!_.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78140,7 +79440,9 @@
           "id": "gi-item-326585",
           "name": "Rockin' in a Flaming World",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/213121-Rockin' in a Flaming World.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78151,7 +79453,9 @@
           "id": "gi-item-326586",
           "name": "Decorous Harmony",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/216071-Decorous Harmony.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78162,7 +79466,9 @@
           "id": "gi-item-326587",
           "name": "The Art of Budgeting",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/217081-The Art of Budgeting.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78173,7 +79479,9 @@
           "id": "gi-item-326588",
           "name": "Lightless Feeding",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/222041-Lightless Feeding.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78184,7 +79492,9 @@
           "id": "gi-item-326589",
           "name": "Fatal Fulmination",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/224051-Fatal Fulmination.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78195,7 +79505,9 @@
           "id": "gi-item-326590",
           "name": "Deathly Cyclone",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/225031-Deathly Cyclone.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78206,7 +79518,9 @@
           "id": "gi-item-326591",
           "name": "A Thousand Young",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/227021-A Thousand Young.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78217,7 +79531,9 @@
           "id": "gi-item-326592",
           "name": "Vanguard's Coordinated Tactics",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/213131-Vanguard's Coordinated Tactics.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78228,7 +79544,9 @@
           "id": "gi-item-326593",
           "name": "Undisclosed Distribution Channels",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/216081-Undisclosed Distribution Channels.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78239,7 +79557,9 @@
           "id": "gi-item-326594",
           "name": "Rimeflow Rapier",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/221041-Rimeflow Rapier.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78250,7 +79570,9 @@
           "id": "gi-item-326595",
           "name": "Moment of Waking and Resolve",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/211121-Moment of Waking and Resolve.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78261,7 +79583,9 @@
           "id": "gi-item-326596",
           "name": "They Call Her Cloud Retainer",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/215101-They Call Her Cloud Retainer.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78272,7 +79596,9 @@
           "id": "gi-item-326597",
           "name": "Featherweight Foam",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/222051-Featherweight Foam.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78283,7 +79609,9 @@
           "id": "gi-item-326598",
           "name": "In Five Colors Dyed",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/216091-In Five Colors Dyed.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78294,7 +79622,9 @@
           "id": "gi-item-326599",
           "name": "Chain Lightning Cascade",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/224061-Chain Lightning Cascade.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78305,7 +79635,9 @@
           "id": "gi-item-326600",
           "name": "Spirit Serpent's Swirl",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/227031-Spirit Serpent's Swirl.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78316,7 +79648,9 @@
           "id": "gi-item-326601",
           "name": "Divine Retribution",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/211131-Divine Retribution.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78327,7 +79661,9 @@
           "id": "gi-item-326602",
           "name": "Requires Appropriate Rest",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/212131-Requires Appropriate Rest.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78338,7 +79674,9 @@
           "id": "gi-item-326603",
           "name": "Beastly Corrosion",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/226031-Beastly Corrosion.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78349,7 +79687,9 @@
           "id": "gi-item-326604",
           "name": "Night Realm's Gift: Crests and Troughs",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/212141-Night Realm's Gift_ Crests and Troughs.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78360,7 +79700,9 @@
           "id": "gi-item-326605",
           "name": "Dark-Shattering Flame",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/214121-Dark-Shattering Flame.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78371,7 +79713,9 @@
           "id": "gi-item-326606",
           "name": "All Reprisals and Arrears, Mine to Bear",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/213141-All Reprisals and Arrears_ Mine to Bear.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78382,7 +79726,9 @@
           "id": "gi-item-326607",
           "name": "Night Realm's Gift: Repaid in Full",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/217091-Night Realm's Gift_ Repaid in Full.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78393,7 +79739,9 @@
           "id": "gi-item-326608",
           "name": "Night Realm's Gift: Heart of Unity",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/216101-Night Realm's Gift_ Heart of Unity.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78404,7 +79752,9 @@
           "id": "gi-item-326609",
           "name": "Marcotte Sillage",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/217101-Marcotte Sillage.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78415,7 +79765,9 @@
           "id": "gi-item-326610",
           "name": "Pylon of the Sojourning Sun Temple",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/214131-Pylon of the Sojourning Sun Temple.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78426,7 +79778,9 @@
           "id": "gi-item-326611",
           "name": "Tour of Tepeilhuitl",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/216111-Tour of Tepeilhuitl.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78437,7 +79791,9 @@
           "id": "gi-item-326612",
           "name": "Mamaloaco's Frigid Rain",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/211141-Mamaloaco's Frigid Rain.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78448,7 +79804,9 @@
           "id": "gi-item-326613",
           "name": "\"Humanity's Name\" Unfettered",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/213151-_Humanity's Name_ Unfettered.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78459,7 +79817,9 @@
           "id": "gi-item-326614",
           "name": "Bullet Trick",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/215111-Bullet Trick.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78470,7 +79830,9 @@
           "id": "gi-item-326615",
           "name": "Dance Vestments Billow Like Rainbow Jade",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/215121-Dance Vestments Billow Like Rainbow Jade.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78481,7 +79843,9 @@
           "id": "gi-item-326616",
           "name": "Curious Casefiles",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/215131-Curious Casefiles.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78492,7 +79856,9 @@
           "id": "gi-item-326617",
           "name": "The All-Devourer",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/227041-The All-Devourer.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78503,7 +79869,9 @@
           "id": "gi-item-326618",
           "name": "Teachings of the Collective of Plenty",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/214141-Teachings of the Collective of Plenty.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78514,7 +79882,9 @@
           "id": "gi-item-326619",
           "name": "Your Echo I Meet in Dreams",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/215141-Your Echo I Meet in Dreams.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78525,7 +79895,9 @@
           "id": "gi-item-326620",
           "name": "Undying Fury",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/223051-Undying Fury.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78536,7 +79908,9 @@
           "id": "gi-item-326621",
           "name": "A Hero of Justice's Triumph",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/214151-A Hero of Justice's Triumph.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78547,7 +79921,9 @@
           "id": "gi-item-326622",
           "name": "Tactical Warm Compress Bandaging",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/215151-Tactical Warm Compress Bandaging.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78558,7 +79934,9 @@
           "id": "gi-item-326623",
           "name": "Flow Convergence",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/222061-Flow Convergence.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78569,7 +79947,9 @@
           "id": "gi-item-326624",
           "name": "Tea Parties Bursting With Color",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/211151-Tea Parties Bursting With Color.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78580,7 +79960,9 @@
           "id": "gi-item-326625",
           "name": "Bringer of Blessing",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/213161-Bringer of Blessing.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78591,7 +79973,9 @@
           "id": "gi-item-326626",
           "name": "\"Once Stood Against the Tide of Dark Waters Like Bedrock...\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/226041-_Once Stood Against the Tide of Dark Waters Like Bedrock..._.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78602,7 +79986,9 @@
           "id": "gi-item-326627",
           "name": "Far to Fall",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/211161-Far to Fall.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78613,7 +79999,9 @@
           "id": "gi-item-326628",
           "name": "Trails Amidst the Forest Fog",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/214161-Trails Amidst the Forest Fog.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78624,7 +80012,9 @@
           "id": "gi-item-326629",
           "name": "Deathly Overflow",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/222071-Deathly Overflow.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78635,7 +80025,9 @@
           "id": "gi-item-326630",
           "name": "Companion's Counsel",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/211171-Companion's Counsel.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78646,7 +80038,9 @@
           "id": "gi-item-326631",
           "name": "Rectifying Processor",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/214171-Rectifying Processor.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78657,7 +80051,9 @@
           "id": "gi-item-326632",
           "name": "Flamelord's Blessing",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/223061-Flamelord's Blessing.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78668,7 +80064,9 @@
           "id": "gi-item-326633",
           "name": "You Shall Go Out With Joy",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/212151-You Shall Go Out With Joy.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78679,7 +80077,9 @@
           "id": "gi-item-326634",
           "name": "The Burden of Creative Genius",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/212161-The Burden of Creative Genius.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78690,7 +80090,9 @@
           "id": "gi-item-326635",
           "name": "Withered Reeds Eclipse the Sun",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/227051-Withered Reeds Eclipse the Sun.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78701,7 +80103,9 @@
           "id": "gi-item-326636",
           "name": "Part the Veil of Snow",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/214181-Part the Veil of Snow.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78712,7 +80116,9 @@
           "id": "gi-item-326637",
           "name": "\"O Lips, Weave Me Songs and Psalms\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/217111-_O Lips_ Weave Me Songs and Psalms_.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78723,7 +80129,9 @@
           "id": "gi-item-326638",
           "name": "Gravity Field",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/226051-Gravity Field.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78734,7 +80142,9 @@
           "id": "gi-item-326639",
           "name": "Victory Flows from the Turning of Tides",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/217121-Victory Flows from the Turning of Tides.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78745,7 +80155,9 @@
           "id": "gi-item-326640",
           "name": "Flow of Forms",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/221051-Flow of Forms.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78756,7 +80168,9 @@
           "id": "gi-item-326641",
           "name": "\"Once, the Lone Wind That Kept the Dark Calamity at Bay...\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/225041-_Once_ the Lone Wind That Kept the Dark Calamity at Bay..._.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78767,7 +80181,9 @@
           "id": "gi-item-327000",
           "name": "Magic Guide",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311101-Magic Guide.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78778,7 +80194,9 @@
           "id": "gi-item-327001",
           "name": "Sacrificial Fragments",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311102-Sacrificial Fragments.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78789,7 +80207,9 @@
           "id": "gi-item-327002",
           "name": "Skyward Atlas",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311103-Skyward Atlas.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78800,7 +80220,9 @@
           "id": "gi-item-327003",
           "name": "Raven Bow",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311201-Raven Bow.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78811,7 +80233,9 @@
           "id": "gi-item-327004",
           "name": "Sacrificial Bow",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311202-Sacrificial Bow.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78822,7 +80246,9 @@
           "id": "gi-item-327005",
           "name": "Skyward Harp",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311203-Skyward Harp.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78833,7 +80259,9 @@
           "id": "gi-item-327006",
           "name": "White Iron Greatsword",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311301-White Iron Greatsword.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78844,7 +80272,9 @@
           "id": "gi-item-327007",
           "name": "Sacrificial Greatsword",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311302-Sacrificial Greatsword.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78855,7 +80285,9 @@
           "id": "gi-item-327008",
           "name": "Wolf's Gravestone",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311303-Wolf's Gravestone.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78866,7 +80298,9 @@
           "id": "gi-item-327009",
           "name": "White Tassel",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311401-White Tassel.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78877,7 +80311,9 @@
           "id": "gi-item-327010",
           "name": "Lithic Spear",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311402-Lithic Spear.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78888,7 +80324,9 @@
           "id": "gi-item-327011",
           "name": "Skyward Spine",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311403-Skyward Spine.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78899,7 +80337,9 @@
           "id": "gi-item-327012",
           "name": "Traveler's Handy Sword",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311501-Traveler's Handy Sword.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78910,7 +80350,9 @@
           "id": "gi-item-327013",
           "name": "Sacrificial Sword",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311502-Sacrificial Sword.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78921,7 +80363,9 @@
           "id": "gi-item-327014",
           "name": "Aquila Favonia",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311503-Aquila Favonia.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78932,7 +80376,9 @@
           "id": "gi-item-327015",
           "name": "Adventurer's Bandana",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312001-Adventurer's Bandana.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78943,7 +80389,9 @@
           "id": "gi-item-327016",
           "name": "Lucky Dog's Silver Circlet",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312002-Lucky Dog's Silver Circlet.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78954,7 +80402,9 @@
           "id": "gi-item-327017",
           "name": "Traveling Doctor's Handkerchief",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312003-Traveling Doctor's Handkerchief.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78965,7 +80415,9 @@
           "id": "gi-item-327018",
           "name": "Gambler's Earrings",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312004-Gambler's Earrings.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78976,7 +80428,9 @@
           "id": "gi-item-327019",
           "name": "Instructor's Cap",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312005-Instructor's Cap.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78987,7 +80441,9 @@
           "id": "gi-item-327020",
           "name": "Exile's Circlet",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312006-Exile's Circlet.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -78998,7 +80454,9 @@
           "id": "gi-item-327021",
           "name": "Broken Rime's Echo",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312101-Broken Rime's Echo.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79009,7 +80467,9 @@
           "id": "gi-item-327022",
           "name": "Blizzard Strayer",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312102-Blizzard Strayer.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79020,7 +80480,9 @@
           "id": "gi-item-327023",
           "name": "Wine-Stained Tricorne",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312201-Wine-Stained Tricorne.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79031,7 +80493,9 @@
           "id": "gi-item-327024",
           "name": "Heart of Depth",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312202-Heart of Depth.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79042,7 +80506,9 @@
           "id": "gi-item-327025",
           "name": "Witch's Scorching Hat",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312301-Witch's Scorching Hat.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79053,7 +80519,9 @@
           "id": "gi-item-327026",
           "name": "Crimson Witch of Flames",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312302-Crimson Witch of Flames.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79064,7 +80532,9 @@
           "id": "gi-item-327027",
           "name": "Thunder Summoner's Crown",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312401-Thunder Summoner's Crown.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79075,7 +80545,9 @@
           "id": "gi-item-327028",
           "name": "Thundering Fury",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312402-Thundering Fury.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79086,7 +80558,9 @@
           "id": "gi-item-327029",
           "name": "Viridescent Venerer's Diadem",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312501-Viridescent Venerer's Diadem.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79097,7 +80571,9 @@
           "id": "gi-item-327030",
           "name": "Viridescent Venerer",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312502-Viridescent Venerer.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79108,7 +80584,9 @@
           "id": "gi-item-327031",
           "name": "Mask of Solitude Basalt",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312601-Mask of Solitude Basalt.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79119,7 +80597,9 @@
           "id": "gi-item-327032",
           "name": "Archaic Petra",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312602-Archaic Petra.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79130,7 +80610,9 @@
           "id": "gi-item-327033",
           "name": "Laurel Coronet",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312701-Laurel Coronet.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79141,7 +80623,9 @@
           "id": "gi-item-327034",
           "name": "Deepwood Memories",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312702-Deepwood Memories.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79152,7 +80636,9 @@
           "id": "gi-item-327035",
           "name": "Ornate Kabuto",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312007-Ornate Kabuto.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79163,7 +80649,9 @@
           "id": "gi-item-327036",
           "name": "General's Ancient Helm",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312009-General's Ancient Helm.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79174,7 +80662,9 @@
           "id": "gi-item-327037",
           "name": "Favonius Sword",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311505-Favonius Sword.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79185,7 +80675,9 @@
           "id": "gi-item-327038",
           "name": "Amos' Bow",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311204-Amos' Bow.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79196,7 +80688,9 @@
           "id": "gi-item-327039",
           "name": "A Thousand Floating Dreams",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311104-A Thousand Floating Dreams.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79207,7 +80701,9 @@
           "id": "gi-item-327040",
           "name": "Elegy for the End",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311205-Elegy for the End.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79218,7 +80714,9 @@
           "id": "gi-item-327041",
           "name": "Skyward Pride",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311304-Skyward Pride.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79229,7 +80727,9 @@
           "id": "gi-item-327042",
           "name": "The Bell",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311305-The Bell.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79240,7 +80740,9 @@
           "id": "gi-item-327043",
           "name": "Vortex Vanquisher",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311404-Vortex Vanquisher.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79251,7 +80753,9 @@
           "id": "gi-item-327044",
           "name": "Engulfing Lightning",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311405-Engulfing Lightning.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79262,7 +80766,9 @@
           "id": "gi-item-327045",
           "name": "Skyward Blade",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311504-Skyward Blade.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79273,7 +80779,9 @@
           "id": "gi-item-327046",
           "name": "Emblem of Severed Fate",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312008-Emblem of Severed Fate.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79284,7 +80792,9 @@
           "id": "gi-item-327047",
           "name": "Tenacity of the Millelith",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312010-Tenacity of the Millelith.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79295,7 +80805,9 @@
           "id": "gi-item-327048",
           "name": "Thundering Poise",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312011-Thundering Poise.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79306,7 +80818,9 @@
           "id": "gi-item-327049",
           "name": "Vermillion Hereafter",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312012-Vermillion Hereafter.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79317,7 +80831,9 @@
           "id": "gi-item-327050",
           "name": "Capricious Visage",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312013-Capricious Visage.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79328,7 +80844,9 @@
           "id": "gi-item-327051",
           "name": "Shimenawa's Reminiscence",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312014-Shimenawa's Reminiscence.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79339,7 +80857,9 @@
           "id": "gi-item-327052",
           "name": "Fruit of Fulfillment",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311105-Fruit of Fulfillment.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79350,7 +80870,9 @@
           "id": "gi-item-327053",
           "name": "King's Squire",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311206-King's Squire.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79361,7 +80883,9 @@
           "id": "gi-item-327054",
           "name": "Moonpiercer",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311406-Moonpiercer.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79372,7 +80896,9 @@
           "id": "gi-item-327055",
           "name": "Crown of Watatsumi",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312015-Crown of Watatsumi.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79383,7 +80909,9 @@
           "id": "gi-item-327056",
           "name": "Ocean-Hued Clam",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312016-Ocean-Hued Clam.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79394,7 +80922,9 @@
           "id": "gi-item-327057",
           "name": "Shadow of the Sand King",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312017-Shadow of the Sand King.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79405,7 +80935,9 @@
           "id": "gi-item-327058",
           "name": "Lost Prayer to the Sacred Winds",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311106-Lost Prayer to the Sacred Winds.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79416,7 +80948,9 @@
           "id": "gi-item-327059",
           "name": "Tulaytullah's Remembrance",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311107-Tulaytullah's Remembrance.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79427,7 +80961,9 @@
           "id": "gi-item-327060",
           "name": "Beacon of the Reed Sea",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311306-Beacon of the Reed Sea.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79438,7 +80974,9 @@
           "id": "gi-item-327061",
           "name": "Primordial Jade Winged-Spear",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311407-Primordial Jade Winged-Spear.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79449,7 +80987,9 @@
           "id": "gi-item-327062",
           "name": "Light of Foliar Incision",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311506-Light of Foliar Incision.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79460,7 +81000,9 @@
           "id": "gi-item-327063",
           "name": "Gilded Dreams",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312018-Gilded Dreams.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79471,7 +81013,9 @@
           "id": "gi-item-327064",
           "name": "Flowing Rings",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312019-Flowing Rings.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79482,7 +81026,9 @@
           "id": "gi-item-327065",
           "name": "Echoes of an Offering",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312020-Echoes of an Offering.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79493,7 +81039,9 @@
           "id": "gi-item-327066",
           "name": "Heart of Khvarena's Brilliance",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312021-Heart of Khvarena's Brilliance.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79504,7 +81052,9 @@
           "id": "gi-item-327067",
           "name": "Vourukasha's Glow",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312022-Vourukasha's Glow.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79515,7 +81065,9 @@
           "id": "gi-item-327068",
           "name": "Sapwood Blade",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311507-Sapwood Blade.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79526,7 +81078,9 @@
           "id": "gi-item-327069",
           "name": "Veteran's Visage",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312023-Veteran's Visage.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79537,7 +81091,9 @@
           "id": "gi-item-327070",
           "name": "Tome of the Eternal Flow",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311108-Tome of the Eternal Flow.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79548,7 +81104,9 @@
           "id": "gi-item-327071",
           "name": "Golden Troupe's Reward",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312025-Golden Troupe's Reward.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79559,7 +81117,9 @@
           "id": "gi-item-327072",
           "name": "Rightful Reward",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311408-Rightful Reward.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79570,7 +81130,9 @@
           "id": "gi-item-327073",
           "name": "Amethyst Crown",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312027-Amethyst Crown.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79581,7 +81143,9 @@
           "id": "gi-item-327074",
           "name": "Cashflow Supervision",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311109-Cashflow Supervision.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79592,7 +81156,9 @@
           "id": "gi-item-327075",
           "name": "End of the Line",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311207-End of the Line.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79603,7 +81169,9 @@
           "id": "gi-item-327076",
           "name": "Forest Regalia",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311307-Forest Regalia.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79614,7 +81182,9 @@
           "id": "gi-item-327077",
           "name": "Splendor of Tranquil Waters",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311508-Splendor of Tranquil Waters.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79625,7 +81195,9 @@
           "id": "gi-item-327078",
           "name": "Marechaussee Hunter",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312024-Marechaussee Hunter.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79636,7 +81208,9 @@
           "id": "gi-item-327079",
           "name": "Golden Troupe",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312026-Golden Troupe.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79647,7 +81221,9 @@
           "id": "gi-item-327080",
           "name": "Flower of Paradise Lost",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312028-Flower of Paradise Lost.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79658,7 +81234,9 @@
           "id": "gi-item-327081",
           "name": "\"Ultimate Overlord's Mega Magic Sword\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311308-_Ultimate Overlord's Mega Magic Sword_.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79669,7 +81247,9 @@
           "id": "gi-item-327082",
           "name": "Prospector's Drill",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311409-Prospector's Drill.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79680,7 +81260,9 @@
           "id": "gi-item-327083",
           "name": "Gladiator's Triumphus",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312029-Gladiator's Triumphus.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79691,7 +81273,9 @@
           "id": "gi-item-327084",
           "name": "Xenochromatic Hunter's Ray",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/313001-Xenochromatic Hunter's Ray.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79702,7 +81286,9 @@
           "id": "gi-item-327085",
           "name": "Yumkasaurus",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/313002-Yumkasaurus.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79713,7 +81299,9 @@
           "id": "gi-item-327086",
           "name": "Koholasaurus",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/313003-Koholasaurus.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79724,7 +81312,9 @@
           "id": "gi-item-327087",
           "name": "Portable Power Saw",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311309-Portable Power Saw.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79735,7 +81325,9 @@
           "id": "gi-item-327088",
           "name": "Conductor's Top Hat",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312030-Conductor's Top Hat.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79746,7 +81338,9 @@
           "id": "gi-item-327089",
           "name": "Tepetlisaurus",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/313004-Tepetlisaurus.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79757,7 +81351,9 @@
           "id": "gi-item-327090",
           "name": "Flowing Purity",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311110-Flowing Purity.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79768,7 +81364,9 @@
           "id": "gi-item-327091",
           "name": "Maiden's Fading Beauty",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312031-Maiden's Fading Beauty.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79779,7 +81377,9 @@
           "id": "gi-item-327092",
           "name": "Iktomisaurus",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/313005-Iktomisaurus.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79790,7 +81390,9 @@
           "id": "gi-item-327093",
           "name": "Demon-Warrior's Feather Mask",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312032-Demon-Warrior's Feather Mask.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79801,7 +81403,9 @@
           "id": "gi-item-327094",
           "name": "Qucusaurus",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/313006-Qucusaurus.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79812,7 +81416,9 @@
           "id": "gi-item-327095",
           "name": "Waverider",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/313007-Waverider.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79823,7 +81429,9 @@
           "id": "gi-item-327096",
           "name": "Tatankasaurus",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/313008-Tatankasaurus.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79834,7 +81442,9 @@
           "id": "gi-item-327097",
           "name": "The Dockhand's Assistant",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311509-The Dockhand's Assistant.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79845,7 +81455,9 @@
           "id": "gi-item-327098",
           "name": "Crown of the Saints",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312033-Crown of the Saints.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79856,7 +81468,9 @@
           "id": "gi-item-327099",
           "name": "Scroll of the Hero of Cinder City",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312034-Scroll of the Hero of Cinder City.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79867,7 +81481,9 @@
           "id": "gi-item-327100",
           "name": "Rawr! Rawr!",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/313009-Rawr! Rawr!.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79878,7 +81494,9 @@
           "id": "gi-item-327101",
           "name": "Crownless Crown",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312035-Crownless Crown.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79889,7 +81507,9 @@
           "id": "gi-item-327102",
           "name": "Whimsical Dance of the Withered",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312036-Whimsical Dance of the Withered.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79900,7 +81520,9 @@
           "id": "gi-item-327103",
           "name": "Royal Masque",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312037-Royal Masque.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79911,7 +81533,9 @@
           "id": "gi-item-327104",
           "name": "Unfinished Reverie",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312038-Unfinished Reverie.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79922,7 +81546,9 @@
           "id": "gi-item-327105",
           "name": "Fragment of Harmonic Whimsy",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312039-Fragment of Harmonic Whimsy.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79933,7 +81559,9 @@
           "id": "gi-item-327106",
           "name": "Aqua Simulacra",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311208-Aqua Simulacra.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79944,7 +81572,9 @@
           "id": "gi-item-327107",
           "name": "Everlasting Moonglow",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311111-Everlasting Moonglow.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79955,7 +81585,9 @@
           "id": "gi-item-327108",
           "name": "Fell Dragon's Monocle",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312040-Fell Dragon's Monocle.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79966,7 +81598,9 @@
           "id": "gi-item-327109",
           "name": "Noblesse Oblige",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312041-Noblesse Oblige.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79977,7 +81611,9 @@
           "id": "gi-item-327110",
           "name": "Nymph's Dream",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312043-Nymph's Dream.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79988,7 +81624,9 @@
           "id": "gi-item-327111",
           "name": "Starcaller's Watch",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311112-Starcaller's Watch.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -79999,7 +81637,9 @@
           "id": "gi-item-327112",
           "name": "Flame-Forged Insight",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311310-Flame-Forged Insight.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80010,7 +81650,9 @@
           "id": "gi-item-327113",
           "name": "Dyed Tassel",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312044-Dyed Tassel.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80021,7 +81663,9 @@
           "id": "gi-item-327114",
           "name": "Snare Hook",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311209-Snare Hook.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80032,7 +81676,9 @@
           "id": "gi-item-327115",
           "name": "Blubberbeast",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/313010-Blubberbeast.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80043,7 +81689,9 @@
           "id": "gi-item-327116",
           "name": "Gladiator's Finale",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312045-Gladiator's Finale.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80054,7 +81702,9 @@
           "id": "gi-item-328000",
           "name": "Liyue Harbor Wharf",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321001-Liyue Harbor Wharf.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80065,7 +81715,9 @@
           "id": "gi-item-328001",
           "name": "Knights of Favonius Library",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321002-Knights of Favonius Library.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80076,7 +81728,9 @@
           "id": "gi-item-328002",
           "name": "Jade Chamber",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321003-Jade Chamber.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80087,7 +81741,9 @@
           "id": "gi-item-328003",
           "name": "Dawn Winery",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321004-Dawn Winery.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80098,7 +81754,9 @@
           "id": "gi-item-328004",
           "name": "Wangshu Inn",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321005-Wangshu Inn.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80109,7 +81767,9 @@
           "id": "gi-item-328005",
           "name": "Favonius Cathedral",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321006-Favonius Cathedral.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80120,7 +81780,9 @@
           "id": "gi-item-328006",
           "name": "Paimon",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322001-Paimon.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80131,7 +81793,9 @@
           "id": "gi-item-328007",
           "name": "Katheryne",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322002-Katheryne.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80142,7 +81806,9 @@
           "id": "gi-item-328008",
           "name": "Timaeus",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322003-Timaeus.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80153,7 +81819,9 @@
           "id": "gi-item-328009",
           "name": "Wagner",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322004-Wagner.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80164,7 +81832,9 @@
           "id": "gi-item-328010",
           "name": "Chef Mao",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322005-Chef Mao.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80175,7 +81845,9 @@
           "id": "gi-item-328011",
           "name": "Tubby",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322006-Tubby.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80186,7 +81858,9 @@
           "id": "gi-item-328012",
           "name": "Timmie",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322007-Timmie.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80197,7 +81871,9 @@
           "id": "gi-item-328013",
           "name": "Liben",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322008-Liben.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80208,7 +81884,9 @@
           "id": "gi-item-328014",
           "name": "Chang the Ninth",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322009-Chang the Ninth.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80219,7 +81897,9 @@
           "id": "gi-item-328015",
           "name": "Ellin",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322010-Ellin.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80230,7 +81910,9 @@
           "id": "gi-item-328016",
           "name": "Iron Tongue Tian",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322011-Iron Tongue Tian.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80241,7 +81923,9 @@
           "id": "gi-item-328017",
           "name": "Liu Su",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322012-Liu Su.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80252,7 +81936,9 @@
           "id": "gi-item-328018",
           "name": "Parametric Transformer",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/323001-Parametric Transformer.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80263,7 +81949,9 @@
           "id": "gi-item-328019",
           "name": "NRE",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/323002-NRE.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80274,7 +81962,9 @@
           "id": "gi-item-328020",
           "name": "Grand Narukami Shrine",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321008-Grand Narukami Shrine.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80285,7 +81975,9 @@
           "id": "gi-item-328021",
           "name": "Tenshukaku",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321007-Tenshukaku.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80296,7 +81988,9 @@
           "id": "gi-item-328022",
           "name": "Sangonomiya Shrine",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321009-Sangonomiya Shrine.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80307,7 +82001,9 @@
           "id": "gi-item-328023",
           "name": "Sumeru City",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321010-Sumeru City.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80318,7 +82014,9 @@
           "id": "gi-item-328024",
           "name": "Vanarana",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321011-Vanarana.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80329,7 +82027,9 @@
           "id": "gi-item-328025",
           "name": "Chinju Forest",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321012-Chinju Forest.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80340,7 +82040,9 @@
           "id": "gi-item-328026",
           "name": "Hanachirusato",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322013-Hanachirusato.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80351,7 +82053,9 @@
           "id": "gi-item-328027",
           "name": "Kid Kujirai",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322014-Kid Kujirai.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80362,7 +82066,9 @@
           "id": "gi-item-328028",
           "name": "Xudong",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322015-Xudong.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80373,7 +82079,9 @@
           "id": "gi-item-328029",
           "name": "Dunyarzad",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322016-Dunyarzad.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80384,7 +82092,9 @@
           "id": "gi-item-328030",
           "name": "Rana",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322017-Rana.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80395,7 +82105,9 @@
           "id": "gi-item-328031",
           "name": "Red Feather Fan",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/323003-Red Feather Fan.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80406,7 +82118,9 @@
           "id": "gi-item-328032",
           "name": "Treasure-Seeking Seelie",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/323004-Treasure-Seeking Seelie.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80417,7 +82131,9 @@
           "id": "gi-item-328033",
           "name": "Master Zhang",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322018-Master Zhang.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80428,7 +82144,9 @@
           "id": "gi-item-328034",
           "name": "Golden House",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321013-Golden House.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80439,7 +82157,9 @@
           "id": "gi-item-328035",
           "name": "Setaria",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322019-Setaria.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80450,7 +82170,9 @@
           "id": "gi-item-328036",
           "name": "Gandharva Ville",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321014-Gandharva Ville.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80461,7 +82183,9 @@
           "id": "gi-item-328037",
           "name": "Yayoi Nanatsuki",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322020-Yayoi Nanatsuki.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80472,7 +82196,9 @@
           "id": "gi-item-328038",
           "name": "Stormterror's Lair",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321015-Stormterror's Lair.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80483,7 +82209,9 @@
           "id": "gi-item-328039",
           "name": "Weeping Willow of the Lake",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321016-Weeping Willow of the Lake.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80494,7 +82222,9 @@
           "id": "gi-item-328040",
           "name": "Opera Epiclese",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321017-Opera Epiclese.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80505,7 +82235,9 @@
           "id": "gi-item-328041",
           "name": "Mamere",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322021-Mamere.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80516,7 +82248,9 @@
           "id": "gi-item-328042",
           "name": "Seed Dispensary",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/323005-Seed Dispensary.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80527,7 +82261,9 @@
           "id": "gi-item-328043",
           "name": "Memento Lens",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/323006-Memento Lens.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80538,7 +82274,9 @@
           "id": "gi-item-328044",
           "name": "Jeht",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322022-Jeht.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80549,7 +82287,9 @@
           "id": "gi-item-328045",
           "name": "Silver and Melus",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322023-Silver and Melus.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80560,7 +82300,9 @@
           "id": "gi-item-328046",
           "name": "Fortress of Meropide",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321018-Fortress of Meropide.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80571,7 +82313,9 @@
           "id": "gi-item-328047",
           "name": "Lumenstone Adjuvant",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/323007-Lumenstone Adjuvant.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80582,7 +82326,9 @@
           "id": "gi-item-328048",
           "name": "Seirai Island",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321019-Seirai Island.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80593,7 +82339,9 @@
           "id": "gi-item-328049",
           "name": "Taroumaru",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322024-Taroumaru.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80604,7 +82352,9 @@
           "id": "gi-item-328050",
           "name": "The White Glove and the Fisherman",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322025-The White Glove and the Fisherman.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80615,7 +82365,9 @@
           "id": "gi-item-328051",
           "name": "The Mausoleum of King Deshret",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321020-The Mausoleum of King Deshret.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80626,7 +82378,9 @@
           "id": "gi-item-328052",
           "name": "Central Laboratory Ruins",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321021-Central Laboratory Ruins.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80637,7 +82391,9 @@
           "id": "gi-item-328053",
           "name": "Sir Arthur",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322026-Sir Arthur.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80648,7 +82404,9 @@
           "id": "gi-item-328054",
           "name": "Kusava",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/323008-Kusava.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80659,7 +82417,9 @@
           "id": "gi-item-328055",
           "name": "Serene",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322027-Serene.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80670,7 +82430,9 @@
           "id": "gi-item-328056",
           "name": "Stadium of the Sacred Flame",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321022-Stadium of the Sacred Flame.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80681,7 +82443,9 @@
           "id": "gi-item-328057",
           "name": "Atea",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322028-Atea.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80692,7 +82456,9 @@
           "id": "gi-item-328058",
           "name": "Stage Tepetl",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321023-Stage Tepetl.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80703,7 +82469,9 @@
           "id": "gi-item-328059",
           "name": "\"Scions of the Canopy\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321024-_Scions of the Canopy_.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80714,7 +82482,9 @@
           "id": "gi-item-328060",
           "name": "\"People of the Springs\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321025-_People of the Springs_.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80725,7 +82495,9 @@
           "id": "gi-item-328061",
           "name": "\"Flower-Feather Clan\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321026-_Flower-Feather Clan_.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80736,7 +82508,9 @@
           "id": "gi-item-328062",
           "name": "\"Masters of the Night-Wind\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321027-_Masters of the Night-Wind_.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80747,7 +82521,9 @@
           "id": "gi-item-328063",
           "name": "\"Collective of Plenty\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321028-_Collective of Plenty_.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80758,7 +82534,9 @@
           "id": "gi-item-328064",
           "name": "Calligraphy Tavern",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321029-Calligraphy Tavern.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80769,7 +82547,9 @@
           "id": "gi-item-328065",
           "name": "Constellation Metropole",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321030-Constellation Metropole.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80780,7 +82560,9 @@
           "id": "gi-item-328066",
           "name": "Forest Blessing",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322029-Forest Blessing.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80791,7 +82573,9 @@
           "id": "gi-item-328067",
           "name": "Gift of the Goddess of Prophecy",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322030-Gift of the Goddess of Prophecy.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80802,7 +82586,9 @@
           "id": "gi-item-328068",
           "name": "Adventurers' Guild",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321031-Adventurers' Guild.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80813,7 +82599,9 @@
           "id": "gi-item-328069",
           "name": "Seymour",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322031-Seymour.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80824,7 +82612,9 @@
           "id": "gi-item-328070",
           "name": "Bona and Cocouik",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322032-Bona and Cocouik.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80835,7 +82625,9 @@
           "id": "gi-item-328071",
           "name": "Silvermoon Hall",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321035-Silvermoon Hall.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80846,7 +82638,9 @@
           "id": "gi-item-328072",
           "name": "Tideseal Stone",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321036-Tideseal Stone.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80857,7 +82651,9 @@
           "id": "gi-item-328073",
           "name": "Frostmoon Enclave",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321037-Frostmoon Enclave.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80868,7 +82664,9 @@
           "id": "gi-item-328074",
           "name": "Nasha Town",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321038-Nasha Town.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80879,7 +82677,9 @@
           "id": "gi-item-328075",
           "name": "Kuuvahki Experimental Design Bureau",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321039-Kuuvahki Experimental Design Bureau.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80890,7 +82690,9 @@
           "id": "gi-item-328076",
           "name": "Elemental Transfiguration: Superconduct Blessing",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331004-Elemental Transfiguration_ Superconduct Blessing.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80901,7 +82703,9 @@
           "id": "gi-item-328077",
           "name": "Elemental Transfiguration: Vaporize Blessing",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331005-Elemental Transfiguration_ Vaporize Blessing.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80912,7 +82716,9 @@
           "id": "gi-item-328078",
           "name": "Lepine-Pauline",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322033-Lepine-Pauline.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80923,7 +82729,9 @@
           "id": "gi-item-328079",
           "name": "Elemental Transfiguration: Bloom Blessing",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331006-Elemental Transfiguration_ Bloom Blessing.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80934,7 +82742,9 @@
           "id": "gi-item-328080",
           "name": "Elemental Transfiguration: Lava Blessing",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331007-Elemental Transfiguration_ Lava Blessing.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80945,7 +82755,9 @@
           "id": "gi-item-328081",
           "name": "Netochka",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322034-Netochka.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80956,7 +82768,9 @@
           "id": "gi-item-328082",
           "name": "Elemental Transfiguration: Rimegrass Blessing",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331008-Elemental Transfiguration_ Rimegrass Blessing.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80967,7 +82781,9 @@
           "id": "gi-item-328083",
           "name": "Elemental Transfiguration: Stormgale Blessing",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331009-Elemental Transfiguration_ Stormgale Blessing.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80978,7 +82794,9 @@
           "id": "gi-item-328084",
           "name": "Nightmare Omen",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321041-Nightmare Omen.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -80989,7 +82807,9 @@
           "id": "gi-item-328085",
           "name": "Elemental Transfiguration: Aquabreeze Blessing",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331010-Elemental Transfiguration_ Aquabreeze Blessing.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81000,7 +82820,9 @@
           "id": "gi-item-328086",
           "name": "Elemental Transfiguration: Thunderbloom Blessing",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331011-Elemental Transfiguration_ Thunderbloom Blessing.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81011,7 +82833,9 @@
           "id": "gi-item-329000",
           "name": "Elemental Resonance: Woven Ice",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331101-Elemental Resonance_ Woven Ice.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81022,7 +82846,9 @@
           "id": "gi-item-329001",
           "name": "Elemental Resonance: Shattering Ice",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331102-Elemental Resonance_ Shattering Ice.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81033,7 +82859,9 @@
           "id": "gi-item-329002",
           "name": "Elemental Resonance: Woven Waters",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331201-Elemental Resonance_ Woven Waters.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81044,7 +82872,9 @@
           "id": "gi-item-329003",
           "name": "Elemental Resonance: Soothing Water",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331202-Elemental Resonance_ Soothing Water.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81055,7 +82885,9 @@
           "id": "gi-item-329004",
           "name": "Elemental Resonance: Woven Flames",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331301-Elemental Resonance_ Woven Flames.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81066,7 +82898,9 @@
           "id": "gi-item-329005",
           "name": "Elemental Resonance: Fervent Flames",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331302-Elemental Resonance_ Fervent Flames.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81077,7 +82911,9 @@
           "id": "gi-item-329006",
           "name": "Elemental Resonance: Woven Thunder",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331401-Elemental Resonance_ Woven Thunder.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81088,7 +82924,9 @@
           "id": "gi-item-329007",
           "name": "Elemental Resonance: High Voltage",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331402-Elemental Resonance_ High Voltage.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81099,7 +82937,9 @@
           "id": "gi-item-329008",
           "name": "Elemental Resonance: Woven Winds",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331501-Elemental Resonance_ Woven Winds.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81110,7 +82950,9 @@
           "id": "gi-item-329009",
           "name": "Elemental Resonance: Impetuous Winds",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331502-Elemental Resonance_ Impetuous Winds.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81121,7 +82963,9 @@
           "id": "gi-item-329010",
           "name": "Elemental Resonance: Woven Stone",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331601-Elemental Resonance_ Woven Stone.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81132,7 +82976,9 @@
           "id": "gi-item-329011",
           "name": "Elemental Resonance: Enduring Rock",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331602-Elemental Resonance_ Enduring Rock.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81143,7 +82989,9 @@
           "id": "gi-item-329012",
           "name": "Elemental Resonance: Woven Weeds",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331701-Elemental Resonance_ Woven Weeds.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81154,7 +83002,9 @@
           "id": "gi-item-329013",
           "name": "Elemental Resonance: Sprawling Greenery",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331702-Elemental Resonance_ Sprawling Greenery.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81165,7 +83015,9 @@
           "id": "gi-item-329014",
           "name": "The Bestest Travel Companion!",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332001-The Bestest Travel Companion!.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81176,7 +83028,9 @@
           "id": "gi-item-329015",
           "name": "Changing Shifts",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332002-Changing Shifts.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81187,7 +83041,9 @@
           "id": "gi-item-329016",
           "name": "Toss-Up",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332003-Toss-Up.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81198,7 +83054,9 @@
           "id": "gi-item-329017",
           "name": "Strategize",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332004-Strategize.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81209,7 +83067,9 @@
           "id": "gi-item-329018",
           "name": "I Haven't Lost Yet!",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332005-I Haven't Lost Yet!.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81220,7 +83080,9 @@
           "id": "gi-item-329019",
           "name": "Leave It to Me!",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332006-Leave it to Me!.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81231,7 +83093,9 @@
           "id": "gi-item-329020",
           "name": "When the Crane Returned",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332007-When the Crane Returned.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81242,7 +83106,9 @@
           "id": "gi-item-329021",
           "name": "Starsigns",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332008-Starsigns.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81253,7 +83119,9 @@
           "id": "gi-item-329022",
           "name": "Calx's Arts",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332009-Calx's Arts.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81264,7 +83132,9 @@
           "id": "gi-item-329023",
           "name": "Master of Weaponry",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332010-Master of Weaponry.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81275,7 +83145,9 @@
           "id": "gi-item-329024",
           "name": "Blessing of the Divine Relic's Installation",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332011-Blessing of the Divine Relic's Installation.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81286,7 +83158,9 @@
           "id": "gi-item-329025",
           "name": "Quick Knit",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332012-Quick Knit.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81297,7 +83171,9 @@
           "id": "gi-item-329026",
           "name": "Send Off",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332013-Send Off.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81308,7 +83184,9 @@
           "id": "gi-item-329027",
           "name": "Guardian's Oath",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332014-Guardian's Oath.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81319,7 +83197,9 @@
           "id": "gi-item-329028",
           "name": "Abyssal Summons",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332015-Abyssal Summons.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81330,7 +83210,9 @@
           "id": "gi-item-329029",
           "name": "Jueyun Guoba",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/333001-Jueyun Guoba.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81341,7 +83223,9 @@
           "id": "gi-item-329030",
           "name": "Adeptus' Temptation",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/333002-Adeptus' Temptation.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81352,7 +83236,9 @@
           "id": "gi-item-329031",
           "name": "Lotus Flower Crisp",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/333003-Lotus Flower Crisp.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81363,7 +83249,9 @@
           "id": "gi-item-329032",
           "name": "Northern Smoked Chicken",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/333004-Northern Smoked Chicken.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81374,7 +83262,9 @@
           "id": "gi-item-329033",
           "name": "Sweet Madame",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/333005-Sweet Madame.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81385,7 +83275,9 @@
           "id": "gi-item-329034",
           "name": "Mondstadt Hash Brown",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/333006-Mondstadt Hash Brown.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81396,7 +83288,9 @@
           "id": "gi-item-329035",
           "name": "Mushroom Pizza",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/333007-Mushroom Pizza.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81407,7 +83301,9 @@
           "id": "gi-item-329036",
           "name": "Minty Meat Rolls",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/333008-Minty Meat Rolls.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81418,7 +83314,9 @@
           "id": "gi-item-329037",
           "name": "Wind and Freedom",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331801-Wind and Freedom.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81429,7 +83327,9 @@
           "id": "gi-item-329038",
           "name": "Stone and Contracts",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331802-Stone and Contracts.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81440,7 +83340,9 @@
           "id": "gi-item-329039",
           "name": "Thunder and Eternity",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331803-Thunder and Eternity.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81451,7 +83353,9 @@
           "id": "gi-item-329040",
           "name": "Nature and Wisdom",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331804-Nature and Wisdom.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81462,7 +83366,9 @@
           "id": "gi-item-329041",
           "name": "Fatui Conspiracy",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332016-Fatui Conspiracy.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81473,7 +83379,9 @@
           "id": "gi-item-329042",
           "name": "Plunging Strike",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332017-Plunging Strike.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81484,7 +83392,9 @@
           "id": "gi-item-329043",
           "name": "Heavy Strike",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332018-Heavy Strike.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81495,7 +83405,9 @@
           "id": "gi-item-329044",
           "name": "The Legend of Vennessa",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332019-The Legend of Vennessa.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81506,7 +83418,9 @@
           "id": "gi-item-329045",
           "name": "Friendship Eternal",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332020-Friendship Eternal.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81517,7 +83431,9 @@
           "id": "gi-item-329046",
           "name": "Teyvat Fried Egg",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/333009-Teyvat Fried Egg.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81528,7 +83444,9 @@
           "id": "gi-item-329047",
           "name": "Sashimi Platter",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/333010-Sashimi Platter.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81539,7 +83457,9 @@
           "id": "gi-item-329048",
           "name": "Tandoori Roast Chicken",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/333011-Tandoori Roast Chicken.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81550,7 +83470,9 @@
           "id": "gi-item-329049",
           "name": "Butter Crab",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/333012-Butter Crab.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81561,7 +83483,9 @@
           "id": "gi-item-329050",
           "name": "Ancient Courtyard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/330001-Ancient Courtyard.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81572,7 +83496,9 @@
           "id": "gi-item-329051",
           "name": "Covenant of Rock",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/330002-Covenant of Rock.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81583,7 +83509,9 @@
           "id": "gi-item-329052",
           "name": "Rhythm of the Great Dream",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332021-Rhythm of the Great Dream.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81594,7 +83522,9 @@
           "id": "gi-item-329053",
           "name": "Joyous Celebration",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/330003-Joyous Celebration.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81605,7 +83535,9 @@
           "id": "gi-item-329054",
           "name": "Where Is the Unseen Razor?",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332022-Where Is the Unseen Razor_.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81616,7 +83548,9 @@
           "id": "gi-item-329055",
           "name": "Fresh Wind of Freedom",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/330004-Fresh Wind of Freedom.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81627,7 +83561,9 @@
           "id": "gi-item-329056",
           "name": "Pankration!",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332023-Pankration!.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81638,7 +83574,9 @@
           "id": "gi-item-329057",
           "name": "In Every House a Stove",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/330005-In Every House a Stove.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81649,7 +83587,9 @@
           "id": "gi-item-329058",
           "name": "Lyresong",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332024-Lyresong.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81660,7 +83600,9 @@
           "id": "gi-item-329059",
           "name": "Passing of Judgment",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/330006-Passing of Judgment.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81671,7 +83613,9 @@
           "id": "gi-item-329060",
           "name": "The Boar Princess",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332025-The Boar Princess.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81682,7 +83626,9 @@
           "id": "gi-item-329061",
           "name": "Falls and Fortune",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332026-Falls and Fortune.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81693,7 +83639,9 @@
           "id": "gi-item-329062",
           "name": "Flickering Four-Leaf Sigil",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332027-Flickering Four-Leaf Sigil.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81704,7 +83652,9 @@
           "id": "gi-item-329063",
           "name": "Fish and Chips",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/333013-Fish and Chips.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81715,7 +83665,9 @@
           "id": "gi-item-329064",
           "name": "Machine Assembly Line",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332028-Machine Assembly Line.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81726,7 +83678,9 @@
           "id": "gi-item-329065",
           "name": "Sunyata Flower",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332029-Sunyata Flower.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81737,7 +83691,9 @@
           "id": "gi-item-329066",
           "name": "Matsutake Meat Rolls",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/333014-Matsutake Meat Rolls.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81748,7 +83704,9 @@
           "id": "gi-item-329067",
           "name": "Day of Resistance: Moment of Shattered Dreams",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/330007-Day of Resistance_ Moment of Shattered Dreams.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81759,7 +83717,9 @@
           "id": "gi-item-329068",
           "name": "Controlled Directional Blast",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332030-Controlled Directional Blast.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81770,7 +83730,9 @@
           "id": "gi-item-329069",
           "name": "Underwater Treasure Hunt",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332031-Underwater Treasure Hunt.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81781,7 +83743,9 @@
           "id": "gi-item-329070",
           "name": "Rainbow Macarons",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/333015-Rainbow Macarons.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81792,7 +83756,9 @@
           "id": "gi-item-329071",
           "name": "Vicious Ancient Battle",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/330008-Vicious Ancient Battle.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81803,7 +83769,9 @@
           "id": "gi-item-329072",
           "name": "Water and Justice",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331805-Water and Justice.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81814,7 +83782,9 @@
           "id": "gi-item-329073",
           "name": "Countdown to the Show: 3",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332032-Countdown to the Show_ 3.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81825,7 +83795,9 @@
           "id": "gi-item-329074",
           "name": "\"I'd Rather Lose Money Myself...\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332036-_I'd Rather Lose Money Myself..._.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81836,7 +83808,9 @@
           "id": "gi-item-329075",
           "name": "Tada!",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332037-Tada!.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81847,7 +83821,9 @@
           "id": "gi-item-329076",
           "name": "Saurian Dining Buddies",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332039-Saurian Dining Buddies.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81858,7 +83834,9 @@
           "id": "gi-item-329077",
           "name": "Edict of Absolution",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/330009-Edict of Absolution.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81869,7 +83847,9 @@
           "id": "gi-item-329078",
           "name": "Eremite Teatime",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332040-Eremite Teatime.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81880,7 +83860,9 @@
           "id": "gi-item-329079",
           "name": "Saurus Crackers",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/333016-Saurus Crackers.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81891,7 +83873,9 @@
           "id": "gi-item-329080",
           "name": "Ultimate Surfing Buddy!",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332041-Ultimate Surfing Buddy!.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81902,7 +83886,9 @@
           "id": "gi-item-329081",
           "name": "Glittering Gemstones",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/333017-Glittering Gemstones.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81913,7 +83899,9 @@
           "id": "gi-item-329082",
           "name": "Pilgrimage of the Return of the Sacred Flame",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/330010-Pilgrimage of the Return of the Sacred Flame.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81924,7 +83912,9 @@
           "id": "gi-item-329083",
           "name": "Abundant Phlogiston",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332042-Abundant Phlogiston.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81935,7 +83925,9 @@
           "id": "gi-item-329084",
           "name": "Puff Pops",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/333018-Puff Pops.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81946,7 +83938,9 @@
           "id": "gi-item-329085",
           "name": "Little Tepetlisaur \u2014 Treasure Hunter at Large",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332043-Little Tepetlisaur \u2014 Treasure Hunter at Large.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81957,7 +83951,9 @@
           "id": "gi-item-329086",
           "name": "Hot Spring O'Clock",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/333019-Hot Spring O'Clock.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81968,7 +83964,9 @@
           "id": "gi-item-329087",
           "name": "In the Name of the Extreme",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332044-In the Name of the Extreme.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81979,7 +83977,9 @@
           "id": "gi-item-329088",
           "name": "Mystique Soup",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/333020-Mystique Soup.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -81990,7 +83990,9 @@
           "id": "gi-item-329089",
           "name": "Art of Sleepy Meditation",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332045-Art of Sleepy Meditation.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -82001,7 +84003,9 @@
           "id": "gi-item-329090",
           "name": "Sing Your Heart Out",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/333027-Sing Your Heart Out.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -82012,7 +84016,9 @@
           "id": "gi-item-329091",
           "name": "Fight for Death",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/330011-Fight for Death.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -82023,7 +84029,9 @@
           "id": "gi-item-329092",
           "name": "Flying Squad, Attack!",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332046-Flying Squad_ Attack!.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -82034,7 +84042,9 @@
           "id": "gi-item-329093",
           "name": "Fire and War",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331806-Fire and War.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -82045,7 +84055,9 @@
           "id": "gi-item-329094",
           "name": "Fruits of Training",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332048-Fruits of Training.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -82056,7 +84068,9 @@
           "id": "gi-item-329095",
           "name": "Harvest's Boon",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/333028-Harvest's Boon.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -82067,7 +84081,9 @@
           "id": "gi-item-329096",
           "name": "Harvest Time",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332049-Harvest Time.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -82078,7 +84094,9 @@
           "id": "gi-item-329097",
           "name": "Awesome, Bro",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332050-Awesome_ Bro.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -82089,7 +84107,9 @@
           "id": "gi-item-329098",
           "name": "Fell Dragon's Awakening",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332051-Fell Dragon's Awakening.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -82100,7 +84120,9 @@
           "id": "gi-item-329099",
           "name": "Narration Footnotes",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332052-Narration Footnotes.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -82111,7 +84133,9 @@
           "id": "gi-item-329100",
           "name": "Broken Sea",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332053-Broken Sea.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -82122,7 +84146,9 @@
           "id": "gi-item-329101",
           "name": "\"A Blessing From 'M'\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332054-_A Blessing From 'M'_.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -82133,7 +84159,9 @@
           "id": "gi-item-329102",
           "name": "\"Revelrous Beats\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332055-_Revelrous Beats_.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -82144,7 +84172,9 @@
           "id": "gi-item-329103",
           "name": "An Ancient Sacrifice of Sacred Brocade",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332056-An Ancient Sacrifice of Sacred Brocade.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -82155,7 +84185,9 @@
           "id": "gi-item-329104",
           "name": "Chenyu Brew",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/333029-Chenyu Brew.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -82166,7 +84198,9 @@
           "id": "gi-item-329105",
           "name": "Lost Legacies in the Sand",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/330012-Lost Legacies in the Sand.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -82177,7 +84211,9 @@
           "id": "gi-item-329106",
           "name": "The Narzissenkreuz Adventure",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332057-The Narzissenkreuz Adventure.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -82188,7 +84224,9 @@
           "id": "gi-item-329107",
           "name": "Plan to Save the World",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332058-Plan to Save the World.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -82199,7 +84237,9 @@
           "id": "gi-item-329108",
           "name": "\"An Adventure Through the Morning Mist\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332059-_An Adventure Through the Morning Mist_.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -82210,7 +84250,9 @@
           "id": "gi-item-329109",
           "name": "Genius's Upgrade Technique",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332060-Genius's Upgrade Technique.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -82221,7 +84263,9 @@
           "id": "gi-item-329110",
           "name": "Clink Clank Legion",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332061-Clink Clank Legion.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -82232,7 +84276,9 @@
           "id": "gi-item-329111",
           "name": "Moonsign: Ascendant Gleam",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331721-Moonsign_ Ascendant Gleam.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -82243,7 +84289,9 @@
           "id": "gi-item-329112",
           "name": "Moon and Homeland",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331807-Moon and Homeland.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -82254,7 +84302,9 @@
           "id": "gi-item-329113",
           "name": "Cleaning Time",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332062-Cleaning Time.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -82265,7 +84315,9 @@
           "id": "gi-item-329114",
           "name": "The Other Side of the Frostmoon",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/330013-The Other Side of the Frostmoon.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -82276,7 +84328,9 @@
           "id": "gi-item-329115",
           "name": "Roulette Special",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/333030-Roulette Special.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -82287,7 +84341,9 @@
           "id": "gi-item-329116",
           "name": "Lil' Fungi's Fun-Tastic Fiesta",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332063-Lil' Fungi's Fun-Tastic Fiesta.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -82298,7 +84354,9 @@
           "id": "gi-item-329117",
           "name": "The Power of Research",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332064-The Power of Research.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -82309,7 +84367,9 @@
           "id": "gi-item-329118",
           "name": "Lakkaberry Pie",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/333031-Lakkaberry Pie.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -88997,7 +91057,9 @@
           "id": "gi-item-334000",
           "name": "Ganyu",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1101-Ganyu.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89008,7 +91070,9 @@
           "id": "gi-item-334001",
           "name": "Kaeya",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1103-Kaeya.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89019,7 +91083,9 @@
           "id": "gi-item-334002",
           "name": "Chongyun",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1104-Chongyun.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89030,7 +91096,9 @@
           "id": "gi-item-334003",
           "name": "Kamisato Ayaka",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1105-Kamisato Ayaka.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89041,7 +91109,9 @@
           "id": "gi-item-334004",
           "name": "Xingqiu",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1202-Xingqiu.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89052,7 +91122,9 @@
           "id": "gi-item-334005",
           "name": "Mona",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1203-Mona.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89063,7 +91135,9 @@
           "id": "gi-item-334006",
           "name": "Diluc",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1301-Diluc.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89074,7 +91148,9 @@
           "id": "gi-item-334007",
           "name": "Xiangling",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1302-Xiangling.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89085,7 +91161,9 @@
           "id": "gi-item-334008",
           "name": "Bennett",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1303-Bennett.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89096,7 +91174,9 @@
           "id": "gi-item-334009",
           "name": "Amber",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1304-Amber.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89107,7 +91187,9 @@
           "id": "gi-item-334010",
           "name": "Yoimiya",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1305-Yoimiya.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89118,7 +91200,9 @@
           "id": "gi-item-334011",
           "name": "Fischl",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1401-Fischl.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89129,7 +91213,9 @@
           "id": "gi-item-334012",
           "name": "Razor",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1402-Razor.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89140,7 +91226,9 @@
           "id": "gi-item-334013",
           "name": "Keqing",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1403-Keqing.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89151,7 +91239,9 @@
           "id": "gi-item-334014",
           "name": "Sucrose",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1501-Sucrose.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89162,7 +91252,9 @@
           "id": "gi-item-334015",
           "name": "Jean",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1502-Jean.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89173,7 +91265,9 @@
           "id": "gi-item-334016",
           "name": "Ningguang",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1601-Ningguang.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89184,7 +91278,9 @@
           "id": "gi-item-334017",
           "name": "Noelle",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1602-Noelle.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89195,7 +91291,9 @@
           "id": "gi-item-334018",
           "name": "Collei",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1701-Collei.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89206,7 +91304,9 @@
           "id": "gi-item-334019",
           "name": "Rhodeia of Loch",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2201-Rhodeia of Loch.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89217,7 +91317,9 @@
           "id": "gi-item-334020",
           "name": "Fatui Pyro Agent",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2301-Fatui Pyro Agent.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89228,7 +91330,9 @@
           "id": "gi-item-334021",
           "name": "Maguu Kenki",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2501-Maguu Kenki.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89239,7 +91343,9 @@
           "id": "gi-item-334022",
           "name": "Stonehide Lawachurl",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2601-Stonehide Lawachurl.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89250,7 +91356,9 @@
           "id": "gi-item-334023",
           "name": "Diona",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1102-Diona.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89261,7 +91369,9 @@
           "id": "gi-item-334024",
           "name": "Cyno",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1404-Cyno.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89272,7 +91382,9 @@
           "id": "gi-item-334025",
           "name": "Barbara",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1201-Barbara.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89283,7 +91395,9 @@
           "id": "gi-item-334026",
           "name": "Mirror Maiden",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2202-Mirror Maiden.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89294,7 +91408,9 @@
           "id": "gi-item-334027",
           "name": "Jadeplume Terrorshroom",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2701-Jadeplume Terrorshroom.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89305,7 +91421,9 @@
           "id": "gi-item-334028",
           "name": "Beidou",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1405-Beidou.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89316,7 +91434,9 @@
           "id": "gi-item-334029",
           "name": "Klee",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1306-Klee.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89327,7 +91447,9 @@
           "id": "gi-item-334030",
           "name": "Eula",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1106-Eula.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89338,7 +91460,9 @@
           "id": "gi-item-334031",
           "name": "Sangonomiya Kokomi",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1205-Sangonomiya Kokomi.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89349,7 +91473,9 @@
           "id": "gi-item-334032",
           "name": "Kujou Sara",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1406-Kujou Sara.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89360,7 +91486,9 @@
           "id": "gi-item-334033",
           "name": "Kamisato Ayato",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1206-Kamisato Ayato.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89371,7 +91499,9 @@
           "id": "gi-item-334034",
           "name": "Arataki Itto",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1605-Arataki Itto.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89382,7 +91512,9 @@
           "id": "gi-item-334035",
           "name": "Tighnari",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1702-Tighnari.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89393,7 +91525,9 @@
           "id": "gi-item-334036",
           "name": "Tartaglia",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1204-Tartaglia.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89404,7 +91538,9 @@
           "id": "gi-item-334037",
           "name": "Hu Tao",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1307-Hu Tao.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89415,7 +91551,9 @@
           "id": "gi-item-334038",
           "name": "Raiden Shogun",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1407-Raiden Shogun.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89426,7 +91564,9 @@
           "id": "gi-item-334039",
           "name": "Yae Miko",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1408-Yae Miko.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89437,7 +91577,9 @@
           "id": "gi-item-334040",
           "name": "Venti",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1503-Venti.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89448,7 +91590,9 @@
           "id": "gi-item-334041",
           "name": "Xiao",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1504-Xiao.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89459,7 +91603,9 @@
           "id": "gi-item-334042",
           "name": "Zhongli",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1603-Zhongli.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89470,7 +91616,9 @@
           "id": "gi-item-334043",
           "name": "Albedo",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1604-Albedo.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89481,7 +91629,9 @@
           "id": "gi-item-334044",
           "name": "Nahida",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1703-Nahida.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89492,7 +91642,9 @@
           "id": "gi-item-334045",
           "name": "Fatui Cryo Cicin Mage",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2101-Fatui Cryo Cicin Mage.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89503,7 +91655,9 @@
           "id": "gi-item-334046",
           "name": "Abyss Lector: Fathomless Flames",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2302-Abyss Lector_ Fathomless Flames.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89514,7 +91668,9 @@
           "id": "gi-item-334047",
           "name": "Electro Hypostasis",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2401-Electro Hypostasis.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89525,7 +91681,9 @@
           "id": "gi-item-334048",
           "name": "Shenhe",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1107-Shenhe.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89536,7 +91694,9 @@
           "id": "gi-item-334049",
           "name": "Candace",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1207-Candace.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89547,7 +91707,9 @@
           "id": "gi-item-334050",
           "name": "Yanfei",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1308-Yanfei.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89558,7 +91720,9 @@
           "id": "gi-item-334051",
           "name": "Kaedehara Kazuha",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1505-Kaedehara Kazuha.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89569,7 +91733,9 @@
           "id": "gi-item-334052",
           "name": "Qiqi",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1108-Qiqi.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89580,7 +91746,9 @@
           "id": "gi-item-334053",
           "name": "Lisa",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1409-Lisa.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89591,7 +91759,9 @@
           "id": "gi-item-334054",
           "name": "Dehya",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1309-Dehya.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89602,7 +91772,9 @@
           "id": "gi-item-334055",
           "name": "Wanderer",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1506-Wanderer.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89613,7 +91785,9 @@
           "id": "gi-item-334056",
           "name": "Yaoyao",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1704-Yaoyao.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89624,7 +91798,9 @@
           "id": "gi-item-334057",
           "name": "Nilou",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1208-Nilou.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89635,7 +91811,9 @@
           "id": "gi-item-334058",
           "name": "Dori",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1410-Dori.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89646,7 +91824,9 @@
           "id": "gi-item-334059",
           "name": "Baizhu",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1705-Baizhu.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89657,7 +91837,9 @@
           "id": "gi-item-334060",
           "name": "La Signora",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2102-La Signora.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89668,7 +91850,9 @@
           "id": "gi-item-334061",
           "name": "Azhdaha",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2602-Azhdaha.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89679,7 +91863,9 @@
           "id": "gi-item-334062",
           "name": "Layla",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1109-Layla.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89690,7 +91876,9 @@
           "id": "gi-item-334063",
           "name": "Yelan",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1209-Yelan.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89701,7 +91889,9 @@
           "id": "gi-item-334064",
           "name": "Lyney",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1310-Lyney.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89712,7 +91902,9 @@
           "id": "gi-item-334065",
           "name": "Lynette",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1508-Lynette.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89723,7 +91915,9 @@
           "id": "gi-item-334066",
           "name": "Gorou",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1606-Gorou.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89734,7 +91928,9 @@
           "id": "gi-item-334067",
           "name": "Alhaitham",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1706-Alhaitham.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89745,7 +91941,9 @@
           "id": "gi-item-334068",
           "name": "Eremite Scorching Loremaster",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2303-Eremite Scorching Loremaster.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89756,7 +91954,9 @@
           "id": "gi-item-334069",
           "name": "Thunder Manifestation",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2402-Thunder Manifestation.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89767,7 +91967,9 @@
           "id": "gi-item-334070",
           "name": "Dvalin",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2502-Dvalin.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89778,7 +91980,9 @@
           "id": "gi-item-334071",
           "name": "Thoma",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1311-Thoma.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89789,7 +91993,9 @@
           "id": "gi-item-334072",
           "name": "Sayu",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1507-Sayu.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89800,7 +92006,9 @@
           "id": "gi-item-334073",
           "name": "Cryo Hypostasis",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2103-Cryo Hypostasis.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89811,7 +92019,9 @@
           "id": "gi-item-334074",
           "name": "Millennial Pearl Seahorse",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2403-Millennial Pearl Seahorse.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89822,7 +92032,9 @@
           "id": "gi-item-334075",
           "name": "Charlotte",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1110-Charlotte.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89833,7 +92045,9 @@
           "id": "gi-item-334076",
           "name": "Neuvillette",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1210-Neuvillette.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89844,7 +92058,9 @@
           "id": "gi-item-334077",
           "name": "Kirara",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1707-Kirara.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89855,7 +92071,9 @@
           "id": "gi-item-334078",
           "name": "Fatui Electro Cicin Mage",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2404-Fatui Electro Cicin Mage.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89866,7 +92084,9 @@
           "id": "gi-item-334079",
           "name": "Kuki Shinobu",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1411-Kuki Shinobu.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89877,7 +92097,9 @@
           "id": "gi-item-334080",
           "name": "Faruzan",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1509-Faruzan.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89888,7 +92110,9 @@
           "id": "gi-item-334081",
           "name": "Abyss Herald: Wicked Torrents",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2203-Abyss Herald_ Wicked Torrents.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89899,7 +92123,9 @@
           "id": "gi-item-334082",
           "name": "Emperor of Fire and Iron",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2304-Emperor of Fire and Iron.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89910,7 +92136,9 @@
           "id": "gi-item-334083",
           "name": "Wriothesley",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1111-Wriothesley.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89921,7 +92149,9 @@
           "id": "gi-item-334084",
           "name": "Furina",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1211-Furina.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89932,7 +92162,9 @@
           "id": "gi-item-334085",
           "name": "Xinyan",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1312-Xinyan.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89943,7 +92175,9 @@
           "id": "gi-item-334086",
           "name": "Yun Jin",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1607-Yun Jin.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89954,7 +92188,9 @@
           "id": "gi-item-334087",
           "name": "Kaveh",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1708-Kaveh.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89965,7 +92201,9 @@
           "id": "gi-item-334088",
           "name": "All-Devouring Narwhal",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2204-All-Devouring Narwhal.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89976,7 +92214,9 @@
           "id": "gi-item-334089",
           "name": "Consecrated Scorpion",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2405-Consecrated Scorpion.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89987,7 +92227,9 @@
           "id": "gi-item-334090",
           "name": "Consecrated Flying Serpent",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2503-Consecrated Flying Serpent.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -89998,7 +92240,9 @@
           "id": "gi-item-334091",
           "name": "Guardian of Apep's Oasis",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2702-Guardian of Apep's Oasis.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90009,7 +92253,9 @@
           "id": "gi-item-334092",
           "name": "Chevreuse",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1313-Chevreuse.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90020,7 +92266,9 @@
           "id": "gi-item-334093",
           "name": "Navia",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1608-Navia.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90031,7 +92279,9 @@
           "id": "gi-item-334094",
           "name": "Frost Operative",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2104-Frost Operative.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90042,7 +92292,9 @@
           "id": "gi-item-334095",
           "name": "Freminet",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1112-Freminet.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90053,7 +92305,9 @@
           "id": "gi-item-334096",
           "name": "Xianyun",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1510-Xianyun.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90064,7 +92318,9 @@
           "id": "gi-item-334097",
           "name": "Hydro Hilichurl Rogue",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2205-Hydro Hilichurl Rogue.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90075,7 +92331,9 @@
           "id": "gi-item-334098",
           "name": "Chiori",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1609-Chiori.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90086,7 +92344,9 @@
           "id": "gi-item-334099",
           "name": "Abyss Lector: Violet Lightning",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2406-Abyss Lector_ Violet Lightning.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90097,7 +92357,9 @@
           "id": "gi-item-334100",
           "name": "Eremite Floral Ring-Dancer",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2703-Eremite Floral Ring-Dancer.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90108,7 +92370,9 @@
           "id": "gi-item-334101",
           "name": "Rosaria",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1113-Rosaria.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90119,7 +92383,9 @@
           "id": "gi-item-334102",
           "name": "Sigewinne",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1213-Sigewinne.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90130,7 +92396,9 @@
           "id": "gi-item-334103",
           "name": "Golden Wolflord",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2603-Golden Wolflord.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90141,7 +92409,9 @@
           "id": "gi-item-334104",
           "name": "Mualani",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1214-Mualani.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90152,7 +92422,9 @@
           "id": "gi-item-334105",
           "name": "Clorinde",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1412-Clorinde.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90163,7 +92435,9 @@
           "id": "gi-item-334106",
           "name": "Arlecchino",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1314-Arlecchino.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90174,7 +92448,9 @@
           "id": "gi-item-334107",
           "name": "Kinich",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1709-Kinich.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90185,7 +92461,9 @@
           "id": "gi-item-334108",
           "name": "Kachina",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1610-Kachina.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90196,7 +92474,9 @@
           "id": "gi-item-334109",
           "name": "Emilie",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1710-Emilie.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90207,7 +92487,9 @@
           "id": "gi-item-334110",
           "name": "Sethos",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1413-Sethos.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90218,7 +92500,9 @@
           "id": "gi-item-334111",
           "name": "Xilonen",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1611-Xilonen.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90229,7 +92513,9 @@
           "id": "gi-item-334112",
           "name": "Citlali",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1114-Citlali.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90240,7 +92526,9 @@
           "id": "gi-item-334113",
           "name": "Mavuika",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1315-Mavuika.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90251,7 +92539,9 @@
           "id": "gi-item-334114",
           "name": "Chasca",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1511-Chasca.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90262,7 +92552,9 @@
           "id": "gi-item-334115",
           "name": "Lan Yan",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1512-Lan Yan.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90273,7 +92565,9 @@
           "id": "gi-item-334116",
           "name": "Shikanoin Heizou",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1513-Shikanoin Heizou.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90284,7 +92578,9 @@
           "id": "gi-item-334117",
           "name": "Gluttonous Yumkasaur Mountain King",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2704-Gluttonous Yumkasaur Mountain King.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90295,7 +92591,9 @@
           "id": "gi-item-334118",
           "name": "Iansan",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1414-Iansan.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90306,7 +92604,9 @@
           "id": "gi-item-334119",
           "name": "Yumemizuki Mizuki",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1514-Yumemizuki Mizuki.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90317,7 +92617,9 @@
           "id": "gi-item-334120",
           "name": "Lord of Eroded Primal Fire",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2305-Lord of Eroded Primal Fire.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90328,7 +92630,9 @@
           "id": "gi-item-334121",
           "name": "Varesa",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1415-Varesa.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90339,7 +92643,9 @@
           "id": "gi-item-334122",
           "name": "Ifa",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1515-Ifa.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90350,7 +92656,9 @@
           "id": "gi-item-334123",
           "name": "Hydro Tulpa",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2206-Hydro Tulpa.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90361,7 +92669,9 @@
           "id": "gi-item-334124",
           "name": "Escoffier",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1115-Escoffier.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90372,7 +92682,9 @@
           "id": "gi-item-334125",
           "name": "Gaming",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1316-Gaming.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90383,7 +92695,9 @@
           "id": "gi-item-334126",
           "name": "Black Serpent Knight: Rockbreaker Ax",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2604-Black Serpent Knight_ Rockbreaker Ax.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90394,7 +92708,9 @@
           "id": "gi-item-334127",
           "name": "Skirk",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1116-Skirk.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90405,7 +92721,9 @@
           "id": "gi-item-334128",
           "name": "Ororon",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1416-Ororon.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90416,7 +92734,9 @@
           "id": "gi-item-334129",
           "name": "Consecrated Horned Crocodile",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2207-Consecrated Horned Crocodile.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90427,7 +92747,9 @@
           "id": "gi-item-334130",
           "name": "Mika",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1117-Mika.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90438,7 +92760,9 @@
           "id": "gi-item-334131",
           "name": "Ineffa",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1417-Ineffa.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90449,7 +92773,9 @@
           "id": "gi-item-334132",
           "name": "Goldflame Qucusaur Tyrant",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2306-Goldflame Qucusaur Tyrant.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90460,7 +92786,9 @@
           "id": "gi-item-334133",
           "name": "Dahlia",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1215-Dahlia.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90471,7 +92799,9 @@
           "id": "gi-item-334134",
           "name": "Aino",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1216-Aino.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90482,7 +92812,9 @@
           "id": "gi-item-334135",
           "name": "Consecrated Fanged Beast",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2705-Consecrated Fanged Beast.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90493,7 +92825,9 @@
           "id": "gi-item-334136",
           "name": "Flins",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1418-Flins.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90504,7 +92838,9 @@
           "id": "gi-item-334137",
           "name": "Lauma",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1711-Lauma.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90515,7 +92851,9 @@
           "id": "gi-item-334138",
           "name": "Experimental Field Generator",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2605-Experimental Field Generator.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90526,7 +92864,9 @@
           "id": "gi-item-334139",
           "name": "Nefer",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/character cards/assets/1712-Nefer.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90537,7 +92877,9 @@
           "id": "gi-item-334140",
           "name": "Wayward Hermetic Spiritspeaker",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2105-Wayward Hermetic Spiritspeaker.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90548,7 +92890,9 @@
           "id": "gi-item-334141",
           "name": "Black Serpent Knight: Windcutter",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/2504-Black Serpent Knight_ Windcutter.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90559,7 +92903,9 @@
           "id": "gi-item-334500",
           "name": "Undivided Heart",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/211011-Undivided Heart.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90570,7 +92916,9 @@
           "id": "gi-item-334501",
           "name": "Cold-Blooded Strike",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/211031-Cold-Blooded Strike.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90581,7 +92929,9 @@
           "id": "gi-item-334502",
           "name": "Steady Breathing",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/211041-Steady Breathing.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90592,7 +92942,9 @@
           "id": "gi-item-334503",
           "name": "Kanten Senmyou Blessing",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/211051-Kanten Senmyou Blessing.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90603,7 +92955,9 @@
           "id": "gi-item-334504",
           "name": "The Scent Remained",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/212021-The Scent Remained.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90614,7 +92968,9 @@
           "id": "gi-item-334505",
           "name": "Prophecy of Submersion",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/212031-Prophecy of Submersion.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90625,7 +92981,9 @@
           "id": "gi-item-334506",
           "name": "Flowing Flame",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/213011-Flowing Flame.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90636,7 +92994,9 @@
           "id": "gi-item-334507",
           "name": "Crossfire",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/213021-Crossfire.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90647,7 +93007,9 @@
           "id": "gi-item-334508",
           "name": "Grand Expectation",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/213031-Grand Expectation.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90658,7 +93020,9 @@
           "id": "gi-item-334509",
           "name": "Bunny Triggered",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/213041-Bunny Triggered.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90669,7 +93033,9 @@
           "id": "gi-item-334510",
           "name": "Naganohara Meteor Swarm",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/213051-Naganohara Meteor Swarm.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90680,7 +93046,9 @@
           "id": "gi-item-334511",
           "name": "Stellar Predator",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/214011-Stellar Predator.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90691,7 +93059,9 @@
           "id": "gi-item-334512",
           "name": "Awakening",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/214021-Awakening.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90702,7 +93072,9 @@
           "id": "gi-item-334513",
           "name": "Thundering Penance",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/214031-Thundering Penance.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90713,7 +93085,9 @@
           "id": "gi-item-334514",
           "name": "Chaotic Entropy",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/215011-Chaotic Entropy.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90724,7 +93098,9 @@
           "id": "gi-item-334515",
           "name": "Lands of Dandelion",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/215021-Lands of Dandelion.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90735,7 +93111,9 @@
           "id": "gi-item-334516",
           "name": "Strategic Reserve",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/216011-Strategic Reserve.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90746,7 +93124,9 @@
           "id": "gi-item-334517",
           "name": "I Got Your Back",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/216021-I Got Your Back.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90757,7 +93137,9 @@
           "id": "gi-item-334518",
           "name": "Floral Sidewinder",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/217011-Floral Sidewinder.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90768,7 +93150,9 @@
           "id": "gi-item-334519",
           "name": "Streaming Surge",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/222011-Streaming Surge.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90779,7 +93163,9 @@
           "id": "gi-item-334520",
           "name": "Paid in Full",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/223011-Paid in Full.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90790,7 +93176,9 @@
           "id": "gi-item-334521",
           "name": "Transcendent Automaton",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/225011-Transcendent Automaton.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90801,7 +93189,9 @@
           "id": "gi-item-334522",
           "name": "Stonehide Reforged",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/226011-Stonehide Reforged.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90812,7 +93202,9 @@
           "id": "gi-item-334523",
           "name": "Shaken, Not Purred",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/211021-Shaken_ Not Purred.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90823,7 +93215,9 @@
           "id": "gi-item-334524",
           "name": "Featherfall Judgment",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/214041-Featherfall Judgment.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90834,7 +93228,9 @@
           "id": "gi-item-334525",
           "name": "Glorious Season",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/212011-Glorious Season.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90845,7 +93241,9 @@
           "id": "gi-item-334526",
           "name": "Mirror Cage",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/222021-Mirror Cage.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90856,7 +93254,9 @@
           "id": "gi-item-334527",
           "name": "Proliferating Spores",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/227011-Proliferating Spores.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90867,7 +93267,9 @@
           "id": "gi-item-334528",
           "name": "Lightning Storm",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/214051-Lightning Storm.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90878,7 +93280,9 @@
           "id": "gi-item-334529",
           "name": "Pounding Surprise",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/213061-Pounding Surprise.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90889,7 +93293,9 @@
           "id": "gi-item-334530",
           "name": "Wellspring of War-Lust",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/211061-Wellspring of War-Lust.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90900,7 +93306,9 @@
           "id": "gi-item-334531",
           "name": "Tamakushi Casket",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/212051-Tamakushi Casket.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90911,7 +93319,9 @@
           "id": "gi-item-334532",
           "name": "Sin of Pride",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/214061-Sin of Pride.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90922,7 +93332,9 @@
           "id": "gi-item-334533",
           "name": "Kyouka Fuushi",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/212061-Kyouka Fuushi.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90933,7 +93345,9 @@
           "id": "gi-item-334534",
           "name": "Arataki Ichiban",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/216051-Arataki Ichiban.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90944,7 +93358,9 @@
           "id": "gi-item-334535",
           "name": "Keen Sight",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/217021-Keen Sight.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90955,7 +93371,9 @@
           "id": "gi-item-334536",
           "name": "Embrace of Winds",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/215031-Embrace of Winds.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90966,7 +93384,9 @@
           "id": "gi-item-334537",
           "name": "Conqueror of Evil: Guardian Yaksha",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/215041-Conqueror of Evil_ Guardian Yaksha.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90977,7 +93397,9 @@
           "id": "gi-item-334538",
           "name": "Dominance of Earth",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/216031-Dominance of Earth.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90988,7 +93410,9 @@
           "id": "gi-item-334539",
           "name": "Absorbing Prism",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/224011-Absorbing Prism.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -90999,7 +93423,9 @@
           "id": "gi-item-334540",
           "name": "Mystical Abandon",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/211071-Mystical Abandon.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91010,7 +93436,9 @@
           "id": "gi-item-334541",
           "name": "Abyssal Mayhem: Hydrospout",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/212041-Abyssal Mayhem_ Hydrospout.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91021,7 +93449,9 @@
           "id": "gi-item-334542",
           "name": "Sanguine Rouge",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/213071-Sanguine Rouge.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91032,7 +93462,9 @@
           "id": "gi-item-334543",
           "name": "Wishes Unnumbered",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/214071-Wishes Unnumbered.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91043,7 +93475,9 @@
           "id": "gi-item-334544",
           "name": "The Shrine's Sacred Shade",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/214081-The Shrine's Sacred Shade.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91054,7 +93488,9 @@
           "id": "gi-item-334545",
           "name": "Descent of Divinity",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/216041-Descent of Divinity.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91065,7 +93501,9 @@
           "id": "gi-item-334546",
           "name": "The Seed of Stored Knowledge",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/217031-The Seed of Stored Knowledge.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91076,7 +93514,9 @@
           "id": "gi-item-334547",
           "name": "Cicin's Cold Glare",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/221011-Cicin's Cold Glare.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91087,7 +93527,9 @@
           "id": "gi-item-334548",
           "name": "Embers Rekindled",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/223021-Embers Rekindled.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91098,7 +93540,9 @@
           "id": "gi-item-334549",
           "name": "The Overflow",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/212071-The Overflow.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91109,7 +93553,9 @@
           "id": "gi-item-334550",
           "name": "Right of Final Interpretation",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/213081-Right of Final Interpretation.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91120,7 +93566,9 @@
           "id": "gi-item-334551",
           "name": "Poetics of Fuubutsu",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/215051-Poetics of Fuubutsu.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91131,7 +93579,9 @@
           "id": "gi-item-334552",
           "name": "Rite of Resurrection",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/211081-Rite of Resurrection.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91142,7 +93592,9 @@
           "id": "gi-item-334553",
           "name": "Pulsating Witch",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/214091-Pulsating Witch.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91153,7 +93605,9 @@
           "id": "gi-item-334554",
           "name": "Stalwart and True",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/213091-Stalwart and True.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91164,7 +93618,9 @@
           "id": "gi-item-334555",
           "name": "Gales of Reverie",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/215061-Gales of Reverie.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91175,7 +93631,9 @@
           "id": "gi-item-334556",
           "name": "Beneficent",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/217041-Beneficent.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91186,7 +93644,9 @@
           "id": "gi-item-334557",
           "name": "The Starry Skies Their Flowers Rain",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/212081-The Starry Skies Their Flowers Rain.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91197,7 +93657,9 @@
           "id": "gi-item-334558",
           "name": "Discretionary Supplement",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/214101-Discretionary Supplement.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91208,7 +93670,9 @@
           "id": "gi-item-334559",
           "name": "All Things Are of the Earth",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/217051-All Things Are of the Earth.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91219,7 +93683,9 @@
           "id": "gi-item-334560",
           "name": "Light's Remit",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/211091-Light's Remit.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91230,7 +93696,9 @@
           "id": "gi-item-334561",
           "name": "Turn Control",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/212091-Turn Control.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91241,7 +93709,9 @@
           "id": "gi-item-334562",
           "name": "Conclusive Ovation",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/213101-Conclusive Ovation.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91252,7 +93722,9 @@
           "id": "gi-item-334563",
           "name": "A Cold Blade Like a Shadow",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/215081-A Cold Blade Like a Shadow.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91263,7 +93735,9 @@
           "id": "gi-item-334564",
           "name": "Rushing Hound: Swift as the Wind",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/216061-Rushing Hound_ Swift as the Wind.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91274,7 +93748,9 @@
           "id": "gi-item-334565",
           "name": "Structuration",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/217061-Structuration.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91285,7 +93761,9 @@
           "id": "gi-item-334566",
           "name": "Pain for Pain",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/221021-Pain for Pain.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91296,7 +93774,9 @@
           "id": "gi-item-334567",
           "name": "Scorpocalypse",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/223031-Scorpocalypse.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91307,7 +93787,9 @@
           "id": "gi-item-334568",
           "name": "Grieving Echo",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/224021-Grieving Echo.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91318,7 +93800,9 @@
           "id": "gi-item-334569",
           "name": "Rending Vortex",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/225021-Rending Vortex.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91329,7 +93813,9 @@
           "id": "gi-item-334570",
           "name": "Lunar Cycles Unending",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/226022-Lunar Cycles Unending.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91340,7 +93826,9 @@
           "id": "gi-item-334571",
           "name": "A Subordinate's Skills",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/213111-A Subordinate's Skills.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91351,7 +93839,9 @@
           "id": "gi-item-334572",
           "name": "Skiving: New and Improved",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/215071-Skiving_ New and Improved.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91362,7 +93852,9 @@
           "id": "gi-item-334573",
           "name": "Sternfrost Prism",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/221031-Sternfrost Prism.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91373,7 +93865,9 @@
           "id": "gi-item-334574",
           "name": "Pearl Solidification",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/224031-Pearl Solidification.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91384,7 +93878,9 @@
           "id": "gi-item-334575",
           "name": "A Summation of Interest",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/211101-A Summation of Interest.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91395,7 +93891,9 @@
           "id": "gi-item-334576",
           "name": "Heir to the Ancient Sea's Authority",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/212101-Heir to the Ancient Sea's Authority.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91406,7 +93904,9 @@
           "id": "gi-item-334577",
           "name": "Countless Sights to See",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/217071-Countless Sights to See.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91417,7 +93917,9 @@
           "id": "gi-item-334578",
           "name": "Electro Cicin's Gleam",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/224041-Electro Cicin's Gleam.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91428,7 +93930,9 @@
           "id": "gi-item-334579",
           "name": "To Ward Weakness",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/214111-To Ward Weakness.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91439,7 +93943,9 @@
           "id": "gi-item-334580",
           "name": "The Wondrous Path of Truth",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/215091-The Wondrous Path of Truth.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91450,7 +93956,9 @@
           "id": "gi-item-334581",
           "name": "Surging Undercurrent",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/222031-Surging Undercurrent.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91461,7 +93969,9 @@
           "id": "gi-item-334582",
           "name": "Molten Mail",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/223041-Molten Mail.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91472,7 +93982,9 @@
           "id": "gi-item-334583",
           "name": "Terror for the Evildoers",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/211111-Terror for the Evildoers.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91483,7 +93995,9 @@
           "id": "gi-item-334584",
           "name": "\"Hear Me \u2014 Let Us Raise the Chalice of Love!\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/212111-_Hear Me \u2014 Let Us Raise the Chalice of Love!_.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91494,7 +94008,9 @@
           "id": "gi-item-334585",
           "name": "Rockin' in a Flaming World",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/213121-Rockin' in a Flaming World.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91505,7 +94021,9 @@
           "id": "gi-item-334586",
           "name": "Decorous Harmony",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/216071-Decorous Harmony.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91516,7 +94034,9 @@
           "id": "gi-item-334587",
           "name": "The Art of Budgeting",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/217081-The Art of Budgeting.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91527,7 +94047,9 @@
           "id": "gi-item-334588",
           "name": "Lightless Feeding",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/222041-Lightless Feeding.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91538,7 +94060,9 @@
           "id": "gi-item-334589",
           "name": "Fatal Fulmination",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/224051-Fatal Fulmination.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91549,7 +94073,9 @@
           "id": "gi-item-334590",
           "name": "Deathly Cyclone",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/225031-Deathly Cyclone.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91560,7 +94086,9 @@
           "id": "gi-item-334591",
           "name": "A Thousand Young",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/227021-A Thousand Young.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91571,7 +94099,9 @@
           "id": "gi-item-334592",
           "name": "Vanguard's Coordinated Tactics",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/213131-Vanguard's Coordinated Tactics.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91582,7 +94112,9 @@
           "id": "gi-item-334593",
           "name": "Undisclosed Distribution Channels",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/216081-Undisclosed Distribution Channels.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91593,7 +94125,9 @@
           "id": "gi-item-334594",
           "name": "Rimeflow Rapier",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/221041-Rimeflow Rapier.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91604,7 +94138,9 @@
           "id": "gi-item-334595",
           "name": "Moment of Waking and Resolve",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/211121-Moment of Waking and Resolve.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91615,7 +94151,9 @@
           "id": "gi-item-334596",
           "name": "They Call Her Cloud Retainer",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/215101-They Call Her Cloud Retainer.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91626,7 +94164,9 @@
           "id": "gi-item-334597",
           "name": "Featherweight Foam",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/222051-Featherweight Foam.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91637,7 +94177,9 @@
           "id": "gi-item-334598",
           "name": "In Five Colors Dyed",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/216091-In Five Colors Dyed.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91648,7 +94190,9 @@
           "id": "gi-item-334599",
           "name": "Chain Lightning Cascade",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/224061-Chain Lightning Cascade.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91659,7 +94203,9 @@
           "id": "gi-item-334600",
           "name": "Spirit Serpent's Swirl",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/227031-Spirit Serpent's Swirl.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91670,7 +94216,9 @@
           "id": "gi-item-334601",
           "name": "Divine Retribution",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/211131-Divine Retribution.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91681,7 +94229,9 @@
           "id": "gi-item-334602",
           "name": "Requires Appropriate Rest",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/212131-Requires Appropriate Rest.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91692,7 +94242,9 @@
           "id": "gi-item-334603",
           "name": "Beastly Corrosion",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/226031-Beastly Corrosion.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91703,7 +94255,9 @@
           "id": "gi-item-334604",
           "name": "Night Realm's Gift: Crests and Troughs",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/212141-Night Realm's Gift_ Crests and Troughs.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91714,7 +94268,9 @@
           "id": "gi-item-334605",
           "name": "Dark-Shattering Flame",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/214121-Dark-Shattering Flame.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91725,7 +94281,9 @@
           "id": "gi-item-334606",
           "name": "All Reprisals and Arrears, Mine to Bear",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/213141-All Reprisals and Arrears_ Mine to Bear.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91736,7 +94294,9 @@
           "id": "gi-item-334607",
           "name": "Night Realm's Gift: Repaid in Full",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/217091-Night Realm's Gift_ Repaid in Full.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91747,7 +94307,9 @@
           "id": "gi-item-334608",
           "name": "Night Realm's Gift: Heart of Unity",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/216101-Night Realm's Gift_ Heart of Unity.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91758,7 +94320,9 @@
           "id": "gi-item-334609",
           "name": "Marcotte Sillage",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/217101-Marcotte Sillage.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91769,7 +94333,9 @@
           "id": "gi-item-334610",
           "name": "Pylon of the Sojourning Sun Temple",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/214131-Pylon of the Sojourning Sun Temple.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91780,7 +94346,9 @@
           "id": "gi-item-334611",
           "name": "Tour of Tepeilhuitl",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/216111-Tour of Tepeilhuitl.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91791,7 +94359,9 @@
           "id": "gi-item-334612",
           "name": "Mamaloaco's Frigid Rain",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/211141-Mamaloaco's Frigid Rain.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91802,7 +94372,9 @@
           "id": "gi-item-334613",
           "name": "\"Humanity's Name\" Unfettered",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/213151-_Humanity's Name_ Unfettered.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91813,7 +94385,9 @@
           "id": "gi-item-334614",
           "name": "Bullet Trick",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/215111-Bullet Trick.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91824,7 +94398,9 @@
           "id": "gi-item-334615",
           "name": "Dance Vestments Billow Like Rainbow Jade",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/215121-Dance Vestments Billow Like Rainbow Jade.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91835,7 +94411,9 @@
           "id": "gi-item-334616",
           "name": "Curious Casefiles",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/215131-Curious Casefiles.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91846,7 +94424,9 @@
           "id": "gi-item-334617",
           "name": "The All-Devourer",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/227041-The All-Devourer.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91857,7 +94437,9 @@
           "id": "gi-item-334618",
           "name": "Teachings of the Collective of Plenty",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/214141-Teachings of the Collective of Plenty.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91868,7 +94450,9 @@
           "id": "gi-item-334619",
           "name": "Your Echo I Meet in Dreams",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/215141-Your Echo I Meet in Dreams.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91879,7 +94463,9 @@
           "id": "gi-item-334620",
           "name": "Undying Fury",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/223051-Undying Fury.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91890,7 +94476,9 @@
           "id": "gi-item-334621",
           "name": "A Hero of Justice's Triumph",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/214151-A Hero of Justice's Triumph.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91901,7 +94489,9 @@
           "id": "gi-item-334622",
           "name": "Tactical Warm Compress Bandaging",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/215151-Tactical Warm Compress Bandaging.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91912,7 +94502,9 @@
           "id": "gi-item-334623",
           "name": "Flow Convergence",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/222061-Flow Convergence.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91923,7 +94515,9 @@
           "id": "gi-item-334624",
           "name": "Tea Parties Bursting With Color",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/211151-Tea Parties Bursting With Color.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91934,7 +94528,9 @@
           "id": "gi-item-334625",
           "name": "Bringer of Blessing",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/213161-Bringer of Blessing.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91945,7 +94541,9 @@
           "id": "gi-item-334626",
           "name": "\"Once Stood Against the Tide of Dark Waters Like Bedrock...\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/226041-_Once Stood Against the Tide of Dark Waters Like Bedrock..._.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91956,7 +94554,9 @@
           "id": "gi-item-334627",
           "name": "Far to Fall",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/211161-Far to Fall.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91967,7 +94567,9 @@
           "id": "gi-item-334628",
           "name": "Trails Amidst the Forest Fog",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/214161-Trails Amidst the Forest Fog.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91978,7 +94580,9 @@
           "id": "gi-item-334629",
           "name": "Deathly Overflow",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/222071-Deathly Overflow.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -91989,7 +94593,9 @@
           "id": "gi-item-334630",
           "name": "Companion's Counsel",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/211171-Companion's Counsel.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92000,7 +94606,9 @@
           "id": "gi-item-334631",
           "name": "Rectifying Processor",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/214171-Rectifying Processor.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92011,7 +94619,9 @@
           "id": "gi-item-334632",
           "name": "Flamelord's Blessing",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/223061-Flamelord's Blessing.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92022,7 +94632,9 @@
           "id": "gi-item-334633",
           "name": "You Shall Go Out With Joy",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/212151-You Shall Go Out With Joy.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92033,7 +94645,9 @@
           "id": "gi-item-334634",
           "name": "The Burden of Creative Genius",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/212161-The Burden of Creative Genius.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92044,7 +94658,9 @@
           "id": "gi-item-334635",
           "name": "Withered Reeds Eclipse the Sun",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/227051-Withered Reeds Eclipse the Sun.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92055,7 +94671,9 @@
           "id": "gi-item-334636",
           "name": "Part the Veil of Snow",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/214181-Part the Veil of Snow.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92066,7 +94684,9 @@
           "id": "gi-item-334637",
           "name": "\"O Lips, Weave Me Songs and Psalms\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/217111-_O Lips_ Weave Me Songs and Psalms_.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92077,7 +94697,9 @@
           "id": "gi-item-334638",
           "name": "Gravity Field",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/226051-Gravity Field.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92088,7 +94710,9 @@
           "id": "gi-item-334639",
           "name": "Victory Flows from the Turning of Tides",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/217121-Victory Flows from the Turning of Tides.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92099,7 +94723,9 @@
           "id": "gi-item-334640",
           "name": "Flow of Forms",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/221051-Flow of Forms.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92110,7 +94736,9 @@
           "id": "gi-item-334641",
           "name": "\"Once, the Lone Wind That Kept the Dark Calamity at Bay...\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/225041-_Once_ the Lone Wind That Kept the Dark Calamity at Bay..._.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92121,7 +94749,9 @@
           "id": "gi-item-335000",
           "name": "Magic Guide",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311101-Magic Guide.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92132,7 +94762,9 @@
           "id": "gi-item-335001",
           "name": "Sacrificial Fragments",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311102-Sacrificial Fragments.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92143,7 +94775,9 @@
           "id": "gi-item-335002",
           "name": "Skyward Atlas",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311103-Skyward Atlas.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92154,7 +94788,9 @@
           "id": "gi-item-335003",
           "name": "Raven Bow",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311201-Raven Bow.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92165,7 +94801,9 @@
           "id": "gi-item-335004",
           "name": "Sacrificial Bow",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311202-Sacrificial Bow.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92176,7 +94814,9 @@
           "id": "gi-item-335005",
           "name": "Skyward Harp",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311203-Skyward Harp.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92187,7 +94827,9 @@
           "id": "gi-item-335006",
           "name": "White Iron Greatsword",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311301-White Iron Greatsword.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92198,7 +94840,9 @@
           "id": "gi-item-335007",
           "name": "Sacrificial Greatsword",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311302-Sacrificial Greatsword.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92209,7 +94853,9 @@
           "id": "gi-item-335008",
           "name": "Wolf's Gravestone",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311303-Wolf's Gravestone.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92220,7 +94866,9 @@
           "id": "gi-item-335009",
           "name": "White Tassel",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311401-White Tassel.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92231,7 +94879,9 @@
           "id": "gi-item-335010",
           "name": "Lithic Spear",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311402-Lithic Spear.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92242,7 +94892,9 @@
           "id": "gi-item-335011",
           "name": "Skyward Spine",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311403-Skyward Spine.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92253,7 +94905,9 @@
           "id": "gi-item-335012",
           "name": "Traveler's Handy Sword",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311501-Traveler's Handy Sword.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92264,7 +94918,9 @@
           "id": "gi-item-335013",
           "name": "Sacrificial Sword",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311502-Sacrificial Sword.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92275,7 +94931,9 @@
           "id": "gi-item-335014",
           "name": "Aquila Favonia",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311503-Aquila Favonia.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92286,7 +94944,9 @@
           "id": "gi-item-335015",
           "name": "Adventurer's Bandana",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312001-Adventurer's Bandana.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92297,7 +94957,9 @@
           "id": "gi-item-335016",
           "name": "Lucky Dog's Silver Circlet",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312002-Lucky Dog's Silver Circlet.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92308,7 +94970,9 @@
           "id": "gi-item-335017",
           "name": "Traveling Doctor's Handkerchief",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312003-Traveling Doctor's Handkerchief.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92319,7 +94983,9 @@
           "id": "gi-item-335018",
           "name": "Gambler's Earrings",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312004-Gambler's Earrings.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92330,7 +94996,9 @@
           "id": "gi-item-335019",
           "name": "Instructor's Cap",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312005-Instructor's Cap.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92341,7 +95009,9 @@
           "id": "gi-item-335020",
           "name": "Exile's Circlet",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312006-Exile's Circlet.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92352,7 +95022,9 @@
           "id": "gi-item-335021",
           "name": "Broken Rime's Echo",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312101-Broken Rime's Echo.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92363,7 +95035,9 @@
           "id": "gi-item-335022",
           "name": "Blizzard Strayer",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312102-Blizzard Strayer.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92374,7 +95048,9 @@
           "id": "gi-item-335023",
           "name": "Wine-Stained Tricorne",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312201-Wine-Stained Tricorne.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92385,7 +95061,9 @@
           "id": "gi-item-335024",
           "name": "Heart of Depth",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312202-Heart of Depth.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92396,7 +95074,9 @@
           "id": "gi-item-335025",
           "name": "Witch's Scorching Hat",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312301-Witch's Scorching Hat.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92407,7 +95087,9 @@
           "id": "gi-item-335026",
           "name": "Crimson Witch of Flames",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312302-Crimson Witch of Flames.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92418,7 +95100,9 @@
           "id": "gi-item-335027",
           "name": "Thunder Summoner's Crown",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312401-Thunder Summoner's Crown.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92429,7 +95113,9 @@
           "id": "gi-item-335028",
           "name": "Thundering Fury",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312402-Thundering Fury.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92440,7 +95126,9 @@
           "id": "gi-item-335029",
           "name": "Viridescent Venerer's Diadem",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312501-Viridescent Venerer's Diadem.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92451,7 +95139,9 @@
           "id": "gi-item-335030",
           "name": "Viridescent Venerer",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312502-Viridescent Venerer.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92462,7 +95152,9 @@
           "id": "gi-item-335031",
           "name": "Mask of Solitude Basalt",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312601-Mask of Solitude Basalt.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92473,7 +95165,9 @@
           "id": "gi-item-335032",
           "name": "Archaic Petra",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312602-Archaic Petra.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92484,7 +95178,9 @@
           "id": "gi-item-335033",
           "name": "Laurel Coronet",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312701-Laurel Coronet.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92495,7 +95191,9 @@
           "id": "gi-item-335034",
           "name": "Deepwood Memories",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312702-Deepwood Memories.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92506,7 +95204,9 @@
           "id": "gi-item-335035",
           "name": "Ornate Kabuto",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312007-Ornate Kabuto.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92517,7 +95217,9 @@
           "id": "gi-item-335036",
           "name": "General's Ancient Helm",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312009-General's Ancient Helm.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92528,7 +95230,9 @@
           "id": "gi-item-335037",
           "name": "Favonius Sword",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311505-Favonius Sword.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92539,7 +95243,9 @@
           "id": "gi-item-335038",
           "name": "Amos' Bow",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311204-Amos' Bow.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92550,7 +95256,9 @@
           "id": "gi-item-335039",
           "name": "A Thousand Floating Dreams",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311104-A Thousand Floating Dreams.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92561,7 +95269,9 @@
           "id": "gi-item-335040",
           "name": "Elegy for the End",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311205-Elegy for the End.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92572,7 +95282,9 @@
           "id": "gi-item-335041",
           "name": "Skyward Pride",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311304-Skyward Pride.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92583,7 +95295,9 @@
           "id": "gi-item-335042",
           "name": "The Bell",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311305-The Bell.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92594,7 +95308,9 @@
           "id": "gi-item-335043",
           "name": "Vortex Vanquisher",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311404-Vortex Vanquisher.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92605,7 +95321,9 @@
           "id": "gi-item-335044",
           "name": "Engulfing Lightning",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311405-Engulfing Lightning.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92616,7 +95334,9 @@
           "id": "gi-item-335045",
           "name": "Skyward Blade",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311504-Skyward Blade.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92627,7 +95347,9 @@
           "id": "gi-item-335046",
           "name": "Emblem of Severed Fate",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312008-Emblem of Severed Fate.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92638,7 +95360,9 @@
           "id": "gi-item-335047",
           "name": "Tenacity of the Millelith",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312010-Tenacity of the Millelith.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92649,7 +95373,9 @@
           "id": "gi-item-335048",
           "name": "Thundering Poise",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312011-Thundering Poise.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92660,7 +95386,9 @@
           "id": "gi-item-335049",
           "name": "Vermillion Hereafter",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312012-Vermillion Hereafter.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92671,7 +95399,9 @@
           "id": "gi-item-335050",
           "name": "Capricious Visage",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312013-Capricious Visage.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92682,7 +95412,9 @@
           "id": "gi-item-335051",
           "name": "Shimenawa's Reminiscence",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312014-Shimenawa's Reminiscence.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92693,7 +95425,9 @@
           "id": "gi-item-335052",
           "name": "Fruit of Fulfillment",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311105-Fruit of Fulfillment.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92704,7 +95438,9 @@
           "id": "gi-item-335053",
           "name": "King's Squire",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311206-King's Squire.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92715,7 +95451,9 @@
           "id": "gi-item-335054",
           "name": "Moonpiercer",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311406-Moonpiercer.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92726,7 +95464,9 @@
           "id": "gi-item-335055",
           "name": "Crown of Watatsumi",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312015-Crown of Watatsumi.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92737,7 +95477,9 @@
           "id": "gi-item-335056",
           "name": "Ocean-Hued Clam",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312016-Ocean-Hued Clam.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92748,7 +95490,9 @@
           "id": "gi-item-335057",
           "name": "Shadow of the Sand King",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312017-Shadow of the Sand King.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92759,7 +95503,9 @@
           "id": "gi-item-335058",
           "name": "Lost Prayer to the Sacred Winds",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311106-Lost Prayer to the Sacred Winds.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92770,7 +95516,9 @@
           "id": "gi-item-335059",
           "name": "Tulaytullah's Remembrance",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311107-Tulaytullah's Remembrance.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92781,7 +95529,9 @@
           "id": "gi-item-335060",
           "name": "Beacon of the Reed Sea",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311306-Beacon of the Reed Sea.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92792,7 +95542,9 @@
           "id": "gi-item-335061",
           "name": "Primordial Jade Winged-Spear",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311407-Primordial Jade Winged-Spear.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92803,7 +95555,9 @@
           "id": "gi-item-335062",
           "name": "Light of Foliar Incision",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311506-Light of Foliar Incision.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92814,7 +95568,9 @@
           "id": "gi-item-335063",
           "name": "Gilded Dreams",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312018-Gilded Dreams.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92825,7 +95581,9 @@
           "id": "gi-item-335064",
           "name": "Flowing Rings",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312019-Flowing Rings.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92836,7 +95594,9 @@
           "id": "gi-item-335065",
           "name": "Echoes of an Offering",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312020-Echoes of an Offering.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92847,7 +95607,9 @@
           "id": "gi-item-335066",
           "name": "Heart of Khvarena's Brilliance",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312021-Heart of Khvarena's Brilliance.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92858,7 +95620,9 @@
           "id": "gi-item-335067",
           "name": "Vourukasha's Glow",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312022-Vourukasha's Glow.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92869,7 +95633,9 @@
           "id": "gi-item-335068",
           "name": "Sapwood Blade",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311507-Sapwood Blade.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92880,7 +95646,9 @@
           "id": "gi-item-335069",
           "name": "Veteran's Visage",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312023-Veteran's Visage.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92891,7 +95659,9 @@
           "id": "gi-item-335070",
           "name": "Tome of the Eternal Flow",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311108-Tome of the Eternal Flow.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92902,7 +95672,9 @@
           "id": "gi-item-335071",
           "name": "Golden Troupe's Reward",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312025-Golden Troupe's Reward.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92913,7 +95685,9 @@
           "id": "gi-item-335072",
           "name": "Rightful Reward",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311408-Rightful Reward.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92924,7 +95698,9 @@
           "id": "gi-item-335073",
           "name": "Amethyst Crown",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312027-Amethyst Crown.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92935,7 +95711,9 @@
           "id": "gi-item-335074",
           "name": "Cashflow Supervision",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311109-Cashflow Supervision.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92946,7 +95724,9 @@
           "id": "gi-item-335075",
           "name": "End of the Line",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311207-End of the Line.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92957,7 +95737,9 @@
           "id": "gi-item-335076",
           "name": "Forest Regalia",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311307-Forest Regalia.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92968,7 +95750,9 @@
           "id": "gi-item-335077",
           "name": "Splendor of Tranquil Waters",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311508-Splendor of Tranquil Waters.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92979,7 +95763,9 @@
           "id": "gi-item-335078",
           "name": "Marechaussee Hunter",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312024-Marechaussee Hunter.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -92990,7 +95776,9 @@
           "id": "gi-item-335079",
           "name": "Golden Troupe",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312026-Golden Troupe.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93001,7 +95789,9 @@
           "id": "gi-item-335080",
           "name": "Flower of Paradise Lost",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312028-Flower of Paradise Lost.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93012,7 +95802,9 @@
           "id": "gi-item-335081",
           "name": "\"Ultimate Overlord's Mega Magic Sword\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311308-_Ultimate Overlord's Mega Magic Sword_.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93023,7 +95815,9 @@
           "id": "gi-item-335082",
           "name": "Prospector's Drill",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311409-Prospector's Drill.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93034,7 +95828,9 @@
           "id": "gi-item-335083",
           "name": "Gladiator's Triumphus",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312029-Gladiator's Triumphus.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93045,7 +95841,9 @@
           "id": "gi-item-335084",
           "name": "Xenochromatic Hunter's Ray",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/313001-Xenochromatic Hunter's Ray.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93056,7 +95854,9 @@
           "id": "gi-item-335085",
           "name": "Yumkasaurus",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/313002-Yumkasaurus.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93067,7 +95867,9 @@
           "id": "gi-item-335086",
           "name": "Koholasaurus",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/313003-Koholasaurus.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93078,7 +95880,9 @@
           "id": "gi-item-335087",
           "name": "Portable Power Saw",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311309-Portable Power Saw.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93089,7 +95893,9 @@
           "id": "gi-item-335088",
           "name": "Conductor's Top Hat",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312030-Conductor's Top Hat.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93100,7 +95906,9 @@
           "id": "gi-item-335089",
           "name": "Tepetlisaurus",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/313004-Tepetlisaurus.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93111,7 +95919,9 @@
           "id": "gi-item-335090",
           "name": "Flowing Purity",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311110-Flowing Purity.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93122,7 +95932,9 @@
           "id": "gi-item-335091",
           "name": "Maiden's Fading Beauty",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312031-Maiden's Fading Beauty.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93133,7 +95945,9 @@
           "id": "gi-item-335092",
           "name": "Iktomisaurus",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/313005-Iktomisaurus.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93144,7 +95958,9 @@
           "id": "gi-item-335093",
           "name": "Demon-Warrior's Feather Mask",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312032-Demon-Warrior's Feather Mask.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93155,7 +95971,9 @@
           "id": "gi-item-335094",
           "name": "Qucusaurus",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/313006-Qucusaurus.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93166,7 +95984,9 @@
           "id": "gi-item-335095",
           "name": "Waverider",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/313007-Waverider.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93177,7 +95997,9 @@
           "id": "gi-item-335096",
           "name": "Tatankasaurus",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/313008-Tatankasaurus.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93188,7 +96010,9 @@
           "id": "gi-item-335097",
           "name": "The Dockhand's Assistant",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311509-The Dockhand's Assistant.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93199,7 +96023,9 @@
           "id": "gi-item-335098",
           "name": "Crown of the Saints",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312033-Crown of the Saints.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93210,7 +96036,9 @@
           "id": "gi-item-335099",
           "name": "Scroll of the Hero of Cinder City",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312034-Scroll of the Hero of Cinder City.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93221,7 +96049,9 @@
           "id": "gi-item-335100",
           "name": "Rawr! Rawr!",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/313009-Rawr! Rawr!.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93232,7 +96062,9 @@
           "id": "gi-item-335101",
           "name": "Crownless Crown",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312035-Crownless Crown.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93243,7 +96075,9 @@
           "id": "gi-item-335102",
           "name": "Whimsical Dance of the Withered",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312036-Whimsical Dance of the Withered.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93254,7 +96088,9 @@
           "id": "gi-item-335103",
           "name": "Royal Masque",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312037-Royal Masque.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93265,7 +96101,9 @@
           "id": "gi-item-335104",
           "name": "Unfinished Reverie",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312038-Unfinished Reverie.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93276,7 +96114,9 @@
           "id": "gi-item-335105",
           "name": "Fragment of Harmonic Whimsy",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312039-Fragment of Harmonic Whimsy.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93287,7 +96127,9 @@
           "id": "gi-item-335106",
           "name": "Aqua Simulacra",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311208-Aqua Simulacra.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93298,7 +96140,9 @@
           "id": "gi-item-335107",
           "name": "Everlasting Moonglow",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311111-Everlasting Moonglow.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93309,7 +96153,9 @@
           "id": "gi-item-335108",
           "name": "Fell Dragon's Monocle",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312040-Fell Dragon's Monocle.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93320,7 +96166,9 @@
           "id": "gi-item-335109",
           "name": "Noblesse Oblige",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312041-Noblesse Oblige.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93331,7 +96179,9 @@
           "id": "gi-item-335110",
           "name": "Nymph's Dream",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312043-Nymph's Dream.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93342,7 +96192,9 @@
           "id": "gi-item-335111",
           "name": "Starcaller's Watch",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311112-Starcaller's Watch.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93353,7 +96205,9 @@
           "id": "gi-item-335112",
           "name": "Flame-Forged Insight",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311310-Flame-Forged Insight.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93364,7 +96218,9 @@
           "id": "gi-item-335113",
           "name": "Dyed Tassel",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312044-Dyed Tassel.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93375,7 +96231,9 @@
           "id": "gi-item-335114",
           "name": "Snare Hook",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/311209-Snare Hook.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93386,7 +96244,9 @@
           "id": "gi-item-335115",
           "name": "Blubberbeast",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/313010-Blubberbeast.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93397,7 +96257,9 @@
           "id": "gi-item-335116",
           "name": "Gladiator's Finale",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/312045-Gladiator's Finale.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93408,7 +96270,9 @@
           "id": "gi-item-336000",
           "name": "Liyue Harbor Wharf",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321001-Liyue Harbor Wharf.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93419,7 +96283,9 @@
           "id": "gi-item-336001",
           "name": "Knights of Favonius Library",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321002-Knights of Favonius Library.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93430,7 +96296,9 @@
           "id": "gi-item-336002",
           "name": "Jade Chamber",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321003-Jade Chamber.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93441,7 +96309,9 @@
           "id": "gi-item-336003",
           "name": "Dawn Winery",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321004-Dawn Winery.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93452,7 +96322,9 @@
           "id": "gi-item-336004",
           "name": "Wangshu Inn",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321005-Wangshu Inn.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93463,7 +96335,9 @@
           "id": "gi-item-336005",
           "name": "Favonius Cathedral",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321006-Favonius Cathedral.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93474,7 +96348,9 @@
           "id": "gi-item-336006",
           "name": "Paimon",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322001-Paimon.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93485,7 +96361,9 @@
           "id": "gi-item-336007",
           "name": "Katheryne",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322002-Katheryne.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93496,7 +96374,9 @@
           "id": "gi-item-336008",
           "name": "Timaeus",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322003-Timaeus.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93507,7 +96387,9 @@
           "id": "gi-item-336009",
           "name": "Wagner",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322004-Wagner.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93518,7 +96400,9 @@
           "id": "gi-item-336010",
           "name": "Chef Mao",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322005-Chef Mao.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93529,7 +96413,9 @@
           "id": "gi-item-336011",
           "name": "Tubby",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322006-Tubby.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93540,7 +96426,9 @@
           "id": "gi-item-336012",
           "name": "Timmie",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322007-Timmie.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93551,7 +96439,9 @@
           "id": "gi-item-336013",
           "name": "Liben",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322008-Liben.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93562,7 +96452,9 @@
           "id": "gi-item-336014",
           "name": "Chang the Ninth",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322009-Chang the Ninth.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93573,7 +96465,9 @@
           "id": "gi-item-336015",
           "name": "Ellin",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322010-Ellin.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93584,7 +96478,9 @@
           "id": "gi-item-336016",
           "name": "Iron Tongue Tian",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322011-Iron Tongue Tian.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93595,7 +96491,9 @@
           "id": "gi-item-336017",
           "name": "Liu Su",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322012-Liu Su.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93606,7 +96504,9 @@
           "id": "gi-item-336018",
           "name": "Parametric Transformer",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/323001-Parametric Transformer.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93617,7 +96517,9 @@
           "id": "gi-item-336019",
           "name": "NRE",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/323002-NRE.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93628,7 +96530,9 @@
           "id": "gi-item-336020",
           "name": "Grand Narukami Shrine",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321008-Grand Narukami Shrine.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93639,7 +96543,9 @@
           "id": "gi-item-336021",
           "name": "Tenshukaku",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321007-Tenshukaku.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93650,7 +96556,9 @@
           "id": "gi-item-336022",
           "name": "Sangonomiya Shrine",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321009-Sangonomiya Shrine.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93661,7 +96569,9 @@
           "id": "gi-item-336023",
           "name": "Sumeru City",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321010-Sumeru City.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93672,7 +96582,9 @@
           "id": "gi-item-336024",
           "name": "Vanarana",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321011-Vanarana.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93683,7 +96595,9 @@
           "id": "gi-item-336025",
           "name": "Chinju Forest",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321012-Chinju Forest.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93694,7 +96608,9 @@
           "id": "gi-item-336026",
           "name": "Hanachirusato",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322013-Hanachirusato.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93705,7 +96621,9 @@
           "id": "gi-item-336027",
           "name": "Kid Kujirai",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322014-Kid Kujirai.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93716,7 +96634,9 @@
           "id": "gi-item-336028",
           "name": "Xudong",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322015-Xudong.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93727,7 +96647,9 @@
           "id": "gi-item-336029",
           "name": "Dunyarzad",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322016-Dunyarzad.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93738,7 +96660,9 @@
           "id": "gi-item-336030",
           "name": "Rana",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322017-Rana.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93749,7 +96673,9 @@
           "id": "gi-item-336031",
           "name": "Red Feather Fan",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/323003-Red Feather Fan.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93760,7 +96686,9 @@
           "id": "gi-item-336032",
           "name": "Treasure-Seeking Seelie",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/323004-Treasure-Seeking Seelie.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93771,7 +96699,9 @@
           "id": "gi-item-336033",
           "name": "Master Zhang",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322018-Master Zhang.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93782,7 +96712,9 @@
           "id": "gi-item-336034",
           "name": "Golden House",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321013-Golden House.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93793,7 +96725,9 @@
           "id": "gi-item-336035",
           "name": "Setaria",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322019-Setaria.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93804,7 +96738,9 @@
           "id": "gi-item-336036",
           "name": "Gandharva Ville",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321014-Gandharva Ville.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93815,7 +96751,9 @@
           "id": "gi-item-336037",
           "name": "Yayoi Nanatsuki",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322020-Yayoi Nanatsuki.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93826,7 +96764,9 @@
           "id": "gi-item-336038",
           "name": "Stormterror's Lair",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321015-Stormterror's Lair.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93837,7 +96777,9 @@
           "id": "gi-item-336039",
           "name": "Weeping Willow of the Lake",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321016-Weeping Willow of the Lake.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93848,7 +96790,9 @@
           "id": "gi-item-336040",
           "name": "Opera Epiclese",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321017-Opera Epiclese.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93859,7 +96803,9 @@
           "id": "gi-item-336041",
           "name": "Mamere",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322021-Mamere.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93870,7 +96816,9 @@
           "id": "gi-item-336042",
           "name": "Seed Dispensary",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/323005-Seed Dispensary.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93881,7 +96829,9 @@
           "id": "gi-item-336043",
           "name": "Memento Lens",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/323006-Memento Lens.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93892,7 +96842,9 @@
           "id": "gi-item-336044",
           "name": "Jeht",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322022-Jeht.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93903,7 +96855,9 @@
           "id": "gi-item-336045",
           "name": "Silver and Melus",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322023-Silver and Melus.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93914,7 +96868,9 @@
           "id": "gi-item-336046",
           "name": "Fortress of Meropide",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321018-Fortress of Meropide.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93925,7 +96881,9 @@
           "id": "gi-item-336047",
           "name": "Lumenstone Adjuvant",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/323007-Lumenstone Adjuvant.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93936,7 +96894,9 @@
           "id": "gi-item-336048",
           "name": "Seirai Island",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321019-Seirai Island.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93947,7 +96907,9 @@
           "id": "gi-item-336049",
           "name": "Taroumaru",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322024-Taroumaru.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93958,7 +96920,9 @@
           "id": "gi-item-336050",
           "name": "The White Glove and the Fisherman",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322025-The White Glove and the Fisherman.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93969,7 +96933,9 @@
           "id": "gi-item-336051",
           "name": "The Mausoleum of King Deshret",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321020-The Mausoleum of King Deshret.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93980,7 +96946,9 @@
           "id": "gi-item-336052",
           "name": "Central Laboratory Ruins",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321021-Central Laboratory Ruins.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -93991,7 +96959,9 @@
           "id": "gi-item-336053",
           "name": "Sir Arthur",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322026-Sir Arthur.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94002,7 +96972,9 @@
           "id": "gi-item-336054",
           "name": "Kusava",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/323008-Kusava.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94013,7 +96985,9 @@
           "id": "gi-item-336055",
           "name": "Serene",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322027-Serene.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94024,7 +96998,9 @@
           "id": "gi-item-336056",
           "name": "Stadium of the Sacred Flame",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321022-Stadium of the Sacred Flame.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94035,7 +97011,9 @@
           "id": "gi-item-336057",
           "name": "Atea",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322028-Atea.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94046,7 +97024,9 @@
           "id": "gi-item-336058",
           "name": "Stage Tepetl",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321023-Stage Tepetl.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94057,7 +97037,9 @@
           "id": "gi-item-336059",
           "name": "\"Scions of the Canopy\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321024-_Scions of the Canopy_.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94068,7 +97050,9 @@
           "id": "gi-item-336060",
           "name": "\"People of the Springs\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321025-_People of the Springs_.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94079,7 +97063,9 @@
           "id": "gi-item-336061",
           "name": "\"Flower-Feather Clan\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321026-_Flower-Feather Clan_.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94090,7 +97076,9 @@
           "id": "gi-item-336062",
           "name": "\"Masters of the Night-Wind\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321027-_Masters of the Night-Wind_.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94101,7 +97089,9 @@
           "id": "gi-item-336063",
           "name": "\"Collective of Plenty\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321028-_Collective of Plenty_.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94112,7 +97102,9 @@
           "id": "gi-item-336064",
           "name": "Calligraphy Tavern",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321029-Calligraphy Tavern.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94123,7 +97115,9 @@
           "id": "gi-item-336065",
           "name": "Constellation Metropole",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321030-Constellation Metropole.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94134,7 +97128,9 @@
           "id": "gi-item-336066",
           "name": "Forest Blessing",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322029-Forest Blessing.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94145,7 +97141,9 @@
           "id": "gi-item-336067",
           "name": "Gift of the Goddess of Prophecy",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322030-Gift of the Goddess of Prophecy.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94156,7 +97154,9 @@
           "id": "gi-item-336068",
           "name": "Adventurers' Guild",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321031-Adventurers' Guild.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94167,7 +97167,9 @@
           "id": "gi-item-336069",
           "name": "Seymour",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322031-Seymour.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94178,7 +97180,9 @@
           "id": "gi-item-336070",
           "name": "Bona and Cocouik",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322032-Bona and Cocouik.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94189,7 +97193,9 @@
           "id": "gi-item-336071",
           "name": "Silvermoon Hall",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321035-Silvermoon Hall.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94200,7 +97206,9 @@
           "id": "gi-item-336072",
           "name": "Tideseal Stone",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321036-Tideseal Stone.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94211,7 +97219,9 @@
           "id": "gi-item-336073",
           "name": "Frostmoon Enclave",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321037-Frostmoon Enclave.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94222,7 +97232,9 @@
           "id": "gi-item-336074",
           "name": "Nasha Town",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321038-Nasha Town.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94233,7 +97245,9 @@
           "id": "gi-item-336075",
           "name": "Kuuvahki Experimental Design Bureau",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321039-Kuuvahki Experimental Design Bureau.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94244,7 +97258,9 @@
           "id": "gi-item-336076",
           "name": "Elemental Transfiguration: Superconduct Blessing",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331004-Elemental Transfiguration_ Superconduct Blessing.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94255,7 +97271,9 @@
           "id": "gi-item-336077",
           "name": "Elemental Transfiguration: Vaporize Blessing",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331005-Elemental Transfiguration_ Vaporize Blessing.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94266,7 +97284,9 @@
           "id": "gi-item-336078",
           "name": "Lepine-Pauline",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322033-Lepine-Pauline.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94277,7 +97297,9 @@
           "id": "gi-item-336079",
           "name": "Elemental Transfiguration: Bloom Blessing",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331006-Elemental Transfiguration_ Bloom Blessing.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94288,7 +97310,9 @@
           "id": "gi-item-336080",
           "name": "Elemental Transfiguration: Lava Blessing",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331007-Elemental Transfiguration_ Lava Blessing.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94299,7 +97323,9 @@
           "id": "gi-item-336081",
           "name": "Netochka",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/322034-Netochka.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94310,7 +97336,9 @@
           "id": "gi-item-336082",
           "name": "Elemental Transfiguration: Rimegrass Blessing",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331008-Elemental Transfiguration_ Rimegrass Blessing.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94321,7 +97349,9 @@
           "id": "gi-item-336083",
           "name": "Elemental Transfiguration: Stormgale Blessing",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331009-Elemental Transfiguration_ Stormgale Blessing.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94332,7 +97362,9 @@
           "id": "gi-item-336084",
           "name": "Nightmare Omen",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/321041-Nightmare Omen.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94343,7 +97375,9 @@
           "id": "gi-item-336085",
           "name": "Elemental Transfiguration: Aquabreeze Blessing",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331010-Elemental Transfiguration_ Aquabreeze Blessing.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94354,7 +97388,9 @@
           "id": "gi-item-336086",
           "name": "Elemental Transfiguration: Thunderbloom Blessing",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331011-Elemental Transfiguration_ Thunderbloom Blessing.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94365,7 +97401,9 @@
           "id": "gi-item-337000",
           "name": "Elemental Resonance: Woven Ice",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331101-Elemental Resonance_ Woven Ice.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94376,7 +97414,9 @@
           "id": "gi-item-337001",
           "name": "Elemental Resonance: Shattering Ice",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331102-Elemental Resonance_ Shattering Ice.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94387,7 +97427,9 @@
           "id": "gi-item-337002",
           "name": "Elemental Resonance: Woven Waters",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331201-Elemental Resonance_ Woven Waters.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94398,7 +97440,9 @@
           "id": "gi-item-337003",
           "name": "Elemental Resonance: Soothing Water",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331202-Elemental Resonance_ Soothing Water.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94409,7 +97453,9 @@
           "id": "gi-item-337004",
           "name": "Elemental Resonance: Woven Flames",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331301-Elemental Resonance_ Woven Flames.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94420,7 +97466,9 @@
           "id": "gi-item-337005",
           "name": "Elemental Resonance: Fervent Flames",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331302-Elemental Resonance_ Fervent Flames.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94431,7 +97479,9 @@
           "id": "gi-item-337006",
           "name": "Elemental Resonance: Woven Thunder",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331401-Elemental Resonance_ Woven Thunder.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94442,7 +97492,9 @@
           "id": "gi-item-337007",
           "name": "Elemental Resonance: High Voltage",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331402-Elemental Resonance_ High Voltage.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94453,7 +97505,9 @@
           "id": "gi-item-337008",
           "name": "Elemental Resonance: Woven Winds",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331501-Elemental Resonance_ Woven Winds.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94464,7 +97518,9 @@
           "id": "gi-item-337009",
           "name": "Elemental Resonance: Impetuous Winds",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331502-Elemental Resonance_ Impetuous Winds.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94475,7 +97531,9 @@
           "id": "gi-item-337010",
           "name": "Elemental Resonance: Woven Stone",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331601-Elemental Resonance_ Woven Stone.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94486,7 +97544,9 @@
           "id": "gi-item-337011",
           "name": "Elemental Resonance: Enduring Rock",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331602-Elemental Resonance_ Enduring Rock.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94497,7 +97557,9 @@
           "id": "gi-item-337012",
           "name": "Elemental Resonance: Woven Weeds",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331701-Elemental Resonance_ Woven Weeds.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94508,7 +97570,9 @@
           "id": "gi-item-337013",
           "name": "Elemental Resonance: Sprawling Greenery",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331702-Elemental Resonance_ Sprawling Greenery.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94519,7 +97583,9 @@
           "id": "gi-item-337014",
           "name": "The Bestest Travel Companion!",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332001-The Bestest Travel Companion!.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94530,7 +97596,9 @@
           "id": "gi-item-337015",
           "name": "Changing Shifts",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332002-Changing Shifts.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94541,7 +97609,9 @@
           "id": "gi-item-337016",
           "name": "Toss-Up",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332003-Toss-Up.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94552,7 +97622,9 @@
           "id": "gi-item-337017",
           "name": "Strategize",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332004-Strategize.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94563,7 +97635,9 @@
           "id": "gi-item-337018",
           "name": "I Haven't Lost Yet!",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332005-I Haven't Lost Yet!.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94574,7 +97648,9 @@
           "id": "gi-item-337019",
           "name": "Leave it to Me!",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332006-Leave it to Me!.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94585,7 +97661,9 @@
           "id": "gi-item-337020",
           "name": "When the Crane Returned",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332007-When the Crane Returned.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94596,7 +97674,9 @@
           "id": "gi-item-337021",
           "name": "Starsigns",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332008-Starsigns.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94607,7 +97687,9 @@
           "id": "gi-item-337022",
           "name": "Calx's Arts",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332009-Calx's Arts.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94618,7 +97700,9 @@
           "id": "gi-item-337023",
           "name": "Master of Weaponry",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332010-Master of Weaponry.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94629,7 +97713,9 @@
           "id": "gi-item-337024",
           "name": "Blessing of the Divine Relic's Installation",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332011-Blessing of the Divine Relic's Installation.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94640,7 +97726,9 @@
           "id": "gi-item-337025",
           "name": "Quick Knit",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332012-Quick Knit.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94651,7 +97739,9 @@
           "id": "gi-item-337026",
           "name": "Send Off",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332013-Send Off.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94662,7 +97752,9 @@
           "id": "gi-item-337027",
           "name": "Guardian's Oath",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332014-Guardian's Oath.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94673,7 +97765,9 @@
           "id": "gi-item-337028",
           "name": "Abyssal Summons",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332015-Abyssal Summons.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94684,7 +97778,9 @@
           "id": "gi-item-337029",
           "name": "Jueyun Guoba",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/333001-Jueyun Guoba.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94695,7 +97791,9 @@
           "id": "gi-item-337030",
           "name": "Adeptus' Temptation",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/333002-Adeptus' Temptation.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94706,7 +97804,9 @@
           "id": "gi-item-337031",
           "name": "Lotus Flower Crisp",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/333003-Lotus Flower Crisp.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94717,7 +97817,9 @@
           "id": "gi-item-337032",
           "name": "Northern Smoked Chicken",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/333004-Northern Smoked Chicken.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94728,7 +97830,9 @@
           "id": "gi-item-337033",
           "name": "Sweet Madame",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/333005-Sweet Madame.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94739,7 +97843,9 @@
           "id": "gi-item-337034",
           "name": "Mondstadt Hash Brown",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/333006-Mondstadt Hash Brown.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94750,7 +97856,9 @@
           "id": "gi-item-337035",
           "name": "Mushroom Pizza",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/333007-Mushroom Pizza.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94761,7 +97869,9 @@
           "id": "gi-item-337036",
           "name": "Minty Meat Rolls",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/333008-Minty Meat Rolls.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94772,7 +97882,9 @@
           "id": "gi-item-337037",
           "name": "Wind and Freedom",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331801-Wind and Freedom.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94783,7 +97895,9 @@
           "id": "gi-item-337038",
           "name": "Stone and Contracts",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331802-Stone and Contracts.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94794,7 +97908,9 @@
           "id": "gi-item-337039",
           "name": "Thunder and Eternity",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331803-Thunder and Eternity.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94805,7 +97921,9 @@
           "id": "gi-item-337040",
           "name": "Nature and Wisdom",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331804-Nature and Wisdom.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94816,7 +97934,9 @@
           "id": "gi-item-337041",
           "name": "Fatui Conspiracy",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332016-Fatui Conspiracy.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94827,7 +97947,9 @@
           "id": "gi-item-337042",
           "name": "Plunging Strike",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332017-Plunging Strike.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94838,7 +97960,9 @@
           "id": "gi-item-337043",
           "name": "Heavy Strike",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332018-Heavy Strike.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94849,7 +97973,9 @@
           "id": "gi-item-337044",
           "name": "The Legend of Vennessa",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332019-The Legend of Vennessa.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94860,7 +97986,9 @@
           "id": "gi-item-337045",
           "name": "Friendship Eternal",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332020-Friendship Eternal.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94871,7 +97999,9 @@
           "id": "gi-item-337046",
           "name": "Teyvat Fried Egg",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/333009-Teyvat Fried Egg.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94882,7 +98012,9 @@
           "id": "gi-item-337047",
           "name": "Sashimi Platter",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/333010-Sashimi Platter.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94893,7 +98025,9 @@
           "id": "gi-item-337048",
           "name": "Tandoori Roast Chicken",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/333011-Tandoori Roast Chicken.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94904,7 +98038,9 @@
           "id": "gi-item-337049",
           "name": "Butter Crab",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/333012-Butter Crab.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94915,7 +98051,9 @@
           "id": "gi-item-337050",
           "name": "Ancient Courtyard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/330001-Ancient Courtyard.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94926,7 +98064,9 @@
           "id": "gi-item-337051",
           "name": "Covenant of Rock",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/330002-Covenant of Rock.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94937,7 +98077,9 @@
           "id": "gi-item-337052",
           "name": "Rhythm of the Great Dream",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332021-Rhythm of the Great Dream.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94948,7 +98090,9 @@
           "id": "gi-item-337053",
           "name": "Joyous Celebration",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/330003-Joyous Celebration.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94959,7 +98103,9 @@
           "id": "gi-item-337054",
           "name": "Where Is the Unseen Razor?",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332022-Where Is the Unseen Razor_.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94970,7 +98116,9 @@
           "id": "gi-item-337055",
           "name": "Fresh Wind of Freedom",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/330004-Fresh Wind of Freedom.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94981,7 +98129,9 @@
           "id": "gi-item-337056",
           "name": "Pankration!",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332023-Pankration!.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -94992,7 +98142,9 @@
           "id": "gi-item-337057",
           "name": "In Every House a Stove",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/330005-In Every House a Stove.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95003,7 +98155,9 @@
           "id": "gi-item-337058",
           "name": "Lyresong",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332024-Lyresong.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95014,7 +98168,9 @@
           "id": "gi-item-337059",
           "name": "Passing of Judgment",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/330006-Passing of Judgment.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95025,7 +98181,9 @@
           "id": "gi-item-337060",
           "name": "The Boar Princess",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332025-The Boar Princess.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95036,7 +98194,9 @@
           "id": "gi-item-337061",
           "name": "Falls and Fortune",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332026-Falls and Fortune.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95047,7 +98207,9 @@
           "id": "gi-item-337062",
           "name": "Flickering Four-Leaf Sigil",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332027-Flickering Four-Leaf Sigil.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95058,7 +98220,9 @@
           "id": "gi-item-337063",
           "name": "Fish and Chips",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/333013-Fish and Chips.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95069,7 +98233,9 @@
           "id": "gi-item-337064",
           "name": "Machine Assembly Line",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332028-Machine Assembly Line.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95080,7 +98246,9 @@
           "id": "gi-item-337065",
           "name": "Sunyata Flower",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332029-Sunyata Flower.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95091,7 +98259,9 @@
           "id": "gi-item-337066",
           "name": "Matsutake Meat Rolls",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/333014-Matsutake Meat Rolls.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95102,7 +98272,9 @@
           "id": "gi-item-337067",
           "name": "Day of Resistance: Moment of Shattered Dreams",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/330007-Day of Resistance_ Moment of Shattered Dreams.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95113,7 +98285,9 @@
           "id": "gi-item-337068",
           "name": "Controlled Directional Blast",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332030-Controlled Directional Blast.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95124,7 +98298,9 @@
           "id": "gi-item-337069",
           "name": "Underwater Treasure Hunt",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332031-Underwater Treasure Hunt.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95135,7 +98311,9 @@
           "id": "gi-item-337070",
           "name": "Rainbow Macarons",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/333015-Rainbow Macarons.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95146,7 +98324,9 @@
           "id": "gi-item-337071",
           "name": "Vicious Ancient Battle",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/330008-Vicious Ancient Battle.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95157,7 +98337,9 @@
           "id": "gi-item-337072",
           "name": "Water and Justice",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331805-Water and Justice.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95168,7 +98350,9 @@
           "id": "gi-item-337073",
           "name": "Countdown to the Show: 3",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332032-Countdown to the Show_ 3.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95179,7 +98363,9 @@
           "id": "gi-item-337074",
           "name": "\"I'd Rather Lose Money Myself...\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332036-_I'd Rather Lose Money Myself..._.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95190,7 +98376,9 @@
           "id": "gi-item-337075",
           "name": "Tada!",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332037-Tada!.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95201,7 +98389,9 @@
           "id": "gi-item-337076",
           "name": "Saurian Dining Buddies",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332039-Saurian Dining Buddies.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95212,7 +98402,9 @@
           "id": "gi-item-337077",
           "name": "Edict of Absolution",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/330009-Edict of Absolution.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95223,7 +98415,9 @@
           "id": "gi-item-337078",
           "name": "Eremite Teatime",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332040-Eremite Teatime.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95234,7 +98428,9 @@
           "id": "gi-item-337079",
           "name": "Saurus Crackers",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/333016-Saurus Crackers.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95245,7 +98441,9 @@
           "id": "gi-item-337080",
           "name": "Ultimate Surfing Buddy!",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332041-Ultimate Surfing Buddy!.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95256,7 +98454,9 @@
           "id": "gi-item-337081",
           "name": "Glittering Gemstones",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/333017-Glittering Gemstones.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95267,7 +98467,9 @@
           "id": "gi-item-337082",
           "name": "Pilgrimage of the Return of the Sacred Flame",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/330010-Pilgrimage of the Return of the Sacred Flame.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95278,7 +98480,9 @@
           "id": "gi-item-337083",
           "name": "Abundant Phlogiston",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332042-Abundant Phlogiston.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95289,7 +98493,9 @@
           "id": "gi-item-337084",
           "name": "Puff Pops",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/333018-Puff Pops.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95300,7 +98506,9 @@
           "id": "gi-item-337085",
           "name": "Little Tepetlisaur \u2014 Treasure Hunter at Large",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332043-Little Tepetlisaur \u2014 Treasure Hunter at Large.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95311,7 +98519,9 @@
           "id": "gi-item-337086",
           "name": "Hot Spring O'Clock",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/333019-Hot Spring O'Clock.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95322,7 +98532,9 @@
           "id": "gi-item-337087",
           "name": "In the Name of the Extreme",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332044-In the Name of the Extreme.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95333,7 +98545,9 @@
           "id": "gi-item-337088",
           "name": "Mystique Soup",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/333020-Mystique Soup.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95344,7 +98558,9 @@
           "id": "gi-item-337089",
           "name": "Art of Sleepy Meditation",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332045-Art of Sleepy Meditation.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95355,7 +98571,9 @@
           "id": "gi-item-337090",
           "name": "Sing Your Heart Out",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/333027-Sing Your Heart Out.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95366,7 +98584,9 @@
           "id": "gi-item-337091",
           "name": "Fight for Death",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/330011-Fight for Death.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95377,7 +98597,9 @@
           "id": "gi-item-337092",
           "name": "Flying Squad, Attack!",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332046-Flying Squad_ Attack!.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95388,7 +98610,9 @@
           "id": "gi-item-337093",
           "name": "Fire and War",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331806-Fire and War.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95399,7 +98623,9 @@
           "id": "gi-item-337094",
           "name": "Fruits of Training",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332048-Fruits of Training.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95410,7 +98636,9 @@
           "id": "gi-item-337095",
           "name": "Harvest's Boon",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/333028-Harvest's Boon.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95421,7 +98649,9 @@
           "id": "gi-item-337096",
           "name": "Harvest Time",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332049-Harvest Time.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95432,7 +98662,9 @@
           "id": "gi-item-337097",
           "name": "Awesome, Bro",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332050-Awesome_ Bro.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95443,7 +98675,9 @@
           "id": "gi-item-337098",
           "name": "Fell Dragon's Awakening",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332051-Fell Dragon's Awakening.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95454,7 +98688,9 @@
           "id": "gi-item-337099",
           "name": "Narration Footnotes",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332052-Narration Footnotes.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95465,7 +98701,9 @@
           "id": "gi-item-337100",
           "name": "Broken Sea",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332053-Broken Sea.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95476,7 +98714,9 @@
           "id": "gi-item-337101",
           "name": "\"A Blessing From 'M'\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332054-_A Blessing From 'M'_.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95487,7 +98727,9 @@
           "id": "gi-item-337102",
           "name": "\"Revelrous Beats\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332055-_Revelrous Beats_.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95498,7 +98740,9 @@
           "id": "gi-item-337103",
           "name": "An Ancient Sacrifice of Sacred Brocade",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332056-An Ancient Sacrifice of Sacred Brocade.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95509,7 +98753,9 @@
           "id": "gi-item-337104",
           "name": "Chenyu Brew",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/333029-Chenyu Brew.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95520,7 +98766,9 @@
           "id": "gi-item-337105",
           "name": "Lost Legacies in the Sand",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/330012-Lost Legacies in the Sand.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95531,7 +98779,9 @@
           "id": "gi-item-337106",
           "name": "The Narzissenkreuz Adventure",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332057-The Narzissenkreuz Adventure.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95542,7 +98792,9 @@
           "id": "gi-item-337107",
           "name": "Plan to Save the World",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332058-Plan to Save the World.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95553,7 +98805,9 @@
           "id": "gi-item-337108",
           "name": "\"An Adventure Through the Morning Mist\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332059-_An Adventure Through the Morning Mist_.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95564,7 +98818,9 @@
           "id": "gi-item-337109",
           "name": "Genius's Upgrade Technique",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332060-Genius's Upgrade Technique.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95575,7 +98831,9 @@
           "id": "gi-item-337110",
           "name": "Clink Clank Legion",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332061-Clink Clank Legion.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95586,7 +98844,9 @@
           "id": "gi-item-337111",
           "name": "Moonsign: Ascendant Gleam",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331721-Moonsign_ Ascendant Gleam.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95597,7 +98857,9 @@
           "id": "gi-item-337112",
           "name": "Moon and Homeland",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/331807-Moon and Homeland.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95608,7 +98870,9 @@
           "id": "gi-item-337113",
           "name": "Cleaning Time",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332062-Cleaning Time.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95619,7 +98883,9 @@
           "id": "gi-item-337114",
           "name": "The Other Side of the Frostmoon",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/330013-The Other Side of the Frostmoon.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95630,7 +98896,9 @@
           "id": "gi-item-337115",
           "name": "Roulette Special",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/333030-Roulette Special.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95641,7 +98909,9 @@
           "id": "gi-item-337116",
           "name": "Lil' Fungi's Fun-Tastic Fiesta",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332063-Lil' Fungi's Fun-Tastic Fiesta.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95652,7 +98922,9 @@
           "id": "gi-item-337117",
           "name": "The Power of Research",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/332064-The Power of Research.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95663,7 +98935,9 @@
           "id": "gi-item-337118",
           "name": "Lakkaberry Pie",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/gcg/other cards/assets/333031-Lakkaberry Pie.webp",
+          "artStatus": "trusted-local-reuse",
+          "artSource": "genshin-tcg-base-card",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -95674,7 +98948,9 @@
           "id": "gi-item-339000",
           "name": "Origin",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_Gcg_CardBack_01.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Material"
@@ -95685,551 +98961,651 @@
           "id": "gi-item-339001",
           "name": "Mondstadt",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A Genius Invokation TCG card back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby."
+          "text": "A Genius Invokation TCG card back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-339002",
           "name": "Liyue",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A Genius Invokation TCG card back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby."
+          "text": "A Genius Invokation TCG card back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-339003",
           "name": "Inazuma",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A Genius Invokation TCG card back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby."
+          "text": "A Genius Invokation TCG card back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-339004",
           "name": "Sumeru",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A Genius Invokation TCG card back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby."
+          "text": "A Genius Invokation TCG card back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-339009",
           "name": "Legend",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A Genius Invokation TCG card back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby."
+          "text": "A Genius Invokation TCG card back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-339010",
           "name": "Adept",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A Genius Invokation TCG card back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby."
+          "text": "A Genius Invokation TCG card back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-339011",
           "name": "Crystal Chunk",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A Genius Invokation TCG card back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby."
+          "text": "A Genius Invokation TCG card back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-339012",
           "name": "Magical Crystal Chunk",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A Genius Invokation TCG card back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby."
+          "text": "A Genius Invokation TCG card back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-339013",
           "name": "Amethyst Lump",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A Genius Invokation TCG card back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby."
+          "text": "A Genius Invokation TCG card back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-339014",
           "name": "Flaming Flower Stamen",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A Genius Invokation TCG card back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby."
+          "text": "A Genius Invokation TCG card back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-339015",
           "name": "Mist Flower Corolla",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A Genius Invokation TCG card back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby."
+          "text": "A Genius Invokation TCG card back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-339016",
           "name": "Electro Crystal",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A Genius Invokation TCG card back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby."
+          "text": "A Genius Invokation TCG card back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-339017",
           "name": "Dandelion Seed",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A Genius Invokation TCG card back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby."
+          "text": "A Genius Invokation TCG card back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-339018",
           "name": "Cecilia",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A Genius Invokation TCG card back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby."
+          "text": "A Genius Invokation TCG card back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-339019",
           "name": "Glaze Lily",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A Genius Invokation TCG card back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby."
+          "text": "A Genius Invokation TCG card back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-339020",
           "name": "Dendrobium",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A Genius Invokation TCG card back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby."
+          "text": "A Genius Invokation TCG card back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-339021",
           "name": "Lazurite Swirl",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A Genius Invokation TCG card back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby."
+          "text": "A Genius Invokation TCG card back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-339022",
           "name": "Treasures of the Deck",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A Genius Invokation TCG card back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby."
+          "text": "A Genius Invokation TCG card back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-339023",
           "name": "Fontaine",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A Genius Invokation TCG card back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby."
+          "text": "A Genius Invokation TCG card back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-339024",
           "name": "The Fortress of Meropide",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A Genius Invokation TCG Card Back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby."
+          "text": "A Genius Invokation TCG Card Back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-339025",
           "name": "Dragonspine: Traces",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A Genius Invokation TCG Card Back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby."
+          "text": "A Genius Invokation TCG Card Back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-339026",
           "name": "Dragonspine: Crown",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A Genius Invokation TCG Card Back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby."
+          "text": "A Genius Invokation TCG Card Back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-339027",
           "name": "The Chasm: Solid Iron",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A Genius Invokation TCG Card Back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby."
+          "text": "A Genius Invokation TCG Card Back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-339028",
           "name": "The Chasm: Blue Crystal",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A Genius Invokation TCG Card Back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby."
+          "text": "A Genius Invokation TCG Card Back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-339029",
           "name": "Fonta",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A Genius Invokation TCG card back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby."
+          "text": "A Genius Invokation TCG card back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-339030",
           "name": "The Chasm: Crown",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A Genius Invokation TCG card back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby."
+          "text": "A Genius Invokation TCG card back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-339031",
           "name": "Natlan",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A Genius Invokation TCG card back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby."
+          "text": "A Genius Invokation TCG card back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-339032",
           "name": "Enkanomiya: Evernight",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A Genius Invokation TCG Card Back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby."
+          "text": "A Genius Invokation TCG Card Back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-339033",
           "name": "Enkanomiya: Crown",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A Genius Invokation TCG Card Back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby."
+          "text": "A Genius Invokation TCG Card Back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-339034",
           "name": "Fonta: Sweet Sakura",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A Genius Invokation TCG Card Back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby."
+          "text": "A Genius Invokation TCG Card Back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-339035",
           "name": "Great Red Sand: Long Night",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A Genius Invokation TCG Card Back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby."
+          "text": "A Genius Invokation TCG Card Back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-339036",
           "name": "Great Red Sand: Bronze",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A Genius Invokation TCG Card Back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby."
+          "text": "A Genius Invokation TCG Card Back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-339037",
           "name": "Great Red Sand: Crown",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A Genius Invokation TCG Card Back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby."
+          "text": "A Genius Invokation TCG Card Back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-339038",
           "name": "Fonta: Passionate Red",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A Genius Invokation TCG Card Back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby."
+          "text": "A Genius Invokation TCG Card Back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-339039",
           "name": "Sea of Bygone Eras: Slumber",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A Genius Invokation TCG Card Back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby."
+          "text": "A Genius Invokation TCG Card Back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-339040",
           "name": "Fonta: Lakelight Luminescence",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A Genius Invokation TCG Card Back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby."
+          "text": "A Genius Invokation TCG Card Back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-339041",
           "name": "Sea of Bygone Eras: Crown",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A Genius Invokation TCG Card Back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby."
+          "text": "A Genius Invokation TCG Card Back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-339042",
           "name": "Nod-Krai",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Item Material"
           },
-          "text": "A Genius Invokation TCG Card Back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby."
+          "text": "A Genius Invokation TCG Card Back that can be obtained and switched around. They say that card backs with different designs also come with minute differences in make and texture. Some players also make collecting card backs of different styles their pursuit and hobby.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-339500",
           "name": "Mondstadt",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A small table used as an arena in Genius Invokation TCG matches. It normally resembles an elevated box a bit more. Some players will place their Casket of Tomes inside to better carry both around, and once opened up, the various exquisitely built arenas of differing types and styles are then revealed as stages for the duels to come."
+          "text": "A small table used as an arena in Genius Invokation TCG matches. It normally resembles an elevated box a bit more. Some players will place their Casket of Tomes inside to better carry both around, and once opened up, the various exquisitely built arenas of differing types and styles are then revealed as stages for the duels to come.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-339501",
           "name": "Liyue",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A small table used as an arena in Genius Invokation TCG matches. It normally resembles an elevated box a bit more. Some players will place their Casket of Tomes inside to better carry both around, and once opened up, the various exquisitely built arenas of differing types and styles are then revealed as stages for the duels to come."
+          "text": "A small table used as an arena in Genius Invokation TCG matches. It normally resembles an elevated box a bit more. Some players will place their Casket of Tomes inside to better carry both around, and once opened up, the various exquisitely built arenas of differing types and styles are then revealed as stages for the duels to come.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-339502",
           "name": "Inazuma",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A small table used as an arena in Genius Invokation TCG matches. It normally resembles an elevated box a bit more. Some players will place their Casket of Tomes inside to better carry both around, and once opened up, the various exquisitely built arenas of differing types and styles are then revealed as stages for the duels to come."
+          "text": "A small table used as an arena in Genius Invokation TCG matches. It normally resembles an elevated box a bit more. Some players will place their Casket of Tomes inside to better carry both around, and once opened up, the various exquisitely built arenas of differing types and styles are then revealed as stages for the duels to come.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-339503",
           "name": "Sumeru",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A small table used as an arena in Genius Invokation TCG matches. It normally resembles an elevated box a bit more. Some players will place their Casket of Tomes inside to better carry both around, and once opened up, the various exquisitely built arenas of differing types and styles are then revealed as stages for the duels to come."
+          "text": "A small table used as an arena in Genius Invokation TCG matches. It normally resembles an elevated box a bit more. Some players will place their Casket of Tomes inside to better carry both around, and once opened up, the various exquisitely built arenas of differing types and styles are then revealed as stages for the duels to come.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-339504",
           "name": "Fontaine",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A small table used as an arena in Genius Invokation TCG matches. It normally resembles an elevated box a bit more. Some players will place their Casket of Tomes inside to better carry both around, and once opened up, the various exquisitely built arenas of differing types and styles are then revealed as stages for the duels to come."
+          "text": "A small table used as an arena in Genius Invokation TCG matches. It normally resembles an elevated box a bit more. Some players will place their Casket of Tomes inside to better carry both around, and once opened up, the various exquisitely built arenas of differing types and styles are then revealed as stages for the duels to come.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-339505",
           "name": "Natlan",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A small table used as an arena in Genius Invokation TCG matches. It normally resembles an elevated box a bit more. Some players will place their Casket of Tomes inside to better carry both around, and once opened up, the various exquisitely built arenas of differing types and styles are then revealed as stages for the duels to come."
+          "text": "A small table used as an arena in Genius Invokation TCG matches. It normally resembles an elevated box a bit more. Some players will place their Casket of Tomes inside to better carry both around, and once opened up, the various exquisitely built arenas of differing types and styles are then revealed as stages for the duels to come.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-339506",
           "name": "Nod-Krai",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
           },
-          "text": "A small table used as an arena in Genius Invokation TCG matches. It normally resembles an elevated box a bit more. Some players will place their Casket of Tomes inside to better carry both around, and once opened up, the various exquisitely built arenas of differing types and styles are then revealed as stages for the duels to come."
+          "text": "A small table used as an arena in Genius Invokation TCG matches. It normally resembles an elevated box a bit more. Some players will place their Casket of Tomes inside to better carry both around, and once opened up, the various exquisitely built arenas of differing types and styles are then revealed as stages for the duels to come.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-339901",
           "name": "Beginner Player Badge",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Quest Item"
           },
-          "text": "They say that anyone who starts out with Genius Invokation TCG can obtain this particular Player Badge.\nEven the mightiest player starts from this point, building their personal legends as they go along.\nStay tuned, player \u2014 your saga begins here!"
+          "text": "They say that anyone who starts out with Genius Invokation TCG can obtain this particular Player Badge.\nEven the mightiest player starts from this point, building their personal legends as they go along.\nStay tuned, player \u2014 your saga begins here!",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-339902",
           "name": "Advanced Player Badge",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Quest Item"
           },
-          "text": "Those who play Genius Invokation TCG often and complete the Advanced Player Trial match will obtain this Player Badge.\nMany are those who become players, but the vast majority treat the game as a sort of pastime, and so those who become Advanced Players are few and far between.\nEven games do provide the dedicated with unique rewards."
+          "text": "Those who play Genius Invokation TCG often and complete the Advanced Player Trial match will obtain this Player Badge.\nMany are those who become players, but the vast majority treat the game as a sort of pastime, and so those who become Advanced Players are few and far between.\nEven games do provide the dedicated with unique rewards.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-339903",
           "name": "Expert Player Badge",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Quest Item"
           },
-          "text": "Those who study the art of playing Genius Invokation TCG and clear the Expert Player Trial match will obtain this Player Badge.\nPerhaps your attitude at this point is markedly different from when you first began, but you still find new joy in playing\u2014\nIn willingly putting time into something you find interesting, and in enjoying all that comprises that which you love."
+          "text": "Those who study the art of playing Genius Invokation TCG and clear the Expert Player Trial match will obtain this Player Badge.\nPerhaps your attitude at this point is markedly different from when you first began, but you still find new joy in playing\u2014\nIn willingly putting time into something you find interesting, and in enjoying all that comprises that which you love.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-339904",
           "name": "Master Player Badge",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Quest Item"
           },
-          "text": "Those who reach the level at which they may complete the Master player Trial shall receive this Player Badge.\nThey say that few are the players who can obtain this badge, and each of them has their own unique take on the game.\nVictory, it seems, may no longer be the sole object here."
+          "text": "Those who reach the level at which they may complete the Master player Trial shall receive this Player Badge.\nThey say that few are the players who can obtain this badge, and each of them has their own unique take on the game.\nVictory, it seems, may no longer be the sole object here.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-339905",
           "name": "Legend Player Badge",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/gi.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Quest Item"
           },
-          "text": "Those who clear the Legend Player Trial will obtain this Player Badge.\nThis badge proves that you are well on your way to carving out your own unique mythos as a player.\nGo forth, go beyond, and reach new heights!"
+          "text": "Those who clear the Legend Player Trial will obtain this Player Badge.\nThis badge proves that you are well on your way to carving out your own unique mythos as a player.\nGo forth, go beyond, and reach new heights!",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "gi-item-340000",
@@ -96510,7 +99886,9 @@
           "id": "gi-item-340025",
           "name": "Toward the Distant Horizon",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_AvatarIcon_DurinCostumeWic_Card.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"
@@ -96708,7 +100086,9 @@
           "id": "gi-item-341802",
           "name": "Super Awesome Magic Key",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/GameData/gi/assets/items/UI_EquipIcon_Claymore_LoliFriend.webp",
+          "artStatus": "trusted-exact-source-icon",
+          "artSource": "database-art-backfill-provenance",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Item Material"

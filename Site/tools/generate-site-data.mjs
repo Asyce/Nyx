@@ -1377,6 +1377,24 @@ function buildGenshinTcgCards() {
   };
 }
 
+function buildGenshinTcgItemVariantArtMap() {
+  const artByVariantIcon = new Map();
+  for (const rel of [
+    'GameData/gi/gcg/character cards/cards.json',
+    'GameData/gi/gcg/other cards/cards.json',
+  ]) {
+    if (!exists(rel)) continue;
+    for (const card of readJson(rel)) {
+      if (!card?.icon || !card?.localAsset) continue;
+      const art = dbAsset(card.localAsset);
+      if (!art) continue;
+      artByVariantIcon.set(`${card.icon}_Golden`, art);
+      artByVariantIcon.set(`${card.icon}_Platinum`, art);
+    }
+  }
+  return artByVariantIcon;
+}
+
 // Serenitea Pot furnishings scraped from https://gi.nanoka.cc/furniture (see
 // Site/tools/scrape-gamedata-furniture.mjs). Recipe material ids are resolved to
 // names/icons through the same GameData gi item list used by the material tools.
@@ -4640,6 +4658,27 @@ function buildLazyCollections() {
   };
   const objectLabel = (value) => value && typeof value === 'object' ? humanize(Object.values(value)[0]) : humanize(value);
   const iconOrNull = (icon) => dbAsset(icon) || null;
+  const genshinTcgVariantArt = buildGenshinTcgItemVariantArtMap();
+  const genshinItemArt = (item) => {
+    const direct = iconOrNull(item?.assets?.icon);
+    if (direct) return { art: direct };
+    const source = databaseSourceRows('gi', 'items').get(String(item?.id));
+    const sourceIcon = sourceIconField(source)?.value;
+    const exactSourceIcon = sourceIcon
+      ? iconOrNull(`GameData/gi/assets/items/${path.basename(sourceIcon).replace(/\.(png|webp|jpg|jpeg)$/i, '')}.webp`)
+      : null;
+    if (exactSourceIcon) {
+      return {
+        art: exactSourceIcon,
+        artStatus: 'trusted-exact-source-icon',
+        artSource: 'database-art-backfill-provenance',
+      };
+    }
+    const variant = genshinTcgVariantArt.get(sourceIcon);
+    return variant
+      ? { art: variant, artStatus: 'trusted-local-reuse', artSource: 'genshin-tcg-base-card' }
+      : { art: null };
+  };
   const approved = (game, collection, item) => {
     const config = DATABASE_AUDIT_CONFIG[game];
     const source = databaseSourceRows(config.dir, collection).get(String(item?.id));
@@ -4663,14 +4702,17 @@ function buildLazyCollections() {
         fields: { type: humanize(it.type) },
         text: cleanDatabaseText(it.description),
       } : null),
-      normalizeGameDataItems('GameData/gi/live/items.json', 'Items', 'GameData', (it) => it?.name && approved('gi', 'items', it) ? {
-        id: 'gi-item-' + it.id,
-        name: it.name,
-        kind: 'item',
-        art: iconOrNull(it.assets?.icon),
-        fields: { rarity: databaseRarityLabel(it.rarity), type: humanize(it.type) },
-        text: cleanDatabaseText(it.description),
-      } : null),
+      normalizeGameDataItems('GameData/gi/live/items.json', 'Items', 'GameData', (it) => {
+        if (!it?.name || !approved('gi', 'items', it)) return null;
+        return {
+          id: 'gi-item-' + it.id,
+          name: it.name,
+          kind: 'item',
+          ...genshinItemArt(it),
+          fields: { rarity: databaseRarityLabel(it.rarity), type: humanize(it.type) },
+          text: cleanDatabaseText(it.description),
+        };
+      }),
     ],
     hsr: [
       normalizeGameDataItems('GameData/hsr/live/monsters.json', 'Monsters', 'GameData', (it) => it?.name && approved('hsr', 'monsters', it) ? {
@@ -5000,6 +5042,42 @@ function buildDatabaseArtAudit(lazyCollections, inlineCollections, specials) {
     quarantinedCount: quarantinedRecords.length,
     quarantinedRecords,
   };
+}
+
+const DATABASE_FALLBACK_ART = Object.fromEntries(
+  ['gi', 'hsr', 'zzz', 'wuwa', 'ae'].map((game) => [
+    game,
+    dbAsset(`Shared/database-fallbacks/${game}.svg`),
+  ]),
+);
+
+function applyDatabaseIntentionalFallbacks(lazyCollections, inlineCollections, specials) {
+  let count = 0;
+  const apply = (game, rows) => {
+    const art = DATABASE_FALLBACK_ART[game];
+    if (!art) throw new Error(`Missing neutral Database fallback asset for ${game}`);
+    for (const row of rows || []) {
+      if (row?.art) continue;
+      row.art = art;
+      row.artStatus = 'intentional-fallback';
+      row.artSource = 'neutral-database-placeholder';
+      count += 1;
+    }
+  };
+
+  for (const [game, gameCollections] of Object.entries(lazyCollections || {})) {
+    for (const collection of gameCollections || []) apply(game, collection.items);
+  }
+  for (const [game, gameCollections] of Object.entries(inlineCollections || {})) {
+    for (const collection of gameCollections || []) apply(game, collection.items);
+  }
+  apply('gi', specials?.tcg?.characterCards);
+  apply('gi', specials?.tcg?.otherCards);
+  apply('gi', specials?.furniture?.items);
+  apply('gi', specials?.wonderland?.costumes);
+  apply('gi', specials?.wonderland?.suits);
+  apply('gi', specials?.wonderland?.items);
+  return count;
 }
 
 function rewardText(value) {
@@ -5446,6 +5524,18 @@ const databaseArtAudit = buildDatabaseArtAudit(lazyCollections, collections, {
   furniture:genshinFurniture,
   wonderland:genshinWonderland,
 });
+const intentionalFallbackCount = applyDatabaseIntentionalFallbacks(lazyCollections, collections, {
+  tcg:genshinTcgCards,
+  furniture:genshinFurniture,
+  wonderland:genshinWonderland,
+});
+if (intentionalFallbackCount !== databaseArtAudit.missingArtCount) {
+  throw new Error(`Database fallback count mismatch: audit=${databaseArtAudit.missingArtCount}, applied=${intentionalFallbackCount}`);
+}
+databaseArtAudit.intentionalFallbackCount = intentionalFallbackCount;
+databaseArtAudit.displayArtMissingCount = 0;
+databaseArtAudit.coverage.after.intentionalFallbackCount = intentionalFallbackCount;
+databaseArtAudit.coverage.after.displayArtMissingCount = 0;
 const databaseAuditsDir = path.resolve(dbDir, 'Audits');
 fs.mkdirSync(databaseAuditsDir, { recursive: true });
 fs.writeFileSync(

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="title desc">
+  <title id="title">Genshin Impact neutral artwork</title>
+  <desc id="desc">A neutral placeholder used only when verified record artwork is unavailable.</desc>
+  <defs>
+    <linearGradient id="bg" x1="35" y1="20" x2="285" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#263b55"/>
+      <stop offset="1" stop-color="#141a29"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="320" rx="36" fill="url(#bg)"/>
+  <circle cx="160" cy="132" r="70" fill="none" stroke="#d7c49b" stroke-width="8" opacity=".9"/>
+  <path d="m160 72 17 39 43 4-33 28 10 42-37-22-37 22 10-42-33-28 43-4z" fill="#d7c49b" opacity=".88"/>
+  <text x="160" y="254" fill="#f5ead1" font-family="system-ui,sans-serif" font-size="38" font-weight="700" text-anchor="middle">GI</text>
+</svg>

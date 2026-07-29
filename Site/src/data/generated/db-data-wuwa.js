@@ -2996,12 +2996,14 @@
           "id": "ww-mon-350000290",
           "name": "Phantom: Lioness of Glory",
           "kind": "monster",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/wuwa.svg",
           "fields": {
             "rarity": "3 \u2605",
             "element": "Fusion"
           },
-          "text": "The guardian of Septimont, dwelling within the ancient arena. A lioness of battle, forged from stone and echoing roar."
+          "text": "The guardian of Septimont, dwelling within the ancient arena. A lioness of battle, forged from stone and echoing roar.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "ww-mon-350000300",
@@ -3117,23 +3119,27 @@
           "id": "ww-mon-350000410",
           "name": "Phantom: Forbidden Bastion",
           "kind": "monster",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/wuwa.svg",
           "fields": {
             "rarity": "2 \u2605",
             "element": "Glacio"
           },
-          "text": "Within the Censure Court lies an Autopuppet hailed as the Censure Court's Apparatus.\" Legends tell it bears an enormous form and is especially formidable in strength."
+          "text": "Within the Censure Court lies an Autopuppet hailed as the Censure Court's Apparatus.\" Legends tell it bears an enormous form and is especially formidable in strength.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "ww-mon-350000420",
           "name": "Phantom: Smiter",
           "kind": "monster",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/wuwa.svg",
           "fields": {
             "rarity": "1 \u2605",
             "element": "Spectro"
           },
-          "text": "A Tacet Discord that engages in close combat within the Tacet Field."
+          "text": "A Tacet Discord that engages in close combat within the Tacet Field.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         }
       ]
     },
@@ -4687,23 +4693,27 @@
           "id": "ww-item-51010",
           "name": "Champion's Radiant Collection I",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/wuwa.svg",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Obtain to receive the items inside."
+          "text": "Obtain to receive the items inside.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "ww-item-51011",
           "name": "Champion's Forging Collection",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/wuwa.svg",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Obtain to receive the items inside."
+          "text": "Obtain to receive the items inside.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "ww-item-51012",
@@ -5721,12 +5731,14 @@
           "id": "ww-item-10001110",
           "name": "Suisui's Waveband",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/wuwa.svg",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Waveband"
           },
-          "text": "Can be used to activate Suisui's Resonance Chain."
+          "text": "Can be used to activate Suisui's Resonance Chain.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "ww-item-10001202",
@@ -5930,12 +5942,14 @@
           "id": "ww-item-10001309",
           "name": "Rover: Electro's Waveband",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/wuwa.svg",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Waveband"
           },
-          "text": "Can be used to activate Rover: Electro's Resonance Chain."
+          "text": "Can be used to activate Rover: Electro's Resonance Chain.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "ww-item-10001402",
@@ -6238,12 +6252,14 @@
           "id": "ww-item-10001610",
           "name": "Yangyang: Xuanling's Waveband",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/wuwa.svg",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Waveband"
           },
-          "text": "Can be used to activate Yangyang: Xuanling's Resonance Chain."
+          "text": "Can be used to activate Yangyang: Xuanling's Resonance Chain.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "ww-item-31000010",
@@ -13839,34 +13855,40 @@
           "id": "ww-item-50033001",
           "name": "Morphable Song of Feathered Trace",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/wuwa.svg",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Song of Feathered Trace.\n\n2pcs Set: Energy Regen +10%.\n\n5pcs Set: Upon inflicting Havoc Bane, gain Xuanling's Feather, which grants a 20% increase in Crit. Rate and 35% increase in Heavy Attack DMG Bonus to the Resonator, lasting 15s.\nUpon inflicting Glacio Chafe, gain Chongming's Feather, which grants a 0.1% increase in ATK to Resonators in the team for every 1% of the Resonator's Energy Regen, up to 25%, lasting 10s."
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Song of Feathered Trace.\n\n2pcs Set: Energy Regen +10%.\n\n5pcs Set: Upon inflicting Havoc Bane, gain Xuanling's Feather, which grants a 20% increase in Crit. Rate and 35% increase in Heavy Attack DMG Bonus to the Resonator, lasting 15s.\nUpon inflicting Glacio Chafe, gain Chongming's Feather, which grants a 0.1% increase in ATK to Resonators in the team for every 1% of the Resonator's Energy Regen, up to 25%, lasting 10s.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "ww-item-50033002",
           "name": "Morphable Heart of Evil's Purge",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/wuwa.svg",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Heart of Evil's Purge\n\n2pcs Set: Aero DMG +10%.\n\n5pcs Set: Inflicting Tune Strain - Shifting inreases Crit. DMG by 20% and Aero DMG Bonus by 30% for 15s."
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Heart of Evil's Purge\n\n2pcs Set: Aero DMG +10%.\n\n5pcs Set: Inflicting Tune Strain - Shifting inreases Crit. DMG by 20% and Aero DMG Bonus by 30% for 15s.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "ww-item-50033003",
           "name": "Morphable Lamp of Nether Road",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/wuwa.svg",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Lamp of Nether Road\n\n2pcs Set: HP+10%.\n\n5pcs Set: Upon gaining a Shield, gain 5% increase in Crit. Rate for 5s, max 4 stacks. This effect can be triggered every 0.5s. At max stacks, gain 15% Fusion DMG Bonus."
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Lamp of Nether Road\n\n2pcs Set: HP+10%.\n\n5pcs Set: Upon gaining a Shield, gain 5% increase in Crit. Rate for 5s, max 4 stacks. This effect can be triggered every 0.5s. At max stacks, gain 15% Fusion DMG Bonus.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "ww-item-70000002",
@@ -28150,12 +28172,14 @@
           "id": "ww-item-89400001",
           "name": "Factory New",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/wuwa.svg",
           "fields": {
             "rarity": "1 \u2605",
             "type": "Standard Chassis"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "ww-item-89400002",

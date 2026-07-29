@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-29T10:03:21.175Z",
+  "generatedAt": "2026-07-29T14:57:41.056Z",
   "games": {
     "gi": {
       "count": 291,
@@ -926,6 +926,7 @@
         "official-latest:4493",
         "official-latest:4591",
         "official-latest:4691",
+        "official-latest:4712",
         "official-latest:4836",
         "official-latest:4852",
         "official-latest:4885",
@@ -933,7 +934,7 @@
         "official-latest:5039",
         "official-latest:5047"
       ],
-      "contentHash": "7a2cb6cefe994d4b6243f95cd85c2326bce85b6fed61d8233cc7171848424df1"
+      "contentHash": "872067a14dc68b02624a54627b70563580465b7000ebdc85b4e0561a06ebdbc7"
     },
     "ae": {
       "count": 29,

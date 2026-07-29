@@ -16,6 +16,12 @@ const scheduled = [
   'side-data-sync.yml',
 ];
 
+test('deploy guard permits exactly the Cloudflare asset limit after SEO', async () => {
+  const source = await fs.readFile(path.resolve(rootDir, 'Site', 'tools', 'build-deploy.mjs'), 'utf8');
+  assert.match(source, /if \(files\.length > hardFileLimit - POST_BUILD_FILE_RESERVE\)/);
+  assert.doesNotMatch(source, /files\.length >= hardFileLimit - POST_BUILD_FILE_RESERVE/);
+});
+
 test('every scheduled deploy pushes the exact commit before publishing R2 manifests', async () => {
   for (const name of scheduled) {
     const source = await fs.readFile(path.resolve(workflowDir, name), 'utf8');

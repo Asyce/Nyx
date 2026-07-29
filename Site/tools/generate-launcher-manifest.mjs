@@ -204,7 +204,29 @@ function safeAssetPath(relative, db = DATABASE) {
     { full: path.resolve(db, clean), path: path.relative(ROOT, path.resolve(db, clean)).replace(/\\/g, '/') },
   ];
   const found = candidates.find((candidate) => candidate.full.startsWith(`${ROOT}${path.sep}`) && exists(candidate.full) && fs.statSync(candidate.full).isFile());
-  return found ?? null;
+  if (found) return found;
+
+  // Prydwen can expose the same CDN image under two names. Its downloader
+  // stores one copy, while a detail record may retain the other name. The
+  // source hash in both names is authoritative, so accept one unambiguous
+  // sibling with that exact hash instead of treating verified local art as
+  // missing.
+  if (!/(?:^|\/)Prydwen\//i.test(clean)) return null;
+  const hashedName = path.basename(clean).match(/-([a-f0-9]{12})(\.[a-z0-9]+)$/i);
+  if (!hashedName) return null;
+  const [, sourceHash, extension] = hashedName;
+  const fallbacks = [];
+  for (const candidate of candidates) {
+    const dir = path.dirname(candidate.full);
+    if (!dir.startsWith(`${ROOT}${path.sep}`) || !exists(dir) || !fs.statSync(dir).isDirectory()) continue;
+    for (const name of fs.readdirSync(dir)) {
+      if (!name.toLowerCase().endsWith(`-${sourceHash.toLowerCase()}${extension.toLowerCase()}`)) continue;
+      const full = path.resolve(dir, name);
+      if (!full.startsWith(`${ROOT}${path.sep}`) || !fs.statSync(full).isFile()) continue;
+      fallbacks.push({ full, path: path.relative(ROOT, full).replace(/\\/g, '/') });
+    }
+  }
+  return fallbacks.length === 1 ? fallbacks[0] : null;
 }
 
 function inspectAsset(relative, source, variantId, placement = 'contain', db = DATABASE) {
@@ -515,7 +537,13 @@ function buildCharacter(game, raw, rosters, prydwen, db, debuts) {
   const id = stableCharacterId(game, raw, record);
   // A local file has already passed identity, path, MIME, and dimension checks.
   // Use the reviewed remote host only when that exact local asset is absent.
-  const icon = localCharacterIcon(game, record, db) ?? remoteCharacterIcon(game, raw, `${id}-icon`);
+  const verifiedArtIcon = variants[0] ? {
+    ...variants[0],
+    id: `${id}-icon`,
+    source: 'character-icon',
+    placement: { anchor: 'center', fit: 'cover', x: 0.5, y: 0.5 },
+  } : null;
+  const icon = localCharacterIcon(game, record, db) ?? verifiedArtIcon ?? remoteCharacterIcon(game, raw, `${id}-icon`);
   return { id, name, rarity, limited, debut, icon, variants };
 }
 

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "e12fc59e9feda7116c3b04bf0652cc1b4865aa34122fdf9254c25a602817dc0e",
-  "generatedAt": "2026-07-28T18:20:44.266Z",
+  "revision": "974bf4d90ed73ab776c3128172468b935064f88c7cf2163a79df66277a11e2a9",
+  "generatedAt": "2026-07-29T09:54:05.853Z",
   "health": {
     "status": "ok",
     "games": {
@@ -43,7 +43,7 @@
         "remaining": {
           "startsAt": "2026-07-21T17:00:00.000Z",
           "endsAt": "2026-08-11T13:59:00.000Z",
-          "durationSeconds": 1193895
+          "durationSeconds": 1137894
         },
         "characters": [
           {
@@ -51,7 +51,7 @@
             "name": "Raiden Shogun",
             "rarity": 5,
             "limited": true,
-            "debut": "2021-09-01T00:00:00.000Z",
+            "debut": "2021-08-31T22:00:00.000Z",
             "icon": {
               "id": "10000052-icon",
               "source": "character-icon",
@@ -110,7 +110,7 @@
             "name": "Columbina",
             "rarity": 5,
             "limited": true,
-            "debut": "2026-01-13T00:00:00.000Z",
+            "debut": "2026-01-12T23:00:00.000Z",
             "icon": {
               "id": "10000125-icon",
               "source": "character-icon",
@@ -170,7 +170,7 @@
           "name": "Columbina",
           "rarity": 5,
           "limited": true,
-          "debut": "2026-01-13T00:00:00.000Z",
+          "debut": "2026-01-12T23:00:00.000Z",
           "icon": {
             "id": "10000125-icon",
             "source": "character-icon",
@@ -365,7 +365,7 @@
         "remaining": {
           "startsAt": "2026-07-15T03:00:00.000Z",
           "endsAt": "2026-08-05T03:59:00.000Z",
-          "durationSeconds": 639495
+          "durationSeconds": 583494
         },
         "characters": [
           {
@@ -815,35 +815,35 @@
     },
     "zzz": {
       "game": "zzz",
-      "region": "america",
+      "region": "asia",
       "current": {
-        "phase": "3.0",
-        "start": "2026-07-08T17:00:00.000Z",
-        "end": "2026-07-28T19:59:59.000Z",
+        "phase": "3.1",
+        "start": "2026-07-29T03:00:00.000Z",
+        "end": "2026-08-19T03:59:59.000Z",
         "remaining": {
-          "startsAt": "2026-07-08T17:00:00.000Z",
-          "endsAt": "2026-07-28T19:59:59.000Z",
-          "durationSeconds": 5954
+          "startsAt": "2026-07-29T03:00:00.000Z",
+          "endsAt": "2026-08-19T03:59:59.000Z",
+          "durationSeconds": 1793153
         },
         "characters": [
           {
-            "id": "1571",
-            "name": "Norma Hollowell",
+            "id": "1501",
+            "name": "Aria",
             "rarity": 5,
             "limited": true,
-            "debut": "2026-07-08T04:00:00.000Z",
+            "debut": "2026-03-04T04:00:00.000Z",
             "icon": {
-              "id": "1571-icon",
+              "id": "1501-icon",
               "source": "character-icon",
-              "path": "/launcher-art/48d6c5f185298fb17d5756a6f0bfe897734e45073765ff1839b5359ee0276eed.webp",
-              "url": "https://pengo.gg/dist/launcher-art/48d6c5f185298fb17d5756a6f0bfe897734e45073765ff1839b5359ee0276eed.webp",
+              "path": "/launcher-art/535effcd8f6f07d6461e360add5397bce60e0dbb65c1184e67d8a9393d6f8148.webp",
+              "url": "https://pengo.gg/dist/launcher-art/535effcd8f6f07d6461e360add5397bce60e0dbb65c1184e67d8a9393d6f8148.webp",
               "mime": "image/webp",
-              "size": 8010,
+              "size": 8306,
               "dimensions": {
                 "width": 142,
                 "height": 142
               },
-              "sha256": "48d6c5f185298fb17d5756a6f0bfe897734e45073765ff1839b5359ee0276eed",
+              "sha256": "535effcd8f6f07d6461e360add5397bce60e0dbb65c1184e67d8a9393d6f8148",
               "transparentBounds": {
                 "left": 0,
                 "top": 0,
@@ -859,22 +859,22 @@
             },
             "variants": [
               {
-                "id": "1571-splash",
+                "id": "1501-splash",
                 "source": "splash",
-                "path": "/launcher-art/d8ee6607e91df6313de4237b48dfb5ca078c372e0342903dbadf0d8e5e9437bc.webp",
-                "url": "https://pengo.gg/dist/launcher-art/d8ee6607e91df6313de4237b48dfb5ca078c372e0342903dbadf0d8e5e9437bc.webp",
+                "path": "/launcher-art/b196f0f3f81a46277dd95347d18a5524f7b560f4a5346950b7c3041f79d858dd.webp",
+                "url": "https://pengo.gg/dist/launcher-art/b196f0f3f81a46277dd95347d18a5524f7b560f4a5346950b7c3041f79d858dd.webp",
                 "mime": "image/webp",
-                "size": 356540,
+                "size": 272768,
                 "dimensions": {
-                  "width": 1413,
-                  "height": 2048
+                  "width": 1050,
+                  "height": 2018
                 },
-                "sha256": "d8ee6607e91df6313de4237b48dfb5ca078c372e0342903dbadf0d8e5e9437bc",
+                "sha256": "b196f0f3f81a46277dd95347d18a5524f7b560f4a5346950b7c3041f79d858dd",
                 "transparentBounds": {
                   "left": 0,
                   "top": 0,
-                  "right": 1413,
-                  "bottom": 2048
+                  "right": 1050,
+                  "bottom": 2018
                 },
                 "placement": {
                   "anchor": "center",
@@ -886,28 +886,28 @@
             ]
           },
           {
-            "id": "1491",
-            "name": "Sunna",
+            "id": "remielle",
+            "name": "Remielle Dan",
             "rarity": 5,
             "limited": true,
-            "debut": "2026-02-06T03:00:00.000Z",
+            "debut": "2026-07-29T03:00:00.000Z",
             "icon": {
-              "id": "1491-icon",
+              "id": "remielle-icon",
               "source": "character-icon",
-              "path": "/launcher-art/fdcb7e70b3e44b83bba0dd629c3393caf8520649e994bccb51b076f6fb011036.webp",
-              "url": "https://pengo.gg/dist/launcher-art/fdcb7e70b3e44b83bba0dd629c3393caf8520649e994bccb51b076f6fb011036.webp",
+              "path": "/launcher-art/f40db580f2258b6965742a971a1ecebe84c33bf5fc42e4bddc98b3b97e273243.webp",
+              "url": "https://pengo.gg/dist/launcher-art/f40db580f2258b6965742a971a1ecebe84c33bf5fc42e4bddc98b3b97e273243.webp",
               "mime": "image/webp",
-              "size": 7820,
+              "size": 64346,
               "dimensions": {
-                "width": 142,
-                "height": 142
+                "width": 374,
+                "height": 443
               },
-              "sha256": "fdcb7e70b3e44b83bba0dd629c3393caf8520649e994bccb51b076f6fb011036",
+              "sha256": "f40db580f2258b6965742a971a1ecebe84c33bf5fc42e4bddc98b3b97e273243",
               "transparentBounds": {
                 "left": 0,
                 "top": 0,
-                "right": 142,
-                "bottom": 142
+                "right": 374,
+                "bottom": 443
               },
               "placement": {
                 "anchor": "center",
@@ -918,22 +918,22 @@
             },
             "variants": [
               {
-                "id": "1491-splash",
+                "id": "remielle-splash",
                 "source": "splash",
-                "path": "/launcher-art/47dbffa5948f6e09beb819bb5eb81c7e6054822d0b2604492de8b6c25a6023c4.webp",
-                "url": "https://pengo.gg/dist/launcher-art/47dbffa5948f6e09beb819bb5eb81c7e6054822d0b2604492de8b6c25a6023c4.webp",
+                "path": "/launcher-art/f40db580f2258b6965742a971a1ecebe84c33bf5fc42e4bddc98b3b97e273243.webp",
+                "url": "https://pengo.gg/dist/launcher-art/f40db580f2258b6965742a971a1ecebe84c33bf5fc42e4bddc98b3b97e273243.webp",
                 "mime": "image/webp",
-                "size": 190758,
+                "size": 64346,
                 "dimensions": {
-                  "width": 808,
-                  "height": 1798
+                  "width": 374,
+                  "height": 443
                 },
-                "sha256": "47dbffa5948f6e09beb819bb5eb81c7e6054822d0b2604492de8b6c25a6023c4",
+                "sha256": "f40db580f2258b6965742a971a1ecebe84c33bf5fc42e4bddc98b3b97e273243",
                 "transparentBounds": {
                   "left": 0,
                   "top": 0,
-                  "right": 808,
-                  "bottom": 1798
+                  "right": 374,
+                  "bottom": 443
                 },
                 "placement": {
                   "anchor": "center",
@@ -946,28 +946,28 @@
           }
         ],
         "selectedCharacter": {
-          "id": "1571",
-          "name": "Norma Hollowell",
+          "id": "remielle",
+          "name": "Remielle Dan",
           "rarity": 5,
           "limited": true,
-          "debut": "2026-07-08T04:00:00.000Z",
+          "debut": "2026-07-29T03:00:00.000Z",
           "icon": {
-            "id": "1571-icon",
+            "id": "remielle-icon",
             "source": "character-icon",
-            "path": "/launcher-art/48d6c5f185298fb17d5756a6f0bfe897734e45073765ff1839b5359ee0276eed.webp",
-            "url": "https://pengo.gg/dist/launcher-art/48d6c5f185298fb17d5756a6f0bfe897734e45073765ff1839b5359ee0276eed.webp",
+            "path": "/launcher-art/f40db580f2258b6965742a971a1ecebe84c33bf5fc42e4bddc98b3b97e273243.webp",
+            "url": "https://pengo.gg/dist/launcher-art/f40db580f2258b6965742a971a1ecebe84c33bf5fc42e4bddc98b3b97e273243.webp",
             "mime": "image/webp",
-            "size": 8010,
+            "size": 64346,
             "dimensions": {
-              "width": 142,
-              "height": 142
+              "width": 374,
+              "height": 443
             },
-            "sha256": "48d6c5f185298fb17d5756a6f0bfe897734e45073765ff1839b5359ee0276eed",
+            "sha256": "f40db580f2258b6965742a971a1ecebe84c33bf5fc42e4bddc98b3b97e273243",
             "transparentBounds": {
               "left": 0,
               "top": 0,
-              "right": 142,
-              "bottom": 142
+              "right": 374,
+              "bottom": 443
             },
             "placement": {
               "anchor": "center",
@@ -978,22 +978,22 @@
           },
           "variants": [
             {
-              "id": "1571-splash",
+              "id": "remielle-splash",
               "source": "splash",
-              "path": "/launcher-art/d8ee6607e91df6313de4237b48dfb5ca078c372e0342903dbadf0d8e5e9437bc.webp",
-              "url": "https://pengo.gg/dist/launcher-art/d8ee6607e91df6313de4237b48dfb5ca078c372e0342903dbadf0d8e5e9437bc.webp",
+              "path": "/launcher-art/f40db580f2258b6965742a971a1ecebe84c33bf5fc42e4bddc98b3b97e273243.webp",
+              "url": "https://pengo.gg/dist/launcher-art/f40db580f2258b6965742a971a1ecebe84c33bf5fc42e4bddc98b3b97e273243.webp",
               "mime": "image/webp",
-              "size": 356540,
+              "size": 64346,
               "dimensions": {
-                "width": 1413,
-                "height": 2048
+                "width": 374,
+                "height": 443
               },
-              "sha256": "d8ee6607e91df6313de4237b48dfb5ca078c372e0342903dbadf0d8e5e9437bc",
+              "sha256": "f40db580f2258b6965742a971a1ecebe84c33bf5fc42e4bddc98b3b97e273243",
               "transparentBounds": {
                 "left": 0,
                 "top": 0,
-                "right": 1413,
-                "bottom": 2048
+                "right": 374,
+                "bottom": 443
               },
               "placement": {
                 "anchor": "center",
@@ -1004,26 +1004,26 @@
             }
           ]
         },
-        "selectedCharacterId": "1571",
+        "selectedCharacterId": "remielle",
         "selectionReason": "newer-limited-debut",
         "variants": [
           {
-            "id": "1571-splash",
+            "id": "1501-splash",
             "source": "splash",
-            "path": "/launcher-art/d8ee6607e91df6313de4237b48dfb5ca078c372e0342903dbadf0d8e5e9437bc.webp",
-            "url": "https://pengo.gg/dist/launcher-art/d8ee6607e91df6313de4237b48dfb5ca078c372e0342903dbadf0d8e5e9437bc.webp",
+            "path": "/launcher-art/b196f0f3f81a46277dd95347d18a5524f7b560f4a5346950b7c3041f79d858dd.webp",
+            "url": "https://pengo.gg/dist/launcher-art/b196f0f3f81a46277dd95347d18a5524f7b560f4a5346950b7c3041f79d858dd.webp",
             "mime": "image/webp",
-            "size": 356540,
+            "size": 272768,
             "dimensions": {
-              "width": 1413,
-              "height": 2048
+              "width": 1050,
+              "height": 2018
             },
-            "sha256": "d8ee6607e91df6313de4237b48dfb5ca078c372e0342903dbadf0d8e5e9437bc",
+            "sha256": "b196f0f3f81a46277dd95347d18a5524f7b560f4a5346950b7c3041f79d858dd",
             "transparentBounds": {
               "left": 0,
               "top": 0,
-              "right": 1413,
-              "bottom": 2048
+              "right": 1050,
+              "bottom": 2018
             },
             "placement": {
               "anchor": "center",
@@ -1033,22 +1033,22 @@
             }
           },
           {
-            "id": "1491-splash",
+            "id": "remielle-splash",
             "source": "splash",
-            "path": "/launcher-art/47dbffa5948f6e09beb819bb5eb81c7e6054822d0b2604492de8b6c25a6023c4.webp",
-            "url": "https://pengo.gg/dist/launcher-art/47dbffa5948f6e09beb819bb5eb81c7e6054822d0b2604492de8b6c25a6023c4.webp",
+            "path": "/launcher-art/f40db580f2258b6965742a971a1ecebe84c33bf5fc42e4bddc98b3b97e273243.webp",
+            "url": "https://pengo.gg/dist/launcher-art/f40db580f2258b6965742a971a1ecebe84c33bf5fc42e4bddc98b3b97e273243.webp",
             "mime": "image/webp",
-            "size": 190758,
+            "size": 64346,
             "dimensions": {
-              "width": 808,
-              "height": 1798
+              "width": 374,
+              "height": 443
             },
-            "sha256": "47dbffa5948f6e09beb819bb5eb81c7e6054822d0b2604492de8b6c25a6023c4",
+            "sha256": "f40db580f2258b6965742a971a1ecebe84c33bf5fc42e4bddc98b3b97e273243",
             "transparentBounds": {
               "left": 0,
               "top": 0,
-              "right": 808,
-              "bottom": 1798
+              "right": 374,
+              "bottom": 443
             },
             "placement": {
               "anchor": "center",
@@ -1169,7 +1169,7 @@
         "remaining": {
           "startsAt": "2026-07-10T08:10:00.000Z",
           "endsAt": "2026-07-30T08:59:00.000Z",
-          "durationSeconds": 139095
+          "durationSeconds": 83094
         },
         "characters": [
           {
@@ -1568,7 +1568,7 @@
         "remaining": {
           "startsAt": "2026-07-16T04:00:00.000Z",
           "endsAt": "2026-08-09T03:59:59.000Z",
-          "durationSeconds": 985154
+          "durationSeconds": 929153
         },
         "characters": [
           {

@@ -12,7 +12,8 @@ const root = path.resolve(siteDir, '..');
 const deployDir = path.resolve(root, '.deploy', 'pengo');
 const execFileAsync = promisify(execFile);
 const CLOUDFLARE_ASSET_FILE_LIMIT = 20_000;
-const POST_BUILD_FILE_RESERVE = 10; // SEO/sitemap injection runs after this step.
+// inject-seo.mjs edits HTML in place and adds only sitemap.xml.
+const POST_BUILD_FILE_RESERVE = 1;
 
 const runtimeDirs = [
   ['assets', path.resolve(siteDir, 'assets')],

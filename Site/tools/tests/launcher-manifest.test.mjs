@@ -307,6 +307,43 @@ test('Genshin uses the local splash and never the removed portrait source', () =
   assert.match(variant.path, /UI_Gacha_AvatarImg_Citlali\.webp$/);
 });
 
+test('Prydwen source-hash aliases keep verified current art and provide an icon fallback', () => {
+  const db = fs.mkdtempSync(path.join(ROOT, 'Site', 'launcher-prydwen-alias-test-'));
+  try {
+    const assetsDir = path.join(db, 'Prydwen', 'zzz', 'assets', 'characters');
+    fs.mkdirSync(assetsDir, { recursive: true });
+    fs.copyFileSync(
+      path.join(ROOT, 'Database', 'GameData', 'gi', 'assets', 'characters', 'gacha', 'UI_Gacha_AvatarImg_Citlali.webp'),
+      path.join(assetsDir, 'remielle-0123456789ab.webp'),
+    );
+    const banners = { games: [{ id: 'zzz', current: phase('2026-07-16T00:00:00.000Z', '2026-07-18T00:00:00.000Z', [{ name: 'Remielle Dan', rarity: 5 }]) }] };
+    const customPrydwen = { zzz: [{
+      id: 'remielle',
+      name: 'Remielle',
+      facts: { rarity: 'S' },
+      art: { card: 'Prydwen/zzz/assets/characters/remielle-card-0123456789ab.webp' },
+    }] };
+
+    const manifest = buildManifest({
+      banners,
+      events,
+      rosters: { ...rosters, zzz: [] },
+      prydwen: customPrydwen,
+      now: NOW,
+      generatedAt: '2026-07-17T00:00:00.000Z',
+      db,
+    });
+    const character = manifest.games.zzz.current.selectedCharacter;
+
+    assert.match(character.variants[0].path, /remielle-0123456789ab\.webp$/);
+    assert.equal(character.icon.source, 'character-icon');
+    assert.equal(character.icon.sha256, character.variants[0].sha256);
+    assert.deepEqual(character.icon.placement, { anchor: 'center', fit: 'cover', x: 0.5, y: 0.5 });
+  } finally {
+    fs.rmSync(db, { recursive: true, force: true });
+  }
+});
+
 test('policy winner remains selected when its art is unavailable and current art remains usable as fallback', () => {
   const banners = { games: [{ id: 'gi', current: phase('2026-07-16T00:00:00.000Z', '2026-07-18T00:00:00.000Z', [{ name: 'Artless Newcomer' }, { name: 'Citlali' }]) }] };
   const customRosters = { ...rosters, gi: [

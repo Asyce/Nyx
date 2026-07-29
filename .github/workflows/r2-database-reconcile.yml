@@ -57,11 +57,11 @@ jobs:
         env:
           PENGO_DEPLOY_COMMIT: ${{ steps.commit.outputs.sha }}
           PENGO_DATABASE_ASSET_MODE: dual
-        run: npm run build:deploy
+        run: npm run build:deploy:generated
 
       - name: Smoke exact dual deploy artifact
         working-directory: Site
-        run: npm run smoke:deploy
+        run: npm run smoke:deploy:generated
 
       - name: Additively reconcile Database assets and manifests
         working-directory: Site
@@ -97,8 +97,8 @@ jobs:
           PENGO_DATABASE_ASSET_MODE: local
         run: |
           cd Site
-          npm run build:deploy
-          npm run smoke:deploy
+          npm run build:deploy:generated
+          npm run smoke:deploy:generated
           cd ..
           npx --yes wrangler deploy
 
@@ -108,7 +108,7 @@ jobs:
         env:
           PENGO_DEPLOY_COMMIT: ${{ steps.commit.outputs.sha }}
           PENGO_DATABASE_ASSET_MODE: r2-only
-        run: npm run build:deploy && npm run smoke:deploy
+        run: npm run build:deploy:generated && npm run smoke:deploy:generated
 
       - name: Deploy exact R2-only artifact
         id: deploy_r2
@@ -134,7 +134,7 @@ jobs:
           PENGO_DATABASE_ASSET_MODE: dual
         run: |
           cd Site
-          npm run build:deploy
-          npm run smoke:deploy
+          npm run build:deploy:generated
+          npm run smoke:deploy:generated
           cd ..
           npx --yes wrangler deploy

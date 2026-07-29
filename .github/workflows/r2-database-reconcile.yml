@@ -21,6 +21,8 @@ permissions:
 jobs:
   reconcile:
     runs-on: ubuntu-latest
+    env:
+      DATABASE_ASSET_MODE: ${{ vars.DATABASE_ASSET_MODE || 'local' }}
     steps:
       - uses: actions/checkout@v7
         with:
@@ -53,6 +55,7 @@ jobs:
         run: npm run test:database-assets
 
       - name: Build exact dual deploy artifact
+        if: ${{ env.DATABASE_ASSET_MODE != 'r2-only' }}
         working-directory: Site
         env:
           PENGO_DEPLOY_COMMIT: ${{ steps.commit.outputs.sha }}
@@ -60,6 +63,7 @@ jobs:
         run: npm run build:deploy:generated
 
       - name: Smoke exact dual deploy artifact
+        if: ${{ env.DATABASE_ASSET_MODE != 'r2-only' }}
         working-directory: Site
         run: npm run smoke:deploy:generated
 
@@ -74,12 +78,14 @@ jobs:
 
       - name: Deploy exact dual artifact
         id: deploy_dual
+        if: ${{ env.DATABASE_ASSET_MODE != 'r2-only' }}
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: npx --yes wrangler deploy
 
       - name: Live-check dual rollout
         id: verify_dual
+        if: ${{ env.DATABASE_ASSET_MODE != 'r2-only' }}
         working-directory: Site
         env:
           PENGO_DEPLOY_COMMIT: ${{ steps.commit.outputs.sha }}
@@ -90,7 +96,7 @@ jobs:
       # remains red, preserving the original rollout failure signal.
       - name: Restore exact local artifact after an unsuccessful dual rollout
         id: restore_local
-        if: ${{ failure() && (steps.deploy_dual.outcome == 'failure' || (steps.deploy_dual.outcome == 'success' && steps.verify_dual.outcome != 'success')) }}
+        if: ${{ failure() && env.DATABASE_ASSET_MODE != 'r2-only' && (steps.deploy_dual.outcome == 'failure' || (steps.deploy_dual.outcome == 'success' && steps.verify_dual.outcome != 'success')) }}
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           PENGO_DEPLOY_COMMIT: ${{ steps.commit.outputs.sha }}
@@ -103,7 +109,7 @@ jobs:
           npx --yes wrangler deploy
 
       - name: Build and smoke exact R2-only artifact
-        if: ${{ inputs.cutover_to_r2_only }}
+        if: ${{ inputs.cutover_to_r2_only || env.DATABASE_ASSET_MODE == 'r2-only' }}
         working-directory: Site
         env:
           PENGO_DEPLOY_COMMIT: ${{ steps.commit.outputs.sha }}
@@ -112,14 +118,14 @@ jobs:
 
       - name: Deploy exact R2-only artifact
         id: deploy_r2
-        if: ${{ inputs.cutover_to_r2_only }}
+        if: ${{ inputs.cutover_to_r2_only || env.DATABASE_ASSET_MODE == 'r2-only' }}
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: npx --yes wrangler deploy
 
       - name: Live-check R2-only rollout
         id: verify_r2
-        if: ${{ inputs.cutover_to_r2_only }}
+        if: ${{ inputs.cutover_to_r2_only || env.DATABASE_ASSET_MODE == 'r2-only' }}
         working-directory: Site
         env:
           PENGO_DEPLOY_COMMIT: ${{ steps.commit.outputs.sha }}
@@ -127,7 +133,7 @@ jobs:
 
       - name: Restore verified dual artifact after a failed cutover
         id: restore_dual
-        if: ${{ failure() && (steps.deploy_r2.outcome == 'failure' || (steps.deploy_r2.outcome == 'success' && steps.verify_r2.outcome != 'success')) }}
+        if: ${{ failure() && env.DATABASE_ASSET_MODE != 'r2-only' && (steps.deploy_r2.outcome == 'failure' || (steps.deploy_r2.outcome == 'success' && steps.verify_r2.outcome != 'success')) }}
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           PENGO_DEPLOY_COMMIT: ${{ steps.commit.outputs.sha }}
@@ -138,3 +144,10 @@ jobs:
           npm run smoke:deploy:generated
           cd ..
           npx --yes wrangler deploy
+
+      - name: Roll back the prior R2-only deployment after a failed live check
+        id: rollback_r2
+        if: ${{ failure() && env.DATABASE_ASSET_MODE == 'r2-only' && steps.deploy_r2.outcome == 'success' && steps.verify_r2.outcome != 'success' }}
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: npx --yes wrangler rollback --message "Automatic rollback after failed R2-only live check"

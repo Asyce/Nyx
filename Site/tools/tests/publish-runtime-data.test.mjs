@@ -6,6 +6,7 @@ import path from 'node:path';
 import test from 'node:test';
 import zlib from 'node:zlib';
 import { publishRuntimeData } from '../publish-runtime-data.mjs';
+import { createAchievementManifest } from '../../../Scraper/achievements/manifest.mjs';
 
 function crc32(bytes) {
   let crc = 0xffffffff;
@@ -58,8 +59,8 @@ async function fixture() {
     await fs.writeFile(path.join(achievementDir, 'catalog.json'), JSON.stringify({
       schemaVersion:1,
       game,
-      catalogVersion:game === 'gi' ? '6.7' : '4.3',
-      releasedVersion:game === 'gi' ? '6.7' : '4.3',
+      catalogVersion:game === 'gi' ? '6.7' : '4.4',
+      releasedVersion:game === 'gi' ? '6.7' : '4.4',
       generatedAt:'2026-07-11T00:00:00Z',
       dataTimestamp:'2026-07-11T00:00:00Z',
       source:{ repository:'https://example.test/repo', dataUrl:'https://example.test/catalog.json', license:'MIT', commit:'fixture' },
@@ -71,6 +72,19 @@ async function fixture() {
       achievements:[{ id:game === 'gi' ? '80091' : '4010101', categoryId:'1', name:'First achievement', description:'Complete a first step.', reward:5, version:'1.0', sortOrder:1 }],
     }));
   }
+  const achievementCatalogFiles = [];
+  for (const game of ['gi', 'hsr']) {
+    const bytes = await fs.readFile(path.join(root, 'Database', 'Achievements', game, 'catalog.json'));
+    achievementCatalogFiles.push({ catalog:JSON.parse(bytes.toString('utf8')), bytes });
+  }
+  const achievementManifest = createAchievementManifest(
+    achievementCatalogFiles,
+    { generatedAt:'2026-07-11T00:00:00Z' },
+  );
+  await fs.writeFile(
+    path.join(root, 'Database', 'Achievements', 'manifest.json'),
+    JSON.stringify(achievementManifest),
+  );
   const historyDir = path.join(root, 'Database', 'BannerHistory');
   const activityDir = path.join(root, 'Database', 'Activities');
   await fs.mkdir(historyDir, { recursive:true }); await fs.mkdir(activityDir, { recursive:true });
@@ -83,13 +97,45 @@ async function fixture() {
 test('publisher allowlists library data and writes verified manifest metadata', async () => {
   const rootDir = await fixture();
   const manifest = await publishRuntimeData({ rootDir, maxBytes:4096 });
-  assert.equal(manifest.files.length, 24);
+  assert.equal(manifest.files.length, 25);
   for (const entry of manifest.files) {
-    assert.match(entry.url, /^(?:\/data\/(?:library\/(?:gi|hsr)\/|achievements\/(?:gi|hsr)\/|banner-history\/|activities\/)|\/assets\/achievements\/(?:gi|hsr)\/(?:categories|rewards)\/)/);
+    assert.match(entry.url, /^(?:\/data\/(?:library\/(?:gi|hsr)\/|achievements\/(?:manifest\.json|(?:gi|hsr)\/)|banner-history\/|activities\/)|\/assets\/achievements\/(?:gi|hsr)\/(?:categories|rewards)\/)/);
     assert.match(entry.sha256, /^[a-f0-9]{64}$/);
     assert.ok(entry.size > 0);
     assert.doesNotThrow(() => new Date(entry.dataTimestamp).toISOString());
   }
+});
+
+test('publisher takes enabled achievement catalogs from the shared game registry', async () => {
+  const rootDir = await fixture();
+  const registryPath = path.join(rootDir, 'achievement-games.js');
+  await fs.writeFile(
+    registryPath,
+    "window.NyxAchievementGames={all:()=>[{key:'gi',features:{catalog:true,tracker:true}},{key:'hsr',features:{catalog:false,tracker:false}}]};\n",
+  );
+  const manifest = await publishRuntimeData({ rootDir, maxBytes:4096, achievementRegistryPath:registryPath });
+  assert.ok(manifest.files.some((entry) => entry.url === '/data/achievements/gi/catalog.json'));
+  assert.ok(!manifest.files.some((entry) => entry.url.includes('/achievements/hsr/')));
+  assert.ok(manifest.files.some((entry) => entry.url === '/data/achievements/manifest.json'));
+});
+
+test('publisher requires the generated achievement manifest and rejects stale catalog checksums', async () => {
+  let rootDir = await fixture();
+  await fs.rm(path.join(rootDir, 'Database', 'Achievements', 'manifest.json'));
+  await assert.rejects(
+    publishRuntimeData({ rootDir, maxBytes:4096 }),
+    /missing manifest\.json/,
+  );
+
+  rootDir = await fixture();
+  const manifestFile = path.join(rootDir, 'Database', 'Achievements', 'manifest.json');
+  const achievementManifest = JSON.parse(await fs.readFile(manifestFile, 'utf8'));
+  achievementManifest.games[0].catalogSha256 = '0'.repeat(64);
+  await fs.writeFile(manifestFile, JSON.stringify(achievementManifest));
+  await assert.rejects(
+    publishRuntimeData({ rootDir, maxBytes:4096 }),
+    /metadata or catalog checksum does not match/,
+  );
 });
 
 test('publisher rejects unexpected extensions and removes partial output', async () => {
@@ -127,9 +173,9 @@ test('publisher rejects future or inconsistent achievement catalogs', async () =
   let rootDir = await fixture();
   let file = path.join(rootDir, 'Database', 'Achievements', 'hsr', 'catalog.json');
   let catalog = JSON.parse(await fs.readFile(file));
-  catalog.achievements[0].version = '4.4';
+  catalog.achievements[0].version = '4.5';
   await fs.writeFile(file, JSON.stringify(catalog));
-  await assert.rejects(publishRuntimeData({ rootDir, maxBytes:4096 }), /newer than 4\.3/);
+  await assert.rejects(publishRuntimeData({ rootDir, maxBytes:4096 }), /newer than 4\.4/);
 
   rootDir = await fixture();
   file = path.join(rootDir, 'Database', 'Achievements', 'gi', 'catalog.json');
@@ -145,7 +191,7 @@ test('publisher rejects future or inconsistent achievement catalogs', async () =
   catalog.catalogVersion = '99.9';
   catalog.achievements[0].version = '99.8';
   await fs.writeFile(file, JSON.stringify(catalog));
-  await assert.rejects(publishRuntimeData({ rootDir, maxBytes:4096 }), /release ceiling must be 4\.3/);
+  await assert.rejects(publishRuntimeData({ rootDir, maxBytes:4096 }), /release ceiling must be 4\.4/);
 });
 
 test('publisher rejects remote, missing, malformed, and unreferenced achievement icons', async () => {
@@ -251,7 +297,7 @@ async function withEvents(rootDir, gameToPayload) {
 test('publisher is unaffected when Events is absent (still-optional family)', async () => {
   const rootDir = await fixture();
   const manifest = await publishRuntimeData({ rootDir, maxBytes:4096 });
-  assert.equal(manifest.files.length, 24);
+  assert.equal(manifest.files.length, 25);
   assert.ok(!manifest.files.some((f) => f.url.startsWith('/data/events/')));
 });
 
@@ -265,7 +311,7 @@ test('publisher includes and validates Events when present, keyed by the backend
     endfield: { schemaVersion:1, game:'endfield', generatedAt:'2026-07-12T00:00:00Z', events:[] },
   });
   const manifest = await publishRuntimeData({ rootDir, maxBytes:4096 });
-  assert.equal(manifest.files.length, 31);
+  assert.equal(manifest.files.length, 32);
   const eventUrls = manifest.files.filter((f) => f.url.startsWith('/data/events/')).map((f) => f.url).sort();
   assert.deepEqual(eventUrls, ['/data/events/endfield.json', '/data/events/gi.json', '/data/events/history-state.json', '/data/events/hsr.json', '/data/events/manifest.json', '/data/events/wuwa.json', '/data/events/zzz.json']);
 });

@@ -5,6 +5,7 @@ import path from 'node:path';
 import test from 'node:test';
 import zlib from 'node:zlib';
 import { assertCatalogNotCollapsed, inspectAchievementIconBytes, normalizeGiCatalog, normalizeHsrCatalog, validateCatalog } from '../core.mjs';
+import { compareAchievementCatalogs, createAchievementManifest, createAchievementRefreshReport, validateAchievementManifest } from '../manifest.mjs';
 
 const FIXED = {
   sourceCommit: 'fixture',
@@ -61,7 +62,7 @@ test('GI flattens every stage and excludes data beyond the release ceiling', asy
 });
 
 test('HSR builds stable series categories, removes game markup, and excludes future data', async () => {
-  const catalog = normalizeHsrCatalog(await fixture('hsr'), { ...FIXED, releasedVersion: '4.3' });
+  const catalog = normalizeHsrCatalog(await fixture('hsr'), { ...FIXED, releasedVersion: '4.4' });
   assert.equal(catalog.achievements[0].reward, 20);
   assert.equal(catalog.game, 'hsr');
   assert.deepEqual(catalog.categories.map(({ id }) => id), ['hsr-1', 'hsr-3']);
@@ -140,12 +141,56 @@ test('catalog refresh blocks a collapse below eighty percent of last known good'
   assert.throws(() => assertCatalogNotCollapsed(next, previous), /catalog collapsed/);
 });
 
+test('catalog manifest pins real counts, versions, source revisions, and exact file checksums', async () => {
+  const gi = normalizeGiCatalog(await fixture('gi'), { ...FIXED, releasedVersion:'6.7' });
+  const hsr = normalizeHsrCatalog(await fixture('hsr'), { ...FIXED, releasedVersion:'4.4' });
+  const files = [gi, hsr].map((catalog) => ({ catalog, bytes:Buffer.from(`${JSON.stringify(catalog)}\n`) }));
+  const manifest = createAchievementManifest(files, { generatedAt:FIXED.generatedAt });
+  assert.deepEqual(manifest.games.map(({ game }) => game), ['gi', 'hsr']);
+  assert.deepEqual(manifest.games.map(({ achievementCount }) => achievementCount), [4, 2]);
+  assert.ok(manifest.games.every(({ catalogSha256 }) => /^[a-f0-9]{64}$/.test(catalogSha256)));
+  assert.doesNotThrow(() => validateAchievementManifest(manifest, files, ['gi', 'hsr']));
+  const wrong = structuredClone(manifest);
+  wrong.games[0].catalogSha256 = '0'.repeat(64);
+  assert.throws(() => validateAchievementManifest(wrong, files, ['gi', 'hsr']), /checksum does not match/);
+});
+
+test('semantic refresh report distinguishes additive changes from removals and large count changes', async () => {
+  const previous = normalizeGiCatalog(await fixture('gi'), { ...FIXED, releasedVersion:'6.7' });
+  const additive = structuredClone(previous);
+  additive.achievements.push({
+    ...additive.achievements.at(-1),
+    id:'999',
+    name:'New achievement',
+    sortOrder:additive.achievements.length + 1,
+  });
+  additive.achievementCount = additive.achievements.length;
+  additive.count = additive.achievements.length;
+  const additiveComparison = compareAchievementCatalogs(previous, additive);
+  assert.equal(additiveComparison.status, 'changed');
+  assert.equal(additiveComparison.reviewRequired, false);
+  assert.deepEqual(additiveComparison.achievements.added, ['999']);
+
+  const removal = structuredClone(previous);
+  removal.achievements = removal.achievements.slice(1);
+  removal.achievementCount = removal.achievements.length;
+  removal.count = removal.achievements.length;
+  const removalComparison = compareAchievementCatalogs(previous, removal);
+  assert.equal(removalComparison.status, 'review-required');
+  assert.equal(removalComparison.reviewRequired, true);
+  assert.equal(removalComparison.achievements.removed.length, 1);
+
+  const report = createAchievementRefreshReport([removalComparison], { generatedAt:FIXED.generatedAt });
+  assert.equal(report.reviewRequired, true);
+  assert.deepEqual(report.games.map(({ game }) => game), ['gi']);
+});
+
 test('catalog validation rejects a self-declared future release ceiling', async () => {
-  const catalog = normalizeHsrCatalog(await fixture('hsr'), { ...FIXED, releasedVersion:'4.3' });
+  const catalog = normalizeHsrCatalog(await fixture('hsr'), { ...FIXED, releasedVersion:'4.4' });
   catalog.releasedVersion = '99.9';
   catalog.catalogVersion = '99.9';
   catalog.achievements[0].version = '99.8';
-  assert.throws(() => validateCatalog(catalog), /release ceiling must be 4\.3/);
+  assert.throws(() => validateCatalog(catalog), /release ceiling must be 4\.4/);
 });
 
 test('checked-in catalogs pass the same release and safety validation', async () => {
@@ -156,7 +201,7 @@ test('checked-in catalogs pass the same release and safety validation', async ()
   assert.equal(provenance.licenseClaim, null);
   assert.match(provenance.rightsNote, /No license is claimed for game artwork/);
   for (const game of ['gi', 'hsr']) {
-    const expectedCounts = { gi:{ categories:69, achievements:1759 }, hsr:{ categories:9, achievements:1811 } }[game];
+    const expectedCounts = { gi:{ categories:69, achievements:1759 }, hsr:{ categories:9, achievements:1869 } }[game];
     const catalogUrl = new URL(`${game}/catalog.json`, root);
     const catalog = JSON.parse(await fs.readFile(catalogUrl, 'utf8'));
     assert.doesNotThrow(() => validateCatalog(catalog));

@@ -4,12 +4,17 @@ window.NyxAchievementCore = (function () {
   'use strict';
 
   const PROFILE_VERSION = 1;
-  const GAMES = ['gi', 'hsr'];
+  const GAMES = ['gi', 'hsr', 'zzz', 'wuwa', 'ae'];
 
   function normalizeGame(value) {
     const game = String(value == null ? '' : value).trim().toLowerCase();
+    const registryGame = window.NyxAchievementGames && window.NyxAchievementGames.get(game);
+    if (registryGame) return registryGame.key;
     if (game === 'gi' || game === 'genshin' || game === 'genshin-impact') return 'gi';
     if (game === 'hsr' || game === 'star-rail' || game === 'honkai-star-rail') return 'hsr';
+    if (game === 'zzz' || game === 'zenless' || game === 'zenless-zone-zero') return 'zzz';
+    if (game === 'wuwa' || game === 'ww' || game === 'wuthering-waves') return 'wuwa';
+    if (game === 'ae' || game === 'endfield' || game === 'arknights-endfield') return 'ae';
     throw new Error('Unsupported achievement game.');
   }
 
@@ -55,6 +60,27 @@ window.NyxAchievementCore = (function () {
     return String(value == null ? '' : value).trim().slice(0, maxLength);
   }
 
+  function normalizeAccountBinding(value) {
+    if (value == null || value === '') return null;
+    if (!value || typeof value !== 'object' || Array.isArray(value)) {
+      throw new Error('Achievement account binding is invalid.');
+    }
+    const scheme = cleanText(value.scheme, 48);
+    const fingerprint = cleanText(value.value, 256);
+    const region = cleanText(value.region, 48);
+    if (scheme !== 'pengo-install-hmac-v1' || !/^[A-Za-z0-9_-]{16,256}$/.test(fingerprint)) {
+      throw new Error('Achievement account binding is invalid.');
+    }
+    return { scheme, value: fingerprint, region };
+  }
+
+  function sameAccountBinding(left, right) {
+    const a = normalizeAccountBinding(left);
+    const b = normalizeAccountBinding(right);
+    if (!a || !b) return a === b;
+    return a.scheme === b.scheme && a.value === b.value && a.region === b.region;
+  }
+
   function makeUuid() {
     if (typeof crypto !== 'undefined' && typeof crypto.randomUUID === 'function') {
       return crypto.randomUUID();
@@ -76,6 +102,7 @@ window.NyxAchievementCore = (function () {
       game: normalizeGame(data.game),
       label: cleanText(data.label, 80),
       uid: cleanText(data.uid, 64),
+      accountBinding: normalizeAccountBinding(data.accountBinding),
       completedIds: normalizeIds(data.completedIds),
       unknownIds: normalizeIds(data.unknownIds),
       createdAt: Number.isFinite(data.createdAt) ? data.createdAt : now,
@@ -99,6 +126,8 @@ window.NyxAchievementCore = (function () {
     normalizeId,
     normalizeIds,
     inspectIds,
+    normalizeAccountBinding,
+    sameAccountBinding,
     createProfile,
     normalizeProfile,
   };

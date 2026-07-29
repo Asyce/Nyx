@@ -251,6 +251,19 @@ async function downloadedJson(harness) {
   return { download, text, json: JSON.parse(text) };
 }
 
+function assertPengoExport(json, expectedIds) {
+  assert.deepEqual(Object.keys(json), ['kind', 'version', 'game', 'catalogVersion', 'exportedAt', 'achievements']);
+  assert.equal(json.kind, 'pengo-achievements');
+  assert.equal(json.version, 1);
+  assert.equal(json.game, 'hsr');
+  assert.equal(json.catalogVersion, 'hsr-4.4');
+  assert.doesNotThrow(() => new Date(json.exportedAt).toISOString());
+  assert.deepEqual(
+    json.achievements,
+    expectedIds.map((id) => ({ id, status:'complete' })),
+  );
+}
+
 async function clickAndExpectGenericFailure(harness) {
   await harness.findTag('button').click();
   assert.equal(harness.downloads.length, 0);
@@ -299,9 +312,9 @@ async function loadImporter() {
 }
 
 test('embedded release allowlist exactly matches the HSR catalog', async () => {
-  const match = exporterSource.match(/RELEASED_HSR_IDS\s*=\s*Object\.freeze\(\[([0-9,]+)\]\)/);
-  assert.ok(match, 'embedded HSR allowlist is missing');
-  const embedded = match[1].split(',').map(Number);
+  const matches = [...exporterSource.matchAll(/RELEASED_HSR(?:_[0-9]+)?_IDS\s*=\s*Object\.freeze\(\[([0-9,]+)\]\)/g)];
+  assert.ok(matches.length, 'embedded HSR allowlist is missing');
+  const embedded = matches.flatMap((match) => match[1].split(',').map(Number)).sort((a, b) => a - b);
   const catalog = JSON.parse(await fs.readFile(path.resolve(rootDir, 'Database/Achievements/hsr/catalog.json'), 'utf8'));
   const expected = [...new Set(catalog.achievements.map((row) => Number(row.id)))].sort((a, b) => a - b);
   assert.deepEqual(embedded, expected);
@@ -370,8 +383,7 @@ test('uses exact endpoints and hardened GET options, then exports sorted finishe
   const { download, text, json } = await downloadedJson(harness);
   assert.equal(download.filename, 'pengo-hsr-achievements.json');
   assert.equal(download.blob.type, 'application/json');
-  assert.deepEqual(Object.keys(json), ['hsr_achievements']);
-  assert.deepEqual(json.hsr_achievements, knownIds);
+  assertPengoExport(json, knownIds);
   assert.notDeepEqual([...Buffer.from(text).subarray(0, 3)], [0xef, 0xbb, 0xbf]);
   assert.equal(harness.status(), 'Exported 2 completed achievements.');
   assert.doesNotMatch(harness.status(), /4010101|4010201/);
@@ -385,7 +397,7 @@ test('an empty finished list is a successful empty export', async () => {
     ]),
   });
   await harness.findTag('button').click();
-  assert.deepEqual((await downloadedJson(harness)).json, { hsr_achievements: [] });
+  assertPengoExport((await downloadedJson(harness)).json, []);
   assert.equal(harness.status(), 'Exported 0 completed achievements.');
 });
 
@@ -397,7 +409,7 @@ test('a canonical unknown unfinished row is ignored safely', async () => {
     ]),
   });
   await harness.findTag('button').click();
-  assert.deepEqual((await downloadedJson(harness)).json.hsr_achievements, [knownIds[0]]);
+  assertPengoExport((await downloadedJson(harness)).json, [knownIds[0]]);
 });
 
 for (const [name, row] of [
@@ -585,7 +597,7 @@ test('download remains BOM-less and accepted by the existing Pengo importer', as
   });
   await harness.findTag('button').click();
   const { text, json } = await downloadedJson(harness);
-  assert.deepEqual(Object.keys(json), ['hsr_achievements']);
+  assertPengoExport(json, knownIds);
   assert.notDeepEqual([...Buffer.from(text).subarray(0, 3)], [0xef, 0xbb, 0xbf]);
   const parsed = plain((await loadImporter()).parse(text));
   assert.equal(parsed.game, 'hsr');

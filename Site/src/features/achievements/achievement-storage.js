@@ -123,6 +123,7 @@ window.NyxAchievementStore = (function () {
       return saveProfile(Object.assign({}, current, {
         label: Object.prototype.hasOwnProperty.call(allowed, 'label') ? allowed.label : current.label,
         uid: Object.prototype.hasOwnProperty.call(allowed, 'uid') ? allowed.uid : current.uid,
+        accountBinding: Object.prototype.hasOwnProperty.call(allowed, 'accountBinding') ? allowed.accountBinding : current.accountBinding,
       }), options);
     }
 
@@ -181,6 +182,7 @@ window.NyxAchievementStore = (function () {
       const saved = saveProfile(Object.assign({}, profile, {
         completedIds: Array.from(complete),
         unknownIds: Array.from(unknown),
+        accountBinding: options && options.accountBinding ? options.accountBinding : profile.accountBinding,
       }), options);
       return { profile: saved, added, unknownAdded };
     }
@@ -198,6 +200,7 @@ window.NyxAchievementStore = (function () {
       const saved = saveProfile(Object.assign({}, profile, {
         completedIds: complete,
         unknownIds: unknown,
+        accountBinding: options && options.accountBinding ? options.accountBinding : profile.accountBinding,
       }), options);
       return {
         profile: saved,
@@ -217,6 +220,13 @@ window.NyxAchievementStore = (function () {
         unknownIds: [],
       }), options);
       return { profile: saved, removed, unknownRemoved };
+    }
+
+    function rebindAccount(game, profileId, accountBinding, options) {
+      const profile = requireProfile(game, profileId);
+      return saveProfile(Object.assign({}, profile, {
+        accountBinding: accountBinding == null ? null : Core.normalizeAccountBinding(accountBinding),
+      }), options);
     }
 
     // When a later catalog learns about a previously unknown imported ID, make
@@ -326,6 +336,7 @@ window.NyxAchievementStore = (function () {
       mergeProgress,
       replaceProgress,
       resetProgress,
+      rebindAccount,
       reconcileCatalog,
       deleteProfile,
       exportBackup,
@@ -350,6 +361,7 @@ window.NyxAchievementStore = (function () {
     mergeProgress: (...args) => makeStore().mergeProgress(...args),
     replaceProgress: (...args) => makeStore().replaceProgress(...args),
     resetProgress: (...args) => makeStore().resetProgress(...args),
+    rebindAccount: (...args) => makeStore().rebindAccount(...args),
     reconcileCatalog: (...args) => makeStore().reconcileCatalog(...args),
     deleteProfile: (...args) => makeStore().deleteProfile(...args),
     exportBackup: (...args) => makeStore().exportBackup(...args),

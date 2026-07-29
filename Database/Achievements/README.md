@@ -9,4 +9,28 @@ Each catalog pins the exact upstream data commit and its timestamp. The builder 
 
 Released category and reward UI icons are mirrored locally as small, content-addressed files for the tracker. Every file has recorded source, hash, size, media type, dimensions, and retrieval metadata in `asset-provenance.json`; the browser never hotlinks an upstream asset. The `symbol` values remain Pengo-generated fallbacks when an icon cannot load.
 
+## Unpublished candidates
+
+`candidates/` contains generated research artifacts for ZZZ, Wuthering Waves,
+and Endfield. They are deliberately outside the released manifest and the
+runtime publisher. Every candidate has `publishable: false`, an exact source
+revision or response hash, capability flags, and explicit blockers.
+
+Regenerate them from reviewed public sources with:
+
+```powershell
+cd C:\Pengo\Nyx\Scraper
+npm run achievements:candidates
+```
+
+The candidate builder never enables a tracker. A candidate can move into a
+released game directory only after its English text, stable IDs, categories,
+rewards, hidden rules, icons, released version, and complete-account import
+route pass the game-specific review gates.
+
+Endfield's synthetic, disabled multi-state contract is documented at
+`contracts/pengo-achievements-v2-ae-draft.md`. Its pinned fixture and pure
+merge/replace tests do not enable the live importer or prove how a real account
+reports level, condition, plating, or rare-effect progress.
+
 Game names, achievement text, icons, and other game content remain the property of HoYoverse / COGNOSPHERE / miHoYo. Pengo is an unofficial fan-made tool and is not affiliated with them.

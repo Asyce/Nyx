@@ -3037,7 +3037,7 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
   }, [cfg.key]);
   const hasTcg = cfg.key === 'gi';
   const hasLibrary = cfg.key === 'gi' || cfg.key === 'hsr';
-  const hasAchievements = cfg.key === 'gi' || cfg.key === 'hsr';
+  const hasAchievements = Boolean(window.NyxAchievementGames?.supportsTracker(cfg.key));
   const betaActive = cfg.key !== 'ae' && typeof cmHasBeta === 'function' && cmHasBeta(cfg.key) && (cmChannel === 'beta' || window.NYX_ALWAYS_BETA === true);
   React.useEffect(() => {
     if (tab === 'beta' && !betaActive) setTab('mats');
@@ -3644,9 +3644,13 @@ function routeTitleFor(key, tab, selection){
 }
 
 function validTabsForKey(key){
-  if (key === 'gi') return ['overview','mats','char-customize','database','tracker','tcg','pot','wonderland','achievements','books','beta','settings'];
-  if (key === 'hsr') return ['overview','mats','char-customize','database','tracker','achievements','books','beta','settings'];
-  return key === 'nyx' ? ['overview','characters','calendar','pulls','codes','banners','events','settings'] : ['overview','mats','char-customize','database','tracker','beta','settings'];
+  if (key === 'nyx') return ['overview','characters','calendar','pulls','codes','banners','events','settings'];
+  const tabs = ['overview','mats','char-customize','database','tracker'];
+  if (key === 'gi') tabs.push('tcg','pot','wonderland');
+  if (window.NyxAchievementGames?.supportsTracker(key)) tabs.push('achievements');
+  if (key === 'gi' || key === 'hsr') tabs.push('books');
+  tabs.push('beta','settings');
+  return tabs;
 }
 
 function coerceTabForKey(key, wanted){

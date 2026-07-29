@@ -1,16 +1,15 @@
 {
-  "checkedAt": "2026-07-28T08:00:36.412Z",
-  "updated": "2026-07-21T16:13:51.549Z",
+  "checkedAt": "2026-07-29T02:05:07.563Z",
+  "updated": "2026-07-29T02:05:07.563Z",
   "games": [
     {
       "id": "hsr",
       "name": "Honkai: Star Rail",
       "freshness": {
-        "status": "stale",
-        "checkedAt": "2026-07-28T08:00:36.412Z",
-        "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
-        "source": "game8",
-        "message": "This game failed to scrape during the latest banner check; preserved previous data."
+        "status": "fresh",
+        "checkedAt": "2026-07-29T02:05:07.563Z",
+        "lastSuccessfulFetch": "2026-07-29T02:05:07.563Z",
+        "source": "game8"
       },
       "current": {
         "phase": "4.4",
@@ -24,57 +23,64 @@
             "name": "Evernight",
             "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1413.webp",
             "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1413.webp"
-          }
-        ],
-        "end": "2026-08-25T16:00:00.000Z",
-        "source": "game8"
-      },
-      "next": {
-        "phase": "4.4",
-        "characters": [
+          },
+          {
+            "name": "Gilgamesh",
+            "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1509.webp",
+            "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1509.webp"
+          },
           {
             "name": "Rin Tohsaka",
             "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1508.webp",
             "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1508.webp"
           },
           {
-            "name": "Gilgamesh",
-            "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1509.webp",
-            "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1509.webp"
+            "name": "Archer",
+            "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1015.webp",
+            "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1015.webp"
+          },
+          {
+            "name": "Saber",
+            "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1014.webp",
+            "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1014.webp"
           }
         ],
-        "start": "2026-07-14T16:00:00.000Z",
-        "end": "2026-07-24T16:00:00.000Z",
+        "end": "2026-08-25T16:00:00.000Z",
         "source": "game8"
       },
-      "upcoming": [
-        {
-          "characters": [
-            {
-              "name": "Rin Tohsaka",
-              "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1508.webp",
-              "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1508.webp"
-            },
-            {
-              "name": "Gilgamesh",
-              "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1509.webp",
-              "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1509.webp"
-            }
-          ],
-          "start": null,
-          "end": "2026-07-24T16:00:00.000Z"
-        }
-      ]
+      "next": {
+        "phase": "4.4 Phase 2",
+        "characters": [
+          {
+            "name": "Cerydra",
+            "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1412.webp",
+            "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1412.webp"
+          },
+          {
+            "name": "Anaxa",
+            "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1405.webp",
+            "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1405.webp"
+          },
+          {
+            "name": "Aventurine",
+            "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1304.webp",
+            "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1304.webp"
+          }
+        ],
+        "start": "2026-08-05T16:00:00.000Z",
+        "end": "2026-08-25T16:00:00.000Z",
+        "source": "game8"
+      },
+      "upcoming": []
     },
     {
       "id": "genshin",
       "name": "Genshin Impact",
       "freshness": {
-        "status": "stale",
-        "checkedAt": "2026-07-28T08:00:36.412Z",
-        "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
-        "source": "game8",
-        "message": "This game failed to scrape during the latest banner check; preserved previous data."
+        "status": "fresh",
+        "checkedAt": "2026-07-29T02:05:07.563Z",
+        "lastSuccessfulFetch": "2026-07-29T02:05:07.563Z",
+        "source": "game8"
       },
       "current": {
         "phase": "6.7 Phase 1",
@@ -115,11 +121,10 @@
       "id": "wuwa",
       "name": "Wuthering Waves",
       "freshness": {
-        "status": "stale",
-        "checkedAt": "2026-07-28T08:00:36.412Z",
-        "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
-        "source": "game8",
-        "message": "This game failed to scrape during the latest banner check; preserved previous data."
+        "status": "fresh",
+        "checkedAt": "2026-07-29T02:05:07.563Z",
+        "lastSuccessfulFetch": "2026-07-29T02:05:07.563Z",
+        "source": "game8"
       },
       "current": {
         "phase": null,
@@ -172,11 +177,10 @@
       "id": "zzz",
       "name": "Zenless Zone Zero",
       "freshness": {
-        "status": "stale",
-        "checkedAt": "2026-07-28T08:00:36.412Z",
-        "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
-        "source": "game8",
-        "message": "This game failed to scrape during the latest banner check; preserved previous data."
+        "status": "transition",
+        "checkedAt": "2026-07-29T02:05:07.563Z",
+        "lastSuccessfulFetch": "2026-07-29T02:05:07.563Z",
+        "source": "game8"
       },
       "current": {
         "phase": null,
@@ -274,11 +278,10 @@
       "id": "endfield",
       "name": "Arknights: Endfield",
       "freshness": {
-        "status": "stale",
-        "checkedAt": "2026-07-28T08:00:36.412Z",
-        "lastSuccessfulFetch": "2026-07-21T16:13:51.549Z",
-        "source": "game8",
-        "message": "This game failed to scrape during the latest banner check; preserved previous data."
+        "status": "fresh",
+        "checkedAt": "2026-07-29T02:05:07.563Z",
+        "lastSuccessfulFetch": "2026-07-29T02:05:07.563Z",
+        "source": "game8"
       },
       "current": {
         "phase": "1.4 Phase 1",

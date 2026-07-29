@@ -1,8 +1,10 @@
 import crypto from 'node:crypto';
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import vm from 'node:vm';
 import { fileURLToPath } from 'node:url';
 import { ACHIEVEMENT_ICON_MAX_BYTES, achievementIconFilename, inspectAchievementIconBytes, validateCatalog as validateAchievementCatalog } from '../../Scraper/achievements/core.mjs';
+import { validateAchievementManifest } from '../../Scraper/achievements/manifest.mjs';
 import { nyxLibraryNormalizeText } from '../src/features/library/library-core.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -14,8 +16,27 @@ const FAMILY_CONFIG = [
   { source:'Events', target:'events', optional:true },
 ];
 const EVENT_GAMES = ['gi','hsr','zzz','wuwa','endfield'];
+const DEFAULT_ACHIEVEMENT_REGISTRY = path.resolve(DEFAULT_ROOT, 'Site', 'src', 'features', 'achievements', 'achievement-games.js');
 
 async function exists(file) { try { await fs.access(file); return true; } catch { return false; } }
+
+async function achievementTrackerGames(registryPath) {
+  const source = await fs.readFile(registryPath, 'utf8');
+  const context = vm.createContext(
+    { window:{} },
+    { codeGeneration:{ strings:false, wasm:false } },
+  );
+  new vm.Script(source, { filename:registryPath }).runInContext(context, { timeout:250 });
+  const registry = context.window.NyxAchievementGames;
+  if (!registry || typeof registry.all !== 'function') throw new Error('Achievement game registry is invalid');
+  const enabled = registry.all()
+    .filter((game) => game?.features?.catalog && game?.features?.tracker)
+    .map((game) => String(game.key || ''));
+  if (!enabled.length || new Set(enabled).size !== enabled.length || enabled.some((game) => !/^(?:gi|hsr|zzz|wuwa|ae)$/.test(game))) {
+    throw new Error('Achievement game registry has an invalid tracker set');
+  }
+  return enabled;
+}
 
 async function filesBelow(dir) {
   const files = [];
@@ -210,20 +231,53 @@ async function validateAchievementAsset(file, filename, maxBytes) {
   if (filename !== `${hash}.${extension}`) throw new Error(`Runtime Achievement icon hash/magic mismatch: ${filename}`);
 }
 
-async function publishAchievements({ databaseDir, dataDir, deployDir, maxBytes }) {
+async function publishAchievements({ databaseDir, dataDir, deployDir, maxBytes, trackerGames }) {
   const sourceRoot = path.resolve(databaseDir, 'Achievements');
   if (!(await exists(sourceRoot))) throw new Error('Runtime Achievement source is missing');
   const entries = [];
-  for (const game of ['gi', 'hsr']) {
+  const manifestSource = path.resolve(sourceRoot, 'manifest.json');
+  if (!(await exists(manifestSource))) throw new Error('Runtime Achievements is missing manifest.json');
+  const { stat:manifestStat, parsed:manifest } = await validatedJson(manifestSource, maxBytes);
+  if (!Array.isArray(manifest?.games) || manifest.games.some((entry) => !/^(?:gi|hsr|zzz|wuwa|ae)$/.test(entry?.game || ''))) {
+    throw new Error('Runtime Achievements has an invalid manifest game list');
+  }
+  const catalogFiles = [];
+  const catalogs = new Map();
+  for (const { game } of manifest.games) {
     const source = path.resolve(sourceRoot, game, 'catalog.json');
-    if (!(await exists(source))) throw new Error(`Runtime Achievements is missing ${game}/catalog.json`);
-    const { stat, parsed } = await validatedJson(source, maxBytes);
+    if (!(await exists(source))) throw new Error(`Runtime Achievements manifest references missing ${game}/catalog.json`);
+    const bytes = await fs.readFile(source);
+    if (bytes.length > maxBytes) throw new Error(`Runtime file exceeds ${maxBytes} byte ceiling: ${source}`);
+    let parsed;
+    try { parsed = JSON.parse(bytes.toString('utf8')); }
+    catch (error) { throw new Error(`Invalid runtime JSON ${source}: ${error.message}`); }
     try {
       if (parsed?.game !== game) throw new Error(`catalog game ${parsed?.game} does not match ${game}`);
       validateAchievementCatalog(parsed);
     } catch (error) {
       throw new Error(`Runtime Achievements has an invalid ${game} catalog: ${error.message}`);
     }
+    const stat = await fs.stat(source);
+    const row = { source, stat, parsed, catalog:parsed, bytes };
+    catalogFiles.push(row);
+    catalogs.set(game, row);
+  }
+  try {
+    validateAchievementManifest(manifest, catalogFiles);
+  } catch (error) {
+    throw new Error(`Runtime Achievements has an invalid manifest: ${error.message}`);
+  }
+  if (trackerGames.some((game) => !catalogs.has(game))) throw new Error('Runtime Achievement manifest is missing an enabled tracker game');
+  entries.push(await copyEntry({
+    source:manifestSource,
+    dest:path.resolve(dataDir, 'achievements', 'manifest.json'),
+    url:'/data/achievements/manifest.json',
+    maxBytes,
+    parsed:manifest,
+    timestamp:dataTimestamp(manifest, manifestStat),
+  }));
+  for (const game of trackerGames) {
+    const { source, stat, parsed } = catalogs.get(game);
     entries.push(await copyEntry({ source, dest:path.resolve(dataDir, 'achievements', game, 'catalog.json'), url:`/data/achievements/${game}/catalog.json`, maxBytes, parsed, timestamp:dataTimestamp(parsed, stat) }));
 
     const references = parsed.categories.flatMap((category) => category.icon ? [{ icon:category.icon, kind:'categories' }] : []);
@@ -303,17 +357,23 @@ async function publishFamily({ databaseDir, dataDir, source, target, optional, m
   return entries;
 }
 
-export async function publishRuntimeData({ rootDir = DEFAULT_ROOT, deployDir = path.resolve(rootDir, '.deploy', 'pengo'), maxBytes = DEFAULT_MAX_BYTES } = {}) {
+export async function publishRuntimeData({
+  rootDir = DEFAULT_ROOT,
+  deployDir = path.resolve(rootDir, '.deploy', 'pengo'),
+  maxBytes = DEFAULT_MAX_BYTES,
+  achievementRegistryPath = DEFAULT_ACHIEVEMENT_REGISTRY,
+} = {}) {
   const databaseDir = path.resolve(rootDir, 'Database');
   const dataDir = path.resolve(deployDir, 'data');
   const achievementAssetsDir = path.resolve(deployDir, 'assets', 'achievements');
   if (!Number.isSafeInteger(maxBytes) || maxBytes < 1024) throw new Error('Invalid runtime publisher size ceiling');
+  const trackerGames = await achievementTrackerGames(achievementRegistryPath);
   await fs.rm(dataDir, { recursive:true, force:true });
   await fs.rm(achievementAssetsDir, { recursive:true, force:true });
   await fs.mkdir(dataDir, { recursive:true });
   try {
     const files = await publishLibrary({ databaseDir, dataDir, maxBytes });
-    files.push(...await publishAchievements({ databaseDir, dataDir, deployDir, maxBytes }));
+    files.push(...await publishAchievements({ databaseDir, dataDir, deployDir, maxBytes, trackerGames }));
     for (const family of FAMILY_CONFIG) files.push(...await publishFamily({ databaseDir, dataDir, maxBytes, ...family }));
     files.sort((a, b) => a.url.localeCompare(b.url));
     const manifest = { schemaVersion:1, generatedAt:new Date().toISOString(), files };

@@ -4,6 +4,7 @@ import fs from 'node:fs/promises';
 import http from 'node:http';
 import path from 'node:path';
 import { inspectAchievementIconBytes, validateCatalog as validateAchievementCatalog } from '../../Scraper/achievements/core.mjs';
+import { validateAchievementManifest } from '../../Scraper/achievements/manifest.mjs';
 import { assertDeployCommitIdentity } from './deploy-commit.mjs';
 import { buildManifest, loadManifestInputs, validatePackagedManifest } from './generate-launcher-manifest.mjs';
 import vm from 'node:vm';
@@ -137,10 +138,16 @@ async function verifyRuntimeData(base) {
       if (achievementAsset) inspectAchievementIconBytes(bytes);
     }
   }
+  const achievementManifestUrl = '/data/achievements/manifest.json';
+  if (!urls.has(achievementManifestUrl)) throw new Error(`runtime manifest is missing ${achievementManifestUrl}`);
+  const achievementManifest = JSON.parse(await readDeployText(achievementManifestUrl.slice(1)));
+  const achievementCatalogFiles = [];
   for (const game of ['gi','hsr']) {
     const achievementUrl = `/data/achievements/${game}/catalog.json`;
     if (!urls.has(achievementUrl)) throw new Error(`runtime manifest is missing ${achievementUrl}`);
-    const catalog = JSON.parse(await readDeployText(achievementUrl.slice(1)));
+    const catalogText = await readDeployText(achievementUrl.slice(1));
+    const catalog = JSON.parse(catalogText);
+    achievementCatalogFiles.push({ catalog, bytes:Buffer.from(catalogText) });
     try {
       if (catalog?.game !== game) throw new Error(`catalog game ${catalog?.game} does not match ${game}`);
       validateAchievementCatalog(catalog);
@@ -189,6 +196,11 @@ async function verifyRuntimeData(base) {
       throw new Error(`${searchUrl} did not serve the volume-aware schema`);
     }
     await checkFetch(base, `/data/library/${game}/${index.entries[0].file}`, '"volumes"', 100);
+  }
+  try {
+    validateAchievementManifest(achievementManifest, achievementCatalogFiles, ['gi', 'hsr']);
+  } catch (error) {
+    throw new Error(`${achievementManifestUrl} is invalid: ${error.message}`);
   }
   for (const game of ['gi','hsr','zzz','wuwa','ae']) {
     const url = `/data/banner-history/${game}.json`;
@@ -407,9 +419,11 @@ async function main() {
   if (achievementScriptText.includes('FixtureTextPath') || achievementScriptText.includes('PENGO_ACHIEVEMENT_EXTRACTOR_TEST_MODE')) throw new Error('pengo-achievements.ps1 contains a production test backdoor');
   if (/Invoke-(?:WebRequest|RestMethod)|Start-BitsTransfer|WebClient|HttpClient|Get-Process|OpenProcess|ReadProcessMemory|WriteProcessMemory|CreateRemoteThread|SetWindowsHookEx/i.test(achievementScriptText)) throw new Error('pengo-achievements.ps1 contains a forbidden network or game-process API');
   if (!/^[a-f0-9]{64}$/.test(achievementScriptHash)) throw new Error('pengo-achievements.ps1 SHA-256 could not be calculated');
+  if (!bundle.includes(achievementScriptHash)) throw new Error(`bundle does not contain achievement reader SHA-256 ${achievementScriptHash}`);
   if (!hsrAchievementScriptText.includes('Pengo HSR achievement export')) throw new Error('pengo-hsr-hoyolab-achievements.js is missing Pengo branding');
   if (!hsrAchievementScriptText.includes('https://sg-public-api.hoyolab.com/common/badge/v1/login/info') || !hsrAchievementScriptText.includes('https://sg-public-api.hoyolab.com/event/rpgcultivate/achievement/list')) throw new Error('pengo-hsr-hoyolab-achievements.js is missing the reviewed HoYoLAB endpoints');
   if (!/^[a-f0-9]{64}$/.test(hsrAchievementScriptHash)) throw new Error('pengo-hsr-hoyolab-achievements.js SHA-256 could not be calculated');
+  if (!bundle.includes(hsrAchievementScriptHash)) throw new Error(`bundle does not contain HoYoLAB helper SHA-256 ${hsrAchievementScriptHash}`);
   if (!bundle.includes('achievement-page-head') || !bundle.includes('NyxAchievementImport')) throw new Error('bundle is missing the achievement tracker');
   if (!bundle.includes('Quick PowerShell command')) throw new Error('bundle missing quick import method copy');
   if (!bundle.includes('Manual CSV backfill')) throw new Error('bundle missing manual CSV import copy');

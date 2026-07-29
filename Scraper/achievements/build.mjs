@@ -3,6 +3,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { achievementIconFilename, assertCatalogNotCollapsed, inspectAchievementIconBytes, normalizeGiCatalog, normalizeHsrCatalog, RELEASED_VERSIONS, SOURCES } from './core.mjs';
+import { compareAchievementCatalogs, createAchievementManifest, createAchievementRefreshReport } from './manifest.mjs';
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(HERE, '..', '..');
@@ -84,11 +85,33 @@ async function buildGame(game, provenance) {
   let previous = null;
   try { previous = JSON.parse(await fs.readFile(outputFile, 'utf8')); } catch (error) { if (error.code !== 'ENOENT') throw error; }
   assertCatalogNotCollapsed(catalog, previous);
-  await fs.writeFile(outputFile, `${JSON.stringify(catalog, null, 2)}\n`, 'utf8');
-  return { game, categories: catalog.categories.length, achievements: catalog.achievements.length, commit: catalog.source.commit };
+  const text = `${JSON.stringify(catalog, null, 2)}\n`;
+  return {
+    game,
+    catalog,
+    previous,
+    bytes: Buffer.from(text),
+    outputFile,
+    categories: catalog.categories.length,
+    achievements: catalog.achievements.length,
+    commit: catalog.source.commit,
+  };
 }
 
 const results = [];
 const assetProvenance = await loadAssetProvenance();
 for (const game of ['gi', 'hsr']) results.push(await buildGame(game, assetProvenance));
+const generatedAt = new Date().toISOString();
+const manifest = createAchievementManifest(results, { generatedAt });
+const refreshReport = createAchievementRefreshReport(
+  results.map(({ previous, catalog }) => compareAchievementCatalogs(previous, catalog)),
+  { generatedAt },
+);
+for (const result of results) await fs.writeFile(result.outputFile, result.bytes);
+await fs.writeFile(path.join(OUTPUT_ROOT, 'manifest.json'), `${JSON.stringify(manifest, null, 2)}\n`, 'utf8');
+await fs.writeFile(path.join(OUTPUT_ROOT, 'refresh-report.json'), `${JSON.stringify(refreshReport, null, 2)}\n`, 'utf8');
 for (const result of results) console.log(`${result.game}: ${result.achievements} achievements in ${result.categories} categories (${result.commit.slice(0, 12)})`);
+if (refreshReport.reviewRequired) {
+  console.warn('Achievement refresh contains removals or a large count change and requires review.');
+  process.exitCode = 2;
+}

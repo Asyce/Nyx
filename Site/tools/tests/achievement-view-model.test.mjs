@@ -8,6 +8,7 @@ import { fileURLToPath } from 'node:url';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 const source = await fs.readFile(path.join(root, 'src/features/achievements/achievement-view-model.js'), 'utf8');
 const viewSource = await fs.readFile(path.join(root, 'src/features/achievements/achievement-view.jsx'), 'utf8');
+const gamesSource = await fs.readFile(path.join(root, 'src/features/achievements/achievement-games.js'), 'utf8');
 const context = { window:{} };
 vm.createContext(context);
 vm.runInContext(source, context, { filename:'achievement-view-model.js' });
@@ -70,4 +71,33 @@ test('achievement page uses the Nyx tracker shell without placeholder lore copy'
   assert.match(viewSource, /achievement-toolbar/);
   assert.match(viewSource, /achievement-category-gallery/);
   assert.doesNotMatch(viewSource, /Celestial Archive|Find what is missing|constellations|Category atlas|Selected constellation|Your archive/i);
+});
+
+test('achievement management exposes reviewed helper provenance without claiming automatic release readiness', () => {
+  const registryContext = { window:{} };
+  vm.createContext(registryContext);
+  vm.runInContext(gamesSource, registryContext, { filename:'achievement-games.js' });
+  const games = registryContext.window.NyxAchievementGames;
+  const giReader = games.get('gi').methods.screenScan;
+  const hsrOfficial = games.get('hsr').methods.official;
+  assert.equal(giReader.status, 'testing');
+  assert.equal(hsrOfficial.status, 'helper-testing');
+  assert.match(giReader.scriptUrl, /^\/scripts\/pengo-achievements\.ps1$/);
+  assert.match(hsrOfficial.pageUrl, /^https:\/\/act\.hoyolab\.com\//);
+  assert.match(hsrOfficial.scriptUrl, /^\/scripts\/pengo-hsr-hoyolab-achievements\.js$/);
+  assert.match(giReader.sha256, /^[a-f0-9]{64}$/);
+  assert.match(hsrOfficial.sha256, /^[a-f0-9]{64}$/);
+  assert.match(viewSource, /Open HoYoLAB/);
+  assert.match(viewSource, /Download reviewed helper/);
+  assert.match(viewSource, /Download offline reader/);
+  assert.match(viewSource, /Why this still says Testing/);
+  assert.doesNotMatch(viewSource, /dangerouslySetInnerHTML|\beval\s*\(|new Function/);
+});
+
+test('launcher handoff opens the existing preview instead of applying progress automatically', () => {
+  assert.match(viewSource, /NyxAchievementLauncherBridge/);
+  assert.match(viewSource, /fetchExport\(request\)/);
+  assert.match(viewSource, /NyxAchievementImport\.preview\(parsed, game, rows, storedProfile\)/);
+  assert.match(viewSource, /Review it before changing your saved progress/);
+  assert.doesNotMatch(viewSource, /NyxAchievementImport\.apply\([^)]*launcherImportText/);
 });

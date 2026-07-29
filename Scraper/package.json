@@ -13,6 +13,7 @@
     "codes:test": "node --test codes/tests/",
     "test": "node --test codes/tests/ banners/tests/ wonderland/tests/ library/tests/ banner-history/tests/ events/tests/ achievements/tests/ prydwen/ gamedata/tests/",
     "achievements:test": "node --test achievements/tests/",
+    "achievements:candidates": "node ./achievements/build-candidates.mjs",
     "banners:history": "node ./banner-history/index.mjs",
     "banners:history:test": "node --test banner-history/tests/",
     "scrape:events": "node ./events/index.mjs",

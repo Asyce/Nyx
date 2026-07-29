@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import crypto from 'node:crypto';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import test from 'node:test';
@@ -7,8 +8,11 @@ import { fileURLToPath } from 'node:url';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const featureDir = path.resolve(here, '../../src/features/achievements');
+const contractFixturePath = path.resolve(here, '../../../contracts/pengo-achievements-v1.fixture.json');
+const CONTRACT_FIXTURE_SHA256 = '707b2c45f3751c3a617f380895ec1ab338258bd1bc3b031b67dedf2aa208c3ad';
 const source = (
   await Promise.all([
+    'achievement-games.js',
     'achievement-core.js',
     'achievement-storage.js',
     'achievement-import.js',
@@ -40,6 +44,7 @@ function sandbox() {
   });
   vm.runInContext(source, context);
   return {
+    Games: window.NyxAchievementGames,
     Core: window.NyxAchievementCore,
     Storage: window.NyxAchievementStore,
     Importer: window.NyxAchievementImport,
@@ -47,6 +52,134 @@ function sandbox() {
 }
 
 const plain = (value) => JSON.parse(JSON.stringify(value));
+
+function pengoExport(game, ids, binding) {
+  return {
+    kind: 'pengo-achievements',
+    version: 1,
+    game,
+    accountBinding: binding || undefined,
+    catalogVersion: `${game}-fixture`,
+    exportedAt: '2026-07-26T12:00:00Z',
+    achievements: ids.map((id) => ({ id, status:'complete' })),
+  };
+}
+
+const binding = (value, region='global') => ({
+  scheme: 'pengo-install-hmac-v1',
+  value,
+  region,
+});
+
+test('canonical Pengo v1 fixture is hash-pinned and accepted by the site importer', async () => {
+  const bytes = await fs.readFile(contractFixturePath);
+  assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'), CONTRACT_FIXTURE_SHA256);
+  const { Importer } = sandbox();
+  const parsed = plain(Importer.parse(bytes.toString('utf8')));
+  assert.equal(parsed.format, 'pengo-v1');
+  assert.equal(parsed.game, 'gi');
+  assert.deepEqual(parsed.ids, ['81001', '81002']);
+  assert.equal(parsed.unbound, true);
+});
+
+test('achievement registry describes all five games while exposing only proven trackers', () => {
+  const { Games, Core } = sandbox();
+  assert.deepEqual(plain(Games.all().map((game) => game.key)), ['gi', 'hsr', 'zzz', 'wuwa', 'ae']);
+  assert.deepEqual(plain(Core.GAMES), ['gi', 'hsr', 'zzz', 'wuwa', 'ae']);
+  assert.equal(Games.supportsTracker('gi'), true);
+  assert.equal(Games.supportsTracker('hsr'), true);
+  assert.equal(Games.supportsTracker('zzz'), false);
+  assert.equal(Games.supportsTracker('wuwa'), false);
+  assert.equal(Games.supportsTracker('ae'), false);
+});
+
+test('versioned Pengo contract parses every boolean game and blocks Endfield until multi-state v2', () => {
+  const { Importer } = sandbox();
+  for (const game of ['gi', 'hsr', 'zzz', 'wuwa']) {
+    const parsed = plain(Importer.parse(pengoExport(game, [1001, 1002], binding(`fixture_binding_${game}_1234`))));
+    assert.equal(parsed.format, 'pengo-v1');
+    assert.equal(parsed.game, game);
+    assert.deepEqual(parsed.ids, ['1001', '1002']);
+    assert.equal(parsed.accountBinding.value, `fixture_binding_${game}_1234`);
+  }
+  assert.throws(
+    () => Importer.parse(pengoExport('ae', [1001], binding('fixture_binding_ae_1234'))),
+    (error) => error.code === 'MULTI_STATE_REQUIRED',
+  );
+});
+
+test('live importer keeps the Endfield v2 draft sealed off', () => {
+  const { Importer, Games } = sandbox();
+  assert.equal(Games.supportsTracker('ae'), false);
+  assert.throws(
+    () => Importer.parse({
+      kind: 'pengo-achievements',
+      version: 2,
+      game: 'ae',
+      catalogVersion: 'synthetic-draft',
+      exportedAt: '2026-07-26T20:00:00Z',
+      achievements: [],
+    }),
+    (error) => error.code === 'INVALID_VERSION',
+  );
+});
+
+test('versioned Pengo contract rejects duplicates, unsorted IDs, malformed rows, and unsupported versions', () => {
+  const { Importer } = sandbox();
+  assert.throws(() => Importer.parse(pengoExport('gi', [1001, 1001], binding('fixture_binding_gi_1234'))), (error) => error.code === 'DUPLICATE_ACHIEVEMENT');
+  assert.throws(() => Importer.parse(pengoExport('gi', [1002, 1001], binding('fixture_binding_gi_1234'))), (error) => error.code === 'UNSORTED_ACHIEVEMENTS');
+  const malformed = pengoExport('gi', [1001], binding('fixture_binding_gi_1234'));
+  malformed.achievements[0].status = 'partial';
+  assert.throws(() => Importer.parse(malformed), (error) => error.code === 'INVALID_ACHIEVEMENT');
+  const future = pengoExport('gi', [1001], binding('fixture_binding_gi_1234'));
+  future.version = 2;
+  assert.throws(() => Importer.parse(future), (error) => error.code === 'INVALID_VERSION');
+});
+
+test('bound automatic import links once, matches later, and stops a different account before preview', () => {
+  const { Storage, Importer } = sandbox();
+  const store = Storage.create(memoryStorage());
+  store.createProfile({ game:'gi', label:'Main' }, { id:'main', now:1 });
+  const firstBinding = binding('fixture_binding_first_1234', 'os_euro');
+  const firstParsed = Importer.parse(pengoExport('gi', [1001], firstBinding));
+  const firstPreview = Importer.preview(firstParsed, 'gi', ['1001'], store.loadProfile('gi', 'main'));
+  assert.equal(firstPreview.accountBindingStatus, 'new');
+  Importer.apply(store, 'main', firstPreview, { now:2 });
+  assert.deepEqual(plain(store.loadProfile('gi', 'main').accountBinding), firstBinding);
+
+  const repeat = Importer.preview(firstParsed, 'gi', ['1001'], store.loadProfile('gi', 'main'));
+  assert.equal(repeat.accountBindingStatus, 'matched');
+  const other = Importer.parse(pengoExport('gi', [1001], binding('fixture_binding_other_1234', 'os_euro')));
+  assert.throws(
+    () => Importer.preview(other, 'gi', ['1001'], store.loadProfile('gi', 'main')),
+    (error) => error.code === 'WRONG_ACCOUNT',
+  );
+});
+
+test('legacy imports require explicit confirmation and account rebinding is a separate action', () => {
+  const { Storage, Importer } = sandbox();
+  const store = Storage.create(memoryStorage());
+  store.createProfile({ game:'hsr' }, { id:'main', now:1 });
+  const preview = Importer.preview(
+    Importer.parse({ hsr_achievements:[2001] }),
+    'hsr',
+    ['2001'],
+    store.loadProfile('hsr', 'main'),
+  );
+  assert.equal(preview.requiresUnboundConfirmation, true);
+  assert.throws(
+    () => Importer.apply(store, 'main', preview),
+    (error) => error.code === 'UNBOUND_CONFIRMATION_REQUIRED',
+  );
+  Importer.apply(store, 'main', preview, { unboundConfirmed:true, now:2 });
+  assert.equal(store.loadProfile('hsr', 'main').accountBinding, null);
+
+  const replacement = binding('fixture_binding_rebound_1234', 'prod_official_usa');
+  store.rebindAccount('hsr', 'main', replacement, { now:3 });
+  assert.deepEqual(plain(store.loadProfile('hsr', 'main').accountBinding), replacement);
+  store.rebindAccount('hsr', 'main', null, { now:4 });
+  assert.equal(store.loadProfile('hsr', 'main').accountBinding, null);
+});
 
 test('Stardb preview uses stable IDs and reports known, unknown, duplicate, and invalid rows', () => {
   const { Importer } = sandbox();
@@ -69,9 +202,9 @@ test('repeat import is idempotent and imports never uncheck existing progress', 
 
   const parsed = Importer.parse({ gi_achievements: ['1001', '1002'] });
   const firstPreview = Importer.preview(parsed, 'gi', ['1001', '1002', '1003'], store.loadProfile('gi', 'profile-a'));
-  const first = Importer.apply(store, 'profile-a', firstPreview, { now: 20 });
+  const first = Importer.apply(store, 'profile-a', firstPreview, { now: 20, unboundConfirmed:true });
   const secondPreview = Importer.preview(parsed, 'gi', ['1001', '1002', '1003'], store.loadProfile('gi', 'profile-a'));
-  const second = Importer.apply(store, 'profile-a', secondPreview, { now: 30 });
+  const second = Importer.apply(store, 'profile-a', secondPreview, { now: 30, unboundConfirmed:true });
 
   assert.equal(first.added, 2);
   assert.equal(second.added, 0);
@@ -99,7 +232,7 @@ test('an import preview cannot be applied after switching profiles', () => {
   const second = store.createProfile({ game:'gi', label:'Second' }, { id:'second', now:2 });
   const parsed = Importer.parse('{"gi_achievements":[80091]}');
   const preview = Importer.preview(parsed, 'gi', ['80091'], first);
-  assert.throws(() => Importer.apply(store, second.id, preview), (error) => error.code === 'WRONG_PROFILE');
+  assert.throws(() => Importer.apply(store, second.id, preview, { unboundConfirmed:true }), (error) => error.code === 'WRONG_PROFILE');
   assert.deepEqual(plain(store.loadProfile('gi', second.id).completedIds), []);
 });
 
@@ -109,7 +242,7 @@ test('unknown IDs mark nothing but are retained for a future catalog update', ()
   store.createProfile({ game: 'gi' }, { id: 'profile-a', now: 10 });
   const parsed = Importer.parse({ gi_achievements: ['1001', '9001'] });
   const result = Importer.preview(parsed, 'gi', ['1001'], store.loadProfile('gi', 'profile-a'));
-  Importer.apply(store, 'profile-a', result, { now: 20 });
+  Importer.apply(store, 'profile-a', result, { now: 20, unboundConfirmed:true });
   const saved = plain(store.loadProfile('gi', 'profile-a'));
 
   assert.deepEqual(saved.completedIds, ['1001']);
@@ -255,7 +388,7 @@ test('replace import changes only the selected profile and reports removals', ()
   );
   assert.equal(preview.replaceCompletedRemovedCount, 1);
   assert.equal(preview.replaceUnknownRemovedCount, 1);
-  const result = Importer.apply(store, 'main', preview, { mode:'replace', now:10 });
+  const result = Importer.apply(store, 'main', preview, { mode:'replace', now:10, unboundConfirmed:true });
 
   assert.deepEqual(plain(result.profile.completedIds), ['1002', '1004']);
   assert.deepEqual(plain(result.profile.unknownIds), ['9002']);

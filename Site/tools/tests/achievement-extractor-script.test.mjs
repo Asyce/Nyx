@@ -45,6 +45,19 @@ async function makeTemp(t) {
   return dir;
 }
 
+function pengoIds(json) {
+  assert.equal(json.kind, 'pengo-achievements');
+  assert.equal(json.version, 1);
+  assert.match(json.catalogVersion, /^(?:gi-6\.7|hsr-4\.4)$/);
+  assert.doesNotThrow(() => new Date(json.exportedAt).toISOString());
+  assert.ok(Array.isArray(json.achievements));
+  return json.achievements.map((row) => {
+    assert.deepEqual(Object.keys(row), ['id', 'status']);
+    assert.equal(row.status, 'complete');
+    return String(row.id);
+  });
+}
+
 function quotePs(value) {
   return `'${String(value).replaceAll("'", "''")}'`;
 }
@@ -111,6 +124,11 @@ test('embedded lookup exactly matches every unique released catalog name', async
   const match = source.match(/\$CatalogGzipBase64 = @'\r?\n([A-Za-z0-9+/=\r\n]+)\r?\n'@/);
   assert.ok(match, 'embedded catalog payload is missing');
   const embedded = JSON.parse(zlib.gunzipSync(Buffer.from(match[1].replace(/\s/g, ''), 'base64')));
+  const hsr44Block = source.match(/\$Hsr44Lookup\s*=\s*@\{\r?\n([\s\S]*?)\r?\n\}/);
+  assert.ok(hsr44Block, 'embedded HSR 4.4 lookup is missing');
+  const hsr44 = Object.fromEntries([...hsr44Block[1].matchAll(/^\s*'((?:[^']|'')*)'\s*=\s*'(\d+)'\s*$/gm)]
+    .map((entry) => [entry[1].replaceAll("''", "'"), entry[2]]));
+  embedded.hsr = { ...embedded.hsr, ...hsr44 };
   for (const game of ['gi', 'hsr']) {
     const catalog = JSON.parse(await fs.readFile(path.resolve(root, `Database/Achievements/${game}/catalog.json`), 'utf8'));
     const groups = new Map();
@@ -146,8 +164,9 @@ for (const [game, title, expected] of [
     const bytes = await fs.readFile(output);
     assert.notDeepEqual([...bytes.subarray(0, 3)], [0xef, 0xbb, 0xbf]);
     const json = JSON.parse(bytes.toString('utf8'));
-    assert.deepEqual(json[`${game}_achievements`].map(String), expected);
-    assert.deepEqual(Object.keys(json), [`${game}_achievements`]);
+    assert.equal(json.game, game);
+    assert.deepEqual(pengoIds(json), expected);
+    assert.deepEqual(Object.keys(json), ['kind', 'version', 'game', 'catalogVersion', 'exportedAt', 'achievements']);
     const parsed = (await loadImporter()).parse(json);
     assert.equal(parsed.game, game);
     assert.deepEqual([...parsed.ids], expected);
@@ -196,7 +215,7 @@ test('one date belongs only to the nearest stacked achievement title', { skip: p
     { text: 'Completed on 2024/01/02', y: 110 },
   ]);
   await run(['-Game', 'gi', '-InputPath', image, '-OutputPath', output]);
-  assert.deepEqual(JSON.parse(await fs.readFile(output, 'utf8')).gi_achievements, [81000]);
+  assert.deepEqual(pengoIds(JSON.parse(await fs.readFile(output, 'utf8'))), ['81000']);
 });
 
 test('10,001-pixel image is rejected before OCR', { skip: process.platform !== 'win32' }, async (t) => {
@@ -219,7 +238,7 @@ test('dry-run writes nothing and existing output requires Force', { skip: proces
   await runFailure(['-Game', 'gi', '-InputPath', image, '-OutputPath', output]);
   assert.equal(await fs.readFile(output, 'utf8'), 'keep');
   await run(['-Game', 'gi', '-InputPath', image, '-OutputPath', output, '-Force']);
-  assert.deepEqual(JSON.parse(await fs.readFile(output, 'utf8')).gi_achievements, [80091]);
+  assert.deepEqual(pengoIds(JSON.parse(await fs.readFile(output, 'utf8'))), ['80091']);
   assert.deepEqual((await fs.readdir(dir)).sort(), ['out.json', 'screen.png']);
 });
 

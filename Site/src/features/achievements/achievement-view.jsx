@@ -1,11 +1,11 @@
 /* ---------------- Achievement tracker ---------------- */
-const NYX_ACHIEVEMENT_GAMES = {
-  gi:{ name:'Genshin Impact', short:'Genshin', defaultProfile:'My Traveler', currency:'Primogems' },
-  hsr:{ name:'Honkai: Star Rail', short:'Star Rail', defaultProfile:'My Trailblazer', currency:'Stellar Jade' },
-};
+const NYX_ACHIEVEMENT_GAMES = window.NyxAchievementGames;
+if (!NYX_ACHIEVEMENT_GAMES) throw new Error('NyxAchievementGames must load before achievement-view.jsx.');
 
 const NYX_ACHIEVEMENT_VIEW = window.NyxAchievementViewModel;
 if (!NYX_ACHIEVEMENT_VIEW) throw new Error('NyxAchievementViewModel must load before achievement-view.jsx.');
+const NYX_ACHIEVEMENT_LAUNCHER_BRIDGE = window.NyxAchievementLauncherBridge;
+if (!NYX_ACHIEVEMENT_LAUNCHER_BRIDGE) throw new Error('NyxAchievementLauncherBridge must load before achievement-view.jsx.');
 const NYX_ACHIEVEMENT_BATCH = NYX_ACHIEVEMENT_VIEW.BATCH_SIZE;
 
 function nyxAchievementDownload(name, value){
@@ -20,13 +20,46 @@ function nyxAchievementDownload(name, value){
   setTimeout(() => URL.revokeObjectURL(url), 0);
 }
 
+async function nyxAchievementCopyText(value){
+  const text = String(value || '');
+  if (!text) throw new Error('Nothing is available to copy.');
+  if (navigator.clipboard?.writeText) {
+    await navigator.clipboard.writeText(text);
+    return;
+  }
+  const field = document.createElement('textarea');
+  field.value = text;
+  field.setAttribute('readonly', '');
+  field.style.position = 'fixed';
+  field.style.opacity = '0';
+  document.body.appendChild(field);
+  field.select();
+  const copied = document.execCommand('copy');
+  field.remove();
+  if (!copied) throw new Error('Copying is unavailable in this browser.');
+}
+
+function nyxAchievementMethodStatus(status){
+  return ({
+    available:'Available',
+    testing:'Testing',
+    'helper-testing':'Testing',
+    development:'In development',
+    fallback:'Fallback',
+    planned:'Planned',
+    research:'Research',
+    blocked:'Blocked',
+    'contract-ready':'Contract ready',
+  })[status] || 'Unavailable';
+}
+
 const nyxAchievementCatalogRows = NYX_ACHIEVEMENT_VIEW.catalogRows;
 const nyxAchievementReward = NYX_ACHIEVEMENT_VIEW.reward;
 const nyxAchievementCompareVersions = NYX_ACHIEVEMENT_VIEW.compareVersions;
 
 function nyxAchievementIconPath(value, game){
   const path = String(value || '');
-  if (!['gi', 'hsr'].includes(game) || path.includes('..') || !path.startsWith(`/assets/achievements/${game}/`)) return '';
+  if (!NYX_ACHIEVEMENT_GAMES.get(game) || path.includes('..') || !path.startsWith(`/assets/achievements/${game}/`)) return '';
   return /^[A-Za-z0-9_./-]+\.(?:avif|png|svg|webp)$/i.test(path) ? path : '';
 }
 
@@ -48,7 +81,8 @@ function AchievementCategoryIcon({ category, game, className='', all=false }){
 }
 
 function AchievementPage({ game }){
-  const config = NYX_ACHIEVEMENT_GAMES[game];
+  const config = NYX_ACHIEVEMENT_GAMES.get(game);
+  if (!config || !config.features.tracker || !config.features.catalog) throw new Error('This achievement tracker is not enabled.');
   const [catalogState, setCatalogState] = React.useState({ loading:true, data:null, error:null, attempt:0 });
   const [storeState] = React.useState(() => {
     try { return { value:window.NyxAchievementStore.create(), error:'' }; }
@@ -82,13 +116,27 @@ function AchievementPage({ game }){
   const [importPreview, setImportPreview] = React.useState(null);
   const [importMode, setImportMode] = React.useState('merge');
   const [replaceConfirmed, setReplaceConfirmed] = React.useState(false);
+  const [unboundConfirmed, setUnboundConfirmed] = React.useState(false);
   const [importMessage, setImportMessage] = React.useState('');
   const [importError, setImportError] = React.useState('');
+  const [launcherImportText, setLauncherImportText] = React.useState('');
   const importInput = React.useRef(null);
   const restoreInput = React.useRef(null);
   const manageButton = React.useRef(null);
   const managePanel = React.useRef(null);
   const atlasToggle = React.useRef(null);
+  const launcherImportInFlight = React.useRef(false);
+
+  const copyMethodText = React.useCallback(async (value, label) => {
+    setImportError('');
+    try {
+      await nyxAchievementCopyText(value);
+      setImportMessage(`${label} copied.`);
+    } catch (error) {
+      setImportMessage('');
+      setImportError(error.message || 'That text could not be copied.');
+    }
+  }, []);
 
   const refreshProfiles = React.useCallback((preferredId) => {
     if (!store) return;
@@ -123,7 +171,7 @@ function AchievementPage({ game }){
   React.useEffect(() => {
     const controller = new AbortController();
     setCatalogState((state) => ({ ...state, loading:true, data:null, error:null }));
-    fetch(`/data/achievements/${game}/catalog.json`, { signal:controller.signal, credentials:'same-origin' })
+    fetch(config.catalogUrl, { signal:controller.signal, credentials:'same-origin' })
       .then((response) => { if (!response.ok) throw new Error(`Achievement catalog returned ${response.status}`); return response.json(); })
       .then((data) => {
         if (data?.schemaVersion !== 1 || data?.game !== game || !Array.isArray(data.categories) || !Array.isArray(data.achievements)) throw new Error('The achievement catalog is invalid.');
@@ -131,7 +179,7 @@ function AchievementPage({ game }){
       })
       .catch((error) => { if (error.name !== 'AbortError') setCatalogState((state) => ({ ...state, loading:false, data:null, error:error.message || 'Achievements could not be loaded.' })); });
     return () => controller.abort();
-  }, [game, catalogState.attempt]);
+  }, [game, config.catalogUrl, catalogState.attempt]);
   React.useEffect(() => {
     if (!store) return undefined;
     const listener = (event) => {
@@ -185,6 +233,66 @@ function AchievementPage({ game }){
   const rows = React.useMemo(() => nyxAchievementCatalogRows(catalogState.data), [catalogState.data]);
   const categories = React.useMemo(() => (catalogState.data?.categories || []).map((category) => ({ ...category, id:String(category.id) })), [catalogState.data]);
   React.useEffect(() => {
+    let active = true;
+    const receive = () => {
+      let request;
+      try {
+        request = NYX_ACHIEVEMENT_LAUNCHER_BRIDGE.consume();
+      } catch (error) {
+        setManageOpen(true);
+        setManageTab('import');
+        setImportMessage('');
+        setImportError(error.message || 'The launcher handoff link is invalid or has expired.');
+        return;
+      }
+      if (!request) return;
+      setManageOpen(true);
+      setManageTab('import');
+      setImportError('');
+      if (launcherImportInFlight.current) {
+        setImportMessage('');
+        setImportError('Another launcher export is still being received. Try this export again.');
+        return;
+      }
+      launcherImportInFlight.current = true;
+      setImportMessage('Receiving the achievement export from Nyx...');
+      NYX_ACHIEVEMENT_LAUNCHER_BRIDGE.fetchExport(request)
+        .then((text) => {
+          if (active) setLauncherImportText(text);
+        })
+        .catch((error) => {
+          if (!active) return;
+          setImportMessage('');
+          setImportError(error.message || 'The launcher export could not be received. Use the saved JSON file instead.');
+        })
+        .finally(() => { launcherImportInFlight.current = false; });
+    };
+    receive();
+    window.addEventListener('hashchange', receive);
+    return () => {
+      active = false;
+      window.removeEventListener('hashchange', receive);
+    };
+  }, [game]);
+  React.useEffect(() => {
+    if (!launcherImportText || !canSave || !storedProfile || !rows.length) return;
+    setImportError('');
+    setImportMessage('');
+    setImportPreview(null);
+    setReplaceConfirmed(false);
+    setUnboundConfirmed(false);
+    try {
+      const parsed = window.NyxAchievementImport.parse(launcherImportText);
+      if (parsed.format !== 'pengo-v1') throw new Error('The launcher returned an unsupported achievement export.');
+      setImportPreview(window.NyxAchievementImport.preview(parsed, game, rows, storedProfile));
+      setImportMessage('Nyx sent this export securely. Review it before changing your saved progress.');
+    } catch (error) {
+      setImportError(error.message || 'The launcher export is not supported.');
+    } finally {
+      setLauncherImportText('');
+    }
+  }, [launcherImportText, canSave, storedProfile?.id, rows, game]);
+  React.useEffect(() => {
     if (!store || !storedProfile || !rows.length) return;
     try {
       const result = store.reconcileCatalog(game, storedProfile.id, rows.map((row) => row.id));
@@ -217,7 +325,7 @@ function AchievementPage({ game }){
   const percent = rows.length ? Math.round((doneCount / rows.length) * 100) : 0;
   const selectedCategory = categoryId === 'all' ? null : categoryById.get(categoryId) || null;
   const selectedProgress = selectedCategory ? categoryProgress.get(selectedCategory.id) : { total:rows.length, done:doneCount, reward:totalReward, earned:earnedReward, versions:rows.map((row) => row.version).filter(Boolean) };
-  const currencyName = catalogState.data?.rewardCurrency?.name || config.currency;
+  const currencyName = catalogState.data?.rewardCurrency?.name || config.reward.name;
   const rewardIcon = nyxAchievementIconPath(catalogState.data?.rewardCurrency?.icon?.path, game);
 
   const availableVersions = React.useMemo(() => Array.from(new Set(rows.map((row) => row.version).filter(Boolean))).sort((a, b) => nyxAchievementCompareVersions(b, a)), [rows]);
@@ -317,18 +425,23 @@ function AchievementPage({ game }){
     reader.readAsText(file);
   };
   const previewImport = (file) => readJsonFile(file, (text) => {
-    setImportError(''); setImportMessage(''); setImportPreview(null); setReplaceConfirmed(false);
+    setImportError(''); setImportMessage(''); setImportPreview(null); setReplaceConfirmed(false); setUnboundConfirmed(false);
     try {
       const parsed = window.NyxAchievementImport.parse(text);
-      if (parsed.format !== 'stardb') throw new Error('Choose a Pengo/Stardb-compatible achievement export here.');
+      if (!['pengo-v1', 'stardb'].includes(parsed.format)) throw new Error('Choose a Pengo-compatible achievement export here.');
       setImportPreview(window.NyxAchievementImport.preview(parsed, game, rows, storedProfile));
     } catch (error) { setImportError(error.message || 'That achievement file is not supported.'); }
     if (importInput.current) importInput.current.value = '';
   });
   const applyImport = () => {
-    if (!store || !storedProfile || !importPreview || (importMode === 'replace' && !replaceConfirmed)) return;
+    if (!store || !storedProfile || !importPreview
+      || (importMode === 'replace' && !replaceConfirmed)
+      || (importPreview.requiresUnboundConfirmation && !unboundConfirmed)) return;
     try {
-      const result = window.NyxAchievementImport.apply(store, storedProfile.id, importPreview, { mode:importMode });
+      const result = window.NyxAchievementImport.apply(store, storedProfile.id, importPreview, {
+        mode:importMode,
+        unboundConfirmed,
+      });
       updateLocalProfile(result.profile);
       setRuntimeError('');
       setImportMessage(importMode === 'replace'
@@ -336,6 +449,7 @@ function AchievementPage({ game }){
         : `${result.added} new checkmark${result.added === 1 ? '' : 's'} added.${result.unknownAdded ? ` ${result.unknownAdded} unknown ID${result.unknownAdded === 1 ? '' : 's'} kept safely.` : ''}`);
       setImportPreview(null);
       setReplaceConfirmed(false);
+      setUnboundConfirmed(false);
     } catch (error) { setImportError(error.message || 'That progress could not be saved.'); }
   };
   const restoreBackup = (file) => readJsonFile(file, (text) => {
@@ -484,10 +598,48 @@ function AchievementPage({ game }){
         <nav aria-label="Management sections">{[['import','Import progress'],['profile','Profile'],['backup','Backup']].map(([value, label]) => <button type="button" key={value} className={manageTab === value ? 'on' : ''} aria-current={manageTab === value ? 'page' : undefined} onClick={() => { setManageTab(value); setConfirmAction(''); }}>{label}</button>)}</nav>
 
         {manageTab === 'import' && <section className="achievement-manage-section">
-          <div className="achievement-manage-intro"><span>Import progress</span><h3>Import achievement progress</h3><p>Choose a Pengo/Stardb-compatible JSON file. Nothing changes until you approve the preview.</p></div>
-          <label className="achievement-file-button" aria-disabled={!canSave}>Choose achievement JSON<input ref={importInput} type="file" accept=".json,application/json" onChange={(event) => previewImport(event.target.files?.[0])} disabled={!canSave} /></label>
+          <div className="achievement-manage-intro"><span>Import progress</span><h3>Choose the safest available method</h3><p>Automatic methods stay clearly marked until real-account testing proves them. Nothing changes until you approve a preview.</p></div>
+          <div className="achievement-methods">
+            <article className={`achievement-method status-${config.methods.automatic.status}`}>
+              <div><strong>{config.methods.automatic.label}</strong><em>{nyxAchievementMethodStatus(config.methods.automatic.status)}</em></div>
+              <p>{config.methods.automatic.description}</p>
+            </article>
+            {config.methods.official && <article className={`achievement-method status-${config.methods.official.status}`}>
+              <div><strong>{config.methods.official.label}</strong><em>{nyxAchievementMethodStatus(config.methods.official.status)}</em></div>
+              <p>{config.methods.official.description}</p>
+              <div className="achievement-method-actions">
+                <a href={config.methods.official.pageUrl} target="_blank" rel="noopener noreferrer">Open HoYoLAB</a>
+                <a href={config.methods.official.scriptUrl} download>Download reviewed helper</a>
+                <button type="button" onClick={() => copyMethodText(config.methods.official.sha256, 'Helper checksum')}>Copy checksum</button>
+              </div>
+              <details className="achievement-method-notice">
+                <summary>Why this still says Testing</summary>
+                <p>The helper itself is reviewed, but its normal browser/launcher installer and real-account acceptance test are not finished. The downloaded file is for transparent review and controlled testing.</p>
+                <code>{config.methods.official.sha256}</code>
+              </details>
+            </article>}
+            <article className="achievement-method status-available">
+              <div><strong>{config.methods.file.label}</strong><em>Available</em></div>
+              <p>{config.methods.file.description}</p>
+              <label className="achievement-file-button" aria-disabled={!canSave}>Choose achievement JSON<input ref={importInput} type="file" accept=".json,application/json" onChange={(event) => previewImport(event.target.files?.[0])} disabled={!canSave} /></label>
+            </article>
+            <article className={`achievement-method status-${config.methods.screenScan.status}`}>
+              <div><strong>{config.methods.screenScan.label}</strong><em>{nyxAchievementMethodStatus(config.methods.screenScan.status)}</em></div>
+              <p>{config.methods.screenScan.description}</p>
+              {config.methods.screenScan.scriptUrl && <div className="achievement-method-actions">
+                <a href={config.methods.screenScan.scriptUrl} download>Download offline reader</a>
+                <button type="button" onClick={() => copyMethodText(config.methods.screenScan.command, 'Screen reader command')}>Copy command</button>
+                <button type="button" onClick={() => copyMethodText(config.methods.screenScan.sha256, 'Reader checksum')}>Copy checksum</button>
+              </div>}
+              {config.methods.screenScan.sha256 && <details className="achievement-method-notice">
+                <summary>Safe testing steps</summary>
+                <p>Download the reader, verify this SHA-256, place English achievement screenshots in a plain local folder named Screenshots, then run the copied command. It reads those images locally and writes a Pengo JSON file.</p>
+                <code>{config.methods.screenScan.sha256}</code>
+              </details>}
+            </article>
+          </div>
           <fieldset className="achievement-import-mode"><legend>How should this import behave?</legend><label><input type="radio" name="achievement-import-mode" value="merge" checked={importMode === 'merge'} onChange={() => { setImportMode('merge'); setReplaceConfirmed(false); }} /><span><b>Merge</b><small>Safe default. Add checks and keep everything already marked.</small></span></label><label><input type="radio" name="achievement-import-mode" value="replace" checked={importMode === 'replace'} onChange={() => { setImportMode('replace'); setReplaceConfirmed(false); }} /><span><b>Replace</b><small>Make this profile match the file, including removing checks.</small></span></label></fieldset>
-          {importPreview && <div className="achievement-import-preview" role="status"><div><b>{importPreview.newCompletedCount}</b><span>new checks</span></div><div><b>{importPreview.alreadyCompletedCount}</b><span>already checked</span></div><div className={importPreview.unknownCount ? 'warn' : ''}><b>{importPreview.unknownCount}</b><span>unknown IDs</span></div><div className={importPreview.invalidCount ? 'warn' : ''}><b>{importPreview.invalidCount}</b><span>invalid rows</span></div><div className={importPreview.duplicateCount ? 'warn' : ''}><b>{importPreview.duplicateCount}</b><span>duplicates skipped</span></div>{importMode === 'replace' && <><div className={importPreview.replaceCompletedRemovedCount ? 'danger' : ''}><b>{importPreview.replaceCompletedRemovedCount}</b><span>checks removed</span></div><div className={importPreview.replaceUnknownRemovedCount ? 'danger' : ''}><b>{importPreview.replaceUnknownRemovedCount}</b><span>unmatched IDs removed</span></div></>}<p><strong>Detected game:</strong> {importPreview.game === 'gi' ? 'Genshin Impact' : 'Honkai: Star Rail'}{sampleImportNames.length > 0 && <> · <strong>New matches:</strong> {sampleImportNames.join(' · ')}</>}{!importPreview.uniqueCount && <> · No usable achievement IDs were found.</>}</p>{importMode === 'replace' && <label className="achievement-replace-confirm"><input type="checkbox" checked={replaceConfirmed} onChange={(event) => setReplaceConfirmed(event.target.checked)} /><span>I understand this removes saved checkmarks and unmatched IDs missing from the file.</span></label>}<div className="achievement-import-actions"><button type="button" onClick={applyImport} disabled={!importPreview.uniqueCount || (importMode === 'replace' && !replaceConfirmed)}>{importMode === 'replace' ? 'Replace this profile' : 'Merge this progress'}</button><button type="button" className="achievement-quiet-button" onClick={() => setImportPreview(null)}>Cancel</button></div></div>}
+          {importPreview && <div className="achievement-import-preview" role="status"><div><b>{importPreview.newCompletedCount}</b><span>new checks</span></div><div><b>{importPreview.alreadyCompletedCount}</b><span>already checked</span></div><div className={importPreview.unknownCount ? 'warn' : ''}><b>{importPreview.unknownCount}</b><span>unknown IDs</span></div><div className={importPreview.invalidCount ? 'warn' : ''}><b>{importPreview.invalidCount}</b><span>invalid rows</span></div><div className={importPreview.duplicateCount ? 'warn' : ''}><b>{importPreview.duplicateCount}</b><span>duplicates skipped</span></div>{importMode === 'replace' && <><div className={importPreview.replaceCompletedRemovedCount ? 'danger' : ''}><b>{importPreview.replaceCompletedRemovedCount}</b><span>checks removed</span></div><div className={importPreview.replaceUnknownRemovedCount ? 'danger' : ''}><b>{importPreview.replaceUnknownRemovedCount}</b><span>unmatched IDs removed</span></div></>}<p><strong>Detected game:</strong> {NYX_ACHIEVEMENT_GAMES.get(importPreview.game)?.name || importPreview.game}{importPreview.catalogVersion && <> · <strong>Catalog:</strong> {importPreview.catalogVersion}</>}{sampleImportNames.length > 0 && <> · <strong>New matches:</strong> {sampleImportNames.join(' · ')}</>}{!importPreview.uniqueCount && <> · No usable achievement IDs were found.</>}</p>{importPreview.requiresUnboundConfirmation && <label className="achievement-replace-confirm"><input type="checkbox" checked={unboundConfirmed} onChange={(event) => setUnboundConfirmed(event.target.checked)} /><span>This older file is not linked to an account. I checked that this is the correct profile.</span></label>}{importPreview.accountBindingStatus === 'new' && <p className="achievement-binding-note">Approving this automatic export links this profile to that launcher account. A different account will be stopped before preview.</p>}{importMode === 'replace' && <label className="achievement-replace-confirm"><input type="checkbox" checked={replaceConfirmed} onChange={(event) => setReplaceConfirmed(event.target.checked)} /><span>I understand this removes saved checkmarks and unmatched IDs missing from the file.</span></label>}<div className="achievement-import-actions"><button type="button" onClick={applyImport} disabled={!importPreview.uniqueCount || (importMode === 'replace' && !replaceConfirmed) || (importPreview.requiresUnboundConfirmation && !unboundConfirmed)}>{importMode === 'replace' ? 'Replace this profile' : 'Merge this progress'}</button><button type="button" className="achievement-quiet-button" onClick={() => { setImportPreview(null); setUnboundConfirmed(false); }}>Cancel</button></div></div>}
           {profile?.unknownIds?.length > 0 && <details className="achievement-unknown-list"><summary>{profile.unknownIds.length} unmatched imported ID{profile.unknownIds.length === 1 ? '' : 's'}</summary><p>{profile.unknownIds.join(', ')}</p></details>}
         </section>}
 

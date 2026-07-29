@@ -15,7 +15,7 @@ It uses Windows' built-in English offline text reader. It does not open or contr
 5. In PowerShell, go to the download folder and verify the exact file before running it:
 
 ```powershell
-$expected = '4c083e9c6133bd739a6094f53c887b1d5d75d8426b9a3a1c4f8e16d3a1eb3876'
+$expected = 'd81e9f21c3b0ef7f8130b7583a671bfd00e4065a81a0144a867c23d4e576655d'
 $actual = (Get-FileHash .\pengo-achievements.ps1 -Algorithm SHA256).Hash.ToLowerInvariant()
 if ($actual -ne $expected) { throw 'Checksum mismatch. Do not run this file.' }
 powershell -NoProfile -ExecutionPolicy Bypass -File .\pengo-achievements.ps1 -Game gi -InputPath .\genshin-screenshots

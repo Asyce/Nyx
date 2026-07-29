@@ -209,8 +209,8 @@ const databaseRewrite = databaseManifest
 await writeVersionFile();
 const files = await listFiles(deployDir);
 const hardFileLimit = databaseAssetMode === 'r2-only' ? R2_ONLY_HARD_FILE_LIMIT : CLOUDFLARE_ASSET_FILE_LIMIT;
-if (files.length >= hardFileLimit - POST_BUILD_FILE_RESERVE) {
-  throw new Error(`Deploy contains ${files.length} files before SEO injection; ${databaseAssetMode} mode requires fewer than ${hardFileLimit - POST_BUILD_FILE_RESERVE} (${POST_BUILD_FILE_RESERVE} file reserved for SEO injection)`);
+if (files.length > hardFileLimit - POST_BUILD_FILE_RESERVE) {
+  throw new Error(`Deploy contains ${files.length} files before SEO injection; ${databaseAssetMode} mode allows at most ${hardFileLimit - POST_BUILD_FILE_RESERVE} (${POST_BUILD_FILE_RESERVE} file reserved for SEO injection)`);
 }
 if (databaseAssetMode === 'r2-only' && files.length >= R2_ONLY_TARGET_FILE_LIMIT - POST_BUILD_FILE_RESERVE) {
   console.warn(`Warning: R2-only deploy has ${files.length} files before SEO injection; target is fewer than ${R2_ONLY_TARGET_FILE_LIMIT - POST_BUILD_FILE_RESERVE}`);

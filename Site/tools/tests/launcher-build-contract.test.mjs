@@ -37,6 +37,8 @@ test('production build packages committed launcher bytes and keeps regeneration 
   assert.match(pkg.scripts['smoke:deploy'], /verify:launcher:deploy/);
   assert.match(smoke, /validatePackagedManifest\(manifest, \{ now: Date\.now\(\) \}\)/);
   assert.doesNotMatch(smoke, /validatePackagedManifest\(manifest, \{ now: generatedAt \}\)/);
+  assert.match(smoke, /current\?\.selectedCharacter\?\.name/);
+  assert.doesNotMatch(smoke, /\.current\.selectedCharacter/);
   assert.match(smoke, /execFileSync\('git', \['rev-parse', 'HEAD'\]/);
   assert.match(smoke, /assertDeployCommitIdentity\(\{ head: headCommit, version, pages: deployPages \}\)/);
 });

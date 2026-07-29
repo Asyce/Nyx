@@ -287,8 +287,8 @@ async function verifyLauncherBanners(base) {
   for (const game of ['gi', 'hsr', 'zzz', 'wuwa', 'ae']) {
     if (JSON.stringify(manifest.games[game].codes) !== JSON.stringify(launcherCodes.games?.[game])) throw new Error(`${game} embedded launcher codes differ from the standalone feed`);
     const actualIdentity = {
-      selected: manifest.games[game].current.selectedCharacter.name,
-      current: manifest.games[game].current.characters.map((character) => character.name),
+      selected: manifest.games[game].current?.selectedCharacter?.name,
+      current: manifest.games[game].current?.characters?.map((character) => character.name),
       upcoming: manifest.games[game].upcoming.map((phase) => ({ start: phase.start, characters: phase.characters.map((character) => character.name) })),
     };
     const expectedIdentity = {
@@ -345,7 +345,7 @@ async function verifyLauncherBanners(base) {
     occurrences: assets.length,
     uniqueAssets: unique.size,
     artBytes,
-    selections: Object.fromEntries(Object.entries(manifest.games).map(([game, entry]) => [game, entry.current.selectedCharacter.name])),
+    selections: Object.fromEntries(Object.entries(manifest.games).map(([game, entry]) => [game, entry.current?.selectedCharacter?.name ?? null])),
   };
 }
 

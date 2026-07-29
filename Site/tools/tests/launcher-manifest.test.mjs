@@ -102,6 +102,21 @@ test('a trusted history-backed current window survives a preserved raw-feed warn
   assert.equal(manifest.games.gi.current?.phase, '1.0');
 });
 
+test('a verified publisher transition remains a healthy feed without inventing a current banner', () => {
+  const banners = { games: [{
+    id: 'zzz',
+    freshness: { status: 'transition', lastSuccessfulFetch: '2026-07-17T00:00:00.000Z' },
+    current: phase('2026-07-15T00:00:00.000Z', '2026-07-16T00:00:00.000Z'),
+    next: phase('2026-07-18T00:00:00.000Z', '2026-07-20T00:00:00.000Z'),
+  }] };
+
+  const manifest = buildManifest({ banners, events, rosters, now: NOW, generatedAt: '2026-07-17T00:00:00.000Z' });
+
+  assert.equal(manifest.games.zzz.current, null);
+  assert.equal(manifest.health.games.zzz.status, 'ok');
+  assert.equal(manifest.health.games.zzz.reason, 'transition');
+});
+
 test('fresh explicit current banner remains unavailable when its official start is missing', () => {
   const banners = { games: [{
     id: 'genshin',
@@ -267,6 +282,19 @@ test('packaged manifest validation rejects stale time, expired windows, bad coun
     games,
   };
   assert.deepEqual(validatePackagedManifest(manifest, { now: NOW }), { assets: 15, uniqueAssets: 1 });
+
+  const transition = structuredClone(manifest);
+  transition.games.zzz.current = null;
+  transition.health.games.zzz.reason = 'transition';
+  assert.deepEqual(validatePackagedManifest(transition, { now: NOW }), { assets: 12, uniqueAssets: 1 });
+
+  const unverifiedMissingCurrent = structuredClone(transition);
+  unverifiedMissingCurrent.health.games.zzz.reason = 'expired-or-not-started';
+  assert.throws(
+    () => validatePackagedManifest(unverifiedMissingCurrent, { now: NOW }),
+    /zzz has no current selection/,
+  );
+
   assert.throws(
     () => validatePackagedManifest(manifest, { now: NOW + 15 * 60_000 + 1 }),
     /generatedAt is missing or stale/,

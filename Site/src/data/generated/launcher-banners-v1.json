@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "e12fc59e9feda7116c3b04bf0652cc1b4865aa34122fdf9254c25a602817dc0e",
-  "generatedAt": "2026-07-28T18:20:44.266Z",
+  "revision": "1cb43bb628e6d21e7325196a6f9eb40620faf5bc3022eab9033926915d207bc3",
+  "generatedAt": "2026-07-29T02:17:43.329Z",
   "health": {
     "status": "ok",
     "games": {
@@ -17,7 +17,7 @@
       },
       "zzz": {
         "status": "ok",
-        "reason": null,
+        "reason": "transition",
         "newsCount": 8
       },
       "wuwa": {
@@ -43,7 +43,7 @@
         "remaining": {
           "startsAt": "2026-07-21T17:00:00.000Z",
           "endsAt": "2026-08-11T13:59:00.000Z",
-          "durationSeconds": 1193895
+          "durationSeconds": 1165276
         },
         "characters": [
           {
@@ -51,7 +51,7 @@
             "name": "Raiden Shogun",
             "rarity": 5,
             "limited": true,
-            "debut": "2021-09-01T00:00:00.000Z",
+            "debut": "2021-08-31T22:00:00.000Z",
             "icon": {
               "id": "10000052-icon",
               "source": "character-icon",
@@ -110,7 +110,7 @@
             "name": "Columbina",
             "rarity": 5,
             "limited": true,
-            "debut": "2026-01-13T00:00:00.000Z",
+            "debut": "2026-01-12T23:00:00.000Z",
             "icon": {
               "id": "10000125-icon",
               "source": "character-icon",
@@ -170,7 +170,7 @@
           "name": "Columbina",
           "rarity": 5,
           "limited": true,
-          "debut": "2026-01-13T00:00:00.000Z",
+          "debut": "2026-01-12T23:00:00.000Z",
           "icon": {
             "id": "10000125-icon",
             "source": "character-icon",
@@ -365,7 +365,7 @@
         "remaining": {
           "startsAt": "2026-07-15T03:00:00.000Z",
           "endsAt": "2026-08-05T03:59:00.000Z",
-          "durationSeconds": 639495
+          "durationSeconds": 610876
         },
         "characters": [
           {
@@ -815,250 +815,8 @@
     },
     "zzz": {
       "game": "zzz",
-      "region": "america",
-      "current": {
-        "phase": "3.0",
-        "start": "2026-07-08T17:00:00.000Z",
-        "end": "2026-07-28T19:59:59.000Z",
-        "remaining": {
-          "startsAt": "2026-07-08T17:00:00.000Z",
-          "endsAt": "2026-07-28T19:59:59.000Z",
-          "durationSeconds": 5954
-        },
-        "characters": [
-          {
-            "id": "1571",
-            "name": "Norma Hollowell",
-            "rarity": 5,
-            "limited": true,
-            "debut": "2026-07-08T04:00:00.000Z",
-            "icon": {
-              "id": "1571-icon",
-              "source": "character-icon",
-              "path": "/launcher-art/48d6c5f185298fb17d5756a6f0bfe897734e45073765ff1839b5359ee0276eed.webp",
-              "url": "https://pengo.gg/dist/launcher-art/48d6c5f185298fb17d5756a6f0bfe897734e45073765ff1839b5359ee0276eed.webp",
-              "mime": "image/webp",
-              "size": 8010,
-              "dimensions": {
-                "width": 142,
-                "height": 142
-              },
-              "sha256": "48d6c5f185298fb17d5756a6f0bfe897734e45073765ff1839b5359ee0276eed",
-              "transparentBounds": {
-                "left": 0,
-                "top": 0,
-                "right": 142,
-                "bottom": 142
-              },
-              "placement": {
-                "anchor": "center",
-                "fit": "cover",
-                "x": 0.5,
-                "y": 0.5
-              }
-            },
-            "variants": [
-              {
-                "id": "1571-splash",
-                "source": "splash",
-                "path": "/launcher-art/d8ee6607e91df6313de4237b48dfb5ca078c372e0342903dbadf0d8e5e9437bc.webp",
-                "url": "https://pengo.gg/dist/launcher-art/d8ee6607e91df6313de4237b48dfb5ca078c372e0342903dbadf0d8e5e9437bc.webp",
-                "mime": "image/webp",
-                "size": 356540,
-                "dimensions": {
-                  "width": 1413,
-                  "height": 2048
-                },
-                "sha256": "d8ee6607e91df6313de4237b48dfb5ca078c372e0342903dbadf0d8e5e9437bc",
-                "transparentBounds": {
-                  "left": 0,
-                  "top": 0,
-                  "right": 1413,
-                  "bottom": 2048
-                },
-                "placement": {
-                  "anchor": "center",
-                  "fit": "contain",
-                  "x": 0.74,
-                  "y": 0.52
-                }
-              }
-            ]
-          },
-          {
-            "id": "1491",
-            "name": "Sunna",
-            "rarity": 5,
-            "limited": true,
-            "debut": "2026-02-06T03:00:00.000Z",
-            "icon": {
-              "id": "1491-icon",
-              "source": "character-icon",
-              "path": "/launcher-art/fdcb7e70b3e44b83bba0dd629c3393caf8520649e994bccb51b076f6fb011036.webp",
-              "url": "https://pengo.gg/dist/launcher-art/fdcb7e70b3e44b83bba0dd629c3393caf8520649e994bccb51b076f6fb011036.webp",
-              "mime": "image/webp",
-              "size": 7820,
-              "dimensions": {
-                "width": 142,
-                "height": 142
-              },
-              "sha256": "fdcb7e70b3e44b83bba0dd629c3393caf8520649e994bccb51b076f6fb011036",
-              "transparentBounds": {
-                "left": 0,
-                "top": 0,
-                "right": 142,
-                "bottom": 142
-              },
-              "placement": {
-                "anchor": "center",
-                "fit": "cover",
-                "x": 0.5,
-                "y": 0.5
-              }
-            },
-            "variants": [
-              {
-                "id": "1491-splash",
-                "source": "splash",
-                "path": "/launcher-art/47dbffa5948f6e09beb819bb5eb81c7e6054822d0b2604492de8b6c25a6023c4.webp",
-                "url": "https://pengo.gg/dist/launcher-art/47dbffa5948f6e09beb819bb5eb81c7e6054822d0b2604492de8b6c25a6023c4.webp",
-                "mime": "image/webp",
-                "size": 190758,
-                "dimensions": {
-                  "width": 808,
-                  "height": 1798
-                },
-                "sha256": "47dbffa5948f6e09beb819bb5eb81c7e6054822d0b2604492de8b6c25a6023c4",
-                "transparentBounds": {
-                  "left": 0,
-                  "top": 0,
-                  "right": 808,
-                  "bottom": 1798
-                },
-                "placement": {
-                  "anchor": "center",
-                  "fit": "contain",
-                  "x": 0.74,
-                  "y": 0.52
-                }
-              }
-            ]
-          }
-        ],
-        "selectedCharacter": {
-          "id": "1571",
-          "name": "Norma Hollowell",
-          "rarity": 5,
-          "limited": true,
-          "debut": "2026-07-08T04:00:00.000Z",
-          "icon": {
-            "id": "1571-icon",
-            "source": "character-icon",
-            "path": "/launcher-art/48d6c5f185298fb17d5756a6f0bfe897734e45073765ff1839b5359ee0276eed.webp",
-            "url": "https://pengo.gg/dist/launcher-art/48d6c5f185298fb17d5756a6f0bfe897734e45073765ff1839b5359ee0276eed.webp",
-            "mime": "image/webp",
-            "size": 8010,
-            "dimensions": {
-              "width": 142,
-              "height": 142
-            },
-            "sha256": "48d6c5f185298fb17d5756a6f0bfe897734e45073765ff1839b5359ee0276eed",
-            "transparentBounds": {
-              "left": 0,
-              "top": 0,
-              "right": 142,
-              "bottom": 142
-            },
-            "placement": {
-              "anchor": "center",
-              "fit": "cover",
-              "x": 0.5,
-              "y": 0.5
-            }
-          },
-          "variants": [
-            {
-              "id": "1571-splash",
-              "source": "splash",
-              "path": "/launcher-art/d8ee6607e91df6313de4237b48dfb5ca078c372e0342903dbadf0d8e5e9437bc.webp",
-              "url": "https://pengo.gg/dist/launcher-art/d8ee6607e91df6313de4237b48dfb5ca078c372e0342903dbadf0d8e5e9437bc.webp",
-              "mime": "image/webp",
-              "size": 356540,
-              "dimensions": {
-                "width": 1413,
-                "height": 2048
-              },
-              "sha256": "d8ee6607e91df6313de4237b48dfb5ca078c372e0342903dbadf0d8e5e9437bc",
-              "transparentBounds": {
-                "left": 0,
-                "top": 0,
-                "right": 1413,
-                "bottom": 2048
-              },
-              "placement": {
-                "anchor": "center",
-                "fit": "contain",
-                "x": 0.74,
-                "y": 0.52
-              }
-            }
-          ]
-        },
-        "selectedCharacterId": "1571",
-        "selectionReason": "newer-limited-debut",
-        "variants": [
-          {
-            "id": "1571-splash",
-            "source": "splash",
-            "path": "/launcher-art/d8ee6607e91df6313de4237b48dfb5ca078c372e0342903dbadf0d8e5e9437bc.webp",
-            "url": "https://pengo.gg/dist/launcher-art/d8ee6607e91df6313de4237b48dfb5ca078c372e0342903dbadf0d8e5e9437bc.webp",
-            "mime": "image/webp",
-            "size": 356540,
-            "dimensions": {
-              "width": 1413,
-              "height": 2048
-            },
-            "sha256": "d8ee6607e91df6313de4237b48dfb5ca078c372e0342903dbadf0d8e5e9437bc",
-            "transparentBounds": {
-              "left": 0,
-              "top": 0,
-              "right": 1413,
-              "bottom": 2048
-            },
-            "placement": {
-              "anchor": "center",
-              "fit": "contain",
-              "x": 0.74,
-              "y": 0.52
-            }
-          },
-          {
-            "id": "1491-splash",
-            "source": "splash",
-            "path": "/launcher-art/47dbffa5948f6e09beb819bb5eb81c7e6054822d0b2604492de8b6c25a6023c4.webp",
-            "url": "https://pengo.gg/dist/launcher-art/47dbffa5948f6e09beb819bb5eb81c7e6054822d0b2604492de8b6c25a6023c4.webp",
-            "mime": "image/webp",
-            "size": 190758,
-            "dimensions": {
-              "width": 808,
-              "height": 1798
-            },
-            "sha256": "47dbffa5948f6e09beb819bb5eb81c7e6054822d0b2604492de8b6c25a6023c4",
-            "transparentBounds": {
-              "left": 0,
-              "top": 0,
-              "right": 808,
-              "bottom": 1798
-            },
-            "placement": {
-              "anchor": "center",
-              "fit": "contain",
-              "x": 0.74,
-              "y": 0.52
-            }
-          }
-        ]
-      },
+      "region": "global",
+      "current": null,
       "upcoming": [],
       "news": [
         {
@@ -1169,7 +927,7 @@
         "remaining": {
           "startsAt": "2026-07-10T08:10:00.000Z",
           "endsAt": "2026-07-30T08:59:00.000Z",
-          "durationSeconds": 139095
+          "durationSeconds": 110476
         },
         "characters": [
           {
@@ -1568,7 +1326,7 @@
         "remaining": {
           "startsAt": "2026-07-16T04:00:00.000Z",
           "endsAt": "2026-08-09T03:59:59.000Z",
-          "durationSeconds": 985154
+          "durationSeconds": 956535
         },
         "characters": [
           {

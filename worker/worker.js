@@ -35,6 +35,7 @@ const MAX_BODY_BYTES = 8192; // 8 KiB
 const MAX_ACCOUNT_BODY_BYTES = 3 * 1024 * 1024; // encrypted pull bundles
 const UPSTREAM_TIMEOUT_MS = 20_000;
 const RATE_LIMIT_PER_MIN = 60;
+const DATABASE_ASSET_ORIGIN = 'https://assets.pengo.gg';
 
 const HOYO_GACHA_HOSTS = {
   genshin: 'https://public-operation-hk4e-sg.hoyoverse.com/gacha_info/api/getGachaLog',
@@ -398,9 +399,137 @@ function assetRequest(request) {
   return new Request(url, request);
 }
 
+function databaseLegacyKey(url) {
+  if (/%(?:2f|5c)/i.test(url.pathname) || /%25(?:2e|2f|5c)/i.test(url.pathname)) return null;
+  let decoded;
+  try { decoded = decodeURIComponent(url.pathname); } catch { return null; }
+  if (!decoded.startsWith('/Database/')) return null;
+  if (decoded.includes('\\') || decoded.includes('\0') || decoded.includes('\r') || decoded.includes('\n')) return null;
+  const parts = decoded.slice(1).split('/');
+  if (parts.some((part) => !part || part === '.' || part === '..')) return null;
+  return 'legacy/' + parts.join('/');
+}
+
+function encodedAssetKey(key) {
+  return key.split('/').map((part) => encodeURIComponent(part)).join('/');
+}
+
+function etagMatches(condition, etag, weak) {
+  if (!condition || !etag) return false;
+  if (condition.trim() === '*') return true;
+  const normalize = (value) => {
+    const trimmed = value.trim();
+    return weak ? trimmed.replace(/^W\//i, '') : trimmed;
+  };
+  const expected = normalize(etag);
+  return condition.split(',').some((candidate) => {
+    const trimmed = candidate.trim();
+    if (!weak && /^W\//i.test(trimmed)) return false;
+    return normalize(trimmed) === expected;
+  });
+}
+
+function failedConditionalStatus(request, object) {
+  const headers = request.headers;
+  const etag = object.httpEtag || '';
+  const uploadedMs = object.uploaded ? new Date(object.uploaded).getTime() : NaN;
+  // HTTP dates have one-second precision. Compare R2's millisecond timestamp
+  // at the same precision so an object from the matching second is not treated
+  // as spuriously newer.
+  const uploaded = Number.isFinite(uploadedMs) ? Math.floor(uploadedMs / 1000) * 1000 : NaN;
+  const ifMatch = headers.get('If-Match');
+  if (ifMatch) {
+    if (!etagMatches(ifMatch, etag, false)) return 412;
+  } else {
+    const unmodifiedSince = Date.parse(headers.get('If-Unmodified-Since') || '');
+    if (Number.isFinite(unmodifiedSince) && Number.isFinite(uploaded) && uploaded > unmodifiedSince) return 412;
+  }
+  const ifNoneMatch = headers.get('If-None-Match');
+  if (ifNoneMatch) {
+    if (etagMatches(ifNoneMatch, etag, true)) return 304;
+  } else {
+    const modifiedSince = Date.parse(headers.get('If-Modified-Since') || '');
+    if (Number.isFinite(modifiedSince) && Number.isFinite(uploaded) && uploaded <= modifiedSince) return 304;
+  }
+  // R2 omitted the body because an onlyIf condition failed. If it cannot be
+  // classified as a cache validator, fail closed as a precondition failure.
+  return 412;
+}
+
+async function emergencyDatabaseAsset(request, env, key) {
+  if (String(env?.DATABASE_ASSETS_EMERGENCY || '').toLowerCase() !== 'true') return null;
+  const bucket = env?.DATABASE_ASSETS;
+  if (!bucket || typeof bucket.get !== 'function') return null;
+  if (request.method !== 'GET' && request.method !== 'HEAD') {
+    return new Response('Method not allowed', { status: 405, headers: { Allow: 'GET, HEAD' } });
+  }
+  let object;
+  try {
+    object = await bucket.get(key, {
+      onlyIf: request.headers,
+      range: request.headers,
+    });
+  } catch (error) {
+    if (error?.status === 416) {
+      return new Response('Range not satisfiable', {
+        status: 416,
+        headers: { 'Accept-Ranges': 'bytes' },
+      });
+    }
+    throw error;
+  }
+  if (!object) return new Response('Not found', { status: 404 });
+  const headers = new Headers({
+    'Cache-Control': 'public, max-age=300, must-revalidate',
+    'X-Content-Type-Options': 'nosniff',
+    'Accept-Ranges': 'bytes',
+  });
+  if (object.writeHttpMetadata) object.writeHttpMetadata(headers);
+  if (object.httpEtag) headers.set('ETag', object.httpEtag);
+  if (!object.body) return new Response(null, { status: failedConditionalStatus(request, object), headers });
+  let status = 200;
+  if (object.range) {
+    const offset = Number(object.range.offset || 0);
+    const length = Number(object.range.length || 0);
+    const size = Number(object.size || offset + length);
+    headers.set('Content-Range', `bytes ${offset}-${offset + length - 1}/${size}`);
+    headers.set('Content-Length', String(length));
+    status = 206;
+  } else if (Number.isFinite(Number(object.size))) {
+    headers.set('Content-Length', String(object.size));
+  }
+  return new Response(request.method === 'HEAD' ? null : object.body, { status, headers });
+}
+
+async function handleLegacyDatabaseAsset(request, env, url) {
+  const key = databaseLegacyKey(url);
+  if (!key) return new Response('Bad Database asset path', { status: 400 });
+  const emergency = await emergencyDatabaseAsset(request, env, key);
+  if (emergency) return emergency;
+  if (request.method !== 'GET' && request.method !== 'HEAD') {
+    return new Response('Method not allowed', { status: 405, headers: { Allow: 'GET, HEAD' } });
+  }
+  const redirectOverride = String(env?.DATABASE_ASSET_LEGACY_REDIRECT || 'auto').toLowerCase();
+  if (redirectOverride !== 'true' && env?.ASSETS && typeof env.ASSETS.fetch === 'function') {
+    const staticResponse = await env.ASSETS.fetch(assetRequest(request));
+    if (redirectOverride === 'false' || staticResponse.status !== 404) return staticResponse;
+  }
+  const location = `${DATABASE_ASSET_ORIGIN}/${encodedAssetKey(key)}${url.search}`;
+  return new Response(null, {
+    status: 302,
+    headers: {
+      Location: location,
+      'Cache-Control': 'public, max-age=300, must-revalidate',
+      'X-Content-Type-Options': 'nosniff',
+    },
+  });
+}
+
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
+
+    if (url.pathname.startsWith('/Database/')) return handleLegacyDatabaseAsset(request, env, url);
 
     if (url.pathname === '/api/gacha/genshin') return handleHoyoGacha(request, 'genshin', env);
     if (url.pathname === '/api/gacha/hsr') return handleHoyoGacha(request, 'hsr', env);

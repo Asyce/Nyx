@@ -12,6 +12,13 @@ Seven scheduled jobs keep pengo.gg fresh and deploy automatically.
 | `gamedata-asset-sync.yml` | daily | download missing local GameData assets -> commit only `Database/GameData/*/assets` -> build -> smoke -> push -> deploy |
 
 Before any deploy:
+- Every deploy-capable workflow builds and smokes an exact-commit artifact in
+  the repository-selected mode and pushes that verified commit. In `dual` or
+  `r2-only` mode it then additively syncs its Database inventory before
+  Wrangler can run. This ordering prevents the mutable latest manifest from
+  naming a commit that never reached `main`; a failed or skipped R2 sync blocks
+  those R2-backed deploys. In the default `local` mode, R2 sync is skipped and
+  does not block the live deploy.
 - `gamedata-watch.yml` takes the expensive path only when Nanoka's supported manifest sections differ from the tracked manifest. Its collapse guard and GameData-only validator cover both live and beta output without letting unrelated banner or Endfield failures block the refresh. It downloads new assets in the same run.
 - `data-refresh.yml` retries only the banner scraper's explicit source-unavailable result (exit 2) three times. Required games must have both a current-run source success and a fresh timeline. If either is still missing, the job warns and skips validation, commit, build, push, and deploy. Unexpected scraper failures use exit 1 and fail the job red.
 - `roster-sync.yml`, `side-data-sync.yml`, and `banner-history-refresh.yml` run the full structural gate (`npm run validate`). Current-banner freshness remains owned by `data-refresh.yml`, so a source outage cannot turn unrelated refreshes red.
@@ -32,6 +39,9 @@ Before any deploy:
 ## Required repository secrets
 
 - **`CLOUDFLARE_API_TOKEN`** - a Cloudflare API token with *Workers Scripts: Edit* (and *Account Settings: Read*) for account `84fb7e02642dd00a09839f38eb4d7e83`. Used by `wrangler deploy`.
+- **`CLOUDFLARE_ACCOUNT_ID`** (repository variable) - Cloudflare account id used by the R2 S3 endpoint.
+- **`R2_ACCESS_KEY_ID`** - R2 S3 access key restricted to `nyx-database-assets`.
+- **`R2_SECRET_ACCESS_KEY`** - matching R2 S3 secret. The token needs object read/write, not delete.
 - **`REDDIT_PROXY_BASE`** - the Contabo proxy base URL used by code-watch deep mode when GitHub runner IPs are rate-limited by Reddit RSS.
 - **`REDDIT_PROXY_SECRET`** - shared secret sent as `X-Proxy-Secret` to the Contabo proxy. Keep this value synchronized with `/opt/asyce-reddit-proxy/.env` on the VPS.
 

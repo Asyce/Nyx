@@ -5,6 +5,10 @@ import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
 import { cacheStampForCommit, selectDeployCommit } from './deploy-commit.mjs';
 import { publishRuntimeData } from './publish-runtime-data.mjs';
+import {
+  buildDatabaseAssetManifest,
+  rewriteDatabaseAssetReferences,
+} from './database-assets.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const siteDir = path.resolve(__dirname, '..');
@@ -12,8 +16,14 @@ const root = path.resolve(siteDir, '..');
 const deployDir = path.resolve(root, '.deploy', 'pengo');
 const execFileAsync = promisify(execFile);
 const CLOUDFLARE_ASSET_FILE_LIMIT = 20_000;
+const R2_ONLY_HARD_FILE_LIMIT = 5_000;
+const R2_ONLY_TARGET_FILE_LIMIT = 2_000;
 // inject-seo.mjs edits HTML in place and adds only sitemap.xml.
 const POST_BUILD_FILE_RESERVE = 1;
+const databaseAssetMode = String(process.env.PENGO_DATABASE_ASSET_MODE || 'dual').toLowerCase();
+if (!['local', 'dual', 'r2-only'].includes(databaseAssetMode)) {
+  throw new Error(`PENGO_DATABASE_ASSET_MODE must be local, dual, or r2-only; got ${JSON.stringify(databaseAssetMode)}`);
+}
 
 const runtimeDirs = [
   ['assets', path.resolve(siteDir, 'assets')],
@@ -108,6 +118,22 @@ async function copyReferencedDatabaseAssets() {
   return { copied, missing };
 }
 
+async function rewriteDeployDatabaseAssets(manifest) {
+  let rewritten = 0;
+  const referenced = new Set();
+  for (const file of await listFiles(deployDir)) {
+    if (!/\.(?:html|css|js|json|xml|txt)$/i.test(file)) continue;
+    const source = await fs.readFile(file, 'utf8');
+    const result = rewriteDatabaseAssetReferences(source, manifest.entries);
+    if (result.rewritten) {
+      await fs.writeFile(file, result.text);
+      rewritten += result.rewritten;
+      for (const sourcePath of result.referenced) referenced.add(sourcePath);
+    }
+  }
+  return { rewritten, referenced: referenced.size };
+}
+
 async function writeVersionFile() {
   const commit = deployCommit;
   const shortCommit = commit.slice(0, 8);
@@ -170,16 +196,28 @@ if (await exists(publicDir)) {
   }
 }
 
-const databaseAssets = await copyReferencedDatabaseAssets();
+const databaseManifest = databaseAssetMode === 'local'
+  ? null
+  : await buildDatabaseAssetManifest({ rootDir: root, commit: deployCommit });
+const databaseAssets = databaseAssetMode === 'r2-only'
+  ? { copied: 0, missing: 0 }
+  : await copyReferencedDatabaseAssets();
 const runtimeManifest = await publishRuntimeData({ rootDir:root, deployDir });
+const databaseRewrite = databaseManifest
+  ? await rewriteDeployDatabaseAssets(databaseManifest)
+  : { rewritten: 0, referenced: 0 };
 await writeVersionFile();
 const files = await listFiles(deployDir);
-if (files.length > CLOUDFLARE_ASSET_FILE_LIMIT - POST_BUILD_FILE_RESERVE) {
-  throw new Error(`Deploy contains ${files.length} files before SEO injection; the conservative limit is ${CLOUDFLARE_ASSET_FILE_LIMIT - POST_BUILD_FILE_RESERVE} (${POST_BUILD_FILE_RESERVE} files reserved under Cloudflare's ${CLOUDFLARE_ASSET_FILE_LIMIT}-file asset limit)`);
+const hardFileLimit = databaseAssetMode === 'r2-only' ? R2_ONLY_HARD_FILE_LIMIT : CLOUDFLARE_ASSET_FILE_LIMIT;
+if (files.length >= hardFileLimit - POST_BUILD_FILE_RESERVE) {
+  throw new Error(`Deploy contains ${files.length} files before SEO injection; ${databaseAssetMode} mode requires fewer than ${hardFileLimit - POST_BUILD_FILE_RESERVE} (${POST_BUILD_FILE_RESERVE} file reserved for SEO injection)`);
+}
+if (databaseAssetMode === 'r2-only' && files.length >= R2_ONLY_TARGET_FILE_LIMIT - POST_BUILD_FILE_RESERVE) {
+  console.warn(`Warning: R2-only deploy has ${files.length} files before SEO injection; target is fewer than ${R2_ONLY_TARGET_FILE_LIMIT - POST_BUILD_FILE_RESERVE}`);
 }
 const totalBytes = (await Promise.all(files.map(async (file) => (await fs.stat(file)).size)))
   .reduce((sum, size) => sum + size, 0);
 
 console.log(`Built ${path.relative(root, deployDir)} with ${files.length} files (${(totalBytes / 1024 / 1024).toFixed(2)} MB)`);
-console.log(`Copied ${databaseAssets.copied} referenced Database asset(s); ${databaseAssets.missing} missing reference(s)`);
+console.log(`Database asset mode: ${databaseAssetMode}; copied ${databaseAssets.copied}, missing ${databaseAssets.missing}, rewrote ${databaseRewrite.rewritten} reference(s) across ${databaseRewrite.referenced} asset(s)`);
 console.log(`Published ${runtimeManifest.files.length} allowlisted runtime data file(s)`);

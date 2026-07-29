@@ -40,17 +40,23 @@ test('every scheduled deploy pushes the exact commit before publishing R2 manife
   }
 });
 
-test('manual rollout never mutates repository variables and has outcome-aware local and dual restoration', async () => {
+test('manual rollout never mutates repository variables and has mode-aware rollback paths', async () => {
   const source = await fs.readFile(path.resolve(workflowDir, 'r2-database-reconcile.yml'), 'utf8');
   assert.doesNotMatch(source, /github\.token|gh variable set|actions:\s*write/);
   assert.doesNotMatch(source, /npm run (?:build:deploy|smoke:deploy)(?:\s|&&|$)/m);
   assert.match(source, /npm run build:deploy:generated/);
   assert.match(source, /npm run smoke:deploy:generated/);
-  for (const id of ['deploy_dual', 'verify_dual', 'restore_local', 'deploy_r2', 'verify_r2', 'restore_dual']) {
+  for (const id of ['deploy_dual', 'verify_dual', 'restore_local', 'deploy_r2', 'verify_r2', 'restore_dual', 'rollback_r2']) {
     assert.match(source, new RegExp(`id: ${id}\\b`));
+  }
+  assert.match(source, /DATABASE_ASSET_MODE: \$\{\{ vars\.DATABASE_ASSET_MODE \|\| 'local' \}\}/);
+  for (const name of ['Build exact dual deploy artifact', 'Smoke exact dual deploy artifact', 'Deploy exact dual artifact', 'Live-check dual rollout']) {
+    const block = source.match(new RegExp(`- name: ${name}[\\s\\S]*?(?=\\n      - name:)`))?.[0] || '';
+    assert.match(block, /env\.DATABASE_ASSET_MODE != 'r2-only'/);
   }
   assert.match(source, /failure\(\).*steps\.deploy_dual\.outcome == 'failure'.*steps\.deploy_dual\.outcome == 'success'.*steps\.verify_dual\.outcome != 'success'/);
   assert.match(source, /failure\(\).*steps\.deploy_r2\.outcome == 'failure'.*steps\.deploy_r2\.outcome == 'success'.*steps\.verify_r2\.outcome != 'success'/);
+  assert.match(source, /inputs\.cutover_to_r2_only \|\| env\.DATABASE_ASSET_MODE == 'r2-only'/);
 
   const local = source.match(/- name: Restore exact local artifact[\s\S]*?(?=\n      - name:)/)?.[0] || '';
   assert.match(local, /PENGO_DATABASE_ASSET_MODE: local/);
@@ -60,7 +66,13 @@ test('manual rollout never mutates repository variables and has outcome-aware lo
   assert.match(dual, /PENGO_DATABASE_ASSET_MODE: dual/);
   assert.match(dual, /npm run build:deploy[\s\S]*npm run smoke:deploy[\s\S]*wrangler deploy/);
 
-  const order = ['id: deploy_dual', 'id: verify_dual', 'id: restore_local', 'id: deploy_r2', 'id: verify_r2', 'id: restore_dual']
+  const rollback = source.match(/- name: Roll back the prior R2-only deployment[\s\S]*$/)?.[0] || '';
+  assert.match(rollback, /env\.DATABASE_ASSET_MODE == 'r2-only'/);
+  assert.match(rollback, /steps\.deploy_r2\.outcome == 'success'/);
+  assert.match(rollback, /steps\.verify_r2\.outcome != 'success'/);
+  assert.match(rollback, /wrangler rollback --message/);
+
+  const order = ['id: deploy_dual', 'id: verify_dual', 'id: restore_local', 'id: deploy_r2', 'id: verify_r2', 'id: restore_dual', 'id: rollback_r2']
     .map((needle) => source.indexOf(needle));
   assert(order.every((index) => index >= 0));
   assert.deepEqual([...order].sort((a, b) => a - b), order);

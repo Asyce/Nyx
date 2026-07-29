@@ -4,6 +4,7 @@ import fs from 'node:fs/promises';
 import http from 'node:http';
 import path from 'node:path';
 import { inspectAchievementIconBytes, validateCatalog as validateAchievementCatalog } from '../../Scraper/achievements/core.mjs';
+import { buildDatabaseAssetEntry } from './database-assets.mjs';
 import { assertDeployCommitIdentity } from './deploy-commit.mjs';
 import { buildManifest, loadManifestInputs, validatePackagedManifest } from './generate-launcher-manifest.mjs';
 import vm from 'node:vm';
@@ -14,6 +15,7 @@ const siteDir = path.resolve(__dirname, '..');
 const root = path.resolve(siteDir, '..');
 const deployDir = path.resolve(root, '.deploy', 'pengo');
 const CLOUDFLARE_ASSET_FILE_LIMIT = 20_000;
+const databaseAssetMode = String(process.env.PENGO_DATABASE_ASSET_MODE || 'dual').toLowerCase();
 
 const routeFiles = new Map([
   ['/', 'index.html'],
@@ -462,7 +464,20 @@ async function main() {
   if (endfieldLauncherCode?.amount !== 150 || endfieldLauncherCode?.currency !== 'Oroberyl') {
     throw new Error('launcher code feed is missing the reviewed Endfield Oroberyl reward');
   }
-  if (!(await exists(path.resolve(deployDir, 'Database', 'EndfieldWiki', 'endfield', 'material-icons', 'Oroberyl.png')))) {
+  const oroberylSourcePath = 'Database/EndfieldWiki/endfield/material-icons/Oroberyl.png';
+  const oroberylDeployPath = path.resolve(deployDir, ...oroberylSourcePath.split('/'));
+  if (databaseAssetMode === 'r2-only') {
+    if (await exists(oroberylDeployPath)) {
+      throw new Error('R2-only deploy unexpectedly contains the Endfield Oroberyl icon');
+    }
+    const oroberylEntry = await buildDatabaseAssetEntry(
+      oroberylSourcePath,
+      await fs.readFile(path.resolve(root, ...oroberylSourcePath.split('/'))),
+    );
+    if (!nyxPayload.includes(oroberylEntry.publicUrl)) {
+      throw new Error('R2-only deploy is missing the rewritten Endfield Oroberyl icon URL');
+    }
+  } else if (!(await exists(oroberylDeployPath))) {
     throw new Error('deploy is missing the Endfield Oroberyl icon');
   }
   const wonderland = nyxContext.window.NYX_DB?.games?.gi?.wonderland;

@@ -39,6 +39,9 @@ test('production build packages committed launcher bytes and keeps regeneration 
   assert.doesNotMatch(smoke, /validatePackagedManifest\(manifest, \{ now: generatedAt \}\)/);
   assert.match(smoke, /execFileSync\('git', \['rev-parse', 'HEAD'\]/);
   assert.match(smoke, /assertDeployCommitIdentity\(\{ head: headCommit, version, pages: deployPages \}\)/);
+  assert.match(smoke, /databaseAssetMode === 'r2-only'/);
+  assert.match(smoke, /buildDatabaseAssetEntry\(/);
+  assert.match(smoke, /nyxPayload\.includes\(oroberylEntry\.publicUrl\)/);
 });
 
 test('deploy commit selection ignores stale trigger SHAs and rejects a wrong explicit commit', () => {

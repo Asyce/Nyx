@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="title desc">
+  <title id="title">Honkai Star Rail neutral artwork</title>
+  <desc id="desc">A neutral placeholder used only when verified record artwork is unavailable.</desc>
+  <defs>
+    <linearGradient id="bg" x1="30" y1="20" x2="290" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#30315f"/>
+      <stop offset="1" stop-color="#17182e"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="320" rx="36" fill="url(#bg)"/>
+  <path d="M71 159c42-67 116-86 178-45-52-13-95 6-123 45 31-10 61-8 94 7-55 0-94 24-120 65 4-28-6-49-29-72z" fill="none" stroke="#ded5ff" stroke-width="10" stroke-linejoin="round"/>
+  <circle cx="214" cy="102" r="13" fill="#f4cc78"/>
+  <text x="160" y="269" fill="#eeeaff" font-family="system-ui,sans-serif" font-size="36" font-weight="700" text-anchor="middle">HSR</text>
+</svg>

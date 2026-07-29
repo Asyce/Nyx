@@ -1,0 +1,4048 @@
+{
+  "generatedAt": "2026-07-29T21:20:01.704Z",
+  "policy": "Only exact source icon names from released audit records are accepted. Downloads are decoded, converted to lossless WebP, and written without overwrite.",
+  "providers": {
+    "yatta": "https://gi.yatta.moe",
+    "snap-hutao": "https://snaphutaorp.org",
+    "enka": "https://enka.network",
+    "mhywiki": "https://github.com/mixuanda/MHYwiki"
+  },
+  "resolvedRecordCount": 235,
+  "assetCount": 221,
+  "assets": [
+    {
+      "localDestination": "GameData/gi/assets/items/UI_AvatarFrameIcon_001.webp",
+      "sourceIcon": "UI_AvatarFrameIcon_001",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_AvatarFrameIcon_001.png",
+      "sourceSha256": "4b055729bca99bf19b8b4f6079ef60db2a014680f807c51bc34c5af7034233ea",
+      "sourceBytes": 18941,
+      "outputSha256": "ae5b1115bc519175e09106e716730c89bfc453c706b8a234021e201701ae5118",
+      "outputBytes": 10984,
+      "width": 360,
+      "height": 360,
+      "records": [
+        {
+          "recordId": "216001",
+          "name": "Faint Glow"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_AvatarFrameIcon_002.webp",
+      "sourceIcon": "UI_AvatarFrameIcon_002",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_AvatarFrameIcon_002.png",
+      "sourceSha256": "49f4205efcefb1c174b34cffb5fcda713abebe8e2875ff08391200cb1aaeafe0",
+      "sourceBytes": 22841,
+      "outputSha256": "2744ce51e90d471c0c4ef45baf756bf40367e3a83c1edf2c2518a47e34224b32",
+      "outputBytes": 15062,
+      "width": 360,
+      "height": 360,
+      "records": [
+        {
+          "recordId": "216002",
+          "name": "First Light"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_AvatarFrameIcon_003.webp",
+      "sourceIcon": "UI_AvatarFrameIcon_003",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_AvatarFrameIcon_003.png",
+      "sourceSha256": "9ab7d7706efc602525fa70aaf7efbe76a8da0b5cfd76e1471a660cb553f8d018",
+      "sourceBytes": 28454,
+      "outputSha256": "08cd26812ece9d1961b02ef6ff6e7b3b7f5f7462a59e3c303b57eebac39c65c8",
+      "outputBytes": 18098,
+      "width": 360,
+      "height": 360,
+      "records": [
+        {
+          "recordId": "216003",
+          "name": "Glimmering Glory"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_AvatarFrameIcon_004.webp",
+      "sourceIcon": "UI_AvatarFrameIcon_004",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_AvatarFrameIcon_004.png",
+      "sourceSha256": "9bd450423e628da801f9f4429a8ac541e3bb795dc3b552b2701ad17d4c182387",
+      "sourceBytes": 30936,
+      "outputSha256": "aef89ea242ac1f5a2f5bb07c17fbc21dcd04491de5de595230357817e7649fc0",
+      "outputBytes": 20230,
+      "width": 360,
+      "height": 360,
+      "records": [
+        {
+          "recordId": "216004",
+          "name": "Brimming Spiritflow"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_AvatarIcon_Columbina_Card.webp",
+      "sourceIcon": "UI_AvatarIcon_Columbina_Card",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Columbina_Card.png",
+      "sourceSha256": "83df222657c3606f94786eada375f789ed12b0df1ec776b9cad5fd8d0bf509e6",
+      "sourceBytes": 31076,
+      "outputSha256": "e5df62960e4604b4847653fd81741a8cbfce8460eadc68caa504d752ce80019e",
+      "outputBytes": 20200,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "4125",
+          "name": "Columbina"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_AvatarIcon_Durin_Card.webp",
+      "sourceIcon": "UI_AvatarIcon_Durin_Card",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Durin_Card.png",
+      "sourceSha256": "8d3ba28d9506c528510abc9db5cbc3039ed5df678d298d7d924df1b1d7b836c8",
+      "sourceBytes": 30944,
+      "outputSha256": "89bc50c9dd5a82f00a67795c738ca4a3181122a0a2d559e218a9f1ce7c83ec84",
+      "outputBytes": 20740,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "4123",
+          "name": "Durin"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_AvatarIcon_DurinCostumeWic_Card.webp",
+      "sourceIcon": "UI_AvatarIcon_DurinCostumeWic_Card",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_DurinCostumeWic_Card.png",
+      "sourceSha256": "c350055bfea079aa63e05ae4d1fda34caa6ffadee220302b1ef8a5c9bea5a689",
+      "sourceBytes": 31748,
+      "outputSha256": "88e6b6c609dbb5afe6f66aeeab3da9386f998c52cef133573611321019e122e4",
+      "outputBytes": 21678,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "340025",
+          "name": "Toward the Distant Horizon"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_AvatarIcon_Illuga_Card.webp",
+      "sourceIcon": "UI_AvatarIcon_Illuga_Card",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Illuga_Card.png",
+      "sourceSha256": "14257951b96243943a6602ebab9a1ce41df3a353dd61bbef7d4cc22e91df0869",
+      "sourceBytes": 84325,
+      "outputSha256": "21dee0488574adc08491ec263dabb5c4d138b1c230dacd3cdb6a7ddcb14f4ff5",
+      "outputBytes": 48972,
+      "width": 512,
+      "height": 512,
+      "records": [
+        {
+          "recordId": "4127",
+          "name": "Illuga"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_AvatarIcon_Jahoda_Card.webp",
+      "sourceIcon": "UI_AvatarIcon_Jahoda_Card",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Jahoda_Card.png",
+      "sourceSha256": "5487db78b7001fd7e398ccbfbe13e8f4e77dc0f2ac12e1ef036fac0369022828",
+      "sourceBytes": 33321,
+      "outputSha256": "b05a55ea2c1abd262df1a6c6f13577fee3bf3feb1336d7dd64858c9bfde0a379",
+      "outputBytes": 23238,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "4124",
+          "name": "Jahoda"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_AvatarIcon_Nefer_Card.webp",
+      "sourceIcon": "UI_AvatarIcon_Nefer_Card",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Nefer_Card.png",
+      "sourceSha256": "8143844d9f67905ff269b4060e7914471e9e8a2515056fd90c061f30775bcd64",
+      "sourceBytes": 31419,
+      "outputSha256": "3beeb926ccf8371488988e967f0d621a1465aad9ec1527dbc3ec7721379cffd6",
+      "outputBytes": 21634,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "4122",
+          "name": "Nefer"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_AvatarIcon_Varka_Card.webp",
+      "sourceIcon": "UI_AvatarIcon_Varka_Card",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Varka_Card.png",
+      "sourceSha256": "c1e23c20c69746bbeb1351f38baafae1ae31abda5b00ab9a9ebb7d9600e5f2df",
+      "sourceBytes": 28607,
+      "outputSha256": "8f4371035519963391777e3b4abe50295011e4cd0299a23e97cf4ddcdb1ff13e",
+      "outputBytes": 18236,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "4128",
+          "name": "Varka"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_AvatarIcon_Zibai_Card.webp",
+      "sourceIcon": "UI_AvatarIcon_Zibai_Card",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_AvatarIcon_Zibai_Card.png",
+      "sourceSha256": "0e2f37a055ec6a20369981e52d46cd6e728cf006f31bd4af3c95539e41774067",
+      "sourceBytes": 28650,
+      "outputSha256": "db09d9530ea02a86167cfb217e1e649c23fda265e35dbde0aad218e9fa24e0f3",
+      "outputBytes": 19292,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "4126",
+          "name": "Zibai"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_EquipIcon_Claymore_LoliFriend.webp",
+      "sourceIcon": "UI_EquipIcon_Claymore_LoliFriend",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_EquipIcon_Claymore_LoliFriend.png",
+      "sourceSha256": "7b4fe9fa65a370f72149e046e66c9edf1e8820b99f4cefa51a68b4464aaefb2d",
+      "sourceBytes": 25912,
+      "outputSha256": "84cb287d50e4ab49d3bc88ce8f81ebba6ede61b848fc2469896cc5a4069175e7",
+      "outputBytes": 17862,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "341802",
+          "name": "Super Awesome Magic Key"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_FlycloakIcon_Asterceno.webp",
+      "sourceIcon": "UI_FlycloakIcon_Asterceno",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_FlycloakIcon_Asterceno.png",
+      "sourceSha256": "1a585f70181a3219dd846483ad92ccca7382ee135a7b6dd0cd4943131927356c",
+      "sourceBytes": 26490,
+      "outputSha256": "d835138bdfe996cde6f628ad6e293b8ecf05edc8e86985f47b452a970f96b38b",
+      "outputBytes": 18568,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "140011",
+          "name": "Wings of the Starlit Feast"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_FlycloakIcon_Ayus.webp",
+      "sourceIcon": "UI_FlycloakIcon_Ayus",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_FlycloakIcon_Ayus.png",
+      "sourceSha256": "b11b4a568d45a835d16ca2ab7222a9d164892ccf6499e14ae89e46265069e28b",
+      "sourceBytes": 21316,
+      "outputSha256": "e233f4c1cf8b54ade3cd0fcebb3e33f4d5231b261894abaee8b2d109b490e0d0",
+      "outputBytes": 13100,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "140010",
+          "name": "Wings of the Forest"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_FlycloakIcon_Bakery.webp",
+      "sourceIcon": "UI_FlycloakIcon_Bakery",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_FlycloakIcon_Bakery.png",
+      "sourceSha256": "1dd9d15d1aa8175fca2c089aaa693fb286985e25812bed71d3c2084c6133a862",
+      "sourceBytes": 23812,
+      "outputSha256": "3fb251f82889673dc32fefaa8932f0b05f66fbd7e1f54f599d7a5f3ef126ad7f",
+      "outputBytes": 14940,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "140018",
+          "name": "Wings of Leisurely Moments"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_FlycloakIcon_EmeraldFlash.webp",
+      "sourceIcon": "UI_FlycloakIcon_EmeraldFlash",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_FlycloakIcon_EmeraldFlash.png",
+      "sourceSha256": "9c71adca4c0b2894366ca3493e906d14d46af7a303596d160227d3819f136eeb",
+      "sourceBytes": 27972,
+      "outputSha256": "dddbf0e4ee9a40c4fb3ddf79c4b696cb4880abb1025981fb52386075d4494ba4",
+      "outputBytes": 17818,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "140016",
+          "name": "Wings of Fate's Course Intertwined"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_FlycloakIcon_Firebrand.webp",
+      "sourceIcon": "UI_FlycloakIcon_Firebrand",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_FlycloakIcon_Firebrand.png",
+      "sourceSha256": "4a073313ec172210492f3c79f1a8bb78ff68ff2d3300390871773d3418db6b37",
+      "sourceBytes": 23537,
+      "outputSha256": "c8c972f56b714b5c8ef3f97fec4048d4084bd1f797f894dc740bbfcf58fe52db",
+      "outputBytes": 15220,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "140015",
+          "name": "Wings of Soaring Flame"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_FlycloakIcon_Gale.webp",
+      "sourceIcon": "UI_FlycloakIcon_Gale",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_FlycloakIcon_Gale.png",
+      "sourceSha256": "13cf9e1856c875ae2ea0ddbfe3dded8d7315b8b464da2b88e15f81935ba54a3e",
+      "sourceBytes": 23814,
+      "outputSha256": "570e81a4f67614e1e95c822594053c6188fdde9ee5d31dcbd083cc6ed1739056",
+      "outputBytes": 14130,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "140004",
+          "name": "Wings of Azure Wind"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_FlycloakIcon_Glider.webp",
+      "sourceIcon": "UI_FlycloakIcon_Glider",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_FlycloakIcon_Glider.png",
+      "sourceSha256": "54e437294f81e865f8f7c91b7161add5321067a08183694c156946ee0bc66598",
+      "sourceBytes": 17207,
+      "outputSha256": "b4f8ce7e7e37ed56135d235da94266af2c7672c732262185e14fa11569b33030",
+      "outputBytes": 8760,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "140001",
+          "name": "Wings of First Flight"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_FlycloakIcon_GrandEntrance.webp",
+      "sourceIcon": "UI_FlycloakIcon_GrandEntrance",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_FlycloakIcon_GrandEntrance.png",
+      "sourceSha256": "6cfa8022edd701257221a220b039fab096db255f7a2b4472cf8c7576beaa16ae",
+      "sourceBytes": 26121,
+      "outputSha256": "312fb640f4d319f55ebf8c35264386d17b745eb109784dbf9dd6ef9bf4745040",
+      "outputBytes": 16470,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "140014",
+          "name": "Wings of Delicacies"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_FlycloakIcon_Iustitia.webp",
+      "sourceIcon": "UI_FlycloakIcon_Iustitia",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_FlycloakIcon_Iustitia.png",
+      "sourceSha256": "7d35c1be5afb72dbe3caa59b13e624ad519769f460b504c1bca41631774e78c2",
+      "sourceBytes": 28312,
+      "outputSha256": "9c49363d4fabafa759f53213353a0802e8727abda0f0c992e8eb5fe1329c2302",
+      "outputBytes": 19480,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "140012",
+          "name": "Wings of Merciful, Wrathful Waters"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_FlycloakIcon_Megalith.webp",
+      "sourceIcon": "UI_FlycloakIcon_Megalith",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_FlycloakIcon_Megalith.png",
+      "sourceSha256": "6ee5b0696c53c3480ff1d13f26652932d1060559e9d7b7c91478e83a05ccfb98",
+      "sourceBytes": 25381,
+      "outputSha256": "16ced51d88f3f1b95165d67b97c58d235c8ac19d27ade17ddb03e73207283fc3",
+      "outputBytes": 14310,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "140005",
+          "name": "Wings of Golden Flight"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_FlycloakIcon_Nixavis.webp",
+      "sourceIcon": "UI_FlycloakIcon_Nixavis",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_FlycloakIcon_Nixavis.png",
+      "sourceSha256": "ae8d03c54be981087da404a13dbe9d6873f71f895ad76fc483c5e1c36d4310d3",
+      "sourceBytes": 22220,
+      "outputSha256": "656fdb76d079b77c97b7e4231e8e0d14a4bb9f70462462fe1ca5b5d3df6ebe6a",
+      "outputBytes": 13030,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "140006",
+          "name": "Wings of Concealing Snow"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_FlycloakIcon_Nodkrai.webp",
+      "sourceIcon": "UI_FlycloakIcon_Nodkrai",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_FlycloakIcon_Nodkrai.png",
+      "sourceSha256": "f354ecdccc9c58e3b945e2b138f2c7192c5f01c55041279f2dc0c56e1f39192f",
+      "sourceBytes": 27031,
+      "outputSha256": "817235baba24c935beb71ec9792443eea8ab60a69b352b36ae94e678a816a25b",
+      "outputBytes": 17648,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "140017",
+          "name": "Wings of the Silent Moon"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_FlycloakIcon_Psalmus.webp",
+      "sourceIcon": "UI_FlycloakIcon_Psalmus",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_FlycloakIcon_Psalmus.png",
+      "sourceSha256": "a586e0cff625aea588fc0c44b905f7bb00e0decdf4ecb8876108222ff1a3932d",
+      "sourceBytes": 22874,
+      "outputSha256": "5c8cd358a58b9bc3667baea83e025bd9b611d4742478fa5b6299c761c00061d3",
+      "outputBytes": 13278,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "140003",
+          "name": "Wings of Descension"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_FlycloakIcon_Redcomet.webp",
+      "sourceIcon": "UI_FlycloakIcon_Redcomet",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_FlycloakIcon_Redcomet.png",
+      "sourceSha256": "90ee7bf16bed6baf655c0474fb4301194177691a0e6f45cfacb7e5f430b8203c",
+      "sourceBytes": 23072,
+      "outputSha256": "8241ac1b984ff49423417b6ec48e414c237d6d81f7b6d07be15fe516b2e0f62d",
+      "outputBytes": 14066,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "140007",
+          "name": "Wings of Feasting"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_FlycloakIcon_Skald.webp",
+      "sourceIcon": "UI_FlycloakIcon_Skald",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_FlycloakIcon_Skald.png",
+      "sourceSha256": "371d01bf3879a7355445dea6e89ff320a83598f6c71a2cbc6d4e6616044af934",
+      "sourceBytes": 19785,
+      "outputSha256": "935e16dfbe54d95fb1b414d614c1be015e7bbd3142e732e796cbb79cf3f9f9dd",
+      "outputBytes": 12380,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "140009",
+          "name": "Wings of Shimmering Galaxy"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_FlycloakIcon_Starlit.webp",
+      "sourceIcon": "UI_FlycloakIcon_Starlit",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_FlycloakIcon_Starlit.png",
+      "sourceSha256": "688e04b18a88c1a6792d503987f447c8e23a926ec97384cc0432d9433a1795b4",
+      "sourceBytes": 21757,
+      "outputSha256": "dcd9e569986d2ca8cf0b64b896d04c10e1cbccc122eedd918593d34dd7708894",
+      "outputBytes": 12850,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "140002",
+          "name": "Wings of Companionship"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_FlycloakIcon_Sternlied.webp",
+      "sourceIcon": "UI_FlycloakIcon_Sternlied",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_FlycloakIcon_Sternlied.png",
+      "sourceSha256": "1fdd9d87c878caed52b2a61d805d2206e5521fee6092c626916da8b61d2ab2e5",
+      "sourceBytes": 24636,
+      "outputSha256": "7342eee766e4f95cd5ac76269d54226e17acebad5203dd430521cb4c3e34904d",
+      "outputBytes": 14942,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "140013",
+          "name": "Wings of Transient Dreams"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_FlycloakIcon_Thunderclap.webp",
+      "sourceIcon": "UI_FlycloakIcon_Thunderclap",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_FlycloakIcon_Thunderclap.png",
+      "sourceSha256": "5ca28d42fed4945e995d4ed5221104de854f9fa30f0a140d1fd3d5b271511123",
+      "sourceBytes": 28677,
+      "outputSha256": "bbc23f3d47e1836c9fdf1b57883ca47dba39f9b807fd4fb18cb6eee32f0026b2",
+      "outputBytes": 18134,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "140008",
+          "name": "Wings of the Stormstrider"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_Gcg_CardBack_01.webp",
+      "sourceIcon": "UI_Gcg_CardBack_01",
+      "provider": "mhywiki",
+      "sourceUrl": "https://media.githubusercontent.com/media/mixuanda/MHYwiki/master/site/images/GCG/UI_Gcg_CardBack_01.png",
+      "sourceSha256": "ee7945ee2aae2741a11c1d48adc1a8d26500b47951256c3403378f2cdb56fdee",
+      "sourceBytes": 24593,
+      "outputSha256": "44984107d64a4e3b72377e0572b121cb8494c27a437e23532267767a72c8b842",
+      "outputBytes": 14398,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "339000",
+          "name": "Origin"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Citlali.webp",
+      "sourceIcon": "UI_Icon_MusicGame_MusicShop_Motif_Citlali",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_Icon_MusicGame_MusicShop_Motif_Citlali.png",
+      "sourceSha256": "553a26cf788f7f53bdef0916c94c29c17455238d2ff3352866c6b2a4f735f604",
+      "sourceBytes": 31211,
+      "outputSha256": "cd80c3588fca93b86740d3b4fb00fee55d71251c85e406c15af93ea242da6593",
+      "outputBytes": 17114,
+      "width": 390,
+      "height": 390,
+      "records": [
+        {
+          "recordId": "319022",
+          "name": "Mysterious White Star"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Columbina.webp",
+      "sourceIcon": "UI_Icon_MusicGame_MusicShop_Motif_Columbina",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_Icon_MusicGame_MusicShop_Motif_Columbina.png",
+      "sourceSha256": "02982d7f1775355e6b7cd871284d5556ce4b711c232bdd57597c2b92d654fbb9",
+      "sourceBytes": 27650,
+      "outputSha256": "e8af1be87c53a95344316b3c5e329e33bbbb22d7cd411570c6421f988428e017",
+      "outputBytes": 15374,
+      "width": 390,
+      "height": 390,
+      "records": [
+        {
+          "recordId": "319025",
+          "name": "Dovefeather Moondew"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Daoqi.webp",
+      "sourceIcon": "UI_Icon_MusicGame_MusicShop_Motif_Daoqi",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_Icon_MusicGame_MusicShop_Motif_Daoqi.png",
+      "sourceSha256": "72b0ecb325465bea63be0fb66a6122e4ce60242933f48f13f50a570ae2aece0f",
+      "sourceBytes": 27848,
+      "outputSha256": "63528ffc6c9d7fa5b13d525cec070c83671b9ec2ded320640d94849d3b468a28",
+      "outputBytes": 15942,
+      "width": 390,
+      "height": 390,
+      "records": [
+        {
+          "recordId": "319010",
+          "name": "Thunder and Eternity"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Diluc.webp",
+      "sourceIcon": "UI_Icon_MusicGame_MusicShop_Motif_Diluc",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_Icon_MusicGame_MusicShop_Motif_Diluc.png",
+      "sourceSha256": "7cfde303382b2833211398e9d022b4150249cca2d5c07689bfacccc89c1b85c0",
+      "sourceBytes": 31270,
+      "outputSha256": "af195aa225f4142ccdaf12502d5e506503ad3aa2f9c095dc15633bc71ef5c2dd",
+      "outputBytes": 17274,
+      "width": 390,
+      "height": 390,
+      "records": [
+        {
+          "recordId": "319017",
+          "name": "Falcon Wings Ablaze"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_FengDan.webp",
+      "sourceIcon": "UI_Icon_MusicGame_MusicShop_Motif_FengDan",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_Icon_MusicGame_MusicShop_Motif_FengDan.png",
+      "sourceSha256": "27f6f74916c5aaa5e51708a69cdbff14063c5d68dd82e4f28c681967867fbd3b",
+      "sourceBytes": 27632,
+      "outputSha256": "82cb7c31d9e27d8e6175b8e609d13fc387e435be2484b0cf07c66c243ea9120f",
+      "outputBytes": 15052,
+      "width": 390,
+      "height": 390,
+      "records": [
+        {
+          "recordId": "319012",
+          "name": "Water and Justice"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Furina.webp",
+      "sourceIcon": "UI_Icon_MusicGame_MusicShop_Motif_Furina",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_Icon_MusicGame_MusicShop_Motif_Furina.png",
+      "sourceSha256": "4599dc7757bd6ca99e85f806c5174d07031ddf131f7f967e219f5a1d61ebb056",
+      "sourceBytes": 35511,
+      "outputSha256": "c57a18a189167987e65e8472724c873e466b59c91d7b3e6c2c00f6e5c322b014",
+      "outputBytes": 19160,
+      "width": 390,
+      "height": 390,
+      "records": [
+        {
+          "recordId": "319006",
+          "name": "Lingering Feast"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Hutao.webp",
+      "sourceIcon": "UI_Icon_MusicGame_MusicShop_Motif_Hutao",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_Icon_MusicGame_MusicShop_Motif_Hutao.png",
+      "sourceSha256": "ea1a5f7f23b5014538fd7aff3737658c52dd2c566374fa75d7e72158ee29cfcf",
+      "sourceBytes": 29649,
+      "outputSha256": "e5d13bcf718c2a629e1b8cad50452179db22470a7969c66f42e6c5c5dafa4f3f",
+      "outputBytes": 16326,
+      "width": 390,
+      "height": 390,
+      "records": [
+        {
+          "recordId": "319004",
+          "name": "Dappled Shadows Reflecting Red"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Lauma.webp",
+      "sourceIcon": "UI_Icon_MusicGame_MusicShop_Motif_Lauma",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_Icon_MusicGame_MusicShop_Motif_Lauma.png",
+      "sourceSha256": "73d68666efcaf6fca4850a518cc36ccd9fbde88aec88c66bcbfcc7af0b3bcee2",
+      "sourceBytes": 28607,
+      "outputSha256": "02e8ab6ecfe41f963db60c20cde732fdba6cd2e3eaaf7426baac373e194b1fee",
+      "outputBytes": 15496,
+      "width": 390,
+      "height": 390,
+      "records": [
+        {
+          "recordId": "319021",
+          "name": "Frostmoon Prayers"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Liyue.webp",
+      "sourceIcon": "UI_Icon_MusicGame_MusicShop_Motif_Liyue",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_Icon_MusicGame_MusicShop_Motif_Liyue.png",
+      "sourceSha256": "a328764ceb27d33642eb0f4d44e8d66bd634b3e139bdbd2b7242ca39f8b4371f",
+      "sourceBytes": 28037,
+      "outputSha256": "59fb07c695245f50a097ee763254f205cbb4a70c0f04e2f8c96e9af084782f2b",
+      "outputBytes": 15154,
+      "width": 390,
+      "height": 390,
+      "records": [
+        {
+          "recordId": "319009",
+          "name": "Stone and Contracts"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Lyney.webp",
+      "sourceIcon": "UI_Icon_MusicGame_MusicShop_Motif_Lyney",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_Icon_MusicGame_MusicShop_Motif_Lyney.png",
+      "sourceSha256": "6aabdc7c618038dfcf0109d6cb5ca38a8e9d7c3791bc1d9aa88a354fe019e075",
+      "sourceBytes": 36900,
+      "outputSha256": "f4a01509c246b72462787ec31d4c9c0f87e516f221808903647037b6303579c1",
+      "outputBytes": 19726,
+      "width": 390,
+      "height": 390,
+      "records": [
+        {
+          "recordId": "319001",
+          "name": "Fantastical Marvel"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Mavuika.webp",
+      "sourceIcon": "UI_Icon_MusicGame_MusicShop_Motif_Mavuika",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_Icon_MusicGame_MusicShop_Motif_Mavuika.png",
+      "sourceSha256": "c55546c27314459ac48ec1aaa7eed0914b4b23ef794adae74e26e3fb519b4814",
+      "sourceBytes": 15614,
+      "outputSha256": "97a80108078c9b8c7f2549ea32e3d83b8b448c6ca397b0c6b7ffa50dd27e35c2",
+      "outputBytes": 9248,
+      "width": 390,
+      "height": 390,
+      "records": [
+        {
+          "recordId": "319015",
+          "name": "Blazing Sunfire Scours the Gloom"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Mengde.webp",
+      "sourceIcon": "UI_Icon_MusicGame_MusicShop_Motif_Mengde",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_Icon_MusicGame_MusicShop_Motif_Mengde.png",
+      "sourceSha256": "552ff8ef8efeaf8e98202ebddce5d50c52acb9a006d9c04c088b9a8db4e954ba",
+      "sourceBytes": 32520,
+      "outputSha256": "c88001adf525ef63b98159e007475a0f96dde804f5dd73c68c20fdde553a663e",
+      "outputBytes": 17854,
+      "width": 390,
+      "height": 390,
+      "records": [
+        {
+          "recordId": "319008",
+          "name": "Wind and Freedom"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Nahida.webp",
+      "sourceIcon": "UI_Icon_MusicGame_MusicShop_Motif_Nahida",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_Icon_MusicGame_MusicShop_Motif_Nahida.png",
+      "sourceSha256": "9fc0746e76bc231039a9ffd4c678900ba972256dc5d0638a073fd561f9992469",
+      "sourceBytes": 34487,
+      "outputSha256": "d58b6141cf43d09bfb4f9fa3b55c7a73f1045cd9d9b5bbad8b4b096b9fec45cd",
+      "outputBytes": 18404,
+      "width": 390,
+      "height": 390,
+      "records": [
+        {
+          "recordId": "319002",
+          "name": "Meditation on Floating Dreams"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Natlan.webp",
+      "sourceIcon": "UI_Icon_MusicGame_MusicShop_Motif_Natlan",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_Icon_MusicGame_MusicShop_Motif_Natlan.png",
+      "sourceSha256": "2a8fcb7b982eb9fed00c497f81d0c3ecd325464c890cc8a809f774560636c517",
+      "sourceBytes": 30001,
+      "outputSha256": "31f977fe686e343bab134678fcb2056f8efc77cd1174e83fdfe19305355dca40",
+      "outputBytes": 16128,
+      "width": 390,
+      "height": 390,
+      "records": [
+        {
+          "recordId": "319013",
+          "name": "Fire and War"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Neuvillette.webp",
+      "sourceIcon": "UI_Icon_MusicGame_MusicShop_Motif_Neuvillette",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_Icon_MusicGame_MusicShop_Motif_Neuvillette.png",
+      "sourceSha256": "729dfdf8acb84a366c0dbfa07a69104d9cdfc97f13e191bb8aeb8b5fcaea7b67",
+      "sourceBytes": 29140,
+      "outputSha256": "8bbf716d2f9720605508bd9883a856d4858da48c02e83e1580b6a4a368bfca4e",
+      "outputBytes": 15956,
+      "width": 390,
+      "height": 390,
+      "records": [
+        {
+          "recordId": "319005",
+          "name": "Oracle of Reason"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Nodkrai.webp",
+      "sourceIcon": "UI_Icon_MusicGame_MusicShop_Motif_Nodkrai",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_Icon_MusicGame_MusicShop_Motif_Nodkrai.png",
+      "sourceSha256": "e46ce6ca15e391425e843b52429a598987be4fe9dc9f4b98ce3e0a5bbeace161",
+      "sourceBytes": 35618,
+      "outputSha256": "ea98bf8c17e668305a520ab97dedd737d5c419b30432fa388fab09b66de9f0a5",
+      "outputBytes": 20404,
+      "width": 390,
+      "height": 390,
+      "records": [
+        {
+          "recordId": "319020",
+          "name": "Elysium and the Moon"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Shougun.webp",
+      "sourceIcon": "UI_Icon_MusicGame_MusicShop_Motif_Shougun",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_Icon_MusicGame_MusicShop_Motif_Shougun.png",
+      "sourceSha256": "cc89e45c62842176369e9c45dbffad0b2904cfc1f5f2cfd2ddce59b0144c1b24",
+      "sourceBytes": 14305,
+      "outputSha256": "f7169823d32321262e3a1485a739dbf040b1996990c38a660379efcda14afd38",
+      "outputBytes": 8738,
+      "width": 390,
+      "height": 390,
+      "records": [
+        {
+          "recordId": "319016",
+          "name": "Eternal Dreams of Serenity"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Venti.webp",
+      "sourceIcon": "UI_Icon_MusicGame_MusicShop_Motif_Venti",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_Icon_MusicGame_MusicShop_Motif_Venti.png",
+      "sourceSha256": "564a9abe963d7e96c436fedb3a8fabe471b3a53ec03939a8d9157db917237ab4",
+      "sourceBytes": 30590,
+      "outputSha256": "c4400b73298796152530ac576902572245519eb6e78153190ef6c38cf63e3aa1",
+      "outputBytes": 17148,
+      "width": 390,
+      "height": 390,
+      "records": [
+        {
+          "recordId": "319014",
+          "name": "Ode to Azure Skies"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Wriothesley.webp",
+      "sourceIcon": "UI_Icon_MusicGame_MusicShop_Motif_Wriothesley",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_Icon_MusicGame_MusicShop_Motif_Wriothesley.png",
+      "sourceSha256": "3bec48ffa4ab413a88ef1e000042056d478bfa1e1c5c4875d8874e7fd6d32d87",
+      "sourceBytes": 44664,
+      "outputSha256": "dd099db217927a0c0ab4a375209a551fe7cf98b9b48c37d3365310d3f3ae4368",
+      "outputBytes": 24810,
+      "width": 390,
+      "height": 390,
+      "records": [
+        {
+          "recordId": "319007",
+          "name": "Azure Icefang"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Xilonen.webp",
+      "sourceIcon": "UI_Icon_MusicGame_MusicShop_Motif_Xilonen",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_Icon_MusicGame_MusicShop_Motif_Xilonen.png",
+      "sourceSha256": "38cd62d9b47e2753d585ffb2f96454cad55e53e4114c9c5c6a24d516161c16a9",
+      "sourceBytes": 34177,
+      "outputSha256": "b776a93c0e39bfca6b362fec3f5c88291c8f24270681f744f80fdd5cf7d76cc6",
+      "outputBytes": 18284,
+      "width": 390,
+      "height": 390,
+      "records": [
+        {
+          "recordId": "319019",
+          "name": "Red-Hot Meter"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_XuMi.webp",
+      "sourceIcon": "UI_Icon_MusicGame_MusicShop_Motif_XuMi",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_Icon_MusicGame_MusicShop_Motif_XuMi.png",
+      "sourceSha256": "af19f15a6193265c92aabadc2ce9bd424f6957254cd281e5a698910ab8ca2e04",
+      "sourceBytes": 28650,
+      "outputSha256": "bba03cecc9d8e7acf5204ccc304ddc1087543490a08f74161e3587cc359bbc65",
+      "outputBytes": 16108,
+      "width": 390,
+      "height": 390,
+      "records": [
+        {
+          "recordId": "319011",
+          "name": "Nature and Wisdom"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Zhongli.webp",
+      "sourceIcon": "UI_Icon_MusicGame_MusicShop_Motif_Zhongli",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_Icon_MusicGame_MusicShop_Motif_Zhongli.png",
+      "sourceSha256": "580b57b9fc9263aa0614535bdb8b4c25624ab828698628490805eb72a7678404",
+      "sourceBytes": 28629,
+      "outputSha256": "5e6275462e9e171947460325e6548ff5566559b932425627b1c153dafc2db964",
+      "outputBytes": 15630,
+      "width": 390,
+      "height": 390,
+      "records": [
+        {
+          "recordId": "319003",
+          "name": "Hidden Jade Star"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_104300.webp",
+      "sourceIcon": "UI_ItemIcon_104300",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_104300.png",
+      "sourceSha256": "2a720d135b4652053f6799a7a5a9de8fc9b6a7ec37740ce442236d4413984fd5",
+      "sourceBytes": 26758,
+      "outputSha256": "bf185e97241acdf6c93a3a411f08b6eedda0b88941e189282363ca5340720e1e",
+      "outputBytes": 15688,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "104300",
+          "name": "Masterless Stella Fortuna"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_106.webp",
+      "sourceIcon": "UI_ItemIcon_106",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_106.png",
+      "sourceSha256": "a02b7becf2945d8233962a9808d282d86f1e665fba32160f2c6df5bd206f6575",
+      "sourceBytes": 11539,
+      "outputSha256": "fd63ab52b8646134853ae04dba16ba018bc80dc33b4fba2ecb80eb0f317472b0",
+      "outputBytes": 6398,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "106",
+          "name": "Original Resin"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_115046.webp",
+      "sourceIcon": "UI_ItemIcon_115046",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_115046.png",
+      "sourceSha256": "66e023e2f5d88bb910ab6334f08f778255e5693cceba321359d01679f11464a1",
+      "sourceBytes": 19142,
+      "outputSha256": "9114e0fa4868d2fc270d83969120cea957960ffa20af9a0641cfefba2dc239b1",
+      "outputBytes": 12018,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "115046",
+          "name": "Masked Ball Invitation Letter"
+        },
+        {
+          "recordId": "121254",
+          "name": "Invitation Letter For a Ball Now Past"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121196.webp",
+      "sourceIcon": "UI_ItemIcon_121196",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_121196.png",
+      "sourceSha256": "e97c43bb5b4ed9b1e23d82ba730b8118cef78efabca1aa8b62178c75c77ba003",
+      "sourceBytes": 19403,
+      "outputSha256": "5ccdf1cb97c4d7f04cd3f7569384111abcaaad4b8c066993c39cb512a3702ddd",
+      "outputBytes": 10254,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "121196",
+          "name": "Fusion Profusion: DJ Remix Selections"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121228.webp",
+      "sourceIcon": "UI_ItemIcon_121228",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_121228.png",
+      "sourceSha256": "4314a798c063eb02285a8bcf37b74fc39812dc502de363962e5b7fda972fdbca",
+      "sourceBytes": 22863,
+      "outputSha256": "94c23dd3ac20e9d6fa3cffb59e51a719ac8cece52b0380e83f979242428990bc",
+      "outputBytes": 13742,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "121228",
+          "name": "Chevalmarin Amusement Park Commemorative Map"
+        },
+        {
+          "recordId": "121229",
+          "name": "Chevalmarin Amusement Park Commemorative Map"
+        },
+        {
+          "recordId": "121230",
+          "name": "Chevalmarin Amusement Park Commemorative Map"
+        },
+        {
+          "recordId": "121236",
+          "name": "Chevalmarin Amusement Park Commemorative Map"
+        },
+        {
+          "recordId": "121237",
+          "name": "Chevalmarin Amusement Park Commemorative Map"
+        },
+        {
+          "recordId": "121238",
+          "name": "Chevalmarin Amusement Park Commemorative Map"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121234.webp",
+      "sourceIcon": "UI_ItemIcon_121234",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_121234.png",
+      "sourceSha256": "1a5c8ca90c9d46363cf31339bacd9b15d4d9b838e3cc780c90dbf9c10f4e018b",
+      "sourceBytes": 31345,
+      "outputSha256": "b7b600136b698e24eeb5a6f75f1068c946ff0488d8ace13c811cbc59ed285d3c",
+      "outputBytes": 18164,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "121234",
+          "name": "Wonderland Cosmosphere"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121241.webp",
+      "sourceIcon": "UI_ItemIcon_121241",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_121241.png",
+      "sourceSha256": "54715aec3a365abaa6df329a11247ecaa4f31347148d53c5f58b1d031e248cd6",
+      "sourceBytes": 17822,
+      "outputSha256": "c778986b28cb5d46fc675a81721285fb059c6a7e82d620894f57d4bd4449a8eb",
+      "outputBytes": 9780,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "121241",
+          "name": "Rantiy's Hat"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121243.webp",
+      "sourceIcon": "UI_ItemIcon_121243",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_121243.png",
+      "sourceSha256": "c352d93187f8473cfc72cb583c641bf545a4eabc3e4acb2bee2a7468405f3417",
+      "sourceBytes": 15617,
+      "outputSha256": "90946c6099d3bc0437ac99202bf82ba1b7ae790d97a4baf683e08d62464e8d1b",
+      "outputBytes": 9400,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "121243",
+          "name": "Key to the \"Hibernation Chamber\""
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121255.webp",
+      "sourceIcon": "UI_ItemIcon_121255",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_121255.png",
+      "sourceSha256": "5654e45cc2101e8edbf2ea7540ff915eb0a3a093a8e46ab96c9825bf23beff2e",
+      "sourceBytes": 12838,
+      "outputSha256": "914d511c99408135d9f2497e062fe43e948189bff64e83dac4496deeea94221f",
+      "outputBytes": 6804,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "121255",
+          "name": "Dream-Mirror Remnant"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121256.webp",
+      "sourceIcon": "UI_ItemIcon_121256",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_121256.png",
+      "sourceSha256": "deb3c4d4b99aff1704286c09d62761bb6191f296041c9c1e1cff2b00d3b8516d",
+      "sourceBytes": 19348,
+      "outputSha256": "a5e5c62e71a235493cfa02fc11bbe4dafa39434388a9d926f8cb5bf75082f06f",
+      "outputBytes": 12186,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "121256",
+          "name": "Training Review"
+        },
+        {
+          "recordId": "121272",
+          "name": "Training Review (Read)"
+        },
+        {
+          "recordId": "121276",
+          "name": "Deciphered Message"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121260.webp",
+      "sourceIcon": "UI_ItemIcon_121260",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_121260.png",
+      "sourceSha256": "f0cea9bad67e425a29e25cfdabd11d52238624b771f36e6cebc947545b788128",
+      "sourceBytes": 12595,
+      "outputSha256": "29126c4a56ca02cb210aa29123e597a170b6ede657c5c638d755f8fd194348de",
+      "outputBytes": 6100,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "121260",
+          "name": "Gift Egg: Blood of This Land"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121261.webp",
+      "sourceIcon": "UI_ItemIcon_121261",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_121261.png",
+      "sourceSha256": "20ddc2e0822c627163515a1f7e57675d7354953aaa1fd2e580b98e78530d3967",
+      "sourceBytes": 14136,
+      "outputSha256": "b7887493ce4ddf07893aa900bd0367577b228bd83eaa79b50c6ab5dc4e66e3fb",
+      "outputBytes": 6934,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "121261",
+          "name": "Gift Egg: Let's Shred, Sharky!"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121262.webp",
+      "sourceIcon": "UI_ItemIcon_121262",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_121262.png",
+      "sourceSha256": "19a2eaa76214343ae6e3c630cba6b71a0460877c8e4e2ec8a76a0b83dfd6ed6a",
+      "sourceBytes": 14666,
+      "outputSha256": "5aed4ac50e6d69185357fcacf6f8bb9028a4bc46cd318212db2afeb3f0757ec3",
+      "outputBytes": 7416,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "121262",
+          "name": "Gift Egg: Bow Before Your King!"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121263.webp",
+      "sourceIcon": "UI_ItemIcon_121263",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_121263.png",
+      "sourceSha256": "8f3619d14f7ebf7046eda62f30c919d96fa696b4bce9d65a6c9e59534bf2ef46",
+      "sourceBytes": 13237,
+      "outputSha256": "25a187abb5e548348fd122c9b0e8620df3b9c4c674b3fc1f338b718b0cad534e",
+      "outputBytes": 6644,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "121259",
+          "name": "Gift Egg Gifted by Cacasha"
+        },
+        {
+          "recordId": "121263",
+          "name": "Gift Egg: Light of the Blazing Sun"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121264.webp",
+      "sourceIcon": "UI_ItemIcon_121264",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_121264.png",
+      "sourceSha256": "f45c00b3524f801bad0b67cc12f0fabfe4695337b44c9c929400266dec7124cb",
+      "sourceBytes": 14144,
+      "outputSha256": "eee29a30a20f6e280dccf6cca55e328b11aa5ac99181891b9dbcdff9deb46948",
+      "outputBytes": 6716,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "121258",
+          "name": "Gift Egg Gifted by Capybara King"
+        },
+        {
+          "recordId": "121264",
+          "name": "Gift Egg: Where the Drinks Keep Flowing"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121265.webp",
+      "sourceIcon": "UI_ItemIcon_121265",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_121265.png",
+      "sourceSha256": "b79cc33e748afd4491256e7176f41d01833d5bb06e828d2b101ae184b2d1b0b0",
+      "sourceBytes": 13519,
+      "outputSha256": "4ab140312d7d27794ff1d130d44f5fdba337c9bb21ac41172c0207a84aaf2b45",
+      "outputBytes": 6368,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "121265",
+          "name": "Gift Egg: Fietena"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121266.webp",
+      "sourceIcon": "UI_ItemIcon_121266",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_121266.png",
+      "sourceSha256": "1e4045fb1535ec7ae5f6171b6c5cd03b668c67e6270cf38a85b2314d6d91e53c",
+      "sourceBytes": 20394,
+      "outputSha256": "f66dab4a562be1753c77b9d741f870a30b5e5771e6b10f55c4bcc34bde526a43",
+      "outputBytes": 12370,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "121266",
+          "name": "Easybreeze Holiday Resort Invitation"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121267.webp",
+      "sourceIcon": "UI_ItemIcon_121267",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_121267.png",
+      "sourceSha256": "55e05b6cba085b6f930cbcfd5490420b65ccb5de48bfa3819b96bcc01cafe0db",
+      "sourceBytes": 18397,
+      "outputSha256": "ccc32b855b8101e819dbe6a7028d9941bcc3082bb2cea4e0695497b3dc446e85",
+      "outputBytes": 11330,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "121267",
+          "name": "\"Sun\""
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121268.webp",
+      "sourceIcon": "UI_ItemIcon_121268",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_121268.png",
+      "sourceSha256": "f01a85e6cfcacbe01c5e71b43c6b2026b6a378e68b295c366fb2ca74639d5682",
+      "sourceBytes": 12164,
+      "outputSha256": "bc0e082a67e4fa53fcefb6742de4f8a92bc7fad565d3ae0deb835c4b2899566e",
+      "outputBytes": 6192,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "121268",
+          "name": "Miniature \"Sun\""
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121270.webp",
+      "sourceIcon": "UI_ItemIcon_121270",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_121270.png",
+      "sourceSha256": "12b4567573c907087aff30e3bcfa34826577d2d8a0d52f8ebc9d6b7f6e112db4",
+      "sourceBytes": 21734,
+      "outputSha256": "57733adc3d7803aedda46ae05f9b57861add9cadda641b7c46788b252f8a7558",
+      "outputBytes": 12742,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "121270",
+          "name": "Teyvat Commemorative Album"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121271.webp",
+      "sourceIcon": "UI_ItemIcon_121271",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_121271.png",
+      "sourceSha256": "b23ca632894638df450040a701e838cd468b9e009aa483ba9af85a3111bde605",
+      "sourceBytes": 14531,
+      "outputSha256": "b601638492194d1f132902e5e803bc5805bbbeb8e2d7f2cde83f68c12ccd2189",
+      "outputBytes": 8886,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "121271",
+          "name": "Keepsake Photo With Yelan"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121279.webp",
+      "sourceIcon": "UI_ItemIcon_121279",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_121279.png",
+      "sourceSha256": "8f8683c797802002bd182cfd526b6856657e51376919b8e5e3be45aaf8a983d4",
+      "sourceBytes": 15219,
+      "outputSha256": "20901ce940c96965f4c2faf4fbedc2f2f561b5719392cfce008ec5b93892a451",
+      "outputBytes": 9322,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "121279",
+          "name": "Krumkake Bolt"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121287.webp",
+      "sourceIcon": "UI_ItemIcon_121287",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_121287.png",
+      "sourceSha256": "39a51b83b30611d00bd0b7787a4c5681dedee7db5125127d18361200dd9e3660",
+      "sourceBytes": 26799,
+      "outputSha256": "2a818278beb1486cab5b5d523739a83d5e2552e3b0a1dd4fd3de8788869b4469",
+      "outputBytes": 18626,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "121287",
+          "name": "Pipilpan Idol Competition Brochure"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121301.webp",
+      "sourceIcon": "UI_ItemIcon_121301",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_121301.png",
+      "sourceSha256": "cb0901facae4e3ec92a9735327aebd91c55ef60fe3c018f7a70bd3c87b2a53ae",
+      "sourceBytes": 17214,
+      "outputSha256": "0f3142e163a8bd7a0cffdcde5eb43f991bf3115574a7ac6d73c15eb81f7588f1",
+      "outputBytes": 8368,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "121301",
+          "name": "Easybreeze Badge"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121311.webp",
+      "sourceIcon": "UI_ItemIcon_121311",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_121311.png",
+      "sourceSha256": "0055aa1ab6014a651c4ce47cdb7b0aec869a40d57d8497f843e1a726e50f4224",
+      "sourceBytes": 20598,
+      "outputSha256": "11e1e003c0bde1fa04ddf434516756ed52f0ec2696100b693927c3fbf56f4ae9",
+      "outputBytes": 11974,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "121311",
+          "name": "Medicine from the Curatorium of Secrets"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121330.webp",
+      "sourceIcon": "UI_ItemIcon_121330",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_121330.png",
+      "sourceSha256": "76645b1399ab75f34507f570659b27218e4eda75d2d0df3c33c4bae0eaab0996",
+      "sourceBytes": 15184,
+      "outputSha256": "faaeb5e805f07934afb32a2199de8b157fb042edeba5f4a7711536f23fefda2d",
+      "outputBytes": 8854,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "121330",
+          "name": "Recorded Intel"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121360.webp",
+      "sourceIcon": "UI_ItemIcon_121360",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_121360.png",
+      "sourceSha256": "b71b37291387e2e3953f36d913b449fd017da7c003e295487cee3fde1150b79c",
+      "sourceBytes": 12738,
+      "outputSha256": "b155f20d5fa45f78fa4f800afd37b62242044105d1aba47d5f3abdda2b8c4bd8",
+      "outputBytes": 6838,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "121360",
+          "name": "Lever"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121367.webp",
+      "sourceIcon": "UI_ItemIcon_121367",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_121367.png",
+      "sourceSha256": "74083ac37a5a8418d944ada052829462c3f40f14908d26aa404bd889cdaee1ea",
+      "sourceBytes": 22042,
+      "outputSha256": "06badbe2c7299b55b672428c5af0c29b22d7824b837b271fcda4326c77d74c1a",
+      "outputBytes": 12222,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "121367",
+          "name": "Collated Intel"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121375.webp",
+      "sourceIcon": "UI_ItemIcon_121375",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_121375.png",
+      "sourceSha256": "a8ca106263b5ff625aa4078fbdb3b1b6082e6699e3673b240be825cbec6bc6a1",
+      "sourceBytes": 16317,
+      "outputSha256": "3521e947893bfab8f6861eef5de220bfe5a004b448cfdbd5c98a0131e08e2e5b",
+      "outputBytes": 9548,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "121375",
+          "name": "Way-Opening Key"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121376.webp",
+      "sourceIcon": "UI_ItemIcon_121376",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_121376.png",
+      "sourceSha256": "34639b24e0de02aa9fdb613fe9c9382ce0f6d0c39ff7f589df770207fd62ed7f",
+      "sourceBytes": 11169,
+      "outputSha256": "2f8300f2c2d55d5bc67ac18515b4417a320a78614cfd72157d44520d70cfc746",
+      "outputBytes": 5544,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "121376",
+          "name": "Ragged Notes"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121377.webp",
+      "sourceIcon": "UI_ItemIcon_121377",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_121377.png",
+      "sourceSha256": "900f23ea11afa21d1763994c6fc6cee87c2aa1f6cbc6617adb105a4375ae7ad5",
+      "sourceBytes": 12291,
+      "outputSha256": "04f034c978c631d974abc7338d3a192ae0a4c0c21d8d52347751c5da030f7e24",
+      "outputBytes": 6850,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "121377",
+          "name": "Ordered Notes"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121493.webp",
+      "sourceIcon": "UI_ItemIcon_121493",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_121493.png",
+      "sourceSha256": "42cc5e0a1ac798f49aa84e4d84ff1100fa4ee4ffcb1efe50ada6b0199f1bde77",
+      "sourceBytes": 12854,
+      "outputSha256": "e77c42437c38a3ab9c033cdb627a4b00d977c8515d9b0c29bafc699c313f82c2",
+      "outputBytes": 7320,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "121493",
+          "name": "Event Invitation"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121505.webp",
+      "sourceIcon": "UI_ItemIcon_121505",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_121505.png",
+      "sourceSha256": "679f8b790824a3b2d787d7f67595f6cd268e10181b3f948a5defab403611d72d",
+      "sourceBytes": 12694,
+      "outputSha256": "8cc0de85d3a604f1b510ae732a9605928364582f5e8f57ddfc094acc217540a1",
+      "outputBytes": 6384,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "121505",
+          "name": "Dodoco's Enchanted Candy"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121512.webp",
+      "sourceIcon": "UI_ItemIcon_121512",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_121512.png",
+      "sourceSha256": "3c1711f280c02b5b43af3591d1fc8e661c2ff8499646fac0285dffe6020b6e1c",
+      "sourceBytes": 23123,
+      "outputSha256": "b0afa43fe406864d7a3a9c2c047483abef6fc3bbc926e0d18a7c6ce724e005ab",
+      "outputBytes": 13836,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "121512",
+          "name": "A Brief History of the Pale Starborn"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121513.webp",
+      "sourceIcon": "UI_ItemIcon_121513",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_121513.png",
+      "sourceSha256": "f825ba28439b454b2b73c75fef279623b70388de9ba421e44c91eb53d13f0261",
+      "sourceBytes": 20616,
+      "outputSha256": "188be2487f18a0c53a2c72f4b9d01bed02fc7370be2cbc2269f1930f548242da",
+      "outputBytes": 12768,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "121513",
+          "name": "Night Murmurs From the Far Border: Varcolac"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121514.webp",
+      "sourceIcon": "UI_ItemIcon_121514",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_121514.png",
+      "sourceSha256": "23a2578ae164da61add4b61e52269bb852e422a9a5839ba5d43ebcb061e32312",
+      "sourceBytes": 24115,
+      "outputSha256": "65bfef0dd610d2d741d290382a4c9f62497b57ecd1f976f05a794d200f30cd78",
+      "outputBytes": 15462,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "121514",
+          "name": "Tales Carried by the Northwind"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121520.webp",
+      "sourceIcon": "UI_ItemIcon_121520",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_121520.png",
+      "sourceSha256": "c2ec0f1d3fddb37b6081c85c69ba35a3fa227294176a401ddf932269467af9ae",
+      "sourceBytes": 17632,
+      "outputSha256": "5f8b921c74a30432c4f151b54fbed7a919cc3ed919451afd397dc9ad5a2b7ffb",
+      "outputBytes": 10956,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "121520",
+          "name": "Varka's Invitation Ticket"
+        },
+        {
+          "recordId": "121521",
+          "name": "Varka's Invitation Ticket"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_121574.webp",
+      "sourceIcon": "UI_ItemIcon_121574",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_121574.png",
+      "sourceSha256": "8b14c420b37a1061d35d5610ca8dc2881dc06f7015968b03de9fd5d104d020c6",
+      "sourceBytes": 25994,
+      "outputSha256": "54dd4ab70fe89c7592965ed2fe2c274e413a4e460fb63c03906f79e21ee9ff60",
+      "outputBytes": 15750,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "121574",
+          "name": "Anomalous Tree Marrow I"
+        },
+        {
+          "recordId": "121575",
+          "name": "Anomalous Tree Marrow II"
+        },
+        {
+          "recordId": "121576",
+          "name": "Anomalous Tree Marrow III"
+        },
+        {
+          "recordId": "121580",
+          "name": "Anomalous Tree Marrow"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_129003.webp",
+      "sourceIcon": "UI_ItemIcon_129003",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_129003.png",
+      "sourceSha256": "0574777729a2e37eb27ce00742df3638b624d1a39c81104048b0118a79560350",
+      "sourceBytes": 15629,
+      "outputSha256": "15f55d63a666c4ad695fb1204f6220431e658d5692bf494ea672231c9c1563c8",
+      "outputBytes": 8498,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "129003",
+          "name": "Moon-Prayer Blossom From Columbina"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_182.webp",
+      "sourceIcon": "UI_ItemIcon_182",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_182.png",
+      "sourceSha256": "fca8708f1eff5b95a03bc011361b0b1f41c4086061823606b6e6308347ec1837",
+      "sourceBytes": 18991,
+      "outputSha256": "124619dc4c1217e7c5a80e1359c8b1ce0556a85db712d6d1cabfd4a33bdf61fa",
+      "outputBytes": 10624,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "182",
+          "name": "Smiley Snacks"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_184.webp",
+      "sourceIcon": "UI_ItemIcon_184",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_184.png",
+      "sourceSha256": "b84ba6f7d948202b7175ab0318074c3610f4ded766f580d88e4ad2879398f4c3",
+      "sourceBytes": 21447,
+      "outputSha256": "169e13d1f3f2d4eda937315b11e7eaa86156d2ebda1250431b67ff4d20949d25",
+      "outputBytes": 12750,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "184",
+          "name": "Action Points"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_185.webp",
+      "sourceIcon": "UI_ItemIcon_185",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_185.png",
+      "sourceSha256": "7eecbd1a374df1988664be9cbab93225a2cbf36bd4475bd82cc60d3514108f68",
+      "sourceBytes": 26119,
+      "outputSha256": "2512e6f94e42f378b2bf608036b2a85cd95747220637ff90f4e035c86671c2c8",
+      "outputBytes": 16002,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "185",
+          "name": "Speculative Records"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_186.webp",
+      "sourceIcon": "UI_ItemIcon_186",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_186.png",
+      "sourceSha256": "0bd8882ac3705f7b9d960e745a6bb18a8b3dcaa9faeb84f6f56997ba97db5bf6",
+      "sourceBytes": 16183,
+      "outputSha256": "1ff559a589c45fc27a58f55f9420e6a13357f1273f5383621e28971547856e68",
+      "outputBytes": 8428,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "186",
+          "name": "Sunspray Spirit"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_187.webp",
+      "sourceIcon": "UI_ItemIcon_187",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_187.png",
+      "sourceSha256": "afd9777fd6ab749d75f151605979becea39f79e11732f6e0347e618bfa19dd53",
+      "sourceBytes": 17964,
+      "outputSha256": "2bc3b0c88d4d955fbd7d4f8e6a33e547850f5ffe1c2fe2ed4cd198402c8aa6f7",
+      "outputBytes": 9302,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "187",
+          "name": "Legion Morale"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_188.webp",
+      "sourceIcon": "UI_ItemIcon_188",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_188.png",
+      "sourceSha256": "61e3a66efbd0626b59d91cd3d946941a00df7411b354102738a7840ab40526b0",
+      "sourceBytes": 13848,
+      "outputSha256": "12419bb18c7c1df9cf919f1b9e3af0f3923deded508dbb35f461f3c9f8cc9e04",
+      "outputBytes": 7042,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "188",
+          "name": "Prep Progress"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_191.webp",
+      "sourceIcon": "UI_ItemIcon_191",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_191.png",
+      "sourceSha256": "94d1ac08acab9e6f58b0027d93663494d57a3dc7983d630885289e4c12195e83",
+      "sourceBytes": 17850,
+      "outputSha256": "5e5c7ab540c77a4f41e70ed1738def80492c2fe1a10046a3fd58bb00b1c82f53",
+      "outputBytes": 9238,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "191",
+          "name": "Windscape Splendor"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_193.webp",
+      "sourceIcon": "UI_ItemIcon_193",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_193.png",
+      "sourceSha256": "b89010c1f4fe37e09cf0e754cb4dbbd25814cc395346c73e787f0922b399c7c1",
+      "sourceBytes": 11961,
+      "outputSha256": "b7acd3543ef50ad70f46fead6bed430b2983e6a11ea04da892d3764c0f9a9f38",
+      "outputBytes": 6008,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "193",
+          "name": "Treasured Insights"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_222005.webp",
+      "sourceIcon": "UI_ItemIcon_222005",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_222005.png",
+      "sourceSha256": "f94464b0c4eb78df9544755f7270663151754bea722fac867a11d858cadeac67",
+      "sourceBytes": 36846,
+      "outputSha256": "47bfdba678f42800853a5c7206fd6bcb408790317f11cf0dd402a6d1890eedc6",
+      "outputBytes": 23750,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "222005",
+          "name": "Sphere of Fleeting Shadow"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_231.webp",
+      "sourceIcon": "UI_ItemIcon_231",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_231.png",
+      "sourceSha256": "3ef8baabff50130da3faf7c381c719cbf4d566333a04b2a05a00f1a446789d95",
+      "sourceBytes": 23738,
+      "outputSha256": "58a0c640c5bd5c1c765eb89383cedd7f974f1d9a039152b5b5942caa365fd4f0",
+      "outputBytes": 16214,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "231",
+          "name": "Chronal Nexus"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_232.webp",
+      "sourceIcon": "UI_ItemIcon_232",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_232.png",
+      "sourceSha256": "14fcf55048b28c415d4235920dbcdf08f181a89c56a4bc55958cbfa1097ff22c",
+      "sourceBytes": 20624,
+      "outputSha256": "886e9aedca83d46779f679a061d582d0feadddb8bb2f8031904533ffba9023f1",
+      "outputBytes": 11886,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "232",
+          "name": "Arcane Keystone"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_233.webp",
+      "sourceIcon": "UI_ItemIcon_233",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_233.png",
+      "sourceSha256": "c1d2500cb2d9c7e91023d2ae73e79684c9485d6b3f87a89da10007a67677e6d1",
+      "sourceBytes": 18920,
+      "outputSha256": "239762b14e767145d310f7700db2bee9316c9acd2897205145cf7943e0ebb732",
+      "outputBytes": 10420,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "233",
+          "name": "Geode of Replication"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_234.webp",
+      "sourceIcon": "UI_ItemIcon_234",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_234.png",
+      "sourceSha256": "6db8e20113d5f7d270005f2429dfc769074fc28c92d456c33f4cc37f21ba7d49",
+      "sourceBytes": 14980,
+      "outputSha256": "2d4624955fbc59b956da920d9882c354943a4421aacfb2f2231e0ee3a25435be",
+      "outputBytes": 8316,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "234",
+          "name": "Engraved Shard"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_235.webp",
+      "sourceIcon": "UI_ItemIcon_235",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_235.png",
+      "sourceSha256": "0dec23b713439db80aaf2016b287ced804ec330b7f0932661faa5eb5122f3f30",
+      "sourceBytes": 18600,
+      "outputSha256": "2840123d7d97d5171997c349841cb2dcb30a83f32579fc867bb46887cdc8364e",
+      "outputBytes": 12188,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "235",
+          "name": "Festive Key"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_236.webp",
+      "sourceIcon": "UI_ItemIcon_236",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_236.png",
+      "sourceSha256": "d39f8963240f8c62b6028a63572315f15a7afbf6f5e98a851b7262fe9a5d3eb9",
+      "sourceBytes": 16758,
+      "outputSha256": "1f3d1bc9d4968017aece58a7a15e629374b697fc76ce4698f3456df6c031f507",
+      "outputBytes": 9306,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "236",
+          "name": "Luminous Keystone"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_238.webp",
+      "sourceIcon": "UI_ItemIcon_238",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_238.png",
+      "sourceSha256": "4c92d8c2a6e1bf0a4a688f250885226be82b7f0f4afdd7ea176e362bd4f9d760",
+      "sourceBytes": 16459,
+      "outputSha256": "64dc878883b6e100f1111996b8a98ba6bbd87fc610e619829f1d52284e1b3e12",
+      "outputBytes": 8214,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "238",
+          "name": "Wonderland EXP"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_239.webp",
+      "sourceIcon": "UI_ItemIcon_239",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_239.png",
+      "sourceSha256": "2646d4375e7b0884f66f90a10a82e4faa639771d3f71633acfa7cf5471105682",
+      "sourceBytes": 19899,
+      "outputSha256": "9cc4706a2a98dfbea370a98bb95cf7781f32d32add0118092c82dc4361c27576",
+      "outputBytes": 10256,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "239",
+          "name": "Chronicle EXP"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_308.webp",
+      "sourceIcon": "UI_ItemIcon_308",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_308.png",
+      "sourceSha256": "75224bb7a27e95f028d971f0ade62ac96f4ed9194d5cf2497090255922515a8b",
+      "sourceBytes": 18573,
+      "outputSha256": "5a52c5d4a32a884a21ed58d7ee84bf89cc2d40f249748bc37fa198a8f66f7b6b",
+      "outputBytes": 9982,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "308",
+          "name": "Luna Sigil"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_320002.webp",
+      "sourceIcon": "UI_ItemIcon_320002",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_320002.png",
+      "sourceSha256": "8bc318e64a86cc2ff4922fe6da160a94c858a1dd96f72e36f08185cfb4678e1f",
+      "sourceBytes": 29911,
+      "outputSha256": "b6729213678b005688da6ed0d0f90f194e8805ad5434eafc4cdeb33493ee0d10",
+      "outputBytes": 17390,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "320002",
+          "name": "Vigorous Yapping"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_ItemIcon_TrainingIteration.webp",
+      "sourceIcon": "UI_ItemIcon_TrainingIteration",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_ItemIcon_TrainingIteration.png",
+      "sourceSha256": "a36827837615b497f5553eb21783bfd8b62f767f1561e843611ac8afe91878a2",
+      "sourceBytes": 20027,
+      "outputSha256": "afd40bb0374335824bd2940eecde2fc8758880b58eb810b23b18c1af4d5c545f",
+      "outputBytes": 11858,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "105006",
+          "name": "Dust of Enlightenment"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Aino.webp",
+      "sourceIcon": "UI_NameCardIcon_Aino",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Aino.png",
+      "sourceSha256": "52efd553ba58bb57dc6b79d3876c1fa8b08db21e941bf25964a45568485e4d68",
+      "sourceBytes": 47496,
+      "outputSha256": "4cb2cbc96ced95c72a60c513f60a8fbb50b5b2f2a0c38b860bc652e1c8f847bc",
+      "outputBytes": 30020,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210255",
+          "name": "Aino: Whoopsie Ducksie"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Arlecchino.webp",
+      "sourceIcon": "UI_NameCardIcon_Arlecchino",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Arlecchino.png",
+      "sourceSha256": "c4b3f3e06536ef4952887e250df5f0986b88b23c9eb96e92b3a60b8e0af8b735",
+      "sourceBytes": 43570,
+      "outputSha256": "6106424342e972853d6956fba688c62f9c1c618d7a03037199cf6117250b1e34",
+      "outputBytes": 24616,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210195",
+          "name": "Arlecchino: Edict"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Bp16.webp",
+      "sourceIcon": "UI_NameCardIcon_Bp16",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Bp16.png",
+      "sourceSha256": "cace80f28560bc1d265cbc753ab6659dde0044b9aeeea6d45309396b9f4ce84f",
+      "sourceBytes": 50962,
+      "outputSha256": "d086bf85231bc9f962a9ffb41566e1226388b0eb640621afe751708d0abc1b30",
+      "outputBytes": 32662,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210123",
+          "name": "Travel Notes: Azure Main"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Bp2.webp",
+      "sourceIcon": "UI_NameCardIcon_Bp2",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Bp2.png",
+      "sourceSha256": "f1e4a34ffa6a5b90c727e479cf5ac03a868ba1661f98c35b240aee873bee6f5c",
+      "sourceBytes": 53673,
+      "outputSha256": "1eae2154eb84cac79441151583aabae6a43d4c2c9c26113b12a4dc1535707231",
+      "outputBytes": 35274,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210042",
+          "name": "Travel Notes: Fading Star"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Bp28.webp",
+      "sourceIcon": "UI_NameCardIcon_Bp28",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Bp28.png",
+      "sourceSha256": "b2acdfa5750d18d9c362c1ba5c645c176263c9fcc21fd6ae13b278f2c068f627",
+      "sourceBytes": 63322,
+      "outputSha256": "e47511c890c6e0460e57b9a112546052425f3cf329e09bb72ab1ba82c8ba181f",
+      "outputBytes": 41472,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210183",
+          "name": "Travel Notes: Whirling Waltz"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Bp29.webp",
+      "sourceIcon": "UI_NameCardIcon_Bp29",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Bp29.png",
+      "sourceSha256": "4e9956207d896fcbcb56e938b9deb4e89ad62fccd48fb966f6066117e8951841",
+      "sourceBytes": 49087,
+      "outputSha256": "aa53e2d9119f76be2c30f573e18f90fc8c03f12684b6f0222b0976f4181e8342",
+      "outputBytes": 30186,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210186",
+          "name": "Travel Notes: Time Inscribed"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Bp3.webp",
+      "sourceIcon": "UI_NameCardIcon_Bp3",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Bp3.png",
+      "sourceSha256": "c35e383826eaf1ca582025bf7eb4767105fca8451204f7cef63921924fa4ad00",
+      "sourceBytes": 46743,
+      "outputSha256": "41600e6aaba4ff59e42dfe1706ba8bae23e713793fa779f424fb11770b14b33d",
+      "outputBytes": 28370,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210055",
+          "name": "Travel Notes: Chalk"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Bp30.webp",
+      "sourceIcon": "UI_NameCardIcon_Bp30",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Bp30.png",
+      "sourceSha256": "f51f59fc3078a8f1d90d5e931b47a731343826fe4ab04ed5673a23359181e58d",
+      "sourceBytes": 63415,
+      "outputSha256": "ae26b89db4c27463aa3eae9aa8fdd3cd618c6b777ee83e00825113118360820f",
+      "outputBytes": 42636,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210191",
+          "name": "Travel Notes: Vibrant Harriers"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Bp31.webp",
+      "sourceIcon": "UI_NameCardIcon_Bp31",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Bp31.png",
+      "sourceSha256": "3ea625b277511ae6d08961822ab486aa7d7ca07a3071dbd54215f2ac4fbb9686",
+      "sourceBytes": 67284,
+      "outputSha256": "c82e593fc5d054f95eea3e00602836de9098f2f83017634a8a34f2e1c6692e92",
+      "outputBytes": 43852,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210194",
+          "name": "Travel Notes: Arcane Amassing"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Bp33.webp",
+      "sourceIcon": "UI_NameCardIcon_Bp33",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Bp33.png",
+      "sourceSha256": "c9473a78c5c05c3d2ea7115a6770fe0e108e3fa1f276cb49a7988f7bffb4dbea",
+      "sourceBytes": 62706,
+      "outputSha256": "f76c622446348c5066b710a536c73bfc9064ca50d1020f1a434be109131081c9",
+      "outputBytes": 40270,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210204",
+          "name": "Travel Notes: Simulnation"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Bp34.webp",
+      "sourceIcon": "UI_NameCardIcon_Bp34",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Bp34.png",
+      "sourceSha256": "f1da64123717860f61b2444dfc9ad438f0583a57671350949f2babaf905e6a53",
+      "sourceBytes": 52177,
+      "outputSha256": "4d5d38dd655cf233f24c5c67fa062ab7b55ac5ff041f0a733208be2f608e8fcb",
+      "outputBytes": 35164,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210206",
+          "name": "Travel Notes: Fanciful Fabrication"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Bp35.webp",
+      "sourceIcon": "UI_NameCardIcon_Bp35",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Bp35.png",
+      "sourceSha256": "0b1702294105117299a5a08b06fe5d62485551d5e27cea3374f628ad5a230e11",
+      "sourceBytes": 67599,
+      "outputSha256": "cbf082486542b7457979dab14a63a73fd1239267267f75ce252d4cd11b9c2d68",
+      "outputBytes": 45594,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210217",
+          "name": "Travel Notes: Primal Fire"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Bp36.webp",
+      "sourceIcon": "UI_NameCardIcon_Bp36",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Bp36.png",
+      "sourceSha256": "fe14fa8c30aa068e8c544c873397e97e01e2f4317c9ad833a5a04dd628b93e30",
+      "sourceBytes": 64030,
+      "outputSha256": "7824ef7f7bb0b7ec964715130d184d0f6a78f5273bd8cd03904d0bede18592ef",
+      "outputBytes": 42670,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210220",
+          "name": "Travel Notes: Sabzeruz"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Bp37.webp",
+      "sourceIcon": "UI_NameCardIcon_Bp37",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Bp37.png",
+      "sourceSha256": "337d91dcab322c56ce126c26da40f28d000e61eda9215dbd194debb9e4b6e647",
+      "sourceBytes": 68464,
+      "outputSha256": "d6ce45a05d7b99d2562078cc61c35df7140c502299953c34d66a3aeb6cd5e136",
+      "outputBytes": 44666,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210225",
+          "name": "Travel Notes: Spiritweaver"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Bp38.webp",
+      "sourceIcon": "UI_NameCardIcon_Bp38",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Bp38.png",
+      "sourceSha256": "a8714755f4e08758be941eb49158dc44426e576f31176af9e9bdef0c9c274171",
+      "sourceBytes": 68834,
+      "outputSha256": "16d35c703256bbc49cefb46c40c0de0a98a6a9ef3daae11a1da35d2d721cacae",
+      "outputBytes": 45490,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210232",
+          "name": "Travel Notes: The Flame Renewed"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Bp39.webp",
+      "sourceIcon": "UI_NameCardIcon_Bp39",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Bp39.png",
+      "sourceSha256": "bfc97c0fc5b53eeb0f6485c71239bd09c2f1b2dddb8a5f8a554c20d38ec1993f",
+      "sourceBytes": 60761,
+      "outputSha256": "b1fa05486474ac7c192ddbdc064305248b0e4aec2837334177bbf6ff071a7edc",
+      "outputBytes": 40140,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210235",
+          "name": "Travel Notes: Wondrous Reverie"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Bp4.webp",
+      "sourceIcon": "UI_NameCardIcon_Bp4",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Bp4.png",
+      "sourceSha256": "78714bbaf55473986f15f04b3ba5d3a8dc057ab62adae41086d75c6009ab3f86",
+      "sourceBytes": 50079,
+      "outputSha256": "92718686dece976fc75a6cd56da59b98887562c373bd1b3a2994955cf7178cbd",
+      "outputBytes": 32086,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210060",
+          "name": "Travel Notes: Mingxiao"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Bp40.webp",
+      "sourceIcon": "UI_NameCardIcon_Bp40",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Bp40.png",
+      "sourceSha256": "e38423c6c47edf795fe06fd806ea2256239d719e1ccb1ae2b615dd17c71b8548",
+      "sourceBytes": 65658,
+      "outputSha256": "d12421ca2a64c5ac2843365ae32384e6ce3635575fe5105d8d7bd4089b6651d0",
+      "outputBytes": 43766,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210240",
+          "name": "Travel Notes: Blooming Glory"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Bp41.webp",
+      "sourceIcon": "UI_NameCardIcon_Bp41",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Bp41.png",
+      "sourceSha256": "dd72210cee4a932d97772c0055d09e5ee1fbc72ed1ebb9cc646ad2d3dab1c9c4",
+      "sourceBytes": 55734,
+      "outputSha256": "9cf12fd8cf4b673313184cce390a33249e5eab312396f92f6b4324ee0f66352d",
+      "outputBytes": 35098,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210243",
+          "name": "Travel Notes: Balletica"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Bp42.webp",
+      "sourceIcon": "UI_NameCardIcon_Bp42",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Bp42.png",
+      "sourceSha256": "7103c74476d8c950daa12c8e18f6e22e319dcfe8d6b12f020509c98866eaba16",
+      "sourceBytes": 72092,
+      "outputSha256": "b6c73b735474886e796af07f7e68f2f6f67af55ccdc46eb70b141dc088e8a3a6",
+      "outputBytes": 48236,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210247",
+          "name": "Travel Notes: Speculation"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Bp43.webp",
+      "sourceIcon": "UI_NameCardIcon_Bp43",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Bp43.png",
+      "sourceSha256": "6e95cfef1c156758e44e7c4d80aabe79941de82eb847603d06bbd3179611a231",
+      "sourceBytes": 57301,
+      "outputSha256": "6e6b2de137f83010786ba6b77e1cdaba3647dc17e9176ee58528c0366088fb96",
+      "outputBytes": 39024,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210251",
+          "name": "Travel Notes: Easy Breezy"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Bp44.webp",
+      "sourceIcon": "UI_NameCardIcon_Bp44",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Bp44.png",
+      "sourceSha256": "1d6f61d8eeb38617951d1e71e0e822ad967fb1fa4b5624fd7d264411a663d7b6",
+      "sourceBytes": 62928,
+      "outputSha256": "133d3450b3cf7aa1a544a1944df1de8074cf8537ffdda956088ce1fc67d648fa",
+      "outputBytes": 42382,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210259",
+          "name": "Travel Notes: Glacial Moon"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Bp45.webp",
+      "sourceIcon": "UI_NameCardIcon_Bp45",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Bp45.png",
+      "sourceSha256": "9bf06dac9ae62d14d97c98de7bbdc293887120fb59520e11a2fa5836d6ef8f38",
+      "sourceBytes": 62116,
+      "outputSha256": "99318d84787ddf528cf1c155cdb3782d3ff021306ddafefcfe546d02a1dcd624",
+      "outputBytes": 40902,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210262",
+          "name": "Travel Notes: Bygone Ruins"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Bp46.webp",
+      "sourceIcon": "UI_NameCardIcon_Bp46",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Bp46.png",
+      "sourceSha256": "d2a2d2074f3ca4b2a14beef2efbcb4378976a065f049a2cc105b127a3cfe3119",
+      "sourceBytes": 67739,
+      "outputSha256": "94eeb2ede21afacb17709f9bb6fef115ff457d2ca3c6fc398d4fa81612d3c3d5",
+      "outputBytes": 45500,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210265",
+          "name": "Travel Notes: Blazing Snow"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Bp47.webp",
+      "sourceIcon": "UI_NameCardIcon_Bp47",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Bp47.png",
+      "sourceSha256": "3c32a7b20c1cbd3125ae66c36ece07c44bf65eb6db90ed37c589eedd1ee49437",
+      "sourceBytes": 67512,
+      "outputSha256": "4dd49eaf13d4dd03313982db6761e562383bcbc69b0db7112d37ac479ef641d9",
+      "outputBytes": 46452,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210272",
+          "name": "Travel Notes: Lanternlit Ode"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Bp48.webp",
+      "sourceIcon": "UI_NameCardIcon_Bp48",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Bp48.png",
+      "sourceSha256": "b6740c6ec2c54abef7b427124ac66e33b642364234081127cbc18db0b02ffc3a",
+      "sourceBytes": 67360,
+      "outputSha256": "a986281ac727643e11bd61bcc332f82697436d7c531a518802741d5d022d2607",
+      "outputBytes": 45718,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210274",
+          "name": "Travel Notes: Northerly Winds"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Bp49.webp",
+      "sourceIcon": "UI_NameCardIcon_Bp49",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Bp49.png",
+      "sourceSha256": "79b0d26bd0063b74fe971fb7b6f4895b9e242dfc9b4a9c186776a6a98f645c99",
+      "sourceBytes": 67012,
+      "outputSha256": "9cd4828d43c13403abf704adcea56b03427d8032909588e575a07d85b1e12126",
+      "outputBytes": 44934,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210278",
+          "name": "Travel Notes: Homecoming"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Bp5.webp",
+      "sourceIcon": "UI_NameCardIcon_Bp5",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Bp5.png",
+      "sourceSha256": "0cbdc0cdf1bea75e77aa524ea6bcddbfbabfae2cc42c719712aaff6aa78c5111",
+      "sourceBytes": 47499,
+      "outputSha256": "8d1366f97b7b9eebb8be209d83dfe73a2c479b21d5815476e4c529c41e14b5a6",
+      "outputBytes": 31142,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210064",
+          "name": "Travel Notes: Windblume"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Bp50.webp",
+      "sourceIcon": "UI_NameCardIcon_Bp50",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Bp50.png",
+      "sourceSha256": "87d8978153284388ac4f7ff489736cfb78f1353317cb85bf6c320897e2aef3b2",
+      "sourceBytes": 78778,
+      "outputSha256": "7dc365fdb268531fbbe12a2e8bbf32c8b75025cfd824567182b8b0093775acc5",
+      "outputBytes": 54060,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210283",
+          "name": "Travel Notes: Gift of Splendor"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Bp6.webp",
+      "sourceIcon": "UI_NameCardIcon_Bp6",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Bp6.png",
+      "sourceSha256": "51c281014c97badb591f9f4c751015baa77a7568c952986cd83846e8ba0a514a",
+      "sourceBytes": 49953,
+      "outputSha256": "04892a28815a56917cfa0cbd1b04c6f647e544f99a5e6701872ba5071957e6b7",
+      "outputBytes": 32210,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210071",
+          "name": "Travel Notes: Sub-Space Recreation"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Bp7.webp",
+      "sourceIcon": "UI_NameCardIcon_Bp7",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Bp7.png",
+      "sourceSha256": "ca3ebcb2d99d89717b9183a13810ad94d55fb865ef887a18ed7f97561f8b97ec",
+      "sourceBytes": 40885,
+      "outputSha256": "fff7a78606c9b6aa5a6a6259ba665849c7052fbe972f2bb3c077643b54244041",
+      "outputBytes": 26122,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210074",
+          "name": "Travel Notes: Midsummer"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Bp8.webp",
+      "sourceIcon": "UI_NameCardIcon_Bp8",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Bp8.png",
+      "sourceSha256": "10169072e4e5aecd7157fca4511129a9d68ec45ca534efdec12ad646f037fb43",
+      "sourceBytes": 53315,
+      "outputSha256": "16b9bf5ac44b2076930e0219a264cc279dcd6776db50c15dac9bda257b425431",
+      "outputBytes": 33422,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210080",
+          "name": "Travel Notes: Grand Narukami Shrine"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Bp9.webp",
+      "sourceIcon": "UI_NameCardIcon_Bp9",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Bp9.png",
+      "sourceSha256": "26bce8e7c8c8aee92af96559c0582aeae22ef375a130b7fa3ca18b88c5ef83ec",
+      "sourceBytes": 57214,
+      "outputSha256": "dc36889e34250ab168e4c3857cde7863d147e44e75d43b45c6e2aeebddb46672",
+      "outputBytes": 36446,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210096",
+          "name": "Travel Notes: Moonchaser"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Charlotte.webp",
+      "sourceIcon": "UI_NameCardIcon_Charlotte",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Charlotte.png",
+      "sourceSha256": "0bef8aa84cfe688edafa5e047a22f39d18de2bd215abeb053a783e9ff69ac4ab",
+      "sourceBytes": 68297,
+      "outputSha256": "8358496bdf00da0d88c353e9584440376eaab8e5e178bd714b21e771e205b03a",
+      "outputBytes": 43274,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210181",
+          "name": "Charlotte: Exclusive"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Chasca.webp",
+      "sourceIcon": "UI_NameCardIcon_Chasca",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Chasca.png",
+      "sourceSha256": "3709437aaf53b54c4a13c11737c27d655c0f75e0f47dc34670b67fbaec1b41c7",
+      "sourceBytes": 63978,
+      "outputSha256": "591d922cd74e259c3e2c45641b3fc1ccdc63e039c5f523c160b6fd7421ff0d7a",
+      "outputBytes": 41862,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210221",
+          "name": "Chasca: Fully Loaded"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Chenyu1.webp",
+      "sourceIcon": "UI_NameCardIcon_Chenyu1",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Chenyu1.png",
+      "sourceSha256": "5f184086f16e1e921c8ff6acb0c71010a46da8f463d84042f497fc21b668a971",
+      "sourceBytes": 64884,
+      "outputSha256": "db90a773e0a596173c2b029902bea692729fa661ebbf1bf414cd006929a3664b",
+      "outputBytes": 43252,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210189",
+          "name": "Achievement: Adeptal Valley"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Chevreuse.webp",
+      "sourceIcon": "UI_NameCardIcon_Chevreuse",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Chevreuse.png",
+      "sourceSha256": "fdad92b69f8ceb0af4e12128583f8a2545eb762866d4894c06b0e2a3bb2c5d12",
+      "sourceBytes": 65447,
+      "outputSha256": "5ddbb14c751323eeddc5605779359eba42508eb770cf91681e52540f69990757",
+      "outputBytes": 42546,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210185",
+          "name": "Chevreuse: Type II"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Chiori.webp",
+      "sourceIcon": "UI_NameCardIcon_Chiori",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Chiori.png",
+      "sourceSha256": "e81b32ded2a8ae05e810aa0c7e16482221388e4927798534483cdbc9433dd821",
+      "sourceBytes": 57731,
+      "outputSha256": "c865777d626e2ae0b0f79e7f2a2114c5475d24132b1cf7e7382c50550f7061be",
+      "outputBytes": 38006,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210193",
+          "name": "Chiori: Spectacular Sleeves"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Citlali.webp",
+      "sourceIcon": "UI_NameCardIcon_Citlali",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Citlali.png",
+      "sourceSha256": "f468fa5c63c09374f59a522af9f4101c482f093a6e72e8ddc4f9d0e49287a593",
+      "sourceBytes": 52614,
+      "outputSha256": "ad04974e0268eb153d6b4f1e79626154886b0f4dfb467b6a368d276df9bc5585",
+      "outputBytes": 32560,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210227",
+          "name": "Citlali: Opalstar"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Clorinde.webp",
+      "sourceIcon": "UI_NameCardIcon_Clorinde",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Clorinde.png",
+      "sourceSha256": "5028cea840e4c656294eec6184c1ca6db3684d56219a4667096c7d50e570b3d0",
+      "sourceBytes": 64288,
+      "outputSha256": "492f7d610aef415b9a6d11dea0d3802d52e7b2b3afbd729bfa6649f27381fc9b",
+      "outputBytes": 43194,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210200",
+          "name": "Clorinde: Roleplay"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Columbina.webp",
+      "sourceIcon": "UI_NameCardIcon_Columbina",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Columbina.png",
+      "sourceSha256": "e3ee450d17410b6c1a0fd3e81bbad8b2274d7bbbf6951fbd67e512f727c2fd10",
+      "sourceBytes": 54576,
+      "outputSha256": "a4a9cb3ccedb59525f0f547f38a47e7f486fc876d0569b86fb88e9eef149c617",
+      "outputBytes": 34154,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210267",
+          "name": "Columbina: Someday"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Csxy5.webp",
+      "sourceIcon": "UI_NameCardIcon_Csxy5",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Csxy5.png",
+      "sourceSha256": "efb1f229845c4d778cbe513fd0235a13774317ae43e12cb8ba55146169399438",
+      "sourceBytes": 72930,
+      "outputSha256": "8c51e17cbd2af383cb2190b61d43707367cad4944c61ac7cec97d2531b60b307",
+      "outputBytes": 48050,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210229",
+          "name": "Achievement: All-Seeing"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Csxy6.webp",
+      "sourceIcon": "UI_NameCardIcon_Csxy6",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Csxy6.png",
+      "sourceSha256": "9e194e4e1e2048801f73a2b7db0f181a23e80c12cba63512d24fc3c9f4d8b594",
+      "sourceBytes": 67851,
+      "outputSha256": "fdafe6a0743ff2dac3c078218b70ed4c57b637acaa230c35531bac1af1cd3f42",
+      "outputBytes": 47222,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210270",
+          "name": "Achievement: Far-Sighted"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Dahlia.webp",
+      "sourceIcon": "UI_NameCardIcon_Dahlia",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Dahlia.png",
+      "sourceSha256": "15a74167bb01d7ddf42e9f98e4810d212e96af35006eba1294da4f65208ee297",
+      "sourceBytes": 57325,
+      "outputSha256": "7a2c930bcb8892a4ff7f3888b2486a8f878b4f97bbbe4963983527120e9dcd4b",
+      "outputBytes": 36744,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210245",
+          "name": "Dahlia: Sacred Duty"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Deep.webp",
+      "sourceIcon": "UI_NameCardIcon_Deep",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Deep.png",
+      "sourceSha256": "5f5588350740a3cc8212e6ec960629b370fc7d47b9cd5fb8756a8518d1e3f44a",
+      "sourceBytes": 71642,
+      "outputSha256": "72eb28a7a7398e253097d7da6c7ef712ed895669a045db46e7bf4bd94994bfb2",
+      "outputBytes": 47600,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210196",
+          "name": "Fontaine: Attunement"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Dfcq1.webp",
+      "sourceIcon": "UI_NameCardIcon_Dfcq1",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Dfcq1.png",
+      "sourceSha256": "f91bf1bc7df49d4859ff1946a3ee0101a62b4b9b23ba9538243491423c080aac",
+      "sourceBytes": 63561,
+      "outputSha256": "6a97963c8a517672325fbe8c310ce3fa586e1a0850c37dd484f070cc1eeb7ffc",
+      "outputBytes": 41444,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210216",
+          "name": "Achievement: Lord of the Night"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Dfcq2.webp",
+      "sourceIcon": "UI_NameCardIcon_Dfcq2",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Dfcq2.png",
+      "sourceSha256": "dc8e2afd692266c2010b7d02ae259b00e34fbc5158658a7b7d4e5d64647a1085",
+      "sourceBytes": 74888,
+      "outputSha256": "3ffd0205959c1379bf88a4860844876f96cdbfd0cdc8bfc4d31cb046ea2c63b5",
+      "outputBytes": 52024,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210224",
+          "name": "Achievement: Fighting Spirit"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Dfcq3.webp",
+      "sourceIcon": "UI_NameCardIcon_Dfcq3",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Dfcq3.png",
+      "sourceSha256": "6691f59f1f81507e2281a500f2cffb4003a539ad77a1433a900e0560e054ad06",
+      "sourceBytes": 55255,
+      "outputSha256": "2449d294e30f4ceb3fd7413df64a405f9620bbfd4f4714b99d6609465d2ab670",
+      "outputBytes": 36528,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210239",
+          "name": "Achievement: Tranquil Peace"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Durin.webp",
+      "sourceIcon": "UI_NameCardIcon_Durin",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Durin.png",
+      "sourceSha256": "ce22fc47d1443b8948afb84b34ef73741222c7c3fc6930e48780a4c9f9bd69ce",
+      "sourceBytes": 60061,
+      "outputSha256": "a2ccc3b5ac84e00d008eca213d93bd424906d2b94c5dbd4cb12fc96823944b0b",
+      "outputBytes": 38468,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210263",
+          "name": "Durin: Radiant Heart"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Emilie.webp",
+      "sourceIcon": "UI_NameCardIcon_Emilie",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Emilie.png",
+      "sourceSha256": "8a52b4416b73ffcfbd22d3791c6f00c126086d523b4b7055b837dab5e1129ebe",
+      "sourceBytes": 62371,
+      "outputSha256": "abb8a87aefa9ead9d213c62ad526411aee0836b2c60b41f883b0840107e9bae1",
+      "outputBytes": 40772,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210205",
+          "name": "Emilie: Base Note"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Event58.webp",
+      "sourceIcon": "UI_NameCardIcon_Event58",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Event58.png",
+      "sourceSha256": "5f129dabfab8f4075f5b1be0ee9aca4d74d0c4790b7d34134b54a3ed900d3ff8",
+      "sourceBytes": 56677,
+      "outputSha256": "0314d7d8d850380271c3e5e2324f050e7091b16668925a59bbaf985b85368396",
+      "outputBytes": 37114,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210252",
+          "name": "Celebration: Tuna On Rice"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_FD3.webp",
+      "sourceIcon": "UI_NameCardIcon_FD3",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_FD3.png",
+      "sourceSha256": "1ce5309e527ab2685d9becd8c492dc751134651a032af8287631a60beeb26f0d",
+      "sourceBytes": 63324,
+      "outputSha256": "ec743955cbebf11f6e533f3ca2f551750ae95f6e6054bc2c9122a90004f31370",
+      "outputBytes": 42018,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210182",
+          "name": "Fontaine: Completeness"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Flins.webp",
+      "sourceIcon": "UI_NameCardIcon_Flins",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Flins.png",
+      "sourceSha256": "9c7c8b2239ea0e97b2c11d5a9f4e5dee0ada32bb02e5e23023753c88b0dc52d0",
+      "sourceBytes": 54918,
+      "outputSha256": "503f990456eae1a111eb25b40bbdab850ef1f4604c3142966b8747d09d509fd7",
+      "outputBytes": 35168,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210254",
+          "name": "Flins: Oathkeeper's Lantern"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Furina.webp",
+      "sourceIcon": "UI_NameCardIcon_Furina",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Furina.png",
+      "sourceSha256": "59d4653383a95b6598f9663800f5c73d99f2a7e1d56b07e27d482431532ddcc9",
+      "sourceBytes": 73727,
+      "outputSha256": "89470294e43933d083e16d4841a00470a263c29fbc1942de05a5ca3e15c469bd",
+      "outputBytes": 48612,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210180",
+          "name": "Furina: Banquet"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Gaming.webp",
+      "sourceIcon": "UI_NameCardIcon_Gaming",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Gaming.png",
+      "sourceSha256": "c30634e79de70ef845caa7db0d49ceb9e7c3b113bc499239dca637beb16d2fef",
+      "sourceBytes": 56714,
+      "outputSha256": "a1267ab4dda1294644f5d408434b97f5c11d2c098cfd1f440b1619f34fc323ea",
+      "outputBytes": 37108,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210188",
+          "name": "Gaming: Man Chai"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_GreatFestivalV2.webp",
+      "sourceIcon": "UI_NameCardIcon_GreatFestivalV2",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_GreatFestivalV2.png",
+      "sourceSha256": "a8e6f492d98c4c15c85fc90011dcfffeb2148af35e7ddc074e4a12eac979ead3",
+      "sourceBytes": 68715,
+      "outputSha256": "52770e04b4cbfbfb87d98487c34db814d24efd9dbf23a78450c820392ddd3278",
+      "outputBytes": 44442,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210199",
+          "name": "Travel Notes: The Realms Rocked"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Green.webp",
+      "sourceIcon": "UI_NameCardIcon_Green",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Green.png",
+      "sourceSha256": "37e2424536dbf8d7df8928eb6cc18c1fa35ab602c092603e1367cadb73f22951",
+      "sourceBytes": 57428,
+      "outputSha256": "335eab1f7d8d1c96e37c808e3d6641d92646dec2db1440b05652ce6ae2d1cb79",
+      "outputBytes": 37688,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210266",
+          "name": "Celebration: Dream Reader"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Illuga.webp",
+      "sourceIcon": "UI_NameCardIcon_Illuga",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Illuga.png",
+      "sourceSha256": "51f91cee6faae6fcf31d601bb126d951f91caa0b6887d63c9dc5946885145c8a",
+      "sourceBytes": 50507,
+      "outputSha256": "103c8a8b02e75048855d99781e7b9ea2dd6753c2885aefbb5bb079ca0517d95c",
+      "outputBytes": 31534,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210269",
+          "name": "Illuga: Nightmare Songbird"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Ineffa.webp",
+      "sourceIcon": "UI_NameCardIcon_Ineffa",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Ineffa.png",
+      "sourceSha256": "e2a1b6cad025ba92b6bd2b233956cf92d2557b760c5ce520189d3855900c21e3",
+      "sourceBytes": 56953,
+      "outputSha256": "42f8e957f3f2409bdf01baf2a64a28aa44050774bcc3df80ab122623aba4ea1e",
+      "outputBytes": 38310,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210248",
+          "name": "Ineffa: Command"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Jahoda.webp",
+      "sourceIcon": "UI_NameCardIcon_Jahoda",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Jahoda.png",
+      "sourceSha256": "2b0ab6862cc8ef7fce4c17374e149c7a72e0f47aefd91dff003272c50e1e4ace",
+      "sourceBytes": 54550,
+      "outputSha256": "239b3ebbb3870b0bc270dd91839f4541c83ab4af7fdd40138b7509a29f13fa4d",
+      "outputBytes": 34094,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210264",
+          "name": "Jahoda: Helping Hand"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Kachina.webp",
+      "sourceIcon": "UI_NameCardIcon_Kachina",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Kachina.png",
+      "sourceSha256": "878c8898df01a55ce0ef29c322ec7b69393600e69605c88f3a46cc89d44247a2",
+      "sourceBytes": 44990,
+      "outputSha256": "3741faa14f887090bc58250abb892aaccad81d33bd06f1fc50fde5cca8c37d70",
+      "outputBytes": 28138,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210210",
+          "name": "Kachina: Twirly"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Kinich.webp",
+      "sourceIcon": "UI_NameCardIcon_Kinich",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Kinich.png",
+      "sourceSha256": "111836882e06d83ad968275352b4fae3b794bc1257e7bac6cdfdb8f9332b0f79",
+      "sourceBytes": 26649,
+      "outputSha256": "e92f07cb1b8fd178be7accdfa4070eb95958b570513d19c49833637c7184c9b2",
+      "outputBytes": 18516,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210208",
+          "name": "Kinich: Ajaw"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Kzsd.webp",
+      "sourceIcon": "UI_NameCardIcon_Kzsd",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Kzsd.png",
+      "sourceSha256": "fd6c25aa8927b77a323915cef0f3950db01d50a1205d4ab31d9ba65b68730d97",
+      "sourceBytes": 55452,
+      "outputSha256": "e107b3ec910770094ae8c5be6143156354fcf7ed7317e8b4d99e96e43436355d",
+      "outputBytes": 36286,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210276",
+          "name": "Mondstadt: Watchtower"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_KzsdOffering.webp",
+      "sourceIcon": "UI_NameCardIcon_KzsdOffering",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_KzsdOffering.png",
+      "sourceSha256": "e72723e312b0ff944fe3cfc00cb5f91a8650e09744222ac55aa15ffb9ef38108",
+      "sourceBytes": 56795,
+      "outputSha256": "5fcbb9c05358feb017edcf6252ce89ae1ed8f3ba81eb2add9a5101faccd46dff",
+      "outputBytes": 36586,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210277",
+          "name": "Empty Temple: Overflowing Memories"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Lanyan.webp",
+      "sourceIcon": "UI_NameCardIcon_Lanyan",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Lanyan.png",
+      "sourceSha256": "61cd8820088db038bb04004a74b1417a13675465d6b134228dba73b180f1199d",
+      "sourceBytes": 55386,
+      "outputSha256": "f06342507495dd916d95a5e62281dc320a12170109a924356280b91ced1b1d03",
+      "outputBytes": 33760,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210228",
+          "name": "Lan Yan: Silver Swallow"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Lauma.webp",
+      "sourceIcon": "UI_NameCardIcon_Lauma",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/UI_NameCardIcon_Lauma.png",
+      "sourceSha256": "4ca8cad1fca1634ba39744be8f1d07b721e16e415ef420ec5fcc7f026f8d412c",
+      "sourceBytes": 19932,
+      "outputSha256": "b1713b14f6746946b7efe11a9b43b0bd800d4be89912b3c4550810e7f724f30a",
+      "outputBytes": 10930,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210253",
+          "name": "Lauma: Branched Antlers"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Liuyun.webp",
+      "sourceIcon": "UI_NameCardIcon_Liuyun",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Liuyun.png",
+      "sourceSha256": "5a822ba806b585ff154e41abe0ede9e986289d4c46b1de5ee338e3fb51d97966",
+      "sourceBytes": 72219,
+      "outputSha256": "f35dee8c55d0050afdbcdb5e666c98acc955f3d336a293af7dd4a12672f1faac",
+      "outputBytes": 47350,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210187",
+          "name": "Xianyun: White Clouds"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Lohen.webp",
+      "sourceIcon": "UI_NameCardIcon_Lohen",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Lohen.png",
+      "sourceSha256": "5032006e1c4d46cdcd5f2e6ec4dd4c814ce679af055bc9ef175ece5036494188",
+      "sourceBytes": 57887,
+      "outputSha256": "5a46b9be6a5c04b2cbcf0b1e6a2ff774f941360dcea8ed9a59fe62a9db4a3be4",
+      "outputBytes": 36228,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210280",
+          "name": "Lohen: Benevolence"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Mavuika.webp",
+      "sourceIcon": "UI_NameCardIcon_Mavuika",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Mavuika.png",
+      "sourceSha256": "578de39de94485196167925b38d46dfb8411edf97d02e3221bd7678215b5a9df",
+      "sourceBytes": 60960,
+      "outputSha256": "9b01a34cb526610ac82a42ca1951716565ce45e84f623052774609ad9e8e94ef",
+      "outputBytes": 39230,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210226",
+          "name": "Mavuika: Sun-Crowned"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Mizuki.webp",
+      "sourceIcon": "UI_NameCardIcon_Mizuki",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Mizuki.png",
+      "sourceSha256": "f35a15e60c88021fd66e27437327fb7f4662b4894b1ab0034b9de4bc2adcd8b8",
+      "sourceBytes": 53652,
+      "outputSha256": "51cc6ce221ced1fd9e70bdd9144d382b03c70ae7fad64fbbbdb8e04d291a5b53",
+      "outputBytes": 34612,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210233",
+          "name": "Yumemizuki Mizuki: Nightmare Devourer"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Mualani.webp",
+      "sourceIcon": "UI_NameCardIcon_Mualani",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Mualani.png",
+      "sourceSha256": "009cad7656c7dba1ad3bd8d384d82c22948a7f3825a2c378af29bcf4b318bd54",
+      "sourceBytes": 48934,
+      "outputSha256": "7ada5dd4876928c39771578ef44d85ae3dae1c720bbe8d3a924b1bdd62b2afb6",
+      "outputBytes": 33208,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210209",
+          "name": "Mualani: Sharky"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_MusicGame01.webp",
+      "sourceIcon": "UI_NameCardIcon_MusicGame01",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_MusicGame01.png",
+      "sourceSha256": "e796f618ecc07e363924f0edabfaceb6ba11def64cd75355d428d8065c2f8dc2",
+      "sourceBytes": 71894,
+      "outputSha256": "a741335ffd4d5a0871d5531b5563522fb3ccd72d5820fa5b3bbfd17d8f94ce78",
+      "outputBytes": 47866,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210231",
+          "name": "Achievement: Repertoire"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Natlan1.webp",
+      "sourceIcon": "UI_NameCardIcon_Natlan1",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Natlan1.png",
+      "sourceSha256": "b78e6c04648cebc6512f8640dd546f1101698abeb0dbba0681054c377ffb9786",
+      "sourceBytes": 58789,
+      "outputSha256": "0e7658a53c85171f0b1b4d15f6762b7fe6039fee4897e260fb702dde4c3ed973",
+      "outputBytes": 39558,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210215",
+          "name": "Natlan: Return of the Flame"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Natlan2.webp",
+      "sourceIcon": "UI_NameCardIcon_Natlan2",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Natlan2.png",
+      "sourceSha256": "48baba55c3f6fd7a5e6ac074a7b537485ad8e35417a2ec601ff94d8aeca2cb7a",
+      "sourceBytes": 59992,
+      "outputSha256": "56b3fb868deee3d32387d073d521aff4fc992ee703936171a0d2f2619df1f128",
+      "outputBytes": 38160,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210223",
+          "name": "Natlan: Fleeting Dreams"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Natlan3.webp",
+      "sourceIcon": "UI_NameCardIcon_Natlan3",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Natlan3.png",
+      "sourceSha256": "adbdf6364b1f6d64cc2b45227d72b309bee4278d9f6638250e32aba0fd854ee9",
+      "sourceBytes": 61212,
+      "outputSha256": "9cacfadc54e62733e5f85c87267096a5e59eba34454ae6d6868ae13cb4703c83",
+      "outputBytes": 40282,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210238",
+          "name": "Natlan: Draconic Gaze"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Natlan4.webp",
+      "sourceIcon": "UI_NameCardIcon_Natlan4",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Natlan4.png",
+      "sourceSha256": "1a706f6959c2266f680d556ce1bf2650ab93f6e719b56418348f2783cc30b11b",
+      "sourceBytes": 57328,
+      "outputSha256": "913b15e55c18c60abe8ec6848c3a170ac7a2c59d8b260c2f20f4f2224d0e6750",
+      "outputBytes": 39598,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210250",
+          "name": "Natlan: Chasing the Wind"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_NatlanOffering.webp",
+      "sourceIcon": "UI_NameCardIcon_NatlanOffering",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_NatlanOffering.png",
+      "sourceSha256": "229467769b2de75372bfb77ab47f26e1d28a09f5bee8817db60fa6a3a5af86a7",
+      "sourceBytes": 65551,
+      "outputSha256": "d9f1e34e1f4ae03421f05744580cf7855eef09ea78b1237034f09267dd8e910e",
+      "outputBytes": 43290,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210249",
+          "name": "Natlan: Wheel of Flame"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_NatlanSW1.webp",
+      "sourceIcon": "UI_NameCardIcon_NatlanSW1",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_NatlanSW1.png",
+      "sourceSha256": "ebe686d4670a6882364c244eee70de552888787b4820349d73934d77a91a4d7b",
+      "sourceBytes": 52623,
+      "outputSha256": "d68aaca9bc322a755119540da99104d6b8c883d5c01b95c7bed7edb9ae5e80d1",
+      "outputBytes": 33674,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210211",
+          "name": "Natlan: Divine Army"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_NatlanSW2.webp",
+      "sourceIcon": "UI_NameCardIcon_NatlanSW2",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_NatlanSW2.png",
+      "sourceSha256": "a516931b2b005c26d55b21e4e292336dbaf42ac88c67bb490e6871d8f8d5eec0",
+      "sourceBytes": 47627,
+      "outputSha256": "af331696f01b4d817c41bd26a185030097d670bc2524b2c4e56413195d9d0cb5",
+      "outputBytes": 29910,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210212",
+          "name": "Natlan: Fiery Dragon"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Navia.webp",
+      "sourceIcon": "UI_NameCardIcon_Navia",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Navia.png",
+      "sourceSha256": "55195e2279a2e4fda20fdfa768d08fe45d8abe6e0fa12f7a97c49b018846b500",
+      "sourceBytes": 61270,
+      "outputSha256": "2ac4e98d1101c57587dd1e9976d0f6b8d988ad502959c84333562a86f1bd3a15",
+      "outputBytes": 39196,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210184",
+          "name": "Navia: Rosula"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Nefer.webp",
+      "sourceIcon": "UI_NameCardIcon_Nefer",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Nefer.png",
+      "sourceSha256": "3460a31adb18793ada49edafda5b274c92e00f706ec1f9256424b0640c5e4ec9",
+      "sourceBytes": 62104,
+      "outputSha256": "c197e4e461b7f3f07b1507987f2200824ebf981070d58061c7805d5202bb0e1c",
+      "outputBytes": 41628,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210261",
+          "name": "Nefer: Secrets"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Nicole.webp",
+      "sourceIcon": "UI_NameCardIcon_Nicole",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Nicole.png",
+      "sourceSha256": "8534156e2a3e5b4ed46c23925954fca5c5accd86faefebbf19723cafa00dc949",
+      "sourceBytes": 52462,
+      "outputSha256": "286c1ba47e2e4aee1840af9b168f85bcae280308dd6ea8ff984dd10270e601ec",
+      "outputBytes": 32366,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210279",
+          "name": "Nicole: Heavenly Stairway"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_NodKrai1.webp",
+      "sourceIcon": "UI_NameCardIcon_NodKrai1",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_NodKrai1.png",
+      "sourceSha256": "ea79dfe04e089e88512e830f1c69a5c7fa19ed44f6b14c731ce64984583eb247",
+      "sourceBytes": 64703,
+      "outputSha256": "5a217a4d07954897e33b931b5c6bb8a1253beff7155b9e0dec6860d2ff843dcf",
+      "outputBytes": 40488,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210257",
+          "name": "Nod-Krai: Sacred Realm"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_NodKrai2.webp",
+      "sourceIcon": "UI_NameCardIcon_NodKrai2",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_NodKrai2.png",
+      "sourceSha256": "3ba1d443d5a05183eeb19cef548d7a10fef9ea2e566a07b5f72656bb5f245772",
+      "sourceBytes": 55501,
+      "outputSha256": "a20e3909cf10f28a1fea9abf1b7f100f4d0830caa5b4d8cb2f1c41d9f8350b9a",
+      "outputBytes": 37154,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210271",
+          "name": "Nod-Krai: Lantern of Longest Night"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_NodKraiOffering1.webp",
+      "sourceIcon": "UI_NameCardIcon_NodKraiOffering1",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_NodKraiOffering1.png",
+      "sourceSha256": "52e0e98d33fa640ed4932a26da8bac4728a299a39760ef5d66725fb42f4bc95c",
+      "sourceBytes": 214995,
+      "outputSha256": "bc0d0cb789fb392eebd0f5c1c5875a2016130eddeae78f439570694c40dbdfd1",
+      "outputBytes": 140254,
+      "width": 512,
+      "height": 512,
+      "records": [
+        {
+          "recordId": "210256",
+          "name": "Nod-Krai: Moonlight"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_OfferingSilong.webp",
+      "sourceIcon": "UI_NameCardIcon_OfferingSilong",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_OfferingSilong.png",
+      "sourceSha256": "90fdebc5cd068c1eaf948a670dd4186acd6d7674ad191f469d9f7b20d6abf9a0",
+      "sourceBytes": 65196,
+      "outputSha256": "7d618a33e0d073a229a92dbc40510b1b0f84fcb15eb688c251ff7c9f98140d73",
+      "outputBytes": 44078,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210190",
+          "name": "Chenyu: Rainjade Rite"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_OST4.webp",
+      "sourceIcon": "UI_NameCardIcon_OST4",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_OST4.png",
+      "sourceSha256": "01e258050eed3003af8d226b5d808d81b516e9d1238ff3b27edcdf4aa6d57b22",
+      "sourceBytes": 62697,
+      "outputSha256": "19318fd23831d36c8edd5af162d37a37076802e1fe05101e0dfb5c8d9bc4f03e",
+      "outputBytes": 39536,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210192",
+          "name": "Album: The Stellar Moments"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Prune.webp",
+      "sourceIcon": "UI_NameCardIcon_Prune",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Prune.png",
+      "sourceSha256": "6bb8c6d8f0a26a0b4d8aa2abc6134c83fd4f3d5eb2b22fd5eab415c676a86bad",
+      "sourceBytes": 56955,
+      "outputSha256": "b30601c4e6f96e9263adfe1ca0a8f46b3599e709c0a46d4b9657b6244544b9d7",
+      "outputBytes": 37222,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210281",
+          "name": "Prune: Judgment"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_RedandWhite2.webp",
+      "sourceIcon": "UI_NameCardIcon_RedandWhite2",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_RedandWhite2.png",
+      "sourceSha256": "5d6f84ddd7365dc47d2d8c2fd10dc9fce928b70612781bcfed7c710a18e28b2d",
+      "sourceBytes": 65266,
+      "outputSha256": "bdb34aa50fb61082e6bced88081a81008da9904eb4ae3f86db834b5adc36f083",
+      "outputBytes": 43736,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210207",
+          "name": "Celebration: Feast (II)"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_RedandWhite3.webp",
+      "sourceIcon": "UI_NameCardIcon_RedandWhite3",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_RedandWhite3.png",
+      "sourceSha256": "54d42372b0e5cc68ab130f236214fad34ec9829443289ccadfe27817fca0c682",
+      "sourceBytes": 70694,
+      "outputSha256": "d7a3580191f42dd1b4fa5ec5ffdd79fa48e17d2380032bfad2680457db997a8d",
+      "outputBytes": 46360,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210246",
+          "name": "Celebration: Lavish Gala"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_RoleCombat.webp",
+      "sourceIcon": "UI_NameCardIcon_RoleCombat",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_RoleCombat.png",
+      "sourceSha256": "080ce4be8f51454532c3ae90c9facb87c478c5017bac7699a9b4019ebde0bf0f",
+      "sourceBytes": 78420,
+      "outputSha256": "5fc79c5d058b4c0275608120dbf3dba8f3dc94d0fb7cb957241172f04d53cbd6",
+      "outputBytes": 54950,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210203",
+          "name": "Achievement: Poetic Pages"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_RoleCombat2.webp",
+      "sourceIcon": "UI_NameCardIcon_RoleCombat2",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_RoleCombat2.png",
+      "sourceSha256": "9a495d2b77e0590cbb16a758886f7fa5bfdbfb5c29b2011b10f898f59c622bbd",
+      "sourceBytes": 69772,
+      "outputSha256": "359f052b4c2cd2b7ddd6ff4d6a904e07a2470676bdf10c609ccd5918f61f28a1",
+      "outputBytes": 47154,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210214",
+          "name": "Achievement: Feline Fortune"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Sethos.webp",
+      "sourceIcon": "UI_NameCardIcon_Sethos",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Sethos.png",
+      "sourceSha256": "6bc24207806a27cc9450fbb5ca4f0a33c2767d510fb99308c886fb423c4e5c72",
+      "sourceBytes": 57409,
+      "outputSha256": "d9f95ddca82c796a97fd7c8cae6bdfec45caf97f397874f67242e8c6add0753d",
+      "outputBytes": 37552,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210202",
+          "name": "Sethos: Ba Fragment"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Sigewinne.webp",
+      "sourceIcon": "UI_NameCardIcon_Sigewinne",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Sigewinne.png",
+      "sourceSha256": "d59efbfaefced4f4d1452ed854c9feee6b636ec3f12374a8e17a1a2b98c65249",
+      "sourceBytes": 49155,
+      "outputSha256": "ce861c7f10431881d1bf5122b54d565944c8613186a2cdfa569cd1f911f65960",
+      "outputBytes": 30778,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210201",
+          "name": "Sigewinne: Treatment"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_SkirkNew.webp",
+      "sourceIcon": "UI_NameCardIcon_SkirkNew",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_SkirkNew.png",
+      "sourceSha256": "4753ac2658b73baef09caa0ccb662d28c90ff53067a58123c2e066751930ac6f",
+      "sourceBytes": 56539,
+      "outputSha256": "9d6cc30bb8e2e767fa40eefb22ec78d52f526e8aef9fc4bf6fa7d5366c0f49c3",
+      "outputBytes": 35860,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210244",
+          "name": "Skirk: Lone Shadow"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_TowerChallenge.webp",
+      "sourceIcon": "UI_NameCardIcon_TowerChallenge",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_TowerChallenge.png",
+      "sourceSha256": "ae0a1cffca868b27e8276d3f4834e57aca25d8844c435e082121929d5babf8de",
+      "sourceBytes": 63438,
+      "outputSha256": "260541eda279d00052640035c13f753f284d540e460f767b4e2b2c2e4658cd14",
+      "outputBytes": 43770,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210234",
+          "name": "Celebration: Scorch"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Tzz10.webp",
+      "sourceIcon": "UI_NameCardIcon_Tzz10",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Tzz10.png",
+      "sourceSha256": "9cb41b11d1757925767090c7bba4d5bca3dc0ad0d06da5eff57669216482ff50",
+      "sourceBytes": 69045,
+      "outputSha256": "9f18b261f971cedaca44e26f3e4222112f94475dab28a4bb634176cd0d1d1835",
+      "outputBytes": 45694,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210230",
+          "name": "Achievement: Blaze"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Tzz9.webp",
+      "sourceIcon": "UI_NameCardIcon_Tzz9",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Tzz9.png",
+      "sourceSha256": "29786dc884b89445f2c2047510b787ef07ef79884ee5ea93237896a8d31cb979",
+      "sourceBytes": 65416,
+      "outputSha256": "0f295152f036879461a8c3e26cbb5eafcc4525908c71a90f648a88a683c115c4",
+      "outputBytes": 44084,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210197",
+          "name": "Achievement: Whalewrangler"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Varka.webp",
+      "sourceIcon": "UI_NameCardIcon_Varka",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Varka.png",
+      "sourceSha256": "54a390f3f8d213e55a145b906382e267ac27e92045faca7d5c0e6e8ef6bc9a07",
+      "sourceBytes": 62835,
+      "outputSha256": "e4d2c2c640484d4a3bbd1f3240248d6dfbee15fbcdaee508d4ea6fecba81b3fa",
+      "outputBytes": 41420,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210273",
+          "name": "Varka: Lead Wolf"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_WishingPond.webp",
+      "sourceIcon": "UI_NameCardIcon_WishingPond",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_WishingPond.png",
+      "sourceSha256": "814ffaa3ac39baf93606e85be5d098667d0ffe77651312b98e99e9bdc04a21d9",
+      "sourceBytes": 57301,
+      "outputSha256": "76fccab46df1ca23b20e5b5d91228208616249b87d0992e87a2fe27aa07918f7",
+      "outputBytes": 38774,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210198",
+          "name": "Fontaine: Lucine"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Xilonen.webp",
+      "sourceIcon": "UI_NameCardIcon_Xilonen",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Xilonen.png",
+      "sourceSha256": "c2b4720470e021d3f998dd47fbac5a6a433b686ec3538a5a3ceaeb5c8fdfdb9b",
+      "sourceBytes": 53163,
+      "outputSha256": "db67c4b1d54881bbc41a55d46cbd5fd892b5f0bf2fd9927aa9201ff7b8c0135d",
+      "outputBytes": 34252,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210219",
+          "name": "Xilonen: Cue Point"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Yellow.webp",
+      "sourceIcon": "UI_NameCardIcon_Yellow",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Yellow.png",
+      "sourceSha256": "2f7ab0a66ce7be7bc9f4d46aa436908b2a74167809e2d41fc3f2744c2f788b5b",
+      "sourceBytes": 61385,
+      "outputSha256": "fa8be63eb17802c33e843ddf778502e93f7b2528db37f5d36558d837f4819803",
+      "outputBytes": 41294,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210218",
+          "name": "Celebration: Crispy and Sweet"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_YellowV2.webp",
+      "sourceIcon": "UI_NameCardIcon_YellowV2",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_YellowV2.png",
+      "sourceSha256": "60ac7712e91bddd37dce198cfb28d3971652a1732c34dcdd80366fa591261226",
+      "sourceBytes": 64497,
+      "outputSha256": "05aefdccd1ad30dc022597a85e7085397defd4495a995b70207dee1b3c951890",
+      "outputBytes": 42024,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210260",
+          "name": "Celebration: Sublime Flavors"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Ysxf5.webp",
+      "sourceIcon": "UI_NameCardIcon_Ysxf5",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Ysxf5.png",
+      "sourceSha256": "eb97f4f957924db2df0034f87b161f5b9632ce8bf503d6eea02ddfc09407b3d7",
+      "sourceBytes": 60702,
+      "outputSha256": "203e977f25a5d926000fec9f15a3a62f0eb8186b3e452c88f97353ecc51b00bb",
+      "outputBytes": 39608,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210213",
+          "name": "Achievement: Endpoint"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Ysxf6.webp",
+      "sourceIcon": "UI_NameCardIcon_Ysxf6",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Ysxf6.png",
+      "sourceSha256": "f4e0faa5f5f54f27779c230c634b71831dad4d3a4f9041d69d83661923c449d6",
+      "sourceBytes": 63672,
+      "outputSha256": "e47395751b72db604ec013b47fa832f775a498f8d85005ed18da14aa6eba180b",
+      "outputBytes": 40148,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210258",
+          "name": "Achievement: Time Apart"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/UI_NameCardIcon_Zibai.webp",
+      "sourceIcon": "UI_NameCardIcon_Zibai",
+      "provider": "snap-hutao",
+      "sourceUrl": "https://static.snaphutaorp.org/static/raw/NameCardIcon/UI_NameCardIcon_Zibai.png",
+      "sourceSha256": "d854e8060cb4596d142662eb7b6faedb5dfba4a77ff09f69d3bb186f36dbc76f",
+      "sourceBytes": 58249,
+      "outputSha256": "e4f3f14db24f72591e17e86c880278beda05ad9c69fb5ad74f34121746293a4e",
+      "outputBytes": 37838,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "210268",
+          "name": "Zibai: Veiled Vista"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/Ul_Itemlcon_121565.webp",
+      "sourceIcon": "Ul_Itemlcon_121565",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/Ul_Itemlcon_121565.png",
+      "sourceSha256": "48ddfad5e3989619ebe941ded830badf11140ce237176e4c73ee393c43582390",
+      "sourceBytes": 16557,
+      "outputSha256": "88be035e478121890d3a282ed8541388f9085cb0425a33dee7046968a70b67d6",
+      "outputBytes": 10258,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "121565",
+          "name": "Photo With the Little Witches and Their Imaginary Friends"
+        }
+      ]
+    },
+    {
+      "localDestination": "GameData/gi/assets/items/Ul_Itemlcon_121566.webp",
+      "sourceIcon": "Ul_Itemlcon_121566",
+      "provider": "yatta",
+      "sourceUrl": "https://gi.yatta.moe/assets/UI/Ul_Itemlcon_121566.png",
+      "sourceSha256": "b446c661d9e21fcda8d8e2941705a11db92bc8668a7c46d76e2a19abf1e68029",
+      "sourceBytes": 16730,
+      "outputSha256": "50d59d2aae5ceeb08313c154b1c50f9eeb76e6b857e3050de2292c19b2e4f019",
+      "outputBytes": 10610,
+      "width": 256,
+      "height": 256,
+      "records": [
+        {
+          "recordId": "121566",
+          "name": "Photo With the Little Witches and Their Imaginary Friends"
+        }
+      ]
+    }
+  ]
+}

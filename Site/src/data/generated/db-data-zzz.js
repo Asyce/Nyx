@@ -227,12 +227,14 @@
           "id": "zzz-mon-10021",
           "name": "Raven UAV",
           "kind": "monster",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "1 \u2605",
             "type": "Corrupted"
           },
-          "text": "Unknown"
+          "text": "Unknown",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-mon-10022",
@@ -414,12 +416,14 @@
           "id": "zzz-mon-10040",
           "name": "Metamorphosed - Hornet",
           "kind": "monster",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "1 \u2605",
             "type": "Ether Mutants"
           },
-          "text": "CardDesc_10040"
+          "text": "CardDesc_10040",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-mon-19999",
@@ -1712,12 +1716,14 @@
           "id": "zzz-mon-100211",
           "name": "Raven UAV - Activated",
           "kind": "monster",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "1 \u2605",
             "type": "Corrupted"
           },
-          "text": "Unknown"
+          "text": "Unknown",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-mon-100231",
@@ -2669,12 +2675,14 @@
           "id": "zzz-mon-930170",
           "name": "Mecha Golden Bangboo",
           "kind": "monster",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Special"
           },
-          "text": "According to urban legends among Hollow Raiders, Golden Bangboo keep collecting Dennies and Gear Coins in the Hollow for one purpose: extracting the metals needed to crowdfund the construction of the Golden Mecha. (Of course, this \"gold\" is actually a chrome-copper alloy \u2014 only this could provide enough strength to support such a magnificent frame.)\nWhen the Golden Mecha is completed, the Bangboo with the highest contribution will enter the cockpit surrounded by fellow Bangboo, transforming into the Golden Mecha Mechboo to crush enemies who dare attack Golden Bangboo with flashy and powerful combat techniques.\n\"Gold Rush,\" \"Molten Gold Beam,\" \"Golden Missile\"...\nThe skill names might sound weird, but the Bangboo think they're super cool!\n\"Look! It's the Golden Mecha Mechboo!\" \"D\u2014Don't be scared! If we take that thing down, we'll be rich!\"...\nEven though evil Hollow Raiders often treat it like a walking vault, the Bangboo still think it's absolutely awesome!"
+          "text": "According to urban legends among Hollow Raiders, Golden Bangboo keep collecting Dennies and Gear Coins in the Hollow for one purpose: extracting the metals needed to crowdfund the construction of the Golden Mecha. (Of course, this \"gold\" is actually a chrome-copper alloy \u2014 only this could provide enough strength to support such a magnificent frame.)\nWhen the Golden Mecha is completed, the Bangboo with the highest contribution will enter the cockpit surrounded by fellow Bangboo, transforming into the Golden Mecha Mechboo to crush enemies who dare attack Golden Bangboo with flashy and powerful combat techniques.\n\"Gold Rush,\" \"Molten Gold Beam,\" \"Golden Missile\"...\nThe skill names might sound weird, but the Bangboo think they're super cool!\n\"Look! It's the Golden Mecha Mechboo!\" \"D\u2014Don't be scared! If we take that thing down, we'll be rich!\"...\nEven though evil Hollow Raiders often treat it like a walking vault, the Bangboo still think it's absolutely awesome!",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-mon-930171",
@@ -3843,12 +3851,14 @@
           "id": "zzz-item-460",
           "name": "Season Coins",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Currency"
           },
-          "text": "Exclusive currency earned by completing seasonal commissions in Enigma of the Labyrinth. Use it to exchange for various precious Supplies in [Boojee's Store - Season Limited]."
+          "text": "Exclusive currency earned by completing seasonal commissions in Enigma of the Labyrinth. Use it to exchange for various precious Supplies in [Boojee's Store - Season Limited].",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-461",
@@ -14117,78 +14127,92 @@
           "id": "zzz-item-201001",
           "name": "Lv. 1 Energy Recovery Medicine",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "1 \u2605",
             "type": "Battle Resource"
           },
-          "text": "Restores 1% of Max Energy."
+          "text": "Restores 1% of Max Energy.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-201005",
           "name": "Lv. 2 Energy Recovery Medicine",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "2 \u2605",
             "type": "Battle Resource"
           },
-          "text": "Restores 5% of Max Energy."
+          "text": "Restores 5% of Max Energy.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-201010",
           "name": "Lv. 3 Energy Recovery Medicine",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Battle Resource"
           },
-          "text": "Restores 10% of Max Energy."
+          "text": "Restores 10% of Max Energy.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-201050",
           "name": "Lv. 4 Energy Recovery Medicine",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Battle Resource"
           },
-          "text": "Restores 50% of Max Energy."
+          "text": "Restores 50% of Max Energy.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-201101",
           "name": "Lv. 1 Energy Recovery Medicine",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "1 \u2605",
             "type": "Battle Resource"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-201102",
           "name": "Lv. 1 Energy Recovery Medicine",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "2 \u2605",
             "type": "Battle Resource"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-201103",
           "name": "Lv. 1 Energy Recovery Medicine",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Battle Resource"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-201200",
@@ -14205,133 +14229,157 @@
           "id": "zzz-item-201201",
           "name": "Route Guidance Energy Recovery Medicine",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Battle Resource"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-201202",
           "name": "Route Guidance Energy Recovery Medicine",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Battle Resource"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-201203",
           "name": "Route Guidance Energy Recovery Medicine",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Battle Resource"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-201204",
           "name": "Route Guidance Energy Recovery Medicine",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Battle Resource"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-201205",
           "name": "Route Guidance Energy Recovery Medicine",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Battle Resource"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-201206",
           "name": "Route Guidance Energy Recovery Medicine",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Battle Resource"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-201207",
           "name": "Route Guidance Energy Recovery Medicine",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Battle Resource"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-201208",
           "name": "Route Guidance Energy Recovery Medicine",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Battle Resource"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-201209",
           "name": "Route Guidance Energy Recovery Medicine",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Battle Resource"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-201301",
           "name": "Route Guidance Energy Recovery Medicine",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "1 \u2605",
             "type": "Battle Resource"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-201302",
           "name": "Route Guidance Energy Recovery Medicine",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "2 \u2605",
             "type": "Battle Resource"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-201303",
           "name": "Route Guidance Energy Recovery Medicine",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Battle Resource"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-201304",
@@ -14348,34 +14396,40 @@
           "id": "zzz-item-201305",
           "name": "Route Guidance Energy Recovery Medicine",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Battle Resource"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-201306",
           "name": "Route Guidance Energy Recovery Medicine",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Battle Resource"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-201307",
           "name": "Route Guidance Energy Recovery Medicine",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Battle Resource"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-201312",
@@ -14535,67 +14589,79 @@
           "id": "zzz-item-202051",
           "name": "Unknown Trap",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Battle Resource"
           },
-          "text": "\"A trap left by the Hollow government army.\" All squad members lose 10% of their current HP."
+          "text": "\"A trap left by the Hollow government army.\" All squad members lose 10% of their current HP.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-202052",
           "name": "Enhanced Trap",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Battle Resource"
           },
-          "text": "\"A deadly trap left by the Hollow government army.\" All squad members lose 15% of their current HP."
+          "text": "\"A deadly trap left by the Hollow government army.\" All squad members lose 15% of their current HP.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-203001",
           "name": "Lv. 1 Energy Kit",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "1 \u2605",
             "type": "Battle Resource"
           },
-          "text": "Restore all squad member's Energy by 5%."
+          "text": "Restore all squad member's Energy by 5%.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-203005",
           "name": "Lv. 2 Energy Kit",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "2 \u2605",
             "type": "Battle Resource"
           },
-          "text": "Restore all squad member's Energy by 10%."
+          "text": "Restore all squad member's Energy by 10%.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-203010",
           "name": "Lv. 3 Energy Kit",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Battle Resource"
           },
-          "text": "Restore all squad member's Energy by 20%."
+          "text": "Restore all squad member's Energy by 20%.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-203050",
           "name": "Lv. 4 Energy Kit",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Battle Resource"
           },
-          "text": "Restore all squad member's Energy by 50%."
+          "text": "Restore all squad member's Energy by 50%.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-204005",
@@ -14645,23 +14711,27 @@
           "id": "zzz-item-204051",
           "name": "Memory of the Shelled",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Battle Resource"
           },
-          "text": "\"An accidental glimpse into the memory of the Shelled.\" Increases Pressure by 10."
+          "text": "\"An accidental glimpse into the memory of the Shelled.\" Increases Pressure by 10.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-204052",
           "name": "Dreadful Memory of the Shelled",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Battle Resource"
           },
-          "text": "\"An accidental glimpse into the dreadful memory of the Shelled.\" Increases Pressure by 20."
+          "text": "\"An accidental glimpse into the dreadful memory of the Shelled.\" Increases Pressure by 20.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-204053",
@@ -17703,12 +17773,14 @@
           "id": "zzz-item-400026",
           "name": "Pending",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Hollow Item"
           },
-          "text": "Pending"
+          "text": "Pending",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-400027",
@@ -17747,23 +17819,27 @@
           "id": "zzz-item-400030",
           "name": "Pending",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "2 \u2605",
             "type": "Hollow Item"
           },
-          "text": "Pending"
+          "text": "Pending",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-400031",
           "name": "Pending",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Hollow Item"
           },
-          "text": "Pending"
+          "text": "Pending",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-400032",
@@ -17780,78 +17856,92 @@
           "id": "zzz-item-400033",
           "name": "Pending",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Hollow Item"
           },
-          "text": "Pending"
+          "text": "Pending",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-400034",
           "name": "Pending",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "2 \u2605",
             "type": "Hollow Item"
           },
-          "text": "Pending"
+          "text": "Pending",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-400035",
           "name": "Bangboo Temporary Access",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Hollow Item"
           },
-          "text": "Rina gave you temporary access permissions to her Bangboo. You can switch between Drusilla and Anastella's control permissions."
+          "text": "Rina gave you temporary access permissions to her Bangboo. You can switch between Drusilla and Anastella's control permissions.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-400036",
           "name": "Pending",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "2 \u2605",
             "type": "Hollow Item"
           },
-          "text": "Pending"
+          "text": "Pending",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-400037",
           "name": "Pending",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Hollow Item"
           },
-          "text": "Pending"
+          "text": "Pending",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-400038",
           "name": "Pending",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "2 \u2605",
             "type": "Hollow Item"
           },
-          "text": "Pending"
+          "text": "Pending",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-400039",
           "name": "Pending",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Hollow Item"
           },
-          "text": "Pending"
+          "text": "Pending",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-400040",
@@ -21333,12 +21423,14 @@
           "id": "zzz-item-900005",
           "name": "Buff for Display",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "1 \u2605",
             "type": "Info"
           },
-          "text": ""
+          "text": "",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1000000",
@@ -27480,56 +27572,66 @@
           "id": "zzz-item-1100001",
           "name": "Resistance Decline",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "Traps become more deadly."
+          "text": "Traps become more deadly.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1100003",
           "name": "Resonium Repulsion",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "When selecting Resonium, you have fewer choices."
+          "text": "When selecting Resonium, you have fewer choices.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1100004",
           "name": "Frightened",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "When Pressure overloads, all squad members lose HP."
+          "text": "When Pressure overloads, all squad members lose HP.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1100006",
           "name": "Energizing Effect",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "Enemy Daze diminishes over time, but the Stun DMG Multiplier is increased."
+          "text": "Enemy Daze diminishes over time, but the Stun DMG Multiplier is increased.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1100007",
           "name": "Demotivation",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "Off-field characters gradually lose Energy."
+          "text": "Off-field characters gradually lose Energy.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1100010",
@@ -27546,188 +27648,222 @@
           "id": "zzz-item-1100011",
           "name": "Suspicion",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "When Pressure increases, there is a chance your Pressure either does not increase or increases by a lot."
+          "text": "When Pressure increases, there is a chance your Pressure either does not increase or increases by a lot.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1100012",
           "name": "Rampage",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "The Bangboo merchant offers discounts, but also fewer items."
+          "text": "The Bangboo merchant offers discounts, but also fewer items.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1100013",
           "name": "Self Reassurance",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "You receive Gear Coins when Pressure increases, but can only possess up to 3,333 Coins."
+          "text": "You receive Gear Coins when Pressure increases, but can only possess up to 3,333 Coins.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1100014",
           "name": "Assimilation",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "Agents gain less Pressure, but lose HP when obtaining Resonia."
+          "text": "Agents gain less Pressure, but lose HP when obtaining Resonia.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1100017",
           "name": "Toxic Dependency",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "HP is restored at the conclusion of combat, but Pressure is increased."
+          "text": "HP is restored at the conclusion of combat, but Pressure is increased.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1100018",
           "name": "Weakened",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "Dodge has a longer cooldown."
+          "text": "Dodge has a longer cooldown.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1100019",
           "name": "Exhausted",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Bless"
           },
-          "text": "Decreases HP when exploring through the monitor. In combat, on-field characters will lose HP gradually."
+          "text": "Decreases HP when exploring through the monitor. In combat, on-field characters will lose HP gradually.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1100020",
           "name": "Shadow of Horror",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Bless"
           },
-          "text": "The Dead End Butcher deals 20% more DMG. He restores Daze and a small amount of HP when he hits squad members."
+          "text": "The Dead End Butcher deals 20% more DMG. He restores Daze and a small amount of HP when he hits squad members.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1100021",
           "name": "Megalophobia",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Bless"
           },
-          "text": "Corruption Complex deals 30% more DMG. Attacks from allies no longer accumulate Daze, but breaking weak spots inflicts a substantial amount of Daze."
+          "text": "Corruption Complex deals 30% more DMG. Attacks from allies no longer accumulate Daze, but breaking weak spots inflicts a substantial amount of Daze.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1100022",
           "name": "Uncanny Valley",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Bless"
           },
-          "text": "Twin Marionettes deal 50% more DMG and revive much faster."
+          "text": "Twin Marionettes deal 50% more DMG and revive much faster.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1100023",
           "name": "Harshness",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "Bangboo merchants only sell S-Rank items."
+          "text": "Bangboo merchants only sell S-Rank items.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1100024",
           "name": "Insatiable Greed",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "Gear Coin events generate more Gear Coins but also inflict more Pressure."
+          "text": "Gear Coin events generate more Gear Coins but also inflict more Pressure.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1100025",
           "name": "Overcaution",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "Upon entering the next floor and starting the final battle, lose 300 Gear Coins and recover 10% of Max HP for all squad members. However, failure to pay will immediately deduct 15% Max HP from all squad members."
+          "text": "Upon entering the next floor and starting the final battle, lose 300 Gear Coins and recover 10% of Max HP for all squad members. However, failure to pay will immediately deduct 15% Max HP from all squad members.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1100026",
           "name": "Destructive Urge",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "Rest Areas and Swift Supplies no longer recover HP. Instead, after each battle, all squad members recover 3% of Max HP. Before the next floor and final battle, recover 10% of Max HP."
+          "text": "Rest Areas and Swift Supplies no longer recover HP. Instead, after each battle, all squad members recover 3% of Max HP. Before the next floor and final battle, recover 10% of Max HP.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1100027",
           "name": "Grasping Fervor",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "Purchasing items from Bangboo merchants costs HP instead of Gear Coins."
+          "text": "Purchasing items from Bangboo merchants costs HP instead of Gear Coins.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1100029",
           "name": "Primal Malice",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Bless"
           },
-          "text": "Typhon Slugger deals 30% more DMG and has Immunity to all Attribute Anomalies."
+          "text": "Typhon Slugger deals 30% more DMG and has Immunity to all Attribute Anomalies.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1100030",
           "name": "Parasitic Mycose",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Bless"
           },
-          "text": "When an Agent's HP is above 50%, HP recovery speed is significantly reduced. When an Agent's HP is below 50%, HP recovery speed is significantly increased."
+          "text": "When an Agent's HP is above 50%, HP recovery speed is significantly reduced. When an Agent's HP is below 50%, HP recovery speed is significantly increased.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1100101",
@@ -28679,78 +28815,92 @@
           "id": "zzz-item-1101005",
           "name": "Sharpened Perception",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "Both enemies and allies gain a CRIT Rate bonus."
+          "text": "Both enemies and allies gain a CRIT Rate bonus.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1101006",
           "name": "Sharpened Pain",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "Both enemies and allies gain a CRIT DMG bonus."
+          "text": "Both enemies and allies gain a CRIT DMG bonus.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1101007",
           "name": "Radicalize",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "Both enemies and allies deal more DMG."
+          "text": "Both enemies and allies deal more DMG.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1101008",
           "name": "Scabbed Infection",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "Enemies gain Anomaly Buildup RES but lose Daze RES."
+          "text": "Enemies gain Anomaly Buildup RES but lose Daze RES.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1101009",
           "name": "Hardening Infection",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "Enemies gain Daze RES but have their DEF reduced."
+          "text": "Enemies gain Daze RES but have their DEF reduced.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1101010",
           "name": "Stress Infection",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "Enemy Stun duration is reduced, and Max HP is decreased."
+          "text": "Enemy Stun duration is reduced, and Max HP is decreased.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1101011",
           "name": "Crystal Infection",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "Enemy Stun DMG Multiplier and Anomaly Buildup RES is reduced."
+          "text": "Enemy Stun DMG Multiplier and Anomaly Buildup RES is reduced.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1101101",
@@ -29240,12 +29390,14 @@
           "id": "zzz-item-1102001",
           "name": "Super Homerun",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "No more path ahead. You have to leave the Hollow."
+          "text": "No more path ahead. You have to leave the Hollow.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1102101",
@@ -29526,309 +29678,365 @@
           "id": "zzz-item-1106001",
           "name": "Metabolic Trauma",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "You can no longer recover HP."
+          "text": "You can no longer recover HP.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1106002",
           "name": "Gear Allergy",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "You can no longer obtain Gear Coins."
+          "text": "You can no longer obtain Gear Coins.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1106003",
           "name": "Delirium",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "Significantly increases gained Pressure."
+          "text": "Significantly increases gained Pressure.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1110001",
           "name": "<color=#FFAF2C>Power Up I</color>",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "Protagonist HP +20, ATK +2"
+          "text": "Protagonist HP +20, ATK +2",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1110002",
           "name": "<color=#FFAF2C>Healing Hands</color>",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "HP +2 when the protagonist defeats an enemy with an attack"
+          "text": "HP +2 when the protagonist defeats an enemy with an attack",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1110003",
           "name": "<color=#FFAF2C>Power Up II</color>",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "Protagonist HP +20, ATK +2"
+          "text": "Protagonist HP +20, ATK +2",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1110004",
           "name": "<color=#FFAF2C>CRIT Enhancement</color>",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "When the Protagonist attacks enemies, there's a 25% chance to trigger a critical hit, dealing double DMG"
+          "text": "When the Protagonist attacks enemies, there's a 25% chance to trigger a critical hit, dealing double DMG",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1110005",
           "name": "<color=#FFAF2C>Power Boost</color>",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "Protagonist ATK +7"
+          "text": "Protagonist ATK +7",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1110006",
           "name": "<color=#FFAF2C>Explosive Stamina</color>",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "Immediately obtain 8 bombs"
+          "text": "Immediately obtain 8 bombs",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1110007",
           "name": "<color=#FFAF2C>Explosion Expert</color>",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "Bombs deal +10 DMG to enemies, explosion length +2"
+          "text": "Bombs deal +10 DMG to enemies, explosion length +2",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1110008",
           "name": "<color=#FFAF2C>High Explosives</color>",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "Protagonist gains +50 HP."
+          "text": "Protagonist gains +50 HP.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1110009",
           "name": "<color=#FFAF2C>Detonate and Dominate</color>",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "Bombs will explode immediately. Protagonist ATK +1 when detonating a bomb"
+          "text": "Bombs will explode immediately. Protagonist ATK +1 when detonating a bomb",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1110010",
           "name": "<color=#FFAF2C>Blast Suit</color>",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "Take no DMG from detonations, instead recovering 5 HP"
+          "text": "Take no DMG from detonations, instead recovering 5 HP",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1110011",
           "name": "<color=#FFAF2C>Legacy Inheritance</color>",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "When taking DMG, generate 1 \u2013 2 Gear Coin Tiles of 50 coins."
+          "text": "When taking DMG, generate 1 \u2013 2 Gear Coin Tiles of 50 coins.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1110012",
           "name": "<color=#FFAF2C>Shop Revamp</color>",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "Shopkeeper ATK +20, number of items for sale is doubled in the shop"
+          "text": "Shopkeeper ATK +20, number of items for sale is doubled in the shop",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1110013",
           "name": "<color=#FFAF2C>Windfall</color>",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "Automatically spend HP to purchase items upon running out of coins, for 1 HP per 50 coins"
+          "text": "Automatically spend HP to purchase items upon running out of coins, for 1 HP per 50 coins",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1110014",
           "name": "<color=#FFAF2C>Path to Wealth</color>",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "Immediately generates a large number of items for sale and coins"
+          "text": "Immediately generates a large number of items for sale and coins",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1110015",
           "name": "<color=#FFAF2C>Cash Conversion</color>",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "20% chance when picking up Gear Coins: Protagonist ATK +1"
+          "text": "20% chance when picking up Gear Coins: Protagonist ATK +1",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1110016",
           "name": "<color=#FFAF2C>Blessing or Curse I</color>",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "Upon stepping on a blank tile for the first time, 40% chance to +1 HP"
+          "text": "Upon stepping on a blank tile for the first time, 40% chance to +1 HP",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1110017",
           "name": "<color=#FFAF2C>Blessing or Curse II</color>",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "EXP +5 when the protagonist attacks, but starting from the next level, enemy HP +10"
+          "text": "EXP +5 when the protagonist attacks, but starting from the next level, enemy HP +10",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1110018",
           "name": "<color=#FFAF2C>Blessing or Curse III</color>",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "EXP +20 when exchanging supplies with autonomous robot, but starting from the next level, enemy ATK +8"
+          "text": "EXP +20 when exchanging supplies with autonomous robot, but starting from the next level, enemy ATK +8",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1110019",
           "name": "<color=#FFAF2C>Blessing or Curse IV</color>",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "EXP +40 upon killing a monster, but starting from the next level, enemy HP +20"
+          "text": "EXP +40 upon killing a monster, but starting from the next level, enemy HP +20",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1110020",
           "name": "<color=#FFAF2C>Quick Learner</color>",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "+400% EXP gained"
+          "text": "+400% EXP gained",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1110021",
           "name": "<color=#FFAF2C>Friendship's Call</color>",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "Immediately obtain a random Bangboo"
+          "text": "Immediately obtain a random Bangboo",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1110022",
           "name": "<color=#FFAF2C>Legend Reborn I</color>",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "Mysterious equipment marked in yellow and surrounded by enemies appears on the floor"
+          "text": "Mysterious equipment marked in yellow and surrounded by enemies appears on the floor",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1110023",
           "name": "<color=#FFAF2C>Legend Reborn II</color>",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "Mysterious equipment marked in yellow and surrounded by thorns appears on the floor"
+          "text": "Mysterious equipment marked in yellow and surrounded by thorns appears on the floor",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1110024",
           "name": "<color=#FFAF2C>Legend Reborn III</color>",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "Mysterious equipment marked in yellow and waiting to be pulled out appears on the floor"
+          "text": "Mysterious equipment marked in yellow and waiting to be pulled out appears on the floor",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1110025",
           "name": "<color=#FFAF2C>Chop Chop Goodness</color>",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Bless"
           },
-          "text": "Immediately obtain Bagboo"
+          "text": "Immediately obtain Bagboo",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1200001",
@@ -38655,23 +38863,27 @@
           "id": "zzz-item-1359001",
           "name": "Default Theme",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Theme"
           },
-          "text": "Choose this option to display your Function Menu interface in the standard theme."
+          "text": "Choose this option to display your Function Menu interface in the standard theme.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1359002",
           "name": "Not Equipped",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Pendant"
           },
-          "text": "Choose this option to remove all pendants from your Function Menu interface."
+          "text": "Choose this option to remove all pendants from your Function Menu interface.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-1359003",
@@ -40272,45 +40484,53 @@
           "id": "zzz-item-2090034",
           "name": "\"PSBoo\" Themed Console",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Gift"
           },
-          "text": "Obtained with the purchase of the PS5 physical game disc"
+          "text": "Obtained with the purchase of the PS5 physical game disc",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-2090035",
           "name": "\"PSBoo\" Commemorative Console",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Commission Item"
           },
-          "text": "Obtained with the purchase of the PS5 physical game disc"
+          "text": "Obtained with the purchase of the PS5 physical game disc",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-2090036",
           "name": "\"XBoo\" Themed Console",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Gift"
           },
-          "text": "Obtained with the purchase of the Xbox physical game disc"
+          "text": "Obtained with the purchase of the Xbox physical game disc",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-2090037",
           "name": "\"XBoo\" Commemorative Console",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Commission Item"
           },
-          "text": "Obtained with the purchase of the Xbox physical game disc"
+          "text": "Obtained with the purchase of the Xbox physical game disc",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-2100001",
@@ -40652,34 +40872,40 @@
           "id": "zzz-item-3031551",
           "name": "Belle and Pyrois' Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Obtained after unlocking Pyrois' Mindscape: Chains of Fate."
+          "text": "Obtained after unlocking Pyrois' Mindscape: Chains of Fate.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3061551",
           "name": "Rekindled Without a Name",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Obtained after unlocking Pyrois' Mindscape: Morning Star at Dawn."
+          "text": "Obtained after unlocking Pyrois' Mindscape: Morning Star at Dawn.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3110310",
           "name": "Lil Sassy",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Dress"
           },
-          "text": "Nicole's outfit."
+          "text": "Nicole's outfit.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3110311",
@@ -40718,12 +40944,14 @@
           "id": "zzz-item-3111910",
           "name": "Ellen Scissorhands",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Dress"
           },
-          "text": "Ellen's outfit."
+          "text": "Ellen's outfit.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3111911",
@@ -40740,12 +40968,14 @@
           "id": "zzz-item-3112610",
           "name": "Hidden Nightfade",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Dress"
           },
-          "text": "Jane's outfit."
+          "text": "Jane's outfit.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3112611",
@@ -40762,12 +40992,14 @@
           "id": "zzz-item-3113110",
           "name": "Scarlet Rock",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Dress"
           },
-          "text": "Astra Yao's outfit."
+          "text": "Astra Yao's outfit.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3113111",
@@ -40784,12 +41016,14 @@
           "id": "zzz-item-3113310",
           "name": "Fluttering Violet",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Dress"
           },
-          "text": "Vivian's Outfit."
+          "text": "Vivian's Outfit.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3113311",
@@ -40806,12 +41040,14 @@
           "id": "zzz-item-3113710",
           "name": "Summit of Clouds",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Dress"
           },
-          "text": "Yixuan's Outfit."
+          "text": "Yixuan's Outfit.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3113711",
@@ -40828,12 +41064,14 @@
           "id": "zzz-item-3114010",
           "name": "Celestian Etiquette",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Dress"
           },
-          "text": "Alice's Outfit."
+          "text": "Alice's Outfit.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3114011",
@@ -40850,12 +41088,14 @@
           "id": "zzz-item-3114110",
           "name": "Tanuki Under the Shade",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Dress"
           },
-          "text": "Yuzuha's Outfit."
+          "text": "Yuzuha's Outfit.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3114111",
@@ -40872,12 +41112,14 @@
           "id": "zzz-item-3114210",
           "name": "Hundred Flavors",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Dress"
           },
-          "text": "Pan Yinhu's Outfit."
+          "text": "Pan Yinhu's Outfit.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3114211",
@@ -40894,12 +41136,14 @@
           "id": "zzz-item-3114310",
           "name": "Clouddrift Illumination",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Dress"
           },
-          "text": "Ye Shunguang's outfit."
+          "text": "Ye Shunguang's outfit.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3114311",
@@ -40916,12 +41160,14 @@
           "id": "zzz-item-3114410",
           "name": "Loyal Wild Soul",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Dress"
           },
-          "text": "Komano Manato's Outfit."
+          "text": "Komano Manato's Outfit.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3114411",
@@ -40938,12 +41184,14 @@
           "id": "zzz-item-3114910",
           "name": "Dreams on Loop",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Dress"
           },
-          "text": "Sunna's Outfit."
+          "text": "Sunna's Outfit.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3114911",
@@ -41026,11 +41274,13 @@
           "id": "zzz-item-3115891",
           "name": "\"Moonlit Shore\" Outfit Set",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "4 \u2605"
           },
-          "text": "Purchase to unlock two outfits for Remielle: Moonlight Whispers and Seashade Pas Seul."
+          "text": "Purchase to unlock two outfits for Remielle: Moonlight Whispers and Seashade Pas Seul.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3115911",
@@ -41047,23 +41297,27 @@
           "id": "zzz-item-3131551",
           "name": "Wise and Pyrois' Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Obtained after unlocking Pyrois' Mindscape: Chains of Fate."
+          "text": "Obtained after unlocking Pyrois' Mindscape: Chains of Fate.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3161551",
           "name": "Unfading Embers",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Obtained after unlocking Pyrois' Mindscape: Morning Star at Dawn."
+          "text": "Obtained after unlocking Pyrois' Mindscape: Morning Star at Dawn.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3200000",
@@ -41564,23 +41818,27 @@
           "id": "zzz-item-3202017",
           "name": "The Best Gift",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Profile"
           },
-          "text": "An avatar reward for the limited-time event \"Marcel Anniversary Gift.\"\nLimited-time reward."
+          "text": "An avatar reward for the limited-time event \"Marcel Anniversary Gift.\"\nLimited-time reward.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3202018",
           "name": "Tempered Crown",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Profile"
           },
-          "text": "Earn a 2-Star rating in \"Deadly Assault: Adversity Mode\" to automatically unlock the limited-time avatar reward."
+          "text": "Earn a 2-Star rating in \"Deadly Assault: Adversity Mode\" to automatically unlock the limited-time avatar reward.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3203001",
@@ -42202,12 +42460,14 @@
           "id": "zzz-item-3300001",
           "name": "Honorary Citizen",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "The standard namecard for Inter-Knot users."
+          "text": "The standard namecard for Inter-Knot users.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3300002",
@@ -42587,12 +42847,14 @@
           "id": "zzz-item-3301017",
           "name": "S\u0101n-Z: Undying Spark",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Calling Card"
           },
-          "text": "Commemorative namecard for the limited-time event \"Filmgoer Thank-You Gift.\""
+          "text": "Commemorative namecard for the limited-time event \"Filmgoer Thank-You Gift.\"",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3301018",
@@ -42697,12 +42959,14 @@
           "id": "zzz-item-3301027",
           "name": "Countless Nychthemerons",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Calling Card"
           },
-          "text": "Commemorative namecard for the limited-time event \"Filmgoer Thank-You Gift.\""
+          "text": "Commemorative namecard for the limited-time event \"Filmgoer Thank-You Gift.\"",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3301028",
@@ -42862,1255 +43126,1483 @@
           "id": "zzz-item-3311011",
           "name": "Anby's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Anby's Mindscape: Well-Disciplined"
+          "text": "Get by unlocking Anby's Mindscape: Well-Disciplined",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311021",
           "name": "Nekomata's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Nekomata's Mindscape: Curious Left Tail"
+          "text": "Get by unlocking Nekomata's Mindscape: Curious Left Tail",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311031",
           "name": "Nicole's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Nicole's Mindscape: A Hare's Cunning"
+          "text": "Get by unlocking Nicole's Mindscape: A Hare's Cunning",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311041",
           "name": "Soldier 11's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Soldier 11's Mindscape: Elite Soldier"
+          "text": "Get by unlocking Soldier 11's Mindscape: Elite Soldier",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311051",
           "name": "Yidhari's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Yidhari's Mindscape: A Story Without an Audience"
+          "text": "Get by unlocking Yidhari's Mindscape: A Story Without an Audience",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311061",
           "name": "Corin's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Corin's Mindscape: Amateur Maid"
+          "text": "Get by unlocking Corin's Mindscape: Amateur Maid",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311071",
           "name": "Caesar's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Caesar's Mindscape: Absolute Trust"
+          "text": "Get by unlocking Caesar's Mindscape: Absolute Trust",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311081",
           "name": "Billy's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Billy's Mindscape: Teachings of the Starlight Knights"
+          "text": "Get by unlocking Billy's Mindscape: Teachings of the Starlight Knights",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311091",
           "name": "Hoshimi Miyabi's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Hoshimi Miyabi's Mindscape: Martial Discipline"
+          "text": "Get by unlocking Hoshimi Miyabi's Mindscape: Martial Discipline",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311101",
           "name": "Koleda's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Koleda's Mindscape: \"Mind Your Own!\""
+          "text": "Get by unlocking Koleda's Mindscape: \"Mind Your Own!\"",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311111",
           "name": "Anton's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Anton's Mindscape: Rotational Training"
+          "text": "Get by unlocking Anton's Mindscape: Rotational Training",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311121",
           "name": "Ben's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Ben's Mindscape: Careful Accounting"
+          "text": "Get by unlocking Ben's Mindscape: Careful Accounting",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311131",
           "name": "Soukaku's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Soukaku's Mindscape: Attendance Meal Allowance"
+          "text": "Get by unlocking Soukaku's Mindscape: Attendance Meal Allowance",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311141",
           "name": "Lycaon's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Lycaon's Mindscape: Attendant Training"
+          "text": "Get by unlocking Lycaon's Mindscape: Attendant Training",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311151",
           "name": "Lucy's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Lucy's Mindscape: Ironfist Overseer"
+          "text": "Get by unlocking Lucy's Mindscape: Ironfist Overseer",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311161",
           "name": "Lighter's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Lighter's Mindscape: Mercenary Leader"
+          "text": "Get by unlocking Lighter's Mindscape: Mercenary Leader",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311171",
           "name": "Burnice's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Burnice's Mindscape: Optimistic by Nature"
+          "text": "Get by unlocking Burnice's Mindscape: Optimistic by Nature",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311181",
           "name": "Grace's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Grace's Mindscape: Chief Mechanic"
+          "text": "Get by unlocking Grace's Mindscape: Chief Mechanic",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311191",
           "name": "Ellen's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Ellen's Mindscape: Overtime-Intolerant"
+          "text": "Get by unlocking Ellen's Mindscape: Overtime-Intolerant",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311201",
           "name": "Asaba Harumasa's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Asaba Harumasa's Mindscape: White Lies"
+          "text": "Get by unlocking Asaba Harumasa's Mindscape: White Lies",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311211",
           "name": "Rina's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Rina's Mindscape: Head Maid's Specialty"
+          "text": "Get by unlocking Rina's Mindscape: Head Maid's Specialty",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311221",
           "name": "Tsukishiro Yanagi's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Tsukishiro Yanagi's Mindscape: Tsukishiro Style Management"
+          "text": "Get by unlocking Tsukishiro Yanagi's Mindscape: Tsukishiro Style Management",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311241",
           "name": "Zhu Yuan's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Zhu Yuan's Mindscape: Public Security Special Training"
+          "text": "Get by unlocking Zhu Yuan's Mindscape: Public Security Special Training",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311251",
           "name": "Qingyi's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Qingyi's Mindscape: Drink Hot Water"
+          "text": "Get by unlocking Qingyi's Mindscape: Drink Hot Water",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311261",
           "name": "Jane's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Jane's Mindscape: Anonymity"
+          "text": "Get by unlocking Jane's Mindscape: Anonymity",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311271",
           "name": "Seth's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Seth's Mindscape: Slow Reflexes"
+          "text": "Get by unlocking Seth's Mindscape: Slow Reflexes",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311281",
           "name": "Piper's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Piper's Mindscape: Truck Expert"
+          "text": "Get by unlocking Piper's Mindscape: Truck Expert",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311291",
           "name": "Hugo's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Hugo's Mindscape: Fruit of the Poisonous Tree"
+          "text": "Get by unlocking Hugo's Mindscape: Fruit of the Poisonous Tree",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311301",
           "name": "Orphie & Magus' Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Orphie & Magus' Mindscape: \"Tactics Manual\""
+          "text": "Get by unlocking Orphie & Magus' Mindscape: \"Tactics Manual\"",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311311",
           "name": "Astra Yao's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Astra Yao's Mindscape: Interwoven Staff Notation"
+          "text": "Get by unlocking Astra Yao's Mindscape: Interwoven Staff Notation",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311321",
           "name": "Evelyn's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Evelyn's Mindscape: Metamorphosis"
+          "text": "Get by unlocking Evelyn's Mindscape: Metamorphosis",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311331",
           "name": "Vivian's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Vivian's Mindscape: \"Another and the Same\""
+          "text": "Get by unlocking Vivian's Mindscape: \"Another and the Same\"",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311341",
           "name": "Zhao's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Zhao's Mindscape: Frostveil Blade"
+          "text": "Get by unlocking Zhao's Mindscape: Frostveil Blade",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311351",
           "name": "Pulchra's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Pulchra's Mindscape: Territorial"
+          "text": "Get by unlocking Pulchra's Mindscape: Territorial",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311361",
           "name": "Trigger's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Trigger's Mindscape: \"Homecoming\""
+          "text": "Get by unlocking Trigger's Mindscape: \"Homecoming\"",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311371",
           "name": "Yixuan's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Yixuan's Mindscape: Cycle of Yin and Yang"
+          "text": "Get by unlocking Yixuan's Mindscape: Cycle of Yin and Yang",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311381",
           "name": "Soldier 0 - Anby's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Soldier 0 - Anby's Mindscape: Past Glory"
+          "text": "Get by unlocking Soldier 0 - Anby's Mindscape: Past Glory",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311391",
           "name": "Ju Fufu's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Ju Fufu's Mindscape: Righteous Young Hero"
+          "text": "Get by unlocking Ju Fufu's Mindscape: Righteous Young Hero",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311401",
           "name": "Alice's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Alice's Mindscape: Symmetrism"
+          "text": "Get by unlocking Alice's Mindscape: Symmetrism",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311411",
           "name": "Ukinami Yuzuha's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Ukinami Yuzuha's Mindscape: Fairytale of the Haunted City."
+          "text": "Get by unlocking Ukinami Yuzuha's Mindscape: Fairytale of the Haunted City.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311421",
           "name": "Pan Yinhu's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Pan Yinhu's Mindscape: Non-Meridian Pressure Point"
+          "text": "Get by unlocking Pan Yinhu's Mindscape: Non-Meridian Pressure Point",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311431",
           "name": "Ye Shunguang's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Ye Shunguang's Mindscape: Swordswoman"
+          "text": "Get by unlocking Ye Shunguang's Mindscape: Swordswoman",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311441",
           "name": "Komano Manato's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Komano Manato's Mindscape: Enter the Realm of Urban Legends"
+          "text": "Get by unlocking Komano Manato's Mindscape: Enter the Realm of Urban Legends",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311451",
           "name": "Lucia's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Lucia's Mindscape: The Best Partner"
+          "text": "Get by unlocking Lucia's Mindscape: The Best Partner",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311461",
           "name": "Seed's namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Seed's Mindscape: \"A Story of Sprouting\""
+          "text": "Get by unlocking Seed's Mindscape: \"A Story of Sprouting\"",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311471",
           "name": "Banyue's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Banyue's Mindscape: Ignorance Binds Like Chains"
+          "text": "Get by unlocking Banyue's Mindscape: Ignorance Binds Like Chains",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311481",
           "name": "Dialyn's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Dialyn's Mindscape: Call from the Hollow"
+          "text": "Get by unlocking Dialyn's Mindscape: Call from the Hollow",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311491",
           "name": "Sunna's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Sunna's Mindscape: \"Transformation Apple\""
+          "text": "Get by unlocking Sunna's Mindscape: \"Transformation Apple\"",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311501",
           "name": "Aria's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Aria's Mindscape: Delulu"
+          "text": "Get by unlocking Aria's Mindscape: Delulu",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311511",
           "name": "Nangong Yu's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Nangong Yu's Mindscape: Chips on the Scales"
+          "text": "Get by unlocking Nangong Yu's Mindscape: Chips on the Scales",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311521",
           "name": "Cissia's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Cissia's Mindscape: Chains and a Warm Nest"
+          "text": "Get by unlocking Cissia's Mindscape: Chains and a Warm Nest",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311531",
           "name": "Starlight - Billy's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Starlight - Billy's Mindscape: Knight's Chivalry"
+          "text": "Get by unlocking Starlight - Billy's Mindscape: Knight's Chivalry",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311541",
           "name": "Promeia's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Promeia's Mindscape: Cruel Moonlight"
+          "text": "Get by unlocking Promeia's Mindscape: Cruel Moonlight",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311561",
           "name": "Velina's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Velina's Mindscape: Conquest by Etiquette"
+          "text": "Get by unlocking Velina's Mindscape: Conquest by Etiquette",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311571",
           "name": "Norma's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Norma's Mindscape: Natural-Born Villain Paradox"
+          "text": "Get by unlocking Norma's Mindscape: Natural-Born Villain Paradox",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311581",
           "name": "Remielle's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Remielle's Mindscape: The Garden of Diverging Time"
+          "text": "Get by unlocking Remielle's Mindscape: The Garden of Diverging Time",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3311591",
           "name": "Sigrid's Namecard",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Sigrid's Mindscape: Protector of Miracles"
+          "text": "Get by unlocking Sigrid's Mindscape: Protector of Miracles",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321011",
           "name": "\"Ending Theme\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Anby's Mindscape: Charging Field"
+          "text": "Get by unlocking Anby's Mindscape: Charging Field",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321021",
           "name": "\"Patience of a Cat\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Nekomata's Mindscape: Predator Lineage"
+          "text": "Get by unlocking Nekomata's Mindscape: Predator Lineage",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321031",
           "name": "\"Precise Focus\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Nicole's Mindscape: Corrupting Energy Field"
+          "text": "Get by unlocking Nicole's Mindscape: Corrupting Energy Field",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321041",
           "name": "\"Trust Your Life\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Soldier 11's Mindscape: Scorching Flow"
+          "text": "Get by unlocking Soldier 11's Mindscape: Scorching Flow",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321051",
           "name": "One of a Kind",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Yidhari's Mindscape: At Last, a Peaceful Dream"
+          "text": "Get by unlocking Yidhari's Mindscape: At Last, a Peaceful Dream",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321061",
           "name": "\"Good Friends\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Corin's Mindscape: Accumulated Release"
+          "text": "Get by unlocking Corin's Mindscape: Accumulated Release",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321071",
           "name": "\"After the Battle\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Caesar's Mindscape: Overlord's Will"
+          "text": "Get by unlocking Caesar's Mindscape: Overlord's Will",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321081",
           "name": "\"Perfect Pose\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Billy's Mindscape: Starlight Hero"
+          "text": "Get by unlocking Billy's Mindscape: Starlight Hero",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321091",
           "name": "\"Today's Training\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Hoshimi Miyabi's Mindscape: Prodigious Talent"
+          "text": "Get by unlocking Hoshimi Miyabi's Mindscape: Prodigious Talent",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321101",
           "name": "\"Pink Bear\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Koleda's Mindscape: Saturated Blast"
+          "text": "Get by unlocking Koleda's Mindscape: Saturated Blast",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321111",
           "name": "\"Everyone Get Fired Up!\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Anton's Mindscape: Break the Limit"
+          "text": "Get by unlocking Anton's Mindscape: Break the Limit",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321121",
           "name": "\"Careful Contemplation\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Ben's Mindscape: Wild Spirit"
+          "text": "Get by unlocking Ben's Mindscape: Wild Spirit",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321131",
           "name": "\"Take a Break\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Soukaku's Mindscape: Northern Wind"
+          "text": "Get by unlocking Soukaku's Mindscape: Northern Wind",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321141",
           "name": "\"Thank You For Requesting Me\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Lycaon's Mindscape: Ruthless Hunter"
+          "text": "Get by unlocking Lycaon's Mindscape: Ruthless Hunter",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321151",
           "name": "\"Little Boars, Coming Right Up\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Lucy's Mindscape: Fierce Fangs of Fire"
+          "text": "Get by unlocking Lucy's Mindscape: Fierce Fangs of Fire",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321161",
           "name": "\"Black Boxing Gloves\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Lighter's Mindscape: Survivor"
+          "text": "Get by unlocking Lighter's Mindscape: Survivor",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321171",
           "name": "\"An Invitation or Provocation?\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Burnice's Mindscape: Burning Invitation"
+          "text": "Get by unlocking Burnice's Mindscape: Burning Invitation",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321181",
           "name": "\"A Promise Unbroken\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Grace's Mindscape: Detonation Trigger"
+          "text": "Get by unlocking Grace's Mindscape: Detonation Trigger",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321191",
           "name": "\"I'll Take Care of It\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Ellen's Mindscape: The Feast Begins"
+          "text": "Get by unlocking Ellen's Mindscape: The Feast Begins",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321201",
           "name": "\"Feathered Blade Approaching\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Asaba Harumasa's Mindscape: Tacit Understanding"
+          "text": "Get by unlocking Asaba Harumasa's Mindscape: Tacit Understanding",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321211",
           "name": "\"The Truth\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Rina's Mindscape: Stormy Night's Fright"
+          "text": "Get by unlocking Rina's Mindscape: Stormy Night's Fright",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321221",
           "name": "\"Final Emergency Plan\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Tsukishiro Yanagi's Mindscape: Inhuman Blood"
+          "text": "Get by unlocking Tsukishiro Yanagi's Mindscape: Inhuman Blood",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321241",
           "name": "\"Justice and Order\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Zhu Yuan's Mindscape: Expanded Energy Pack III"
+          "text": "Get by unlocking Zhu Yuan's Mindscape: Expanded Energy Pack III",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321251",
           "name": "\"Drink Hot Water\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Qingyi's Mindscape: Eight Meridians"
+          "text": "Get by unlocking Qingyi's Mindscape: Eight Meridians",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321261",
           "name": "\"Anonymity\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Jane's Mindscape: \"Shady\" Technique"
+          "text": "Get by unlocking Jane's Mindscape: \"Shady\" Technique",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321271",
           "name": "\"Leave It To Me\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Seth's Mindscape: Idealist"
+          "text": "Get by unlocking Seth's Mindscape: Idealist",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321281",
           "name": "\"Taste in Shows\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Piper's Mindscape: Mild Excitement"
+          "text": "Get by unlocking Piper's Mindscape: Mild Excitement",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321291",
           "name": "Conspirator",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Hugo's Mindscape: Crown of Thorns"
+          "text": "Get by unlocking Hugo's Mindscape: Crown of Thorns",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321301",
           "name": "Peach-Flavored Flash Suppressor",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Orphie & Magus' Mindscape: Magic Seed"
+          "text": "Get by unlocking Orphie & Magus' Mindscape: Magic Seed",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321311",
           "name": "Firelight Palm",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Astra Yao's Mindscape: We Are the World"
+          "text": "Get by unlocking Astra Yao's Mindscape: We Are the World",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321321",
           "name": "Impromptu Combat Practice",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Evelyn's Mindscape: Bond of Light and Shadow"
+          "text": "Get by unlocking Evelyn's Mindscape: Bond of Light and Shadow",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321331",
           "name": "Love Like a Bouquet",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Vivian's Mindscape: \"Vivian\""
+          "text": "Get by unlocking Vivian's Mindscape: \"Vivian\"",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321341",
           "name": "\"Non-Business Card\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Zhao's Mindscape: No Value Has Its Own Value"
+          "text": "Get by unlocking Zhao's Mindscape: No Value Has Its Own Value",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321351",
           "name": "Moment of Vulnerability",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Pulchra's Mindscape: Behind the Mask"
+          "text": "Get by unlocking Pulchra's Mindscape: Behind the Mask",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321361",
           "name": "The Bloom of Asphodels",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Trigger's Mindscape: Beyond the River of the Dead"
+          "text": "Get by unlocking Trigger's Mindscape: Beyond the River of the Dead",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321371",
           "name": "\"Clarity of Mind\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Yixuan's Mindscape: Swift Yet Still"
+          "text": "Get by unlocking Yixuan's Mindscape: Swift Yet Still",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321381",
           "name": "Gelatin Silver Dance",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Soldier 0 - Anby's Mindscape: Prequel Protagonist"
+          "text": "Get by unlocking Soldier 0 - Anby's Mindscape: Prequel Protagonist",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321391",
           "name": "\"Super Scary Big Tiger\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Ju Fufu's Mindscape: Roar of My Inner Tiger"
+          "text": "Get by unlocking Ju Fufu's Mindscape: Roar of My Inner Tiger",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321401",
           "name": "Within Her Heterochromatic Gaze",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Alice's Mindscape: A Heart of Thyme"
+          "text": "Get by unlocking Alice's Mindscape: A Heart of Thyme",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321411",
           "name": "Proof of Companionship",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Ukinami Yuzuha's Mindscape: Put Down Roots."
+          "text": "Get by unlocking Ukinami Yuzuha's Mindscape: Put Down Roots.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321421",
           "name": "\"Greater Hermit of the City\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Pan Yinhu's Mindscape: Meridian Theory"
+          "text": "Get by unlocking Pan Yinhu's Mindscape: Meridian Theory",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321431",
           "name": "Another Self",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Ye Shunguang's Mindscape: Lantern Wish"
+          "text": "Get by unlocking Ye Shunguang's Mindscape: Lantern Wish",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321441",
           "name": "The First Safehouse",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Komano Manato's Mindscape: Beyond Dreams of the Past"
+          "text": "Get by unlocking Komano Manato's Mindscape: Beyond Dreams of the Past",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321451",
           "name": "The Story Continues",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Lucia's Mindscape: The Never-Ending Journey"
+          "text": "Get by unlocking Lucia's Mindscape: The Never-Ending Journey",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321461",
           "name": "Pale Blue Flower of Sorrow",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Seed's Mindscape: \"Theory of the Heart\""
+          "text": "Get by unlocking Seed's Mindscape: \"Theory of the Heart\"",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321471",
           "name": "No Way Back",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Banyue's Mindscape: Descended Vidyaraja"
+          "text": "Get by unlocking Banyue's Mindscape: Descended Vidyaraja",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321481",
           "name": "Meet With Me",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Dialyn's Mindscape: Truth"
+          "text": "Get by unlocking Dialyn's Mindscape: Truth",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321491",
           "name": "Teardrop Necklace",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Sunna's Mindscape: \"Hollow Big Bang\""
+          "text": "Get by unlocking Sunna's Mindscape: \"Hollow Big Bang\"",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321501",
           "name": "Kingdom of Delusion",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Aria's Mindscape: Construct's Dream"
+          "text": "Get by unlocking Aria's Mindscape: Construct's Dream",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321511",
           "name": "Tear Gland Insurance",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Nangong Yu's Mindscape: An Angel's Delusion"
+          "text": "Get by unlocking Nangong Yu's Mindscape: An Angel's Delusion",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321521",
           "name": "Couch Royalty",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Cissia's Mindscape: Home and Sixth Street"
+          "text": "Get by unlocking Cissia's Mindscape: Home and Sixth Street",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321531",
           "name": "Hero Pose",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Starlight - Billy's Mindscape: Starlight Knight"
+          "text": "Get by unlocking Starlight - Billy's Mindscape: Starlight Knight",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321541",
           "name": "The Only Option",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Promeia's Mindscape: To Be Continued"
+          "text": "Get by unlocking Promeia's Mindscape: To Be Continued",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321561",
           "name": "Beyond Etiquette",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Velina's Mindscape: Chief Angel"
+          "text": "Get by unlocking Velina's Mindscape: Chief Angel",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321571",
           "name": "En-Nah Time",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Norma's Mindscape: The Primary Cause of Genius"
+          "text": "Get by unlocking Norma's Mindscape: The Primary Cause of Genius",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321581",
           "name": "\"Stray Birds\"",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Remielle's Mindscape: Lone Feather's Endless Flight"
+          "text": "Get by unlocking Remielle's Mindscape: Lone Feather's Endless Flight",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3321591",
           "name": "Armor Maintenance",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Calling Card"
           },
-          "text": "Get by unlocking Sigrid's Mindscape: Knight of the Skies"
+          "text": "Get by unlocking Sigrid's Mindscape: Knight of the Skies",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3500000",
@@ -45150,12 +45642,14 @@
           "id": "zzz-item-3651013",
           "name": "Special Beach Souvenir",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Photowall Item"
           },
-          "text": "A special souvenir that can be displayed on the Memory Board."
+          "text": "A special souvenir that can be displayed on the Memory Board.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3690001",
@@ -45596,11 +46090,13 @@
           "id": "zzz-item-3800001",
           "name": "Gear Coins",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "2 \u2605"
           },
-          "text": "Gear Coins"
+          "text": "Gear Coins",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-3800100",
@@ -51557,12 +52053,14 @@
           "id": "zzz-item-4160901",
           "name": "Bangvolver",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Bangboo"
           },
-          "text": "Bangboo who can help craft, sell, or be dispatched on adventures at Suibian Temple."
+          "text": "Bangboo who can help craft, sell, or be dispatched on adventures at Suibian Temple.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-4161001",
@@ -56553,61 +57051,73 @@
           "id": "zzz-item-4350181",
           "name": "[Blueprint] Advanced Gear - Attack - Lv.20",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "2 \u2605"
           },
-          "text": "Blueprints can be used to unlock crafting recipes for the corresponding Items at the Smart Workshop. They can be purchased from Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: After triggering a Perfect Dodge, all Agents in the squad gain 15% ATK for 15s. Repeated triggers refresh the duration."
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding Items at the Smart Workshop. They can be purchased from Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: After triggering a Perfect Dodge, all Agents in the squad gain 15% ATK for 15s. Repeated triggers refresh the duration.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-4350182",
           "name": "[Blueprint] Advanced Gear - Stun - Lv.20",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "2 \u2605"
           },
-          "text": "Blueprints can be used to unlock crafting recipes for the corresponding Items in the Smart Workshop. They can be purchased from Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: Exclusive to Stun Agents, provides attribute bonuses"
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding Items in the Smart Workshop. They can be purchased from Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: Exclusive to Stun Agents, provides attribute bonuses",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-4350183",
           "name": "[Blueprint] Advanced Gear - Anomaly - Lv.20",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "2 \u2605"
           },
-          "text": "Blueprints can be used to unlock crafting recipes for the corresponding Item at the Smart Workshop. Available for purchase via Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: When accumulating Attribute Anomaly buildup, the whole squad's Anomaly Mastery increases by 20 for 10s. Repeated triggers refresh the duration."
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding Item at the Smart Workshop. Available for purchase via Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: When accumulating Attribute Anomaly buildup, the whole squad's Anomaly Mastery increases by 20 for 10s. Repeated triggers refresh the duration.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-4350184",
           "name": "[Blueprint] Advanced Gear - Support - Lv.20",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "2 \u2605"
           },
-          "text": "Blueprints can be used to unlock crafting recipes for the corresponding Items in the Smart Workshop. Can be purchased from Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: Exclusive to Support-type Agents, provides Stat bonuses."
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding Items in the Smart Workshop. Can be purchased from Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: Exclusive to Support-type Agents, provides Stat bonuses.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-4350185",
           "name": "[Blueprint] Advanced Gear - Rupture - Lv.20",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "2 \u2605"
           },
-          "text": "Blueprints can be used to unlock crafting recipes for the corresponding items at the Smart Workshop. Available for purchase at Boojee's Store under Blueprints.\n\nItem Effect: When an attack hits an enemy, increases your own CRIT Rate by 5%, stacking up to 4 times, lasting 10 seconds."
+          "text": "Blueprints can be used to unlock crafting recipes for the corresponding items at the Smart Workshop. Available for purchase at Boojee's Store under Blueprints.\n\nItem Effect: When an attack hits an enemy, increases your own CRIT Rate by 5%, stacking up to 4 times, lasting 10 seconds.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-4350186",
           "name": "[Blueprint] Advanced Gear - Defense - Lv.20",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "2 \u2605"
           },
-          "text": "Blueprints can be used to unlock crafting recipes for corresponding Items in the Smart Workshop. Available for purchase via Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: Exclusive to Defense-type Agents, provides Stats bonuses"
+          "text": "Blueprints can be used to unlock crafting recipes for corresponding Items in the Smart Workshop. Available for purchase via Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: Exclusive to Defense-type Agents, provides Stats bonuses",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-4350201",
@@ -57763,51 +58273,61 @@
           "id": "zzz-item-4360041",
           "name": "Ruby Ring",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "5 \u2605"
           },
-          "text": "A large ring crafted from ruby. A certified Buyan antique from Eridu. Slip it on your finger, and it's like a neon sign flashes above your head reading \"Old Money\" and \"Aristocrat.\""
+          "text": "A large ring crafted from ruby. A certified Buyan antique from Eridu. Slip it on your finger, and it's like a neon sign flashes above your head reading \"Old Money\" and \"Aristocrat.\"",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-4360042",
           "name": "\"Blood Cicada\" Accessory",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "5 \u2605"
           },
-          "text": "A custom pendant called \"Blood Cicada,\" certified by Buyan as authentic Waifei Peninsula-style jewelry. Unlike the cicada's traditional symbolism of good fortune, the Blood Cicada carries a cautionary meaning \u2014 a warning to guard what you've built and protect what you call home."
+          "text": "A custom pendant called \"Blood Cicada,\" certified by Buyan as authentic Waifei Peninsula-style jewelry. Unlike the cicada's traditional symbolism of good fortune, the Blood Cicada carries a cautionary meaning \u2014 a warning to guard what you've built and protect what you call home.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-4360043",
           "name": "En O'Clock (Icedawn White)",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "5 \u2605"
           },
-          "text": "A desk alarm clock from S\u0101n-Z STUDIO. Early-winter Day Break white, with an \"mm-hmm\" chime on the hour. The perfect way to mark a whole year of hard work."
+          "text": "A desk alarm clock from S\u0101n-Z STUDIO. Early-winter Day Break white, with an \"mm-hmm\" chime on the hour. The perfect way to mark a whole year of hard work.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-4360044",
           "name": "Boo-rick Phone (Amber Orange)",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "5 \u2605"
           },
-          "text": "A long-range radio phone from S\u0101n-Z STUDIO. Making a call? Make it on a Boo-rick Phone! Whether it's gossip, complaints, or whispered secrets, it'll blow you away!"
+          "text": "A long-range radio phone from S\u0101n-Z STUDIO. Making a call? Make it on a Boo-rick Phone! Whether it's gossip, complaints, or whispered secrets, it'll blow you away!",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-4360045",
           "name": "CCTV",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "5 \u2605"
           },
-          "text": "A no-name vintage CCTV monitor. The label says it needs a signal cable connected to output video, but no matter how hard you look, there's not a single signal input port anywhere on the thing\u2026"
+          "text": "A no-name vintage CCTV monitor. The label says it needs a signal cable connected to output video, but no matter how hard you look, there's not a single signal input port anywhere on the thing\u2026",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-4360085",
@@ -57843,11 +58363,13 @@
           "id": "zzz-item-4360088",
           "name": "[Commission] Treasure Radar",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "5 \u2605"
           },
-          "text": "A radar set to a special search frequency that seems to guide you toward high-value areas within the \"Divine Maze\"."
+          "text": "A radar set to a special search frequency that seems to guide you toward high-value areas within the \"Divine Maze\".",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-4360089",
@@ -57963,11 +58485,13 @@
           "id": "zzz-item-4362001",
           "name": "Blueprint",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "4 \u2605"
           },
-          "text": "Zenkov-Blueprint"
+          "text": "Zenkov-Blueprint",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-4363501",
@@ -58774,188 +59298,222 @@
           "id": "zzz-item-11000201",
           "name": "Shadow of Horror I",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Bless"
           },
-          "text": "Dead End Butcher deals 20% more DMG."
+          "text": "Dead End Butcher deals 20% more DMG.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-11000202",
           "name": "Shadow of Horror II",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Bless"
           },
-          "text": "Dead End Butcher deals 30% more DMG."
+          "text": "Dead End Butcher deals 30% more DMG.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-11000203",
           "name": "Shadow of Horror III",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Bless"
           },
-          "text": "The Dead End Butcher deals 40% more DMG. He restores a small amount of HP when he hits squad members."
+          "text": "The Dead End Butcher deals 40% more DMG. He restores a small amount of HP when he hits squad members.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-11000204",
           "name": "Shadow of Horror IV",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Bless"
           },
-          "text": "The Dead End Butcher deals 50% more DMG. He restores Daze and a small amount of HP when he hits squad members."
+          "text": "The Dead End Butcher deals 50% more DMG. He restores Daze and a small amount of HP when he hits squad members.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-11000205",
           "name": "Shadow of Horror V",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Bless"
           },
-          "text": "The Dead End Butcher deals 50% more DMG. He restores Daze and a small amount of HP when he hits squad members."
+          "text": "The Dead End Butcher deals 50% more DMG. He restores Daze and a small amount of HP when he hits squad members.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-11000211",
           "name": "Megalophobia I",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Bless"
           },
-          "text": "Corruption Complex deals 30% more DMG."
+          "text": "Corruption Complex deals 30% more DMG.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-11000212",
           "name": "Megalophobia II",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Bless"
           },
-          "text": "Corruption Complex deals 40% more DMG. Attacks from allies no longer accumulate Daze, but breaking weak spots inflicts a substantial amount of Daze."
+          "text": "Corruption Complex deals 40% more DMG. Attacks from allies no longer accumulate Daze, but breaking weak spots inflicts a substantial amount of Daze.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-11000213",
           "name": "Megalophobia III",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Bless"
           },
-          "text": "Corruption Complex deals 50% more DMG. Attacks from allies no longer accumulate Daze, but breaking weak spots inflicts a substantial amount of Daze."
+          "text": "Corruption Complex deals 50% more DMG. Attacks from allies no longer accumulate Daze, but breaking weak spots inflicts a substantial amount of Daze.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-11000214",
           "name": "Megalophobia IV",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Bless"
           },
-          "text": "Corruption Complex deals 50% more DMG. Attacks from allies no longer accumulate Daze, but breaking weak spots inflicts a substantial amount of Daze."
+          "text": "Corruption Complex deals 50% more DMG. Attacks from allies no longer accumulate Daze, but breaking weak spots inflicts a substantial amount of Daze.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-11000221",
           "name": "Uncanny Valley I",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Bless"
           },
-          "text": "Twin Marionettes deal 40% more DMG."
+          "text": "Twin Marionettes deal 40% more DMG.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-11000222",
           "name": "Uncanny Valley II",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Bless"
           },
-          "text": "Twin Marionettes deal 50% more DMG and revive much faster."
+          "text": "Twin Marionettes deal 50% more DMG and revive much faster.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-11000223",
           "name": "Uncanny Valley III",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Bless"
           },
-          "text": "Twin Marionettes deal 50% more DMG and revive much faster."
+          "text": "Twin Marionettes deal 50% more DMG and revive much faster.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-11000281",
           "name": "Hay Fever I",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Bless"
           },
-          "text": "Nineveh's DMG increases by 40% and she summons Hornets more frequently.\nA certain amount of HP is lost when exploring new areas. In combat, on-field characters will lose HP gradually."
+          "text": "Nineveh's DMG increases by 40% and she summons Hornets more frequently.\nA certain amount of HP is lost when exploring new areas. In combat, on-field characters will lose HP gradually.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-11000282",
           "name": "Hay Fever II",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Bless"
           },
-          "text": "Nineveh's DMG increases by 50%, she summons Hornets more frequently and activates \"Blooming.\"\nA certain amount of HP is lost when exploring new areas. In combat, on-field characters will lose HP gradually."
+          "text": "Nineveh's DMG increases by 50%, she summons Hornets more frequently and activates \"Blooming.\"\nA certain amount of HP is lost when exploring new areas. In combat, on-field characters will lose HP gradually.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-11000291",
           "name": "Primal Malice I",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Bless"
           },
-          "text": "Typhon Slugger deals 30% more DMG."
+          "text": "Typhon Slugger deals 30% more DMG.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-11000292",
           "name": "Primal Malice II",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Bless"
           },
-          "text": "Typhon Slugger deals 40% more DMG and has Immunity to all Attribute Anomalies."
+          "text": "Typhon Slugger deals 40% more DMG and has Immunity to all Attribute Anomalies.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-11000293",
           "name": "Primal Malice III",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Bless"
           },
-          "text": "Typhon Slugger deals 50% more DMG and has Immunity to all Attribute Anomalies."
+          "text": "Typhon Slugger deals 50% more DMG and has Immunity to all Attribute Anomalies.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-11007030",
@@ -59038,34 +59596,40 @@
           "id": "zzz-item-40003301",
           "name": "Pending",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Hollow Item"
           },
-          "text": "Pending"
+          "text": "Pending",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-40003302",
           "name": "Limited-Frequency EMP Emitter",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Hollow Item"
           },
-          "text": "A plug-in used to eliminate electromagnetic signals from all kinds of devices in the Hollows (including Bangboo). It's only effective within the frequency permitted by Public Security."
+          "text": "A plug-in used to eliminate electromagnetic signals from all kinds of devices in the Hollows (including Bangboo). It's only effective within the frequency permitted by Public Security.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-40003501",
           "name": "Bangboo Temporary Access",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Hollow Item"
           },
-          "text": "Rina gave you temporary access permissions to her Bangboo. You can switch between Drusilla and Anastella's control permissions."
+          "text": "Rina gave you temporary access permissions to her Bangboo. You can switch between Drusilla and Anastella's control permissions.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-40004300",
@@ -60479,12 +61043,14 @@
           "id": "zzz-item-412011302",
           "name": "Accessoriy_412011302",
           "kind": "item",
-          "art": null,
+          "art": "../../Database/Shared/database-fallbacks/zzz.svg",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Outfit Accessories"
           },
-          "text": "A Proxy accessory that can be worn with some of Wise's Proxy outfits."
+          "text": "A Proxy accessory that can be worn with some of Wise's Proxy outfits.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "zzz-item-412011303",

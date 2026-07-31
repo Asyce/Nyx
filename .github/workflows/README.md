@@ -4,7 +4,7 @@ Seven scheduled jobs keep pengo.gg fresh and deploy automatically.
 
 | Workflow | Cadence | What it does |
 |---|---|---|
-| `gamedata-watch.yml` | every 15 min | compare Nanoka's manifest -> when a supported game changed, sync its live/beta JSON and assets -> GameData-only validate -> build -> smoke -> commit -> rebuild with exact commit metadata -> deploy |
+| `gamedata-watch.yml` | hourly, at 20 past | compare Nanoka's manifest -> when a supported game changed, sync its live/beta JSON and assets -> GameData-only validate -> build -> smoke -> commit -> rebuild with exact commit metadata -> deploy |
 | `code-watch.yml` | hourly, plus half-hour checks during detected livestream windows | detect official livestream windows -> active-code-only scrape -> semantic diff -> validate -> commit -> build -> smoke -> deploy only when codes changed |
 | `data-refresh.yml` | every 6h | retry banners + scrape codes -> unit tests -> strict validate -> commit `Database/` -> build -> smoke -> push -> deploy; an expected banner source outage warns and exits as a no-op, while unexpected scraper errors fail red |
 | `roster-sync.yml` | daily | scrape secondary rosters/materials/titles + banners + codes -> structural validate -> commit `Database/` -> build -> smoke -> push -> deploy |
@@ -35,6 +35,26 @@ Before any deploy:
 - Normal mode runs `npm run codes:watch`, which skips expired-table sweeps and Reddit.
 - During active windows listed in `Scraper/codes/livestream-windows.json`, it runs `npm run codes:watch:deep`, which adds Reddit back for the detected game(s) and also enables the half-hour schedule.
 - `--change-gated` ignores timestamp-only changes (`generatedAt`, `lastSuccessfulFetch`, existing `firstSeen`) and leaves `Database/Codes/codes.json` untouched when the actual code set did not change.
+
+## Actions minutes budget
+
+This is a private repo on GitHub Pro, so runs are metered against **3,000 included
+minutes/month**, and **every job is billed a one-minute minimum** even when it starts,
+finds nothing to do, and exits in seconds. Polling cadence therefore costs minutes
+whether or not any work happens.
+
+Approximate monthly floor at current cadences:
+
+| Workflow | Runs/month | Billed floor |
+|---|---|---|
+| `gamedata-watch.yml` (hourly) | ~720 | ~720 min |
+| `code-watch.yml` (:07 + :37) | ~1,440 | ~1,440 min |
+| `data-refresh.yml` + `banner-history-refresh.yml` (every 6h) | ~240 | ~240 min |
+| three daily syncs | ~90 | ~90 min |
+
+In July 2026 `gamedata-watch.yml` ran every 15 minutes (~2,880 runs) and the account hit
+the cap on the 30th; jobs then refused to start until the cycle reset. Before increasing
+any cron frequency, check the headroom against this table.
 
 ## Required repository secrets
 

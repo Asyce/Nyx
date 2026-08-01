@@ -37,6 +37,11 @@ test('every scheduled deploy pushes the exact commit before publishing R2 manife
     assert.match(syncBlock, /env\.DATABASE_ASSET_MODE != 'local'/);
     const deployBlock = source.slice(deploy);
     assert.match(deployBlock, /env\.DATABASE_ASSET_MODE == 'local' \|\| steps\.r2_sync\.outputs\.ready == 'true'/);
+    const smokeBlocks = source.match(/- name: Smoke[^\n]*[\s\S]*?(?=\n      - name:)/g) || [];
+    assert(smokeBlocks.length > 0, `${name} has a deploy smoke step`);
+    for (const block of smokeBlocks.filter((entry) => entry.includes('smoke:deploy'))) {
+      assert.match(block, /PENGO_DATABASE_ASSET_MODE:/, `${name} smoke uses the same explicit Database asset mode as its build`);
+    }
   }
 });
 
@@ -53,6 +58,8 @@ test('manual rollout never mutates repository variables and has mode-aware rollb
   assert(source.indexOf('git push') < source.indexOf('- name: Additively reconcile Database assets and manifests'));
   const currentR2Smoke = source.match(/- name: Smoke exact current R2-only artifact[\s\S]*?(?=\n      - name:)/)?.[0] || '';
   assert.match(currentR2Smoke, /PENGO_DATABASE_ASSET_MODE: r2-only/);
+  const currentDualSmoke = source.match(/- name: Smoke exact dual deploy artifact[\s\S]*?(?=\n      - name:)/)?.[0] || '';
+  assert.match(currentDualSmoke, /PENGO_DATABASE_ASSET_MODE: dual/);
   const audit = source.indexOf('- name: Additively reconcile Database assets and manifests');
   const refreshAfterAudit = source.indexOf('- name: Refresh deployment launcher snapshot after R2 audit');
   const deploymentCommit = source.indexOf('id: deployment_snapshot');

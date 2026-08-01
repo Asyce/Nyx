@@ -146,6 +146,8 @@ jobs:
       - name: Smoke rebased deploy artifact
         if: ${{ steps.manifest.outputs.changed == 'true' }}
         working-directory: Site
+        env:
+          PENGO_DATABASE_ASSET_MODE: local
         run: npm run smoke:deploy:generated
 
       - name: Amend rebased generated output
@@ -177,6 +179,8 @@ jobs:
       - name: Smoke exact deploy artifact
         if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' }}
         working-directory: Site
+        env:
+          PENGO_DATABASE_ASSET_MODE: ${{ vars.DATABASE_ASSET_MODE || 'local' }}
         run: npm run smoke:deploy
 
       - name: Push verified GameData

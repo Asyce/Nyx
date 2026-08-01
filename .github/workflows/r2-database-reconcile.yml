@@ -77,6 +77,8 @@ jobs:
       - name: Smoke exact dual deploy artifact
         if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' && env.DATABASE_ASSET_MODE != 'r2-only' }}
         working-directory: Site
+        env:
+          PENGO_DATABASE_ASSET_MODE: dual
         run: npm run smoke:deploy
 
       - name: Build exact current R2-only artifact

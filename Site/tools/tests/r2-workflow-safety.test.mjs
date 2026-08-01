@@ -51,6 +51,8 @@ test('manual rollout never mutates repository variables and has mode-aware rollb
   assert.match(source, /npm run build:deploy/);
   assert.match(source, /npm run smoke:deploy/);
   assert(source.indexOf('git push') < source.indexOf('- name: Additively reconcile Database assets and manifests'));
+  const currentR2Smoke = source.match(/- name: Smoke exact current R2-only artifact[\s\S]*?(?=\n      - name:)/)?.[0] || '';
+  assert.match(currentR2Smoke, /PENGO_DATABASE_ASSET_MODE: r2-only/);
   for (const id of ['deploy_dual', 'verify_dual', 'restore_local', 'deploy_r2', 'verify_r2', 'restore_dual', 'rollback_r2']) {
     assert.match(source, new RegExp(`id: ${id}\\b`));
   }

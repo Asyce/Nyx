@@ -90,6 +90,8 @@ jobs:
       - name: Smoke exact current R2-only artifact
         if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' && env.DATABASE_ASSET_MODE == 'r2-only' }}
         working-directory: Site
+        env:
+          PENGO_DATABASE_ASSET_MODE: r2-only
         run: npm run smoke:deploy
 
       - name: Push verified launcher snapshot

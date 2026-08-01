@@ -118,6 +118,8 @@ jobs:
       - name: Smoke deploy artifact
         if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' }}
         working-directory: Site
+        env:
+          PENGO_DATABASE_ASSET_MODE: ${{ vars.DATABASE_ASSET_MODE || 'local' }}
         run: npm run smoke:deploy
 
       - name: Push verified data
